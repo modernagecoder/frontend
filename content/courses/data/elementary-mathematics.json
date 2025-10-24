@@ -1,0 +1,1606 @@
+{
+  "meta": {
+    "slug": "elementary-mathematics-complete-masterclass",
+    "title": "Complete Elementary Mathematics Masterclass - Foundation to Advanced (Grade 1-5)",
+    "description": "The most comprehensive 2-year elementary mathematics program. From counting basics to advanced problem-solving. Master numbers, operations, fractions, geometry, measurement, data analysis, and real-world applications with interactive learning methods.",
+    "keywords": [
+      "elementary mathematics",
+      "grade 1 math",
+      "grade 2 math",
+      "grade 3 math",
+      "grade 4 math",
+      "grade 5 math",
+      "basic arithmetic",
+      "fractions decimals",
+      "geometry basics",
+      "problem solving",
+      "math foundations",
+      "number sense",
+      "measurement",
+      "data analysis",
+      "mental math",
+      "math for kids"
+    ],
+    "category": "Elementary Mathematics Education",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "24 months (104 weeks)",
+    "level": "Complete Beginner to Advanced Elementary Mathematics",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "Elementary Mathematics Proficiency Certificate upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Elementary Mathematics Masterclass",
+    "tagline": "From Counting to Complex Problem-Solving - Building Mathematical Minds",
+    "description": "This comprehensive 2-year program transforms learners into confident mathematics problem-solvers. Whether you're a young student, parent helping children, teacher seeking resources, or adult learner filling gaps, this masterclass covers every aspect of elementary mathematics.\n\nYou'll master fundamental concepts through interactive lessons, visual learning, hands-on activities, and real-world applications. Progress from basic counting to advanced problem-solving, building strong foundations for higher mathematics. By completion, you'll have solved 5000+ problems, completed 100+ projects, and developed exceptional numerical literacy.",
+    "what_makes_this_different": [
+      "Visual and interactive learning approach",
+      "Adaptive pacing for different learning speeds",
+      "Real-world applications and practical problems",
+      "Games and activities for engagement",
+      "Parent/teacher guidance materials included",
+      "Multiple problem-solving strategies taught",
+      "Mental math techniques emphasized",
+      "Strong conceptual understanding focus"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-6): Numbers, Basic Operations, Shapes, Patterns",
+      "phase_2": "Core Skills (Months 7-12): Advanced Operations, Fractions, Measurement, Data",
+      "phase_3": "Advanced Concepts (Months 13-18): Decimals, Complex Geometry, Advanced Problem-Solving",
+      "phase_4": "Mastery & Applications (Months 19-24): Integration, Real-World Math, Competition Prep"
+    },
+    "career_outcomes": [
+      "Strong mathematical foundation for middle school",
+      "Problem-solving skills for life",
+      "Preparation for advanced mathematics",
+      "Competition mathematics readiness",
+      "STEM career foundation"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)",
+    "description": "Build rock-solid foundations in numbers, basic operations, shapes, and mathematical thinking.",
+    "month_1_2": {
+      "title": "Months 1-2: Numbers and Counting Mastery",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Numbers and Counting",
+        "topics": [
+          "What are numbers? History and importance",
+          "Counting 1-20: objects, fingers, visual aids",
+          "Number recognition and writing practice",
+          "Number words: spelling one to twenty",
+          "Before, after, and between numbers",
+          "Counting forward and backward",
+          "Skip counting by 2s introduction",
+          "Zero concept and its importance",
+          "One-to-one correspondence",
+          "Greater than, less than concepts",
+          "Equal to understanding",
+          "Number line introduction 0-20"
+        ],
+        "projects": [
+          "Create number book with illustrations",
+          "Number hunt around the house",
+          "Build counting games with everyday objects"
+        ],
+        "practice": "Daily: 30 min counting practice, 1 hour number activities"
+      },
+      "week_3_4": {
+        "title": "Numbers to 100 and Place Value",
+        "topics": [
+          "Counting 21-100 systematically",
+          "Tens and ones concept introduction",
+          "Place value understanding with blocks",
+          "Writing numbers in expanded form",
+          "Number patterns in 100 chart",
+          "Skip counting by 2s, 5s, and 10s",
+          "Even and odd numbers introduction",
+          "Comparing two-digit numbers",
+          "Ordering numbers from least to greatest",
+          "Number bonds to 10",
+          "Introduction to estimation",
+          "Rounding to nearest 10"
+        ],
+        "projects": [
+          "100 chart coloring patterns",
+          "Place value manipulative games",
+          "Create skip counting songs"
+        ],
+        "practice": "Master place value with 50 daily exercises"
+      },
+      "week_5_6": {
+        "title": "Basic Addition (Single Digit)",
+        "topics": [
+          "Addition concept: combining sets",
+          "Plus sign and equals sign meaning",
+          "Addition sentences and vocabulary",
+          "Adding with objects and pictures",
+          "Addition on number line",
+          "Addition facts 0-5",
+          "Addition facts 6-10",
+          "Doubles facts (1+1, 2+2, etc.)",
+          "Near doubles strategy",
+          "Making 10 strategy",
+          "Commutative property (turn-around facts)",
+          "Zero property of addition"
+        ],
+        "projects": [
+          "Addition fact family houses",
+          "Create addition story problems book",
+          "Design addition board game"
+        ],
+        "practice": "Master 100 addition facts through games and drills"
+      },
+      "week_7_8": {
+        "title": "Basic Subtraction (Single Digit)",
+        "topics": [
+          "Subtraction as taking away",
+          "Subtraction as finding difference",
+          "Minus sign understanding",
+          "Subtraction sentences",
+          "Subtraction with objects and pictures",
+          "Subtraction on number line",
+          "Subtraction facts 0-10",
+          "Fact families: addition and subtraction",
+          "Related facts connection",
+          "Counting back strategy",
+          "Counting up strategy",
+          "Think addition to subtract"
+        ],
+        "projects": [
+          "Subtraction story problems collection",
+          "Fact family triangles craft",
+          "Subtraction bowling game"
+        ],
+        "practice": "Master subtraction facts through 10"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Advanced Operations and Problem-Solving",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Two-Digit Addition",
+        "topics": [
+          "Adding multiples of 10",
+          "Adding two-digit numbers without regrouping",
+          "Vertical addition alignment",
+          "Adding ones, then tens strategy",
+          "Breaking apart numbers to add",
+          "Addition with regrouping introduction",
+          "Carrying concept explanation",
+          "Using base-10 blocks for regrouping",
+          "Addition with multiple addends",
+          "Checking addition with subtraction",
+          "Mental math strategies for addition",
+          "Estimating sums"
+        ],
+        "projects": [
+          "Shopping mall addition game",
+          "Create addition puzzle cards",
+          "Design digital addition calculator"
+        ],
+        "practice": "Solve 200 two-digit addition problems"
+      },
+      "week_11_12": {
+        "title": "Two-Digit Subtraction",
+        "topics": [
+          "Subtracting multiples of 10",
+          "Two-digit subtraction without regrouping",
+          "Vertical subtraction setup",
+          "Subtract ones, then tens",
+          "Subtraction with regrouping introduction",
+          "Borrowing/regrouping concept",
+          "Using manipulatives for regrouping",
+          "Checking subtraction with addition",
+          "Subtraction across zeros",
+          "Mental math for subtraction",
+          "Estimating differences",
+          "Problem-solving with subtraction"
+        ],
+        "projects": [
+          "Subtraction treasure hunt",
+          "Create subtraction word problem cards",
+          "Build subtraction machine model"
+        ],
+        "practice": "Master 200 two-digit subtraction problems"
+      },
+      "week_13_14": {
+        "title": "Introduction to Multiplication",
+        "topics": [
+          "Multiplication as repeated addition",
+          "Groups and arrays understanding",
+          "Times sign and multiplication vocabulary",
+          "Multiplication sentences",
+          "Skip counting connection",
+          "Multiplication by 0 and 1",
+          "Multiplication by 2 and 5",
+          "Multiplication by 10",
+          "Doubles in multiplication",
+          "Using arrays to multiply",
+          "Commutative property of multiplication",
+          "Building multiplication tables"
+        ],
+        "projects": [
+          "Multiplication array art",
+          "Times tables wheel craft",
+          "Create multiplication story book"
+        ],
+        "practice": "Learn multiplication facts 0-5"
+      },
+      "week_15_16": {
+        "title": "Geometry Basics: 2D Shapes",
+        "topics": [
+          "Circle: properties and examples",
+          "Triangle: types and properties",
+          "Square vs rectangle comparison",
+          "Pentagon, hexagon, octagon",
+          "Sides and vertices counting",
+          "Straight vs curved lines",
+          "Open vs closed shapes",
+          "Symmetry introduction",
+          "Lines of symmetry",
+          "Creating patterns with shapes",
+          "Combining shapes to make pictures",
+          "Shape sorting and classification"
+        ],
+        "projects": [
+          "Shape collage artwork",
+          "Geometry in nature scavenger hunt",
+          "Build shapes with craft sticks"
+        ],
+        "practice": "Identify and draw 50 different shapes"
+      },
+      "week_17": {
+        "title": "Month 3-4 Review & Assessment",
+        "topics": [
+          "Operations review",
+          "Problem-solving strategies review",
+          "Mental math techniques",
+          "Geometry concepts recap",
+          "Real-world applications"
+        ],
+        "projects": [
+          "Create math game combining all concepts",
+          "Design math puzzle book",
+          "Build interactive math display"
+        ],
+        "assessment": "Comprehensive test on operations and geometry"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Measurement, Time, and Money",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Time and Calendar",
+        "topics": [
+          "Clock reading: hour hand understanding",
+          "Clock reading: minute hand understanding",
+          "Reading time to the hour",
+          "Reading time to the half hour",
+          "Quarter past and quarter to",
+          "Reading time to 5 minutes",
+          "AM and PM understanding",
+          "Days of the week sequence",
+          "Months of the year",
+          "Reading calendar dates",
+          "Yesterday, today, tomorrow",
+          "Elapsed time simple problems"
+        ],
+        "projects": [
+          "Create personal daily schedule",
+          "Build paper plate clock",
+          "Design calendar for the year"
+        ],
+        "practice": "Read 100 different clock times"
+      },
+      "week_20_21": {
+        "title": "Money and Financial Literacy",
+        "topics": [
+          "Coin identification and values",
+          "Penny, nickel, dime, quarter",
+          "Dollar bills introduction",
+          "Counting coins same type",
+          "Counting mixed coins",
+          "Making change basics",
+          "Dollar and cents notation",
+          "Adding money amounts",
+          "Subtracting money amounts",
+          "Word problems with money",
+          "Needs vs wants concept",
+          "Simple budgeting introduction"
+        ],
+        "projects": [
+          "Classroom store simulation",
+          "Create money math workbook",
+          "Design piggy bank savings tracker"
+        ],
+        "practice": "Solve 100 money word problems"
+      },
+      "week_22_23": {
+        "title": "Length and Height Measurement",
+        "topics": [
+          "Non-standard units measurement",
+          "Introduction to ruler use",
+          "Inches and feet",
+          "Centimeters and meters",
+          "Measuring classroom objects",
+          "Comparing lengths",
+          "Ordering by length",
+          "Estimating lengths",
+          "Perimeter introduction",
+          "Measuring curved lines",
+          "Height measurement",
+          "Distance concepts"
+        ],
+        "projects": [
+          "Measurement scavenger hunt",
+          "Create measurement book",
+          "Build measuring tools"
+        ],
+        "practice": "Measure 50 objects accurately"
+      },
+      "week_24_25": {
+        "title": "Weight and Capacity",
+        "topics": [
+          "Heavy and light comparison",
+          "Balance scale understanding",
+          "Pounds and ounces introduction",
+          "Kilograms and grams basics",
+          "Weighing common objects",
+          "Capacity: full, empty, half",
+          "Cups, pints, quarts, gallons",
+          "Liters and milliliters",
+          "Comparing capacities",
+          "Estimating weight and capacity",
+          "Temperature introduction",
+          "Reading thermometer"
+        ],
+        "projects": [
+          "Kitchen measurement experiments",
+          "Create weight comparison chart",
+          "Design capacity containers game"
+        ],
+        "practice": "Complete 50 measurement activities"
+      },
+      "week_26": {
+        "title": "Phase 1 Capstone Project",
+        "topics": [
+          "Integration of all Phase 1 concepts",
+          "Real-world problem solving",
+          "Project presentation skills",
+          "Mathematical communication",
+          "Reflection on learning"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Math Fair Project",
+          "Create comprehensive math portfolio",
+          "Design math board game using all concepts",
+          "Develop math teaching materials for younger students"
+        ],
+        "assessment": "Phase 1 Final Exam - comprehensive assessment"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Core Mathematics Skills (Months 7-12, Weeks 27-52)",
+    "description": "Master multiplication, division, fractions, advanced geometry, and complex problem-solving.",
+    "month_7_8": {
+      "title": "Months 7-8: Multiplication and Division Mastery",
+      "weeks": "Week 27-35",
+      "week_27_28": {
+        "title": "Advanced Multiplication Facts",
+        "topics": [
+          "Multiplication facts 6-9",
+          "Square numbers understanding",
+          "Patterns in multiplication table",
+          "Tricks for 9s facts",
+          "Multiplication by 11 and 12",
+          "Distributive property introduction",
+          "Breaking apart to multiply",
+          "Doubling and halving strategy",
+          "Multiplication fact fluency drills",
+          "Timed multiplication tests",
+          "Multiplication games and competitions",
+          "Real-world multiplication applications"
+        ],
+        "projects": [
+          "Multiplication facts championship",
+          "Create multiplication tricks book",
+          "Design multiplication app prototype"
+        ],
+        "practice": "Master all multiplication facts 0-12"
+      },
+      "week_29_30": {
+        "title": "Multi-Digit Multiplication",
+        "topics": [
+          "Multiplying by 10, 100, 1000",
+          "Two-digit by one-digit multiplication",
+          "Partial products method",
+          "Standard algorithm introduction",
+          "Area model for multiplication",
+          "Lattice multiplication method",
+          "Three-digit by one-digit",
+          "Two-digit by two-digit basics",
+          "Estimating products",
+          "Checking multiplication with division",
+          "Word problems with multiplication",
+          "Multi-step problems"
+        ],
+        "projects": [
+          "Area model visual guide",
+          "Multiplication method comparison",
+          "Create multiplication story problems"
+        ],
+        "practice": "Solve 200 multi-digit multiplication problems"
+      },
+      "week_31_32": {
+        "title": "Introduction to Division",
+        "topics": [
+          "Division as sharing equally",
+          "Division as repeated subtraction",
+          "Division symbol and vocabulary",
+          "Dividend, divisor, quotient",
+          "Division facts related to multiplication",
+          "Dividing by 1 and itself",
+          "Division by 2, 5, and 10",
+          "Using multiplication to divide",
+          "Fact families with multiplication/division",
+          "Remainders introduction",
+          "Division on number line",
+          "Array model for division"
+        ],
+        "projects": [
+          "Division fact family houses",
+          "Create division story book",
+          "Design fair sharing game"
+        ],
+        "practice": "Master basic division facts"
+      },
+      "week_33_34": {
+        "title": "Long Division",
+        "topics": [
+          "Long division setup",
+          "Divide, multiply, subtract, bring down",
+          "Two-digit divided by one-digit",
+          "Handling remainders",
+          "Checking division with multiplication",
+          "Three-digit divided by one-digit",
+          "Zeros in quotient",
+          "Estimating quotients",
+          "Division word problems",
+          "Interpreting remainders in context",
+          "Mental math division strategies",
+          "Division patterns"
+        ],
+        "projects": [
+          "Long division step-by-step guide",
+          "Division problem generator",
+          "Create division board game"
+        ],
+        "practice": "Complete 150 long division problems"
+      },
+      "week_35": {
+        "title": "Problem-Solving with Operations",
+        "topics": [
+          "Choosing the correct operation",
+          "Multi-step word problems",
+          "Working backward strategy",
+          "Guess and check method",
+          "Drawing diagrams to solve",
+          "Making tables strategy",
+          "Finding patterns in problems",
+          "Writing equations from words",
+          "Checking reasonableness",
+          "Problem-solving plan steps",
+          "Creating own word problems",
+          "Real-world applications"
+        ],
+        "projects": [
+          "Problem-solving strategy poster",
+          "Word problem collection book",
+          "Math detective game"
+        ],
+        "practice": "Solve 100 multi-step word problems"
+      }
+    },
+    "month_9_10": {
+      "title": "Months 9-10: Fractions and Decimals Introduction",
+      "weeks": "Week 36-44",
+      "week_36_37": {
+        "title": "Understanding Fractions",
+        "topics": [
+          "Fraction as part of whole",
+          "Numerator and denominator meaning",
+          "Unit fractions understanding",
+          "Halves, thirds, fourths",
+          "Fifths, sixths, eighths",
+          "Fractions on number line",
+          "Comparing fractions same denominator",
+          "Comparing fractions same numerator",
+          "Equivalent fractions with models",
+          "Simplest form introduction",
+          "Mixed numbers introduction",
+          "Improper fractions basics"
+        ],
+        "projects": [
+          "Fraction pizza party",
+          "Fraction art with paper folding",
+          "Create fraction manipulatives"
+        ],
+        "practice": "Master fraction concepts with 100 exercises"
+      },
+      "week_38_39": {
+        "title": "Operations with Fractions",
+        "topics": [
+          "Adding fractions same denominator",
+          "Subtracting fractions same denominator",
+          "Adding mixed numbers simple",
+          "Subtracting mixed numbers simple",
+          "Finding common denominators",
+          "Adding unlike fractions basics",
+          "Subtracting unlike fractions basics",
+          "Multiplying fraction by whole number",
+          "Fraction of a set",
+          "Word problems with fractions",
+          "Estimating with fractions",
+          "Fractions in measurement"
+        ],
+        "projects": [
+          "Fraction operations cookbook",
+          "Fraction calculator design",
+          "Fraction word problem collection"
+        ],
+        "practice": "Complete 150 fraction operations"
+      },
+      "week_40_41": {
+        "title": "Introduction to Decimals",
+        "topics": [
+          "Decimal point meaning",
+          "Tenths place understanding",
+          "Hundredths place understanding",
+          "Reading decimal numbers",
+          "Writing decimals in words",
+          "Decimals on number line",
+          "Comparing decimals",
+          "Ordering decimals",
+          "Rounding decimals to whole",
+          "Rounding to nearest tenth",
+          "Fractions to decimals (tenths, hundredths)",
+          "Money as decimals"
+        ],
+        "projects": [
+          "Decimal place value chart",
+          "Decimal number line display",
+          "Create decimal comparison game"
+        ],
+        "practice": "Master decimal concepts with 100 exercises"
+      },
+      "week_42_43": {
+        "title": "Decimal Operations",
+        "topics": [
+          "Adding decimals with same places",
+          "Subtracting decimals same places",
+          "Adding decimals different places",
+          "Lining up decimal points",
+          "Adding money with decimals",
+          "Subtracting money with decimals",
+          "Multiplying decimals by 10, 100",
+          "Multiplying decimal by whole number",
+          "Estimating with decimals",
+          "Word problems with decimals",
+          "Decimals in measurement",
+          "Calculator use with decimals"
+        ],
+        "projects": [
+          "Decimal shopping simulation",
+          "Create decimal workbook",
+          "Design decimal maze game"
+        ],
+        "practice": "Solve 150 decimal problems"
+      },
+      "week_44": {
+        "title": "Data and Graphing",
+        "topics": [
+          "Collecting and organizing data",
+          "Tally charts and frequency tables",
+          "Pictographs reading and creating",
+          "Bar graphs horizontal and vertical",
+          "Line plots introduction",
+          "Reading and interpreting graphs",
+          "Finding range, mode, median",
+          "Mean (average) introduction",
+          "Creating surveys",
+          "Double bar graphs",
+          "Making predictions from data",
+          "Data in real world"
+        ],
+        "projects": [
+          "Class survey project",
+          "Create graphing portfolio",
+          "Design data collection app"
+        ],
+        "practice": "Create and interpret 30 different graphs"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 11-12: Advanced Geometry and Measurement",
+      "weeks": "Week 45-52",
+      "week_45_46": {
+        "title": "Advanced 2D Geometry",
+        "topics": [
+          "Types of angles: acute, right, obtuse",
+          "Measuring angles with protractor",
+          "Drawing angles",
+          "Parallel and perpendicular lines",
+          "Types of triangles by sides",
+          "Types of triangles by angles",
+          "Quadrilaterals classification",
+          "Properties of rectangles, squares",
+          "Rhombus and parallelogram",
+          "Trapezoid properties",
+          "Congruent shapes",
+          "Similar shapes basics"
+        ],
+        "projects": [
+          "Geometry art portfolio",
+          "Angle measurement tools",
+          "Create geometry handbook"
+        ],
+        "practice": "Complete 100 geometry exercises"
+      },
+      "week_47_48": {
+        "title": "3D Shapes and Volume",
+        "topics": [
+          "3D shapes: cube, rectangular prism",
+          "Sphere, cylinder, cone",
+          "Pyramid types",
+          "Faces, edges, vertices counting",
+          "Nets of 3D shapes",
+          "Building 3D shapes from nets",
+          "Volume as counting cubes",
+          "Volume of rectangular prism",
+          "Surface area introduction",
+          "Real-world 3D shapes",
+          "Cross-sections basics",
+          "3D shape sorting"
+        ],
+        "projects": [
+          "3D shape construction kit",
+          "Volume exploration lab",
+          "Create 3D shape museum"
+        ],
+        "practice": "Build and analyze 30 3D shapes"
+      },
+      "week_49_50": {
+        "title": "Area and Perimeter",
+        "topics": [
+          "Perimeter of polygons",
+          "Perimeter word problems",
+          "Area by counting squares",
+          "Area of rectangle formula",
+          "Area of square",
+          "Area of triangle introduction",
+          "Area of parallelogram",
+          "Composite figures area",
+          "Perimeter of composite figures",
+          "Area vs perimeter understanding",
+          "Real-world area problems",
+          "Estimating area and perimeter"
+        ],
+        "projects": [
+          "Design dream bedroom with area",
+          "Perimeter and area games",
+          "Create area/perimeter reference"
+        ],
+        "practice": "Solve 100 area/perimeter problems"
+      },
+      "week_51": {
+        "title": "Coordinate Geometry",
+        "topics": [
+          "Coordinate plane introduction",
+          "X-axis and y-axis",
+          "Ordered pairs (x, y)",
+          "Plotting points on grid",
+          "Reading coordinates",
+          "First quadrant focus",
+          "Creating pictures with coordinates",
+          "Distance between points (horizontal/vertical)",
+          "Simple transformations: slides",
+          "Reflections across axes",
+          "Coordinate battleship game",
+          "Real-world coordinate uses"
+        ],
+        "projects": [
+          "Coordinate art gallery",
+          "Treasure map with coordinates",
+          "Design coordinate game"
+        ],
+        "practice": "Plot and identify 100 coordinate points"
+      },
+      "week_52": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Integration of Phase 2 concepts",
+          "Complex problem-solving",
+          "Mathematical reasoning",
+          "Project presentation",
+          "Self-assessment and reflection"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Mathematics Exhibition",
+          "Create math learning center",
+          "Design complete math curriculum game",
+          "Develop math tutoring materials"
+        ],
+        "assessment": "Phase 2 Final Exam - comprehensive evaluation"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Advanced Concepts & Problem-Solving (Months 13-18, Weeks 53-78)",
+    "description": "Master complex operations, advanced fractions/decimals, ratios, percentages, and sophisticated problem-solving.",
+    "month_13_14": {
+      "title": "Months 13-14: Advanced Number Theory",
+      "weeks": "Week 53-61",
+      "week_53_54": {
+        "title": "Large Numbers and Place Value",
+        "topics": [
+          "Numbers to millions",
+          "Place value to millions",
+          "Reading and writing large numbers",
+          "Expanded form to millions",
+          "Comparing large numbers",
+          "Ordering large numbers",
+          "Rounding to any place value",
+          "Scientific notation introduction",
+          "Powers of 10 understanding",
+          "Number patterns in large numbers",
+          "Estimation with large numbers",
+          "Real-world large numbers"
+        ],
+        "projects": [
+          "Large number reference book",
+          "Population studies project",
+          "Create million visualization"
+        ],
+        "practice": "Master large numbers with 100 exercises"
+      },
+      "week_55_56": {
+        "title": "Factors and Multiples",
+        "topics": [
+          "Factors definition and finding",
+          "Factor pairs",
+          "Prime and composite numbers",
+          "Prime factorization",
+          "Factor trees",
+          "Greatest Common Factor (GCF)",
+          "Multiples and common multiples",
+          "Least Common Multiple (LCM)",
+          "Using GCF and LCM",
+          "Divisibility rules 2, 3, 5, 9, 10",
+          "Perfect squares",
+          "Square roots introduction"
+        ],
+        "projects": [
+          "Factor and multiple game",
+          "Prime number sieve activity",
+          "Create divisibility rule guide"
+        ],
+        "practice": "Find factors and multiples of 100 numbers"
+      },
+      "week_57_58": {
+        "title": "Advanced Multiplication Strategies",
+        "topics": [
+          "Three-digit by two-digit multiplication",
+          "Multiplication of decimals basics",
+          "Multiplying by powers of 10",
+          "Mental math multiplication tricks",
+          "Distributive property applications",
+          "Area model for larger numbers",
+          "Partial products extended",
+          "Estimation strategies for products",
+          "Multiplication with variables introduction",
+          "Order of operations with multiplication",
+          "Complex word problems",
+          "Real-world multiplication applications"
+        ],
+        "projects": [
+          "Multiplication strategy handbook",
+          "Mental math competition",
+          "Create multiplication teaching video"
+        ],
+        "practice": "Complete 200 advanced multiplication problems"
+      },
+      "week_59_60": {
+        "title": "Advanced Division Strategies",
+        "topics": [
+          "Three-digit by two-digit division",
+          "Division with decimals in dividend",
+          "Dividing by powers of 10",
+          "Mental division strategies",
+          "Interpreting remainders as fractions",
+          "Interpreting remainders as decimals",
+          "Division estimation techniques",
+          "Compatible numbers for division",
+          "Division with variables basics",
+          "Order of operations with division",
+          "Complex division word problems",
+          "Division in real-world contexts"
+        ],
+        "projects": [
+          "Division strategy guide",
+          "Remainder interpretation examples",
+          "Design division challenge game"
+        ],
+        "practice": "Solve 200 advanced division problems"
+      },
+      "week_61": {
+        "title": "Number Patterns and Sequences",
+        "topics": [
+          "Arithmetic sequences",
+          "Finding the rule in patterns",
+          "Extending number patterns",
+          "Geometric sequences basics",
+          "Fibonacci sequence introduction",
+          "Triangular numbers",
+          "Pattern rules with operations",
+          "Input-output tables",
+          "Function machines concept",
+          "Growing patterns",
+          "Decreasing patterns",
+          "Complex pattern problems"
+        ],
+        "projects": [
+          "Pattern detective notebook",
+          "Create pattern puzzles",
+          "Design sequence generator"
+        ],
+        "practice": "Identify and extend 100 patterns"
+      }
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Advanced Fractions and Decimals",
+      "weeks": "Week 62-70",
+      "week_62_63": {
+        "title": "Complex Fraction Operations",
+        "topics": [
+          "Adding mixed numbers with regrouping",
+          "Subtracting mixed numbers with borrowing",
+          "Finding least common denominator",
+          "Adding three or more fractions",
+          "Fraction multiplication understanding",
+          "Multiplying fractions by fractions",
+          "Multiplying mixed numbers",
+          "Reciprocals introduction",
+          "Division of fractions basics",
+          "Dividing whole numbers by fractions",
+          "Complex fraction word problems",
+          "Fractions in recipes and scaling"
+        ],
+        "projects": [
+          "Fraction operations cookbook",
+          "Fraction calculator model",
+          "Create fraction game show"
+        ],
+        "practice": "Master 200 complex fraction problems"
+      },
+      "week_64_65": {
+        "title": "Advanced Decimal Operations",
+        "topics": [
+          "Multiplying decimals by decimals",
+          "Division with decimals as divisor",
+          "Repeating decimals introduction",
+          "Terminating vs repeating",
+          "Converting fractions to decimals",
+          "Converting decimals to fractions",
+          "Percent as special decimal",
+          "Scientific notation with decimals",
+          "Significant figures basics",
+          "Decimal word problems complex",
+          "Decimals in science contexts",
+          "Calculator strategies with decimals"
+        ],
+        "projects": [
+          "Decimal conversion chart",
+          "Scientific measurement project",
+          "Design decimal Olympics"
+        ],
+        "practice": "Complete 200 decimal operations"
+      },
+      "week_66_67": {
+        "title": "Ratios and Proportions",
+        "topics": [
+          "Ratio concept and notation",
+          "Writing ratios three ways",
+          "Equivalent ratios",
+          "Simplifying ratios",
+          "Ratio tables",
+          "Rates and unit rates",
+          "Price per unit calculations",
+          "Proportion definition",
+          "Solving proportions",
+          "Cross multiplication",
+          "Scale drawings and maps",
+          "Similar figures and ratios"
+        ],
+        "projects": [
+          "Recipe scaling project",
+          "Map scale investigation",
+          "Create ratio/proportion game"
+        ],
+        "practice": "Solve 150 ratio and proportion problems"
+      },
+      "week_68_69": {
+        "title": "Percentages",
+        "topics": [
+          "Percent meaning and symbol",
+          "Percent as per hundred",
+          "Converting percent to decimal",
+          "Converting percent to fraction",
+          "Finding percent of a number",
+          "Mental math with percentages",
+          "10%, 25%, 50%, 75% shortcuts",
+          "Percent increase introduction",
+          "Percent decrease introduction",
+          "Sales tax calculations",
+          "Discount calculations",
+          "Tips and gratuity"
+        ],
+        "projects": [
+          "Shopping with percentages",
+          "Create percent reference guide",
+          "Design discount calculator"
+        ],
+        "practice": "Master 150 percentage problems"
+      },
+      "week_70": {
+        "title": "Mixed Operations and Order",
+        "topics": [
+          "Order of operations introduction",
+          "PEMDAS/BODMAS rule",
+          "Parentheses and brackets",
+          "Exponents in order of operations",
+          "Multiple operations problems",
+          "Nested parentheses",
+          "Writing expressions from words",
+          "Evaluating expressions",
+          "Creating equivalent expressions",
+          "Properties of operations review",
+          "Mental math with mixed operations",
+          "Complex multi-step problems"
+        ],
+        "projects": [
+          "Order of operations poster",
+          "Expression puzzle cards",
+          "Create operations game"
+        ],
+        "practice": "Solve 100 order of operations problems"
+      }
+    },
+    "month_17_18": {
+      "title": "Months 17-18: Advanced Geometry and Measurement",
+      "weeks": "Week 71-78",
+      "week_71_72": {
+        "title": "Advanced Angle Relationships",
+        "topics": [
+          "Complementary angles",
+          "Supplementary angles",
+          "Vertical angles",
+          "Adjacent angles",
+          "Angles in triangles sum to 180°",
+          "Finding missing angles",
+          "Angles in quadrilaterals",
+          "Interior angles of polygons",
+          "Exterior angles basics",
+          "Angle bisectors",
+          "Perpendicular bisectors",
+          "Constructions with compass"
+        ],
+        "projects": [
+          "Angle relationship poster",
+          "Geometric construction kit",
+          "Create angle puzzle game"
+        ],
+        "practice": "Solve 100 angle problems"
+      },
+      "week_73_74": {
+        "title": "Transformations and Symmetry",
+        "topics": [
+          "Translations (slides) in detail",
+          "Reflections (flips) advanced",
+          "Rotations (turns) 90°, 180°, 270°",
+          "Combinations of transformations",
+          "Line symmetry advanced",
+          "Rotational symmetry",
+          "Tessellations introduction",
+          "Creating tessellation patterns",
+          "Transformations on coordinate grid",
+          "Enlargements and reductions",
+          "Scale factor basics",
+          "Symmetry in art and nature"
+        ],
+        "projects": [
+          "Transformation artwork",
+          "Tessellation designs",
+          "Create symmetry portfolio"
+        ],
+        "practice": "Complete 100 transformation exercises"
+      },
+      "week_75_76": {
+        "title": "Circle Geometry",
+        "topics": [
+          "Circle vocabulary: radius, diameter",
+          "Chord and arc definitions",
+          "Center, circumference understanding",
+          "Pi introduction and history",
+          "Circumference formula C = πd",
+          "Circumference formula C = 2πr",
+          "Area of circle A = πr²",
+          "Finding radius from circumference",
+          "Finding radius from area",
+          "Semicircles and quarter circles",
+          "Composite figures with circles",
+          "Real-world circle problems"
+        ],
+        "projects": [
+          "Pi Day celebration materials",
+          "Circle measurement lab",
+          "Design circular art project"
+        ],
+        "practice": "Solve 100 circle problems"
+      },
+      "week_77": {
+        "title": "Advanced Measurement Conversions",
+        "topics": [
+          "Metric system relationships",
+          "Converting within metric system",
+          "Imperial system relationships",
+          "Converting within imperial system",
+          "Metric to imperial conversions",
+          "Area unit conversions",
+          "Volume unit conversions",
+          "Time conversions complex",
+          "Speed, distance, time relationships",
+          "Rate problems",
+          "Dimensional analysis basics",
+          "Real-world conversion problems"
+        ],
+        "projects": [
+          "Conversion reference handbook",
+          "Measurement conversion game",
+          "Create conversion calculator"
+        ],
+        "practice": "Master 150 conversion problems"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Integration of advanced concepts",
+          "Complex problem-solving showcase",
+          "Mathematical modeling",
+          "Project documentation",
+          "Presentation preparation"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Mathematics Research Project",
+          "Create advanced math tutorial series",
+          "Design comprehensive math assessment tool",
+          "Develop math competition preparation materials"
+        ],
+        "assessment": "Phase 3 Final Exam - advanced concepts mastery"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Mastery & Real-World Applications (Months 19-24, Weeks 79-104)",
+    "description": "Master pre-algebra concepts, statistics, probability, mathematical reasoning, and real-world applications.",
+    "month_19_20": {
+      "title": "Months 19-20: Pre-Algebra Foundations",
+      "weeks": "Week 79-87",
+      "week_79_80": {
+        "title": "Variables and Expressions",
+        "topics": [
+          "Variable as unknown number",
+          "Writing algebraic expressions",
+          "Translating words to algebra",
+          "Evaluating expressions",
+          "Substitution method",
+          "Terms and coefficients",
+          "Like terms identification",
+          "Combining like terms",
+          "Distributive property with variables",
+          "Simplifying expressions",
+          "Expression word problems",
+          "Creating expressions from patterns"
+        ],
+        "projects": [
+          "Algebra translation dictionary",
+          "Expression puzzle cards",
+          "Create algebra game"
+        ],
+        "practice": "Write and evaluate 150 expressions"
+      },
+      "week_81_82": {
+        "title": "Simple Equations",
+        "topics": [
+          "Equation vs expression",
+          "Solving one-step addition equations",
+          "Solving one-step subtraction equations",
+          "Solving one-step multiplication equations",
+          "Solving one-step division equations",
+          "Inverse operations concept",
+          "Checking solutions",
+          "Two-step equations introduction",
+          "Equations with fractions basics",
+          "Equations with decimals basics",
+          "Word problems to equations",
+          "Real-world equation applications"
+        ],
+        "projects": [
+          "Equation solving guide",
+          "Balance scale demonstrations",
+          "Create equation puzzle book"
+        ],
+        "practice": "Solve 200 equations"
+      },
+      "week_83_84": {
+        "title": "Inequalities Introduction",
+        "topics": [
+          "Inequality symbols: <, >, ≤, ≥",
+          "Graphing inequalities on number line",
+          "Writing inequalities from words",
+          "Solving one-step inequalities",
+          "Checking inequality solutions",
+          "Real-world inequality situations",
+          "Compound inequalities basics",
+          "And vs or in inequalities",
+          "Graphing solution sets",
+          "Inequality word problems",
+          "Creating inequalities from data",
+          "Systems thinking introduction"
+        ],
+        "projects": [
+          "Inequality visualization tools",
+          "Real-world inequality examples",
+          "Design inequality game"
+        ],
+        "practice": "Solve 100 inequality problems"
+      },
+      "week_85_86": {
+        "title": "Functions and Graphing",
+        "topics": [
+          "Function concept introduction",
+          "Input-output relationships",
+          "Function tables",
+          "Function rules and patterns",
+          "Graphing points review",
+          "Graphing linear patterns",
+          "Slope concept basics",
+          "Positive vs negative slope",
+          "Y-intercept understanding",
+          "Graphing from table of values",
+          "Real-world linear relationships",
+          "Non-linear patterns introduction"
+        ],
+        "projects": [
+          "Function machine model",
+          "Linear relationship investigations",
+          "Create graphing portfolio"
+        ],
+        "practice": "Graph 100 functions and relationships"
+      },
+      "week_87": {
+        "title": "Integer Operations",
+        "topics": [
+          "Negative numbers in context",
+          "Integers on number line",
+          "Absolute value concept",
+          "Adding integers with chips/number line",
+          "Subtracting integers",
+          "Multiplying integers",
+          "Dividing integers",
+          "Integer operation rules",
+          "Order of operations with integers",
+          "Integer word problems",
+          "Temperature and elevation problems",
+          "Financial contexts with integers"
+        ],
+        "projects": [
+          "Integer operations game",
+          "Temperature tracking project",
+          "Create integer reference guide"
+        ],
+        "practice": "Master 150 integer operations"
+      }
+    },
+    "month_21_22": {
+      "title": "Months 21-22: Statistics and Probability",
+      "weeks": "Week 88-96",
+      "week_88_89": {
+        "title": "Advanced Data Analysis",
+        "topics": [
+          "Mean, median, mode review",
+          "Range and outliers",
+          "Quartiles introduction",
+          "Box-and-whisker plots",
+          "Stem-and-leaf plots",
+          "Frequency distributions",
+          "Histograms",
+          "Circle graphs (pie charts)",
+          "Choosing appropriate graphs",
+          "Misleading graphs identification",
+          "Data collection methods",
+          "Surveys and sampling basics"
+        ],
+        "projects": [
+          "Statistical investigation project",
+          "Data visualization portfolio",
+          "Create statistics infographic"
+        ],
+        "practice": "Analyze 50 data sets"
+      },
+      "week_90_91": {
+        "title": "Probability Fundamentals",
+        "topics": [
+          "Probability as likelihood",
+          "Probability scale 0 to 1",
+          "Certain, likely, unlikely, impossible",
+          "Experimental probability",
+          "Theoretical probability",
+          "Favorable outcomes",
+          "Sample space",
+          "Simple probability calculations",
+          "Probability with dice",
+          "Probability with cards",
+          "Probability with spinners",
+          "Compound events introduction"
+        ],
+        "projects": [
+          "Probability experiment lab",
+          "Design probability games",
+          "Create probability reference"
+        ],
+        "practice": "Calculate 100 probabilities"
+      },
+      "week_92_93": {
+        "title": "Combinations and Permutations Basics",
+        "topics": [
+          "Counting principle",
+          "Tree diagrams for counting",
+          "Organized lists",
+          "Combinations introduction",
+          "Permutations introduction",
+          "Difference between combinations and permutations",
+          "Factorial notation basics",
+          "Simple combination problems",
+          "Simple permutation problems",
+          "Probability with combinations",
+          "Real-world counting problems",
+          "Problem-solving strategies"
+        ],
+        "projects": [
+          "Counting methods handbook",
+          "Combination lock mathematics",
+          "Create counting puzzle book"
+        ],
+        "practice": "Solve 100 counting problems"
+      },
+      "week_94_95": {
+        "title": "Statistical Reasoning",
+        "topics": [
+          "Making predictions from data",
+          "Interpolation and extrapolation",
+          "Correlation vs causation",
+          "Bias in data collection",
+          "Random sampling importance",
+          "Margin of error basics",
+          "Confidence basics",
+          "Using statistics to support arguments",
+          "Critical analysis of statistics",
+          "Statistics in media",
+          "Creating statistical reports",
+          "Presenting statistical findings"
+        ],
+        "projects": [
+          "Statistical analysis report",
+          "Media statistics critique",
+          "Design statistical study"
+        ],
+        "practice": "Analyze 30 statistical claims"
+      },
+      "week_96": {
+        "title": "Financial Mathematics",
+        "topics": [
+          "Simple interest calculation",
+          "Compound interest introduction",
+          "Savings and investments basics",
+          "Budget creation and management",
+          "Profit and loss",
+          "Markup and markdown",
+          "Commission calculations",
+          "Tax calculations advanced",
+          "Unit price comparisons",
+          "Best buy problems",
+          "Currency exchange basics",
+          "Financial planning introduction"
+        ],
+        "projects": [
+          "Personal finance portfolio",
+          "Investment simulation game",
+          "Create financial literacy guide"
+        ],
+        "practice": "Solve 100 financial problems"
+      }
+    },
+    "month_23": {
+      "title": "Month 23: Advanced Problem-Solving & Logic",
+      "weeks": "Week 97-100",
+      "week_97": {
+        "title": "Logic and Reasoning",
+        "topics": [
+          "Logical thinking development",
+          "If-then statements",
+          "Converse and inverse",
+          "Truth tables basics",
+          "Venn diagrams advanced",
+          "Set theory basics",
+          "Union and intersection",
+          "Logical puzzles",
+          "Deductive reasoning",
+          "Inductive reasoning",
+          "Proof by example",
+          "Counter-examples"
+        ],
+        "projects": [
+          "Logic puzzle collection",
+          "Venn diagram investigations",
+          "Create reasoning game"
+        ],
+        "practice": "Solve 100 logic problems"
+      },
+      "week_98": {
+        "title": "Problem-Solving Strategies Mastery",
+        "topics": [
+          "Polya's problem-solving method",
+          "Understanding the problem",
+          "Devising a plan",
+          "Carrying out the plan",
+          "Looking back and checking",
+          "Multiple solution methods",
+          "Working backwards mastery",
+          "Guess and check refinement",
+          "Make it simpler strategy",
+          "Look for patterns advanced",
+          "Use a model or diagram",
+          "Eliminate possibilities"
+        ],
+        "projects": [
+          "Problem-solving strategy guide",
+          "Multi-solution problem collection",
+          "Create strategy reference"
+        ],
+        "practice": "Apply strategies to 100 problems"
+      },
+      "week_99": {
+        "title": "Mathematical Investigations",
+        "topics": [
+          "Open-ended problem exploration",
+          "Mathematical conjectures",
+          "Testing hypotheses",
+          "Finding counterexamples",
+          "Generalizing patterns",
+          "Mathematical communication",
+          "Writing mathematical explanations",
+          "Justifying solutions",
+          "Peer review of solutions",
+          "Mathematical debates",
+          "Creating mathematical questions",
+          "Research projects"
+        ],
+        "projects": [
+          "Mathematical investigation journal",
+          "Pattern investigation report",
+          "Create math research project"
+        ],
+        "practice": "Complete 20 investigations"
+      },
+      "week_100": {
+        "title": "Competition Mathematics",
+        "topics": [
+          "Math competition formats",
+          "Time management strategies",
+          "Mental math advanced techniques",
+          "Estimation strategies advanced",
+          "Number sense development",
+          "Pattern recognition mastery",
+          "Lateral thinking problems",
+          "Multi-step problem strategies",
+          "Competition problem types",
+          "Practice competition rounds",
+          "Analyzing solutions",
+          "Learning from mistakes"
+        ],
+        "projects": [
+          "Competition prep handbook",
+          "Practice competition set",
+          "Create math challenge book"
+        ],
+        "practice": "Solve 100 competition-level problems"
+      }
+    },
+    "month_24": {
+      "title": "Month 24: Culmination and Future Preparation",
+      "weeks": "Week 101-104",
+      "week_101_102": {
+        "title": "Real-World Mathematics Applications",
+        "topics": [
+          "Mathematics in architecture",
+          "Mathematics in art and design",
+          "Mathematics in nature",
+          "Mathematics in music",
+          "Mathematics in sports",
+          "Mathematics in cooking",
+          "Mathematics in travel",
+          "Mathematics in technology",
+          "Mathematics in business",
+          "Mathematics in science",
+          "Career connections",
+          "Future mathematics pathways"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Mathematics in My World",
+          "Cross-curricular mathematics project",
+          "Real-world problem-solving portfolio",
+          "Mathematics career exploration"
+        ]
+      },
+      "week_103": {
+        "title": "Comprehensive Review and Integration",
+        "topics": [
+          "Number and operations mastery review",
+          "Algebraic thinking review",
+          "Geometry and measurement review",
+          "Data analysis review",
+          "Problem-solving strategies review",
+          "Making connections across topics",
+          "Identifying strengths and gaps",
+          "Creating personal math reference",
+          "Reflection on learning journey",
+          "Setting future goals",
+          "Preparation for middle school math",
+          "Celebration of achievements"
+        ],
+        "deliverables": [
+          "Complete mathematics portfolio",
+          "Personal reference handbook",
+          "Skills assessment report",
+          "Learning reflection essay",
+          "Future learning plan",
+          "Peer teaching demonstration",
+          "Parent presentation",
+          "Achievement showcase"
+        ]
+      },
+      "week_104": {
+        "title": "Transition to Advanced Mathematics",
+        "topics": [
+          "Preview of middle school mathematics",
+          "Introduction to advanced algebra",
+          "Geometry preview",
+          "Advanced problem-solving",
+          "Study skills for mathematics",
+          "Using technology in math",
+          "Online mathematics resources",
+          "Mathematics communities",
+          "Continuing education options",
+          "Summer mathematics activities",
+          "Maintaining skills",
+          "Lifelong learning in mathematics"
+        ],
+        "deliverables": [
+          "Future learning roadmap",
+          "Resource compilation",
+          "Summer practice plan",
+          "Mathematics goals document",
+          "Skill maintenance schedule",
+          "Advanced topic preview",
+          "Personal achievement record"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - Complete elementary mathematics mastery evaluation"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Number books, Counting games, Shape art, Measurement labs, Time/money projects",
+      "Phase 2: Multiplication championship, Division guides, Fraction cookbooks, Decimal calculators, Geometry portfolios",
+      "Phase 3: Large number investigations, Pattern discoveries, Ratio/proportion applications, Percentage shopping, Circle geometry art",
+      "Phase 4: Algebra games, Statistics reports, Probability experiments, Logic puzzles, Real-world applications"
+    ],
+    "total_projects_built": "100+ projects ranging from simple to complex",
+    "skills_mastered": [
+      "Number Sense: Counting, place value, number relationships, mental math",
+      "Operations: Addition, subtraction, multiplication, division fluency",
+      "Fractions/Decimals: Operations, conversions, real-world applications",
+      "Measurement: Length, weight, capacity, time, money, temperature",
+      "Geometry: 2D/3D shapes, angles, transformations, coordinate geometry",
+      "Data Analysis: Graphs, statistics, interpretation, presentation",
+      "Algebra: Variables, expressions, equations, functions, patterns",
+      "Problem-Solving: Multiple strategies, logical reasoning, mathematical communication",
+      "Applications: Financial literacy, real-world connections, STEM foundations"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_activities": "5-7 hours",
+      "practice_problems": "3-4 hours",
+      "projects": "2-3 hours",
+      "games_and_puzzles": "1-2 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving sessions",
+      "mentorship": "1-on-1 tutoring available",
+      "community": "Parent and student forums",
+      "progress_tracking": "Detailed progress reports",
+      "parent_guides": "Resources for parent support",
+      "adaptive_learning": "Personalized learning paths"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "Elementary Mathematics Mastery Certificate",
+      "skill_badges": "Digital badges for specific skills",
+      "portfolio": "Complete work portfolio",
+      "assessment_reports": "Detailed skill assessments"
+    }
+  },
+  "prerequisites": {
+    "education": "No prior mathematics knowledge required",
+    "age": "Suitable for ages 6+ with appropriate support",
+    "equipment": "Basic school supplies, computer/tablet helpful",
+    "time_commitment": "10-15 hours per week",
+    "language": "Basic reading comprehension",
+    "support": "Parent/guardian support for younger learners"
+  },
+  "who_is_this_for": {
+    "young_students": "Elementary school students (Grades 1-5)",
+    "homeschoolers": "Homeschooling families seeking comprehensive curriculum",
+    "parents": "Parents wanting to support children's learning",
+    "teachers": "Educators seeking supplementary resources",
+    "tutors": "Tutors needing structured curriculum",
+    "adult_learners": "Adults filling mathematics gaps",
+    "esl_students": "English language learners with visual supports"
+  },
+  "learning_outcomes": [
+    "Complete mastery of elementary mathematics",
+    "Strong problem-solving abilities",
+    "Mathematical confidence and enthusiasm",
+    "Preparation for middle school mathematics",
+    "Real-world application skills",
+    "Logical and analytical thinking",
+    "Mathematical communication skills",
+    "Technology integration abilities",
+    "Competition readiness",
+    "STEM career foundation"
+  ],
+  "assessment_methods": {
+    "formative": "Daily practice problems and quizzes",
+    "summative": "End-of-week and unit tests",
+    "projects": "Hands-on project evaluations",
+    "portfolios": "Ongoing portfolio assessment",
+    "peer_assessment": "Peer review activities",
+    "self_assessment": "Reflection and self-evaluation",
+    "performance": "Real-world application tasks"
+  },
+  "course_guarantees": {
+    "satisfaction": "30-day satisfaction guarantee",
+    "progress": "Guaranteed skill improvement",
+    "support": "Unlimited email support",
+    "updates": "Free curriculum updates",
+    "resources": "Access to all supplementary materials",
+    "community": "Lifetime community access"
+  }
+}

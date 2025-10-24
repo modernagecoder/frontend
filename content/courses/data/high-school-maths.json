@@ -1,0 +1,1179 @@
+{
+  "meta": {
+    "slug": "complete-high-school-mathematics-mastery",
+    "title": "Complete High School Mathematics Mastery Program - Grade 9 to 12",
+    "description": "The most comprehensive 1-year accelerated high school mathematics program. Master algebra, geometry, trigonometry, pre-calculus, calculus, and statistics. From basic arithmetic to advanced calculus, preparing students for university-level mathematics and competitive exams.",
+    "keywords": [
+      "high school mathematics",
+      "algebra mastery",
+      "geometry",
+      "trigonometry",
+      "calculus",
+      "statistics",
+      "pre-calculus",
+      "SAT math",
+      "competitive math",
+      "problem solving",
+      "mathematical thinking",
+      "STEM preparation",
+      "university readiness",
+      "mathematical proofs",
+      "applied mathematics"
+    ],
+    "category": "Mathematics Education",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹19,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced High School",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "High School Mathematics Completion Certificate"
+  },
+  "program_overview": {
+    "title": "Complete High School Mathematics Mastery Program",
+    "tagline": "From Basic Arithmetic to Advanced Calculus in 12 Months",
+    "description": "This accelerated program condenses 4 years of high school mathematics into an intensive 12-month journey. Whether you're a student seeking to excel, an adult learner filling gaps, or preparing for competitive exams, this comprehensive program covers every essential mathematical concept from grades 9-12.\n\nYou'll master algebraic thinking, geometric reasoning, trigonometric applications, and calculus fundamentals. Each concept is taught through interactive lessons, real-world applications, and extensive problem-solving practice. By completion, you'll be fully prepared for university-level mathematics and standardized tests.",
+    "what_makes_this_different": [
+      "Accelerated 4-year curriculum in 12 months",
+      "Visual and interactive learning approach",
+      "Real-world applications for every concept",
+      "Adaptive practice problems with instant feedback",
+      "Preparation for SAT, ACT, and competitive exams",
+      "Step-by-step solution explanations",
+      "Weekly assessments and progress tracking",
+      "Personalized learning paths based on strengths/weaknesses"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Algebra I, Linear Equations, Polynomials, Basic Geometry",
+      "phase_2": "Intermediate (Months 4-6): Algebra II, Quadratics, Functions, Coordinate Geometry",
+      "phase_3": "Advanced (Months 7-9): Trigonometry, Pre-Calculus, Sequences, Complex Numbers",
+      "phase_4": "Mastery (Months 10-12): Calculus, Statistics, Probability, Advanced Problem Solving"
+    },
+    "career_outcomes": [
+      "Ready for university-level mathematics",
+      "Prepared for STEM degree programs",
+      "Competitive exam readiness (SAT/ACT perfect scores)",
+      "Strong foundation for engineering, science, economics",
+      "Mathematical thinking for problem-solving careers"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Algebraic Foundations & Basic Geometry (Months 1-3, Weeks 1-13)",
+    "description": "Build strong foundations in algebraic thinking, equation solving, and geometric reasoning. Master the core concepts that form the basis of all advanced mathematics.",
+    "month_1_2": {
+      "title": "Months 1-2: Algebra I Fundamentals",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Number Systems & Algebraic Expressions",
+        "topics": [
+          "Real number system: natural, whole, integers, rational, irrational",
+          "Number line and absolute value",
+          "Properties of real numbers: commutative, associative, distributive",
+          "Order of operations (PEMDAS/BODMAS)",
+          "Exponents and exponent laws",
+          "Scientific notation and significant figures",
+          "Square roots and cube roots",
+          "Simplifying radical expressions",
+          "Variables and algebraic expressions",
+          "Evaluating expressions for given values",
+          "Combining like terms",
+          "Translating word problems to algebraic expressions"
+        ],
+        "projects": [
+          "Create a number system classification chart",
+          "Real-world scientific notation problems",
+          "Algebraic expression calculator design"
+        ],
+        "practice": "Daily: 50 problems on simplification and evaluation"
+      },
+      "week_3_4": {
+        "title": "Linear Equations & Inequalities",
+        "topics": [
+          "Solving one-step equations",
+          "Solving two-step equations",
+          "Multi-step equations with distribution",
+          "Equations with variables on both sides",
+          "Equations with fractions and decimals",
+          "Literal equations and formulas",
+          "Linear inequalities in one variable",
+          "Compound inequalities (AND/OR)",
+          "Absolute value equations",
+          "Absolute value inequalities",
+          "Graphing inequalities on number line",
+          "Word problems leading to linear equations"
+        ],
+        "projects": [
+          "Budget planning with linear equations",
+          "Distance-rate-time problem solver",
+          "Inequality graphing tool"
+        ],
+        "practice": "Solve 100 equations and 50 inequalities with varying complexity"
+      },
+      "week_5_6": {
+        "title": "Polynomials & Operations",
+        "topics": [
+          "Polynomial terminology: degree, coefficient, constant",
+          "Standard form of polynomials",
+          "Adding and subtracting polynomials",
+          "Multiplying monomials",
+          "Multiplying polynomials (FOIL method)",
+          "Multiplying binomials and trinomials",
+          "Special products: (a+b)², (a-b)², (a+b)(a-b)",
+          "Dividing polynomials by monomials",
+          "Long division of polynomials",
+          "Synthetic division introduction",
+          "Pascal's triangle and binomial expansion",
+          "Applications of polynomial operations"
+        ],
+        "projects": [
+          "Polynomial calculator implementation",
+          "Area and volume problems with polynomials",
+          "Pascal's triangle pattern explorer"
+        ],
+        "practice": "Complete 150 polynomial operation problems"
+      },
+      "week_7_8": {
+        "title": "Factoring Techniques",
+        "topics": [
+          "Greatest Common Factor (GCF)",
+          "Factoring by grouping",
+          "Factoring trinomials (a=1)",
+          "Factoring trinomials (a≠1)",
+          "Difference of squares",
+          "Sum and difference of cubes",
+          "Perfect square trinomials",
+          "Complete factoring strategies",
+          "Solving equations by factoring",
+          "Zero product property",
+          "Factor theorem introduction",
+          "Applications in area and optimization"
+        ],
+        "projects": [
+          "Factoring flowchart creation",
+          "Projectile motion problems",
+          "Optimization problem solver"
+        ],
+        "practice": "Factor 200 expressions of varying types"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Systems & Basic Geometry",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Systems of Linear Equations",
+        "topics": [
+          "Graphing linear equations in two variables",
+          "Slope and y-intercept",
+          "Point-slope form and slope-intercept form",
+          "Standard form and intercepts",
+          "Parallel and perpendicular lines",
+          "Systems of linear equations: graphical method",
+          "Substitution method",
+          "Elimination method",
+          "Systems with no solution or infinite solutions",
+          "Three-variable systems introduction",
+          "Matrix representation of systems",
+          "Word problems with systems"
+        ],
+        "projects": [
+          "Supply and demand economic model",
+          "Mixture problem solver",
+          "Linear programming introduction"
+        ],
+        "practice": "Solve 100 systems using different methods"
+      },
+      "week_11_12": {
+        "title": "Introduction to Geometry",
+        "topics": [
+          "Points, lines, and planes",
+          "Angles: acute, right, obtuse, straight, reflex",
+          "Angle relationships: complementary, supplementary, vertical",
+          "Parallel lines and transversals",
+          "Triangles: classification by sides and angles",
+          "Triangle sum theorem",
+          "Exterior angle theorem",
+          "Congruent triangles: SSS, SAS, ASA, AAS, HL",
+          "Similar triangles and proportions",
+          "Pythagorean theorem and its converse",
+          "Special right triangles (45-45-90, 30-60-90)",
+          "Triangle inequalities"
+        ],
+        "projects": [
+          "Triangle solver application",
+          "Architectural design with triangles",
+          "Distance calculator using Pythagorean theorem"
+        ],
+        "practice": "Complete 150 geometry problems"
+      },
+      "week_13": {
+        "title": "Phase 1 Review & Assessment",
+        "topics": [
+          "Comprehensive review of algebraic concepts",
+          "Review of equation solving techniques",
+          "Polynomial and factoring review",
+          "Systems of equations review",
+          "Geometry fundamentals review",
+          "Problem-solving strategies",
+          "Test-taking techniques"
+        ],
+        "projects": [
+          "Create comprehensive formula sheet",
+          "Design practice test for peers",
+          "Real-world application portfolio"
+        ],
+        "assessment": "Phase 1 comprehensive exam covering all topics"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Algebra & Functions (Months 4-6, Weeks 14-26)",
+    "description": "Master quadratic functions, advanced algebraic concepts, coordinate geometry, and function theory. Build strong analytical and graphing skills.",
+    "month_7_8": {
+      "title": "Months 4-5: Quadratics & Functions",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Quadratic Functions & Equations",
+        "topics": [
+          "Quadratic functions: f(x) = ax² + bx + c",
+          "Graphing parabolas: vertex, axis of symmetry",
+          "Maximum and minimum values",
+          "Vertex form: f(x) = a(x-h)² + k",
+          "Converting between standard and vertex form",
+          "Completing the square method",
+          "Quadratic formula derivation and application",
+          "Discriminant and nature of roots",
+          "Complex solutions introduction",
+          "Sum and product of roots",
+          "Quadratic inequalities",
+          "Applications: projectile motion, optimization"
+        ],
+        "projects": [
+          "Projectile motion simulator",
+          "Profit maximization calculator",
+          "Parabola art generator"
+        ],
+        "practice": "Solve 200 quadratic problems"
+      },
+      "week_29_30": {
+        "title": "Exponential & Logarithmic Functions",
+        "topics": [
+          "Exponential functions: f(x) = aˣ",
+          "Properties of exponential functions",
+          "Exponential growth and decay",
+          "The number e and natural exponential",
+          "Compound interest formula",
+          "Introduction to logarithms",
+          "Common and natural logarithms",
+          "Logarithm properties and laws",
+          "Change of base formula",
+          "Solving exponential equations",
+          "Solving logarithmic equations",
+          "Applications: population growth, radioactive decay"
+        ],
+        "projects": [
+          "Compound interest calculator",
+          "Population growth model",
+          "pH scale explorer"
+        ],
+        "practice": "Master 150 exponential and logarithmic problems"
+      },
+      "week_31_32": {
+        "title": "Rational Functions & Expressions",
+        "topics": [
+          "Rational expressions: simplification",
+          "Multiplying and dividing rational expressions",
+          "Adding and subtracting rational expressions",
+          "Complex fractions",
+          "Rational equations",
+          "Extraneous solutions",
+          "Rational functions and graphs",
+          "Vertical and horizontal asymptotes",
+          "Holes in rational functions",
+          "Inverse variation",
+          "Joint and combined variation",
+          "Applications in physics and engineering"
+        ],
+        "projects": [
+          "Lens equation calculator",
+          "Rate problem solver",
+          "Asymptote visualizer"
+        ],
+        "practice": "Complete 150 rational expression problems"
+      },
+      "week_33_34": {
+        "title": "Function Theory & Transformations",
+        "topics": [
+          "Function definition and notation",
+          "Domain and range",
+          "Function operations: addition, subtraction, multiplication, division",
+          "Composite functions",
+          "Inverse functions",
+          "One-to-one functions",
+          "Function transformations: translations",
+          "Reflections and stretches",
+          "Combining transformations",
+          "Even and odd functions",
+          "Piecewise functions",
+          "Greatest integer function"
+        ],
+        "projects": [
+          "Function transformation visualizer",
+          "Composite function calculator",
+          "Inverse function finder"
+        ],
+        "practice": "Work through 200 function problems"
+      },
+      "week_35": {
+        "title": "Conic Sections",
+        "topics": [
+          "Circle equation: center-radius form",
+          "General form of circle equation",
+          "Ellipse: standard form and properties",
+          "Hyperbola: standard form and properties",
+          "Parabola review in conic context",
+          "Identifying conic sections",
+          "Translations of conics",
+          "Systems involving conics",
+          "Applications in astronomy and physics"
+        ],
+        "projects": [
+          "Conic section grapher",
+          "Orbital mechanics simulator",
+          "Architectural design with conics"
+        ],
+        "practice": "Graph and analyze 100 conic sections"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Coordinate Geometry & Vectors",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Advanced Coordinate Geometry",
+        "topics": [
+          "Distance formula in 2D and 3D",
+          "Midpoint formula",
+          "Section formula",
+          "Area of triangle using coordinates",
+          "Collinearity of points",
+          "Equation of line: various forms",
+          "Angle between two lines",
+          "Distance from point to line",
+          "Concurrent lines",
+          "Locus problems",
+          "Transformation geometry: rotation, reflection",
+          "Coordinate proofs"
+        ],
+        "projects": [
+          "Geometry solver application",
+          "GPS distance calculator",
+          "Computer graphics transformer"
+        ],
+        "practice": "Solve 150 coordinate geometry problems"
+      },
+      "week_38_39": {
+        "title": "Introduction to Vectors",
+        "topics": [
+          "Vector vs scalar quantities",
+          "Vector notation and representation",
+          "Vector addition and subtraction",
+          "Scalar multiplication",
+          "Magnitude of a vector",
+          "Unit vectors",
+          "Component form of vectors",
+          "Dot product",
+          "Angle between vectors",
+          "Vector projections",
+          "Applications in physics",
+          "Cross product introduction (3D)"
+        ],
+        "projects": [
+          "Force vector calculator",
+          "Navigation system simulator",
+          "Vector graphics editor"
+        ],
+        "practice": "Complete 100 vector problems"
+      },
+      "week_40_41": {
+        "title": "Sequences and Series",
+        "topics": [
+          "Arithmetic sequences",
+          "Arithmetic series and sum formula",
+          "Geometric sequences",
+          "Geometric series and sum formula",
+          "Infinite geometric series",
+          "Convergence and divergence",
+          "Sigma notation",
+          "Recursive sequences",
+          "Fibonacci sequence",
+          "Mathematical induction",
+          "Binomial theorem",
+          "Applications in finance and nature"
+        ],
+        "projects": [
+          "Loan amortization calculator",
+          "Fibonacci pattern generator",
+          "Series convergence tester"
+        ],
+        "practice": "Work through 150 sequence and series problems"
+      },
+      "week_42_43": {
+        "title": "Complex Numbers",
+        "topics": [
+          "Imaginary unit i",
+          "Complex number form: a + bi",
+          "Operations with complex numbers",
+          "Complex conjugates",
+          "Absolute value of complex numbers",
+          "Complex plane (Argand diagram)",
+          "Polar form of complex numbers",
+          "De Moivre's theorem",
+          "Roots of complex numbers",
+          "Euler's formula introduction",
+          "Applications in engineering",
+          "Solving polynomial equations"
+        ],
+        "projects": [
+          "Complex number calculator",
+          "Mandelbrot set visualizer",
+          "AC circuit analyzer"
+        ],
+        "practice": "Master 100 complex number problems"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Assessment",
+        "topics": [
+          "Comprehensive function review",
+          "Advanced algebra synthesis",
+          "Coordinate geometry mastery check",
+          "Vector applications",
+          "Complex problem solving",
+          "Mathematical modeling"
+        ],
+        "projects": [
+          "Design a complete function analysis tool",
+          "Create mathematical model for real phenomenon",
+          "Build comprehensive problem set with solutions"
+        ],
+        "assessment": "Phase 2 comprehensive exam"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Trigonometry & Pre-Calculus (Months 7-9, Weeks 27-39)",
+    "description": "Master trigonometric functions, identities, and applications. Prepare for calculus with limits, advanced functions, and analytical geometry.",
+    "month_13_14": {
+      "title": "Months 7-8: Trigonometry Mastery",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Trigonometric Ratios & Functions",
+        "topics": [
+          "Angle measurement: degrees and radians",
+          "Arc length and sector area",
+          "Right triangle trigonometry",
+          "Six trigonometric ratios: sin, cos, tan, csc, sec, cot",
+          "Trigonometric ratios of special angles",
+          "Reference angles and coterminal angles",
+          "Unit circle and circular functions",
+          "Trigonometric functions of any angle",
+          "Signs of trigonometric functions in quadrants",
+          "Exact values using unit circle",
+          "Inverse trigonometric functions",
+          "Principal values and general solutions"
+        ],
+        "projects": [
+          "Unit circle interactive tool",
+          "Height and distance calculator",
+          "Trigonometric table generator"
+        ],
+        "practice": "Solve 200 basic trigonometry problems"
+      },
+      "week_55_56": {
+        "title": "Graphing Trigonometric Functions",
+        "topics": [
+          "Graphing sine and cosine functions",
+          "Amplitude, period, and frequency",
+          "Phase shift and vertical shift",
+          "Graphing tangent and cotangent",
+          "Graphing secant and cosecant",
+          "Transformations of trigonometric graphs",
+          "Combining trigonometric functions",
+          "Damped oscillations",
+          "Trigonometric modeling",
+          "Applications: sound waves, tides",
+          "Harmonic motion",
+          "Fourier series introduction"
+        ],
+        "projects": [
+          "Wave generator and analyzer",
+          "Music synthesizer using trig functions",
+          "Tidal prediction model"
+        ],
+        "practice": "Graph 150 trigonometric functions"
+      },
+      "week_57_58": {
+        "title": "Trigonometric Identities",
+        "topics": [
+          "Fundamental identities: Pythagorean, reciprocal, quotient",
+          "Cofunction identities",
+          "Even-odd identities",
+          "Sum and difference formulas",
+          "Double angle formulas",
+          "Half angle formulas",
+          "Product-to-sum formulas",
+          "Sum-to-product formulas",
+          "Proving trigonometric identities",
+          "Simplifying trigonometric expressions",
+          "Conditional identities",
+          "Applications in physics and engineering"
+        ],
+        "projects": [
+          "Identity prover application",
+          "Trigonometric simplifier",
+          "Physics formula derivation tool"
+        ],
+        "practice": "Prove 100 trigonometric identities"
+      },
+      "week_59_60": {
+        "title": "Trigonometric Equations & Applications",
+        "topics": [
+          "Solving basic trigonometric equations",
+          "Equations involving multiple angles",
+          "Equations with trigonometric identities",
+          "Parametric equations",
+          "Eliminating parameters",
+          "Polar coordinates",
+          "Converting between polar and rectangular",
+          "Graphing in polar coordinates",
+          "Rose curves and limacons",
+          "Complex numbers in polar form",
+          "Applications in navigation",
+          "Spherical trigonometry basics"
+        ],
+        "projects": [
+          "Parametric curve plotter",
+          "Polar graphing calculator",
+          "Navigation system using trigonometry"
+        ],
+        "practice": "Solve 150 trigonometric equations"
+      },
+      "week_61": {
+        "title": "Law of Sines and Cosines",
+        "topics": [
+          "Law of sines derivation",
+          "Solving triangles with law of sines",
+          "Ambiguous case (SSA)",
+          "Law of cosines derivation",
+          "Solving triangles with law of cosines",
+          "Area of triangle formulas",
+          "Heron's formula",
+          "Applications in surveying",
+          "Navigation problems",
+          "Vector applications",
+          "3D trigonometry introduction"
+        ],
+        "projects": [
+          "Triangle solver (all cases)",
+          "Surveying application",
+          "GPS triangulation simulator"
+        ],
+        "practice": "Solve 100 triangle problems"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Pre-Calculus & Limits",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Limits and Continuity",
+        "topics": [
+          "Introduction to limits",
+          "Limit notation and terminology",
+          "Evaluating limits graphically",
+          "Evaluating limits numerically",
+          "Evaluating limits algebraically",
+          "One-sided limits",
+          "Limits at infinity",
+          "Infinite limits and vertical asymptotes",
+          "Limit laws and properties",
+          "Squeeze theorem",
+          "Continuity at a point",
+          "Types of discontinuities"
+        ],
+        "projects": [
+          "Limit calculator and visualizer",
+          "Continuity checker",
+          "Asymptote analyzer"
+        ],
+        "practice": "Evaluate 200 limits"
+      },
+      "week_64_65": {
+        "title": "Introduction to Derivatives",
+        "topics": [
+          "Rate of change and slope",
+          "Average rate of change",
+          "Instantaneous rate of change",
+          "Definition of derivative",
+          "Derivative as a limit",
+          "Differentiability and continuity",
+          "Basic differentiation rules",
+          "Power rule",
+          "Product rule introduction",
+          "Quotient rule introduction",
+          "Chain rule introduction",
+          "Applications: velocity and acceleration"
+        ],
+        "projects": [
+          "Derivative calculator",
+          "Motion analyzer",
+          "Tangent line grapher"
+        ],
+        "practice": "Find 150 derivatives"
+      },
+      "week_66_67": {
+        "title": "Mathematical Reasoning & Proofs",
+        "topics": [
+          "Logic and statements",
+          "Truth tables",
+          "Conditional statements",
+          "Biconditional statements",
+          "Logical equivalence",
+          "Methods of proof: direct, indirect",
+          "Proof by contradiction",
+          "Proof by induction (detailed)",
+          "Counter examples",
+          "Set theory basics",
+          "Relations and functions",
+          "Mathematical writing"
+        ],
+        "projects": [
+          "Proof validator",
+          "Logic puzzle solver",
+          "Set operation calculator"
+        ],
+        "practice": "Write 50 mathematical proofs"
+      },
+      "week_68_69": {
+        "title": "Matrices and Determinants",
+        "topics": [
+          "Matrix notation and terminology",
+          "Types of matrices",
+          "Matrix operations: addition, subtraction",
+          "Scalar multiplication",
+          "Matrix multiplication",
+          "Properties of matrix operations",
+          "Identity and inverse matrices",
+          "Determinants (2x2 and 3x3)",
+          "Properties of determinants",
+          "Cramer's rule",
+          "Matrix equations",
+          "Applications in transformations"
+        ],
+        "projects": [
+          "Matrix calculator",
+          "Linear system solver using matrices",
+          "Transformation visualizer"
+        ],
+        "practice": "Complete 100 matrix problems"
+      },
+      "week_70": {
+        "title": "Phase 3 Review & Assessment",
+        "topics": [
+          "Trigonometry comprehensive review",
+          "Pre-calculus concepts review",
+          "Limits and continuity review",
+          "Mathematical reasoning review",
+          "Problem-solving strategies",
+          "Exam preparation techniques"
+        ],
+        "projects": [
+          "Create trigonometry reference guide",
+          "Design pre-calculus problem bank",
+          "Build interactive review tool"
+        ],
+        "assessment": "Phase 3 comprehensive exam"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Calculus & Advanced Topics (Months 10-12, Weeks 40-52)",
+    "description": "Master differential and integral calculus, statistics, probability, and advanced problem-solving techniques for university readiness.",
+    "month_19_20": {
+      "title": "Months 10-11: Calculus",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Differential Calculus",
+        "topics": [
+          "Review of derivative concept",
+          "Differentiation rules (complete)",
+          "Derivatives of trigonometric functions",
+          "Derivatives of exponential functions",
+          "Derivatives of logarithmic functions",
+          "Implicit differentiation",
+          "Logarithmic differentiation",
+          "Higher-order derivatives",
+          "Related rates problems",
+          "Linear approximation",
+          "Differentials",
+          "Error estimation"
+        ],
+        "projects": [
+          "Complete derivative calculator",
+          "Related rates problem solver",
+          "Error analysis tool"
+        ],
+        "practice": "Solve 300 differentiation problems"
+      },
+      "week_81_82": {
+        "title": "Applications of Derivatives",
+        "topics": [
+          "Critical points and extrema",
+          "First derivative test",
+          "Second derivative test",
+          "Concavity and inflection points",
+          "Curve sketching (complete process)",
+          "Optimization problems",
+          "Maximum and minimum word problems",
+          "Mean Value Theorem",
+          "Rolle's Theorem",
+          "L'Hôpital's Rule",
+          "Newton's method",
+          "Applications in economics and physics"
+        ],
+        "projects": [
+          "Function analyzer (complete)",
+          "Optimization problem solver",
+          "Economic model calculator"
+        ],
+        "practice": "Complete 200 application problems"
+      },
+      "week_83_84": {
+        "title": "Integral Calculus",
+        "topics": [
+          "Antiderivatives and indefinite integrals",
+          "Basic integration rules",
+          "Integration by substitution",
+          "Definite integrals",
+          "Fundamental Theorem of Calculus",
+          "Properties of definite integrals",
+          "Integration by parts",
+          "Trigonometric integrals",
+          "Trigonometric substitution",
+          "Partial fractions",
+          "Improper integrals",
+          "Numerical integration: trapezoid, Simpson's rule"
+        ],
+        "projects": [
+          "Integration calculator",
+          "Area calculator using integrals",
+          "Numerical integration tool"
+        ],
+        "practice": "Evaluate 300 integrals"
+      },
+      "week_85_86": {
+        "title": "Applications of Integration",
+        "topics": [
+          "Area between curves",
+          "Volume by disks and washers",
+          "Volume by cylindrical shells",
+          "Arc length",
+          "Surface area of revolution",
+          "Work and energy problems",
+          "Center of mass",
+          "Probability density functions",
+          "Average value of a function",
+          "Applications in physics",
+          "Applications in economics",
+          "Differential equations introduction"
+        ],
+        "projects": [
+          "Volume calculator for solids",
+          "Physics application solver",
+          "Probability distribution analyzer"
+        ],
+        "practice": "Solve 150 application problems"
+      },
+      "week_87": {
+        "title": "Series and Sequences (Calculus)",
+        "topics": [
+          "Infinite sequences",
+          "Convergence of sequences",
+          "Infinite series",
+          "Geometric series (calculus perspective)",
+          "Test for divergence",
+          "Integral test",
+          "Comparison tests",
+          "Ratio and root tests",
+          "Alternating series",
+          "Power series",
+          "Taylor and Maclaurin series",
+          "Applications of series"
+        ],
+        "projects": [
+          "Series convergence tester",
+          "Taylor series calculator",
+          "Function approximator"
+        ],
+        "practice": "Analyze 100 series"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Statistics & Probability",
+      "weeks": "Week 48-52",
+      "week_88_89": {
+        "title": "Descriptive Statistics",
+        "topics": [
+          "Types of data: categorical, numerical",
+          "Measures of central tendency: mean, median, mode",
+          "Measures of spread: range, variance, standard deviation",
+          "Quartiles and box plots",
+          "Percentiles and percentile rank",
+          "Frequency distributions and histograms",
+          "Stem-and-leaf plots",
+          "Scatter plots and correlation",
+          "Linear regression",
+          "Coefficient of determination (R²)",
+          "Outliers and their effects",
+          "Data transformation"
+        ],
+        "projects": [
+          "Statistical calculator suite",
+          "Data visualization dashboard",
+          "Regression analysis tool"
+        ],
+        "practice": "Analyze 50 data sets"
+      },
+      "week_90_91": {
+        "title": "Probability Theory",
+        "topics": [
+          "Sample spaces and events",
+          "Classical probability",
+          "Empirical probability",
+          "Probability axioms",
+          "Addition rule of probability",
+          "Multiplication rule",
+          "Conditional probability",
+          "Independent and dependent events",
+          "Bayes' theorem",
+          "Permutations and combinations",
+          "Binomial probability",
+          "Expected value and variance"
+        ],
+        "projects": [
+          "Probability calculator",
+          "Monte Carlo simulator",
+          "Game theory analyzer"
+        ],
+        "practice": "Solve 150 probability problems"
+      },
+      "week_92_93": {
+        "title": "Probability Distributions",
+        "topics": [
+          "Random variables: discrete and continuous",
+          "Probability mass functions",
+          "Probability density functions",
+          "Cumulative distribution functions",
+          "Binomial distribution",
+          "Poisson distribution",
+          "Geometric distribution",
+          "Normal distribution",
+          "Standard normal distribution (Z-scores)",
+          "Central Limit Theorem",
+          "Sampling distributions",
+          "Chi-square distribution introduction"
+        ],
+        "projects": [
+          "Distribution visualizer",
+          "Normal probability calculator",
+          "Sampling distribution simulator"
+        ],
+        "practice": "Work with 100 distribution problems"
+      },
+      "week_94_95": {
+        "title": "Statistical Inference",
+        "topics": [
+          "Point estimation",
+          "Confidence intervals for means",
+          "Confidence intervals for proportions",
+          "Hypothesis testing framework",
+          "Type I and Type II errors",
+          "Z-tests for means",
+          "T-tests: one-sample, two-sample, paired",
+          "Tests for proportions",
+          "Chi-square test for independence",
+          "ANOVA basics",
+          "P-values and significance levels",
+          "Power of a test"
+        ],
+        "projects": [
+          "Hypothesis testing calculator",
+          "Confidence interval generator",
+          "Statistical test selector"
+        ],
+        "practice": "Conduct 75 hypothesis tests"
+      },
+      "week_96": {
+        "title": "Advanced Problem Solving",
+        "topics": [
+          "Competition mathematics strategies",
+          "Number theory problems",
+          "Combinatorics advanced",
+          "Graph theory basics",
+          "Game theory introduction",
+          "Optimization techniques",
+          "Mathematical modeling",
+          "Cross-topic problem solving",
+          "SAT/ACT preparation",
+          "University entrance exam prep",
+          "Mathematical competitions prep"
+        ],
+        "projects": [
+          "Competition problem solver",
+          "Mathematical game creator",
+          "Exam preparation guide"
+        ],
+        "practice": "Solve 100 competition-level problems"
+      }
+    },
+    "month_23": {
+      "title": "Final Review & Applications",
+      "weeks": "Week 51-52",
+      "week_97": {
+        "title": "Real-World Applications",
+        "topics": [
+          "Mathematics in physics",
+          "Mathematics in engineering",
+          "Mathematics in economics",
+          "Mathematics in computer science",
+          "Mathematics in biology",
+          "Mathematics in finance",
+          "Data science applications",
+          "Machine learning mathematics",
+          "Cryptography basics",
+          "Operations research"
+        ],
+        "projects": [
+          "Interdisciplinary problem solver",
+          "Real-world modeling project",
+          "Career-specific math toolkit"
+        ],
+        "practice": "Apply math to 50 real-world scenarios"
+      },
+      "week_98": {
+        "title": "Technology in Mathematics",
+        "topics": [
+          "Graphing calculators mastery",
+          "Computer algebra systems",
+          "Mathematical software: MATLAB, Mathematica",
+          "Python for mathematics",
+          "Data analysis with spreadsheets",
+          "GeoGebra for visualization",
+          "Desmos graphing",
+          "WolframAlpha usage",
+          "Mathematical typesetting (LaTeX)",
+          "Online resources and tools"
+        ],
+        "projects": [
+          "Create math visualization tool",
+          "Build calculator app",
+          "Develop math learning game"
+        ],
+        "practice": "Master 10 mathematical software tools"
+      },
+      "week_99": {
+        "title": "Mathematical Research Project",
+        "topics": [
+          "Choosing a research topic",
+          "Literature review basics",
+          "Mathematical writing",
+          "Creating mathematical arguments",
+          "Presenting mathematics",
+          "Peer review process",
+          "Mathematical communication",
+          "Visual representations",
+          "Mathematical poster creation",
+          "Oral presentation skills"
+        ],
+        "projects": [
+          "Complete mathematical research paper",
+          "Create presentation on chosen topic",
+          "Design mathematical exhibition"
+        ],
+        "practice": "Present findings to peers"
+      },
+      "week_100": {
+        "title": "University Preparation",
+        "topics": [
+          "University mathematics preview",
+          "Study skills for higher math",
+          "Mathematical maturity",
+          "Abstract thinking development",
+          "Proof-writing skills",
+          "Advanced calculus preview",
+          "Linear algebra introduction",
+          "Discrete mathematics preview",
+          "Mathematical career paths",
+          "Further learning resources"
+        ],
+        "projects": [
+          "University readiness portfolio",
+          "Advanced topic exploration",
+          "Learning plan for next level"
+        ],
+        "practice": "Complete university-level problem sets"
+      }
+    },
+    "month_24": {
+      "title": "Final Assessments & Certification",
+      "weeks": "Week 52",
+      "week_101_102": {
+        "title": "Comprehensive Review - Part 1",
+        "topics": [
+          "Algebra complete review",
+          "Geometry complete review",
+          "Trigonometry complete review",
+          "Functions and graphs review",
+          "Calculus essentials review",
+          "Statistics and probability review",
+          "Problem-solving strategies review",
+          "Formula compilation"
+        ],
+        "projects": [
+          "Create comprehensive study guide",
+          "Build formula reference app",
+          "Design review problem sets"
+        ]
+      },
+      "week_103": {
+        "title": "Comprehensive Review - Part 2 & Mock Exams",
+        "topics": [
+          "Cross-topic problem solving",
+          "Time management strategies",
+          "Error analysis and correction",
+          "Mock exam practice",
+          "SAT/ACT math practice",
+          "AP Calculus practice",
+          "Competition math practice",
+          "Peer tutoring exercises"
+        ],
+        "deliverables": [
+          "Complete practice exam portfolio",
+          "Error analysis report",
+          "Personal progress documentation",
+          "Achievement portfolio"
+        ]
+      },
+      "week_104": {
+        "title": "Final Certification & Future Planning",
+        "topics": [
+          "Final comprehensive examination",
+          "Portfolio presentation",
+          "Skills assessment",
+          "Strengths and areas for growth",
+          "Future learning pathways",
+          "University course selection guidance",
+          "Career planning in STEM",
+          "Lifelong learning in mathematics",
+          "Mathematical community engagement",
+          "Celebration of achievements"
+        ],
+        "deliverables": [
+          "Final certification exam",
+          "Complete portfolio submission",
+          "Self-assessment report",
+          "Future learning plan",
+          "Peer recommendation letters",
+          "Course completion certificate"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - 4-hour examination covering all topics from grades 9-12"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Algebraic calculator, Equation solver, Geometry tool, Pattern generator",
+      "Phase 2: Function analyzer, Graphing calculator, Vector simulator, Complex number visualizer",
+      "Phase 3: Trigonometry suite, Proof assistant, Matrix calculator, Limit explorer",
+      "Phase 4: Calculus toolkit, Statistics dashboard, Probability simulator, Research project",
+      "Final: Comprehensive mathematics portfolio with 50+ solved problems"
+    ],
+    "total_projects_built": "100+ mathematical tools, visualizers, and problem-solving applications",
+    "skills_mastered": [
+      "Algebra: Linear, quadratic, polynomial, rational, exponential, logarithmic",
+      "Geometry: Euclidean, coordinate, transformational, vectors",
+      "Trigonometry: Functions, identities, equations, applications",
+      "Pre-Calculus: Limits, sequences, series, matrices",
+      "Calculus: Differential, integral, applications",
+      "Statistics: Descriptive, inferential, regression",
+      "Probability: Theory, distributions, inference",
+      "Problem Solving: Analytical thinking, proof writing, modeling",
+      "Technology: Calculators, software, programming for math"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "3-4 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "4-5 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving sessions",
+      "mentorship": "1-on-1 tutoring available",
+      "community": "Active student forum",
+      "code_review": "Solution review and feedback",
+      "career_support": "University application guidance",
+      "lifetime_access": "All materials and updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each quarter",
+      "final_certificate": "High School Mathematics Completion Certificate",
+      "linkedin_badge": "Verifiable achievement badge",
+      "industry_recognized": "Accepted by universities",
+      "portfolio_projects": "50+ solved complex problems"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic arithmetic and elementary math",
+    "coding_experience": "None required - math focus",
+    "equipment": "Computer/tablet, internet, calculator",
+    "time_commitment": "10-15 hours per week",
+    "english": "Basic comprehension",
+    "motivation": "Desire to master mathematics"
+  },
+  "who_is_this_for": {
+    "students": "High school students (grades 9-12)",
+    "working_professionals": "Adults needing math skills",
+    "entrepreneurs": "Business owners needing quantitative skills",
+    "freelancers": "Tutors and educators",
+    "kids": "Advanced middle schoolers ready for challenge",
+    "anyone": "Anyone wanting strong mathematical foundation"
+  },
+  "career_paths_after_completion": [
+    "Engineering (all disciplines)",
+    "Data Science and Analytics",
+    "Actuarial Science",
+    "Financial Analysis",
+    "Research Scientist",
+    "Mathematics Teacher/Professor",
+    "Quantitative Trading",
+    "Operations Research",
+    "Software Development (algorithms)",
+    "Economics and Econometrics"
+  ],
+  "salary_expectations": {
+    "after_6_months": "Ready for university STEM programs",
+    "after_12_months": "Qualified for tutoring (₹500-1500/hour)",
+    "after_18_months": "N/A - Educational program",
+    "after_24_months": "N/A - Educational program",
+    "freelance": "₹500-2000/hour for math tutoring",
+    "international": "Strong foundation for STEM careers ($60k-150k+)"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "job_assistance": "University application support",
+    "lifetime_updates": "Access to all future content",
+    "mentorship": "Expert mathematician guidance",
+    "certificate": "Verifiable completion certificate",
+    "portfolio": "Complete problem-solving portfolio"
+  }
+}

@@ -1,0 +1,1609 @@
+{
+  "meta": {
+    "slug": "college-mathematics-complete-masterclass",
+    "title": "Complete College Mathematics Masterclass - Calculus to Advanced Theory",
+    "description": "The most comprehensive 2-year undergraduate mathematics program. From calculus fundamentals to abstract algebra, real analysis, topology, and beyond. Master pure and applied mathematics with rigorous proofs, computational methods, and real-world applications.",
+    "keywords": [
+      "college mathematics",
+      "calculus",
+      "linear algebra",
+      "differential equations",
+      "real analysis",
+      "abstract algebra",
+      "topology",
+      "complex analysis",
+      "numerical methods",
+      "mathematical proofs",
+      "discrete mathematics",
+      "probability theory",
+      "statistics",
+      "mathematical modeling",
+      "advanced mathematics",
+      "undergraduate math"
+    ],
+    "category": "Advanced Mathematics Education",
+    "price": {
+      "group": "₹2499/month",
+      "personal": "₹4999/month",
+      "lifetime": "₹79,999 (one-time)"
+    },
+    "duration": "24 months (104 weeks)",
+    "level": "High School Graduate to Advanced Undergraduate Mathematics",
+    "commitment": "20-25 hours/week recommended",
+    "certification": "Advanced Mathematics Proficiency Certificate upon completion"
+  },
+  "program_overview": {
+    "title": "Complete College Mathematics Masterclass",
+    "tagline": "From Calculus to Cutting-Edge Mathematics - Master the Language of the Universe",
+    "description": "This intensive 2-year program covers the entire undergraduate mathematics curriculum and beyond. Whether you're a college student, self-learner, professional seeking mathematical depth, or preparing for graduate studies, this masterclass transforms you into a mathematical thinker.\n\nYou'll master calculus, linear algebra, abstract algebra, real analysis, topology, and applied mathematics. Learn to write rigorous proofs, solve complex problems, use computational tools, and understand the deep connections between mathematical fields. By completion, you'll have the knowledge equivalent to a mathematics major from a top university.",
+    "what_makes_this_different": [
+      "Complete undergraduate curriculum coverage",
+      "Rigorous proof-writing training",
+      "Computational mathematics integration",
+      "Visual and intuitive explanations",
+      "Historical and philosophical context",
+      "Research paper reading skills",
+      "Graduate school preparation",
+      "Industry applications focus"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-6): Single Variable Calculus, Linear Algebra, Proof Writing",
+      "phase_2": "Core Mathematics (Months 7-12): Multivariable Calculus, ODEs, Discrete Math, Probability",
+      "phase_3": "Advanced Theory (Months 13-18): Real Analysis, Abstract Algebra, Topology, Complex Analysis",
+      "phase_4": "Specializations (Months 19-24): PDEs, Numerical Analysis, Optimization, Research Topics"
+    },
+    "career_outcomes": [
+      "Mathematics Graduate Studies",
+      "Data Science and Machine Learning",
+      "Quantitative Finance",
+      "Research and Academia",
+      "Software Engineering (Algorithms)",
+      "Actuarial Science",
+      "Operations Research",
+      "Mathematical Consulting"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Mathematical Foundations (Months 1-6, Weeks 1-26)",
+    "description": "Build rock-solid foundations in calculus, linear algebra, and mathematical reasoning with proof writing.",
+    "month_1_2": {
+      "title": "Months 1-2: Single Variable Calculus I",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Limits and Continuity",
+        "topics": [
+          "Review of functions: domain, range, composition",
+          "Inverse functions and their properties",
+          "Exponential and logarithmic functions",
+          "Trigonometric functions and identities",
+          "Intuitive notion of limits",
+          "Formal epsilon-delta definition of limits",
+          "Limit laws and computation techniques",
+          "One-sided limits and infinite limits",
+          "Limits at infinity and horizontal asymptotes",
+          "Continuity at a point and on intervals",
+          "Intermediate Value Theorem",
+          "Types of discontinuities"
+        ],
+        "projects": [
+          "Epsilon-delta proof visualizer",
+          "Limit calculator implementation",
+          "Continuity explorer interactive tool"
+        ],
+        "practice": "Complete 100 limit problems with epsilon-delta proofs"
+      },
+      "week_3_4": {
+        "title": "Differentiation",
+        "topics": [
+          "Definition of derivative as a limit",
+          "Geometric interpretation: tangent lines",
+          "Physical interpretation: rates of change",
+          "Differentiability and continuity relationship",
+          "Basic differentiation rules: power, constant, sum",
+          "Product rule and quotient rule",
+          "Chain rule and implicit differentiation",
+          "Derivatives of trigonometric functions",
+          "Derivatives of exponential and logarithmic functions",
+          "Inverse function derivatives",
+          "Higher-order derivatives",
+          "Logarithmic differentiation"
+        ],
+        "projects": [
+          "Derivative visualizer application",
+          "Automatic differentiation engine",
+          "Physics motion simulator"
+        ],
+        "practice": "Master 200 differentiation problems including proofs"
+      },
+      "week_5_6": {
+        "title": "Applications of Derivatives",
+        "topics": [
+          "Linear approximation and differentials",
+          "L'Hôpital's Rule for indeterminate forms",
+          "Critical points and extrema",
+          "First Derivative Test",
+          "Second Derivative Test",
+          "Concavity and inflection points",
+          "Curve sketching comprehensive method",
+          "Optimization problems",
+          "Related rates problems",
+          "Mean Value Theorem",
+          "Rolle's Theorem",
+          "Newton's Method for root finding"
+        ],
+        "projects": [
+          "Optimization problem solver",
+          "Curve sketching software",
+          "Newton's method visualizer"
+        ],
+        "practice": "Solve 150 application problems with full solutions"
+      },
+      "week_7_8": {
+        "title": "Integration Fundamentals",
+        "topics": [
+          "Antiderivatives and indefinite integrals",
+          "Definite integrals and Riemann sums",
+          "Fundamental Theorem of Calculus Part I",
+          "Fundamental Theorem of Calculus Part II",
+          "Basic integration rules",
+          "U-substitution method",
+          "Integration of trigonometric functions",
+          "Integration of exponential and logarithmic functions",
+          "Area between curves",
+          "Volumes by cross-sections",
+          "Volumes by cylindrical shells",
+          "Average value of a function"
+        ],
+        "projects": [
+          "Riemann sum visualizer",
+          "Numerical integration calculator",
+          "Volume calculator for solids of revolution"
+        ],
+        "practice": "Complete 200 integration problems"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Calculus II & Linear Algebra I",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Advanced Integration Techniques",
+        "topics": [
+          "Integration by parts",
+          "Trigonometric integrals and substitutions",
+          "Partial fraction decomposition",
+          "Rational function integration",
+          "Improper integrals Type I and II",
+          "Comparison tests for improper integrals",
+          "Numerical integration: Trapezoidal rule",
+          "Simpson's rule and error bounds",
+          "Arc length calculations",
+          "Surface area of revolution",
+          "Work, force, and energy applications",
+          "Center of mass and moments"
+        ],
+        "projects": [
+          "Advanced integration solver",
+          "Numerical methods comparison tool",
+          "Physics applications simulator"
+        ],
+        "practice": "Master 150 advanced integration problems"
+      },
+      "week_11_12": {
+        "title": "Sequences and Series",
+        "topics": [
+          "Sequences: convergence and divergence",
+          "Monotonic sequences and bounded sequences",
+          "Series and partial sums",
+          "Geometric series and telescoping series",
+          "Divergence test and p-series",
+          "Comparison tests and limit comparison test",
+          "Ratio test and root test",
+          "Alternating series test and error bounds",
+          "Absolute vs conditional convergence",
+          "Power series and radius of convergence",
+          "Taylor and Maclaurin series",
+          "Taylor polynomial approximations and error"
+        ],
+        "projects": [
+          "Series convergence analyzer",
+          "Taylor series visualizer",
+          "Function approximation tool"
+        ],
+        "practice": "Analyze 100 series for convergence with proofs"
+      },
+      "week_13_14": {
+        "title": "Linear Algebra: Vectors and Matrices",
+        "topics": [
+          "Vector spaces: R^n and axioms",
+          "Vector operations: addition, scalar multiplication",
+          "Dot product and cross product",
+          "Vector projections and orthogonality",
+          "Linear combinations and span",
+          "Linear independence and dependence",
+          "Matrix operations: addition, multiplication",
+          "Matrix transpose and properties",
+          "Special matrices: identity, diagonal, symmetric",
+          "Elementary row operations",
+          "Row echelon form and reduced row echelon form",
+          "Gaussian elimination algorithm"
+        ],
+        "projects": [
+          "Matrix calculator implementation",
+          "Vector visualization tool",
+          "Gaussian elimination solver"
+        ],
+        "practice": "Complete 150 linear algebra computations"
+      },
+      "week_15_16": {
+        "title": "Systems of Linear Equations",
+        "topics": [
+          "Consistent vs inconsistent systems",
+          "Homogeneous systems and nontrivial solutions",
+          "Matrix representation of systems",
+          "Augmented matrices and RREF",
+          "Parametric solutions and free variables",
+          "Matrix inverses and invertibility",
+          "Computing inverses using row operations",
+          "Determinants: definition and properties",
+          "Cofactor expansion and row operations",
+          "Cramer's rule for solving systems",
+          "Applications to network flow",
+          "Applications to economics and engineering"
+        ],
+        "projects": [
+          "Linear system solver application",
+          "Determinant calculator",
+          "Network flow optimizer"
+        ],
+        "practice": "Solve 100 systems using various methods"
+      },
+      "week_17": {
+        "title": "Mathematical Proof Writing",
+        "topics": [
+          "Logic and truth tables",
+          "Quantifiers: universal and existential",
+          "Direct proof technique",
+          "Proof by contradiction",
+          "Proof by contrapositive",
+          "Mathematical induction",
+          "Strong induction and well-ordering",
+          "Proof by cases",
+          "Existence and uniqueness proofs",
+          "Counterexamples",
+          "Writing clear mathematical arguments",
+          "Common proof strategies and patterns"
+        ],
+        "projects": [
+          "Proof verification system",
+          "Logic truth table generator",
+          "Induction proof template builder"
+        ],
+        "practice": "Write 50 rigorous mathematical proofs"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Advanced Linear Algebra & Vector Calculus",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Eigenvalues and Eigenvectors",
+        "topics": [
+          "Eigenvalue and eigenvector definition",
+          "Characteristic polynomial",
+          "Finding eigenvalues and eigenvectors",
+          "Algebraic and geometric multiplicity",
+          "Diagonalization of matrices",
+          "Powers of diagonalizable matrices",
+          "Orthogonal matrices and rotations",
+          "Symmetric matrices and spectral theorem",
+          "Quadratic forms",
+          "Principal axes theorem",
+          "Applications to differential equations",
+          "Applications to Markov chains"
+        ],
+        "projects": [
+          "Eigenvalue calculator and visualizer",
+          "Matrix diagonalization tool",
+          "Markov chain simulator"
+        ],
+        "practice": "Find eigenvalues/eigenvectors for 100 matrices"
+      },
+      "week_20_21": {
+        "title": "Vector Spaces and Linear Transformations",
+        "topics": [
+          "Abstract vector spaces and subspaces",
+          "Basis and dimension",
+          "Coordinate systems and change of basis",
+          "Row space, column space, null space",
+          "Rank-nullity theorem",
+          "Linear transformations: definition and properties",
+          "Kernel and image of linear transformation",
+          "Matrix representation of linear transformations",
+          "Composition of linear transformations",
+          "Isomorphisms and invertible transformations",
+          "Similarity of matrices",
+          "Jordan canonical form introduction"
+        ],
+        "projects": [
+          "Linear transformation visualizer",
+          "Change of basis calculator",
+          "Subspace dimension finder"
+        ],
+        "practice": "Analyze 75 linear transformations"
+      },
+      "week_22_23": {
+        "title": "Multivariable Functions and Partial Derivatives",
+        "topics": [
+          "Functions of several variables",
+          "Level curves and level surfaces",
+          "Limits in multiple dimensions",
+          "Continuity for multivariable functions",
+          "Partial derivatives: definition and notation",
+          "Higher-order partial derivatives",
+          "Clairaut's theorem on mixed partials",
+          "Tangent planes and linear approximation",
+          "The gradient vector and directional derivatives",
+          "The chain rule for multivariable functions",
+          "Implicit differentiation in multiple variables",
+          "Jacobian matrices"
+        ],
+        "projects": [
+          "3D function visualizer",
+          "Gradient field plotter",
+          "Tangent plane calculator"
+        ],
+        "practice": "Compute 150 partial derivatives and gradients"
+      },
+      "week_24_25": {
+        "title": "Optimization and Vector Fields",
+        "topics": [
+          "Critical points in multiple dimensions",
+          "Second derivative test for two variables",
+          "Hessian matrix and definiteness",
+          "Global vs local extrema",
+          "Constrained optimization: Lagrange multipliers",
+          "Multiple constraints",
+          "Vector fields and flow lines",
+          "Conservative vector fields",
+          "Potential functions",
+          "Divergence and curl",
+          "Physical interpretations",
+          "Applications to physics and engineering"
+        ],
+        "projects": [
+          "Multivariable optimization solver",
+          "Vector field simulator",
+          "Lagrange multiplier visualizer"
+        ],
+        "practice": "Solve 100 optimization problems"
+      },
+      "week_26": {
+        "title": "Phase 1 Capstone Project",
+        "topics": [
+          "Integration of calculus and linear algebra",
+          "Comprehensive problem solving",
+          "Proof portfolio creation",
+          "Mathematical writing",
+          "Presentation skills"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Mathematical Modeling Project",
+          "Options: Population dynamics, Economic models, Engineering systems",
+          "Complete proof portfolio with 25 original proofs",
+          "Implementation of numerical methods library"
+        ],
+        "assessment": "Phase 1 Comprehensive Exam - Calculus and Linear Algebra"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Core Mathematics (Months 7-12, Weeks 27-52)",
+    "description": "Master multivariable calculus, differential equations, discrete mathematics, and probability theory.",
+    "month_7_8": {
+      "title": "Months 7-8: Multiple Integration & ODEs",
+      "weeks": "Week 27-35",
+      "week_27_28": {
+        "title": "Double and Triple Integrals",
+        "topics": [
+          "Double integrals over rectangles",
+          "Iterated integrals and Fubini's theorem",
+          "Double integrals over general regions",
+          "Reversing order of integration",
+          "Double integrals in polar coordinates",
+          "Applications: area, volume, mass",
+          "Center of mass and moments of inertia",
+          "Triple integrals in rectangular coordinates",
+          "Triple integrals in cylindrical coordinates",
+          "Triple integrals in spherical coordinates",
+          "Change of variables: Jacobians",
+          "Applications to probability and physics"
+        ],
+        "projects": [
+          "Multiple integral calculator",
+          "Volume visualization tool",
+          "Coordinate system converter"
+        ],
+        "practice": "Evaluate 150 multiple integrals"
+      },
+      "week_29_30": {
+        "title": "Line and Surface Integrals",
+        "topics": [
+          "Parametric curves and arc length",
+          "Line integrals of scalar functions",
+          "Line integrals of vector fields",
+          "Work and circulation",
+          "Fundamental theorem for line integrals",
+          "Green's theorem and applications",
+          "Parametric surfaces",
+          "Surface area calculations",
+          "Surface integrals of scalar functions",
+          "Surface integrals of vector fields (flux)",
+          "Stokes' theorem",
+          "Divergence theorem (Gauss's theorem)"
+        ],
+        "projects": [
+          "Line integral visualizer",
+          "Surface parametrization tool",
+          "Vector calculus theorem demonstrator"
+        ],
+        "practice": "Complete 100 vector calculus problems"
+      },
+      "week_31_32": {
+        "title": "First-Order Differential Equations",
+        "topics": [
+          "Classification of differential equations",
+          "Direction fields and solution curves",
+          "Separable equations",
+          "Linear first-order equations",
+          "Integrating factors method",
+          "Exact equations and exactness test",
+          "Homogeneous equations",
+          "Bernoulli equations",
+          "Existence and uniqueness theorems",
+          "Numerical methods: Euler's method",
+          "Improved Euler and Runge-Kutta",
+          "Applications to physics, biology, economics"
+        ],
+        "projects": [
+          "ODE solver implementation",
+          "Direction field plotter",
+          "Numerical methods comparison"
+        ],
+        "practice": "Solve 150 first-order ODEs"
+      },
+      "week_33_34": {
+        "title": "Higher-Order Linear ODEs",
+        "topics": [
+          "Second-order linear equations",
+          "Homogeneous equations with constant coefficients",
+          "Characteristic equation method",
+          "Complex roots and oscillations",
+          "Repeated roots and reduction of order",
+          "Nonhomogeneous equations",
+          "Method of undetermined coefficients",
+          "Variation of parameters",
+          "Higher-order linear equations",
+          "Systems of first-order linear equations",
+          "Matrix exponentials",
+          "Phase plane analysis"
+        ],
+        "projects": [
+          "Second-order ODE solver",
+          "Oscillation simulator",
+          "Phase portrait generator"
+        ],
+        "practice": "Solve 100 higher-order ODEs"
+      },
+      "week_35": {
+        "title": "Laplace Transforms",
+        "topics": [
+          "Definition and existence of Laplace transform",
+          "Transforms of basic functions",
+          "Linearity and shifting theorems",
+          "Transforms of derivatives and integrals",
+          "Inverse Laplace transforms",
+          "Partial fraction decomposition for inverse transforms",
+          "Convolution theorem",
+          "Solving ODEs with Laplace transforms",
+          "Systems of ODEs via Laplace",
+          "Transfer functions",
+          "Applications to control theory",
+          "Discontinuous forcing functions"
+        ],
+        "projects": [
+          "Laplace transform calculator",
+          "Control system analyzer",
+          "ODE system solver via Laplace"
+        ],
+        "practice": "Apply Laplace transforms to 75 problems"
+      }
+    },
+    "month_9_10": {
+      "title": "Months 9-10: Discrete Mathematics",
+      "weeks": "Week 36-44",
+      "week_36_37": {
+        "title": "Set Theory and Relations",
+        "topics": [
+          "Naive set theory and paradoxes",
+          "Set operations: union, intersection, complement",
+          "Power sets and Cartesian products",
+          "Functions as relations",
+          "Injective, surjective, bijective functions",
+          "Cardinality and countability",
+          "Cantor's diagonal argument",
+          "Relations: reflexive, symmetric, transitive",
+          "Equivalence relations and partitions",
+          "Partial orders and Hasse diagrams",
+          "Well-ordering principle",
+          "Axiom of choice introduction"
+        ],
+        "projects": [
+          "Set operation visualizer",
+          "Relation property checker",
+          "Cardinality comparison tool"
+        ],
+        "practice": "Prove 75 set theory theorems"
+      },
+      "week_38_39": {
+        "title": "Combinatorics",
+        "topics": [
+          "Basic counting principles",
+          "Permutations and combinations",
+          "Binomial theorem and Pascal's triangle",
+          "Multinomial coefficients",
+          "Inclusion-exclusion principle",
+          "Pigeonhole principle",
+          "Generating functions",
+          "Recurrence relations",
+          "Solving linear recurrences",
+          "Catalan numbers",
+          "Stirling numbers",
+          "Partitions of integers"
+        ],
+        "projects": [
+          "Combinatorics calculator",
+          "Recurrence relation solver",
+          "Generating function manipulator"
+        ],
+        "practice": "Solve 100 combinatorics problems"
+      },
+      "week_40_41": {
+        "title": "Graph Theory",
+        "topics": [
+          "Graphs: vertices, edges, degree",
+          "Types of graphs: simple, directed, weighted",
+          "Graph representations: adjacency matrix, list",
+          "Paths, cycles, and connectivity",
+          "Trees and spanning trees",
+          "Minimum spanning trees: Kruskal, Prim",
+          "Shortest paths: Dijkstra, Bellman-Ford",
+          "Eulerian and Hamiltonian paths",
+          "Graph coloring and chromatic number",
+          "Planar graphs and Euler's formula",
+          "Bipartite graphs and matching",
+          "Network flows and max-flow min-cut"
+        ],
+        "projects": [
+          "Graph algorithm visualizer",
+          "Network flow optimizer",
+          "Graph coloring solver"
+        ],
+        "practice": "Implement 20 graph algorithms"
+      },
+      "week_42_43": {
+        "title": "Number Theory",
+        "topics": [
+          "Divisibility and greatest common divisors",
+          "Euclidean algorithm and extended version",
+          "Prime numbers and fundamental theorem",
+          "Modular arithmetic",
+          "Chinese Remainder Theorem",
+          "Fermat's Little Theorem",
+          "Euler's theorem and totient function",
+          "Wilson's theorem",
+          "Quadratic residues",
+          "Primitive roots",
+          "RSA cryptography basics",
+          "Diophantine equations"
+        ],
+        "projects": [
+          "Number theory toolkit",
+          "RSA encryption implementation",
+          "Prime number generator"
+        ],
+        "practice": "Prove 50 number theory results"
+      },
+      "week_44": {
+        "title": "Boolean Algebra and Logic",
+        "topics": [
+          "Boolean operations and laws",
+          "Truth tables and logical equivalence",
+          "Normal forms: DNF and CNF",
+          "Karnaugh maps",
+          "Logic gates and circuits",
+          "Minimization of Boolean functions",
+          "Propositional logic and inference rules",
+          "Predicate logic and quantifiers",
+          "Formal proofs in logic",
+          "Completeness and soundness",
+          "Introduction to model theory",
+          "Applications to computer science"
+        ],
+        "projects": [
+          "Logic circuit simulator",
+          "Boolean function minimizer",
+          "Automated theorem prover"
+        ],
+        "practice": "Design 30 logic circuits"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 11-12: Probability and Statistics",
+      "weeks": "Week 45-52",
+      "week_45_46": {
+        "title": "Probability Theory",
+        "topics": [
+          "Sample spaces and events",
+          "Probability axioms and properties",
+          "Conditional probability",
+          "Bayes' theorem and applications",
+          "Independence of events",
+          "Random variables: discrete and continuous",
+          "Probability mass and density functions",
+          "Cumulative distribution functions",
+          "Expected value and variance",
+          "Moment generating functions",
+          "Common discrete distributions",
+          "Common continuous distributions"
+        ],
+        "projects": [
+          "Probability distribution visualizer",
+          "Bayes' theorem calculator",
+          "Monte Carlo simulator"
+        ],
+        "practice": "Solve 150 probability problems"
+      },
+      "week_47_48": {
+        "title": "Joint Distributions and Limit Theorems",
+        "topics": [
+          "Joint probability distributions",
+          "Marginal and conditional distributions",
+          "Independence of random variables",
+          "Covariance and correlation",
+          "Conditional expectation",
+          "Transformations of random variables",
+          "Order statistics",
+          "Law of large numbers",
+          "Central limit theorem",
+          "Normal approximations",
+          "Characteristic functions",
+          "Convergence concepts"
+        ],
+        "projects": [
+          "Joint distribution plotter",
+          "CLT demonstration tool",
+          "Correlation analyzer"
+        ],
+        "practice": "Analyze 100 joint distributions"
+      },
+      "week_49_50": {
+        "title": "Statistical Inference",
+        "topics": [
+          "Point estimation: MLE and method of moments",
+          "Properties of estimators: bias, consistency",
+          "Confidence intervals",
+          "Hypothesis testing framework",
+          "Type I and Type II errors",
+          "Power of tests",
+          "t-tests and chi-square tests",
+          "ANOVA basics",
+          "Nonparametric tests",
+          "Linear regression",
+          "Multiple regression",
+          "Model diagnostics"
+        ],
+        "projects": [
+          "Statistical test suite",
+          "Regression analysis tool",
+          "Power analysis calculator"
+        ],
+        "practice": "Perform 75 statistical analyses"
+      },
+      "week_51": {
+        "title": "Stochastic Processes",
+        "topics": [
+          "Introduction to stochastic processes",
+          "Markov chains: discrete time",
+          "Transition matrices and steady states",
+          "Classification of states",
+          "Absorbing Markov chains",
+          "Continuous-time Markov chains",
+          "Poisson processes",
+          "Birth-death processes",
+          "Queueing theory basics",
+          "Brownian motion introduction",
+          "Random walks",
+          "Applications to finance and biology"
+        ],
+        "projects": [
+          "Markov chain simulator",
+          "Queue system analyzer",
+          "Random walk visualizer"
+        ],
+        "practice": "Model 50 stochastic systems"
+      },
+      "week_52": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Integration of discrete and continuous mathematics",
+          "Statistical modeling project",
+          "Algorithm implementation",
+          "Research paper reading",
+          "Technical presentation"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Applied Mathematics Research Project",
+          "Options: Machine learning algorithm, Cryptographic system, Statistical study",
+          "Graph theory application to real networks",
+          "Probability model for real phenomenon"
+        ],
+        "assessment": "Phase 2 Comprehensive Exam"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Advanced Pure Mathematics (Months 13-18, Weeks 53-78)",
+    "description": "Master real analysis, abstract algebra, topology, complex analysis, and advanced mathematical theory.",
+    "month_13_14": {
+      "title": "Months 13-14: Real Analysis",
+      "weeks": "Week 53-61",
+      "week_53_54": {
+        "title": "Metric Spaces and Sequences",
+        "topics": [
+          "Metric spaces: definition and examples",
+          "Open and closed sets",
+          "Interior, closure, and boundary",
+          "Convergent sequences in metric spaces",
+          "Cauchy sequences and completeness",
+          "Compactness: sequential and open cover",
+          "Heine-Borel theorem",
+          "Connected spaces",
+          "Continuous functions between metric spaces",
+          "Uniform continuity",
+          "Lipschitz continuity",
+          "Homeomorphisms"
+        ],
+        "projects": [
+          "Metric space visualizer",
+          "Compactness checker",
+          "Continuity analyzer"
+        ],
+        "practice": "Prove 100 metric space theorems"
+      },
+      "week_55_56": {
+        "title": "Limits and Continuity in R^n",
+        "topics": [
+          "The real numbers: completeness axiom",
+          "Supremum and infimum",
+          "Sequences and series of real numbers",
+          "Limit superior and limit inferior",
+          "Functions of real variables",
+          "Continuity and uniform continuity on R",
+          "Intermediate value theorem proof",
+          "Extreme value theorem proof",
+          "Monotone functions",
+          "Functions of bounded variation",
+          "Absolutely continuous functions",
+          "Discontinuities classification"
+        ],
+        "projects": [
+          "Real function analyzer",
+          "Continuity proof assistant",
+          "Convergence tester"
+        ],
+        "practice": "Complete 75 epsilon-delta proofs"
+      },
+      "week_57_58": {
+        "title": "Differentiation Theory",
+        "topics": [
+          "Derivative as linear approximation",
+          "Differentiability in R^n",
+          "Partial derivatives vs differentiability",
+          "Chain rule proof",
+          "Mean value theorem and generalizations",
+          "Taylor's theorem with remainder",
+          "Inverse function theorem",
+          "Implicit function theorem",
+          "Critical point analysis",
+          "Morse lemma",
+          "Sard's theorem introduction",
+          "Applications to optimization"
+        ],
+        "projects": [
+          "Differentiation proof checker",
+          "Taylor approximation tool",
+          "Critical point classifier"
+        ],
+        "practice": "Prove 50 differentiation theorems"
+      },
+      "week_59_60": {
+        "title": "Riemann Integration",
+        "topics": [
+          "Riemann integral construction",
+          "Riemann integrability conditions",
+          "Properties of Riemann integral",
+          "Fundamental theorem of calculus proof",
+          "Integration techniques review",
+          "Improper Riemann integrals",
+          "Functions of bounded variation",
+          "Riemann-Stieltjes integral",
+          "Convergence theorems limitations",
+          "Counterexamples in integration",
+          "Numerical integration error analysis",
+          "Applications to probability"
+        ],
+        "projects": [
+          "Riemann sum visualizer",
+          "Integrability checker",
+          "Numerical integration analyzer"
+        ],
+        "practice": "Analyze 75 integration problems rigorously"
+      },
+      "week_61": {
+        "title": "Sequences and Series of Functions",
+        "topics": [
+          "Pointwise convergence",
+          "Uniform convergence",
+          "Weierstrass M-test",
+          "Continuity of uniform limits",
+          "Integration of uniform limits",
+          "Differentiation of uniform limits",
+          "Power series and radius of convergence",
+          "Analytic functions",
+          "Weierstrass approximation theorem",
+          "Stone-Weierstrass theorem",
+          "Fourier series introduction",
+          "Convergence of Fourier series"
+        ],
+        "projects": [
+          "Convergence visualizer",
+          "Fourier series calculator",
+          "Function approximator"
+        ],
+        "practice": "Prove convergence for 50 function sequences"
+      }
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Abstract Algebra",
+      "weeks": "Week 62-70",
+      "week_62_63": {
+        "title": "Group Theory",
+        "topics": [
+          "Groups: axioms and examples",
+          "Subgroups and subgroup tests",
+          "Cyclic groups and generators",
+          "Group homomorphisms",
+          "Kernel and image",
+          "Isomorphism theorems",
+          "Normal subgroups and quotient groups",
+          "Lagrange's theorem",
+          "Group actions",
+          "Orbit-stabilizer theorem",
+          "Sylow theorems",
+          "Classification of finite abelian groups"
+        ],
+        "projects": [
+          "Group calculator",
+          "Cayley table generator",
+          "Subgroup lattice visualizer"
+        ],
+        "practice": "Prove 100 group theory results"
+      },
+      "week_64_65": {
+        "title": "Ring Theory",
+        "topics": [
+          "Rings: definition and examples",
+          "Ring homomorphisms",
+          "Ideals and quotient rings",
+          "Prime and maximal ideals",
+          "Integral domains",
+          "Principal ideal domains",
+          "Unique factorization domains",
+          "Euclidean domains",
+          "Polynomial rings",
+          "Field of fractions",
+          "Chinese remainder theorem for rings",
+          "Localization of rings"
+        ],
+        "projects": [
+          "Ring structure analyzer",
+          "Ideal calculator",
+          "Polynomial factorization tool"
+        ],
+        "practice": "Explore 75 ring structures"
+      },
+      "week_66_67": {
+        "title": "Field Theory",
+        "topics": [
+          "Fields: definition and examples",
+          "Field extensions",
+          "Algebraic and transcendental elements",
+          "Degree of field extensions",
+          "Splitting fields",
+          "Algebraic closure",
+          "Finite fields structure",
+          "Cyclotomic fields",
+          "Galois theory introduction",
+          "Fundamental theorem of Galois theory",
+          "Solvability by radicals",
+          "Constructions with ruler and compass"
+        ],
+        "projects": [
+          "Field extension visualizer",
+          "Galois group calculator",
+          "Constructibility checker"
+        ],
+        "practice": "Work through 50 field theory problems"
+      },
+      "week_68_69": {
+        "title": "Linear Algebra (Abstract)",
+        "topics": [
+          "Vector spaces over arbitrary fields",
+          "Linear transformations abstract theory",
+          "Dual spaces and dual basis",
+          "Bilinear forms",
+          "Quadratic forms",
+          "Inner product spaces",
+          "Orthogonalization: Gram-Schmidt",
+          "Adjoint operators",
+          "Normal operators",
+          "Spectral theorem",
+          "Singular value decomposition",
+          "Tensor products"
+        ],
+        "projects": [
+          "Abstract linear algebra toolkit",
+          "Inner product space explorer",
+          "SVD calculator"
+        ],
+        "practice": "Prove 75 abstract linear algebra theorems"
+      },
+      "week_70": {
+        "title": "Module Theory",
+        "topics": [
+          "Modules over rings",
+          "Submodules and quotient modules",
+          "Module homomorphisms",
+          "Free modules",
+          "Finitely generated modules",
+          "Torsion modules",
+          "Structure theorem for finitely generated modules over PID",
+          "Applications to linear algebra",
+          "Jordan canonical form via modules",
+          "Projective and injective modules",
+          "Exact sequences",
+          "Introduction to homological algebra"
+        ],
+        "projects": [
+          "Module structure analyzer",
+          "Jordan form calculator",
+          "Exact sequence checker"
+        ],
+        "practice": "Explore 50 module structures"
+      }
+    },
+    "month_17_18": {
+      "title": "Months 17-18: Topology & Complex Analysis",
+      "weeks": "Week 71-78",
+      "week_71_72": {
+        "title": "General Topology",
+        "topics": [
+          "Topological spaces: definition and examples",
+          "Basis and subbasis",
+          "Closed sets and closure operators",
+          "Interior and boundary",
+          "Hausdorff spaces",
+          "Continuous functions",
+          "Homeomorphisms",
+          "Connectedness",
+          "Path connectedness",
+          "Compactness",
+          "Tychonoff's theorem",
+          "Separation axioms"
+        ],
+        "projects": [
+          "Topology visualizer",
+          "Homeomorphism checker",
+          "Compactness prover"
+        ],
+        "practice": "Prove 100 topology theorems"
+      },
+      "week_73_74": {
+        "title": "Algebraic Topology Introduction",
+        "topics": [
+          "Homotopy and homotopy equivalence",
+          "Fundamental group",
+          "Computing fundamental groups",
+          "Van Kampen's theorem",
+          "Covering spaces",
+          "Lifting properties",
+          "Classification of covering spaces",
+          "Introduction to homology",
+          "Simplicial complexes",
+          "Simplicial homology",
+          "Singular homology basics",
+          "Applications to fixed point theorems"
+        ],
+        "projects": [
+          "Fundamental group calculator",
+          "Covering space visualizer",
+          "Homology computer"
+        ],
+        "practice": "Compute 50 fundamental groups"
+      },
+      "week_75_76": {
+        "title": "Complex Analysis",
+        "topics": [
+          "Complex numbers and complex plane",
+          "Complex functions and analyticity",
+          "Cauchy-Riemann equations",
+          "Harmonic functions",
+          "Complex integration",
+          "Cauchy's theorem",
+          "Cauchy integral formula",
+          "Taylor and Laurent series",
+          "Residues and residue theorem",
+          "Evaluation of real integrals",
+          "Conformal mappings",
+          "Möbius transformations"
+        ],
+        "projects": [
+          "Complex function visualizer",
+          "Residue calculator",
+          "Conformal mapping tool"
+        ],
+        "practice": "Solve 100 complex analysis problems"
+      },
+      "week_77": {
+        "title": "Advanced Complex Analysis",
+        "topics": [
+          "Maximum modulus principle",
+          "Schwarz lemma",
+          "Analytic continuation",
+          "Riemann surfaces introduction",
+          "Entire functions",
+          "Meromorphic functions",
+          "Infinite products",
+          "Weierstrass factorization",
+          "Gamma function",
+          "Riemann zeta function",
+          "Prime number theorem outline",
+          "Applications to number theory"
+        ],
+        "projects": [
+          "Special functions library",
+          "Riemann surface visualizer",
+          "Zeta function explorer"
+        ],
+        "practice": "Explore 50 special functions"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Pure mathematics research project",
+          "Original proof development",
+          "Mathematical exposition",
+          "Research paper writing",
+          "Peer review process"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Original Mathematics Research",
+          "Write expository paper on advanced topic",
+          "Create visualization tools for abstract concepts",
+          "Develop lecture series on chosen topic"
+        ],
+        "assessment": "Phase 3 Comprehensive Exam - Pure Mathematics"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Applied Mathematics & Research (Months 19-24, Weeks 79-104)",
+    "description": "Master PDEs, numerical analysis, optimization, mathematical modeling, and conduct original research.",
+    "month_19_20": {
+      "title": "Months 19-20: Partial Differential Equations",
+      "weeks": "Week 79-87",
+      "week_79_80": {
+        "title": "First-Order PDEs",
+        "topics": [
+          "Classification of PDEs",
+          "First-order linear PDEs",
+          "Method of characteristics",
+          "Quasi-linear PDEs",
+          "General first-order PDEs",
+          "Cauchy problem",
+          "Envelopes and singular solutions",
+          "Conservation laws",
+          "Shock waves",
+          "Weak solutions",
+          "Rankine-Hugoniot conditions",
+          "Applications to traffic flow"
+        ],
+        "projects": [
+          "Characteristics solver",
+          "Shock wave simulator",
+          "Conservation law visualizer"
+        ],
+        "practice": "Solve 75 first-order PDEs"
+      },
+      "week_81_82": {
+        "title": "Second-Order Linear PDEs",
+        "topics": [
+          "Classification: elliptic, parabolic, hyperbolic",
+          "Heat equation: derivation and properties",
+          "Separation of variables",
+          "Fourier series solutions",
+          "Maximum principle for heat equation",
+          "Wave equation: d'Alembert's solution",
+          "Energy methods",
+          "Laplace equation: harmonic functions",
+          "Poisson equation",
+          "Green's functions",
+          "Boundary value problems",
+          "Sturm-Liouville theory"
+        ],
+        "projects": [
+          "Heat equation solver",
+          "Wave propagation simulator",
+          "Laplace equation solver"
+        ],
+        "practice": "Solve 100 second-order PDEs"
+      },
+      "week_83_84": {
+        "title": "Transform Methods for PDEs",
+        "topics": [
+          "Fourier transform and PDEs",
+          "Heat equation via Fourier transform",
+          "Laplace transform for PDEs",
+          "Hankel transforms",
+          "Integral transform methods",
+          "Duhamel's principle",
+          "Green's function method",
+          "Eigenfunction expansions",
+          "Bessel functions",
+          "Legendre polynomials",
+          "Spherical harmonics",
+          "Special functions in PDEs"
+        ],
+        "projects": [
+          "Transform method solver",
+          "Special function library",
+          "Eigenfunction visualizer"
+        ],
+        "practice": "Apply transforms to 75 PDE problems"
+      },
+      "week_85_86": {
+        "title": "Numerical Methods for PDEs",
+        "topics": [
+          "Finite difference methods",
+          "Stability and convergence",
+          "CFL condition",
+          "Implicit vs explicit schemes",
+          "Crank-Nicolson method",
+          "Finite element method basics",
+          "Weak formulation",
+          "Galerkin method",
+          "Basis functions",
+          "Assembly process",
+          "Spectral methods introduction",
+          "Multigrid methods"
+        ],
+        "projects": [
+          "Finite difference PDE solver",
+          "Finite element implementation",
+          "Stability analyzer"
+        ],
+        "practice": "Implement 20 numerical PDE schemes"
+      },
+      "week_87": {
+        "title": "Nonlinear PDEs",
+        "topics": [
+          "Nonlinear heat equation",
+          "Burger's equation",
+          "KdV equation and solitons",
+          "Nonlinear Schrödinger equation",
+          "Reaction-diffusion equations",
+          "Pattern formation",
+          "Traveling waves",
+          "Bifurcation in PDEs",
+          "Variational methods",
+          "Fixed point theorems for PDEs",
+          "Existence and uniqueness",
+          "Regularity theory basics"
+        ],
+        "projects": [
+          "Soliton simulator",
+          "Pattern formation tool",
+          "Bifurcation analyzer"
+        ],
+        "practice": "Study 50 nonlinear PDE phenomena"
+      }
+    },
+    "month_21_22": {
+      "title": "Months 21-22: Numerical Analysis & Scientific Computing",
+      "weeks": "Week 88-96",
+      "week_88_89": {
+        "title": "Numerical Linear Algebra",
+        "topics": [
+          "Floating point arithmetic",
+          "Condition numbers and stability",
+          "LU decomposition",
+          "Cholesky decomposition",
+          "QR decomposition",
+          "Singular value decomposition",
+          "Iterative methods: Jacobi, Gauss-Seidel",
+          "Conjugate gradient method",
+          "GMRES and Krylov methods",
+          "Preconditioning",
+          "Sparse matrix techniques",
+          "Parallel algorithms"
+        ],
+        "projects": [
+          "Matrix decomposition library",
+          "Iterative solver suite",
+          "Condition number analyzer"
+        ],
+        "practice": "Implement 30 numerical linear algebra algorithms"
+      },
+      "week_90_91": {
+        "title": "Interpolation and Approximation",
+        "topics": [
+          "Polynomial interpolation",
+          "Lagrange interpolation",
+          "Newton's divided differences",
+          "Hermite interpolation",
+          "Spline interpolation",
+          "B-splines and NURBS",
+          "Least squares approximation",
+          "Orthogonal polynomials",
+          "Chebyshev approximation",
+          "Rational approximation",
+          "Padé approximants",
+          "Wavelets introduction"
+        ],
+        "projects": [
+          "Interpolation toolkit",
+          "Spline curve designer",
+          "Approximation error analyzer"
+        ],
+        "practice": "Implement 25 approximation methods"
+      },
+      "week_92_93": {
+        "title": "Numerical Integration and Differentiation",
+        "topics": [
+          "Newton-Cotes formulas",
+          "Gaussian quadrature",
+          "Adaptive quadrature",
+          "Romberg integration",
+          "Monte Carlo integration",
+          "Quasi-Monte Carlo methods",
+          "Multidimensional integration",
+          "Numerical differentiation",
+          "Richardson extrapolation",
+          "Automatic differentiation",
+          "Complex step differentiation",
+          "Applications to optimization"
+        ],
+        "projects": [
+          "Adaptive integrator",
+          "Monte Carlo simulator",
+          "Automatic differentiation engine"
+        ],
+        "practice": "Compare 20 integration methods"
+      },
+      "week_94_95": {
+        "title": "Numerical Optimization",
+        "topics": [
+          "Unconstrained optimization",
+          "Gradient descent variants",
+          "Newton's method for optimization",
+          "Quasi-Newton methods: BFGS, L-BFGS",
+          "Conjugate gradient for optimization",
+          "Trust region methods",
+          "Line search strategies",
+          "Constrained optimization",
+          "Lagrange multipliers numerical",
+          "Penalty and barrier methods",
+          "Interior point methods",
+          "Sequential quadratic programming"
+        ],
+        "projects": [
+          "Optimization algorithm suite",
+          "Convergence visualizer",
+          "Constraint handler"
+        ],
+        "practice": "Solve 50 optimization problems numerically"
+      },
+      "week_96": {
+        "title": "Fast Algorithms",
+        "topics": [
+          "Fast Fourier Transform (FFT)",
+          "Fast multiplication algorithms",
+          "Fast matrix multiplication",
+          "Divide and conquer strategies",
+          "Multigrid methods",
+          "Fast multipole method",
+          "Hierarchical matrices",
+          "Randomized algorithms",
+          "Compressed sensing basics",
+          "Sparse recovery",
+          "Low-rank approximations",
+          "Tensor decompositions"
+        ],
+        "projects": [
+          "FFT implementation",
+          "Fast algorithm library",
+          "Compression tool"
+        ],
+        "practice": "Implement 15 fast algorithms"
+      }
+    },
+    "month_23": {
+      "title": "Month 23: Mathematical Modeling & Applications",
+      "weeks": "Week 97-100",
+      "week_97": {
+        "title": "Mathematical Biology",
+        "topics": [
+          "Population dynamics models",
+          "Predator-prey systems",
+          "Competition models",
+          "Epidemic models: SIR, SEIR",
+          "Age-structured models",
+          "Spatial models and diffusion",
+          "Pattern formation in biology",
+          "Biochemical networks",
+          "Neural models",
+          "Evolutionary game theory",
+          "Phylogenetic trees",
+          "Systems biology approaches"
+        ],
+        "projects": [
+          "Epidemic simulator",
+          "Population dynamics tool",
+          "Pattern formation in biology"
+        ],
+        "practice": "Model 20 biological systems"
+      },
+      "week_98": {
+        "title": "Mathematical Finance",
+        "topics": [
+          "Time value of money",
+          "Portfolio theory",
+          "CAPM model",
+          "Options and derivatives",
+          "Black-Scholes equation",
+          "Greeks and hedging",
+          "Monte Carlo methods in finance",
+          "Interest rate models",
+          "Credit risk models",
+          "Value at Risk",
+          "Stochastic volatility",
+          "Jump diffusion models"
+        ],
+        "projects": [
+          "Option pricer",
+          "Portfolio optimizer",
+          "Risk calculator"
+        ],
+        "practice": "Implement 20 financial models"
+      },
+      "week_99": {
+        "title": "Data Science Mathematics",
+        "topics": [
+          "Principal component analysis",
+          "Singular value decomposition applications",
+          "Matrix factorizations for data",
+          "Kernel methods",
+          "Support vector machines math",
+          "Neural network mathematics",
+          "Backpropagation derivation",
+          "Optimization in machine learning",
+          "Regularization theory",
+          "Statistical learning theory",
+          "Information theory basics",
+          "Compressed sensing applications"
+        ],
+        "projects": [
+          "PCA implementation",
+          "Neural network from scratch",
+          "Dimensionality reduction toolkit"
+        ],
+        "practice": "Implement 15 data science algorithms"
+      },
+      "week_100": {
+        "title": "Fluid Dynamics & Continuum Mechanics",
+        "topics": [
+          "Conservation laws in fluids",
+          "Navier-Stokes equations",
+          "Potential flow",
+          "Boundary layers",
+          "Turbulence introduction",
+          "Computational fluid dynamics basics",
+          "Elasticity theory",
+          "Stress and strain tensors",
+          "Constitutive equations",
+          "Wave propagation in solids",
+          "Fracture mechanics basics",
+          "Multiphysics modeling"
+        ],
+        "projects": [
+          "Flow simulator",
+          "Stress analysis tool",
+          "Wave propagation visualizer"
+        ],
+        "practice": "Solve 20 continuum mechanics problems"
+      }
+    },
+    "month_24": {
+      "title": "Month 24: Research & Career Preparation",
+      "weeks": "Week 101-104",
+      "week_101_102": {
+        "title": "Mathematical Research Project",
+        "topics": [
+          "Choosing research topic",
+          "Literature review methods",
+          "Research question formulation",
+          "Mathematical writing",
+          "LaTeX for mathematics",
+          "Proof techniques review",
+          "Computational experiments",
+          "Data visualization for mathematics",
+          "Collaboration tools",
+          "Version control for research",
+          "Presenting mathematics",
+          "Peer review process"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Original Research Project",
+          "Complete research paper (10-20 pages)",
+          "Implementation of novel algorithm",
+          "Mathematical software package"
+        ]
+      },
+      "week_103": {
+        "title": "Advanced Topics Seminar",
+        "topics": [
+          "Algebraic geometry introduction",
+          "Differential geometry basics",
+          "Lie groups and Lie algebras",
+          "Representation theory",
+          "Category theory basics",
+          "Homological algebra",
+          "K-theory introduction",
+          "Operator theory",
+          "Harmonic analysis",
+          "Ergodic theory",
+          "Mathematical physics topics",
+          "Current research areas"
+        ],
+        "deliverables": [
+          "Seminar presentation",
+          "Advanced topic exploration paper",
+          "Reading list compilation",
+          "Research proposal for graduate studies"
+        ]
+      },
+      "week_104": {
+        "title": "Career Paths & Future Learning",
+        "topics": [
+          "Graduate school preparation",
+          "GRE Mathematics subject test",
+          "Research opportunities",
+          "Industry applications of mathematics",
+          "Quantitative careers overview",
+          "Academic career paths",
+          "Mathematical consulting",
+          "Teaching mathematics",
+          "Open problems in mathematics",
+          "Mathematical communities",
+          "Conferences and workshops",
+          "Lifelong learning in mathematics"
+        ],
+        "deliverables": [
+          "Complete portfolio of work",
+          "Graduate school application materials",
+          "Professional website/blog",
+          "Network of mathematical contacts",
+          "Personal mathematics library",
+          "Future learning roadmap"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - Complete undergraduate mathematics"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Calculus visualizers, Linear algebra tools, Proof portfolio",
+      "Phase 2: ODE solvers, Graph algorithms, Statistical analysis suite, Probability simulators",
+      "Phase 3: Metric space explorers, Algebra structure analyzers, Topology visualizers, Complex function tools",
+      "Phase 4: PDE solvers, Numerical libraries, Mathematical models, Original research"
+    ],
+    "total_projects_built": "150+ mathematical projects and implementations",
+    "skills_mastered": [
+      "Analysis: Real, Complex, Functional, Harmonic, Measure Theory basics",
+      "Algebra: Linear, Abstract, Commutative, Galois Theory, Representation Theory intro",
+      "Topology: Point-set, Algebraic basics, Differential Geometry intro",
+      "Applied: ODEs, PDEs, Numerical Analysis, Optimization, Mathematical Modeling",
+      "Discrete: Combinatorics, Graph Theory, Number Theory, Logic, Set Theory",
+      "Probability & Statistics: Measure-theoretic probability, Statistical inference, Stochastic processes",
+      "Computation: Scientific computing, Algorithm analysis, Symbolic computation",
+      "Proof Writing: Direct, Contradiction, Induction, Analysis proofs, Algebraic proofs",
+      "Research: Literature review, Problem formulation, Mathematical writing, Presentation"
+    ],
+    "weekly_structure": {
+      "theory_lectures": "8-10 hours",
+      "problem_solving": "8-10 hours",
+      "proofs_practice": "3-4 hours",
+      "computational_work": "2-3 hours",
+      "reading_research": "2-3 hours",
+      "total_per_week": "20-25 hours"
+    },
+    "support_provided": {
+      "office_hours": "Weekly virtual office hours with instructors",
+      "peer_collaboration": "Study groups and peer review",
+      "mentorship": "Research mentorship for advanced students",
+      "tutoring": "TA support for challenging topics",
+      "resources": "Access to mathematical software and journals",
+      "community": "Active mathematical community forum"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion",
+      "final_certificate": "Advanced Mathematics Proficiency Certificate",
+      "transcript": "Detailed transcript of all courses",
+      "recommendation": "Letters of recommendation available",
+      "portfolio": "Professional portfolio of mathematical work"
+    }
+  },
+  "prerequisites": {
+    "mathematics": "High school mathematics including pre-calculus",
+    "recommended": "Basic trigonometry and algebra II",
+    "programming": "Basic programming helpful but not required",
+    "equipment": "Computer with internet, mathematical software access provided",
+    "time_commitment": "20-25 hours per week minimum",
+    "mindset": "Strong commitment to rigorous thinking"
+  },
+  "who_is_this_for": {
+    "undergraduates": "Mathematics, physics, engineering, CS students",
+    "self_learners": "Motivated individuals pursuing mathematical knowledge",
+    "professionals": "Engineers, data scientists, quantitative analysts",
+    "graduate_prep": "Students preparing for graduate studies",
+    "career_changers": "Transitioning to quantitative fields",
+    "educators": "Teachers seeking deeper mathematical understanding",
+    "researchers": "Those interested in mathematical research"
+  },
+  "career_paths_after_completion": [
+    "Graduate Studies in Mathematics/Applied Mathematics",
+    "Data Scientist/Machine Learning Engineer",
+    "Quantitative Analyst/Financial Engineer",
+    "Research Mathematician",
+    "Software Engineer (Algorithms/Theory)",
+    "Actuary",
+    "Operations Research Analyst",
+    "Cryptographer",
+    "Mathematical Consultant",
+    "University Professor/Lecturer"
+  ],
+  "graduate_school_preparation": {
+    "gre_prep": "Complete GRE Mathematics Subject Test preparation",
+    "research_experience": "Original research project experience",
+    "recommendations": "Strong letters from qualified instructors",
+    "statement": "Guidance on statement of purpose",
+    "programs": "Advice on selecting graduate programs"
+  },
+  "course_guarantees": {
+    "quality": "University-level mathematical education",
+    "support": "Comprehensive learning support",
+    "updates": "Course updates with new mathematical developments",
+    "access": "Lifetime access to materials",
+    "community": "Active mathematical community",
+    "success": "Proven track record of student success"
+  }
+}

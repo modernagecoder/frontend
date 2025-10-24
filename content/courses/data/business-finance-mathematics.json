@@ -1,0 +1,1189 @@
+{
+  "meta": {
+    "slug": "complete-business-finance-mathematics-mastery",
+    "title": "Complete Business & Finance Mathematics Mastery Program",
+    "description": "The most comprehensive 1-year business and finance mathematics program. Master financial calculations, investment analysis, statistical modeling, risk management, accounting mathematics, and quantitative finance. From basic percentages to advanced financial derivatives and portfolio optimization.",
+    "keywords": [
+      "business mathematics",
+      "financial mathematics",
+      "investment analysis",
+      "financial modeling",
+      "quantitative finance",
+      "risk management",
+      "accounting mathematics",
+      "business statistics",
+      "economic mathematics",
+      "portfolio theory",
+      "derivatives pricing",
+      "corporate finance",
+      "financial analytics",
+      "actuarial mathematics",
+      "MBA mathematics"
+    ],
+    "category": "Business & Finance Education",
+    "price": {
+      "group": "₹1299/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Professional",
+    "commitment": "12-15 hours/week recommended",
+    "certification": "Professional Business & Finance Mathematics Certificate"
+  },
+  "program_overview": {
+    "title": "Complete Business & Finance Mathematics Mastery Program",
+    "tagline": "From Basic Calculations to Quantitative Finance in 12 Months",
+    "description": "This intensive program transforms you into a financial mathematics expert capable of complex business analysis, investment decisions, and risk management. Whether you're aspiring to investment banking, corporate finance, actuarial science, or entrepreneurship, this course provides the mathematical foundation for success.\n\nYou'll master everything from compound interest and annuities to options pricing and portfolio optimization. Each concept is taught through real-world business cases, Excel modeling, and Python applications. By completion, you'll think like a quantitative analyst and make data-driven financial decisions.",
+    "what_makes_this_different": [
+      "Business-focused from day one - no abstract math",
+      "Excel and Python integration throughout",
+      "Real company case studies and datasets",
+      "Trading simulations and portfolio management",
+      "Professional financial modeling templates",
+      "CFA/FRM/Actuarial exam preparation included",
+      "Industry-standard software training",
+      "Live market data analysis"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Business Math Basics, Financial Calculations, Accounting Mathematics",
+      "phase_2": "Intermediate (Months 4-6): Statistics for Business, Economic Mathematics, Financial Analysis",
+      "phase_3": "Advanced (Months 7-9): Investment Mathematics, Risk Management, Corporate Finance",
+      "phase_4": "Professional (Months 10-12): Derivatives, Portfolio Theory, Quantitative Methods, Financial Modeling"
+    },
+    "career_outcomes": [
+      "Financial Analyst ready for corporate roles",
+      "Investment Banking Analyst preparation",
+      "Risk Management Professional",
+      "Quantitative Analyst foundation",
+      "Actuarial Exam readiness",
+      "MBA-level quantitative skills"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Business Mathematics Foundations (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid foundations in business calculations, financial mathematics, and accounting principles. Master the mathematical tools used daily in business.",
+    "month_1_2": {
+      "title": "Months 1-2: Core Business Mathematics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Percentages & Business Applications",
+        "topics": [
+          "Percentage calculations and conversions",
+          "Percentage increase and decrease",
+          "Percentage points vs percentage change",
+          "Markup and markdown calculations",
+          "Profit margins: gross, operating, net",
+          "Break-even analysis",
+          "Sales tax and VAT calculations",
+          "Discount calculations: single and series",
+          "Commission structures and calculations",
+          "Percentage allocation and distribution",
+          "Market share calculations",
+          "Growth rates and CAGR"
+        ],
+        "projects": [
+          "Profit margin calculator for business",
+          "Sales commission tracker",
+          "Break-even analysis tool"
+        ],
+        "practice": "Daily: 50 business percentage problems with real scenarios"
+      },
+      "week_3_4": {
+        "title": "Time Value of Money Fundamentals",
+        "topics": [
+          "Simple interest calculations",
+          "Compound interest formula and applications",
+          "Continuous compounding",
+          "Effective vs nominal interest rates",
+          "Present value concepts",
+          "Future value calculations",
+          "Discounting and discount factors",
+          "Rule of 72 and quick estimations",
+          "Interest rate conversions",
+          "Day count conventions",
+          "Currency exchange calculations",
+          "Inflation and real vs nominal values"
+        ],
+        "projects": [
+          "Compound interest calculator",
+          "Investment growth simulator",
+          "Currency converter with live rates"
+        ],
+        "practice": "Complete 100 time value of money problems"
+      },
+      "week_5_6": {
+        "title": "Annuities & Loan Mathematics",
+        "topics": [
+          "Ordinary annuities and annuities due",
+          "Present value of annuity streams",
+          "Future value of annuity calculations",
+          "Perpetuities and growing perpetuities",
+          "Loan amortization schedules",
+          "EMI (Equated Monthly Installment) calculations",
+          "Principal and interest components",
+          "Balloon payments and refinancing",
+          "Mortgage mathematics",
+          "Auto loan calculations",
+          "Credit card mathematics",
+          "Effective cost of borrowing"
+        ],
+        "projects": [
+          "Loan amortization calculator",
+          "Mortgage comparison tool",
+          "Retirement planning calculator"
+        ],
+        "practice": "Build 10 different loan amortization schedules"
+      },
+      "week_7_8": {
+        "title": "Business Ratios & Analysis",
+        "topics": [
+          "Liquidity ratios: current, quick, cash",
+          "Profitability ratios: ROE, ROA, ROCE",
+          "Efficiency ratios: inventory turnover, receivables",
+          "Leverage ratios: debt-to-equity, interest coverage",
+          "Market ratios: P/E, P/B, dividend yield",
+          "DuPont analysis",
+          "Ratio trend analysis",
+          "Industry comparison metrics",
+          "Working capital calculations",
+          "Cash conversion cycle",
+          "Economic Value Added (EVA)",
+          "Balanced scorecard metrics"
+        ],
+        "projects": [
+          "Financial ratio analyzer",
+          "Company comparison dashboard",
+          "Industry benchmark tool"
+        ],
+        "practice": "Analyze 20 real company financial statements"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Accounting Mathematics & Cost Analysis",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Accounting Mathematics Fundamentals",
+        "topics": [
+          "Double-entry bookkeeping mathematics",
+          "Trial balance and mathematical checks",
+          "Depreciation calculations: straight-line, declining balance",
+          "MACRS depreciation",
+          "Inventory valuation: FIFO, LIFO, weighted average",
+          "Cost of Goods Sold calculations",
+          "Gross profit and net profit calculations",
+          "Balance sheet equation",
+          "Cash flow calculations",
+          "Accrual vs cash basis mathematics",
+          "Bank reconciliation mathematics",
+          "Foreign currency accounting"
+        ],
+        "projects": [
+          "Depreciation schedule generator",
+          "Inventory management calculator",
+          "Cash flow statement builder"
+        ],
+        "practice": "Complete 100 accounting calculation problems"
+      },
+      "week_11_12": {
+        "title": "Cost Accounting & Budgeting",
+        "topics": [
+          "Fixed vs variable cost analysis",
+          "Cost-Volume-Profit (CVP) analysis",
+          "Contribution margin calculations",
+          "Operating leverage",
+          "Activity-based costing",
+          "Standard costing and variance analysis",
+          "Material, labor, and overhead variances",
+          "Budget preparation mathematics",
+          "Flexible budgeting",
+          "Zero-based budgeting calculations",
+          "Capital budgeting introduction",
+          "Cost allocation methods"
+        ],
+        "projects": [
+          "CVP analysis tool",
+          "Variance analysis dashboard",
+          "Budget vs actual analyzer"
+        ],
+        "practice": "Solve 75 cost accounting problems"
+      },
+      "week_13": {
+        "title": "Phase 1 Assessment & Integration",
+        "topics": [
+          "Integration of financial concepts",
+          "Complex multi-step problems",
+          "Case study methodology",
+          "Financial calculator mastery",
+          "Excel functions for finance",
+          "Common business math errors",
+          "Professional presentation of calculations"
+        ],
+        "projects": [
+          "Comprehensive business analysis case",
+          "Build financial calculator app",
+          "Create business math reference guide"
+        ],
+        "assessment": "Phase 1 comprehensive exam covering all business math fundamentals"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Statistical Analysis & Economic Mathematics (Months 4-6, Weeks 14-26)",
+    "description": "Master statistical methods for business decision-making, economic analysis, and financial forecasting.",
+    "month_7_8": {
+      "title": "Months 4-5: Business Statistics & Analytics",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Descriptive Statistics for Business",
+        "topics": [
+          "Business data types and collection methods",
+          "Measures of central tendency in business context",
+          "Variance and standard deviation in finance",
+          "Coefficient of variation for risk",
+          "Skewness and kurtosis in returns",
+          "Business data visualization",
+          "Time series components",
+          "Moving averages and smoothing",
+          "Seasonal adjustments",
+          "Index numbers and deflators",
+          "Business survey analysis",
+          "Customer analytics metrics"
+        ],
+        "projects": [
+          "Sales data analyzer",
+          "Customer behavior dashboard",
+          "Market trend visualizer"
+        ],
+        "practice": "Analyze 50 business datasets"
+      },
+      "week_29_30": {
+        "title": "Probability in Business Decisions",
+        "topics": [
+          "Probability in risk assessment",
+          "Expected value in business decisions",
+          "Decision trees and expected monetary value",
+          "Bayesian analysis for business",
+          "Conditional probability in market analysis",
+          "Joint probability distributions",
+          "Risk and return relationships",
+          "Value at Risk (VaR) introduction",
+          "Monte Carlo simulation basics",
+          "Scenario analysis",
+          "Sensitivity analysis",
+          "Business forecasting with probability"
+        ],
+        "projects": [
+          "Decision tree analyzer",
+          "Monte Carlo simulator for projects",
+          "Risk assessment tool"
+        ],
+        "practice": "Solve 100 business probability problems"
+      },
+      "week_31_32": {
+        "title": "Regression & Predictive Analytics",
+        "topics": [
+          "Simple linear regression for business",
+          "Multiple regression analysis",
+          "Interpreting regression coefficients",
+          "R-squared and model fit",
+          "Residual analysis",
+          "Multicollinearity detection",
+          "Dummy variables in regression",
+          "Time series regression",
+          "Logistic regression for classification",
+          "Forecasting with regression",
+          "Sales prediction models",
+          "Price elasticity estimation"
+        ],
+        "projects": [
+          "Sales forecasting model",
+          "Price optimization tool",
+          "Customer churn predictor"
+        ],
+        "practice": "Build 20 regression models with real data"
+      },
+      "week_33_34": {
+        "title": "Hypothesis Testing for Business",
+        "topics": [
+          "Hypothesis testing framework in business",
+          "A/B testing mathematics",
+          "Type I and Type II errors in business context",
+          "T-tests for marketing campaigns",
+          "ANOVA for multiple group comparison",
+          "Chi-square tests for independence",
+          "Non-parametric tests",
+          "Sample size determination",
+          "Power analysis for business experiments",
+          "Confidence intervals for business metrics",
+          "Statistical significance vs practical significance",
+          "P-value interpretation pitfalls"
+        ],
+        "projects": [
+          "A/B testing calculator",
+          "Marketing campaign analyzer",
+          "Quality control dashboard"
+        ],
+        "practice": "Conduct 50 business hypothesis tests"
+      },
+      "week_35": {
+        "title": "Time Series Analysis",
+        "topics": [
+          "Time series decomposition",
+          "Trend analysis methods",
+          "Seasonal patterns identification",
+          "Cyclical variations",
+          "Autocorrelation and ACF",
+          "ARIMA models introduction",
+          "Exponential smoothing methods",
+          "Holt-Winters forecasting",
+          "Leading and lagging indicators",
+          "Business cycle analysis",
+          "Forecast accuracy measures",
+          "Real-time data analysis"
+        ],
+        "projects": [
+          "Time series forecasting tool",
+          "Seasonal adjustment calculator",
+          "Economic indicator dashboard"
+        ],
+        "practice": "Analyze 25 business time series"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Economic & Market Mathematics",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Microeconomic Mathematics",
+        "topics": [
+          "Supply and demand curves",
+          "Elasticity calculations",
+          "Consumer and producer surplus",
+          "Utility maximization mathematics",
+          "Budget constraint optimization",
+          "Production functions",
+          "Cost curves and optimization",
+          "Profit maximization calculus",
+          "Market equilibrium calculations",
+          "Game theory basics",
+          "Nash equilibrium",
+          "Oligopoly and monopoly pricing"
+        ],
+        "projects": [
+          "Market equilibrium calculator",
+          "Pricing strategy optimizer",
+          "Game theory simulator"
+        ],
+        "practice": "Solve 75 microeconomic problems"
+      },
+      "week_38_39": {
+        "title": "Macroeconomic Mathematics",
+        "topics": [
+          "GDP calculations and components",
+          "Inflation rate calculations",
+          "Real vs nominal GDP",
+          "Unemployment rate metrics",
+          "Money multiplier effect",
+          "Interest rate parity",
+          "Exchange rate calculations",
+          "Purchasing power parity",
+          "IS-LM model basics",
+          "Phillips curve relationship",
+          "Economic growth models",
+          "Business cycle indicators"
+        ],
+        "projects": [
+          "Economic indicator tracker",
+          "Currency exchange analyzer",
+          "Inflation impact calculator"
+        ],
+        "practice": "Complete 50 macroeconomic calculations"
+      },
+      "week_40_41": {
+        "title": "Financial Markets Mathematics",
+        "topics": [
+          "Stock market indices calculation",
+          "Market capitalization weighting",
+          "Price-weighted vs value-weighted indices",
+          "Bond pricing fundamentals",
+          "Yield to maturity calculations",
+          "Duration and convexity",
+          "Term structure of interest rates",
+          "Forward rates calculation",
+          "Swap valuation basics",
+          "Foreign exchange forwards",
+          "Covered interest parity",
+          "Market efficiency metrics"
+        ],
+        "projects": [
+          "Bond pricing calculator",
+          "Yield curve analyzer",
+          "Index tracking tool"
+        ],
+        "practice": "Price 50 different financial instruments"
+      },
+      "week_42_43": {
+        "title": "International Finance Mathematics",
+        "topics": [
+          "Exchange rate systems",
+          "Cross rates calculation",
+          "Triangular arbitrage",
+          "Forward exchange rates",
+          "Interest rate parity theory",
+          "International Fisher effect",
+          "Currency hedging calculations",
+          "Translation and transaction exposure",
+          "International capital budgeting",
+          "Country risk assessment",
+          "Emerging market analysis",
+          "Global portfolio considerations"
+        ],
+        "projects": [
+          "Currency arbitrage detector",
+          "International investment analyzer",
+          "Hedging strategy calculator"
+        ],
+        "practice": "Analyze 30 international finance scenarios"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Integrated statistical analysis",
+          "Economic forecasting project",
+          "Market analysis presentation",
+          "Data visualization mastery",
+          "Professional reporting",
+          "Peer review process"
+        ],
+        "projects": [
+          "Complete market analysis report",
+          "Economic forecast model",
+          "Statistical analysis of business case"
+        ],
+        "assessment": "Phase 2 comprehensive exam on statistics and economics"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Investment Mathematics & Risk Management (Months 7-9, Weeks 27-39)",
+    "description": "Master investment analysis, portfolio management, risk assessment, and corporate finance decisions.",
+    "month_13_14": {
+      "title": "Months 7-8: Investment Analysis & Valuation",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Equity Valuation Mathematics",
+        "topics": [
+          "Discounted Cash Flow (DCF) models",
+          "Free cash flow calculations",
+          "WACC (Weighted Average Cost of Capital)",
+          "Terminal value calculations",
+          "Dividend discount models",
+          "Gordon growth model",
+          "Multi-stage growth models",
+          "Price multiples valuation",
+          "Comparable company analysis",
+          "Precedent transaction analysis",
+          "Asset-based valuation",
+          "Sum-of-the-parts valuation"
+        ],
+        "projects": [
+          "DCF valuation model",
+          "Comparable analysis template",
+          "Valuation dashboard"
+        ],
+        "practice": "Value 25 real companies using different methods"
+      },
+      "week_55_56": {
+        "title": "Fixed Income Mathematics",
+        "topics": [
+          "Bond pricing with different frequencies",
+          "Yield measures: current, YTM, YTC",
+          "Duration: Macaulay and modified",
+          "Convexity calculations",
+          "Immunization strategies",
+          "Credit spreads and ratings",
+          "Floating rate notes",
+          "Convertible bond valuation",
+          "Mortgage-backed securities basics",
+          "Prepayment risk modeling",
+          "Z-spread and OAS",
+          "Fixed income portfolio management"
+        ],
+        "projects": [
+          "Bond portfolio analyzer",
+          "Duration matching tool",
+          "Yield curve trading strategy"
+        ],
+        "practice": "Analyze 50 different bond structures"
+      },
+      "week_57_58": {
+        "title": "Portfolio Theory & Optimization",
+        "topics": [
+          "Risk and return measures",
+          "Portfolio expected return",
+          "Portfolio variance and standard deviation",
+          "Correlation and covariance matrices",
+          "Diversification benefits",
+          "Efficient frontier construction",
+          "Markowitz optimization",
+          "Capital Asset Pricing Model (CAPM)",
+          "Beta calculation and interpretation",
+          "Security Market Line",
+          "Arbitrage Pricing Theory basics",
+          "Factor models"
+        ],
+        "projects": [
+          "Portfolio optimizer",
+          "Efficient frontier visualizer",
+          "Beta calculator for stocks"
+        ],
+        "practice": "Construct 20 optimal portfolios"
+      },
+      "week_59_60": {
+        "title": "Performance Measurement & Attribution",
+        "topics": [
+          "Absolute vs relative returns",
+          "Time-weighted vs money-weighted returns",
+          "Sharpe ratio calculation",
+          "Treynor ratio",
+          "Jensen's alpha",
+          "Information ratio",
+          "Sortino ratio",
+          "Maximum drawdown",
+          "Value at Risk (VaR) methods",
+          "Conditional VaR (CVaR)",
+          "Performance attribution analysis",
+          "Risk-adjusted performance measures"
+        ],
+        "projects": [
+          "Performance analytics dashboard",
+          "Risk metrics calculator",
+          "Attribution analysis tool"
+        ],
+        "practice": "Evaluate 30 portfolio performances"
+      },
+      "week_61": {
+        "title": "Alternative Investments Mathematics",
+        "topics": [
+          "Real estate investment mathematics",
+          "Cap rates and NOI calculations",
+          "Private equity valuation",
+          "Venture capital metrics",
+          "Hedge fund fee structures",
+          "Commodity futures pricing",
+          "Infrastructure project valuation",
+          "Art and collectibles valuation",
+          "Cryptocurrency valuation models",
+          "Crowdfunding mathematics",
+          "REIT analysis",
+          "Master Limited Partnerships"
+        ],
+        "projects": [
+          "Real estate investment analyzer",
+          "Private equity return calculator",
+          "Alternative asset portfolio tool"
+        ],
+        "practice": "Analyze 20 alternative investments"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Risk Management & Insurance",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Risk Measurement & Modeling",
+        "topics": [
+          "Types of financial risk",
+          "Risk metrics: volatility, beta, duration",
+          "Value at Risk (VaR) models",
+          "Historical simulation",
+          "Parametric VaR",
+          "Monte Carlo VaR",
+          "Stress testing methodologies",
+          "Scenario analysis frameworks",
+          "Credit risk modeling",
+          "Probability of default estimation",
+          "Loss given default",
+          "Expected loss calculations"
+        ],
+        "projects": [
+          "VaR calculator (3 methods)",
+          "Stress testing framework",
+          "Credit risk scorecard"
+        ],
+        "practice": "Calculate risk metrics for 40 portfolios"
+      },
+      "week_64_65": {
+        "title": "Insurance Mathematics",
+        "topics": [
+          "Life insurance mathematics",
+          "Mortality tables and life expectancy",
+          "Present value of life insurance",
+          "Annuity calculations for insurance",
+          "Premium calculation principles",
+          "Reserve calculations",
+          "Property insurance mathematics",
+          "Deductibles and co-insurance",
+          "Loss distributions",
+          "Ruin theory basics",
+          "Reinsurance mathematics",
+          "Health insurance metrics"
+        ],
+        "projects": [
+          "Life insurance premium calculator",
+          "Insurance portfolio analyzer",
+          "Claims prediction model"
+        ],
+        "practice": "Solve 50 actuarial problems"
+      },
+      "week_66_67": {
+        "title": "Operational & Market Risk",
+        "topics": [
+          "Operational risk measurement",
+          "Key risk indicators (KRIs)",
+          "Loss distribution approach",
+          "Market risk factors",
+          "Greeks: delta, gamma, theta, vega, rho",
+          "Hedging strategies mathematics",
+          "Basis risk calculations",
+          "Liquidity risk measures",
+          "Counterparty risk assessment",
+          "Systemic risk indicators",
+          "Risk appetite frameworks",
+          "Economic capital calculation"
+        ],
+        "projects": [
+          "Greeks calculator",
+          "Hedging strategy optimizer",
+          "Risk dashboard creator"
+        ],
+        "practice": "Design 25 risk management strategies"
+      },
+      "week_68_69": {
+        "title": "Regulatory Capital & Compliance",
+        "topics": [
+          "Basel III requirements",
+          "Capital adequacy ratios",
+          "Tier 1 and Tier 2 capital",
+          "Risk-weighted assets calculation",
+          "Leverage ratio",
+          "Liquidity coverage ratio (LCR)",
+          "Net stable funding ratio (NSFR)",
+          "IFRS 9 impairment models",
+          "Solvency II for insurance",
+          "Dodd-Frank Act implications",
+          "MiFID II requirements",
+          "Regulatory reporting mathematics"
+        ],
+        "projects": [
+          "Capital adequacy calculator",
+          "Regulatory report generator",
+          "Compliance tracking tool"
+        ],
+        "practice": "Calculate regulatory metrics for 20 institutions"
+      },
+      "week_70": {
+        "title": "Phase 3 Integration & Assessment",
+        "topics": [
+          "Integrated risk management",
+          "Portfolio construction with constraints",
+          "Risk-return optimization",
+          "Comprehensive case studies",
+          "Professional presentation skills",
+          "Industry best practices"
+        ],
+        "projects": [
+          "Complete investment analysis case",
+          "Risk management framework design",
+          "Portfolio optimization project"
+        ],
+        "assessment": "Phase 3 exam on investments and risk"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Advanced Finance & Quantitative Methods (Months 10-12, Weeks 40-52)",
+    "description": "Master derivatives pricing, quantitative finance, financial modeling, and advanced corporate finance.",
+    "month_19_20": {
+      "title": "Months 10-11: Derivatives & Structured Products",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Options Mathematics",
+        "topics": [
+          "Call and put option payoffs",
+          "Intrinsic and time value",
+          "Put-call parity",
+          "Option strategies: spreads, straddles, strangles",
+          "Binomial option pricing model",
+          "Risk-neutral valuation",
+          "Black-Scholes model derivation",
+          "Black-Scholes formula application",
+          "Implied volatility calculation",
+          "American option valuation",
+          "Exotic options: barrier, Asian, lookback",
+          "Real options valuation"
+        ],
+        "projects": [
+          "Options pricing calculator",
+          "Strategy payoff visualizer",
+          "Implied volatility surface"
+        ],
+        "practice": "Price 100 different option structures"
+      },
+      "week_81_82": {
+        "title": "Futures & Forwards",
+        "topics": [
+          "Forward pricing theory",
+          "Cost of carry model",
+          "Futures margin mechanics",
+          "Basis and basis risk",
+          "Hedging with futures",
+          "Optimal hedge ratios",
+          "Duration-based hedging",
+          "Cross-hedging",
+          "Commodity futures pricing",
+          "Interest rate futures",
+          "Currency futures strategies",
+          "Index futures and arbitrage"
+        ],
+        "projects": [
+          "Futures pricing model",
+          "Hedge effectiveness analyzer",
+          "Arbitrage opportunity scanner"
+        ],
+        "practice": "Design 50 hedging strategies"
+      },
+      "week_83_84": {
+        "title": "Swaps & Interest Rate Derivatives",
+        "topics": [
+          "Interest rate swap mechanics",
+          "Swap valuation methods",
+          "Currency swap valuation",
+          "Credit default swaps",
+          "Total return swaps",
+          "Swap spread analysis",
+          "Forward rate agreements (FRAs)",
+          "Caps, floors, and collars",
+          "Swaptions",
+          "Constant maturity swaps",
+          "Basis swaps",
+          "Structured notes design"
+        ],
+        "projects": [
+          "Swap pricing calculator",
+          "Structured product designer",
+          "Interest rate hedge optimizer"
+        ],
+        "practice": "Structure 40 derivative solutions"
+      },
+      "week_85_86": {
+        "title": "Credit Derivatives & Structured Finance",
+        "topics": [
+          "Credit default swap pricing",
+          "CDO and CLO structures",
+          "Synthetic CDOs",
+          "Credit spread options",
+          "First-to-default baskets",
+          "Correlation trading",
+          "Securitization mathematics",
+          "Waterfall structures",
+          "Tranching and subordination",
+          "Prepayment modeling",
+          "Default correlation",
+          "Copula models basics"
+        ],
+        "projects": [
+          "CDO structuring tool",
+          "Credit portfolio simulator",
+          "Securitization analyzer"
+        ],
+        "practice": "Analyze 30 structured products"
+      },
+      "week_87": {
+        "title": "Volatility & Advanced Greeks",
+        "topics": [
+          "Volatility smile and skew",
+          "Term structure of volatility",
+          "Local volatility models",
+          "Stochastic volatility basics",
+          "Volatility trading strategies",
+          "Vega hedging",
+          "Higher-order Greeks",
+          "Cross-Greeks",
+          "Portfolio Greeks management",
+          "Dynamic hedging",
+          "Volatility arbitrage",
+          "Dispersion trading"
+        ],
+        "projects": [
+          "Volatility surface modeler",
+          "Greeks risk manager",
+          "Dynamic hedging simulator"
+        ],
+        "practice": "Implement 25 volatility strategies"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 11-12: Quantitative Finance & Modeling",
+      "weeks": "Week 48-52",
+      "week_88_89": {
+        "title": "Financial Modeling Excellence",
+        "topics": [
+          "Financial model architecture",
+          "Three-statement modeling",
+          "Revenue and cost projections",
+          "Working capital modeling",
+          "Debt schedules and waterfalls",
+          "Circular reference resolution",
+          "Scenario and sensitivity tables",
+          "Monte Carlo in Excel",
+          "Model auditing techniques",
+          "Dashboard design",
+          "VBA for financial modeling",
+          "Model documentation standards"
+        ],
+        "projects": [
+          "Complete financial model template",
+          "LBO model",
+          "Project finance model"
+        ],
+        "practice": "Build 10 professional financial models"
+      },
+      "week_90_91": {
+        "title": "Algorithmic Trading Mathematics",
+        "topics": [
+          "Trading system components",
+          "Backtesting methodology",
+          "Performance metrics for strategies",
+          "Market microstructure",
+          "Order types and execution",
+          "Slippage and transaction costs",
+          "Mean reversion strategies",
+          "Momentum strategies",
+          "Pairs trading mathematics",
+          "Statistical arbitrage",
+          "High-frequency trading basics",
+          "Machine learning in trading"
+        ],
+        "projects": [
+          "Trading strategy backtester",
+          "Pairs trading system",
+          "Performance analytics platform"
+        ],
+        "practice": "Backtest 20 trading strategies"
+      },
+      "week_92_93": {
+        "title": "Corporate Finance Advanced",
+        "topics": [
+          "Advanced capital budgeting",
+          "Real options in capital budgeting",
+          "Cost of capital estimation",
+          "Capital structure optimization",
+          "Modigliani-Miller theorems",
+          "Trade-off theory",
+          "Pecking order theory",
+          "Dividend policy mathematics",
+          "Share buyback analysis",
+          "Merger and acquisition valuation",
+          "Synergy valuation",
+          "Leveraged buyout modeling"
+        ],
+        "projects": [
+          "M&A valuation model",
+          "LBO returns analyzer",
+          "Capital structure optimizer"
+        ],
+        "practice": "Analyze 25 corporate finance decisions"
+      },
+      "week_94_95": {
+        "title": "Fintech & Blockchain Finance",
+        "topics": [
+          "Cryptocurrency valuation models",
+          "Blockchain in financial services",
+          "DeFi protocol mathematics",
+          "Yield farming calculations",
+          "Liquidity pool mathematics",
+          "Stablecoin mechanisms",
+          "Central bank digital currencies",
+          "Robo-advisor algorithms",
+          "Peer-to-peer lending models",
+          "Crowdfunding mathematics",
+          "Payment processing economics",
+          "RegTech applications"
+        ],
+        "projects": [
+          "DeFi yield calculator",
+          "Crypto portfolio tracker",
+          "P2P lending analyzer"
+        ],
+        "practice": "Analyze 20 fintech business models"
+      },
+      "week_96": {
+        "title": "ESG & Sustainable Finance",
+        "topics": [
+          "ESG scoring methodologies",
+          "Green bond mathematics",
+          "Carbon credit pricing",
+          "Social impact measurements",
+          "Sustainable investment strategies",
+          "Climate risk modeling",
+          "Transition risk assessment",
+          "Impact investing metrics",
+          "Blended finance structures",
+          "Sustainability-linked loans",
+          "TCFD reporting requirements",
+          "EU taxonomy calculations"
+        ],
+        "projects": [
+          "ESG portfolio analyzer",
+          "Carbon footprint calculator",
+          "Impact measurement tool"
+        ],
+        "practice": "Evaluate 15 sustainable investments"
+      }
+    },
+    "month_23": {
+      "title": "Professional Applications & Certification",
+      "weeks": "Week 50-52",
+      "week_97": {
+        "title": "Industry Case Studies",
+        "topics": [
+          "Investment banking case studies",
+          "Private equity deal analysis",
+          "Hedge fund strategies review",
+          "Insurance company ALM",
+          "Pension fund management",
+          "Sovereign wealth funds",
+          "Central bank operations",
+          "Corporate treasury management",
+          "Family office structures",
+          "Endowment management"
+        ],
+        "projects": [
+          "Complete industry analysis",
+          "Deal structure proposal",
+          "Investment committee presentation"
+        ],
+        "practice": "Analyze 10 real-world cases"
+      },
+      "week_98": {
+        "title": "Professional Certifications Prep",
+        "topics": [
+          "CFA Level 1 quantitative review",
+          "FRM Part 1 quantitative topics",
+          "Actuarial exam prep",
+          "CAIA quantitative sections",
+          "CPA finance sections",
+          "Series 7 calculations",
+          "Bloomberg certification prep",
+          "Excel certification prep",
+          "Python for finance certification",
+          "Professional designation comparison"
+        ],
+        "projects": [
+          "Certification study planner",
+          "Practice exam generator",
+          "Formula reference guide"
+        ],
+        "practice": "Complete 500 certification practice questions"
+      },
+      "week_99": {
+        "title": "Financial Technology Tools",
+        "topics": [
+          "Bloomberg Terminal mastery",
+          "Reuters Eikon navigation",
+          "FactSet essentials",
+          "S&P Capital IQ",
+          "Morningstar Direct",
+          "Python for finance",
+          "R for financial analysis",
+          "SQL for financial data",
+          "Tableau for finance",
+          "Power BI dashboards",
+          "Advanced Excel techniques",
+          "Financial APIs integration"
+        ],
+        "projects": [
+          "Multi-source data aggregator",
+          "Automated report generator",
+          "Real-time market dashboard"
+        ],
+        "practice": "Master 10 professional tools"
+      },
+      "week_100": {
+        "title": "Career Development & Networking",
+        "topics": [
+          "Finance career paths",
+          "Resume optimization for finance",
+          "Technical interview preparation",
+          "Case interview techniques",
+          "Networking in finance",
+          "LinkedIn optimization",
+          "CFA Institute networking",
+          "Professional associations",
+          "Continuing education planning",
+          "Industry trends and future"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "GitHub repository of projects",
+          "Industry research report"
+        ],
+        "practice": "Complete 20 mock interviews"
+      }
+    },
+    "month_24": {
+      "title": "Final Projects & Certification",
+      "weeks": "Week 51-52",
+      "week_101_102": {
+        "title": "Capstone Project - Part 1",
+        "topics": [
+          "Project selection and scoping",
+          "Data collection and cleaning",
+          "Model development",
+          "Analysis and insights",
+          "Risk assessment",
+          "Recommendations formulation",
+          "Sensitivity analysis",
+          "Documentation preparation"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Financial Analysis Project",
+          "Options: Company valuation with M&A recommendation",
+          "Portfolio optimization with risk management",
+          "Trading strategy with full backtest",
+          "Fintech business plan with financial projections"
+        ]
+      },
+      "week_103": {
+        "title": "Capstone Project - Part 2 & Presentation",
+        "topics": [
+          "Final model refinement",
+          "Peer review process",
+          "Presentation preparation",
+          "Executive summary writing",
+          "Q&A preparation",
+          "Professional formatting",
+          "Submission guidelines",
+          "Public presentation"
+        ],
+        "deliverables": [
+          "Complete financial model",
+          "50-page analysis report",
+          "Executive presentation",
+          "Video walkthrough",
+          "Peer review feedback",
+          "GitHub repository"
+        ]
+      },
+      "week_104": {
+        "title": "Final Assessment & Certification",
+        "topics": [
+          "Comprehensive knowledge review",
+          "Final examination preparation",
+          "Portfolio compilation",
+          "Skills self-assessment",
+          "Future learning roadmap",
+          "Alumni network access",
+          "Industry connections",
+          "Certification ceremony"
+        ],
+        "deliverables": [
+          "Final comprehensive exam (4 hours)",
+          "Complete project portfolio",
+          "Professional references",
+          "Certification of completion",
+          "LinkedIn certification badge",
+          "Transcript of achievements"
+        ],
+        "assessment": "FINAL EXAM: Comprehensive 4-hour exam covering all business and finance mathematics"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Business calculators, Loan analyzers, Accounting tools",
+      "Phase 2: Statistical models, Economic forecasts, Regression analyses",
+      "Phase 3: Investment valuations, Portfolio optimizers, Risk dashboards",
+      "Phase 4: Derivatives pricers, Trading systems, Financial models",
+      "Final: Professional-grade financial analysis project"
+    ],
+    "total_projects_built": "150+ financial tools, models, calculators, and analytical dashboards",
+    "skills_mastered": [
+      "Financial Mathematics: TVM, annuities, loans, bonds, derivatives",
+      "Statistical Analysis: Regression, time series, hypothesis testing, forecasting",
+      "Investment Analysis: Valuation, portfolio theory, performance measurement",
+      "Risk Management: VaR, stress testing, credit risk, operational risk",
+      "Corporate Finance: Capital budgeting, capital structure, M&A, LBO",
+      "Quantitative Methods: Monte Carlo, optimization, algorithmic trading",
+      "Financial Modeling: Excel, VBA, Python, professional models",
+      "Professional Tools: Bloomberg, Excel advanced, Python, SQL",
+      "Certifications Prep: CFA, FRM, actuarial exam readiness"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-6 hours",
+      "hands_on_coding": "4-5 hours",
+      "projects": "3-4 hours",
+      "practice_problems": "3-4 hours",
+      "total_per_week": "12-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving workshops",
+      "mentorship": "Industry professional mentors",
+      "community": "Active finance professionals network",
+      "code_review": "Model review and feedback",
+      "career_support": "Interview prep and job placement",
+      "lifetime_access": "All materials and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each quarter",
+      "final_certificate": "Professional Finance Mathematics Certificate",
+      "linkedin_badge": "Verified achievement badge",
+      "industry_recognized": "Endorsed by finance professionals",
+      "portfolio_projects": "150+ completed financial analyses"
+    }
+  },
+  "prerequisites": {
+    "education": "High school mathematics",
+    "coding_experience": "None required - will teach Excel/Python",
+    "equipment": "Computer with Excel, internet connection",
+    "time_commitment": "12-15 hours per week",
+    "english": "Business English comprehension",
+    "motivation": "Strong interest in finance/business"
+  },
+  "who_is_this_for": {
+    "students": "Business/Finance/Economics students",
+    "working_professionals": "Career switchers to finance",
+    "entrepreneurs": "Business owners needing financial skills",
+    "freelancers": "Financial consultants and advisors",
+    "kids": "Advanced high school students (16+)",
+    "anyone": "Anyone pursuing finance careers"
+  },
+  "career_paths_after_completion": [
+    "Financial Analyst (₹6-15 LPA)",
+    "Investment Banking Analyst (₹10-25 LPA)",
+    "Risk Analyst (₹8-18 LPA)",
+    "Equity Research Analyst (₹8-20 LPA)",
+    "Credit Analyst (₹6-15 LPA)",
+    "Portfolio Manager (₹15-40 LPA)",
+    "Quantitative Analyst (₹12-30 LPA)",
+    "Corporate Finance Manager (₹10-25 LPA)",
+    "Financial Consultant (₹8-20 LPA)",
+    "Actuarial Analyst (₹6-15 LPA)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹4-8 LPA (Entry-level analyst)",
+    "after_12_months": "₹8-15 LPA (Financial Analyst)",
+    "after_18_months": "₹12-25 LPA (Senior Analyst)",
+    "after_24_months": "₹15-40 LPA (Manager/Specialist)",
+    "freelance": "₹1000-5000/hour consulting",
+    "international": "$60k-150k based on role and location"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money-back guarantee",
+    "job_assistance": "Placement support in finance roles",
+    "lifetime_updates": "Free access to all updates",
+    "mentorship": "Industry expert mentorship",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Professional project portfolio"
+  }
+}

@@ -348,20 +348,23 @@
                         <!-- Maths Sub-tabs -->
                         <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel"
                             aria-labelledby="mathsTab">
-                            <button class="sub-tab active" data-subtab="kids" data-main="maths">
-                                <span class="subtab-text">Kids</span>
+                            <button class="sub-tab active" data-subtab="elementary" data-main="maths">
+                                <span class="subtab-text">Elementary (Grade 1-5)</span>
                             </button>
-                            <button class="sub-tab" data-subtab="teens" data-main="maths">
-                                <span class="subtab-text">Teens</span>
+                            <button class="sub-tab" data-subtab="middle" data-main="maths">
+                                <span class="subtab-text">Middle School (Grade 6-8)</span>
                             </button>
-                            <button class="sub-tab" data-subtab="adults" data-main="maths">
-                                <span class="subtab-text">Adults</span>
+                            <button class="sub-tab" data-subtab="high" data-main="maths">
+                                <span class="subtab-text">High School (Grade 9-12)</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="college" data-main="maths">
+                                <span class="subtab-text">College Level</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="professional" data-main="maths">
+                                <span class="subtab-text">Working Professionals</span>
                             </button>
                             <button class="sub-tab" data-subtab="girls" data-main="maths">
                                 <span class="subtab-text">Special for Girls</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="customized" data-main="maths">
-                                <span class="subtab-text">Customized</span>
                             </button>
                         </div>
                     </div>
@@ -1253,30 +1256,8 @@
                 templateUrl: 'coming-soon',
                 imageUrl: 'foundational-algebra.png'
             },
-            {
-                id: 56,
-                category: 'mathematics',
-                title: 'Calculus Unlocked',
-                description: 'Explore the concepts of change and motion. Master derivatives and integrals to solve complex, real-world problems.',
-                skills: ['Derivatives', 'Integrals', 'Applied Problems'],
-                difficulty: 'advanced',
-                ageGroup: 'college',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'calculus-unlocked.png'
-            },
-            {
-                id: 57,
-                category: 'mathematics',
-                title: 'Statistics & Probability',
-                description: 'Learn to analyze data and make informed decisions. Master statistical concepts and probability theory.',
-                skills: ['Data Analysis', 'Probability Theory', 'Hypothesis Testing'],
-                difficulty: 'intermediate',
-                ageGroup: 'college',
-                badges: [],
-                templateUrl: 'coming-soon',
-                imageUrl: 'statistics-and-probability.png'
-            },
+
+
             {
                 id: 58,
                 category: 'mathematics',
@@ -1289,257 +1270,213 @@
                 templateUrl: 'coming-soon',
                 imageUrl: 'fun-math-for-kids.png'
             },
-            {
-                id: 59,
-                category: 'mathematics',
-                title: 'Math Queens',
-                description: 'Empowering girls in mathematics. Build confidence and excel in mathematical problem-solving.',
-                skills: ['Advanced Problem Solving', 'Mathematical Reasoning', 'Confidence Building'],
-                difficulty: 'intermediate',
-                ageGroup: 'girls',
-                badges: ['new'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'math-queens.png'
-            },
-            {
-                id: 60,
-                category: 'mathematics',
-                title: 'Applied Mathematics',
-                description: 'Learn how mathematics applies to real-world scenarios. Perfect for adults looking to enhance their analytical skills.',
-                skills: ['Real-world Applications', 'Mathematical Modeling', 'Data Interpretation'],
-                difficulty: 'intermediate',
-                ageGroup: 'college',
-                badges: [],
-                templateUrl: 'coming-soon',
-                imageUrl: 'applied-mathematics.png'
-            },
+
+
 
             // === COMPREHENSIVE MATHEMATICS COURSES FOR GRADE 1-12 ===
 
-            // KIDS TAB - GRADES 1-5
+            // ELEMENTARY TAB - GRADES 1-5
             {
                 id: 61,
                 category: 'mathematics',
-                title: 'Math Foundations (Grade 1-2)',
-                description: 'Fun introduction to numbers, counting, and basic operations. Perfect for young learners starting their math journey.',
-                skills: ['Number Recognition', 'Basic Addition & Subtraction', 'Shape Identification', 'Pattern Recognition'],
+                title: 'Elementary Mathematics Complete Masterclass',
+                description: 'Complete 2-year elementary mathematics program covering grades 1-5. Master numbers, operations, fractions, geometry, and problem-solving.',
+                skills: ['Number Sense', 'Basic Operations', 'Fractions & Decimals', 'Geometry Basics'],
                 difficulty: 'beginner',
-                ageGroup: 'kids',
-                badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'math-foundations-grade-1-2.png'
+                ageGroup: 'elementary',
+                badges: ['popular', 'hot'],
+                templateUrl: '../content/courses/generated/elementary-mathematics-complete-masterclass/index.html',
+                imageUrl: 'elementary-maths.png'
             },
             {
                 id: 62,
                 category: 'mathematics',
-                title: 'Elementary Math (Grade 3-4)',
-                description: 'Build strong mathematical foundations with multiplication, division, and problem-solving skills.',
-                skills: ['Multiplication Tables', 'Division Concepts', 'Word Problems', 'Basic Geometry'],
-                difficulty: 'beginner',
-                ageGroup: 'kids',
+                title: 'Olympiad & Competition Math (Elementary)',
+                description: 'Master advanced problem-solving techniques and prepare for mathematical competitions at elementary level.',
+                skills: ['Problem Solving', 'Number Theory', 'Competition Prep', 'Mathematical Reasoning'],
+                difficulty: 'intermediate',
+                ageGroup: 'elementary',
                 badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'elementary-math-grade-3-4.png'
+                templateUrl: '../content/courses/generated/olympiad-competition-mathematics-mastery/index.html',
+                imageUrl: 'olympiad-competition-maths.png'
             },
+
+            // MIDDLE SCHOOL TAB - GRADES 6-8
             {
                 id: 63,
                 category: 'mathematics',
-                title: 'Advanced Elementary (Grade 5)',
-                description: 'Master fractions, decimals, and advanced problem-solving. Prepare for middle school mathematics.',
-                skills: ['Fractions & Decimals', 'Advanced Problem Solving', 'Basic Statistics', 'Measurement'],
+                title: 'Middle School Mathematics Mastery',
+                description: 'Complete 1-year middle school mathematics program. Master pre-algebra, ratios, proportions, geometry fundamentals, and statistical thinking.',
+                skills: ['Pre-Algebra', 'Geometry Basics', 'Statistics', 'Proportional Reasoning'],
                 difficulty: 'intermediate',
-                ageGroup: 'kids',
-                badges: ['new'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'advanced-elementary-grade-5.png'
+                ageGroup: 'middle',
+                badges: ['popular'],
+                templateUrl: '../content/courses/generated/comprehensive-middle-school-mathematics-mastery/index.html',
+                imageUrl: 'middle-school-maths.png'
             },
-
-            // TEENS TAB - GRADES 6-12
             {
                 id: 64,
                 category: 'mathematics',
-                title: 'Pre-Algebra (Grade 6-7)',
-                description: 'Introduction to algebraic thinking. Master integers, ratios, and basic equations.',
-                skills: ['Integer Operations', 'Ratios & Proportions', 'Basic Equations', 'Coordinate Plane'],
-                difficulty: 'intermediate',
-                ageGroup: 'teens',
-                badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'pre-algebra-grade-6-7.png'
+                title: 'Olympiad & Competition Math (Middle School)',
+                description: 'Develop advanced mathematical reasoning and excel in AMC, MATHCOUNTS, and other middle school competitions.',
+                skills: ['Advanced Algebra', 'Combinatorics', 'Competition Strategy', 'Mathematical Proofs'],
+                difficulty: 'advanced',
+                ageGroup: 'middle',
+                badges: ['hot', 'popular'],
+                templateUrl: '../content/courses/generated/olympiad-competition-mathematics-mastery/index.html',
+                imageUrl: 'olympiad-competition-maths.png'
             },
+
+            // HIGH SCHOOL TAB - GRADES 9-12
             {
                 id: 65,
                 category: 'mathematics',
-                title: 'Algebra I (Grade 8-9)',
-                description: 'Master linear equations, inequalities, and functions. Build the foundation for advanced mathematics.',
-                skills: ['Linear Equations', 'Graphing Functions', 'Systems of Equations', 'Polynomials'],
-                difficulty: 'intermediate',
-                ageGroup: 'teens',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'algebra-i-grade-8-9.png'
+                title: 'High School Mathematics Complete',
+                description: 'Complete 1-year accelerated high school mathematics program. Master algebra, geometry, trigonometry, pre-calculus, and calculus.',
+                skills: ['Algebra & Calculus', 'Trigonometry', 'Advanced Geometry', 'Pre-Calculus'],
+                difficulty: 'advanced',
+                ageGroup: 'high',
+                badges: ['hot', 'popular'],
+                templateUrl: '../content/courses/generated/complete-high-school-mathematics-mastery/index.html',
+                imageUrl: 'high-school-maths.png'
             },
             {
                 id: 66,
                 category: 'mathematics',
-                title: 'Geometry (Grade 9-10)',
-                description: 'Explore shapes, angles, and spatial relationships. Master proofs and geometric problem-solving.',
-                skills: ['Geometric Proofs', 'Area & Volume', 'Trigonometric Ratios', 'Coordinate Geometry'],
-                difficulty: 'intermediate',
-                ageGroup: 'teens',
-                badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'geometry-grade-9-10.png'
+                title: 'Olympiad & Competition Math (High School)',
+                description: 'Train for AIME, USAMO, IMO, and other prestigious high school mathematical olympiads and competitions.',
+                skills: ['Number Theory', 'Inequalities', 'IMO Preparation', 'Advanced Problem Solving'],
+                difficulty: 'advanced',
+                ageGroup: 'high',
+                badges: ['hot', 'popular'],
+                templateUrl: '../content/courses/generated/olympiad-competition-mathematics-mastery/index.html',
+                imageUrl: 'olympiad-competition-maths.png'
             },
+
+            // COLLEGE LEVEL TAB
             {
                 id: 67,
                 category: 'mathematics',
-                title: 'Algebra II (Grade 10-11)',
-                description: 'Advanced algebraic concepts including quadratics, exponentials, and logarithms.',
-                skills: ['Quadratic Functions', 'Exponential Functions', 'Logarithms', 'Complex Numbers'],
+                title: 'College Mathematics Complete Masterclass',
+                description: 'Complete 2-year undergraduate mathematics program. Master advanced calculus, linear algebra, differential equations, real analysis, and abstract algebra.',
+                skills: ['Advanced Calculus', 'Linear Algebra', 'Real Analysis', 'Abstract Algebra'],
                 difficulty: 'advanced',
-                ageGroup: 'teens',
+                ageGroup: 'college',
                 badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'algebra-ii-grade-10-11.png'
+                templateUrl: '../content/courses/generated/college-mathematics-complete-masterclass/index.html',
+                imageUrl: 'college-level-maths.png'
             },
             {
                 id: 68,
                 category: 'mathematics',
-                title: 'Pre-Calculus (Grade 11-12)',
-                description: 'Prepare for calculus with advanced functions, trigonometry, and analytical geometry.',
-                skills: ['Advanced Functions', 'Trigonometry', 'Sequences & Series', 'Conic Sections'],
+                title: 'Applied Mathematics',
+                description: 'Learn mathematical modeling, numerical methods, optimization, and applications in science and engineering.',
+                skills: ['Mathematical Modeling', 'Numerical Methods', 'Optimization', 'Applied Math'],
                 difficulty: 'advanced',
-                ageGroup: 'teens',
+                ageGroup: 'college',
                 badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'pre-calculus-grade-11-12.png'
+                templateUrl: '../content/courses/generated/college-mathematics-complete-masterclass/index.html',
+                imageUrl: 'applied-maths.png'
             },
+
+            // WORKING PROFESSIONALS TAB
             {
                 id: 69,
                 category: 'mathematics',
-                title: 'Calculus (Grade 12)',
-                description: 'Master differential and integral calculus. Prepare for college-level mathematics.',
-                skills: ['Limits & Continuity', 'Derivatives', 'Integrals', 'Applications of Calculus'],
-                difficulty: 'advanced',
-                ageGroup: 'teens',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'calculus-grade-12.png'
+                title: 'Business & Finance Mathematics',
+                description: 'Master quantitative finance, risk analysis, financial modeling, and business mathematics for professional applications.',
+                skills: ['Financial Modeling', 'Risk Analysis', 'Quantitative Methods', 'Business Math'],
+                difficulty: 'intermediate',
+                ageGroup: 'professional',
+                badges: ['popular'],
+                templateUrl: '../content/courses/generated/complete-business-finance-mathematics-mastery/index.html',
+                imageUrl: 'business-finance-maths.png'
             },
-
-            // ADULTS TAB - ADVANCED MATHEMATICS
             {
                 id: 70,
                 category: 'mathematics',
-                title: 'Business Mathematics',
-                description: 'Mathematical concepts for business applications including finance, statistics, and optimization.',
-                skills: ['Financial Mathematics', 'Business Statistics', 'Linear Programming', 'Decision Analysis'],
-                difficulty: 'intermediate',
-                ageGroup: 'adults',
-                badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'business-mathematics.png'
+                title: 'Data Analytics Mathematics',
+                description: 'Learn statistics, probability, machine learning mathematics, and data science fundamentals for analytics professionals.',
+                skills: ['Statistical Analysis', 'Probability Theory', 'ML Mathematics', 'Data Science'],
+                difficulty: 'advanced',
+                ageGroup: 'professional',
+                badges: ['hot'],
+                templateUrl: '../content/courses/generated/data-analytics-mathematics-masterclass/index.html',
+                imageUrl: 'data-analytics-maths.png'
             },
+
+            // SPECIAL FOR GIRLS TAB - All math courses except Business & Data Analytics
             {
                 id: 71,
                 category: 'mathematics',
-                title: 'Advanced Statistics',
-                description: 'Comprehensive statistical analysis for research and data science applications.',
-                skills: ['Hypothesis Testing', 'Regression Analysis', 'ANOVA', 'Statistical Software'],
-                difficulty: 'advanced',
-                ageGroup: 'adults',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'advanced-statistics.png'
+                title: 'Elementary Mathematics (For Girls)',
+                description: 'Complete elementary mathematics program designed to empower girls with strong mathematical foundations.',
+                skills: ['Number Sense', 'Basic Operations', 'Fractions & Decimals', 'Confidence Building'],
+                difficulty: 'beginner',
+                ageGroup: 'girls',
+                badges: ['popular'],
+                templateUrl: '../content/courses/generated/elementary-mathematics-complete-masterclass/index.html',
+                imageUrl: 'elementary-maths.png'
             },
             {
                 id: 72,
                 category: 'mathematics',
-                title: 'Mathematical Modeling',
-                description: 'Learn to create mathematical models for real-world problems and scenarios.',
-                skills: ['Model Development', 'Differential Equations', 'Optimization', 'Simulation'],
-                difficulty: 'advanced',
-                ageGroup: 'adults',
-                badges: ['new'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'mathematical-modeling.png'
+                title: 'Middle School Mathematics (For Girls)',
+                description: 'Empowering girls in middle school mathematics with supportive learning environment and female role models.',
+                skills: ['Pre-Algebra', 'Geometry', 'Statistics', 'STEM Applications'],
+                difficulty: 'intermediate',
+                ageGroup: 'girls',
+                badges: ['hot'],
+                templateUrl: '../content/courses/generated/comprehensive-middle-school-mathematics-mastery/index.html',
+                imageUrl: 'middle-school-maths.png'
             },
-
-            // SPECIAL FOR GIRLS TAB
             {
                 id: 73,
                 category: 'mathematics',
-                title: 'Math Princesses (Grade 1-3)',
-                description: 'Fun and engaging mathematics for young girls with princess-themed problems and activities.',
-                skills: ['Basic Arithmetic', 'Pattern Recognition', 'Problem Solving', 'Confidence Building'],
-                difficulty: 'beginner',
+                title: 'High School Mathematics (For Girls)',
+                description: 'Advanced mathematics course for girls highlighting contributions of women mathematicians and building confidence.',
+                skills: ['Advanced Algebra', 'Calculus', 'Mathematical History', 'Leadership Skills'],
+                difficulty: 'advanced',
                 ageGroup: 'girls',
                 badges: ['popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'math-princesses-grade-1-3.png'
+                templateUrl: '../content/courses/generated/complete-high-school-mathematics-mastery/index.html',
+                imageUrl: 'high-school-maths.png'
             },
             {
                 id: 74,
                 category: 'mathematics',
-                title: 'Girls in STEM Math (Grade 4-8)',
-                description: 'Empowering girls in mathematics with real-world applications and female role models.',
-                skills: ['Advanced Problem Solving', 'STEM Applications', 'Leadership Skills', 'Mathematical Reasoning'],
-                difficulty: 'intermediate',
+                title: 'College Mathematics (For Girls)',
+                description: 'Comprehensive college-level mathematics empowering women in STEM fields with advanced mathematical knowledge.',
+                skills: ['Advanced Calculus', 'Linear Algebra', 'Real Analysis', 'Research Skills'],
+                difficulty: 'advanced',
                 ageGroup: 'girls',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'girls-in-stem-math-grade-4-8.png'
+                badges: ['new'],
+                templateUrl: '../content/courses/generated/college-mathematics-complete-masterclass/index.html',
+                imageUrl: 'college-level-maths.png'
             },
             {
                 id: 75,
                 category: 'mathematics',
-                title: 'Women in Mathematics (Grade 9-12)',
-                description: 'Advanced mathematics course highlighting contributions of women mathematicians.',
-                skills: ['Advanced Algebra', 'Calculus Concepts', 'Mathematical History', 'Research Skills'],
+                title: 'Applied Mathematics (For Girls)',
+                description: 'Applied mathematics for women pursuing careers in science, engineering, and technology.',
+                skills: ['Mathematical Modeling', 'Numerical Methods', 'Optimization', 'STEM Applications'],
                 difficulty: 'advanced',
                 ageGroup: 'girls',
-                badges: ['new'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'women-in-mathematics-grade-9-12.png'
+                badges: [],
+                templateUrl: '../content/courses/generated/college-mathematics-complete-masterclass/index.html',
+                imageUrl: 'applied-maths.png'
             },
-
-            // OLYMPIAD PREPARATION COURSES
             {
                 id: 76,
                 category: 'mathematics',
-                title: 'Math Olympiad Prep (Grade 6-8)',
-                description: 'Intensive preparation for mathematical olympiads with advanced problem-solving techniques.',
-                skills: ['Competition Strategies', 'Advanced Problem Solving', 'Mathematical Proofs', 'Time Management'],
+                title: 'Olympiad & Competition Math (For Girls)',
+                description: 'Mathematical olympiad training specifically designed to empower girls in competitive mathematics.',
+                skills: ['Competition Strategies', 'Advanced Problem Solving', 'Mathematical Proofs', 'Confidence Building'],
                 difficulty: 'advanced',
-                ageGroup: 'teens',
-                badges: ['hot', 'popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'math-olympiad-prep-grade-6-8.png'
-            },
-            {
-                id: 77,
-                category: 'mathematics',
-                title: 'Advanced Olympiad Training (Grade 9-12)',
-                description: 'Elite-level mathematical olympiad training for high school students.',
-                skills: ['Competition Mathematics', 'Advanced Proofs', 'Number Theory', 'Combinatorics'],
-                difficulty: 'advanced',
-                ageGroup: 'teens',
+                ageGroup: 'girls',
                 badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'advanced-olympiad-training-grade-9-12.png'
-            },
-            {
-                id: 78,
-                category: 'mathematics',
-                title: 'International Math Olympiad Prep',
-                description: 'Ultimate preparation for International Mathematical Olympiad and similar competitions.',
-                skills: ['IMO Problem Types', 'Advanced Techniques', 'Competition Psychology', 'Elite Training'],
-                difficulty: 'advanced',
-                ageGroup: 'teens',
-                badges: ['hot', 'popular'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'international-math-olympiad-prep.png'
+                templateUrl: '../content/courses/generated/olympiad-competition-mathematics-mastery/index.html',
+                imageUrl: 'olympiad-competition-maths.png'
             }
         ];
 
@@ -1569,7 +1506,13 @@
 
                         // Update main tab state
                         tabState.activeMainTab = tabType;
-                        tabState.activeSubTab = 'kids'; // Reset to first sub-tab
+
+                        // Set default subtab based on main tab
+                        if (tabType === 'maths') {
+                            tabState.activeSubTab = 'elementary'; // First maths subtab
+                        } else {
+                            tabState.activeSubTab = 'kids'; // First coding subtab
+                        }
 
                         // Update main tab visual states
                         mainTabs.forEach(t => {
@@ -1701,7 +1644,7 @@
             function generateMinimalCourseCard(course) {
                 // Generate image URL
                 const imageUrl = course.imageUrl || 'default-course.png';
-                const imagePath = `images/${imageUrl}`;
+                const imagePath = `/images/${imageUrl}`;
 
                 // Arrow SVG for button - always show
                 const arrowSvg = `
@@ -1711,7 +1654,12 @@
                 `;
 
                 return `
-                    <div class="course-card-minimal" data-course-id="${course.id}" data-category="${course.category}">
+                    <div class="course-card-minimal" 
+                         data-course-id="${course.id}" 
+                         data-category="${course.category}"
+                         data-template-url="${course.templateUrl || ''}"
+                         data-course-title="${course.title}"
+                         style="cursor: pointer;">
                         <div class="course-image-container">
                             <img src="${imagePath}" 
                                  alt="${course.title}" 
@@ -1733,10 +1681,12 @@
                 `;
             }
 
-            // Initialize Start Learning button click handlers
+            // Initialize Start Learning button click handlers and card click handlers
             function initializeStartLearningButtons() {
                 const buttons = document.querySelectorAll('.start-learning-btn');
+                const cards = document.querySelectorAll('.course-card-minimal');
 
+                // Handle button clicks
                 buttons.forEach(button => {
                     button.addEventListener('click', function (e) {
                         e.stopPropagation();
@@ -1752,6 +1702,38 @@
                             // Optionally show a message or navigate to a default page
                             showComingSoonMessage(courseTitle);
                         }
+                    });
+                });
+
+                // Handle card clicks (entire card is clickable)
+                cards.forEach(card => {
+                    card.addEventListener('click', function (e) {
+                        // Don't trigger if clicking the button (button has its own handler)
+                        if (e.target.closest('.start-learning-btn')) {
+                            return;
+                        }
+
+                        const templateUrl = this.getAttribute('data-template-url');
+                        const courseTitle = this.getAttribute('data-course-title');
+
+                        if (templateUrl && templateUrl !== 'coming-soon' && templateUrl !== '') {
+                            console.log(`Card clicked - Navigating to: ${templateUrl}`);
+                            window.location.href = templateUrl;
+                        } else {
+                            console.log(`Card clicked for: ${courseTitle}`);
+                            showComingSoonMessage(courseTitle);
+                        }
+                    });
+
+                    // Add hover effect
+                    card.addEventListener('mouseenter', function () {
+                        this.style.transform = 'translateY(-4px)';
+                        this.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.15)';
+                    });
+
+                    card.addEventListener('mouseleave', function () {
+                        this.style.transform = 'translateY(0)';
+                        this.style.boxShadow = '';
                     });
                 });
             }
@@ -1936,12 +1918,17 @@
 
                 // Define age group mappings
                 const ageGroupMapping = {
+                    // Coding tabs
                     kids: 'kids',
                     teens: 'teens',
                     college: 'college',
-                    adults: 'adults', // Map adults to adults for maths
                     girls: 'girls',
-                    customized: 'all' // Show all for customized
+                    customized: 'all',
+                    // Maths tabs
+                    elementary: 'elementary',
+                    middle: 'middle',
+                    high: 'high',
+                    professional: 'professional'
                 };
 
                 // Filter courses based on active tabs
@@ -1990,6 +1977,16 @@
                 applySorting();
                 renderCourses();
                 updateResultsCount();
+
+                // Add/remove maths-grid class based on active tab
+                const coursesGrid = document.getElementById('coursesGrid');
+                if (coursesGrid) {
+                    if (tabState.activeMainTab === 'maths') {
+                        coursesGrid.classList.add('maths-grid');
+                    } else {
+                        coursesGrid.classList.remove('maths-grid');
+                    }
+                }
             }
 
             function updateResultsCount() {

@@ -4368,6 +4368,82 @@ body.courses-page .course-content {
     grid-template-columns: 1fr;
 }
 
+/* Math section - 2 cards per row with better width for index.html */
+#math-tabs .courses-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+}
+
+/* Math section cards - larger and more prominent */
+#math-tabs .course-card {
+    min-height: 420px;
+}
+
+@media (max-width: 1200px) {
+    #math-tabs .courses-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 900px) {
+    #math-tabs .courses-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    #math-tabs .courses-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+}
+
+/* Math section for course.html page - when maths tab is active */
+.courses-grid.maths-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2.5rem !important;
+    max-width: 1200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 1rem !important;
+}
+
+/* Ensure course cards in maths section are larger */
+.courses-grid.maths-grid .course-card {
+    min-height: 420px !important;
+}
+
+@media (max-width: 1200px) {
+    .courses-grid.maths-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 2rem !important;
+        max-width: 1000px !important;
+    }
+}
+
+@media (max-width: 900px) {
+    .courses-grid.maths-grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--spacing-lg) !important;
+        max-width: 600px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .courses-grid.maths-grid {
+        grid-template-columns: 1fr !important;
+        gap: var(--spacing-lg) !important;
+    }
+}
+
 .course-card {
     background: var(--glass-bg-light);
     backdrop-filter: blur(var(--glass-blur));
@@ -10937,13 +11013,13 @@ body.course-detail-page main {
     border: 1px solid var(--glass-border);
     border-radius: var(--border-radius-xl);
     overflow: hidden;
-    transition: all var(--transition-speed) var(--transition-timing);
+    transition: all 0.3s ease;
     position: relative;
     display: flex;
     flex-direction: column;
     height: 100%;
     box-shadow: var(--glass-shadow);
-    cursor: default;
+    cursor: pointer;
 }
 
 .course-card-minimal::before {

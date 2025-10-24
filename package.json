@@ -5,7 +5,9 @@
   "scripts": {
     "generate:blogs": "node scripts/generate-blogs.js",
     "generate:courses": "node scripts/generate-courses.js",
-    "generate:all": "npm run generate:blogs && npm run generate:courses"
+    "generate:all": "npm run generate:blogs && npm run generate:courses",
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js"
   },
   "keywords": [
     "education",

@@ -1,0 +1,1210 @@
+{
+  "meta": {
+    "slug": "olympiad-competition-mathematics-mastery",
+    "title": "Complete Olympiad & Competition Mathematics Mastery Program - Champion Training",
+    "description": "The most comprehensive 1-year mathematical olympiad training program. From competition basics to IMO-level problems. Master number theory, combinatorics, advanced algebra, geometry, inequalities, and problem-solving strategies to excel in AMC, AIME, USAMO, IMO, and other prestigious competitions.",
+    "keywords": [
+      "mathematical olympiad",
+      "competition mathematics",
+      "IMO preparation",
+      "AMC training",
+      "AIME preparation",
+      "number theory",
+      "combinatorics",
+      "competition geometry",
+      "problem solving",
+      "mathematical proofs",
+      "inequalities",
+      "functional equations",
+      "USAMO",
+      "contest math",
+      "advanced mathematics"
+    ],
+    "category": "Competition Mathematics & Olympiad Training",
+    "price": {
+      "group": "₹1999/month",
+      "personal": "₹3999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Intermediate to International Competition Level",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Olympiad Mathematics Excellence Certificate"
+  },
+  "program_overview": {
+    "title": "Complete Olympiad & Competition Mathematics Mastery Program",
+    "tagline": "From Regional Contests to International Mathematical Olympiad",
+    "description": "This intensive program transforms talented mathematics students into competition champions. Designed for students aiming to excel in mathematical olympiads and competitions at all levels - from AMC to IMO.\n\nYou'll master advanced problem-solving techniques, develop mathematical intuition, and learn to tackle the most challenging competition problems. Through systematic training in number theory, combinatorics, algebra, geometry, and more, you'll build the skills needed to compete at the highest levels. By completion, you'll have solved thousands of competition problems and be ready for any mathematical challenge.",
+    "what_makes_this_different": [
+      "Comprehensive coverage of all olympiad topics",
+      "Progressive difficulty from AMC 8 to IMO level",
+      "1000+ carefully selected competition problems",
+      "Strategies from past olympiad medalists",
+      "Mock competitions and timed practice",
+      "Proof writing and rigorous mathematics",
+      "International competition exposure",
+      "Personal coaching and problem discussions"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Competition Basics, Number Theory, Elementary Combinatorics",
+      "phase_2": "Intermediate (Months 4-6): Advanced Algebra, Polynomial Theory, Sequences and Series",
+      "phase_3": "Advanced (Months 7-9): Competition Geometry, Trigonometry, Coordinate Methods",
+      "phase_4": "Master Level (Months 10-12): Inequalities, Functional Equations, IMO Preparation"
+    },
+    "career_outcomes": [
+      "Regional Mathematics Competition Winner",
+      "National Olympiad Qualifier",
+      "International Competition Representative",
+      "University Mathematics Program Admission"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Competition Fundamentals & Number Theory (Months 1-3, Weeks 1-13)",
+    "description": "Build strong foundations in competition problem-solving, master number theory, and develop combinatorial thinking.",
+    "month_1_2": {
+      "title": "Months 1-2: Competition Mathematics Basics & Number Theory",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Competition Mathematics",
+        "topics": [
+          "Competition mathematics vs school mathematics",
+          "Major competitions overview: AMC, AIME, USAMO, IMO",
+          "Competition formats and scoring systems",
+          "Problem-solving strategies: working backwards",
+          "Pattern recognition and generalization",
+          "Extreme cases and boundary testing",
+          "Proof by contradiction",
+          "Proof by induction basics",
+          "Direct proof techniques",
+          "Constructive vs non-constructive proofs",
+          "Mathematical notation for competitions",
+          "Time management in competitions"
+        ],
+        "projects": [
+          "Solve 50 AMC 8 problems",
+          "Create problem-solving strategy guide",
+          "Analyze past competition papers"
+        ],
+        "practice": "Daily: 5 competition problems with increasing difficulty"
+      },
+      "week_3_4": {
+        "title": "Divisibility and Prime Numbers",
+        "topics": [
+          "Advanced divisibility rules and proofs",
+          "GCD and LCM properties and algorithms",
+          "Euclidean algorithm and extended version",
+          "Bezout's identity and applications",
+          "Prime factorization uniqueness theorem",
+          "Distribution of primes",
+          "Sieve of Eratosthenes variations",
+          "Prime number theorem introduction",
+          "Fermat's Little Theorem",
+          "Wilson's Theorem",
+          "Prime testing algorithms",
+          "Applications in cryptography basics"
+        ],
+        "projects": [
+          "Implement prime generation algorithms",
+          "Solve 30 number theory competition problems",
+          "Create divisibility proof portfolio"
+        ],
+        "practice": "Master 40 divisibility and prime problems from competitions"
+      },
+      "week_5_6": {
+        "title": "Modular Arithmetic",
+        "topics": [
+          "Modular arithmetic operations and properties",
+          "Congruence classes and equivalence",
+          "Linear congruences and solutions",
+          "Chinese Remainder Theorem",
+          "Modular multiplicative inverse",
+          "Euler's totient function φ(n)",
+          "Euler's theorem and generalizations",
+          "Quadratic residues introduction",
+          "Legendre symbol",
+          "Power patterns in modular arithmetic",
+          "Solving Diophantine equations",
+          "Applications to competition problems"
+        ],
+        "projects": [
+          "Modular arithmetic problem set",
+          "CRT application problems",
+          "Create modular arithmetic reference guide"
+        ],
+        "practice": "Solve 50 modular arithmetic competition problems"
+      },
+      "week_7_8": {
+        "title": "Advanced Number Theory",
+        "topics": [
+          "Perfect numbers and Mersenne primes",
+          "Arithmetic functions: σ(n), τ(n), μ(n)",
+          "Multiplicative functions",
+          "Mobius inversion formula",
+          "Continued fractions basics",
+          "Pell's equation",
+          "Quadratic reciprocity introduction",
+          "Sum of squares theorems",
+          "Lifting the Exponent Lemma (LTE)",
+          "Zsigmondy's theorem",
+          "Carmichael's lambda function",
+          "Advanced competition techniques"
+        ],
+        "projects": [
+          "Advanced number theory problem collection",
+          "Historical theorems exploration",
+          "IMO number theory problems analysis"
+        ],
+        "practice": "30 advanced number theory problems from national olympiads"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Combinatorics Fundamentals",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Counting Principles and Techniques",
+        "topics": [
+          "Advanced counting principles",
+          "Multiplication and addition principles",
+          "Permutations with restrictions",
+          "Circular permutations and necklaces",
+          "Combinations with repetition",
+          "Stars and bars method",
+          "Inclusion-Exclusion Principle",
+          "Derangements and subfactorial",
+          "Stirling numbers of both kinds",
+          "Partition function introduction",
+          "Generating functions basics",
+          "Recurrence relations"
+        ],
+        "projects": [
+          "Combinatorial identity proofs",
+          "Counting problems compilation",
+          "Create combinatorics formula sheet"
+        ],
+        "practice": "Solve 40 counting problems from competitions"
+      },
+      "week_11_12": {
+        "title": "Graph Theory Basics",
+        "topics": [
+          "Graph definitions and terminology",
+          "Types of graphs: complete, bipartite, planar",
+          "Degree sequences and handshaking lemma",
+          "Trees and forest properties",
+          "Eulerian paths and circuits",
+          "Hamiltonian paths and cycles",
+          "Graph coloring and chromatic number",
+          "Planar graphs and Euler's formula",
+          "Bipartite matching basics",
+          "Hall's marriage theorem",
+          "Tournament graphs",
+          "Competition graph problems"
+        ],
+        "projects": [
+          "Graph theory problem solving guide",
+          "Visualization of graph algorithms",
+          "Competition graph problems collection"
+        ],
+        "practice": "Master 35 graph theory competition problems"
+      },
+      "week_13": {
+        "title": "Phase 1 Review and Competition",
+        "topics": [
+          "Number theory comprehensive review",
+          "Modular arithmetic mastery check",
+          "Combinatorics problem-solving strategies",
+          "Graph theory applications",
+          "Mixed problem sets",
+          "Speed solving techniques",
+          "Competition simulation"
+        ],
+        "projects": [
+          "Create Phase 1 solution manual",
+          "Mock AMC 10 competition",
+          "Peer problem exchange and solving"
+        ],
+        "assessment": "Phase 1 Mock Competition - 3 hour exam"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Algebra & Polynomial Theory (Months 4-6, Weeks 14-26)",
+    "description": "Master algebraic manipulations, polynomial theory, sequences, and functional equations for competitions.",
+    "month_7_8": {
+      "title": "Months 4-5: Competition Algebra & Polynomials",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Advanced Algebraic Techniques",
+        "topics": [
+          "Algebraic manipulation mastery",
+          "Telescoping sums and products",
+          "Partial fractions in competitions",
+          "Symmetric expressions and polynomials",
+          "Vieta's formulas and applications",
+          "Newton's identities",
+          "Power sum symmetric functions",
+          "Discriminant and its properties",
+          "Algebraic substitutions techniques",
+          "Rationalizing complex expressions",
+          "Nested radicals simplification",
+          "Competition algebraic tricks"
+        ],
+        "projects": [
+          "Algebraic techniques handbook",
+          "Solve 50 AIME algebra problems",
+          "Create substitution strategy guide"
+        ],
+        "practice": "Daily: 8 advanced algebra competition problems"
+      },
+      "week_29_30": {
+        "title": "Polynomial Theory",
+        "topics": [
+          "Polynomial division and remainder theorem",
+          "Factor theorem and applications",
+          "Rational root theorem extensions",
+          "Descartes' rule of signs",
+          "Complex roots and conjugate pairs",
+          "Fundamental theorem of algebra",
+          "Polynomial interpolation (Lagrange)",
+          "Chebyshev polynomials introduction",
+          "Cyclotomic polynomials",
+          "Irreducibility testing",
+          "Polynomial inequalities",
+          "Roots and coefficients relationships"
+        ],
+        "projects": [
+          "Polynomial problem solving manual",
+          "Root-finding techniques compilation",
+          "IMO polynomial problems analysis"
+        ],
+        "practice": "45 polynomial problems from national olympiads"
+      },
+      "week_31_32": {
+        "title": "Sequences and Series",
+        "topics": [
+          "Arithmetic and geometric progressions advanced",
+          "Arithmetico-geometric progressions",
+          "Harmonic progressions and means",
+          "Recursive sequences and linear recurrences",
+          "Characteristic equations method",
+          "Generating functions for sequences",
+          "Fibonacci and Lucas sequences properties",
+          "Catalan numbers and applications",
+          "Convergence tests for series",
+          "Telescoping series mastery",
+          "Power series basics",
+          "Competition sequence problems"
+        ],
+        "projects": [
+          "Sequence encyclopedia creation",
+          "Recurrence relation solver",
+          "Famous sequences investigation"
+        ],
+        "practice": "Solve 40 sequence and series competition problems"
+      },
+      "week_33_34": {
+        "title": "Equations and Systems",
+        "topics": [
+          "Systems of linear equations (advanced)",
+          "Nonlinear systems solving techniques",
+          "Symmetric systems of equations",
+          "Cyclic systems",
+          "Homogeneous equations",
+          "Parametric solutions",
+          "Diophantine equations (advanced)",
+          "Quadratic Diophantine equations",
+          "Simon's Favorite Factoring Trick",
+          "Equations with absolute values",
+          "Floor and ceiling function equations",
+          "Competition equation strategies"
+        ],
+        "projects": [
+          "Equation solving techniques manual",
+          "Diophantine equation collection",
+          "System solving flowchart"
+        ],
+        "practice": "Master 50 competition equation problems"
+      },
+      "week_35": {
+        "title": "Complex Numbers in Competitions",
+        "topics": [
+          "Complex number operations review",
+          "Geometric interpretation of complex operations",
+          "De Moivre's theorem and applications",
+          "Roots of unity and cyclotomic polynomials",
+          "Complex number proofs in geometry",
+          "Trigonometric identities via complex numbers",
+          "Gaussian integers",
+          "Complex conjugate root theorem",
+          "Argument and modulus inequalities",
+          "Competition problems using complex numbers",
+          "Euler's formula applications",
+          "Advanced complex number techniques"
+        ],
+        "projects": [
+          "Complex numbers in geometry guide",
+          "Roots of unity problem set",
+          "Complex number competition tricks"
+        ],
+        "practice": "30 complex number competition problems"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Functional Equations & Advanced Topics",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Functional Equations",
+        "topics": [
+          "Introduction to functional equations",
+          "Cauchy's functional equations",
+          "Substitution methods in functional equations",
+          "Finding solutions: injectivity, surjectivity",
+          "Additive and multiplicative functions",
+          "Jensen's functional equation",
+          "D'Alembert's functional equation",
+          "Polynomial functional equations",
+          "Functional equations with multiple variables",
+          "Cyclic functional equations",
+          "IMO functional equation techniques",
+          "Common competition patterns"
+        ],
+        "projects": [
+          "Functional equation solving guide",
+          "Pattern recognition in functional equations",
+          "IMO functional equations compilation"
+        ],
+        "practice": "Solve 35 functional equation problems"
+      },
+      "week_38_39": {
+        "title": "Mathematical Induction Advanced",
+        "topics": [
+          "Strong induction principles",
+          "Structural induction",
+          "Double induction",
+          "Infinite descent method",
+          "Well-ordering principle applications",
+          "Induction with inequalities",
+          "Induction in number theory",
+          "Induction in combinatorics",
+          "Induction for sequences",
+          "Forward-backward induction",
+          "Transfinite induction introduction",
+          "Competition induction strategies"
+        ],
+        "projects": [
+          "Induction proof portfolio",
+          "Induction techniques classification",
+          "Create induction problem bank"
+        ],
+        "practice": "Complete 40 induction problems of varying difficulty"
+      },
+      "week_40_41": {
+        "title": "Pigeonhole Principle & Extremal Problems",
+        "topics": [
+          "Pigeonhole principle variations",
+          "Generalized pigeonhole principle",
+          "Infinite pigeonhole principle",
+          "Probabilistic pigeonhole principle",
+          "Dirichlet's theorem applications",
+          "Extremal principle in problem solving",
+          "Optimization in discrete mathematics",
+          "Erdős-Ko-Rado theorem introduction",
+          "Ramsey theory basics",
+          "Van der Waerden's theorem introduction",
+          "Extremal graph theory",
+          "Competition applications"
+        ],
+        "projects": [
+          "Pigeonhole principle masterclass",
+          "Extremal problems collection",
+          "Ramsey theory exploration"
+        ],
+        "practice": "30 pigeonhole and extremal problems"
+      },
+      "week_42_43": {
+        "title": "Invariants and Monovariants",
+        "topics": [
+          "Invariant principle in problem solving",
+          "Finding invariants in processes",
+          "Monovariant strategies",
+          "Parity as an invariant",
+          "Coloring arguments",
+          "Sum and product invariants",
+          "Geometric invariants",
+          "Game theory and invariants",
+          "Invariants in combinatorial games",
+          "Semi-invariants",
+          "Competition invariant problems",
+          "Creating invariant arguments"
+        ],
+        "projects": [
+          "Invariant problem solving guide",
+          "Game theory invariants study",
+          "Invariant problem creation"
+        ],
+        "practice": "Master 35 invariant-based problems"
+      },
+      "week_44": {
+        "title": "Phase 2 Review and Competition",
+        "topics": [
+          "Algebra and polynomials review",
+          "Sequences and series mastery",
+          "Functional equations practice",
+          "Complex numbers applications",
+          "Induction and extremal principles",
+          "Mixed advanced problems",
+          "AIME simulation"
+        ],
+        "projects": [
+          "Phase 2 complete solution manual",
+          "Mock AIME competition",
+          "Problem-solving video tutorials"
+        ],
+        "assessment": "Phase 2 Mock Competition - AIME level"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Competition Geometry & Trigonometry (Months 7-9, Weeks 27-39)",
+    "description": "Master advanced geometric techniques, trigonometric identities, and coordinate geometry for olympiad success.",
+    "month_13_14": {
+      "title": "Months 7-8: Euclidean Geometry & Triangle Theory",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Advanced Triangle Geometry",
+        "topics": [
+          "Cevians: medians, altitudes, angle bisectors",
+          "Special points: centroid, orthocenter, incenter, circumcenter",
+          "Euler line and nine-point circle",
+          "Nagel point and Gergonne point",
+          "Stewart's theorem and applications",
+          "Menelaus' theorem",
+          "Ceva's theorem and trigonometric form",
+          "Mass point geometry",
+          "Barycentric coordinates introduction",
+          "Triangle inequality variations",
+          "Routh's theorem",
+          "Competition triangle problems"
+        ],
+        "projects": [
+          "Triangle centers encyclopedia",
+          "Special points construction guide",
+          "Triangle theorem proof collection"
+        ],
+        "practice": "Solve 45 advanced triangle problems"
+      },
+      "week_55_56": {
+        "title": "Circle Geometry",
+        "topics": [
+          "Power of a point theorem",
+          "Radical axis and radical center",
+          "Coaxial circles",
+          "Inversion in circles",
+          "Ptolemy's theorem and inequality",
+          "Cyclic quadrilaterals properties",
+          "Simson line and pedal triangles",
+          "Miquel's theorem",
+          "Pascal's theorem for circles",
+          "Brianchon's theorem",
+          "Nine-point circle properties",
+          "Competition circle techniques"
+        ],
+        "projects": [
+          "Circle theorems visual guide",
+          "Inversion problem solving",
+          "Cyclic quadrilateral mastery"
+        ],
+        "practice": "Master 40 circle geometry problems"
+      },
+      "week_57_58": {
+        "title": "Similarity and Homothety",
+        "topics": [
+          "Advanced similarity principles",
+          "Spiral similarities",
+          "Homothety and homothetic centers",
+          "Similar triangles in competitions",
+          "Angle bisector theorem extensions",
+          "Apollonius' theorem",
+          "Harmonic division and conjugates",
+          "Cross-ratio and applications",
+          "Desargues' theorem",
+          "Monge's theorem",
+          "Homothety in circle problems",
+          "Competition applications"
+        ],
+        "projects": [
+          "Similarity techniques manual",
+          "Homothety problem collection",
+          "Projective geometry introduction"
+        ],
+        "practice": "Complete 35 similarity and homothety problems"
+      },
+      "week_59_60": {
+        "title": "Geometric Transformations",
+        "topics": [
+          "Reflection properties and compositions",
+          "Rotation compositions and fixed points",
+          "Translation vectors and compositions",
+          "Glide reflections",
+          "Isometries classification",
+          "Dilation and scaling transformations",
+          "Affine transformations",
+          "Transformation approach to problems",
+          "Symmetry in problem solving",
+          "Spiral similarities revisited",
+          "Complex numbers for transformations",
+          "Competition transformation techniques"
+        ],
+        "projects": [
+          "Transformation problem solving guide",
+          "Symmetry exploitation techniques",
+          "Transformation composition calculator"
+        ],
+        "practice": "Solve 40 transformation-based problems"
+      },
+      "week_61": {
+        "title": "Construction Problems",
+        "topics": [
+          "Classical constructions review",
+          "Constructible numbers theory",
+          "Impossible constructions and proofs",
+          "Mohr-Mascheroni constructions",
+          "Poncelet-Steiner constructions",
+          "Construction strategies in competitions",
+          "Locus problems",
+          "Construction with restrictions",
+          "Geometric optimization constructions",
+          "Construction existence proofs",
+          "Competition construction problems",
+          "Software-aided exploration"
+        ],
+        "projects": [
+          "Construction problem anthology",
+          "Impossible constructions proofs",
+          "Interactive construction tool"
+        ],
+        "practice": "Complete 30 construction problems"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Trigonometry & Coordinate Geometry",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Advanced Trigonometry",
+        "topics": [
+          "Trigonometric identities mastery",
+          "Sum-to-product and product-to-sum formulas",
+          "Multiple angle formulas",
+          "Half-angle formulas applications",
+          "Conditional identities",
+          "Trigonometric equations (advanced)",
+          "Trigonometric inequalities",
+          "Jensen's inequality for trigonometry",
+          "Chebyshev polynomials and trigonometry",
+          "Trigonometric substitutions",
+          "Competition trigonometry tricks",
+          "Proofs using trigonometry"
+        ],
+        "projects": [
+          "Trigonometric identity encyclopedia",
+          "Competition trigonometry handbook",
+          "Trigonometric proof portfolio"
+        ],
+        "practice": "Master 40 trigonometry competition problems"
+      },
+      "week_64_65": {
+        "title": "Analytic Geometry",
+        "topics": [
+          "Coordinate geometry strategies",
+          "Distance and section formulas",
+          "Area calculations in coordinates",
+          "Line equations and properties",
+          "Angle between lines",
+          "Conic sections: parabola, ellipse, hyperbola",
+          "Parametric representations",
+          "Polar coordinates applications",
+          "Coordinate transformations",
+          "Analytic proofs of geometric theorems",
+          "Optimization using coordinates",
+          "Competition coordinate techniques"
+        ],
+        "projects": [
+          "Coordinate geometry solver",
+          "Conic sections problem set",
+          "Analytic vs synthetic comparison"
+        ],
+        "practice": "Solve 35 coordinate geometry problems"
+      },
+      "week_66_67": {
+        "title": "Vectors in Geometry",
+        "topics": [
+          "Vector operations and properties",
+          "Dot product and cross product",
+          "Vector proofs of geometric theorems",
+          "Position vectors and applications",
+          "Vector equations of lines and planes",
+          "Distance using vectors",
+          "Angle calculations with vectors",
+          "Vector approach to transformations",
+          "Centroid and circumcenter via vectors",
+          "3D geometry basics",
+          "Competition vector techniques",
+          "Vectors vs coordinates comparison"
+        ],
+        "projects": [
+          "Vector geometry manual",
+          "3D geometry exploration",
+          "Vector solution compilation"
+        ],
+        "practice": "Complete 30 vector geometry problems"
+      },
+      "week_68_69": {
+        "title": "Area and Volume Methods",
+        "topics": [
+          "Area calculation techniques",
+          "Shoelace formula and applications",
+          "Pick's theorem",
+          "Heron's formula and extensions",
+          "Bretschneider's formula",
+          "Brahmagupta's formula",
+          "Volume calculation methods",
+          "Cavalieri's principle",
+          "Volume by cross-sections",
+          "Surface area calculations",
+          "Pappus's centroid theorems",
+          "Competition area/volume tricks"
+        ],
+        "projects": [
+          "Area formula compendium",
+          "Volume calculation guide",
+          "Historical formula exploration"
+        ],
+        "practice": "Master 35 area and volume problems"
+      },
+      "week_70": {
+        "title": "Phase 3 Review and Competition",
+        "topics": [
+          "Euclidean geometry mastery review",
+          "Circle theorems compilation",
+          "Transformation techniques",
+          "Trigonometry applications",
+          "Coordinate methods review",
+          "Vector approaches",
+          "Mixed geometry problems",
+          "USAMO geometry preparation"
+        ],
+        "projects": [
+          "Geometry techniques comparison chart",
+          "Mock USAMO geometry round",
+          "Geometry problem video solutions"
+        ],
+        "assessment": "Phase 3 Geometry Olympiad - 4.5 hours"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Inequalities, Advanced Topics & IMO Preparation (Months 10-12, Weeks 40-52)",
+    "description": "Master inequalities, advanced problem-solving techniques, and prepare for international competitions.",
+    "month_19_20": {
+      "title": "Months 10-11: Inequalities & Optimization",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Classical Inequalities",
+        "topics": [
+          "AM-GM inequality and applications",
+          "Cauchy-Schwarz inequality proofs and uses",
+          "Holder's inequality",
+          "Minkowski's inequality",
+          "Power mean inequalities",
+          "Weighted AM-GM inequality",
+          "Jensen's inequality for convex functions",
+          "Karamata's inequality",
+          "Rearrangement inequality",
+          "Chebyshev's inequality",
+          "Bernoulli's inequality",
+          "Competition inequality techniques"
+        ],
+        "projects": [
+          "Inequality proof techniques guide",
+          "Classical inequality applications",
+          "Inequality chain constructions"
+        ],
+        "practice": "Prove 50 competition inequalities"
+      },
+      "week_81_82": {
+        "title": "Advanced Inequality Techniques",
+        "topics": [
+          "Smoothing and majorization",
+          "Mixing variables technique",
+          "Lagrange multipliers introduction",
+          "Homogenization techniques",
+          "Substitutions in inequalities",
+          "Cyclic and symmetric inequalities",
+          "Buffalo Way method",
+          "SOS (Sum of Squares) method",
+          "Schur's inequality and generalizations",
+          "Muirhead's inequality",
+          "Newton's inequalities",
+          "IMO inequality strategies"
+        ],
+        "projects": [
+          "Advanced inequality manual",
+          "SOS method implementation",
+          "IMO inequalities analysis"
+        ],
+        "practice": "Master 40 advanced inequality problems"
+      },
+      "week_83_84": {
+        "title": "Optimization Problems",
+        "topics": [
+          "Discrete optimization techniques",
+          "Continuous optimization basics",
+          "Calculus in olympiad problems",
+          "Derivatives for optimization",
+          "Constrained optimization",
+          "Geometric optimization problems",
+          "Isoperimetric problems",
+          "Algebraic optimization",
+          "Combinatorial optimization",
+          "Game theory optimization",
+          "Dynamic programming introduction",
+          "Competition optimization strategies"
+        ],
+        "projects": [
+          "Optimization techniques handbook",
+          "Geometric optimization collection",
+          "Create optimization problem set"
+        ],
+        "practice": "Solve 35 optimization problems"
+      },
+      "week_85_86": {
+        "title": "Advanced Combinatorics",
+        "topics": [
+          "Bijective proofs and counting",
+          "Double counting techniques",
+          "Combinatorial identities (advanced)",
+          "Vandermonde's identity applications",
+          "Catalan number applications",
+          "Bell numbers and Stirling numbers",
+          "Integer partitions",
+          "Young tableaux introduction",
+          "Polya enumeration theorem",
+          "Combinatorial game theory",
+          "Probabilistic methods",
+          "Competition combinatorics mastery"
+        ],
+        "projects": [
+          "Combinatorial proof anthology",
+          "Counting techniques flowchart",
+          "Game theory analysis"
+        ],
+        "practice": "Complete 40 advanced combinatorics problems"
+      },
+      "week_87": {
+        "title": "Advanced Number Theory Topics",
+        "topics": [
+          "Quadratic reciprocity (complete)",
+          "Primitive roots and indices",
+          "Quadratic forms basics",
+          "Continued fractions (advanced)",
+          "Transcendental numbers introduction",
+          "p-adic numbers introduction",
+          "Analytic number theory glimpse",
+          "Additive number theory basics",
+          "Beatty sequences",
+          "Thue's lemma",
+          "Advanced Diophantine equations",
+          "IMO number theory trends"
+        ],
+        "projects": [
+          "Advanced number theory compendium",
+          "Historical problems exploration",
+          "Number theory research topics"
+        ],
+        "practice": "Tackle 30 research-level number theory problems"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 11: Problem-Solving Mastery & Competition Strategy",
+      "weeks": "Week 48-52",
+      "week_88_89": {
+        "title": "IMO Problem Analysis",
+        "topics": [
+          "IMO problem structure and trends",
+          "Problem 1 and 4 strategies (easier problems)",
+          "Problem 2 and 5 strategies (medium problems)",
+          "Problem 3 and 6 strategies (hardest problems)",
+          "Time management for 4.5-hour exams",
+          "Partial credit maximization",
+          "Problem selection strategies",
+          "Writing rigorous proofs",
+          "Common IMO problem patterns",
+          "Historical IMO problems analysis",
+          "National olympiad comparison",
+          "Training camp preparation"
+        ],
+        "projects": [
+          "IMO problems by topic classification",
+          "Personal IMO strategy development",
+          "Mock IMO with analysis"
+        ],
+        "practice": "Solve 20 past IMO problems"
+      },
+      "week_90_91": {
+        "title": "Putnam Competition Preparation",
+        "topics": [
+          "Putnam exam format and scoring",
+          "Putnam problem characteristics",
+          "Abstract algebra in Putnam",
+          "Real analysis topics",
+          "Linear algebra applications",
+          "Probability in Putnam problems",
+          "Putnam trick techniques",
+          "Time management for Putnam",
+          "A vs B session strategies",
+          "Historical Putnam analysis",
+          "University-level competition transition",
+          "Research mathematics introduction"
+        ],
+        "projects": [
+          "Putnam problem collection by topic",
+          "University math preview",
+          "Putnam simulation exam"
+        ],
+        "practice": "Complete 30 Putnam problems"
+      },
+      "week_92_93": {
+        "title": "Asian Pacific Mathematics Olympiad",
+        "topics": [
+          "APMO problem characteristics",
+          "Regional competition differences",
+          "APMO vs IMO difficulty comparison",
+          "Cultural problem-solving approaches",
+          "APMO-specific techniques",
+          "Time zone competition strategies",
+          "Online competition protocols",
+          "APMO historical trends",
+          "Country-specific olympiad styles",
+          "International collaboration benefits",
+          "APMO as IMO preparation",
+          "Regional olympiad circuit"
+        ],
+        "projects": [
+          "APMO complete solutions manual",
+          "Regional olympiad comparison study",
+          "APMO mock competition"
+        ],
+        "practice": "Solve 25 APMO problems from past years"
+      },
+      "week_94_95": {
+        "title": "Competition Psychology & Peak Performance",
+        "topics": [
+          "Mental preparation for competitions",
+          "Stress management techniques",
+          "Visualization and positive thinking",
+          "Competition day routines",
+          "Dealing with difficult problems",
+          "Recovery from mistakes",
+          "Time pressure management",
+          "Building mathematical confidence",
+          "Team competition strategies",
+          "Learning from competition failures",
+          "Post-competition analysis",
+          "Long-term training mindset"
+        ],
+        "projects": [
+          "Personal competition preparation guide",
+          "Competition journal and reflection",
+          "Mental training program design"
+        ],
+        "practice": "Implement mental training with timed problem sets"
+      },
+      "week_96": {
+        "title": "Research Mathematics Introduction",
+        "topics": [
+          "From olympiads to research mathematics",
+          "Open problems in mathematics",
+          "Reading mathematical papers",
+          "Mathematical writing skills",
+          "LaTeX for mathematics",
+          "Undergraduate research opportunities",
+          "REU programs and applications",
+          "Mathematical journals for students",
+          "Online mathematics communities",
+          "Collaboration in mathematics",
+          "Career paths in mathematics",
+          "Graduate school preparation"
+        ],
+        "projects": [
+          "Write first mathematical paper",
+          "Research topic exploration",
+          "Academic mathematics plan"
+        ],
+        "practice": "Explore 5 research-level topics"
+      }
+    },
+    "month_23": {
+      "title": "Month 12: Mock Competitions & Final Preparation",
+      "weeks": "Week 49-52",
+      "week_97": {
+        "title": "National Olympiad Simulations",
+        "topics": [
+          "USAMO complete simulation",
+          "USAJMO preparation strategies",
+          "Canadian Mathematical Olympiad",
+          "British Mathematical Olympiad",
+          "Australian Mathematics Olympiad",
+          "Indian National MO preparation",
+          "China National Team Selection",
+          "Russia Mathematical Olympiad",
+          "Time management across formats",
+          "Scoring system understanding",
+          "Selection criteria for teams",
+          "National camp preparation"
+        ],
+        "projects": [
+          "Complete 5 national olympiad mocks",
+          "Cross-country problem comparison",
+          "National team selection guide"
+        ],
+        "practice": "One full national olympiad daily"
+      },
+      "week_98": {
+        "title": "International Competition Week",
+        "topics": [
+          "IMO Day 1 simulation (4.5 hours)",
+          "IMO Day 2 simulation (4.5 hours)",
+          "Complete solution writing",
+          "Proof verification techniques",
+          "Collaboration after competition",
+          "Score prediction and analysis",
+          "International competition etiquette",
+          "Cultural exchange benefits",
+          "Language considerations",
+          "Travel and preparation logistics",
+          "Team dynamics",
+          "Medal boundaries analysis"
+        ],
+        "projects": [
+          "Complete IMO simulation with scoring",
+          "Solution comparison international students",
+          "Competition reflection essay"
+        ],
+        "practice": "Full IMO mock over two days"
+      },
+      "week_99": {
+        "title": "Topic Integration & Problem Creation",
+        "topics": [
+          "Creating original problems",
+          "Problem difficulty assessment",
+          "Multi-topic problem design",
+          "Solution elegance principles",
+          "Alternative solution finding",
+          "Problem generalization techniques",
+          "Special case analysis",
+          "Problem posing for competitions",
+          "Reviewing peer solutions",
+          "Mathematical exposition",
+          "Building problem databases",
+          "Contributing to mathematics community"
+        ],
+        "projects": [
+          "Create 10 original competition problems",
+          "Design mini-competition for peers",
+          "Build personal problem archive"
+        ],
+        "practice": "Solve and create 5 integrated problems daily"
+      },
+      "week_100": {
+        "title": "Advanced Problem-Solving Techniques",
+        "topics": [
+          "Probabilistic method in combinatorics",
+          "Algebraic topology glimpses",
+          "Category theory basics",
+          "Model theory introduction",
+          "Ergodic theory applications",
+          "Representation theory basics",
+          "Algebraic geometry introduction",
+          "Differential geometry concepts",
+          "Measure theory basics",
+          "Fourier analysis glimpses",
+          "Mathematical physics connections",
+          "Frontier mathematics overview"
+        ],
+        "projects": [
+          "Advanced mathematics exploration",
+          "University course preview",
+          "Mathematical interests portfolio"
+        ],
+        "practice": "Explore 10 advanced mathematical topics"
+      }
+    },
+    "month_24": {
+      "title": "Month 12: Final Assessments & Future Planning",
+      "weeks": "Week 51-52",
+      "week_101_102": {
+        "title": "Comprehensive Review & Mastery",
+        "topics": [
+          "Number theory complete review",
+          "Combinatorics mastery assessment",
+          "Algebra and polynomials review",
+          "Geometry techniques compilation",
+          "Inequality mastery check",
+          "Functional equations review",
+          "Problem-solving strategies synthesis",
+          "Proof writing excellence",
+          "Speed and accuracy balance",
+          "Knowledge gap identification",
+          "Personal strength analysis",
+          "Improvement planning"
+        ],
+        "projects": [
+          "Complete technique reference manual",
+          "Personal problem-solving guide",
+          "Video solution library creation"
+        ]
+      },
+      "week_103": {
+        "title": "Final Competition Series",
+        "topics": [
+          "AMC 12 simulation",
+          "AIME simulation",
+          "USAMO simulation Day 1",
+          "USAMO simulation Day 2",
+          "IMO simulation Day 1",
+          "IMO simulation Day 2",
+          "Score analysis and prediction",
+          "Performance evaluation",
+          "Peer competition and ranking",
+          "Solution presentation",
+          "Awards and recognition",
+          "Competition portfolio completion"
+        ],
+        "deliverables": [
+          "Complete competition portfolio",
+          "All mock competition scores",
+          "Solution manual for all attempts",
+          "Performance analysis report",
+          "Technique mastery certification",
+          "Problem-solving speed metrics"
+        ]
+      },
+      "week_104": {
+        "title": "Future Planning & Career Guidance",
+        "topics": [
+          "University mathematics programs",
+          "Scholarship opportunities",
+          "Research program applications",
+          "Summer mathematics camps",
+          "International exchange programs",
+          "Online competition platforms",
+          "Mathematical communities joining",
+          "Mentorship opportunities",
+          "Teaching and tutoring paths",
+          "Competition coaching possibilities",
+          "Long-term mathematics goals",
+          "Life-long learning strategies"
+        ],
+        "deliverables": [
+          "Competition achievement portfolio",
+          "University application materials",
+          "Scholarship application preparation",
+          "Future competition calendar",
+          "Mathematical CV creation",
+          "Recommendation letter materials",
+          "Personal mathematics statement"
+        ],
+        "assessment": "FINAL OLYMPIAD - Comprehensive 6-hour examination"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: AMC Training Manual, Number Theory Proofs, Combinatorics Guide, Mock Competitions",
+      "Phase 2: AIME Preparation Kit, Polynomial Mastery, Functional Equations Solver, Complex Numbers Toolkit",
+      "Phase 3: Geometry Compendium, Trigonometry Manual, Construction Problems, Vector Methods Guide",
+      "Phase 4: Inequality Bible, IMO Solutions Archive, Competition Strategy Guide, Research Paper",
+      "Final: Complete Olympiad Preparation System, Original Problem Collection, Teaching Materials"
+    ],
+    "total_projects_built": "75+ mathematical projects and problem collections",
+    "skills_mastered": [
+      "Number Theory: Modular arithmetic, Diophantine equations, prime theory, quadratic reciprocity",
+      "Combinatorics: Advanced counting, graph theory, generating functions, probabilistic method",
+      "Algebra: Polynomials, functional equations, complex numbers, inequalities, optimization",
+      "Geometry: Euclidean geometry, transformations, coordinate methods, construction problems",
+      "Proof Techniques: Induction, contradiction, pigeonhole, invariants, extremal principle",
+      "Inequalities: Classical inequalities, SOS method, smoothing, Lagrange multipliers",
+      "Problem Solving: Pattern recognition, case analysis, working backwards, generalization",
+      "Competition Skills: Time management, partial credit, proof writing, score optimization",
+      "Advanced Topics: Generating functions, game theory, research mathematics introduction",
+      "Mental Skills: Competition psychology, stress management, peak performance",
+      "Mathematical Writing: Rigorous proofs, LaTeX, problem creation, solution exposition",
+      "International Competitions: IMO, APMO, Putnam, national olympiads preparation"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-6 hours",
+      "hands_on_practice": "8-10 hours",
+      "projects": "3-4 hours",
+      "practice_problems": "5-6 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving sessions with experts",
+      "mentorship": "1-on-1 coaching from olympiad medalists",
+      "community": "Elite competition preparation community",
+      "code_review": "Solution reviews and feedback",
+      "career_support": "University admissions guidance",
+      "lifetime_access": "All materials and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion",
+      "final_certificate": "Olympiad Mathematics Excellence Certificate",
+      "linkedin_badge": "Competition mathematics credential",
+      "industry_recognized": "Recognized by universities and mathematics departments",
+      "portfolio_projects": "1000+ solved competition problems portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "Strong foundation in school mathematics",
+    "coding_experience": "Basic algebra and geometry knowledge required",
+    "equipment": "Computer with internet, graphing calculator, geometry tools",
+    "time_commitment": "15-20 hours per week minimum",
+    "english": "Advanced mathematical reading ability",
+    "motivation": "Passionate about mathematical problem solving"
+  },
+  "who_is_this_for": {
+    "students": "High school students aiming for olympiads",
+    "working_professionals": "Mathematics teachers and coaches",
+    "entrepreneurs": "Competition preparation centers",
+    "freelancers": "Private olympiad tutors",
+    "kids": "Gifted middle school students",
+    "anyone": "Anyone passionate about competition mathematics"
+  },
+  "career_paths_after_completion": [
+    "International Mathematical Olympiad Participant",
+    "National Olympiad Team Member",
+    "University Mathematics Major",
+    "Mathematics Research Career",
+    "Quantitative Finance Analyst",
+    "Data Science and Machine Learning",
+    "Cryptography and Security",
+    "Academic Mathematics Professor",
+    "Competition Mathematics Coach",
+    "Mathematical Content Creator"
+  ],
+  "salary_expectations": {
+    "after_6_months": "Regional competition winner",
+    "after_12_months": "National olympiad qualifier",
+    "after_18_months": "International competition participant",
+    "after_24_months": "IMO medal contender",
+    "freelance": "₹2000-5000/hour for olympiad coaching",
+    "international": "$100k+ for quantitative careers with olympiad background"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "job_assistance": "University admission support",
+    "lifetime_updates": "Access to all new problems and techniques",
+    "mentorship": "Direct access to olympiad medalists",
+    "certificate": "Competition excellence certification",
+    "portfolio": "Complete competition preparation portfolio"
+  }
+}
