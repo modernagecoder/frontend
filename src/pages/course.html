@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Courses - Modern Age Coders | Learn Coding & Mathematics</title>
+    <meta name="description"
+        content="Explore 30+ coding and math courses for all ages. Python, Web Development, AI, Data Science, and more. Expert instructors, hands-on projects. Enroll today!">
+    <meta name="keywords"
+        content="online coding courses, programming tutorials, mathematics courses, web development, AI courses, learn python, data science courses, app development">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/courses">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/courses">
+    <meta property="og:title" content="Courses - Modern Age Coders | Learn Coding & Mathematics">
+    <meta property="og:description"
+        content="Explore 30+ coding and math courses for all ages. Python, Web Development, AI, Data Science, and more. Expert instructors, hands-on projects.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-courses.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/courses">
+    <meta name="twitter:title" content="Courses - Modern Age Coders | Learn Coding & Mathematics">
+    <meta name="twitter:description"
+        content="Explore 30+ coding and math courses for all ages. Python, Web Development, AI, Data Science, and more.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-courses.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Modern Age Coders Course Catalog",
+      "description": "Comprehensive coding and mathematics courses for all ages",
+      "url": "https://learn.modernagecoders.com/courses",
+      "numberOfItems": 30,
+      "itemListElement": [
+        {
+          "@type": "Course",
+          "position": 1,
+          "name": "Full-Stack Web Development Masterclass",
+          "description": "Master both front-end and back-end technologies to build complete, scalable web applications",
+          "url": "https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass",
+          "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders"
+          }
+        },
+        {
+          "@type": "Course",
+          "position": 2,
+          "name": "Python Programming Masterclass",
+          "description": "Learn Python from zero to advanced with hands-on projects and real-world applications",
+          "url": "https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced",
+          "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders"
+          }
+        },
+        {
+          "@type": "Course",
+          "position": 3,
+          "name": "AI & Machine Learning Masterclass",
+          "description": "Master artificial intelligence and machine learning with practical projects",
+          "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete",
+          "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders"
+          }
+        },
+        {
+          "@type": "Course",
+          "position": 4,
+          "name": "Complete App Development Masterclass",
+          "description": "Build mobile and web apps from scratch with iOS, Android, Flutter, and React Native",
+          "url": "https://learn.modernagecoders.com/courses/complete-app-development-masterclass",
+          "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders"
+          }
+        },
+        {
+          "@type": "Course",
+          "position": 5,
+          "name": "Data Science Complete Masterclass",
+          "description": "Master data analysis, visualization, and machine learning for data-driven insights",
+          "url": "https://learn.modernagecoders.com/courses/data-science-complete-masterclass",
+          "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <style>
+        /* COMPLETELY REMOVE SVG SUPPORT AND FORCE IMG SIZING */
+        .course-card .course-header .course-icon svg,
+        .course-icon svg,
+        .card-icon svg {
+            display: none !important;
+            width: 0 !important;
+            height: 0 !important;
+        }
+
+        /* Force course icon container sizing */
+        .course-card .course-header .course-icon,
+        .course-icon,
+        .card-icon {
+            width: 100% !important;
+            height: 220px !important;
+            min-height: 220px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: 0 0 1.5rem 0 !important;
+            padding: 0 !important;
+            overflow: hidden !important;
+            border-radius: 12px 12px 0 0 !important;
+        }
+
+        /* Force course image sizing - MAXIMUM PRIORITY */
+        .course-card .course-header .course-icon img,
+        .course-card .course-header .course-icon .course-image,
+        .course-icon img,
+        .card-icon img,
+        img.course-image {
+            width: 100% !important;
+            height: 100% !important;
+            max-width: 100% !important;
+            max-height: 100% !important;
+            object-fit: contain !important;
+            object-position: center !important;
+            border-radius: 0 !important;
+            background: transparent !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+            border: none !important;
+            transition: all 0.4s ease !important;
+            display: block !important;
+            margin: 0 !important;
+        }
+
+        .course-card:hover .course-header .course-icon img,
+        .course-card:hover .course-header .course-icon .course-image {
+            transform: scale(1.05) !important;
+            filter: brightness(1.1) !important;
+        }
+
+        /* Responsive sizing */
+        @media (max-width: 768px) {
+
+            .course-card .course-header .course-icon,
+            .course-icon,
+            .card-icon {
+                height: 180px !important;
+                min-height: 180px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+
+            .course-card .course-header .course-icon,
+            .course-icon,
+            .card-icon {
+                height: 160px !important;
+                min-height: 160px !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="courses-page">
+    <!-- Animated Background Canvas -->
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"></div>
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="course.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="course.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages
+                                    6-12)</a>
+                                <a href="course.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages
+                                    13-18)</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For College
+                                    Students</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For
+                                    Professionals</a>
+                                <a href="course.html?tab=coding&subtab=customized" class="dropdown-item">Customized
+                                    Training</a>
+                                <a href="course.html?tab=coding&subtab=girls" class="dropdown-item highlight">Special
+                                    For Girls</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="../../content/blog/generated/index.html" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item"><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link login-btn">Login</a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">Student Login</a>
+                                <a href="#" class="dropdown-item">Teacher Login</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="course.html" class="cta-button">Start
+                                Learning</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Course Content Area -->
+            <!-- Prominent Search Section -->
+
+
+            <div class="course-content">
+                <!-- Tab Navigation -->
+                <div class="tab-navigation">
+                    <!-- Main Tabs -->
+                    <div class="main-tabs-header">
+                        <h2 class="tabs-title">Choose Your Learning Path</h2>
+                        <p class="tabs-subtitle">Select a category to see age-specific courses</p>
+                    </div>
+                    <div class="main-tabs" role="tablist" aria-label="Course Categories">
+                        <button class="main-tab active" id="codingTab" role="tab" aria-selected="true"
+                            aria-controls="coding-content" data-tab="coding">
+                            <span class="tab-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 6L4 10L8 14" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16 6L20 10L16 14" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M12 4L10 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            <span class="tab-text">Coding</span>
+                        </button>
+                        <button class="main-tab" id="mathsTab" role="tab" aria-selected="false"
+                            aria-controls="maths-content" data-tab="maths">
+                            <span class="tab-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 3V21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 9L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M15 9L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <circle cx="18" cy="6" r="2" stroke="currentColor" stroke-width="2" />
+                                </svg>
+                            </span>
+                            <span class="tab-text">Maths</span>
+                        </button>
+                    </div>
+                    <div class="search-section">
+                        <div class="search-container">
+                            <div class="search-box-prominent">
+                                <span class="search-icon-prominent">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
+                                        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </span>
+                                <input type="text" class="search-input-prominent" id="searchInput"
+                                    placeholder="Search for courses, topics, or skills..." aria-label="Search courses">
+                                <button class="search-clear-btn" id="searchClearBtn" aria-label="Clear search"
+                                    style="display: none;">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" />
+                                        <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sub Tabs Container -->
+                    <div class="sub-tabs-indicator">
+                        <div class="indicator-line"></div>
+                        <span class="indicator-text">Age Groups</span>
+                        <div class="indicator-line"></div>
+                    </div>
+                    <div class="sub-tabs-container">
+                        <!-- Coding Sub-tabs -->
+                        <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel"
+                            aria-labelledby="codingTab">
+                            <button class="sub-tab active" data-subtab="kids" data-main="coding">
+                                <span class="subtab-text">Kids</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="teens" data-main="coding">
+                                <span class="subtab-text">Teens</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="college" data-main="coding">
+                                <span class="subtab-text">College Students</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="girls" data-main="coding">
+                                <span class="subtab-text">Special for Girls</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="customized" data-main="coding">
+                                <span class="subtab-text">Customized</span>
+                            </button>
+                        </div>
+
+                        <!-- Maths Sub-tabs -->
+                        <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel"
+                            aria-labelledby="mathsTab">
+                            <button class="sub-tab active" data-subtab="kids" data-main="maths">
+                                <span class="subtab-text">Kids</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="teens" data-main="maths">
+                                <span class="subtab-text">Teens</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="adults" data-main="maths">
+                                <span class="subtab-text">Adults</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="girls" data-main="maths">
+                                <span class="subtab-text">Special for Girls</span>
+                            </button>
+                            <button class="sub-tab" data-subtab="customized" data-main="maths">
+                                <span class="subtab-text">Customized</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls Section -->
+                <div class="controls-section">
+                    <div class="sort-dropdown">
+                        <button class="sort-btn" id="sortBtn">
+                            Sort by <span>⌄</span>
+                        </button>
+                        <div class="sort-menu" id="sortMenu">
+                            <div class="sort-option" data-sort="popular">Most Popular</div>
+                            <div class="sort-option" data-sort="newest">Newest First</div>
+                            <div class="sort-option" data-sort="alphabetical">A-Z</div>
+                        </div>
+                    </div>
+                    <div class="view-toggle">
+                        <button class="view-btn active" id="gridView">⊞</button>
+                        <button class="view-btn" id="listView">☰</button>
+                    </div>
+                </div>
+
+                <!-- Results Bar -->
+                <div class="results-bar">
+                    <div class="results-count">
+                        Showing <strong id="resultsCount">12</strong> courses
+                    </div>
+                </div>
+
+                <!-- Courses Grid -->
+                <div class="courses-grid" id="coursesGrid">
+                    <!-- Course Cards will be generated by JavaScript -->
+                </div>
+
+                <!-- No Results Message -->
+                <div class="no-results" id="noResults">
+                    <div class="no-results-content">
+                        <div class="no-results-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
+                                <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <line x1="9" y1="9" x2="13" y2="13" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                                <line x1="13" y1="9" x2="9" y2="13" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="no-results-title">No courses found</h3>
+                        <p class="no-results-description">We couldn't find any courses matching your search criteria.
+                        </p>
+                        <div class="no-results-suggestions">
+                            <h4>Try these suggestions:</h4>
+                            <ul class="suggestions-list">
+                                <li>Check your spelling and try again</li>
+                                <li>Use more general search terms</li>
+                                <li>Try different course categories or age groups</li>
+                                <li>Browse our popular courses below</li>
+                            </ul>
+                        </div>
+                        <div class="no-results-actions">
+                            <button class="clear-search-btn" id="clearSearchBtn">Clear Search</button>
+                            <button class="browse-all-btn" id="browseAllBtn">Browse All Courses</button>
+                        </div>
+                        <div class="popular-suggestions" id="popularSuggestions">
+                            <h4>Popular Courses:</h4>
+                            <div class="suggestion-tags" id="suggestionTags">
+                                <!-- Popular course suggestions will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Course Data - All 19 Generated Courses
+        const coursesData = [
+            // 1. Full-Stack Web Development
+            {
+                id: 1,
+                category: 'programming',
+                title: 'Full-Stack Web Development Masterclass',
+                description: 'Master both front-end and back-end technologies to build complete, scalable web applications from scratch.',
+                skills: ['React & Node.js', 'Database Management', 'API Development'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['hot', 'popular'],
+                templateUrl: '../../content/courses/generated/full-stack-web-development-masterclass/index.html',
+                imageUrl: 'full-stack.png'
+            },
+
+            // 2. React JS Masterclass
+            {
+                id: 2,
+                category: 'web-dev',
+                title: 'React JS Complete Masterclass',
+                description: 'Master modern front-end development with React JS. Learn to build dynamic, responsive, and real-world web applications from scratch.',
+                skills: ['React Components', 'Hooks & State Management', 'APIs & Routing'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: '../../content/courses/generated/react-js-complete-masterclass/index.html',
+                imageUrl: 'reactjs.png'
+            },
+
+            // 3. Python Programming Masterclass
+            {
+                id: 3,
+                category: 'programming',
+                title: 'Python Programming Masterclass - Zero to Advanced',
+                description: 'Learn Python programming from basics to advanced. Build intelligent applications with AI integration.',
+                skills: ['Python Programming', 'AI Fundamentals', 'Machine Learning Basics'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: '../../content/courses/generated/python-programming-masterclass-zero-to-advanced/index.html',
+                imageUrl: 'python.png'
+            },
+
+            // 4. AI & ML Masterclass
+            {
+                id: 4,
+                category: 'ai-ml',
+                title: 'AI & ML Masterclass Complete',
+                description: 'Comprehensive artificial intelligence and machine learning course. Build intelligent systems from scratch.',
+                skills: ['Neural Networks', 'Deep Learning', 'AI Applications'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot', 'popular'],
+                templateUrl: '../../content/courses/generated/ai-ml-masterclass-complete/index.html',
+                imageUrl: 'ai-ml.png'
+            },
+
+            // 5. Data Science Complete Masterclass
+            {
+                id: 5,
+                category: 'ai-ml',
+                title: 'Data Science Complete Masterclass',
+                description: 'Analyze and visualize data. Learn statistical methods and machine learning for data-driven insights.',
+                skills: ['Data Analysis', 'Python & Pandas', 'Data Visualization'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '../../content/courses/generated/data-science-complete-masterclass/index.html',
+                imageUrl: 'data-science.png'
+            },
+
+            // 6. Complete App Development Masterclass
+            {
+                id: 6,
+                category: 'mobile-dev',
+                title: 'Complete App Development Masterclass',
+                description: 'Build mobile and web apps from scratch with iOS, Android, Flutter, and React Native.',
+                skills: ['Flutter', 'React Native', 'iOS & Android'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: '../../content/courses/generated/complete-app-development-masterclass/index.html',
+                imageUrl: 'app-development.png'
+            },
+
+            // 7. MERN Stack Development
+            {
+                id: 7,
+                category: 'web-dev',
+                title: 'MERN Stack Development Masterclass',
+                description: 'Build full-stack applications using MongoDB, Express, React, and Node.js.',
+                skills: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: '../../content/courses/generated/mern-stack-development-masterclass/index.html',
+                imageUrl: 'mern-stack.png'
+            },
+
+            // 8. Complete Java Programming Masterclass
+            {
+                id: 8,
+                category: 'programming',
+                title: 'Complete Java Programming Masterclass',
+                description: 'Master Java programming from basics to advanced concepts. Build robust enterprise applications.',
+                skills: ['Java Fundamentals', 'OOP Concepts', 'Java Collections'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: '../../content/courses/generated/complete-java-programming-masterclass/index.html',
+                imageUrl: 'java.png'
+            },
+
+            // 9. C++ Programming Complete Masterclass
+            {
+                id: 9,
+                category: 'programming',
+                title: 'C++ Programming Complete Masterclass',
+                description: 'Master C++ programming from fundamentals to advanced concepts. Build high-performance applications.',
+                skills: ['C++ Basics', 'OOP in C++', 'STL'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '../../content/courses/generated/cpp-programming-complete-masterclass/index.html',
+                imageUrl: 'cpp.png'
+            },
+
+            // 10. MySQL Database Complete Masterclass
+            {
+                id: 10,
+                category: 'programming',
+                title: 'MySQL Database Complete Masterclass',
+                description: 'Master database management with MySQL. Learn to query, design, and optimize databases.',
+                skills: ['SQL Queries', 'Database Design', 'Data Manipulation'],
+                difficulty: 'beginner',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: '../../content/courses/generated/mysql-database-complete-masterclass/index.html',
+                imageUrl: 'mysql.png'
+            },
+
+            // 11. Game Development Complete Masterclass
+            {
+                id: 11,
+                category: 'programming',
+                title: 'Game Development Complete Masterclass',
+                description: 'Create amazing games from scratch. Learn Unity, Unreal Engine, and game design principles.',
+                skills: ['Unity', 'Game Design', '3D Modeling'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: '../../content/courses/generated/game-development-complete-masterclass/index.html',
+                imageUrl: 'game-development.png'
+            },
+
+            // 12. Data Structures & Algorithms Masterclass
+            {
+                id: 12,
+                category: 'programming',
+                title: 'Data Structures & Algorithms Masterclass',
+                description: 'Deep dive into Data Structures and Algorithms. Master problem-solving techniques for interviews.',
+                skills: ['Data Structures', 'Algorithms', 'Problem Solving'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot', 'popular'],
+                templateUrl: '../../content/courses/generated/data-structures-algorithms-masterclass/index.html',
+                imageUrl: 'dsa.png'
+            },
+
+            // 13. Competitive Programming Masterclass
+            {
+                id: 13,
+                category: 'programming',
+                title: 'Competitive Programming Masterclass',
+                description: 'Master algorithms and data structures for competitive programming. Prepare for coding competitions.',
+                skills: ['Advanced Algorithms', 'Problem Solving', 'Time Optimization'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: '../../content/courses/generated/competitive-programming-masterclass/index.html',
+                imageUrl: 'competitive-coding.png'
+            },
+
+            // 14. AI Tools Mastery Complete
+            {
+                id: 14,
+                category: 'ai-ml',
+                title: 'AI Tools Mastery Complete',
+                description: 'Learn to use modern AI tools like ChatGPT, Midjourney, and more for productivity.',
+                skills: ['ChatGPT', 'AI Prompting', 'AI Applications'],
+                difficulty: 'beginner',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: '../../content/courses/generated/ai-tools-mastery-complete/index.html',
+                imageUrl: 'ai-tools.png'
+            },
+
+            // 15. Algorithmic Trading Masterclass Complete
+            {
+                id: 15,
+                category: 'finance',
+                title: 'Algorithmic Trading Masterclass Complete',
+                description: 'Automate stock trading with Python. Learn algorithmic trading and market analysis.',
+                skills: ['Python Trading', 'Market Analysis', 'Trading Algorithms'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: '../../content/courses/generated/algorithmic-trading-masterclass-complete/index.html',
+                imageUrl: 'algorithmic-trading.png'
+            },
+
+            // 16. Algorithmic Trading Automation Masterclass
+            {
+                id: 16,
+                category: 'finance',
+                title: 'Algorithmic Trading Automation Masterclass',
+                description: 'Advanced algorithmic trading automation. Build automated trading systems.',
+                skills: ['Trading Bots', 'Automation', 'Risk Management'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '../../content/courses/generated/algorithmic-trading-automation-masterclass/index.html',
+                imageUrl: 'trading-automation.png'
+            },
+
+            // 17. Artificial Intelligence Complete Masterclass
+            {
+                id: 17,
+                category: 'ai-ml',
+                title: 'Artificial Intelligence Complete Masterclass',
+                description: 'Comprehensive AI course covering all aspects of artificial intelligence and applications.',
+                skills: ['AI Fundamentals', 'Neural Networks', 'AI Ethics'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '../../content/courses/generated/artificial-intelligence-complete-masterclass/index.html',
+                imageUrl: 'artificial-intelligence.png'
+            },
+
+            // 18. Python AI Automation Masterclass
+            {
+                id: 18,
+                category: 'ai-ml',
+                title: 'Python AI Automation Masterclass',
+                description: 'Automate tasks with Python and AI. Build intelligent automation systems.',
+                skills: ['Python Automation', 'AI Integration', 'Task Automation'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: '../../content/courses/generated/python-ai-automation-masterclass/index.html',
+                imageUrl: 'python-automation.png'
+            },
+
+            // 19. Data Analysis Mastery Course
+            {
+                id: 19,
+                category: 'ai-ml',
+                title: 'Data Analysis Mastery Course',
+                description: 'Master data analysis techniques. Learn to extract insights from complex datasets.',
+                skills: ['Data Analysis', 'Excel & Python', 'Statistical Analysis'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: '../../content/courses/generated/data-analysis-mastery-course/index.html',
+                imageUrl: 'data-analysis.png'
+            },
+            // Information Practices
+            {
+                id: 14,
+                category: 'programming',
+                title: 'Information Practices',
+                description: 'Comprehensive course covering database management, networking, and information systems.',
+                skills: ['Database Design', 'SQL', 'Network Fundamentals'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'information-practices.png'
+            },
+            // Competitive Coding
+            {
+                id: 15,
+                category: 'programming',
+                title: 'Competitive Coding',
+                description: 'Master algorithms and data structures for competitive programming. Prepare for coding competitions.',
+                skills: ['Advanced Algorithms', 'Problem Solving', 'Time Optimization'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'competitive-coding.png'
+            },
+            // Data Science
+            {
+                id: 16,
+                category: 'ai-ml',
+                title: 'Data Science',
+                description: 'Analyze and visualize data. Learn statistical methods and machine learning for data-driven insights.',
+                skills: ['Data Analysis', 'Python & Pandas', 'Data Visualization'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'data-science.png'
+            },
+            // MERN STACK
+            {
+                id: 17,
+                category: 'web-dev',
+                title: 'MERN STACK',
+                description: 'Build full-stack applications using MongoDB, Express, React, and Node.js.',
+                skills: ['MongoDB', 'Express.js', 'React', 'Node.js'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'mern-stack.png'
+            },
+            // Java
+            {
+                id: 18,
+                category: 'programming',
+                title: 'Java',
+                description: 'Master Java programming from basics to advanced concepts. Build robust applications.',
+                skills: ['Java Fundamentals', 'OOP Concepts', 'Java Collections'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'java.png'
+            },
+            // Web Development
+            {
+                id: 19,
+                category: 'web-dev',
+                title: 'Web Development',
+                description: 'Complete web development course covering HTML, CSS, JavaScript, and modern frameworks.',
+                skills: ['HTML5 & CSS3', 'JavaScript', 'Responsive Design'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'web-development.png'
+            },
+            // Graphic Designing & Video Editing
+            {
+                id: 20,
+                category: 'design',
+                title: 'Graphic Designing & Video Editing',
+                description: 'Create stunning graphics and professional videos. Master industry-standard design tools.',
+                skills: ['Adobe Photoshop', 'Video Editing', 'Design Principles'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'graphic-design.png'
+            },
+            // AI & ML
+            {
+                id: 21,
+                category: 'ai-ml',
+                title: 'AI & ML',
+                description: 'Comprehensive artificial intelligence and machine learning course. Build intelligent systems.',
+                skills: ['Neural Networks', 'Deep Learning', 'AI Applications'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: 'courses/generated/ai-ml-masterclass-complete/index.html',
+                imageUrl: 'ai-ml.png'
+            },
+            // SQL
+            {
+                id: 22,
+                category: 'programming',
+                title: 'SQL',
+                description: 'Master database management with SQL. Learn to query, design, and optimize databases.',
+                skills: ['SQL Queries', 'Database Design', 'Data Manipulation'],
+                difficulty: 'beginner',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'sql.png'
+            },
+            // Stock Market Automation
+            {
+                id: 23,
+                category: 'programming',
+                title: 'Stock Market Automation',
+                description: 'Automate stock trading with Python. Learn algorithmic trading and market analysis.',
+                skills: ['Python Trading', 'Market Analysis', 'Trading Algorithms'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'stock-market-automation.png'
+            },
+            // Placement Preparation
+            {
+                id: 24,
+                category: 'programming',
+                title: 'Placement Preparation',
+                description: 'Comprehensive placement preparation covering aptitude, coding, and interview skills.',
+                skills: ['Coding Interviews', 'Aptitude', 'Soft Skills'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'placement-preparation.png'
+            },
+            // DSA
+            {
+                id: 25,
+                category: 'programming',
+                title: 'DSA',
+                description: 'Deep dive into Data Structures and Algorithms. Master problem-solving techniques.',
+                skills: ['Data Structures', 'Algorithms', 'Problem Solving'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'dsa.png'
+            },
+            // AI Tools
+            {
+                id: 26,
+                category: 'ai-ml',
+                title: 'AI Tools',
+                description: 'Learn to use modern AI tools like ChatGPT, Midjourney, and more for productivity.',
+                skills: ['ChatGPT', 'AI Prompting', 'AI Applications'],
+                difficulty: 'beginner',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: 'courses/generated/ai-tools-mastery-complete/index.html',
+                imageUrl: 'ai-tools.png'
+            },
+            // C++
+            {
+                id: 27,
+                category: 'programming',
+                title: 'C++',
+                description: 'Master C++ programming from fundamentals to advanced concepts. Build high-performance applications.',
+                skills: ['C++ Basics', 'OOP in C++', 'STL'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'c.png'
+            },
+            // Microsoft Office
+            {
+                id: 28,
+                category: 'productivity',
+                title: 'Microsoft Office',
+                description: 'Master Microsoft Office suite including Word, Excel, PowerPoint, and more.',
+                skills: ['MS Word', 'MS Excel', 'MS PowerPoint'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'microsoft-office.png'
+            },
+            // Thunkable
+            {
+                id: 29,
+                category: 'mobile-dev',
+                title: 'Thunkable',
+                description: 'Create mobile apps without coding using Thunkable. Build apps with drag-and-drop.',
+                skills: ['No-Code Development', 'App Design', 'Mobile UI'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'thunkable.png'
+            },
+            // Scratch
+            {
+                id: 30,
+                category: 'programming',
+                title: 'Scratch',
+                description: 'Learn programming basics with Scratch. Create games and animations through visual coding.',
+                skills: ['Visual Programming', 'Game Design', 'Animation'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'scratch.png'
+            },
+            // Canva
+            {
+                id: 31,
+                category: 'design',
+                title: 'Canva',
+                description: 'Design stunning graphics with Canva. Create social media posts, presentations, and more.',
+                skills: ['Graphic Design', 'Social Media Graphics', 'Branding'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'canva.png'
+            },
+            // Blockly
+            {
+                id: 32,
+                category: 'programming',
+                title: 'Blockly',
+                description: 'Introduction to coding with Blockly. Learn programming logic through visual blocks.',
+                skills: ['Block Programming', 'Logic Building', 'Problem Solving'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'blockly.png'
+            },
+            // Turtle
+            {
+                id: 33,
+                category: 'programming',
+                title: 'Turtle',
+                description: 'Learn Python programming with Turtle graphics. Create art and animations with code.',
+                skills: ['Python Turtle', 'Graphics Programming', 'Creative Coding'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'turtle.png'
+            },
+            // HTML
+            {
+                id: 34,
+                category: 'web-dev',
+                title: 'HTML',
+                description: 'Learn HTML fundamentals. Build the structure of web pages from scratch.',
+                skills: ['HTML5', 'Semantic HTML', 'Web Structure'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'html.png'
+            },
+            // Javascript
+            {
+                id: 35,
+                category: 'web-dev',
+                title: 'Javascript',
+                description: 'Master JavaScript programming. Add interactivity to your web pages.',
+                skills: ['JS Fundamentals', 'DOM Manipulation', 'Events'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'javascript.png'
+            },
+            // HTML&CSS
+            {
+                id: 36,
+                category: 'web-dev',
+                title: 'HTML & CSS',
+                description: 'Complete HTML and CSS course. Build beautiful, responsive websites.',
+                skills: ['HTML5', 'CSS3', 'Responsive Design'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'html-and-css.png'
+            },
+            // Python
+            {
+                id: 37,
+                category: 'programming',
+                title: 'Python',
+                description: 'Comprehensive Python programming course. From basics to advanced concepts.',
+                skills: ['Python Basics', 'Data Structures', 'OOP'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'python.png'
+            },
+            // App Dev
+            {
+                id: 38,
+                category: 'mobile-dev',
+                title: 'App Dev',
+                description: 'Mobile app development course. Build apps for iOS and Android.',
+                skills: ['Mobile Development', 'UI/UX Design', 'App Publishing'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'app-dev.png'
+            },
+            // Game Dev
+            {
+                id: 39,
+                category: 'programming',
+                title: 'Game Dev',
+                description: 'Create your own games. Learn game design and development fundamentals.',
+                skills: ['Game Design', 'Unity/Unreal', 'Game Logic'],
+                difficulty: 'intermediate',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'game-dev.png'
+            },
+            // Designing & printing
+            {
+                id: 40,
+                category: 'design',
+                title: 'Designing & Printing',
+                description: 'Learn graphic design and printing techniques. Create professional designs.',
+                skills: ['Design Software', 'Print Design', 'Color Theory'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'designing-and-printing.png'
+            },
+            // Creative Coding
+            {
+                id: 41,
+                category: 'programming',
+                title: 'Creative Coding',
+                description: 'Combine art and code. Create interactive art and animations.',
+                skills: ['P5.js', 'Creative Programming', 'Generative Art'],
+                difficulty: 'intermediate',
+                ageGroup: 'kids',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'creative-coding.png'
+            },
+            // Kids Coding
+            {
+                id: 42,
+                category: 'programming',
+                title: 'Kids Coding',
+                description: 'Fun introduction to coding for kids. Learn through games and projects.',
+                skills: ['Coding Basics', 'Logic Building', 'Fun Projects'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'kids-coding.png'
+            },
+            // WEB DEV
+            {
+                id: 43,
+                category: 'web-dev',
+                title: 'WEB DEV',
+                description: 'Complete web development bootcamp. Build modern, responsive websites.',
+                skills: ['Frontend', 'Backend', 'Full Stack'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'web-dev.png'
+            },
+            // Stock Markets & Trading
+            {
+                id: 44,
+                category: 'finance',
+                title: 'Stock Markets & Trading',
+                description: 'Learn stock market fundamentals and trading strategies.',
+                skills: ['Market Analysis', 'Trading Strategies', 'Technical Analysis'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'stock-markets-and-trading.png'
+            },
+            // Coding Universe
+            {
+                id: 45,
+                category: 'programming',
+                title: 'Coding Universe',
+                description: 'Explore the vast world of coding. Comprehensive programming course.',
+                skills: ['Multiple Languages', 'Project Building', 'Problem Solving'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'coding-universe.png'
+            },
+            // Coding World
+            {
+                id: 46,
+                category: 'programming',
+                title: 'Coding World',
+                description: 'Journey through different programming paradigms and languages.',
+                skills: ['Programming Concepts', 'Multiple Paradigms', 'Best Practices'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'coding-world.png'
+            },
+            // Java Born Here
+            {
+                id: 47,
+                category: 'programming',
+                title: 'Java Born Here',
+                description: 'Comprehensive Java programming from scratch. Master Java development.',
+                skills: ['Java Fundamentals', 'Advanced Java', 'Java Projects'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'java-born-here.png'
+            },
+            // Data Analysis
+            {
+                id: 48,
+                category: 'ai-ml',
+                title: 'Data Analysis',
+                description: 'Analyze data and extract insights. Master data analysis tools and techniques.',
+                skills: ['Python', 'Data Visualization', 'Statistical Analysis'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'data-analysis.png'
+            },
+            // HTML,CSS&JS
+            {
+                id: 49,
+                category: 'web-dev',
+                title: 'HTML, CSS & JS',
+                description: 'Complete frontend development course. Build interactive websites.',
+                skills: ['HTML5', 'CSS3', 'JavaScript'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'html-css-and-js.png'
+            },
+            // She Coders (girls)
+            {
+                id: 50,
+                category: 'programming',
+                title: 'She Coders',
+                description: 'Empowering girls in tech. Learn coding in a supportive environment.',
+                skills: ['Programming Basics', 'Web Development', 'Confidence Building'],
+                difficulty: 'beginner',
+                ageGroup: 'girls',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'she-coders.png'
+            },
+            // Alpha Girls (girls)
+            {
+                id: 51,
+                category: 'programming',
+                title: 'Alpha Girls',
+                description: 'Advanced coding course for girls. Build real-world projects.',
+                skills: ['Advanced Programming', 'Project Development', 'Leadership'],
+                difficulty: 'intermediate',
+                ageGroup: 'girls',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'alpha-girls.png'
+            },
+            // Queen Coders (girls)
+            {
+                id: 52,
+                category: 'programming',
+                title: 'Queen Coders',
+                description: 'Master-level coding course for girls. Become a coding queen.',
+                skills: ['Expert Programming', 'System Design', 'Mentorship'],
+                difficulty: 'advanced',
+                ageGroup: 'girls',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'queen-coders.png'
+            },
+            // Princess Coders (girls)
+            {
+                id: 53,
+                category: 'programming',
+                title: 'Princess Coders',
+                description: 'Fun coding course for young girls. Start your coding journey.',
+                skills: ['Coding Basics', 'Creative Projects', 'Fun Learning'],
+                difficulty: 'beginner',
+                ageGroup: 'girls',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'princess-coders.png'
+            },
+            // GSAP and React
+            {
+                id: 54,
+                category: 'web-dev',
+                title: 'GSAP and React',
+                description: 'Create stunning animations with GSAP and React. Build interactive web experiences.',
+                skills: ['GSAP Animations', 'React', 'Interactive UI'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'gsap-and-react.png'
+            },
+            // Mathematics Courses
+            {
+                id: 55,
+                category: 'mathematics',
+                title: 'Foundational Algebra',
+                description: 'Build a rock-solid understanding of algebraic concepts, setting the stage for all future mathematical studies.',
+                skills: ['Solving Equations', 'Linear Functions', 'Polynomials'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'foundational-algebra.png'
+            },
+            {
+                id: 56,
+                category: 'mathematics',
+                title: 'Calculus Unlocked',
+                description: 'Explore the concepts of change and motion. Master derivatives and integrals to solve complex, real-world problems.',
+                skills: ['Derivatives', 'Integrals', 'Applied Problems'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'calculus-unlocked.png'
+            },
+            {
+                id: 57,
+                category: 'mathematics',
+                title: 'Statistics & Probability',
+                description: 'Learn to analyze data and make informed decisions. Master statistical concepts and probability theory.',
+                skills: ['Data Analysis', 'Probability Theory', 'Hypothesis Testing'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'statistics-and-probability.png'
+            },
+            {
+                id: 58,
+                category: 'mathematics',
+                title: 'Fun Math for Kids',
+                description: 'Make math exciting and engaging for young learners. Build strong mathematical foundations through games and activities.',
+                skills: ['Basic Arithmetic', 'Problem Solving', 'Math Games'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'fun-math-for-kids.png'
+            },
+            {
+                id: 59,
+                category: 'mathematics',
+                title: 'Math Queens',
+                description: 'Empowering girls in mathematics. Build confidence and excel in mathematical problem-solving.',
+                skills: ['Advanced Problem Solving', 'Mathematical Reasoning', 'Confidence Building'],
+                difficulty: 'intermediate',
+                ageGroup: 'girls',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'math-queens.png'
+            },
+            {
+                id: 60,
+                category: 'mathematics',
+                title: 'Applied Mathematics',
+                description: 'Learn how mathematics applies to real-world scenarios. Perfect for adults looking to enhance their analytical skills.',
+                skills: ['Real-world Applications', 'Mathematical Modeling', 'Data Interpretation'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: 'coming-soon',
+                imageUrl: 'applied-mathematics.png'
+            },
+
+            // === COMPREHENSIVE MATHEMATICS COURSES FOR GRADE 1-12 ===
+
+            // KIDS TAB - GRADES 1-5
+            {
+                id: 61,
+                category: 'mathematics',
+                title: 'Math Foundations (Grade 1-2)',
+                description: 'Fun introduction to numbers, counting, and basic operations. Perfect for young learners starting their math journey.',
+                skills: ['Number Recognition', 'Basic Addition & Subtraction', 'Shape Identification', 'Pattern Recognition'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'math-foundations-grade-1-2.png'
+            },
+            {
+                id: 62,
+                category: 'mathematics',
+                title: 'Elementary Math (Grade 3-4)',
+                description: 'Build strong mathematical foundations with multiplication, division, and problem-solving skills.',
+                skills: ['Multiplication Tables', 'Division Concepts', 'Word Problems', 'Basic Geometry'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'elementary-math-grade-3-4.png'
+            },
+            {
+                id: 63,
+                category: 'mathematics',
+                title: 'Advanced Elementary (Grade 5)',
+                description: 'Master fractions, decimals, and advanced problem-solving. Prepare for middle school mathematics.',
+                skills: ['Fractions & Decimals', 'Advanced Problem Solving', 'Basic Statistics', 'Measurement'],
+                difficulty: 'intermediate',
+                ageGroup: 'kids',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'advanced-elementary-grade-5.png'
+            },
+
+            // TEENS TAB - GRADES 6-12
+            {
+                id: 64,
+                category: 'mathematics',
+                title: 'Pre-Algebra (Grade 6-7)',
+                description: 'Introduction to algebraic thinking. Master integers, ratios, and basic equations.',
+                skills: ['Integer Operations', 'Ratios & Proportions', 'Basic Equations', 'Coordinate Plane'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'pre-algebra-grade-6-7.png'
+            },
+            {
+                id: 65,
+                category: 'mathematics',
+                title: 'Algebra I (Grade 8-9)',
+                description: 'Master linear equations, inequalities, and functions. Build the foundation for advanced mathematics.',
+                skills: ['Linear Equations', 'Graphing Functions', 'Systems of Equations', 'Polynomials'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'algebra-i-grade-8-9.png'
+            },
+            {
+                id: 66,
+                category: 'mathematics',
+                title: 'Geometry (Grade 9-10)',
+                description: 'Explore shapes, angles, and spatial relationships. Master proofs and geometric problem-solving.',
+                skills: ['Geometric Proofs', 'Area & Volume', 'Trigonometric Ratios', 'Coordinate Geometry'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'geometry-grade-9-10.png'
+            },
+            {
+                id: 67,
+                category: 'mathematics',
+                title: 'Algebra II (Grade 10-11)',
+                description: 'Advanced algebraic concepts including quadratics, exponentials, and logarithms.',
+                skills: ['Quadratic Functions', 'Exponential Functions', 'Logarithms', 'Complex Numbers'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'algebra-ii-grade-10-11.png'
+            },
+            {
+                id: 68,
+                category: 'mathematics',
+                title: 'Pre-Calculus (Grade 11-12)',
+                description: 'Prepare for calculus with advanced functions, trigonometry, and analytical geometry.',
+                skills: ['Advanced Functions', 'Trigonometry', 'Sequences & Series', 'Conic Sections'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'pre-calculus-grade-11-12.png'
+            },
+            {
+                id: 69,
+                category: 'mathematics',
+                title: 'Calculus (Grade 12)',
+                description: 'Master differential and integral calculus. Prepare for college-level mathematics.',
+                skills: ['Limits & Continuity', 'Derivatives', 'Integrals', 'Applications of Calculus'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'calculus-grade-12.png'
+            },
+
+            // ADULTS TAB - ADVANCED MATHEMATICS
+            {
+                id: 70,
+                category: 'mathematics',
+                title: 'Business Mathematics',
+                description: 'Mathematical concepts for business applications including finance, statistics, and optimization.',
+                skills: ['Financial Mathematics', 'Business Statistics', 'Linear Programming', 'Decision Analysis'],
+                difficulty: 'intermediate',
+                ageGroup: 'adults',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'business-mathematics.png'
+            },
+            {
+                id: 71,
+                category: 'mathematics',
+                title: 'Advanced Statistics',
+                description: 'Comprehensive statistical analysis for research and data science applications.',
+                skills: ['Hypothesis Testing', 'Regression Analysis', 'ANOVA', 'Statistical Software'],
+                difficulty: 'advanced',
+                ageGroup: 'adults',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'advanced-statistics.png'
+            },
+            {
+                id: 72,
+                category: 'mathematics',
+                title: 'Mathematical Modeling',
+                description: 'Learn to create mathematical models for real-world problems and scenarios.',
+                skills: ['Model Development', 'Differential Equations', 'Optimization', 'Simulation'],
+                difficulty: 'advanced',
+                ageGroup: 'adults',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'mathematical-modeling.png'
+            },
+
+            // SPECIAL FOR GIRLS TAB
+            {
+                id: 73,
+                category: 'mathematics',
+                title: 'Math Princesses (Grade 1-3)',
+                description: 'Fun and engaging mathematics for young girls with princess-themed problems and activities.',
+                skills: ['Basic Arithmetic', 'Pattern Recognition', 'Problem Solving', 'Confidence Building'],
+                difficulty: 'beginner',
+                ageGroup: 'girls',
+                badges: ['popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'math-princesses-grade-1-3.png'
+            },
+            {
+                id: 74,
+                category: 'mathematics',
+                title: 'Girls in STEM Math (Grade 4-8)',
+                description: 'Empowering girls in mathematics with real-world applications and female role models.',
+                skills: ['Advanced Problem Solving', 'STEM Applications', 'Leadership Skills', 'Mathematical Reasoning'],
+                difficulty: 'intermediate',
+                ageGroup: 'girls',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'girls-in-stem-math-grade-4-8.png'
+            },
+            {
+                id: 75,
+                category: 'mathematics',
+                title: 'Women in Mathematics (Grade 9-12)',
+                description: 'Advanced mathematics course highlighting contributions of women mathematicians.',
+                skills: ['Advanced Algebra', 'Calculus Concepts', 'Mathematical History', 'Research Skills'],
+                difficulty: 'advanced',
+                ageGroup: 'girls',
+                badges: ['new'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'women-in-mathematics-grade-9-12.png'
+            },
+
+            // OLYMPIAD PREPARATION COURSES
+            {
+                id: 76,
+                category: 'mathematics',
+                title: 'Math Olympiad Prep (Grade 6-8)',
+                description: 'Intensive preparation for mathematical olympiads with advanced problem-solving techniques.',
+                skills: ['Competition Strategies', 'Advanced Problem Solving', 'Mathematical Proofs', 'Time Management'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['hot', 'popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'math-olympiad-prep-grade-6-8.png'
+            },
+            {
+                id: 77,
+                category: 'mathematics',
+                title: 'Advanced Olympiad Training (Grade 9-12)',
+                description: 'Elite-level mathematical olympiad training for high school students.',
+                skills: ['Competition Mathematics', 'Advanced Proofs', 'Number Theory', 'Combinatorics'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['hot'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'advanced-olympiad-training-grade-9-12.png'
+            },
+            {
+                id: 78,
+                category: 'mathematics',
+                title: 'International Math Olympiad Prep',
+                description: 'Ultimate preparation for International Mathematical Olympiad and similar competitions.',
+                skills: ['IMO Problem Types', 'Advanced Techniques', 'Competition Psychology', 'Elite Training'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: ['hot', 'popular'],
+                templateUrl: 'coming-soon',
+                imageUrl: 'international-math-olympiad-prep.png'
+            }
+        ];
+
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('DOM loaded, initializing courses...');
+            console.log('Total courses:', coursesData.length);
+
+            // --- Tab State Management ---
+            let tabState = {
+                activeMainTab: 'coding',
+                activeSubTab: 'kids',
+                filteredCourses: [],
+                searchTerm: '',
+                sortOption: 'popular'
+            };
+
+            // --- Tab Switching Functionality ---
+            function initializeTabs() {
+                const mainTabs = document.querySelectorAll('.main-tab');
+                const subTabs = document.querySelectorAll('.sub-tab');
+                const subTabContainers = document.querySelectorAll('.sub-tabs');
+
+                // Main tab click handlers
+                mainTabs.forEach(tab => {
+                    tab.addEventListener('click', function () {
+                        const tabType = this.dataset.tab;
+
+                        // Update main tab state
+                        tabState.activeMainTab = tabType;
+                        tabState.activeSubTab = 'kids'; // Reset to first sub-tab
+
+                        // Update main tab visual states
+                        mainTabs.forEach(t => {
+                            t.classList.remove('active');
+                            t.setAttribute('aria-selected', 'false');
+                        });
+                        this.classList.add('active');
+                        this.setAttribute('aria-selected', 'true');
+
+                        // Update sub-tab containers
+                        subTabContainers.forEach(container => {
+                            container.classList.remove('active');
+                        });
+
+                        const activeSubTabContainer = document.querySelector(`.${tabType}-subtabs`);
+                        if (activeSubTabContainer) {
+                            activeSubTabContainer.classList.add('active');
+
+                            // Reset sub-tab states within the active container
+                            const containerSubTabs = activeSubTabContainer.querySelectorAll('.sub-tab');
+                            containerSubTabs.forEach(st => st.classList.remove('active'));
+                            containerSubTabs[0].classList.add('active'); // Activate first sub-tab
+                        }
+
+                        // Apply filters and render courses
+                        applyTabFilters();
+                    });
+                });
+
+                // Sub-tab click handlers
+                subTabs.forEach(subTab => {
+                    subTab.addEventListener('click', function () {
+                        const subTabType = this.dataset.subtab;
+                        const mainTabType = this.dataset.main;
+
+                        // Only process if this sub-tab belongs to the active main tab
+                        if (mainTabType === tabState.activeMainTab) {
+                            tabState.activeSubTab = subTabType;
+
+                            // Update sub-tab visual states within the same container
+                            const container = this.closest('.sub-tabs');
+                            const containerSubTabs = container.querySelectorAll('.sub-tab');
+                            containerSubTabs.forEach(st => st.classList.remove('active'));
+                            this.classList.add('active');
+
+                            // Apply filters and render courses
+                            applyTabFilters();
+                        }
+                    });
+                });
+            }
+
+            // --- Enhanced Animated Background Canvas Script ---
+            const canvas = document.getElementById('background-canvas');
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
+            const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+            const allSymbols = [...mathSymbols, ...codeSymbols];
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            function createParticles() {
+                particles = [];
+                const particleCount = Math.min(50, Math.floor((canvas.width * canvas.height) / 15000));
+                for (let i = 0; i < particleCount; i++) {
+                    particles.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
+                        speed: 0.3 + Math.random() * 0.7,
+                        size: 12 + Math.random() * 10,
+                        opacity: 0.1 + Math.random() * 0.3,
+                        rotation: Math.random() * Math.PI * 2,
+                        rotationSpeed: (Math.random() - 0.5) * 0.02,
+                        isMath: Math.random() > 0.5
+                    });
+                }
+            }
+
+            function animate() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+                particles.forEach(p => {
+                    p.y -= p.speed;
+                    p.rotation += p.rotationSpeed;
+
+                    if (p.y < -30) {
+                        p.y = canvas.height + 30;
+                        p.x = Math.random() * canvas.width;
+                        p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
+                    }
+
+                    ctx.save();
+                    ctx.translate(p.x, p.y);
+                    ctx.rotate(p.rotation);
+                    ctx.font = `${p.size}px monospace`;
+
+                    if (p.isMath) {
+                        ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
+                    } else {
+                        ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
+                    }
+
+                    ctx.fillText(p.char, 0, 0);
+                    ctx.restore();
+                });
+
+                requestAnimationFrame(animate);
+            }
+
+            window.addEventListener('resize', () => {
+                resizeCanvas();
+                createParticles();
+            });
+
+            resizeCanvas();
+            createParticles();
+            animate();
+
+            // --- Course Management ---
+            let filteredCourses = [...coursesData];
+            let currentSort = 'popular';
+
+            // Generate minimal course card HTML
+            function generateMinimalCourseCard(course) {
+                // Generate image URL
+                const imageUrl = course.imageUrl || 'default-course.png';
+                const imagePath = `images/${imageUrl}`;
+
+                // Arrow SVG for button - always show
+                const arrowSvg = `
+                    <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                `;
+
+                return `
+                    <div class="course-card-minimal" data-course-id="${course.id}" data-category="${course.category}">
+                        <div class="course-image-container">
+                            <img src="${imagePath}" 
+                                 alt="${course.title}" 
+                                 class="course-image"
+                                 onerror="this.style.display='none'">
+                        </div>
+                        <div class="course-content-minimal">
+                            <h3 class="course-title-minimal">${course.title}</h3>
+                            <p class="course-description-minimal">${course.description}</p>
+                            <button class="start-learning-btn" 
+                                    data-template-url="${course.templateUrl || ''}"
+                                    data-course-title="${course.title}"
+                                    aria-label="Start learning ${course.title}">
+                                Start Learning
+                                ${arrowSvg}
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            // Initialize Start Learning button click handlers
+            function initializeStartLearningButtons() {
+                const buttons = document.querySelectorAll('.start-learning-btn');
+
+                buttons.forEach(button => {
+                    button.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                        const templateUrl = this.getAttribute('data-template-url');
+                        const courseTitle = this.getAttribute('data-course-title');
+
+                        if (templateUrl && templateUrl !== 'coming-soon' && templateUrl !== '') {
+                            console.log(`Navigating to: ${templateUrl}`);
+                            window.location.href = templateUrl;
+                        } else {
+                            // For now, just log - you can add navigation logic later
+                            console.log(`Start Learning clicked for: ${courseTitle}`);
+                            // Optionally show a message or navigate to a default page
+                            showComingSoonMessage(courseTitle);
+                        }
+                    });
+                });
+            }
+
+            // Show "Coming Soon" message for courses without templates
+            function showComingSoonMessage(courseTitle) {
+                // Create a simple toast notification
+                const toast = document.createElement('div');
+                toast.className = 'coming-soon-toast';
+                toast.innerHTML = `
+                    <div class="toast-content">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 24px; height: 24px; margin-right: 12px;">
+                            <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <div>
+                            <strong>${courseTitle}</strong>
+                            <p>This course template is coming soon!</p>
+                        </div>
+                    </div>
+                `;
+
+                document.body.appendChild(toast);
+
+                // Trigger animation
+                setTimeout(() => toast.classList.add('show'), 10);
+
+                // Auto-dismiss after 3 seconds
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                    setTimeout(() => toast.remove(), 300);
+                }, 3000);
+            }
+
+            // Render courses
+            function renderCourses() {
+                console.log('renderCourses called with', filteredCourses.length, 'courses');
+                const coursesGrid = document.getElementById('coursesGrid');
+                const noResults = document.getElementById('noResults');
+                const resultsCount = document.getElementById('resultsCount');
+
+                if (!coursesGrid) {
+                    console.error('coursesGrid element not found!');
+                    return;
+                }
+
+                if (filteredCourses.length === 0) {
+                    console.log('No courses to display');
+                    coursesGrid.innerHTML = '';
+                    noResults.classList.add('show');
+                    resultsCount.textContent = '0';
+
+                    // Populate popular course suggestions
+                    populatePopularSuggestions();
+
+                    return;
+                }
+
+                noResults.classList.remove('show');
+                resultsCount.textContent = filteredCourses.length;
+
+                // Use the new minimal card generation
+                coursesGrid.innerHTML = filteredCourses.map(course => generateMinimalCourseCard(course)).join('');
+
+                // Initialize button click handlers after rendering
+                initializeStartLearningButtons();
+            }
+
+            // DEPRECATED: This function is no longer used with minimal course cards
+            // Kept for backward compatibility only
+            function getCourseImage(course) {
+                // Map course titles to their corresponding image files
+                const imageMap = {
+                    'Full-Stack Development': 'full-stack.png',
+                    'Python and AI': 'automation-with-python-ai.png',
+                    'Information Practices': 'informaiton-practices.png',
+                    'Competitive Coding': 'data-structure-algorithms.png',
+                    'Data Science': 'data-science.png',
+                    'MERN STACK': 'mern-stack.png',
+                    'Java': 'java-dev.png',
+                    'Web Development': 'html-css.png',
+                    'Graphic Designing & Video Editing': 'graphic-designing-editing.png',
+                    'AI & ML': 'ai-ml.png',
+                    'SQL': 'my-sql.png',
+                    'Stock Market Automation': 'stock-market-automation.png',
+                    'Placement Preparation': 'placement-preparation.png',
+                    'DSA': 'data-structure-algorithms.png',
+                    'AI Tools': 'ai-tools.png',
+                    'C++': 'javascript-dev.png',
+                    'Microsoft Office': 'microsoft-office.png',
+                    'Thunkable': 'thunkable.png',
+                    'Scratch': 'kids-coding.png',
+                    'Canva': 'graphic-designing-editing.png',
+                    'Blockly': 'blockly.png',
+                    'Turtle': 'python-turtle.png',
+                    'HTML': 'html-css.png',
+                    'Javascript': 'javascript-dev.png',
+                    'HTML & CSS': 'html-css.png',
+                    'Python': 'python.png',
+                    'App Dev': 'app-dev.png',
+                    'Game Dev': 'game-dev.png',
+                    'Designing & Printing': 'graphic-designing-editing.png',
+                    'Creative Coding': 'kids-coding.png',
+                    'Kids Coding': 'kids-coding.png',
+                    'WEB DEV': 'html-css.png',
+                    'Stock Markets & Trading': 'stock-market-automation.png',
+                    'React': 'react.png',
+                    'Game Development': 'game-dev.png',
+                    'App Development': 'app-dev.png',
+                    'Artificial Intelligence': 'artificial-intelligence.png',
+                    'Data Analysis': 'data-analysis.png',
+                    'Mathematics': 'maths.png',
+                    'Maths': 'maths.png',
+                    'Foundational Algebra': 'maths.png',
+                    'Calculus Unlocked': 'maths.png',
+                    'Statistics & Probability': 'maths.png',
+                    'Fun Math for Kids': 'maths.png',
+                    'Math Queens': 'maths.png',
+                    'Applied Mathematics': 'maths.png',
+                    'Math Foundations (Grade 1-2)': 'maths.png',
+                    'Elementary Math (Grade 3-4)': 'maths.png',
+                    'Advanced Elementary (Grade 5)': 'maths.png',
+                    'Pre-Algebra (Grade 6-7)': 'maths.png',
+                    'Algebra I (Grade 8-9)': 'maths.png',
+                    'Geometry (Grade 9-10)': 'maths.png',
+                    'Algebra II (Grade 10-11)': 'maths.png',
+                    'Pre-Calculus (Grade 11-12)': 'maths.png',
+                    'Calculus (Grade 12)': 'maths.png',
+                    'Business Mathematics': 'maths.png',
+                    'Advanced Statistics': 'maths.png',
+                    'Mathematical Modeling': 'maths.png',
+                    'Math Princesses (Grade 1-3)': 'maths.png',
+                    'Girls in STEM Math (Grade 4-8)': 'maths.png',
+                    'Women in Mathematics (Grade 9-12)': 'maths.png',
+                    'Math Olympiad Prep (Grade 6-8)': 'maths.png',
+                    'Advanced Olympiad Training (Grade 9-12)': 'maths.png',
+                    'International Math Olympiad Prep': 'maths.png'
+                };
+
+                // Get image filename from course title or use default based on type
+                let imageName = imageMap[course.title];
+
+                if (!imageName) {
+                    // Fallback based on course type/category
+                    const typeMap = {
+                        'coding': 'kids-coding.png',
+                        'ai': 'ai-ml.png',
+                        'maths': 'maths.png',
+                        'math': 'maths.png',
+                        'programming': 'kids-coding.png',
+                        'web-dev': 'html-css.png',
+                        'mobile-dev': 'app-dev.png',
+                        'ai-ml': 'ai-ml.png',
+                        'design': 'graphic-designing-editing.png',
+                        'finance': 'stock-market-automation.png',
+                        'productivity': 'microsoft-office.png'
+                    };
+                    imageName = typeMap[course.type] || typeMap[course.category] || 'kids-coding.png';
+                }
+
+                return `<img src="../../public/images/${imageName}" alt="${course.title}" class="course-image" loading="lazy">`;
+            }
+
+            function formatCategory(category) {
+                const categoryMap = {
+                    'programming': 'Programming',
+                    'mathematics': 'Mathematics',
+                    'ai-ml': 'AI & Machine Learning',
+                    'web-dev': 'Web Development',
+                    'mobile-dev': 'Mobile Development'
+                };
+                return categoryMap[category] || category;
+            }
+
+            // Tab filtering functionality
+            function applyTabFilters() {
+                // Define category mappings
+                const categoryMapping = {
+                    coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity'],
+                    maths: ['mathematics']
+                };
+
+                // Define age group mappings
+                const ageGroupMapping = {
+                    kids: 'kids',
+                    teens: 'teens',
+                    college: 'college',
+                    adults: 'adults', // Map adults to adults for maths
+                    girls: 'girls',
+                    customized: 'all' // Show all for customized
+                };
+
+                // Filter courses based on active tabs
+                filteredCourses = coursesData.filter(course => {
+                    // Main tab filter (coding vs maths)
+                    const courseCategories = categoryMapping[tabState.activeMainTab];
+                    if (!courseCategories.includes(course.category)) {
+                        return false;
+                    }
+
+                    // Sub-tab filter (age group)
+                    if (tabState.activeSubTab !== 'customized') {
+                        const targetAgeGroup = ageGroupMapping[tabState.activeSubTab];
+                        if (targetAgeGroup !== 'all' && course.ageGroup !== targetAgeGroup) {
+                            return false;
+                        }
+                    }
+
+                    // Enhanced search filter
+                    if (tabState.searchTerm) {
+                        const searchTerm = tabState.searchTerm.toLowerCase().trim();
+                        const searchableText = [
+                            course.title,
+                            course.description,
+                            ...course.skills,
+                            course.category,
+                            course.difficulty,
+                            course.ageGroup
+                        ].join(' ').toLowerCase();
+
+                        // Split search term into words for better matching
+                        const searchWords = searchTerm.split(/\s+/).filter(word => word.length > 0);
+                        const matchesSearch = searchWords.every(word =>
+                            searchableText.includes(word)
+                        );
+
+                        if (!matchesSearch) {
+                            return false;
+                        }
+                    }
+
+                    return true;
+                });
+
+                // Apply sorting and render
+                applySorting();
+                renderCourses();
+                updateResultsCount();
+            }
+
+            function updateResultsCount() {
+                const resultsCount = document.getElementById('resultsCount');
+                if (resultsCount) {
+                    resultsCount.textContent = filteredCourses.length;
+                }
+            }
+
+            // Search result highlighting
+            function highlightSearchTerms(text, searchTerm) {
+                if (!searchTerm || !text) return text;
+
+                const searchWords = searchTerm.toLowerCase().trim().split(/\s+/).filter(word => word.length > 0);
+                let highlightedText = text;
+
+                searchWords.forEach(word => {
+                    const regex = new RegExp(`(${word})`, 'gi');
+                    highlightedText = highlightedText.replace(regex, '<mark class="search-highlight">$1</mark>');
+                });
+
+                return highlightedText;
+            }
+
+            // Populate popular course suggestions in no results state
+            function populatePopularSuggestions() {
+                const suggestionTags = document.getElementById('suggestionTags');
+                if (!suggestionTags) return;
+
+                // Get popular courses from current category
+                const popularCourses = coursesData
+                    .filter(course => {
+                        const categoryMapping = {
+                            coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity'],
+                            maths: ['mathematics']
+                        };
+                        const courseCategories = categoryMapping[tabState.activeMainTab];
+                        return courseCategories.includes(course.category);
+                    })
+                    .filter(course => course.badges.includes('popular') || course.badges.includes('hot'))
+                    .slice(0, 6);
+
+                if (popularCourses.length === 0) {
+                    // Fallback to first 6 courses from current category
+                    const fallbackCourses = coursesData
+                        .filter(course => {
+                            const categoryMapping = {
+                                coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity'],
+                                maths: ['mathematics']
+                            };
+                            const courseCategories = categoryMapping[tabState.activeMainTab];
+                            return courseCategories.includes(course.category);
+                        })
+                        .slice(0, 6);
+
+                    suggestionTags.innerHTML = fallbackCourses.map(course =>
+                        `<span class="suggestion-tag" onclick="searchForCourse('${course.title}')">${course.title}</span>`
+                    ).join('');
+                } else {
+                    suggestionTags.innerHTML = popularCourses.map(course =>
+                        `<span class="suggestion-tag" onclick="searchForCourse('${course.title}')">${course.title}</span>`
+                    ).join('');
+                }
+            }
+
+            // Search for a specific course
+            function searchForCourse(courseTitle) {
+                searchInput.value = courseTitle;
+                performSearch(courseTitle);
+                searchInput.focus();
+            }
+
+            // Initialize no results action buttons
+            function initializeNoResultsActions() {
+                const clearSearchBtn = document.getElementById('clearSearchBtn');
+                const browseAllBtn = document.getElementById('browseAllBtn');
+
+                if (clearSearchBtn) {
+                    clearSearchBtn.addEventListener('click', function () {
+                        searchInput.value = '';
+                        performSearch('');
+                        searchInput.focus();
+                    });
+                }
+
+                if (browseAllBtn) {
+                    browseAllBtn.addEventListener('click', function () {
+                        // Reset all filters and show all courses
+                        searchInput.value = '';
+                        tabState.searchTerm = '';
+                        tabState.sortOption = 'popular';
+
+                        // Reset to default tab if needed
+                        const defaultMainTab = 'coding';
+                        const defaultSubTab = 'kids';
+
+                        if (tabState.activeMainTab !== defaultMainTab) {
+                            // Switch to coding tab
+                            document.querySelectorAll('.main-tab').forEach(tab => {
+                                tab.classList.remove('active');
+                                tab.setAttribute('aria-selected', 'false');
+                            });
+
+                            const codingTab = document.getElementById('codingTab');
+                            if (codingTab) {
+                                codingTab.classList.add('active');
+                                codingTab.setAttribute('aria-selected', 'true');
+                            }
+
+                            tabState.activeMainTab = defaultMainTab;
+                        }
+
+                        if (tabState.activeSubTab !== defaultSubTab) {
+                            // Switch to kids sub-tab
+                            document.querySelectorAll('.sub-tab').forEach(tab => {
+                                tab.classList.remove('active');
+                            });
+
+                            const kidsTab = document.querySelector('.sub-tab[data-subtab="kids"]');
+                            if (kidsTab) {
+                                kidsTab.classList.add('active');
+                            }
+
+                            tabState.activeSubTab = defaultSubTab;
+                        }
+
+                        applyTabFilters();
+                        searchInput.focus();
+                    });
+                }
+            }
+
+            // Legacy filter functionality - replaced by tab-based filtering
+
+            // Sorting functionality
+            function applySorting() {
+                switch (currentSort) {
+                    case 'alphabetical':
+                        filteredCourses.sort((a, b) => a.title.localeCompare(b.title));
+                        break;
+                    case 'newest':
+                        filteredCourses.reverse();
+                        break;
+                    case 'rating':
+                    case 'popular':
+                    default:
+                        // Keep original order for popular/rating
+                        break;
+                }
+            }
+
+            // Legacy filter functionality removed - now using tab-based filtering
+
+            // --- Event Listeners ---
+
+            // Old filter functionality removed - now using tab-based filtering
+
+            // Enhanced Search functionality with debouncing
+            const searchInput = document.getElementById('searchInput');
+            const searchClearBtn = document.getElementById('searchClearBtn');
+            let searchTimeout;
+
+            // Debounced search function
+            function debounceSearch(func, delay) {
+                return function (...args) {
+                    clearTimeout(searchTimeout);
+                    searchTimeout = setTimeout(() => func.apply(this, args), delay);
+                };
+            }
+
+            // Enhanced search function
+            function performSearch(searchTerm) {
+                tabState.searchTerm = searchTerm;
+
+                // Show/hide clear button
+                if (searchTerm.length > 0) {
+                    searchClearBtn.style.display = 'flex';
+                    searchClearBtn.classList.add('visible');
+                } else {
+                    searchClearBtn.style.display = 'none';
+                    searchClearBtn.classList.remove('visible');
+                }
+
+                // Apply filters with loading state
+                showSearchLoading();
+                setTimeout(() => {
+                    applyTabFilters();
+                    hideSearchLoading();
+                }, 100); // Small delay to show loading state
+            }
+
+            // Debounced search with 300ms delay
+            const debouncedSearch = debounceSearch(performSearch, 300);
+
+            searchInput.addEventListener('input', function (e) {
+                debouncedSearch(e.target.value);
+            });
+
+            // Clear search functionality
+            searchClearBtn.addEventListener('click', function () {
+                searchInput.value = '';
+                searchInput.focus();
+                performSearch('');
+            });
+
+            // Search loading states
+            function showSearchLoading() {
+                const coursesGrid = document.getElementById('coursesGrid');
+                if (coursesGrid) {
+                    coursesGrid.style.opacity = '0.6';
+                    coursesGrid.style.pointerEvents = 'none';
+                }
+            }
+
+            function hideSearchLoading() {
+                const coursesGrid = document.getElementById('coursesGrid');
+                if (coursesGrid) {
+                    coursesGrid.style.opacity = '1';
+                    coursesGrid.style.pointerEvents = 'auto';
+                }
+            }
+
+            // Sort functionality
+            const sortBtn = document.getElementById('sortBtn');
+            const sortMenu = document.getElementById('sortMenu');
+
+            sortBtn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                sortMenu.classList.toggle('active');
+                sortBtn.classList.toggle('active');
+            });
+
+            document.querySelectorAll('.sort-option').forEach(option => {
+                option.addEventListener('click', function () {
+                    currentSort = this.dataset.sort;
+                    tabState.sortOption = currentSort;
+                    sortMenu.classList.remove('active');
+                    sortBtn.classList.remove('active');
+
+                    // Update button text to show selected option
+                    const sortText = this.textContent;
+                    sortBtn.innerHTML = `${sortText} <span>⌄</span>`;
+
+                    applyTabFilters(); // Use tab filtering instead of basic filtering
+                });
+            });
+
+            // Close sort menu when clicking outside
+            document.addEventListener('click', function () {
+                sortMenu.classList.remove('active');
+                sortBtn.classList.remove('active');
+            });
+
+            // View toggle
+            const gridView = document.getElementById('gridView');
+            const listView = document.getElementById('listView');
+            const coursesGrid = document.getElementById('coursesGrid');
+
+            gridView.addEventListener('click', function () {
+                gridView.classList.add('active');
+                listView.classList.remove('active');
+                coursesGrid.classList.remove('list-view');
+            });
+
+            listView.addEventListener('click', function () {
+                listView.classList.add('active');
+                gridView.classList.remove('active');
+                coursesGrid.classList.add('list-view');
+            });
+
+            // Mobile filter toggle removed - now using tab-based navigation
+
+            // DEPRECATED: Enrollment function for Buy Now buttons (no longer used with minimal cards)
+            // Kept for backward compatibility only
+            function enrollInCourse(courseId, courseTitle, price) {
+                // Show enrollment modal or redirect to enrollment page
+                alert(`Enrolling in ${courseTitle} for ₹${price}. This would redirect to the enrollment page.`);
+                // In a real implementation, this would redirect to a payment/enrollment page
+                // window.location.href = `/enroll?course=${courseId}&price=${price}`;
+            }
+
+
+
+            // Initialize tabs and render - MOVED TO END AFTER ALL FUNCTIONS ARE DEFINED
+            console.log('Initializing tabs...');
+            initializeTabs();
+
+            // Handle URL parameters for direct tab access
+            const urlParams = new URLSearchParams(window.location.search);
+            const urlTab = urlParams.get('tab');
+            const urlSubtab = urlParams.get('subtab');
+
+            console.log('URL Parameters:', { tab: urlTab, subtab: urlSubtab });
+
+            if (urlTab) {
+                console.log(`Attempting to activate tab: ${urlTab}`);
+                // Find and click the main tab
+                const mainTabButton = document.querySelector(`.main-tab[data-tab="${urlTab}"]`);
+                console.log('Main tab button found:', mainTabButton);
+                if (mainTabButton) {
+                    mainTabButton.click();
+                    console.log(`Clicked main tab: ${urlTab}`);
+
+                    // If subtab is specified, activate it after a short delay
+                    if (urlSubtab) {
+                        setTimeout(() => {
+                            const subTabButton = document.querySelector(`.sub-tab[data-subtab="${urlSubtab}"][data-main="${urlTab}"]`);
+                            console.log('Sub tab button found:', subTabButton);
+                            if (subTabButton) {
+                                subTabButton.click();
+                                console.log(`Clicked sub tab: ${urlSubtab}`);
+                            } else {
+                                console.warn(`Sub tab button not found for: ${urlSubtab}`);
+                            }
+                        }, 100);
+                    }
+                } else {
+                    console.warn(`Main tab button not found for: ${urlTab}`);
+                }
+            } else {
+                console.log('No URL parameters detected, using default tabs');
+            }
+
+            // Simple test - just put some courses directly
+            console.log('Total courses available:', coursesData.length);
+
+            // Filter for programming courses
+            filteredCourses = coursesData.filter(course => course.category === 'programming');
+            console.log('Programming courses found:', filteredCourses.length);
+
+            // Render courses
+            try {
+                renderCourses();
+                updateResultsCount();
+
+                // Apply tab filtering
+                applyTabFilters();
+
+                // Initialize no results actions
+                initializeNoResultsActions();
+
+                console.log('All initialization complete');
+            } catch (error) {
+                console.error('Error during initialization:', error);
+
+                // Fallback: show a simple message
+                if (coursesGrid) {
+                    coursesGrid.innerHTML = `
+                        <div style="text-align: center; padding: 2rem; color: white;">
+                            <h3>Loading courses...</h3>
+                            <p>Please refresh the page if courses don't appear.</p>
+                        </div>
+                    `;
+                }
+            }
+        });
+
+
+    </script>
+</body>
+
+</html>

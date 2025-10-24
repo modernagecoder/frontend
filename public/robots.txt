@@ -1,0 +1,17 @@
+# robots.txt for learn.modernagecoders.com
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /scripts/
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://learn.modernagecoders.com/sitemap.xml
+
+# Crawl delay (optional, adjust if needed)
+# Crawl-delay: 1

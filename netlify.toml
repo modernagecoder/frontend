@@ -1,0 +1,102 @@
+# Netlify Configuration for Frontend
+
+[build]
+  # Generate blog and course content before deployment
+  command = "npm run generate:all"
+  publish = "."
+
+# Redirect rules for clean URLs
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/about.html"
+  to = "/about"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/course.html"
+  to = "/courses"
+  status = 301
+  force = true
+
+# Rewrite rules for clean URLs
+[[redirects]]
+  from = "/"
+  to = "/src/pages/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/about"
+  to = "/src/pages/about.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses"
+  to = "/src/pages/course.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog"
+  to = "/content/blog/generated/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/*"
+  to = "/content/courses/generated/:splat/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/content/blog/generated/:splat/index.html"
+  status = 200
+
+# 404 fallback
+[[redirects]]
+  from = "/*"
+  to = "/src/pages/index.html"
+  status = 404
+
+# Security headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Cache static assets
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.jpg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.webp"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

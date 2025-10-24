@@ -1,0 +1,1832 @@
+{
+  "meta": {
+    "slug": "data-structures-algorithms-masterclass",
+    "title": "Complete Data Structures & Algorithms Masterclass - Interview Ready",
+    "description": "The most comprehensive 6-month DSA program. From basic arrays to advanced graph algorithms. Master problem-solving, competitive programming, and crack FAANG interviews with 500+ problems solved.",
+    "keywords": [
+      "data structures",
+      "algorithms",
+      "competitive programming",
+      "coding interviews",
+      "FAANG preparation",
+      "leetcode",
+      "problem solving",
+      "dynamic programming",
+      "graph algorithms",
+      "system design basics",
+      "time complexity",
+      "space complexity",
+      "recursion",
+      "tree traversal",
+      "sorting algorithms",
+      "interview preparation"
+    ],
+    "category": "Computer Science & Interview Preparation",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹11,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Beginner to Advanced Problem Solver",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "DSA Mastery & Interview Ready Certification"
+  },
+  "program_overview": {
+    "title": "Complete Data Structures & Algorithms Masterclass",
+    "tagline": "From Zero to FAANG Interview Ready in 6 Months",
+    "description": "This intensive 6-month program transforms beginners into expert problem solvers capable of cracking top tech company interviews. Master every data structure from arrays to advanced graphs, learn algorithmic thinking, dynamic programming, and solve 500+ carefully curated problems.\n\nYou'll build strong foundations in complexity analysis, implement data structures from scratch, master recursion and backtracking, conquer dynamic programming, and develop the problem-solving skills needed for competitive programming and technical interviews.",
+    "what_makes_this_different": [
+      "Learn by implementing from scratch",
+      "500+ hand-picked problems with video solutions",
+      "Pattern-based learning approach",
+      "Interview-focused curriculum",
+      "Live problem-solving sessions",
+      "Mock interviews with feedback",
+      "Company-specific preparation tracks",
+      "Competitive programming included"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Arrays, Strings, Linked Lists, Stacks, Queues, Basic Algorithms",
+      "phase_2": "Intermediate (Months 3-4): Trees, Graphs, Heaps, Hashing, Advanced Sorting, Searching",
+      "phase_3": "Advanced (Months 5-6): Dynamic Programming, Advanced Graphs, System Design, Interview Mastery"
+    },
+    "career_outcomes": [
+      "Ready for Junior Developer interviews (after 2 months)",
+      "Competitive Programming participant (after 3 months)",
+      "Mid-level interview ready (after 4 months)",
+      "FAANG interview ready (after 6 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Data Structures (Months 1-2, Weeks 1-8)",
+    "description": "Build rock-solid foundations with basic data structures, complexity analysis, and fundamental algorithms.",
+    "month_1_2": {
+      "title": "Month 1: Foundations & Linear Data Structures",
+      "weeks": "Week 1-4",
+      "week_1_2": {
+        "title": "Programming Fundamentals & Complexity Analysis",
+        "topics": [
+          "Course introduction and roadmap",
+          "Setting up coding environment (VS Code, online judges)",
+          "Introduction to problem-solving approach",
+          "Time complexity and Big O notation",
+          "Space complexity analysis",
+          "Best, average, and worst case analysis",
+          "Common complexity classes: O(1), O(log n), O(n), O(n log n), O(n²)",
+          "Analyzing nested loops",
+          "Recursion complexity analysis",
+          "Amortized analysis basics",
+          "Trade-offs: time vs space",
+          "How to approach a problem systematically"
+        ],
+        "projects": [
+          "Complexity analyzer tool",
+          "Problem-solving template creator",
+          "Personal progress tracker"
+        ],
+        "practice": "Analyze complexity of 50 code snippets",
+        "problems": [
+          "Two Sum (Easy)",
+          "Valid Parentheses (Easy)",
+          "Maximum Subarray (Easy)",
+          "Best Time to Buy and Sell Stock (Easy)",
+          "Contains Duplicate (Easy)"
+        ]
+      },
+      "week_3_4": {
+        "title": "Arrays & Strings Mastery",
+        "topics": [
+          "Static vs dynamic arrays",
+          "Array operations and complexity",
+          "Two-pointer technique",
+          "Sliding window technique",
+          "Prefix sum arrays",
+          "Kadane's algorithm",
+          "Moore's voting algorithm",
+          "String manipulation techniques",
+          "String matching algorithms",
+          "KMP algorithm basics",
+          "Rabin-Karp algorithm",
+          "Character encoding and Unicode"
+        ],
+        "projects": [
+          "Array manipulation library",
+          "String utilities toolkit",
+          "Pattern matching visualizer"
+        ],
+        "practice": "Solve 40 array/string problems",
+        "problems": [
+          "3Sum (Medium)",
+          "Container With Most Water (Medium)",
+          "Longest Substring Without Repeating Characters (Medium)",
+          "Product of Array Except Self (Medium)",
+          "Minimum Window Substring (Hard)",
+          "Trapping Rain Water (Hard)"
+        ]
+      },
+      "week_5_6": {
+        "title": "Linked Lists & Recursion",
+        "topics": [
+          "Singly linked list implementation",
+          "Doubly linked list",
+          "Circular linked list",
+          "Fast and slow pointer technique",
+          "Floyd's cycle detection",
+          "Linked list reversal (iterative and recursive)",
+          "Merge operations on linked lists",
+          "Recursion fundamentals",
+          "Base case and recursive case",
+          "Call stack and memory",
+          "Tail recursion optimization",
+          "Recursion tree analysis"
+        ],
+        "projects": [
+          "Linked list library from scratch",
+          "Recursion visualizer",
+          "Memory stack simulator"
+        ],
+        "practice": "Implement 25 linked list operations",
+        "problems": [
+          "Reverse Linked List (Easy)",
+          "Merge Two Sorted Lists (Easy)",
+          "Linked List Cycle (Easy)",
+          "Remove Nth Node From End (Medium)",
+          "Add Two Numbers (Medium)",
+          "Merge k Sorted Lists (Hard)"
+        ]
+      },
+      "week_7_8": {
+        "title": "Stacks & Queues",
+        "topics": [
+          "Stack implementation using array and linked list",
+          "Stack applications: expression evaluation, parentheses matching",
+          "Infix to postfix conversion",
+          "Queue implementation: array-based and linked list",
+          "Circular queue implementation",
+          "Deque (double-ended queue)",
+          "Priority queue basics",
+          "Monotonic stack patterns",
+          "Monotonic queue patterns",
+          "Stack and queue in recursion",
+          "BFS and DFS preview",
+          "Real-world applications"
+        ],
+        "projects": [
+          "Expression evaluator",
+          "Browser history simulator",
+          "Task scheduler with priority queue"
+        ],
+        "practice": "Build 20 stack/queue applications",
+        "problems": [
+          "Valid Parentheses (Easy)",
+          "Implement Queue using Stacks (Easy)",
+          "Min Stack (Easy)",
+          "Daily Temperatures (Medium)",
+          "Largest Rectangle in Histogram (Hard)",
+          "Sliding Window Maximum (Hard)"
+        ]
+      }
+    },
+    "month_3_4": {
+      "title": "Month 2: Searching, Sorting & Hashing",
+      "weeks": "Week 5-8",
+      "week_9_10": {
+        "title": "Searching Algorithms",
+        "topics": [
+          "Linear search and optimizations",
+          "Binary search deep dive",
+          "Binary search on answer",
+          "Search in rotated sorted array",
+          "Finding boundaries with binary search",
+          "Ternary search",
+          "Exponential search",
+          "Jump search",
+          "Interpolation search",
+          "Search in 2D matrices",
+          "Finding peak elements",
+          "Search space reduction techniques"
+        ],
+        "projects": [
+          "Search algorithm visualizer",
+          "Binary search template library",
+          "Search complexity analyzer"
+        ],
+        "practice": "Solve 30 binary search problems",
+        "problems": [
+          "Binary Search (Easy)",
+          "First Bad Version (Easy)",
+          "Search in Rotated Sorted Array (Medium)",
+          "Find Peak Element (Medium)",
+          "Search a 2D Matrix II (Medium)",
+          "Median of Two Sorted Arrays (Hard)"
+        ]
+      },
+      "week_11_12": {
+        "title": "Sorting Algorithms Mastery",
+        "topics": [
+          "Bubble sort and optimizations",
+          "Selection sort analysis",
+          "Insertion sort and when to use",
+          "Merge sort implementation",
+          "Quick sort and partitioning",
+          "Randomized quick sort",
+          "Heap sort preview",
+          "Counting sort for integers",
+          "Radix sort implementation",
+          "Bucket sort technique",
+          "Stability in sorting",
+          "External sorting for large data"
+        ],
+        "projects": [
+          "Sorting visualizer application",
+          "Hybrid sorting algorithm",
+          "Performance comparison tool"
+        ],
+        "practice": "Implement all sorting algorithms",
+        "problems": [
+          "Sort Colors (Medium)",
+          "Kth Largest Element (Medium)",
+          "Merge Intervals (Medium)",
+          "Sort List (Medium)",
+          "Maximum Gap (Hard)",
+          "Count of Smaller Numbers After Self (Hard)"
+        ]
+      },
+      "week_13_14": {
+        "title": "Hashing & Hash Tables",
+        "topics": [
+          "Hash function design",
+          "Collision resolution: chaining vs open addressing",
+          "Load factor and rehashing",
+          "Hash table implementation from scratch",
+          "Hash map vs hash set",
+          "Rolling hash technique",
+          "Consistent hashing basics",
+          "Bloom filters introduction",
+          "Hash table patterns in problems",
+          "Two-sum pattern and variations",
+          "Frequency counting with hash maps",
+          "Hash table optimization techniques"
+        ],
+        "projects": [
+          "Custom hash table implementation",
+          "LRU cache implementation",
+          "Distributed hash table simulator"
+        ],
+        "practice": "Solve 35 hashing problems",
+        "problems": [
+          "Two Sum (Easy)",
+          "Group Anagrams (Medium)",
+          "Longest Consecutive Sequence (Medium)",
+          "Subarray Sum Equals K (Medium)",
+          "LRU Cache (Medium)",
+          "Substring with Concatenation of All Words (Hard)"
+        ]
+      },
+      "week_15_16": {
+        "title": "Bit Manipulation & Mathematics",
+        "topics": [
+          "Binary number system review",
+          "Bitwise operators: AND, OR, XOR, NOT",
+          "Left shift and right shift",
+          "Bit manipulation tricks",
+          "Setting, clearing, toggling bits",
+          "Counting set bits",
+          "Power of 2 checks",
+          "XOR properties and applications",
+          "Bit masking techniques",
+          "GCD and LCM algorithms",
+          "Prime number algorithms",
+          "Modular arithmetic basics"
+        ],
+        "projects": [
+          "Bit manipulation toolkit",
+          "Number theory library",
+          "Cryptography basics implementation"
+        ],
+        "practice": "Master 25 bit manipulation techniques",
+        "problems": [
+          "Single Number (Easy)",
+          "Number of 1 Bits (Easy)",
+          "Missing Number (Easy)",
+          "Divide Two Integers (Medium)",
+          "Bitwise AND of Numbers Range (Medium)",
+          "Maximum XOR of Two Numbers (Medium)"
+        ]
+      },
+      "week_17": {
+        "title": "Phase 1 Assessment",
+        "topics": [
+          "Review of all basic data structures",
+          "Complexity analysis mastery check",
+          "Problem-solving patterns review",
+          "Mock interview problems",
+          "Code quality and optimization"
+        ],
+        "projects": [
+          "CAPSTONE: Build Your Own STL",
+          "Implement vector, list, stack, queue, unordered_map from scratch",
+          "Include iterators and common algorithms"
+        ],
+        "assessment": "Phase 1 Exam - 10 problems in 3 hours"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 3-4: Trees, Heaps & Graphs",
+      "weeks": "Week 9-17",
+      "week_18_19": {
+        "title": "Binary Trees Fundamentals",
+        "topics": [
+          "Tree terminology and properties",
+          "Binary tree representation",
+          "Tree traversals: inorder, preorder, postorder",
+          "Level order traversal (BFS)",
+          "Recursive vs iterative traversals",
+          "Morris traversal (O(1) space)",
+          "Tree construction from traversals",
+          "Diameter, height, and width of tree",
+          "Path sum problems",
+          "Lowest Common Ancestor (LCA)",
+          "Serialize and deserialize trees",
+          "Tree isomorphism"
+        ],
+        "projects": [
+          "Binary tree visualizer",
+          "Tree traversal animator",
+          "Tree problem solver toolkit"
+        ],
+        "practice": "Solve 40 binary tree problems",
+        "problems": [
+          "Maximum Depth of Binary Tree (Easy)",
+          "Invert Binary Tree (Easy)",
+          "Diameter of Binary Tree (Easy)",
+          "Binary Tree Level Order Traversal (Medium)",
+          "Validate Binary Search Tree (Medium)",
+          "Binary Tree Maximum Path Sum (Hard)"
+        ]
+      },
+      "week_20_21": {
+        "title": "Binary Search Trees & Balanced Trees",
+        "topics": [
+          "BST properties and operations",
+          "BST insertion and deletion",
+          "BST validation and searching",
+          "Inorder successor and predecessor",
+          "Convert sorted array to BST",
+          "Self-balancing trees introduction",
+          "AVL tree rotations",
+          "AVL tree implementation",
+          "Red-Black tree basics",
+          "B-trees and B+ trees overview",
+          "Segment trees introduction",
+          "Binary Indexed Tree (Fenwick Tree)"
+        ],
+        "projects": [
+          "BST implementation with all operations",
+          "AVL tree from scratch",
+          "Range query data structure"
+        ],
+        "practice": "Implement 20 BST operations",
+        "problems": [
+          "Search in a BST (Easy)",
+          "Kth Smallest Element in BST (Medium)",
+          "Delete Node in BST (Medium)",
+          "Recover Binary Search Tree (Medium)",
+          "Count of Smaller Numbers After Self (Hard)",
+          "Range Sum Query - Mutable (Medium)"
+        ]
+      },
+      "week_22_23": {
+        "title": "Heaps & Priority Queues",
+        "topics": [
+          "Heap properties: min-heap and max-heap",
+          "Heap implementation using array",
+          "Heapify operation and complexity",
+          "Heap sort implementation",
+          "Priority queue operations",
+          "Binary heap vs Fibonacci heap",
+          "K-way merge using heaps",
+          "Median finding with two heaps",
+          "Top K elements pattern",
+          "Heap applications in algorithms",
+          "Dijkstra's algorithm preview",
+          "Custom comparators in heaps"
+        ],
+        "projects": [
+          "Heap implementation from scratch",
+          "Task scheduler with priority",
+          "Real-time median finder"
+        ],
+        "practice": "Master 25 heap problems",
+        "problems": [
+          "Kth Largest Element in Array (Medium)",
+          "Top K Frequent Elements (Medium)",
+          "Find Median from Data Stream (Hard)",
+          "Merge k Sorted Lists (Hard)",
+          "Task Scheduler (Medium)",
+          "IPO (Hard)"
+        ]
+      },
+      "week_24_25": {
+        "title": "Tries & Advanced Trees",
+        "topics": [
+          "Trie data structure implementation",
+          "Trie insertion, search, and deletion",
+          "Prefix matching with tries",
+          "Auto-complete functionality",
+          "Word search in matrix using trie",
+          "Suffix trees and arrays basics",
+          "N-ary tree operations",
+          "Quad trees and Oct trees",
+          "K-d trees for spatial data",
+          "Disjoint Set Union (DSU/Union-Find)",
+          "Path compression and union by rank",
+          "Applications of DSU"
+        ],
+        "projects": [
+          "Autocomplete system",
+          "Spell checker implementation",
+          "Contact list with search"
+        ],
+        "practice": "Build 15 trie applications",
+        "problems": [
+          "Implement Trie (Medium)",
+          "Word Search II (Hard)",
+          "Design Add and Search Words (Medium)",
+          "Replace Words (Medium)",
+          "Number of Islands II (Hard)",
+          "Accounts Merge (Medium)"
+        ]
+      },
+      "week_26": {
+        "title": "Phase 2 Assessment",
+        "topics": [
+          "Trees and graphs review",
+          "Advanced data structures check",
+          "Pattern recognition in problems",
+          "Optimization techniques",
+          "Mock technical interview"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: LeetCode Clone",
+          "Build online judge with problem bank, test cases, and submission system",
+          "Include leaderboard and contest functionality"
+        ],
+        "assessment": "Phase 2 Exam - 8 problems in 3 hours"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Graphs & Advanced Algorithms (Months 3-4, Weeks 9-17)",
+    "description": "Master graph algorithms, advanced problem-solving patterns, and complex algorithmic techniques.",
+    "month_7_8": {
+      "title": "Month 3: Graph Algorithms Mastery",
+      "weeks": "Week 9-13",
+      "week_27_28": {
+        "title": "Graph Fundamentals & Traversals",
+        "topics": [
+          "Graph representations: adjacency matrix vs list",
+          "Directed vs undirected graphs",
+          "Weighted vs unweighted graphs",
+          "Graph properties: connected, cyclic, bipartite",
+          "Depth-First Search (DFS) implementation",
+          "Breadth-First Search (BFS) implementation",
+          "DFS applications: cycle detection, topological sort",
+          "BFS applications: shortest path, level order",
+          "Connected components finding",
+          "Strongly connected components (Kosaraju's, Tarjan's)",
+          "Bridges and articulation points",
+          "Graph coloring basics"
+        ],
+        "projects": [
+          "Graph visualizer with traversals",
+          "Social network analyzer",
+          "Maze solver with BFS/DFS"
+        ],
+        "practice": "Solve 35 graph traversal problems",
+        "problems": [
+          "Number of Islands (Medium)",
+          "Clone Graph (Medium)",
+          "Course Schedule (Medium)",
+          "Pacific Atlantic Water Flow (Medium)",
+          "Word Ladder (Hard)",
+          "Alien Dictionary (Hard)"
+        ]
+      },
+      "week_29_30": {
+        "title": "Shortest Path Algorithms",
+        "topics": [
+          "Dijkstra's algorithm implementation",
+          "Dijkstra's with priority queue",
+          "Bellman-Ford algorithm",
+          "Negative weight cycles detection",
+          "Floyd-Warshall algorithm",
+          "A* search algorithm basics",
+          "Shortest path in DAG",
+          "Single source vs all pairs",
+          "Path reconstruction techniques",
+          "Multi-source BFS",
+          "0-1 BFS technique",
+          "Bidirectional search"
+        ],
+        "projects": [
+          "Route finder application",
+          "Navigation system simulator",
+          "Network routing optimizer"
+        ],
+        "practice": "Implement all shortest path algorithms",
+        "problems": [
+          "Network Delay Time (Medium)",
+          "Cheapest Flights Within K Stops (Medium)",
+          "Path With Minimum Effort (Medium)",
+          "Shortest Path in Binary Matrix (Medium)",
+          "Shortest Distance from All Buildings (Hard)",
+          "Swim in Rising Water (Hard)"
+        ]
+      },
+      "week_31_32": {
+        "title": "Minimum Spanning Trees & Network Flow",
+        "topics": [
+          "Minimum Spanning Tree (MST) concept",
+          "Kruskal's algorithm with DSU",
+          "Prim's algorithm implementation",
+          "Applications of MST",
+          "Network flow introduction",
+          "Ford-Fulkerson method",
+          "Maximum flow problem",
+          "Minimum cut theorem",
+          "Bipartite matching",
+          "Hungarian algorithm basics",
+          "Stable marriage problem",
+          "Assignment problems"
+        ],
+        "projects": [
+          "Network designer tool",
+          "Resource allocation system",
+          "Matching algorithm implementation"
+        ],
+        "practice": "Solve 20 MST and flow problems",
+        "problems": [
+          "Min Cost to Connect All Points (Medium)",
+          "Number of Operations to Make Network Connected (Medium)",
+          "Optimize Water Distribution (Hard)",
+          "Couples Holding Hands (Hard)",
+          "Maximum Students Taking Exam (Hard)"
+        ]
+      },
+      "week_33_34": {
+        "title": "Advanced Graph Patterns",
+        "topics": [
+          "Topological sorting variations",
+          "Cycle detection in directed/undirected graphs",
+          "Bipartite graph checking and coloring",
+          "Eulerian path and circuit",
+          "Hamiltonian path problem",
+          "Graph dynamic programming",
+          "Tree DP on graphs",
+          "Centroid decomposition basics",
+          "Heavy-light decomposition intro",
+          "Graph compression techniques",
+          "Parallel BFS/DFS",
+          "Graph optimization problems"
+        ],
+        "projects": [
+          "Dependency resolver",
+          "Circuit board router",
+          "Tournament scheduler"
+        ],
+        "practice": "Master 25 advanced graph patterns",
+        "problems": [
+          "Is Graph Bipartite? (Medium)",
+          "Redundant Connection (Medium)",
+          "Critical Connections in Network (Hard)",
+          "Number of Ways to Arrive at Destination (Medium)",
+          "Parallel Courses III (Hard)"
+        ]
+      },
+      "week_35": {
+        "title": "String Algorithms Advanced",
+        "topics": [
+          "KMP algorithm implementation",
+          "Z-algorithm for pattern matching",
+          "Rabin-Karp with rolling hash",
+          "Boyer-Moore algorithm",
+          "Suffix arrays construction",
+          "Longest Common Prefix array",
+          "Manacher's algorithm for palindromes",
+          "Edit distance algorithms",
+          "Longest common subsequence/substring",
+          "String hashing techniques",
+          "Suffix automaton basics",
+          "Aho-Corasick algorithm"
+        ],
+        "projects": [
+          "Text editor with find/replace",
+          "Plagiarism detector",
+          "DNA sequence analyzer"
+        ],
+        "practice": "Implement 15 string algorithms",
+        "problems": [
+          "Implement strStr() (Easy)",
+          "Longest Palindromic Substring (Medium)",
+          "Edit Distance (Hard)",
+          "Distinct Subsequences (Hard)",
+          "Shortest Palindrome (Hard)"
+        ]
+      }
+    },
+    "month_9_10": {
+      "title": "Month 4: Dynamic Programming Mastery",
+      "weeks": "Week 14-17",
+      "week_36_37": {
+        "title": "Dynamic Programming Fundamentals",
+        "topics": [
+          "Introduction to dynamic programming",
+          "Recursion to DP transition",
+          "Memoization techniques",
+          "Top-down vs bottom-up approach",
+          "1D DP patterns",
+          "State definition in DP",
+          "Fibonacci variations",
+          "Climbing stairs variations",
+          "House robber pattern",
+          "Jump game problems",
+          "Decode ways pattern",
+          "DP space optimization"
+        ],
+        "projects": [
+          "DP visualizer tool",
+          "Recursion tree analyzer",
+          "DP pattern identifier"
+        ],
+        "practice": "Solve 40 basic DP problems",
+        "problems": [
+          "Climbing Stairs (Easy)",
+          "House Robber (Medium)",
+          "Decode Ways (Medium)",
+          "Jump Game II (Medium)",
+          "Unique Paths (Medium)",
+          "Paint House (Medium)"
+        ]
+      },
+      "week_38_39": {
+        "title": "2D Dynamic Programming",
+        "topics": [
+          "2D DP table construction",
+          "Grid-based DP problems",
+          "Path counting in grids",
+          "Longest common subsequence",
+          "Edit distance problem",
+          "0/1 Knapsack problem",
+          "Unbounded knapsack",
+          "Subset sum problems",
+          "Matrix chain multiplication",
+          "Palindrome partitioning",
+          "Regular expression matching",
+          "Wildcard matching"
+        ],
+        "projects": [
+          "Sequence alignment tool",
+          "Knapsack optimizer",
+          "Pattern matcher implementation"
+        ],
+        "practice": "Master 35 2D DP problems",
+        "problems": [
+          "Unique Paths II (Medium)",
+          "Longest Common Subsequence (Medium)",
+          "Coin Change (Medium)",
+          "0/1 Knapsack (Medium)",
+          "Regular Expression Matching (Hard)",
+          "Edit Distance (Hard)"
+        ]
+      },
+      "week_40_41": {
+        "title": "Advanced DP Patterns",
+        "topics": [
+          "State machine DP",
+          "DP on trees",
+          "DP with bitmasking",
+          "Digit DP technique",
+          "Probability DP",
+          "Game theory and DP",
+          "Interval DP pattern",
+          "String DP problems",
+          "DP optimization techniques",
+          "Convex hull trick",
+          "Divide and conquer optimization",
+          "Knuth-Yao speedup"
+        ],
+        "projects": [
+          "Stock trading simulator with DP",
+          "Game AI using minimax",
+          "Optimal strategy finder"
+        ],
+        "practice": "Solve 30 advanced DP problems",
+        "problems": [
+          "Best Time to Buy and Sell Stock IV (Hard)",
+          "Burst Balloons (Hard)",
+          "Stone Game (Medium)",
+          "Partition to K Equal Sum Subsets (Medium)",
+          "Traveling Salesman Problem (Hard)",
+          "Count Different Palindromic Subsequences (Hard)"
+        ]
+      },
+      "week_42_43": {
+        "title": "Greedy Algorithms & Optimization",
+        "topics": [
+          "Greedy algorithm principles",
+          "When greedy works: proof techniques",
+          "Activity selection problem",
+          "Huffman coding",
+          "Fractional knapsack",
+          "Job scheduling problems",
+          "Interval scheduling maximization",
+          "Minimum platforms problem",
+          "Gas station circuit problem",
+          "Jump game greedy approach",
+          "Greedy vs DP comparison",
+          "Exchange argument proof"
+        ],
+        "projects": [
+          "Task scheduler optimizer",
+          "Huffman compression tool",
+          "Resource allocator"
+        ],
+        "practice": "Master 25 greedy problems",
+        "problems": [
+          "Jump Game (Medium)",
+          "Gas Station (Medium)",
+          "Non-overlapping Intervals (Medium)",
+          "Queue Reconstruction by Height (Medium)",
+          "Candy (Hard)",
+          "IPO (Hard)"
+        ]
+      },
+      "week_44": {
+        "title": "Backtracking & Branch and Bound",
+        "topics": [
+          "Backtracking fundamentals",
+          "State space tree",
+          "N-Queens problem",
+          "Sudoku solver",
+          "Subset generation",
+          "Permutation generation",
+          "Combination sum problems",
+          "Word search in grid",
+          "Graph coloring with backtracking",
+          "Branch and bound technique",
+          "Pruning strategies",
+          "Optimization in backtracking"
+        ],
+        "projects": [
+          "Sudoku solver application",
+          "N-Queens visualizer",
+          "Constraint satisfaction solver"
+        ],
+        "practice": "Implement 20 backtracking solutions",
+        "problems": [
+          "Subsets (Medium)",
+          "Permutations (Medium)",
+          "N-Queens (Hard)",
+          "Sudoku Solver (Hard)",
+          "Word Search II (Hard)",
+          "Remove Invalid Parentheses (Hard)"
+        ]
+      }
+    },
+    "month_11_12": {
+      "title": "Months 5-6: Advanced Topics & Interview Preparation",
+      "weeks": "Week 18-26",
+      "week_45_46": {
+        "title": "Advanced Algorithms",
+        "topics": [
+          "Divide and conquer mastery",
+          "Master theorem for recurrence",
+          "Fast Fourier Transform basics",
+          "Karatsuba multiplication",
+          "Strassen's matrix multiplication",
+          "Closest pair of points",
+          "Convex hull algorithms",
+          "Line sweep technique",
+          "Mo's algorithm basics",
+          "Square root decomposition",
+          "Heavy-light decomposition",
+          "Centroid decomposition"
+        ],
+        "projects": [
+          "Computational geometry library",
+          "Big integer calculator",
+          "Algorithm complexity analyzer"
+        ],
+        "practice": "Implement 15 advanced algorithms",
+        "problems": [
+          "Count of Smaller Numbers After Self (Hard)",
+          "Reverse Pairs (Hard)",
+          "Max Points on a Line (Hard)",
+          "The Skyline Problem (Hard)",
+          "Count of Range Sum (Hard)"
+        ]
+      },
+      "week_47_48": {
+        "title": "System Design Basics for Interviews",
+        "topics": [
+          "System design interview approach",
+          "Scalability basics",
+          "Load balancing concepts",
+          "Caching strategies",
+          "Database design basics",
+          "SQL vs NoSQL",
+          "Microservices overview",
+          "API design principles",
+          "Rate limiting algorithms",
+          "Consistent hashing",
+          "Distributed systems basics",
+          "CAP theorem introduction"
+        ],
+        "projects": [
+          "URL shortener design",
+          "Rate limiter implementation",
+          "Simple cache system"
+        ],
+        "practice": "Design 10 systems",
+        "problems": [
+          "Design HashMap (Easy)",
+          "Design Linked List (Medium)",
+          "LRU Cache (Medium)",
+          "Design Twitter (Medium)",
+          "Design Search Autocomplete System (Hard)"
+        ]
+      },
+      "week_49_50": {
+        "title": "Competitive Programming",
+        "topics": [
+          "Competitive programming platforms",
+          "Contest strategies and time management",
+          "Fast I/O techniques",
+          "Template preparation",
+          "Common CP patterns",
+          "Number theory for CP",
+          "Combinatorics in problems",
+          "Game theory basics",
+          "Interactive problems",
+          "Debugging techniques",
+          "Test case generation",
+          "Stress testing solutions"
+        ],
+        "projects": [
+          "CP template library",
+          "Contest simulator",
+          "Test case generator"
+        ],
+        "practice": "Participate in 10 contests",
+        "problems": [
+          "Participate in Codeforces rounds",
+          "AtCoder Beginner Contests",
+          "LeetCode Weekly Contests",
+          "Google Kick Start rounds",
+          "Facebook Hacker Cup"
+        ]
+      },
+      "week_51": {
+        "title": "Mock Interviews & Behavioral Prep",
+        "topics": [
+          "Interview preparation strategy",
+          "Company-specific preparation",
+          "Behavioral interview questions",
+          "STAR method for answers",
+          "System design interview practice",
+          "Coding interview best practices",
+          "Whiteboard coding techniques",
+          "Communication during interviews",
+          "Handling difficult problems",
+          "Time management in interviews",
+          "Post-interview follow-up",
+          "Salary negotiation basics"
+        ],
+        "projects": [
+          "Interview preparation checklist",
+          "Behavioral answer bank",
+          "Company research template"
+        ],
+        "practice": "Complete 20 mock interviews"
+      },
+      "week_52": {
+        "title": "Phase 3 Final Assessment",
+        "topics": [
+          "Comprehensive review",
+          "Weak area identification",
+          "Advanced problem solving",
+          "Speed coding practice",
+          "Final mock interviews"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Algorithm Visualizer Platform",
+          "Build interactive platform with 50+ algorithm visualizations",
+          "Include step-by-step execution and complexity analysis"
+        ],
+        "assessment": "Final Exam - 6 problems in 3 hours (FAANG level)"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Interview Mastery & Career Launch (Months 5-6, Weeks 18-26)",
+    "description": "Master interview skills, tackle company-specific problems, and launch your tech career.",
+    "month_13_14": {
+      "title": "Month 5: Company-Specific Preparation",
+      "weeks": "Week 18-22",
+      "week_53_54": {
+        "title": "Google Interview Preparation",
+        "topics": [
+          "Google interview process overview",
+          "Google's evaluation criteria",
+          "Googliness and Leadership",
+          "Common Google problem patterns",
+          "Array and string manipulation focus",
+          "Graph algorithms emphasis",
+          "Dynamic programming at Google",
+          "System design at Google scale",
+          "Google coding style guide",
+          "Time complexity requirements",
+          "Follow-up questions handling",
+          "Google behavioral questions"
+        ],
+        "projects": [
+          "Google-style problem solver",
+          "MapReduce implementation",
+          "PageRank algorithm"
+        ],
+        "practice": "Solve 50 Google tagged problems",
+        "problems": [
+          "License Key Formatting",
+          "Fruit Into Baskets",
+          "Longest String Chain",
+          "Decode String",
+          "Android Unlock Patterns",
+          "Google Calendar API Design"
+        ]
+      },
+      "week_55_56": {
+        "title": "Amazon Interview Preparation",
+        "topics": [
+          "Amazon interview process",
+          "Leadership Principles deep dive",
+          "Amazon problem-solving approach",
+          "Object-oriented design at Amazon",
+          "Scalability focus",
+          "Two-pointer and sliding window emphasis",
+          "Tree and graph problems",
+          "Amazon system design topics",
+          "Working backwards methodology",
+          "Bar raiser round preparation",
+          "Amazon behavioral questions",
+          "STAR format examples"
+        ],
+        "projects": [
+          "E-commerce system design",
+          "Recommendation engine",
+          "Warehouse robot pathfinding"
+        ],
+        "practice": "Solve 50 Amazon tagged problems",
+        "problems": [
+          "Two Sum (Multiple Solutions)",
+          "Number of Islands variations",
+          "LRU Cache implementation",
+          "Design Amazon Locker",
+          "K Closest Points to Origin",
+          "Amazon Fresh Delivery"
+        ]
+      },
+      "week_57_58": {
+        "title": "Meta (Facebook) Preparation",
+        "topics": [
+          "Meta interview structure",
+          "Ninja, Pirate, Jedi expectations",
+          "Meta's focus areas",
+          "Array and string heavy problems",
+          "BFS/DFS variations",
+          "Dynamic programming patterns",
+          "Design Facebook features",
+          "Meta's behavioral assessment",
+          "Move fast philosophy",
+          "Impact-focused answers",
+          "Coding signal importance",
+          "System design for social networks"
+        ],
+        "projects": [
+          "Social network features",
+          "News feed algorithm",
+          "Friend recommendation system"
+        ],
+        "practice": "Solve 50 Meta tagged problems",
+        "problems": [
+          "Valid Palindrome variations",
+          "Merge Intervals extensions",
+          "Binary Tree paths",
+          "Design Facebook Messenger",
+          "Random Pick with Weight",
+          "Accounts Merge"
+        ]
+      },
+      "week_59_60": {
+        "title": "Microsoft & Apple Preparation",
+        "topics": [
+          "Microsoft interview approach",
+          "Problem-solving communication",
+          "Microsoft stack questions",
+          "Linked list and tree focus",
+          "String manipulation problems",
+          "Apple interview process",
+          "Quality and attention to detail",
+          "iOS/macOS specific questions",
+          "Design patterns emphasis",
+          "Both companies' behavioral focus",
+          "Growth mindset demonstration",
+          "Innovation and creativity"
+        ],
+        "projects": [
+          "Operating system scheduler",
+          "File system design",
+          "Music streaming service"
+        ],
+        "practice": "Solve 40 MS/Apple problems",
+        "problems": [
+          "Reverse Linked List variations",
+          "Serialize and Deserialize BST",
+          "Excel Sheet Column Number",
+          "Design Apple Music",
+          "Find Celebrity",
+          "Spiral Matrix"
+        ]
+      },
+      "week_61": {
+        "title": "Startup & Unicorn Preparation",
+        "topics": [
+          "Startup interview differences",
+          "Full-stack expectations",
+          "Practical coding tests",
+          "Take-home assignments",
+          "System design for startups",
+          "Real-world problem solving",
+          "API design and implementation",
+          "Database design questions",
+          "DevOps and deployment",
+          "Startup culture fit",
+          "Ownership and initiative",
+          "Rapid iteration mindset"
+        ],
+        "projects": [
+          "MVP product design",
+          "Real-time collaboration tool",
+          "Payment processing system"
+        ],
+        "practice": "Complete 3 take-home projects"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 6: Final Polish & Career Launch",
+      "weeks": "Week 23-26",
+      "week_62_63": {
+        "title": "Advanced Problem Patterns",
+        "topics": [
+          "Multi-threaded programming problems",
+          "Concurrency and locks",
+          "Design patterns in problems",
+          "Object-oriented design problems",
+          "Database query problems",
+          "SQL in interviews",
+          "Machine learning basics for interviews",
+          "Security-related problems",
+          "Cryptography basics",
+          "Blockchain basic problems",
+          "Mobile-specific problems",
+          "Real-time system problems"
+        ],
+        "projects": [
+          "Thread-safe data structures",
+          "Distributed lock manager",
+          "Real-time chat system"
+        ],
+        "practice": "Solve 30 advanced mixed problems",
+        "problems": [
+          "Web Crawler Multithreaded",
+          "Design Thread Pool",
+          "Implement Blockchain",
+          "Design Uber",
+          "Stock Price Fluctuation",
+          "Design Google Drive"
+        ]
+      },
+      "week_64_65": {
+        "title": "Interview Week Simulation",
+        "topics": [
+          "Full day interview simulation",
+          "Multiple rounds back-to-back",
+          "Phone screen practice",
+          "Technical rounds practice",
+          "System design rounds",
+          "Behavioral rounds",
+          "Hiring manager rounds",
+          "Lunch interview practice",
+          "Stress management techniques",
+          "Energy management",
+          "Recovery between rounds",
+          "End-of-day strategies"
+        ],
+        "projects": [
+          "Complete interview portfolio",
+          "Problem solution database",
+          "Personal story bank"
+        ],
+        "practice": "5 full interview simulations"
+      },
+      "week_66_67": {
+        "title": "Soft Skills & Communication",
+        "topics": [
+          "Technical communication skills",
+          "Explaining complex concepts simply",
+          "Asking clarifying questions",
+          "Requirements gathering",
+          "Trade-off discussions",
+          "Collaborative problem solving",
+          "Handling hints effectively",
+          "Dealing with stuck situations",
+          "Time management during interviews",
+          "Body language and confidence",
+          "Virtual interview best practices",
+          "Follow-up communication"
+        ],
+        "projects": [
+          "Technical presentation",
+          "Code review exercise",
+          "Team project simulation"
+        ],
+        "practice": "Record and review 10 problem explanations"
+      },
+      "week_68_69": {
+        "title": "Career Strategy & Negotiation",
+        "topics": [
+          "Job search strategies",
+          "Resume optimization for ATS",
+          "LinkedIn profile optimization",
+          "Cover letter writing",
+          "Portfolio website creation",
+          "GitHub profile enhancement",
+          "Networking strategies",
+          "Referral seeking techniques",
+          "Offer evaluation framework",
+          "Salary negotiation tactics",
+          "Benefits comparison",
+          "Career growth planning"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "Optimized resume versions",
+          "LinkedIn article publishing"
+        ],
+        "practice": "Apply to 20 positions strategically"
+      },
+      "week_70": {
+        "title": "Final Week & Graduation",
+        "topics": [
+          "Final assessment preparation",
+          "Comprehensive review",
+          "Weak area strengthening",
+          "Success stories sharing",
+          "Alumni network introduction",
+          "Continued learning resources",
+          "Community building",
+          "Mentorship opportunities",
+          "Interview scheduling tips",
+          "First day preparation",
+          "Long-term career planning",
+          "Celebration and reflection"
+        ],
+        "projects": [
+          "FINAL CAPSTONE PRESENTATION",
+          "Complete DSA learning platform showcase",
+          "500+ problems solved portfolio"
+        ],
+        "assessment": "Final Certification Exam - Comprehensive DSA assessment"
+      }
+    },
+    "month_17_18": {
+      "title": "Bonus Content: Specialized Topics",
+      "weeks": "Additional Resources",
+      "week_71_72": {
+        "title": "Machine Learning Algorithms",
+        "topics": [
+          "ML algorithms basics",
+          "K-means clustering",
+          "KNN implementation",
+          "Decision trees basics",
+          "Linear regression",
+          "Gradient descent",
+          "Neural network basics",
+          "Feature engineering",
+          "Cross-validation",
+          "Confusion matrix",
+          "Precision and recall",
+          "ML system design"
+        ],
+        "projects": [
+          "Simple ML classifier",
+          "Recommendation system",
+          "Anomaly detection"
+        ],
+        "practice": "Implement 10 ML algorithms"
+      },
+      "week_73_74": {
+        "title": "Parallel & Distributed Algorithms",
+        "topics": [
+          "Parallel algorithm design",
+          "MapReduce paradigm",
+          "Distributed sorting",
+          "Consensus algorithms",
+          "Leader election",
+          "Distributed hash tables",
+          "Consistent hashing implementation",
+          "Gossip protocols",
+          "Vector clocks",
+          "CAP theorem deep dive",
+          "Distributed transactions",
+          "Two-phase commit"
+        ],
+        "projects": [
+          "MapReduce framework",
+          "Distributed cache",
+          "Consensus protocol"
+        ],
+        "practice": "Design 5 distributed systems"
+      },
+      "week_75_76": {
+        "title": "Security & Cryptography",
+        "topics": [
+          "Cryptographic hash functions",
+          "SHA implementation",
+          "Public key cryptography basics",
+          "RSA algorithm basics",
+          "Digital signatures",
+          "Merkle trees",
+          "Blockchain fundamentals",
+          "Security in algorithms",
+          "Side-channel attacks",
+          "Secure coding practices",
+          "OWASP top 10",
+          "Security interview questions"
+        ],
+        "projects": [
+          "Simple blockchain",
+          "Password manager",
+          "Encryption tool"
+        ],
+        "practice": "Implement 5 security algorithms"
+      },
+      "week_77": {
+        "title": "Quantum Computing Basics",
+        "topics": [
+          "Quantum computing introduction",
+          "Qubits and superposition",
+          "Quantum gates",
+          "Shor's algorithm overview",
+          "Grover's algorithm basics",
+          "Quantum complexity classes",
+          "BQP vs NP",
+          "Quantum supremacy",
+          "Current limitations",
+          "Future of quantum algorithms",
+          "Quantum-resistant cryptography",
+          "Learning resources"
+        ],
+        "projects": [
+          "Quantum circuit simulator",
+          "Grover's algorithm demo",
+          "Quantum concepts visualizer"
+        ],
+        "practice": "Explore 5 quantum algorithms"
+      },
+      "week_78": {
+        "title": "Research & Innovation",
+        "topics": [
+          "Reading research papers",
+          "Latest algorithmic advances",
+          "Contributing to research",
+          "Open problems in CS",
+          "P vs NP introduction",
+          "Approximation algorithms",
+          "Randomized algorithms advanced",
+          "Online algorithms",
+          "Streaming algorithms",
+          "External memory algorithms",
+          "Cache-oblivious algorithms",
+          "Future trends"
+        ],
+        "projects": [
+          "Research paper implementation",
+          "Novel algorithm proposal",
+          "Optimization improvement"
+        ],
+        "practice": "Read and implement 3 research papers"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "CONTINUOUS LEARNING: Beyond the Course",
+    "description": "Lifetime learning resources and advanced pathways",
+    "month_19_20": {
+      "title": "Competitive Programming Mastery",
+      "weeks": "Ongoing",
+      "week_79_80": {
+        "title": "Codeforces & TopCoder",
+        "topics": [
+          "Rating improvement strategies",
+          "Div 1 problem approaches",
+          "Speed coding techniques",
+          "Virtual contest practice",
+          "Editorial understanding",
+          "Solution optimization",
+          "Test case debugging",
+          "Hacks and challenges",
+          "Community interaction",
+          "Becoming red coder",
+          "TopCoder SRM strategies",
+          "Marathon matches"
+        ],
+        "projects": [
+          "Reach Expert on Codeforces",
+          "TopCoder rating goals",
+          "Solution archive"
+        ],
+        "practice": "Daily practice routine"
+      },
+      "week_81_82": {
+        "title": "Google Competitions",
+        "topics": [
+          "Google Code Jam preparation",
+          "Kick Start strategies",
+          "Hash Code team formation",
+          "Problem analysis techniques",
+          "Optimization strategies",
+          "Large dataset handling",
+          "Distributed Code Jam",
+          "Time management",
+          "Solution verification",
+          "Post-contest analysis",
+          "Learning from top solutions",
+          "Building consistency"
+        ],
+        "projects": [
+          "Code Jam qualification",
+          "Kick Start ranking improvement",
+          "Hash Code team project"
+        ],
+        "practice": "Past years' problems"
+      },
+      "week_83_84": {
+        "title": "ICPC Preparation",
+        "topics": [
+          "Team formation strategies",
+          "Role distribution",
+          "Problem categorization",
+          "Speed solving techniques",
+          "Team communication",
+          "Contest strategy",
+          "Regional preparation",
+          "World Finals level problems",
+          "Geometry problems",
+          "Number theory advanced",
+          "String processing advanced",
+          "DP optimization techniques"
+        ],
+        "projects": [
+          "Team practice sessions",
+          "Mock ICPC contests",
+          "Solution notebook"
+        ],
+        "practice": "Weekly team contests"
+      },
+      "week_85_86": {
+        "title": "Open Source Contributions",
+        "topics": [
+          "Finding algorithm projects",
+          "Understanding large codebases",
+          "Contributing guidelines",
+          "Pull request best practices",
+          "Code review participation",
+          "Documentation improvements",
+          "Bug fixes and features",
+          "Test case contributions",
+          "Performance improvements",
+          "Algorithm library development",
+          "Maintaining projects",
+          "Building reputation"
+        ],
+        "projects": [
+          "Contribute to 5 projects",
+          "Start algorithm library",
+          "Maintain DSA resource"
+        ],
+        "practice": "Monthly contributions"
+      },
+      "week_87": {
+        "title": "Teaching & Mentoring",
+        "topics": [
+          "Creating educational content",
+          "YouTube channel strategies",
+          "Blog writing for algorithms",
+          "Course creation basics",
+          "Mentoring beginners",
+          "Code review skills",
+          "Problem explanation techniques",
+          "Visual content creation",
+          "Building community",
+          "Monetization options",
+          "Building authority",
+          "Giving back to community"
+        ],
+        "projects": [
+          "Algorithm blog/channel",
+          "Mentorship program",
+          "Educational platform"
+        ],
+        "practice": "Weekly content creation"
+      }
+    },
+    "month_21_22": {
+      "title": "Industry Applications",
+      "weeks": "Specialization Paths",
+      "week_88_89": {
+        "title": "Algorithms in Production",
+        "topics": [
+          "Real-world optimizations",
+          "A/B testing algorithms",
+          "Performance monitoring",
+          "Algorithm metrics",
+          "Debugging production issues",
+          "Scaling algorithms",
+          "Caching strategies",
+          "Database query optimization",
+          "API algorithm design",
+          "Microservices algorithms",
+          "Event-driven algorithms",
+          "Real-time processing"
+        ],
+        "projects": [
+          "Production algorithm suite",
+          "Performance dashboard",
+          "Optimization toolkit"
+        ],
+        "practice": "Optimize 10 production systems"
+      },
+      "week_90_91": {
+        "title": "Research & Development",
+        "topics": [
+          "PhD opportunities",
+          "Research areas in algorithms",
+          "Publishing papers",
+          "Conference participation",
+          "Grant writing basics",
+          "Collaboration strategies",
+          "Patent considerations",
+          "Industry R&D roles",
+          "Innovation frameworks",
+          "Emerging technologies",
+          "Quantum algorithms future",
+          "Career in research"
+        ],
+        "projects": [
+          "Research proposal",
+          "Paper submission",
+          "Patent application"
+        ],
+        "practice": "Research contribution"
+      },
+      "week_92_93": {
+        "title": "Entrepreneurship Path",
+        "topics": [
+          "Algorithm-based startups",
+          "Identifying opportunities",
+          "MVP development",
+          "Technical co-founder role",
+          "Funding strategies",
+          "Patent strategies",
+          "Building tech team",
+          "Scaling challenges",
+          "Algorithm as service",
+          "Consulting opportunities",
+          "Product development",
+          "Exit strategies"
+        ],
+        "projects": [
+          "Startup idea validation",
+          "MVP development",
+          "Business plan"
+        ],
+        "practice": "Build startup prototype"
+      },
+      "week_94_95": {
+        "title": "Specialized Domains",
+        "topics": [
+          "Bioinformatics algorithms",
+          "Financial algorithms",
+          "Gaming algorithms",
+          "Robotics algorithms",
+          "Computer vision algorithms",
+          "NLP algorithms",
+          "Recommendation systems",
+          "Search engine algorithms",
+          "Blockchain algorithms",
+          "IoT algorithms",
+          "Edge computing algorithms",
+          "Domain expertise building"
+        ],
+        "projects": [
+          "Domain-specific project",
+          "Industry collaboration",
+          "Specialized certification"
+        ],
+        "practice": "Explore 3 domains deeply"
+      },
+      "week_96": {
+        "title": "Lifetime Learning Plan",
+        "topics": [
+          "Staying updated",
+          "Annual learning goals",
+          "Skill assessment methods",
+          "New language learning",
+          "Framework exploration",
+          "Conference attendance",
+          "Network building",
+          "Mentorship circles",
+          "Personal branding",
+          "Knowledge sharing",
+          "Community leadership",
+          "Legacy building"
+        ],
+        "projects": [
+          "5-year learning roadmap",
+          "Annual review system",
+          "Knowledge repository"
+        ],
+        "practice": "Continuous improvement"
+      }
+    },
+    "month_23": {
+      "title": "Resources & Community",
+      "weeks": "Lifetime Access",
+      "week_97": {
+        "title": "Learning Resources",
+        "topics": [
+          "Book recommendations",
+          "Online course platforms",
+          "YouTube channels",
+          "Podcasts for algorithms",
+          "Research paper sources",
+          "Practice platforms",
+          "Visualization tools",
+          "IDE and tools setup",
+          "Chrome extensions",
+          "Mobile apps for practice",
+          "Cheat sheets and notes",
+          "Reference materials"
+        ],
+        "projects": [
+          "Personal resource library",
+          "Tool configuration",
+          "Study material organization"
+        ],
+        "practice": "Resource curation"
+      },
+      "week_98": {
+        "title": "Community Building",
+        "topics": [
+          "Discord/Slack communities",
+          "Local meetup groups",
+          "Online study groups",
+          "Accountability partners",
+          "Code review groups",
+          "Mock interview circles",
+          "Competitive programming teams",
+          "Open source communities",
+          "Alumni networks",
+          "Professional associations",
+          "Conference communities",
+          "Social media presence"
+        ],
+        "projects": [
+          "Join 5 communities",
+          "Start local chapter",
+          "Organize meetup"
+        ],
+        "practice": "Active participation"
+      },
+      "week_99": {
+        "title": "Success Metrics",
+        "topics": [
+          "Progress tracking methods",
+          "Skill assessment tools",
+          "Interview success rate",
+          "Problem-solving speed",
+          "Contest rankings",
+          "GitHub contributions",
+          "Teaching effectiveness",
+          "Career progression",
+          "Salary benchmarks",
+          "Personal satisfaction",
+          "Impact measurement",
+          "Goal achievement"
+        ],
+        "projects": [
+          "Personal dashboard",
+          "Progress tracker",
+          "Achievement portfolio"
+        ],
+        "practice": "Monthly assessments"
+      },
+      "week_100": {
+        "title": "Alumni Network",
+        "topics": [
+          "Alumni benefits",
+          "Networking events",
+          "Job referrals",
+          "Mentorship program",
+          "Guest lectures",
+          "Industry connections",
+          "Startup collaborations",
+          "Research partnerships",
+          "Continuous education",
+          "Exclusive resources",
+          "Community projects",
+          "Giving back"
+        ],
+        "projects": [
+          "Alumni profile",
+          "Contribution plan",
+          "Network expansion"
+        ],
+        "practice": "Stay connected"
+      }
+    },
+    "month_24": {
+      "title": "Final Resources",
+      "weeks": "Quick Reference",
+      "week_101_102": {
+        "title": "Interview Cheat Sheets",
+        "topics": [
+          "Time complexity table",
+          "Space complexity reference",
+          "Common patterns list",
+          "Problem approach templates",
+          "Edge cases checklist",
+          "Testing strategies",
+          "Communication tips",
+          "Behavioral answers",
+          "System design checklist",
+          "Company research template",
+          "Day-of interview tips",
+          "Post-interview actions"
+        ],
+        "projects": [
+          "Personal cheat sheet",
+          "Interview toolkit",
+          "Quick reference guide"
+        ]
+      },
+      "week_103": {
+        "title": "Problem Categories",
+        "topics": [
+          "Array problems list",
+          "String problems list",
+          "Tree problems list",
+          "Graph problems list",
+          "DP problems list",
+          "Heap problems list",
+          "Greedy problems list",
+          "Backtracking list",
+          "Bit manipulation list",
+          "Math problems list",
+          "Design problems list",
+          "SQL problems list"
+        ],
+        "deliverables": [
+          "Categorized problem bank",
+          "Solution templates",
+          "Pattern reference"
+        ]
+      },
+      "week_104": {
+        "title": "Career Milestones",
+        "topics": [
+          "First job preparation",
+          "3-month goals",
+          "6-month targets",
+          "1-year objectives",
+          "Promotion criteria",
+          "Skill development",
+          "Leadership growth",
+          "Technical expertise",
+          "Domain knowledge",
+          "Compensation growth",
+          "Career pivots",
+          "Long-term vision"
+        ],
+        "deliverables": [
+          "Career roadmap",
+          "Milestone tracker",
+          "Success journal"
+        ],
+        "assessment": "LIFETIME ACCESS - Continuous support and updates"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Data Structure Library, Algorithm Visualizer, Complexity Analyzer",
+      "Phase 2: Graph Algorithms Suite, DP Problem Solver, String Processor",
+      "Phase 3: LeetCode Clone, Interview Prep Platform, Contest Simulator",
+      "Final: Complete DSA Learning Platform with 500+ Problems"
+    ],
+    "total_projects_built": "15+ major projects and 100+ mini implementations",
+    "skills_mastered": [
+      "Data Structures: Arrays, Linked Lists, Trees, Graphs, Heaps, Tries, Advanced Trees",
+      "Algorithms: Sorting, Searching, Graph Algorithms, DP, Greedy, Backtracking",
+      "Techniques: Two Pointers, Sliding Window, Fast-Slow, Divide & Conquer",
+      "Analysis: Time/Space Complexity, Amortized Analysis, Proof Techniques",
+      "Problem Solving: Pattern Recognition, Edge Cases, Optimization",
+      "Interview Skills: Communication, System Design, Behavioral Responses",
+      "Competitive Programming: Contest Strategies, Speed Coding, Debugging",
+      "Languages: Primary (Python/C++/Java), Secondary (JavaScript)",
+      "Tools: LeetCode, HackerRank, Codeforces, Git, VS Code, Debuggers"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-6 hours",
+      "problem_solving": "8-10 hours",
+      "implementation": "3-4 hours",
+      "mock_interviews": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving sessions",
+      "mentorship": "1-on-1 guidance from FAANG engineers",
+      "community": "Active Discord with 24/7 support",
+      "code_review": "Solution review and optimization tips",
+      "mock_interviews": "Bi-weekly mock interview practice",
+      "career_support": "Resume review and referrals",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "DSA Mastery & Interview Ready Certification",
+      "linkedin_badge": "Verifiable LinkedIn credential",
+      "industry_recognized": "Recognized by tech companies",
+      "portfolio_projects": "500+ solved problems portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic programming knowledge helpful",
+    "coding_experience": "Can write simple programs (loops, conditions)",
+    "equipment": "Computer with internet connection",
+    "time_commitment": "15-20 hours per week",
+    "english": "Good comprehension required",
+    "motivation": "Strong desire to excel in technical interviews"
+  },
+  "who_is_this_for": {
+    "students": "CS students preparing for placements",
+    "working_professionals": "Developers preparing for job switch",
+    "competitive_programmers": "Want to improve contest performance",
+    "self_learners": "Want structured DSA learning path",
+    "bootcamp_graduates": "Need CS fundamentals",
+    "career_switchers": "Breaking into tech",
+    "anyone": "Passionate about problem-solving"
+  },
+  "career_paths_after_completion": [
+    "Software Development Engineer (SDE)",
+    "Full Stack Developer",
+    "Backend Engineer",
+    "Frontend Engineer",
+    "Mobile Developer",
+    "DevOps Engineer",
+    "Machine Learning Engineer",
+    "Competitive Programmer",
+    "Technical Interview Coach",
+    "Algorithm Researcher",
+    "System Architect",
+    "Technical Lead"
+  ],
+  "salary_expectations": {
+    "after_2_months": "Ready for ₹5-10 LPA roles",
+    "after_4_months": "Ready for ₹10-20 LPA roles",
+    "after_6_months": "Ready for ₹15-40+ LPA roles",
+    "faang_ready": "₹25-60+ LPA packages",
+    "international": "$100k-250k+ USD",
+    "competitive_programming": "Prize money + opportunities"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Interview preparation and referrals",
+    "lifetime_updates": "Free access to new problems and content",
+    "mentorship": "Guidance from FAANG engineers",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "500+ problems solved with solutions"
+  }
+}

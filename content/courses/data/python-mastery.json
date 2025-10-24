@@ -1,0 +1,1580 @@
+{
+  "meta": {
+    "slug": "python-programming-masterclass-zero-to-advanced",
+    "title": "Complete Python Programming Masterclass - Zero to Advanced Professional",
+    "description": "The most comprehensive 1-year Python programming masterclass. From absolute basics to advanced professional skills. Master Python fundamentals, web development, data science, automation, AI/ML, and everything in between. For all ages - kids, teens, and adults.",
+    "keywords": [
+      "python programming",
+      "python masterclass",
+      "learn python",
+      "python for beginners",
+      "python web development",
+      "data science python",
+      "machine learning",
+      "python automation",
+      "Django",
+      "Flask",
+      "pandas",
+      "NumPy",
+      "python certification",
+      "python career",
+      "python for kids",
+      "advanced python"
+    ],
+    "category": "Professional Python Programming",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹24,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Professional",
+    "commitment": "12-15 hours/week recommended",
+    "certification": "Industry-recognized Python Developer certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Python Programming Masterclass",
+    "tagline": "From 'Hello World' to AI-Powered Production Applications",
+    "description": "This is not just a Python course—it's a complete career transformation program. Whether you're a curious 10-year-old, a student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Python developer capable of building web applications, analyzing data, automating tasks, creating AI models, and solving real-world problems.\n\nYou'll master Python from ground zero to advanced professional level: from basic syntax to complex algorithms, from simple scripts to production web applications, from data analysis to machine learning, from automation to cloud deployment. By the end, you'll have built 30+ projects, mastered multiple Python frameworks, and be ready for professional developer roles across multiple domains.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - perfect for all ages (10+ years)",
+      "Separate learning tracks for kids, teens, and adults",
+      "1 year of structured, progressive learning",
+      "Covers Python for web dev, data science, automation, and AI",
+      "Real industry projects and real-world applications",
+      "Age-appropriate teaching methodologies",
+      "Career guidance and certification",
+      "Lifetime access and continuous updates",
+      "Build impressive portfolio across multiple domains"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Programming Basics, Python Fundamentals, Problem Solving",
+      "phase_2": "Intermediate (Months 4-6): Data Structures, Algorithms, OOP, File Handling, Testing",
+      "phase_3": "Advanced (Months 7-9): Web Development (Django/Flask), Databases, APIs, Automation",
+      "phase_4": "Professional (Months 10-12): Data Science, Machine Learning, DevOps, Cloud, Specializations"
+    },
+    "career_outcomes": [
+      "Junior Python Developer (after 3 months)",
+      "Python Developer / Automation Engineer (after 6 months)",
+      "Full Stack Python Developer / Data Analyst (after 9 months)",
+      "Senior Python Developer / Data Scientist / ML Engineer (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Python Skills (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid Python fundamentals. Learn programming logic, master Python syntax, and create your first applications.",
+    "month_1_2": {
+      "title": "Months 1-2: Python Fundamentals & Programming Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Programming & Python Setup",
+        "topics": [
+          "What is programming? How computers understand code",
+          "Why Python? History, features, and popularity",
+          "Python applications: web, data science, AI, automation, games",
+          "Python 3 installation (Windows, Mac, Linux)",
+          "Setting up development environment: VS Code, PyCharm",
+          "Running Python: interactive shell vs script files",
+          "IDLE, Jupyter Notebook, and Google Colab introduction",
+          "Your first Python program: print('Hello World')",
+          "Python syntax rules and code structure",
+          "Comments: single-line (#) and multi-line (''')",
+          "Indentation and its importance in Python",
+          "Python PEP 8 style guide basics"
+        ],
+        "projects": [
+          "Hello World variations (personalized greetings)",
+          "Simple calculator using print statements",
+          "About Me program (display personal information)",
+          "ASCII art creator"
+        ],
+        "practice": "Daily: 30 min typing practice, write 5 simple print programs"
+      },
+      "week_3_4": {
+        "title": "Variables, Data Types & Operators",
+        "topics": [
+          "Variables: naming rules and conventions",
+          "Assignment operator (=) and multiple assignments",
+          "Data types: int, float, string, boolean",
+          "Type checking with type() function",
+          "Type conversion: int(), float(), str(), bool()",
+          "Arithmetic operators: +, -, *, /, //, %, **",
+          "Comparison operators: ==, !=, >, <, >=, <=",
+          "Logical operators: and, or, not",
+          "Assignment operators: +=, -=, *=, /=",
+          "String basics: creation, concatenation, repetition",
+          "String indexing and slicing [start:stop:step]",
+          "F-strings and string formatting (format(), %)"
+        ],
+        "projects": [
+          "Temperature converter (Celsius/Fahrenheit)",
+          "Age calculator with days, hours, minutes",
+          "Simple interest calculator",
+          "BMI (Body Mass Index) calculator",
+          "Tip calculator with bill splitting"
+        ],
+        "practice": "Solve 25 problems on variables, data types, and operators"
+      },
+      "week_5_6": {
+        "title": "Control Flow: Conditions & Loops",
+        "topics": [
+          "Boolean expressions and truthiness",
+          "If statement: basic conditional execution",
+          "If-else: two-way branching",
+          "If-elif-else: multi-way branching",
+          "Nested if statements",
+          "Ternary operator (conditional expression)",
+          "While loop: condition-based repetition",
+          "Infinite loops and break statement",
+          "Continue statement to skip iterations",
+          "For loop: iterating over sequences",
+          "Range function: range(start, stop, step)",
+          "Nested loops and loop patterns"
+        ],
+        "projects": [
+          "Number guessing game with attempts",
+          "Grade calculator with letter grades",
+          "Even/odd number checker",
+          "Multiplication table generator",
+          "Pattern printing (stars, pyramids, diamonds)",
+          "Simple password validator",
+          "FizzBuzz challenge"
+        ],
+        "practice": "Solve 30 conditional and loop problems"
+      },
+      "week_7_8": {
+        "title": "Functions & Modular Programming",
+        "topics": [
+          "What are functions? DRY principle",
+          "Defining functions with 'def' keyword",
+          "Parameters and arguments (positional, keyword)",
+          "Return statement and return values",
+          "Multiple return values (tuples)",
+          "Default parameter values",
+          "Variable scope: local vs global",
+          "Global and nonlocal keywords",
+          "Docstrings for function documentation",
+          "*args for variable positional arguments",
+          "**kwargs for variable keyword arguments",
+          "Lambda functions (anonymous functions)",
+          "Built-in functions: len, sum, max, min, abs, round"
+        ],
+        "projects": [
+          "Function library for common calculations",
+          "Password strength checker function",
+          "Text analyzer (word count, character count)",
+          "Prime number checker and generator",
+          "Palindrome checker",
+          "Simple quiz game with scoring",
+          "Unit converter (length, weight, temperature)"
+        ],
+        "practice": "Create 20 different utility functions"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Data Structures & String Manipulation",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Lists & List Operations",
+        "topics": [
+          "Lists: creating and accessing elements",
+          "List indexing (positive and negative)",
+          "List slicing: extracting sublists",
+          "List methods: append, insert, extend",
+          "Removing elements: remove, pop, clear",
+          "List methods: sort, reverse, copy",
+          "index() and count() methods",
+          "List comprehensions: compact list creation",
+          "Nested lists (2D lists, matrices)",
+          "Iterating lists with for loops",
+          "Enumerate function for index-value pairs",
+          "List vs tuple: mutability difference"
+        ],
+        "projects": [
+          "Todo list application (add, remove, display)",
+          "Shopping cart system",
+          "Student grade manager",
+          "Number list statistics (average, min, max)",
+          "List sorting and searching programs",
+          "Tic-tac-toe board representation"
+        ],
+        "practice": "Solve 25 list manipulation problems"
+      },
+      "week_11_12": {
+        "title": "Tuples, Sets & Dictionaries",
+        "topics": [
+          "Tuples: immutable sequences",
+          "Tuple packing and unpacking",
+          "Tuple methods: count, index",
+          "When to use tuples vs lists",
+          "Sets: unordered unique collections",
+          "Set operations: union, intersection, difference",
+          "Set methods: add, remove, discard, clear",
+          "Dictionaries: key-value pairs",
+          "Accessing, adding, updating dictionary items",
+          "Dictionary methods: keys(), values(), items()",
+          "get() method with default values",
+          "Dictionary comprehensions",
+          "Nested dictionaries for complex data"
+        ],
+        "projects": [
+          "Contact book (name, phone, email)",
+          "Word frequency counter",
+          "Student database with grades",
+          "Inventory management system",
+          "English-Spanish dictionary translator",
+          "Vote counting system"
+        ],
+        "practice": "Build 10 projects using dictionaries and sets"
+      },
+      "week_13": {
+        "title": "Advanced String Manipulation",
+        "topics": [
+          "String methods: upper, lower, title, capitalize",
+          "strip, lstrip, rstrip for whitespace removal",
+          "find, index, count methods",
+          "replace method for string substitution",
+          "split and join methods",
+          "startswith and endswith methods",
+          "String validation: isalpha, isdigit, isalnum",
+          "String formatting: old style, format(), f-strings",
+          "Multi-line strings and raw strings",
+          "String immutability and string building",
+          "Regular expressions introduction (re module)",
+          "Common string algorithms"
+        ],
+        "projects": [
+          "Text processing utility",
+          "Email validator",
+          "Acronym generator",
+          "Caesar cipher encryption/decryption",
+          "Word game (hangman basics)",
+          "Log file parser",
+          "PHASE 1 MINI CAPSTONE: Command-line text adventure game"
+        ],
+        "practice": "Solve 20 string manipulation challenges",
+        "assessment": "Phase 1 Assessment - Programming fundamentals test"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Intermediate Python & Algorithm Mastery (Months 4-6, Weeks 14-26)",
+    "description": "Master data structures, algorithms, object-oriented programming, file handling, and testing.",
+    "month_7_8": {
+      "title": "Months 4-5: Object-Oriented Programming & Advanced Concepts",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Introduction to OOP Concepts",
+        "topics": [
+          "What is Object-Oriented Programming?",
+          "Classes and objects: blueprint and instances",
+          "Creating classes with 'class' keyword",
+          "The __init__ constructor method",
+          "Instance variables (attributes)",
+          "Instance methods",
+          "Self parameter explained",
+          "Creating and using objects",
+          "Class vs instance attributes",
+          "Class methods with @classmethod decorator",
+          "Static methods with @staticmethod decorator",
+          "__str__ and __repr__ magic methods"
+        ],
+        "projects": [
+          "Bank account class with deposit/withdraw",
+          "Student class with grades management",
+          "Book class for library system",
+          "Car class with properties and methods",
+          "Rectangle/Circle classes with area calculation"
+        ],
+        "practice": "Create 15 different classes modeling real-world objects"
+      },
+      "week_29_30": {
+        "title": "OOP Principles: Inheritance & Polymorphism",
+        "topics": [
+          "Inheritance: parent and child classes",
+          "Method overriding in child classes",
+          "Super() function to call parent methods",
+          "Multiple inheritance",
+          "Method Resolution Order (MRO)",
+          "Polymorphism: same interface, different implementation",
+          "Duck typing in Python",
+          "Abstract base classes (ABC module)",
+          "Encapsulation: public, protected, private",
+          "Name mangling with double underscore",
+          "Property decorators: @property, @setter",
+          "Composition vs inheritance"
+        ],
+        "projects": [
+          "Animal hierarchy (Animal -> Dog, Cat, Bird)",
+          "Employee management system (Employee -> Manager, Developer)",
+          "Shape calculator with inheritance",
+          "Vehicle rental system",
+          "Game character classes with different abilities"
+        ],
+        "practice": "Build 10 class hierarchies with inheritance"
+      },
+      "week_31_32": {
+        "title": "File Handling & Exception Handling",
+        "topics": [
+          "Opening files: open() function and modes (r, w, a, r+)",
+          "Reading files: read(), readline(), readlines()",
+          "Writing to files: write(), writelines()",
+          "With statement for automatic file closing",
+          "File paths: absolute vs relative",
+          "Working with CSV files",
+          "JSON file handling: json.dump(), json.load()",
+          "Exception handling: try-except blocks",
+          "Catching specific exceptions",
+          "Multiple except blocks",
+          "Else and finally clauses",
+          "Raising exceptions with 'raise'",
+          "Creating custom exceptions"
+        ],
+        "projects": [
+          "Note-taking app with file persistence",
+          "Contact manager with CSV storage",
+          "Configuration file reader/writer",
+          "Log file analyzer",
+          "Student records system with JSON",
+          "Error-safe calculator"
+        ],
+        "practice": "Build 8 file-based applications"
+      },
+      "week_33_34": {
+        "title": "Modules, Packages & Standard Library",
+        "topics": [
+          "Importing modules: import, from...import",
+          "Creating custom modules",
+          "Module search path and PYTHONPATH",
+          "Packages and __init__.py",
+          "Creating package structures",
+          "Math module: mathematical functions",
+          "Random module: random numbers and choices",
+          "Datetime module: working with dates and times",
+          "OS module: operating system interface",
+          "Sys module: system-specific parameters",
+          "Collections module: deque, Counter, defaultdict",
+          "Itertools module: efficient iterators"
+        ],
+        "projects": [
+          "Dice rolling simulator with statistics",
+          "Birthday reminder application",
+          "File organizer using os module",
+          "Random password generator",
+          "Custom utility package creation",
+          "Date calculator (age, days between dates)"
+        ],
+        "practice": "Explore 15 standard library modules"
+      },
+      "week_35": {
+        "title": "Comprehensions & Functional Programming",
+        "topics": [
+          "List comprehensions with conditions",
+          "Nested list comprehensions",
+          "Dictionary comprehensions",
+          "Set comprehensions",
+          "Generator expressions",
+          "Map function for transformations",
+          "Filter function for filtering",
+          "Reduce function for aggregation",
+          "Lambda functions in functional programming",
+          "Zip function for parallel iteration",
+          "All and any functions",
+          "Sorted function with key parameter"
+        ],
+        "projects": [
+          "Data transformation pipeline",
+          "List processing utilities",
+          "Functional calculator",
+          "Data filtering and analysis tool"
+        ],
+        "practice": "Solve 30 comprehension and functional programming problems"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Algorithms, Data Structures & Testing",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Algorithms & Problem Solving",
+        "topics": [
+          "Algorithm complexity: Big O notation basics",
+          "Searching algorithms: linear search",
+          "Binary search algorithm",
+          "Sorting algorithms: bubble sort",
+          "Selection sort and insertion sort",
+          "Merge sort and quick sort basics",
+          "Recursion: base case and recursive case",
+          "Recursive problem solving",
+          "Fibonacci sequence (iterative vs recursive)",
+          "Factorial calculation",
+          "Tower of Hanoi",
+          "Dynamic programming introduction"
+        ],
+        "projects": [
+          "Custom sorting algorithm implementation",
+          "Binary search tree basics",
+          "Recursive file directory traversal",
+          "Algorithm visualization program",
+          "Performance comparison of algorithms"
+        ],
+        "practice": "Solve 40 algorithm problems on platforms like LeetCode/HackerRank"
+      },
+      "week_38_39": {
+        "title": "Advanced Data Structures",
+        "topics": [
+          "Stacks: LIFO principle, implementation",
+          "Stack applications: parenthesis matching",
+          "Queues: FIFO principle, implementation",
+          "Deque (double-ended queue)",
+          "Linked lists: singly linked list",
+          "Doubly linked list",
+          "Trees: binary tree basics",
+          "Tree traversal: inorder, preorder, postorder",
+          "Hash tables and hash functions",
+          "Graphs: representation and basics",
+          "Graph traversal: BFS and DFS",
+          "Choosing right data structure"
+        ],
+        "projects": [
+          "Stack-based calculator",
+          "Queue simulation (ticket counter)",
+          "Linked list implementation",
+          "Binary search tree operations",
+          "Graph representation and traversal"
+        ],
+        "practice": "Implement 8 core data structures from scratch"
+      },
+      "week_40_41": {
+        "title": "Testing & Debugging",
+        "topics": [
+          "Why testing matters",
+          "Manual testing vs automated testing",
+          "Unit testing with unittest module",
+          "Test cases and assertions",
+          "SetUp and tearDown methods",
+          "Pytest framework introduction",
+          "Writing pytest test functions",
+          "Test fixtures in pytest",
+          "Parameterized testing",
+          "Code coverage with coverage.py",
+          "Debugging techniques in Python",
+          "Using Python debugger (pdb)",
+          "Logging with logging module"
+        ],
+        "projects": [
+          "Test suite for calculator",
+          "Testing OOP classes",
+          "Testing file operations",
+          "TDD (Test-Driven Development) mini project",
+          "Debugging exercise solutions"
+        ],
+        "practice": "Write tests for all previous projects"
+      },
+      "week_42_43": {
+        "title": "Advanced Python Features",
+        "topics": [
+          "Decorators: function decorators",
+          "Creating custom decorators",
+          "Class decorators",
+          "Decorators with arguments",
+          "Generators and yield keyword",
+          "Generator functions vs generator expressions",
+          "Iterators and __iter__, __next__",
+          "Context managers and 'with' statement",
+          "Creating context managers with __enter__, __exit__",
+          "Metaclasses basics",
+          "Operator overloading",
+          "Magic methods (__add__, __len__, __getitem__, etc.)"
+        ],
+        "projects": [
+          "Custom decorator library",
+          "File reader with generators",
+          "Custom iterator implementation",
+          "Context manager for database/file handling",
+          "Vector class with operator overloading"
+        ],
+        "practice": "Master decorators, generators, and magic methods with 20 exercises"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Object-oriented design",
+          "Algorithm implementation",
+          "File-based data persistence",
+          "Error handling throughout",
+          "Unit testing",
+          "Code documentation"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Library Management System (OOP-based)",
+          "Features: Books, members, lending, returns, fines, search, file storage, testing",
+          "Alternative: School Management System",
+          "Alternative: Banking System with multiple account types",
+          "Alternative: E-commerce Inventory System"
+        ],
+        "assessment": "Phase 2 Final Exam - OOP, algorithms, and testing"
+      }
+    },
+    "month_11_12": {
+      "title": "PHASE 2 CONTINUED - This section adapts to Python context",
+      "weeks": "Week 14-26 (distributed across months 4-6)",
+      "week_45_46": {
+        "title": "Version Control with Git & GitHub",
+        "topics": [
+          "What is version control?",
+          "Git installation and setup",
+          "Git basic commands: init, add, commit",
+          "Git workflow: working directory, staging, repository",
+          "Checking status and history: status, log",
+          "Branches: creating and switching",
+          "Merging branches",
+          "Handling merge conflicts",
+          "Remote repositories: GitHub",
+          "Push, pull, clone operations",
+          "GitHub collaboration basics",
+          ".gitignore file for Python projects"
+        ],
+        "projects": [
+          "Initialize Git for existing projects",
+          "Create GitHub repository",
+          "Collaborate on shared repository",
+          "Open source contribution preparation"
+        ],
+        "practice": "Use Git for all future projects"
+      },
+      "week_47_48": {
+        "title": "Virtual Environments & Package Management",
+        "topics": [
+          "Why virtual environments?",
+          "Venv module for creating environments",
+          "Activating and deactivating environments",
+          "Pip package manager",
+          "Installing packages with pip",
+          "Requirements.txt file",
+          "Pip freeze for dependency tracking",
+          "Pipenv for advanced package management",
+          "Poetry package manager",
+          "Publishing packages to PyPI",
+          "Creating setup.py for distribution",
+          "Best practices for Python projects"
+        ],
+        "projects": [
+          "Set up virtual environment for each project",
+          "Create installable Python package",
+          "Dependency management practice",
+          "Publish simple package to Test PyPI"
+        ],
+        "practice": "Set up professional project structure"
+      },
+      "week_49_50": {
+        "title": "Regular Expressions & Text Processing",
+        "topics": [
+          "Regular expressions (regex) introduction",
+          "Re module in Python",
+          "Basic patterns: literals, wildcards",
+          "Character classes and ranges",
+          "Quantifiers: *, +, ?, {n,m}",
+          "Anchors: ^, $, \\b",
+          "Groups and capturing",
+          "Search, match, findall, finditer",
+          "Substitution with sub() and subn()",
+          "Regex flags: IGNORECASE, MULTILINE",
+          "Common regex patterns",
+          "Real-world text processing"
+        ],
+        "projects": [
+          "Email validator with regex",
+          "Phone number formatter",
+          "URL extractor from text",
+          "Log file parser",
+          "Data extraction from unstructured text",
+          "Password strength validator (advanced)"
+        ],
+        "practice": "Solve 25 regex challenges"
+      },
+      "week_51": {
+        "title": "Working with APIs & Web Scraping Basics",
+        "topics": [
+          "What are APIs? REST API basics",
+          "HTTP methods: GET, POST, PUT, DELETE",
+          "Requests library for HTTP",
+          "Making GET requests",
+          "Parsing JSON responses",
+          "Query parameters and headers",
+          "POST requests with data",
+          "API authentication basics",
+          "Web scraping introduction",
+          "BeautifulSoup library",
+          "Parsing HTML structure",
+          "Ethics and legality of web scraping"
+        ],
+        "projects": [
+          "Weather app using OpenWeatherMap API",
+          "Currency converter with API",
+          "GitHub profile viewer",
+          "Quote generator from API",
+          "Simple web scraper for news headlines"
+        ],
+        "practice": "Integrate 5 different public APIs"
+      },
+      "week_52": {
+        "title": "Concurrency & Parallel Programming",
+        "topics": [
+          "Concurrency vs parallelism",
+          "Threading basics with threading module",
+          "Creating and starting threads",
+          "Thread synchronization",
+          "Multiprocessing module",
+          "Process creation and management",
+          "Pool for parallel execution",
+          "AsyncIO for asynchronous programming",
+          "Async/await syntax",
+          "Concurrent.futures module",
+          "ThreadPoolExecutor and ProcessPoolExecutor",
+          "When to use threading vs multiprocessing"
+        ],
+        "projects": [
+          "Multi-threaded file downloader",
+          "Parallel data processing",
+          "Async web scraper",
+          "CPU-intensive task with multiprocessing"
+        ],
+        "practice": "Optimize slow programs with concurrency"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Web Development, Databases & Automation (Months 7-9, Weeks 27-39)",
+    "description": "Master web development with Django/Flask, databases, REST APIs, web scraping, and automation.",
+    "month_13_14": {
+      "title": "Months 7-8: Web Development with Flask & Django",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Flask Web Framework Fundamentals",
+        "topics": [
+          "Introduction to web development",
+          "Flask installation and setup",
+          "Creating first Flask application",
+          "Routes and URL mapping",
+          "Dynamic routes with variables",
+          "HTTP methods: GET and POST",
+          "Request and response objects",
+          "Rendering templates with Jinja2",
+          "Template inheritance and blocks",
+          "Static files: CSS, JavaScript, images",
+          "Form handling in Flask",
+          "Flask sessions and cookies"
+        ],
+        "projects": [
+          "Personal blog with Flask",
+          "Todo application with web interface",
+          "Contact form application",
+          "Simple URL shortener",
+          "Portfolio website with Flask"
+        ],
+        "practice": "Build 5 Flask web applications"
+      },
+      "week_55_56": {
+        "title": "Flask Advanced & REST APIs",
+        "topics": [
+          "Flask Blueprints for modular apps",
+          "Application factory pattern",
+          "Configuration management",
+          "Error handling and custom error pages",
+          "Flask-WTF for forms",
+          "Form validation",
+          "Building RESTful APIs with Flask",
+          "Flask-RESTful extension",
+          "JSON responses",
+          "API versioning",
+          "CORS handling",
+          "API documentation with Swagger"
+        ],
+        "projects": [
+          "RESTful API for blog",
+          "Task management API",
+          "User authentication API",
+          "E-commerce product API",
+          "Weather API wrapper service"
+        ],
+        "practice": "Build 5 REST APIs with Flask"
+      },
+      "week_57_58": {
+        "title": "Django Web Framework Fundamentals",
+        "topics": [
+          "Django introduction and philosophy",
+          "Django installation and project creation",
+          "Django project vs app structure",
+          "MVT (Model-View-Template) architecture",
+          "URL routing and URL patterns",
+          "Views: function-based views",
+          "Class-based views",
+          "Django templates and template language",
+          "Template filters and tags",
+          "Static files in Django",
+          "Django admin interface",
+          "Django settings and configuration"
+        ],
+        "projects": [
+          "Blog application with Django",
+          "Portfolio website",
+          "Simple CMS (Content Management System)",
+          "News aggregator",
+          "Personal diary application"
+        ],
+        "practice": "Build 5 Django web applications"
+      },
+      "week_59_60": {
+        "title": "Django Models & Database",
+        "topics": [
+          "Django ORM (Object-Relational Mapping)",
+          "Defining models and fields",
+          "Field types and options",
+          "Database migrations: makemigrations, migrate",
+          "QuerySet API: all, filter, get",
+          "Field lookups and query expressions",
+          "Related objects: ForeignKey, ManyToMany",
+          "OneToOne relationships",
+          "Model managers and custom managers",
+          "Model methods and properties",
+          "Admin customization",
+          "Database optimization and select_related"
+        ],
+        "projects": [
+          "E-commerce product catalog",
+          "Social media data models",
+          "School management system",
+          "Library database with relationships",
+          "Recipe sharing platform"
+        ],
+        "practice": "Design 10 complex database schemas with Django"
+      },
+      "week_61": {
+        "title": "Django Forms & User Authentication",
+        "topics": [
+          "Django forms and form fields",
+          "ModelForm for automatic form generation",
+          "Form validation and cleaning",
+          "Custom validators",
+          "Django authentication system",
+          "User model and user creation",
+          "Login and logout views",
+          "Password management",
+          "User registration",
+          "Permission and authorization",
+          "User groups and permissions",
+          "Custom user model"
+        ],
+        "projects": [
+          "User registration and login system",
+          "Profile management application",
+          "Multi-user blog platform",
+          "Forum with user accounts",
+          "Social network user system"
+        ],
+        "practice": "Add authentication to all Django projects"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Databases, ORMs & Advanced Web Topics",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "SQL Databases with Python",
+        "topics": [
+          "Relational database concepts review",
+          "SQLite with Python: sqlite3 module",
+          "Connecting to databases",
+          "Creating tables with SQL",
+          "CRUD operations with Python",
+          "Parameterized queries for security",
+          "PostgreSQL with psycopg2",
+          "MySQL with PyMySQL or mysql-connector",
+          "SQLAlchemy ORM introduction",
+          "Defining models with SQLAlchemy",
+          "Session management",
+          "Querying with SQLAlchemy"
+        ],
+        "projects": [
+          "Database management CLI tool",
+          "Data migration scripts",
+          "SQLAlchemy-based application",
+          "Multi-database application",
+          "Database backup utility"
+        ],
+        "practice": "Build 5 database-driven applications"
+      },
+      "week_64_65": {
+        "title": "NoSQL Databases & MongoDB",
+        "topics": [
+          "NoSQL database types",
+          "MongoDB introduction",
+          "Installing MongoDB",
+          "PyMongo: Python MongoDB driver",
+          "Connecting to MongoDB",
+          "CRUD operations in MongoDB",
+          "Querying documents",
+          "Aggregation pipeline",
+          "Indexing for performance",
+          "MongoEngine ODM",
+          "Defining document schemas",
+          "When to use NoSQL vs SQL"
+        ],
+        "projects": [
+          "MongoDB-based blog",
+          "Product catalog with MongoDB",
+          "Analytics data storage",
+          "User activity tracking system",
+          "Document management system"
+        ],
+        "practice": "Build 5 MongoDB applications"
+      },
+      "week_66_67": {
+        "title": "Django REST Framework & API Development",
+        "topics": [
+          "Django REST Framework (DRF) introduction",
+          "Serializers for data conversion",
+          "API views: function-based and class-based",
+          "ViewSets and routers",
+          "Authentication: token, session, JWT",
+          "Permissions and authorization",
+          "Pagination for large datasets",
+          "Filtering and searching",
+          "API versioning strategies",
+          "Testing APIs with DRF",
+          "API documentation with drf-spectacular",
+          "CORS configuration"
+        ],
+        "projects": [
+          "Complete blog API with DRF",
+          "E-commerce REST API",
+          "Social media API",
+          "Task management API",
+          "Real-time chat API backend"
+        ],
+        "practice": "Build 5 production-ready APIs"
+      },
+      "week_68_69": {
+        "title": "Web Scraping & Automation",
+        "topics": [
+          "Advanced BeautifulSoup techniques",
+          "Navigating HTML tree",
+          "CSS selectors for scraping",
+          "Scrapy framework introduction",
+          "Creating Scrapy spiders",
+          "Item pipelines for data processing",
+          "Scrapy selectors and XPath",
+          "Handling pagination",
+          "Selenium for dynamic websites",
+          "WebDriver automation",
+          "Headless browsing",
+          "Ethics, robots.txt, and rate limiting"
+        ],
+        "projects": [
+          "News scraper with BeautifulSoup",
+          "E-commerce price tracker",
+          "Job listings aggregator with Scrapy",
+          "Social media scraper (ethical)",
+          "Automated form filler with Selenium"
+        ],
+        "practice": "Build 8 scraping and automation projects"
+      },
+      "week_70": {
+        "title": "Task Automation & Scripting",
+        "topics": [
+          "File and folder automation",
+          "Batch file processing",
+          "PDF manipulation with PyPDF2",
+          "Excel automation with openpyxl",
+          "CSV data processing",
+          "Email automation with smtplib",
+          "Scheduling tasks with schedule library",
+          "System administration scripts",
+          "Desktop automation with PyAutoGUI",
+          "Clipboard automation",
+          "Screenshot and image manipulation",
+          "Building CLI tools with Click/argparse"
+        ],
+        "projects": [
+          "File organizer automation",
+          "Excel report generator",
+          "Email sender with attachments",
+          "PDF merger and splitter",
+          "Automated backup system",
+          "Desktop notification system",
+          "System monitoring script"
+        ],
+        "practice": "Create 10 automation scripts for daily tasks"
+      }
+    },
+    "month_17_18": {
+      "title": "PHASE 3 COMPLETION - Month 9 Continued",
+      "weeks": "Week 27-39 (distributed)",
+      "week_71_72": {
+        "title": "Deployment & Production Best Practices",
+        "topics": [
+          "Preparing Django/Flask for production",
+          "Environment variables and secrets",
+          "Debug mode and security settings",
+          "Static files in production",
+          "Database configuration for production",
+          "Gunicorn and uWSGI web servers",
+          "Nginx as reverse proxy",
+          "Deployment to Heroku",
+          "Deployment to PythonAnywhere",
+          "Deployment to DigitalOcean/AWS EC2",
+          "Docker basics for Python applications",
+          "Creating Dockerfile for Python apps"
+        ],
+        "projects": [
+          "Deploy Flask app to Heroku",
+          "Deploy Django app to production",
+          "Dockerize Python web application",
+          "Set up CI/CD for Python project",
+          "Production-ready deployment checklist"
+        ],
+        "practice": "Deploy all web projects to production"
+      },
+      "week_73_74": {
+        "title": "Security Best Practices",
+        "topics": [
+          "Common web vulnerabilities (OWASP Top 10)",
+          "SQL injection prevention",
+          "Cross-Site Scripting (XSS) prevention",
+          "CSRF protection in Django/Flask",
+          "Secure password hashing",
+          "JWT token security",
+          "HTTPS and SSL certificates",
+          "Input validation and sanitization",
+          "Rate limiting APIs",
+          "Security headers",
+          "Dependency vulnerability scanning",
+          "Environment security best practices"
+        ],
+        "projects": [
+          "Security audit of existing projects",
+          "Implement security measures in APIs",
+          "Password security analyzer",
+          "Vulnerability scanner script"
+        ],
+        "practice": "Security-harden all web applications"
+      },
+      "week_75_76": {
+        "title": "Performance Optimization & Caching",
+        "topics": [
+          "Python code profiling",
+          "cProfile and line_profiler",
+          "Memory profiling",
+          "Database query optimization",
+          "Django Debug Toolbar",
+          "N+1 query problem and solutions",
+          "Caching strategies",
+          "Django caching framework",
+          "Redis for caching",
+          "Celery for background tasks",
+          "Asynchronous task queues",
+          "Load testing with Locust"
+        ],
+        "projects": [
+          "Optimize slow Django application",
+          "Implement caching layer",
+          "Background task processing with Celery",
+          "Performance monitoring dashboard",
+          "Load testing suite"
+        ],
+        "practice": "Optimize and cache all applications"
+      },
+      "week_77": {
+        "title": "Real-time Applications & WebSockets",
+        "topics": [
+          "WebSocket protocol basics",
+          "Django Channels for WebSockets",
+          "Channels layers and Redis",
+          "Real-time chat implementation",
+          "Broadcasting messages",
+          "Flask-SocketIO for real-time",
+          "Async consumers in Django",
+          "Real-time notifications",
+          "Live updates and dashboards",
+          "Scaling WebSocket applications"
+        ],
+        "projects": [
+          "Real-time chat application",
+          "Live notification system",
+          "Collaborative editor",
+          "Real-time dashboard with live data",
+          "Multiplayer game backend"
+        ],
+        "practice": "Add real-time features to previous projects"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Full-stack web application",
+          "Database design and optimization",
+          "REST API development",
+          "Authentication and authorization",
+          "Real-time features",
+          "Production deployment",
+          "Security implementation",
+          "Performance optimization"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Complete Social Media Platform",
+          "Features: User auth, posts, comments, likes, followers, real-time chat, notifications, media upload, REST API",
+          "Alternative: E-commerce Platform (products, cart, checkout, orders, admin)",
+          "Alternative: Project Management Tool (teams, projects, tasks, real-time collaboration)",
+          "Alternative: Learning Management System (courses, students, assignments, progress tracking)"
+        ],
+        "assessment": "Phase 3 Final Exam - Web development comprehensive test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Data Science, Machine Learning & Professional Skills (Months 10-12, Weeks 40-52)",
+    "description": "Master data science, machine learning, AI, cloud computing, and professional development practices.",
+    "month_19_20": {
+      "title": "Months 10-11: Data Science & Machine Learning",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Data Science Fundamentals with NumPy",
+        "topics": [
+          "Introduction to data science",
+          "NumPy installation and basics",
+          "NumPy arrays vs Python lists",
+          "Array creation methods",
+          "Array indexing and slicing",
+          "Array reshaping and transposing",
+          "Mathematical operations on arrays",
+          "Broadcasting in NumPy",
+          "Statistical functions",
+          "Linear algebra with NumPy",
+          "Random number generation",
+          "Saving and loading NumPy arrays"
+        ],
+        "projects": [
+          "Statistical calculator with NumPy",
+          "Matrix operations program",
+          "Grade analysis system",
+          "Financial calculations",
+          "Scientific computing tasks"
+        ],
+        "practice": "Solve 30 NumPy exercises"
+      },
+      "week_81_82": {
+        "title": "Data Analysis with Pandas",
+        "topics": [
+          "Pandas introduction and installation",
+          "Series and DataFrame objects",
+          "Reading data: CSV, Excel, JSON",
+          "Data exploration: head, tail, info, describe",
+          "Indexing and selecting data",
+          "Filtering and boolean indexing",
+          "Sorting and ranking",
+          "Handling missing data",
+          "Data aggregation and groupby",
+          "Merging and joining DataFrames",
+          "Pivot tables",
+          "Data visualization basics with Pandas"
+        ],
+        "projects": [
+          "Sales data analysis",
+          "Student performance analysis",
+          "COVID-19 data analysis",
+          "Stock market data analyzer",
+          "Survey data processing"
+        ],
+        "practice": "Analyze 10 real-world datasets"
+      },
+      "week_83_84": {
+        "title": "Data Visualization with Matplotlib & Seaborn",
+        "topics": [
+          "Matplotlib introduction",
+          "Line plots and customization",
+          "Scatter plots and bar charts",
+          "Histograms and pie charts",
+          "Subplots and figure layout",
+          "Customizing plots: colors, labels, legends",
+          "Seaborn for statistical visualization",
+          "Distribution plots",
+          "Categorical plots",
+          "Heatmaps and correlation matrices",
+          "Pair plots",
+          "Styling and themes"
+        ],
+        "projects": [
+          "Sales visualization dashboard",
+          "Weather data visualization",
+          "Sports statistics visualizer",
+          "Financial charts and graphs",
+          "Scientific data plotter"
+        ],
+        "practice": "Create 20 different types of visualizations"
+      },
+      "week_85_86": {
+        "title": "Machine Learning Fundamentals",
+        "topics": [
+          "Introduction to machine learning",
+          "Types: supervised, unsupervised, reinforcement",
+          "Scikit-learn library introduction",
+          "Train-test split",
+          "Linear regression",
+          "Model evaluation metrics",
+          "Classification: Logistic Regression",
+          "K-Nearest Neighbors (KNN)",
+          "Decision Trees",
+          "Random Forests",
+          "Feature scaling and normalization",
+          "Cross-validation"
+        ],
+        "projects": [
+          "House price prediction",
+          "Iris flower classification",
+          "Customer churn prediction",
+          "Spam email classifier",
+          "Diabetes prediction model"
+        ],
+        "practice": "Build 10 ML models on different datasets"
+      },
+      "week_87": {
+        "title": "Advanced Machine Learning",
+        "topics": [
+          "Support Vector Machines (SVM)",
+          "Clustering: K-Means",
+          "Hierarchical clustering",
+          "Dimensionality reduction: PCA",
+          "Model selection and hyperparameter tuning",
+          "Grid search and random search",
+          "Ensemble methods",
+          "Handling imbalanced datasets",
+          "Feature engineering",
+          "Model deployment basics",
+          "Saving models with pickle/joblib",
+          "ML pipeline creation"
+        ],
+        "projects": [
+          "Customer segmentation",
+          "Image classification basic",
+          "Recommendation system",
+          "Anomaly detection system",
+          "Complete ML pipeline"
+        ],
+        "practice": "Advanced ML projects on Kaggle"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Deep Learning, Cloud & Professional Skills",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Deep Learning with TensorFlow/Keras",
+        "topics": [
+          "Introduction to neural networks",
+          "Deep learning frameworks overview",
+          "TensorFlow and Keras installation",
+          "Building neural networks with Keras",
+          "Activation functions",
+          "Loss functions and optimizers",
+          "Training neural networks",
+          "Validation and overfitting",
+          "Convolutional Neural Networks (CNN) basics",
+          "Image classification with CNN",
+          "Transfer learning",
+          "Model saving and loading"
+        ],
+        "projects": [
+          "Handwritten digit recognition (MNIST)",
+          "Image classifier",
+          "Sentiment analysis with neural networks",
+          "Object detection basics",
+          "Deep learning web app"
+        ],
+        "practice": "Build 5 deep learning models"
+      },
+      "week_90_91": {
+        "title": "Natural Language Processing (NLP)",
+        "topics": [
+          "NLP introduction and applications",
+          "Text preprocessing",
+          "Tokenization and stemming",
+          "Lemmatization",
+          "Bag of Words and TF-IDF",
+          "Word embeddings: Word2Vec",
+          "Sentiment analysis",
+          "Text classification",
+          "Named Entity Recognition (NER)",
+          "NLTK library",
+          "spaCy library",
+          "Transformers and BERT basics"
+        ],
+        "projects": [
+          "Sentiment analyzer for reviews",
+          "Spam detection system",
+          "Chatbot with NLP",
+          "Text summarizer",
+          "Language detection tool"
+        ],
+        "practice": "Build 8 NLP applications"
+      },
+      "week_92_93": {
+        "title": "Cloud Computing & AWS for Python",
+        "topics": [
+          "Cloud computing introduction",
+          "AWS account setup",
+          "AWS Lambda for serverless Python",
+          "Boto3: AWS SDK for Python",
+          "S3 for file storage",
+          "EC2 for Python applications",
+          "RDS for databases",
+          "API Gateway with Lambda",
+          "CloudWatch for monitoring",
+          "Deploying ML models to cloud",
+          "Google Cloud Platform basics",
+          "Azure for Python developers"
+        ],
+        "projects": [
+          "Serverless API with Lambda",
+          "File upload to S3",
+          "Cloud-based web scraper",
+          "ML model deployment on AWS",
+          "Cloud automation scripts"
+        ],
+        "practice": "Deploy 5 applications to cloud"
+      },
+      "week_94_95": {
+        "title": "DevOps & CI/CD for Python",
+        "topics": [
+          "Docker for Python applications",
+          "Creating Dockerfile",
+          "Docker Compose for multi-container apps",
+          "GitHub Actions for Python",
+          "Automated testing in CI/CD",
+          "Code quality tools: pylint, black, flake8",
+          "Pre-commit hooks",
+          "Continuous deployment strategies",
+          "Monitoring and logging",
+          "Infrastructure as Code with Python",
+          "Kubernetes basics for Python apps",
+          "Production best practices"
+        ],
+        "projects": [
+          "Dockerized Python application",
+          "Complete CI/CD pipeline",
+          "Automated deployment system",
+          "Monitoring dashboard",
+          "Infrastructure automation"
+        ],
+        "practice": "Set up DevOps for all projects"
+      },
+      "week_96": {
+        "title": "Specialized Python Topics",
+        "topics": [
+          "Game development with Pygame",
+          "GUI applications with Tkinter",
+          "PyQt for desktop apps",
+          "Computer vision with OpenCV",
+          "Blockchain basics with Python",
+          "Cryptocurrency APIs",
+          "IoT with Python and Raspberry Pi",
+          "Robotics basics",
+          "Cybersecurity with Python",
+          "Penetration testing tools",
+          "Ethical hacking basics",
+          "Choosing specialization path"
+        ],
+        "projects": [
+          "Simple game with Pygame",
+          "Desktop application with Tkinter",
+          "Face detection with OpenCV",
+          "Blockchain implementation",
+          "Network scanner tool"
+        ],
+        "practice": "Explore 3 specialization areas"
+      }
+    },
+    "month_23": {
+      "title": "PHASE 4 COMPLETION - Final Month Activities",
+      "weeks": "Week 40-52 (distributed)",
+      "week_97": {
+        "title": "Open Source Contribution",
+        "topics": [
+          "Finding beginner-friendly projects",
+          "Understanding project structure",
+          "Reading contribution guidelines",
+          "Forking and cloning repositories",
+          "Creating branches for features",
+          "Making meaningful contributions",
+          "Creating pull requests",
+          "Code review process",
+          "Building open source portfolio",
+          "Starting your own open source project"
+        ],
+        "projects": [
+          "Contribute to 3 open source projects",
+          "Create own open source library",
+          "Document contributions",
+          "Build contributor profile"
+        ],
+        "practice": "Make 10 open source contributions"
+      },
+      "week_98": {
+        "title": "Python Best Practices & Design Patterns",
+        "topics": [
+          "PEP 8 style guide deep dive",
+          "Code organization and structure",
+          "Design patterns in Python",
+          "Singleton, Factory, Observer patterns",
+          "SOLID principles",
+          "Clean code principles",
+          "Refactoring techniques",
+          "Code smells and fixes",
+          "Documentation best practices",
+          "Type hints and mypy",
+          "Code review guidelines",
+          "Technical debt management"
+        ],
+        "projects": [
+          "Refactor old projects",
+          "Implement design patterns",
+          "Create coding standards document",
+          "Code review checklist"
+        ],
+        "practice": "Apply best practices to all code"
+      },
+      "week_99": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Profiling Python code",
+          "Memory profiling",
+          "Time complexity optimization",
+          "Space complexity optimization",
+          "Cython for performance",
+          "NumPy optimization techniques",
+          "Database query optimization",
+          "Caching strategies",
+          "Parallel processing",
+          "Async programming optimization",
+          "Code optimization techniques",
+          "Benchmarking"
+        ],
+        "projects": [
+          "Optimize slow applications",
+          "Performance comparison study",
+          "Benchmarking suite",
+          "Optimization case studies"
+        ],
+        "practice": "Optimize 10 previous projects"
+      },
+      "week_100": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Python coding interview patterns",
+          "Data structures interview questions",
+          "Algorithm interview questions",
+          "System design for Python developers",
+          "Behavioral interview preparation",
+          "Python-specific questions",
+          "Problem-solving strategies",
+          "LeetCode and HackerRank practice",
+          "Mock interview techniques",
+          "Salary negotiation",
+          "Job search strategies",
+          "Building professional network"
+        ],
+        "projects": [
+          "Solve 100 LeetCode problems",
+          "System design case studies",
+          "Mock interview recordings",
+          "Interview preparation guide"
+        ],
+        "practice": "Daily coding challenges"
+      }
+    },
+    "month_24": {
+      "title": "Final Projects & Career Launch",
+      "weeks": "Week 49-52",
+      "week_101_102": {
+        "title": "Final Capstone Project - Part 1",
+        "topics": [
+          "Project ideation and planning",
+          "Choosing tech stack",
+          "System architecture design",
+          "Database schema design",
+          "API design",
+          "Frontend-backend integration",
+          "Development workflow",
+          "Agile methodology"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Choose Your Specialization Project",
+          "Option 1: Full-Stack Web Platform (Django/Flask + React + ML features)",
+          "Option 2: Data Science Dashboard (Complete analysis + visualization + ML models)",
+          "Option 3: AI/ML Application (Deep learning model + web interface + deployment)",
+          "Option 4: Automation Platform (Web scraping + task automation + scheduling)",
+          "Option 5: DevOps Solution (CI/CD + monitoring + cloud deployment)"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Part 2",
+        "topics": [
+          "Testing and quality assurance",
+          "Performance optimization",
+          "Security implementation",
+          "Documentation writing",
+          "Deployment to production",
+          "Monitoring and logging",
+          "User feedback integration",
+          "Project presentation"
+        ],
+        "deliverables": [
+          "Complete source code on GitHub",
+          "Live production deployment",
+          "Technical documentation",
+          "User manual",
+          "Video demo and presentation",
+          "Architecture diagrams",
+          "API documentation",
+          "Test coverage report",
+          "Performance metrics"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & Portfolio Building",
+        "topics": [
+          "Professional portfolio website",
+          "Resume optimization for Python roles",
+          "LinkedIn profile enhancement",
+          "GitHub profile showcase",
+          "Writing technical blog posts",
+          "Creating YouTube tutorials (optional)",
+          "Networking strategies",
+          "Freelancing platforms setup",
+          "Job application strategies",
+          "Continuous learning plan",
+          "Python community involvement",
+          "Mentoring others"
+        ],
+        "deliverables": [
+          "Professional portfolio with 30+ projects",
+          "Updated resume and LinkedIn",
+          "GitHub profile with contributions",
+          "3-5 technical blog posts",
+          "Personal brand establishment",
+          "Job application materials",
+          "Interview preparation complete",
+          "Continuous learning roadmap"
+        ],
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - All 12 months content"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-3): 15+ beginner projects - calculators, games, text processors",
+      "Phase 2 (Months 4-6): 12+ intermediate projects - OOP applications, file systems, tested code",
+      "Phase 3 (Months 7-9): 15+ advanced projects - web apps, APIs, databases, scrapers",
+      "Phase 4 (Months 10-12): 10+ professional projects - ML models, data analysis, cloud apps",
+      "Final: 5 major capstone projects showcasing complete mastery"
+    ],
+    "total_projects_built": "50+ projects across all difficulty levels and domains",
+    "skills_mastered": [
+      "Core Python: Syntax, data types, control flow, functions, OOP, file I/O, exceptions",
+      "Data Structures & Algorithms: Lists, dictionaries, sets, trees, graphs, sorting, searching",
+      "Web Development: Flask, Django, REST APIs, templates, authentication, deployment",
+      "Databases: SQL (SQLite, PostgreSQL, MySQL), NoSQL (MongoDB), ORMs (SQLAlchemy, Django ORM)",
+      "Data Science: NumPy, Pandas, Matplotlib, Seaborn, data analysis, visualization",
+      "Machine Learning: Scikit-learn, TensorFlow, Keras, supervised/unsupervised learning, deep learning",
+      "NLP: Text processing, sentiment analysis, chatbots, NLTK, spaCy",
+      "Automation: Web scraping (BeautifulSoup, Scrapy, Selenium), task automation, scheduling",
+      "DevOps: Docker, Git/GitHub, CI/CD, testing (unittest, pytest), deployment",
+      "Cloud: AWS (Lambda, S3, EC2), serverless, cloud deployment",
+      "Tools: VS Code, PyCharm, Jupyter, Git, virtual environments, pip, Docker",
+      "Specialized: GUI (Tkinter), Game Dev (Pygame), Computer Vision (OpenCV), async programming"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_coding": "6-8 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "12-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly doubt clearing and live coding sessions",
+      "mentorship": "1-on-1 Python expert mentorship",
+      "community": "Active Discord community with 24/7 support",
+      "code_review": "Expert code reviews for all projects",
+      "career_support": "Resume review, mock interviews, job referrals",
+      "lifetime_access": "All content, future updates, new modules forever",
+      "age_appropriate": "Separate support channels for kids, teens, adults",
+      "parent_support": "For kids track - parent guidance and progress reports"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "final_certificate": "Professional Python Developer Certification",
+      "specialization_certificate": "Certificate in chosen specialization (Web/Data/ML/Automation)",
+      "linkedin_badge": "Digital badge for LinkedIn profile",
+      "industry_recognized": "Recognized by tech companies and startups",
+      "portfolio_projects": "30+ portfolio projects to showcase",
+      "skill_endorsements": "Verified skill assessments"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required - open to everyone",
+    "coding_experience": "Absolute beginner friendly - zero coding knowledge needed",
+    "age": "10+ years (separate tracks for different age groups)",
+    "equipment": "Computer/laptop (Windows/Mac/Linux), internet connection",
+    "time_commitment": "12-15 hours per week consistently",
+    "english": "Basic reading comprehension (materials available in multiple languages)",
+    "motivation": "Passion for learning and problem-solving",
+    "math": "Basic math (taught as needed for data science/ML tracks)"
+  },
+  "who_is_this_for": {
+    "kids": "Age 10-14: Special simplified track with gamification, visual learning, age-appropriate projects",
+    "teens": "Age 15-18: Student-focused track, exam preparation, college prep, competitive programming",
+    "students": "College students: Career foundation, internship prep, placement preparation",
+    "working_professionals": "Career switchers from any field to Python development",
+    "data_analysts": "Upgrade skills to data science and machine learning",
+    "entrepreneurs": "Build your own products and automate your business",
+    "freelancers": "Offer Python development, automation, data analysis services",
+    "teachers": "Learn to teach Python to others",
+    "hobbyists": "Anyone passionate about programming and technology",
+    "seniors": "Never too late to learn - age-appropriate pace available"
+  },
+  "career_paths_after_completion": [
+    "Python Developer (Junior to Senior levels)",
+    "Full Stack Python Developer (Django/Flask)",
+    "Data Analyst / Data Scientist",
+    "Machine Learning Engineer",
+    "AI/ML Specialist",
+    "Backend Developer",
+    "DevOps Engineer (Python focus)",
+    "Automation Engineer / QA Automation",
+    "Web Scraping Specialist",
+    "Research Scientist (Academia)",
+    "Python Instructor / Trainer",
+    "Freelance Python Developer",
+    "Startup Founder / CTO",
+    "Quantitative Analyst (Finance)",
+    "Bioinformatics Programmer"
+  ],
+  "salary_expectations": {
+    "after_3_months": "₹2-4 LPA (Junior Python Developer / Intern)",
+    "after_6_months": "₹4-7 LPA (Python Developer / Automation Engineer)",
+    "after_9_months": "₹7-12 LPA (Full Stack Python / Data Analyst)",
+    "after_12_months": "₹10-20 LPA (Senior Python / Data Scientist / ML Engineer)",
+    "freelance": "₹500-3000/hour based on specialization",
+    "international": "$60k-150k USD (USA) based on role and experience",
+    "data_science": "₹12-30 LPA in India, $80k-180k USD internationally",
+    "ML_engineer": "₹15-40 LPA in India, $100k-200k+ USD internationally"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee - no questions asked",
+    "job_assistance": "Job placement support, referrals, interview preparation",
+    "lifetime_updates": "Free access to all future content updates and new modules",
+    "mentorship": "Dedicated expert mentor throughout your 12-month journey",
+    "certificate": "Industry-recognized certification upon completion",
+    "portfolio": "30+ production-ready projects for your portfolio",
+    "community": "Lifetime access to community and alumni network",
+    "career_switch": "Support until you successfully switch careers (extended support)",
+    "skill_guarantee": "Master Python or continue learning free until you do",
+    "refund_policy": "If not satisfied in first month, full refund guaranteed"
+  }
+}

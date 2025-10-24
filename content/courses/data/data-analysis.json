@@ -1,0 +1,1762 @@
+{
+  "meta": {
+    "slug": "data-analysis-mastery-course",
+    "title": "Complete Data Analysis Masterclass - From Excel to Machine Learning",
+    "description": "The most comprehensive 6-month data analysis program. Master Excel, SQL, Python, statistics, visualization, and business intelligence. Transform raw data into actionable insights and become a professional data analyst.",
+    "keywords": [
+      "data analysis",
+      "data analytics",
+      "business intelligence",
+      "excel advanced",
+      "sql analytics",
+      "python pandas",
+      "data visualization",
+      "tableau",
+      "power bi",
+      "statistics",
+      "machine learning basics",
+      "data storytelling",
+      "business analytics",
+      "data-driven decisions",
+      "career transition"
+    ],
+    "category": "Data Science & Business Analytics",
+    "price": {
+      "group": "₹1299/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹14,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Professional Analyst",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Professional Data Analyst Certification"
+  },
+  "program_overview": {
+    "title": "Complete Data Analysis Masterclass",
+    "tagline": "From Spreadsheet Basics to Advanced Analytics in 6 Months",
+    "description": "This intensive 6-month program transforms complete beginners into professional data analysts capable of extracting insights from complex datasets, creating compelling visualizations, and driving data-driven decisions in any organization.\n\nYou'll master the complete analytics toolkit: Excel for quick analysis, SQL for database querying, Python for advanced analytics, statistics for rigorous analysis, and modern BI tools for interactive dashboards. Learn to clean messy data, perform exploratory analysis, build predictive models, and present findings that influence business strategy.",
+    "what_makes_this_different": [
+      "Start from absolute basics - no prerequisites",
+      "Real business datasets and case studies",
+      "Industry-standard tools and techniques",
+      "Portfolio of 25+ analysis projects",
+      "Business communication and storytelling focus",
+      "Interview preparation and placement support",
+      "Covers both technical and business aspects",
+      "Hands-on with Fortune 500 company data"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Excel Mastery, Statistics Basics, Data Fundamentals",
+      "phase_2": "Technical Skills (Months 3-4): SQL, Python, Data Cleaning, Analysis Techniques",
+      "phase_3": "Advanced Analytics (Months 5-6): Visualization, BI Tools, ML Basics, Business Intelligence"
+    },
+    "career_outcomes": [
+      "Junior Data Analyst (after 2 months)",
+      "Business Analyst (after 4 months)",
+      "Data Analyst (after 5 months)",
+      "Senior Data Analyst ready (after 6 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Excel Mastery (Months 1-2, Weeks 1-8)",
+    "description": "Build strong foundations in data concepts, statistics, and become an Excel power user.",
+    "month_1_2": {
+      "title": "Month 1: Data Fundamentals & Excel",
+      "weeks": "Week 1-4",
+      "week_1_2": {
+        "title": "Introduction to Data Analysis",
+        "topics": [
+          "What is data analysis? Role in modern business",
+          "Types of data: structured, unstructured, semi-structured",
+          "Data analysis lifecycle and methodology",
+          "Quantitative vs qualitative analysis",
+          "Descriptive, diagnostic, predictive, prescriptive analytics",
+          "Industry applications and case studies",
+          "Tools ecosystem overview",
+          "Career paths in data analysis",
+          "Setting up your analysis environment",
+          "Introduction to datasets and data sources",
+          "Data ethics and privacy considerations",
+          "Building analytical thinking"
+        ],
+        "projects": [
+          "Personal data audit project",
+          "Industry analysis report",
+          "Data source catalog creation"
+        ],
+        "practice": "Analyze 10 real-world data scenarios",
+        "datasets": [
+          "Retail sales data",
+          "Customer demographics",
+          "Website traffic logs"
+        ]
+      },
+      "week_3_4": {
+        "title": "Excel Fundamentals & Formulas",
+        "topics": [
+          "Excel interface mastery and shortcuts",
+          "Data types and formatting",
+          "Cell references: absolute, relative, mixed",
+          "Essential formulas: SUM, AVERAGE, COUNT, MIN, MAX",
+          "Logical functions: IF, AND, OR, NOT",
+          "Nested IF statements and IFS function",
+          "Text functions: CONCATENATE, LEFT, RIGHT, MID, TRIM",
+          "Date and time functions",
+          "Mathematical functions: ROUND, ABS, MOD",
+          "Error handling: IFERROR, IFNA",
+          "Formula auditing and debugging",
+          "Named ranges and structured references"
+        ],
+        "projects": [
+          "Sales calculator dashboard",
+          "Employee timesheet system",
+          "Grade calculation spreadsheet"
+        ],
+        "practice": "Complete 50 Excel formula challenges",
+        "datasets": [
+          "Sales transactions",
+          "Employee records",
+          "Student grades"
+        ]
+      },
+      "week_5_6": {
+        "title": "Excel Data Management",
+        "topics": [
+          "Data validation and drop-down lists",
+          "Sorting and multi-level sorting",
+          "Filtering and advanced filters",
+          "Remove duplicates and data cleaning",
+          "Text to columns and data parsing",
+          "Flash Fill for pattern recognition",
+          "Data consolidation techniques",
+          "Grouping and outlining",
+          "Subtotals and summaries",
+          "Working with large datasets",
+          "Excel tables and structured data",
+          "Data import/export techniques"
+        ],
+        "projects": [
+          "Customer database cleanup",
+          "Inventory management system",
+          "Survey data processor"
+        ],
+        "practice": "Clean and organize 20 messy datasets",
+        "datasets": [
+          "Messy customer data",
+          "Product inventory",
+          "Survey responses"
+        ]
+      },
+      "week_7_8": {
+        "title": "Excel Advanced Functions",
+        "topics": [
+          "LOOKUP functions: VLOOKUP, HLOOKUP, XLOOKUP",
+          "INDEX and MATCH combinations",
+          "SUMIF, COUNTIF, AVERAGEIF functions",
+          "SUMIFS for multiple criteria",
+          "Array formulas and dynamic arrays",
+          "FILTER, SORT, UNIQUE functions",
+          "Statistical functions in Excel",
+          "Financial functions: NPV, IRR, PMT",
+          "Database functions: DSUM, DCOUNT",
+          "INDIRECT and OFFSET for dynamic references",
+          "Creating custom functions with VBA basics",
+          "Excel automation introduction"
+        ],
+        "projects": [
+          "Dynamic sales report system",
+          "Financial analysis model",
+          "HR analytics dashboard"
+        ],
+        "practice": "Build 25 complex Excel solutions",
+        "datasets": [
+          "Multi-year sales data",
+          "Financial statements",
+          "HR database"
+        ]
+      }
+    },
+    "month_3_4": {
+      "title": "Month 2: Statistics & Data Visualization in Excel",
+      "weeks": "Week 5-8",
+      "week_9_10": {
+        "title": "Statistics Fundamentals",
+        "topics": [
+          "Types of data: nominal, ordinal, interval, ratio",
+          "Population vs sample",
+          "Measures of central tendency: mean, median, mode",
+          "Measures of spread: range, variance, standard deviation",
+          "Quartiles and interquartile range",
+          "Skewness and kurtosis",
+          "Normal distribution and z-scores",
+          "Central limit theorem basics",
+          "Confidence intervals introduction",
+          "Hypothesis testing concepts",
+          "P-values and significance levels",
+          "Type I and Type II errors"
+        ],
+        "projects": [
+          "Statistical analysis report",
+          "A/B testing simulator",
+          "Quality control dashboard"
+        ],
+        "practice": "Perform 30 statistical analyses",
+        "datasets": [
+          "Manufacturing quality data",
+          "A/B test results",
+          "Population statistics"
+        ]
+      },
+      "week_11_12": {
+        "title": "Excel Data Analysis Tools",
+        "topics": [
+          "PivotTables creation and customization",
+          "PivotTable calculations and summaries",
+          "Slicers and timeline filters",
+          "PivotCharts and interactive dashboards",
+          "Power Pivot introduction",
+          "Data Model and relationships",
+          "DAX formulas basics",
+          "What-if analysis: Goal Seek, Scenario Manager",
+          "Data tables for sensitivity analysis",
+          "Solver for optimization problems",
+          "Analysis ToolPak features",
+          "Regression analysis in Excel"
+        ],
+        "projects": [
+          "Sales performance dashboard",
+          "Budget optimization model",
+          "Multi-dimensional analysis cube"
+        ],
+        "practice": "Create 20 PivotTable reports",
+        "datasets": [
+          "Multi-region sales data",
+          "Budget allocations",
+          "Product performance metrics"
+        ]
+      },
+      "week_13_14": {
+        "title": "Data Visualization in Excel",
+        "topics": [
+          "Chart types and when to use them",
+          "Column, bar, and line charts",
+          "Pie charts and donut charts",
+          "Scatter plots and bubble charts",
+          "Combination charts",
+          "Sparklines for inline visualization",
+          "Conditional formatting techniques",
+          "Data bars, color scales, icon sets",
+          "Heat maps and treemaps",
+          "Waterfall and funnel charts",
+          "Chart formatting and design principles",
+          "Creating interactive dashboards"
+        ],
+        "projects": [
+          "Executive dashboard",
+          "KPI scorecard",
+          "Interactive sales report"
+        ],
+        "practice": "Design 30 data visualizations",
+        "datasets": [
+          "KPI metrics",
+          "Sales funnel data",
+          "Performance indicators"
+        ]
+      },
+      "week_15_16": {
+        "title": "Business Reporting with Excel",
+        "topics": [
+          "Report design principles",
+          "Executive summary creation",
+          "Data storytelling techniques",
+          "Dashboard layout best practices",
+          "Dynamic reports with parameters",
+          "Automated reporting with macros",
+          "VBA basics for automation",
+          "Report distribution and sharing",
+          "Excel to PowerPoint automation",
+          "Version control and collaboration",
+          "Report templates creation",
+          "Documentation best practices"
+        ],
+        "projects": [
+          "Monthly business report template",
+          "Automated dashboard system",
+          "C-suite presentation deck"
+        ],
+        "practice": "Create 10 professional reports",
+        "datasets": [
+          "Company financials",
+          "Market analysis data",
+          "Competitive intelligence"
+        ]
+      },
+      "week_17": {
+        "title": "Phase 1 Assessment",
+        "topics": [
+          "Excel mastery review",
+          "Statistics concepts check",
+          "Visualization best practices",
+          "Business case presentation",
+          "Technical skills assessment"
+        ],
+        "projects": [
+          "CAPSTONE: Complete Business Analysis",
+          "Analyze real company data, create insights, build dashboard, present findings",
+          "Include statistical analysis and recommendations"
+        ],
+        "assessment": "Phase 1 Exam - Excel and Statistics Mastery"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 3-4: SQL & Python for Data Analysis",
+      "weeks": "Week 9-17",
+      "week_18_19": {
+        "title": "SQL Fundamentals",
+        "topics": [
+          "Database concepts and relational model",
+          "SQL syntax and structure",
+          "SELECT statements and filtering with WHERE",
+          "Sorting with ORDER BY",
+          "LIMIT and OFFSET for pagination",
+          "DISTINCT for unique values",
+          "Aggregate functions: COUNT, SUM, AVG, MIN, MAX",
+          "GROUP BY for aggregation",
+          "HAVING clause for group filtering",
+          "Working with NULL values",
+          "Date and time functions in SQL",
+          "String manipulation in SQL"
+        ],
+        "projects": [
+          "Customer analysis queries",
+          "Sales performance reports",
+          "Inventory tracking system"
+        ],
+        "practice": "Write 100 SQL queries",
+        "datasets": [
+          "E-commerce database",
+          "Employee database",
+          "Product catalog"
+        ]
+      },
+      "week_20_21": {
+        "title": "SQL Joins & Advanced Queries",
+        "topics": [
+          "Understanding table relationships",
+          "INNER JOIN for matching records",
+          "LEFT and RIGHT OUTER JOINS",
+          "FULL OUTER JOIN usage",
+          "CROSS JOIN and Cartesian products",
+          "Self joins for hierarchical data",
+          "Multiple joins in complex queries",
+          "Subqueries and nested queries",
+          "Correlated subqueries",
+          "Common Table Expressions (CTEs)",
+          "UNION, INTERSECT, EXCEPT operations",
+          "Query optimization basics"
+        ],
+        "projects": [
+          "Multi-table reporting system",
+          "Customer journey analysis",
+          "Supply chain analytics"
+        ],
+        "practice": "Master 50 complex join scenarios",
+        "datasets": [
+          "Multi-table retail database",
+          "Healthcare records",
+          "Supply chain data"
+        ]
+      },
+      "week_22_23": {
+        "title": "SQL Analytics Functions",
+        "topics": [
+          "Window functions introduction",
+          "ROW_NUMBER, RANK, DENSE_RANK",
+          "Running totals with SUM() OVER",
+          "Moving averages with AVG() OVER",
+          "LAG and LEAD for time comparisons",
+          "FIRST_VALUE and LAST_VALUE",
+          "Percentile calculations",
+          "Pivoting and unpivoting data",
+          "CASE statements for conditional logic",
+          "Creating views for reusable queries",
+          "Stored procedures basics",
+          "Database performance tuning"
+        ],
+        "projects": [
+          "Time series analysis system",
+          "Cohort analysis platform",
+          "RFM segmentation model"
+        ],
+        "practice": "Build 30 analytical queries",
+        "datasets": [
+          "Time series sales data",
+          "User behavior logs",
+          "Transaction history"
+        ]
+      },
+      "week_24_25": {
+        "title": "Python Fundamentals for Analysis",
+        "topics": [
+          "Python setup for data analysis",
+          "Jupyter Notebook environment",
+          "Variables and data types",
+          "Lists, tuples, dictionaries",
+          "Control flow: if, for, while",
+          "Functions and lambda expressions",
+          "File handling and CSV processing",
+          "Error handling basics",
+          "Libraries: NumPy basics",
+          "Introduction to Pandas",
+          "Reading data from various sources",
+          "Google Colab for cloud computing"
+        ],
+        "projects": [
+          "Data processing pipeline",
+          "File converter utility",
+          "Analysis automation script"
+        ],
+        "practice": "Complete 50 Python exercises",
+        "datasets": [
+          "CSV files",
+          "JSON data",
+          "Excel files"
+        ]
+      },
+      "week_26": {
+        "title": "Phase 2 Assessment",
+        "topics": [
+          "SQL proficiency test",
+          "Python basics assessment",
+          "Data manipulation skills",
+          "Integration projects",
+          "Technical interview prep"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Database Analytics Platform",
+          "Build end-to-end analytics solution with SQL and Python",
+          "Include data extraction, transformation, and reporting"
+        ],
+        "assessment": "Phase 2 Exam - SQL and Python Proficiency"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Python & Data Processing (Months 3-4, Weeks 9-17)",
+    "description": "Master Python for data analysis, pandas, data cleaning, and exploratory data analysis.",
+    "month_7_8": {
+      "title": "Month 3: Pandas & Data Manipulation",
+      "weeks": "Week 9-13",
+      "week_27_28": {
+        "title": "Pandas Fundamentals",
+        "topics": [
+          "Pandas Series and DataFrames",
+          "Creating DataFrames from various sources",
+          "Reading CSV, Excel, JSON files",
+          "DataFrame indexing and selection",
+          "loc and iloc for data access",
+          "Column operations and manipulation",
+          "Adding and removing columns",
+          "Data type conversions",
+          "Sorting and ranking data",
+          "Handling duplicate data",
+          "Reset and set index",
+          "DataFrame information and summary"
+        ],
+        "projects": [
+          "Data loader utility",
+          "DataFrame explorer tool",
+          "Data profiling system"
+        ],
+        "practice": "Complete 60 pandas exercises",
+        "datasets": [
+          "Sales transactions",
+          "Customer information",
+          "Product catalogs"
+        ]
+      },
+      "week_29_30": {
+        "title": "Data Cleaning with Pandas",
+        "topics": [
+          "Identifying missing data patterns",
+          "Handling missing values strategies",
+          "fillna, dropna, interpolate methods",
+          "Data type issues and conversions",
+          "String cleaning and standardization",
+          "Regular expressions for data cleaning",
+          "Handling outliers detection and treatment",
+          "Data validation techniques",
+          "Dealing with inconsistent data",
+          "Date and time parsing",
+          "Encoding categorical variables",
+          "Data quality metrics"
+        ],
+        "projects": [
+          "Data cleaning pipeline",
+          "Quality assurance tool",
+          "Automated data validator"
+        ],
+        "practice": "Clean 25 messy datasets",
+        "datasets": [
+          "Raw survey data",
+          "Web scraped data",
+          "Legacy database exports"
+        ]
+      },
+      "week_31_32": {
+        "title": "Data Transformation & Aggregation",
+        "topics": [
+          "GroupBy operations in pandas",
+          "Aggregation functions: sum, mean, count",
+          "Multiple aggregations with agg()",
+          "Transform and apply functions",
+          "Pivot tables in pandas",
+          "Crosstab for frequency tables",
+          "Melt and wide-to-long reshaping",
+          "Merging and joining DataFrames",
+          "Concatenating data",
+          "Window functions in pandas",
+          "Rolling statistics",
+          "Resampling time series data"
+        ],
+        "projects": [
+          "Sales analytics engine",
+          "Customer segmentation tool",
+          "Time series processor"
+        ],
+        "practice": "Perform 40 transformation tasks",
+        "datasets": [
+          "Multi-source sales data",
+          "Customer transaction logs",
+          "Time series metrics"
+        ]
+      },
+      "week_33_34": {
+        "title": "Exploratory Data Analysis (EDA)",
+        "topics": [
+          "EDA methodology and workflow",
+          "Univariate analysis techniques",
+          "Bivariate analysis methods",
+          "Multivariate exploration",
+          "Distribution analysis",
+          "Correlation analysis",
+          "Statistical testing in Python",
+          "Feature engineering basics",
+          "Dimensionality reduction intro",
+          "Automated EDA tools",
+          "Creating EDA reports",
+          "EDA best practices"
+        ],
+        "projects": [
+          "Automated EDA pipeline",
+          "Data insights generator",
+          "Statistical report builder"
+        ],
+        "practice": "Complete EDA on 20 datasets",
+        "datasets": [
+          "Kaggle competition data",
+          "Government statistics",
+          "Industry benchmarks"
+        ]
+      },
+      "week_35": {
+        "title": "NumPy for Numerical Computing",
+        "topics": [
+          "NumPy arrays and operations",
+          "Array broadcasting",
+          "Mathematical operations",
+          "Statistical functions in NumPy",
+          "Linear algebra basics",
+          "Random number generation",
+          "Array manipulation and reshaping",
+          "Performance optimization with NumPy",
+          "Memory efficient operations",
+          "NumPy for image processing basics",
+          "Integration with pandas",
+          "Scientific computing applications"
+        ],
+        "projects": [
+          "Numerical computation library",
+          "Statistical calculator",
+          "Matrix operations tool"
+        ],
+        "practice": "Solve 30 numerical problems",
+        "datasets": [
+          "Scientific measurements",
+          "Financial calculations",
+          "Engineering data"
+        ]
+      }
+    },
+    "month_9_10": {
+      "title": "Month 4: Data Visualization & Storytelling",
+      "weeks": "Week 14-17",
+      "week_36_37": {
+        "title": "Matplotlib & Seaborn",
+        "topics": [
+          "Matplotlib basics and figure structure",
+          "Line plots, scatter plots, bar charts",
+          "Customizing plots: colors, labels, legends",
+          "Subplots and figure layouts",
+          "Saving and exporting figures",
+          "Seaborn for statistical visualization",
+          "Distribution plots: histograms, KDE, box plots",
+          "Categorical plots: bar, count, violin",
+          "Relationship plots: scatter, line, regression",
+          "Heatmaps and correlation matrices",
+          "Pair plots for multivariate analysis",
+          "Style and theme customization"
+        ],
+        "projects": [
+          "Visualization library",
+          "Statistical plot generator",
+          "Report automation system"
+        ],
+        "practice": "Create 50 visualizations",
+        "datasets": [
+          "Statistical datasets",
+          "Time series data",
+          "Categorical surveys"
+        ]
+      },
+      "week_38_39": {
+        "title": "Interactive Visualizations",
+        "topics": [
+          "Plotly for interactive charts",
+          "Creating interactive dashboards",
+          "Hover information and tooltips",
+          "Zoom and pan functionality",
+          "3D visualizations",
+          "Animated charts and transitions",
+          "Dash framework basics",
+          "Building web applications with Dash",
+          "Callbacks and interactivity",
+          "Deployment of Dash apps",
+          "Bokeh library introduction",
+          "Altair for declarative visualization"
+        ],
+        "projects": [
+          "Interactive dashboard",
+          "Real-time monitoring app",
+          "Data exploration tool"
+        ],
+        "practice": "Build 20 interactive visualizations",
+        "datasets": [
+          "Real-time streams",
+          "Geographic data",
+          "Multi-dimensional data"
+        ]
+      },
+      "week_40_41": {
+        "title": "Business Intelligence Tools",
+        "topics": [
+          "Introduction to Tableau",
+          "Connecting to data sources in Tableau",
+          "Creating worksheets and dashboards",
+          "Calculated fields and parameters",
+          "Filters and hierarchies",
+          "Tableau story creation",
+          "Power BI fundamentals",
+          "Data modeling in Power BI",
+          "DAX formulas for calculations",
+          "Power BI service and sharing",
+          "Google Data Studio basics",
+          "Choosing the right BI tool"
+        ],
+        "projects": [
+          "Tableau executive dashboard",
+          "Power BI sales report",
+          "Cross-platform BI solution"
+        ],
+        "practice": "Create 15 BI dashboards",
+        "datasets": [
+          "Enterprise data warehouse",
+          "Cloud databases",
+          "API connections"
+        ]
+      },
+      "week_42_43": {
+        "title": "Data Storytelling & Presentation",
+        "topics": [
+          "Principles of data storytelling",
+          "Narrative structure for data",
+          "Choosing the right visualization",
+          "Color theory and design principles",
+          "Minimalism and clarity",
+          "Annotation and highlighting insights",
+          "Creating compelling presentations",
+          "Executive communication strategies",
+          "Handling questions and objections",
+          "Written reports and documentation",
+          "Video presentations of data",
+          "Stakeholder management"
+        ],
+        "projects": [
+          "Data story presentation",
+          "Executive briefing deck",
+          "Insight communication toolkit"
+        ],
+        "practice": "Present 10 data stories",
+        "datasets": [
+          "Business case studies",
+          "Market research",
+          "Customer insights"
+        ]
+      },
+      "week_44": {
+        "title": "Advanced Analytics Techniques",
+        "topics": [
+          "Time series analysis and forecasting",
+          "Trend and seasonality detection",
+          "Moving averages and smoothing",
+          "Cohort analysis implementation",
+          "Funnel analysis for conversions",
+          "RFM analysis for customer segmentation",
+          "Market basket analysis",
+          "Churn analysis and prediction",
+          "Customer lifetime value calculation",
+          "Attribution modeling basics",
+          "Experimental design and A/B testing",
+          "Statistical significance testing"
+        ],
+        "projects": [
+          "Forecasting system",
+          "Customer analytics suite",
+          "A/B testing platform"
+        ],
+        "practice": "Implement 15 analytical techniques",
+        "datasets": [
+          "E-commerce transactions",
+          "Subscription data",
+          "Marketing campaigns"
+        ]
+      }
+    },
+    "month_11_12": {
+      "title": "Months 5-6: Machine Learning & Production Analytics",
+      "weeks": "Week 18-26",
+      "week_45_46": {
+        "title": "Machine Learning Fundamentals",
+        "topics": [
+          "Introduction to machine learning",
+          "Supervised vs unsupervised learning",
+          "Training and test data splitting",
+          "Feature selection and engineering",
+          "Scikit-learn library basics",
+          "Linear regression implementation",
+          "Logistic regression for classification",
+          "Decision trees and random forests",
+          "Model evaluation metrics",
+          "Cross-validation techniques",
+          "Overfitting and underfitting",
+          "Hyperparameter tuning basics"
+        ],
+        "projects": [
+          "Sales prediction model",
+          "Customer churn predictor",
+          "Classification system"
+        ],
+        "practice": "Build 20 ML models",
+        "datasets": [
+          "Historical sales data",
+          "Customer behavior data",
+          "Marketing response data"
+        ]
+      },
+      "week_47_48": {
+        "title": "Clustering & Segmentation",
+        "topics": [
+          "K-means clustering algorithm",
+          "Hierarchical clustering",
+          "DBSCAN for density-based clustering",
+          "Determining optimal clusters",
+          "Customer segmentation strategies",
+          "Market segmentation analysis",
+          "Behavioral segmentation",
+          "Dimensionality reduction with PCA",
+          "t-SNE for visualization",
+          "Anomaly detection methods",
+          "Outlier detection algorithms",
+          "Practical segmentation applications"
+        ],
+        "projects": [
+          "Customer segmentation engine",
+          "Anomaly detection system",
+          "Market analysis tool"
+        ],
+        "practice": "Perform 15 clustering analyses",
+        "datasets": [
+          "Customer demographics",
+          "Transaction patterns",
+          "User behavior logs"
+        ]
+      },
+      "week_49_50": {
+        "title": "Web Analytics & Digital Marketing",
+        "topics": [
+          "Google Analytics fundamentals",
+          "Web metrics and KPIs",
+          "User behavior analysis",
+          "Conversion funnel optimization",
+          "Attribution modeling",
+          "Campaign performance analysis",
+          "SEO analytics basics",
+          "Social media analytics",
+          "Email marketing metrics",
+          "Content performance analysis",
+          "Marketing mix modeling",
+          "ROI calculation and optimization"
+        ],
+        "projects": [
+          "Digital marketing dashboard",
+          "Campaign optimizer",
+          "Web analytics report"
+        ],
+        "practice": "Analyze 20 marketing campaigns",
+        "datasets": [
+          "Google Analytics exports",
+          "Social media metrics",
+          "Campaign data"
+        ]
+      },
+      "week_51": {
+        "title": "APIs & Automation",
+        "topics": [
+          "Working with APIs in Python",
+          "RESTful API concepts",
+          "Authentication and API keys",
+          "Requests library for API calls",
+          "JSON data handling",
+          "Web scraping with BeautifulSoup",
+          "Automating data collection",
+          "Scheduling scripts with cron/Task Scheduler",
+          "Email automation for reports",
+          "Cloud functions for automation",
+          "ETL pipeline creation",
+          "Real-time data processing basics"
+        ],
+        "projects": [
+          "API data collector",
+          "Automated reporting system",
+          "ETL pipeline"
+        ],
+        "practice": "Build 10 automation scripts",
+        "datasets": [
+          "API endpoints",
+          "Web data sources",
+          "Streaming data"
+        ]
+      },
+      "week_52": {
+        "title": "Phase 3 Assessment",
+        "topics": [
+          "Advanced analytics review",
+          "ML implementation check",
+          "Visualization mastery",
+          "Business case presentation",
+          "Portfolio review"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: End-to-End Analytics Solution",
+          "Complete business problem solving with data collection, analysis, ML, visualization, and recommendations",
+          "Present to mock stakeholders"
+        ],
+        "assessment": "Phase 3 Exam - Professional Data Analyst Assessment"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Industry Applications & Career Launch (Months 5-6, Weeks 18-26)",
+    "description": "Master industry-specific analytics, cloud platforms, and prepare for professional roles.",
+    "month_13_14": {
+      "title": "Month 5: Industry-Specific Analytics",
+      "weeks": "Week 18-22",
+      "week_53_54": {
+        "title": "Financial Analytics",
+        "topics": [
+          "Financial statements analysis",
+          "Ratio analysis and metrics",
+          "Cash flow analysis",
+          "Working capital management",
+          "Investment analysis metrics",
+          "Risk metrics: VaR, Sharpe ratio",
+          "Portfolio analysis basics",
+          "Credit risk scoring",
+          "Fraud detection techniques",
+          "Time value of money calculations",
+          "Financial forecasting models",
+          "Regulatory reporting basics"
+        ],
+        "projects": [
+          "Financial dashboard",
+          "Risk assessment model",
+          "Fraud detection system"
+        ],
+        "practice": "Analyze 15 financial datasets",
+        "datasets": [
+          "Stock market data",
+          "Financial statements",
+          "Credit card transactions"
+        ]
+      },
+      "week_55_56": {
+        "title": "Healthcare Analytics",
+        "topics": [
+          "Healthcare data types and standards",
+          "Patient data analysis",
+          "Clinical trial analysis",
+          "Healthcare KPIs and metrics",
+          "Disease prediction models",
+          "Patient readmission analysis",
+          "Healthcare cost analysis",
+          "Drug effectiveness studies",
+          "Population health management",
+          "HIPAA compliance basics",
+          "Medical coding systems",
+          "Healthcare dashboards"
+        ],
+        "projects": [
+          "Patient analytics dashboard",
+          "Readmission predictor",
+          "Healthcare KPI tracker"
+        ],
+        "practice": "Work with 10 healthcare datasets",
+        "datasets": [
+          "Patient records (anonymized)",
+          "Clinical trial data",
+          "Healthcare costs"
+        ]
+      },
+      "week_57_58": {
+        "title": "Retail & E-commerce Analytics",
+        "topics": [
+          "Retail metrics and KPIs",
+          "Sales performance analysis",
+          "Inventory analytics",
+          "Customer basket analysis",
+          "Product recommendation systems",
+          "Price optimization strategies",
+          "Demand forecasting",
+          "Customer journey mapping",
+          "Conversion rate optimization",
+          "Return analysis",
+          "Store performance comparison",
+          "Omnichannel analytics"
+        ],
+        "projects": [
+          "Retail analytics platform",
+          "Recommendation engine",
+          "Inventory optimizer"
+        ],
+        "practice": "Analyze 20 retail scenarios",
+        "datasets": [
+          "Transaction logs",
+          "Product catalogs",
+          "Customer reviews"
+        ]
+      },
+      "week_59_60": {
+        "title": "Supply Chain Analytics",
+        "topics": [
+          "Supply chain metrics and KPIs",
+          "Demand planning and forecasting",
+          "Inventory optimization",
+          "Supplier performance analysis",
+          "Transportation analytics",
+          "Warehouse efficiency metrics",
+          "Order fulfillment analysis",
+          "Supply chain risk assessment",
+          "Network optimization",
+          "Logistics analytics",
+          "Procurement analytics",
+          "Sustainability metrics"
+        ],
+        "projects": [
+          "Supply chain dashboard",
+          "Demand forecasting model",
+          "Route optimization tool"
+        ],
+        "practice": "Optimize 10 supply chain processes",
+        "datasets": [
+          "Shipping records",
+          "Inventory levels",
+          "Supplier data"
+        ]
+      },
+      "week_61": {
+        "title": "HR & People Analytics",
+        "topics": [
+          "HR metrics and KPIs",
+          "Employee turnover analysis",
+          "Recruitment analytics",
+          "Performance management metrics",
+          "Compensation analysis",
+          "Diversity and inclusion metrics",
+          "Employee engagement analysis",
+          "Workforce planning",
+          "Talent analytics",
+          "Learning and development metrics",
+          "Succession planning analytics",
+          "HR dashboard creation"
+        ],
+        "projects": [
+          "HR analytics dashboard",
+          "Turnover prediction model",
+          "Compensation analyzer"
+        ],
+        "practice": "Analyze 15 HR scenarios",
+        "datasets": [
+          "Employee records",
+          "Performance reviews",
+          "Recruitment data"
+        ]
+      }
+    },
+    "month_15_16": {
+      "title": "Month 6: Cloud Analytics & Career Preparation",
+      "weeks": "Week 23-26",
+      "week_62_63": {
+        "title": "Cloud Platforms for Analytics",
+        "topics": [
+          "Cloud computing fundamentals",
+          "AWS for data analytics",
+          "S3 for data storage",
+          "Athena for SQL queries",
+          "Redshift data warehouse",
+          "Google Cloud Platform basics",
+          "BigQuery for analytics",
+          "Azure data services",
+          "Databricks introduction",
+          "Snowflake basics",
+          "Cloud cost optimization",
+          "Security in cloud analytics"
+        ],
+        "projects": [
+          "Cloud migration project",
+          "BigQuery analytics pipeline",
+          "Multi-cloud solution"
+        ],
+        "practice": "Deploy 10 cloud analytics solutions",
+        "datasets": [
+          "Cloud-native datasets",
+          "Streaming data",
+          "Big data samples"
+        ]
+      },
+      "week_64_65": {
+        "title": "Big Data Analytics",
+        "topics": [
+          "Big data concepts and challenges",
+          "Hadoop ecosystem overview",
+          "Spark for big data processing",
+          "PySpark basics",
+          "Distributed computing concepts",
+          "NoSQL databases basics",
+          "Real-time analytics introduction",
+          "Kafka for streaming data",
+          "Data lake vs data warehouse",
+          "Lambda architecture",
+          "Big data visualization challenges",
+          "Scalability considerations"
+        ],
+        "projects": [
+          "Big data processing pipeline",
+          "Real-time dashboard",
+          "Distributed analytics system"
+        ],
+        "practice": "Process 5 big data scenarios",
+        "datasets": [
+          "Large-scale datasets",
+          "Streaming data",
+          "Log files"
+        ]
+      },
+      "week_66_67": {
+        "title": "Portfolio Development",
+        "topics": [
+          "Building an analytics portfolio",
+          "GitHub for data analysts",
+          "Creating compelling case studies",
+          "Documentation best practices",
+          "Jupyter notebook presentation",
+          "Blog writing for analysts",
+          "LinkedIn optimization",
+          "Personal website creation",
+          "Kaggle competitions",
+          "Contributing to open source",
+          "Networking strategies",
+          "Building online presence"
+        ],
+        "projects": [
+          "Portfolio website",
+          "5 detailed case studies",
+          "GitHub repository organization"
+        ],
+        "practice": "Complete portfolio preparation"
+      },
+      "week_68_69": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Types of data analyst interviews",
+          "Technical interview preparation",
+          "SQL interview questions",
+          "Python coding interviews",
+          "Case study interviews",
+          "Presentation skills",
+          "Behavioral questions preparation",
+          "STAR method for responses",
+          "Whiteboard problem solving",
+          "Take-home assignments",
+          "Salary negotiation",
+          "Remote interview tips"
+        ],
+        "projects": [
+          "Interview preparation kit",
+          "Mock presentation",
+          "Take-home project samples"
+        ],
+        "practice": "Complete 20 mock interviews"
+      },
+      "week_70": {
+        "title": "Career Launch & Networking",
+        "topics": [
+          "Job search strategies",
+          "Resume optimization for ATS",
+          "Cover letter writing",
+          "LinkedIn job search",
+          "Networking events and conferences",
+          "Industry certifications overview",
+          "Freelancing as an analyst",
+          "Consulting opportunities",
+          "Continuous learning plan",
+          "Career progression paths",
+          "Specialization options",
+          "Future trends in analytics"
+        ],
+        "projects": [
+          "Job application package",
+          "Professional network building",
+          "Career roadmap"
+        ],
+        "assessment": "Final Certification - Professional Data Analyst"
+      }
+    },
+    "month_17_18": {
+      "title": "Advanced Topics & Specializations",
+      "weeks": "Additional Resources",
+      "week_71_72": {
+        "title": "Advanced Statistical Methods",
+        "topics": [
+          "Bayesian statistics introduction",
+          "Time series advanced techniques",
+          "ARIMA models",
+          "Survival analysis",
+          "Factor analysis",
+          "Structural equation modeling",
+          "Monte Carlo simulations",
+          "Bootstrapping methods",
+          "Non-parametric tests",
+          "Multivariate analysis",
+          "Experimental design",
+          "Causal inference basics"
+        ],
+        "projects": [
+          "Advanced statistical toolkit",
+          "Simulation framework",
+          "Causal analysis project"
+        ],
+        "practice": "Implement 10 advanced methods"
+      },
+      "week_73_74": {
+        "title": "Deep Learning for Analysts",
+        "topics": [
+          "Neural networks basics",
+          "Deep learning frameworks",
+          "TensorFlow/Keras introduction",
+          "Image data analysis",
+          "Text analytics with deep learning",
+          "Time series with LSTM",
+          "AutoML tools",
+          "Model deployment basics",
+          "Transfer learning",
+          "Deep learning for tabular data",
+          "Ethical AI considerations",
+          "Explainable AI basics"
+        ],
+        "projects": [
+          "Deep learning predictor",
+          "Text classification system",
+          "AutoML implementation"
+        ],
+        "practice": "Build 5 deep learning models"
+      },
+      "week_75_76": {
+        "title": "Data Engineering Basics",
+        "topics": [
+          "Data pipeline architecture",
+          "ETL vs ELT strategies",
+          "Apache Airflow basics",
+          "Data quality frameworks",
+          "Data governance principles",
+          "Master data management",
+          "Data cataloging",
+          "Metadata management",
+          "Data lineage tracking",
+          "DataOps practices",
+          "CI/CD for data pipelines",
+          "Monitoring and alerting"
+        ],
+        "projects": [
+          "ETL pipeline",
+          "Data quality monitor",
+          "Automated data pipeline"
+        ],
+        "practice": "Build 5 data pipelines"
+      },
+      "week_77": {
+        "title": "Business Strategy & Analytics",
+        "topics": [
+          "Strategic analytics frameworks",
+          "Competitive intelligence",
+          "Market analysis techniques",
+          "Customer analytics strategy",
+          "Product analytics",
+          "Growth analytics",
+          "Pricing analytics",
+          "Risk analytics",
+          "Performance management",
+          "Balanced scorecard",
+          "OKR tracking and analysis",
+          "Executive advisory skills"
+        ],
+        "projects": [
+          "Strategy dashboard",
+          "Competitive analysis report",
+          "Growth model"
+        ],
+        "practice": "Develop 5 strategic analyses"
+      },
+      "week_78": {
+        "title": "Future of Analytics",
+        "topics": [
+          "Augmented analytics",
+          "AI-powered analytics",
+          "Natural language analytics",
+          "Automated insights generation",
+          "Real-time analytics trends",
+          "Edge analytics",
+          "IoT analytics",
+          "Blockchain analytics",
+          "Quantum computing impact",
+          "Privacy-preserving analytics",
+          "Synthetic data generation",
+          "Career future-proofing"
+        ],
+        "projects": [
+          "Future tech exploration",
+          "Innovation project",
+          "Trend analysis report"
+        ],
+        "practice": "Explore 5 emerging technologies"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "CONTINUOUS LEARNING: Post-Course Resources",
+    "description": "Lifetime learning paths and advanced certifications",
+    "month_19_20": {
+      "title": "Professional Certifications",
+      "weeks": "Certification Paths",
+      "week_79_80": {
+        "title": "Microsoft Certifications",
+        "topics": [
+          "Microsoft Certified: Data Analyst Associate",
+          "Power BI certification path",
+          "Azure Data Fundamentals",
+          "Azure Data Engineer Associate",
+          "Exam preparation strategies",
+          "Study materials and resources",
+          "Practice tests",
+          "Hands-on labs",
+          "Certification maintenance",
+          "Career impact of certifications",
+          "Cost-benefit analysis",
+          "Employer recognition"
+        ],
+        "projects": [
+          "Certification study plan",
+          "Practice project portfolio",
+          "Exam preparation kit"
+        ],
+        "practice": "Complete practice exams"
+      },
+      "week_81_82": {
+        "title": "Google & AWS Certifications",
+        "topics": [
+          "Google Data Analytics Certificate",
+          "Google Cloud Data Engineer",
+          "AWS Certified Data Analytics",
+          "AWS Certified Database Specialty",
+          "Preparation timelines",
+          "Hands-on experience requirements",
+          "Lab environments setup",
+          "Community study groups",
+          "Certification roadmaps",
+          "Renewal requirements",
+          "Multi-cloud strategies",
+          "Certification stacking"
+        ],
+        "projects": [
+          "Cloud project portfolio",
+          "Multi-cloud comparison",
+          "Certification tracker"
+        ],
+        "practice": "Complete cloud labs"
+      },
+      "week_83_84": {
+        "title": "Industry Certifications",
+        "topics": [
+          "Tableau Desktop Specialist",
+          "Tableau Certified Data Analyst",
+          "SAS Certified Specialist",
+          "IBM Data Science Professional",
+          "Databricks Certified Data Analyst",
+          "Alteryx Designer Core",
+          "TDWI certifications",
+          "Domain-specific certifications",
+          "Vendor-neutral certifications",
+          "Certification strategy",
+          "ROI of certifications",
+          "Maintaining multiple certifications"
+        ],
+        "projects": [
+          "Tool-specific portfolios",
+          "Certification showcase",
+          "Skills matrix"
+        ],
+        "practice": "Pursue 2-3 certifications"
+      },
+      "week_85_86": {
+        "title": "Academic Pathways",
+        "topics": [
+          "Master's in Data Analytics",
+          "MBA with Analytics Focus",
+          "Online degree programs",
+          "MicroMasters programs",
+          "Nanodegree programs",
+          "Bootcamp options",
+          "University partnerships",
+          "Research opportunities",
+          "PhD considerations",
+          "Academic vs industry paths",
+          "Funding options",
+          "Time management strategies"
+        ],
+        "projects": [
+          "Education plan",
+          "Application preparation",
+          "Funding research"
+        ],
+        "practice": "Evaluate education options"
+      },
+      "week_87": {
+        "title": "Specialization Areas",
+        "topics": [
+          "Marketing Analytics Specialist",
+          "Financial Analyst path",
+          "Healthcare Data Analyst",
+          "Sports Analytics",
+          "Customer Analytics Expert",
+          "Operations Research Analyst",
+          "Quantitative Analyst",
+          "Business Intelligence Developer",
+          "Data Scientist transition",
+          "Analytics Consultant",
+          "Product Analyst",
+          "Growth Analyst"
+        ],
+        "projects": [
+          "Specialization roadmap",
+          "Skill gap analysis",
+          "Transition plan"
+        ],
+        "practice": "Choose specialization path"
+      }
+    },
+    "month_21_22": {
+      "title": "Career Development",
+      "weeks": "Professional Growth",
+      "week_88_89": {
+        "title": "Freelancing & Consulting",
+        "topics": [
+          "Starting as freelance analyst",
+          "Building client base",
+          "Pricing strategies",
+          "Project scoping",
+          "Contract negotiation",
+          "Deliverable management",
+          "Client communication",
+          "Portfolio development",
+          "Marketing yourself",
+          "Networking strategies",
+          "Platform selection",
+          "Scaling your practice"
+        ],
+        "projects": [
+          "Freelance business plan",
+          "Service offerings",
+          "Client pipeline"
+        ],
+        "practice": "Start with 3 clients"
+      },
+      "week_90_91": {
+        "title": "Leadership & Management",
+        "topics": [
+          "Leading analytics teams",
+          "Project management for analytics",
+          "Stakeholder management",
+          "Analytics strategy development",
+          "Building data culture",
+          "Change management",
+          "Mentoring junior analysts",
+          "Cross-functional collaboration",
+          "Executive communication",
+          "Budget management",
+          "Vendor management",
+          "Team development"
+        ],
+        "projects": [
+          "Leadership portfolio",
+          "Team development plan",
+          "Strategy document"
+        ],
+        "practice": "Lead analytics project"
+      },
+      "week_92_93": {
+        "title": "Innovation & Research",
+        "topics": [
+          "Staying current with trends",
+          "Reading research papers",
+          "Conference participation",
+          "Publishing articles",
+          "Speaking engagements",
+          "Podcast appearances",
+          "Thought leadership",
+          "Open source contributions",
+          "Research collaborations",
+          "Patent opportunities",
+          "Innovation frameworks",
+          "R&D in analytics"
+        ],
+        "projects": [
+          "Research publication",
+          "Conference presentation",
+          "Innovation project"
+        ],
+        "practice": "Contribute to community"
+      },
+      "week_94_95": {
+        "title": "Entrepreneurship",
+        "topics": [
+          "Analytics startup ideas",
+          "Market validation",
+          "MVP development",
+          "Funding strategies",
+          "Building analytics products",
+          "SaaS for analytics",
+          "Data monetization",
+          "Analytics as a service",
+          "Partnership strategies",
+          "Scaling challenges",
+          "Exit strategies",
+          "Success stories"
+        ],
+        "projects": [
+          "Startup concept",
+          "Business model canvas",
+          "Pitch deck"
+        ],
+        "practice": "Validate business idea"
+      },
+      "week_96": {
+        "title": "Lifetime Learning",
+        "topics": [
+          "Continuous education plan",
+          "Learning resources curation",
+          "Community engagement",
+          "Mentorship circles",
+          "Knowledge sharing",
+          "Personal brand building",
+          "Network maintenance",
+          "Skill refresh cycles",
+          "Technology adoption",
+          "Career pivots",
+          "Work-life balance",
+          "Long-term success"
+        ],
+        "projects": [
+          "10-year career plan",
+          "Learning roadmap",
+          "Legacy planning"
+        ],
+        "practice": "Implement learning system"
+      }
+    },
+    "month_23": {
+      "title": "Resources & Tools",
+      "weeks": "Reference Materials",
+      "week_97": {
+        "title": "Essential Tools",
+        "topics": [
+          "Analytics tools comparison",
+          "Free vs paid tools",
+          "Open source alternatives",
+          "Cloud platform credits",
+          "Educational licenses",
+          "Tool selection criteria",
+          "Integration strategies",
+          "Migration paths",
+          "Version control",
+          "Collaboration tools",
+          "Documentation tools",
+          "Productivity tools"
+        ],
+        "projects": [
+          "Tool evaluation matrix",
+          "Technology stack",
+          "Migration plan"
+        ],
+        "practice": "Master 10 essential tools"
+      },
+      "week_98": {
+        "title": "Data Sources",
+        "topics": [
+          "Public datasets catalog",
+          "Government data sources",
+          "Academic datasets",
+          "Industry benchmarks",
+          "API directories",
+          "Web scraping sources",
+          "Subscription databases",
+          "Real-time data feeds",
+          "Synthetic data generation",
+          "Data marketplaces",
+          "Open data initiatives",
+          "Data partnerships"
+        ],
+        "projects": [
+          "Data source directory",
+          "API collection",
+          "Dataset library"
+        ],
+        "practice": "Build data repository"
+      },
+      "week_99": {
+        "title": "Communities & Networks",
+        "topics": [
+          "Professional associations",
+          "Online communities",
+          "Local meetup groups",
+          "Slack/Discord channels",
+          "LinkedIn groups",
+          "Reddit communities",
+          "Stack Overflow",
+          "Kaggle community",
+          "GitHub community",
+          "Conference networks",
+          "Alumni associations",
+          "Mentorship programs"
+        ],
+        "projects": [
+          "Community participation plan",
+          "Network map",
+          "Engagement strategy"
+        ],
+        "practice": "Join 10 communities"
+      },
+      "week_100": {
+        "title": "Best Practices",
+        "topics": [
+          "Code standards",
+          "Documentation standards",
+          "Version control best practices",
+          "Security practices",
+          "Privacy compliance",
+          "Ethical guidelines",
+          "Quality assurance",
+          "Performance optimization",
+          "Collaboration workflows",
+          "Project templates",
+          "Reusable components",
+          "Knowledge management"
+        ],
+        "projects": [
+          "Best practices guide",
+          "Template library",
+          "Standards documentation"
+        ],
+        "practice": "Implement all standards"
+      }
+    },
+    "month_24": {
+      "title": "Quick References",
+      "weeks": "Cheat Sheets",
+      "week_101_102": {
+        "title": "Technical References",
+        "topics": [
+          "Excel formulas cheat sheet",
+          "SQL commands reference",
+          "Python pandas quick guide",
+          "Statistics formulas",
+          "Visualization best practices",
+          "Machine learning algorithms",
+          "Cloud services comparison",
+          "Tool shortcuts compilation",
+          "Error message solutions",
+          "Performance tips",
+          "Debugging guide",
+          "Optimization techniques"
+        ],
+        "projects": [
+          "Personal reference library",
+          "Quick lookup tools",
+          "Troubleshooting guide"
+        ]
+      },
+      "week_103": {
+        "title": "Business References",
+        "topics": [
+          "KPI definitions",
+          "Industry metrics glossary",
+          "Business terms dictionary",
+          "Reporting templates",
+          "Presentation templates",
+          "Communication templates",
+          "Project templates",
+          "Analysis frameworks",
+          "Decision matrices",
+          "ROI calculators",
+          "Budget templates",
+          "Strategy frameworks"
+        ],
+        "deliverables": [
+          "Business toolkit",
+          "Template library",
+          "Framework collection"
+        ]
+      },
+      "week_104": {
+        "title": "Career Resources",
+        "topics": [
+          "Resume templates",
+          "Portfolio examples",
+          "Interview questions bank",
+          "Salary data sources",
+          "Job board list",
+          "Recruiter directory",
+          "Company research tools",
+          "Negotiation strategies",
+          "Career transition guides",
+          "Success metrics",
+          "Performance reviews",
+          "Career milestones"
+        ],
+        "deliverables": [
+          "Career toolkit",
+          "Job search resources",
+          "Success tracker"
+        ],
+        "assessment": "LIFETIME SUPPORT - Continuous updates and community access"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Excel Dashboards, Statistical Analysis, Business Reports",
+      "Phase 2: SQL Analytics, Python Automation, Data Cleaning Pipelines",
+      "Phase 3: ML Models, Interactive Dashboards, Industry Solutions",
+      "Final: Complete Analytics Platform with Real Business Impact"
+    ],
+    "total_projects_built": "25+ professional projects across all tools and industries",
+    "skills_mastered": [
+      "Tools: Excel (Advanced), SQL, Python, Tableau, Power BI, Google Analytics",
+      "Programming: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)",
+      "Statistics: Descriptive, Inferential, Hypothesis Testing, Regression",
+      "Visualization: Charts, Dashboards, Interactive Reports, Storytelling",
+      "Machine Learning: Regression, Classification, Clustering, Time Series",
+      "Business: KPIs, Metrics, Reporting, Presentation, Communication",
+      "Databases: SQL, NoSQL basics, Data Warehousing, ETL",
+      "Cloud: AWS, GCP, Azure basics for analytics",
+      "Soft Skills: Problem-solving, Critical thinking, Communication"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-6 hours",
+      "hands_on_practice": "8-10 hours",
+      "projects": "3-4 hours",
+      "case_studies": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly Q&A and problem-solving",
+      "mentorship": "1-on-1 guidance from industry analysts",
+      "community": "Active Slack/Discord community",
+      "project_review": "Detailed feedback on all projects",
+      "career_support": "Resume review, mock interviews, job referrals",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "Professional Data Analyst Certification",
+      "linkedin_badge": "Verifiable LinkedIn credential",
+      "industry_recognized": "Recognized by employers",
+      "portfolio_projects": "25+ projects for portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "High school mathematics helpful",
+    "technical_skills": "Basic computer skills required",
+    "equipment": "Computer with MS Office/Google Sheets",
+    "time_commitment": "15-20 hours per week",
+    "english": "Good comprehension required",
+    "motivation": "Curiosity about data and insights"
+  },
+  "who_is_this_for": {
+    "students": "College students seeking analytical careers",
+    "working_professionals": "Career switchers to data field",
+    "business_professionals": "Managers wanting data skills",
+    "excel_users": "Excel users wanting to advance",
+    "entrepreneurs": "Business owners needing insights",
+    "marketers": "Digital marketers seeking analytics",
+    "anyone": "Anyone interested in data-driven decisions"
+  },
+  "career_paths_after_completion": [
+    "Data Analyst",
+    "Business Analyst",
+    "Marketing Analyst",
+    "Financial Analyst",
+    "Operations Analyst",
+    "Product Analyst",
+    "Healthcare Data Analyst",
+    "Supply Chain Analyst",
+    "HR Analyst",
+    "Freelance Analytics Consultant",
+    "Business Intelligence Developer",
+    "Analytics Manager"
+  ],
+  "salary_expectations": {
+    "after_2_months": "₹3-5 LPA (Junior Analyst)",
+    "after_4_months": "₹5-8 LPA (Data Analyst)",
+    "after_6_months": "₹8-15 LPA (Senior Analyst)",
+    "experienced": "₹15-25+ LPA (Lead/Manager)",
+    "freelance": "₹500-2000/hour",
+    "international": "$50k-100k+ USD"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Placement support and referrals",
+    "lifetime_updates": "Free access to new content",
+    "mentorship": "Industry expert guidance",
+    "certificate": "Professional certification",
+    "portfolio": "25+ real-world projects"
+  }
+}

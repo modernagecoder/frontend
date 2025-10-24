@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-template="meta.title">{{BLOG_TITLE}} - Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{{BLOG_DESCRIPTION}}" data-template="meta.description">
+    <meta name="keywords" content="{{BLOG_KEYWORDS}}" data-template="meta.keywords">
+    <meta name="author" content="{{BLOG_AUTHOR_NAME}}">
+    <link rel="canonical" href="https://www.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.canonical">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://www.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.og_url">
+    <meta property="og:title" content="{{BLOG_TITLE}} - Modern Age Coders" data-template="meta.og_title">
+    <meta property="og:description" content="{{BLOG_DESCRIPTION}}" data-template="meta.og_description">
+    <meta property="og:image" content="{{HERO_IMAGE_URL}}" data-template="meta.og_image">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.twitter_url">
+    <meta property="twitter:title" content="{{BLOG_TITLE}} - Modern Age Coders" data-template="meta.twitter_title">
+    <meta property="twitter:description" content="{{BLOG_DESCRIPTION}}" data-template="meta.twitter_description">
+    <meta property="twitter:image" content="{{HERO_IMAGE_URL}}" data-template="meta.twitter_image">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json" data-template="structured_data">
+    {{STRUCTURED_DATA}}
+    </script>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="blog-detail-page">
+
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="../../index10.html" class="back-button" title="Back to Blog">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        </svg>
+                    </a>
+                    <a href="../../index10.html" class="logo">
+                        <div class="logo-icon"></div>
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="../../index10.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="../../course8.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="../../course8.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages 6-12)</a>
+                                <a href="../../course8.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages 13-18)</a>
+                                <a href="../../course8.html?tab=coding&subtab=college" class="dropdown-item">For College Students</a>
+                                <a href="../../course8.html?tab=coding&subtab=college" class="dropdown-item">For Professionals</a>
+                                <a href="../../course8.html?tab=coding&subtab=customized" class="dropdown-item">Customized Training</a>
+                                <a href="../../course8.html?tab=coding&subtab=girls" class="dropdown-item highlight">Special For Girls</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="../../index10.html#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="../index.html" class="nav-link active">Blog</a></li>
+                        <li class="nav-item"><a href="../../index10.html#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="../../index10.html#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link login-btn">Login</a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">Student Login</a>
+                                <a href="#" class="dropdown-item">Teacher Login</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="../../course8.html" class="cta-button">Start Learning</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="blog-hero">
+            <div class="blog-hero-content">
+                <span class="blog-category" data-template="hero.category">{{BLOG_CATEGORY}}</span>
+                <h1 class="blog-hero-title" data-template="hero.title">{{HERO_TITLE}}</h1>
+                <p class="blog-hero-subtitle" data-template="hero.subtitle">{{HERO_SUBTITLE}}</p>
+                <div class="blog-meta">
+                    <div class="author-info">
+                        <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-avatar">
+                        <div class="author-details">
+                            <span class="author-name">{{BLOG_AUTHOR_NAME}}</span>
+                            <span class="blog-date">{{BLOG_DATE}}</span>
+                        </div>
+                    </div>
+                    <span class="read-time">{{BLOG_READ_TIME}}</span>
+                </div>
+            </div>
+            <div class="blog-hero-image">
+                <img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" data-template="hero.image">
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="blog-content-section">
+            <article class="blog-content" data-template="content">
+                {{BLOG_CONTENT}}
+            </article>
+            
+            <!-- Author Bio Section -->
+            <div class="author-bio-section">
+                <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-bio-avatar">
+                <div class="author-bio-content">
+                    <h3>About {{BLOG_AUTHOR_NAME}}</h3>
+                    <p>{{BLOG_AUTHOR_BIO}}</p>
+                </div>
+            </div>
+            
+            <!-- Related Posts Section -->
+            <div class="related-posts-section" data-template="related">
+                <h2>Related Articles</h2>
+                <div class="related-posts-grid">
+                    {{RELATED_POSTS}}
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="./blog-navigation.js"></script>
+</body>
+
+</html>

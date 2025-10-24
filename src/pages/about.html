@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>About Modern Age Coders | Expert Coding Education</title>
+    <meta name="description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning. Discover our story and mission today!">
+    <meta name="keywords" content="about modern age coders, coding education, programming school, STEM education, technology training, expert instructors, personalized learning">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/about">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/about">
+    <meta property="og:title" content="About Us - Modern Age Coders | Expert Coding & Math Education">
+    <meta property="og:description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning. Discover our story and mission.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/about">
+    <meta name="twitter:title" content="About Us - Modern Age Coders | Expert Coding & Math Education">
+    <meta name="twitter:description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Modern Age Coders",
+        "description": "Learn about our innovative education platform teaching coding and mathematics to students of all ages.",
+        "url": "https://learn.modernagecoders.com/about",
+        "mainEntity": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "description": "Innovative education platform teaching coding and mathematics to students of all ages",
+            "url": "https://learn.modernagecoders.com",
+            "foundingDate": "2020",
+            "numberOfEmployees": {
+                "@type": "QuantitativeValue",
+                "value": "50+"
+            },
+            "alumni": {
+                "@type": "QuantitativeValue",
+                "value": "10000+"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919123366161",
+                "contactType": "Customer Service",
+                "email": "contact@modernagecoders.com"
+            }
+        }
+    }
+    </script>
+
+    <!-- Link to the single, updated stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<!-- Added 'about-page' class for page-specific styling -->
+<body class="about-page">
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon"></div>
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="courses.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="courses.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages 6-12)</a>
+                                <a href="courses.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages 13-18)</a>
+                                <a href="courses.html?tab=coding&subtab=college" class="dropdown-item">For College Students</a>
+                                <a href="courses.html?tab=coding&subtab=college" class="dropdown-item">For Professionals</a>
+                                <a href="courses.html?tab=coding&subtab=customized" class="dropdown-item">Customized Training</a>
+                                <a href="courses.html?tab=coding&subtab=girls" class="dropdown-item highlight">Special For Girls</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link active">About</a></li>
+                        <li class="nav-item"><a href="../../content/blog/generated/" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link login-btn">Login</a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">Student Login</a>
+                                <a href="#" class="dropdown-item">Teacher Login</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="courses.html" class="cta-button">Start Learning</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- The container div is replaced by main to keep the layout consistent with other pages -->
+    <main>
+        <div class="about-hero">
+            <div class="hero-content">
+                <h1>About Modern Age Coders</h1>
+                <p>Where creativity meets discipline, and learning becomes an adventure in code and mathematics</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="content-card">
+                <h3>Who We Are</h3>
+                <p>Modern Age Coders is an innovative education platform teaching coding and mathematics to students aged 12-21. We combine expert instruction with personalized attention, preparing students for real-world tech careers through practical, project-based learning.</p>
+            </div>
+
+            <div class="content-card">
+                <h3>Our Approach</h3>
+                <p>We focus on hands-on learning where students build real projects. From games to websites, every lesson involves creating something tangible. This practical approach helps students understand concepts deeply while building an impressive portfolio.</p>
+            </div>
+
+            <div class="content-card">
+                <h3>Our Students</h3>
+                <p>We teach students from ages 12-21 in small batches, ensuring individual attention. Whether they're complete beginners or looking to advance their skills, we provide the right curriculum and pace for each student's learning journey.</p>
+            </div>
+
+            <div class="content-card">
+                <h3>Beyond Classroom</h3>
+                <p>Learning extends beyond coding lessons. We organize hackathons, coding competitions, tech field trips, and social events. Students build confidence, teamwork skills, and friendships while creating a professional portfolio.</p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2 class="section-title">Our Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="500">0</span>
+                    <span class="stat-label">Students Taught</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="50">0</span>
+                    <span class="stat-label">Projects Built</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="95">0</span>
+                    <span class="stat-label">Success Rate %</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span>
+                    <span class="stat-label">Events Organized</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="journey-section">
+            <h2 class="section-title">The Learning Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h4>Discovery Phase</h4>
+                        <p>Students learn programming fundamentals through interactive exercises. We cover logic, algorithms, and their first language with immediate feedback and practical examples.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h4>Building Phase</h4>
+                        <p>Students start creating real projects. Simple calculators become games, static pages turn into interactive websites. Each project reinforces concepts while building practical skills.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h4>Mastery Phase</h4>
+                        <p>Advanced topics like data structures, frameworks, and competitive programming. Students develop their own projects and explore specializations that interest them most.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h4>Launch Phase</h4>
+                        <p>Students graduate with a portfolio of projects, strong computer science fundamentals, and confidence to pursue tech careers or continue learning independently.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="curriculum-section">
+            <h2 class="section-title">What Students Learn</h2>
+            <div class="curriculum-grid">
+                <div class="curriculum-card">
+                    <h4>Programming Languages</h4>
+                    <ul class="curriculum-list">
+                        <li>Python for beginners and data science</li>
+                        <li>JavaScript for web development</li>
+                        <li>Java for object-oriented programming</li>
+                        <li>C++ for competitive programming</li>
+                        <li>HTML/CSS for frontend design</li>
+                    </ul>
+                </div>
+
+                <div class="curriculum-card">
+                    <h4>Mathematics</h4>
+                    <ul class="curriculum-list">
+                        <li>Algebra and Number Theory</li>
+                        <li>Geometry and Trigonometry</li>
+                        <li>Calculus and Differential Equations</li>
+                        <li>Discrete Mathematics</li>
+                        <li>Statistics and Probability</li>
+                    </ul>
+                </div>
+
+                <div class="curriculum-card">
+                    <h4>Computer Science</h4>
+                    <ul class="curriculum-list">
+                        <li>Data Structures and Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Database Design and SQL</li>
+                        <li>Web Development Frameworks</li>
+                        <li>Version Control with Git</li>
+                    </ul>
+                </div>
+
+                <div class="curriculum-card">
+                    <h4>Practical Skills</h4>
+                    <ul class="curriculum-list">
+                        <li>Building games, websites, and apps</li>
+                        <li>Problem-solving and logical thinking</li>
+                        <li>Team collaboration and communication</li>
+                        <li>Debugging and code optimization</li>
+                        <li>Portfolio development and presentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-section">
+            <h2 class="section-title">What People Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">My daughter built her own game in 3 months. The teachers are patient, the curriculum is practical, and she looks forward to every class.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">P</div>
+                        <div class="author-info">
+                            <h5>Priya Sharma</h5>
+                            <p>Parent of 14-year-old</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">Project-based learning made everything click. I'm now confident in hackathons and got an internship thanks to my portfolio.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div class="author-info">
+                            <h5>Rahul Mehta</h5>
+                            <p>College Student, Age 20</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">I appreciate the transparent progress tracking. My son improved in both coding and his school math grades.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <h5>Amit Patel</h5>
+                            <p>Parent of 16-year-old</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="values-section">
+            <h2 class="section-title">What Drives Us</h2>
+            <div class="values-grid">
+                <div class="value-card">
+                    <h4>Creative Learning</h4>
+                    <p>We encourage creative thinking and innovative problem-solving. Students learn to approach challenges with imagination and develop unique solutions.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Project-Based Education</h4>
+                    <p>Every concept is taught through real-world applications. Students build tangible projects they can showcase and be proud of.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Community First</h4>
+                    <p>Through group activities and collaborative learning, we build a supportive community where students grow together and learn teamwork.</p>
+                </div>
+                <div class="value-card">
+                    <h4>Future Ready</h4>
+                    <p>We equip students with strong logic and problem-solving skills that prepare them for college, careers, and the evolving tech landscape.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Background Canvas Animation
+        const canvas = document.getElementById('background-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
+        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+        const allSymbols = [...mathSymbols, ...codeSymbols];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        function createParticles() {
+            particles = [];
+            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
+                    speed: 0.3 + Math.random() * 0.7,
+                    size: 12 + Math.random() * 10,
+                    opacity: 0.1 + Math.random() * 0.3,
+                    rotation: Math.random() * Math.PI * 2,
+                    rotationSpeed: (Math.random() - 0.5) * 0.02,
+                    isMath: Math.random() > 0.5
+                });
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            particles.forEach(p => {
+                p.y -= p.speed;
+                p.rotation += p.rotationSpeed;
+                
+                if (p.y < -30) {
+                    p.y = canvas.height + 30;
+                    p.x = Math.random() * canvas.width;
+                    p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
+                }
+                
+                ctx.save();
+                ctx.translate(p.x, p.y);
+                ctx.rotate(p.rotation);
+                ctx.font = `${p.size}px monospace`;
+                
+                if (p.isMath) {
+                    ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
+                } else {
+                    ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
+                }
+                
+                ctx.fillText(p.char, 0, 0);
+                ctx.restore();
+            });
+            
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            createParticles();
+        });
+
+        resizeCanvas();
+        createParticles();
+        animate();
+
+        // GSAP Animations with faster scroll triggers
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Hero animations
+        gsap.from('.hero-content h1', {
+            opacity: 0,
+            y: 30,
+            duration: 0.8,
+            ease: 'power3.out'
+        });
+
+        gsap.from('.hero-content p', {
+            opacity: 0,
+            duration: 0.8,
+            delay: 0.2,
+            ease: 'power3.out'
+        });
+
+        // Content cards
+        gsap.utils.toArray('.content-card').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 30,
+                duration: 0.6,
+                delay: i * 0.08,
+                ease: 'power2.out'
+            });
+        });
+
+        // Stats counter animation
+        gsap.utils.toArray('.stat-item').forEach((stat, i) => {
+            const number = stat.querySelector('.stat-number');
+            const target = parseInt(number.getAttribute('data-target'));
+            
+            gsap.from(stat, {
+                scrollTrigger: {
+                    trigger: stat,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 20,
+                duration: 0.5,
+                delay: i * 0.08,
+                ease: 'back.out',
+                onStart: () => {
+                    let current = 0;
+                    const increment = target / 50;
+                    const timer = setInterval(() => {
+                        current += increment;
+                        if (current >= target) {
+                            number.textContent = target;
+                            clearInterval(timer);
+                        } else {
+                            number.textContent = Math.floor(current);
+                        }
+                    }, 20);
+                }
+            });
+        });
+
+        // Section titles
+        gsap.utils.toArray('.section-title').forEach(title => {
+            gsap.from(title, {
+                scrollTrigger: {
+                    trigger: title,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 20,
+                duration: 0.7,
+                ease: 'power2.out'
+            });
+        });
+
+        // Timeline items
+        gsap.utils.toArray('.timeline-item').forEach((item, i) => {
+            gsap.from(item, {
+                scrollTrigger: {
+                    trigger: item,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 30,
+                duration: 0.6,
+                delay: i * 0.1,
+                ease: 'power2.out'
+            });
+        });
+
+        // Curriculum cards
+        gsap.utils.toArray('.curriculum-card').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 30,
+                duration: 0.6,
+                delay: i * 0.08,
+                ease: 'power2.out'
+            });
+        });
+
+        // Testimonial cards
+        gsap.utils.toArray('.testimonial-card').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 30,
+                duration: 0.6,
+                delay: i * 0.1,
+                ease: 'power2.out'
+            });
+        });
+
+        // Value cards
+        gsap.utils.toArray('.value-card').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: {
+                    trigger: card,
+                    start: 'top 90%',
+                    toggleActions: 'play none none none'
+                },
+                opacity: 0,
+                y: 30,
+                duration: 0.6,
+                delay: i * 0.1,
+                ease: 'power2.out'
+            });
+        });
+    </script>
+    <script src="scripts/lazy-loading.min.js"></script>
+    <script src="scripts/lazy-loading.min.js"></script>
+</body>
+</html>

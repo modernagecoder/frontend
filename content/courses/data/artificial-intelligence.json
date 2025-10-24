@@ -1,0 +1,1453 @@
+{
+    "meta": {
+        "slug": "artificial-intelligence-complete-masterclass",
+        "title": "Complete Artificial Intelligence Masterclass - Foundations to AGI Research",
+        "description": "The most comprehensive 12-month Artificial Intelligence program covering classical AI, modern AI, intelligent systems, robotics, cognitive computing, multi-agent systems, AI ethics, and cutting-edge research. From search algorithms to artificial general intelligence concepts.",
+        "keywords": [
+            "artificial intelligence",
+            "AI systems",
+            "intelligent agents",
+            "expert systems",
+            "knowledge representation",
+            "AI algorithms",
+            "robotics AI",
+            "cognitive computing",
+            "symbolic AI",
+            "AI reasoning",
+            "planning algorithms",
+            "multi-agent systems",
+            "AI ethics",
+            "AGI",
+            "AI research",
+            "constraint satisfaction"
+        ],
+        "category": "Artificial Intelligence & Intelligent Systems",
+        "price": {
+            "group": "₹2499/month",
+            "personal": "₹4999/month",
+            "lifetime": "₹69,999 (one-time)"
+        },
+        "duration": "12 months (52 weeks)",
+        "level": "Complete Beginner to AI Research Scientist",
+        "commitment": "25-30 hours/week recommended",
+        "certification": "Advanced Artificial Intelligence Certification upon completion"
+    },
+    "program_overview": {
+        "title": "Complete Artificial Intelligence Masterclass",
+        "tagline": "From Classical AI to Artificial General Intelligence Research",
+        "description": "This is not just an AI course—it's a complete journey through the entire landscape of Artificial Intelligence. Whether you're a complete beginner, computer science student, researcher, or professional wanting deep AI expertise, this 12-month masterclass will transform you into an AI expert with comprehensive knowledge spanning from classical symbolic AI to modern neural approaches, from theoretical foundations to practical intelligent systems.\n\nYou'll master AI from philosophical foundations to cutting-edge research: from search algorithms to knowledge representation, from expert systems to autonomous agents, from logic and reasoning to probabilistic AI, from planning to learning, from single agents to multi-agent systems, from narrow AI to AGI concepts. By the end, you'll have built 50+ intelligent systems, understood AI at the deepest level, published research, and be prepared for AI research scientist roles or PhD programs.",
+        "what_makes_this_different": [
+            "Comprehensive coverage: Classical + Modern AI",
+            "Theoretical foundations AND practical implementation",
+            "Covers all AI paradigms: symbolic, connectionist, hybrid",
+            "Philosophy and ethics integrated throughout",
+            "Research methodology and paper writing",
+            "Mathematics for AI taught rigorously",
+            "Robotics and embodied AI included",
+            "Multi-agent systems and game theory",
+            "Cognitive architectures and human-level AI",
+            "AGI (Artificial General Intelligence) concepts",
+            "Industry applications across all domains",
+            "50+ intelligent systems built from scratch",
+            "Preparation for AI research careers and PhD"
+        ],
+        "learning_path": {
+            "phase_1": "Foundations (Months 1-3): AI History, Search, Logic, Knowledge Representation, Problem Solving",
+            "phase_2": "Reasoning & Learning (Months 4-6): Probabilistic AI, Planning, Reasoning Under Uncertainty, ML Integration",
+            "phase_3": "Intelligent Systems (Months 7-9): Expert Systems, Agents, Robotics, Vision, NLP, Multi-Agent Systems",
+            "phase_4": "Advanced AI (Months 10-12): Cognitive AI, AGI, Research, Ethics, Philosophy, Emerging Frontiers"
+        },
+        "career_outcomes": [
+            "AI Research Engineer (after 3 months)",
+            "AI Systems Architect (after 6 months)",
+            "Senior AI Researcher (after 9 months)",
+            "AI Research Scientist / PhD Ready (after 12 months)"
+        ]
+    },
+    "phase_1_foundation": {
+        "title": "PHASE 1: Classical AI Foundations (Months 1-3, Weeks 1-13)",
+        "description": "Build deep understanding of AI foundations, search algorithms, logic, knowledge representation, and problem-solving.",
+        "month_1_2": {
+            "title": "Months 1-2: AI Foundations & Search Algorithms",
+            "weeks": "Week 1-8",
+            "week_1_2": {
+                "title": "Introduction to Artificial Intelligence",
+                "topics": [
+                    "What is Artificial Intelligence? Definitions and perspectives",
+                    "History of AI: from Dartmouth Conference to present",
+                    "AI winters and AI springs",
+                    "Turing Test and philosophical foundations",
+                    "Strong AI vs Weak AI",
+                    "Narrow AI, General AI (AGI), Super AI",
+                    "Symbolic AI vs Connectionist AI vs Hybrid AI",
+                    "AI paradigms: logic-based, knowledge-based, learning-based",
+                    "Rational agents and intelligent behavior",
+                    "PEAS framework: Performance, Environment, Actuators, Sensors",
+                    "Agent types: simple reflex, model-based, goal-based, utility-based",
+                    "Agent environments: fully observable, deterministic, episodic, static",
+                    "AI applications across industries",
+                    "AI vs ML vs DL: relationships and differences",
+                    "State of AI: current capabilities and limitations",
+                    "Ethics and societal impact overview"
+                ],
+                "projects": [
+                    "Simple reflex agent implementation",
+                    "Model-based agent for grid world",
+                    "Agent environment simulator",
+                    "AI timeline and evolution visualization",
+                    "Turing Test chatbot (rule-based)"
+                ],
+                "practice": "Study 20 landmark AI papers from history"
+            },
+            "week_3_4": {
+                "title": "Search Algorithms - Part 1 (Uninformed Search)",
+                "topics": [
+                    "Problem-solving as search",
+                    "State space representation",
+                    "Problem formulation: initial state, actions, goal test, path cost",
+                    "Tree search vs graph search",
+                    "Search strategies evaluation: completeness, optimality, time, space",
+                    "Breadth-First Search (BFS): algorithm and analysis",
+                    "Uniform Cost Search (UCS)",
+                    "Depth-First Search (DFS): algorithm and analysis",
+                    "Depth-Limited Search (DLS)",
+                    "Iterative Deepening DFS (IDDFS)",
+                    "Bidirectional search",
+                    "Comparing uninformed search strategies",
+                    "Search in continuous spaces",
+                    "Memory-bounded search",
+                    "Real-world applications: route finding, puzzle solving"
+                ],
+                "projects": [
+                    "8-puzzle solver with BFS/DFS",
+                    "Maze solver with multiple algorithms",
+                    "Route finding system (city maps)",
+                    "N-Queens problem solver",
+                    "Missionaries and Cannibals problem",
+                    "Search visualization tool",
+                    "Performance comparison framework"
+                ],
+                "practice": "Implement all uninformed search algorithms from scratch"
+            },
+            "week_5_6": {
+                "title": "Search Algorithms - Part 2 (Informed/Heuristic Search)",
+                "topics": [
+                    "Heuristic functions and admissibility",
+                    "Greedy Best-First Search",
+                    "A* Search: algorithm, optimality proof",
+                    "Heuristic design and dominance",
+                    "Memory-bounded heuristic search: IDA*, RBFS, SMA*",
+                    "Weighted A* and bounded suboptimal search",
+                    "Bidirectional heuristic search",
+                    "Pattern databases for heuristics",
+                    "Local search algorithms",
+                    "Hill-climbing and variants",
+                    "Simulated annealing",
+                    "Genetic algorithms for search",
+                    "Local beam search",
+                    "Constraint satisfaction in search",
+                    "Search in game playing (preview)"
+                ],
+                "projects": [
+                    "A* pathfinding implementation",
+                    "15-puzzle solver with pattern databases",
+                    "Route optimization with A*",
+                    "Simulated annealing for TSP",
+                    "Genetic algorithm for optimization",
+                    "Hill-climbing variants comparison",
+                    "Heuristic function designer tool"
+                ],
+                "practice": "Solve 30 search problems with optimal algorithms"
+            },
+            "week_7_8": {
+                "title": "Adversarial Search & Game Playing",
+                "topics": [
+                    "Game theory basics for AI",
+                    "Game trees and game search",
+                    "Minimax algorithm",
+                    "Alpha-beta pruning",
+                    "Move ordering for better pruning",
+                    "Iterative deepening in games",
+                    "Evaluation functions for game states",
+                    "Quiescence search",
+                    "Transposition tables",
+                    "Monte Carlo Tree Search (MCTS)",
+                    "Upper Confidence Bounds (UCB)",
+                    "MCTS in AlphaGo",
+                    "Stochastic games and expectiminimax",
+                    "Partially observable games",
+                    "Multi-player games",
+                    "Real-time decision making in games"
+                ],
+                "projects": [
+                    "Tic-Tac-Toe with minimax",
+                    "Chess AI with alpha-beta pruning",
+                    "Checkers AI implementation",
+                    "Connect-4 game AI",
+                    "Go AI with MCTS (simplified)",
+                    "Poker bot (partial information)",
+                    "Game AI framework with multiple algorithms"
+                ],
+                "practice": "Build 10 different game-playing AI agents"
+            }
+        },
+        "month_3_4": {
+            "title": "Month 3: Logic & Knowledge Representation",
+            "weeks": "Week 9-13",
+            "week_9_10": {
+                "title": "Propositional Logic",
+                "topics": [
+                    "Knowledge-based agents",
+                    "Logic as knowledge representation",
+                    "Propositional logic: syntax and semantics",
+                    "Logical connectives: AND, OR, NOT, IMPLIES, IFF",
+                    "Truth tables and logical equivalence",
+                    "Inference in propositional logic",
+                    "Inference rules: Modus Ponens, And-Elimination",
+                    "Resolution and refutation",
+                    "Conjunctive Normal Form (CNF)",
+                    "Horn clauses and forward/backward chaining",
+                    "SAT solvers and applications",
+                    "DPLL algorithm",
+                    "WalkSAT and local search for SAT",
+                    "Applications: circuit design, planning, verification",
+                    "Limitations of propositional logic"
+                ],
+                "projects": [
+                    "Propositional logic inference engine",
+                    "SAT solver implementation",
+                    "Logic-based puzzle solver (Sudoku)",
+                    "Wumpus World agent with logic",
+                    "Circuit verification system",
+                    "Resolution theorem prover",
+                    "Knowledge base system"
+                ],
+                "practice": "Solve 40 logical reasoning problems"
+            },
+            "week_11_12": {
+                "title": "First-Order Logic & Inference",
+                "topics": [
+                    "First-Order Logic (FOL) syntax",
+                    "Predicates, functions, quantifiers",
+                    "Universal and existential quantification",
+                    "Semantics and interpretation",
+                    "Using FOL for knowledge representation",
+                    "Unification algorithm",
+                    "Generalized Modus Ponens",
+                    "Forward chaining in FOL",
+                    "Backward chaining in FOL",
+                    "Resolution in FOL",
+                    "Skolemization and CNF conversion",
+                    "Prolog and logic programming",
+                    "Herbrand universe and interpretations",
+                    "Completeness and decidability",
+                    "Description logics",
+                    "Semantic networks and frames"
+                ],
+                "projects": [
+                    "FOL inference engine",
+                    "Prolog-like system in Python",
+                    "Automated theorem prover",
+                    "Knowledge base with FOL",
+                    "Family tree reasoning system",
+                    "Medical diagnosis system (logic-based)",
+                    "Natural language to FOL translator (simple)"
+                ],
+                "practice": "Build 10 knowledge-based systems with FOL"
+            },
+            "week_13": {
+                "title": "Constraint Satisfaction Problems",
+                "topics": [
+                    "CSP framework: variables, domains, constraints",
+                    "Examples: map coloring, N-Queens, scheduling",
+                    "Backtracking search for CSP",
+                    "Variable ordering heuristics: MRV, degree heuristic",
+                    "Value ordering: least-constraining-value",
+                    "Inference in CSP: forward checking",
+                    "Arc consistency (AC-3 algorithm)",
+                    "Path consistency and k-consistency",
+                    "Local search for CSP: min-conflicts",
+                    "Constraint propagation",
+                    "Structure in CSP: tree-structured, nearly tree-structured",
+                    "Cutset conditioning",
+                    "Temporal CSPs",
+                    "Soft constraints and optimization",
+                    "Applications: scheduling, resource allocation, configuration"
+                ],
+                "projects": [
+                    "N-Queens CSP solver",
+                    "Sudoku solver with constraint propagation",
+                    "Map coloring problem",
+                    "Course scheduling system",
+                    "Resource allocation optimizer",
+                    "Timetable generator",
+                    "PHASE 1 MINI CAPSTONE: Intelligent Planning System with CSP"
+                ],
+                "assessment": "Phase 1 Exam - Search, Logic, Knowledge Representation, CSP"
+            }
+        }
+    },
+    "phase_2_frontend_mastery": {
+        "title": "PHASE 2: Reasoning, Planning & Probabilistic AI (Months 4-6, Weeks 14-26)",
+        "description": "Master probabilistic reasoning, planning algorithms, decision theory, and uncertainty management in AI.",
+        "month_7_8": {
+            "title": "Months 4-5: Uncertainty & Probabilistic Reasoning",
+            "weeks": "Week 14-22",
+            "week_27_28": {
+                "title": "Probability Theory for AI",
+                "topics": [
+                    "Uncertainty in AI systems",
+                    "Probability basics: events, axioms, rules",
+                    "Conditional probability and Bayes' Rule",
+                    "Bayesian reasoning",
+                    "Random variables: discrete and continuous",
+                    "Probability distributions",
+                    "Joint probability distributions",
+                    "Independence and conditional independence",
+                    "Inference using full joint distributions",
+                    "Marginalization and conditioning",
+                    "Naive Bayes classifier",
+                    "Bayesian networks introduction",
+                    "Belief propagation basics",
+                    "Applications: diagnosis, prediction, classification",
+                    "Probabilistic reasoning under uncertainty"
+                ],
+                "projects": [
+                    "Bayesian inference engine",
+                    "Naive Bayes spam filter",
+                    "Medical diagnosis system (probabilistic)",
+                    "Weather prediction system",
+                    "Probabilistic reasoning toolkit",
+                    "Bayesian calculator and visualizer"
+                ],
+                "practice": "Solve 50 probabilistic reasoning problems"
+            },
+            "week_29_30": {
+                "title": "Bayesian Networks",
+                "topics": [
+                    "Bayesian Network structure and semantics",
+                    "Conditional independence in Bayes nets",
+                    "Constructing Bayesian networks",
+                    "Compact conditional distributions: CPTs",
+                    "Exact inference in Bayesian networks",
+                    "Inference by enumeration",
+                    "Variable elimination algorithm",
+                    "Clustering algorithms for inference",
+                    "Junction tree algorithm",
+                    "Approximate inference: sampling methods",
+                    "Direct sampling and rejection sampling",
+                    "Likelihood weighting",
+                    "Markov Chain Monte Carlo (MCMC)",
+                    "Gibbs sampling",
+                    "Learning Bayesian networks from data",
+                    "Parameter learning: MLE and MAP",
+                    "Structure learning: score-based, constraint-based"
+                ],
+                "projects": [
+                    "Bayesian Network inference engine",
+                    "Variable elimination implementation",
+                    "MCMC sampler for Bayes nets",
+                    "Medical diagnosis Bayes net",
+                    "Risk assessment system",
+                    "Bayes net learning from data",
+                    "Decision support system with Bayes nets"
+                ],
+                "practice": "Build 15 Bayesian network applications"
+            },
+            "week_31_32": {
+                "title": "Markov Models & Temporal Reasoning",
+                "topics": [
+                    "Time and uncertainty",
+                    "Markov processes and Markov assumption",
+                    "Hidden Markov Models (HMM)",
+                    "HMM representation and semantics",
+                    "Forward algorithm for filtering",
+                    "Viterbi algorithm for most likely sequence",
+                    "Forward-backward algorithm for smoothing",
+                    "Baum-Welch algorithm for learning HMMs",
+                    "Applications: speech recognition, POS tagging",
+                    "Kalman filters for continuous state",
+                    "Extended Kalman filters",
+                    "Particle filters (Sequential Monte Carlo)",
+                    "Dynamic Bayesian Networks (DBN)",
+                    "Temporal reasoning and prediction",
+                    "Applications: tracking, localization, time-series"
+                ],
+                "projects": [
+                    "HMM for speech recognition (simplified)",
+                    "POS tagger with HMM",
+                    "Robot localization with Kalman filter",
+                    "Particle filter for tracking",
+                    "Weather prediction with HMM",
+                    "Stock market HMM (simplified)",
+                    "Dynamic Bayesian network system"
+                ],
+                "practice": "Implement all temporal reasoning algorithms"
+            },
+            "week_33_34": {
+                "title": "Decision Theory & Utility",
+                "topics": [
+                    "Making decisions under uncertainty",
+                    "Utility theory and preferences",
+                    "Utility functions and axioms",
+                    "Maximum Expected Utility (MEU)",
+                    "Decision networks (influence diagrams)",
+                    "Value of information",
+                    "Value of perfect information (VPI)",
+                    "Sequential decision problems",
+                    "Markov Decision Processes (MDPs)",
+                    "MDP formulation: states, actions, transitions, rewards",
+                    "Bellman equations",
+                    "Value iteration algorithm",
+                    "Policy iteration algorithm",
+                    "Partially Observable MDPs (POMDPs)",
+                    "POMDP value iteration",
+                    "Applications: robotics, game playing, resource allocation"
+                ],
+                "projects": [
+                    "Decision network solver",
+                    "MDP solver (value iteration, policy iteration)",
+                    "Grid world MDP",
+                    "Inventory management with MDPs",
+                    "Robot navigation with POMDP",
+                    "Medical treatment decision system",
+                    "Resource allocation optimizer"
+                ],
+                "practice": "Solve 25 decision-theoretic problems"
+            },
+            "week_35": {
+                "title": "Planning Under Uncertainty",
+                "topics": [
+                    "Planning with probabilistic effects",
+                    "Contingency planning",
+                    "Conditional plans and execution monitoring",
+                    "Replanning strategies",
+                    "Online planning and acting",
+                    "Information gathering actions",
+                    "Exploration vs exploitation",
+                    "Multi-armed bandit problems",
+                    "UCB algorithms for exploration",
+                    "Monte Carlo planning",
+                    "Rollout algorithms",
+                    "Hierarchical planning under uncertainty",
+                    "Applications: robotics, autonomous systems"
+                ],
+                "projects": [
+                    "Contingent planner",
+                    "Multi-armed bandit solver",
+                    "Robot exploration system",
+                    "Adaptive planning agent",
+                    "Online planning framework",
+                    "Monte Carlo planner"
+                ],
+                "practice": "Build 10 planning under uncertainty systems"
+            }
+        },
+        "month_9_10": {
+            "title": "Month 6: Classical Planning & Knowledge Integration",
+            "weeks": "Week 23-26",
+            "week_36_37": {
+                "title": "Classical Planning",
+                "topics": [
+                    "Planning problem representation",
+                    "STRIPS representation",
+                    "Actions: preconditions and effects",
+                    "State-space search for planning",
+                    "Forward (progression) state-space search",
+                    "Backward (regression) state-space search",
+                    "Heuristics for planning: ignore-preconditions, ignore-delete-lists",
+                    "Plan-space planning (partial-order planning)",
+                    "Graphplan algorithm",
+                    "Planning graphs and graph heuristics",
+                    "SAT-based planning",
+                    "PDDL (Planning Domain Definition Language)",
+                    "Hierarchical Task Network (HTN) planning",
+                    "Temporal planning",
+                    "Planning with resources and time",
+                    "Multi-agent planning basics"
+                ],
+                "projects": [
+                    "STRIPS planner implementation",
+                    "Graphplan algorithm",
+                    "Blocks world planner",
+                    "Logistics planning system",
+                    "Robot task planner",
+                    "SAT-based planner",
+                    "HTN planner (simplified)"
+                ],
+                "practice": "Solve 20 classical planning problems"
+            },
+            "week_38_39": {
+                "title": "Ontologies & Knowledge Engineering",
+                "topics": [
+                    "Knowledge engineering process",
+                    "Ontology definition and components",
+                    "Upper ontologies: Cyc, SUMO",
+                    "OWL (Web Ontology Language)",
+                    "RDF and semantic web",
+                    "Knowledge graphs",
+                    "Ontology design patterns",
+                    "Domain modeling",
+                    "Taxonomies and hierarchies",
+                    "Relationships and properties",
+                    "Reasoning with ontologies",
+                    "Ontology alignment and merging",
+                    "Protégé for ontology development",
+                    "SPARQL for querying knowledge",
+                    "Applications: healthcare, e-commerce, IoT"
+                ],
+                "projects": [
+                    "Domain ontology creation (healthcare/e-commerce)",
+                    "Knowledge graph builder",
+                    "Ontology-based reasoning system",
+                    "Semantic search engine",
+                    "Question answering with knowledge graphs",
+                    "Ontology alignment tool",
+                    "SPARQL query system"
+                ],
+                "practice": "Build 5 ontologies for different domains"
+            },
+            "week_40_41": {
+                "title": "Learning in AI Systems",
+                "topics": [
+                    "Learning agents architecture",
+                    "Supervised learning integration in AI",
+                    "Decision tree learning: ID3, C4.5",
+                    "Information gain and entropy",
+                    "Ensemble learning in AI",
+                    "Unsupervised learning for AI: clustering",
+                    "Reinforcement learning fundamentals (AI perspective)",
+                    "Q-learning in AI agents",
+                    "Temporal difference learning",
+                    "Exploration strategies",
+                    "Function approximation in RL",
+                    "Deep RL overview for AI",
+                    "Transfer learning in AI systems",
+                    "Meta-learning and learning to learn",
+                    "Hybrid symbolic-neural systems"
+                ],
+                "projects": [
+                    "Decision tree AI agent",
+                    "Reinforcement learning grid world",
+                    "Q-learning robot navigator",
+                    "Learning agent framework",
+                    "Hybrid reasoning system (logic + learning)",
+                    "Transfer learning AI agent",
+                    "Meta-learning experiment"
+                ],
+                "practice": "Integrate learning into 15 AI systems"
+            },
+            "week_42_43": {
+                "title": "Explanation & Interpretability in AI",
+                "topics": [
+                    "Explainable AI (XAI) importance",
+                    "Explanation in expert systems",
+                    "Trace-based explanations",
+                    "Rule-based explanation generation",
+                    "Argumentation and justification",
+                    "Counterfactual explanations",
+                    "Contrastive explanations",
+                    "Transparency vs performance tradeoffs",
+                    "LIME for model explanations",
+                    "SHAP values in AI",
+                    "Attention mechanisms for interpretability",
+                    "Causal reasoning for explanations",
+                    "User interfaces for explanations",
+                    "Evaluating explanation quality",
+                    "Regulatory requirements for explainability"
+                ],
+                "projects": [
+                    "Explainable expert system",
+                    "Explanation generator for decisions",
+                    "Argumentation framework",
+                    "Counterfactual explanation system",
+                    "XAI dashboard",
+                    "Causal reasoning engine",
+                    "Interactive explanation interface"
+                ],
+                "practice": "Add explanations to all AI systems built"
+            },
+            "week_44": {
+                "title": "Phase 2 Capstone Project",
+                "topics": [
+                    "Integrated AI system design",
+                    "Combining multiple AI techniques",
+                    "Reasoning under uncertainty",
+                    "Planning and decision-making",
+                    "Learning and adaptation",
+                    "Explanation generation"
+                ],
+                "projects": [
+                    "PHASE 2 CAPSTONE: Intelligent Decision Support System",
+                    "Requirements: Bayesian reasoning, planning, decision theory, learning, explanations",
+                    "Option 1: Medical diagnosis and treatment planning system",
+                    "Option 2: Autonomous robot mission planner",
+                    "Option 3: Smart home energy management system",
+                    "Option 4: Financial portfolio advisor with uncertainty"
+                ],
+                "assessment": "Phase 2 Exam - Probabilistic AI, Planning, Decision Theory, Learning"
+            }
+        }
+    },
+    "phase_3_backend_engineering": {
+        "title": "PHASE 3: Intelligent Systems & Applications (Months 7-9, Weeks 27-39)",
+        "description": "Master expert systems, intelligent agents, robotics, computer vision, NLP, and multi-agent systems.",
+        "month_13_14": {
+            "title": "Months 7-8: Expert Systems & Intelligent Agents",
+            "weeks": "Week 27-35",
+            "week_53_54": {
+                "title": "Expert Systems Architecture",
+                "topics": [
+                    "Expert systems overview and history",
+                    "MYCIN, DENDRAL, XCON case studies",
+                    "Expert system architecture: knowledge base, inference engine, UI",
+                    "Rule-based expert systems",
+                    "Forward chaining systems",
+                    "Backward chaining systems",
+                    "Conflict resolution strategies",
+                    "Certainty factors and fuzzy logic",
+                    "Dempster-Shafer theory",
+                    "Knowledge acquisition bottleneck",
+                    "Knowledge elicitation techniques",
+                    "Knowledge engineering methodology",
+                    "Explanation facilities in expert systems",
+                    "Expert system shells",
+                    "Modern applications of expert systems",
+                    "Limitations and decline of expert systems"
+                ],
+                "projects": [
+                    "Medical diagnosis expert system",
+                    "Legal reasoning expert system",
+                    "Technical troubleshooting system",
+                    "Financial advisory expert system",
+                    "Expert system shell development",
+                    "Rule-based configurator",
+                    "Fuzzy logic controller"
+                ],
+                "practice": "Build 10 domain-specific expert systems"
+            },
+            "week_55_56": {
+                "title": "Intelligent Agent Architectures",
+                "topics": [
+                    "Agent theory and design",
+                    "Deliberative agents (BDI: Belief-Desire-Intention)",
+                    "Reactive agents and subsumption architecture",
+                    "Hybrid agent architectures",
+                    "Layered architectures: InteRRaP, TouringMachines",
+                    "Agent communication languages (ACL)",
+                    "FIPA specifications",
+                    "Agent reasoning cycles",
+                    "Agent planning and execution",
+                    "Agent learning and adaptation",
+                    "Situated agents and embodiment",
+                    "Software agents vs physical agents",
+                    "Agent-oriented programming",
+                    "Agent development frameworks: JADE, Jason",
+                    "Applications: virtual assistants, bots, automation"
+                ],
+                "projects": [
+                    "BDI agent implementation",
+                    "Reactive agent for dynamic environment",
+                    "Hybrid agent architecture",
+                    "Communicating agents system",
+                    "Personal assistant agent",
+                    "Agent-based automation system",
+                    "Situated agent in simulation"
+                ],
+                "practice": "Design and implement 12 intelligent agents"
+            },
+            "week_57_58": {
+                "title": "Robotics & Embodied AI",
+                "topics": [
+                    "AI in robotics overview",
+                    "Robot perception: sensors and processing",
+                    "Computer vision for robotics",
+                    "Object recognition and tracking",
+                    "SLAM (Simultaneous Localization and Mapping)",
+                    "Robot motion planning: configuration space",
+                    "Path planning algorithms for robots",
+                    "Potential field methods",
+                    "Probabilistic roadmaps (PRM)",
+                    "Rapidly-exploring Random Trees (RRT)",
+                    "Robot control architectures",
+                    "Behavior-based robotics",
+                    "Robot learning: imitation, reinforcement",
+                    "Human-robot interaction",
+                    "ROS (Robot Operating System) basics",
+                    "Applications: autonomous vehicles, drones, industrial robots"
+                ],
+                "projects": [
+                    "Robot simulator with AI planning",
+                    "Path planning visualizer (PRM, RRT)",
+                    "SLAM implementation (simplified)",
+                    "Behavior-based robot controller",
+                    "Robot learning from demonstration",
+                    "Autonomous navigation system",
+                    "ROS-based AI agent (if feasible)"
+                ],
+                "practice": "Implement 10 robotics AI algorithms"
+            },
+            "week_59_60": {
+                "title": "Computer Vision for AI Systems",
+                "topics": [
+                    "Vision as AI problem",
+                    "Image formation and camera models",
+                    "Image processing fundamentals",
+                    "Edge detection: Canny, Sobel",
+                    "Feature detection: SIFT, SURF, ORB",
+                    "Image segmentation techniques",
+                    "Object recognition classical methods",
+                    "Template matching",
+                    "Hough transform for shape detection",
+                    "Optical flow and motion analysis",
+                    "Stereo vision and depth perception",
+                    "3D reconstruction from images",
+                    "Deep learning for vision (integration)",
+                    "Scene understanding and reasoning",
+                    "Visual reasoning and question answering",
+                    "Applications: surveillance, medical imaging, autonomous systems"
+                ],
+                "projects": [
+                    "Object detector (classical methods)",
+                    "Face recognition system",
+                    "Motion tracking application",
+                    "Image segmentation tool",
+                    "3D reconstruction (simple)",
+                    "Visual reasoning system",
+                    "Autonomous vehicle perception (simulated)"
+                ],
+                "practice": "Build 12 computer vision AI applications"
+            },
+            "week_61": {
+                "title": "Natural Language Understanding (AI Perspective)",
+                "topics": [
+                    "Language as AI challenge",
+                    "Syntax: parsing and grammars",
+                    "Context-free grammars",
+                    "Parsing algorithms: CKY, Earley",
+                    "Semantic analysis and representation",
+                    "First-order logic for semantics",
+                    "Lambda calculus for meaning",
+                    "Discourse and pragmatics",
+                    "Coreference resolution",
+                    "Information extraction",
+                    "Question answering systems",
+                    "Dialogue systems and conversational AI",
+                    "Natural language generation",
+                    "Machine translation (symbolic approaches)",
+                    "Integrating NLP with knowledge systems",
+                    "Semantic parsing and understanding"
+                ],
+                "projects": [
+                    "Parser for natural language",
+                    "Semantic representation generator",
+                    "Question answering system (logic-based)",
+                    "Dialogue system with state management",
+                    "Information extraction system",
+                    "Natural language interface to database",
+                    "Story understanding system"
+                ],
+                "practice": "Build 10 NLU systems with AI techniques"
+            }
+        },
+        "month_15_16": {
+            "title": "Month 9: Multi-Agent Systems & Collective Intelligence",
+            "weeks": "Week 36-39",
+            "week_62_63": {
+                "title": "Multi-Agent Systems Fundamentals",
+                "topics": [
+                    "Multi-agent systems (MAS) introduction",
+                    "Agent interactions and coordination",
+                    "Cooperation, collaboration, competition",
+                    "Agent communication protocols",
+                    "Speech acts and performatives",
+                    "Contract Net Protocol",
+                    "Negotiation and bargaining",
+                    "Auction mechanisms",
+                    "Coalition formation",
+                    "Task allocation in MAS",
+                    "Distributed problem solving",
+                    "Distributed constraint satisfaction",
+                    "Multi-agent planning",
+                    "Emergent behavior in MAS",
+                    "Applications: smart grids, traffic systems, e-commerce"
+                ],
+                "projects": [
+                    "Multi-agent coordination system",
+                    "Negotiation protocol implementation",
+                    "Auction system with agents",
+                    "Coalition formation simulator",
+                    "Distributed task allocation",
+                    "Multi-agent marketplace",
+                    "Swarm intelligence application"
+                ],
+                "practice": "Implement 12 multi-agent scenarios"
+            },
+            "week_64_65": {
+                "title": "Game Theory for Multi-Agent AI",
+                "topics": [
+                    "Game theory foundations",
+                    "Normal form games",
+                    "Nash equilibrium concept",
+                    "Finding Nash equilibria",
+                    "Dominant strategies",
+                    "Mixed strategies",
+                    "Extensive form games",
+                    "Subgame perfect equilibrium",
+                    "Repeated games and folk theorem",
+                    "Evolutionary game theory",
+                    "Mechanism design basics",
+                    "Voting and social choice",
+                    "Cooperative game theory",
+                    "Shapley value",
+                    "Applications in AI: auctions, negotiations, resource allocation"
+                ],
+                "projects": [
+                    "Game theory solver (Nash equilibrium)",
+                    "Repeated game simulator",
+                    "Auction mechanism with game theory",
+                    "Voting system analyzer",
+                    "Cooperative game solver",
+                    "Mechanism design implementation",
+                    "Multi-agent game scenarios"
+                ],
+                "practice": "Analyze 20 game-theoretic scenarios"
+            },
+            "week_66_67": {
+                "title": "Swarm Intelligence & Collective Behavior",
+                "topics": [
+                    "Swarm intelligence principles",
+                    "Ant Colony Optimization (ACO)",
+                    "Particle Swarm Optimization (PSO)",
+                    "Bee algorithms",
+                    "Flocking and bird behavior (Boids)",
+                    "Stigmergy and indirect communication",
+                    "Self-organization in swarms",
+                    "Emergent intelligence",
+                    "Distributed sensing and actuation",
+                    "Robot swarms",
+                    "Applications: optimization, robotics, routing",
+                    "Cellular automata and emergence",
+                    "Conway's Game of Life",
+                    "Wolfram's cellular automata",
+                    "Artificial life and ALife"
+                ],
+                "projects": [
+                    "Ant Colony Optimization for TSP",
+                    "Particle Swarm Optimizer",
+                    "Flocking simulation (Boids)",
+                    "Robot swarm simulator",
+                    "Stigmergy-based system",
+                    "Cellular automata explorer",
+                    "Artificial life simulation"
+                ],
+                "practice": "Implement 8 swarm intelligence algorithms"
+            },
+            "week_68_69": {
+                "title": "Social AI & Human-AI Interaction",
+                "topics": [
+                    "Social intelligence in AI",
+                    "Theory of Mind in AI",
+                    "Emotion recognition and affective computing",
+                    "Sentiment analysis for AI",
+                    "Social robots and companions",
+                    "Conversational AI and chatbots",
+                    "Personality in AI agents",
+                    "Trust and transparency in AI",
+                    "Anthropomorphism and uncanny valley",
+                    "Human-in-the-loop AI systems",
+                    "Collaborative AI (AI as teammate)",
+                    "Explainability for non-experts",
+                    "AI ethics in social contexts",
+                    "Cultural considerations in AI",
+                    "Applications: healthcare, education, customer service"
+                ],
+                "projects": [
+                    "Emotion-aware chatbot",
+                    "Social robot behavior system",
+                    "Theory of Mind agent",
+                    "Personality-based AI assistant",
+                    "Collaborative AI system",
+                    "Human-AI teaming framework",
+                    "Culturally-aware AI agent"
+                ],
+                "practice": "Build 10 social AI applications"
+            },
+            "week_70": {
+                "title": "Phase 3 Capstone Project",
+                "topics": [
+                    "Complex multi-agent system design",
+                    "Intelligent agent development",
+                    "Coordination and cooperation",
+                    "Real-world application",
+                    "Evaluation and analysis"
+                ],
+                "projects": [
+                    "PHASE 3 CAPSTONE: Intelligent Multi-Agent System",
+                    "Requirements: Multiple agents, coordination, learning, real-world application",
+                    "Option 1: Smart city traffic management with agents",
+                    "Option 2: Multi-robot warehouse automation",
+                    "Option 3: Distributed energy grid management",
+                    "Option 4: Multi-agent trading and auction system",
+                    "Option 5: Disaster response coordination system"
+                ],
+                "assessment": "Phase 3 Exam - Agents, Robotics, Vision, NLP, Multi-Agent Systems"
+            }
+        }
+    },
+    "phase_4_advanced_production": {
+        "title": "PHASE 4: Advanced AI, AGI & Research (Months 10-12, Weeks 40-52)",
+        "description": "Master cognitive architectures, AGI concepts, AI philosophy, ethics, cutting-edge research, and career preparation.",
+        "month_19_20": {
+            "title": "Months 10-11: Cognitive AI & AGI",
+            "weeks": "Week 40-48",
+            "week_79_80": {
+                "title": "Cognitive Architectures",
+                "topics": [
+                    "What are cognitive architectures?",
+                    "Human cognition and AI",
+                    "Symbolic cognitive architectures: SOAR",
+                    "ACT-R architecture",
+                    "CLARION: hybrid architecture",
+                    "Connectionist architectures",
+                    "Global Workspace Theory",
+                    "Memory systems: working, episodic, semantic",
+                    "Attention mechanisms in cognition",
+                    "Meta-cognition and self-awareness",
+                    "Cognitive modeling",
+                    "Integrated cognitive systems",
+                    "Embodied cognition",
+                    "Comparing architectures",
+                    "Applications: human performance modeling, training systems"
+                ],
+                "projects": [
+                    "SOAR agent implementation",
+                    "ACT-R cognitive model",
+                    "Memory system simulation",
+                    "Attention-based cognitive agent",
+                    "Metacognitive reasoning system",
+                    "Cognitive architecture comparison",
+                    "Human performance simulator"
+                ],
+                "practice": "Implement 5 cognitive architecture models"
+            },
+            "week_81_82": {
+                "title": "Artificial General Intelligence (AGI) Concepts",
+                "topics": [
+                    "Narrow AI vs AGI distinction",
+                    "Definitions of intelligence",
+                    "General intelligence requirements",
+                    "Transfer learning and generalization",
+                    "Common sense reasoning",
+                    "Abstraction and analogy",
+                    "Causal reasoning for AGI",
+                    "AGI architectures and proposals",
+                    "OpenCog framework",
+                    "AIXI theoretical model",
+                    "Universal artificial intelligence theory",
+                    "Whole brain emulation",
+                    "Consciousness and AGI",
+                    "Self-improvement and recursive intelligence",
+                    "AGI timeline predictions",
+                    "Challenges and roadblocks to AGI"
+                ],
+                "projects": [
+                    "Common sense reasoning system",
+                    "Analogy-making engine",
+                    "Causal reasoning framework",
+                    "Transfer learning across domains",
+                    "AGI architecture proposal (theoretical)",
+                    "General problem solver (modern attempt)",
+                    "AGI evaluation framework"
+                ],
+                "practice": "Study and critique 10 AGI proposals"
+            },
+            "week_83_84": {
+                "title": "AI Philosophy & Theory of Mind",
+                "topics": [
+                    "Philosophy of AI: can machines think?",
+                    "Chinese Room argument (Searle)",
+                    "Computational theory of mind",
+                    "Functionalism vs physicalism",
+                    "Consciousness in machines",
+                    "Hard problem of consciousness",
+                    "Qualia and subjective experience",
+                    "Intentionality in AI",
+                    "Free will and determinism",
+                    "Personal identity and AI",
+                    "Machine consciousness proposals",
+                    "Integrated Information Theory (IIT)",
+                    "Global Workspace Theory applied to AI",
+                    "Philosophical zombies",
+                    "Ethics of creating conscious AI",
+                    "Rights and moral status of AI"
+                ],
+                "projects": [
+                    "Philosophical argument analyzer",
+                    "Consciousness detection framework (theoretical)",
+                    "Turing Test variants implementation",
+                    "Theory of Mind test suite",
+                    "Ethical reasoning system for AI consciousness",
+                    "Philosophy paper comparative analysis"
+                ],
+                "practice": "Write 5 philosophical position papers on AI"
+            },
+            "week_85_86": {
+                "title": "AI Safety & Alignment",
+                "topics": [
+                    "AI safety research overview",
+                    "Alignment problem: aligning AI with human values",
+                    "Value learning from humans",
+                    "Inverse reinforcement learning for alignment",
+                    "Cooperative Inverse Reinforcement Learning (CIRL)",
+                    "Corrigibility and interruptibility",
+                    "Off-switch problem",
+                    "Reward hacking and specification gaming",
+                    "Robustness and adversarial examples",
+                    "Interpretability for safety",
+                    "Verification and validation of AI systems",
+                    "Containment and control strategies",
+                    "Oracle AI, Tool AI, Agent AI risks",
+                    "Existential risk from AGI",
+                    "AI safety organizations: MIRI, FHI, DeepMind Safety",
+                    "Research directions in AI safety"
+                ],
+                "projects": [
+                    "Value learning system",
+                    "Inverse RL for preference learning",
+                    "Corrigible AI agent",
+                    "Adversarial robustness tester",
+                    "AI safety evaluation framework",
+                    "Alignment research simulation",
+                    "Safety verification tools"
+                ],
+                "practice": "Analyze 20 AI safety scenarios"
+            },
+            "week_87": {
+                "title": "AI Ethics & Societal Impact",
+                "topics": [
+                    "Ethics in AI development and deployment",
+                    "Bias and fairness in AI systems",
+                    "Algorithmic bias detection and mitigation",
+                    "Accountability and transparency",
+                    "Privacy in AI systems",
+                    "Surveillance and AI",
+                    "AI in criminal justice: risks and concerns",
+                    "Employment and automation",
+                    "Economic impact of AI",
+                    "AI governance and regulation",
+                    "AI principles: Asilomar, IEEE, EU",
+                    "Ethical frameworks: utilitarianism, deontology, virtue ethics",
+                    "Value-sensitive design",
+                    "Participatory AI design",
+                    "Global and cultural perspectives on AI ethics",
+                    "Future of work and AI"
+                ],
+                "projects": [
+                    "Bias detection toolkit for AI",
+                    "Fairness metrics implementation",
+                    "Ethical AI decision framework",
+                    "Privacy-preserving AI system",
+                    "AI governance policy analyzer",
+                    "Ethical AI certification checklist",
+                    "Societal impact assessment tool"
+                ],
+                "practice": "Conduct ethics review of all previous projects"
+            }
+        },
+        "month_21_22": {
+            "title": "Month 12: Research, Innovation & Career",
+            "weeks": "Week 49-52",
+            "week_88_89": {
+                "title": "AI Research Methodology",
+                "topics": [
+                    "Conducting AI research",
+                    "Literature review and survey methodology",
+                    "Research question formulation",
+                    "Hypothesis testing in AI",
+                    "Experimental design for AI research",
+                    "Benchmarks and datasets",
+                    "Evaluation metrics for AI systems",
+                    "Statistical significance in AI experiments",
+                    "Reproducibility and replicability",
+                    "Research ethics and integrity",
+                    "Writing research papers",
+                    "Paper structure: abstract, intro, methods, results, conclusion",
+                    "Peer review process",
+                    "Presenting research: conferences, posters",
+                    "Publishing venues: NeurIPS, ICML, AAAI, IJCAI",
+                    "Open science and preprints (arXiv)"
+                ],
+                "projects": [
+                    "Literature review on chosen AI topic",
+                    "Research proposal writing",
+                    "Experimental AI study design",
+                    "Research paper writing",
+                    "Conference presentation preparation",
+                    "Reproducible research package",
+                    "Open science publication"
+                ],
+                "practice": "Read 50 research papers, write 3 paper summaries"
+            },
+            "week_90_91": {
+                "title": "Cutting-Edge AI Research Areas",
+                "topics": [
+                    "Neural-symbolic integration",
+                    "Neuro-symbolic AI approaches",
+                    "Knowledge-guided machine learning",
+                    "Causal AI and causal inference",
+                    "Few-shot and zero-shot learning",
+                    "Meta-learning (learning to learn)",
+                    "Continual and lifelong learning",
+                    "Compositional generalization",
+                    "Grounded language learning",
+                    "Embodied AI and embodied cognition",
+                    "World models and model-based RL",
+                    "Quantum machine learning",
+                    "Neuromorphic computing",
+                    "AI for science: protein folding, material discovery",
+                    "AI for creativity: music, art, design",
+                    "Emergent abilities in large models"
+                ],
+                "projects": [
+                    "Neuro-symbolic system implementation",
+                    "Causal reasoning AI experiment",
+                    "Meta-learning framework",
+                    "Continual learning system",
+                    "Compositional generalization study",
+                    "World model for simple environment",
+                    "Research experiment in chosen cutting-edge area"
+                ],
+                "practice": "Implement 5 cutting-edge research ideas"
+            },
+            "week_92_93": {
+                "title": "AI in Industry & Applications",
+                "topics": [
+                    "AI in healthcare: diagnosis, drug discovery, personalized medicine",
+                    "AI in finance: algorithmic trading, fraud detection, risk assessment",
+                    "AI in education: adaptive learning, tutoring systems",
+                    "AI in transportation: autonomous vehicles, traffic optimization",
+                    "AI in manufacturing: predictive maintenance, quality control",
+                    "AI in agriculture: precision farming, crop monitoring",
+                    "AI in energy: smart grids, optimization",
+                    "AI in entertainment: games, content generation",
+                    "AI in e-commerce: recommendations, search, chatbots",
+                    "AI in cybersecurity: threat detection, response",
+                    "AI in law: contract analysis, case prediction",
+                    "AI in scientific research: discovery, experimentation",
+                    "Vertical AI solutions",
+                    "Building industry-specific AI products",
+                    "Consulting and AI strategy"
+                ],
+                "projects": [
+                    "Industry-specific AI system (choose domain)",
+                    "Healthcare AI application",
+                    "Financial AI tool",
+                    "Educational AI tutor",
+                    "Industrial AI solution",
+                    "Case study analysis (5 industries)",
+                    "AI product strategy document"
+                ],
+                "practice": "Design AI solutions for 10 different industries"
+            },
+            "week_94_95": {
+                "title": "Career Paths in AI Research",
+                "topics": [
+                    "AI research scientist roles",
+                    "Academic vs industry research",
+                    "PhD programs in AI: top universities",
+                    "Research internships and fellowships",
+                    "AI research labs: Google AI, DeepMind, OpenAI, FAIR, Microsoft Research",
+                    "Building research portfolio",
+                    "Publications and citations",
+                    "Research proposals and grant writing",
+                    "Collaboration and networking in research",
+                    "Interdisciplinary AI research",
+                    "Starting an AI research group",
+                    "Teaching and mentoring in AI",
+                    "Science communication and outreach",
+                    "Transitioning between academia and industry",
+                    "Entrepreneurship in AI research"
+                ],
+                "projects": [
+                    "Research portfolio website",
+                    "PhD application materials",
+                    "Research statement writing",
+                    "Grant proposal (practice)",
+                    "Academic CV for AI research",
+                    "Research collaboration plan",
+                    "Career development roadmap"
+                ],
+                "practice": "Prepare complete PhD application package"
+            },
+            "week_96": {
+                "title": "Future of AI",
+                "topics": [
+                    "AI trends and predictions",
+                    "Scaling laws and large models",
+                    "Foundation models and their impact",
+                    "Multimodal AI systems",
+                    "AI and quantum computing convergence",
+                    "AI and neuroscience synergy",
+                    "Artificial life and open-ended evolution",
+                    "AI and human augmentation",
+                    "Brain-computer interfaces",
+                    "Digital immortality and mind uploading",
+                    "AI in space exploration",
+                    "Long-term AI governance",
+                    "Post-AGI scenarios",
+                    "Technological singularity",
+                    "Preparing for transformative AI",
+                    "Your role in shaping AI future"
+                ],
+                "projects": [
+                    "Future of AI analysis report",
+                    "Technology forecasting study",
+                    "Transformative AI scenario planning",
+                    "Long-term AI governance proposal",
+                    "Personal AI research vision",
+                    "Contribution plan to AI field"
+                ],
+                "practice": "Write position paper on future of AI"
+            }
+        },
+        "month_23": {
+            "title": "FINAL CAPSTONE & RESEARCH LAUNCH",
+            "weeks": "Week 49-52 (distributed)",
+            "week_97": {
+                "title": "Novel AI System Design",
+                "topics": [
+                    "Identifying research gaps",
+                    "Novel contribution definition",
+                    "System architecture design",
+                    "Integration of multiple AI paradigms",
+                    "Theoretical foundations",
+                    "Innovation and creativity in AI"
+                ],
+                "projects": [
+                    "Original AI system proposal",
+                    "Architecture design document",
+                    "Theoretical framework",
+                    "Innovation justification",
+                    "Related work analysis"
+                ],
+                "practice": "Design completely novel AI approach"
+            },
+            "week_98": {
+                "title": "Implementation & Experimentation",
+                "topics": [
+                    "Prototype implementation",
+                    "Baseline comparisons",
+                    "Ablation studies",
+                    "Performance evaluation",
+                    "Debugging and refinement",
+                    "Scalability analysis"
+                ],
+                "projects": [
+                    "Working AI system implementation",
+                    "Experimental evaluation",
+                    "Performance benchmarking",
+                    "Comparison with state-of-art",
+                    "Error analysis"
+                ],
+                "practice": "Iterative development and testing"
+            },
+            "week_99": {
+                "title": "Documentation & Publication",
+                "topics": [
+                    "Research paper writing",
+                    "Code documentation",
+                    "Reproducibility package",
+                    "Visualization and presentation",
+                    "Submission preparation",
+                    "Open-source release"
+                ],
+                "projects": [
+                    "Complete research paper",
+                    "Supplementary materials",
+                    "Code repository with docs",
+                    "Presentation slides",
+                    "Demo video",
+                    "Blog post for wider audience"
+                ],
+                "practice": "Professional research communication"
+            },
+            "week_100": {
+                "title": "Final Defense & Career Launch",
+                "topics": [
+                    "Project presentation",
+                    "Defending research decisions",
+                    "Future work identification",
+                    "Career positioning",
+                    "Continued research planning"
+                ],
+                "projects": [
+                    "FINAL CAPSTONE: Original AI Research Contribution",
+                    "Requirements: Novel AI system, theoretical contribution, extensive evaluation, publication-ready",
+                    "Examples:",
+                    "- Novel cognitive architecture for general reasoning",
+                    "- Hybrid neuro-symbolic system for causal reasoning",
+                    "- Multi-agent system with emergent communication",
+                    "- AI safety mechanism for value alignment",
+                    "- General problem-solving framework",
+                    "- Explainable AI system with human-like reasoning",
+                    "- Continual learning architecture with knowledge retention"
+                ],
+                "deliverables": [
+                    "Original AI system (implemented)",
+                    "Research paper (conference-ready)",
+                    "Code repository (open-source)",
+                    "Documentation (comprehensive)",
+                    "Experimental results (reproducible)",
+                    "Presentation and defense",
+                    "Demo and visualization",
+                    "Future research roadmap",
+                    "Publication submission",
+                    "Career development plan"
+                ],
+                "assessment": "FINAL COMPREHENSIVE EXAM + THESIS DEFENSE - Complete AI mastery evaluation"
+            }
+        }
+    },
+    "additional_learning_resources": {
+        "projects_throughout_course": [
+            "Phase 1: 30+ foundational AI projects - search, logic, CSP, games",
+            "Phase 2: 35+ probabilistic and planning projects - Bayes nets, MDPs, planning systems",
+            "Phase 3: 40+ intelligent systems - expert systems, agents, robotics, multi-agent",
+            "Phase 4: 25+ advanced projects - cognitive AI, AGI research, ethics, novel systems",
+            "Total: 130+ AI projects from classical to cutting-edge"
+        ],
+        "total_projects_built": "130+ intelligent systems across all AI paradigms",
+        "skills_mastered": [
+            "Classical AI: Search algorithms, game playing, constraint satisfaction, logic, knowledge representation",
+            "Probabilistic AI: Bayesian networks, HMMs, Kalman filters, DBNs, probabilistic reasoning",
+            "Planning: STRIPS, Graphplan, HTN, temporal planning, planning under uncertainty",
+            "Decision Theory: MDPs, POMDPs, decision networks, utility theory, game theory",
+            "Learning: Decision trees, RL (Q-learning, TD), hybrid symbolic-neural systems",
+            "Expert Systems: Rule-based systems, forward/backward chaining, explanation generation",
+            "Agents: BDI architecture, reactive agents, multi-agent systems, agent communication",
+            "Robotics: SLAM, path planning, motion control, robot perception",
+            "Vision: Classical computer vision, object recognition, scene understanding",
+            "NLP: Parsing, semantic analysis, question answering, dialogue systems",
+            "Multi-Agent: Coordination, negotiation, auctions, swarm intelligence, game theory",
+            "Cognitive AI: Cognitive architectures (SOAR, ACT-R), memory systems, metacognition",
+            "AGI: Common sense reasoning, causal reasoning, transfer learning, general intelligence",
+            "Philosophy: Mind theory, consciousness, ethics, AI safety, alignment",
+            "Research: Paper reading, writing, experimentation, publication, innovation",
+            "Tools: Python (expert), Prolog, knowledge representation languages, simulation environments"
+        ],
+        "weekly_structure": {
+            "theory_study": "6-8 hours (lectures, papers, textbooks)",
+            "implementation": "10-12 hours (coding, system building)",
+            "projects": "5-7 hours (applying concepts)",
+            "research_reading": "3-4 hours (papers, surveys)",
+            "experimentation": "2-3 hours (testing, analysis)",
+            "total_per_week": "25-30 hours"
+        },
+        "support_provided": {
+            "expert_mentorship": "PhD-level AI researchers as mentors",
+            "research_guidance": "Help with research direction and paper writing",
+            "paper_reading_groups": "Weekly paper discussions",
+            "project_reviews": "Expert feedback on all implementations",
+            "thesis_advising": "Support for capstone/thesis project",
+            "phd_preparation": "Guidance for PhD applications",
+            "community": "Active researcher community",
+            "resources": "Access to papers, textbooks, datasets",
+            "computing": "Cloud credits for experiments",
+            "conferences": "Guidance on conference submissions",
+            "collaboration": "Research collaboration opportunities",
+            "lifetime_access": "All materials, updates, and advanced modules"
+        },
+        "certification": {
+            "phase_certificates": "Certificate after each phase (4 total)",
+            "final_certificate": "Advanced Artificial Intelligence Certification",
+            "specialization_tracks": "Choose: Cognitive AI / Multi-Agent Systems / AGI Research / AI Safety",
+            "research_certificate": "Research publication certification (with paper acceptance)",
+            "thesis_completion": "Master's-level thesis equivalent",
+            "portfolio": "50+ documented AI systems",
+            "publications": "Support for publishing 1-3 papers",
+            "digital_credentials": "Blockchain-verified credentials",
+            "industry_recognized": "Recognized by top AI research labs",
+            "phd_ready": "Preparation equivalent to first year PhD coursework"
+        }
+    },
+    "prerequisites": {
+        "education": "Bachelor's degree in CS/Engineering/Math/Physics recommended (not required)",
+        "mathematics": "Comfort with calculus, linear algebra, probability (will be taught/reviewed)",
+        "programming": "Basic programming knowledge helpful (Python taught from scratch for AI)",
+        "logic": "Basic logical thinking (formal logic taught in course)",
+        "commitment": "Very high - this is research-level training",
+        "time": "25-30 hours/week consistently for 12 months",
+        "mindset": "Intellectual curiosity, love of theory + practice, research orientation",
+        "equipment": "High-performance computer recommended, cloud computing provided",
+        "reading": "Comfort reading academic papers and textbooks",
+        "writing": "Academic writing skills (developed during course)"
+    },
+    "who_is_this_for": {
+        "phd_aspirants": "Preparing for AI/CS PhD programs at top universities",
+        "researchers": "Want comprehensive AI research training",
+        "cs_students": "Advanced undergrad or master's students in computer science",
+        "ai_professionals": "Industry professionals wanting deep theoretical knowledge",
+        "career_switchers": "STEM backgrounds transitioning to AI research",
+        "academics": "Faculty wanting to add AI research to their portfolio",
+        "engineers": "Want to move from applied ML to AI research",
+        "innovators": "Want to develop novel AI systems and algorithms",
+        "philosophers": "Interest in AI, mind, consciousness, ethics",
+        "visionaries": "Want to contribute to AGI development",
+        "serious_learners": "Committed to mastering AI at the deepest level"
+    },
+    "career_paths_after_completion": [
+        "AI Research Scientist (Industry labs: Google AI, DeepMind, OpenAI, FAIR, etc.)",
+        "Research Engineer (Top tech companies)",
+        "PhD Student (Top AI programs: Stanford, MIT, CMU, Berkeley, Oxford, etc.)",
+        "Postdoctoral Researcher",
+        "University Professor (with PhD)",
+        "AI Research Group Leader",
+        "Chief AI Scientist / CTO",
+        "AI Safety Researcher",
+        "Cognitive Systems Architect",
+        "AGI Researcher",
+        "AI Ethics Researcher",
+        "Multi-Agent Systems Specialist",
+        "Robotics AI Researcher",
+        "AI Consultant (Advanced)",
+        "AI Startup Founder (Research-driven)"
+    ],
+    "salary_expectations": {
+        "research_engineer": "₹15-30 LPA (India), $120k-200k (USA)",
+        "ai_research_scientist": "₹25-50 LPA (India), $180k-350k (USA)",
+        "senior_researcher": "₹40-80 LPA (India), $250k-500k (USA)",
+        "principal_scientist": "₹60-150 LPA (India), $350k-800k+ (USA)",
+        "research_labs": "DeepMind, OpenAI pay $300k-$1M+ for top researchers",
+        "academic": "₹10-30 LPA (India), $80k-150k (USA) as Assistant Professor",
+        "consulting": "₹200-500/hour for expert AI consulting",
+        "note": "AI research is among highest-paid technical fields globally"
+    },
+    "academic_outcomes": {
+        "phd_admissions": "Prepared for top 20 AI PhD programs worldwide",
+        "research_publications": "Aim for 1-3 publications during/after course",
+        "conference_presentations": "Ready to present at AAAI, IJCAI, NeurIPS, ICML",
+        "thesis_equivalent": "Capstone project = master's thesis quality",
+        "letters_of_recommendation": "From course mentors (research caliber)",
+        "research_statement": "PhD-ready research statement",
+        "writing_sample": "Publication-quality writing sample",
+        "gre_preparation": "Advanced AI knowledge for GRE Subject Test",
+        "fellowships": "Competitive for NSF, Hertz, NDSEG fellowships",
+        "research_network": "Connections with AI research community"
+    },
+    "course_guarantees": {
+        "money_back": "30-day 100% money-back guarantee",
+        "phd_preparation": "Equivalent to first-year PhD coursework in AI",
+        "research_quality": "Capstone project at publication level",
+        "mentorship": "PhD-level researcher mentorship throughout",
+        "lifetime_access": "All materials, papers, updates forever",
+        "publication_support": "Guidance until first paper acceptance",
+        "phd_application_support": "Complete application support for top programs",
+        "community": "Lifetime access to researcher community",
+        "advanced_modules": "Free access to all future advanced topics",
+        "computing_resources": "Cloud credits for research experiments",
+        "conference_guidance": "Help with conference submissions and attendance",
+        "career_support": "Research career guidance and networking",
+        "excellence_guarantee": "Master AI at the deepest theoretical and practical level"
+    }
+}

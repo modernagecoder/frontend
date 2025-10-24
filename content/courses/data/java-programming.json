@@ -1,0 +1,1889 @@
+{
+  "meta": {
+    "slug": "complete-java-programming-masterclass",
+    "title": "Complete Java Programming Masterclass - Zero to Enterprise Professional",
+    "description": "The most comprehensive 1-year Java programming masterclass. From absolute basics to enterprise-level applications. Master Core Java, Spring Boot, Microservices, Hibernate, databases, cloud deployment, and everything needed for a successful Java career.",
+    "keywords": [
+      "java programming",
+      "java masterclass",
+      "learn java",
+      "java for beginners",
+      "spring boot",
+      "spring framework",
+      "hibernate",
+      "microservices",
+      "java enterprise",
+      "java web development",
+      "java certification",
+      "core java",
+      "advanced java",
+      "java developer",
+      "java career",
+      "java for kids"
+    ],
+    "category": "Professional Java Development",
+    "price": {
+      "group": "₹1199/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Enterprise Professional",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Industry-recognized Java Developer certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Java Programming Masterclass",
+    "tagline": "From 'Hello World' to Enterprise Microservices Architecture",
+    "description": "This is not just a Java course—it's a complete transformation into an enterprise-ready Java professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Java developer capable of building scalable enterprise applications, microservices, RESTful APIs, and cloud-native solutions.\n\nYou'll master Java from ground zero to enterprise architect level: from basic syntax to advanced design patterns, from console applications to Spring Boot microservices, from JDBC to Hibernate ORM, from monolithic apps to cloud-native distributed systems. By the end, you'll have built 40+ projects, mastered the entire Java ecosystem, and be ready for senior Java developer roles in top tech companies.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - perfect for complete beginners",
+      "Separate learning tracks for kids (12+), teens, and adults",
+      "1 year of structured, industry-aligned learning",
+      "Covers Core Java + Enterprise Java (Spring, Hibernate, Microservices)",
+      "Real enterprise projects and industry case studies",
+      "Hands-on with latest Java versions (Java 17+)",
+      "Interview preparation for top companies",
+      "Lifetime access with continuous updates",
+      "Build production-ready enterprise portfolio",
+      "Direct path to high-paying Java developer jobs"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Java Fundamentals, OOP Basics, Core Java Concepts",
+      "phase_2": "Intermediate (Months 4-6): Advanced OOP, Collections, Multithreading, Design Patterns",
+      "phase_3": "Enterprise (Months 7-9): Spring Framework, Spring Boot, Hibernate, REST APIs, Databases",
+      "phase_4": "Professional (Months 10-12): Microservices, Spring Cloud, Testing, DevOps, Cloud Deployment"
+    },
+    "career_outcomes": [
+      "Junior Java Developer (after 3 months)",
+      "Java Developer (after 6 months)",
+      "Senior Java Developer / Backend Engineer (after 9 months)",
+      "Lead Java Developer / Solutions Architect (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Java Skills (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid Java fundamentals. Learn programming logic, master Java syntax, OOP principles, and create your first applications.",
+    "month_1_2": {
+      "title": "Months 1-2: Java Fundamentals & Programming Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Java & Development Environment Setup",
+        "topics": [
+          "What is Java? History, features, and platform independence",
+          "Java ecosystem: JDK, JRE, JVM explained",
+          "Write Once Run Anywhere (WORA) concept",
+          "Java applications: Desktop, Web, Mobile (Android), Enterprise",
+          "Installing JDK (Java 17 LTS or latest)",
+          "Setting up development environment: IntelliJ IDEA, Eclipse, VS Code",
+          "Understanding IDE features and shortcuts",
+          "Your first Java program: Hello World",
+          "Java program structure: class, main method",
+          "Compiling and running Java programs",
+          "Understanding bytecode and JVM",
+          "Comments: single-line (//), multi-line (/* */), Javadoc (/** */)",
+          "Java coding conventions and naming standards"
+        ],
+        "projects": [
+          "Hello World variations with personalized messages",
+          "Simple output programs using System.out.println",
+          "Personal information display program",
+          "ASCII art generator in Java"
+        ],
+        "practice": "Daily: 30 min Java syntax practice, write 5-10 simple programs"
+      },
+      "week_3_4": {
+        "title": "Variables, Data Types & Operators",
+        "topics": [
+          "Variables: declaration, initialization, naming rules",
+          "Primitive data types: byte, short, int, long, float, double, char, boolean",
+          "Understanding type sizes and ranges",
+          "Type casting: implicit (widening) and explicit (narrowing)",
+          "Wrapper classes: Integer, Double, Character, Boolean, etc.",
+          "Autoboxing and unboxing",
+          "Literals: integer, floating-point, character, string, boolean",
+          "Operators: arithmetic (+, -, *, /, %, ++, --)",
+          "Relational operators: ==, !=, >, <, >=, <=",
+          "Logical operators: &&, ||, !",
+          "Assignment operators: =, +=, -=, *=, /=, %=",
+          "Bitwise operators: &, |, ^, ~, <<, >>, >>>",
+          "Ternary operator: ? :",
+          "Operator precedence and associativity",
+          "String basics: creation, concatenation, immutability"
+        ],
+        "projects": [
+          "Simple calculator (four basic operations)",
+          "Temperature converter (Celsius, Fahrenheit, Kelvin)",
+          "Age calculator with detailed output",
+          "BMI calculator with health categories",
+          "Currency converter",
+          "Area and perimeter calculator for shapes",
+          "Compound interest calculator"
+        ],
+        "practice": "Solve 30 problems on variables, data types, and operators"
+      },
+      "week_5_6": {
+        "title": "Control Flow Statements",
+        "topics": [
+          "Boolean expressions and conditions",
+          "If statement: single condition execution",
+          "If-else statement: two-way branching",
+          "If-else-if ladder: multiple conditions",
+          "Nested if statements",
+          "Switch statement: multi-way branching",
+          "Switch with fall-through and break",
+          "Enhanced switch (Java 12+): arrow syntax, yield",
+          "While loop: pre-tested loop",
+          "Do-while loop: post-tested loop",
+          "For loop: counter-based iteration",
+          "Enhanced for loop (for-each): iterating arrays/collections",
+          "Break statement: exit loop",
+          "Continue statement: skip iteration",
+          "Labeled break and continue",
+          "Nested loops and loop patterns"
+        ],
+        "projects": [
+          "Number guessing game with attempts limit",
+          "Grade calculator with letter grades",
+          "Even/odd checker and list generator",
+          "Prime number checker and generator",
+          "Multiplication table generator",
+          "Factorial calculator (iterative)",
+          "Fibonacci series generator",
+          "Pattern printing (stars, numbers, pyramids, diamonds)",
+          "FizzBuzz challenge",
+          "Menu-driven calculator with switch",
+          "Simple ATM simulation"
+        ],
+        "practice": "Solve 40 control flow and loop problems"
+      },
+      "week_7_8": {
+        "title": "Methods & Arrays",
+        "topics": [
+          "Methods: definition, purpose, and structure",
+          "Method declaration: return type, name, parameters",
+          "Method invocation and calling",
+          "Parameters vs arguments",
+          "Return statement and return values",
+          "Method overloading: same name, different parameters",
+          "Variable scope: local vs instance vs class",
+          "Static methods vs instance methods",
+          "Recursion: base case and recursive case",
+          "Arrays: declaration, creation, initialization",
+          "Array indexing and accessing elements",
+          "Array length property",
+          "Iterating arrays: for loop, enhanced for loop",
+          "Multi-dimensional arrays (2D, 3D)",
+          "Jagged arrays",
+          "Arrays class utility methods",
+          "Variable arguments (varargs)"
+        ],
+        "projects": [
+          "Method library for mathematical operations",
+          "Array statistics calculator (sum, average, min, max)",
+          "Linear search and binary search implementation",
+          "Sorting algorithms: bubble sort, selection sort",
+          "Matrix operations (addition, multiplication)",
+          "Tic-tac-toe game with 2D array",
+          "Student grade management system",
+          "Factorial using recursion",
+          "Tower of Hanoi recursive solution",
+          "Palindrome checker (string/number)",
+          "Prime number generator in range"
+        ],
+        "practice": "Create 25 methods for various functionalities, solve 30 array problems"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Object-Oriented Programming Fundamentals",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Classes, Objects & OOP Basics",
+        "topics": [
+          "Object-Oriented Programming paradigm",
+          "Classes: blueprint for objects",
+          "Objects: instances of classes",
+          "Class declaration and structure",
+          "Instance variables (attributes/fields)",
+          "Instance methods (behaviors)",
+          "Creating objects with 'new' keyword",
+          "Constructors: default and parameterized",
+          "Constructor overloading",
+          "this keyword: referencing current object",
+          "Access modifiers: private, public, protected, default",
+          "Encapsulation: data hiding principle",
+          "Getters and setters (accessor and mutator methods)",
+          "toString() method for object representation",
+          "Object initialization blocks",
+          "Static variables (class variables)",
+          "Static methods and static blocks",
+          "Static import"
+        ],
+        "projects": [
+          "Student class with attributes and methods",
+          "Bank Account class with deposit/withdraw",
+          "Book class for library management",
+          "Employee class with salary calculations",
+          "Rectangle/Circle classes with area/perimeter",
+          "Car class with properties and behaviors",
+          "Calculator class with static methods",
+          "Product class for inventory system",
+          "Person class with constructor overloading",
+          "Date class implementation"
+        ],
+        "practice": "Create 20 different classes modeling real-world entities"
+      },
+      "week_11_12": {
+        "title": "Inheritance & Polymorphism",
+        "topics": [
+          "Inheritance: IS-A relationship",
+          "Extends keyword for inheritance",
+          "Parent class (superclass) and child class (subclass)",
+          "Inheriting fields and methods",
+          "Method overriding: redefining parent methods",
+          "@Override annotation",
+          "super keyword: accessing parent class members",
+          "super() for calling parent constructor",
+          "Constructor chaining in inheritance",
+          "Types of inheritance: single, multilevel, hierarchical",
+          "Multiple inheritance limitation in Java",
+          "Final keyword: final variables, methods, classes",
+          "Polymorphism: compile-time and runtime",
+          "Method overloading (compile-time polymorphism)",
+          "Method overriding (runtime polymorphism)",
+          "Dynamic method dispatch",
+          "Upcasting and downcasting",
+          "instanceof operator"
+        ],
+        "projects": [
+          "Animal hierarchy (Animal -> Dog, Cat, Bird)",
+          "Shape hierarchy with area calculation",
+          "Vehicle system (Vehicle -> Car, Bike, Truck)",
+          "Employee hierarchy (Employee -> Manager, Developer, Designer)",
+          "Bank account types (Account -> Savings, Current, Fixed)",
+          "School management (Person -> Student, Teacher)",
+          "E-commerce product categories",
+          "Payment system with different payment types"
+        ],
+        "practice": "Build 15 inheritance hierarchies, solve 25 polymorphism problems"
+      },
+      "week_13": {
+        "title": "Abstraction & Interfaces",
+        "topics": [
+          "Abstraction: hiding implementation details",
+          "Abstract classes with 'abstract' keyword",
+          "Abstract methods: methods without body",
+          "Concrete methods in abstract classes",
+          "When to use abstract classes",
+          "Interfaces: 100% abstraction (pre-Java 8)",
+          "Interface declaration with 'interface' keyword",
+          "Implementing interfaces with 'implements'",
+          "Multiple interface implementation",
+          "Interface variables: public static final",
+          "Interface methods: public abstract",
+          "Default methods in interfaces (Java 8+)",
+          "Static methods in interfaces (Java 8+)",
+          "Private methods in interfaces (Java 9+)",
+          "Functional interfaces and @FunctionalInterface",
+          "Marker interfaces",
+          "Interface vs abstract class comparison",
+          "Real-world abstraction examples"
+        ],
+        "projects": [
+          "Shape calculator with abstract classes",
+          "Payment gateway with interfaces",
+          "Database connection abstraction",
+          "Notification system (Email, SMS, Push)",
+          "Remote control interface for devices",
+          "Sorting algorithms with Comparable/Comparator",
+          "Plugin architecture using interfaces",
+          "PHASE 1 MINI CAPSTONE: Library Management System (Console-based)",
+          "Features: Books, members, issue/return, search, OOP principles"
+        ],
+        "practice": "Solve 30 abstraction and interface problems",
+        "assessment": "Phase 1 Final Assessment - Core Java & OOP fundamentals test"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Intermediate Java & Advanced Concepts (Months 4-6, Weeks 14-26)",
+    "description": "Master advanced Java features, Collections Framework, exception handling, file I/O, multithreading, and design patterns.",
+    "month_7_8": {
+      "title": "Months 4-5: Advanced Java Features & Collections",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "String Handling & Regular Expressions",
+        "topics": [
+          "String class: immutability and string pool",
+          "String methods: length, charAt, substring, indexOf",
+          "String comparison: equals, equalsIgnoreCase, compareTo",
+          "String manipulation: concat, replace, trim, split",
+          "String case methods: toUpperCase, toLowerCase",
+          "StringBuilder class: mutable strings",
+          "StringBuffer class: thread-safe mutable strings",
+          "StringBuilder vs StringBuffer vs String",
+          "String formatting: format(), printf()",
+          "StringTokenizer class",
+          "Regular expressions (regex) in Java",
+          "Pattern and Matcher classes",
+          "Regex patterns: character classes, quantifiers, groups",
+          "Common regex operations: validation, search, replace",
+          "Regex for email, phone, URL validation"
+        ],
+        "projects": [
+          "Text analyzer (word count, character count, frequency)",
+          "String manipulation utility library",
+          "Email validator using regex",
+          "Phone number formatter",
+          "Password strength validator",
+          "URL extractor from text",
+          "CSV parser using String methods",
+          "Palindrome and anagram checker",
+          "Caesar cipher encryption/decryption",
+          "Log file parser"
+        ],
+        "practice": "Solve 35 string manipulation and regex problems"
+      },
+      "week_29_30": {
+        "title": "Exception Handling & Error Management",
+        "topics": [
+          "What are exceptions? Error vs Exception",
+          "Exception hierarchy: Throwable, Error, Exception",
+          "Checked exceptions vs unchecked exceptions",
+          "Try-catch block for exception handling",
+          "Multiple catch blocks",
+          "Catch block order: specific to general",
+          "Finally block: cleanup code",
+          "Try-with-resources (Java 7+): automatic resource management",
+          "Throw keyword: throwing exceptions manually",
+          "Throws keyword: declaring exceptions",
+          "Creating custom exceptions",
+          "Custom checked and unchecked exceptions",
+          "Exception chaining and cause",
+          "Best practices for exception handling",
+          "Common exceptions: NullPointerException, ArrayIndexOutOfBoundsException, etc.",
+          "Rethrowing exceptions",
+          "Multi-catch (Java 7+)"
+        ],
+        "projects": [
+          "Robust calculator with exception handling",
+          "File reader with proper error handling",
+          "Custom banking exception system",
+          "Input validation with custom exceptions",
+          "Safe array operations utility",
+          "Age validator with custom exceptions",
+          "Division calculator with exception handling",
+          "User registration with validation exceptions"
+        ],
+        "practice": "Solve 25 exception handling scenarios"
+      },
+      "week_31_32": {
+        "title": "Collections Framework - Part 1",
+        "topics": [
+          "Collections Framework overview and architecture",
+          "Collection interface hierarchy",
+          "List interface and implementations",
+          "ArrayList: dynamic array implementation",
+          "ArrayList methods: add, remove, get, set, size, clear",
+          "LinkedList: doubly-linked list implementation",
+          "ArrayList vs LinkedList performance comparison",
+          "Vector and Stack (legacy classes)",
+          "Set interface: unique elements",
+          "HashSet: hash table implementation",
+          "LinkedHashSet: insertion order maintenance",
+          "TreeSet: sorted set using Red-Black tree",
+          "Set operations and methods",
+          "Iterator and ListIterator interfaces",
+          "Enhanced for loop with collections",
+          "Collections class utility methods"
+        ],
+        "projects": [
+          "Todo list application with ArrayList",
+          "Student management system with List",
+          "Phonebook with ArrayList and search",
+          "Unique word counter with HashSet",
+          "Sorted student list with TreeSet",
+          "Remove duplicates from list",
+          "Collection operations library",
+          "Inventory management with collections"
+        ],
+        "practice": "Solve 40 List and Set problems"
+      },
+      "week_33_34": {
+        "title": "Collections Framework - Part 2",
+        "topics": [
+          "Map interface: key-value pairs",
+          "HashMap: hash table based map",
+          "HashMap methods: put, get, remove, containsKey, keySet, values",
+          "LinkedHashMap: insertion order maintenance",
+          "TreeMap: sorted map using Red-Black tree",
+          "Hashtable: legacy synchronized map",
+          "HashMap vs Hashtable vs ConcurrentHashMap",
+          "Queue interface: FIFO structure",
+          "PriorityQueue: heap-based priority queue",
+          "Deque interface: double-ended queue",
+          "ArrayDeque implementation",
+          "Comparable interface for natural ordering",
+          "Comparator interface for custom ordering",
+          "Sorting collections: Collections.sort()",
+          "Searching collections: Collections.binarySearch()",
+          "Generics in collections",
+          "Type safety with generics"
+        ],
+        "projects": [
+          "Word frequency counter with HashMap",
+          "Contact management with Map",
+          "Student grade book with TreeMap",
+          "Priority task manager with PriorityQueue",
+          "Cache implementation with LinkedHashMap",
+          "Custom sorting with Comparator",
+          "Leaderboard system with TreeSet",
+          "Configuration manager with Properties"
+        ],
+        "practice": "Solve 40 Map and Queue problems"
+      },
+      "week_35": {
+        "title": "Generics & Advanced Collections",
+        "topics": [
+          "Introduction to generics: type parameters",
+          "Generic classes and interfaces",
+          "Generic methods",
+          "Bounded type parameters: extends, super",
+          "Wildcards: ?, ? extends T, ? super T",
+          "Generic constructors",
+          "Type erasure in generics",
+          "Restrictions on generics",
+          "Generic collections usage",
+          "Creating custom generic classes",
+          "EnumSet and EnumMap",
+          "Immutable collections (Java 9+)",
+          "List.of(), Set.of(), Map.of()",
+          "Collections performance comparison",
+          "Time and space complexity of operations"
+        ],
+        "projects": [
+          "Generic stack and queue implementation",
+          "Generic pair and tuple classes",
+          "Type-safe database repository",
+          "Generic utility library",
+          "Custom generic collection class",
+          "Generic algorithm implementations"
+        ],
+        "practice": "Create 15 generic classes, solve 25 generics problems"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: File I/O, Multithreading & Modern Java",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "File I/O & Serialization",
+        "topics": [
+          "File handling in Java: File class",
+          "Creating, deleting, renaming files and directories",
+          "File properties: exists, length, canRead, canWrite",
+          "Byte streams: InputStream, OutputStream",
+          "FileInputStream and FileOutputStream",
+          "Character streams: Reader, Writer",
+          "FileReader and FileWriter",
+          "Buffered streams: BufferedReader, BufferedWriter",
+          "PrintWriter for formatted output",
+          "Scanner for reading input",
+          "NIO (New I/O) package: Path, Paths, Files",
+          "Reading and writing with NIO",
+          "Serialization: converting objects to bytes",
+          "Serializable interface",
+          "ObjectInputStream and ObjectOutputStream",
+          "Transient keyword",
+          "Externalizable interface for custom serialization"
+        ],
+        "projects": [
+          "File-based note-taking application",
+          "File copy and move utility",
+          "Text file analyzer (line count, word count)",
+          "CSV file reader and writer",
+          "Contact manager with file persistence",
+          "Student records with serialization",
+          "Configuration file manager",
+          "Log file generator and reader",
+          "File encryption/decryption utility",
+          "Directory tree viewer"
+        ],
+        "practice": "Build 15 file handling applications"
+      },
+      "week_38_39": {
+        "title": "Multithreading & Concurrency - Part 1",
+        "topics": [
+          "Multithreading concepts: process vs thread",
+          "Thread lifecycle: new, runnable, running, blocked, terminated",
+          "Creating threads: extending Thread class",
+          "Creating threads: implementing Runnable interface",
+          "Thread class methods: start, run, sleep, join",
+          "Thread priorities: setPriority, getPriority",
+          "Daemon threads",
+          "Thread synchronization: race condition problem",
+          "Synchronized keyword: synchronized methods",
+          "Synchronized blocks",
+          "Inter-thread communication: wait, notify, notifyAll",
+          "Deadlock and its prevention",
+          "Thread safety and immutability",
+          "ThreadLocal class",
+          "Thread groups"
+        ],
+        "projects": [
+          "Multi-threaded counter application",
+          "Producer-consumer problem solution",
+          "Bank account with synchronized withdrawal",
+          "Print even-odd numbers using two threads",
+          "Multi-threaded file downloader",
+          "Thread pool executor example",
+          "Dining philosophers problem",
+          "Ticket booking system with synchronization"
+        ],
+        "practice": "Solve 30 multithreading problems"
+      },
+      "week_40_41": {
+        "title": "Multithreading & Concurrency - Part 2",
+        "topics": [
+          "Executor framework: ExecutorService",
+          "Thread pools: FixedThreadPool, CachedThreadPool",
+          "Callable and Future interfaces",
+          "CompletableFuture for async programming",
+          "Concurrent collections: ConcurrentHashMap",
+          "CopyOnWriteArrayList",
+          "BlockingQueue and its implementations",
+          "Atomic variables: AtomicInteger, AtomicLong",
+          "Lock interface and ReentrantLock",
+          "ReadWriteLock for read-write operations",
+          "Semaphore for resource control",
+          "CountDownLatch and CyclicBarrier",
+          "Fork/Join framework",
+          "Parallel streams (Java 8+)",
+          "Best practices for concurrent programming"
+        ],
+        "projects": [
+          "Parallel file processor",
+          "Concurrent web crawler",
+          "Multi-threaded image processor",
+          "Task scheduler with ExecutorService",
+          "Parallel array sum calculation",
+          "Thread-safe cache implementation",
+          "Concurrent download manager",
+          "Real-time data processor"
+        ],
+        "practice": "Build 12 concurrent applications"
+      },
+      "week_42_43": {
+        "title": "Java 8+ Modern Features",
+        "topics": [
+          "Lambda expressions: syntax and usage",
+          "Functional interfaces: Predicate, Function, Consumer, Supplier",
+          "Method references: static, instance, constructor",
+          "Streams API: creating streams",
+          "Intermediate operations: filter, map, flatMap, sorted",
+          "Terminal operations: collect, forEach, reduce",
+          "Collectors class: toList, toSet, toMap, groupingBy",
+          "Optional class: handling null values",
+          "Date and Time API (java.time package)",
+          "LocalDate, LocalTime, LocalDateTime",
+          "ZonedDateTime and time zones",
+          "Period and Duration",
+          "Default and static methods in interfaces",
+          "forEach method with lambda",
+          "New features in Java 9-17: modules, var keyword, records, sealed classes"
+        ],
+        "projects": [
+          "Stream operations on collections",
+          "Employee filtering and sorting with streams",
+          "Data transformation pipeline",
+          "Optional handling in applications",
+          "Date-time calculations and formatting",
+          "File processing with streams",
+          "Custom collectors implementation",
+          "Functional programming utilities"
+        ],
+        "practice": "Solve 40 lambda and streams problems"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Advanced OOP implementation",
+          "Collections framework usage",
+          "Exception handling throughout",
+          "File-based persistence",
+          "Multithreading for concurrent operations",
+          "Modern Java features (lambdas, streams)"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Banking Management System",
+          "Features: Multiple account types, transactions, threading for concurrent operations, file persistence, comprehensive OOP",
+          "Alternative: E-commerce Inventory System with multi-user support",
+          "Alternative: Hospital Management System",
+          "Alternative: Hotel Reservation System with concurrent booking"
+        ],
+        "assessment": "Phase 2 Final Exam - Advanced Java concepts comprehensive test"
+      }
+    },
+    "month_11_12": {
+      "title": "PHASE 2 CONTINUED - Design Patterns & Best Practices",
+      "weeks": "Week 14-26 (distributed)",
+      "week_45_46": {
+        "title": "Design Patterns - Part 1 (Creational)",
+        "topics": [
+          "Design patterns introduction and importance",
+          "Gang of Four (GoF) patterns",
+          "Pattern categories: creational, structural, behavioral",
+          "Singleton pattern: one instance",
+          "Factory pattern: object creation",
+          "Abstract Factory pattern",
+          "Builder pattern: complex object construction",
+          "Prototype pattern: cloning objects",
+          "When to use each creational pattern",
+          "Anti-patterns to avoid",
+          "Real-world pattern applications"
+        ],
+        "projects": [
+          "Database connection pool (Singleton)",
+          "Shape factory implementation",
+          "Document builder with Builder pattern",
+          "GUI component factory",
+          "Configuration manager (Singleton)",
+          "Clone-based object creation"
+        ],
+        "practice": "Implement all 5 creational patterns in different scenarios"
+      },
+      "week_47_48": {
+        "title": "Design Patterns - Part 2 (Structural & Behavioral)",
+        "topics": [
+          "Adapter pattern: interface adaptation",
+          "Decorator pattern: adding functionality",
+          "Proxy pattern: placeholder object",
+          "Facade pattern: simplified interface",
+          "Composite pattern: tree structure",
+          "Observer pattern: event handling",
+          "Strategy pattern: algorithm selection",
+          "Command pattern: encapsulating requests",
+          "Template Method pattern",
+          "State pattern: state-based behavior",
+          "Chain of Responsibility pattern",
+          "Iterator pattern (already in Collections)",
+          "MVC pattern for applications"
+        ],
+        "projects": [
+          "Notification system (Observer pattern)",
+          "Payment strategy implementation",
+          "Logging framework (Decorator + Singleton)",
+          "UI component library (Composite)",
+          "Request processing chain",
+          "State machine implementation",
+          "Command-based calculator"
+        ],
+        "practice": "Implement 15+ design patterns with real examples"
+      },
+      "week_49_50": {
+        "title": "JDBC & Database Programming",
+        "topics": [
+          "Introduction to JDBC (Java Database Connectivity)",
+          "JDBC architecture and drivers",
+          "Driver types: Type 1, 2, 3, 4",
+          "Loading JDBC driver",
+          "Establishing database connection",
+          "Connection interface and methods",
+          "Statement interface for SQL execution",
+          "PreparedStatement: parameterized queries",
+          "CallableStatement: stored procedures",
+          "ResultSet: processing query results",
+          "CRUD operations with JDBC",
+          "Transaction management: commit, rollback",
+          "Batch processing",
+          "Connection pooling",
+          "Database metadata",
+          "Handling SQL exceptions"
+        ],
+        "projects": [
+          "Student database management (CRUD)",
+          "Employee records system with MySQL",
+          "Product catalog with database",
+          "User authentication with database",
+          "Transaction-based banking system",
+          "Prepared statement utility library",
+          "Database backup and restore utility",
+          "Report generation from database"
+        ],
+        "practice": "Build 10 database-driven applications"
+      },
+      "week_51": {
+        "title": "Unit Testing with JUnit",
+        "topics": [
+          "Introduction to testing: why test?",
+          "Types of testing: unit, integration, system",
+          "JUnit framework introduction",
+          "JUnit 5 (Jupiter) architecture",
+          "Test annotations: @Test, @BeforeEach, @AfterEach",
+          "@BeforeAll, @AfterAll",
+          "Assertions: assertEquals, assertTrue, assertNotNull",
+          "assertThrows for exception testing",
+          "Test lifecycle",
+          "Parameterized tests",
+          "Test suites",
+          "Mocking with Mockito",
+          "Test-Driven Development (TDD)",
+          "Code coverage with JaCoCo",
+          "Best practices for unit testing"
+        ],
+        "projects": [
+          "Unit tests for calculator class",
+          "Testing collections utilities",
+          "TDD implementation of stack",
+          "Testing database operations with mocks",
+          "Test suite for banking system",
+          "Parameterized tests for validators",
+          "Integration tests for application"
+        ],
+        "practice": "Write tests for all previous projects, achieve 80%+ coverage"
+      },
+      "week_52": {
+        "title": "Build Tools & Version Control",
+        "topics": [
+          "Build automation importance",
+          "Maven: project management tool",
+          "Maven project structure",
+          "POM.xml configuration",
+          "Maven lifecycle phases",
+          "Dependency management with Maven",
+          "Maven repositories: local, central, remote",
+          "Gradle: modern build tool",
+          "Gradle build scripts",
+          "Gradle vs Maven comparison",
+          "Git version control (review/deep dive)",
+          "Git with Java projects",
+          "GitHub collaboration",
+          ".gitignore for Java projects",
+          "CI/CD basics with GitHub Actions"
+        ],
+        "projects": [
+          "Maven-based Java project",
+          "Multi-module Maven project",
+          "Gradle project setup",
+          "Dependency management practice",
+          "Git repository for all projects",
+          "Automated build with Maven/Gradle"
+        ],
+        "practice": "Convert all projects to Maven/Gradle structure"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Enterprise Java & Web Development (Months 7-9, Weeks 27-39)",
+    "description": "Master enterprise Java development with Servlets, JSP, Spring Framework, Spring Boot, Hibernate, and RESTful APIs.",
+    "month_13_14": {
+      "title": "Months 7-8: Web Development & Spring Framework",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Servlets & JSP Fundamentals",
+        "topics": [
+          "Web application architecture: client-server",
+          "HTTP protocol: request-response cycle",
+          "HTTP methods: GET, POST, PUT, DELETE",
+          "Web servers vs application servers",
+          "Apache Tomcat setup and configuration",
+          "Servlets: server-side Java programs",
+          "Servlet lifecycle: init, service, destroy",
+          "HttpServlet class and methods",
+          "doGet() and doPost() methods",
+          "HttpServletRequest and HttpServletResponse",
+          "Request parameters and headers",
+          "Session management: HttpSession",
+          "Cookies in servlets",
+          "Request dispatcher: forward and include",
+          "Servlet configuration: web.xml, annotations",
+          "JSP (JavaServer Pages) introduction",
+          "JSP lifecycle and implicit objects",
+          "JSP directives, declarations, scriptlets, expressions"
+        ],
+        "projects": [
+          "Hello World servlet",
+          "Login servlet with session",
+          "User registration form processing",
+          "Simple calculator servlet",
+          "Shopping cart with session",
+          "File upload servlet",
+          "JSP-based dynamic web pages",
+          "Servlet-JSP MVC pattern application"
+        ],
+        "practice": "Build 10 servlet-based web applications"
+      },
+      "week_55_56": {
+        "title": "Advanced Servlets & Web Technologies",
+        "topics": [
+          "Servlet filters: request/response filtering",
+          "Filter chain and multiple filters",
+          "Servlet listeners: lifecycle events",
+          "ServletContext and application scope",
+          "JSTL (JSP Standard Tag Library)",
+          "EL (Expression Language) in JSP",
+          "Custom JSP tags",
+          "MVC architecture in web applications",
+          "Front Controller pattern",
+          "DAO (Data Access Object) pattern",
+          "Connection pooling in web apps",
+          "AJAX with servlets",
+          "JSON response from servlets",
+          "File download servlet",
+          "Security in web applications",
+          "Form-based authentication"
+        ],
+        "projects": [
+          "Complete CRUD web application",
+          "Blog application with Servlet-JSP",
+          "Employee management web app",
+          "E-commerce product catalog",
+          "User authentication and authorization",
+          "File upload/download system",
+          "RESTful service with servlets",
+          "MVC-based web application"
+        ],
+        "practice": "Build 8 complete web applications"
+      },
+      "week_57_58": {
+        "title": "Spring Framework Core",
+        "topics": [
+          "Introduction to Spring Framework",
+          "Spring modules and architecture",
+          "Dependency Injection (DI) concept",
+          "Inversion of Control (IoC) principle",
+          "Spring IoC container: BeanFactory, ApplicationContext",
+          "Bean definition and configuration",
+          "XML-based configuration",
+          "Annotation-based configuration: @Component, @Autowired",
+          "Java-based configuration: @Configuration, @Bean",
+          "Bean scopes: singleton, prototype, request, session",
+          "Bean lifecycle: init and destroy methods",
+          "Autowiring: byName, byType, constructor",
+          "@Qualifier for disambiguation",
+          "Dependency injection: constructor, setter, field",
+          "ApplicationContext events",
+          "Spring Expression Language (SpEL)"
+        ],
+        "projects": [
+          "Simple Spring application setup",
+          "Dependency injection examples",
+          "Bean configuration practice",
+          "Spring-based calculator",
+          "User service with DI",
+          "Multiple bean configurations",
+          "Layered architecture with Spring"
+        ],
+        "practice": "Create 15 Spring DI scenarios"
+      },
+      "week_59_60": {
+        "title": "Spring Boot Fundamentals",
+        "topics": [
+          "Introduction to Spring Boot",
+          "Spring Boot advantages: convention over configuration",
+          "Spring Initializr: project generation",
+          "Spring Boot starters",
+          "Auto-configuration mechanism",
+          "Application.properties and application.yml",
+          "Spring Boot main application class",
+          "@SpringBootApplication annotation",
+          "Component scanning",
+          "Spring Boot DevTools",
+          "Creating REST controllers with @RestController",
+          "@RequestMapping, @GetMapping, @PostMapping",
+          "Path variables and request parameters",
+          "Request body with @RequestBody",
+          "Response entity and HTTP status codes",
+          "Exception handling with @ControllerAdvice",
+          "Custom error responses"
+        ],
+        "projects": [
+          "Hello World REST API with Spring Boot",
+          "CRUD REST API for products",
+          "User management REST API",
+          "Todo application backend",
+          "Blog post API",
+          "Student records API",
+          "Exception handling in APIs",
+          "API documentation with Swagger/OpenAPI"
+        ],
+        "practice": "Build 10 REST APIs with Spring Boot"
+      },
+      "week_61": {
+        "title": "Spring Data JPA & Hibernate",
+        "topics": [
+          "JPA (Java Persistence API) introduction",
+          "ORM (Object-Relational Mapping) concept",
+          "Hibernate as JPA implementation",
+          "Entity classes with @Entity annotation",
+          "Primary keys: @Id, @GeneratedValue",
+          "Column mapping: @Column annotation",
+          "Table mapping: @Table annotation",
+          "Entity relationships: @OneToOne, @OneToMany, @ManyToOne, @ManyToMany",
+          "Cascade types and fetch types (LAZY, EAGER)",
+          "Spring Data JPA repositories",
+          "JpaRepository interface",
+          "CRUD operations with repositories",
+          "Query methods: findBy, findAll, save, delete",
+          "Custom queries with @Query",
+          "JPQL (Java Persistence Query Language)",
+          "Native SQL queries",
+          "Pagination and sorting"
+        ],
+        "projects": [
+          "Student database with JPA entities",
+          "Product catalog with Spring Data JPA",
+          "Blog with posts and comments (relationships)",
+          "E-commerce with products and categories",
+          "User and roles management",
+          "Library system with JPA",
+          "Custom query implementations",
+          "Pagination and sorting examples"
+        ],
+        "practice": "Build 10 database applications with Spring Data JPA"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced Spring Boot & Microservices Basics",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Spring Security & Authentication",
+        "topics": [
+          "Spring Security introduction",
+          "Security filter chain",
+          "Authentication vs authorization",
+          "In-memory authentication",
+          "JDBC authentication",
+          "UserDetailsService for custom authentication",
+          "Password encoding: BCryptPasswordEncoder",
+          "Method-level security: @PreAuthorize, @Secured",
+          "Role-based access control (RBAC)",
+          "JWT (JSON Web Token) authentication",
+          "Creating and validating JWT tokens",
+          "Stateless authentication",
+          "OAuth 2.0 basics",
+          "Social login integration",
+          "CORS configuration in Spring Boot",
+          "CSRF protection"
+        ],
+        "projects": [
+          "User registration and login API",
+          "JWT-based authentication system",
+          "Role-based authorization API",
+          "Secured REST API endpoints",
+          "Social login with OAuth",
+          "Password reset functionality",
+          "User profile management with security",
+          "Multi-role application"
+        ],
+        "practice": "Secure all REST APIs with authentication"
+      },
+      "week_64_65": {
+        "title": "Spring Boot Advanced Features",
+        "topics": [
+          "Spring Boot Actuator: production-ready features",
+          "Health checks and metrics",
+          "Custom actuator endpoints",
+          "Application monitoring",
+          "Logging in Spring Boot: Logback, Log4j2",
+          "Logging levels and configuration",
+          "Aspect-Oriented Programming (AOP) in Spring",
+          "@Aspect, @Before, @After, @Around",
+          "Cross-cutting concerns: logging, transaction",
+          "Transaction management: @Transactional",
+          "Declarative vs programmatic transactions",
+          "Caching with Spring: @Cacheable, @CacheEvict",
+          "Redis integration for caching",
+          "Scheduling tasks: @Scheduled",
+          "Async processing: @Async",
+          "Event handling in Spring",
+          "Profiles for different environments"
+        ],
+        "projects": [
+          "Application with health monitoring",
+          "Custom metrics endpoint",
+          "AOP-based logging system",
+          "Transaction management in banking app",
+          "Caching layer implementation",
+          "Scheduled task executor",
+          "Async email notification system",
+          "Multi-environment configuration"
+        ],
+        "practice": "Add production features to all Spring Boot apps"
+      },
+      "week_66_67": {
+        "title": "RESTful API Best Practices & Microservices Intro",
+        "topics": [
+          "REST API design principles",
+          "Resource naming conventions",
+          "HTTP status codes usage",
+          "HATEOAS (Hypermedia as the Engine of Application State)",
+          "API versioning strategies",
+          "Request validation with @Valid",
+          "Bean validation annotations",
+          "API documentation with SpringDoc OpenAPI",
+          "Swagger UI integration",
+          "Rate limiting and throttling",
+          "API security best practices",
+          "Microservices architecture introduction",
+          "Monolithic vs microservices",
+          "Service discovery concept",
+          "Inter-service communication",
+          "Introduction to Spring Cloud"
+        ],
+        "projects": [
+          "RESTful API with HATEOAS",
+          "Validated REST endpoints",
+          "Complete API with Swagger docs",
+          "Versioned API implementation",
+          "Rate-limited public API",
+          "Basic microservice setup",
+          "Service-to-service communication",
+          "API gateway pattern example"
+        ],
+        "practice": "Design and document 5 production-ready APIs"
+      },
+      "week_68_69": {
+        "title": "Spring Boot with External Services",
+        "topics": [
+          "RestTemplate for HTTP clients",
+          "WebClient for reactive HTTP calls",
+          "Consuming third-party APIs",
+          "Feign client for declarative REST",
+          "Email integration: JavaMailSender",
+          "Sending HTML emails",
+          "File upload and storage",
+          "AWS S3 integration",
+          "Message queues: RabbitMQ basics",
+          "Apache Kafka introduction",
+          "Event-driven architecture",
+          "WebSocket support in Spring Boot",
+          "Real-time communication",
+          "Payment gateway integration (Stripe, Razorpay)",
+          "SMS integration",
+          "Push notifications"
+        ],
+        "projects": [
+          "Weather API consumer",
+          "Email notification service",
+          "File upload to cloud storage",
+          "Message queue producer-consumer",
+          "Real-time chat application",
+          "Payment processing system",
+          "SMS alert service",
+          "Event-driven order processing"
+        ],
+        "practice": "Integrate 8 external services in applications"
+      },
+      "week_70": {
+        "title": "Testing Spring Boot Applications",
+        "topics": [
+          "Spring Boot testing overview",
+          "@SpringBootTest annotation",
+          "Test slicing: @WebMvcTest, @DataJpaTest",
+          "MockMvc for testing controllers",
+          "Mocking with @MockBean",
+          "Testing REST APIs",
+          "Integration testing with database",
+          "TestContainers for database testing",
+          "Testing security configurations",
+          "Testing with different profiles",
+          "JUnit 5 with Spring Boot",
+          "AssertJ for fluent assertions",
+          "Test coverage with JaCoCo",
+          "Performance testing basics",
+          "Contract testing introduction"
+        ],
+        "projects": [
+          "Complete test suite for REST API",
+          "Controller layer tests",
+          "Service layer tests with mocks",
+          "Repository layer tests",
+          "Integration tests for application",
+          "Security tests",
+          "End-to-end testing",
+          "Test-driven development practice"
+        ],
+        "practice": "Write comprehensive tests for all Spring Boot projects"
+      }
+    },
+    "month_17_18": {
+      "title": "PHASE 3 COMPLETION - Month 9 Final Week",
+      "weeks": "Week 27-39 (distributed)",
+      "week_71_72": {
+        "title": "Database Design & Optimization",
+        "topics": [
+          "Relational database design principles",
+          "Normalization: 1NF, 2NF, 3NF, BCNF",
+          "Entity-Relationship diagrams",
+          "Database schema design",
+          "Index optimization in JPA",
+          "Query optimization techniques",
+          "N+1 query problem and solutions",
+          "Database connection pooling: HikariCP",
+          "Transaction isolation levels",
+          "Optimistic vs pessimistic locking",
+          "Database migration with Flyway/Liquibase",
+          "NoSQL with Spring Boot: MongoDB",
+          "Spring Data MongoDB",
+          "Choosing SQL vs NoSQL",
+          "Multi-database applications"
+        ],
+        "projects": [
+          "Optimized database schema design",
+          "Migration scripts with Flyway",
+          "Performance-tuned JPA queries",
+          "MongoDB integration",
+          "Connection pool configuration",
+          "Database performance monitoring",
+          "Multi-database Spring Boot app"
+        ],
+        "practice": "Optimize databases for all projects"
+      },
+      "week_73_74": {
+        "title": "Application Deployment & DevOps",
+        "topics": [
+          "Packaging Spring Boot applications",
+          "JAR vs WAR deployment",
+          "Application properties for production",
+          "Externalized configuration",
+          "Environment-specific configurations",
+          "Deploying to Tomcat server",
+          "Docker basics review",
+          "Dockerizing Spring Boot applications",
+          "Docker Compose for multi-container",
+          "Docker best practices for Java",
+          "Cloud platforms: AWS, Azure, GCP",
+          "Deploying to AWS Elastic Beanstalk",
+          "Deploying to Heroku",
+          "CI/CD for Spring Boot with Jenkins",
+          "GitHub Actions for Java projects"
+        ],
+        "projects": [
+          "Production-ready application configuration",
+          "Dockerized Spring Boot app",
+          "Multi-container deployment",
+          "Cloud deployment practice",
+          "CI/CD pipeline setup",
+          "Automated deployment workflow",
+          "Blue-green deployment example"
+        ],
+        "practice": "Deploy all applications to production environments"
+      },
+      "week_75_76": {
+        "title": "Monitoring, Logging & Performance",
+        "topics": [
+          "Application monitoring strategies",
+          "Spring Boot Actuator deep dive",
+          "Micrometer metrics",
+          "Prometheus integration",
+          "Grafana dashboards",
+          "Distributed tracing with Sleuth and Zipkin",
+          "Centralized logging with ELK stack",
+          "Log aggregation strategies",
+          "Performance profiling tools",
+          "JVM monitoring and tuning",
+          "Garbage collection optimization",
+          "Memory leak detection",
+          "Load testing with JMeter",
+          "API performance optimization",
+          "Database query profiling"
+        ],
+        "projects": [
+          "Monitoring dashboard setup",
+          "Metrics collection and visualization",
+          "Distributed tracing implementation",
+          "Centralized logging system",
+          "Performance optimization project",
+          "Load testing suite",
+          "JVM tuning exercise"
+        ],
+        "practice": "Add monitoring to all production applications"
+      },
+      "week_77": {
+        "title": "Security Best Practices & API Standards",
+        "topics": [
+          "OWASP Top 10 for Java applications",
+          "SQL injection prevention in JPA",
+          "XSS (Cross-Site Scripting) prevention",
+          "CSRF protection implementation",
+          "Secure password handling",
+          "Secrets management",
+          "API key management",
+          "Rate limiting implementation",
+          "Input validation best practices",
+          "Secure communication: HTTPS/TLS",
+          "Security headers configuration",
+          "Dependency vulnerability scanning",
+          "Static code analysis: SonarQube",
+          "Security testing",
+          "Compliance: GDPR, PCI-DSS basics"
+        ],
+        "projects": [
+          "Security-hardened application",
+          "Vulnerability assessment tool",
+          "Secure API implementation",
+          "Security testing suite",
+          "Code quality dashboard"
+        ],
+        "practice": "Security audit all projects"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Full-stack application architecture",
+          "Spring Boot backend development",
+          "Database design and JPA",
+          "REST API development",
+          "Spring Security implementation",
+          "Testing and quality assurance",
+          "Docker deployment",
+          "Production deployment"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: E-commerce Platform Backend",
+          "Features: Product catalog, user auth (JWT), shopping cart, orders, payment integration, admin panel, email notifications, search, pagination, REST APIs, Spring Security, JPA relationships",
+          "Alternative: Social Media Platform API (posts, comments, likes, followers, messaging)",
+          "Alternative: Banking Application (accounts, transactions, loans, statements)",
+          "Alternative: Learning Management System (courses, students, enrollments, assignments, grades)"
+        ],
+        "assessment": "Phase 3 Final Exam - Enterprise Java and Spring Boot comprehensive test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Microservices, Cloud & Professional Excellence (Months 10-12, Weeks 40-52)",
+    "description": "Master microservices architecture, Spring Cloud, cloud-native development, DevOps, system design, and career preparation.",
+    "month_19_20": {
+      "title": "Months 10-11: Microservices Architecture & Spring Cloud",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Microservices Fundamentals",
+        "topics": [
+          "Microservices architecture principles",
+          "Monolithic vs microservices trade-offs",
+          "When to use microservices",
+          "Domain-Driven Design (DDD) basics",
+          "Bounded contexts and aggregates",
+          "Service decomposition strategies",
+          "Database per service pattern",
+          "API Gateway pattern",
+          "Service registry and discovery",
+          "Circuit breaker pattern",
+          "Bulkhead pattern",
+          "Retry and timeout patterns",
+          "Event-driven architecture",
+          "SAGA pattern for distributed transactions",
+          "CQRS (Command Query Responsibility Segregation)"
+        ],
+        "projects": [
+          "Decompose monolith into microservices",
+          "Design microservices architecture",
+          "Service boundaries definition",
+          "Event-driven microservice",
+          "SAGA pattern implementation"
+        ],
+        "practice": "Design 5 microservices architectures"
+      },
+      "week_81_82": {
+        "title": "Spring Cloud Ecosystem",
+        "topics": [
+          "Spring Cloud overview",
+          "Service discovery with Eureka",
+          "Eureka server and client setup",
+          "Client-side load balancing with Ribbon",
+          "Declarative REST client: Feign",
+          "API Gateway with Spring Cloud Gateway",
+          "Gateway routing and filters",
+          "Distributed configuration: Spring Cloud Config",
+          "Config server and client",
+          "Refreshing configuration dynamically",
+          "Circuit breaker with Resilience4j",
+          "Fallback methods",
+          "Distributed tracing with Sleuth",
+          "Request correlation across services",
+          "Service mesh basics"
+        ],
+        "projects": [
+          "Eureka service registry setup",
+          "Multiple microservices with discovery",
+          "API Gateway implementation",
+          "Centralized configuration server",
+          "Circuit breaker implementation",
+          "Distributed tracing setup",
+          "Complete microservices ecosystem"
+        ],
+        "practice": "Build 3 complete microservices systems"
+      },
+      "week_83_84": {
+        "title": "Inter-Service Communication & Messaging",
+        "topics": [
+          "Synchronous vs asynchronous communication",
+          "REST for synchronous communication",
+          "gRPC for high-performance RPC",
+          "Protocol Buffers",
+          "Message-driven architecture",
+          "RabbitMQ: message broker",
+          "Exchanges, queues, and bindings",
+          "Spring AMQP for RabbitMQ",
+          "Apache Kafka: distributed streaming",
+          "Kafka topics, partitions, consumers, producers",
+          "Spring Kafka integration",
+          "Event sourcing pattern",
+          "Message ordering and exactly-once delivery",
+          "Dead letter queues",
+          "Idempotency in distributed systems"
+        ],
+        "projects": [
+          "RabbitMQ-based order processing",
+          "Kafka event streaming application",
+          "Event-driven microservices",
+          "Message queue patterns implementation",
+          "Real-time data pipeline",
+          "Event sourcing system",
+          "Asynchronous communication between services"
+        ],
+        "practice": "Build 6 messaging-based systems"
+      },
+      "week_85_86": {
+        "title": "Microservices Data Management",
+        "topics": [
+          "Database per service pattern",
+          "Shared database anti-pattern",
+          "Polyglot persistence",
+          "Distributed transactions challenges",
+          "Two-phase commit problems",
+          "SAGA pattern: choreography vs orchestration",
+          "Event-driven data management",
+          "Change Data Capture (CDC)",
+          "Database replication strategies",
+          "Caching in microservices",
+          "Redis for distributed caching",
+          "Cache invalidation strategies",
+          "API composition pattern",
+          "CQRS with separate read/write models",
+          "Eventual consistency"
+        ],
+        "projects": [
+          "Microservices with separate databases",
+          "SAGA choreography implementation",
+          "SAGA orchestration with state machine",
+          "CQRS pattern implementation",
+          "Distributed caching setup",
+          "Event-driven data synchronization",
+          "Polyglot persistence example"
+        ],
+        "practice": "Implement various data management patterns"
+      },
+      "week_87": {
+        "title": "Microservices Security & Observability",
+        "topics": [
+          "Security in microservices",
+          "Authentication and authorization in distributed systems",
+          "OAuth 2.0 and OpenID Connect",
+          "JWT for service-to-service auth",
+          "API Gateway security",
+          "Service-to-service authentication",
+          "Secrets management: Vault",
+          "Observability pillars: logs, metrics, traces",
+          "Centralized logging with ELK",
+          "Metrics with Prometheus and Grafana",
+          "Distributed tracing with Jaeger",
+          "Health checks and readiness probes",
+          "Monitoring microservices",
+          "Alerting and incident response"
+        ],
+        "projects": [
+          "Secured microservices with OAuth",
+          "JWT-based inter-service communication",
+          "Complete observability stack",
+          "Monitoring dashboard for microservices",
+          "Distributed tracing implementation",
+          "Secrets management setup",
+          "Health check endpoints"
+        ],
+        "practice": "Secure and monitor all microservices"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Cloud Native, DevOps & Career Excellence",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Cloud Native Java & Kubernetes",
+        "topics": [
+          "Cloud-native principles",
+          "12-factor app methodology",
+          "Containerization with Docker (deep dive)",
+          "Multi-stage Docker builds for Java",
+          "Docker image optimization",
+          "Kubernetes introduction",
+          "Kubernetes architecture",
+          "Pods, Deployments, Services",
+          "ConfigMaps and Secrets in K8s",
+          "Persistent volumes",
+          "Horizontal Pod Autoscaling",
+          "Kubernetes for Spring Boot apps",
+          "Helm charts for Java applications",
+          "Service mesh: Istio basics",
+          "Serverless Java: AWS Lambda"
+        ],
+        "projects": [
+          "Cloud-native Spring Boot app",
+          "Optimized Docker images",
+          "Kubernetes deployment manifests",
+          "Auto-scaling Spring Boot on K8s",
+          "Helm chart creation",
+          "Service mesh implementation",
+          "Serverless function with Java",
+          "Complete cloud-native application"
+        ],
+        "practice": "Deploy all applications to Kubernetes"
+      },
+      "week_90_91": {
+        "title": "AWS & Cloud Services for Java",
+        "topics": [
+          "AWS fundamentals review",
+          "EC2 for Java applications",
+          "AWS RDS for databases",
+          "AWS S3 for object storage",
+          "AWS Lambda with Java",
+          "API Gateway with Lambda",
+          "AWS ECS and Fargate",
+          "AWS Elastic Beanstalk for Spring Boot",
+          "AWS CloudFormation",
+          "AWS SDK for Java",
+          "DynamoDB with Java",
+          "SQS and SNS messaging",
+          "AWS monitoring: CloudWatch",
+          "Azure and GCP alternatives",
+          "Multi-cloud strategies"
+        ],
+        "projects": [
+          "Deploy Spring Boot to AWS EB",
+          "Serverless API with Lambda",
+          "S3 file storage integration",
+          "RDS database connection",
+          "Complete AWS infrastructure",
+          "CloudFormation templates",
+          "Multi-service cloud deployment"
+        ],
+        "practice": "Build 5 cloud-native applications"
+      },
+      "week_92_93": {
+        "title": "DevOps & CI/CD for Java",
+        "topics": [
+          "DevOps culture and practices",
+          "CI/CD pipeline design",
+          "Jenkins for Java projects",
+          "Jenkins pipeline as code",
+          "GitLab CI/CD",
+          "GitHub Actions for Java",
+          "Building with Maven/Gradle in CI",
+          "Automated testing in pipeline",
+          "Code quality gates: SonarQube",
+          "Security scanning: OWASP Dependency Check",
+          "Container image scanning",
+          "Deployment automation",
+          "Blue-green deployments",
+          "Canary releases",
+          "Infrastructure as Code: Terraform"
+        ],
+        "projects": [
+          "Complete CI/CD pipeline",
+          "Jenkins pipeline for microservices",
+          "GitHub Actions workflow",
+          "Automated testing and deployment",
+          "Quality gates implementation",
+          "Security scanning integration",
+          "Infrastructure automation",
+          "Zero-downtime deployment"
+        ],
+        "practice": "Set up CI/CD for all projects"
+      },
+      "week_94_95": {
+        "title": "System Design & Architecture",
+        "topics": [
+          "System design fundamentals",
+          "Scalability: horizontal vs vertical",
+          "Load balancing strategies",
+          "Caching layers and strategies",
+          "CDN for static content",
+          "Database sharding and partitioning",
+          "Database replication",
+          "CAP theorem",
+          "Consistency models",
+          "Message queues for decoupling",
+          "Designing for high availability",
+          "Disaster recovery planning",
+          "Rate limiting and throttling",
+          "API design best practices",
+          "System design interview preparation",
+          "Common system design problems"
+        ],
+        "projects": [
+          "Design URL shortener",
+          "Design Twitter/X",
+          "Design e-commerce platform",
+          "Design ride-sharing system",
+          "Design streaming service",
+          "Design notification system",
+          "Design chat application",
+          "System design documentation"
+        ],
+        "practice": "Solve 15 system design problems"
+      },
+      "week_96": {
+        "title": "Performance Engineering",
+        "topics": [
+          "Performance testing types",
+          "JMeter for load testing",
+          "Gatling for performance testing",
+          "Performance metrics and KPIs",
+          "Application profiling",
+          "JVM profiling tools: JProfiler, YourKit",
+          "Memory profiling and leak detection",
+          "CPU profiling",
+          "Database query optimization",
+          "Caching strategies",
+          "Connection pool tuning",
+          "JVM tuning: heap size, GC",
+          "Garbage collection algorithms",
+          "Application optimization techniques",
+          "Performance monitoring in production"
+        ],
+        "projects": [
+          "Load testing suite",
+          "Performance benchmarking",
+          "Application profiling report",
+          "JVM tuning exercise",
+          "Database optimization project",
+          "Performance dashboard",
+          "Optimization case studies"
+        ],
+        "practice": "Performance test and optimize all applications"
+      }
+    },
+    "month_23": {
+      "title": "PHASE 4 COMPLETION - Career Preparation",
+      "weeks": "Week 40-52 (distributed)",
+      "week_97": {
+        "title": "Advanced Java Topics & Specializations",
+        "topics": [
+          "Reactive programming with Project Reactor",
+          "Spring WebFlux for reactive applications",
+          "Reactive streams and backpressure",
+          "GraphQL with Spring Boot",
+          "gRPC services in Java",
+          "Apache Camel for integration",
+          "Batch processing with Spring Batch",
+          "Scheduled jobs with Quartz",
+          "Search with Elasticsearch",
+          "Caching with Hazelcast",
+          "Blockchain basics with Java",
+          "Machine Learning with Java: Weka, DL4J",
+          "Android development basics (Java)",
+          "Desktop applications: JavaFX"
+        ],
+        "projects": [
+          "Reactive REST API",
+          "GraphQL API with Spring Boot",
+          "gRPC service implementation",
+          "Batch processing application",
+          "Elasticsearch integration",
+          "Real-time data processing",
+          "Specialization project in chosen area"
+        ],
+        "practice": "Explore 3 advanced specializations"
+      },
+      "week_98": {
+        "title": "Code Quality & Best Practices",
+        "topics": [
+          "Clean code principles",
+          "SOLID principles in Java",
+          "Code refactoring techniques",
+          "Code smells and fixes",
+          "Design patterns application",
+          "Effective Java best practices",
+          "Java coding standards",
+          "Code review guidelines",
+          "Technical debt management",
+          "Documentation best practices",
+          "Javadoc comments",
+          "README and wiki writing",
+          "Architecture documentation",
+          "Static code analysis tools",
+          "Continuous code quality"
+        ],
+        "projects": [
+          "Code refactoring exercise",
+          "Clean code implementation",
+          "Design patterns showcase",
+          "Comprehensive documentation",
+          "Code review checklist",
+          "Quality metrics dashboard"
+        ],
+        "practice": "Refactor all projects with best practices"
+      },
+      "week_99": {
+        "title": "Open Source & Community",
+        "topics": [
+          "Open source contribution guide",
+          "Finding beginner-friendly projects",
+          "Understanding project structure",
+          "Reading contribution guidelines",
+          "Forking and pull requests",
+          "Code review in open source",
+          "Building open source portfolio",
+          "Starting your own open source project",
+          "Documentation for open source",
+          "Community management",
+          "Licensing: Apache, MIT, GPL",
+          "Building personal brand"
+        ],
+        "projects": [
+          "Contribute to 5 open source projects",
+          "Create own open source library",
+          "Maintain open source project",
+          "Documentation contributions",
+          "Bug fixes and features",
+          "Community engagement"
+        ],
+        "practice": "Active open source participation"
+      },
+      "week_100": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Java interview preparation strategy",
+          "Core Java interview questions",
+          "OOP interview questions",
+          "Collections framework questions",
+          "Multithreading interview topics",
+          "Spring and Spring Boot questions",
+          "Microservices interview prep",
+          "System design interviews",
+          "Data structures and algorithms review",
+          "LeetCode problem-solving strategies",
+          "Behavioral interview questions",
+          "STAR method for answers",
+          "Salary negotiation tactics",
+          "Job search strategies",
+          "Resume optimization for Java developers"
+        ],
+        "projects": [
+          "Solve 150+ LeetCode problems",
+          "System design case studies",
+          "Mock interview practice",
+          "Interview preparation guide",
+          "Portfolio website creation"
+        ],
+        "practice": "Daily coding challenges and mock interviews"
+      }
+    },
+    "month_24": {
+      "title": "Final Month - Capstone & Career Launch",
+      "weeks": "Week 49-52",
+      "week_101_102": {
+        "title": "Final Capstone Project - Part 1",
+        "topics": [
+          "Project ideation and planning",
+          "Requirement analysis",
+          "System architecture design",
+          "Microservices design",
+          "Database design",
+          "API design and documentation",
+          "Technology stack selection",
+          "Development workflow setup",
+          "Sprint planning",
+          "Agile methodology"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Enterprise-Grade Microservices Application",
+          "Option 1: E-commerce Microservices Platform",
+          "Services: User, Product, Order, Payment, Notification, Inventory",
+          "Option 2: Social Media Platform Backend",
+          "Services: User, Post, Comment, Like, Follow, Feed, Notification, Chat",
+          "Option 3: Banking/FinTech Application",
+          "Services: Account, Transaction, Loan, Card, KYC, Notification",
+          "Option 4: Learning Management System",
+          "Services: User, Course, Enrollment, Content, Assessment, Progress, Certificate"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Part 2",
+        "topics": [
+          "Implementation completion",
+          "Comprehensive testing",
+          "Performance optimization",
+          "Security hardening",
+          "Documentation writing",
+          "Deployment to cloud",
+          "CI/CD pipeline setup",
+          "Monitoring and logging",
+          "Load testing",
+          "Project presentation preparation"
+        ],
+        "deliverables": [
+          "Complete source code on GitHub",
+          "Microservices deployed to cloud (AWS/Azure/GCP)",
+          "Kubernetes deployment manifests",
+          "Complete API documentation (Swagger/OpenAPI)",
+          "Architecture diagrams and documentation",
+          "Database schema and relationships",
+          "CI/CD pipeline configuration",
+          "Test coverage report (80%+ coverage)",
+          "Performance testing report",
+          "Video demo and presentation",
+          "Comprehensive README and wiki"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & Professional Development",
+        "topics": [
+          "Professional portfolio website",
+          "Resume optimization for Java roles",
+          "LinkedIn profile enhancement",
+          "GitHub profile showcase",
+          "Technical blog writing",
+          "Speaking at meetups/conferences",
+          "Networking strategies",
+          "Job application process",
+          "Interview follow-up",
+          "Continuous learning plan",
+          "Staying updated with Java ecosystem",
+          "Mentoring and teaching others",
+          "Freelancing strategies",
+          "Consulting career path",
+          "Startup opportunities"
+        ],
+        "deliverables": [
+          "Professional portfolio with 40+ projects",
+          "Optimized resume for Java developer roles",
+          "Enhanced LinkedIn profile with certifications",
+          "GitHub profile with 100+ contributions",
+          "5-10 technical blog posts",
+          "Personal brand establishment",
+          "Job application materials ready",
+          "Mock interview completion",
+          "Continuous learning roadmap",
+          "Professional network connections"
+        ],
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete Java mastery evaluation"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-3): 20+ foundational projects - calculators, games, console apps, OOP systems",
+      "Phase 2 (Months 4-6): 18+ intermediate projects - collections apps, multithreaded systems, design patterns",
+      "Phase 3 (Months 7-9): 20+ enterprise projects - web apps, REST APIs, Spring Boot applications, databases",
+      "Phase 4 (Months 10-12): 15+ advanced projects - microservices, cloud deployments, distributed systems",
+      "Final: 5 major capstone projects demonstrating complete expertise"
+    ],
+    "total_projects_built": "70+ projects from beginner to enterprise-grade production systems",
+    "skills_mastered": [
+      "Core Java: Syntax, OOP, Collections, Generics, Exception Handling, Multithreading, I/O, Lambda, Streams",
+      "Advanced Java: Design Patterns, Reflection, Annotations, JVM Internals, Performance Tuning",
+      "Enterprise Java: Servlets, JSP, JDBC, JPA/Hibernate, Spring Core, Spring Boot, Spring Security, Spring Data",
+      "Web Development: RESTful APIs, HTTP, JSON, API Design, Swagger/OpenAPI, WebSockets",
+      "Databases: SQL (MySQL, PostgreSQL), JPA, Hibernate, Query Optimization, Database Design, NoSQL (MongoDB)",
+      "Microservices: Spring Cloud, Eureka, API Gateway, Circuit Breaker, Message Queues (RabbitMQ, Kafka)",
+      "Testing: JUnit 5, Mockito, Integration Testing, Test-Driven Development, Code Coverage",
+      "DevOps: Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions), Maven, Gradle, Git",
+      "Cloud: AWS (EC2, RDS, S3, Lambda, ECS), Elastic Beanstalk, Cloud Native Development",
+      "Architecture: System Design, Microservices Architecture, Event-Driven Architecture, CQRS, SAGA",
+      "Tools: IntelliJ IDEA, Eclipse, VS Code, Postman, SonarQube, JMeter, Prometheus, Grafana",
+      "Soft Skills: Problem-solving, System Design Thinking, Code Review, Documentation, Agile Methodologies"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "3-5 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live coding sessions and doubt clearing",
+      "mentorship": "1-on-1 expert Java developer mentorship",
+      "community": "Active Discord/Slack community with 24/7 peer support",
+      "code_review": "Expert code reviews for all major projects",
+      "career_support": "Resume review, mock interviews, job referrals to product companies",
+      "lifetime_access": "All content, future updates, new Java versions coverage",
+      "placement_assistance": "Dedicated placement cell with company partnerships",
+      "interview_prep": "Mock interviews with industry professionals"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion (4 certificates)",
+      "final_certificate": "Professional Java Developer Certification",
+      "spring_certificate": "Spring Boot Specialist Certificate",
+      "microservices_certificate": "Microservices Architecture Certificate",
+      "linkedin_badge": "Digital badges for LinkedIn profile",
+      "industry_recognized": "Recognized by Fortune 500 companies and startups",
+      "portfolio_projects": "40+ production-ready portfolio projects",
+      "oracle_exam_prep": "Preparation for Oracle Java Certification (OCA/OCP)"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required - open to all backgrounds",
+    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
+    "age": "12+ years (separate learning tracks for kids, teens, adults)",
+    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, internet connection",
+    "time_commitment": "15-20 hours per week consistently for best results",
+    "english": "Basic reading comprehension (materials also available in Hindi)",
+    "motivation": "Strong desire to become a professional Java developer",
+    "math": "Basic mathematics (taught as needed)"
+  },
+  "who_is_this_for": {
+    "kids": "Age 12-14: Simplified track with visual learning, game-based projects, OOP with real-world examples",
+    "teens": "Age 15-18: Student-focused track, college prep, competitive programming, project-based learning",
+    "students": "College students: Campus placement preparation, internship readiness, strong portfolio building",
+    "working_professionals": "Career switchers: Structured path from any background to Java developer role",
+    "developers": "Developers from other languages wanting to master Java ecosystem",
+    "backend_engineers": "Backend developers wanting to specialize in enterprise Java",
+    "entrepreneurs": "Build your own products using scalable Java technologies",
+    "freelancers": "Offer enterprise Java development services to high-paying clients",
+    "architects": "Learn to design large-scale distributed systems",
+    "anyone": "Anyone passionate about backend development and enterprise software"
+  },
+  "career_paths_after_completion": [
+    "Java Developer (Junior to Senior levels)",
+    "Backend Developer / Backend Engineer",
+    "Full Stack Java Developer (Java + React/Angular)",
+    "Spring Boot Developer",
+    "Microservices Developer",
+    "Enterprise Application Developer",
+    "Solutions Architect",
+    "Technical Lead / Team Lead",
+    "DevOps Engineer (Java focus)",
+    "Cloud Engineer (AWS/Azure with Java)",
+    "Software Architect",
+    "Principal Engineer",
+    "Freelance Java Consultant",
+    "Technical Trainer / Instructor",
+    "Startup Founder / CTO"
+  ],
+  "salary_expectations": {
+    "after_3_months": "₹3-5 LPA (Junior Java Developer / Fresher)",
+    "after_6_months": "₹5-9 LPA (Java Developer)",
+    "after_9_months": "₹8-15 LPA (Senior Java Developer / Spring Boot Developer)",
+    "after_12_months": "₹12-25 LPA (Senior Java / Microservices Developer / Tech Lead)",
+    "experienced_3_years": "₹18-40 LPA (Lead Developer / Architect)",
+    "freelance": "₹1000-5000/hour based on expertise",
+    "international_usa": "$80k-180k USD (Java Developer to Senior)",
+    "international_europe": "€50k-120k EUR based on country and experience",
+    "product_companies": "₹15-50 LPA in top product companies (Google, Amazon, Microsoft, etc.)",
+    "fintech_banking": "₹20-60 LPA in banking and fintech sectors"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee - no questions asked",
+    "job_assistance": "Job placement support with 500+ hiring partners",
+    "lifetime_updates": "Free access to all future content, new Java versions, framework updates",
+    "mentorship": "Dedicated expert mentor throughout 12-month journey and beyond",
+    "certificate": "Industry-recognized certification from established platform",
+    "portfolio": "40+ production-ready projects for impressive portfolio",
+    "community": "Lifetime access to alumni network and community",
+    "career_switch": "Extended support until successful career switch (up to 18 months)",
+    "skill_guarantee": "Master Java or continue learning free until you do",
+    "interview_guarantee": "Unlimited mock interviews until you land a job",
+    "salary_hike": "Average 150-300% salary hike for career switchers",
+    "placement_record": "85%+ placement rate within 6 months of completion"
+  }
+}

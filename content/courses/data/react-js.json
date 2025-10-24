@@ -1,0 +1,1234 @@
+{
+  "meta": {
+    "slug": "react-js-complete-masterclass",
+    "title": "Complete React.js Masterclass - Zero to Senior React Developer",
+    "description": "The most comprehensive 12-month React program. Master React 18+, Hooks, Redux, Next.js, TypeScript, testing, performance optimization, and full-stack development. Build production-ready applications from scratch.",
+    "keywords": [
+      "react",
+      "react js",
+      "react hooks",
+      "redux",
+      "next js",
+      "typescript react",
+      "react native",
+      "frontend development",
+      "spa",
+      "react testing",
+      "react performance",
+      "state management",
+      "react ecosystem",
+      "mern stack",
+      "react 18"
+    ],
+    "category": "Frontend Development & Modern Web",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Senior React Developer",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Certified React Developer Professional upon completion"
+  },
+  "program_overview": {
+    "title": "Complete React.js Masterclass",
+    "tagline": "From JSX Basics to Production-Scale React Applications",
+    "description": "This is not just a course—it's your complete transformation into a professional React developer. React powers Facebook, Netflix, Airbnb, and countless modern web applications. This 12-month masterclass takes you from absolute beginner to senior React developer, capable of building complex, scalable, and performant web applications. You'll master modern React with Hooks, state management, server-side rendering with Next.js, mobile development with React Native, and the entire React ecosystem. Build a portfolio of 30+ production-ready applications that will impress any employer or client.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no React or even JavaScript expertise required",
+      "Complete 12-month structured curriculum with React 18+ features",
+      "Covers entire React ecosystem: Redux, Next.js, React Native, GraphQL",
+      "30+ real-world projects including social media, e-commerce, SaaS apps",
+      "TypeScript integration from the beginning",
+      "Testing, performance optimization, and production deployment",
+      "Modern state management: Redux Toolkit, Zustand, Context API",
+      "Full-stack development with MERN stack",
+      "Interview preparation for FAANG companies",
+      "Lifetime access with continuous updates for new React features"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): JavaScript, React Basics, Components, Hooks",
+      "phase_2": "Intermediate (Months 4-6): State Management, Routing, Forms, APIs",
+      "phase_3": "Advanced (Months 7-9): Next.js, TypeScript, Testing, Performance",
+      "phase_4": "Professional (Months 10-12): React Native, Full-Stack, Production Apps"
+    },
+    "career_outcomes": [
+      "Junior React Developer (after 3 months)",
+      "React Developer (after 6 months)",
+      "Senior React Developer (after 9 months)",
+      "Full-Stack Developer / React Architect (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: JavaScript & React Fundamentals (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid foundations in JavaScript ES6+ and React core concepts, components, and hooks.",
+    "month_1_2": {
+      "title": "Months 1-2: JavaScript Mastery for React",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Modern JavaScript Essentials",
+        "topics": [
+          "JavaScript fundamentals review",
+          "ES6+ features: let, const, arrow functions",
+          "Template literals and string interpolation",
+          "Destructuring arrays and objects",
+          "Spread and rest operators",
+          "Default parameters",
+          "Object property shorthand",
+          "Array methods: map, filter, reduce, find",
+          "forEach vs map understanding",
+          "Promises and async/await",
+          "Modules: import/export",
+          "Classes and inheritance"
+        ],
+        "projects": [
+          "JavaScript utility functions library",
+          "Todo app with vanilla JavaScript",
+          "Weather app with API calls",
+          "Array manipulation exercises"
+        ],
+        "practice": "Complete 100 JavaScript challenges"
+      },
+      "week_3_4": {
+        "title": "Introduction to React",
+        "topics": [
+          "What is React and why use it?",
+          "Virtual DOM concept",
+          "React ecosystem overview",
+          "Setting up development environment",
+          "Create React App vs Vite",
+          "Project structure best practices",
+          "JSX syntax and expressions",
+          "JSX vs HTML differences",
+          "Embedding JavaScript in JSX",
+          "React Developer Tools",
+          "First React component",
+          "React.StrictMode"
+        ],
+        "projects": [
+          "First React app setup",
+          "Static website with React",
+          "Personal portfolio starter",
+          "JSX exercises and experiments"
+        ],
+        "practice": "Create 20 simple React components"
+      },
+      "week_5_6": {
+        "title": "Components & Props",
+        "topics": [
+          "Functional components",
+          "Component composition",
+          "Props and prop types",
+          "Children props",
+          "Prop drilling introduction",
+          "Default props",
+          "Spreading props",
+          "Component organization",
+          "Conditional rendering techniques",
+          "Lists and keys in React",
+          "Fragments and React.Fragment",
+          "Component lifecycle overview"
+        ],
+        "projects": [
+          "Component library creation",
+          "Blog post list component",
+          "Product card components",
+          "Navigation menu component"
+        ],
+        "practice": "Build 30 reusable components"
+      },
+      "week_7_8": {
+        "title": "State & Event Handling",
+        "topics": [
+          "Understanding state in React",
+          "useState Hook deep dive",
+          "State vs props",
+          "Event handling in React",
+          "Synthetic events",
+          "Common events: onClick, onChange, onSubmit",
+          "Event object and preventDefault",
+          "Handling forms basics",
+          "Controlled vs uncontrolled components",
+          "Multiple state variables",
+          "State update patterns",
+          "Immutability importance"
+        ],
+        "projects": [
+          "Interactive counter app",
+          "Form with validation",
+          "Todo list with state",
+          "Color picker component"
+        ],
+        "practice": "Build 20 interactive components with state"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: React Hooks Mastery",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Essential Hooks",
+        "topics": [
+          "Rules of Hooks",
+          "useState advanced patterns",
+          "useEffect lifecycle replacement",
+          "useEffect dependencies array",
+          "Cleanup functions",
+          "Multiple useEffect hooks",
+          "useContext for global state",
+          "useReducer for complex state",
+          "useReducer vs useState",
+          "useCallback for memoization",
+          "useMemo for expensive computations",
+          "useRef for DOM access and values"
+        ],
+        "projects": [
+          "Data fetching with useEffect",
+          "Theme switcher with Context",
+          "Complex form with useReducer",
+          "Performance optimization examples"
+        ],
+        "practice": "Master all essential hooks with 30 examples"
+      },
+      "week_11_12": {
+        "title": "Custom Hooks & Patterns",
+        "topics": [
+          "Creating custom hooks",
+          "Custom hook best practices",
+          "useLocalStorage hook",
+          "useFetch hook",
+          "useDebounce hook",
+          "useThrottle hook",
+          "usePrevious hook",
+          "useOnClickOutside hook",
+          "useMediaQuery hook",
+          "useIntersectionObserver hook",
+          "Hook composition patterns",
+          "Testing custom hooks"
+        ],
+        "projects": [
+          "Custom hooks library",
+          "Form validation hooks",
+          "API hooks collection",
+          "Animation hooks"
+        ],
+        "practice": "Create 20 custom hooks"
+      },
+      "week_13": {
+        "title": "Styling in React",
+        "topics": [
+          "CSS modules",
+          "CSS-in-JS introduction",
+          "Styled-components basics",
+          "Emotion library",
+          "Inline styles in React",
+          "Dynamic styling",
+          "CSS frameworks with React",
+          "Tailwind CSS integration",
+          "Bootstrap with React",
+          "Material-UI basics",
+          "Animations with React",
+          "CSS transitions in React"
+        ],
+        "projects": [
+          "Styled-components theme",
+          "Responsive design system",
+          "Animated components",
+          "PHASE 1 CAPSTONE: Complete React Application with Custom Styling"
+        ],
+        "assessment": "Phase 1 exam on React fundamentals"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced React & State Management (Months 4-6, Weeks 14-26)",
+    "description": "Master routing, forms, API integration, and professional state management solutions.",
+    "month_7_8": {
+      "title": "Months 4-5: Routing & Data Management",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "React Router",
+        "topics": [
+          "React Router v6 setup",
+          "BrowserRouter vs HashRouter",
+          "Route components",
+          "Link and NavLink",
+          "Nested routes",
+          "Route parameters",
+          "Query strings",
+          "useNavigate hook",
+          "useLocation hook",
+          "useParams hook",
+          "Protected routes",
+          "Route guards",
+          "Lazy loading routes",
+          "404 pages"
+        ],
+        "projects": [
+          "Multi-page application",
+          "E-commerce product routing",
+          "Admin dashboard with nested routes",
+          "Authentication flow"
+        ],
+        "practice": "Build 10 routing scenarios"
+      },
+      "week_29_30": {
+        "title": "Forms & Validation",
+        "topics": [
+          "Controlled components deep dive",
+          "Form state management",
+          "Multi-step forms",
+          "File uploads",
+          "Form validation strategies",
+          "React Hook Form",
+          "Formik library",
+          "Yup validation schemas",
+          "Custom validation",
+          "Error handling",
+          "Form optimization",
+          "Dynamic forms",
+          "Form arrays",
+          "Accessibility in forms"
+        ],
+        "projects": [
+          "Registration system",
+          "Survey application",
+          "Dynamic form builder",
+          "Checkout process"
+        ],
+        "practice": "Create 15 complex forms"
+      },
+      "week_31_32": {
+        "title": "API Integration & Data Fetching",
+        "topics": [
+          "Fetch API with React",
+          "Axios integration",
+          "Loading states",
+          "Error handling",
+          "Async operations in React",
+          "Data fetching patterns",
+          "Caching strategies",
+          "Optimistic updates",
+          "Pagination implementation",
+          "Infinite scrolling",
+          "Real-time data with WebSockets",
+          "Server-Sent Events",
+          "GraphQL with Apollo Client",
+          "React Query (TanStack Query)"
+        ],
+        "projects": [
+          "Blog with API backend",
+          "Real-time chat application",
+          "GitHub profile viewer",
+          "Infinite scroll feed"
+        ],
+        "practice": "Integrate 10 different APIs"
+      },
+      "week_33_34": {
+        "title": "Context API & State Management",
+        "topics": [
+          "Context API deep dive",
+          "Creating providers",
+          "Multiple contexts",
+          "Context optimization",
+          "Context vs props",
+          "Global state patterns",
+          "State management principles",
+          "Introduction to Redux",
+          "Redux Toolkit modern approach",
+          "Actions and reducers",
+          "Redux DevTools",
+          "Async actions with Redux Thunk",
+          "RTK Query"
+        ],
+        "projects": [
+          "Shopping cart with Context",
+          "Theme system with Context",
+          "Todo app with Redux",
+          "E-commerce with Redux Toolkit"
+        ],
+        "practice": "Implement 10 state management scenarios"
+      },
+      "week_35": {
+        "title": "Advanced Redux Patterns",
+        "topics": [
+          "Redux middleware",
+          "Redux Saga introduction",
+          "Normalized state shape",
+          "Reselect for memoization",
+          "Redux persist",
+          "Redux forms",
+          "Time travel debugging",
+          "Redux performance",
+          "Code splitting with Redux",
+          "Redux with TypeScript preview",
+          "Alternative: Zustand",
+          "Alternative: MobX",
+          "Alternative: Recoil",
+          "Choosing state management"
+        ],
+        "projects": [
+          "Complex app with Redux Saga",
+          "Offline-capable app",
+          "Multi-user collaboration app",
+          "State management comparison"
+        ],
+        "practice": "Master advanced Redux patterns"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Component Patterns & Architecture",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Advanced Component Patterns",
+        "topics": [
+          "Higher-Order Components (HOCs)",
+          "Render props pattern",
+          "Compound components",
+          "Controlled vs uncontrolled",
+          "Presentational vs container components",
+          "Provider pattern",
+          "State initializer pattern",
+          "State reducer pattern",
+          "Prop collections pattern",
+          "Prop getters pattern",
+          "Component composition strategies",
+          "Slot pattern",
+          "Inversion of control",
+          "Extensible components"
+        ],
+        "projects": [
+          "Advanced UI component library",
+          "Flexible modal system",
+          "Data table component",
+          "Accordion component set"
+        ],
+        "practice": "Implement 15 component patterns"
+      },
+      "week_38_39": {
+        "title": "Performance Optimization",
+        "topics": [
+          "React DevTools Profiler",
+          "Performance metrics",
+          "React.memo optimization",
+          "useMemo strategies",
+          "useCallback patterns",
+          "Lazy loading components",
+          "Code splitting with React.lazy",
+          "Suspense for data fetching",
+          "Virtualization with react-window",
+          "Image optimization",
+          "Bundle size optimization",
+          "Tree shaking",
+          "Performance monitoring",
+          "Core Web Vitals"
+        ],
+        "projects": [
+          "Optimize large list rendering",
+          "Performance audit project",
+          "Image gallery optimization",
+          "Bundle size reduction"
+        ],
+        "practice": "Optimize 10 slow React apps"
+      },
+      "week_40_41": {
+        "title": "Error Handling & Debugging",
+        "topics": [
+          "Error boundaries",
+          "Error boundary patterns",
+          "Fallback UI design",
+          "Error reporting services",
+          "Debugging techniques",
+          "React DevTools mastery",
+          "Console debugging strategies",
+          "Network tab debugging",
+          "Source maps",
+          "Debugging production issues",
+          "Logging strategies",
+          "Error tracking with Sentry",
+          "Performance debugging",
+          "Memory leak detection"
+        ],
+        "projects": [
+          "Error boundary system",
+          "Debugging toolkit",
+          "Error monitoring setup",
+          "Production debugging guide"
+        ],
+        "practice": "Debug 20 React issues"
+      },
+      "week_42_43": {
+        "title": "Accessibility & SEO",
+        "topics": [
+          "Web accessibility principles",
+          "ARIA attributes in React",
+          "Keyboard navigation",
+          "Screen reader support",
+          "Focus management",
+          "Accessible forms",
+          "Color contrast",
+          "Accessible modals",
+          "Testing accessibility",
+          "SEO with React SPA",
+          "Meta tags management",
+          "React Helmet",
+          "Open Graph tags",
+          "Structured data"
+        ],
+        "projects": [
+          "Accessible component library",
+          "SEO-optimized blog",
+          "Accessibility audit tool",
+          "WCAG compliant app"
+        ],
+        "practice": "Make 10 apps fully accessible"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complex application planning",
+          "Architecture design",
+          "State management setup",
+          "API integration",
+          "Performance optimization",
+          "Testing implementation"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Full-Featured Social Media App",
+          "Build complete social platform with posts, comments, likes",
+          "Include: authentication, real-time updates, image uploads",
+          "Redux state management, optimized performance"
+        ],
+        "assessment": "Phase 2 exam on advanced React"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: TypeScript, Testing & Next.js (Months 7-9, Weeks 27-39)",
+    "description": "Master TypeScript with React, comprehensive testing, and server-side rendering with Next.js.",
+    "month_13_14": {
+      "title": "Months 7-8: TypeScript & Testing",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "TypeScript Fundamentals for React",
+        "topics": [
+          "TypeScript setup with React",
+          "Basic types and interfaces",
+          "Type annotations",
+          "Function types",
+          "Union and intersection types",
+          "Type aliases",
+          "Generics basics",
+          "Type inference",
+          "Strict mode",
+          "tsconfig.json configuration",
+          "TypeScript with Create React App",
+          "TypeScript with Vite",
+          "Migration strategies",
+          "Common TypeScript errors"
+        ],
+        "projects": [
+          "Convert JS project to TypeScript",
+          "Type-safe component library",
+          "TypeScript configuration setup",
+          "Type definitions creation"
+        ],
+        "practice": "Type 30 React components"
+      },
+      "week_55_56": {
+        "title": "TypeScript with React",
+        "topics": [
+          "Typing functional components",
+          "Props interface patterns",
+          "Children prop types",
+          "Event handler types",
+          "Hooks with TypeScript",
+          "useState with TypeScript",
+          "useReducer typing",
+          "useContext typing",
+          "Custom hooks typing",
+          "Generic components",
+          "Discriminated unions",
+          "Type guards",
+          "Utility types",
+          "Third-party library types"
+        ],
+        "projects": [
+          "Type-safe form system",
+          "Redux with TypeScript",
+          "API client with types",
+          "Component library with types"
+        ],
+        "practice": "Build 20 type-safe components"
+      },
+      "week_57_58": {
+        "title": "Testing React Applications",
+        "topics": [
+          "Testing philosophy",
+          "Jest setup and configuration",
+          "React Testing Library",
+          "Component testing",
+          "Testing hooks",
+          "Testing async operations",
+          "Mocking modules",
+          "Testing user interactions",
+          "Integration testing",
+          "Snapshot testing",
+          "Coverage reports",
+          "Testing best practices",
+          "TDD with React",
+          "Debugging tests"
+        ],
+        "projects": [
+          "Test suite for component library",
+          "TDD todo application",
+          "Integration test suite",
+          "Testing utilities library"
+        ],
+        "practice": "Write 100+ test cases"
+      },
+      "week_59_60": {
+        "title": "End-to-End Testing",
+        "topics": [
+          "E2E testing introduction",
+          "Cypress setup",
+          "Writing Cypress tests",
+          "Page object pattern",
+          "API testing with Cypress",
+          "Visual regression testing",
+          "Playwright introduction",
+          "Cross-browser testing",
+          "CI/CD integration",
+          "Test automation strategies",
+          "Performance testing",
+          "Accessibility testing",
+          "Security testing basics",
+          "Test reporting"
+        ],
+        "projects": [
+          "E2E test suite with Cypress",
+          "Visual regression tests",
+          "CI/CD pipeline with tests",
+          "Automated test reports"
+        ],
+        "practice": "Create comprehensive E2E coverage"
+      },
+      "week_61": {
+        "title": "Introduction to Next.js",
+        "topics": [
+          "Next.js benefits and features",
+          "Create Next App setup",
+          "File-based routing",
+          "Pages and layouts",
+          "Static generation (SSG)",
+          "Server-side rendering (SSR)",
+          "API routes",
+          "Dynamic routes",
+          "Link component",
+          "Image optimization",
+          "CSS and styling in Next.js",
+          "Environment variables",
+          "Next.js vs Create React App",
+          "Migration to Next.js"
+        ],
+        "projects": [
+          "Blog with Next.js",
+          "Portfolio with SSG",
+          "E-commerce homepage",
+          "API with Next.js"
+        ],
+        "practice": "Build 5 Next.js applications"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced Next.js & Full-Stack",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Advanced Next.js Features",
+        "topics": [
+          "Incremental Static Regeneration (ISR)",
+          "Dynamic imports",
+          "Middleware",
+          "Edge functions",
+          "Authentication in Next.js",
+          "NextAuth.js",
+          "Database integration",
+          "Prisma with Next.js",
+          "tRPC integration",
+          "Internationalization (i18n)",
+          "SEO optimization",
+          "Performance optimization",
+          "Deployment strategies",
+          "Vercel deployment"
+        ],
+        "projects": [
+          "Full-stack app with authentication",
+          "Multi-language website",
+          "E-commerce with ISR",
+          "SaaS application starter"
+        ],
+        "practice": "Master advanced Next.js features"
+      },
+      "week_64_65": {
+        "title": "GraphQL with React",
+        "topics": [
+          "GraphQL introduction",
+          "GraphQL vs REST",
+          "Apollo Client setup",
+          "Queries and mutations",
+          "GraphQL fragments",
+          "Optimistic UI",
+          "Caching strategies",
+          "Subscriptions",
+          "Error handling",
+          "Authentication with GraphQL",
+          "File uploads",
+          "Relay modern basics",
+          "GraphQL code generation",
+          "Performance optimization"
+        ],
+        "projects": [
+          "GraphQL blog application",
+          "Real-time chat with subscriptions",
+          "E-commerce with GraphQL",
+          "GitHub clone with GraphQL"
+        ],
+        "practice": "Build 5 GraphQL applications"
+      },
+      "week_66_67": {
+        "title": "Micro-Frontends & Module Federation",
+        "topics": [
+          "Micro-frontends architecture",
+          "Benefits and challenges",
+          "Module federation with Webpack 5",
+          "Sharing dependencies",
+          "Runtime integration",
+          "Build-time integration",
+          "Single-spa framework",
+          "Qiankun framework",
+          "Communication between micro-frontends",
+          "Shared state management",
+          "Deployment strategies",
+          "Testing micro-frontends",
+          "Performance considerations",
+          "When to use micro-frontends"
+        ],
+        "projects": [
+          "Micro-frontend architecture",
+          "Module federation setup",
+          "Multi-team application",
+          "Legacy app integration"
+        ],
+        "practice": "Implement micro-frontend patterns"
+      },
+      "week_68_69": {
+        "title": "Progressive Web Apps (PWA)",
+        "topics": [
+          "PWA principles",
+          "Service workers in React",
+          "Offline functionality",
+          "Cache strategies",
+          "Web app manifest",
+          "Push notifications",
+          "Background sync",
+          "App shell architecture",
+          "Performance optimization for PWA",
+          "Lighthouse audits",
+          "PWA deployment",
+          "App store submission",
+          "PWA vs native apps",
+          "Workbox library"
+        ],
+        "projects": [
+          "Offline-first news app",
+          "PWA e-commerce site",
+          "Push notification system",
+          "Installable web app"
+        ],
+        "practice": "Convert 5 apps to PWAs"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Full-stack application design",
+          "TypeScript throughout",
+          "Comprehensive testing",
+          "Next.js implementation",
+          "Performance optimization",
+          "Production deployment"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Production-Ready SaaS Application",
+          "Build complete SaaS with Next.js, TypeScript, testing",
+          "Include: authentication, payments, admin panel",
+          "Full test coverage, deployed to production"
+        ],
+        "assessment": "Phase 3 exam on TypeScript, testing, Next.js"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: React Native & Professional Development (Months 10-12, Weeks 40-52)",
+    "description": "Master React Native, deployment, DevOps, and prepare for senior developer roles.",
+    "month_19_20": {
+      "title": "Months 10-11: React Native & Mobile Development",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "React Native Fundamentals",
+        "topics": [
+          "React Native introduction",
+          "Expo vs React Native CLI",
+          "Development environment setup",
+          "Core components overview",
+          "View, Text, Image components",
+          "ScrollView and FlatList",
+          "Styling in React Native",
+          "Flexbox for mobile",
+          "Platform-specific code",
+          "React Navigation setup",
+          "Stack, tab, drawer navigation",
+          "Handling user input",
+          "Touch events",
+          "Debugging React Native"
+        ],
+        "projects": [
+          "First React Native app",
+          "Todo mobile app",
+          "Weather app for mobile",
+          "Navigation examples"
+        ],
+        "practice": "Build 10 mobile screens"
+      },
+      "week_81_82": {
+        "title": "Advanced React Native",
+        "topics": [
+          "Native modules",
+          "Animations with Animated API",
+          "Gesture handling",
+          "Camera and image picker",
+          "Geolocation",
+          "Push notifications",
+          "AsyncStorage",
+          "SQLite integration",
+          "State management in React Native",
+          "Redux with React Native",
+          "Performance optimization",
+          "Code push updates",
+          "Deep linking",
+          "Biometric authentication"
+        ],
+        "projects": [
+          "Social media mobile app",
+          "Location-based app",
+          "Camera app with filters",
+          "Offline-capable app"
+        ],
+        "practice": "Implement 15 native features"
+      },
+      "week_83_84": {
+        "title": "React Native Deployment",
+        "topics": [
+          "Building for iOS",
+          "Xcode configuration",
+          "Building for Android",
+          "Android Studio setup",
+          "Signing applications",
+          "App store guidelines",
+          "Google Play guidelines",
+          "Beta testing with TestFlight",
+          "Google Play Console",
+          "CI/CD for React Native",
+          "Fastlane automation",
+          "App monitoring",
+          "Crash reporting",
+          "Analytics integration"
+        ],
+        "projects": [
+          "Deploy app to TestFlight",
+          "Deploy app to Google Play",
+          "CI/CD pipeline setup",
+          "Analytics implementation"
+        ],
+        "practice": "Deploy 3 apps to stores"
+      },
+      "week_85_86": {
+        "title": "Full-Stack React Development",
+        "topics": [
+          "MERN stack overview",
+          "Node.js backend for React",
+          "Express.js API creation",
+          "MongoDB integration",
+          "Authentication strategies",
+          "JWT implementation",
+          "OAuth integration",
+          "File uploads",
+          "WebSocket integration",
+          "Email services",
+          "Payment processing",
+          "Stripe integration",
+          "Deployment strategies",
+          "Docker for React apps"
+        ],
+        "projects": [
+          "Full-stack e-commerce",
+          "Real-time collaboration app",
+          "Subscription-based SaaS",
+          "Social network clone"
+        ],
+        "practice": "Build 5 full-stack applications"
+      },
+      "week_87": {
+        "title": "DevOps for React",
+        "topics": [
+          "CI/CD pipelines",
+          "GitHub Actions",
+          "GitLab CI",
+          "Jenkins for React",
+          "Docker containerization",
+          "Kubernetes basics",
+          "Cloud deployment (AWS, GCP, Azure)",
+          "Vercel deployment",
+          "Netlify deployment",
+          "CDN setup",
+          "Monitoring and logging",
+          "Error tracking",
+          "Performance monitoring",
+          "Security best practices"
+        ],
+        "projects": [
+          "Complete CI/CD pipeline",
+          "Multi-environment setup",
+          "Monitoring dashboard",
+          "Automated deployment system"
+        ],
+        "practice": "Deploy to 5 different platforms"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Career Launch & Specialization",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Advanced Patterns & Architecture",
+        "topics": [
+          "Atomic design principles",
+          "Design systems in React",
+          "Storybook for components",
+          "Component documentation",
+          "Monorepo with Lerna/Nx",
+          "Design tokens",
+          "Theme systems",
+          "Multi-tenancy",
+          "White-label applications",
+          "Plugin architectures",
+          "Extensible applications",
+          "Framework agnostic components",
+          "Web Components with React",
+          "React Server Components"
+        ],
+        "projects": [
+          "Design system creation",
+          "Storybook documentation",
+          "Monorepo setup",
+          "White-label platform"
+        ],
+        "practice": "Implement 10 architectural patterns"
+      },
+      "week_90_91": {
+        "title": "Interview Preparation",
+        "topics": [
+          "React interview questions",
+          "JavaScript deep dive",
+          "Algorithm challenges",
+          "System design for frontend",
+          "Take-home projects",
+          "Code review skills",
+          "Behavioral questions",
+          "STAR method",
+          "Portfolio presentation",
+          "Salary negotiation",
+          "FAANG preparation",
+          "Startup vs corporate",
+          "Remote work preparation",
+          "Freelancing basics"
+        ],
+        "projects": [
+          "Interview prep materials",
+          "Portfolio website",
+          "Code challenge solutions",
+          "System design examples"
+        ],
+        "practice": "Complete 50 interview problems"
+      },
+      "week_92_93": {
+        "title": "Portfolio & Personal Brand",
+        "topics": [
+          "Portfolio strategy",
+          "Project selection",
+          "Case study writing",
+          "GitHub optimization",
+          "LinkedIn profile",
+          "Personal website",
+          "Technical blogging",
+          "Video content creation",
+          "Open source contribution",
+          "Community involvement",
+          "Speaking at meetups",
+          "Building reputation",
+          "Networking strategies",
+          "Mentorship"
+        ],
+        "projects": [
+          "Professional portfolio",
+          "Technical blog posts",
+          "Open source contributions",
+          "Personal brand strategy"
+        ],
+        "practice": "Build complete online presence"
+      },
+      "week_94_95": {
+        "title": "Specialization Paths",
+        "topics": [
+          "Frontend architect path",
+          "UI/UX engineer focus",
+          "Performance specialist",
+          "Accessibility expert",
+          "Animation specialist",
+          "3D with React Three Fiber",
+          "Data visualization with D3",
+          "React Native specialist",
+          "Full-stack developer",
+          "Technical lead skills",
+          "Engineering manager path",
+          "Consultant pathway",
+          "Educator and trainer",
+          "Startup founder skills"
+        ],
+        "projects": [
+          "Specialization project",
+          "Advanced showcase",
+          "Teaching materials",
+          "Consulting proposal"
+        ],
+        "practice": "Deep dive into chosen specialization"
+      },
+      "week_96": {
+        "title": "Final Project & Graduation",
+        "topics": [
+          "Capstone planning",
+          "Real-world problem solving",
+          "Complete application development",
+          "Testing and optimization",
+          "Documentation",
+          "Deployment and monitoring",
+          "Presentation preparation",
+          "Peer review",
+          "Career planning",
+          "Continuous learning",
+          "Community engagement",
+          "Future roadmap"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Production React Application",
+          "Build and deploy a complete production application",
+          "Your choice: SaaS, e-commerce, social platform, or innovative idea",
+          "Must include: React, TypeScript, testing, state management, deployment",
+          "Live users and real-world usage"
+        ],
+        "assessment": "Final comprehensive exam and project defense"
+      }
+    },
+    "month_23": {
+      "title": "Continuous Learning & Growth",
+      "weeks": "Ongoing",
+      "week_97": {
+        "title": "Staying Current with React",
+        "topics": [
+          "Following React development",
+          "React RFC process",
+          "Beta features testing",
+          "React conferences",
+          "Community involvement",
+          "React core team updates",
+          "Ecosystem changes",
+          "New libraries and tools",
+          "Performance improvements",
+          "Best practices evolution",
+          "Contributing to React",
+          "Writing RFCs"
+        ],
+        "projects": [
+          "Learning roadmap",
+          "Community contribution",
+          "Conference talk proposal",
+          "Open source maintenance"
+        ],
+        "practice": "Dedicate 5 hours weekly to React updates"
+      },
+      "week_98": {
+        "title": "Advanced Topics",
+        "topics": [
+          "React Compiler",
+          "Concurrent features",
+          "Server Components deep dive",
+          "Streaming SSR",
+          "React Native New Architecture",
+          "React Three Fiber for 3D",
+          "React Native Web",
+          "Remix framework",
+          "Astro with React",
+          "Qwik resumability",
+          "Solid.js comparison",
+          "Vue vs React"
+        ],
+        "projects": [
+          "Experimental features project",
+          "3D React application",
+          "Framework comparison",
+          "Performance study"
+        ],
+        "practice": "Explore cutting-edge React features"
+      },
+      "week_99": {
+        "title": "Teaching & Mentoring",
+        "topics": [
+          "Creating tutorials",
+          "Video course creation",
+          "Workshop development",
+          "Mentoring juniors",
+          "Code review skills",
+          "Technical writing",
+          "Documentation skills",
+          "Community building",
+          "Discord/Slack management",
+          "Stack Overflow contribution",
+          "Reddit participation",
+          "Twitter presence"
+        ],
+        "projects": [
+          "Tutorial series",
+          "Workshop materials",
+          "Mentorship program",
+          "Community project"
+        ],
+        "practice": "Teach React to others weekly"
+      },
+      "week_100": {
+        "title": "Leadership & Architecture",
+        "topics": [
+          "Technical leadership",
+          "Architecture decisions",
+          "Technology selection",
+          "Team best practices",
+          "Code standards",
+          "Review processes",
+          "Performance culture",
+          "Testing culture",
+          "Documentation standards",
+          "Knowledge sharing",
+          "Team growth",
+          "Hiring and interviews"
+        ],
+        "projects": [
+          "Team guidelines",
+          "Architecture documents",
+          "Best practices guide",
+          "Interview process design"
+        ],
+        "practice": "Lead React projects and teams"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 15+ fundamental projects - components, hooks, styling",
+      "Phase 2: 20+ intermediate projects - routing, state, APIs, forms",
+      "Phase 3: 15+ advanced projects - TypeScript, testing, Next.js, PWA",
+      "Phase 4: 10+ professional projects - React Native, full-stack, production",
+      "Total: 60+ React projects from simple to production-scale"
+    ],
+    "total_projects_built": "60+ React applications across web and mobile",
+    "skills_mastered": [
+      "React Core: Components, JSX, props, state, lifecycle, hooks",
+      "Advanced React: Custom hooks, patterns, performance, error boundaries",
+      "State Management: Context API, Redux, Redux Toolkit, Zustand, MobX",
+      "Routing: React Router v6, nested routes, guards, lazy loading",
+      "Styling: CSS Modules, Styled Components, Emotion, Tailwind CSS",
+      "TypeScript: Full type safety, generics, advanced types",
+      "Testing: Jest, React Testing Library, Cypress, E2E testing",
+      "Next.js: SSR, SSG, ISR, API routes, full-stack development",
+      "React Native: Mobile development, native features, deployment",
+      "Performance: Optimization, code splitting, lazy loading, memoization",
+      "Tools: Webpack, Vite, ESLint, Prettier, Storybook",
+      "DevOps: CI/CD, Docker, cloud deployment, monitoring"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "3-5 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly React workshops and code reviews",
+      "mentorship": "1-on-1 guidance from senior React developers",
+      "community": "Active Discord with 10,000+ React developers",
+      "code_review": "Expert review of all projects",
+      "career_support": "Resume review, interview prep, job referrals",
+      "lifetime_access": "All content and React updates forever"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "Certified React Developer Professional",
+      "linkedin_badge": "Verified LinkedIn credential",
+      "industry_recognized": "Recognized by tech companies globally",
+      "portfolio_projects": "60+ production-ready projects",
+      "specialization_certificate": "Certificate in chosen specialization"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal education required",
+    "coding_experience": "Basic HTML/CSS helpful but not required",
+    "equipment": "Computer with 4GB+ RAM, modern browser",
+    "time_commitment": "15-20 hours per week",
+    "english": "Good comprehension for documentation",
+    "motivation": "Passion for building modern web applications"
+  },
+  "who_is_this_for": {
+    "students": "CS students wanting to master modern web development",
+    "working_professionals": "Developers transitioning to React",
+    "entrepreneurs": "Building modern web applications",
+    "freelancers": "Offering React development services",
+    "kids": "Mature teens (14+) with programming interest",
+    "anyone": "Anyone wanting to build professional web applications"
+  },
+  "career_paths_after_completion": [
+    "React Developer",
+    "Frontend Developer",
+    "Full-Stack Developer (MERN)",
+    "React Native Developer",
+    "Senior Frontend Engineer",
+    "UI/UX Engineer",
+    "Frontend Architect",
+    "Technical Lead",
+    "JavaScript Specialist",
+    "Freelance React Developer",
+    "React Consultant",
+    "Startup CTO/Technical Co-founder"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹5-8 LPA (Junior React Developer)",
+    "after_12_months": "₹8-15 LPA (React Developer)",
+    "after_18_months": "₹12-25 LPA (Senior React Developer)",
+    "after_24_months": "₹20-40+ LPA (Lead/Architect)",
+    "freelance": "₹2000-8000/hour based on expertise",
+    "international": "$60k-150k USD based on location and experience"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Job placement support with partner companies",
+    "lifetime_updates": "Free access to all React updates",
+    "mentorship": "Dedicated mentor throughout journey",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Production-ready portfolio guaranteed"
+  }
+}

@@ -1,0 +1,1422 @@
+
+{
+  "meta": {
+    "slug": "algorithmic-trading-masterclass-complete",
+    "title": "Complete Algorithmic Trading Masterclass - Zero to Profitable Trading Systems",
+    "description": "The most comprehensive 12-month algorithmic trading program. From zero knowledge to building automated trading systems. Master Python, financial markets, quantitative analysis, trading strategies, backtesting, risk management, and live trading deployment.",
+    "keywords": [
+      "algorithmic trading",
+      "quantitative trading",
+      "automated trading",
+      "trading bots",
+      "Python trading",
+      "backtesting",
+      "trading strategies",
+      "technical analysis",
+      "quantitative finance",
+      "machine learning trading",
+      "high frequency trading",
+      "cryptocurrency trading",
+      "stock market",
+      "forex trading",
+      "portfolio management"
+    ],
+    "category": "Algorithmic Trading & Quantitative Finance",
+    "price": {
+      "group": "₹2499/month",
+      "personal": "₹4999/month",
+      "lifetime": "₹59,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional Quant Trader",
+    "commitment": "20-25 hours/week recommended",
+    "certification": "Certified Algorithmic Trader upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Algorithmic Trading Masterclass",
+    "tagline": "From Manual Trading to Fully Automated Profitable Systems",
+    "description": "This is not just a trading course—it's a complete transformation into a quantitative trader and algorithmic trading professional. Whether you're a complete beginner, manual trader wanting to automate, developer entering finance, or finance professional wanting quantitative skills, this 12-month masterclass will turn you into a skilled algorithmic trader capable of designing, backtesting, optimizing, and deploying profitable automated trading systems.\n\nYou'll master algorithmic trading from ground zero to professional level: from financial markets basics to advanced quantitative strategies, from Python programming to machine learning models, from paper trading to live automated execution, from single strategies to portfolio management. By the end, you'll have built 40+ trading strategies, backtested extensively, and deployed live trading systems with proper risk management.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no trading or coding background needed",
+      "Complete 12-month structured curriculum",
+      "Python for trading taught from scratch",
+      "Real market data and live trading experience",
+      "Covers stocks, forex, crypto, commodities, options",
+      "Backtesting on 10+ years of historical data",
+      "Machine learning for trading strategies",
+      "Risk management and portfolio optimization",
+      "Live trading deployment with real money guidance",
+      "Quantitative finance and mathematics",
+      "High-frequency trading concepts",
+      "Build 40+ trading strategies"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Markets, Python, Data Analysis, Technical Analysis",
+      "phase_2": "Strategy Development (Months 4-6): Trading Strategies, Backtesting, Optimization",
+      "phase_3": "Advanced Quant (Months 7-9): ML Trading, Advanced Strategies, Portfolio Management",
+      "phase_4": "Professional Trading (Months 10-12): Live Trading, HFT, Fund Management, Career"
+    },
+    "career_outcomes": [
+      "Junior Quant Analyst (after 3 months)",
+      "Algorithmic Trader (after 6 months)",
+      "Senior Quant Trader (after 9 months)",
+      "Quantitative Researcher / Fund Manager (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Financial Markets & Trading Foundations (Months 1-3, Weeks 1-13)",
+    "description": "Build solid understanding of financial markets, instruments, Python programming, and data analysis for trading.",
+    "month_1_2": {
+      "title": "Months 1-2: Markets, Instruments & Python Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Financial Markets",
+        "topics": [
+          "Financial markets overview: stocks, forex, crypto, commodities",
+          "Stock market basics: exchanges, indices, sectors",
+          "Understanding stocks: equity, shares, market cap",
+          "How stock prices move: supply and demand",
+          "Market participants: retail, institutional, market makers",
+          "Trading sessions: pre-market, regular, after-hours",
+          "Order types: market, limit, stop-loss, stop-limit",
+          "Bid-ask spread and liquidity",
+          "Long vs short positions",
+          "Margin trading and leverage",
+          "Trading costs: brokerage, taxes, slippage",
+          "Forex market: currency pairs, pips, lots",
+          "Cryptocurrency markets: Bitcoin, altcoins, exchanges",
+          "Market microstructure basics",
+          "Regulatory environment and compliance"
+        ],
+        "projects": [
+          "Market research on different instruments",
+          "Paper trading practice (manual)",
+          "Order type experiments",
+          "Market analysis report",
+          "Trading journal setup"
+        ],
+        "practice": "Paper trade 20 manual trades, document everything"
+      },
+      "week_3_4": {
+        "title": "Python Programming for Trading - Part 1",
+        "topics": [
+          "Why Python for algorithmic trading?",
+          "Python installation and setup (Anaconda)",
+          "Jupyter notebooks for trading analysis",
+          "Variables and data types",
+          "Lists, tuples, dictionaries for market data",
+          "Control flow: if-else for trading conditions",
+          "Loops for iterating through historical data",
+          "Functions for trading logic",
+          "NumPy for numerical operations",
+          "Arrays for price data manipulation",
+          "Pandas for financial data analysis",
+          "DataFrames for OHLCV data",
+          "Reading CSV files (historical data)",
+          "DateTime handling for trading timestamps",
+          "Basic data cleaning"
+        ],
+        "projects": [
+          "Load and explore stock price data",
+          "Calculate basic statistics (mean, std, returns)",
+          "Price data manipulation exercises",
+          "Simple moving average calculator",
+          "Trading signal generator (basic)"
+        ],
+        "practice": "Solve 50 Python problems focused on financial data"
+      },
+      "week_5_6": {
+        "title": "Financial Data Analysis with Python",
+        "topics": [
+          "Data sources: Yahoo Finance, Alpha Vantage, Quandl",
+          "yfinance library for stock data",
+          "pandas_datareader for multiple sources",
+          "OHLCV data: Open, High, Low, Close, Volume",
+          "Data cleaning and preprocessing",
+          "Handling missing data in time series",
+          "Resampling: converting timeframes",
+          "Forward-fill and back-fill methods",
+          "Calculating returns: simple and log returns",
+          "Cumulative returns calculation",
+          "Volatility calculation and analysis",
+          "Correlation analysis between assets",
+          "Data visualization with Matplotlib",
+          "Candlestick charts with mplfinance",
+          "Creating trading dashboards"
+        ],
+        "projects": [
+          "Multi-asset data downloader",
+          "Returns and volatility analyzer",
+          "Correlation matrix for portfolio",
+          "Interactive price charts",
+          "Market data dashboard",
+          "Historical performance analyzer"
+        ],
+        "practice": "Analyze 50+ stocks, create comprehensive reports"
+      },
+      "week_7_8": {
+        "title": "Technical Analysis Foundations",
+        "topics": [
+          "Technical analysis principles",
+          "Support and resistance levels",
+          "Trend analysis: uptrend, downtrend, sideways",
+          "Trendlines and channels",
+          "Chart patterns: head and shoulders, triangles, flags",
+          "Candlestick patterns: doji, hammer, engulfing",
+          "Moving averages: SMA, EMA, WMA",
+          "Moving average crossovers",
+          "Bollinger Bands: calculation and interpretation",
+          "Relative Strength Index (RSI)",
+          "MACD: Moving Average Convergence Divergence",
+          "Stochastic Oscillator",
+          "Volume analysis and indicators",
+          "Average True Range (ATR) for volatility",
+          "Implementing indicators in Python"
+        ],
+        "projects": [
+          "Technical indicator library in Python",
+          "SMA/EMA crossover strategy",
+          "RSI-based trading signals",
+          "Bollinger Bands strategy",
+          "Multi-indicator dashboard",
+          "Pattern recognition tool (basic)",
+          "Technical analysis automation"
+        ],
+        "practice": "Implement 20+ technical indicators from scratch"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Advanced Python & Market Analysis",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Object-Oriented Programming for Trading Systems",
+        "topics": [
+          "OOP concepts for trading applications",
+          "Creating trading strategy classes",
+          "Portfolio class design",
+          "Order management system (OMS) structure",
+          "Risk management class",
+          "Data handler class for market data",
+          "Event-driven architecture for trading",
+          "Inheritance for strategy variations",
+          "Encapsulation for strategy logic",
+          "Design patterns for trading systems",
+          "Backtesting framework architecture",
+          "Modular code organization",
+          "Configuration management",
+          "Logging for trading systems",
+          "Error handling in live trading"
+        ],
+        "projects": [
+          "Trading strategy base class",
+          "Portfolio manager class",
+          "Order execution simulator",
+          "Risk calculator class",
+          "Complete OOP trading framework",
+          "Modular backtesting engine"
+        ],
+        "practice": "Refactor all previous code using OOP"
+      },
+      "week_11_12": {
+        "title": "Statistical Analysis for Trading",
+        "topics": [
+          "Descriptive statistics for returns",
+          "Normal distribution and fat tails",
+          "Hypothesis testing for strategies",
+          "P-values and statistical significance",
+          "Correlation and causation",
+          "Cointegration for pairs trading",
+          "Stationarity and unit root tests",
+          "Autocorrelation in time series",
+          "Monte Carlo simulations",
+          "Bootstrap methods for trading",
+          "Sharpe ratio calculation and interpretation",
+          "Sortino ratio and downside deviation",
+          "Maximum drawdown analysis",
+          "Value at Risk (VaR)",
+          "Risk-adjusted performance metrics"
+        ],
+        "projects": [
+          "Statistical analysis toolkit",
+          "Returns distribution analyzer",
+          "Strategy performance metrics calculator",
+          "Monte Carlo simulator for trading",
+          "Risk metrics dashboard",
+          "Hypothesis testing framework"
+        ],
+        "practice": "Statistical analysis of 30 trading strategies"
+      },
+      "week_13": {
+        "title": "Fundamental Analysis & Market Data APIs",
+        "topics": [
+          "Fundamental analysis basics",
+          "Financial statements: P&L, balance sheet, cash flow",
+          "Key ratios: P/E, P/B, ROE, debt-to-equity",
+          "Earnings and revenue analysis",
+          "Economic indicators impact on markets",
+          "News sentiment analysis",
+          "Alternative data sources",
+          "Broker APIs: Interactive Brokers, Zerodha, Alpaca",
+          "Real-time data streaming",
+          "WebSocket connections for live data",
+          "REST APIs for historical data",
+          "Rate limiting and data management",
+          "Building data pipelines",
+          "Database setup for storing market data",
+          "Time-series databases (InfluxDB, TimescaleDB)"
+        ],
+        "projects": [
+          "Fundamental data scraper",
+          "Real-time data streamer",
+          "Market data database setup",
+          "Multi-source data aggregator",
+          "News sentiment analyzer",
+          "PHASE 1 MINI CAPSTONE: Complete Market Analysis Platform"
+        ],
+        "assessment": "Phase 1 Exam - Markets, Python, Data Analysis, Technical Analysis"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Trading Strategies & Backtesting (Months 4-6, Weeks 14-26)",
+    "description": "Master strategy development, backtesting frameworks, optimization, and strategy evaluation.",
+    "month_7_8": {
+      "title": "Months 4-5: Strategy Development & Backtesting",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Backtesting Framework Development",
+        "topics": [
+          "What is backtesting? Importance and limitations",
+          "Backtesting bias: look-ahead, survivorship, overfitting",
+          "Event-driven backtesting architecture",
+          "Vectorized vs event-driven backtesting",
+          "Building custom backtesting engine",
+          "Backtrader library introduction",
+          "Backtrader strategies and indicators",
+          "Position sizing in backtests",
+          "Commission and slippage modeling",
+          "Realistic execution simulation",
+          "Walk-forward analysis",
+          "Out-of-sample testing",
+          "Multiple timeframe backtesting",
+          "Parameter optimization in backtests",
+          "Backtesting best practices"
+        ],
+        "projects": [
+          "Custom backtesting engine from scratch",
+          "Backtrader strategy implementation",
+          "Slippage and commission simulator",
+          "Walk-forward testing framework",
+          "Multi-timeframe backtester",
+          "Optimization engine"
+        ],
+        "practice": "Backtest 20 strategies with different approaches"
+      },
+      "week_29_30": {
+        "title": "Momentum & Trend Following Strategies",
+        "topics": [
+          "Momentum trading principles",
+          "Relative Strength Momentum",
+          "Moving average crossover strategies",
+          "Dual moving average system",
+          "Triple moving average system",
+          "MACD crossover strategy",
+          "Trend following concepts",
+          "Donchian Channel breakout",
+          "ATR-based trailing stops",
+          "Turtle trading system",
+          "Channel breakout strategies",
+          "Parabolic SAR strategy",
+          "Supertrend indicator strategy",
+          "Combining multiple trend indicators",
+          "Exit strategies for trend trades"
+        ],
+        "projects": [
+          "Moving average crossover bot",
+          "MACD strategy implementation",
+          "Turtle trading system",
+          "Donchian breakout strategy",
+          "Multi-indicator trend follower",
+          "Momentum portfolio strategy",
+          "Optimized trend following system"
+        ],
+        "practice": "Develop and backtest 15 momentum/trend strategies"
+      },
+      "week_31_32": {
+        "title": "Mean Reversion & Statistical Arbitrage",
+        "topics": [
+          "Mean reversion theory",
+          "Bollinger Bands mean reversion",
+          "RSI oversold/overbought strategy",
+          "Stochastic mean reversion",
+          "Z-score based strategies",
+          "Pairs trading fundamentals",
+          "Cointegration testing for pairs",
+          "Pairs selection methodology",
+          "Spread calculation and trading",
+          "Statistical arbitrage concepts",
+          "Market neutral strategies",
+          "Long-short equity strategies",
+          "Ornstein-Uhlenbeck process",
+          "Half-life of mean reversion",
+          "Kalman filter for pairs trading"
+        ],
+        "projects": [
+          "Bollinger Bands reversion strategy",
+          "RSI mean reversion bot",
+          "Pairs trading system",
+          "Cointegration scanner",
+          "Statistical arbitrage strategy",
+          "Market neutral portfolio",
+          "Kalman filter pairs trader"
+        ],
+        "practice": "Build 12 mean reversion strategies"
+      },
+      "week_33_34": {
+        "title": "Breakout & Volatility Strategies",
+        "topics": [
+          "Breakout trading concepts",
+          "Support/resistance breakouts",
+          "High/low breakout strategies",
+          "Opening range breakout (ORB)",
+          "Volatility breakout strategy",
+          "ATR-based position sizing",
+          "Volatility expansion trading",
+          "Volatility contraction setups",
+          "Squeeze indicator strategies",
+          "News-based breakout trading",
+          "Volume-confirmed breakouts",
+          "False breakout filtering",
+          "Consolidation pattern breakouts",
+          "Multiple timeframe confirmation",
+          "Breakout strategy optimization"
+        ],
+        "projects": [
+          "Support/resistance breakout bot",
+          "Opening range breakout strategy",
+          "Volatility breakout system",
+          "Squeeze strategy implementation",
+          "Volume breakout trader",
+          "Multi-timeframe breakout system",
+          "False breakout filter"
+        ],
+        "practice": "Develop 10 breakout trading strategies"
+      },
+      "week_35": {
+        "title": "Options Trading Strategies (Basics)",
+        "topics": [
+          "Options basics: calls, puts, strikes, expiry",
+          "Option Greeks: Delta, Gamma, Theta, Vega",
+          "Option pricing: Black-Scholes model",
+          "Implied volatility and IV rank",
+          "Covered call strategy",
+          "Cash-secured put strategy",
+          "Bull call spread and bear put spread",
+          "Iron Condor strategy",
+          "Straddle and strangle",
+          "Option selling strategies",
+          "Delta-neutral strategies",
+          "Volatility trading with options",
+          "Options data analysis in Python",
+          "Option chain analysis",
+          "Backtesting options strategies"
+        ],
+        "projects": [
+          "Options calculator (Greeks, pricing)",
+          "IV rank analyzer",
+          "Covered call screener",
+          "Iron Condor backtester",
+          "Options strategy simulator",
+          "Volatility trading system"
+        ],
+        "practice": "Implement 8 options strategies"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Advanced Strategies & Optimization",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Strategy Optimization & Parameter Tuning",
+        "topics": [
+          "Optimization objectives and pitfalls",
+          "Overfitting vs robust optimization",
+          "Grid search optimization",
+          "Random search methods",
+          "Genetic algorithms for optimization",
+          "Particle swarm optimization",
+          "Bayesian optimization",
+          "Walk-forward optimization",
+          "Sensitivity analysis",
+          "Parameter stability testing",
+          "Monte Carlo optimization",
+          "Multi-objective optimization",
+          "Sharpe ratio optimization",
+          "Drawdown-constrained optimization",
+          "Transaction cost considerations"
+        ],
+        "projects": [
+          "Grid search optimizer",
+          "Genetic algorithm optimizer",
+          "Walk-forward optimization framework",
+          "Parameter sensitivity analyzer",
+          "Multi-objective optimizer",
+          "Robust optimization system",
+          "Strategy parameter dashboard"
+        ],
+        "practice": "Optimize 20 strategies, compare methods"
+      },
+      "week_38_39": {
+        "title": "Risk Management & Position Sizing",
+        "topics": [
+          "Risk management principles",
+          "Position sizing methods: fixed, percentage, volatility-based",
+          "Kelly Criterion for position sizing",
+          "Risk per trade calculation",
+          "Stop-loss placement strategies",
+          "Trailing stop techniques",
+          "ATR-based stops",
+          "Time-based exits",
+          "Profit target strategies",
+          "Risk-reward ratio analysis",
+          "Portfolio heat and risk limits",
+          "Correlation-based position sizing",
+          "Leverage management",
+          "Drawdown control",
+          "Circuit breakers and kill switches"
+        ],
+        "projects": [
+          "Position sizing calculator",
+          "Kelly Criterion implementation",
+          "Stop-loss optimizer",
+          "Risk management system",
+          "Portfolio heat monitor",
+          "Drawdown controller",
+          "Kill switch implementation"
+        ],
+        "practice": "Add risk management to all strategies"
+      },
+      "week_40_41": {
+        "title": "Multi-Asset & Portfolio Strategies",
+        "topics": [
+          "Portfolio construction principles",
+          "Modern Portfolio Theory (MPT)",
+          "Efficient frontier calculation",
+          "Mean-variance optimization",
+          "Risk parity strategies",
+          "Equal weight vs optimal weight",
+          "Tactical asset allocation",
+          "Strategic asset allocation",
+          "Rebalancing strategies",
+          "Correlation-based diversification",
+          "Sector rotation strategies",
+          "Multi-strategy portfolio",
+          "Strategy allocation optimization",
+          "Portfolio backtesting",
+          "Portfolio performance attribution"
+        ],
+        "projects": [
+          "Portfolio optimizer (Markowitz)",
+          "Risk parity portfolio",
+          "Sector rotation system",
+          "Multi-strategy portfolio manager",
+          "Rebalancing algorithm",
+          "Portfolio backtester",
+          "Asset allocation dashboard"
+        ],
+        "practice": "Build 10 portfolio-level strategies"
+      },
+      "week_42_43": {
+        "title": "Cryptocurrency Trading Strategies",
+        "topics": [
+          "Crypto market characteristics",
+          "24/7 trading considerations",
+          "Crypto exchanges: Binance, Coinbase, Kraken",
+          "Crypto data sources and APIs",
+          "Bitcoin and altcoin strategies",
+          "Crypto volatility strategies",
+          "Arbitrage: exchange arbitrage, triangular arbitrage",
+          "DeFi and DEX trading",
+          "Crypto market making basics",
+          "Sentiment analysis for crypto",
+          "On-chain data analysis",
+          "Crypto-specific indicators",
+          "High volatility management",
+          "Crypto tax considerations",
+          "Security and wallet management"
+        ],
+        "projects": [
+          "Crypto data collector",
+          "Bitcoin trend following bot",
+          "Crypto arbitrage scanner",
+          "Altcoin momentum strategy",
+          "Crypto mean reversion system",
+          "Exchange arbitrage bot",
+          "Crypto portfolio rebalancer"
+        ],
+        "practice": "Develop 12 crypto trading strategies"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Multi-strategy system design",
+          "Complete backtesting pipeline",
+          "Optimization and robustness testing",
+          "Risk management integration",
+          "Performance analysis",
+          "Documentation and reporting"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Complete Algorithmic Trading System",
+          "Requirements: 5+ strategies, backtested on 5+ years data, optimized, risk-managed, documented",
+          "Option 1: Multi-timeframe trend following system",
+          "Option 2: Market-neutral pairs trading portfolio",
+          "Option 3: Crypto trading bot with multiple strategies",
+          "Option 4: Options selling systematic strategy"
+        ],
+        "assessment": "Phase 2 Exam - Strategy development, backtesting, optimization"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Machine Learning & Advanced Quant (Months 7-9, Weeks 27-39)",
+    "description": "Master machine learning for trading, advanced quantitative strategies, and high-frequency concepts.",
+    "month_13_14": {
+      "title": "Months 7-8: Machine Learning for Trading",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "ML Fundamentals for Trading",
+        "topics": [
+          "Machine learning in trading overview",
+          "Supervised vs unsupervised learning",
+          "Feature engineering for trading",
+          "Price-based features",
+          "Technical indicator features",
+          "Sentiment features",
+          "Fundamental features",
+          "Alternative data features",
+          "Label creation: classification vs regression",
+          "Triple-barrier method for labeling",
+          "Train-test split for time series",
+          "Cross-validation for trading models",
+          "Overfitting in trading ML",
+          "Model evaluation metrics for trading",
+          "Scikit-learn for trading models"
+        ],
+        "projects": [
+          "Feature engineering pipeline",
+          "Label creation system",
+          "ML data preparation framework",
+          "Cross-validation for time series",
+          "Trading-specific feature library",
+          "Model evaluation toolkit"
+        ],
+        "practice": "Create 100+ features for trading"
+      },
+      "week_55_56": {
+        "title": "Classification Models for Trading",
+        "topics": [
+          "Price direction prediction",
+          "Logistic regression for trading signals",
+          "Decision trees for market regimes",
+          "Random Forest for trading",
+          "Feature importance analysis",
+          "Gradient Boosting (XGBoost, LightGBM)",
+          "Support Vector Machines for classification",
+          "Ensemble methods for trading",
+          "Model stacking and blending",
+          "Probability calibration",
+          "Threshold optimization for signals",
+          "Handling imbalanced data",
+          "SMOTE for trading datasets",
+          "Model interpretation for trading",
+          "Backtesting ML strategies"
+        ],
+        "projects": [
+          "Price direction classifier",
+          "Random Forest trading strategy",
+          "XGBoost market predictor",
+          "Ensemble trading model",
+          "Market regime classifier",
+          "ML signal generator",
+          "Complete ML trading strategy"
+        ],
+        "practice": "Build 15 ML classification strategies"
+      },
+      "week_57_58": {
+        "title": "Deep Learning for Trading",
+        "topics": [
+          "Neural networks for trading",
+          "LSTM for time series prediction",
+          "GRU networks for trading",
+          "Sequence-to-sequence models",
+          "Attention mechanism for trading",
+          "Transformer models for finance",
+          "CNN for technical pattern recognition",
+          "Autoencoders for feature extraction",
+          "Reinforcement learning for trading (Q-learning)",
+          "Deep Q-Networks (DQN) for trading",
+          "Policy gradient methods",
+          "TensorFlow and Keras for trading",
+          "PyTorch for trading models",
+          "GPU acceleration for training",
+          "Model deployment considerations"
+        ],
+        "projects": [
+          "LSTM price predictor",
+          "CNN pattern recognition strategy",
+          "Autoencoder for anomaly detection",
+          "Reinforcement learning trader",
+          "DQN trading agent",
+          "Transformer-based predictor",
+          "Deep learning ensemble system"
+        ],
+        "practice": "Implement 10 deep learning trading models"
+      },
+      "week_59_60": {
+        "title": "NLP & Sentiment Analysis for Trading",
+        "topics": [
+          "Natural language processing in trading",
+          "News sentiment analysis",
+          "Twitter sentiment for stocks/crypto",
+          "Financial news scraping",
+          "Text preprocessing for finance",
+          "Sentiment scoring methods",
+          "VADER for financial sentiment",
+          "FinBERT for financial text",
+          "Topic modeling for market themes",
+          "Event extraction from news",
+          "Earnings call analysis",
+          "Social media signal extraction",
+          "Alternative text data sources",
+          "Real-time sentiment streaming",
+          "Combining sentiment with price action"
+        ],
+        "projects": [
+          "News sentiment analyzer",
+          "Twitter sentiment tracker",
+          "Earnings call sentiment extractor",
+          "Reddit sentiment for stocks/crypto",
+          "Real-time sentiment dashboard",
+          "Sentiment-based trading strategy",
+          "Multi-source sentiment aggregator"
+        ],
+        "practice": "Build 8 sentiment-based strategies"
+      },
+      "week_61": {
+        "title": "Alternative Data & Quantitative Research",
+        "topics": [
+          "Alternative data in trading",
+          "Satellite imagery analysis",
+          "Web scraping for trading signals",
+          "Credit card transaction data",
+          "Supply chain data",
+          "Weather data for commodities",
+          "Social media activity metrics",
+          "App download data",
+          "Google Trends for trading",
+          "Data vendor integration",
+          "Alpha generation from alt data",
+          "Factor models and factor investing",
+          "Fama-French factors",
+          "Custom factor creation",
+          "Quantitative research process"
+        ],
+        "projects": [
+          "Web scraping trading signals",
+          "Google Trends strategy",
+          "Alternative data aggregator",
+          "Factor model implementation",
+          "Multi-factor strategy",
+          "Quantitative research report",
+          "Alpha generation framework"
+        ],
+        "practice": "Research and test 10 alternative data sources"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced Trading Concepts",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "High-Frequency Trading (HFT) Concepts",
+        "topics": [
+          "High-frequency trading overview",
+          "Market microstructure for HFT",
+          "Order book dynamics",
+          "Limit order book analysis",
+          "Market making strategies",
+          "Bid-ask spread capture",
+          "Statistical arbitrage at high frequency",
+          "Latency arbitrage concepts",
+          "Co-location and infrastructure",
+          "Low-latency programming",
+          "FPGA and hardware acceleration",
+          "Tick data processing",
+          "Order flow analysis",
+          "Liquidity provision strategies",
+          "HFT regulations and compliance"
+        ],
+        "projects": [
+          "Order book visualizer",
+          "Limit order book simulator",
+          "Simple market making bot",
+          "Order flow analyzer",
+          "Tick data processor",
+          "Microstructure research tools",
+          "HFT backtesting framework"
+        ],
+        "practice": "Analyze order book data, simulate HFT strategies"
+      },
+      "week_64_65": {
+        "title": "Advanced Options & Derivatives",
+        "topics": [
+          "Advanced option strategies",
+          "Volatility trading deep dive",
+          "VIX trading strategies",
+          "Volatility arbitrage",
+          "Skew trading strategies",
+          "Calendar spread strategies",
+          "Diagonal spreads",
+          "Ratio spreads",
+          "Butterfly and Condor variations",
+          "Delta hedging automation",
+          "Gamma scalping",
+          "Options market making",
+          "Exotic options basics",
+          "Futures and futures spreads",
+          "Commodity spread trading"
+        ],
+        "projects": [
+          "Volatility trading system",
+          "VIX trading strategy",
+          "Calendar spread optimizer",
+          "Delta hedging bot",
+          "Gamma scalping system",
+          "Options portfolio manager",
+          "Futures spread trader"
+        ],
+        "practice": "Implement 12 advanced derivatives strategies"
+      },
+      "week_66_67": {
+        "title": "Execution Algorithms & Transaction Cost Analysis",
+        "topics": [
+          "Execution algorithms overview",
+          "VWAP (Volume-Weighted Average Price) algorithm",
+          "TWAP (Time-Weighted Average Price) algorithm",
+          "Implementation shortfall",
+          "Adaptive execution algorithms",
+          "Iceberg orders and order slicing",
+          "Smart order routing",
+          "Transaction cost analysis (TCA)",
+          "Slippage measurement and modeling",
+          "Market impact models",
+          "Broker execution quality analysis",
+          "Fill rate optimization",
+          "Execution latency measurement",
+          "Pre-trade and post-trade analysis",
+          "Best execution requirements"
+        ],
+        "projects": [
+          "VWAP execution algorithm",
+          "TWAP execution bot",
+          "Order slicing algorithm",
+          "Transaction cost analyzer",
+          "Slippage tracker",
+          "Execution quality dashboard",
+          "Smart order router (basic)"
+        ],
+        "practice": "Implement and analyze 8 execution strategies"
+      },
+      "week_68_69": {
+        "title": "Quantitative Portfolio Management",
+        "topics": [
+          "Advanced portfolio construction",
+          "Black-Litterman model",
+          "Factor-based portfolio construction",
+          "Multi-factor models",
+          "Smart beta strategies",
+          "Long-short portfolio construction",
+          "130/30 strategies",
+          "Market-neutral portfolio management",
+          "Portfolio rebalancing optimization",
+          "Transaction cost in rebalancing",
+          "Portfolio risk decomposition",
+          "Tracking error minimization",
+          "Active vs passive management",
+          "Hedge fund strategies",
+          "Performance attribution analysis"
+        ],
+        "projects": [
+          "Black-Litterman portfolio optimizer",
+          "Multi-factor portfolio constructor",
+          "Long-short portfolio manager",
+          "Smart beta strategy",
+          "Rebalancing optimizer with costs",
+          "Portfolio analytics dashboard",
+          "Performance attribution system"
+        ],
+        "practice": "Build 10 portfolio management systems"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Advanced quantitative system design",
+          "ML model integration",
+          "Portfolio-level strategy",
+          "Advanced risk management",
+          "Performance analysis",
+          "Research documentation"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Machine Learning Trading Fund",
+          "Requirements: ML models, multiple strategies, portfolio optimization, transaction costs, comprehensive backtesting",
+          "Option 1: Multi-strategy ML-based hedge fund",
+          "Option 2: Market-neutral quant fund with factor models",
+          "Option 3: Crypto quant fund with ML and sentiment",
+          "Option 4: Options trading fund with volatility strategies"
+        ],
+        "assessment": "Phase 3 Exam - ML trading, advanced quant, portfolio management"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Live Trading & Professional Quant (Months 10-12, Weeks 40-52)",
+    "description": "Master live trading deployment, infrastructure, fund management, and career development.",
+    "month_19_20": {
+      "title": "Months 10-11: Live Trading & Infrastructure",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Live Trading Infrastructure",
+        "topics": [
+          "Broker selection and comparison",
+          "Interactive Brokers API (Python)",
+          "Zerodha Kite API (India)",
+          "Alpaca API (US)",
+          "Binance API (Crypto)",
+          "Account setup and API credentials",
+          "Paper trading vs live trading",
+          "Order management system (OMS) development",
+          "Position management system",
+          "Real-time data streaming",
+          "WebSocket connections for live data",
+          "Order execution and status tracking",
+          "Fill and partial fill handling",
+          "Cancellation and modification logic",
+          "Error handling and recovery"
+        ],
+        "projects": [
+          "Broker API integration",
+          "Live trading infrastructure",
+          "Order management system",
+          "Real-time data handler",
+          "Position tracker",
+          "Paper trading framework",
+          "Live trading simulator"
+        ],
+        "practice": "Set up live trading for 5 strategies (paper trading)"
+      },
+      "week_81_82": {
+        "title": "Deployment & Production Systems",
+        "topics": [
+          "Cloud deployment: AWS, GCP, Azure",
+          "Virtual Private Server (VPS) setup",
+          "Linux for trading systems",
+          "Docker for trading applications",
+          "Continuous deployment for strategies",
+          "Database for trade logging: PostgreSQL, MongoDB",
+          "Time-series database: InfluxDB",
+          "Monitoring and alerting",
+          "Logging best practices",
+          "Strategy health checks",
+          "System uptime and reliability",
+          "Backup and disaster recovery",
+          "Security and API key management",
+          "Network latency optimization",
+          "Redundancy and failover systems"
+        ],
+        "projects": [
+          "Cloud trading server setup",
+          "Dockerized trading system",
+          "Database integration",
+          "Monitoring dashboard",
+          "Alerting system",
+          "Backup automation",
+          "Production deployment pipeline"
+        ],
+        "practice": "Deploy 10 strategies to production environment"
+      },
+      "week_83_84": {
+        "title": "Live Trading Risk Management",
+        "topics": [
+          "Live trading risk considerations",
+          "Real-time risk monitoring",
+          "Position limits and concentration",
+          "Daily loss limits",
+          "Maximum drawdown controls",
+          "Correlation monitoring",
+          "Portfolio VaR in real-time",
+          "Circuit breakers implementation",
+          "Emergency shutdown procedures",
+          "Broker risk management settings",
+          "Margin management",
+          "After-hours risk",
+          "Gap risk management",
+          "Black swan event preparation",
+          "Risk reporting and dashboards"
+        ],
+        "projects": [
+          "Real-time risk monitor",
+          "Circuit breaker system",
+          "Position limit enforcer",
+          "Drawdown controller",
+          "Emergency shutdown system",
+          "Risk dashboard (live)",
+          "Risk reporting automation"
+        ],
+        "practice": "Implement comprehensive risk systems"
+      },
+      "week_85_86": {
+        "title": "Performance Monitoring & Analysis",
+        "topics": [
+          "Real-time performance tracking",
+          "P&L calculation and attribution",
+          "Strategy-level performance",
+          "Portfolio-level performance",
+          "Benchmark comparison",
+          "Risk-adjusted returns monitoring",
+          "Sharpe ratio tracking",
+          "Drawdown monitoring",
+          "Win rate and profit factor",
+          "Trade analysis and journaling",
+          "Slippage and cost analysis",
+          "Fill quality analysis",
+          "Strategy degradation detection",
+          "Automated performance reporting",
+          "Dashboard creation with Streamlit/Dash"
+        ],
+        "projects": [
+          "Live performance tracker",
+          "P&L attribution system",
+          "Trade journal automation",
+          "Performance dashboard",
+          "Automated reporting system",
+          "Strategy health monitor",
+          "Degradation detector"
+        ],
+        "practice": "Monitor live strategies, generate reports"
+      },
+      "week_87": {
+        "title": "Starting with Real Money",
+        "topics": [
+          "Transitioning from paper to live",
+          "Starting capital considerations",
+          "Scaling strategy capital",
+          "Psychology of live trading",
+          "Emotional discipline",
+          "Handling losses in live trading",
+          "Position sizing for live trading",
+          "Gradual scale-up approach",
+          "Monitoring and adjustment",
+          "When to stop a strategy",
+          "Portfolio heat management",
+          "Tax implications of trading",
+          "Record keeping for taxes",
+          "Trading as a business",
+          "Continuous improvement process"
+        ],
+        "projects": [
+          "Live trading checklist",
+          "Capital allocation plan",
+          "Scaling framework",
+          "Trading journal (psychological)",
+          "Tax tracking system",
+          "Business plan for trading",
+          "Improvement tracking system"
+        ],
+        "practice": "Start live trading with small capital (optional)"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Professional Development & Career",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Quantitative Finance Career Paths",
+        "topics": [
+          "Career options in quant finance",
+          "Quantitative trader roles",
+          "Quantitative researcher positions",
+          "Quantitative developer roles",
+          "Risk manager careers",
+          "Portfolio manager positions",
+          "Prop trading firms",
+          "Hedge funds and asset managers",
+          "Investment banks quant roles",
+          "Starting a quant fund",
+          "Required qualifications and skills",
+          "Certifications: CQF, FRM, CFA",
+          "Building a quant resume",
+          "Portfolio of strategies as showcase",
+          "Networking in quant finance"
+        ],
+        "projects": [
+          "Professional trading resume",
+          "Strategy portfolio documentation",
+          "Performance track record",
+          "Research paper writing",
+          "GitHub portfolio",
+          "Trading blog/website"
+        ],
+        "practice": "Build professional presence"
+      },
+      "week_90_91": {
+        "title": "Interview Preparation for Quant Roles",
+        "topics": [
+          "Quant interview process overview",
+          "Probability and statistics questions",
+          "Brain teasers and logic puzzles",
+          "Coding interviews for quants",
+          "Python algorithmic problems",
+          "Trading strategy design questions",
+          "Market making interview questions",
+          "Risk management scenarios",
+          "Portfolio optimization problems",
+          "Behavioral interview preparation",
+          "Salary negotiation for quants",
+          "Top quant firms and their culture",
+          "Mock interview practice",
+          "Take-home assignments approach",
+          "Presenting your strategies"
+        ],
+        "projects": [
+          "Interview preparation guide",
+          "Probability problem solutions (100+)",
+          "Coding challenge practice",
+          "Strategy presentation deck",
+          "Mock interview recordings",
+          "Behavioral question prep"
+        ],
+        "practice": "Solve 200+ quant interview problems"
+      },
+      "week_92_93": {
+        "title": "Running a Proprietary Trading Desk",
+        "topics": [
+          "Setting up a prop trading desk",
+          "Capital requirements",
+          "Technology infrastructure",
+          "Team structure and hiring",
+          "Strategy development process",
+          "Risk management framework",
+          "Compliance and regulations",
+          "Broker relationships",
+          "Cost structure and profitability",
+          "Scaling trading operations",
+          "Multiple strategy management",
+          "Team collaboration tools",
+          "Performance incentives",
+          "Continual research and development",
+          "Exit strategies and selling"
+        ],
+        "projects": [
+          "Prop desk business plan",
+          "Infrastructure planning",
+          "Cost-benefit analysis",
+          "Hiring and training plan",
+          "Compliance checklist",
+          "Operations manual"
+        ],
+        "practice": "Plan and document prop desk setup"
+      },
+      "week_94_95": {
+        "title": "Launching a Quant Hedge Fund",
+        "topics": [
+          "Hedge fund structure and setup",
+          "Legal and regulatory requirements",
+          "Fund formation: LLC, LP structures",
+          "Registration with regulators (SEBI, SEC)",
+          "Investor pitch deck creation",
+          "Due diligence preparation",
+          "Fund administration",
+          "Prime brokerage relationships",
+          "Fundraising strategies",
+          "AUM targets and scaling",
+          "Fee structures: management and performance fees",
+          "Investor reporting requirements",
+          "Marketing and branding",
+          "Building track record",
+          "Incubator and accelerator programs"
+        ],
+        "projects": [
+          "Fund formation plan",
+          "Investor pitch deck",
+          "Due diligence package",
+          "Fund policies and procedures",
+          "Marketing materials",
+          "Financial projections",
+          "Regulatory compliance checklist"
+        ],
+        "practice": "Complete hedge fund launch plan"
+      },
+      "week_96": {
+        "title": "Continuous Learning & Community",
+        "topics": [
+          "Staying current with quant research",
+          "Academic papers and journals",
+          "Quantitative finance books",
+          "Online communities: QuantConnect, Quantopian archives",
+          "Attending quant conferences",
+          "Networking with other quants",
+          "Contributing to open source quant projects",
+          "Publishing research and strategies",
+          "Teaching and mentoring",
+          "Building personal brand in quant finance",
+          "Consulting opportunities",
+          "Side projects and experimentation",
+          "Emerging technologies: quantum computing, blockchain",
+          "Long-term career development",
+          "Work-life balance in trading"
+        ],
+        "projects": [
+          "Continuous learning plan",
+          "Research paper reading list",
+          "Community engagement strategy",
+          "Open source contributions",
+          "Personal research publication",
+          "Mentorship program participation"
+        ],
+        "practice": "Develop lifelong learning system"
+      }
+    },
+    "month_23": {
+      "title": "FINAL PROJECT & CAREER LAUNCH",
+      "weeks": "Week 49-52 (distributed)",
+      "week_97": {
+        "title": "Research & Strategy Innovation",
+        "topics": [
+          "Novel strategy research",
+          "Combining multiple approaches",
+          "Regime-adaptive systems",
+          "Machine learning innovations",
+          "Alternative data exploitation",
+          "Cross-asset strategies",
+          "International markets",
+          "Emerging markets trading",
+          "Cryptocurrency innovations",
+          "DeFi trading opportunities"
+        ],
+        "projects": [
+          "Original research project",
+          "Novel strategy development",
+          "Multi-asset system",
+          "Innovation documentation",
+          "Research paper writing"
+        ],
+        "practice": "Develop unique trading edge"
+      },
+      "week_98": {
+        "title": "Advanced Technology Integration",
+        "topics": [
+          "Cloud-native trading systems",
+          "Serverless architecture for trading",
+          "Kubernetes for trading infrastructure",
+          "Real-time data lakes",
+          "Big data for trading",
+          "GPU acceleration for backtesting",
+          "Quantum computing for optimization",
+          "Blockchain for settlement",
+          "Advanced monitoring and observability",
+          "Site reliability engineering for trading"
+        ],
+        "projects": [
+          "Cloud-native trading platform",
+          "Scalable infrastructure",
+          "Big data pipeline",
+          "Advanced monitoring system",
+          "Technology roadmap"
+        ],
+        "practice": "Modernize trading infrastructure"
+      },
+      "week_99": {
+        "title": "Regulatory & Compliance Mastery",
+        "topics": [
+          "Global trading regulations",
+          "SEBI regulations (India)",
+          "SEC regulations (USA)",
+          "MiFID II (Europe)",
+          "Algorithmic trading regulations",
+          "Market manipulation rules",
+          "Insider trading compliance",
+          "Best execution requirements",
+          "Audit trails and record keeping",
+          "Compliance monitoring systems"
+        ],
+        "projects": [
+          "Compliance framework",
+          "Audit trail system",
+          "Regulatory reporting automation",
+          "Compliance monitoring dashboard",
+          "Documentation system"
+        ],
+        "practice": "Ensure full regulatory compliance"
+      },
+      "week_100": {
+        "title": "Final Capstone & Launch",
+        "topics": [
+          "Complete trading business setup",
+          "Live trading deployment",
+          "Performance tracking",
+          "Client/investor reporting",
+          "Continuous optimization",
+          "Career positioning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Professional Algorithmic Trading Business",
+          "Option 1: Multi-strategy quant fund (simulated AUM)",
+          "Option 2: Proprietary trading desk",
+          "Option 3: Algo trading as a service",
+          "Option 4: Personal trading business",
+          "Requirements: Live deployed, monitored, profitable (or promising), documented, scalable"
+        ],
+        "deliverables": [
+          "Live trading system (paper or real)",
+          "Complete infrastructure",
+          "10+ live strategies",
+          "Performance track record",
+          "Risk management system",
+          "Monitoring and reporting",
+          "Business documentation",
+          "Professional website/presence",
+          "Investor-ready materials",
+          "Career launch plan"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - Complete algorithmic trading mastery"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 25+ foundational projects - data analysis, indicators, technical analysis",
+      "Phase 2: 30+ strategy projects - backtesting, optimization, various strategies",
+      "Phase 3: 25+ advanced projects - ML models, HFT, portfolio management",
+      "Phase 4: 20+ professional projects - live trading, infrastructure, business",
+      "Total: 100+ trading projects from basics to professional systems"
+    ],
+    "total_projects_built": "100+ trading strategies and systems",
+    "skills_mastered": [
+      "Programming: Python (expert), NumPy, Pandas, Matplotlib, OOP for trading",
+      "Markets: Stocks, Forex, Crypto, Options, Futures, Commodities",
+      "Technical Analysis: 50+ indicators, chart patterns, multi-timeframe analysis",
+      "Strategy Development: Momentum, mean reversion, breakout, arbitrage, options",
+      "Backtesting: Backtrader, custom frameworks, walk-forward, optimization",
+      "Machine Learning: Scikit-learn, TensorFlow, PyTorch, feature engineering, NLP",
+      "Quantitative Finance: Statistics, portfolio theory, risk management, derivatives",
+      "Live Trading: Broker APIs, execution algorithms, real-time systems",
+      "Infrastructure: Cloud deployment, databases, monitoring, CI/CD",
+      "Risk Management: Position sizing, stop-loss, portfolio heat, VaR",
+      "Tools: Jupyter, Git, Docker, PostgreSQL, InfluxDB, Prometheus",
+      "Business: Fund management, compliance, investor relations, career development"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-7 hours",
+      "coding_practice": "8-10 hours",
+      "backtesting": "4-6 hours",
+      "research_reading": "2-3 hours",
+      "live_trading_practice": "2-3 hours",
+      "total_per_week": "20-25 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live trading analysis and strategy sessions",
+      "mentorship": "1-on-1 guidance from professional quant traders",
+      "community": "Active community of algorithmic traders",
+      "code_review": "Expert review of trading strategies and code",
+      "data_access": "Historical and real-time data for practice",
+      "cloud_credits": "Credits for cloud deployment",
+      "broker_support": "Help with broker setup and API integration",
+      "lifetime_access": "All content, strategies, updates forever",
+      "strategy_library": "Access to 100+ tested strategies",
+      "research_papers": "Curated quantitative finance research"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "final_certificate": "Certified Algorithmic Trader",
+      "specializations": "Options in Crypto/Options/HFT/ML Trading",
+      "track_record": "Verified backtesting and live trading results",
+      "portfolio": "40+ documented strategies",
+      "digital_badge": "LinkedIn shareable credentials",
+      "industry_recognized": "Recognized by prop firms and hedge funds"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required, basic math helpful",
+    "trading_knowledge": "Beginner-friendly, no prior trading experience needed",
+    "programming": "No coding experience required (taught from scratch)",
+    "mathematics": "High school math (statistics taught in course)",
+    "capital": "Not required for learning (paper trading available)",
+    "equipment": "Computer, internet, ~₹5000/month for data and tools",
+    "time_commitment": "20-25 hours/week consistently",
+    "age": "18+ (due to broker account requirements)",
+    "mindset": "Analytical, patient, risk-aware, continuous learner"
+  },
+  "who_is_this_for": {
+    "manual_traders": "Want to automate their trading strategies",
+    "developers": "Software engineers entering finance",
+    "finance_professionals": "Want quantitative and algo skills",
+    "data_scientists": "Applying ML to trading",
+    "students": "Engineering, math, finance backgrounds",
+    "career_switchers": "Entering quantitative finance",
+    "entrepreneurs": "Want to start trading business/fund",
+    "quants": "Enhance systematic trading skills",
+    "investors": "Want algorithmic portfolio management",
+    "researchers": "Academic interest in quantitative finance"
+  },
+  "career_paths_after_completion": [
+    "Quantitative Trader",
+    "Algorithmic Trader",
+    "Quantitative Researcher",
+    "Quantitative Developer",
+    "Portfolio Manager (Quantitative)",
+    "Risk Manager (Quantitative)",
+    "Proprietary Trader",
+    "Hedge Fund Manager",
+    "Systematic Trading Strategist",
+    "High-Frequency Trader",
+    "Independent Algo Trader",
+    "Trading System Developer",
+    "Quant Consultant",
+    "Financial Engineer",
+    "Research Scientist (Finance)"
+  ],
+  "income_potential": {
+    "junior_quant": "₹8-15 LPA (India), $80k-120k (USA)",
+    "algo_trader": "₹15-30 LPA (India), $120k-200k (USA)",
+    "senior_quant": "₹30-60 LPA (India), $200k-400k (USA)",
+    "quant_pm": "₹50-100 LPA+ (India), $300k-1M+ (USA)",
+    "prop_trader": "Profit share: 50-90% of profits generated",
+    "hedge_fund": "₹100 LPA+ base + % of AUM + performance fees",
+    "independent": "Unlimited based on capital and strategy performance",
+    "note": "Trading income highly variable, depends on skill and capital"
+  },
+  "risk_disclaimers": {
+    "trading_risk": "Trading involves substantial risk of loss",
+    "no_guarantees": "Past performance does not guarantee future results",
+    "capital_loss": "You can lose all invested capital",
+    "education_focus": "This is an educational program, not financial advice",
+    "paper_trading": "Practice with paper trading before using real money",
+    "start_small": "Start with small capital when going live",
+    "regulation": "Ensure compliance with local trading regulations",
+    "tax_implications": "Consult tax professional for trading tax obligations",
+    "psychological": "Understand emotional aspects of trading",
+    "continuous_learning": "Markets evolve, continuous adaptation required"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee",
+    "lifetime_access": "All content, strategies, updates forever",
+    "data_access": "Historical and real-time data for practice",
+    "strategy_library": "100+ tested strategies",
+    "community": "Lifetime access to trader community",
+    "mentorship": "Expert guidance throughout",
+    "job_support": "Resume review, interview prep for quant roles",
+    "fund_guidance": "Help starting prop desk or fund (for qualified students)",
+    "code_repository": "Complete code library for all projects",
+    "paper_trading": "Unlimited paper trading practice",
+    "broker_support": "Assistance with live account setup"
+  }
+}

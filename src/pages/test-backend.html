@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Connection Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #fff;
+        }
+        .test-box {
+            background: #16213e;
+            border: 2px solid #0f3460;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        button {
+            background: #a855f7;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 5px;
+        }
+        button:hover {
+            background: #9333ea;
+        }
+        .success {
+            color: #4ecdc4;
+        }
+        .error {
+            color: #ff6b6b;
+        }
+        .info {
+            color: #ffd93d;
+        }
+        pre {
+            background: #0f0f0f;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔧 Backend Connection Test</h1>
+    
+    <div class="test-box">
+        <h2>Step 1: Check Backend Server</h2>
+        <button onclick="testHealth()">Test Backend Health</button>
+        <div id="healthResult"></div>
+    </div>
+
+    <div class="test-box">
+        <h2>Step 2: Test Contact Form Submission</h2>
+        <button onclick="testContactSubmit()">Test Contact API</button>
+        <div id="contactResult"></div>
+    </div>
+
+    <div class="test-box">
+        <h2>Instructions</h2>
+        <ol>
+            <li class="info">Make sure MongoDB is running</li>
+            <li class="info">Start the backend server:
+                <pre>cd backend
+node server.js</pre>
+            </li>
+            <li class="info">Click "Test Backend Health" button above</li>
+            <li class="info">If successful, click "Test Contact API"</li>
+        </ol>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'http://localhost:5000';
+
+        async function testHealth() {
+            const resultDiv = document.getElementById('healthResult');
+            resultDiv.innerHTML = '<p class="info">Testing connection...</p>';
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/health`);
+                const data = await response.json();
+
+                if (response.ok) {
+                    resultDiv.innerHTML = `
+                        <p class="success">✅ Backend is running!</p>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <p class="error">❌ Backend returned error</p>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <p class="error">❌ Cannot connect to backend</p>
+                    <p class="error">Error: ${error.message}</p>
+                    <p class="info">Make sure:</p>
+                    <ul>
+                        <li>Backend server is running on port 5000</li>
+                        <li>Run: <code>cd backend && node server.js</code></li>
+                        <li>MongoDB is running</li>
+                    </ul>
+                `;
+            }
+        }
+
+        async function testContactSubmit() {
+            const resultDiv = document.getElementById('contactResult');
+            resultDiv.innerHTML = '<p class="info">Testing contact submission...</p>';
+
+            const testData = {
+                name: 'Test User',
+                email: 'test@example.com',
+                contact: '9876543210',
+                message: 'This is a test message from the connection test page'
+            };
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/contact/submit`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(testData)
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    resultDiv.innerHTML = `
+                        <p class="success">✅ Contact form API is working!</p>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                        <p class="success">Check MongoDB to see the saved contact:</p>
+                        <pre>mongosh
+use modernagecoders
+db.contacts.find().pretty()</pre>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <p class="error">❌ API returned error</p>
+                        <pre>${JSON.stringify(data, null, 2)}</pre>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <p class="error">❌ Cannot connect to contact API</p>
+                    <p class="error">Error: ${error.message}</p>
+                    <p class="info">Make sure backend server is running!</p>
+                `;
+            }
+        }
+
+        // Auto-test on page load
+        window.addEventListener('load', () => {
+            setTimeout(testHealth, 500);
+        });
+    </script>
+</body>
+</html>

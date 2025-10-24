@@ -1,0 +1,1410 @@
+{
+  "meta": {
+    "slug": "complete-app-development-masterclass",
+    "title": "Complete App Development Masterclass - Mobile & Web Apps from Zero to Launch",
+    "description": "The most comprehensive 12-month app development program. From zero coding knowledge to building and launching production apps. Master iOS, Android, Flutter, React Native, web apps, backend, databases, deployment, monetization, and app store success.",
+    "keywords": [
+      "app development",
+      "mobile app development",
+      "iOS development",
+      "Android development",
+      "Flutter",
+      "React Native",
+      "web app development",
+      "full stack app",
+      "app design",
+      "app deployment",
+      "app store",
+      "play store",
+      "app monetization",
+      "cross-platform apps",
+      "progressive web apps"
+    ],
+    "category": "Mobile & Web App Development",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional App Developer",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Professional App Developer certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete App Development Masterclass",
+    "tagline": "From First Line of Code to Published Apps on App Stores",
+    "description": "This is not just an app development course—it's a complete transformation into a professional app developer and entrepreneur. Whether you're a complete beginner, designer wanting to code, entrepreneur with app ideas, or developer wanting mobile skills, this 12-month masterclass will turn you into a skilled app developer capable of building, designing, and launching successful mobile and web applications.\n\nYou'll master app development from ground zero to professional level: from programming basics to advanced features, from UI/UX design to backend integration, from local development to cloud deployment, from first app to App Store success. By the end, you'll have built 30+ apps, published apps to stores, monetized your creations, and be ready for app developer roles or running your own app business.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no coding experience needed",
+      "Complete 12-month structured curriculum",
+      "Both iOS and Android development covered",
+      "Flutter and React Native for cross-platform",
+      "Native development (Swift, Kotlin) included",
+      "UI/UX design for app developers",
+      "Backend development for apps",
+      "App Store and Play Store publishing mastery",
+      "Monetization strategies (ads, IAP, subscriptions)",
+      "Real app projects from idea to launch",
+      "Build 30+ complete apps",
+      "App marketing and user acquisition"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Programming Basics, UI/UX Design, First Apps",
+      "phase_2": "Cross-Platform (Months 4-6): Flutter/React Native, Backend Integration, APIs",
+      "phase_3": "Native & Advanced (Months 7-9): iOS (Swift), Android (Kotlin), Advanced Features",
+      "phase_4": "Professional (Months 10-12): Publishing, Monetization, Marketing, Business"
+    },
+    "career_outcomes": [
+      "Junior App Developer (after 3 months)",
+      "Mobile App Developer (after 6 months)",
+      "Senior App Developer (after 9 months)",
+      "Lead App Developer / App Entrepreneur (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundations & First Apps (Months 1-3, Weeks 1-13)",
+    "description": "Build programming foundations, master UI/UX design principles, and create your first mobile applications.",
+    "month_1_2": {
+      "title": "Months 1-2: Programming Basics & App Fundamentals",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to App Development & Setup",
+        "topics": [
+          "Mobile app ecosystem overview",
+          "iOS vs Android vs Cross-platform",
+          "Types of apps: native, hybrid, web apps",
+          "App development career paths",
+          "Development environment setup",
+          "Installing necessary tools and IDEs",
+          "Understanding app architecture",
+          "Mobile operating systems basics",
+          "App lifecycle and states",
+          "Screen sizes and resolutions",
+          "Touch interactions and gestures",
+          "Mobile-first design thinking",
+          "Your first app ideas brainstorming",
+          "App development process overview",
+          "Version control with Git basics"
+        ],
+        "projects": [
+          "Environment setup checklist",
+          "Simple 'Hello World' app",
+          "App idea documentation",
+          "Wireframe sketches (paper)",
+          "Git repository creation"
+        ],
+        "practice": "Research 20 successful apps, analyze their features"
+      },
+      "week_3_4": {
+        "title": "Programming Fundamentals (Dart/JavaScript)",
+        "topics": [
+          "Why Dart and JavaScript for apps?",
+          "Variables and data types",
+          "Operators: arithmetic, comparison, logical",
+          "Strings and string manipulation",
+          "Numbers and math operations",
+          "Booleans and conditions",
+          "If-else statements",
+          "Switch statements",
+          "Loops: for, while, do-while",
+          "Lists/Arrays basics",
+          "Maps/Objects basics",
+          "Functions: declaration and calling",
+          "Parameters and return values",
+          "Arrow functions (JavaScript) / Fat arrow (Dart)",
+          "Basic debugging techniques"
+        ],
+        "projects": [
+          "Calculator logic",
+          "Temperature converter",
+          "Todo list logic (console)",
+          "Quiz game logic",
+          "BMI calculator logic",
+          "Simple games (number guessing)"
+        ],
+        "practice": "Solve 100 basic programming problems"
+      },
+      "week_5_6": {
+        "title": "UI/UX Design for App Developers",
+        "topics": [
+          "UI vs UX: understanding the difference",
+          "Mobile UI design principles",
+          "Material Design (Android) guidelines",
+          "Human Interface Guidelines (iOS)",
+          "Color theory for apps",
+          "Typography in mobile apps",
+          "Icons and iconography",
+          "Spacing and layout grids",
+          "Visual hierarchy",
+          "Navigation patterns: tabs, drawers, bottom navigation",
+          "Common UI components: buttons, cards, lists",
+          "Touch targets and accessibility",
+          "Figma for app design (basics)",
+          "Creating wireframes and mockups",
+          "Prototyping interactive designs"
+        ],
+        "projects": [
+          "Design system in Figma",
+          "App UI mockups (5 different apps)",
+          "Icon set creation",
+          "User flow diagrams",
+          "Interactive prototype",
+          "Style guide document"
+        ],
+        "practice": "Design UI for 10 different app types"
+      },
+      "week_7_8": {
+        "title": "Introduction to Flutter Development",
+        "topics": [
+          "What is Flutter? Why Flutter?",
+          "Flutter installation and setup",
+          "Dart language review for Flutter",
+          "Flutter architecture and widgets",
+          "Stateless vs Stateful widgets",
+          "Widget tree concept",
+          "Common widgets: Text, Container, Row, Column",
+          "Scaffold and AppBar",
+          "Buttons: ElevatedButton, TextButton, IconButton",
+          "Images and assets",
+          "ListView and ListTile",
+          "GridView for grid layouts",
+          "Stack for layered layouts",
+          "Padding and margin",
+          "Hot reload and hot restart"
+        ],
+        "projects": [
+          "Hello Flutter app",
+          "Personal card app",
+          "BMI calculator app (UI + logic)",
+          "Dice rolling app",
+          "Quote of the day app",
+          "Simple calculator app"
+        ],
+        "practice": "Build 10 simple Flutter apps"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Intermediate Flutter & State Management",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Advanced Flutter Widgets & Layouts",
+        "topics": [
+          "Custom widgets creation",
+          "Widget composition",
+          "Form widgets: TextField, Form, TextFormField",
+          "Input validation",
+          "DropdownButton and menus",
+          "Date and time pickers",
+          "Sliders and switches",
+          "Checkbox and radio buttons",
+          "Dialogs and bottom sheets",
+          "SnackBar and notifications",
+          "TabBar and TabBarView",
+          "PageView for swiping",
+          "Card and material design",
+          "Themes and theming",
+          "Dark mode implementation"
+        ],
+        "projects": [
+          "Todo app with add/delete",
+          "Expense tracker app",
+          "Form-based registration app",
+          "Settings page with preferences",
+          "Multi-page app with tabs",
+          "Dark mode enabled app"
+        ],
+        "practice": "Create 15 different UI screens"
+      },
+      "week_11_12": {
+        "title": "State Management in Flutter",
+        "topics": [
+          "Understanding state in Flutter",
+          "setState and local state",
+          "InheritedWidget basics",
+          "Provider package introduction",
+          "ChangeNotifier and ChangeNotifierProvider",
+          "Consumer and Selector widgets",
+          "Multiple providers",
+          "Riverpod introduction (modern alternative)",
+          "BLoC pattern basics",
+          "GetX state management",
+          "Choosing the right state management",
+          "Global state vs local state",
+          "State persistence basics",
+          "Debugging state issues",
+          "Best practices for state management"
+        ],
+        "projects": [
+          "Counter app with Provider",
+          "Shopping cart with state management",
+          "Todo app with Provider",
+          "Theme switcher with Provider",
+          "Multi-screen state sharing",
+          "Complete app with Riverpod"
+        ],
+        "practice": "Refactor 10 apps with proper state management"
+      },
+      "week_13": {
+        "title": "Navigation & Routing",
+        "topics": [
+          "Navigation basics in Flutter",
+          "Navigator.push and pop",
+          "Named routes",
+          "Passing data between screens",
+          "Returning data from screens",
+          "Navigation with arguments",
+          "Bottom navigation bar implementation",
+          "Drawer navigation",
+          "Tab navigation",
+          "Deep linking basics",
+          "GoRouter package",
+          "Navigation 2.0 introduction",
+          "Nested navigation",
+          "Route guards and authentication flow",
+          "Transition animations"
+        ],
+        "projects": [
+          "Multi-screen app with navigation",
+          "Bottom nav app (3+ screens)",
+          "Drawer menu app",
+          "Login flow with navigation",
+          "PHASE 1 MINI CAPSTONE: Complete Multi-screen App",
+          "E.g., Recipe app, News app, or Portfolio app"
+        ],
+        "assessment": "Phase 1 Exam - Programming, UI/UX, Flutter basics, Navigation"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Cross-Platform Development & Backend Integration (Months 4-6, Weeks 14-26)",
+    "description": "Master cross-platform development, backend integration, APIs, databases, and real-world app features.",
+    "month_7_8": {
+      "title": "Months 4-5: Backend Integration & Data Persistence",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Local Data Storage",
+        "topics": [
+          "Data persistence importance",
+          "SharedPreferences for simple data",
+          "Key-value storage patterns",
+          "SQLite database basics",
+          "sqflite package in Flutter",
+          "CRUD operations with SQLite",
+          "Database schema design",
+          "Migrations and versioning",
+          "Hive (NoSQL) database",
+          "Sembast for Flutter",
+          "Choosing the right storage solution",
+          "Data encryption basics",
+          "Secure storage for sensitive data",
+          "File storage and management",
+          "Cache management"
+        ],
+        "projects": [
+          "Notes app with SQLite",
+          "Todo app with local database",
+          "Expense tracker with Hive",
+          "User preferences with SharedPreferences",
+          "Offline-first app",
+          "Encrypted data storage app"
+        ],
+        "practice": "Build 10 apps with different storage methods"
+      },
+      "week_29_30": {
+        "title": "REST APIs & HTTP Networking",
+        "topics": [
+          "Understanding REST APIs",
+          "HTTP methods: GET, POST, PUT, DELETE",
+          "API endpoints and routes",
+          "HTTP package in Flutter",
+          "Dio package for advanced networking",
+          "Making GET requests",
+          "Making POST requests with body",
+          "Headers and authentication tokens",
+          "Query parameters",
+          "JSON parsing in Dart",
+          "Serialization and deserialization",
+          "Error handling in API calls",
+          "Loading states and UX",
+          "Retry logic and timeout",
+          "API rate limiting handling"
+        ],
+        "projects": [
+          "Weather app with API",
+          "News app (NewsAPI integration)",
+          "Movie database app (TMDB API)",
+          "Currency converter with live rates",
+          "Quote app with API",
+          "GitHub profile viewer",
+          "Restaurant finder (Google Places API)"
+        ],
+        "practice": "Integrate 15 different public APIs"
+      },
+      "week_31_32": {
+        "title": "Firebase Integration",
+        "topics": [
+          "Firebase introduction and setup",
+          "Firebase project creation",
+          "Firebase Authentication: email/password",
+          "Google Sign-In integration",
+          "Phone authentication",
+          "Social logins: Facebook, Apple",
+          "Firestore database (NoSQL)",
+          "Firestore CRUD operations",
+          "Real-time listeners",
+          "Firestore queries and filtering",
+          "Cloud Storage for files",
+          "Image upload and retrieval",
+          "Firebase Cloud Messaging (FCM)",
+          "Push notifications implementation",
+          "Firebase Analytics basics"
+        ],
+        "projects": [
+          "User authentication app",
+          "Chat application with Firestore",
+          "Social media app (basic)",
+          "File sharing app",
+          "Real-time todo app",
+          "Push notification app",
+          "Complete Firebase-backed app"
+        ],
+        "practice": "Build 10 Firebase-integrated apps"
+      },
+      "week_33_34": {
+        "title": "Advanced App Features",
+        "topics": [
+          "Camera and photo library access",
+          "image_picker package",
+          "Taking photos and videos",
+          "Location services and GPS",
+          "Google Maps integration",
+          "Displaying maps and markers",
+          "Geolocation and tracking",
+          "QR code scanning and generation",
+          "Biometric authentication (fingerprint, face)",
+          "In-app browser (WebView)",
+          "Audio playback and recording",
+          "Video playback",
+          "Sensors: accelerometer, gyroscope",
+          "Background tasks",
+          "App shortcuts and widgets (home screen)"
+        ],
+        "projects": [
+          "Instagram-like photo app",
+          "Location tracking app",
+          "Maps-based app (find nearby)",
+          "QR code scanner app",
+          "Music player app",
+          "Fitness tracker (basic)",
+          "AR basics with camera"
+        ],
+        "practice": "Implement 15 advanced features across apps"
+      },
+      "week_35": {
+        "title": "Animations & Advanced UI",
+        "topics": [
+          "Implicit animations in Flutter",
+          "AnimatedContainer, AnimatedOpacity",
+          "TweenAnimationBuilder",
+          "Explicit animations with AnimationController",
+          "Animation curves",
+          "Hero animations",
+          "Page transitions",
+          "Custom animations",
+          "Lottie animations integration",
+          "Rive animations (interactive)",
+          "Shimmer effects for loading",
+          "Custom painters for graphics",
+          "Gesture detectors and interactions",
+          "Draggable widgets",
+          "Performance optimization for animations"
+        ],
+        "projects": [
+          "Onboarding screens with animations",
+          "Animated app intro",
+          "Loading animations collection",
+          "Interactive animation app",
+          "Animated charts and graphs",
+          "Game with animations (simple)",
+          "Beautiful UI app with micro-interactions"
+        ],
+        "practice": "Add animations to 10 previous apps"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: React Native & Alternative Platforms",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "React Native Introduction",
+        "topics": [
+          "What is React Native?",
+          "React Native vs Flutter comparison",
+          "React Native setup and CLI",
+          "JSX syntax",
+          "Components in React Native",
+          "Functional vs Class components",
+          "React Hooks: useState, useEffect",
+          "Props and state",
+          "Styling in React Native",
+          "Flexbox layouts",
+          "Common components: View, Text, Image, ScrollView",
+          "FlatList and SectionList",
+          "TextInput and forms",
+          "TouchableOpacity and buttons",
+          "Navigation with React Navigation"
+        ],
+        "projects": [
+          "Hello React Native app",
+          "Todo app in React Native",
+          "Weather app with API",
+          "Navigation app (multi-screen)",
+          "Form handling app",
+          "List-based app (contacts, recipes)"
+        ],
+        "practice": "Build 10 React Native apps"
+      },
+      "week_38_39": {
+        "title": "Progressive Web Apps (PWA)",
+        "topics": [
+          "What are Progressive Web Apps?",
+          "PWA vs native apps",
+          "Service workers",
+          "Offline functionality",
+          "App manifest",
+          "Add to home screen",
+          "Push notifications in PWA",
+          "Responsive design for PWA",
+          "PWA frameworks: React, Vue, Angular",
+          "Flutter for web (PWA)",
+          "Testing PWA on mobile",
+          "PWA deployment",
+          "App-like experience on web",
+          "Performance optimization",
+          "PWA best practices"
+        ],
+        "projects": [
+          "Simple PWA with offline support",
+          "Todo PWA",
+          "News PWA with caching",
+          "Flutter web app as PWA",
+          "E-commerce PWA (basic)",
+          "Social media PWA"
+        ],
+        "practice": "Convert 5 apps to PWAs"
+      },
+      "week_40_41": {
+        "title": "Backend Development for Apps (Node.js/Express)",
+        "topics": [
+          "Why build your own backend?",
+          "Node.js and Express basics",
+          "RESTful API design for mobile",
+          "Database integration: MongoDB/PostgreSQL",
+          "User authentication (JWT)",
+          "CRUD API endpoints",
+          "File upload handling",
+          "Input validation and sanitization",
+          "Error handling in APIs",
+          "API security best practices",
+          "Environment variables",
+          "CORS configuration",
+          "Rate limiting",
+          "API documentation",
+          "Deployment basics (Heroku, Railway)"
+        ],
+        "projects": [
+          "Simple REST API for todo app",
+          "User authentication API",
+          "Blog API with CRUD",
+          "Image upload API",
+          "Social media backend (basic)",
+          "E-commerce backend API",
+          "Complete backend for Flutter app"
+        ],
+        "practice": "Build backends for 8 different apps"
+      },
+      "week_42_43": {
+        "title": "Testing & Quality Assurance",
+        "topics": [
+          "Importance of testing in apps",
+          "Unit testing in Flutter",
+          "Widget testing",
+          "Integration testing",
+          "Test-driven development (TDD) basics",
+          "Mocking and stubbing",
+          "Testing API calls",
+          "Testing state management",
+          "UI testing with Flutter",
+          "Automated testing",
+          "Testing in React Native",
+          "Debugging techniques",
+          "Performance testing",
+          "Beta testing preparation",
+          "User acceptance testing"
+        ],
+        "projects": [
+          "Test suite for calculator app",
+          "Widget tests for UI components",
+          "Integration tests for complete app",
+          "TDD for new feature",
+          "Automated testing pipeline",
+          "Bug tracking and fixing"
+        ],
+        "practice": "Write tests for all major apps"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Full-stack app development",
+          "Custom backend API",
+          "Advanced features integration",
+          "State management",
+          "Testing coverage",
+          "Performance optimization"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Complete Social Media App",
+          "Features: Auth, posts, comments, likes, user profiles, image upload, real-time updates, push notifications",
+          "Alternative: E-commerce app with cart, checkout, orders",
+          "Alternative: Fitness/Health tracking app with charts",
+          "Alternative: Chat application with Firebase",
+          "Requirements: Backend integration, 10+ screens, polished UI, tested"
+        ],
+        "assessment": "Phase 2 Exam - Cross-platform development, APIs, backend, advanced features"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Native Development & Advanced Topics (Months 7-9, Weeks 27-39)",
+    "description": "Master native iOS and Android development, advanced app features, and platform-specific capabilities.",
+    "month_13_14": {
+      "title": "Months 7-8: iOS Development with Swift",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Swift Programming & iOS Basics",
+        "topics": [
+          "Introduction to iOS development",
+          "Xcode installation and setup",
+          "Swift programming language basics",
+          "Variables, constants, and types",
+          "Optionals and optional binding",
+          "Collections: Arrays, Dictionaries, Sets",
+          "Control flow in Swift",
+          "Functions and closures",
+          "Object-oriented programming in Swift",
+          "Classes and structures",
+          "Protocols and extensions",
+          "iOS app architecture",
+          "Storyboards vs SwiftUI",
+          "View controllers lifecycle",
+          "Interface Builder basics"
+        ],
+        "projects": [
+          "Swift programming exercises",
+          "Hello iOS app",
+          "Calculator app in Swift",
+          "Simple UI app with storyboards",
+          "Multi-screen app with segues"
+        ],
+        "practice": "Solve 50 Swift programming problems"
+      },
+      "week_55_56": {
+        "title": "UIKit Development",
+        "topics": [
+          "UIKit framework overview",
+          "UIViewController and view lifecycle",
+          "UIView and subviews",
+          "Auto Layout and constraints",
+          "Stack views for layouts",
+          "UITableView and UITableViewCell",
+          "UICollectionView",
+          "Navigation Controller",
+          "Tab Bar Controller",
+          "UIAlertController and dialogs",
+          "UITextField and forms",
+          "UIImageView and image handling",
+          "Gesture recognizers",
+          "Delegates and protocols",
+          "Programmatic UI vs Storyboards"
+        ],
+        "projects": [
+          "Todo app with UITableView",
+          "Photo gallery with UICollectionView",
+          "Multi-screen app with navigation",
+          "Tab-based app",
+          "Form-based app with validation",
+          "Custom table view cells"
+        ],
+        "practice": "Build 12 UIKit apps"
+      },
+      "week_57_58": {
+        "title": "SwiftUI (Modern iOS Development)",
+        "topics": [
+          "SwiftUI introduction",
+          "Declarative UI paradigm",
+          "Views and modifiers",
+          "State and @State property wrapper",
+          "@Binding for two-way binding",
+          "@ObservedObject and @StateObject",
+          "@EnvironmentObject for global state",
+          "Lists and ForEach",
+          "Navigation in SwiftUI",
+          "NavigationView and NavigationLink",
+          "TabView for tabs",
+          "Sheets and fullscreen covers",
+          "Alerts and action sheets",
+          "Animations in SwiftUI",
+          "Combine framework basics"
+        ],
+        "projects": [
+          "SwiftUI todo app",
+          "Weather app with SwiftUI",
+          "MVVM architecture app",
+          "List-detail navigation app",
+          "Form app with SwiftUI",
+          "Animated UI app",
+          "Complete SwiftUI application"
+        ],
+        "practice": "Build 15 SwiftUI apps"
+      },
+      "week_59_60": {
+        "title": "iOS Data & Networking",
+        "topics": [
+          "UserDefaults for simple storage",
+          "Core Data for local database",
+          "Core Data entities and relationships",
+          "Fetch requests and predicates",
+          "URLSession for networking",
+          "Codable protocol for JSON",
+          "REST API integration in iOS",
+          "Async/await in Swift",
+          "Combine for reactive programming",
+          "Error handling in networking",
+          "Image caching",
+          "CloudKit basics",
+          "iCloud synchronization",
+          "Keychain for secure storage",
+          "File management in iOS"
+        ],
+        "projects": [
+          "Notes app with Core Data",
+          "API-based news app",
+          "Weather app with networking",
+          "Image downloading and caching",
+          "Secure password manager",
+          "Cloud-synced todo app",
+          "Complete data-driven app"
+        ],
+        "practice": "Build 10 data-intensive iOS apps"
+      },
+      "week_61": {
+        "title": "iOS Advanced Features",
+        "topics": [
+          "Camera and photo library",
+          "Core Location and MapKit",
+          "Push notifications (local and remote)",
+          "Background tasks",
+          "App extensions (Today, Share, Keyboard)",
+          "SiriKit integration",
+          "HealthKit basics",
+          "ARKit for augmented reality",
+          "Core ML for machine learning",
+          "App clips",
+          "Widgets (WidgetKit)",
+          "In-app purchases (StoreKit)",
+          "Biometric authentication (Face ID, Touch ID)",
+          "Universal links and deep linking",
+          "Accessibility in iOS apps"
+        ],
+        "projects": [
+          "Camera app with filters",
+          "Location-based app with maps",
+          "Push notification app",
+          "Widget for iOS 14+",
+          "AR experience app (basic)",
+          "Health tracking app",
+          "App with in-app purchases"
+        ],
+        "practice": "Implement 10 advanced iOS features"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Android Development with Kotlin",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Kotlin Programming & Android Basics",
+        "topics": [
+          "Introduction to Android development",
+          "Android Studio setup",
+          "Kotlin programming basics",
+          "Variables: val vs var",
+          "Data types and type inference",
+          "Null safety in Kotlin",
+          "Collections in Kotlin",
+          "Control flow: if, when, loops",
+          "Functions and lambdas",
+          "Object-oriented Kotlin",
+          "Classes, objects, and data classes",
+          "Android project structure",
+          "Activities and their lifecycle",
+          "Fragments basics",
+          "AndroidManifest.xml"
+        ],
+        "projects": [
+          "Kotlin programming exercises",
+          "Hello Android app",
+          "Simple calculator app",
+          "Activity lifecycle app",
+          "Multi-activity app with intents"
+        ],
+        "practice": "Solve 50 Kotlin programming problems"
+      },
+      "week_64_65": {
+        "title": "Android UI Development",
+        "topics": [
+          "XML layouts in Android",
+          "LinearLayout, RelativeLayout, ConstraintLayout",
+          "RecyclerView and adapters",
+          "ViewHolder pattern",
+          "ListView (legacy)",
+          "Material Design components",
+          "CardView and material cards",
+          "Bottom navigation",
+          "Navigation drawer",
+          "Floating action button",
+          "Snackbar and Toast",
+          "Dialogs and AlertDialog",
+          "Menus and toolbars",
+          "Styles and themes",
+          "Vector drawables and icons"
+        ],
+        "projects": [
+          "RecyclerView list app",
+          "Material Design app",
+          "Bottom navigation app",
+          "Drawer navigation app",
+          "Custom adapter app",
+          "Theming and styling app"
+        ],
+        "practice": "Build 12 Android UI apps"
+      },
+      "week_66_67": {
+        "title": "Jetpack Compose (Modern Android UI)",
+        "topics": [
+          "Jetpack Compose introduction",
+          "Composable functions",
+          "State management in Compose",
+          "remember and mutableStateOf",
+          "Layouts: Column, Row, Box",
+          "LazyColumn and LazyRow",
+          "Modifiers in Compose",
+          "Material Design 3 in Compose",
+          "Navigation in Compose",
+          "ViewModel with Compose",
+          "Side effects and LaunchedEffect",
+          "Theming in Compose",
+          "Animations in Compose",
+          "Compose vs XML comparison",
+          "Interoperability with XML"
+        ],
+        "projects": [
+          "Compose todo app",
+          "MVVM app with Compose",
+          "Navigation app in Compose",
+          "Animated Compose app",
+          "Material 3 design app",
+          "Complete Compose application"
+        ],
+        "practice": "Build 15 Jetpack Compose apps"
+      },
+      "week_68_69": {
+        "title": "Android Data & Architecture",
+        "topics": [
+          "SharedPreferences in Android",
+          "Room database (SQLite ORM)",
+          "Room entities, DAOs, and database",
+          "LiveData for observable data",
+          "ViewModel for UI state",
+          "Repository pattern",
+          "MVVM architecture",
+          "Retrofit for networking",
+          "Gson/Moshi for JSON parsing",
+          "Coroutines for async operations",
+          "Flow for reactive streams",
+          "Dependency injection with Hilt/Dagger",
+          "WorkManager for background tasks",
+          "DataStore (modern preferences)",
+          "Architecture components"
+        ],
+        "projects": [
+          "Notes app with Room",
+          "MVVM todo app",
+          "API-based app with Retrofit",
+          "Repository pattern implementation",
+          "Coroutines and Flow app",
+          "Dependency injection app",
+          "Background task app"
+        ],
+        "practice": "Build 10 architecture-compliant apps"
+      },
+      "week_70": {
+        "title": "Android Advanced & Phase 3 Capstone",
+        "topics": [
+          "Camera and photos in Android",
+          "Location services and Google Maps",
+          "Firebase Cloud Messaging",
+          "Push notifications in Android",
+          "Services: foreground, background",
+          "Broadcast receivers",
+          "Content providers",
+          "Permissions in Android",
+          "Biometric authentication",
+          "In-app billing",
+          "Android Jetpack libraries",
+          "Accessibility in Android",
+          "App widgets",
+          "Deep linking"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Native iOS + Android App",
+          "Build same app for both iOS (Swift/SwiftUI) and Android (Kotlin/Compose)",
+          "Option 1: Fitness tracking app",
+          "Option 2: E-commerce app",
+          "Option 3: Social media app",
+          "Requirements: Native code, platform-specific features, polished UI, backend integrated"
+        ],
+        "assessment": "Phase 3 Exam - Native iOS and Android development"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Publishing, Monetization & App Business (Months 10-12, Weeks 40-52)",
+    "description": "Master app publishing, monetization strategies, marketing, analytics, and running an app business.",
+    "month_19_20": {
+      "title": "Months 10-11: App Store Publishing & Monetization",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "App Store Publishing (iOS)",
+        "topics": [
+          "Apple Developer Program enrollment",
+          "App Store Connect overview",
+          "App ID and bundle identifier",
+          "Certificates and provisioning profiles",
+          "Code signing in Xcode",
+          "App Store guidelines review",
+          "App review process",
+          "App metadata: title, description, keywords",
+          "Screenshots and preview videos",
+          "App Store optimization (ASO) basics",
+          "Pricing and availability",
+          "App categories and age ratings",
+          "TestFlight for beta testing",
+          "Preparing for app review",
+          "Submitting the app"
+        ],
+        "projects": [
+          "Prepare app for submission",
+          "Create App Store listing",
+          "Screenshot and preview creation",
+          "TestFlight beta test",
+          "Submit app to App Store",
+          "ASO optimization"
+        ],
+        "practice": "Publish 2 apps to iOS App Store"
+      },
+      "week_81_82": {
+        "title": "Google Play Store Publishing (Android)",
+        "topics": [
+          "Google Play Console setup",
+          "Developer account creation",
+          "App signing and Play App Signing",
+          "APK vs AAB (Android App Bundle)",
+          "Play Store listing creation",
+          "Store listing optimization",
+          "Screenshots and feature graphics",
+          "Video preview for Play Store",
+          "Content rating questionnaire",
+          "Privacy policy requirements",
+          "In-app content disclosure",
+          "Release tracks: internal, closed, open beta, production",
+          "Staged rollout strategy",
+          "Pre-launch report",
+          "Publishing the app"
+        ],
+        "projects": [
+          "Prepare Android app for release",
+          "Play Store listing creation",
+          "Graphics and screenshots",
+          "Beta testing program",
+          "Submit app to Play Store",
+          "Play Store optimization"
+        ],
+        "practice": "Publish 2 apps to Google Play Store"
+      },
+      "week_83_84": {
+        "title": "App Monetization Strategies",
+        "topics": [
+          "Monetization models overview",
+          "Paid apps vs free apps",
+          "In-app advertising: AdMob integration",
+          "Banner ads, interstitial ads, rewarded ads",
+          "Ad mediation strategies",
+          "In-app purchases (IAP) implementation",
+          "Consumable vs non-consumable products",
+          "Subscriptions: auto-renewable",
+          "Subscription tiers and pricing",
+          "Freemium model best practices",
+          "Paywalls and conversion optimization",
+          "Revenue Cat for subscription management",
+          "Analytics for monetization",
+          "A/B testing pricing",
+          "Compliance: payments, taxes, regulations"
+        ],
+        "projects": [
+          "App with AdMob ads",
+          "In-app purchase implementation",
+          "Subscription-based app",
+          "Freemium app model",
+          "Multiple monetization app",
+          "Revenue optimization experiment"
+        ],
+        "practice": "Implement 5 different monetization strategies"
+      },
+      "week_85_86": {
+        "title": "Analytics & User Engagement",
+        "topics": [
+          "Firebase Analytics integration",
+          "Google Analytics for apps",
+          "Custom event tracking",
+          "User properties and audiences",
+          "Funnel analysis",
+          "Retention metrics",
+          "Mixpanel for advanced analytics",
+          "Amplitude analytics",
+          "Crash reporting: Firebase Crashlytics",
+          "Sentry for error tracking",
+          "Performance monitoring",
+          "User feedback collection",
+          "In-app surveys",
+          "App rating prompts",
+          "Push notification strategies",
+          "Deep linking for retention"
+        ],
+        "projects": [
+          "Analytics dashboard setup",
+          "Event tracking implementation",
+          "Crash reporting integration",
+          "User feedback system",
+          "Push notification campaigns",
+          "Retention optimization features",
+          "Analytics-driven improvements"
+        ],
+        "practice": "Add comprehensive analytics to all apps"
+      },
+      "week_87": {
+        "title": "App Performance & Optimization",
+        "topics": [
+          "App performance importance",
+          "Flutter performance profiling",
+          "iOS performance tools (Instruments)",
+          "Android Profiler",
+          "Memory leak detection",
+          "Battery optimization",
+          "Network performance optimization",
+          "Image optimization and caching",
+          "Lazy loading strategies",
+          "Code splitting and tree shaking",
+          "App size reduction",
+          "Startup time optimization",
+          "Smooth scrolling and 60fps",
+          "Background task optimization",
+          "Device compatibility testing"
+        ],
+        "projects": [
+          "Performance audit of apps",
+          "Optimization implementations",
+          "Memory optimization",
+          "App size reduction project",
+          "Startup time improvement",
+          "Benchmark comparison"
+        ],
+        "practice": "Optimize 10 apps for performance"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Marketing, Business & Career",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "App Marketing & User Acquisition",
+        "topics": [
+          "App marketing fundamentals",
+          "Pre-launch marketing strategy",
+          "Landing page creation",
+          "Social media marketing for apps",
+          "Content marketing and blogging",
+          "App Store Optimization (ASO) advanced",
+          "Keyword research and optimization",
+          "A/B testing store listings",
+          "App review sites and submissions",
+          "Influencer marketing for apps",
+          "Paid advertising: Google Ads, Facebook Ads",
+          "Apple Search Ads",
+          "Organic growth strategies",
+          "Viral features and growth loops",
+          "Referral programs",
+          "Community building"
+        ],
+        "projects": [
+          "Complete marketing plan",
+          "App landing page",
+          "Social media campaign",
+          "ASO keyword optimization",
+          "Paid ad campaign (budget)",
+          "Referral system implementation",
+          "Launch strategy execution"
+        ],
+        "practice": "Market and launch 3 apps"
+      },
+      "week_90_91": {
+        "title": "App Maintenance & Updates",
+        "topics": [
+          "App update strategy",
+          "Version control and release management",
+          "Bug fixing workflows",
+          "Feature request management",
+          "User feedback prioritization",
+          "App Store updates and releases",
+          "Backward compatibility",
+          "Deprecation strategies",
+          "Security updates and patches",
+          "OS version support",
+          "Device compatibility updates",
+          "Legal compliance updates (GDPR, etc.)",
+          "Server and API maintenance",
+          "Database migrations in production",
+          "Long-term app sustainability"
+        ],
+        "projects": [
+          "Update management system",
+          "Bug tracking and fixing",
+          "Major version release",
+          "Security audit and fixes",
+          "Compliance updates",
+          "Maintenance roadmap"
+        ],
+        "practice": "Maintain and update published apps"
+      },
+      "week_92_93": {
+        "title": "Building an App Business",
+        "topics": [
+          "App business models",
+          "Solo developer vs team",
+          "App agency model",
+          "Product vs service business",
+          "Niche selection for apps",
+          "Competitive analysis",
+          "Building an app portfolio",
+          "Passive income with apps",
+          "Scaling app revenue",
+          "Outsourcing and delegation",
+          "Client app development process",
+          "Project estimation and pricing",
+          "Contracts and agreements",
+          "Financial management for app business",
+          "Tax implications",
+          "Selling apps and app businesses"
+        ],
+        "projects": [
+          "Business plan for app company",
+          "Portfolio of apps strategy",
+          "Client acquisition system",
+          "Pricing and packages",
+          "Financial projections",
+          "Scalability roadmap"
+        ],
+        "practice": "Develop business strategy"
+      },
+      "week_94_95": {
+        "title": "Career Development in App Development",
+        "topics": [
+          "App developer career paths",
+          "Freelance app development",
+          "Remote app developer jobs",
+          "Working for startups vs enterprises",
+          "App development at FAANG companies",
+          "Building portfolio and GitHub",
+          "Resume for app developers",
+          "LinkedIn profile optimization",
+          "Networking in app dev community",
+          "Contributing to open source apps",
+          "Creating developer content (blog, YouTube)",
+          "Interview preparation: coding challenges",
+          "System design for mobile apps",
+          "Salary negotiation",
+          "Continuous learning and upskilling"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "GitHub showcase",
+          "Resume and LinkedIn",
+          "Technical blog posts",
+          "Open source contributions",
+          "Interview preparation guide"
+        ],
+        "practice": "Build professional developer brand"
+      },
+      "week_96": {
+        "title": "Emerging Technologies & Future",
+        "topics": [
+          "AI/ML in mobile apps",
+          "TensorFlow Lite and Core ML",
+          "On-device machine learning",
+          "Augmented Reality (ARKit, ARCore)",
+          "Virtual Reality apps",
+          "IoT and app integration",
+          "Wearable app development (Watch OS, Wear OS)",
+          "Foldable device optimization",
+          "5G implications for apps",
+          "Edge computing for apps",
+          "Blockchain and Web3 apps",
+          "Voice-first applications",
+          "Accessibility innovations",
+          "Sustainable app development",
+          "Future of cross-platform"
+        ],
+        "projects": [
+          "AR app prototype",
+          "ML-powered app feature",
+          "Wearable app (Apple Watch/Wear OS)",
+          "Voice-enabled app",
+          "Blockchain-based app (basic)",
+          "Innovation project"
+        ],
+        "practice": "Explore emerging technologies"
+      }
+    },
+    "month_23": {
+      "title": "FINAL CAPSTONE & LAUNCH",
+      "weeks": "Week 49-52 (distributed)",
+      "week_97": {
+        "title": "Final Capstone Planning",
+        "topics": [
+          "App ideation and validation",
+          "Market research",
+          "Competitive analysis",
+          "Feature prioritization",
+          "Technical architecture design",
+          "UI/UX design complete",
+          "Development roadmap",
+          "Monetization strategy",
+          "Marketing plan",
+          "Launch strategy"
+        ],
+        "projects": [
+          "Complete app concept document",
+          "Market research report",
+          "Full app design (Figma)",
+          "Technical specification",
+          "Business plan",
+          "Go-to-market strategy"
+        ],
+        "practice": "Validate and plan app thoroughly"
+      },
+      "week_98": {
+        "title": "Final Capstone Development",
+        "topics": [
+          "Sprint planning",
+          "Agile development process",
+          "Version control workflow",
+          "Code quality and reviews",
+          "Testing throughout development",
+          "Backend development/integration",
+          "Feature implementation",
+          "Bug fixing and polish",
+          "Performance optimization",
+          "Security hardening"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Production App",
+          "Your own app idea OR choose:",
+          "Option 1: Niche social media app",
+          "Option 2: SaaS mobile app",
+          "Option 3: E-commerce marketplace app",
+          "Option 4: Productivity/utility app",
+          "Requirements: Cross-platform OR native iOS + Android, backend, monetization, analytics, polished UI, App Store ready"
+        ]
+      },
+      "week_99": {
+        "title": "Final Capstone Launch",
+        "topics": [
+          "Final testing and QA",
+          "Beta testing program",
+          "App Store submission",
+          "Play Store submission",
+          "Landing page launch",
+          "Marketing campaign execution",
+          "Press release and outreach",
+          "Social media launch",
+          "Community engagement",
+          "Monitoring and support"
+        ],
+        "deliverables": [
+          "Published app on App Store",
+          "Published app on Play Store",
+          "App website/landing page",
+          "Marketing materials",
+          "Analytics dashboard",
+          "Support system setup",
+          "User documentation",
+          "Launch metrics tracking"
+        ]
+      },
+      "week_100": {
+        "title": "Post-Launch & Career Success",
+        "topics": [
+          "Post-launch monitoring",
+          "User feedback collection",
+          "Iterative improvements",
+          "Growth and optimization",
+          "Portfolio presentation",
+          "Case study creation",
+          "Career opportunities",
+          "Next steps planning"
+        ],
+        "deliverables": [
+          "Professional portfolio with 30+ apps",
+          "Published apps (minimum 3)",
+          "Case studies and documentation",
+          "Technical blog or YouTube channel",
+          "Active GitHub profile",
+          "Resume and LinkedIn optimized",
+          "Network of app developers",
+          "Career roadmap and goals"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - Complete app development mastery"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 30+ foundational apps - UI, navigation, basic features",
+      "Phase 2: 25+ integrated apps - APIs, backend, advanced features",
+      "Phase 3: 20+ native apps - iOS Swift/SwiftUI, Android Kotlin/Compose",
+      "Phase 4: 15+ production apps - published, monetized, marketed",
+      "Total: 90+ apps from simple to production-grade"
+    ],
+    "total_projects_built": "90+ mobile and web applications",
+    "skills_mastered": [
+      "Cross-Platform: Flutter, Dart, React Native, JavaScript, PWA",
+      "iOS Native: Swift, SwiftUI, UIKit, Xcode, iOS SDK",
+      "Android Native: Kotlin, Jetpack Compose, Android SDK, Android Studio",
+      "UI/UX Design: Figma, Material Design, Human Interface Guidelines, animations",
+      "Backend: Node.js, Express, REST APIs, Firebase, databases",
+      "State Management: Provider, Riverpod, Redux, MVVM, BLoC",
+      "Data: SQLite, Room, Core Data, Firebase Firestore, API integration",
+      "Features: Camera, maps, notifications, payments, authentication, AR basics",
+      "Publishing: App Store, Play Store, ASO, beta testing",
+      "Monetization: Ads (AdMob), IAP, subscriptions, freemium models",
+      "Analytics: Firebase Analytics, Crashlytics, user tracking",
+      "Marketing: ASO, social media, paid ads, growth strategies",
+      "Tools: Git, Xcode, Android Studio, VS Code, Postman, analytics platforms"
+    ],
+    "weekly_structure": {
+      "video_tutorials": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "4-6 hours",
+      "design_work": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live coding and app reviews",
+      "mentorship": "1-on-1 guidance from professional app developers",
+      "community": "Active community of app developers",
+      "code_review": "Expert review of app projects",
+      "design_review": "UI/UX feedback on designs",
+      "publishing_help": "Assistance with app store submissions",
+      "marketing_guidance": "Support with app marketing and ASO",
+      "lifetime_access": "All content, updates, new platform features",
+      "job_support": "Resume review, interview prep, job referrals",
+      "business_guidance": "Help with freelancing and app business"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "final_certificate": "Professional App Developer Certification",
+      "specialization": "Choose: iOS Specialist, Android Specialist, or Cross-Platform Expert",
+      "published_apps": "Minimum 3 published apps required",
+      "portfolio": "30+ documented apps",
+      "digital_badge": "LinkedIn shareable badge",
+      "industry_recognized": "Recognized by tech companies and startups"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required",
+    "coding_experience": "Absolute beginner friendly - zero coding knowledge needed",
+    "equipment": "Mac required for iOS development, any computer for Android/Flutter",
+    "software": "Xcode (Mac), Android Studio, VS Code (all free)",
+    "accounts": "Apple Developer ($99/year), Google Play ($25 one-time)",
+    "time_commitment": "15-20 hours/week consistently",
+    "age": "16+ recommended",
+    "design_skills": "Not required (taught in course)",
+    "mindset": "Creative, problem-solver, user-focused"
+  },
+  "who_is_this_for": {
+    "complete_beginners": "No coding experience, want to learn app development",
+    "web_developers": "Want to transition to mobile development",
+    "designers": "UI/UX designers wanting to code their designs",
+    "entrepreneurs": "Have app ideas, want to build them",
+    "students": "Computer science or any background wanting app skills",
+    "freelancers": "Want to add app development services",
+    "career_switchers": "Entering tech through mobile development",
+    "indie_developers": "Want to build and publish own apps",
+    "startup_founders": "Need technical co-founder skills",
+    "professionals": "Adding mobile skills to career"
+  },
+  "career_paths_after_completion": [
+    "Mobile App Developer (iOS/Android)",
+    "Flutter Developer",
+    "React Native Developer",
+    "iOS Developer (Swift/SwiftUI)",
+    "Android Developer (Kotlin/Jetpack Compose)",
+    "Full Stack App Developer",
+    "App Development Freelancer",
+    "Mobile UI/UX Developer",
+    "App Entrepreneur / Indie Developer",
+    "Mobile Team Lead",
+    "App Development Agency Owner",
+    "Technical Co-founder",
+    "App Consultant",
+    "Mobile Solutions Architect"
+  ],
+  "income_potential": {
+    "junior_developer": "₹3-6 LPA (India), $60k-80k (USA)",
+    "app_developer": "₹6-12 LPA (India), $80k-120k (USA)",
+    "senior_developer": "₹12-25 LPA (India), $120k-180k (USA)",
+    "lead_developer": "₹20-40 LPA (India), $150k-220k (USA)",
+    "freelance": "₹50,000-300,000/month per project",
+    "indie_apps": "₹10,000-500,000+/month from portfolio of apps",
+    "agency": "₹200,000-1,000,000+/month",
+    "faang_companies": "₹40-80 LPA (India), $200k-400k (USA)",
+    "note": "Income varies based on skills, location, and specialization"
+  },
+  "success_stories_potential": {
+    "published_apps": "Students publish 3-10 apps within 12 months",
+    "revenue": "Some students earn ₹50k-500k/month from apps",
+    "jobs": "85% job placement rate within 6 months",
+    "freelance": "Many students start earning while learning (month 6+)",
+    "startups": "Several students launch successful app startups",
+    "acquisition": "Some apps built by students acquired by companies"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee",
+    "lifetime_access": "All content, updates, new platforms forever",
+    "published_apps": "Guidance until you publish 3 apps successfully",
+    "community": "Lifetime community and network access",
+    "mentorship": "Expert support throughout journey",
+    "job_support": "Resume, portfolio, interview prep",
+    "resources": "Code templates, UI kits, design assets",
+    "updates": "Free updates for iOS, Android, Flutter changes",
+    "business_templates": "Client contracts, proposals, pricing guides"
+  }
+}

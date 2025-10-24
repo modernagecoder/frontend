@@ -1,0 +1,906 @@
+{
+  "meta": {
+    "slug": "ai-tools-mastery-complete",
+    "title": "Complete AI Tools Mastery - ChatGPT to Production AI Automation",
+    "description": "The most comprehensive 6-month AI Tools masterclass. Master ChatGPT, Midjourney, Stable Diffusion, Claude, Gemini, AI automation tools, prompt engineering, no-code AI, and build AI-powered workflows. From beginner to AI tools expert.",
+    "keywords": [
+      "AI tools",
+      "ChatGPT",
+      "prompt engineering",
+      "Midjourney",
+      "Stable Diffusion",
+      "Claude AI",
+      "Google Gemini",
+      "AI automation",
+      "no-code AI",
+      "AI workflows",
+      "generative AI tools",
+      "AI productivity",
+      "DALL-E",
+      "AI agents",
+      "AI integration"
+    ],
+    "category": "AI Tools & Automation",
+    "price": {
+      "group": "₹799/month",
+      "personal": "₹1499/month",
+      "lifetime": "₹14,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to AI Tools Expert",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "AI Tools Professional certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete AI Tools Mastery Program",
+    "tagline": "From Basic Prompts to Advanced AI Automation Workflows",
+    "description": "This is not just an AI tools course—it's a complete transformation into an AI-powered professional. Whether you're a content creator, marketer, developer, entrepreneur, or working professional, this 6-month program will teach you to leverage cutting-edge AI tools to 10x your productivity, automate workflows, create stunning content, and build AI-powered solutions without writing code.\n\nYou'll master every major AI tool from ChatGPT to Midjourney, from prompt engineering to AI automation, from simple tasks to complex multi-agent systems. By the end, you'll have built 30+ AI-powered projects, automated countless workflows, and be recognized as an AI tools expert in your field.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no technical background needed",
+      "Covers ALL major AI tools (ChatGPT, Claude, Gemini, Midjourney, etc.)",
+      "Advanced prompt engineering masterclass",
+      "No-code and low-code AI tool building",
+      "AI automation and workflow creation",
+      "Real business use cases and applications",
+      "Monetization strategies with AI tools",
+      "Regular updates with new AI tools",
+      "Build actual AI products without coding",
+      "30+ hands-on projects and workflows"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): ChatGPT Mastery, Prompt Engineering, AI Content Creation",
+      "phase_2": "Visual AI (Months 3-4): Midjourney, Stable Diffusion, Image/Video AI Tools",
+      "phase_3": "Automation (Months 5-6): AI Workflows, Agents, Integration, Monetization"
+    },
+    "career_outcomes": [
+      "AI Tools Specialist (after 2 months)",
+      "AI Automation Expert (after 4 months)",
+      "AI Consultant / Freelancer (after 6 months)",
+      "AI Product Creator (after 6 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: AI Fundamentals & ChatGPT Mastery (Months 1-2, Weeks 1-8)",
+    "description": "Master ChatGPT, prompt engineering, AI writing tools, and conversational AI applications.",
+    "month_1_2": {
+      "title": "Months 1-2: ChatGPT & Prompt Engineering Excellence",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to AI Tools & ChatGPT Basics",
+        "topics": [
+          "AI revolution: understanding generative AI",
+          "Overview of AI tools landscape (2024)",
+          "What is ChatGPT? GPT-4, GPT-3.5 differences",
+          "ChatGPT account setup and interface",
+          "ChatGPT Plus vs Free tier comparison",
+          "Basic prompting: asking questions effectively",
+          "Understanding AI responses and limitations",
+          "Chat history management and organization",
+          "Mobile app usage and tips",
+          "ChatGPT plugins introduction",
+          "Custom instructions setup",
+          "Conversation starters and templates",
+          "Ethics and responsible AI tool usage",
+          "AI detection and originality",
+          "Data privacy and security with AI tools"
+        ],
+        "projects": [
+          "Personal AI assistant setup",
+          "Custom instruction templates",
+          "Daily productivity workflow with ChatGPT",
+          "Meeting notes summarizer",
+          "Email response generator"
+        ],
+        "practice": "Use ChatGPT daily for 20 different tasks"
+      },
+      "week_3_4": {
+        "title": "Advanced Prompt Engineering",
+        "topics": [
+          "What is prompt engineering?",
+          "Anatomy of effective prompts",
+          "Zero-shot, one-shot, few-shot prompting",
+          "Chain-of-thought prompting",
+          "Role-based prompting techniques",
+          "Context setting and framing",
+          "Prompt templates and frameworks",
+          "RISEN framework: Role, Instructions, Steps, End goal, Narrowing",
+          "RTF framework: Role, Task, Format",
+          "Iterative prompt refinement",
+          "Handling AI hallucinations",
+          "Temperature and parameter understanding",
+          "Multi-turn conversations strategies",
+          "Prompt libraries and repositories",
+          "A/B testing prompts for best results"
+        ],
+        "projects": [
+          "Prompt template library (50+ templates)",
+          "Industry-specific prompt collections",
+          "Complex task automation prompts",
+          "Creative writing prompt system",
+          "Business analysis prompts"
+        ],
+        "practice": "Create and test 100+ prompts across categories"
+      },
+      "week_5_6": {
+        "title": "ChatGPT for Content Creation & Writing",
+        "topics": [
+          "Content ideation with ChatGPT",
+          "Blog post writing workflow",
+          "Article outlines and structure",
+          "SEO-optimized content creation",
+          "Social media content generation",
+          "Email marketing campaigns",
+          "Copywriting: sales pages, ads, landing pages",
+          "Storytelling and creative writing",
+          "Technical writing and documentation",
+          "Resume and cover letter creation",
+          "Editing and proofreading with AI",
+          "Tone and style adjustments",
+          "Multi-language content creation",
+          "Content repurposing strategies",
+          "Plagiarism checking and originality"
+        ],
+        "projects": [
+          "Complete blog writing system",
+          "Social media content calendar (30 days)",
+          "Email sequence (welcome, nurture, sales)",
+          "E-book outline and chapters",
+          "Product descriptions generator",
+          "LinkedIn posts automation",
+          "YouTube script templates"
+        ],
+        "practice": "Create 50+ pieces of content in different formats"
+      },
+      "week_7_8": {
+        "title": "ChatGPT for Business & Productivity",
+        "topics": [
+          "Business strategy and planning",
+          "Market research with ChatGPT",
+          "Competitive analysis workflows",
+          "SWOT analysis generation",
+          "Business plan creation",
+          "Financial projections and modeling prompts",
+          "Data analysis and insights",
+          "Code generation basics (no coding knowledge needed)",
+          "Excel formulas and spreadsheet help",
+          "Presentation content and structure",
+          "Meeting preparation and agendas",
+          "Decision-making frameworks",
+          "Problem-solving with AI",
+          "Learning and education use cases",
+          "Personal development and coaching"
+        ],
+        "projects": [
+          "Business plan generator",
+          "Market research report automation",
+          "Competitor analysis system",
+          "Excel/Sheets automation prompts",
+          "Presentation creation workflow",
+          "Personal learning curriculum",
+          "Daily productivity dashboard"
+        ],
+        "practice": "Apply ChatGPT to 30 business scenarios"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced AI Tools & Visual AI (Months 3-4, Weeks 9-17)",
+    "description": "Master Claude, Gemini, Midjourney, Stable Diffusion, and all major AI tools for images, video, and audio.",
+    "month_7_8": {
+      "title": "Months 3-4: Visual AI & Alternative LLMs",
+      "weeks": "Week 9-17",
+      "week_27_28": {
+        "title": "Claude AI & Google Gemini",
+        "topics": [
+          "Claude AI: features and strengths",
+          "Claude vs ChatGPT comparison",
+          "Claude's long context window usage",
+          "Document analysis with Claude",
+          "Claude for coding and technical tasks",
+          "Claude Projects feature",
+          "Google Gemini introduction",
+          "Gemini Advanced features",
+          "Gemini vs GPT-4 comparison",
+          "Multi-modal capabilities of Gemini",
+          "Google Workspace integration",
+          "Bard to Gemini evolution",
+          "Choosing the right AI for the task",
+          "Using multiple AIs together",
+          "AI tool comparison matrix"
+        ],
+        "projects": [
+          "Document summarization system (Claude)",
+          "Long-form content analysis",
+          "Code review automation",
+          "Research paper summarizer",
+          "Multi-AI workflow (ChatGPT + Claude + Gemini)",
+          "AI tool selector guide"
+        ],
+        "practice": "Complete 20 tasks with each AI, compare results"
+      },
+      "week_29_30": {
+        "title": "Midjourney Mastery - Part 1",
+        "topics": [
+          "Introduction to AI image generation",
+          "Midjourney setup: Discord integration",
+          "Midjourney versions: V5, V6, Niji",
+          "Basic prompting for images",
+          "Understanding parameters: aspect ratio, quality, stylize",
+          "Image weights and multi-prompts",
+          "Style references and character consistency",
+          "Remix mode and variations",
+          "Upscaling and image enhancement",
+          "Negative prompts for better control",
+          "Seed for reproducibility",
+          "Chaos and weirdness parameters",
+          "Photography styles and techniques",
+          "Artistic styles replication",
+          "Brand and marketing visuals"
+        ],
+        "projects": [
+          "Product photography collection",
+          "Brand visual identity",
+          "Social media graphics library",
+          "Character design series",
+          "Marketing campaign visuals",
+          "Book cover designs",
+          "Website hero images"
+        ],
+        "practice": "Generate 200+ images, build prompt library"
+      },
+      "week_31_32": {
+        "title": "Midjourney Mastery - Part 2 & Advanced Techniques",
+        "topics": [
+          "Advanced prompting strategies",
+          "Multi-prompt weighting",
+          "Style and mood control",
+          "Lighting and composition",
+          "Color palette specification",
+          "Texture and material control",
+          "Architecture and interior design",
+          "Fashion and clothing design",
+          "Logo and branding with Midjourney",
+          "Combining with describe command",
+          "Image-to-image transformations",
+          "Consistent character creation",
+          "Building visual narratives",
+          "Commercial use guidelines",
+          "Copyright and licensing"
+        ],
+        "projects": [
+          "Complete brand identity package",
+          "Product line visualization",
+          "Story illustration series",
+          "Interior design portfolio",
+          "Fashion collection mockups",
+          "Consistent character across scenes",
+          "Commercial project delivery"
+        ],
+        "practice": "Professional-grade image generation portfolio"
+      },
+      "week_33_34": {
+        "title": "Stable Diffusion & Other Image AI Tools",
+        "topics": [
+          "Stable Diffusion introduction",
+          "Local installation vs cloud platforms",
+          "Automatic1111 WebUI",
+          "Stable Diffusion prompting differences",
+          "LoRA models and fine-tuning",
+          "ControlNet for precise control",
+          "Inpainting and outpainting",
+          "DALL-E 3 features and usage",
+          "Adobe Firefly for commercial use",
+          "Leonardo.ai for game assets",
+          "Playground AI features",
+          "Image upscaling tools: Topaz, Magnific",
+          "Background removal: Remove.bg, Clipdrop",
+          "AI photo editing: Photoshop AI, Luminar",
+          "Comparing all image AI tools"
+        ],
+        "projects": [
+          "Stable Diffusion custom model",
+          "ControlNet workflow setup",
+          "Image editing pipeline",
+          "Multi-tool image creation workflow",
+          "Background replacement system",
+          "Product photography enhancement",
+          "AI image editing service"
+        ],
+        "practice": "Master 5+ image AI tools, create comparison guide"
+      },
+      "week_35": {
+        "title": "Video & Audio AI Tools",
+        "topics": [
+          "AI video generation: Runway ML, Pika",
+          "Text-to-video creation",
+          "Image-to-video animation",
+          "Video editing with AI: Descript, Opus Clip",
+          "AI avatars: Synthesia, HeyGen",
+          "Video enhancement and upscaling",
+          "AI voice generation: ElevenLabs, Murf",
+          "Voice cloning ethics and usage",
+          "Text-to-speech for videos",
+          "Music generation: Suno, Udio",
+          "Audio enhancement tools",
+          "Podcast editing with AI",
+          "Subtitle generation and translation",
+          "Video summarization tools",
+          "Social media video optimization"
+        ],
+        "projects": [
+          "AI-generated video ads",
+          "Explainer video with AI avatar",
+          "Podcast intro/outro creation",
+          "Social media video series",
+          "Product demo video",
+          "Multi-language video content",
+          "Complete video production workflow"
+        ],
+        "practice": "Create 15 videos using various AI tools"
+      }
+    },
+    "month_9_10": {
+      "title": "Advanced AI Tools Ecosystem",
+      "weeks": "Week 18-21",
+      "week_36_37": {
+        "title": "AI Research & Knowledge Tools",
+        "topics": [
+          "Perplexity AI for research",
+          "Research paper summaries: Semantic Scholar, Consensus",
+          "Literature review automation",
+          "You.com for AI-powered search",
+          "Bing AI (Copilot) features",
+          "AI fact-checking tools",
+          "Citation and reference management",
+          "Knowledge base creation with AI",
+          "Note-taking with AI: Notion AI, Mem",
+          "Obsidian with AI plugins",
+          "Roam Research AI integration",
+          "Personal knowledge management",
+          "Learning and study tools",
+          "AI tutors and educational platforms",
+          "Research workflow optimization"
+        ],
+        "projects": [
+          "Research automation system",
+          "Literature review generator",
+          "AI-powered knowledge base",
+          "Personal learning system",
+          "Fact-checking workflow",
+          "Study guide generator",
+          "Research paper writing assistant"
+        ],
+        "practice": "Build comprehensive research toolkit"
+      },
+      "week_38_39": {
+        "title": "AI Design & Creative Tools",
+        "topics": [
+          "Figma AI plugins",
+          "Canva AI features: Magic Write, Magic Design",
+          "AI logo generation: Looka, Brandmark",
+          "Website builders with AI: Wix AI, Framer AI",
+          "UI/UX design with AI: Uizard, Galileo AI",
+          "Color palette generators",
+          "Font pairing with AI",
+          "Design system generation",
+          "Mockup creation with AI",
+          "3D design tools: Spline AI",
+          "AI design feedback tools",
+          "Accessibility checking with AI",
+          "Design-to-code tools",
+          "AI art direction",
+          "Creative brief generation"
+        ],
+        "projects": [
+          "Complete brand design system",
+          "Website design with AI",
+          "App UI/UX design",
+          "Logo design service",
+          "Marketing materials creation",
+          "Design portfolio automation",
+          "Client design process workflow"
+        ],
+        "practice": "Design 20 complete projects with AI tools"
+      },
+      "week_40_41": {
+        "title": "AI Coding & Development Tools",
+        "topics": [
+          "GitHub Copilot for coding",
+          "Cursor AI editor",
+          "Replit AI for full-stack development",
+          "V0.dev by Vercel for UI generation",
+          "ChatGPT for code generation",
+          "Code debugging with AI",
+          "Code review automation",
+          "Documentation generation",
+          "No-code platforms: Bubble, Webflow",
+          "AI-powered app builders: FlutterFlow",
+          "Database schema generation",
+          "API creation with AI",
+          "Testing and QA with AI",
+          "Code refactoring tools",
+          "Building apps without coding knowledge"
+        ],
+        "projects": [
+          "Landing page with V0.dev",
+          "Full web app with Replit AI",
+          "Mobile app with FlutterFlow",
+          "Chrome extension with AI",
+          "Automation script generation",
+          "API wrapper creation",
+          "Complete SaaS MVP without coding"
+        ],
+        "practice": "Build 10 applications using AI coding tools"
+      },
+      "week_42_43": {
+        "title": "Specialized AI Tools",
+        "topics": [
+          "AI for sales: Drift, Exceed.ai",
+          "Customer support: Intercom AI, Zendesk AI",
+          "AI SDRs and outreach: Regie.ai, Lavender",
+          "Email AI: Superhuman, SaneBox",
+          "Meeting AI: Otter.ai, Fireflies.ai, Grain",
+          "Scheduling with AI: Reclaim.ai, Motion",
+          "Project management: ClickUp AI, Asana AI",
+          "HR and recruitment: HireVue, Paradox",
+          "AI for finance: Vic.ai, AppZen",
+          "Legal AI tools: Harvey, DoNotPay",
+          "Healthcare AI tools overview",
+          "Industry-specific AI applications",
+          "Choosing tools for your industry",
+          "ROI calculation for AI tools",
+          "Building AI tool stack for business"
+        ],
+        "projects": [
+          "Sales automation workflow",
+          "Customer support AI system",
+          "Meeting automation setup",
+          "Personal productivity stack",
+          "Team collaboration AI setup",
+          "Industry-specific AI toolkit",
+          "AI tools recommendation engine"
+        ],
+        "practice": "Configure AI tools for 5 different industries"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Comprehensive AI tools integration",
+          "Multi-tool workflow design",
+          "Use case selection",
+          "Implementation and testing",
+          "Documentation and training",
+          "ROI measurement"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: End-to-End AI-Powered Business Process",
+          "Option 1: Content Creation Agency (AI writing, images, video)",
+          "Option 2: Marketing Automation System (AI tools for entire funnel)",
+          "Option 3: AI-Powered Product Design Service",
+          "Option 4: Research and Analysis Service with AI",
+          "Requirements: Use 10+ different AI tools, documented workflow, measurable outcomes"
+        ],
+        "assessment": "Phase 2 Exam - AI tools mastery across all categories"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: AI Automation & Monetization (Months 5-6, Weeks 22-26)",
+    "description": "Master AI workflow automation, agents, integration, and monetization strategies.",
+    "month_13_14": {
+      "title": "Months 5-6: Advanced Automation & Business Applications",
+      "weeks": "Week 22-26",
+      "week_53_54": {
+        "title": "AI Workflow Automation",
+        "topics": [
+          "Introduction to AI automation",
+          "Zapier with AI: ChatGPT integration",
+          "Make (Integromat) for complex workflows",
+          "n8n for advanced automation",
+          "Connecting multiple AI tools",
+          "Trigger-action automation",
+          "Multi-step workflows",
+          "Conditional logic in automation",
+          "Error handling and fallbacks",
+          "Data transformation between tools",
+          "API connections basics",
+          "Webhook usage for real-time automation",
+          "Scheduled automation",
+          "Database integration (Airtable, Google Sheets)",
+          "Testing and debugging workflows"
+        ],
+        "projects": [
+          "Content publishing automation",
+          "Lead generation and nurturing workflow",
+          "Social media automation system",
+          "Email response automation",
+          "Data extraction and analysis pipeline",
+          "Customer onboarding automation",
+          "Report generation workflow"
+        ],
+        "practice": "Build 20 automation workflows"
+      },
+      "week_55_56": {
+        "title": "AI Agents & Advanced Automation",
+        "topics": [
+          "What are AI agents?",
+          "AutoGPT and autonomous agents",
+          "BabyAGI for task automation",
+          "LangChain for AI applications",
+          "Agent frameworks overview",
+          "Custom GPTs creation",
+          "GPT Actions and integrations",
+          "Assistants API usage",
+          "Function calling in AI",
+          "Agent memory and context",
+          "Multi-agent systems",
+          "Agent orchestration",
+          "Agentic workflows design",
+          "Limitations and considerations",
+          "Future of AI agents"
+        ],
+        "projects": [
+          "Custom GPT for specific task",
+          "Personal AI assistant (multi-functional)",
+          "Research agent system",
+          "Customer service agent",
+          "Data analysis agent",
+          "Content creation agent",
+          "Business intelligence agent"
+        ],
+        "practice": "Create 10 specialized AI agents"
+      },
+      "week_57_58": {
+        "title": "AI Integration & API Usage",
+        "topics": [
+          "Understanding APIs basics",
+          "OpenAI API usage (ChatGPT, DALL-E)",
+          "Anthropic Claude API",
+          "Google Gemini API",
+          "Stability AI API",
+          "API key management",
+          "Rate limits and cost optimization",
+          "Building apps with AI APIs (no-code tools)",
+          "Glide for AI-powered apps",
+          "Softr for AI integrations",
+          "API connectors in various platforms",
+          "Custom chatbots with APIs",
+          "Embedding AI in websites",
+          "WhatsApp/Telegram bot creation",
+          "AI-powered Chrome extensions"
+        ],
+        "projects": [
+          "Custom chatbot on website",
+          "WhatsApp AI assistant",
+          "Telegram bot with AI",
+          "Chrome extension with ChatGPT",
+          "Mobile app with AI features (Glide)",
+          "Internal tool with AI (Softr)",
+          "AI-powered form builder"
+        ],
+        "practice": "Build 8 AI-integrated applications"
+      },
+      "week_59_60": {
+        "title": "Monetization & Business with AI Tools",
+        "topics": [
+          "Freelancing with AI tools",
+          "AI services to offer clients",
+          "Pricing AI-powered services",
+          "Building AI tool SaaS products",
+          "Affiliate marketing with AI content",
+          "AI-generated digital products",
+          "Selling prompts and templates",
+          "AI consulting services",
+          "Agency model with AI",
+          "White-label AI solutions",
+          "Course creation with AI",
+          "YouTube/content creation monetization",
+          "AI automation services",
+          "Building and selling AI agents",
+          "Subscription-based AI services"
+        ],
+        "projects": [
+          "Freelance service package design",
+          "AI SaaS product MVP",
+          "Prompt marketplace listings",
+          "Digital product creation",
+          "Agency service offerings",
+          "Online course with AI help",
+          "Monetization strategy document"
+        ],
+        "practice": "Launch 3 revenue streams with AI tools"
+      },
+      "week_61": {
+        "title": "AI Tools for Specific Industries",
+        "topics": [
+          "E-commerce: product descriptions, ads, images",
+          "Real estate: listings, virtual staging, market analysis",
+          "Healthcare: documentation, patient communication (compliant)",
+          "Legal: contract review, research, documentation",
+          "Education: lesson planning, content creation, grading help",
+          "Marketing agencies: campaigns, content, analytics",
+          "Consulting: research, reports, presentations",
+          "Software development: code, documentation, testing",
+          "Finance: analysis, reporting, forecasting",
+          "HR: recruitment, onboarding, training",
+          "Customer success: support, documentation, training",
+          "Creative agencies: design, copy, production",
+          "Industry-specific compliance and ethics",
+          "Case studies from each industry",
+          "Building industry expertise"
+        ],
+        "projects": [
+          "Industry-specific AI toolkit (choose 3)",
+          "Vertical SaaS concept",
+          "Industry case study portfolio",
+          "Client-ready workflows",
+          "Industry pitch deck",
+          "Specialization strategy"
+        ],
+        "practice": "Master AI tools for 3 chosen industries"
+      }
+    },
+    "month_15_16": {
+      "title": "Final Month: Advanced Topics & Career",
+      "weeks": "Week 22-26 (distributed)",
+      "week_62_63": {
+        "title": "Staying Current with AI Tools",
+        "topics": [
+          "AI tool discovery strategies",
+          "Following AI news and updates",
+          "There's An AI For That (directory)",
+          "AI tool review and evaluation",
+          "Beta testing new AI tools",
+          "Community engagement: Twitter, Reddit, Discord",
+          "AI newsletters and resources",
+          "Testing frameworks for new tools",
+          "Building personal AI tool stack",
+          "Documentation and knowledge management",
+          "Sharing findings and building authority",
+          "Predicting AI tool trends",
+          "Adapting to rapid changes",
+          "Continuous learning strategies",
+          "Building learning systems"
+        ],
+        "projects": [
+          "AI tool evaluation framework",
+          "Personal AI tools dashboard",
+          "Weekly AI tools newsletter",
+          "AI tools comparison database",
+          "Trend analysis report",
+          "Learning and update system"
+        ],
+        "practice": "Review 50+ new AI tools, create evaluation system"
+      },
+      "week_64_65": {
+        "title": "Ethics, Safety & Responsible AI Use",
+        "topics": [
+          "AI ethics principles",
+          "Bias in AI tools",
+          "Transparency and disclosure",
+          "AI content labeling",
+          "Misinformation and deepfakes",
+          "Copyright and AI-generated content",
+          "Privacy considerations",
+          "Data security with AI tools",
+          "Terms of service understanding",
+          "Commercial use rights",
+          "AI watermarking and detection",
+          "Responsible automation",
+          "Job displacement considerations",
+          "Environmental impact of AI",
+          "Building ethical AI practices"
+        ],
+        "projects": [
+          "Ethical AI usage policy",
+          "Client education materials",
+          "Disclosure templates",
+          "Rights and licensing guide",
+          "AI ethics checklist",
+          "Best practices document"
+        ],
+        "practice": "Develop comprehensive ethical framework"
+      },
+      "week_66_67": {
+        "title": "Teaching & Thought Leadership",
+        "topics": [
+          "Creating AI tools content",
+          "YouTube channel for AI tools",
+          "Blog and newsletter creation",
+          "Social media strategy",
+          "Building personal brand",
+          "Community building",
+          "Course creation with AI",
+          "Workshop and training delivery",
+          "Speaking at events",
+          "Consulting and advisory",
+          "Writing e-books and guides",
+          "Creating templates and resources",
+          "Membership communities",
+          "Scaling education business",
+          "Thought leadership positioning"
+        ],
+        "projects": [
+          "Content calendar (30 days)",
+          "Mini-course creation",
+          "Workshop material",
+          "YouTube channel launch",
+          "Newsletter setup",
+          "Community platform",
+          "Thought leadership plan"
+        ],
+        "practice": "Create and publish 20 pieces of content"
+      },
+      "week_68_69": {
+        "title": "Building AI Tool Businesses",
+        "topics": [
+          "Identifying market opportunities",
+          "Product-market fit with AI tools",
+          "Building AI wrapper businesses",
+          "No-code SaaS development",
+          "AI tool aggregation platforms",
+          "Marketplace creation",
+          "Subscription model design",
+          "Customer acquisition for AI services",
+          "Retention and growth strategies",
+          "Scaling AI tool businesses",
+          "Team building and delegation",
+          "Outsourcing with AI",
+          "Financial modeling",
+          "Funding and investment",
+          "Exit strategies"
+        ],
+        "projects": [
+          "Business model canvas",
+          "MVP development plan",
+          "Go-to-market strategy",
+          "Financial projections",
+          "Pitch deck creation",
+          "Launch plan",
+          "Growth roadmap"
+        ],
+        "practice": "Develop complete business plan"
+      },
+      "week_70": {
+        "title": "Final Capstone & Career Launch",
+        "topics": [
+          "Portfolio development",
+          "Case study creation",
+          "Service packaging",
+          "Pricing strategies",
+          "Client acquisition",
+          "Proposal and contract templates",
+          "Project management",
+          "Client communication",
+          "Delivery and results measurement",
+          "Testimonials and social proof",
+          "Scaling strategies",
+          "Career planning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete AI Tools Business/Service",
+          "Option 1: AI Automation Agency (workflows for clients)",
+          "Option 2: AI Content Creation Service",
+          "Option 3: AI Tools SaaS Product",
+          "Option 4: AI Consulting Practice",
+          "Option 5: AI Education Business",
+          "Requirements: Revenue-generating, documented processes, client-ready, scalable"
+        ],
+        "deliverables": [
+          "Professional portfolio website",
+          "Service offerings document",
+          "Pricing and packages",
+          "Client acquisition system",
+          "Delivery workflows",
+          "10+ case studies",
+          "Marketing materials",
+          "Business launch plan"
+        ],
+        "assessment": "FINAL EXAM - Comprehensive AI Tools Mastery"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 30+ ChatGPT projects - content, business, productivity",
+      "Phase 2: 40+ projects - images, video, audio, multi-tool workflows",
+      "Phase 3: 30+ projects - automation, agents, integrations, businesses",
+      "Total: 100+ practical AI tool projects"
+    ],
+    "total_projects_built": "100+ AI-powered projects and workflows",
+    "skills_mastered": [
+      "AI Tools: ChatGPT, Claude, Gemini, Midjourney, Stable Diffusion, DALL-E, and 50+ others",
+      "Prompt Engineering: Advanced techniques, frameworks, optimization",
+      "Content Creation: Writing, images, video, audio with AI",
+      "Automation: Zapier, Make, n8n, workflow design",
+      "AI Agents: Custom GPTs, assistants, autonomous agents",
+      "Integration: APIs, webhooks, no-code platforms",
+      "Business: Monetization, services, products, consulting",
+      "Tools: All major AI platforms, productivity tools, specialized apps",
+      "Skills: Research, design, coding (no-code), marketing with AI"
+    ],
+    "weekly_structure": {
+      "video_tutorials": "3-4 hours",
+      "hands_on_practice": "5-7 hours",
+      "projects": "2-3 hours",
+      "exploration": "1-2 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live demos and Q&A",
+      "community": "Active community of AI tools practitioners",
+      "resources": "Prompt libraries, templates, workflows",
+      "updates": "Monthly updates with new AI tools",
+      "tool_access": "Shared accounts and trials for practice",
+      "mentorship": "Expert guidance on projects",
+      "career_support": "Freelance and business guidance",
+      "lifetime_access": "Forever access to all content and updates"
+    },
+    "certification": {
+      "completion_certificate": "AI Tools Professional Certificate",
+      "specialization": "Choose specialization (Content/Automation/Business)",
+      "project_portfolio": "Verified portfolio of 30+ projects",
+      "digital_badge": "LinkedIn shareable badge",
+      "continuing_education": "Monthly master classes"
+    }
+  },
+  "prerequisites": {
+    "technical_skills": "None - completely beginner friendly",
+    "equipment": "Computer/laptop, internet connection",
+    "ai_accounts": "Will create during course (ChatGPT, Midjourney, etc.)",
+    "budget": "Some tools require paid subscriptions (~$50-100/month)",
+    "time_commitment": "10-15 hours/week",
+    "learning_style": "Self-paced with guided projects"
+  },
+  "who_is_this_for": {
+    "content_creators": "Writers, bloggers, YouTubers, social media managers",
+    "marketers": "Digital marketers, growth hackers, brand managers",
+    "entrepreneurs": "Startup founders, solopreneurs, business owners",
+    "freelancers": "Looking to add AI services to offerings",
+    "professionals": "Anyone wanting to 10x productivity with AI",
+    "students": "Learning to leverage AI for career advantage",
+    "designers": "Graphic designers, UI/UX, creative professionals",
+    "developers": "Want to use AI tools for rapid development",
+    "consultants": "Business consultants, strategists, advisors",
+    "educators": "Teachers, trainers, course creators",
+    "career_switchers": "Entering AI tools and automation field",
+    "anyone": "Curious about practical AI applications"
+  },
+  "career_paths_after_completion": [
+    "AI Tools Consultant",
+    "Prompt Engineer",
+    "AI Automation Specialist",
+    "AI Content Creator",
+    "AI Tools Freelancer",
+    "No-Code AI Developer",
+    "AI Marketing Specialist",
+    "AI Productivity Coach",
+    "AI Tools Educator/Trainer",
+    "AI Product Manager",
+    "AI Solutions Architect (no-code)",
+    "AI Agency Owner",
+    "AI Tools Influencer/Creator"
+  ],
+  "income_potential": {
+    "freelancing": "₹50,000-300,000/month (projects)",
+    "consulting": "₹100,000-500,000/month",
+    "agency": "₹200,000-1,000,000+/month",
+    "courses": "₹50,000-500,000/month (passive)",
+    "saas_product": "₹100,000-10,00,000+/month",
+    "affiliate": "₹20,000-200,000/month",
+    "international": "$2,000-20,000/month based on services",
+    "note": "Income varies based on skills, niche, and effort"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee",
+    "lifetime_access": "All current and future content",
+    "tool_updates": "Regular updates as new AI tools emerge",
+    "community": "Lifetime community access",
+    "resources": "Continuously updated prompt libraries and templates",
+    "support": "Email and community support",
+    "portfolio": "30+ documented projects",
+    "certification": "Professional certification",
+    "business_templates": "Ready-to-use service packages and pricing",
+    "client_materials": "Proposals, contracts, delivery templates"
+  }
+}

@@ -1,0 +1,1173 @@
+{
+  "meta": {
+    "slug": "data-science-complete-masterclass",
+    "title": "Complete Data Science Masterclass - Zero to Data Scientist",
+    "description": "The most comprehensive 12-month data science program. Master Python, machine learning, deep learning, statistics, and big data. From data wrangling to building and deploying ML models. Become a job-ready data scientist.",
+    "keywords": [
+      "data science",
+      "machine learning",
+      "deep learning",
+      "python for data science",
+      "scikit-learn",
+      "tensorflow",
+      "pytorch",
+      "statistical modeling",
+      "predictive analytics",
+      "feature engineering",
+      "model deployment",
+      "mlops",
+      "big data",
+      "data scientist",
+      "kaggle"
+    ],
+    "category": "Data Science & Machine Learning",
+    "price": {
+      "group": "₹1999/month",
+      "personal": "₹3999/month",
+      "lifetime": "₹59,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional Data Scientist",
+    "commitment": "20-25 hours/week recommended",
+    "certification": "Certified Data Scientist upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Data Science Masterclass",
+    "tagline": "From Raw Data to Production ML Models",
+    "description": "This is not just a course—it's a complete transformation into a professional data scientist. In the age of AI and big data, data scientists are the most sought-after professionals. This 12-month masterclass takes you from absolute beginner to a job-ready data scientist, capable of extracting insights from data, building predictive models, deploying ML solutions, and solving complex business problems. You'll master the complete data science pipeline: data collection, cleaning, exploration, feature engineering, model building, evaluation, and deployment.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no prerequisites required",
+      "Complete 12-month structured curriculum aligned with industry needs",
+      "Covers entire data science stack: Python, ML, DL, Statistics, Big Data",
+      "50+ real-world projects and 5 Kaggle competitions",
+      "Focus on both theory and practical implementation",
+      "MLOps and production deployment included",
+      "Interview preparation for FAANG and top companies",
+      "Lifetime access with continuous updates",
+      "Build a portfolio showcasing end-to-end ML projects"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Python, Statistics, Data Analysis, SQL",
+      "phase_2": "Machine Learning (Months 4-6): Algorithms, Feature Engineering, Model Evaluation",
+      "phase_3": "Deep Learning (Months 7-9): Neural Networks, Computer Vision, NLP",
+      "phase_4": "Production & Specialization (Months 10-12): MLOps, Big Data, Career Launch"
+    },
+    "career_outcomes": [
+      "Junior Data Scientist (after 3 months)",
+      "Data Scientist (after 6 months)",
+      "Senior Data Scientist (after 9 months)",
+      "ML Engineer / Lead Data Scientist (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundations of Data Science (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid foundations in Python programming, statistics, data analysis, and SQL that form the backbone of data science.",
+    "month_1_2": {
+      "title": "Months 1-2: Python & Statistical Foundations",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Python Programming for Data Science",
+        "topics": [
+          "Why Python for Data Science?",
+          "Setting up the data science environment (Anaconda, Jupyter)",
+          "Python basics: variables, data types, operators",
+          "Data structures: lists, tuples, sets, dictionaries",
+          "Control flow: if-else, loops (for, while)",
+          "Functions and lambda expressions",
+          "Object-oriented programming basics",
+          "File handling and exception management",
+          "Python libraries ecosystem for data science",
+          "Git and version control for data science projects",
+          "Jupyter notebooks best practices",
+          "Google Colab for cloud computing"
+        ],
+        "projects": [
+          "Python fundamentals practice notebook",
+          "Building a data science toolkit with functions",
+          "Automated data processing script"
+        ],
+        "practice": "Complete 100 Python coding challenges"
+      },
+      "week_3_4": {
+        "title": "NumPy for Numerical Computing",
+        "topics": [
+          "Introduction to NumPy and its importance",
+          "NumPy arrays: creation and properties",
+          "Array indexing, slicing, and reshaping",
+          "Broadcasting and vectorization",
+          "Mathematical operations on arrays",
+          "Statistical functions in NumPy",
+          "Linear algebra operations",
+          "Random number generation",
+          "Array manipulation techniques",
+          "Performance optimization with NumPy",
+          "Memory management in NumPy",
+          "NumPy for image processing basics"
+        ],
+        "projects": [
+          "Image manipulation with NumPy arrays",
+          "Statistical calculator using NumPy",
+          "Matrix operations library",
+          "Performance comparison: NumPy vs pure Python"
+        ],
+        "practice": "Solve 50 NumPy exercises"
+      },
+      "week_5_6": {
+        "title": "Data Manipulation with Pandas",
+        "topics": [
+          "Introduction to Pandas DataFrames and Series",
+          "Reading data from various formats (CSV, Excel, JSON, SQL)",
+          "Data inspection and understanding",
+          "Indexing and selecting data (.loc, .iloc)",
+          "Filtering and boolean indexing",
+          "Handling missing data strategies",
+          "Data transformation and feature creation",
+          "Groupby operations and aggregations",
+          "Merging, joining, and concatenating data",
+          "Pivot tables and cross-tabulation",
+          "Time series data handling",
+          "Performance optimization in Pandas"
+        ],
+        "projects": [
+          "Complete EDA on retail sales dataset",
+          "Data cleaning pipeline for messy dataset",
+          "Time series analysis of stock prices",
+          "Customer behavior analysis"
+        ],
+        "practice": "Clean and analyze 10 different datasets"
+      },
+      "week_7_8": {
+        "title": "Statistical Foundations for Data Science",
+        "topics": [
+          "Descriptive statistics: measures of central tendency and spread",
+          "Probability theory and distributions",
+          "Normal distribution and Central Limit Theorem",
+          "Sampling and sampling distributions",
+          "Hypothesis testing fundamentals",
+          "T-tests, Chi-square tests, ANOVA",
+          "P-values and statistical significance",
+          "Confidence intervals",
+          "Correlation and covariance",
+          "Type I and Type II errors",
+          "Power analysis and sample size determination",
+          "Bayesian statistics introduction"
+        ],
+        "projects": [
+          "Statistical analysis of A/B test results",
+          "Hypothesis testing on real datasets",
+          "Building a statistical testing framework",
+          "Correlation analysis of multiple variables"
+        ],
+        "practice": "Perform statistical tests on 15 different scenarios"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Data Visualization & SQL",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Data Visualization Mastery",
+        "topics": [
+          "Principles of effective data visualization",
+          "Matplotlib: creating publication-quality plots",
+          "Seaborn for statistical visualizations",
+          "Plotly for interactive visualizations",
+          "Creating dashboards with Streamlit/Dash",
+          "Geospatial visualization with Folium",
+          "Time series visualization techniques",
+          "Heatmaps and correlation matrices",
+          "Network graphs and tree visualizations",
+          "3D visualizations",
+          "Animation in data visualization",
+          "Best practices for different chart types"
+        ],
+        "projects": [
+          "Interactive COVID-19 dashboard",
+          "Sales performance dashboard",
+          "Geospatial analysis of crime data",
+          "Animated visualization of algorithm performance"
+        ],
+        "practice": "Create 30 different types of visualizations"
+      },
+      "week_11_12": {
+        "title": "SQL for Data Scientists",
+        "topics": [
+          "Relational database concepts",
+          "SQL fundamentals: SELECT, WHERE, ORDER BY",
+          "Aggregate functions and GROUP BY",
+          "Joins: INNER, LEFT, RIGHT, FULL OUTER",
+          "Subqueries and CTEs",
+          "Window functions for advanced analytics",
+          "Database design and normalization",
+          "Performance optimization and indexing",
+          "NoSQL databases introduction (MongoDB)",
+          "Connecting Python to databases",
+          "SQL vs Pandas: when to use what",
+          "Big data SQL: Spark SQL, Presto"
+        ],
+        "projects": [
+          "Building a data warehouse schema",
+          "Complex business queries with window functions",
+          "Python-SQL integration project",
+          "Database performance optimization"
+        ],
+        "practice": "Write 100 SQL queries of increasing complexity"
+      },
+      "week_13": {
+        "title": "Exploratory Data Analysis (EDA) & Feature Engineering",
+        "topics": [
+          "EDA methodology and workflow",
+          "Univariate, bivariate, and multivariate analysis",
+          "Identifying patterns and anomalies",
+          "Feature engineering techniques",
+          "Creating polynomial and interaction features",
+          "Binning and discretization",
+          "Encoding categorical variables",
+          "Feature scaling and normalization",
+          "Handling imbalanced datasets",
+          "Feature selection methods",
+          "Dimensionality reduction (PCA introduction)",
+          "Domain-specific feature engineering"
+        ],
+        "projects": [
+          "PHASE 1 CAPSTONE: End-to-End EDA Project",
+          "Complete EDA and feature engineering on Kaggle dataset",
+          "Build reusable feature engineering pipeline",
+          "Create automated EDA report generator"
+        ],
+        "assessment": "Phase 1 comprehensive assessment"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Machine Learning Mastery (Months 4-6, Weeks 14-26)",
+    "description": "Master classical machine learning algorithms, model evaluation, and participate in Kaggle competitions.",
+    "month_7_8": {
+      "title": "Months 4-5: Supervised Learning",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Regression Algorithms",
+        "topics": [
+          "Machine learning workflow and pipeline",
+          "Linear regression from scratch",
+          "Multiple linear regression",
+          "Polynomial regression",
+          "Ridge and Lasso regression",
+          "Elastic Net",
+          "Logistic regression for classification",
+          "Evaluation metrics for regression",
+          "Cross-validation strategies",
+          "Bias-variance tradeoff",
+          "Regularization techniques",
+          "Feature importance analysis"
+        ],
+        "projects": [
+          "House price prediction model",
+          "Sales forecasting system",
+          "Customer lifetime value prediction",
+          "Build regression library from scratch"
+        ],
+        "practice": "Implement 5 regression algorithms from scratch"
+      },
+      "week_29_30": {
+        "title": "Classification Algorithms",
+        "topics": [
+          "k-Nearest Neighbors (KNN)",
+          "Decision trees and pruning",
+          "Random Forests",
+          "Gradient Boosting (XGBoost, LightGBM, CatBoost)",
+          "Support Vector Machines (SVM)",
+          "Naive Bayes classifier",
+          "Evaluation metrics for classification",
+          "ROC curves and AUC",
+          "Handling imbalanced classes",
+          "Multi-class classification strategies",
+          "Ensemble methods",
+          "Stacking and blending"
+        ],
+        "projects": [
+          "Credit default prediction",
+          "Customer churn prediction",
+          "Disease diagnosis system",
+          "Fraud detection model"
+        ],
+        "practice": "Build 10 classification models on different datasets"
+      },
+      "week_31_32": {
+        "title": "Advanced Machine Learning Techniques",
+        "topics": [
+          "Hyperparameter tuning: Grid Search, Random Search, Bayesian Optimization",
+          "AutoML tools and techniques",
+          "Feature selection algorithms",
+          "Dimensionality reduction: PCA, t-SNE, UMAP",
+          "Anomaly detection algorithms",
+          "Time series forecasting: ARIMA, Prophet",
+          "Recommendation systems: collaborative filtering, content-based",
+          "Model interpretation: SHAP, LIME",
+          "Handling missing data: advanced imputation",
+          "Semi-supervised learning",
+          "Active learning strategies",
+          "Transfer learning in classical ML"
+        ],
+        "projects": [
+          "Anomaly detection in network traffic",
+          "Movie recommendation system",
+          "Sales forecasting with Prophet",
+          "Model interpretation dashboard"
+        ],
+        "practice": "Apply advanced techniques to improve previous models"
+      },
+      "week_33_34": {
+        "title": "Unsupervised Learning",
+        "topics": [
+          "Clustering algorithms: K-Means, DBSCAN, Hierarchical",
+          "Gaussian Mixture Models",
+          "Clustering evaluation metrics",
+          "Market basket analysis",
+          "Association rules: Apriori, FP-Growth",
+          "Topic modeling: LDA, NMF",
+          "Autoencoders for dimensionality reduction",
+          "Self-organizing maps",
+          "Isolation Forest for anomaly detection",
+          "Applications in customer segmentation",
+          "Image compression with clustering",
+          "Text clustering and document similarity"
+        ],
+        "projects": [
+          "Customer segmentation analysis",
+          "Market basket analysis for retail",
+          "Document clustering system",
+          "Anomaly detection in IoT data"
+        ],
+        "practice": "Apply clustering to 5 different domains"
+      },
+      "week_35": {
+        "title": "Kaggle Competition Participation",
+        "topics": [
+          "Understanding Kaggle competitions",
+          "Competition strategies and workflow",
+          "Data augmentation techniques",
+          "Advanced feature engineering",
+          "Ensemble strategies for competitions",
+          "Learning from kernels and discussions",
+          "Leaderboard probing",
+          "Cross-validation strategies",
+          "Submission strategies",
+          "Post-competition analysis"
+        ],
+        "projects": [
+          "Participate in current Kaggle competition",
+          "Achieve top 50% in beginner competition",
+          "Write competition solution walkthrough",
+          "Build reusable competition pipeline"
+        ],
+        "practice": "Complete 3 past Kaggle competitions"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Real-world ML Projects",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "End-to-End ML Project Development",
+        "topics": [
+          "Problem formulation and scoping",
+          "Data collection strategies",
+          "Building data pipelines",
+          "Feature store design",
+          "Model versioning and experiment tracking",
+          "A/B testing for ML models",
+          "Model monitoring and drift detection",
+          "Building ML APIs with Flask/FastAPI",
+          "Containerization with Docker",
+          "Cloud deployment (AWS, GCP, Azure)",
+          "Cost optimization for ML",
+          "Documentation and reporting"
+        ],
+        "projects": [
+          "Build complete ML pipeline from scratch",
+          "Deploy model as REST API",
+          "Create model monitoring dashboard",
+          "Implement A/B testing framework"
+        ],
+        "practice": "Deploy 3 models to production"
+      },
+      "week_38_39": {
+        "title": "Industry-Specific Applications",
+        "topics": [
+          "Healthcare: disease prediction, drug discovery",
+          "Finance: risk assessment, algorithmic trading",
+          "Retail: demand forecasting, pricing optimization",
+          "Marketing: customer segmentation, campaign optimization",
+          "Manufacturing: predictive maintenance, quality control",
+          "Transportation: route optimization, demand prediction",
+          "Energy: consumption forecasting, grid optimization",
+          "Agriculture: crop yield prediction, pest detection",
+          "Real estate: price prediction, investment analysis",
+          "Sports analytics: player performance, game prediction"
+        ],
+        "projects": [
+          "Choose 2 industries and build domain-specific models",
+          "Create industry-specific feature engineering",
+          "Build domain knowledge documentation"
+        ],
+        "practice": "Analyze datasets from 5 different industries"
+      },
+      "week_40_41": {
+        "title": "ML Engineering Best Practices",
+        "topics": [
+          "Code organization for ML projects",
+          "Testing ML code: unit tests, integration tests",
+          "Continuous Integration/Continuous Deployment (CI/CD)",
+          "MLflow for experiment tracking",
+          "DVC for data versioning",
+          "Weights & Biases for experiment management",
+          "Model registry and governance",
+          "Feature stores: Feast, Tecton",
+          "Reproducibility in ML",
+          "Debugging ML models",
+          "Performance optimization",
+          "Security in ML systems"
+        ],
+        "projects": [
+          "Set up MLOps pipeline",
+          "Implement CI/CD for ML project",
+          "Build feature store",
+          "Create model governance framework"
+        ],
+        "practice": "Refactor all projects with engineering best practices"
+      },
+      "week_42_43": {
+        "title": "Advanced Kaggle Competition",
+        "topics": [
+          "Advanced competition strategies",
+          "Reading research papers for techniques",
+          "Implementing papers for competitions",
+          "Advanced ensembling: stacking, blending",
+          "Pseudo-labeling techniques",
+          "Data augmentation for tabular data",
+          "Feature engineering automation",
+          "Hyperparameter optimization at scale",
+          "GPU acceleration for tree models",
+          "Competition code organization"
+        ],
+        "projects": [
+          "Participate in intermediate Kaggle competition",
+          "Achieve top 30% ranking",
+          "Open-source competition solution",
+          "Write detailed solution approach"
+        ],
+        "practice": "Review winning solutions from 10 competitions"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complex problem solving",
+          "Multi-model systems",
+          "Production-ready code",
+          "Professional documentation",
+          "Stakeholder presentation"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Production ML System",
+          "Build end-to-end ML system for real business problem",
+          "Include data pipeline, multiple models, API, monitoring",
+          "Deploy to cloud with full MLOps pipeline"
+        ],
+        "assessment": "Phase 2 comprehensive assessment"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Deep Learning & Advanced AI (Months 7-9, Weeks 27-39)",
+    "description": "Master deep learning, computer vision, NLP, and cutting-edge AI techniques.",
+    "month_13_14": {
+      "title": "Months 7-8: Deep Learning Fundamentals",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Neural Network Fundamentals",
+        "topics": [
+          "Introduction to deep learning",
+          "Perceptron and multi-layer perceptrons",
+          "Backpropagation algorithm",
+          "Activation functions",
+          "Weight initialization strategies",
+          "Gradient descent variations",
+          "Learning rate scheduling",
+          "Batch normalization",
+          "Dropout and regularization",
+          "Building neural networks from scratch",
+          "Introduction to TensorFlow and Keras",
+          "PyTorch fundamentals"
+        ],
+        "projects": [
+          "Neural network from scratch in NumPy",
+          "MNIST digit classification",
+          "Binary classification with deep learning",
+          "Regression with neural networks"
+        ],
+        "practice": "Implement 5 different neural network architectures"
+      },
+      "week_55_56": {
+        "title": "Convolutional Neural Networks (CNNs)",
+        "topics": [
+          "CNN architecture and intuition",
+          "Convolution and pooling layers",
+          "Popular architectures: LeNet, AlexNet, VGG, ResNet",
+          "Transfer learning and fine-tuning",
+          "Data augmentation for images",
+          "Object detection: YOLO, R-CNN",
+          "Image segmentation: U-Net",
+          "Face recognition systems",
+          "Style transfer",
+          "Generative models: VAE, GAN basics",
+          "CNN applications beyond images",
+          "Deploying CNN models"
+        ],
+        "projects": [
+          "Image classification on custom dataset",
+          "Object detection system",
+          "Face recognition application",
+          "Image segmentation for medical images"
+        ],
+        "practice": "Build 5 computer vision applications"
+      },
+      "week_57_58": {
+        "title": "Recurrent Neural Networks (RNNs)",
+        "topics": [
+          "RNN architecture and applications",
+          "Vanishing gradient problem",
+          "LSTM and GRU architectures",
+          "Bidirectional RNNs",
+          "Sequence-to-sequence models",
+          "Attention mechanism",
+          "Time series prediction with RNNs",
+          "Text generation",
+          "Sentiment analysis",
+          "Named Entity Recognition",
+          "Machine translation basics",
+          "Speech recognition introduction"
+        ],
+        "projects": [
+          "Stock price prediction with LSTM",
+          "Text generation model",
+          "Sentiment analysis system",
+          "Time series anomaly detection"
+        ],
+        "practice": "Implement 5 sequence modeling tasks"
+      },
+      "week_59_60": {
+        "title": "Natural Language Processing",
+        "topics": [
+          "Text preprocessing and tokenization",
+          "Word embeddings: Word2Vec, GloVe",
+          "Text classification techniques",
+          "Named Entity Recognition (NER)",
+          "Part-of-speech tagging",
+          "Topic modeling with deep learning",
+          "Transformer architecture",
+          "BERT and GPT models",
+          "Fine-tuning pre-trained models",
+          "Question answering systems",
+          "Text summarization",
+          "Chatbot development"
+        ],
+        "projects": [
+          "Build custom chatbot",
+          "News article classifier",
+          "Question answering system",
+          "Text summarization tool"
+        ],
+        "practice": "Complete 5 NLP projects using transformers"
+      },
+      "week_61": {
+        "title": "Advanced Deep Learning Topics",
+        "topics": [
+          "Autoencoders and variational autoencoders",
+          "Generative Adversarial Networks (GANs)",
+          "Deep Reinforcement Learning basics",
+          "Graph Neural Networks introduction",
+          "Meta-learning and few-shot learning",
+          "Neural Architecture Search",
+          "Model compression and quantization",
+          "Edge deployment of deep learning",
+          "Adversarial machine learning",
+          "Explainable AI for deep learning",
+          "Multi-modal learning",
+          "Self-supervised learning"
+        ],
+        "projects": [
+          "Build and train a GAN",
+          "Implement autoencoder for anomaly detection",
+          "Model compression project",
+          "Multi-modal classification system"
+        ],
+        "practice": "Experiment with 3 cutting-edge techniques"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Specialized Domains & Research",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Computer Vision Projects",
+        "topics": [
+          "Medical image analysis",
+          "Autonomous driving perception",
+          "Facial emotion recognition",
+          "Pose estimation",
+          "Video analysis and action recognition",
+          "3D computer vision",
+          "Document analysis and OCR",
+          "Satellite image analysis",
+          "Real-time vision systems",
+          "Mobile and edge deployment",
+          "Vision transformers",
+          "Self-supervised learning in vision"
+        ],
+        "projects": [
+          "Medical diagnosis from X-rays",
+          "Real-time object tracking system",
+          "Document scanner with OCR",
+          "Pose estimation application"
+        ],
+        "practice": "Build portfolio of 5 vision projects"
+      },
+      "week_64_65": {
+        "title": "Advanced NLP Applications",
+        "topics": [
+          "Large Language Models (LLMs)",
+          "Prompt engineering",
+          "Fine-tuning LLMs",
+          "Retrieval Augmented Generation (RAG)",
+          "Building with LangChain",
+          "Vector databases",
+          "Semantic search",
+          "Document intelligence",
+          "Code generation with AI",
+          "Multimodal models",
+          "Ethical considerations in NLP",
+          "Production NLP systems"
+        ],
+        "projects": [
+          "RAG-based question answering system",
+          "Semantic search engine",
+          "AI writing assistant",
+          "Code generation tool"
+        ],
+        "practice": "Build 5 LLM-powered applications"
+      },
+      "week_66_67": {
+        "title": "Reinforcement Learning",
+        "topics": [
+          "RL fundamentals and Markov Decision Processes",
+          "Q-Learning and Deep Q-Networks",
+          "Policy gradient methods",
+          "Actor-Critic methods",
+          "Proximal Policy Optimization (PPO)",
+          "Game playing agents",
+          "Robotics applications",
+          "RL for recommendation systems",
+          "RL in finance",
+          "Multi-agent RL",
+          "Sim-to-real transfer",
+          "OpenAI Gym environments"
+        ],
+        "projects": [
+          "Game-playing AI agent",
+          "Trading bot with RL",
+          "Recommendation system with RL",
+          "Robot control simulation"
+        ],
+        "practice": "Train agents in 5 different environments"
+      },
+      "week_68_69": {
+        "title": "Research Paper Implementation",
+        "topics": [
+          "Reading and understanding research papers",
+          "Reproducing paper results",
+          "Implementing novel architectures",
+          "Benchmarking and evaluation",
+          "Writing technical reports",
+          "Contributing to open source",
+          "Publishing your own research",
+          "Staying updated with latest research",
+          "Research tools and resources",
+          "Building research portfolio",
+          "Collaboration in research",
+          "Ethics in AI research"
+        ],
+        "projects": [
+          "Implement 2 recent research papers",
+          "Write detailed implementation report",
+          "Open source your implementations",
+          "Create tutorial for community"
+        ],
+        "practice": "Read and summarize 20 research papers"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Complex deep learning systems",
+          "Multi-model architectures",
+          "Production deployment",
+          "Performance optimization",
+          "Comprehensive evaluation"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: State-of-the-art AI System",
+          "Build cutting-edge AI application",
+          "Combine multiple deep learning techniques",
+          "Deploy with full production pipeline",
+          "Achieve competitive performance metrics"
+        ],
+        "assessment": "Phase 3 comprehensive assessment"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: MLOps, Big Data & Career Launch (Months 10-12, Weeks 40-52)",
+    "description": "Master production deployment, big data technologies, and prepare for data science careers.",
+    "month_19_20": {
+      "title": "Months 10-11: MLOps & Production Systems",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "MLOps Fundamentals",
+        "topics": [
+          "MLOps principles and practices",
+          "Model lifecycle management",
+          "Continuous training pipelines",
+          "Model versioning strategies",
+          "A/B testing for ML",
+          "Model monitoring and observability",
+          "Drift detection and handling",
+          "Feature stores at scale",
+          "Model serving architectures",
+          "Kubernetes for ML",
+          "Kubeflow and MLflow",
+          "Cost optimization in production"
+        ],
+        "projects": [
+          "Build complete MLOps pipeline",
+          "Implement model monitoring system",
+          "Set up continuous training",
+          "Deploy models on Kubernetes"
+        ],
+        "practice": "Deploy 5 models with full MLOps"
+      },
+      "week_81_82": {
+        "title": "Big Data Technologies",
+        "topics": [
+          "Big data ecosystem overview",
+          "Apache Spark fundamentals",
+          "PySpark for data science",
+          "Spark MLlib for machine learning",
+          "Distributed computing concepts",
+          "Hadoop and HDFS",
+          "Apache Kafka for streaming",
+          "Real-time ML with streaming data",
+          "Data lakes and data warehouses",
+          "Apache Airflow for orchestration",
+          "Databricks platform",
+          "Cloud big data services"
+        ],
+        "projects": [
+          "Build Spark ML pipeline",
+          "Real-time prediction system",
+          "Data lake architecture design",
+          "Streaming analytics dashboard"
+        ],
+        "practice": "Process 5 big data datasets"
+      },
+      "week_83_84": {
+        "title": "Cloud Platforms for Data Science",
+        "topics": [
+          "AWS for data science: SageMaker, EMR, Glue",
+          "Google Cloud Platform: Vertex AI, BigQuery, Dataflow",
+          "Azure ML and Azure Databricks",
+          "Serverless ML deployments",
+          "Auto-scaling ML services",
+          "Cloud cost optimization",
+          "Multi-cloud strategies",
+          "Edge computing for ML",
+          "Hybrid cloud architectures",
+          "Security and compliance",
+          "Infrastructure as Code",
+          "Disaster recovery planning"
+        ],
+        "projects": [
+          "Deploy models on 3 cloud platforms",
+          "Build serverless ML pipeline",
+          "Implement auto-scaling solution",
+          "Create disaster recovery plan"
+        ],
+        "practice": "Master one cloud platform deeply"
+      },
+      "week_85_86": {
+        "title": "Advanced Data Engineering",
+        "topics": [
+          "Data architecture patterns",
+          "ETL vs ELT pipelines",
+          "Data quality and validation",
+          "Schema evolution and management",
+          "CDC (Change Data Capture)",
+          "Data mesh architecture",
+          "Event-driven architectures",
+          "Apache Beam for unified processing",
+          "dbt for data transformation",
+          "Data observability tools",
+          "DataOps practices",
+          "Building data products"
+        ],
+        "projects": [
+          "Design data architecture for startup",
+          "Build ETL pipeline with Airflow",
+          "Implement data quality framework",
+          "Create data product"
+        ],
+        "practice": "Build 5 different data pipelines"
+      },
+      "week_87": {
+        "title": "Business & Soft Skills",
+        "topics": [
+          "Communicating with stakeholders",
+          "Translating business problems to ML",
+          "Project management for data science",
+          "Agile and Scrum for DS teams",
+          "Technical documentation",
+          "Presenting to executives",
+          "Building data culture",
+          "Ethics in data science",
+          "Privacy and GDPR compliance",
+          "Team collaboration tools",
+          "Mentoring and leadership",
+          "Consulting skills"
+        ],
+        "projects": [
+          "Create executive presentation",
+          "Write technical documentation",
+          "Build project proposal",
+          "Develop data strategy document"
+        ],
+        "practice": "Present 5 projects to different audiences"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Specialization & Career Launch",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Choose Your Specialization",
+        "topics": [
+          "Healthcare AI: medical imaging, drug discovery, genomics",
+          "Financial ML: risk modeling, fraud detection, trading",
+          "Retail analytics: recommendation, pricing, inventory",
+          "Computer Vision specialist: autonomous vehicles, robotics",
+          "NLP specialist: conversational AI, document intelligence",
+          "MLOps engineer: platform building, automation",
+          "Research scientist: cutting-edge algorithms",
+          "Choosing your path based on interests",
+          "Building specialized portfolio",
+          "Domain expertise development",
+          "Networking in your chosen field",
+          "Continuous learning strategies"
+        ],
+        "projects": [
+          "Deep specialization project in chosen domain",
+          "Build 3 projects in specialization area",
+          "Create specialized portfolio website"
+        ],
+        "practice": "Complete specialized certification or course"
+      },
+      "week_90_91": {
+        "title": "Portfolio & Personal Branding",
+        "topics": [
+          "Building impressive GitHub profile",
+          "Creating portfolio website",
+          "Writing technical blog posts",
+          "Contributing to open source",
+          "Building Kaggle profile",
+          "LinkedIn optimization",
+          "Personal branding strategies",
+          "Public speaking and conferences",
+          "Building online presence",
+          "Networking strategies",
+          "Mentorship and coaching",
+          "Content creation"
+        ],
+        "projects": [
+          "Launch portfolio website",
+          "Write 5 technical blog posts",
+          "Contribute to 3 open source projects",
+          "Create video tutorials"
+        ],
+        "practice": "Build complete online presence"
+      },
+      "week_92_93": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Data science interview process",
+          "Technical interview preparation",
+          "Coding challenges for DS",
+          "ML system design interviews",
+          "Case study interviews",
+          "Behavioral interview questions",
+          "STAR method for responses",
+          "Salary negotiation",
+          "Company research strategies",
+          "Take-home assignments",
+          "Presentation skills",
+          "Mock interview practice"
+        ],
+        "projects": [
+          "Complete 50 LeetCode problems",
+          "Design 5 ML systems",
+          "Prepare behavioral stories",
+          "Record mock interviews"
+        ],
+        "practice": "Do 10 mock interviews"
+      },
+      "week_94_95": {
+        "title": "Job Search & Freelancing",
+        "topics": [
+          "Job search strategies",
+          "Resume optimization for ATS",
+          "Cover letter writing",
+          "Networking for jobs",
+          "Working with recruiters",
+          "Freelancing as data scientist",
+          "Building consulting business",
+          "Finding clients",
+          "Pricing your services",
+          "Contract negotiation",
+          "Remote work best practices",
+          "Career growth planning"
+        ],
+        "projects": [
+          "Optimize resume for 5 job types",
+          "Create freelance service offerings",
+          "Build client proposal template",
+          "Develop career roadmap"
+        ],
+        "practice": "Apply to 20 relevant positions"
+      },
+      "week_96": {
+        "title": "Final Project & Graduation",
+        "topics": [
+          "Capstone project planning",
+          "End-to-end implementation",
+          "Production deployment",
+          "Documentation and presentation",
+          "Peer review and feedback",
+          "Final assessment",
+          "Certification preparation",
+          "Alumni network",
+          "Continuous learning plan",
+          "Career launch strategy",
+          "Celebration and reflection",
+          "Next steps planning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Industry-Ready Data Science Project",
+          "Solve real business problem end-to-end",
+          "Include all phases: data, ML, deployment, monitoring",
+          "Present to panel of industry experts",
+          "Open source the solution"
+        ],
+        "assessment": "Final comprehensive examination and project defense"
+      }
+    },
+    "month_23": {
+      "title": "Continuous Learning & Growth",
+      "weeks": "Ongoing",
+      "week_97": {
+        "title": "Staying Current",
+        "topics": [
+          "Following AI research",
+          "Reading papers effectively",
+          "Attending conferences",
+          "Online communities",
+          "Continuous experimentation",
+          "Building side projects",
+          "Teaching and mentoring",
+          "Contributing to research",
+          "Industry trends",
+          "Emerging technologies",
+          "Career pivots",
+          "Leadership development"
+        ],
+        "projects": [
+          "Create learning roadmap",
+          "Join research reading group",
+          "Start mentoring others",
+          "Plan conference attendance"
+        ],
+        "practice": "Dedicate 5 hours/week to learning"
+      },
+      "week_98": {
+        "title": "Advanced Certifications",
+        "topics": [
+          "Cloud certifications (AWS, GCP, Azure)",
+          "Specialized ML certifications",
+          "Domain certifications",
+          "Academic courses and MOOCs",
+          "Professional development",
+          "Executive education",
+          "PhD considerations",
+          "Research opportunities",
+          "Teaching opportunities",
+          "Consulting certifications",
+          "Project management",
+          "Business analytics"
+        ],
+        "projects": [
+          "Complete one advanced certification",
+          "Plan certification roadmap",
+          "Join professional organizations"
+        ],
+        "practice": "Pursue continuous credentials"
+      },
+      "week_99": {
+        "title": "Building Data Products",
+        "topics": [
+          "Product thinking for DS",
+          "Identifying opportunities",
+          "MVP development",
+          "User research",
+          "Product metrics",
+          "Growth strategies",
+          "Monetization models",
+          "B2B vs B2C products",
+          "SaaS development",
+          "API products",
+          "Data marketplaces",
+          "Entrepreneurship"
+        ],
+        "projects": [
+          "Ideate 5 data products",
+          "Build MVP of one product",
+          "Create business plan",
+          "Launch beta version"
+        ],
+        "practice": "Validate product ideas"
+      },
+      "week_100": {
+        "title": "Giving Back",
+        "topics": [
+          "Mentoring beginners",
+          "Creating educational content",
+          "Open source contributions",
+          "Speaking at meetups",
+          "Writing tutorials",
+          "Answering questions online",
+          "Building community",
+          "Organizing events",
+          "Pro bono work",
+          "Teaching workshops",
+          "Creating courses",
+          "Industry advocacy"
+        ],
+        "projects": [
+          "Mentor 3 beginners",
+          "Create free educational resource",
+          "Organize local meetup",
+          "Contribute to major open source project"
+        ],
+        "practice": "Give back to community weekly"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 15+ foundation projects - EDA, visualization, SQL analytics",
+      "Phase 2: 20+ ML projects - classification, regression, clustering, Kaggle",
+      "Phase 3: 15+ DL projects - computer vision, NLP, reinforcement learning",
+      "Phase 4: 10+ production projects - MLOps, big data, cloud deployment",
+      "Total: 60+ projects from basics to production"
+    ],
+    "total_projects_built": "60+ data science projects across all domains",
+    "skills_mastered": [
+      "Programming: Python (expert), SQL (advanced), Spark, Git",
+      "Mathematics: Linear algebra, calculus, statistics, probability",
+      "Data Analysis: Pandas, NumPy, exploratory data analysis, feature engineering",
+      "Machine Learning: Scikit-learn, XGBoost, classification, regression, clustering",
+      "Deep Learning: TensorFlow, PyTorch, CNN, RNN, Transformers, GANs",
+      "Visualization: Matplotlib, Seaborn, Plotly, Tableau, dashboard creation",
+      "Big Data: Spark, Hadoop, Kafka, distributed computing",
+      "MLOps: Docker, Kubernetes, CI/CD, model monitoring, A/B testing",
+      "Cloud: AWS SageMaker, GCP Vertex AI, Azure ML",
+      "Databases: SQL, NoSQL, data warehouses, data lakes",
+      "Soft Skills: Communication, business acumen, project management",
+      "Domains: Healthcare, finance, retail, marketing analytics"
+    ],
+    "weekly_structure": {
+      "theory_videos": "5-7 hours",
+      "hands_on_coding": "10-12 hours",
+      "projects": "4-6 hours",
+      "practice_problems": "3-4 hours",
+      "total_per_week": "20-25 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving and doubt clearing sessions",
+      "mentorship": "1-on-1 guidance from senior data scientists",
+      "community": "Active Discord community with 10,000+ members",
+      "code_review": "Expert code reviews for all major projects",
+      "career_support": "Resume review, mock interviews, job referrals",
+      "lifetime_access": "All content, updates, and new modules forever",
+      "kaggle_support": "Kaggle competition teams and guidance",
+      "cloud_credits": "Free credits for AWS, GCP, Azure practice"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "final_certificate": "Professional Data Scientist Certification",
+      "linkedin_badge": "Verified LinkedIn badge",
+      "industry_recognized": "Recognized by 500+ hiring partners",
+      "portfolio_projects": "60+ documented projects for portfolio",
+      "kaggle_achievements": "Support to reach Kaggle Expert level",
+      "specialization_certificate": "Certificate in chosen specialization area"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required - high school math helpful",
+    "coding_experience": "None required - we start from zero",
+    "equipment": "Computer with 8GB RAM minimum, internet connection",
+    "time_commitment": "20-25 hours per week consistently",
+    "english": "Good reading and comprehension skills",
+    "motivation": "Strong curiosity about data and problem-solving mindset"
+  },
+  "who_is_this_for": {
+    "students": "College students wanting high-paying tech careers",
+    "working_professionals": "Career switchers from any field to data science",
+    "entrepreneurs": "Build data-driven products and businesses",
+    "freelancers": "Offer data science and ML consulting services",
+    "kids": "Not suitable for children - recommended age 16+",
+    "anyone": "Anyone fascinated by AI and data-driven decision making"
+  },
+  "career_paths_after_completion": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Engineer",
+    "Deep Learning Engineer",
+    "MLOps Engineer",
+    "Data Science Consultant",
+    "Research Scientist",
+    "Computer Vision Engineer",
+    "NLP Engineer",
+    "Business Intelligence Developer",
+    "Quantitative Analyst",
+    "Data Science Manager",
+    "Chief Data Officer (with experience)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹6-10 LPA (Junior Data Scientist)",
+    "after_12_months": "₹10-20 LPA (Data Scientist)",
+    "after_18_months": "₹15-30 LPA (Senior Data Scientist)",
+    "after_24_months": "₹20-50+ LPA (Lead/Principal Data Scientist)",
+    "freelance": "₹3000-10000/hour based on expertise",
+    "international": "$80k-200k USD based on location and experience"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Job placement support with 500+ partner companies",
+    "lifetime_updates": "Free access to all future content updates",
+    "mentorship": "Dedicated mentor throughout the journey",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Production-ready portfolio by completion"
+  }
+}

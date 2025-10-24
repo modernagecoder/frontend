@@ -1,0 +1,1232 @@
+{
+  "meta": {
+    "slug": "mysql-database-complete-masterclass",
+    "title": "Complete MySQL Database Masterclass - Zero to Database Expert",
+    "description": "The most comprehensive 12-month MySQL program. Master SQL, database design, administration, performance tuning, replication, security, and cloud deployment. From basic queries to managing enterprise-scale database systems.",
+    "keywords": [
+      "mysql",
+      "sql",
+      "database",
+      "database administration",
+      "dba",
+      "sql programming",
+      "database design",
+      "performance tuning",
+      "mysql replication",
+      "database security",
+      "stored procedures",
+      "database optimization",
+      "mariadb",
+      "percona",
+      "database architect"
+    ],
+    "category": "Database Management & Administration",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Database Expert",
+    "commitment": "12-15 hours/week recommended",
+    "certification": "Certified MySQL Database Administrator upon completion"
+  },
+  "program_overview": {
+    "title": "Complete MySQL Database Masterclass",
+    "tagline": "From First Query to Enterprise Database Architecture",
+    "description": "This is not just a course—it's your complete transformation into a database expert. MySQL powers millions of applications worldwide, from small websites to massive enterprise systems. This 12-month masterclass takes you from absolute beginner to MySQL expert, capable of designing, implementing, optimizing, and managing database systems at any scale. You'll master SQL programming, database design, performance tuning, high availability, security, and cloud deployment. Whether you aim to become a DBA, backend developer, or data architect, this course provides everything you need.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no database knowledge required",
+      "Complete 12-month structured curriculum covering all aspects",
+      "Hands-on with real-world database scenarios",
+      "Covers MySQL 8.0+ with latest features",
+      "Performance tuning and optimization deep dive",
+      "High availability and disaster recovery included",
+      "Cloud deployment on AWS RDS, Google Cloud SQL, Azure",
+      "Integration with Python, Java, PHP, Node.js",
+      "30+ real database projects",
+      "Industry-standard tools and best practices"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): SQL Basics, Database Fundamentals, Simple Queries",
+      "phase_2": "Intermediate (Months 4-6): Advanced SQL, Database Design, Programming",
+      "phase_3": "Advanced (Months 7-9): Administration, Performance, Security",
+      "phase_4": "Expert (Months 10-12): Replication, High Availability, Cloud, Architecture"
+    },
+    "career_outcomes": [
+      "Junior Database Developer (after 3 months)",
+      "Database Developer / SQL Developer (after 6 months)",
+      "Database Administrator (after 9 months)",
+      "Senior DBA / Database Architect (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: SQL Fundamentals & Database Basics (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid foundations in SQL, understand relational database concepts, and master basic to intermediate queries.",
+    "month_1_2": {
+      "title": "Months 1-2: Database Fundamentals & Basic SQL",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Databases & MySQL Setup",
+        "topics": [
+          "What are databases and why we need them",
+          "Relational vs Non-relational databases",
+          "History and evolution of MySQL",
+          "MySQL vs other databases (PostgreSQL, Oracle, SQL Server)",
+          "MySQL ecosystem: Community, Enterprise, MariaDB, Percona",
+          "Installing MySQL on Windows, Linux, Mac",
+          "MySQL Workbench installation and setup",
+          "Command-line client basics",
+          "phpMyAdmin and other GUI tools",
+          "Creating your first database",
+          "Understanding schemas and instances",
+          "Basic security during installation"
+        ],
+        "projects": [
+          "Install MySQL on local machine",
+          "Set up MySQL Workbench",
+          "Create first database and tables",
+          "Configure basic security settings"
+        ],
+        "practice": "Complete 20 basic database operations"
+      },
+      "week_3_4": {
+        "title": "SQL Basics - Data Definition Language (DDL)",
+        "topics": [
+          "Creating databases with CREATE DATABASE",
+          "Dropping databases safely",
+          "Creating tables with CREATE TABLE",
+          "Data types: Numeric (INT, DECIMAL, FLOAT)",
+          "String types (CHAR, VARCHAR, TEXT)",
+          "Date and time types (DATE, TIME, DATETIME, TIMESTAMP)",
+          "Boolean and ENUM types",
+          "Understanding NULL and NOT NULL",
+          "Primary keys and their importance",
+          "AUTO_INCREMENT for automatic numbering",
+          "Altering tables with ALTER TABLE",
+          "Dropping and truncating tables"
+        ],
+        "projects": [
+          "Design employee database schema",
+          "Create online store database structure",
+          "Build student management system tables",
+          "Library management database design"
+        ],
+        "practice": "Create 30 different table structures"
+      },
+      "week_5_6": {
+        "title": "SQL Basics - Data Manipulation Language (DML)",
+        "topics": [
+          "Inserting data with INSERT",
+          "Bulk insert operations",
+          "Updating records with UPDATE",
+          "Safe update practices",
+          "Deleting data with DELETE",
+          "TRUNCATE vs DELETE",
+          "Basic SELECT queries",
+          "Selecting specific columns",
+          "WHERE clause for filtering",
+          "Comparison operators (=, !=, <, >, <=, >=)",
+          "Logical operators (AND, OR, NOT)",
+          "IN and BETWEEN operators"
+        ],
+        "projects": [
+          "Populate employee database with data",
+          "Create product catalog with 1000+ items",
+          "Build customer records system",
+          "Inventory management data setup"
+        ],
+        "practice": "Write 100 INSERT, UPDATE, DELETE queries"
+      },
+      "week_7_8": {
+        "title": "Querying Data - SELECT Mastery",
+        "topics": [
+          "ORDER BY for sorting results",
+          "LIMIT for pagination",
+          "DISTINCT for unique values",
+          "Aliases with AS",
+          "String functions: CONCAT, LENGTH, UPPER, LOWER",
+          "LIKE operator for pattern matching",
+          "Wildcards (% and _)",
+          "Regular expressions in MySQL",
+          "Date functions: NOW, CURDATE, DATE_FORMAT",
+          "Mathematical functions: SUM, AVG, COUNT, MIN, MAX",
+          "GROUP BY for aggregation",
+          "HAVING clause for group filtering"
+        ],
+        "projects": [
+          "Sales reporting queries",
+          "Customer analytics dashboard queries",
+          "Product search functionality",
+          "Date-based report generation"
+        ],
+        "practice": "Master 150 SELECT query variations"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Relationships & Joins",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Database Relationships",
+        "topics": [
+          "Understanding table relationships",
+          "One-to-One relationships",
+          "One-to-Many relationships",
+          "Many-to-Many relationships",
+          "Foreign keys and referential integrity",
+          "CASCADE options (DELETE, UPDATE)",
+          "Creating foreign key constraints",
+          "Database normalization introduction",
+          "First Normal Form (1NF)",
+          "Second Normal Form (2NF)",
+          "Third Normal Form (3NF)",
+          "Denormalization when and why"
+        ],
+        "projects": [
+          "Design blog database with posts and comments",
+          "E-commerce database with orders and products",
+          "School database with students and courses",
+          "Social media database schema"
+        ],
+        "practice": "Design 20 relational database schemas"
+      },
+      "week_11_12": {
+        "title": "Mastering Joins",
+        "topics": [
+          "Understanding JOIN operations",
+          "INNER JOIN deep dive",
+          "LEFT JOIN (LEFT OUTER JOIN)",
+          "RIGHT JOIN (RIGHT OUTER JOIN)",
+          "CROSS JOIN",
+          "Self joins for hierarchical data",
+          "Multiple table joins",
+          "Using aliases in joins",
+          "Natural joins",
+          "Join performance considerations",
+          "UNION operations",
+          "INTERSECT and EXCEPT alternatives"
+        ],
+        "projects": [
+          "Employee-Department-Salary reports",
+          "Order-Customer-Product analysis",
+          "Multi-table inventory system",
+          "Hierarchical organization chart"
+        ],
+        "practice": "Write 100 complex JOIN queries"
+      },
+      "week_13": {
+        "title": "Subqueries & Set Operations",
+        "topics": [
+          "Understanding subqueries",
+          "Subqueries in SELECT clause",
+          "Subqueries in FROM clause",
+          "Subqueries in WHERE clause",
+          "Correlated vs non-correlated subqueries",
+          "EXISTS and NOT EXISTS",
+          "ANY, ALL, SOME operators",
+          "Subqueries vs JOINs performance",
+          "Common Table Expressions (CTEs)",
+          "Recursive CTEs",
+          "UNION and UNION ALL",
+          "Combining multiple result sets"
+        ],
+        "projects": [
+          "Complex reporting with subqueries",
+          "Hierarchical data queries with CTEs",
+          "Performance comparison study",
+          "PHASE 1 CAPSTONE: Complete Database Application"
+        ],
+        "assessment": "Phase 1 comprehensive SQL exam"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced SQL & Database Design (Months 4-6, Weeks 14-26)",
+    "description": "Master advanced SQL features, stored procedures, triggers, and professional database design.",
+    "month_7_8": {
+      "title": "Months 4-5: Advanced SQL Programming",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Views & Indexes",
+        "topics": [
+          "Creating and using views",
+          "Updatable vs non-updatable views",
+          "View algorithms (MERGE, TEMPTABLE)",
+          "Security with views",
+          "Materialized views alternatives",
+          "Understanding indexes",
+          "B-Tree vs Hash indexes",
+          "Creating indexes strategically",
+          "Composite indexes",
+          "Unique indexes",
+          "Full-text indexes",
+          "Spatial indexes",
+          "Index hints",
+          "Analyzing index usage"
+        ],
+        "projects": [
+          "Create view layer for application",
+          "Index optimization for slow queries",
+          "Full-text search implementation",
+          "Performance improvement study"
+        ],
+        "practice": "Create 50 views and optimize with indexes"
+      },
+      "week_29_30": {
+        "title": "Stored Procedures",
+        "topics": [
+          "Introduction to stored procedures",
+          "Creating procedures with CREATE PROCEDURE",
+          "IN, OUT, INOUT parameters",
+          "Variables and data types",
+          "Control flow: IF, CASE, LOOP, WHILE",
+          "REPEAT and LEAVE statements",
+          "Error handling with DECLARE HANDLER",
+          "Cursors for row-by-row processing",
+          "Nested procedures",
+          "Procedure security and permissions",
+          "Debugging stored procedures",
+          "Best practices for procedures",
+          "Performance implications",
+          "Version control for database code"
+        ],
+        "projects": [
+          "Order processing system procedures",
+          "Automated reporting procedures",
+          "Data validation procedures",
+          "Batch processing system"
+        ],
+        "practice": "Write 40 stored procedures"
+      },
+      "week_31_32": {
+        "title": "Functions & Triggers",
+        "topics": [
+          "User-defined functions (UDFs)",
+          "Scalar vs table functions",
+          "Deterministic vs non-deterministic",
+          "Function syntax and parameters",
+          "Built-in function categories",
+          "Creating custom functions",
+          "Triggers introduction",
+          "BEFORE vs AFTER triggers",
+          "INSERT, UPDATE, DELETE triggers",
+          "NEW and OLD keywords",
+          "Multiple triggers per event",
+          "Trigger use cases and limitations",
+          "Auditing with triggers",
+          "Data validation triggers"
+        ],
+        "projects": [
+          "Custom function library",
+          "Audit trail system with triggers",
+          "Automatic data synchronization",
+          "Business rule enforcement system"
+        ],
+        "practice": "Create 30 functions and 20 triggers"
+      },
+      "week_33_34": {
+        "title": "Transactions & Concurrency",
+        "topics": [
+          "ACID properties explained",
+          "Starting transactions: BEGIN, START TRANSACTION",
+          "COMMIT and ROLLBACK",
+          "Savepoints in transactions",
+          "Autocommit mode",
+          "Isolation levels: READ UNCOMMITTED, READ COMMITTED",
+          "REPEATABLE READ, SERIALIZABLE",
+          "Dirty reads, non-repeatable reads, phantom reads",
+          "Locking mechanisms in MySQL",
+          "Table locks vs row locks",
+          "Deadlock detection and resolution",
+          "Optimistic vs pessimistic locking",
+          "Lock wait timeouts",
+          "Transaction best practices"
+        ],
+        "projects": [
+          "Banking transaction system",
+          "Inventory management with concurrency",
+          "Booking system with lock handling",
+          "Deadlock simulation and resolution"
+        ],
+        "practice": "Implement 20 transactional scenarios"
+      },
+      "week_35": {
+        "title": "Advanced Database Design",
+        "topics": [
+          "Database design methodology",
+          "Requirements gathering",
+          "Conceptual design with ER diagrams",
+          "Logical design and normalization",
+          "Physical design considerations",
+          "Denormalization strategies",
+          "Partitioning tables",
+          "Vertical vs horizontal partitioning",
+          "Sharding concepts",
+          "Archive strategies",
+          "Multi-tenant database design",
+          "Temporal database design",
+          "Database refactoring",
+          "Migration strategies"
+        ],
+        "projects": [
+          "Design multi-tenant SaaS database",
+          "Implement table partitioning",
+          "Create temporal data system",
+          "Database migration project"
+        ],
+        "practice": "Design 10 complex database systems"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Programming Integration",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "MySQL with Python",
+        "topics": [
+          "Python MySQL connectors",
+          "PyMySQL vs mysql-connector-python",
+          "Establishing connections",
+          "Executing queries from Python",
+          "Prepared statements",
+          "Fetching results",
+          "Connection pooling",
+          "ORM with SQLAlchemy",
+          "Database migrations with Alembic",
+          "Async database operations",
+          "Error handling in Python",
+          "Transaction management",
+          "Building data access layer",
+          "Best practices for Python-MySQL"
+        ],
+        "projects": [
+          "Python database application",
+          "REST API with MySQL backend",
+          "Data migration script",
+          "ORM-based application"
+        ],
+        "practice": "Build 10 Python-MySQL applications"
+      },
+      "week_38_39": {
+        "title": "MySQL with Other Languages",
+        "topics": [
+          "JDBC for Java applications",
+          "Connection pooling in Java",
+          "PHP and MySQL integration",
+          "PDO vs mysqli",
+          "Node.js MySQL libraries",
+          "Async operations in Node.js",
+          "C# and .NET with MySQL",
+          "Entity Framework integration",
+          "Ruby on Rails with MySQL",
+          "Go database/sql package",
+          "Connection management patterns",
+          "Query builders vs raw SQL",
+          "Cross-language best practices",
+          "Performance considerations"
+        ],
+        "projects": [
+          "Java web application with MySQL",
+          "Node.js REST API",
+          "PHP web application",
+          "Multi-language database library"
+        ],
+        "practice": "Integrate MySQL with 5 languages"
+      },
+      "week_40_41": {
+        "title": "NoSQL Features in MySQL",
+        "topics": [
+          "JSON data type in MySQL",
+          "JSON functions and operators",
+          "Indexing JSON columns",
+          "Virtual columns from JSON",
+          "Document store with MySQL",
+          "X DevAPI introduction",
+          "Collections and documents",
+          "CRUD operations on documents",
+          "MySQL as document database",
+          "Combining SQL and NoSQL",
+          "Performance of JSON operations",
+          "When to use JSON vs tables",
+          "Migration from NoSQL to MySQL",
+          "Best practices for JSON data"
+        ],
+        "projects": [
+          "Document store application",
+          "Hybrid SQL-NoSQL system",
+          "JSON-based configuration system",
+          "Flexible schema application"
+        ],
+        "practice": "Build 5 JSON-based features"
+      },
+      "week_42_43": {
+        "title": "Testing & Version Control",
+        "topics": [
+          "Database testing strategies",
+          "Unit testing database code",
+          "Integration testing",
+          "Test data generation",
+          "Database mocking",
+          "Performance testing basics",
+          "Load testing with mysqlslap",
+          "Version control for databases",
+          "Schema migration tools",
+          "Liquibase and Flyway",
+          "Database CI/CD pipelines",
+          "Automated deployments",
+          "Rollback strategies",
+          "Documentation practices"
+        ],
+        "projects": [
+          "Test suite for database",
+          "CI/CD pipeline setup",
+          "Migration system implementation",
+          "Automated testing framework"
+        ],
+        "practice": "Create comprehensive test coverage"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complex application design",
+          "Advanced SQL implementation",
+          "Stored procedure development",
+          "Integration with application",
+          "Testing and optimization"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Enterprise Database System",
+          "Build complete database for business application",
+          "Include: procedures, functions, triggers, views",
+          "Integrate with web application"
+        ],
+        "assessment": "Phase 2 exam on advanced SQL and programming"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Administration & Performance (Months 7-9, Weeks 27-39)",
+    "description": "Master database administration, performance tuning, security, and maintenance.",
+    "month_13_14": {
+      "title": "Months 7-8: Database Administration",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "MySQL Architecture & Storage Engines",
+        "topics": [
+          "MySQL server architecture",
+          "Connection layer and thread handling",
+          "Query parser and optimizer",
+          "Storage engine layer",
+          "InnoDB architecture deep dive",
+          "Buffer pool and caching",
+          "InnoDB vs MyISAM comparison",
+          "Memory storage engine",
+          "Archive and CSV engines",
+          "Choosing the right storage engine",
+          "Storage engine conversion",
+          "File structure on disk",
+          "Tablespaces and data files",
+          "Transaction logs and redo logs"
+        ],
+        "projects": [
+          "Storage engine comparison study",
+          "Architecture documentation",
+          "Engine conversion project",
+          "Performance analysis by engine"
+        ],
+        "practice": "Work with 5 different storage engines"
+      },
+      "week_55_56": {
+        "title": "User Management & Security",
+        "topics": [
+          "MySQL security model",
+          "User account management",
+          "CREATE USER and ALTER USER",
+          "Password policies and validation",
+          "Authentication plugins",
+          "Privileges and GRANT system",
+          "Database, table, column privileges",
+          "Stored routine privileges",
+          "Proxy users and roles",
+          "SSL/TLS configuration",
+          "Encrypted connections",
+          "Transparent data encryption",
+          "Audit logging",
+          "Security best practices"
+        ],
+        "projects": [
+          "Implement role-based access control",
+          "SSL setup for production",
+          "Security audit of database",
+          "User management system"
+        ],
+        "practice": "Configure 20 different security scenarios"
+      },
+      "week_57_58": {
+        "title": "Backup & Recovery",
+        "topics": [
+          "Backup strategies overview",
+          "Logical vs physical backups",
+          "mysqldump for logical backups",
+          "Backup options and optimization",
+          "Percona XtraBackup",
+          "Hot backups with InnoDB",
+          "Incremental backups",
+          "Point-in-time recovery",
+          "Binary log backup",
+          "Backup scheduling and automation",
+          "Testing backup integrity",
+          "Recovery procedures",
+          "Disaster recovery planning",
+          "Backup storage strategies"
+        ],
+        "projects": [
+          "Automated backup system",
+          "Point-in-time recovery test",
+          "Disaster recovery plan",
+          "Backup monitoring dashboard"
+        ],
+        "practice": "Perform 20 backup and recovery scenarios"
+      },
+      "week_59_60": {
+        "title": "Performance Tuning Basics",
+        "topics": [
+          "Performance tuning methodology",
+          "Identifying bottlenecks",
+          "EXPLAIN and query analysis",
+          "EXPLAIN FORMAT=JSON",
+          "Visual EXPLAIN in Workbench",
+          "Slow query log analysis",
+          "Performance Schema introduction",
+          "Key performance metrics",
+          "Buffer pool tuning",
+          "Query cache (deprecated but historical)",
+          "Connection pool tuning",
+          "Thread configuration",
+          "I/O optimization",
+          "Operating system tuning"
+        ],
+        "projects": [
+          "Performance baseline establishment",
+          "Slow query optimization",
+          "Server tuning project",
+          "Performance monitoring setup"
+        ],
+        "practice": "Optimize 50 slow queries"
+      },
+      "week_61": {
+        "title": "Monitoring & Maintenance",
+        "topics": [
+          "Monitoring strategies",
+          "MySQL Enterprise Monitor",
+          "Open source monitoring tools",
+          "Prometheus and Grafana",
+          "Key metrics to monitor",
+          "Alert configuration",
+          "Health checks",
+          "Maintenance tasks",
+          "Table maintenance: ANALYZE, OPTIMIZE",
+          "Index maintenance",
+          "Log rotation",
+          "Disk space management",
+          "Upgrade procedures",
+          "Patch management"
+        ],
+        "projects": [
+          "Monitoring dashboard creation",
+          "Alert system implementation",
+          "Maintenance automation",
+          "Health check system"
+        ],
+        "practice": "Set up comprehensive monitoring"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced Performance",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Advanced Performance Tuning",
+        "topics": [
+          "Query optimization techniques",
+          "Index optimization strategies",
+          "Covering indexes",
+          "Index condition pushdown",
+          "Multi-range read optimization",
+          "Join optimization",
+          "Subquery optimization",
+          "Derived table optimization",
+          "Optimizer hints",
+          "Cost-based optimization",
+          "Statistics and histograms",
+          "Parallel query execution",
+          "Resource groups",
+          "Performance regression testing"
+        ],
+        "projects": [
+          "Complex query optimization",
+          "Index strategy redesign",
+          "Performance regression suite",
+          "Optimization case studies"
+        ],
+        "practice": "Optimize 30 complex scenarios"
+      },
+      "week_64_65": {
+        "title": "Performance Schema & Sys Schema",
+        "topics": [
+          "Performance Schema architecture",
+          "Instrumentation and consumers",
+          "Event collection and filtering",
+          "Statement analysis",
+          "Wait event analysis",
+          "Lock wait analysis",
+          "Memory instrumentation",
+          "File I/O instrumentation",
+          "Sys Schema views",
+          "Diagnostic procedures",
+          "Performance reports",
+          "Custom instrumentation",
+          "Integration with monitoring",
+          "Historical performance data"
+        ],
+        "projects": [
+          "Performance analysis toolkit",
+          "Custom performance reports",
+          "Automated diagnostics system",
+          "Performance baseline tracking"
+        ],
+        "practice": "Master all Performance Schema tables"
+      },
+      "week_66_67": {
+        "title": "Scaling MySQL",
+        "topics": [
+          "Vertical vs horizontal scaling",
+          "Read/write splitting",
+          "Connection pooling solutions",
+          "ProxySQL configuration",
+          "Load balancing strategies",
+          "Caching layers: Redis, Memcached",
+          "Query result caching",
+          "Application-level caching",
+          "Database sharding strategies",
+          "Vitess for sharding",
+          "Federation approaches",
+          "Microservices and databases",
+          "Event sourcing patterns",
+          "CQRS implementation"
+        ],
+        "projects": [
+          "Implement read/write splitting",
+          "Caching layer integration",
+          "Sharding proof of concept",
+          "Microservices database design"
+        ],
+        "practice": "Design 5 scaling solutions"
+      },
+      "week_68_69": {
+        "title": "Troubleshooting",
+        "topics": [
+          "Troubleshooting methodology",
+          "Common performance issues",
+          "Deadlock analysis and resolution",
+          "Lock wait timeout issues",
+          "Connection problems",
+          "Replication lag troubleshooting",
+          "Disk space issues",
+          "Corruption detection and repair",
+          "Crash recovery procedures",
+          "Emergency procedures",
+          "Root cause analysis",
+          "Post-mortem practices",
+          "Documentation of issues",
+          "Building runbooks"
+        ],
+        "projects": [
+          "Troubleshooting playbook",
+          "Emergency response procedures",
+          "Issue tracking system",
+          "Knowledge base creation"
+        ],
+        "practice": "Solve 20 troubleshooting scenarios"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Production database design",
+          "Security implementation",
+          "Performance optimization",
+          "Monitoring setup",
+          "Documentation"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Production Database System",
+          "Design and implement production-ready database",
+          "Include: security, backup, monitoring, optimization",
+          "Create complete DBA documentation"
+        ],
+        "assessment": "Phase 3 exam on administration and performance"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: High Availability & Cloud (Months 10-12, Weeks 40-52)",
+    "description": "Master replication, clustering, cloud deployment, and enterprise architecture.",
+    "month_19_20": {
+      "title": "Months 10-11: Replication & High Availability",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "MySQL Replication",
+        "topics": [
+          "Replication concepts and benefits",
+          "Master-slave replication setup",
+          "Binary log formats: STATEMENT, ROW, MIXED",
+          "Replication topologies",
+          "Multi-source replication",
+          "Replication filters",
+          "Semi-synchronous replication",
+          "Delayed replication",
+          "GTID-based replication",
+          "Replication monitoring",
+          "Handling replication lag",
+          "Failover procedures",
+          "Read scaling with replicas",
+          "Backup from replicas"
+        ],
+        "projects": [
+          "Master-slave replication setup",
+          "Multi-master configuration",
+          "Automated failover system",
+          "Replication monitoring dashboard"
+        ],
+        "practice": "Configure 10 replication topologies"
+      },
+      "week_81_82": {
+        "title": "MySQL Group Replication & InnoDB Cluster",
+        "topics": [
+          "Group Replication architecture",
+          "Single-primary vs multi-primary mode",
+          "Automatic failover with Group Replication",
+          "Consistency guarantees",
+          "Network partitioning handling",
+          "InnoDB Cluster components",
+          "MySQL Shell for cluster management",
+          "MySQL Router for routing",
+          "Cluster deployment strategies",
+          "Adding and removing nodes",
+          "Cluster monitoring",
+          "Backup strategies for clusters",
+          "Disaster recovery with clusters",
+          "Performance considerations"
+        ],
+        "projects": [
+          "InnoDB Cluster deployment",
+          "Automatic failover testing",
+          "Cluster expansion project",
+          "DR site configuration"
+        ],
+        "practice": "Manage 5 different cluster configurations"
+      },
+      "week_83_84": {
+        "title": "Alternative HA Solutions",
+        "topics": [
+          "Galera Cluster for MySQL",
+          "Synchronous replication with Galera",
+          "Percona XtraDB Cluster",
+          "MariaDB Galera Cluster",
+          "ProxySQL for high availability",
+          "HAProxy configuration",
+          "Keepalived for VIP management",
+          "Orchestrator for topology management",
+          "MHA (Master High Availability)",
+          "Backup and recovery in HA",
+          "Split-brain prevention",
+          "Quorum and voting",
+          "Geographic distribution",
+          "Cross-datacenter replication"
+        ],
+        "projects": [
+          "Galera Cluster setup",
+          "ProxySQL implementation",
+          "Geographic DR solution",
+          "HA architecture comparison"
+        ],
+        "practice": "Implement 5 HA solutions"
+      },
+      "week_85_86": {
+        "title": "Cloud MySQL - AWS",
+        "topics": [
+          "AWS RDS for MySQL overview",
+          "RDS instance creation and configuration",
+          "Parameter groups and option groups",
+          "RDS backups and snapshots",
+          "Multi-AZ deployments",
+          "Read replicas in RDS",
+          "RDS monitoring with CloudWatch",
+          "RDS security groups and VPC",
+          "Aurora MySQL overview",
+          "Aurora architecture advantages",
+          "Aurora Serverless",
+          "Aurora Global Database",
+          "Migration to RDS/Aurora",
+          "Cost optimization strategies"
+        ],
+        "projects": [
+          "RDS deployment project",
+          "Aurora migration",
+          "Multi-region setup",
+          "Cost optimization study"
+        ],
+        "practice": "Deploy 10 cloud database configurations"
+      },
+      "week_87": {
+        "title": "Cloud MySQL - GCP & Azure",
+        "topics": [
+          "Google Cloud SQL for MySQL",
+          "Cloud SQL high availability",
+          "Cloud SQL read replicas",
+          "Cloud SQL proxy",
+          "Backup and recovery in Cloud SQL",
+          "Azure Database for MySQL",
+          "Azure flexible server",
+          "Azure high availability options",
+          "Cross-cloud considerations",
+          "Multi-cloud strategies",
+          "Cloud migration tools",
+          "Database Activity Monitoring",
+          "Compliance in cloud",
+          "Cloud cost management"
+        ],
+        "projects": [
+          "Google Cloud SQL deployment",
+          "Azure MySQL setup",
+          "Multi-cloud architecture",
+          "Cloud comparison study"
+        ],
+        "practice": "Master all major cloud platforms"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Enterprise & Career",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Enterprise Architecture",
+        "topics": [
+          "Enterprise database patterns",
+          "Microservices and databases",
+          "Event-driven architecture",
+          "Change data capture (CDC)",
+          "Database federation",
+          "Data warehouse integration",
+          "ETL processes with MySQL",
+          "Real-time analytics",
+          "Data lake integration",
+          "Hybrid transactional/analytical processing",
+          "Multi-tenant architectures",
+          "Compliance and regulations",
+          "GDPR considerations",
+          "Enterprise monitoring solutions"
+        ],
+        "projects": [
+          "Enterprise architecture design",
+          "Microservices database pattern",
+          "CDC implementation",
+          "Compliance audit system"
+        ],
+        "practice": "Design 5 enterprise solutions"
+      },
+      "week_90_91": {
+        "title": "Migration & Upgrades",
+        "topics": [
+          "Migration planning and assessment",
+          "Homogeneous migrations (MySQL to MySQL)",
+          "Heterogeneous migrations (Oracle to MySQL)",
+          "AWS Database Migration Service",
+          "Data validation strategies",
+          "Minimal downtime migrations",
+          "Blue-green deployments",
+          "Rolling upgrades",
+          "Major version upgrades",
+          "Testing migration procedures",
+          "Rollback planning",
+          "Post-migration optimization",
+          "Documentation requirements",
+          "Migration tools comparison"
+        ],
+        "projects": [
+          "Migration from legacy system",
+          "Zero-downtime upgrade",
+          "Cross-version migration",
+          "Migration automation toolkit"
+        ],
+        "practice": "Execute 10 migration scenarios"
+      },
+      "week_92_93": {
+        "title": "DevOps for Databases",
+        "topics": [
+          "Database DevOps principles",
+          "Infrastructure as Code for databases",
+          "Terraform for MySQL",
+          "Ansible for database automation",
+          "Database CI/CD pipelines",
+          "Automated testing strategies",
+          "Schema version control",
+          "Blue-green database deployments",
+          "Feature flags for databases",
+          "Database observability",
+          "SRE practices for databases",
+          "Incident management",
+          "Capacity planning",
+          "Cost optimization automation"
+        ],
+        "projects": [
+          "Complete DevOps pipeline",
+          "IaC for database infrastructure",
+          "Automated testing framework",
+          "Observability platform"
+        ],
+        "practice": "Implement full DevOps workflow"
+      },
+      "week_94_95": {
+        "title": "Career Development",
+        "topics": [
+          "Database career paths",
+          "DBA vs Database Developer",
+          "Database Architect role",
+          "Data Engineer considerations",
+          "Certification preparation (MySQL, cloud)",
+          "Resume building for database roles",
+          "Interview preparation",
+          "Technical interview questions",
+          "Practical test preparation",
+          "Salary negotiation",
+          "Freelancing as database expert",
+          "Consulting opportunities",
+          "Continuous learning strategies",
+          "Community involvement"
+        ],
+        "projects": [
+          "Professional portfolio",
+          "Certification study plan",
+          "Interview preparation kit",
+          "Career roadmap"
+        ],
+        "practice": "Complete mock interviews"
+      },
+      "week_96": {
+        "title": "Final Project & Graduation",
+        "topics": [
+          "Capstone project planning",
+          "Real-world problem solving",
+          "Complete system design",
+          "Implementation best practices",
+          "Documentation standards",
+          "Presentation skills",
+          "Peer review process",
+          "Industry best practices",
+          "Future learning paths",
+          "Alumni network",
+          "Continuous improvement",
+          "Industry connections"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Enterprise Database Solution",
+          "Design complete database system for real business",
+          "Include: HA, replication, cloud deployment, monitoring",
+          "Full documentation and presentation",
+          "Production deployment plan"
+        ],
+        "assessment": "Final comprehensive exam and project defense"
+      }
+    },
+    "month_23": {
+      "title": "Continuous Learning & Specialization",
+      "weeks": "Ongoing",
+      "week_97": {
+        "title": "Staying Current",
+        "topics": [
+          "Following MySQL development",
+          "New version features",
+          "Community involvement",
+          "Contributing to MySQL",
+          "Bug reporting",
+          "Feature requests",
+          "MySQL forums and groups",
+          "Conferences and meetups",
+          "Webinars and training",
+          "Certification maintenance",
+          "Blog writing",
+          "Knowledge sharing"
+        ],
+        "projects": [
+          "Learning plan creation",
+          "Community contribution",
+          "Knowledge base development",
+          "Mentoring program"
+        ],
+        "practice": "Dedicate 5 hours weekly to learning"
+      },
+      "week_98": {
+        "title": "Specialization Options",
+        "topics": [
+          "Performance specialist path",
+          "Security specialist focus",
+          "Cloud database expert",
+          "High availability specialist",
+          "Database architect path",
+          "Data warehouse specialist",
+          "NoSQL integration expert",
+          "DevOps for databases",
+          "Machine learning databases",
+          "Time-series databases",
+          "Graph databases in MySQL",
+          "Consultant specialization"
+        ],
+        "projects": [
+          "Specialization deep dive",
+          "Expert-level project",
+          "Certification in specialty",
+          "Thought leadership content"
+        ],
+        "practice": "Master chosen specialization"
+      },
+      "week_99": {
+        "title": "Advanced Topics",
+        "topics": [
+          "MySQL source code",
+          "Custom storage engines",
+          "Plugin development",
+          "Contributing to MySQL",
+          "Performance benchmarking",
+          "Advanced debugging",
+          "Kernel tuning for MySQL",
+          "Hardware optimization",
+          "SSD and NVMe optimization",
+          "Network optimization",
+          "Future of MySQL",
+          "Emerging technologies"
+        ],
+        "projects": [
+          "Advanced research project",
+          "Custom MySQL feature",
+          "Performance study",
+          "Innovation prototype"
+        ],
+        "practice": "Explore cutting-edge features"
+      },
+      "week_100": {
+        "title": "Leadership & Mentorship",
+        "topics": [
+          "Technical leadership",
+          "Team management",
+          "Knowledge transfer",
+          "Mentoring juniors",
+          "Best practices enforcement",
+          "Architecture decisions",
+          "Strategic planning",
+          "Budget management",
+          "Vendor relationships",
+          "Risk management",
+          "Disaster planning",
+          "Business alignment"
+        ],
+        "projects": [
+          "Team guidelines creation",
+          "Mentorship program design",
+          "Strategic roadmap",
+          "Knowledge repository"
+        ],
+        "practice": "Lead database initiatives"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 15+ basic database projects - schemas, queries, relationships",
+      "Phase 2: 20+ advanced projects - procedures, functions, integrations",
+      "Phase 3: 15+ admin projects - security, performance, monitoring",
+      "Phase 4: 10+ enterprise projects - HA, cloud, architecture",
+      "Total: 60+ database projects from simple to enterprise scale"
+    ],
+    "total_projects_built": "60+ database projects across all complexity levels",
+    "skills_mastered": [
+      "SQL: Complete mastery from basics to advanced",
+      "Database Design: Normalization, ER diagrams, best practices",
+      "Programming: Stored procedures, functions, triggers, events",
+      "Administration: User management, security, backup, recovery",
+      "Performance: Query optimization, indexing, monitoring, tuning",
+      "High Availability: Replication, clustering, failover",
+      "Cloud: AWS RDS, Aurora, GCP Cloud SQL, Azure Database",
+      "Integration: Python, Java, PHP, Node.js, ORMs",
+      "DevOps: CI/CD, automation, IaC, monitoring",
+      "Architecture: Scaling, sharding, microservices",
+      "Tools: MySQL Workbench, phpMyAdmin, Percona Toolkit",
+      "Troubleshooting: Diagnostics, debugging, problem solving"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-4 hours",
+      "hands_on_coding": "6-8 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "12-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly SQL workshops and DBA sessions",
+      "mentorship": "1-on-1 guidance from senior DBAs",
+      "community": "Active Discord community of database professionals",
+      "code_review": "Expert review of database designs and queries",
+      "career_support": "Resume review, interview prep, certification guidance",
+      "lifetime_access": "All content and future MySQL version updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "Certified MySQL Database Administrator",
+      "linkedin_badge": "Verified LinkedIn credential",
+      "industry_recognized": "Preparation for Oracle MySQL certifications",
+      "portfolio_projects": "60+ documented database projects",
+      "cloud_certifications": "Preparation for AWS, GCP, Azure database certs"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal education required",
+    "coding_experience": "None required - we start from basics",
+    "equipment": "Computer with 4GB+ RAM, any OS",
+    "time_commitment": "12-15 hours per week",
+    "english": "Basic reading and comprehension",
+    "motivation": "Interest in data and database systems"
+  },
+  "who_is_this_for": {
+    "students": "CS students wanting database expertise",
+    "working_professionals": "Developers wanting to master databases",
+    "entrepreneurs": "Building data-driven applications",
+    "freelancers": "Offering database services",
+    "kids": "Not suitable - recommended age 16+",
+    "anyone": "Anyone working with data and applications"
+  },
+  "career_paths_after_completion": [
+    "Database Administrator (DBA)",
+    "Database Developer",
+    "Database Architect",
+    "Data Engineer",
+    "MySQL Consultant",
+    "Cloud Database Specialist",
+    "Performance Tuning Expert",
+    "Database DevOps Engineer",
+    "Backend Developer (Database Focus)",
+    "Business Intelligence Developer",
+    "Database Security Specialist"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹4-6 LPA (Junior Database Developer)",
+    "after_12_months": "₹6-12 LPA (Database Administrator)",
+    "after_18_months": "₹10-20 LPA (Senior DBA)",
+    "after_24_months": "₹15-35+ LPA (Database Architect)",
+    "freelance": "₹1500-5000/hour",
+    "international": "$60k-130k USD based on location and experience"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Job placement support with IT companies",
+    "lifetime_updates": "Free access to all future content",
+    "mentorship": "Dedicated mentor throughout journey",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Production-ready database portfolio"
+  }
+}

@@ -1,0 +1,2004 @@
+{
+  "meta": {
+    "slug": "competitive-programming-masterclass",
+    "title": "Complete Competitive Programming Masterclass - From Beginner to Grandmaster",
+    "description": "The most comprehensive 6-month competitive programming program. Master algorithms, data structures, problem-solving techniques, and compete in international contests. From zero to Codeforces Expert/Master level.",
+    "keywords": [
+      "competitive programming",
+      "codeforces",
+      "codechef",
+      "atcoder",
+      "icpc",
+      "google code jam",
+      "facebook hacker cup",
+      "algorithms",
+      "data structures",
+      "problem solving",
+      "contest programming",
+      "dynamic programming",
+      "graph theory",
+      "number theory",
+      "combinatorics"
+    ],
+    "category": "Competitive Programming & Algorithms",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2999/month",
+      "lifetime": "₹17,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Expert Competitive Programmer",
+    "commitment": "20-25 hours/week recommended",
+    "certification": "Competitive Programming Expert Certification"
+  },
+  "program_overview": {
+    "title": "Complete Competitive Programming Masterclass",
+    "tagline": "From Zero to Contest Champion in 6 Months",
+    "description": "This intensive 6-month program transforms beginners into expert competitive programmers capable of competing in top-tier programming contests. Master every algorithm, data structure, and problem-solving technique used in competitive programming.\n\nYou'll solve 1000+ problems, participate in 100+ contests, learn advanced algorithms, master dynamic programming, conquer graph theory, and develop the speed and accuracy needed for top rankings. By completion, you'll be ready for ICPC, Google Code Jam, and achieve high ratings on platforms like Codeforces and CodeChef.",
+    "what_makes_this_different": [
+      "Start from absolute basics with C++ STL",
+      "1000+ carefully curated problems with video editorials",
+      "Live contest participation and analysis",
+      "Speed programming techniques and shortcuts",
+      "Mathematical foundations for CP",
+      "Team contest strategies for ICPC",
+      "Rating improvement guaranteed approach",
+      "Mental preparation and contest psychology"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): C++ STL, Basic DS/Algo, Easy Problems",
+      "phase_2": "Intermediate (Months 3-4): Advanced DS, DP, Graphs, Mathematics",
+      "phase_3": "Advanced (Months 5-6): Expert Algorithms, Optimization, Contest Mastery"
+    },
+    "career_outcomes": [
+      "Codeforces Pupil (after 2 months)",
+      "Codeforces Specialist (after 3 months)",
+      "Codeforces Expert (after 5 months)",
+      "Master/International Master potential (after 6 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Problem Solving Basics (Months 1-2, Weeks 1-8)",
+    "description": "Build strong foundations in C++ STL, basic algorithms, and develop problem-solving mindset.",
+    "month_1_2": {
+      "title": "Month 1: C++ Mastery & Basic Algorithms",
+      "weeks": "Week 1-4",
+      "week_1_2": {
+        "title": "C++ STL & Fast I/O",
+        "topics": [
+          "Competitive programming introduction and platforms",
+          "Why C++ for competitive programming",
+          "Fast I/O techniques: ios_base, cin.tie",
+          "C++ STL containers: vector, set, map, queue, stack",
+          "STL algorithms: sort, binary_search, lower_bound, upper_bound",
+          "Pairs and tuples usage",
+          "Priority queue and custom comparators",
+          "Multiset and multimap",
+          "Unordered containers and hashing",
+          "Bitset for optimization",
+          "Template programming basics",
+          "Macro definitions and shortcuts"
+        ],
+        "projects": [
+          "CP template creation",
+          "STL practice problems set",
+          "Fast I/O benchmarking"
+        ],
+        "practice": "Solve 50 STL-based problems",
+        "contests": [
+          "Codeforces Div 3 rounds",
+          "AtCoder Beginner Contest",
+          "CodeChef Starters"
+        ],
+        "problems": [
+          "A+B Problem variations",
+          "Array manipulation basics",
+          "Sorting and searching",
+          "STL container problems",
+          "Simple implementation"
+        ]
+      },
+      "week_3_4": {
+        "title": "Time Complexity & Basic Algorithms",
+        "topics": [
+          "Time and space complexity analysis",
+          "Big O notation mastery",
+          "Common time complexities in CP",
+          "Estimating execution time from complexity",
+          "Greedy algorithms and proofs",
+          "Two pointers technique",
+          "Sliding window problems",
+          "Prefix sums and difference arrays",
+          "Binary search on answer",
+          "Ternary search basics",
+          "Meet in the middle technique",
+          "Coordinate compression"
+        ],
+        "projects": [
+          "Complexity analyzer tool",
+          "Algorithm visualization",
+          "Problem approach templates"
+        ],
+        "practice": "Master 60 basic algorithm problems",
+        "contests": [
+          "Educational Codeforces rounds",
+          "CodeChef Lunchtime",
+          "AtCoder ABC participation"
+        ],
+        "problems": [
+          "Two Sum variations",
+          "Maximum subarray sum",
+          "Binary search problems",
+          "Greedy selection problems",
+          "Sliding window maximum"
+        ]
+      },
+      "week_5_6": {
+        "title": "Basic Data Structures",
+        "topics": [
+          "Arrays and vectors optimization",
+          "Linked lists in competitive programming",
+          "Stacks and queues applications",
+          "Deque and its uses",
+          "Hash tables and collision handling",
+          "Custom hash functions",
+          "Binary heap implementation",
+          "Disjoint Set Union (DSU) basics",
+          "Sparse tables introduction",
+          "Square root decomposition basics",
+          "Monotonic stack and queue",
+          "Policy based data structures"
+        ],
+        "projects": [
+          "Data structure library",
+          "Custom implementations",
+          "Performance comparison tool"
+        ],
+        "practice": "Implement and use 40 DS problems",
+        "contests": [
+          "Codeforces Div 2",
+          "Google Kick Start",
+          "Facebook Hacker Cup Qualification"
+        ],
+        "problems": [
+          "Next Greater Element",
+          "LRU Cache implementation",
+          "Min Stack",
+          "Sliding Window problems",
+          "Range query basics"
+        ]
+      },
+      "week_7_8": {
+        "title": "Recursion & Backtracking",
+        "topics": [
+          "Recursion optimization techniques",
+          "Memoization strategies",
+          "Backtracking framework",
+          "Pruning techniques",
+          "N-Queens and variations",
+          "Sudoku solver optimization",
+          "Permutation generation",
+          "Combination generation",
+          "Subset generation optimized",
+          "Bitmask techniques basics",
+          "State space reduction",
+          "Iterative vs recursive approaches"
+        ],
+        "projects": [
+          "Backtracking solver framework",
+          "Optimization comparisons",
+          "Contest problem generator"
+        ],
+        "practice": "Solve 50 recursion/backtracking problems",
+        "contests": [
+          "Weekly participation in 3 platforms",
+          "Virtual contests practice",
+          "Upsolving sessions"
+        ],
+        "problems": [
+          "Generate Parentheses",
+          "Word Search",
+          "Combination Sum variants",
+          "Palindrome Partitioning",
+          "Graph coloring"
+        ]
+      }
+    },
+    "month_3_4": {
+      "title": "Month 2: Mathematics & Number Theory",
+      "weeks": "Week 5-8",
+      "week_9_10": {
+        "title": "Number Theory Fundamentals",
+        "topics": [
+          "Prime numbers and sieve of Eratosthenes",
+          "Segmented sieve for large ranges",
+          "Prime factorization techniques",
+          "GCD and LCM algorithms",
+          "Extended Euclidean algorithm",
+          "Modular arithmetic and properties",
+          "Modular inverse calculation",
+          "Fast exponentiation",
+          "Fermat's little theorem",
+          "Wilson's theorem",
+          "Chinese Remainder Theorem",
+          "Linear Diophantine equations"
+        ],
+        "projects": [
+          "Number theory library",
+          "Prime utilities toolkit",
+          "Modular arithmetic calculator"
+        ],
+        "practice": "Master 60 number theory problems",
+        "contests": [
+          "Codeforces Div 2",
+          "CodeChef Cook-Off",
+          "AtCoder Regular Contest"
+        ],
+        "problems": [
+          "Prime factorization problems",
+          "GCD/LCM problems",
+          "Modular equation solving",
+          "Counting divisors",
+          "Euler's totient function"
+        ]
+      },
+      "week_11_12": {
+        "title": "Combinatorics & Probability",
+        "topics": [
+          "Permutations and combinations",
+          "Pascal's triangle and properties",
+          "Binomial coefficients calculation",
+          "nCr with modulo computation",
+          "Catalan numbers and applications",
+          "Stirling numbers basics",
+          "Inclusion-exclusion principle",
+          "Pigeonhole principle applications",
+          "Probability in competitive programming",
+          "Expected value problems",
+          "Generating functions basics",
+          "Counting techniques"
+        ],
+        "projects": [
+          "Combinatorics calculator",
+          "Probability simulator",
+          "Counting problems solver"
+        ],
+        "practice": "Solve 50 combinatorics problems",
+        "contests": [
+          "Mathematical contests focus",
+          "Project Euler problems",
+          "Math-heavy contest rounds"
+        ],
+        "problems": [
+          "Counting paths in grid",
+          "Derangement problems",
+          "Ball and box problems",
+          "Expected value calculations",
+          "Game theory basics"
+        ]
+      },
+      "week_13_14": {
+        "title": "Bit Manipulation Mastery",
+        "topics": [
+          "Bitwise operations deep dive",
+          "Bit manipulation tricks and hacks",
+          "Finding single element problems",
+          "XOR properties and applications",
+          "Subset generation using bits",
+          "Bitmask dynamic programming intro",
+          "Gray code and applications",
+          "Bit parallel algorithms",
+          "Counting set bits efficiently",
+          "__builtin functions in GCC",
+          "Bitwise sieve",
+          "Space optimization with bits"
+        ],
+        "projects": [
+          "Bit manipulation library",
+          "Bitwise algorithm collection",
+          "Space-optimized solutions"
+        ],
+        "practice": "Master 40 bit manipulation problems",
+        "contests": [
+          "Focus on implementation contests",
+          "Speed coding practice",
+          "Div 3 rounds for confidence"
+        ],
+        "problems": [
+          "XOR queries",
+          "Maximum XOR problems",
+          "Subset XOR problems",
+          "Bit difference problems",
+          "Power set generation"
+        ]
+      },
+      "week_15_16": {
+        "title": "Sorting & Searching Advanced",
+        "topics": [
+          "Quick sort optimizations",
+          "Merge sort applications",
+          "Counting sort and radix sort",
+          "Bucket sort for decimals",
+          "Binary search variations",
+          "Parallel binary search",
+          "Ternary search on functions",
+          "Search on monotonic functions",
+          "Fractional cascading basics",
+          "Order statistics",
+          "K-th smallest element algorithms",
+          "Median finding in O(n)"
+        ],
+        "projects": [
+          "Sorting algorithm library",
+          "Search optimization toolkit",
+          "Performance benchmarks"
+        ],
+        "practice": "Solve 50 sorting/searching problems",
+        "contests": [
+          "Speed improvement focus",
+          "Time limit challenging problems",
+          "Optimization contests"
+        ],
+        "problems": [
+          "Inversion count",
+          "Median of two arrays",
+          "K closest points",
+          "Search in rotated array",
+          "Aggressive cows problem"
+        ]
+      },
+      "week_17": {
+        "title": "Phase 1 Assessment",
+        "topics": [
+          "Foundation skills review",
+          "Speed coding assessment",
+          "Problem-solving patterns",
+          "Contest performance analysis",
+          "Weakness identification"
+        ],
+        "projects": [
+          "CAPSTONE: Virtual Contest Marathon",
+          "Participate in 10 virtual contests",
+          "Achieve consistent problem solving"
+        ],
+        "assessment": "Phase 1 Exam - Solve 5 problems in 2 hours"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 3-4: Trees, Graphs & Dynamic Programming",
+      "weeks": "Week 9-17",
+      "week_18_19": {
+        "title": "Tree Algorithms",
+        "topics": [
+          "Tree traversals optimization",
+          "Binary tree problems",
+          "Binary search tree operations",
+          "Tree DP fundamentals",
+          "LCA using binary lifting",
+          "Distance between nodes",
+          "Centroid decomposition",
+          "Heavy-light decomposition basics",
+          "Euler tour technique",
+          "Tree flattening",
+          "Rerooting technique",
+          "Tree isomorphism"
+        ],
+        "projects": [
+          "Tree algorithms library",
+          "LCA implementations comparison",
+          "Tree problem solver"
+        ],
+        "practice": "Master 60 tree problems",
+        "contests": [
+          "Codeforces Div 1+2",
+          "AtCoder Grand Contest",
+          "TopCoder SRM"
+        ],
+        "problems": [
+          "Tree diameter",
+          "Path queries on tree",
+          "Subtree queries",
+          "Tree matching",
+          "Binary lifting problems"
+        ]
+      },
+      "week_20_21": {
+        "title": "Graph Algorithms Fundamentals",
+        "topics": [
+          "Graph representations optimization",
+          "DFS and BFS optimizations",
+          "Connected components",
+          "Strongly connected components",
+          "Topological sorting applications",
+          "Cycle detection algorithms",
+          "Bipartite checking and matching",
+          "Articulation points and bridges",
+          "Kosaraju's and Tarjan's algorithms",
+          "2-SAT problem solving",
+          "Eulerian path algorithms",
+          "Graph coloring algorithms"
+        ],
+        "projects": [
+          "Graph library implementation",
+          "Graph visualizer",
+          "Algorithm comparison tool"
+        ],
+        "practice": "Solve 70 graph problems",
+        "contests": [
+          "Graph-focused contests",
+          "ICPC style problems",
+          "Team practice rounds"
+        ],
+        "problems": [
+          "Cycle detection variants",
+          "SCC applications",
+          "Bipartite matching",
+          "Bridge finding",
+          "Minimum vertex cover"
+        ]
+      },
+      "week_22_23": {
+        "title": "Shortest Paths & MST",
+        "topics": [
+          "Dijkstra's algorithm optimizations",
+          "Bellman-Ford and negative cycles",
+          "Floyd-Warshall applications",
+          "Johnson's algorithm",
+          "K-shortest paths",
+          "Shortest path in DAG",
+          "0-1 BFS technique",
+          "Dial's algorithm",
+          "Kruskal's and Prim's MST",
+          "Minimum spanning forest",
+          "Second best MST",
+          "Minimum bottleneck spanning tree"
+        ],
+        "projects": [
+          "Path finding library",
+          "MST solver toolkit",
+          "Graph optimization suite"
+        ],
+        "practice": "Master 50 path/MST problems",
+        "contests": [
+          "Educational rounds focus",
+          "Implementation heavy contests",
+          "Graph theory rounds"
+        ],
+        "problems": [
+          "Multi-source shortest path",
+          "Path reconstruction",
+          "MST with constraints",
+          "Dynamic MST",
+          "Shortest path queries"
+        ]
+      },
+      "week_24_25": {
+        "title": "Dynamic Programming Basics",
+        "topics": [
+          "DP state definition techniques",
+          "Top-down vs bottom-up approaches",
+          "1D DP classic problems",
+          "2D DP patterns",
+          "Space optimization techniques",
+          "DP on sequences",
+          "LIS and LCS variations",
+          "Knapsack problem variations",
+          "Subset sum problems",
+          "Partition problems",
+          "DP with probability",
+          "Expected value DP"
+        ],
+        "projects": [
+          "DP problem classifier",
+          "State transition visualizer",
+          "DP optimization toolkit"
+        ],
+        "practice": "Solve 80 DP problems",
+        "contests": [
+          "DP-focused contests",
+          "AtCoder DP contest",
+          "Classic DP rounds"
+        ],
+        "problems": [
+          "Coin change variants",
+          "Edit distance",
+          "Matrix chain multiplication",
+          "Optimal BST",
+          "Palindrome problems"
+        ]
+      },
+      "week_26": {
+        "title": "Phase 2 Assessment",
+        "topics": [
+          "Intermediate skills evaluation",
+          "Algorithm implementation speed",
+          "Problem pattern recognition",
+          "Contest rating improvement",
+          "Advanced topics readiness"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Algorithm Library",
+          "Build comprehensive CP library",
+          "Include all learned algorithms"
+        ],
+        "assessment": "Phase 2 Exam - Solve 4 problems in 2.5 hours"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Algorithms & Contest Strategy (Months 3-4, Weeks 9-17)",
+    "description": "Master advanced algorithms, dynamic programming patterns, and develop contest-winning strategies.",
+    "month_7_8": {
+      "title": "Month 3: Advanced Dynamic Programming",
+      "weeks": "Week 9-13",
+      "week_27_28": {
+        "title": "DP Optimization Techniques",
+        "topics": [
+          "Convex hull trick",
+          "Li Chao tree",
+          "Divide and conquer optimization",
+          "Knuth-Yao speedup",
+          "Monotone queue optimization",
+          "Slope trick",
+          "Aliens trick (WQS binary search)",
+          "CHT for DP optimization",
+          "Matrix exponentiation for DP",
+          "DP on broken profile",
+          "SOS DP (Sum over Subsets)",
+          "Profile optimization"
+        ],
+        "projects": [
+          "DP optimization library",
+          "Convex hull implementation",
+          "Matrix exponentiation toolkit"
+        ],
+        "practice": "Master 40 optimized DP problems",
+        "contests": [
+          "Codeforces Div 1",
+          "AtCoder Grand Contest",
+          "Google Code Jam rounds"
+        ],
+        "problems": [
+          "Optimal binary search tree",
+          "Computer game DP",
+          "Broken profile problems",
+          "DP with CHT",
+          "Matrix power problems"
+        ]
+      },
+      "week_29_30": {
+        "title": "Bitmask DP & DP on Trees",
+        "topics": [
+          "Bitmask DP comprehensive",
+          "Traveling salesman problem",
+          "Hamiltonian path DP",
+          "Profile dynamic programming",
+          "DP on trees advanced",
+          "Subtree DP problems",
+          "Rerooting tree DP",
+          "Tree DP with multiple states",
+          "Centroid decomposition with DP",
+          "Virtual tree technique",
+          "DP on cactus graphs",
+          "DP on DAGs"
+        ],
+        "projects": [
+          "Bitmask DP solver",
+          "Tree DP framework",
+          "State compression tools"
+        ],
+        "practice": "Solve 50 bitmask/tree DP problems",
+        "contests": [
+          "ICPC regional practice",
+          "Hard DP contests",
+          "TopCoder Marathon"
+        ],
+        "problems": [
+          "TSP with constraints",
+          "Assignment problems",
+          "Tree painting problems",
+          "Subtree merging",
+          "Maximum independent set on tree"
+        ]
+      },
+      "week_31_32": {
+        "title": "String Algorithms",
+        "topics": [
+          "KMP algorithm implementation",
+          "Z-algorithm and applications",
+          "Rolling hash and Rabin-Karp",
+          "Polynomial hashing techniques",
+          "Trie data structure advanced",
+          "Aho-Corasick algorithm",
+          "Suffix array construction",
+          "LCP array and applications",
+          "Suffix tree basics",
+          "Manacher's algorithm",
+          "Suffix automaton introduction",
+          "String matching with wildcards"
+        ],
+        "projects": [
+          "String algorithms library",
+          "Pattern matching toolkit",
+          "Suffix structures implementation"
+        ],
+        "practice": "Master 60 string problems",
+        "contests": [
+          "String-focused rounds",
+          "Implementation contests",
+          "Fast coding practice"
+        ],
+        "problems": [
+          "Pattern matching variants",
+          "Longest palindromic substring",
+          "String hashing problems",
+          "Suffix array problems",
+          "Multiple pattern matching"
+        ]
+      },
+      "week_33_34": {
+        "title": "Advanced Graph Algorithms",
+        "topics": [
+          "Network flow algorithms",
+          "Ford-Fulkerson and Edmonds-Karp",
+          "Dinic's algorithm",
+          "Push-relabel algorithm",
+          "Min-cost max-flow",
+          "Maximum bipartite matching",
+          "Hall's marriage theorem",
+          "Hopcroft-Karp algorithm",
+          "Hungarian algorithm",
+          "Gomory-Hu tree",
+          "Global min-cut",
+          "Stoer-Wagner algorithm"
+        ],
+        "projects": [
+          "Flow network library",
+          "Matching algorithms suite",
+          "Flow visualization tool"
+        ],
+        "practice": "Solve 40 flow/matching problems",
+        "contests": [
+          "Advanced algorithm rounds",
+          "ICPC World Finals problems",
+          "Hard graph contests"
+        ],
+        "problems": [
+          "Maximum flow variants",
+          "Minimum cut problems",
+          "Assignment problems",
+          "Circulation problems",
+          "Project selection"
+        ]
+      },
+      "week_35": {
+        "title": "Game Theory",
+        "topics": [
+          "Nim game and variations",
+          "Sprague-Grundy theorem",
+          "Game theory with DP",
+          "Minimax algorithm",
+          "Alpha-beta pruning",
+          "Combinatorial games",
+          "Partisan vs impartial games",
+          "Multi-player games",
+          "Probabilistic games",
+          "Game on graphs",
+          "Hackenbush game",
+          "Conway's soldiers"
+        ],
+        "projects": [
+          "Game theory solver",
+          "Nim calculator",
+          "Game position evaluator"
+        ],
+        "practice": "Master 30 game theory problems",
+        "contests": [
+          "Strategy-focused contests",
+          "Interactive problems",
+          "Game theory rounds"
+        ],
+        "problems": [
+          "Nim variants",
+          "Grundy numbers",
+          "Game on tree",
+          "Coins game",
+          "Chess-based problems"
+        ]
+      }
+    },
+    "month_9_10": {
+      "title": "Month 4: Data Structures & Optimization",
+      "weeks": "Week 14-17",
+      "week_36_37": {
+        "title": "Advanced Data Structures",
+        "topics": [
+          "Segment tree with lazy propagation",
+          "Persistent segment tree",
+          "Dynamic segment tree",
+          "2D segment tree",
+          "Fenwick tree (BIT) advanced",
+          "2D Fenwick tree",
+          "Range update range query",
+          "Merge sort tree",
+          "Wavelet tree",
+          "Treap and Cartesian tree",
+          "Splay tree basics",
+          "Link-cut tree introduction"
+        ],
+        "projects": [
+          "Segment tree library",
+          "Range query toolkit",
+          "Persistent DS implementation"
+        ],
+        "practice": "Implement 50 DS problems",
+        "contests": [
+          "Data structure heavy rounds",
+          "Range query contests",
+          "Implementation challenges"
+        ],
+        "problems": [
+          "Range minimum query",
+          "Range sum with updates",
+          "Persistent queries",
+          "2D range queries",
+          "Dynamic connectivity"
+        ]
+      },
+      "week_38_39": {
+        "title": "Computational Geometry",
+        "topics": [
+          "2D geometry primitives",
+          "Cross and dot products",
+          "Line intersection algorithms",
+          "Polygon area and perimeter",
+          "Point in polygon test",
+          "Convex hull algorithms",
+          "Graham scan and Jarvis march",
+          "Rotating calipers technique",
+          "Closest pair of points",
+          "Line sweep algorithms",
+          "Voronoi diagrams basics",
+          "Delaunay triangulation intro"
+        ],
+        "projects": [
+          "Geometry library",
+          "Convex hull visualizer",
+          "Geometric algorithm toolkit"
+        ],
+        "practice": "Solve 40 geometry problems",
+        "contests": [
+          "Geometry-focused rounds",
+          "Precision handling practice",
+          "2D/3D geometry contests"
+        ],
+        "problems": [
+          "Convex hull problems",
+          "Area calculations",
+          "Intersection problems",
+          "Distance problems",
+          "Sweep line problems"
+        ]
+      },
+      "week_40_41": {
+        "title": "Advanced Number Theory",
+        "topics": [
+          "Miller-Rabin primality test",
+          "Pollard rho factorization",
+          "Discrete logarithm",
+          "Baby-step giant-step",
+          "Primitive roots",
+          "Mobius function and inversion",
+          "Multiplicative functions",
+          "Dirichlet convolution",
+          "Linear sieve",
+          "Gaussian elimination modulo",
+          "Matrix operations in field",
+          "FFT and NTT basics"
+        ],
+        "projects": [
+          "Advanced number theory library",
+          "Factorization toolkit",
+          "FFT implementation"
+        ],
+        "practice": "Master 35 advanced math problems",
+        "contests": [
+          "Mathematical contests",
+          "Number theory rounds",
+          "Project Euler problems"
+        ],
+        "problems": [
+          "Large prime testing",
+          "Factorization problems",
+          "Discrete log problems",
+          "FFT multiplication",
+          "Polynomial operations"
+        ]
+      },
+      "week_42_43": {
+        "title": "Optimization & Heuristics",
+        "topics": [
+          "Simulated annealing",
+          "Genetic algorithms basics",
+          "Hill climbing",
+          "Branch and bound advanced",
+          "Meet in the middle optimization",
+          "Sqrt decomposition applications",
+          "Mo's algorithm",
+          "Parallel binary search",
+          "Fractional cascading",
+          "Heavy path decomposition",
+          "Centroid path decomposition",
+          "Cache optimization techniques"
+        ],
+        "projects": [
+          "Optimization framework",
+          "Heuristic solver",
+          "Performance profiler"
+        ],
+        "practice": "Optimize 30 TLE solutions",
+        "contests": [
+          "Marathon matches",
+          "Optimization contests",
+          "Heuristic challenges"
+        ],
+        "problems": [
+          "TSP approximations",
+          "Scheduling problems",
+          "Packing problems",
+          "Resource allocation",
+          "Load balancing"
+        ]
+      },
+      "week_44": {
+        "title": "Interactive & Randomized",
+        "topics": [
+          "Interactive problem strategies",
+          "Binary search in interactive",
+          "Graph exploration interactive",
+          "Randomized algorithms",
+          "Monte Carlo methods",
+          "Las Vegas algorithms",
+          "Randomized data structures",
+          "Treap operations",
+          "Skip list basics",
+          "Bloom filters",
+          "Probabilistic counting",
+          "Random sampling techniques"
+        ],
+        "projects": [
+          "Interactive problem solver",
+          "Randomized algorithm library",
+          "Probability tools"
+        ],
+        "practice": "Solve 25 interactive/random problems",
+        "contests": [
+          "Interactive problem rounds",
+          "Codeforces interactive",
+          "GCJ interactive problems"
+        ],
+        "problems": [
+          "Guess the number variants",
+          "Graph exploration",
+          "Hidden array problems",
+          "Randomized solutions",
+          "Probabilistic problems"
+        ]
+      }
+    },
+    "month_11_12": {
+      "title": "Months 5-6: Contest Mastery & Peak Performance",
+      "weeks": "Week 18-26",
+      "week_45_46": {
+        "title": "Contest Strategy & Time Management",
+        "topics": [
+          "Contest strategy development",
+          "Problem selection order",
+          "Time allocation strategies",
+          "Reading all problems first",
+          "Identifying easy problems quickly",
+          "When to skip problems",
+          "Partial scoring strategies",
+          "Hacking and challenges",
+          "System testing preparation",
+          "Rating calculation understanding",
+          "Contest anxiety management",
+          "Peak performance techniques"
+        ],
+        "projects": [
+          "Personal strategy guide",
+          "Contest analysis tool",
+          "Performance tracker"
+        ],
+        "practice": "Participate in 20 rated contests",
+        "contests": [
+          "Daily contest participation",
+          "Multiple platform contests",
+          "Simultaneous contests"
+        ],
+        "problems": [
+          "Speed solving practice",
+          "Various difficulty mix",
+          "Time pressure training"
+        ]
+      },
+      "week_47_48": {
+        "title": "Speed Programming & Templates",
+        "topics": [
+          "Speed coding techniques",
+          "Touch typing for programming",
+          "IDE shortcuts mastery",
+          "Template preparation and usage",
+          "Macro optimization",
+          "Pre-written code segments",
+          "Fast debugging techniques",
+          "Common bug patterns",
+          "Quick testing strategies",
+          "Stress testing methods",
+          "Local testing automation",
+          "Vim/Emacs for CP"
+        ],
+        "projects": [
+          "Ultimate CP template",
+          "Snippet library",
+          "Testing framework"
+        ],
+        "practice": "Speed coding 100 problems",
+        "contests": [
+          "Blitz tournaments",
+          "Speed programming contests",
+          "Short duration rounds"
+        ],
+        "problems": [
+          "Implementation speed",
+          "Quick solutions",
+          "Template usage practice"
+        ]
+      },
+      "week_49_50": {
+        "title": "Team Programming (ICPC Style)",
+        "topics": [
+          "Team contest strategies",
+          "Role distribution in teams",
+          "Communication protocols",
+          "Parallel problem solving",
+          "Code handoff techniques",
+          "Debugging others' code",
+          "Team template preparation",
+          "Contest environment setup",
+          "Printed material preparation",
+          "Team practice sessions",
+          "ICPC regional strategies",
+          "World Finals preparation"
+        ],
+        "projects": [
+          "Team notebook creation",
+          "Role optimization system",
+          "Communication framework"
+        ],
+        "practice": "50 team contest hours",
+        "contests": [
+          "ICPC online rounds",
+          "Team practice contests",
+          "Mock ICPC regionals"
+        ],
+        "problems": [
+          "ICPC past problems",
+          "Team coordination",
+          "Difficult problem sets"
+        ]
+      },
+      "week_51": {
+        "title": "Platform-Specific Mastery",
+        "topics": [
+          "Codeforces: rounds, ratings, hacks",
+          "CodeChef: long, cook-off, lunchtime",
+          "AtCoder: ABC, ARC, AGC differences",
+          "TopCoder: Arena, SRM format",
+          "HackerRank: contests and certifications",
+          "LeetCode: contests and interview prep",
+          "Google competitions: Kick Start, Code Jam",
+          "Facebook Hacker Cup format",
+          "ICPC: regionals, nationals, worlds",
+          "CSAcademy and other platforms",
+          "Platform-specific strategies",
+          "Multi-platform rating management"
+        ],
+        "projects": [
+          "Platform comparison guide",
+          "Rating tracker",
+          "Contest calendar"
+        ],
+        "practice": "Achieve goals on each platform",
+        "contests": [
+          "Platform-specific participation",
+          "Rating improvement focus",
+          "Diverse contest types"
+        ]
+      },
+      "week_52": {
+        "title": "Phase 3 Final Assessment",
+        "topics": [
+          "Comprehensive skill evaluation",
+          "Mock contest marathon",
+          "Weakness elimination",
+          "Rating achievement review",
+          "Future planning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Contest Performance",
+          "Achieve target rating on Codeforces",
+          "Complete 1000+ problems solved"
+        ],
+        "assessment": "Final Exam - 3-hour contest simulation"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Expert Level & Specializations (Months 5-6, Weeks 18-26)",
+    "description": "Master expert-level algorithms, specialized topics, and achieve competitive programming excellence.",
+    "month_13_14": {
+      "title": "Month 5: Expert Algorithms & Techniques",
+      "weeks": "Week 18-22",
+      "week_53_54": {
+        "title": "FFT & Polynomial Algorithms",
+        "topics": [
+          "Fast Fourier Transform complete",
+          "Number Theoretic Transform (NTT)",
+          "Polynomial multiplication",
+          "Polynomial division",
+          "Polynomial interpolation",
+          "Generating functions advanced",
+          "Convolution applications",
+          "XOR convolution",
+          "Subset sum convolution",
+          "Polynomial inverse and sqrt",
+          "Multipoint evaluation",
+          "Chirp Z-transform"
+        ],
+        "projects": [
+          "FFT library complete",
+          "Polynomial operations toolkit",
+          "Convolution solver"
+        ],
+        "practice": "Master 25 FFT/polynomial problems",
+        "contests": [
+          "Advanced math rounds",
+          "Polynomial-heavy contests",
+          "Research-level problems"
+        ],
+        "problems": [
+          "Large number multiplication",
+          "Polynomial operations",
+          "Convolution problems",
+          "Generating function problems",
+          "Signal processing problems"
+        ]
+      },
+      "week_55_56": {
+        "title": "Linear Algebra in CP",
+        "topics": [
+          "Gaussian elimination advanced",
+          "Matrix exponentiation applications",
+          "System of linear equations",
+          "Matrix inverse and determinant",
+          "Basis and linear independence",
+          "XOR basis and applications",
+          "Linear recurrence solving",
+          "Berlekamp-Massey algorithm",
+          "Characteristic polynomial",
+          "Cayley-Hamilton theorem",
+          "Matrix tree theorem",
+          "Spectral graph theory basics"
+        ],
+        "projects": [
+          "Linear algebra library",
+          "Matrix computation toolkit",
+          "Recurrence solver"
+        ],
+        "practice": "Solve 30 linear algebra problems",
+        "contests": [
+          "Mathematical programming",
+          "Matrix-focused rounds",
+          "Advanced algorithms"
+        ],
+        "problems": [
+          "Linear system solving",
+          "Matrix power problems",
+          "XOR basis problems",
+          "Recurrence finding",
+          "Graph spectrum problems"
+        ]
+      },
+      "week_57_58": {
+        "title": "Advanced String Structures",
+        "topics": [
+          "Suffix tree construction",
+          "Suffix automaton complete",
+          "Palindromic tree (Eertree)",
+          "Lyndon decomposition",
+          "Suffix array DC3 algorithm",
+          "SA-IS algorithm",
+          "LCP construction methods",
+          "Enhanced suffix array",
+          "Compressed suffix structures",
+          "Burrows-Wheeler transform",
+          "FM-index basics",
+          "Approximate string matching"
+        ],
+        "projects": [
+          "Advanced string library",
+          "Suffix structure implementations",
+          "String analysis toolkit"
+        ],
+        "practice": "Master 35 advanced string problems",
+        "contests": [
+          "String algorithm contests",
+          "Implementation challenges",
+          "Research problems"
+        ],
+        "problems": [
+          "Suffix tree applications",
+          "Automaton problems",
+          "Palindrome problems",
+          "Text indexing",
+          "Pattern matching variants"
+        ]
+      },
+      "week_59_60": {
+        "title": "Advanced Graph Theory",
+        "topics": [
+          "Planar graphs and testing",
+          "Graph minor theory basics",
+          "Tree decomposition",
+          "Treewidth and pathwidth",
+          "Chordal graphs",
+          "Perfect graphs introduction",
+          "Graph coloring advanced",
+          "Chromatic polynomial",
+          "Tutte polynomial basics",
+          "Expander graphs",
+          "Random graphs",
+          "Algebraic graph theory"
+        ],
+        "projects": [
+          "Advanced graph library",
+          "Graph property tester",
+          "Decomposition algorithms"
+        ],
+        "practice": "Solve 25 advanced graph problems",
+        "contests": [
+          "Research-level contests",
+          "Graph theory specialized",
+          "Theoretical CS problems"
+        ],
+        "problems": [
+          "Planarity testing",
+          "Tree decomposition",
+          "Graph coloring variants",
+          "Minor testing",
+          "Special graph classes"
+        ]
+      },
+      "week_61": {
+        "title": "Approximation Algorithms",
+        "topics": [
+          "Approximation ratios",
+          "Vertex cover approximation",
+          "TSP approximation algorithms",
+          "Set cover approximation",
+          "Bin packing algorithms",
+          "Scheduling approximations",
+          "Facility location problems",
+          "K-center and k-median",
+          "PTAS and FPTAS",
+          "Primal-dual methods",
+          "LP relaxation techniques",
+          "Randomized rounding"
+        ],
+        "projects": [
+          "Approximation algorithm suite",
+          "Performance analyzer",
+          "Heuristic framework"
+        ],
+        "practice": "Implement 20 approximation algorithms",
+        "contests": [
+          "Optimization contests",
+          "Marathon matches",
+          "Approximation challenges"
+        ],
+        "problems": [
+          "NP-hard approximations",
+          "Online algorithms",
+          "Streaming algorithms",
+          "Competitive ratio problems",
+          "Real-world optimization"
+        ]
+      }
+    },
+    "month_15_16": {
+      "title": "Month 6: Peak Performance & Competition",
+      "weeks": "Week 23-26",
+      "week_62_63": {
+        "title": "Research & Cutting Edge",
+        "topics": [
+          "Recent IOI/ICPC problems analysis",
+          "Research paper implementation",
+          "Novel algorithm exploration",
+          "Quantum algorithm basics",
+          "Machine learning in CP",
+          "Parallel algorithms",
+          "Distributed algorithms basics",
+          "External memory algorithms",
+          "Cache-oblivious algorithms",
+          "Succinct data structures",
+          "Compressed data structures",
+          "Future of competitive programming"
+        ],
+        "projects": [
+          "Research implementation",
+          "Novel solution finder",
+          "Algorithm innovation"
+        ],
+        "practice": "Solve 20 research-level problems",
+        "contests": [
+          "IOI-style contests",
+          "ICPC World Finals level",
+          "Research competitions"
+        ],
+        "problems": [
+          "IOI past problems",
+          "ICPC WF problems",
+          "Research challenges",
+          "Open problems",
+          "Novel solutions"
+        ]
+      },
+      "week_64_65": {
+        "title": "Competition Preparation",
+        "topics": [
+          "Major competition strategies",
+          "ICPC World Finals preparation",
+          "IOI preparation techniques",
+          "Google Code Jam Finals",
+          "Facebook Hacker Cup Finals",
+          "TopCoder Open strategies",
+          "Mental preparation",
+          "Physical fitness for contests",
+          "Stress management advanced",
+          "Team coordination mastery",
+          "International competition tips",
+          "Travel and logistics"
+        ],
+        "projects": [
+          "Competition prep guide",
+          "Training schedule",
+          "Peak performance plan"
+        ],
+        "practice": "Simulate major competitions",
+        "contests": [
+          "Mock championships",
+          "High-pressure contests",
+          "Championship qualifiers"
+        ],
+        "problems": [
+          "Championship-level problems",
+          "Time pressure training",
+          "Difficult problem sets"
+        ]
+      },
+      "week_66_67": {
+        "title": "Teaching & Mentoring",
+        "topics": [
+          "Creating programming problems",
+          "Test case generation",
+          "Problem setting for contests",
+          "Solution verification",
+          "Editorial writing",
+          "Video tutorial creation",
+          "Mentoring beginners",
+          "Code review skills",
+          "Building CP community",
+          "Organizing contests",
+          "Judge system understanding",
+          "Contributing to platforms"
+        ],
+        "projects": [
+          "Problem creation toolkit",
+          "Contest organization",
+          "Educational content"
+        ],
+        "practice": "Create 10 original problems",
+        "contests": [
+          "Problem setting practice",
+          "Testing others' problems",
+          "Community contests"
+        ],
+        "problems": [
+          "Original problem creation",
+          "Test case design",
+          "Solution verification",
+          "Multiple solution problems",
+          "Educational problems"
+        ]
+      },
+      "week_68_69": {
+        "title": "Career & Opportunities",
+        "topics": [
+          "CP in technical interviews",
+          "FAANG interview preparation",
+          "Competitive programming careers",
+          "Research opportunities",
+          "Graduate school applications",
+          "CP in resume building",
+          "Networking in CP community",
+          "Internship opportunities",
+          "Problem setter careers",
+          "Algorithm researcher path",
+          "Quantitative trading roles",
+          "Software engineering excellence"
+        ],
+        "projects": [
+          "Interview preparation kit",
+          "Career portfolio",
+          "Professional network"
+        ],
+        "practice": "Interview problem solving",
+        "contests": [
+          "Interview-style contests",
+          "Company hiring contests",
+          "Career-focused practice"
+        ],
+        "problems": [
+          "Interview problems",
+          "System design basics",
+          "Real-world applications",
+          "Industry problems",
+          "Research proposals"
+        ]
+      },
+      "week_70": {
+        "title": "Final Graduation",
+        "topics": [
+          "Achievement celebration",
+          "Progress review",
+          "Rating milestones",
+          "Problem count celebration",
+          "Contest achievements",
+          "Skill assessment",
+          "Future goals setting",
+          "Continuous improvement plan",
+          "Alumni network",
+          "Community contribution",
+          "Mentorship opportunities",
+          "Legacy building"
+        ],
+        "projects": [
+          "FINAL SHOWCASE: CP Portfolio",
+          "1000+ problems solved",
+          "Contest achievements display",
+          "Algorithm library complete"
+        ],
+        "assessment": "Final Certification - Expert Competitive Programmer"
+      }
+    },
+    "month_17_18": {
+      "title": "Lifetime Resources & Continuous Learning",
+      "weeks": "Post-Course Support",
+      "week_71_72": {
+        "title": "Advanced Problem Archives",
+        "topics": [
+          "IOI problem archive",
+          "ICPC problem database",
+          "Google Code Jam archive",
+          "Facebook Hacker Cup problems",
+          "TopCoder problem archive",
+          "Project Euler exploration",
+          "USACO training pages",
+          "Russian olympiad problems",
+          "Chinese OJ problems",
+          "Japanese contest archives",
+          "Research problem sets",
+          "Unsolved problems list"
+        ],
+        "projects": [
+          "Problem database creation",
+          "Solution archive",
+          "Difficulty classifier"
+        ],
+        "practice": "Continuous problem solving"
+      },
+      "week_73_74": {
+        "title": "Community & Contribution",
+        "topics": [
+          "CP communities worldwide",
+          "Discord and Slack groups",
+          "Reddit communities",
+          "Stack Exchange participation",
+          "Codeforces blog writing",
+          "YouTube channel creation",
+          "Twitch streaming CP",
+          "Open source contributions",
+          "Algorithm visualization projects",
+          "Educational platform contribution",
+          "Regional contest organization",
+          "School/college club formation"
+        ],
+        "projects": [
+          "Community engagement plan",
+          "Content creation schedule",
+          "Contribution tracker"
+        ],
+        "practice": "Weekly community participation"
+      },
+      "week_75_76": {
+        "title": "Research & Innovation",
+        "topics": [
+          "Algorithm research papers",
+          "Conference participation",
+          "Paper publication process",
+          "Research collaboration",
+          "PhD opportunities in algorithms",
+          "Grant writing basics",
+          "Patent considerations",
+          "Industry research roles",
+          "Academic positions",
+          "Research problem identification",
+          "Literature review techniques",
+          "Research methodology"
+        ],
+        "projects": [
+          "Research proposal",
+          "Literature survey",
+          "Innovation project"
+        ],
+        "practice": "Research paper reading"
+      },
+      "week_77": {
+        "title": "Specialized Domains",
+        "topics": [
+          "Quantum computing algorithms",
+          "Cryptographic algorithms",
+          "Bioinformatics algorithms",
+          "Computational biology",
+          "Financial algorithms",
+          "Machine learning integration",
+          "Computer vision algorithms",
+          "Natural language processing",
+          "Robotics algorithms",
+          "Game development algorithms",
+          "Graphics programming",
+          "Scientific computing"
+        ],
+        "projects": [
+          "Domain exploration",
+          "Specialized algorithm implementation",
+          "Cross-domain applications"
+        ],
+        "practice": "Explore new domains"
+      },
+      "week_78": {
+        "title": "Success Stories & Inspiration",
+        "topics": [
+          "CP legends and their journeys",
+          "Tourist (Gennady Korotkevich)",
+          "Petr Mitrichev's career",
+          "IOI gold medalists",
+          "ICPC world champions",
+          "Google Code Jam winners",
+          "Career transitions from CP",
+          "Success in tech interviews",
+          "Research achievements",
+          "Startup founders from CP",
+          "Teaching and mentoring success",
+          "Community impact stories"
+        ],
+        "projects": [
+          "Personal success plan",
+          "Goal setting framework",
+          "Inspiration collection"
+        ],
+        "practice": "Define personal success"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "ELITE TRACK: Beyond Expert Level",
+    "description": "Optional advanced paths for those aiming for the absolute top",
+    "month_19_20": {
+      "title": "Grandmaster Path",
+      "weeks": "Elite Training",
+      "week_79_80": {
+        "title": "Rating 2400+ Strategy",
+        "topics": [
+          "Grandmaster mindset",
+          "Consistency at high level",
+          "Problem creation skills",
+          "Speed vs accuracy balance",
+          "Advanced hacking strategies",
+          "Rating optimization tactics",
+          "Handling rating pressure",
+          "Comeback strategies",
+          "Maintaining peak performance",
+          "Avoiding burnout",
+          "Long-term progression",
+          "Elite community networking"
+        ],
+        "projects": [
+          "Grandmaster roadmap",
+          "Performance optimization",
+          "Elite strategy guide"
+        ],
+        "practice": "Daily grandmaster training"
+      },
+      "week_81_82": {
+        "title": "International Competition",
+        "topics": [
+          "IOI medal strategies",
+          "ICPC World Finals excellence",
+          "Google Code Jam Finals",
+          "Facebook Hacker Cup Finals",
+          "TopCoder Open championship",
+          "AtCoder World Tour",
+          "Distributed Code Jam",
+          "Hash Code optimization",
+          "Reply Code Challenge",
+          "Russian Code Cup",
+          "Yandex contests",
+          "VK Cup participation"
+        ],
+        "projects": [
+          "Competition calendar",
+          "Performance tracker",
+          "Medal collection"
+        ],
+        "practice": "Elite competition focus"
+      },
+      "week_83_84": {
+        "title": "Problem Setting Mastery",
+        "topics": [
+          "Creating original problems",
+          "Difficulty calibration",
+          "Test data generation",
+          "Solution uniqueness",
+          "Anti-hacking techniques",
+          "Checker writing",
+          "Validator creation",
+          "Problem statement clarity",
+          "Editorial writing excellence",
+          "Contest preparation",
+          "Platform coordination",
+          "Problem review process"
+        ],
+        "projects": [
+          "Problem portfolio",
+          "Contest creation",
+          "Setter reputation building"
+        ],
+        "practice": "Set problems for platforms"
+      },
+      "week_85_86": {
+        "title": "Research Excellence",
+        "topics": [
+          "Publishing in algorithms",
+          "Conference presentations",
+          "Collaboration with professors",
+          "Grant applications",
+          "PhD preparation",
+          "Research internships",
+          "Industry research roles",
+          "Algorithm patents",
+          "Open problems tackling",
+          "Breakthrough techniques",
+          "Citation building",
+          "Academic networking"
+        ],
+        "projects": [
+          "Research publication",
+          "Conference submission",
+          "Academic portfolio"
+        ],
+        "practice": "Research contribution"
+      },
+      "week_87": {
+        "title": "Legacy Building",
+        "topics": [
+          "Creating lasting impact",
+          "Educational content creation",
+          "Platform development",
+          "Tool creation for community",
+          "Book writing",
+          "Course creation",
+          "Mentorship programs",
+          "Scholarship establishment",
+          "Community leadership",
+          "Industry influence",
+          "Next generation training",
+          "Personal brand building"
+        ],
+        "projects": [
+          "Legacy project planning",
+          "Impact measurement",
+          "Succession planning"
+        ],
+        "practice": "Build lasting contributions"
+      }
+    },
+    "month_21_22": {
+      "title": "Professional Applications",
+      "weeks": "Industry Excellence",
+      "week_88_89": {
+        "title": "Quantitative Trading",
+        "topics": [
+          "Algorithms in finance",
+          "High-frequency trading",
+          "Market making algorithms",
+          "Statistical arbitrage",
+          "Portfolio optimization",
+          "Risk management algorithms",
+          "Backtesting systems",
+          "Order execution algorithms",
+          "Alpha generation",
+          "Machine learning in trading",
+          "Cryptocurrency algorithms",
+          "Career in quant finance"
+        ],
+        "projects": [
+          "Trading algorithm",
+          "Backtesting system",
+          "Portfolio optimizer"
+        ],
+        "practice": "Financial algorithms"
+      },
+      "week_90_91": {
+        "title": "Tech Giant Excellence",
+        "topics": [
+          "FAANG interview mastery",
+          "System design for scale",
+          "Distributed systems algorithms",
+          "Machine learning systems",
+          "Infrastructure algorithms",
+          "Search algorithms at scale",
+          "Recommendation systems",
+          "Ad serving algorithms",
+          "Content delivery optimization",
+          "Database algorithms",
+          "Network algorithms",
+          "Career progression in tech"
+        ],
+        "projects": [
+          "System design portfolio",
+          "Scale algorithm library",
+          "Interview excellence kit"
+        ],
+        "practice": "Industry-scale problems"
+      },
+      "week_92_93": {
+        "title": "Startup & Innovation",
+        "topics": [
+          "Algorithm-based startups",
+          "Product development",
+          "MVP with algorithms",
+          "Scaling algorithms",
+          "Algorithm as a service",
+          "API development",
+          "Patent strategies",
+          "Funding for tech startups",
+          "Team building",
+          "Technical leadership",
+          "Exit strategies",
+          "Success stories"
+        ],
+        "projects": [
+          "Startup concept",
+          "MVP development",
+          "Pitch preparation"
+        ],
+        "practice": "Build startup prototype"
+      },
+      "week_94_95": {
+        "title": "Education & Impact",
+        "topics": [
+          "Teaching at universities",
+          "Online course creation",
+          "YouTube channel growth",
+          "Book publication",
+          "Workshop conducting",
+          "Corporate training",
+          "Coaching business",
+          "Platform development",
+          "Community building",
+          "Social impact through CP",
+          "Diversity initiatives",
+          "Global outreach"
+        ],
+        "projects": [
+          "Educational platform",
+          "Course curriculum",
+          "Impact measurement"
+        ],
+        "practice": "Teach and mentor"
+      },
+      "week_96": {
+        "title": "Lifetime Excellence",
+        "topics": [
+          "Continuous learning mindset",
+          "Staying relevant",
+          "Technology evolution",
+          "Career pivots",
+          "Work-life balance",
+          "Health and coding",
+          "Family and CP",
+          "Financial planning",
+          "Retirement planning",
+          "Giving back",
+          "Wisdom sharing",
+          "Life beyond CP"
+        ],
+        "projects": [
+          "Life plan",
+          "Balance framework",
+          "Legacy document"
+        ],
+        "practice": "Sustainable excellence"
+      }
+    },
+    "month_23": {
+      "title": "Resources & References",
+      "weeks": "Comprehensive Library",
+      "week_97": {
+        "title": "Book References",
+        "topics": [
+          "Introduction to Algorithms (CLRS)",
+          "Competitive Programming (Halim)",
+          "Algorithm Design (Kleinberg)",
+          "The Art of Computer Programming (Knuth)",
+          "Concrete Mathematics",
+          "Combinatorial Optimization",
+          "Approximation Algorithms",
+          "Randomized Algorithms",
+          "Computational Geometry",
+          "Network Flows",
+          "Graph Theory books",
+          "Number Theory books"
+        ],
+        "projects": [
+          "Reading list",
+          "Book notes",
+          "Implementation library"
+        ],
+        "practice": "Book problem solving"
+      },
+      "week_98": {
+        "title": "Online Resources",
+        "topics": [
+          "CP-Algorithms website",
+          "GeeksforGeeks CP section",
+          "TopCoder tutorials",
+          "Codeforces EDU section",
+          "USACO guide",
+          "OI Wiki",
+          "Competitive Programming GitHub repos",
+          "YouTube channels list",
+          "Discord servers",
+          "Telegram groups",
+          "WhatsApp groups",
+          "Forums and blogs"
+        ],
+        "projects": [
+          "Resource compilation",
+          "Bookmark organization",
+          "Community directory"
+        ],
+        "practice": "Resource utilization"
+      },
+      "week_99": {
+        "title": "Tools & Utilities",
+        "topics": [
+          "IDE setup guides",
+          "Debugging tools",
+          "Stress testing tools",
+          "Test case generators",
+          "Graph visualizers",
+          "Algorithm animators",
+          "Performance profilers",
+          "Online judges list",
+          "Browser extensions",
+          "Command line tools",
+          "Version control for CP",
+          "Collaboration tools"
+        ],
+        "projects": [
+          "Tool configuration",
+          "Utility library",
+          "Productivity setup"
+        ],
+        "practice": "Tool mastery"
+      },
+      "week_100": {
+        "title": "Templates & Libraries",
+        "topics": [
+          "C++ template library",
+          "Java collections for CP",
+          "Python libraries for CP",
+          "Graph algorithms library",
+          "Number theory library",
+          "Geometry library",
+          "String algorithms library",
+          "Data structures library",
+          "DP templates",
+          "Flow network library",
+          "FFT implementation",
+          "Big integer library"
+        ],
+        "projects": [
+          "Personal library",
+          "Template book",
+          "Quick reference"
+        ],
+        "practice": "Library usage mastery"
+      }
+    },
+    "month_24": {
+      "title": "Final References",
+      "weeks": "Quick Access",
+      "week_101_102": {
+        "title": "Contest Cheat Sheets",
+        "topics": [
+          "Time complexity table",
+          "Common algorithms list",
+          "Pattern recognition guide",
+          "Bug checklist",
+          "Edge cases list",
+          "Testing strategies",
+          "Hacking strategies",
+          "Platform-specific tips",
+          "Contest day checklist",
+          "Emergency algorithms",
+          "Quick implementations",
+          "Last-minute review"
+        ],
+        "projects": [
+          "Cheat sheet compilation",
+          "Contest day kit",
+          "Emergency reference"
+        ]
+      },
+      "week_103": {
+        "title": "Achievement Tracking",
+        "topics": [
+          "Rating milestones",
+          "Problem count goals",
+          "Contest achievements",
+          "Platform badges",
+          "Competition medals",
+          "Contribution points",
+          "Teaching achievements",
+          "Community impact",
+          "Career milestones",
+          "Personal records",
+          "Team achievements",
+          "Legacy metrics"
+        ],
+        "deliverables": [
+          "Achievement portfolio",
+          "Progress dashboard",
+          "Success metrics"
+        ]
+      },
+      "week_104": {
+        "title": "Future Roadmap",
+        "topics": [
+          "Post-course goals",
+          "Continuous improvement",
+          "New platforms exploration",
+          "Emerging algorithms",
+          "Quantum computing future",
+          "AI in competitive programming",
+          "Career evolution",
+          "Community leadership",
+          "Global impact",
+          "Personal growth",
+          "Work-life integration",
+          "Lifetime learning"
+        ],
+        "deliverables": [
+          "Future plan",
+          "Goal framework",
+          "Vision document"
+        ],
+        "assessment": "LIFETIME MEMBERSHIP - Continuous updates and elite community access"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: CP Template Library, Algorithm Visualizer, Contest Tracker",
+      "Phase 2: Advanced DS Library, DP Solver, Graph Algorithm Suite",
+      "Phase 3: Complete CP Framework, Problem Generator, Contest Platform",
+      "Final: 1000+ Problems Solved, Expert Rating Achievement, Teaching Platform"
+    ],
+    "total_projects_built": "20+ major implementations and 100+ algorithm libraries",
+    "skills_mastered": [
+      "Languages: C++ (Expert), STL Mastery, Java/Python for CP",
+      "Algorithms: 200+ algorithms mastered and implemented",
+      "Data Structures: 50+ data structures from basic to advanced",
+      "Mathematics: Number Theory, Combinatorics, Linear Algebra, FFT",
+      "Problem Solving: 1000+ problems across all platforms",
+      "Contest Skills: Speed coding, debugging, optimization, hacking",
+      "Platforms: Codeforces, CodeChef, AtCoder, TopCoder, ICPC",
+      "Advanced: Research algorithms, approximation, randomized algorithms",
+      "Soft Skills: Team coordination, teaching, problem setting"
+    ],
+    "weekly_structure": {
+      "theory_study": "5-6 hours",
+      "problem_solving": "10-12 hours",
+      "contests": "4-6 hours",
+      "implementation": "3-4 hours",
+      "total_per_week": "20-25 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving sessions",
+      "mentorship": "1-on-1 guidance from red coders",
+      "community": "Elite Discord with 24/7 support",
+      "code_review": "Solution optimization and debugging help",
+      "contest_analysis": "Post-contest discussion and upsolving",
+      "career_support": "Interview prep and referrals",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase",
+      "final_certificate": "Competitive Programming Expert Certification",
+      "linkedin_badge": "Verifiable credential",
+      "platform_achievements": "Codeforces/CodeChef ratings",
+      "portfolio": "1000+ solved problems showcase"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic programming knowledge helpful",
+    "coding_experience": "Can write simple programs",
+    "equipment": "Computer with good internet",
+    "time_commitment": "20-25 hours per week",
+    "english": "Good comprehension required",
+    "motivation": "Passion for problem-solving"
+  },
+  "who_is_this_for": {
+    "students": "CS students aiming for competitions",
+    "developers": "Programmers wanting algorithm mastery",
+    "competitors": "Aspiring ICPC/IOI participants",
+    "job_seekers": "FAANG interview preparation",
+    "enthusiasts": "Algorithm and puzzle lovers",
+    "teachers": "Future CP coaches and mentors",
+    "researchers": "Algorithm research aspirants"
+  },
+  "career_paths_after_completion": [
+    "Competitive Programmer",
+    "Software Engineer at FAANG",
+    "Quantitative Developer",
+    "Algorithm Researcher",
+    "Problem Setter",
+    "CP Coach/Mentor",
+    "Technical Interview Coach",
+    "Startup CTO/Technical Co-founder",
+    "Machine Learning Engineer",
+    "Game Developer",
+    "Blockchain Developer",
+    "Research Scientist"
+  ],
+  "salary_expectations": {
+    "after_2_months": "Ready for internships",
+    "after_4_months": "₹10-20 LPA (Junior roles)",
+    "after_6_months": "₹20-40 LPA (Top tech companies)",
+    "expert_level": "₹40-80+ LPA (FAANG/Quant)",
+    "international": "$150k-400k+ USD",
+    "competitions": "Prize money $1000-50000+"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "rating_improvement": "Guaranteed rating increase",
+    "problem_solving": "1000+ problems mastery",
+    "mentorship": "Red coder mentorship",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Complete competitive programming portfolio"
+  }
+}

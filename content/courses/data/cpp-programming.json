@@ -1,0 +1,1286 @@
+{
+  "meta": {
+    "slug": "cpp-programming-complete-masterclass",
+    "title": "Complete C++ Programming Masterclass - Zero to System Programmer",
+    "description": "The most comprehensive 12-month C++ programming course. Master modern C++ (C++11/14/17/20/23), STL, memory management, system programming, game development, and competitive programming. From console apps to high-performance systems.",
+    "keywords": [
+      "c++ programming",
+      "cpp",
+      "modern cpp",
+      "system programming",
+      "game development cpp",
+      "competitive programming",
+      "data structures cpp",
+      "stl",
+      "memory management",
+      "object oriented programming",
+      "template programming",
+      "embedded programming",
+      "high performance computing",
+      "c++20",
+      "c++23"
+    ],
+    "category": "Systems & Performance Programming",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Expert C++ Developer",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Certified C++ Professional Developer upon completion"
+  },
+  "program_overview": {
+    "title": "Complete C++ Programming Masterclass",
+    "tagline": "From Hello World to High-Performance System Programming",
+    "description": "This is not just a course—it's a complete transformation into a professional C++ developer. C++ powers the world's most critical systems: operating systems, game engines, embedded devices, trading systems, and browsers. This 12-month masterclass takes you from absolute beginner to expert C++ developer, capable of building high-performance applications, system-level software, game engines, and solving complex algorithmic problems. You'll master modern C++ standards, STL, memory management, multithreading, and specialized domains like game development and competitive programming.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no programming experience needed",
+      "Complete 12-month structured curriculum with modern C++ (up to C++23)",
+      "Covers entire C++ ecosystem: STL, Boost, system APIs, graphics",
+      "40+ real-world projects including games, system tools, and algorithms",
+      "Deep dive into memory management and performance optimization",
+      "Competitive programming and interview preparation included",
+      "Game development with C++ and graphics programming",
+      "System programming and embedded development",
+      "Lifetime access with updates for new C++ standards",
+      "Build portfolio of production-quality C++ applications"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): C++ Basics, OOP, Pointers, Memory Management",
+      "phase_2": "Intermediate (Months 4-6): STL, Templates, Modern C++, Data Structures",
+      "phase_3": "Advanced (Months 7-9): System Programming, Multithreading, Networking",
+      "phase_4": "Specialization (Months 10-12): Game Dev, Competitive Programming, Career Launch"
+    },
+    "career_outcomes": [
+      "Junior C++ Developer (after 3 months)",
+      "C++ Software Developer (after 6 months)",
+      "Senior C++ Developer (after 9 months)",
+      "Systems Programmer / Game Developer / Quant Dev (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: C++ Fundamentals & Object-Oriented Programming (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid foundations in C++ syntax, memory management, pointers, and object-oriented programming principles.",
+    "month_1_2": {
+      "title": "Months 1-2: C++ Basics & Core Concepts",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to C++ & Development Environment",
+        "topics": [
+          "History and evolution of C++ (C++98 to C++23)",
+          "Why C++? Performance, control, and applications",
+          "Setting up development environment (VS Code, Visual Studio, CLion)",
+          "Compilers: GCC, Clang, MSVC",
+          "Writing your first C++ program",
+          "Program structure: headers, main function, return",
+          "Compilation process: preprocessing, compilation, linking",
+          "Basic input/output with iostream",
+          "Comments and code documentation",
+          "Namespaces and using directive",
+          "C++ coding standards and best practices",
+          "Debugging basics with GDB/LLDB"
+        ],
+        "projects": [
+          "Hello World variations",
+          "Simple calculator with basic operations",
+          "Temperature converter",
+          "Personal information display program"
+        ],
+        "practice": "Write 20 simple console programs"
+      },
+      "week_3_4": {
+        "title": "Variables, Data Types & Operators",
+        "topics": [
+          "Fundamental data types: int, float, double, char, bool",
+          "Type modifiers: signed, unsigned, short, long",
+          "Variable declaration and initialization",
+          "Constants: const and constexpr",
+          "Auto keyword and type inference",
+          "Arithmetic operators and precedence",
+          "Relational and logical operators",
+          "Bitwise operators and bit manipulation",
+          "Assignment and compound assignment operators",
+          "Increment and decrement operators",
+          "Type casting: static_cast, dynamic_cast, const_cast, reinterpret_cast",
+          "sizeof operator and type sizes"
+        ],
+        "projects": [
+          "Advanced calculator with bitwise operations",
+          "Data type size explorer",
+          "Number system converter (binary, decimal, hex)",
+          "Bitwise flag management system"
+        ],
+        "practice": "Solve 50 problems on operators and type manipulation"
+      },
+      "week_5_6": {
+        "title": "Control Flow & Functions",
+        "topics": [
+          "If-else statements and nested conditions",
+          "Switch-case statements",
+          "Conditional (ternary) operator",
+          "While, do-while loops",
+          "For loops and range-based for (C++11)",
+          "Break, continue, and goto",
+          "Function declaration and definition",
+          "Function parameters: pass by value, reference, pointer",
+          "Return types and return by reference",
+          "Function overloading",
+          "Default arguments",
+          "Inline functions",
+          "Recursion and recursive algorithms",
+          "Function pointers basics"
+        ],
+        "projects": [
+          "Menu-driven banking system",
+          "Number guessing game",
+          "Prime number generator",
+          "Recursive factorial and Fibonacci calculator",
+          "Pattern printing programs"
+        ],
+        "practice": "Implement 30 algorithms using functions"
+      },
+      "week_7_8": {
+        "title": "Arrays, Strings & Pointers",
+        "topics": [
+          "Static arrays: declaration and initialization",
+          "Array operations and bounds checking",
+          "Multidimensional arrays",
+          "C-style strings and string operations",
+          "std::string class and string manipulation",
+          "String streams (stringstream)",
+          "Introduction to pointers",
+          "Pointer arithmetic",
+          "Arrays and pointers relationship",
+          "Dynamic memory allocation: new and delete",
+          "Memory leaks and dangling pointers",
+          "Smart pointers introduction (unique_ptr, shared_ptr)",
+          "References vs pointers",
+          "Null pointers and nullptr"
+        ],
+        "projects": [
+          "Dynamic array implementation",
+          "String manipulation library",
+          "Matrix operations calculator",
+          "Memory management demonstration",
+          "Text-based adventure game"
+        ],
+        "practice": "Master 40 pointer and array problems"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Object-Oriented Programming",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Classes and Objects",
+        "topics": [
+          "Classes and objects fundamentals",
+          "Class members: data and functions",
+          "Access specifiers: public, private, protected",
+          "Constructors and destructors",
+          "Constructor types: default, parameterized, copy",
+          "Initializer lists",
+          "This pointer",
+          "Static members and methods",
+          "Friend functions and classes",
+          "Nested classes",
+          "Const member functions",
+          "Mutable keyword",
+          "Rule of Three/Five/Zero",
+          "Move semantics (C++11)"
+        ],
+        "projects": [
+          "Bank account management system",
+          "Student record system",
+          "Complex number class",
+          "Date and time class",
+          "Custom string class implementation"
+        ],
+        "practice": "Create 20 different classes modeling real-world objects"
+      },
+      "week_11_12": {
+        "title": "Inheritance and Polymorphism",
+        "topics": [
+          "Inheritance concepts and types",
+          "Single, multiple, multilevel inheritance",
+          "Virtual inheritance and diamond problem",
+          "Function overriding",
+          "Virtual functions and vtable",
+          "Pure virtual functions and abstract classes",
+          "Interfaces in C++",
+          "Runtime polymorphism",
+          "Dynamic binding",
+          "Virtual destructors",
+          "Object slicing problem",
+          "RTTI (Run-Time Type Information)",
+          "typeid and type_info",
+          "Final and override specifiers (C++11)"
+        ],
+        "projects": [
+          "Shape hierarchy with area calculations",
+          "Employee management system with inheritance",
+          "Game character class hierarchy",
+          "Vehicle simulation system",
+          "Plugin architecture using polymorphism"
+        ],
+        "practice": "Build 15 inheritance hierarchies"
+      },
+      "week_13": {
+        "title": "Operator Overloading & Advanced OOP",
+        "topics": [
+          "Operator overloading concepts",
+          "Overloading arithmetic operators",
+          "Overloading comparison operators",
+          "Overloading assignment operator",
+          "Overloading stream operators (<<, >>)",
+          "Overloading function call operator",
+          "Overloading subscript operator []",
+          "Type conversion operators",
+          "Explicit keyword",
+          "Copy and swap idiom",
+          "CRTP (Curiously Recurring Template Pattern)",
+          "Design patterns introduction",
+          "SOLID principles in C++"
+        ],
+        "projects": [
+          "Mathematical vector class with operators",
+          "Custom array class with subscript operator",
+          "Fraction class with all operators",
+          "Matrix class with operations",
+          "PHASE 1 CAPSTONE: Complete OOP Library Management System"
+        ],
+        "assessment": "Phase 1 comprehensive exam on C++ fundamentals and OOP"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: STL, Templates & Modern C++ (Months 4-6, Weeks 14-26)",
+    "description": "Master the Standard Template Library, template programming, and modern C++ features.",
+    "month_7_8": {
+      "title": "Months 4-5: STL Mastery",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "STL Containers",
+        "topics": [
+          "STL overview and architecture",
+          "Sequence containers: vector, deque, list, array",
+          "Container adapters: stack, queue, priority_queue",
+          "Associative containers: set, map, multiset, multimap",
+          "Unordered containers: unordered_set, unordered_map",
+          "Container operations and time complexity",
+          "Choosing the right container",
+          "Custom allocators",
+          "Container memory management",
+          "Iterators: types and usage",
+          "Iterator categories and traits",
+          "Reverse iterators",
+          "Iterator adapters",
+          "Range-based operations"
+        ],
+        "projects": [
+          "Student database using STL containers",
+          "Text editor with undo/redo using stack",
+          "Priority task scheduler",
+          "Dictionary implementation with map",
+          "Cache implementation with unordered_map"
+        ],
+        "practice": "Implement 30 algorithms using different STL containers"
+      },
+      "week_29_30": {
+        "title": "STL Algorithms",
+        "topics": [
+          "Algorithm categories in STL",
+          "Non-modifying sequence operations",
+          "Modifying sequence operations",
+          "Sorting algorithms: sort, partial_sort, nth_element",
+          "Searching algorithms: find, binary_search, lower_bound",
+          "Numeric algorithms: accumulate, inner_product",
+          "Set operations: union, intersection, difference",
+          "Heap operations",
+          "Permutation algorithms",
+          "Lambda expressions with algorithms",
+          "Function objects (functors)",
+          "Predicate functions",
+          "Algorithm complexity analysis",
+          "Custom algorithms implementation"
+        ],
+        "projects": [
+          "Data analysis tool using STL algorithms",
+          "Sorting visualizer",
+          "Set operations calculator",
+          "Performance comparison of algorithms",
+          "Custom algorithm library"
+        ],
+        "practice": "Use 50 different STL algorithms in various scenarios"
+      },
+      "week_31_32": {
+        "title": "Template Programming",
+        "topics": [
+          "Function templates",
+          "Class templates",
+          "Template parameters: type and non-type",
+          "Template specialization",
+          "Partial specialization",
+          "Variadic templates (C++11)",
+          "Template metaprogramming basics",
+          "SFINAE (Substitution Failure Is Not An Error)",
+          "Type traits and type manipulation",
+          "Template template parameters",
+          "Concepts (C++20)",
+          "Fold expressions (C++17)",
+          "constexpr and compile-time computation",
+          "Template best practices"
+        ],
+        "projects": [
+          "Generic data structures library",
+          "Type-safe unit conversion system",
+          "Compile-time math library",
+          "Template-based design patterns",
+          "Custom smart pointer implementation"
+        ],
+        "practice": "Create 20 template-based utilities"
+      },
+      "week_33_34": {
+        "title": "Modern C++ Features (C++11/14/17/20)",
+        "topics": [
+          "Auto and decltype",
+          "Range-based for loops",
+          "Lambda expressions and captures",
+          "Rvalue references and move semantics",
+          "Perfect forwarding",
+          "Smart pointers: unique_ptr, shared_ptr, weak_ptr",
+          "std::thread and basic threading",
+          "std::chrono for time management",
+          "Random number generation",
+          "Regular expressions",
+          "Filesystem library (C++17)",
+          "std::optional, std::variant, std::any (C++17)",
+          "Structured bindings (C++17)",
+          "Coroutines basics (C++20)"
+        ],
+        "projects": [
+          "Modern C++ file manager",
+          "Multi-threaded downloader",
+          "Regular expression validator",
+          "Time measurement utilities",
+          "Resource management system with smart pointers"
+        ],
+        "practice": "Refactor old code using modern C++ features"
+      },
+      "week_35": {
+        "title": "Error Handling & Exception Safety",
+        "topics": [
+          "Exception handling mechanism",
+          "Try, catch, and throw",
+          "Exception specifications",
+          "Standard exception classes",
+          "Custom exception classes",
+          "Exception safety guarantees",
+          "RAII (Resource Acquisition Is Initialization)",
+          "noexcept specifier",
+          "Error codes vs exceptions",
+          "std::expected (C++23)",
+          "Stack unwinding",
+          "Exception handling best practices",
+          "Debugging techniques",
+          "Assertion and static_assert"
+        ],
+        "projects": [
+          "Robust file processing system",
+          "Exception-safe container",
+          "Error handling framework",
+          "Resource manager with RAII",
+          "Custom error reporting system"
+        ],
+        "practice": "Add proper error handling to 10 previous projects"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Data Structures & Algorithms",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Advanced Data Structures",
+        "topics": [
+          "Linked lists: singly, doubly, circular",
+          "Stack and queue implementations",
+          "Binary trees and BST",
+          "AVL trees and balancing",
+          "Red-black trees",
+          "B-trees and B+ trees",
+          "Heaps and priority queues",
+          "Hash tables and collision resolution",
+          "Graphs: representation and traversal",
+          "Tries and suffix trees",
+          "Disjoint set (Union-Find)",
+          "Segment trees and Fenwick trees",
+          "Skip lists",
+          "Custom allocators for data structures"
+        ],
+        "projects": [
+          "Custom STL-like container library",
+          "Database index implementation",
+          "Autocomplete system using trie",
+          "Graph visualization tool",
+          "Memory-efficient data structures"
+        ],
+        "practice": "Implement 20 data structures from scratch"
+      },
+      "week_38_39": {
+        "title": "Algorithm Design & Analysis",
+        "topics": [
+          "Algorithm complexity analysis",
+          "Divide and conquer algorithms",
+          "Dynamic programming techniques",
+          "Greedy algorithms",
+          "Backtracking algorithms",
+          "Graph algorithms: DFS, BFS, Dijkstra, Floyd-Warshall",
+          "Minimum spanning tree: Kruskal, Prim",
+          "Network flow algorithms",
+          "String algorithms: KMP, Rabin-Karp",
+          "Computational geometry basics",
+          "Randomized algorithms",
+          "Parallel algorithms introduction",
+          "Cache-efficient algorithms",
+          "Algorithm optimization techniques"
+        ],
+        "projects": [
+          "Pathfinding visualizer",
+          "String matching tool",
+          "Optimization problem solver",
+          "Algorithm complexity analyzer",
+          "Competitive programming library"
+        ],
+        "practice": "Solve 100 algorithmic problems"
+      },
+      "week_40_41": {
+        "title": "Performance Optimization",
+        "topics": [
+          "Profiling tools: gprof, Valgrind, perf",
+          "CPU architecture and cache optimization",
+          "Memory layout and alignment",
+          "Branch prediction and optimization",
+          "Loop optimization techniques",
+          "Vectorization and SIMD instructions",
+          "Compiler optimizations and flags",
+          "Link-time optimization",
+          "Profile-guided optimization",
+          "Memory pooling and custom allocators",
+          "Lock-free data structures basics",
+          "Benchmarking techniques",
+          "Space-time tradeoffs",
+          "Platform-specific optimizations"
+        ],
+        "projects": [
+          "Performance profiler tool",
+          "Optimized matrix multiplication",
+          "Memory pool allocator",
+          "Cache-friendly data structures",
+          "Benchmark suite for algorithms"
+        ],
+        "practice": "Optimize 10 programs for maximum performance"
+      },
+      "week_42_43": {
+        "title": "Competitive Programming",
+        "topics": [
+          "Competitive programming platforms",
+          "Problem-solving strategies",
+          "Fast I/O techniques",
+          "Common problem patterns",
+          "Number theory for CP",
+          "Combinatorics and probability",
+          "Game theory basics",
+          "Bit manipulation tricks",
+          "String algorithms for CP",
+          "Advanced data structures for CP",
+          "Dynamic programming patterns",
+          "Graph algorithm variations",
+          "Contest strategies",
+          "Time management in contests"
+        ],
+        "projects": [
+          "Competitive programming template",
+          "Problem classifier and trainer",
+          "Contest performance analyzer",
+          "Algorithm reference implementation",
+          "Virtual contest environment"
+        ],
+        "practice": "Solve 200 competitive programming problems"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complex system design",
+          "Algorithm selection and implementation",
+          "Performance optimization",
+          "Code organization and documentation",
+          "Testing and debugging"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: High-Performance Database Engine",
+          "Build a simple database with indexing, querying, and transactions",
+          "Implement B+ tree indexes, query optimizer, and transaction manager",
+          "Focus on performance and correctness"
+        ],
+        "assessment": "Phase 2 comprehensive exam on STL, templates, and algorithms"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: System Programming & Concurrency (Months 7-9, Weeks 27-39)",
+    "description": "Master system-level programming, multithreading, networking, and low-level development.",
+    "month_13_14": {
+      "title": "Months 7-8: System Programming",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Operating System Interface",
+        "topics": [
+          "Process and memory model",
+          "System calls and OS APIs",
+          "File system operations",
+          "Process creation and management",
+          "Inter-process communication (IPC)",
+          "Shared memory",
+          "Message queues",
+          "Pipes and named pipes",
+          "Signals and signal handling",
+          "Memory mapping with mmap",
+          "Dynamic linking and loading",
+          "Environment variables",
+          "System information retrieval",
+          "Platform-specific APIs (POSIX, Win32)"
+        ],
+        "projects": [
+          "Custom shell implementation",
+          "Process monitor and manager",
+          "IPC messaging system",
+          "File system utilities",
+          "System information tool"
+        ],
+        "practice": "Build 10 system-level utilities"
+      },
+      "week_55_56": {
+        "title": "Memory Management Deep Dive",
+        "topics": [
+          "Virtual memory concepts",
+          "Memory allocation strategies",
+          "Custom memory allocators",
+          "Memory pools and arenas",
+          "Garbage collection techniques",
+          "Reference counting implementation",
+          "Memory debugging tools",
+          "Leak detection and prevention",
+          "Memory-mapped I/O",
+          "Cache-conscious programming",
+          "NUMA awareness",
+          "Memory barriers and ordering",
+          "Lock-free memory management",
+          "Memory optimization patterns"
+        ],
+        "projects": [
+          "Custom malloc implementation",
+          "Garbage collector prototype",
+          "Memory leak detector",
+          "Memory-efficient container library",
+          "Cache performance analyzer"
+        ],
+        "practice": "Implement 5 different memory allocation strategies"
+      },
+      "week_57_58": {
+        "title": "Multithreading & Concurrency",
+        "topics": [
+          "Thread creation and management",
+          "Thread synchronization primitives",
+          "Mutexes and locks",
+          "Condition variables",
+          "Semaphores and barriers",
+          "Read-write locks",
+          "Atomic operations and memory ordering",
+          "Lock-free programming",
+          "Thread pools and executors",
+          "Futures and promises",
+          "Async programming with std::async",
+          "Parallel algorithms (C++17)",
+          "Thread-local storage",
+          "Deadlock prevention and detection"
+        ],
+        "projects": [
+          "Thread pool implementation",
+          "Producer-consumer system",
+          "Parallel sorting algorithm",
+          "Lock-free queue",
+          "Concurrent web server"
+        ],
+        "practice": "Build 15 multithreaded applications"
+      },
+      "week_59_60": {
+        "title": "Network Programming",
+        "topics": [
+          "Socket programming basics",
+          "TCP/IP protocol suite",
+          "UDP vs TCP programming",
+          "Client-server architecture",
+          "Non-blocking I/O",
+          "I/O multiplexing: select, poll, epoll",
+          "Asynchronous I/O",
+          "Protocol design and implementation",
+          "Serialization and deserialization",
+          "RPC (Remote Procedure Call)",
+          "HTTP server implementation",
+          "WebSocket programming",
+          "Network security basics",
+          "Cross-platform networking"
+        ],
+        "projects": [
+          "Chat server and client",
+          "HTTP server from scratch",
+          "File transfer protocol implementation",
+          "Distributed computing framework",
+          "Network packet analyzer"
+        ],
+        "practice": "Create 10 network applications"
+      },
+      "week_61": {
+        "title": "Database Systems Programming",
+        "topics": [
+          "Database connectivity (ODBC, native APIs)",
+          "SQL query execution from C++",
+          "Connection pooling",
+          "Transaction management",
+          "Prepared statements",
+          "ORM implementation basics",
+          "NoSQL database interfaces",
+          "Embedded databases (SQLite)",
+          "Database driver development",
+          "Query optimization from application",
+          "Caching strategies",
+          "Data serialization formats",
+          "Database performance tuning",
+          "Migration and versioning"
+        ],
+        "projects": [
+          "Database connection pool",
+          "Simple ORM framework",
+          "Database migration tool",
+          "Query builder library",
+          "Cache layer implementation"
+        ],
+        "practice": "Build 5 database-driven applications"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced System Topics",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Compiler Design & Tools",
+        "topics": [
+          "Compilation process deep dive",
+          "Lexical analysis basics",
+          "Parsing techniques",
+          "Abstract syntax trees",
+          "Code generation basics",
+          "Writing a simple interpreter",
+          "JIT compilation concepts",
+          "LLVM basics",
+          "Build systems: Make, CMake, Bazel",
+          "Static analysis tools",
+          "Code generation tools",
+          "Debugging at assembly level",
+          "Profiling and optimization tools",
+          "Cross-compilation"
+        ],
+        "projects": [
+          "Simple expression evaluator",
+          "Mini programming language interpreter",
+          "Build system for C++ projects",
+          "Static code analyzer",
+          "Code generator for repetitive tasks"
+        ],
+        "practice": "Create 5 development tools"
+      },
+      "week_64_65": {
+        "title": "Embedded Systems Programming",
+        "topics": [
+          "Embedded C++ considerations",
+          "Memory-constrained programming",
+          "Real-time systems concepts",
+          "Interrupt handling",
+          "Device driver basics",
+          "Bare-metal programming",
+          "RTOS integration",
+          "Hardware abstraction layers",
+          "Cross-compilation for embedded",
+          "Debugging embedded systems",
+          "Power optimization",
+          "Communication protocols (I2C, SPI, UART)",
+          "Sensor integration",
+          "IoT development basics"
+        ],
+        "projects": [
+          "Embedded system simulator",
+          "Device driver prototype",
+          "Real-time task scheduler",
+          "Sensor data logger",
+          "IoT device firmware"
+        ],
+        "practice": "Develop 5 embedded applications"
+      },
+      "week_66_67": {
+        "title": "Security Programming",
+        "topics": [
+          "Secure coding practices",
+          "Buffer overflow prevention",
+          "Input validation techniques",
+          "Cryptography basics",
+          "Hash functions implementation",
+          "Encryption algorithms",
+          "SSL/TLS implementation basics",
+          "Authentication systems",
+          "Secure random number generation",
+          "Code obfuscation techniques",
+          "Reverse engineering prevention",
+          "Security auditing tools",
+          "Fuzzing and testing",
+          "Exploit mitigation techniques"
+        ],
+        "projects": [
+          "Encryption library",
+          "Secure communication protocol",
+          "Password manager",
+          "Security scanner",
+          "Secure file storage system"
+        ],
+        "practice": "Implement 10 security features"
+      },
+      "week_68_69": {
+        "title": "Graphics Programming Basics",
+        "topics": [
+          "Graphics pipeline overview",
+          "OpenGL/DirectX basics",
+          "2D graphics rendering",
+          "3D mathematics for graphics",
+          "Shaders and GLSL",
+          "Texture mapping",
+          "Lighting models",
+          "Camera systems",
+          "Scene graphs",
+          "Collision detection",
+          "Particle systems",
+          "GUI programming with Qt/ImGui",
+          "Vulkan introduction",
+          "Graphics optimization"
+        ],
+        "projects": [
+          "2D graphics renderer",
+          "3D scene viewer",
+          "Particle system simulator",
+          "Simple GUI framework",
+          "Graphics effects library"
+        ],
+        "practice": "Create 5 graphics applications"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "System design and architecture",
+          "Component integration",
+          "Performance requirements",
+          "Testing and validation",
+          "Documentation and deployment"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Distributed Computing System",
+          "Build a distributed task processing system",
+          "Include networking, multithreading, and IPC",
+          "Focus on scalability and fault tolerance"
+        ],
+        "assessment": "Phase 3 comprehensive exam on system programming"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Specialization & Career Launch (Months 10-12, Weeks 40-52)",
+    "description": "Choose your specialization path and prepare for professional C++ development careers.",
+    "month_19_20": {
+      "title": "Months 10-11: Specialization Tracks",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Game Development with C++",
+        "topics": [
+          "Game architecture patterns",
+          "Game loops and timing",
+          "Entity-Component-System (ECS)",
+          "Physics engine basics",
+          "Collision detection algorithms",
+          "Game AI fundamentals",
+          "Pathfinding algorithms",
+          "State machines for games",
+          "Asset management",
+          "Memory management for games",
+          "Game networking basics",
+          "Graphics optimization for games",
+          "Audio programming",
+          "Popular game engines (Unreal, custom)"
+        ],
+        "projects": [
+          "2D game engine from scratch",
+          "Physics simulation",
+          "AI for game NPCs",
+          "Multiplayer game prototype",
+          "Game performance profiler"
+        ],
+        "practice": "Build 3 complete games"
+      },
+      "week_81_82": {
+        "title": "High-Performance Computing",
+        "topics": [
+          "Parallel computing concepts",
+          "OpenMP programming",
+          "MPI for distributed computing",
+          "CUDA/GPU programming basics",
+          "Vectorization with SIMD",
+          "Cache optimization techniques",
+          "NUMA optimization",
+          "High-performance libraries",
+          "Scientific computing with C++",
+          "Numerical methods implementation",
+          "Linear algebra libraries",
+          "FFT implementation",
+          "Monte Carlo simulations",
+          "Performance analysis tools"
+        ],
+        "projects": [
+          "Parallel matrix operations",
+          "Scientific computing library",
+          "GPU-accelerated algorithm",
+          "Distributed computing application",
+          "Performance benchmark suite"
+        ],
+        "practice": "Optimize 10 computationally intensive algorithms"
+      },
+      "week_83_84": {
+        "title": "Financial Systems Development",
+        "topics": [
+          "Low-latency programming",
+          "Lock-free data structures for trading",
+          "Order matching engines",
+          "Market data processing",
+          "Risk calculation systems",
+          "Backtesting frameworks",
+          "FIX protocol implementation",
+          "High-frequency trading concepts",
+          "Time-series databases",
+          "Quantitative libraries",
+          "Decimal arithmetic",
+          "Regulatory compliance coding",
+          "Testing financial systems",
+          "Production deployment for finance"
+        ],
+        "projects": [
+          "Order matching engine",
+          "Market data feed handler",
+          "Risk calculator",
+          "Backtesting framework",
+          "Trading system simulator"
+        ],
+        "practice": "Build 5 financial applications"
+      },
+      "week_85_86": {
+        "title": "Modern C++ Best Practices",
+        "topics": [
+          "C++20/23 features deep dive",
+          "Modules system",
+          "Coroutines advanced usage",
+          "Ranges library",
+          "Concepts and constraints",
+          "Three-way comparison",
+          "Design patterns in modern C++",
+          "Dependency injection",
+          "Event-driven architectures",
+          "Microservices with C++",
+          "REST API development",
+          "gRPC services",
+          "Container orchestration",
+          "DevOps for C++ projects"
+        ],
+        "projects": [
+          "Modern C++ web service",
+          "Microservice architecture",
+          "Event-driven system",
+          "Design patterns library",
+          "C++20/23 feature showcase"
+        ],
+        "practice": "Refactor projects using latest C++ features"
+      },
+      "week_87": {
+        "title": "Open Source Contribution",
+        "topics": [
+          "Finding C++ open source projects",
+          "Understanding large codebases",
+          "Code review process",
+          "Writing quality patches",
+          "Documentation contributions",
+          "Testing and CI/CD",
+          "Community interaction",
+          "Starting your own project",
+          "License selection",
+          "Project maintenance",
+          "Building community",
+          "Release management",
+          "Security practices",
+          "Long-term sustainability"
+        ],
+        "projects": [
+          "Contribute to major C++ project",
+          "Create and publish C++ library",
+          "Write comprehensive documentation",
+          "Set up CI/CD pipeline",
+          "Build project community"
+        ],
+        "practice": "Make 10 open source contributions"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Career Preparation & Launch",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Interview Preparation",
+        "topics": [
+          "C++ interview questions",
+          "Memory management questions",
+          "OOP concepts review",
+          "STL and algorithms questions",
+          "System design for C++",
+          "Coding challenges",
+          "Debugging exercises",
+          "Code review scenarios",
+          "Performance optimization questions",
+          "Modern C++ topics",
+          "Design patterns questions",
+          "Behavioral questions",
+          "Whiteboard coding",
+          "Take-home assignments"
+        ],
+        "projects": [
+          "Interview question solver",
+          "Coding challenge solutions",
+          "System design portfolio",
+          "Code review examples",
+          "Performance case studies"
+        ],
+        "practice": "Solve 200 interview problems"
+      },
+      "week_90_91": {
+        "title": "Portfolio Development",
+        "topics": [
+          "Selecting best projects",
+          "Code cleanup and documentation",
+          "README writing",
+          "API documentation",
+          "Performance metrics",
+          "Test coverage",
+          "CI/CD setup",
+          "GitHub profile optimization",
+          "Personal website creation",
+          "Technical blog writing",
+          "Video demonstrations",
+          "Case studies",
+          "Architecture diagrams",
+          "Deployment guides"
+        ],
+        "projects": [
+          "Portfolio website",
+          "Project showcases",
+          "Technical blog posts",
+          "Video tutorials",
+          "Architecture documentation"
+        ],
+        "practice": "Polish and document all major projects"
+      },
+      "week_92_93": {
+        "title": "Career Paths & Specializations",
+        "topics": [
+          "C++ career opportunities",
+          "Game development careers",
+          "Systems programming roles",
+          "Embedded systems positions",
+          "Financial technology jobs",
+          "High-performance computing",
+          "Graphics programming",
+          "Compiler development",
+          "Security engineering",
+          "Research positions",
+          "Freelancing with C++",
+          "Consulting opportunities",
+          "Startup considerations",
+          "Remote work strategies"
+        ],
+        "projects": [
+          "Career roadmap",
+          "Specialization project",
+          "Industry research",
+          "Network building",
+          "Job application materials"
+        ],
+        "practice": "Apply to 20 relevant positions"
+      },
+      "week_94_95": {
+        "title": "Professional Skills",
+        "topics": [
+          "Code review best practices",
+          "Team collaboration",
+          "Agile methodologies",
+          "Version control mastery",
+          "Documentation standards",
+          "Testing strategies",
+          "Debugging techniques",
+          "Performance profiling",
+          "Project estimation",
+          "Technical leadership",
+          "Mentoring others",
+          "Continuous learning",
+          "Conference participation",
+          "Professional networking"
+        ],
+        "projects": [
+          "Team project simulation",
+          "Code review portfolio",
+          "Testing framework",
+          "Documentation templates",
+          "Mentorship materials"
+        ],
+        "practice": "Practice professional skills daily"
+      },
+      "week_96": {
+        "title": "Final Project & Graduation",
+        "topics": [
+          "Project planning and scoping",
+          "Architecture design",
+          "Implementation",
+          "Testing and optimization",
+          "Documentation",
+          "Presentation preparation",
+          "Peer review",
+          "Deployment",
+          "Project showcase",
+          "Career launch planning",
+          "Alumni network",
+          "Continuous improvement"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Production-Grade C++ Application",
+          "Choose from: Game Engine, Trading System, Embedded OS, Distributed Database",
+          "Must demonstrate mastery of C++, system design, and specialization",
+          "Include full documentation, tests, and deployment"
+        ],
+        "assessment": "Final comprehensive examination and project defense"
+      }
+    },
+    "month_23": {
+      "title": "Continuous Learning & Excellence",
+      "weeks": "Ongoing",
+      "week_97": {
+        "title": "Staying Current with C++",
+        "topics": [
+          "Following C++ standards committee",
+          "Reading committee papers",
+          "Testing new features",
+          "Compiler updates",
+          "Library developments",
+          "Community involvement",
+          "Conference attendance",
+          "CppCon and other events",
+          "Online resources",
+          "Books and publications",
+          "Podcast participation",
+          "Forum contributions",
+          "Stack Overflow activity",
+          "Code review participation"
+        ],
+        "projects": [
+          "Experimental features testing",
+          "Standards proposal review",
+          "Community contribution",
+          "Learning resource creation",
+          "Knowledge sharing"
+        ],
+        "practice": "Dedicate 5 hours/week to C++ advancement"
+      },
+      "week_98": {
+        "title": "Advanced Certifications",
+        "topics": [
+          "C++ certification programs",
+          "Platform certifications",
+          "Game engine certifications",
+          "Embedded systems credentials",
+          "Security certifications",
+          "Cloud platform certs",
+          "Architecture certifications",
+          "Project management",
+          "Teaching qualifications",
+          "Industry-specific training",
+          "Vendor certifications",
+          "Professional memberships",
+          "Academic pursuits",
+          "Research opportunities"
+        ],
+        "projects": [
+          "Certification preparation",
+          "Study plan creation",
+          "Practice examinations",
+          "Certification project",
+          "Professional development plan"
+        ],
+        "practice": "Pursue relevant certifications"
+      },
+      "week_99": {
+        "title": "Building C++ Products",
+        "topics": [
+          "Product ideation",
+          "Market research",
+          "MVP development",
+          "Performance requirements",
+          "Scalability planning",
+          "Security considerations",
+          "Monetization strategies",
+          "Distribution methods",
+          "License models",
+          "Support strategies",
+          "Documentation needs",
+          "Community building",
+          "Marketing approaches",
+          "Business development"
+        ],
+        "projects": [
+          "Product prototype",
+          "Business plan",
+          "MVP release",
+          "User feedback integration",
+          "Product iteration"
+        ],
+        "practice": "Develop and launch C++ product"
+      },
+      "week_100": {
+        "title": "Mastery & Leadership",
+        "topics": [
+          "Technical leadership",
+          "Architecture decisions",
+          "Team mentoring",
+          "Code quality standards",
+          "Best practices enforcement",
+          "Performance culture",
+          "Innovation fostering",
+          "Knowledge transfer",
+          "Process improvement",
+          "Tool selection",
+          "Technology evaluation",
+          "Strategic planning",
+          "Industry influence",
+          "Thought leadership"
+        ],
+        "projects": [
+          "Leadership portfolio",
+          "Mentorship program",
+          "Team guidelines",
+          "Architecture decisions record",
+          "Innovation proposals"
+        ],
+        "practice": "Exercise leadership in C++ community"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 20+ foundational projects - OOP systems, memory managers, data structures",
+      "Phase 2: 25+ intermediate projects - STL applications, template libraries, algorithms",
+      "Phase 3: 20+ system projects - OS tools, network servers, concurrent applications",
+      "Phase 4: 15+ specialized projects - games, HPC applications, financial systems",
+      "Total: 80+ projects from console apps to production systems"
+    ],
+    "total_projects_built": "80+ C++ projects across all domains",
+    "skills_mastered": [
+      "Core C++: Syntax, OOP, inheritance, polymorphism, operator overloading",
+      "Memory Management: Pointers, RAII, smart pointers, custom allocators",
+      "STL: All containers, algorithms, iterators, function objects",
+      "Templates: Function/class templates, metaprogramming, SFINAE, concepts",
+      "Modern C++: C++11/14/17/20/23 features, move semantics, lambdas",
+      "System Programming: OS interfaces, IPC, networking, multithreading",
+      "Performance: Optimization, profiling, cache efficiency, SIMD",
+      "Data Structures: Trees, graphs, hash tables, custom implementations",
+      "Algorithms: Sorting, searching, dynamic programming, graph algorithms",
+      "Concurrency: Threads, locks, atomics, lock-free programming",
+      "Tools: GCC, Clang, CMake, GDB, Valgrind, profilers",
+      "Specializations: Game dev, HPC, embedded, financial systems"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "3-5 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving and code review sessions",
+      "mentorship": "1-on-1 guidance from senior C++ developers",
+      "community": "Active Discord community of C++ enthusiasts",
+      "code_review": "Expert code reviews for all major projects",
+      "career_support": "Resume review, interview prep, job referrals",
+      "lifetime_access": "All content and future C++ standard updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion",
+      "final_certificate": "Certified C++ Professional Developer",
+      "linkedin_badge": "Verified LinkedIn credential",
+      "industry_recognized": "Recognized by tech companies globally",
+      "portfolio_projects": "80+ documented projects",
+      "specialization_certificate": "Certificate in chosen specialization area"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required",
+    "coding_experience": "None - we start from absolute basics",
+    "equipment": "Computer with 4GB+ RAM, any OS (Windows/Linux/Mac)",
+    "time_commitment": "15-20 hours per week consistently",
+    "english": "Basic reading and comprehension",
+    "motivation": "Interest in systems programming and performance"
+  },
+  "who_is_this_for": {
+    "students": "CS students wanting to master systems programming",
+    "working_professionals": "Developers wanting to learn C++ for performance-critical applications",
+    "entrepreneurs": "Building high-performance products or game engines",
+    "freelancers": "Offering C++ development services",
+    "kids": "Advanced teens (16+) interested in game development",
+    "anyone": "Anyone interested in understanding how computers really work"
+  },
+  "career_paths_after_completion": [
+    "C++ Software Developer",
+    "Systems Programmer",
+    "Game Developer",
+    "Embedded Systems Engineer",
+    "Graphics Programmer",
+    "Quantitative Developer (Finance)",
+    "High-Performance Computing Engineer",
+    "Compiler Developer",
+    "Security Engineer",
+    "Real-Time Systems Developer",
+    "Game Engine Developer",
+    "Research Engineer",
+    "Technical Lead"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹5-8 LPA (Junior C++ Developer)",
+    "after_12_months": "₹8-15 LPA (C++ Developer)",
+    "after_18_months": "₹12-25 LPA (Senior C++ Developer)",
+    "after_24_months": "₹20-40+ LPA (Lead Developer/Architect)",
+    "freelance": "₹2000-8000/hour based on expertise",
+    "international": "$80k-180k USD based on location and specialization"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Job placement support with tech companies",
+    "lifetime_updates": "Free access to all future content and C++ standards",
+    "mentorship": "Dedicated mentor throughout the journey",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Production-ready portfolio by completion"
+  }
+}

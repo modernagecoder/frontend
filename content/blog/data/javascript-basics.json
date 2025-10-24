@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "slug": "javascript-basics",
+    "title": "JavaScript Basics: Your First Steps into Web Development",
+    "description": "Learn the fundamentals of JavaScript programming with practical examples and hands-on exercises. Perfect for beginners starting their web development journey.",
+    "keywords": ["javascript tutorial", "web development", "programming basics", "javascript for beginners", "coding tutorial"],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2025-09-28",
+    "category": "Programming",
+    "tags": ["JavaScript", "Web Development", "Beginners", "Tutorial"],
+    "readTime": "10 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "JavaScript Basics: Your First Steps into Web Development",
+    "subtitle": "Master the language that powers the modern web",
+    "featuredImage": {
+      "url": "https://placehold.co/1200x600/FFD700/000000?text=JavaScript+Basics",
+      "alt": "JavaScript code on a computer screen with colorful syntax highlighting"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "paragraph",
+        "text": "JavaScript is the programming language that brings websites to life. From interactive buttons to complex web applications, JavaScript is everywhere on the modern web. In this tutorial, we'll cover the essential basics you need to start your JavaScript journey."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is JavaScript?"
+      },
+      {
+        "type": "paragraph",
+        "text": "JavaScript is a versatile programming language that runs in web browsers, making websites interactive and dynamic. Unlike HTML (which structures content) and CSS (which styles it), JavaScript adds behavior and functionality to web pages."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Your First JavaScript Program"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's start with the classic 'Hello, World!' program. This simple code displays a message in the browser's console:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Your first JavaScript program\nconsole.log('Hello, World!');\n\n// You can also show an alert\nalert('Welcome to JavaScript!');"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Variables: Storing Information"
+      },
+      {
+        "type": "paragraph",
+        "text": "Variables are containers for storing data. In JavaScript, you can declare variables using <code>let</code>, <code>const</code>, or <code>var</code>:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Using let (can be changed)\nlet name = 'Alice';\nlet age = 12;\n\n// Using const (cannot be changed)\nconst PI = 3.14159;\nconst schoolName = 'Modern Age Coders';\n\n// Changing a variable\nname = 'Bob';\nage = age + 1;\n\nconsole.log(name); // Output: Bob\nconsole.log(age);  // Output: 13"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Data Types in JavaScript"
+      },
+      {
+        "type": "paragraph",
+        "text": "JavaScript has several basic data types you'll use frequently:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>String:</strong> Text data enclosed in quotes ('hello' or \"hello\")",
+          "<strong>Number:</strong> Numeric values (42, 3.14, -7)",
+          "<strong>Boolean:</strong> True or false values",
+          "<strong>Array:</strong> Lists of values [1, 2, 3, 4]",
+          "<strong>Object:</strong> Collections of key-value pairs"
+        ]
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Different data types\nlet message = 'Hello!';           // String\nlet score = 95;                   // Number\nlet isPassing = true;             // Boolean\nlet colors = ['red', 'blue'];     // Array\nlet student = {                   // Object\n    name: 'Alice',\n    grade: 7\n};"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Functions: Reusable Code Blocks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Functions let you write code once and use it many times. They're like recipes that you can follow whenever you need them:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Define a function\nfunction greet(name) {\n    return 'Hello, ' + name + '!';\n}\n\n// Use the function\nconsole.log(greet('Alice'));  // Output: Hello, Alice!\nconsole.log(greet('Bob'));    // Output: Hello, Bob!\n\n// Function with multiple parameters\nfunction add(a, b) {\n    return a + b;\n}\n\nconsole.log(add(5, 3));  // Output: 8"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conditional Statements: Making Decisions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Conditional statements let your code make decisions based on different conditions:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "let age = 15;\n\nif (age >= 18) {\n    console.log('You are an adult');\n} else if (age >= 13) {\n    console.log('You are a teenager');\n} else {\n    console.log('You are a child');\n}\n\n// Output: You are a teenager"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Loops: Repeating Actions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Loops help you repeat actions without writing the same code multiple times:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// For loop - count from 1 to 5\nfor (let i = 1; i <= 5; i++) {\n    console.log('Count: ' + i);\n}\n\n// While loop - repeat while condition is true\nlet countdown = 3;\nwhile (countdown > 0) {\n    console.log(countdown);\n    countdown--;\n}\nconsole.log('Blast off!');"
+      },
+      {
+        "type": "image",
+        "url": "https://placehold.co/800x400/4ecdc4/FFFFFF?text=JavaScript+Concepts",
+        "alt": "Diagram showing JavaScript concepts like variables, functions, and loops",
+        "caption": "Key JavaScript concepts every beginner should master"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Working with Arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrays are lists that can hold multiple values. They're incredibly useful for storing collections of data:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "// Create an array\nlet fruits = ['apple', 'banana', 'orange'];\n\n// Access array elements (starts at 0)\nconsole.log(fruits[0]);  // Output: apple\n\n// Add to array\nfruits.push('grape');\n\n// Loop through array\nfor (let i = 0; i < fruits.length; i++) {\n    console.log(fruits[i]);\n}"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Practice Project: Simple Calculator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's put everything together with a simple calculator function:"
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "code": "function calculator(num1, num2, operation) {\n    if (operation === 'add') {\n        return num1 + num2;\n    } else if (operation === 'subtract') {\n        return num1 - num2;\n    } else if (operation === 'multiply') {\n        return num1 * num2;\n    } else if (operation === 'divide') {\n        return num1 / num2;\n    } else {\n        return 'Invalid operation';\n    }\n}\n\n// Test the calculator\nconsole.log(calculator(10, 5, 'add'));       // Output: 15\nconsole.log(calculator(10, 5, 'subtract'));  // Output: 5\nconsole.log(calculator(10, 5, 'multiply'));  // Output: 50\nconsole.log(calculator(10, 5, 'divide'));    // Output: 2"
+      },
+      {
+        "type": "quote",
+        "text": "The best way to learn programming is by doing. Write code every day, even if it's just for 15 minutes.",
+        "author": "Modern Age Coders"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Next Steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "Congratulations! You've learned the basics of JavaScript. Here's what to explore next:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Practice with coding challenges on platforms like CodeWars or LeetCode",
+          "Learn about DOM manipulation to make interactive web pages",
+          "Explore JavaScript frameworks like React or Vue.js",
+          "Build small projects like a to-do list or simple game",
+          "Join our Modern Age Coders community for support and guidance"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember, everyone starts as a beginner. The key is consistent practice and not being afraid to make mistakes. Happy coding!"
+      }
+    ]
+  },
+  "relatedPosts": ["coding-for-kids-guide", "python-for-beginners"]
+}
