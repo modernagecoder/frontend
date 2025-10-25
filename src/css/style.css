@@ -1384,31 +1384,35 @@ nav {
     font-weight: 500;
     font-size: 1rem;
     border-radius: 0.875rem;
-    transition: all var(--transition-speed) ease;
+    transition: all 0.3s ease;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
 }
 
-.nav-link::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
-    transition: left 0.5s ease;
-    pointer-events: none;
+/* Active state for current page */
+.nav-link.active {
+    color: white;
+    background: rgba(168, 85, 247, 0.2);
+    border: 1px solid rgba(168, 85, 247, 0.5);
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.3);
 }
 
-.nav-link:hover::before {
-    left: 100%;
-}
-
+/* Hover state */
 .nav-link:hover {
     color: white;
-    background: rgba(255, 255, 255, 0.08);
-    transform: translateY(-2px);
+    background: rgba(168, 85, 247, 0.15);
+    border: 1px solid rgba(168, 85, 247, 0.3);
+}
+
+/* Active link should have stronger highlight on hover */
+.nav-link.active:hover {
+    background: rgba(168, 85, 247, 0.3);
+    border-color: rgba(168, 85, 247, 0.6);
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
 }
 
 .dropdown {
@@ -1449,9 +1453,23 @@ nav {
     border-radius: 0.625rem;
     transition: all 0.3s ease;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
+/* Hover state for dropdown items */
+.dropdown-item:hover {
+    background: rgba(168, 85, 247, 0.15);
+    color: white;
+}
+
+/* Active state for dropdown items */
+.dropdown-item.active {
+    background: rgba(168, 85, 247, 0.2);
+    color: white;
+    border-left: 3px solid rgba(168, 85, 247, 0.8);
+}
+
+/* Remove the flashy animation effect */
 .dropdown-item::before {
     content: '';
     position: absolute;
@@ -1835,6 +1853,25 @@ body.courses-page .course-content {
     text-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
     margin-bottom: 1rem;
     line-height: 1.2;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        white-space: normal;
+    }
+}
+
+.hero-text h1 .highlight-ma,
+.hero-text h1 .highlight-de,
+.hero-text h1 .highlight-made {
+    background: linear-gradient(135deg, #a855f7, #4ecdc4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+    text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+    display: inline-block;
 }
 
 .hero-text p {
@@ -2768,13 +2805,13 @@ body.courses-page .course-content {
 }
 
 /* ========================================
-   AMAZING QUADRANT LAYOUT STYLES
+   AMAZING QUADRANT LAYOUT STYLES - GLOWY PURPLE VIBES
    ======================================== */
 
 .learning-quadrant-container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 .quadrant-grid {
@@ -2782,24 +2819,25 @@ body.courses-page .course-content {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
-    min-height: 400px;
+    min-height: 550px;
     padding: 1rem;
 }
 
 .quadrant-item {
     position: relative;
-    background: var(--glass-bg-light);
-    backdrop-filter: blur(var(--glass-blur));
-    border: 1px solid var(--glass-border);
-    border-radius: 1.2rem;
-    padding: 1.5rem;
+    border-radius: 2rem;
+    padding: 3.5rem 2.5rem;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     animation: fadeInUp 0.8s ease-out;
-    box-shadow:
-        0 8px 25px rgba(0, 0, 0, 0.1),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
 }
 
 .quadrant-item:nth-child(1) {
@@ -2815,6 +2853,9 @@ body.courses-page .course-content {
     animation-delay: 0.4s;
 }
 
+.quadrant-item:hover {
+    transform: translateY(-8px) scale(1.02);
+}
 
 .quadrant-item::before {
     content: '';
@@ -2823,89 +2864,39 @@ body.courses-page .course-content {
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at center, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
-    border-radius: 1.2rem;
-    animation: professional-pulse 5s ease-in-out infinite;
+    background: radial-gradient(circle at 50% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
 }
 
-@keyframes professional-pulse {
-    0%, 100% { opacity: 0.5; transform: scale(1); }
-    50% { opacity: 0.8; transform: scale(1.01); }
+.quadrant-item:hover::before {
+    opacity: 1;
 }
-
 
 .quadrant-glow {
     position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #a855f7, #4ecdc4, #ff6b6b, #ffb800);
-    background-size: 400% 400%;
-    border-radius: 1.3rem;
-    opacity: 0.6;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
+    border-radius: 2rem;
+    opacity: 0;
     z-index: -1;
-    animation: gradientShift 6s ease-in-out infinite;
+    transition: opacity 0.4s ease;
+    filter: blur(15px);
 }
 
-@keyframes gradientShift {
-    0%, 100% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-}
-
-.quadrant-item {
-    box-shadow:
-        0 15px 35px rgba(168, 85, 247, 0.2),
-        0 0 20px rgba(78, 205, 196, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+.quadrant-item:hover .quadrant-glow {
+    opacity: 0.8;
 }
 
 .quadrant-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.1;
-    transition: opacity 0.3s ease;
+    display: none;
 }
-
 
 .quadrant-pattern {
-    width: 100%;
-    height: 100%;
-    background-size: 30px 30px;
-    animation: patternMove 20s linear infinite;
-}
-
-@keyframes patternMove {
-    0% { background-position: 0 0; }
-    100% { background-position: 30px 30px; }
-}
-
-.kids-pattern {
-    background-image:
-        radial-gradient(circle at 15px 15px, #FFB800 2px, transparent 2px),
-        radial-gradient(circle at 5px 25px, #4ECDC4 1.5px, transparent 1.5px);
-}
-
-.teens-pattern {
-    background-image:
-        linear-gradient(45deg, #A855F7 25%, transparent 25%),
-        linear-gradient(-45deg, #4ECDC4 25%, transparent 25%);
-    background-size: 20px 20px;
-}
-
-.adults-pattern {
-    background-image:
-        repeating-linear-gradient(0deg, #4ECDC4, #4ECDC4 2px, transparent 2px, transparent 10px),
-        repeating-linear-gradient(90deg, #A855F7, #A855F7 2px, transparent 2px, transparent 10px);
-}
-
-.professionals-pattern {
-    background-image:
-        conic-gradient(from 0deg at 15px 15px, #A855F7 0deg, #4ECDC4 90deg, #FFB800 180deg, #FF6B6B 270deg, #A855F7 360deg);
-    background-size: 30px 30px;
+    display: none;
 }
 
 .quadrant-content {
@@ -2916,133 +2907,153 @@ body.courses-page .course-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding-top: 0.5rem;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
+.quadrant-icon {
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(0 0 20px currentColor);
+    transition: all 0.4s ease;
+}
 
-.quadrant-content {
-    position: relative;
-    z-index: 2;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding-top: 1rem;
+.quadrant-item:hover .quadrant-icon {
+    transform: scale(1.1) translateY(-5px);
+    filter: drop-shadow(0 0 35px currentColor);
 }
 
 .quadrant-title {
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--text-primary);
-    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
     letter-spacing: 0.5px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 0.5rem;
+    text-shadow: 0 0 30px currentColor;
+    line-height: 1.2;
 }
 
 .quadrant-age {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
-    margin-bottom: 1.5rem;
-    font-weight: 500;
+    display: none;
 }
 
 .quadrant-description {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-bottom: 1.5rem;
-    flex-grow: 1;
+    display: none;
 }
 
 .highlight-text {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #a855f7;
-    background: linear-gradient(135deg, #a855f7, #4ecdc4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    display: none;
 }
 
 .feature-text {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    font-weight: 500;
+    display: none;
 }
 
 .quadrant-stats {
-    margin-top: auto;
+    display: none;
 }
 
 .mini-stat {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.25rem;
+    display: none;
 }
 
-.mini-stat .stat-number {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #a855f7;
-}
-
-.mini-stat .stat-label {
-    font-size: 0.8rem;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-
-
+/* Kids Quadrant - Cyan Theme (matching website secondary color) */
 .kids-quadrant {
-    border-left: 3px solid #FFB800;
-    box-shadow:
-        0 15px 35px rgba(255, 184, 0, 0.25),
-        0 0 25px rgba(255, 184, 0, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    background: linear-gradient(135deg, #0d3d3a 0%, #082826 100%);
+    color: #ffffff;
+    border-color: rgba(78, 205, 196, 0.3);
 }
 
 .kids-quadrant .quadrant-glow {
-    background: linear-gradient(45deg, #FFB800, #FFA500, #FF8C00, #FFB800);
+    background: linear-gradient(135deg, #4ecdc4 0%, #3ab5ad 100%);
 }
 
+.kids-quadrant .quadrant-title {
+    color: #4ecdc4;
+    text-shadow: 0 0 30px #4ecdc4, 0 0 60px rgba(78, 205, 196, 0.5);
+}
+
+.kids-quadrant .quadrant-icon {
+    color: #4ecdc4;
+}
+
+.kids-quadrant:hover {
+    box-shadow: 0 15px 60px rgba(78, 205, 196, 0.4), 0 0 80px rgba(78, 205, 196, 0.2);
+    border-color: rgba(78, 205, 196, 0.5);
+}
+
+/* Teens Quadrant - Purple Theme (matching website primary color) */
 .teens-quadrant {
-    border-top: 3px solid #A855F7;
-    box-shadow:
-        0 15px 35px rgba(168, 85, 247, 0.25),
-        0 0 25px rgba(168, 85, 247, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    background: linear-gradient(135deg, #3d1f5c 0%, #2a1440 100%);
+    color: #ffffff;
+    border-color: rgba(168, 85, 247, 0.3);
 }
 
 .teens-quadrant .quadrant-glow {
-    background: linear-gradient(45deg, #A855F7, #9333EA, #7C3AED, #A855F7);
+    background: linear-gradient(135deg, #a855f7 0%, #8b3fd9 100%);
 }
 
+.teens-quadrant .quadrant-title {
+    color: #a855f7;
+    text-shadow: 0 0 30px #a855f7, 0 0 60px rgba(168, 85, 247, 0.5);
+}
+
+.teens-quadrant .quadrant-icon {
+    color: #a855f7;
+}
+
+.teens-quadrant:hover {
+    box-shadow: 0 15px 60px rgba(168, 85, 247, 0.4), 0 0 80px rgba(168, 85, 247, 0.2);
+    border-color: rgba(168, 85, 247, 0.5);
+}
+
+/* Adults Quadrant - Orange Theme (matching website math color) */
 .adults-quadrant {
-    border-left: 3px solid #4ECDC4;
-    box-shadow:
-        0 15px 35px rgba(78, 205, 196, 0.25),
-        0 0 25px rgba(78, 205, 196, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    background: linear-gradient(135deg, #4a3310 0%, #332208 100%);
+    color: #ffffff;
+    border-color: rgba(255, 165, 0, 0.3);
 }
 
 .adults-quadrant .quadrant-glow {
-    background: linear-gradient(45deg, #4ECDC4, #06B6D4, #0891B2, #4ECDC4);
+    background: linear-gradient(135deg, #ffa500 0%, #e69500 100%);
 }
 
+.adults-quadrant .quadrant-title {
+    color: #ffa500;
+    text-shadow: 0 0 30px #ffa500, 0 0 60px rgba(255, 165, 0, 0.5);
+}
+
+.adults-quadrant .quadrant-icon {
+    color: #ffa500;
+}
+
+.adults-quadrant:hover {
+    box-shadow: 0 15px 60px rgba(255, 165, 0, 0.4), 0 0 80px rgba(255, 165, 0, 0.2);
+    border-color: rgba(255, 165, 0, 0.5);
+}
+
+/* Professionals Quadrant - Pink Theme (matching website AI color) */
 .professionals-quadrant {
-    border-top: 3px solid #FF6B6B;
-    box-shadow:
-        0 15px 35px rgba(255, 107, 107, 0.25),
-        0 0 25px rgba(255, 107, 107, 0.15),
-        0 0 0 1px rgba(255, 255, 255, 0.1) inset;
+    background: linear-gradient(135deg, #4a1f3d 0%, #331429 100%);
+    color: #ffffff;
+    border-color: rgba(236, 72, 153, 0.3);
 }
 
 .professionals-quadrant .quadrant-glow {
-    background: linear-gradient(45deg, #FF6B6B, #EF4444, #DC2626, #FF6B6B);
+    background: linear-gradient(135deg, #ec4899 0%, #d63384 100%);
+}
+
+.professionals-quadrant .quadrant-title {
+    color: #ec4899;
+    text-shadow: 0 0 30px #ec4899, 0 0 60px rgba(236, 72, 153, 0.5);
+}
+
+.professionals-quadrant .quadrant-icon {
+    color: #ec4899;
+}
+
+.professionals-quadrant:hover {
+    box-shadow: 0 15px 60px rgba(236, 72, 153, 0.4), 0 0 80px rgba(236, 72, 153, 0.2);
+    border-color: rgba(236, 72, 153, 0.5);
 }
 
 .quadrant-overall-stats {
@@ -3093,7 +3104,7 @@ body.courses-page .course-content {
 
 @media (max-width: 768px) {
     .learning-quadrant-container {
-        padding: 1.5rem 0;
+        padding: 2rem 0;
         max-width: 600px;
     }
 
@@ -3105,13 +3116,16 @@ body.courses-page .course-content {
     }
 
     .quadrant-item {
-        padding: 1.5rem;
+        padding: 2.5rem 2rem;
     }
 
-
+    .quadrant-icon {
+        width: 100px;
+        height: 100px;
+    }
 
     .quadrant-title {
-        font-size: 1.2rem;
+        font-size: 2rem;
     }
 
     .quadrant-overall-stats {
@@ -3129,10 +3143,11 @@ body.courses-page .course-content {
 @media (max-width: 480px) {
     .learning-quadrant-container {
         max-width: 400px;
+        padding: 1.5rem 0;
     }
 
     .quadrant-grid {
-        gap: 1rem;
+        gap: 1.2rem;
     }
 
     .quadrant-overall-stats {
@@ -3140,13 +3155,16 @@ body.courses-page .course-content {
     }
 
     .quadrant-item {
-        padding: 1.2rem;
+        padding: 2rem 1.5rem;
     }
 
-
+    .quadrant-icon {
+        width: 80px;
+        height: 80px;
+    }
 
     .quadrant-title {
-        font-size: 1.1rem;
+        font-size: 1.75rem;
     }
 }
 
@@ -12023,5 +12041,259 @@ body.modal-open {
     to {
         transform: translateX(400px);
         opacity: 0;
+    }
+}
+
+
+/* ========================================
+   GIRLS IN TECH & CERTIFICATION SECTIONS
+   ======================================== */
+
+/* Feature Card Container */
+.feature-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    background: var(--glass-bg-light);
+    backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-xl);
+    padding: 3rem;
+    box-shadow: var(--glass-shadow);
+    transition: all var(--transition-speed) var(--transition-timing);
+}
+
+.feature-card:hover {
+    background: var(--glass-hover-bg-light);
+    border-color: var(--glass-hover-border);
+    box-shadow: var(--glass-hover-shadow);
+    transform: translateY(-5px);
+}
+
+/* Girls Feature Card Specific */
+.girls-feature-card {
+    border: 1px solid rgba(236, 72, 153, 0.3);
+    background: linear-gradient(135deg, 
+        rgba(236, 72, 153, 0.05), 
+        rgba(168, 85, 247, 0.05)
+    );
+}
+
+.girls-feature-card:hover {
+    border-color: rgba(236, 72, 153, 0.5);
+    box-shadow: 0 12px 40px rgba(236, 72, 153, 0.3);
+}
+
+/* Feature Visual */
+.feature-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.girls-visual svg {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.certificate-visual {
+    background: rgba(168, 85, 247, 0.05);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+}
+
+.certificate-visual img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Feature Text */
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.feature-text .tagline {
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--girls-empowerment-color);
+    margin-bottom: 0.5rem;
+}
+
+.feature-text h3 {
+    font-size: clamp(1.75rem, 3vw, 2.5rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.feature-text p {
+    font-size: var(--body-regular);
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+/* Girls Highlights */
+.girls-highlights {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.highlight-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgba(236, 72, 153, 0.05);
+    border: 1px solid rgba(236, 72, 153, 0.2);
+    border-radius: var(--border-radius-md);
+    transition: all 0.3s ease;
+}
+
+.highlight-item:hover {
+    background: rgba(236, 72, 153, 0.1);
+    border-color: rgba(236, 72, 153, 0.4);
+    transform: translateX(5px);
+}
+
+.highlight-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #EC4899, #A855F7);
+    border-radius: 50%;
+    color: white;
+}
+
+.highlight-icon svg {
+    width: 24px;
+    height: 24px;
+}
+
+.highlight-item span {
+    font-size: var(--body-regular);
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+/* Certificate Features */
+.certificate-features {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.certificate-features li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: var(--body-regular);
+    color: var(--text-secondary);
+    padding: 0.75rem;
+    background: rgba(168, 85, 247, 0.05);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: var(--border-radius-sm);
+    transition: all 0.3s ease;
+}
+
+.certificate-features li:hover {
+    background: rgba(168, 85, 247, 0.1);
+    border-color: rgba(168, 85, 247, 0.4);
+    transform: translateX(5px);
+}
+
+.certificate-features li::before {
+    content: '✓';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(135deg, #8A2BE2, #4A00E0);
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .feature-card {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .feature-visual {
+        order: -1;
+    }
+
+    .girls-visual svg {
+        max-width: 250px;
+    }
+
+    .feature-text h3 {
+        font-size: 1.75rem;
+    }
+
+    .girls-highlights,
+    .certificate-features {
+        gap: 0.75rem;
+    }
+
+    .highlight-item,
+    .certificate-features li {
+        padding: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-card {
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .feature-text {
+        gap: 1rem;
+    }
+
+    .feature-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .highlight-icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .highlight-icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .certificate-features li::before {
+        width: 20px;
+        height: 20px;
+        font-size: 0.875rem;
     }
 }
