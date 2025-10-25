@@ -57,9 +57,17 @@
     const navMenu = document.getElementById('navMenu');
     
     if (mobileMenuBtn && navMenu) {
-        mobileMenuBtn.addEventListener('click', function() {
+        mobileMenuBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
             navMenu.classList.toggle('active');
             mobileMenuBtn.classList.toggle('open');
+            
+            // Prevent body scroll when menu is open
+            if (navMenu.classList.contains('active')) {
+                document.body.style.overflow = 'hidden';
+            } else {
+                document.body.style.overflow = '';
+            }
         });
         
         // Close mobile menu when clicking outside
@@ -70,16 +78,25 @@
             if (!isClickInsideNav && !isClickOnButton && navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
                 mobileMenuBtn.classList.remove('open');
+                document.body.style.overflow = '';
             }
         });
         
-        // Close mobile menu when clicking on a link
+        // Close mobile menu when clicking on a non-dropdown link
         const navItems = navMenu.querySelectorAll('.nav-link');
         navItems.forEach(item => {
-            item.addEventListener('click', function() {
-                if (window.innerWidth <= 768) {
+            item.addEventListener('click', function(e) {
+                // Don't close if it's a dropdown parent
+                const parentDropdown = item.closest('.dropdown');
+                if (parentDropdown && window.innerWidth <= 900) {
+                    return; // Let dropdown handler manage this
+                }
+                
+                // Close menu for regular links
+                if (window.innerWidth <= 900) {
                     navMenu.classList.remove('active');
                     mobileMenuBtn.classList.remove('open');
+                    document.body.style.overflow = '';
                 }
             });
         });
@@ -90,12 +107,36 @@
     dropdowns.forEach(dropdown => {
         const dropdownLink = dropdown.querySelector('.nav-link');
         
-        if (dropdownLink && window.innerWidth <= 768) {
+        if (dropdownLink) {
             dropdownLink.addEventListener('click', function(e) {
-                e.preventDefault();
-                dropdown.classList.toggle('active');
+                if (window.innerWidth <= 900) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    
+                    // Close other dropdowns
+                    dropdowns.forEach(otherDropdown => {
+                        if (otherDropdown !== dropdown) {
+                            otherDropdown.classList.remove('active');
+                        }
+                    });
+                    
+                    // Toggle current dropdown
+                    dropdown.classList.toggle('active');
+                }
             });
         }
+        
+        // Close dropdown when clicking on dropdown items
+        const dropdownItems = dropdown.querySelectorAll('.dropdown-item');
+        dropdownItems.forEach(item => {
+            item.addEventListener('click', function() {
+                if (window.innerWidth <= 900) {
+                    navMenu.classList.remove('active');
+                    mobileMenuBtn.classList.remove('open');
+                    document.body.style.overflow = '';
+                }
+            });
+        });
     });
     
     // Initialize active state on page load

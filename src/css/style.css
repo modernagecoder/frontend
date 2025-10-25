@@ -294,74 +294,41 @@ body {
         padding: 0 var(--spacing-md);
     }
 
-
     .nav-container {
-        padding: var(--spacing-md) var(--spacing-lg);
+        padding: 0.875rem 1rem;
     }
 
     .logo-text {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
-    .nav-menu {
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        height: calc(100vh - 70px);
-        background: var(--glass-bg-dark);
-        backdrop-filter: blur(var(--glass-blur));
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: stretch;
-        padding: var(--spacing-xl);
-        transition: left 0.3s ease;
-        z-index: 1000;
+    .logo-icon {
+        width: 36px;
+        height: 36px;
     }
 
-    .nav-menu.active {
-        left: 0;
+    .tab-button {
+        min-width: 130px;
+        padding: 0.875rem 1.25rem;
+        font-size: 0.9rem;
     }
 
-    .nav-item {
-        margin-bottom: var(--spacing-md);
+    .section-title {
+        font-size: 1.75rem;
+        padding: 0 1rem;
     }
 
-    .nav-link {
-        padding: var(--spacing-lg);
-        text-align: center;
-        border: 1px solid var(--glass-border);
-        border-radius: var(--border-radius-md);
+    .section-subtitle {
+        font-size: 0.95rem;
+        padding: 0 1rem;
     }
 
-    .mobile-menu-btn {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        width: 30px;
-        height: 30px;
-        justify-content: center;
-        align-items: center;
+    .tabs-wrapper {
+        padding: 0;
     }
 
-    .mobile-menu-btn span {
-        width: 25px;
-        height: 3px;
-        background: var(--text-primary);
-        border-radius: 2px;
-        transition: all 0.3s ease;
-    }
-
-    .mobile-menu-btn.open span:nth-child(1) {
-        transform: rotate(45deg) translate(6px, 6px);
-    }
-
-    .mobile-menu-btn.open span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .mobile-menu-btn.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(6px, -6px);
+    .tabs-container {
+        padding: 0.5rem 0.25rem;
     }
 }
 
@@ -7011,16 +6978,20 @@ body.courses-page .course-content {
     .nav-menu {
         display: none;
         flex-direction: column;
-        position: absolute;
-        top: calc(100% + 10px);
+        position: fixed;
+        top: 70px;
         left: 0;
         width: 100%;
-        background: var(--glass-bg-dark);
+        height: calc(100vh - 70px);
+        background: rgba(10, 10, 20, 0.98);
         backdrop-filter: blur(30px);
-        border: 1px solid var(--glass-border);
-        border-radius: 1rem;
-        padding: 1rem;
-        gap: 0.5rem;
+        -webkit-backdrop-filter: blur(30px);
+        border: none;
+        border-top: 1px solid var(--glass-border);
+        padding: 2rem 1.5rem;
+        gap: 0.75rem;
+        overflow-y: auto;
+        z-index: 9998;
     }
 
     .nav-menu.active {
@@ -7032,16 +7003,34 @@ body.courses-page .course-content {
         width: 100%;
     }
 
-    .mobile-menu-btn {
+    .nav-link {
+        width: 100%;
+        padding: 1rem 1.25rem;
+        text-align: left;
+        font-size: 1.1rem;
+        border: 1px solid rgba(168, 85, 247, 0.2);
+        background: rgba(168, 85, 247, 0.05);
         display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-menu-btn {
+        display: flex !important;
         flex-direction: column;
-        justify-content: space-around;
-        width: 28px;
-        height: 28px;
+        justify-content: space-between;
+        width: 32px;
+        height: 24px;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        z-index: 9999;
     }
 
     .mobile-menu-btn span {
-        width: 28px;
+        display: block;
+        width: 100%;
         height: 3px;
         background: white;
         border-radius: 3px;
@@ -7049,7 +7038,7 @@ body.courses-page .course-content {
     }
 
     .mobile-menu-btn.open span:nth-child(1) {
-        transform: rotate(45deg) translate(6px, 6px);
+        transform: rotate(45deg) translate(8px, 8px);
     }
 
     .mobile-menu-btn.open span:nth-child(2) {
@@ -7057,7 +7046,7 @@ body.courses-page .course-content {
     }
 
     .mobile-menu-btn.open span:nth-child(3) {
-        transform: rotate(-45deg) translate(7px, -7px);
+        transform: rotate(-45deg) translate(8px, -8px);
     }
 
     .dropdown-content {
@@ -7065,16 +7054,30 @@ body.courses-page .course-content {
         transform: none;
         opacity: 1;
         visibility: visible;
-        background: transparent;
-        border: none;
+        background: rgba(168, 85, 247, 0.1);
+        border: 1px solid rgba(168, 85, 247, 0.2);
+        border-radius: 0.75rem;
         box-shadow: none;
         display: none;
-        padding: 0 0 0 1.25rem;
+        padding: 0.5rem;
         margin-top: 0.5rem;
     }
 
     .dropdown.active .dropdown-content {
         display: block;
+    }
+
+    .dropdown-item {
+        padding: 0.875rem 1rem;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+        padding: 1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -7449,27 +7452,72 @@ body.index-page main {
 
 
 @media (max-width: 768px) {
-
+    .tabs-wrapper {
+        margin-bottom: 3rem;
+        padding: 0 0.5rem;
+    }
 
     .tabs-container {
         overflow-x: auto;
-        padding-bottom: 10px;
-
+        overflow-y: hidden;
+        padding: 0.5rem;
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 0.5rem;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x proximity;
+        max-width: 100%;
+        margin: 0 auto 2rem;
+        scrollbar-width: thin;
+        scrollbar-color: var(--primary-glow-color) rgba(0, 0, 0, 0.2);
     }
 
+    .tab-button {
+        flex: 0 0 auto;
+        min-width: 150px;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        white-space: nowrap;
+        scroll-snap-align: center;
+        background: rgba(168, 85, 247, 0.1);
+        border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+
+    .tab-button.active {
+        background: rgba(168, 85, 247, 0.3);
+        border-color: rgba(168, 85, 247, 0.5);
+        box-shadow: 0 0 15px rgba(168, 85, 247, 0.4);
+    }
 
     .tabs-container::-webkit-scrollbar {
-        height: 4px;
+        height: 8px;
     }
 
     .tabs-container::-webkit-scrollbar-track {
         background: rgba(0, 0, 0, 0.2);
-        border-radius: 2px;
+        border-radius: 4px;
     }
 
     .tabs-container::-webkit-scrollbar-thumb {
         background: var(--primary-glow-color);
-        border-radius: 2px;
+        border-radius: 4px;
+    }
+
+    .tab-glider {
+        display: none;
+    }
+
+    /* Math tabs specific styling */
+    #math-tabs .tab-button {
+        background: rgba(255, 165, 0, 0.1);
+        border-color: rgba(255, 165, 0, 0.3);
+    }
+
+    #math-tabs .tab-button.active {
+        background: rgba(255, 165, 0, 0.3);
+        border-color: rgba(255, 165, 0, 0.5);
+        box-shadow: 0 0 15px rgba(255, 165, 0, 0.4);
     }
 }
 
