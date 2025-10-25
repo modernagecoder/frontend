@@ -41,10 +41,14 @@ class CourseGenerator {
                 return;
             }
             
-            // Copy CSS file to generated directory if it doesn't exist
-            const cssSourcePath = path.join(this.generatedDir, 'style.css');
-            if (!fs.existsSync(cssSourcePath)) {
-                console.log('⚠️  CSS file not found at', cssSourcePath);
+            // Copy CSS file from template to generated directory
+            const cssSourcePath = path.join(this.templateDir, 'course-template.css');
+            const cssDestPath = path.join(this.generatedDir, 'style.css');
+            if (fs.existsSync(cssSourcePath)) {
+                fs.copyFileSync(cssSourcePath, cssDestPath);
+                console.log('✓ Copied course template CSS file to generated directory');
+            } else {
+                console.log('⚠️  Course template CSS file not found at', cssSourcePath);
             }
 
             // Generate each course
@@ -64,15 +68,18 @@ class CourseGenerator {
                     
                     // Copy CSS file to course directory
                     const courseCssPath = path.join(courseDir, 'style.css');
-                    if (fs.existsSync(cssSourcePath)) {
-                        fs.copyFileSync(cssSourcePath, courseCssPath);
+                    if (fs.existsSync(cssDestPath)) {
+                        fs.copyFileSync(cssDestPath, courseCssPath);
                     }
                     
                     // Copy JavaScript file to course directory
-                    const jsSourcePath = path.join(this.projectRoot, 'course-navigation.js');
+                    const jsSourcePath = path.join(this.projectRoot, 'src', 'js', 'course-navigation.js');
                     const courseJsPath = path.join(courseDir, 'course-navigation.js');
                     if (fs.existsSync(jsSourcePath)) {
                         fs.copyFileSync(jsSourcePath, courseJsPath);
+                        console.log(`  ✓ Copied course-navigation.js`);
+                    } else {
+                        console.warn(`  ⚠️  course-navigation.js not found at ${jsSourcePath}`);
                     }
                     
                     // Copy image assets
