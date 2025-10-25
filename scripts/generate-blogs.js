@@ -179,11 +179,18 @@ class BlogGenerator {
             fs.copyFileSync(cssSource, cssDest);
         }
         
-        // Copy JavaScript file
-        const jsSource = path.join(this.projectRoot, 'blog-navigation.js');
+        // Copy JavaScript files
+        const jsSource = path.join(this.projectRoot, 'src', 'js', 'blog-navigation.js');
         const jsDest = path.join(blogDir, 'blog-navigation.js');
         if (fs.existsSync(jsSource)) {
             fs.copyFileSync(jsSource, jsDest);
+        }
+        
+        // Copy navigation.js as well
+        const navJsSource = path.join(this.projectRoot, 'src', 'js', 'navigation.js');
+        const navJsDest = path.join(blogDir, 'navigation.js');
+        if (fs.existsSync(navJsSource)) {
+            fs.copyFileSync(navJsSource, navJsDest);
         }
     }
 
