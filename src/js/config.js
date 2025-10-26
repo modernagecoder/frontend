@@ -7,7 +7,7 @@ const API_CONFIG = {
   
   // For production - UPDATE THIS after deploying backend to Vercel
   // Example: 'https://mylearn-backend.vercel.app'
-  production: 'https://your-backend-url.vercel.app',
+  production: 'https://backend-modernagecoders.vercel.app/',
   
   // Auto-detect environment
   getBaseURL: function() {
