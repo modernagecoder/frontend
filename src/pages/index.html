@@ -171,7 +171,7 @@
     <main>
         <section class="section hero-section">
             <div class="hero-text">
-                <h1><span class="highlight-ma" style="white-space: nowrap;">Ma</span><span style="white-space: nowrap;">ths + Co<span class="highlight-de">de</span></span><br><span
+                <h1><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths + Co<span class="highlight-de">de</span></span><br><span
                         class="highlight-made">Made</span> for Each Other.</h1>
                 <p>We at Modern Age Coders believe that Coding and Maths together bring out the best of both worlds —
                     logic and creativity. When numbers meet imagination, learning becomes fun, meaningful, and full of
@@ -1441,37 +1441,7 @@
 
             // --- Mobile Menu Script ---
             // --- Mobile Menu Script ---
-            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-            const navMenu = document.getElementById('navMenu');
-            mobileMenuBtn.addEventListener('click', () => {
-                navMenu.classList.toggle('active');
-                mobileMenuBtn.classList.toggle('open');
-            });
-
-            // --- NEW: MOBILE DROPDOWN SCRIPT START ---
-            const dropdownsInMobile = navMenu.querySelectorAll('.dropdown');
-            dropdownsInMobile.forEach(dropdown => {
-                const dropdownLink = dropdown.querySelector('a');
-                dropdownLink.addEventListener('click', function (e) {
-                    // Check if we are in mobile view
-                    if (window.innerWidth <= 900) {
-                        e.preventDefault(); // Stop the link from navigating
-                        dropdown.classList.toggle('active');
-                    }
-                });
-            });
-            // --- NEW: MOBILE DROPDOWN SCRIPT END ---
-
-            // Close mobile menu when clicking outside
-
-
-            // Close mobile menu when clicking outside
-            document.addEventListener('click', (e) => {
-                if (!mobileMenuBtn.contains(e.target) && !navMenu.contains(e.target)) {
-                    navMenu.classList.remove('active');
-                    mobileMenuBtn.classList.remove('open');
-                }
-            });
+            // Mobile menu and dropdown handling is managed by /js/navigation.js
 
             // --- FAQ Accordion Script with Smooth Animation ---
             const faqItems = document.querySelectorAll('.faq-item');
