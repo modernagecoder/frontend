@@ -68,9 +68,20 @@
         const submitBtn = form.querySelector('.submit-btn');
         
         // Get form data
-        const username = form.querySelector('input[type="text"]').value.trim();
-        const password = form.querySelector('input[type="password"]').value;
+        // const username = form.querySelector('input[type="text"]').value.trim();
+        // const password = form.querySelector('input[type="password"]').value;
         
+    let username, password;
+        
+        if (role === 'student') {
+            username = document.getElementById('studentUsername')?.value.trim() || '';
+            password = document.getElementById('studentPassword')?.value || '';
+        } else {
+            username = document.getElementById('teacherUsername')?.value.trim() || '';
+            password = document.getElementById('teacherPassword')?.value || '';
+        }
+        
+
         // Validate
         if (!username || !password) {
             showError(errorElement, 'Please enter both username and password');
