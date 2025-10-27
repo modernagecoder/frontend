@@ -103,12 +103,15 @@ function initializeBlogCardNavigation() {
             const blogUrl = this.getAttribute('data-blog-url');
             if (blogUrl) {
                 // Check if we're on the listing page or a blog post page
-                if (window.location.pathname.includes('/blog/generated/')) {
+                const pathname = window.location.pathname;
+                const isListingPage = pathname.endsWith('/generated/') || pathname.endsWith('/generated/index.html');
+                
+                if (isListingPage) {
+                    // We're on the listing page, navigate to blog post
+                    window.location.href = `${blogUrl}/`;
+                } else {
                     // We're on a blog post page, navigate to sibling
                     window.location.href = `../${blogUrl}/`;
-                } else {
-                    // We're on the listing page
-                    window.location.href = `generated/${blogUrl}/`;
                 }
             }
         });
