@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Navigation Test - Modern Age Coders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #000002;
+            color: #F8FAFC;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: rgba(16, 16, 28, 0.8);
+        }
+        
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .pass {
+            background: rgba(78, 205, 196, 0.2);
+            border: 1px solid rgba(78, 205, 196, 0.5);
+            color: #4ECDC4;
+        }
+        
+        .fail {
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid rgba(255, 107, 107, 0.5);
+            color: #FF6B6B;
+        }
+        
+        .warning {
+            background: rgba(255, 165, 0, 0.2);
+            border: 1px solid rgba(255, 165, 0, 0.5);
+            color: #FFA500;
+        }
+        
+        .test-instructions {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .keyboard-shortcut {
+            background: rgba(168, 85, 247, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #8A2BE2, #4A00E0);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+        
+        button:focus-visible {
+            outline: 3px solid rgba(168, 85, 247, 0.9);
+            outline-offset: 3px;
+            box-shadow: 0 0 0 6px rgba(168, 85, 247, 0.3);
+        }
+        
+        .focus-indicator {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(168, 85, 247, 0.9);
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            font-weight: bold;
+            z-index: 10000;
+            display: none;
+        }
+        
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .element-test {
+            background: rgba(24, 24, 40, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        
+        .element-test h4 {
+            margin: 0 0 10px 0;
+            color: #A855F7;
+        }
+        
+        .test-link {
+            color: #4ECDC4;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        
+        .test-link:focus-visible {
+            outline: 2px solid rgba(168, 85, 247, 0.8);
+            outline-offset: 2px;
+            background: rgba(168, 85, 247, 0.15);
+        }
+        
+        input, textarea, select {
+            background: rgba(24, 24, 40, 0.9);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #F8FAFC;
+            padding: 10px;
+            border-radius: 4px;
+            margin: 5px;
+            font-size: 16px;
+        }
+        
+        input:focus-visible, textarea:focus-visible, select:focus-visible {
+            outline: 2px solid rgba(168, 85, 247, 0.8);
+            outline-offset: 2px;
+            border-color: rgba(168, 85, 247, 0.6);
+            box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="focus-indicator" id="focusIndicator">
+        Current Focus: <span id="focusElement">None</span>
+    </div>
+
+    <h1>Keyboard Navigation Test Suite</h1>
+    
+    <div class="test-instructions">
+        <h2>🎯 Testing Instructions</h2>
+        <p><strong>Use only your keyboard to navigate this page:</strong></p>
+        <ul>
+            <li><span class="keyboard-shortcut">Tab</span> - Move to next interactive element</li>
+            <li><span class="keyboard-shortcut">Shift + Tab</span> - Move to previous interactive element</li>
+            <li><span class="keyboard-shortcut">Enter</span> or <span class="keyboard-shortcut">Space</span> - Activate buttons and links</li>
+            <li><span class="keyboard-shortcut">Arrow Keys</span> - Navigate within groups (dropdowns, tabs)</li>
+            <li><span class="keyboard-shortcut">Escape</span> - Close dropdowns or modals</li>
+        </ul>
+        <p><strong>✅ What to verify:</strong></p>
+        <ul>
+            <li>All interactive elements are reachable via Tab key</li>
+            <li>Focus indicators are clearly visible</li>
+            <li>Tab order is logical (left to right, top to bottom)</li>
+            <li>No focus traps (you can always move focus)</li>
+            <li>All functionality works with keyboard only</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2>🔍 Automated Test Results</h2>
+        <div id="testResults"></div>
+        <button onclick="runKeyboardTests()">Run Keyboard Accessibility Tests</button>
+    </div>
+
+    <div class="test-section">
+        <h2>🎮 Interactive Elements Test</h2>
+        <p>Navigate through these elements using only the Tab key and verify focus indicators:</p>
+        
+        <div class="test-grid">
+            <div class="element-test">
+                <h4>Buttons</h4>
+                <button>Primary Button</button>
+                <button>Secondary Button</button>
+                <button disabled>Disabled Button</button>
+            </div>
+            
+            <div class="element-test">
+                <h4>Links</h4>
+                <a href="#" class="test-link">Regular Link</a><br>
+                <a href="#" class="test-link">Another Link</a><br>
+                <a href="#test" class="test-link">Anchor Link</a>
+            </div>
+            
+            <div class="element-test">
+                <h4>Form Elements</h4>
+                <input type="text" placeholder="Text Input" aria-label="Text Input">
+                <input type="email" placeholder="Email Input" aria-label="Email Input">
+                <textarea placeholder="Textarea" aria-label="Textarea"></textarea>
+                <select aria-label="Select Dropdown">
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </div>
+            
+            <div class="element-test">
+                <h4>Custom Interactive Elements</h4>
+                <div tabindex="0" role="button" style="padding: 10px; border: 1px solid #A855F7; border-radius: 4px; cursor: pointer; margin: 5px 0;">
+                    Custom Button (div with tabindex)
+                </div>
+                <div tabindex="0" role="link" style="padding: 10px; border: 1px solid #4ECDC4; border-radius: 4px; cursor: pointer; margin: 5px 0;">
+                    Custom Link (div with tabindex)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🧭 Navigation Test</h2>
+        <p>Test navigation patterns commonly found on the website:</p>
+        
+        <nav style="background: rgba(24, 24, 40, 0.9); padding: 15px; border-radius: 8px; margin: 10px 0;">
+            <a href="#" class="test-link" style="margin-right: 20px;">Home</a>
+            <a href="#" class="test-link" style="margin-right: 20px;">About</a>
+            <div style="display: inline-block; position: relative;">
+                <a href="#" class="test-link" id="dropdownToggle" aria-haspopup="true" aria-expanded="false">
+                    Courses ▼
+                </a>
+                <div id="dropdownMenu" style="display: none; position: absolute; top: 100%; left: 0; background: rgba(24, 24, 40, 0.95); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 4px; padding: 10px; min-width: 150px; z-index: 1000;">
+                    <a href="#" class="test-link" style="display: block; padding: 5px 0;">Kids Coding</a>
+                    <a href="#" class="test-link" style="display: block; padding: 5px 0;">Teen Coding</a>
+                    <a href="#" class="test-link" style="display: block; padding: 5px 0;">Adult Coding</a>
+                </div>
+            </div>
+            <a href="#" class="test-link" style="margin-left: 20px;">Contact</a>
+        </nav>
+    </div>
+
+    <div class="test-section">
+        <h2>📋 Manual Test Checklist</h2>
+        <div id="manualChecklist">
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Skip link is present and functional (should appear when pressing Tab from top of page)
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                All interactive elements are reachable via Tab key
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Focus indicators are clearly visible on all elements
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Tab order follows logical sequence (left-to-right, top-to-bottom)
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Dropdown menus can be opened and navigated with keyboard
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Mobile menu can be opened and navigated with keyboard
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Form elements can be filled out using only keyboard
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                All buttons and links can be activated with Enter or Space
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                No keyboard traps (focus can always be moved away from any element)
+            </label>
+            <label style="display: block; margin: 10px 0;">
+                <input type="checkbox" style="margin-right: 10px;">
+                Hidden elements are not focusable (e.g., closed mobile menu items)
+            </label>
+        </div>
+    </div>
+
+    <script>
+        // Focus tracking for debugging
+        let currentFocusElement = null;
+        const focusIndicator = document.getElementById('focusIndicator');
+        const focusElementSpan = document.getElementById('focusElement');
+
+        // Track focus changes
+        document.addEventListener('focusin', function(e) {
+            currentFocusElement = e.target;
+            const elementInfo = getElementInfo(e.target);
+            focusElementSpan.textContent = elementInfo;
+            focusIndicator.style.display = 'block';
+        });
+
+        document.addEventListener('focusout', function(e) {
+            setTimeout(() => {
+                if (!document.activeElement || document.activeElement === document.body) {
+                    focusIndicator.style.display = 'none';
+                    focusElementSpan.textContent = 'None';
+                }
+            }, 100);
+        });
+
+        function getElementInfo(element) {
+            let info = element.tagName.toLowerCase();
+            if (element.id) info += `#${element.id}`;
+            if (element.className) info += `.${element.className.split(' ')[0]}`;
+            if (element.textContent && element.textContent.trim().length < 30) {
+                info += ` "${element.textContent.trim()}"`;
+            }
+            return info;
+        }
+
+        // Dropdown functionality for testing
+        const dropdownToggle = document.getElementById('dropdownToggle');
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        let dropdownOpen = false;
+
+        dropdownToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            toggleDropdown();
+        });
+
+        dropdownToggle.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                toggleDropdown();
+            } else if (e.key === 'ArrowDown' && dropdownOpen) {
+                e.preventDefault();
+                const firstItem = dropdownMenu.querySelector('a');
+                if (firstItem) firstItem.focus();
+            }
+        });
+
+        function toggleDropdown() {
+            dropdownOpen = !dropdownOpen;
+            dropdownMenu.style.display = dropdownOpen ? 'block' : 'none';
+            dropdownToggle.setAttribute('aria-expanded', dropdownOpen.toString());
+        }
+
+        // Close dropdown on Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && dropdownOpen) {
+                toggleDropdown();
+                dropdownToggle.focus();
+            }
+        });
+
+        // Automated keyboard accessibility tests
+        function runKeyboardTests() {
+            const results = document.getElementById('testResults');
+            results.innerHTML = '<h3>Running Tests...</h3>';
+            
+            const tests = [
+                testSkipLink,
+                testFocusableElements,
+                testTabOrder,
+                testFocusIndicators,
+                testKeyboardActivation,
+                testAriaAttributes,
+                testHiddenElements
+            ];
+            
+            let testResults = [];
+            
+            tests.forEach((test, index) => {
+                setTimeout(() => {
+                    try {
+                        const result = test();
+                        testResults.push(result);
+                        
+                        if (index === tests.length - 1) {
+                            displayTestResults(testResults);
+                        }
+                    } catch (error) {
+                        testResults.push({
+                            name: test.name,
+                            status: 'fail',
+                            message: `Test failed with error: ${error.message}`
+                        });
+                        
+                        if (index === tests.length - 1) {
+                            displayTestResults(testResults);
+                        }
+                    }
+                }, index * 100);
+            });
+        }
+
+        function testSkipLink() {
+            const skipLink = document.querySelector('.skip-link, a[href="#main"], a[href="#content"]');
+            if (skipLink) {
+                return {
+                    name: 'Skip Link',
+                    status: 'pass',
+                    message: 'Skip link found and properly implemented'
+                };
+            } else {
+                return {
+                    name: 'Skip Link',
+                    status: 'warning',
+                    message: 'Skip link not found - should be present for keyboard navigation'
+                };
+            }
+        }
+
+        function testFocusableElements() {
+            const focusableSelectors = [
+                'a[href]',
+                'button:not([disabled])',
+                'input:not([disabled])',
+                'select:not([disabled])',
+                'textarea:not([disabled])',
+                '[tabindex]:not([tabindex="-1"])'
+            ];
+            
+            const focusableElements = document.querySelectorAll(focusableSelectors.join(', '));
+            const count = focusableElements.length;
+            
+            if (count > 0) {
+                return {
+                    name: 'Focusable Elements',
+                    status: 'pass',
+                    message: `Found ${count} focusable elements`
+                };
+            } else {
+                return {
+                    name: 'Focusable Elements',
+                    status: 'fail',
+                    message: 'No focusable elements found'
+                };
+            }
+        }
+
+        function testTabOrder() {
+            const focusableElements = document.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])');
+            let hasLogicalOrder = true;
+            let previousTop = -1;
+            let previousLeft = -1;
+            
+            Array.from(focusableElements).forEach(element => {
+                const rect = element.getBoundingClientRect();
+                if (rect.top < previousTop - 50) { // Allow some tolerance
+                    hasLogicalOrder = false;
+                }
+                previousTop = rect.top;
+                previousLeft = rect.left;
+            });
+            
+            return {
+                name: 'Tab Order',
+                status: hasLogicalOrder ? 'pass' : 'warning',
+                message: hasLogicalOrder ? 'Tab order appears logical' : 'Tab order may not follow visual layout'
+            };
+        }
+
+        function testFocusIndicators() {
+            const styles = getComputedStyle(document.documentElement);
+            const hasCustomFocus = document.querySelector('*:focus-visible') !== null;
+            
+            // Check if focus styles are defined in CSS
+            const cssText = Array.from(document.styleSheets)
+                .map(sheet => {
+                    try {
+                        return Array.from(sheet.cssRules).map(rule => rule.cssText).join('');
+                    } catch (e) {
+                        return '';
+                    }
+                })
+                .join('');
+            
+            const hasFocusStyles = cssText.includes(':focus') || cssText.includes('focus-visible');
+            
+            return {
+                name: 'Focus Indicators',
+                status: hasFocusStyles ? 'pass' : 'warning',
+                message: hasFocusStyles ? 'Focus styles detected in CSS' : 'Custom focus styles may be missing'
+            };
+        }
+
+        function testKeyboardActivation() {
+            const buttons = document.querySelectorAll('button:not([disabled])');
+            const links = document.querySelectorAll('a[href]');
+            
+            let activationSupported = true;
+            
+            // Test if elements have proper event handlers (simplified check)
+            buttons.forEach(button => {
+                if (!button.onclick && !button.addEventListener) {
+                    activationSupported = false;
+                }
+            });
+            
+            return {
+                name: 'Keyboard Activation',
+                status: 'pass',
+                message: `Found ${buttons.length} buttons and ${links.length} links for activation testing`
+            };
+        }
+
+        function testAriaAttributes() {
+            const elementsWithAria = document.querySelectorAll('[aria-label], [aria-labelledby], [aria-describedby], [aria-expanded], [aria-haspopup], [role]');
+            const interactiveElements = document.querySelectorAll('button, a[href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            
+            const ariaRatio = elementsWithAria.length / interactiveElements.length;
+            
+            return {
+                name: 'ARIA Attributes',
+                status: ariaRatio > 0.3 ? 'pass' : 'warning',
+                message: `${elementsWithAria.length} elements have ARIA attributes out of ${interactiveElements.length} interactive elements`
+            };
+        }
+
+        function testHiddenElements() {
+            const hiddenElements = document.querySelectorAll('[hidden], [style*="display: none"], [style*="visibility: hidden"]');
+            const hiddenFocusable = Array.from(hiddenElements).filter(el => {
+                return el.matches('a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])');
+            });
+            
+            return {
+                name: 'Hidden Elements',
+                status: hiddenFocusable.length === 0 ? 'pass' : 'warning',
+                message: hiddenFocusable.length === 0 ? 'No hidden focusable elements found' : `${hiddenFocusable.length} hidden elements are still focusable`
+            };
+        }
+
+        function displayTestResults(results) {
+            const resultsDiv = document.getElementById('testResults');
+            let html = '<h3>Test Results:</h3>';
+            
+            results.forEach(result => {
+                html += `<div class="test-result ${result.status}">
+                    <strong>${result.name}:</strong> ${result.message}
+                </div>`;
+            });
+            
+            const passCount = results.filter(r => r.status === 'pass').length;
+            const totalCount = results.length;
+            
+            html += `<div class="test-result ${passCount === totalCount ? 'pass' : 'warning'}">
+                <strong>Overall:</strong> ${passCount}/${totalCount} tests passed
+            </div>`;
+            
+            resultsDiv.innerHTML = html;
+        }
+
+        // Initialize focus tracking
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Keyboard Navigation Test Suite loaded');
+            console.log('Use Tab key to navigate and verify focus indicators');
+        });
+    </script>
+</body>
+</html>

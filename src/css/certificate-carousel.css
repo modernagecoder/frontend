@@ -100,3 +100,25 @@
         height: 14px;
     }
 }
+
+/* ========================================
+   REDUCED MOTION SUPPORT
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .certificate-track {
+        transition: none !important;
+    }
+    
+    .certificate-arrow {
+        transition: none !important;
+    }
+    
+    .certificate-arrow:hover {
+        transform: none !important;
+    }
+    
+    .certificate-arrow:active {
+        transform: none !important;
+    }
+}

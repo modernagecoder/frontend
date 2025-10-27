@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Form Example - Modern Age Coders</title>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    
+    <style>
+        body {
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+        
+        .form-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: rgba(16, 16, 28, 0.8);
+            padding: 2rem;
+            border-radius: 1rem;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        
+        .form-title {
+            color: #a855f7;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .form-description {
+            color: #CBD5E1;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="background-canvas"></canvas>
+    
+    <div class="form-container">
+        <h1 class="form-title">Mobile-Optimized Form Example</h1>
+        <p class="form-description">
+            This form demonstrates all mobile optimization requirements including appropriate input types,
+            validation messages, and touch-friendly controls.
+        </p>
+        
+        <form id="exampleForm" data-validate>
+            <!-- Text Input -->
+            <div class="form-group">
+                <label for="fullName" class="required">Full Name</label>
+                <input 
+                    type="text" 
+                    id="fullName" 
+                    name="fullName" 
+                    required 
+                    minlength="2"
+                    placeholder="Enter your full name"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+                <span class="input-helper">Minimum 2 characters</span>
+            </div>
+            
+            <!-- Email Input - Requirement 9.1 -->
+            <div class="form-group">
+                <label for="email" class="required">Email Address</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required
+                    placeholder="your.email@example.com"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+                <span class="input-helper">We'll never share your email</span>
+            </div>
+            
+            <!-- Phone Input - Requirement 9.1 -->
+            <div class="form-group">
+                <label for="phone" class="required">Phone Number</label>
+                <input 
+                    type="tel" 
+                    id="phone" 
+                    name="phone" 
+                    required
+                    placeholder="+1 (555) 123-4567"
+                    pattern="[\d\s\-\+\(\)]+"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+                <span class="input-helper">Include country code if international</span>
+            </div>
+            
+            <!-- Number Input - Requirement 9.1 -->
+            <div class="form-group">
+                <label for="age" class="required">Age</label>
+                <input 
+                    type="number" 
+                    id="age" 
+                    name="age" 
+                    required
+                    min="6"
+                    max="100"
+                    placeholder="Enter your age"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+                <span class="input-helper">Must be between 6 and 100</span>
+            </div>
+            
+            <!-- Select Dropdown - Requirement 9.5 -->
+            <div class="form-group">
+                <label for="course" class="required">Course Interest</label>
+                <select 
+                    id="course" 
+                    name="course" 
+                    required
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+                    <option value="">Select a course...</option>
+                    <option value="kids">For Kids (Ages 6-12)</option>
+                    <option value="teens">For Teens (Ages 13-18)</option>
+                    <option value="college">For College Students</option>
+                    <option value="professionals">For Professionals</option>
+                    <option value="customized">Customized Training</option>
+                </select>
+                <span class="input-helper">Choose the course that interests you</span>
+            </div>
+            
+            <!-- Date Input -->
+            <div class="form-group">
+                <label for="startDate">Preferred Start Date</label>
+                <input 
+                    type="date" 
+                    id="startDate" 
+                    name="startDate"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+            </div>
+            
+            <!-- URL Input -->
+            <div class="form-group">
+                <label for="website">Website (Optional)</label>
+                <input 
+                    type="url" 
+                    id="website" 
+                    name="website"
+                    placeholder="https://example.com"
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff;">
+            </div>
+            
+            <!-- Textarea - Requirement 9.4 -->
+            <div class="form-group">
+                <label for="comments" class="required">Additional Comments</label>
+                <textarea 
+                    id="comments" 
+                    name="comments" 
+                    required
+                    minlength="10"
+                    rows="5"
+                    placeholder="Tell us more about your learning goals..."
+                    style="width: 100%; padding: 0.875rem; background: rgba(8, 8, 16, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.5rem; color: #fff; resize: vertical; min-height: 120px;"></textarea>
+                <span class="input-helper">Minimum 10 characters</span>
+            </div>
+            
+            <!-- Checkbox -->
+            <div class="form-group">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <span style="color: #CBD5E1;">Subscribe to our newsletter</span>
+                </label>
+            </div>
+            
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <label style="display: block; color: #fff; margin-bottom: 0.5rem; font-weight: 500;">Preferred Learning Mode</label>
+                <label class="radio-label">
+                    <input type="radio" id="online" name="learningMode" value="online" checked>
+                    <span style="color: #CBD5E1;">Online</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" id="offline" name="learningMode" value="offline">
+                    <span style="color: #CBD5E1;">Offline</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" id="hybrid" name="learningMode" value="hybrid">
+                    <span style="color: #CBD5E1;">Hybrid</span>
+                </label>
+            </div>
+            
+            <!-- Submit Button -->
+            <button type="submit" class="cta-button" style="width: 100%; margin-top: 1rem;">
+                Submit Form
+            </button>
+        </form>
+    </div>
+    
+    <script>
+        // Background Canvas Animation
+        const canvas = document.getElementById('background-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const symbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '{', '}', '</>', '=>'];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        function createParticles() {
+            particles = [];
+            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    char: symbols[Math.floor(Math.random() * symbols.length)],
+                    speed: 0.3 + Math.random() * 0.7,
+                    size: 12 + Math.random() * 10,
+                    opacity: 0.1 + Math.random() * 0.3
+                });
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            particles.forEach(p => {
+                p.y -= p.speed;
+                
+                if (p.y < -30) {
+                    p.y = canvas.height + 30;
+                    p.x = Math.random() * canvas.width;
+                }
+                
+                ctx.font = `${p.size}px monospace`;
+                ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
+                ctx.fillText(p.char, p.x, p.y);
+            });
+            
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => {
+            resizeCanvas();
+            createParticles();
+        });
+
+        resizeCanvas();
+        createParticles();
+        animate();
+    </script>
+    
+    <!-- Load Form Validation JavaScript -->
+    <script src="/js/form-validation.js"></script>
+    
+    <script>
+        // Custom form handler
+        const exampleForm = document.getElementById('exampleForm');
+        
+        class ExampleFormValidator extends FormValidator {
+            onValidSubmit() {
+                const submitBtn = this.form.querySelector('button[type="submit"]');
+                const originalText = submitBtn.textContent;
+                submitBtn.textContent = 'Processing...';
+                submitBtn.disabled = true;
+
+                // Simulate submission
+                setTimeout(() => {
+                    this.showFormMessage('Form submitted successfully! All validations passed.', 'success');
+                    
+                    // Log form data
+                    const formData = new FormData(this.form);
+                    console.log('Form Data:', Object.fromEntries(formData));
+                    
+                    // Reset
+                    setTimeout(() => {
+                        this.form.reset();
+                        this.inputs.forEach(input => this.clearFieldError(input));
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                    }, 2000);
+                }, 1000);
+            }
+        }
+
+        new ExampleFormValidator(exampleForm);
+    </script>
+</body>
+</html>

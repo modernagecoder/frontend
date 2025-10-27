@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Viewport Testing Tool</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000002;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .viewport-simulator {
+            border: 2px solid #A855F7;
+            border-radius: 12px;
+            margin: 20px 0;
+            overflow: hidden;
+            background: #fff;
+        }
+        
+        .viewport-controls {
+            background: rgba(16, 16, 28, 0.9);
+            padding: 15px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        
+        .viewport-button {
+            background: linear-gradient(135deg, #A855F7, #4ECDC4);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: transform 0.2s ease;
+        }
+        
+        .viewport-button:hover {
+            transform: translateY(-2px);
+        }
+        
+        .viewport-button.active {
+            background: linear-gradient(135deg, #4ECDC4, #A855F7);
+        }
+        
+        .viewport-info {
+            color: #CBD5E1;
+            font-size: 0.9rem;
+            margin-left: auto;
+        }
+        
+        .test-iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            display: block;
+            transition: width 0.3s ease;
+        }
+        
+        .test-results {
+            background: rgba(16, 16, 28, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        
+        .result-item {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 6px;
+            border-left: 4px solid;
+        }
+        
+        .result-pass {
+            background: rgba(16, 185, 129, 0.1);
+            border-left-color: #10B981;
+        }
+        
+        .result-fail {
+            background: rgba(239, 68, 68, 0.1);
+            border-left-color: #EF4444;
+        }
+        
+        .page-selector {
+            margin: 20px 0;
+        }
+        
+        .page-selector select {
+            background: rgba(16, 16, 28, 0.9);
+            color: #F8FAFC;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 6px;
+            padding: 8px 12px;
+            font-size: 1rem;
+        }
+        
+        .instructions {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>Manual Viewport Testing Tool</h1>
+        <p>Test for horizontal scrolling issues on various mobile viewport sizes</p>
+        
+        <div class="instructions">
+            <h3>How to Test:</h3>
+            <ol>
+                <li>Select a page from the dropdown below</li>
+                <li>Click on different viewport size buttons</li>
+                <li>Check if horizontal scrollbar appears in the iframe</li>
+                <li>Look for any content that extends beyond the viewport width</li>
+                <li>Test all required viewport sizes: 320px, 375px, 390px, 768px</li>
+            </ol>
+        </div>
+        
+        <div class="page-selector">
+            <label for="pageSelect">Select Page to Test:</label>
+            <select id="pageSelect" onchange="loadPage()">
+                <option value="src/pages/index.html">Homepage (index.html)</option>
+                <option value="src/pages/about.html">About Page (about.html)</option>
+                <option value="src/pages/course.html">Courses Page (course.html)</option>
+                <option value="src/pages/404.html">404 Page (404.html)</option>
+            </select>
+        </div>
+        
+        <div class="viewport-simulator">
+            <div class="viewport-controls">
+                <button class="viewport-button active" onclick="setViewport(320, 568, this)">
+                    iPhone SE (320px)
+                </button>
+                <button class="viewport-button" onclick="setViewport(375, 812, this)">
+                    iPhone 12 (375px)
+                </button>
+                <button class="viewport-button" onclick="setViewport(390, 844, this)">
+                    iPhone 13 (390px)
+                </button>
+                <button class="viewport-button" onclick="setViewport(768, 1024, this)">
+                    iPad (768px)
+                </button>
+                <button class="viewport-button" onclick="setViewport(1200, 800, this)">
+                    Desktop (1200px)
+                </button>
+                <div class="viewport-info" id="viewportInfo">
+                    Current: 320x568px (iPhone SE)
+                </div>
+            </div>
+            <iframe id="testIframe" class="test-iframe" src="src/pages/index.html"></iframe>
+        </div>
+        
+        <div class="test-results">
+            <h3>Test Results</h3>
+            <div id="testResultsContent">
+                <p>Select different viewport sizes and check for horizontal scrolling...</p>
+            </div>
+        </div>
+        
+        <div class="test-results">
+            <h3>Manual Checklist</h3>
+            <div>
+                <h4>For each viewport size, verify:</h4>
+                <ul>
+                    <li>✅ No horizontal scrollbar appears</li>
+                    <li>✅ All content fits within the viewport width</li>
+                    <li>✅ Navigation menu works properly</li>
+                    <li>✅ Images scale correctly</li>
+                    <li>✅ Text remains readable</li>
+                    <li>✅ Touch targets are at least 44x44px</li>
+                </ul>
+                
+                <h4>Requirements Coverage:</h4>
+                <ul>
+                    <li><strong>4.2:</strong> No horizontal scroll on 320px-480px devices</li>
+                    <li><strong>4.3:</strong> Proper layout adaptation 481px-768px</li>
+                    <li><strong>4.4:</strong> Tablet optimization 769px-1024px</li>
+                    <li><strong>4.5:</strong> Desktop scaling 1024px+</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentViewport = { width: 320, height: 568, name: 'iPhone SE' };
+        let testResults = [];
+        
+        function setViewport(width, height, button) {
+            // Remove active class from all buttons
+            document.querySelectorAll('.viewport-button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Add active class to clicked button
+            button.classList.add('active');
+            
+            // Update iframe width
+            const iframe = document.getElementById('testIframe');
+            iframe.style.width = width + 'px';
+            iframe.style.maxWidth = width + 'px';
+            
+            // Update viewport info
+            const deviceName = button.textContent.split('(')[0].trim();
+            currentViewport = { width, height, name: deviceName };
+            document.getElementById('viewportInfo').textContent = 
+                `Current: ${width}x${height}px (${deviceName})`;
+            
+            // Check for horizontal scroll after a brief delay
+            setTimeout(() => {
+                checkHorizontalScroll();
+            }, 500);
+        }
+        
+        function loadPage() {
+            const select = document.getElementById('pageSelect');
+            const iframe = document.getElementById('testIframe');
+            iframe.src = select.value;
+            
+            // Clear previous results
+            testResults = [];
+            updateResults();
+        }
+        
+        function checkHorizontalScroll() {
+            try {
+                const iframe = document.getElementById('testIframe');
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                
+                if (iframeDoc) {
+                    const hasHorizontalScroll = iframeDoc.body.scrollWidth > currentViewport.width;
+                    const actualWidth = iframeDoc.body.scrollWidth;
+                    
+                    // Update or add result for current viewport
+                    const existingIndex = testResults.findIndex(r => r.viewport === currentViewport.name);
+                    const result = {
+                        viewport: currentViewport.name,
+                        width: currentViewport.width,
+                        hasHorizontalScroll: hasHorizontalScroll,
+                        actualWidth: actualWidth,
+                        status: hasHorizontalScroll ? 'FAIL' : 'PASS',
+                        timestamp: new Date().toLocaleTimeString()
+                    };
+                    
+                    if (existingIndex >= 0) {
+                        testResults[existingIndex] = result;
+                    } else {
+                        testResults.push(result);
+                    }
+                    
+                    updateResults();
+                } else {
+                    console.log('Cannot access iframe content - possible CORS issue');
+                }
+            } catch (error) {
+                console.log('Error checking horizontal scroll:', error.message);
+            }
+        }
+        
+        function updateResults() {
+            const resultsContent = document.getElementById('testResultsContent');
+            
+            if (testResults.length === 0) {
+                resultsContent.innerHTML = '<p>Select different viewport sizes and check for horizontal scrolling...</p>';
+                return;
+            }
+            
+            let html = '';
+            testResults.forEach(result => {
+                const resultClass = result.status === 'PASS' ? 'result-pass' : 'result-fail';
+                html += `
+                    <div class="result-item ${resultClass}">
+                        <strong>${result.status}:</strong> ${result.viewport} (${result.width}px)<br>
+                        <small>
+                            Actual width: ${result.actualWidth}px | 
+                            Horizontal scroll: ${result.hasHorizontalScroll ? 'YES ❌' : 'NO ✅'} | 
+                            Tested: ${result.timestamp}
+                        </small>
+                    </div>
+                `;
+            });
+            
+            resultsContent.innerHTML = html;
+        }
+        
+        // Initialize with default viewport
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                checkHorizontalScroll();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

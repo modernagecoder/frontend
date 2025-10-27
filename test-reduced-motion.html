@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reduced Motion Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/certificate-carousel.css">
+    <link rel="stylesheet" href="src/css/testimonials-carousel.css">
+    <style>
+        body {
+            padding: 2rem;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .test-section {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+        }
+        .test-button {
+            background: linear-gradient(135deg, #8A2BE2, #4A00E0);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+        .test-button:hover {
+            transform: translateY(-3px) scale(1.05);
+        }
+        .test-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            margin: 1rem 0;
+        }
+        .test-card:hover {
+            transform: translateY(-5px);
+        }
+        .floating-element {
+            width: 50px;
+            height: 50px;
+            background: #8A2BE2;
+            border-radius: 50%;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        .instructions {
+            background: rgba(168, 85, 247, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>Reduced Motion Test</h2>
+        <p><strong>To test reduced motion:</strong></p>
+        <ol>
+            <li>On Windows: Go to Settings > Ease of Access > Display > Show animations in Windows</li>
+            <li>On Mac: Go to System Preferences > Accessibility > Display > Reduce motion</li>
+            <li>On browsers: You can also use DevTools to emulate prefers-reduced-motion</li>
+        </ol>
+        <p>When reduced motion is enabled, all animations and transitions below should be disabled or minimized.</p>
+    </div>
+
+    <div class="test-section">
+        <h3>Button Hover Effects</h3>
+        <button class="test-button cta-button">Hover me (should not move with reduced motion)</button>
+        <button class="test-button btn-primary">Primary Button</button>
+    </div>
+
+    <div class="test-section">
+        <h3>Card Hover Effects</h3>
+        <div class="test-card course-card">
+            <h4>Test Card</h4>
+            <p>This card should not move when hovered with reduced motion enabled.</p>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h3>Floating Animation</h3>
+        <div class="floating-element"></div>
+        <p>This purple circle should stop floating with reduced motion enabled.</p>
+    </div>
+
+    <div class="test-section">
+        <h3>Carousel Elements</h3>
+        <div class="certificate-carousel">
+            <div class="certificate-track" style="transition: transform 0.5s ease;">
+                <div style="min-width: 100%; background: rgba(255,255,255,0.1); padding: 2rem; text-align: center;">
+                    Carousel content - transitions should be disabled with reduced motion
+                </div>
+            </div>
+        </div>
+        <button class="certificate-arrow" style="position: relative; margin: 1rem;">
+            <span>→</span>
+        </button>
+    </div>
+
+    <script>
+        // Simple script to show current reduced motion preference
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+        
+        function updateMotionStatus() {
+            const status = document.getElementById('motion-status') || document.createElement('div');
+            status.id = 'motion-status';
+            status.style.cssText = 'position: fixed; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 0.5rem; border-radius: 4px; font-size: 0.8rem;';
+            status.textContent = prefersReducedMotion.matches ? 'Reduced Motion: ON' : 'Reduced Motion: OFF';
+            if (!document.getElementById('motion-status')) {
+                document.body.appendChild(status);
+            }
+        }
+        
+        updateMotionStatus();
+        prefersReducedMotion.addEventListener('change', updateMotionStatus);
+    </script>
+</body>
+</html>

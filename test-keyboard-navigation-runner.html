@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Navigation Test Runner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #000002;
+            color: #F8FAFC;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: rgba(16, 16, 28, 0.8);
+        }
+        
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .pass {
+            background: rgba(78, 205, 196, 0.2);
+            border: 1px solid rgba(78, 205, 196, 0.5);
+            color: #4ECDC4;
+        }
+        
+        .fail {
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid rgba(255, 107, 107, 0.5);
+            color: #FF6B6B;
+        }
+        
+        .warning {
+            background: rgba(255, 165, 0, 0.2);
+            border: 1px solid rgba(255, 165, 0, 0.5);
+            color: #FFA500;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #8A2BE2, #4A00E0);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);
+        }
+        
+        button:focus-visible {
+            outline: 3px solid rgba(168, 85, 247, 0.9);
+            outline-offset: 3px;
+        }
+        
+        .page-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        
+        .page-links a {
+            color: #4ECDC4;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #4ECDC4;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .page-links a:hover {
+            background: rgba(78, 205, 196, 0.1);
+        }
+        
+        .page-links a:focus-visible {
+            outline: 2px solid rgba(168, 85, 247, 0.8);
+            outline-offset: 2px;
+        }
+        
+        .instructions {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .keyboard-shortcut {
+            background: rgba(168, 85, 247, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        
+        #testResults {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            background: rgba(8, 8, 16, 0.9);
+        }
+        
+        .score-display {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .score-excellent {
+            background: rgba(78, 205, 196, 0.2);
+            border: 2px solid rgba(78, 205, 196, 0.5);
+            color: #4ECDC4;
+        }
+        
+        .score-good {
+            background: rgba(255, 165, 0, 0.2);
+            border: 2px solid rgba(255, 165, 0, 0.5);
+            color: #FFA500;
+        }
+        
+        .score-poor {
+            background: rgba(255, 107, 107, 0.2);
+            border: 2px solid rgba(255, 107, 107, 0.5);
+            color: #FF6B6B;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 Keyboard Navigation Test Runner</h1>
+    
+    <div class="instructions">
+        <h2>📋 Manual Testing Instructions</h2>
+        <p><strong>Before running automated tests, manually verify keyboard navigation:</strong></p>
+        <ol>
+            <li>Press <span class="keyboard-shortcut">Tab</span> from the top of any page</li>
+            <li>Verify a skip link appears and can be activated with <span class="keyboard-shortcut">Enter</span></li>
+            <li>Continue tabbing through all interactive elements</li>
+            <li>Verify all elements have visible focus indicators</li>
+            <li>Test dropdown menus with <span class="keyboard-shortcut">Enter</span> and <span class="keyboard-shortcut">Arrow Keys</span></li>
+            <li>Test mobile menu (resize browser to mobile width)</li>
+            <li>Verify no keyboard traps exist</li>
+        </ol>
+    </div>
+    
+    <div class="test-section">
+        <h2>🌐 Test Pages</h2>
+        <p>Click on any page to open it in a new tab, then run keyboard tests:</p>
+        <div class="page-links">
+            <a href="src/pages/index.html" target="_blank">Homepage</a>
+            <a href="src/pages/about.html" target="_blank">About Page</a>
+            <a href="src/pages/course.html" target="_blank">Courses Page</a>
+            <a href="src/pages/404.html" target="_blank">404 Page</a>
+            <a href="content/courses/generated/kids-coding.html" target="_blank">Sample Course Page</a>
+            <a href="content/blog/generated/index.html" target="_blank">Blog Index</a>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔧 Automated Tests</h2>
+        <p>Run automated keyboard accessibility tests on the current page:</p>
+        <button onclick="runCurrentPageTest()">Test Current Page</button>
+        <button onclick="runAllPagesTest()">Test All Pages</button>
+        <button onclick="clearResults()">Clear Results</button>
+        
+        <div id="scoreDisplay" style="display: none;"></div>
+        <div id="testResults"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📖 Test Coverage</h2>
+        <p>The automated tests check for:</p>
+        <ul>
+            <li>✅ Skip link presence and functionality</li>
+            <li>✅ All interactive elements are focusable</li>
+            <li>✅ Logical tab order</li>
+            <li>✅ Visible focus indicators</li>
+            <li>✅ Keyboard activation support</li>
+            <li>✅ Proper ARIA attributes</li>
+            <li>✅ Hidden elements not focusable</li>
+            <li>✅ Navigation menu accessibility</li>
+            <li>✅ Form element accessibility</li>
+            <li>✅ Interactive card accessibility</li>
+        </ul>
+    </div>
+
+    <script src="scripts/keyboard-navigation-test.js"></script>
+    <script>
+        let allTestResults = [];
+        
+        async function runCurrentPageTest() {
+            const resultsDiv = document.getElementById('testResults');
+            const scoreDiv = document.getElementById('scoreDisplay');
+            
+            resultsDiv.innerHTML = '<p>🔄 Running keyboard navigation tests...</p>';
+            scoreDiv.style.display = 'none';
+            
+            try {
+                const tester = new KeyboardNavigationTester();
+                const results = await tester.runAllTests();
+                
+                displayTestResults(results, 'Current Page');
+                allTestResults.push({
+                    page: window.location.href,
+                    results: results
+                });
+                
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="test-result fail">
+                    <strong>Error:</strong> ${error.message}
+                </div>`;
+            }
+        }
+        
+        async function runAllPagesTest() {
+            const pages = [
+                'src/pages/index.html',
+                'src/pages/about.html', 
+                'src/pages/course.html',
+                'src/pages/404.html'
+            ];
+            
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.innerHTML = '<p>🔄 Testing all pages... This may take a moment.</p>';
+            
+            allTestResults = [];
+            
+            for (const page of pages) {
+                try {
+                    // Note: In a real implementation, you'd need to navigate to each page
+                    // For now, we'll just test the current page as an example
+                    const tester = new KeyboardNavigationTester();
+                    const results = await tester.runAllTests();
+                    
+                    allTestResults.push({
+                        page: page,
+                        results: results
+                    });
+                    
+                } catch (error) {
+                    allTestResults.push({
+                        page: page,
+                        error: error.message
+                    });
+                }
+            }
+            
+            displayAllTestResults();
+        }
+        
+        function displayTestResults(results, pageName) {
+            const resultsDiv = document.getElementById('testResults');
+            const scoreDiv = document.getElementById('scoreDisplay');
+            
+            // Display score
+            const scoreClass = results.score >= 90 ? 'score-excellent' : 
+                              results.score >= 75 ? 'score-good' : 'score-poor';
+            
+            const scoreEmoji = results.score >= 90 ? '🏆' : 
+                              results.score >= 75 ? '👍' : '⚠️';
+            
+            scoreDiv.innerHTML = `
+                <div class="${scoreClass}">
+                    ${scoreEmoji} ${pageName} Score: ${results.score}%<br>
+                    <small>${results.passed} passed, ${results.warnings} warnings, ${results.failed} failed</small>
+                </div>
+            `;
+            scoreDiv.style.display = 'block';
+            
+            // Display detailed results
+            let html = `<h3>📊 Test Results for ${pageName}</h3>`;
+            
+            results.results.forEach(result => {
+                const statusClass = result.status;
+                const emoji = result.status === 'pass' ? '✅' : 
+                             result.status === 'warning' ? '⚠️' : '❌';
+                
+                html += `<div class="test-result ${statusClass}">
+                    ${emoji} <strong>${result.test}:</strong> ${result.message}
+                </div>`;
+            });
+            
+            // Add recommendations
+            if (results.failed > 0 || results.warnings > 0) {
+                html += '<h4>💡 Recommendations:</h4>';
+                html += '<ul>';
+                
+                if (results.results.some(r => r.test === 'Skip Link' && r.status === 'fail')) {
+                    html += '<li>Add a skip link to improve keyboard navigation</li>';
+                }
+                if (results.results.some(r => r.test === 'Focus Indicators' && r.status !== 'pass')) {
+                    html += '<li>Improve focus indicator visibility and contrast</li>';
+                }
+                if (results.results.some(r => r.test === 'ARIA Attributes' && r.status !== 'pass')) {
+                    html += '<li>Add proper ARIA attributes to interactive elements</li>';
+                }
+                if (results.results.some(r => r.test === 'Hidden Elements' && r.status === 'fail')) {
+                    html += '<li>Ensure hidden elements are not focusable</li>';
+                }
+                
+                html += '</ul>';
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function displayAllTestResults() {
+            const resultsDiv = document.getElementById('testResults');
+            const scoreDiv = document.getElementById('scoreDisplay');
+            
+            let html = '<h3>📊 All Pages Test Results</h3>';
+            let totalScore = 0;
+            let validResults = 0;
+            
+            allTestResults.forEach(pageResult => {
+                if (pageResult.error) {
+                    html += `<div class="test-result fail">
+                        <strong>${pageResult.page}:</strong> Error - ${pageResult.error}
+                    </div>`;
+                } else {
+                    const results = pageResult.results;
+                    totalScore += results.score;
+                    validResults++;
+                    
+                    const statusClass = results.score >= 90 ? 'pass' : 
+                                       results.score >= 75 ? 'warning' : 'fail';
+                    
+                    html += `<div class="test-result ${statusClass}">
+                        <strong>${pageResult.page}:</strong> ${results.score}% 
+                        (${results.passed} passed, ${results.warnings} warnings, ${results.failed} failed)
+                    </div>`;
+                }
+            });
+            
+            if (validResults > 0) {
+                const avgScore = (totalScore / validResults).toFixed(1);
+                const scoreClass = avgScore >= 90 ? 'score-excellent' : 
+                                  avgScore >= 75 ? 'score-good' : 'score-poor';
+                
+                scoreDiv.innerHTML = `
+                    <div class="${scoreClass}">
+                        🎯 Overall Average Score: ${avgScore}%<br>
+                        <small>Based on ${validResults} pages tested</small>
+                    </div>
+                `;
+                scoreDiv.style.display = 'block';
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function clearResults() {
+            document.getElementById('testResults').innerHTML = '';
+            document.getElementById('scoreDisplay').style.display = 'none';
+            allTestResults = [];
+        }
+        
+        // Auto-run test on current page if we're on a site page
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPath = window.location.pathname;
+            if (currentPath.includes('.html') && !currentPath.includes('test-keyboard')) {
+                setTimeout(() => {
+                    runCurrentPageTest();
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA Implementation Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; background: #1a1a2e; color: white; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #333; border-radius: 8px; }
+        .success { color: #4CAF50; }
+        .error { color: #f44336; }
+        .dropdown { position: relative; display: inline-block; }
+        .dropdown-content { display: none; position: absolute; background: #333; min-width: 160px; }
+        .dropdown:hover .dropdown-content { display: block; }
+        .nav-link { color: #a855f7; text-decoration: none; padding: 8px 16px; display: block; }
+        .nav-link.active { background: rgba(168, 85, 247, 0.2); }
+        .tab-button { background: #333; color: white; border: none; padding: 10px 20px; margin: 5px; cursor: pointer; }
+        .tab-button.active { background: #a855f7; }
+        .mobile-menu-btn { background: none; border: none; color: white; font-size: 20px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>ARIA Implementation Test</h1>
+    
+    <div class="test-section">
+        <h2>1. Mobile Menu Button (should have aria-label)</h2>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+        <div id="test1-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>2. Dropdown Toggle (should have aria-expanded)</h2>
+        <div class="dropdown">
+            <a href="#" class="nav-link">Courses ▼</a>
+            <div class="dropdown-content">
+                <a href="#" class="nav-link">Course 1</a>
+                <a href="#" class="nav-link">Course 2</a>
+            </div>
+        </div>
+        <div id="test2-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>3. Active Navigation Item (should have aria-current)</h2>
+        <nav>
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Contact</a>
+        </nav>
+        <div id="test3-result"></div>
+    </div>
+    
+    <div class="test-section">
+        <h2>4. Tab Buttons (should have proper ARIA attributes)</h2>
+        <div class="tabs-container">
+            <button class="tab-button active" data-target="#tab1">Tab 1</button>
+            <button class="tab-button" data-target="#tab2">Tab 2</button>
+            <button class="tab-button" data-target="#tab3">Tab 3</button>
+        </div>
+        <div id="test4-result"></div>
+    </div>
+
+    <!-- Load the scripts -->
+    <script src="src/js/navigation.js"></script>
+    <script src="src/js/tab-accessibility.js"></script>
+
+    <script>
+        // Test the ARIA implementation
+        setTimeout(() => {
+            // Test 1: Mobile menu button
+            const mobileBtn = document.getElementById('mobileMenuBtn');
+            const test1Result = document.getElementById('test1-result');
+            if (mobileBtn.hasAttribute('aria-label')) {
+                test1Result.innerHTML = '<span class="success">✓ PASS: aria-label found</span>';
+            } else {
+                test1Result.innerHTML = '<span class="error">✗ FAIL: aria-label missing</span>';
+            }
+
+            // Test 2: Dropdown toggle
+            const dropdown = document.querySelector('.dropdown .nav-link');
+            const test2Result = document.getElementById('test2-result');
+            if (dropdown.hasAttribute('aria-expanded')) {
+                test2Result.innerHTML = '<span class="success">✓ PASS: aria-expanded found</span>';
+            } else {
+                test2Result.innerHTML = '<span class="error">✗ FAIL: aria-expanded missing</span>';
+            }
+
+            // Test 3: Active navigation item
+            const activeNav = document.querySelector('.nav-link.active');
+            const test3Result = document.getElementById('test3-result');
+            if (activeNav.hasAttribute('aria-current')) {
+                test3Result.innerHTML = '<span class="success">✓ PASS: aria-current found</span>';
+            } else {
+                test3Result.innerHTML = '<span class="error">✗ FAIL: aria-current missing</span>';
+            }
+
+            // Test 4: Tab buttons
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const test4Result = document.getElementById('test4-result');
+            let tabTestPassed = true;
+            let tabTestDetails = [];
+
+            tabButtons.forEach((tab, index) => {
+                if (!tab.hasAttribute('role') || tab.getAttribute('role') !== 'tab') {
+                    tabTestPassed = false;
+                    tabTestDetails.push(`Tab ${index + 1}: missing role="tab"`);
+                }
+                if (!tab.hasAttribute('aria-selected')) {
+                    tabTestPassed = false;
+                    tabTestDetails.push(`Tab ${index + 1}: missing aria-selected`);
+                }
+                if (tab.classList.contains('active') && !tab.hasAttribute('aria-current')) {
+                    tabTestPassed = false;
+                    tabTestDetails.push(`Tab ${index + 1}: missing aria-current for active tab`);
+                }
+            });
+
+            if (tabTestPassed) {
+                test4Result.innerHTML = '<span class="success">✓ PASS: All tab ARIA attributes found</span>';
+            } else {
+                test4Result.innerHTML = '<span class="error">✗ FAIL: ' + tabTestDetails.join(', ') + '</span>';
+            }
+
+        }, 500); // Wait for scripts to initialize
+    </script>
+</body>
+</html>

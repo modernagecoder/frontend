@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Layout Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .test-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 1rem;
+        }
+        .test-title {
+            color: #a855f7;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mobile Layout Optimization Test</h1>
+    
+    <!-- Test Hero Section -->
+    <div class="test-section">
+        <h2 class="test-title">Hero Section Mobile Test</h2>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>Test Hero Title</h1>
+                <p>This is a test paragraph to verify that the hero section stacks vertically on mobile and centers content properly.</p>
+            </div>
+            <div class="hero-image">
+                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="80" fill="#a855f7" opacity="0.5"/>
+                    <text x="100" y="110" text-anchor="middle" fill="white" font-size="20">IMG</text>
+                </svg>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Test Grid Layouts -->
+    <div class="test-section">
+        <h2 class="test-title">Grid Layouts Mobile Test</h2>
+        
+        <h3>Features Grid (Should be single column on mobile)</h3>
+        <div class="features-grid">
+            <div class="feature-item" style="background: rgba(168, 85, 247, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Feature 1</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+            <div class="feature-item" style="background: rgba(168, 85, 247, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Feature 2</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+            <div class="feature-item" style="background: rgba(168, 85, 247, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Feature 3</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+            <div class="feature-item" style="background: rgba(168, 85, 247, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Feature 4</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+        </div>
+        
+        <h3>Courses Grid (Should be single column on mobile)</h3>
+        <div class="courses-grid">
+            <div class="course-card" style="background: rgba(78, 205, 196, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Course 1</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+            <div class="course-card" style="background: rgba(78, 205, 196, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Course 2</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+            <div class="course-card" style="background: rgba(78, 205, 196, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Course 3</h4>
+                <p>This should stack in single column on mobile</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Test Inclusivity Demographics Grid -->
+    <div class="test-section">
+        <h2 class="test-title">Inclusivity Demographics Grid Test</h2>
+        <div class="inclusivity-demographics-grid">
+            <div class="demographic-card-mobile" style="background: rgba(255, 107, 107, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Kids</h4>
+                <p>Should be single column on mobile</p>
+            </div>
+            <div class="demographic-card-mobile" style="background: rgba(255, 215, 0, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Teens</h4>
+                <p>Should be single column on mobile</p>
+            </div>
+            <div class="demographic-card-mobile" style="background: rgba(77, 179, 255, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Adults</h4>
+                <p>Should be single column on mobile</p>
+            </div>
+            <div class="demographic-card-mobile" style="background: rgba(0, 255, 136, 0.1); padding: 1rem; border-radius: 0.5rem;">
+                <h4>Professionals</h4>
+                <p>Should be single column on mobile</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2 class="test-title">Instructions</h2>
+        <p>To test mobile layout:</p>
+        <ol>
+            <li>Open browser developer tools (F12)</li>
+            <li>Toggle device toolbar (Ctrl+Shift+M)</li>
+            <li>Select different mobile device sizes</li>
+            <li>Verify that:</li>
+            <ul>
+                <li>Hero section stacks vertically and centers content</li>
+                <li>All grids display as single column on mobile (< 480px)</li>
+                <li>Grids show 2+ columns on larger screens (> 480px)</li>
+                <li>No horizontal scrolling occurs</li>
+                <li>Proper spacing is maintained</li>
+            </ul>
+        </ol>
+    </div>
+</body>
+</html>

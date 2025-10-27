@@ -1,0 +1,423 @@
+/**
+ * Keyboard Navigation Support
+ * Implements comprehensive keyboard accessibility for all interactive elements
+ * Requirements: 12.1 - Keyboard navigation support
+ */
+
+/* ========================================
+   FOCUS INDICATORS - VISIBLE FOCUS STYLES
+   ======================================== */
+
+/* Base focus styles for all interactive elements */
+*:focus {
+  outline: none; /* Remove default outline */
+}
+
+*:focus-visible {
+  outline: 2px solid rgba(168, 85, 247, 0.8);
+  outline-offset: 2px;
+  border-radius: 4px;
+  transition: outline 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+}
+
+/* Enhanced focus for buttons */
+button:focus-visible,
+input[type="submit"]:focus-visible,
+input[type="button"]:focus-visible,
+input[type="reset"]:focus-visible,
+.btn:focus-visible,
+.cta-button:focus-visible,
+.card-button:focus-visible,
+.plan-button:focus-visible,
+.submit-button:focus-visible,
+.tab-button:focus-visible,
+.view-more-button:focus-visible,
+.mobile-menu-btn:focus-visible {
+  outline: 3px solid rgba(168, 85, 247, 0.9);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px rgba(168, 85, 247, 0.3);
+  transform: scale(1.02);
+}
+
+/* Enhanced focus for navigation links */
+.nav-link:focus-visible,
+.dropdown-item:focus-visible {
+  outline: 2px solid rgba(168, 85, 247, 0.9);
+  outline-offset: 2px;
+  background: rgba(168, 85, 247, 0.15);
+  color: var(--text-primary);
+  transform: translateX(3px);
+}
+
+/* Enhanced focus for form inputs */
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 2px solid rgba(168, 85, 247, 0.8);
+  outline-offset: 2px;
+  border-color: rgba(168, 85, 247, 0.6);
+  box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.2);
+  transform: scale(1.01);
+}
+
+/* Focus for links */
+a:focus-visible {
+  outline: 2px solid rgba(168, 85, 247, 0.8);
+  outline-offset: 2px;
+  text-decoration: underline;
+  text-decoration-color: rgba(168, 85, 247, 0.8);
+  text-decoration-thickness: 2px;
+}
+
+/* Focus for cards and interactive containers */
+.course-card:focus-visible,
+.feature-item:focus-visible,
+.demographic-card:focus-visible,
+.girls-empowerment-card:focus-visible {
+  outline: 2px solid rgba(168, 85, 247, 0.8);
+  outline-offset: 4px;
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);
+}
+
+/* ========================================
+   KEYBOARD NAVIGATION BEHAVIOR
+   ======================================== */
+
+/* Ensure all interactive elements are keyboard accessible */
+button,
+input,
+select,
+textarea,
+a[href],
+[tabindex]:not([tabindex="-1"]),
+.nav-link,
+.dropdown-item,
+.cta-button,
+.card-button,
+.plan-button,
+.submit-button,
+.tab-button,
+.view-more-button,
+.mobile-menu-btn,
+.course-card,
+.feature-item,
+.demographic-card,
+.girls-empowerment-card {
+  /* Ensure elements are focusable */
+  position: relative;
+}
+
+/* Make cards keyboard accessible */
+.course-card,
+.feature-item,
+.demographic-card,
+.girls-empowerment-card {
+  cursor: pointer;
+  tabindex: 0; /* Make focusable via keyboard */
+}
+
+/* ========================================
+   SKIP LINKS FOR KEYBOARD NAVIGATION
+   ======================================== */
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: transparent;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 10003;
+  font-weight: 600;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 6px;
+  background: rgba(168, 85, 247, 0.95);
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* ========================================
+   DROPDOWN KEYBOARD NAVIGATION
+   ======================================== */
+
+/* Dropdown focus management */
+.dropdown {
+  position: relative;
+}
+
+.dropdown .nav-link:focus-visible + .dropdown-content,
+.dropdown .nav-link[aria-expanded="true"] + .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-content {
+  /* Ensure dropdown items are keyboard accessible */
+}
+
+.dropdown-item:focus-visible {
+  background: rgba(168, 85, 247, 0.2);
+  color: var(--text-primary);
+}
+
+/* ========================================
+   MOBILE MENU KEYBOARD NAVIGATION
+   ======================================== */
+
+/* Mobile menu button focus */
+.mobile-menu-btn:focus-visible {
+  outline: 3px solid rgba(168, 85, 247, 0.9);
+  outline-offset: 3px;
+  background: rgba(168, 85, 247, 0.1);
+}
+
+/* Mobile menu focus trap */
+.nav-menu.active {
+  /* Focus should be trapped within the mobile menu when open */
+}
+
+.nav-menu.active .nav-link:focus-visible {
+  background: rgba(168, 85, 247, 0.2);
+  color: var(--text-primary);
+  transform: translateX(5px);
+}
+
+/* ========================================
+   TAB ORDER OPTIMIZATION
+   ======================================== */
+
+/* Ensure logical tab order for main navigation */
+.navbar {
+  /* Navigation should be early in tab order */
+}
+
+.nav-menu {
+  /* Ensure proper tab order within navigation */
+}
+
+.nav-item {
+  /* Each nav item should be in logical order */
+}
+
+/* Skip hidden elements from tab order */
+.nav-menu:not(.active) {
+  /* On mobile, hidden menu items should not be focusable */
+}
+
+@media (max-width: 767px) {
+  .nav-menu:not(.active) .nav-link,
+  .nav-menu:not(.active) .dropdown-item {
+    /* Remove from tab order when mobile menu is closed */
+    tabindex: -1;
+    pointer-events: none;
+  }
+  
+  .nav-menu.active .nav-link,
+  .nav-menu.active .dropdown-item {
+    /* Restore tab order when mobile menu is open */
+    tabindex: 0;
+    pointer-events: auto;
+  }
+}
+
+/* ========================================
+   FORM KEYBOARD NAVIGATION
+   ======================================== */
+
+/* Form field focus order */
+.form-group input:focus-visible,
+.form-group textarea:focus-visible,
+.form-group select:focus-visible {
+  /* Enhanced focus for form fields */
+  border-color: rgba(168, 85, 247, 0.7);
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+}
+
+/* Form validation focus states */
+input.error:focus-visible,
+textarea.error:focus-visible,
+select.error:focus-visible {
+  outline-color: rgba(255, 107, 107, 0.8);
+  border-color: rgba(255, 107, 107, 0.7);
+  box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.2);
+}
+
+input.success:focus-visible,
+textarea.success:focus-visible,
+select.success:focus-visible {
+  outline-color: rgba(78, 205, 196, 0.8);
+  border-color: rgba(78, 205, 196, 0.7);
+  box-shadow: 0 0 0 3px rgba(78, 205, 196, 0.2);
+}
+
+/* ========================================
+   KEYBOARD INTERACTION FEEDBACK
+   ======================================== */
+
+/* Visual feedback for keyboard activation */
+button:focus-visible:active,
+.cta-button:focus-visible:active,
+.card-button:focus-visible:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.4);
+}
+
+/* Card keyboard activation */
+.course-card:focus-visible:active,
+.feature-item:focus-visible:active,
+.demographic-card:focus-visible:active,
+.girls-empowerment-card:focus-visible:active {
+  transform: translateY(-2px) scale(0.99);
+}
+
+/* ========================================
+   HIGH CONTRAST MODE SUPPORT
+   ======================================== */
+
+@media (prefers-contrast: high) {
+  *:focus-visible {
+    outline: 3px solid currentColor;
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+  
+  .nav-link:focus-visible,
+  .dropdown-item:focus-visible {
+    background: currentColor;
+    color: white;
+  }
+  
+  button:focus-visible,
+  .cta-button:focus-visible,
+  .card-button:focus-visible {
+    outline: 3px solid currentColor;
+    background: transparent;
+    color: currentColor;
+  }
+}
+
+/* ========================================
+   REDUCED MOTION SUPPORT
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *:focus-visible {
+    transition: none;
+    transform: none;
+  }
+  
+  .nav-link:focus-visible,
+  .dropdown-item:focus-visible {
+    transform: none;
+  }
+  
+  button:focus-visible,
+  .cta-button:focus-visible,
+  .card-button:focus-visible {
+    transform: none;
+  }
+  
+  .course-card:focus-visible,
+  .feature-item:focus-visible,
+  .demographic-card:focus-visible,
+  .girls-empowerment-card:focus-visible {
+    transform: none;
+  }
+}
+
+/* ========================================
+   FOCUS MANAGEMENT UTILITIES
+   ======================================== */
+
+/* Hide focus outline for mouse users, show for keyboard users */
+.js-focus-visible *:focus:not(.focus-visible) {
+  outline: none;
+}
+
+/* Ensure focus is visible when navigating with keyboard */
+.focus-visible {
+  /* This class will be added by JavaScript for keyboard navigation */
+}
+
+/* ========================================
+   ARIA LIVE REGIONS FOR SCREEN READERS
+   ======================================== */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Announcements for dynamic content changes */
+.aria-live-region {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* ========================================
+   KEYBOARD SHORTCUTS INDICATORS
+   ======================================== */
+
+/* Visual indicators for keyboard shortcuts */
+.keyboard-shortcut {
+  font-family: monospace;
+  background: rgba(168, 85, 247, 0.1);
+  border: 1px solid rgba(168, 85, 247, 0.3);
+  border-radius: 3px;
+  padding: 2px 6px;
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+/* ========================================
+   FOCUS TRAP UTILITIES
+   ======================================== */
+
+/* Focus trap for modals and mobile menus */
+.focus-trap {
+  /* Container for focus trapping */
+}
+
+.focus-trap-start,
+.focus-trap-end {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* ========================================
+   PRINT STYLES
+   ======================================== */
+
+@media print {
+  *:focus-visible {
+    outline: none;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  .skip-link {
+    display: none;
+  }
+}

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Accessibility Test Suite - Modern Age Coders</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #000002;
+            color: #F8FAFC;
+            line-height: 1.6;
+        }
+        
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+            background: rgba(16, 16, 28, 0.8);
+        }
+        
+        .test-result {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        
+        .pass {
+            background: rgba(78, 205, 196, 0.2);
+            border: 1px solid rgba(78, 205, 196, 0.5);
+            color: #4ECDC4;
+        }
+        
+        .fail {
+            background: rgba(255, 107, 107, 0.2);
+            border: 1px solid rgba(255, 107, 107, 0.5);
+            color: #FF6B6B;
+        }
+        
+        .warning {
+            background: rgba(255, 165, 0, 0.2);
+            border: 1px solid rgba(255, 165, 0, 0.5);
+            color: #FFA500;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #8A2BE2, #4A00E0);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px 5px;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);
+        }
+        
+        button:focus-visible {
+            outline: 3px solid rgba(168, 85, 247, 0.9);
+            outline-offset: 3px;
+        }
+        
+        .score-display {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .score-excellent {
+            background: rgba(78, 205, 196, 0.2);
+            border: 2px solid rgba(78, 205, 196, 0.5);
+            color: #4ECDC4;
+        }
+        
+        .score-good {
+            background: rgba(255, 165, 0, 0.2);
+            border: 2px solid rgba(255, 165, 0, 0.5);
+            color: #FFA500;
+        }
+        
+        .score-poor {
+            background: rgba(255, 107, 107, 0.2);
+            border: 2px solid rgba(255, 107, 107, 0.5);
+            color: #FF6B6B;
+        }
+        
+        .test-results {
+            max-height: 500px;
+            overflow-y: auto;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            background: rgba(8, 8, 16, 0.9);
+        }
+        
+        .test-category {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: rgba(24, 24, 40, 0.9);
+        }
+        
+        .test-category h4 {
+            margin: 0 0 10px 0;
+            color: #A855F7;
+        }
+        
+        .test-item {
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 4px;
+            border-left: 4px solid;
+            font-size: 14px;
+        }
+        
+        .test-item.pass {
+            border-left-color: #4ECDC4;
+            background: rgba(78, 205, 196, 0.1);
+        }
+        
+        .test-item.warning {
+            border-left-color: #FFA500;
+            background: rgba(255, 165, 0, 0.1);
+        }
+        
+        .test-item.fail {
+            border-left-color: #FF6B6B;
+            background: rgba(255, 107, 107, 0.1);
+        }
+        
+        .instructions {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .keyboard-shortcut {
+            background: rgba(168, 85, 247, 0.2);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-weight: bold;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: rgba(24, 24, 40, 0.9);
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ECDC4, #A855F7);
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+        
+        .test-summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .summary-card {
+            background: rgba(24, 24, 40, 0.9);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        
+        .summary-card .value {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        
+        .summary-card .label {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+        
+        .recommendations {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .recommendations h4 {
+            margin: 0 0 15px 0;
+            color: #A855F7;
+        }
+        
+        .recommendations ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        
+        .recommendations li {
+            margin: 8px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>♿ Complete Accessibility Test Suite</h1>
+    
+    <div class="instructions">
+        <h2>📋 Comprehensive Accessibility Testing</h2>
+        <p><strong>This test suite covers all WCAG 2.1 AA requirements:</strong></p>
+        <ul>
+            <li>🎯 <strong>Keyboard Navigation:</strong> Tab order, focus indicators, skip links</li>
+            <li>🎨 <strong>Color Contrast:</strong> WCAG AA/AAA compliance (4.5:1 / 7:1 ratios)</li>
+            <li>🏗️ <strong>Semantic Structure:</strong> Headings, landmarks, ARIA attributes</li>
+            <li>📝 <strong>Form Accessibility:</strong> Labels, validation, keyboard support</li>
+            <li>🖼️ <strong>Image Accessibility:</strong> Alt text, decorative images</li>
+            <li>🔊 <strong>Screen Reader Support:</strong> ARIA, semantic HTML, announcements</li>
+        </ul>
+        <p><strong>Manual Testing Required:</strong></p>
+        <ul>
+            <li>Navigate using only <span class="keyboard-shortcut">Tab</span> key</li>
+            <li>Test with screen reader (NVDA, JAWS, VoiceOver)</li>
+            <li>Verify all functionality works without mouse</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>🚀 Run All Tests</h2>
+        <p>Execute comprehensive accessibility testing on the current page:</p>
+        
+        <button onclick="runCompleteAccessibilityTest()">Run Complete Test Suite</button>
+        <button onclick="runKeyboardTest()">Test Keyboard Navigation</button>
+        <button onclick="runContrastTest()">Test Color Contrast</button>
+        <button onclick="runAriaTest()">Test ARIA & Structure</button>
+        <button onclick="clearAllResults()">Clear Results</button>
+        
+        <div class="progress-bar" id="progressBar" style="display: none;">
+            <div class="progress-fill" id="progressFill" style="width: 0%;"></div>
+        </div>
+        
+        <div id="overallScore" style="display: none;"></div>
+        
+        <div class="test-summary" id="testSummary" style="display: none;">
+            <div class="summary-card">
+                <div class="value" id="totalTests">0</div>
+                <div class="label">Total Tests</div>
+            </div>
+            <div class="summary-card">
+                <div class="value" id="passedTests" style="color: #4ECDC4;">0</div>
+                <div class="label">Passed</div>
+            </div>
+            <div class="summary-card">
+                <div class="value" id="warningTests" style="color: #FFA500;">0</div>
+                <div class="label">Warnings</div>
+            </div>
+            <div class="summary-card">
+                <div class="value" id="failedTests" style="color: #FF6B6B;">0</div>
+                <div class="label">Failed</div>
+            </div>
+        </div>
+        
+        <div id="testResults" class="test-results" style="display: none;"></div>
+        
+        <div id="recommendations" class="recommendations" style="display: none;">
+            <h4>💡 Recommendations</h4>
+            <ul id="recommendationsList"></ul>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>📊 Test Coverage</h2>
+        <p>This comprehensive test suite validates:</p>
+        
+        <div class="test-category">
+            <h4>🎯 Keyboard Navigation (WCAG 2.1.1, 2.1.2)</h4>
+            <ul>
+                <li>All interactive elements are keyboard accessible</li>
+                <li>Logical tab order follows visual layout</li>
+                <li>Visible focus indicators on all elements</li>
+                <li>Skip links for efficient navigation</li>
+                <li>No keyboard traps</li>
+            </ul>
+        </div>
+        
+        <div class="test-category">
+            <h4>🎨 Color & Contrast (WCAG 1.4.3, 1.4.6)</h4>
+            <ul>
+                <li>Text contrast meets 4.5:1 ratio (AA)</li>
+                <li>Large text meets 3.0:1 ratio (AA)</li>
+                <li>Enhanced contrast 7.0:1 ratio (AAA)</li>
+                <li>Color is not the only visual means of conveying information</li>
+            </ul>
+        </div>
+        
+        <div class="test-category">
+            <h4>🏗️ Structure & Semantics (WCAG 1.3.1, 2.4.6)</h4>
+            <ul>
+                <li>Proper heading hierarchy (h1-h6)</li>
+                <li>Semantic HTML elements (nav, main, section)</li>
+                <li>ARIA landmarks for navigation</li>
+                <li>Meaningful page titles and headings</li>
+            </ul>
+        </div>
+        
+        <div class="test-category">
+            <h4>📝 Forms & Labels (WCAG 1.3.1, 3.3.2)</h4>
+            <ul>
+                <li>All form controls have accessible labels</li>
+                <li>Error messages are clearly associated</li>
+                <li>Required fields are properly indicated</li>
+                <li>Form validation is accessible</li>
+            </ul>
+        </div>
+        
+        <div class="test-category">
+            <h4>🖼️ Images & Media (WCAG 1.1.1)</h4>
+            <ul>
+                <li>All images have appropriate alt text</li>
+                <li>Decorative images have empty alt attributes</li>
+                <li>Complex images have detailed descriptions</li>
+                <li>Media has captions/transcripts where needed</li>
+            </ul>
+        </div>
+        
+        <div class="test-category">
+            <h4>🔊 Screen Reader Support (WCAG 4.1.2)</h4>
+            <ul>
+                <li>Proper ARIA attributes and roles</li>
+                <li>Dynamic content changes are announced</li>
+                <li>Interactive elements have accessible names</li>
+                <li>Status messages are communicated</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="scripts/keyboard-navigation-test.js"></script>
+    <script src="scripts/color-contrast-test.js"></script>
+    <script src="scripts/accessibility-scanner.js"></script>
+    <script>
+        let testResults = {
+            keyboard: null,
+            contrast: null,
+            accessibility: null
+        };
+        
+        async function runCompleteAccessibilityTest() {
+            showProgress(0);
+            clearAllResults();
+            
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<h3>🔄 Running comprehensive accessibility tests...</h3>';
+            
+            try {
+                // Run keyboard navigation tests
+                showProgress(20);
+                console.log('Running keyboard navigation tests...');
+                const keyboardTester = new KeyboardNavigationTester();
+                testResults.keyboard = await keyboardTester.runAllTests();
+                
+                // Run color contrast tests
+                showProgress(50);
+                console.log('Running color contrast tests...');
+                const contrastTester = new ColorContrastTester();
+                testResults.contrast = await contrastTester.runAllTests();
+                
+                // Run accessibility scanner
+                showProgress(80);
+                console.log('Running accessibility scanner...');
+                const accessibilityScanner = new AccessibilityScanner();
+                testResults.accessibility = await accessibilityScanner.runAllScans();
+                
+                showProgress(100);
+                displayCompleteResults();
+                
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="test-result fail">
+                    <strong>Error:</strong> ${error.message}
+                </div>`;
+                console.error('Test error:', error);
+            }
+        }
+        
+        async function runKeyboardTest() {
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<h3>🔄 Running keyboard navigation tests...</h3>';
+            
+            try {
+                const tester = new KeyboardNavigationTester();
+                testResults.keyboard = await tester.runAllTests();
+                displayKeyboardResults();
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="test-result fail">Error: ${error.message}</div>`;
+            }
+        }
+        
+        async function runContrastTest() {
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<h3>🔄 Running color contrast tests...</h3>';
+            
+            try {
+                const tester = new ColorContrastTester();
+                testResults.contrast = await tester.runAllTests();
+                displayContrastResults();
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="test-result fail">Error: ${error.message}</div>`;
+            }
+        }
+        
+        async function runAriaTest() {
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.style.display = 'block';
+            resultsDiv.innerHTML = '<h3>🔄 Running ARIA and structure tests...</h3>';
+            
+            try {
+                const scanner = new AccessibilityScanner();
+                testResults.accessibility = await scanner.runAllScans();
+                displayAccessibilityResults();
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="test-result fail">Error: ${error.message}</div>`;
+            }
+        }
+        
+        function displayCompleteResults() {
+            const resultsDiv = document.getElementById('testResults');
+            const scoreDiv = document.getElementById('overallScore');
+            const summaryDiv = document.getElementById('testSummary');
+            const recommendationsDiv = document.getElementById('recommendations');
+            
+            // Calculate overall score
+            const scores = [];
+            if (testResults.keyboard) scores.push(testResults.keyboard.score);
+            if (testResults.contrast) scores.push(testResults.contrast.score);
+            if (testResults.accessibility) scores.push(testResults.accessibility.score);
+            
+            const overallScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+            
+            // Display overall score
+            const scoreClass = overallScore >= 90 ? 'score-excellent' : 
+                              overallScore >= 75 ? 'score-good' : 'score-poor';
+            
+            const scoreEmoji = overallScore >= 90 ? '🏆' : 
+                              overallScore >= 75 ? '👍' : '⚠️';
+            
+            scoreDiv.innerHTML = `
+                <div class="${scoreClass}">
+                    ${scoreEmoji} Overall Accessibility Score: ${overallScore.toFixed(1)}%<br>
+                    <small>Comprehensive WCAG 2.1 AA Compliance Assessment</small>
+                </div>
+            `;
+            scoreDiv.style.display = 'block';
+            
+            // Display summary
+            const totalTests = (testResults.keyboard?.total || 0) + 
+                              (testResults.contrast?.total || 0) + 
+                              (testResults.accessibility?.total || 0);
+            const totalPassed = (testResults.keyboard?.passed || 0) + 
+                               (testResults.contrast?.passed || 0) + 
+                               (testResults.accessibility?.passed || 0);
+            const totalWarnings = (testResults.keyboard?.warnings || 0) + 
+                                 (testResults.contrast?.warnings || 0) + 
+                                 (testResults.accessibility?.warnings || 0);
+            const totalFailed = (testResults.keyboard?.failed || 0) + 
+                               (testResults.contrast?.failed || 0) + 
+                               (testResults.accessibility?.errors || 0);
+            
+            document.getElementById('totalTests').textContent = totalTests;
+            document.getElementById('passedTests').textContent = totalPassed;
+            document.getElementById('warningTests').textContent = totalWarnings;
+            document.getElementById('failedTests').textContent = totalFailed;
+            summaryDiv.style.display = 'grid';
+            
+            // Display detailed results
+            let html = '<h3>📊 Comprehensive Test Results</h3>';
+            
+            if (testResults.keyboard) {
+                html += '<div class="test-category"><h4>🎯 Keyboard Navigation Results</h4>';
+                testResults.keyboard.results.forEach(result => {
+                    const statusClass = result.status === 'pass' ? 'pass' : 
+                                       result.status === 'warning' ? 'warning' : 'fail';
+                    const emoji = result.status === 'pass' ? '✅' : 
+                                 result.status === 'warning' ? '⚠️' : '❌';
+                    
+                    html += `<div class="test-item ${statusClass}">
+                        ${emoji} <strong>${result.test}:</strong> ${result.message}
+                    </div>`;
+                });
+                html += '</div>';
+            }
+            
+            if (testResults.contrast) {
+                html += '<div class="test-category"><h4>🎨 Color Contrast Results</h4>';
+                html += `<div class="test-item pass">
+                    ✅ <strong>Overall Contrast:</strong> ${testResults.contrast.score}% WCAG compliant
+                </div>`;
+                
+                if (testResults.contrast.failedElements && testResults.contrast.failedElements.length > 0) {
+                    testResults.contrast.failedElements.slice(0, 5).forEach(element => {
+                        html += `<div class="test-item fail">
+                            ❌ <strong>${element.element}:</strong> ${element.contrast.toFixed(2)}:1 (needs ${element.threshold}:1)
+                        </div>`;
+                    });
+                }
+                html += '</div>';
+            }
+            
+            if (testResults.accessibility) {
+                html += '<div class="test-category"><h4>♿ Accessibility Structure Results</h4>';
+                testResults.accessibility.results.forEach(result => {
+                    const statusClass = result.type;
+                    const emoji = result.type === 'pass' ? '✅' : 
+                                 result.type === 'warning' ? '⚠️' : '❌';
+                    
+                    html += `<div class="test-item ${statusClass}">
+                        ${emoji} <strong>${result.test}:</strong> ${result.message}
+                    </div>`;
+                });
+                html += '</div>';
+            }
+            
+            resultsDiv.innerHTML = html;
+            
+            // Generate recommendations
+            generateRecommendations();
+        }
+        
+        function displayKeyboardResults() {
+            const resultsDiv = document.getElementById('testResults');
+            
+            let html = '<h3>🎯 Keyboard Navigation Test Results</h3>';
+            
+            testResults.keyboard.results.forEach(result => {
+                const statusClass = result.status === 'pass' ? 'pass' : 
+                                   result.status === 'warning' ? 'warning' : 'fail';
+                const emoji = result.status === 'pass' ? '✅' : 
+                             result.status === 'warning' ? '⚠️' : '❌';
+                
+                html += `<div class="test-result ${statusClass}">
+                    ${emoji} <strong>${result.test}:</strong> ${result.message}
+                </div>`;
+            });
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function displayContrastResults() {
+            const resultsDiv = document.getElementById('testResults');
+            
+            let html = '<h3>🎨 Color Contrast Test Results</h3>';
+            html += `<div class="test-result pass">
+                ✅ <strong>Overall Score:</strong> ${testResults.contrast.score}% WCAG compliant
+            </div>`;
+            
+            if (testResults.contrast.failedElements && testResults.contrast.failedElements.length > 0) {
+                html += '<h4>❌ Failed Elements:</h4>';
+                testResults.contrast.failedElements.forEach(element => {
+                    html += `<div class="test-result fail">
+                        ❌ <strong>${element.element}:</strong> ${element.contrast.toFixed(2)}:1 (needs ${element.threshold}:1)<br>
+                        <small>Colors: ${element.textColor} on ${element.backgroundColor}</small>
+                    </div>`;
+                });
+            }
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function displayAccessibilityResults() {
+            const resultsDiv = document.getElementById('testResults');
+            
+            let html = '<h3>♿ Accessibility Structure Test Results</h3>';
+            
+            testResults.accessibility.results.forEach(result => {
+                const statusClass = result.type;
+                const emoji = result.type === 'pass' ? '✅' : 
+                             result.type === 'warning' ? '⚠️' : '❌';
+                
+                html += `<div class="test-result ${statusClass}">
+                    ${emoji} <strong>${result.test}:</strong> ${result.message}
+                </div>`;
+            });
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function generateRecommendations() {
+            const recommendationsDiv = document.getElementById('recommendations');
+            const recommendationsList = document.getElementById('recommendationsList');
+            
+            const recommendations = new Set();
+            
+            // Analyze all test results for recommendations
+            if (testResults.keyboard) {
+                testResults.keyboard.results.forEach(result => {
+                    if (result.status === 'fail') {
+                        if (result.test === 'Skip Link') {
+                            recommendations.add('Add a skip link for keyboard navigation');
+                        }
+                        if (result.test === 'Focus Indicators') {
+                            recommendations.add('Implement visible focus indicators');
+                        }
+                    }
+                });
+            }
+            
+            if (testResults.contrast && testResults.contrast.failedElements?.length > 0) {
+                recommendations.add('Improve color contrast ratios to meet WCAG AA standards');
+            }
+            
+            if (testResults.accessibility) {
+                testResults.accessibility.errors.forEach(error => {
+                    if (error.test === 'Heading Hierarchy') {
+                        recommendations.add('Fix heading hierarchy structure');
+                    }
+                    if (error.test === 'ARIA Attributes') {
+                        recommendations.add('Add proper ARIA attributes');
+                    }
+                    if (error.test === 'Form Labels') {
+                        recommendations.add('Ensure all form controls have labels');
+                    }
+                });
+            }
+            
+            // Add general recommendations
+            recommendations.add('Test with screen readers (NVDA, JAWS, VoiceOver)');
+            recommendations.add('Conduct user testing with people with disabilities');
+            recommendations.add('Regular accessibility audits and monitoring');
+            
+            let html = '';
+            Array.from(recommendations).forEach(rec => {
+                html += `<li>${rec}</li>`;
+            });
+            
+            recommendationsList.innerHTML = html;
+            recommendationsDiv.style.display = 'block';
+        }
+        
+        function showProgress(percentage) {
+            const progressBar = document.getElementById('progressBar');
+            const progressFill = document.getElementById('progressFill');
+            
+            progressBar.style.display = 'block';
+            progressFill.style.width = percentage + '%';
+            
+            if (percentage >= 100) {
+                setTimeout(() => {
+                    progressBar.style.display = 'none';
+                }, 1000);
+            }
+        }
+        
+        function clearAllResults() {
+            document.getElementById('testResults').style.display = 'none';
+            document.getElementById('overallScore').style.display = 'none';
+            document.getElementById('testSummary').style.display = 'none';
+            document.getElementById('recommendations').style.display = 'none';
+            document.getElementById('progressBar').style.display = 'none';
+            testResults = { keyboard: null, contrast: null, accessibility: null };
+        }
+        
+        // Auto-run basic tests on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('♿ Complete Accessibility Test Suite loaded');
+            console.log('Click "Run Complete Test Suite" to begin comprehensive testing');
+        });
+    </script>
+</body>
+</html>

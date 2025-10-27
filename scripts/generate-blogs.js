@@ -8,6 +8,10 @@
 const fs = require('fs');
 const path = require('path');
 
+// Import SEO configuration and utilities
+const SEO_CONFIG = require('./seo-config.js');
+const seoUtils = require('./seo-utils.js');
+
 class BlogGenerator {
     constructor() {
         this.projectRoot = path.resolve(__dirname, '..');
@@ -282,33 +286,21 @@ class BlogGenerator {
      * Generate structured data (JSON-LD) for blog post
      */
     generateStructuredData(blogData) {
-        const structuredData = {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            "headline": blogData.meta.title,
-            "description": blogData.meta.description,
-            "author": {
-                "@type": "Person",
-                "name": blogData.meta.author.name
-            },
-            "datePublished": blogData.meta.date,
-            "dateModified": blogData.meta.dateModified || blogData.meta.date,
-            "image": blogData.hero.featuredImage.url,
-            "publisher": {
-                "@type": "Organization",
-                "name": "Modern Age Coders",
-                "logo": {
-                    "@type": "ImageObject",
-                    "url": "https://www.modernagecoders.com/logo.png"
-                }
-            },
-            "mainEntityOfPage": {
-                "@type": "WebPage",
-                "@id": `https://www.modernagecoders.com/blog/${blogData.meta.slug}`
-            }
-        };
+        // Generate BlogPosting schema using SEO utilities
+        const blogPostingSchema = seoUtils.generateBlogPostingSchema(blogData);
         
-        return JSON.stringify(structuredData, null, 2);
+        // Generate breadcrumb schema for blog post
+        const breadcrumbs = [
+            { name: 'Home', url: '/' },
+            { name: 'Blog', url: '/content/blog/generated/' },
+            { name: blogData.meta.title, url: `/blog/${blogData.meta.slug}` }
+        ];
+        const breadcrumbSchema = seoUtils.generateBreadcrumbSchema(breadcrumbs);
+        
+        // Combine schemas into an array
+        const schemas = [blogPostingSchema, breadcrumbSchema];
+        
+        return JSON.stringify(schemas, null, 2);
     }
 
     /**

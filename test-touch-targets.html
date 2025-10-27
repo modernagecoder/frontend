@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Target Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <style>
+        body {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .test-section {
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: rgba(16, 16, 28, 0.8);
+            border-radius: 1rem;
+        }
+        .test-section h2 {
+            margin-bottom: 1.5rem;
+            color: #F8FAFC;
+        }
+        .test-grid {
+            display: grid;
+            gap: 1rem;
+        }
+        .measurement {
+            font-size: 0.875rem;
+            color: #94A3B8;
+            margin-top: 0.5rem;
+        }
+        .pass {
+            color: #10B981;
+        }
+        .fail {
+            color: #EF4444;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 2rem; color: #F8FAFC;">Touch Target Optimization Test</h1>
+    
+    <div class="test-section">
+        <h2>Buttons (Minimum 44x44px)</h2>
+        <div class="test-grid">
+            <button class="cta-button">CTA Button</button>
+            <button class="card-button coding">Card Button</button>
+            <button class="plan-button">Plan Button</button>
+            <button class="submit-button">Submit Button</button>
+            <button class="tab-button">Tab Button</button>
+            <button class="view-more-button">View More Button</button>
+        </div>
+        <p class="measurement">✓ All buttons should be at least 44x44px</p>
+    </div>
+
+    <div class="test-section">
+        <h2>Links (Minimum 44x44px)</h2>
+        <div class="test-grid">
+            <a href="#" class="nav-link">Navigation Link</a>
+            <a href="#" class="dropdown-item">Dropdown Item</a>
+            <a href="#" class="footer-link">Footer Link</a>
+            <a href="#">Regular Link</a>
+        </div>
+        <p class="measurement">✓ All links should be at least 44x44px</p>
+    </div>
+
+    <div class="test-section">
+        <h2>Form Inputs (Minimum 44px height)</h2>
+        <div class="test-grid">
+            <input type="text" placeholder="Text Input">
+            <input type="email" placeholder="Email Input">
+            <input type="tel" placeholder="Phone Input">
+            <select>
+                <option>Select Option</option>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+            <textarea placeholder="Textarea"></textarea>
+        </div>
+        <p class="measurement">✓ All form inputs should be at least 44px in height</p>
+    </div>
+
+    <div class="test-section">
+        <h2>Spacing Between Elements (Minimum 8px)</h2>
+        <div style="display: flex; flex-wrap: wrap;">
+            <button class="cta-button">Button 1</button>
+            <button class="cta-button">Button 2</button>
+            <button class="cta-button">Button 3</button>
+        </div>
+        <p class="measurement">✓ Buttons should have at least 8px spacing between them</p>
+        
+        <div style="margin-top: 1rem;">
+            <a href="#" class="nav-link">Link 1</a>
+            <a href="#" class="nav-link">Link 2</a>
+            <a href="#" class="nav-link">Link 3</a>
+        </div>
+        <p class="measurement">✓ Links should have at least 8px spacing between them</p>
+    </div>
+
+    <div class="test-section">
+        <h2>Touch Feedback Test</h2>
+        <p style="color: #CBD5E1; margin-bottom: 1rem;">Tap/click these elements to see visual feedback:</p>
+        <div class="test-grid">
+            <button class="cta-button">Tap Me</button>
+            <button class="card-button coding">Tap Me</button>
+            <a href="#" class="nav-link">Tap Me</a>
+        </div>
+        <p class="measurement">✓ Elements should show visual feedback (scale/opacity change) when tapped</p>
+    </div>
+
+    <script src="scripts/validate-touch-targets.js"></script>
+    <script>
+        // Additional visual feedback for testing
+        window.addEventListener('load', () => {
+            const buttons = document.querySelectorAll('button');
+            const links = document.querySelectorAll('a');
+            const inputs = document.querySelectorAll('input, select, textarea');
+            
+            console.log('=== Touch Target Measurements ===');
+            
+            console.log('\nButtons:');
+            buttons.forEach((btn, i) => {
+                const rect = btn.getBoundingClientRect();
+                const pass = rect.height >= 44 && rect.width >= 44;
+                console.log(`Button ${i + 1}: ${rect.width.toFixed(1)}x${rect.height.toFixed(1)}px ${pass ? '✓' : '✗'}`);
+            });
+            
+            console.log('\nLinks:');
+            links.forEach((link, i) => {
+                const rect = link.getBoundingClientRect();
+                const pass = rect.height >= 44 && rect.width >= 44;
+                console.log(`Link ${i + 1}: ${rect.width.toFixed(1)}x${rect.height.toFixed(1)}px ${pass ? '✓' : '✗'}`);
+            });
+            
+            console.log('\nForm Inputs:');
+            inputs.forEach((input, i) => {
+                const rect = input.getBoundingClientRect();
+                const pass = rect.height >= 44;
+                console.log(`Input ${i + 1}: ${rect.width.toFixed(1)}x${rect.height.toFixed(1)}px ${pass ? '✓' : '✗'}`);
+            });
+        });
+    </script>
+</body>
+</html>

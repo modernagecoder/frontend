@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Page Not Found | Modern Age Coders</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="The page you're looking for doesn't exist. Return to Modern Age Coders homepage to explore our coding courses.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Modern Age Coders">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
@@ -12,6 +17,7 @@
     <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <style>
         .error-container {
             min-height: 100vh;
@@ -55,6 +61,18 @@
         .error-button:hover {
             transform: translateY(-2px);
         }
+        
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 5rem;
+            }
+            .error-message {
+                font-size: 1.5rem;
+            }
+            .error-description {
+                font-size: 1rem;
+            }
+        }
     </style>
 </head>
 <body>
@@ -66,6 +84,11 @@
             It might have been moved or deleted.
         </p>
         <a href="/" class="error-button">Go Back Home</a>
+        <div style="margin-top: 2rem;">
+            <a href="/courses" style="color: #a855f7; text-decoration: none; margin: 0 1rem;">Browse Courses</a>
+            <a href="/about" style="color: #a855f7; text-decoration: none; margin: 0 1rem;">About Us</a>
+            <a href="/blog" style="color: #a855f7; text-decoration: none; margin: 0 1rem;">Blog</a>
+        </div>
     </div>
 </body>
 </html>

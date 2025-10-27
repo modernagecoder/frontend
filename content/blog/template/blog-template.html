@@ -38,6 +38,7 @@
     </script>
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body class="blog-detail-page">
@@ -120,7 +121,7 @@
                 </div>
             </div>
             <div class="blog-hero-image">
-                <img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" data-template="hero.image">
+                <img src="{{HERO_IMAGE_URL}}" alt="{{HERO_IMAGE_ALT}}" data-template="hero.image" loading="lazy">
             </div>
         </section>
 
@@ -132,7 +133,7 @@
             
             <!-- Author Bio Section -->
             <div class="author-bio-section">
-                <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-bio-avatar">
+                <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-bio-avatar" loading="lazy">
                 <div class="author-bio-content">
                     <h3>About {{BLOG_AUTHOR_NAME}}</h3>
                     <p>{{BLOG_AUTHOR_BIO}}</p>
@@ -152,6 +153,9 @@
 
     <script src="/js/navigation.js"></script>
     <script src="/js/blog-navigation.js"></script>
+    
+    <!-- Load Mobile Navigation JavaScript -->
+    <script src="/js/mobile-navigation.js"></script>
 </body>
 
 </html>

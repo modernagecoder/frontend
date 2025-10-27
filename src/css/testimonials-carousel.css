@@ -304,3 +304,37 @@
         -webkit-overflow-scrolling: touch;
     }
 }
+
+/* ========================================
+   REDUCED MOTION SUPPORT
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .testimonials-track {
+        transition: none !important;
+    }
+    
+    .testimonial-card {
+        transition: none !important;
+    }
+    
+    .testimonial-card:hover {
+        transform: none !important;
+    }
+    
+    .carousel-arrow {
+        transition: none !important;
+    }
+    
+    .carousel-arrow:hover {
+        transform: translateY(-50%) !important;
+    }
+    
+    .carousel-arrow:active {
+        transform: translateY(-50%) !important;
+    }
+    
+    .carousel-dot {
+        transition: none !important;
+    }
+}

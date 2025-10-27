@@ -16,8 +16,9 @@
         navLinks.forEach(link => {
             const href = link.getAttribute('href');
             
-            // Remove any existing active class
+            // Remove any existing active class and aria-current
             link.classList.remove('active');
+            link.removeAttribute('aria-current');
             
             // Check if this link matches the current page
             if (href) {
@@ -28,11 +29,13 @@
                     (currentPage === '' && linkPage === 'index.html') ||
                     (currentPage === 'index.html' && linkPage === 'index.html')) {
                     link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
                 }
                 
                 // Special handling for blog
                 if (currentPath.includes('/blog') && href.includes('/blog')) {
                     link.classList.add('active');
+                    link.setAttribute('aria-current', 'page');
                 }
                 
                 // Special handling for courses
@@ -46,6 +49,7 @@
                                           currentPage.match(/-(coding|web|python|fullstack|ai|mobile|data|game)/);
                     if (isCourseRelated) {
                         link.classList.add('active');
+                        link.setAttribute('aria-current', 'page');
                     }
                 }
             }
@@ -102,12 +106,23 @@
         });
     }
     
-    // Handle dropdown on mobile
+    // Handle dropdown on mobile and desktop
     const dropdowns = document.querySelectorAll('.dropdown');
     dropdowns.forEach(dropdown => {
         const dropdownLink = dropdown.querySelector('.nav-link');
+        const dropdownContent = dropdown.querySelector('.dropdown-content');
         
-        if (dropdownLink) {
+        if (dropdownLink && dropdownContent) {
+            // Initialize ARIA attributes for dropdown toggles
+            dropdownLink.setAttribute('aria-haspopup', 'true');
+            dropdownLink.setAttribute('aria-expanded', 'false');
+            
+            // Generate unique ID for dropdown content
+            const dropdownId = 'dropdown-' + Math.random().toString(36).substr(2, 9);
+            dropdownContent.setAttribute('id', dropdownId);
+            dropdownLink.setAttribute('aria-controls', dropdownId);
+            
+            // Handle mobile dropdown clicks
             dropdownLink.addEventListener('click', function(e) {
                 if (window.innerWidth <= 900) {
                     e.preventDefault();
@@ -117,11 +132,29 @@
                     dropdowns.forEach(otherDropdown => {
                         if (otherDropdown !== dropdown) {
                             otherDropdown.classList.remove('active');
+                            const otherLink = otherDropdown.querySelector('.nav-link');
+                            if (otherLink) {
+                                otherLink.setAttribute('aria-expanded', 'false');
+                            }
                         }
                     });
                     
                     // Toggle current dropdown
-                    dropdown.classList.toggle('active');
+                    const isActive = dropdown.classList.toggle('active');
+                    dropdownLink.setAttribute('aria-expanded', isActive.toString());
+                }
+            });
+            
+            // Handle desktop dropdown hover
+            dropdown.addEventListener('mouseenter', function() {
+                if (window.innerWidth > 900) {
+                    dropdownLink.setAttribute('aria-expanded', 'true');
+                }
+            });
+            
+            dropdown.addEventListener('mouseleave', function() {
+                if (window.innerWidth > 900) {
+                    dropdownLink.setAttribute('aria-expanded', 'false');
                 }
             });
         }

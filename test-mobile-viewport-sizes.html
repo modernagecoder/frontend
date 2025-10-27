@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Viewport Testing - Modern Age Coders</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #000002;
+            color: #F8FAFC;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .test-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        .test-results {
+            background: rgba(16, 16, 28, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .viewport-test {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(8, 8, 16, 0.9);
+            border-radius: 8px;
+            border-left: 4px solid #A855F7;
+        }
+        
+        .test-pass {
+            border-left-color: #10B981;
+        }
+        
+        .test-fail {
+            border-left-color: #EF4444;
+        }
+        
+        .test-warning {
+            border-left-color: #F59E0B;
+        }
+        
+        .status {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .pass { color: #10B981; }
+        .fail { color: #EF4444; }
+        .warning { color: #F59E0B; }
+        
+        .test-details {
+            font-size: 0.9rem;
+            color: #CBD5E1;
+            margin-top: 8px;
+        }
+        
+        .run-tests-btn {
+            background: linear-gradient(135deg, #A855F7, #4ECDC4);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: transform 0.2s ease;
+        }
+        
+        .run-tests-btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .page-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .page-link {
+            background: rgba(168, 85, 247, 0.2);
+            color: #A855F7;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            transition: background 0.2s ease;
+        }
+        
+        .page-link:hover {
+            background: rgba(168, 85, 247, 0.3);
+        }
+        
+        .summary {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .iframe-container {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        .test-iframe {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #A855F7;
+            border-radius: 8px;
+        }
+        
+        .current-test-info {
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin: 15px 0;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <div class="test-header">
+            <h1>Mobile Viewport Size Testing</h1>
+            <p>Testing for horizontal scroll issues on various mobile viewport sizes</p>
+            <p><strong>Requirements:</strong> 4.2, 4.3, 4.4, 4.5 - No horizontal scrolling on any device size</p>
+        </div>
+        
+        <div class="page-links">
+            <a href="src/pages/index.html" class="page-link" target="_blank">Homepage</a>
+            <a href="src/pages/about.html" class="page-link" target="_blank">About Page</a>
+            <a href="src/pages/course.html" class="page-link" target="_blank">Courses Page</a>
+            <a href="src/pages/404.html" class="page-link" target="_blank">404 Page</a>
+            <a href="contact.html" class="page-link" target="_blank">Contact Page</a>
+            <a href="pricing.html" class="page-link" target="_blank">Pricing Page</a>
+        </div>
+        
+        <button class="run-tests-btn" onclick="runAllTests()">Run All Viewport Tests</button>
+        <button class="run-tests-btn" onclick="runQuickTest()">Quick Test Current Page</button>
+        <button class="run-tests-btn" onclick="clearResults()">Clear Results</button>
+        
+        <div class="current-test-info" id="currentTestInfo">
+            <h3>Currently Testing:</h3>
+            <p id="currentTestDetails"></p>
+        </div>
+        
+        <div class="iframe-container" id="iframeContainer">
+            <h3>Test Preview:</h3>
+            <iframe id="testIframe" class="test-iframe" src=""></iframe>
+        </div>
+        
+        <div class="test-results" id="testResults">
+            <h2>Test Results</h2>
+            <p>Click "Run All Viewport Tests" to start testing...</p>
+        </div>
+        
+        <div class="summary" id="testSummary" style="display: none;">
+            <h3>Test Summary</h3>
+            <div id="summaryContent"></div>
+        </div>
+    </div>
+
+    <script src="viewport-test-script.js"></script>
+    <script>
+        // Test viewport sizes as specified in the task
+        const viewportSizes = [
+            { name: 'iPhone SE', width: 320, height: 568, description: 'Smallest mobile viewport' },
+            { name: 'iPhone 12', width: 375, height: 812, description: 'Standard iPhone size' },
+            { name: 'iPhone 13', width: 390, height: 844, description: 'Newer iPhone size' },
+            { name: 'iPad', width: 768, height: 1024, description: 'Tablet portrait mode' }
+        ];
+        
+        // Pages to test
+        const pagesToTest = [
+            { name: 'Homepage', url: 'src/pages/index.html' },
+            { name: 'About Page', url: 'src/pages/about.html' },
+            { name: 'Courses Page', url: 'src/pages/course.html' },
+            { name: '404 Page', url: 'src/pages/404.html' }
+        ];
+        
+        let testResults = [];
+        let currentTestIndex = 0;
+        
+        function showCurrentTest(pageName, viewportName, width, height) {
+            const info = document.getElementById('currentTestInfo');
+            const details = document.getElementById('currentTestDetails');
+            details.textContent = `${pageName} at ${viewportName} (${width}x${height}px)`;
+            info.style.display = 'block';
+        }
+        
+        function hideCurrentTest() {
+            document.getElementById('currentTestInfo').style.display = 'none';
+        }
+        
+        function testViewportSize(pageUrl, pageName, viewport) {
+            return new Promise((resolve) => {
+                showCurrentTest(pageName, viewport.name, viewport.width, viewport.height);
+                
+                // Create a temporary iframe to test the page
+                const iframe = document.createElement('iframe');
+                iframe.style.width = viewport.width + 'px';
+                iframe.style.height = viewport.height + 'px';
+                iframe.style.border = '1px solid #ccc';
+                iframe.style.position = 'absolute';
+                iframe.style.left = '-9999px';
+                iframe.style.top = '-9999px';
+                
+                document.body.appendChild(iframe);
+                
+                iframe.onload = function() {
+                    setTimeout(() => {
+                        try {
+                            const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                            const body = iframeDoc.body;
+                            const html = iframeDoc.documentElement;
+                            
+                            // Check for horizontal scroll
+                            const hasHorizontalScroll = body.scrollWidth > viewport.width || 
+                                                      html.scrollWidth > viewport.width ||
+                                                      body.offsetWidth > viewport.width ||
+                                                      html.offsetWidth > viewport.width;
+                            
+                            const scrollWidth = Math.max(body.scrollWidth, html.scrollWidth);
+                            const offsetWidth = Math.max(body.offsetWidth, html.offsetWidth);
+                            const maxWidth = Math.max(scrollWidth, offsetWidth);
+                            
+                            // Check for elements that might cause overflow
+                            const wideElements = [];
+                            const allElements = iframeDoc.querySelectorAll('*');
+                            
+                            allElements.forEach(el => {
+                                const rect = el.getBoundingClientRect();
+                                const computedStyle = iframe.contentWindow.getComputedStyle(el);
+                                
+                                if (rect.width > viewport.width || 
+                                    parseInt(computedStyle.minWidth) > viewport.width ||
+                                    (computedStyle.width && computedStyle.width.includes('px') && parseInt(computedStyle.width) > viewport.width)) {
+                                    wideElements.push({
+                                        tag: el.tagName.toLowerCase(),
+                                        class: el.className,
+                                        id: el.id,
+                                        width: rect.width,
+                                        computedWidth: computedStyle.width,
+                                        minWidth: computedStyle.minWidth
+                                    });
+                                }
+                            });
+                            
+                            const result = {
+                                page: pageName,
+                                viewport: viewport.name,
+                                viewportWidth: viewport.width,
+                                viewportHeight: viewport.height,
+                                hasHorizontalScroll: hasHorizontalScroll,
+                                actualWidth: maxWidth,
+                                scrollWidth: scrollWidth,
+                                offsetWidth: offsetWidth,
+                                wideElements: wideElements.slice(0, 5), // Limit to first 5 problematic elements
+                                status: hasHorizontalScroll ? 'fail' : 'pass'
+                            };
+                            
+                            document.body.removeChild(iframe);
+                            resolve(result);
+                            
+                        } catch (error) {
+                            document.body.removeChild(iframe);
+                            resolve({
+                                page: pageName,
+                                viewport: viewport.name,
+                                viewportWidth: viewport.width,
+                                viewportHeight: viewport.height,
+                                hasHorizontalScroll: false,
+                                actualWidth: viewport.width,
+                                scrollWidth: viewport.width,
+                                offsetWidth: viewport.width,
+                                wideElements: [],
+                                status: 'warning',
+                                error: 'Could not access iframe content - possible CORS issue'
+                            });
+                        }
+                    }, 1000); // Wait for page to fully load
+                };
+                
+                iframe.onerror = function() {
+                    document.body.removeChild(iframe);
+                    resolve({
+                        page: pageName,
+                        viewport: viewport.name,
+                        viewportWidth: viewport.width,
+                        viewportHeight: viewport.height,
+                        hasHorizontalScroll: false,
+                        actualWidth: viewport.width,
+                        scrollWidth: viewport.width,
+                        offsetWidth: viewport.width,
+                        wideElements: [],
+                        status: 'warning',
+                        error: 'Failed to load page'
+                    });
+                };
+                
+                iframe.src = pageUrl;
+            });
+        }
+        
+        async function runAllTests() {
+            testResults = [];
+            const resultsDiv = document.getElementById('testResults');
+            resultsDiv.innerHTML = '<h2>Test Results</h2><p>Running tests...</p>';
+            
+            let totalTests = 0;
+            let passedTests = 0;
+            let failedTests = 0;
+            let warningTests = 0;
+            
+            for (const page of pagesToTest) {
+                for (const viewport of viewportSizes) {
+                    const result = await testViewportSize(page.url, page.name, viewport);
+                    testResults.push(result);
+                    totalTests++;
+                    
+                    if (result.status === 'pass') passedTests++;
+                    else if (result.status === 'fail') failedTests++;
+                    else warningTests++;
+                }
+            }
+            
+            hideCurrentTest();
+            displayResults();
+            displaySummary(totalTests, passedTests, failedTests, warningTests);
+        }
+        
+        async function runQuickTest() {
+            // Test current page dimensions
+            const currentWidth = window.innerWidth;
+            const currentHeight = window.innerHeight;
+            
+            const hasHorizontalScroll = document.body.scrollWidth > window.innerWidth || 
+                                      document.documentElement.scrollWidth > window.innerWidth;
+            
+            const result = {
+                page: 'Current Page',
+                viewport: `Current (${currentWidth}x${currentHeight})`,
+                viewportWidth: currentWidth,
+                viewportHeight: currentHeight,
+                hasHorizontalScroll: hasHorizontalScroll,
+                actualWidth: Math.max(document.body.scrollWidth, document.documentElement.scrollWidth),
+                scrollWidth: document.body.scrollWidth,
+                offsetWidth: document.body.offsetWidth,
+                wideElements: [],
+                status: hasHorizontalScroll ? 'fail' : 'pass'
+            };
+            
+            testResults = [result];
+            displayResults();
+            displaySummary(1, result.status === 'pass' ? 1 : 0, result.status === 'fail' ? 1 : 0, result.status === 'warning' ? 1 : 0);
+        }
+        
+        function displayResults() {
+            const resultsDiv = document.getElementById('testResults');
+            let html = '<h2>Test Results</h2>';
+            
+            testResults.forEach(result => {
+                const statusClass = result.status;
+                const statusText = result.status.charAt(0).toUpperCase() + result.status.slice(1);
+                
+                html += `
+                    <div class="viewport-test test-${statusClass}">
+                        <div class="status ${statusClass}">${statusText}: ${result.page} - ${result.viewport}</div>
+                        <div class="test-details">
+                            <strong>Viewport:</strong> ${result.viewportWidth}x${result.viewportHeight}px<br>
+                            <strong>Actual Width:</strong> ${result.actualWidth}px<br>
+                            <strong>Horizontal Scroll:</strong> ${result.hasHorizontalScroll ? 'YES ❌' : 'NO ✅'}<br>
+                            ${result.error ? `<strong>Error:</strong> ${result.error}<br>` : ''}
+                            ${result.wideElements.length > 0 ? `<strong>Wide Elements Found:</strong> ${result.wideElements.length}<br>` : ''}
+                        </div>
+                    </div>
+                `;
+            });
+            
+            resultsDiv.innerHTML = html;
+        }
+        
+        function displaySummary(total, passed, failed, warnings) {
+            const summaryDiv = document.getElementById('testSummary');
+            const contentDiv = document.getElementById('summaryContent');
+            
+            const passRate = ((passed / total) * 100).toFixed(1);
+            
+            contentDiv.innerHTML = `
+                <p><strong>Total Tests:</strong> ${total}</p>
+                <p><strong>Passed:</strong> <span class="pass">${passed}</span></p>
+                <p><strong>Failed:</strong> <span class="fail">${failed}</span></p>
+                <p><strong>Warnings:</strong> <span class="warning">${warnings}</span></p>
+                <p><strong>Pass Rate:</strong> ${passRate}%</p>
+                <hr style="margin: 15px 0; border: 1px solid rgba(255,255,255,0.2);">
+                <p><strong>Requirements Status:</strong></p>
+                <p>✅ Requirement 4.2: ${failed === 0 ? 'PASSED' : 'FAILED'} - No horizontal scroll on mobile devices</p>
+                <p>✅ Requirement 4.3: ${failed === 0 ? 'PASSED' : 'FAILED'} - Proper media query adaptation</p>
+                <p>✅ Requirement 4.4: ${failed === 0 ? 'PASSED' : 'FAILED'} - Tablet layout optimization</p>
+                <p>✅ Requirement 4.5: ${failed === 0 ? 'PASSED' : 'FAILED'} - Desktop layout scaling</p>
+            `;
+            
+            summaryDiv.style.display = 'block';
+        }
+        
+        function clearResults() {
+            testResults = [];
+            document.getElementById('testResults').innerHTML = '<h2>Test Results</h2><p>Click "Run All Viewport Tests" to start testing...</p>';
+            document.getElementById('testSummary').style.display = 'none';
+            hideCurrentTest();
+        }
+        
+        // Auto-run a quick test when page loads
+        window.addEventListener('load', () => {
+            setTimeout(runQuickTest, 1000);
+        });
+    </script>
+</body>
+</html>

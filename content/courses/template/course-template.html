@@ -23,11 +23,18 @@
     <meta property="twitter:description" content="{{COURSE_DESCRIPTION}}" data-template="meta.twitter_description">
     <meta property="twitter:image" content="{{TWITTER_IMAGE}}" data-template="meta.twitter_image">
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
     <script type="application/ld+json" data-template="structured_data">
     {{STRUCTURED_DATA}}
     </script>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body class="course-detail-page">
@@ -393,6 +400,9 @@
             }
         }
     </style>
+    
+    <!-- Load Mobile Navigation JavaScript -->
+    <script src="/js/mobile-navigation.js"></script>
 </body>
 
 </html>

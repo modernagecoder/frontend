@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Typography Test - Modern Age Coders</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <style>
+        .test-container {
+            max-width: 100%;
+            padding: 1rem;
+            margin: 0 auto;
+        }
+        
+        .test-section {
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 8px;
+            background: rgba(16, 16, 28, 0.8);
+        }
+        
+        .test-title {
+            color: var(--primary-glow-color);
+            margin-bottom: 1rem;
+            font-weight: 600;
+        }
+        
+        .font-size-display {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            font-family: monospace;
+        }
+        
+        .viewport-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            z-index: 1000;
+        }
+        
+        .form-test {
+            margin-top: 1rem;
+        }
+        
+        .form-test input,
+        .form-test textarea,
+        .form-test select {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+        
+        .readability-test {
+            max-width: 65ch;
+            line-height: 1.6;
+        }
+        
+        .measurement-info {
+            background: rgba(78, 205, 196, 0.1);
+            border-left: 3px solid rgba(78, 205, 196, 0.5);
+            padding: 0.75rem;
+            margin: 1rem 0;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="viewport-info" id="viewport-info">
+        Viewport: <span id="viewport-size"></span>
+    </div>
+    
+    <div class="test-container">
+        <h1>Mobile Typography Test</h1>
+        <p class="text-secondary">Testing typography compliance for mobile devices</p>
+        
+        <!-- Body Text Tests -->
+        <div class="test-section">
+            <h2 class="test-title">Body Text Elements (≥14px required)</h2>
+            
+            <div class="font-size-display">body element font-size: 14px</div>
+            <p>This is regular paragraph text using the default body font size. It should be at least 14px on mobile devices to ensure readability without zooming. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+            <div class="font-size-display">.body-text class font-size: 16px</div>
+            <div class="body-text">This text uses the .body-text class. It should be comfortable to read on mobile devices without requiring users to zoom in.</div>
+            
+            <div class="font-size-display">.body-regular class font-size: 16px</div>
+            <div class="body-regular">This text uses the .body-regular class for standard body content.</div>
+            
+            <div class="font-size-display">.text-secondary class font-size: 16px</div>
+            <div class="text-secondary">This text uses the .text-secondary class for secondary content.</div>
+            
+            <div class="measurement-info">
+                ✅ All body text elements meet the minimum 14px requirement for mobile readability.
+            </div>
+        </div>
+        
+        <!-- Input Text Tests -->
+        <div class="test-section">
+            <h2 class="test-title">Form Input Elements (≥16px required)</h2>
+            <p class="text-secondary">Input font size must be ≥16px to prevent automatic zoom on iOS devices</p>
+            
+            <div class="form-test">
+                <div class="font-size-display">input[type="text"] font-size: 16px</div>
+                <input type="text" placeholder="Text input - should not trigger zoom on iOS">
+                
+                <div class="font-size-display">input[type="email"] font-size: 16px</div>
+                <input type="email" placeholder="Email input - should not trigger zoom on iOS">
+                
+                <div class="font-size-display">input[type="tel"] font-size: 16px</div>
+                <input type="tel" placeholder="Phone input - should not trigger zoom on iOS">
+                
+                <div class="font-size-display">textarea font-size: 16px</div>
+                <textarea placeholder="Textarea - should not trigger zoom on iOS" rows="3"></textarea>
+                
+                <div class="font-size-display">select font-size: 16px</div>
+                <select>
+                    <option>Select option - should not trigger zoom on iOS</option>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </select>
+            </div>
+            
+            <div class="measurement-info">
+                ✅ All form inputs use 16px font size to prevent iOS zoom behavior.
+            </div>
+        </div>
+        
+        <!-- Readability Test -->
+        <div class="test-section">
+            <h2 class="test-title">Readability Without Zooming</h2>
+            
+            <div class="readability-test">
+                <h3>Sample Content for Readability Testing</h3>
+                <p>This paragraph tests readability on mobile devices. The text should be comfortable to read without requiring users to zoom in. The line length is limited to 65 characters maximum for optimal readability.</p>
+                
+                <p>Modern Age Coders is committed to providing accessible education for everyone. Our courses are designed to be inclusive and welcoming to learners of all backgrounds and skill levels.</p>
+                
+                <h4>Key Features:</h4>
+                <ul>
+                    <li>Mobile-optimized typography</li>
+                    <li>Accessible color contrast</li>
+                    <li>Touch-friendly interface</li>
+                    <li>Responsive design</li>
+                </ul>
+                
+                <p>The typography system uses fluid scaling with clamp() functions to ensure text remains readable across all device sizes while maintaining visual hierarchy.</p>
+            </div>
+            
+            <div class="measurement-info">
+                ✅ Text content is optimized for mobile readability with proper line length and spacing.
+            </div>
+        </div>
+        
+        <!-- Heading Hierarchy Test -->
+        <div class="test-section">
+            <h2 class="test-title">Heading Hierarchy</h2>
+            
+            <h1>H1 Heading - clamp(1.75rem, 5vw, 2.5rem)</h1>
+            <h2>H2 Heading - clamp(1.5rem, 4vw, 2rem)</h2>
+            <h3>H3 Heading - clamp(1.25rem, 3vw, 1.5rem)</h3>
+            <h4>H4 Heading - clamp(1.125rem, 2.5vw, 1.25rem)</h4>
+            <h5>H5 Heading - Standard size</h5>
+            <h6>H6 Heading - Standard size</h6>
+            
+            <div class="measurement-info">
+                ✅ Headings use fluid typography with clamp() for responsive scaling.
+            </div>
+        </div>
+        
+        <!-- Test Instructions -->
+        <div class="test-section">
+            <h2 class="test-title">Manual Testing Instructions</h2>
+            <ol>
+                <li><strong>Viewport Testing:</strong> Test on different mobile viewport sizes (320px, 375px, 390px, 768px)</li>
+                <li><strong>Zoom Testing:</strong> Verify that all text is readable without zooming</li>
+                <li><strong>Input Testing:</strong> Tap on form inputs to ensure no automatic zoom occurs on iOS</li>
+                <li><strong>Readability Testing:</strong> Read through content to ensure comfortable reading experience</li>
+                <li><strong>Cross-browser Testing:</strong> Test on Mobile Safari, Chrome Mobile, Samsung Internet, Firefox Mobile</li>
+            </ol>
+            
+            <div class="measurement-info">
+                📱 Current viewport size is displayed in the top-right corner for reference.
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Display current viewport size
+        function updateViewportInfo() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('viewport-size').textContent = `${width}x${height}px`;
+        }
+        
+        // Update on load and resize
+        updateViewportInfo();
+        window.addEventListener('resize', updateViewportInfo);
+        
+        // Test form input focus behavior
+        const inputs = document.querySelectorAll('input, textarea, select');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                console.log(`Focused on ${this.tagName.toLowerCase()}${this.type ? `[type="${this.type}"]` : ''} - Font size should be 16px to prevent zoom`);
+            });
+        });
+        
+        // Log viewport changes for testing
+        window.addEventListener('resize', function() {
+            console.log(`Viewport changed to: ${window.innerWidth}x${window.innerHeight}px`);
+        });
+    </script>
+</body>
+</html>

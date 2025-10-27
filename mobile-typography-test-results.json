@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "totalTests": 13,
+    "passed": 13,
+    "failed": 0,
+    "warnings": 0,
+    "successRate": "100.0"
+  },
+  "requirements": {
+    "bodyTextMinSize": 14,
+    "inputTextMinSize": 16,
+    "maxLineLength": 65,
+    "minLineHeight": 1.5,
+    "maxLineHeight": 1.8
+  },
+  "details": [
+    {
+      "page": "CSS Analysis",
+      "bodyTextTests": [
+        {
+          "selector": "body",
+          "fontSize": 14,
+          "required": 14,
+          "passed": true,
+          "context": "Body text elements"
+        },
+        {
+          "selector": "p",
+          "fontSize": 14.4,
+          "required": 14,
+          "passed": true,
+          "context": "Body text elements"
+        },
+        {
+          "selector": ".body-text",
+          "fontSize": 16,
+          "required": 14,
+          "passed": true,
+          "context": "Body text elements"
+        },
+        {
+          "selector": ".body-regular",
+          "fontSize": 16,
+          "required": 14,
+          "passed": true,
+          "context": "Body text elements"
+        },
+        {
+          "selector": ".text-secondary",
+          "fontSize": 16,
+          "required": 14,
+          "passed": true,
+          "context": "Body text elements"
+        }
+      ],
+      "inputTextTests": [
+        {
+          "selector": "input",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "textarea",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "select",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "input[type=\"text\"]",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "input[type=\"email\"]",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "input[type=\"tel\"]",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "input[type=\"number\"]",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        },
+        {
+          "selector": "input[type=\"password\"]",
+          "fontSize": 16,
+          "required": 16,
+          "passed": true,
+          "context": "Form input elements",
+          "reason": "Prevents zoom on iOS devices"
+        }
+      ],
+      "readabilityTests": [
+        {
+          "selector": "Mobile Media Queries",
+          "found": true,
+          "passed": true,
+          "context": "Mobile-responsive typography",
+          "reason": "Mobile-specific typography rules found"
+        },
+        {
+          "selector": "Fluid Typography (clamp)",
+          "found": true,
+          "passed": true,
+          "context": "Responsive font scaling",
+          "reason": "Fluid typography with clamp() found"
+        }
+      ],
+      "passed": true
+    }
+  ]
+}

@@ -107,12 +107,16 @@
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/testimonials-carousel.css">
     <link rel="stylesheet" href="/css/certificate-carousel.css">
 
 </head>
 
 <body class="index-page">
+    <!-- Skip link for keyboard navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
 
     <canvas id="background-canvas"></canvas>
 
@@ -176,7 +180,7 @@
         </nav>
     </header>
 
-    <main>
+    <main id="main">
         <section class="section hero-section">
             <div class="hero-text">
                 <h1><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths + Co<span
@@ -223,7 +227,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg></div>
-                    <h4>Expert Instructors</h4>
+                    <h3>Expert Instructors</h3>
                     <p>Learn from industry professionals who bring real-world experience to every lesson.</p>
                 </div>
                 <div class="feature-item" style="animation-delay: 0.3s;">
@@ -232,7 +236,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
                         </svg></div>
-                    <h4>Personalized Paths</h4>
+                    <h3>Personalized Paths</h3>
                     <p>Our curriculum adapts to your unique learning style, ensuring you master concepts thoroughly.</p>
                 </div>
                 <div class="feature-item" style="animation-delay: 0.4s;">
@@ -241,7 +245,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v.45c0 .326-.041.65-.123.958-3.5-1.113-6.286-3.726-8.5-7.44C1.35 4.373 1 5.666 1 7.028c0 3.333 2.5 5.95 5.625 6.922v.45c0 .326.041.65.123.958 3.5 1.113 6.286 3.726 8.5 7.44 3.15-3.714 5.875-6.327 8.5-7.44.082-.308.123-.632.123-.958v-.45c0-.355-.186-.676-.401-.959-.221-.29-.349-.634-.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v.451z" />
                         </svg></div>
-                    <h4>Creative Projects</h4>
+                    <h3>Creative Projects</h3>
                     <p>Apply your knowledge by building a portfolio of impressive, real-world projects.</p>
                 </div>
                 <div class="feature-item" style="animation-delay: 0.5s;">
@@ -250,7 +254,7 @@
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.82m5.84-2.56a14.98 14.98 0 00-5.84-2.56m0 0a14.98 14.98 0 00-5.84 2.56m5.84-2.56V4.72a14.98 14.98 0 005.84 2.56M12 14.37A6 6 0 016.41 7.38m5.84 7.38A6 6 0 0012 14.37m0 0v4.82m0 0a6 6 0 005.84-7.38m-5.84 7.38l-3.36-2.24m3.36 2.24l3.36-2.24" />
                         </svg></div>
-                    <h4>Future-Ready Skills</h4>
+                    <h3>Future-Ready Skills</h3>
                     <p>We teach the most in-demand technologies to prepare you for a successful career.</p>
                 </div>
             </div>
@@ -351,7 +355,7 @@
                         <div class="course-card coding" data-course-url="kids-coding">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/kids-coding.png" alt="Scratch Programming Course">
+                                    <img src="/images/kids-coding.png" alt="Scratch Programming Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Scratch Programming</h3>
                                 <p class="card-description">Learn coding basics through fun, interactive games and
@@ -368,7 +372,7 @@
                         <div class="course-card coding" data-course-url="kids-web">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/html-css.png" alt="Web Design for Kids Course">
+                                    <img src="/images/html-css.png" alt="Web Design for Kids Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Web Design for Kids</h3>
                                 <p class="card-description">Create your own colorful websites with HTML and CSS. Build
@@ -385,7 +389,7 @@
                         <div class="course-card coding" data-course-url="kids-python">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/python.png" alt="Python for Young Coders Course">
+                                    <img src="/images/python.png" alt="Python for Young Coders Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Python for Young Coders</h3>
                                 <p class="card-description">Start your coding journey with Python! Learn to create
@@ -407,7 +411,7 @@
                     <div class="courses-grid">
                         <div class="course-card coding" data-course-url="fullstack">
                             <div class="card-thumbnail-container">
-                                <img src="images/full-stack.png" alt="Full-Stack Development Course Thumbnail">
+                                <img src="images/full-stack.png" alt="Full-Stack Development Course Thumbnail" loading="lazy">
                             </div>
                             <div class="card-content">
                                 <h3 class="card-title">Full-Stack Development</h3>
@@ -425,7 +429,7 @@
                         <div class="course-card coding" data-course-url="ai">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/ai-ml.png" alt="AI & Machine Learning Course">
+                                    <img src="/images/ai-ml.png" alt="AI & Machine Learning Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">AI & Machine Learning</h3>
                                 <p class="card-description">Dive into the world of artificial intelligence. Learn to
@@ -442,7 +446,7 @@
                         <div class="course-card coding" data-course-url="mobile-app">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/app-dev.png" alt="Mobile App Creation Course">
+                                    <img src="/images/app-dev.png" alt="Mobile App Creation Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Mobile App Creation</h3>
                                 <p class="card-description">Design and build beautiful, high-performance mobile
@@ -468,7 +472,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/data-structure-algorithms.png"
-                                        alt="Advanced Algorithms & Data Structures Course">
+                                        alt="Advanced Algorithms & Data Structures Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Advanced Algorithms & Data Structures</h3>
                                 <p class="card-description">Master complex algorithms and data structures essential for
@@ -485,7 +489,7 @@
                         <div class="course-card coding" data-course-url="cloud-computing">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/full-stack.png" alt="Cloud Computing & DevOps Course">
+                                    <img src="/images/full-stack.png" alt="Cloud Computing & DevOps Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Cloud Computing & DevOps</h3>
                                 <p class="card-description">Learn to build, deploy, and manage scalable applications on
@@ -502,7 +506,7 @@
                         <div class="course-card coding" data-course-url="software-engineering">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/java-dev.png" alt="Software Engineering Principles Course">
+                                    <img src="/images/java-dev.png" alt="Software Engineering Principles Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Software Engineering Principles</h3>
                                 <p class="card-description">Build production-ready applications with industry best
@@ -525,7 +529,7 @@
                         <div class="course-card coding" data-course-url="girls-in-tech">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/kids-coding.png" alt="Girls in Tech Leadership Course">
+                                    <img src="/images/kids-coding.png" alt="Girls in Tech Leadership Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Girls in Tech Leadership</h3>
                                 <p class="card-description">Build confidence and coding skills in a supportive
@@ -542,7 +546,7 @@
                         <div class="course-card coding" data-course-url="girls-app-design">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/app-dev.png" alt="Creative App Design Course">
+                                    <img src="/images/app-dev.png" alt="Creative App Design Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Creative App Design</h3>
                                 <p class="card-description">Design and build beautiful mobile apps that solve real-world
@@ -559,7 +563,7 @@
                         <div class="course-card coding" data-course-url="girls-ai">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/artificial-intelligence.png" alt="AI for Social Good Course">
+                                    <img src="/images/artificial-intelligence.png" alt="AI for Social Good Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">AI for Social Good</h3>
                                 <p class="card-description">Learn artificial intelligence and machine learning to create
@@ -599,7 +603,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/elementary-maths.png" alt="Elementary Mathematics Course">
+                                    <img src="/images/elementary-maths.png" alt="Elementary Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Elementary Mathematics</h3>
                                 <p class="card-description">Build strong foundations in numbers, operations, fractions,
@@ -618,7 +622,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.png"
-                                        alt="Olympiad & Competition Math Course">
+                                        alt="Olympiad & Competition Math Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Master advanced problem-solving techniques and prepare for
@@ -645,7 +649,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/middle-school-maths.png" alt="Middle School Mathematics Course">
+                                    <img src="/images/middle-school-maths.png" alt="Middle School Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Middle School Mathematics</h3>
                                 <p class="card-description">Master pre-algebra, ratios, proportions, geometry
@@ -664,7 +668,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.png"
-                                        alt="Olympiad & Competition Math Course">
+                                        alt="Olympiad & Competition Math Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Develop advanced mathematical reasoning and excel in AMC,
@@ -691,7 +695,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/high-school-maths.png" alt="High School Mathematics Course">
+                                    <img src="/images/high-school-maths.png" alt="High School Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">High School Mathematics</h3>
                                 <p class="card-description">Master algebra, geometry, trigonometry, pre-calculus, and
@@ -710,7 +714,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.png"
-                                        alt="Olympiad & Competition Math Course">
+                                        alt="Olympiad & Competition Math Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Train for AIME, USAMO, IMO, and other prestigious high
@@ -737,7 +741,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/college-level-maths.png" alt="College Mathematics Course">
+                                    <img src="/images/college-level-maths.png" alt="College Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">College Mathematics</h3>
                                 <p class="card-description">Master advanced calculus, linear algebra, differential
@@ -755,7 +759,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/applied-maths.png" alt="Applied Mathematics Course">
+                                    <img src="/images/applied-maths.png" alt="Applied Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Applied Mathematics</h3>
                                 <p class="card-description">Learn mathematical modeling, numerical methods,
@@ -783,7 +787,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/business-finance-maths.png"
-                                        alt="Business & Finance Mathematics Course">
+                                        alt="Business & Finance Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Business & Finance Mathematics</h3>
                                 <p class="card-description">Master quantitative finance, risk analysis, financial
@@ -801,7 +805,7 @@
                         <div class="course-card math">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/data-analytics-maths.png" alt="Data Analytics Mathematics Course">
+                                    <img src="/images/data-analytics-maths.png" alt="Data Analytics Mathematics Course" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Data Analytics Mathematics</h3>
                                 <p class="card-description">Learn statistics, probability, machine learning mathematics,
@@ -1230,7 +1234,7 @@
             <div class="faq-container">
                 <div class="faq-item" style="animation-delay: 1.2s;">
                     <div class="faq-question">
-                        <h4>What age groups are your courses for?</h4>
+                        <h3>What age groups are your courses for?</h3>
                         <div class="faq-toggle">+</div>
                     </div>
                     <div class="faq-answer">
@@ -1241,7 +1245,7 @@
                 </div>
                 <div class="faq-item" style="animation-delay: 1.3s;">
                     <div class="faq-question">
-                        <h4>Do I need any prior coding experience?</h4>
+                        <h3>Do I need any prior coding experience?</h3>
                         <div class="faq-toggle">+</div>
                     </div>
                     <div class="faq-answer">
@@ -1251,7 +1255,7 @@
                 </div>
                 <div class="faq-item" style="animation-delay: 1.4s;">
                     <div class="faq-question">
-                        <h4>How do online classes work?</h4>
+                        <h3>How do online classes work?</h3>
                         <div class="faq-toggle">+</div>
                     </div>
                     <div class="faq-answer">
@@ -1262,7 +1266,7 @@
                 </div>
                 <div class="faq-item" style="animation-delay: 1.5s;">
                     <div class="faq-question">
-                        <h4>What equipment does my child need?</h4>
+                        <h3>What equipment does my child need?</h3>
                         <div class="faq-toggle">+</div>
                     </div>
                     <div class="faq-answer">
@@ -1447,7 +1451,7 @@
                     </div>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-heading">Quick Links</h4>
+                    <h3 class="footer-heading">Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Testimonials</a></li>
@@ -1455,7 +1459,7 @@
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-heading">Programs</h4>
+                    <h3 class="footer-heading">Programs</h3>
                     <ul class="footer-links">
                         <li><a href="#">Coding Curriculum</a></li>
                         <li><a href="#">Mathematics Mastery</a></li>
@@ -1463,7 +1467,7 @@
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h4 class="footer-heading">Contact & Legal</h4>
+                    <h3 class="footer-heading">Contact & Legal</h3>
                     <ul class="footer-links">
                         <li><a href="mailto:hello@modernagecoders.com">hello@modernagecoders.com</a></li>
                         <li><a href="#">Privacy Policy</a></li>
@@ -2179,6 +2183,15 @@
 
     <!-- Load Certificate Carousel JavaScript -->
     <script src="/js/certificate-carousel.js"></script>
+    
+    <!-- Load Mobile Navigation JavaScript -->
+    <script src="/js/mobile-navigation.js"></script>
+    
+    <!-- Load Keyboard Navigation JavaScript -->
+    <script src="/js/keyboard-navigation.js"></script>
+    
+    <!-- Load Tab Accessibility JavaScript -->
+    <script src="/js/tab-accessibility.js"></script>
 </body>
 
 </html>

@@ -70,11 +70,16 @@
 
     <!-- Link to the single, updated stylesheet -->
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <!-- Added 'about-page' class for page-specific styling -->
 <body class="about-page">
+    <!-- Skip link for keyboard navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
     <canvas id="background-canvas"></canvas>
 
     <header>
@@ -129,7 +134,7 @@
     </header>
 
     <!-- The container div is replaced by main to keep the layout consistent with other pages -->
-    <main>
+    <main id="main">
         <div class="about-hero">
             <div class="hero-content">
                 <h1>About Modern Age Coders</h1>
@@ -138,6 +143,7 @@
         </div>
 
         <div class="content-section">
+            <h2 class="section-title">Our Story</h2>
             <div class="content-card">
                 <h3>Who We Are</h3>
                 <p>Modern Age Coders is an innovative education platform teaching coding and mathematics to students aged 12-21. We combine expert instruction with personalized attention, preparing students for real-world tech careers through practical, project-based learning.</p>
@@ -187,28 +193,28 @@
                 <div class="timeline-item">
                     <div class="timeline-marker">1</div>
                     <div class="timeline-content">
-                        <h4>Discovery Phase</h4>
+                        <h3>Discovery Phase</h3>
                         <p>Students learn programming fundamentals through interactive exercises. We cover logic, algorithms, and their first language with immediate feedback and practical examples.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker">2</div>
                     <div class="timeline-content">
-                        <h4>Building Phase</h4>
+                        <h3>Building Phase</h3>
                         <p>Students start creating real projects. Simple calculators become games, static pages turn into interactive websites. Each project reinforces concepts while building practical skills.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker">3</div>
                     <div class="timeline-content">
-                        <h4>Mastery Phase</h4>
+                        <h3>Mastery Phase</h3>
                         <p>Advanced topics like data structures, frameworks, and competitive programming. Students develop their own projects and explore specializations that interest them most.</p>
                     </div>
                 </div>
                 <div class="timeline-item">
                     <div class="timeline-marker">4</div>
                     <div class="timeline-content">
-                        <h4>Launch Phase</h4>
+                        <h3>Launch Phase</h3>
                         <p>Students graduate with a portfolio of projects, strong computer science fundamentals, and confidence to pursue tech careers or continue learning independently.</p>
                     </div>
                 </div>
@@ -219,7 +225,7 @@
             <h2 class="section-title">What Students Learn</h2>
             <div class="curriculum-grid">
                 <div class="curriculum-card">
-                    <h4>Programming Languages</h4>
+                    <h3>Programming Languages</h3>
                     <ul class="curriculum-list">
                         <li>Python for beginners and data science</li>
                         <li>JavaScript for web development</li>
@@ -230,7 +236,7 @@
                 </div>
 
                 <div class="curriculum-card">
-                    <h4>Mathematics</h4>
+                    <h3>Mathematics</h3>
                     <ul class="curriculum-list">
                         <li>Algebra and Number Theory</li>
                         <li>Geometry and Trigonometry</li>
@@ -241,7 +247,7 @@
                 </div>
 
                 <div class="curriculum-card">
-                    <h4>Computer Science</h4>
+                    <h3>Computer Science</h3>
                     <ul class="curriculum-list">
                         <li>Data Structures and Algorithms</li>
                         <li>Object-Oriented Programming</li>
@@ -252,7 +258,7 @@
                 </div>
 
                 <div class="curriculum-card">
-                    <h4>Practical Skills</h4>
+                    <h3>Practical Skills</h3>
                     <ul class="curriculum-list">
                         <li>Building games, websites, and apps</li>
                         <li>Problem-solving and logical thinking</li>
@@ -272,7 +278,7 @@
                     <div class="testimonial-author">
                         <div class="author-avatar">P</div>
                         <div class="author-info">
-                            <h5>Priya Sharma</h5>
+                            <h3>Priya Sharma</h3>
                             <p>Parent of 14-year-old</p>
                         </div>
                     </div>
@@ -283,7 +289,7 @@
                     <div class="testimonial-author">
                         <div class="author-avatar">R</div>
                         <div class="author-info">
-                            <h5>Rahul Mehta</h5>
+                            <h3>Rahul Mehta</h3>
                             <p>College Student, Age 20</p>
                         </div>
                     </div>
@@ -294,7 +300,7 @@
                     <div class="testimonial-author">
                         <div class="author-avatar">A</div>
                         <div class="author-info">
-                            <h5>Amit Patel</h5>
+                            <h3>Amit Patel</h3>
                             <p>Parent of 16-year-old</p>
                         </div>
                     </div>
@@ -306,19 +312,19 @@
             <h2 class="section-title">What Drives Us</h2>
             <div class="values-grid">
                 <div class="value-card">
-                    <h4>Creative Learning</h4>
+                    <h3>Creative Learning</h3>
                     <p>We encourage creative thinking and innovative problem-solving. Students learn to approach challenges with imagination and develop unique solutions.</p>
                 </div>
                 <div class="value-card">
-                    <h4>Project-Based Education</h4>
+                    <h3>Project-Based Education</h3>
                     <p>Every concept is taught through real-world applications. Students build tangible projects they can showcase and be proud of.</p>
                 </div>
                 <div class="value-card">
-                    <h4>Community First</h4>
+                    <h3>Community First</h3>
                     <p>Through group activities and collaborative learning, we build a supportive community where students grow together and learn teamwork.</p>
                 </div>
                 <div class="value-card">
-                    <h4>Future Ready</h4>
+                    <h3>Future Ready</h3>
                     <p>We equip students with strong logic and problem-solving skills that prepare them for college, careers, and the evolving tech landscape.</p>
                 </div>
             </div>
@@ -545,6 +551,15 @@
     
     <!-- Load Navigation JavaScript -->
     <script src="/js/navigation.js"></script>
+    
+    <!-- Load Mobile Navigation JavaScript -->
+    <script src="/js/mobile-navigation.js"></script>
+    
+    <!-- Load Keyboard Navigation JavaScript -->
+    <script src="/js/keyboard-navigation.js"></script>
+    
+    <!-- Load Tab Accessibility JavaScript -->
+    <script src="/js/tab-accessibility.js"></script>
     
     <script src="scripts/lazy-loading.min.js"></script>
 </body>
