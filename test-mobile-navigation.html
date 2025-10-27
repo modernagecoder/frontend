@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation Test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        
+        .test-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .test-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #a855f7;
+        }
+        
+        .test-section h2 {
+            color: #a855f7;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .test-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        
+        .status.pass {
+            background: #10b981;
+            color: white;
+        }
+        
+        .status.fail {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .status.pending {
+            background: #f59e0b;
+            color: white;
+        }
+        
+        .test-links {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        
+        .test-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .test-link:hover {
+            transform: translateY(-2px);
+        }
+        
+        .instructions {
+            background: #e0e7ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+        
+        .instructions h3 {
+            color: #4338ca;
+            margin-bottom: 10px;
+        }
+        
+        .instructions ol {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin: 5px 0;
+            color: #1e1b4b;
+        }
+        
+        .viewport-indicator {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            z-index: 10000;
+        }
+        
+        @media (max-width: 767px) {
+            .mobile-only {
+                display: block !important;
+            }
+            .desktop-only {
+                display: none !important;
+            }
+        }
+        
+        @media (min-width: 768px) {
+            .mobile-only {
+                display: none !important;
+            }
+            .desktop-only {
+                display: block !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="viewport-indicator" id="viewportIndicator">
+        Width: <span id="widthDisplay">0</span>px
+    </div>
+    
+    <div class="test-container">
+        <h1>🧪 Mobile Navigation & Login Test Page</h1>
+        
+        <div class="test-section">
+            <h2>📱 Current Viewport Status</h2>
+            <div class="test-item">
+                <strong>Screen Width:</strong> <span id="screenWidth">0</span>px
+            </div>
+            <div class="test-item mobile-only">
+                <strong>Device Type:</strong> <span class="status pass">MOBILE</span>
+                <p style="margin-top: 10px; color: #666;">
+                    ✅ Courses dropdown should be HIDDEN in navigation<br>
+                    ✅ Login should be a direct link (not dropdown)
+                </p>
+            </div>
+            <div class="test-item desktop-only">
+                <strong>Device Type:</strong> <span class="status pass">DESKTOP/TABLET</span>
+                <p style="margin-top: 10px; color: #666;">
+                    ✅ Courses dropdown should be VISIBLE in navigation<br>
+                    ✅ Login should be a direct link
+                </p>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>🔗 Test Links</h2>
+            <div class="test-links">
+                <a href="src/pages/index.html" class="test-link" target="_blank">
+                    🏠 Open Home Page
+                </a>
+                <a href="src/pages/login.html" class="test-link" target="_blank">
+                    🔐 Open Login Page
+                </a>
+                <a href="src/pages/course.html" class="test-link" target="_blank">
+                    📚 Open Courses Page
+                </a>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>✅ Mobile Navigation Tests (< 768px)</h2>
+            
+            <div class="instructions">
+                <h3>How to Test:</h3>
+                <ol>
+                    <li>Resize your browser window to less than 768px wide</li>
+                    <li>Or use Chrome DevTools (F12) and toggle device toolbar</li>
+                    <li>Open the home page using the link above</li>
+                    <li>Click the hamburger menu (☰)</li>
+                    <li>Verify the following:</li>
+                </ol>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="test1">
+                <label for="test1">
+                    <strong>Test 1:</strong> Courses dropdown is NOT visible in mobile menu
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="test2">
+                <label for="test2">
+                    <strong>Test 2:</strong> "Login" appears as a simple link (not dropdown)
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="test3">
+                <label for="test3">
+                    <strong>Test 3:</strong> Clicking "Login" navigates to login page
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="test4">
+                <label for="test4">
+                    <strong>Test 4:</strong> "Start Learning" button is visible
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="test5">
+                <label for="test5">
+                    <strong>Test 5:</strong> Menu closes when clicking a link
+                </label>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>✅ Login Page Tests</h2>
+            
+            <div class="instructions">
+                <h3>How to Test:</h3>
+                <ol>
+                    <li>Click "Open Login Page" button above</li>
+                    <li>Verify the following features work:</li>
+                </ol>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login1">
+                <label for="login1">
+                    <strong>Test 1:</strong> Page loads without errors
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login2">
+                <label for="login2">
+                    <strong>Test 2:</strong> Both "Student" and "Teacher" tabs are visible
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login3">
+                <label for="login3">
+                    <strong>Test 3:</strong> Clicking tabs switches between forms
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login4">
+                <label for="login4">
+                    <strong>Test 4:</strong> Password toggle (eye icon) works
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login5">
+                <label for="login5">
+                    <strong>Test 5:</strong> Form validation shows errors for empty fields
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login6">
+                <label for="login6">
+                    <strong>Test 6:</strong> "Back to Home" link works
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="login7">
+                <label for="login7">
+                    <strong>Test 7:</strong> Page is responsive on mobile
+                </label>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>✅ Desktop/Tablet Tests (≥ 768px)</h2>
+            
+            <div class="instructions">
+                <h3>How to Test:</h3>
+                <ol>
+                    <li>Resize your browser window to 768px or wider</li>
+                    <li>Open the home page</li>
+                    <li>Verify the following:</li>
+                </ol>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="desktop1">
+                <label for="desktop1">
+                    <strong>Test 1:</strong> Courses dropdown IS visible in navigation
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="desktop2">
+                <label for="desktop2">
+                    <strong>Test 2:</strong> Hovering over "Courses" shows dropdown
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="desktop3">
+                <label for="desktop3">
+                    <strong>Test 3:</strong> All course options are clickable
+                </label>
+            </div>
+            
+            <div class="test-item">
+                <input type="checkbox" id="desktop4">
+                <label for="desktop4">
+                    <strong>Test 4:</strong> "Login" link works correctly
+                </label>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>📊 Test Summary</h2>
+            <div class="test-item">
+                <button onclick="calculateResults()" style="padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 5px; cursor: pointer; font-weight: 600;">
+                    Calculate Test Results
+                </button>
+                <div id="results" style="margin-top: 15px; font-size: 1.1rem;"></div>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>📚 Documentation</h2>
+            <div class="test-item">
+                <p><strong>For detailed information, see:</strong></p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li><code>QUICK-START-GUIDE.md</code> - Quick reference</li>
+                    <li><code>LOGIN-AND-MOBILE-NAVIGATION-UPDATE.md</code> - Detailed changes</li>
+                    <li><code>MOBILE-NAVIGATION-VISUAL-GUIDE.md</code> - Visual guide</li>
+                    <li><code>TESTING-CHECKLIST.md</code> - Complete testing checklist</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Update viewport indicator
+        function updateViewport() {
+            const width = window.innerWidth;
+            document.getElementById('widthDisplay').textContent = width;
+            document.getElementById('screenWidth').textContent = width;
+        }
+        
+        updateViewport();
+        window.addEventListener('resize', updateViewport);
+        
+        // Calculate test results
+        function calculateResults() {
+            const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+            const total = checkboxes.length;
+            const checked = Array.from(checkboxes).filter(cb => cb.checked).length;
+            const percentage = Math.round((checked / total) * 100);
+            
+            const resultsDiv = document.getElementById('results');
+            
+            let status = '';
+            let color = '';
+            
+            if (percentage === 100) {
+                status = '✅ All tests passed!';
+                color = '#10b981';
+            } else if (percentage >= 80) {
+                status = '⚠️ Most tests passed';
+                color = '#f59e0b';
+            } else {
+                status = '❌ Some tests failed';
+                color = '#ef4444';
+            }
+            
+            resultsDiv.innerHTML = `
+                <div style="padding: 15px; background: white; border-radius: 8px; border-left: 4px solid ${color};">
+                    <strong style="color: ${color}; font-size: 1.2rem;">${status}</strong><br>
+                    <span style="color: #666; margin-top: 5px; display: block;">
+                        ${checked} out of ${total} tests completed (${percentage}%)
+                    </span>
+                </div>
+            `;
+        }
+        
+        // Save checkbox states
+        document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                localStorage.setItem(this.id, this.checked);
+            });
+            
+            // Restore state
+            const saved = localStorage.getItem(checkbox.id);
+            if (saved === 'true') {
+                checkbox.checked = true;
+            }
+        });
+    </script>
+</body>
+</html>

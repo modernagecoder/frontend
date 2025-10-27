@@ -124,6 +124,11 @@
             
             // Handle mobile dropdown clicks
             dropdownLink.addEventListener('click', function(e) {
+                // Don't prevent default if it's a regular link (like login.html)
+                if (this.getAttribute('href') && this.getAttribute('href') !== '#') {
+                    return; // Allow normal navigation
+                }
+                
                 if (window.innerWidth <= 900) {
                     e.preventDefault();
                     e.stopPropagation();

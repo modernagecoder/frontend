@@ -346,16 +346,27 @@ function clearAuthData() {
  * @param {object} user - User data object
  */
 function updateUIForLoggedInUser(user) {
-    // Find the login dropdown in navigation
-    const loginDropdown = document.querySelector('.nav-item.dropdown .nav-link.login-btn');
-    const dropdownContent = loginDropdown?.nextElementSibling;
+    // Find the login link in navigation
+    const loginNavItem = document.querySelector('.nav-item:has(.login-btn)');
+    const loginLink = document.querySelector('.nav-link.login-btn');
     
-    if (loginDropdown && dropdownContent) {
-        // Change "Login" to user's name
-        const displayName = user.firstName || user.username;
-        loginDropdown.innerHTML = `Welcome, ${displayName}`;
+    if (loginNavItem && loginLink) {
+        // Convert to dropdown with user menu
+        loginNavItem.classList.add('dropdown');
         
-        // Update dropdown content
+        const displayName = user.firstName || user.username;
+        loginLink.innerHTML = `Welcome, ${displayName}
+            <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd"
+                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+            </svg>`;
+        loginLink.href = '#';
+        
+        // Create dropdown content
+        const dropdownContent = document.createElement('div');
+        dropdownContent.className = 'dropdown-content';
         dropdownContent.innerHTML = `
             <a href="#" class="dropdown-item" onclick="navigateToDashboard('${user.role}'); return false;">
                 <svg style="width: 16px; height: 16px; margin-right: 8px; display: inline-block; vertical-align: middle;" 
@@ -374,28 +385,34 @@ function updateUIForLoggedInUser(user) {
                 Logout
             </a>
         `;
+        
+        loginNavItem.appendChild(dropdownContent);
     }
 }
 
 /**
  * UPDATE UI FOR LOGGED-OUT USER
  * 
- * Resets navigation to show login options
+ * Resets navigation to show login link
  */
 function updateUIForLoggedOutUser() {
-    // Find the login dropdown in navigation
-    const loginDropdown = document.querySelector('.nav-item.dropdown .nav-link.login-btn');
-    const dropdownContent = loginDropdown?.nextElementSibling;
+    // Find the login nav item
+    const loginNavItem = document.querySelector('.nav-item:has(.login-btn)');
+    const loginLink = document.querySelector('.nav-link.login-btn');
     
-    if (loginDropdown && dropdownContent) {
-        // Reset to "Login"
-        loginDropdown.textContent = 'Login';
+    if (loginNavItem && loginLink) {
+        // Remove dropdown class
+        loginNavItem.classList.remove('dropdown');
         
-        // Reset dropdown content
-        dropdownContent.innerHTML = `
-            <a href="#" class="dropdown-item" onclick="openLoginModal('student'); return false;">Student Login</a>
-            <a href="#" class="dropdown-item" onclick="openLoginModal('teacher'); return false;">Teacher Login</a>
-        `;
+        // Reset to simple login link
+        loginLink.textContent = 'Login';
+        loginLink.href = 'login.html';
+        
+        // Remove dropdown content if exists
+        const dropdownContent = loginNavItem.querySelector('.dropdown-content');
+        if (dropdownContent) {
+            dropdownContent.remove();
+        }
     }
 }
 
