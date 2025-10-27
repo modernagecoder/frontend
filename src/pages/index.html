@@ -108,6 +108,7 @@
 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/testimonials-carousel.css">
+    <link rel="stylesheet" href="/css/certificate-carousel.css">
 
 </head>
 
@@ -996,7 +997,25 @@
         <section class="section" style="animation-delay: 0.7s;">
             <div class="feature-card">
                 <div class="certificate-visual feature-visual">
-                    <img src="public/images/somraj-certificate.png" alt="Modern Age Coders Certificate of Completion">
+                    <button class="certificate-arrow certificate-arrow-left" aria-label="Previous certificate">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="certificate-carousel">
+                        <div class="certificate-track">
+                            <img src="public/images/somraj-certificate.png" alt="Modern Age Coders Certificate of Completion" class="certificate-image">
+                            <img src="public/images/paarth-certificate.png" alt="Modern Age Coders Certificate of Completion" class="certificate-image">
+                            <img src="public/images/vanshika-certificate.png" alt="Modern Age Coders Certificate of Completion" class="certificate-image">
+                            <img src="public/images/pratham-certificate.png" alt="Modern Age Coders Certificate of Completion" class="certificate-image">
+                       
+                        </div>
+                    </div>
+                    <button class="certificate-arrow certificate-arrow-right" aria-label="Next certificate">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
                 </div>
                 <div class="feature-text">
                     <h3>Our Certificates are earned,never given</h3>
@@ -1123,7 +1142,7 @@
                          <div class="testimonial-card">
                             <div class="testimonial-content">
                                 <div class="parent-avatar"><img
-                                        src="https://lh3.googleusercontent.com/a-/ALV-UjXY7JB9OrMVWd-PSk1NIwmd-ibF7Zsrj71eUsOJdt7Cu3pRv2lv=s45-c-rp-mo-br100"
+                                        src="https://lh3.googleusercontent.com/a-/ALV-UjXY7JB9OrMVWd-PSk1NIwmd-ibF7Zsrj71eUsOJdt7Cu3pRv2lv=w90-h90-p-rp-mo-br100"
                                         alt="Parent avatar"></div>
                                 <blockquote>Modern Age Coders has been a game-changer for me! I struggled to grasp IT concepts and coding before joining, but their classes transformed everything. I'm now the topper in my class and can confidently write complex programs with ease. The teaching is top-notch, and the support is exceptional. I highly recommend Modern Age Coders to anyone looking to boost their coding skills and excel in IT!</blockquote>
                                 <div class="testimonial-info">
@@ -2157,6 +2176,9 @@
 
     <!-- Load Testimonials Carousel JavaScript -->
     <script src="/js/testimonials-carousel.js"></script>
+
+    <!-- Load Certificate Carousel JavaScript -->
+    <script src="/js/certificate-carousel.js"></script>
 </body>
 
 </html>

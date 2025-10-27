@@ -1,0 +1,102 @@
+/* Certificate Carousel Styles */
+.certificate-visual {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.certificate-carousel {
+    flex: 1;
+    overflow: hidden;
+    border-radius: 12px;
+    max-width: 100%;
+}
+
+.certificate-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    will-change: transform;
+}
+
+.certificate-image {
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.certificate-arrow {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    min-width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    flex-shrink: 0;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+}
+
+.certificate-arrow:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: scale(1.1);
+}
+
+.certificate-arrow:active {
+    transform: scale(0.95);
+}
+
+.certificate-arrow svg {
+    width: 18px;
+    height: 18px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.certificate-arrow:hover svg {
+    color: #fff;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .certificate-visual {
+        gap: 8px;
+    }
+    
+    .certificate-arrow {
+        width: 32px;
+        height: 32px;
+        min-width: 32px;
+    }
+    
+    .certificate-arrow svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .certificate-visual {
+        gap: 6px;
+    }
+    
+    .certificate-arrow {
+        width: 28px;
+        height: 28px;
+        min-width: 28px;
+    }
+    
+    .certificate-arrow svg {
+        width: 14px;
+        height: 14px;
+    }
+}
