@@ -1,0 +1,25 @@
+# Favicon redirects (high priority)
+/favicon/* /public/favicon/:splat 200
+/favicon.ico /public/favicon/favicon.ico 200
+
+# Static asset redirects
+/css/* /src/css/:splat 200
+/js/* /src/js/:splat 200
+/images/* /public/images/:splat 200
+/admin/* /src/admin/:splat 200
+
+# Page redirects
+/index.html / 301!
+/about.html /about 301!
+/course.html /courses 301!
+
+# Clean URL rewrites
+/ /src/pages/index.html 200
+/about /src/pages/about.html 200
+/courses /src/pages/course.html 200
+/blog /content/blog/generated/index.html 200
+/courses/* /content/courses/generated/:splat/index.html 200
+/blog/* /content/blog/generated/:splat/index.html 200
+
+# 404 fallback
+/* /src/pages/404.html 404
