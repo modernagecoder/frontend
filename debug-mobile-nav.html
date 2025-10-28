@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation Debug</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .debug-info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mobile Navigation Debug</h1>
+    
+    <div class="debug-info">
+        <h2>Navigation Structure Test</h2>
+        <p>This page tests the mobile navigation functionality.</p>
+    </div>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="course.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">For Kids</a>
+                                <a href="#" class="dropdown-item">For Teens</a>
+                                <a href="#" class="dropdown-item">For College</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px;">
+        <div class="debug-info">
+            <h2>Debug Information</h2>
+            <p>Mobile Menu Button: <span id="btnStatus">Not found</span></p>
+            <p>Navigation Menu: <span id="menuStatus">Not found</span></p>
+            <p>Screen Width: <span id="screenWidth">-</span></p>
+            <p>Button Click Count: <span id="clickCount">0</span></p>
+        </div>
+        
+        <button onclick="testMobileMenu()" style="padding: 10px 20px; background: #a855f7; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Test Mobile Menu Toggle
+        </button>
+    </main>
+
+    <script>
+        let clickCount = 0;
+        
+        function updateDebugInfo() {
+            const btn = document.getElementById('mobileMenuBtn');
+            const menu = document.getElementById('navMenu');
+            
+            document.getElementById('btnStatus').textContent = btn ? 'Found' : 'Not found';
+            document.getElementById('menuStatus').textContent = menu ? 'Found' : 'Not found';
+            document.getElementById('screenWidth').textContent = window.innerWidth + 'px';
+            
+            if (btn) {
+                console.log('Mobile button classes:', btn.className);
+            }
+            if (menu) {
+                console.log('Menu classes:', menu.className);
+            }
+        }
+        
+        function testMobileMenu() {
+            clickCount++;
+            document.getElementById('clickCount').textContent = clickCount;
+            
+            const btn = document.getElementById('mobileMenuBtn');
+            const menu = document.getElementById('navMenu');
+            
+            if (btn && menu) {
+                console.log('Manual toggle - Before:', {
+                    btnClasses: btn.className,
+                    menuClasses: menu.className
+                });
+                
+                btn.classList.toggle('active');
+                menu.classList.toggle('active');
+                
+                console.log('Manual toggle - After:', {
+                    btnClasses: btn.className,
+                    menuClasses: menu.className
+                });
+            }
+        }
+        
+        // Update debug info on load and resize
+        window.addEventListener('load', updateDebugInfo);
+        window.addEventListener('resize', updateDebugInfo);
+        
+        // Monitor button clicks
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('#mobileMenuBtn')) {
+                console.log('Mobile menu button clicked!');
+                setTimeout(updateDebugInfo, 100);
+            }
+        });
+        
+        console.log('Debug page loaded');
+    </script>
+
+    <!-- Load the navigation scripts -->
+    <script src="src/js/navigation.js"></script>
+    <script src="src/js/mobile-navigation.js"></script>
+</body>
+</html>

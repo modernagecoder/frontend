@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacing and Mobile Tabs Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/spacing-and-tabs-fix.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .test-info {
+            background: rgba(168, 85, 247, 0.1);
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        
+        .demo-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 1rem;
+            margin: 0.75rem auto;
+            max-width: 1200px;
+        }
+        
+        .course-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        @media (max-width: 768px) {
+            .courses-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test-info">
+        <h1>Spacing and Mobile Tabs Test</h1>
+        <p><strong>Test Instructions:</strong></p>
+        <ul>
+            <li><strong>Desktop:</strong> Tabs should appear horizontally with hover effects</li>
+            <li><strong>Mobile (≤768px):</strong> Tabs should stack vertically with age ranges shown</li>
+            <li><strong>Spacing:</strong> Sections should have reduced gaps between them</li>
+            <li><strong>Touch:</strong> Tabs should have proper touch feedback on mobile</li>
+        </ul>
+        <p><strong>Current Screen Width:</strong> <span id="screenWidth">-</span></p>
+    </div>
+
+    <main>
+        <!-- Test Section 1 -->
+        <section class="section demo-section">
+            <h2 class="section-title">Coding Curriculum</h2>
+            <p class="section-subtitle">Choose the right coding path for your child's age and skill level</p>
+
+            <div class="tabs-wrapper" id="coding-tabs">
+                <div class="tabs-container">
+                    <button class="tab-button active" data-target="#coding-kids">Kids</button>
+                    <button class="tab-button" data-target="#coding-teens">Teens</button>
+                    <button class="tab-button" data-target="#coding-college">College</button>
+                    <button class="tab-button" data-target="#coding-girls">Special for Girls</button>
+                </div>
+
+                <div class="tab-content active" id="coding-kids">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Scratch Programming</h3>
+                            <p>Learn coding basics through fun, interactive games and animations. Perfect for young beginners!</p>
+                            <ul>
+                                <li>Block-Based Coding</li>
+                                <li>Game Design</li>
+                                <li>Creative Thinking</li>
+                            </ul>
+                        </div>
+                        <div class="course-card">
+                            <h3>Web Design for Kids</h3>
+                            <p>Create colorful websites with HTML and CSS. Build fun projects and share them with friends!</p>
+                            <ul>
+                                <li>HTML Basics</li>
+                                <li>CSS Styling</li>
+                                <li>Web Projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="coding-teens">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Full-Stack Development</h3>
+                            <p>Master both front-end and back-end technologies to build complete web applications.</p>
+                            <ul>
+                                <li>React & Node.js</li>
+                                <li>Database Management</li>
+                                <li>API Development</li>
+                            </ul>
+                        </div>
+                        <div class="course-card">
+                            <h3>Mobile App Creation</h3>
+                            <p>Design and build beautiful mobile applications for iOS and Android.</p>
+                            <ul>
+                                <li>React Native</li>
+                                <li>UI/UX Design</li>
+                                <li>Cross-Platform</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="coding-college">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Advanced Algorithms</h3>
+                            <p>Master complex algorithms and data structures for technical interviews.</p>
+                            <ul>
+                                <li>Algorithm Design</li>
+                                <li>Optimization</li>
+                                <li>Problem Solving</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="coding-girls">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Girls in Tech Program</h3>
+                            <p>Empowering girls to excel in technology with supportive learning environment.</p>
+                            <ul>
+                                <li>Confidence Building</li>
+                                <li>Mentorship</li>
+                                <li>Real Projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test Section 2 -->
+        <section class="section demo-section">
+            <h2 class="section-title">Mathematics Mastery</h2>
+            <p class="section-subtitle">Build strong mathematical foundations at every grade level</p>
+
+            <div class="tabs-wrapper" id="math-tabs">
+                <div class="tabs-container">
+                    <button class="tab-button active" data-target="#math-elementary">Elementary</button>
+                    <button class="tab-button" data-target="#math-middle">Middle School</button>
+                    <button class="tab-button" data-target="#math-high">High School</button>
+                    <button class="tab-button" data-target="#math-college">College</button>
+                </div>
+
+                <div class="tab-content active" id="math-elementary">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Elementary Mathematics</h3>
+                            <p>Build strong foundations in numbers, operations, and problem-solving for grades 1-5.</p>
+                            <ul>
+                                <li>Number Sense</li>
+                                <li>Basic Operations</li>
+                                <li>Geometry Basics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="math-middle">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>Middle School Mathematics</h3>
+                            <p>Master pre-algebra, ratios, and geometry fundamentals for grades 6-8.</p>
+                            <ul>
+                                <li>Pre-Algebra</li>
+                                <li>Ratios & Proportions</li>
+                                <li>Statistical Thinking</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="math-high">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>High School Mathematics</h3>
+                            <p>Master algebra, geometry, trigonometry, and calculus for grades 9-12.</p>
+                            <ul>
+                                <li>Algebra & Geometry</li>
+                                <li>Trigonometry</li>
+                                <li>Pre-Calculus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="math-college">
+                    <div class="courses-grid">
+                        <div class="course-card">
+                            <h3>College Mathematics</h3>
+                            <p>Advanced mathematics for university-level studies and beyond.</p>
+                            <ul>
+                                <li>Calculus</li>
+                                <li>Linear Algebra</li>
+                                <li>Statistics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Test Section 3 -->
+        <section class="section demo-section">
+            <h2 class="section-title">About Our Approach</h2>
+            <p class="section-subtitle">This section demonstrates the reduced spacing between sections</p>
+            <p>Notice how the sections are closer together now, creating a more compact and readable layout while still maintaining proper visual separation.</p>
+        </section>
+    </main>
+
+    <script>
+        function updateScreenWidth() {
+            document.getElementById('screenWidth').textContent = window.innerWidth + 'px';
+        }
+        
+        updateScreenWidth();
+        window.addEventListener('resize', updateScreenWidth);
+        
+        // Log tab interactions for debugging
+        document.addEventListener('click', function(e) {
+            if (e.target.classList.contains('tab-button')) {
+                console.log('Tab clicked:', e.target.textContent, 'Target:', e.target.getAttribute('data-target'));
+            }
+        });
+    </script>
+    
+    <script src="src/js/mobile-tabs-enhanced.js"></script>
+</body>
+</html>

@@ -1,0 +1,448 @@
+/**
+ * Spacing and Mobile Tabs Fix
+ * Reduces section gaps and improves mobile tab experience
+ */
+
+/* ========================================
+   REDUCED SECTION SPACING
+   ======================================== */
+
+/* Significantly reduce the gaps between sections */
+:root {
+    --section-gap: clamp(1rem, 2vw, 1.5rem); /* Much smaller gaps */
+}
+
+.section {
+    margin: var(--section-gap) auto;
+    padding: var(--spacing-lg) var(--spacing-md); /* Reduced padding further */
+}
+
+/* Specific spacing adjustments for mobile */
+@media (max-width: 768px) {
+    .section {
+        margin: 0.75rem auto; /* Very small gaps on mobile */
+        padding: 1rem 1rem;
+    }
+    
+    .section-title {
+        margin-bottom: 0.75rem; /* Tighter spacing */
+    }
+    
+    .section-subtitle {
+        margin-bottom: 1rem; /* Reduced spacing */
+    }
+}
+
+/* Desktop spacing - still compact but readable */
+@media (min-width: 769px) {
+    .section {
+        margin: 1.5rem auto; /* Small gaps on desktop */
+        padding: 1.5rem 2rem;
+    }
+}
+
+/* ========================================
+   IMPROVED MOBILE TABS UI
+   ======================================== */
+
+/* Enhanced tabs wrapper for better mobile experience */
+.tabs-wrapper {
+    margin-bottom: 2rem; /* Reduced from 4rem */
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tabs-container {
+    display: flex;
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 4px;
+    gap: 4px;
+}
+
+/* Mobile-first tab button styling */
+.tab-button {
+    flex: 1;
+    padding: 0.75rem 0.5rem;
+    background: transparent;
+    border: none;
+    color: #cbd5e1;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 44px; /* Touch target */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-button.active {
+    background: linear-gradient(135deg, #a855f7, #4ecdc4);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(168, 85, 247, 0.3);
+}
+
+.tab-button:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+/* Mobile-specific tab improvements */
+@media (max-width: 768px) {
+    .tabs-wrapper {
+        margin-bottom: 1.5rem;
+        padding: 0.75rem;
+    }
+    
+    .tabs-container {
+        flex-direction: column; /* Stack tabs vertically on mobile */
+        gap: 8px;
+        padding: 8px;
+    }
+    
+    .tab-button {
+        flex: none;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        text-align: left;
+        justify-content: flex-start;
+        position: relative;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .tab-button.active {
+        background: linear-gradient(135deg, #a855f7, #4ecdc4);
+        border-color: rgba(168, 85, 247, 0.5);
+        transform: translateX(4px);
+    }
+    
+    /* Add icons for better visual hierarchy on mobile */
+    .tab-button::before {
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: currentColor;
+        margin-right: 12px;
+        opacity: 0.6;
+        transition: all 0.3s ease;
+    }
+    
+    .tab-button.active::before {
+        opacity: 1;
+        background: white;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
+    
+    /* Remove the tab glider on mobile since we're using vertical layout */
+    .tab-glider {
+        display: none;
+    }
+}
+
+/* Very small screens - make tabs even more touch-friendly */
+@media (max-width: 480px) {
+    .tab-button {
+        padding: 1.25rem 1rem;
+        font-size: 1.1rem;
+        min-height: 56px; /* Larger touch target */
+    }
+    
+    .tabs-wrapper {
+        margin: 0 -0.5rem 1.5rem -0.5rem; /* Extend to screen edges */
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+}
+
+/* Desktop improvements */
+@media (min-width: 769px) {
+    .tabs-container {
+        justify-content: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .tab-button {
+        min-width: 160px;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* ========================================
+   ENHANCED SECTION TITLES FOR MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+    .section-title {
+        font-size: clamp(1.75rem, 6vw, 2.25rem); /* Slightly smaller on mobile */
+        line-height: 1.2;
+        margin-bottom: 0.75rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+        opacity: 0.9;
+    }
+}
+
+/* ========================================
+   IMPROVED COURSE CARDS SPACING
+   ======================================== */
+
+.courses-grid {
+    gap: 1.5rem; /* Reduced from larger gaps */
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .courses-grid {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+/* ========================================
+   BETTER VISUAL HIERARCHY FOR PARENTS
+   ======================================== */
+
+/* Add subtle section separators with minimal spacing */
+.section:not(:last-child)::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.2), transparent);
+    margin: 0.5rem auto 0;
+}
+
+@media (max-width: 768px) {
+    .section:not(:last-child)::after {
+        margin: 0.25rem auto 0;
+        width: 40px;
+    }
+}
+
+/* Enhanced tab content area */
+.tab-content {
+    padding-top: 1rem; /* Minimal padding */
+}
+
+@media (max-width: 768px) {
+    .tab-content {
+        padding-top: 0.75rem;
+    }
+}
+
+/* Override any existing large margins on main sections */
+main .section,
+#main .section {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+@media (max-width: 768px) {
+    main .section,
+    #main .section {
+        margin-top: 0.5rem !important;
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+/* Specific overrides for hero and other sections */
+.hero-section {
+    margin-bottom: 1rem !important;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+/* ========================================
+   ACCESSIBILITY IMPROVEMENTS FOR MOBILE TABS
+   ======================================== */
+
+.tab-button:focus {
+    outline: 2px solid #a855f7;
+    outline-offset: 2px;
+}
+
+.tab-button:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Add subtle animation for tab switching */
+.tab-content {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+.tab-content.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ========================================
+   PARENT-FRIENDLY LABELS FOR MOBILE
+   ======================================== */
+
+@media (max-width: 768px) {
+    /* Add descriptive text to tabs for better parent understanding */
+    .tab-button[data-target="#coding-kids"]::after {
+        content: ' • Ages 8-12';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#coding-teens"]::after {
+        content: ' • Ages 13-18';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#coding-college"]::after {
+        content: ' • Ages 18-21';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#coding-girls"]::after {
+        content: ' • All Ages';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    /* Math tabs */
+    .tab-button[data-target="#math-elementary"]::after {
+        content: ' • Grade 1-5';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#math-middle"]::after {
+        content: ' • Grade 6-8';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#math-high"]::after {
+        content: ' • Grade 9-12';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+    
+    .tab-button[data-target="#math-college"]::after {
+        content: ' • College Level';
+        font-size: 0.8rem;
+        opacity: 0.7;
+        display: block;
+        margin-top: 2px;
+    }
+}
+/* =====
+===================================
+   AGGRESSIVE SPACING REDUCTION
+   ======================================== */
+
+/* Override the main CSS variables for spacing */
+:root {
+    --spacing-xl: 1rem !important; /* Reduced from 2rem */
+    --spacing-2xl: 1.5rem !important; /* Reduced from 3rem */
+    --spacing-3xl: 2rem !important; /* Reduced from 4rem */
+}
+
+/* Force minimal spacing on all sections */
+body .section {
+    margin: 0.75rem auto !important;
+    padding: 1rem !important;
+}
+
+@media (max-width: 768px) {
+    body .section {
+        margin: 0.5rem auto !important;
+        padding: 0.75rem 1rem !important;
+    }
+}
+
+/* Remove excessive padding from section containers */
+.section .features-grid,
+.section .courses-grid,
+.section .demographic-cards {
+    margin-top: 1rem !important;
+    margin-bottom: 0 !important;
+}
+
+/* Tighten up the inclusivity section cards */
+.section div[style*="display:flex"] {
+    gap: 15px !important;
+    margin: 1rem auto !important;
+}
+
+/* Reduce spacing in the hero section */
+.hero-section {
+    padding: 2rem 1rem !important;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 1.5rem 1rem !important;
+    }
+}
+
+/* Minimize gaps in feature grids */
+.features-grid {
+    gap: 1rem !important;
+    margin: 1rem 0 !important;
+}
+
+@media (max-width: 768px) {
+    .features-grid {
+        gap: 0.75rem !important;
+        margin: 0.75rem 0 !important;
+    }
+}
+
+/* Reduce tabs wrapper spacing */
+.tabs-wrapper {
+    margin-bottom: 1rem !important;
+}
+
+@media (max-width: 768px) {
+    .tabs-wrapper {
+        margin-bottom: 0.75rem !important;
+    }
+}
