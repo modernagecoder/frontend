@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Mobile Dropdown</title>
+    
+    <!-- Load CSS in the same order as main site -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    
+    <style>
+        body {
+            margin: 0;
+            padding-top: 80px;
+            background: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .debug-info {
+            position: fixed;
+            top: 80px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            z-index: 10000;
+            max-width: 300px;
+        }
+        
+        .test-content {
+            padding: 2rem;
+            margin-top: 200px;
+        }
+        
+        /* Debug styles to make dropdown visible */
+        .debug-dropdown .dropdown-content {
+            border: 2px solid red !important;
+            background: rgba(255, 0, 0, 0.2) !important;
+        }
+        
+        .debug-dropdown.active .dropdown-content {
+            border: 2px solid green !important;
+            background: rgba(0, 255, 0, 0.2) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info" id="debugInfo">
+        <h4>Dropdown Debug</h4>
+        <div>Screen: <span id="screenWidth">-</span>px</div>
+        <div>Mobile: <span id="isMobile">-</span></div>
+        <div>Menu Open: <span id="menuOpen">-</span></div>
+        <div>Dropdown Active: <span id="dropdownActive">-</span></div>
+        <div>Click Count: <span id="clickCount">0</span></div>
+        <div>Last Action: <span id="lastAction">None</span></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="#" class="logo">
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown debug-dropdown" id="coursesDropdown">
+                            <a href="course.html" class="nav-link" id="coursesLink">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content" id="coursesDropdownContent">
+                                <a href="#" class="dropdown-item">For Kids (Ages 6-12)</a>
+                                <a href="#" class="dropdown-item">For Teens (Ages 13-18)</a>
+                                <a href="#" class="dropdown-item">For College Students</a>
+                                <a href="#" class="dropdown-item">For Professionals</a>
+                                <a href="#" class="dropdown-item">Customized Training</a>
+                                <a href="#" class="dropdown-item highlight">Special For Girls</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    </ul>
+
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="test-content">
+        <h1>Mobile Dropdown Debug</h1>
+        <p>Test the Courses dropdown on mobile:</p>
+        <ol>
+            <li>Resize to mobile (≤900px)</li>
+            <li>Open hamburger menu</li>
+            <li>Click on "Courses" - it should show dropdown items</li>
+            <li>Check debug info for status</li>
+        </ol>
+        
+        <button onclick="toggleDropdownManually()" style="padding: 1rem; background: #a855f7; color: white; border: none; border-radius: 4px; margin: 1rem 0;">
+            Toggle Dropdown Manually
+        </button>
+        
+        <button onclick="showDropdownInfo()" style="padding: 1rem; background: #059669; color: white; border: none; border-radius: 4px; margin: 1rem 0;">
+            Show Dropdown Info
+        </button>
+    </main>
+
+    <!-- Load JavaScript -->
+    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
+    
+    <script>
+        let clickCount = 0;
+        
+        function updateDebugInfo() {
+            const dropdown = document.getElementById('coursesDropdown');
+            const menu = document.getElementById('navMenu');
+            
+            document.getElementById('screenWidth').textContent = window.innerWidth;
+            document.getElementById('isMobile').textContent = window.innerWidth <= 900 ? 'Yes' : 'No';
+            document.getElementById('menuOpen').textContent = menu.classList.contains('active') ? 'Yes' : 'No';
+            document.getElementById('dropdownActive').textContent = dropdown.classList.contains('active') ? 'Yes' : 'No';
+            document.getElementById('clickCount').textContent = clickCount;
+        }
+        
+        function toggleDropdownManually() {
+            const dropdown = document.getElementById('coursesDropdown');
+            dropdown.classList.toggle('active');
+            document.getElementById('lastAction').textContent = 'Manual toggle';
+            updateDebugInfo();
+        }
+        
+        function showDropdownInfo() {
+            const dropdown = document.getElementById('coursesDropdown');
+            const dropdownContent = document.getElementById('coursesDropdownContent');
+            const coursesLink = document.getElementById('coursesLink');
+            
+            console.log('Dropdown Info:', {
+                dropdown: dropdown,
+                dropdownContent: dropdownContent,
+                coursesLink: coursesLink,
+                dropdownClasses: dropdown.className,
+                contentDisplay: window.getComputedStyle(dropdownContent).display,
+                contentVisibility: window.getComputedStyle(dropdownContent).visibility,
+                hasActiveClass: dropdown.classList.contains('active')
+            });
+            
+            alert('Dropdown info logged to console. Check developer tools.');
+        }
+        
+        // Monitor clicks on courses link
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('#coursesLink')) {
+                clickCount++;
+                document.getElementById('lastAction').textContent = 'Courses link clicked';
+                console.log('Courses link clicked!', {
+                    target: e.target,
+                    isMobile: window.innerWidth <= 900,
+                    menuOpen: document.getElementById('navMenu').classList.contains('active')
+                });
+                setTimeout(updateDebugInfo, 100);
+            }
+        });
+        
+        // Monitor dropdown state changes
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    updateDebugInfo();
+                }
+            });
+        });
+        
+        observer.observe(document.getElementById('coursesDropdown'), {
+            attributes: true,
+            attributeFilter: ['class']
+        });
+        
+        // Update debug info regularly
+        setInterval(updateDebugInfo, 1000);
+        
+        // Initial update
+        setTimeout(updateDebugInfo, 500);
+        
+        // Update on resize
+        window.addEventListener('resize', updateDebugInfo);
+    </script>
+</body>
+</html>

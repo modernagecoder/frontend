@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation Test - Final Fix</title>
+    
+    <!-- Load CSS in the same order as main site -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    
+    <style>
+        body {
+            margin: 0;
+            padding-top: 80px;
+            background: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .test-content {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .debug-panel {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        
+        .debug-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+        }
+        
+        .test-button {
+            background: #a855f7;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0.5rem;
+            font-size: 1rem;
+        }
+        
+        .test-button:hover {
+            background: #9333ea;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 8px;
+        }
+        
+        .status-good { background: #10b981; }
+        .status-bad { background: #ef4444; }
+        .status-warning { background: #f59e0b; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <img src="/images/logo.png" alt="Modern Age Coders Logo" class="logo-img">
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="course.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-item">For Kids (Ages 6-12)</a>
+                                <a href="#" class="dropdown-item">For Teens (Ages 13-18)</a>
+                                <a href="#" class="dropdown-item">For College Students</a>
+                                <a href="#" class="dropdown-item">For Professionals</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link login-btn">Login</a>
+                        </li>
+                    </ul>
+
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="test-content">
+        <h1>Mobile Navigation Test - Final Fix</h1>
+        
+        <div class="debug-panel" id="debugPanel">
+            <h3>Debug Information</h3>
+            <div class="debug-row">
+                <span>Screen Width:</span>
+                <span id="screenWidth">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Is Mobile View:</span>
+                <span id="isMobile">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Button Visible:</span>
+                <span id="buttonVisible">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Menu State:</span>
+                <span id="menuState">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Button Classes:</span>
+                <span id="buttonClasses">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Menu Classes:</span>
+                <span id="menuClasses">-</span>
+            </div>
+            <div class="debug-row">
+                <span>Click Count:</span>
+                <span id="clickCount">0</span>
+            </div>
+            <div class="debug-row">
+                <span>Last Action:</span>
+                <span id="lastAction">None</span>
+            </div>
+        </div>
+        
+        <div>
+            <h2>Test Instructions</h2>
+            <ol>
+                <li>Resize your browser window to mobile size (900px or less)</li>
+                <li>The hamburger menu button should appear</li>
+                <li>Click the hamburger button to open the menu</li>
+                <li>The menu should slide in from the left</li>
+                <li>Click outside the menu or press Escape to close it</li>
+                <li>Test the dropdown menu functionality</li>
+            </ol>
+        </div>
+        
+        <div>
+            <h2>Manual Tests</h2>
+            <button class="test-button" onclick="testMenuToggle()">Toggle Menu</button>
+            <button class="test-button" onclick="testMenuOpen()">Force Open</button>
+            <button class="test-button" onclick="testMenuClose()">Force Close</button>
+            <button class="test-button" onclick="showDebugInfo()">Show Debug Info</button>
+        </div>
+        
+        <div>
+            <h2>Expected Behavior</h2>
+            <ul>
+                <li><strong>Desktop (>900px):</strong> Horizontal navigation, no hamburger button</li>
+                <li><strong>Mobile (≤900px):</strong> Hamburger button visible, menu hidden by default</li>
+                <li><strong>Menu Open:</strong> Full-screen overlay, body scroll locked</li>
+                <li><strong>Menu Close:</strong> Menu slides out, body scroll restored</li>
+                <li><strong>Dropdowns:</strong> Work properly on both desktop and mobile</li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Load JavaScript files -->
+    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
+    
+    <script>
+        let clickCount = 0;
+        
+        function updateDebugInfo() {
+            const btn = document.getElementById('mobileMenuBtn');
+            const menu = document.getElementById('navMenu');
+            
+            if (!btn || !menu) return;
+            
+            const isMobile = window.innerWidth <= 900;
+            const buttonStyle = window.getComputedStyle(btn);
+            const menuStyle = window.getComputedStyle(menu);
+            
+            document.getElementById('screenWidth').textContent = window.innerWidth + 'px';
+            document.getElementById('isMobile').innerHTML = isMobile + 
+                '<span class="status-indicator ' + (isMobile ? 'status-good' : 'status-warning') + '"></span>';
+            
+            const buttonVisible = buttonStyle.display !== 'none';
+            document.getElementById('buttonVisible').innerHTML = buttonVisible + 
+                '<span class="status-indicator ' + (buttonVisible === isMobile ? 'status-good' : 'status-bad') + '"></span>';
+            
+            const menuActive = menu.classList.contains('active');
+            document.getElementById('menuState').innerHTML = (menuActive ? 'Open' : 'Closed') + 
+                '<span class="status-indicator ' + (menuActive ? 'status-good' : 'status-warning') + '"></span>';
+            
+            document.getElementById('buttonClasses').textContent = btn.className;
+            document.getElementById('menuClasses').textContent = menu.className;
+            document.getElementById('clickCount').textContent = clickCount;
+        }
+        
+        function testMenuToggle() {
+            clickCount++;
+            document.getElementById('lastAction').textContent = 'Manual toggle test';
+            
+            if (window.MobileNavDebug) {
+                window.MobileNavDebug.toggleMenu();
+            } else {
+                // Fallback
+                document.getElementById('mobileMenuBtn').click();
+            }
+            
+            setTimeout(updateDebugInfo, 100);
+        }
+        
+        function testMenuOpen() {
+            clickCount++;
+            document.getElementById('lastAction').textContent = 'Force open test';
+            
+            if (window.MobileNavDebug) {
+                window.MobileNavDebug.openMenu();
+            }
+            
+            setTimeout(updateDebugInfo, 100);
+        }
+        
+        function testMenuClose() {
+            clickCount++;
+            document.getElementById('lastAction').textContent = 'Force close test';
+            
+            if (window.MobileNavDebug) {
+                window.MobileNavDebug.closeMenu();
+            }
+            
+            setTimeout(updateDebugInfo, 100);
+        }
+        
+        function showDebugInfo() {
+            if (window.MobileNavDebug) {
+                console.log('Mobile Nav Debug State:', window.MobileNavDebug.getState());
+                alert('Debug info logged to console. Check developer tools.');
+            } else {
+                alert('Debug API not available');
+            }
+        }
+        
+        // Monitor hamburger button clicks
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('#mobileMenuBtn')) {
+                clickCount++;
+                document.getElementById('lastAction').textContent = 'Hamburger button clicked';
+                setTimeout(updateDebugInfo, 100);
+            }
+        });
+        
+        // Update debug info on resize
+        window.addEventListener('resize', function() {
+            setTimeout(updateDebugInfo, 100);
+        });
+        
+        // Initial update
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(updateDebugInfo, 500);
+        });
+        
+        // Update every 2 seconds
+        setInterval(updateDebugInfo, 2000);
+    </script>
+</body>
+</html>

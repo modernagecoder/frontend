@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force Courses Visible Test</title>
+    
+    <!-- Load CSS in the same order as main site -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    
+    <style>
+        body {
+            margin: 0;
+            padding-top: 80px;
+            background: #1a1a2e;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* FORCE COURSES TO BE VISIBLE */
+        @media (max-width: 900px) {
+            .nav-menu .nav-item.dropdown {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                background: rgba(255, 0, 0, 0.2) !important; /* Red background for debugging */
+                border: 2px solid red !important;
+            }
+            
+            .nav-menu .nav-item.dropdown .nav-link {
+                display: flex !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                background: rgba(0, 255, 0, 0.2) !important; /* Green background for debugging */
+                border: 1px solid green !important;
+            }
+            
+            .nav-menu .nav-item {
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+                margin: 8px 0 !important;
+                border: 1px solid blue !important; /* Blue border for all nav items */
+            }
+        }
+        
+        .test-content {
+            padding: 2rem;
+        }
+        
+        .status {
+            position: fixed;
+            top: 80px;
+            right: 10px;
+            background: rgba(0, 0, 0, 0.9);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            z-index: 10000;
+            max-width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="status">
+        <div><strong>Force Visible Test</strong></div>
+        <div>Width: <span id="width">-</span>px</div>
+        <div>Mobile: <span id="mobile">-</span></div>
+        <div>Menu: <span id="menu">-</span></div>
+        <div>Items: <span id="items">-</span></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown" id="coursesDropdown">
+                            <a href="course.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="course.html" class="dropdown-item"
+                                    style="font-weight: bold; border-bottom: 1px solid rgba(168, 85, 247, 0.3); margin-bottom: 0.5rem; padding-bottom: 0.75rem;">📚
+                                    View All Courses</a>
+                                <a href="course.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages
+                                    6-12)</a>
+                                <a href="course.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages
+                                    13-18)</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For College
+                                    Students</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For
+                                    Professionals</a>
+                                <a href="course.html?tab=coding&subtab=customized" class="dropdown-item">Customized
+                                    Training</a>
+                                <a href="course.html?tab=coding&subtab=girls" class="dropdown-item highlight">Special
+                                    For Girls</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/content/blog/generated/index.html" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link login-btn">Login</a>
+                        </li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="course.html" class="cta-button">Start
+                                Learning</a></li>
+                    </ul>
+
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="test-content">
+        <h1>Force Courses Visible Test</h1>
+        
+        <div style="background: rgba(255, 255, 255, 0.1); padding: 1.5rem; border-radius: 8px; margin-bottom: 2rem;">
+            <h2>🔧 This Test Forces Courses to be Visible</h2>
+            <p>This page uses <code>!important</code> CSS rules to force the Courses dropdown to be visible on mobile.</p>
+            <p>If you can see the Courses option now, then there's a CSS conflict in the original files.</p>
+            <p>If you still can't see it, then there's a JavaScript issue.</p>
+            
+            <h3>Instructions:</h3>
+            <ol>
+                <li>Resize browser to mobile (≤900px)</li>
+                <li>Open hamburger menu</li>
+                <li>Look for "Courses" with red/green highlighting</li>
+                <li>All nav items should have colored borders</li>
+            </ol>
+        </div>
+        
+        <button onclick="logAllElements()" style="padding: 1rem 2rem; background: #a855f7; color: white; border: none; border-radius: 4px; margin: 1rem 0; cursor: pointer;">
+            Log All Elements to Console
+        </button>
+    </main>
+
+    <!-- Load JavaScript -->
+    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
+    
+    <script>
+        function updateStatus() {
+            const menu = document.getElementById('navMenu');
+            const navItems = document.querySelectorAll('.nav-item');
+            
+            document.getElementById('width').textContent = window.innerWidth;
+            document.getElementById('mobile').textContent = window.innerWidth <= 900 ? 'Yes' : 'No';
+            document.getElementById('menu').textContent = menu.classList.contains('active') ? 'Open' : 'Closed';
+            document.getElementById('items').textContent = navItems.length;
+        }
+        
+        function logAllElements() {
+            console.log('=== NAVIGATION ELEMENTS DEBUG ===');
+            
+            const menu = document.getElementById('navMenu');
+            console.log('Menu element:', menu);
+            console.log('Menu classes:', menu ? menu.className : 'N/A');
+            console.log('Menu computed style:', menu ? window.getComputedStyle(menu) : 'N/A');
+            
+            const navItems = document.querySelectorAll('.nav-item');
+            console.log('Total nav items found:', navItems.length);
+            
+            navItems.forEach((item, index) => {
+                const link = item.querySelector('.nav-link');
+                const isDropdown = item.classList.contains('dropdown');
+                const style = window.getComputedStyle(item);
+                
+                console.log(`Nav Item ${index + 1}:`, {
+                    element: item,
+                    text: link ? link.textContent.trim() : 'No link',
+                    isDropdown: isDropdown,
+                    classes: item.className,
+                    display: style.display,
+                    visibility: style.visibility,
+                    opacity: style.opacity,
+                    position: style.position,
+                    transform: style.transform
+                });
+            });
+            
+            const coursesDropdown = document.getElementById('coursesDropdown');
+            if (coursesDropdown) {
+                console.log('Courses dropdown found:', coursesDropdown);
+                console.log('Courses dropdown style:', window.getComputedStyle(coursesDropdown));
+            } else {
+                console.log('Courses dropdown NOT found!');
+            }
+        }
+        
+        // Update status regularly
+        setInterval(updateStatus, 1000);
+        window.addEventListener('resize', updateStatus);
+        
+        // Initial update
+        setTimeout(updateStatus, 500);
+        
+        // Auto-log elements when menu opens
+        const observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    const isOpen = mutation.target.classList.contains('active');
+                    if (isOpen) {
+                        console.log('Menu opened - logging elements...');
+                        setTimeout(logAllElements, 100);
+                    }
+                }
+            });
+        });
+        
+        const menu = document.getElementById('navMenu');
+        if (menu) {
+            observer.observe(menu, {
+                attributes: true,
+                attributeFilter: ['class']
+            });
+        }
+    </script>
+</body>
+</html>
