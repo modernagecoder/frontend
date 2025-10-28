@@ -286,14 +286,26 @@
             if (dropdownLink && dropdownContent) {
                 dropdownLink.addEventListener('click', function(e) {
                     if (isMobileView() && isMenuOpen) {
-                        // On mobile, always prevent navigation for dropdown parents
-                        // and show the dropdown instead
+                        const href = this.getAttribute('href');
+                        
+                        // SIMPLE FIX: If it has a real href, allow navigation
+                        if (href && href !== '#' && !href.startsWith('javascript:')) {
+                            log('Dropdown link with real href clicked on mobile - allowing navigation', {
+                                href: href
+                            });
+                            
+                            // Allow the navigation to happen - don't prevent default
+                            // Just close the menu
+                            setTimeout(() => closeMenu(), 100);
+                            return; // Exit early - allow navigation
+                        }
+                        
+                        // Only prevent navigation if no real href
                         e.preventDefault();
                         e.stopPropagation();
                         
-                        log('Dropdown link clicked on mobile', {
-                            href: this.getAttribute('href'),
-                            currentlyActive: dropdown.classList.contains(CONFIG.activeClass)
+                        log('Dropdown link clicked on mobile - showing dropdown', {
+                            href: href
                         });
                         
                         // Close other dropdowns

@@ -76,6 +76,8 @@
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <!-- CRITICAL: Load this last to override all mobile nav conflicts -->
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
@@ -106,6 +108,7 @@
                                 </svg>
                             </a>
                             <div class="dropdown-content">
+                                <a href="courses.html" class="dropdown-item" style="font-weight: bold; border-bottom: 1px solid rgba(168, 85, 247, 0.3); margin-bottom: 0.5rem; padding-bottom: 0.75rem;">📚 View All Courses</a>
                                 <a href="courses.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages 6-12)</a>
                                 <a href="courses.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages 13-18)</a>
                                 <a href="courses.html?tab=coding&subtab=college" class="dropdown-item">For College Students</a>
@@ -561,6 +564,55 @@
     
     <!-- Load Tab Accessibility JavaScript -->
     <script src="/js/tab-accessibility.js"></script>
+    
+    <!-- CRITICAL: Load comprehensive mobile nav fix last -->
+    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
+    
+    <!-- EMERGENCY: Load navigation fix -->
+    <script src="/emergency-navigation-fix.js"></script>
+    
+    <!-- EMERGENCY FIX: Ensure Courses dropdown is visible -->
+    <script>
+        // Emergency fix to ensure Courses dropdown is always visible on mobile
+        function ensureCoursesVisible() {
+            const coursesDropdown = document.getElementById('coursesDropdown') || document.querySelector('.nav-item.dropdown');
+            const navMenu = document.getElementById('navMenu');
+            
+            if (coursesDropdown && navMenu && window.innerWidth <= 900) {
+                // Force visibility with inline styles
+                coursesDropdown.style.display = 'block';
+                coursesDropdown.style.visibility = 'visible';
+                coursesDropdown.style.opacity = '1';
+                coursesDropdown.style.position = 'relative';
+                coursesDropdown.style.transform = 'none';
+                
+                const coursesLink = coursesDropdown.querySelector('.nav-link');
+                if (coursesLink) {
+                    coursesLink.style.display = 'flex';
+                    coursesLink.style.visibility = 'visible';
+                    coursesLink.style.opacity = '1';
+                }
+                
+                console.log('Emergency fix applied: Courses dropdown forced visible on About page');
+            }
+        }
+        
+        // Run immediately and on DOM ready
+        ensureCoursesVisible();
+        document.addEventListener('DOMContentLoaded', ensureCoursesVisible);
+        
+        // Run when menu opens
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('#mobileMenuBtn')) {
+                setTimeout(ensureCoursesVisible, 100);
+            }
+        });
+        
+        // Run on resize
+        window.addEventListener('resize', function() {
+            setTimeout(ensureCoursesVisible, 100);
+        });
+    </script>
     
     <script src="scripts/lazy-loading.min.js"></script>
 </body>

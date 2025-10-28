@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test About Page Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        .test-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .test-section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .test-button {
+            background: #a855f7;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0.5rem;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .test-button:hover {
+            background: #9333ea;
+        }
+        
+        .status {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-container">
+        <h1>🧪 About Page Navigation Test</h1>
+        
+        <div class="test-section">
+            <h2>📋 Test Instructions</h2>
+            <ol>
+                <li><strong>Open the About page</strong> in a new tab</li>
+                <li><strong>Resize browser</strong> to mobile width (≤900px)</li>
+                <li><strong>Click hamburger menu</strong> on the About page</li>
+                <li><strong>Look for "Courses"</strong> in the navigation menu</li>
+                <li><strong>Click "Courses"</strong> to test dropdown functionality</li>
+            </ol>
+        </div>
+        
+        <div class="test-section">
+            <h2>🔗 Quick Links</h2>
+            <a href="src/pages/about.html" class="test-button" target="_blank">Open About Page</a>
+            <a href="src/pages/index.html" class="test-button" target="_blank">Open Main Page (Working)</a>
+            <a href="comprehensive-mobile-nav-test.html" class="test-button" target="_blank">Debug Test Page</a>
+        </div>
+        
+        <div class="test-section">
+            <h2>✅ What Should Happen</h2>
+            <ul>
+                <li><strong>About Page Mobile Menu:</strong> Should show "Courses" option</li>
+                <li><strong>Courses Dropdown:</strong> Should work when clicked on mobile</li>
+                <li><strong>Dropdown Items:</strong> Should show "View All Courses" + categories</li>
+                <li><strong>Navigation:</strong> Should work the same as main page</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>🔧 What I Fixed</h2>
+            <p>The About page was missing:</p>
+            <ul>
+                <li><code>mobile-nav-final-fix.css</code> - Critical CSS overrides</li>
+                <li><code>mobile-nav-comprehensive-fix.js</code> - Mobile navigation JavaScript</li>
+                <li>Emergency inline JavaScript fix</li>
+                <li>"View All Courses" dropdown option</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>🐛 If Still Not Working</h2>
+            <p>Check browser console for errors and try:</p>
+            <ul>
+                <li>Hard refresh (Ctrl+F5 or Cmd+Shift+R)</li>
+                <li>Clear browser cache</li>
+                <li>Check if CSS/JS files are loading properly</li>
+                <li>Use the debug test page to analyze the issue</li>
+            </ul>
+        </div>
+        
+        <div class="status" id="status">
+            <div><strong>Current Status:</strong></div>
+            <div>Screen Width: <span id="width">-</span>px</div>
+            <div>Is Mobile: <span id="mobile">-</span></div>
+            <div>Time: <span id="time">-</span></div>
+        </div>
+    </div>
+    
+    <script>
+        function updateStatus() {
+            document.getElementById('width').textContent = window.innerWidth;
+            document.getElementById('mobile').textContent = window.innerWidth <= 900 ? 'Yes' : 'No';
+            document.getElementById('time').textContent = new Date().toLocaleTimeString();
+        }
+        
+        setInterval(updateStatus, 1000);
+        window.addEventListener('resize', updateStatus);
+        updateStatus();
+    </script>
+</body>
+</html>
