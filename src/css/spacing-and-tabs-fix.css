@@ -131,7 +131,7 @@
     
     /* Add icons for better visual hierarchy on mobile */
     .tab-button::before {
-        content: '';
+        /* content: ''; */
         width: 8px;
         height: 8px;
         border-radius: 50%;
@@ -307,42 +307,49 @@ main .section,
    ======================================== */
 
 @media (max-width: 768px) {
+
+
+
     /* Add descriptive text to tabs for better parent understanding */
     .tab-button[data-target="#coding-kids"]::after {
-        content: ' • Ages 8-12';
+        /* content: ' • Ages 8-12'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
         margin-top: 2px;
+        
     }
     
     .tab-button[data-target="#coding-teens"]::after {
-        content: ' • Ages 13-18';
+        /* content: ' • Ages 13-18'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
         margin-top: 2px;
+        width: 100%;
     }
     
     .tab-button[data-target="#coding-college"]::after {
-        content: ' • Ages 18-21';
+        /* content: ' • Ages 18-21'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
         margin-top: 2px;
+        width: 100%;
     }
     
     .tab-button[data-target="#coding-girls"]::after {
-        content: ' • All Ages';
+        /* content: ' • All Ages'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
         margin-top: 2px;
+        width: 100%;
     }
     
     /* Math tabs */
     .tab-button[data-target="#math-elementary"]::after {
-        content: ' • Grade 1-5';
+        /* content: ' • Grade 1-5'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
@@ -350,7 +357,7 @@ main .section,
     }
     
     .tab-button[data-target="#math-middle"]::after {
-        content: ' • Grade 6-8';
+        /* content: ' • Grade 6-8'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
@@ -358,7 +365,7 @@ main .section,
     }
     
     .tab-button[data-target="#math-high"]::after {
-        content: ' • Grade 9-12';
+        /* content: ' • Grade 9-12'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
@@ -366,12 +373,14 @@ main .section,
     }
     
     .tab-button[data-target="#math-college"]::after {
-        content: ' • College Level';
+        /* content: ' • College Level'; */
         font-size: 0.8rem;
         opacity: 0.7;
         display: block;
         margin-top: 2px;
     }
+
+    
 }
 /* =====
 ===================================
@@ -444,5 +453,41 @@ body .section {
 @media (max-width: 768px) {
     .tabs-wrapper {
         margin-bottom: 0.75rem !important;
+    }
+    
+}
+
+#math-tabs .tab-button {
+    flex: 1;                    /* Equal distribution like coding tabs */
+    min-width: 0;               /* Allow shrinking */
+    padding: 0.875rem 0.5rem;   /* Adjust padding */
+    font-size: 0.875rem;        /* Smaller font for longer text */
+    white-space: nowrap;        /* Keep text on one line */
+    overflow: hidden;           /* Hide overflow */
+    text-overflow: ellipsis;    /* Show ... for cut-off text */
+}
+
+/* Remove your previous fixed width rules */
+#math-tabs .tab-button {
+    width: auto !important;     /* Override any fixed width */
+}
+
+
+
+@media (max-width: 768px) {
+    #coding-tabs .tab-button,
+    #math-tabs .tab-button {
+        flex: none !important;
+        width: 100% !important;
+        height: 56px !important;
+        min-height: 56px !important;
+        max-height: 56px !important;
+        min-width: unset !important;
+        max-width: none !important;
+        text-align: center !important;
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+        box-sizing: border-box !important;
     }
 }

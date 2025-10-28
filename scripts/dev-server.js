@@ -49,6 +49,12 @@ function resolveFilePath(url) {
     if (urlPath.startsWith('/images/')) {
         return urlPath.replace('/images/', 'public/images/');
     }
+    if (urlPath.startsWith('/favicon/')) {
+        return urlPath.replace('/favicon/', 'public/favicon/');
+    }
+    if (urlPath === '/favicon.ico') {
+        return 'public/favicon/favicon.ico';
+    }
     if (urlPath.startsWith('/admin/')) {
         return urlPath.replace('/admin/', 'src/admin/');
     }

@@ -15,10 +15,13 @@
     <link rel="canonical" href="https://learn.modernagecoders.com/">
 
     <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#a855f7">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/">
@@ -113,6 +116,7 @@
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/testimonials-carousel.css">
     <link rel="stylesheet" href="/css/certificate-carousel.css">
+    <link rel="stylesheet" href="/css/mobile-testimonials-certificates-fix.css">
 
 </head>
 
@@ -156,6 +160,7 @@
                                     For Girls</a>
                             </div>
                         </li>
+
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="/content/blog/generated/index.html" class="nav-link">Blog</a></li>
                         <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
@@ -166,6 +171,7 @@
                         <li class="nav-item" style="margin-left: 10px;"><a href="course.html" class="cta-button">Start
                                 Learning</a></li>
                     </ul>
+
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                         <span></span>
                         <span></span>
@@ -339,10 +345,11 @@
 
             <div class="tabs-wrapper" id="coding-tabs">
                 <div class="tabs-container">
-                    <button class="tab-button active" data-target="#coding-kids">Kids (Ages 8–12)</button>
-                    <button class="tab-button" data-target="#coding-teens">Teens (Ages 13–18)</button>
-                    <button class="tab-button" data-target="#coding-college">College (Ages 18–21)</button>
-                    <button class="tab-button" data-target="#coding-girls">Special for Girls</button>
+                    <button class="tab-button active" data-target="#coding-kids">Kids</button>
+                    <button class="tab-button" data-target="#coding-teens">Teens</button>
+                    <button class="tab-button" data-target="#coding-college">College</button>
+                    <button class="tab-button" data-target="#coding-girls">Corporate</button>
+                    <button class="tab-button" data-target="#coding-girls">Girls only</button>
                     <div class="tab-glider"></div>
                 </div>
 
@@ -590,11 +597,11 @@
 
             <div class="tabs-wrapper" id="math-tabs">
                 <div class="tabs-container">
-                    <button class="tab-button active" data-target="#math-elementary">Elementary (Grade 1-5)</button>
-                    <button class="tab-button" data-target="#math-middle">Middle School (Grade 6-8)</button>
-                    <button class="tab-button" data-target="#math-high">High School (Grade 9-12)</button>
-                    <button class="tab-button" data-target="#math-college">College Level</button>
-                    <button class="tab-button" data-target="#math-professional">Working Professionals</button>
+                    <button class="tab-button active" data-target="#math-elementary">Elementary</button>
+                    <button class="tab-button" data-target="#math-middle">Middle School</button>
+                    <button class="tab-button" data-target="#math-high">High School</button>
+                    <button class="tab-button" data-target="#math-college">College</button>
+                    <button class="tab-button" data-target="#math-professional">Corporate</button>
                     <div class="tab-glider"></div>
                 </div>
 
@@ -1203,7 +1210,7 @@
                 </button>
             </div>
 
-            <div class="carousel-dots"></div>
+            <!-- <div class="carousel-dots"></div> -->
         </section>
 
         <section class="section" style="animation-delay: 0.9s;">
@@ -2230,6 +2237,9 @@
 
     <!-- Load Tab Accessibility JavaScript -->
     <script src="/js/tab-accessibility.js"></script>
+
+    <!-- Load Navigation JavaScript for Dropdown Functionality -->
+    <script src="/js/navigation.js"></script>
 </body>
 
 </html>

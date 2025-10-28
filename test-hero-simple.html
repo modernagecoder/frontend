@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Hero Layout Test</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Our hero section styles */
+        .hero-section {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: space-between !important;
+            gap: 2rem !important;
+            padding: 2rem 1rem !important;
+            flex-direction: row !important;
+            text-align: left !important;
+            border: 2px solid #a855f7;
+            margin: 20px 0;
+        }
+
+        .hero-text {
+            flex: 1 !important;
+            max-width: 60% !important;
+            width: auto !important;
+            order: 1 !important;
+            border: 1px solid #4ecdc4;
+            padding: 10px;
+        }
+
+        .hero-image {
+            flex: 0 0 auto !important;
+            max-width: 35% !important;
+            width: auto !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            order: 2 !important;
+            border: 1px solid #ffa500;
+            padding: 10px;
+        }
+
+        .hero-image svg {
+            max-width: 200px !important;
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        /* Mobile styles - SVG goes below text */
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column !important;
+                text-align: center !important;
+                padding: 2rem 1.5rem !important;
+                gap: 2rem !important;
+            }
+
+            .hero-text {
+                max-width: 100% !important;
+                width: 100% !important;
+                flex: none !important;
+                order: 1 !important;
+            }
+
+            .hero-image {
+                max-width: 100% !important;
+                width: 100% !important;
+                flex: none !important;
+                order: 2 !important;
+                justify-content: center !important;
+            }
+
+            .hero-image svg {
+                max-width: 200px !important;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-section {
+                padding: 1.5rem 1rem !important;
+                gap: 1.5rem !important;
+                flex-direction: column !important;
+                text-align: center !important;
+            }
+            
+            .hero-text {
+                max-width: 100% !important;
+            }
+            
+            .hero-image {
+                max-width: 100% !important;
+            }
+            
+            .hero-image svg {
+                max-width: 180px !important;
+            }
+        }
+        
+        .highlight-ma { color: #a855f7 !important; font-weight: 800 !important; }
+        .highlight-de { color: #4ecdc4 !important; font-weight: 800 !important; }
+        .highlight-made { color: #ffa500 !important; font-weight: 800 !important; }
+        
+        /* Add glassmorphism box */
+        .hero-section {
+            background: rgba(16, 16, 28, 0.8) !important;
+            backdrop-filter: blur(20px) !important;
+            border: 1px solid rgba(168, 85, 247, 0.2) !important;
+            border-radius: 1.5rem !important;
+            box-shadow: 0 20px 50px rgba(168, 85, 247, 0.1) !important;
+        }
+        
+        .debug-info {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hero Layout Test - Fixed</h1>
+    <p><strong>Desktop/Tablet:</strong> Text on left, SVG on right (side-by-side)</p>
+    <p><strong>Mobile:</strong> Text on top, SVG below (stacked vertically)</p>
+    <p><strong>Features:</strong> Glassmorphism box, colored highlights (Ma=purple, de=teal, Made=orange)</p>
+    
+    <section class="hero-section">
+        <div class="hero-text">
+            <h1><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths + Co<span class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for Each Other.</h1>
+            <p>We at Modern Age Coders believe that Coding and Maths together bring out the best of both worlds — logic and creativity. When numbers meet imagination, learning becomes fun, meaningful, and full of endless possibilities.</p>
+        </div>
+        <div class="hero-image">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+                <g>
+                    <path fill="url(#grad1)"
+                        d="M49.8,-54.6C62.9,-44,70.9,-26.8,72.2,-9.2C73.5,8.4,68.2,26.4,56.7,40.5C45.2,54.6,27.5,64.8,9.7,68.2C-8,71.5,-25.9,68,-40.5,58.8C-55.2,49.6,-66.6,34.7,-72.1,17.4C-77.6,0.1,-77.2,-19.6,-67.9,-33.8C-58.5,-48,-40.1,-56.6,-23.7,-61.7C-7.2,-66.7,7.3,-68.2,22.2,-65.4C37.1,-62.7,49.8,-54.6,49.8,-54.6Z"
+                        transform="translate(100 100)" opacity="0.4" />
+                    <g transform="translate(100 100)" fill="#E2E8F0" font-family="monospace" font-size="14"
+                        text-anchor="middle" style="user-select: none;">
+                        <text x="-30" y="-30" opacity="0.9">{;}</text>
+                        <text x="40" y="-15" opacity="0.9">&lt;/&gt;</text>
+                        <text x="0" y="10" font-size="20" opacity="0.9">f(x)</text>
+                        <text x="50" y="45" opacity="0.9">∑</text>
+                        <text x="-40" y="50" font-size="16" opacity="0.9">π</text>
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </section>
+    
+    <div class="debug-info">
+        <h2>Test Results</h2>
+        <p><strong>✓ Success criteria:</strong></p>
+        <ul>
+            <li>Text content appears on the LEFT side (blue border)</li>
+            <li>SVG ball appears on the RIGHT side (orange border)</li>
+            <li>Layout remains horizontal on all screen sizes</li>
+            <li>Content is properly proportioned</li>
+        </ul>
+        
+        <div id="debug-output" style="margin-top: 15px; font-family: monospace; font-size: 12px;">
+            <p>Loading debug information...</p>
+        </div>
+    </div>
+    
+    <script>
+        window.addEventListener('load', function() {
+            const heroSection = document.querySelector('.hero-section');
+            const heroText = document.querySelector('.hero-text');
+            const heroImage = document.querySelector('.hero-image');
+            const debugOutput = document.getElementById('debug-output');
+            
+            function updateDebugInfo() {
+                const heroStyles = window.getComputedStyle(heroSection);
+                const textStyles = window.getComputedStyle(heroText);
+                const imageStyles = window.getComputedStyle(heroImage);
+                
+                debugOutput.innerHTML = `
+                    <strong>Screen:</strong> ${window.innerWidth}px × ${window.innerHeight}px<br>
+                    <strong>Hero Section:</strong> display: ${heroStyles.display}, flex-direction: ${heroStyles.flexDirection}<br>
+                    <strong>Text Width:</strong> ${textStyles.width} (max: ${textStyles.maxWidth})<br>
+                    <strong>Image Width:</strong> ${imageStyles.width} (max: ${imageStyles.maxWidth})<br>
+                    <strong>Layout Status:</strong> ${heroStyles.flexDirection === 'row' ? '✓ Horizontal' : '✗ Vertical'}
+                `;
+            }
+            
+            updateDebugInfo();
+            window.addEventListener('resize', updateDebugInfo);
+        });
+    </script>
+</body>
+</html>

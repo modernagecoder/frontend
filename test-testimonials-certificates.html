@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials and Certificates Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/testimonials-carousel.css">
+    <link rel="stylesheet" href="src/css/certificate-carousel.css">
+    <link rel="stylesheet" href="src/css/mobile-testimonials-certificates-fix.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        .test-info {
+            background: rgba(168, 85, 247, 0.1);
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 8px;
+            border: 1px solid rgba(168, 85, 247, 0.3);
+        }
+        
+        .section {
+            margin: 2rem auto;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+        
+        .feature-card {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .feature-text {
+            margin-top: 2rem;
+        }
+        
+        .feature-text h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: white;
+        }
+        
+        .feature-text p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+        }
+        
+        .certificate-features {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        
+        .certificate-features li {
+            background: rgba(168, 85, 247, 0.2);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="test-info">
+        <h1>Testimonials and Certificates Mobile Test</h1>
+        <p><strong>Test Instructions:</strong></p>
+        <ul>
+            <li><strong>Mobile (≤768px):</strong> Testimonials show one card at a time, no purple dots</li>
+            <li><strong>Mobile:</strong> Certificates are larger and more visible</li>
+            <li><strong>Touch:</strong> Arrows should be large and easy to tap</li>
+            <li><strong>Layout:</strong> Cards should be properly sized and centered</li>
+        </ul>
+        <p><strong>Current Screen Width:</strong> <span id="screenWidth">-</span></p>
+    </div>
+
+    <main>
+        <!-- Certificate Section Test -->
+        <section class="section">
+            <div class="feature-card">
+                <div class="certificate-visual feature-visual">
+                    <button class="certificate-arrow certificate-arrow-left" aria-label="Previous certificate">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M15 18l-6-6 6-6" />
+                        </svg>
+                    </button>
+                    <div class="certificate-carousel">
+                        <div class="certificate-track">
+                            <img src="https://via.placeholder.com/600x400/a855f7/ffffff?text=Certificate+1" alt="Modern Age Coders Certificate 1" class="certificate-image">
+                            <img src="https://via.placeholder.com/600x400/4ecdc4/ffffff?text=Certificate+2" alt="Modern Age Coders Certificate 2" class="certificate-image">
+                            <img src="https://via.placeholder.com/600x400/f59e0b/ffffff?text=Certificate+3" alt="Modern Age Coders Certificate 3" class="certificate-image">
+                        </div>
+                    </div>
+                    <button class="certificate-arrow certificate-arrow-right" aria-label="Next certificate">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                            <path d="M9 18l6-6-6-6" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="feature-text">
+                    <h3>Our Certificates are earned, never given</h3>
+                    <p>Upon completing any learning path, you'll receive a Certificate of Completion. It's more than a document—it's a testament to your dedication and a powerful asset for your career.</p>
+                    <ul class="certificate-features">
+                        <li>Verifiable Credentials</li>
+                        <li>Sharable on LinkedIn</li>
+                        <li>Industry Recognized</li>
+                        <li>Digital Format</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section Test -->
+        <section class="section testimonials-section">
+            <h2 class="section-title">What Parents Say About Us</h2>
+            <div class="testimonials-carousel-container">
+                <button class="carousel-arrow carousel-arrow-left" aria-label="Previous testimonials">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6" />
+                    </svg>
+                </button>
+
+                <div class="testimonials-carousel">
+                    <div class="testimonials-track">
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="parent-avatar">
+                                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Parent Avatar">
+                                </div>
+                                <blockquote>My child loves the coding classes! The instructors are patient and make learning fun. I've seen a real improvement in logical thinking and problem-solving skills.</blockquote>
+                                <div class="testimonial-info">
+                                    <p class="name">Sarah Johnson</p>
+                                    <p class="course">Mother of Emma</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="parent-avatar">
+                                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Parent Avatar">
+                                </div>
+                                <blockquote>Excellent program! My son went from knowing nothing about coding to building his own games. The curriculum is well-structured and age-appropriate.</blockquote>
+                                <div class="testimonial-info">
+                                    <p class="name">Michael Chen</p>
+                                    <p class="course">Father of Alex</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="parent-avatar">
+                                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Parent Avatar">
+                                </div>
+                                <blockquote>The teachers are amazing! They make complex concepts easy to understand. My daughter is now confident in both coding and mathematics.</blockquote>
+                                <div class="testimonial-info">
+                                    <p class="name">Lisa Rodriguez</p>
+                                    <p class="course">Mother of Sofia</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="testimonial-card">
+                            <div class="testimonial-content">
+                                <div class="parent-avatar">
+                                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Parent Avatar">
+                                </div>
+                                <blockquote>Best investment we made for our child's future! The personalized attention and project-based learning approach is fantastic.</blockquote>
+                                <div class="testimonial-info">
+                                    <p class="name">David Kumar</p>
+                                    <p class="course">Father of Arjun</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-arrow carousel-arrow-right" aria-label="Next testimonials">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6" />
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- This should be hidden on mobile -->
+            <div class="carousel-dots">
+                <div class="carousel-dot active"></div>
+                <div class="carousel-dot"></div>
+                <div class="carousel-dot"></div>
+                <div class="carousel-dot"></div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function updateScreenWidth() {
+            document.getElementById('screenWidth').textContent = window.innerWidth + 'px';
+        }
+        
+        updateScreenWidth();
+        window.addEventListener('resize', updateScreenWidth);
+        
+        // Simple carousel functionality for testing
+        let currentTestimonial = 0;
+        let currentCertificate = 0;
+        
+        const testimonialTrack = document.querySelector('.testimonials-track');
+        const certificateTrack = document.querySelector('.certificate-track');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const certificateImages = document.querySelectorAll('.certificate-image');
+        
+        // Testimonial carousel
+        document.querySelector('.carousel-arrow-left').addEventListener('click', () => {
+            currentTestimonial = currentTestimonial > 0 ? currentTestimonial - 1 : testimonialCards.length - 1;
+            updateTestimonialCarousel();
+        });
+        
+        document.querySelector('.carousel-arrow-right').addEventListener('click', () => {
+            currentTestimonial = currentTestimonial < testimonialCards.length - 1 ? currentTestimonial + 1 : 0;
+            updateTestimonialCarousel();
+        });
+        
+        function updateTestimonialCarousel() {
+            const offset = -currentTestimonial * 100;
+            testimonialTrack.style.transform = `translateX(${offset}%)`;
+            
+            // Update dots
+            document.querySelectorAll('.carousel-dot').forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentTestimonial);
+            });
+        }
+        
+        // Certificate carousel
+        document.querySelector('.certificate-arrow-left').addEventListener('click', () => {
+            currentCertificate = currentCertificate > 0 ? currentCertificate - 1 : certificateImages.length - 1;
+            updateCertificateCarousel();
+        });
+        
+        document.querySelector('.certificate-arrow-right').addEventListener('click', () => {
+            currentCertificate = currentCertificate < certificateImages.length - 1 ? currentCertificate + 1 : 0;
+            updateCertificateCarousel();
+        });
+        
+        function updateCertificateCarousel() {
+            const offset = -currentCertificate * 100;
+            certificateTrack.style.transform = `translateX(${offset}%)`;
+        }
+        
+        console.log('Test page loaded with', testimonialCards.length, 'testimonials and', certificateImages.length, 'certificates');
+    </script>
+</body>
+</html>
