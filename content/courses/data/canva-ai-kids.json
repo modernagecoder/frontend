@@ -1,0 +1,1655 @@
+{
+  "meta": {
+    "slug": "canva-ai-design-masterclass",
+    "title": "Complete Canva & AI Design Masterclass - From Zero to Professional Designer",
+    "description": "The most comprehensive 6-month design and content creation program. Master Canva, photo editing, video editing, AI tools, and become a professional digital designer. From absolute basics to creating stunning professional designs, social media content, and marketing materials.",
+    "keywords": [
+      "canva mastery",
+      "graphic design",
+      "photo editing",
+      "video editing",
+      "AI design tools",
+      "midjourney",
+      "dall-e",
+      "adobe firefly",
+      "social media design",
+      "content creation",
+      "digital marketing",
+      "brand design",
+      "UI/UX basics",
+      "motion graphics",
+      "professional designer"
+    ],
+    "category": "Professional Design & Content Creation",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹9,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Advanced Professional",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "Industry-recognized Digital Design Certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Canva & AI Design Masterclass",
+    "tagline": "From 'Zero Design Skills' to Professional Digital Designer in 6 Months",
+    "description": "This comprehensive program transforms complete beginners into professional digital designers. You'll master Canva Pro, learn professional photo and video editing, harness the power of AI design tools like Midjourney and DALL-E, and create stunning visual content that converts.\n\nWhether you're a business owner, marketer, content creator, or aspiring designer, this program gives you all the skills needed to create professional-grade designs, manage social media visuals, build brands, and even start a design freelance business. By the end, you'll have created 50+ professional projects and be ready for real client work.",
+    "what_makes_this_different": [
+      "Zero experience required - starts from absolute basics",
+      "Focuses on practical, real-world design projects",
+      "Integrates latest AI tools throughout the course",
+      "Covers both free and pro tools comprehensively",
+      "Business and freelancing modules included",
+      "Personal branding and portfolio development",
+      "Lifetime access to all updates and new AI tools",
+      "Ready-to-use templates and resources library"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Design Principles, Canva Basics, Typography, Color Theory",
+      "phase_2": "Intermediate (Months 3-4): Advanced Canva, Photo Editing, AI Tools, Brand Design",
+      "phase_3": "Advanced (Months 5-6): Video Editing, Animation, AI Mastery, Professional Projects",
+      "phase_4": "Professional (Final Weeks): Portfolio, Freelancing, Business Setup, Client Work"
+    },
+    "career_outcomes": [
+      "Freelance Graphic Designer",
+      "Social Media Manager",
+      "Content Creator",
+      "Brand Designer",
+      "Digital Marketing Designer",
+      "UI/UX Designer (Entry Level)",
+      "Video Content Creator",
+      "AI Design Specialist"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Design Foundation & Canva Mastery (Months 1-2, Weeks 1-8)",
+    "description": "Build strong design fundamentals while mastering Canva. Learn design principles, typography, color theory, and create your first professional designs.",
+    "month_1_2": {
+      "title": "Months 1-2: Design Fundamentals & Canva Essentials",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Design & Canva Setup",
+        "topics": [
+          "What is graphic design? History and evolution",
+          "Design careers and opportunities in 2024",
+          "Traditional vs digital design",
+          "Introduction to Canva: Interface tour",
+          "Canva Free vs Pro features comparison",
+          "Account setup and workspace organization",
+          "Understanding design dimensions and formats",
+          "File types: JPG, PNG, PDF, SVG explained",
+          "Resolution and DPI for print vs digital",
+          "Creating your first Canva design",
+          "Navigating templates and elements",
+          "Basic tools: Text, shapes, lines, frames"
+        ],
+        "projects": [
+          "Create personal introduction card",
+          "Design simple social media post",
+          "Make basic business card"
+        ],
+        "practice": "Daily: 30 min Canva exploration, 1 hour design exercises"
+      },
+      "week_3_4": {
+        "title": "Design Principles & Composition",
+        "topics": [
+          "The 7 principles of design",
+          "Balance: symmetrical, asymmetrical, radial",
+          "Contrast and emphasis in design",
+          "Repetition and consistency",
+          "Proximity and grouping elements",
+          "Alignment and grid systems",
+          "Visual hierarchy and flow",
+          "Rule of thirds and golden ratio",
+          "White space and minimalism",
+          "Gestalt principles in design",
+          "Creating focal points",
+          "Composition techniques for impact"
+        ],
+        "projects": [
+          "Redesign poorly designed flyer",
+          "Create balanced poster design",
+          "Design minimalist quote graphics",
+          "Build visual hierarchy infographic"
+        ],
+        "practice": "Analyze 20 professional designs for principles"
+      },
+      "week_5_6": {
+        "title": "Typography & Color Theory",
+        "topics": [
+          "Typography fundamentals: serif vs sans-serif",
+          "Font families and pairing rules",
+          "Font size hierarchy and scaling",
+          "Line height, letter spacing, kerning",
+          "Readability and legibility principles",
+          "Typography for different mediums",
+          "Color theory basics: color wheel",
+          "Primary, secondary, tertiary colors",
+          "Color harmonies: complementary, analogous, triadic",
+          "Color psychology and emotions",
+          "Creating custom color palettes",
+          "Using Canva's color tools effectively"
+        ],
+        "projects": [
+          "Typography poster with font hierarchy",
+          "Brand color palette creation",
+          "Mood board with color themes",
+          "Restaurant menu with proper typography"
+        ],
+        "practice": "Create 10 different color palettes and font combinations"
+      },
+      "week_7_8": {
+        "title": "Canva Advanced Features & Templates",
+        "topics": [
+          "Mastering Canva Pro features",
+          "Background remover tool mastery",
+          "Magic Resize for multiple formats",
+          "Brand Kit setup and management",
+          "Creating and saving templates",
+          "Using and customizing elements",
+          "Working with grids and frames",
+          "Photo effects and filters",
+          "Transparency and layering",
+          "Animation basics in Canva",
+          "Collaboration features",
+          "Organizing designs with folders"
+        ],
+        "projects": [
+          "Complete brand kit setup",
+          "Create reusable template set",
+          "Design animated social media post",
+          "Multi-page presentation design"
+        ],
+        "practice": "Build template library for different use cases"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 1-2 Continued: Social Media & Marketing Design",
+      "weeks": "Week 1-8 Deep Dive",
+      "week_9_10": {
+        "title": "Social Media Design Mastery",
+        "topics": [
+          "Platform-specific dimensions and requirements",
+          "Instagram: Posts, Stories, Reels covers",
+          "Facebook: Posts, covers, ads",
+          "LinkedIn: Posts, banners, articles",
+          "Twitter/X: Posts, headers",
+          "YouTube: Thumbnails, banners, end screens",
+          "TikTok: Video covers and graphics",
+          "Pinterest: Pins and idea pins",
+          "Consistent visual branding across platforms",
+          "Creating content calendars",
+          "Batch creating social media content",
+          "Engagement-driving design techniques"
+        ],
+        "projects": [
+          "30-day social media content calendar",
+          "Complete Instagram feed design",
+          "YouTube channel branding package",
+          "Multi-platform campaign graphics"
+        ],
+        "practice": "Design 5 posts for each major platform"
+      },
+      "week_11_12": {
+        "title": "Marketing Materials & Print Design",
+        "topics": [
+          "Business card design principles",
+          "Letterhead and stationery design",
+          "Flyer and brochure layouts",
+          "Poster design for events",
+          "Banner and billboard considerations",
+          "Email newsletter templates",
+          "Digital ads: display, social, search",
+          "Landing page graphics",
+          "Infographic design process",
+          "Presentation design mastery",
+          "Print specifications and bleed",
+          "Preparing files for print"
+        ],
+        "projects": [
+          "Complete business stationery set",
+          "Tri-fold brochure design",
+          "Event poster and flyer set",
+          "Email marketing template"
+        ],
+        "practice": "Create marketing materials for fictional company"
+      },
+      "week_13_14": {
+        "title": "Logo Design & Brand Identity",
+        "topics": [
+          "Logo design fundamentals",
+          "Types of logos: wordmark, lettermark, emblem",
+          "Sketching and ideation process",
+          "Creating logos in Canva",
+          "Logo variations and applications",
+          "Brand identity elements",
+          "Brand style guide creation",
+          "Color psychology for brands",
+          "Typography in branding",
+          "Brand voice and visual consistency",
+          "Mockup creation for presentations",
+          "Protecting and trademarking designs"
+        ],
+        "projects": [
+          "Design 3 different logo concepts",
+          "Complete brand identity package",
+          "Brand style guide document",
+          "Logo mockup presentations"
+        ],
+        "practice": "Rebrand 5 existing companies"
+      },
+      "week_15_16": {
+        "title": "Photo Editing & Manipulation",
+        "topics": [
+          "Photo editing basics in Canva",
+          "Adjusting brightness, contrast, saturation",
+          "Color correction and grading",
+          "Cropping and composition improvement",
+          "Removing backgrounds professionally",
+          "Creating photo collages",
+          "Double exposure effects",
+          "Photo filters and effects",
+          "Retouching basics",
+          "Working with RAW images",
+          "Batch editing techniques",
+          "Creating photo templates"
+        ],
+        "projects": [
+          "Professional headshot editing",
+          "Product photo enhancement",
+          "Creative photo manipulation art",
+          "Before/after portfolio pieces"
+        ],
+        "practice": "Edit 50 photos in different styles"
+      },
+      "week_17": {
+        "title": "Months 1-2 Assessment & Portfolio",
+        "topics": [
+          "Portfolio planning and organization",
+          "Selecting best work",
+          "Creating case studies",
+          "Portfolio presentation techniques",
+          "Online portfolio platforms",
+          "Design process documentation"
+        ],
+        "projects": [
+          "Phase 1 Portfolio Website",
+          "10 best designs showcase",
+          "Design process case study"
+        ],
+        "assessment": "Complete design challenge in 3 hours"
+      }
+    },
+    "month_5_6": {
+      "title": "Phase 1 Projects & Specialization",
+      "weeks": "Week 1-8 Practical Application",
+      "week_18_19": {
+        "title": "Real Client Project Simulation",
+        "topics": [
+          "Client brief interpretation",
+          "Design research and mood boards",
+          "Concept development process",
+          "Presenting design options",
+          "Handling client feedback",
+          "Revision management",
+          "File organization and naming",
+          "Project timeline management",
+          "Design contracts basics",
+          "Pricing your work",
+          "Invoice and proposal creation",
+          "Building client relationships"
+        ],
+        "projects": [
+          "Complete rebrand for local business",
+          "Social media campaign for product launch",
+          "Event marketing materials package",
+          "Website graphics and assets"
+        ],
+        "practice": "Complete 3 mock client projects"
+      },
+      "week_20_21": {
+        "title": "Industry Specialization Tracks",
+        "topics": [
+          "E-commerce design specialization",
+          "Real estate marketing materials",
+          "Restaurant and food industry design",
+          "Fashion and beauty branding",
+          "Tech startup design needs",
+          "Non-profit and cause marketing",
+          "Educational content design",
+          "Healthcare and medical design",
+          "Sports and fitness branding",
+          "Entertainment industry graphics",
+          "B2B vs B2C design differences",
+          "Industry-specific requirements"
+        ],
+        "projects": [
+          "Choose specialization track",
+          "Industry-specific portfolio pieces",
+          "Niche market research project",
+          "Specialized template creation"
+        ],
+        "practice": "Create designs for 3 different industries"
+      },
+      "week_22_23": {
+        "title": "Advanced Canva Techniques",
+        "topics": [
+          "Custom illustrations in Canva",
+          "Advanced animation techniques",
+          "Creating GIFs and cinemagraphs",
+          "Data visualization and charts",
+          "Complex infographic layouts",
+          "Magazine-style layouts",
+          "Book cover design",
+          "Packaging design concepts",
+          "3D mockup integration",
+          "Advanced masking techniques",
+          "Creative effects and overlays",
+          "Canva Apps integration"
+        ],
+        "projects": [
+          "Animated infographic",
+          "Digital magazine spread",
+          "Product packaging concept",
+          "Interactive PDF creation"
+        ],
+        "practice": "Master 10 advanced Canva techniques"
+      },
+      "week_24_25": {
+        "title": "Design Systems & Consistency",
+        "topics": [
+          "Creating design systems",
+          "Component-based design",
+          "Style guide development",
+          "Template libraries management",
+          "Version control for designs",
+          "Design documentation",
+          "Accessibility in design",
+          "Inclusive design principles",
+          "Multi-language considerations",
+          "Responsive design basics",
+          "Cross-platform consistency",
+          "Design handoff basics"
+        ],
+        "projects": [
+          "Complete design system",
+          "Multi-brand template library",
+          "Accessibility audit and fixes",
+          "Responsive design mockups"
+        ],
+        "practice": "Build reusable design system"
+      },
+      "week_26": {
+        "title": "Phase 1 Final Project",
+        "topics": [
+          "Comprehensive design challenge",
+          "Time management under pressure",
+          "Quality control checklist",
+          "Professional presentation",
+          "Portfolio finalization",
+          "Career planning"
+        ],
+        "projects": [
+          "CAPSTONE: Complete Brand Package",
+          "Logo, stationery, social media, website mockup, marketing materials",
+          "Professional presentation deck",
+          "Case study documentation"
+        ],
+        "assessment": "Phase 1 Certification Exam"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Design & AI Tools Integration (Months 3-4, Weeks 9-17)",
+    "description": "Master advanced photo editing, video creation, and integrate cutting-edge AI design tools into your workflow.",
+    "month_7_8": {
+      "title": "Months 3-4: AI Design Tools & Advanced Photo Editing",
+      "weeks": "Week 9-17",
+      "week_27_28": {
+        "title": "Introduction to AI Design Tools",
+        "topics": [
+          "AI in design: Overview and possibilities",
+          "Midjourney: Setup and basics",
+          "Writing effective prompts for Midjourney",
+          "DALL-E 3: Access and capabilities",
+          "Stable Diffusion basics",
+          "Adobe Firefly integration",
+          "Canva AI features: Magic Write, Draw, Edit",
+          "ChatGPT for design briefs and copy",
+          "AI image upscaling tools",
+          "AI background removal tools",
+          "Ethical considerations in AI design",
+          "Copyright and AI-generated content"
+        ],
+        "projects": [
+          "Create AI-generated brand imagery",
+          "Design campaign using AI tools",
+          "AI-assisted logo concepts",
+          "Hybrid AI-manual design project"
+        ],
+        "practice": "Generate 100 AI images with different styles"
+      },
+      "week_29_30": {
+        "title": "Advanced Midjourney Mastery",
+        "topics": [
+          "Midjourney advanced parameters",
+          "Style references and image prompts",
+          "Aspect ratios and composition control",
+          "Creating consistent characters",
+          "Photorealistic vs artistic styles",
+          "Midjourney for product mockups",
+          "Architectural visualization",
+          "Fashion and textile design",
+          "Blending and remixing images",
+          "Upscaling and variations",
+          "Building a prompt library",
+          "Midjourney workflow optimization"
+        ],
+        "projects": [
+          "AI-generated product catalog",
+          "Consistent character for storytelling",
+          "Architectural concept designs",
+          "Fashion collection mood board"
+        ],
+        "practice": "Master 20 different Midjourney styles"
+      },
+      "week_31_32": {
+        "title": "AI-Powered Photo Editing",
+        "topics": [
+          "Photoshop AI features overview",
+          "Generative Fill techniques",
+          "Content-Aware tools mastery",
+          "AI sky replacement",
+          "Neural filters application",
+          "Canva's AI photo editing tools",
+          "Remove.bg and alternatives",
+          "AI-powered color grading",
+          "Face and body retouching with AI",
+          "AI image enhancement tools",
+          "Batch processing with AI",
+          "Combining AI with manual editing"
+        ],
+        "projects": [
+          "Professional portrait retouching",
+          "Product photo enhancement",
+          "Landscape photo transformation",
+          "Creative composite artwork"
+        ],
+        "practice": "Edit 30 photos using AI tools"
+      },
+      "week_33_34": {
+        "title": "Video Editing Fundamentals",
+        "topics": [
+          "Video editing basics in Canva",
+          "Timeline and sequencing",
+          "Transitions and effects",
+          "Adding text and titles",
+          "Music and sound effects",
+          "Video trimming and splitting",
+          "Speed adjustments",
+          "Color correction for video",
+          "Creating video templates",
+          "Exporting for different platforms",
+          "Introduction to CapCut",
+          "Mobile video editing tips"
+        ],
+        "projects": [
+          "Social media video ads",
+          "Product demonstration video",
+          "Animated logo reveal",
+          "Story-driven video content"
+        ],
+        "practice": "Create 20 short-form videos"
+      },
+      "week_35": {
+        "title": "Advanced Video & Animation",
+        "topics": [
+          "Motion graphics in Canva",
+          "Kinetic typography",
+          "Animated infographics",
+          "Green screen editing",
+          "Video loops and cinemagraphs",
+          "Animated presentations",
+          "Video podcast graphics",
+          "Live streaming overlays",
+          "Video thumbnails optimization",
+          "Creating video series",
+          "Video SEO basics",
+          "Analytics and optimization"
+        ],
+        "projects": [
+          "Animated explainer video",
+          "YouTube intro/outro",
+          "Instagram Reels series",
+          "Animated presentation"
+        ],
+        "practice": "Create daily video content for one week"
+      }
+    },
+    "month_9_10": {
+      "title": "Months 3-4: Professional Video & Content Creation",
+      "weeks": "Week 9-17 Continued",
+      "week_36_37": {
+        "title": "Content Creation Workflow",
+        "topics": [
+          "Content planning and calendars",
+          "Batch creation strategies",
+          "Content repurposing techniques",
+          "Cross-platform adaptation",
+          "Creating content templates",
+          "Automation tools and plugins",
+          "Content management systems",
+          "File organization for creators",
+          "Cloud storage solutions",
+          "Collaboration tools for teams",
+          "Version control for creatives",
+          "Backup strategies"
+        ],
+        "projects": [
+          "3-month content calendar",
+          "Content template library",
+          "Automated design workflow",
+          "Team collaboration project"
+        ],
+        "practice": "Create week's worth of content in one day"
+      },
+      "week_38_39": {
+        "title": "AI Video Generation",
+        "topics": [
+          "AI video generation tools overview",
+          "Synthesia for AI avatars",
+          "RunwayML capabilities",
+          "Pika Labs and Gen-2",
+          "D-ID for talking avatars",
+          "HeyGen platform usage",
+          "AI voice generation",
+          "Lip-sync technology",
+          "AI video editing assistants",
+          "Text-to-video creation",
+          "AI scene generation",
+          "Future of AI video"
+        ],
+        "projects": [
+          "AI spokesperson video",
+          "Animated story with AI",
+          "Product demo with AI avatar",
+          "Multi-language video content"
+        ],
+        "practice": "Create 10 AI-generated videos"
+      },
+      "week_40_41": {
+        "title": "Advanced AI Prompt Engineering",
+        "topics": [
+          "Prompt engineering principles",
+          "Prompt structure and syntax",
+          "Style modifiers mastery",
+          "Lighting and mood prompts",
+          "Camera angle specifications",
+          "Art movement references",
+          "Combining multiple concepts",
+          "Negative prompts usage",
+          "Seed and parameter control",
+          "Creating prompt templates",
+          "Prompt databases and resources",
+          "A/B testing prompts"
+        ],
+        "projects": [
+          "Prompt recipe book creation",
+          "Style guide using AI",
+          "Complex scene generation",
+          "Prompt optimization study"
+        ],
+        "practice": "Test 100 prompt variations"
+      },
+      "week_42_43": {
+        "title": "3D Design & AR Basics",
+        "topics": [
+          "3D design principles",
+          "Canva 3D text and elements",
+          "Introduction to Spline",
+          "3D mockup creation",
+          "Basic 3D modeling concepts",
+          "AR filter basics for social media",
+          "Spark AR introduction",
+          "3D product visualization",
+          "Virtual staging basics",
+          "3D logos and typography",
+          "Exporting 3D assets",
+          "Future of 3D in design"
+        ],
+        "projects": [
+          "3D product mockup",
+          "AR filter for Instagram",
+          "3D animated logo",
+          "Virtual room design"
+        ],
+        "practice": "Create 5 3D design projects"
+      },
+      "week_44": {
+        "title": "Phase 2 Integration Project",
+        "topics": [
+          "Combining traditional and AI design",
+          "Multi-tool workflow",
+          "Project planning and execution",
+          "Quality control with AI",
+          "Client presentation of AI work",
+          "Pricing AI-assisted projects"
+        ],
+        "projects": [
+          "Complete campaign using all tools",
+          "AI-enhanced brand package",
+          "Video content series",
+          "Interactive digital experience"
+        ],
+        "practice": "Integrate AI into all design work"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 3-4: Specialization & Advanced Techniques",
+      "weeks": "Week 9-17 Deep Dive",
+      "week_45_46": {
+        "title": "UI/UX Design Basics",
+        "topics": [
+          "UI vs UX understanding",
+          "User research basics",
+          "Wireframing in Canva",
+          "Creating user flows",
+          "Mobile app design principles",
+          "Web design fundamentals",
+          "Prototyping basics",
+          "Design systems for UI",
+          "Accessibility in UI design",
+          "Usability testing basics",
+          "Figma basics for designers",
+          "Handoff to developers"
+        ],
+        "projects": [
+          "Mobile app UI design",
+          "Website wireframe and mockup",
+          "Design system creation",
+          "User flow documentation"
+        ],
+        "practice": "Design 5 app screens daily"
+      },
+      "week_47_48": {
+        "title": "Motion Design & Animation",
+        "topics": [
+          "Principles of animation",
+          "Timing and easing",
+          "After Effects basics",
+          "Lottie animations",
+          "SVG animations",
+          "Animated logos and icons",
+          "Micro-interactions",
+          "Loading animations",
+          "Animated data visualization",
+          "Character animation basics",
+          "Motion design for social media",
+          "Creating animation style guides"
+        ],
+        "projects": [
+          "Animated brand elements",
+          "Motion infographic",
+          "Social media animation pack",
+          "Website loading animation"
+        ],
+        "practice": "Create daily animations for two weeks"
+      },
+      "week_49_50": {
+        "title": "Advanced Brand Design",
+        "topics": [
+          "Brand strategy fundamentals",
+          "Market research for designers",
+          "Competitor analysis",
+          "Brand positioning",
+          "Visual identity systems",
+          "Brand architecture",
+          "Packaging design advanced",
+          "Environmental graphics",
+          "Brand guidelines creation",
+          "Brand evolution and refresh",
+          "Measuring brand impact",
+          "Portfolio brands vs product brands"
+        ],
+        "projects": [
+          "Complete rebrand project",
+          "Brand extension design",
+          "Multi-touchpoint campaign",
+          "Brand book creation"
+        ],
+        "practice": "Develop 3 fictional brands"
+      },
+      "week_51": {
+        "title": "Print Production & Specifications",
+        "topics": [
+          "Print production process",
+          "Paper types and finishes",
+          "Color management for print",
+          "CMYK vs RGB deep dive",
+          "Prepress preparation",
+          "Die cutting and special finishes",
+          "Large format printing",
+          "Packaging dielines",
+          "Print vendor communication",
+          "Cost estimation for print",
+          "Sustainable printing options",
+          "Print quality control"
+        ],
+        "projects": [
+          "Print-ready business cards",
+          "Packaging design with dieline",
+          "Large format poster",
+          "Print production guide"
+        ],
+        "practice": "Prepare 10 designs for print"
+      },
+      "week_52": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Advanced project planning",
+          "Multi-deliverable projects",
+          "AI integration showcase",
+          "Professional presentation",
+          "Portfolio curation",
+          "Career advancement planning"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: AI-Enhanced Brand Campaign",
+          "Complete visual identity with AI elements",
+          "Video content series",
+          "Social media campaign",
+          "Print and digital materials"
+        ],
+        "assessment": "Phase 2 Final Exam - Complex design challenge"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Professional Practice & Business (Months 5-6, Weeks 18-26)",
+    "description": "Launch your design career with advanced business skills, client management, and professional portfolio development.",
+    "month_13_14": {
+      "title": "Months 5-6: Freelancing & Business Setup",
+      "weeks": "Week 18-26",
+      "week_53_54": {
+        "title": "Freelance Business Fundamentals",
+        "topics": [
+          "Freelancing vs employment pros/cons",
+          "Setting up your design business",
+          "Business registration and legal basics",
+          "Tax considerations for freelancers",
+          "Insurance for creative professionals",
+          "Home office setup and tools",
+          "Time tracking and productivity",
+          "Project management tools",
+          "Client communication best practices",
+          "Building professional reputation",
+          "Networking strategies",
+          "Finding your niche market"
+        ],
+        "projects": [
+          "Business plan creation",
+          "Professional website setup",
+          "Service package development",
+          "Client onboarding system"
+        ],
+        "practice": "Set up complete business infrastructure"
+      },
+      "week_55_56": {
+        "title": "Pricing & Proposals",
+        "topics": [
+          "How to price design work",
+          "Hourly vs project vs value pricing",
+          "Creating service packages",
+          "Proposal writing masterclass",
+          "Quote and estimate templates",
+          "Scope creep management",
+          "Contract essentials",
+          "Terms and conditions",
+          "Payment terms and methods",
+          "Dealing with late payments",
+          "Negotiation strategies",
+          "Raising your rates"
+        ],
+        "projects": [
+          "Pricing calculator creation",
+          "Professional proposal template",
+          "Service contract template",
+          "Invoice system setup"
+        ],
+        "practice": "Create proposals for 10 different projects"
+      },
+      "week_57_58": {
+        "title": "Client Management & Communication",
+        "topics": [
+          "Client onboarding process",
+          "Discovery calls and questionnaires",
+          "Setting client expectations",
+          "Project brief creation",
+          "Feedback management",
+          "Handling difficult clients",
+          "Revision policies",
+          "Project presentation skills",
+          "Video call best practices",
+          "Email communication templates",
+          "Building long-term relationships",
+          "Getting testimonials and referrals"
+        ],
+        "projects": [
+          "Client onboarding package",
+          "Communication template library",
+          "Feedback system creation",
+          "Client portal setup"
+        ],
+        "practice": "Role-play 5 client scenarios"
+      },
+      "week_59_60": {
+        "title": "Marketing Your Design Services",
+        "topics": [
+          "Personal branding for designers",
+          "Portfolio website optimization",
+          "SEO for designers",
+          "Social media marketing strategy",
+          "Content marketing for designers",
+          "Email marketing basics",
+          "LinkedIn for B2B clients",
+          "Instagram for design showcase",
+          "YouTube for tutorials and visibility",
+          "Paid advertising basics",
+          "Networking events and conferences",
+          "Referral programs"
+        ],
+        "projects": [
+          "Personal brand development",
+          "Marketing funnel creation",
+          "Social media strategy",
+          "Email campaign setup"
+        ],
+        "practice": "Implement 30-day marketing plan"
+      },
+      "week_61": {
+        "title": "Platform Mastery & Passive Income",
+        "topics": [
+          "Selling on Creative Market",
+          "Etsy for digital products",
+          "Gumroad setup and optimization",
+          "Creating and selling templates",
+          "Stock graphics creation",
+          "Print-on-demand basics",
+          "Course creation for designers",
+          "Affiliate marketing opportunities",
+          "Licensing your designs",
+          "Building recurring revenue",
+          "Scaling beyond 1-on-1 work",
+          "Passive income strategies"
+        ],
+        "projects": [
+          "Digital product creation",
+          "Template pack for sale",
+          "Online shop setup",
+          "Passive income stream launch"
+        ],
+        "practice": "Create 10 products for passive income"
+      }
+    },
+    "month_15_16": {
+      "title": "Months 5-6: Advanced Skills & Specialization",
+      "weeks": "Week 18-26 Continued",
+      "week_62_63": {
+        "title": "Web Design & Development Basics",
+        "topics": [
+          "HTML/CSS basics for designers",
+          "Responsive design principles",
+          "WordPress basics",
+          "Elementor page builder",
+          "Webflow introduction",
+          "Landing page design",
+          "E-commerce design principles",
+          "Web animation basics",
+          "SEO-friendly design",
+          "Web accessibility standards",
+          "Performance optimization",
+          "Hosting and domains"
+        ],
+        "projects": [
+          "Portfolio website creation",
+          "Client website design",
+          "Landing page with Webflow",
+          "WordPress site setup"
+        ],
+        "practice": "Build 3 complete websites"
+      },
+      "week_64_65": {
+        "title": "Advanced AI Workflows",
+        "topics": [
+          "Building AI-powered workflows",
+          "Automating design tasks",
+          "AI for content generation",
+          "ChatGPT for design briefs",
+          "AI copywriting integration",
+          "Bulk creation with AI",
+          "Quality control systems",
+          "AI tool combinations",
+          "Custom AI training basics",
+          "Future AI developments",
+          "Staying updated with AI",
+          "Teaching AI to clients"
+        ],
+        "projects": [
+          "Automated design pipeline",
+          "AI-powered service offering",
+          "Client education materials",
+          "AI workflow documentation"
+        ],
+        "practice": "Automate 5 design processes"
+      },
+      "week_66_67": {
+        "title": "Data Visualization & Infographics",
+        "topics": [
+          "Data viz principles",
+          "Chart and graph types",
+          "When to use which visualization",
+          "Creating compelling infographics",
+          "Interactive data visualization",
+          "Dashboard design",
+          "Report design and layout",
+          "Presentation data graphics",
+          "Tools for data import",
+          "Telling stories with data",
+          "Scientific and technical graphics",
+          "Annual report design"
+        ],
+        "projects": [
+          "Complex infographic design",
+          "Interactive dashboard",
+          "Annual report graphics",
+          "Data story presentation"
+        ],
+        "practice": "Create 20 data visualizations"
+      },
+      "week_68_69": {
+        "title": "Photography for Designers",
+        "topics": [
+          "Photography basics: composition, lighting",
+          "Smartphone photography tips",
+          "Product photography setup",
+          "Portrait photography basics",
+          "Food photography styling",
+          "Architectural photography",
+          "Stock photography creation",
+          "Photo editing workflow",
+          "Creating mockup photos",
+          "Lifestyle photography for brands",
+          "Managing photo libraries",
+          "Copyright and usage rights"
+        ],
+        "projects": [
+          "Product photography shoot",
+          "Brand lifestyle photos",
+          "Stock photo collection",
+          "Photography style guide"
+        ],
+        "practice": "Shoot and edit 100 photos"
+      },
+      "week_70": {
+        "title": "Emerging Technologies",
+        "topics": [
+          "Metaverse and design",
+          "NFT creation basics",
+          "Web3 design principles",
+          "VR/AR design considerations",
+          "Voice UI design basics",
+          "Designing for AI interfaces",
+          "Sustainability in design",
+          "Inclusive design practices",
+          "Design ethics and responsibility",
+          "Future design trends",
+          "Continuous learning strategies",
+          "Building expertise"
+        ],
+        "projects": [
+          "NFT collection design",
+          "AR experience concept",
+          "Future-focused portfolio piece",
+          "Trend report creation"
+        ],
+        "practice": "Experiment with 5 emerging technologies"
+      }
+    },
+    "month_17_18": {
+      "title": "Months 5-6: Portfolio & Career Launch",
+      "weeks": "Week 18-26 Final Phase",
+      "week_71_72": {
+        "title": "Portfolio Development",
+        "topics": [
+          "Portfolio strategy and planning",
+          "Selecting your best work",
+          "Case study creation",
+          "Before/after presentations",
+          "Process documentation",
+          "Client testimonials integration",
+          "Portfolio website design",
+          "Behance portfolio optimization",
+          "Dribbble presence",
+          "LinkedIn portfolio features",
+          "PDF portfolio creation",
+          "Video portfolio reels"
+        ],
+        "projects": [
+          "Complete portfolio website",
+          "10 detailed case studies",
+          "Portfolio presentation deck",
+          "Video portfolio reel"
+        ],
+        "practice": "Review and refine all portfolio pieces"
+      },
+      "week_73_74": {
+        "title": "Job Search & Applications",
+        "topics": [
+          "Design job market overview",
+          "Resume design and content",
+          "Cover letter writing",
+          "LinkedIn optimization",
+          "Job search strategies",
+          "Remote work opportunities",
+          "Interview preparation",
+          "Design challenges and tests",
+          "Salary negotiation",
+          "Freelance vs full-time decision",
+          "Building references",
+          "Following up effectively"
+        ],
+        "projects": [
+          "Professional resume design",
+          "LinkedIn profile optimization",
+          "Interview portfolio prep",
+          "Application tracking system"
+        ],
+        "practice": "Apply to 20 positions/opportunities"
+      },
+      "week_75_76": {
+        "title": "Advanced Client Projects",
+        "topics": [
+          "Managing multiple clients",
+          "Large project management",
+          "Team collaboration",
+          "Outsourcing and delegation",
+          "Quality control systems",
+          "Client retention strategies",
+          "Upselling and cross-selling",
+          "Building retainer relationships",
+          "Agency vs freelance",
+          "Starting a design agency",
+          "Hiring and training",
+          "Scaling your business"
+        ],
+        "projects": [
+          "Complex client project",
+          "Team collaboration project",
+          "Agency structure plan",
+          "Growth strategy document"
+        ],
+        "practice": "Complete 3 real client projects"
+      },
+      "week_77": {
+        "title": "Specialization Deep Dive",
+        "topics": [
+          "Choosing your specialization",
+          "Becoming an expert",
+          "Building authority",
+          "Speaking and teaching",
+          "Writing about design",
+          "Building a following",
+          "Thought leadership",
+          "Conference speaking",
+          "Workshop facilitation",
+          "Mentoring others",
+          "Giving back to community",
+          "Long-term career planning"
+        ],
+        "projects": [
+          "Specialization portfolio",
+          "Expert positioning strategy",
+          "Teaching materials creation",
+          "5-year career plan"
+        ],
+        "practice": "Develop expertise in chosen niche"
+      },
+      "week_78": {
+        "title": "Final Capstone & Graduation",
+        "topics": [
+          "Final project planning",
+          "Comprehensive skill demonstration",
+          "Professional presentation",
+          "Peer review and feedback",
+          "Instructor evaluation",
+          "Certification preparation",
+          "Alumni network access",
+          "Continued learning resources",
+          "Career support activation",
+          "Graduation celebration"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Brand & Campaign",
+          "From strategy to execution",
+          "AI-enhanced deliverables",
+          "Multi-platform campaign",
+          "Client presentation simulation"
+        ],
+        "assessment": "Final Comprehensive Assessment & Certification"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "BONUS PHASE: Lifetime Learning & Advanced Mastery",
+    "description": "Continuous updates with new tools, techniques, and industry developments. Access to masterclasses and advanced workshops.",
+    "month_19_20": {
+      "title": "Ongoing Advanced Workshops",
+      "weeks": "Lifetime Access",
+      "week_79_80": {
+        "title": "AI Tools Updates",
+        "topics": [
+          "Latest AI tool releases",
+          "New Midjourney features",
+          "DALL-E updates and improvements",
+          "Emerging AI platforms",
+          "Advanced prompt techniques",
+          "AI workflow optimization",
+          "Beta testing new tools",
+          "AI tool comparisons",
+          "Custom AI model training",
+          "AI API integration",
+          "Automating with AI",
+          "Future of AI in design"
+        ],
+        "projects": [
+          "Test new AI tools monthly",
+          "Create AI tool guides",
+          "Share discoveries with community",
+          "Build AI tool library"
+        ],
+        "practice": "Stay current with weekly AI updates"
+      },
+      "week_81_82": {
+        "title": "Design Trends & Innovation",
+        "topics": [
+          "Annual design trend analysis",
+          "Color trends and palettes",
+          "Typography trends",
+          "Motion design trends",
+          "Social media trends",
+          "Web design evolution",
+          "Print design innovations",
+          "Sustainable design practices",
+          "Cultural design movements",
+          "Technology-driven design",
+          "Experimental design",
+          "Trend forecasting"
+        ],
+        "projects": [
+          "Trend report creation",
+          "Experimental design series",
+          "Trend-based portfolio update",
+          "Innovation showcase"
+        ],
+        "practice": "Monthly trend exploration projects"
+      },
+      "week_83_84": {
+        "title": "Business Growth Strategies",
+        "topics": [
+          "Scaling design business",
+          "Building design teams",
+          "Agency development",
+          "Product business creation",
+          "SaaS for designers",
+          "Investment and funding",
+          "International expansion",
+          "Partnership strategies",
+          "Acquisition planning",
+          "Exit strategies",
+          "Wealth building for creatives",
+          "Financial planning"
+        ],
+        "projects": [
+          "Business growth plan",
+          "Investment pitch deck",
+          "Partnership proposals",
+          "5-year financial plan"
+        ],
+        "practice": "Quarterly business review and planning"
+      },
+      "week_85_86": {
+        "title": "Teaching & Course Creation",
+        "topics": [
+          "Creating design courses",
+          "Video tutorial production",
+          "Workshop development",
+          "Online course platforms",
+          "Pricing educational content",
+          "Marketing courses",
+          "Student engagement",
+          "Certification programs",
+          "Live workshop hosting",
+          "Webinar creation",
+          "Educational content strategy",
+          "Building educational brand"
+        ],
+        "projects": [
+          "Create mini-course",
+          "Workshop curriculum",
+          "Tutorial video series",
+          "Educational product launch"
+        ],
+        "practice": "Teach one concept weekly"
+      },
+      "week_87": {
+        "title": "Community & Networking",
+        "topics": [
+          "Building design community",
+          "Hosting design events",
+          "Online community management",
+          "Collaboration opportunities",
+          "Mentorship programs",
+          "Design challenges hosting",
+          "Conference attendance",
+          "Speaking opportunities",
+          "Award submissions",
+          "Press and media",
+          "Industry partnerships",
+          "Global design network"
+        ],
+        "projects": [
+          "Host design challenge",
+          "Organize local meetup",
+          "Submit to design awards",
+          "Media kit creation"
+        ],
+        "practice": "Weekly community engagement"
+      }
+    },
+    "month_21_22": {
+      "title": "Specialized Masterclasses",
+      "weeks": "Ongoing Access",
+      "week_88_89": {
+        "title": "Entertainment Industry Design",
+        "topics": [
+          "Movie poster design",
+          "Album cover creation",
+          "Concert merchandise",
+          "Streaming platform graphics",
+          "Gaming graphics and UI",
+          "Esports branding",
+          "Music video graphics",
+          "Festival branding",
+          "Entertainment marketing",
+          "Celebrity branding",
+          "Red carpet graphics",
+          "Award show design"
+        ],
+        "projects": [
+          "Movie campaign design",
+          "Album release package",
+          "Gaming brand identity",
+          "Festival complete branding"
+        ],
+        "practice": "Create entertainment portfolio"
+      },
+      "week_90_91": {
+        "title": "Luxury & Premium Design",
+        "topics": [
+          "Luxury brand principles",
+          "Premium packaging design",
+          "High-end typography",
+          "Gold and metallic effects",
+          "Minimalist luxury",
+          "Fashion brand design",
+          "Jewelry marketing",
+          "Real estate luxury marketing",
+          "Premium product launches",
+          "VIP event materials",
+          "Exclusive experiences design",
+          "Heritage brand refresh"
+        ],
+        "projects": [
+          "Luxury brand creation",
+          "Premium packaging suite",
+          "High-end event materials",
+          "Exclusive product launch"
+        ],
+        "practice": "Master luxury design aesthetics"
+      },
+      "week_92_93": {
+        "title": "Cultural & Social Impact Design",
+        "topics": [
+          "Non-profit branding",
+          "Cause marketing campaigns",
+          "Cultural sensitivity in design",
+          "Inclusive design practices",
+          "Accessibility standards",
+          "Environmental campaigns",
+          "Political campaign design",
+          "Healthcare communications",
+          "Educational materials",
+          "Government design standards",
+          "International design considerations",
+          "Social media activism"
+        ],
+        "projects": [
+          "Non-profit rebrand",
+          "Awareness campaign",
+          "Inclusive design system",
+          "Cultural event branding"
+        ],
+        "practice": "Design for social good"
+      },
+      "week_94_95": {
+        "title": "Technical & B2B Design",
+        "topics": [
+          "SaaS product marketing",
+          "Technical documentation design",
+          "B2B sales materials",
+          "White paper design",
+          "Case study layouts",
+          "Technical infographics",
+          "Software UI elements",
+          "API documentation",
+          "Developer marketing",
+          "Enterprise branding",
+          "Trade show materials",
+          "B2B social media"
+        ],
+        "projects": [
+          "SaaS marketing suite",
+          "Technical white paper",
+          "B2B campaign materials",
+          "Enterprise rebrand"
+        ],
+        "practice": "Master B2B design language"
+      },
+      "week_96": {
+        "title": "Personal Brand Mastery",
+        "topics": [
+          "Defining your unique style",
+          "Signature design elements",
+          "Personal brand evolution",
+          "Thought leadership content",
+          "Speaking and presentations",
+          "Book and eBook design",
+          "Personal merchandise",
+          "Studio branding",
+          "Awards and recognition",
+          "Legacy building",
+          "Retirement planning for creatives",
+          "Giving back strategies"
+        ],
+        "projects": [
+          "Personal brand refresh",
+          "Signature style guide",
+          "Speaker materials kit",
+          "Legacy project planning"
+        ],
+        "practice": "Refine personal brand quarterly"
+      }
+    },
+    "month_23": {
+      "title": "Expert Specializations",
+      "weeks": "Advanced Modules",
+      "week_97": {
+        "title": "Design Psychology & Neuroscience",
+        "topics": [
+          "Psychology of color",
+          "Cognitive load in design",
+          "Attention and focus",
+          "Memory and recognition",
+          "Emotional design triggers",
+          "Persuasion techniques",
+          "Habit-forming design",
+          "Neuromarketing basics",
+          "Eye-tracking studies",
+          "A/B testing for design",
+          "Conversion optimization",
+          "Behavioral economics in design"
+        ],
+        "projects": [
+          "Psychology-based redesign",
+          "Conversion optimization project",
+          "Emotional design campaign",
+          "Behavioral design system"
+        ],
+        "practice": "Apply psychology principles to all designs"
+      },
+      "week_98": {
+        "title": "Design Research & Strategy",
+        "topics": [
+          "User research methods",
+          "Market research for designers",
+          "Competitive analysis",
+          "Design thinking process",
+          "Workshop facilitation",
+          "Stakeholder management",
+          "Design sprints",
+          "Persona development",
+          "Journey mapping",
+          "Service design basics",
+          "Design metrics and KPIs",
+          "ROI of design"
+        ],
+        "projects": [
+          "Complete design research project",
+          "Design sprint facilitation",
+          "Strategy presentation",
+          "ROI case study"
+        ],
+        "practice": "Integrate research into design process"
+      },
+      "week_99": {
+        "title": "Global Design & Localization",
+        "topics": [
+          "International design standards",
+          "Cultural color meanings",
+          "Typography for different scripts",
+          "Right-to-left design",
+          "Localization best practices",
+          "Global brand adaptation",
+          "International marketing materials",
+          "Currency and measurement systems",
+          "Time zone considerations",
+          "Legal requirements by country",
+          "Global design trends",
+          "Cross-cultural communication"
+        ],
+        "projects": [
+          "Multi-language design system",
+          "Global campaign adaptation",
+          "International brand guide",
+          "Localized product design"
+        ],
+        "practice": "Create designs for 5 different cultures"
+      },
+      "week_100": {
+        "title": "Future of Design",
+        "topics": [
+          "Quantum computing and design",
+          "Brain-computer interfaces",
+          "Holographic design",
+          "Biodesign and genetics",
+          "Space and extraterrestrial design",
+          "Climate change design solutions",
+          "Post-pandemic design",
+          "Automation and design jobs",
+          "Ethics in automated design",
+          "Universal basic design",
+          "Design for longevity",
+          "Speculative design projects"
+        ],
+        "projects": [
+          "Future concept design",
+          "Speculative design series",
+          "Innovation white paper",
+          "25-year vision project"
+        ],
+        "practice": "Monthly future design exploration"
+      }
+    },
+    "month_24": {
+      "title": "Lifetime Success Program",
+      "weeks": "Ongoing Support",
+      "week_101_102": {
+        "title": "Alumni Success Program",
+        "topics": [
+          "Alumni network access",
+          "Ongoing mentorship",
+          "Job placement support",
+          "Project collaboration board",
+          "Guest expert sessions",
+          "Industry connections",
+          "Referral network",
+          "Success story features",
+          "Annual alumni events",
+          "Continued education credits",
+          "Tool discounts and deals",
+          "Lifetime community access"
+        ],
+        "projects": [
+          "Alumni portfolio showcase",
+          "Collaborative alumni project",
+          "Mentorship participation",
+          "Success story documentation"
+        ]
+      },
+      "week_103": {
+        "title": "Continuous Updates",
+        "topics": [
+          "Monthly tool updates",
+          "New feature tutorials",
+          "Industry news and insights",
+          "Design challenge participation",
+          "Beta testing opportunities",
+          "Expert interviews",
+          "Case study library access",
+          "Template library updates",
+          "Resource library expansion",
+          "Q&A session access",
+          "Office hours availability",
+          "Priority support channel"
+        ],
+        "deliverables": [
+          "Monthly update digest",
+          "New tool tutorials",
+          "Resource library access",
+          "Community forum participation"
+        ]
+      },
+      "week_104": {
+        "title": "Career Advancement Support",
+        "topics": [
+          "Annual career review",
+          "Goal setting sessions",
+          "Skill gap analysis",
+          "Advanced certification paths",
+          "Leadership development",
+          "Business coaching",
+          "Investment guidance",
+          "Exit strategy planning",
+          "Succession planning",
+          "Wealth management basics",
+          "Retirement planning",
+          "Legacy projects"
+        ],
+        "deliverables": [
+          "Annual career assessment",
+          "Personalized growth plan",
+          "Advanced certification options",
+          "Lifetime success tracking"
+        ],
+        "assessment": "Annual skill assessment and certification renewal"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1-2: 20+ foundational design projects including logos, social media posts, marketing materials",
+      "Month 3-4: 15+ AI-enhanced projects, video content, advanced photo manipulation",
+      "Month 5-6: 10+ professional client projects, complete campaigns, business setup",
+      "Bonus: Ongoing specialty projects in chosen niche",
+      "Final: Complete brand and marketing campaign with all deliverables"
+    ],
+    "total_projects_built": "50+ professional portfolio pieces",
+    "skills_mastered": [
+      "Design Tools: Canva Pro mastery, Adobe Creative Suite basics, Figma introduction",
+      "AI Tools: Midjourney, DALL-E, Stable Diffusion, ChatGPT, Adobe Firefly, Runway",
+      "Design Skills: Typography, Color Theory, Composition, Branding, Layout, UI/UX basics",
+      "Photo/Video: Photo editing, manipulation, video editing, animation, motion graphics",
+      "Business: Pricing, proposals, client management, marketing, freelancing, scaling",
+      "Specializations: Social media, marketing, branding, web design, print, packaging",
+      "Advanced: AI workflows, automation, 3D basics, AR filters, data visualization",
+      "Professional: Portfolio development, job search, networking, continuous learning"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_coding": "5-7 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live design critiques and Q&A",
+      "mentorship": "Monthly 1-on-1 mentor sessions",
+      "community": "24/7 Discord community with peer support",
+      "code_review": "Professional design feedback on all projects",
+      "career_support": "Portfolio reviews, job search help, client acquisition",
+      "lifetime_access": "All content, updates, new tools, and features"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each 2-month phase",
+      "final_certificate": "Professional Digital Designer Certification",
+      "linkedin_badge": "Verified LinkedIn certification badge",
+      "industry_recognized": "Recognized by design agencies and companies",
+      "portfolio_projects": "50+ portfolio pieces to showcase skills"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal education required - open to everyone",
+    "coding_experience": "No technical background needed",
+    "equipment": "Computer with internet (Canva works in browser)",
+    "time_commitment": "10-15 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Passion for creativity and visual communication"
+  },
+  "who_is_this_for": {
+    "students": "Students wanting creative career options",
+    "working_professionals": "Professionals adding design skills to their toolkit",
+    "entrepreneurs": "Business owners who want to DIY their marketing",
+    "freelancers": "People wanting to start design freelance business",
+    "kids": "Creative teens (14+) interested in design",
+    "anyone": "Anyone wanting to express creativity professionally"
+  },
+  "career_paths_after_completion": [
+    "Freelance Graphic Designer (₹30K-1L/month)",
+    "Social Media Manager (₹25K-60K/month)",
+    "Brand Designer (₹40K-80K/month)",
+    "Content Creator (₹20K-2L/month)",
+    "Digital Marketing Designer (₹30K-70K/month)",
+    "UI/UX Designer Junior (₹35K-65K/month)",
+    "Video Content Creator (₹40K-90K/month)",
+    "AI Design Specialist (₹50K-1.5L/month)",
+    "Design Agency Owner (₹1L-10L/month)",
+    "Design Educator/Influencer (₹50K-5L/month)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹15K-30K/month (Freelance projects)",
+    "after_12_months": "₹30K-60K/month (Regular clients)",
+    "after_18_months": "₹50K-1L/month (Established business)",
+    "after_24_months": "₹1L-3L/month (Agency/Multiple streams)",
+    "freelance": "₹500-5000/hour based on expertise",
+    "international": "$20-100/hour for international clients"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Client acquisition support and job placement help",
+    "lifetime_updates": "Free access to all new tools and updates",
+    "mentorship": "6 months of mentorship included",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "50+ portfolio pieces guaranteed"
+  }
+}

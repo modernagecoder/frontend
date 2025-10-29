@@ -1,0 +1,1294 @@
+{
+  "meta": {
+    "slug": "microsoft-office-kids-mastery",
+    "title": "Microsoft Office & Windows Mastery for Kids - Complete Digital Skills Course",
+    "description": "The most comprehensive 6-month Microsoft Office and Windows program for kids. Master Word, PowerPoint, Excel, Paint, OneNote, Teams, and 20+ Windows applications. From basic computer skills to professional productivity, create amazing projects while learning essential digital literacy.",
+    "keywords": [
+      "Microsoft Office for kids",
+      "Word for students",
+      "PowerPoint for kids",
+      "Excel basics",
+      "Windows skills",
+      "Paint 3D",
+      "OneNote for students",
+      "Microsoft Teams",
+      "computer literacy",
+      "typing skills",
+      "digital productivity",
+      "student technology",
+      "Office 365 education",
+      "Windows 11 for kids",
+      "computer basics"
+    ],
+    "category": "Digital Literacy & Productivity",
+    "price": {
+      "group": "₹699/month",
+      "personal": "₹1299/month",
+      "lifetime": "₹7,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Advanced User",
+    "commitment": "4-6 hours/week recommended",
+    "certification": "Microsoft Office Young Professional Certificate"
+  },
+  "program_overview": {
+    "title": "Microsoft Office & Windows Complete Training for Kids",
+    "tagline": "From First Click to Digital Professional - Master Every Microsoft Tool",
+    "description": "This comprehensive 6-month program transforms complete beginners into confident Microsoft Office users and Windows experts. Perfect for students aged 7-18, this course covers everything from basic computer operations to advanced Office features.\n\nStudents will master document creation in Word, stunning presentations in PowerPoint, data management in Excel, digital art in Paint, organization with OneNote, collaboration through Teams, and dozens of Windows tools. By completion, learners will have professional-level skills and an impressive portfolio of projects.",
+    "what_makes_this_different": [
+      "Kid-friendly approach to professional software",
+      "Hands-on projects for every tool",
+      "Real-world applications for school and life",
+      "Progressive skill building from basics to advanced",
+      "Creative projects mixed with practical skills",
+      "Parent-friendly progress tracking",
+      "Preparation for academic and career success",
+      "Covers both Office 365 and Windows 11 tools"
+    ],
+    "learning_path": {
+      "month_1": "Windows Basics & Digital Art with Paint",
+      "month_2": "Microsoft Word Mastery",
+      "month_3": "PowerPoint Presentation Excellence",
+      "month_4": "Excel and Data Skills",
+      "month_5": "OneNote, Teams & Collaboration Tools",
+      "month_6": "Advanced Integration & Professional Projects"
+    },
+    "career_outcomes": [
+      "Digital Content Creator",
+      "Student Technology Leader",
+      "Office Productivity Expert",
+      "Data Analysis Beginner",
+      "Professional Document Designer"
+    ]
+  },
+  "month_1": {
+    "title": "Month 1: Windows Basics & Digital Art",
+    "description": "Master Windows fundamentals, file management, and creative expression with Paint and Paint 3D.",
+    "week_1": {
+      "title": "Introduction to Windows & Computer Basics",
+      "topics": [
+        "Computer components: monitor, keyboard, mouse, CPU",
+        "Turning computer on/off properly",
+        "Windows 11 desktop overview",
+        "Start menu navigation",
+        "Taskbar features and customization",
+        "Desktop icons and shortcuts",
+        "Mouse skills: click, double-click, right-click, drag",
+        "Keyboard basics: letters, numbers, special keys",
+        "Caps Lock, Shift, Enter, Backspace, Delete",
+        "Windows key shortcuts introduction",
+        "Volume and brightness controls",
+        "Connecting to WiFi networks"
+      ],
+      "tools_covered": [
+        "Windows 11 interface",
+        "Settings app basics",
+        "Control Panel introduction",
+        "System tray features"
+      ],
+      "projects": [
+        "Customize desktop wallpaper and theme",
+        "Create desktop shortcuts",
+        "Organize taskbar with favorite apps",
+        "Personal desktop setup"
+      ],
+      "skills_practice": [
+        "Mouse accuracy games",
+        "Keyboard typing exercises",
+        "Navigation challenges",
+        "Shortcut memorization"
+      ]
+    },
+    "week_2": {
+      "title": "File Management & Organization",
+      "topics": [
+        "Understanding files and folders",
+        "File Explorer navigation",
+        "Creating new folders",
+        "Naming conventions for files",
+        "Moving and copying files",
+        "Cut, copy, paste operations",
+        "Deleting and Recycle Bin",
+        "Searching for files",
+        "File types and extensions",
+        "Organizing Downloads folder",
+        "Creating folder structures",
+        "File properties and details",
+        "Compressing files with ZIP",
+        "OneDrive basics and cloud storage"
+      ],
+      "tools_covered": [
+        "File Explorer",
+        "Search functionality",
+        "OneDrive",
+        "Recycle Bin",
+        "File compression"
+      ],
+      "projects": [
+        "Create organized folder system for schoolwork",
+        "Digital filing cabinet setup",
+        "Photo organization project",
+        "Backup important files"
+      ],
+      "exercises": [
+        "File sorting challenge",
+        "Speed organization drills",
+        "Find and organize scattered files",
+        "Create folder hierarchy"
+      ]
+    },
+    "week_3": {
+      "title": "Microsoft Paint Fundamentals",
+      "topics": [
+        "Opening and navigating Paint",
+        "Drawing tools: pencil, brushes, shapes",
+        "Color palette and custom colors",
+        "Fill tool and color picker",
+        "Line and curve tools",
+        "Shape tools: rectangle, circle, polygon",
+        "Text tool and fonts",
+        "Selection tools and moving objects",
+        "Resize and rotate features",
+        "Zoom in/out for detail work",
+        "Saving in different formats (PNG, JPEG, BMP)",
+        "Image size and canvas size",
+        "Copying and pasting images",
+        "Using Paint for school projects"
+      ],
+      "tools_covered": [
+        "Microsoft Paint",
+        "Color picker",
+        "All drawing tools",
+        "Image editing basics"
+      ],
+      "projects": [
+        "Create pixel art characters",
+        "Design birthday card",
+        "Draw house and landscape",
+        "Make school poster",
+        "Create emoji collection"
+      ],
+      "creative_challenges": [
+        "Daily drawing prompt",
+        "Recreate famous artwork",
+        "Design game sprites",
+        "Illustrate short story"
+      ]
+    },
+    "week_4": {
+      "title": "Paint 3D & Advanced Digital Art",
+      "topics": [
+        "Introduction to Paint 3D interface",
+        "2D shapes in 3D space",
+        "3D shapes and models",
+        "3D doodle tool",
+        "Stickers and textures",
+        "Text effects in 3D",
+        "Magic select tool for backgrounds",
+        "3D library and models",
+        "Lighting and effects",
+        "3D rotation and positioning",
+        "Creating 3D scenes",
+        "Exporting 3D models",
+        "Mixed reality viewer",
+        "Combining 2D and 3D elements",
+        "Animation basics in Paint 3D"
+      ],
+      "tools_covered": [
+        "Paint 3D",
+        "3D Viewer",
+        "Mixed Reality Viewer",
+        "3D Builder basics"
+      ],
+      "projects": [
+        "Design 3D room layout",
+        "Create 3D character",
+        "Build virtual diorama",
+        "Make 3D greeting card",
+        "Design custom 3D logo"
+      ],
+      "advanced_projects": [
+        "3D story scene creation",
+        "Virtual museum exhibit",
+        "3D game assets",
+        "Architectural model"
+      ]
+    }
+  },
+  "month_2": {
+    "title": "Month 2: Microsoft Word Mastery",
+    "description": "Become a Word expert, creating professional documents, reports, and creative writing projects.",
+    "week_5": {
+      "title": "Word Basics & Text Formatting",
+      "topics": [
+        "Opening Microsoft Word and interface tour",
+        "Creating new documents",
+        "Ribbon interface explanation",
+        "Quick Access Toolbar customization",
+        "Typing and text selection techniques",
+        "Font types and sizes",
+        "Bold, italic, underline formatting",
+        "Text color and highlighting",
+        "Alignment: left, center, right, justify",
+        "Line spacing and paragraph spacing",
+        "Bullets and numbering",
+        "Indentation and tabs",
+        "Copy, cut, paste operations",
+        "Undo and redo features",
+        "Saving documents and file formats"
+      ],
+      "tools_covered": [
+        "Home tab features",
+        "Font dialog box",
+        "Paragraph settings",
+        "Clipboard tools"
+      ],
+      "projects": [
+        "Write and format a story",
+        "Create class notes template",
+        "Design invitation letter",
+        "Format poem with styling"
+      ],
+      "typing_practice": [
+        "Speed typing exercises",
+        "Accuracy challenges",
+        "Format matching games",
+        "Touch typing basics"
+      ]
+    },
+    "week_6": {
+      "title": "Advanced Formatting & Page Layout",
+      "topics": [
+        "Page setup: margins, orientation, size",
+        "Headers and footers",
+        "Page numbers and formatting",
+        "Section breaks and page breaks",
+        "Columns for newsletters",
+        "Borders and shading",
+        "Watermarks and page color",
+        "Themes and style sets",
+        "Creating and using styles",
+        "Table of contents generation",
+        "Cover pages and templates",
+        "Drop caps and special effects",
+        "Text boxes and positioning",
+        "WordArt for titles",
+        "Page borders and art"
+      ],
+      "tools_covered": [
+        "Layout tab",
+        "Design tab",
+        "Insert tab basics",
+        "Styles gallery"
+      ],
+      "projects": [
+        "Create school newsletter",
+        "Design book report template",
+        "Make professional letter",
+        "Build recipe book layout"
+      ],
+      "design_challenges": [
+        "Magazine page layout",
+        "Poster design in Word",
+        "Brochure creation",
+        "Certificate design"
+      ]
+    },
+    "week_7": {
+      "title": "Working with Images & Graphics",
+      "topics": [
+        "Inserting pictures from computer",
+        "Online pictures and stock images",
+        "Picture formatting and styles",
+        "Cropping and resizing images",
+        "Picture effects and corrections",
+        "Text wrapping options",
+        "SmartArt graphics creation",
+        "Charts and graphs in Word",
+        "Shapes and drawing tools",
+        "Icons and 3D models",
+        "Screenshots and screen clipping",
+        "Arranging multiple objects",
+        "Grouping and ungrouping",
+        "Captions for images",
+        "Compress pictures for file size"
+      ],
+      "tools_covered": [
+        "Picture Tools",
+        "SmartArt Tools",
+        "Drawing Tools",
+        "Chart Tools"
+      ],
+      "projects": [
+        "Illustrated story book",
+        "Science project report with diagrams",
+        "Travel brochure with images",
+        "How-to guide with screenshots"
+      ],
+      "creative_work": [
+        "Photo essay creation",
+        "Infographic design",
+        "Visual timeline",
+        "Diagram creation"
+      ]
+    },
+    "week_8": {
+      "title": "Tables, References & Collaboration",
+      "topics": [
+        "Creating tables from scratch",
+        "Table styles and formatting",
+        "Adding/deleting rows and columns",
+        "Merging and splitting cells",
+        "Table calculations and formulas",
+        "Converting text to tables",
+        "Footnotes and endnotes",
+        "Citations and bibliography",
+        "Hyperlinks and bookmarks",
+        "Track changes feature",
+        "Comments and reviewing",
+        "Comparing documents",
+        "Sharing and co-authoring",
+        "Protecting documents",
+        "Printing options and preview"
+      ],
+      "tools_covered": [
+        "Table Tools",
+        "References tab",
+        "Review tab",
+        "Share features"
+      ],
+      "projects": [
+        "Class schedule table",
+        "Research paper with citations",
+        "Collaborative story writing",
+        "Data comparison report"
+      ],
+      "academic_skills": [
+        "Proper citation format",
+        "Research paper structure",
+        "Peer review process",
+        "Version control"
+      ]
+    }
+  },
+  "month_3": {
+    "title": "Month 3: PowerPoint Presentation Excellence",
+    "description": "Master the art of creating engaging, professional presentations with PowerPoint.",
+    "week_9": {
+      "title": "PowerPoint Fundamentals",
+      "topics": [
+        "PowerPoint interface overview",
+        "Slide layouts and placeholders",
+        "Adding new slides",
+        "Slide themes and variants",
+        "Text formatting in slides",
+        "Bullet points and numbering",
+        "Slide backgrounds and fills",
+        "Color schemes and fonts",
+        "Slide master basics",
+        "Notes and comments",
+        "Outline view for planning",
+        "Slide sorter view",
+        "Saving presentations",
+        "PowerPoint file formats",
+        "Presenter view introduction"
+      ],
+      "tools_covered": [
+        "Home tab features",
+        "Design tab themes",
+        "View options",
+        "Slide layouts"
+      ],
+      "projects": [
+        "About Me presentation",
+        "Book report slideshow",
+        "Science topic presentation",
+        "Family photo album"
+      ],
+      "presentation_skills": [
+        "Slide planning",
+        "Content organization",
+        "Visual hierarchy",
+        "Consistency in design"
+      ]
+    },
+    "week_10": {
+      "title": "Animations & Transitions",
+      "topics": [
+        "Slide transitions types",
+        "Transition timing and duration",
+        "Transition sounds",
+        "Animation basics",
+        "Entrance animations",
+        "Emphasis animations",
+        "Exit animations",
+        "Motion path animations",
+        "Animation pane control",
+        "Animation timing and delay",
+        "Animation triggers",
+        "Combining multiple animations",
+        "Morph transition feature",
+        "3D models animation",
+        "Creating smooth flows"
+      ],
+      "tools_covered": [
+        "Transitions tab",
+        "Animations tab",
+        "Animation Pane",
+        "Effect Options"
+      ],
+      "projects": [
+        "Animated story presentation",
+        "Kinetic typography project",
+        "Science process animation",
+        "Interactive quiz show"
+      ],
+      "creative_challenges": [
+        "Animate alphabet learning",
+        "Create countdown timer",
+        "Build animated infographic",
+        "Design loading animations"
+      ]
+    },
+    "week_11": {
+      "title": "Multimedia & Interactive Elements",
+      "topics": [
+        "Inserting images and graphics",
+        "Photo albums in PowerPoint",
+        "Video insertion and editing",
+        "Video playback options",
+        "Audio and music addition",
+        "Recording narration",
+        "Screen recording feature",
+        "Creating hyperlinks",
+        "Action buttons",
+        "Interactive navigation",
+        "Zoom feature for emphasis",
+        "Embedding web content",
+        "Charts and graphs",
+        "SmartArt in presentations",
+        "QR codes in slides"
+      ],
+      "tools_covered": [
+        "Insert tab multimedia",
+        "Video Tools",
+        "Audio Tools",
+        "Recording tab"
+      ],
+      "projects": [
+        "Video presentation project",
+        "Interactive story with choices",
+        "Virtual tour presentation",
+        "Music video slideshow"
+      ],
+      "advanced_features": [
+        "Green screen effects",
+        "Picture-in-picture",
+        "Audio synchronization",
+        "Interactive games"
+      ]
+    },
+    "week_12": {
+      "title": "Advanced Design & Presenting",
+      "topics": [
+        "Slide Master customization",
+        "Creating custom layouts",
+        "Design Ideas feature",
+        "Icons and stock images",
+        "3D models and rotation",
+        "Cameo (PowerPoint Live)",
+        "Presenter Coach feature",
+        "Rehearse with Coach",
+        "Live captions and subtitles",
+        "Translation features",
+        "Broadcasting presentations",
+        "Export options (video, PDF, etc.)",
+        "PowerPoint Designer AI",
+        "Accessibility checker",
+        "Mobile presenting"
+      ],
+      "tools_covered": [
+        "Slide Master view",
+        "Design Ideas",
+        "Presenter Coach",
+        "Export features"
+      ],
+      "projects": [
+        "Professional pitch deck",
+        "Educational tutorial",
+        "Digital portfolio",
+        "Conference presentation"
+      ],
+      "presentation_delivery": [
+        "Public speaking tips",
+        "Body language",
+        "Q&A handling",
+        "Time management"
+      ]
+    }
+  },
+  "month_4": {
+    "title": "Month 4: Excel and Data Skills",
+    "description": "Learn spreadsheet basics, data management, charts, and basic formulas with Excel.",
+    "week_13": {
+      "title": "Excel Basics & Data Entry",
+      "topics": [
+        "Excel interface and terminology",
+        "Workbooks and worksheets",
+        "Cells, rows, and columns",
+        "Selecting cells and ranges",
+        "Entering text and numbers",
+        "AutoFill feature",
+        "Number formats (currency, percentage, date)",
+        "Cell formatting and styles",
+        "Column width and row height",
+        "Inserting and deleting rows/columns",
+        "Copy, cut, paste special",
+        "Find and replace",
+        "Freeze panes",
+        "Splitting windows",
+        "Worksheet tabs management"
+      ],
+      "tools_covered": [
+        "Home tab essentials",
+        "Format Cells dialog",
+        "Quick Analysis tool",
+        "Fill Handle"
+      ],
+      "projects": [
+        "Class grade tracker",
+        "Personal budget sheet",
+        "Chore chart with dates",
+        "Sports statistics table"
+      ],
+      "data_skills": [
+        "Accurate data entry",
+        "Keyboard shortcuts",
+        "Data validation basics",
+        "Error checking"
+      ]
+    },
+    "week_14": {
+      "title": "Formulas & Functions",
+      "topics": [
+        "Understanding formulas",
+        "Basic arithmetic operations (+, -, *, /)",
+        "Cell references (relative vs absolute)",
+        "SUM function",
+        "AVERAGE function",
+        "COUNT and COUNTA",
+        "MIN and MAX functions",
+        "IF statements basics",
+        "AutoSum feature",
+        "Function wizard",
+        "Formula bar usage",
+        "Order of operations",
+        "Copying formulas",
+        "Common formula errors",
+        "Simple problem solving"
+      ],
+      "tools_covered": [
+        "Formulas tab",
+        "Function Library",
+        "Formula Auditing",
+        "Error Checking"
+      ],
+      "projects": [
+        "Grade calculator with average",
+        "Shopping budget calculator",
+        "Simple game scorecard",
+        "Time tracking sheet"
+      ],
+      "math_applications": [
+        "Math homework helper",
+        "Science data calculations",
+        "Statistics basics",
+        "Problem-solving scenarios"
+      ]
+    },
+    "week_15": {
+      "title": "Charts & Data Visualization",
+      "topics": [
+        "Types of charts (column, line, pie)",
+        "Creating charts from data",
+        "Chart elements and parts",
+        "Chart styles and colors",
+        "Chart titles and labels",
+        "Legend positioning",
+        "Data labels addition",
+        "Changing chart types",
+        "Sparklines for mini charts",
+        "Combination charts",
+        "3D chart effects",
+        "Chart templates",
+        "Printing charts",
+        "Charts in other Office apps",
+        "Infographic creation"
+      ],
+      "tools_covered": [
+        "Insert Charts",
+        "Chart Tools",
+        "Chart Design tab",
+        "Sparklines"
+      ],
+      "projects": [
+        "Weather data visualization",
+        "Survey results charts",
+        "Growth tracking chart",
+        "Game statistics dashboard"
+      ],
+      "visualization_skills": [
+        "Choosing right chart type",
+        "Color theory in data",
+        "Telling stories with data",
+        "Dashboard creation"
+      ]
+    },
+    "week_16": {
+      "title": "Data Management & Analysis",
+      "topics": [
+        "Sorting data A-Z, Z-A",
+        "Custom sort orders",
+        "Filter data basics",
+        "AutoFilter features",
+        "Conditional formatting",
+        "Data bars and color scales",
+        "Icon sets for visual cues",
+        "Tables in Excel",
+        "Table styles and formatting",
+        "PivotTable basics (introduction)",
+        "Data validation rules",
+        "Drop-down lists creation",
+        "Protecting cells and sheets",
+        "Sharing and collaboration",
+        "Import/export data"
+      ],
+      "tools_covered": [
+        "Data tab features",
+        "Table Tools",
+        "Conditional Formatting",
+        "Data Validation"
+      ],
+      "projects": [
+        "Student database",
+        "Inventory tracking system",
+        "Event planning spreadsheet",
+        "Analysis report with visuals"
+      ],
+      "real_world_skills": [
+        "Database thinking",
+        "Quality control",
+        "Report generation",
+        "Decision making with data"
+      ]
+    }
+  },
+  "month_5": {
+    "title": "Month 5: OneNote, Teams & Collaboration Tools",
+    "description": "Master digital note-taking, online collaboration, and communication tools.",
+    "week_17": {
+      "title": "OneNote Digital Notebook",
+      "topics": [
+        "OneNote interface overview",
+        "Notebooks, sections, and pages",
+        "Creating notebook structure",
+        "Typing and formatting notes",
+        "Handwriting and drawing",
+        "Inserting images and files",
+        "Audio and video recording",
+        "Screen clipping tool",
+        "Tags for organization",
+        "Search functionality",
+        "To-do lists and checkboxes",
+        "Tables in OneNote",
+        "Math equations",
+        "Syncing across devices",
+        "Sharing notebooks"
+      ],
+      "tools_covered": [
+        "OneNote Desktop",
+        "OneNote for Windows 10",
+        "OneNote mobile apps",
+        "Web Clipper"
+      ],
+      "projects": [
+        "Digital school binder",
+        "Research project notebook",
+        "Personal journal/diary",
+        "Study guide creation"
+      ],
+      "organization_skills": [
+        "Note-taking methods",
+        "Cornell notes system",
+        "Mind mapping",
+        "Information management"
+      ]
+    },
+    "week_18": {
+      "title": "Microsoft Teams for Students",
+      "topics": [
+        "Teams interface navigation",
+        "Joining and creating teams",
+        "Channels and conversations",
+        "Chat features and etiquette",
+        "Video calls and meetings",
+        "Screen sharing basics",
+        "File sharing in Teams",
+        "Assignments submission",
+        "Calendar integration",
+        "Together mode and backgrounds",
+        "Breakout rooms",
+        "Meeting recordings",
+        "Live events basics",
+        "Teams mobile app",
+        "Notifications management"
+      ],
+      "tools_covered": [
+        "Microsoft Teams",
+        "Teams Calendar",
+        "Teams Assignments",
+        "Teams Chat"
+      ],
+      "projects": [
+        "Class collaboration project",
+        "Virtual study group setup",
+        "Team presentation delivery",
+        "Digital club meeting"
+      ],
+      "digital_citizenship": [
+        "Online etiquette",
+        "Virtual meeting behavior",
+        "Digital communication",
+        "Privacy awareness"
+      ]
+    },
+    "week_19": {
+      "title": "Outlook & Email Skills",
+      "topics": [
+        "Email basics and etiquette",
+        "Outlook interface tour",
+        "Composing professional emails",
+        "To, CC, BCC explained",
+        "Subject line importance",
+        "Attachments and file size",
+        "Email signatures creation",
+        "Folders and organization",
+        "Rules and filters",
+        "Calendar basics",
+        "Scheduling meetings",
+        "Tasks and to-do lists",
+        "Contacts management",
+        "Out of office replies",
+        "Email safety and spam"
+      ],
+      "tools_covered": [
+        "Outlook Desktop",
+        "Outlook Web App",
+        "Calendar features",
+        "People (Contacts)"
+      ],
+      "projects": [
+        "Professional email templates",
+        "Class project coordination",
+        "Event planning with calendar",
+        "Contact database creation"
+      ],
+      "professional_skills": [
+        "Business communication",
+        "Time management",
+        "Meeting scheduling",
+        "Follow-up practices"
+      ]
+    },
+    "week_20": {
+      "title": "Additional Microsoft Tools",
+      "topics": [
+        "Microsoft Forms for surveys",
+        "Creating quizzes and polls",
+        "Sway for web presentations",
+        "Whiteboard for collaboration",
+        "To Do for task management",
+        "Sticky Notes digital version",
+        "Lens for text extraction",
+        "Clipchamp video editor basics",
+        "Microsoft Edge features",
+        "Collections in Edge",
+        "Immersive Reader",
+        "Math Solver app",
+        "Family Safety basics",
+        "Microsoft Rewards",
+        "Accessibility tools"
+      ],
+      "tools_covered": [
+        "Microsoft Forms",
+        "Sway",
+        "Whiteboard",
+        "To Do",
+        "Clipchamp",
+        "Edge browser"
+      ],
+      "projects": [
+        "Class survey with Forms",
+        "Web story with Sway",
+        "Brainstorm with Whiteboard",
+        "Video project with Clipchamp"
+      ],
+      "integration_skills": [
+        "Tool selection",
+        "Workflow creation",
+        "Cross-app features",
+        "Productivity systems"
+      ]
+    }
+  },
+  "month_6": {
+    "title": "Month 6: Advanced Integration & Professional Projects",
+    "description": "Combine all skills for complex projects and professional-level work.",
+    "week_21": {
+      "title": "Advanced Windows Tools & Utilities",
+      "topics": [
+        "Snipping Tool and Snip & Sketch",
+        "Voice Recorder application",
+        "Calculator programmer mode",
+        "Notepad and advanced features",
+        "Character Map for symbols",
+        "Windows Security essentials",
+        "Backup and restore",
+        "System maintenance",
+        "Disk Cleanup utility",
+        "Windows Updates management",
+        "Troubleshooting basics",
+        "Accessibility features deep dive",
+        "Speech recognition",
+        "Virtual desktops",
+        "God Mode activation"
+      ],
+      "tools_covered": [
+        "Snipping Tool",
+        "Voice Recorder",
+        "System utilities",
+        "Windows Security",
+        "Accessibility tools"
+      ],
+      "projects": [
+        "Create tutorial with screenshots",
+        "System optimization guide",
+        "Accessibility setup for needs",
+        "Custom workflow creation"
+      ],
+      "technical_skills": [
+        "System management",
+        "Troubleshooting",
+        "Performance optimization",
+        "Security awareness"
+      ]
+    },
+    "week_22": {
+      "title": "Integrated Office Projects",
+      "topics": [
+        "Mail merge Word with Excel",
+        "Embedding Excel charts in Word",
+        "PowerPoint with Excel data",
+        "OneNote integration with Office",
+        "Teams assignments workflow",
+        "Creating templates library",
+        "Macro basics (introduction)",
+        "Quick Parts and building blocks",
+        "Custom ribbons basics",
+        "Office themes consistency",
+        "Cloud synchronization",
+        "Version history usage",
+        "Co-authoring features",
+        "Office mobile apps",
+        "Office on the web"
+      ],
+      "tools_covered": [
+        "Mail Merge wizard",
+        "Object embedding",
+        "Office themes",
+        "Cloud features"
+      ],
+      "projects": [
+        "Newsletter with mail merge",
+        "Report with live Excel data",
+        "Integrated presentation package",
+        "Complete project workflow"
+      ],
+      "workflow_mastery": [
+        "Process automation",
+        "Template creation",
+        "Efficiency techniques",
+        "Quality control"
+      ]
+    },
+    "week_23": {
+      "title": "Professional Document Creation",
+      "topics": [
+        "Resume and CV creation",
+        "Cover letter writing",
+        "Business letter formats",
+        "Report writing structure",
+        "Proposal creation",
+        "Meeting minutes template",
+        "Invoice and receipt creation",
+        "Certificate design",
+        "Poster and flyer design",
+        "Brochure layout",
+        "Portfolio compilation",
+        "Digital signatures basics",
+        "PDF creation and editing",
+        "Print preparation",
+        "Document accessibility"
+      ],
+      "tools_covered": [
+        "Professional templates",
+        "Design tools",
+        "PDF features",
+        "Print settings"
+      ],
+      "projects": [
+        "Personal resume creation",
+        "Business proposal mock-up",
+        "Event planning package",
+        "Portfolio website content"
+      ],
+      "career_preparation": [
+        "Professional writing",
+        "Document design",
+        "Brand consistency",
+        "Industry standards"
+      ]
+    },
+    "week_24": {
+      "title": "Creative Multimedia Projects",
+      "topics": [
+        "Digital magazine creation",
+        "Yearbook page design",
+        "Interactive presentations",
+        "Educational game creation",
+        "Video project with Office",
+        "Podcast production workflow",
+        "Social media content creation",
+        "Digital art portfolio",
+        "Science fair presentation",
+        "History timeline project",
+        "Geography interactive maps",
+        "Math visualization projects",
+        "Literature analysis presentation",
+        "Music program creation",
+        "Sports statistics dashboard"
+      ],
+      "tools_covered": [
+        "All Office applications",
+        "Windows creative tools",
+        "Integration features",
+        "Publishing options"
+      ],
+      "projects": [
+        "Digital magazine issue",
+        "Interactive learning game",
+        "Multimedia presentation",
+        "Complete creative portfolio"
+      ],
+      "creative_skills": [
+        "Design thinking",
+        "Content creation",
+        "Storytelling",
+        "Visual communication"
+      ]
+    },
+    "week_25": {
+      "title": "Final Capstone Project",
+      "topics": [
+        "Project planning and scope",
+        "Requirements gathering",
+        "Timeline creation",
+        "Resource planning",
+        "Design documentation",
+        "Development phases",
+        "Testing and revision",
+        "User feedback incorporation",
+        "Final polishing",
+        "Presentation preparation",
+        "Documentation writing",
+        "Reflection and learning"
+      ],
+      "capstone_options": [
+        "School Yearbook Digital Edition",
+        "Complete Business Simulation",
+        "Educational Course Creation",
+        "Non-Profit Organization Package",
+        "Personal Brand Portfolio",
+        "Science Research Project",
+        "Creative Writing Anthology",
+        "Community Service Campaign"
+      ],
+      "deliverables": [
+        "Complete project files",
+        "Documentation package",
+        "Presentation deck",
+        "Video demonstration",
+        "Reflection report"
+      ]
+    },
+    "week_26": {
+      "title": "Graduation & Certification",
+      "topics": [
+        "Final project presentations",
+        "Peer review session",
+        "Skills assessment completion",
+        "Portfolio finalization",
+        "Certificate preparation",
+        "Future learning paths",
+        "Advanced course options",
+        "Career pathway discussion",
+        "Industry certifications info",
+        "Continued learning resources",
+        "Alumni network access",
+        "Celebration ceremony"
+      ],
+      "final_showcase": [
+        "Public presentation day",
+        "Online gallery creation",
+        "Best project awards",
+        "Skills demonstration",
+        "Parent showcase event"
+      ],
+      "certification_package": [
+        "Course completion certificate",
+        "Skills transcript",
+        "Portfolio of 50+ projects",
+        "Letter of recommendation eligibility",
+        "LinkedIn badge"
+      ],
+      "future_paths": [
+        "Microsoft Office Specialist Certification prep",
+        "Advanced Excel and data analysis",
+        "Graphic design with Office",
+        "Business applications",
+        "Teaching assistant opportunities"
+      ]
+    }
+  },
+  "additional_windows_tools": {
+    "creative_tools": [
+      "Paint 3D - 3D modeling and art",
+      "Photos - Photo editing and video creation",
+      "Video Editor - Basic video editing",
+      "3D Viewer - View and manipulate 3D models",
+      "Mixed Reality Viewer - AR experiences",
+      "Voice Recorder - Audio recording and editing",
+      "Camera - Photo and video capture",
+      "Clipchamp - Advanced video editing",
+      "Movie Maker (legacy) - Video projects",
+      "Windows Media Player - Media management"
+    ],
+    "productivity_tools": [
+      "Notepad - Simple text editing",
+      "WordPad - Rich text documents",
+      "Calculator - Scientific and programmer modes",
+      "Calendar - Schedule management",
+      "Mail - Email client",
+      "Sticky Notes - Quick notes and reminders",
+      "Alarms & Clock - Time management",
+      "To Do - Task management",
+      "Your Phone - Phone integration",
+      "Quick Assist - Remote assistance"
+    ],
+    "system_tools": [
+      "File Explorer - File management",
+      "Settings - System configuration",
+      "Control Panel - Advanced settings",
+      "Task Manager - Process management",
+      "Device Manager - Hardware management",
+      "Disk Management - Storage configuration",
+      "System Information - PC details",
+      "Resource Monitor - Performance tracking",
+      "Event Viewer - System logs",
+      "Registry Editor - Advanced configuration (supervised)"
+    ],
+    "educational_tools": [
+      "Math Input Panel - Mathematical equations",
+      "Math Solver - Step-by-step solutions",
+      "Immersive Reader - Reading assistance",
+      "Narrator - Screen reader",
+      "Magnifier - Screen magnification",
+      "Speech Recognition - Voice control",
+      "On-Screen Keyboard - Virtual keyboard",
+      "Windows Ink Workspace - Digital inking",
+      "Snip & Sketch - Screenshot annotation",
+      "Steps Recorder - Tutorial creation"
+    ]
+  },
+  "skill_progression": {
+    "beginner_skills": [
+      "Basic computer navigation",
+      "File and folder management",
+      "Simple document creation",
+      "Basic formatting",
+      "Simple drawings and art",
+      "Email basics",
+      "Internet safety"
+    ],
+    "intermediate_skills": [
+      "Advanced formatting",
+      "Multimedia integration",
+      "Data entry and charts",
+      "Presentation design",
+      "Digital note-taking",
+      "Online collaboration",
+      "Creative projects"
+    ],
+    "advanced_skills": [
+      "Complex document design",
+      "Data analysis and formulas",
+      "Professional presentations",
+      "Project management",
+      "System optimization",
+      "Workflow automation",
+      "Cross-application integration"
+    ],
+    "professional_skills": [
+      "Business communication",
+      "Report writing",
+      "Data visualization",
+      "Meeting management",
+      "Digital organization",
+      "Time management",
+      "Problem-solving"
+    ]
+  },
+  "assessment_structure": {
+    "weekly_assessments": [
+      "Hands-on exercises",
+      "Project completion",
+      "Skill demonstrations",
+      "Peer reviews",
+      "Self-assessments"
+    ],
+    "monthly_projects": [
+      "Month 1: Windows Mastery & Digital Art Portfolio",
+      "Month 2: Word Processing Excellence Package",
+      "Month 3: PowerPoint Presentation Showcase",
+      "Month 4: Excel Data Analysis Project",
+      "Month 5: Collaboration Tools Implementation",
+      "Month 6: Integrated Professional Project"
+    ],
+    "certification_requirements": [
+      "Complete 80% of weekly exercises",
+      "Submit all monthly projects",
+      "Pass final skills assessment",
+      "Complete capstone project",
+      "Demonstrate proficiency in all tools",
+      "Present final portfolio"
+    ]
+  },
+  "parent_and_teacher_resources": {
+    "progress_tracking": [
+      "Weekly skill checklists",
+      "Project rubrics",
+      "Progress dashboards",
+      "Monthly reports",
+      "Portfolio reviews"
+    ],
+    "support_materials": [
+      "Parent guides for each tool",
+      "Home practice suggestions",
+      "Safety guidelines",
+      "Troubleshooting guides",
+      "Extension activities"
+    ],
+    "educational_integration": [
+      "Curriculum alignment guides",
+      "Subject-specific projects",
+      "Homework helpers",
+      "School project templates",
+      "Academic skill development"
+    ]
+  },
+  "safety_and_digital_citizenship": {
+    "online_safety": [
+      "Password creation and management",
+      "Personal information protection",
+      "Safe file sharing practices",
+      "Email safety and spam awareness",
+      "Virus and malware prevention",
+      "Backup importance",
+      "Update management"
+    ],
+    "digital_etiquette": [
+      "Professional communication",
+      "Email etiquette",
+      "Meeting behavior",
+      "Document sharing ethics",
+      "Collaboration respect",
+      "Time management online",
+      "Digital footprint awareness"
+    ],
+    "responsible_use": [
+      "Copyright and fair use",
+      "Citation and references",
+      "Plagiarism prevention",
+      "Ethical technology use",
+      "Screen time balance",
+      "Ergonomics and health",
+      "Environmental awareness"
+    ]
+  },
+  "career_connections": {
+    "immediate_applications": [
+      "School project enhancement",
+      "Homework organization",
+      "Club and team management",
+      "Personal productivity",
+      "Creative expression"
+    ],
+    "future_careers": [
+      "Administrative Professional",
+      "Data Analyst",
+      "Graphic Designer",
+      "Content Creator",
+      "Project Manager",
+      "Technical Writer",
+      "Office Manager",
+      "Digital Marketing Specialist",
+      "Business Analyst",
+      "Education Technology Specialist"
+    ],
+    "skills_for_life": [
+      "Digital literacy",
+      "Organization skills",
+      "Communication abilities",
+      "Problem-solving",
+      "Creativity",
+      "Attention to detail",
+      "Time management",
+      "Collaboration",
+      "Critical thinking",
+      "Adaptability"
+    ]
+  },
+  "support_and_resources": {
+    "learning_materials": [
+      "Video tutorials for each lesson",
+      "Step-by-step guides",
+      "Practice files and templates",
+      "Keyboard shortcut sheets",
+      "Quick reference cards"
+    ],
+    "community_features": [
+      "Student forum",
+      "Weekly Q&A sessions",
+      "Peer collaboration space",
+      "Show and tell sessions",
+      "Expert office hours"
+    ],
+    "additional_resources": [
+      "Microsoft Learn for Students",
+      "Office 365 Education benefits",
+      "Free student software",
+      "Competition opportunities",
+      "Certification pathways"
+    ]
+  }
+}

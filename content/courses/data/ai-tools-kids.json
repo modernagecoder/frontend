@@ -1,0 +1,1241 @@
+{
+  "meta": {
+    "slug": "kids-ai-mastery-course",
+    "title": "AI Tools Mastery for Kids - Complete Creative AI Course",
+    "description": "The most comprehensive 6-month AI education program for kids. Master ChatGPT, DALL-E, Midjourney, AI music, video, coding assistants, and 50+ AI tools. Learn prompt engineering, create amazing projects, and become an AI-powered digital creator while understanding AI safety and ethics.",
+    "keywords": [
+      "AI for kids",
+      "ChatGPT for students",
+      "prompt engineering",
+      "DALL-E",
+      "Midjourney",
+      "AI art generation",
+      "AI music creation",
+      "AI video tools",
+      "machine learning for kids",
+      "AI safety",
+      "creative AI",
+      "educational AI",
+      "AI literacy",
+      "future skills",
+      "digital creativity"
+    ],
+    "category": "AI Education for Youth",
+    "price": {
+      "group": "₹799/month",
+      "personal": "₹1499/month",
+      "lifetime": "₹8,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to AI Expert",
+    "commitment": "5-8 hours/week recommended",
+    "certification": "Certified AI Creator for Youth"
+  },
+  "program_overview": {
+    "title": "AI Tools Mastery for Kids - Creative Intelligence",
+    "tagline": "From AI Curious to AI Creator - Master the Future Today",
+    "description": "This revolutionary 6-month program transforms kids into confident AI users and creators. Students will master prompt engineering, explore 50+ AI tools, create amazing projects, and develop critical thinking about AI's role in society.\n\nPerfect for ages 8-18, this course covers everything from ChatGPT conversations to creating AI art, music, videos, games, and even AI-assisted coding. Students will build an impressive portfolio while learning AI safety, ethics, and future-ready skills.",
+    "what_makes_this_different": [
+      "Kid-friendly approach to complex AI concepts",
+      "Hands-on with 50+ real AI tools",
+      "Safety-first approach with parental controls",
+      "Creative project-based learning",
+      "Ethical AI understanding from day one",
+      "Age-appropriate content and examples",
+      "Future career skill development",
+      "No coding required (but coding AI tools included)"
+    ],
+    "learning_path": {
+      "month_1": "AI Fundamentals & ChatGPT Mastery",
+      "month_2": "AI Art & Image Generation",
+      "month_3": "AI Music, Audio & Video Creation",
+      "month_4": "AI for Learning & Productivity",
+      "month_5": "AI Coding, Apps & Advanced Tools",
+      "month_6": "AI Projects & Future Skills"
+    },
+    "career_outcomes": [
+      "AI Content Creator",
+      "Prompt Engineering Specialist",
+      "Digital Artist with AI",
+      "AI-Assisted Developer",
+      "Creative Technology Expert"
+    ]
+  },
+  "month_1": {
+    "title": "Month 1: AI Fundamentals & ChatGPT Mastery",
+    "description": "Understand AI basics, master ChatGPT, and learn the art of prompt engineering.",
+    "week_1": {
+      "title": "Introduction to AI World",
+      "topics": [
+        "What is Artificial Intelligence? Simple explanation",
+        "AI in everyday life: Siri, Alexa, YouTube recommendations",
+        "How AI learns: Machine Learning basics for kids",
+        "Types of AI: Narrow AI vs General AI",
+        "AI history: From calculators to ChatGPT",
+        "AI vocabulary: Model, training, dataset, algorithm",
+        "AI myths vs reality",
+        "How AI 'thinks' differently from humans",
+        "AI limitations and capabilities",
+        "Setting up safe AI accounts with parental guidance",
+        "Creating AI learning journal",
+        "Class rules for AI usage"
+      ],
+      "tools_covered": [
+        "ChatGPT (with parental controls)",
+        "Google's AI experiments",
+        "Quick, Draw! by Google",
+        "Semantris word association game"
+      ],
+      "projects": [
+        "My First AI Conversation",
+        "AI vs Human: Comparison chart",
+        "Draw AI's journey timeline",
+        "Play and analyze AI games"
+      ],
+      "safety_focus": "Understanding AI is a tool, not a replacement for thinking"
+    },
+    "week_2": {
+      "title": "ChatGPT Fundamentals",
+      "topics": [
+        "ChatGPT interface walkthrough",
+        "Free vs paid versions understanding",
+        "How to start conversations",
+        "Basic prompt structure",
+        "Being polite with AI (digital etiquette)",
+        "Getting better responses",
+        "When ChatGPT makes mistakes",
+        "Fact-checking AI responses",
+        "Using ChatGPT for homework help (ethically)",
+        "ChatGPT for creative writing",
+        "ChatGPT for explanations",
+        "Saving and organizing chats"
+      ],
+      "tools_covered": [
+        "ChatGPT web interface",
+        "ChatGPT mobile app",
+        "Bing Chat (Microsoft Copilot)",
+        "Google Bard introduction"
+      ],
+      "projects": [
+        "Interview ChatGPT about its capabilities",
+        "Create a story with ChatGPT",
+        "Get homework help (with citations)",
+        "Plan a birthday party with AI"
+      ],
+      "safety_focus": "Never share personal information, always verify important facts"
+    },
+    "week_3": {
+      "title": "Prompt Engineering Basics",
+      "topics": [
+        "What is a prompt?",
+        "Anatomy of a good prompt",
+        "Clear instructions importance",
+        "Context and background information",
+        "Specific vs vague prompts",
+        "Using examples in prompts",
+        "Role-playing prompts ('Act as a...')",
+        "Step-by-step prompts",
+        "Output format specification",
+        "Temperature and creativity settings",
+        "Iterative prompting (improving results)",
+        "Prompt templates creation"
+      ],
+      "tools_covered": [
+        "ChatGPT advanced features",
+        "Claude.ai introduction",
+        "Perplexity AI for research",
+        "Prompt libraries exploration"
+      ],
+      "projects": [
+        "Create prompt template library",
+        "Before/After prompt improvements",
+        "Prompt engineering challenge",
+        "Build custom AI assistant personality"
+      ],
+      "exercises": [
+        "Rewrite 10 vague prompts",
+        "Create prompts for 5 different purposes",
+        "Compare outputs from different prompts"
+      ]
+    },
+    "week_4": {
+      "title": "Advanced ChatGPT Techniques",
+      "topics": [
+        "Multi-turn conversations",
+        "Teaching ChatGPT your preferences",
+        "Custom instructions setup",
+        "Using ChatGPT for learning",
+        "Language translation with AI",
+        "Code explanation with ChatGPT",
+        "Math problem solving",
+        "ChatGPT for research projects",
+        "Creating study guides",
+        "Quiz and flashcard generation",
+        "ChatGPT plugins overview",
+        "Web browsing with ChatGPT"
+      ],
+      "tools_covered": [
+        "ChatGPT plugins",
+        "ChatGPT Code Interpreter",
+        "Wolfram Alpha with ChatGPT",
+        "ScholarAI for research"
+      ],
+      "projects": [
+        "Create personalized study assistant",
+        "Build interactive quiz game",
+        "Research project on favorite topic",
+        "Multi-language story creation"
+      ],
+      "safety_focus": "Understanding AI hallucinations and verification"
+    }
+  },
+  "month_2": {
+    "title": "Month 2: AI Art & Image Generation",
+    "description": "Master AI image generation tools, create stunning artwork, and understand visual AI.",
+    "week_5": {
+      "title": "Introduction to AI Art",
+      "topics": [
+        "How AI creates images",
+        "Understanding diffusion models (simple explanation)",
+        "Text-to-image concept",
+        "AI art history and evolution",
+        "Famous AI artworks",
+        "Copyright and AI art basics",
+        "Ethical considerations in AI art",
+        "Different styles AI can create",
+        "Resolution and quality settings",
+        "Image composition basics",
+        "Color theory for AI art",
+        "Planning AI art projects"
+      ],
+      "tools_covered": [
+        "DALL-E 2/3 introduction",
+        "Bing Image Creator (free)",
+        "Craiyon (formerly DALL-E mini)",
+        "NightCafe Creator basics"
+      ],
+      "projects": [
+        "First AI artwork collection",
+        "Illustrate a short story",
+        "Create fantasy creatures",
+        "Design dream bedroom with AI"
+      ],
+      "techniques": "Basic prompt structure for images: subject, style, mood, details"
+    },
+    "week_6": {
+      "title": "DALL-E and Bing Image Creator Mastery",
+      "topics": [
+        "DALL-E interface deep dive",
+        "Crafting detailed image prompts",
+        "Style modifiers: cartoon, realistic, abstract",
+        "Artist styles (ethically)",
+        "Lighting and mood descriptors",
+        "Camera angles and perspectives",
+        "Combining multiple concepts",
+        "Inpainting and editing",
+        "Variations and iterations",
+        "Bing Image Creator advantages",
+        "Batch generation techniques",
+        "Saving and organizing AI art"
+      ],
+      "tools_covered": [
+        "DALL-E 3 advanced features",
+        "Bing Image Creator full guide",
+        "Microsoft Designer integration",
+        "Canva AI image tools"
+      ],
+      "projects": [
+        "Create comic book pages",
+        "Design game characters",
+        "Reimagine famous paintings",
+        "Build visual vocabulary guide"
+      ],
+      "prompt_templates": [
+        "Character design template",
+        "Landscape generation template",
+        "Product design template",
+        "Storybook illustration template"
+      ]
+    },
+    "week_7": {
+      "title": "Midjourney and Advanced AI Art",
+      "topics": [
+        "Midjourney via Discord setup",
+        "Understanding Midjourney commands",
+        "/imagine prompt basics",
+        "Parameters: --ar, --q, --v",
+        "Midjourney styles and aesthetics",
+        "Upscaling and variations",
+        "Remix mode and blending",
+        "Creating consistent characters",
+        "Midjourney for different genres",
+        "Advanced composition techniques",
+        "Negative prompts usage",
+        "Community and inspiration"
+      ],
+      "tools_covered": [
+        "Midjourney",
+        "Leonardo.ai",
+        "Stable Diffusion online",
+        "Lexica.art for inspiration"
+      ],
+      "projects": [
+        "Create brand mascot variations",
+        "Design imaginary world",
+        "Architectural concepts",
+        "Fashion design collection"
+      ],
+      "challenges": [
+        "Daily art challenge",
+        "Style matching exercise",
+        "Prompt remix competition"
+      ]
+    },
+    "week_8": {
+      "title": "AI Photo Editing and Manipulation",
+      "topics": [
+        "AI-powered photo editing",
+        "Background removal with AI",
+        "Object removal and replacement",
+        "AI upscaling and enhancement",
+        "Face editing and avatars",
+        "Style transfer techniques",
+        "Creating AI filters",
+        "Batch processing with AI",
+        "Restoration of old photos",
+        "AI color correction",
+        "Creating photo compositions",
+        "AI-assisted graphic design"
+      ],
+      "tools_covered": [
+        "Canva AI tools",
+        "Remove.bg",
+        "Photoleap AI",
+        "Lensa AI",
+        "Prisma",
+        "FaceApp (with supervision)",
+        "Cleanup.pictures",
+        "Let's Enhance.io"
+      ],
+      "projects": [
+        "Restore and colorize old photos",
+        "Create AI avatar collection",
+        "Design poster with AI elements",
+        "Before/after photo gallery"
+      ],
+      "safety_focus": "Understanding deepfakes and image authenticity"
+    }
+  },
+  "month_3": {
+    "title": "Month 3: AI Music, Audio & Video Creation",
+    "description": "Explore AI tools for music composition, audio editing, and video creation.",
+    "week_9": {
+      "title": "AI Music Generation",
+      "topics": [
+        "How AI composes music",
+        "Music theory basics for AI",
+        "Genres and styles in AI music",
+        "Melody vs harmony generation",
+        "Rhythm and beat creation",
+        "AI instrument selection",
+        "Mood and emotion in music",
+        "Creating loops and samples",
+        "Extending and editing AI music",
+        "Copyright in AI music",
+        "Using AI music in projects",
+        "Music prompt engineering"
+      ],
+      "tools_covered": [
+        "Suno AI",
+        "Soundraw",
+        "Mubert",
+        "AIVA",
+        "Boomy",
+        "Chrome Music Lab",
+        "BandLab AI"
+      ],
+      "projects": [
+        "Create theme song for imaginary show",
+        "Compose study music playlist",
+        "Make birthday song variations",
+        "Video game soundtrack creation"
+      ],
+      "exercises": "Generate 20 different musical styles and moods"
+    },
+    "week_10": {
+      "title": "AI Voice and Audio Tools",
+      "topics": [
+        "Text-to-speech technologies",
+        "Voice cloning basics (ethical use)",
+        "Creating character voices",
+        "Podcast editing with AI",
+        "Audio transcription tools",
+        "Voice translation AI",
+        "Sound effect generation",
+        "Audio enhancement AI",
+        "Removing background noise",
+        "Voice modulation and effects",
+        "Creating audiobooks",
+        "AI for language learning"
+      ],
+      "tools_covered": [
+        "ElevenLabs (supervised)",
+        "Murf.ai",
+        "Descript",
+        "Adobe Podcast AI",
+        "Krisp.ai",
+        "Otter.ai",
+        "NaturalReader",
+        "Voice.ai"
+      ],
+      "projects": [
+        "Create character voices for story",
+        "Produce mini podcast episode",
+        "Make multilingual announcement",
+        "Audio story with sound effects"
+      ],
+      "safety_focus": "Voice cloning ethics and consent"
+    },
+    "week_11": {
+      "title": "AI Video Generation",
+      "topics": [
+        "Text-to-video AI introduction",
+        "Video editing with AI assistance",
+        "Creating animations with AI",
+        "AI scene generation",
+        "Green screen with AI",
+        "Video upscaling and enhancement",
+        "Automatic subtitles and captions",
+        "Video summarization AI",
+        "Creating video thumbnails",
+        "AI video effects and filters",
+        "Lip-sync and dubbing AI",
+        "Short-form content creation"
+      ],
+      "tools_covered": [
+        "Runway ML",
+        "Synthesia basics",
+        "D-ID",
+        "Kapwing AI tools",
+        "InVideo AI",
+        "Pictory.ai",
+        "Steve.ai",
+        "Lumen5"
+      ],
+      "projects": [
+        "Create AI news report",
+        "Animated explainer video",
+        "Music video with AI visuals",
+        "Educational video with AI presenter"
+      ],
+      "skills": "Storyboarding, script writing, video editing basics"
+    },
+    "week_12": {
+      "title": "AI Animation and Motion",
+      "topics": [
+        "AI-powered animation principles",
+        "Motion capture with AI",
+        "Creating animated characters",
+        "Facial animation AI",
+        "Text-to-animation tools",
+        "GIF creation with AI",
+        "Stop motion with AI assistance",
+        "3D animation basics with AI",
+        "Animating static images",
+        "Creating animated presentations",
+        "AI for motion graphics",
+        "Augmented reality filters"
+      ],
+      "tools_covered": [
+        "Meta's Animated Drawings",
+        "Deep Nostalgia",
+        "Plask.ai",
+        "RADiCAL motion capture",
+        "Immersity AI",
+        "LeiaPix",
+        "Spark AR basics",
+        "Adobe Express animation"
+      ],
+      "projects": [
+        "Bring drawings to life",
+        "Create animated avatar",
+        "Motion comic creation",
+        "AR filter design"
+      ],
+      "showcase": "Animation festival with all students' work"
+    }
+  },
+  "month_4": {
+    "title": "Month 4: AI for Learning & Productivity",
+    "description": "Use AI tools to enhance learning, boost productivity, and excel in academics.",
+    "week_13": {
+      "title": "AI Study Assistants",
+      "topics": [
+        "AI for different subjects",
+        "Math problem solvers",
+        "Science experiment simulators",
+        "History research assistants",
+        "Language learning with AI",
+        "AI essay helpers (ethical use)",
+        "Citation and bibliography tools",
+        "Concept explanation AI",
+        "Creating mind maps with AI",
+        "AI flashcard systems",
+        "Spaced repetition with AI",
+        "Exam preparation strategies"
+      ],
+      "tools_covered": [
+        "Khan Academy's Khanmigo",
+        "Photomath",
+        "Wolfram Alpha",
+        "Quillbot",
+        "Grammarly",
+        "Duolingo AI",
+        "Socratic by Google",
+        "Brainly"
+      ],
+      "projects": [
+        "Create personalized study plan",
+        "Build subject-specific AI tutor",
+        "Design quiz preparation system",
+        "Make visual study guides"
+      ],
+      "ethics": "Using AI to learn, not to cheat"
+    },
+    "week_14": {
+      "title": "AI Research and Writing Tools",
+      "topics": [
+        "Research methodology with AI",
+        "Finding reliable sources",
+        "AI for literature review",
+        "Summarizing long texts",
+        "Note-taking with AI",
+        "Outline generation",
+        "Paraphrasing tools",
+        "Grammar and style checking",
+        "Plagiarism detection",
+        "Creating bibliographies",
+        "Presentation creation with AI",
+        "Infographic generation"
+      ],
+      "tools_covered": [
+        "Perplexity AI",
+        "Elicit.org",
+        "Semantic Scholar",
+        "Jenni AI",
+        "Notion AI",
+        "Tome.app",
+        "Beautiful.ai",
+        "Gamma.app"
+      ],
+      "projects": [
+        "Complete research project",
+        "Create academic presentation",
+        "Build knowledge database",
+        "Design infographic report"
+      ],
+      "skills": "Critical evaluation of AI-generated content"
+    },
+    "week_15": {
+      "title": "AI Productivity Tools",
+      "topics": [
+        "Task management with AI",
+        "Calendar optimization",
+        "Email writing assistance",
+        "Meeting notes and summaries",
+        "Project planning AI",
+        "Habit tracking with AI",
+        "Goal setting assistants",
+        "Time management tools",
+        "Focus and concentration apps",
+        "AI personal assistants",
+        "Workflow automation basics",
+        "Digital organization with AI"
+      ],
+      "tools_covered": [
+        "Motion.ai",
+        "Reclaim.ai",
+        "Clockwise",
+        "Otter.ai for meetings",
+        "Taskade AI",
+        "BeeDone",
+        "Forest app",
+        "IFTTT basics"
+      ],
+      "projects": [
+        "Design weekly schedule optimizer",
+        "Create productivity dashboard",
+        "Build habit tracking system",
+        "Automate routine tasks"
+      ],
+      "life_skills": "Time management and organization"
+    },
+    "week_16": {
+      "title": "AI for Creative Projects",
+      "topics": [
+        "Brainstorming with AI",
+        "Idea generation techniques",
+        "Creative writing assistance",
+        "Poetry and songwriting AI",
+        "Storytelling with AI",
+        "Game design with AI",
+        "Recipe creation with AI",
+        "Fashion design assistance",
+        "Interior design AI tools",
+        "DIY project planning",
+        "Craft ideas generation",
+        "AI for makers and builders"
+      ],
+      "tools_covered": [
+        "Sudowrite",
+        "NovelAI basics",
+        "AI Dungeon",
+        "Scenario.gg",
+        "Interior AI",
+        "Khroma color AI",
+        "Namelix",
+        "This House Does Not Exist"
+      ],
+      "projects": [
+        "Write and illustrate short story",
+        "Design board game with AI",
+        "Create recipe book",
+        "Plan room makeover"
+      ],
+      "showcase": "Creative exhibition of AI-assisted projects"
+    }
+  },
+  "month_5": {
+    "title": "Month 5: AI Coding, Apps & Advanced Tools",
+    "description": "Learn AI-assisted coding, app development, and explore advanced AI platforms.",
+    "week_17": {
+      "title": "AI Coding Assistants",
+      "topics": [
+        "Introduction to AI pair programming",
+        "How AI understands code",
+        "Code completion basics",
+        "Bug detection with AI",
+        "Code explanation tools",
+        "Converting ideas to code",
+        "Learning programming with AI",
+        "Different programming languages",
+        "Debugging with AI help",
+        "Code optimization suggestions",
+        "Documentation generation",
+        "Version control basics with AI"
+      ],
+      "tools_covered": [
+        "GitHub Copilot (demo)",
+        "Replit AI",
+        "CodePen AI features",
+        "Tabnine",
+        "Codeium",
+        "BlackBox AI",
+        "Programming Helper",
+        "AI Code Mentor"
+      ],
+      "projects": [
+        "Build first website with AI help",
+        "Create simple Python game",
+        "Make calculator app",
+        "Design personal portfolio"
+      ],
+      "languages": "HTML/CSS, Python, JavaScript basics with AI assistance"
+    },
+    "week_18": {
+      "title": "No-Code AI App Builders",
+      "topics": [
+        "What is no-code development?",
+        "Visual programming concepts",
+        "Database basics for apps",
+        "User interface design",
+        "App logic and workflows",
+        "Connecting AI to apps",
+        "Mobile app creation",
+        "Web app development",
+        "Chatbot integration",
+        "Forms and data collection",
+        "Publishing and sharing apps",
+        "App monetization basics"
+      ],
+      "tools_covered": [
+        "Bubble.io basics",
+        "Adalo",
+        "Glide Apps",
+        "Softr",
+        "Zapier AI",
+        "Make.com (Integromat)",
+        "Voiceflow",
+        "Botpress"
+      ],
+      "projects": [
+        "Create quiz app",
+        "Build chatbot assistant",
+        "Design task tracker",
+        "Make community platform"
+      ],
+      "skills": "Logical thinking, UI/UX basics, problem-solving"
+    },
+    "week_19": {
+      "title": "Machine Learning Platforms",
+      "topics": [
+        "Training custom AI models",
+        "Understanding datasets",
+        "Classification vs regression",
+        "Computer vision projects",
+        "Natural language processing",
+        "Predictive models basics",
+        "Model evaluation metrics",
+        "Overfitting and underfitting",
+        "Feature engineering basics",
+        "Deploying ML models",
+        "ML ethics and bias",
+        "Real-world ML applications"
+      ],
+      "tools_covered": [
+        "Google Teachable Machine",
+        "Orange Data Mining",
+        "CreateML (Mac)",
+        "Lobe.ai",
+        "Obviously.ai",
+        "Machine Learning for Kids",
+        "RunwayML advanced",
+        "Edge Impulse basics"
+      ],
+      "projects": [
+        "Image classifier for recycling",
+        "Sentiment analysis tool",
+        "Gesture recognition system",
+        "Predictive text generator"
+      ],
+      "concepts": "Training data, testing data, accuracy, confusion matrix"
+    },
+    "week_20": {
+      "title": "AI Game Development",
+      "topics": [
+        "AI in game design",
+        "Procedural generation",
+        "NPC behavior with AI",
+        "Dynamic difficulty adjustment",
+        "AI for game testing",
+        "Creating game assets with AI",
+        "Story generation for games",
+        "Level design with AI",
+        "Balancing games with AI",
+        "Player behavior analysis",
+        "AI opponents creation",
+        "Multiplayer matchmaking basics"
+      ],
+      "tools_covered": [
+        "Scenario.gg",
+        "Promethean AI",
+        "Roblox AI features",
+        "Unity ML-Agents basics",
+        "AI Dungeon for stories",
+        "Artbreeder for characters",
+        "GPT for game dialogue",
+        "Rosebud.ai"
+      ],
+      "projects": [
+        "AI-powered adventure game",
+        "Procedural dungeon generator",
+        "Smart NPC system",
+        "Dynamic story game"
+      ],
+      "showcase": "Game jam with AI tools"
+    }
+  },
+  "month_6": {
+    "title": "Month 6: AI Projects & Future Skills",
+    "description": "Create advanced projects, understand AI's future, and prepare for AI-driven careers.",
+    "week_21": {
+      "title": "AI for Social Good",
+      "topics": [
+        "Using AI to solve problems",
+        "Environmental applications",
+        "Healthcare AI basics",
+        "Education technology",
+        "Accessibility with AI",
+        "AI for disaster response",
+        "Fighting misinformation",
+        "Language preservation",
+        "Wildlife conservation AI",
+        "Poverty alleviation tools",
+        "Community helper bots",
+        "Ethical AI development"
+      ],
+      "tools_covered": [
+        "Google AI for Social Good",
+        "Microsoft AI for Earth",
+        "Be My Eyes",
+        "Seeing AI",
+        "PlantNet",
+        "iNaturalist",
+        "Trash AI",
+        "What3Words"
+      ],
+      "projects": [
+        "Design accessibility tool",
+        "Create environmental monitor",
+        "Build community helper bot",
+        "Develop educational game"
+      ],
+      "impact": "Understanding AI's positive potential"
+    },
+    "week_22": {
+      "title": "AI Business and Entrepreneurship",
+      "topics": [
+        "AI startup ideas for young entrepreneurs",
+        "Market research with AI",
+        "Business plan generation",
+        "Logo and branding with AI",
+        "Marketing with AI tools",
+        "Social media automation",
+        "Customer service bots",
+        "Financial planning basics",
+        "Pitch deck creation",
+        "Finding target audience",
+        "Competitive analysis with AI",
+        "Scaling with AI"
+      ],
+      "tools_covered": [
+        "Tome for pitches",
+        "Looka for branding",
+        "Copy.ai",
+        "Jasper.ai basics",
+        "Buffer AI",
+        "Hootsuite AI",
+        "Tidio chatbots",
+        "PitchBob"
+      ],
+      "projects": [
+        "Create startup concept",
+        "Design brand identity",
+        "Build marketing campaign",
+        "Develop business pitch"
+      ],
+      "skills": "Entrepreneurial thinking, problem-solving, innovation"
+    },
+    "week_23": {
+      "title": "AI Safety and Ethics",
+      "topics": [
+        "AI bias and fairness",
+        "Privacy in AI age",
+        "Deepfakes and detection",
+        "Misinformation and AI",
+        "Digital footprint awareness",
+        "Cybersecurity basics",
+        "AI regulation basics",
+        "Intellectual property and AI",
+        "Job displacement discussions",
+        "Human-AI collaboration",
+        "Future of work with AI",
+        "Responsible AI use"
+      ],
+      "tools_covered": [
+        "Deepware Scanner",
+        "FakeCatcher",
+        "GPTZero",
+        "AI content detectors",
+        "Privacy tools",
+        "VPN basics",
+        "Password managers",
+        "2FA authentication"
+      ],
+      "projects": [
+        "Create AI ethics guidebook",
+        "Design bias detection system",
+        "Build fact-checking tool",
+        "Develop digital safety plan"
+      ],
+      "discussions": "Group debates on AI ethics scenarios"
+    },
+    "week_24": {
+      "title": "Future of AI and Emerging Tech",
+      "topics": [
+        "AGI (Artificial General Intelligence)",
+        "Quantum computing basics",
+        "Brain-computer interfaces",
+        "Robotics and AI",
+        "Autonomous vehicles",
+        "Smart cities concept",
+        "AI in space exploration",
+        "Biotechnology and AI",
+        "Virtual reality and AI",
+        "Augmented reality future",
+        "Web3 and AI intersection",
+        "Preparing for unknown futures"
+      ],
+      "tools_covered": [
+        "Meta AI research demos",
+        "OpenAI research papers (simplified)",
+        "Google AI experiments",
+        "Microsoft Research demos",
+        "IBM Watson demos",
+        "Tesla AI Day highlights",
+        "NASA AI projects",
+        "Future timeline websites"
+      ],
+      "projects": [
+        "Design future city with AI",
+        "Create sci-fi story with AI",
+        "Build future career plan",
+        "Develop innovation proposal"
+      ],
+      "reflection": "Personal AI journey documentation"
+    },
+    "week_25": {
+      "title": "Capstone Project Development",
+      "topics": [
+        "Project ideation with AI",
+        "Combining multiple AI tools",
+        "Project management with AI",
+        "Documentation best practices",
+        "Testing and iteration",
+        "User feedback collection",
+        "Presentation preparation",
+        "Demo video creation",
+        "Project website building",
+        "Social media promotion",
+        "Peer review process",
+        "Final polish and optimization"
+      ],
+      "final_project_options": [
+        "AI-Powered Educational Platform",
+        "Creative AI Art/Music Album",
+        "AI Game with Story",
+        "Social Good AI Application",
+        "AI Business Startup Prototype",
+        "Personal AI Assistant System",
+        "AI Content Creation Channel",
+        "Research Project with AI"
+      ],
+      "deliverables": [
+        "Complete project with documentation",
+        "Presentation deck",
+        "Demo video (3-5 minutes)",
+        "Project website/portfolio",
+        "Reflection essay on AI journey"
+      ]
+    },
+    "week_26": {
+      "title": "Graduation and Future Planning",
+      "topics": [
+        "Final project presentations",
+        "Peer choice awards",
+        "Industry guest speakers",
+        "AI career pathways",
+        "Continued learning resources",
+        "Building AI portfolio",
+        "Networking in AI community",
+        "Staying updated with AI",
+        "Advanced courses available",
+        "Mentorship opportunities",
+        "Competition opportunities",
+        "Celebration and certificates"
+      ],
+      "final_showcase": [
+        "Public exhibition of projects",
+        "Family and friends presentation day",
+        "Online gallery creation",
+        "Media coverage opportunity",
+        "Awards ceremony"
+      ],
+      "future_resources": [
+        "Advanced AI course pathways",
+        "AI summer camps",
+        "Hackathon participation",
+        "Research opportunities",
+        "Internship possibilities",
+        "AI club formation",
+        "Continued mentorship",
+        "Alumni network access"
+      ],
+      "certification": {
+        "title": "Certified AI Creator - Youth",
+        "includes": [
+          "Detailed transcript of skills",
+          "Portfolio of 50+ AI projects",
+          "LinkedIn certification badge",
+          "Letter of recommendation eligibility",
+          "Alumni status and benefits"
+        ]
+      }
+    }
+  },
+  "ai_tools_masterlist": {
+    "text_ai": [
+      "ChatGPT (GPT-3.5/4)",
+      "Claude (Anthropic)",
+      "Google Bard",
+      "Microsoft Copilot",
+      "Perplexity AI",
+      "You.com",
+      "Poe by Quora",
+      "Character.ai",
+      "Replika",
+      "Pi by Inflection"
+    ],
+    "image_ai": [
+      "DALL-E 2/3",
+      "Midjourney",
+      "Stable Diffusion",
+      "Bing Image Creator",
+      "Leonardo.ai",
+      "NightCafe",
+      "Craiyon",
+      "Deep Dream Generator",
+      "Artbreeder",
+      "RunwayML Gen-2"
+    ],
+    "music_ai": [
+      "Suno AI",
+      "Soundraw",
+      "Mubert",
+      "AIVA",
+      "Boomy",
+      "Amper Music",
+      "Jukebox by OpenAI",
+      "BandLab SongStarter",
+      "Loudly",
+      "Beatoven.ai"
+    ],
+    "video_ai": [
+      "Synthesia",
+      "D-ID",
+      "Runway ML",
+      "InVideo AI",
+      "Pictory.ai",
+      "Lumen5",
+      "Steve.ai",
+      "Kapwing AI",
+      "Descript",
+      "Wonder Studio"
+    ],
+    "voice_ai": [
+      "ElevenLabs",
+      "Murf.ai",
+      "Play.ht",
+      "Resemble.ai",
+      "Voice.ai",
+      "Replica Studios",
+      "WellSaid Labs",
+      "Listnr",
+      "Speechify",
+      "Natural Reader"
+    ],
+    "coding_ai": [
+      "GitHub Copilot",
+      "Replit AI",
+      "Tabnine",
+      "Codeium",
+      "Amazon CodeWhisperer",
+      "Blackbox AI",
+      "AI Code Mentor",
+      "Codex by OpenAI",
+      "Programming Helper",
+      "AskCodi"
+    ],
+    "learning_ai": [
+      "Khan Academy Khanmigo",
+      "Duolingo Max",
+      "Socratic by Google",
+      "Photomath",
+      "Quillbot",
+      "Grammarly",
+      "Wolfram Alpha",
+      "Elicit",
+      "Consensus",
+      "Scholarcy"
+    ],
+    "productivity_ai": [
+      "Notion AI",
+      "Motion.ai",
+      "Reclaim.ai",
+      "Otter.ai",
+      "Taskade AI",
+      "Mem.ai",
+      "Jasper.ai",
+      "Copy.ai",
+      "Writesonic",
+      "Tome.app"
+    ],
+    "creative_ai": [
+      "Canva AI",
+      "Adobe Firefly",
+      "Designs.ai",
+      "Khroma",
+      "Fontjoy",
+      "This Person Does Not Exist",
+      "Artflow.ai",
+      "Dream by Wombo",
+      "Avatarify",
+      "Deep Nostalgia"
+    ],
+    "specialized_ai": [
+      "Teachable Machine",
+      "Machine Learning for Kids",
+      "CreateML",
+      "Lobe.ai",
+      "Obviously.ai",
+      "MonkeyLearn",
+      "Levity.ai",
+      "Hugging Face",
+      "Gradio",
+      "Streamlit"
+    ]
+  },
+  "safety_guidelines": {
+    "general_rules": [
+      "Never share personal information (name, address, school, phone)",
+      "Always use AI with adult supervision initially",
+      "Verify important information from multiple sources",
+      "Understand AI can make mistakes (hallucinations)",
+      "Report inappropriate content immediately",
+      "Use school-appropriate language in prompts",
+      "Respect copyright and give credit",
+      "Don't use AI to complete homework dishonestly"
+    ],
+    "age_appropriate_usage": {
+      "ages_8_10": [
+        "Supervised AI use only",
+        "Focus on creative and educational tools",
+        "Simple prompts and interactions",
+        "Emphasis on AI as a helper tool"
+      ],
+      "ages_11_13": [
+        "Semi-supervised usage",
+        "Introduction to prompt engineering",
+        "Understanding AI limitations",
+        "Basic ethical considerations"
+      ],
+      "ages_14_18": [
+        "Independent usage with guidelines",
+        "Advanced prompt techniques",
+        "Critical thinking about AI outputs",
+        "Understanding societal implications"
+      ]
+    },
+    "parental_controls": [
+      "Set up family accounts where available",
+      "Use content filters",
+      "Monitor usage time",
+      "Review AI conversations periodically",
+      "Discuss AI outputs together",
+      "Set clear boundaries and rules",
+      "Use educational versions of tools",
+      "Enable safe search settings"
+    ]
+  },
+  "assessment_methods": {
+    "weekly_assessments": [
+      "Practical project completion",
+      "Prompt engineering challenges",
+      "Tool exploration reports",
+      "Creative showcases",
+      "Peer reviews"
+    ],
+    "monthly_projects": [
+      "Month 1: AI Assistant Creation",
+      "Month 2: AI Art Gallery",
+      "Month 3: Multimedia Production",
+      "Month 4: Learning Enhancement System",
+      "Month 5: AI-Powered Application",
+      "Month 6: Capstone Innovation Project"
+    ],
+    "skill_badges": [
+      "Prompt Engineer",
+      "AI Artist",
+      "Content Creator",
+      "AI Musician",
+      "Video Producer",
+      "Code Assistant User",
+      "ML Model Trainer",
+      "AI Safety Advocate",
+      "Innovation Designer",
+      "Future Ready"
+    ]
+  },
+  "resources_and_support": {
+    "learning_materials": [
+      "Video tutorials for each tool",
+      "Prompt template library",
+      "Project idea database",
+      "Troubleshooting guides",
+      "Best practices documentation"
+    ],
+    "community_features": [
+      "Safe student forum",
+      "Weekly live Q&A sessions",
+      "Peer collaboration spaces",
+      "Parent discussion groups",
+      "Mentor office hours"
+    ],
+    "additional_resources": [
+      "AI news digest for kids",
+      "Tool update notifications",
+      "Competition announcements",
+      "Guest speaker series",
+      "Field trip opportunities (virtual/physical)"
+    ]
+  },
+  "career_pathways": {
+    "immediate_opportunities": [
+      "AI content creation for social media",
+      "Tutoring other kids in AI tools",
+      "Freelance creative projects",
+      "School tech helper",
+      "AI club leadership"
+    ],
+    "future_careers": [
+      "AI Prompt Engineer",
+      "AI Ethics Specialist",
+      "Creative Technologist",
+      "AI Product Manager",
+      "Machine Learning Engineer",
+      "AI UX Designer",
+      "Computational Artist",
+      "AI Safety Researcher",
+      "Digital Innovation Consultant",
+      "AI Educator"
+    ],
+    "skills_developed": [
+      "Critical thinking",
+      "Creative problem-solving",
+      "Digital literacy",
+      "Ethical reasoning",
+      "Communication skills",
+      "Project management",
+      "Collaboration",
+      "Adaptability",
+      "Innovation mindset",
+      "Future-ready thinking"
+    ]
+  },
+  "success_metrics": {
+    "completion_criteria": [
+      "Complete 80% of weekly projects",
+      "Master 40+ AI tools",
+      "Create portfolio of 50+ projects",
+      "Pass safety and ethics assessment",
+      "Complete capstone project",
+      "Present to audience"
+    ],
+    "certification_levels": [
+      "AI Explorer (Month 1-2)",
+      "AI Creator (Month 3-4)",
+      "AI Innovator (Month 5-6)",
+      "AI Master (Full completion)"
+    ],
+    "portfolio_components": [
+      "AI conversation archive",
+      "Art and design gallery",
+      "Music and audio library",
+      "Video showcase reel",
+      "Code repository",
+      "Written content samples",
+      "Project documentation",
+      "Reflection journal"
+    ]
+  }
+}

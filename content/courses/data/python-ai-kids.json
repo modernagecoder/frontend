@@ -1,0 +1,1236 @@
+{
+  "meta": {
+    "slug": "python-ai-kids-masterclass",
+    "title": "Complete Python & AI for Kids Masterclass - Future Innovators Program",
+    "description": "The most comprehensive 1-year Python and AI program designed specifically for young learners. From absolute basics to creating AI-powered projects. Master programming fundamentals, game development, robotics, machine learning, and build amazing AI applications.",
+    "keywords": [
+      "python for kids",
+      "artificial intelligence for children",
+      "coding for kids",
+      "machine learning basics",
+      "game development",
+      "robotics programming",
+      "creative coding",
+      "STEM education",
+      "computational thinking",
+      "AI projects",
+      "turtle graphics",
+      "pygame",
+      "chatbots",
+      "computer vision",
+      "future skills"
+    ],
+    "category": "Kids Programming & AI Education",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹19,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Young Programmer",
+    "commitment": "5-8 hours/week recommended",
+    "certification": "Young Python & AI Developer Certificate"
+  },
+  "program_overview": {
+    "title": "Complete Python & AI for Kids Masterclass",
+    "tagline": "From 'Hello World' to Building Your Own AI Assistant",
+    "description": "This exciting program transforms curious kids into confident programmers and AI creators. Designed specifically for young minds (ages 8-16), this 12-month journey makes learning Python and AI fun, engaging, and practical.\n\nThrough games, animations, robots, and real AI projects, students will master programming concepts while building incredible projects they can show off to friends and family. By the end, they'll have created 30+ projects including games, chatbots, image recognition apps, and even their own AI assistant.",
+    "what_makes_this_different": [
+      "Kid-friendly approach with visual learning and gamification",
+      "No prerequisites - starts from absolute zero",
+      "Project-based learning with fun, engaging activities",
+      "Age-appropriate AI concepts explained simply",
+      "Parent guidance notes included",
+      "Safe, moderated online community for young learners",
+      "Regular showcases to present projects",
+      "Certificates and badges for motivation"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Python Basics, Turtle Graphics, Simple Games",
+      "phase_2": "Creative Coding (Months 4-6): Advanced Games, Animations, Mini Projects",
+      "phase_3": "AI Introduction (Months 7-9): Machine Learning Basics, AI Tools, Smart Programs",
+      "phase_4": "AI Projects (Months 10-12): Computer Vision, Chatbots, Personal AI Assistant"
+    },
+    "career_outcomes": [
+      "Strong programming foundation for future",
+      "Problem-solving and logical thinking skills",
+      "Portfolio of impressive projects",
+      "Ready for advanced computer science studies",
+      "Prepared for tech competitions and hackathons"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Python Basics & Fun with Code (Months 1-3, Weeks 1-13)",
+    "description": "Start your coding adventure! Learn Python basics through fun projects, colorful graphics, and exciting games.",
+    "month_1_2": {
+      "title": "Months 1-2: Python Fundamentals & First Programs",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Welcome to Programming & Setup",
+        "topics": [
+          "What is programming? How do computers understand us?",
+          "Why Python? The language that powers YouTube, Instagram, and AI",
+          "Installing Python - making your computer ready to code",
+          "Using IDLE - Python's friendly coding environment",
+          "Your first program: Making Python say 'Hello World!'",
+          "Using print() to display messages",
+          "Creating colorful text outputs",
+          "Comments - leaving notes in your code",
+          "Making Python do math - calculator programs",
+          "Common errors and how to fix them",
+          "Saving and running Python files",
+          "Organizing your coding projects"
+        ],
+        "projects": [
+          "Personalized greeting program",
+          "Magic calculator with special messages",
+          "Story generator with your name"
+        ],
+        "practice": "Daily: Create 3 different print programs, solve 5 math problems with Python"
+      },
+      "week_3_4": {
+        "title": "Variables & Data Types - Teaching Python to Remember",
+        "topics": [
+          "Variables - giving names to information",
+          "Choosing good variable names",
+          "Numbers in Python: integers and decimals",
+          "Text in Python: strings and how to use them",
+          "True or False: boolean values",
+          "Changing variable values",
+          "Getting input from users with input()",
+          "Converting between different types",
+          "Fun with strings: uppercase, lowercase, length",
+          "String concatenation - joining words together",
+          "Special characters and escape sequences",
+          "Creating Mad Libs games with variables"
+        ],
+        "projects": [
+          "Interactive story with user input",
+          "Age calculator with birthday messages",
+          "Mad Libs game generator",
+          "Personal quiz about yourself"
+        ],
+        "practice": "Create 5 programs using different variable types"
+      },
+      "week_5_6": {
+        "title": "Making Decisions with If-Else",
+        "topics": [
+          "If statements - teaching Python to make choices",
+          "Comparison operators: ==, !=, <, >, <=, >=",
+          "Else statements - what to do otherwise",
+          "Elif - checking multiple conditions",
+          "Combining conditions with and, or, not",
+          "Nested if statements - decisions within decisions",
+          "Creating quiz games with scoring",
+          "Password checker programs",
+          "Age-appropriate content filters",
+          "Random module - adding surprises to programs",
+          "Making a magic 8-ball program",
+          "Building simple AI decision makers"
+        ],
+        "projects": [
+          "Adventure game with choices",
+          "Grade calculator with feedback",
+          "Virtual pet mood checker",
+          "Rock, Paper, Scissors game"
+        ],
+        "practice": "Build 5 decision-making programs"
+      },
+      "week_7_8": {
+        "title": "Loops - Making Python Repeat",
+        "topics": [
+          "For loops - counting and repeating",
+          "Range() function - controlling loop counts",
+          "While loops - repeat until something happens",
+          "Breaking out of loops with break",
+          "Skipping with continue",
+          "Nested loops - loops inside loops",
+          "Creating patterns with loops",
+          "Drawing ASCII art with loops",
+          "Countdown and timer programs",
+          "Multiplication table generator",
+          "Password attempt limiters",
+          "Animation basics with loops and time.sleep()"
+        ],
+        "projects": [
+          "Pattern art generator",
+          "Guessing game with attempts",
+          "Countdown timer with effects",
+          "ASCII art animation"
+        ],
+        "practice": "Create 10 different loop patterns and animations"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Turtle Graphics & Visual Programming",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Introduction to Turtle Graphics",
+        "topics": [
+          "What is Turtle Graphics? Your drawing robot",
+          "Setting up the turtle screen",
+          "Basic movements: forward, backward, left, right",
+          "Drawing shapes: squares, triangles, circles",
+          "Changing turtle appearance and speed",
+          "Colors in turtle: pen color and fill color",
+          "Lifting and putting down the pen",
+          "Going to specific positions",
+          "Drawing with coordinates",
+          "Creating custom shapes",
+          "Saving turtle drawings",
+          "Multiple turtles on screen"
+        ],
+        "projects": [
+          "Geometric art generator",
+          "House drawing program",
+          "Rainbow spiral creator",
+          "Name writer in turtle"
+        ],
+        "practice": "Draw 10 different shapes and patterns"
+      },
+      "week_11_12": {
+        "title": "Advanced Turtle Projects",
+        "topics": [
+          "Using loops with turtle for complex patterns",
+          "Creating functions for repeated shapes",
+          "Building a drawing app with keyboard control",
+          "Mouse events in turtle",
+          "Creating simple games with turtle",
+          "Collision detection basics",
+          "Score keeping in turtle games",
+          "Creating mazes with turtle",
+          "Animating turtle movements",
+          "Fractal patterns with recursion basics",
+          "Turtle race game",
+          "Building a paint program"
+        ],
+        "projects": [
+          "Controllable turtle game",
+          "Turtle race simulator",
+          "Maze solver with turtle",
+          "Digital spirograph"
+        ],
+        "practice": "Create 5 interactive turtle programs"
+      },
+      "week_13": {
+        "title": "Phase 1 Showcase & Review",
+        "topics": [
+          "Reviewing Python basics",
+          "Debugging common errors",
+          "Code organization best practices",
+          "Preparing projects for showcase",
+          "Adding comments and documentation",
+          "Creating a project portfolio"
+        ],
+        "projects": [
+          "CAPSTONE: Interactive Story Game with Turtle Graphics",
+          "Combine all learned concepts into one big project",
+          "Present to family and friends"
+        ],
+        "assessment": "Phase 1 Quiz and Project Presentation"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Creative Coding & Game Development (Months 4-6, Weeks 14-26)",
+    "description": "Level up your Python skills! Create awesome games, work with data, and build useful applications.",
+    "month_7_8": {
+      "title": "Months 4-5: Lists, Functions & Advanced Concepts",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Lists & Collections",
+        "topics": [
+          "Lists - storing multiple items",
+          "Accessing list items with indexes",
+          "Adding items: append, insert",
+          "Removing items: remove, pop, clear",
+          "List slicing - getting parts of lists",
+          "Sorting and reversing lists",
+          "Finding items in lists",
+          "List comprehensions - the Python superpower",
+          "2D lists - lists inside lists",
+          "Tuples - lists that can't change",
+          "Sets - unique item collections",
+          "Dictionaries - key-value pairs"
+        ],
+        "projects": [
+          "Todo list manager",
+          "High score tracker",
+          "Inventory system for games",
+          "Contact book application"
+        ],
+        "practice": "Build 5 programs using different list operations"
+      },
+      "week_29_30": {
+        "title": "Functions - Reusable Code Blocks",
+        "topics": [
+          "What are functions? Why use them?",
+          "Creating simple functions with def",
+          "Parameters - giving information to functions",
+          "Return values - getting answers from functions",
+          "Multiple parameters and default values",
+          "Local vs global variables",
+          "Function documentation with docstrings",
+          "Lambda functions - tiny functions",
+          "Recursion - functions calling themselves",
+          "Building a function library",
+          "Importing and using modules",
+          "Creating your own modules"
+        ],
+        "projects": [
+          "Calculator with function menu",
+          "Text adventure with function rooms",
+          "Utility function collection",
+          "Math game with scoring functions"
+        ],
+        "practice": "Create 10 useful functions for future projects"
+      },
+      "week_31_32": {
+        "title": "File Handling & Data",
+        "topics": [
+          "Reading from text files",
+          "Writing to text files",
+          "Append mode vs write mode",
+          "Working with CSV files",
+          "Creating save files for games",
+          "Loading game progress",
+          "Simple encryption for files",
+          "Creating a diary application",
+          "Managing high scores",
+          "Building a note-taking app",
+          "File organization programs",
+          "Backup utilities"
+        ],
+        "projects": [
+          "Personal diary with password",
+          "Quiz game with saved scores",
+          "File organizer utility",
+          "Simple database system"
+        ],
+        "practice": "Build 5 file-based applications"
+      },
+      "week_33_34": {
+        "title": "Object-Oriented Programming Basics",
+        "topics": [
+          "What are objects and classes?",
+          "Creating your first class",
+          "Attributes - what objects know",
+          "Methods - what objects can do",
+          "Creating multiple objects from one class",
+          "The __init__ method",
+          "Self - referring to the object itself",
+          "Class vs instance variables",
+          "Inheritance - classes having children",
+          "Making a pet class system",
+          "Building game characters with OOP",
+          "Real-world object modeling"
+        ],
+        "projects": [
+          "Virtual pet simulator",
+          "RPG character creator",
+          "School management system",
+          "Zoo animal hierarchy"
+        ],
+        "practice": "Create 5 different class systems"
+      },
+      "week_35": {
+        "title": "Error Handling & Debugging",
+        "topics": [
+          "Common Python errors and fixes",
+          "Try-except blocks",
+          "Handling specific errors",
+          "Creating custom error messages",
+          "Debugging with print statements",
+          "Using Python debugger",
+          "Testing your code",
+          "Making programs user-friendly",
+          "Input validation",
+          "Creating help messages"
+        ],
+        "projects": [
+          "Unbreakable calculator",
+          "Error-proof quiz game",
+          "User-friendly file manager"
+        ],
+        "practice": "Add error handling to previous projects"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Game Development with Pygame",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Introduction to Pygame",
+        "topics": [
+          "What is Pygame? Making real games!",
+          "Installing and setting up Pygame",
+          "Creating game windows",
+          "Game loop concept",
+          "Drawing shapes and colors",
+          "Loading and displaying images",
+          "Sprite basics",
+          "Moving objects on screen",
+          "Keyboard input in games",
+          "Mouse control in games",
+          "Frame rate and smooth movement",
+          "Coordinate system in games"
+        ],
+        "projects": [
+          "Bouncing ball animation",
+          "Simple drawing program",
+          "Moving character demo",
+          "Click the target game"
+        ],
+        "practice": "Create 5 simple Pygame demos"
+      },
+      "week_38_39": {
+        "title": "Building Complete Games",
+        "topics": [
+          "Collision detection in games",
+          "Score keeping and lives",
+          "Game states: menu, playing, game over",
+          "Sound effects and music",
+          "Creating game levels",
+          "Power-ups and bonuses",
+          "Enemy AI basics",
+          "Particle effects",
+          "High score saving",
+          "Pause functionality",
+          "Full screen mode",
+          "Packaging games for sharing"
+        ],
+        "projects": [
+          "Snake game remake",
+          "Space shooter game",
+          "Platform jumper game",
+          "Puzzle matching game"
+        ],
+        "practice": "Add features to existing games"
+      },
+      "week_40_41": {
+        "title": "Advanced Game Features",
+        "topics": [
+          "Scrolling backgrounds",
+          "Parallax effects",
+          "Sprite animations",
+          "Tile-based games",
+          "Physics simulation basics",
+          "Gravity and jumping",
+          "Multiple levels design",
+          "Boss battles",
+          "Achievements system",
+          "Game balancing",
+          "Multiplayer basics",
+          "Publishing games online"
+        ],
+        "projects": [
+          "Multi-level platformer",
+          "Racing game with AI",
+          "Tower defense game",
+          "2-player battle game"
+        ],
+        "practice": "Polish and enhance game projects"
+      },
+      "week_42_43": {
+        "title": "Creative Coding Projects",
+        "topics": [
+          "Music with Python",
+          "Creating visualizations",
+          "Generative art",
+          "Data visualization basics",
+          "Web scraping basics (kid-safe)",
+          "Automation scripts",
+          "Discord bot basics",
+          "Creating GUIs with Tkinter",
+          "Weather app with API",
+          "URL shortener",
+          "QR code generator",
+          "Combining multiple libraries"
+        ],
+        "projects": [
+          "Music visualizer",
+          "Weather dashboard",
+          "Personal assistant bot",
+          "Desktop widget application"
+        ],
+        "practice": "Build 5 creative applications"
+      },
+      "week_44": {
+        "title": "Phase 2 Game Showcase",
+        "topics": [
+          "Polishing game projects",
+          "Creating game trailers",
+          "Writing game documentation",
+          "Beta testing with friends",
+          "Gathering feedback",
+          "Publishing to itch.io"
+        ],
+        "projects": [
+          "CAPSTONE: Complete Original Game",
+          "Design, develop, and polish an original game",
+          "Include menu, levels, scoring, and sound"
+        ],
+        "assessment": "Phase 2 Game Development Challenge"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Introduction to AI & Machine Learning (Months 7-9, Weeks 27-39)",
+    "description": "Enter the world of AI! Learn how computers can learn, recognize patterns, and make intelligent decisions.",
+    "month_13_14": {
+      "title": "Months 7-8: AI Fundamentals & Smart Programs",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "What is Artificial Intelligence?",
+        "topics": [
+          "AI in everyday life - Siri, Alexa, YouTube recommendations",
+          "How do computers learn? Simple explanation",
+          "Difference between programming and AI",
+          "Types of AI: narrow vs general",
+          "Machine Learning basics for kids",
+          "Supervised vs unsupervised learning",
+          "Training data concept",
+          "Making predictions",
+          "Pattern recognition",
+          "AI ethics - using AI responsibly",
+          "Famous AI applications",
+          "Future of AI"
+        ],
+        "projects": [
+          "AI concept presentation",
+          "Design your dream AI assistant",
+          "AI in daily life tracker",
+          "Simple pattern recognizer"
+        ],
+        "practice": "Research and present 5 AI applications"
+      },
+      "week_55_56": {
+        "title": "Smart Decision Making Programs",
+        "topics": [
+          "Rule-based AI systems",
+          "Decision trees explained",
+          "Creating expert systems",
+          "Tic-tac-toe AI opponent",
+          "Game AI strategies",
+          "Minimax algorithm (simplified)",
+          "Pathfinding basics",
+          "A* algorithm introduction",
+          "Maze solving AI",
+          "Simple recommendation systems",
+          "Chatbot logic basics",
+          "Natural language understanding basics"
+        ],
+        "projects": [
+          "Tic-tac-toe with smart AI",
+          "Maze solver AI",
+          "Movie recommendation system",
+          "Simple medical diagnosis bot"
+        ],
+        "practice": "Build 5 rule-based AI systems"
+      },
+      "week_57_58": {
+        "title": "Data Science for Kids",
+        "topics": [
+          "What is data? Why is it important?",
+          "Collecting and organizing data",
+          "NumPy basics - working with numbers",
+          "Pandas basics - data tables",
+          "Reading data from files",
+          "Cleaning messy data",
+          "Finding patterns in data",
+          "Basic statistics: mean, median, mode",
+          "Creating charts with Matplotlib",
+          "Bar charts, pie charts, line graphs",
+          "Making data tell stories",
+          "Data visualization projects"
+        ],
+        "projects": [
+          "Class survey analyzer",
+          "Weather data explorer",
+          "Sports statistics dashboard",
+          "Personal habit tracker"
+        ],
+        "practice": "Analyze 5 different datasets"
+      },
+      "week_59_60": {
+        "title": "Introduction to Machine Learning",
+        "topics": [
+          "Scikit-learn for beginners",
+          "What is classification?",
+          "Training vs testing data",
+          "Simple classifiers",
+          "K-Nearest Neighbors explained",
+          "Decision trees visualization",
+          "Making predictions",
+          "Accuracy and evaluation",
+          "Overfitting explained simply",
+          "Feature selection basics",
+          "Iris flower classification",
+          "Digit recognition basics"
+        ],
+        "projects": [
+          "Flower species classifier",
+          "Fruit identifier",
+          "Simple spam detector",
+          "Weather predictor"
+        ],
+        "practice": "Train 5 different ML models"
+      },
+      "week_61": {
+        "title": "Neural Networks Basics",
+        "topics": [
+          "What are neural networks?",
+          "Neurons and connections",
+          "How neural networks learn",
+          "Simple neural network demo",
+          "Image recognition basics",
+          "Training neural networks",
+          "TensorFlow Playground",
+          "Visualizing neural networks",
+          "Common applications",
+          "Deep learning introduction"
+        ],
+        "projects": [
+          "Handwritten digit recognizer",
+          "Simple image classifier",
+          "Neural network visualizer",
+          "Pattern learning demo"
+        ],
+        "practice": "Experiment with neural network parameters"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Computer Vision & Image AI",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Computer Vision Basics",
+        "topics": [
+          "How computers see images",
+          "Pixels and image data",
+          "OpenCV introduction",
+          "Loading and displaying images",
+          "Image manipulation: resize, rotate, flip",
+          "Color spaces: RGB, grayscale",
+          "Image filters and effects",
+          "Edge detection",
+          "Shape detection",
+          "Color detection",
+          "Face detection with OpenCV",
+          "Drawing on images"
+        ],
+        "projects": [
+          "Photo editor with filters",
+          "Face detection app",
+          "Color tracker game",
+          "Shape identifier"
+        ],
+        "practice": "Create 5 image processing programs"
+      },
+      "week_64_65": {
+        "title": "Advanced Computer Vision",
+        "topics": [
+          "Object detection basics",
+          "Pre-trained models",
+          "YOLO introduction (simplified)",
+          "Detecting common objects",
+          "Pose detection",
+          "Hand tracking",
+          "Facial landmarks",
+          "Emotion detection",
+          "Augmented reality basics",
+          "Virtual backgrounds",
+          "Real-time video processing",
+          "Creating Instagram-like filters"
+        ],
+        "projects": [
+          "Object counting app",
+          "Virtual background changer",
+          "Gesture control game",
+          "Emotion detector"
+        ],
+        "practice": "Build 5 computer vision applications"
+      },
+      "week_66_67": {
+        "title": "Image Recognition Projects",
+        "topics": [
+          "Training custom image classifiers",
+          "Teachable Machine by Google",
+          "Transfer learning basics",
+          "Creating image datasets",
+          "Data augmentation",
+          "Building a pet breed classifier",
+          "Food recognition app",
+          "Plant identification system",
+          "Sign language recognizer",
+          "Custom gesture recognition",
+          "Deploying image models",
+          "Creating mobile-friendly AI"
+        ],
+        "projects": [
+          "Pet breed identifier",
+          "Food calorie estimator",
+          "Sign language translator",
+          "Custom object detector"
+        ],
+        "practice": "Train 5 custom image models"
+      },
+      "week_68_69": {
+        "title": "Creative AI Art",
+        "topics": [
+          "AI art generation basics",
+          "Style transfer introduction",
+          "Creating artistic filters",
+          "Neural style transfer",
+          "Deep Dream basics",
+          "Generating patterns with AI",
+          "AI color palettes",
+          "Image enhancement with AI",
+          "Creating photo mosaics",
+          "AI-powered animations",
+          "Combining multiple AI techniques"
+        ],
+        "projects": [
+          "AI art generator",
+          "Style transfer app",
+          "Photo mosaic creator",
+          "AI animation tool"
+        ],
+        "practice": "Create 10 AI artworks"
+      },
+      "week_70": {
+        "title": "Phase 3 AI Exhibition",
+        "topics": [
+          "Preparing AI demos",
+          "Creating project presentations",
+          "Explaining AI to others",
+          "Showcasing projects",
+          "Getting feedback",
+          "AI project portfolio"
+        ],
+        "projects": [
+          "CAPSTONE: AI-Powered Game or Application",
+          "Combine gaming with AI features",
+          "Include computer vision or ML elements"
+        ],
+        "assessment": "Phase 3 AI Challenge"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Advanced AI Projects & Future Tech (Months 10-12, Weeks 40-52)",
+    "description": "Build amazing AI projects! Create chatbots, voice assistants, and your own AI-powered applications.",
+    "month_19_20": {
+      "title": "Months 10-11: Natural Language & Chatbots",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Natural Language Processing Basics",
+        "topics": [
+          "How computers understand language",
+          "Text processing basics",
+          "Tokenization - breaking text into words",
+          "Removing stop words",
+          "Word frequency analysis",
+          "Sentiment analysis basics",
+          "Positive vs negative detection",
+          "Text classification",
+          "Language detection",
+          "Text generation basics",
+          "Working with NLTK",
+          "SpaCy for kids"
+        ],
+        "projects": [
+          "Sentiment analyzer for reviews",
+          "Text summarizer",
+          "Language detector",
+          "Word cloud generator"
+        ],
+        "practice": "Build 5 text analysis tools"
+      },
+      "week_81_82": {
+        "title": "Building Chatbots",
+        "topics": [
+          "Chatbot architecture",
+          "Rule-based chatbots",
+          "Intent recognition",
+          "Entity extraction",
+          "Response generation",
+          "ChatterBot library",
+          "Training chatbots",
+          "Context management",
+          "Personality in chatbots",
+          "Multi-turn conversations",
+          "Integrating APIs in chatbots",
+          "Deploying chatbots"
+        ],
+        "projects": [
+          "Personal assistant chatbot",
+          "Study buddy bot",
+          "Customer service bot",
+          "Storytelling chatbot"
+        ],
+        "practice": "Create 5 different chatbots"
+      },
+      "week_83_84": {
+        "title": "Voice Assistants & Speech",
+        "topics": [
+          "Speech recognition basics",
+          "Converting speech to text",
+          "Text to speech synthesis",
+          "Creating voice commands",
+          "Wake word detection",
+          "Building a mini Alexa",
+          "Voice-controlled games",
+          "Language translation",
+          "Voice emotions",
+          "Accents and languages",
+          "Audio processing basics",
+          "Creating voice filters"
+        ],
+        "projects": [
+          "Voice-controlled calculator",
+          "Personal voice assistant",
+          "Voice diary application",
+          "Language learning helper"
+        ],
+        "practice": "Build 5 voice-enabled applications"
+      },
+      "week_85_86": {
+        "title": "AI APIs & Cloud Services",
+        "topics": [
+          "Using Google Cloud AI",
+          "Microsoft Azure Cognitive Services",
+          "IBM Watson for kids",
+          "OpenAI API basics (age-appropriate)",
+          "Translation APIs",
+          "Vision APIs",
+          "Speech APIs",
+          "Weather and data APIs",
+          "Combining multiple APIs",
+          "API keys and security",
+          "Rate limiting",
+          "Creating API mashups"
+        ],
+        "projects": [
+          "Multi-language translator",
+          "AI news reader",
+          "Smart weather reporter",
+          "API-powered game"
+        ],
+        "practice": "Integrate 5 different AI APIs"
+      },
+      "week_87": {
+        "title": "Internet of Things (IoT) Basics",
+        "topics": [
+          "What is IoT?",
+          "Raspberry Pi introduction",
+          "Micro:bit basics",
+          "Sensors and actuators",
+          "Reading sensor data",
+          "Controlling LEDs",
+          "Temperature monitoring",
+          "Motion detection",
+          "Smart home basics",
+          "IoT and AI combination",
+          "Cloud IoT platforms",
+          "Safety with IoT"
+        ],
+        "projects": [
+          "Smart plant watering system",
+          "Room temperature monitor",
+          "Motion-activated alarm",
+          "Mini weather station"
+        ],
+        "practice": "Build 3 IoT projects"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 11: Robotics & Advanced Projects",
+      "weeks": "Week 48-51",
+      "week_88_89": {
+        "title": "Robotics with Python",
+        "topics": [
+          "Introduction to robotics",
+          "Robot components: sensors, motors, controllers",
+          "Programming robot movements",
+          "Line following robots",
+          "Obstacle avoidance",
+          "Remote control robots",
+          "Robot simulation environments",
+          "Path planning for robots",
+          "Computer vision in robotics",
+          "Voice control for robots",
+          "Multi-robot coordination",
+          "Robot competitions"
+        ],
+        "projects": [
+          "Virtual robot simulator",
+          "Maze-solving robot",
+          "Drawing robot",
+          "Voice-controlled robot"
+        ],
+        "practice": "Program 5 robot behaviors"
+      },
+      "week_90_91": {
+        "title": "Game AI & Reinforcement Learning",
+        "topics": [
+          "How AI learns to play games",
+          "Reinforcement learning basics",
+          "Rewards and penalties",
+          "Q-learning introduction",
+          "Training AI to play simple games",
+          "OpenAI Gym basics",
+          "Creating game environments",
+          "AI vs human gameplay",
+          "Balancing game difficulty",
+          "Procedural content generation",
+          "AI for game testing",
+          "Future of gaming AI"
+        ],
+        "projects": [
+          "AI learns Tic-Tac-Toe",
+          "Flappy Bird AI",
+          "Maze learning agent",
+          "AI game opponent"
+        ],
+        "practice": "Train AI for 5 different games"
+      },
+      "week_92_93": {
+        "title": "Data Visualization & Dashboards",
+        "topics": [
+          "Advanced data visualization",
+          "Interactive plots with Plotly",
+          "Creating dashboards",
+          "Real-time data visualization",
+          "Geographic data and maps",
+          "3D visualizations",
+          "Animation in data viz",
+          "Streamlit for web apps",
+          "Creating data stories",
+          "Infographics with Python",
+          "Dashboard design principles",
+          "Sharing visualizations online"
+        ],
+        "projects": [
+          "COVID data dashboard",
+          "Sports analytics dashboard",
+          "Personal fitness tracker",
+          "School performance visualizer"
+        ],
+        "practice": "Create 5 interactive dashboards"
+      },
+      "week_94_95": {
+        "title": "Web Development & AI Integration",
+        "topics": [
+          "Web basics: HTML, CSS review",
+          "Flask web framework basics",
+          "Creating web interfaces for AI",
+          "Deploying ML models online",
+          "Building AI web apps",
+          "REST APIs for AI",
+          "Real-time predictions",
+          "User authentication basics",
+          "Database basics for web apps",
+          "Hosting on Heroku/Replit",
+          "Creating AI demos",
+          "Portfolio website creation"
+        ],
+        "projects": [
+          "AI-powered web app",
+          "Online image classifier",
+          "Web-based chatbot",
+          "Portfolio website with projects"
+        ],
+        "practice": "Deploy 5 AI projects online"
+      },
+      "week_96": {
+        "title": "Mobile Apps & AI",
+        "topics": [
+          "Mobile app basics",
+          "Kivy framework introduction",
+          "Creating mobile UIs",
+          "AI on mobile devices",
+          "TensorFlow Lite basics",
+          "Offline AI apps",
+          "Camera integration",
+          "Mobile sensors usage",
+          "Publishing apps basics",
+          "App monetization basics",
+          "User privacy and safety"
+        ],
+        "projects": [
+          "Mobile AI camera app",
+          "Offline translator app",
+          "Mobile game with AI",
+          "Personal AI assistant app"
+        ],
+        "practice": "Create 3 mobile AI apps"
+      }
+    },
+    "month_23": {
+      "title": "Month 12: Final Projects & Future Path",
+      "weeks": "Week 52",
+      "week_97": {
+        "title": "Ethical AI & Future Technologies",
+        "topics": [
+          "AI ethics for young developers",
+          "Bias in AI systems",
+          "Privacy and data protection",
+          "AI safety basics",
+          "Environmental impact of AI",
+          "AI for social good",
+          "Future careers in AI",
+          "Quantum computing basics",
+          "Blockchain basics for kids",
+          "Augmented Reality future",
+          "Space technology and AI",
+          "Creating positive AI impact"
+        ],
+        "projects": [
+          "AI for social good project",
+          "Bias detection tool",
+          "Privacy-preserving AI app",
+          "Future technology presentation"
+        ],
+        "practice": "Research and present on AI ethics"
+      },
+      "week_98": {
+        "title": "Advanced AI Topics",
+        "topics": [
+          "Generative AI basics",
+          "GANs introduction (simplified)",
+          "AI music generation",
+          "AI story writing",
+          "Deepfakes awareness",
+          "AI in medicine",
+          "AI in climate change",
+          "AI in space exploration",
+          "Quantum AI basics",
+          "Brain-computer interfaces",
+          "Future of AI predictions"
+        ],
+        "projects": [
+          "AI music composer",
+          "Story generator with AI",
+          "Future AI concept design",
+          "AI research presentation"
+        ],
+        "practice": "Explore 5 cutting-edge AI topics"
+      },
+      "week_99": {
+        "title": "Hackathon Preparation",
+        "topics": [
+          "What are hackathons?",
+          "Team collaboration",
+          "Rapid prototyping",
+          "Pitching ideas",
+          "Time management",
+          "Using Git for teams",
+          "Documentation skills",
+          "Presentation skills",
+          "Demo preparation",
+          "Handling pressure",
+          "Learning from failure",
+          "Networking basics"
+        ],
+        "projects": [
+          "24-hour hackathon project",
+          "Team collaboration project",
+          "Speed coding challenges",
+          "Pitch deck creation"
+        ],
+        "practice": "Participate in online hackathon"
+      },
+      "week_100": {
+        "title": "Open Source & Community",
+        "topics": [
+          "What is open source?",
+          "Contributing to projects",
+          "GitHub for collaboration",
+          "Creating documentation",
+          "Issue tracking",
+          "Code reviews basics",
+          "Creating your first package",
+          "PyPI basics",
+          "Building coding community",
+          "Teaching others to code",
+          "Starting a coding club",
+          "Continuing education"
+        ],
+        "projects": [
+          "Open source contribution",
+          "Create Python package",
+          "Tutorial creation",
+          "Coding club project"
+        ],
+        "practice": "Contribute to 3 open source projects"
+      }
+    },
+    "month_24": {
+      "title": "Final Month: Capstone & Graduation",
+      "weeks": "Week 52",
+      "week_101_102": {
+        "title": "Final Capstone Project - Planning",
+        "topics": [
+          "Choosing capstone topic",
+          "Project requirements analysis",
+          "Creating project timeline",
+          "Technology stack selection",
+          "UI/UX design basics",
+          "Database design",
+          "API planning",
+          "Testing strategy",
+          "Documentation planning",
+          "Setting up development environment",
+          "Version control setup",
+          "Project management tools"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete AI-Powered Application",
+          "Requirements: Original idea, AI/ML integration, database, web/mobile interface, documentation",
+          "Options: AI tutor, Smart home assistant, Game with AI, Social good application, Educational tool"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Development",
+        "topics": [
+          "Agile development basics",
+          "Daily progress tracking",
+          "Feature implementation",
+          "Testing and debugging",
+          "Performance optimization",
+          "Security considerations",
+          "User testing",
+          "Feedback incorporation",
+          "Final polishing",
+          "Deployment preparation",
+          "Creating user manual",
+          "Video demo creation"
+        ],
+        "deliverables": [
+          "Complete source code",
+          "Live demonstration",
+          "Project documentation",
+          "Video presentation",
+          "Technical report",
+          "User manual",
+          "Test results",
+          "Future roadmap"
+        ]
+      },
+      "week_104": {
+        "title": "Showcase & Future Journey",
+        "topics": [
+          "Project presentation skills",
+          "Creating portfolio website",
+          "Resume for young coders",
+          "Competition preparation",
+          "Advanced learning paths",
+          "University preparation",
+          "Internship opportunities",
+          "Building online presence",
+          "Joining developer communities",
+          "Mentoring younger students",
+          "Planning next projects",
+          "Lifelong learning mindset"
+        ],
+        "deliverables": [
+          "Portfolio website",
+          "LinkedIn profile (if age appropriate)",
+          "GitHub portfolio",
+          "Competition entries",
+          "Future learning plan",
+          "Peer teaching session",
+          "Thank you project for parents/teachers"
+        ],
+        "assessment": "FINAL SHOWCASE - Present to family, friends, and community"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Calculator, Turtle Art, Mad Libs, Guessing Games, ASCII Animations",
+      "Phase 2: Snake Game, Platformer, Tower Defense, Music Visualizer, Discord Bot",
+      "Phase 3: Face Detector, Object Classifier, Emotion Recognizer, AI Art Generator",
+      "Phase 4: Chatbot, Voice Assistant, Robot Simulator, AI Web App",
+      "Final: Complete AI-Powered Application with real-world use"
+    ],
+    "total_projects_built": "30+ projects from simple to advanced",
+    "skills_mastered": [
+      "Programming: Python, Object-Oriented Programming, Functional Programming",
+      "Game Development: Pygame, Game Design, AI Opponents, Physics",
+      "Data Science: NumPy, Pandas, Matplotlib, Data Analysis, Visualization",
+      "Machine Learning: Scikit-learn, Classification, Neural Networks, Deep Learning",
+      "Computer Vision: OpenCV, Image Processing, Object Detection, Face Recognition",
+      "Natural Language: Text Processing, Sentiment Analysis, Chatbots, Voice Recognition",
+      "Robotics: Robot Programming, Sensors, Path Planning, Automation",
+      "Web Development: Flask, APIs, Deployment, Databases",
+      "Tools: Git, VS Code, Jupyter, Google Colab, Command Line",
+      "Soft Skills: Problem Solving, Debugging, Project Planning, Presentation"
+    ],
+    "weekly_structure": {
+      "theory_videos": "2-3 hours",
+      "hands_on_coding": "3-4 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "5-8 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly fun coding sessions",
+      "mentorship": "Dedicated mentor for guidance",
+      "community": "Safe, moderated community for kids",
+      "code_review": "Friendly feedback on projects",
+      "career_support": "Guidance for future in tech",
+      "lifetime_access": "Keep learning and reviewing"
+    },
+    "certification": {
+      "phase_certificates": "Badge after each phase",
+      "final_certificate": "Young Python & AI Developer Certificate",
+      "linkedin_badge": "Digital badge for profiles",
+      "industry_recognized": "Recognized by schools and competitions",
+      "portfolio_projects": "30+ projects to showcase"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic reading and math skills (Grade 3+)",
+    "coding_experience": "None required - complete beginner friendly",
+    "equipment": "Computer/laptop with internet",
+    "time_commitment": "5-8 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Curiosity and excitement to learn"
+  },
+  "who_is_this_for": {
+    "students": "Kids aged 8-16 who want to learn coding",
+    "working_professionals": "Parents wanting to learn with kids",
+    "entrepreneurs": "Young entrepreneurs with app ideas",
+    "freelancers": "Teen freelancers building skills",
+    "kids": "Any child interested in technology",
+    "anyone": "Families learning together"
+  },
+  "career_paths_after_completion": [
+    "Continue to advanced programming courses",
+    "Participate in coding competitions",
+    "Join robotics clubs and teams",
+    "Create apps and games",
+    "Start a YouTube channel teaching coding",
+    "Contribute to open source projects",
+    "Prepare for computer science studies",
+    "Build AI projects for science fairs",
+    "Become a young coding mentor",
+    "Launch a tech startup"
+  ],
+  "salary_expectations": {
+    "after_6_months": "Ready for advanced courses and competitions",
+    "after_12_months": "Qualified for internships and junior projects",
+    "after_18_months": "Can take freelance projects ($10-30/hour)",
+    "after_24_months": "Ready for university-level computer science",
+    "freelance": "Teen freelancers: $15-50/hour",
+    "international": "Strong foundation for future tech career"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "job_assistance": "Internship and competition guidance",
+    "lifetime_updates": "Access to new content forever",
+    "mentorship": "Dedicated mentor throughout",
+    "certificate": "Recognized certification",
+    "portfolio": "Impressive project portfolio"
+  }
+}

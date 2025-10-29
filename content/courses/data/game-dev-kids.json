@@ -1,0 +1,1681 @@
+{
+  "meta": {
+    "slug": "game-development-masterclass-for-kids",
+    "title": "Complete Game Development Masterclass for Kids - From Player to Creator",
+    "description": "The ultimate 6-month game development program for kids and teens using visual tools like Scratch, Roblox Studio, Minecraft, GDevelop, and more. Create, publish, and monetize real games without complex coding. Perfect for ages 8-18!",
+    "keywords": [
+      "game development for kids",
+      "Scratch games",
+      "Roblox Studio",
+      "Minecraft modding",
+      "GDevelop",
+      "Construct 3",
+      "kids coding",
+      "game design",
+      "visual programming",
+      "2D games",
+      "3D games",
+      "multiplayer games",
+      "game creation",
+      "teen game developer",
+      "no-code game development"
+    ],
+    "category": "Game Development & Design",
+    "price": {
+      "group": "₹899/month",
+      "personal": "₹1799/month",
+      "lifetime": "₹8,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Advanced Game Creator",
+    "commitment": "6-8 hours/week recommended",
+    "certification": "Junior Game Developer Certification"
+  },
+  "program_overview": {
+    "title": "Complete Game Development Masterclass for Kids",
+    "tagline": "Transform from Game Player to Game Creator in 6 Months!",
+    "description": "This exciting 6-month journey transforms game-loving kids into game creators! Using kid-friendly visual tools, students will create 50+ games across multiple platforms - from simple 2D arcade games to complex 3D multiplayer worlds. No typing code required!\n\nStudents will master Scratch, Roblox Studio, Minecraft Education, GDevelop, and more. They'll learn game design, storytelling, level design, character creation, and even game monetization. By the end, they'll have a portfolio of published games and the skills to bring any game idea to life!",
+    "what_makes_this_different": [
+      "100% visual tools - no complex coding required",
+      "Create games that friends can actually play",
+      "Learn 10+ different game creation platforms",
+      "Publish games online and to app stores",
+      "Make money from games (parent-supervised)",
+      "Both 2D and 3D game development",
+      "Multiplayer and social games included",
+      "Game design theory made fun for kids"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Game Logic, Scratch, First Games",
+      "phase_2": "2D Games (Months 3-4): GDevelop, Construct, Mobile Games",
+      "phase_3": "3D Worlds (Months 5-6): Roblox, Minecraft, Multiplayer",
+      "phase_4": "Publishing: Share games with the world!"
+    },
+    "career_outcomes": [
+      "Young Game Developer",
+      "Game Designer",
+      "Level Designer",
+      "Game Tester",
+      "Content Creator/YouTuber",
+      "Future Professional Game Developer"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Game Foundations & First Games (Months 1-2, Weeks 1-8)",
+    "description": "Master game thinking and create your first games using Scratch and basic tools. Learn what makes games fun!",
+    "month_1_2": {
+      "title": "Months 1-2: Game Logic & Scratch Mastery",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Game Development",
+        "topics": [
+          "What makes a game fun?",
+          "Types of games: arcade, puzzle, adventure, RPG",
+          "Game development process overview",
+          "Introduction to Scratch for games",
+          "Scratch interface for game makers",
+          "Sprites as game characters",
+          "Backgrounds and game worlds",
+          "Basic movement: arrow keys and WASD",
+          "Collision detection basics",
+          "Game coordinates (X and Y)",
+          "Your first playable game",
+          "Sharing games with friends"
+        ],
+        "projects": [
+          "Catch the falling objects game",
+          "Simple maze game",
+          "Pet virtual game",
+          "Two-player tag game"
+        ],
+        "practice": "Daily: Play and analyze 2 games, create 1 game mechanic"
+      },
+      "week_3_4": {
+        "title": "Game Mechanics & Player Control",
+        "topics": [
+          "Player movement patterns",
+          "Jump mechanics and gravity",
+          "Speed and acceleration",
+          "Power-ups and collectibles",
+          "Enemy movement and AI basics",
+          "Health and lives system",
+          "Score and points tracking",
+          "Timer and countdown mechanics",
+          "Game over and restart",
+          "Win conditions",
+          "Difficulty levels",
+          "Checkpoints and saving progress"
+        ],
+        "projects": [
+          "Platformer with jumping",
+          "Racing game with timer",
+          "Shooting game with score",
+          "Puzzle with levels"
+        ],
+        "practice": "Create 10 different game mechanics"
+      },
+      "week_5_6": {
+        "title": "Advanced Scratch Game Development",
+        "topics": [
+          "Scrolling backgrounds",
+          "Multiple levels design",
+          "Boss battles creation",
+          "Inventory systems",
+          "Dialog and storytelling",
+          "Cut scenes and intros",
+          "Sound effects and music",
+          "Particle effects with clones",
+          "Advanced animations",
+          "Cloud variables for high scores",
+          "Multiplayer with cloud data",
+          "Publishing and sharing games"
+        ],
+        "projects": [
+          "Multi-level adventure game",
+          "RPG with inventory",
+          "Battle arena game",
+          "Story-driven game"
+        ],
+        "practice": "Complete 5 advanced Scratch games"
+      },
+      "week_7_8": {
+        "title": "Introduction to GDevelop",
+        "topics": [
+          "GDevelop interface tour",
+          "Objects and behaviors",
+          "Events system in GDevelop",
+          "Physics engine basics",
+          "Animations and sprites",
+          "Sound and music integration",
+          "Touch controls for mobile",
+          "Scene management",
+          "Variables and game logic",
+          "Exporting games",
+          "HTML5 game publishing",
+          "Mobile game basics"
+        ],
+        "projects": [
+          "Physics puzzle game",
+          "Endless runner",
+          "Tower defense game",
+          "Mobile tap game"
+        ],
+        "practice": "Create 5 games in GDevelop"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: 2D Game Mastery",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Construct 3 Game Engine",
+        "topics": [
+          "Construct 3 interface",
+          "Behaviors and effects",
+          "Event sheets mastery",
+          "Layouts and layers",
+          "Sprite animations",
+          "Tilemaps for levels",
+          "Pathfinding for enemies",
+          "Line of sight behavior",
+          "Platform behavior advanced",
+          "Mobile optimization",
+          "Touch and gesture controls",
+          "Debugging tools"
+        ],
+        "projects": [
+          "Zelda-style adventure",
+          "Angry Birds clone",
+          "Match-3 puzzle game",
+          "Stealth game"
+        ],
+        "practice": "Build 8 different game genres"
+      },
+      "week_11_12": {
+        "title": "Game Art & Animation",
+        "topics": [
+          "Pixel art basics",
+          "Character design principles",
+          "Animation fundamentals",
+          "Background creation",
+          "Tile sets design",
+          "UI elements design",
+          "Color theory for games",
+          "Free art resources",
+          "Piskel for pixel art",
+          "Sound effect creation",
+          "Music for games",
+          "Asset optimization"
+        ],
+        "projects": [
+          "Design game character set",
+          "Create animated sprites",
+          "Design full game tileset",
+          "Complete game art package"
+        ],
+        "practice": "Create art for 5 games"
+      },
+      "week_13_14": {
+        "title": "Mobile Game Development",
+        "topics": [
+          "Mobile game design principles",
+          "Touch control optimization",
+          "Screen size adaptation",
+          "Performance optimization",
+          "Accelerometer controls",
+          "Swipe and gesture mechanics",
+          "Mobile UI/UX design",
+          "In-app purchases basics",
+          "Ad integration concepts",
+          "App store preparation",
+          "Testing on devices",
+          "Analytics basics"
+        ],
+        "projects": [
+          "Mobile endless runner",
+          "Puzzle game for phones",
+          "Casual tap game",
+          "Mobile multiplayer game"
+        ],
+        "practice": "Optimize 5 games for mobile"
+      },
+      "week_15_16": {
+        "title": "GameMaker Studio Basics",
+        "topics": [
+          "GameMaker interface",
+          "GML Visual scripting",
+          "Rooms and objects",
+          "Sprites and animations",
+          "Collision systems",
+          "Camera and views",
+          "Particle systems",
+          "Sound management",
+          "Save systems",
+          "Menu creation",
+          "Polish and juice",
+          "Publishing options"
+        ],
+        "projects": [
+          "Retro arcade game",
+          "Metroidvania demo",
+          "Bullet hell shooter",
+          "Roguelike dungeon"
+        ],
+        "practice": "Master 10 GameMaker features"
+      },
+      "week_17": {
+        "title": "2D Games Showcase",
+        "topics": [
+          "Portfolio preparation",
+          "Game trailers creation",
+          "itch.io publishing",
+          "Game documentation",
+          "Player feedback integration",
+          "Bug fixing strategies",
+          "Game updates and patches"
+        ],
+        "projects": [
+          "Polish best 2D game",
+          "Create game trailer",
+          "Publish to itch.io",
+          "Get player feedback"
+        ],
+        "assessment": "Complete 2D game from concept to publication"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: 3D Worlds & Multiplayer",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Roblox Studio Fundamentals",
+        "topics": [
+          "Roblox Studio interface",
+          "Parts and models",
+          "Terrain editor",
+          "Basic scripting with blocks",
+          "GUI creation",
+          "Character customization",
+          "Tools and weapons",
+          "Game passes creation",
+          "Team create feature",
+          "Publishing to Roblox",
+          "Robux monetization basics",
+          "Roblox community"
+        ],
+        "projects": [
+          "Obby (obstacle course)",
+          "Tycoon game",
+          "Racing game",
+          "Battle royale map"
+        ],
+        "practice": "Create 5 Roblox experiences"
+      },
+      "week_20_21": {
+        "title": "Advanced Roblox Development",
+        "topics": [
+          "Advanced building techniques",
+          "Scripting game mechanics",
+          "Datastores for saving",
+          "Leaderboards and stats",
+          "Custom animations",
+          "Particle effects",
+          "Lighting and atmosphere",
+          "Sound regions",
+          "NPCs and AI",
+          "Vehicle systems",
+          "Trading systems",
+          "Group games"
+        ],
+        "projects": [
+          "RPG with quests",
+          "Simulator game",
+          "Horror experience",
+          "Social hangout game"
+        ],
+        "practice": "Master 15 Roblox features"
+      },
+      "week_22_23": {
+        "title": "Minecraft Modding & Creation",
+        "topics": [
+          "Minecraft Education Edition",
+          "Command blocks mastery",
+          "Redstone mechanics",
+          "Custom maps creation",
+          "Adventure mode design",
+          "Resource packs basics",
+          "Function files",
+          "Custom structures",
+          "Minecraft marketplace",
+          "Server creation basics",
+          "Minigames design",
+          "Parkour map creation"
+        ],
+        "projects": [
+          "Adventure map with story",
+          "Minigame collection",
+          "Parkour challenge map",
+          "Survival challenge map"
+        ],
+        "practice": "Build 5 Minecraft experiences"
+      },
+      "week_24_25": {
+        "title": "Unity with Visual Scripting",
+        "topics": [
+          "Unity Hub and installation",
+          "Unity interface basics",
+          "GameObject and components",
+          "Visual scripting with Bolt",
+          "Basic 3D movement",
+          "Physics and collisions",
+          "Lighting basics",
+          "Terrain creation",
+          "Asset store usage",
+          "UI in Unity",
+          "Build settings",
+          "WebGL publishing"
+        ],
+        "projects": [
+          "3D platformer",
+          "First-person explorer",
+          "Ball rolling game",
+          "Simple VR experience"
+        ],
+        "practice": "Complete 3 Unity projects"
+      },
+      "week_26": {
+        "title": "Final Game Project & Publishing",
+        "topics": [
+          "Choosing final project",
+          "Game design document",
+          "Production planning",
+          "Asset creation pipeline",
+          "Testing and debugging",
+          "Publishing preparation",
+          "Marketing basics",
+          "Community building"
+        ],
+        "projects": [
+          "FINAL PROJECT: Complete original game",
+          "Publish to 2+ platforms",
+          "Create marketing materials",
+          "Build player community"
+        ],
+        "assessment": "Launch complete game with 100+ players"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Game Development (Specialized Tracks)",
+    "description": "Choose specialized paths: Mobile Games, Multiplayer, VR/AR, or Competitive Gaming",
+    "month_7_8": {
+      "title": "Mobile Game Specialization",
+      "weeks": "Mobile Track",
+      "week_27_28": {
+        "title": "Buildbox for Mobile Games",
+        "topics": [
+          "Buildbox 3 interface",
+          "Node-based logic",
+          "Asset creation and import",
+          "Physics-based games",
+          "Monetization setup",
+          "Ad networks integration",
+          "In-app purchases setup",
+          "Analytics integration",
+          "Push notifications",
+          "Social media sharing",
+          "Leaderboards integration",
+          "Cross-platform publishing"
+        ],
+        "projects": [
+          "Hyper-casual game",
+          "Physics puzzle game",
+          "Endless arcade game",
+          "Idle clicker game"
+        ],
+        "practice": "Publish 3 games to app stores"
+      },
+      "week_29_30": {
+        "title": "PlayCanvas Web Games",
+        "topics": [
+          "PlayCanvas editor",
+          "3D web games",
+          "Visual scripting in PlayCanvas",
+          "Asset pipeline",
+          "Multiplayer basics",
+          "WebGL optimization",
+          "Mobile web games",
+          "Facebook Instant Games",
+          "Web monetization",
+          "PWA game apps",
+          "Cloud hosting",
+          "Version control"
+        ],
+        "projects": [
+          "3D web runner",
+          "Multiplayer web game",
+          "Facebook Instant Game",
+          "PWA game app"
+        ],
+        "practice": "Deploy 5 web games"
+      },
+      "week_31_32": {
+        "title": "Core Games Platform",
+        "topics": [
+          "Core Games introduction",
+          "Collaborative creation",
+          "Lua scripting basics",
+          "Framework usage",
+          "Multiplayer by default",
+          "Monetization in Core",
+          "User-generated content",
+          "Events and game jams",
+          "Community features",
+          "Publishing process",
+          "Core credits system",
+          "Cross-promotion"
+        ],
+        "projects": [
+          "Multiplayer arena",
+          "Co-op adventure",
+          "Party game collection",
+          "RPG framework game"
+        ],
+        "practice": "Create 3 Core games"
+      },
+      "week_33_34": {
+        "title": "Stencyl 2D Games",
+        "topics": [
+          "Stencyl interface",
+          "Block-based coding",
+          "Actor behaviors",
+          "Scene designer",
+          "Physics settings",
+          "Mobile controls",
+          "Atlases and resources",
+          "Extensions usage",
+          "Performance tips",
+          "Publishing workflow",
+          "Steam publishing",
+          "Console basics"
+        ],
+        "projects": [
+          "Platform adventure",
+          "Tower defense game",
+          "Puzzle platformer",
+          "Action RPG"
+        ],
+        "practice": "Master Stencyl workflows"
+      },
+      "week_35": {
+        "title": "Godot Engine Basics",
+        "topics": [
+          "Godot installation",
+          "Node system",
+          "2D and 3D modes",
+          "Visual scripting",
+          "GDScript basics",
+          "Scene system",
+          "Animation tools",
+          "Particle systems",
+          "Export templates",
+          "Open source benefits",
+          "Community resources",
+          "Version control"
+        ],
+        "projects": [
+          "2D action game",
+          "3D prototype",
+          "Mobile export test",
+          "Web game deployment"
+        ],
+        "practice": "Explore Godot capabilities"
+      }
+    },
+    "month_9_10": {
+      "title": "Multiplayer & Social Games",
+      "weeks": "Multiplayer Specialization",
+      "week_36_37": {
+        "title": "Multiplayer Game Design",
+        "topics": [
+          "Multiplayer game types",
+          "Competitive vs cooperative",
+          "Matchmaking concepts",
+          "Lobby systems",
+          "Player progression",
+          "Ranking systems",
+          "Anti-cheat basics",
+          "Server concepts",
+          "Lag compensation",
+          "Social features",
+          "Guild/clan systems",
+          "Tournament setup"
+        ],
+        "projects": [
+          "Battle royale prototype",
+          "Co-op puzzle game",
+          "Racing multiplayer",
+          "Team-based shooter"
+        ],
+        "practice": "Design 5 multiplayer mechanics"
+      },
+      "week_38_39": {
+        "title": "Among Us Style Games",
+        "topics": [
+          "Social deduction mechanics",
+          "Role assignment",
+          "Task systems",
+          "Voting mechanics",
+          "Discussion phases",
+          "Map design for deduction",
+          "Balance and fairness",
+          "Custom game modes",
+          "Moderation tools",
+          "Community management",
+          "Update strategies",
+          "Viral mechanics"
+        ],
+        "projects": [
+          "Social deduction game",
+          "Hidden role game",
+          "Mystery game",
+          "Party game with roles"
+        ],
+        "practice": "Create social game mechanics"
+      },
+      "week_40_41": {
+        "title": "io Games Development",
+        "topics": [
+          "io game characteristics",
+          "Simple multiplayer setup",
+          "Browser-based games",
+          "Quick match systems",
+          "Progression in io games",
+          "Skins and customization",
+          "Leaderboard importance",
+          "Server regions",
+          "Bot players",
+          "Viral growth tactics",
+          "Ad-based monetization",
+          "Clone protection"
+        ],
+        "projects": [
+          "Snake io game",
+          "Territory io game",
+          "Battle io game",
+          "Unique io concept"
+        ],
+        "practice": "Launch io game with players"
+      },
+      "week_42_43": {
+        "title": "Minecraft Server Creation",
+        "topics": [
+          "Server setup basics",
+          "Plugins and mods",
+          "Game modes creation",
+          "Economy systems",
+          "Permission systems",
+          "Anti-grief measures",
+          "Custom commands",
+          "Events and contests",
+          "Server promotion",
+          "Community building",
+          "Donation systems",
+          "Server networks"
+        ],
+        "projects": [
+          "Survival server setup",
+          "Minigame server",
+          "RPG server creation",
+          "Creative build server"
+        ],
+        "practice": "Run server with 20+ players"
+      },
+      "week_44": {
+        "title": "Discord Game Bots",
+        "topics": [
+          "Discord bot basics",
+          "Bot commands",
+          "Mini-games in Discord",
+          "Economy bots",
+          "RPG bot systems",
+          "Leveling systems",
+          "Music and entertainment",
+          "Moderation features",
+          "Custom games",
+          "Bot hosting",
+          "Bot promotion",
+          "Monetization options"
+        ],
+        "projects": [
+          "RPG Discord bot",
+          "Economy bot game",
+          "Quiz bot game",
+          "Custom game bot"
+        ],
+        "practice": "Deploy bot to 10 servers"
+      }
+    },
+    "month_11_12": {
+      "title": "VR/AR & Emerging Tech",
+      "weeks": "Future Tech Track",
+      "week_45_46": {
+        "title": "VR Game Development",
+        "topics": [
+          "VR concepts for kids",
+          "CoSpaces Edu for VR",
+          "Google Cardboard apps",
+          "VR safety guidelines",
+          "360-degree experiences",
+          "VR storytelling",
+          "Movement in VR",
+          "Interaction systems",
+          "Comfort settings",
+          "VR for education",
+          "Social VR basics",
+          "Testing VR games"
+        ],
+        "projects": [
+          "VR escape room",
+          "Educational VR tour",
+          "VR art gallery",
+          "Simple VR game"
+        ],
+        "practice": "Create 3 VR experiences"
+      },
+      "week_47_48": {
+        "title": "AR Games with Lens Studio",
+        "topics": [
+          "Snapchat Lens Studio",
+          "AR markers and tracking",
+          "Face filters and games",
+          "World lenses",
+          "AR mini-games",
+          "Social AR experiences",
+          "AR treasure hunts",
+          "Location-based AR",
+          "AR for learning",
+          "Publishing lenses",
+          "Viral AR effects",
+          "AR monetization"
+        ],
+        "projects": [
+          "Face filter game",
+          "AR treasure hunt",
+          "World lens game",
+          "Educational AR app"
+        ],
+        "practice": "Publish 5 AR lenses"
+      },
+      "week_49_50": {
+        "title": "AI in Games",
+        "topics": [
+          "AI for game NPCs",
+          "Behavior trees basics",
+          "Pathfinding algorithms",
+          "Decision making AI",
+          "Procedural generation",
+          "AI difficulty adjustment",
+          "Machine learning basics",
+          "Voice commands in games",
+          "AI art generation",
+          "ChatGPT for game dialog",
+          "AI game testing",
+          "Future of AI in games"
+        ],
+        "projects": [
+          "AI-powered NPCs",
+          "Procedural level generator",
+          "AI opponent system",
+          "Voice-controlled game"
+        ],
+        "practice": "Implement 5 AI features"
+      },
+      "week_51": {
+        "title": "Blockchain Gaming Basics",
+        "topics": [
+          "NFTs in games explained",
+          "Play-to-earn concepts",
+          "Blockchain game platforms",
+          "Digital ownership",
+          "Crypto rewards basics",
+          "Metaverse gaming",
+          "Decentralized gaming",
+          "Smart contracts for games",
+          "Web3 gaming communities",
+          "Safety and scams",
+          "Future of blockchain gaming",
+          "Environmental concerns"
+        ],
+        "projects": [
+          "NFT collectible game",
+          "Token reward system",
+          "Blockchain game concept",
+          "Metaverse experience"
+        ],
+        "practice": "Research blockchain games"
+      },
+      "week_52": {
+        "title": "Game Developer Portfolio",
+        "topics": [
+          "Portfolio website creation",
+          "Game showcase strategies",
+          "Demo reel creation",
+          "Writing game descriptions",
+          "Screenshot techniques",
+          "Video trailers",
+          "Developer blog",
+          "Social media presence",
+          "Networking basics",
+          "Game jams participation",
+          "Future learning paths",
+          "Career planning"
+        ],
+        "projects": [
+          "Complete portfolio site",
+          "50+ game showcase",
+          "Demo reel video",
+          "Developer brand creation"
+        ],
+        "assessment": "Final certification project"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "SPECIALIZATION TRACKS: Choose Your Path",
+    "description": "Deep dive into specialized areas of game development",
+    "month_13_14": {
+      "title": "Esports & Competitive Gaming",
+      "weeks": "Competitive Track",
+      "week_53_54": {
+        "title": "Esports Game Design",
+        "topics": [
+          "Competitive game balance",
+          "Ranking systems design",
+          "Tournament structures",
+          "Spectator features",
+          "Replay systems",
+          "Anti-cheat measures",
+          "Skill-based matchmaking",
+          "Season systems",
+          "Competitive maps",
+          "Meta game design",
+          "Patch strategies",
+          "Community feedback"
+        ],
+        "projects": [
+          "Competitive arena game",
+          "Tournament system",
+          "Ranked game mode",
+          "Spectator mode"
+        ],
+        "practice": "Balance competitive gameplay"
+      },
+      "week_55_56": {
+        "title": "Stream-Friendly Games",
+        "topics": [
+          "Streamer-friendly features",
+          "Audience participation",
+          "Twitch integration",
+          "Stream overlays",
+          "Clip-worthy moments",
+          "Content creator tools",
+          "Copyright-free assets",
+          "Stream alerts",
+          "Chat commands",
+          "Viewer games",
+          "Streamer monetization",
+          "Community features"
+        ],
+        "projects": [
+          "Twitch integrated game",
+          "Audience voting game",
+          "Streamer toolkit",
+          "Viral moment generator"
+        ],
+        "practice": "Stream game development"
+      },
+      "week_57_58": {
+        "title": "Game Analytics & Metrics",
+        "topics": [
+          "Player behavior tracking",
+          "Key performance indicators",
+          "Retention metrics",
+          "Monetization analytics",
+          "A/B testing in games",
+          "Heatmap analysis",
+          "Player progression tracking",
+          "Churn prediction",
+          "Analytics dashboards",
+          "Data-driven design",
+          "Privacy considerations",
+          "GDPR compliance"
+        ],
+        "projects": [
+          "Analytics dashboard",
+          "A/B testing system",
+          "Player report system",
+          "Metric tracking setup"
+        ],
+        "practice": "Analyze 5 games' metrics"
+      },
+      "week_59_60": {
+        "title": "Game Marketing & Growth",
+        "topics": [
+          "Game trailers creation",
+          "Press kit preparation",
+          "Social media marketing",
+          "Influencer outreach",
+          "Steam page optimization",
+          "App store featuring",
+          "Community building",
+          "Discord server management",
+          "Reddit promotion",
+          "Game conferences",
+          "Awards and contests",
+          "Post-launch support"
+        ],
+        "projects": [
+          "Marketing campaign",
+          "Press kit creation",
+          "Community launch",
+          "Influencer package"
+        ],
+        "practice": "Market game to 1000 players"
+      },
+      "week_61": {
+        "title": "Game Monetization Strategies",
+        "topics": [
+          "Free-to-play models",
+          "Premium game pricing",
+          "In-app purchases design",
+          "Battle pass systems",
+          "Cosmetic monetization",
+          "Ad placement strategies",
+          "Subscription models",
+          "DLC planning",
+          "Season passes",
+          "Virtual currency",
+          "Ethical monetization",
+          "Regional pricing"
+        ],
+        "projects": [
+          "F2P monetization system",
+          "Battle pass design",
+          "Virtual shop creation",
+          "Ad integration setup"
+        ],
+        "practice": "Implement 3 monetization models"
+      }
+    },
+    "month_15_16": {
+      "title": "Educational Game Development",
+      "weeks": "EdTech Track",
+      "week_62_63": {
+        "title": "Learning Game Design",
+        "topics": [
+          "Educational game theory",
+          "Curriculum alignment",
+          "Learning objectives",
+          "Assessment integration",
+          "Progress tracking",
+          "Adaptive difficulty",
+          "Feedback systems",
+          "Gamification principles",
+          "Subject integration",
+          "Age-appropriate design",
+          "Teacher dashboards",
+          "Parent reports"
+        ],
+        "projects": [
+          "Math learning game",
+          "Science simulation",
+          "Language learning app",
+          "History adventure game"
+        ],
+        "practice": "Create 5 educational games"
+      },
+      "week_64_65": {
+        "title": "STEM Game Development",
+        "topics": [
+          "Coding games for kids",
+          "Logic puzzle design",
+          "Physics simulations",
+          "Chemistry lab games",
+          "Biology explorations",
+          "Engineering challenges",
+          "Robotics simulations",
+          "Space exploration games",
+          "Environmental games",
+          "AI teaching games",
+          "Data science games",
+          "Maker education"
+        ],
+        "projects": [
+          "Coding tutorial game",
+          "Physics puzzle game",
+          "Robot programming game",
+          "Science lab simulator"
+        ],
+        "practice": "Build STEM game library"
+      },
+      "week_66_67": {
+        "title": "Serious Games Development",
+        "topics": [
+          "Health education games",
+          "Safety training games",
+          "Social awareness games",
+          "Environmental games",
+          "Historical simulations",
+          "Cultural education",
+          "Financial literacy games",
+          "Career exploration",
+          "Soft skills training",
+          "Empathy games",
+          "Accessibility awareness",
+          "Impact measurement"
+        ],
+        "projects": [
+          "Health awareness game",
+          "Environmental impact game",
+          "Social skills trainer",
+          "Career exploration game"
+        ],
+        "practice": "Create games with purpose"
+      },
+      "week_68_69": {
+        "title": "Classroom Integration",
+        "topics": [
+          "LMS integration",
+          "Google Classroom",
+          "Assignment creation",
+          "Grading integration",
+          "Collaborative features",
+          "Classroom management",
+          "Student accounts",
+          "Progress monitoring",
+          "Curriculum mapping",
+          "Standards alignment",
+          "Professional development",
+          "Teacher resources"
+        ],
+        "projects": [
+          "Classroom game suite",
+          "Teacher toolkit",
+          "Assignment system",
+          "Progress tracker"
+        ],
+        "practice": "Deploy games in schools"
+      },
+      "week_70": {
+        "title": "Game Accessibility",
+        "topics": [
+          "Visual accessibility",
+          "Hearing accessibility",
+          "Motor accessibility",
+          "Cognitive accessibility",
+          "Difficulty options",
+          "Control remapping",
+          "Colorblind modes",
+          "Subtitle systems",
+          "Screen reader support",
+          "One-handed modes",
+          "Pause features",
+          "Accessibility testing"
+        ],
+        "projects": [
+          "Fully accessible game",
+          "Accessibility retrofit",
+          "Inclusive design game",
+          "Testing documentation"
+        ],
+        "practice": "Make all games accessible"
+      }
+    },
+    "month_17_18": {
+      "title": "Professional Skills & Industry",
+      "weeks": "Career Preparation",
+      "week_71_72": {
+        "title": "Game Industry Overview",
+        "topics": [
+          "Game industry careers",
+          "AAA vs indie development",
+          "Game development roles",
+          "Studio structures",
+          "Publisher relationships",
+          "Platform holders",
+          "Industry trends",
+          "Regional markets",
+          "Game conferences",
+          "Networking events",
+          "Industry news sources",
+          "Career pathways"
+        ],
+        "projects": [
+          "Industry research project",
+          "Career plan creation",
+          "Network building",
+          "Conference preparation"
+        ],
+        "practice": "Connect with 20 developers"
+      },
+      "week_73_74": {
+        "title": "Game Testing & QA",
+        "topics": [
+          "Testing methodologies",
+          "Bug reporting",
+          "Test plans creation",
+          "Playtesting sessions",
+          "Balance testing",
+          "Performance testing",
+          "Compatibility testing",
+          "User testing",
+          "Focus groups",
+          "Feedback analysis",
+          "Issue tracking",
+          "QA documentation"
+        ],
+        "projects": [
+          "Test plan creation",
+          "Bug tracking system",
+          "Playtest organization",
+          "QA report compilation"
+        ],
+        "practice": "Test 10 games professionally"
+      },
+      "week_75_76": {
+        "title": "Game Documentation",
+        "topics": [
+          "Game design documents",
+          "Technical documentation",
+          "Art style guides",
+          "Sound design docs",
+          "Level design docs",
+          "User manuals",
+          "API documentation",
+          "Wiki creation",
+          "Tutorial design",
+          "Onboarding flows",
+          "Patch notes writing",
+          "Community guides"
+        ],
+        "projects": [
+          "Complete GDD",
+          "Technical manual",
+          "Player guide",
+          "Developer wiki"
+        ],
+        "practice": "Document 5 game projects"
+      },
+      "week_77": {
+        "title": "Team Collaboration",
+        "topics": [
+          "Version control basics",
+          "Team communication",
+          "Task management",
+          "Agile for games",
+          "Sprint planning",
+          "Code reviews",
+          "Art pipelines",
+          "Audio workflows",
+          "Remote collaboration",
+          "Conflict resolution",
+          "Leadership skills",
+          "Mentoring others"
+        ],
+        "projects": [
+          "Team game project",
+          "Pipeline setup",
+          "Collaboration tools",
+          "Team leadership"
+        ],
+        "practice": "Lead game team project"
+      },
+      "week_78": {
+        "title": "Final Showcase & Graduation",
+        "topics": [
+          "Portfolio finalization",
+          "Demo day preparation",
+          "Pitch presentation",
+          "Interview preparation",
+          "Resume building",
+          "LinkedIn optimization",
+          "Personal branding",
+          "Future goals setting",
+          "Continued learning",
+          "Alumni network",
+          "Certification process",
+          "Graduation celebration"
+        ],
+        "projects": [
+          "FINAL SHOWCASE: Best games portfolio",
+          "Professional presentation",
+          "Career materials",
+          "Future roadmap"
+        ],
+        "assessment": "Graduate as Certified Game Developer"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "BONUS CONTENT: Advanced Specializations",
+    "description": "Optional advanced modules for continued excellence",
+    "month_19_20": {
+      "title": "Game Art & Sound Mastery",
+      "weeks": "Creative Excellence",
+      "week_79_80": {
+        "title": "Advanced Pixel Art",
+        "topics": [
+          "Advanced pixel techniques",
+          "Character animation cycles",
+          "Isometric pixel art",
+          "Tile set creation",
+          "Dithering and shading",
+          "Color palette mastery",
+          "Pixel art effects",
+          "Animation principles",
+          "Style development",
+          "Asset optimization",
+          "Pixel art tools mastery",
+          "Commercial asset creation"
+        ],
+        "projects": [
+          "Complete asset pack",
+          "Animated character set",
+          "Environment tiles",
+          "Effect animations"
+        ],
+        "practice": "Create professional pixel art"
+      },
+      "week_81_82": {
+        "title": "3D Modeling Basics",
+        "topics": [
+          "Blender basics for games",
+          "Low-poly modeling",
+          "Texturing basics",
+          "UV mapping introduction",
+          "Rigging fundamentals",
+          "Animation basics",
+          "Optimization for games",
+          "Asset pipelines",
+          "Procedural generation",
+          "Photogrammetry basics",
+          "3D scanning",
+          "Asset stores"
+        ],
+        "projects": [
+          "Low-poly character",
+          "Environment props",
+          "Animated model",
+          "Game-ready assets"
+        ],
+        "practice": "Create 10 3D game assets"
+      },
+      "week_83_84": {
+        "title": "Game Audio & Music",
+        "topics": [
+          "Sound effect creation",
+          "Foley recording",
+          "Audio editing basics",
+          "Music composition basics",
+          "Chiptune creation",
+          "Adaptive music systems",
+          "3D spatial audio",
+          "Voice acting basics",
+          "Audio implementation",
+          "Compression and formats",
+          "Audio middleware",
+          "Licensing and royalties"
+        ],
+        "projects": [
+          "SFX library creation",
+          "Game soundtrack",
+          "Voice acting samples",
+          "Audio system setup"
+        ],
+        "practice": "Create audio for 5 games"
+      },
+      "week_85_86": {
+        "title": "Procedural Generation",
+        "topics": [
+          "Procedural concepts",
+          "Random generation",
+          "Noise functions",
+          "Dungeon generation",
+          "Terrain generation",
+          "Item generation",
+          "Quest generation",
+          "Name generation",
+          "Infinite worlds",
+          "Seed systems",
+          "Procedural storytelling",
+          "Balance in procedural"
+        ],
+        "projects": [
+          "Procedural dungeon",
+          "Infinite runner generator",
+          "Random quest system",
+          "Procedural RPG"
+        ],
+        "practice": "Implement 5 procedural systems"
+      },
+      "week_87": {
+        "title": "Game Narrative Design",
+        "topics": [
+          "Story structure in games",
+          "Character development",
+          "Dialog writing",
+          "Branching narratives",
+          "Choice systems",
+          "Environmental storytelling",
+          "Lore creation",
+          "Quest design",
+          "Cutscene planning",
+          "Voice direction",
+          "Localization prep",
+          "Narrative tools"
+        ],
+        "projects": [
+          "Story-driven game",
+          "Dialog system",
+          "Quest chain design",
+          "Lore documentation"
+        ],
+        "practice": "Write 5 game narratives"
+      }
+    },
+    "month_21_22": {
+      "title": "Business & Entrepreneurship",
+      "weeks": "Game Business Mastery",
+      "week_88_89": {
+        "title": "Starting a Game Studio",
+        "topics": [
+          "Business planning",
+          "Legal structures",
+          "Funding options",
+          "Team building",
+          "Studio culture",
+          "Project management",
+          "Budgeting basics",
+          "Revenue sharing",
+          "Publishing deals",
+          "IP protection",
+          "Trademark basics",
+          "Studio branding"
+        ],
+        "projects": [
+          "Business plan draft",
+          "Studio branding",
+          "Team structure",
+          "Funding pitch"
+        ],
+        "practice": "Plan game studio launch"
+      },
+      "week_90_91": {
+        "title": "Crowdfunding Games",
+        "topics": [
+          "Kickstarter strategies",
+          "Campaign preparation",
+          "Reward tier design",
+          "Video production",
+          "Marketing timeline",
+          "Backer communication",
+          "Stretch goals",
+          "Risk management",
+          "Fulfillment planning",
+          "Platform comparison",
+          "Success stories",
+          "Failure analysis"
+        ],
+        "projects": [
+          "Campaign page design",
+          "Reward structure",
+          "Marketing plan",
+          "Video script"
+        ],
+        "practice": "Plan crowdfunding campaign"
+      },
+      "week_92_93": {
+        "title": "Game Publishing",
+        "topics": [
+          "Publisher relationships",
+          "Publishing contracts",
+          "Self-publishing options",
+          "Platform requirements",
+          "Certification processes",
+          "Rating systems",
+          "Localization needs",
+          "Marketing support",
+          "Revenue splits",
+          "Milestone planning",
+          "Post-launch support",
+          "Sequel planning"
+        ],
+        "projects": [
+          "Publishing strategy",
+          "Platform research",
+          "Contract review",
+          "Launch plan"
+        ],
+        "practice": "Research 10 publishers"
+      },
+      "week_94_95": {
+        "title": "Live Operations",
+        "topics": [
+          "Live service games",
+          "Content calendars",
+          "Event planning",
+          "Season design",
+          "Community management",
+          "Update strategies",
+          "Bug fix priorities",
+          "Player communication",
+          "Data-driven updates",
+          "Revenue optimization",
+          "Player retention",
+          "Sunset planning"
+        ],
+        "projects": [
+          "Live ops plan",
+          "Event calendar",
+          "Update roadmap",
+          "Community strategy"
+        ],
+        "practice": "Run live game for 3 months"
+      },
+      "week_96": {
+        "title": "Game Franchises",
+        "topics": [
+          "Franchise planning",
+          "Sequel design",
+          "Spin-off strategies",
+          "Brand management",
+          "Transmedia opportunities",
+          "Merchandising",
+          "Licensing deals",
+          "Fan community",
+          "Lore consistency",
+          "Art bible creation",
+          "Style guides",
+          "Legacy planning"
+        ],
+        "projects": [
+          "Franchise bible",
+          "Sequel concept",
+          "Merchandise design",
+          "Brand guide"
+        ],
+        "practice": "Plan game franchise"
+      }
+    },
+    "month_23": {
+      "title": "Cutting-Edge Technologies",
+      "weeks": "Future of Gaming",
+      "week_97": {
+        "title": "Cloud Gaming Development",
+        "topics": [
+          "Cloud gaming platforms",
+          "Streaming technology",
+          "Input lag solutions",
+          "Cross-device play",
+          "Save synchronization",
+          "Bandwidth optimization",
+          "5G gaming",
+          "Edge computing",
+          "Platform integration",
+          "Business models",
+          "Future predictions",
+          "Development tools"
+        ],
+        "projects": [
+          "Cloud-native game",
+          "Streaming optimization",
+          "Cross-device feature",
+          "Cloud save system"
+        ],
+        "practice": "Deploy cloud game"
+      },
+      "week_98": {
+        "title": "AI Game Development",
+        "topics": [
+          "AI-generated content",
+          "Procedural narratives",
+          "AI game masters",
+          "Dynamic difficulty",
+          "Player modeling",
+          "Behavior prediction",
+          "AI art generation",
+          "Voice synthesis",
+          "Natural language",
+          "Machine learning integration",
+          "Ethical considerations",
+          "Future of AI gaming"
+        ],
+        "projects": [
+          "AI-powered game",
+          "ML difficulty system",
+          "AI content generator",
+          "Predictive systems"
+        ],
+        "practice": "Integrate advanced AI"
+      },
+      "week_99": {
+        "title": "Metaverse Gaming",
+        "topics": [
+          "Metaverse concepts",
+          "Virtual worlds",
+          "Digital economies",
+          "Avatar systems",
+          "Social spaces",
+          "Virtual events",
+          "Cross-game assets",
+          "Blockchain integration",
+          "Virtual real estate",
+          "Creator economies",
+          "Governance models",
+          "Future visions"
+        ],
+        "projects": [
+          "Metaverse space",
+          "Avatar system",
+          "Virtual economy",
+          "Social hub"
+        ],
+        "practice": "Build metaverse experience"
+      },
+      "week_100": {
+        "title": "Experimental Gaming",
+        "topics": [
+          "Alternative controllers",
+          "Biometric gaming",
+          "Brain-computer interfaces",
+          "Haptic feedback",
+          "Smell and taste",
+          "Mixed reality",
+          "Holographic displays",
+          "Quantum gaming",
+          "Bio-gaming",
+          "Art games",
+          "Experimental narratives",
+          "Future possibilities"
+        ],
+        "projects": [
+          "Experimental prototype",
+          "Alternative input game",
+          "Art game creation",
+          "Future concept"
+        ],
+        "practice": "Push gaming boundaries"
+      }
+    },
+    "month_24": {
+      "title": "Master Game Developer Path",
+      "weeks": "Excellence Achievement",
+      "week_101_102": {
+        "title": "Game Development Mastery",
+        "topics": [
+          "Design philosophy",
+          "Personal style development",
+          "Signature mechanics",
+          "Innovation strategies",
+          "Risk-taking in design",
+          "Artistic vision",
+          "Technical excellence",
+          "Polish and refinement",
+          "Perfectionism balance",
+          "Speed vs quality",
+          "Iteration mastery",
+          "Decision making"
+        ],
+        "projects": [
+          "Signature game project",
+          "Innovation showcase",
+          "Technical achievement",
+          "Artistic statement"
+        ]
+      },
+      "week_103": {
+        "title": "Industry Leadership",
+        "topics": [
+          "Thought leadership",
+          "Public speaking",
+          "Conference talks",
+          "Workshop leading",
+          "Mentorship programs",
+          "Community building",
+          "Open source contribution",
+          "Standards setting",
+          "Industry advocacy",
+          "Diversity initiatives",
+          "Youth programs",
+          "Future shaping"
+        ],
+        "deliverables": [
+          "Leadership portfolio",
+          "Speaking engagements",
+          "Mentorship record",
+          "Community impact",
+          "Industry contributions",
+          "Published articles",
+          "Workshop materials",
+          "Legacy projects"
+        ]
+      },
+      "week_104": {
+        "title": "Your Gaming Legacy",
+        "topics": [
+          "Career reflection",
+          "Achievement celebration",
+          "Impact assessment",
+          "Future planning",
+          "Giving back",
+          "Knowledge sharing",
+          "Next generation",
+          "Industry evolution",
+          "Personal brand",
+          "Continued growth",
+          "Life-long learning",
+          "Your game story"
+        ],
+        "deliverables": [
+          "Complete portfolio: 50+ games",
+          "Published titles",
+          "Community contributions",
+          "Student success stories",
+          "Industry recognition",
+          "Personal brand established",
+          "Network of 500+ developers",
+          "Future roadmap"
+        ],
+        "assessment": "MASTER GAME DEVELOPER CERTIFICATION ACHIEVED!"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1-2: 20 Scratch games, basic mechanics",
+      "Month 3-4: 15 2D games across platforms",
+      "Month 5-6: 10 3D games and multiplayer",
+      "Specialization: 15+ specialized projects",
+      "Total: 60+ complete games"
+    ],
+    "total_projects_built": "60+ games from simple to complex, published titles",
+    "skills_mastered": [
+      "Game Design: Mechanics, balance, fun factor, player psychology",
+      "2D Development: Sprites, physics, platformers, puzzles",
+      "3D Development: Modeling basics, terrain, lighting, cameras",
+      "Programming: Visual scripting, logic, algorithms, AI basics",
+      "Art & Animation: Pixel art, sprites, UI design, effects",
+      "Sound & Music: SFX, music, voice, implementation",
+      "Multiplayer: Networking, servers, matchmaking, social",
+      "Publishing: App stores, Steam, web platforms, marketing",
+      "Monetization: Ads, IAP, premium, subscriptions",
+      "Tools: 15+ game engines and platforms mastered",
+      "Business: Marketing, analytics, community, monetization"
+    ],
+    "weekly_structure": {
+      "theory_videos": "2-3 hours",
+      "hands_on_creation": "3-4 hours",
+      "projects": "2-3 hours",
+      "playing_and_analysis": "1-2 hours",
+      "total_per_week": "6-8 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly game dev workshops",
+      "mentorship": "Expert game developer mentors",
+      "community": "Active Discord with 1000+ young developers",
+      "code_review": "Game testing and feedback",
+      "career_support": "Portfolio reviews and industry connections",
+      "lifetime_access": "All content and platform updates forever"
+    },
+    "certification": {
+      "phase_certificates": "Certificates for each game platform mastered",
+      "final_certificate": "Certified Junior Game Developer",
+      "linkedin_badge": "Professional certification badge",
+      "industry_recognized": "Recognized by game studios",
+      "portfolio_projects": "60+ games to showcase"
+    }
+  },
+  "prerequisites": {
+    "education": "None - suitable for ages 8-18",
+    "coding_experience": "Zero coding required",
+    "equipment": "Computer/laptop, optional: tablet/smartphone",
+    "time_commitment": "6-8 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Love for games and creativity"
+  },
+  "who_is_this_for": {
+    "students": "Kids (8+) and teens who love games",
+    "working_professionals": "Teachers and parents learning with kids",
+    "entrepreneurs": "Young entrepreneurs wanting game businesses",
+    "freelancers": "Future game developers and designers",
+    "kids": "Game-loving kids who want to create",
+    "anyone": "Anyone passionate about making games"
+  },
+  "career_paths_after_completion": [
+    "Junior Game Developer",
+    "Game Designer",
+    "Level Designer",
+    "Game Tester",
+    "Unity/Unreal Developer (progression path)",
+    "Indie Game Developer",
+    "Game Content Creator/YouTuber",
+    "Game Instructor/Teacher",
+    "Game Entrepreneur",
+    "Professional Game Developer (with continued learning)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "Pocket money from game ads/sales",
+    "after_12_months": "₹1-3 LPA (Part-time/Freelance)",
+    "after_18_months": "₹3-5 LPA (Junior positions)",
+    "after_24_months": "₹5-8 LPA (Game Developer)",
+    "freelance": "₹200-1000/hour for game projects",
+    "international": "$20k-60k USD (with experience)"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "job_assistance": "Game publishing support",
+    "lifetime_updates": "New platforms and tools added free",
+    "mentorship": "6 months of mentor guidance",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "60+ games in portfolio"
+  }
+}

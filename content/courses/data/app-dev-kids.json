@@ -1,0 +1,1675 @@
+{
+  "meta": {
+    "slug": "block-coding-app-development-masterclass",
+    "title": "Complete Block-Based App Development Masterclass - From Zero to App Store",
+    "description": "The most comprehensive 6-month block-based app development program using visual coding platforms like Thunkable, MIT App Inventor, and Scratch. Perfect for beginners of all ages - kids, teens, and adults. Create real mobile apps without writing code!",
+    "keywords": [
+      "block coding",
+      "app development",
+      "visual programming",
+      "Thunkable",
+      "MIT App Inventor",
+      "Scratch",
+      "mobile apps",
+      "no-code development",
+      "kids coding",
+      "beginner programming",
+      "Android apps",
+      "iOS apps",
+      "app creation",
+      "visual coding",
+      "drag and drop programming"
+    ],
+    "category": "Visual Programming & App Development",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹9,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Advanced App Creator",
+    "commitment": "8-10 hours/week recommended",
+    "certification": "Block Coding App Developer Certification"
+  },
+  "program_overview": {
+    "title": "Complete Block-Based App Development Masterclass",
+    "tagline": "From First Block to Published App - No Coding Experience Required!",
+    "description": "This revolutionary 6-month program teaches app development using visual block-based programming platforms. Perfect for absolute beginners, kids (8+), teens, and adults who want to create real mobile apps without typing code. You'll master Thunkable, MIT App Inventor, Scratch, and other visual programming tools to build games, utilities, educational apps, and more.\n\nBy the end, you'll have created 30+ apps, published apps to app stores, understood programming logic, and be ready to create any app idea you can imagine - all without writing a single line of traditional code!",
+    "what_makes_this_different": [
+      "No typing code required - 100% visual programming",
+      "Kid-friendly but comprehensive for all ages",
+      "Create real apps that work on phones and tablets",
+      "Learn multiple block coding platforms",
+      "Publish apps to Google Play and App Store",
+      "Game development included",
+      "AI and machine learning with blocks",
+      "Progress from simple to complex apps systematically"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Programming Logic, Scratch Basics, First Apps",
+      "phase_2": "App Development (Months 3-4): MIT App Inventor, Thunkable, Mobile Features",
+      "phase_3": "Advanced Apps (Months 5-6): Databases, APIs, AI, Publishing to Stores",
+      "phase_4": "Specialization: Games, IoT Apps, Educational Tools, Business Apps"
+    },
+    "career_outcomes": [
+      "App Developer (No-Code/Low-Code)",
+      "Educational Technology Creator",
+      "Mobile App Entrepreneur",
+      "Visual Programming Instructor",
+      "Transition to Text-Based Programming"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Logic Building (Months 1-2, Weeks 1-8)",
+    "description": "Master the fundamentals of programming logic using visual blocks. Start with Scratch to understand core concepts, then create your first mobile apps.",
+    "month_1_2": {
+      "title": "Months 1-2: Visual Programming Fundamentals",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Block Coding & Scratch Basics",
+        "topics": [
+          "What is block-based programming?",
+          "Why learn visual coding first?",
+          "Introduction to Scratch interface",
+          "Understanding sprites and stages",
+          "Motion blocks: move, turn, go to, glide",
+          "Looks blocks: say, think, show, hide, change costume",
+          "Sound blocks: play sound, volume, tempo",
+          "Events: when flag clicked, when key pressed",
+          "Creating your first animation",
+          "Saving and sharing projects",
+          "Scratch community and remixing",
+          "Basic debugging with blocks"
+        ],
+        "projects": [
+          "Animated greeting card",
+          "Interactive story with characters",
+          "Simple animation sequence",
+          "Musical instrument app"
+        ],
+        "practice": "Daily: Create one Scratch animation, explore 5 community projects"
+      },
+      "week_3_4": {
+        "title": "Programming Logic with Blocks",
+        "topics": [
+          "Variables: creating and using data storage",
+          "Lists (arrays) in block coding",
+          "Control blocks: forever, repeat, if-then",
+          "If-then-else decision making",
+          "Operators: math operations with blocks",
+          "Comparison operators: greater than, less than, equals",
+          "Logical operators: and, or, not",
+          "Random numbers and probability",
+          "Creating custom blocks (functions)",
+          "Parameters in custom blocks",
+          "Clone sprites for multiple objects",
+          "Broadcasting messages between sprites"
+        ],
+        "projects": [
+          "Calculator with visual blocks",
+          "Quiz game with scoring",
+          "Number guessing game",
+          "Drawing app with controls"
+        ],
+        "practice": "Solve 20 logic puzzles using block programming"
+      },
+      "week_5_6": {
+        "title": "Game Development in Scratch",
+        "topics": [
+          "Game design principles",
+          "Player movement and controls",
+          "Collision detection with blocks",
+          "Score keeping and lives system",
+          "Timer and countdown features",
+          "Power-ups and bonuses",
+          "Level progression design",
+          "Game states: start, play, game over",
+          "Sound effects and background music",
+          "Particle effects with clones",
+          "Saving high scores with cloud variables",
+          "Multiplayer basics with cloud data"
+        ],
+        "projects": [
+          "Maze navigation game",
+          "Platformer game with jumping",
+          "Space shooter with enemies",
+          "Puzzle game with levels"
+        ],
+        "practice": "Create 5 different game mechanics"
+      },
+      "week_7_8": {
+        "title": "Introduction to MIT App Inventor",
+        "topics": [
+          "MIT App Inventor interface tour",
+          "Designer vs Blocks view",
+          "Screen components and properties",
+          "Basic UI elements: buttons, labels, textboxes",
+          "Layout components: arrangements, tables",
+          "Connecting blocks to components",
+          "Event handlers in App Inventor",
+          "Testing apps with companion app",
+          "Building APK files",
+          "Screen navigation and multiple screens",
+          "Basic app architecture",
+          "Debugging techniques"
+        ],
+        "projects": [
+          "Hello World mobile app",
+          "Personal information form",
+          "Multi-screen navigation app",
+          "Simple calculator for phones"
+        ],
+        "practice": "Build 10 basic mobile app interfaces"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Mobile App Development",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Thunkable Platform Mastery",
+        "topics": [
+          "Thunkable vs MIT App Inventor",
+          "Cross-platform development (iOS & Android)",
+          "Thunkable interface and components",
+          "Advanced UI components in Thunkable",
+          "Data viewers: list and grid views",
+          "Tab navigator and drawer navigator",
+          "Working with images and media",
+          "Responsive design for different screens",
+          "Live testing on devices",
+          "Thunkable live app for testing",
+          "Component styling and themes",
+          "Custom colors and fonts"
+        ],
+        "projects": [
+          "Photo gallery app",
+          "Note-taking application",
+          "To-do list with categories",
+          "Recipe book app"
+        ],
+        "practice": "Create 5 different app layouts in Thunkable"
+      },
+      "week_11_12": {
+        "title": "Working with Device Features",
+        "topics": [
+          "Camera component and photo capture",
+          "Image picker from gallery",
+          "Sound recorder and playback",
+          "Text-to-speech functionality",
+          "Speech recognition basics",
+          "Location sensor and GPS",
+          "Maps component integration",
+          "Accelerometer for motion detection",
+          "Gyroscope and orientation",
+          "Vibration and haptic feedback",
+          "QR code and barcode scanning",
+          "Share functionality"
+        ],
+        "projects": [
+          "Camera app with filters",
+          "Voice recorder with playback",
+          "Location-based reminder app",
+          "QR code scanner utility"
+        ],
+        "practice": "Integrate 10 different device features"
+      },
+      "week_13_14": {
+        "title": "Data Storage and Persistence",
+        "topics": [
+          "Local storage with TinyDB",
+          "Storing and retrieving data",
+          "Lists and data structures",
+          "Cloud variables for online storage",
+          "Firebase realtime database basics",
+          "Authentication with Firebase",
+          "User accounts and profiles",
+          "Storing user preferences",
+          "Offline functionality",
+          "Data synchronization",
+          "Backup and restore features",
+          "CSV file handling"
+        ],
+        "projects": [
+          "Diary app with local storage",
+          "Expense tracker with categories",
+          "Habit tracker with statistics",
+          "Cloud-based notes app"
+        ],
+        "practice": "Implement storage in 5 different app types"
+      },
+      "week_15_16": {
+        "title": "Advanced UI and User Experience",
+        "topics": [
+          "Animation blocks and transitions",
+          "Timer-based animations",
+          "Gesture recognition: swipe, pinch",
+          "Custom components creation",
+          "Reusable component blocks",
+          "Advanced list viewers with templates",
+          "Charts and data visualization",
+          "Loading screens and progress bars",
+          "Error handling and user feedback",
+          "Accessibility features",
+          "Multi-language support basics",
+          "App theming and customization"
+        ],
+        "projects": [
+          "Animated story app",
+          "Dashboard with charts",
+          "Gesture-controlled game",
+          "Customizable theme app"
+        ],
+        "practice": "Create 10 custom UI components"
+      },
+      "week_17": {
+        "title": "Month 3-4 Review & Mini Projects",
+        "topics": [
+          "Review of mobile app concepts",
+          "Best practices recap",
+          "Code organization with blocks",
+          "Performance optimization",
+          "Testing strategies"
+        ],
+        "projects": [
+          "CAPSTONE: Complete mobile app with all features",
+          "Social media profile app",
+          "Educational quiz app with levels",
+          "Fitness tracking application"
+        ],
+        "assessment": "Create a fully functional mobile app from requirements"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Advanced Features & Publishing",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "APIs and Web Services",
+        "topics": [
+          "What are APIs? Understanding web services",
+          "Web API component in block platforms",
+          "Making GET requests with blocks",
+          "POST requests for sending data",
+          "Working with JSON responses",
+          "Parsing API data with blocks",
+          "Weather API integration",
+          "News API for content",
+          "Translation API usage",
+          "Image recognition APIs",
+          "Error handling for API calls",
+          "API keys and security"
+        ],
+        "projects": [
+          "Weather forecast app",
+          "News reader application",
+          "Language translator app",
+          "Movie database browser"
+        ],
+        "practice": "Integrate 10 different public APIs"
+      },
+      "week_20_21": {
+        "title": "Game Development Advanced",
+        "topics": [
+          "Physics simulation with blocks",
+          "Sprite collision advanced techniques",
+          "Particle systems for effects",
+          "Leaderboards and achievements",
+          "In-app currency systems",
+          "Power-up and upgrade systems",
+          "Enemy AI with blocks",
+          "Procedural level generation",
+          "Save game progress",
+          "Multiplayer concepts",
+          "Game balancing and testing",
+          "Sound design for games"
+        ],
+        "projects": [
+          "Physics puzzle game",
+          "RPG with inventory system",
+          "Endless runner with upgrades",
+          "Multiplayer quiz game"
+        ],
+        "practice": "Develop 5 complete games with different mechanics"
+      },
+      "week_22_23": {
+        "title": "AI and Machine Learning Blocks",
+        "topics": [
+          "Introduction to AI in block coding",
+          "Image classification with blocks",
+          "Face detection and recognition",
+          "Emotion detection from images",
+          "Text sentiment analysis",
+          "Chatbot creation with blocks",
+          "Voice commands and control",
+          "Teachable Machine integration",
+          "Custom AI models with blocks",
+          "Personal AI assistant app",
+          "Computer vision applications",
+          "Natural language processing basics"
+        ],
+        "projects": [
+          "AI photo classifier app",
+          "Emotion detection camera",
+          "Chatbot assistant app",
+          "Voice-controlled smart app"
+        ],
+        "practice": "Create 5 AI-powered applications"
+      },
+      "week_24_25": {
+        "title": "IoT and Hardware Integration",
+        "topics": [
+          "Internet of Things concepts",
+          "Bluetooth connectivity blocks",
+          "Connecting to Arduino with blocks",
+          "micro:bit integration",
+          "Controlling LEDs and motors",
+          "Reading sensor data",
+          "Home automation apps",
+          "Robot control applications",
+          "Wearable device apps",
+          "MQTT protocol basics",
+          "Cloud IoT platforms",
+          "Real-time data monitoring"
+        ],
+        "projects": [
+          "Smart home controller app",
+          "Robot remote control",
+          "Plant watering system app",
+          "Fitness band companion app"
+        ],
+        "practice": "Build 5 IoT-connected applications"
+      },
+      "week_26": {
+        "title": "Publishing and Monetization",
+        "topics": [
+          "App store guidelines and policies",
+          "Preparing apps for publication",
+          "Creating app icons and screenshots",
+          "Writing app descriptions",
+          "Google Play Console setup",
+          "iOS App Store submission",
+          "App monetization: ads integration",
+          "In-app purchases with blocks",
+          "Analytics and user tracking",
+          "App updates and versioning",
+          "Marketing your apps",
+          "Building an app portfolio"
+        ],
+        "projects": [
+          "Publish app to Google Play",
+          "Submit app to iOS App Store",
+          "Monetized app with ads",
+          "Professional app portfolio"
+        ],
+        "assessment": "Launch a complete app to app stores"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Specialized Tracks (Choose Your Path)",
+    "description": "Select specialized tracks based on interest: Educational Apps, Business Tools, Games, or Creative Apps.",
+    "month_7_8": {
+      "title": "Educational Technology Track",
+      "weeks": "Specialization Weeks",
+      "week_27_28": {
+        "title": "Educational App Design",
+        "topics": [
+          "Learning theory in app design",
+          "Gamification for education",
+          "Interactive lessons creation",
+          "Quiz and assessment systems",
+          "Progress tracking features",
+          "Adaptive learning with blocks",
+          "Multimedia learning content",
+          "Educational game mechanics",
+          "Student-teacher interaction",
+          "Classroom management apps",
+          "Study tools and flashcards",
+          "Educational content management"
+        ],
+        "projects": [
+          "Math learning game for kids",
+          "Language learning app",
+          "Science experiment simulator",
+          "Interactive storybook app"
+        ],
+        "practice": "Create 10 educational mini-apps"
+      },
+      "week_29_30": {
+        "title": "STEM and Coding Education",
+        "topics": [
+          "Teaching programming concepts",
+          "Visual coding tutorials in apps",
+          "STEM experiment apps",
+          "AR for education (blocks)",
+          "Virtual labs and simulations",
+          "Robotics education apps",
+          "Math visualization tools",
+          "Science data collection",
+          "Engineering design apps",
+          "Coding puzzles and challenges",
+          "Algorithm visualization",
+          "Computational thinking games"
+        ],
+        "projects": [
+          "Coding tutorial app",
+          "Physics simulation app",
+          "Chemistry lab app",
+          "Math problem solver"
+        ],
+        "practice": "Build 5 STEM education tools"
+      },
+      "week_31_32": {
+        "title": "Business and Productivity Track",
+        "topics": [
+          "Business app requirements",
+          "Inventory management systems",
+          "Invoice and billing apps",
+          "Customer relationship management",
+          "Appointment scheduling",
+          "Task management systems",
+          "Time tracking applications",
+          "Expense reporting tools",
+          "Data entry and forms",
+          "Report generation with blocks",
+          "Business analytics dashboards",
+          "Team collaboration features"
+        ],
+        "projects": [
+          "Small business management app",
+          "Invoice generator app",
+          "Employee time tracker",
+          "Customer feedback system"
+        ],
+        "practice": "Create 5 business utility apps"
+      },
+      "week_33_34": {
+        "title": "E-commerce and Marketplace Apps",
+        "topics": [
+          "Product catalog design",
+          "Shopping cart with blocks",
+          "Payment gateway integration basics",
+          "Order management system",
+          "User reviews and ratings",
+          "Search and filter functions",
+          "Wishlist functionality",
+          "Seller dashboard creation",
+          "Delivery tracking features",
+          "Promotional features",
+          "Loyalty programs",
+          "Analytics for sellers"
+        ],
+        "projects": [
+          "Mini e-commerce app",
+          "Marketplace for services",
+          "Food delivery app",
+          "Rental marketplace app"
+        ],
+        "practice": "Build complete e-commerce flow"
+      },
+      "week_35": {
+        "title": "Game Development Specialization",
+        "topics": [
+          "Advanced game mechanics",
+          "RPG systems with blocks",
+          "Strategy game elements",
+          "Puzzle game algorithms",
+          "Racing game physics",
+          "Sports game mechanics",
+          "Card game logic",
+          "Board game adaptations",
+          "Casual game design",
+          "Game economy systems",
+          "Social gaming features",
+          "Game analytics and metrics"
+        ],
+        "projects": [
+          "Complete RPG with story",
+          "Strategy tower defense game",
+          "Sports tournament game",
+          "Social word game"
+        ],
+        "practice": "Develop 3 different game genres"
+      }
+    },
+    "month_9_10": {
+      "title": "Creative and Media Apps Track",
+      "weeks": "Creative Specialization",
+      "week_36_37": {
+        "title": "Creative Tools Development",
+        "topics": [
+          "Drawing and painting apps",
+          "Photo editing with blocks",
+          "Filter and effects creation",
+          "Collage maker features",
+          "Animation creation tools",
+          "Music composition apps",
+          "Beat maker with blocks",
+          "Video editing basics",
+          "Meme generator apps",
+          "Logo design tools",
+          "Pattern generators",
+          "Creative templates"
+        ],
+        "projects": [
+          "Drawing app with layers",
+          "Photo filter app",
+          "Music maker app",
+          "Animation studio app"
+        ],
+        "practice": "Build 10 creative tool features"
+      },
+      "week_38_39": {
+        "title": "Social Media and Communication",
+        "topics": [
+          "Social feed design",
+          "User profiles and avatars",
+          "Friend systems with blocks",
+          "Messaging interfaces",
+          "Status updates and stories",
+          "Photo sharing features",
+          "Comments and likes system",
+          "Notification systems",
+          "Privacy settings",
+          "Content moderation basics",
+          "Community features",
+          "Live streaming concepts"
+        ],
+        "projects": [
+          "Mini social network app",
+          "Chat application",
+          "Photo sharing app",
+          "Community forum app"
+        ],
+        "practice": "Implement 10 social features"
+      },
+      "week_40_41": {
+        "title": "Health and Fitness Apps",
+        "topics": [
+          "Fitness tracking interfaces",
+          "Workout timer apps",
+          "Calorie counting features",
+          "Water intake reminders",
+          "Sleep tracking basics",
+          "Meditation and wellness",
+          "Habit formation apps",
+          "Health data visualization",
+          "Exercise library creation",
+          "Nutrition planning tools",
+          "Mental health support apps",
+          "Medical reminder systems"
+        ],
+        "projects": [
+          "Workout tracker app",
+          "Meditation timer app",
+          "Nutrition diary app",
+          "Habit building app"
+        ],
+        "practice": "Create 5 health-focused apps"
+      },
+      "week_42_43": {
+        "title": "Entertainment and Lifestyle",
+        "topics": [
+          "Recipe and cooking apps",
+          "Travel planning tools",
+          "Event planning apps",
+          "Dating app mechanics",
+          "Hobby tracking apps",
+          "Pet care applications",
+          "Home decoration apps",
+          "Fashion and style apps",
+          "Book reading apps",
+          "Podcast player features",
+          "Streaming app interfaces",
+          "Review and rating apps"
+        ],
+        "projects": [
+          "Recipe collection app",
+          "Travel itinerary planner",
+          "Event countdown app",
+          "Hobby tracker app"
+        ],
+        "practice": "Build 5 lifestyle applications"
+      },
+      "week_44": {
+        "title": "Augmented Reality with Blocks",
+        "topics": [
+          "AR basics in block coding",
+          "AR.js integration basics",
+          "Image tracking with AR",
+          "3D object placement",
+          "AR filters and effects",
+          "Location-based AR",
+          "AR gaming concepts",
+          "Educational AR apps",
+          "AR for shopping",
+          "Virtual try-on features",
+          "AR navigation apps",
+          "Mixed reality basics"
+        ],
+        "projects": [
+          "AR treasure hunt game",
+          "AR educational app",
+          "AR shopping assistant",
+          "AR art gallery app"
+        ],
+        "practice": "Create 3 AR experiences"
+      }
+    },
+    "month_11_12": {
+      "title": "Professional Development Track",
+      "weeks": "Career Preparation",
+      "week_45_46": {
+        "title": "Advanced Thunkable Features",
+        "topics": [
+          "Thunkable extensions",
+          "Custom components advanced",
+          "Complex data structures",
+          "Advanced API integration",
+          "OAuth authentication",
+          "Payment processing blocks",
+          "Push notifications setup",
+          "Background tasks basics",
+          "App deep linking",
+          "Dynamic content loading",
+          "Offline-first design",
+          "App performance optimization"
+        ],
+        "projects": [
+          "Professional business app",
+          "Advanced e-commerce platform",
+          "Real-time collaboration app",
+          "Enterprise solution app"
+        ],
+        "practice": "Master 10 advanced Thunkable features"
+      },
+      "week_47_48": {
+        "title": "Cross-Platform Development",
+        "topics": [
+          "Platform-specific features",
+          "iOS vs Android differences",
+          "Responsive design for tablets",
+          "Web app creation with blocks",
+          "Progressive web apps basics",
+          "Desktop app possibilities",
+          "Wearable app development",
+          "TV app interfaces",
+          "Cross-platform testing",
+          "Platform optimization",
+          "Universal app design",
+          "Multi-device synchronization"
+        ],
+        "projects": [
+          "Universal app for all platforms",
+          "Tablet-optimized app",
+          "Web version of mobile app",
+          "Wearable companion app"
+        ],
+        "practice": "Port apps to 3 different platforms"
+      },
+      "week_49_50": {
+        "title": "App Testing and Quality",
+        "topics": [
+          "Testing strategies for block apps",
+          "User testing organization",
+          "Beta testing setup",
+          "Bug tracking and fixing",
+          "Performance testing",
+          "Usability testing",
+          "A/B testing basics",
+          "Analytics implementation",
+          "Crash reporting setup",
+          "User feedback collection",
+          "App monitoring tools",
+          "Quality assurance checklist"
+        ],
+        "projects": [
+          "Complete testing suite",
+          "Beta testing program",
+          "Analytics dashboard",
+          "Feedback system implementation"
+        ],
+        "practice": "Test and debug 10 apps thoroughly"
+      },
+      "week_51": {
+        "title": "Transition to Text Coding",
+        "topics": [
+          "From blocks to JavaScript",
+          "Understanding generated code",
+          "React Native basics",
+          "Flutter introduction",
+          "HTML/CSS for web apps",
+          "Python for beginners",
+          "Code structure comparison",
+          "IDE introduction",
+          "Version control with Git",
+          "Debugging text code",
+          "Learning resources",
+          "Career pathways"
+        ],
+        "projects": [
+          "Convert block app to code",
+          "First React Native app",
+          "Simple Flutter app",
+          "Basic web application"
+        ],
+        "practice": "Write simple programs in 3 languages"
+      },
+      "week_52": {
+        "title": "Final Capstone Project",
+        "topics": [
+          "Project planning and design",
+          "User research and requirements",
+          "Wireframing and prototyping",
+          "Development best practices",
+          "Testing and refinement",
+          "Documentation writing",
+          "Marketing preparation",
+          "Launch strategy"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Professional App from Concept to Launch",
+          "Complete app with all advanced features",
+          "Published to app stores",
+          "Marketing materials created",
+          "User documentation complete"
+        ],
+        "assessment": "Final certification exam and project presentation"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "BONUS CONTENT: Advanced Topics & Emerging Technologies",
+    "description": "Optional advanced modules for continued learning and specialization.",
+    "month_13_14": {
+      "title": "Emerging Technologies",
+      "weeks": "Advanced Optional Modules",
+      "week_53_54": {
+        "title": "Blockchain and Web3 Apps",
+        "topics": [
+          "Blockchain basics for apps",
+          "Cryptocurrency wallet integration",
+          "NFT marketplace apps",
+          "Smart contract interaction",
+          "DeFi app interfaces",
+          "Web3 authentication",
+          "Decentralized storage",
+          "Crypto payment integration",
+          "DAO voting apps",
+          "Blockchain gaming",
+          "Token economics in apps",
+          "MetaMask integration basics"
+        ],
+        "projects": [
+          "Crypto wallet app",
+          "NFT viewer app",
+          "DeFi dashboard",
+          "Blockchain game"
+        ],
+        "practice": "Build 3 Web3-enabled apps"
+      },
+      "week_55_56": {
+        "title": "Advanced AI Integration",
+        "topics": [
+          "GPT API integration",
+          "Custom AI models deployment",
+          "Computer vision advanced",
+          "Voice synthesis and cloning",
+          "Predictive analytics in apps",
+          "Recommendation engines",
+          "AI content generation",
+          "Deepfake detection apps",
+          "AI-powered personalization",
+          "Ethical AI implementation",
+          "AI model training basics",
+          "Edge AI for mobile"
+        ],
+        "projects": [
+          "AI writing assistant app",
+          "Smart camera with AI",
+          "Predictive health app",
+          "AI tutor application"
+        ],
+        "practice": "Integrate AI in 5 different ways"
+      },
+      "week_57_58": {
+        "title": "Virtual and Mixed Reality",
+        "topics": [
+          "VR concepts in block coding",
+          "360-degree experiences",
+          "VR tour creation",
+          "Mixed reality basics",
+          "Spatial computing concepts",
+          "Hand tracking basics",
+          "VR UI/UX principles",
+          "WebXR introduction",
+          "VR for education",
+          "Virtual meetings apps",
+          "VR gaming basics",
+          "Metaverse applications"
+        ],
+        "projects": [
+          "VR tour app",
+          "VR education experience",
+          "Mixed reality game",
+          "Virtual meeting space"
+        ],
+        "practice": "Create 3 VR/MR experiences"
+      },
+      "week_59_60": {
+        "title": "Enterprise and B2B Apps",
+        "topics": [
+          "Enterprise app requirements",
+          "Multi-tenant architecture basics",
+          "Role-based access control",
+          "Enterprise authentication",
+          "Compliance and regulations",
+          "Data privacy implementation",
+          "Audit logging features",
+          "Enterprise integration patterns",
+          "Workflow automation",
+          "Business intelligence dashboards",
+          "Enterprise security features",
+          "Scalability considerations"
+        ],
+        "projects": [
+          "Enterprise CRM system",
+          "HR management app",
+          "Supply chain tracker",
+          "Enterprise analytics dashboard"
+        ],
+        "practice": "Build 3 enterprise-grade features"
+      },
+      "week_61": {
+        "title": "App Entrepreneurship",
+        "topics": [
+          "Finding app ideas",
+          "Market research techniques",
+          "Competitive analysis",
+          "MVP development strategy",
+          "User acquisition strategies",
+          "App monetization models",
+          "Freemium strategies",
+          "App store optimization (ASO)",
+          "Social media marketing",
+          "Influencer partnerships",
+          "App analytics and KPIs",
+          "Scaling your app business"
+        ],
+        "projects": [
+          "Complete app business plan",
+          "MVP with monetization",
+          "Marketing campaign setup",
+          "App launch strategy"
+        ],
+        "practice": "Launch and market an app"
+      }
+    },
+    "month_15_16": {
+      "title": "Teaching and Content Creation",
+      "weeks": "Educator Track",
+      "week_62_63": {
+        "title": "Becoming a Block Coding Instructor",
+        "topics": [
+          "Teaching methodology for visual programming",
+          "Curriculum development",
+          "Age-appropriate content creation",
+          "Classroom management for coding",
+          "Online teaching platforms",
+          "Creating coding tutorials",
+          "Assessment and grading",
+          "Student project guidance",
+          "Parent communication",
+          "Coding club organization",
+          "Competition preparation",
+          "Teaching resources creation"
+        ],
+        "projects": [
+          "Complete coding curriculum",
+          "Tutorial video series",
+          "Student assessment system",
+          "Coding club materials"
+        ],
+        "practice": "Teach 5 coding concepts to beginners"
+      },
+      "week_64_65": {
+        "title": "Content Creation for App Developers",
+        "topics": [
+          "YouTube channel creation",
+          "Tutorial video production",
+          "Blog writing for developers",
+          "Course creation basics",
+          "Live streaming coding sessions",
+          "Social media for developers",
+          "Building online community",
+          "Monetizing content",
+          "SEO for developer content",
+          "Podcast creation",
+          "Writing technical books",
+          "Conference speaking"
+        ],
+        "projects": [
+          "YouTube channel launch",
+          "Blog with 10 tutorials",
+          "Mini online course",
+          "Developer community setup"
+        ],
+        "practice": "Create content in 3 different formats"
+      },
+      "week_66_67": {
+        "title": "Open Source and Community",
+        "topics": [
+          "Open source concepts",
+          "Contributing to block coding platforms",
+          "Creating block extensions",
+          "Community project management",
+          "Documentation writing",
+          "Issue tracking and resolution",
+          "Code review practices",
+          "Community building",
+          "Mentoring new developers",
+          "Organizing hackathons",
+          "Creating coding challenges",
+          "Building developer tools"
+        ],
+        "projects": [
+          "Open source block extension",
+          "Community project launch",
+          "Hackathon organization",
+          "Developer tool creation"
+        ],
+        "practice": "Contribute to 3 open source projects"
+      },
+      "week_68_69": {
+        "title": "Accessibility and Inclusive Design",
+        "topics": [
+          "Accessibility principles",
+          "Screen reader compatibility",
+          "Color blindness considerations",
+          "Motor accessibility features",
+          "Cognitive accessibility",
+          "Multi-language support",
+          "Cultural sensitivity in apps",
+          "Inclusive UI design",
+          "Testing with disabled users",
+          "Accessibility regulations",
+          "Assistive technology integration",
+          "Universal design principles"
+        ],
+        "projects": [
+          "Fully accessible app",
+          "Assistive technology app",
+          "Multi-language app",
+          "Inclusive game design"
+        ],
+        "practice": "Make 5 apps fully accessible"
+      },
+      "week_70": {
+        "title": "Future of No-Code Development",
+        "topics": [
+          "No-code movement overview",
+          "Low-code vs no-code",
+          "Enterprise no-code platforms",
+          "AI-assisted development",
+          "Voice-programmed apps",
+          "Natural language to app",
+          "Quantum computing basics",
+          "5G and app development",
+          "Edge computing for apps",
+          "Sustainable app development",
+          "Green coding practices",
+          "Future career paths"
+        ],
+        "projects": [
+          "Next-gen app prototype",
+          "AI-assisted app creation",
+          "Sustainable app design",
+          "Future technology integration"
+        ],
+        "practice": "Explore 5 emerging technologies"
+      }
+    },
+    "month_17_18": {
+      "title": "Specialized Industry Applications",
+      "weeks": "Industry-Specific Development",
+      "week_71_72": {
+        "title": "Healthcare and Medical Apps",
+        "topics": [
+          "HIPAA compliance basics",
+          "Medical data handling",
+          "Telemedicine app features",
+          "Appointment scheduling systems",
+          "Prescription management",
+          "Health record apps",
+          "Symptom checker apps",
+          "Mental health support apps",
+          "Fitness and rehabilitation",
+          "Medical education apps",
+          "Emergency response apps",
+          "Healthcare provider tools"
+        ],
+        "projects": [
+          "Telemedicine app",
+          "Health tracker app",
+          "Medical reference app",
+          "Emergency contact app"
+        ],
+        "practice": "Build 3 healthcare solutions"
+      },
+      "week_73_74": {
+        "title": "Financial Technology Apps",
+        "topics": [
+          "Banking app interfaces",
+          "Payment processing basics",
+          "Budget management apps",
+          "Investment tracking",
+          "Cryptocurrency apps",
+          "Expense splitting apps",
+          "Tax calculation tools",
+          "Financial literacy apps",
+          "Loan calculators",
+          "Insurance apps",
+          "Financial security features",
+          "Regulatory compliance basics"
+        ],
+        "projects": [
+          "Personal finance manager",
+          "Investment tracker",
+          "Expense splitting app",
+          "Crypto portfolio app"
+        ],
+        "practice": "Create 5 fintech features"
+      },
+      "week_75_76": {
+        "title": "Government and Civic Apps",
+        "topics": [
+          "Civic engagement apps",
+          "Voting and polling apps",
+          "Government service portals",
+          "Emergency alert systems",
+          "Public transportation apps",
+          "City service apps",
+          "Community reporting tools",
+          "Public safety apps",
+          "Environmental monitoring",
+          "Citizen feedback systems",
+          "Government transparency tools",
+          "Smart city applications"
+        ],
+        "projects": [
+          "City services app",
+          "Community reporting tool",
+          "Public transport tracker",
+          "Civic engagement platform"
+        ],
+        "practice": "Design 3 civic technology solutions"
+      },
+      "week_77": {
+        "title": "Real Estate and Property Apps",
+        "topics": [
+          "Property listing apps",
+          "Virtual tour creation",
+          "Mortgage calculators",
+          "Property management tools",
+          "Rental management apps",
+          "Real estate CRM",
+          "Home inspection apps",
+          "Neighborhood information",
+          "Property valuation tools",
+          "Moving and relocation apps",
+          "Smart home integration",
+          "Property investment apps"
+        ],
+        "projects": [
+          "Property listing app",
+          "Virtual tour app",
+          "Property management system",
+          "Home buying assistant"
+        ],
+        "practice": "Build 3 real estate solutions"
+      },
+      "week_78": {
+        "title": "Final Master Certification",
+        "topics": [
+          "Portfolio refinement",
+          "Professional presentation skills",
+          "Industry networking",
+          "Freelancing setup",
+          "Business development",
+          "Continuous learning plan",
+          "Career planning",
+          "Final assessment preparation"
+        ],
+        "projects": [
+          "FINAL MASTER PROJECT: Industry-Specific Professional App",
+          "Complete documentation portfolio",
+          "Professional demo video",
+          "Business plan for app venture",
+          "Teaching materials creation"
+        ],
+        "assessment": "Master Certification Exam - Comprehensive evaluation of all skills"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "LIFETIME LEARNING: Continuous Updates & Community",
+    "description": "Ongoing support, new content, and community engagement for lifetime learners.",
+    "month_19_20": {
+      "title": "Community Projects & Collaboration",
+      "weeks": "Ongoing Collaborative Learning",
+      "week_79_80": {
+        "title": "Team Development Projects",
+        "topics": [
+          "Team collaboration tools",
+          "Version control for teams",
+          "Project management basics",
+          "Agile development with blocks",
+          "Code review in visual programming",
+          "Conflict resolution in projects",
+          "Team communication",
+          "Task delegation",
+          "Sprint planning",
+          "Retrospectives and improvement",
+          "Team documentation",
+          "Collaborative debugging"
+        ],
+        "projects": [
+          "Team hackathon project",
+          "Community app development",
+          "Open source contribution",
+          "Mentorship program app"
+        ],
+        "practice": "Complete 3 team projects"
+      },
+      "week_81_82": {
+        "title": "Advanced Workshops & Masterclasses",
+        "topics": [
+          "Guest expert sessions",
+          "Industry professional talks",
+          "New platform features",
+          "Emerging technology workshops",
+          "Design thinking workshops",
+          "UX/UI masterclasses",
+          "Business strategy sessions",
+          "Marketing workshops",
+          "Legal aspects of apps",
+          "International app markets",
+          "Scaling strategies",
+          "Exit strategies for apps"
+        ],
+        "projects": [
+          "Workshop implementation project",
+          "Masterclass challenge app",
+          "Industry-standard app",
+          "Competition entry app"
+        ],
+        "practice": "Attend 10 workshops and implement learnings"
+      },
+      "week_83_84": {
+        "title": "Mentorship and Teaching Others",
+        "topics": [
+          "Becoming a mentor",
+          "Teaching methodologies",
+          "Creating learning materials",
+          "Student assessment techniques",
+          "Providing constructive feedback",
+          "Building learning communities",
+          "Organizing workshops",
+          "Creating video tutorials",
+          "Writing documentation",
+          "Public speaking about apps",
+          "Building your expert brand",
+          "Thought leadership"
+        ],
+        "projects": [
+          "Mentor 3 beginners",
+          "Create teaching materials",
+          "Host a workshop",
+          "Build tutorial series"
+        ],
+        "practice": "Teach 10 people app development"
+      },
+      "week_85_86": {
+        "title": "Research and Innovation",
+        "topics": [
+          "Latest block coding research",
+          "Experimental features testing",
+          "Creating new block patterns",
+          "Performance optimization research",
+          "User behavior studies",
+          "A/B testing methodologies",
+          "Data-driven development",
+          "Innovation in app design",
+          "Patent basics for apps",
+          "Research paper reading",
+          "Conference participation",
+          "Publishing findings"
+        ],
+        "projects": [
+          "Research project app",
+          "Innovative feature development",
+          "Experimental app prototype",
+          "Research documentation"
+        ],
+        "practice": "Conduct 3 research experiments"
+      },
+      "week_87": {
+        "title": "Platform Updates & New Features",
+        "topics": [
+          "Latest Thunkable updates",
+          "MIT App Inventor new features",
+          "New block coding platforms",
+          "Platform migration strategies",
+          "Beta testing new features",
+          "Community feedback programs",
+          "Feature request processes",
+          "Platform comparison studies",
+          "Cross-platform strategies",
+          "Future platform predictions",
+          "Staying current with changes",
+          "Adaptation strategies"
+        ],
+        "projects": [
+          "New feature exploration app",
+          "Platform comparison project",
+          "Migration case study",
+          "Beta feature testing"
+        ],
+        "practice": "Master 5 new platform features"
+      }
+    },
+    "month_21_22": {
+      "title": "Professional Networking & Growth",
+      "weeks": "Career Development",
+      "week_88_89": {
+        "title": "Building Professional Network",
+        "topics": [
+          "LinkedIn optimization for app developers",
+          "Twitter/X for developers",
+          "Discord and Slack communities",
+          "GitHub presence building",
+          "Stack Overflow participation",
+          "Reddit communities",
+          "Local meetup organization",
+          "Conference networking",
+          "Online community building",
+          "Professional associations",
+          "Mentor finding strategies",
+          "Collaboration opportunities"
+        ],
+        "projects": [
+          "Professional portfolio site",
+          "Community engagement plan",
+          "Networking app creation",
+          "Personal brand development"
+        ],
+        "practice": "Build network of 100+ developers"
+      },
+      "week_90_91": {
+        "title": "Freelancing and Consulting",
+        "topics": [
+          "Freelance platform profiles",
+          "Client communication",
+          "Project estimation",
+          "Contract negotiation",
+          "Pricing strategies",
+          "Portfolio presentation",
+          "Client requirement analysis",
+          "Project management for freelancers",
+          "Invoice and payment systems",
+          "Client retention strategies",
+          "Scaling freelance business",
+          "Agency transition"
+        ],
+        "projects": [
+          "Freelance portfolio",
+          "Client management system",
+          "Project tracker app",
+          "Invoice generator app"
+        ],
+        "practice": "Complete 5 freelance projects"
+      },
+      "week_92_93": {
+        "title": "App Business Development",
+        "topics": [
+          "Business model canvas",
+          "Revenue model selection",
+          "User acquisition strategies",
+          "Growth hacking techniques",
+          "App store optimization advanced",
+          "User retention strategies",
+          "Analytics and metrics",
+          "Investor pitch preparation",
+          "Funding options",
+          "Partnership strategies",
+          "International expansion",
+          "Exit strategies"
+        ],
+        "projects": [
+          "Complete business plan",
+          "Investor pitch deck",
+          "Growth strategy implementation",
+          "Revenue optimization project"
+        ],
+        "practice": "Launch and grow an app business"
+      },
+      "week_94_95": {
+        "title": "Industry Certifications",
+        "topics": [
+          "Platform certifications",
+          "Google certifications",
+          "Apple developer program",
+          "Microsoft certifications",
+          "AWS certifications basics",
+          "Project management certs",
+          "UX/UI certifications",
+          "Digital marketing certs",
+          "Preparing for exams",
+          "Certification maintenance",
+          "Professional development plans",
+          "Career advancement strategies"
+        ],
+        "projects": [
+          "Certification study app",
+          "Exam preparation materials",
+          "Professional development tracker",
+          "Career roadmap creation"
+        ],
+        "practice": "Obtain 3 industry certifications"
+      },
+      "week_96": {
+        "title": "Global Opportunities",
+        "topics": [
+          "International app markets",
+          "Localization strategies",
+          "Cultural adaptation",
+          "Global payment systems",
+          "International regulations",
+          "Remote work opportunities",
+          "Global team collaboration",
+          "Time zone management",
+          "Cross-cultural communication",
+          "International partnerships",
+          "Global app launches",
+          "Emerging markets"
+        ],
+        "projects": [
+          "Multi-language app",
+          "Global marketplace app",
+          "International collaboration app",
+          "Cross-cultural app adaptation"
+        ],
+        "practice": "Launch app in 3 countries"
+      }
+    },
+    "month_23": {
+      "title": "Lifetime Support & Resources",
+      "weeks": "Ongoing Support",
+      "week_97": {
+        "title": "Alumni Network",
+        "topics": [
+          "Alumni community access",
+          "Success story sharing",
+          "Peer mentorship programs",
+          "Alumni projects collaboration",
+          "Job referral network",
+          "Knowledge sharing sessions",
+          "Alumni meetups and events",
+          "Continued learning groups",
+          "Special interest groups",
+          "Regional chapters",
+          "Online forums",
+          "Annual conferences"
+        ],
+        "projects": [
+          "Alumni directory app",
+          "Knowledge sharing platform",
+          "Collaboration platform",
+          "Event management app"
+        ],
+        "practice": "Engage with 50+ alumni"
+      },
+      "week_98": {
+        "title": "Continuous Content Updates",
+        "topics": [
+          "Monthly new tutorials",
+          "Platform update guides",
+          "New technology integration",
+          "Industry trend reports",
+          "Case study analyses",
+          "Guest expert content",
+          "Community challenges",
+          "Seasonal projects",
+          "Technology newsletters",
+          "Resource libraries",
+          "Tool recommendations",
+          "Best practices updates"
+        ],
+        "projects": [
+          "Implement new features",
+          "Trend analysis project",
+          "Community challenge entry",
+          "Case study implementation"
+        ],
+        "practice": "Stay updated with weekly new content"
+      },
+      "week_99": {
+        "title": "Special Interest Groups",
+        "topics": [
+          "Game development group",
+          "Education technology group",
+          "Business apps group",
+          "AI and ML group",
+          "IoT developers group",
+          "Creative apps group",
+          "Social impact apps",
+          "Healthcare apps group",
+          "Fintech apps group",
+          "Kids coding group",
+          "Women in tech group",
+          "Regional groups"
+        ],
+        "projects": [
+          "Group project participation",
+          "Special interest app",
+          "Community contribution",
+          "Group leadership role"
+        ],
+        "practice": "Join and contribute to 3 groups"
+      },
+      "week_100": {
+        "title": "Future Learning Paths",
+        "topics": [
+          "Advanced specializations",
+          "University partnerships",
+          "Professional development",
+          "Research opportunities",
+          "Teaching opportunities",
+          "Speaking engagements",
+          "Book writing opportunities",
+          "Course creation",
+          "Consulting opportunities",
+          "Startup incubation",
+          "Innovation labs",
+          "Future technology preview"
+        ],
+        "projects": [
+          "Personal development plan",
+          "5-year career roadmap",
+          "Learning portfolio",
+          "Achievement showcase"
+        ],
+        "practice": "Plan next learning adventure"
+      }
+    },
+    "month_24": {
+      "title": "Success Celebration & Next Steps",
+      "weeks": "Graduation & Beyond",
+      "week_101_102": {
+        "title": "Portfolio Showcase",
+        "topics": [
+          "Portfolio website creation",
+          "Project documentation",
+          "Case study writing",
+          "Video demonstrations",
+          "Code explanation videos",
+          "Client testimonials",
+          "App metrics showcase",
+          "Design process documentation",
+          "Technical blog posts",
+          "Social media presence",
+          "Professional photography",
+          "Demo day preparation"
+        ],
+        "projects": [
+          "Complete portfolio website",
+          "30+ app showcase",
+          "Video portfolio creation",
+          "Professional presentations"
+        ]
+      },
+      "week_103": {
+        "title": "Graduation & Certification",
+        "topics": [
+          "Final assessment preparation",
+          "Comprehensive project review",
+          "Skill demonstration",
+          "Interview preparation",
+          "Certification requirements",
+          "Graduation ceremony",
+          "Certificate verification",
+          "LinkedIn certification display",
+          "Resume updates",
+          "Reference letters",
+          "Recommendation requests",
+          "Success metrics"
+        ],
+        "deliverables": [
+          "Final project submission",
+          "Complete portfolio",
+          "Certification exam",
+          "Graduation presentation",
+          "Published apps proof",
+          "Community contributions",
+          "Teaching materials",
+          "Innovation projects"
+        ]
+      },
+      "week_104": {
+        "title": "Your Journey Continues",
+        "topics": [
+          "Setting new goals",
+          "Advanced learning paths",
+          "Career advancement planning",
+          "Entrepreneurship opportunities",
+          "Giving back to community",
+          "Mentoring newcomers",
+          "Creating your courses",
+          "Building your brand",
+          "Industry leadership",
+          "Innovation and research",
+          "Global impact projects",
+          "Lifetime learning commitment"
+        ],
+        "deliverables": [
+          "Future goals document",
+          "1-year action plan",
+          "Mentorship commitment",
+          "Community project proposal",
+          "Personal brand strategy",
+          "Continued learning plan",
+          "Network building goals"
+        ],
+        "assessment": "FINAL CELEBRATION - You are now a Certified Block-Based App Developer!"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1-2: 15 Scratch projects, 10 basic mobile apps",
+      "Month 3-4: 20 intermediate apps with device features",
+      "Month 5-6: 15 advanced apps with AI, IoT, and publishing",
+      "Specialization: 20+ specialized apps in chosen track",
+      "Total: 70+ complete applications"
+    ],
+    "total_projects_built": "70+ apps ranging from simple animations to complex published applications",
+    "skills_mastered": [
+      "Visual Programming: Scratch, MIT App Inventor, Thunkable, App Lab",
+      "Mobile Development: Android and iOS app creation",
+      "UI/UX Design: User interfaces, animations, responsive design",
+      "Logic & Algorithms: Programming logic, problem-solving, debugging",
+      "Device Features: Camera, GPS, sensors, Bluetooth, notifications",
+      "Data Management: Local storage, cloud databases, APIs",
+      "Game Development: 2D games, physics, multiplayer basics",
+      "AI Integration: Machine learning, image recognition, chatbots",
+      "IoT Development: Hardware integration, sensor data, automation",
+      "Publishing: App stores, marketing, monetization",
+      "Professional Skills: Project management, documentation, presentation"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-4 hours",
+      "hands_on_coding": "4-5 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "8-10 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly Q&A and coding sessions",
+      "mentorship": "Dedicated mentor support",
+      "community": "Active Discord community",
+      "code_review": "Project feedback and reviews",
+      "career_support": "App publishing guidance and portfolio reviews",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each major milestone",
+      "final_certificate": "Professional Block-Based App Developer Certification",
+      "linkedin_badge": "Shareable LinkedIn certification",
+      "industry_recognized": "Recognized by educational institutions",
+      "portfolio_projects": "70+ apps for portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal education required - suitable for ages 8+",
+    "coding_experience": "Zero coding experience needed",
+    "equipment": "Computer/laptop and smartphone/tablet for testing",
+    "time_commitment": "8-10 hours per week",
+    "english": "Basic English comprehension",
+    "motivation": "Curiosity and desire to create"
+  },
+  "who_is_this_for": {
+    "students": "Kids (8+), teens, and college students",
+    "working_professionals": "Career switchers and skill upgraders",
+    "entrepreneurs": "Anyone wanting to build app businesses",
+    "freelancers": "Aspiring app developers and consultants",
+    "kids": "Children 8+ wanting to learn programming",
+    "anyone": "Anyone interested in creating mobile apps"
+  },
+  "career_paths_after_completion": [
+    "No-Code App Developer",
+    "Visual Programming Instructor",
+    "Educational Technology Specialist",
+    "App Entrepreneur",
+    "Freelance App Creator",
+    "Junior Mobile Developer (transition path)",
+    "Product Manager",
+    "UX/UI Designer",
+    "Digital Innovation Consultant",
+    "EdTech Content Creator"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹2-4 LPA (Freelance projects)",
+    "after_12_months": "₹4-6 LPA (No-code developer)",
+    "after_18_months": "₹6-10 LPA (Senior no-code developer)",
+    "after_24_months": "₹8-15+ LPA (Lead/Consultant roles)",
+    "freelance": "₹300-1500/hour",
+    "international": "$30k-80k USD based on location"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "App publishing and monetization support",
+    "lifetime_updates": "Free access to all new content",
+    "mentorship": "6 months of mentor support",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "70+ apps in your portfolio"
+  }
+}

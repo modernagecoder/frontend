@@ -1,0 +1,1224 @@
+{
+  "meta": {
+    "slug": "kids-ai-web-development-course",
+    "title": "Kids AI Web Development Masterclass - Build Amazing Websites with HTML, CSS & AI",
+    "description": "The most fun and comprehensive 1-year web development program designed specifically for kids. Learn to build stunning websites using HTML, CSS, and cutting-edge AI tools. From zero coding to creating professional websites with artificial intelligence assistance.",
+    "keywords": [
+      "kids coding",
+      "web development for children",
+      "HTML for kids",
+      "CSS for kids",
+      "AI website builder",
+      "ChatGPT for coding",
+      "youth programming",
+      "creative coding",
+      "visual web design",
+      "AI-assisted development",
+      "children technology education",
+      "STEM education",
+      "future skills"
+    ],
+    "category": "Kids Technology Education",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹19,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Young Developer",
+    "commitment": "5-10 hours/week recommended",
+    "certification": "Young Web Developer Certificate with AI Specialization"
+  },
+  "program_overview": {
+    "title": "Kids AI Web Development Masterclass",
+    "tagline": "From First Click to AI-Powered Websites in Just 1 Year!",
+    "description": "Welcome to the most exciting coding adventure designed specifically for young minds! This isn't just learning to code—it's a journey into the future of technology. Whether you're 8 or 18, this program will transform you from someone who uses websites to someone who creates them.\n\nYou'll start with colorful, fun HTML pages and gradually master beautiful CSS designs. Then, you'll discover the magic of AI tools like ChatGPT, Claude, and GitHub Copilot to supercharge your coding. By the end, you'll have built 30+ amazing projects including games, interactive stories, and professional websites—all with the help of AI!",
+    "what_makes_this_different": [
+      "Designed specifically for young learners with fun, engaging content",
+      "Uses AI tools from day one to make coding easier and more exciting",
+      "Game-like progression with badges, achievements, and rewards",
+      "Build real websites that friends and family can use",
+      "Learn future-ready skills combining coding with AI",
+      "Parent-friendly progress tracking and safe online environment",
+      "Creative projects like games, animations, and interactive stories",
+      "No boring theory—everything is hands-on and visual"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): HTML Basics, First Websites, Introduction to AI Helpers",
+      "phase_2": "Creative Design (Months 4-6): CSS Magic, Animations, AI-Powered Design",
+      "phase_3": "Interactive Websites (Months 7-9): JavaScript Basics, AI Code Generation, Dynamic Content",
+      "phase_4": "Professional Projects (Months 10-12): Complete Websites, AI Integration, Portfolio Building"
+    },
+    "career_outcomes": [
+      "Young Web Designer (after 3 months)",
+      "Junior Frontend Developer (after 6 months)",
+      "AI-Assisted Web Developer (after 9 months)",
+      "Certified Young Tech Creator (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: HTML Foundation & AI Introduction (Months 1-3, Weeks 1-13)",
+    "description": "Start your coding adventure! Learn HTML basics while using AI assistants to help you code faster and smarter.",
+    "month_1_2": {
+      "title": "Months 1-2: HTML Basics & Your First Websites",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Welcome to Web Development & AI Tools Setup",
+        "topics": [
+          "What is a website? How does the internet work (kid-friendly explanation)",
+          "Meeting your AI coding friends: ChatGPT and Claude",
+          "Setting up your coding playground: VS Code with fun themes",
+          "Installing colorful extensions and emoji support",
+          "Your first HTML file: Hello World with emojis! 🎉",
+          "Understanding tags: like LEGO blocks for websites",
+          "Creating a personal 'About Me' page",
+          "Using AI to generate HTML code ideas",
+          "Asking ChatGPT questions about HTML",
+          "HTML structure: <html>, <head>, <body> explained with stories",
+          "Saving and viewing your first webpage",
+          "Celebrating your first website with screenshots!"
+        ],
+        "projects": [
+          "Create 'All About Me' webpage with AI suggestions",
+          "Build a digital pet profile page",
+          "Make a birthday invitation webpage"
+        ],
+        "practice": "Daily: Create one fun HTML page with AI help"
+      },
+      "week_3_4": {
+        "title": "HTML Elements Zoo - Text, Images & Links",
+        "topics": [
+          "Heading tags (h1-h6): Creating titles like newspaper headlines",
+          "Paragraph tag: Writing stories on your webpage",
+          "Making lists: Favorite games, friends, hobbies (ul, ol, li)",
+          "Bold and italic: Making text stand out (strong, em)",
+          "Adding images: Your photos, drawings, and GIFs",
+          "Image attributes: alt text for accessibility",
+          "Creating links: Connect your pages like a treasure map",
+          "Link to other websites: YouTube, games, educational sites",
+          "Using AI to write alt text for images",
+          "ChatGPT for content ideas and creative writing",
+          "Making a photo album webpage",
+          "Building a collection of favorite things"
+        ],
+        "projects": [
+          "Digital photo album with captions",
+          "My favorite YouTube videos collection",
+          "Interactive storybook with multiple pages",
+          "School project presentation website"
+        ],
+        "practice": "Build 5 themed pages (animals, sports, hobbies, etc.)"
+      },
+      "week_5_6": {
+        "title": "Fun with Forms & Tables",
+        "topics": [
+          "Creating forms: Like making a quiz for friends",
+          "Input types: text, email, password, number",
+          "Fun input types: color picker, date picker, range slider",
+          "Checkboxes for multiple choices: Pizza toppings selector",
+          "Radio buttons for single choice: Favorite superhero poll",
+          "Dropdown menus: Choose your adventure options",
+          "Textarea: Writing stories and comments",
+          "Tables for organizing information: Sports scores, schedules",
+          "Making tables pretty with borders and colors",
+          "Using AI to generate form questions",
+          "ChatGPT for creating quiz content",
+          "Building interactive surveys"
+        ],
+        "projects": [
+          "Personality quiz generator with AI questions",
+          "Friend information collector form",
+          "Class schedule table",
+          "Restaurant menu with order form"
+        ],
+        "practice": "Create 5 different interactive forms"
+      },
+      "week_7_8": {
+        "title": "Multimedia Magic - Audio, Video & Canvas",
+        "topics": [
+          "Adding videos to your webpage: YouTube embeds",
+          "HTML5 video tag: Playing your own videos",
+          "Audio elements: Adding music and sound effects",
+          "Creating playlists on your webpage",
+          "Canvas basics: Drawing on webpages",
+          "Embedding games and interactive content",
+          "iframe: Windows to other websites",
+          "Making a multimedia gallery",
+          "Using AI to find copyright-free media",
+          "ChatGPT for video script ideas",
+          "Creating a personal YouTube-style page",
+          "Building an online portfolio of creations"
+        ],
+        "projects": [
+          "Personal video channel page",
+          "Music playlist website",
+          "Digital art gallery with canvas",
+          "Multimedia learning resource page"
+        ],
+        "practice": "Add multimedia to all previous projects"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: CSS Foundations & AI-Powered Styling",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "CSS Basics - Making Websites Beautiful",
+        "topics": [
+          "What is CSS? The fashion designer for HTML",
+          "Three ways to add CSS: inline, internal, external stylesheets",
+          "CSS syntax: selector { property: value; }",
+          "Selecting elements: tags, classes, and IDs",
+          "Colors everywhere: background-color, color",
+          "Color codes: named colors, hex codes, RGB",
+          "Using AI to generate color palettes",
+          "ChatGPT for CSS styling suggestions",
+          "Font families: Changing how text looks",
+          "Google Fonts: Adding fun fonts to websites",
+          "Text size, weight, and style",
+          "Text alignment and decoration"
+        ],
+        "projects": [
+          "Rainbow text website",
+          "Colorful mood board page",
+          "Typography playground",
+          "AI-generated color scheme portfolio"
+        ],
+        "practice": "Style 10 HTML pages with different themes"
+      },
+      "week_11_12": {
+        "title": "CSS Box Model & Spacing Magic",
+        "topics": [
+          "The Box Model: Every element is a box!",
+          "Padding: Space inside the box",
+          "Margin: Space outside the box",
+          "Border: The box's frame (styles, colors, radius)",
+          "Width and height: Sizing your boxes",
+          "Making round corners with border-radius",
+          "Creating shapes with CSS: circles, triangles",
+          "Box shadows for 3D effects",
+          "Background images and patterns",
+          "Using AI to generate CSS for complex shapes",
+          "ChatGPT for spacing and layout advice",
+          "Building card-based layouts"
+        ],
+        "projects": [
+          "Trading card collection webpage",
+          "Social media profile page clone",
+          "Product showcase with cards",
+          "CSS art project with shapes"
+        ],
+        "practice": "Create 10 different card designs"
+      },
+      "week_13": {
+        "title": "Phase 1 Celebration Project",
+        "topics": [
+          "Planning your first complete website",
+          "Combining HTML and CSS skills",
+          "Using AI to brainstorm website ideas",
+          "Creating a sitemap with multiple pages",
+          "Consistent styling across pages",
+          "Adding personal creativity and flair",
+          "Getting feedback from family and friends",
+          "Publishing on GitHub Pages"
+        ],
+        "projects": [
+          "CAPSTONE: Complete 5-page personal website",
+          "Options: Fan site, hobby showcase, family website, school project",
+          "Must include: forms, multimedia, styled with CSS, AI-generated content"
+        ],
+        "assessment": "Phase 1 Quiz and Project Presentation"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced CSS & Animation Magic (Months 4-6, Weeks 14-26)",
+    "description": "Level up your design skills! Master advanced CSS, create stunning animations, and use AI to generate professional designs.",
+    "month_7_8": {
+      "title": "Months 4-5: CSS Layouts & Responsive Design",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Flexbox - The Flexible Layout System",
+        "topics": [
+          "Introduction to Flexbox: Making layouts flexible",
+          "Flex container and flex items",
+          "Flex-direction: row, column, reverse",
+          "Justify-content: Spacing items horizontally",
+          "Align-items: Spacing items vertically",
+          "Creating navigation bars with Flexbox",
+          "Building photo galleries",
+          "Flexbox games: Flexbox Froggy, Flexbox Defense",
+          "Using AI to generate Flexbox layouts",
+          "ChatGPT for solving layout challenges",
+          "Making responsive card layouts",
+          "Creating hero sections"
+        ],
+        "projects": [
+          "Responsive navigation menu",
+          "Pinterest-style photo gallery",
+          "Flexible dashboard layout",
+          "Game character selection screen"
+        ],
+        "practice": "Complete all Flexbox Froggy levels"
+      },
+      "week_29_30": {
+        "title": "CSS Grid - The Ultimate Layout Tool",
+        "topics": [
+          "CSS Grid basics: Rows and columns",
+          "Grid-template-columns and grid-template-rows",
+          "Grid gaps: Adding space between items",
+          "Placing items in specific grid cells",
+          "Grid areas: Naming your layout sections",
+          "Creating magazine-style layouts",
+          "Building game boards with Grid",
+          "Grid Garden game for practice",
+          "AI-assisted Grid layout generation",
+          "Combining Flexbox and Grid",
+          "Responsive grids with auto-fit",
+          "Creating complex layouts easily"
+        ],
+        "projects": [
+          "Magazine homepage layout",
+          "Tic-tac-toe game board",
+          "Calendar layout with Grid",
+          "Minecraft-style inventory grid"
+        ],
+        "practice": "Build 10 different grid layouts"
+      },
+      "week_31_32": {
+        "title": "Responsive Design - Mobile First!",
+        "topics": [
+          "What is responsive design? One site for all devices",
+          "Mobile-first approach: Start small, go big",
+          "Media queries: Different styles for different screens",
+          "Breakpoints: Phone, tablet, desktop",
+          "Responsive units: %, vw, vh, rem, em",
+          "Responsive images: srcset and picture element",
+          "Responsive typography: Scaling text",
+          "Testing on different devices",
+          "Chrome DevTools device simulator",
+          "Using AI to generate responsive CSS",
+          "Mobile-friendly navigation patterns",
+          "Touch-friendly button sizes"
+        ],
+        "projects": [
+          "Responsive portfolio website",
+          "Mobile-first blog layout",
+          "Adaptive gaming website",
+          "Responsive school project site"
+        ],
+        "practice": "Make all previous projects responsive"
+      },
+      "week_33_34": {
+        "title": "CSS Transforms & Transitions",
+        "topics": [
+          "Transform property: Move, rotate, scale, skew",
+          "2D transformations for fun effects",
+          "3D transformations: Perspective and depth",
+          "Creating flip cards and rotating elements",
+          "Transition property: Smooth changes",
+          "Transition timing functions: ease, linear, cubic-bezier",
+          "Hover effects and interactive elements",
+          "Building interactive galleries",
+          "CSS variables for dynamic styling",
+          "Using AI to create complex transforms",
+          "Creative hover animations",
+          "Making websites feel alive"
+        ],
+        "projects": [
+          "3D flip card memory game",
+          "Interactive product showcase",
+          "Animated navigation menu",
+          "Hover effect gallery"
+        ],
+        "practice": "Add transitions to 20 elements"
+      },
+      "week_35": {
+        "title": "CSS Animations & Keyframes",
+        "topics": [
+          "CSS animations vs transitions",
+          "@keyframes: Creating animation sequences",
+          "Animation properties: duration, delay, iteration",
+          "Animation timing and easing",
+          "Creating loading animations",
+          "Bouncing, sliding, fading effects",
+          "Animated backgrounds and patterns",
+          "SVG animations with CSS",
+          "Performance considerations",
+          "Using AI to generate keyframe animations",
+          "Animation libraries introduction",
+          "Making animated stories"
+        ],
+        "projects": [
+          "Animated landing page",
+          "Loading screen collection",
+          "Animated logo design",
+          "CSS animation showcase"
+        ],
+        "practice": "Create 15 different animations"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Advanced Styling & AI Design Tools",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Advanced CSS Effects & Filters",
+        "topics": [
+          "CSS filters: blur, brightness, contrast, grayscale",
+          "Creating Instagram-like photo filters",
+          "Backdrop-filter for glass effects",
+          "Mix-blend-mode for creative overlays",
+          "Gradient backgrounds: Linear and radial",
+          "Multiple backgrounds and patterns",
+          "Clip-path for custom shapes",
+          "CSS masks and masking",
+          "Text effects: Shadows, outlines, gradients",
+          "Using AI to generate CSS art",
+          "ChatGPT for creative effect ideas",
+          "Building artistic websites"
+        ],
+        "projects": [
+          "Instagram filter simulator",
+          "Glassmorphism UI design",
+          "Artistic portfolio with effects",
+          "Creative text effects showcase"
+        ],
+        "practice": "Apply 20 different CSS effects"
+      },
+      "week_38_39": {
+        "title": "CSS Frameworks & Libraries",
+        "topics": [
+          "Introduction to CSS frameworks",
+          "Bootstrap basics: Grid, components, utilities",
+          "Tailwind CSS: Utility-first approach",
+          "Using pre-built components",
+          "Customizing framework styles",
+          "When to use frameworks vs custom CSS",
+          "Component libraries for kids",
+          "Icon libraries: Font Awesome, Material Icons",
+          "Using AI to generate Tailwind classes",
+          "ChatGPT for framework selection",
+          "Building faster with frameworks",
+          "Maintaining your style"
+        ],
+        "projects": [
+          "Bootstrap landing page",
+          "Tailwind CSS blog design",
+          "Component library showcase",
+          "Framework comparison project"
+        ],
+        "practice": "Build 5 projects with different frameworks"
+      },
+      "week_40_41": {
+        "title": "AI-Powered Design Tools",
+        "topics": [
+          "Introduction to AI design assistants",
+          "Using ChatGPT for design ideas",
+          "Claude for code generation",
+          "Midjourney/DALL-E for image creation",
+          "AI color palette generators",
+          "AI-powered layout suggestions",
+          "GitHub Copilot for CSS",
+          "AI website builders overview",
+          "Ethical use of AI in design",
+          "Combining AI with personal creativity",
+          "AI for accessibility testing",
+          "Future of AI in web design"
+        ],
+        "projects": [
+          "AI-designed portfolio website",
+          "AI-generated art gallery",
+          "Website with AI-created images",
+          "AI-assisted redesign project"
+        ],
+        "practice": "Use AI tools in all projects"
+      },
+      "week_42_43": {
+        "title": "CSS Best Practices & Organization",
+        "topics": [
+          "Organizing CSS files",
+          "Naming conventions: BEM methodology",
+          "CSS custom properties (variables)",
+          "Creating a design system",
+          "Component-based CSS",
+          "Performance optimization",
+          "Minification and compression",
+          "Cross-browser compatibility",
+          "CSS validation tools",
+          "Using AI for code review",
+          "Documentation with comments",
+          "Maintaining clean code"
+        ],
+        "projects": [
+          "Personal design system",
+          "Refactor old projects",
+          "Create CSS style guide",
+          "Performance-optimized site"
+        ],
+        "practice": "Optimize all previous CSS code"
+      },
+      "week_44": {
+        "title": "Phase 2 Showcase Project",
+        "topics": [
+          "Planning an impressive CSS project",
+          "Incorporating all learned techniques",
+          "Using AI for project planning",
+          "Creating wireframes and mockups",
+          "Building with best practices",
+          "Testing across devices",
+          "Getting peer feedback",
+          "Presenting your work"
+        ],
+        "projects": [
+          "CAPSTONE: Advanced CSS Showcase Website",
+          "Options: Animated story, game interface, business website, art portfolio",
+          "Requirements: Responsive, animated, AI-assisted, framework usage"
+        ],
+        "assessment": "Phase 2 Final Project Presentation"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: JavaScript & AI Integration (Months 7-9, Weeks 27-39)",
+    "description": "Add interactivity to your websites! Learn JavaScript basics and use AI to write complex code easily.",
+    "month_13_14": {
+      "title": "Months 7-8: JavaScript Fundamentals",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "JavaScript Basics - Making Websites Interactive",
+        "topics": [
+          "What is JavaScript? The brain of websites",
+          "Adding JavaScript to HTML pages",
+          "Console.log: Talking to the computer",
+          "Variables: Storing information (let, const)",
+          "Data types: Numbers, strings, booleans",
+          "Basic math operations",
+          "String concatenation: Joining words",
+          "Template literals: Easy text formatting",
+          "Popup boxes: alert, confirm, prompt",
+          "Comments in JavaScript",
+          "Using ChatGPT to explain JavaScript",
+          "AI for debugging simple errors"
+        ],
+        "projects": [
+          "Interactive calculator",
+          "Mad libs story generator",
+          "Age calculator with messages",
+          "Simple greeting program"
+        ],
+        "practice": "Write 20 simple JavaScript programs"
+      },
+      "week_55_56": {
+        "title": "JavaScript Logic & Decisions",
+        "topics": [
+          "If statements: Making decisions",
+          "Else and else if: Multiple choices",
+          "Comparison operators: >, <, ==, ===",
+          "Logical operators: AND (&&), OR (||), NOT (!)",
+          "Switch statements for multiple cases",
+          "Ternary operator: Quick decisions",
+          "Random numbers with Math.random()",
+          "Building simple games with logic",
+          "Using AI to write conditional logic",
+          "ChatGPT for algorithm help",
+          "Creating quiz logic",
+          "Score keeping systems"
+        ],
+        "projects": [
+          "Rock, Paper, Scissors game",
+          "Number guessing game",
+          "Quiz with scoring",
+          "Adventure choice game"
+        ],
+        "practice": "Build 10 decision-based programs"
+      },
+      "week_57_58": {
+        "title": "Loops & Arrays - Handling Multiple Items",
+        "topics": [
+          "Arrays: Lists of items",
+          "Accessing array elements",
+          "Array methods: push, pop, length",
+          "For loops: Repeating actions",
+          "While loops: Keep going until...",
+          "Looping through arrays",
+          "forEach: Modern array looping",
+          "Creating patterns with loops",
+          "Nested loops for complex patterns",
+          "Using AI to generate loop logic",
+          "Building lists dynamically",
+          "Array-based games"
+        ],
+        "projects": [
+          "Todo list manager",
+          "Student grade calculator",
+          "Pattern generator",
+          "Memory card game logic"
+        ],
+        "practice": "Solve 20 loop and array challenges"
+      },
+      "week_59_60": {
+        "title": "Functions - Reusable Code Blocks",
+        "topics": [
+          "What are functions? Code recipes",
+          "Creating simple functions",
+          "Parameters: Giving functions information",
+          "Return values: Getting answers back",
+          "Function expressions vs declarations",
+          "Arrow functions: Modern syntax",
+          "Scope: Where variables live",
+          "Built-in functions: Math, String methods",
+          "Creating a function library",
+          "Using AI to write functions",
+          "ChatGPT for refactoring code",
+          "Organizing code with functions"
+        ],
+        "projects": [
+          "Utility function library",
+          "Calculator with functions",
+          "Text analyzer tool",
+          "Game with multiple functions"
+        ],
+        "practice": "Create 30 useful functions"
+      },
+      "week_61": {
+        "title": "Objects - Organizing Related Data",
+        "topics": [
+          "Objects: Grouping related information",
+          "Object properties and values",
+          "Accessing object data",
+          "Adding and changing properties",
+          "Objects in arrays",
+          "Arrays in objects",
+          "JSON: Data format for the web",
+          "Creating character objects for games",
+          "Building data structures",
+          "Using AI to design objects",
+          "Working with complex data",
+          "Object-based applications"
+        ],
+        "projects": [
+          "Character creator for games",
+          "Product catalog system",
+          "Student database",
+          "Pet adoption website data"
+        ],
+        "practice": "Build 10 object-based systems"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: DOM & AI-Powered Interactivity",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "DOM Manipulation - Changing Websites with JavaScript",
+        "topics": [
+          "What is the DOM? The website's structure",
+          "Selecting elements: getElementById, querySelector",
+          "Changing text content dynamically",
+          "Changing styles with JavaScript",
+          "Adding and removing CSS classes",
+          "Creating new elements",
+          "Adding elements to the page",
+          "Removing elements",
+          "Show/hide elements",
+          "Using AI to generate DOM code",
+          "ChatGPT for DOM manipulation help",
+          "Building dynamic interfaces"
+        ],
+        "projects": [
+          "Dynamic content generator",
+          "Interactive story with choices",
+          "Color theme switcher",
+          "DOM-based game"
+        ],
+        "practice": "Manipulate DOM in 20 different ways"
+      },
+      "week_64_65": {
+        "title": "Events - Responding to User Actions",
+        "topics": [
+          "Event listeners: Waiting for user actions",
+          "Click events: Buttons and links",
+          "Mouse events: hover, mouseenter, mouseleave",
+          "Keyboard events: Typing and key presses",
+          "Form events: submit, input, change",
+          "Event objects: Getting event details",
+          "Preventing default behaviors",
+          "Creating interactive games",
+          "Touch events for mobile",
+          "Using AI to handle complex events",
+          "Building event-driven apps",
+          "User interaction patterns"
+        ],
+        "projects": [
+          "Interactive drawing app",
+          "Keyboard-controlled game",
+          "Form validation system",
+          "Drag and drop interface"
+        ],
+        "practice": "Create 15 event-driven features"
+      },
+      "week_66_67": {
+        "title": "Local Storage & Data Persistence",
+        "topics": [
+          "What is Local Storage? Saving data locally",
+          "Storing data with localStorage.setItem",
+          "Retrieving data with localStorage.getItem",
+          "Removing data with localStorage.removeItem",
+          "JSON.stringify and JSON.parse",
+          "Creating save game functionality",
+          "Remembering user preferences",
+          "Building offline-capable apps",
+          "Session storage vs local storage",
+          "Using AI to manage storage logic",
+          "Data persistence strategies",
+          "Privacy considerations"
+        ],
+        "projects": [
+          "Note-taking app with save",
+          "Game with save progress",
+          "Settings preferences app",
+          "Shopping cart with storage"
+        ],
+        "practice": "Add storage to 10 projects"
+      },
+      "week_68_69": {
+        "title": "APIs & External Data",
+        "topics": [
+          "What are APIs? Getting data from the internet",
+          "fetch(): Getting data from APIs",
+          "Working with JSON data",
+          "Displaying API data on websites",
+          "Free APIs for kids: Pokemon, weather, jokes",
+          "Handling API errors gracefully",
+          "Loading states and spinners",
+          "Using AI to work with APIs",
+          "ChatGPT for API integration",
+          "Building data-driven apps",
+          "Real-time data updates",
+          "API best practices"
+        ],
+        "projects": [
+          "Pokemon card collection",
+          "Weather dashboard",
+          "Joke generator app",
+          "News reader for kids"
+        ],
+        "practice": "Integrate 10 different APIs"
+      },
+      "week_70": {
+        "title": "Phase 3 Interactive Project",
+        "topics": [
+          "Planning a JavaScript-heavy project",
+          "Combining DOM, events, and storage",
+          "Using AI for complex features",
+          "Creating smooth user experiences",
+          "Testing interactive features",
+          "Debugging with browser tools",
+          "Code organization strategies",
+          "Project documentation"
+        ],
+        "projects": [
+          "CAPSTONE: Full Interactive Web Application",
+          "Options: Game, productivity app, educational tool, social platform",
+          "Requirements: DOM manipulation, events, storage, API, AI-assisted"
+        ],
+        "assessment": "Phase 3 JavaScript Mastery Test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Professional Projects & AI Mastery (Months 10-12, Weeks 40-52)",
+    "description": "Build professional websites using advanced AI tools, learn modern web development practices, and create your portfolio.",
+    "month_19_20": {
+      "title": "Months 10-11: Advanced AI Tools & Modern Development",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Advanced AI Coding Assistants",
+        "topics": [
+          "GitHub Copilot: Your AI pair programmer",
+          "Setting up Copilot in VS Code",
+          "Writing code with Copilot suggestions",
+          "Copilot for HTML/CSS/JavaScript",
+          "Amazon CodeWhisperer basics",
+          "Tabnine AI assistant",
+          "Cursor AI editor introduction",
+          "AI code completion tips",
+          "Writing better prompts for AI",
+          "AI for code refactoring",
+          "Debugging with AI help",
+          "Code review with AI"
+        ],
+        "projects": [
+          "Build complete website with Copilot",
+          "Refactor project with AI",
+          "AI-assisted debugging challenge",
+          "Speed coding with AI race"
+        ],
+        "practice": "Use AI assistants in all coding"
+      },
+      "week_81_82": {
+        "title": "AI Website Builders & No-Code Tools",
+        "topics": [
+          "Introduction to AI website builders",
+          "Webflow basics for visual development",
+          "Framer for interactive designs",
+          "Bubble.io for web applications",
+          "WordPress with AI plugins",
+          "Wix ADI (Artificial Design Intelligence)",
+          "Combining no-code with custom code",
+          "When to use builders vs coding",
+          "AI design suggestions",
+          "Rapid prototyping with AI",
+          "Exporting code from builders",
+          "Customizing AI-generated sites"
+        ],
+        "projects": [
+          "Business website with AI builder",
+          "Portfolio site comparison",
+          "No-code web app",
+          "Hybrid builder-code project"
+        ],
+        "practice": "Create 5 sites with different builders"
+      },
+      "week_83_84": {
+        "title": "Version Control with Git & GitHub",
+        "topics": [
+          "What is version control? Saving your work history",
+          "Git basics: init, add, commit",
+          "Understanding commits and history",
+          "Creating branches for features",
+          "Merging branches safely",
+          "GitHub: Your code in the cloud",
+          "Creating repositories",
+          "Push and pull operations",
+          "GitHub Pages for hosting",
+          "Collaboration basics: forks and pull requests",
+          "Using AI to write commit messages",
+          "GitHub Copilot integration"
+        ],
+        "projects": [
+          "Version control for portfolio",
+          "Collaborative class project",
+          "Open source contribution",
+          "GitHub Pages portfolio site"
+        ],
+        "practice": "Use Git for all projects"
+      },
+      "week_85_86": {
+        "title": "Modern JavaScript Frameworks Introduction",
+        "topics": [
+          "What are frameworks? Making development easier",
+          "React basics: Components and JSX",
+          "Vue.js introduction for beginners",
+          "Creating simple components",
+          "Props: Passing data to components",
+          "State: Managing component data",
+          "Event handling in frameworks",
+          "Using AI to learn frameworks",
+          "ChatGPT for framework questions",
+          "Component-based thinking",
+          "When to use frameworks",
+          "Framework ecosystem overview"
+        ],
+        "projects": [
+          "Simple React todo app",
+          "Vue.js counter game",
+          "Component library",
+          "Framework comparison project"
+        ],
+        "practice": "Build 5 small framework projects"
+      },
+      "week_87": {
+        "title": "Web Accessibility & Best Practices",
+        "topics": [
+          "What is accessibility? Websites for everyone",
+          "Alt text for images",
+          "Semantic HTML importance",
+          "ARIA labels and roles",
+          "Keyboard navigation",
+          "Color contrast checking",
+          "Screen reader testing",
+          "Accessibility tools and extensions",
+          "Using AI for accessibility audit",
+          "Making forms accessible",
+          "Video captions and transcripts",
+          "Mobile accessibility"
+        ],
+        "projects": [
+          "Accessibility audit of old projects",
+          "Fully accessible website",
+          "Screen reader-friendly game",
+          "Accessibility checker tool"
+        ],
+        "practice": "Make all projects accessible"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Final Projects & Portfolio",
+      "weeks": "Week 48-52",
+      "week_88_89": {
+        "title": "Portfolio Development & Personal Branding",
+        "topics": [
+          "Planning your developer portfolio",
+          "Showcasing your best projects",
+          "Writing project descriptions",
+          "Creating case studies",
+          "About me page that stands out",
+          "Skills section design",
+          "Contact form implementation",
+          "Resume/CV page creation",
+          "Using AI for content writing",
+          "SEO basics for portfolios",
+          "Custom domain setup",
+          "Professional email setup"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "Project showcase pages",
+          "Interactive resume",
+          "Personal brand design"
+        ],
+        "practice": "Polish and perfect portfolio"
+      },
+      "week_90_91": {
+        "title": "Real-World Client Projects",
+        "topics": [
+          "Understanding client requirements",
+          "Creating project proposals",
+          "Wireframing and mockups",
+          "Client communication basics",
+          "Project timelines and milestones",
+          "Feedback and revisions",
+          "Testing and quality assurance",
+          "Launching client websites",
+          "Using AI for client work",
+          "Documentation and handover",
+          "Maintenance and updates",
+          "Building client relationships"
+        ],
+        "projects": [
+          "Mock client project",
+          "Family business website",
+          "School club website",
+          "Community project site"
+        ],
+        "practice": "Complete 2 real-world projects"
+      },
+      "week_92_93": {
+        "title": "Advanced Project: Full-Stack Application",
+        "topics": [
+          "Planning a complex application",
+          "Database design basics",
+          "Backend API introduction",
+          "Connecting frontend to backend",
+          "User authentication basics",
+          "Real-time features with WebSockets",
+          "Cloud deployment basics",
+          "Using AI for full-stack development",
+          "Testing your application",
+          "Performance optimization",
+          "Security best practices",
+          "Launch preparation"
+        ],
+        "projects": [
+          "Social platform for kids",
+          "Educational game platform",
+          "Collaborative story writer",
+          "School management tool"
+        ],
+        "practice": "Build complete full-stack app"
+      },
+      "week_94_95": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Website speed importance",
+          "Image optimization techniques",
+          "Lazy loading for performance",
+          "Minifying CSS and JavaScript",
+          "Browser caching basics",
+          "Content Delivery Networks (CDN)",
+          "Google PageSpeed Insights",
+          "Lighthouse performance audits",
+          "Mobile performance optimization",
+          "Using AI for optimization",
+          "Performance monitoring tools",
+          "Continuous improvement"
+        ],
+        "projects": [
+          "Optimize portfolio for speed",
+          "Performance comparison study",
+          "Speed optimization toolkit",
+          "Before/after showcase"
+        ],
+        "practice": "Optimize all major projects"
+      },
+      "week_96": {
+        "title": "Career Preparation & Future Learning",
+        "topics": [
+          "Creating your GitHub profile",
+          "Building online presence",
+          "LinkedIn for young developers",
+          "Contributing to open source",
+          "Participating in hackathons",
+          "Coding competitions for kids",
+          "Internship opportunities",
+          "Freelancing basics for teens",
+          "Continuous learning resources",
+          "Advanced courses to consider",
+          "Tech communities to join",
+          "Setting career goals"
+        ],
+        "projects": [
+          "GitHub profile optimization",
+          "Professional online presence",
+          "Open source contribution",
+          "Hackathon project"
+        ],
+        "practice": "Prepare for next steps"
+      }
+    },
+    "month_23": {
+      "title": "Final Month: Capstone & Graduation",
+      "weeks": "Week 50-52",
+      "week_97": {
+        "title": "Final Capstone Project Planning",
+        "topics": [
+          "Choosing your capstone project",
+          "Project scope and requirements",
+          "Creating detailed wireframes",
+          "Technical architecture planning",
+          "Setting up development environment",
+          "Project timeline creation",
+          "Using AI for project planning",
+          "Gathering resources and assets",
+          "Setting success criteria",
+          "Preparing for challenges"
+        ],
+        "projects": [
+          "Capstone project proposal",
+          "Technical specification document",
+          "Visual mockups and designs",
+          "Development roadmap"
+        ],
+        "practice": "Thorough project planning"
+      },
+      "week_98": {
+        "title": "Final Capstone Development",
+        "topics": [
+          "Agile development process",
+          "Daily development sprints",
+          "Feature implementation",
+          "Regular testing and debugging",
+          "AI-assisted development",
+          "Code reviews and refactoring",
+          "Progress tracking",
+          "Problem-solving strategies",
+          "Seeking help when stuck",
+          "Version control best practices"
+        ],
+        "projects": [
+          "FINAL CAPSTONE PROJECT",
+          "Options: E-learning platform, game portal, social network, business solution",
+          "Requirements: Responsive, interactive, AI-integrated, accessible, optimized"
+        ],
+        "practice": "Intensive development work"
+      },
+      "week_99": {
+        "title": "Testing, Polish & Deployment",
+        "topics": [
+          "Comprehensive testing strategies",
+          "Cross-browser testing",
+          "Mobile device testing",
+          "User testing with friends/family",
+          "Bug fixing and refinement",
+          "Performance optimization",
+          "Security checks",
+          "Final polish and details",
+          "Deployment preparation",
+          "Domain and hosting setup",
+          "Launch checklist",
+          "Documentation completion"
+        ],
+        "projects": [
+          "Complete testing suite",
+          "Bug fix tracker",
+          "Performance report",
+          "Deployment to production"
+        ],
+        "practice": "Professional launch preparation"
+      },
+      "week_100": {
+        "title": "Presentation & Celebration",
+        "topics": [
+          "Creating project presentation",
+          "Demo video recording",
+          "Project documentation",
+          "Success story writing",
+          "Lessons learned reflection",
+          "Peer project reviews",
+          "Showcase event preparation",
+          "Certificate ceremony",
+          "Future plans discussion",
+          "Alumni network joining",
+          "Celebration activities",
+          "Course feedback session"
+        ],
+        "projects": [
+          "Final presentation deck",
+          "Demo video production",
+          "Project case study",
+          "Course portfolio compilation"
+        ],
+        "assessment": "Final project presentation and graduation!"
+      }
+    },
+    "month_24": {
+      "title": "Bonus Content & Extended Learning",
+      "weeks": "Ongoing",
+      "week_101_102": {
+        "title": "Advanced AI Integration",
+        "topics": [
+          "ChatGPT API integration",
+          "Building AI-powered features",
+          "Image generation with AI",
+          "Voice assistants in web apps",
+          "AI chatbots for websites",
+          "Machine learning basics",
+          "TensorFlow.js introduction",
+          "AI ethics for young developers",
+          "Future of AI in web development"
+        ],
+        "projects": [
+          "AI chatbot integration",
+          "AI-powered image gallery",
+          "Voice-controlled website",
+          "ML-powered recommendations"
+        ]
+      },
+      "week_103": {
+        "title": "Mobile App Development Basics",
+        "topics": [
+          "Progressive Web Apps (PWA)",
+          "Making websites installable",
+          "React Native introduction",
+          "Mobile-first development",
+          "Touch gestures and interactions",
+          "Mobile app deployment basics",
+          "App store considerations",
+          "Cross-platform development"
+        ],
+        "projects": [
+          "Convert website to PWA",
+          "Simple React Native app",
+          "Mobile-optimized game",
+          "Installable web app"
+        ]
+      },
+      "week_104": {
+        "title": "Lifetime Learning Resources",
+        "topics": [
+          "Advanced course recommendations",
+          "University programs in CS",
+          "Online learning platforms",
+          "Tech bootcamps for teens",
+          "Scholarship opportunities",
+          "Mentorship programs",
+          "Tech internships for students",
+          "Building a learning routine",
+          "Staying updated with tech",
+          "Career pathways in tech",
+          "Entrepreneurship basics",
+          "Creating your own courses"
+        ],
+        "deliverables": [
+          "Personal learning plan",
+          "Resource library",
+          "Network connections",
+          "Future goals document"
+        ],
+        "assessment": "Course completion certificate and badge!"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Personal website, Photo gallery, Quiz form, Multimedia showcase",
+      "Phase 2: Animated portfolio, Responsive blog, CSS art gallery, Framework projects",
+      "Phase 3: Interactive games, Todo apps, API integrations, Data visualizations",
+      "Phase 4: AI-powered apps, Professional portfolio, Client projects, Full-stack application"
+    ],
+    "total_projects_built": "30+ creative projects from simple to complex",
+    "skills_mastered": [
+      "Frontend: HTML5 mastery, CSS3 animations, Responsive design, JavaScript interactivity",
+      "Design: Color theory, Typography, Layout systems, UI/UX basics, Accessibility",
+      "Programming: Variables, Functions, Objects, Arrays, APIs, Local Storage, DOM manipulation",
+      "AI Tools: ChatGPT, Claude, GitHub Copilot, Midjourney, AI builders, Prompt engineering",
+      "Modern Tools: Git/GitHub, VS Code, Chrome DevTools, npm basics, Framework basics",
+      "Soft Skills: Problem-solving, Creativity, Project planning, Debugging, Documentation"
+    ],
+    "weekly_structure": {
+      "theory_videos": "2-3 hours",
+      "hands_on_coding": "3-4 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "5-10 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly fun coding sessions with instructors",
+      "mentorship": "Dedicated mentor for guidance",
+      "community": "Kid-friendly Discord community",
+      "code_review": "Instructor feedback on projects",
+      "parent_updates": "Regular progress reports for parents",
+      "certificates": "Achievement badges and certificates"
+    },
+    "certification": {
+      "phase_certificates": "Badge after each phase completion",
+      "final_certificate": "Young Web Developer Certificate with AI Specialization",
+      "linkedin_badge": "Shareable achievement badge",
+      "portfolio": "30+ projects to showcase",
+      "skills_validation": "Industry-recognized skills assessment"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic reading and writing skills (Age 8+)",
+    "coding_experience": "None required - complete beginner friendly",
+    "equipment": "Computer/laptop with internet, mouse recommended",
+    "time_commitment": "5-10 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Curiosity and excitement to create"
+  },
+  "who_is_this_for": {
+    "kids_8_12": "Young learners wanting to create their first websites",
+    "teens_13_17": "Teenagers interested in tech careers",
+    "homeschoolers": "Perfect for homeschool technology curriculum",
+    "creative_kids": "Children who love art, design, and creativity",
+    "future_entrepreneurs": "Kids who want to build their own projects",
+    "parent_child": "Parents can learn alongside their children"
+  },
+  "career_paths_after_completion": [
+    "Junior Web Developer (part-time/internships)",
+    "Freelance Website Creator for local businesses",
+    "School Tech Team Member",
+    "YouTube Content Creator (tech tutorials)",
+    "Young Entrepreneur (build own products)",
+    "Computer Science College Preparation",
+    "Hackathon Participant",
+    "Open Source Contributor",
+    "Tech Blog Writer",
+    "AI Tool Specialist"
+  ],
+  "salary_expectations": {
+    "during_course": "₹500-1000/hour for small projects",
+    "after_completion": "₹2000-5000 per website project",
+    "internships": "₹5,000-15,000/month (part-time)",
+    "future_potential": "Strong foundation for ₹10-30 LPA careers",
+    "freelance": "₹10,000-50,000 per project",
+    "international": "Build foundation for $50k-150k careers"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "completion_support": "Extended time if needed",
+    "lifetime_updates": "Access to all future content",
+    "mentorship": "Dedicated youth mentor throughout",
+    "certificate": "Verified certificate of completion",
+    "portfolio": "30+ projects for college applications"
+  }
+}

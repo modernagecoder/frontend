@@ -1,0 +1,1672 @@
+{
+  "meta": {
+    "slug": "problem-solving-and-computational-thinking-for-kids",
+    "title": "Complete Problem-Solving & Computational Thinking Masterclass for Kids",
+    "description": "Transform your child into a master problem solver! This 6-month comprehensive program teaches critical thinking, logical reasoning, and problem-solving through coding, puzzles, robotics, and real-world challenges. Perfect for ages 7-16, using tools like Scratch, Code.org, puzzles, and mind games.",
+    "keywords": [
+      "problem solving for kids",
+      "computational thinking",
+      "critical thinking",
+      "logical reasoning",
+      "kids coding",
+      "puzzle solving",
+      "algorithmic thinking",
+      "STEM education",
+      "mind development",
+      "creative problem solving",
+      "design thinking for kids",
+      "debugging skills",
+      "pattern recognition",
+      "analytical thinking",
+      "cognitive development"
+    ],
+    "category": "Critical Thinking & Problem Solving",
+    "price": {
+      "group": "₹799/month",
+      "personal": "₹1599/month",
+      "lifetime": "₹7,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Complete Beginner to Advanced Problem Solver",
+    "commitment": "5-7 hours/week recommended",
+    "certification": "Certified Young Problem Solver"
+  },
+  "program_overview": {
+    "title": "Complete Problem-Solving & Computational Thinking Masterclass",
+    "tagline": "Build a Problem-Solving Mindset That Lasts a Lifetime!",
+    "description": "This transformative 6-month program doesn't just teach kids to code – it teaches them HOW TO THINK! Through engaging puzzles, coding challenges, real-world problems, and creative projects, students develop critical thinking skills that apply to every area of life.\n\nUsing a blend of coding platforms, logic puzzles, strategy games, and hands-on challenges, kids learn to break down complex problems, recognize patterns, develop algorithms, and create innovative solutions. Perfect for building confidence, improving academic performance, and preparing for future STEM careers.",
+    "what_makes_this_different": [
+      "Focus on thinking skills, not just coding",
+      "Mix of digital and unplugged activities",
+      "Real-world problem-solving applications",
+      "Age-appropriate progression from 7-16",
+      "Gamified learning with rewards and badges",
+      "Parent involvement activities included",
+      "Cross-curricular connections to math, science, and life",
+      "Build resilience and growth mindset"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-2): Logic, Patterns, Basic Algorithms",
+      "phase_2": "Application (Months 3-4): Coding Problems, Debugging, Strategy",
+      "phase_3": "Advanced (Months 5-6): Complex Problems, Projects, Innovation",
+      "phase_4": "Mastery: Real-world challenges and creative solutions"
+    },
+    "career_outcomes": [
+      "Enhanced academic performance",
+      "STEM career preparation",
+      "Programming readiness",
+      "Mathematical thinking",
+      "Scientific reasoning",
+      "Future innovator mindset"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Thinking Foundations (Months 1-2, Weeks 1-8)",
+    "description": "Build core thinking skills through puzzles, patterns, and logical reasoning. Start with unplugged activities and gradually introduce coding concepts.",
+    "month_1_2": {
+      "title": "Months 1-2: Logic and Pattern Recognition",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Problem Solving",
+        "topics": [
+          "What is problem solving?",
+          "The problem-solving process",
+          "Understanding the problem (The 5 W's and How)",
+          "Breaking big problems into small pieces",
+          "Pattern recognition basics",
+          "Sequence and order",
+          "Following instructions precisely",
+          "Logic puzzles introduction",
+          "Sudoku for beginners (4x4)",
+          "Tangram puzzles",
+          "Tower of Hanoi introduction",
+          "Growth mindset: mistakes help us learn"
+        ],
+        "projects": [
+          "Create a puzzle book",
+          "Design a treasure hunt",
+          "Solve 20 logic puzzles",
+          "Build pattern art"
+        ],
+        "practice": "Daily: 15-minute puzzle time, pattern journaling"
+      },
+      "week_3_4": {
+        "title": "Algorithmic Thinking Unplugged",
+        "topics": [
+          "What is an algorithm?",
+          "Recipes as algorithms",
+          "Creating step-by-step instructions",
+          "Flowcharts with shapes and arrows",
+          "Decision trees",
+          "If-then thinking",
+          "Loops in daily life",
+          "Debugging: finding mistakes",
+          "Optimization: finding better ways",
+          "Parallel vs sequential thinking",
+          "Human robot game",
+          "Algorithm art and music"
+        ],
+        "projects": [
+          "Write algorithms for daily tasks",
+          "Create a board game with rules",
+          "Design a flowchart adventure",
+          "Program a 'human robot'"
+        ],
+        "practice": "Create 10 real-life algorithms"
+      },
+      "week_5_6": {
+        "title": "Introduction to Code.org",
+        "topics": [
+          "Code.org Course A basics",
+          "Drag and drop programming",
+          "Sequence of commands",
+          "Loops to repeat actions",
+          "Events and triggers",
+          "Debugging practice",
+          "Angry Birds puzzles",
+          "Maze solving strategies",
+          "Artist drawings with code",
+          "Pattern creation with loops",
+          "Harvester game logic",
+          "Certificate achievements"
+        ],
+        "projects": [
+          "Complete Code.org Course A",
+          "Create digital art with code",
+          "Solve 50 coding puzzles",
+          "Design custom maze challenges"
+        ],
+        "practice": "Daily Code.org challenges"
+      },
+      "week_7_8": {
+        "title": "Mathematical Problem Solving",
+        "topics": [
+          "Number patterns and sequences",
+          "Fibonacci in nature",
+          "Magic squares",
+          "Mathematical puzzles",
+          "Estimation strategies",
+          "Mental math tricks",
+          "Geometric patterns",
+          "Symmetry and reflection",
+          "Fraction puzzles",
+          "Time and scheduling problems",
+          "Money and budgeting challenges",
+          "Data collection and graphs"
+        ],
+        "projects": [
+          "Math puzzle collection",
+          "Create a math game",
+          "Budget planning project",
+          "Data investigation project"
+        ],
+        "practice": "Solve 5 math problems daily"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Applied Problem Solving",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Scratch Problem Solving",
+        "topics": [
+          "Scratch as a problem-solving tool",
+          "Decomposition: breaking down projects",
+          "Variables for storing information",
+          "Conditional logic (if-then-else)",
+          "Loops for efficiency",
+          "Creating functions (My Blocks)",
+          "Debugging with Scratch",
+          "Testing and iteration",
+          "Coordinate system problems",
+          "Random number challenges",
+          "List manipulation",
+          "Algorithm visualization"
+        ],
+        "projects": [
+          "Calculator with Scratch",
+          "Sorting algorithm visualization",
+          "Maze solver program",
+          "Pattern generator"
+        ],
+        "practice": "Daily Scratch challenges"
+      },
+      "week_11_12": {
+        "title": "Game Strategy & Logic",
+        "topics": [
+          "Strategy game thinking",
+          "Chess basics and tactics",
+          "Checkers strategies",
+          "Tic-tac-toe perfect play",
+          "Connect Four winning strategies",
+          "Card game probability",
+          "Board game design",
+          "Winning vs learning mindset",
+          "Analyzing opponent moves",
+          "Planning ahead",
+          "Risk assessment",
+          "Decision making under pressure"
+        ],
+        "projects": [
+          "Design a strategy game",
+          "Chess puzzle solver",
+          "Create game AI",
+          "Tournament organization"
+        ],
+        "practice": "Play and analyze strategy games"
+      },
+      "week_13_14": {
+        "title": "Real-World Problem Solving",
+        "topics": [
+          "Identifying problems around us",
+          "Research and information gathering",
+          "Brainstorming techniques",
+          "Mind mapping",
+          "SCAMPER method for kids",
+          "Design thinking process",
+          "Prototyping solutions",
+          "Testing and feedback",
+          "Iteration and improvement",
+          "Presentation skills",
+          "Team problem solving",
+          "Environmental challenges"
+        ],
+        "projects": [
+          "School problem solution",
+          "Community helper app",
+          "Recycling game design",
+          "Invention prototype"
+        ],
+        "practice": "Identify and solve one problem weekly"
+      },
+      "week_15_16": {
+        "title": "Coding Challenges Platform",
+        "topics": [
+          "Introduction to coding challenges",
+          "Blockly Games complete",
+          "Lightbot puzzle game",
+          "CodeCombat basics",
+          "Algorithm challenges",
+          "Time complexity basics",
+          "Space optimization",
+          "Code efficiency",
+          "Common algorithms",
+          "Sorting visualization",
+          "Search algorithms",
+          "Competition preparation"
+        ],
+        "projects": [
+          "Complete 100 coding challenges",
+          "Algorithm portfolio",
+          "Challenge leaderboard",
+          "Peer challenge creation"
+        ],
+        "practice": "3 coding challenges daily"
+      },
+      "week_17": {
+        "title": "Mid-Program Assessment",
+        "topics": [
+          "Problem-solving portfolio review",
+          "Skills assessment",
+          "Logic test completion",
+          "Project presentations",
+          "Peer review process",
+          "Reflection and goal setting"
+        ],
+        "projects": [
+          "Comprehensive problem-solving project",
+          "Skills demonstration video",
+          "Teaching someone else",
+          "Progress documentation"
+        ],
+        "assessment": "Mid-program certification challenge"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Advanced Problem Solving",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Advanced Algorithms",
+        "topics": [
+          "Recursion concepts for kids",
+          "Divide and conquer strategy",
+          "Greedy algorithms explained",
+          "Dynamic programming basics",
+          "Graph problems introduction",
+          "Shortest path problems",
+          "Optimization challenges",
+          "Scheduling algorithms",
+          "Data structure basics",
+          "Stack and queue concepts",
+          "Tree structures in life",
+          "Algorithm complexity"
+        ],
+        "projects": [
+          "Pathfinding visualizer",
+          "Scheduling optimizer",
+          "Recursive art generator",
+          "Data structure game"
+        ],
+        "practice": "Implement 5 algorithms weekly"
+      },
+      "week_20_21": {
+        "title": "Robotics Problem Solving",
+        "topics": [
+          "Robot logic basics",
+          "Sensor data processing",
+          "Decision making for robots",
+          "Path planning",
+          "Obstacle avoidance",
+          "Line following algorithms",
+          "Maze solving robots",
+          "Virtual robotics with VEXcode",
+          "Robot simulation",
+          "Real-world robot applications",
+          "AI in robotics basics",
+          "Future of robotics"
+        ],
+        "projects": [
+          "Virtual robot programmer",
+          "Maze solving algorithm",
+          "Robot rescue simulation",
+          "Automated system design"
+        ],
+        "practice": "Daily robot challenges"
+      },
+      "week_22_23": {
+        "title": "Data and Logic Problems",
+        "topics": [
+          "Data analysis for kids",
+          "Survey design and analysis",
+          "Spreadsheet problem solving",
+          "Database thinking",
+          "Information organization",
+          "Logical operators (AND, OR, NOT)",
+          "Truth tables",
+          "Venn diagrams",
+          "Set theory basics",
+          "Probability problems",
+          "Statistics fundamentals",
+          "Data visualization"
+        ],
+        "projects": [
+          "School data analysis",
+          "Survey project",
+          "Probability game",
+          "Infographic creation"
+        ],
+        "practice": "Analyze data sets daily"
+      },
+      "week_24_25": {
+        "title": "Creative Problem Solving",
+        "topics": [
+          "Lateral thinking puzzles",
+          "TRIZ for kids",
+          "Biomimicry solutions",
+          "Reverse engineering",
+          "Constraint-based creativity",
+          "Random input technique",
+          "Six thinking hats simplified",
+          "Morphological analysis",
+          "SCAMPER advanced",
+          "Innovation frameworks",
+          "Failure analysis",
+          "Future problem solving"
+        ],
+        "projects": [
+          "Innovation challenge",
+          "Redesign everyday object",
+          "Future city design",
+          "Creative solution showcase"
+        ],
+        "practice": "Daily creative challenges"
+      },
+      "week_26": {
+        "title": "Final Capstone Project",
+        "topics": [
+          "Project selection",
+          "Problem identification",
+          "Research and planning",
+          "Solution development",
+          "Testing and refinement",
+          "Documentation",
+          "Presentation preparation",
+          "Peer review"
+        ],
+        "projects": [
+          "CAPSTONE: Solve a real community problem",
+          "Create solution presentation",
+          "Build working prototype",
+          "Document entire process"
+        ],
+        "assessment": "Final problem-solving certification"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Specialized Problem-Solving Tracks",
+    "description": "Choose specialized areas: Science, Technology, Engineering, Arts, or Mathematics",
+    "month_7_8": {
+      "title": "Science Problem Solving Track",
+      "weeks": "Science Specialization",
+      "week_27_28": {
+        "title": "Scientific Method & Experimentation",
+        "topics": [
+          "Scientific method steps",
+          "Hypothesis formation",
+          "Variable identification",
+          "Experimental design",
+          "Data collection methods",
+          "Observation skills",
+          "Recording results",
+          "Drawing conclusions",
+          "Error analysis",
+          "Reproducibility",
+          "Science fair projects",
+          "Lab safety basics"
+        ],
+        "projects": [
+          "Design 5 experiments",
+          "Science investigation project",
+          "Lab notebook creation",
+          "Experiment video series"
+        ],
+        "practice": "Weekly experiment and analysis"
+      },
+      "week_29_30": {
+        "title": "Environmental Problem Solving",
+        "topics": [
+          "Climate change challenges",
+          "Renewable energy solutions",
+          "Water conservation",
+          "Waste reduction strategies",
+          "Biodiversity protection",
+          "Sustainable living",
+          "Carbon footprint calculation",
+          "Eco-friendly innovations",
+          "Community gardens",
+          "Recycling systems",
+          "Green technology",
+          "Environmental monitoring"
+        ],
+        "projects": [
+          "Eco-solution prototype",
+          "School green initiative",
+          "Environmental app design",
+          "Sustainability campaign"
+        ],
+        "practice": "Daily eco-challenges"
+      },
+      "week_31_32": {
+        "title": "Space and Astronomy Challenges",
+        "topics": [
+          "Space exploration problems",
+          "Rocket science basics",
+          "Orbital mechanics simplified",
+          "Mars colony challenges",
+          "Satellite applications",
+          "Space debris solutions",
+          "Astronomy observations",
+          "Telescope usage",
+          "Star pattern recognition",
+          "Space mission planning",
+          "Astrobiology questions",
+          "Future space technology"
+        ],
+        "projects": [
+          "Mars habitat design",
+          "Rocket simulator",
+          "Star tracking app",
+          "Space mission plan"
+        ],
+        "practice": "Space problem daily"
+      },
+      "week_33_34": {
+        "title": "Biology and Health Solutions",
+        "topics": [
+          "Human body systems",
+          "Disease prevention",
+          "Nutrition optimization",
+          "Exercise science",
+          "Mental health awareness",
+          "Genetics basics",
+          "Ecosystem balance",
+          "Food chain problems",
+          "Adaptation strategies",
+          "Medical technology",
+          "Health app design",
+          "Biotechnology basics"
+        ],
+        "projects": [
+          "Health tracker app",
+          "Nutrition planner",
+          "Exercise game design",
+          "Medical helper tool"
+        ],
+        "practice": "Health challenges daily"
+      },
+      "week_35": {
+        "title": "Chemistry and Materials",
+        "topics": [
+          "Chemical reactions basics",
+          "Kitchen chemistry",
+          "Material properties",
+          "Recycling chemistry",
+          "Green chemistry",
+          "Crystal growing",
+          "pH and indicators",
+          "Polymer science",
+          "Nanotechnology intro",
+          "Material innovation",
+          "Safety procedures",
+          "Future materials"
+        ],
+        "projects": [
+          "Chemistry experiment kit",
+          "Material testing lab",
+          "Eco-friendly product",
+          "Chemistry game design"
+        ],
+        "practice": "Chemistry puzzles daily"
+      }
+    },
+    "month_9_10": {
+      "title": "Technology Problem Solving Track",
+      "weeks": "Tech Innovation",
+      "week_36_37": {
+        "title": "App Development Problem Solving",
+        "topics": [
+          "User problem identification",
+          "App solution design",
+          "User interface logic",
+          "User experience flow",
+          "Feature prioritization",
+          "MIT App Inventor projects",
+          "Thunkable solutions",
+          "Database design basics",
+          "API integration logic",
+          "Testing strategies",
+          "User feedback integration",
+          "App store optimization"
+        ],
+        "projects": [
+          "Problem-solving app",
+          "Educational tool app",
+          "Community helper app",
+          "Game-based solution"
+        ],
+        "practice": "Daily app challenges"
+      },
+      "week_38_39": {
+        "title": "AI and Machine Learning",
+        "topics": [
+          "AI concepts for kids",
+          "Machine learning basics",
+          "Training data concepts",
+          "Pattern recognition AI",
+          "Teachable Machine projects",
+          "Image classification",
+          "Voice recognition",
+          "Natural language basics",
+          "Ethical AI considerations",
+          "AI in daily life",
+          "Future of AI",
+          "AI problem solving"
+        ],
+        "projects": [
+          "AI classifier project",
+          "Chatbot design",
+          "Smart assistant",
+          "AI game creation"
+        ],
+        "practice": "AI experiments daily"
+      },
+      "week_40_41": {
+        "title": "Internet of Things (IoT)",
+        "topics": [
+          "IoT concepts",
+          "Smart home problems",
+          "Sensor applications",
+          "Data collection systems",
+          "Automation logic",
+          "micro:bit projects",
+          "Arduino basics",
+          "Circuit design",
+          "Cloud connectivity",
+          "Security considerations",
+          "Energy efficiency",
+          "Future IoT"
+        ],
+        "projects": [
+          "Smart room design",
+          "Plant watering system",
+          "Weather station",
+          "Security system"
+        ],
+        "practice": "IoT challenges daily"
+      },
+      "week_42_43": {
+        "title": "Cybersecurity Basics",
+        "topics": [
+          "Internet safety",
+          "Password security",
+          "Encryption basics",
+          "Cipher puzzles",
+          "Digital footprints",
+          "Privacy protection",
+          "Phishing awareness",
+          "Secure communication",
+          "Ethical hacking intro",
+          "Bug bounty basics",
+          "Security testing",
+          "Future security"
+        ],
+        "projects": [
+          "Encryption tool",
+          "Security audit game",
+          "Password manager design",
+          "Security awareness campaign"
+        ],
+        "practice": "Security puzzles daily"
+      },
+      "week_44": {
+        "title": "Web Development Logic",
+        "topics": [
+          "Website planning",
+          "Information architecture",
+          "Navigation logic",
+          "Responsive design thinking",
+          "HTML structure basics",
+          "CSS logic patterns",
+          "JavaScript problem solving",
+          "Form validation logic",
+          "API integration",
+          "Database queries",
+          "Performance optimization",
+          "SEO strategies"
+        ],
+        "projects": [
+          "Website wireframe",
+          "Interactive web game",
+          "School website redesign",
+          "Web app prototype"
+        ],
+        "practice": "Web challenges daily"
+      }
+    },
+    "month_11_12": {
+      "title": "Engineering Problem Solving Track",
+      "weeks": "Engineering Design",
+      "week_45_46": {
+        "title": "Mechanical Engineering",
+        "topics": [
+          "Simple machines",
+          "Lever principles",
+          "Pulley systems",
+          "Gear ratios",
+          "Force and motion",
+          "Energy transfer",
+          "Structural design",
+          "Bridge building",
+          "Vehicle design",
+          "Rube Goldberg machines",
+          "CAD basics for kids",
+          "3D printing intro"
+        ],
+        "projects": [
+          "Bridge building contest",
+          "Catapult design",
+          "Marble run creation",
+          "Vehicle prototype"
+        ],
+        "practice": "Engineering challenges daily"
+      },
+      "week_47_48": {
+        "title": "Electrical Engineering",
+        "topics": [
+          "Circuit basics",
+          "Series vs parallel",
+          "Conductors and insulators",
+          "Battery power",
+          "LED projects",
+          "Switch logic",
+          "Motor control",
+          "Solar power basics",
+          "Circuit simulation",
+          "Breadboard projects",
+          "Safety rules",
+          "Future electronics"
+        ],
+        "projects": [
+          "LED art project",
+          "Electronic game",
+          "Solar charger",
+          "Smart light system"
+        ],
+        "practice": "Circuit puzzles daily"
+      },
+      "week_49_50": {
+        "title": "Civil Engineering",
+        "topics": [
+          "City planning basics",
+          "Transportation systems",
+          "Water management",
+          "Building design",
+          "Earthquake resistance",
+          "Environmental impact",
+          "Sustainable construction",
+          "Traffic flow optimization",
+          "Public space design",
+          "Infrastructure planning",
+          "Smart cities",
+          "Future urban design"
+        ],
+        "projects": [
+          "City model design",
+          "Traffic solution",
+          "Park redesign",
+          "Disaster-proof building"
+        ],
+        "practice": "Urban challenges daily"
+      },
+      "week_51": {
+        "title": "Aerospace Engineering",
+        "topics": [
+          "Flight principles",
+          "Aerodynamics basics",
+          "Paper airplane science",
+          "Rocket design",
+          "Drone technology",
+          "Navigation systems",
+          "Weather effects",
+          "Space station design",
+          "Satellite applications",
+          "Future flight",
+          "Mission planning",
+          "Safety systems"
+        ],
+        "projects": [
+          "Glider competition",
+          "Rocket launch",
+          "Drone course design",
+          "Space mission plan"
+        ],
+        "practice": "Flight challenges daily"
+      },
+      "week_52": {
+        "title": "Final Integration Project",
+        "topics": [
+          "Combining all skills",
+          "Complex problem selection",
+          "Interdisciplinary approach",
+          "Team collaboration",
+          "Project management",
+          "Documentation excellence",
+          "Presentation mastery",
+          "Future planning"
+        ],
+        "projects": [
+          "FINAL PROJECT: Multi-disciplinary solution",
+          "Complete documentation",
+          "Video presentation",
+          "Peer teaching session"
+        ],
+        "assessment": "Master Problem Solver Certification"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "ADVANCED TRACKS: Competitive & Specialized",
+    "description": "Competition preparation and specialized problem-solving domains",
+    "month_13_14": {
+      "title": "Competition Preparation",
+      "weeks": "Competitive Excellence",
+      "week_53_54": {
+        "title": "Coding Competitions",
+        "topics": [
+          "Competition formats",
+          "Time management strategies",
+          "Common problem types",
+          "Speed coding techniques",
+          "Testing strategies",
+          "Debugging under pressure",
+          "Code optimization",
+          "Competition platforms",
+          "Team competitions",
+          "Individual contests",
+          "Practice routines",
+          "Mental preparation"
+        ],
+        "projects": [
+          "Competition training plan",
+          "Mock competition",
+          "Problem archive",
+          "Strategy guide"
+        ],
+        "practice": "Daily competition problems"
+      },
+      "week_55_56": {
+        "title": "Math Olympiad Preparation",
+        "topics": [
+          "Number theory basics",
+          "Combinatorics introduction",
+          "Geometry problems",
+          "Algebra challenges",
+          "Proof techniques",
+          "Problem-solving strategies",
+          "Past paper analysis",
+          "Speed techniques",
+          "Checking methods",
+          "Common tricks",
+          "Mental math advanced",
+          "Competition mindset"
+        ],
+        "projects": [
+          "Problem solution book",
+          "Study group formation",
+          "Practice test series",
+          "Strategy documentation"
+        ],
+        "practice": "Olympiad problems daily"
+      },
+      "week_57_58": {
+        "title": "Science Olympiad",
+        "topics": [
+          "Science bowl format",
+          "Quick recall techniques",
+          "Experimental design competition",
+          "Building events",
+          "Testing events",
+          "Knowledge events",
+          "Team coordination",
+          "Resource management",
+          "Time allocation",
+          "Equipment mastery",
+          "Rules interpretation",
+          "Practice strategies"
+        ],
+        "projects": [
+          "Event preparation kit",
+          "Team training schedule",
+          "Resource library",
+          "Competition notebook"
+        ],
+        "practice": "Event practice daily"
+      },
+      "week_59_60": {
+        "title": "Robotics Competitions",
+        "topics": [
+          "FIRST LEGO League basics",
+          "VEX Robotics introduction",
+          "Competition rules",
+          "Robot design process",
+          "Programming strategies",
+          "Alliance strategies",
+          "Pit preparation",
+          "Judging preparation",
+          "Core values",
+          "Innovation project",
+          "Team building",
+          "Gracious professionalism"
+        ],
+        "projects": [
+          "Robot design portfolio",
+          "Competition robot",
+          "Innovation project",
+          "Team presentation"
+        ],
+        "practice": "Robot challenges daily"
+      },
+      "week_61": {
+        "title": "Hackathon Preparation",
+        "topics": [
+          "Hackathon format",
+          "Idea generation speed",
+          "Rapid prototyping",
+          "Team formation",
+          "Technology stack selection",
+          "Time management",
+          "Pitch preparation",
+          "Demo strategies",
+          "Networking skills",
+          "Prize strategies",
+          "Follow-up plans",
+          "Portfolio building"
+        ],
+        "projects": [
+          "Hackathon toolkit",
+          "Practice hackathon",
+          "Pitch deck template",
+          "Demo preparation"
+        ],
+        "practice": "Mini-hackathons weekly"
+      }
+    },
+    "month_15_16": {
+      "title": "Arts & Creative Problem Solving",
+      "weeks": "Creative Innovation",
+      "week_62_63": {
+        "title": "Design Thinking Mastery",
+        "topics": [
+          "Empathy mapping",
+          "User journey mapping",
+          "Persona creation",
+          "Problem framing",
+          "Ideation techniques",
+          "Crazy 8s method",
+          "Storyboarding",
+          "Prototyping methods",
+          "Testing protocols",
+          "Iteration cycles",
+          "Design sprints",
+          "Innovation frameworks"
+        ],
+        "projects": [
+          "Design thinking project",
+          "User research study",
+          "Prototype series",
+          "Innovation portfolio"
+        ],
+        "practice": "Design challenges daily"
+      },
+      "week_64_65": {
+        "title": "Music and Sound Problem Solving",
+        "topics": [
+          "Music theory basics",
+          "Pattern in music",
+          "Rhythm mathematics",
+          "Melody creation",
+          "Harmony basics",
+          "Digital music tools",
+          "Sound wave physics",
+          "Audio editing",
+          "Music coding with Sonic Pi",
+          "Algorithmic composition",
+          "Sound design",
+          "Music therapy applications"
+        ],
+        "projects": [
+          "Musical algorithm",
+          "Sound effects library",
+          "Music app design",
+          "Composition project"
+        ],
+        "practice": "Musical puzzles daily"
+      },
+      "week_66_67": {
+        "title": "Visual Arts and Graphics",
+        "topics": [
+          "Color theory",
+          "Composition rules",
+          "Digital art basics",
+          "Pixel art creation",
+          "Vector graphics",
+          "3D modeling intro",
+          "Animation principles",
+          "Generative art",
+          "Processing sketches",
+          "p5.js creativity",
+          "AR art projects",
+          "NFT art basics"
+        ],
+        "projects": [
+          "Digital art portfolio",
+          "Generative art piece",
+          "Animation project",
+          "Interactive art installation"
+        ],
+        "practice": "Art challenges daily"
+      },
+      "week_68_69": {
+        "title": "Storytelling and Narrative",
+        "topics": [
+          "Story structure",
+          "Character development",
+          "Plot design",
+          "Interactive narratives",
+          "Choose your adventure",
+          "Twine storytelling",
+          "Video storytelling",
+          "Podcast creation",
+          "Comic creation",
+          "Game narratives",
+          "Transmedia storytelling",
+          "Digital publishing"
+        ],
+        "projects": [
+          "Interactive story",
+          "Podcast series",
+          "Comic book",
+          "Story game"
+        ],
+        "practice": "Story challenges daily"
+      },
+      "week_70": {
+        "title": "Performance and Drama",
+        "topics": [
+          "Improvisation skills",
+          "Public speaking",
+          "Presentation design",
+          "Body language",
+          "Voice modulation",
+          "Stage presence",
+          "Video presentation",
+          "Live streaming",
+          "Drama games",
+          "Role-playing solutions",
+          "Theater tech",
+          "Digital performance"
+        ],
+        "projects": [
+          "TED talk preparation",
+          "Drama production",
+          "Video series",
+          "Live show"
+        ],
+        "practice": "Performance daily"
+      }
+    },
+    "month_17_18": {
+      "title": "Mathematics Deep Dive",
+      "weeks": "Mathematical Mastery",
+      "week_71_72": {
+        "title": "Advanced Number Theory",
+        "topics": [
+          "Prime numbers",
+          "Divisibility rules",
+          "Modular arithmetic",
+          "Number patterns",
+          "Sequences and series",
+          "Golden ratio",
+          "Fractals basics",
+          "Infinity concepts",
+          "Number systems",
+          "Cryptography math",
+          "Game theory basics",
+          "Probability advanced"
+        ],
+        "projects": [
+          "Number theory game",
+          "Encryption system",
+          "Fractal generator",
+          "Probability simulator"
+        ],
+        "practice": "Number puzzles daily"
+      },
+      "week_73_74": {
+        "title": "Geometry and Spatial Reasoning",
+        "topics": [
+          "Euclidean geometry",
+          "Coordinate geometry",
+          "Transformations",
+          "3D geometry basics",
+          "Topology introduction",
+          "Tessellations",
+          "Origami mathematics",
+          "Architecture geometry",
+          "Navigation math",
+          "Computer graphics math",
+          "VR/AR mathematics",
+          "Sacred geometry"
+        ],
+        "projects": [
+          "Geometry art project",
+          "3D model creation",
+          "Architecture design",
+          "Navigation app"
+        ],
+        "practice": "Geometry challenges daily"
+      },
+      "week_75_76": {
+        "title": "Statistics and Data Science",
+        "topics": [
+          "Data collection methods",
+          "Statistical measures",
+          "Data visualization",
+          "Correlation vs causation",
+          "Sampling techniques",
+          "Hypothesis testing basics",
+          "Regression basics",
+          "Time series basics",
+          "Big data concepts",
+          "Machine learning math",
+          "Predictive modeling",
+          "Data ethics"
+        ],
+        "projects": [
+          "Data science project",
+          "Statistical study",
+          "Prediction model",
+          "Visualization dashboard"
+        ],
+        "practice": "Data analysis daily"
+      },
+      "week_77": {
+        "title": "Logic and Discrete Math",
+        "topics": [
+          "Boolean algebra",
+          "Logic gates",
+          "Truth tables advanced",
+          "Set theory advanced",
+          "Graph theory basics",
+          "Combinatorics advanced",
+          "Counting principles",
+          "Pigeonhole principle",
+          "Induction basics",
+          "Recursion mathematics",
+          "Algorithm mathematics",
+          "Computational complexity"
+        ],
+        "projects": [
+          "Logic puzzle creator",
+          "Graph algorithm visualizer",
+          "Combinatorics game",
+          "Proof portfolio"
+        ],
+        "practice": "Logic problems daily"
+      },
+      "week_78": {
+        "title": "Graduation & Future Path",
+        "topics": [
+          "Skills assessment",
+          "Portfolio completion",
+          "Certification preparation",
+          "Future learning paths",
+          "Career exploration",
+          "Mentorship connections",
+          "Community building",
+          "Giving back"
+        ],
+        "projects": [
+          "FINAL SHOWCASE: Complete problem-solving portfolio",
+          "Skills demonstration video",
+          "Teaching workshop",
+          "Future plan presentation"
+        ],
+        "assessment": "Master Problem Solver Certification"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "ENRICHMENT: Real-World Applications",
+    "description": "Apply problem-solving skills to real-world challenges and career exploration",
+    "month_19_20": {
+      "title": "Social Problem Solving",
+      "weeks": "Community Impact",
+      "week_79_80": {
+        "title": "Community Service Projects",
+        "topics": [
+          "Community needs assessment",
+          "Volunteer organization",
+          "Fundraising strategies",
+          "Awareness campaigns",
+          "Social media for good",
+          "Event planning",
+          "Partnership building",
+          "Grant writing basics",
+          "Impact measurement",
+          "Sustainability planning",
+          "Scaling solutions",
+          "Legacy planning"
+        ],
+        "projects": [
+          "Community service initiative",
+          "Fundraising campaign",
+          "Awareness program",
+          "Impact report"
+        ],
+        "practice": "Weekly community service"
+      },
+      "week_81_82": {
+        "title": "Global Challenges",
+        "topics": [
+          "UN Sustainable Development Goals",
+          "Climate action",
+          "Poverty solutions",
+          "Education access",
+          "Clean water projects",
+          "Hunger solutions",
+          "Health initiatives",
+          "Gender equality",
+          "Reduced inequalities",
+          "Peace and justice",
+          "Global partnerships",
+          "Youth activism"
+        ],
+        "projects": [
+          "SDG project",
+          "Global solution design",
+          "Youth summit presentation",
+          "Action plan creation"
+        ],
+        "practice": "Global challenge daily"
+      },
+      "week_83_84": {
+        "title": "Entrepreneurship for Kids",
+        "topics": [
+          "Business idea generation",
+          "Market research basics",
+          "Product development",
+          "Pricing strategies",
+          "Marketing basics",
+          "Sales techniques",
+          "Customer service",
+          "Financial planning",
+          "Team building",
+          "Pitch preparation",
+          "Business ethics",
+          "Social entrepreneurship"
+        ],
+        "projects": [
+          "Business plan creation",
+          "Product prototype",
+          "Marketing campaign",
+          "Pitch presentation"
+        ],
+        "practice": "Business challenges daily"
+      },
+      "week_85_86": {
+        "title": "Innovation Lab",
+        "topics": [
+          "Innovation mindset",
+          "Trend spotting",
+          "Future thinking",
+          "Disruptive innovation",
+          "Blue ocean strategy",
+          "Patent basics",
+          "Intellectual property",
+          "R&D processes",
+          "Innovation metrics",
+          "Failure celebration",
+          "Pivot strategies",
+          "Innovation culture"
+        ],
+        "projects": [
+          "Innovation project",
+          "Patent application draft",
+          "Future product design",
+          "Innovation showcase"
+        ],
+        "practice": "Innovation exercises daily"
+      },
+      "week_87": {
+        "title": "Career Exploration",
+        "topics": [
+          "STEM careers overview",
+          "Career research methods",
+          "Skill mapping",
+          "Education pathways",
+          "Internship opportunities",
+          "Mentorship programs",
+          "Professional networking",
+          "Resume basics",
+          "Interview skills",
+          "Personal branding",
+          "Goal setting",
+          "Life planning"
+        ],
+        "projects": [
+          "Career research project",
+          "Skill portfolio",
+          "Mock interview",
+          "5-year plan"
+        ],
+        "practice": "Career exploration daily"
+      }
+    },
+    "month_21_22": {
+      "title": "Teaching & Leadership",
+      "weeks": "Knowledge Sharing",
+      "week_88_89": {
+        "title": "Peer Teaching",
+        "topics": [
+          "Teaching techniques",
+          "Lesson planning",
+          "Material creation",
+          "Explanation strategies",
+          "Visual aids design",
+          "Interactive teaching",
+          "Assessment creation",
+          "Feedback giving",
+          "Patience development",
+          "Adaptation skills",
+          "Online teaching",
+          "Teaching reflection"
+        ],
+        "projects": [
+          "Teach 5 concepts",
+          "Create course module",
+          "Video tutorial series",
+          "Teaching portfolio"
+        ],
+        "practice": "Teach someone daily"
+      },
+      "week_90_91": {
+        "title": "Leadership Development",
+        "topics": [
+          "Leadership styles",
+          "Team dynamics",
+          "Communication skills",
+          "Conflict resolution",
+          "Decision making",
+          "Delegation skills",
+          "Motivation techniques",
+          "Goal setting for teams",
+          "Meeting management",
+          "Project leadership",
+          "Ethical leadership",
+          "Servant leadership"
+        ],
+        "projects": [
+          "Lead team project",
+          "Leadership journal",
+          "Team building event",
+          "Leadership presentation"
+        ],
+        "practice": "Leadership challenges daily"
+      },
+      "week_92_93": {
+        "title": "Content Creation",
+        "topics": [
+          "YouTube channel basics",
+          "Blog writing",
+          "Podcast creation",
+          "Social media content",
+          "Educational videos",
+          "Tutorial creation",
+          "Infographic design",
+          "Course development",
+          "Book writing basics",
+          "Digital publishing",
+          "Monetization basics",
+          "Audience building"
+        ],
+        "projects": [
+          "YouTube channel launch",
+          "Blog series",
+          "Podcast episodes",
+          "Course creation"
+        ],
+        "practice": "Create content daily"
+      },
+      "week_94_95": {
+        "title": "Community Building",
+        "topics": [
+          "Community formation",
+          "Online communities",
+          "Discord server management",
+          "Event organization",
+          "Workshop facilitation",
+          "Club formation",
+          "Mentorship programs",
+          "Peer support groups",
+          "Knowledge sharing platforms",
+          "Collaboration tools",
+          "Community guidelines",
+          "Sustainable communities"
+        ],
+        "projects": [
+          "Start coding club",
+          "Online community",
+          "Workshop series",
+          "Mentorship program"
+        ],
+        "practice": "Community building daily"
+      },
+      "week_96": {
+        "title": "Research Skills",
+        "topics": [
+          "Research methods",
+          "Literature review",
+          "Data gathering",
+          "Analysis techniques",
+          "Report writing",
+          "Citation basics",
+          "Presentation skills",
+          "Poster creation",
+          "Conference participation",
+          "Peer review process",
+          "Publication basics",
+          "Research ethics"
+        ],
+        "projects": [
+          "Research paper",
+          "Conference poster",
+          "Research presentation",
+          "Literature review"
+        ],
+        "practice": "Research skills daily"
+      }
+    },
+    "month_23": {
+      "title": "Advanced Specializations",
+      "weeks": "Expert Tracks",
+      "week_97": {
+        "title": "Quantum Computing Basics",
+        "topics": [
+          "Quantum concepts simplified",
+          "Qubits explanation",
+          "Superposition basics",
+          "Entanglement introduction",
+          "Quantum gates",
+          "Quantum algorithms",
+          "Quantum simulators",
+          "IBM Quantum Experience",
+          "Quantum games",
+          "Future of quantum",
+          "Quantum applications",
+          "Quantum puzzles"
+        ],
+        "projects": [
+          "Quantum circuit design",
+          "Quantum game",
+          "Quantum presentation",
+          "Research project"
+        ],
+        "practice": "Quantum puzzles daily"
+      },
+      "week_98": {
+        "title": "Blockchain for Problem Solving",
+        "topics": [
+          "Blockchain basics",
+          "Distributed systems",
+          "Consensus mechanisms",
+          "Smart contracts intro",
+          "Cryptocurrency basics",
+          "NFT concepts",
+          "DeFi introduction",
+          "Blockchain applications",
+          "Security aspects",
+          "Environmental impact",
+          "Future of blockchain",
+          "Ethical considerations"
+        ],
+        "projects": [
+          "Blockchain solution design",
+          "Smart contract concept",
+          "DApp prototype",
+          "Impact analysis"
+        ],
+        "practice": "Blockchain challenges daily"
+      },
+      "week_99": {
+        "title": "Bioinformatics Basics",
+        "topics": [
+          "DNA and genetics basics",
+          "Protein folding problems",
+          "Sequence alignment",
+          "Phylogenetic trees",
+          "Gene expression",
+          "Bioinformatics tools",
+          "Data analysis in biology",
+          "Personalized medicine",
+          "Agricultural applications",
+          "Conservation genetics",
+          "Synthetic biology basics",
+          "Ethical considerations"
+        ],
+        "projects": [
+          "DNA sequence analysis",
+          "Biology data project",
+          "Genetics presentation",
+          "Research proposal"
+        ],
+        "practice": "Bio puzzles daily"
+      },
+      "week_100": {
+        "title": "Neuroscience and Brain",
+        "topics": [
+          "Brain basics",
+          "Neural networks simplified",
+          "Memory and learning",
+          "Problem-solving brain areas",
+          "Neuroplasticity",
+          "Brain training games",
+          "Cognitive enhancement",
+          "Brain-computer interfaces",
+          "Mental health tech",
+          "Sleep and performance",
+          "Meditation effects",
+          "Future brain tech"
+        ],
+        "projects": [
+          "Brain training app",
+          "Memory enhancement tool",
+          "Cognitive assessment",
+          "Research presentation"
+        ],
+        "practice": "Brain training daily"
+      }
+    },
+    "month_24": {
+      "title": "Mastery & Graduation",
+      "weeks": "Final Excellence",
+      "week_101_102": {
+        "title": "Portfolio Excellence",
+        "topics": [
+          "Portfolio organization",
+          "Project documentation",
+          "Video demonstrations",
+          "Code repositories",
+          "Design portfolios",
+          "Writing samples",
+          "Achievement highlights",
+          "Recommendation gathering",
+          "Online presence",
+          "Personal website",
+          "Professional photos",
+          "Brand development"
+        ],
+        "projects": [
+          "Complete portfolio website",
+          "100+ problems solved showcase",
+          "Video portfolio",
+          "Achievement compilation"
+        ]
+      },
+      "week_103": {
+        "title": "Final Projects Showcase",
+        "topics": [
+          "Project selection",
+          "Advanced problem solving",
+          "Solution implementation",
+          "Testing and validation",
+          "Documentation excellence",
+          "Presentation preparation",
+          "Demo day readiness",
+          "Judge interaction",
+          "Q&A preparation",
+          "Networking strategies",
+          "Media interaction",
+          "Follow-up planning"
+        ],
+        "deliverables": [
+          "3 major projects",
+          "Complete documentation",
+          "Presentation materials",
+          "Demo videos",
+          "Press kit",
+          "Network connections",
+          "Future commitments",
+          "Thank you notes"
+        ]
+      },
+      "week_104": {
+        "title": "Graduation & Beyond",
+        "topics": [
+          "Final assessment",
+          "Certification ceremony",
+          "Alumni induction",
+          "Future pathways",
+          "Continued learning",
+          "Mentorship commitment",
+          "Community contribution",
+          "Goal setting session",
+          "Network activation",
+          "Resource access",
+          "Support systems",
+          "Celebration!"
+        ],
+        "deliverables": [
+          "Problem-Solving Master Certification",
+          "500+ problems solved",
+          "50+ projects completed",
+          "Teaching experience",
+          "Leadership record",
+          "Community impact",
+          "Innovation portfolio",
+          "Lifetime alumni access"
+        ],
+        "assessment": "CERTIFIED MASTER PROBLEM SOLVER - Ready to tackle any challenge!"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1-2: 30+ logic puzzles, 20+ algorithms, 10+ pattern projects",
+      "Month 3-4: 40+ coding challenges, 15+ real-world solutions",
+      "Month 5-6: 25+ advanced projects, 10+ competition entries",
+      "Specialization: 30+ domain-specific projects",
+      "Total: 150+ problem-solving projects"
+    ],
+    "total_projects_built": "150+ projects ranging from puzzles to real-world solutions",
+    "skills_mastered": [
+      "Computational Thinking: Decomposition, pattern recognition, abstraction, algorithms",
+      "Logic & Reasoning: Deductive, inductive, lateral thinking, critical analysis",
+      "Programming: Scratch, Python basics, block coding, algorithm implementation",
+      "Mathematics: Number theory, geometry, statistics, discrete math",
+      "Science: Scientific method, experimentation, data analysis, hypothesis testing",
+      "Engineering: Design process, prototyping, testing, iteration",
+      "Creativity: Innovation, ideation, design thinking, artistic expression",
+      "Communication: Presentation, documentation, teaching, storytelling",
+      "Collaboration: Teamwork, leadership, conflict resolution, project management",
+      "Research: Information gathering, analysis, synthesis, reporting",
+      "Technology: Apps, AI, IoT, robotics, web development basics"
+    ],
+    "weekly_structure": {
+      "theory_lessons": "2-3 hours",
+      "hands_on_practice": "2-3 hours",
+      "projects": "1-2 hours",
+      "challenges_puzzles": "1 hour",
+      "total_per_week": "5-7 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly problem-solving workshops",
+      "mentorship": "Expert mentors and peer support",
+      "community": "Active community of young problem solvers",
+      "feedback": "Regular project reviews and guidance",
+      "resources": "Extensive library of problems and solutions",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificates for each problem-solving domain",
+      "final_certificate": "Certified Young Problem Solver",
+      "linkedin_badge": "Professional certification display",
+      "school_recognition": "Academic credit possibilities",
+      "portfolio_projects": "150+ documented solutions"
+    }
+  },
+  "prerequisites": {
+    "education": "None - suitable for ages 7-16",
+    "coding_experience": "No prior experience needed",
+    "equipment": "Computer/laptop with internet",
+    "time_commitment": "5-7 hours per week",
+    "english": "Basic English comprehension",
+    "motivation": "Curiosity and willingness to learn"
+  },
+  "who_is_this_for": {
+    "students": "Kids and teens wanting to develop critical thinking",
+    "working_professionals": "Parents learning with children",
+    "entrepreneurs": "Young innovators and future leaders",
+    "freelancers": "Future consultants and problem solvers",
+    "kids": "Any child wanting to think better",
+    "anyone": "Anyone wanting to improve problem-solving skills"
+  },
+  "career_paths_after_completion": [
+    "Enhanced Academic Performance",
+    "STEM Career Preparation",
+    "Future Software Developer",
+    "Data Scientist",
+    "Research Scientist",
+    "Engineer (any field)",
+    "Entrepreneur/Innovator",
+    "Consultant",
+    "Teacher/Educator",
+    "Any career requiring critical thinking"
+  ],
+  "salary_expectations": {
+    "immediate": "Improved academic grades and opportunities",
+    "competitions": "Prize money from competitions",
+    "tutoring": "₹200-500/hour teaching other kids",
+    "future_stem": "₹10-50 LPA (with continued education)",
+    "entrepreneurship": "Unlimited potential",
+    "international": "Global opportunities in STEM"
+  },
+  "course_guarantees": {
+    "money_back": "30-day satisfaction guarantee",
+    "improvement": "Guaranteed improvement in problem-solving",
+    "support": "Continuous mentor support",
+    "updates": "Free access to new content",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "150+ documented problem solutions"
+  }
+}

@@ -681,7 +681,7 @@ input[type="search"]::-webkit-search-cancel-button {
 
 .card-thumbnail-container,
 .course-image-container {
-  max-width: 100%;
+  max-width: 100% ;
   overflow: hidden;
 }
 
@@ -689,8 +689,8 @@ input[type="search"]::-webkit-search-cancel-button {
 .course-image-container img {
   width: 100%;
   height: auto;
-  max-height: 200px;
-  object-fit: cover;
+  max-height: 300px;
+  object-fit: contain;
 }
 
 /* Cards responsive */
@@ -1707,4 +1707,3 @@ x empowerment circle for very small screens */
     max-width: 90vw;
     max-height: 90vw;
   }
-}

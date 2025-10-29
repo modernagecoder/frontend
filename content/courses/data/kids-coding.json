@@ -1,0 +1,1658 @@
+{
+  "meta": {
+    "slug": "kids-coding-blocks-masterclass",
+    "title": "Complete Kids Coding Masterclass - Block Programming to Professional Skills",
+    "description": "The most comprehensive 2-year coding program for kids using visual block programming. From zero experience to creating games, apps, AI projects, and professional digital skills. Master Scratch, AI tools, design with Canva, Microsoft Office, video editing, and transition to real programming.",
+    "keywords": [
+      "kids coding",
+      "block programming",
+      "Scratch programming",
+      "visual coding",
+      "game development for kids",
+      "AI for kids",
+      "Canva design",
+      "Microsoft Office skills",
+      "video editing",
+      "Code.org",
+      "Blockly",
+      "MakeCode",
+      "App Inventor",
+      "Roblox Studio",
+      "creative computing"
+    ],
+    "category": "Kids & Youth Programming Education",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "24 months (104 weeks)",
+    "level": "Complete Beginner (Age 7+) to Advanced Creator",
+    "commitment": "5-10 hours/week recommended",
+    "certification": "Digital Creator & Coder Certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Kids Coding Masterclass with Blocks",
+    "tagline": "From First Click to Digital Creator - A Journey of Innovation and Fun",
+    "description": "This revolutionary 2-year program transforms complete beginners into confident digital creators using visual block programming. Perfect for kids (7+), teens, and even adults who want to start coding without typing complex syntax.\n\nStudents will master block-based coding through platforms like Scratch, Code.org, and MakeCode, create games and animations, explore AI tools, design graphics with Canva, edit videos, master Microsoft Office, build mobile apps, and eventually transition to text-based programming. By completion, learners will have created 50+ projects and gained essential 21st-century digital skills.",
+    "what_makes_this_different": [
+      "100% visual learning - no typing required to start",
+      "Age-appropriate content with separate tracks for kids, teens, and adults",
+      "Covers ALL major block coding platforms",
+      "Includes AI tools, design, and productivity software",
+      "Game-based learning approach",
+      "Parent dashboard for progress tracking",
+      "Transition path to professional programming",
+      "Real-world digital skills beyond just coding"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-6): Block Coding Basics, Scratch, Game Logic, Creative Projects",
+      "phase_2": "Advanced Blocks (Months 7-12): Complex Games, AI Tools, App Development, Robotics",
+      "phase_3": "Creative Suite (Months 13-18): Design, Video Editing, Microsoft Skills, Advanced Projects",
+      "phase_4": "Professional Path (Months 19-24): Text Coding Transition, Web Development, Portfolio Building"
+    },
+    "career_outcomes": [
+      "Digital Content Creator (after 6 months)",
+      "Junior Game Developer (after 12 months)",
+      "Creative Technology Specialist (after 18 months)",
+      "Full Stack Digital Creator (after 24 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Block Coding Basics (Months 1-6, Weeks 1-26)",
+    "description": "Start your coding journey with fun, visual programming. Learn computational thinking, create games, animations, and interactive stories using block-based platforms.",
+    "month_1_2": {
+      "title": "Months 1-2: Introduction to Coding & Scratch Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Welcome to the Digital World",
+        "topics": [
+          "What is coding? Why is it important?",
+          "How computers understand instructions",
+          "Introduction to algorithms with real-life examples",
+          "Setting up your coding workspace",
+          "Creating accounts on Scratch, Code.org",
+          "Navigating Scratch interface",
+          "Understanding sprites and stages",
+          "Basic blocks: Motion, Looks, Sound",
+          "Your first animation: Making a cat walk",
+          "Saving and sharing projects",
+          "Online safety and digital citizenship",
+          "Creating your coder profile"
+        ],
+        "projects": [
+          "Animated greeting card",
+          "Pet animation with sounds",
+          "Interactive 'About Me' project"
+        ],
+        "practice": "Daily: 15 min block exploration, 30 min creative time"
+      },
+      "week_3_4": {
+        "title": "Motion and Animation in Scratch",
+        "topics": [
+          "Coordinate system (x, y positions)",
+          "Moving sprites: go to, glide, move steps",
+          "Rotation: turn, point in direction",
+          "Creating smooth animations",
+          "Using costumes for animation",
+          "Backdrop changes and scenes",
+          "Sound effects and music",
+          "Recording custom sounds",
+          "Text-to-speech blocks",
+          "Animation principles: timing, easing",
+          "Creating realistic movements",
+          "Sprite interactions"
+        ],
+        "projects": [
+          "Animated story with 3 scenes",
+          "Dancing party animation",
+          "Virtual pet that moves and makes sounds"
+        ],
+        "practice": "Create 5 different animation sequences"
+      },
+      "week_5_6": {
+        "title": "Events and Interactivity",
+        "topics": [
+          "Event blocks: when flag clicked, when key pressed",
+          "Mouse events: when sprite clicked",
+          "Broadcasting messages between sprites",
+          "Creating interactive buttons",
+          "Keyboard controls for games",
+          "Mouse following mechanics",
+          "Touch controls for tablets",
+          "Creating menus and navigation",
+          "User input with 'ask' blocks",
+          "Storing answers in variables (introduction)",
+          "Creating choose-your-own adventure stories",
+          "Interactive art projects"
+        ],
+        "projects": [
+          "Interactive quiz game",
+          "Virtual piano/musical instrument",
+          "Dress-up game with clickable items"
+        ],
+        "practice": "Build 10 interactive mini-projects"
+      },
+      "week_7_8": {
+        "title": "Introduction to Game Logic",
+        "topics": [
+          "If-then statements (conditionals)",
+          "If-else logic blocks",
+          "Collision detection: touching sprite/color",
+          "Score keeping with variables",
+          "Lives and game over conditions",
+          "Timer and countdown mechanics",
+          "Random numbers for surprises",
+          "Creating power-ups",
+          "Level progression basics",
+          "Win and lose conditions",
+          "Game states: start, playing, game over",
+          "Debugging techniques"
+        ],
+        "projects": [
+          "Catch the falling objects game",
+          "Simple maze game",
+          "Whack-a-mole style game",
+          "Number guessing game"
+        ],
+        "practice": "Create 5 simple games with scoring"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Advanced Scratch & Code.org",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Loops and Patterns",
+        "topics": [
+          "Forever loops for continuous actions",
+          "Repeat loops with counters",
+          "Repeat until conditions",
+          "Nested loops for complex patterns",
+          "Creating geometric patterns",
+          "Drawing with pen blocks",
+          "Stamp tool for patterns",
+          "Color effects and graphics",
+          "Creating fractals and spirals",
+          "Loop optimization",
+          "Breaking out of loops",
+          "Infinite loop prevention"
+        ],
+        "projects": [
+          "Geometric art generator",
+          "Pattern-based puzzle game",
+          "Automated drawing machine",
+          "Kaleidoscope effect"
+        ],
+        "practice": "Create 20 different patterns using loops"
+      },
+      "week_11_12": {
+        "title": "Variables and Data",
+        "topics": [
+          "Creating and naming variables",
+          "Local vs. global variables",
+          "Changing variable values",
+          "Variables for game mechanics",
+          "Lists (arrays) introduction",
+          "Adding/removing from lists",
+          "List operations: length, contains",
+          "High score systems",
+          "Inventory systems for games",
+          "Data persistence with cloud variables",
+          "Mathematical operations with variables",
+          "Creating calculators"
+        ],
+        "projects": [
+          "Advanced calculator with memory",
+          "Shopping game with inventory",
+          "Quiz with score tracking",
+          "RPG with character stats"
+        ],
+        "practice": "Build 10 projects using variables and lists"
+      },
+      "week_13_14": {
+        "title": "Code.org and Hour of Code",
+        "topics": [
+          "Introduction to Code.org platform",
+          "Block-based JavaScript preview",
+          "Minecraft Hour of Code",
+          "Star Wars coding challenges",
+          "Dance Party creation",
+          "App Lab basics",
+          "Creating mobile app interfaces",
+          "Event-driven programming",
+          "Debugging with Code.org",
+          "CS Fundamentals courses",
+          "Problem-solving strategies",
+          "Computational thinking puzzles"
+        ],
+        "projects": [
+          "Complete Minecraft adventurer",
+          "Create dance party choreography",
+          "Build app prototype in App Lab",
+          "Solve 20 Code.org puzzles"
+        ],
+        "practice": "Daily Code.org challenges"
+      },
+      "week_15_16": {
+        "title": "Clone Games and Complex Projects",
+        "topics": [
+          "Analyzing existing games",
+          "Breaking down game mechanics",
+          "Planning complex projects",
+          "Creating Pong clone",
+          "Building Flappy Bird clone",
+          "Snake game mechanics",
+          "Platform game basics",
+          "Scrolling backgrounds",
+          "Multiple levels design",
+          "Save game functionality",
+          "Leaderboards with cloud data",
+          "Multiplayer basics"
+        ],
+        "projects": [
+          "Flappy Bird complete clone",
+          "Platform game with 3 levels",
+          "Two-player competitive game",
+          "Pac-Man style maze game"
+        ],
+        "practice": "Recreate 5 classic games"
+      },
+      "week_17": {
+        "title": "Month 3-4 Review & Showcase",
+        "topics": [
+          "Project presentation skills",
+          "Creating game trailers",
+          "Writing game descriptions",
+          "Peer review and feedback",
+          "Code optimization",
+          "Performance improvements",
+          "Portfolio organization"
+        ],
+        "projects": [
+          "CAPSTONE: Original game with all learned features",
+          "Game includes: menu, levels, scoring, saves",
+          "Presentation video of game"
+        ],
+        "assessment": "Complete Scratch certification test"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: MakeCode & Physical Computing",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Microsoft MakeCode Arcade",
+        "topics": [
+          "Introduction to MakeCode Arcade",
+          "Sprite creation and editing",
+          "Tile maps and level design",
+          "Physics in games",
+          "Projectiles and effects",
+          "Enemy AI basics",
+          "Scoring and lives system",
+          "Sound effects creation",
+          "Custom sprite editor",
+          "Publishing games online",
+          "Sharing with QR codes",
+          "JavaScript preview in MakeCode"
+        ],
+        "projects": [
+          "Adventure game with map",
+          "Shooting game with enemies",
+          "Racing game with obstacles",
+          "RPG with story elements"
+        ],
+        "practice": "Create 10 MakeCode Arcade games"
+      },
+      "week_20_21": {
+        "title": "Micro:bit Programming",
+        "topics": [
+          "What is Micro:bit?",
+          "MakeCode for Micro:bit",
+          "LED display programming",
+          "Button inputs A and B",
+          "Accelerometer and shake detection",
+          "Temperature sensor",
+          "Light sensor projects",
+          "Radio communication between devices",
+          "Creating wearable projects",
+          "Music and sounds on Micro:bit",
+          "Connecting external components",
+          "Battery power and portability"
+        ],
+        "projects": [
+          "Digital dice",
+          "Step counter/fitness tracker",
+          "Two-player rock-paper-scissors",
+          "Temperature alarm system"
+        ],
+        "practice": "Build 15 Micro:bit projects"
+      },
+      "week_22_23": {
+        "title": "Blockly and Google Tools",
+        "topics": [
+          "Introduction to Blockly",
+          "Blockly Games progression",
+          "Maze solving algorithms",
+          "Bird physics game",
+          "Turtle graphics programming",
+          "Movie creation with Blockly",
+          "Music composition blocks",
+          "Pond game strategies",
+          "JavaScript code generation",
+          "Custom Blockly workspaces",
+          "Google CS First platform",
+          "Storytelling with code"
+        ],
+        "projects": [
+          "Complete all Blockly Games",
+          "Turtle art masterpiece",
+          "Animated movie with Blockly",
+          "Music composition project"
+        ],
+        "practice": "Master all Blockly challenges"
+      },
+      "week_24_25": {
+        "title": "Game Design Principles",
+        "topics": [
+          "What makes games fun?",
+          "Game mechanics vs. dynamics",
+          "Level design principles",
+          "Difficulty curves",
+          "Player feedback systems",
+          "Reward mechanisms",
+          "Story in games",
+          "Character development",
+          "Game art basics",
+          "Sound design importance",
+          "Playtesting methods",
+          "Iterative design process"
+        ],
+        "projects": [
+          "Design document for original game",
+          "Level pack for existing game",
+          "Game with adaptive difficulty",
+          "Story-driven adventure game"
+        ],
+        "practice": "Analyze 10 popular games"
+      },
+      "week_26": {
+        "title": "Phase 1 Final Project",
+        "topics": [
+          "Project planning and scope",
+          "Asset creation and management",
+          "Testing and debugging",
+          "Performance optimization",
+          "Cross-platform considerations",
+          "Publishing and sharing"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Multi-platform Game",
+          "Create same game in Scratch, MakeCode, and Blockly",
+          "Include: story mode, endless mode, multiplayer option",
+          "Full documentation and presentation"
+        ],
+        "assessment": "Phase 1 Comprehensive Assessment"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Blocks & Creative Computing (Months 7-12, Weeks 27-52)",
+    "description": "Explore advanced platforms, AI tools, mobile app development, and creative computing with more sophisticated block-based environments.",
+    "month_7_8": {
+      "title": "Months 7-8: MIT App Inventor & Mobile Apps",
+      "weeks": "Week 27-35",
+      "week_27_28": {
+        "title": "App Inventor Basics",
+        "topics": [
+          "Introduction to MIT App Inventor",
+          "Designer vs. Blocks editor",
+          "Screen layouts and components",
+          "Buttons, labels, textboxes",
+          "Images and media components",
+          "Screen navigation",
+          "Properties and styling",
+          "Event handlers in apps",
+          "Variables in App Inventor",
+          "Procedures (functions)",
+          "Testing with companion app",
+          "Building APK files"
+        ],
+        "projects": [
+          "Calculator app",
+          "To-do list app",
+          "Flashcard study app",
+          "Personal diary app"
+        ],
+        "practice": "Build 10 basic mobile apps"
+      },
+      "week_29_30": {
+        "title": "Advanced App Features",
+        "topics": [
+          "Lists and databases in apps",
+          "TinyDB for local storage",
+          "CloudDB for online storage",
+          "Firebase integration basics",
+          "Camera and image picker",
+          "Sound recorder and player",
+          "Text-to-speech and speech recognition",
+          "Canvas for drawing",
+          "Sprite animations in apps",
+          "Location sensor (GPS)",
+          "Accelerometer games",
+          "Sharing functionality"
+        ],
+        "projects": [
+          "Photo editing app",
+          "Voice note recorder",
+          "Drawing app with save",
+          "Location-based reminder"
+        ],
+        "practice": "Add advanced features to previous apps"
+      },
+      "week_31_32": {
+        "title": "Game Development in App Inventor",
+        "topics": [
+          "Game loop concepts",
+          "Sprite collisions in apps",
+          "Score and high score systems",
+          "Timer-based games",
+          "Touch and drag mechanics",
+          "Accelerometer controls",
+          "Sound effects in games",
+          "Multiple screens for games",
+          "Game state management",
+          "Advertising basics (AdMob)",
+          "Publishing to Play Store basics",
+          "App monetization introduction"
+        ],
+        "projects": [
+          "Flappy Bird mobile version",
+          "Tilt-controlled maze game",
+          "Memory card game",
+          "Multiplayer tic-tac-toe"
+        ],
+        "practice": "Create 5 mobile games"
+      },
+      "week_33_34": {
+        "title": "IoT and Connected Apps",
+        "topics": [
+          "Bluetooth connections",
+          "Connecting to Arduino",
+          "Web APIs in App Inventor",
+          "JSON data handling",
+          "Weather API integration",
+          "QR code scanner",
+          "Barcode scanning",
+          "Push notifications basics",
+          "Social media sharing",
+          "Email and SMS from apps",
+          "Maps and navigation",
+          "Augmented reality basics"
+        ],
+        "projects": [
+          "Weather app with API",
+          "QR code treasure hunt",
+          "IoT home controller",
+          "Social sharing app"
+        ],
+        "practice": "Build 5 connected apps"
+      },
+      "week_35": {
+        "title": "Roblox Studio Introduction",
+        "topics": [
+          "What is Roblox Studio?",
+          "Basic building tools",
+          "Parts and properties",
+          "Terrain editor",
+          "Basic scripting preview",
+          "Models and assets",
+          "Lighting and effects",
+          "Sound in Roblox",
+          "Publishing games",
+          "Robux and monetization",
+          "Community guidelines",
+          "Collaborative development"
+        ],
+        "projects": [
+          "Simple obby (obstacle course)",
+          "Basic tycoon game",
+          "Adventure map",
+          "Multiplayer arena"
+        ],
+        "practice": "Create 5 Roblox experiences"
+      }
+    },
+    "month_9_10": {
+      "title": "Months 9-10: AI Tools & Creative Computing",
+      "weeks": "Week 36-44",
+      "week_36_37": {
+        "title": "Introduction to AI for Kids",
+        "topics": [
+          "What is Artificial Intelligence?",
+          "Machine Learning basics for kids",
+          "Training AI models concept",
+          "Scratch + Machine Learning 4 Kids",
+          "Image recognition projects",
+          "Text classification basics",
+          "Sound recognition",
+          "Creating training data",
+          "Testing AI models",
+          "AI ethics for kids",
+          "Bias in AI systems",
+          "Future of AI"
+        ],
+        "projects": [
+          "Rock-paper-scissors AI",
+          "Emotion detector with images",
+          "Chatbot in Scratch",
+          "Voice command game"
+        ],
+        "practice": "Train 10 different AI models"
+      },
+      "week_38_39": {
+        "title": "Teachable Machine & AI Projects",
+        "topics": [
+          "Google Teachable Machine",
+          "Training image models",
+          "Training sound models",
+          "Training pose models",
+          "Exporting models",
+          "Using models in Scratch",
+          "p5.js web editor basics",
+          "AI-powered games",
+          "Computer vision projects",
+          "Gesture control games",
+          "AI music creation",
+          "AI art generation basics"
+        ],
+        "projects": [
+          "Gesture-controlled game",
+          "AI fitness coach",
+          "Sound-activated animations",
+          "AI art generator"
+        ],
+        "practice": "Create 15 AI-enhanced projects"
+      },
+      "week_40_41": {
+        "title": "Canva Design Fundamentals",
+        "topics": [
+          "Introduction to Canva",
+          "Design principles for kids",
+          "Color theory basics",
+          "Typography fundamentals",
+          "Creating social media posts",
+          "Poster and flyer design",
+          "Presentation templates",
+          "Logo design basics",
+          "Infographic creation",
+          "Animation in Canva",
+          "Video editing in Canva",
+          "Brand kit creation"
+        ],
+        "projects": [
+          "Personal brand identity",
+          "School project presentations",
+          "YouTube thumbnail designs",
+          "Event poster series"
+        ],
+        "practice": "Create 20 designs in different formats"
+      },
+      "week_42_43": {
+        "title": "Video Creation & Editing",
+        "topics": [
+          "Introduction to video editing",
+          "Canva Video editor",
+          "OpenShot basics",
+          "Recording screen content",
+          "OBS Studio basics",
+          "Adding titles and text",
+          "Transitions and effects",
+          "Audio editing basics",
+          "Green screen techniques",
+          "Creating YouTube content",
+          "TikTok and Shorts editing",
+          "Video optimization"
+        ],
+        "projects": [
+          "Game trailer video",
+          "Tutorial video creation",
+          "Stop-motion animation",
+          "Vlog-style content"
+        ],
+        "practice": "Edit 10 different video types"
+      },
+      "week_44": {
+        "title": "Digital Storytelling",
+        "topics": [
+          "Story structure basics",
+          "Character development",
+          "Digital comic creation",
+          "Interactive stories with Twine",
+          "Animation storytelling",
+          "Podcast basics for kids",
+          "Sound editing with Audacity",
+          "Creating audiobooks",
+          "Digital portfolio creation",
+          "Blog writing basics",
+          "Content planning",
+          "Online presence building"
+        ],
+        "projects": [
+          "Interactive story in Twine",
+          "Digital comic book",
+          "Podcast episode",
+          "Animation short film"
+        ],
+        "practice": "Create stories in 5 different mediums"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 11-12: Microsoft Skills & Productivity",
+      "weeks": "Week 45-52",
+      "week_45_46": {
+        "title": "Microsoft Word Mastery",
+        "topics": [
+          "Word interface and navigation",
+          "Document formatting basics",
+          "Fonts, colors, and styles",
+          "Paragraph formatting",
+          "Lists and bullets",
+          "Tables and columns",
+          "Images and graphics",
+          "Headers and footers",
+          "Page numbers and breaks",
+          "Spell check and grammar",
+          "Track changes and comments",
+          "Templates and themes"
+        ],
+        "projects": [
+          "School report with formatting",
+          "Newsletter design",
+          "Resume template",
+          "Story book with images"
+        ],
+        "practice": "Create 15 different document types"
+      },
+      "week_47_48": {
+        "title": "Microsoft PowerPoint Excellence",
+        "topics": [
+          "Creating presentations",
+          "Slide layouts and design",
+          "Themes and templates",
+          "Adding multimedia content",
+          "Animations and transitions",
+          "Slide master customization",
+          "Charts and SmartArt",
+          "Presenter view and notes",
+          "Recording presentations",
+          "Sharing and collaboration",
+          "Interactive presentations",
+          "Presentation best practices"
+        ],
+        "projects": [
+          "School project presentation",
+          "Interactive quiz game",
+          "Animated story presentation",
+          "Tutorial slideshow"
+        ],
+        "practice": "Design 10 professional presentations"
+      },
+      "week_49_50": {
+        "title": "Microsoft Excel Basics",
+        "topics": [
+          "Excel interface overview",
+          "Cells, rows, and columns",
+          "Data entry and formatting",
+          "Basic formulas (SUM, AVERAGE)",
+          "Sorting and filtering",
+          "Charts and graphs",
+          "Conditional formatting",
+          "Basic functions",
+          "Data validation",
+          "Printing spreadsheets",
+          "Sharing workbooks",
+          "Excel for homework help"
+        ],
+        "projects": [
+          "Grade tracker spreadsheet",
+          "Budget planner",
+          "Sports statistics tracker",
+          "Science data analysis"
+        ],
+        "practice": "Build 10 useful spreadsheets"
+      },
+      "week_51": {
+        "title": "Microsoft Teams & OneNote",
+        "topics": [
+          "Microsoft Teams for students",
+          "Joining and creating teams",
+          "Chat and video calls",
+          "File sharing and collaboration",
+          "Assignment submissions",
+          "OneNote organization",
+          "Digital notebooks",
+          "Note-taking techniques",
+          "Drawing and handwriting",
+          "Audio and video notes",
+          "Sharing notebooks",
+          "Study tips with OneNote"
+        ],
+        "projects": [
+          "Organized study notebook",
+          "Group project in Teams",
+          "Digital planner in OneNote",
+          "Class notes system"
+        ],
+        "practice": "Organize all learning with OneNote"
+      },
+      "week_52": {
+        "title": "Phase 2 Integration Project",
+        "topics": [
+          "Combining all skills learned",
+          "Project management basics",
+          "Documentation creation",
+          "Presentation preparation",
+          "Video demonstration",
+          "Portfolio website planning"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Educational Game with Documentation",
+          "Create: AI-powered educational game",
+          "Include: Design docs, presentations, videos, marketing materials",
+          "Full Microsoft Office documentation suite"
+        ],
+        "assessment": "Phase 2 Final Assessment - Multi-skill project"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Advanced Platforms & Professional Skills (Months 13-18, Weeks 53-78)",
+    "description": "Master advanced creative tools, 3D design, advanced AI, professional software, and begin transition to text-based coding.",
+    "month_13_14": {
+      "title": "Months 13-14: 3D Design & Virtual Worlds",
+      "weeks": "Week 53-61",
+      "week_53_54": {
+        "title": "Minecraft Education Edition",
+        "topics": [
+          "Minecraft Education setup",
+          "Code Builder introduction",
+          "MakeCode in Minecraft",
+          "Agent programming",
+          "Building automation",
+          "Redstone basics",
+          "Command blocks",
+          "Creating educational worlds",
+          "Chemistry in Minecraft",
+          "History lessons in Minecraft",
+          "Collaborative building",
+          "Classroom management tools"
+        ],
+        "projects": [
+          "Automated farm system",
+          "Historical monument recreation",
+          "Science experiment world",
+          "Adventure map with coding"
+        ],
+        "practice": "Complete 20 coding challenges in Minecraft"
+      },
+      "week_55_56": {
+        "title": "CoSpaces & VR/AR Creation",
+        "topics": [
+          "Introduction to CoSpaces Edu",
+          "3D scene creation",
+          "CoBlocks programming",
+          "Physics in virtual worlds",
+          "Character animation",
+          "Sound and music in 3D",
+          "VR experience design",
+          "AR marker creation",
+          "360° environments",
+          "Interactive museums",
+          "Virtual field trips",
+          "Publishing VR experiences"
+        ],
+        "projects": [
+          "Virtual museum tour",
+          "AR treasure hunt",
+          "VR escape room",
+          "Interactive 3D story"
+        ],
+        "practice": "Create 10 VR/AR experiences"
+      },
+      "week_57_58": {
+        "title": "Tinkercad 3D Design",
+        "topics": [
+          "3D modeling basics",
+          "Tinkercad interface",
+          "Basic shapes and operations",
+          "Grouping and aligning",
+          "Hole creation",
+          "Precise measurements",
+          "3D printing preparation",
+          "Circuit simulation",
+          "Arduino simulation",
+          "Codeblocks in Tinkercad",
+          "Importing and exporting",
+          "Design thinking process"
+        ],
+        "projects": [
+          "3D printed keychain design",
+          "Architectural model",
+          "Arduino circuit simulation",
+          "Mechanical toy design"
+        ],
+        "practice": "Design 20 3D models"
+      },
+      "week_59_60": {
+        "title": "Advanced Roblox Development",
+        "topics": [
+          "Roblox Studio advanced tools",
+          "Lua scripting basics",
+          "Variables and functions in Lua",
+          "Events and triggers",
+          "GUI creation",
+          "Leaderboards and stats",
+          "Game passes and monetization",
+          "Team create features",
+          "Advanced terrain",
+          "Particle effects",
+          "Animation editor",
+          "Publishing and marketing"
+        ],
+        "projects": [
+          "Complex tycoon game",
+          "RPG with quests",
+          "Racing game with upgrades",
+          "Social hangout space"
+        ],
+        "practice": "Publish 5 Roblox games"
+      },
+      "week_61": {
+        "title": "Unity with Visual Scripting",
+        "topics": [
+          "Unity Hub and installation",
+          "Unity interface basics",
+          "GameObject concepts",
+          "Prefabs and components",
+          "Visual scripting with Bolt",
+          "Basic physics in Unity",
+          "2D game development",
+          "Sprite animations",
+          "Simple AI behaviors",
+          "UI design in Unity",
+          "Building for platforms",
+          "Unity Learn resources"
+        ],
+        "projects": [
+          "2D platformer game",
+          "Top-down adventure",
+          "Physics puzzle game",
+          "Mobile game prototype"
+        ],
+        "practice": "Complete Unity Learn tutorials"
+      }
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Advanced AI & Data Science",
+      "weeks": "Week 62-70",
+      "week_62_63": {
+        "title": "Advanced AI Tools",
+        "topics": [
+          "ChatGPT for learning",
+          "Prompt engineering basics",
+          "AI writing assistants",
+          "GitHub Copilot introduction",
+          "DALL-E and image generation",
+          "Midjourney basics",
+          "AI music generation",
+          "AI video tools",
+          "Runway ML basics",
+          "AI in game development",
+          "Ethical AI use",
+          "AI safety and limitations"
+        ],
+        "projects": [
+          "AI-assisted story writing",
+          "AI art gallery",
+          "AI-powered game NPCs",
+          "Educational AI chatbot"
+        ],
+        "practice": "Create 20 AI-enhanced projects"
+      },
+      "week_64_65": {
+        "title": "Data Science for Kids",
+        "topics": [
+          "What is data science?",
+          "Collecting data responsibly",
+          "Google Sheets for data",
+          "Basic statistics concepts",
+          "Creating surveys with Google Forms",
+          "Data visualization basics",
+          "Charts and graphs",
+          "Tableau Public basics",
+          "Infographic creation",
+          "Data storytelling",
+          "Privacy and data ethics",
+          "Real-world data projects"
+        ],
+        "projects": [
+          "School survey analysis",
+          "Weather data tracking",
+          "Sports statistics dashboard",
+          "Environmental data project"
+        ],
+        "practice": "Analyze 10 different datasets"
+      },
+      "week_66_67": {
+        "title": "Internet of Things (IoT)",
+        "topics": [
+          "What is IoT?",
+          "Smart home concepts",
+          "IFTTT (If This Then That)",
+          "Creating automations",
+          "Smart sensors basics",
+          "Blynk IoT platform",
+          "Node-RED visual programming",
+          "Weather stations",
+          "Home automation projects",
+          "IoT security basics",
+          "Future of connected devices",
+          "Environmental monitoring"
+        ],
+        "projects": [
+          "Smart plant watering system",
+          "Weather monitoring station",
+          "Home automation dashboard",
+          "IoT notification system"
+        ],
+        "practice": "Build 10 IoT automations"
+      },
+      "week_68_69": {
+        "title": "Robotics Programming",
+        "topics": [
+          "Introduction to robotics",
+          "VEXcode VR robots",
+          "Virtual robot challenges",
+          "Sensors and actuators",
+          "Line following algorithms",
+          "Maze solving strategies",
+          "LEGO Mindstorms basics",
+          "EV3 programming",
+          "Robot design principles",
+          "Competition preparation",
+          "Team collaboration",
+          "Documentation skills"
+        ],
+        "projects": [
+          "Virtual robot maze solver",
+          "Line following robot",
+          "Object sorting robot",
+          "Dance choreography robot"
+        ],
+        "practice": "Complete 20 robot challenges"
+      },
+      "week_70": {
+        "title": "Advanced Maker Projects",
+        "topics": [
+          "Arduino simulation online",
+          "Basic electronics concepts",
+          "LED projects",
+          "Sensor projects",
+          "Motors and servos",
+          "LCD displays",
+          "Wearable technology",
+          "E-textiles basics",
+          "Paper circuits",
+          "Makey Makey projects",
+          "Combining physical and digital",
+          "Maker portfolio creation"
+        ],
+        "projects": [
+          "Interactive art installation",
+          "Wearable LED project",
+          "Musical instrument with Makey Makey",
+          "Smart device prototype"
+        ],
+        "practice": "Build 10 maker projects"
+      }
+    },
+    "month_17_18": {
+      "title": "Months 17-18: Professional Tools & Career Skills",
+      "weeks": "Week 71-78",
+      "week_71_72": {
+        "title": "Adobe Creative Suite Basics",
+        "topics": [
+          "Adobe Creative Cloud overview",
+          "Photoshop basics for kids",
+          "Photo editing fundamentals",
+          "Creating graphics and logos",
+          "Adobe Spark for web",
+          "Premiere Rush video editing",
+          "Adobe XD for app design",
+          "Creating mockups",
+          "Animation with Adobe Animate",
+          "Portfolio creation in Adobe",
+          "Creative Cloud libraries",
+          "Collaboration features"
+        ],
+        "projects": [
+          "Photo manipulation project",
+          "App design mockup",
+          "Animated logo",
+          "Video advertisement"
+        ],
+        "practice": "Master 5 Adobe applications"
+      },
+      "week_73_74": {
+        "title": "Google Workspace Mastery",
+        "topics": [
+          "Gmail professional use",
+          "Google Drive organization",
+          "Google Docs collaboration",
+          "Google Sheets formulas",
+          "Google Slides advanced",
+          "Google Forms for surveys",
+          "Google Sites for portfolios",
+          "Google Calendar management",
+          "Google Meet etiquette",
+          "Google Classroom usage",
+          "Chrome extensions",
+          "Productivity tips"
+        ],
+        "projects": [
+          "Collaborative research project",
+          "Portfolio website on Google Sites",
+          "Data analysis in Sheets",
+          "Professional email templates"
+        ],
+        "practice": "Create 20 Google Workspace projects"
+      },
+      "week_75_76": {
+        "title": "Digital Marketing Basics",
+        "topics": [
+          "Social media basics",
+          "Content creation strategies",
+          "YouTube channel setup",
+          "Instagram for creators",
+          "TikTok content ideas",
+          "Hashtag strategies",
+          "Analytics basics",
+          "SEO fundamentals",
+          "Email marketing basics",
+          "Creating landing pages",
+          "Digital advertising basics",
+          "Online safety and privacy"
+        ],
+        "projects": [
+          "YouTube channel launch",
+          "Social media campaign",
+          "Email newsletter",
+          "Landing page for project"
+        ],
+        "practice": "Create content for 5 platforms"
+      },
+      "week_77": {
+        "title": "Entrepreneurship for Kids",
+        "topics": [
+          "Business idea generation",
+          "Problem-solving mindset",
+          "Market research basics",
+          "Creating business plans",
+          "Pitching ideas",
+          "Financial literacy basics",
+          "Budgeting for projects",
+          "Team building",
+          "Leadership skills",
+          "Time management",
+          "Goal setting",
+          "Growth mindset"
+        ],
+        "projects": [
+          "Business plan presentation",
+          "Pitch deck creation",
+          "Budget spreadsheet",
+          "Team project management"
+        ],
+        "practice": "Develop 5 business ideas"
+      },
+      "week_78": {
+        "title": "Phase 3 Showcase Project",
+        "topics": [
+          "Project ideation",
+          "Requirements gathering",
+          "Project timeline creation",
+          "Resource planning",
+          "Testing and iteration",
+          "Documentation best practices"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Professional Digital Product",
+          "Options: Educational platform, Game studio, Digital magazine, App suite",
+          "Include: Full documentation, marketing materials, presentation",
+          "Showcase all Phase 3 skills"
+        ],
+        "assessment": "Phase 3 Portfolio Review"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Text Coding Transition & Professional Development (Months 19-24, Weeks 79-104)",
+    "description": "Transition from blocks to text-based programming, web development basics, and professional portfolio creation.",
+    "month_19_20": {
+      "title": "Months 19-20: Python Programming Basics",
+      "weeks": "Week 79-87",
+      "week_79_80": {
+        "title": "Introduction to Python",
+        "topics": [
+          "Why learn text-based coding?",
+          "Python installation and setup",
+          "IDLE and code editors",
+          "Python Turtle graphics",
+          "Variables and data types",
+          "Print statements and input",
+          "Comments and documentation",
+          "Basic math operations",
+          "String manipulation",
+          "Converting blocks to Python",
+          "Debugging Python code",
+          "Python style guide"
+        ],
+        "projects": [
+          "Turtle art generator",
+          "Text-based calculator",
+          "Mad libs game",
+          "ASCII art creator"
+        ],
+        "practice": "Convert 10 Scratch projects to Python"
+      },
+      "week_81_82": {
+        "title": "Python Control Flow",
+        "topics": [
+          "If-elif-else statements",
+          "Comparison operators",
+          "Logical operators",
+          "While loops",
+          "For loops",
+          "Range function",
+          "Break and continue",
+          "Nested loops",
+          "Functions basics",
+          "Parameters and returns",
+          "Scope and variables",
+          "Importing modules"
+        ],
+        "projects": [
+          "Number guessing game",
+          "Rock-paper-scissors",
+          "Password generator",
+          "Quiz application"
+        ],
+        "practice": "Build 20 Python programs"
+      },
+      "week_83_84": {
+        "title": "Python Data Structures",
+        "topics": [
+          "Lists in Python",
+          "List methods and operations",
+          "Tuples and sets",
+          "Dictionaries",
+          "List comprehensions",
+          "2D lists (matrices)",
+          "File handling basics",
+          "Reading and writing files",
+          "CSV files",
+          "JSON data",
+          "Error handling",
+          "Try-except blocks"
+        ],
+        "projects": [
+          "Contact manager",
+          "High score system",
+          "Data analysis program",
+          "File organizer"
+        ],
+        "practice": "Master Python data structures"
+      },
+      "week_85_86": {
+        "title": "Python Game Development",
+        "topics": [
+          "Pygame installation",
+          "Game window creation",
+          "Drawing shapes and images",
+          "Sprite handling",
+          "Keyboard and mouse input",
+          "Game loop in Python",
+          "Collision detection",
+          "Sound in Pygame",
+          "Sprite animations",
+          "Particle effects",
+          "Game states",
+          "Packaging games"
+        ],
+        "projects": [
+          "Snake game",
+          "Space shooter",
+          "Platform game",
+          "Puzzle game"
+        ],
+        "practice": "Create 10 Python games"
+      },
+      "week_87": {
+        "title": "Python for Data and AI",
+        "topics": [
+          "NumPy basics",
+          "Data visualization with matplotlib",
+          "Simple data analysis",
+          "Web scraping basics",
+          "APIs with Python",
+          "Chatbot with Python",
+          "Image processing basics",
+          "Automation scripts",
+          "Scheduling tasks",
+          "GUI with Tkinter",
+          "Creating executables",
+          "Sharing Python projects"
+        ],
+        "projects": [
+          "Data visualization dashboard",
+          "Web scraper tool",
+          "Desktop application",
+          "Automation suite"
+        ],
+        "practice": "Build 10 practical Python tools"
+      }
+    },
+    "month_21_22": {
+      "title": "Months 21-22: Web Development Fundamentals",
+      "weeks": "Week 88-96",
+      "week_88_89": {
+        "title": "HTML & CSS Basics",
+        "topics": [
+          "How websites work",
+          "HTML structure and tags",
+          "Creating web pages",
+          "HTML5 semantic elements",
+          "Links and navigation",
+          "Images and media",
+          "Forms and inputs",
+          "CSS introduction",
+          "Selectors and properties",
+          "Colors and fonts",
+          "Box model",
+          "Flexbox basics"
+        ],
+        "projects": [
+          "Personal website",
+          "Recipe page",
+          "Photo gallery",
+          "Contact form"
+        ],
+        "practice": "Build 15 web pages"
+      },
+      "week_90_91": {
+        "title": "Responsive Web Design",
+        "topics": [
+          "Mobile-first design",
+          "Media queries",
+          "Responsive images",
+          "Grid layout",
+          "CSS animations",
+          "Transitions and transforms",
+          "Custom properties (variables)",
+          "CSS frameworks introduction",
+          "Bootstrap basics",
+          "Accessibility basics",
+          "SEO fundamentals",
+          "Web hosting basics"
+        ],
+        "projects": [
+          "Responsive portfolio",
+          "Landing page",
+          "Blog template",
+          "Business website"
+        ],
+        "practice": "Make 10 responsive websites"
+      },
+      "week_92_93": {
+        "title": "JavaScript for the Web",
+        "topics": [
+          "JavaScript in HTML",
+          "DOM manipulation",
+          "Event handling",
+          "Functions and variables",
+          "Arrays and objects",
+          "Local storage",
+          "Fetch API basics",
+          "JSON handling",
+          "Form validation",
+          "Interactive elements",
+          "Simple animations",
+          "JavaScript libraries intro"
+        ],
+        "projects": [
+          "Interactive quiz",
+          "Todo list app",
+          "Weather widget",
+          "Calculator web app"
+        ],
+        "practice": "Add JavaScript to 15 projects"
+      },
+      "week_94_95": {
+        "title": "Full Stack Basics",
+        "topics": [
+          "Client-server model",
+          "Node.js introduction",
+          "Express.js basics",
+          "Creating APIs",
+          "Database basics",
+          "MongoDB introduction",
+          "Connecting frontend to backend",
+          "User authentication basics",
+          "Deployment basics",
+          "Heroku/Netlify",
+          "Version control with Git",
+          "GitHub for projects"
+        ],
+        "projects": [
+          "Full stack todo app",
+          "User registration system",
+          "Blog with backend",
+          "Chat application"
+        ],
+        "practice": "Build 5 full stack applications"
+      },
+      "week_96": {
+        "title": "Framework Introduction",
+        "topics": [
+          "Why use frameworks?",
+          "React.js basics",
+          "Components and props",
+          "State management intro",
+          "Vue.js introduction",
+          "Angular overview",
+          "Choosing frameworks",
+          "Mobile app frameworks",
+          "React Native basics",
+          "Progressive Web Apps",
+          "Future of web development",
+          "Learning path planning"
+        ],
+        "projects": [
+          "React todo app",
+          "Component library",
+          "Single page application",
+          "Mobile app prototype"
+        ],
+        "practice": "Explore 3 different frameworks"
+      }
+    },
+    "month_23": {
+      "title": "Month 23: Specialization & Advanced Projects",
+      "weeks": "Week 97-100",
+      "week_97": {
+        "title": "Choose Your Specialization",
+        "topics": [
+          "Game development path",
+          "Web development path",
+          "Mobile app development",
+          "AI and data science",
+          "Creative technology",
+          "Robotics and IoT",
+          "Cybersecurity basics",
+          "Cloud computing intro",
+          "DevOps for beginners",
+          "Blockchain basics",
+          "Career exploration",
+          "Industry research"
+        ],
+        "projects": [
+          "Specialization research project",
+          "Technology comparison",
+          "Career path presentation",
+          "Skill assessment"
+        ],
+        "practice": "Explore 5 specialization areas"
+      },
+      "week_98": {
+        "title": "Advanced Project Planning",
+        "topics": [
+          "Project management basics",
+          "Agile methodology intro",
+          "User stories and requirements",
+          "Wireframing and mockups",
+          "Technical documentation",
+          "Testing strategies",
+          "Quality assurance basics",
+          "Code review practices",
+          "Collaboration tools",
+          "Communication skills",
+          "Presentation skills",
+          "Demo preparation"
+        ],
+        "projects": [
+          "Complete project plan",
+          "Technical specification",
+          "Testing documentation",
+          "User manual"
+        ],
+        "practice": "Plan 3 complex projects"
+      },
+      "week_99": {
+        "title": "Open Source Contribution",
+        "topics": [
+          "What is open source?",
+          "Finding projects to contribute",
+          "Reading documentation",
+          "Understanding codebases",
+          "Making first contribution",
+          "Pull requests and issues",
+          "Code of conduct",
+          "Community interaction",
+          "Building reputation",
+          "Creating own open source",
+          "Licensing basics",
+          "Maintaining projects"
+        ],
+        "projects": [
+          "First open source contribution",
+          "Create open source project",
+          "Documentation contribution",
+          "Bug fix submission"
+        ],
+        "practice": "Contribute to 5 projects"
+      },
+      "week_100": {
+        "title": "Professional Skills Development",
+        "topics": [
+          "Resume building for tech",
+          "Portfolio website creation",
+          "LinkedIn profile optimization",
+          "GitHub profile enhancement",
+          "Interview preparation",
+          "Technical interview basics",
+          "Problem-solving strategies",
+          "Communication skills",
+          "Teamwork and collaboration",
+          "Remote work skills",
+          "Continuous learning",
+          "Networking basics"
+        ],
+        "projects": [
+          "Professional portfolio site",
+          "Technical blog posts",
+          "Video resume",
+          "Skill showcase projects"
+        ],
+        "practice": "Complete professional preparation"
+      }
+    },
+    "month_24": {
+      "title": "Month 24: Final Projects & Graduation",
+      "weeks": "Week 101-104",
+      "week_101_102": {
+        "title": "Final Capstone Project - Development",
+        "topics": [
+          "Project selection and approval",
+          "Comprehensive planning",
+          "Architecture design",
+          "Technology stack selection",
+          "Development sprints",
+          "Regular check-ins",
+          "Problem-solving sessions",
+          "Code optimization",
+          "Feature implementation",
+          "Testing and debugging",
+          "Performance tuning",
+          "Security considerations"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Digital Solution",
+          "Options: Educational platform, Social impact app, Game studio project, Business solution, Creative technology showcase",
+          "Requirements: Multiple technologies, full documentation, presentation ready, deployable, scalable"
+        ]
+      },
+      "week_103": {
+        "title": "Final Project Polish & Presentation",
+        "topics": [
+          "Final testing phases",
+          "Bug fixing and optimization",
+          "User interface polish",
+          "Documentation completion",
+          "Deployment preparation",
+          "Presentation creation",
+          "Demo video recording",
+          "Marketing materials",
+          "Social media presence",
+          "Launch planning",
+          "Feedback incorporation",
+          "Final submission preparation"
+        ],
+        "deliverables": [
+          "Complete project codebase",
+          "Live deployment URL",
+          "Technical documentation",
+          "User documentation",
+          "Presentation deck",
+          "Demo video (5-10 minutes)",
+          "Marketing website",
+          "Social media kit"
+        ]
+      },
+      "week_104": {
+        "title": "Graduation & Future Planning",
+        "topics": [
+          "Final project presentations",
+          "Peer review and feedback",
+          "Industry panel discussion",
+          "Career guidance session",
+          "Alumni network introduction",
+          "Continued learning resources",
+          "Advanced course options",
+          "Mentorship programs",
+          "Internship opportunities",
+          "Freelance opportunities",
+          "Startup incubation info",
+          "Celebration and recognition"
+        ],
+        "deliverables": [
+          "Final portfolio website",
+          "Complete GitHub profile",
+          "Professional resume",
+          "LinkedIn profile",
+          "Certification of completion",
+          "Letter of recommendation eligibility",
+          "Alumni directory listing",
+          "Future learning roadmap"
+        ],
+        "assessment": "FINAL COMPREHENSIVE ASSESSMENT - Complete evaluation of all skills"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 25+ games in Scratch, MakeCode projects, Micro:bit inventions, Blockly challenges",
+      "Phase 2: 20+ mobile apps, AI projects, Canva designs, Microsoft Office suite, video projects",
+      "Phase 3: VR/AR experiences, 3D models, Roblox games, advanced AI, IoT projects, robotics",
+      "Phase 4: Python programs, web applications, full stack projects, specialization projects",
+      "Final: Professional-grade capstone project using multiple technologies"
+    ],
+    "total_projects_built": "100+ projects from simple animations to complex applications",
+    "skills_mastered": [
+      "Block Programming: Scratch, Code.org, MakeCode, Blockly, App Inventor",
+      "Game Development: Roblox Studio, Unity (visual scripting), Minecraft Education",
+      "AI & ML: Machine Learning for Kids, Teachable Machine, AI tools integration",
+      "Design: Canva, Adobe basics, 3D modeling with Tinkercad, UI/UX basics",
+      "Microsoft Suite: Word, PowerPoint, Excel, Teams, OneNote mastery",
+      "Video & Media: Video editing, audio production, content creation, streaming",
+      "Programming: Python, HTML/CSS/JavaScript basics, database fundamentals",
+      "Professional: Project management, collaboration, presentation, documentation",
+      "21st Century: Problem-solving, computational thinking, creativity, digital literacy"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_coding": "3-5 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "5-10 hours (flexible)"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly interactive coding sessions",
+      "mentorship": "Age-appropriate mentor guidance",
+      "community": "Safe, moderated community platform",
+      "code_review": "Project feedback and suggestions",
+      "parent_dashboard": "Progress tracking for parents",
+      "career_support": "Age-appropriate career exploration"
+    },
+    "certification": {
+      "phase_certificates": "Digital badges for each phase",
+      "final_certificate": "Certified Digital Creator & Programmer",
+      "linkedin_badge": "Shareable LinkedIn certification",
+      "industry_recognized": "Recognized by educational institutions",
+      "portfolio_projects": "100+ projects for showcase"
+    }
+  },
+  "prerequisites": {
+    "education": "Basic reading and writing skills (Grade 2+)",
+    "coding_experience": "None required - complete beginner friendly",
+    "equipment": "Computer/laptop/tablet with internet",
+    "time_commitment": "5-10 hours per week (flexible)",
+    "english": "Basic English understanding",
+    "motivation": "Curiosity and willingness to learn"
+  },
+  "who_is_this_for": {
+    "kids": "Ages 7-12 wanting to learn coding through play",
+    "teens": "Ages 13-17 building tech skills for future",
+    "adults": "Beginners wanting visual introduction to coding",
+    "educators": "Teachers wanting to learn coding education",
+    "parents": "Parents wanting to learn alongside children",
+    "everyone": "Anyone interested in creative technology"
+  },
+  "career_paths_after_completion": [
+    "Junior Game Developer",
+    "App Developer",
+    "Web Developer",
+    "Digital Content Creator",
+    "UI/UX Designer",
+    "AI/ML Specialist",
+    "Robotics Programmer",
+    "Tech Educator/Instructor",
+    "Freelance Developer",
+    "Tech Entrepreneur"
+  ],
+  "salary_expectations": {
+    "after_6_months": "Build freelance projects, tutoring opportunities",
+    "after_12_months": "₹2-4 LPA (Junior roles/internships)",
+    "after_18_months": "₹4-8 LPA (Entry-level developer)",
+    "after_24_months": "₹6-12 LPA (Developer roles)",
+    "freelance": "₹200-1000/hour based on projects",
+    "international": "$20-60k USD entry-level opportunities"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Career exploration and guidance",
+    "lifetime_updates": "Access to all future content",
+    "mentorship": "Dedicated age-appropriate mentorship",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "100+ projects portfolio by completion"
+  }
+}
