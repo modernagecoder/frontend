@@ -1,0 +1,1206 @@
+{
+  "meta": {
+    "slug": "scratch-programming-complete-course",
+    "title": "Scratch Programming Mastery - Complete 3-Month Course for Kids",
+    "description": "The most comprehensive 3-month Scratch programming course for kids. From zero experience to creating complex games, animations, and interactive stories. Master computational thinking, game design, and creative coding with 50+ projects using MIT Scratch.",
+    "keywords": [
+      "Scratch programming",
+      "kids coding",
+      "block programming",
+      "game development for kids",
+      "MIT Scratch",
+      "visual programming",
+      "computational thinking",
+      "creative coding",
+      "animation for kids",
+      "interactive stories",
+      "game design",
+      "STEM education",
+      "coding for beginners",
+      "Scratch 3.0",
+      "educational games"
+    ],
+    "category": "Visual Programming & Game Development",
+    "price": {
+      "group": "₹599/month",
+      "personal": "₹999/month",
+      "lifetime": "₹2,999 (one-time)"
+    },
+    "duration": "3 months (12 weeks)",
+    "level": "Complete Beginner to Advanced Scratch Developer",
+    "commitment": "5-7 hours/week recommended",
+    "certification": "Certified Scratch Game Developer"
+  },
+  "program_overview": {
+    "title": "Scratch Programming Mastery for Kids",
+    "tagline": "From First Block to Game Developer - Master Creative Coding",
+    "description": "This intensive 3-month program transforms complete beginners into confident Scratch programmers capable of creating sophisticated games, animations, and interactive applications. Perfect for kids aged 7-16, teens, and even adults new to programming.\n\nStudents will master every aspect of Scratch 3.0, from basic sprite movement to complex game mechanics, data structures, and multiplayer features. Through 50+ hands-on projects, learners develop computational thinking, problem-solving skills, and unleash their creativity while building an impressive portfolio.",
+    "what_makes_this_different": [
+      "Complete coverage of every Scratch feature",
+      "50+ progressively challenging projects",
+      "Game design principles included",
+      "Art and sound creation techniques",
+      "Mathematical concepts through coding",
+      "Story-telling and animation skills",
+      "Community sharing and collaboration",
+      "Preparation for text-based programming"
+    ],
+    "learning_path": {
+      "month_1": "Foundations: Sprites, Motion, Events, and Basic Games",
+      "month_2": "Advanced Techniques: Variables, Lists, Clones, and Complex Logic",
+      "month_3": "Mastery: Advanced Games, Extensions, and Creative Projects"
+    },
+    "career_outcomes": [
+      "Junior Game Developer",
+      "Creative Coder",
+      "Animation Creator",
+      "Interactive Media Designer",
+      "Ready for Python/JavaScript transition"
+    ]
+  },
+  "month_1": {
+    "title": "Month 1: Scratch Foundations & Basic Game Development",
+    "description": "Master Scratch basics, create animations, and build your first games.",
+    "week_1": {
+      "title": "Introduction to Scratch & Basic Motion",
+      "topics": [
+        "What is programming? Why learn to code?",
+        "Introduction to MIT Scratch platform",
+        "Creating your Scratch account",
+        "Scratch interface tour: Stage, Sprites, Blocks",
+        "Understanding coordinates (x, y) system",
+        "Sprite selection and management",
+        "Basic motion blocks: move, turn, go to",
+        "Using the green flag and stop button",
+        "Saving and naming projects",
+        "Sprite costumes and switching",
+        "Stage backdrops basics",
+        "First animation: making sprites move"
+      ],
+      "blocks_covered": {
+        "motion": [
+          "move () steps",
+          "turn ↻ () degrees",
+          "turn ↺ () degrees",
+          "go to x: () y: ()",
+          "go to (random position)",
+          "glide () secs to x: () y: ()",
+          "point in direction ()",
+          "point towards ()"
+        ],
+        "looks": [
+          "say () for () seconds",
+          "say ()",
+          "think () for () seconds",
+          "switch costume to ()",
+          "next costume",
+          "switch backdrop to ()"
+        ],
+        "events": [
+          "when green flag clicked",
+          "when this sprite clicked",
+          "when space key pressed"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Hello World Animation",
+          "description": "Sprite introduces itself and moves around",
+          "skills": "Basic motion, say blocks, timing"
+        },
+        {
+          "name": "Aquarium Scene",
+          "description": "Fish swimming with glide blocks",
+          "skills": "Glide motion, multiple sprites, backdrop"
+        },
+        {
+          "name": "Dance Party",
+          "description": "Characters dancing with costume changes",
+          "skills": "Costume switching, rhythm, coordination"
+        },
+        {
+          "name": "Maze Navigator",
+          "description": "Move sprite through simple maze with arrow keys",
+          "skills": "Keyboard control, precise movement"
+        }
+      ],
+      "exercises": [
+        "Make sprite draw a square path",
+        "Create smooth circular motion",
+        "Animate sprite walking cycle",
+        "Build interactive greeting card",
+        "Design movement patterns"
+      ],
+      "challenges": {
+        "daily": "Create one unique animation daily",
+        "weekly": "Combine all learned blocks in one project"
+      }
+    },
+    "week_2": {
+      "title": "Looks, Sound, and Interactivity",
+      "topics": [
+        "Advanced looks blocks and effects",
+        "Graphic effects: color, fisheye, whirl, pixelate",
+        "Size changes and animations",
+        "Show and hide sprites strategically",
+        "Layer ordering with go to front/back",
+        "Adding sounds from library",
+        "Recording custom sounds",
+        "Sound effects and volume control",
+        "Playing notes and creating melodies",
+        "Tempo and beat in projects",
+        "Mouse interaction and following",
+        "Creating buttons and click events"
+      ],
+      "blocks_covered": {
+        "looks": [
+          "show",
+          "hide",
+          "change size by ()",
+          "set size to () %",
+          "change () effect by ()",
+          "set () effect to ()",
+          "clear graphic effects",
+          "go to (front/back) layer",
+          "go (forward/backward) () layers"
+        ],
+        "sound": [
+          "play sound () until done",
+          "start sound ()",
+          "stop all sounds",
+          "change volume by ()",
+          "set volume to () %",
+          "play note () for () beats",
+          "set tempo to ()",
+          "change tempo by ()"
+        ],
+        "sensing": [
+          "touching ()?",
+          "touching color ()?",
+          "color () is touching ()?",
+          "ask () and wait",
+          "answer",
+          "mouse x",
+          "mouse y"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Interactive Music Maker",
+          "description": "Piano with visual effects",
+          "skills": "Sound blocks, mouse interaction, effects"
+        },
+        {
+          "name": "Animated Story Book",
+          "description": "Story with sound effects and narration",
+          "skills": "Timing, sound synchronization, scene changes"
+        },
+        {
+          "name": "Dress Up Game",
+          "description": "Click to change character outfits",
+          "skills": "Mouse clicks, costume logic, layering"
+        },
+        {
+          "name": "Magic Show",
+          "description": "Sprites appear/disappear with effects",
+          "skills": "Show/hide, graphic effects, timing"
+        }
+      ],
+      "creative_tasks": [
+        "Design custom sprite with multiple costumes",
+        "Create sound effect library",
+        "Build interactive art piece",
+        "Make rhythm-based game",
+        "Develop visual effects showcase"
+      ]
+    },
+    "week_3": {
+      "title": "Control Flow and Basic Logic",
+      "topics": [
+        "Understanding forever loops",
+        "Repeat loops with specific counts",
+        "If-then conditional statements",
+        "If-then-else decision making",
+        "Wait blocks and timing control",
+        "Repeat until conditions",
+        "Stop commands for sprites and scripts",
+        "Combining multiple conditions",
+        "Nested loops understanding",
+        "Creating smooth animations with loops",
+        "Basic collision detection",
+        "Game over and winning conditions"
+      ],
+      "blocks_covered": {
+        "control": [
+          "wait () seconds",
+          "repeat ()",
+          "forever",
+          "if () then",
+          "if () then else",
+          "wait until ()",
+          "repeat until ()",
+          "stop (all/this script/other scripts)",
+          "when I start as a clone",
+          "create clone of ()"
+        ],
+        "operators": [
+          "() + ()",
+          "() - ()",
+          "() * ()",
+          "() / ()",
+          "() < ()",
+          "() = ()",
+          "() > ()",
+          "() and ()",
+          "() or ()",
+          "not ()"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Catch the Falling Stars",
+          "description": "Catch objects with increasing speed",
+          "skills": "Forever loops, collision detection, scoring"
+        },
+        {
+          "name": "Traffic Light Simulator",
+          "description": "Automated traffic control system",
+          "skills": "Repeat loops, timing, state management"
+        },
+        {
+          "name": "Platform Jumper",
+          "description": "Basic platformer with gravity",
+          "skills": "Conditional logic, physics simulation"
+        },
+        {
+          "name": "Quiz Game",
+          "description": "Multiple choice questions with scoring",
+          "skills": "If-then-else, user input, logic flow"
+        }
+      ],
+      "logic_exercises": [
+        "Create password checker",
+        "Build number guessing game",
+        "Design pattern generator",
+        "Make decision tree story",
+        "Develop maze solver"
+      ]
+    },
+    "week_4": {
+      "title": "Pen Extension and Creative Drawing",
+      "topics": [
+        "Adding the Pen extension",
+        "Pen down and pen up commands",
+        "Drawing lines and shapes",
+        "Changing pen color and shade",
+        "Pen size adjustments",
+        "Creating geometric patterns",
+        "Stamps and creating trails",
+        "Drawing with mouse control",
+        "Mathematical art and fractals",
+        "Spirograph patterns",
+        "Clearing and managing drawings",
+        "Creating drawing applications"
+      ],
+      "blocks_covered": {
+        "pen": [
+          "erase all",
+          "stamp",
+          "pen down",
+          "pen up",
+          "set pen color to ()",
+          "change pen color by ()",
+          "set pen size to ()",
+          "change pen size by ()",
+          "set pen shade to ()",
+          "change pen shade by ()"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Etch-a-Sketch",
+          "description": "Drawing app with keyboard control",
+          "skills": "Pen control, user input, clearing"
+        },
+        {
+          "name": "Geometric Art Generator",
+          "description": "Create mathematical patterns",
+          "skills": "Loops with pen, angles, repetition"
+        },
+        {
+          "name": "Rainbow Spiral Maker",
+          "description": "Colorful spiral patterns",
+          "skills": "Color changes, mathematical spirals"
+        },
+        {
+          "name": "Signature Pad",
+          "description": "Mouse-controlled drawing",
+          "skills": "Mouse tracking, pen following"
+        }
+      ],
+      "art_challenges": [
+        "Draw perfect polygons",
+        "Create kaleidoscope effect",
+        "Build fractal tree",
+        "Design mandala patterns",
+        "Make animated drawing"
+      ],
+      "monthly_milestone": {
+        "project": "Complete Arcade Game",
+        "requirements": [
+          "Menu screen",
+          "Game play with lives",
+          "Score system",
+          "Game over screen",
+          "Sound effects",
+          "Increasing difficulty"
+        ]
+      }
+    }
+  },
+  "month_2": {
+    "title": "Month 2: Advanced Scratch Techniques",
+    "description": "Master variables, lists, clones, and build complex games.",
+    "week_5": {
+      "title": "Variables and Score Systems",
+      "topics": [
+        "What are variables? Real-world examples",
+        "Creating variables for all sprites vs. this sprite only",
+        "Setting and changing variable values",
+        "Displaying variables on stage",
+        "Creating score systems",
+        "Lives and health systems",
+        "Timers and countdowns",
+        "High score tracking",
+        "Currency systems for games",
+        "Variable-based animations",
+        "Random number generation",
+        "Mathematical operations with variables"
+      ],
+      "blocks_covered": {
+        "variables": [
+          "set () to ()",
+          "change () by ()",
+          "show variable ()",
+          "hide variable ()"
+        ],
+        "operators_advanced": [
+          "pick random () to ()",
+          "round ()",
+          "() mod ()",
+          "abs of ()",
+          "sqrt of ()",
+          "sin/cos/tan of ()"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Cookie Clicker Game",
+          "description": "Incremental game with upgrades",
+          "skills": "Variables, click counting, cost systems"
+        },
+        {
+          "name": "Racing Game with Laps",
+          "description": "Track laps and best times",
+          "skills": "Timer variables, lap counting, records"
+        },
+        {
+          "name": "RPG Character Stats",
+          "description": "Health, mana, experience system",
+          "skills": "Multiple variables, stat management"
+        },
+        {
+          "name": "Math Challenge Game",
+          "description": "Timed math problems with scoring",
+          "skills": "Random numbers, calculations, timing"
+        }
+      ],
+      "variable_exercises": [
+        "Create shop system with money",
+        "Build combo counter",
+        "Design achievement system",
+        "Make progress bars",
+        "Develop difficulty selector"
+      ]
+    },
+    "week_6": {
+      "title": "Lists and Data Management",
+      "topics": [
+        "Understanding lists (arrays)",
+        "Creating and naming lists",
+        "Adding items to lists",
+        "Deleting items from lists",
+        "Inserting at specific positions",
+        "Replacing list items",
+        "Finding items in lists",
+        "List length and iteration",
+        "Using lists for inventories",
+        "Leaderboards and high scores",
+        "Question banks for quizzes",
+        "Shopping lists and collections"
+      ],
+      "blocks_covered": {
+        "lists": [
+          "add () to (list)",
+          "delete () of (list)",
+          "delete all of (list)",
+          "insert () at () of (list)",
+          "replace item () of (list) with ()",
+          "item () of (list)",
+          "item # of () in (list)",
+          "length of (list)",
+          "() contains ()?",
+          "show list ()",
+          "hide list ()"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Memory Card Game",
+          "description": "Match pairs using lists",
+          "skills": "List shuffling, pair matching, memory"
+        },
+        {
+          "name": "Word Guessing Game",
+          "description": "Hangman-style with word lists",
+          "skills": "String manipulation, list iteration"
+        },
+        {
+          "name": "Inventory System RPG",
+          "description": "Collect and manage items",
+          "skills": "Dynamic lists, item management"
+        },
+        {
+          "name": "Quiz Bowl Game",
+          "description": "Questions from lists",
+          "skills": "Random selection, list traversal"
+        }
+      ],
+      "data_challenges": [
+        "Create save game system",
+        "Build shopping cart",
+        "Design playlist manager",
+        "Make tournament bracket",
+        "Develop dialogue system"
+      ]
+    },
+    "week_7": {
+      "title": "Clones and Advanced Game Mechanics",
+      "topics": [
+        "Understanding clones concept",
+        "Creating clones of sprites",
+        "When I start as a clone",
+        "Clone-specific behaviors",
+        "Deleting clones properly",
+        "Managing multiple clones",
+        "Bullet systems in games",
+        "Enemy spawning mechanics",
+        "Particle effects with clones",
+        "Power-ups and collectibles",
+        "Clone collision detection",
+        "Performance optimization"
+      ],
+      "blocks_covered": {
+        "control_advanced": [
+          "create clone of (myself/sprite)",
+          "when I start as a clone",
+          "delete this clone"
+        ],
+        "sensing_advanced": [
+          "distance to ()",
+          "timer",
+          "reset timer",
+          "current (date/time)",
+          "days since 2000",
+          "username"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Space Shooter",
+          "description": "Shoot bullets at enemy clones",
+          "skills": "Clone bullets, enemy waves, collision"
+        },
+        {
+          "name": "Tower Defense Game",
+          "description": "Defend against clone enemies",
+          "skills": "Path following, tower placement, waves"
+        },
+        {
+          "name": "Fireworks Simulator",
+          "description": "Particle effects with clones",
+          "skills": "Visual effects, physics, timing"
+        },
+        {
+          "name": "Asteroid Field",
+          "description": "Navigate through clone obstacles",
+          "skills": "Random spawning, difficulty scaling"
+        }
+      ],
+      "clone_mastery": [
+        "Create bullet hell patterns",
+        "Build fish school simulation",
+        "Design virus spread model",
+        "Make chain reaction game",
+        "Develop swarm behavior"
+      ]
+    },
+    "week_8": {
+      "title": "Broadcast Messages and Multi-Sprite Coordination",
+      "topics": [
+        "Understanding broadcast messages",
+        "When I receive message",
+        "Broadcast and wait",
+        "Scene management with broadcasts",
+        "Menu systems and navigation",
+        "Coordinating multiple sprites",
+        "Turn-based game mechanics",
+        "Cutscenes and dialogues",
+        "Game state management",
+        "Pause and resume functionality",
+        "Level transitions",
+        "Achievement notifications"
+      ],
+      "blocks_covered": {
+        "events_advanced": [
+          "broadcast ()",
+          "broadcast () and wait",
+          "when I receive ()",
+          "when backdrop switches to ()",
+          "when () > ()",
+          "when timer > ()"
+        ]
+      },
+      "projects": [
+        {
+          "name": "RPG with Dialogue System",
+          "description": "Story-driven game with conversations",
+          "skills": "Message coordination, dialogue trees"
+        },
+        {
+          "name": "Multi-Level Platformer",
+          "description": "Complete game with level progression",
+          "skills": "Scene management, state tracking"
+        },
+        {
+          "name": "Turn-Based Battle System",
+          "description": "Pokemon-style combat",
+          "skills": "Turn management, action queuing"
+        },
+        {
+          "name": "Escape Room Puzzle",
+          "description": "Multiple interconnected puzzles",
+          "skills": "Puzzle logic, item interaction"
+        }
+      ],
+      "coordination_tasks": [
+        "Create boss battle sequence",
+        "Build combo move system",
+        "Design synchronized animation",
+        "Make multiplayer prototype",
+        "Develop quest system"
+      ],
+      "monthly_project": {
+        "title": "Advanced Game Creation",
+        "options": [
+          "Zelda-style adventure game",
+          "Mario-style platformer",
+          "Puzzle game like Tetris",
+          "Strategy game prototype"
+        ],
+        "requirements": [
+          "Multiple levels",
+          "Save system using lists",
+          "Clone-based enemies",
+          "Power-ups and upgrades",
+          "Professional polish"
+        ]
+      }
+    }
+  },
+  "month_3": {
+    "title": "Month 3: Mastery and Advanced Projects",
+    "description": "Create professional games, master extensions, and prepare for text coding.",
+    "week_9": {
+      "title": "Advanced Extensions and Hardware",
+      "topics": [
+        "Music extension advanced features",
+        "Creating dynamic soundtracks",
+        "Text to Speech capabilities",
+        "Language translation features",
+        "Video Sensing for motion detection",
+        "Creating motion-controlled games",
+        "Makey Makey integration basics",
+        "micro:bit connection and control",
+        "LEGO Mindstorms integration",
+        "Using webcam for interaction",
+        "Machine Learning extension intro",
+        "Creating AI-powered projects"
+      ],
+      "extensions_covered": {
+        "music": [
+          "play drum () for () beats",
+          "set instrument to ()",
+          "set tempo to ()",
+          "change tempo by ()"
+        ],
+        "text_to_speech": [
+          "speak ()",
+          "set voice to ()",
+          "set language to ()"
+        ],
+        "video_sensing": [
+          "when video motion > ()",
+          "video () on ()",
+          "turn video ()",
+          "set video transparency to ()"
+        ],
+        "translate": [
+          "translate () to ()",
+          "language"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Motion-Controlled Game",
+          "description": "Control with body movements",
+          "skills": "Video sensing, motion tracking"
+        },
+        {
+          "name": "Multi-Language Quiz",
+          "description": "Quiz with translation features",
+          "skills": "Translation, text-to-speech"
+        },
+        {
+          "name": "AI Pet Game",
+          "description": "Pet that responds to actions",
+          "skills": "Machine learning basics, interaction"
+        },
+        {
+          "name": "Musical Composition Tool",
+          "description": "Create and play music",
+          "skills": "Music extension mastery"
+        }
+      ],
+      "extension_challenges": [
+        "Create exercise game with motion",
+        "Build language learning app",
+        "Design accessibility features",
+        "Make rhythm game with beat detection",
+        "Develop augmented reality prototype"
+      ]
+    },
+    "week_10": {
+      "title": "Physics and Simulation",
+      "topics": [
+        "Implementing gravity",
+        "Jump mechanics and physics",
+        "Velocity and acceleration",
+        "Collision detection advanced",
+        "Bouncing and elasticity",
+        "Friction simulation",
+        "Pendulum motion",
+        "Projectile motion",
+        "Water and fluid effects",
+        "Particle systems advanced",
+        "Realistic movement patterns",
+        "Physics-based puzzles"
+      ],
+      "advanced_techniques": {
+        "physics_implementation": [
+          "Gravity constant variables",
+          "Velocity X and Y components",
+          "Acceleration calculations",
+          "Collision response vectors",
+          "Energy conservation"
+        ],
+        "mathematical_concepts": [
+          "Trigonometry for angles",
+          "Vector mathematics",
+          "Distance formulas",
+          "Interpolation techniques",
+          "Bezier curves"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Angry Birds Clone",
+          "description": "Physics-based puzzle game",
+          "skills": "Projectile physics, destruction"
+        },
+        {
+          "name": "Pinball Machine",
+          "description": "Realistic ball physics",
+          "skills": "Bouncing, flippers, gravity"
+        },
+        {
+          "name": "Solar System Simulator",
+          "description": "Orbital mechanics",
+          "skills": "Circular motion, gravity simulation"
+        },
+        {
+          "name": "Fluid Dynamics Demo",
+          "description": "Water and particle effects",
+          "skills": "Particle systems, flow simulation"
+        }
+      ],
+      "simulation_tasks": [
+        "Create pendulum clock",
+        "Build rope physics",
+        "Design domino effect",
+        "Make spring mechanics",
+        "Develop weather simulation"
+      ]
+    },
+    "week_11": {
+      "title": "Optimization and Professional Polish",
+      "topics": [
+        "Performance optimization techniques",
+        "Reducing lag and improving FPS",
+        "Efficient clone management",
+        "Sprite and backdrop optimization",
+        "Code organization and comments",
+        "Creating custom blocks (functions)",
+        "Debugging techniques",
+        "Error handling strategies",
+        "Testing and quality assurance",
+        "User interface design",
+        "Menu and navigation systems",
+        "Settings and options menus"
+      ],
+      "professional_skills": {
+        "optimization": [
+          "Limit active clones",
+          "Efficient collision checking",
+          "Reduce costume size",
+          "Optimize loops",
+          "Cache calculations"
+        ],
+        "ui_ux_design": [
+          "Consistent visual style",
+          "Clear navigation",
+          "Feedback for actions",
+          "Loading screens",
+          "Tutorial integration"
+        ],
+        "code_quality": [
+          "Meaningful sprite names",
+          "Organized scripts",
+          "Comment complex logic",
+          "Modular design",
+          "Reusable custom blocks"
+        ]
+      },
+      "projects": [
+        {
+          "name": "Professional Game UI",
+          "description": "Complete menu system",
+          "skills": "Navigation, settings, polish"
+        },
+        {
+          "name": "Optimized Particle System",
+          "description": "Efficient visual effects",
+          "skills": "Performance, visual quality"
+        },
+        {
+          "name": "Debugger Tool",
+          "description": "In-game debugging system",
+          "skills": "Testing, monitoring, logging"
+        },
+        {
+          "name": "Modular Game Engine",
+          "description": "Reusable game components",
+          "skills": "Custom blocks, organization"
+        }
+      ],
+      "polish_checklist": [
+        "Smooth animations",
+        "Consistent art style",
+        "Sound effects for all actions",
+        "Clear instructions",
+        "Error prevention",
+        "Save/load functionality",
+        "Credits screen",
+        "Version numbering"
+      ]
+    },
+    "week_12": {
+      "title": "Final Projects and Portfolio",
+      "topics": [
+        "Planning large projects",
+        "Game design documentation",
+        "Project management basics",
+        "Version control concepts",
+        "Sharing and remixing ethics",
+        "Scratch community guidelines",
+        "Creating tutorials for others",
+        "Portfolio presentation",
+        "Transitioning to text coding",
+        "JavaScript similarities",
+        "Python connections",
+        "Future learning paths"
+      ],
+      "capstone_project": {
+        "title": "Professional Game Development",
+        "duration": "Full week intensive",
+        "options": [
+          {
+            "name": "Complete RPG Adventure",
+            "features": [
+              "Multiple quests",
+              "Inventory system",
+              "Battle system",
+              "NPC interactions",
+              "Save/load game",
+              "20+ minutes gameplay"
+            ]
+          },
+          {
+            "name": "Educational Platform",
+            "features": [
+              "5+ learning modules",
+              "Progress tracking",
+              "Quiz system",
+              "Achievements",
+              "Certificate generation",
+              "Teacher dashboard"
+            ]
+          },
+          {
+            "name": "Multiplayer Game Prototype",
+            "features": [
+              "2-player support",
+              "Turn management",
+              "Score tracking",
+              "Multiple game modes",
+              "Tournament bracket",
+              "Replay system"
+            ]
+          },
+          {
+            "name": "Creative Tool Application",
+            "features": [
+              "Drawing/music/animation tool",
+              "Save/export features",
+              "Tool palette",
+              "Undo/redo system",
+              "Templates library",
+              "Sharing gallery"
+            ]
+          }
+        ],
+        "requirements": [
+          "Minimum 10 sprites",
+          "50+ scripts total",
+          "Custom blocks usage",
+          "Lists and variables",
+          "Professional UI",
+          "Sound and music",
+          "Instructions/tutorial",
+          "Bug-free experience"
+        ]
+      },
+      "portfolio_components": [
+        "10 mini-games",
+        "5 animations",
+        "3 interactive stories",
+        "2 educational apps",
+        "1 major capstone project",
+        "Code examples library",
+        "Tutorial videos created",
+        "Community contributions"
+      ],
+      "graduation_preparation": [
+        "Project presentation skills",
+        "Code explanation ability",
+        "Problem-solving demonstration",
+        "Portfolio website creation",
+        "Scratch profile optimization",
+        "Community engagement proof",
+        "Peer review participation",
+        "Future goals setting"
+      ]
+    }
+  },
+  "additional_resources": {
+    "sprite_creation": {
+      "costume_editor": [
+        "Vector vs bitmap modes",
+        "Drawing tools mastery",
+        "Color theory application",
+        "Animation frames creation",
+        "Importing and editing images",
+        "Creating sprite sheets"
+      ],
+      "sound_editor": [
+        "Recording techniques",
+        "Sound effect creation",
+        "Music loops",
+        "Voice acting tips",
+        "Audio editing basics",
+        "Format optimization"
+      ]
+    },
+    "game_design_principles": {
+      "core_concepts": [
+        "Game mechanics vs dynamics",
+        "Difficulty curves",
+        "Player motivation",
+        "Feedback systems",
+        "Risk vs reward",
+        "Emergent gameplay"
+      ],
+      "genres_covered": [
+        "Platformers",
+        "Shooters",
+        "Puzzle games",
+        "RPGs",
+        "Racing games",
+        "Simulation games",
+        "Educational games",
+        "Art games"
+      ],
+      "balancing": [
+        "Playtesting methods",
+        "Difficulty adjustment",
+        "Power scaling",
+        "Economy balance",
+        "Time management",
+        "Score systems"
+      ]
+    },
+    "computational_thinking": {
+      "concepts": [
+        "Decomposition",
+        "Pattern recognition",
+        "Abstraction",
+        "Algorithm design",
+        "Debugging strategies",
+        "Optimization thinking"
+      ],
+      "problem_solving": [
+        "Breaking down problems",
+        "Step-by-step solutions",
+        "Testing hypotheses",
+        "Iterative improvement",
+        "Creative solutions",
+        "Logical reasoning"
+      ]
+    },
+    "mathematical_concepts": {
+      "geometry": [
+        "Coordinates and positioning",
+        "Angles and rotation",
+        "Distance calculations",
+        "Shape properties",
+        "Transformations",
+        "Symmetry"
+      ],
+      "algebra": [
+        "Variables and expressions",
+        "Equations solving",
+        "Functions basics",
+        "Patterns and sequences",
+        "Proportions",
+        "Rate of change"
+      ],
+      "probability": [
+        "Random events",
+        "Probability basics",
+        "Statistics introduction",
+        "Data analysis",
+        "Distributions",
+        "Game theory basics"
+      ]
+    }
+  },
+  "assessment_structure": {
+    "weekly_assessments": {
+      "project_completion": "Complete weekly projects with requirements",
+      "skill_challenges": "Timed coding challenges",
+      "peer_review": "Review and provide feedback on peer projects",
+      "bug_fixes": "Debug provided broken code",
+      "creative_tasks": "Open-ended creative challenges"
+    },
+    "monthly_evaluations": {
+      "month_1": {
+        "skills_tested": [
+          "Basic sprite control",
+          "Event handling",
+          "Simple animations",
+          "User input",
+          "Sound integration"
+        ],
+        "project": "Complete game with menu and gameplay"
+      },
+      "month_2": {
+        "skills_tested": [
+          "Variables and lists",
+          "Clone management",
+          "Broadcast systems",
+          "Complex logic",
+          "Data structures"
+        ],
+        "project": "Advanced game with multiple features"
+      },
+      "month_3": {
+        "skills_tested": [
+          "Extensions usage",
+          "Physics implementation",
+          "Optimization",
+          "Professional polish",
+          "Complete project management"
+        ],
+        "project": "Capstone project presentation"
+      }
+    },
+    "certification_requirements": [
+      "Complete 80% of weekly projects",
+      "Pass all monthly evaluations",
+      "Submit capstone project",
+      "Demonstrate 40+ Scratch blocks usage",
+      "Create portfolio of 20+ projects",
+      "Participate in community"
+    ]
+  },
+  "learning_support": {
+    "tutorials": {
+      "video_lessons": "3-5 videos per week",
+      "written_guides": "Step-by-step instructions",
+      "code_examples": "Downloadable project files",
+      "quick_references": "Block reference sheets"
+    },
+    "community": {
+      "forums": "Student discussion boards",
+      "live_sessions": "Weekly Q&A sessions",
+      "peer_learning": "Pair programming sessions",
+      "showcase": "Weekly project showcases",
+      "competitions": "Monthly coding challenges"
+    },
+    "mentorship": {
+      "office_hours": "Daily mentor availability",
+      "code_review": "Personalized feedback",
+      "debugging_help": "1-on-1 troubleshooting",
+      "career_guidance": "Path to advanced programming"
+    },
+    "resources": {
+      "asset_library": "Sprites, sounds, backdrops",
+      "template_projects": "Starting templates",
+      "inspiration_gallery": "Example projects",
+      "documentation": "Comprehensive guides"
+    }
+  },
+  "skill_progression_path": {
+    "beginner_milestones": [
+      "First animation",
+      "Keyboard control",
+      "Simple game",
+      "Story with scenes",
+      "Music project"
+    ],
+    "intermediate_milestones": [
+      "Score system",
+      "Multi-level game",
+      "Clone usage",
+      "List management",
+      "Complex conditions"
+    ],
+    "advanced_milestones": [
+      "Physics engine",
+      "AI opponents",
+      "Procedural generation",
+      "Multiplayer prototype",
+      "Professional game"
+    ],
+    "expert_achievements": [
+      "Published games",
+      "Community tutorials",
+      "Remix improvements",
+      "Original algorithms",
+      "Innovation projects"
+    ]
+  },
+  "transition_to_text_coding": {
+    "concepts_that_transfer": [
+      "Variables and data types",
+      "Loops and iteration",
+      "Conditional statements",
+      "Functions (custom blocks)",
+      "Events and listeners",
+      "Arrays (lists)",
+      "Object properties (sprite attributes)",
+      "Debugging mindset"
+    ],
+    "next_languages": {
+      "python": {
+        "similarities": "Clear syntax, beginner-friendly",
+        "projects": "Convert Scratch games to Python",
+        "tools": "Pygame for game development"
+      },
+      "javascript": {
+        "similarities": "Event-driven, web-based",
+        "projects": "Web games with Canvas",
+        "tools": "p5.js for creative coding"
+      }
+    },
+    "preparation_tips": [
+      "Document your Scratch logic",
+      "Practice pseudocode writing",
+      "Understand algorithm flow",
+      "Learn typing skills",
+      "Study code structure"
+    ]
+  },
+  "parent_and_teacher_guide": {
+    "supporting_learning": [
+      "Set up dedicated coding time",
+      "Celebrate project completions",
+      "Encourage experimentation",
+      "Help with debugging (without solving)",
+      "Share projects with family"
+    ],
+    "monitoring_progress": [
+      "Weekly project reviews",
+      "Skill checklist tracking",
+      "Portfolio development",
+      "Community participation",
+      "Time management"
+    ],
+    "extension_activities": [
+      "Real-world problem solving",
+      "Cross-curricular projects",
+      "Group collaborations",
+      "Teaching others",
+      "Competition participation"
+    ]
+  },
+  "career_connections": {
+    "skills_developed": [
+      "Computational thinking",
+      "Problem-solving",
+      "Creativity",
+      "Project management",
+      "Debugging and testing",
+      "User experience design",
+      "Storytelling",
+      "Mathematical reasoning"
+    ],
+    "future_paths": [
+      "Game Developer",
+      "Software Engineer",
+      "Web Developer",
+      "Animation Creator",
+      "UX/UI Designer",
+      "Data Scientist",
+      "Robotics Engineer",
+      "Digital Artist"
+    ],
+    "immediate_opportunities": [
+      "School coding club leader",
+      "Peer tutor",
+      "Game jam participant",
+      "Open source contributor",
+      "Content creator"
+    ]
+  }
+}

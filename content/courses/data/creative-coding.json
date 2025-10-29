@@ -1,0 +1,1499 @@
+{
+  "meta": {
+    "slug": "creative-coding-animation-mastery",
+    "title": "Creative Coding & Digital Animation Mastery - Complete Content Creator Course",
+    "description": "The most comprehensive 6-month creative coding and animation program. Master animation, video editing, motion graphics, social media content creation, visual effects, and creative programming. Create viral reels, stunning animations, and become a professional digital content creator.",
+    "keywords": [
+      "creative coding",
+      "animation course",
+      "video editing",
+      "motion graphics",
+      "After Effects",
+      "Instagram Reels",
+      "TikTok creation",
+      "YouTube Shorts",
+      "Processing",
+      "p5.js",
+      "Blender 3D",
+      "content creation",
+      "visual effects",
+      "digital art",
+      "social media content"
+    ],
+    "category": "Creative Technology & Digital Media",
+    "price": {
+      "group": "₹1299/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹14,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks)",
+    "level": "Beginner to Professional Content Creator",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "Certified Creative Technologist & Digital Animator"
+  },
+  "program_overview": {
+    "title": "Creative Coding & Animation Mastery",
+    "tagline": "From Concept to Viral Content - Master Every Creative Tool",
+    "description": "This intensive 6-month program transforms beginners into professional digital content creators and creative coders. Learn animation principles, master video editing, create viral social media content, and explore creative programming.\n\nStudents will master industry-standard tools like After Effects, Premiere Pro, DaVinci Resolve, Blender, Processing, and more. Create stunning animations, viral reels, motion graphics, and interactive art while building a professional portfolio that stands out in the creative industry.",
+    "what_makes_this_different": [
+      "Complete creative toolkit mastery",
+      "Viral content creation strategies",
+      "Creative coding with visual output",
+      "Industry-standard software training",
+      "Platform-specific optimization",
+      "Trend analysis and implementation",
+      "Portfolio development focus",
+      "Real client project experience"
+    ],
+    "learning_path": {
+      "month_1": "Fundamentals: Design, Animation Basics, Video Editing",
+      "month_2": "Motion Graphics & After Effects Mastery",
+      "month_3": "Creative Coding with Processing & p5.js",
+      "month_4": "3D Animation & Advanced VFX",
+      "month_5": "Social Media Content & Platform Mastery",
+      "month_6": "Professional Projects & Portfolio Development"
+    },
+    "career_outcomes": [
+      "Motion Graphics Designer",
+      "Content Creator/Influencer",
+      "Video Editor",
+      "Creative Technologist",
+      "Animation Artist",
+      "Social Media Manager",
+      "VFX Artist",
+      "Creative Director"
+    ]
+  },
+  "month_1": {
+    "title": "Month 1: Creative Foundations & Video Editing Basics",
+    "description": "Master design principles, animation fundamentals, and professional video editing.",
+    "week_1": {
+      "title": "Design Principles & Digital Art Basics",
+      "topics": [
+        "Elements of design: line, shape, color, texture, space",
+        "Principles of design: balance, contrast, emphasis, movement",
+        "Color theory: RGB/CMYK, color harmony, psychology",
+        "Typography fundamentals and font pairing",
+        "Composition and rule of thirds",
+        "Visual hierarchy and flow",
+        "Mood boards and style guides",
+        "Design trends and aesthetics",
+        "Digital canvas setup and resolution",
+        "File formats: when to use what",
+        "Asset organization and management",
+        "Copyright and creative commons"
+      ],
+      "tools_covered": [
+        "Adobe Creative Cloud overview",
+        "Canva Pro features",
+        "Figma basics",
+        "Photoshop fundamentals",
+        "Illustrator introduction",
+        "Color palette generators",
+        "Font resources"
+      ],
+      "projects": [
+        {
+          "name": "Personal Brand Identity",
+          "description": "Logo, color palette, style guide",
+          "deliverables": ["Logo variations", "Brand guidelines", "Mockups"]
+        },
+        {
+          "name": "Mood Board Collection",
+          "description": "5 different aesthetic mood boards",
+          "deliverables": ["Pinterest boards", "Color schemes", "Font selections"]
+        },
+        {
+          "name": "Social Media Template Set",
+          "description": "Consistent design templates",
+          "deliverables": ["Post templates", "Story templates", "Highlight covers"]
+        }
+      ],
+      "skills_practice": [
+        "Daily design challenges",
+        "Color matching exercises",
+        "Typography experiments",
+        "Composition studies"
+      ]
+    },
+    "week_2": {
+      "title": "Animation Principles & 2D Basics",
+      "topics": [
+        "12 principles of animation (Disney)",
+        "Squash and stretch techniques",
+        "Anticipation and follow-through",
+        "Timing and spacing fundamentals",
+        "Ease in and ease out",
+        "Arcs and natural motion",
+        "Secondary animation",
+        "Frame rates and formats",
+        "Storyboarding and animatics",
+        "Character design basics",
+        "Walk cycles and run cycles",
+        "Lip sync fundamentals"
+      ],
+      "tools_covered": [
+        "Adobe Animate basics",
+        "Procreate animation",
+        "FlipaClip mobile animation",
+        "RoughAnimator",
+        "Animation Desk",
+        "OpenToonz (free)",
+        "Krita animation features"
+      ],
+      "projects": [
+        {
+          "name": "Bouncing Ball Animation",
+          "description": "Master timing and physics",
+          "deliverables": ["30-second animation", "Different ball types", "Various surfaces"]
+        },
+        {
+          "name": "Character Walk Cycle",
+          "description": "Create smooth character movement",
+          "deliverables": ["8-frame walk cycle", "16-frame run cycle", "Personality walks"]
+        },
+        {
+          "name": "Animated Logo Reveal",
+          "description": "Bring brand to life",
+          "deliverables": ["5-second reveal", "3 variations", "Loop version"]
+        }
+      ],
+      "animation_exercises": [
+        "Pendulum swing",
+        "Flag waving",
+        "Flour sack emotions",
+        "Hand gestures",
+        "Facial expressions"
+      ]
+    },
+    "week_3": {
+      "title": "Video Editing Fundamentals",
+      "topics": [
+        "Non-linear editing concepts",
+        "Timeline and tracks understanding",
+        "Cutting and trimming techniques",
+        "Transitions: cuts, fades, wipes",
+        "Audio editing and synchronization",
+        "Color correction basics",
+        "Text and titles creation",
+        "B-roll and coverage",
+        "Pacing and rhythm in editing",
+        "Continuity editing rules",
+        "Jump cuts and match cuts",
+        "Montage theory and practice"
+      ],
+      "tools_covered": [
+        "Adobe Premiere Pro interface",
+        "DaVinci Resolve basics",
+        "Final Cut Pro (Mac)",
+        "CapCut desktop version",
+        "Filmora essentials",
+        "iMovie for beginners",
+        "Clipchamp features"
+      ],
+      "projects": [
+        {
+          "name": "Day in Life Vlog",
+          "description": "Edit personal vlog footage",
+          "deliverables": ["5-minute vlog", "Intro/outro", "Music integration"]
+        },
+        {
+          "name": "Product Commercial",
+          "description": "30-second product showcase",
+          "deliverables": ["Commercial edit", "Social media cuts", "Behind-the-scenes"]
+        },
+        {
+          "name": "Music Video Edit",
+          "description": "Sync video to music",
+          "deliverables": ["Full music video", "Lyric video", "Visualizer"]
+        }
+      ],
+      "editing_techniques": [
+        "L and J cuts",
+        "Cross-cutting",
+        "Parallel editing",
+        "Speed ramping",
+        "Reverse footage"
+      ]
+    },
+    "week_4": {
+      "title": "Mobile Video Editing & Quick Content",
+      "topics": [
+        "Mobile editing workflow",
+        "Vertical video best practices",
+        "Quick edits for social media",
+        "Filters and effects",
+        "Mobile color grading",
+        "Text animations on mobile",
+        "Stickers and overlays",
+        "Green screen on mobile",
+        "Mobile audio editing",
+        "Aspect ratio management",
+        "Export settings for platforms",
+        "Cloud storage workflow"
+      ],
+      "tools_covered": [
+        "CapCut mobile mastery",
+        "InShot advanced features",
+        "VN Video Editor",
+        "Adobe Premiere Rush",
+        "LumaFusion (iOS)",
+        "Kinemaster Pro",
+        "Splice"
+      ],
+      "projects": [
+        {
+          "name": "Instagram Reels Series",
+          "description": "5 trending reels",
+          "deliverables": ["Dance reel", "Tutorial reel", "Transition reel", "Comedy reel", "Educational reel"]
+        },
+        {
+          "name": "TikTok Content Pack",
+          "description": "Viral-worthy content",
+          "deliverables": ["Trend participation", "Original sound", "Duet/Stitch", "Series content"]
+        },
+        {
+          "name": "YouTube Shorts Collection",
+          "description": "Engaging short-form content",
+          "deliverables": ["How-to short", "Entertainment short", "Educational short"]
+        }
+      ],
+      "mobile_mastery": [
+        "Speed editing techniques",
+        "One-thumb editing",
+        "Template creation",
+        "Batch processing",
+        "Quick color matching"
+      ]
+    }
+  },
+  "month_2": {
+    "title": "Month 2: Motion Graphics & After Effects Mastery",
+    "description": "Master motion design, visual effects, and professional animation techniques.",
+    "week_5": {
+      "title": "After Effects Fundamentals",
+      "topics": [
+        "After Effects interface and workflow",
+        "Compositions and layers",
+        "Transform properties: position, scale, rotation",
+        "Keyframe animation basics",
+        "Graph editor and easing",
+        "Parenting and null objects",
+        "Masks and shape layers",
+        "Text animation presets",
+        "Effects and presets library",
+        "Rendering and export settings",
+        "Work areas and previewing",
+        "Project organization"
+      ],
+      "tools_covered": [
+        "After Effects CC interface",
+        "Essential Graphics panel",
+        "Effect Controls panel",
+        "Timeline navigation",
+        "Render Queue",
+        "Media Encoder integration",
+        "Dynamic Link with Premiere"
+      ],
+      "projects": [
+        {
+          "name": "Animated Title Sequence",
+          "description": "Professional title animation",
+          "deliverables": ["Main title", "Lower thirds", "End credits"]
+        },
+        {
+          "name": "Kinetic Typography",
+          "description": "Text-driven animation",
+          "deliverables": ["Lyric video", "Quote animation", "Explainer text"]
+        },
+        {
+          "name": "Logo Animation Pack",
+          "description": "Brand animations",
+          "deliverables": ["Logo reveal", "Logo transition", "Logo loop"]
+        }
+      ],
+      "motion_principles": [
+        "Ease and wizz plugin",
+        "Animation curves",
+        "Overshooting",
+        "Anticipation in motion",
+        "Secondary animation"
+      ]
+    },
+    "week_6": {
+      "title": "Advanced Motion Graphics",
+      "topics": [
+        "Shape layer animation mastery",
+        "Trim paths and stroke animation",
+        "Morphing shapes and transitions",
+        "2.5D animation with cameras",
+        "Parallax effects",
+        "Expression basics",
+        "Wiggle and random expressions",
+        "Time remapping",
+        "Motion blur and echo effects",
+        "Particle systems basics",
+        "Audio-driven animation",
+        "Data-driven graphics"
+      ],
+      "techniques_covered": [
+        "Liquid motion effects",
+        "Seamless loops creation",
+        "Bouncing and elastic motion",
+        "Text reveal techniques",
+        "Gradient animations",
+        "Pattern animations",
+        "Infographic animation"
+      ],
+      "projects": [
+        {
+          "name": "Explainer Video",
+          "description": "2-minute animated explainer",
+          "deliverables": ["Full video", "Icon animations", "Transition pack"]
+        },
+        {
+          "name": "Music Visualizer",
+          "description": "Audio-reactive graphics",
+          "deliverables": ["Waveform animation", "Particle effects", "Spectrum analyzer"]
+        },
+        {
+          "name": "Social Media Pack",
+          "description": "Animated social elements",
+          "deliverables": ["Subscribe button", "Like animation", "Notification bells"]
+        }
+      ],
+      "plugins_introduction": [
+        "Animation Composer",
+        "Duik Bassel basics",
+        "Particular introduction",
+        "Element 3D basics",
+        "Saber plugin"
+      ]
+    },
+    "week_7": {
+      "title": "Character Animation & Rigging",
+      "topics": [
+        "Character rigging with Duik",
+        "Puppet pin tool mastery",
+        "Bone and IK systems",
+        "Walk cycle in After Effects",
+        "Facial animation techniques",
+        "Lip sync animation",
+        "Character emotions and acting",
+        "Rubber hose animation",
+        "Limber and RubberHose plugins",
+        "Character interaction",
+        "Scene composition",
+        "Character design for animation"
+      ],
+      "rigging_tools": [
+        "Duik Bassel complete",
+        "Joysticks 'n Sliders",
+        "Limber",
+        "RubberHose 2",
+        "Character Animator integration",
+        "Puppet tools mastery"
+      ],
+      "projects": [
+        {
+          "name": "Character Explainer",
+          "description": "Character-driven narrative",
+          "deliverables": ["30-second story", "Character turnaround", "Expression sheet"]
+        },
+        {
+          "name": "Animated Mascot",
+          "description": "Brand character creation",
+          "deliverables": ["Idle animation", "Action sequences", "Reactions set"]
+        },
+        {
+          "name": "Motion Comic",
+          "description": "Comic panels animated",
+          "deliverables": ["1-minute story", "Character animations", "Scene transitions"]
+        }
+      ],
+      "character_skills": [
+        "Squash and stretch",
+        "Weight and balance",
+        "Personality in motion",
+        "Action and reaction",
+        "Crowd animation basics"
+      ]
+    },
+    "week_8": {
+      "title": "Visual Effects & Compositing",
+      "topics": [
+        "Green screen keying techniques",
+        "Rotoscoping fundamentals",
+        "Motion tracking basics",
+        "Camera tracking introduction",
+        "Color correction and grading",
+        "Light and shadow effects",
+        "Particle effects creation",
+        "Fire, smoke, and water effects",
+        "Glitch and distortion effects",
+        "3D integration basics",
+        "Matte painting basics",
+        "Compositing workflows"
+      ],
+      "vfx_techniques": [
+        "Chroma key refinement",
+        "Edge feathering",
+        "Color matching",
+        "Perspective matching",
+        "Light wrap techniques",
+        "Atmospheric effects",
+        "Lens effects"
+      ],
+      "projects": [
+        {
+          "name": "VFX Short Film",
+          "description": "Effects-heavy sequence",
+          "deliverables": ["1-minute VFX shot", "Breakdown video", "Before/after reel"]
+        },
+        {
+          "name": "Product VFX Commercial",
+          "description": "Product with effects",
+          "deliverables": ["30-second spot", "Pack shots", "Particle reveals"]
+        },
+        {
+          "name": "Music Video Effects",
+          "description": "Visual effects for music",
+          "deliverables": ["Effect sequences", "Transitions", "Visual elements"]
+        }
+      ],
+      "compositing_practice": [
+        "Sky replacement",
+        "Object removal",
+        "Set extension",
+        "Digital makeup",
+        "Time freeze effect"
+      ]
+    }
+  },
+  "month_3": {
+    "title": "Month 3: Creative Coding & Interactive Media",
+    "description": "Master creative programming with Processing, p5.js, and interactive installations.",
+    "week_9": {
+      "title": "Processing Fundamentals",
+      "topics": [
+        "Introduction to creative coding",
+        "Processing environment setup",
+        "Coordinate system and drawing",
+        "Shapes and colors in code",
+        "Variables and data types",
+        "Loops and iteration",
+        "Conditional statements",
+        "Functions and modularity",
+        "Arrays and collections",
+        "Object-oriented programming basics",
+        "Animation with code",
+        "Interactivity with mouse and keyboard"
+      ],
+      "coding_concepts": [
+        "Setup and draw functions",
+        "Frame rate control",
+        "Transformations: translate, rotate, scale",
+        "Push and pop matrix",
+        "Color modes: RGB, HSB",
+        "Random and noise functions",
+        "Map and constrain functions"
+      ],
+      "projects": [
+        {
+          "name": "Generative Art System",
+          "description": "Algorithmic art creation",
+          "deliverables": ["Pattern generator", "Color variations", "Export system"]
+        },
+        {
+          "name": "Interactive Visualization",
+          "description": "Data-driven graphics",
+          "deliverables": ["Data parser", "Visual representation", "User controls"]
+        },
+        {
+          "name": "Particle System",
+          "description": "Dynamic particle effects",
+          "deliverables": ["Particle engine", "Force fields", "Collision detection"]
+        }
+      ],
+      "creative_algorithms": [
+        "Fractals and recursion",
+        "Perlin noise landscapes",
+        "Cellular automata",
+        "L-systems",
+        "Flocking behavior"
+      ]
+    },
+    "week_10": {
+      "title": "p5.js and Web-Based Creative Coding",
+      "topics": [
+        "p5.js setup and differences from Processing",
+        "JavaScript fundamentals for creative coding",
+        "DOM manipulation with p5.js",
+        "Loading and displaying media",
+        "Sound library integration",
+        "WebGL and 3D graphics",
+        "Mobile interaction and touch events",
+        "API integration and data fetching",
+        "Local storage and cookies",
+        "Hosting and sharing web sketches",
+        "p5.js libraries and extensions",
+        "Performance optimization"
+      ],
+      "web_integration": [
+        "HTML/CSS with p5.js",
+        "Responsive canvas design",
+        "Multiple canvas management",
+        "External library integration",
+        "Webpack and build tools",
+        "GitHub Pages deployment"
+      ],
+      "projects": [
+        {
+          "name": "Interactive Website",
+          "description": "Creative coding in web design",
+          "deliverables": ["Landing page", "Interactive elements", "Mobile responsive"]
+        },
+        {
+          "name": "Audio Visualizer Web App",
+          "description": "Music-reactive visuals",
+          "deliverables": ["Frequency analysis", "Visual modes", "User controls"]
+        },
+        {
+          "name": "Browser Game",
+          "description": "Playable web game",
+          "deliverables": ["Game mechanics", "Score system", "Leaderboard"]
+        }
+      ],
+      "web_experiments": [
+        "Webcam effects",
+        "Voice control",
+        "Gesture recognition",
+        "Mobile sensors",
+        "Geolocation art"
+      ]
+    },
+    "week_11": {
+      "title": "Interactive Installations & Physical Computing",
+      "topics": [
+        "Arduino and Processing communication",
+        "Serial communication basics",
+        "Sensor data visualization",
+        "Projection mapping introduction",
+        "Kinect and depth sensing",
+        "Computer vision with OpenCV",
+        "Touch surfaces and multitouch",
+        "MIDI controller integration",
+        "OSC protocol for networking",
+        "Real-time data streams",
+        "Installation planning and setup",
+        "Documentation and presentation"
+      ],
+      "hardware_integration": [
+        "Arduino sensors",
+        "Webcam tracking",
+        "Leap Motion",
+        "Touch screens",
+        "MIDI devices",
+        "DMX lighting control",
+        "Raspberry Pi basics"
+      ],
+      "projects": [
+        {
+          "name": "Interactive Wall",
+          "description": "Projection mapping installation",
+          "deliverables": ["Projection setup", "Interactive elements", "Documentation"]
+        },
+        {
+          "name": "Motion-Controlled Art",
+          "description": "Body tracking visuals",
+          "deliverables": ["Skeleton tracking", "Gesture responses", "Visual effects"]
+        },
+        {
+          "name": "Data Sculpture",
+          "description": "Physical data visualization",
+          "deliverables": ["Data processing", "Visual output", "Physical prototype"]
+        }
+      ],
+      "installation_skills": [
+        "Space design",
+        "User experience flow",
+        "Technical riders",
+        "Troubleshooting",
+        "Performance optimization"
+      ]
+    },
+    "week_12": {
+      "title": "Creative Coding Applications",
+      "topics": [
+        "Generative design principles",
+        "Procedural content generation",
+        "Machine learning in creative coding",
+        "Neural networks and art",
+        "Style transfer techniques",
+        "Evolutionary algorithms",
+        "Swarm intelligence",
+        "Biomimicry in code",
+        "Shader programming basics",
+        "GLSL introduction",
+        "Live coding performances",
+        "Creative coding for VJing"
+      ],
+      "advanced_topics": [
+        "ml5.js integration",
+        "TensorFlow.js basics",
+        "RunwayML connection",
+        "Shader programming",
+        "WebGL advanced",
+        "Three.js introduction",
+        "TouchDesigner basics"
+      ],
+      "projects": [
+        {
+          "name": "AI Art Generator",
+          "description": "ML-powered creativity",
+          "deliverables": ["Style transfer", "GAN implementation", "User interface"]
+        },
+        {
+          "name": "Live Performance Tool",
+          "description": "VJ/DJ visual system",
+          "deliverables": ["Audio reactive", "MIDI control", "Effect library"]
+        },
+        {
+          "name": "Generative Brand System",
+          "description": "Dynamic identity",
+          "deliverables": ["Logo variations", "Pattern system", "Animation set"]
+        }
+      ],
+      "creative_exploration": [
+        "Glitch art",
+        "Data bending",
+        "Feedback loops",
+        "Emergence patterns",
+        "Computational poetry"
+      ]
+    }
+  },
+  "month_4": {
+    "title": "Month 4: 3D Animation & Advanced Visual Effects",
+    "description": "Master 3D animation, advanced VFX, and professional post-production.",
+    "week_13": {
+      "title": "3D Animation Fundamentals with Blender",
+      "topics": [
+        "Blender interface and navigation",
+        "3D viewport and object manipulation",
+        "Modeling basics: primitives and modifiers",
+        "Edit mode: vertices, edges, faces",
+        "Sculpting introduction",
+        "Materials and textures basics",
+        "UV unwrapping fundamentals",
+        "Lighting: three-point setup",
+        "Camera animation and framing",
+        "Keyframe animation in 3D",
+        "Timeline and dope sheet",
+        "Rendering with Cycles and Eevee"
+      ],
+      "3d_fundamentals": [
+        "3D coordinate system",
+        "Transform tools",
+        "Pivot points",
+        "Normals and shading",
+        "Topology basics",
+        "Subdivision surfaces",
+        "Boolean operations"
+      ],
+      "projects": [
+        {
+          "name": "3D Logo Animation",
+          "description": "Brand in 3D space",
+          "deliverables": ["3D model", "Materials setup", "Animated reveal"]
+        },
+        {
+          "name": "Product Visualization",
+          "description": "Photorealistic product render",
+          "deliverables": ["Product model", "Studio lighting", "360° turntable"]
+        },
+        {
+          "name": "Abstract Animation",
+          "description": "Motion graphics in 3D",
+          "deliverables": ["Abstract forms", "Dynamic animation", "Render passes"]
+        }
+      ],
+      "3d_exercises": [
+        "Box modeling practice",
+        "Lighting studies",
+        "Material creation",
+        "Camera movements",
+        "Simple rigging"
+      ]
+    },
+    "week_14": {
+      "title": "Character Animation & Rigging in 3D",
+      "topics": [
+        "Character modeling workflow",
+        "Retopology for animation",
+        "Armature and bone creation",
+        "IK (Inverse Kinematics) setup",
+        "Weight painting",
+        "Shape keys and blend shapes",
+        "Facial rigging basics",
+        "Animation principles in 3D",
+        "Walk cycles in 3D",
+        "Motion capture basics",
+        "Non-linear animation editor",
+        "Physics simulation for cloth and hair"
+      ],
+      "rigging_advanced": [
+        "Rigify addon",
+        "Custom bone shapes",
+        "Drivers and constraints",
+        "Action constraints",
+        "Animation layers",
+        "Pose library",
+        "Animation baking"
+      ],
+      "projects": [
+        {
+          "name": "Animated Character",
+          "description": "Full character pipeline",
+          "deliverables": ["Character model", "Complete rig", "Animation cycles"]
+        },
+        {
+          "name": "Creature Animation",
+          "description": "Non-human character",
+          "deliverables": ["Creature design", "Unique rig", "Performance animation"]
+        },
+        {
+          "name": "Crowd Simulation",
+          "description": "Multiple character animation",
+          "deliverables": ["Character variants", "Crowd behavior", "Scene render"]
+        }
+      ],
+      "character_challenges": [
+        "Emotion animations",
+        "Fight sequence",
+        "Dance animation",
+        "Dialogue scene",
+        "Physical comedy"
+      ]
+    },
+    "week_15": {
+      "title": "Advanced VFX & Compositing",
+      "topics": [
+        "Advanced keying techniques",
+        "Roto and paint workflows",
+        "3D tracking and matchmoving",
+        "CG integration with live footage",
+        "Advanced color grading with nodes",
+        "Film emulation and looks",
+        "Atmospheric effects creation",
+        "Destruction and dynamics",
+        "Fluid simulations basics",
+        "Smoke and fire effects",
+        "Advanced compositing nodes",
+        "Multi-pass compositing"
+      ],
+      "vfx_tools": [
+        "Fusion basics",
+        "Nuke introduction",
+        "Mocha Pro tracking",
+        "PFTrack basics",
+        "Houdini introduction",
+        "RealFlow basics",
+        "Phoenix FD overview"
+      ],
+      "projects": [
+        {
+          "name": "VFX Breakdown Reel",
+          "description": "Professional VFX shots",
+          "deliverables": ["5 VFX shots", "Breakdown video", "Before/after"]
+        },
+        {
+          "name": "Invisible Effects",
+          "description": "Seamless integration",
+          "deliverables": ["Set extensions", "Object removal", "Sky replacement"]
+        },
+        {
+          "name": "Sci-Fi Sequence",
+          "description": "Futuristic effects",
+          "deliverables": ["HUD graphics", "Holograms", "Energy effects"]
+        }
+      ],
+      "compositing_advanced": [
+        "Deep compositing",
+        "Stereoscopic 3D",
+        "HDR workflows",
+        "ACES color pipeline",
+        "Cryptomatte usage"
+      ]
+    },
+    "week_16": {
+      "title": "Motion Capture & Virtual Production",
+      "topics": [
+        "Motion capture fundamentals",
+        "Mocap data cleanup",
+        "Retargeting animations",
+        "Face capture techniques",
+        "Virtual production concepts",
+        "Real-time rendering with Unreal",
+        "Virtual sets and environments",
+        "LED wall production basics",
+        "Previsualization techniques",
+        "Virtual cameras",
+        "Live compositing",
+        "Remote production workflows"
+      ],
+      "mocap_tools": [
+        "Rokoko suit basics",
+        "iPhone face capture",
+        "Perception Neuron",
+        "OptiTrack basics",
+        "Mixamo animations",
+        "DeepMotion AI",
+        "RADiCAL AI mocap"
+      ],
+      "projects": [
+        {
+          "name": "Mocap Performance",
+          "description": "Captured performance piece",
+          "deliverables": ["Motion capture", "Character application", "Final render"]
+        },
+        {
+          "name": "Virtual Set Design",
+          "description": "Unreal Engine environment",
+          "deliverables": ["Virtual set", "Camera moves", "Lighting setup"]
+        },
+        {
+          "name": "Previz Sequence",
+          "description": "Pre-production visualization",
+          "deliverables": ["Storyboards", "3D previz", "Shot breakdown"]
+        }
+      ],
+      "virtual_production": [
+        "Green screen vs LED walls",
+        "Real-time ray tracing",
+        "Virtual scouting",
+        "Remote collaboration",
+        "Cloud rendering"
+      ]
+    }
+  },
+  "month_5": {
+    "title": "Month 5: Social Media Mastery & Platform Optimization",
+    "description": "Master content creation for every platform, viral strategies, and audience growth.",
+    "week_17": {
+      "title": "Instagram & Reels Mastery",
+      "topics": [
+        "Instagram algorithm deep dive",
+        "Reels best practices and trends",
+        "Instagram Stories advanced features",
+        "IGTV and long-form content",
+        "Carousel post strategies",
+        "Hashtag research and strategy",
+        "Instagram SEO optimization",
+        "Engagement tactics and community building",
+        "Instagram Shopping and monetization",
+        "Creator Studio analytics",
+        "Content pillars and planning",
+        "Cross-promotion strategies"
+      ],
+      "content_formats": [
+        "Trending audio usage",
+        "Transition techniques",
+        "Text overlay styles",
+        "Filter creation basics",
+        "AR effects with Spark AR",
+        "Story highlights optimization",
+        "Live streaming best practices"
+      ],
+      "projects": [
+        {
+          "name": "30-Day Reels Challenge",
+          "description": "Daily reel creation",
+          "deliverables": ["30 unique reels", "Analytics report", "Best performers analysis"]
+        },
+        {
+          "name": "Brand Campaign",
+          "description": "Complete IG campaign",
+          "deliverables": ["Feed posts", "Stories", "Reels", "IGTV", "Highlights"]
+        },
+        {
+          "name": "Viral Reel Series",
+          "description": "Series format content",
+          "deliverables": ["5-part series", "Hook strategies", "CTA optimization"]
+        }
+      ],
+      "growth_strategies": [
+        "Collaboration tactics",
+        "Influencer outreach",
+        "UGC campaigns",
+        "Contest mechanics",
+        "Community management"
+      ]
+    },
+    "week_18": {
+      "title": "TikTok & Short-Form Dominance",
+      "topics": [
+        "TikTok algorithm mastery",
+        "Trend identification and participation",
+        "Original sound creation",
+        "TikTok effects and filters",
+        "Duets and stitches strategy",
+        "TikTok SEO and discoverability",
+        "Live streaming on TikTok",
+        "TikTok ads and promotion",
+        "Creator Fund and monetization",
+        "Cross-platform content adaptation",
+        "Viral content formulas",
+        "Community building on TikTok"
+      ],
+      "content_creation": [
+        "Hook creation methods",
+        "Storytelling in 60 seconds",
+        "Educational content format",
+        "Entertainment value metrics",
+        "Trend adaptation speed",
+        "Original content ideas",
+        "Series and parts strategy"
+      ],
+      "projects": [
+        {
+          "name": "TikTok Growth Sprint",
+          "description": "Rapid follower growth",
+          "deliverables": ["Daily posts", "Trend participation", "Analytics tracking"]
+        },
+        {
+          "name": "Viral Challenge Creation",
+          "description": "Start a trend",
+          "deliverables": ["Challenge concept", "Seed content", "Promotion strategy"]
+        },
+        {
+          "name": "Educational Series",
+          "description": "Teaching through TikTok",
+          "deliverables": ["10-part series", "Worksheet downloads", "Community Q&A"]
+        }
+      ],
+      "tiktok_mastery": [
+        "Timing strategies",
+        "Hashtag combinations",
+        "Comment engagement",
+        "Collaboration methods",
+        "Live stream planning"
+      ]
+    },
+    "week_19": {
+      "title": "YouTube & Long-Form Content",
+      "topics": [
+        "YouTube algorithm and discovery",
+        "Channel setup and optimization",
+        "Thumbnail design psychology",
+        "Title and description SEO",
+        "YouTube Shorts strategy",
+        "Long-form vs short-form balance",
+        "Playlist optimization",
+        "End screens and cards",
+        "YouTube Analytics mastery",
+        "Community tab usage",
+        "Premiere and live streaming",
+        "YouTube monetization methods"
+      ],
+      "production_workflow": [
+        "Content calendar planning",
+        "Batch filming techniques",
+        "Editing for retention",
+        "Hook and intro optimization",
+        "B-roll strategies",
+        "Audio quality importance",
+        "Color grading consistency"
+      ],
+      "projects": [
+        {
+          "name": "YouTube Channel Launch",
+          "description": "Complete channel setup",
+          "deliverables": ["Channel art", "Intro/outro", "10 videos", "Shorts integration"]
+        },
+        {
+          "name": "Tutorial Series",
+          "description": "Educational content",
+          "deliverables": ["5 tutorials", "Downloadables", "Community engagement"]
+        },
+        {
+          "name": "Vlog Documentary",
+          "description": "Long-form storytelling",
+          "deliverables": ["20-minute doc", "Trailer", "Behind-the-scenes"]
+        }
+      ],
+      "youtube_optimization": [
+        "CTR improvement",
+        "Watch time tactics",
+        "Subscriber conversion",
+        "Revenue streams",
+        "Sponsorship pitches"
+      ]
+    },
+    "week_20": {
+      "title": "Multi-Platform Strategy & Analytics",
+      "topics": [
+        "Content repurposing strategies",
+        "Platform-specific adaptations",
+        "Cross-platform promotion",
+        "Content scheduling tools",
+        "Analytics interpretation",
+        "A/B testing methods",
+        "ROI measurement",
+        "Audience insights and personas",
+        "Competitive analysis",
+        "Trend forecasting",
+        "Content performance metrics",
+        "Growth hacking techniques"
+      ],
+      "tools_mastery": [
+        "Later scheduling",
+        "Hootsuite management",
+        "Buffer analytics",
+        "Sprout Social",
+        "Google Analytics",
+        "Facebook Creator Studio",
+        "TubeBuddy for YouTube"
+      ],
+      "projects": [
+        {
+          "name": "Omnichannel Campaign",
+          "description": "Multi-platform launch",
+          "deliverables": ["Platform-specific content", "Cross-promotion plan", "Analytics dashboard"]
+        },
+        {
+          "name": "Content Repurposing System",
+          "description": "Efficient content creation",
+          "deliverables": ["Content matrix", "Adaptation templates", "Workflow automation"]
+        },
+        {
+          "name": "Analytics Dashboard",
+          "description": "Performance tracking",
+          "deliverables": ["Custom dashboard", "KPI tracking", "Report template"]
+        }
+      ],
+      "strategic_planning": [
+        "Content pillars",
+        "Editorial calendar",
+        "Campaign planning",
+        "Budget allocation",
+        "Team collaboration"
+      ]
+    }
+  },
+  "month_6": {
+    "title": "Month 6: Professional Portfolio & Client Projects",
+    "description": "Build professional portfolio, work on client projects, and launch your creative career.",
+    "week_21": {
+      "title": "Portfolio Development & Personal Branding",
+      "topics": [
+        "Portfolio website creation",
+        "Case study development",
+        "Project presentation skills",
+        "Personal brand strategy",
+        "Logo and identity design",
+        "Business card and stationery",
+        "Email signature design",
+        "LinkedIn optimization",
+        "Behance portfolio setup",
+        "Dribbble presence",
+        "ArtStation for 3D work",
+        "Showreel creation"
+      ],
+      "portfolio_elements": [
+        "Homepage design",
+        "About section writing",
+        "Work showcase methods",
+        "Client testimonials",
+        "Contact information",
+        "SEO optimization",
+        "Mobile responsiveness"
+      ],
+      "projects": [
+        {
+          "name": "Portfolio Website",
+          "description": "Professional online presence",
+          "deliverables": ["Custom website", "10 case studies", "Blog section", "Contact form"]
+        },
+        {
+          "name": "Demo Reel",
+          "description": "Best work compilation",
+          "deliverables": ["2-minute reel", "Breakdown version", "Platform-specific cuts"]
+        },
+        {
+          "name": "Brand Identity Package",
+          "description": "Complete personal brand",
+          "deliverables": ["Logo", "Color palette", "Typography", "Brand guidelines"]
+        }
+      ],
+      "professional_materials": [
+        "Resume design",
+        "Cover letter template",
+        "Invoice templates",
+        "Contract basics",
+        "Pricing strategies"
+      ]
+    },
+    "week_22": {
+      "title": "Client Project Management",
+      "topics": [
+        "Client communication skills",
+        "Project briefing and discovery",
+        "Scope definition and contracts",
+        "Timeline and milestone planning",
+        "Budget estimation and quotes",
+        "Revision handling",
+        "File management systems",
+        "Delivery methods and formats",
+        "Client feedback incorporation",
+        "Project documentation",
+        "Time tracking tools",
+        "Invoice and payment systems"
+      ],
+      "business_skills": [
+        "Proposal writing",
+        "Pitch deck creation",
+        "Meeting management",
+        "Expectation setting",
+        "Conflict resolution",
+        "Upselling techniques",
+        "Retention strategies"
+      ],
+      "projects": [
+        {
+          "name": "Mock Client Project",
+          "description": "Full project simulation",
+          "deliverables": ["Project brief", "Proposal", "Final delivery", "Case study"]
+        },
+        {
+          "name": "Freelance Package",
+          "description": "Service offerings",
+          "deliverables": ["Service menu", "Pricing tiers", "Package descriptions"]
+        },
+        {
+          "name": "Client Onboarding System",
+          "description": "Streamlined process",
+          "deliverables": ["Welcome packet", "Questionnaire", "Process guide"]
+        }
+      ],
+      "tools_and_systems": [
+        "Trello/Asana setup",
+        "Google Workspace",
+        "Dropbox/Drive organization",
+        "Zoom presentation skills",
+        "Screen recording tools"
+      ]
+    },
+    "week_23": {
+      "title": "Industry Specialization",
+      "topics": [
+        "Choosing your niche",
+        "Industry-specific requirements",
+        "Fashion and beauty content",
+        "Food and beverage visuals",
+        "Tech and startup videos",
+        "Real estate virtual tours",
+        "Music video production",
+        "Wedding and event coverage",
+        "Corporate video needs",
+        "Educational content creation",
+        "Gaming content production",
+        "Non-profit storytelling"
+      ],
+      "specialization_skills": [
+        "Industry research",
+        "Trend awareness",
+        "Network building",
+        "Specialized techniques",
+        "Equipment requirements",
+        "Pricing models",
+        "Marketing approaches"
+      ],
+      "projects": [
+        {
+          "name": "Industry Deep Dive",
+          "description": "Specialized content creation",
+          "deliverables": ["3 industry samples", "Style guide", "Network connections"]
+        },
+        {
+          "name": "Niche Portfolio",
+          "description": "Focused work collection",
+          "deliverables": ["5 specialized pieces", "Industry testimonials", "Expertise showcase"]
+        },
+        {
+          "name": "Partnership Proposal",
+          "description": "Collaboration pitch",
+          "deliverables": ["Partnership deck", "Value proposition", "Terms outline"]
+        }
+      ],
+      "market_positioning": [
+        "Competitive analysis",
+        "USP development",
+        "Target audience definition",
+        "Marketing strategy",
+        "Growth planning"
+      ]
+    },
+    "week_24": {
+      "title": "Advanced Techniques & Emerging Trends",
+      "topics": [
+        "AI in creative production",
+        "Virtual reality content",
+        "Augmented reality filters",
+        "360° video production",
+        "Interactive video formats",
+        "NFT and digital art",
+        "Metaverse content creation",
+        "Web3 creative opportunities",
+        "Live streaming production",
+        "Podcast video formats",
+        "Vertical cinema",
+        "New platform emergence"
+      ],
+      "future_technologies": [
+        "AI video generation",
+        "Volumetric capture",
+        "Real-time rendering",
+        "Cloud production",
+        "5G implications",
+        "Blockchain for creatives",
+        "Extended reality (XR)"
+      ],
+      "projects": [
+        {
+          "name": "Emerging Tech Experiment",
+          "description": "Cutting-edge content",
+          "deliverables": ["AR filter", "VR experience", "AI-generated content"]
+        },
+        {
+          "name": "Future Format Creation",
+          "description": "Next-gen content",
+          "deliverables": ["Interactive video", "360° experience", "Metaverse asset"]
+        },
+        {
+          "name": "Innovation Showcase",
+          "description": "Tech-forward portfolio",
+          "deliverables": ["Tech demos", "Concept pieces", "Future vision"]
+        }
+      ],
+      "trend_tracking": [
+        "Platform updates",
+        "Algorithm changes",
+        "Cultural movements",
+        "Technology adoption",
+        "Audience behavior"
+      ]
+    },
+    "week_25": {
+      "title": "Final Capstone Project",
+      "topics": [
+        "Project conceptualization",
+        "Creative brief development",
+        "Pre-production planning",
+        "Asset creation and gathering",
+        "Production execution",
+        "Post-production workflow",
+        "Quality control and review",
+        "Final output optimization",
+        "Multi-platform adaptation",
+        "Launch strategy",
+        "Marketing and promotion",
+        "Performance tracking"
+      ],
+      "capstone_options": [
+        {
+          "name": "Brand Launch Campaign",
+          "description": "Complete brand introduction",
+          "deliverables": ["Brand video", "Social content", "Website", "Print materials"]
+        },
+        {
+          "name": "Short Film Production",
+          "description": "Original narrative piece",
+          "deliverables": ["5-minute film", "Trailer", "BTS content", "Festival submission"]
+        },
+        {
+          "name": "Interactive Experience",
+          "description": "Cutting-edge interactive project",
+          "deliverables": ["Interactive installation", "Documentation", "User testing", "Case study"]
+        },
+        {
+          "name": "Content Creator Package",
+          "description": "Full creator launch",
+          "deliverables": ["Channel setup", "30 pieces of content", "Growth strategy", "Monetization plan"]
+        }
+      ],
+      "project_requirements": [
+        "Original concept",
+        "Professional execution",
+        "Multi-platform delivery",
+        "Documentation",
+        "Presentation ready",
+        "Portfolio integration"
+      ]
+    },
+    "week_26": {
+      "title": "Graduation & Career Launch",
+      "topics": [
+        "Portfolio finalization",
+        "Showreel perfection",
+        "Industry networking",
+        "Job search strategies",
+        "Freelance setup",
+        "Agency applications",
+        "Studio opportunities",
+        "Entrepreneurship path",
+        "Continued education",
+        "Industry certifications",
+        "Mentor connections",
+        "Alumni network"
+      ],
+      "career_preparation": [
+        "Interview preparation",
+        "Salary negotiation",
+        "Contract review",
+        "Tax considerations",
+        "Insurance needs",
+        "Equipment investment",
+        "Workspace setup"
+      ],
+      "final_showcase": {
+        "presentation_day": [
+          "Live presentation",
+          "Q&A session",
+          "Peer feedback",
+          "Industry panel",
+          "Awards ceremony"
+        ],
+        "deliverables": [
+          "Complete portfolio",
+          "Professional website",
+          "Demo reel",
+          "Business cards",
+          "LinkedIn profile",
+          "Certificate of completion"
+        ]
+      },
+      "future_resources": [
+        "Alumni community access",
+        "Continued learning paths",
+        "Industry partnerships",
+        "Job board access",
+        "Mentorship program",
+        "Equipment discounts",
+        "Software licenses",
+        "Collaboration opportunities"
+      ]
+    }
+  },
+  "tools_and_software": {
+    "essential_software": [
+      "Adobe Creative Suite (After Effects, Premiere Pro, Photoshop, Illustrator)",
+      "DaVinci Resolve Studio",
+      "Blender 3D",
+      "Processing IDE",
+      "Visual Studio Code (for p5.js)",
+      "CapCut Pro",
+      "Figma",
+      "Canva Pro"
+    ],
+    "mobile_apps": [
+      "CapCut",
+      "InShot",
+      "VSCO",
+      "Snapseed",
+      "Procreate",
+      "FlipaClip",
+      "RoughAnimator",
+      "Filmic Pro"
+    ],
+    "web_platforms": [
+      "CodePen",
+      "Glitch",
+      "GitHub",
+      "Netlify",
+      "YouTube Studio",
+      "Meta Creator Studio",
+      "TikTok Creator Tools",
+      "Later"
+    ],
+    "plugins_and_extensions": [
+      "Red Giant Suite",
+      "Video Copilot plugins",
+      "Boris FX",
+      "Magic Bullet Looks",
+      "Trapcode Suite",
+      "Element 3D",
+      "Duik Bassel",
+      "Animation Composer"
+    ],
+    "hardware_recommendations": {
+      "computer": "16GB RAM minimum, dedicated GPU, SSD storage",
+      "tablet": "iPad with Apple Pencil or equivalent",
+      "camera": "DSLR/Mirrorless or high-end smartphone",
+      "audio": "USB microphone, headphones",
+      "optional": "Green screen, ring light, tripod, gimbal"
+    }
+  },
+  "assessment_and_certification": {
+    "weekly_assessments": [
+      "Project submissions",
+      "Peer reviews",
+      "Technical challenges",
+      "Creative briefs",
+      "Speed creation tests"
+    ],
+    "monthly_projects": [
+      "Month 1: Animation reel",
+      "Month 2: Motion graphics package",
+      "Month 3: Creative coding portfolio",
+      "Month 4: 3D animation showcase",
+      "Month 5: Social media campaign",
+      "Month 6: Professional capstone"
+    ],
+    "certification_criteria": [
+      "Complete 80% of projects",
+      "Pass technical assessments",
+      "Build complete portfolio",
+      "Demonstrate platform mastery",
+      "Complete capstone project",
+      "Present final showcase"
+    ],
+    "skill_badges": [
+      "Animation Specialist",
+      "Motion Graphics Designer",
+      "Creative Coder",
+      "3D Artist",
+      "Content Creator",
+      "VFX Artist",
+      "Social Media Expert",
+      "Video Editor Pro"
+    ]
+  },
+  "career_support": {
+    "job_opportunities": [
+      "Freelance creative services",
+      "Agency positions",
+      "In-house creative roles",
+      "Content creator/influencer",
+      "Production company roles",
+      "Startup opportunities",
+      "Remote creative positions"
+    ],
+    "income_potential": {
+      "freelance": "₹500-5000/hour based on expertise",
+      "full_time": "₹3-15 LPA entry to mid-level",
+      "content_creator": "₹10K-10L/month based on following",
+      "project_based": "₹5K-5L per project"
+    },
+    "support_services": [
+      "Resume building",
+      "Portfolio reviews",
+      "Interview preparation",
+      "Freelance guidance",
+      "Client acquisition",
+      "Pricing strategies",
+      "Legal basics",
+      "Tax guidance"
+    ]
+  }
+}
