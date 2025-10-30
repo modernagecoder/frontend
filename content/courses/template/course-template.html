@@ -12,13 +12,15 @@
     <link rel="canonical" href="https://www.modernagecoders.com/courses/{{COURSE_SLUG}}" data-template="meta.canonical">
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.modernagecoders.com/courses/{{COURSE_SLUG}}" data-template="meta.og_url">
+    <meta property="og:url" content="https://www.modernagecoders.com/courses/{{COURSE_SLUG}}"
+        data-template="meta.og_url">
     <meta property="og:title" content="{{COURSE_TITLE}} - Modern Age Coders" data-template="meta.og_title">
     <meta property="og:description" content="{{COURSE_DESCRIPTION}}" data-template="meta.og_description">
     <meta property="og:image" content="{{OG_IMAGE}}" data-template="meta.og_image">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://www.modernagecoders.com/courses/{{COURSE_SLUG}}" data-template="meta.twitter_url">
+    <meta property="twitter:url" content="https://www.modernagecoders.com/courses/{{COURSE_SLUG}}"
+        data-template="meta.twitter_url">
     <meta property="twitter:title" content="{{COURSE_TITLE}} - Modern Age Coders" data-template="meta.twitter_title">
     <meta property="twitter:description" content="{{COURSE_DESCRIPTION}}" data-template="meta.twitter_description">
     <meta property="twitter:image" content="{{TWITTER_IMAGE}}" data-template="meta.twitter_image">
@@ -34,7 +36,6 @@
     </script>
 
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body class="course-detail-page">
@@ -45,19 +46,20 @@
         <nav>
             <div class="navbar">
                 <div class="nav-container">
-                    <a href="../../../src/pages/index.html" class="back-button" title="Back to Home">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                    <a href="/" class="back-button" title="Back to Home">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7" />
                         </svg>
                     </a>
-                    <a href="../../../src/pages/index.html" class="logo">
-                        <div class="logo-icon"></div>
+                    <a href="/" class="logo">
+                        <img src="/images/logo.png" alt="Modern Age Coders Logo" class="logo-img">
                         <span class="logo-text">Modern Age Coders</span>
                     </a>
                     <ul class="nav-menu" id="navMenu">
-                        <li class="nav-item"><a href="../../../src/pages/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                         <li class="nav-item dropdown">
-                            <a href="../index.html" class="nav-link">Courses
+                            <a href="/courses" class="nav-link">Courses
                                 <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
                                     fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
@@ -66,26 +68,33 @@
                                 </svg>
                             </a>
                             <div class="dropdown-content">
-                                <a href="../python-ai-kids-masterclass/index.html" class="dropdown-item">Python AI for Kids</a>
-                                <a href="../game-development-masterclass-for-kids/index.html" class="dropdown-item">Game Development for Kids</a>
-                                <a href="../kids-coding-blocks-masterclass/index.html" class="dropdown-item">Kids Coding Blocks</a>
-                                <a href="../react-js-complete-masterclass/index.html" class="dropdown-item">React JS Masterclass</a>
-                                <a href="../full-stack-web-development-masterclass/index.html" class="dropdown-item">Full Stack Development</a>
-                                <a href="../python-programming-masterclass-zero-to-advanced/index.html" class="dropdown-item">Python Programming</a>
+                                <a href="/courses/python-ai-kids-masterclass" class="dropdown-item">Python AI for
+                                    Kids</a>
+                                <a href="/courses/game-development-masterclass-for-kids" class="dropdown-item">Game
+                                    Development for Kids</a>
+                                <a href="/courses/kids-coding-blocks-masterclass" class="dropdown-item">Kids Coding
+                                    Blocks</a>
+                                <a href="/courses/react-js-complete-masterclass" class="dropdown-item">React JS
+                                    Masterclass</a>
+                                <a href="/courses/full-stack-web-development-masterclass" class="dropdown-item">Full
+                                    Stack Development</a>
+                                <a href="/courses/python-programming-masterclass-zero-to-advanced"
+                                    class="dropdown-item">Python Programming</a>
                             </div>
                         </li>
-                        <li class="nav-item"><a href="../../../src/pages/about.html" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="../../blog/generated/index.html" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="../../../src/pages/index.html#faq" class="nav-link">FAQ</a></li>
-                        <li class="nav-item"><a href="../../../src/pages/contact.html" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="/blog" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="/#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
                         <li class="nav-item dropdown">
-                            <a href="../../../src/pages/login.html" class="nav-link login-btn">Login</a>
+                            <a href="/login" class="nav-link login-btn">Login</a>
                             <div class="dropdown-content">
-                                <a href="../../../src/pages/login.html?type=student" class="dropdown-item">Student Login</a>
-                                <a href="../../../src/pages/login.html?type=teacher" class="dropdown-item">Teacher Login</a>
+                                <a href="/login?type=student" class="dropdown-item">Student Login</a>
+                                <a href="/login?type=teacher" class="dropdown-item">Teacher Login</a>
                             </div>
                         </li>
-                        <li class="nav-item" style="margin-left: 10px;"><a href="../../../src/pages/index.html#courses" class="cta-button">Start Learning</a></li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="/#courses" class="cta-button">Start
+                                Learning</a></li>
                     </ul>
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                         <span></span>
@@ -105,25 +114,28 @@
                 <span class="course-category" data-template="hero.category">{{HERO_CATEGORY}}</span>
                 <h1 class="course-hero-title" data-template="hero.title">{{HERO_TITLE}}</h1>
                 <p class="course-hero-subtitle" data-template="hero.subtitle">{{HERO_SUBTITLE}}</p>
-                
+
                 <!-- Course Meta Badges -->
                 <div class="course-meta-badges">
                     <span class="meta-badge" data-template="meta.duration">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
                         {{DURATION}}
                     </span>
                     <span class="meta-badge" data-template="meta.level">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
                             <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
                         </svg>
                         {{LEVEL}}
                     </span>
                     <span class="meta-badge" data-template="meta.commitment">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
                             <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
                             <line x1="16" y1="2" x2="16" y2="6"></line>
                             <line x1="8" y1="2" x2="8" y2="6"></line>
@@ -132,8 +144,11 @@
                         {{COMMITMENT}}
                     </span>
                     <span class="meta-badge certification" data-template="meta.certification">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path
+                                d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                            </path>
                         </svg>
                         {{CERTIFICATION}}
                     </span>
@@ -146,51 +161,79 @@
 
         <!-- Course Duration Information Section -->
         <section style="max-width: 1200px; margin: 2rem auto; padding: 0 2rem;">
-            <div style="background: rgba(16, 16, 28, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 1.5rem; padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; gap: 1.5rem; align-items: flex-start;" onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 20px 50px rgba(168, 85, 247, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.3)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'">
-                
+            <div style="background: rgba(16, 16, 28, 0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 1.5rem; padding: 2rem; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); transition: all 0.3s ease; position: relative; overflow: hidden; display: flex; gap: 1.5rem; align-items: flex-start;"
+                onmouseover="this.style.transform='translateY(-4px)'; this.style.boxShadow='0 20px 50px rgba(168, 85, 247, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'"
+                onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 8px 32px rgba(0, 0, 0, 0.3)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'">
+
                 <!-- Top gradient border -->
-                <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #a855f7, #4ecdc4, #ffa500); border-radius: 1.5rem 1.5rem 0 0;"></div>
-                
+                <div
+                    style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #a855f7, #4ecdc4, #ffa500); border-radius: 1.5rem 1.5rem 0 0;">
+                </div>
+
                 <!-- Duration Icon -->
-                <div style="flex-shrink: 0; width: 48px; height: 48px; background: linear-gradient(135deg, #a855f7, #4ecdc4); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" style="filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));">
+                <div
+                    style="flex-shrink: 0; width: 48px; height: 48px; background: linear-gradient(135deg, #a855f7, #4ecdc4); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(168, 85, 247, 0.3);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"
+                        style="filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));">
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                 </div>
-                
+
                 <!-- Duration Content -->
                 <div style="flex: 1;">
-                    <h3 style="font-size: 1.5rem; font-weight: 700; color: #F8FAFC; margin-bottom: 1rem; background: linear-gradient(135deg, #ffffff, #d1d8ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+                    <h3
+                        style="font-size: 1.5rem; font-weight: 700; color: #F8FAFC; margin-bottom: 1rem; background: linear-gradient(135deg, #ffffff, #d1d8ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
                         Flexible Course Duration
                     </h3>
-                    
+
                     <p style="color: #CBD5E1; font-size: 1rem; line-height: 1.6; margin-bottom: 1.5rem;">
-                        Course duration varies based on the student's background and learning pace. 
-                        <strong style="color: #F8FAFC; font-weight: 600;">For beginners (kids/teens):</strong> typically 6-9 months depending on the specific course. 
-                        <strong style="color: #F8FAFC; font-weight: 600;">For adults with prior knowledge:</strong> duration may be shorter with accelerated learning paths.
+                        Course duration varies based on the student's background and learning pace.
+                        <strong style="color: #F8FAFC; font-weight: 600;">For beginners (kids/teens):</strong> typically
+                        6-9 months depending on the specific course.
+                        <strong style="color: #F8FAFC; font-weight: 600;">For adults with prior knowledge:</strong>
+                        duration may be shorter with accelerated learning paths.
                     </p>
-                    
+
                     <!-- Duration Options Grid -->
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
-                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
-                            <span style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Standard Pace:</span>
-                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">6-9 months</span>
+                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;"
+                            onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
+                            <span
+                                style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Standard
+                                Pace:</span>
+                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">6-9
+                                months</span>
                         </div>
-                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;" onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
-                            <span style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Accelerated Option:</span>
-                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">Increase class frequency for faster completion</span>
+                        <div style="background: rgba(0, 0, 0, 0.2); border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 0.75rem; padding: 1rem; transition: all 0.3s ease;"
+                            onmouseover="this.style.background='rgba(24, 24, 40, 0.9)'; this.style.borderColor='rgba(255, 255, 255, 0.2)'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.background='rgba(0, 0, 0, 0.2)'; this.style.borderColor='rgba(255, 255, 255, 0.12)'; this.style.transform='translateY(0)'">
+                            <span
+                                style="display: block; font-size: 0.875rem; color: #94A3B8; margin-bottom: 0.25rem; font-weight: 500;">Accelerated
+                                Option:</span>
+                            <span style="display: block; font-size: 1rem; color: #F8FAFC; font-weight: 600;">Increase
+                                class frequency for faster completion</span>
                         </div>
                     </div>
-                    
+
                     <!-- Contact Information -->
-                    <div style="background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.75rem; padding: 1.25rem;">
-                        <p style="color: #CBD5E1; font-size: 0.95rem; line-height: 1.5; display: flex; align-items: flex-start; gap: 0.75rem; margin: 0;">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" style="flex-shrink: 0; margin-top: 0.125rem;">
-                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    <div
+                        style="background: rgba(168, 85, 247, 0.1); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 0.75rem; padding: 1.25rem;">
+                        <p
+                            style="color: #CBD5E1; font-size: 0.95rem; line-height: 1.5; display: flex; align-items: flex-start; gap: 0.75rem; margin: 0;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a855f7"
+                                stroke-width="2" style="flex-shrink: 0; margin-top: 0.125rem;">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
                             </svg>
-                            For personalized duration planning and detailed course information, contact Modern Age Coders at 
-                            <a href="tel:+919123366161" style="color: #a855f7; text-decoration: none; font-weight: 600; transition: all 0.3s ease; padding: 0.25rem 0.5rem; border-radius: 0.375rem; background: rgba(168, 85, 247, 0.1);" onmouseover="this.style.background='rgba(168, 85, 247, 0.2)'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 15px rgba(168, 85, 247, 0.3)'" onmouseout="this.style.background='rgba(168, 85, 247, 0.1)'; this.style.transform='scale(1)'; this.style.boxShadow='none'">9123366161</a>
+                            For personalized duration planning and detailed course information, contact Modern Age
+                            Coders at
+                            <a href="tel:+919123366161"
+                                style="color: #a855f7; text-decoration: none; font-weight: 600; transition: all 0.3s ease; padding: 0.25rem 0.5rem; border-radius: 0.375rem; background: rgba(168, 85, 247, 0.1);"
+                                onmouseover="this.style.background='rgba(168, 85, 247, 0.2)'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 15px rgba(168, 85, 247, 0.3)'"
+                                onmouseout="this.style.background='rgba(168, 85, 247, 0.1)'; this.style.transform='scale(1)'; this.style.boxShadow='none'">9123366161</a>
                         </p>
                     </div>
                 </div>
@@ -225,7 +268,7 @@
         <section class="program-overview-section">
             <div class="program-overview-container">
                 <h2 class="section-title">Program Overview</h2>
-                
+
                 <div class="overview-description" data-template="program_overview.description">
                     {{PROGRAM_OVERVIEW}}
                 </div>
@@ -271,8 +314,9 @@
                 <div class="course-tab-content active" id="curriculum-tab">
                     <div class="curriculum-content">
                         <h2>Detailed Course Curriculum</h2>
-                        <p class="curriculum-intro">Explore the complete week-by-week breakdown of what you'll learn in this comprehensive program.</p>
-                        
+                        <p class="curriculum-intro">Explore the complete week-by-week breakdown of what you'll learn in
+                            this comprehensive program.</p>
+
                         <!-- Nested Accordion Structure: Phase → Month → Week -->
                         <div class="curriculum-accordion" data-template="curriculum">
                             {{CURRICULUM_MODULES}}
@@ -284,8 +328,9 @@
                 <div class="course-tab-content" id="projects-tab">
                     <div class="projects-content">
                         <h2>Projects You'll Build</h2>
-                        <p class="tab-intro">Build a professional portfolio with {{TOTAL_PROJECTS}} real-world projects.</p>
-                        
+                        <p class="tab-intro">Build a professional portfolio with {{TOTAL_PROJECTS}} real-world projects.
+                        </p>
+
                         <div class="projects-overview" data-template="projects">
                             {{PROJECTS_OVERVIEW}}
                         </div>
@@ -311,7 +356,7 @@
                     <div class="technologies-content">
                         <h2>Technologies & Skills You'll Master</h2>
                         <p class="tab-intro">Comprehensive coverage of the entire modern web development stack.</p>
-                        
+
                         <div class="skills-mastered-grid" data-template="skills">
                             {{SKILLS_MASTERED}}
                         </div>
@@ -329,7 +374,8 @@
                 <div class="course-tab-content" id="career-tab">
                     <div class="career-content">
                         <h2>Career Outcomes & Opportunities</h2>
-                        <p class="tab-intro">Transform your career with industry-ready skills and job placement support.</p>
+                        <p class="tab-intro">Transform your career with industry-ready skills and job placement support.
+                        </p>
 
                         <div class="prerequisites-box">
                             <h3>Prerequisites</h3>
@@ -373,7 +419,7 @@
     </main>
 
     <script src="./course-navigation.js"></script>
-    
+
     <!-- Responsive styles for duration section -->
     <style>
         @media (max-width: 1024px) {
@@ -381,18 +427,21 @@
                 flex-direction: column !important;
                 text-align: center !important;
             }
+
             .duration-options-responsive {
                 grid-template-columns: 1fr !important;
             }
         }
-        
+
         @media (max-width: 768px) {
             .duration-section-responsive {
                 padding: 1.5rem !important;
             }
+
             .duration-section-responsive h3 {
                 font-size: 1.25rem !important;
             }
+
             .contact-text-responsive {
                 flex-direction: column !important;
                 gap: 0.5rem !important;
@@ -400,7 +449,7 @@
             }
         }
     </style>
-    
+
     <!-- Load Mobile Navigation JavaScript -->
     <script src="../../../src/js/mobile-navigation.js"></script>
 </body>
