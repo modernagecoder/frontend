@@ -1,0 +1,1056 @@
+{
+  "meta": {
+    "slug": "creative-media-design-masterclass-teens",
+    "title": "Complete Creative Media Design & Editing Masterclass for Teens - Zero to Professional Creator",
+    "description": "The most comprehensive 1-year creative media program designed for teenagers. Master photo editing, video production, graphic design, motion graphics, and social media content creation. From absolute beginner to professional content creator using industry-standard tools like Photoshop, Premiere Pro, After Effects, and more.",
+    "keywords": [
+      "photo editing for teens",
+      "video editing",
+      "graphic design",
+      "Photoshop tutorial",
+      "Premiere Pro",
+      "After Effects",
+      "content creation",
+      "YouTube video editing",
+      "social media design",
+      "motion graphics",
+      "digital art",
+      "creative career",
+      "photography editing",
+      "filmmaking",
+      "visual effects",
+      "teen creativity"
+    ],
+    "category": "Creative Media & Digital Design",
+    "price": {
+      "group": "₹1299/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Professional",
+    "commitment": "12-15 hours/week recommended",
+    "certification": "Professional Creative Designer Certification upon completion"
+  },
+  "program_overview": {
+    "title": "Complete Creative Media Design & Editing Masterclass for Teens",
+    "tagline": "From 'First Photo Edit' to Professional Content Creator & Designer",
+    "description": "This specially crafted course transforms creative teenagers into professional digital artists and content creators in just 12 months. Whether you dream of becoming a YouTuber, Instagram influencer, filmmaker, graphic designer, or just want to create amazing content, this program teaches you everything.\n\nYou'll master industry-standard software like Adobe Photoshop, Premiere Pro, After Effects, Illustrator, and more. Create stunning photos, cinematic videos, viral social media content, professional logos, animations, and build a portfolio that gets you noticed by colleges and employers.",
+    "what_makes_this_different": [
+      "Designed specifically for teenage creators with trendy, relevant examples",
+      "Learn what's actually popular: TikTok editing, YouTube thumbnails, Instagram aesthetics",
+      "No expensive equipment required - start with just a phone and computer",
+      "Create content teens actually want to make",
+      "Build a following while learning",
+      "Industry-standard software training included",
+      "Real client projects and earning opportunities",
+      "College portfolio and career preparation"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-6): Design Basics, Photo Editing, Basic Video, Social Media Content",
+      "phase_2": "Advanced Mastery (Months 7-12): Professional Video, Motion Graphics, Advanced Design, Portfolio"
+    },
+    "career_outcomes": [
+      "Social Media Content Creator (after 3 months)",
+      "Junior Photo/Video Editor (after 6 months)",
+      "Freelance Designer (after 9 months)",
+      "Professional Creative Designer (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Creative Skills (Months 1-6, Weeks 1-26)",
+    "description": "Build solid creative foundations. Learn design principles, master photo editing, create videos, and start building your online presence.",
+    "month_1_2": {
+      "title": "Months 1-2: Creative Fundamentals & Photo Editing Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Digital Creativity & Setup",
+        "topics": [
+          "The creative industry landscape for Gen Z",
+          "Career paths: YouTuber, Designer, Photographer, Filmmaker",
+          "Essential hardware: Computer specs, tablets, phones",
+          "Free vs paid software options",
+          "Setting up Adobe Creative Cloud (student discount)",
+          "Alternative free tools: GIMP, DaVinci Resolve, Canva",
+          "File management and organization",
+          "Understanding file formats: JPG, PNG, RAW, MP4, MOV",
+          "Resolution, DPI, and pixel basics",
+          "Color theory fundamentals: RGB vs CMYK",
+          "Creating your first creative workspace",
+          "Building a creative routine and staying inspired"
+        ],
+        "projects": [
+          "Set up complete creative workstation",
+          "Create organized folder structure for projects",
+          "Design a personal creative brand/logo"
+        ],
+        "practice": "Daily: 30 min creative exploration, 1 hour tool familiarization"
+      },
+      "week_3_4": {
+        "title": "Photoshop Fundamentals",
+        "topics": [
+          "Photoshop interface tour and customization",
+          "Essential panels: Layers, Properties, History",
+          "Working with layers: Creating, organizing, blending modes",
+          "Selection tools: Marquee, Lasso, Magic Wand, Quick Selection",
+          "Basic adjustments: Brightness, Contrast, Levels, Curves",
+          "Color correction: Hue/Saturation, Color Balance",
+          "Cropping and straightening images",
+          "Removing objects: Spot Healing, Clone Stamp, Content-Aware Fill",
+          "Working with text: Fonts, effects, formatting",
+          "Saving for different purposes: Web, print, social media",
+          "Non-destructive editing with adjustment layers",
+          "Keyboard shortcuts for speed"
+        ],
+        "projects": [
+          "Edit 10 personal photos to perfection",
+          "Create viral meme templates",
+          "Design custom phone wallpapers"
+        ],
+        "practice": "Edit 5 different photos daily using various techniques"
+      },
+      "week_5_6": {
+        "title": "Advanced Photo Manipulation",
+        "topics": [
+          "Advanced selections: Select and Mask, Color Range",
+          "Compositing: Combining multiple images seamlessly",
+          "Sky replacement and background changes",
+          "Portrait retouching: Skin, eyes, teeth, hair",
+          "Frequency separation for professional retouching",
+          "Creating realistic shadows and reflections",
+          "Photo filters and effects: Vintage, cinematic, artistic",
+          "Double exposure and creative effects",
+          "Creating social media templates",
+          "Batch processing multiple photos",
+          "Actions and automation for efficiency",
+          "RAW processing basics with Camera Raw"
+        ],
+        "projects": [
+          "Create surreal photo manipulation artwork",
+          "Professional portrait retouching project",
+          "Design Instagram post templates"
+        ],
+        "practice": "Complete 20 photo manipulation challenges"
+      },
+      "week_7_8": {
+        "title": "Mobile Photography & Editing",
+        "topics": [
+          "Smartphone photography techniques",
+          "Composition rules: Rule of thirds, leading lines, symmetry",
+          "Lighting for photos: Natural vs artificial",
+          "Portrait mode and depth effects",
+          "Mobile editing apps: VSCO, Snapseed, Lightroom Mobile",
+          "Creating consistent Instagram feeds",
+          "Instagram Stories design and templates",
+          "TikTok photo slideshow trends",
+          "Pinterest-worthy photo editing",
+          "Mobile photography accessories",
+          "Shooting and editing vertical content",
+          "Quick edits for immediate posting"
+        ],
+        "projects": [
+          "30-day Instagram feed makeover",
+          "Create viral TikTok photo series",
+          "Mobile photography portfolio"
+        ],
+        "practice": "Post one edited photo daily on social media"
+      }
+    },
+    "month_3_4": {
+      "title": "Months 3-4: Video Editing & Production Basics",
+      "weeks": "Week 9-17",
+      "week_9_10": {
+        "title": "Video Production Fundamentals",
+        "topics": [
+          "Video production workflow overview",
+          "Pre-production: Planning, scripting, storyboarding",
+          "Camera basics: Frames per second, resolution (1080p, 4K)",
+          "Shooting techniques: Angles, movements, stability",
+          "Smartphone videography tips and tricks",
+          "Audio importance: Recording clean sound",
+          "Basic lighting setups with household items",
+          "B-roll and why it matters",
+          "Understanding codecs and compression",
+          "Organizing footage and project files",
+          "Copyright and music licensing basics",
+          "Finding royalty-free music and sound effects"
+        ],
+        "projects": [
+          "Shoot and plan first short film (2-3 minutes)",
+          "Create a day-in-my-life vlog",
+          "Record product review video"
+        ],
+        "practice": "Shoot 10 different video types (slow-mo, time-lapse, etc.)"
+      },
+      "week_11_12": {
+        "title": "Premiere Pro Essentials",
+        "topics": [
+          "Premiere Pro interface and workspace setup",
+          "Project settings and sequence creation",
+          "Importing and organizing media",
+          "Timeline basics: Tracks, clips, navigation",
+          "Essential editing tools: Selection, Razor, Ripple",
+          "Cutting techniques: J-cuts, L-cuts, match cuts",
+          "Transitions: Cuts, fades, wipes, custom transitions",
+          "Audio editing: Levels, fades, noise reduction",
+          "Color correction basics: Lumetri Color panel",
+          "Adding titles and lower thirds",
+          "Exporting for different platforms",
+          "Premiere Pro keyboard shortcuts"
+        ],
+        "projects": [
+          "Edit a cinematic travel video",
+          "Create YouTube video with intro/outro",
+          "Edit multi-camera interview"
+        ],
+        "practice": "Edit one video daily for different platforms"
+      },
+      "week_13_14": {
+        "title": "YouTube Content Creation",
+        "topics": [
+          "YouTube algorithm and what makes videos viral",
+          "Thumbnail design in Photoshop",
+          "Creating clickable titles without clickbait",
+          "YouTube video structure: Hook, content, CTA",
+          "Editing styles: Gaming, vlog, tutorial, reaction",
+          "Jump cuts and pacing for retention",
+          "Adding subtitles and captions",
+          "End screens and cards setup",
+          "YouTube Shorts vs long-form content",
+          "Analytics: Understanding retention graphs",
+          "Building a consistent upload schedule",
+          "Collaborating with other creators"
+        ],
+        "projects": [
+          "Complete YouTube channel setup and branding",
+          "Create and upload 5 different video styles",
+          "Design thumbnail templates"
+        ],
+        "practice": "Analyze 20 successful YouTube videos in your niche"
+      },
+      "week_15_16": {
+        "title": "TikTok & Short-Form Content",
+        "topics": [
+          "Vertical video best practices",
+          "TikTok trends and how to spot them",
+          "Quick editing techniques for virality",
+          "CapCut advanced features",
+          "Speed ramping and velocity edits",
+          "Text animations and reveals",
+          "Transition mastery for TikTok",
+          "Green screen and effects",
+          "Instagram Reels optimization",
+          "YouTube Shorts specific editing",
+          "Sound sync and beat matching",
+          "Creating series and themed content"
+        ],
+        "projects": [
+          "Create 30 TikToks in different styles",
+          "Develop signature editing style",
+          "Build following to 1000+ followers"
+        ],
+        "practice": "Post one short-form video daily for 30 days"
+      },
+      "week_17": {
+        "title": "Month 3-4 Review & Portfolio Building",
+        "topics": [
+          "Portfolio website creation basics",
+          "Organizing and presenting work",
+          "Creating demo reels",
+          "Getting first clients as a teen",
+          "Pricing your services"
+        ],
+        "projects": [
+          "CAPSTONE: Create 5-minute portfolio showreel",
+          "Build online portfolio website",
+          "Complete first paid client project"
+        ],
+        "assessment": "Submit portfolio for professional review"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 5-6: Graphic Design & Brand Creation",
+      "weeks": "Week 18-26",
+      "week_18_19": {
+        "title": "Illustrator & Vector Design",
+        "topics": [
+          "Vector vs raster graphics explained",
+          "Illustrator interface and tools",
+          "Pen tool mastery: Curves, angles, handles",
+          "Shape tools and pathfinder operations",
+          "Creating logos from scratch",
+          "Typography and custom lettering",
+          "Color palettes and swatches",
+          "Gradient and pattern creation",
+          "Icon design for apps and web",
+          "Business card and stationery design",
+          "Tracing and vectorizing images",
+          "Exporting for different uses"
+        ],
+        "projects": [
+          "Design 5 different logo concepts",
+          "Create complete brand identity package",
+          "Design custom icon set"
+        ],
+        "practice": "Create one vector illustration daily"
+      },
+      "week_20_21": {
+        "title": "Social Media Design & Branding",
+        "topics": [
+          "Understanding platform specifications",
+          "Instagram post and story templates",
+          "Facebook cover and post designs",
+          "Twitter/X header and post graphics",
+          "LinkedIn professional graphics",
+          "Pinterest pin optimization",
+          "Consistent brand aesthetics",
+          "Creating content calendars",
+          "Carousel posts and slideshows",
+          "Infographic design principles",
+          "Data visualization basics",
+          "Canva for quick designs"
+        ],
+        "projects": [
+          "30-day social media content package",
+          "Brand guide for personal brand",
+          "Infographic series on trending topic"
+        ],
+        "practice": "Design social media posts for 5 different brands"
+      },
+      "week_22_23": {
+        "title": "Print Design & Merchandise",
+        "topics": [
+          "Print vs digital design differences",
+          "Understanding bleeds and margins",
+          "CMYK color mode and print preparation",
+          "T-shirt and apparel design",
+          "Sticker and label design",
+          "Poster and flyer creation",
+          "Album and book cover design",
+          "Magazine layout basics",
+          "Packaging design introduction",
+          "Print-on-demand platforms",
+          "Setting up online merchandise store",
+          "Copyright and trademark basics"
+        ],
+        "projects": [
+          "Design merch line with 10 products",
+          "Create concert poster series",
+          "Design and sell first products online"
+        ],
+        "practice": "Create designs for different print formats"
+      },
+      "week_24_25": {
+        "title": "Web & UI Design Basics",
+        "topics": [
+          "Web design principles for beginners",
+          "User interface (UI) fundamentals",
+          "User experience (UX) basics",
+          "Wireframing and prototyping",
+          "Figma introduction and basics",
+          "Designing responsive layouts",
+          "Mobile app interface design",
+          "Website banner and hero images",
+          "Button and form design",
+          "Color psychology in web design",
+          "Landing page creation",
+          "Portfolio website design"
+        ],
+        "projects": [
+          "Design mobile app interface",
+          "Create landing page design",
+          "Redesign favorite website"
+        ],
+        "practice": "Daily UI challenge for 30 days"
+      },
+      "week_26": {
+        "title": "Phase 1 Capstone Project",
+        "topics": [
+          "Project planning and time management",
+          "Client communication basics",
+          "Creating project proposals",
+          "Feedback incorporation",
+          "Final presentation skills"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Complete Brand Identity Project",
+          "Logo, social media kit, video intro, merchandise designs",
+          "Present to mock client panel"
+        ],
+        "assessment": "Phase 1 comprehensive skills evaluation"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Creative Mastery & Professional Skills (Months 7-12, Weeks 27-52)",
+    "description": "Master advanced video effects, motion graphics, 3D design, professional workflows, and build your creative business.",
+    "month_7_8": {
+      "title": "Months 7-8: Advanced Video & Visual Effects",
+      "weeks": "Week 27-35",
+      "week_27_28": {
+        "title": "Advanced Premiere Pro Techniques",
+        "topics": [
+          "Multi-camera editing workflow",
+          "Advanced color grading with Lumetri",
+          "Creating custom LUTs",
+          "Secondary color correction",
+          "Audio mastering and mixing",
+          "Sound design and foley",
+          "Dynamic linking with After Effects",
+          "Proxy workflow for 4K editing",
+          "Team projects and collaboration",
+          "XML and project exchange",
+          "Advanced transitions and effects",
+          "Time remapping and speed ramping"
+        ],
+        "projects": [
+          "Edit professional music video",
+          "Create documentary with color grade",
+          "Multi-cam event coverage edit"
+        ],
+        "practice": "Master 20 advanced editing techniques"
+      },
+      "week_29_30": {
+        "title": "After Effects Fundamentals",
+        "topics": [
+          "After Effects interface and workflow",
+          "Compositions and layers",
+          "Keyframe animation basics",
+          "Position, scale, rotation, opacity",
+          "Easy ease and graph editor",
+          "Text animation and kinetic typography",
+          "Shape layers and animations",
+          "Masking and rotoscoping",
+          "3D layers and cameras",
+          "Effects and presets",
+          "Rendering and output settings",
+          "Essential Graphics panel"
+        ],
+        "projects": [
+          "Animated logo reveal",
+          "Kinetic typography video",
+          "Lower thirds package"
+        ],
+        "practice": "Create one motion graphic daily"
+      },
+      "week_31_32": {
+        "title": "Visual Effects & Compositing",
+        "topics": [
+          "Green screen keying techniques",
+          "Advanced masking and rotoscoping",
+          "Motion tracking and stabilization",
+          "3D camera tracking",
+          "Particle effects and simulations",
+          "Compositing multiple layers",
+          "Color matching and integration",
+          "Creating realistic shadows",
+          "Wire and object removal",
+          "Sky replacement in video",
+          "Face tracking and replacement",
+          "Creating sci-fi effects"
+        ],
+        "projects": [
+          "VFX short film (superhero powers)",
+          "Green screen music video",
+          "Before/after VFX breakdown reel"
+        ],
+        "practice": "Complete 15 VFX shots from raw footage"
+      },
+      "week_33_34": {
+        "title": "Motion Graphics Design",
+        "topics": [
+          "Motion design principles",
+          "Storyboarding for motion graphics",
+          "Animated infographics",
+          "Data visualization in motion",
+          "Broadcast graphics packages",
+          "Social media motion templates",
+          "Animated GIFs and stickers",
+          "Loading animations and UI motion",
+          "Expression basics in After Effects",
+          "Using motion graphics templates",
+          "Creating template packages",
+          "Client revision workflow"
+        ],
+        "projects": [
+          "Explainer video with infographics",
+          "Broadcast news graphics package",
+          "Social media motion templates set"
+        ],
+        "practice": "Design 30 different motion graphics"
+      },
+      "week_35": {
+        "title": "3D Design Introduction",
+        "topics": [
+          "3D design concepts and software options",
+          "Blender basics (free alternative)",
+          "Cinema 4D Lite in After Effects",
+          "3D modeling fundamentals",
+          "Texturing and materials",
+          "Lighting and rendering",
+          "3D text and logos",
+          "Product visualization",
+          "Augmented reality filters basics",
+          "3D for social media",
+          "Integration with 2D workflows",
+          "Future of 3D in content creation"
+        ],
+        "projects": [
+          "3D animated logo",
+          "Product visualization render",
+          "AR filter for Instagram/Snapchat"
+        ],
+        "practice": "Create 10 3D elements for videos"
+      }
+    },
+    "month_9_10": {
+      "title": "Months 9-10: Professional Photography & Advanced Design",
+      "weeks": "Week 36-44",
+      "week_36_37": {
+        "title": "Professional Photography Editing",
+        "topics": [
+          "Lightroom Classic workflow",
+          "RAW processing mastery",
+          "Catalog organization and keywords",
+          "Advanced color grading",
+          "Creating and selling presets",
+          "Batch editing for consistency",
+          "Tethered shooting setup",
+          "HDR photography and processing",
+          "Panorama stitching",
+          "Focus stacking techniques",
+          "Professional retouching workflow",
+          "Client delivery methods"
+        ],
+        "projects": [
+          "Edit complete wedding photo set",
+          "Create preset pack for sale",
+          "Professional portrait session editing"
+        ],
+        "practice": "Process 500 RAW photos professionally"
+      },
+      "week_38_39": {
+        "title": "Advanced Photoshop Techniques",
+        "topics": [
+          "Advanced compositing techniques",
+          "Digital painting and illustration",
+          "Photo restoration and colorization",
+          "Creating photorealistic effects",
+          "Advanced retouching: Dodge & burn",
+          "Fashion and beauty retouching",
+          "Architectural photo editing",
+          "Product photography post-production",
+          "Creating mockups and presentations",
+          "Smart objects and smart filters",
+          "Photoshop automation and scripts",
+          "Plugin ecosystem overview"
+        ],
+        "projects": [
+          "Digital art masterpiece",
+          "Restore old family photos",
+          "Fashion magazine cover edit"
+        ],
+        "practice": "Complete 20 advanced Photoshop challenges"
+      },
+      "week_40_41": {
+        "title": "Animation & GIF Creation",
+        "topics": [
+          "Principles of animation",
+          "Frame-by-frame animation basics",
+          "Timeline animation in Photoshop",
+          "Creating animated GIFs",
+          "Cinemagraphs creation",
+          "Stop motion techniques",
+          "Character animation basics",
+          "Animated stickers for messaging apps",
+          "Web animation formats",
+          "Lottie animations introduction",
+          "Animation for email marketing",
+          "Optimizing file sizes"
+        ],
+        "projects": [
+          "Animated GIF series for brand",
+          "Cinemagraph portfolio",
+          "Stop motion product video"
+        ],
+        "practice": "Create 30 different animations"
+      },
+      "week_42_43": {
+        "title": "Audio Production for Video",
+        "topics": [
+          "Audio fundamentals for video editors",
+          "Adobe Audition basics",
+          "Recording voiceovers professionally",
+          "Podcast editing workflow",
+          "Music mixing for video",
+          "Sound effects and foley recording",
+          "Audio restoration and cleanup",
+          "Creating soundscapes",
+          "Syncing audio and video",
+          "Loudness standards for platforms",
+          "Creating audio visualizers",
+          "Spatial audio introduction"
+        ],
+        "projects": [
+          "Produce complete podcast episode",
+          "Create film sound design",
+          "Music video with audio visualization"
+        ],
+        "practice": "Edit audio for 20 different projects"
+      },
+      "week_44": {
+        "title": "Live Streaming & Real-Time Content",
+        "topics": [
+          "Live streaming setup and equipment",
+          "OBS Studio configuration",
+          "Stream overlays and alerts",
+          "Multi-camera streaming",
+          "Green screen for streaming",
+          "Streaming to multiple platforms",
+          "Interactive content creation",
+          "Virtual events production",
+          "Live editing techniques",
+          "Audience engagement tools",
+          "Monetization while streaming",
+          "Building streaming community"
+        ],
+        "projects": [
+          "Set up professional streaming setup",
+          "Design complete stream package",
+          "Host 10-hour charity stream"
+        ],
+        "practice": "Stream weekly for audience building"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 11-12: Business Skills & Career Launch",
+      "weeks": "Week 45-52",
+      "week_45_46": {
+        "title": "Freelancing & Client Work",
+        "topics": [
+          "Setting up freelance business as a teen",
+          "Legal considerations for young freelancers",
+          "Creating professional contracts",
+          "Pricing strategies and packages",
+          "Finding clients on Fiverr, Upwork",
+          "Building local client base",
+          "Project management tools",
+          "Client communication best practices",
+          "Handling revisions and scope creep",
+          "Invoice and payment systems",
+          "Building recurring revenue",
+          "Scaling from freelancer to agency"
+        ],
+        "projects": [
+          "Launch freelance service offerings",
+          "Complete 5 paid client projects",
+          "Build ₹10,000 monthly revenue"
+        ],
+        "practice": "Pitch to 50 potential clients"
+      },
+      "week_47_48": {
+        "title": "Building Your Creative Brand",
+        "topics": [
+          "Personal branding for creatives",
+          "Creating consistent online presence",
+          "Content strategy development",
+          "Growing social media following",
+          "Email marketing basics",
+          "Building email list as teen",
+          "Creating and selling digital products",
+          "Course and tutorial creation",
+          "Passive income streams",
+          "Collaboration and networking",
+          "Speaking and workshop opportunities",
+          "Building authority in your niche"
+        ],
+        "projects": [
+          "Launch personal brand across platforms",
+          "Create and sell first digital product",
+          "Reach 10,000 followers milestone"
+        ],
+        "practice": "Post valuable content daily for 30 days"
+      },
+      "week_49_50": {
+        "title": "Advanced Portfolio & Showreel",
+        "topics": [
+          "Portfolio psychology and strategy",
+          "Curating your best work",
+          "Creating case studies",
+          "Before/after presentations",
+          "Video showreel editing",
+          "Website portfolio best practices",
+          "Behance and creative platforms",
+          "LinkedIn portfolio features",
+          "NFTs and digital art marketplaces",
+          "Print portfolio creation",
+          "Interview presentation materials",
+          "Continuous portfolio updates"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "3-minute showreel video",
+          "10 detailed case studies"
+        ],
+        "practice": "Get portfolio reviewed by 10 professionals"
+      },
+      "week_51": {
+        "title": "Industry Trends & Future Skills",
+        "topics": [
+          "AI in creative industry",
+          "AI art tools: Midjourney, DALL-E",
+          "AI video editing tools",
+          "Virtual and augmented reality",
+          "Metaverse content creation",
+          "NFTs and blockchain for creatives",
+          "Sustainable design practices",
+          "Accessibility in design",
+          "Cultural sensitivity in content",
+          "Global market opportunities",
+          "Emerging platforms and formats",
+          "Continuous learning strategies"
+        ],
+        "projects": [
+          "AI-assisted creative project",
+          "VR/AR experience design",
+          "Future-focused portfolio piece"
+        ],
+        "practice": "Experiment with 5 emerging technologies"
+      },
+      "week_52": {
+        "title": "Final Showcase & Career Launch",
+        "topics": [
+          "Career paths in creative industry",
+          "College applications with creative portfolio",
+          "Internship opportunities for teens",
+          "Building professional network",
+          "Resume for creative positions",
+          "Interview preparation",
+          "Negotiating as young professional",
+          "Continuing education options",
+          "Industry certifications",
+          "Mentorship and growth",
+          "5-year career planning",
+          "Graduation celebration"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Professional Creative Agency Simulation",
+          "Complete brand campaign: Video, photo, design, social media",
+          "Present to industry professionals panel"
+        ],
+        "assessment": "Final comprehensive evaluation and certification"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Placeholder - Structure Required by Template",
+    "description": "This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.",
+    "month_13_14": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_53_54": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_55_56": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_57_58": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_59_60": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_61": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      }
+    },
+    "month_15_16": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_62_63": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_64_65": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_66_67": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_68_69": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_70": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      }
+    },
+    "month_17_18": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_71_72": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_73_74": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_75_76": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_77": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_78": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "assessment": "N/A"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Placeholder - Structure Required by Template",
+    "description": "This phase is not applicable for the 1-year creative course but included to maintain JSON structure integrity.",
+    "month_19_20": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_79_80": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_81_82": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_83_84": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_85_86": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_87": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      }
+    },
+    "month_21_22": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_88_89": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_90_91": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_92_93": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_94_95": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_96": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      }
+    },
+    "month_23": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_97": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_98": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_99": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      },
+      "week_100": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"],
+        "practice": "N/A"
+      }
+    },
+    "month_24": {
+      "title": "Not Applicable",
+      "weeks": "N/A",
+      "week_101_102": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "projects": ["N/A"]
+      },
+      "week_103": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "deliverables": ["N/A"]
+      },
+      "week_104": {
+        "title": "N/A",
+        "topics": ["N/A"],
+        "deliverables": ["N/A"],
+        "assessment": "N/A"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-6): Instagram Feed Makeover, YouTube Channel Launch, TikTok Viral Videos, Logo Designs, Photo Manipulations",
+      "Phase 2 (Months 7-12): Music Videos, VFX Short Films, Motion Graphics Package, Streaming Setup, Client Projects, Final Showreel"
+    ],
+    "total_projects_built": "50+ creative projects from social media content to professional client work",
+    "skills_mastered": [
+      "Photo Editing: Photoshop, Lightroom, Mobile Apps, RAW Processing, Retouching",
+      "Video Production: Premiere Pro, Filming Techniques, Color Grading, Audio Editing",
+      "Motion Graphics: After Effects, Animation, VFX, Compositing, 3D Basics",
+      "Graphic Design: Illustrator, Logo Design, Branding, Typography, Layout",
+      "Social Media: Content Creation, Platform Optimization, Viral Strategies, Analytics",
+      "Professional Skills: Client Management, Pricing, Contracts, Portfolio Building",
+      "Trending Platforms: YouTube, TikTok, Instagram, Twitch Streaming",
+      "Business: Freelancing, Digital Products, Personal Branding, Marketing",
+      "Advanced: AI Tools, AR Filters, 3D Design, Live Production",
+      "Software: Adobe Creative Suite, DaVinci Resolve, Canva, Figma, OBS"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-4 hours",
+      "hands_on_coding": "6-8 hours",
+      "projects": "3-4 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "12-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly creative workshops and critiques",
+      "mentorship": "1-on-1 guidance from industry professionals",
+      "community": "Teen creator Discord community",
+      "code_review": "Professional portfolio and project reviews",
+      "career_support": "Client connections and job opportunities",
+      "lifetime_access": "All tutorials and future updates included"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after Phase 1 completion",
+      "final_certificate": "Professional Creative Designer Certificate",
+      "linkedin_badge": "Adobe Certified Associate preparation",
+      "industry_recognized": "Portfolio ready for industry/college",
+      "portfolio_projects": "50+ projects for professional showcase"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal requirements - perfect for creative teens",
+    "coding_experience": "No technical skills needed - creativity is key",
+    "equipment": "Computer/laptop (specs provided), smartphone helpful",
+    "time_commitment": "12-15 hours per week for best results",
+    "english": "Basic English understanding",
+    "motivation": "Passion for creativity and visual storytelling"
+  },
+  "who_is_this_for": {
+    "students": "High school students (13-18) interested in creative careers",
+    "working_professionals": "Young adults wanting creative skills",
+    "entrepreneurs": "Teen entrepreneurs needing content creation skills",
+    "freelancers": "Students wanting to earn through creative work",
+    "kids": "Creative middle schoolers with parental support",
+    "anyone": "Anyone who loves creating visual content"
+  },
+  "career_paths_after_completion": [
+    "Social Media Content Creator",
+    "YouTube Video Editor",
+    "Freelance Graphic Designer",
+    "Photo Editor/Retoucher",
+    "Motion Graphics Designer",
+    "Video Production Assistant",
+    "Brand Designer",
+    "Digital Marketing Creative",
+    "VFX Artist (Junior)",
+    "Creative Director (with experience)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹2-5 LPA (Freelance/Part-time)",
+    "after_12_months": "₹4-8 LPA (Junior Designer/Editor)",
+    "after_18_months": "₹6-12 LPA (Mid-level Creative)",
+    "after_24_months": "₹10-20+ LPA (Senior/Lead Creative)",
+    "freelance": "₹500-5000/project based on complexity",
+    "international": "$25k-70k USD for creative roles"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Freelance client connections and job support",
+    "lifetime_updates": "Free access to all software updates and tutorials",
+    "mentorship": "Industry professional mentors throughout",
+    "certificate": "Industry-recognized creative certification",
+    "portfolio": "50+ portfolio pieces ready for clients/college"
+  }
+}

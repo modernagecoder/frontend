@@ -1,0 +1,1481 @@
+{
+  "meta": {
+    "slug": "backend-coding-masterclass-for-teens",
+    "title": "Complete Backend Development Masterclass for Teens - Zero to Hero",
+    "description": "The most comprehensive 1-year backend development program designed specifically for teenagers. From absolute basics to building real-world APIs, databases, cloud services, and production systems. Master server-side programming, databases, APIs, authentication, deployment, and everything needed to become a professional backend developer.",
+    "keywords": [
+      "backend development for teens",
+      "server-side programming",
+      "API development",
+      "database design",
+      "Node.js for beginners",
+      "Python backend",
+      "REST APIs",
+      "microservices",
+      "cloud computing",
+      "DevOps basics",
+      "teen coding",
+      "youth programming",
+      "career ready backend",
+      "full backend course"
+    ],
+    "category": "Teen Backend Development",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹19,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional Backend Developer",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "Industry-recognized Backend Developer Certification"
+  },
+  "program_overview": {
+    "title": "Complete Backend Development Masterclass for Teens",
+    "tagline": "From 'What is a Server?' to Building Instagram-Scale APIs",
+    "description": "Designed specifically for teenagers who want to master the invisible powerhouse of the internet - backend development. This isn't about making things look pretty; it's about making things WORK. You'll learn how Netflix streams videos, how Instagram handles millions of photos, how Discord manages real-time chat, and then build these systems yourself!\n\nNo boring theory - every concept is explained through apps teens actually use. By the end, you'll have built gaming APIs, social media backends, streaming services, and even your own cloud deployment pipeline. Perfect for teens who love logic, problem-solving, and want to build the next big app.",
+    "what_makes_this_different": [
+      "Teen-focused: Examples from games, social media, and apps teens love",
+      "Project-based: Build backends for Minecraft servers, Discord bots, TikTok clones",
+      "Zero to hero: No coding experience needed, we start from scratch",
+      "Industry skills: Learn what companies actually use",
+      "Fun challenges: Hackathons, coding competitions, collaborative projects",
+      "Career prep: Portfolio projects that get you hired or into top colleges",
+      "Mentorship: Young mentors who understand teen culture",
+      "Community: Connect with teen coders worldwide"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Programming basics, JavaScript/Python, Git, Problem Solving",
+      "phase_2": "Backend Core (Months 4-6): Node.js, Express, APIs, Databases, Authentication",
+      "phase_3": "Advanced Backend (Months 7-9): Microservices, Real-time, Security, Performance",
+      "phase_4": "Production & DevOps (Months 10-12): Cloud, Docker, CI/CD, System Design"
+    },
+    "career_outcomes": [
+      "Junior Backend Developer (after 6 months)",
+      "Backend Developer Intern (after 9 months)",
+      "Full Backend Developer (after 12 months)",
+      "Ready for college CS programs or tech jobs"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Programming Basics (Months 1-3, Weeks 1-13)",
+    "description": "Start from absolute zero. Learn how the internet works, master programming fundamentals, and build your first servers.",
+    "month_1_2": {
+      "title": "Months 1-2: Internet Basics & Programming Fundamentals",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "How The Internet Actually Works",
+        "topics": [
+          "What happens when you open Instagram/TikTok?",
+          "Clients vs Servers: The restaurant analogy",
+          "IP addresses: The internet's phone numbers",
+          "DNS: The internet's phonebook",
+          "HTTP/HTTPS: How computers talk",
+          "APIs: The waiter between frontend and database",
+          "Why backend matters: Facebook's 100,000 servers",
+          "Setting up your coding environment",
+          "Installing VS Code and essential extensions",
+          "Terminal/Command line: Hacker mode activated",
+          "Git & GitHub: Your code's Instagram",
+          "Creating your developer profile"
+        ],
+        "projects": [
+          "Draw your favorite app's architecture",
+          "Set up your ultimate coding environment",
+          "Create your GitHub profile README"
+        ],
+        "practice": "Daily: Explore 5 websites with Chrome DevTools Network tab"
+      },
+      "week_3_4": {
+        "title": "JavaScript Fundamentals - The Language of Backend",
+        "topics": [
+          "Why JavaScript runs the internet",
+          "Variables: Storing game scores and user data",
+          "Data types: Numbers, strings, booleans explained with memes",
+          "Arrays: Managing Spotify playlists",
+          "Objects: Describing a YouTube video",
+          "Functions: Reusable cheat codes",
+          "If/else: Making decisions like game AI",
+          "Loops: Automation for lazy programmers",
+          "Template literals: Dynamic message creation",
+          "Console.log debugging: Your best friend",
+          "Comments: Leaving notes for future you",
+          "Code style: Writing clean, readable code"
+        ],
+        "projects": [
+          "Discord bot message generator",
+          "Minecraft inventory manager",
+          "YouTube stats calculator",
+          "Grade calculator with GPA"
+        ],
+        "practice": "Code 30 minutes daily on CodeWars/HackerRank"
+      },
+      "week_5_6": {
+        "title": "Python Basics - Alternative Backend Language",
+        "topics": [
+          "Python vs JavaScript: The eternal debate",
+          "Python syntax: Cleaner than your room",
+          "Variables and data types in Python",
+          "Lists, tuples, and dictionaries",
+          "Functions and parameters",
+          "Classes and objects: OOP basics",
+          "File handling: Reading/writing data",
+          "Error handling with try/except",
+          "Popular Python libraries overview",
+          "When to use Python vs JavaScript",
+          "Python for data and automation",
+          "Virtual environments and pip"
+        ],
+        "projects": [
+          "Instagram follower tracker",
+          "Automated homework organizer",
+          "Game high score manager",
+          "Weather data analyzer"
+        ],
+        "practice": "Complete Python basics on Codecademy"
+      },
+      "week_7_8": {
+        "title": "Algorithms & Problem Solving",
+        "topics": [
+          "What are algorithms? TikTok's 'For You' page explained",
+          "Big O notation: Why Instagram loads fast",
+          "Searching algorithms: Finding a friend in contacts",
+          "Sorting algorithms: Organizing Spotify playlists",
+          "Recursion: Inception for programmers",
+          "Hash tables: How Discord finds users instantly",
+          "Stacks & Queues: YouTube video buffer explained",
+          "Trees: Folder structures and game decision trees",
+          "Problem-solving strategies",
+          "Debugging like a detective",
+          "Code optimization basics",
+          "Common coding patterns"
+        ],
+        "projects": [
+          "Build TikTok's recommendation algorithm (simplified)",
+          "Create a matchmaking system for games",
+          "Implement Instagram's hashtag search",
+          "Design a tournament bracket system"
+        ],
+        "practice": "Solve 50 algorithm problems on LeetCode Easy"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Your First Backend Server",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Node.js - JavaScript on Servers",
+        "topics": [
+          "What is Node.js? V8 engine explained",
+          "Why Discord and Netflix use Node.js",
+          "Installing Node.js and npm",
+          "Your first server: Hello World",
+          "Understanding the event loop with game examples",
+          "Modules: Organizing code like Minecraft mods",
+          "NPM: The app store for code",
+          "Package.json: Your project's ID card",
+          "Core modules: fs, path, http, crypto",
+          "Reading/writing files: Save game systems",
+          "Asynchronous programming: Not freezing like games",
+          "Callbacks, Promises, Async/Await explained with memes"
+        ],
+        "projects": [
+          "File-based todo list for homework",
+          "Discord webhook notifier",
+          "Local multiplayer game server",
+          "Meme generator backend"
+        ],
+        "practice": "Build 10 small Node.js utilities"
+      },
+      "week_11_12": {
+        "title": "Express.js - Professional Backend Framework",
+        "topics": [
+          "What is Express? The backend framework everyone uses",
+          "Setting up your first Express server",
+          "Routes: Different URLs for different features",
+          "GET, POST, PUT, DELETE: The four horsemen of APIs",
+          "Request and Response objects",
+          "Middleware: Instagram filters for your server",
+          "Handling JSON data: The language of APIs",
+          "Query parameters: YouTube search explained",
+          "Route parameters: Twitter.com/:username",
+          "Error handling: When things go wrong",
+          "Static files: Serving images and videos",
+          "Environment variables: Keeping secrets safe"
+        ],
+        "projects": [
+          "School assignment submission API",
+          "Gaming stats tracker API",
+          "Social media post API",
+          "Music playlist backend"
+        ],
+        "practice": "Create 5 different Express APIs"
+      },
+      "week_13": {
+        "title": "RESTful API Design",
+        "topics": [
+          "REST principles: The rules everyone follows",
+          "Designing URLs like a pro",
+          "HTTP status codes: 200 OK, 404 Not Found, and friends",
+          "API versioning: Why apps need updates",
+          "Request/Response best practices",
+          "Pagination: Loading Instagram posts efficiently",
+          "Filtering and sorting data",
+          "API documentation with Swagger",
+          "Testing APIs with Postman/Insomnia",
+          "Rate limiting: Preventing spam",
+          "CORS: Letting websites talk to your API",
+          "API security basics"
+        ],
+        "projects": [
+          "Complete RESTful blog API",
+          "E-commerce product API",
+          "Video game inventory API",
+          "School management system API"
+        ],
+        "practice": "Document and test all your APIs professionally"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Databases & Data Management (Months 4-6, Weeks 14-26)",
+    "description": "Master databases - where all the data lives. Learn to store millions of users, posts, and manage data like tech giants.",
+    "month_7_8": {
+      "title": "Months 4-5: Database Fundamentals",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "Introduction to Databases",
+        "topics": [
+          "Why databases? Imagine Instagram storing 100 billion photos",
+          "Types of databases: SQL vs NoSQL",
+          "When to use which database",
+          "Database design principles",
+          "Tables, rows, and columns: Excel on steroids",
+          "Primary keys: Every user's unique ID",
+          "Foreign keys: Connecting friends on Facebook",
+          "Relationships: One-to-one, one-to-many, many-to-many",
+          "Normalization: Organizing data efficiently",
+          "ACID properties: Why bank apps never lose money",
+          "CAP theorem: The impossible triangle",
+          "Database indexing: Making searches lightning fast"
+        ],
+        "projects": [
+          "Design Instagram's database schema",
+          "Plan a gaming leaderboard database",
+          "School database with students and classes",
+          "Social media relationships diagram"
+        ],
+        "practice": "Design 10 different database schemas on paper"
+      },
+      "week_29_30": {
+        "title": "MongoDB - NoSQL for Modern Apps",
+        "topics": [
+          "MongoDB basics: Documents instead of tables",
+          "Why Snapchat and Fortnite use MongoDB",
+          "Installing MongoDB and Compass GUI",
+          "Collections and documents",
+          "CRUD operations: Create, Read, Update, Delete",
+          "Querying data: Finding specific posts",
+          "Advanced queries: $gt, $lt, $in, $regex",
+          "Aggregation pipeline: Data transformation",
+          "Indexes for performance",
+          "Mongoose ODM: MongoDB made easy",
+          "Schema design in MongoDB",
+          "Embedding vs Referencing data"
+        ],
+        "projects": [
+          "Social media posts database",
+          "Game inventory system",
+          "Chat application database",
+          "Movie recommendation database"
+        ],
+        "practice": "Build 5 MongoDB databases for different apps"
+      },
+      "week_31_32": {
+        "title": "PostgreSQL - Powerful SQL Database",
+        "topics": [
+          "PostgreSQL: The world's most advanced open source database",
+          "SQL basics: SELECT, INSERT, UPDATE, DELETE",
+          "Creating tables with constraints",
+          "Joins: Connecting data from multiple tables",
+          "GROUP BY: Analytics and statistics",
+          "Aggregate functions: COUNT, SUM, AVG",
+          "Subqueries: Queries within queries",
+          "Views: Saved queries for complex data",
+          "Transactions: All or nothing operations",
+          "Database migrations: Updating schemas safely",
+          "Backup and restore strategies",
+          "Performance optimization with EXPLAIN"
+        ],
+        "projects": [
+          "E-commerce database with orders",
+          "School management system",
+          "Banking transaction system",
+          "Analytics dashboard database"
+        ],
+        "practice": "Write 100 SQL queries of increasing complexity"
+      },
+      "week_33_34": {
+        "title": "Redis & Caching",
+        "topics": [
+          "What is Redis? RAM-based ultra-fast storage",
+          "Why YouTube uses Redis for view counts",
+          "Redis data structures: Strings, Lists, Sets, Hashes",
+          "Caching strategies: Making apps 100x faster",
+          "Session storage with Redis",
+          "Pub/Sub messaging system",
+          "Real-time leaderboards",
+          "Rate limiting with Redis",
+          "Distributed locks",
+          "Redis persistence options",
+          "When to use Redis vs regular database",
+          "Cache invalidation strategies"
+        ],
+        "projects": [
+          "Gaming leaderboard system",
+          "Real-time notification system",
+          "Session management for auth",
+          "API rate limiter"
+        ],
+        "practice": "Add Redis caching to previous projects"
+      },
+      "week_35": {
+        "title": "Database Integration & ORMs",
+        "topics": [
+          "Connecting databases to Express",
+          "Connection pooling for performance",
+          "Sequelize ORM for SQL databases",
+          "Prisma: Modern database toolkit",
+          "Database transactions in Node.js",
+          "Handling database errors gracefully",
+          "Database security best practices",
+          "SQL injection prevention",
+          "Database testing strategies",
+          "Seeding test data",
+          "Database performance monitoring",
+          "Choosing the right database for your project"
+        ],
+        "projects": [
+          "Full API with database integration",
+          "Multi-database application",
+          "Database migration system",
+          "ORM comparison project"
+        ],
+        "practice": "Integrate databases into all previous APIs"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Authentication & Security",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "User Authentication Systems",
+        "topics": [
+          "Authentication vs Authorization: Who you are vs What you can do",
+          "How Instagram knows it's really you",
+          "Password hashing: Never store passwords as text",
+          "Bcrypt: Making passwords uncrackable",
+          "Salt: Extra security seasoning",
+          "Sessions: Remembering logged-in users",
+          "Cookies: Not the edible kind",
+          "JWT tokens: Passport for APIs",
+          "Access tokens vs Refresh tokens",
+          "OAuth 2.0: Login with Google/Discord",
+          "Two-factor authentication (2FA)",
+          "Password reset flows"
+        ],
+        "projects": [
+          "Complete authentication system",
+          "Discord OAuth integration",
+          "JWT-based API auth",
+          "2FA implementation"
+        ],
+        "practice": "Add authentication to 5 different projects"
+      },
+      "week_38_39": {
+        "title": "API Security & Best Practices",
+        "topics": [
+          "Common security vulnerabilities",
+          "SQL injection: The classic hack",
+          "XSS attacks: Injecting evil JavaScript",
+          "CSRF: Tricking users into actions",
+          "Rate limiting: Preventing spam and DDoS",
+          "Input validation: Never trust user input",
+          "Sanitization: Cleaning dangerous data",
+          "HTTPS and SSL certificates",
+          "API keys and secrets management",
+          "Environment variables for sensitive data",
+          "Security headers with Helmet.js",
+          "CORS configuration and security"
+        ],
+        "projects": [
+          "Secure API with all protections",
+          "Vulnerability scanner tool",
+          "Rate limiting service",
+          "Security audit checklist app"
+        ],
+        "practice": "Security audit all your previous projects"
+      },
+      "week_40_41": {
+        "title": "File Uploads & Media Handling",
+        "topics": [
+          "Handling file uploads like Instagram",
+          "Multer for file processing",
+          "Image optimization and resizing",
+          "Video processing basics",
+          "Cloud storage: AWS S3, Cloudinary",
+          "CDN for fast media delivery",
+          "File type validation",
+          "Upload progress tracking",
+          "Chunked uploads for large files",
+          "Generating thumbnails",
+          "PDF generation and manipulation",
+          "QR code generation"
+        ],
+        "projects": [
+          "Instagram-like photo upload system",
+          "Video streaming service",
+          "File sharing platform",
+          "Avatar upload system"
+        ],
+        "practice": "Add file upload to previous projects"
+      },
+      "week_42_43": {
+        "title": "Email & Notifications",
+        "topics": [
+          "Sending emails programmatically",
+          "Nodemailer setup and configuration",
+          "HTML email templates",
+          "Email verification flows",
+          "Newsletter systems",
+          "SendGrid/Mailgun integration",
+          "Push notifications basics",
+          "SMS notifications with Twilio",
+          "In-app notifications design",
+          "Notification preferences management",
+          "Email queues for bulk sending",
+          "Tracking email opens and clicks"
+        ],
+        "projects": [
+          "Email verification system",
+          "Newsletter platform",
+          "Multi-channel notification system",
+          "Automated email campaigns"
+        ],
+        "practice": "Add notifications to your apps"
+      },
+      "week_44": {
+        "title": "Payment Integration",
+        "topics": [
+          "How online payments work",
+          "Stripe integration basics",
+          "Payment intents and checkout",
+          "Handling webhooks",
+          "Subscription management",
+          "Refunds and disputes",
+          "Payment security (PCI compliance)",
+          "Multiple payment methods",
+          "International payments and currencies",
+          "Payment testing with test cards",
+          "Invoice generation",
+          "Payment analytics"
+        ],
+        "projects": [
+          "E-commerce checkout system",
+          "Subscription service backend",
+          "Donation platform",
+          "In-app purchase system"
+        ],
+        "practice": "Integrate Stripe into a project"
+      }
+    },
+    "month_11_12": {
+      "title": "Month 6 Review & Advanced Features",
+      "weeks": "Week 25-26",
+      "week_45_46": {
+        "title": "Real-time Features & WebSockets",
+        "topics": [
+          "Real-time communication explained",
+          "How Discord chat works instantly",
+          "WebSockets vs HTTP: Persistent connections",
+          "Socket.io library mastery",
+          "Events: emit, on, broadcast",
+          "Rooms: Private group chats",
+          "Namespaces: Organizing connections",
+          "Real-time notifications",
+          "Live collaboration features",
+          "Online presence indicators",
+          "Typing indicators",
+          "Real-time gaming backends"
+        ],
+        "projects": [
+          "Real-time chat application",
+          "Multiplayer game server",
+          "Live collaboration tool",
+          "Real-time dashboard"
+        ],
+        "practice": "Add real-time features to 3 projects"
+      },
+      "week_47_48": {
+        "title": "Advanced API Features",
+        "topics": [
+          "GraphQL basics: Query exactly what you need",
+          "GraphQL vs REST comparison",
+          "Apollo Server setup",
+          "Resolvers and schema design",
+          "API rate limiting strategies",
+          "API versioning best practices",
+          "Webhooks implementation",
+          "Long polling for real-time",
+          "Server-sent events (SSE)",
+          "API monitoring and analytics",
+          "API documentation automation",
+          "SDK generation for your API"
+        ],
+        "projects": [
+          "GraphQL API for social platform",
+          "Webhook service",
+          "API analytics dashboard",
+          "Multi-version API system"
+        ],
+        "practice": "Build both REST and GraphQL versions of an API"
+      },
+      "week_49_50": {
+        "title": "Search & Analytics",
+        "topics": [
+          "Full-text search implementation",
+          "Elasticsearch basics",
+          "Search relevance and ranking",
+          "Autocomplete/suggestions",
+          "Fuzzy search for typos",
+          "Search filters and facets",
+          "Analytics data collection",
+          "User behavior tracking",
+          "Custom analytics dashboard",
+          "A/B testing backend",
+          "Performance metrics",
+          "Error tracking with Sentry"
+        ],
+        "projects": [
+          "Search engine for your apps",
+          "Analytics collection system",
+          "A/B testing platform",
+          "Error monitoring service"
+        ],
+        "practice": "Add search to all major projects"
+      },
+      "week_51": {
+        "title": "Background Jobs & Scheduling",
+        "topics": [
+          "Why background jobs matter",
+          "Queue systems with Bull/BullMQ",
+          "Job scheduling with node-cron",
+          "Email queues for bulk sending",
+          "Image processing queues",
+          "Scheduled reports generation",
+          "Cleanup jobs for old data",
+          "Retry strategies for failed jobs",
+          "Job monitoring dashboards",
+          "Distributed job processing",
+          "Rate-limited API calls",
+          "Batch processing patterns"
+        ],
+        "projects": [
+          "Email campaign scheduler",
+          "Automated backup system",
+          "Report generation service",
+          "Social media post scheduler"
+        ],
+        "practice": "Add background jobs to existing projects"
+      },
+      "week_52": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Project planning and architecture",
+          "Database design for scale",
+          "API design documentation",
+          "Security implementation",
+          "Performance considerations",
+          "Testing strategies"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Complete Backend for Social Platform",
+          "Features: Auth, posts, comments, likes, real-time chat, notifications, search, file uploads",
+          "Alternative: Gaming platform backend with matchmaking",
+          "Alternative: E-learning platform with video streaming"
+        ],
+        "assessment": "Phase 2 Final Assessment - Build complete backend from requirements"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Advanced Backend & System Design (Months 7-9, Weeks 27-39)",
+    "description": "Level up to advanced backend concepts. Learn microservices, system design, and how to build scalable systems.",
+    "month_13_14": {
+      "title": "Months 7-8: Microservices & Advanced Architecture",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Microservices Architecture",
+        "topics": [
+          "Monolith vs Microservices: Netflix's 700+ microservices",
+          "When to use microservices",
+          "Service decomposition: Breaking Instagram into services",
+          "Inter-service communication",
+          "API Gateway pattern: The front door",
+          "Service discovery: Finding services automatically",
+          "Load balancing between services",
+          "Circuit breakers: Preventing cascade failures",
+          "Event-driven architecture",
+          "Message queues: RabbitMQ, Kafka basics",
+          "Distributed tracing for debugging",
+          "Microservices challenges and solutions"
+        ],
+        "projects": [
+          "Break monolith into microservices",
+          "Twitter-like app with microservices",
+          "API Gateway implementation",
+          "Service mesh setup"
+        ],
+        "practice": "Design microservices for 5 different apps"
+      },
+      "week_55_56": {
+        "title": "Message Queues & Event Systems",
+        "topics": [
+          "Why message queues? Uber's driver matching explained",
+          "RabbitMQ fundamentals",
+          "Pub/Sub pattern: YouTube notifications",
+          "Work queues for task distribution",
+          "Apache Kafka for streaming",
+          "Event sourcing patterns",
+          "CQRS (Command Query Responsibility Segregation)",
+          "Handling failed messages",
+          "Dead letter queues",
+          "Message ordering guarantees",
+          "Exactly-once delivery",
+          "Building event-driven systems"
+        ],
+        "projects": [
+          "Order processing system with queues",
+          "Real-time analytics pipeline",
+          "Notification service with RabbitMQ",
+          "Event-driven e-commerce system"
+        ],
+        "practice": "Implement 5 different messaging patterns"
+      },
+      "week_57_58": {
+        "title": "System Design Fundamentals",
+        "topics": [
+          "How to approach system design",
+          "Scalability: Handling millions of users",
+          "Load balancing: Distributing traffic",
+          "Caching strategies: Reddit's caching layers",
+          "CDNs: Netflix's global video delivery",
+          "Database scaling: Sharding and replication",
+          "CAP theorem in practice",
+          "Consistency patterns",
+          "Rate limiting algorithms",
+          "Distributed systems basics",
+          "Monitoring and alerting",
+          "Back-of-envelope calculations"
+        ],
+        "projects": [
+          "Design TikTok's video system",
+          "Design Discord's chat system",
+          "Design Uber's matching system",
+          "Design YouTube's recommendation system"
+        ],
+        "practice": "Study and recreate 10 famous system designs"
+      },
+      "week_59_60": {
+        "title": "Advanced Database Concepts",
+        "topics": [
+          "Database replication: Master-slave setups",
+          "Sharding: Splitting data across servers",
+          "Consistent hashing for distribution",
+          "Read replicas for scaling",
+          "Database connection pooling",
+          "Query optimization techniques",
+          "Indexing strategies for performance",
+          "NoSQL patterns and anti-patterns",
+          "Time-series databases for metrics",
+          "Graph databases for social networks",
+          "Data warehousing basics",
+          "ETL pipelines introduction"
+        ],
+        "projects": [
+          "Implement database sharding",
+          "Build replication system",
+          "Create data pipeline",
+          "Design multi-region database"
+        ],
+        "practice": "Optimize database performance in all projects"
+      },
+      "week_61": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Performance profiling tools",
+          "Identifying bottlenecks",
+          "Memory leak detection",
+          "CPU profiling and optimization",
+          "Database query optimization",
+          "N+1 query problem solutions",
+          "Caching at multiple layers",
+          "CDN optimization strategies",
+          "Code optimization techniques",
+          "Async processing patterns",
+          "Load testing with Artillery/k6",
+          "Performance monitoring setup"
+        ],
+        "projects": [
+          "Optimize slow API to handle 10x load",
+          "Build performance monitoring dashboard",
+          "Create load testing suite",
+          "Implement multi-layer caching"
+        ],
+        "practice": "Performance test and optimize all APIs"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 8: Testing & Quality Assurance",
+      "weeks": "Week 32-34",
+      "week_62_63": {
+        "title": "Testing Fundamentals",
+        "topics": [
+          "Why testing prevents embarrassing bugs",
+          "Types of testing: Unit, Integration, E2E",
+          "Test-Driven Development (TDD)",
+          "Jest testing framework",
+          "Writing your first tests",
+          "Testing async code",
+          "Mocking external services",
+          "Test coverage metrics",
+          "Continuous testing practices",
+          "Debugging failed tests",
+          "Test organization and naming",
+          "Testing best practices"
+        ],
+        "projects": [
+          "Add unit tests to all functions",
+          "Integration tests for APIs",
+          "TDD for new feature",
+          "100% coverage challenge"
+        ],
+        "practice": "Write 200+ tests for your projects"
+      },
+      "week_64_65": {
+        "title": "API & Integration Testing",
+        "topics": [
+          "API testing with Supertest",
+          "Testing authenticated routes",
+          "Database testing strategies",
+          "Test data management",
+          "Fixtures and factories",
+          "Testing error scenarios",
+          "Load testing APIs",
+          "Contract testing",
+          "End-to-end testing with Cypress",
+          "Automated browser testing",
+          "CI/CD testing pipelines",
+          "Testing microservices"
+        ],
+        "projects": [
+          "Complete test suite for API",
+          "E2E tests for user flows",
+          "Load testing scenarios",
+          "Automated testing pipeline"
+        ],
+        "practice": "Test every API endpoint thoroughly"
+      },
+      "week_66_67": {
+        "title": "Code Quality & Best Practices",
+        "topics": [
+          "Clean code principles",
+          "SOLID principles explained",
+          "Design patterns: Factory, Singleton, Observer",
+          "Code refactoring techniques",
+          "Code review best practices",
+          "Linting with ESLint",
+          "Code formatting with Prettier",
+          "Git workflow strategies",
+          "Commit message conventions",
+          "Documentation standards",
+          "README writing guide",
+          "Code comments that actually help"
+        ],
+        "projects": [
+          "Refactor messy code challenge",
+          "Implement design patterns",
+          "Create coding standards document",
+          "Open source contribution"
+        ],
+        "practice": "Refactor all old projects with clean code"
+      },
+      "week_68_69": {
+        "title": "Monitoring & Logging",
+        "topics": [
+          "Why monitoring saves companies",
+          "Logging best practices",
+          "Structured logging with Winston",
+          "Log levels and when to use them",
+          "Centralized logging systems",
+          "Error tracking with Sentry",
+          "Performance monitoring (APM)",
+          "Custom metrics collection",
+          "Alert configuration",
+          "Dashboard creation",
+          "Distributed tracing",
+          "Debugging production issues"
+        ],
+        "projects": [
+          "Implement comprehensive logging",
+          "Build monitoring dashboard",
+          "Set up alert system",
+          "Create debugging toolkit"
+        ],
+        "practice": "Add monitoring to all production projects"
+      },
+      "week_70": {
+        "title": "Month 8 Project Integration",
+        "topics": [
+          "Combining all learned concepts",
+          "Architecture review",
+          "Performance optimization",
+          "Security hardening",
+          "Testing coverage",
+          "Documentation completion"
+        ],
+        "projects": [
+          "MILESTONE PROJECT: Production-Ready API",
+          "Complete with testing, monitoring, documentation",
+          "Deploy to production environment",
+          "Handle real traffic"
+        ],
+        "practice": "Prepare all projects for production"
+      }
+    },
+    "month_17_18": {
+      "title": "Month 9: Advanced Topics & Specializations",
+      "weeks": "Week 35-39",
+      "week_71_72": {
+        "title": "Serverless & Cloud Functions",
+        "topics": [
+          "What is serverless? No servers to manage",
+          "AWS Lambda fundamentals",
+          "Google Cloud Functions",
+          "Vercel Edge Functions",
+          "When to go serverless",
+          "Cold starts and optimization",
+          "Serverless API development",
+          "Event-driven serverless",
+          "Serverless databases",
+          "Cost optimization strategies",
+          "Serverless frameworks",
+          "Monitoring serverless apps"
+        ],
+        "projects": [
+          "Serverless API with Lambda",
+          "Image processing pipeline",
+          "Webhook processor",
+          "Serverless cron jobs"
+        ],
+        "practice": "Convert project to serverless"
+      },
+      "week_73_74": {
+        "title": "AI/ML Integration for Backend",
+        "topics": [
+          "AI APIs: OpenAI, Google AI, Azure",
+          "Adding ChatGPT to your app",
+          "Image recognition with AI",
+          "Natural language processing",
+          "Recommendation algorithms",
+          "Sentiment analysis",
+          "Content moderation with AI",
+          "TensorFlow.js for backend",
+          "ML model deployment",
+          "Training simple models",
+          "AI ethics and limitations",
+          "Cost management for AI APIs"
+        ],
+        "projects": [
+          "AI-powered chatbot",
+          "Content recommendation system",
+          "Smart image tagger",
+          "Sentiment analysis API"
+        ],
+        "practice": "Add AI features to 3 projects"
+      },
+      "week_75_76": {
+        "title": "Blockchain & Web3 Basics",
+        "topics": [
+          "Blockchain fundamentals for backend devs",
+          "Smart contracts introduction",
+          "Web3.js and Ethers.js",
+          "Integrating crypto payments",
+          "NFT minting backends",
+          "IPFS for decentralized storage",
+          "Building dApp backends",
+          "Wallet authentication",
+          "Gas optimization",
+          "Security in Web3",
+          "Popular blockchain APIs",
+          "When to use blockchain"
+        ],
+        "projects": [
+          "NFT minting API",
+          "Crypto payment gateway",
+          "Decentralized storage system",
+          "Web3 authentication"
+        ],
+        "practice": "Add Web3 features to a project"
+      },
+      "week_77": {
+        "title": "Advanced Security Topics",
+        "topics": [
+          "Penetration testing basics",
+          "OWASP Top 10 deep dive",
+          "Security auditing tools",
+          "Vulnerability scanning",
+          "Secure coding practices",
+          "Encryption and hashing",
+          "Key management systems",
+          "Zero-trust architecture",
+          "API security testing",
+          "Compliance basics (GDPR, CCPA)",
+          "Incident response planning",
+          "Bug bounty programs"
+        ],
+        "projects": [
+          "Security audit tool",
+          "Vulnerability scanner",
+          "Encryption service",
+          "Compliance checker"
+        ],
+        "practice": "Security audit all your projects"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Advanced system design",
+          "Microservices implementation",
+          "Complete testing suite",
+          "Performance optimization",
+          "Security implementation",
+          "Production deployment"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Instagram/TikTok Clone Backend",
+          "Features: Microservices, real-time, AI features, search, recommendations",
+          "Alternative: Multi-player Game Server with matchmaking",
+          "Alternative: Streaming Platform Backend"
+        ],
+        "assessment": "Phase 3 Assessment - System design and implementation"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: DevOps, Cloud & Production (Months 10-12, Weeks 40-52)",
+    "description": "Master deployment, cloud services, DevOps practices, and build production-ready systems.",
+    "month_19_20": {
+      "title": "Months 10-11: Docker & Cloud Deployment",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Docker Fundamentals",
+        "topics": [
+          "What is Docker? Shipping containers for code",
+          "Containers vs Virtual Machines",
+          "Docker installation and setup",
+          "Docker images and containers explained",
+          "Writing your first Dockerfile",
+          "Docker commands mastery",
+          "Multi-stage builds for optimization",
+          "Docker volumes for data persistence",
+          "Docker networks for container communication",
+          "Docker Compose for multi-container apps",
+          "Docker Hub and registries",
+          "Container security best practices"
+        ],
+        "projects": [
+          "Dockerize Node.js application",
+          "Multi-container app with database",
+          "Docker development environment",
+          "Production Docker setup"
+        ],
+        "practice": "Dockerize all your major projects"
+      },
+      "week_81_82": {
+        "title": "Kubernetes Basics",
+        "topics": [
+          "Kubernetes: Container orchestration explained",
+          "Why big companies use Kubernetes",
+          "Kubernetes architecture overview",
+          "Pods, Services, and Deployments",
+          "kubectl command-line tool",
+          "Deploying apps to Kubernetes",
+          "Scaling applications automatically",
+          "Rolling updates without downtime",
+          "ConfigMaps and Secrets management",
+          "Ingress for routing traffic",
+          "Persistent storage in Kubernetes",
+          "Kubernetes dashboard"
+        ],
+        "projects": [
+          "Deploy app to Kubernetes",
+          "Auto-scaling configuration",
+          "Zero-downtime deployment",
+          "Multi-service Kubernetes app"
+        ],
+        "practice": "Deploy 3 projects to Kubernetes"
+      },
+      "week_83_84": {
+        "title": "AWS Cloud Services",
+        "topics": [
+          "AWS: Amazon's cloud empire",
+          "Creating your AWS account safely",
+          "EC2: Virtual servers in the cloud",
+          "S3: Storing files like Netflix",
+          "RDS: Managed databases",
+          "Lambda: Serverless functions",
+          "API Gateway for serverless APIs",
+          "CloudFront CDN setup",
+          "Route 53 for DNS management",
+          "IAM: Security and permissions",
+          "Cost optimization tips",
+          "AWS free tier maximization"
+        ],
+        "projects": [
+          "Deploy full app on AWS",
+          "Serverless API with Lambda",
+          "Static site with S3/CloudFront",
+          "Multi-region deployment"
+        ],
+        "practice": "Deploy all projects to AWS"
+      },
+      "week_85_86": {
+        "title": "CI/CD Pipelines",
+        "topics": [
+          "CI/CD: Automating everything",
+          "GitHub Actions deep dive",
+          "Writing workflow files",
+          "Automated testing in CI",
+          "Building Docker images automatically",
+          "Deploying on every push",
+          "Environment management (dev, staging, prod)",
+          "Secrets management in CI/CD",
+          "GitLab CI/CD alternative",
+          "Jenkins for complex pipelines",
+          "Blue-green deployments",
+          "Rollback strategies"
+        ],
+        "projects": [
+          "Complete CI/CD pipeline",
+          "Automated testing workflow",
+          "Multi-environment deployment",
+          "Automated release system"
+        ],
+        "practice": "Add CI/CD to all GitHub projects"
+      },
+      "week_87": {
+        "title": "Alternative Cloud Providers",
+        "topics": [
+          "Google Cloud Platform overview",
+          "Azure for Microsoft stack",
+          "DigitalOcean for simplicity",
+          "Heroku for easy deployment",
+          "Vercel for serverless",
+          "Railway for quick deployment",
+          "Fly.io for edge computing",
+          "Comparing cloud providers",
+          "Multi-cloud strategies",
+          "Cloud vendor lock-in",
+          "Cost comparison",
+          "Choosing the right provider"
+        ],
+        "projects": [
+          "Deploy to 3 different clouds",
+          "Multi-cloud architecture",
+          "Cloud migration project",
+          "Cost optimization analysis"
+        ],
+        "practice": "Experience different cloud platforms"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 11: Infrastructure & Scaling",
+      "weeks": "Week 44-47",
+      "week_88_89": {
+        "title": "Infrastructure as Code",
+        "topics": [
+          "IaC: Treating infrastructure like code",
+          "Terraform fundamentals",
+          "Writing Terraform configurations",
+          "Managing cloud resources with code",
+          "Terraform state management",
+          "CloudFormation for AWS",
+          "Pulumi as alternative",
+          "Version control for infrastructure",
+          "Infrastructure testing",
+          "Cost management with IaC",
+          "Disaster recovery automation",
+          "Multi-environment management"
+        ],
+        "projects": [
+          "Terraform AWS infrastructure",
+          "Complete IaC setup",
+          "Disaster recovery plan",
+          "Multi-region infrastructure"
+        ],
+        "practice": "Convert manual infrastructure to code"
+      },
+      "week_90_91": {
+        "title": "Scaling & Performance",
+        "topics": [
+          "Scaling strategies: When and how",
+          "Horizontal vs vertical scaling",
+          "Auto-scaling configuration",
+          "Load balancer setup and types",
+          "Database scaling techniques",
+          "Caching at scale with Redis cluster",
+          "CDN configuration and optimization",
+          "Handling traffic spikes",
+          "Rate limiting at scale",
+          "Performance testing with thousands of users",
+          "Monitoring at scale",
+          "Cost-effective scaling"
+        ],
+        "projects": [
+          "Scale app to handle 100k users",
+          "Load balancer configuration",
+          "Auto-scaling implementation",
+          "Performance optimization project"
+        ],
+        "practice": "Load test and scale your applications"
+      },
+      "week_92_93": {
+        "title": "Site Reliability Engineering",
+        "topics": [
+          "SRE principles from Google",
+          "Service Level Objectives (SLOs)",
+          "Service Level Indicators (SLIs)",
+          "Error budgets concept",
+          "Incident management process",
+          "Post-mortem culture",
+          "On-call rotations",
+          "Runbooks for common issues",
+          "Chaos engineering basics",
+          "Disaster recovery planning",
+          "Backup strategies",
+          "High availability design"
+        ],
+        "projects": [
+          "SRE dashboard creation",
+          "Incident response system",
+          "Chaos engineering tests",
+          "DR plan implementation"
+        ],
+        "practice": "Implement SRE practices"
+      },
+      "week_94_95": {
+        "title": "Advanced Monitoring & Observability",
+        "topics": [
+          "Three pillars: Logs, Metrics, Traces",
+          "Prometheus for metrics",
+          "Grafana dashboards",
+          "ELK stack (Elasticsearch, Logstash, Kibana)",
+          "Distributed tracing with Jaeger",
+          "APM tools comparison",
+          "Custom metrics and alerts",
+          "SLA monitoring",
+          "Business metrics tracking",
+          "Cost monitoring",
+          "Security monitoring",
+          "Predictive monitoring with ML"
+        ],
+        "projects": [
+          "Complete observability stack",
+          "Custom monitoring solution",
+          "Business metrics dashboard",
+          "Alert automation system"
+        ],
+        "practice": "Add comprehensive monitoring to all apps"
+      },
+      "week_96": {
+        "title": "Month 11 Integration Week",
+        "topics": [
+          "Putting it all together",
+          "Production readiness checklist",
+          "Launch preparation",
+          "Go-live strategies",
+          "Post-launch monitoring",
+          "Incident response preparation"
+        ],
+        "projects": [
+          "Production launch simulation",
+          "Complete production system",
+          "Load testing at scale",
+          "Disaster recovery drill"
+        ],
+        "practice": "Prepare for real production launch"
+      }
+    },
+    "month_23": {
+      "title": "Month 12: Final Projects & Career Launch",
+      "weeks": "Week 48-52",
+      "week_97": {
+        "title": "Industry Best Practices",
+        "topics": [
+          "Code review culture",
+          "Agile development basics",
+          "Scrum for developers",
+          "Sprint planning and estimation",
+          "Technical debt management",
+          "Documentation best practices",
+          "API versioning strategies",
+          "Feature flags and toggles",
+          "A/B testing infrastructure",
+          "Gradual rollouts",
+          "Open source contributions",
+          "Building developer tools"
+        ],
+        "projects": [
+          "Feature flag system",
+          "A/B testing framework",
+          "Developer tool creation",
+          "Open source contribution"
+        ],
+        "practice": "Apply industry practices to projects"
+      },
+      "week_98": {
+        "title": "Final Capstone - Planning",
+        "topics": [
+          "Capstone project selection",
+          "Requirements gathering",
+          "System architecture design",
+          "Technology stack decisions",
+          "Database schema design",
+          "API design and documentation",
+          "Timeline and milestone planning",
+          "Risk assessment"
+        ],
+        "projects": [
+          "FINAL CAPSTONE PROJECT START",
+          "Options: Social platform, Gaming backend, Streaming service, E-commerce platform",
+          "Complete planning documentation",
+          "Architecture diagrams"
+        ],
+        "practice": "Detailed project planning"
+      },
+      "week_99": {
+        "title": "Final Capstone - Development",
+        "topics": [
+          "Core feature implementation",
+          "Database setup and optimization",
+          "API development",
+          "Authentication and security",
+          "Real-time features",
+          "File handling",
+          "Payment integration",
+          "Testing implementation"
+        ],
+        "projects": [
+          "Complete backend implementation",
+          "All core features working",
+          "Comprehensive testing",
+          "Documentation"
+        ],
+        "practice": "Rapid development sprint"
+      },
+      "week_100": {
+        "title": "Final Capstone - Production",
+        "topics": [
+          "Production deployment",
+          "CI/CD pipeline setup",
+          "Monitoring and alerting",
+          "Performance optimization",
+          "Security hardening",
+          "Load testing",
+          "Documentation finalization",
+          "Demo preparation"
+        ],
+        "projects": [
+          "Deploy to production",
+          "Complete DevOps setup",
+          "Live demo ready",
+          "Portfolio presentation"
+        ],
+        "practice": "Production deployment experience"
+      }
+    },
+    "month_24": {
+      "title": "Week 51-52: Career Launch & Beyond",
+      "weeks": "Week 51-52",
+      "week_101_102": {
+        "title": "Portfolio & Personal Brand",
+        "topics": [
+          "Building impressive GitHub profile",
+          "Creating portfolio website",
+          "Writing technical blog posts",
+          "LinkedIn optimization for developers",
+          "Twitter/X presence for developers",
+          "Contributing to Stack Overflow",
+          "Building online reputation",
+          "Showcasing projects effectively",
+          "Creating project demos",
+          "Technical writing skills",
+          "Video content creation",
+          "Personal branding strategies"
+        ],
+        "projects": [
+          "Professional portfolio site",
+          "GitHub profile optimization",
+          "Technical blog posts",
+          "Project showcase videos"
+        ],
+        "deliverables": [
+          "Live portfolio website",
+          "10+ GitHub repositories",
+          "5+ technical blog posts",
+          "Professional online presence"
+        ]
+      },
+      "week_103": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Backend interview patterns",
+          "System design interviews",
+          "Coding challenge strategies",
+          "API design questions",
+          "Database design interviews",
+          "Behavioral questions (STAR method)",
+          "Salary negotiation for teens/young adults",
+          "Internship vs full-time decisions",
+          "Remote work preparation",
+          "Startup vs big company",
+          "Interview practice platforms",
+          "Mock interview sessions"
+        ],
+        "projects": [
+          "Interview preparation kit",
+          "System design portfolio",
+          "Coding challenge solutions",
+          "Interview stories preparation"
+        ],
+        "deliverables": [
+          "Interview cheat sheets",
+          "Practice interview recordings",
+          "Salary research document",
+          "Target company list"
+        ]
+      },
+      "week_104": {
+        "title": "Graduation & Next Steps",
+        "topics": [
+          "Course completion celebration",
+          "Final assessment review",
+          "Certificate presentation",
+          "Alumni network access",
+          "Continued learning paths",
+          "Specialization options",
+          "Freelancing opportunities",
+          "Building SaaS products",
+          "Joining open source",
+          "Mentoring others",
+          "Building your startup",
+          "Lifelong learning strategies"
+        ],
+        "deliverables": [
+          "Course completion certificate",
+          "Final project presentation",
+          "Career roadmap document",
+          "Alumni network membership",
+          "Lifetime course access"
+        ],
+        "assessment": "FINAL COMPREHENSIVE ASSESSMENT - Complete backend system from scratch"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: Discord Bot, Game Server, API Basics, School Management System",
+      "Phase 2: Social Media Backend, Chat System, E-commerce API, Video Platform",
+      "Phase 3: Microservices Architecture, Real-time Gaming, AI Integration, Search Engine",
+      "Phase 4: Cloud Deployment, Kubernetes Cluster, Complete DevOps Pipeline, Production System",
+      "Final: TikTok/Instagram Scale Application"
+    ],
+    "total_projects_built": "40+ backend projects from simple APIs to complex systems",
+    "skills_mastered": [
+      "Languages: JavaScript, Python, TypeScript, SQL",
+      "Backend: Node.js, Express.js, REST APIs, GraphQL, WebSockets",
+      "Databases: MongoDB, PostgreSQL, Redis, Elasticsearch",
+      "Architecture: Microservices, Event-driven, Serverless, System Design",
+      "Security: Authentication, Authorization, OWASP, Encryption",
+      "DevOps: Docker, Kubernetes, CI/CD, AWS, GCP, Azure",
+      "Testing: Unit, Integration, E2E, TDD, Load Testing",
+      "Tools: Git, VS Code, Postman, Terminal, Linux, Monitoring",
+      "Concepts: Algorithms, Data Structures, Design Patterns, Scaling"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_coding": "5-7 hours",
+      "projects": "3-4 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly doubt clearing with teen mentors",
+      "mentorship": "Young mentors who understand teen culture",
+      "community": "Discord server with teen developers worldwide",
+      "code_review": "Expert reviews for all projects",
+      "career_support": "College admissions, internships, first job",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each quarter",
+      "final_certificate": "Professional Backend Developer Certification",
+      "linkedin_badge": "Verified LinkedIn certification",
+      "industry_recognized": "Accepted by tech companies",
+      "portfolio_projects": "15+ production-ready projects"
+    }
+  },
+  "prerequisites": {
+    "education": "No prerequisites - designed for complete beginners",
+    "coding_experience": "Zero coding experience required",
+    "equipment": "Any computer with internet connection",
+    "time_commitment": "10-15 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Passion for technology and problem-solving"
+  },
+  "who_is_this_for": {
+    "students": "High school students (13-18 years)",
+    "working_professionals": "Young adults switching careers",
+    "entrepreneurs": "Teens wanting to build their own apps",
+    "freelancers": "Start freelancing while in school",
+    "kids": "Motivated kids 13+ with parental support",
+    "anyone": "Anyone interested in backend development"
+  },
+  "career_paths_after_completion": [
+    "Backend Developer Intern (during/after high school)",
+    "Junior Backend Developer",
+    "API Developer",
+    "Database Administrator",
+    "DevOps Engineer",
+    "Cloud Engineer",
+    "Freelance Backend Developer",
+    "Technical Founder",
+    "Open Source Contributor",
+    "College CS Program (advanced standing)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹2-4 LPA (Internships/Part-time)",
+    "after_12_months": "₹4-8 LPA (Junior Developer)",
+    "freelance": "₹300-1000/hour",
+    "international": "$30k-60k USD entry level",
+    "college_advantage": "Top CS program admissions",
+    "startup_potential": "Build your own SaaS"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Internship and job placement support",
+    "lifetime_updates": "Free access to all future content",
+    "mentorship": "Dedicated teen mentor throughout",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "GitHub portfolio that impresses"
+  }
+}

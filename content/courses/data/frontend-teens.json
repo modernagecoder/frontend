@@ -1,0 +1,1657 @@
+{
+  "meta": {
+    "slug": "frontend-development-masterclass-for-teens",
+    "title": "Complete Frontend Development Masterclass for Teens - Pixels to Professional",
+    "description": "The ultimate 12-month frontend development journey designed for teenagers. From zero coding to building stunning websites like Netflix, Spotify, and Instagram. Master HTML, CSS, JavaScript, React, Vue, animations, and land your first tech job. Create portfolios that get you into top colleges or launch your freelance career.",
+    "keywords": [
+      "frontend development for teens",
+      "web development",
+      "HTML CSS JavaScript",
+      "React for beginners",
+      "web design for teens",
+      "UI/UX development",
+      "responsive web design",
+      "modern JavaScript",
+      "teen coding",
+      "youth programming",
+      "portfolio websites",
+      "freelance web development",
+      "creative coding"
+    ],
+    "category": "Teen Frontend Development",
+    "price": {
+      "group": "₹899/month",
+      "personal": "₹1799/month",
+      "lifetime": "₹17,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional Frontend Developer",
+    "commitment": "10-12 hours/week recommended",
+    "certification": "Professional Frontend Developer Certification"
+  },
+  "program_overview": {
+    "title": "Complete Frontend Development Masterclass for Teens",
+    "tagline": "From 'What is HTML?' to 'I Built the Next Instagram'",
+    "description": "Turn your creative ideas into stunning websites that millions can use! This isn't your boring computer class - it's your ticket to building the visual side of the internet. Designed specifically for teenagers, you'll learn by recreating the websites and apps you use daily: TikTok, Discord, Netflix, Spotify, and more.\n\nNo math genius required - just creativity and the desire to build cool stuff. You'll master the art of making websites beautiful, interactive, and addictive. From simple landing pages to complex web applications with millions of users, you'll have the skills to build anything you can imagine. Perfect for creative teens who want to combine art with technology.",
+    "what_makes_this_different": [
+      "Teen-focused: Build sites teens actually want - gaming platforms, social media, music apps",
+      "Visual learning: See immediate results with every line of code",
+      "Zero to hired: From no experience to job-ready in 12 months",
+      "Creative freedom: Design and build your own unique projects",
+      "Modern stack: Learn what companies use today, not outdated tech",
+      "Portfolio-driven: Build 30+ projects for an impressive portfolio",
+      "Young mentors: Learn from developers who understand teen culture",
+      "Global community: Connect with teen coders worldwide"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): HTML, CSS, JavaScript basics, Responsive Design",
+      "phase_2": "Interactive Web (Months 4-6): Advanced JavaScript, DOM, APIs, Modern CSS",
+      "phase_3": "React Mastery (Months 7-9): React, State Management, Next.js",
+      "phase_4": "Professional Skills (Months 10-12): Vue, Testing, Performance, Portfolio"
+    },
+    "career_outcomes": [
+      "Junior Frontend Developer (after 6 months)",
+      "Freelance Web Developer (after 9 months)",
+      "Professional Frontend Developer (after 12 months)",
+      "College applications with impressive portfolio"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Web Fundamentals & Design (Months 1-3, Weeks 1-13)",
+    "description": "Start from absolute zero and build your first amazing websites. Learn the core technologies that power every website on the internet.",
+    "month_1_2": {
+      "title": "Month 1: HTML & CSS Foundations",
+      "weeks": "Week 1-4",
+      "week_1_2": {
+        "title": "Introduction to Web Development",
+        "topics": [
+          "How websites work: The magic behind Instagram and TikTok",
+          "Frontend vs Backend: What's the difference?",
+          "Browser DevTools: Your secret weapon",
+          "Setting up VS Code: Your coding workspace",
+          "Essential extensions and themes (make it look cool!)",
+          "HTML basics: The skeleton of websites",
+          "HTML tags: headers, paragraphs, links, images",
+          "Semantic HTML5: header, nav, main, footer",
+          "Creating your first webpage",
+          "Lists, tables, and organization",
+          "Forms and user input",
+          "Embedding videos, audio, and maps"
+        ],
+        "projects": [
+          "Personal introduction webpage",
+          "Favorite artist fan page",
+          "School project presentation site",
+          "Recipe collection page"
+        ],
+        "practice": "Daily: Create one new HTML page exploring different elements"
+      },
+      "week_3_4": {
+        "title": "CSS Styling & Design",
+        "topics": [
+          "CSS: Making websites beautiful",
+          "Selectors: Targeting elements like a sniper",
+          "Colors and gradients: Creating stunning palettes",
+          "Typography: Fonts that make impact",
+          "Google Fonts and custom fonts",
+          "Box Model: The secret to layouts",
+          "Padding, margins, borders explained",
+          "Backgrounds: Images, patterns, videos",
+          "CSS animations: Making things move",
+          "Transitions: Smooth interactions",
+          "Hover effects that wow",
+          "Transform: Rotate, scale, skew"
+        ],
+        "projects": [
+          "Animated landing page",
+          "CSS art challenge",
+          "Interactive button collection",
+          "Photo gallery with effects"
+        ],
+        "practice": "Recreate 5 website sections from popular sites"
+      },
+      "week_5_6": {
+        "title": "Flexbox & Grid Layouts",
+        "topics": [
+          "Flexbox: The game-changer for layouts",
+          "Flex containers and items",
+          "Main axis vs cross axis",
+          "Justify-content: Horizontal alignment magic",
+          "Align-items: Vertical alignment made easy",
+          "Flex-wrap and responsive design",
+          "CSS Grid: Two-dimensional layouts",
+          "Grid template areas: Visual layout design",
+          "Auto-fit and auto-fill: Dynamic grids",
+          "Combining Flexbox and Grid",
+          "Building complex layouts easily",
+          "Common layout patterns"
+        ],
+        "projects": [
+          "Instagram-style photo grid",
+          "YouTube homepage layout",
+          "Discord server layout",
+          "Pinterest-style masonry"
+        ],
+        "practice": "Build 10 different layout challenges"
+      },
+      "week_7_8": {
+        "title": "Responsive Design & Mobile First",
+        "topics": [
+          "Why mobile-first matters: Everyone's on phones",
+          "Media queries: Adapting to screen sizes",
+          "Breakpoints: Phone, tablet, desktop",
+          "Responsive units: rem, em, %, vw, vh",
+          "Responsive images and videos",
+          "Mobile navigation patterns",
+          "Hamburger menus and mobile UI",
+          "Touch-friendly design",
+          "Testing on real devices",
+          "Chrome DevTools device mode",
+          "Common responsive mistakes",
+          "Performance on mobile"
+        ],
+        "projects": [
+          "Fully responsive portfolio",
+          "Mobile-first blog design",
+          "Responsive e-commerce page",
+          "App landing page"
+        ],
+        "practice": "Make all previous projects responsive"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 2: JavaScript Fundamentals",
+      "weeks": "Week 5-8",
+      "week_9_10": {
+        "title": "JavaScript Basics",
+        "topics": [
+          "JavaScript: Making websites interactive",
+          "Variables: let, const, var explained",
+          "Data types: Numbers, strings, booleans",
+          "Arrays: Managing lists of data",
+          "Objects: Organizing complex data",
+          "Functions: Reusable code blocks",
+          "Parameters and return values",
+          "Arrow functions: Modern syntax",
+          "Template literals: Dynamic strings",
+          "Operators and comparisons",
+          "Console methods for debugging",
+          "Comments and code organization"
+        ],
+        "projects": [
+          "Interactive calculator",
+          "Quiz game with scoring",
+          "Todo list application",
+          "Random meme generator"
+        ],
+        "practice": "Complete 50 JavaScript exercises on CodeWars"
+      },
+      "week_11_12": {
+        "title": "Control Flow & Logic",
+        "topics": [
+          "If/else statements: Making decisions",
+          "Switch statements: Multiple choices",
+          "Ternary operators: Shorthand conditions",
+          "Logical operators: AND, OR, NOT",
+          "Truthy and falsy values",
+          "For loops: Repeating actions",
+          "While loops: Conditional repetition",
+          "ForEach, map, filter, reduce",
+          "Break and continue",
+          "Try/catch: Error handling",
+          "Debugging strategies",
+          "Common logic patterns"
+        ],
+        "projects": [
+          "Password strength checker",
+          "Grade calculator",
+          "Text-based adventure game",
+          "Data filtering dashboard"
+        ],
+        "practice": "Solve 30 algorithm challenges"
+      },
+      "week_13_14": {
+        "title": "DOM Manipulation",
+        "topics": [
+          "DOM: The bridge between HTML and JavaScript",
+          "Selecting elements: querySelector magic",
+          "Changing content dynamically",
+          "Modifying styles with JavaScript",
+          "Creating and removing elements",
+          "Event listeners: Clicks, hovers, inputs",
+          "Event bubbling and delegation",
+          "Form handling and validation",
+          "Local storage: Saving user data",
+          "Keyboard and mouse events",
+          "Scroll events and parallax",
+          "Building interactive components"
+        ],
+        "projects": [
+          "Dynamic theme switcher",
+          "Interactive game (Tic-tac-toe)",
+          "Form with live validation",
+          "Infinite scroll gallery"
+        ],
+        "practice": "Build 15 interactive components"
+      },
+      "week_15_16": {
+        "title": "Asynchronous JavaScript & APIs",
+        "topics": [
+          "Async JavaScript: Why it matters",
+          "Callbacks: The old way",
+          "Promises: The better way",
+          "Async/await: The modern way",
+          "Fetch API: Getting data from servers",
+          "Working with JSON data",
+          "Public APIs: Weather, movies, music",
+          "Error handling in async code",
+          "Loading states and spinners",
+          "API authentication basics",
+          "CORS and how to handle it",
+          "Building data-driven websites"
+        ],
+        "projects": [
+          "Weather app with live data",
+          "Movie search application",
+          "Spotify playlist viewer",
+          "GitHub profile viewer"
+        ],
+        "practice": "Integrate 10 different APIs"
+      },
+      "week_17": {
+        "title": "Month 3: Advanced CSS & Animations",
+        "topics": [
+          "CSS variables: Dynamic styling",
+          "CSS calculations with calc()",
+          "Advanced selectors and pseudo-elements",
+          "CSS shapes and clip-path",
+          "Filters and blend modes",
+          "3D transforms and perspective",
+          "Keyframe animations",
+          "Animation timing functions",
+          "SVG animations",
+          "Scroll-triggered animations",
+          "Parallax scrolling effects",
+          "Performance optimization"
+        ],
+        "projects": [
+          "Animated hero section",
+          "Interactive infographic",
+          "3D card flip gallery",
+          "Scroll storytelling site"
+        ],
+        "practice": "Create animation library"
+      }
+    },
+    "month_5_6": {
+      "title": "Month 3: Modern CSS & Build Tools",
+      "weeks": "Week 9-13",
+      "week_18_19": {
+        "title": "Modern CSS Techniques",
+        "topics": [
+          "CSS Custom Properties (variables)",
+          "CSS Grid advanced techniques",
+          "Container queries: The future of responsive",
+          "CSS nesting (native)",
+          "Logical properties for internationalization",
+          "Modern color functions: rgb(), hsl(), lab()",
+          "Aspect-ratio property",
+          "CSS scroll snap for carousels",
+          "Sticky positioning tricks",
+          "CSS counters for numbering",
+          "Print styles for web pages",
+          "Accessibility with CSS"
+        ],
+        "projects": [
+          "Magazine-style layout",
+          "Advanced dashboard design",
+          "Product showcase with filters",
+          "Interactive timeline"
+        ],
+        "practice": "Experiment with cutting-edge CSS features"
+      },
+      "week_20_21": {
+        "title": "SASS/SCSS & CSS Architecture",
+        "topics": [
+          "SASS: CSS with superpowers",
+          "Variables, nesting, and mixins",
+          "Functions and calculations in SASS",
+          "Partials and imports",
+          "Extends and placeholders",
+          "BEM methodology: Organized CSS",
+          "CSS architecture patterns",
+          "Component-based styling",
+          "Utility-first CSS introduction",
+          "CSS-in-JS concepts",
+          "PostCSS and autoprefixer",
+          "Building a design system"
+        ],
+        "projects": [
+          "Design system with SASS",
+          "Themed website with variables",
+          "Component library",
+          "Multi-theme dashboard"
+        ],
+        "practice": "Refactor projects using SASS"
+      },
+      "week_22_23": {
+        "title": "Build Tools & Modern Workflow",
+        "topics": [
+          "NPM: The package manager",
+          "Package.json and dependencies",
+          "Git and GitHub mastery",
+          "Webpack basics: Module bundling",
+          "Babel: Modern JavaScript everywhere",
+          "Development vs production builds",
+          "Hot module replacement",
+          "Code splitting basics",
+          "Environment variables",
+          "Linting with ESLint",
+          "Prettier for code formatting",
+          "Pre-commit hooks"
+        ],
+        "projects": [
+          "Set up modern build pipeline",
+          "Optimize existing projects",
+          "Create project boilerplate",
+          "Automated workflow setup"
+        ],
+        "practice": "Configure build tools for all projects"
+      },
+      "week_24_25": {
+        "title": "Tailwind CSS & Utility-First",
+        "topics": [
+          "Tailwind CSS: Why developers love it",
+          "Utility classes philosophy",
+          "Setting up Tailwind",
+          "Responsive utilities",
+          "Hover, focus, and state variants",
+          "Custom configuration",
+          "Extending Tailwind",
+          "Component extraction",
+          "Tailwind UI components",
+          "JIT mode benefits",
+          "Tailwind vs traditional CSS",
+          "Building with Tailwind"
+        ],
+        "projects": [
+          "Landing page with Tailwind",
+          "Admin dashboard UI",
+          "E-commerce product page",
+          "Social media feed clone"
+        ],
+        "practice": "Rebuild projects with Tailwind"
+      },
+      "week_26": {
+        "title": "Phase 1 Capstone Project",
+        "topics": [
+          "Project planning and wireframing",
+          "Design mockups in Figma",
+          "Setting up project structure",
+          "Implementing responsive design",
+          "Adding interactivity",
+          "Testing and debugging",
+          "Deployment preparation"
+        ],
+        "projects": [
+          "CAPSTONE: Multi-page Portfolio Website",
+          "Include: Animations, API integration, responsive design, dark mode",
+          "Alternative: Small business website",
+          "Alternative: Interactive educational site"
+        ],
+        "assessment": "Phase 1 Final - Complete responsive website from scratch"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: React & Modern Frameworks (Months 4-6, Weeks 14-26)",
+    "description": "Master React, the most popular frontend framework. Build complex, interactive applications like the pros.",
+    "month_7_8": {
+      "title": "Months 4-5: React Fundamentals & Ecosystem",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "React Basics",
+        "topics": [
+          "Why React? Facebook, Instagram, Netflix use it",
+          "Create React App: Quick start",
+          "JSX: HTML in JavaScript (weird but powerful)",
+          "Components: Building blocks of React",
+          "Functional vs Class components",
+          "Props: Passing data down",
+          "State: Component memory",
+          "useState hook explained",
+          "Event handling in React",
+          "Conditional rendering",
+          "Lists and keys",
+          "Component lifecycle"
+        ],
+        "projects": [
+          "Instagram feed clone",
+          "Interactive todo app",
+          "Weather dashboard",
+          "Movie gallery"
+        ],
+        "practice": "Build 20 React components"
+      },
+      "week_29_30": {
+        "title": "React Hooks Deep Dive",
+        "topics": [
+          "useState: Managing component state",
+          "useEffect: Side effects and lifecycle",
+          "useContext: Avoiding prop drilling",
+          "useReducer: Complex state logic",
+          "useCallback: Optimizing functions",
+          "useMemo: Expensive calculations",
+          "useRef: DOM references and values",
+          "Custom hooks: Reusable logic",
+          "Rules of hooks",
+          "Hook patterns and best practices",
+          "Testing hooks",
+          "Common hook mistakes"
+        ],
+        "projects": [
+          "Chat application with hooks",
+          "Shopping cart with useReducer",
+          "Theme system with Context",
+          "Custom hooks library"
+        ],
+        "practice": "Create 10 custom hooks"
+      },
+      "week_31_32": {
+        "title": "React Router & Navigation",
+        "topics": [
+          "Single Page Applications (SPAs)",
+          "React Router setup",
+          "Routes and paths",
+          "Link vs NavLink",
+          "Route parameters",
+          "Nested routes",
+          "Protected routes",
+          "Programmatic navigation",
+          "Query parameters",
+          "Route guards and authentication",
+          "404 pages and redirects",
+          "Lazy loading routes"
+        ],
+        "projects": [
+          "Multi-page blog platform",
+          "E-commerce site with routing",
+          "Admin dashboard",
+          "Social media app navigation"
+        ],
+        "practice": "Add routing to previous projects"
+      },
+      "week_33_34": {
+        "title": "State Management with Redux",
+        "topics": [
+          "Why Redux? Managing complex state",
+          "Redux principles: Store, actions, reducers",
+          "Setting up Redux",
+          "Redux Toolkit: Modern Redux",
+          "Creating slices",
+          "Dispatching actions",
+          "Selectors and memoization",
+          "Async logic with Redux Thunk",
+          "Redux DevTools",
+          "Redux vs Context API",
+          "When to use Redux",
+          "Redux best practices"
+        ],
+        "projects": [
+          "Twitter clone with Redux",
+          "E-commerce cart system",
+          "Real-time dashboard",
+          "Complex form management"
+        ],
+        "practice": "Refactor apps to use Redux"
+      },
+      "week_35": {
+        "title": "Advanced React Patterns",
+        "topics": [
+          "Higher-Order Components (HOCs)",
+          "Render props pattern",
+          "Compound components",
+          "Controlled vs uncontrolled components",
+          "Error boundaries",
+          "Portals for modals",
+          "React.memo optimization",
+          "Code splitting with lazy/Suspense",
+          "Performance profiling",
+          "React DevTools mastery",
+          "Server-side rendering concepts",
+          "Static site generation"
+        ],
+        "projects": [
+          "Modal system with portals",
+          "Form builder with patterns",
+          "Performance-optimized app",
+          "Component library"
+        ],
+        "practice": "Implement all patterns in projects"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Advanced React & Next.js",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Styling in React",
+        "topics": [
+          "CSS Modules in React",
+          "Styled-components introduction",
+          "Emotion CSS-in-JS",
+          "Tailwind with React",
+          "Material-UI (MUI) components",
+          "Chakra UI for rapid development",
+          "Ant Design components",
+          "Creating themed components",
+          "Animation libraries: Framer Motion",
+          "React Spring animations",
+          "Lottie animations in React",
+          "Building a design system"
+        ],
+        "projects": [
+          "Animated portfolio site",
+          "Dashboard with MUI",
+          "Landing page with animations",
+          "Custom component library"
+        ],
+        "practice": "Style apps with different approaches"
+      },
+      "week_38_39": {
+        "title": "Forms & Data Handling",
+        "topics": [
+          "Form handling in React",
+          "Controlled components deep dive",
+          "Form validation strategies",
+          "React Hook Form",
+          "Formik library",
+          "Yup schema validation",
+          "File uploads in React",
+          "Multi-step forms",
+          "Dynamic form fields",
+          "Form state management",
+          "Error handling and display",
+          "Accessibility in forms"
+        ],
+        "projects": [
+          "Complex registration form",
+          "Survey builder application",
+          "Job application system",
+          "Dynamic form generator"
+        ],
+        "practice": "Build 10 different form types"
+      },
+      "week_40_41": {
+        "title": "Next.js - Production React",
+        "topics": [
+          "Next.js: The React framework",
+          "File-based routing",
+          "Pages and layouts",
+          "Server-side rendering (SSR)",
+          "Static site generation (SSG)",
+          "Incremental Static Regeneration",
+          "API routes in Next.js",
+          "Image optimization",
+          "Built-in CSS support",
+          "Environment variables",
+          "Deployment with Vercel",
+          "SEO optimization"
+        ],
+        "projects": [
+          "Blog with Next.js and MDX",
+          "E-commerce site with SSR",
+          "Portfolio with ISR",
+          "Full-stack Next.js app"
+        ],
+        "practice": "Migrate React apps to Next.js"
+      },
+      "week_42_43": {
+        "title": "Testing React Applications",
+        "topics": [
+          "Why testing matters",
+          "Jest testing framework",
+          "React Testing Library",
+          "Writing unit tests",
+          "Testing components",
+          "Testing hooks",
+          "Integration testing",
+          "Mocking APIs and modules",
+          "Snapshot testing",
+          "End-to-end with Cypress",
+          "Test coverage reports",
+          "TDD approach"
+        ],
+        "projects": [
+          "Add tests to existing projects",
+          "TDD todo application",
+          "Test suite for component library",
+          "E2E tests for user flows"
+        ],
+        "practice": "Achieve 80% test coverage"
+      },
+      "week_44": {
+        "title": "TypeScript with React",
+        "topics": [
+          "TypeScript basics review",
+          "Setting up React with TypeScript",
+          "Typing props and state",
+          "Event types in React",
+          "Generic components",
+          "Typing hooks",
+          "Context with TypeScript",
+          "Redux with TypeScript",
+          "Common type patterns",
+          "Third-party library types",
+          "TypeScript best practices",
+          "Migration strategies"
+        ],
+        "projects": [
+          "Convert React app to TypeScript",
+          "Type-safe component library",
+          "Full TypeScript application",
+          "Type definitions for API"
+        ],
+        "practice": "Use TypeScript in all future projects"
+      }
+    },
+    "month_11_12": {
+      "title": "Phase 2 Capstone & Performance",
+      "weeks": "Week 25-26",
+      "week_45_46": {
+        "title": "Performance Optimization",
+        "topics": [
+          "Web performance metrics",
+          "Core Web Vitals",
+          "Lighthouse audits",
+          "Bundle size optimization",
+          "Code splitting strategies",
+          "Lazy loading components",
+          "Image optimization techniques",
+          "Font optimization",
+          "Caching strategies",
+          "Service workers basics",
+          "Progressive Web Apps",
+          "Performance monitoring"
+        ],
+        "projects": [
+          "Optimize slow application",
+          "PWA conversion",
+          "Performance dashboard",
+          "Speed optimization challenge"
+        ],
+        "practice": "Optimize all projects for performance"
+      },
+      "week_47_48": {
+        "title": "Accessibility & SEO",
+        "topics": [
+          "Web accessibility (a11y) importance",
+          "WCAG guidelines",
+          "Semantic HTML for accessibility",
+          "ARIA labels and roles",
+          "Keyboard navigation",
+          "Screen reader testing",
+          "Color contrast and vision",
+          "Focus management",
+          "SEO fundamentals",
+          "Meta tags and Open Graph",
+          "Structured data",
+          "SEO for SPAs"
+        ],
+        "projects": [
+          "Accessibility audit and fixes",
+          "Fully accessible form system",
+          "SEO-optimized blog",
+          "Accessible component library"
+        ],
+        "practice": "Make all projects accessible"
+      },
+      "week_49_50": {
+        "title": "Real-time Features",
+        "topics": [
+          "WebSockets introduction",
+          "Socket.io with React",
+          "Real-time notifications",
+          "Live chat implementation",
+          "Collaborative features",
+          "Server-sent events",
+          "WebRTC basics",
+          "Real-time data synchronization",
+          "Optimistic UI updates",
+          "Conflict resolution",
+          "Offline support",
+          "Real-time analytics"
+        ],
+        "projects": [
+          "Real-time chat application",
+          "Collaborative whiteboard",
+          "Live dashboard",
+          "Multiplayer game"
+        ],
+        "practice": "Add real-time features to apps"
+      },
+      "week_51": {
+        "title": "GraphQL with React",
+        "topics": [
+          "GraphQL vs REST",
+          "GraphQL queries and mutations",
+          "Apollo Client setup",
+          "useQuery and useMutation",
+          "Cache management",
+          "Optimistic updates",
+          "Subscriptions for real-time",
+          "Error handling",
+          "Pagination with GraphQL",
+          "File uploads",
+          "Authentication with GraphQL",
+          "GraphQL best practices"
+        ],
+        "projects": [
+          "GitHub clone with GraphQL",
+          "Social media with subscriptions",
+          "E-commerce with Apollo",
+          "Real-time collaboration app"
+        ],
+        "practice": "Convert REST apps to GraphQL"
+      },
+      "week_52": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Project ideation and planning",
+          "Technical architecture",
+          "Design system creation",
+          "Component development",
+          "State management setup",
+          "Testing implementation",
+          "Performance optimization",
+          "Deployment strategy"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Full React Application",
+          "Options: Social network, E-commerce platform, Productivity tool",
+          "Must include: Auth, real-time, complex state, testing, TypeScript",
+          "Deploy to production with CI/CD"
+        ],
+        "assessment": "Phase 2 Final - Production-ready React application"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Vue.js & Alternative Frameworks (Months 7-9, Weeks 27-39)",
+    "description": "Expand your skills with Vue.js and explore other modern frameworks. Become a versatile frontend developer.",
+    "month_13_14": {
+      "title": "Months 7-8: Vue.js Mastery",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Vue.js Fundamentals",
+        "topics": [
+          "Why Vue? The progressive framework",
+          "Vue 3 Composition API",
+          "Creating Vue applications",
+          "Template syntax and directives",
+          "Data binding: v-model magic",
+          "Computed properties",
+          "Watchers for reactive data",
+          "Methods and event handling",
+          "Conditional rendering: v-if, v-show",
+          "List rendering with v-for",
+          "Component basics",
+          "Props and events"
+        ],
+        "projects": [
+          "Task manager with Vue",
+          "Weather app rebuild",
+          "Shopping list application",
+          "Interactive quiz game"
+        ],
+        "practice": "Build 15 Vue components"
+      },
+      "week_55_56": {
+        "title": "Vue.js Advanced Features",
+        "topics": [
+          "Composition API deep dive",
+          "Reactive and ref",
+          "Custom composables",
+          "Lifecycle hooks",
+          "Provide/inject pattern",
+          "Slots for flexible components",
+          "Dynamic components",
+          "Async components",
+          "Teleport for modals",
+          "Transitions and animations",
+          "Custom directives",
+          "Mixins and composition"
+        ],
+        "projects": [
+          "Blog platform with Vue",
+          "Dashboard with charts",
+          "Modal system with teleport",
+          "Animated gallery"
+        ],
+        "practice": "Create Vue component library"
+      },
+      "week_57_58": {
+        "title": "Vue Router & Vuex",
+        "topics": [
+          "Vue Router setup",
+          "Dynamic routing",
+          "Nested routes",
+          "Navigation guards",
+          "Route meta fields",
+          "Lazy loading routes",
+          "Vuex state management",
+          "State, getters, mutations, actions",
+          "Modules in Vuex",
+          "Vuex vs Pinia",
+          "Pinia: Modern Vue store",
+          "Persisted state"
+        ],
+        "projects": [
+          "Multi-page app with auth",
+          "E-commerce with Vuex",
+          "Admin panel with Pinia",
+          "Social media clone"
+        ],
+        "practice": "Add routing and state to Vue apps"
+      },
+      "week_59_60": {
+        "title": "Nuxt.js - Vue Framework",
+        "topics": [
+          "Nuxt.js introduction",
+          "File-based routing",
+          "Pages and layouts",
+          "Server-side rendering",
+          "Static site generation",
+          "Auto-imports feature",
+          "Data fetching strategies",
+          "Nuxt modules",
+          "SEO optimization",
+          "Deployment options",
+          "Nuxt 3 features",
+          "Building full-stack apps"
+        ],
+        "projects": [
+          "Blog with Nuxt",
+          "E-commerce SSR app",
+          "Documentation site",
+          "Portfolio with Nuxt"
+        ],
+        "practice": "Convert Vue apps to Nuxt"
+      },
+      "week_61": {
+        "title": "Vue.js Ecosystem",
+        "topics": [
+          "Vuetify: Material Design",
+          "Element Plus UI library",
+          "Quasar Framework",
+          "VueUse composables",
+          "Vite build tool",
+          "Vue DevTools mastery",
+          "Testing with Vitest",
+          "Vue Test Utils",
+          "Storybook for Vue",
+          "Vue with TypeScript",
+          "Vue 3 best practices",
+          "Migration from Vue 2"
+        ],
+        "projects": [
+          "UI kit with Vuetify",
+          "Admin template",
+          "Component documentation",
+          "TypeScript Vue app"
+        ],
+        "practice": "Master Vue ecosystem tools"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Modern Frameworks & Tools",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Svelte & SvelteKit",
+        "topics": [
+          "Svelte: No virtual DOM",
+          "Svelte syntax and reactivity",
+          "Components in Svelte",
+          "Stores for state management",
+          "Animations and transitions",
+          "Actions and use directive",
+          "SvelteKit framework",
+          "Routing in SvelteKit",
+          "Server-side rendering",
+          "API routes",
+          "Deployment strategies",
+          "Svelte vs other frameworks"
+        ],
+        "projects": [
+          "Todo app in Svelte",
+          "Portfolio with SvelteKit",
+          "Real-time chat app",
+          "Blog platform"
+        ],
+        "practice": "Compare Svelte with React/Vue"
+      },
+      "week_64_65": {
+        "title": "Angular Basics",
+        "topics": [
+          "Angular: The enterprise framework",
+          "TypeScript in Angular",
+          "Angular CLI",
+          "Components and templates",
+          "Data binding",
+          "Directives and pipes",
+          "Services and dependency injection",
+          "RxJS and Observables",
+          "Routing in Angular",
+          "Forms and validation",
+          "HTTP client",
+          "Angular Material"
+        ],
+        "projects": [
+          "Task tracker in Angular",
+          "Dashboard application",
+          "CRUD application",
+          "Angular enterprise app"
+        ],
+        "practice": "Build Angular components"
+      },
+      "week_66_67": {
+        "title": "Web Components & Lit",
+        "topics": [
+          "Web Components standard",
+          "Custom Elements API",
+          "Shadow DOM",
+          "HTML Templates",
+          "Lit framework",
+          "Creating Lit components",
+          "Reactive properties",
+          "Styling Web Components",
+          "Publishing components",
+          "Framework-agnostic components",
+          "Micro frontends concept",
+          "Using Web Components everywhere"
+        ],
+        "projects": [
+          "Custom element library",
+          "Lit component collection",
+          "Framework-agnostic UI kit",
+          "Micro frontend demo"
+        ],
+        "practice": "Create reusable Web Components"
+      },
+      "week_68_69": {
+        "title": "Static Site Generators",
+        "topics": [
+          "JAMstack architecture",
+          "Gatsby.js with React",
+          "Astro framework",
+          "11ty (Eleventy)",
+          "Hugo for speed",
+          "Content management",
+          "Markdown and MDX",
+          "Image optimization",
+          "SEO optimization",
+          "Deployment platforms",
+          "Netlify and Vercel",
+          "Building blogs and docs"
+        ],
+        "projects": [
+          "Blog with Gatsby",
+          "Documentation with Astro",
+          "Portfolio with 11ty",
+          "Marketing site with Hugo"
+        ],
+        "practice": "Build static sites with different tools"
+      },
+      "week_70": {
+        "title": "Phase 3 Integration",
+        "topics": [
+          "Framework comparison",
+          "Choosing the right tool",
+          "Migration strategies",
+          "Performance comparison",
+          "Developer experience",
+          "Community and ecosystem",
+          "Job market analysis",
+          "Future trends"
+        ],
+        "projects": [
+          "Same app in React, Vue, Svelte",
+          "Framework comparison report",
+          "Migration guide",
+          "Decision matrix tool"
+        ],
+        "practice": "Master framework selection"
+      }
+    },
+    "month_17_18": {
+      "title": "Phase 3 Capstone & Advanced Topics",
+      "weeks": "Week 38-39",
+      "week_71_72": {
+        "title": "Micro Frontends",
+        "topics": [
+          "Micro frontend architecture",
+          "Module Federation",
+          "Single-spa framework",
+          "Sharing state between apps",
+          "Routing in micro frontends",
+          "CI/CD for micro frontends",
+          "Testing strategies",
+          "Performance considerations",
+          "Team organization",
+          "Communication patterns",
+          "Deployment strategies",
+          "Real-world examples"
+        ],
+        "projects": [
+          "Micro frontend platform",
+          "Multi-framework app",
+          "Federated modules demo",
+          "Enterprise architecture"
+        ],
+        "practice": "Build micro frontend system"
+      },
+      "week_73_74": {
+        "title": "Advanced Animation & 3D",
+        "topics": [
+          "Advanced CSS animations",
+          "GSAP (GreenSock) mastery",
+          "ScrollTrigger animations",
+          "Lottie and After Effects",
+          "Three.js basics",
+          "3D in the browser",
+          "React Three Fiber",
+          "WebGL fundamentals",
+          "Shaders basics",
+          "Interactive 3D experiences",
+          "VR/AR on the web",
+          "Performance optimization"
+        ],
+        "projects": [
+          "3D portfolio site",
+          "Interactive 3D game",
+          "Animated landing page",
+          "WebGL experiment"
+        ],
+        "practice": "Create stunning visual experiences"
+      },
+      "week_75_76": {
+        "title": "Advanced State Management",
+        "topics": [
+          "State machines with XState",
+          "MobX for reactive programming",
+          "Recoil for React",
+          "Jotai atomic state",
+          "Valtio proxy state",
+          "Zustand simplicity",
+          "Redux Toolkit Query",
+          "React Query (TanStack Query)",
+          "SWR data fetching",
+          "Optimistic updates",
+          "Cache strategies",
+          "State persistence"
+        ],
+        "projects": [
+          "Complex app with XState",
+          "Data-heavy dashboard",
+          "Offline-first application",
+          "Real-time sync system"
+        ],
+        "practice": "Master different state solutions"
+      },
+      "week_77": {
+        "title": "Design Systems & Component Libraries",
+        "topics": [
+          "Design system principles",
+          "Design tokens",
+          "Component documentation",
+          "Storybook mastery",
+          "Component testing",
+          "Accessibility testing",
+          "Visual regression testing",
+          "Publishing to NPM",
+          "Versioning strategies",
+          "Monorepo management",
+          "Documentation sites",
+          "Team adoption"
+        ],
+        "projects": [
+          "Complete design system",
+          "NPM component library",
+          "Storybook showcase",
+          "Documentation site"
+        ],
+        "practice": "Build professional component library"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Multi-framework project",
+          "Architecture design",
+          "Technology selection",
+          "Implementation strategy",
+          "Testing approach",
+          "Documentation",
+          "Deployment pipeline",
+          "Performance goals"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Enterprise Application",
+          "Build with multiple frameworks",
+          "Include: Micro frontends, design system, real-time, animations",
+          "Production deployment with monitoring"
+        ],
+        "assessment": "Phase 3 Final - Complex multi-framework application"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Professional Skills & Career Launch (Months 10-12, Weeks 40-52)",
+    "description": "Master professional development skills, build your portfolio, and launch your frontend career.",
+    "month_19_20": {
+      "title": "Months 10-11: Professional Development",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Portfolio Development",
+        "topics": [
+          "Portfolio strategy for teens",
+          "Showcasing your best work",
+          "Case study creation",
+          "Project documentation",
+          "Before/after demonstrations",
+          "Performance metrics",
+          "Client testimonials",
+          "Personal branding",
+          "Domain and hosting",
+          "SEO for portfolios",
+          "Analytics setup",
+          "Contact forms and CTAs"
+        ],
+        "projects": [
+          "Professional portfolio site",
+          "Case studies for 5 projects",
+          "Interactive resume",
+          "Skills showcase"
+        ],
+        "practice": "Polish all project presentations"
+      },
+      "week_81_82": {
+        "title": "Freelancing Fundamentals",
+        "topics": [
+          "Freelancing as a teen",
+          "Setting up your business",
+          "Pricing your services",
+          "Finding first clients",
+          "Upwork and Fiverr profiles",
+          "Writing proposals",
+          "Client communication",
+          "Project management",
+          "Time tracking",
+          "Invoicing and payments",
+          "Contracts and agreements",
+          "Building reputation"
+        ],
+        "projects": [
+          "Freelance service packages",
+          "Client onboarding system",
+          "Invoice templates",
+          "First client project"
+        ],
+        "practice": "Complete first paid project"
+      },
+      "week_83_84": {
+        "title": "Open Source Contribution",
+        "topics": [
+          "Why open source matters",
+          "Finding projects to contribute",
+          "Understanding codebases",
+          "Making first contribution",
+          "Pull request etiquette",
+          "Code review process",
+          "Documentation contributions",
+          "Creating your own projects",
+          "Building community",
+          "Maintaining projects",
+          "GitHub sponsors",
+          "Open source licenses"
+        ],
+        "projects": [
+          "First open source PR",
+          "Create open source tool",
+          "Documentation improvements",
+          "Bug fixes and features"
+        ],
+        "practice": "Contribute to 5 projects"
+      },
+      "week_85_86": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Frontend interview process",
+          "Technical interview prep",
+          "JavaScript questions",
+          "React/Vue questions",
+          "CSS challenges",
+          "Algorithm basics",
+          "System design for frontend",
+          "Behavioral questions",
+          "Portfolio presentation",
+          "Whiteboard coding",
+          "Take-home projects",
+          "Salary negotiation"
+        ],
+        "projects": [
+          "Interview prep materials",
+          "Practice problems solutions",
+          "Mock interview recordings",
+          "Take-home project samples"
+        ],
+        "practice": "Daily interview practice"
+      },
+      "week_87": {
+        "title": "Advanced Git & Collaboration",
+        "topics": [
+          "Git advanced commands",
+          "Branching strategies",
+          "Merge vs rebase",
+          "Resolving conflicts",
+          "Git hooks",
+          "Conventional commits",
+          "Semantic versioning",
+          "GitHub Actions mastery",
+          "Code review best practices",
+          "Team collaboration",
+          "Documentation standards",
+          "Project management tools"
+        ],
+        "projects": [
+          "Team collaboration project",
+          "CI/CD pipeline setup",
+          "Automated workflows",
+          "Contributing guide"
+        ],
+        "practice": "Collaborate on group project"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 11: Specialized Skills",
+      "weeks": "Week 44-47",
+      "week_88_89": {
+        "title": "E-commerce Development",
+        "topics": [
+          "E-commerce requirements",
+          "Product catalogs",
+          "Shopping cart systems",
+          "Checkout flows",
+          "Payment integration",
+          "Stripe and PayPal",
+          "Order management",
+          "Inventory tracking",
+          "User accounts",
+          "Wishlist and reviews",
+          "Email notifications",
+          "Analytics and tracking"
+        ],
+        "projects": [
+          "Full e-commerce site",
+          "Product showcase",
+          "Checkout system",
+          "Admin dashboard"
+        ],
+        "practice": "Build complete online store"
+      },
+      "week_90_91": {
+        "title": "CMS & Headless Solutions",
+        "topics": [
+          "Content Management Systems",
+          "Headless CMS concept",
+          "Strapi integration",
+          "Contentful setup",
+          "Sanity.io features",
+          "WordPress as headless",
+          "GraphQL with CMS",
+          "Content modeling",
+          "Rich text handling",
+          "Media management",
+          "Multilingual content",
+          "Content workflows"
+        ],
+        "projects": [
+          "Blog with headless CMS",
+          "Marketing site with CMS",
+          "Documentation platform",
+          "News portal"
+        ],
+        "practice": "Integrate 3 different CMS solutions"
+      },
+      "week_92_93": {
+        "title": "Mobile-First Development",
+        "topics": [
+          "Mobile-first philosophy",
+          "Touch interactions",
+          "Gesture handling",
+          "Mobile performance",
+          "PWA deep dive",
+          "Service workers mastery",
+          "Offline strategies",
+          "App-like experiences",
+          "Mobile UI patterns",
+          "Viewport optimization",
+          "Mobile testing tools",
+          "Cross-device testing"
+        ],
+        "projects": [
+          "PWA social app",
+          "Offline-first application",
+          "Mobile game",
+          "App-like website"
+        ],
+        "practice": "Convert sites to PWAs"
+      },
+      "week_94_95": {
+        "title": "Deployment & DevOps",
+        "topics": [
+          "Deployment strategies",
+          "Netlify deployment",
+          "Vercel configuration",
+          "AWS basics for frontend",
+          "CloudFlare Pages",
+          "GitHub Pages",
+          "Docker for frontend",
+          "CI/CD pipelines",
+          "Environment management",
+          "Monitoring and logging",
+          "Error tracking",
+          "Performance monitoring"
+        ],
+        "projects": [
+          "Multi-environment setup",
+          "Automated deployment",
+          "Monitoring dashboard",
+          "Deploy all projects"
+        ],
+        "practice": "Deploy to multiple platforms"
+      },
+      "week_96": {
+        "title": "Emerging Technologies",
+        "topics": [
+          "WebAssembly basics",
+          "AI in frontend",
+          "Voice interfaces",
+          "WebXR (VR/AR)",
+          "Blockchain integration",
+          "Edge computing",
+          "5G implications",
+          "IoT dashboards",
+          "Quantum computing UI",
+          "Future of frontend",
+          "Continuous learning",
+          "Staying updated"
+        ],
+        "projects": [
+          "AI-powered interface",
+          "Voice-controlled app",
+          "WebXR experience",
+          "Future tech demo"
+        ],
+        "practice": "Experiment with new tech"
+      }
+    },
+    "month_23": {
+      "title": "Month 12: Final Project & Launch",
+      "weeks": "Week 48-52",
+      "week_97": {
+        "title": "Final Project Planning",
+        "topics": [
+          "Project ideation",
+          "Market research",
+          "User research",
+          "Technical planning",
+          "Design process",
+          "Architecture decisions",
+          "Timeline creation",
+          "Risk assessment"
+        ],
+        "projects": [
+          "FINAL PROJECT START",
+          "Comprehensive planning",
+          "Design mockups",
+          "Technical specification",
+          "Project roadmap"
+        ],
+        "practice": "Thorough planning phase"
+      },
+      "week_98": {
+        "title": "Final Project Development - Part 1",
+        "topics": [
+          "Setting up project",
+          "Component architecture",
+          "State management setup",
+          "Routing implementation",
+          "API integration",
+          "Authentication system",
+          "Core features",
+          "Testing setup"
+        ],
+        "projects": [
+          "Build core functionality",
+          "Implement main features",
+          "Set up infrastructure",
+          "Initial testing"
+        ],
+        "practice": "Rapid development sprint"
+      },
+      "week_99": {
+        "title": "Final Project Development - Part 2",
+        "topics": [
+          "Advanced features",
+          "Performance optimization",
+          "Accessibility audit",
+          "SEO implementation",
+          "Error handling",
+          "Edge cases",
+          "User testing",
+          "Bug fixes"
+        ],
+        "projects": [
+          "Complete all features",
+          "Optimize performance",
+          "Fix all bugs",
+          "Polish UI/UX"
+        ],
+        "practice": "Quality assurance phase"
+      },
+      "week_100": {
+        "title": "Launch Preparation",
+        "topics": [
+          "Deployment setup",
+          "Domain configuration",
+          "SSL certificates",
+          "Analytics setup",
+          "SEO optimization",
+          "Social media prep",
+          "Launch strategy",
+          "Marketing plan"
+        ],
+        "projects": [
+          "Deploy to production",
+          "Marketing materials",
+          "Launch campaign",
+          "Documentation"
+        ],
+        "practice": "Pre-launch checklist"
+      }
+    },
+    "month_24": {
+      "title": "Week 51-52: Graduation & Career Launch",
+      "weeks": "Week 51-52",
+      "week_101_102": {
+        "title": "Career Launch",
+        "topics": [
+          "Job search strategies",
+          "Resume optimization",
+          "LinkedIn profile",
+          "GitHub portfolio",
+          "Networking tips",
+          "Interview scheduling",
+          "Follow-up strategies",
+          "First job tips",
+          "Freelance vs employment",
+          "Remote work skills",
+          "Continuous learning",
+          "Career growth path"
+        ],
+        "projects": [
+          "Job application package",
+          "Interview portfolio",
+          "Professional network",
+          "Career plan"
+        ],
+        "deliverables": [
+          "Professional resume",
+          "30+ portfolio projects",
+          "GitHub profile",
+          "LinkedIn presence"
+        ]
+      },
+      "week_103": {
+        "title": "Final Presentations",
+        "topics": [
+          "Presenting your work",
+          "Demo preparation",
+          "Public speaking",
+          "Technical explanation",
+          "Q&A handling",
+          "Peer reviews",
+          "Feedback incorporation",
+          "Success celebration"
+        ],
+        "projects": [
+          "Final project presentation",
+          "Portfolio walkthrough",
+          "Technical deep dive",
+          "Future plans presentation"
+        ],
+        "deliverables": [
+          "Recorded presentation",
+          "Live demo",
+          "Peer feedback",
+          "Mentor evaluation"
+        ]
+      },
+      "week_104": {
+        "title": "Graduation & Beyond",
+        "topics": [
+          "Course completion",
+          "Certification ceremony",
+          "Alumni network",
+          "Continued support",
+          "Learning resources",
+          "Community access",
+          "Mentorship program",
+          "Success stories",
+          "Future opportunities",
+          "Staying connected",
+          "Giving back",
+          "Next steps"
+        ],
+        "deliverables": [
+          "Course Completion Certificate",
+          "Professional Frontend Developer Certification",
+          "Letter of Recommendation",
+          "Alumni Network Access",
+          "Lifetime Course Updates",
+          "Job Placement Support"
+        ],
+        "assessment": "FINAL SHOWCASE: Present complete portfolio to industry professionals"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1: 15+ static websites, responsive designs, API integrations",
+      "Phase 2: 12+ React applications, Next.js projects, real-time apps",
+      "Phase 3: 10+ Vue/Svelte apps, micro frontends, design systems",
+      "Phase 4: Professional portfolio, client projects, open source contributions",
+      "Total: 40+ complete projects from simple to complex"
+    ],
+    "total_projects_built": "40+ frontend projects, 10+ production deployments",
+    "skills_mastered": [
+      "Languages: HTML5, CSS3, JavaScript ES6+, TypeScript",
+      "Frameworks: React, Vue, Svelte, Angular basics, Next.js, Nuxt.js",
+      "Styling: SASS, Tailwind, Styled-components, CSS-in-JS, Animations",
+      "State: Redux, Vuex, Context API, Zustand, MobX",
+      "Tools: Git, VS Code, Webpack, Vite, NPM, Chrome DevTools",
+      "Testing: Jest, React Testing Library, Cypress, Vitest",
+      "Design: Responsive, Accessibility, UI/UX, Figma basics",
+      "Performance: Optimization, PWAs, Core Web Vitals",
+      "Deployment: Netlify, Vercel, GitHub Pages, CI/CD",
+      "Professional: Portfolio, Freelancing, Open Source, Interviews"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-4 hours",
+      "hands_on_coding": "5-6 hours",
+      "projects": "3-4 hours",
+      "practice_problems": "2 hours",
+      "total_per_week": "10-12 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly group mentoring sessions",
+      "mentorship": "1-on-1 guidance from experienced developers",
+      "community": "Active Discord community of teen developers",
+      "code_review": "Professional code reviews for all projects",
+      "career_support": "Job placement, internship assistance",
+      "freelance_support": "Help landing first clients",
+      "lifetime_access": "All content and future updates"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each quarter",
+      "final_certificate": "Professional Frontend Developer Certification",
+      "linkedin_badge": "Verified LinkedIn certification",
+      "portfolio_review": "Professional portfolio assessment",
+      "job_readiness": "Job-ready certification",
+      "freelance_ready": "Freelance-ready certification"
+    }
+  },
+  "prerequisites": {
+    "education": "No prerequisites - complete beginner friendly",
+    "coding_experience": "Zero coding knowledge required",
+    "equipment": "Any computer with internet connection",
+    "time_commitment": "10-12 hours per week",
+    "english": "Basic English understanding",
+    "motivation": "Creativity and desire to build"
+  },
+  "who_is_this_for": {
+    "students": "Teenagers (13-19) interested in web design",
+    "working_professionals": "Young adults switching to tech",
+    "entrepreneurs": "Teens wanting to build websites",
+    "freelancers": "Start earning while in school",
+    "kids": "Creative kids who love design",
+    "anyone": "Anyone who wants to build beautiful websites"
+  },
+  "career_paths_after_completion": [
+    "Junior Frontend Developer",
+    "React Developer",
+    "Vue.js Developer",
+    "UI/UX Developer",
+    "Freelance Web Developer",
+    "Frontend Engineer",
+    "Web Designer",
+    "Full Stack Developer (with backend knowledge)",
+    "Technical Founder",
+    "Creative Developer"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹2-4 LPA (Internships)",
+    "after_9_months": "₹4-7 LPA (Junior roles)",
+    "after_12_months": "₹6-12 LPA (Frontend Developer)",
+    "freelance": "₹500-1500/hour",
+    "international": "$30k-60k USD entry level",
+    "projects": "₹10k-50k per project"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Job placement support",
+    "portfolio_review": "Professional portfolio guidance",
+    "mentorship": "Dedicated mentor throughout",
+    "certificate": "Industry-recognized certification",
+    "success": "40+ projects portfolio guaranteed"
+  }
+}
