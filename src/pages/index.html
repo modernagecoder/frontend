@@ -1797,8 +1797,18 @@
             // Show/hide loading state
             function showLoading(isLoading) {
                 const button = document.querySelector('.submit-button');
-                const buttonText = button.querySelector('.button-text');
-                const buttonLoader = button.querySelector('.button-loader');
+    if (!button) {
+        console.error('❌ Submit button not found');
+        return;  // ✅ Safely exit if button not found
+    }
+    
+    const buttonText = button.querySelector('.button-text');
+    const buttonLoader = button.querySelector('.button-loader');
+    
+    if (!buttonText || !buttonLoader) {
+        console.error('❌ Button elements not found');
+        return;  // ✅ Safely exit if elements not found
+    }
 
                 if (isLoading) {
                     button.disabled = true;
