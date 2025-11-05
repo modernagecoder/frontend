@@ -462,6 +462,7 @@
     <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/corporate-training.css">
 
     <style>
         /* COMPLETELY REMOVE SVG SUPPORT AND FORCE IMG SIZING */
@@ -701,7 +702,7 @@
                                 <span class="subtab-text">Special for Girls</span>
                             </button>
                             <button class="sub-tab" data-subtab="customized" data-main="coding">
-                                <span class="subtab-text">Customized</span>
+                                <span class="subtab-text">Corporate</span>
                             </button>
                         </div>
 
@@ -806,48 +807,48 @@
         // Course Data - All 19 Generated Courses
         const coursesData = [
             // 1. Full-Stack Web Development
-   {
-    id: 1,
-    category: 'web-dev',
-    title: 'Full Stack Web Development',
-    description: 'Become a full-fledged web developer! Teens will learn HTML, CSS, JavaScript, frontend frameworks, and backend technologies to build complete dynamic websites and web apps from scratch — just like real developers.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Frontend & Backend Development'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/full-stack-web-development-teens-masterclass/index.html',
-    imageUrl: 'web-dev-teens.png'
-},
+            {
+                id: 1,
+                category: 'web-dev',
+                title: 'Full Stack Web Development',
+                description: 'Become a full-fledged web developer! Teens will learn HTML, CSS, JavaScript, frontend frameworks, and backend technologies to build complete dynamic websites and web apps from scratch — just like real developers.',
+                skills: ['HTML', 'CSS', 'JavaScript', 'Frontend & Backend Development'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/full-stack-web-development-teens-masterclass/index.html',
+                imageUrl: 'web-dev-teens.png'
+            },
 
 
             // 2. React JS Masterclass
-           {
-    id: 2,
-    category: 'web-dev',
-    title: 'React Development',
-    description: 'Dive into modern web development with React! Teens will learn how to build powerful, dynamic, and interactive web apps using components, props, hooks, and APIs — the same tools used by top developers worldwide.',
-    skills: ['ReactJS', 'Component-Based Design', 'Frontend Development'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/react-for-teens-complete-masterclass/index.html',
-    imageUrl: 'react-teens.png'
-},
+            {
+                id: 2,
+                category: 'web-dev',
+                title: 'React Development',
+                description: 'Dive into modern web development with React! Teens will learn how to build powerful, dynamic, and interactive web apps using components, props, hooks, and APIs — the same tools used by top developers worldwide.',
+                skills: ['ReactJS', 'Component-Based Design', 'Frontend Development'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/react-for-teens-complete-masterclass/index.html',
+                imageUrl: 'react-teens.png'
+            },
 
 
             // 3. Python Programming Masterclass
-        {
-    id: 3,
-    category: 'programming',
-    title: 'Python Programming',
-    description: 'Learn one of the most popular and beginner-friendly programming languages! Teens will explore Python through real-world projects — from logic building and problem solving to creating games, apps, and automation tools.',
-    skills: ['Python Basics', 'Problem Solving', 'Project Development'],
-    difficulty: 'beginner',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/python-complete-masterclass-teens/index.html',
-    imageUrl: 'python-teens.png'
-},
+            {
+                id: 3,
+                category: 'programming',
+                title: 'Python Programming',
+                description: 'Learn one of the most popular and beginner-friendly programming languages! Teens will explore Python through real-world projects — from logic building and problem solving to creating games, apps, and automation tools.',
+                skills: ['Python Basics', 'Problem Solving', 'Project Development'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/python-complete-masterclass-teens/index.html',
+                imageUrl: 'python-teens.png'
+            },
 
 
             // 4. AI & ML Masterclass
@@ -860,8 +861,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['hot', 'popular'],
-                templateUrl: '/courses/ai-ml-masterclass-complete/index.html',
-                imageUrl: 'ai-ml.png'
+                templateUrl: '/content/courses/generated/ai-ml-masterclass-complete-college/index.html',
+                imageUrl: 'ai-ml-college.jpg'
             },
 
             // 5. Data Science Complete Masterclass
@@ -874,8 +875,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['hot'],
-                templateUrl: '/courses/data-science-complete-masterclass/index.html',
-                imageUrl: 'data-science.png'
+                templateUrl: '/content/courses/generated/data-science-complete-masterclass-college/index.html',
+                imageUrl: 'data-analysis-college.jpg'
             },
 
             // 6. Complete App Development Masterclass
@@ -888,8 +889,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['popular'],
-                templateUrl: '/courses/complete-app-development-masterclass/index.html',
-                imageUrl: 'app-development.png'
+                templateUrl: '/content/courses/generated/complete-app-development-masterclass-college/index.html',
+                imageUrl: 'app-dev-college.png'
             },
 
             // 7. MERN Stack Development
@@ -902,38 +903,38 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['popular'],
-                templateUrl: '/courses/mern-stack-development-masterclass/index.html',
-                imageUrl: 'mern-stack.png'
+                templateUrl: '/content/courses/generated/mern-stack-development-masterclass-college/index.html',
+                imageUrl: 'mern-stack-college.jpg'
             },
 
             // 8. Complete Java Programming Masterclass
-         {
-    id: 8,
-    category: 'logic',
-    title: 'Problem Solving & Logical Thinking',
-    description: 'Sharpen your mind with advanced puzzles, coding challenges, and real-world problem-solving techniques! Teens will learn to think analytically, break down complex problems, and design efficient solutions — essential skills for future coders and innovators.',
-    skills: ['Logical Thinking', 'Analytical Reasoning', 'Algorithmic Problem Solving'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/problem-solving-dsa-masterclass-teens/index.html',
-    imageUrl: 'problem-solving-teens.png'
-},
+            {
+                id: 8,
+                category: 'logic',
+                title: 'Problem Solving & Logical Thinking',
+                description: 'Sharpen your mind with advanced puzzles, coding challenges, and real-world problem-solving techniques! Teens will learn to think analytically, break down complex problems, and design efficient solutions — essential skills for future coders and innovators.',
+                skills: ['Logical Thinking', 'Analytical Reasoning', 'Algorithmic Problem Solving'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/problem-solving-dsa-masterclass-teens/index.html',
+                imageUrl: 'problem-solving-teens.png'
+            },
 
 
             // 9. C++ Programming Complete Masterclass
-    {
-    id: 9,
-    category: 'programming',
-    title: 'MySQL Database Management',
-    description: 'Learn how to organize, store, and manage data like a pro! Teens will understand database concepts, write SQL queries, and connect databases to real web and app projects — the backbone of every modern tech system.',
-    skills: ['Database Management', 'SQL Queries', 'Data Handling'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/mysql-mastery-for-teens/index.html',
-    imageUrl: 'mysql-teens.png'
-},
+            {
+                id: 9,
+                category: 'programming',
+                title: 'MySQL Database Management',
+                description: 'Learn how to organize, store, and manage data like a pro! Teens will understand database concepts, write SQL queries, and connect databases to real web and app projects — the backbone of every modern tech system.',
+                skills: ['Database Management', 'SQL Queries', 'Data Handling'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/mysql-mastery-for-teens/index.html',
+                imageUrl: 'mysql-teens.png'
+            },
 
 
             // 10. MySQL Database Complete Masterclass
@@ -946,8 +947,8 @@
                 difficulty: 'beginner',
                 ageGroup: 'college',
                 badges: [],
-                templateUrl: '/courses/mysql-database-complete-masterclass/index.html',
-                imageUrl: 'mysql.png'
+                templateUrl: '/content/courses/generated/mysql-database-complete-masterclass-college/index.html',
+                imageUrl: 'database-college.jpg'
             },
 
             // 11. Game Development Complete Masterclass
@@ -974,8 +975,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['hot', 'popular'],
-                templateUrl: '/courses/data-structures-algorithms-masterclass/index.html',
-                imageUrl: 'dsa.png'
+                templateUrl: '/content/courses/generated/data-structures-algorithms-masterclass-college/index.html',
+                imageUrl: 'dsa-college.jpg'
             },
 
             // 13. Competitive Programming Masterclass
@@ -988,8 +989,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['popular'],
-                templateUrl: '/courses/competitive-programming-masterclass/index.html',
-                imageUrl: 'competitive-coding.png'
+                templateUrl: '/content/courses/generated/competitive-programming-masterclass-college/index.html',
+                imageUrl: 'dsa-college.jpg'
             },
 
             // 14. AI Tools Mastery Complete
@@ -1002,8 +1003,8 @@
                 difficulty: 'beginner',
                 ageGroup: 'college',
                 badges: ['new'],
-                templateUrl: '/courses/ai-tools-mastery-complete/index.html',
-                imageUrl: 'ai-tools.png'
+                templateUrl: '/content/courses/generated/ai-tools-mastery-complete-college/index.html',
+                imageUrl: 'ai-tools-college.jpg'
             },
 
             // 15. Algorithmic Trading Masterclass Complete
@@ -1017,7 +1018,7 @@
                 ageGroup: 'college',
                 badges: ['new'],
                 templateUrl: '/courses/algorithmic-trading-masterclass-complete/index.html',
-                imageUrl: 'algorithmic-trading.png'
+                imageUrl: 'algo-trading-college.jpg'
             },
 
             // 16. Algorithmic Trading Automation Masterclass
@@ -1031,7 +1032,7 @@
                 ageGroup: 'college',
                 badges: ['hot'],
                 templateUrl: '/courses/algorithmic-trading-automation-masterclass/index.html',
-                imageUrl: 'trading-automation.png'
+                imageUrl: 'algo-trading-college.jpg'
             },
 
             // 17. Artificial Intelligence Complete Masterclass
@@ -1044,8 +1045,8 @@
                 difficulty: 'advanced',
                 ageGroup: 'college',
                 badges: ['hot'],
-                templateUrl: '/courses/artificial-intelligence-complete-masterclass/index.html',
-                imageUrl: 'artificial-intelligence.png'
+                templateUrl: '/content/courses/generated/artificial-intelligence-complete-masterclass-college/index.html',
+                imageUrl: 'ai-college.png'
             },
 
             // 18. Python AI Automation Masterclass
@@ -1058,8 +1059,8 @@
                 difficulty: 'intermediate',
                 ageGroup: 'college',
                 badges: ['new'],
-                templateUrl: '/courses/python-ai-automation-masterclass/index.html',
-                imageUrl: 'python-automation.png'
+                templateUrl: '/content/courses/generated/python-ai-automation-masterclass-college/index.html',
+                imageUrl: 'python-automation-ai-college.jpg'
             },
 
             // 19. Data Analysis Mastery Course
@@ -1072,9 +1073,94 @@
                 difficulty: 'intermediate',
                 ageGroup: 'college',
                 badges: [],
-                templateUrl: '/courses/data-analysis-mastery-course/index.html',
-                imageUrl: 'data-analysis.png'
+                templateUrl: '/content/courses/generated/data-analysis-mastery-course-college/index.html',
+                imageUrl: 'data-analysis-college.jpg'
             },
+
+            // 20. Full Stack Web Development Masterclass
+            {
+                id: 20,
+                category: 'web-dev',
+                title: 'Full Stack Web Development Masterclass',
+                description: 'Master both front-end and back-end technologies to build complete, scalable web applications from scratch.',
+                skills: ['HTML/CSS/JS', 'React', 'Node.js', 'MongoDB'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot', 'popular'],
+                templateUrl: '/content/courses/generated/full-stack-web-development-masterclass-college/index.html',
+                imageUrl: 'full-stack-development-college.jpg'
+            },
+
+            // 21. React JS Complete Masterclass
+            {
+                id: 21,
+                category: 'web-dev',
+                title: 'React JS Complete Masterclass',
+                description: 'Master modern front-end development with React JS. Learn to build dynamic, responsive, and real-world web applications from scratch.',
+                skills: ['React', 'Redux', 'Next.js', 'TypeScript'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: '/content/courses/generated/react-js-complete-masterclass-college/index.html',
+                imageUrl: 'react-college.jpg'
+            },
+
+            // 22. Python Programming Masterclass
+            {
+                id: 22,
+                category: 'programming',
+                title: 'Python Programming Masterclass - Zero to Advanced',
+                description: 'Learn Python programming from basics to advanced. Build intelligent applications with AI integration.',
+                skills: ['Python Fundamentals', 'Web Development', 'Data Science', 'AI/ML'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '/content/courses/generated/python-programming-masterclass-zero-to-advanced-college/index.html',
+                imageUrl: 'python-college.png'
+            },
+
+            // 23. Complete Java Programming Masterclass
+            {
+                id: 23,
+                category: 'programming',
+                title: 'Complete Java Programming Masterclass',
+                description: 'Master Java programming from basics to advanced concepts. Build robust enterprise applications.',
+                skills: ['Core Java', 'Spring Boot', 'Microservices', 'Hibernate'],
+                difficulty: 'intermediate',
+                ageGroup: 'college',
+                badges: ['popular'],
+                templateUrl: '/content/courses/generated/complete-java-programming-masterclass-college/index.html',
+                imageUrl: 'java-college.png'
+            },
+
+            // 24. C++ Programming Complete Masterclass
+            {
+                id: 24,
+                category: 'programming',
+                title: 'C++ Programming Complete Masterclass',
+                description: 'Master C++ programming from fundamentals to advanced concepts. Build high-performance applications.',
+                skills: ['Modern C++', 'STL', 'Memory Management', 'System Programming'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: [],
+                templateUrl: '/content/courses/generated/cpp-programming-complete-masterclass-college/index.html',
+                imageUrl: 'cpp-college.png'
+            },
+
+            // 25. Game Development Complete Masterclass
+            {
+                id: 25,
+                category: 'game-dev',
+                title: 'Game Development Complete Masterclass',
+                description: 'Create amazing games from scratch. Learn Unity, Unreal Engine, and game design principles.',
+                skills: ['Unity', 'Unreal Engine', 'C++/C#', '2D/3D Development'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '/content/courses/generated/game-development-complete-masterclass-college/index.html',
+                imageUrl: 'game-dev-college.png'
+            },
+
             // Information Practices
             {
                 id: 14,
@@ -1128,46 +1214,46 @@
                 imageUrl: 'mern-stack.png'
             },
             // Java
-          {
-    id: 18,
-    category: 'programming',
-    title: 'Java Programming',
-    description: 'Master one of the world’s most powerful programming languages! Teens will learn the core concepts of Java — from variables, loops, and functions to object-oriented programming — and build real-world applications step by step.',
-    skills: ['Java Basics', 'Object-Oriented Programming', 'App Development'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/java-programming-masterclass-for-teens/index.html',
-    imageUrl: 'java-teens.png'
-},
+            {
+                id: 18,
+                category: 'programming',
+                title: 'Java Programming',
+                description: 'Master one of the world’s most powerful programming languages! Teens will learn the core concepts of Java — from variables, loops, and functions to object-oriented programming — and build real-world applications step by step.',
+                skills: ['Java Basics', 'Object-Oriented Programming', 'App Development'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/java-programming-masterclass-for-teens/index.html',
+                imageUrl: 'java-teens.png'
+            },
 
             // Web Development
-           {
-    id: 19,
-    category: 'web-dev',
-    title: 'Frontend Coding',
-    description: 'Design and code beautiful, responsive websites! Teens will learn HTML, CSS, and JavaScript to bring creative ideas to life — from interactive pages to modern web designs that work on any device.',
-    skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
-    difficulty: 'beginner',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/frontend-development-masterclass-for-teens/index.html',
-    imageUrl: 'frontend-teens.png'
-},
+            {
+                id: 19,
+                category: 'web-dev',
+                title: 'Frontend Coding',
+                description: 'Design and code beautiful, responsive websites! Teens will learn HTML, CSS, and JavaScript to bring creative ideas to life — from interactive pages to modern web designs that work on any device.',
+                skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/frontend-development-masterclass-for-teens/index.html',
+                imageUrl: 'frontend-teens.png'
+            },
 
             // Graphic Designing & Video Editing
-           {
-    id: 20,
-    category: 'design',
-    title: 'Designing & Editing',
-    description: 'Turn creativity into skill! Teens will learn graphic design, photo editing, and video creation using modern tools. From posters to reels, they’ll build digital designs that stand out and tell powerful visual stories.',
-    skills: ['Graphic Design', 'Photo Editing', 'Video Editing', 'Creativity'],
-    difficulty: 'beginner',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/creative-media-design-masterclass-teens/index.html',
-    imageUrl: 'designing-editing-teens.png'
-},
+            {
+                id: 20,
+                category: 'design',
+                title: 'Designing & Editing',
+                description: 'Turn creativity into skill! Teens will learn graphic design, photo editing, and video creation using modern tools. From posters to reels, they’ll build digital designs that stand out and tell powerful visual stories.',
+                skills: ['Graphic Design', 'Photo Editing', 'Video Editing', 'Creativity'],
+                difficulty: 'beginner',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/creative-media-design-masterclass-teens/index.html',
+                imageUrl: 'designing-editing-teens.png'
+            },
 
             // AI & ML
             {
@@ -1219,63 +1305,52 @@
                 ageGroup: 'college',
                 badges: ['popular'],
                 templateUrl: 'coming-soon',
-                imageUrl: 'placement-preparation.png'
+                imageUrl: 'placement-preparation.jpg'
             },
             // DSA
-            {
-                id: 25,
-                category: 'programming',
-                title: 'DSA',
-                description: 'Deep dive into Data Structures and Algorithms. Master problem-solving techniques.',
-                skills: ['Data Structures', 'Algorithms', 'Problem Solving'],
-                difficulty: 'advanced',
-                ageGroup: 'college',
-                badges: ['hot'],
-                templateUrl: 'coming-soon',
-                imageUrl: 'dsa.png'
-            },
+
             // AI Tools
-            {
-                id: 26,
-                category: 'ai-ml',
-                title: 'AI Tools',
-                description: 'Learn to use modern AI tools like ChatGPT, Midjourney, and more for productivity.',
-                skills: ['ChatGPT', 'AI Prompting', 'AI Applications'],
-                difficulty: 'beginner',
-                ageGroup: 'college',
-                badges: ['new'],
-                templateUrl: 'courses/generated/ai-tools-mastery-complete/index.html',
-                imageUrl: 'ai-tools.png'
-            },
+            // {
+            //     id: 26,
+            //     category: 'ai-ml',
+            //     title: 'AI Tools',
+            //     description: 'Learn to use modern AI tools like ChatGPT, Midjourney, and more for productivity.',
+            //     skills: ['ChatGPT', 'AI Prompting', 'AI Applications'],
+            //     difficulty: 'beginner',
+            //     ageGroup: 'college',
+            //     badges: ['new'],
+            //     templateUrl: 'courses/generated/ai-tools-mastery-complete/index.html',
+            //     imageUrl: 'ai-tools.png'
+            // },
             // C++
-          {
-    id: 27,
-    category: 'programming',
-    title: 'C++ Programming',
-    description: 'Learn one of the most powerful programming languages that forms the base of many technologies! Teens will understand how computers think by learning variables, loops, functions, and object-oriented concepts through practical coding projects.',
-    skills: ['C++ Basics', 'Problem Solving', 'Object-Oriented Programming'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/cpp-programming-masterclass-for-teens/index.html',
-    imageUrl: 'cpp-teens.png'
-},
+            {
+                id: 27,
+                category: 'programming',
+                title: 'C++ Programming',
+                description: 'Learn one of the most powerful programming languages that forms the base of many technologies! Teens will understand how computers think by learning variables, loops, functions, and object-oriented concepts through practical coding projects.',
+                skills: ['C++ Basics', 'Problem Solving', 'Object-Oriented Programming'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/cpp-programming-masterclass-for-teens/index.html',
+                imageUrl: 'cpp-teens.png'
+            },
 
             // Microsoft Office
 
             // Thunkable
-         {
-    id: 28,
-    category: 'web-dev',
-    title: 'Backend Coding',
-    description: 'Discover how the internet really works behind the scenes! Teens will learn to build and manage servers, handle databases, and connect websites with backend logic using Node.js, Express, and MySQL to create powerful web applications.',
-    skills: ['Node.js', 'Express', 'APIs', 'Database Integration'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/backend-coding-masterclass-for-teens/index.html',
-    imageUrl: 'backend-teens.png'
-},
+            {
+                id: 28,
+                category: 'web-dev',
+                title: 'Backend Coding',
+                description: 'Discover how the internet really works behind the scenes! Teens will learn to build and manage servers, handle databases, and connect websites with backend logic using Node.js, Express, and MySQL to create powerful web applications.',
+                skills: ['Node.js', 'Express', 'APIs', 'Database Integration'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/backend-coding-masterclass-for-teens/index.html',
+                imageUrl: 'backend-teens.png'
+            },
 
             // Scratch
             {
@@ -1360,18 +1435,18 @@
 
 
 
-         {
-    id: 35,
-    category: 'mobile-dev',
-    title: 'App Development',
-    description: 'Bring ideas to life through mobile apps! Teens will learn to design, code, and publish Android and iOS apps using modern tools like Thunkable, MIT App Inventor, and Java — turning creativity into real, working applications.',
-    skills: ['App Design', 'Mobile Development', 'UI/UX', 'Logic Building'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/complete-app-development-masterclass-for-teens/index.html',
-    imageUrl: 'app-dev-teens.png'
-},
+            {
+                id: 35,
+                category: 'mobile-dev',
+                title: 'App Development',
+                description: 'Bring ideas to life through mobile apps! Teens will learn to design, code, and publish Android and iOS apps using modern tools like Thunkable, MIT App Inventor, and Java — turning creativity into real, working applications.',
+                skills: ['App Design', 'Mobile Development', 'UI/UX', 'Logic Building'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/complete-app-development-masterclass-for-teens/index.html',
+                imageUrl: 'app-dev-teens.png'
+            },
 
             // HTML&CSS
             {
@@ -1387,18 +1462,18 @@
                 imageUrl: 'html-css-kids.png'
             },
             // Python
-    {
-    id: 37,
-    category: 'ai-ml',
-    title: 'AI & Machine Learning',
-    description: 'Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions — from image recognition to chatbots — using Python and real-world datasets.',
-    skills: ['Artificial Intelligence', 'Machine Learning', 'Data Analysis', 'Python'],
-    difficulty: 'advanced',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/ai-ml-masterclass-teens/index.html',
-    imageUrl: 'ai-ml-teens.png'
-},
+            {
+                id: 37,
+                category: 'ai-ml',
+                title: 'AI & Machine Learning',
+                description: 'Step into the world of Artificial Intelligence and Machine Learning! Teens will explore how computers learn, make predictions, and create smart solutions — from image recognition to chatbots — using Python and real-world datasets.',
+                skills: ['Artificial Intelligence', 'Machine Learning', 'Data Analysis', 'Python'],
+                difficulty: 'advanced',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/ai-ml-masterclass-teens/index.html',
+                imageUrl: 'ai-ml-teens.png'
+            },
 
             // App Dev
             // {
@@ -1414,18 +1489,18 @@
             //     imageUrl: 'app-dev.png'
             // },
             // Game Dev
-        {
-    id: 39,
-    category: 'programming',
-    title: 'Game Development',
-    description: 'Turn your love for games into creation! Teens will learn to design and code their own 2D and 3D games using tools like Pygame, Unity, or Scratch. From character design to game logic — they’ll bring imagination to life through coding and creativity.',
-    skills: ['Game Design', 'Logic Building', 'Storytelling', 'Programming'],
-    difficulty: 'intermediate',
-    ageGroup: 'teens',
-    badges: [],
-    templateUrl: '/content/courses/generated/complete-game-development-masterclass-for-teens/index.html',
-    imageUrl: 'game-dev-teens.png'
-},
+            {
+                id: 39,
+                category: 'programming',
+                title: 'Game Development',
+                description: 'Turn your love for games into creation! Teens will learn to design and code their own 2D and 3D games using tools like Pygame, Unity, or Scratch. From character design to game logic — they’ll bring imagination to life through coding and creativity.',
+                skills: ['Game Design', 'Logic Building', 'Storytelling', 'Programming'],
+                difficulty: 'intermediate',
+                ageGroup: 'teens',
+                badges: [],
+                templateUrl: '/content/courses/generated/complete-game-development-masterclass-for-teens/index.html',
+                imageUrl: 'game-dev-teens.png'
+            },
 
 
             {
@@ -1469,7 +1544,7 @@
                 imageUrl: 'kids-coding.png'
             },
             // WEB DEV
-           
+
             // Stock Markets & Trading
             {
                 id: 44,
@@ -1484,20 +1559,9 @@
                 imageUrl: 'stock-markets-and-trading.png'
             },
             // Coding Universe
-           
-            // Java Born Here
-            {
-                id: 47,
-                category: 'programming',
-                title: 'Java Born Here',
-                description: 'Comprehensive Java programming from scratch. Master Java development.',
-                skills: ['Java Fundamentals', 'Advanced Java', 'Java Projects'],
-                difficulty: 'intermediate',
-                ageGroup: 'college',
-                badges: [],
-                templateUrl: 'coming-soon',
-                imageUrl: 'java-born-here.png'
-            },
+
+
+
             // Data Analysis
             {
                 id: 48,
@@ -1512,7 +1576,7 @@
                 imageUrl: 'data-analysis.png'
             },
             // HTML,CSS&JS
-          
+
             // She Coders (girls)
             {
                 id: 50,
@@ -1814,29 +1878,31 @@
                 imageUrl: 'olympiad-competition-maths.png'
             },
             {
-    id: 77,
-    category: 'mobile-dev',
-    title: 'App Development',
-    description: 'Create your very own mobile apps in the easiest way! Kids will learn to design and build fun apps using drag-and-drop tools like MIT App Inventor and Thunkable — no prior coding experience needed, just creativity and curiosity!',
-    skills: ['App Design', 'Logical Thinking', 'Creativity', 'Problem Solving'],
-    difficulty: 'beginner',
-    ageGroup: 'kids',
-    badges: [],
-    templateUrl: '/content/courses/generated/block-coding-app-development-masterclass/index.html',
-    imageUrl: 'app-dev-kids.png'
-},
-{
-    id: 78,
-    category: 'programming',
-    title: 'Game Development',
-    description: 'Learn to build your own games from scratch! Kids will explore coding through fun and creativity using Scratch, MakeCode, and Blockly — creating interactive stories, puzzles, and adventures while learning real programming logic.',
-    skills: ['Game Design', 'Creative Thinking', 'Logical Reasoning', 'Programming Basics'],
-    difficulty: 'beginner',
-    ageGroup: 'kids',
-    badges: [],
-    templateUrl: '/content/courses/generated/game-development-masterclass-for-kids/index.html',
-    imageUrl: 'game-dev-kids.png'
-}
+                id: 77,
+                category: 'mobile-dev',
+                title: 'App Development',
+                description: 'Create your very own mobile apps in the easiest way! Kids will learn to design and build fun apps using drag-and-drop tools like MIT App Inventor and Thunkable — no prior coding experience needed, just creativity and curiosity!',
+                skills: ['App Design', 'Logical Thinking', 'Creativity', 'Problem Solving'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: '/content/courses/generated/block-coding-app-development-masterclass/index.html',
+                imageUrl: 'app-dev-kids.png'
+            },
+            {
+                id: 78,
+                category: 'programming',
+                title: 'Game Development',
+                description: 'Learn to build your own games from scratch! Kids will explore coding through fun and creativity using Scratch, MakeCode, and Blockly — creating interactive stories, puzzles, and adventures while learning real programming logic.',
+                skills: ['Game Design', 'Creative Thinking', 'Logical Reasoning', 'Programming Basics'],
+                difficulty: 'beginner',
+                ageGroup: 'kids',
+                badges: [],
+                templateUrl: '/content/courses/generated/game-development-masterclass-for-kids/index.html',
+                imageUrl: 'game-dev-kids.png'
+            }
+
+
 
 
         ];
@@ -2269,8 +2335,288 @@
                 return categoryMap[category] || category;
             }
 
+            // Show Corporate Training Form
+            function showCorporateTrainingForm() {
+                const coursesGrid = document.getElementById('coursesGrid');
+                const noResults = document.getElementById('noResults');
+                const resultsCount = document.getElementById('resultsCount');
+
+                if (!coursesGrid) return;
+
+                // Hide no results message
+                if (noResults) noResults.classList.remove('show');
+
+                // Update results count
+                if (resultsCount) resultsCount.textContent = '1';
+
+                // Inject the corporate training form HTML
+                coursesGrid.innerHTML = `
+                    <div class="corporate-training-container" style="grid-column: 1 / -1;">
+                        <div class="corporate-intro">
+                            <h3 class="corporate-title">Upskill Yourself & Get Your Dream Job</h3>
+                            <p class="corporate-subtitle">Transform your career with cutting-edge tech skills.
+                                Whether you're looking to land your first tech job, switch careers, get promoted, or upskill your team,
+                                our personalized training programs are designed to help you achieve your goals and succeed in the tech industry.</p>
+                        </div>
+
+                        <div class="corporate-benefits-grid">
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+                                    </svg>
+                                </div>
+                                <h4>Get Your Dream Job</h4>
+                                <p>Land high-paying tech jobs with in-demand skills</p>
+                            </div>
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                                    </svg>
+                                </div>
+                                <h4>Career Switch Made Easy</h4>
+                                <p>Transition to tech from any background</p>
+                            </div>
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                                    </svg>
+                                </div>
+                                <h4>Industry Certification</h4>
+                                <p>Get certified in latest technologies</p>
+                            </div>
+                            <div class="benefit-card">
+                                <div class="benefit-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                                    </svg>
+                                </div>
+                                <h4>Flexible Schedule</h4>
+                                <p>Weekend & evening batches available</p>
+                            </div>
+                        </div>
+
+                        <div class="corporate-form-wrapper">
+                            <form class="corporate-training-form" id="corporateTrainingFormCourse">
+                                <h3 class="form-title">Request Training & Upskilling</h3>
+                                <p class="form-description">Fill out the form below and our team will contact you within 24 hours to discuss your training needs and help you achieve your career goals.</p>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="trainingTypeCourse">I am looking for: *</label>
+                                        <select id="trainingTypeCourse" name="trainingType" required>
+                                            <option value="">Select an option</option>
+                                            <option value="company">Corporate Training for My Team</option>
+                                            <option value="individual-upskill">Personal Upskilling to Get a Better Job</option>
+                                            <option value="individual-career">Career Change / New Skills</option>
+                                            <option value="individual-promotion">Skills for Promotion / Growth</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="fullNameCourse">Full Name *</label>
+                                        <input type="text" id="fullNameCourse" name="fullName" required placeholder="Enter your full name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="emailCourse">Email Address *</label>
+                                        <input type="email" id="emailCourse" name="email" required placeholder="your.email@company.com">
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="phoneCourse">Phone Number *</label>
+                                        <input type="tel" id="phoneCourse" name="phone" required placeholder="+91 98765 43210">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="trainingAreaCourse">Training Area of Interest *</label>
+                                        <select id="trainingAreaCourse" name="trainingArea" required>
+                                            <option value="">Select training area</option>
+                                            <option value="web-development">Web Development (Full Stack)</option>
+                                            <option value="mobile-app">Mobile App Development</option>
+                                            <option value="ai-ml">AI & Machine Learning</option>
+                                            <option value="data-science">Data Science & Analytics</option>
+                                            <option value="cloud-computing">Cloud Computing (AWS/Azure/GCP)</option>
+                                            <option value="devops">DevOps & CI/CD</option>
+                                            <option value="cybersecurity">Cybersecurity</option>
+                                            <option value="blockchain">Blockchain Development</option>
+                                            <option value="python">Python Programming</option>
+                                            <option value="java">Java Programming</option>
+                                            <option value="javascript">JavaScript & Modern Frameworks</option>
+                                            <option value="custom">Custom Training Program</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- Fields for Corporate Training -->
+                                <div class="form-row" id="corporateFieldsCourse" style="display: none;">
+                                    <div class="form-group">
+                                        <label for="companyNameCourse">Company Name</label>
+                                        <input type="text" id="companyNameCourse" name="companyName" placeholder="Your company name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="teamSizeCourse">Team Size *</label>
+                                        <select id="teamSizeCourse" name="teamSize">
+                                            <option value="">Select team size</option>
+                                            <option value="2-5">2-5 people</option>
+                                            <option value="6-10">6-10 people</option>
+                                            <option value="11-25">11-25 people</option>
+                                            <option value="26-50">26-50 people</option>
+                                            <option value="50+">50+ people</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <!-- Fields for Individual Upskilling -->
+                                <div class="form-row" id="individualFieldsCourse" style="display: none;">
+                                    <div class="form-group">
+                                        <label for="currentEmploymentCourse">Current Employment Status *</label>
+                                        <select id="currentEmploymentCourse" name="currentEmployment">
+                                            <option value="">Select your status</option>
+                                            <option value="employed">Currently Employed</option>
+                                            <option value="unemployed">Looking for Job</option>
+                                            <option value="student">Student / Recent Graduate</option>
+                                            <option value="freelancer">Freelancer / Self-Employed</option>
+                                            <option value="career-break">Career Break / Returning to Work</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="careerGoalCourse">Your Career Goal *</label>
+                                        <select id="careerGoalCourse" name="careerGoal">
+                                            <option value="">Select your goal</option>
+                                            <option value="get-first-job">Get My First Tech Job</option>
+                                            <option value="switch-career">Switch to Tech Career</option>
+                                            <option value="better-job">Get a Better Job / Higher Salary</option>
+                                            <option value="promotion">Get Promoted in Current Role</option>
+                                            <option value="freelance">Start Freelancing</option>
+                                            <option value="startup">Build My Own Startup</option>
+                                            <option value="team-training">Train My Team (Corporate)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group full-width">
+                                        <label for="currentSkillLevelCourse">Current Skill Level *</label>
+                                        <select id="currentSkillLevelCourse" name="currentSkillLevel" required>
+                                            <option value="">Select skill level</option>
+                                            <option value="beginner">Beginner (No prior experience)</option>
+                                            <option value="intermediate">Intermediate (Some experience)</option>
+                                            <option value="advanced">Advanced (Experienced professionals)</option>
+                                            <option value="mixed">Mixed (Team with varying levels)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-row">
+                                    <div class="form-group full-width">
+                                        <label for="trainingGoalsCourse">What do you want to achieve? *</label>
+                                        <textarea id="trainingGoalsCourse" name="trainingGoals" rows="4" required placeholder="Tell us about your goals... For example: 'I want to switch from marketing to web development' or 'I need to learn Python to get promoted' or 'I want to upskill my team in AI'..."></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-actions">
+                                    <button type="submit" class="submit-btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                                        </svg>
+                                        Submit Request
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="corporate-info-section">
+                            <h3 class="info-title">How Our Corporate Training Works</h3>
+                            <div class="process-steps">
+                                <div class="step-card">
+                                    <div class="step-number">1</div>
+                                    <h4>Submit Request</h4>
+                                    <p>Fill out the form with your training requirements and goals</p>
+                                </div>
+                                <div class="step-card">
+                                    <div class="step-number">2</div>
+                                    <h4>Consultation Call</h4>
+                                    <p>Our team will contact you to understand your specific needs</p>
+                                </div>
+                                <div class="step-card">
+                                    <div class="step-number">3</div>
+                                    <h4>Custom Curriculum</h4>
+                                    <p>We design a tailored training program for your team</p>
+                                </div>
+                                <div class="step-card">
+                                    <div class="step-number">4</div>
+                                    <h4>Start Training</h4>
+                                    <p>Begin your upskilling journey with expert instructors</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                // Initialize the form after injecting HTML
+                initializeCorporateForm();
+            }
+
+            // Initialize corporate form functionality
+            function initializeCorporateForm() {
+                const form = document.getElementById('corporateTrainingFormCourse');
+                if (!form) return;
+
+                // Dynamic field visibility
+                const trainingTypeSelect = document.getElementById('trainingTypeCourse');
+                const corporateFields = document.getElementById('corporateFieldsCourse');
+                const individualFields = document.getElementById('individualFieldsCourse');
+
+                function updateFormFields() {
+                    if (!trainingTypeSelect) return;
+
+                    const selectedValue = trainingTypeSelect.value;
+
+                    // Hide all conditional fields
+                    if (corporateFields) corporateFields.style.display = 'none';
+                    if (individualFields) individualFields.style.display = 'none';
+
+                    // Show relevant fields
+                    if (selectedValue === 'company') {
+                        if (corporateFields) corporateFields.style.display = 'grid';
+                    } else if (selectedValue === 'individual-upskill' ||
+                        selectedValue === 'individual-career' ||
+                        selectedValue === 'individual-promotion') {
+                        if (individualFields) individualFields.style.display = 'grid';
+                    }
+                }
+
+                if (trainingTypeSelect) {
+                    trainingTypeSelect.addEventListener('change', updateFormFields);
+                    updateFormFields();
+                }
+
+                // Form submission
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault();
+                    const formData = new FormData(form);
+                    const data = Object.fromEntries(formData.entries());
+                    console.log('Corporate Training Request (Course Page):', data);
+                    alert('Thank you! Your request has been submitted. Our team will contact you within 24 hours.');
+                    form.reset();
+                    updateFormFields();
+                });
+            }
+
             // Tab filtering functionality
             function applyTabFilters() {
+                // Check if Corporate (customized) tab is selected
+                if (tabState.activeSubTab === 'customized' && tabState.activeMainTab === 'coding') {
+                    // Show corporate training form instead of courses
+                    showCorporateTrainingForm();
+                    return;
+                }
+
                 // Define category mappings
                 const categoryMapping = {
                     coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity', 'logic', 'coding'],

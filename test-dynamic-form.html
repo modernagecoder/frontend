@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Dynamic Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        input, select {
+            padding: 0.75rem;
+            border: 1px solid #444;
+            border-radius: 0.5rem;
+            background: #222;
+            color: #fff;
+            font-size: 1rem;
+        }
+        #corporateFields, #individualFields {
+            border: 2px solid #a855f7;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+        }
+        #corporateFields {
+            background: rgba(168, 85, 247, 0.1);
+        }
+        #individualFields {
+            background: rgba(78, 205, 196, 0.1);
+        }
+        .status {
+            padding: 1rem;
+            background: #333;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dynamic Form Test</h1>
+    
+    <div class="status" id="status">
+        Status: Waiting for selection...
+    </div>
+
+    <form id="corporateTrainingForm">
+        <div class="form-row">
+            <div class="form-group">
+                <label for="trainingType">I am looking for: *</label>
+                <select id="trainingType" name="trainingType" required>
+                    <option value="">Select an option</option>
+                    <option value="company">Corporate Training for My Team</option>
+                    <option value="individual-upskill">Personal Upskilling to Get a Better Job</option>
+                    <option value="individual-career">Career Change / New Skills</option>
+                    <option value="individual-promotion">Skills for Promotion / Growth</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="fullName">Full Name *</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+            </div>
+        </div>
+
+        <!-- Fields for Corporate Training -->
+        <div class="form-row" id="corporateFields" style="display: none;">
+            <h3 style="grid-column: 1/-1; color: #a855f7;">Corporate Fields (Should show for "company")</h3>
+            <div class="form-group">
+                <label for="companyName">Company Name *</label>
+                <input type="text" id="companyName" name="companyName" placeholder="Your company name">
+            </div>
+            <div class="form-group">
+                <label for="teamSize">Team Size *</label>
+                <select id="teamSize" name="teamSize">
+                    <option value="">Select team size</option>
+                    <option value="2-5">2-5 people</option>
+                    <option value="6-10">6-10 people</option>
+                    <option value="11-25">11-25 people</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Fields for Individual Upskilling -->
+        <div class="form-row" id="individualFields" style="display: none;">
+            <h3 style="grid-column: 1/-1; color: #4ecdc4;">Individual Fields (Should show for individual options)</h3>
+            <div class="form-group">
+                <label for="currentEmployment">Current Employment Status *</label>
+                <select id="currentEmployment" name="currentEmployment">
+                    <option value="">Select your status</option>
+                    <option value="employed">Currently Employed</option>
+                    <option value="unemployed">Looking for Job</option>
+                    <option value="student">Student / Recent Graduate</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="careerGoal">Your Career Goal *</label>
+                <select id="careerGoal" name="careerGoal">
+                    <option value="">Select your goal</option>
+                    <option value="get-first-job">Get My First Tech Job</option>
+                    <option value="switch-career">Switch to Tech Career</option>
+                    <option value="better-job">Get a Better Job / Higher Salary</option>
+                </select>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        // Dynamic form field interactions based on training type
+        const trainingTypeSelect = document.getElementById('trainingType');
+        const corporateFields = document.getElementById('corporateFields');
+        const individualFields = document.getElementById('individualFields');
+        const statusDiv = document.getElementById('status');
+        
+        const companyNameInput = document.getElementById('companyName');
+        const teamSizeSelect = document.getElementById('teamSize');
+        const currentEmploymentSelect = document.getElementById('currentEmployment');
+        const careerGoalSelect = document.getElementById('careerGoal');
+        
+        console.log('Elements found:', {
+            trainingTypeSelect: !!trainingTypeSelect,
+            corporateFields: !!corporateFields,
+            individualFields: !!individualFields
+        });
+        
+        // Function to show/hide fields based on selection
+        function updateFormFields() {
+            if (!trainingTypeSelect) {
+                console.error('Training type select not found!');
+                return;
+            }
+            
+            const selectedValue = trainingTypeSelect.value;
+            console.log('Selected value:', selectedValue);
+            statusDiv.innerHTML = `Status: Selected "${selectedValue}"`;
+            
+            // Hide all conditional fields first
+            if (corporateFields) {
+                corporateFields.style.display = 'none';
+                console.log('Hiding corporate fields');
+            }
+            if (individualFields) {
+                individualFields.style.display = 'none';
+                console.log('Hiding individual fields');
+            }
+            
+            // Reset required attributes
+            if (companyNameInput) companyNameInput.required = false;
+            if (teamSizeSelect) teamSizeSelect.required = false;
+            if (currentEmploymentSelect) currentEmploymentSelect.required = false;
+            if (careerGoalSelect) careerGoalSelect.required = false;
+            
+            // Show relevant fields based on selection
+            if (selectedValue === 'company') {
+                // Corporate Training - show company fields
+                console.log('Showing corporate fields');
+                statusDiv.innerHTML += ' → Showing CORPORATE fields';
+                if (corporateFields) {
+                    corporateFields.style.display = 'grid';
+                    if (companyNameInput) {
+                        companyNameInput.required = true;
+                    }
+                    if (teamSizeSelect) teamSizeSelect.required = true;
+                }
+                
+            } else if (selectedValue === 'individual-upskill' || 
+                       selectedValue === 'individual-career' || 
+                       selectedValue === 'individual-promotion') {
+                // Individual Upskilling/Career Change/Promotion - show individual fields
+                console.log('Showing individual fields');
+                statusDiv.innerHTML += ' → Showing INDIVIDUAL fields';
+                if (individualFields) {
+                    individualFields.style.display = 'grid';
+                    if (currentEmploymentSelect) currentEmploymentSelect.required = true;
+                    if (careerGoalSelect) careerGoalSelect.required = true;
+                }
+            }
+        }
+        
+        // Listen for changes
+        if (trainingTypeSelect) {
+            console.log('Adding change listener');
+            trainingTypeSelect.addEventListener('change', function() {
+                console.log('Change event fired!');
+                updateFormFields();
+            });
+            // Initialize on page load
+            updateFormFields();
+        } else {
+            console.error('Training type select not found!');
+        }
+    </script>
+</body>
+</html>
