@@ -153,22 +153,30 @@
     margin: 0 auto !important; /* Center the grid itself */
 }
 
-/* MOBILE RESPONSIVE */
+/* MOBILE RESPONSIVE - FORCE CENTERING */
 @media (max-width: 768px) {
     .tabs-wrapper .tab-content .courses-grid {
-        grid-template-columns: 1fr !important;
+        display: flex !important; /* Change to flex for better control */
+        flex-direction: column !important;
+        align-items: center !important; /* Force center alignment */
+        justify-content: center !important;
         gap: 20px !important;
-        padding: 10px 15px !important; /* Add horizontal padding */
-        justify-items: center !important; /* Center cards */
-        margin: 0 auto !important; /* Center grid */
-        max-width: 100% !important; /* Prevent overflow */
+        padding: 10px 20px !important;
+        margin: 0 auto !important;
+        max-width: 100% !important;
+        width: 100% !important;
     }
     
     .tabs-wrapper .tab-content .courses-grid .course-card {
         min-height: 380px !important;
-        width: 100% !important;
-        max-width: 350px !important; /* Limit width on mobile */
-        margin: 0 auto !important; /* Center individual cards */
+        width: 90% !important; /* Use percentage width */
+        max-width: 350px !important;
+        margin: 0 auto !important;
+        align-self: center !important; /* Force self-centering */
+        position: relative !important;
+        left: 0 !important; /* Reset any positioning */
+        right: 0 !important;
+        transform: translateX(0) !important; /* Reset transforms */
     }
     
     .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {

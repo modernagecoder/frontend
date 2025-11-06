@@ -1,0 +1,112 @@
+/* ========================================
+   MOBILE CENTERING FIX
+   Force all curriculum sections to center on mobile
+   ======================================== */
+
+/* FORCE CENTERING FOR ALL SECTIONS ON MOBILE */
+@media (max-width: 768px) {
+    /* Main sections centering */
+    body.index-page main {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding: 120px 10px 20px 10px !important;
+    }
+    
+    /* Section containers */
+    body.index-page main .section {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 2rem 10px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    /* Tabs wrapper centering */
+    .tabs-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    .tabs-wrapper .tab-content {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    
+    /* Force all grids to center */
+    .courses-grid,
+    .tabs-wrapper .tab-content .courses-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 0 15px !important;
+    }
+    
+    /* Force all cards to center */
+    .course-card,
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        width: 90% !important;
+        max-width: 350px !important;
+        margin: 0 auto 20px auto !important;
+        align-self: center !important;
+        position: relative !important;
+        left: 0 !important;
+        right: 0 !important;
+        transform: translateX(0) !important;
+        float: none !important;
+    }
+}
+
+/* EXTRA SMALL MOBILE */
+@media (max-width: 480px) {
+    body.index-page main {
+        padding: 120px 5px 20px 5px !important;
+    }
+    
+    body.index-page main .section {
+        padding: 2rem 5px !important;
+    }
+    
+    .courses-grid,
+    .tabs-wrapper .tab-content .courses-grid {
+        padding: 0 10px !important;
+    }
+    
+    .course-card,
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        width: 95% !important;
+        max-width: 320px !important;
+    }
+}
+
+/* PREVENT ANY FLOAT OR POSITIONING ISSUES */
+@media (max-width: 768px) {
+    * {
+        float: none !important;
+    }
+    
+    .course-card,
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        transform: none !important;
+    }
+}
