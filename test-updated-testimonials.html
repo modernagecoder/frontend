@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updated Testimonials Test</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/testimonials-carousel.css">
+    <style>
+        body {
+            background: #0c0c16;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .test-info {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-info">
+        <h1>Updated Testimonials with Stars & Google Review Button</h1>
+        <p><strong>Features:</strong></p>
+        <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+            <li>Square/landscape cards with proper aspect ratios</li>
+            <li>5-star ratings displayed like Google reviews</li>
+            <li>Post Your Review button linking to Google</li>
+            <li>Mobile responsive design</li>
+            <li>Improved layout with header structure</li>
+        </ul>
+    </div>
+
+    <section class="section testimonials-section">
+        <h2 class="section-title">What Parents Say About Us</h2>
+        <div class="testimonials-carousel-container">
+            <button class="carousel-arrow carousel-arrow-left" aria-label="Previous testimonials">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M15 18l-6-6 6-6" />
+                </svg>
+            </button>
+
+            <div class="testimonials-carousel">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <div class="parent-avatar">
+                                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjUD7G6yVNHCdcvCeT_coO6k0Vu49jzqfu5u62ULnKN7itAellGhJg=s45-c-rp-mo-ba2-br100" alt="Parent avatar">
+                                </div>
+                                <div class="testimonial-info">
+                                    <p class="name">Sonam Oswal</p>
+                                    <p class="course">Mother of Dhairya</p>
+                                    <div class="star-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>My child Dhairya, is really enjoying the Modern Age Coder IT classes. This is his first online class, and he eagerly looks forward to it. I can see his improvement, and I believe he will grow even more interested in the subject in the future. I also appreciate the teachers—they are very cooperative and listen to our suggestions. They try to apply them in class, which is very helpful. Overall, I am very happy with the class.</blockquote>
+                            <div class="read-more-container">
+                                <button class="read-more-btn" onclick="toggleReadMore(this)">
+                                    Read More
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9l6 6 6-6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <div class="parent-avatar">
+                                    <img src="https://lh3.googleusercontent.com/a/ACg8ocJIAjSLzhCVztgwnB-2n5ToRxFsWq9iqBTHGgbC_Sl8gGRPEg=s45-c-rp-mo-br100" alt="Parent avatar">
+                                </div>
+                                <div class="testimonial-info">
+                                    <p class="name">Shradha Saraf</p>
+                                    <p class="course">Mother of Mivaan</p>
+                                    <div class="star-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>Mivaan enjoys the class. He understands the concepts, and completes his tasks with excitement. He started taking interest in coding... truly amazing class... The interactive approach keeps him engaged throughout the session.</blockquote>
+                            <div class="read-more-container">
+                                <button class="read-more-btn" onclick="toggleReadMore(this)">
+                                    Read More
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9l6 6 6-6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <div class="parent-avatar">
+                                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Parent avatar">
+                                </div>
+                                <div class="testimonial-info">
+                                    <p class="name">Shewta Singh</p>
+                                    <p class="course">Mother of Ishan</p>
+                                    <div class="star-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>My son struggled with math for years. Integrating it into coding projects has transformed his understanding and confidence. Highly recommended! The teachers make complex concepts easy to understand and the practical approach really works.</blockquote>
+                            <div class="read-more-container">
+                                <button class="read-more-btn" onclick="toggleReadMore(this)">
+                                    Read More
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9l6 6 6-6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-header">
+                                <div class="parent-avatar">
+                                    <img src="https://lh3.googleusercontent.com/a-/ALV-UjXVupQR3nkNh-64rcPb-gn0YgHHfyn7-ozv34FXUhlGJz1npbN1qQ=s45-c-rp-mo-br100" alt="Parent avatar">
+                                </div>
+                                <div class="testimonial-info">
+                                    <p class="name">Ritu Kedia</p>
+                                    <p class="course">Mother of Aditya</p>
+                                    <div class="star-rating">
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                        <span class="star">★</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <blockquote>I highly recommend this computer coding class! The teachers are incredibly knowledgeable and passionate about coding, making every session engaging and insightful. They explain complex concepts in a way that's easy to understand and always encourage us to ask questions and think critically. The class atmosphere is friendly and collaborative, which has really boosted my son's confidence and interest in coding. It's an amazing experience for anyone looking to dive into the world of programming.</blockquote>
+                            <div class="read-more-container">
+                                <button class="read-more-btn" onclick="toggleReadMore(this)">
+                                    Read More
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9l6 6 6-6"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-arrow carousel-arrow-right" aria-label="Next testimonials">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M9 18l6-6-6-6" />
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Post Your Review Button -->
+        <div class="post-review-container">
+            <a href="https://www.google.com/search?q=Modern+Age+Coders+review" target="_blank" class="post-review-button">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+                Post Your Review on Google
+            </a>
+        </div>
+    </section>
+
+    <script>
+        // Toggle Read More functionality for testimonials
+        function toggleReadMore(button) {
+            const testimonialCard = button.closest('.testimonial-card');
+            const blockquote = testimonialCard.querySelector('blockquote');
+            const isExpanded = blockquote.classList.contains('expanded');
+            
+            if (isExpanded) {
+                // Collapse
+                blockquote.classList.remove('expanded');
+                button.classList.remove('expanded');
+                
+                // Restore appropriate aspect ratio based on screen size
+                const isMobile = window.innerWidth <= 768;
+                const isTablet = window.innerWidth <= 1024;
+                
+                if (isMobile) {
+                    testimonialCard.style.aspectRatio = '1/1'; // Square on mobile
+                } else if (isTablet) {
+                    testimonialCard.style.aspectRatio = '1.2/1'; // Slightly more square on tablets
+                } else {
+                    testimonialCard.style.aspectRatio = '1.4/1'; // Landscape on desktop
+                }
+                
+                button.innerHTML = `
+                    Read More
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                `;
+            } else {
+                // Expand
+                blockquote.classList.add('expanded');
+                button.classList.add('expanded');
+                testimonialCard.style.aspectRatio = 'auto'; // Remove aspect ratio constraint
+                testimonialCard.style.height = 'auto';
+                button.innerHTML = `
+                    Read Less
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                `;
+            }
+        }
+
+        // Simple carousel functionality for testing
+        let currentTestimonial = 0;
+        const testimonialTrack = document.querySelector('.testimonials-track');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const leftArrow = document.querySelector('.carousel-arrow-left');
+        const rightArrow = document.querySelector('.carousel-arrow-right');
+
+        function updateCarousel() {
+            const cardWidth = testimonialCards[0].offsetWidth + 30; // including gap
+            const isMobile = window.innerWidth <= 768;
+            const cardsToShow = isMobile ? 1 : 2;
+            const translateX = -(currentTestimonial * cardWidth);
+            testimonialTrack.style.transform = `translateX(${translateX}px)`;
+        }
+
+        leftArrow.addEventListener('click', () => {
+            const isMobile = window.innerWidth <= 768;
+            const cardsToShow = isMobile ? 1 : 2;
+            if (currentTestimonial > 0) {
+                currentTestimonial--;
+                updateCarousel();
+            }
+        });
+
+        rightArrow.addEventListener('click', () => {
+            const isMobile = window.innerWidth <= 768;
+            const cardsToShow = isMobile ? 1 : 2;
+            const maxIndex = testimonialCards.length - cardsToShow;
+            if (currentTestimonial < maxIndex) {
+                currentTestimonial++;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener('resize', updateCarousel);
+        updateCarousel();
+
+        // Function to check if text is truncated and show/hide read more buttons
+        function checkTextTruncation() {
+            const testimonialCards = document.querySelectorAll('.testimonial-card');
+            
+            testimonialCards.forEach(card => {
+                const blockquote = card.querySelector('blockquote');
+                const readMoreBtn = card.querySelector('.read-more-btn');
+                
+                if (blockquote && readMoreBtn) {
+                    // Check if text is actually truncated
+                    const isOverflowing = blockquote.scrollHeight > blockquote.clientHeight;
+                    
+                    if (isOverflowing) {
+                        readMoreBtn.style.display = 'inline-flex';
+                    } else {
+                        readMoreBtn.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        // Initialize after page load
+        setTimeout(checkTextTruncation, 100);
+        window.addEventListener('resize', () => {
+            setTimeout(checkTextTruncation, 100);
+        });
+    </script>
+</body>
+</html>

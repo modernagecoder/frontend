@@ -32,6 +32,16 @@
     padding: 35px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 1.4/1; /* Landscape aspect ratio */
+    display: flex;
+    flex-direction: column;
+    min-height: 300px; /* Minimum height */
+}
+
+/* Allow cards to grow when text is expanded */
+.testimonial-card:has(.expanded) {
+    aspect-ratio: auto;
+    height: auto;
 }
 
 .testimonial-card:hover {
@@ -48,13 +58,22 @@
     height: 100%;
 }
 
+/* New testimonial header layout */
+.testimonial-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
 .parent-avatar {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid rgba(168, 85, 247, 0.5);
     box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+    flex-shrink: 0;
 }
 
 .parent-avatar img {
@@ -63,33 +82,135 @@
     object-fit: cover;
 }
 
-.testimonial-content blockquote {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.85);
-    font-style: italic;
-    flex-grow: 1;
-}
-
 .testimonial-info {
-    margin-top: auto;
-    padding-top: 15px;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    flex-grow: 1;
 }
 
 .testimonial-info .name {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     margin: 0 0 5px 0;
 }
 
 .testimonial-info .course {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 8px 0;
+}
+
+/* Star Rating Styles */
+.star-rating {
+    display: flex;
+    gap: 2px;
+    margin-top: 5px;
+}
+
+.star-rating .star {
+    color: #FFD700;
+    font-size: 16px;
+    text-shadow: 0 0 3px rgba(255, 215, 0, 0.5);
+}
+
+.testimonial-content blockquote {
     margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    font-style: italic;
+    flex-grow: 1;
+    transition: all 0.3s ease;
+}
+
+/* Collapsed state - truncated text */
+.testimonial-content blockquote:not(.expanded) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+/* Expanded state - full text visible */
+.testimonial-content blockquote.expanded {
+    display: block;
+    overflow: visible;
+    -webkit-line-clamp: none;
+    -webkit-box-orient: initial;
+}
+
+/* Read More Button */
+.read-more-container {
+    margin-top: 10px;
+}
+
+.read-more-btn {
+    background: rgba(168, 85, 247, 0.2);
+    border: 1px solid rgba(168, 85, 247, 0.4);
+    color: rgba(168, 85, 247, 1);
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+}
+
+.read-more-btn:hover {
+    background: rgba(168, 85, 247, 0.3);
+    border-color: rgba(168, 85, 247, 0.6);
+    transform: translateY(-1px);
+}
+
+.read-more-btn svg {
+    width: 12px;
+    height: 12px;
+    transition: transform 0.3s ease;
+}
+
+.read-more-btn.expanded svg {
+    transform: rotate(180deg);
+}
+
+/* Auto-hide read more button for short testimonials */
+.read-more-btn.hidden {
+    display: none !important;
+}
+
+/* Post Review Button */
+.post-review-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.post-review-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #4285f4, #34a853);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+}
+
+.post-review-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(66, 133, 244, 0.4);
+    background: linear-gradient(135deg, #3367d6, #2d8f47);
+}
+
+.post-review-button svg {
+    width: 20px;
+    height: 20px;
 }
 
 /* Carousel Arrows */
@@ -180,6 +301,10 @@
         width: 20px;
         height: 20px;
     }
+    
+    .testimonial-card {
+        aspect-ratio: 1.2/1; /* Slightly more square on tablets */
+    }
 }
 
 @media (max-width: 768px) {
@@ -195,6 +320,7 @@
         flex: 0 0 100%;
         min-width: 100%;
         padding: 25px;
+        aspect-ratio: 1/1; /* Square on mobile */
     }
     
     .carousel-arrow {
@@ -207,17 +333,50 @@
         height: 18px;
     }
     
-    .parent-avatar {
-        width: 60px;
-        height: 60px;
+    .testimonial-header {
+        gap: 12px;
+        margin-bottom: 12px;
     }
     
-    .testimonial-content blockquote {
-        font-size: 15px;
+    .parent-avatar {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .testimonial-content blockquote:not(.expanded) {
+        font-size: 14px;
+        -webkit-line-clamp: 3;
+    }
+    
+    .testimonial-content blockquote.expanded {
+        font-size: 14px;
+    }
+    
+    .read-more-btn {
+        font-size: 11px;
+        padding: 5px 10px;
     }
     
     .testimonial-info .name {
-        font-size: 16px;
+        font-size: 15px;
+    }
+    
+    .testimonial-info .course {
+        font-size: 12px;
+    }
+    
+    .star-rating .star {
+        font-size: 14px;
+    }
+    
+    .post-review-button {
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+    
+    .post-review-button svg {
+        width: 18px;
+        height: 18px;
     }
     
     .carousel-dots {
@@ -241,6 +400,7 @@
     
     .testimonial-card {
         padding: 20px;
+        aspect-ratio: 1/1; /* Keep square on small mobile */
     }
     
     .carousel-arrow {
@@ -253,23 +413,58 @@
         height: 16px;
     }
     
+    .testimonial-header {
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    
     .parent-avatar {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         border-width: 2px;
     }
     
-    .testimonial-content blockquote {
-        font-size: 14px;
-        line-height: 1.6;
+    .testimonial-content blockquote:not(.expanded) {
+        font-size: 13px;
+        line-height: 1.5;
+        -webkit-line-clamp: 3;
+    }
+    
+    .testimonial-content blockquote.expanded {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+    
+    .read-more-btn {
+        font-size: 10px;
+        padding: 4px 8px;
+    }
+    
+    .read-more-btn svg {
+        width: 10px;
+        height: 10px;
     }
     
     .testimonial-info .name {
-        font-size: 15px;
+        font-size: 14px;
     }
     
     .testimonial-info .course {
+        font-size: 11px;
+    }
+    
+    .star-rating .star {
+        font-size: 12px;
+    }
+    
+    .post-review-button {
+        padding: 10px 20px;
         font-size: 13px;
+    }
+    
+    .post-review-button svg {
+        width: 16px;
+        height: 16px;
     }
     
     .carousel-dots {
