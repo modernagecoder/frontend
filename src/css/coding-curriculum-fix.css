@@ -1,0 +1,229 @@
+/* ========================================
+   CODING CURRICULUM SPECIFIC FIX
+   Make coding cards match the math section exactly
+   ======================================== */
+
+/* TARGET ONLY CODING CURRICULUM SECTION - Proper card design */
+.tabs-wrapper .tab-content .courses-grid .course-card {
+    display: flex !important;
+    flex-direction: column !important; /* Image top, content bottom */
+    height: auto !important; /* Auto height to fit content */
+    min-height: 450px !important; /* Minimum height to ensure content fits */
+    width: 100% !important;
+    background: var(--glass-bg-light) !important;
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+    padding: 0 !important;
+}
+
+/* RESTRUCTURE: Remove the card-content wrapper effect */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+    display: contents !important; /* This makes the wrapper "disappear" */
+}
+
+/* LARGE IMAGE SECTION: Big and clear images */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+    width: 100% !important;
+    height: 260px !important; /* Good height for clear images */
+    min-height: 260px !important;
+    max-height: 260px !important;
+    overflow: hidden !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    display: block !important;
+    position: relative !important;
+    flex-shrink: 0 !important;
+    order: 1 !important;
+}
+
+/* LARGE IMAGES: Maximum size with transform scale */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain !important; /* Keep contain to show full image */
+    object-position: center !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: transform 0.4s ease !important;
+    filter: brightness(1.05) contrast(1.02) !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    transform: scale(1.25) !important; /* Balanced scale - bigger but no cropping */
+}
+
+/* HOVER EFFECT: Scale even more on hover */
+.tabs-wrapper .tab-content .courses-grid .course-card:hover .card-thumbnail-container img {
+    transform: scale(1.35) !important; /* Bigger on hover but no cropping */
+    filter: brightness(1.1) contrast(1.05) !important;
+}
+
+/* CONTENT SECTION: Restructure to match math section */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-title {
+    width: 100% !important;
+    font-size: 1.4rem !important; /* Good readable size */
+    font-weight: 700 !important;
+    margin: 0 !important;
+    padding: 1.25rem 1.5rem 0.75rem 1.5rem !important; /* Proper spacing */
+    line-height: 1.3 !important;
+    color: var(--text-primary) !important;
+    text-align: center !important;
+    order: 2 !important;
+    flex-shrink: 0 !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-description {
+    width: 100% !important;
+    font-size: 1rem !important; /* Good readable size */
+    line-height: 1.5 !important;
+    color: var(--text-secondary) !important;
+    margin: 0 !important;
+    padding: 0 1.5rem 1rem 1.5rem !important; /* Proper spacing */
+    text-align: center !important;
+    order: 3 !important;
+    flex: 1 !important;
+    overflow: visible !important; /* Show all text */
+    display: block !important; /* Remove line clamp - show full text */
+    max-height: none !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-button-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0.75rem 1.5rem 1.5rem 1.5rem !important; /* Proper spacing */
+    order: 4 !important;
+    flex-shrink: 0 !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-button {
+    width: 100% !important;
+    padding: 1rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border-radius: 0.75rem !important;
+    transition: all 0.3s ease !important;
+    text-align: center !important;
+}
+
+/* CARD HOVER EFFECTS: Match math section */
+.tabs-wrapper .tab-content .courses-grid .course-card:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.4) !important;
+    border-color: rgba(168, 85, 247, 0.3) !important;
+}
+
+/* GRID LAYOUT: Responsive grid */
+.tabs-wrapper .tab-content .courses-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important; /* Standard responsive width */
+    gap: 2rem !important;
+    width: 100% !important;
+}
+
+/* MOBILE RESPONSIVE: Stack vertically on mobile */
+@media (max-width: 768px) {
+    .tabs-wrapper .tab-content .courses-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1.5rem !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        height: auto !important; /* Auto height on mobile */
+        min-height: 420px !important; /* Ensure content fits */
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+        height: 240px !important; /* Good size for mobile */
+        min-height: 240px !important;
+        max-height: 240px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+        transform: scale(1.3) !important; /* Balanced scale on mobile */
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-title {
+        font-size: 1.25rem !important;
+        padding: 1rem 1.25rem 0.5rem 1.25rem !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-description {
+        padding: 0 1.25rem 1rem 1.25rem !important;
+        overflow: visible !important; /* Show all text on mobile */
+        display: block !important; /* Remove line clamp */
+        font-size: 0.95rem !important;
+        max-height: none !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-button-container {
+        padding: 0.5rem 1.25rem 1.25rem 1.25rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        min-height: 400px !important; /* Proper height for small mobile */
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+        height: 240px !important; /* Larger images on small mobile */
+        min-height: 240px !important;
+        max-height: 240px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+        transform: scale(1.35) !important; /* Balanced scale on small mobile */
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-title {
+        padding: 1rem 1rem 0.5rem 1rem !important;
+        font-size: 1.2rem !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-description {
+        padding: 0 1rem 1rem 1rem !important;
+        font-size: 0.9rem !important;
+        overflow: visible !important; /* Show all text */
+        display: block !important; /* Remove line clamp */
+        max-height: none !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-button-container {
+        padding: 0.5rem 1rem 1rem 1rem !important;
+    }
+}
+
+/* OVERRIDE ANY CONFLICTING RULES FOR CODING SECTION ONLY */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+    aspect-ratio: unset !important;
+    max-width: none !important;
+    max-height: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}
+
+/* IMAGE QUALITY ENHANCEMENT FOR CODING SECTION */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.02) 100%) !important;
+    pointer-events: none !important;
+    z-index: 0 !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+    position: relative !important;
+    z-index: 1 !important;
+}

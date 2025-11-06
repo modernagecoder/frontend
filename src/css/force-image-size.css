@@ -1,0 +1,231 @@
+/* ========================================
+   ULTRA AGGRESSIVE IMAGE SIZE FIX
+   Forces image size changes through ALL CSS conflicts
+   ======================================== */
+
+/* SUPER SPECIFIC SELECTORS WITH !important TO OVERRIDE EVERYTHING */
+
+/* Target ALL possible image containers in curriculum sections */
+body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+body.index-page main section .courses-grid .card-thumbnail-container,
+body.index-page main .courses-grid .card-thumbnail-container,
+.courses-grid .card-thumbnail-container,
+.card-thumbnail-container,
+body.index-page main section .courses-grid .course-card .card-content .course-image-container,
+body.index-page main section .courses-grid .course-card .course-image-container,
+body.index-page main section .courses-grid .course-image-container,
+body.index-page main .courses-grid .course-image-container,
+.courses-grid .course-image-container,
+.course-image-container {
+    height: 250px !important; /* FORCE bigger height */
+    min-height: 250px !important;
+    max-height: 250px !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    border-radius: 12px !important;
+    margin-bottom: 1rem !important;
+    background: rgba(16, 16, 28, 0.3) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 8px !important;
+    box-sizing: border-box !important;
+}
+
+/* FORCE image sizing with ULTRA specific selectors */
+body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container img,
+body.index-page main section .courses-grid .course-card .card-thumbnail-container img,
+body.index-page main section .courses-grid .card-thumbnail-container img,
+body.index-page main .courses-grid .card-thumbnail-container img,
+.courses-grid .card-thumbnail-container img,
+.card-thumbnail-container img,
+body.index-page main section .courses-grid .course-card .card-content .course-image-container img,
+body.index-page main section .courses-grid .course-card .course-image-container img,
+body.index-page main section .courses-grid .course-image-container img,
+body.index-page main .courses-grid .course-image-container img,
+.courses-grid .course-image-container img,
+.course-image-container img,
+body.index-page main section .courses-grid .course-card img,
+body.index-page main .courses-grid .course-card img,
+.courses-grid .course-card img {
+    width: 100% !important;
+    height: 100% !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    border-radius: 12px !important;
+    transition: transform 0.3s ease !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+}
+
+/* FORCE hover effects */
+body.index-page main section .courses-grid .course-card:hover .card-thumbnail-container img,
+body.index-page main section .courses-grid .course-card:hover .course-image-container img,
+body.index-page main section .courses-grid .course-card:hover img,
+.courses-grid .course-card:hover .card-thumbnail-container img,
+.courses-grid .course-card:hover .course-image-container img,
+.courses-grid .course-card:hover img {
+    transform: scale(1.05) !important;
+}
+
+/* FORCE card structure */
+body.index-page main section .courses-grid .course-card,
+body.index-page main .courses-grid .course-card,
+.courses-grid .course-card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 450px !important;
+}
+
+body.index-page main section .courses-grid .course-card .card-content,
+body.index-page main .courses-grid .course-card .card-content,
+.courses-grid .course-card .card-content {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 1.5rem !important;
+    gap: 1rem !important;
+}
+
+/* Mobile responsive - FORCE smaller but still bigger than original */
+@media (max-width: 768px) {
+    body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+    body.index-page main section .courses-grid .card-thumbnail-container,
+    body.index-page main .courses-grid .card-thumbnail-container,
+    .courses-grid .card-thumbnail-container,
+    .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-content .course-image-container,
+    body.index-page main section .courses-grid .course-card .course-image-container,
+    body.index-page main section .courses-grid .course-image-container,
+    body.index-page main .courses-grid .course-image-container,
+    .courses-grid .course-image-container,
+    .course-image-container {
+        height: 220px !important;
+        min-height: 220px !important;
+        max-height: 220px !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card,
+    body.index-page main .courses-grid .course-card,
+    .courses-grid .course-card {
+        min-height: 420px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+    body.index-page main section .courses-grid .card-thumbnail-container,
+    body.index-page main .courses-grid .card-thumbnail-container,
+    .courses-grid .card-thumbnail-container,
+    .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-content .course-image-container,
+    body.index-page main section .courses-grid .course-card .course-image-container,
+    body.index-page main section .courses-grid .course-image-container,
+    body.index-page main .courses-grid .course-image-container,
+    .courses-grid .course-image-container,
+    .course-image-container {
+        height: 200px !important;
+        min-height: 200px !important;
+        max-height: 200px !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card,
+    body.index-page main .courses-grid .course-card,
+    .courses-grid .course-card {
+        min-height: 380px !important;
+    }
+}
+
+/* OVERRIDE ANY RESPONSIVE.CSS RULES THAT MIGHT CONFLICT */
+@media (min-width: 1px) {
+    .card-thumbnail-container img,
+    .course-image-container img,
+    .course-image,
+    .course-card img {
+        aspect-ratio: unset !important;
+        max-width: none !important;
+        max-height: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}
+
+/* NUCLEAR OPTION - Override everything with attribute selectors */
+img[src*="kids-coding"],
+img[src*="html-css-kids"],
+img[src*="python-kids"],
+img[src*="java-teens"],
+img[src*="ai-ml-teens"],
+img[src*="mysql-teens"],
+img[src*="dsa-college"],
+img[src*="full-stack"],
+img[src*="ai-college"],
+img[src*="elementary-maths"],
+img[src*="olympiad-competition-maths"],
+img[alt*="Course"],
+img[alt*="course"] {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    border-radius: 12px !important;
+}
+
+/* FORCE container heights for images with specific sources */
+img[src*="kids-coding"]:parent,
+img[src*="html-css-kids"]:parent,
+img[src*="python-kids"]:parent {
+    height: 250px !important;
+    min-height: 250px !important;
+}
+
+/* Last resort - use CSS custom properties to force changes */
+:root {
+    --force-image-height: 250px;
+    --force-image-width: 100%;
+}
+
+.card-thumbnail-container,
+.course-image-container {
+    height: var(--force-image-height) !important;
+    width: var(--force-image-width) !important;
+}
+
+/* ULTRA SPECIFIC - Target by exact HTML structure */
+section[class*="section"] div[class*="courses-grid"] div[class*="course-card"] div[class*="card-content"] div[class*="card-thumbnail-container"] {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+}
+
+section[class*="section"] div[class*="courses-grid"] div[class*="course-card"] div[class*="card-content"] div[class*="card-thumbnail-container"] img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+/* FORCE through any possible CSS cascade */
+* .card-thumbnail-container {
+    height: 250px !important;
+}
+
+* .card-thumbnail-container img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}

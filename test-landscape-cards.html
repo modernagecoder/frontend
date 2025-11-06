@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landscape Cards - Professional Design</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/spacing-and-tabs-fix.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/testimonials-carousel.css">
+    <link rel="stylesheet" href="/css/certificate-carousel.css">
+    <link rel="stylesheet" href="/css/mobile-testimonials-certificates-fix.css">
+    <link rel="stylesheet" href="/css/corporate-training.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="/css/landscape-cards.css">
+    <style>
+        body {
+            background: #000002;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            padding: 2rem;
+        }
+        .test-section {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        .comparison h3 {
+            text-align: center;
+            margin-bottom: 1rem;
+            color: #a855f7;
+        }
+        .highlight {
+            background: rgba(78, 205, 196, 0.1);
+            border: 2px solid rgba(78, 205, 196, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        @media (max-width: 768px) {
+            .comparison {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="index-page">
+    <div class="test-section">
+        <h1 style="text-align: center; margin-bottom: 2rem;">🎨 LANDSCAPE CARD DESIGN - Professional & Beautiful</h1>
+        
+        <div class="highlight">
+            <h3>🏞️ LANDSCAPE DESIGN: Image Left + Content Right</h3>
+            <p>• <strong>Horizontal layout</strong> - Image 40% width, content 60% width</p>
+            <p>• <strong>280px card height</strong> - Perfect proportions for landscape</p>
+            <p>• <strong>Large image section</strong> - Full height image on the left</p>
+            <p>• <strong>Organized content</strong> - Title, description, button on the right</p>
+            <p>• <strong>Professional appearance</strong> - Clean, modern, engaging</p>
+            <p>• <strong>Responsive design</strong> - Stacks vertically on mobile</p>
+        </div>
+        
+        <div class="comparison">
+            <div>
+                <h3>BEFORE (Vertical Cards)</h3>
+                <div style="background: rgba(16, 16, 28, 0.8); border-radius: 1rem; padding: 0; border: 1px solid rgba(255, 255, 255, 0.1); min-height: 350px; display: flex; flex-direction: column;">
+                    <div style="height: 120px; overflow: hidden; margin: 1rem; border-radius: 8px; background: rgba(16, 16, 28, 0.3); display: flex; align-items: center; justify-content: center; padding: 8px;">
+                        <img src="/images/kids-coding.png" alt="Kids Coding" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain;">
+                    </div>
+                    <div style="padding: 1rem; flex: 1;">
+                        <h4>Kids Coding (Old)</h4>
+                        <p style="font-size: 0.9rem; color: #94a3b8;">Vertical layout, small image</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3>AFTER (Landscape Cards)</h3>
+                <div class="section">
+                    <div class="courses-grid" style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
+                        <div class="course-card coding">
+                            <div class="card-thumbnail-container">
+                                <img src="/images/kids-coding.png" alt="Kids Coding" loading="lazy">
+                            </div>
+                            <div class="card-content">
+                                <h3 class="card-title">Kids Coding</h3>
+                                <p class="card-description">Beautiful landscape design with large image on left and organized content on right!</p>
+                                <div class="card-button-container">
+                                    <a href="#" class="card-button coding">Start Learning</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 style="text-align: center; margin: 3rem 0 2rem;">Beautiful Landscape Curriculum Section</h2>
+        
+        <!-- Coding Curriculum Section -->
+        <section class="section">
+            <h2 class="section-title">Coding Curriculum (Landscape Design)</h2>
+            <div class="courses-grid">
+                <div class="course-card coding">
+                    <div class="card-thumbnail-container">
+                        <img src="/images/kids-coding.png" alt="Kids Coding Course" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Kids Coding</h3>
+                        <p class="card-description">A complete journey into the world of coding — from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.</p>
+                        <div class="card-button-container">
+                            <a href="#" class="card-button coding">Start Learning</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card coding">
+                    <div class="card-thumbnail-container">
+                        <img src="/images/html-css-kids.png" alt="Web Design for Kids Course" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Web Design for Kids</h3>
+                        <p class="card-description">Create your own colorful websites with HTML and CSS. Build fun projects and share them with friends!</p>
+                        <div class="card-button-container">
+                            <a href="#" class="card-button coding">Create Websites</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card coding">
+                    <div class="card-thumbnail-container">
+                        <img src="/images/python-kids.png" alt="Python for Young Coders Course" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Python for kids</h3>
+                        <p class="card-description">Start your coding journey with Python! Learn to create games, solve puzzles, and bring your ideas to life.</p>
+                        <div class="card-button-container">
+                            <a href="#" class="card-button coding">Learn Python</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Mathematics Section -->
+        <section class="section" style="margin-top: 4rem;">
+            <h2 class="section-title">Mathematics Mastery (Landscape Design)</h2>
+            <div class="courses-grid">
+                <div class="course-card math">
+                    <div class="card-thumbnail-container">
+                        <img src="/images/elementary-maths.png" alt="Elementary Mathematics Course" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Elementary Mathematics</h3>
+                        <p class="card-description">Build strong foundations in numbers, operations, fractions, geometry, and problem-solving for grades 1-5.</p>
+                        <div class="card-button-container">
+                            <a href="#" class="card-button math">Start Learning</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="course-card math">
+                    <div class="card-thumbnail-container">
+                        <img src="/images/olympiad-competition-maths.png" alt="Olympiad & Competition Math Course" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">Olympiad & Competition Math</h3>
+                        <p class="card-description">Master advanced problem-solving techniques and prepare for mathematical competitions at elementary level.</p>
+                        <div class="card-button-container">
+                            <a href="#" class="card-button math">Excel in Competitions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="highlight" style="margin-top: 3rem;">
+            <h3>🎉 BEAUTIFUL LANDSCAPE DESIGN ACHIEVED!</h3>
+            <p><strong>🏞️ Professional layout</strong> - Image left (40%), content right (60%)</p>
+            <p><strong>📏 Perfect proportions</strong> - 280px height, wide format</p>
+            <p><strong>🖼️ Large images</strong> - Full height image section for maximum impact</p>
+            <p><strong>📝 Organized content</strong> - Clean typography and button placement</p>
+            <p><strong>✨ Hover effects</strong> - Subtle animations and visual feedback</p>
+            <p><strong>📱 Responsive</strong> - Stacks vertically on mobile devices</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,225 @@
+/* ========================================
+   COMPLETELY NEW CODING CARD DESIGN
+   White top section + Colored bottom section
+   ======================================== */
+
+/* REMOVE OLD STYLING - Start fresh */
+.tabs-wrapper .tab-content .courses-grid .course-card {
+    display: flex !important;
+    flex-direction: column !important;
+    height: auto !important;
+    min-height: 400px !important;
+    width: 100% !important;
+    background: transparent !important; /* No background - we'll add sections */
+    border-radius: 20px !important; /* Rounded corners like the design */
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    border: none !important; /* No border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important; /* Soft shadow */
+    padding: 0 !important;
+    position: relative !important;
+}
+
+/* WHITE TOP SECTION - For images */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+    width: 100% !important;
+    height: 200px !important; /* Good height for images */
+    min-height: 200px !important;
+    max-height: 200px !important;
+    background: #ffffff !important; /* Pure white background */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 20px 20px 0 0 !important; /* Rounded top corners only */
+    margin: 0 !important;
+    padding: 20px !important; /* Padding inside white section */
+    position: relative !important;
+    flex-shrink: 0 !important;
+    order: 1 !important;
+}
+
+/* LARGE IMAGES in white section */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain !important; /* Show complete image */
+    object-position: center !important;
+    border-radius: 12px !important; /* Slight rounding for images */
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: transform 0.3s ease !important;
+    filter: brightness(1.05) contrast(1.02) !important;
+}
+
+/* HOVER EFFECT for images */
+.tabs-wrapper .tab-content .courses-grid .course-card:hover .card-thumbnail-container img {
+    transform: scale(1.05) !important;
+}
+
+/* DARK BOTTOM SECTION - For content (like original) */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+    width: 100% !important;
+    height: auto !important;
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background: var(--glass-bg-light) !important; /* Original dark glass background */
+    border-radius: 0 0 20px 20px !important; /* Rounded bottom corners only */
+    padding: 25px 20px 20px 20px !important;
+    color: white !important;
+    position: relative !important;
+    order: 2 !important;
+}
+
+/* TITLE in dark section */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-title {
+    width: 100% !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    margin: 0 0 12px 0 !important;
+    padding: 0 !important;
+    line-height: 1.3 !important;
+    color: var(--text-primary) !important; /* Original text color */
+    text-align: center !important; /* Center align like original */
+    order: 1 !important;
+    flex-shrink: 0 !important;
+}
+
+/* DESCRIPTION in dark section */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-description {
+    width: 100% !important;
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+    color: var(--text-secondary) !important; /* Original text color */
+    margin: 0 0 20px 0 !important;
+    padding: 0 !important;
+    text-align: center !important; /* Center align like original */
+    order: 2 !important;
+    flex: 1 !important;
+    overflow: visible !important;
+    display: block !important;
+}
+
+/* BUTTON in colored section */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-button-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    order: 3 !important;
+    flex-shrink: 0 !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-button {
+    width: 100% !important;
+    padding: 12px 20px !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border-radius: 12px !important;
+    /* Use original button styling */
+    background: linear-gradient(135deg, #8A2BE2, #4A00E0) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    transition: all 0.3s ease !important;
+    text-align: center !important;
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.3) !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-button:hover {
+    transform: translateY(-2px) scale(1.02) !important;
+    box-shadow: 0 12px 35px rgba(168, 85, 247, 0.4) !important;
+}
+
+/* Keep original dark background for all cards */
+.tabs-wrapper .tab-content .courses-grid .course-card.coding .card-content {
+    background: var(--glass-bg-light) !important; /* Original dark glass background */
+}
+
+/* CARD HOVER EFFECTS */
+.tabs-wrapper .tab-content .courses-grid .course-card:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* GRID LAYOUT */
+.tabs-wrapper .tab-content .courses-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)) !important;
+    gap: 30px !important;
+    width: 100% !important;
+    padding: 20px 0 !important;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .tabs-wrapper .tab-content .courses-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        padding: 10px 0 !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        min-height: 380px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+        height: 180px !important;
+        min-height: 180px !important;
+        max-height: 180px !important;
+        padding: 15px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+        padding: 20px 15px 15px 15px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-title {
+        font-size: 1.25rem !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-description {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        min-height: 360px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+        height: 160px !important;
+        min-height: 160px !important;
+        max-height: 160px !important;
+        padding: 12px !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+        padding: 18px 12px 12px 12px !important;
+    }
+}
+
+/* OVERRIDE ANY CONFLICTING STYLES */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container img {
+    aspect-ratio: unset !important;
+    transform: none !important; /* Remove any scaling */
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card:hover .card-thumbnail-container img {
+    transform: scale(1.05) !important; /* Only slight hover scale */
+}
+
+/* REMOVE OLD STYLING COMPLETELY */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+    display: flex !important; /* Override display: contents */
+}
+
+/* ENSURE PROPER STACKING */
+.tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
+    z-index: 1 !important;
+}
+
+.tabs-wrapper .tab-content .courses-grid .course-card .card-content {
+    z-index: 2 !important;
+}

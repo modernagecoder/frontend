@@ -1,0 +1,270 @@
+/* ========================================
+   LANDSCAPE CARD DESIGN - Image Left, Content Right
+   Professional horizontal layout with large images
+   ======================================== */
+
+/* LANDSCAPE DESIGN: Horizontal card layout */
+body.index-page main section .courses-grid .course-card,
+body.index-page main .courses-grid .course-card,
+.courses-grid .course-card {
+    display: flex !important;
+    flex-direction: row !important; /* Horizontal layout */
+    height: 280px !important; /* Fixed height for consistency */
+    min-height: 280px !important;
+    max-height: 280px !important;
+    width: 100% !important;
+    background: var(--glass-bg-light) !important;
+    border-radius: 1.5rem !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* LANDSCAPE: Image section on the left (40% width) */
+body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+body.index-page main section .courses-grid .card-thumbnail-container,
+body.index-page main .courses-grid .card-thumbnail-container,
+.courses-grid .card-thumbnail-container,
+.card-thumbnail-container {
+    width: 40% !important; /* 40% of card width for image */
+    height: 100% !important; /* Full card height */
+    min-width: 40% !important;
+    max-width: 40% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    overflow: hidden !important;
+    border-radius: 0 !important; /* No border radius for seamless look */
+    margin: 0 !important;
+    padding: 0 !important;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1)) !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    flex-shrink: 0 !important; /* Don't shrink */
+}
+
+/* LANDSCAPE: Large images that fill the left section */
+body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container img,
+body.index-page main section .courses-grid .course-card .card-thumbnail-container img,
+body.index-page main section .courses-grid .card-thumbnail-container img,
+body.index-page main .courses-grid .card-thumbnail-container img,
+.courses-grid .card-thumbnail-container img,
+.card-thumbnail-container img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: cover !important; /* Cover for better visual impact */
+    object-position: center !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: transform 0.4s ease !important;
+    filter: brightness(1.05) contrast(1.02) !important;
+}
+
+/* LANDSCAPE: Hover effect for images */
+body.index-page main section .courses-grid .course-card:hover .card-thumbnail-container img,
+body.index-page main section .courses-grid .course-card:hover img,
+.courses-grid .course-card:hover .card-thumbnail-container img,
+.courses-grid .course-card:hover img {
+    transform: scale(1.1) !important; /* Subtle zoom on hover */
+    filter: brightness(1.1) contrast(1.05) !important;
+}
+
+/* LANDSCAPE: Content section on the right (60% width) */
+body.index-page main section .courses-grid .course-card .card-content,
+body.index-page main .courses-grid .course-card .card-content,
+.courses-grid .course-card .card-content {
+    width: 60% !important; /* 60% of card width for content */
+    height: 100% !important;
+    flex: none !important; /* Don't flex, use fixed width */
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 2rem 2rem 1.5rem 2rem !important; /* Good padding for content */
+    gap: 1rem !important;
+    background: var(--glass-bg-light) !important;
+    position: relative !important;
+    justify-content: space-between !important; /* Distribute content evenly */
+}
+
+/* LANDSCAPE: Card titles */
+body.index-page main section .courses-grid .course-card .card-title,
+body.index-page main .courses-grid .course-card .card-title,
+.courses-grid .course-card .card-title {
+    font-size: 1.5rem !important; /* Larger titles for landscape */
+    font-weight: 700 !important;
+    margin-bottom: 0.75rem !important;
+    line-height: 1.3 !important;
+    color: var(--text-primary) !important;
+    flex-shrink: 0 !important; /* Don't shrink title */
+}
+
+/* LANDSCAPE: Card descriptions */
+body.index-page main section .courses-grid .course-card .card-description,
+body.index-page main .courses-grid .course-card .card-description,
+.courses-grid .course-card .card-description {
+    flex: 1 !important; /* Take available space */
+    font-size: 1rem !important;
+    line-height: 1.5 !important;
+    color: var(--text-secondary) !important;
+    margin-bottom: 1rem !important;
+    overflow: hidden !important; /* Prevent text overflow */
+    display: -webkit-box !important;
+    -webkit-line-clamp: 4 !important; /* Limit to 4 lines */
+    -webkit-box-orient: vertical !important;
+}
+
+/* LANDSCAPE: Button containers */
+body.index-page main section .courses-grid .course-card .card-button-container,
+body.index-page main .courses-grid .course-card .card-button-container,
+.courses-grid .course-card .card-button-container {
+    margin-top: auto !important;
+    padding-top: 0 !important;
+    flex-shrink: 0 !important; /* Don't shrink button */
+}
+
+/* LANDSCAPE: Buttons */
+body.index-page main section .courses-grid .course-card .card-button,
+body.index-page main .courses-grid .course-card .card-button,
+.courses-grid .course-card .card-button {
+    width: 100% !important;
+    padding: 0.875rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border-radius: 0.75rem !important;
+    transition: all 0.3s ease !important;
+}
+
+/* LANDSCAPE: Card hover effects */
+body.index-page main section .courses-grid .course-card:hover,
+body.index-page main .courses-grid .course-card:hover,
+.courses-grid .course-card:hover {
+    transform: translateY(-4px) !important; /* Subtle lift */
+    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.4) !important;
+    border-color: rgba(168, 85, 247, 0.3) !important;
+}
+
+/* LANDSCAPE: Grid layout for horizontal cards */
+body.index-page main section .courses-grid,
+body.index-page main .courses-grid,
+.courses-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important; /* Single column for landscape cards */
+    gap: 1.5rem !important;
+    width: 100% !important;
+}
+
+/* LANDSCAPE: Tablet responsive (2 columns) */
+@media (min-width: 1024px) {
+    body.index-page main section .courses-grid,
+    body.index-page main .courses-grid,
+    .courses-grid {
+        grid-template-columns: repeat(2, 1fr) !important; /* 2 columns on larger screens */
+        gap: 2rem !important;
+    }
+}
+
+/* LANDSCAPE: Mobile responsive - Stack vertically */
+@media (max-width: 768px) {
+    body.index-page main section .courses-grid .course-card,
+    body.index-page main .courses-grid .course-card,
+    .courses-grid .course-card {
+        flex-direction: column !important; /* Stack vertically on mobile */
+        height: auto !important;
+        min-height: 400px !important;
+        max-height: none !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+    body.index-page main section .courses-grid .card-thumbnail-container,
+    body.index-page main .courses-grid .card-thumbnail-container,
+    .courses-grid .card-thumbnail-container,
+    .card-thumbnail-container {
+        width: 100% !important; /* Full width on mobile */
+        height: 200px !important; /* Fixed height on mobile */
+        min-width: 100% !important;
+        max-width: 100% !important;
+        min-height: 200px !important;
+        max-height: 200px !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-content,
+    body.index-page main .courses-grid .course-card .card-content,
+    .courses-grid .course-card .card-content {
+        width: 100% !important;
+        height: auto !important;
+        padding: 1.5rem !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-title,
+    body.index-page main .courses-grid .course-card .card-title,
+    .courses-grid .course-card .card-title {
+        font-size: 1.25rem !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-description,
+    body.index-page main .courses-grid .course-card .card-description,
+    .courses-grid .course-card .card-description {
+        -webkit-line-clamp: 3 !important; /* Fewer lines on mobile */
+    }
+}
+
+/* LANDSCAPE: Very small mobile */
+@media (max-width: 480px) {
+    body.index-page main section .courses-grid .course-card,
+    body.index-page main .courses-grid .course-card,
+    .courses-grid .course-card {
+        min-height: 350px !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
+    body.index-page main section .courses-grid .course-card .card-thumbnail-container,
+    body.index-page main section .courses-grid .card-thumbnail-container,
+    body.index-page main .courses-grid .card-thumbnail-container,
+    .courses-grid .card-thumbnail-container,
+    .card-thumbnail-container {
+        height: 180px !important;
+        min-height: 180px !important;
+        max-height: 180px !important;
+    }
+    
+    body.index-page main section .courses-grid .course-card .card-content,
+    body.index-page main .courses-grid .course-card .card-content,
+    .courses-grid .course-card .card-content {
+        padding: 1.25rem !important;
+    }
+}
+
+/* LANDSCAPE: Override any conflicting rules */
+@media (min-width: 1px) {
+    .card-thumbnail-container img,
+    .course-image-container img,
+    .course-image,
+    .course-card img {
+        aspect-ratio: unset !important;
+        max-width: none !important;
+        max-height: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}
+
+/* LANDSCAPE: Image quality enhancement */
+body.index-page main section .courses-grid .course-card .card-thumbnail-container::after,
+body.index-page main .courses-grid .course-card .card-thumbnail-container::after,
+.courses-grid .course-card .card-thumbnail-container::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.05) 100%) !important;
+    pointer-events: none !important;
+}
