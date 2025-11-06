@@ -149,6 +149,8 @@
     gap: 30px !important;
     width: 100% !important;
     padding: 20px 0 !important;
+    justify-items: center !important; /* Center items in grid */
+    margin: 0 auto !important; /* Center the grid itself */
 }
 
 /* MOBILE RESPONSIVE */
@@ -156,11 +158,17 @@
     .tabs-wrapper .tab-content .courses-grid {
         grid-template-columns: 1fr !important;
         gap: 20px !important;
-        padding: 10px 0 !important;
+        padding: 10px 15px !important; /* Add horizontal padding */
+        justify-items: center !important; /* Center cards */
+        margin: 0 auto !important; /* Center grid */
+        max-width: 100% !important; /* Prevent overflow */
     }
     
     .tabs-wrapper .tab-content .courses-grid .course-card {
         min-height: 380px !important;
+        width: 100% !important;
+        max-width: 350px !important; /* Limit width on mobile */
+        margin: 0 auto !important; /* Center individual cards */
     }
     
     .tabs-wrapper .tab-content .courses-grid .course-card .card-thumbnail-container {
@@ -222,4 +230,47 @@
 
 .tabs-wrapper .tab-content .courses-grid .course-card .card-content {
     z-index: 2 !important;
+}
+/
+* ADDITIONAL MOBILE CENTERING FIXES */
+@media (max-width: 480px) {
+    .tabs-wrapper .tab-content .courses-grid {
+        padding: 10px 10px !important; /* Smaller padding on very small screens */
+        justify-items: center !important;
+        align-items: center !important;
+    }
+    
+    .tabs-wrapper .tab-content .courses-grid .course-card {
+        width: 100% !important;
+        max-width: 320px !important; /* Even smaller max width */
+        margin: 0 auto !important;
+    }
+}
+
+/* ENSURE TABS WRAPPER IS CENTERED */
+.tabs-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+.tabs-wrapper .tab-content {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+/* PREVENT HORIZONTAL OVERFLOW */
+@media (max-width: 768px) {
+    .tabs-wrapper,
+    .tabs-wrapper .tab-content,
+    .tabs-wrapper .tab-content .courses-grid {
+        overflow-x: hidden !important;
+    }
+    
+    body {
+        overflow-x: hidden !important;
+    }
 }

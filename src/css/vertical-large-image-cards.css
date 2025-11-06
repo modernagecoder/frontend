@@ -216,12 +216,18 @@ body.index-page main .tab-content .courses-grid,
     .courses-grid {
         grid-template-columns: 1fr !important; /* Single column on mobile */
         gap: 1.5rem !important;
+        justify-items: center !important; /* Center cards on mobile */
+        padding: 0 15px !important; /* Add horizontal padding */
+        margin: 0 auto !important; /* Center the grid */
     }
     
     body.index-page main section .courses-grid .course-card,
     body.index-page main .courses-grid .course-card,
     .courses-grid .course-card {
         min-height: 400px !important;
+        width: 100% !important;
+        max-width: 350px !important; /* Limit width on mobile */
+        margin: 0 auto !important; /* Center individual cards */
     }
     
     body.index-page main section .courses-grid .course-card .card-content .card-thumbnail-container,
