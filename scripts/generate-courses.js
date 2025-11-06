@@ -41,7 +41,7 @@ class CourseGenerator {
                 return;
             }
             
-            // Copy CSS file from template to generated directory
+            // Copy CSS files from template to generated directory
             const cssSourcePath = path.join(this.templateDir, 'course-template.css');
             const cssDestPath = path.join(this.generatedDir, 'style.css');
             if (fs.existsSync(cssSourcePath)) {
@@ -49,6 +49,16 @@ class CourseGenerator {
                 console.log('✓ Copied course template CSS file to generated directory');
             } else {
                 console.log('⚠️  Course template CSS file not found at', cssSourcePath);
+            }
+            
+            // Copy mobile responsive CSS file
+            const mobileCssSourcePath = path.join(this.templateDir, 'mobile-responsive-fix.css');
+            const mobileCssDestPath = path.join(this.generatedDir, 'mobile-responsive-fix.css');
+            if (fs.existsSync(mobileCssSourcePath)) {
+                fs.copyFileSync(mobileCssSourcePath, mobileCssDestPath);
+                console.log('✓ Copied mobile responsive CSS file to generated directory');
+            } else {
+                console.log('⚠️  Mobile responsive CSS file not found at', mobileCssSourcePath);
             }
 
             // Generate each course
@@ -66,10 +76,17 @@ class CourseGenerator {
                         fs.mkdirSync(courseDir, { recursive: true });
                     }
                     
-                    // Copy CSS file to course directory
+                    // Copy CSS files to course directory
                     const courseCssPath = path.join(courseDir, 'style.css');
                     if (fs.existsSync(cssDestPath)) {
                         fs.copyFileSync(cssDestPath, courseCssPath);
+                    }
+                    
+                    // Copy mobile responsive CSS file to course directory
+                    const mobileCssDestPath = path.join(this.generatedDir, 'mobile-responsive-fix.css');
+                    const courseMobileCssPath = path.join(courseDir, 'mobile-responsive-fix.css');
+                    if (fs.existsSync(mobileCssDestPath)) {
+                        fs.copyFileSync(mobileCssDestPath, courseMobileCssPath);
                     }
                     
                     // Copy JavaScript file to course directory

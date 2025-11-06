@@ -1,0 +1,553 @@
+/* ===== BEAUTIFUL MOBILE RESPONSIVE DESIGN ===== */
+/* Clean, spacious, minimalist mobile experience without cropping */
+
+/* Ensure no horizontal overflow on any screen size */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
+/* Base responsive containers - spacious and clean */
+.course-hero,
+.enrollment-cta-section,
+.program-overview-section,
+.course-tabs-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Enhanced mobile navigation */
+@media (max-width: 900px) {
+    .nav-container {
+        padding: 0.875rem 1.5rem;
+        gap: 1rem;
+    }
+    
+    .logo-text {
+        display: none;
+    }
+    
+    .back-button {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Tablet responsive design */
+@media (max-width: 1024px) {
+    .course-hero {
+        padding: 2.5rem 1.5rem;
+        gap: 2rem;
+    }
+    
+    .enrollment-cta-container {
+        padding: 2.5rem 2rem;
+    }
+    
+    .enrollment-options {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+    
+    .enrollment-option {
+        width: 100%;
+    }
+}
+
+/* Beautiful mobile design - spacious and clean */
+@media (max-width: 768px) {
+    /* Main container with generous spacing */
+    body.course-detail-page main {
+        padding: 110px 1rem 2rem;
+    }
+    
+    /* Hero section - spacious and elegant */
+    .course-hero {
+        padding: 2rem 1.5rem;
+        margin: 0 auto 2rem;
+        gap: 2rem;
+        border-radius: 1rem;
+    }
+    
+    .course-hero-content {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .course-hero-title {
+        font-size: clamp(1.8rem, 6vw, 2.5rem);
+        line-height: 1.2;
+        margin-bottom: 1rem;
+    }
+    
+    .course-hero-subtitle {
+        font-size: clamp(1rem, 3vw, 1.2rem);
+        line-height: 1.5;
+    }
+    
+    .course-hero-image {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    
+    /* Meta badges - clean grid layout */
+    .course-meta-badges {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.75rem;
+        margin-top: 1.5rem;
+        justify-items: center;
+    }
+    
+    .meta-badge {
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+        text-align: center;
+        width: 100%;
+        border-radius: 0.5rem;
+    }
+    
+    .meta-badge.certification {
+        grid-column: 1 / -1;
+        max-width: 300px;
+    }
+    
+    .meta-badge svg {
+        width: 16px;
+        height: 16px;
+    }
+    
+    /* Duration section - beautiful spacing */
+    section[style*="max-width: 1200px"] {
+        margin: 2rem auto !important;
+        padding: 0 1.5rem !important;
+    }
+    
+    section[style*="max-width: 1200px"] > div {
+        padding: 2rem 1.5rem !important;
+        border-radius: 1rem !important;
+    }
+    
+    /* Duration grid - prevent cropping */
+    div[style*="grid-template-columns: 1fr 1fr"] {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+    
+    /* Enrollment section - spacious and elegant */
+    .enrollment-cta-container {
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+        border-radius: 1rem;
+        margin: 2rem auto;
+    }
+    
+    .enrollment-cta-text {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .enrollment-cta-text h2 {
+        font-size: clamp(1.6rem, 5vw, 2.2rem);
+        line-height: 1.3;
+        margin-bottom: 0.75rem;
+    }
+    
+    .enrollment-options {
+        flex-direction: column;
+        gap: 1.5rem;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .enrollment-option {
+        width: 100%;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+    
+    /* Program overview - clean and spacious */
+    .program-overview-container {
+        padding: 2rem 1.5rem;
+        margin: 2rem auto;
+        border-radius: 1rem;
+    }
+    
+    .section-title {
+        font-size: clamp(1.8rem, 6vw, 2.4rem);
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    .subsection-title {
+        font-size: clamp(1.3rem, 4vw, 1.7rem);
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    /* Course tabs - beautiful mobile layout */
+    .course-tabs-wrapper {
+        padding: 1.5rem;
+        margin: 2rem auto;
+        border-radius: 1rem;
+    }
+    
+    .course-tabs-container {
+        flex-direction: column;
+        gap: 0.75rem;
+        background: transparent;
+        padding: 0;
+    }
+    
+    .course-tab-button {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        font-size: 0.95rem;
+        border-radius: 0.75rem;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+    }
+    
+    .course-tab-button.active {
+        background: linear-gradient(135deg, #a855f7, #4ecdc4);
+        border-color: transparent;
+    }
+    
+    .course-tab-glider {
+        display: none;
+    }
+    
+    /* Grid layouts - single column, spacious */
+    .learning-path-grid,
+    .differentiators-list,
+    .skills-categories,
+    .support-items,
+    .audience-items,
+    .career-paths-grid,
+    .salary-items {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    /* Accordion sections - clean and spacious */
+    .phase-header,
+    .month-header,
+    .week-header {
+        padding: 1.25rem 1.5rem;
+        gap: 1rem;
+        border-radius: 0.75rem;
+    }
+    
+    .phase-info,
+    .month-info {
+        min-width: 0;
+        flex: 1;
+    }
+    
+    .phase-title {
+        font-size: clamp(1.2rem, 4vw, 1.4rem);
+        line-height: 1.3;
+    }
+    
+    .phase-description {
+        font-size: 0.95rem;
+        line-height: 1.5;
+        margin-top: 0.5rem;
+    }
+    
+    .month-title {
+        font-size: clamp(1.1rem, 3.5vw, 1.25rem);
+    }
+    
+    .week-title {
+        font-size: clamp(1rem, 3vw, 1.15rem);
+    }
+    
+    /* Content sections - generous padding */
+    .phase-content,
+    .month-content,
+    .week-content {
+        padding: 1.5rem;
+    }
+    
+    /* Career timeline - clean mobile layout */
+    .career-outcomes-timeline {
+        padding-left: 1.5rem;
+    }
+    
+    .career-outcome {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding: 1.25rem;
+        border-radius: 0.75rem;
+    }
+    
+    .career-outcome::before {
+        left: calc(-1.5rem - 6px);
+    }
+    
+    /* Text content - readable and spacious */
+    .overview-description {
+        font-size: 1.05rem;
+        line-height: 1.7;
+    }
+    
+    .tab-intro {
+        font-size: 1.05rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    
+    /* Lists - clean spacing */
+    .topics-list li,
+    .projects-list li {
+        padding: 0.75rem 1rem;
+        padding-left: 2rem;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        border-radius: 0.5rem;
+    }
+}
+
+/* Small mobile devices - maintain spaciousness */
+@media (max-width: 480px) {
+    body.course-detail-page main {
+        padding: 100px 0.75rem 1.5rem;
+    }
+    
+    .course-hero {
+        padding: 1.5rem 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .course-hero-title {
+        font-size: clamp(1.6rem, 7vw, 2rem);
+    }
+    
+    .course-hero-subtitle {
+        font-size: clamp(0.95rem, 4vw, 1.1rem);
+    }
+    
+    /* Meta badges - stack vertically on very small screens */
+    .course-meta-badges {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    
+    .meta-badge {
+        padding: 0.75rem;
+        font-size: 0.8rem;
+    }
+    
+    /* Containers - maintain generous spacing */
+    .enrollment-cta-container,
+    .program-overview-container,
+    .course-tabs-wrapper {
+        padding: 1.5rem 1rem;
+        margin: 1.5rem auto;
+    }
+    
+    .section-title {
+        font-size: clamp(1.6rem, 7vw, 2rem);
+        margin-bottom: 1.5rem;
+    }
+    
+    .subsection-title {
+        font-size: clamp(1.2rem, 5vw, 1.5rem);
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Accordion - maintain readability */
+    .phase-header,
+    .month-header,
+    .week-header {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+    
+    .phase-title {
+        font-size: clamp(1.1rem, 5vw, 1.3rem);
+    }
+    
+    .month-title {
+        font-size: clamp(1rem, 4vw, 1.2rem);
+    }
+    
+    .week-title {
+        font-size: clamp(0.95rem, 3.5vw, 1.1rem);
+    }
+    
+    /* Content sections */
+    .phase-content,
+    .month-content,
+    .week-content {
+        padding: 1rem;
+    }
+    
+    /* Career timeline */
+    .career-outcomes-timeline {
+        padding-left: 1rem;
+    }
+    
+    .career-outcome {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+    
+    .career-outcome::before {
+        left: calc(-1rem - 6px);
+        width: 12px;
+        height: 12px;
+    }
+    
+    .outcome-step {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+    
+    /* Enrollment options */
+    .enrollment-option {
+        padding: 1.25rem;
+    }
+    
+    .enrollment-option .price {
+        font-size: 1.6rem;
+    }
+    
+    .enroll-btn {
+        padding: 0.875rem 1.5rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Landscape orientation - optimize for wider screens */
+@media (max-width: 768px) and (orientation: landscape) {
+    body.course-detail-page main {
+        padding-top: 90px;
+    }
+    
+    .course-hero {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        padding: 1.5rem;
+        gap: 2rem;
+    }
+    
+    .course-hero-content {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .course-hero-image {
+        flex: 0 0 250px;
+        max-width: 250px;
+    }
+    
+    .course-meta-badges {
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-start;
+    }
+}
+
+/* Ensure proper text wrapping */
+.phase-title,
+.month-title,
+.week-title,
+.course-hero-title,
+.section-title,
+.subsection-title {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Ensure all content respects boundaries */
+p, li, span, div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
+
+/* Beautiful scrollbars for tabs */
+.course-tabs-container::-webkit-scrollbar {
+    height: 4px;
+}
+
+.course-tabs-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+
+.course-tabs-container::-webkit-scrollbar-thumb {
+    background: rgba(168, 85, 247, 0.6);
+    border-radius: 2px;
+}
+
+.course-tabs-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(168, 85, 247, 0.8);
+}
+
+/* Ensure images are responsive */
+img, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent flex item overflow */
+.course-hero-content,
+.enrollment-cta-text,
+.phase-info,
+.month-info {
+    min-width: 0;
+    flex-shrink: 1;
+}
+
+/* Final safety measures - prevent any cropping */
+@media (max-width: 768px) {
+    /* Ensure no element exceeds viewport */
+    * {
+        max-width: 100vw;
+    }
+    
+    /* All containers respect viewport boundaries */
+    .course-hero,
+    .enrollment-cta-container,
+    .program-overview-container,
+    .course-tabs-wrapper,
+    .phase-section,
+    .month-section,
+    .week-section {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Prevent text overflow */
+    .topics-list li,
+    .projects-list li,
+    .phase-description,
+    .overview-description p,
+    .tab-intro {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+}
