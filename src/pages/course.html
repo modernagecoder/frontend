@@ -2597,14 +2597,42 @@
                 }
 
                 // Form submission
-                form.addEventListener('submit', function (e) {
+            
+     form.addEventListener('submit', async function (e) {
                     e.preventDefault();
-                    const formData = new FormData(form);
-                    const data = Object.fromEntries(formData.entries());
-                    console.log('Corporate Training Request (Course Page):', data);
-                    alert('Thank you! Your request has been submitted. Our team will contact you within 24 hours.');
-                    form.reset();
-                    updateFormFields();
+                    
+                    const submitBtn = form.querySelector('.submit-btn');
+                    const originalBtnText = submitBtn.innerHTML;
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<svg class="animate-spin" style="width: 20px; height: 20px; display: inline-block; animation: spin 1s linear infinite;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" /></svg> Submitting...';
+                    
+                    try {
+                        const formData = new FormData(form);
+                        const data = Object.fromEntries(formData.entries());
+                        
+                        const API_URL = window.API_URL || 'https://modernagecoders.vercel.app';
+                        const response = await fetch(`${API_URL}/api/corporate-training/submit`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify(data)
+                        });
+                        
+                        const result = await response.json();
+                        
+                        if (response.ok && result.success) {
+                            alert('✅ Thank you! Your request has been submitted successfully. Our team will contact you within 24 hours.');
+                            form.reset();
+                            updateFormFields();
+                        } else {
+                            throw new Error(result.message || 'Failed to submit request');
+                        }
+                    } catch (error) {
+                        console.error('Submission error:', error);
+                        alert('❌ Failed to submit request: ' + error.message + '. Please try again or contact us directly.');
+                    } finally {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = originalBtnText;
+                    }
                 });
             }
 

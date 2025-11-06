@@ -226,7 +226,42 @@ class APIClient {
     const queryString = new URLSearchParams(params).toString();
     return await this.request(`/admin/audit-logs?${queryString}`);
   }
+
+  
+  // ============================================
+  // CORPORATE TRAINING ENDPOINTS
+  // ============================================
+  
+  async getCorporateTraining(params = {}) {
+    const queryString = new URLSearchParams(params).toString();
+    return await this.request(`/admin/corporate-training?${queryString}`);
+  }
+  
+  async getCorporateTrainingById(id) {
+    return await this.request(`/admin/corporate-training/${id}`);
+  }
+  
+  async updateCorporateTraining(id, updates) {
+    return await this.request(`/admin/corporate-training/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(updates)
+    });
+  }
+  
+  async deleteCorporateTraining(id) {
+    return await this.request(`/admin/corporate-training/${id}`, {
+      method: 'DELETE'
+    });
+  }
+  
+  async getCorporateTrainingStats() {
+    return await this.request('/admin/corporate-training/stats/summary');
+  }
 }
+
+
+
+
 
 // Create global API client instance
 const api = new APIClient();
