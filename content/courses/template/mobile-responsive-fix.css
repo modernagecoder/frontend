@@ -7,9 +7,16 @@
 }
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
     width: 100%;
     max-width: 100vw;
+    position: relative;
+}
+
+/* Prevent any element from causing horizontal scroll */
+body > * {
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 /* Base responsive containers - spacious and clean */
@@ -69,7 +76,20 @@ html, body {
 @media (max-width: 768px) {
     /* Main container with generous spacing */
     body.course-detail-page main {
-        padding: 110px 1rem 2rem;
+        padding: 110px 0 2rem;
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    
+    /* Add consistent padding to all major sections */
+    body.course-detail-page main > section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        max-width: 100%;
     }
     
     /* Hero section - spacious and elegant */
@@ -131,10 +151,11 @@ html, body {
     
     /* Duration section - fix cropping and make responsive */
     section[style*="max-width: 1200px"] {
-        margin: 2rem auto !important;
+        margin: 2rem 0 !important;
         padding: 0 1rem !important;
-        max-width: calc(100vw - 2rem) !important;
-        width: calc(100vw - 2rem) !important;
+        max-width: 100% !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
     }
     
     section[style*="max-width: 1200px"] > div {
@@ -146,6 +167,7 @@ html, body {
         display: flex !important;
         flex-direction: column !important;
         gap: 1rem !important;
+        overflow: hidden !important;
     }
     
     /* Duration content wrapper */
@@ -191,11 +213,21 @@ html, body {
     }
     
     /* Enrollment section - spacious and elegant */
+    .enrollment-cta-section {
+        padding: 0 1rem;
+        margin: 2rem 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .enrollment-cta-container {
         padding: 2rem 1.5rem;
         gap: 2rem;
         border-radius: 1rem;
-        margin: 2rem auto;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .enrollment-cta-text {
@@ -224,10 +256,20 @@ html, body {
     }
     
     /* Program overview - clean and spacious */
+    .program-overview-section {
+        padding: 0 1rem;
+        margin: 2rem 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .program-overview-container {
         padding: 2rem 1.5rem;
-        margin: 2rem auto;
+        margin: 0 auto;
         border-radius: 1rem;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .section-title {
@@ -243,10 +285,20 @@ html, body {
     }
     
     /* Course tabs - beautiful mobile layout */
+    .course-tabs-section {
+        padding: 0 1rem;
+        margin: 2rem 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    
     .course-tabs-wrapper {
         padding: 1.5rem;
-        margin: 2rem auto;
+        margin: 0 auto;
         border-radius: 1rem;
+        max-width: 100%;
+        width: 100%;
+        box-sizing: border-box;
     }
     
     .course-tabs-container {
@@ -655,5 +707,307 @@ img, svg {
     .tab-intro {
         word-break: break-word;
         overflow-wrap: anywhere;
+    }
+    
+    /* Fix accordion content spacing */
+    .curriculum-accordion {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    .phase-section,
+    .month-section,
+    .week-section {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    /* Ensure accordion content doesn't overflow */
+    .phase-content,
+    .month-content,
+    .week-content {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    /* Fix expand icons alignment */
+    .expand-icon {
+        flex-shrink: 0;
+        margin-left: auto;
+        font-size: 1rem;
+        transition: transform 0.3s ease;
+    }
+    
+    .phase-section.active .phase-header .expand-icon,
+    .month-section.active .month-header .expand-icon,
+    .week-section.active .week-header .expand-icon {
+        transform: rotate(180deg);
+    }
+    
+    /* Improve button spacing and touch targets */
+    .phase-header,
+    .month-header,
+    .week-header {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        user-select: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    /* Better visual feedback on tap */
+    .phase-header:active,
+    .month-header:active,
+    .week-header:active {
+        opacity: 0.8;
+        transform: scale(0.98);
+    }
+    
+    /* Smooth transitions for accordion */
+    .phase-content,
+    .month-content,
+    .week-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out, padding 0.3s ease;
+    }
+    
+    .phase-section.active .phase-content,
+    .month-section.active .month-content,
+    .week-section.active .week-content {
+        max-height: 10000px;
+        transition: max-height 0.6s ease-in;
+    }
+    
+    /* Improve list readability */
+    .topics-list,
+    .projects-list {
+        padding-left: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    .topics-list li,
+    .projects-list li {
+        position: relative;
+        padding-left: 2.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    .topics-list li::before,
+    .projects-list li::before {
+        content: "•";
+        position: absolute;
+        left: 1rem;
+        color: #a855f7;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    
+    /* Better spacing for content sections */
+    .topics-section,
+    .projects-section,
+    .practice-section,
+    .assessment-section {
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 0.75rem;
+        border-left: 3px solid #a855f7;
+    }
+    
+    .content-section-title {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #a855f7;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    /* Improve enrollment buttons */
+    .enroll-btn {
+        width: 100%;
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .enroll-btn.primary {
+        background: linear-gradient(135deg, #a855f7, #4ecdc4);
+        color: white;
+    }
+    
+    .enroll-btn.outline {
+        background: transparent;
+        border: 2px solid #a855f7;
+        color: #a855f7;
+    }
+    
+    .enroll-btn:active {
+        transform: scale(0.97);
+    }
+    
+    /* Better price display */
+    .price {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #a855f7;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    
+    /* Improve hero image container */
+    .course-hero-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 1rem;
+    }
+    
+    .course-hero-image img,
+    .hero-course-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: contain;
+        border-radius: 0.75rem;
+    }
+    
+    /* Better category badge */
+    .course-category {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        background: rgba(168, 85, 247, 0.2);
+        color: #a855f7;
+        border-radius: 2rem;
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        border: 1px solid rgba(168, 85, 247, 0.3);
+    }
+    
+    /* Improve differentiators list */
+    .differentiators-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .differentiators-list li {
+        padding: 1rem;
+        margin-bottom: 0.75rem;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 0.75rem;
+        border-left: 3px solid #4ecdc4;
+        display: flex;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+    
+    .check-icon {
+        color: #4ecdc4;
+        font-weight: bold;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    
+    /* Better learning path items */
+    .learning-path-item {
+        padding: 1.5rem;
+        background: rgba(255, 255, 255, 0.03);
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 1rem;
+    }
+    
+    .path-number {
+        font-size: 0.85rem;
+        color: #a855f7;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+    
+    .path-content {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #CBD5E1;
+    }
+    
+    /* Improve show more button */
+    .show-more-btn {
+        width: 100%;
+        padding: 0.75rem;
+        margin-top: 1rem;
+        background: rgba(168, 85, 247, 0.1);
+        border: 1px solid rgba(168, 85, 247, 0.3);
+        border-radius: 0.5rem;
+        color: #a855f7;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        min-height: 44px;
+    }
+    
+    .show-more-btn:active {
+        background: rgba(168, 85, 247, 0.2);
+        transform: scale(0.98);
+    }
+}
+
+/* Extra small devices - maintain quality */
+@media (max-width: 360px) {
+    body.course-detail-page main {
+        padding: 100px 0.5rem 1.5rem;
+    }
+    
+    .course-hero,
+    .enrollment-cta-container,
+    .program-overview-container,
+    .course-tabs-wrapper {
+        padding: 1.25rem 0.75rem;
+    }
+    
+    .course-hero-title {
+        font-size: 1.5rem;
+    }
+    
+    .course-hero-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .meta-badge {
+        font-size: 0.75rem;
+        padding: 0.6rem 0.75rem;
+    }
+    
+    section[style*="max-width: 1200px"] {
+        padding: 0 0.5rem !important;
+    }
+    
+    section[style*="max-width: 1200px"] > div {
+        padding: 1rem 0.75rem !important;
     }
 }
