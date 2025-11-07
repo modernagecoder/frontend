@@ -1,4 +1,3 @@
-
 {
   "meta": {
     "slug": "algorithmic-trading-masterclass-complete",
@@ -30,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Quant Trader",
     "commitment": "20-25 hours/week recommended",
-    "certification": "Certified Algorithmic Trader upon completion"
+    "certification": "Certified Algorithmic Trader upon completion",
+    "image_path": "algo-trading.png"
   },
   "program_overview": {
     "title": "Complete Algorithmic Trading Masterclass",

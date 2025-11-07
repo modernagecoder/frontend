@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Professional",
     "commitment": "12-15 hours/week recommended",
-    "certification": "Professional Creative Designer Certification upon completion"
+    "certification": "Professional Creative Designer Certification upon completion",
+    "image_path": "designing-editing-teens.png"
   },
   "program_overview": {
     "title": "Complete Creative Media Design & Editing Masterclass for Teens",
@@ -750,32 +751,52 @@
       "weeks": "N/A",
       "week_53_54": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_55_56": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_57_58": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_59_60": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_61": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       }
     },
@@ -784,32 +805,52 @@
       "weeks": "N/A",
       "week_62_63": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_64_65": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_66_67": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_68_69": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_70": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       }
     },
@@ -818,32 +859,52 @@
       "weeks": "N/A",
       "week_71_72": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_73_74": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_75_76": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_77": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_78": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "assessment": "N/A"
       }
     }
@@ -856,32 +917,52 @@
       "weeks": "N/A",
       "week_79_80": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_81_82": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_83_84": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_85_86": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_87": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       }
     },
@@ -890,32 +971,52 @@
       "weeks": "N/A",
       "week_88_89": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_90_91": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_92_93": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_94_95": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_96": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       }
     },
@@ -924,26 +1025,42 @@
       "weeks": "N/A",
       "week_97": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_98": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_99": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       },
       "week_100": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ],
         "practice": "N/A"
       }
     },
@@ -952,18 +1069,30 @@
       "weeks": "N/A",
       "week_101_102": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "projects": ["N/A"]
+        "topics": [
+          "N/A"
+        ],
+        "projects": [
+          "N/A"
+        ]
       },
       "week_103": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "deliverables": ["N/A"]
+        "topics": [
+          "N/A"
+        ],
+        "deliverables": [
+          "N/A"
+        ]
       },
       "week_104": {
         "title": "N/A",
-        "topics": ["N/A"],
-        "deliverables": ["N/A"],
+        "topics": [
+          "N/A"
+        ],
+        "deliverables": [
+          "N/A"
+        ],
         "assessment": "N/A"
       }
     }

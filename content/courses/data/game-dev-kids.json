@@ -29,7 +29,8 @@
     "duration": "6 months (26 weeks)",
     "level": "Complete Beginner to Advanced Game Creator",
     "commitment": "6-8 hours/week recommended",
-    "certification": "Junior Game Developer Certification"
+    "certification": "Junior Game Developer Certification",
+    "image_path": "game-dev-kids.png"
   },
   "program_overview": {
     "title": "Complete Game Development Masterclass for Kids",

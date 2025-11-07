@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional App Developer",
     "commitment": "15-20 hours/week recommended",
-    "certification": "Professional App Developer certification upon completion"
+    "certification": "Professional App Developer certification upon completion",
+    "image_path": "app-dev-college.png"
   },
   "program_overview": {
     "title": "Complete App Development Masterclass",

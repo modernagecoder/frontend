@@ -29,7 +29,8 @@
     "duration": "24 months (104 weeks)",
     "level": "Complete Beginner to Professional Full Stack Developer",
     "commitment": "12-18 hours/week recommended",
-    "certification": "Teen Full Stack Developer Certification - Industry Recognized"
+    "certification": "Teen Full Stack Developer Certification - Industry Recognized",
+    "image_path": "web-dev-teens.png"
   },
   "program_overview": {
     "title": "Full Stack Web Development for Teens - Build the Apps You Love",

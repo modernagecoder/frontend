@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to AI Developer",
     "commitment": "12-15 hours/week recommended",
-    "certification": "AI/ML Expert Certification with Project Portfolio"
+    "certification": "AI/ML Expert Certification with Project Portfolio",
+    "image_path": "ai-ml-teens.png"
   },
   "program_overview": {
     "title": "Complete AI & Machine Learning Masterclass for Teens",

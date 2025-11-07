@@ -27,7 +27,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Young Developer",
     "commitment": "5-10 hours/week recommended",
-    "certification": "Young Web Developer Certificate with AI Specialization"
+    "certification": "Young Web Developer Certificate with AI Specialization",
+    "image_path": "html-css-kids.png"
   },
   "program_overview": {
     "title": "Kids AI Web Development Masterclass",

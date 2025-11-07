@@ -29,7 +29,8 @@
     "duration": "3 months (12 weeks)",
     "level": "Complete Beginner to Advanced Scratch Developer",
     "commitment": "5-7 hours/week recommended",
-    "certification": "Certified Scratch Game Developer"
+    "certification": "Certified Scratch Game Developer",
+    "image_path": "scratch-kids.png"
   },
   "program_overview": {
     "title": "Scratch Programming Mastery for Kids",

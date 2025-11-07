@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced High School",
     "commitment": "10-15 hours/week recommended",
-    "certification": "High School Mathematics Completion Certificate"
+    "certification": "High School Mathematics Completion Certificate",
+    "image_path": "high-school-maths.png"
   },
   "program_overview": {
     "title": "Complete High School Mathematics Mastery Program",

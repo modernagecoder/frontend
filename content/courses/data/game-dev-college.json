@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Game Developer",
     "commitment": "20-25 hours/week recommended",
-    "certification": "Certified Game Developer upon completion"
+    "certification": "Certified Game Developer upon completion",
+    "image_path": "game-dev-college.png"
   },
   "program_overview": {
     "title": "Complete Game Development Masterclass",

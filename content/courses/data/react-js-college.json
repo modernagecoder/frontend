@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Senior React Developer",
     "commitment": "15-20 hours/week recommended",
-    "certification": "Certified React Developer Professional upon completion"
+    "certification": "Certified React Developer Professional upon completion",
+    "image_path": "react-college.jpg"
   },
   "program_overview": {
     "title": "Complete React.js Masterclass",

@@ -29,7 +29,8 @@
     "duration": "6 months (26 weeks)",
     "level": "Complete Beginner to Advanced Problem Solver",
     "commitment": "5-7 hours/week recommended",
-    "certification": "Certified Young Problem Solver"
+    "certification": "Certified Young Problem Solver",
+    "image_path": "problem-solving-kids.png"
   },
   "program_overview": {
     "title": "Complete Problem-Solving & Computational Thinking Masterclass",

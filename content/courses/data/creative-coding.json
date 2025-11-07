@@ -29,7 +29,8 @@
     "duration": "6 months (26 weeks)",
     "level": "Beginner to Professional Content Creator",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Certified Creative Technologist & Digital Animator"
+    "certification": "Certified Creative Technologist & Digital Animator",
+    "image_path": "creative-coding-kids.png"
   },
   "program_overview": {
     "title": "Creative Coding & Animation Mastery",
@@ -96,17 +97,29 @@
         {
           "name": "Personal Brand Identity",
           "description": "Logo, color palette, style guide",
-          "deliverables": ["Logo variations", "Brand guidelines", "Mockups"]
+          "deliverables": [
+            "Logo variations",
+            "Brand guidelines",
+            "Mockups"
+          ]
         },
         {
           "name": "Mood Board Collection",
           "description": "5 different aesthetic mood boards",
-          "deliverables": ["Pinterest boards", "Color schemes", "Font selections"]
+          "deliverables": [
+            "Pinterest boards",
+            "Color schemes",
+            "Font selections"
+          ]
         },
         {
           "name": "Social Media Template Set",
           "description": "Consistent design templates",
-          "deliverables": ["Post templates", "Story templates", "Highlight covers"]
+          "deliverables": [
+            "Post templates",
+            "Story templates",
+            "Highlight covers"
+          ]
         }
       ],
       "skills_practice": [
@@ -145,17 +158,29 @@
         {
           "name": "Bouncing Ball Animation",
           "description": "Master timing and physics",
-          "deliverables": ["30-second animation", "Different ball types", "Various surfaces"]
+          "deliverables": [
+            "30-second animation",
+            "Different ball types",
+            "Various surfaces"
+          ]
         },
         {
           "name": "Character Walk Cycle",
           "description": "Create smooth character movement",
-          "deliverables": ["8-frame walk cycle", "16-frame run cycle", "Personality walks"]
+          "deliverables": [
+            "8-frame walk cycle",
+            "16-frame run cycle",
+            "Personality walks"
+          ]
         },
         {
           "name": "Animated Logo Reveal",
           "description": "Bring brand to life",
-          "deliverables": ["5-second reveal", "3 variations", "Loop version"]
+          "deliverables": [
+            "5-second reveal",
+            "3 variations",
+            "Loop version"
+          ]
         }
       ],
       "animation_exercises": [
@@ -195,17 +220,29 @@
         {
           "name": "Day in Life Vlog",
           "description": "Edit personal vlog footage",
-          "deliverables": ["5-minute vlog", "Intro/outro", "Music integration"]
+          "deliverables": [
+            "5-minute vlog",
+            "Intro/outro",
+            "Music integration"
+          ]
         },
         {
           "name": "Product Commercial",
           "description": "30-second product showcase",
-          "deliverables": ["Commercial edit", "Social media cuts", "Behind-the-scenes"]
+          "deliverables": [
+            "Commercial edit",
+            "Social media cuts",
+            "Behind-the-scenes"
+          ]
         },
         {
           "name": "Music Video Edit",
           "description": "Sync video to music",
-          "deliverables": ["Full music video", "Lyric video", "Visualizer"]
+          "deliverables": [
+            "Full music video",
+            "Lyric video",
+            "Visualizer"
+          ]
         }
       ],
       "editing_techniques": [
@@ -245,17 +282,32 @@
         {
           "name": "Instagram Reels Series",
           "description": "5 trending reels",
-          "deliverables": ["Dance reel", "Tutorial reel", "Transition reel", "Comedy reel", "Educational reel"]
+          "deliverables": [
+            "Dance reel",
+            "Tutorial reel",
+            "Transition reel",
+            "Comedy reel",
+            "Educational reel"
+          ]
         },
         {
           "name": "TikTok Content Pack",
           "description": "Viral-worthy content",
-          "deliverables": ["Trend participation", "Original sound", "Duet/Stitch", "Series content"]
+          "deliverables": [
+            "Trend participation",
+            "Original sound",
+            "Duet/Stitch",
+            "Series content"
+          ]
         },
         {
           "name": "YouTube Shorts Collection",
           "description": "Engaging short-form content",
-          "deliverables": ["How-to short", "Entertainment short", "Educational short"]
+          "deliverables": [
+            "How-to short",
+            "Entertainment short",
+            "Educational short"
+          ]
         }
       ],
       "mobile_mastery": [
@@ -299,17 +351,29 @@
         {
           "name": "Animated Title Sequence",
           "description": "Professional title animation",
-          "deliverables": ["Main title", "Lower thirds", "End credits"]
+          "deliverables": [
+            "Main title",
+            "Lower thirds",
+            "End credits"
+          ]
         },
         {
           "name": "Kinetic Typography",
           "description": "Text-driven animation",
-          "deliverables": ["Lyric video", "Quote animation", "Explainer text"]
+          "deliverables": [
+            "Lyric video",
+            "Quote animation",
+            "Explainer text"
+          ]
         },
         {
           "name": "Logo Animation Pack",
           "description": "Brand animations",
-          "deliverables": ["Logo reveal", "Logo transition", "Logo loop"]
+          "deliverables": [
+            "Logo reveal",
+            "Logo transition",
+            "Logo loop"
+          ]
         }
       ],
       "motion_principles": [
@@ -349,17 +413,29 @@
         {
           "name": "Explainer Video",
           "description": "2-minute animated explainer",
-          "deliverables": ["Full video", "Icon animations", "Transition pack"]
+          "deliverables": [
+            "Full video",
+            "Icon animations",
+            "Transition pack"
+          ]
         },
         {
           "name": "Music Visualizer",
           "description": "Audio-reactive graphics",
-          "deliverables": ["Waveform animation", "Particle effects", "Spectrum analyzer"]
+          "deliverables": [
+            "Waveform animation",
+            "Particle effects",
+            "Spectrum analyzer"
+          ]
         },
         {
           "name": "Social Media Pack",
           "description": "Animated social elements",
-          "deliverables": ["Subscribe button", "Like animation", "Notification bells"]
+          "deliverables": [
+            "Subscribe button",
+            "Like animation",
+            "Notification bells"
+          ]
         }
       ],
       "plugins_introduction": [
@@ -398,17 +474,29 @@
         {
           "name": "Character Explainer",
           "description": "Character-driven narrative",
-          "deliverables": ["30-second story", "Character turnaround", "Expression sheet"]
+          "deliverables": [
+            "30-second story",
+            "Character turnaround",
+            "Expression sheet"
+          ]
         },
         {
           "name": "Animated Mascot",
           "description": "Brand character creation",
-          "deliverables": ["Idle animation", "Action sequences", "Reactions set"]
+          "deliverables": [
+            "Idle animation",
+            "Action sequences",
+            "Reactions set"
+          ]
         },
         {
           "name": "Motion Comic",
           "description": "Comic panels animated",
-          "deliverables": ["1-minute story", "Character animations", "Scene transitions"]
+          "deliverables": [
+            "1-minute story",
+            "Character animations",
+            "Scene transitions"
+          ]
         }
       ],
       "character_skills": [
@@ -448,17 +536,29 @@
         {
           "name": "VFX Short Film",
           "description": "Effects-heavy sequence",
-          "deliverables": ["1-minute VFX shot", "Breakdown video", "Before/after reel"]
+          "deliverables": [
+            "1-minute VFX shot",
+            "Breakdown video",
+            "Before/after reel"
+          ]
         },
         {
           "name": "Product VFX Commercial",
           "description": "Product with effects",
-          "deliverables": ["30-second spot", "Pack shots", "Particle reveals"]
+          "deliverables": [
+            "30-second spot",
+            "Pack shots",
+            "Particle reveals"
+          ]
         },
         {
           "name": "Music Video Effects",
           "description": "Visual effects for music",
-          "deliverables": ["Effect sequences", "Transitions", "Visual elements"]
+          "deliverables": [
+            "Effect sequences",
+            "Transitions",
+            "Visual elements"
+          ]
         }
       ],
       "compositing_practice": [
@@ -502,17 +602,29 @@
         {
           "name": "Generative Art System",
           "description": "Algorithmic art creation",
-          "deliverables": ["Pattern generator", "Color variations", "Export system"]
+          "deliverables": [
+            "Pattern generator",
+            "Color variations",
+            "Export system"
+          ]
         },
         {
           "name": "Interactive Visualization",
           "description": "Data-driven graphics",
-          "deliverables": ["Data parser", "Visual representation", "User controls"]
+          "deliverables": [
+            "Data parser",
+            "Visual representation",
+            "User controls"
+          ]
         },
         {
           "name": "Particle System",
           "description": "Dynamic particle effects",
-          "deliverables": ["Particle engine", "Force fields", "Collision detection"]
+          "deliverables": [
+            "Particle engine",
+            "Force fields",
+            "Collision detection"
+          ]
         }
       ],
       "creative_algorithms": [
@@ -551,17 +663,29 @@
         {
           "name": "Interactive Website",
           "description": "Creative coding in web design",
-          "deliverables": ["Landing page", "Interactive elements", "Mobile responsive"]
+          "deliverables": [
+            "Landing page",
+            "Interactive elements",
+            "Mobile responsive"
+          ]
         },
         {
           "name": "Audio Visualizer Web App",
           "description": "Music-reactive visuals",
-          "deliverables": ["Frequency analysis", "Visual modes", "User controls"]
+          "deliverables": [
+            "Frequency analysis",
+            "Visual modes",
+            "User controls"
+          ]
         },
         {
           "name": "Browser Game",
           "description": "Playable web game",
-          "deliverables": ["Game mechanics", "Score system", "Leaderboard"]
+          "deliverables": [
+            "Game mechanics",
+            "Score system",
+            "Leaderboard"
+          ]
         }
       ],
       "web_experiments": [
@@ -601,17 +725,29 @@
         {
           "name": "Interactive Wall",
           "description": "Projection mapping installation",
-          "deliverables": ["Projection setup", "Interactive elements", "Documentation"]
+          "deliverables": [
+            "Projection setup",
+            "Interactive elements",
+            "Documentation"
+          ]
         },
         {
           "name": "Motion-Controlled Art",
           "description": "Body tracking visuals",
-          "deliverables": ["Skeleton tracking", "Gesture responses", "Visual effects"]
+          "deliverables": [
+            "Skeleton tracking",
+            "Gesture responses",
+            "Visual effects"
+          ]
         },
         {
           "name": "Data Sculpture",
           "description": "Physical data visualization",
-          "deliverables": ["Data processing", "Visual output", "Physical prototype"]
+          "deliverables": [
+            "Data processing",
+            "Visual output",
+            "Physical prototype"
+          ]
         }
       ],
       "installation_skills": [
@@ -651,17 +787,29 @@
         {
           "name": "AI Art Generator",
           "description": "ML-powered creativity",
-          "deliverables": ["Style transfer", "GAN implementation", "User interface"]
+          "deliverables": [
+            "Style transfer",
+            "GAN implementation",
+            "User interface"
+          ]
         },
         {
           "name": "Live Performance Tool",
           "description": "VJ/DJ visual system",
-          "deliverables": ["Audio reactive", "MIDI control", "Effect library"]
+          "deliverables": [
+            "Audio reactive",
+            "MIDI control",
+            "Effect library"
+          ]
         },
         {
           "name": "Generative Brand System",
           "description": "Dynamic identity",
-          "deliverables": ["Logo variations", "Pattern system", "Animation set"]
+          "deliverables": [
+            "Logo variations",
+            "Pattern system",
+            "Animation set"
+          ]
         }
       ],
       "creative_exploration": [
@@ -705,17 +853,29 @@
         {
           "name": "3D Logo Animation",
           "description": "Brand in 3D space",
-          "deliverables": ["3D model", "Materials setup", "Animated reveal"]
+          "deliverables": [
+            "3D model",
+            "Materials setup",
+            "Animated reveal"
+          ]
         },
         {
           "name": "Product Visualization",
           "description": "Photorealistic product render",
-          "deliverables": ["Product model", "Studio lighting", "360° turntable"]
+          "deliverables": [
+            "Product model",
+            "Studio lighting",
+            "360° turntable"
+          ]
         },
         {
           "name": "Abstract Animation",
           "description": "Motion graphics in 3D",
-          "deliverables": ["Abstract forms", "Dynamic animation", "Render passes"]
+          "deliverables": [
+            "Abstract forms",
+            "Dynamic animation",
+            "Render passes"
+          ]
         }
       ],
       "3d_exercises": [
@@ -755,17 +915,29 @@
         {
           "name": "Animated Character",
           "description": "Full character pipeline",
-          "deliverables": ["Character model", "Complete rig", "Animation cycles"]
+          "deliverables": [
+            "Character model",
+            "Complete rig",
+            "Animation cycles"
+          ]
         },
         {
           "name": "Creature Animation",
           "description": "Non-human character",
-          "deliverables": ["Creature design", "Unique rig", "Performance animation"]
+          "deliverables": [
+            "Creature design",
+            "Unique rig",
+            "Performance animation"
+          ]
         },
         {
           "name": "Crowd Simulation",
           "description": "Multiple character animation",
-          "deliverables": ["Character variants", "Crowd behavior", "Scene render"]
+          "deliverables": [
+            "Character variants",
+            "Crowd behavior",
+            "Scene render"
+          ]
         }
       ],
       "character_challenges": [
@@ -805,17 +977,29 @@
         {
           "name": "VFX Breakdown Reel",
           "description": "Professional VFX shots",
-          "deliverables": ["5 VFX shots", "Breakdown video", "Before/after"]
+          "deliverables": [
+            "5 VFX shots",
+            "Breakdown video",
+            "Before/after"
+          ]
         },
         {
           "name": "Invisible Effects",
           "description": "Seamless integration",
-          "deliverables": ["Set extensions", "Object removal", "Sky replacement"]
+          "deliverables": [
+            "Set extensions",
+            "Object removal",
+            "Sky replacement"
+          ]
         },
         {
           "name": "Sci-Fi Sequence",
           "description": "Futuristic effects",
-          "deliverables": ["HUD graphics", "Holograms", "Energy effects"]
+          "deliverables": [
+            "HUD graphics",
+            "Holograms",
+            "Energy effects"
+          ]
         }
       ],
       "compositing_advanced": [
@@ -855,17 +1039,29 @@
         {
           "name": "Mocap Performance",
           "description": "Captured performance piece",
-          "deliverables": ["Motion capture", "Character application", "Final render"]
+          "deliverables": [
+            "Motion capture",
+            "Character application",
+            "Final render"
+          ]
         },
         {
           "name": "Virtual Set Design",
           "description": "Unreal Engine environment",
-          "deliverables": ["Virtual set", "Camera moves", "Lighting setup"]
+          "deliverables": [
+            "Virtual set",
+            "Camera moves",
+            "Lighting setup"
+          ]
         },
         {
           "name": "Previz Sequence",
           "description": "Pre-production visualization",
-          "deliverables": ["Storyboards", "3D previz", "Shot breakdown"]
+          "deliverables": [
+            "Storyboards",
+            "3D previz",
+            "Shot breakdown"
+          ]
         }
       ],
       "virtual_production": [
@@ -909,17 +1105,31 @@
         {
           "name": "30-Day Reels Challenge",
           "description": "Daily reel creation",
-          "deliverables": ["30 unique reels", "Analytics report", "Best performers analysis"]
+          "deliverables": [
+            "30 unique reels",
+            "Analytics report",
+            "Best performers analysis"
+          ]
         },
         {
           "name": "Brand Campaign",
           "description": "Complete IG campaign",
-          "deliverables": ["Feed posts", "Stories", "Reels", "IGTV", "Highlights"]
+          "deliverables": [
+            "Feed posts",
+            "Stories",
+            "Reels",
+            "IGTV",
+            "Highlights"
+          ]
         },
         {
           "name": "Viral Reel Series",
           "description": "Series format content",
-          "deliverables": ["5-part series", "Hook strategies", "CTA optimization"]
+          "deliverables": [
+            "5-part series",
+            "Hook strategies",
+            "CTA optimization"
+          ]
         }
       ],
       "growth_strategies": [
@@ -959,17 +1169,29 @@
         {
           "name": "TikTok Growth Sprint",
           "description": "Rapid follower growth",
-          "deliverables": ["Daily posts", "Trend participation", "Analytics tracking"]
+          "deliverables": [
+            "Daily posts",
+            "Trend participation",
+            "Analytics tracking"
+          ]
         },
         {
           "name": "Viral Challenge Creation",
           "description": "Start a trend",
-          "deliverables": ["Challenge concept", "Seed content", "Promotion strategy"]
+          "deliverables": [
+            "Challenge concept",
+            "Seed content",
+            "Promotion strategy"
+          ]
         },
         {
           "name": "Educational Series",
           "description": "Teaching through TikTok",
-          "deliverables": ["10-part series", "Worksheet downloads", "Community Q&A"]
+          "deliverables": [
+            "10-part series",
+            "Worksheet downloads",
+            "Community Q&A"
+          ]
         }
       ],
       "tiktok_mastery": [
@@ -1009,17 +1231,30 @@
         {
           "name": "YouTube Channel Launch",
           "description": "Complete channel setup",
-          "deliverables": ["Channel art", "Intro/outro", "10 videos", "Shorts integration"]
+          "deliverables": [
+            "Channel art",
+            "Intro/outro",
+            "10 videos",
+            "Shorts integration"
+          ]
         },
         {
           "name": "Tutorial Series",
           "description": "Educational content",
-          "deliverables": ["5 tutorials", "Downloadables", "Community engagement"]
+          "deliverables": [
+            "5 tutorials",
+            "Downloadables",
+            "Community engagement"
+          ]
         },
         {
           "name": "Vlog Documentary",
           "description": "Long-form storytelling",
-          "deliverables": ["20-minute doc", "Trailer", "Behind-the-scenes"]
+          "deliverables": [
+            "20-minute doc",
+            "Trailer",
+            "Behind-the-scenes"
+          ]
         }
       ],
       "youtube_optimization": [
@@ -1059,17 +1294,29 @@
         {
           "name": "Omnichannel Campaign",
           "description": "Multi-platform launch",
-          "deliverables": ["Platform-specific content", "Cross-promotion plan", "Analytics dashboard"]
+          "deliverables": [
+            "Platform-specific content",
+            "Cross-promotion plan",
+            "Analytics dashboard"
+          ]
         },
         {
           "name": "Content Repurposing System",
           "description": "Efficient content creation",
-          "deliverables": ["Content matrix", "Adaptation templates", "Workflow automation"]
+          "deliverables": [
+            "Content matrix",
+            "Adaptation templates",
+            "Workflow automation"
+          ]
         },
         {
           "name": "Analytics Dashboard",
           "description": "Performance tracking",
-          "deliverables": ["Custom dashboard", "KPI tracking", "Report template"]
+          "deliverables": [
+            "Custom dashboard",
+            "KPI tracking",
+            "Report template"
+          ]
         }
       ],
       "strategic_planning": [
@@ -1113,17 +1360,31 @@
         {
           "name": "Portfolio Website",
           "description": "Professional online presence",
-          "deliverables": ["Custom website", "10 case studies", "Blog section", "Contact form"]
+          "deliverables": [
+            "Custom website",
+            "10 case studies",
+            "Blog section",
+            "Contact form"
+          ]
         },
         {
           "name": "Demo Reel",
           "description": "Best work compilation",
-          "deliverables": ["2-minute reel", "Breakdown version", "Platform-specific cuts"]
+          "deliverables": [
+            "2-minute reel",
+            "Breakdown version",
+            "Platform-specific cuts"
+          ]
         },
         {
           "name": "Brand Identity Package",
           "description": "Complete personal brand",
-          "deliverables": ["Logo", "Color palette", "Typography", "Brand guidelines"]
+          "deliverables": [
+            "Logo",
+            "Color palette",
+            "Typography",
+            "Brand guidelines"
+          ]
         }
       ],
       "professional_materials": [
@@ -1163,17 +1424,30 @@
         {
           "name": "Mock Client Project",
           "description": "Full project simulation",
-          "deliverables": ["Project brief", "Proposal", "Final delivery", "Case study"]
+          "deliverables": [
+            "Project brief",
+            "Proposal",
+            "Final delivery",
+            "Case study"
+          ]
         },
         {
           "name": "Freelance Package",
           "description": "Service offerings",
-          "deliverables": ["Service menu", "Pricing tiers", "Package descriptions"]
+          "deliverables": [
+            "Service menu",
+            "Pricing tiers",
+            "Package descriptions"
+          ]
         },
         {
           "name": "Client Onboarding System",
           "description": "Streamlined process",
-          "deliverables": ["Welcome packet", "Questionnaire", "Process guide"]
+          "deliverables": [
+            "Welcome packet",
+            "Questionnaire",
+            "Process guide"
+          ]
         }
       ],
       "tools_and_systems": [
@@ -1213,17 +1487,29 @@
         {
           "name": "Industry Deep Dive",
           "description": "Specialized content creation",
-          "deliverables": ["3 industry samples", "Style guide", "Network connections"]
+          "deliverables": [
+            "3 industry samples",
+            "Style guide",
+            "Network connections"
+          ]
         },
         {
           "name": "Niche Portfolio",
           "description": "Focused work collection",
-          "deliverables": ["5 specialized pieces", "Industry testimonials", "Expertise showcase"]
+          "deliverables": [
+            "5 specialized pieces",
+            "Industry testimonials",
+            "Expertise showcase"
+          ]
         },
         {
           "name": "Partnership Proposal",
           "description": "Collaboration pitch",
-          "deliverables": ["Partnership deck", "Value proposition", "Terms outline"]
+          "deliverables": [
+            "Partnership deck",
+            "Value proposition",
+            "Terms outline"
+          ]
         }
       ],
       "market_positioning": [
@@ -1263,17 +1549,29 @@
         {
           "name": "Emerging Tech Experiment",
           "description": "Cutting-edge content",
-          "deliverables": ["AR filter", "VR experience", "AI-generated content"]
+          "deliverables": [
+            "AR filter",
+            "VR experience",
+            "AI-generated content"
+          ]
         },
         {
           "name": "Future Format Creation",
           "description": "Next-gen content",
-          "deliverables": ["Interactive video", "360° experience", "Metaverse asset"]
+          "deliverables": [
+            "Interactive video",
+            "360° experience",
+            "Metaverse asset"
+          ]
         },
         {
           "name": "Innovation Showcase",
           "description": "Tech-forward portfolio",
-          "deliverables": ["Tech demos", "Concept pieces", "Future vision"]
+          "deliverables": [
+            "Tech demos",
+            "Concept pieces",
+            "Future vision"
+          ]
         }
       ],
       "trend_tracking": [
@@ -1304,22 +1602,42 @@
         {
           "name": "Brand Launch Campaign",
           "description": "Complete brand introduction",
-          "deliverables": ["Brand video", "Social content", "Website", "Print materials"]
+          "deliverables": [
+            "Brand video",
+            "Social content",
+            "Website",
+            "Print materials"
+          ]
         },
         {
           "name": "Short Film Production",
           "description": "Original narrative piece",
-          "deliverables": ["5-minute film", "Trailer", "BTS content", "Festival submission"]
+          "deliverables": [
+            "5-minute film",
+            "Trailer",
+            "BTS content",
+            "Festival submission"
+          ]
         },
         {
           "name": "Interactive Experience",
           "description": "Cutting-edge interactive project",
-          "deliverables": ["Interactive installation", "Documentation", "User testing", "Case study"]
+          "deliverables": [
+            "Interactive installation",
+            "Documentation",
+            "User testing",
+            "Case study"
+          ]
         },
         {
           "name": "Content Creator Package",
           "description": "Full creator launch",
-          "deliverables": ["Channel setup", "30 pieces of content", "Growth strategy", "Monetization plan"]
+          "deliverables": [
+            "Channel setup",
+            "30 pieces of content",
+            "Growth strategy",
+            "Monetization plan"
+          ]
         }
       ],
       "project_requirements": [

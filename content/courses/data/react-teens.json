@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional React Developer",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Teen React Developer Certification - Industry Recognized"
+    "certification": "Teen React Developer Certification - Industry Recognized",
+    "image_path": "react-teens.png"
   },
   "program_overview": {
     "title": "React for Teens - Your Journey to Becoming a Pro Developer",

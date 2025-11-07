@@ -29,7 +29,8 @@
     "duration": "6 months (26 weeks)",
     "level": "Complete Beginner to Advanced App Creator",
     "commitment": "8-10 hours/week recommended",
-    "certification": "Block Coding App Developer Certification"
+    "certification": "Block Coding App Developer Certification",
+    "image_path": "blockly.png"
   },
   "program_overview": {
     "title": "Complete Block-Based App Development Masterclass",

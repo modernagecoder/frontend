@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Young Programmer",
     "commitment": "5-8 hours/week recommended",
-    "certification": "Young Python & AI Developer Certificate"
+    "certification": "Young Python & AI Developer Certificate",
+    "image_path": "python-kids.png"
   },
   "program_overview": {
     "title": "Complete Python & AI for Kids Masterclass",

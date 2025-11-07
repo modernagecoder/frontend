@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Database Expert",
     "commitment": "12-15 hours/week recommended",
-    "certification": "Certified MySQL Database Administrator upon completion"
+    "certification": "Certified MySQL Database Administrator upon completion",
+    "image_path": "database-college.jpg"
   },
   "program_overview": {
     "title": "Complete MySQL Database Masterclass",

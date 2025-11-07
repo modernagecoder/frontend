@@ -27,7 +27,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Frontend Developer",
     "commitment": "10-12 hours/week recommended",
-    "certification": "Professional Frontend Developer Certification"
+    "certification": "Professional Frontend Developer Certification",
+    "image_path": "frontend-teens.png"
   },
   "program_overview": {
     "title": "Complete Frontend Development Masterclass for Teens",

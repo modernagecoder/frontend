@@ -28,7 +28,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Backend Developer",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Industry-recognized Backend Developer Certification"
+    "certification": "Industry-recognized Backend Developer Certification",
+    "image_path": "backend-teens.png"
   },
   "program_overview": {
     "title": "Complete Backend Development Masterclass for Teens",

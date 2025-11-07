@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Professional",
     "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized AI & Automation certification upon completion"
+    "certification": "Industry-recognized AI & Automation certification upon completion",
+    "image_path": "python-college.png"
   },
   "program_overview": {
     "title": "Complete Python & AI Automation Masterclass",

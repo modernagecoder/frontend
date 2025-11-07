@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Competition Ready",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Problem Solving Expert Certification with Portfolio"
+    "certification": "Problem Solving Expert Certification with Portfolio",
+    "image_path": "problem-solving-teens.png"
   },
   "program_overview": {
     "title": "Complete Problem Solving & DSA Masterclass for Teens",

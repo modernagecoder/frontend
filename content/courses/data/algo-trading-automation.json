@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Quant Trader",
     "commitment": "20-25 hours/week recommended",
-    "certification": "Professional Algorithmic Trading Certification"
+    "certification": "Professional Algorithmic Trading Certification",
+    "image_path": "algo-trading.png"
   },
   "program_overview": {
     "title": "Complete Algorithmic Trading & Market Automation Masterclass",

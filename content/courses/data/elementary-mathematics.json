@@ -30,7 +30,8 @@
     "duration": "24 months (104 weeks)",
     "level": "Complete Beginner to Advanced Elementary Mathematics",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Elementary Mathematics Proficiency Certificate upon completion"
+    "certification": "Elementary Mathematics Proficiency Certificate upon completion",
+    "image_path": "elementary-maths.png"
   },
   "program_overview": {
     "title": "Complete Elementary Mathematics Masterclass",

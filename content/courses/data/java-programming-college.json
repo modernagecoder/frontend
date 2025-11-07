@@ -30,7 +30,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Enterprise Professional",
     "commitment": "15-20 hours/week recommended",
-    "certification": "Industry-recognized Java Developer certification upon completion"
+    "certification": "Industry-recognized Java Developer certification upon completion",
+    "image_path": "java-college.png"
   },
   "program_overview": {
     "title": "Complete Java Programming Masterclass",

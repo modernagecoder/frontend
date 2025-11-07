@@ -29,7 +29,8 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Professional Data Scientist",
     "commitment": "20-25 hours/week recommended",
-    "certification": "Certified Data Scientist upon completion"
+    "certification": "Certified Data Scientist upon completion",
+    "image_path": "data-science.png"
   },
   "program_overview": {
     "title": "Complete Data Science Masterclass",
