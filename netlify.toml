@@ -51,11 +51,6 @@
   status = 200
 
 [[redirects]]
-  from = "/sitemap.xml"
-  to = "/public/sitemap.xml"
-  status = 200
-
-[[redirects]]
   from = "/admin/*"
   to = "/src/admin/:splat"
   status = 200
