@@ -1,0 +1,66 @@
+/**
+ * Mobile Tab Content Visibility Fix
+ * Ensures only active tab content is visible on mobile
+ */
+
+/* Hide all tab content by default */
+.tab-content {
+    display: none !important;
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+/* Show only active tab content */
+.tab-content.active {
+    display: block !important;
+    opacity: 1;
+    visibility: visible;
+    height: auto;
+    overflow: visible;
+}
+
+/* Smooth transition for tab content */
+.tab-content.active {
+    animation: fadeInTab 0.3s ease-in-out;
+}
+
+@keyframes fadeInTab {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Ensure this works on both mobile and desktop */
+@media (max-width: 768px) {
+    .tab-content {
+        display: none !important;
+    }
+    
+    .tab-content.active {
+        display: block !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .tab-content {
+        display: none !important;
+    }
+    
+    .tab-content.active {
+        display: block !important;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .tab-content.active {
+        animation: none;
+    }
+}

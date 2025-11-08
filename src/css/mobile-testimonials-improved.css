@@ -1,0 +1,374 @@
+/**
+ * Mobile Testimonials Improved
+ * Clean, organized, and easy-to-read testimonials for mobile
+ */
+
+/* ========================================
+   MOBILE TESTIMONIALS - CLEAN LAYOUT
+   ======================================== */
+
+@media (max-width: 768px) {
+    /* Section spacing */
+    .testimonials-section {
+        padding: 2rem 0;
+        margin: 2rem 0;
+    }
+    
+    /* Section title improvements */
+    .testimonials-section .section-title {
+        font-size: 1.75rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    
+    /* Container improvements */
+    .testimonials-carousel-container {
+        padding: 0 55px !important; /* Space for arrows */
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    /* Track improvements */
+    .testimonials-track {
+        gap: 0 !important;
+        align-items: stretch;
+    }
+    
+    /* Card improvements - Clean and organized */
+    .testimonial-card {
+        flex: 0 0 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        padding: 2rem 1.5rem !important;
+        margin: 0 !important;
+        border-radius: 20px !important;
+        background: linear-gradient(135deg, rgba(168, 85, 247, 0.08), rgba(78, 205, 196, 0.05)) !important;
+        border: 2px solid rgba(168, 85, 247, 0.25) !important;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3) !important;
+        min-height: auto !important;
+        height: auto !important;
+        aspect-ratio: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+    
+    /* Content layout */
+    .testimonial-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1.25rem !important;
+        height: 100% !important;
+        align-items: center !important;
+    }
+    
+    /* Avatar - Centered and prominent */
+    .parent-avatar {
+        width: 90px !important;
+        height: 90px !important;
+        border: 4px solid rgba(168, 85, 247, 0.7) !important;
+        box-shadow: 0 6px 25px rgba(168, 85, 247, 0.5) !important;
+        margin: 0 auto 1rem !important;
+        order: 1;
+    }
+    
+    .parent-avatar img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+    
+    /* Quote text - Clean and readable */
+    .testimonial-content blockquote {
+        font-size: 1.05rem !important;
+        line-height: 1.7 !important;
+        color: rgba(255, 255, 255, 0.95) !important;
+        text-align: center !important;
+        padding: 0 0.5rem !important;
+        margin: 0 !important;
+        font-style: italic !important;
+        font-weight: 400 !important;
+        order: 2;
+        display: block !important;
+        -webkit-line-clamp: unset !important;
+        -webkit-box-orient: unset !important;
+        overflow: visible !important;
+    }
+    
+    /* Remove read more button on mobile */
+    .read-more-container,
+    .read-more-btn {
+        display: none !important;
+    }
+    
+    /* Info section - Clean and organized */
+    .testimonial-info {
+        text-align: center !important;
+        padding-top: 1rem !important;
+        border-top: 2px solid rgba(168, 85, 247, 0.3) !important;
+        margin-top: 1rem !important;
+        width: 100% !important;
+        order: 3;
+    }
+    
+    .testimonial-info .name {
+        font-size: 1.25rem !important;
+        font-weight: 700 !important;
+        color: #fff !important;
+        margin: 0 0 0.5rem 0 !important;
+        letter-spacing: 0.3px;
+    }
+    
+    .testimonial-info .course {
+        font-size: 1rem !important;
+        color: rgba(168, 85, 247, 0.9) !important;
+        font-weight: 500 !important;
+        margin: 0 !important;
+    }
+    
+    /* Star rating improvements */
+    .star-rating {
+        display: flex !important;
+        justify-content: center !important;
+        gap: 4px !important;
+        margin-top: 0.75rem !important;
+    }
+    
+    .star-rating .star {
+        color: #FFD700 !important;
+        font-size: 18px !important;
+        text-shadow: 0 0 5px rgba(255, 215, 0, 0.6) !important;
+    }
+    
+    /* Carousel arrows - Large and easy to tap */
+    .carousel-arrow {
+        width: 55px !important;
+        height: 55px !important;
+        background: rgba(168, 85, 247, 0.9) !important;
+        border: 3px solid rgba(168, 85, 247, 1) !important;
+        backdrop-filter: blur(20px) !important;
+        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5) !important;
+        z-index: 100 !important;
+    }
+    
+    .carousel-arrow:hover,
+    .carousel-arrow:active {
+        background: rgba(168, 85, 247, 1) !important;
+        transform: translateY(-50%) scale(1.08) !important;
+        box-shadow: 0 8px 25px rgba(168, 85, 247, 0.7) !important;
+    }
+    
+    .carousel-arrow svg {
+        width: 26px !important;
+        height: 26px !important;
+        color: white !important;
+        stroke-width: 3 !important;
+    }
+    
+    .carousel-arrow-left {
+        left: 5px !important;
+    }
+    
+    .carousel-arrow-right {
+        right: 5px !important;
+    }
+    
+    /* Hide carousel dots on mobile */
+    .carousel-dots {
+        display: none !important;
+    }
+    
+    /* Post review button improvements */
+    .post-review-container {
+        margin-top: 2rem !important;
+        padding: 0 1rem !important;
+    }
+    
+    .post-review-button {
+        padding: 14px 28px !important;
+        font-size: 1rem !important;
+        border-radius: 50px !important;
+        box-shadow: 0 6px 20px rgba(66, 133, 244, 0.4) !important;
+    }
+    
+    .post-review-button svg {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+/* Very small screens (phones) */
+@media (max-width: 480px) {
+    .testimonials-section {
+        padding: 1.5rem 0;
+    }
+    
+    .testimonials-section .section-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.25rem;
+    }
+    
+    .testimonials-carousel-container {
+        padding: 0 50px !important;
+    }
+    
+    .testimonial-card {
+        padding: 1.75rem 1.25rem !important;
+        border-radius: 18px !important;
+    }
+    
+    .parent-avatar {
+        width: 80px !important;
+        height: 80px !important;
+        border-width: 3px !important;
+    }
+    
+    .testimonial-content blockquote {
+        font-size: 1rem !important;
+        line-height: 1.65 !important;
+        padding: 0 0.25rem !important;
+    }
+    
+    .testimonial-info .name {
+        font-size: 1.15rem !important;
+    }
+    
+    .testimonial-info .course {
+        font-size: 0.95rem !important;
+    }
+    
+    .star-rating .star {
+        font-size: 16px !important;
+    }
+    
+    .carousel-arrow {
+        width: 50px !important;
+        height: 50px !important;
+    }
+    
+    .carousel-arrow svg {
+        width: 24px !important;
+        height: 24px !important;
+    }
+    
+    .post-review-button {
+        padding: 12px 24px !important;
+        font-size: 0.95rem !important;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+    .testimonials-carousel-container {
+        padding: 0 45px !important;
+    }
+    
+    .testimonial-card {
+        padding: 1.5rem 1rem !important;
+    }
+    
+    .parent-avatar {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    
+    .testimonial-content blockquote {
+        font-size: 0.95rem !important;
+    }
+    
+    .testimonial-info .name {
+        font-size: 1.1rem !important;
+    }
+    
+    .testimonial-info .course {
+        font-size: 0.9rem !important;
+    }
+    
+    .carousel-arrow {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    
+    .carousel-arrow svg {
+        width: 22px !important;
+        height: 22px !important;
+    }
+}
+
+/* ========================================
+   DESKTOP - Keep existing styles
+   ======================================== */
+
+@media (min-width: 769px) {
+    /* Desktop styles remain unchanged */
+    .testimonial-card {
+        aspect-ratio: 1.4/1;
+    }
+}
+
+/* ========================================
+   ACCESSIBILITY & TOUCH IMPROVEMENTS
+   ======================================== */
+
+/* Better focus states for mobile */
+@media (max-width: 768px) {
+    .carousel-arrow:focus {
+        outline: 4px solid rgba(168, 85, 247, 0.9) !important;
+        outline-offset: 4px !important;
+    }
+    
+    .post-review-button:focus {
+        outline: 3px solid rgba(66, 133, 244, 0.8) !important;
+        outline-offset: 3px !important;
+    }
+}
+
+/* Touch feedback */
+@media (hover: none) and (pointer: coarse) {
+    .carousel-arrow:active {
+        transform: translateY(-50%) scale(0.95) !important;
+        transition: transform 0.1s ease !important;
+    }
+    
+    .post-review-button:active {
+        transform: scale(0.97) !important;
+        transition: transform 0.1s ease !important;
+    }
+}
+
+/* ========================================
+   SMOOTH ANIMATIONS
+   ======================================== */
+
+@media (max-width: 768px) {
+    .testimonial-card {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+    
+    .carousel-arrow {
+        transition: all 0.2s ease !important;
+    }
+    
+    .testimonials-track {
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    }
+}
+
+/* ========================================
+   REDUCED MOTION SUPPORT
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .testimonial-card,
+    .carousel-arrow,
+    .testimonials-track,
+    .post-review-button {
+        animation: none !important;
+        transition: none !important;
+    }
+    
+    .carousel-arrow:hover,
+    .carousel-arrow:active {
+        transform: translateY(-50%) !important;
+    }
+}
