@@ -1,0 +1,186 @@
+/**
+ * Course Page Mobile Fix
+ * Reduce left/right spacing and make content larger on mobile
+ */
+
+/* ========================================
+   MOBILE - FULL WIDTH CONTENT
+   ======================================== */
+
+@media (max-width: 768px) {
+    /* Remove excessive padding from main container */
+    body.courses-page main,
+    body.courses-page #main {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    
+    /* Full width sections */
+    body.courses-page .section {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    /* Full width containers */
+    body.courses-page .container,
+    body.courses-page .courses-container,
+    body.courses-page .content-wrapper {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    /* Tabs - full width */
+    body.courses-page .tabs-wrapper {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    body.courses-page .tabs-container {
+        padding: 0.5rem 0.25rem !important;
+    }
+    
+    /* Course cards grid - full width */
+    body.courses-page .courses-grid {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        gap: 1rem !important;
+    }
+    
+    /* Individual course cards - larger */
+    body.courses-page .course-card {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Category buttons - full width */
+    body.courses-page .category-button,
+    body.courses-page .category-btn {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Search bar - full width */
+    body.courses-page .search-container,
+    body.courses-page .search-wrapper {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    body.courses-page .search-input,
+    body.courses-page input[type="search"] {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Filter/Sort buttons - full width */
+    body.courses-page .filter-container,
+    body.courses-page .sort-container {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    /* Course count display */
+    body.courses-page .course-count,
+    body.courses-page .results-count {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+    
+    /* Hero section on course page */
+    body.courses-page .hero-section,
+    body.courses-page .page-header {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+    
+    /* Title sections */
+    body.courses-page .section-title,
+    body.courses-page h1,
+    body.courses-page h2 {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    
+    /* Subtitle/description */
+    body.courses-page .section-subtitle,
+    body.courses-page .page-description {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
+}
+
+/* Very small screens - even less padding */
+@media (max-width: 480px) {
+    body.courses-page main,
+    body.courses-page #main {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+    
+    body.courses-page .section {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+    
+    body.courses-page .container,
+    body.courses-page .courses-container,
+    body.courses-page .content-wrapper {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+    
+    body.courses-page .tabs-wrapper {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+    
+    body.courses-page .courses-grid {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+        gap: 0.75rem !important;
+    }
+    
+    body.courses-page .search-container,
+    body.courses-page .search-wrapper {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+    body.courses-page main,
+    body.courses-page #main,
+    body.courses-page .section,
+    body.courses-page .container {
+        padding-left: 0.25rem !important;
+        padding-right: 0.25rem !important;
+    }
+}
+
+/* ========================================
+   DESKTOP - Keep normal spacing
+   ======================================== */
+
+@media (min-width: 769px) {
+    /* Desktop styles remain unchanged */
+}
