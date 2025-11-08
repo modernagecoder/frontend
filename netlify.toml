@@ -24,6 +24,36 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/pricing.html"
+  to = "/pricing"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/contact.html"
+  to = "/contact"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/terms.html"
+  to = "/terms"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/privacy.html"
+  to = "/privacy"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/login.html"
+  to = "/login"
+  status = 301
+  force = true
+
 # Static asset redirects (must come before page redirects)
 [[redirects]]
   from = "/css/*"
@@ -69,6 +99,31 @@
 [[redirects]]
   from = "/courses"
   to = "/src/pages/course.html"
+  status = 200
+
+[[redirects]]
+  from = "/pricing"
+  to = "/src/pages/pricing.html"
+  status = 200
+
+[[redirects]]
+  from = "/contact"
+  to = "/src/pages/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/terms"
+  to = "/src/pages/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/privacy"
+  to = "/src/pages/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/login"
+  to = "/src/pages/login.html"
   status = 200
 
 [[redirects]]

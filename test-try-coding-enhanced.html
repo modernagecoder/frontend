@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Coding Section - Enhanced Preview</title>
+    <link rel="stylesheet" href="/src/css/try-coding-enhanced.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #f8fafc;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ====== TRY CODING CONTACT SECTION ====== -->
+        <section id="contact" class="section try-coding-section">
+            <div class="try-coding-header">
+                <h2 class="section-title try-coding-title">Try Coding</h2>
+                <p class="section-subtitle">Tell us what you want to learn, and we'll help you get started on your
+                    coding journey!</p>
+            </div>
+
+            <div class="contact-container">
+                <form class="contact-form" id="tryCodeForm">
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <input type="text" id="contactName" name="name" class="input-field" placeholder="Your Name"
+                            required aria-label="Your Name" autocomplete="name">
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <input type="email" id="contactEmail" name="email" class="input-field" placeholder="Your Email"
+                            required aria-label="Your Email" autocomplete="email">
+                        <span class="error-message" id="emailError" role="alert"></span>
+                    </div>
+
+                    <!-- Contact Number Field -->
+                    <div class="form-group">
+                        <input type="tel" id="contactPhone" name="contact" class="input-field"
+                            placeholder="Contact Number (10 digits)" required pattern="[0-9]{10}"
+                            aria-label="Contact Number" autocomplete="tel">
+                        <span class="error-message" id="phoneError" role="alert"></span>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <textarea id="contactMessage" name="message" class="input-field"
+                            placeholder="What do you want to learn? (e.g., Python, Web Development, AI, etc.)" required
+                            rows="5" aria-label="What do you want to learn?" minlength="10" maxlength="1000"></textarea>
+                        <span class="error-message" id="messageError" role="alert"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Send Message</span>
+                    </button>
+                </form>
+
+                <!-- Success/Error Feedback -->
+                <div class="form-feedback success" style="display: none;" role="status" aria-live="polite">
+                    <p class="feedback-message">✓ Message sent successfully!</p>
+                    <button class="feedback-close" aria-label="Close message">×</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Simple form submission handler for testing
+        document.getElementById('tryCodeForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const feedback = document.querySelector('.form-feedback');
+            feedback.style.display = 'block';
+            setTimeout(() => {
+                feedback.style.display = 'none';
+            }, 3000);
+        });
+    </script>
+</body>
+</html>

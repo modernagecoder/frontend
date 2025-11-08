@@ -1,0 +1,349 @@
+/* ====== TRY CODING SECTION - ENHANCED STYLING ====== */
+
+/* Main Try Coding Section */
+.try-coding-section {
+    padding: 4rem 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+/* Try Coding Header */
+.try-coding-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+/* Try Coding Title - Make it BIGGER and more attractive */
+.try-coding-title {
+    font-size: clamp(2.5rem, 6vw, 4rem) !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: #a855f7;
+    margin-bottom: 1.5rem !important;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    animation: fadeInUp 0.8s ease-out;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Subtitle styling - only for try-coding section */
+.try-coding-header .section-subtitle {
+    font-size: clamp(1.1rem, 2.5vw, 1.4rem) !important;
+    color: #64748b;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Contact Container */
+.try-coding-section .contact-container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2.5rem;
+}
+
+/* Form Groups */
+.try-coding-section .contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Input Fields - Make them bigger and clearer */
+.try-coding-section .contact-form .input-field {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 1.1rem;
+    border: 2px solid rgba(168, 85, 247, 0.3);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.05);
+    font-family: inherit;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+.try-coding-section .contact-form .input-field:focus {
+    outline: none;
+    border-color: #a855f7;
+    background: rgba(168, 85, 247, 0.1);
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.15);
+}
+
+.try-coding-section .contact-form .input-field::placeholder {
+    color: #94a3b8;
+    font-size: 1rem;
+}
+
+/* Textarea specific */
+.try-coding-section .contact-form textarea.input-field {
+    resize: vertical;
+    min-height: 120px;
+    line-height: 1.6;
+}
+
+/* Submit Button - Make it more prominent */
+.try-coding-section .contact-form .submit-button {
+    width: 100%;
+    padding: 1.25rem 2rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+}
+
+.try-coding-section .contact-form .submit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.4);
+}
+
+.try-coding-section .contact-form .submit-button:active {
+    transform: translateY(0);
+}
+
+/* Error Messages - Hide by default */
+.try-coding-section .error-message {
+    display: none;
+    color: #ef4444;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.try-coding-section .error-message:not(:empty) {
+    display: block;
+}
+
+/* Form Feedback */
+.try-coding-section .form-feedback {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    border-radius: 12px;
+    text-align: center;
+    animation: slideIn 0.3s ease-out;
+}
+
+.try-coding-section .form-feedback.success {
+    background: #d1fae5;
+    border: 2px solid #10b981;
+    color: #065f46;
+}
+
+.try-coding-section .form-feedback.error {
+    background: #fee2e2;
+    border: 2px solid #ef4444;
+    color: #991b1b;
+}
+
+.try-coding-section .feedback-message {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.try-coding-section .feedback-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: inherit;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    margin-left: 1rem;
+}
+
+.try-coding-section .feedback-close:hover {
+    opacity: 1;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ====== MOBILE RESPONSIVE STYLES ====== */
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+    .try-coding-section {
+        padding: 3rem 1.5rem;
+        margin: 1.5rem 1rem;
+    }
+
+    .try-coding-title {
+        font-size: clamp(2.2rem, 8vw, 3rem) !important;
+        margin-bottom: 1.25rem !important;
+    }
+
+    .try-coding-header .section-subtitle {
+        font-size: clamp(1rem, 3vw, 1.2rem) !important;
+        padding: 0 1rem;
+    }
+
+    .try-coding-section .contact-container {
+        padding: 2rem 1rem;
+    }
+
+    .try-coding-section .contact-form .input-field {
+        padding: 1rem;
+        font-size: 1.05rem;
+    }
+
+    .try-coding-section .contact-form .submit-button {
+        padding: 1.15rem 1.75rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .try-coding-section {
+        padding: 2.5rem 1rem;
+        margin: 1rem 0.5rem;
+        border-radius: 16px;
+    }
+
+    .try-coding-header {
+        margin-bottom: 2rem;
+    }
+
+    .try-coding-title {
+        font-size: clamp(2rem, 10vw, 2.5rem) !important;
+        margin-bottom: 1rem !important;
+        padding: 0 0.5rem;
+    }
+
+    .try-coding-header .section-subtitle {
+        font-size: clamp(0.95rem, 4vw, 1.1rem) !important;
+        padding: 0 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .try-coding-section .contact-container {
+        padding: 1.75rem 1rem;
+    }
+
+    .try-coding-section .contact-form .form-group {
+        margin-bottom: 1.25rem;
+    }
+
+    .try-coding-section .contact-form .input-field {
+        padding: 0.95rem 1rem;
+        font-size: 1rem;
+        border-radius: 10px;
+    }
+
+    .try-coding-section .contact-form .input-field::placeholder {
+        font-size: 0.95rem;
+    }
+
+    .try-coding-section .contact-form textarea.input-field {
+        min-height: 110px;
+    }
+
+    .try-coding-section .contact-form .submit-button {
+        padding: 1.1rem 1.5rem;
+        font-size: 1.05rem;
+        border-radius: 10px;
+    }
+
+    .try-coding-section .feedback-message {
+        font-size: 1rem;
+    }
+}
+
+/* Extra small phones */
+@media (max-width: 360px) {
+    .try-coding-section {
+        padding: 2rem 0.75rem;
+    }
+
+    .try-coding-title {
+        font-size: 1.85rem !important;
+    }
+
+    .try-coding-header .section-subtitle {
+        font-size: 0.9rem !important;
+    }
+
+    .try-coding-section .contact-container {
+        padding: 1.5rem 1rem;
+    }
+
+    .try-coding-section .contact-form .input-field {
+        padding: 0.85rem 0.9rem;
+        font-size: 0.95rem;
+    }
+
+    .try-coding-section .contact-form .submit-button {
+        padding: 1rem 1.25rem;
+        font-size: 1rem;
+    }
+}
+
+/* Landscape mode on mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .try-coding-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .try-coding-title {
+        font-size: 2rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .try-coding-header .section-subtitle {
+        font-size: 1rem !important;
+        margin-bottom: 1rem;
+    }
+
+    .try-coding-section .contact-container {
+        padding: 1.5rem;
+    }
+
+    .try-coding-section .contact-form .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .try-coding-section .contact-form .input-field {
+        padding: 0.75rem 1rem;
+    }
+
+    .try-coding-section .contact-form textarea.input-field {
+        min-height: 80px;
+    }
+
+    .try-coding-section .contact-form .submit-button {
+        padding: 0.9rem 1.5rem;
+    }
+}
