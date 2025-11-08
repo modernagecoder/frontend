@@ -28,7 +28,9 @@
     "duration": "12 months (52 weeks)",
     "level": "Complete Beginner to Advanced Developer",
     "commitment": "10-15 hours/week recommended",
-    "certification": "Princess Coders Certified Developer - Industry Recognized"
+    "certification": "Princess Coders Certified Developer - Industry Recognized",
+  "image_path": "princess-coders.png"
+  
   },
   "program_overview": {
     "title": "Princess Coders - Empowering Girls Through Technology",
