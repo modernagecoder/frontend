@@ -1,0 +1,350 @@
+═══════════════════════════════════════════════════════════
+   MODERN AGE CODERS - CANVA QUICK REFERENCE SHEET
+═══════════════════════════════════════════════════════════
+
+📋 COPY & PASTE THESE COLORS DIRECTLY INTO CANVA
+
+═══════════════════════════════════════════════════════════
+🎨 PRIMARY BRAND COLORS
+═══════════════════════════════════════════════════════════
+
+Brand Purple (Main):        #A855F7
+Teal/Cyan (Secondary):      #4ECDC4
+Deep Purple (Gradient):     #8A2BE2
+Royal Purple (Gradient):    #4A00E0
+
+═══════════════════════════════════════════════════════════
+🎯 CATEGORY COLORS
+═══════════════════════════════════════════════════════════
+
+CODING:
+  Primary:                  #A855F7
+  Light:                    #C084FC
+  Dark:                     #7C3AED
+
+MATHEMATICS:
+  Gold:                     #FFD700
+  Orange:                   #FFA500
+
+AI/MACHINE LEARNING:
+  Hot Pink:                 #EC4899
+  Deep Pink:                #BE185D
+
+GIRLS PROGRAMS:
+  Hot Pink:                 #EC4899
+  Soft Pink:                #FBCFE8
+  Purple:                   #A855F7
+
+═══════════════════════════════════════════════════════════
+🖤 BACKGROUNDS
+═══════════════════════════════════════════════════════════
+
+Dark (Primary):             #000002
+Card Dark:                  #080810
+Card Light:                 #10101C
+White:                      #FFFFFF
+Off White:                  #F8FAFC
+
+═══════════════════════════════════════════════════════════
+📝 TEXT COLORS
+═══════════════════════════════════════════════════════════
+
+ON DARK BACKGROUNDS:
+  Headings (White):         #F8FAFC
+  Body (Light Gray):        #CBD5E1
+  Captions (Gray):          #94A3B8
+
+ON LIGHT BACKGROUNDS:
+  Headings (Dark):          #0F172A
+  Body (Gray):              #475569
+  Captions (Medium):        #64748B
+
+═══════════════════════════════════════════════════════════
+✨ ACCENT COLORS
+═══════════════════════════════════════════════════════════
+
+Success Green:              #10B981
+Warning Amber:              #F59E0B
+Error Red:                  #EF4444
+Info Blue:                  #3B82F6
+
+═══════════════════════════════════════════════════════════
+🔤 TYPOGRAPHY
+═══════════════════════════════════════════════════════════
+
+FONT FAMILY:                Inter
+(Search "Inter" in Canva fonts)
+
+FALLBACK FONTS:             Roboto, Arial, Helvetica
+
+FONT SIZES:
+  H1 (Hero):                56px - Bold 800
+  H2 (Section):             40px - Bold 700
+  H3 (Card):                28px - Bold 600
+  Body Large:               20px - Medium 500
+  Body Regular:             18px - Regular 400
+  Body Small:               16px - Regular 400
+  Button:                   16px - Bold 600
+  Caption:                  14px - Regular 400
+
+═══════════════════════════════════════════════════════════
+🎨 GRADIENT RECIPES FOR CANVA
+═══════════════════════════════════════════════════════════
+
+GRADIENT 1: Purple Power (Primary Buttons)
+  Start:                    #8A2BE2
+  End:                      #4A00E0
+  Angle:                    135°
+
+GRADIENT 2: Purple to Teal (Dynamic)
+  Start:                    #A855F7
+  End:                      #4ECDC4
+  Angle:                    135°
+
+GRADIENT 3: Math Gold (Mathematics)
+  Start:                    #FFD700
+  End:                      #FFA500
+  Angle:                    135°
+
+GRADIENT 4: AI Pink (AI/ML)
+  Start:                    #EC4899
+  End:                      #BE185D
+  Angle:                    135°
+
+GRADIENT 5: Dark Overlay (Backgrounds)
+  Start:                    #000002 (100%)
+  End:                      #10101C (80%)
+  Angle:                    180°
+
+═══════════════════════════════════════════════════════════
+🔘 BUTTON STYLES
+═══════════════════════════════════════════════════════════
+
+PRIMARY BUTTON (Coding):
+  Background:               Gradient #8A2BE2 to #4A00E0
+  Text:                     #FFFFFF, 16px, Bold 600
+  Padding:                  12px top/bottom, 32px left/right
+  Corner Radius:            12px
+  Border:                   1px, #FFFFFF at 20% opacity
+  Shadow:                   8px blur, 25px spread, #A855F7 at 50%
+
+SECONDARY BUTTON (Math):
+  Background:               Gradient #FFD700 to #FFA500
+  Text:                     #000000, 16px, Bold 600
+  Padding:                  12px top/bottom, 32px left/right
+  Corner Radius:            12px
+  Shadow:                   8px blur, 25px spread, #FFA500 at 50%
+
+TERTIARY BUTTON (AI):
+  Background:               Gradient #EC4899 to #BE185D
+  Text:                     #FFFFFF, 16px, Bold 600
+  Padding:                  12px top/bottom, 32px left/right
+  Corner Radius:            12px
+  Shadow:                   8px blur, 25px spread, #EC4899 at 50%
+
+═══════════════════════════════════════════════════════════
+📐 SPACING & SIZING
+═══════════════════════════════════════════════════════════
+
+CORNER RADIUS:
+  Small (Tags):             8px
+  Medium (Buttons):         12px
+  Large (Cards):            16px
+  XL (Featured):            24px
+  2XL (Hero):               32px
+
+PADDING/SPACING:
+  XS:                       4px
+  SM:                       8px
+  MD:                       16px
+  LG:                       24px
+  XL:                       32px
+  2XL:                      48px
+
+═══════════════════════════════════════════════════════════
+📱 SOCIAL MEDIA DIMENSIONS
+═══════════════════════════════════════════════════════════
+
+Instagram Post:             1080 x 1080 px
+Instagram Story:            1080 x 1920 px
+Facebook Post:              1200 x 630 px
+LinkedIn Post:              1200 x 627 px
+Twitter Post:               1200 x 675 px
+YouTube Thumbnail:          1280 x 720 px
+Pinterest Pin:              1000 x 1500 px
+
+═══════════════════════════════════════════════════════════
+🎨 GLASSMORPHISM CARD EFFECT (Signature Style)
+═══════════════════════════════════════════════════════════
+
+HOW TO CREATE IN CANVA:
+1. Create rectangle
+2. Fill color:              #10101C
+3. Opacity:                 80%
+4. Border:                  1px, #FFFFFF at 12% opacity
+5. Corner radius:           24px
+6. Shadow:                  8px blur, 32px spread, #000000 at 30%
+
+═══════════════════════════════════════════════════════════
+✨ GLOW EFFECTS
+═══════════════════════════════════════════════════════════
+
+Purple Glow:
+  Color:                    #A855F7
+  Blur:                     25px
+  Opacity:                  50%
+
+Teal Glow:
+  Color:                    #4ECDC4
+  Blur:                     20px
+  Opacity:                  40%
+
+Orange Glow (Math):
+  Color:                    #FFA500
+  Blur:                     25px
+  Opacity:                  50%
+
+Pink Glow (AI):
+  Color:                    #EC4899
+  Blur:                     25px
+  Opacity:                  50%
+
+═══════════════════════════════════════════════════════════
+📋 INSTAGRAM POST TEMPLATES
+═══════════════════════════════════════════════════════════
+
+TEMPLATE 1: Coding Announcement (1080x1080)
+  Background:               #000002
+  Overlay:                  Purple gradient (top to bottom)
+  Title:                    40px, Bold 700, #F8FAFC, Top 1/3
+  Body:                     18px, Regular 400, #CBD5E1, Middle
+  Button:                   Purple gradient, Bottom
+  Logo:                     80px, Bottom right corner
+
+TEMPLATE 2: Math Content (1080x1080)
+  Background:               #000002
+  Accent:                   Orange #FFA500 and Gold #FFD700
+  Title:                    40px, Bold 700, #F8FAFC
+  Icons:                    Math symbols in orange
+  Text:                     18px, #CBD5E1
+
+TEMPLATE 3: Student Success (1080x1080)
+  Background:               Dark with teal accent #4ECDC4
+  Photo:                    Student image with dark overlay
+  Quote:                    28px, Italic, #F8FAFC
+  Name:                     16px, #CBD5E1
+  Border:                   2px teal glow
+
+TEMPLATE 4: Course Promo (1080x1080)
+  Background:               Purple gradient #8A2BE2 to #4A00E0
+  Image:                    Top half, 24px corners
+  Title:                    28px, Bold 600, #FFFFFF
+  Details:                  16px, #CBD5E1
+  CTA:                      "Enroll Now" button, white background
+
+═══════════════════════════════════════════════════════════
+📱 INSTAGRAM STORY TEMPLATES
+═══════════════════════════════════════════════════════════
+
+STORY TEMPLATE 1: Quick Tip (1080x1920)
+  Background:               #000002
+  Logo:                     60px, Top center
+  Tip Text:                 28px, Bold 600, #F8FAFC, Center
+  Swipe Up:                 Purple indicator, Bottom
+  Glow:                     Purple at top and bottom edges
+
+STORY TEMPLATE 2: Poll (1080x1920)
+  Background:               Purple gradient
+  Question:                 40px, Bold 700, #FFFFFF, Top 1/3
+  Poll Options:             White cards with purple text
+  CTA:                      "Vote now!" at bottom
+
+═══════════════════════════════════════════════════════════
+🎯 CONTENT CATEGORY GUIDE
+═══════════════════════════════════════════════════════════
+
+CODING:
+  Color:                    Purple #A855F7
+  Icons:                    { }, </>, terminal
+  Keywords:                 Code, Programming, Build
+
+MATHEMATICS:
+  Color:                    Orange #FFA500, Gold #FFD700
+  Icons:                    π, ∑, ∫, f(x)
+  Keywords:                 Math, Logic, Calculate
+
+AI/ML:
+  Color:                    Pink #EC4899
+  Icons:                    Brain, neural network, robot
+  Keywords:                 AI, Intelligence, Future
+
+GIRLS PROGRAMS:
+  Color:                    Pink #EC4899 + Purple #A855F7
+  Icons:                    Stars, empowerment symbols
+  Keywords:                 Empowerment, Confidence
+
+KIDS (6-12):
+  Color:                    Teal #4ECDC4 + Purple #A855F7
+  Style:                    Playful, fun, colorful
+  Keywords:                 Fun, Creative, Explore
+
+TEENS (13-18):
+  Color:                    Purple #A855F7
+  Style:                    Modern, sleek, tech
+  Keywords:                 Build, Master, Level Up
+
+COLLEGE/PRO:
+  Color:                    Purple #A855F7 + Blue #3B82F6
+  Style:                    Professional, clean
+  Keywords:                 Career, Expert, Advanced
+
+═══════════════════════════════════════════════════════════
+✅ QUICK DO'S
+═══════════════════════════════════════════════════════════
+
+✅ Use dark backgrounds (#000002)
+✅ Use purple (#A855F7) as main brand color
+✅ Use Inter font consistently
+✅ Use bold weights (700-800) for headings
+✅ Apply glow effects to important elements
+✅ Use 24px corner radius for cards
+✅ Maintain high contrast for readability
+✅ Use gradients at 135° angle
+
+═══════════════════════════════════════════════════════════
+❌ QUICK DON'TS
+═══════════════════════════════════════════════════════════
+
+❌ Don't use bright backgrounds for main content
+❌ Don't mix too many colors in one design
+❌ Don't use font sizes below 14px
+❌ Don't stretch or distort the logo
+❌ Don't use low contrast text
+❌ Don't ignore spacing guidelines
+❌ Don't use decorative fonts for body text
+
+═══════════════════════════════════════════════════════════
+📞 BRAND INFO
+═══════════════════════════════════════════════════════════
+
+Brand Name:                 Modern Age Coders
+Tagline:                    Maths + Code Made for Each Other
+Website:                    learn.modernagecoders.com
+Email:                      contact@modernagecoders.com
+Phone:                      +91 9123366161
+
+Social Handles:             @modernagecoders (all platforms)
+
+═══════════════════════════════════════════════════════════
+🚀 READY TO USE!
+═══════════════════════════════════════════════════════════
+
+1. Copy HEX codes directly into Canva color picker
+2. Search "Inter" in Canva font library
+3. Use gradient tool with 135° angle
+4. Apply shadows for glow effects
+5. Save templates for reuse
+
+Happy Designing! 🎨
+
+═══════════════════════════════════════════════════════════
