@@ -1,0 +1,1628 @@
+{
+  "meta": {
+    "slug": "princess-coders-complete-coding-masterclass",
+    "title": "Princess Coders - Complete Coding Journey for Girls | Zero to Professional Developer",
+    "description": "The most comprehensive 1-year coding program exclusively designed for girls and women. From absolute beginners to professional developers. Master web development, app creation, AI basics, and creative coding with age-appropriate tracks for kids (8-12), teens (13-17), and adults (18+).",
+    "keywords": [
+      "coding for girls",
+      "women in tech",
+      "princess coders",
+      "girls who code",
+      "female developers",
+      "web development for women",
+      "STEM for girls",
+      "programming for beginners",
+      "women empowerment tech",
+      "creative coding",
+      "girl-friendly coding",
+      "inclusive tech education",
+      "female-focused programming",
+      "tech career for women"
+    ],
+    "category": "Women in Technology - Comprehensive Coding Program",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹1999/month",
+      "lifetime": "₹19,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Developer",
+    "commitment": "10-15 hours/week recommended",
+    "certification": "Princess Coders Certified Developer - Industry Recognized"
+  },
+  "program_overview": {
+    "title": "Princess Coders - Empowering Girls Through Technology",
+    "tagline": "From 'Hello World' to Leading the Tech World - A Journey Designed for Girls",
+    "description": "Princess Coders is more than a coding course—it's a transformative journey designed exclusively for girls and women of all ages. Whether you're a young girl dreaming of creating games, a teenager wanting to build apps, or a woman seeking a career change, this program provides a safe, supportive, and empowering environment to master coding.\n\nWith age-appropriate tracks, female role models, girl-centric projects, and a supportive sisterhood community, you'll learn everything from creative web design to powerful app development, from AI basics to entrepreneurship in tech.",
+    "what_makes_this_different": [
+      "Exclusively designed for girls with female instructors and mentors",
+      "Age-appropriate tracks: Princess Junior (8-12), Teen Techies (13-17), Women Warriors (18+)",
+      "Girl-centric projects: fashion apps, social impact tools, creative platforms",
+      "Safe, supportive all-girls learning environment",
+      "Focus on both technical skills and confidence building",
+      "Real female tech leaders as guest speakers",
+      "Emphasis on creativity alongside logic",
+      "Mother-daughter learning options available"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Creative Coding, Web Basics, Visual Programming",
+      "phase_2": "Frontend Magic (Months 4-6): Beautiful Websites, Interactive Design, Mobile-First",
+      "phase_3": "Backend Power (Months 7-9): Databases, APIs, App Development",
+      "phase_4": "Professional Skills (Months 10-12): Advanced Projects, AI/ML, Career Prep"
+    },
+    "career_outcomes": [
+      "Junior Web Developer (after 3 months)",
+      "Frontend Developer (after 6 months)",
+      "Full Stack Developer (after 9 months)",
+      "Professional Developer / Tech Entrepreneur (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Creative Coding (Months 1-3, Weeks 1-13)",
+    "description": "Start your coding journey with fun, creative projects. Build confidence while learning the fundamentals of programming and web development.",
+    "month_1_2": {
+      "title": "Months 1-2: Introduction to Coding & Web Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Welcome to Princess Coders - Your Tech Journey Begins",
+        "topics": [
+          "Welcome to the sisterhood: meet your cohort",
+          "Famous women in tech: inspiration and role models",
+          "How technology shapes our world",
+          "Setting up your princess coding workspace",
+          "Choosing your coding avatar and username",
+          "Introduction to computers and how they think",
+          "Your first line of code: 'Hello, Princess Coder!'",
+          "Visual programming with Scratch (for younger cohort)",
+          "Introduction to problem-solving like a programmer",
+          "Creating your first digital art with code",
+          "Building your coder confidence journal",
+          "Princess Coders community guidelines and support"
+        ],
+        "projects": [
+          "Create your Princess Coder profile page",
+          "Design your digital business card",
+          "Build an 'About Me' interactive story"
+        ],
+        "practice": "Daily: 30 min creative coding challenges, 1 hour guided tutorials"
+      },
+      "week_3_4": {
+        "title": "HTML - Building Your Digital Kingdom",
+        "topics": [
+          "HTML as the structure of the web",
+          "Creating your first webpage from scratch",
+          "Text elements: telling your story online",
+          "Images: adding visual magic to pages",
+          "Links: connecting your digital world",
+          "Lists: organizing information beautifully",
+          "Tables: presenting data elegantly",
+          "Forms: collecting information from users",
+          "Semantic HTML: writing meaningful code",
+          "Accessibility: making web inclusive for all",
+          "HTML5: modern web capabilities",
+          "Best practices for clean, organized code"
+        ],
+        "projects": [
+          "Personal blog about your interests",
+          "Recipe collection website",
+          "Digital diary or journal",
+          "Online portfolio for your hobbies"
+        ],
+        "practice": "Create 5 different themed webpages"
+      },
+      "week_5_6": {
+        "title": "CSS - Styling Your Digital Creations",
+        "topics": [
+          "CSS: the art of web design",
+          "Colors: creating beautiful palettes",
+          "Fonts: typography that speaks",
+          "Spacing: the importance of breathing room",
+          "Backgrounds: setting the mood",
+          "Borders and shadows: adding depth",
+          "CSS animations: bringing pages to life",
+          "Responsive design: mobile-friendly sites",
+          "CSS Grid: magazine-style layouts",
+          "Flexbox: flexible arrangements",
+          "Design principles for non-designers",
+          "Creating your personal style guide"
+        ],
+        "projects": [
+          "Fashion lookbook website",
+          "Interactive greeting card creator",
+          "Photo gallery with filters",
+          "Animated story presentation"
+        ],
+        "practice": "Style 10 different page components creatively"
+      },
+      "week_7_8": {
+        "title": "JavaScript - Making Things Interactive",
+        "topics": [
+          "JavaScript: the language of interaction",
+          "Variables: storing information",
+          "Data types: numbers, text, true/false",
+          "Functions: creating reusable magic",
+          "Events: responding to user actions",
+          "Conditionals: making decisions in code",
+          "Loops: repeating with efficiency",
+          "Arrays: organizing collections",
+          "Objects: grouping related data",
+          "DOM: controlling page elements",
+          "Creating interactive forms",
+          "Building simple games and quizzes"
+        ],
+        "projects": [
+          "Interactive quiz about your favorite topic",
+          "Simple drawing application",
+          "To-do list with style",
+          "Mood tracker application"
+        ],
+        "practice": "Build 5 interactive mini-apps"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Advanced JavaScript & Creative Projects",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Advanced JavaScript Concepts",
+        "topics": [
+          "Advanced functions and callbacks",
+          "Working with APIs: getting real data",
+          "JSON: the language of data exchange",
+          "Local storage: saving user preferences",
+          "Error handling: graceful failures",
+          "Asynchronous programming basics",
+          "Promises and modern JavaScript",
+          "ES6 features: arrow functions, destructuring",
+          "Array methods: map, filter, reduce",
+          "Creating reusable components",
+          "Code organization and best practices",
+          "Debugging like a detective"
+        ],
+        "projects": [
+          "Weather app with real data",
+          "Quote generator with API",
+          "Currency converter tool",
+          "Personal finance tracker"
+        ],
+        "practice": "Master 20 JavaScript challenges"
+      },
+      "week_11_12": {
+        "title": "Creative Coding & Visual Projects",
+        "topics": [
+          "Introduction to p5.js for creative coding",
+          "Drawing with code: shapes and colors",
+          "Animation principles in programming",
+          "Interactive art installations",
+          "Generative art: code that creates",
+          "Sound and music with code",
+          "Data visualization basics",
+          "Creating infographics programmatically",
+          "Game development fundamentals",
+          "Physics in animations",
+          "Particle systems and effects",
+          "Sharing your creative work online"
+        ],
+        "projects": [
+          "Interactive art piece",
+          "Music visualizer",
+          "Simple platformer game",
+          "Data story visualization"
+        ],
+        "practice": "Create 5 artistic coding projects"
+      },
+      "week_13_14": {
+        "title": "Month 3 Integration Project",
+        "topics": [
+          "Planning a complete web application",
+          "User experience (UX) principles",
+          "User interface (UI) design basics",
+          "Wireframing and prototyping",
+          "Version control with Git",
+          "Collaboration on GitHub",
+          "Project documentation",
+          "Testing your applications"
+        ],
+        "projects": [
+          "CAPSTONE: Complete web application of choice",
+          "Options: Blog platform, E-commerce site, Social cause website, Educational game"
+        ],
+        "practice": "Polish and deploy your project"
+      },
+      "week_15_16": {
+        "title": "Phase 1 Review & Assessment",
+        "topics": [
+          "Review of all foundation concepts",
+          "Best practices consolidation",
+          "Portfolio preparation",
+          "Presentation skills for developers",
+          "Celebrating achievements"
+        ],
+        "projects": [
+          "Portfolio website showcasing all projects",
+          "Phase 1 final presentation"
+        ],
+        "assessment": "Phase 1 completion certificate"
+      },
+      "week_17": {
+        "title": "Bridge Week - Preparing for Advanced Topics",
+        "topics": [
+          "Introduction to frameworks",
+          "Modern development workflow",
+          "Professional tool setup",
+          "Career paths in tech",
+          "Setting goals for next phase"
+        ],
+        "projects": [
+          "Personal learning roadmap",
+          "Tech blog first post"
+        ],
+        "assessment": "Self-assessment and goal setting"
+      }
+    },
+    "month_5_6": {
+      "title": "Months 4-6: Frontend Development Mastery",
+      "weeks": "Week 14-26",
+      "week_18_19": {
+        "title": "React.js Fundamentals",
+        "topics": [
+          "Introduction to React: why frameworks matter",
+          "Setting up React development environment",
+          "Components: building blocks of apps",
+          "JSX: writing HTML in JavaScript",
+          "Props: passing data between components",
+          "State: managing changing data",
+          "Hooks: useState and useEffect",
+          "Event handling in React",
+          "Lists and keys in React",
+          "Conditional rendering",
+          "Component lifecycle",
+          "React Developer Tools"
+        ],
+        "projects": [
+          "Social media feed component",
+          "Product catalog with React",
+          "Interactive dashboard",
+          "Recipe app with categories"
+        ],
+        "practice": "Build 10 React components"
+      },
+      "week_20_21": {
+        "title": "Advanced React & State Management",
+        "topics": [
+          "Advanced hooks: useContext, useReducer",
+          "Custom hooks creation",
+          "React Router for navigation",
+          "Forms and validation in React",
+          "API integration with React",
+          "State management with Context API",
+          "Introduction to Redux",
+          "Component optimization",
+          "Code splitting and lazy loading",
+          "Testing React components",
+          "Deployment of React apps",
+          "React best practices"
+        ],
+        "projects": [
+          "Multi-page React application",
+          "Shopping cart with Redux",
+          "Blog platform with routing",
+          "Chat application frontend"
+        ],
+        "practice": "Create complex React applications"
+      },
+      "week_22_23": {
+        "title": "Modern CSS & UI Libraries",
+        "topics": [
+          "CSS-in-JS with styled-components",
+          "Tailwind CSS for rapid development",
+          "Material-UI components",
+          "Bootstrap with React",
+          "CSS animations and transitions",
+          "Responsive design patterns",
+          "Mobile-first development",
+          "Progressive Web Apps basics",
+          "Accessibility in modern apps",
+          "Performance optimization",
+          "SEO for single-page apps",
+          "Design systems creation"
+        ],
+        "projects": [
+          "Responsive portfolio site",
+          "Mobile app UI clone",
+          "Animated landing page",
+          "Component library creation"
+        ],
+        "practice": "Master 5 different styling approaches"
+      },
+      "week_24_25": {
+        "title": "TypeScript & Modern Tools",
+        "topics": [
+          "TypeScript basics: adding types to JavaScript",
+          "TypeScript with React",
+          "Type safety benefits",
+          "Interfaces and types",
+          "Generic types",
+          "Modern build tools: Vite, Webpack",
+          "Package management with npm/yarn",
+          "Linting and formatting",
+          "Git advanced workflows",
+          "Continuous Integration basics",
+          "Documentation tools",
+          "Open source contribution"
+        ],
+        "projects": [
+          "TypeScript React app",
+          "Open source contribution",
+          "npm package creation",
+          "Documentation site"
+        ],
+        "practice": "Convert projects to TypeScript"
+      },
+      "week_26": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complex application planning",
+          "User research and personas",
+          "Advanced UI/UX implementation",
+          "Performance optimization",
+          "Deployment strategies",
+          "Project presentation"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Full Frontend Application",
+          "Options: Social platform for causes, E-learning platform, Health & wellness app, Creative portfolio builder"
+        ],
+        "assessment": "Phase 2 completion with advanced frontend certification"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Frontend Development & Design (Months 4-6, Weeks 14-26)",
+    "description": "Master modern frontend development with React, create beautiful user interfaces, and build professional web applications.",
+    "month_7_8": {
+      "title": "Months 4-5: React & Modern Frontend",
+      "weeks": "Week 14-21",
+      "week_27_28": {
+        "title": "React.js Foundation",
+        "topics": [
+          "Understanding why React revolutionized web development",
+          "Setting up your React development environment",
+          "Components: thinking in reusable pieces",
+          "JSX: the perfect blend of HTML and JavaScript",
+          "Props: component communication made simple",
+          "State: managing dynamic data",
+          "React Hooks: modern React development",
+          "useState for component state",
+          "useEffect for side effects",
+          "Building interactive user interfaces",
+          "Component composition patterns",
+          "React ecosystem overview"
+        ],
+        "projects": [
+          "Instagram-style photo grid",
+          "Pinterest-inspired board creator",
+          "Spotify playlist manager UI",
+          "Fashion e-commerce product page"
+        ],
+        "practice": "Build 15 reusable React components"
+      },
+      "week_29_30": {
+        "title": "Advanced React Patterns",
+        "topics": [
+          "Advanced hooks: useContext for global state",
+          "useReducer for complex state logic",
+          "Custom hooks: creating your own",
+          "React Router: multi-page applications",
+          "Protected routes and authentication flows",
+          "Form handling and validation",
+          "API integration and data fetching",
+          "Error boundaries and error handling",
+          "Performance optimization techniques",
+          "React.memo and useMemo",
+          "Code splitting for faster apps",
+          "Testing React applications"
+        ],
+        "projects": [
+          "Multi-page blog with authentication",
+          "Task management app like Notion",
+          "Real-time chat application UI",
+          "Online learning platform interface"
+        ],
+        "practice": "Master 10 advanced React patterns"
+      },
+      "week_31_32": {
+        "title": "State Management & Data Flow",
+        "topics": [
+          "Understanding application state",
+          "Context API for state sharing",
+          "Redux: predictable state management",
+          "Redux Toolkit: modern Redux",
+          "Actions, reducers, and store",
+          "Async operations with Redux Thunk",
+          "Zustand: lightweight alternative",
+          "React Query for server state",
+          "Optimistic UI updates",
+          "Caching strategies",
+          "Real-time data synchronization",
+          "State management best practices"
+        ],
+        "projects": [
+          "Shopping cart with global state",
+          "Social media feed with Redux",
+          "Collaborative workspace app",
+          "Analytics dashboard with real-time data"
+        ],
+        "practice": "Implement state management in 5 apps"
+      },
+      "week_33_34": {
+        "title": "UI/UX Design for Developers",
+        "topics": [
+          "Design principles every developer should know",
+          "Color theory and creating palettes",
+          "Typography and readability",
+          "Spacing and visual hierarchy",
+          "User experience (UX) fundamentals",
+          "User interface (UI) best practices",
+          "Design tools: Figma basics for developers",
+          "Wireframing and prototyping",
+          "Design systems and component libraries",
+          "Accessibility standards (WCAG)",
+          "Responsive and adaptive design",
+          "Micro-interactions and animations"
+        ],
+        "projects": [
+          "Complete design system creation",
+          "Redesign existing website",
+          "Mobile-first application design",
+          "Accessible form system"
+        ],
+        "practice": "Design and implement 5 UI concepts"
+      },
+      "week_35": {
+        "title": "Modern Styling Solutions",
+        "topics": [
+          "CSS-in-JS with Styled Components",
+          "Emotion for component styling",
+          "Tailwind CSS mastery",
+          "CSS Modules approach",
+          "Sass/SCSS advanced features",
+          "CSS Grid and Flexbox mastery",
+          "Animation libraries: Framer Motion",
+          "Creating smooth transitions",
+          "Dark mode implementation",
+          "Theming and customization",
+          "Performance considerations",
+          "Mobile-responsive techniques"
+        ],
+        "projects": [
+          "Animated portfolio website",
+          "Theme-switchable application",
+          "Mobile-first product showcase",
+          "Interactive data visualization"
+        ],
+        "practice": "Master 5 different styling approaches"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Advanced Frontend & Portfolio",
+      "weeks": "Week 22-26",
+      "week_36_37": {
+        "title": "Next.js & Modern Frameworks",
+        "topics": [
+          "Next.js: the React framework",
+          "Server-side rendering (SSR)",
+          "Static site generation (SSG)",
+          "File-based routing system",
+          "API routes in Next.js",
+          "Image optimization",
+          "SEO optimization techniques",
+          "Incremental Static Regeneration",
+          "Deployment with Vercel",
+          "Alternative: Gatsby for static sites",
+          "Alternative: Remix framework",
+          "Choosing the right framework"
+        ],
+        "projects": [
+          "Blog platform with Next.js",
+          "E-commerce site with SSR",
+          "Portfolio with optimal SEO",
+          "Documentation website"
+        ],
+        "practice": "Build 3 different Next.js applications"
+      },
+      "week_38_39": {
+        "title": "Testing & Quality Assurance",
+        "topics": [
+          "Why testing matters",
+          "Unit testing with Jest",
+          "React Testing Library",
+          "Integration testing strategies",
+          "End-to-end testing with Cypress",
+          "Test-driven development (TDD)",
+          "Debugging techniques",
+          "Browser DevTools mastery",
+          "Performance testing",
+          "Accessibility testing",
+          "Visual regression testing",
+          "Continuous Integration setup"
+        ],
+        "projects": [
+          "Add tests to existing projects",
+          "TDD project from scratch",
+          "E2E test suite creation",
+          "Automated testing pipeline"
+        ],
+        "practice": "Write comprehensive tests for 5 projects"
+      },
+      "week_40_41": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Web performance metrics",
+          "Core Web Vitals understanding",
+          "Lighthouse audits",
+          "Bundle size optimization",
+          "Code splitting strategies",
+          "Lazy loading implementation",
+          "Image optimization techniques",
+          "Caching strategies",
+          "Service workers basics",
+          "Progressive Web Apps",
+          "Performance monitoring",
+          "Real user monitoring (RUM)"
+        ],
+        "projects": [
+          "Optimize slow application",
+          "PWA transformation",
+          "Performance dashboard",
+          "Offline-first application"
+        ],
+        "practice": "Optimize all portfolio projects"
+      },
+      "week_42_43": {
+        "title": "TypeScript Mastery",
+        "topics": [
+          "TypeScript fundamentals",
+          "Types and interfaces",
+          "Generics and utility types",
+          "TypeScript with React",
+          "Type-safe API calls",
+          "Advanced TypeScript patterns",
+          "TypeScript configuration",
+          "Migration strategies",
+          "Type guards and assertions",
+          "Declaration files",
+          "TypeScript best practices",
+          "Team collaboration with TypeScript"
+        ],
+        "projects": [
+          "Full TypeScript React app",
+          "Type-safe API client",
+          "Component library in TypeScript",
+          "Legacy code migration"
+        ],
+        "practice": "Convert all projects to TypeScript"
+      },
+      "week_44": {
+        "title": "Phase 2 Final Project",
+        "topics": [
+          "Project planning and scope",
+          "Technical architecture design",
+          "Implementation best practices",
+          "Code review and refactoring",
+          "Documentation writing",
+          "Deployment and hosting",
+          "Portfolio presentation"
+        ],
+        "projects": [
+          "CAPSTONE: Production-Ready Frontend Application",
+          "Must include: React, TypeScript, State Management, Testing, Responsive Design, Accessibility",
+          "Options: Social impact platform, Educational tool, Creative showcase, Business solution"
+        ],
+        "assessment": "Frontend Developer Certification"
+      }
+    },
+    "month_11_12": {
+      "title": "Months 7-9: Backend Development",
+      "weeks": "Week 27-39",
+      "week_45_46": {
+        "title": "Node.js Fundamentals",
+        "topics": [
+          "Backend development introduction",
+          "Node.js: JavaScript on the server",
+          "Setting up Node.js environment",
+          "NPM and package management",
+          "Core modules: fs, path, http",
+          "Creating your first server",
+          "Handling requests and responses",
+          "Working with files",
+          "Environment variables",
+          "Asynchronous programming",
+          "Promises and async/await",
+          "Error handling patterns"
+        ],
+        "projects": [
+          "File management system",
+          "Basic HTTP server",
+          "CLI application",
+          "API endpoint creation"
+        ],
+        "practice": "Build 5 Node.js applications"
+      },
+      "week_47_48": {
+        "title": "Express.js & REST APIs",
+        "topics": [
+          "Express.js framework",
+          "Routing and middleware",
+          "RESTful API principles",
+          "CRUD operations",
+          "Request validation",
+          "Error handling middleware",
+          "Authentication basics",
+          "CORS configuration",
+          "File uploads handling",
+          "API documentation",
+          "Postman for testing",
+          "API security basics"
+        ],
+        "projects": [
+          "Blog API with CRUD",
+          "User management API",
+          "File storage service",
+          "Social media API"
+        ],
+        "practice": "Create 5 different REST APIs"
+      },
+      "week_49_50": {
+        "title": "Databases & Data Modeling",
+        "topics": [
+          "Database fundamentals",
+          "SQL vs NoSQL comparison",
+          "MongoDB setup and basics",
+          "Mongoose ODM",
+          "Schema design patterns",
+          "Relationships in MongoDB",
+          "PostgreSQL basics",
+          "SQL queries and joins",
+          "Database security",
+          "Backup strategies",
+          "Database optimization",
+          "Migration strategies"
+        ],
+        "projects": [
+          "User database system",
+          "E-commerce database",
+          "Blog with comments",
+          "Analytics database"
+        ],
+        "practice": "Design 10 database schemas"
+      },
+      "week_51": {
+        "title": "Authentication & Security",
+        "topics": [
+          "Authentication vs Authorization",
+          "Password hashing with bcrypt",
+          "JWT tokens explained",
+          "Session management",
+          "OAuth 2.0 basics",
+          "Social login integration",
+          "Security best practices",
+          "Input validation",
+          "SQL injection prevention",
+          "XSS protection",
+          "Rate limiting",
+          "HTTPS and SSL"
+        ],
+        "projects": [
+          "Complete auth system",
+          "Social login integration",
+          "Role-based access",
+          "Secure API creation"
+        ],
+        "practice": "Implement auth in 5 projects"
+      },
+      "week_52": {
+        "title": "Phase 3 Backend Project",
+        "topics": [
+          "Full backend architecture",
+          "API design principles",
+          "Database optimization",
+          "Security implementation",
+          "Testing backend services",
+          "Documentation",
+          "Deployment preparation"
+        ],
+        "projects": [
+          "CAPSTONE: Complete Backend System",
+          "Include: REST API, Database, Auth, File Upload, Real-time features",
+          "Options: Social platform backend, E-commerce API, Learning management system"
+        ],
+        "assessment": "Backend Developer Certification"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Backend Development & Databases (Months 7-9, Weeks 27-39)",
+    "description": "Master server-side development, databases, APIs, and build powerful backend systems that power modern applications.",
+    "month_13_14": {
+      "title": "Months 7-8: Server-Side Development",
+      "weeks": "Week 27-34",
+      "week_53_54": {
+        "title": "Introduction to Backend Development",
+        "topics": [
+          "What happens behind the scenes of websites",
+          "Client-server architecture explained simply",
+          "Introduction to Node.js: JavaScript everywhere",
+          "Setting up your backend development environment",
+          "Your first Node.js program",
+          "Understanding modules and packages",
+          "NPM: the world's largest software registry",
+          "File system operations with Node.js",
+          "Working with JSON data",
+          "Environment variables and configuration",
+          "Debugging Node.js applications",
+          "Backend best practices for beginners"
+        ],
+        "projects": [
+          "Personal note-taking system",
+          "File organizer application",
+          "JSON data processor",
+          "Command-line diary app"
+        ],
+        "practice": "Build 8 Node.js utilities"
+      },
+      "week_55_56": {
+        "title": "Building APIs with Express.js",
+        "topics": [
+          "What are APIs and why they matter",
+          "Express.js: the Node.js framework",
+          "Creating your first Express server",
+          "Routing: handling different URLs",
+          "HTTP methods: GET, POST, PUT, DELETE",
+          "Middleware: the Express superpower",
+          "Handling JSON data and forms",
+          "Error handling done right",
+          "Organizing code with routers",
+          "Static file serving",
+          "Template engines for server-side rendering",
+          "API testing with Postman"
+        ],
+        "projects": [
+          "Recipe sharing API",
+          "Personal blog backend",
+          "Todo list API",
+          "Quiz application server"
+        ],
+        "practice": "Create 6 different Express APIs"
+      },
+      "week_57_58": {
+        "title": "Databases - Storing Your Data",
+        "topics": [
+          "Why we need databases",
+          "Types of databases explained",
+          "MongoDB: the document database",
+          "Setting up MongoDB locally and cloud",
+          "CRUD operations in MongoDB",
+          "Mongoose: making MongoDB easier",
+          "Designing database schemas",
+          "Relationships between data",
+          "Data validation and sanitization",
+          "Database security basics",
+          "Backup and recovery strategies",
+          "Performance optimization tips"
+        ],
+        "projects": [
+          "User management database",
+          "Product inventory system",
+          "Social media data model",
+          "Event planning database"
+        ],
+        "practice": "Design 8 different database schemas"
+      },
+      "week_59_60": {
+        "title": "Authentication & User Management",
+        "topics": [
+          "Why authentication is crucial",
+          "Passwords: hashing vs encryption",
+          "Building a registration system",
+          "Login functionality with sessions",
+          "JWT tokens: modern authentication",
+          "Remember me functionality",
+          "Password reset via email",
+          "Social login with Google/Facebook",
+          "Role-based permissions",
+          "Protecting API routes",
+          "Security best practices",
+          "GDPR and user data privacy"
+        ],
+        "projects": [
+          "Complete user auth system",
+          "Multi-role application",
+          "Social login integration",
+          "Secure member-only site"
+        ],
+        "practice": "Implement auth in all previous projects"
+      },
+      "week_61": {
+        "title": "Real-time Features & WebSockets",
+        "topics": [
+          "Real-time web applications",
+          "WebSockets vs HTTP",
+          "Socket.io introduction",
+          "Building a chat system",
+          "Broadcasting messages",
+          "Private messaging implementation",
+          "Online user tracking",
+          "Real-time notifications",
+          "Live collaboration features",
+          "Scaling WebSocket servers",
+          "Real-time data synchronization",
+          "Building interactive dashboards"
+        ],
+        "projects": [
+          "Chat application",
+          "Live notification system",
+          "Collaborative whiteboard",
+          "Real-time polling app"
+        ],
+        "practice": "Add real-time features to 3 projects"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Advanced Backend & Integration",
+      "weeks": "Week 35-39",
+      "week_62_63": {
+        "title": "Advanced API Development",
+        "topics": [
+          "RESTful API design principles",
+          "API versioning strategies",
+          "Pagination and filtering",
+          "File upload handling",
+          "Image processing on server",
+          "Email integration with Nodemailer",
+          "SMS and push notifications",
+          "Payment gateway integration",
+          "Third-party API integration",
+          "Webhooks implementation",
+          "API rate limiting",
+          "API documentation with Swagger"
+        ],
+        "projects": [
+          "E-commerce API with payments",
+          "File sharing service",
+          "Email newsletter system",
+          "Booking system with notifications"
+        ],
+        "practice": "Build 5 production-ready APIs"
+      },
+      "week_64_65": {
+        "title": "Cloud Services & Deployment",
+        "topics": [
+          "Introduction to cloud computing",
+          "Deploying to Heroku",
+          "Using Netlify for frontend",
+          "MongoDB Atlas setup",
+          "Environment management",
+          "Domain names and DNS",
+          "SSL certificates and HTTPS",
+          "Basic AWS services",
+          "Serverless functions introduction",
+          "CI/CD basics with GitHub Actions",
+          "Monitoring your applications",
+          "Error tracking and logging"
+        ],
+        "projects": [
+          "Deploy all projects to cloud",
+          "Set up custom domains",
+          "Implement CI/CD pipeline",
+          "Create monitoring dashboard"
+        ],
+        "practice": "Deploy and manage 5 live applications"
+      },
+      "week_66_67": {
+        "title": "SQL Databases & Advanced Queries",
+        "topics": [
+          "Introduction to SQL databases",
+          "PostgreSQL setup and basics",
+          "Tables, rows, and columns",
+          "SQL queries: SELECT, INSERT, UPDATE, DELETE",
+          "Joining tables for relationships",
+          "Aggregate functions and grouping",
+          "Database design principles",
+          "Normalization concepts",
+          "Indexes for performance",
+          "Transactions and ACID",
+          "SQL vs NoSQL: choosing wisely",
+          "Database migration strategies"
+        ],
+        "projects": [
+          "School management database",
+          "Financial tracking system",
+          "Library catalog database",
+          "Healthcare records system"
+        ],
+        "practice": "Master SQL with 30 query challenges"
+      },
+      "week_68_69": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Understanding performance bottlenecks",
+          "Database query optimization",
+          "Caching with Redis",
+          "Load balancing concepts",
+          "Horizontal vs vertical scaling",
+          "Code optimization techniques",
+          "Memory management",
+          "Async operations optimization",
+          "CDN for static assets",
+          "Compression techniques",
+          "Performance monitoring tools",
+          "Load testing your APIs"
+        ],
+        "projects": [
+          "Optimize existing applications",
+          "Implement caching layer",
+          "Load testing suite",
+          "Performance dashboard"
+        ],
+        "practice": "Optimize 5 slow applications"
+      },
+      "week_70": {
+        "title": "Phase 3 Final Project",
+        "topics": [
+          "Full-stack integration",
+          "API design and documentation",
+          "Database architecture",
+          "Security implementation",
+          "Testing strategies",
+          "Deployment pipeline",
+          "Project presentation"
+        ],
+        "projects": [
+          "CAPSTONE: Full-Stack Application",
+          "Build complete system with: Frontend (React), Backend (Node.js), Database, Authentication, Real-time features, Cloud deployment",
+          "Options: Social platform, E-commerce site, Educational platform, Health & wellness app"
+        ],
+        "assessment": "Full-Stack Developer Certification"
+      }
+    },
+    "month_17_18": {
+      "title": "Months 10-12: Professional Development",
+      "weeks": "Week 40-52",
+      "week_71_72": {
+        "title": "Mobile App Development",
+        "topics": [
+          "Mobile development overview",
+          "React Native introduction",
+          "Setting up React Native environment",
+          "Core components and APIs",
+          "Navigation in mobile apps",
+          "Styling for mobile",
+          "Device features access",
+          "Building for iOS and Android",
+          "Testing on devices",
+          "Publishing to app stores",
+          "Progressive Web Apps alternative",
+          "Mobile-first best practices"
+        ],
+        "projects": [
+          "Mobile version of web app",
+          "Native mobile features app",
+          "Cross-platform social app",
+          "Mobile game development"
+        ],
+        "practice": "Build 3 mobile applications"
+      },
+      "week_73_74": {
+        "title": "AI & Machine Learning for Web",
+        "topics": [
+          "AI basics for web developers",
+          "Integrating AI APIs",
+          "TensorFlow.js introduction",
+          "Image recognition in browser",
+          "Natural language processing",
+          "Chatbot development",
+          "Recommendation systems",
+          "Sentiment analysis",
+          "Computer vision basics",
+          "Voice recognition integration",
+          "AI ethics and bias",
+          "Future of AI in web development"
+        ],
+        "projects": [
+          "AI-powered chatbot",
+          "Image classification app",
+          "Recommendation engine",
+          "Smart search implementation"
+        ],
+        "practice": "Add AI to 5 existing projects"
+      },
+      "week_75_76": {
+        "title": "DevOps & Automation",
+        "topics": [
+          "DevOps culture and practices",
+          "Docker containerization basics",
+          "Container orchestration introduction",
+          "CI/CD pipelines with GitHub Actions",
+          "Automated testing in pipelines",
+          "Infrastructure as Code basics",
+          "Monitoring and alerting",
+          "Log management strategies",
+          "Security in DevOps",
+          "GitOps principles",
+          "Kubernetes introduction",
+          "Cloud-native development"
+        ],
+        "projects": [
+          "Dockerize applications",
+          "Set up CI/CD pipeline",
+          "Monitoring dashboard",
+          "Automated deployment system"
+        ],
+        "practice": "Automate 5 project deployments"
+      },
+      "week_77": {
+        "title": "Entrepreneurship & Freelancing",
+        "topics": [
+          "Building products vs services",
+          "Finding your niche",
+          "Client communication skills",
+          "Project estimation and pricing",
+          "Contract essentials",
+          "Building your brand",
+          "Marketing for developers",
+          "Social media presence",
+          "Open source contribution",
+          "Building a following",
+          "Passive income streams",
+          "Starting your tech business"
+        ],
+        "projects": [
+          "Personal brand website",
+          "Open source contribution",
+          "SaaS product MVP",
+          "Freelance portfolio"
+        ],
+        "practice": "Launch your first product/service"
+      },
+      "week_78": {
+        "title": "Advanced Topics & Specialization",
+        "topics": [
+          "Blockchain basics for web developers",
+          "Web3 and decentralized apps",
+          "Cybersecurity fundamentals",
+          "Game development with JavaScript",
+          "IoT and web integration",
+          "Augmented Reality on web",
+          "Voice interfaces development",
+          "Quantum computing basics",
+          "Edge computing concepts",
+          "5G and web applications",
+          "Future technology trends",
+          "Continuous learning strategies"
+        ],
+        "projects": [
+          "Explore emerging technology",
+          "Build experimental project",
+          "Research and blog post",
+          "Innovation prototype"
+        ],
+        "assessment": "Technology innovation project"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Professional Skills & Career Launch (Months 10-12, Weeks 40-52)",
+    "description": "Master professional development skills, build your portfolio, prepare for your tech career, and join the global community of women in tech.",
+    "month_19_20": {
+      "title": "Months 10-11: Advanced Projects & Specialization",
+      "weeks": "Week 40-47",
+      "week_79_80": {
+        "title": "Building Your Signature Project",
+        "topics": [
+          "Identifying problems worth solving",
+          "Project ideation for social impact",
+          "User research and validation",
+          "Creating project roadmaps",
+          "Agile development methodology",
+          "Sprint planning and execution",
+          "Building MVPs (Minimum Viable Products)",
+          "User testing and feedback",
+          "Iterative development process",
+          "Project documentation standards",
+          "Creating compelling demos",
+          "Storytelling for developers"
+        ],
+        "projects": [
+          "Define your signature project",
+          "Create project blueprint",
+          "Build MVP version",
+          "User testing sessions"
+        ],
+        "practice": "Complete weekly sprints on signature project"
+      },
+      "week_81_82": {
+        "title": "Women in Tech Leadership",
+        "topics": [
+          "History of women in technology",
+          "Current landscape and opportunities",
+          "Building confidence in tech spaces",
+          "Imposter syndrome and overcoming it",
+          "Public speaking for developers",
+          "Technical writing and blogging",
+          "Mentorship: finding and being one",
+          "Building your professional network",
+          "Women in tech communities",
+          "Negotiation skills for women",
+          "Work-life balance in tech",
+          "Leading technical teams"
+        ],
+        "projects": [
+          "Write technical blog series",
+          "Give a tech talk",
+          "Mentor another student",
+          "Join women in tech community"
+        ],
+        "practice": "Weekly leadership challenges"
+      },
+      "week_83_84": {
+        "title": "Specialization Tracks (Choose One)",
+        "topics": [
+          "Track 1: Creative Tech & Design",
+          "- Advanced animations and interactions",
+          "- Creative coding with Processing/p5.js",
+          "- Generative art and data visualization",
+          "Track 2: Social Impact Technology",
+          "- Building for accessibility",
+          "- Non-profit tech solutions",
+          "- Educational technology",
+          "Track 3: Business & E-commerce",
+          "- Payment systems integration",
+          "- Inventory management",
+          "- Analytics and reporting",
+          "Track 4: Health & Wellness Tech",
+          "- Health data management",
+          "- Fitness tracking apps",
+          "- Mental health support tools"
+        ],
+        "projects": [
+          "Specialization project in chosen track",
+          "Industry-specific solution",
+          "Research and implementation",
+          "Domain expert collaboration"
+        ],
+        "practice": "Deep dive into specialization area"
+      },
+      "week_85_86": {
+        "title": "Open Source Contribution",
+        "topics": [
+          "Understanding open source culture",
+          "Finding projects to contribute to",
+          "Reading and understanding codebases",
+          "Git workflow for collaboration",
+          "Making your first pull request",
+          "Code review etiquette",
+          "Documentation contributions",
+          "Creating your own open source project",
+          "Building a contributor community",
+          "Licensing and legal considerations",
+          "Maintaining open source projects",
+          "Building reputation through open source"
+        ],
+        "projects": [
+          "First open source contribution",
+          "Create open source project",
+          "Documentation improvements",
+          "Community engagement"
+        ],
+        "practice": "Weekly open source contributions"
+      },
+      "week_87": {
+        "title": "Portfolio & Personal Branding",
+        "topics": [
+          "Creating a standout portfolio",
+          "Case study writing",
+          "Project presentation skills",
+          "Personal branding for developers",
+          "LinkedIn optimization for tech",
+          "GitHub profile enhancement",
+          "Creating a technical blog",
+          "Video content creation",
+          "Social media for developers",
+          "Speaking at meetups/conferences",
+          "Building thought leadership",
+          "Networking strategies for introverts"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "5 detailed case studies",
+          "Technical blog launch",
+          "Personal brand strategy"
+        ],
+        "practice": "Daily brand building activities"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Career Launch & Graduation",
+      "weeks": "Week 48-52",
+      "week_88_89": {
+        "title": "Job Search Preparation",
+        "topics": [
+          "Tech job market overview",
+          "Types of tech roles available",
+          "Creating a winning tech resume",
+          "Cover letters that stand out",
+          "Job search strategies",
+          "Using job boards effectively",
+          "Company research techniques",
+          "Startup vs corporate environments",
+          "Remote work opportunities",
+          "Freelancing as an option",
+          "Contract vs full-time positions",
+          "Visa and relocation considerations"
+        ],
+        "projects": [
+          "Polished resume creation",
+          "Cover letter templates",
+          "Job search tracker",
+          "Target company list"
+        ],
+        "practice": "Apply to 5 positions weekly"
+      },
+      "week_90_91": {
+        "title": "Interview Mastery",
+        "topics": [
+          "Technical interview preparation",
+          "Data structures and algorithms basics",
+          "Problem-solving strategies",
+          "Live coding best practices",
+          "System design interviews",
+          "Behavioral interview questions",
+          "STAR method for responses",
+          "Take-home project strategies",
+          "Whiteboard coding tips",
+          "Asking the right questions",
+          "Following up after interviews",
+          "Handling rejection positively"
+        ],
+        "projects": [
+          "Interview prep portfolio",
+          "Algorithm practice solutions",
+          "Mock interview recordings",
+          "Interview question bank"
+        ],
+        "practice": "Daily coding challenges and mock interviews"
+      },
+      "week_92_93": {
+        "title": "Negotiation & Career Planning",
+        "topics": [
+          "Understanding your worth",
+          "Salary research and benchmarking",
+          "Total compensation packages",
+          "Negotiation strategies for women",
+          "Benefits and perks evaluation",
+          "Career growth planning",
+          "Setting professional goals",
+          "Continuous learning mindset",
+          "Building mentor relationships",
+          "Performance review preparation",
+          "Promotion strategies",
+          "Long-term career visioning"
+        ],
+        "projects": [
+          "Salary research report",
+          "5-year career plan",
+          "Professional development roadmap",
+          "Mentor outreach plan"
+        ],
+        "practice": "Negotiation role-play sessions"
+      },
+      "week_94_95": {
+        "title": "Final Capstone Presentation",
+        "topics": [
+          "Polishing your capstone project",
+          "Creating presentation materials",
+          "Demo preparation and practice",
+          "Technical documentation",
+          "User documentation",
+          "Project deployment checklist",
+          "Performance optimization",
+          "Security audit",
+          "Accessibility compliance",
+          "Project handover preparation",
+          "Creating project portfolio page",
+          "Recording project demo video"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Full-Stack Application",
+          "Requirements: Production-ready, Fully tested, Documented, Deployed, Presented",
+          "Showcase to industry professionals",
+          "Peer review and feedback"
+        ],
+        "practice": "Daily project refinement"
+      },
+      "week_96": {
+        "title": "Graduation & Beyond",
+        "topics": [
+          "Celebrating your journey",
+          "Princess Coders alumni network",
+          "Continuing education resources",
+          "Staying current with technology",
+          "Giving back to the community",
+          "Mentoring new students",
+          "Tech conference participation",
+          "Building lasting connections",
+          "Creating your tech legacy",
+          "Future learning paths",
+          "Advanced certifications",
+          "Your role in closing the gender gap"
+        ],
+        "deliverables": [
+          "Graduation certificate",
+          "Final portfolio review",
+          "Alumni network access",
+          "Lifetime learning resources",
+          "Industry connections",
+          "Recommendation letters"
+        ],
+        "assessment": "Final comprehensive assessment and graduation ceremony"
+      }
+    },
+    "month_23": {
+      "title": "Bonus Month: Lifetime Learning",
+      "weeks": "Ongoing Support",
+      "week_97": {
+        "title": "Advanced Specializations",
+        "topics": [
+          "Machine Learning and AI",
+          "Blockchain development",
+          "Cybersecurity",
+          "Cloud architecture",
+          "Mobile development",
+          "Game development",
+          "Data science",
+          "DevOps engineering",
+          "UX/UI design",
+          "Product management",
+          "Technical writing",
+          "Developer advocacy"
+        ],
+        "projects": [
+          "Choose specialization path",
+          "Advanced certification prep",
+          "Industry project",
+          "Research publication"
+        ],
+        "practice": "Continuous specialization learning"
+      },
+      "week_98": {
+        "title": "Entrepreneurship Path",
+        "topics": [
+          "Startup ideation",
+          "Business model canvas",
+          "MVP development",
+          "Funding basics",
+          "Pitching to investors",
+          "Building a team",
+          "Product-market fit",
+          "Growth hacking",
+          "Legal considerations",
+          "Scaling strategies",
+          "Exit strategies",
+          "Women entrepreneurs in tech"
+        ],
+        "projects": [
+          "Business plan creation",
+          "MVP launch",
+          "Pitch deck preparation",
+          "Startup networking"
+        ],
+        "practice": "Build your startup"
+      },
+      "week_99": {
+        "title": "Community Leadership",
+        "topics": [
+          "Starting a coding club",
+          "Teaching others to code",
+          "Organizing tech events",
+          "Building inclusive communities",
+          "Advocacy for women in tech",
+          "Creating educational content",
+          "Public speaking mastery",
+          "Media and PR",
+          "Policy and tech",
+          "Social impact projects",
+          "Global tech initiatives",
+          "Leading change"
+        ],
+        "projects": [
+          "Community initiative launch",
+          "Workshop series creation",
+          "Advocacy campaign",
+          "Impact measurement"
+        ],
+        "practice": "Lead community projects"
+      },
+      "week_100": {
+        "title": "Lifetime Achievement",
+        "topics": [
+          "Continuous learning strategies",
+          "Staying relevant in tech",
+          "Building your legacy",
+          "Mentoring at scale",
+          "Writing technical books",
+          "Conference speaking",
+          "Industry recognition",
+          "Awards and achievements",
+          "Global impact",
+          "Tech innovation",
+          "Future technologies",
+          "Your continuing journey"
+        ],
+        "projects": [
+          "Long-term impact project",
+          "Knowledge sharing platform",
+          "Innovation initiative",
+          "Legacy documentation"
+        ],
+        "practice": "Lifetime contribution to tech"
+      }
+    },
+    "month_24": {
+      "title": "Princess Coders Forever",
+      "weeks": "Alumni Program",
+      "week_101_102": {
+        "title": "Alumni Network & Support",
+        "topics": [
+          "Lifetime alumni access",
+          "Exclusive job board",
+          "Continued mentorship",
+          "Advanced workshops",
+          "Industry partnerships",
+          "Referral programs",
+          "Success story features",
+          "Annual reunions",
+          "Global conferences",
+          "Research opportunities",
+          "Teaching opportunities",
+          "Leadership positions"
+        ],
+        "projects": [
+          "Alumni project collaborations",
+          "Mentorship programs",
+          "Industry partnerships",
+          "Community initiatives"
+        ]
+      },
+      "week_103": {
+        "title": "Giving Back Program",
+        "topics": [
+          "Scholarship programs",
+          "Teaching assistantships",
+          "Curriculum development",
+          "Success coaching",
+          "Interview preparation help",
+          "Portfolio reviews",
+          "Code reviews",
+          "Career guidance",
+          "Startup mentoring",
+          "Research collaboration",
+          "Content creation",
+          "Community building"
+        ],
+        "deliverables": [
+          "Mentor new students",
+          "Create learning resources",
+          "Lead workshops",
+          "Build community"
+        ]
+      },
+      "week_104": {
+        "title": "Your Tech Journey Continues",
+        "topics": [
+          "Setting new goals",
+          "Advanced certifications",
+          "Industry leadership",
+          "Global opportunities",
+          "Tech entrepreneurship",
+          "Research and innovation",
+          "Policy influence",
+          "Educational leadership",
+          "Social impact",
+          "Tech evangelism",
+          "Future readiness",
+          "Lifelong learning"
+        ],
+        "deliverables": [
+          "Personal development plan",
+          "Career roadmap",
+          "Impact strategy",
+          "Legacy vision"
+        ],
+        "assessment": "Princess Coder for Life - Your journey has just begun!"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1-3: Portfolio Website, Interactive Story, Quiz App, Art Generator, Budget Tracker",
+      "Month 4-6: Social Media Dashboard, E-commerce Frontend, Blog Platform, Learning App",
+      "Month 7-9: REST API, Chat Application, Authentication System, Real-time Dashboard",
+      "Month 10-12: Signature Project, Open Source Contribution, Mobile App, AI Integration",
+      "Capstone: Full Production Application with Social Impact"
+    ],
+    "total_projects_built": "40+ projects from simple to complex, with focus on creativity and impact",
+    "skills_mastered": [
+      "Frontend: HTML5, CSS3, JavaScript, React.js, Next.js, TypeScript",
+      "Design: UI/UX, Responsive Design, Accessibility, Animation, Creative Coding",
+      "Backend: Node.js, Express.js, REST APIs, GraphQL, Databases",
+      "Full-Stack: Authentication, Real-time Features, Cloud Deployment",
+      "Professional: Git, Testing, DevOps Basics, Agile, Documentation",
+      "Soft Skills: Communication, Leadership, Mentorship, Public Speaking",
+      "Specialization: Choose from Creative Tech, Social Impact, Business, Health Tech"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "6-8 hours",
+      "projects": "2-3 hours",
+      "practice_problems": "1-2 hours",
+      "total_per_week": "10-15 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly all-girls doubt clearing sessions",
+      "mentorship": "Female mentors from the industry",
+      "community": "Exclusive Princess Coders community platform",
+      "code_review": "Personalized feedback on all projects",
+      "career_support": "Women-focused career guidance and opportunities",
+      "lifetime_access": "Forever access to content and community"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "final_certificate": "Princess Coders Certified Developer",
+      "linkedin_badge": "Verified LinkedIn certification",
+      "industry_recognized": "Recognized by partner companies",
+      "portfolio_projects": "40+ projects for your portfolio"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal education required - open to all girls and women",
+    "coding_experience": "Complete beginner friendly - no prior experience needed",
+    "equipment": "Computer/laptop with internet (tablets supported for younger learners)",
+    "time_commitment": "10-15 hours per week flexibly scheduled",
+    "english": "Basic English understanding (multi-language support available)",
+    "motivation": "Passion to learn and grow in technology"
+  },
+  "who_is_this_for": {
+    "students": "School and college girls exploring tech careers",
+    "working_professionals": "Women seeking career change to tech",
+    "entrepreneurs": "Women wanting to build their own tech products",
+    "freelancers": "Those seeking flexible tech careers",
+    "kids": "Young girls (8+) interested in technology",
+    "anyone": "Any girl or woman ready to start their tech journey"
+  },
+  "career_paths_after_completion": [
+    "Frontend Developer (Creating beautiful user interfaces)",
+    "Backend Developer (Building powerful server systems)",
+    "Full-Stack Developer (Complete web applications)",
+    "Mobile App Developer (iOS/Android applications)",
+    "UI/UX Designer (User experience specialist)",
+    "DevOps Engineer (Deployment and operations)",
+    "Technical Writer (Documentation specialist)",
+    "Developer Advocate (Tech community leader)",
+    "Startup Founder (Tech entrepreneur)",
+    "Open Source Contributor (Global impact)"
+  ],
+  "salary_expectations": {
+    "after_6_months": "₹2-4 LPA (Intern/Junior roles)",
+    "after_12_months": "₹4-8 LPA (Full Developer)",
+    "freelance": "₹300-1500/hour based on expertise",
+    "international": "$30k-80k USD for remote positions"
+  },
+  "course_guarantees": {
+    "money_back": "30-day money back guarantee",
+    "job_assistance": "Dedicated placement support for women in tech",
+    "lifetime_updates": "Free access to all future content",
+    "mentorship": "Female industry mentors throughout",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "Professional portfolio upon completion"
+  }
+}
