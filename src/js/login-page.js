@@ -123,9 +123,9 @@
                 // Redirect to dashboard after short delay
                 setTimeout(() => {
                     if (role === 'teacher') {
-                        window.location.href = '/src/admin/index.html';
+                        window.location.href = './src/admin/index.html';
                     } else {
-                        window.location.href = 'index.html';
+                        window.location.href = './src/pages/index.html';
                     }
                 }, 1500);
                 
@@ -191,9 +191,9 @@
     if (authToken) {
         const userData = JSON.parse(localStorage.getItem('userData') || '{}');
         if (userData.role === 'teacher') {
-            window.location.href = '/src/admin/index.html';
+            window.location.href = './src/admin/index.html';
         } else {
-            window.location.href = 'index.html';
+            window.location.href = './src/pages/index.html';
         }
     }
     
