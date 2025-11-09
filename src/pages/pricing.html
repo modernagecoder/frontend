@@ -138,7 +138,8 @@
                         </li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="/content/blog/generated/index.html" class="nav-link">Blog</a></li>
-                        <li class="nav-item"><a href="index.html#faq" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="pricing.html" class="nav-link active">Pricing</a></li>
+                        <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                         <li class="nav-item">
                             <a href="login.html" class="nav-link login-btn">Login</a>
@@ -156,97 +157,182 @@
     </header>
 
     <main id="main">
-        <section class="section" style="padding-top: 120px;">
-            <div class="container" style="max-width: 1200px;">
-                <h1 class="section-title" style="text-align: center; margin-bottom: 1rem;">Transparent Pricing</h1>
-                <p class="section-subtitle" style="text-align: center; margin-bottom: 3rem;">
-                    Choose the plan that works best for you. All plans include lifetime access to course materials.
-                </p>
+      <section class="section" style="animation-delay: 1s;">
+            <h2 class="section-title">Affordable Plans, High-Quality Knowledge</h2>
+            <p class="section-subtitle">So that everyone can code and learn real maths.</p>
 
-                <div class="pricing-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-bottom: 3rem;">
-                    <!-- Group Classes -->
-                    <div class="pricing-card">
-                        <h2 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 0.5rem;">Group Classes</h2>
-                        <p style="color: #94A3B8; margin-bottom: 1rem;">Learn with peers in small batches</p>
-                        <div class="price">₹4,999<span style="font-size: 1rem; color: #94A3B8;">/month</span></div>
-                        <ul class="feature-list">
-                            <li>Small batch size (8-10 students)</li>
-                            <li>Live interactive sessions</li>
-                            <li>Recorded class access</li>
-                            <li>Weekly assignments</li>
-                            <li>Doubt clearing sessions</li>
-                            <li>Certificate on completion</li>
-                            <li>Community access</li>
-                        </ul>
-                        <a href="contact.html" class="cta-button" style="width: 100%; text-align: center; display: block; margin-top: 1.5rem;">Enroll Now</a>
-                    </div>
+            <div class="tabs-wrapper" id="pricing-tabs">
+                <!-- Pricing Tab Navigation -->
+                <div class="tabs-container">
+                    <button class="tab-button active" data-target="#pricing-coding">Coding</button>
+                    <button class="tab-button" data-target="#pricing-maths">Mathematics</button>
+                    <button class="tab-button" data-target="#pricing-custom">Custom</button>
+                    <div class="tab-glider"></div>
+                </div>
 
-                    <!-- Personal Mentorship (Featured) -->
-                    <div class="pricing-card featured">
-                        <div style="background: linear-gradient(135deg, #a855f7, #4ecdc4); color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; display: inline-block; margin-bottom: 1rem; font-weight: 600;">
-                            MOST POPULAR
+                <!-- Coding Pricing Content -->
+                <div class="tab-content active" id="pricing-coding">
+                    <div class="pricing-grid">
+                        <!-- Group Plan Card -->
+                        <div class="pricing-card popular">
+                            <div class="popular-badge">MOST POPULAR</div>
+                            <h3 class="plan-title">Group Classes</h3>
+                            <div class="plan-price">
+                                <span class="price-currency">₹</span>1499<span class="price-period">/month</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li>Weekly Two Classes</li>
+                                <li>Collaborative Projects</li>
+                                <li>Interactive Sessions</li>
+                                <li>Community Access</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Recorded Session Access</li>
+                                <li>Doubt Resolution Support</li>
+                                <li>Project-Based Learning</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Choose Plan</a>
                         </div>
-                        <h2 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 0.5rem;">Personal Mentorship</h2>
-                        <p style="color: #94A3B8; margin-bottom: 1rem;">One-on-one personalized learning</p>
-                        <div class="price">₹9,999<span style="font-size: 1rem; color: #94A3B8;">/month</span></div>
-                        <ul class="feature-list">
-                            <li>1-on-1 dedicated mentor</li>
-                            <li>Flexible schedule</li>
-                            <li>Personalized curriculum</li>
-                            <li>Project-based learning</li>
-                            <li>24/7 doubt support</li>
-                            <li>Career guidance</li>
-                            <li>Portfolio development</li>
-                            <li>Interview preparation</li>
-                        </ul>
-                        <a href="contact.html" class="cta-button" style="width: 100%; text-align: center; display: block; margin-top: 1.5rem;">Get Started</a>
-                    </div>
-
-                    <!-- Corporate Training -->
-                    <div class="pricing-card">
-                        <h2 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 0.5rem;">Corporate Training</h2>
-                        <p style="color: #94A3B8; margin-bottom: 1rem;">Upskill your team</p>
-                        <div class="price">Custom<span style="font-size: 1rem; color: #94A3B8;"> pricing</span></div>
-                        <ul class="feature-list">
-                            <li>Customized curriculum</li>
-                            <li>On-site or remote training</li>
-                            <li>Flexible batch sizes</li>
-                            <li>Progress tracking</li>
-                            <li>Assessment & certification</li>
-                            <li>Dedicated account manager</li>
-                            <li>Post-training support</li>
-                        </ul>
-                        <a href="contact.html" class="cta-button" style="width: 100%; text-align: center; display: block; margin-top: 1.5rem;">Contact Us</a>
+                        <!-- Personalized Plan Card (Highlighted) -->
+                        <div class="pricing-card popular">
+                            
+                            <h3 class="plan-title">Personalized Classes</h3>
+                            <div class="plan-price">
+                                <span class="price-currency">₹</span>2499<span class="price-period">/month</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li><strong>Weekly Two 1-on-1 Classes</strong></li>
+                                <li>Customized Curriculum</li>
+                                <li>Flexible Scheduling</li>
+                                <li>Dedicated Mentorship</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Lifetime Recording Access</li>
+                                <li>Priority Doubt Support</li>
+                                <li>Career Guidance Sessions</li>
+                                <li>Portfolio Building Assistance</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Choose Plan</a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- FAQ Section -->
-                <div style="background: rgba(16, 16, 28, 0.8); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3); margin-top: 3rem;">
-                    <h2 style="color: #a855f7; margin-bottom: 1.5rem; text-align: center;">Pricing FAQs</h2>
+                <!-- Maths Pricing Content -->
+                <div class="tab-content" id="pricing-maths">
+                    <div class="pricing-grid">
+                        <!-- Group Plan Card -->
+                        <div class="pricing-card popular">
+                            <div class="popular-badge">MOST POPULAR</div>
+                            <h3 class="plan-title">Group Classes</h3>
+                            <div class="plan-price">
+                                <span class="price-currency">₹</span>1499<span class="price-period">/month</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li>Weekly Two Classes</li>
+                                <li>Problem-Solving Sessions</li>
+                                <li>Concept Clarity Focus</li>
+                                <li>Peer Learning</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Practice Worksheets</li>
+                                <li>Doubt Resolution Support</li>
+                                <li>Competition Preparation</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Choose Plan</a>
+                        </div>
+                        <!-- Personalized Plan Card (Highlighted) -->
+                        <div class="pricing-card popular">
+                            
+                            <h3 class="plan-title">Personalized Classes</h3>
+                            <div class="plan-price">
+                                <span class="price-currency">₹</span>2499<span class="price-period">/month</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li><strong>Weekly Two 1-on-1 Classes</strong></li>
+                                <li>Targeted Topic Mastery</li>
+                                <li>Paced To Your Learning</li>
+                                <li>Exam Preparation Help</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Personalized Study Materials</li>
+                                <li>Priority Doubt Support</li>
+                                <li>Progress Tracking Reports</li>
+                                <li>Olympiad Training Available</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Choose Plan</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom Pricing Content -->
+                <div class="tab-content" id="pricing-custom">
+                    <div style="text-align: center; margin-bottom: 2rem;">
+                        <p style="color: #CBD5E1; font-size: 1.125rem; max-width: 800px; margin: 0 auto;">
+                            Need something specific? We create customized training programs tailored to your goals, whether it's learning a specific language, mastering a particular skill, or achieving a unique objective.
+                        </p>
+                    </div>
                     
-                    <div style="display: grid; gap: 1.5rem;">
-                        <div>
-                            <h3 style="color: #fff; font-size: 1.125rem; margin-bottom: 0.5rem;">Do you offer refunds?</h3>
-                            <p style="color: #CBD5E1; margin: 0;">Yes, we offer a 7-day money-back guarantee if you're not satisfied with the course.</p>
+                    <div class="pricing-grid">
+                        <!-- Custom Group Plan Card -->
+                        <div class="pricing-card">
+                            <h3 class="plan-title">Custom Group Training</h3>
+                            <div class="plan-price">
+                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li>Choose Your Programming Language</li>
+                                <li>Define Your Learning Goals</li>
+                                <li>Flexible Class Schedule</li>
+                                <li>Customized Curriculum</li>
+                                <li>Group Size: 3-8 Students</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Project-Based Learning</li>
+                                <li>Industry-Relevant Skills</li>
+                                <li>Recorded Sessions</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Contact Us</a>
                         </div>
-
-                        <div>
-                            <h3 style="color: #fff; font-size: 1.125rem; margin-bottom: 0.5rem;">Can I switch between plans?</h3>
-                            <p style="color: #CBD5E1; margin: 0;">Yes, you can upgrade or downgrade your plan at any time. Contact us for assistance.</p>
+                        
+                        <!-- Custom Personalized Plan Card -->
+                        <div class="pricing-card featured">
+                            <div class="popular-badge">FULLY CUSTOMIZED</div>
+                            <h3 class="plan-title">Custom 1-on-1 Training</h3>
+                            <div class="plan-price">
+                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
+                            </div>
+                            <ul class="plan-features">
+                                <li><strong>100% Personalized Curriculum</strong></li>
+                                <li>Learn Any Language/Technology</li>
+                                <li>Your Schedule, Your Pace</li>
+                                <li>Dedicated Expert Mentor</li>
+                                <li>Real-World Project Training</li>
+                                <li>Course Completion Certificate</li>
+                                <li>Lifetime Recording Access</li>
+                                <li>Career Guidance & Mentorship</li>
+                                <li>Portfolio Development</li>
+                                <li>Interview Preparation</li>
+                                <li>Job Placement Assistance</li>
+                            </ul>
+                            <a href="contact.html" class="plan-button">Contact Us</a>
                         </div>
-
-                        <div>
-                            <h3 style="color: #fff; font-size: 1.125rem; margin-bottom: 0.5rem;">Are there any hidden fees?</h3>
-                            <p style="color: #CBD5E1; margin: 0;">No, the price you see is the price you pay. No hidden fees or charges.</p>
-                        </div>
-
-                        <div>
-                            <h3 style="color: #fff; font-size: 1.125rem; margin-bottom: 0.5rem;">Do you offer installment plans?</h3>
-                            <p style="color: #CBD5E1; margin: 0;">Yes, we offer flexible EMI options. Contact us to discuss payment plans.</p>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: 2.5rem; padding: 2rem; background: rgba(168, 85, 247, 0.1); border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3);">
+                        <h3 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 1rem;">How Custom Training Works</h3>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; text-align: left;">
+                            <div>
+                                <h4 style="color: #fff; margin-bottom: 0.5rem;">1. Tell Us Your Goals</h4>
+                                <p style="color: #CBD5E1; margin: 0;">Share what you want to learn and achieve</p>
+                            </div>
+                            <div>
+                                <h4 style="color: #fff; margin-bottom: 0.5rem;">2. We Design Your Plan</h4>
+                                <p style="color: #CBD5E1; margin: 0;">Our team creates a customized curriculum</p>
+                            </div>
+                            <div>
+                                <h4 style="color: #fff; margin-bottom: 0.5rem;">3. Start Learning</h4>
+                                <p style="color: #CBD5E1; margin: 0;">Begin your personalized learning journey</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <p class="pricing-disclaimer">*Starting prices listed. Other plans and prices may vary.</p>
         </section>
     </main>
 
@@ -321,6 +407,58 @@
         resizeCanvas();
         createParticles();
         animate();
+
+
+                function setupTabs(tabWrapperId) {
+            const tabWrapper = document.getElementById(tabWrapperId);
+            if (!tabWrapper) return;
+
+            const tabButtons = tabWrapper.querySelectorAll('.tab-button');
+            const tabGlider = tabWrapper.querySelector('.tab-glider');
+            const contentPanels = tabWrapper.querySelectorAll('.tab-content');
+
+            function moveGlider(targetButton) {
+                tabGlider.style.width = `${targetButton.offsetWidth}px`;
+                tabGlider.style.left = `${targetButton.offsetLeft}px`;
+            }
+
+            // Initialize glider position
+            const initialActiveButton = tabWrapper.querySelector('.tab-button.active');
+            if (initialActiveButton) {
+                moveGlider(initialActiveButton);
+            }
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Deactivate all
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    contentPanels.forEach(panel => panel.classList.remove('active'));
+
+                    // Activate clicked
+                    button.classList.add('active');
+                    const targetPanelId = button.getAttribute('data-target');
+                    const targetPanel = tabWrapper.querySelector(targetPanelId);
+                    if (targetPanel) {
+                        targetPanel.classList.add('active');
+                    }
+
+                    // Move glider
+                    moveGlider(button);
+                });
+            });
+
+            // Recalculate glider on window resize
+            window.addEventListener('resize', () => {
+                const currentActiveButton = tabWrapper.querySelector('.tab-button.active');
+                if (currentActiveButton) {
+                    moveGlider(currentActiveButton);
+                }
+            });
+        }
+
+        setupTabs('coding-tabs');
+        setupTabs('math-tabs');
+        setupTabs('pricing-tabs');
     </script>
 
     <!-- Load Fixed Mobile Navigation JavaScript -->

@@ -37,6 +37,12 @@
   force = true
 
 [[redirects]]
+  from = "/faq.html"
+  to = "/faq"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/terms.html"
   to = "/terms"
   status = 301
@@ -109,6 +115,11 @@
 [[redirects]]
   from = "/contact"
   to = "/src/pages/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/faq"
+  to = "/src/pages/faq.html"
   status = 200
 
 [[redirects]]
