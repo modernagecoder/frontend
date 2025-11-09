@@ -553,64 +553,14 @@
         });
     </script>
     
-    <!-- Load Fixed Mobile Navigation JavaScript -->
-    <script src="/js/mobile-nav-fixed.js"></script>
+    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
+    <script src="/js/unified-mobile-nav.js"></script>
     
     <!-- Load Keyboard Navigation JavaScript -->
     <script src="/js/keyboard-navigation.js"></script>
     
     <!-- Load Tab Accessibility JavaScript -->
     <script src="/js/tab-accessibility.js"></script>
-    
-    <!-- CRITICAL: Load comprehensive mobile nav fix last -->
-    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
-    <script src="/comprehensive-navigation-fix.js"></script>
-    
-    <!-- EMERGENCY: Load navigation fix -->
-    <script src="/emergency-navigation-fix.js"></script>
-    
-    <!-- EMERGENCY FIX: Ensure Courses dropdown is visible -->
-    <script>
-        // Emergency fix to ensure Courses dropdown is always visible on mobile
-        function ensureCoursesVisible() {
-            const coursesDropdown = document.getElementById('coursesDropdown') || document.querySelector('.nav-item.dropdown');
-            const navMenu = document.getElementById('navMenu');
-            
-            if (coursesDropdown && navMenu && window.innerWidth <= 900) {
-                // Force visibility with inline styles
-                coursesDropdown.style.display = 'block';
-                coursesDropdown.style.visibility = 'visible';
-                coursesDropdown.style.opacity = '1';
-                coursesDropdown.style.position = 'relative';
-                coursesDropdown.style.transform = 'none';
-                
-                const coursesLink = coursesDropdown.querySelector('.nav-link');
-                if (coursesLink) {
-                    coursesLink.style.display = 'flex';
-                    coursesLink.style.visibility = 'visible';
-                    coursesLink.style.opacity = '1';
-                }
-                
-                console.log('Emergency fix applied: Courses dropdown forced visible on About page');
-            }
-        }
-        
-        // Run immediately and on DOM ready
-        ensureCoursesVisible();
-        document.addEventListener('DOMContentLoaded', ensureCoursesVisible);
-        
-        // Run when menu opens
-        document.addEventListener('click', function(e) {
-            if (e.target.closest('#mobileMenuBtn')) {
-                setTimeout(ensureCoursesVisible, 100);
-            }
-        });
-        
-        // Run on resize
-        window.addEventListener('resize', function() {
-            setTimeout(ensureCoursesVisible, 100);
-        });
-    </script>
     
     <script src="scripts/lazy-loading.min.js"></script>
 </body>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Pricing/FAQ/Contact Navigation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #0a0a14;
+            color: white;
+        }
+        .test-section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .test-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #a855f7;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .test-link:hover {
+            background: #9333ea;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+        .success { background: rgba(34, 197, 94, 0.2); }
+        .error { background: rgba(239, 68, 68, 0.2); }
+        .info { background: rgba(59, 130, 246, 0.2); }
+    </style>
+</head>
+<body>
+    <h1>🧪 Test Pricing, FAQ, and Contact Pages</h1>
+    
+    <div class="test-section">
+        <h2>Test Links</h2>
+        <p>Open these pages and test the hamburger menu:</p>
+        <a href="src/pages/pricing.html" class="test-link" target="_blank">Test Pricing Page</a>
+        <a href="src/pages/faq.html" class="test-link" target="_blank">Test FAQ Page</a>
+        <a href="src/pages/contact.html" class="test-link" target="_blank">Test Contact Page</a>
+    </div>
+
+    <div class="test-section">
+        <h2>What to Test</h2>
+        <ol>
+            <li>Open each page in mobile view (DevTools or resize browser to ≤900px)</li>
+            <li>Click the hamburger menu (☰)</li>
+            <li>Check browser console for debug logs</li>
+            <li>Verify menu opens with ONE click</li>
+            <li>Verify menu closes with ONE click</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2>Debug Console Commands</h2>
+        <p>Open browser console (F12) and try:</p>
+        <pre class="status info">
+// Check if script loaded
+typeof UnifiedMobileNav
+
+// Check state
+UnifiedMobileNav.getState()
+
+// Force open
+UnifiedMobileNav.openMenu()
+
+// Force close
+UnifiedMobileNav.closeMenu()
+        </pre>
+    </div>
+
+    <div class="test-section">
+        <h2>Expected Console Output</h2>
+        <p>You should see these logs when the page loads:</p>
+        <pre class="status success">
+[Unified Mobile Nav] Script loaded
+[Unified Mobile Nav] Initializing...
+[Unified Mobile Nav] Elements found
+[Unified Mobile Nav] Initialization complete
+        </pre>
+    </div>
+
+    <div class="test-section">
+        <h2>Common Issues</h2>
+        <ul>
+            <li><strong>Script not loading:</strong> Check if path /js/unified-mobile-nav.js is correct</li>
+            <li><strong>Elements not found:</strong> Check if IDs 'mobileMenuBtn' and 'navMenu' exist</li>
+            <li><strong>Double initialization:</strong> Check if script is loaded twice</li>
+            <li><strong>CSS conflicts:</strong> Check if other CSS is hiding the menu</li>
+        </ul>
+    </div>
+
+    <script>
+        console.log('Test page loaded. Open pricing.html, faq.html, or contact.html to test.');
+    </script>
+</body>
+</html>

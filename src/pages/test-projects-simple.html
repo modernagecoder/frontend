@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Student Projects</title>
+    <style>
+        body {
+            background: #0a0a14;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        .project-card {
+            background: rgba(30, 30, 50, 0.9);
+            border: 2px solid #a855f7;
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            max-width: 600px;
+        }
+        
+        .project-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+        
+        .project-student {
+            font-size: 18px;
+            color: #a855f7;
+            margin-bottom: 15px;
+        }
+        
+        .project-description {
+            font-size: 16px;
+            color: #CBD5E1;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .project-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            background: rgba(168, 85, 247, 0.2);
+            border: 1px solid #a855f7;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .project-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+        
+        .debug {
+            background: rgba(255, 0, 0, 0.1);
+            border: 1px solid red;
+            padding: 10px;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Test - Student Projects</h1>
+    <p>This is a simple test to verify the data is loading correctly.</p>
+    
+    <div class="debug" id="debug">
+        <strong>Debug Info:</strong><br>
+        Loading...
+    </div>
+    
+    <div id="projects-container">
+        <!-- Projects will be added here -->
+    </div>
+
+    <script>
+        console.log('=== TEST PAGE STARTING ===');
+        
+        // Test data
+        const projects = [
+            {
+                title: "AI Chatbot Assistant",
+                student: "Aryan Sharma",
+                description: "An intelligent chatbot powered by machine learning that can answer questions and help with homework.",
+                tags: ["Python", "TensorFlow", "NLP"],
+                link: "https://example.com/ai-chatbot"
+            },
+            {
+                title: "E-Commerce Website",
+                student: "Priya Patel",
+                description: "A fully functional online shopping platform with cart, payment integration, and user authentication.",
+                tags: ["React", "Node.js", "MongoDB"],
+                link: "https://example.com/ecommerce"
+            },
+            {
+                title: "Space Shooter Game",
+                student: "Rohan Kumar",
+                description: "An exciting 2D space shooter game with multiple levels, power-ups, and boss battles.",
+                tags: ["Unity", "C#"],
+                link: "https://example.com/space-game"
+            }
+        ];
+        
+        console.log('Projects loaded:', projects.length);
+        console.log('First project:', projects[0]);
+        
+        // Update debug info
+        const debugDiv = document.getElementById('debug');
+        debugDiv.innerHTML = `
+            <strong>Debug Info:</strong><br>
+            Projects loaded: ${projects.length}<br>
+            First project title: ${projects[0].title}<br>
+            First project student: ${projects[0].student}
+        `;
+        
+        // Display projects
+        const container = document.getElementById('projects-container');
+        
+        projects.forEach((project, index) => {
+            console.log(`Creating card ${index + 1}:`, project.title);
+            
+            const card = document.createElement('div');
+            card.className = 'project-card';
+            card.innerHTML = `
+                <div class="project-title">${project.title}</div>
+                <div class="project-student">👤 ${project.student}</div>
+                <div class="project-description">${project.description}</div>
+                <div class="project-tags">
+                    ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                </div>
+                <a href="${project.link}" class="project-link" target="_blank">View Project →</a>
+            `;
+            
+            container.appendChild(card);
+        });
+        
+        console.log('=== TEST PAGE COMPLETE ===');
+        console.log('If you can see this message and the projects above, the JavaScript is working!');
+    </script>
+</body>
+</html>

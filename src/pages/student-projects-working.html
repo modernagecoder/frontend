@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Projects - Modern Age Coders</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a14;
+            color: white;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Hero Section */
+        .projects-hero {
+            text-align: center;
+            padding: 4rem 2rem 2rem;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(78, 205, 196, 0.1) 100%);
+            border-radius: 2rem;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        .projects-hero h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .projects-hero p {
+            font-size: 1.25rem;
+            color: #CBD5E1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        /* Filter Tabs */
+        .filter-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        .filter-btn {
+            padding: 0.75rem 1.5rem;
+            background: rgba(16, 16, 28, 0.8);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 2rem;
+            color: #CBD5E1;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            border-color: rgba(168, 85, 247, 0.6);
+            background: rgba(168, 85, 247, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .filter-btn.active {
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            border-color: transparent;
+            color: white;
+            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+        }
+
+        /* Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem auto;
+        }
+
+        /* Project Card */
+        .project-card {
+            background: rgba(30, 30, 50, 0.9);
+            border: 2px solid rgba(168, 85, 247, 0.3);
+            border-radius: 1.5rem;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(168, 85, 247, 0.8);
+            box-shadow: 0 20px 60px rgba(168, 85, 247, 0.4);
+        }
+
+        /* Project Thumbnail */
+        .project-thumbnail {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(78, 205, 196, 0.3));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        .placeholder-icon {
+            font-size: 5rem;
+            opacity: 0.5;
+        }
+
+        /* Project Badge */
+        .project-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            padding: 0.5rem 1rem;
+            background: rgba(168, 85, 247, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 2rem;
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: white;
+            z-index: 2;
+        }
+
+        .project-badge.web { background: rgba(78, 205, 196, 0.95); }
+        .project-badge.ai { background: rgba(168, 85, 247, 0.95); }
+        .project-badge.game { background: rgba(255, 165, 0, 0.95); }
+        .project-badge.mobile { background: rgba(59, 130, 246, 0.95); }
+
+        /* Project Content */
+        .project-content {
+            padding: 1.5rem;
+            background: rgba(20, 20, 35, 0.95);
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 0.75rem;
+        }
+
+        .project-student {
+            font-size: 1rem;
+            color: #a855f7;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .project-description {
+            color: #CBD5E1;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-tag {
+            padding: 0.4rem 0.9rem;
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            border-radius: 1rem;
+            font-size: 0.85rem;
+            color: #E0E0E0;
+        }
+
+        .project-footer {
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.7rem 1.3rem;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 0.6rem;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .projects-hero h1 {
+                font-size: 2rem;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .filter-btn {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="projects-hero">
+            <h1>🚀 Student Projects Showcase</h1>
+            <p>Discover amazing projects built by our talented students. From web apps to AI innovations!</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="filter-tabs">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="ai">AI & ML</button>
+            <button class="filter-btn" data-filter="game">Games</button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Projects will be loaded here -->
+        </div>
+    </div>
+
+    <script>
+        console.log('=== STUDENT PROJECTS PAGE LOADING ===');
+        
+        // Projects Data
+        const studentProjects = [
+            {
+                id: 1,
+                title: "AI Chatbot Assistant",
+                student: "Aryan Sharma",
+                category: "ai",
+                description: "An intelligent chatbot powered by machine learning that can answer questions and help with homework.",
+                tags: ["Python", "TensorFlow", "NLP", "Flask"],
+                link: "https://example.com/ai-chatbot"
+            },
+            {
+                id: 2,
+                title: "E-Commerce Website",
+                student: "Priya Patel",
+                category: "web",
+                description: "A fully functional online shopping platform with cart, payment integration, and user authentication.",
+                tags: ["React", "Node.js", "MongoDB", "Stripe"],
+                link: "https://example.com/ecommerce"
+            },
+            {
+                id: 3,
+                title: "Space Shooter Game",
+                student: "Rohan Kumar",
+                category: "game",
+                description: "An exciting 2D space shooter game with multiple levels, power-ups, and boss battles.",
+                tags: ["Unity", "C#", "Game Design"],
+                link: "https://example.com/space-game"
+            },
+            {
+                id: 4,
+                title: "Weather Forecast App",
+                student: "Ananya Singh",
+                category: "mobile",
+                description: "A beautiful weather app that provides real-time forecasts with stunning animations.",
+                tags: ["React Native", "API", "UI/UX"],
+                link: "https://example.com/weather-app"
+            },
+            {
+                id: 5,
+                title: "Portfolio Website",
+                student: "Vikram Reddy",
+                category: "web",
+                description: "A stunning personal portfolio showcasing projects with smooth animations and modern design.",
+                tags: ["HTML", "CSS", "JavaScript", "GSAP"],
+                link: "https://example.com/portfolio"
+            },
+            {
+                id: 6,
+                title: "Image Recognition System",
+                student: "Sneha Gupta",
+                category: "ai",
+                description: "An AI system that can identify objects in images with high accuracy using deep learning.",
+                tags: ["Python", "OpenCV", "CNN", "Keras"],
+                link: "https://example.com/image-recognition"
+            }
+        ];
+
+        console.log('Projects loaded:', studentProjects.length);
+
+        // Display projects
+        function displayProjects(projects) {
+            const grid = document.getElementById('projectsGrid');
+            grid.innerHTML = '';
+
+            console.log('Displaying', projects.length, 'projects');
+
+            projects.forEach(project => {
+                const badgeText = {
+                    'web': 'Web Dev',
+                    'ai': 'AI & ML',
+                    'game': 'Game',
+                    'mobile': 'Mobile'
+                }[project.category];
+
+                const card = document.createElement('div');
+                card.className = 'project-card';
+                card.innerHTML = `
+                    <div class="project-thumbnail">
+                        <div class="placeholder-icon">🚀</div>
+                        <div class="project-badge ${project.category}">${badgeText}</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">${project.title}</h3>
+                        <div class="project-student">
+                            👤 ${project.student}
+                        </div>
+                        <p class="project-description">${project.description}</p>
+                        <div class="project-tags">
+                            ${project.tags.map(tag => `<span class="project-tag">${tag}</span>`).join('')}
+                        </div>
+                        <div class="project-footer">
+                            <a href="${project.link}" target="_blank" class="project-link">
+                                View Project →
+                            </a>
+                        </div>
+                    </div>
+                `;
+
+                card.addEventListener('click', function(e) {
+                    if (!e.target.closest('.project-link')) {
+                        window.open(project.link, '_blank');
+                    }
+                });
+
+                grid.appendChild(card);
+            });
+
+            console.log('Projects displayed successfully');
+        }
+
+        // Filter functionality
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+                
+                const filter = this.getAttribute('data-filter');
+                const filtered = filter === 'all' ? studentProjects : studentProjects.filter(p => p.category === filter);
+                displayProjects(filtered);
+            });
+        });
+
+        // Initial display
+        displayProjects(studentProjects);
+        
+        console.log('=== PAGE LOADED SUCCESSFULLY ===');
+    </script>
+</body>
+</html>

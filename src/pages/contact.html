@@ -382,49 +382,250 @@
         createParticles();
         animate();
 
-        // Contact Form Handling with Validation
-        const contactForm = document.getElementById('contactForm');
-        
-        // Custom validation handler
-        class ContactFormValidator extends FormValidator {
-            onValidSubmit() {
-                // Show loading state
-                const submitBtn = this.form.querySelector('button[type="submit"]');
-                const originalText = submitBtn.textContent;
-                submitBtn.textContent = 'Sending...';
-                submitBtn.disabled = true;
+       
 
-                // Simulate form submission (replace with actual API call)
-                setTimeout(() => {
-                    // Show success message
-                    this.showFormMessage('Thank you for your message! We will get back to you soon.', 'success');
-                    
-                    // Reset form
-                    this.form.reset();
-                    this.inputs.forEach(input => this.clearFieldError(input));
-                    
-                    // Reset button
-                    submitBtn.textContent = originalText;
-                    submitBtn.disabled = false;
-                }, 1500);
+                // ========================================
+            // TRY CODING FORM - VALIDATION & SUBMISSION
+            // ========================================
+
+            /**
+             * VALIDATION FUNCTIONS
+             */
+
+            // Validate email format
+            function validateEmail(email) {
+                const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                return re.test(email);
             }
-        }
 
-        // Initialize form validator
-        if (typeof FormValidator !== 'undefined') {
-            new ContactFormValidator(contactForm);
-        } else {
-            // Fallback if validation script not loaded
-            contactForm.addEventListener('submit', function(e) {
-                e.preventDefault();
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-            });
-        }
+            // Validate phone number (10 digits)
+            function validatePhone(phone) {
+                const re = /^[0-9]{10}$/;
+                const cleaned = phone.replace(/\s/g, '');
+                return re.test(cleaned);
+            }
+
+            // Show error message
+            function showError(fieldId, message) {
+                const errorElement = document.getElementById(fieldId + 'Error');
+                const inputElement = document.getElementById(fieldId);
+
+                if (errorElement) {
+                    errorElement.textContent = message;
+                    errorElement.style.display = 'block';
+                }
+
+                if (inputElement) {
+                    inputElement.classList.add('error');
+                }
+            }
+
+            // Clear error message
+            function clearError(fieldId) {
+                const errorElement = document.getElementById(fieldId + 'Error');
+                const inputElement = document.getElementById(fieldId);
+
+                if (errorElement) {
+                    errorElement.style.display = 'none';
+                }
+
+                if (inputElement) {
+                    inputElement.classList.remove('error');
+                }
+            }
+
+            // Show feedback message (success or error)
+            function showFeedback(type, message) {
+                const feedbackElement = document.getElementById('formFeedback');
+                const messageElement = feedbackElement.querySelector('.feedback-message');
+
+                feedbackElement.className = `form-feedback feedback-${type}`;
+                messageElement.textContent = message;
+                feedbackElement.style.display = 'flex';
+
+                // Auto-hide after 5 seconds
+                setTimeout(() => {
+                    feedbackElement.style.display = 'none';
+                }, 5000);
+            }
+
+            // Show/hide loading state
+            function showLoading(isLoading) {
+                const button = document.querySelector('.submit-button');
+                if (!button) {
+                    console.error('❌ Submit button not found');
+                    return;  // ✅ Safely exit if button not found
+                }
+
+                const buttonText = button.querySelector('.button-text');
+                const buttonLoader = button.querySelector('.button-loader');
+
+                if (!buttonText || !buttonLoader) {
+                    console.error('❌ Button elements not found');
+                    return;  // ✅ Safely exit if elements not found
+                }
+
+                if (isLoading) {
+                    button.disabled = true;
+                    buttonText.style.display = 'none';
+                    buttonLoader.style.display = 'inline-block';
+                } else {
+                    button.disabled = false;
+                    buttonText.style.display = 'inline';
+                    buttonLoader.style.display = 'none';
+                }
+            }
+
+            /**
+             * FORM SUBMISSION HANDLER
+             */
+            const tryCodeForm = document.getElementById('tryCodeForm');
+
+            if (tryCodeForm) {
+                // Real-time validation on input
+                const emailInput = document.getElementById('contactEmail');
+                const phoneInput = document.getElementById('contactPhone');
+
+                if (emailInput) {
+                    emailInput.addEventListener('blur', function () {
+                        if (this.value && !validateEmail(this.value)) {
+                            showError('contactEmail', 'Please enter a valid email address');
+                        } else {
+                            clearError('contactEmail');
+                        }
+                    });
+
+                    emailInput.addEventListener('input', function () {
+                        if (this.value && validateEmail(this.value)) {
+                            clearError('contactEmail');
+                        }
+                    });
+                }
+
+                if (phoneInput) {
+                    phoneInput.addEventListener('blur', function () {
+                        if (this.value && !validatePhone(this.value)) {
+                            showError('contactPhone', 'Please enter a valid 10-digit phone number');
+                        } else {
+                            clearError('contactPhone');
+                        }
+                    });
+
+                    phoneInput.addEventListener('input', function () {
+                        if (this.value && validatePhone(this.value)) {
+                            clearError('contactPhone');
+                        }
+                    });
+                }
+
+                // Form submission
+                tryCodeForm.addEventListener('submit', async function (e) {
+                    e.preventDefault();
+
+                    // Clear all previous errors
+                    clearError('contactEmail');
+                    clearError('contactPhone');
+                    clearError('contactMessage');
+
+                    // Get form data
+                    const formData = {
+                        name: document.getElementById('contactName').value.trim(),
+                        email: document.getElementById('contactEmail').value.trim(),
+                        contact: document.getElementById('contactPhone').value.trim(),
+                        message: document.getElementById('contactMessage').value.trim()
+                    };
+
+                    // Validate all fields
+                    let hasErrors = false;
+
+                    if (!formData.name) {
+                        hasErrors = true;
+                    }
+
+                    if (!validateEmail(formData.email)) {
+                        showError('contactEmail', 'Please enter a valid email address');
+                        hasErrors = true;
+                    }
+
+                    if (!validatePhone(formData.contact)) {
+                        showError('contactPhone', 'Please enter a valid 10-digit phone number');
+                        hasErrors = true;
+                    }
+
+                    if (!formData.message || formData.message.length < 10) {
+                        showError('contactMessage', 'Please enter at least 10 characters');
+                        hasErrors = true;
+                    }
+
+                    if (hasErrors) {
+                        return;
+                    }
+
+                    // Show loading state
+                    showLoading(true);
+
+                    try {
+                        // Send to backend API
+                        const backendUrl = API_BASE_URL + '/api/contact/submit';
+                        console.log('📤 Sending to:', backendUrl);
+
+                        const response = await fetch(backendUrl, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(formData)
+                        });
+
+                        const data = await response.json();
+
+                        if (response.ok) {
+                            // Success!
+                            showFeedback('success', 'Your message has been sent successfully! We\'ll get back to you soon.');
+                            tryCodeForm.reset();
+
+                            // Log success
+                            console.log('✅ Contact form submitted successfully:', data.contactId);
+                        } else {
+                            // Server returned an error
+                            showFeedback('error', data.message || data.error || 'Something went wrong. Please try again.');
+                            console.error('❌ Server error:', data);
+                        }
+                    } catch (error) {
+                        // Network error
+                        showFeedback('error', 'Network error. Please check your connection and try again.');
+                        console.error('❌ Network error:', error);
+                    } finally {
+                        // Hide loading state
+                        showLoading(false);
+                    }
+                });
+            }
+
+            // Close feedback message when clicking the close button
+            const feedbackClose = document.querySelector('.feedback-close');
+            if (feedbackClose) {
+                feedbackClose.addEventListener('click', function () {
+                    document.getElementById('formFeedback').style.display = 'none';
+                });
+            }
+
+            // Close feedback when clicking outside
+            const formFeedback = document.getElementById('formFeedback');
+            if (formFeedback) {
+                formFeedback.addEventListener('click', function (e) {
+                    if (e.target === this) {
+                        this.style.display = 'none';
+                    }
+                });
+            }
+
+
+
     </script>
 
-    <!-- Load Fixed Mobile Navigation JavaScript -->
-    <script src="/js/mobile-nav-fixed.js"></script>
+    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
+    <script src="/js/unified-mobile-nav.js"></script>
     
     <!-- Load Keyboard Navigation JavaScript -->
     <script src="/js/keyboard-navigation.js"></script>
@@ -504,12 +705,5 @@
             }
         }
     </style>
-    
-    <!-- Load navigation JavaScript -->
-    <script src="/js/mobile-nav-fixed.js"></script>
-    <script src="/js/keyboard-navigation.js"></script>
-    <script src="/js/tab-accessibility.js"></script>
-    <script src="/js/mobile-nav-comprehensive-fix.js"></script>
-    <script src="/comprehensive-navigation-fix.js"></script>
 </body>
 </html>

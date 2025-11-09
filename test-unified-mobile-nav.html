@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Navigation Test</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <style>
+        body {
+            background: #0a0a14;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .test-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .test-button {
+            background: #a855f7;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 16px;
+        }
+        .test-button:hover {
+            background: #9333ea;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-family: monospace;
+        }
+        .status.success {
+            background: rgba(34, 197, 94, 0.2);
+            border: 1px solid rgba(34, 197, 94, 0.5);
+        }
+        .status.error {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid rgba(239, 68, 68, 0.5);
+        }
+        .status.info {
+            background: rgba(59, 130, 246, 0.2);
+            border: 1px solid rgba(59, 130, 246, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="background-canvas"></canvas>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="nav-container">
+                    <a href="index.html" class="logo">
+                        <img src="/images/logo.png" alt="Modern Age Coders Logo" class="logo-img">
+                        <span class="logo-text">Modern Age Coders</span>
+                    </a>
+                    <ul class="nav-menu" id="navMenu">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown">
+                            <a href="course.html" class="nav-link">Courses
+                                <svg style="width: 14px; height: 14px; margin-left: 4px; opacity: 0.7;"
+                                    fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                            <div class="dropdown-content">
+                                <a href="course.html?tab=coding&subtab=kids" class="dropdown-item">For Kids</a>
+                                <a href="course.html?tab=coding&subtab=teens" class="dropdown-item">For Teens</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For College</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 100px; max-width: 800px; margin: 0 auto;">
+        <h1>🧪 Mobile Navigation Test Page</h1>
+        <p>This page tests the unified mobile navigation system.</p>
+
+        <div class="test-section">
+            <h2>📱 Test Instructions</h2>
+            <ol>
+                <li>Resize your browser to mobile width (≤900px) or use DevTools mobile view</li>
+                <li>Click the hamburger menu (☰) - it should open with ONE click</li>
+                <li>Click it again - it should close with ONE click</li>
+                <li>Open menu and click "Courses" - it should navigate</li>
+                <li>Open menu and click outside - it should close</li>
+                <li>Open menu and press Escape - it should close</li>
+            </ol>
+        </div>
+
+        <div class="test-section">
+            <h2>🔍 Debug Controls</h2>
+            <button class="test-button" onclick="checkState()">Check State</button>
+            <button class="test-button" onclick="openMenu()">Force Open</button>
+            <button class="test-button" onclick="closeMenu()">Force Close</button>
+            <button class="test-button" onclick="toggleMenu()">Toggle</button>
+            <button class="test-button" onclick="reinit()">Reinitialize</button>
+            <div id="status"></div>
+        </div>
+
+        <div class="test-section">
+            <h2>✅ Expected Behavior</h2>
+            <ul>
+                <li>✅ Single click to open menu</li>
+                <li>✅ Single click to close menu</li>
+                <li>✅ Menu closes when clicking outside</li>
+                <li>✅ Menu closes on Escape key</li>
+                <li>✅ Dropdown navigation works</li>
+                <li>✅ Body scroll locks when menu open</li>
+                <li>✅ Menu resets on desktop resize</li>
+            </ul>
+        </div>
+
+        <div class="test-section">
+            <h2>📊 Current Status</h2>
+            <div id="live-status" class="status info">
+                Waiting for interaction...
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/unified-mobile-nav.js"></script>
+
+    <script>
+        const statusDiv = document.getElementById('status');
+        const liveStatusDiv = document.getElementById('live-status');
+
+        function showStatus(message, type = 'info') {
+            statusDiv.innerHTML = `<div class="status ${type}">${message}</div>`;
+        }
+
+        function updateLiveStatus() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                const state = UnifiedMobileNav.getState();
+                liveStatusDiv.className = 'status ' + (state.isInitialized ? 'success' : 'error');
+                liveStatusDiv.innerHTML = `
+                    <strong>Navigation State:</strong><br>
+                    Initialized: ${state.isInitialized ? '✅ Yes' : '❌ No'}<br>
+                    Menu Open: ${state.isMenuOpen ? '✅ Yes' : '❌ No'}<br>
+                    Mobile View: ${state.isMobile ? '✅ Yes' : '❌ No'}<br>
+                    Window Width: ${window.innerWidth}px
+                `;
+            } else {
+                liveStatusDiv.className = 'status error';
+                liveStatusDiv.innerHTML = '❌ UnifiedMobileNav not loaded!';
+            }
+        }
+
+        function checkState() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                const state = UnifiedMobileNav.getState();
+                showStatus(`
+                    <strong>Current State:</strong><br>
+                    Initialized: ${state.isInitialized}<br>
+                    Menu Open: ${state.isMenuOpen}<br>
+                    Mobile View: ${state.isMobile}<br>
+                    Window Width: ${window.innerWidth}px
+                `, 'info');
+            } else {
+                showStatus('❌ UnifiedMobileNav not available!', 'error');
+            }
+            updateLiveStatus();
+        }
+
+        function openMenu() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                UnifiedMobileNav.openMenu();
+                showStatus('✅ Menu opened programmatically', 'success');
+                updateLiveStatus();
+            } else {
+                showStatus('❌ UnifiedMobileNav not available!', 'error');
+            }
+        }
+
+        function closeMenu() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                UnifiedMobileNav.closeMenu();
+                showStatus('✅ Menu closed programmatically', 'success');
+                updateLiveStatus();
+            } else {
+                showStatus('❌ UnifiedMobileNav not available!', 'error');
+            }
+        }
+
+        function toggleMenu() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                UnifiedMobileNav.toggleMenu();
+                showStatus('✅ Menu toggled', 'success');
+                updateLiveStatus();
+            } else {
+                showStatus('❌ UnifiedMobileNav not available!', 'error');
+            }
+        }
+
+        function reinit() {
+            if (typeof UnifiedMobileNav !== 'undefined') {
+                UnifiedMobileNav.reinit();
+                showStatus('✅ Navigation reinitialized', 'success');
+                updateLiveStatus();
+            } else {
+                showStatus('❌ UnifiedMobileNav not available!', 'error');
+            }
+        }
+
+        // Update live status every second
+        setInterval(updateLiveStatus, 1000);
+
+        // Initial check
+        setTimeout(() => {
+            checkState();
+        }, 500);
+
+        // Monitor menu button clicks
+        document.addEventListener('click', function(e) {
+            if (e.target.closest('#mobileMenuBtn')) {
+                setTimeout(updateLiveStatus, 100);
+            }
+        });
+    </script>
+</body>
+</html>

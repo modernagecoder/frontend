@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Projects - Modern Age Coders</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0a0a14;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin: 2rem 0;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.2rem;
+            color: #CBD5E1;
+            margin-bottom: 3rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .project-card {
+            background: rgba(30, 30, 50, 0.95);
+            border: 2px solid rgba(168, 85, 247, 0.4);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            border-color: rgba(168, 85, 247, 0.8);
+            box-shadow: 0 20px 60px rgba(168, 85, 247, 0.4);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 220px;
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(78, 205, 196, 0.3));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 5rem;
+            position: relative;
+        }
+
+        .badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 8px 16px;
+            background: rgba(168, 85, 247, 0.95);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .badge.web { background: rgba(78, 205, 196, 0.95); }
+        .badge.ai { background: rgba(168, 85, 247, 0.95); }
+        .badge.game { background: rgba(255, 165, 0, 0.95); }
+        .badge.mobile { background: rgba(59, 130, 246, 0.95); }
+
+        .project-info {
+            padding: 25px;
+            background: rgba(20, 20, 35, 0.95);
+        }
+
+        .project-title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 12px;
+        }
+
+        .project-student {
+            font-size: 1.05rem;
+            color: #a855f7;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .project-description {
+            color: #CBD5E1;
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 15px;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            padding: 6px 14px;
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            border-radius: 15px;
+            font-size: 0.85rem;
+            color: #E0E0E0;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #a855f7, #4ecdc4);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .projects-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Student Projects Showcase</h1>
+        <p class="subtitle">Amazing projects built by our talented students</p>
+        
+        <div class="projects-grid" id="projectsGrid">
+            <!-- Projects will be loaded here -->
+        </div>
+    </div>
+
+    <script>
+        console.log('Loading projects...');
+        
+        const projects = [
+            {
+                title: "AI Chatbot Assistant",
+                student: "Aryan Sharma",
+                category: "ai",
+                description: "An intelligent chatbot powered by machine learning that can answer questions and help with homework.",
+                tags: ["Python", "TensorFlow", "NLP", "Flask"],
+                link: "https://example.com/ai-chatbot"
+            },
+            {
+                title: "E-Commerce Website",
+                student: "Priya Patel",
+                category: "web",
+                description: "A fully functional online shopping platform with cart, payment integration, and user authentication.",
+                tags: ["React", "Node.js", "MongoDB", "Stripe"],
+                link: "https://example.com/ecommerce"
+            },
+            {
+                title: "Space Shooter Game",
+                student: "Rohan Kumar",
+                category: "game",
+                description: "An exciting 2D space shooter game with multiple levels, power-ups, and boss battles.",
+                tags: ["Unity", "C#", "Game Design"],
+                link: "https://example.com/space-game"
+            },
+            {
+                title: "Weather Forecast App",
+                student: "Ananya Singh",
+                category: "mobile",
+                description: "A beautiful weather app that provides real-time forecasts with stunning animations.",
+                tags: ["React Native", "API", "UI/UX"],
+                link: "https://example.com/weather-app"
+            },
+            {
+                title: "Portfolio Website",
+                student: "Vikram Reddy",
+                category: "web",
+                description: "A stunning personal portfolio showcasing projects with smooth animations and modern design.",
+                tags: ["HTML", "CSS", "JavaScript", "GSAP"],
+                link: "https://example.com/portfolio"
+            },
+            {
+                title: "Image Recognition System",
+                student: "Sneha Gupta",
+                category: "ai",
+                description: "An AI system that can identify objects in images with high accuracy using deep learning.",
+                tags: ["Python", "OpenCV", "CNN", "Keras"],
+                link: "https://example.com/image-recognition"
+            },
+            {
+                title: "Task Manager App",
+                student: "Aditya Verma",
+                category: "web",
+                description: "A productivity app to manage tasks, set reminders, and track progress with a clean interface.",
+                tags: ["Vue.js", "Firebase", "PWA"],
+                link: "https://example.com/task-manager"
+            },
+            {
+                title: "Fitness Tracker",
+                student: "Ishita Joshi",
+                category: "mobile",
+                description: "Track your workouts, calories, and fitness goals with this comprehensive health app.",
+                tags: ["Flutter", "Dart", "SQLite"],
+                link: "https://example.com/fitness-tracker"
+            },
+            {
+                title: "Puzzle Adventure Game",
+                student: "Karan Mehta",
+                category: "game",
+                description: "A brain-teasing puzzle game with challenging levels and beautiful graphics.",
+                tags: ["Godot", "GDScript", "Level Design"],
+                link: "https://example.com/puzzle-game"
+            },
+            {
+                title: "Social Media Dashboard",
+                student: "Riya Kapoor",
+                category: "web",
+                description: "A comprehensive dashboard to manage multiple social media accounts in one place.",
+                tags: ["React", "Redux", "Chart.js", "API"],
+                link: "https://example.com/social-dashboard"
+            },
+            {
+                title: "Voice Assistant",
+                student: "Siddharth Rao",
+                category: "ai",
+                description: "A voice-controlled assistant that can perform tasks, answer questions, and control smart devices.",
+                tags: ["Python", "Speech Recognition", "AI"],
+                link: "https://example.com/voice-assistant"
+            },
+            {
+                title: "Recipe Finder App",
+                student: "Meera Nair",
+                category: "mobile",
+                description: "Find delicious recipes based on ingredients you have at home with this smart app.",
+                tags: ["React Native", "API", "Firebase"],
+                link: "https://example.com/recipe-app"
+            }
+        ];
+
+        const grid = document.getElementById('projectsGrid');
+        
+        projects.forEach(project => {
+            const badgeText = {
+                'web': 'Web Dev',
+                'ai': 'AI & ML',
+                'game': 'Game',
+                'mobile': 'Mobile'
+            }[project.category];
+
+            const card = document.createElement('div');
+            card.className = 'project-card';
+            
+            card.innerHTML = `
+                <div class="project-image">
+                    🚀
+                    <div class="badge ${project.category}">${badgeText}</div>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">${project.title}</h3>
+                    <div class="project-student">👤 ${project.student}</div>
+                    <p class="project-description">${project.description}</p>
+                    <div class="tags">
+                        ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                    </div>
+                    <a href="${project.link}" target="_blank" class="project-link">View Project →</a>
+                </div>
+            `;
+            
+            card.addEventListener('click', function(e) {
+                if (!e.target.closest('.project-link')) {
+                    window.open(project.link, '_blank');
+                }
+            });
+            
+            grid.appendChild(card);
+        });
+        
+        console.log('Projects loaded successfully!');
+        console.log('Total projects:', projects.length);
+    </script>
+</body>
+</html>
