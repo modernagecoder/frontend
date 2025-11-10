@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean URL Test - Modern Age Coders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 2rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .test-section {
+            margin-bottom: 3rem;
+        }
+        
+        .test-section h2 {
+            color: #333;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .test-link {
+            display: block;
+            padding: 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .test-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .status {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-left: 0.5rem;
+        }
+        
+        .status.success {
+            background: #10b981;
+            color: white;
+        }
+        
+        .info-box {
+            background: #f0f9ff;
+            border-left: 4px solid #667eea;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+        
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+        }
+        
+        .info-box ul {
+            margin-left: 1.5rem;
+            color: #333;
+        }
+        
+        .info-box li {
+            margin: 0.5rem 0;
+        }
+        
+        code {
+            background: #f3f4f6;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 1.75rem;
+            }
+            
+            .link-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Clean URL Test Page</h1>
+        <p class="subtitle">Test all navigation links to verify clean URLs are working correctly</p>
+        
+        <div class="info-box">
+            <h3>✅ What to Check:</h3>
+            <ul>
+                <li>Click each link below</li>
+                <li>Check the address bar - it should show clean URLs like <code>/about</code>, <code>/courses</code></li>
+                <li>You should NOT see <code>/src/pages/</code> or <code>.html</code> in the URL</li>
+                <li>Test on both desktop and mobile (resize your browser)</li>
+            </ul>
+        </div>
+        
+        <div class="test-section">
+            <h2>📄 Main Pages <span class="status success">Updated</span></h2>
+            <div class="link-grid">
+                <a href="/" class="test-link">🏠 Home<br><small>Should show: /</small></a>
+                <a href="/about" class="test-link">ℹ️ About<br><small>Should show: /about</small></a>
+                <a href="/courses" class="test-link">📚 Courses<br><small>Should show: /courses</small></a>
+                <a href="/pricing" class="test-link">💰 Pricing<br><small>Should show: /pricing</small></a>
+                <a href="/faq" class="test-link">❓ FAQ<br><small>Should show: /faq</small></a>
+                <a href="/contact" class="test-link">📧 Contact<br><small>Should show: /contact</small></a>
+                <a href="/blog" class="test-link">📝 Blog<br><small>Should show: /blog</small></a>
+                <a href="/login" class="test-link">🔐 Login<br><small>Should show: /login</small></a>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>🎓 Course Categories <span class="status success">Updated</span></h2>
+            <div class="link-grid">
+                <a href="/courses?tab=coding&subtab=kids" class="test-link">👶 For Kids<br><small>Should show: /courses?tab=...</small></a>
+                <a href="/courses?tab=coding&subtab=teens" class="test-link">🧑 For Teens<br><small>Should show: /courses?tab=...</small></a>
+                <a href="/courses?tab=coding&subtab=college" class="test-link">🎓 For College<br><small>Should show: /courses?tab=...</small></a>
+                <a href="/courses?tab=coding&subtab=girls" class="test-link">👧 For Girls<br><small>Should show: /courses?tab=...</small></a>
+            </div>
+        </div>
+        
+        <div class="test-section">
+            <h2>⚖️ Legal Pages <span class="status success">Updated</span></h2>
+            <div class="link-grid">
+                <a href="/privacy" class="test-link">🔒 Privacy Policy<br><small>Should show: /privacy</small></a>
+                <a href="/terms" class="test-link">📜 Terms of Service<br><small>Should show: /terms</small></a>
+            </div>
+        </div>
+        
+        <div class="info-box">
+            <h3>📱 Mobile Testing:</h3>
+            <ul>
+                <li>Resize your browser to mobile size (< 900px width)</li>
+                <li>Click the hamburger menu (☰)</li>
+                <li>Click any link - menu should close and navigate</li>
+                <li>Check the URL in address bar - should be clean</li>
+                <li>Test the Courses dropdown on mobile</li>
+            </ul>
+        </div>
+        
+        <div class="info-box" style="background: #f0fdf4; border-left-color: #10b981;">
+            <h3>✨ Expected Results:</h3>
+            <ul>
+                <li><strong>Desktop:</strong> All links work, dropdowns function, clean URLs display</li>
+                <li><strong>Mobile:</strong> Hamburger menu works, links navigate and close menu, clean URLs display</li>
+                <li><strong>URLs:</strong> No <code>/src/pages/</code> or <code>.html</code> visible</li>
+                <li><strong>Blog:</strong> Shows as <code>/blog</code> not <code>/content/blog/generated/index.html</code></li>
+            </ul>
+        </div>
+        
+        <div style="text-align: center; margin-top: 3rem; padding-top: 2rem; border-top: 2px solid #e5e7eb;">
+            <p style="color: #666; font-size: 0.875rem;">
+                All links updated by Kiro AI • Modern Age Coders © 2025
+            </p>
+        </div>
+    </div>
+</body>
+</html>
