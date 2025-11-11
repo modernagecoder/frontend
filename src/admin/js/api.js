@@ -228,16 +228,16 @@ class APIClient {
   }
 
   
-  // ============================================
+   // ============================================
   // CORPORATE TRAINING ENDPOINTS
   // ============================================
   
-  async getCorporateTraining(params = {}) {
+  async getCorporateTrainings(params = {}) {
     const queryString = new URLSearchParams(params).toString();
     return await this.request(`/admin/corporate-training?${queryString}`);
   }
   
-  async getCorporateTrainingById(id) {
+  async getCorporateTraining(id) {
     return await this.request(`/admin/corporate-training/${id}`);
   }
   
@@ -257,6 +257,7 @@ class APIClient {
   async getCorporateTrainingStats() {
     return await this.request('/admin/corporate-training/stats/summary');
   }
+
 }
 
 
