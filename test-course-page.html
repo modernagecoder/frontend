@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Page Diagnostic</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        h1 { color: #a855f7; }
+        .test-box {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+        }
+        .test-link {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px 10px 10px 0;
+            background: #a855f7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .test-link:hover {
+            background: #4ecdc4;
+            transform: translateY(-2px);
+        }
+        .image-test {
+            max-width: 300px;
+            border: 2px solid #4ecdc4;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .status.good { background: #4ecdc4; color: #1a1a2e; }
+        .status.warning { background: #ffa500; color: #1a1a2e; }
+        code {
+            background: #0f3460;
+            padding: 2px 8px;
+            border-radius: 3px;
+            color: #4ecdc4;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            padding: 10px;
+            margin: 5px 0;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .checklist li:before {
+            content: "☐ ";
+            color: #4ecdc4;
+            font-size: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Course Page Diagnostic Test</h1>
+    
+    <div class="test-box">
+        <h2>✅ Clean URL Test</h2>
+        <p>Click this link to test the Scratch Programming course:</p>
+        <a href="/courses/scratch-programming-complete-course" class="test-link" target="_blank">
+            Open Scratch Course
+        </a>
+        <p><span class="status good">Expected URL:</span> <code>/courses/scratch-programming-complete-course</code></p>
+    </div>
+
+    <div class="test-box">
+        <h2>🖼️ Image Path Test</h2>
+        <p>Testing if the course image loads correctly:</p>
+        <img src="/courses/scratch-programming-complete-course/images/scratch-kids.png" 
+             alt="Scratch Course Image" 
+             class="image-test"
+             onerror="this.style.border='2px solid red'; this.alt='❌ Image failed to load';"
+             onload="this.style.border='2px solid #4ecdc4'; console.log('✅ Image loaded successfully');">
+        <p><small>If you see an image above, the path is correct!</small></p>
+    </div>
+
+    <div class="test-box">
+        <h2>📋 What to Check When You Open the Course</h2>
+        <ul class="checklist">
+            <li><strong>URL in address bar:</strong> Should be <code>/courses/scratch-programming-complete-course</code></li>
+            <li><strong>Page title:</strong> Should say "Scratch Programming Mastery"</li>
+            <li><strong>Hero image:</strong> Should show a Scratch-related image at the top</li>
+            <li><strong>Navigation:</strong> Should have header with menu</li>
+            <li><strong>Content:</strong> Should show course details, curriculum, pricing</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🐛 If You See Issues</h2>
+        
+        <h3>Issue 1: Page shows generic icon/placeholder</h3>
+        <p><span class="status warning">Solution:</span></p>
+        <ul>
+            <li>Scroll to the TOP of the page (you might be scrolled down)</li>
+            <li>Press <code>Home</code> key on keyboard to jump to top</li>
+            <li>Or press <code>Ctrl + Home</code></li>
+        </ul>
+
+        <h3>Issue 2: Image not loading</h3>
+        <p><span class="status warning">Solution:</span></p>
+        <ul>
+            <li>Check browser console (F12) for errors</li>
+            <li>Verify image exists: <code>content/courses/generated/scratch-programming-complete-course/images/scratch-kids.png</code></li>
+            <li>Try hard refresh: <code>Ctrl + Shift + R</code></li>
+        </ul>
+
+        <h3>Issue 3: CSS not loading</h3>
+        <p><span class="status warning">Solution:</span></p>
+        <ul>
+            <li>Check if <code>style.css</code> exists in course folder</li>
+            <li>Open browser DevTools (F12) → Network tab</li>
+            <li>Refresh page and check if CSS files load</li>
+            <li>Look for 404 errors</li>
+        </ul>
+
+        <h3>Issue 4: Page is blank</h3>
+        <p><span class="status warning">Solution:</span></p>
+        <ul>
+            <li>Check browser console (F12) for JavaScript errors</li>
+            <li>Try different browser</li>
+            <li>Clear browser cache</li>
+            <li>Restart dev server</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🔧 Quick Fixes</h2>
+        <p><strong>Restart Dev Server:</strong></p>
+        <ol>
+            <li>Stop current server (Ctrl + C in terminal)</li>
+            <li>Run: <code>node scripts/dev-server.js</code></li>
+            <li>Refresh browser</li>
+        </ol>
+
+        <p><strong>Clear Browser Cache:</strong></p>
+        <ol>
+            <li>Press <code>Ctrl + Shift + Delete</code></li>
+            <li>Select "Cached images and files"</li>
+            <li>Click "Clear data"</li>
+            <li>Refresh page</li>
+        </ol>
+
+        <p><strong>Hard Refresh:</strong></p>
+        <ul>
+            <li>Windows/Linux: <code>Ctrl + Shift + R</code> or <code>Ctrl + F5</code></li>
+            <li>Mac: <code>Cmd + Shift + R</code></li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>📞 Browser Console Check</h2>
+        <p>Open browser console to see diagnostic info:</p>
+        <ol>
+            <li>Press <code>F12</code> to open DevTools</li>
+            <li>Click "Console" tab</li>
+            <li>Look for any red error messages</li>
+            <li>Take a screenshot if you see errors</li>
+        </ol>
+        <script>
+            console.log('✅ JavaScript is working!');
+            console.log('📍 Current URL:', window.location.href);
+            console.log('📄 Page Title:', document.title);
+            console.log('🖼️ Testing image path: /courses/scratch-programming-complete-course/images/scratch-kids.png');
+        </script>
+    </div>
+
+    <div class="test-box">
+        <h2>🎯 More Test Links</h2>
+        <a href="/courses/python-programming-masterclass-zero-to-advanced" class="test-link" target="_blank">
+            Python Course
+        </a>
+        <a href="/courses/full-stack-web-development-masterclass" class="test-link" target="_blank">
+            Web Dev Course
+        </a>
+        <a href="/courses" class="test-link" target="_blank">
+            All Courses
+        </a>
+        <a href="/" class="test-link" target="_blank">
+            Home Page
+        </a>
+    </div>
+
+    <div class="test-box">
+        <h2>✨ Expected Result</h2>
+        <p>When you click "Open Scratch Course" above, you should see:</p>
+        <ul>
+            <li>✅ Clean URL in address bar</li>
+            <li>✅ Full course page with header navigation</li>
+            <li>✅ Hero section with course title and image</li>
+            <li>✅ Course details, curriculum, pricing sections</li>
+            <li>✅ Professional styling with purple/blue theme</li>
+        </ul>
+        <p><strong>NOT:</strong> A generic icon or placeholder page</p>
+    </div>
+
+</body>
+</html>

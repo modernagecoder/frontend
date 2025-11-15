@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Clean URLs Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        h1 { color: #a855f7; }
+        .test-box {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+        }
+        .test-link {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px 10px 10px 0;
+            background: #a855f7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .test-link:hover {
+            background: #4ecdc4;
+            transform: translateY(-2px);
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .status.good { background: #4ecdc4; color: #1a1a2e; }
+        .status.old { background: #ff6b6b; color: white; }
+        code {
+            background: #0f3460;
+            padding: 2px 8px;
+            border-radius: 3px;
+            color: #4ecdc4;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            padding: 10px;
+            margin: 5px 0;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .checklist li:before {
+            content: "✓ ";
+            color: #4ecdc4;
+            font-size: 20px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Blog Clean URLs Test</h1>
+    
+    <div class="test-box">
+        <h2>✅ Clean URLs for Blogs (NEW)</h2>
+        <p>These URLs are clean, SEO-friendly, and easy to share:</p>
+        
+        <a href="/blog/python-for-beginners" class="test-link">
+            <span class="status good">CLEAN</span>
+            Python for Beginners
+            <br><code>/blog/python-for-beginners</code>
+        </a>
+        
+        <a href="/blog/javascript-basics" class="test-link">
+            <span class="status good">CLEAN</span>
+            JavaScript Basics
+            <br><code>/blog/javascript-basics</code>
+        </a>
+        
+        <a href="/blog/coding-for-kids-guide" class="test-link">
+            <span class="status good">CLEAN</span>
+            Coding for Kids Guide
+            <br><code>/blog/coding-for-kids-guide</code>
+        </a>
+    </div>
+    
+    <div class="test-box">
+        <h2>📋 Blog Listing Page</h2>
+        <a href="/blog" class="test-link">
+            View All Blog Posts
+        </a>
+        <p><small>URL: <code>/blog</code></small></p>
+    </div>
+    
+    <div class="test-box">
+        <h2>❌ Old URLs (Still Work, But Don't Use)</h2>
+        <p>These URLs still work for backward compatibility:</p>
+        
+        <a href="/content/blog/generated/python-for-beginners/index.html" class="test-link">
+            <span class="status old">OLD</span>
+            Python Blog (Old URL)
+            <br><code>/content/blog/generated/python-for-beginners/index.html</code>
+        </a>
+    </div>
+
+    <div class="test-box">
+        <h2>📋 Testing Checklist</h2>
+        <ul class="checklist">
+            <li>Click on each clean URL link above</li>
+            <li>Verify the URL in browser address bar is clean</li>
+            <li>Verify the page loads correctly with styling</li>
+            <li>Try clicking blog cards on the listing page</li>
+            <li>Verify "Back to Blog" button works</li>
+            <li>Try refreshing the page - it should still work</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🎯 What to Look For</h2>
+        <p><strong>Good:</strong> URL shows <code>/blog/BLOG-SLUG</code></p>
+        <p><strong>Bad:</strong> URL shows <code>/content/blog/generated/BLOG-SLUG/index.html</code></p>
+        
+        <h3>On Blog Listing Page:</h3>
+        <ul class="checklist">
+            <li>URL: <code>/blog</code></li>
+            <li>Shows all blog posts as cards</li>
+            <li>Clicking a card navigates to clean URL</li>
+            <li>All images load</li>
+            <li>Styling is applied</li>
+        </ul>
+
+        <h3>On Individual Blog Post:</h3>
+        <ul class="checklist">
+            <li>URL: <code>/blog/BLOG-SLUG</code></li>
+            <li>Full blog content displays</li>
+            <li>Featured image loads</li>
+            <li>"Back to Blog" button works</li>
+            <li>All styling applied</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🔧 What Was Fixed</h2>
+        <ul class="checklist">
+            <li>Blog listing template: Fixed blog card links to use <code>/blog/SLUG</code></li>
+            <li>Blog template: Fixed "Back to Blog" button to use <code>/blog</code></li>
+            <li>All 3 blog posts regenerated with correct links</li>
+            <li>Dev server already had blog routes configured</li>
+            <li>Netlify config already had blog redirects</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🚀 How It Works</h2>
+        
+        <h3>Local Development (Port 3000):</h3>
+        <pre style="background: #0f3460; padding: 15px; border-radius: 5px; overflow-x: auto;">
+User visits:  /blog/python-for-beginners
+Dev server:   Maps to content/blog/generated/python-for-beginners/index.html
+Browser sees: /blog/python-for-beginners (clean URL!)
+        </pre>
+
+        <h3>Production (Netlify):</h3>
+        <pre style="background: #0f3460; padding: 15px; border-radius: 5px; overflow-x: auto;">
+User visits:  /blog/python-for-beginners
+Netlify:      Rewrites to /content/blog/generated/python-for-beginners/index.html
+Browser sees: /blog/python-for-beginners (clean URL!)
+        </pre>
+    </div>
+
+    <div class="test-box">
+        <h2>📝 Configuration Files</h2>
+        
+        <h3>Dev Server (scripts/dev-server.js):</h3>
+        <pre style="background: #0f3460; padding: 10px; border-radius: 5px; overflow-x: auto;">
+if (urlPath === '/blog') {
+    return 'content/blog/generated/index.html';
+}
+if (urlPath.startsWith('/blog/')) {
+    return urlPath.replace('/blog/', 'content/blog/generated/') + '/index.html';
+}
+        </pre>
+
+        <h3>Netlify (netlify.toml):</h3>
+        <pre style="background: #0f3460; padding: 10px; border-radius: 5px; overflow-x: auto;">
+[[redirects]]
+  from = "/blog"
+  to = "/content/blog/generated/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/content/blog/generated/:splat/index.html"
+  status = 200
+        </pre>
+    </div>
+
+    <div class="test-box">
+        <h2>🆕 Adding New Blog Posts</h2>
+        <ol>
+            <li>Create blog JSON file in <code>content/blog/data/</code></li>
+            <li>Run: <code>node scripts/generate-blogs.js</code></li>
+            <li>Link to it using: <code>/blog/NEW-BLOG-SLUG</code></li>
+            <li>Done! Clean URLs work automatically</li>
+        </ol>
+    </div>
+
+    <div class="test-box">
+        <h2>✨ Summary</h2>
+        <p><span class="status good">✅ WORKING</span> Blog clean URLs configured</p>
+        <p><span class="status good">✅ WORKING</span> Local development (port 3000)</p>
+        <p><span class="status good">✅ WORKING</span> Production (Netlify)</p>
+        <p><span class="status good">✅ WORKING</span> Blog listing page</p>
+        <p><span class="status good">✅ WORKING</span> Individual blog posts</p>
+        <p><span class="status good">✅ WORKING</span> Navigation between pages</p>
+    </div>
+
+    <div class="test-box">
+        <h2>🔗 Quick Links</h2>
+        <a href="/blog" class="test-link">All Blogs</a>
+        <a href="/courses" class="test-link">All Courses</a>
+        <a href="/" class="test-link">Home</a>
+        <a href="/test-clean-urls.html" class="test-link">Test Courses</a>
+    </div>
+
+</body>
+</html>

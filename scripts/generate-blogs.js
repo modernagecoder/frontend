@@ -427,7 +427,7 @@ class BlogGenerator {
                                 <span class="blog-card-date">${this.formatDate(featuredPost.meta.date)}</span>
                                 <span class="blog-card-read-time">${featuredPost.meta.readTime || '5 min read'}</span>
                             </div>
-                            <a href="${featuredPost.meta.slug}/" class="cta-button">Read Article</a>
+                            <a href="/blog/${featuredPost.meta.slug}" class="cta-button">Read Article</a>
                         </div>
                     </div>
                 </section>

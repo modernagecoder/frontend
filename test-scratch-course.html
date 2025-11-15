@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scratch Course Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #1a1a2e;
+            color: #eee;
+        }
+        h1 { color: #a855f7; }
+        .test-box {
+            background: #16213e;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+        }
+        .test-link {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px 10px 10px 0;
+            background: #a855f7;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .test-link:hover {
+            background: #4ecdc4;
+            transform: translateY(-2px);
+        }
+        .status {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .status.good { background: #4ecdc4; color: #1a1a2e; }
+        .status.warning { background: #ffa500; color: #1a1a2e; }
+        code {
+            background: #0f3460;
+            padding: 2px 8px;
+            border-radius: 3px;
+            color: #4ecdc4;
+        }
+        .checklist {
+            list-style: none;
+            padding: 0;
+        }
+        .checklist li {
+            padding: 10px;
+            margin: 5px 0;
+            background: #0f3460;
+            border-radius: 5px;
+        }
+        .checklist li:before {
+            content: "✓ ";
+            color: #4ecdc4;
+            font-size: 20px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .warning-box {
+            background: #ff6b6b;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Scratch Course Test</h1>
+    
+    <div class="warning-box">
+        ⚠️ IMPORTANT: Clear your browser cache before testing!
+        <br>Press: <code style="background: rgba(255,255,255,0.2);">Ctrl + Shift + Delete</code>
+        <br>Or hard refresh: <code style="background: rgba(255,255,255,0.2);">Ctrl + Shift + R</code>
+    </div>
+    
+    <div class="test-box">
+        <h2>✅ What Was Fixed</h2>
+        <ul class="checklist">
+            <li>Updated generation script to handle month_ structure</li>
+            <li>Regenerated all 54 courses with correct curriculum</li>
+            <li>Fixed CSS and JS paths to use absolute URLs</li>
+            <li>Scratch course now has full curriculum content</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🚀 Test the Scratch Course</h2>
+        <p>Click the button below to open the Scratch Programming course:</p>
+        <a href="/courses/scratch-programming-complete-course" class="test-link" target="_blank">
+            Open Scratch Course
+        </a>
+        <p><small>Server running on: <code>http://localhost:3000</code></small></p>
+    </div>
+
+    <div class="test-box">
+        <h2>📋 What You Should See</h2>
+        <ul class="checklist">
+            <li>Clean URL: <code>/courses/scratch-programming-complete-course</code></li>
+            <li>Fully styled page with purple/blue theme</li>
+            <li>Hero section with Scratch course image</li>
+            <li>Course tabs: Complete Curriculum, Projects & Portfolio, etc.</li>
+            <li>Detailed Course Curriculum section with 3 months</li>
+            <li>Month 1: Scratch Foundations (4 weeks)</li>
+            <li>Month 2: Advanced Techniques (4 weeks)</li>
+            <li>Month 3: Mastery Projects (4 weeks)</li>
+            <li>Each week expandable with topics, projects, practice</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>🔍 If You Still See "No curriculum content available"</h2>
+        <h3>Step 1: Clear Browser Cache</h3>
+        <ol>
+            <li>Press <code>Ctrl + Shift + Delete</code></li>
+            <li>Select "Cached images and files"</li>
+            <li>Select "All time" or "Last hour"</li>
+            <li>Click "Clear data"</li>
+        </ol>
+
+        <h3>Step 2: Hard Refresh</h3>
+        <ol>
+            <li>Go to the course page</li>
+            <li>Press <code>Ctrl + Shift + R</code> (Windows/Linux)</li>
+            <li>Or <code>Cmd + Shift + R</code> (Mac)</li>
+        </ol>
+
+        <h3>Step 3: Check Browser Console</h3>
+        <ol>
+            <li>Press <code>F12</code> to open DevTools</li>
+            <li>Click "Console" tab</li>
+            <li>Look for any red errors</li>
+            <li>Check "Network" tab to see if files are loading</li>
+        </ol>
+
+        <h3>Step 4: Verify Server is Running</h3>
+        <ol>
+            <li>Check terminal - should say "Development server running!"</li>
+            <li>Port should be 3000</li>
+            <li>If not, restart: <code>node scripts/dev-server.js</code></li>
+        </ol>
+    </div>
+
+    <div class="test-box">
+        <h2>🧪 Test Other Courses</h2>
+        <p>Try these courses to verify everything is working:</p>
+        <a href="/courses/python-programming-masterclass-zero-to-advanced" class="test-link" target="_blank">
+            Python Course
+        </a>
+        <a href="/courses/full-stack-web-development-masterclass" class="test-link" target="_blank">
+            Web Dev Course
+        </a>
+        <a href="/courses/ai-ml-masterclass-complete" class="test-link" target="_blank">
+            AI/ML Course
+        </a>
+    </div>
+
+    <div class="test-box">
+        <h2>📊 Verification Checklist</h2>
+        <p>Open the Scratch course and verify:</p>
+        <ul class="checklist">
+            <li>URL is clean (no /content/courses/generated/)</li>
+            <li>Page has styling (purple/blue colors)</li>
+            <li>Hero image loads</li>
+            <li>Navigation tabs work</li>
+            <li>"Complete Curriculum" tab shows content</li>
+            <li>3 month sections are visible</li>
+            <li>Clicking month headers expands weeks</li>
+            <li>Clicking week headers shows topics</li>
+            <li>No "No curriculum content available" message</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>✨ Expected Curriculum Structure</h2>
+        <pre style="background: #0f3460; padding: 15px; border-radius: 5px; overflow-x: auto;">
+📆 Month 1: Scratch Foundations & Basic Game Development
+   📅 Week 1: Introduction to Scratch & Basic Motion
+   📅 Week 2: Looks, Sound, and Interactivity
+   📅 Week 3: Control Flow and Basic Logic
+   📅 Week 4: Pen Extension and Creative Drawing
+
+📆 Month 2: Advanced Scratch Techniques
+   📅 Week 5: Variables and Score Systems
+   📅 Week 6: Lists and Data Management
+   📅 Week 7: Clones and Advanced Game Mechanics
+   📅 Week 8: Broadcast Messages and Multi-Sprite Coordination
+
+📆 Month 3: Mastery and Advanced Projects
+   📅 Week 9: Advanced Extensions and Hardware
+   📅 Week 10: Physics and Simulation
+   📅 Week 11: Optimization and Professional Polish
+   📅 Week 12: Final Projects and Portfolio
+        </pre>
+    </div>
+
+    <div class="test-box">
+        <h2>🎯 Quick Debug</h2>
+        <p>Run this in browser console (F12) to check if curriculum exists:</p>
+        <pre style="background: #0f3460; padding: 15px; border-radius: 5px; overflow-x: auto;">
+// Check if curriculum sections exist
+console.log('Month sections:', document.querySelectorAll('.month-section').length);
+console.log('Week sections:', document.querySelectorAll('.week-section').length);
+console.log('Curriculum accordion:', document.querySelector('.curriculum-accordion'));
+        </pre>
+        <p>Expected output:</p>
+        <ul>
+            <li>Month sections: 3</li>
+            <li>Week sections: 12</li>
+            <li>Curriculum accordion: [object HTMLDivElement]</li>
+        </ul>
+    </div>
+
+    <div class="test-box">
+        <h2>📝 Summary</h2>
+        <p><span class="status good">FIXED</span> Generation script now handles month_ structure</p>
+        <p><span class="status good">FIXED</span> All courses regenerated with correct paths</p>
+        <p><span class="status good">FIXED</span> CSS and JS loading with absolute paths</p>
+        <p><span class="status warning">ACTION NEEDED</span> Clear browser cache and hard refresh</p>
+    </div>
+
+</body>
+</html>

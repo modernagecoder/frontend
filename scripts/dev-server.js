@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8080;
+const PORT = 3000;
 
 // MIME types
 const mimeTypes = {
@@ -65,6 +65,11 @@ function resolveFilePath(url) {
     }
     if (urlPath.startsWith('/blog/')) {
         return urlPath.replace('/blog/', 'content/blog/generated/') + '/index.html';
+    }
+    
+    // Course static assets (CSS, JS, images from course folders)
+    if (urlPath.startsWith('/content/courses/generated/')) {
+        return urlPath.substring(1); // Remove leading slash
     }
     
     // Courses

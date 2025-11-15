@@ -358,6 +358,13 @@ class CourseGenerator {
         const phases = this.extractPhases(courseData);
         
         if (phases.length === 0) {
+            // Check for month_ structure (direct months without phases)
+            const months = this.extractMonths(courseData);
+            if (months.length > 0) {
+                // Generate months directly without phase wrapper
+                return months.map(month => this.generateMonthHTML(month.data, month.key)).join('');
+            }
+            
             // Fallback to old curriculum format if no phases found
             if (courseData.curriculum && Array.isArray(courseData.curriculum)) {
                 return courseData.curriculum.map(module => `
@@ -620,7 +627,7 @@ class CourseGenerator {
         // Hero image or SVG
         if (meta.image_path) {
             const imageName = path.basename(meta.image_path);
-            html = html.replace(/{{HERO_IMAGE}}/g, `<img src="./images/${imageName}" alt="${this.escapeHtml(meta.title)}" loading="lazy" class="hero-course-image">`);
+            html = html.replace(/{{HERO_IMAGE}}/g, `<img src="/content/courses/generated/${meta.slug}/images/${imageName}" alt="${this.escapeHtml(meta.title)}" loading="lazy" class="hero-course-image">`);
         } else {
             html = html.replace(/{{HERO_IMAGE}}/g, `
                 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" class="hero-course-svg">
@@ -710,7 +717,7 @@ class CourseGenerator {
         // Image meta tags
         if (meta.image_path) {
             const imageName = path.basename(meta.image_path);
-            const imageUrl = `./images/${imageName}`;
+            const imageUrl = `/content/courses/generated/${meta.slug}/images/${imageName}`;
             html = html.replace(/{{OG_IMAGE}}/g, imageUrl);
             html = html.replace(/{{TWITTER_IMAGE}}/g, imageUrl);
         } else {
