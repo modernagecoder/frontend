@@ -1,0 +1,356 @@
+/**
+ * Share Button Component Styles
+ * Beautiful, modern share button with dropdown and toast notification
+ */
+
+/* Share Button Container */
+.share-button-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 1.5rem;
+    z-index: 9999;
+    isolation: isolate;
+}
+
+/* Ensure parent containers don't clip the dropdown */
+.course-hero-content,
+.blog-hero-content,
+.hero-content {
+    overflow: visible !important;
+    position: relative;
+}
+
+.course-hero,
+.blog-hero,
+section.course-hero {
+    overflow: visible !important;
+}
+
+/* Specific fix for course pages */
+.course-detail-page .course-hero {
+    overflow: visible !important;
+}
+
+.course-detail-page .course-hero-content {
+    overflow: visible !important;
+}
+
+/* Main Share Button */
+.share-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #a855f7, #4ecdc4);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.share-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #4ecdc4, #a855f7);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.share-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(168, 85, 247, 0.4);
+}
+
+.share-button:hover::before {
+    opacity: 1;
+}
+
+.share-button:active {
+    transform: translateY(0);
+}
+
+.share-icon,
+.share-text {
+    position: relative;
+    z-index: 1;
+}
+
+.share-icon {
+    flex-shrink: 0;
+}
+
+/* Share Dropdown */
+.share-dropdown {
+    position: absolute;
+    top: calc(100% + 0.5rem);
+    left: 0;
+    background: rgb(16, 16, 28);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(168, 85, 247, 0.3);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    min-width: 220px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9), 
+                0 0 0 1px rgba(255, 255, 255, 0.1),
+                0 20px 60px rgba(168, 85, 247, 0.2);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 99999;
+    pointer-events: none;
+}
+
+.share-dropdown.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Share Options */
+.share-option {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.share-option:hover {
+    background: rgba(168, 85, 247, 0.2);
+    color: white;
+    transform: translateX(4px);
+}
+
+.share-option svg {
+    flex-shrink: 0;
+    opacity: 0.8;
+}
+
+.share-option:hover svg {
+    opacity: 1;
+}
+
+/* Specific social media colors on hover */
+.share-option[data-action="whatsapp"]:hover {
+    background: rgba(37, 211, 102, 0.2);
+}
+
+.share-option[data-action="twitter"]:hover {
+    background: rgba(29, 155, 240, 0.2);
+}
+
+.share-option[data-action="facebook"]:hover {
+    background: rgba(24, 119, 242, 0.2);
+}
+
+.share-option[data-action="linkedin"]:hover {
+    background: rgba(10, 102, 194, 0.2);
+}
+
+.share-option[data-action="email"]:hover {
+    background: rgba(234, 67, 53, 0.2);
+}
+
+.share-option[data-action="copy"]:hover {
+    background: rgba(78, 205, 196, 0.2);
+}
+
+/* Toast Notification */
+.share-toast {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(100px);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 1.5rem;
+    background: rgba(16, 16, 28, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(78, 205, 196, 0.3);
+    border-radius: 50px;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 10000;
+    pointer-events: none;
+}
+
+.share-toast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.toast-icon {
+    flex-shrink: 0;
+    color: #4ecdc4;
+}
+
+.toast-message {
+    white-space: nowrap;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .share-button {
+        padding: 0.65rem 1.25rem;
+        font-size: 0.9rem;
+    }
+
+    .share-text {
+        display: none;
+    }
+
+    .share-button {
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .share-dropdown {
+        left: auto;
+        right: 0;
+        min-width: 180px;
+    }
+
+    .share-option {
+        padding: 0.65rem 0.85rem;
+        font-size: 0.9rem;
+    }
+
+    .share-toast {
+        bottom: 1rem;
+        left: 1rem;
+        right: 1rem;
+        transform: translateX(0) translateY(100px);
+        max-width: calc(100% - 2rem);
+    }
+
+    .share-toast.show {
+        transform: translateX(0) translateY(0);
+    }
+
+    .toast-message {
+        white-space: normal;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .share-dropdown {
+        min-width: 160px;
+    }
+
+    .share-option {
+        gap: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .share-option svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+/* Dark mode support (if needed) */
+@media (prefers-color-scheme: light) {
+    .share-dropdown {
+        background: rgba(255, 255, 255, 0.95);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .share-option {
+        color: rgba(0, 0, 0, 0.8);
+    }
+
+    .share-option:hover {
+        color: rgba(0, 0, 0, 0.95);
+    }
+
+    .share-toast {
+        background: rgba(255, 255, 255, 0.95);
+        color: rgba(0, 0, 0, 0.9);
+        border-color: rgba(78, 205, 196, 0.5);
+    }
+}
+
+/* Accessibility */
+.share-button:focus,
+.share-option:focus {
+    outline: 2px solid #4ecdc4;
+    outline-offset: 2px;
+}
+
+/* Animation for dropdown items */
+.share-dropdown.active .share-option {
+    animation: slideIn 0.3s ease forwards;
+}
+
+.share-dropdown.active .share-option:nth-child(1) { animation-delay: 0.05s; }
+.share-dropdown.active .share-option:nth-child(2) { animation-delay: 0.1s; }
+.share-dropdown.active .share-option:nth-child(3) { animation-delay: 0.15s; }
+.share-dropdown.active .share-option:nth-child(4) { animation-delay: 0.2s; }
+.share-dropdown.active .share-option:nth-child(5) { animation-delay: 0.25s; }
+.share-dropdown.active .share-option:nth-child(6) { animation-delay: 0.3s; }
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Floating position variant (for pages without hero) */
+.share-button-container.floating {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+}
+
+.share-button-container.floating .share-dropdown {
+    bottom: calc(100% + 0.5rem);
+    top: auto;
+    right: 0;
+    left: auto;
+}
+
+@media (max-width: 768px) {
+    .share-button-container.floating {
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

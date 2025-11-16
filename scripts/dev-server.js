@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = 3001;
 
 // MIME types
 const mimeTypes = {
@@ -37,6 +37,12 @@ function resolveFilePath(url) {
     if (urlPath === '/courses') return 'src/pages/course.html';
     if (urlPath === '/course.html') return 'src/pages/course.html';
     if (urlPath === '/courses.html') return 'src/pages/course.html';
+    if (urlPath === '/contact') return 'src/pages/contact.html';
+    if (urlPath === '/pricing') return 'src/pages/pricing.html';
+    if (urlPath === '/login') return 'src/pages/login.html';
+    if (urlPath === '/faq') return 'src/pages/faq.html';
+    if (urlPath === '/terms') return 'src/pages/terms.html';
+    if (urlPath === '/privacy') return 'src/pages/privacy.html';
     if (urlPath === '/index.html') return 'src/pages/index.html';
     
     // Static assets
@@ -67,12 +73,17 @@ function resolveFilePath(url) {
         return urlPath.replace('/blog/', 'content/blog/generated/') + '/index.html';
     }
     
+    // Course category pages (must come before individual courses)
+    if (urlPath.startsWith('/courses/coding/') || urlPath.startsWith('/courses/mathematics/')) {
+        return 'src/pages/course.html';
+    }
+    
     // Course static assets (CSS, JS, images from course folders)
     if (urlPath.startsWith('/content/courses/generated/')) {
         return urlPath.substring(1); // Remove leading slash
     }
     
-    // Courses
+    // Individual course pages
     if (urlPath.startsWith('/courses/')) {
         return urlPath.replace('/courses/', 'content/courses/generated/') + '/index.html';
     }

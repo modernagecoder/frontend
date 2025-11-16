@@ -571,17 +571,17 @@
                                 </svg>
                             </a>
                             <div class="dropdown-content">
-                                <a href="/courses?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages
+                                <a href="/courses/coding/kids" class="dropdown-item">For Kids (Ages
                                     6-12)</a>
-                                <a href="/courses?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages
+                                <a href="/courses/coding/teens" class="dropdown-item">For Teens (Ages
                                     13-18)</a>
-                                <a href="/courses?tab=coding&subtab=college" class="dropdown-item">For College
+                                <a href="/courses/coding/college" class="dropdown-item">For College
                                     Students</a>
-                                <a href="/courses?tab=coding&subtab=college" class="dropdown-item">For
+                                <a href="/courses/coding/college" class="dropdown-item">For
                                     Professionals</a>
-                                <a href="/courses?tab=coding&subtab=customized" class="dropdown-item">Customized
+                                <a href="/courses/coding/corporate" class="dropdown-item">Customized
                                     Training</a>
-                                <a href="/courses?tab=coding&subtab=girls" class="dropdown-item highlight">Special
+                                <a href="/courses/coding/girls" class="dropdown-item highlight">Special
                                     For Girls</a>
                             </div>
                         </li>
@@ -3000,10 +3000,31 @@
             console.log('Initializing tabs...');
             initializeTabs();
 
-            // Handle URL parameters for direct tab access
+            // Handle clean URL paths for direct tab access
+            // Support both old query params and new clean URLs
             const urlParams = new URLSearchParams(window.location.search);
-            const urlTab = urlParams.get('tab');
-            const urlSubtab = urlParams.get('subtab');
+            let urlTab = urlParams.get('tab');
+            let urlSubtab = urlParams.get('subtab');
+
+            // Parse clean URL format: /courses/coding/teens
+            const pathParts = window.location.pathname.split('/').filter(p => p);
+            if (pathParts.length >= 3 && pathParts[0] === 'courses') {
+                urlTab = pathParts[1]; // 'coding' or 'mathematics'
+                urlSubtab = pathParts[2]; // 'kids', 'teens', etc.
+                
+                // Map 'mathematics' to 'maths' for internal tab system
+                if (urlTab === 'mathematics') {
+                    urlTab = 'maths';
+                }
+                
+                // Map URL-friendly names to internal subtab names
+                const subtabMap = {
+                    'middle-school': 'middle',
+                    'high-school': 'high',
+                    'corporate': 'customized'
+                };
+                urlSubtab = subtabMap[urlSubtab] || urlSubtab;
+            }
 
             console.log('URL Parameters:', { tab: urlTab, subtab: urlSubtab });
 

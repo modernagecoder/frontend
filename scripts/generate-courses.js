@@ -717,7 +717,7 @@ class CourseGenerator {
         // Image meta tags
         if (meta.image_path) {
             const imageName = path.basename(meta.image_path);
-            const imageUrl = `/content/courses/generated/${meta.slug}/images/${imageName}`;
+            const imageUrl = `https://learn.modernagecoders.com/content/courses/generated/${meta.slug}/images/${imageName}`;
             html = html.replace(/{{OG_IMAGE}}/g, imageUrl);
             html = html.replace(/{{TWITTER_IMAGE}}/g, imageUrl);
         } else {

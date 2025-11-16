@@ -142,12 +142,24 @@
   to = "/content/blog/generated/index.html"
   status = 200
 
+# Course category URLs (must come before individual courses)
+[[redirects]]
+  from = "/courses/coding/*"
+  to = "/src/pages/course.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/mathematics/*"
+  to = "/src/pages/course.html"
+  status = 200
+
 # Course static assets (CSS, JS, images)
 [[redirects]]
   from = "/content/courses/generated/*"
   to = "/content/courses/generated/:splat"
   status = 200
 
+# Individual course pages
 [[redirects]]
   from = "/courses/*"
   to = "/content/courses/generated/:splat/index.html"

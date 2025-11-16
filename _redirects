@@ -28,7 +28,15 @@
 /privacy /src/pages/privacy.html 200
 /login /src/pages/login.html 200
 /blog /content/blog/generated/index.html 200
+
+# Course category pages (must come before individual courses)
+/courses/coding/* /src/pages/course.html 200
+/courses/mathematics/* /src/pages/course.html 200
+
+# Course static assets
 /content/courses/generated/* /content/courses/generated/:splat 200
+
+# Individual course pages
 /courses/* /content/courses/generated/:splat/index.html 200
 /blog/* /content/blog/generated/:splat/index.html 200
 
