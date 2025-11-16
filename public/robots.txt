@@ -1,17 +1,35 @@
-# robots.txt for learn.modernagecoders.com
+# robots.txt for Modern Age Coders Learning Platform
 
-# Allow all search engines to crawl the site
+# Allow all crawlers to access all content
 User-agent: *
 Allow: /
 
-# Disallow admin and private areas
+# Disallow admin and test pages
 Disallow: /admin/
-Disallow: /private/
-Disallow: /scripts/
-Disallow: /*.json$
+Disallow: /test-*.html
+Disallow: /*-test.html
+Disallow: /check-status.html
+Disallow: /dummy.html
+Disallow: /form-example.html
+
+# Allow important pages
+Allow: /courses/
+Allow: /blog/
+Allow: /about
+Allow: /contact
+Allow: /pricing
 
 # Sitemap location
 Sitemap: https://learn.modernagecoders.com/sitemap.xml
 
-# Crawl delay (optional, adjust if needed)
-# Crawl-delay: 1
+# Crawl delay (be nice to servers)
+Crawl-delay: 1
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
