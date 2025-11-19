@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example Page - Modern Age Coders</title>
+    
+    <meta name="description" content="Example page showing how to use reusable navigation and footer components">
+    
+    <!-- All your existing CSS files -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <!-- Add any other CSS files you need -->
+</head>
+<body>
+    <!-- Skip link for accessibility -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================ -->
+    <!-- NAVIGATION PLACEHOLDER                       -->
+    <!-- The navigation will be loaded here           -->
+    <!-- ============================================ -->
+    <div id="nav-placeholder"></div>
+
+    <!-- ============================================ -->
+    <!-- YOUR PAGE CONTENT STARTS HERE                -->
+    <!-- ============================================ -->
+    <main id="main">
+        <section class="section">
+            <div style="max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; text-align: center;">
+                <h1 style="font-size: 3rem; margin-bottom: 1rem; background: linear-gradient(135deg, #a855f7, #4ecdc4); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                    Example Page with Components
+                </h1>
+                <p style="font-size: 1.25rem; color: #64748b; margin-bottom: 2rem;">
+                    This page demonstrates how to use the reusable navigation and footer components.
+                </p>
+                
+                <div style="background: rgba(168, 85, 247, 0.1); border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: left;">
+                    <h2 style="color: #a855f7; margin-bottom: 1rem;">✅ What You See Here</h2>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="padding: 0.5rem 0; color: #334155;">
+                            <strong>Navigation Bar:</strong> Loaded from <code>/components/nav.html</code>
+                        </li>
+                        <li style="padding: 0.5rem 0; color: #334155;">
+                            <strong>Footer:</strong> Loaded from <code>/components/footer.html</code>
+                        </li>
+                        <li style="padding: 0.5rem 0; color: #334155;">
+                            <strong>This Content:</strong> Unique to this page
+                        </li>
+                    </ul>
+                </div>
+
+                <div style="background: rgba(78, 205, 196, 0.1); border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: left;">
+                    <h2 style="color: #4ecdc4; margin-bottom: 1rem;">🚀 How It Works</h2>
+                    <ol style="color: #334155; line-height: 1.8;">
+                        <li>Page loads with placeholder divs</li>
+                        <li>Component loader script fetches nav.html and footer.html</li>
+                        <li>Placeholders are replaced with actual components</li>
+                        <li>All styles and scripts work normally</li>
+                    </ol>
+                </div>
+
+                <div style="background: rgba(255, 193, 7, 0.1); border-radius: 12px; padding: 2rem; margin: 2rem 0; text-align: left;">
+                    <h2 style="color: #f59e0b; margin-bottom: 1rem;">📝 To Use on Your Page</h2>
+                    <pre style="background: #1e293b; color: #e2e8f0; padding: 1.5rem; border-radius: 8px; overflow-x: auto; text-align: left;"><code>&lt;!-- Replace your navigation with: --&gt;
+&lt;div id="nav-placeholder"&gt;&lt;/div&gt;
+
+&lt;!-- Your page content here --&gt;
+&lt;main id="main"&gt;
+    &lt;h1&gt;Your Content&lt;/h1&gt;
+&lt;/main&gt;
+
+&lt;!-- Replace your footer with: --&gt;
+&lt;div id="footer-placeholder"&gt;&lt;/div&gt;
+
+&lt;!-- Add before closing body tag: --&gt;
+&lt;script src="/js/components-loader.js"&gt;&lt;/script&gt;</code></pre>
+                </div>
+
+                <div style="margin-top: 3rem;">
+                    <a href="/" class="cta-button" style="display: inline-block; padding: 1rem 2rem; background: linear-gradient(135deg, #a855f7, #4ecdc4); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">
+                        Back to Home
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================ -->
+    <!-- FOOTER PLACEHOLDER                           -->
+    <!-- The footer will be loaded here               -->
+    <!-- ============================================ -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ============================================ -->
+    <!-- COMPONENT LOADER - MUST BE LOADED FIRST      -->
+    <!-- ============================================ -->
+    <script src="/js/components-loader.js"></script>
+
+    <!-- ============================================ -->
+    <!-- YOUR PAGE SCRIPTS                            -->
+    <!-- ============================================ -->
+    <script>
+        // Example: Listen for components to load
+        document.addEventListener('componentsLoaded', function() {
+            console.log('✅ Navigation and footer components loaded successfully!');
+            
+            // Now you can safely interact with navigation elements
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (mobileMenuBtn) {
+                console.log('✅ Mobile menu button found and ready');
+            }
+        });
+
+        // Your other page-specific scripts here
+    </script>
+</body>
+</html>

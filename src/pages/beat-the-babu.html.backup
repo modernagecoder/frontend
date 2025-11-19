@@ -52,29 +52,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
-    <!-- Main CSS for navigation and footer -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-
     <style>
-        /* Ensure navigation and footer display properly */
-        header, nav, footer {
-            display: block !important;
-            position: relative !important;
-        }
-        
-        header {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            z-index: 1000 !important;
-            background: rgba(2, 6, 23, 0.95) !important;
-            backdrop-filter: blur(10px) !important;
-        }
-        
         :root {
             --bg-dark: #020617;
             --card-bg: rgba(15, 23, 42, 0.6);
@@ -98,15 +76,12 @@
                 radial-gradient(at 100% 100%, hsla(339,49%,20%,1) 0, transparent 50%);
             color: var(--text);
             font-family: var(--font-ui);
-            min-height: 100vh;
+            height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            overflow-x: hidden;
+            overflow: hidden;
             transition: background-color 0.2s;
-            padding-top: 80px; /* Space for navigation */
-            padding-bottom: 60px; /* Space for footer */
         }
 
         /* Game Feel Classes */
@@ -291,12 +266,6 @@
 </script>
 
 <body>
-    <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
-    <div id="nav-placeholder"></div>
-<br>
     <div class="game-card" id="card-area">
         
         <div class="hud">
@@ -594,18 +563,5 @@
             }
         }, 100);
     </script>
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- ============================================ -->
-    <script src="/js/components-loader.js"></script>
-
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
-    <div id="footer-placeholder"></div>
-
 </body>
 </html>

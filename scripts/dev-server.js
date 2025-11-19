@@ -44,6 +44,8 @@ function resolveFilePath(url) {
     if (urlPath === '/faq') return 'src/pages/faq.html';
     if (urlPath === '/terms') return 'src/pages/terms.html';
     if (urlPath === '/privacy') return 'src/pages/privacy.html';
+    if (urlPath === '/student-labs') return 'src/pages/student-labs.html';
+    if (urlPath === '/projects') return 'src/pages/projects.html';
     if (urlPath === '/index.html') return 'src/pages/index.html';
     
     // Static assets
@@ -52,6 +54,9 @@ function resolveFilePath(url) {
     }
     if (urlPath.startsWith('/js/')) {
         return urlPath.replace('/js/', 'src/js/');
+    }
+    if (urlPath.startsWith('/components/')) {
+        return urlPath.substring(1); // Remove leading slash, serve from root
     }
     if (urlPath.startsWith('/images/')) {
         return urlPath.replace('/images/', 'public/images/');

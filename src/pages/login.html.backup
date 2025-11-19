@@ -17,36 +17,14 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
     <meta name="theme-color" content="#a855f7">
     
-    <!-- Main CSS for navigation and footer -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-    
     <style>
-        /* Ensure navigation and footer display properly */
-        header, nav, footer {
-            display: block !important;
-            position: relative !important;
-        }
-        
-        header {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            z-index: 1000 !important;
-            background: rgba(10, 10, 20, 0.95) !important;
-            backdrop-filter: blur(10px) !important;
-        }
-        
         /* Reset and Base Styles with !important to override external CSS */
         html, body {
             margin: 0 !important;
             padding: 0 !important;
             box-sizing: border-box !important;
             width: 100% !important;
-            min-height: 100% !important;
+            height: 100% !important;
         }
         
         *, *::before, *::after {
@@ -59,12 +37,11 @@
             background: linear-gradient(135deg, #0a0a14 0%, #1a1a2e 50%, #16213e 100%) !important;
             min-height: 100vh !important;
             overflow-x: hidden !important;
-            padding-top: 80px !important; /* Space for fixed navigation */
         }
         
         /* Login Page Container */
         .login-page {
-            min-height: calc(100vh - 80px) !important;
+            min-height: 100vh !important;
             display: flex !important;
             align-items: center !important;
             justify-content: center !important;
@@ -441,12 +418,6 @@
     </style>
 </head>
 <body>
-    <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
-    <div id="nav-placeholder"></div>
-
     <div class="login-page">
         <div class="login-container">
             <div class="login-header">
@@ -559,18 +530,5 @@
     
     <script src="../js/config.js"></script>
     <script src="../js/login-page.js"></script>
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- ============================================ -->
-    <script src="/js/components-loader.js"></script>
-
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
-    <div id="footer-placeholder"></div>
-
 </body>
 </html>

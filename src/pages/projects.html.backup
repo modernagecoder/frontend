@@ -164,12 +164,6 @@
     </style>
 </head>
 <body>
-    <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
-    <div id="nav-placeholder"></div>
-
     <div class="container">
         <h1>🚀 Student Projects Showcase</h1>
         <p class="subtitle">Amazing projects built by our talented students</p>
@@ -322,18 +316,5 @@
         console.log('Projects loaded successfully!');
         console.log('Total projects:', projects.length);
     </script>
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- ============================================ -->
-    <script src="/js/components-loader.js"></script>
-
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
-    <div id="footer-placeholder"></div>
-
 </body>
 </html>
