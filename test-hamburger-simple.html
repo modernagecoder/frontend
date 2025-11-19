@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Hamburger Test</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 80px 20px 20px;
+            background: #000002;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .test-info {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 10px;
+        }
+        .status {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .success { background: #22c55e; color: white; }
+        .error { background: #ef4444; color: white; }
+        .info { background: #3b82f6; color: white; }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background: #8A2BE2;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #6A1BB2;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation placeholder -->
+    <div id="nav-placeholder"></div>
+
+    <div class="test-info">
+        <h1>🍔 Hamburger Menu Test</h1>
+        
+        <div id="status" class="status info">
+            Checking mobile navigation...
+        </div>
+
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Resize browser to mobile width (≤900px)</li>
+            <li>Look for hamburger icon (☰) in top right</li>
+            <li>Click the hamburger icon</li>
+            <li>Menu should slide in from left</li>
+        </ol>
+
+        <h2>Debug Info:</h2>
+        <div id="debug-info" style="background: rgba(0,0,0,0.5); padding: 10px; border-radius: 5px; font-family: monospace; font-size: 12px;">
+            Loading...
+        </div>
+
+        <h2>Manual Tests:</h2>
+        <button onclick="testHamburgerClick()">Test Hamburger Click</button>
+        <button onclick="testMenuToggle()">Toggle Menu Manually</button>
+        <button onclick="checkElements()">Check Elements</button>
+    </div>
+
+    <!-- Load components and mobile nav -->
+    <script src="/js/components-loader.js"></script>
+    <script src="/js/mobile-navigation.js"></script>
+
+    <script>
+        // Debug script
+        let debugLog = [];
+        
+        function log(message) {
+            debugLog.push(message);
+            updateDebugInfo();
+            console.log(message);
+        }
+
+        function updateDebugInfo() {
+            const debugDiv = document.getElementById('debug-info');
+            debugDiv.innerHTML = debugLog.join('<br>');
+        }
+
+        function updateStatus(message, type) {
+            const statusDiv = document.getElementById('status');
+            statusDiv.textContent = message;
+            statusDiv.className = 'status ' + type;
+        }
+
+        // Listen for components loaded
+        document.addEventListener('componentsLoaded', function() {
+            log('✅ Components loaded event fired');
+            setTimeout(checkElements, 300);
+        });
+
+        function checkElements() {
+            log('🔍 Checking for elements...');
+            
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.getElementById('navMenu');
+            
+            log('mobileMenuBtn: ' + (mobileMenuBtn ? '✅ Found' : '❌ Not found'));
+            log('navMenu: ' + (navMenu ? '✅ Found' : '❌ Not found'));
+            
+            if (mobileMenuBtn && navMenu) {
+                updateStatus('✅ All elements found! Hamburger should work.', 'success');
+                log('navMenu classes: ' + navMenu.className);
+                log('mobileMenuBtn classes: ' + mobileMenuBtn.className);
+            } else {
+                updateStatus('❌ Elements missing! Hamburger won\'t work.', 'error');
+                log('Available IDs: ' + Array.from(document.querySelectorAll('[id]')).map(el => el.id).join(', '));
+            }
+        }
+
+        function testHamburgerClick() {
+            log('🖱️ Simulating hamburger click...');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (mobileMenuBtn) {
+                mobileMenuBtn.click();
+                log('✅ Click simulated');
+            } else {
+                log('❌ Hamburger button not found');
+            }
+        }
+
+        function testMenuToggle() {
+            log('🔄 Manually toggling menu...');
+            const navMenu = document.getElementById('navMenu');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            
+            if (navMenu && mobileMenuBtn) {
+                navMenu.classList.toggle('active');
+                mobileMenuBtn.classList.toggle('active');
+                log('✅ Menu toggled. Active: ' + navMenu.classList.contains('active'));
+            } else {
+                log('❌ Elements not found');
+            }
+        }
+
+        // Check on load
+        window.addEventListener('load', function() {
+            log('📄 Page loaded');
+            setTimeout(checkElements, 1000);
+        });
+
+        // Log window width
+        function logWidth() {
+            log('📏 Window width: ' + window.innerWidth + 'px');
+        }
+        logWidth();
+        window.addEventListener('resize', logWidth);
+    </script>
+</body>
+</html>

@@ -2742,23 +2742,31 @@
             });
 
             // --- Navbar Scroll Effect with Smooth Transition ---
-            const navbar = document.querySelector('.navbar');
-            let lastScrollTop = 0;
-
-            window.addEventListener('scroll', () => {
-                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-                if (scrollTop > 50) {
-                    navbar.style.background = 'rgba(12, 12, 22, 0.95)';
-                    navbar.style.backdropFilter = 'blur(30px)';
-                    navbar.style.boxShadow = '0 10px 40px rgba(0, 0, 0, 0.5)';
-                } else {
-                    navbar.style.background = 'var(--glass-bg-dark)';
-                    navbar.style.backdropFilter = 'blur(var(--glass-blur))';
-                    navbar.style.boxShadow = 'var(--glass-shadow)';
+            // Wait for navbar to be loaded by components-loader
+            document.addEventListener('componentsLoaded', function() {
+                const navbar = document.querySelector('.navbar');
+                if (!navbar) {
+                    console.warn('Navbar not found for scroll effect');
+                    return;
                 }
+                
+                let lastScrollTop = 0;
 
-                lastScrollTop = scrollTop;
+                window.addEventListener('scroll', () => {
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+                    if (scrollTop > 50) {
+                        navbar.style.background = 'rgba(12, 12, 22, 0.95)';
+                        navbar.style.backdropFilter = 'blur(30px)';
+                        navbar.style.boxShadow = '0 10px 40px rgba(0, 0, 0, 0.5)';
+                    } else {
+                        navbar.style.background = 'var(--glass-bg-dark)';
+                        navbar.style.backdropFilter = 'blur(var(--glass-blur))';
+                        navbar.style.boxShadow = 'var(--glass-shadow)';
+                    }
+
+                    lastScrollTop = scrollTop;
+                });
             });
 
             // --- Intersection Observer for Scroll Animations ---
@@ -3398,6 +3406,12 @@
     <!-- MUST BE LOADED BEFORE OTHER SCRIPTS          -->
     <!-- ============================================ -->
     <script src="/js/components-loader.js"></script>
+    
+    <!-- ============================================ -->
+    <!-- MOBILE NAVIGATION SCRIPT                     -->
+    <!-- Handles hamburger menu functionality         -->
+    <!-- ============================================ -->
+    <script src="/js/mobile-navigation.js"></script>
 
 </body>
 

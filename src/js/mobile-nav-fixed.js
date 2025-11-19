@@ -6,35 +6,63 @@
 (function() {
     'use strict';
     
-    console.log('[Mobile Nav] Starting initialization...');
+    console.log('[Mobile Nav Fixed] Script loaded');
     
-    // Wait for DOM to be ready
+    // CRITICAL FIX: Wait for components to be loaded first
+    function waitForComponents() {
+        console.log('[Mobile Nav Fixed] Waiting for components to load...');
+        
+        // Listen for the componentsLoaded event
+        document.addEventListener('componentsLoaded', function() {
+            console.log('[Mobile Nav Fixed] Components loaded event received');
+            setTimeout(initMobileNavigation, 100);
+        });
+        
+        // Fallback: Try after delay if event doesn't fire
+        setTimeout(function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            if (mobileMenuBtn && !window.__mobileNavFixedInitialized) {
+                console.log('[Mobile Nav Fixed] Fallback initialization triggered');
+                initMobileNavigation();
+            }
+        }, 1000);
+    }
+    
+    // Start waiting for components
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initMobileNavigation);
+        document.addEventListener('DOMContentLoaded', waitForComponents);
     } else {
-        initMobileNavigation();
+        waitForComponents();
     }
     
     function initMobileNavigation() {
-        console.log('[Mobile Nav] DOM ready, initializing...');
+        // Prevent double initialization
+        if (window.__mobileNavFixedInitialized) {
+            console.log('[Mobile Nav Fixed] Already initialized, skipping');
+            return;
+        }
+        
+        console.log('[Mobile Nav Fixed] DOM ready, initializing...');
         
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const navMenu = document.getElementById('navMenu');
         
         if (!mobileMenuBtn) {
-            console.error('[Mobile Nav] Mobile menu button not found! Looking for element with ID "mobileMenuBtn"');
+            console.error('[Mobile Nav Fixed] Mobile menu button not found! Looking for element with ID "mobileMenuBtn"');
             return;
         }
         
         if (!navMenu) {
-            console.error('[Mobile Nav] Navigation menu not found! Looking for element with ID "navMenu"');
+            console.error('[Mobile Nav Fixed] Navigation menu not found! Looking for element with ID "navMenu"');
             return;
         }
         
-        console.log('[Mobile Nav] Elements found:', {
+        console.log('[Mobile Nav Fixed] Elements found:', {
             button: mobileMenuBtn,
             menu: navMenu
         });
+        
+        window.__mobileNavFixedInitialized = true;
         
         // Initialize ARIA attributes
         mobileMenuBtn.setAttribute('aria-expanded', 'false');

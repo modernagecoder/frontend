@@ -28,21 +28,31 @@
         }
     }
     
-    // Initialize when DOM is ready
-    function safeInit() {
-        // Wait a bit to ensure all elements are rendered
-        setTimeout(() => {
-            init();
-        }, 100);
+    // CRITICAL FIX: Wait for components to be loaded first
+    function waitForComponents() {
+        log('Waiting for components to load...');
+        
+        // Listen for the componentsLoaded event
+        document.addEventListener('componentsLoaded', function() {
+            log('Components loaded event received');
+            setTimeout(init, 100);
+        });
+        
+        // Fallback: Try after delay if event doesn't fire
+        setTimeout(function() {
+            const btn = document.getElementById(CONFIG.buttonId);
+            if (btn && !window.__unifiedMobileNavInitialized) {
+                log('Fallback initialization triggered');
+                init();
+            }
+        }, 1000);
     }
     
+    // Start waiting for components
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', safeInit);
-    } else if (document.readyState === 'interactive' || document.readyState === 'complete') {
-        safeInit();
+        document.addEventListener('DOMContentLoaded', waitForComponents);
     } else {
-        // Fallback
-        window.addEventListener('load', safeInit);
+        waitForComponents();
     }
     
     function init() {

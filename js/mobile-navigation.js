@@ -6,67 +6,43 @@
 (function() {
   'use strict';
   
-  console.log('[Mobile Nav] Script loaded');
+  let initialized = false;
   
-  // CRITICAL FIX: Wait for components to be loaded first
-  // The navigation HTML is injected dynamically by components-loader.js
-  // We must wait for the 'componentsLoaded' event before initializing
-  
-  function waitForComponents() {
-    console.log('[Mobile Nav] Waiting for components to load...');
-    
-    // Listen for the componentsLoaded event
-    document.addEventListener('componentsLoaded', function() {
-      console.log('[Mobile Nav] Components loaded event received');
-      // Add a small delay to ensure DOM is fully updated
-      setTimeout(initMobileNavigation, 100);
-    });
-    
-    // Fallback: If event already fired or doesn't fire, try after delay
+  // Wait for components to be loaded first
+  document.addEventListener('componentsLoaded', function() {
+    console.log('[Mobile Nav] 🎯 Components loaded event received!');
     setTimeout(function() {
-      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-      if (mobileMenuBtn && !window.__mobileNavInitialized) {
-        console.log('[Mobile Nav] Fallback initialization triggered');
+      if (!initialized) {
         initMobileNavigation();
       }
-    }, 1000);
-  }
-  
-  // Start waiting for components
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', waitForComponents);
-  } else {
-    waitForComponents();
-  }
+    }, 200); // Give DOM time to settle
+  });
   
   function initMobileNavigation() {
-    // Prevent double initialization
-    if (window.__mobileNavInitialized) {
-      console.log('[Mobile Nav] Already initialized, skipping');
-      return;
-    }
-    
-    console.log('[Mobile Nav] Initializing...');
+    console.log('[Mobile Nav] 🔍 Looking for navigation elements...');
     
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const navMenu = document.getElementById('navMenu');
     const body = document.body;
-    const dropdowns = document.querySelectorAll('.dropdown');
+    
+    console.log('[Mobile Nav] mobileMenuBtn:', mobileMenuBtn);
+    console.log('[Mobile Nav] navMenu:', navMenu);
     
     if (!mobileMenuBtn || !navMenu) {
-      console.error('[Mobile Nav] Required elements not found!', {
-        mobileMenuBtn: !!mobileMenuBtn,
-        navMenu: !!navMenu
-      });
+      console.error('[Mobile Nav] ❌ Required elements not found!');
+      console.log('[Mobile Nav] Available IDs:', Array.from(document.querySelectorAll('[id]')).map(el => el.id));
       return;
     }
     
-    console.log('[Mobile Nav] Elements found successfully');
-    window.__mobileNavInitialized = true;
+    initialized = true;
+    console.log('[Mobile Nav] ✅ Elements found, setting up handlers...');
+    
+    const dropdowns = document.querySelectorAll('.dropdown');
     
     // Hamburger menu toggle
     mobileMenuBtn.addEventListener('click', function(e) {
       e.stopPropagation();
+      console.log('[Mobile Nav] Hamburger clicked');
       toggleMobileMenu();
     });
     
@@ -74,6 +50,7 @@
     document.addEventListener('click', function(e) {
       if (navMenu.classList.contains('active')) {
         if (!navMenu.contains(e.target) && !mobileMenuBtn.contains(e.target)) {
+          console.log('[Mobile Nav] Clicked outside, closing menu');
           closeMobileMenu();
         }
       }
@@ -83,7 +60,8 @@
     const navLinks = navMenu.querySelectorAll('.nav-link:not(.dropdown > .nav-link)');
     navLinks.forEach(link => {
       link.addEventListener('click', function() {
-        if (window.innerWidth < 768) {
+        if (window.innerWidth <= 900) {
+          console.log('[Mobile Nav] Nav link clicked, closing menu');
           closeMobileMenu();
         }
       });
@@ -96,9 +74,10 @@
       
       if (dropdownLink && dropdownContent) {
         dropdownLink.addEventListener('click', function(e) {
-          if (window.innerWidth < 768) {
+          if (window.innerWidth <= 900) {
             e.preventDefault();
             e.stopPropagation();
+            console.log('[Mobile Nav] Dropdown toggled');
             toggleDropdown(dropdown);
           }
         });
@@ -107,7 +86,8 @@
         const dropdownItems = dropdownContent.querySelectorAll('.dropdown-item');
         dropdownItems.forEach(item => {
           item.addEventListener('click', function() {
-            if (window.innerWidth < 768) {
+            if (window.innerWidth <= 900) {
+              console.log('[Mobile Nav] Dropdown item clicked, closing menu');
               closeMobileMenu();
             }
           });
@@ -120,10 +100,11 @@
     window.addEventListener('resize', function() {
       clearTimeout(resizeTimer);
       resizeTimer = setTimeout(function() {
-        if (window.innerWidth >= 768) {
+        if (window.innerWidth > 900) {
           // Desktop view - ensure menu is reset
           navMenu.classList.remove('active');
           mobileMenuBtn.classList.remove('active');
+          body.classList.remove('mobile-menu-open');
           body.style.overflow = '';
           
           // Close all dropdowns
@@ -136,6 +117,7 @@
     
     // Prevent body scroll when menu is open
     function preventBodyScroll() {
+      body.classList.add('mobile-menu-open');
       const scrollY = window.scrollY;
       body.style.position = 'fixed';
       body.style.top = `-${scrollY}px`;
@@ -143,6 +125,7 @@
     }
     
     function allowBodyScroll() {
+      body.classList.remove('mobile-menu-open');
       const scrollY = body.style.top;
       body.style.position = '';
       body.style.top = '';
@@ -153,6 +136,8 @@
     function toggleMobileMenu() {
       const isActive = navMenu.classList.toggle('active');
       mobileMenuBtn.classList.toggle('active');
+      
+      console.log('[Mobile Nav] Menu toggled, active:', isActive);
       
       if (isActive) {
         preventBodyScroll();
@@ -176,6 +161,8 @@
       navMenu.classList.remove('active');
       mobileMenuBtn.classList.remove('active');
       allowBodyScroll();
+      
+      console.log('[Mobile Nav] Menu closed');
       
       // Update ARIA attributes
       mobileMenuBtn.setAttribute('aria-expanded', 'false');
@@ -227,22 +214,6 @@
         dropdownContent.setAttribute('id', dropdownId);
         dropdownLink.setAttribute('aria-controls', dropdownId);
       }
-    });
-    
-    // Add visual feedback for touch interactions
-    const touchElements = document.querySelectorAll('button, a, .btn, .cta-button, .card-button');
-    touchElements.forEach(element => {
-      element.addEventListener('touchstart', function() {
-        this.style.opacity = '0.7';
-      }, { passive: true });
-      
-      element.addEventListener('touchend', function() {
-        this.style.opacity = '';
-      }, { passive: true });
-      
-      element.addEventListener('touchcancel', function() {
-        this.style.opacity = '';
-      }, { passive: true });
     });
     
     console.log('[Mobile Nav] Initialized successfully');

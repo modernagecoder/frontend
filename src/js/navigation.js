@@ -56,11 +56,18 @@
         });
     }
     
-    // Mobile menu toggle
-    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-    const navMenu = document.getElementById('navMenu');
-    
-    if (mobileMenuBtn && navMenu) {
+    // Mobile menu toggle - CRITICAL FIX: Wait for components to load
+    function initMobileMenu() {
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navMenu = document.getElementById('navMenu');
+        
+        if (!mobileMenuBtn || !navMenu) {
+            console.warn('[Navigation] Mobile menu elements not found yet');
+            return false;
+        }
+        
+        console.log('[Navigation] Mobile menu initialized');
+        
         mobileMenuBtn.addEventListener('click', function(e) {
             e.stopPropagation();
             navMenu.classList.toggle('active');
@@ -104,6 +111,25 @@
                 }
             });
         });
+        
+        return true;
+    }
+    
+    // Try to initialize mobile menu immediately
+    if (!initMobileMenu()) {
+        // If failed, wait for components to load
+        console.log('[Navigation] Waiting for components to load...');
+        document.addEventListener('componentsLoaded', function() {
+            console.log('[Navigation] Components loaded, initializing mobile menu');
+            setTimeout(initMobileMenu, 100);
+        });
+        
+        // Fallback
+        setTimeout(function() {
+            if (document.getElementById('mobileMenuBtn')) {
+                initMobileMenu();
+            }
+        }, 1000);
     }
     
     // Handle dropdown on mobile and desktop
