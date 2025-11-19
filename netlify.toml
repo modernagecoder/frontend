@@ -138,6 +138,11 @@
   status = 200
 
 [[redirects]]
+  from = "/beat-the-babu"
+  to = "/src/pages/beat-the-babu.html"
+  status = 200
+
+[[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
   status = 200

@@ -40,6 +40,7 @@ function resolveFilePath(url) {
     if (urlPath === '/contact') return 'src/pages/contact.html';
     if (urlPath === '/pricing') return 'src/pages/pricing.html';
     if (urlPath === '/login') return 'src/pages/login.html';
+    if (urlPath === '/beat-the-babu') return 'src/pages/beat-the-babu.html';
     if (urlPath === '/faq') return 'src/pages/faq.html';
     if (urlPath === '/terms') return 'src/pages/terms.html';
     if (urlPath === '/privacy') return 'src/pages/privacy.html';

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Beat The Babu – The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
+
+    <meta name="description"
+          content="Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents.">
+
+    <meta name="keywords"
+          content="beat the babu, 90 second math game, smart math 90, speed math challenge, mental math for kids, fast math quiz, modern age coders, learn.modernagecoders.com">
+
+    <meta name="theme-color" content="#0f172a">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title"
+          content="Beat The Babu – The Fastest 90-Second Math Challenge Game">
+    <meta property="og:description"
+          content="Try Beat The Babu – a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
+    <meta property="og:url"
+          content="https://learn.modernagecoders.com/beat-the-babu/">
+    <meta property="og:image"
+          content="https://placehold.co/600x400/0f172a/3b82f6?text=Beat+The+Babu">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalApplication",
+      "name": "Beat The Babu – The Fastest 90-Second Math Challenge Game",
+      "description": "A fun and competitive 90-second mental math game built by ModernAgeCoders to help students and families improve calculation speed and confidence.",
+      "brand": {
+        "@type": "Brand",
+        "name": "ModernAgeCoders"
+      },
+      "url": "https://learn.modernagecoders.com/beat-the-babu/",
+      "creator": {
+        "@type": "Organization",
+        "name": "ModernAgeCoders"
+      },
+      "applicationCategory": "EducationalApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        :root {
+            --bg-dark: #020617;
+            --card-bg: rgba(15, 23, 42, 0.6);
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.5);
+            --accent: #ef4444; /* Red */
+            --success: #22c55e; /* Green */
+            --gold: #eab308;
+            --text: #f8fafc;
+            --font-ui: 'Inter', sans-serif;
+            --font-num: 'JetBrains Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+        body {
+            background-color: var(--bg-dark);
+            background-image: 
+                radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
+                radial-gradient(at 50% 0%, hsla(225,39%,20%,1) 0, transparent 50%), 
+                radial-gradient(at 100% 100%, hsla(339,49%,20%,1) 0, transparent 50%);
+            color: var(--text);
+            font-family: var(--font-ui);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            transition: background-color 0.2s;
+        }
+
+        /* Game Feel Classes */
+        .flash-green { animation: flashSuccess 0.3s ease-out; }
+        .flash-red { animation: flashError 0.3s ease-out; }
+
+        @keyframes flashSuccess { 0% { background-color: rgba(34, 197, 94, 0.2); } 100% { background-color: var(--bg-dark); } }
+        @keyframes flashError { 0% { background-color: rgba(239, 68, 68, 0.2); } 100% { background-color: var(--bg-dark); } }
+
+        /* Floating Animations */
+        .float-text {
+            position: absolute;
+            font-weight: 900;
+            font-size: 1.8rem;
+            pointer-events: none;
+            animation: floatUp 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+            z-index: 100;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+        .float-plus { color: var(--success); }
+        .float-minus { color: var(--accent); }
+        .float-combo { color: var(--gold); font-size: 2.5rem; }
+
+        @keyframes floatUp {
+            0% { opacity: 1; transform: translateY(0) scale(0.5); }
+            50% { transform: translateY(-20px) scale(1.2); }
+            100% { opacity: 0; transform: translateY(-50px) scale(1); }
+        }
+
+        /* Main Card */
+        .game-card {
+            width: 95%;
+            max-width: 400px;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 30px;
+            padding: 30px 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.2s;
+        }
+
+        /* HUD */
+        .hud {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            margin-bottom: 2rem;
+            font-family: var(--font-num);
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+        .hud-box { text-align: center; }
+        .hud-label { font-size: 0.7rem; color: #64748b; text-transform: uppercase; letter-spacing: 1px; font-family: var(--font-ui); font-weight: 700; margin-bottom: 4px; }
+        .hud-val { font-size: 2rem; font-weight: 700; line-height: 1; }
+        
+        /* Combo Counter */
+        .streak-container { 
+            display: flex; flex-direction: column; align-items: center; 
+            opacity: 0.5; transition: opacity 0.2s;
+        }
+        .streak-container.hot { opacity: 1; }
+        .streak-flame { font-size: 1.5rem; filter: drop-shadow(0 0 10px orange); }
+
+        #timer.low { color: var(--accent); animation: pulse 0.5s infinite; }
+
+        /* Screens */
+        .screen { display: none; flex-direction: column; align-items: center; width: 100%; animation: fadeIn 0.4s ease-out; }
+        .screen.active { display: flex; }
+
+        /* Question Area */
+        .q-area { margin: 1rem 0 2rem 0; text-align: center; }
+        .q-badge { 
+            display: inline-block; padding: 4px 12px; border-radius: 20px; 
+            background: rgba(255,255,255,0.05); color: #94a3b8; 
+            font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; margin-bottom: 10px;
+        }
+        .q-text { font-size: 3.8rem; font-weight: 800; font-family: var(--font-num); letter-spacing: -2px; line-height: 1.1; }
+
+        /* Input */
+        .input-group { width: 100%; position: relative; margin-bottom: 1rem; }
+        input[type="tel"] {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 1rem;
+            font-size: 2.2rem;
+            text-align: center;
+            color: white;
+            font-family: var(--font-num);
+            outline: none;
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        input:focus { 
+            border-color: var(--primary); 
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15), inset 0 0 20px rgba(59, 130, 246, 0.1); 
+        }
+        input.error { 
+            border-color: var(--accent); 
+            color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.15);
+            animation: shake 0.3s cubic-bezier(.36,.07,.19,.97) both; 
+        }
+
+        /* Buttons */
+        .btn {
+            width: 100%;
+            padding: 1.1rem;
+            border-radius: 16px;
+            border: none;
+            font-size: 1rem;
+            font-weight: 800;
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.2s;
+            font-family: var(--font-ui);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+        .btn:active { transform: scale(0.97); }
+        
+        .btn-primary { 
+            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); 
+            color: white; 
+            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4), inset 0 1px 0 rgba(255,255,255,0.2); 
+        }
+        .btn-primary:hover { box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.5), inset 0 1px 0 rgba(255,255,255,0.2); }
+
+        .btn-ghost { background: transparent; color: #64748b; margin-top: 10px; font-size: 0.85rem; }
+        .btn-ghost:hover { color: #94a3b8; }
+
+        /* Leaderboard */
+        .lb-container { width: 100%; margin-top: 25px; background: rgba(0,0,0,0.2); border-radius: 16px; padding: 16px; }
+        .lb-row { display: flex; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem; font-family: var(--font-num); }
+        .lb-row:last-child { border-bottom: none; }
+        .lb-row:nth-child(1) { color: var(--gold); font-weight: 800; }
+        .lb-row:nth-child(2) { color: #e2e8f0; }
+        .lb-row:nth-child(3) { color: #cbd5e1; }
+
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+        @keyframes shake { 10%, 90% { transform: translate3d(-1px, 0, 0); } 20%, 80% { transform: translate3d(2px, 0, 0); } 30%, 50%, 70% { transform: translate3d(-4px, 0, 0); } 40%, 60% { transform: translate3d(4px, 0, 0); } }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Save Input Styling */
+        #name-input {
+            width: 100%; padding: 1rem; border-radius: 16px; 
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+            color: white; font-weight: 700; text-align: center; margin-bottom: 1rem;
+            font-family: var(--font-ui); outline: none;
+        }
+        #name-input:focus { border-color: var(--primary); }
+
+    </style>
+</head>
+
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+    import { getFirestore, collection, addDoc, query, orderBy, limit, onSnapshot } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-firestore.js";
+
+    const firebaseConfig = {
+        apiKey: "AIzaSyAIVEr093jDi3TXeCDZUoSSeb-cHkSr7U4",
+        authDomain: "babu-f0594.firebaseapp.com",
+        projectId: "babu-f0594",
+        storageBucket: "babu-f0594.appspot.com",
+        messagingSenderId: "578284512176",
+        appId: "1:578284512176:web:b1fdba8c2500ecebe0ac75",
+        measurementId: "G-CT1K8JLGE7"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    window.db = getFirestore(app);
+    window.collection = collection;
+    window.addDoc = addDoc;
+    window.query = query;
+    window.orderBy = orderBy;
+    window.limit = limit;
+    window.onSnapshot = onSnapshot;
+</script>
+
+<body>
+    <div class="game-card" id="card-area">
+        
+        <div class="hud">
+            <div class="hud-box">
+                <div class="hud-label">Time</div>
+                <div class="hud-val" id="timer-display">90</div>
+            </div>
+            
+            <div class="streak-container" id="streak-box">
+                <div class="streak-flame">🔥</div>
+                <div class="hud-label" style="margin-bottom:0;">Combo</div>
+                <div style="font-weight:800; color:var(--gold);" id="streak-display">x0</div>
+            </div>
+
+            <div class="hud-box">
+                <div class="hud-label">Score</div>
+                <div class="hud-val" id="score-display">0</div>
+            </div>
+        </div>
+
+        <div id="screen-start" class="screen active">
+            <div style="margin-bottom: 2rem; text-align: center;">
+                <h1 style="font-size: 2.5rem; font-weight: 900; line-height: 1; margin-bottom: 0.5rem; background: -webkit-linear-gradient(45deg, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Smart Math 90</h1>
+                <p style="color: #64748b; font-weight: 600;">Speed & Accuracy Challenge</p>
+            </div>
+            
+            <button class="btn btn-primary" onclick="startGame()">START GAME</button>
+            
+            <div class="lb-container">
+                <div class="hud-label" style="text-align: left; margin-bottom:12px; display:flex; justify-content:space-between;">
+                    <span>Global Legends</span>
+                    <span>🏆</span>
+                </div>
+                <div id="lb-list">
+                    <div style="text-align:center; color:#64748b; padding:10px;">Connecting...</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="screen-game" class="screen">
+            <div class="q-area">
+                <span class="q-badge" id="q-type">ADDITION</span>
+                <div class="q-text" id="q-text">0 + 0</div>
+            </div>
+            
+            <div class="input-group">
+                <input type="tel" id="answer-input" placeholder="?" autocomplete="off">
+            </div>
+            
+            <button class="btn btn-ghost" onclick="skipQuestion()">Skip (-5 Pts & Reset Combo)</button>
+        </div>
+
+        <div id="screen-result" class="screen">
+            <h2 style="margin-bottom: 0.5rem; color:#94a3b8;">Time's Up!</h2>
+            <div class="hud-val" style="font-size: 4rem; margin-bottom: 2rem; color: var(--primary); text-shadow: 0 0 30px rgba(59, 130, 246, 0.3);" id="final-score">0</div>
+            
+            <div id="save-box" style="width:100%; display:none; animation: fadeIn 0.5s forwards;">
+                <p style="text-align: center; margin-bottom: 10px; color: var(--success); font-weight: 700;">🎉 NEW HIGH SCORE!</p>
+                <input type="text" id="name-input" placeholder="ENTER YOUR NAME" maxlength="12">
+                <button class="btn btn-primary" onclick="saveScore()">SAVE TO LEADERBOARD</button>
+            </div>
+            
+            <button class="btn btn-ghost" onclick="location.reload()" style="margin-top: 20px;">Try Again</button>
+        </div>
+
+    </div>
+
+    <script>
+        // --- State ---
+        let state = {
+            timer: 90,
+            score: 0,
+            streak: 0, // NEW: Combo Streak
+            active: false,
+            q: { ans: 0, pts: 0 }
+        };
+        const inputEl = document.getElementById('answer-input');
+        
+        // --- Audio & Haptic ---
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        function playSound(type) {
+            if(audioCtx.state === 'suspended') audioCtx.resume();
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain); gain.connect(audioCtx.destination);
+            
+            const now = audioCtx.currentTime;
+            if(type === 'hit') {
+                // Pleasant Ding
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(500 + (state.streak * 50), now); // Pitch goes up with streak
+                osc.frequency.exponentialRampToValueAtTime(1000, now+0.1);
+                gain.gain.setValueAtTime(0.1, now);
+                gain.gain.linearRampToValueAtTime(0, now+0.15);
+                osc.start(now); osc.stop(now+0.15);
+            } else {
+                // Error Buzz
+                osc.type = 'sawtooth';
+                osc.frequency.setValueAtTime(100, now);
+                osc.frequency.linearRampToValueAtTime(50, now+0.2);
+                gain.gain.setValueAtTime(0.2, now);
+                gain.gain.linearRampToValueAtTime(0, now+0.2);
+                osc.start(now); osc.stop(now+0.2);
+            }
+        }
+
+        // --- Visual FX ---
+        function showFloatingText(text, type) {
+            const el = document.createElement('div');
+            el.className = `float-text ${type === 'combo' ? 'float-combo' : (type === 'plus' ? 'float-plus' : 'float-minus')}`;
+            el.innerText = text;
+            
+            // Center it over the input roughly
+            const rect = inputEl.getBoundingClientRect();
+            el.style.left = (rect.left + rect.width/2 - 20) + 'px';
+            el.style.top = (rect.top - 20) + 'px';
+            
+            document.body.appendChild(el);
+            setTimeout(() => el.remove(), 800);
+        }
+
+        function triggerScreenFlash(isCorrect) {
+            document.body.classList.remove('flash-green', 'flash-red');
+            void document.body.offsetWidth; // Trigger reflow
+            document.body.classList.add(isCorrect ? 'flash-green' : 'flash-red');
+        }
+
+        // --- Game Logic ---
+        function startGame() {
+            state.score = 0;
+            state.timer = 90;
+            state.streak = 0;
+            state.active = true;
+            updateHUD();
+            switchScreen('screen-game');
+            generateQuestion();
+            
+            const tInt = setInterval(() => {
+                if(!state.active) { clearInterval(tInt); return; }
+                state.timer--;
+                updateHUD();
+                if(state.timer<=10) document.getElementById('timer-display').classList.add('low');
+                if(state.timer<=0) endGame();
+            }, 1000);
+        }
+
+        function generateQuestion() {
+            const r = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+            const roll = Math.random();
+            let q = '', ans = 0, type = '';
+            
+            // Adaptive Difficulty: As score goes up, questions get slightly harder
+            const diffMod = Math.floor(state.score / 200); 
+
+            if(roll < 0.35) {
+                const a = r(5, 50 + diffMod), b = r(5, 50 + diffMod);
+                q = `${a} + ${b}`; ans = a+b; state.q.pts = 10; type = "ADDITION";
+            } else if(roll < 0.65) {
+                const a = r(20, 99 + diffMod), b = r(5, a);
+                q = `${a} - ${b}`; ans = a-b; state.q.pts = 12; type = "SUBTRACTION";
+            } else if(roll < 0.85) {
+                const a = r(2, 12), b = r(2, 12 + Math.min(5, diffMod));
+                q = `${a} × ${b}`; ans = a*b; state.q.pts = 15; type = "MULTIPLICATION";
+            } else {
+                const b = r(2, 9), a = b * r(2, 10 + Math.min(5, diffMod));
+                q = `${a} ÷ ${b}`; ans = a/b; state.q.pts = 20; type = "DIVISION";
+            }
+            
+            state.q.ans = ans;
+            document.getElementById('q-text').innerText = q;
+            document.getElementById('q-type').innerText = type;
+            inputEl.value = '';
+            inputEl.focus();
+        }
+
+        function checkAnswer() {
+            if(!state.active) return;
+            const val = parseInt(inputEl.value);
+            if(isNaN(val)) return;
+
+            if(val === state.q.ans) {
+                // --- CORRECT ---
+                state.streak++;
+                // Bonus: Streak * 2
+                const bonus = state.streak > 1 ? (state.streak * 2) : 0;
+                const totalPts = state.q.pts + bonus;
+                
+                state.score += totalPts;
+                
+                playSound('hit');
+                triggerScreenFlash(true);
+                
+                if(state.streak > 2) showFloatingText(`${state.streak}x COMBO!`, 'combo');
+                else showFloatingText(`+${totalPts}`, 'plus');
+
+                // Visual candy
+                if(state.streak % 5 === 0) confetti({ particleCount: 30, spread: 50, origin: { y: 0.7 } });
+                
+                generateQuestion();
+
+            } else {
+                // --- WRONG ---
+                const pen = 10; // Higher penalty
+                state.score = Math.max(0, state.score - pen);
+                state.streak = 0; // Reset Streak
+                
+                playSound('miss');
+                triggerScreenFlash(false);
+                showFloatingText(`-${pen}`, 'minus');
+                
+                inputEl.classList.add('error');
+                setTimeout(() => {
+                    inputEl.classList.remove('error');
+                    generateQuestion();
+                }, 400);
+            }
+            updateHUD();
+        }
+
+        function skipQuestion() {
+            if(!state.active) return;
+            state.score = Math.max(0, state.score - 5);
+            state.streak = 0; // Skipping kills the streak
+            showFloatingText("-5", 'minus');
+            updateHUD();
+            generateQuestion();
+            inputEl.focus();
+        }
+
+        function updateHUD() {
+            document.getElementById('timer-display').innerText = state.timer;
+            document.getElementById('score-display').innerText = state.score;
+            document.getElementById('streak-display').innerText = `x${state.streak}`;
+            
+            // Streak heat styling
+            const sBox = document.getElementById('streak-box');
+            if(state.streak > 3) sBox.classList.add('hot');
+            else sBox.classList.remove('hot');
+        }
+
+        function endGame() {
+            state.active = false;
+            document.getElementById('final-score').innerText = state.score;
+            switchScreen('screen-result');
+            
+            // Check DB
+            const q = window.query(window.collection(window.db, 'scores'), window.orderBy('score', 'desc'), window.limit(5));
+            window.onSnapshot(q, snap => {
+                const scores = [];
+                snap.forEach(d => scores.push(d.data().score));
+                const min = scores.length < 5 ? 0 : scores[scores.length-1];
+                
+                if(state.score > min || scores.length < 5) {
+                    document.getElementById('save-box').style.display = 'block';
+                    confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
+                }
+            });
+        }
+
+        async function saveScore() {
+            const name = document.getElementById('name-input').value.trim().toUpperCase();
+            if(!name) return;
+            // Basic profanity filter could go here
+            await window.addDoc(window.collection(window.db, 'scores'), { name, score: state.score, createdAt: Date.now() });
+            location.reload();
+        }
+
+        function switchScreen(id) {
+            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+            document.getElementById(id).classList.add('active');
+        }
+
+        // Listeners
+        inputEl.addEventListener('keyup', e => { if(e.key === 'Enter') checkAnswer(); });
+        
+        // Load Leaderboard
+        const wait = setInterval(() => {
+            if(window.db) {
+                clearInterval(wait);
+                const q = window.query(window.collection(window.db, 'scores'), window.orderBy('score', 'desc'), window.limit(5));
+                window.onSnapshot(q, snap => {
+                    const l = document.getElementById('lb-list');
+                    l.innerHTML = '';
+                    let rank = 1;
+                    snap.forEach(doc => {
+                        const d = doc.data();
+                        const row = document.createElement('div');
+                        row.className = 'lb-row';
+                        let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank===3 ? '🥉 ' : rank + '. '));
+                        row.innerHTML = `<span>${rankIcon} ${d.name}</span><span style="color:white; font-weight:700;">${d.score}</span>`;
+                        l.appendChild(row);
+                        rank++;
+                    });
+                });
+            }
+        }, 100);
+    </script>
+</body>
+</html>

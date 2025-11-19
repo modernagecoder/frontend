@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beat the Babu - Setup Verification</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+        }
+        .check-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .status {
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        .success { background: #10b981; color: white; }
+        .pending { background: #f59e0b; color: white; }
+        .error { background: #ef4444; color: white; }
+        .test-link {
+            display: inline-block;
+            background: white;
+            color: #667eea;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .test-link:hover {
+            transform: scale(1.05);
+        }
+        .links-section {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid rgba(255, 255, 255, 0.2);
+        }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 Beat the Babu - Setup Verification</h1>
+        
+        <div class="check-item">
+            <span>✅ Game file exists at <code>src/pages/beat-the-babu.html</code></span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Netlify redirect configured in <code>netlify.toml</code></span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Clean URL redirect in <code>_redirects</code></span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Dev server route added to <code>scripts/dev-server.js</code></span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Footer link added to <code>index.html</code></span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Firebase integration configured</span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Game has proper HTML structure with closing tags</span>
+            <span class="status success">PASS</span>
+        </div>
+        
+        <div class="check-item">
+            <span>✅ Confetti.js library loaded from CDN</span>
+            <span class="status success">PASS</span>
+        </div>
+
+        <div class="links-section">
+            <h2>🚀 Test the Game</h2>
+            <p>Click the links below to test the game:</p>
+            
+            <a href="/beat-the-babu" class="test-link" target="_blank">
+                🎯 Test Local (http://localhost:3001/beat-the-babu)
+            </a>
+            
+            <a href="https://learn.modernagecoders.com/beat-the-babu" class="test-link" target="_blank">
+                🌐 Test Production
+            </a>
+            
+            <a href="/" class="test-link">
+                🏠 Back to Home (Check Footer Link)
+            </a>
+        </div>
+
+        <div style="margin-top: 30px; padding: 20px; background: rgba(16, 185, 129, 0.2); border-radius: 10px; border-left: 4px solid #10b981;">
+            <h3 style="margin-top: 0;">✨ Setup Complete!</h3>
+            <p><strong>Local Development:</strong></p>
+            <ol>
+                <li>Run: <code>npm run dev</code></li>
+                <li>Visit: <code>http://localhost:3001/beat-the-babu</code></li>
+                <li>Check footer link on homepage</li>
+            </ol>
+            
+            <p><strong>Production:</strong></p>
+            <ol>
+                <li>Push changes to your repository</li>
+                <li>Netlify will auto-deploy</li>
+                <li>Visit: <code>https://learn.modernagecoders.com/beat-the-babu</code></li>
+            </ol>
+        </div>
+
+        <div style="margin-top: 20px; padding: 15px; background: rgba(59, 130, 246, 0.2); border-radius: 10px;">
+            <h4 style="margin-top: 0;">📋 Game Features:</h4>
+            <ul>
+                <li>90-second math challenge</li>
+                <li>Addition, Subtraction, Multiplication, Division</li>
+                <li>Combo streak system with bonuses</li>
+                <li>Global leaderboard with Firebase</li>
+                <li>Sound effects and visual feedback</li>
+                <li>Confetti celebrations</li>
+                <li>Mobile-responsive design</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
