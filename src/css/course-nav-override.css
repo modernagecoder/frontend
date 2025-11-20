@@ -11,6 +11,7 @@
     justify-content: space-between !important;
     max-width: 1400px !important;
     margin: 0 auto !important;
+    overflow-x: hidden !important;
 }
 
 /* Center the navigation menu */
@@ -24,16 +25,19 @@ header {
     position: fixed !important;
     z-index: 99999 !important;
     isolation: isolate !important;
+    overflow-x: hidden !important;
 }
 
 nav {
     position: relative !important;
     z-index: 99999 !important;
+    overflow-x: hidden !important;
 }
 
 .navbar {
     position: relative !important;
     z-index: 99999 !important;
+    overflow-x: hidden !important;
 }
 
 .nav-menu {
