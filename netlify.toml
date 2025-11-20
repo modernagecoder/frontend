@@ -164,10 +164,15 @@
   to = "/content/courses/generated/:splat"
   status = 200
 
-# Individual course pages
+# Individual course pages (with and without trailing slash)
 [[redirects]]
-  from = "/courses/*"
-  to = "/content/courses/generated/:splat/index.html"
+  from = "/courses/:course/"
+  to = "/content/courses/generated/:course/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/courses/:course"
+  to = "/content/courses/generated/:course/index.html"
   status = 200
 
 [[redirects]]
