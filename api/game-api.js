@@ -110,6 +110,19 @@ module.exports = async (req, res) => {
 
   const clientIp = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
+  // Debug endpoint
+  if (req.url && req.url.includes('?debug=true')) {
+    return res.status(200).json({
+      success: true,
+      debug: {
+        hasBase64: !!process.env.FIREBASE_SERVICE_ACCOUNT_BASE64,
+        base64Length: process.env.FIREBASE_SERVICE_ACCOUNT_BASE64?.length || 0,
+        firebaseInitialized: admin.apps.length > 0,
+        nodeVersion: process.version
+      }
+    });
+  }
+
   try {
     // GET: Fetch leaderboard
     if (req.method === 'GET') {
