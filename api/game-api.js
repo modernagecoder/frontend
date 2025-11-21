@@ -6,16 +6,34 @@ const admin = require('firebase-admin');
 
 // Initialize Firebase Admin SDK with service account
 // Store your service account key in environment variables or secure config
+let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+
+// Handle different formats of private key
+if (privateKey) {
+  // Remove quotes if present
+  privateKey = privateKey.replace(/^["']|["']$/g, '');
+  // Replace literal \n with actual newlines
+  privateKey = privateKey.replace(/\\n/g, '\n');
+}
+
 const serviceAccount = {
   projectId: process.env.FIREBASE_PROJECT_ID,
   clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKey: process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n')
+  privateKey: privateKey
 };
 
 if (!admin.apps.length) {
-  admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount)
-  });
+  try {
+    admin.initializeApp({
+      credential: admin.credential.cert(serviceAccount)
+    });
+    console.log('✅ Firebase initialized successfully');
+  } catch (error) {
+    console.error('❌ Firebase initialization error:', error.message);
+    console.error('Project ID:', process.env.FIREBASE_PROJECT_ID);
+    console.error('Client Email:', process.env.FIREBASE_CLIENT_EMAIL);
+    console.error('Private Key exists:', !!process.env.FIREBASE_PRIVATE_KEY);
+  }
 }
 
 const db = admin.firestore();
@@ -75,6 +93,7 @@ module.exports = async (req, res) => {
   try {
     // GET: Fetch leaderboard
     if (req.method === 'GET') {
+      console.log('📊 Fetching leaderboard...');
       const scoresRef = db.collection('scores');
       const snapshot = await scoresRef
         .orderBy('score', 'desc')
@@ -91,6 +110,7 @@ module.exports = async (req, res) => {
         });
       });
       
+      console.log(`✅ Found ${scores.length} scores`);
       return res.status(200).json({ success: true, scores });
     }
 
@@ -138,6 +158,7 @@ module.exports = async (req, res) => {
       }
 
       // Save to database
+      console.log(`💾 Saving score: ${cleanName} - ${score}`);
       await db.collection('scores').add({
         name: cleanName,
         score: score,
@@ -146,13 +167,19 @@ module.exports = async (req, res) => {
         timeSpent: timeSpent
       });
 
+      console.log('✅ Score saved successfully');
       return res.status(200).json({ success: true, message: 'Score saved!' });
     }
 
     return res.status(405).json({ success: false, error: 'Method not allowed' });
 
   } catch (error) {
-    console.error('API Error:', error);
-    return res.status(500).json({ success: false, error: 'Server error' });
+    console.error('❌ API Error:', error.message);
+    console.error('Full error:', error);
+    return res.status(500).json({ 
+      success: false, 
+      error: 'Server error',
+      details: error.message 
+    });
   }
 };
