@@ -558,9 +558,9 @@
             // Check if score qualifies for leaderboard
             const scores = await window.gameAPI.getLeaderboard();
             const topScores = scores.map(s => s.score);
-            const min = topScores.length < 5 ? 0 : topScores[Math.min(4, topScores.length - 1)];
+            const min = topScores.length < 10 ? 0 : topScores[Math.min(9, topScores.length - 1)];
             
-            if(state.score > min || topScores.length < 5) {
+            if(state.score > min || topScores.length < 10) {
                 document.getElementById('save-box').style.display = 'block';
                 confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
             }
@@ -609,7 +609,7 @@
             }
             
             let rank = 1;
-            scores.slice(0, 5).forEach(d => {
+            scores.slice(0, 10).forEach(d => {
                 const row = document.createElement('div');
                 row.className = 'lb-row';
                 let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank===3 ? '🥉 ' : rank + '. '));
