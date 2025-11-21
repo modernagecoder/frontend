@@ -4,6 +4,13 @@
   # Generate blog and course content before deployment
   command = "npm run generate:all"
   publish = "."
+  functions = "api"
+
+# API Function redirects
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
 
 # Redirect rules for clean URLs
 [[redirects]]

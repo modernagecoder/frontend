@@ -266,28 +266,39 @@
     </style>
 </head>
 
-<script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
-    import { getFirestore, collection, addDoc, query, orderBy, limit, onSnapshot } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-firestore.js";
-
-    const firebaseConfig = {
-        apiKey: "AIzaSyAIVEr093jDi3TXeCDZUoSSeb-cHkSr7U4",
-        authDomain: "babu-f0594.firebaseapp.com",
-        projectId: "babu-f0594",
-        storageBucket: "babu-f0594.appspot.com",
-        messagingSenderId: "578284512176",
-        appId: "1:578284512176:web:b1fdba8c2500ecebe0ac75",
-        measurementId: "G-CT1K8JLGE7"
+<script>
+    // Secure API Configuration
+    // All Firebase operations now go through a secure backend API
+    const API_URL = '/.netlify/functions/game-api'; // Netlify Functions endpoint
+    
+    // API Helper Functions
+    window.gameAPI = {
+        async getLeaderboard() {
+            try {
+                const response = await fetch(API_URL);
+                const data = await response.json();
+                return data.success ? data.scores : [];
+            } catch (error) {
+                console.error('Failed to fetch leaderboard:', error);
+                return [];
+            }
+        },
+        
+        async submitScore(name, score, timeSpent) {
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, score, timeSpent })
+                });
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Failed to submit score:', error);
+                return { success: false, error: 'Network error' };
+            }
+        }
     };
-
-    const app = initializeApp(firebaseConfig);
-    window.db = getFirestore(app);
-    window.collection = collection;
-    window.addDoc = addDoc;
-    window.query = query;
-    window.orderBy = orderBy;
-    window.limit = limit;
-    window.onSnapshot = onSnapshot;
 </script>
 
 <body>
@@ -371,7 +382,8 @@
             score: 0,
             streak: 0, // NEW: Combo Streak
             active: false,
-            q: { ans: 0, pts: 0 }
+            q: { ans: 0, pts: 0 },
+            startTime: 0 // Track game duration for validation
         };
         const inputEl = document.getElementById('answer-input');
         
@@ -430,6 +442,7 @@
             state.timer = 90;
             state.streak = 0;
             state.active = true;
+            state.startTime = Date.now();
             updateHUD();
             switchScreen('screen-game');
             generateQuestion();
@@ -537,31 +550,43 @@
             else sBox.classList.remove('hot');
         }
 
-        function endGame() {
+        async function endGame() {
             state.active = false;
             document.getElementById('final-score').innerText = state.score;
             switchScreen('screen-result');
             
-            // Check DB
-            const q = window.query(window.collection(window.db, 'scores'), window.orderBy('score', 'desc'), window.limit(5));
-            window.onSnapshot(q, snap => {
-                const scores = [];
-                snap.forEach(d => scores.push(d.data().score));
-                const min = scores.length < 5 ? 0 : scores[scores.length-1];
-                
-                if(state.score > min || scores.length < 5) {
-                    document.getElementById('save-box').style.display = 'block';
-                    confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
-                }
-            });
+            // Check if score qualifies for leaderboard
+            const scores = await window.gameAPI.getLeaderboard();
+            const topScores = scores.map(s => s.score);
+            const min = topScores.length < 5 ? 0 : topScores[Math.min(4, topScores.length - 1)];
+            
+            if(state.score > min || topScores.length < 5) {
+                document.getElementById('save-box').style.display = 'block';
+                confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
+            }
         }
 
         async function saveScore() {
             const name = document.getElementById('name-input').value.trim().toUpperCase();
-            if(!name) return;
-            // Basic profanity filter could go here
-            await window.addDoc(window.collection(window.db, 'scores'), { name, score: state.score, createdAt: Date.now() });
-            location.reload();
+            if(!name) {
+                alert('Please enter your name');
+                return;
+            }
+            
+            const timeSpent = Math.floor((Date.now() - state.startTime) / 1000);
+            const btn = event.target;
+            btn.disabled = true;
+            btn.innerText = 'SAVING...';
+            
+            const result = await window.gameAPI.submitScore(name, state.score, timeSpent);
+            
+            if(result.success) {
+                location.reload();
+            } else {
+                alert(result.error || 'Failed to save score. Please try again.');
+                btn.disabled = false;
+                btn.innerText = 'SAVE TO LEADERBOARD';
+            }
         }
 
         function switchScreen(id) {
@@ -573,26 +598,29 @@
         inputEl.addEventListener('keyup', e => { if(e.key === 'Enter') checkAnswer(); });
         
         // Load Leaderboard
-        const wait = setInterval(() => {
-            if(window.db) {
-                clearInterval(wait);
-                const q = window.query(window.collection(window.db, 'scores'), window.orderBy('score', 'desc'), window.limit(5));
-                window.onSnapshot(q, snap => {
-                    const l = document.getElementById('lb-list');
-                    l.innerHTML = '';
-                    let rank = 1;
-                    snap.forEach(doc => {
-                        const d = doc.data();
-                        const row = document.createElement('div');
-                        row.className = 'lb-row';
-                        let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank===3 ? '🥉 ' : rank + '. '));
-                        row.innerHTML = `<span>${rankIcon} ${d.name}</span><span style="color:white; font-weight:700;">${d.score}</span>`;
-                        l.appendChild(row);
-                        rank++;
-                    });
-                });
+        async function loadLeaderboard() {
+            const scores = await window.gameAPI.getLeaderboard();
+            const l = document.getElementById('lb-list');
+            l.innerHTML = '';
+            
+            if(scores.length === 0) {
+                l.innerHTML = '<div style="text-align:center; color:#64748b; padding:10px;">No scores yet. Be the first!</div>';
+                return;
             }
-        }, 100);
+            
+            let rank = 1;
+            scores.slice(0, 5).forEach(d => {
+                const row = document.createElement('div');
+                row.className = 'lb-row';
+                let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank===3 ? '🥉 ' : rank + '. '));
+                row.innerHTML = `<span>${rankIcon} ${d.name}</span><span style="color:white; font-weight:700;">${d.score}</span>`;
+                l.appendChild(row);
+                rank++;
+            });
+        }
+        
+        // Load leaderboard on page load
+        loadLeaderboard();
     </script>
     <!-- ============================================ -->
     <!-- COMPONENT LOADER SCRIPT                      -->

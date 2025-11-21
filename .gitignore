@@ -1,5 +1,8 @@
 # Dependencies
 node_modules/
+.env
+*.key.json
+firebase-service-account.json
 package-lock.json
 yarn.lock
 

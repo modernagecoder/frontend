@@ -1,0 +1,14 @@
+{
+  "name": "beat-the-babu-api",
+  "version": "1.0.0",
+  "description": "Secure backend API for Beat the Babu game",
+  "main": "game-api.js",
+  "scripts": {
+    "start": "node local-server.js",
+    "test": "node local-server.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "dotenv": "^16.3.1"
+  }
+}

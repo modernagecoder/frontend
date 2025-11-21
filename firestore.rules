@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Beat the Babu - Maximum Security Rules
+    // Block ALL client-side writes - only backend API can write
+    
+    match /scores/{scoreId} {
+      // Anyone can read the leaderboard
+      allow read: if true;
+      
+      // NO direct writes from client - must use backend API
+      // This prevents all cheating attempts
+      allow write: if false;
+    }
+    
+    // Deny all other collections by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
