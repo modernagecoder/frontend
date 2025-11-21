@@ -98,7 +98,44 @@ function filterProfanity(name) {
   return filtered.toUpperCase();
 }
 
-module.exports = async (req, res) => {
+exports.handler = async (event, context) => {
+  // Convert Netlify event to Express-like req/res
+  const req = {
+    method: event.httpMethod,
+    headers: event.headers,
+    body: event.body ? JSON.parse(event.body) : {},
+    url: event.path + (event.queryStringParameters ? '?' + new URLSearchParams(event.queryStringParameters).toString() : '')
+  };
+  
+  const res = {
+    statusCode: 200,
+    headers: {},
+    body: '',
+    setHeader: function(key, value) {
+      this.headers[key] = value;
+    },
+    status: function(code) {
+      this.statusCode = code;
+      return this;
+    },
+    json: function(data) {
+      this.body = JSON.stringify(data);
+      return {
+        statusCode: this.statusCode,
+        headers: { ...this.headers, 'Content-Type': 'application/json' },
+        body: this.body
+      };
+    },
+    end: function() {
+      return {
+        statusCode: this.statusCode,
+        headers: this.headers,
+        body: this.body
+      };
+    }
+  };
+  
+  const handler = async (req, res) => {
   // Enable CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -215,4 +252,11 @@ module.exports = async (req, res) => {
       details: error.message 
     });
   }
+  };
+  
+  const clientIp = event.headers['x-forwarded-for'] || event.headers['client-ip'] || 'unknown';
+  req.headers['x-forwarded-for'] = clientIp;
+  req.connection = { remoteAddress: clientIp };
+  
+  return await handler(req, res);
 };
