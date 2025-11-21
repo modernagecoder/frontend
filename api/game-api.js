@@ -5,22 +5,38 @@ require('dotenv').config();
 const admin = require('firebase-admin');
 
 // Initialize Firebase Admin SDK with service account
-// Store your service account key in environment variables or secure config
-let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+let serviceAccount;
 
-// Handle different formats of private key
-if (privateKey) {
-  // Remove quotes if present
-  privateKey = privateKey.replace(/^["']|["']$/g, '');
-  // Replace literal \n with actual newlines
-  privateKey = privateKey.replace(/\\n/g, '\n');
+// Try base64 encoded service account first (easier method)
+if (process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
+  try {
+    const decoded = Buffer.from(process.env.FIREBASE_SERVICE_ACCOUNT_BASE64, 'base64').toString('utf-8');
+    serviceAccount = JSON.parse(decoded);
+    console.log('✅ Using base64 encoded service account');
+  } catch (error) {
+    console.error('❌ Failed to decode base64 service account:', error.message);
+  }
 }
 
-const serviceAccount = {
-  projectId: process.env.FIREBASE_PROJECT_ID,
-  clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-  privateKey: privateKey
-};
+// Fallback to individual environment variables
+if (!serviceAccount) {
+  let privateKey = process.env.FIREBASE_PRIVATE_KEY;
+  
+  // Handle different formats of private key
+  if (privateKey) {
+    // Remove quotes if present
+    privateKey = privateKey.replace(/^["']|["']$/g, '');
+    // Replace literal \n with actual newlines
+    privateKey = privateKey.replace(/\\n/g, '\n');
+  }
+  
+  serviceAccount = {
+    project_id: process.env.FIREBASE_PROJECT_ID,
+    client_email: process.env.FIREBASE_CLIENT_EMAIL,
+    private_key: privateKey
+  };
+  console.log('✅ Using individual environment variables');
+}
 
 if (!admin.apps.length) {
   try {
@@ -30,9 +46,13 @@ if (!admin.apps.length) {
     console.log('✅ Firebase initialized successfully');
   } catch (error) {
     console.error('❌ Firebase initialization error:', error.message);
-    console.error('Project ID:', process.env.FIREBASE_PROJECT_ID);
-    console.error('Client Email:', process.env.FIREBASE_CLIENT_EMAIL);
-    console.error('Private Key exists:', !!process.env.FIREBASE_PRIVATE_KEY);
+    console.error('Error details:', error);
+    if (!process.env.FIREBASE_SERVICE_ACCOUNT_BASE64) {
+      console.error('Project ID:', process.env.FIREBASE_PROJECT_ID);
+      console.error('Client Email:', process.env.FIREBASE_CLIENT_EMAIL);
+      console.error('Private Key exists:', !!process.env.FIREBASE_PRIVATE_KEY);
+      console.error('Private Key length:', process.env.FIREBASE_PRIVATE_KEY?.length);
+    }
   }
 }
 
