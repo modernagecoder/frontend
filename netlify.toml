@@ -2,7 +2,7 @@
 
 [build]
   # Generate blog and course content before deployment
-  command = "npm run generate:all"
+  command = "npm install && npm run generate:all"
   publish = "."
   functions = "api"
 
