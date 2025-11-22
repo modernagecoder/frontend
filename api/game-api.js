@@ -79,10 +79,9 @@ function checkRateLimit(ip) {
 
 // Validate score (server-side validation)
 function validateScore(score, timeSpent) {
-  // Maximum theoretical score: 90 seconds / 2 seconds per question * 20 points = ~900
-  // With combos, max realistic score is around 1500
-  if (score > 2000) return false;
-  if (score < 0) return false;
+  // Allow any positive score - students can achieve high scores with combos!
+  if (score < 0) return false; // Only reject negative scores
+  if (score > 100000) return false; // Only reject impossibly high scores (anti-cheat)
   if (timeSpent < 10) return false; // Game must last at least 10 seconds
   return true;
 }
