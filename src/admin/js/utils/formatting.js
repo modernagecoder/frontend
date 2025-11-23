@@ -24,6 +24,19 @@ function formatDateShort(dateString) {
   });
 }
 
+function formatDateLong(dateString) {
+  if (!dateString) return 'N/A';
+  const date = new Date(dateString);
+  return date.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+}
+
 function truncateText(text, maxLength = 50) {
   if (!text) return '';
   if (text.length <= maxLength) return text;

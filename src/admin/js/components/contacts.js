@@ -204,10 +204,30 @@ async function deleteContact(id) {
   }
 }
 
-async function exportContacts() {
+function exportContacts() {
   try {
-    await api.exportData('contacts', 'csv', contactsFilters);
-    showToast('Export started', 'success');
+    const csv = [
+      ['Name', 'Email', 'Phone', 'Message', 'Status', 'Submitted Date', 'Notes'].join(','),
+      ...contactsData.map(c => [
+        c.name,
+        c.email,
+        c.contact,
+        `"${(c.message || '').replace(/"/g, '""')}"`,
+        c.status,
+        formatDateShort(c.submittedAt),
+        `"${(c.notes || '').replace(/"/g, '""')}"`
+      ].join(','))
+    ].join('\n');
+    
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `contacts-${new Date().toISOString().split('T')[0]}.csv`;
+    a.click();
+    window.URL.revokeObjectURL(url);
+    
+    showToast('Export successful', 'success');
   } catch (error) {
     showToast('Export failed: ' + error.message, 'error');
   }
