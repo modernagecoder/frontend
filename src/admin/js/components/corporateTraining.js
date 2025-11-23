@@ -473,3 +473,12 @@ function exportCorporateTrainings() {
     showToast('Export failed: ' + error.message, 'error');
   }
 }
+
+window.loadCorporateTraining = loadCorporateTraining;
+window.deleteCorporateTraining = deleteCorporateTraining;
+window.viewCorporateTraining = viewCorporateTraining;
+window.editCorporateTraining = editCorporateTraining;
+window.changeCorporatePage = changeCorporatePage;
+window.exportCorporateTrainings = exportCorporateTrainings;
+window.bulkDeleteCorporateTrainings = bulkDeleteCorporateTrainings;
+window.bulkUpdateCorporateStatus = bulkUpdateCorporateStatus;

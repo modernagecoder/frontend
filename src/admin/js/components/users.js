@@ -177,10 +177,30 @@ async function deleteUser(id) {
   }
 }
 
-async function exportUsers() {
+function exportUsers() {
   try {
-    await api.exportData('users', 'csv', usersFilters);
-    showToast('Export started', 'success');
+    const csv = [
+      ['Username', 'Email', 'First Name', 'Last Name', 'Role', 'Registered', 'Last Login'].join(','),
+      ...usersData.map(u => [
+        u.username,
+        u.email,
+        u.firstName || '',
+        u.lastName || '',
+        u.role,
+        formatDateShort(u.createdAt),
+        u.lastLogin ? formatDateShort(u.lastLogin) : 'Never'
+      ].join(','))
+    ].join('\n');
+    
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `users-${new Date().toISOString().split('T')[0]}.csv`;
+    a.click();
+    window.URL.revokeObjectURL(url);
+    
+    showToast('Export successful', 'success');
   } catch (error) {
     showToast('Export failed: ' + error.message, 'error');
   }
