@@ -150,6 +150,11 @@
   status = 200
 
 [[redirects]]
+  from = "/business-solutions"
+  to = "/src/pages/business-solutions.html"
+  status = 200
+
+[[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
   status = 200

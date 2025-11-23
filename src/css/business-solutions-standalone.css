@@ -1,0 +1,1008 @@
+/* ========================================
+   BUSINESS SOLUTIONS - STANDALONE CSS
+   NO CONFLICTS - BUILT FROM SCRATCH
+   ======================================== */
+
+/* Scoped Reset - Only for Business Solutions Main Content */
+.bs-main,
+.bs-main * {
+    box-sizing: border-box;
+}
+
+.bs-main {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: transparent;
+    color: #F8FAFC;
+    line-height: 1.6;
+}
+
+/* Container */
+.bs-main .bs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Reset margins for all direct children in bs-main */
+.bs-main > * {
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+.bs-hero {
+    padding: 120px 0 80px;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.bs-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bs-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 32px;
+    backdrop-filter: blur(10px);
+}
+
+.bs-badge i {
+    color: #a855f7;
+    font-size: 16px;
+}
+
+.bs-badge span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F8FAFC;
+}
+
+.bs-hero-title {
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #F8FAFC;
+}
+
+.bs-gradient-text {
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bs-hero-desc {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #CBD5E1;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bs-hero-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.bs-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.bs-btn-primary {
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    color: #ffffff;
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3);
+}
+
+.bs-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.5);
+}
+
+.bs-btn-secondary {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #F8FAFC;
+    backdrop-filter: blur(10px);
+}
+
+.bs-btn-secondary:hover {
+    background: rgba(24, 24, 40, 0.9);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.bs-hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bs-stat {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 32px 24px;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.bs-stat:hover {
+    transform: translateY(-5px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 10px 40px rgba(168, 85, 247, 0.2);
+}
+
+.bs-stat-number {
+    font-size: 48px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.bs-stat-label {
+    font-size: 14px;
+    color: #94A3B8;
+    font-weight: 500;
+}
+/* ========================================
+   SECTIONS
+   ======================================== */
+.bs-section {
+    padding: 100px 0;
+}
+
+.bs-section-header {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.bs-section-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    color: #F8FAFC;
+}
+
+.bs-section-subtitle {
+    font-size: 18px;
+    color: #CBD5E1;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* ========================================
+   SERVICES SECTION
+   ======================================== */
+.bs-services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.bs-service-card {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px 32px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.bs-service-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 20px 60px rgba(168, 85, 247, 0.25);
+}
+
+.bs-service-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 24px rgba(168, 85, 247, 0.3);
+}
+
+.bs-service-icon i {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.bs-service-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #F8FAFC;
+}
+
+.bs-service-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #CBD5E1;
+    margin-bottom: 20px;
+}
+
+.bs-service-list {
+    list-style: none;
+}
+
+.bs-service-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.bs-service-list li i {
+    color: #4ecdc4;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+/* ========================================
+   AI & AUTOMATION SECTION
+   ======================================== */
+.bs-ai-section {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.05) 0%, rgba(78, 205, 196, 0.05) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.bs-ai-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 20% 50%, rgba(168, 85, 247, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(78, 205, 196, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.bs-ai-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.bs-ai-card {
+    background: rgba(16, 16, 28, 0.9);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    backdrop-filter: blur(20px);
+    padding: 40px 32px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.bs-ai-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #a855f7 0%, #4ecdc4 100%);
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+}
+
+.bs-ai-card:hover::before {
+    transform: scaleX(1);
+}
+
+.bs-ai-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(168, 85, 247, 0.6);
+    box-shadow: 0 20px 60px rgba(168, 85, 247, 0.3);
+}
+
+.bs-ai-icon {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+    position: relative;
+}
+
+.bs-ai-icon::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-radius: 18px;
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 0.4s ease;
+}
+
+.bs-ai-card:hover .bs-ai-icon::after {
+    opacity: 0.6;
+}
+
+.bs-ai-icon i {
+    font-size: 32px;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+}
+
+.bs-ai-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #F8FAFC;
+    background: linear-gradient(135deg, #F8FAFC 0%, #CBD5E1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bs-ai-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #CBD5E1;
+    margin-bottom: 20px;
+}
+
+.bs-ai-features {
+    list-style: none;
+}
+
+.bs-ai-features li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    color: #94A3B8;
+    font-size: 14px;
+}
+
+.bs-ai-features li i {
+    color: #4ecdc4;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.bs-ai-cta {
+    margin-top: 64px;
+    text-align: center;
+    background: rgba(16, 16, 28, 0.8);
+    border: 2px solid rgba(168, 85, 247, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 48px 40px;
+    border-radius: 24px;
+    position: relative;
+    z-index: 1;
+}
+
+.bs-ai-cta-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #F8FAFC;
+}
+
+.bs-ai-cta-desc {
+    font-size: 18px;
+    color: #CBD5E1;
+    margin-bottom: 32px;
+}
+
+/* ========================================
+   INDUSTRIES SECTION
+   ======================================== */
+.bs-industries {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.03) 0%, rgba(78, 205, 196, 0.03) 100%);
+}
+
+.bs-industries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+
+.bs-industry-card {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px 24px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.bs-industry-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 15px 50px rgba(168, 85, 247, 0.2);
+}
+
+.bs-industry-icon {
+    width: 72px;
+    height: 72px;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(78, 205, 196, 0.1) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    transition: all 0.3s ease;
+}
+
+.bs-industry-card:hover .bs-industry-icon {
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-color: transparent;
+}
+
+.bs-industry-icon i {
+    font-size: 32px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.bs-industry-card:hover .bs-industry-icon i {
+    -webkit-text-fill-color: #ffffff;
+}
+
+.bs-industry-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #F8FAFC;
+}
+
+.bs-industry-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #CBD5E1;
+}
+/* ========================================
+   PROCESS SECTION
+   ======================================== */
+.bs-process {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bs-process-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 32px;
+    border-radius: 20px;
+    transition: all 0.4s ease;
+}
+
+.bs-process-item:hover {
+    transform: translateX(15px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 15px 50px rgba(168, 85, 247, 0.2);
+}
+
+.bs-process-number {
+    font-size: 40px;
+    font-weight: 900;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    min-width: 70px;
+    flex-shrink: 0;
+}
+
+.bs-process-content {
+    flex: 1;
+}
+
+.bs-process-icon {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.1) 0%, rgba(78, 205, 196, 0.1) 100%);
+    border: 2px solid rgba(168, 85, 247, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.bs-process-icon i {
+    font-size: 20px;
+    color: #a855f7;
+}
+
+.bs-process-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #F8FAFC;
+}
+
+.bs-process-desc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #CBD5E1;
+}
+
+/* ========================================
+   FEATURES SECTION
+   ======================================== */
+.bs-features {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.03) 0%, rgba(78, 205, 196, 0.03) 100%);
+}
+
+.bs-features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.bs-feature-card {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px 32px;
+    border-radius: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+
+.bs-feature-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(168, 85, 247, 0.5);
+    box-shadow: 0 15px 50px rgba(168, 85, 247, 0.2);
+}
+
+.bs-feature-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    box-shadow: 0 8px 24px rgba(168, 85, 247, 0.3);
+}
+
+.bs-feature-icon i {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.bs-feature-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #F8FAFC;
+}
+
+.bs-feature-desc {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #CBD5E1;
+}
+/* ========================================
+   CONTACT SECTION
+   ======================================== */
+.bs-contact-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.bs-contact-form {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    border-radius: 24px;
+}
+
+.bs-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.bs-form-group {
+    margin-bottom: 20px;
+}
+
+.bs-form-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #F8FAFC;
+    margin-bottom: 8px;
+}
+
+.bs-form-group input,
+.bs-form-group select,
+.bs-form-group textarea {
+    width: 100%;
+    padding: 14px 16px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: #F8FAFC;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.bs-form-group input:focus,
+.bs-form-group select:focus,
+.bs-form-group textarea:focus {
+    outline: none;
+    border-color: #a855f7;
+    box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.1);
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.bs-form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.bs-btn-full {
+    width: 100%;
+    justify-content: center;
+}
+
+.bs-contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bs-info-card {
+    background: rgba(16, 16, 28, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 24px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+}
+
+.bs-info-card:hover {
+    transform: translateX(5px);
+    border-color: rgba(168, 85, 247, 0.5);
+}
+
+.bs-info-icon {
+    width: 56px;
+    height: 56px;
+    background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.3);
+}
+
+.bs-info-icon i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.bs-info-content h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #F8FAFC;
+}
+
+.bs-info-content p {
+    font-size: 14px;
+    color: #CBD5E1;
+}
+
+.bs-info-content a {
+    color: #CBD5E1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.bs-info-content a:hover {
+    color: #a855f7;
+}
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+/* Tablet (1024px and below) */
+@media (max-width: 1024px) {
+    .bs-hero-title {
+        font-size: 48px;
+    }
+    
+    .bs-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    
+    .bs-ai-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    
+    .bs-industries-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .bs-features-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .bs-contact-wrapper {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+    .bs-container {
+        padding: 0 20px;
+    }
+    
+    .bs-hero {
+        padding: 100px 0 60px;
+        min-height: auto;
+    }
+    
+    .bs-hero-title {
+        font-size: 36px;
+    }
+    
+    .bs-hero-desc {
+        font-size: 16px;
+    }
+    
+    .bs-hero-buttons {
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 48px;
+    }
+    
+    .bs-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .bs-hero-stats {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .bs-section {
+        padding: 60px 0;
+    }
+    
+    .bs-section-header {
+        margin-bottom: 48px;
+    }
+    
+    .bs-section-title {
+        font-size: 32px;
+    }
+    
+    .bs-section-subtitle {
+        font-size: 16px;
+    }
+    
+    .bs-services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .bs-service-card {
+        padding: 32px 24px;
+    }
+    
+    .bs-ai-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .bs-ai-card {
+        padding: 32px 24px;
+    }
+    
+    .bs-ai-cta {
+        padding: 40px 24px;
+    }
+    
+    .bs-ai-cta-title {
+        font-size: 24px;
+    }
+    
+    .bs-ai-cta-desc {
+        font-size: 16px;
+    }
+    
+    .bs-industries-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .bs-process-item {
+        flex-direction: column;
+        gap: 20px;
+        padding: 24px;
+    }
+    
+    .bs-process-number {
+        font-size: 32px;
+    }
+    
+    .bs-features-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .bs-contact-form {
+        padding: 32px 24px;
+    }
+    
+    .bs-form-row {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+    .bs-container {
+        padding: 0 16px;
+    }
+    
+    .bs-hero-title {
+        font-size: 28px;
+    }
+    
+    .bs-hero-desc {
+        font-size: 15px;
+    }
+    
+    .bs-badge {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+    
+    .bs-stat {
+        padding: 24px 20px;
+    }
+    
+    .bs-stat-number {
+        font-size: 40px;
+    }
+    
+    .bs-section-title {
+        font-size: 28px;
+    }
+    
+    .bs-service-icon,
+    .bs-feature-icon,
+    .bs-ai-icon {
+        width: 56px;
+        height: 56px;
+    }
+    
+    .bs-service-icon i,
+    .bs-feature-icon i,
+    .bs-ai-icon i {
+        font-size: 24px;
+    }
+    
+    .bs-ai-cta-title {
+        font-size: 20px;
+    }
+    
+    .bs-ai-cta-desc {
+        font-size: 14px;
+    }
+    
+    .bs-industry-icon {
+        width: 64px;
+        height: 64px;
+    }
+    
+    .bs-industry-icon i {
+        font-size: 28px;
+    }
+    
+    .bs-contact-form {
+        padding: 24px 20px;
+    }
+    
+    .bs-info-card {
+        padding: 20px;
+    }
+    
+    .bs-info-icon {
+        width: 48px;
+        height: 48px;
+    }
+    
+    .bs-info-icon i {
+        font-size: 20px;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection - Only in main content */
+.bs-main ::selection {
+    background: rgba(168, 85, 247, 0.3);
+    color: #F8FAFC;
+}

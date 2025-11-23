@@ -41,6 +41,7 @@ function resolveFilePath(url) {
     if (urlPath === '/pricing') return 'src/pages/pricing.html';
     if (urlPath === '/login') return 'src/pages/login.html';
     if (urlPath === '/beat-the-babu') return 'src/pages/beat-the-babu.html';
+    if (urlPath === '/business-solutions') return 'src/pages/business-solutions.html';
     if (urlPath === '/faq') return 'src/pages/faq.html';
     if (urlPath === '/terms') return 'src/pages/terms.html';
     if (urlPath === '/privacy') return 'src/pages/privacy.html';

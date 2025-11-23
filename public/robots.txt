@@ -18,6 +18,7 @@ Allow: /blog/
 Allow: /about
 Allow: /contact
 Allow: /pricing
+Allow: /business-solutions
 
 # Sitemap location
 Sitemap: https://learn.modernagecoders.com/sitemap.xml

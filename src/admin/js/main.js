@@ -156,6 +156,9 @@ async function loadPage(page) {
      case 'corporate-training':
         await loadCorporateTraining();
         break;
+      case 'business-solutions':
+        await loadBusinessSolutions();
+        break;
       case 'analytics':
         await loadAnalytics();
         break;

@@ -22,6 +22,7 @@
 / /src/pages/index.html 200
 /about /src/pages/about.html 200
 /courses /src/pages/course.html 200
+/business-solutions /src/pages/business-solutions.html 200
 /pricing /src/pages/pricing.html 200
 /contact /src/pages/contact.html 200
 /terms /src/pages/terms.html 200

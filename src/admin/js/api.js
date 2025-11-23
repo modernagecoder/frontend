@@ -258,6 +258,36 @@ class APIClient {
     return await this.request('/admin/corporate-training/stats/summary');
   }
 
+  // ============================================
+  // BUSINESS SOLUTIONS ENDPOINTS
+  // ============================================
+  
+  async getBusinessSolutions(params = {}) {
+    const queryString = new URLSearchParams(params).toString();
+    return await this.request(`/admin/business-solutions?${queryString}`);
+  }
+  
+  async getBusinessSolution(id) {
+    return await this.request(`/admin/business-solutions/${id}`);
+  }
+  
+  async updateBusinessSolution(id, updates) {
+    return await this.request(`/admin/business-solutions/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(updates)
+    });
+  }
+  
+  async deleteBusinessSolution(id) {
+    return await this.request(`/admin/business-solutions/${id}`, {
+      method: 'DELETE'
+    });
+  }
+  
+  async getBusinessSolutionStats() {
+    return await this.request('/admin/business-solutions/stats/summary');
+  }
+
 }
 
 
