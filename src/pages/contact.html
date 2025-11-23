@@ -266,6 +266,22 @@
     </main>
 
     <script>
+        // API Configuration
+        const API_CONFIG = {
+            development: 'http://localhost:5000',
+            production: 'https://modernagecoders-backend.vercel.app',
+
+            getBaseURL: function () {
+                if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                    return this.development;
+                }
+                return this.production;
+            }
+        };
+
+        const API_BASE_URL = API_CONFIG.getBaseURL();
+        console.log('🔗 API Base URL:', API_BASE_URL);
+        
         // Background Canvas Animation (same as other pages)
         const canvas = document.getElementById('background-canvas');
         const ctx = canvas.getContext('2d');
