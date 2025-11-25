@@ -6603,6 +6603,63 @@ body.courses-page .course-content {
 }
 
 /* ========================================
+   WHATSAPP MOBILE - CRITICAL OVERRIDES
+   ======================================== */
+@media screen and (max-width: 768px) {
+    a.whatsapp-sticky-button {
+        position: fixed !important;
+        bottom: 20px !important;
+        right: 16px !important;
+        width: auto !important;
+        height: auto !important;
+        background: transparent !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+    }
+
+    a.whatsapp-sticky-button .whatsapp-label,
+    .whatsapp-sticky-button .whatsapp-label,
+    .whatsapp-label {
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        opacity: 0 !important;
+    }
+
+    a.whatsapp-sticky-button .whatsapp-icon-wrapper,
+    .whatsapp-sticky-button .whatsapp-icon-wrapper,
+    .whatsapp-icon-wrapper {
+        width: 52px !important;
+        height: 52px !important;
+        min-width: 52px !important;
+        min-height: 52px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background: #25D366 !important;
+        border-radius: 50% !important;
+    }
+
+    a.whatsapp-sticky-button .whatsapp-icon,
+    .whatsapp-sticky-button .whatsapp-icon,
+    .whatsapp-icon {
+        width: 26px !important;
+        height: 26px !important;
+        min-width: 26px !important;
+        min-height: 26px !important;
+        color: white !important;
+        fill: white !important;
+    }
+
+    .whatsapp-tooltip {
+        display: none !important;
+    }
+}
+
+/* ========================================
    RESPONSIVE DESIGN FOR TRY CODING SECTION
    ======================================== */
 
@@ -6624,35 +6681,6 @@ body.courses-page .course-content {
         width: 60px;
         height: 60px;
         font-size: 2rem;
-    }
-
-    /* WhatsApp Mobile - Icon only, no label */
-    .whatsapp-sticky-button {
-        bottom: 20px !important;
-        right: 16px !important;
-        width: auto !important;
-        height: auto !important;
-        background: transparent !important;
-    }
-
-    .whatsapp-label {
-        display: none !important;
-    }
-
-    .whatsapp-icon-wrapper {
-        width: 52px !important;
-        height: 52px !important;
-        min-width: 52px !important;
-        min-height: 52px !important;
-    }
-
-    .whatsapp-icon {
-        width: 26px !important;
-        height: 26px !important;
-    }
-
-    .whatsapp-tooltip {
-        display: none !important;
     }
 }
 
