@@ -6516,112 +6516,90 @@ body.courses-page .course-content {
 }
 
 /* ========================================
-   WHATSAPP STICKY BUTTON
+   WHATSAPP STICKY BUTTON - With Clear Label
    ======================================== */
 
 .whatsapp-sticky-button {
     position: fixed !important;
-    bottom: 30px !important;
-    right: 30px !important;
-    width: 60px !important;
-    height: 60px !important;
+    bottom: 24px !important;
+    right: 24px !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 10px !important;
+    z-index: 10005 !important;
+    text-decoration: none !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    width: auto !important;
+    height: auto !important;
+    background: transparent !important;
+    border-radius: 0 !important;
+    animation: none !important;
+}
+
+.whatsapp-sticky-button::before {
+    display: none !important;
+}
+
+.whatsapp-sticky-button:hover {
+    text-decoration: none;
+    transform: none !important;
+}
+
+.whatsapp-sticky-button:hover .whatsapp-icon-wrapper {
+    transform: scale(1.08);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+.whatsapp-sticky-button:hover .whatsapp-label {
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}
+
+/* WhatsApp Icon Wrapper */
+.whatsapp-icon-wrapper {
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px !important;
+    min-height: 52px !important;
     background: #25D366 !important;
     border-radius: 50% !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4) !important;
-    z-index: 10005 !important;
-    transition: all 0.3s ease !important;
-    text-decoration: none !important;
-    animation: float 3s ease-in-out infinite !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    pointer-events: auto !important;
-}
-
-@keyframes float {
-
-    0%,
-    100% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-}
-
-.whatsapp-sticky-button:hover {
-    transform: scale(1.1) translateY(-5px);
-    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.6);
-    animation: none;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    flex-shrink: 0 !important;
 }
 
 .whatsapp-icon {
-    width: 32px !important;
-    height: 32px !important;
+    width: 26px !important;
+    height: 26px !important;
+    min-width: 26px !important;
+    min-height: 26px !important;
     color: white !important;
     fill: white !important;
-    position: relative !important;
-    z-index: 1 !important;
 }
 
-/* WhatsApp Tooltip */
+/* WhatsApp Label - Always Visible on Desktop */
+.whatsapp-label {
+    background: #25D366 !important;
+    color: #fff !important;
+    padding: 8px 16px !important;
+    border-radius: 20px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4) !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    letter-spacing: 0.3px !important;
+    transition: box-shadow 0.2s ease !important;
+}
+
+/* Hide old tooltip */
 .whatsapp-tooltip {
-    position: absolute;
-    right: 75px;
-    background: rgba(0, 0, 0, 0.9);
-    color: white;
-    padding: 10px 16px;
-    border-radius: 8px;
-    white-space: nowrap;
-    font-size: 0.875rem;
-    font-weight: 500;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-}
-
-.whatsapp-tooltip::after {
-    content: '';
-    position: absolute;
-    right: -8px;
-    top: 50%;
-    transform: translateY(-50%);
-    border: 8px solid transparent;
-    border-left-color: rgba(0, 0, 0, 0.9);
-}
-
-.whatsapp-sticky-button:hover .whatsapp-tooltip {
-    opacity: 1;
-}
-
-/* Pulse Animation for WhatsApp Button */
-.whatsapp-sticky-button::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: #25D366;
-    opacity: 0.7;
-    animation: pulse 2s ease-out infinite;
-}
-
-@keyframes pulse {
-    0% {
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 0.7;
-    }
-
-    100% {
-        transform: translate(-50%, -50%) scale(1.5);
-        opacity: 0;
-    }
+    display: none !important;
 }
 
 /* ========================================
@@ -6648,20 +6626,33 @@ body.courses-page .course-content {
         font-size: 2rem;
     }
 
+    /* WhatsApp Mobile - Icon only, no label */
     .whatsapp-sticky-button {
-        bottom: 20px;
-        right: 20px;
-        width: 56px;
-        height: 56px;
+        bottom: 20px !important;
+        right: 16px !important;
+        width: auto !important;
+        height: auto !important;
+        background: transparent !important;
+    }
+
+    .whatsapp-label {
+        display: none !important;
+    }
+
+    .whatsapp-icon-wrapper {
+        width: 52px !important;
+        height: 52px !important;
+        min-width: 52px !important;
+        min-height: 52px !important;
     }
 
     .whatsapp-icon {
-        width: 28px;
-        height: 28px;
+        width: 26px !important;
+        height: 26px !important;
     }
 
     .whatsapp-tooltip {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -12814,3 +12805,5 @@ body.modal-open {
 }
 
 /* CSS overrides removed - back to normal */
+
+/* Misti AI Chat Button styles are inline in footer.html for guaranteed fixed positioning */
