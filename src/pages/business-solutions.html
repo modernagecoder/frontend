@@ -55,8 +55,14 @@
     
     <!-- Standalone CSS - No Conflicts (Load Last) -->
     <link rel="stylesheet" href="/css/business-solutions-standalone.css">
+    
+    <!-- Critical Inline Styles for Preventing Horizontal Scroll -->
+    <style>
+        html, body { overflow-x: hidden !important; max-width: 100vw !important; }
+        * { box-sizing: border-box; }
+    </style>
 </head>
-<body class="bs-page">
+<body class="bs-page" style="overflow-x: hidden; max-width: 100vw;">
     <div id="nav-placeholder"></div>
     
     <main class="bs-main">
@@ -77,28 +83,28 @@
                         tailored for schools, colleges, and businesses.
                     </p>
                     <div class="bs-hero-buttons">
-                        <a href="#bs-contact" class="bs-btn bs-btn-primary">
-                            <span>Get Started</span>
-                            <i class="fas fa-arrow-right"></i>
+                        <a href="#bs-contact" class="bs-btn bs-btn-primary" aria-label="Get started with our services">
+                            <span>Get Free Consultation</span>
+                            <i class="fas fa-arrow-right" aria-hidden="true"></i>
                         </a>
-                        <a href="#bs-services" class="bs-btn bs-btn-secondary">
+                        <a href="#bs-services" class="bs-btn bs-btn-secondary" aria-label="Explore our services">
                             <span>Explore Services</span>
-                            <i class="fas fa-chevron-down"></i>
+                            <i class="fas fa-chevron-down" aria-hidden="true"></i>
                         </a>
                     </div>
                 </div>
                 
                 <div class="bs-hero-stats">
                     <div class="bs-stat" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="bs-stat-number">100+</div>
+                        <div class="bs-stat-number" aria-label="100 plus projects delivered">100+</div>
                         <div class="bs-stat-label">Projects Delivered</div>
                     </div>
                     <div class="bs-stat" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="bs-stat-number">250+</div>
+                        <div class="bs-stat-number" aria-label="250 plus happy clients">250+</div>
                         <div class="bs-stat-label">Happy Clients</div>
                     </div>
                     <div class="bs-stat" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="bs-stat-number">98%</div>
+                        <div class="bs-stat-number" aria-label="98 percent satisfaction rate">98%</div>
                         <div class="bs-stat-label">Satisfaction Rate</div>
                     </div>
                 </div>
