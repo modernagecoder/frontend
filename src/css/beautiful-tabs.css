@@ -1,0 +1,723 @@
+/* ============================================
+   BEAUTIFUL & ENGAGING COURSE TABS
+   Color Psychology + Website Theme Integration
+   ============================================ */
+
+/* Main Tab Navigation Container */
+.tab-navigation {
+    background: linear-gradient(145deg, 
+        rgba(16, 16, 32, 0.95) 0%, 
+        rgba(24, 20, 40, 0.92) 50%,
+        rgba(16, 16, 32, 0.95) 100%) !important;
+    backdrop-filter: blur(24px) !important;
+    border-radius: 24px !important;
+    padding: 2.5rem 2rem !important;
+    margin-bottom: 2.5rem !important;
+    border: 1px solid rgba(168, 85, 247, 0.15) !important;
+    box-shadow: 
+        0 25px 60px rgba(0, 0, 0, 0.5),
+        0 0 80px rgba(168, 85, 247, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated gradient border */
+.tab-navigation::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent 0%,
+        rgba(78, 205, 196, 0.6) 15%,
+        rgba(168, 85, 247, 0.9) 35%,
+        rgba(236, 72, 153, 0.7) 50%,
+        rgba(255, 165, 0, 0.8) 65%,
+        rgba(168, 85, 247, 0.9) 85%,
+        transparent 100%);
+    background-size: 200% 100%;
+    animation: gradientFlow 8s ease-in-out infinite;
+}
+
+@keyframes gradientFlow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Header Section */
+.main-tabs-header {
+    text-align: center !important;
+    margin-bottom: 2rem !important;
+    position: relative;
+    z-index: 1;
+}
+
+.main-tabs-header .tabs-title {
+    font-size: 1.75rem !important;
+    font-weight: 800 !important;
+    background: linear-gradient(135deg, #fff 0%, #e2e8f0 40%, #c084fc 70%, #4ecdc4 100%) !important;
+    background-size: 200% 200% !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+    margin-bottom: 0.5rem !important;
+    animation: titleShimmer 6s ease-in-out infinite !important;
+}
+
+@keyframes titleShimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.main-tabs-header .tabs-subtitle {
+    color: rgba(203, 213, 225, 0.8) !important;
+    font-size: 1rem !important;
+}
+
+/* Main Tabs Container */
+.main-tabs {
+    display: flex !important;
+    justify-content: center !important;
+    gap: 1.25rem !important;
+    margin-bottom: 1.75rem !important;
+    position: relative;
+    z-index: 1;
+}
+
+/* Main Tab Buttons */
+.main-tab {
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    padding: 1.25rem 2.25rem !important;
+    min-width: 180px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 16px !important;
+    cursor: pointer !important;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    position: relative !important;
+    font-family: inherit !important;
+    overflow: hidden !important;
+}
+
+.main-tab::before,
+.main-tab::after {
+    display: none !important;
+}
+
+/* CODING TAB - Purple (Creativity & Innovation) */
+.main-tab[data-tab="coding"] {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.12), rgba(78, 205, 196, 0.04)) !important;
+    border-color: rgba(168, 85, 247, 0.25) !important;
+}
+
+.main-tab[data-tab="coding"]:hover {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.2), rgba(78, 205, 196, 0.08)) !important;
+    border-color: rgba(168, 85, 247, 0.45) !important;
+    transform: translateY(-4px) scale(1.02) !important;
+    box-shadow: 0 15px 40px rgba(168, 85, 247, 0.25), 0 0 30px rgba(168, 85, 247, 0.1) !important;
+}
+
+.main-tab[data-tab="coding"].active {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.28), rgba(78, 205, 196, 0.1)) !important;
+    border-color: rgba(168, 85, 247, 0.6) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 35px rgba(168, 85, 247, 0.3), 0 0 50px rgba(168, 85, 247, 0.15) !important;
+}
+
+/* MATHS TAB - Orange/Gold (Energy & Success) */
+.main-tab[data-tab="maths"] {
+    background: linear-gradient(145deg, rgba(255, 165, 0, 0.12), rgba(251, 191, 36, 0.04)) !important;
+    border-color: rgba(255, 165, 0, 0.25) !important;
+}
+
+.main-tab[data-tab="maths"]:hover {
+    background: linear-gradient(145deg, rgba(255, 165, 0, 0.2), rgba(251, 191, 36, 0.08)) !important;
+    border-color: rgba(255, 165, 0, 0.45) !important;
+    transform: translateY(-4px) scale(1.02) !important;
+    box-shadow: 0 15px 40px rgba(255, 165, 0, 0.25), 0 0 30px rgba(255, 165, 0, 0.1) !important;
+}
+
+.main-tab[data-tab="maths"].active {
+    background: linear-gradient(145deg, rgba(255, 165, 0, 0.28), rgba(251, 191, 36, 0.1)) !important;
+    border-color: rgba(255, 165, 0, 0.6) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 12px 35px rgba(255, 165, 0, 0.3), 0 0 50px rgba(255, 165, 0, 0.15) !important;
+}
+
+/* Tab Icon */
+.main-tab .tab-icon {
+    width: 48px !important;
+    height: 48px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-radius: 14px !important;
+    transition: all 0.4s ease !important;
+    margin: 0 !important;
+}
+
+.main-tab .tab-icon svg {
+    width: 24px !important;
+    height: 24px !important;
+    color: rgba(255, 255, 255, 0.75) !important;
+    transition: all 0.4s ease !important;
+}
+
+.main-tab:hover .tab-icon {
+    background: rgba(255, 255, 255, 0.12) !important;
+    transform: scale(1.08) !important;
+}
+
+.main-tab:hover .tab-icon svg {
+    color: #fff !important;
+}
+
+.main-tab[data-tab="coding"].active .tab-icon {
+    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3), rgba(78, 205, 196, 0.2)) !important;
+    box-shadow: 0 4px 20px rgba(168, 85, 247, 0.3) !important;
+}
+
+.main-tab[data-tab="coding"].active .tab-icon svg {
+    color: #c084fc !important;
+    filter: drop-shadow(0 0 8px rgba(168, 85, 247, 0.5)) !important;
+}
+
+.main-tab[data-tab="maths"].active .tab-icon {
+    background: linear-gradient(135deg, rgba(255, 165, 0, 0.3), rgba(251, 191, 36, 0.2)) !important;
+    box-shadow: 0 4px 20px rgba(255, 165, 0, 0.3) !important;
+}
+
+.main-tab[data-tab="maths"].active .tab-icon svg {
+    color: #fbbf24 !important;
+    filter: drop-shadow(0 0 8px rgba(255, 165, 0, 0.5)) !important;
+}
+
+/* Tab Text */
+.main-tab .tab-text {
+    font-size: 1.1rem !important;
+    font-weight: 700 !important;
+    color: rgba(255, 255, 255, 0.8) !important;
+    transition: color 0.3s ease !important;
+}
+
+.main-tab:hover .tab-text,
+.main-tab.active .tab-text {
+    color: #fff !important;
+}
+
+
+/* ============================================
+   SUB TABS INDICATOR
+   ============================================ */
+
+.sub-tabs-indicator {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1rem !important;
+    margin: 1.5rem 0 !important;
+    position: relative;
+    z-index: 1;
+}
+
+.sub-tabs-indicator .indicator-line {
+    flex: 1 !important;
+    height: 1px !important;
+    background: linear-gradient(90deg, transparent, rgba(168, 85, 247, 0.3), rgba(78, 205, 196, 0.3), transparent) !important;
+    max-width: 120px !important;
+}
+
+.sub-tabs-indicator .indicator-text {
+    font-size: 0.75rem !important;
+    font-weight: 600 !important;
+    color: rgba(148, 163, 184, 0.7) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.12em !important;
+    padding: 0.4rem 1rem !important;
+    background: rgba(168, 85, 247, 0.08) !important;
+    border: 1px solid rgba(168, 85, 247, 0.15) !important;
+    border-radius: 20px !important;
+}
+
+/* ============================================
+   SUB TABS - Age Group Pills
+   Color Psychology: Each age group has unique color
+   ============================================ */
+
+.sub-tabs-container {
+    position: relative !important;
+    z-index: 1;
+}
+
+.sub-tabs {
+    display: none !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    gap: 0.75rem !important;
+}
+
+.sub-tabs.active {
+    display: flex !important;
+    animation: fadeSlideIn 0.4s ease-out !important;
+}
+
+@keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Base Sub Tab Style */
+.sub-tab {
+    padding: 0.875rem 1.75rem !important;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02)) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px !important;
+    cursor: pointer !important;
+    transition: all 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    position: relative !important;
+    font-family: inherit !important;
+    overflow: hidden !important;
+}
+
+/* Animated bottom border */
+.sub-tab::before {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    width: 0 !important;
+    height: 3px !important;
+    background: linear-gradient(90deg, #4ecdc4, #a855f7) !important;
+    border-radius: 3px 3px 0 0 !important;
+    transition: width 0.35s ease !important;
+}
+
+.sub-tab:hover::before {
+    width: 70% !important;
+}
+
+.sub-tab.active::before {
+    width: 100% !important;
+}
+
+/* Sub Tab Text */
+.sub-tab .subtab-text {
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    transition: all 0.3s ease !important;
+    white-space: nowrap !important;
+}
+
+.sub-tab:hover .subtab-text {
+    color: #fff !important;
+}
+
+.sub-tab.active .subtab-text {
+    color: #fff !important;
+}
+
+/* ============================================
+   CODING SUB-TABS - Individual Colors
+   ============================================ */
+
+/* Kids - Teal (Trust, Growth, Fun) */
+.coding-subtabs .sub-tab[data-subtab="kids"] {
+    border-color: rgba(78, 205, 196, 0.2) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="kids"]:hover {
+    background: linear-gradient(145deg, rgba(78, 205, 196, 0.15), rgba(78, 205, 196, 0.05)) !important;
+    border-color: rgba(78, 205, 196, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(78, 205, 196, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="kids"].active {
+    background: linear-gradient(145deg, rgba(78, 205, 196, 0.22), rgba(78, 205, 196, 0.08)) !important;
+    border-color: rgba(78, 205, 196, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(78, 205, 196, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="kids"]::before {
+    background: linear-gradient(90deg, #4ecdc4, #2dd4bf) !important;
+}
+
+/* Teens - Purple (Creativity, Innovation) */
+.coding-subtabs .sub-tab[data-subtab="teens"] {
+    border-color: rgba(168, 85, 247, 0.2) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="teens"]:hover {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.15), rgba(168, 85, 247, 0.05)) !important;
+    border-color: rgba(168, 85, 247, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="teens"].active {
+    background: linear-gradient(145deg, rgba(168, 85, 247, 0.22), rgba(168, 85, 247, 0.08)) !important;
+    border-color: rgba(168, 85, 247, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="teens"]::before {
+    background: linear-gradient(90deg, #a855f7, #8b5cf6) !important;
+}
+
+/* College - Blue (Knowledge, Professionalism) */
+.coding-subtabs .sub-tab[data-subtab="college"] {
+    border-color: rgba(59, 130, 246, 0.2) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="college"]:hover {
+    background: linear-gradient(145deg, rgba(59, 130, 246, 0.15), rgba(59, 130, 246, 0.05)) !important;
+    border-color: rgba(59, 130, 246, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="college"].active {
+    background: linear-gradient(145deg, rgba(59, 130, 246, 0.22), rgba(59, 130, 246, 0.08)) !important;
+    border-color: rgba(59, 130, 246, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="college"]::before {
+    background: linear-gradient(90deg, #3b82f6, #6366f1) !important;
+}
+
+/* Girls - Pink (Empowerment, Warmth) */
+.coding-subtabs .sub-tab[data-subtab="girls"] {
+    border-color: rgba(236, 72, 153, 0.2) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="girls"]:hover {
+    background: linear-gradient(145deg, rgba(236, 72, 153, 0.15), rgba(236, 72, 153, 0.05)) !important;
+    border-color: rgba(236, 72, 153, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(236, 72, 153, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="girls"].active {
+    background: linear-gradient(145deg, rgba(236, 72, 153, 0.22), rgba(236, 72, 153, 0.08)) !important;
+    border-color: rgba(236, 72, 153, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(236, 72, 153, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="girls"]::before {
+    background: linear-gradient(90deg, #ec4899, #f472b6) !important;
+}
+
+/* Corporate - Slate/Professional (Trust, Reliability) */
+.coding-subtabs .sub-tab[data-subtab="customized"] {
+    border-color: rgba(100, 116, 139, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="customized"]:hover {
+    background: linear-gradient(145deg, rgba(100, 116, 139, 0.18), rgba(100, 116, 139, 0.06)) !important;
+    border-color: rgba(100, 116, 139, 0.45) !important;
+    box-shadow: 0 8px 25px rgba(100, 116, 139, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="customized"].active {
+    background: linear-gradient(145deg, rgba(100, 116, 139, 0.25), rgba(100, 116, 139, 0.1)) !important;
+    border-color: rgba(100, 116, 139, 0.55) !important;
+    box-shadow: 0 6px 20px rgba(100, 116, 139, 0.25) !important;
+}
+.coding-subtabs .sub-tab[data-subtab="customized"]::before {
+    background: linear-gradient(90deg, #64748b, #94a3b8) !important;
+}
+
+
+/* ============================================
+   MATHS SUB-TABS - Warm Color Palette
+   ============================================ */
+
+/* Elementary - Green (Growth, Learning) */
+.maths-subtabs .sub-tab[data-subtab="elementary"] {
+    border-color: rgba(16, 185, 129, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="elementary"]:hover {
+    background: linear-gradient(145deg, rgba(16, 185, 129, 0.15), rgba(16, 185, 129, 0.05)) !important;
+    border-color: rgba(16, 185, 129, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(16, 185, 129, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="elementary"].active {
+    background: linear-gradient(145deg, rgba(16, 185, 129, 0.22), rgba(16, 185, 129, 0.08)) !important;
+    border-color: rgba(16, 185, 129, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="elementary"]::before {
+    background: linear-gradient(90deg, #10b981, #34d399) !important;
+}
+
+/* Middle School - Orange (Energy, Enthusiasm) */
+.maths-subtabs .sub-tab[data-subtab="middle"] {
+    border-color: rgba(249, 115, 22, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="middle"]:hover {
+    background: linear-gradient(145deg, rgba(249, 115, 22, 0.15), rgba(249, 115, 22, 0.05)) !important;
+    border-color: rgba(249, 115, 22, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(249, 115, 22, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="middle"].active {
+    background: linear-gradient(145deg, rgba(249, 115, 22, 0.22), rgba(249, 115, 22, 0.08)) !important;
+    border-color: rgba(249, 115, 22, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="middle"]::before {
+    background: linear-gradient(90deg, #f97316, #fb923c) !important;
+}
+
+/* High School - Gold (Achievement, Success) */
+.maths-subtabs .sub-tab[data-subtab="high"] {
+    border-color: rgba(245, 158, 11, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="high"]:hover {
+    background: linear-gradient(145deg, rgba(245, 158, 11, 0.15), rgba(245, 158, 11, 0.05)) !important;
+    border-color: rgba(245, 158, 11, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(245, 158, 11, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="high"].active {
+    background: linear-gradient(145deg, rgba(245, 158, 11, 0.22), rgba(245, 158, 11, 0.08)) !important;
+    border-color: rgba(245, 158, 11, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="high"]::before {
+    background: linear-gradient(90deg, #f59e0b, #fbbf24) !important;
+}
+
+/* College - Indigo (Wisdom, Depth) */
+.maths-subtabs .sub-tab[data-subtab="college"] {
+    border-color: rgba(99, 102, 241, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="college"]:hover {
+    background: linear-gradient(145deg, rgba(99, 102, 241, 0.15), rgba(99, 102, 241, 0.05)) !important;
+    border-color: rgba(99, 102, 241, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="college"].active {
+    background: linear-gradient(145deg, rgba(99, 102, 241, 0.22), rgba(99, 102, 241, 0.08)) !important;
+    border-color: rgba(99, 102, 241, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="college"]::before {
+    background: linear-gradient(90deg, #6366f1, #818cf8) !important;
+}
+
+/* Professionals - Cyan (Clarity, Focus) */
+.maths-subtabs .sub-tab[data-subtab="professional"] {
+    border-color: rgba(6, 182, 212, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="professional"]:hover {
+    background: linear-gradient(145deg, rgba(6, 182, 212, 0.15), rgba(6, 182, 212, 0.05)) !important;
+    border-color: rgba(6, 182, 212, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(6, 182, 212, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="professional"].active {
+    background: linear-gradient(145deg, rgba(6, 182, 212, 0.22), rgba(6, 182, 212, 0.08)) !important;
+    border-color: rgba(6, 182, 212, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(6, 182, 212, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="professional"]::before {
+    background: linear-gradient(90deg, #06b6d4, #22d3ee) !important;
+}
+
+/* Girls - Rose (Empowerment) */
+.maths-subtabs .sub-tab[data-subtab="girls"] {
+    border-color: rgba(244, 63, 94, 0.2) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="girls"]:hover {
+    background: linear-gradient(145deg, rgba(244, 63, 94, 0.15), rgba(244, 63, 94, 0.05)) !important;
+    border-color: rgba(244, 63, 94, 0.4) !important;
+    box-shadow: 0 8px 25px rgba(244, 63, 94, 0.2) !important;
+    transform: translateY(-3px) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="girls"].active {
+    background: linear-gradient(145deg, rgba(244, 63, 94, 0.22), rgba(244, 63, 94, 0.08)) !important;
+    border-color: rgba(244, 63, 94, 0.5) !important;
+    box-shadow: 0 6px 20px rgba(244, 63, 94, 0.25) !important;
+}
+.maths-subtabs .sub-tab[data-subtab="girls"]::before {
+    background: linear-gradient(90deg, #f43f5e, #fb7185) !important;
+}
+
+/* ============================================
+   SEARCH SECTION
+   ============================================ */
+
+.search-section {
+    margin: 1.5rem 0 !important;
+    position: relative;
+    z-index: 1;
+}
+
+.search-box-prominent {
+    display: flex !important;
+    align-items: center !important;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02)) !important;
+    border: 1px solid rgba(168, 85, 247, 0.15) !important;
+    border-radius: 14px !important;
+    padding: 0.875rem 1.25rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.search-box-prominent:focus-within {
+    border-color: rgba(168, 85, 247, 0.4) !important;
+    background: rgba(168, 85, 247, 0.05) !important;
+    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.15), 0 0 40px rgba(168, 85, 247, 0.05) !important;
+}
+
+.search-icon-prominent {
+    color: rgba(168, 85, 247, 0.5) !important;
+    margin-right: 0.875rem !important;
+    display: flex !important;
+}
+
+.search-icon-prominent svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.search-input-prominent {
+    flex: 1 !important;
+    background: transparent !important;
+    border: none !important;
+    color: #f1f5f9 !important;
+    font-size: 0.95rem !important;
+    outline: none !important;
+}
+
+.search-input-prominent::placeholder {
+    color: rgba(148, 163, 184, 0.6) !important;
+}
+
+.search-clear-btn {
+    background: rgba(168, 85, 247, 0.15) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 0.4rem !important;
+    cursor: pointer !important;
+    color: rgba(168, 85, 247, 0.7) !important;
+    transition: all 0.2s ease !important;
+    display: flex !important;
+}
+
+.search-clear-btn:hover {
+    background: rgba(168, 85, 247, 0.25) !important;
+    color: #c084fc !important;
+}
+
+.search-clear-btn svg {
+    width: 14px !important;
+    height: 14px !important;
+}
+
+/* ============================================
+   RESPONSIVE DESIGN
+   ============================================ */
+
+@media (max-width: 768px) {
+    .tab-navigation {
+        padding: 2rem 1.25rem !important;
+        border-radius: 20px !important;
+        margin: 0 0 2rem 0 !important;
+    }
+
+    .main-tabs-header .tabs-title {
+        font-size: 1.4rem !important;
+    }
+
+    .main-tabs {
+        flex-direction: column !important;
+        gap: 0.875rem !important;
+    }
+
+    .main-tab {
+        width: 100% !important;
+        min-width: auto !important;
+        padding: 1rem 1.5rem !important;
+        justify-content: flex-start !important;
+    }
+
+    .main-tab .tab-icon {
+        width: 42px !important;
+        height: 42px !important;
+    }
+
+    .main-tab .tab-icon svg {
+        width: 22px !important;
+        height: 22px !important;
+    }
+
+    .sub-tabs {
+        gap: 0.5rem !important;
+    }
+
+    .sub-tab {
+        padding: 0.75rem 1.25rem !important;
+        flex: 1 1 calc(50% - 0.5rem) !important;
+        min-width: 140px !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+
+    .sub-tab .subtab-text {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .tab-navigation {
+        padding: 1.5rem 1rem !important;
+        border-radius: 16px !important;
+    }
+
+    .main-tabs-header .tabs-title {
+        font-size: 1.2rem !important;
+    }
+
+    .main-tab {
+        padding: 0.875rem 1.25rem !important;
+        border-radius: 12px !important;
+    }
+
+    .main-tab .tab-icon {
+        width: 38px !important;
+        height: 38px !important;
+        border-radius: 10px !important;
+    }
+
+    .main-tab .tab-text {
+        font-size: 1rem !important;
+    }
+
+    .sub-tab {
+        flex: 1 1 100% !important;
+        padding: 0.7rem 1rem !important;
+    }
+
+    .sub-tab .subtab-text {
+        font-size: 0.75rem !important;
+    }
+}
+
+/* ============================================
+   ACCESSIBILITY
+   ============================================ */
+
+.main-tab:focus-visible,
+.sub-tab:focus-visible {
+    outline: 2px solid rgba(168, 85, 247, 0.7) !important;
+    outline-offset: 3px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tab-navigation::before,
+    .main-tabs-header .tabs-title,
+    .main-tab,
+    .sub-tab,
+    .sub-tabs.active {
+        animation: none !important;
+    }
+}
