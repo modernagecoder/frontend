@@ -1,175 +1,730 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   
-  <!-- Homepage -->
+  <!-- ========================================
+       HOMEPAGE
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   
-  <!-- Main Pages -->
+  <!-- ========================================
+       MAIN PAGES
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/courses</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/about</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/contact</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/pricing</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/faq</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Course Pages -->
+  <!-- ========================================
+       SPECIAL PAGES - HIGH DEMAND
+       ======================================== -->
   <url>
-    <loc>https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/beat-the-babu</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/business-solutions</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/corporate-training</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/student-projects</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced</loc>
-    <lastmod>2025-01-22</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://learn.modernagecoders.com/student-labs</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/projects</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/login</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- ========================================
+       COURSE CATEGORY PAGES
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/mathematics</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/girls-coding</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ========================================
+       HIGH DEMAND COURSES - PYTHON & AI
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-complete-masterclass-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-ai-kids-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-ai-automation-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/complete-app-development-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/ai-tools-mastery-complete</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- ========================================
+       HIGH DEMAND COURSES - DATA SCIENCE & DSA
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/courses/data-science-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-analysis-mastery-course</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/complete-java-programming-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/competitive-programming-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================
+       HIGH DEMAND COURSES - WEB DEVELOPMENT
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/mern-stack-development-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/react-js-complete-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/react-js-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/react-for-teens-complete-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-ai-web-development-course</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- ========================================
+       HIGH DEMAND COURSES - JAVA & C++
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-java-programming-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- ========================================
+       HIGH DEMAND COURSES - APP & GAME DEV
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-app-development-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/courses/game-development-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-game-development-masterclass-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  
+
+  <!-- ========================================
+       HIGH DEMAND COURSES - DATABASE & TRADING
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/react-js-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/ai-tools-mastery-complete</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/mysql-mastery-for-teens</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/courses/algorithmic-trading-masterclass-complete</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/algorithmic-trading-automation-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- ========================================
+       KIDS COURSES - HIGH DEMAND
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/scratch-programming-complete-course</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-coding-complete</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-python-programming</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-web-design</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/kids-ai-mastery-course</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/creative-coding-animation-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass</loc>
-    <lastmod>2025-01-22</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/canva-ai-design-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   
-  <!-- Blog Posts -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- ========================================
+       GIRLS CODING PROGRAMS - SPECIAL
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/princess-coders-complete-coding-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/queen-coders-advanced-tech-leadership</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- ========================================
+       TEENS DESIGN & MEDIA COURSES
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/creative-media-design-masterclass-teens</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- ========================================
+       MATHEMATICS COURSES - ALL LEVELS
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery</loc>
+    <lastmod>2025-11-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================
+       BLOG POSTS
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/blog/python-for-beginners</loc>
-    <lastmod>2025-09-25</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog/javascript-basics</loc>
-    <lastmod>2025-09-25</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog/coding-for-kids-guide</loc>
-    <lastmod>2025-09-25</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
-  <!-- Additional Pages -->
-  <url>
-    <loc>https://learn.modernagecoders.com/contact</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
-  <url>
-    <loc>https://learn.modernagecoders.com/pricing</loc>
-    <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  
+  <!-- ========================================
+       LEGAL PAGES
+       ======================================== -->
   <url>
     <loc>https://learn.modernagecoders.com/terms</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/privacy</loc>
-    <lastmod>2025-01-27</lastmod>
+    <lastmod>2025-11-26</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
