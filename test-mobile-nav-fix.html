@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Nav Test</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+</head>
+<body>
+    <h1 style="padding: 20px; text-align: center;">Mobile Navigation Test</h1>
+    
+    <!-- Navigation placeholder -->
+    <div id="nav-placeholder"></div>
+    
+    <main style="padding: 40px; min-height: 100vh;">
+        <h2>Instructions:</h2>
+        <ol>
+            <li>Open this page in your browser at <code>http://localhost:3001/test-mobile-nav-fix.html</code></li>
+            <li>Resize your browser to mobile width (less than 900px) or use mobile device emulation</li>
+            <li>Click the hamburger menu button (three lines)</li>
+            <li>The navigation menu should slide in from the right</li>
+            <li>Check the browser console for debug messages</li>
+        </ol>
+        
+        <h3>Debug Info:</h3>
+        <div id="debug-info" style="background: #f0f0f0; padding: 15px; border-radius: 5px; font-family: monospace;">
+            <p>Loading...</p>
+        </div>
+    </main>
+    
+    <!-- Footer placeholder -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- Load components first -->
+    <script src="/js/components-loader.js"></script>
+    
+    <!-- Then load mobile nav -->
+    <script src="/js/unified-mobile-nav.js"></script>
+    
+    <!-- Debug script -->
+    <script>
+        // Wait for everything to load
+        setTimeout(() => {
+            const debugDiv = document.getElementById('debug-info');
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const navMenu = document.getElementById('navMenu');
+            
+            let html = '<h4>Element Check:</h4>';
+            html += `<p>Mobile Menu Button (#mobileMenuBtn): ${mobileMenuBtn ? '✓ Found' : '✗ Not Found'}</p>`;
+            html += `<p>Nav Menu (#navMenu): ${navMenu ? '✓ Found' : '✗ Not Found'}</p>`;
+            html += `<p>Window Width: ${window.innerWidth}px</p>`;
+            html += `<p>Is Mobile (< 900px): ${window.innerWidth <= 900 ? 'Yes' : 'No'}</p>`;
+            
+            if (window.UnifiedMobileNav) {
+                const state = window.UnifiedMobileNav.getState();
+                html += '<h4>Mobile Nav State:</h4>';
+                html += `<p>Initialized: ${state.isInitialized ? 'Yes' : 'No'}</p>`;
+                html += `<p>Menu Open: ${state.isMenuOpen ? 'Yes' : 'No'}</p>`;
+                html += `<p>Is Mobile: ${state.isMobile ? 'Yes' : 'No'}</p>`;
+            } else {
+                html += '<p style="color: red;">UnifiedMobileNav API not available</p>';
+            }
+            
+            debugDiv.innerHTML = html;
+        }, 1500);
+    </script>
+</body>
+</html>
