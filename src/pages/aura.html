@@ -665,73 +665,72 @@
         }
 
         @media (max-width: 768px) {
-            /* Prevent scroll when keyboard opens */
-            html, body {
+            /* Hide nav and footer on mobile for full-screen game */
+            #nav-placeholder,
+            #footer-placeholder {
+                display: none !important;
+            }
+            
+            body {
                 overflow: hidden;
-                position: fixed;
-                width: 100%;
-                height: 100%;
             }
             
             .app-container {
+                margin-top: 0;
+                height: 100vh;
                 position: fixed;
-                top: 70px;
+                top: 0;
                 left: 0;
                 right: 0;
                 bottom: 0;
-                height: auto;
-                margin-top: 0;
+            }
+            
+            .screen {
+                max-height: 100vh;
                 overflow-y: auto;
-                -webkit-overflow-scrolling: touch;
+                padding-bottom: 100px;
             }
             
             #game-screen {
-                position: fixed;
-                top: 70px;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                height: auto;
-                max-height: none;
                 padding: 1rem;
-                overflow: visible;
+                padding-bottom: 120px;
             }
             
-            h1 { font-size: 2.5rem; }
-            .subtitle { font-size: 1rem; margin-bottom: 2rem; }
-            .level-info { grid-template-columns: 1fr; gap: 0.8rem; }
-            .glass-panel { padding: 1.5rem; width: 95%; border-radius: 16px; }
+            h1 { font-size: 2rem; }
+            .subtitle { font-size: 0.95rem; margin-bottom: 1.5rem; }
+            .level-info { grid-template-columns: 1fr; gap: 0.6rem; }
+            .glass-panel { padding: 1.2rem; width: 95%; border-radius: 16px; max-height: 85vh; overflow-y: auto; }
             .hud-top { margin-bottom: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
-            .hud-stat { flex-direction: row; justify-content: space-between; background: rgba(255, 255, 255, 0.03); padding: 0.5rem 1rem; border-radius: 8px; width: 100%; }
-            .hud-stat span { margin-bottom: 0; margin-right: 0.5rem; font-size: 0.65rem; }
-            .hud-stat strong { font-size: 1rem; }
+            .hud-stat { flex-direction: row; justify-content: space-between; background: rgba(255, 255, 255, 0.03); padding: 0.4rem 0.8rem; border-radius: 8px; width: 100%; }
+            .hud-stat span { margin-bottom: 0; margin-right: 0.5rem; font-size: 0.6rem; }
+            .hud-stat strong { font-size: 0.95rem; }
             
             .word-display-area {
                 height: auto;
-                min-height: 60px;
-                margin-bottom: 1rem;
+                min-height: 50px;
+                margin-bottom: 0.5rem;
             }
             
-            #target-word { font-size: 2.2rem; height: auto; min-height: 50px; line-height: 1.2; }
-            .btn { padding: 0.8rem 2rem; font-size: 1rem; width: 100%; max-width: 300px; }
+            #target-word { font-size: 1.8rem; height: auto; min-height: 40px; line-height: 1.3; }
+            .btn { padding: 0.7rem 1.5rem; font-size: 0.95rem; width: 100%; max-width: 280px; }
             
-            /* Keep input visible but positioned to prevent scroll */
+            /* Visible input at bottom for mobile */
             #input-field {
                 position: fixed !important;
-                bottom: 10px !important;
+                bottom: 20px !important;
                 left: 50% !important;
                 transform: translateX(-50%) !important;
                 width: 90% !important;
-                max-width: 400px !important;
+                max-width: 350px !important;
                 opacity: 1 !important;
                 background: rgba(255, 255, 255, 0.1) !important;
-                border: 1px solid rgba(255, 255, 255, 0.2) !important;
+                border: 2px solid rgba(255, 255, 255, 0.3) !important;
                 border-radius: 12px !important;
-                padding: 12px 16px !important;
+                padding: 14px 16px !important;
                 color: white !important;
-                font-size: 18px !important;
+                font-size: 16px !important;
                 text-align: center !important;
-                z-index: 1000 !important;
+                z-index: 9999 !important;
                 -webkit-appearance: none;
                 appearance: none;
             }
@@ -739,46 +738,44 @@
             #input-field:focus {
                 outline: none;
                 border-color: var(--accent-primary) !important;
-                box-shadow: 0 0 20px rgba(129, 140, 248, 0.3) !important;
+                box-shadow: 0 0 20px rgba(129, 140, 248, 0.4) !important;
             }
             
             .progress-container {
-                margin-top: 1rem;
-                margin-bottom: 80px;
+                margin-top: 0.5rem;
             }
             
-            .leaderboard-content { padding: 1.5rem; }
-            .lb-header h2 { font-size: 1.5rem; }
-            .lb-entry { padding: 0.8rem; }
-            .lb-rank { width: 35px; height: 35px; font-size: 0.85rem; }
+            .leaderboard-content { padding: 1.2rem; max-height: 80vh; }
+            .lb-header h2 { font-size: 1.4rem; }
+            .lb-entry { padding: 0.6rem; }
+            .lb-rank { width: 32px; height: 32px; font-size: 0.8rem; }
+            .lb-trophy { font-size: 2rem; }
             
-            /* Hide footer on game screen for mobile */
-            #footer-placeholder {
-                display: none;
+            .badge-container { gap: 0.6rem; margin-top: 1rem; }
+            .badge { width: 36px; height: 36px; font-size: 0.9rem; }
+            
+            #name-entry input {
+                width: 160px;
+                font-size: 1rem;
             }
         }
 
         @media (max-width: 480px) {
-            .app-container {
-                top: 60px;
-            }
-            
-            #game-screen {
-                top: 60px;
-            }
-            
-            h1 { font-size: 1.8rem; }
-            #target-word { font-size: 1.8rem; word-break: break-all; }
-            .badge-container { gap: 0.8rem; }
-            .badge { width: 40px; height: 40px; font-size: 1rem; }
-            .btn { padding: 1rem; }
-            
-            .hud-top {
-                gap: 0.3rem;
-            }
+            h1 { font-size: 1.6rem; }
+            .subtitle { font-size: 0.85rem; }
+            #target-word { font-size: 1.5rem; word-break: break-all; }
+            .btn { padding: 0.6rem 1.2rem; font-size: 0.9rem; }
+            .glass-panel { padding: 1rem; }
             
             .hud-stat {
-                padding: 0.4rem 0.6rem;
+                padding: 0.3rem 0.5rem;
+            }
+            .hud-stat span { font-size: 0.55rem; }
+            .hud-stat strong { font-size: 0.85rem; }
+            
+            #input-field {
+                bottom: 15px !important;
+                padding: 12px 14px !important;
             }
         }
 
@@ -1030,41 +1027,16 @@
             roundName: document.getElementById('round-name-display')
         };
 
-        // --- MOBILE SCROLL PREVENTION ---
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        // --- MOBILE DETECTION ---
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
         
         if (isMobile) {
-            // Prevent scroll on input focus
-            els.input.addEventListener('focus', (e) => {
-                e.preventDefault();
-                // Scroll to top to keep game visible
-                window.scrollTo(0, 0);
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-            });
-            
-            // Prevent touchmove scroll during game
-            document.addEventListener('touchmove', (e) => {
-                if (state.isPlaying && !e.target.closest('.lb-list')) {
-                    e.preventDefault();
-                }
-            }, { passive: false });
-            
-            // Handle virtual keyboard resize
-            let initialHeight = window.innerHeight;
-            window.addEventListener('resize', () => {
-                if (state.isPlaying) {
-                    // Keep scroll at top when keyboard opens/closes
+            // Prevent page scroll when typing
+            els.input.addEventListener('focus', () => {
+                setTimeout(() => {
                     window.scrollTo(0, 0);
-                }
+                }, 50);
             });
-            
-            // Prevent iOS bounce scroll
-            document.body.addEventListener('touchmove', (e) => {
-                if (state.isPlaying) {
-                    e.preventDefault();
-                }
-            }, { passive: false });
         }
 
         // --- AUDIO ---
@@ -1228,12 +1200,6 @@
         function keepFocus() { 
             if (state.isPlaying) {
                 els.input.focus();
-                // Prevent scroll on mobile
-                if (isMobile) {
-                    setTimeout(() => {
-                        window.scrollTo(0, 0);
-                    }, 100);
-                }
             }
         }
 
