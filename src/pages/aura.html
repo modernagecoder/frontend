@@ -1,0 +1,1304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aura Type - Master Your Typing Flow | Modern Age Coders</title>
+    <meta name="description" content="Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="typing practice, typing test, WPM test, typing game, improve typing speed, typing trainer, aura type, modern age coders, typing speed test, keyboard practice">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/aura">
+    <meta name="theme-color" content="#0f172a">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/aura">
+    <meta property="og:title" content="Aura Type - Master Your Typing Flow | Modern Age Coders">
+    <meta property="og:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
+    <meta property="og:site_name" content="Modern Age Coders">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-aura-type.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Aura Type - Master Your Typing Flow | Modern Age Coders">
+    <meta name="twitter:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-aura-type.png">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Aura Type - Typing Practice Game",
+        "description": "A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.",
+        "url": "https://learn.modernagecoders.com/aura",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "creator": {
+            "@type": "Organization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com"
+        },
+        "brand": {
+            "@type": "Brand",
+            "name": "Modern Age Coders"
+        }
+    }
+    </script>
+    
+    <!-- Main CSS for navigation and footer -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+    <link rel="stylesheet" href="/src/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --glass-bg: rgba(255, 255, 255, 0.03);
+            --glass-border: rgba(255, 255, 255, 0.08);
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-primary: #818cf8;
+            --accent-secondary: #c084fc;
+            --accent-success: #4ade80;
+            --accent-error: #f87171;
+            --accent-gold: #ffd700;
+            --accent-silver: #c0c0c0;
+            --accent-bronze: #cd7f32;
+            --font-ui: 'Outfit', sans-serif;
+            --font-mono: 'Space Mono', monospace;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            user-select: none;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-ui);
+            overflow-x: hidden;
+            min-height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Navigation and Footer Styling for Aura Page */
+        #nav-placeholder {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+        
+        header, header nav, .navbar {
+            position: relative !important;
+            background: rgba(15, 23, 42, 0.98) !important;
+            backdrop-filter: blur(10px) !important;
+        }
+        
+        footer.site-footer {
+            position: relative;
+            z-index: 100;
+            background: var(--bg-color);
+        }
+        
+        #footer-placeholder {
+            margin-top: auto;
+            z-index: 100;
+        }
+
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        .app-container {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            height: calc(100vh - 80px);
+            margin-top: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+
+        .screen {
+            position: absolute;
+            width: 90%;
+            max-width: 900px;
+            height: auto;
+            max-height: 90vh;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0;
+        }
+
+        .screen.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .glass-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+            border-radius: 24px;
+            padding: 3rem;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 { font-size: 4rem; margin-bottom: 0.5rem; }
+        h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+        h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-muted); -webkit-text-fill-color: initial; font-weight: 500; }
+
+        .subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            font-weight: 300;
+        }
+
+        .btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: var(--text-main);
+            padding: 1rem 2.5rem;
+            font-family: var(--font-ui);
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            margin-top: 1.5rem;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn:hover:not(:disabled) {
+            background: var(--text-main);
+            color: var(--bg-color);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+        .btn-leaderboard {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            border: none;
+            padding: 0.8rem 1.8rem;
+            font-size: 0.95rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0;
+        }
+
+        .btn-leaderboard:hover:not(:disabled) {
+            background: linear-gradient(135deg, var(--accent-secondary), var(--accent-primary));
+            color: white;
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 30px rgba(129, 140, 248, 0.4);
+        }
+
+        .level-info {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            margin-bottom: 2rem;
+            width: 100%;
+        }
+
+        .level-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .level-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--accent-primary);
+        }
+
+        .level-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent-primary);
+            -webkit-text-fill-color: initial;
+        }
+
+        .level-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .hud-top {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 4rem;
+            font-family: var(--font-mono);
+            color: var(--text-muted);
+        }
+
+        .hud-stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hud-stat span {
+            font-size: 0.75rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 0.25rem;
+        }
+
+        .hud-stat strong {
+            font-size: 1.5rem;
+            color: var(--text-main);
+        }
+
+        .word-display-area {
+            text-align: center;
+            margin-bottom: 3rem;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #target-word {
+            font-family: var(--font-ui);
+            font-size: 5rem;
+            font-weight: 700;
+            color: rgba(255, 255, 255, 0.1);
+            letter-spacing: -0.02em;
+            position: relative;
+        }
+
+        #target-word span { transition: color 0.1s; }
+        .char-correct { color: var(--text-main); }
+        .char-wrong { color: var(--accent-error); text-decoration: underline; text-decoration-color: var(--accent-error); }
+        .char-pending { color: rgba(255, 255, 255, 0.2); }
+
+        #input-field { position: absolute; opacity: 0; top: -1000px; }
+
+        .progress-container {
+            width: 100%;
+            max-width: 600px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 2px;
+            margin-top: 4rem;
+            overflow: hidden;
+        }
+
+        #progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            width: 0%;
+            transition: width 0.3s ease-out;
+            border-radius: 2px;
+        }
+
+        /* Leaderboard Modal */
+        .leaderboard-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .leaderboard-modal.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .leaderboard-content {
+            width: 90%;
+            max-width: 700px;
+            max-height: 85vh;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 2.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .leaderboard-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, var(--accent-primary) 0%, transparent 70%);
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        .lb-close-btn {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: var(--text-muted);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+
+        .lb-close-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: var(--text-main);
+            transform: rotate(90deg) scale(1.1);
+        }
+
+        .lb-header {
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        .lb-header h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-gold), var(--accent-primary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .lb-header p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        .lb-trophy {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .lb-list {
+            max-height: 50vh;
+            overflow-y: auto;
+            padding-right: 0.5rem;
+        }
+
+        .lb-list::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .lb-list::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+        }
+
+        .lb-list::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 3px;
+        }
+
+        .lb-entry {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .lb-entry:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .lb-entry.top-1 {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .lb-entry.top-2 {
+            background: linear-gradient(135deg, rgba(192, 192, 192, 0.12) 0%, rgba(192, 192, 192, 0.04) 100%);
+            border-color: rgba(192, 192, 192, 0.25);
+        }
+
+        .lb-entry.top-3 {
+            background: linear-gradient(135deg, rgba(205, 127, 50, 0.12) 0%, rgba(205, 127, 50, 0.04) 100%);
+            border-color: rgba(205, 127, 50, 0.25);
+        }
+
+        .lb-rank {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1rem;
+            border-radius: 50%;
+            margin-right: 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+        }
+
+        .lb-entry.top-1 .lb-rank {
+            background: linear-gradient(135deg, var(--accent-gold), #ffaa00);
+            color: #1a1a2e;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.4);
+        }
+
+        .lb-entry.top-2 .lb-rank {
+            background: linear-gradient(135deg, var(--accent-silver), #e8e8e8);
+            color: #1a1a2e;
+            box-shadow: 0 4px 15px rgba(192, 192, 192, 0.3);
+        }
+
+        .lb-entry.top-3 .lb-rank {
+            background: linear-gradient(135deg, var(--accent-bronze), #e8a060);
+            color: #1a1a2e;
+            box-shadow: 0 4px 15px rgba(205, 127, 50, 0.3);
+        }
+
+        .lb-player-info {
+            flex: 1;
+        }
+
+        .lb-player-name {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: var(--text-main);
+            margin-bottom: 0.2rem;
+        }
+
+        .lb-player-wpm {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-family: var(--font-mono);
+        }
+
+        .lb-score {
+            font-family: var(--font-mono);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent-primary);
+        }
+
+        .lb-entry.top-1 .lb-score { color: var(--accent-gold); }
+        .lb-entry.top-2 .lb-score { color: var(--accent-silver); }
+        .lb-entry.top-3 .lb-score { color: var(--accent-bronze); }
+
+        .lb-empty {
+            text-align: center;
+            padding: 3rem;
+            color: var(--text-muted);
+        }
+
+        .lb-empty-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* Badge Styles */
+        .badge-container {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .badge {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.2);
+            transition: all 0.4s ease;
+            position: relative;
+        }
+
+        .badge.unlocked {
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            color: white;
+            box-shadow: 0 5px 15px rgba(129, 140, 248, 0.3);
+            transform: scale(1.1);
+        }
+
+        .badge:hover .badge-tooltip {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .badge-tooltip {
+            position: absolute;
+            bottom: -35px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            opacity: 0;
+            transform: translateY(-5px);
+            transition: all 0.2s;
+            pointer-events: none;
+        }
+
+        #toast {
+            position: fixed;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%) translateY(20px);
+            background: rgba(255, 255, 255, 0.9);
+            color: var(--bg-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            opacity: 0;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            pointer-events: none;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            z-index: 2000;
+        }
+
+        #toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        @media (max-width: 1024px) {
+            h1 { font-size: 3rem; }
+            #target-word { font-size: 4rem; }
+            .glass-panel { padding: 2rem; width: 85%; }
+        }
+
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .subtitle { font-size: 1rem; margin-bottom: 2rem; }
+            .level-info { grid-template-columns: 1fr; gap: 0.8rem; }
+            .glass-panel { padding: 1.5rem; width: 95%; border-radius: 16px; }
+            .hud-top { margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+            .hud-stat { flex-direction: row; justify-content: space-between; background: rgba(255, 255, 255, 0.03); padding: 0.5rem 1rem; border-radius: 8px; width: 100%; }
+            .hud-stat span { margin-bottom: 0; margin-right: 0.5rem; }
+            .hud-stat strong { font-size: 1.2rem; }
+            #target-word { font-size: 2.8rem; height: auto; min-height: 80px; }
+            .btn { padding: 0.8rem 2rem; font-size: 1rem; width: 100%; max-width: 300px; }
+            input[type="text"] { font-size: 16px; }
+            .leaderboard-content { padding: 1.5rem; }
+            .lb-header h2 { font-size: 1.5rem; }
+            .lb-entry { padding: 0.8rem; }
+            .lb-rank { width: 35px; height: 35px; font-size: 0.85rem; }
+        }
+
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            #target-word { font-size: 2.2rem; word-break: break-all; }
+            .badge-container { gap: 0.8rem; }
+            .badge { width: 40px; height: 40px; font-size: 1rem; }
+            .btn { padding: 1rem; }
+        }
+
+        button { touch-action: manipulation; }
+    </style>
+</head>
+<body>
+    <!-- Navigation Component -->
+    <div id="nav-placeholder"></div>
+    
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="app-container">
+        <!-- START SCREEN -->
+        <div id="start-screen" class="screen active glass-panel" style="text-align: center;">
+            <h1>Aura Type</h1>
+            <p class="subtitle">Find your flow. Master your precision.</p>
+
+            <div class="level-info">
+                <div class="level-card">
+                    <h3>Flow</h3>
+                    <p>Short words. Pure rhythm.</p>
+                </div>
+                <div class="level-card">
+                    <h3>Precision</h3>
+                    <p>Complex terms. Steady focus.</p>
+                </div>
+                <div class="level-card">
+                    <h3>Mastery</h3>
+                    <p>Phrases. The ultimate test.</p>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+                <p>Press <span style="border: 1px solid rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px;">Space</span> to Start</p>
+            </div>
+
+            <button id="btn-start" class="btn">Begin Journey</button>
+
+            <button id="btn-view-leaderboard" class="btn btn-leaderboard" style="margin-top: 1.5rem;">
+                <span>🏆</span> View Leaderboard
+            </button>
+        </div>
+
+        <!-- GAME SCREEN -->
+        <div id="game-screen" class="screen">
+            <div class="hud-top">
+                <div class="hud-stat"><span>Stage</span><strong id="hud-round">Flow</strong></div>
+                <div class="hud-stat"><span>Score</span><strong id="hud-score">0</strong></div>
+                <div class="hud-stat"><span>Time</span><strong id="hud-time">60</strong></div>
+                <div class="hud-stat"><span>WPM</span><strong id="hud-wpm">0</strong></div>
+            </div>
+
+            <div class="word-display-area">
+                <div id="target-word">Loading...</div>
+            </div>
+
+            <input type="text" id="input-field" autocomplete="off" spellcheck="false">
+
+            <div style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem; opacity: 0.6;">
+                Type the word above
+            </div>
+
+            <div class="progress-container">
+                <div id="progress-fill"></div>
+            </div>
+        </div>
+
+        <!-- ROUND END SCREEN -->
+        <div id="round-screen" class="screen glass-panel" style="text-align: center;">
+            <h2 style="color: var(--accent-success); -webkit-text-fill-color: initial;">Stage Complete</h2>
+            <p class="subtitle" id="round-name-display">Flow Stage Cleared</p>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin: 2rem 0;">
+                <div>
+                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">ACCURACY</div>
+                    <div id="round-acc" style="font-size: 2.5rem; font-weight: 700;">98%</div>
+                </div>
+                <div>
+                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">WORDS</div>
+                    <div id="round-words" style="font-size: 2.5rem; font-weight: 700;">15</div>
+                </div>
+            </div>
+            <button id="btn-next-round" class="btn">Continue</button>
+        </div>
+
+        <!-- FINAL SCREEN -->
+        <div id="end-screen" class="screen glass-panel" style="text-align: center;">
+            <h1>Journey Complete</h1>
+            <p class="subtitle">Your final state</p>
+
+            <div style="margin: 2rem 0;">
+                <div style="font-size: 1rem; color: var(--text-muted); margin-bottom: 0.5rem;">FINAL SCORE</div>
+                <div id="final-score" style="font-size: 4rem; font-weight: 700; color: var(--accent-primary);">0</div>
+            </div>
+
+            <div class="badge-container" id="final-badges">
+                <div class="badge" id="badge-speed" title="Speed (>60 WPM)">⚡<span class="badge-tooltip">Flow Master</span></div>
+                <div class="badge" id="badge-acc" title="Accuracy (100%)">🎯<span class="badge-tooltip">Perfectionist</span></div>
+                <div class="badge" id="badge-endurance" title="Completed All">🛡️<span class="badge-tooltip">Resilient</span></div>
+                <div class="badge" id="badge-god" title="God Mode (>100 WPM)">✨<span class="badge-tooltip">Transcendent</span></div>
+            </div>
+
+            <div id="name-entry" style="margin-top: 2.5rem; display: none;">
+                <p style="color: var(--accent-success); margin-bottom: 1rem; font-size: 0.9rem;">NEW PERSONAL BEST</p>
+                <input type="text" id="player-name" placeholder="Enter your name" maxlength="12"
+                    style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; color: white; font-family: var(--font-ui); text-align: center; font-size: 1.1rem; border-radius: 8px; outline: none; width: 200px;">
+                <br>
+                <button id="btn-submit-score" class="btn" style="margin-top: 1rem; font-size: 0.9rem; padding: 0.8rem 2rem;">Save Record</button>
+            </div>
+
+            <div style="margin-top: 2.5rem;">
+                <button id="btn-restart" class="btn" style="background: transparent; border: none; color: var(--text-muted); font-size: 0.9rem;">Restart Journey</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- LEADERBOARD MODAL -->
+    <div id="leaderboard-modal" class="leaderboard-modal">
+        <div class="leaderboard-content">
+            <button class="lb-close-btn" id="lb-close-btn">✕</button>
+            <div class="lb-header">
+                <span class="lb-trophy">🏆</span>
+                <h2>Hall of Champions</h2>
+                <p>The finest typists in the realm</p>
+            </div>
+            <div class="lb-list" id="lb-full-list"></div>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
+        import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, onSnapshot } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+
+        // --- FIREBASE CONFIG ---
+        const firebaseConfig = {
+            apiKey: atob("QUl6YVN5Qjl6N3ZRczJOWUhvcGFWV2lzQ1NRSVhzN0gySGNrMXpB"),
+            authDomain: "baby2-b7a68.firebaseapp.com",
+            projectId: "baby2-b7a68",
+            storageBucket: "baby2-b7a68.appspot.com",
+            messagingSenderId: "568691519195",
+            appId: "1:568691519195:web:dabbe2bac687b9065e66fe"
+        };
+
+        let app, db, lbRef;
+
+        try {
+            app = initializeApp(firebaseConfig);
+            db = getFirestore(app);
+            lbRef = collection(db, "leaderboards");
+        } catch (e) {
+            console.error("Firebase Init Error:", e);
+        }
+
+        // --- UNIQUE PSYCHOLOGICAL WORDS (No repeats across levels) ---
+        const WORDS = {
+            flow: [
+                "calm", "grow", "hope", "mind", "soul", "free", "bold", "wise",
+                "grit", "zeal", "pure", "ease", "peak", "rise", "glow", "deep",
+                "true", "warm", "safe", "kind", "real", "open", "live", "move",
+                "rest", "heal", "lift", "soar", "beam", "core"
+            ],
+            precision: [
+                "breathe", "balance", "clarity", "courage", "embrace", "evolve",
+                "flourish", "gratitude", "harmony", "inspire", "journey", "mindful",
+                "patience", "persist", "purpose", "reflect", "resilient", "serenity",
+                "strength", "thrive", "transform", "triumph", "vibrant", "wellness",
+                "wisdom", "wonder", "achieve", "believe", "centered", "devoted",
+                "empower", "focused", "genuine", "hopeful", "insight", "joyful"
+            ],
+            mastery: [
+                "progress not perfection",
+                "embrace the journey",
+                "trust the process",
+                "growth takes time",
+                "be here now",
+                "one step at a time",
+                "believe in yourself",
+                "stay curious always",
+                "learn from failure",
+                "create your path",
+                "focus on today",
+                "small wins matter",
+                "keep moving forward",
+                "you are enough",
+                "breathe and begin",
+                "action beats fear",
+                "start where you are",
+                "patience brings mastery",
+                "consistency is key",
+                "embrace the challenge"
+            ]
+        };
+
+        const STAGES = [
+            { id: 'flow', name: "Flow State", time: 60, words: 15, diff: 'flow' },
+            { id: 'precision', name: "Precision", time: 45, words: 20, diff: 'precision' },
+            { id: 'mastery', name: "Mastery", time: 60, words: 10, diff: 'mastery' }
+        ];
+
+        // --- STATE ---
+        let state = {
+            stageIdx: 0,
+            score: 0,
+            wpm: 0,
+            wordsTyped: 0,
+            charsTyped: 0,
+            errors: 0,
+            startTime: 0,
+            timer: null,
+            timeLeft: 0,
+            currentWord: "",
+            inputVal: "",
+            isPlaying: false,
+            stageWordsDone: 0,
+            usedWords: new Set()
+        };
+
+        // --- DOM ---
+        const screens = {
+            start: document.getElementById('start-screen'),
+            game: document.getElementById('game-screen'),
+            round: document.getElementById('round-screen'),
+            end: document.getElementById('end-screen')
+        };
+
+        const els = {
+            input: document.getElementById('input-field'),
+            target: document.getElementById('target-word'),
+            hudRound: document.getElementById('hud-round'),
+            hudScore: document.getElementById('hud-score'),
+            hudTime: document.getElementById('hud-time'),
+            hudWpm: document.getElementById('hud-wpm'),
+            progress: document.getElementById('progress-fill'),
+            lbFullList: document.getElementById('lb-full-list'),
+            lbModal: document.getElementById('leaderboard-modal'),
+            nameEntry: document.getElementById('name-entry'),
+            finalScore: document.getElementById('final-score'),
+            btnStart: document.getElementById('btn-start'),
+            roundName: document.getElementById('round-name-display')
+        };
+
+        // --- AUDIO ---
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+        function playSound(type) {
+            if (audioCtx.state === 'suspended') audioCtx.resume().catch(e => { });
+            const osc = audioCtx.createOscillator();
+            const gain = audioCtx.createGain();
+            osc.connect(gain);
+            gain.connect(audioCtx.destination);
+            const now = audioCtx.currentTime;
+
+            if (type === 'type') {
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(600, now);
+                osc.frequency.exponentialRampToValueAtTime(300, now + 0.05);
+                gain.gain.setValueAtTime(0.05, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.05);
+                osc.start(now);
+                osc.stop(now + 0.05);
+            } else if (type === 'error') {
+                osc.type = 'triangle';
+                osc.frequency.setValueAtTime(150, now);
+                gain.gain.setValueAtTime(0.05, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.15);
+                osc.start(now);
+                osc.stop(now + 0.15);
+            } else if (type === 'success') {
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(800, now);
+                osc.frequency.exponentialRampToValueAtTime(1200, now + 0.1);
+                gain.gain.setValueAtTime(0.05, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.3);
+                osc.start(now);
+                osc.stop(now + 0.3);
+            }
+        }
+
+        // --- 3D BACKGROUND ---
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg-canvas'), alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
+
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particlesCount = 700;
+        const posArray = new Float32Array(particlesCount * 3);
+        for (let i = 0; i < particlesCount * 3; i++) {
+            posArray[i] = (Math.random() - 0.5) * 20;
+        }
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        const particlesMaterial = new THREE.PointsMaterial({ size: 0.03, color: 0x818cf8, transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending });
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+        camera.position.z = 5;
+
+        let mouseX = 0, mouseY = 0;
+        document.addEventListener('mousemove', (event) => {
+            mouseX = event.clientX / window.innerWidth - 0.5;
+            mouseY = event.clientY / window.innerHeight - 0.5;
+        });
+
+        function animate3D() {
+            requestAnimationFrame(animate3D);
+            particlesMesh.rotation.y += 0.001;
+            particlesMesh.rotation.x += 0.0005;
+            camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.05;
+            camera.position.y += (-mouseY * 0.5 - camera.position.y) * 0.05;
+            renderer.render(scene, camera);
+        }
+        animate3D();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
+
+        // --- LEADERBOARD FUNCTIONS ---
+        function openLeaderboard() {
+            els.lbModal.classList.add('active');
+            gsap.fromTo(els.lbModal.querySelector('.leaderboard-content'), 
+                { opacity: 0, scale: 0.9, y: 30 },
+                { opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" }
+            );
+        }
+
+        function closeLeaderboard() {
+            gsap.to(els.lbModal.querySelector('.leaderboard-content'), {
+                opacity: 0, scale: 0.9, y: 30, duration: 0.3, ease: "power2.in",
+                onComplete: () => els.lbModal.classList.remove('active')
+            });
+        }
+
+        function renderLeaderboardEntry(player, index) {
+            const topClass = index === 0 ? 'top-1' : index === 1 ? 'top-2' : index === 2 ? 'top-3' : '';
+            return `
+                <div class="lb-entry ${topClass}">
+                    <div class="lb-rank">${index + 1}</div>
+                    <div class="lb-player-info">
+                        <div class="lb-player-name">${player.name}</div>
+                        <div class="lb-player-wpm">${player.wpm || 0} WPM</div>
+                    </div>
+                    <div class="lb-score">${player.score.toLocaleString()}</div>
+                </div>
+            `;
+        }
+
+        // --- GAME LOGIC ---
+        function switchScreen(name) {
+            Object.values(screens).forEach(s => {
+                if (s.classList.contains('active')) {
+                    s.classList.remove('active');
+                    s.style.display = 'none';
+                }
+            });
+            const target = screens[name];
+            target.style.display = 'flex';
+            void target.offsetWidth;
+            target.classList.add('active');
+            gsap.fromTo(target, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" });
+        }
+
+        function startGame() {
+            els.btnStart.disabled = true;
+            state.score = 0;
+            state.stageIdx = 0;
+            state.wpm = 0;
+            state.wordsTyped = 0;
+            state.charsTyped = 0;
+            state.errors = 0;
+            state.startTime = Date.now();
+            state.usedWords = new Set();
+            startStage();
+        }
+
+        function startStage() {
+            const stage = STAGES[state.stageIdx];
+            if (!stage) { endGame(); return; }
+
+            state.timeLeft = stage.time;
+            state.stageWordsDone = 0;
+            state.isPlaying = true;
+
+            els.hudRound.innerText = stage.name;
+            els.hudScore.innerText = state.score;
+            els.progress.style.width = '0%';
+
+            switchScreen('game');
+            nextWord();
+
+            if (state.timer) clearInterval(state.timer);
+            state.timer = setInterval(gameLoop, 1000);
+
+            setTimeout(() => { els.input.value = ''; els.input.focus(); }, 100);
+            document.addEventListener('click', keepFocus);
+        }
+
+        function keepFocus() { if (state.isPlaying) els.input.focus(); }
+
+        function nextWord() {
+            const stage = STAGES[state.stageIdx];
+            const list = WORDS[stage.diff];
+            let availableWords = list.filter(w => !state.usedWords.has(w));
+            if (availableWords.length === 0) {
+                state.usedWords.clear();
+                availableWords = list;
+            }
+            state.currentWord = availableWords[Math.floor(Math.random() * availableWords.length)];
+            state.usedWords.add(state.currentWord);
+            state.inputVal = "";
+            els.input.value = "";
+            renderWord();
+        }
+
+        function renderWord() {
+            const word = state.currentWord;
+            const input = state.inputVal;
+            let html = '';
+            for (let i = 0; i < word.length; i++) {
+                if (i < input.length) {
+                    const isCorrect = input[i] === word[i];
+                    html += `<span class="${isCorrect ? 'char-correct' : 'char-wrong'}">${word[i]}</span>`;
+                } else {
+                    html += `<span class="char-pending">${word[i]}</span>`;
+                }
+            }
+            els.target.innerHTML = html;
+        }
+
+        els.input.addEventListener('input', (e) => {
+            if (!state.isPlaying) return;
+            const val = e.target.value.toLowerCase();
+            const word = state.currentWord;
+
+            if (val.length > state.inputVal.length) {
+                const charIdx = val.length - 1;
+                if (val[charIdx] === word[charIdx]) {
+                    playSound('type');
+                } else {
+                    playSound('error');
+                    state.errors++;
+                    gsap.to(els.target, { x: 5, duration: 0.05, yoyo: true, repeat: 3 });
+                }
+            }
+
+            state.inputVal = val;
+            renderWord();
+
+            if (val.length >= word.length) {
+                const isCorrect = val === word;
+                if (isCorrect) {
+                    playSound('success');
+                    state.score += (word.length * 10) + ((state.stageIdx + 1) * 5);
+                    state.charsTyped += word.length;
+                } else {
+                    playSound('error');
+                    gsap.to(els.target, { color: 'var(--accent-error)', duration: 0.2, onComplete: () => { els.target.style.color = ''; } });
+                }
+
+                state.wordsTyped++;
+                state.stageWordsDone++;
+                els.hudScore.innerText = state.score;
+                const progress = (state.stageWordsDone / STAGES[state.stageIdx].words) * 100;
+                els.progress.style.width = `${progress}%`;
+                els.input.value = '';
+                state.inputVal = '';
+
+                if (state.stageWordsDone >= STAGES[state.stageIdx].words) {
+                    endStage();
+                } else {
+                    nextWord();
+                }
+            }
+        });
+
+        function gameLoop() {
+            state.timeLeft--;
+            els.hudTime.innerText = state.timeLeft;
+            const elapsedMin = (Date.now() - state.startTime) / 60000;
+            state.wpm = Math.round((state.charsTyped / 5) / elapsedMin) || 0;
+            els.hudWpm.innerText = state.wpm;
+            if (state.timeLeft <= 0) endStage();
+        }
+
+        function endStage() {
+            clearInterval(state.timer);
+            state.isPlaying = false;
+            document.removeEventListener('click', keepFocus);
+
+            if (state.stageIdx < STAGES.length - 1) {
+                const acc = Math.round(((state.charsTyped - state.errors) / state.charsTyped) * 100) || 100;
+                document.getElementById('round-acc').innerText = acc + '%';
+                document.getElementById('round-words').innerText = state.wordsTyped;
+                els.roundName.innerText = STAGES[state.stageIdx].name + " Complete";
+                switchScreen('round');
+            } else {
+                endGame();
+            }
+        }
+
+        function endGame() {
+            switchScreen('end');
+            els.finalScore.innerText = state.score;
+            els.btnStart.disabled = false;
+
+            const acc = Math.round(((state.charsTyped - state.errors) / state.charsTyped) * 100) || 0;
+            document.getElementById('badge-speed').classList.toggle('unlocked', state.wpm > 60);
+            document.getElementById('badge-acc').classList.toggle('unlocked', acc >= 98);
+            document.getElementById('badge-endurance').classList.toggle('unlocked', true);
+            document.getElementById('badge-god').classList.toggle('unlocked', state.wpm > 100);
+
+            if (window.confetti) {
+                confetti({ particleCount: 200, spread: 100, origin: { y: 0.6 }, colors: ['#818cf8', '#c084fc', '#ffffff'] });
+            }
+            checkLeaderboard(state.score);
+        }
+
+        async function checkLeaderboard(score) {
+            if (!lbRef) return;
+            try {
+                const q = query(lbRef, orderBy("score", "desc"), limit(25));
+                const snap = await getDocs(q);
+                const data = snap.docs.map(d => d.data());
+                const lowest = data.length < 25 ? 0 : data[data.length - 1].score;
+                if (score > lowest || data.length < 25) {
+                    els.nameEntry.style.display = 'block';
+                    setTimeout(() => els.nameEntry.scrollIntoView({ behavior: 'smooth' }), 500);
+                } else {
+                    els.nameEntry.style.display = 'none';
+                }
+            } catch (e) { console.error(e); }
+        }
+
+        // --- EVENT LISTENERS ---
+        els.btnStart.addEventListener('click', startGame);
+
+        document.addEventListener('keydown', (e) => {
+            if (e.code === 'Space' && screens.start.classList.contains('active') && !els.btnStart.disabled) {
+                startGame();
+            }
+            if (e.code === 'Escape' && els.lbModal.classList.contains('active')) {
+                closeLeaderboard();
+            }
+        });
+
+        document.getElementById('btn-view-leaderboard').addEventListener('click', openLeaderboard);
+        document.getElementById('lb-close-btn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            closeLeaderboard();
+        });
+        els.lbModal.addEventListener('click', (e) => { if (e.target === els.lbModal) closeLeaderboard(); });
+
+        document.getElementById('btn-next-round').addEventListener('click', () => { state.stageIdx++; startStage(); });
+        document.getElementById('btn-restart').addEventListener('click', () => { switchScreen('start'); els.btnStart.disabled = false; });
+
+        document.getElementById('btn-submit-score').addEventListener('click', async () => {
+            const name = document.getElementById('player-name').value.trim() || 'Anonymous';
+            const btn = document.getElementById('btn-submit-score');
+            btn.disabled = true;
+            btn.innerText = "Saving...";
+            try {
+                await addDoc(lbRef, { name: name, score: state.score, wpm: state.wpm, timestamp: new Date() });
+                showToast("Score Saved to Cloud");
+                els.nameEntry.style.display = 'none';
+            } catch (e) { console.error(e); showToast("Error Saving Score"); }
+            btn.disabled = false;
+            btn.innerText = "Save Record";
+        });
+
+        function showToast(msg) {
+            const t = document.getElementById('toast');
+            t.innerText = msg;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 3000);
+        }
+
+        // --- LEADERBOARD LIVE FEED ---
+        if (lbRef) {
+            onSnapshot(query(lbRef, orderBy("score", "desc"), limit(25)), (snap) => {
+                const players = snap.docs.map(d => d.data());
+                
+                // Full leaderboard
+                if (players.length === 0) {
+                    els.lbFullList.innerHTML = `
+                        <div class="lb-empty">
+                            <div class="lb-empty-icon">🎮</div>
+                            <p>No champions yet!</p>
+                            <p style="font-size: 0.85rem; margin-top: 0.5rem;">Be the first to claim the throne</p>
+                        </div>
+                    `;
+                } else {
+                    els.lbFullList.innerHTML = players.map((p, i) => renderLeaderboardEntry(p, i)).join('');
+                }
+            });
+        }
+
+        // Init
+        switchScreen('start');
+    </script>
+    
+    <!-- Components Loader - Loads navigation and footer -->
+    <script src="/js/components-loader.js"></script>
+    
+    <!-- Mobile Navigation Script -->
+    <script src="/js/mobile-navigation.js"></script>
+    
+    <!-- Footer Component -->
+    <div id="footer-placeholder"></div>
+</body>
+</html>

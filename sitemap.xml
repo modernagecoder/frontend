@@ -68,6 +68,13 @@
   </url>
   
   <url>
+    <loc>https://learn.modernagecoders.com/aura</loc>
+    <lastmod>2025-11-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
     <loc>https://learn.modernagecoders.com/business-solutions</loc>
     <lastmod>2025-11-26</lastmod>
     <changefreq>monthly</changefreq>
