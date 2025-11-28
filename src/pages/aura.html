@@ -3,71 +3,27 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aura Type - Master Your Typing Flow | Modern Age Coders</title>
     <meta name="description" content="Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
     
     <!-- SEO Meta Tags -->
-    <meta name="keywords" content="typing practice, typing test, WPM test, typing game, improve typing speed, typing trainer, aura type, modern age coders, typing speed test, keyboard practice">
+    <meta name="keywords" content="typing practice, typing test, WPM test, typing game, improve typing speed, typing trainer, aura type, modern age coders">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://learn.modernagecoders.com/aura">
-    <meta name="theme-color" content="#0f172a">
     
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/aura">
-    <meta property="og:title" content="Aura Type - Master Your Typing Flow | Modern Age Coders">
-    <meta property="og:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
+    <meta property="og:title" content="Aura Type - Master Your Typing Flow">
+    <meta property="og:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
     <meta property="og:site_name" content="Modern Age Coders">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-aura-type.png">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aura Type - Master Your Typing Flow | Modern Age Coders">
+    <meta name="twitter:title" content="Aura Type - Master Your Typing Flow">
     <meta name="twitter:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
-    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-aura-type.png">
-    
-    <!-- Schema.org Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebApplication",
-        "name": "Aura Type - Typing Practice Game",
-        "description": "A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.",
-        "url": "https://learn.modernagecoders.com/aura",
-        "applicationCategory": "EducationalApplication",
-        "operatingSystem": "Web Browser",
-        "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "USD"
-        },
-        "creator": {
-            "@type": "Organization",
-            "name": "Modern Age Coders",
-            "url": "https://learn.modernagecoders.com"
-        },
-        "brand": {
-            "@type": "Brand",
-            "name": "Modern Age Coders"
-        }
-    }
-    </script>
-    
-    <!-- Main CSS for navigation and footer - ONLY load on desktop -->
-    <script>
-        // Don't load external CSS on mobile - it causes conflicts with the game
-        if (window.innerWidth > 800 && !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-            document.write('<link rel="stylesheet" href="/src/css/style.css">');
-            document.write('<link rel="stylesheet" href="/src/css/responsive.css">');
-            document.write('<link rel="stylesheet" href="/src/css/mobile-nav-fix.css">');
-            document.write('<link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">');
-        }
-    </script>
-    <noscript>
-        <link rel="stylesheet" href="/src/css/style.css">
-    </noscript>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -111,36 +67,101 @@
             color: var(--text-main);
             font-family: var(--font-ui);
             overflow-x: hidden;
+            overflow-y: auto;
             min-height: 100vh;
             width: 100vw;
             display: flex;
-            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
-        
-        /* Navigation and Footer Styling for Aura Page */
-        #nav-placeholder {
+
+        /* Lock scroll during gameplay */
+        body.game-active {
+            overflow: hidden !important;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+
+        /* Custom scrollbar for body */
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        body::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 4px;
+        }
+
+        body::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-secondary);
+        }
+
+        /* Minimalist Navigation */
+        .mini-nav {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
-            z-index: 9999;
-        }
-        
-        header, header nav, .navbar {
-            position: relative !important;
-            background: rgba(15, 23, 42, 0.98) !important;
-            backdrop-filter: blur(10px) !important;
-        }
-        
-        footer.site-footer {
-            position: relative;
             z-index: 100;
-            background: var(--bg-color);
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            pointer-events: none;
         }
-        
-        #footer-placeholder {
-            margin-top: auto;
-            z-index: 100;
+
+        .mini-nav.hidden {
+            transform: translateY(-100%);
+            opacity: 0;
+        }
+
+        .mini-nav a {
+            pointer-events: auto;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid transparent;
+        }
+
+        .mini-nav a:hover {
+            color: var(--text-main);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--glass-border);
+        }
+
+        .mini-nav .logo {
+            font-weight: 600;
+            color: var(--text-main);
+            font-size: 1rem;
+            background: none;
+            padding: 0.5rem 0;
+        }
+
+        .mini-nav .logo:hover {
+            color: var(--accent-primary);
+            background: none;
+        }
+
+        @media (max-width: 480px) {
+            .mini-nav {
+                padding: 0.75rem 1rem;
+            }
+            .mini-nav a {
+                font-size: 0.85rem;
+                padding: 0.4rem 0.8rem;
+            }
         }
 
         #bg-canvas {
@@ -157,31 +178,42 @@
             position: relative;
             z-index: 10;
             width: 100%;
-            height: calc(100vh - 80px);
-            margin-top: 80px;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
             perspective: 1000px;
+            padding: 2rem 0;
         }
 
         .screen {
-            position: absolute;
+            position: relative;
             width: 90%;
             max-width: 900px;
             height: auto;
-            max-height: 90vh;
             display: none;
             flex-direction: column;
             align-items: center;
             opacity: 0;
-            transition: opacity 0.3s ease;
         }
 
         .screen.active {
-            display: flex !important;
-            opacity: 1 !important;
-            visibility: visible !important;
+            display: flex;
+            opacity: 1;
+        }
+
+        /* Game screen needs to be fixed for smooth gameplay */
+        #game-screen {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 2rem;
+            width: 95%;
+            max-width: 900px;
+            touch-action: none;
+            -webkit-overflow-scrolling: none;
+            overscroll-behavior: none;
         }
 
         .glass-panel {
@@ -345,26 +377,7 @@
         .char-wrong { color: var(--accent-error); text-decoration: underline; text-decoration-color: var(--accent-error); }
         .char-pending { color: rgba(255, 255, 255, 0.2); }
 
-        /* Desktop: hide input visually but keep it functional */
-        #input-field { 
-            position: absolute; 
-            opacity: 0; 
-            top: -1000px;
-            pointer-events: auto;
-        }
-        
-        /* Only show input on mobile when game screen is active */
-        @media (max-width: 800px) {
-            #input-field {
-                display: none !important;
-            }
-            
-            #game-screen.active ~ #input-field,
-            #game-screen.active #input-field,
-            .app-container:has(#game-screen.active) #input-field {
-                display: block !important;
-            }
-        }
+        #input-field { position: absolute; opacity: 0; top: -1000px; }
 
         .progress-container {
             width: 100%;
@@ -391,9 +404,9 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(15, 23, 42, 0.98);
+            background: rgba(15, 23, 42, 0.95);
             backdrop-filter: blur(20px);
-            z-index: 99999;
+            z-index: 1000;
             display: none;
             justify-content: center;
             align-items: center;
@@ -687,6 +700,165 @@
             opacity: 1;
         }
 
+        /* Rules Modal */
+        .rules-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+            overflow-y: auto;
+            padding: 2rem 1rem;
+        }
+
+        .rules-modal.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .rules-content {
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 2rem;
+            position: relative;
+            overflow-y: auto;
+        }
+
+        .rules-content::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .rules-content::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+        }
+
+        .rules-content::-webkit-scrollbar-thumb {
+            background: var(--accent-primary);
+            border-radius: 3px;
+        }
+
+        .rules-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .rules-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, #4ade80, var(--accent-primary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .rules-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .rules-section h3 {
+            font-size: 1.1rem;
+            color: var(--accent-primary);
+            -webkit-text-fill-color: initial;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .rules-section p, .rules-section li {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 0.5rem;
+        }
+
+        .rules-section ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .rules-section li {
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .rules-section li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--accent-primary);
+        }
+
+        .score-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 0.5rem;
+        }
+
+        .score-table th, .score-table td {
+            padding: 0.6rem 0.8rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.85rem;
+        }
+
+        .score-table th {
+            color: var(--accent-primary);
+            font-weight: 600;
+        }
+
+        .score-table td {
+            color: var(--text-muted);
+        }
+
+        .score-highlight {
+            background: rgba(129, 140, 248, 0.1);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            color: var(--accent-primary);
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+        }
+
+        .badge-explain {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem 0;
+        }
+
+        .badge-explain .badge-icon {
+            font-size: 1.5rem;
+        }
+
+        .badge-explain .badge-info {
+            flex: 1;
+        }
+
+        .badge-explain .badge-name {
+            color: var(--text-main);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .badge-explain .badge-req {
+            color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
         @media (max-width: 1024px) {
             h1 { font-size: 3rem; }
             #target-word { font-size: 4rem; }
@@ -694,751 +866,69 @@
         }
 
         @media (max-width: 768px) {
-            /* Hide nav and footer on mobile for distraction-free gaming */
-            #nav-placeholder,
-            #footer-placeholder,
-            header,
-            nav,
-            .navbar,
-            footer,
-            .site-footer,
-            .wa-float-btn,
-            .misti-chat-btn {
-                display: none !important;
-                visibility: hidden !important;
-                height: 0 !important;
-                overflow: hidden !important;
-            }
-            
-            html, body {
-                overflow: hidden !important;
-                height: 100% !important;
-                height: 100dvh !important;
-                position: fixed !important;
-                width: 100% !important;
-                touch-action: manipulation;
-            }
-            
-            .app-container {
-                margin-top: 0 !important;
-                height: 100% !important;
-                height: 100dvh !important;
-                position: fixed !important;
-                top: 0 !important;
-                left: 0 !important;
-                right: 0 !important;
-                bottom: 0 !important;
-                z-index: 100 !important;
-                padding: 10px !important;
-                display: flex !important;
-                justify-content: center !important;
-                align-items: center !important;
-                overflow: hidden !important;
-            }
-            
-            .screen {
-                position: absolute !important;
-                width: calc(100% - 20px) !important;
-                max-width: 100% !important;
-                max-height: calc(100% - 20px) !important;
-                overflow-y: auto !important;
-                display: none !important;
-                flex-direction: column !important;
-                align-items: center !important;
-                opacity: 0 !important;
-                visibility: hidden !important;
-            }
-            
-            .screen.active {
-                display: flex !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            }
-            
-            /* START SCREEN - Mobile */
-            #start-screen.glass-panel {
-                padding: 1.2rem !important;
-                max-height: calc(100dvh - 30px) !important;
-                overflow-y: auto !important;
-            }
-            
-            /* GAME SCREEN - Mobile - CRITICAL FIX */
-            #game-screen {
-                position: absolute !important;
-                top: 50% !important;
-                left: 50% !important;
-                transform: translate(-50%, -50%) !important;
-                width: calc(100% - 20px) !important;
-                max-width: 400px !important;
-                min-height: auto !important;
-                max-height: calc(100dvh - 120px) !important;
-                padding: 20px !important;
-                padding-bottom: 30px !important;
-                background: rgba(15, 23, 42, 0.98) !important;
-                border-radius: 20px !important;
-                border: 2px solid rgba(129, 140, 248, 0.5) !important;
-                box-shadow: 0 0 40px rgba(129, 140, 248, 0.2) !important;
-                display: none !important;
-                flex-direction: column !important;
-                align-items: center !important;
-                justify-content: flex-start !important;
-                overflow: visible !important;
-            }
-            
-            #game-screen.active {
-                display: flex !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            }
-            
-            h1 { font-size: 1.8rem !important; margin-bottom: 0.3rem !important; }
-            .subtitle { font-size: 0.9rem !important; margin-bottom: 1rem !important; }
-            
-            .level-info { 
-                grid-template-columns: 1fr !important; 
-                gap: 0.5rem !important; 
-                margin-bottom: 1rem !important;
-            }
-            
-            .level-card {
-                padding: 0.8rem !important;
-            }
-            
-            .level-card h3 { font-size: 1rem !important; margin-bottom: 0.3rem !important; }
-            .level-card p { font-size: 0.75rem !important; }
-            
-            .glass-panel { 
-                padding: 1rem !important; 
-                width: 100% !important; 
-                border-radius: 16px !important;
-            }
-            
-            /* HUD Stats - Mobile */
-            .hud-top { 
-                margin-bottom: 15px !important; 
-                display: grid !important; 
-                grid-template-columns: 1fr 1fr !important; 
-                gap: 8px !important;
-                width: 100% !important;
-                max-width: 320px !important;
-                background: rgba(0, 0, 0, 0.3) !important;
-                padding: 10px !important;
-                border-radius: 12px !important;
-            }
-            
-            .hud-stat { 
-                display: flex !important;
-                flex-direction: row !important; 
-                justify-content: space-between !important;
-                align-items: center !important;
-                background: rgba(255, 255, 255, 0.1) !important; 
-                padding: 8px 12px !important; 
-                border-radius: 8px !important;
-            }
-            .hud-stat span { 
-                font-size: 0.6rem !important; 
-                margin-right: 0.3rem !important; 
-                text-transform: uppercase !important;
-                color: #94a3b8 !important;
-            }
-            .hud-stat strong { 
-                font-size: 1rem !important;
-                color: white !important;
-            }
-            
-            /* Word Display - Mobile */
-            .word-display-area {
-                height: auto !important;
-                min-height: 80px !important;
-                margin: 15px 0 !important;
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center !important;
-                width: 100% !important;
-                max-width: 320px !important;
-                padding: 20px 15px !important;
-                background: rgba(255, 255, 255, 0.05) !important;
-                border-radius: 16px !important;
-                border: 1px solid rgba(255, 255, 255, 0.15) !important;
-            }
-            
-            #target-word { 
-                font-size: 1.8rem !important; 
-                line-height: 1.4 !important;
-                word-break: break-word !important;
-                text-align: center !important;
-                color: rgba(255, 255, 255, 0.2) !important;
-            }
-            
-            #target-word .char-correct {
-                color: white !important;
-            }
-            
-            #target-word .char-wrong {
-                color: #f87171 !important;
-            }
-            
-            .type-hint {
-                color: #64748b !important;
-                font-size: 0.75rem !important;
-                margin-top: 5px !important;
-            }
-            
-            .btn { 
-                padding: 0.8rem 1.5rem !important; 
-                font-size: 0.9rem !important; 
-                width: auto !important;
-                min-width: 200px !important;
-            }
-            
-            .btn-leaderboard {
-                padding: 0.6rem 1.2rem !important;
-                font-size: 0.85rem !important;
-            }
-            
-            .progress-container {
-                margin-top: 10px !important;
-                width: 100% !important;
-                max-width: 280px !important;
-                height: 4px !important;
-                background: rgba(255, 255, 255, 0.1) !important;
-                border-radius: 2px !important;
-            }
-            
-            /* INPUT FIELD - Mobile - CRITICAL */
-            #input-field {
-                position: fixed !important;
-                bottom: 25px !important;
-                left: 50% !important;
-                transform: translateX(-50%) !important;
-                width: calc(100% - 40px) !important;
-                max-width: 340px !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-                background: rgba(15, 23, 42, 0.98) !important;
-                border: 2px solid var(--accent-primary) !important;
-                border-radius: 14px !important;
-                padding: 16px 20px !important;
-                color: white !important;
-                font-size: 18px !important;
-                text-align: center !important;
-                z-index: 99999 !important;
-                -webkit-appearance: none !important;
-                appearance: none !important;
-                font-family: var(--font-mono) !important;
-                letter-spacing: 2px !important;
-                box-shadow: 0 -5px 30px rgba(129, 140, 248, 0.3) !important;
-            }
-            
-            #input-field:focus {
-                outline: none !important;
-                border-color: #a5b4fc !important;
-                box-shadow: 0 0 30px rgba(129, 140, 248, 0.5) !important;
-            }
-            
-            /* Leaderboard Modal Mobile */
-            .leaderboard-modal {
-                padding: 10px !important;
-            }
-            
-            .leaderboard-content { 
-                padding: 1rem !important; 
-                max-height: calc(100dvh - 40px) !important;
-                width: 100% !important;
-                border-radius: 16px !important;
-                overflow-y: auto !important;
-            }
-            
-            .lb-header { margin-bottom: 1rem !important; }
-            .lb-header h2 { font-size: 1.3rem !important; }
-            .lb-header p { font-size: 0.8rem !important; }
-            .lb-trophy { font-size: 2rem !important; margin-bottom: 0.5rem !important; }
-            
-            .lb-list {
-                max-height: calc(100dvh - 200px) !important;
-            }
-            
-            .lb-entry { padding: 0.6rem 0.8rem !important; margin-bottom: 0.4rem !important; }
-            .lb-rank { width: 30px !important; height: 30px !important; font-size: 0.75rem !important; margin-right: 0.8rem !important; }
-            .lb-player-name { font-size: 0.9rem !important; }
-            .lb-player-wpm { font-size: 0.7rem !important; }
-            .lb-score { font-size: 1.1rem !important; }
-            
-            .lb-close-btn {
-                top: 0.8rem;
-                right: 0.8rem;
-                width: 35px;
-                height: 35px;
-            }
-            
-            /* Round and End screens */
-            #round-screen.glass-panel,
-            #end-screen.glass-panel {
-                padding: 1.5rem;
-                max-height: calc(100vh - 40px);
-                overflow-y: auto;
-            }
-            
-            #round-screen h2,
-            #end-screen h1 { font-size: 1.5rem; }
-            
-            .badge-container { gap: 0.8rem; margin-top: 1rem; }
-            .badge { width: 40px; height: 40px; font-size: 1rem; }
-            
-            #name-entry {
-                margin-top: 1.5rem;
-            }
-            
-            #name-entry input,
-            #player-name {
-                width: 180px !important;
-                font-size: 1rem !important;
-                padding: 0.6rem 1rem !important;
-            }
-            
-            #final-score { font-size: 3rem; }
+            h1 { font-size: 2.5rem; }
+            .subtitle { font-size: 1rem; margin-bottom: 2rem; }
+            .level-info { grid-template-columns: 1fr; gap: 0.8rem; }
+            .glass-panel { padding: 1.5rem; width: 95%; border-radius: 16px; }
+            .hud-top { margin-bottom: 2rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+            .hud-stat { flex-direction: row; justify-content: space-between; background: rgba(255, 255, 255, 0.03); padding: 0.5rem 1rem; border-radius: 8px; width: 100%; }
+            .hud-stat span { margin-bottom: 0; margin-right: 0.5rem; }
+            .hud-stat strong { font-size: 1.2rem; }
+            #target-word { font-size: 2.8rem; height: auto; min-height: 80px; }
+            .btn { padding: 0.8rem 2rem; font-size: 1rem; width: 100%; max-width: 300px; }
+            input[type="text"] { font-size: 16px; }
+            .leaderboard-content { padding: 1.5rem; }
+            .lb-header h2 { font-size: 1.5rem; }
+            .lb-entry { padding: 0.8rem; }
+            .lb-rank { width: 35px; height: 35px; font-size: 0.85rem; }
         }
 
-        @media (max-width: 380px) {
-            h1 { font-size: 1.5rem; }
-            #target-word { font-size: 1.6rem; }
-            .hud-stat span { font-size: 0.5rem; }
-            .hud-stat strong { font-size: 0.85rem; }
-            .btn { min-width: 160px; padding: 0.7rem 1rem; }
+        @media (max-width: 480px) {
+            h1 { font-size: 2rem; }
+            #target-word { font-size: 2.2rem; word-break: break-all; }
+            .badge-container { gap: 0.8rem; }
+            .badge { width: 40px; height: 40px; font-size: 1rem; }
+            .btn { padding: 1rem; }
+            .app-container { padding: 4rem 0 2rem; }
+            .glass-panel { margin: 1rem; }
+        }
+
+        /* Mobile scroll indicator */
+        @media (max-width: 768px) {
+            .screen.glass-panel {
+                max-height: none;
+                overflow-y: visible;
+            }
+            
+            .rules-modal, .leaderboard-modal {
+                align-items: flex-start;
+                padding-top: 1rem;
+            }
+            
+            .rules-content, .leaderboard-content {
+                margin: 1rem;
+                max-height: none;
+            }
         }
 
         button { touch-action: manipulation; }
         
-        /* Prevent iOS zoom on input focus */
-        @supports (-webkit-touch-callout: none) {
-            #input-field {
-                font-size: 16px !important;
-            }
-        }
-    </style>
-    
-    <!-- MOBILE GAME FIX - This overrides everything for mobile -->
-    <style id="mobile-game-master-fix">
-        @media screen and (max-width: 800px) {
-            /* RESET - Remove all external CSS interference */
-            html, body {
-                margin: 0 !important;
-                padding: 0 !important;
-                overflow: hidden !important;
-                position: fixed !important;
-                width: 100% !important;
-                height: 100% !important;
-                height: 100dvh !important;
-                background: #0f172a !important;
-            }
-            
-            /* Hide ALL navigation elements */
-            #nav-placeholder, #footer-placeholder, header, nav, footer, 
-            .site-footer, .navbar, .wa-float-btn, .misti-chat-btn,
-            .nav-container, .mobile-nav, .hamburger {
-                display: none !important;
-                visibility: hidden !important;
-                opacity: 0 !important;
-                pointer-events: none !important;
-                position: absolute !important;
-                left: -9999px !important;
-                top: -9999px !important;
-                width: 0 !important;
-                height: 0 !important;
-            }
-            
-            /* App container - full screen */
-            .app-container {
-                position: fixed !important;
-                top: 0 !important;
-                left: 0 !important;
-                right: 0 !important;
-                bottom: 0 !important;
-                width: 100% !important;
-                height: 100% !important;
-                height: 100dvh !important;
-                margin: 0 !important;
-                padding: 15px !important;
-                display: flex !important;
-                justify-content: center !important;
-                align-items: center !important;
-                z-index: 9999 !important;
-                overflow: hidden !important;
-            }
-            
-            /* All screens base */
-            .screen {
-                position: absolute !important;
-                width: calc(100% - 30px) !important;
-                max-width: 380px !important;
-                display: none !important;
-                flex-direction: column !important;
-                align-items: center !important;
-                opacity: 0 !important;
-                visibility: hidden !important;
-            }
-            
-            .screen.active {
-                display: flex !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            }
-            
-            /* Start screen */
-            #start-screen {
-                max-height: calc(100dvh - 40px) !important;
-                overflow-y: auto !important;
-                padding: 20px !important;
-            }
-            
-            /* GAME SCREEN - THE MAIN FIX */
-            #game-screen {
-                position: absolute !important;
-                top: 45% !important;
-                left: 50% !important;
-                transform: translate(-50%, -50%) !important;
-                width: calc(100% - 30px) !important;
-                max-width: 360px !important;
-                min-height: 280px !important;
-                max-height: calc(100dvh - 150px) !important;
-                padding: 20px !important;
-                background: rgba(15, 23, 42, 0.98) !important;
-                border-radius: 20px !important;
-                border: 2px solid rgba(129, 140, 248, 0.6) !important;
-                box-shadow: 0 0 60px rgba(129, 140, 248, 0.3) !important;
-                display: none !important;
-                flex-direction: column !important;
-                align-items: center !important;
-                justify-content: flex-start !important;
-                overflow: visible !important;
-            }
-            
-            #game-screen.active {
-                display: flex !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            }
-            
-            /* HUD Stats */
-            #game-screen .hud-top {
-                display: grid !important;
-                grid-template-columns: 1fr 1fr !important;
-                gap: 8px !important;
-                width: 100% !important;
-                margin-bottom: 15px !important;
-                background: rgba(0, 0, 0, 0.4) !important;
-                padding: 10px !important;
-                border-radius: 12px !important;
-            }
-            
-            #game-screen .hud-stat {
-                display: flex !important;
-                flex-direction: row !important;
-                justify-content: space-between !important;
-                align-items: center !important;
-                background: rgba(255, 255, 255, 0.1) !important;
-                padding: 10px 12px !important;
-                border-radius: 8px !important;
-            }
-            
-            #game-screen .hud-stat span {
-                font-size: 0.6rem !important;
-                color: #94a3b8 !important;
-                text-transform: uppercase !important;
-            }
-            
-            #game-screen .hud-stat strong {
-                font-size: 1.1rem !important;
-                color: white !important;
-            }
-            
-            /* Word Display */
-            #game-screen .word-display-area {
-                display: flex !important;
-                align-items: center !important;
-                justify-content: center !important;
-                min-height: 80px !important;
-                width: 100% !important;
-                margin: 10px 0 !important;
-                padding: 20px 15px !important;
-                background: rgba(255, 255, 255, 0.05) !important;
-                border-radius: 16px !important;
-                border: 1px solid rgba(255, 255, 255, 0.15) !important;
-            }
-            
-            #game-screen #target-word {
-                font-size: 1.6rem !important;
-                text-align: center !important;
-                line-height: 1.4 !important;
-                word-break: break-word !important;
-            }
-            
-            #game-screen .type-hint {
-                color: #64748b !important;
-                font-size: 0.75rem !important;
-                margin-top: 8px !important;
-            }
-            
-            #game-screen .progress-container {
-                width: 100% !important;
-                max-width: 280px !important;
-                height: 5px !important;
-                margin-top: 10px !important;
-            }
-            
-            /* INPUT FIELD - Fixed at bottom, hidden by default */
-            #input-field {
-                position: fixed !important;
-                bottom: 20px !important;
-                left: 50% !important;
-                transform: translateX(-50%) !important;
-                width: calc(100% - 40px) !important;
-                max-width: 340px !important;
-                padding: 16px 20px !important;
-                font-size: 18px !important;
-                text-align: center !important;
-                background: rgba(15, 23, 42, 0.99) !important;
-                border: 2px solid #818cf8 !important;
-                border-radius: 14px !important;
-                color: white !important;
-                z-index: 999999 !important;
-                font-family: 'Space Mono', monospace !important;
-                letter-spacing: 2px !important;
-                box-shadow: 0 -5px 40px rgba(129, 140, 248, 0.4) !important;
-                -webkit-appearance: none !important;
-                appearance: none !important;
-                display: none !important;
-                opacity: 0 !important;
-                visibility: hidden !important;
-            }
-            
-            #input-field:focus {
-                outline: none !important;
-                border-color: #a5b4fc !important;
-                box-shadow: 0 0 40px rgba(129, 140, 248, 0.6) !important;
-            }
-            
-            /* Show input only when game is active - using body class */
-            body.game-active #input-field {
-                display: block !important;
-                opacity: 1 !important;
-                visibility: visible !important;
-            }
-            
-            /* Round and End screens */
-            #round-screen, #end-screen {
-                max-height: calc(100dvh - 60px) !important;
-                overflow-y: auto !important;
-                padding: 20px !important;
-            }
-            
-            /* Leaderboard modal */
-            .leaderboard-modal {
-                position: fixed !important;
-                top: 0 !important;
-                left: 0 !important;
-                right: 0 !important;
-                bottom: 0 !important;
-                z-index: 9999999 !important;
-                padding: 15px !important;
-            }
-            
-            .leaderboard-content {
-                max-height: calc(100dvh - 40px) !important;
-                overflow-y: auto !important;
-            }
-        }
-        
-        /* Extra small screens */
-        @media screen and (max-width: 380px) {
-            #game-screen {
-                padding: 15px !important;
-            }
-            
-            #game-screen #target-word {
-                font-size: 1.4rem !important;
-            }
-            
-            #input-field {
-                padding: 14px 16px !important;
-                font-size: 16px !important;
-            }
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
-    <!-- Navigation Component (hidden on mobile via CSS) -->
-    <div id="nav-placeholder"></div>
-    
-    <!-- Inline style to immediately hide nav/footer AND bg-canvas on mobile -->
-    <style>
-        @media (max-width: 800px) {
-            /* Hide navigation elements */
-            #nav-placeholder, #footer-placeholder, header, nav, footer, .site-footer, .navbar, .wa-float-btn, .misti-chat-btn {
-                display: none !important;
-                visibility: hidden !important;
-                height: 0 !important;
-                width: 0 !important;
-                overflow: hidden !important;
-                position: absolute !important;
-                left: -9999px !important;
-            }
-            
-            /* CRITICAL: Hide the 3D background canvas on mobile - this causes the weird box */
-            #bg-canvas {
-                display: none !important;
-                visibility: hidden !important;
-                opacity: 0 !important;
-                width: 0 !important;
-                height: 0 !important;
-                position: absolute !important;
-                left: -9999px !important;
-                pointer-events: none !important;
-            }
-        }
-    </style>
-    
-    <!-- MOBILE/TABLET MESSAGE - Shows only on small screens -->
-    <div id="mobile-message" style="display: none;">
-        <div class="mobile-message-content">
-            <div class="mobile-icon">💻</div>
-            <h1>Desktop Only</h1>
-            <p>Aura Type is optimized for desktop and laptop computers.</p>
-            <p class="sub-text">Please open this page on a desktop or laptop for the best typing experience.</p>
-            <div class="mobile-badge">
-                <span>📱</span> Mobile version coming soon!
-            </div>
-            <a href="/" class="back-home-btn">← Back to Home</a>
-        </div>
-    </div>
-    
-    <style>
-        /* Mobile Message Styles */
-        #mobile-message {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            z-index: 9999999;
-            display: none;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-        
-        .mobile-message-content {
-            text-align: center;
-            max-width: 350px;
-            padding: 30px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 24px;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-        }
-        
-        .mobile-icon {
-            font-size: 4rem;
-            margin-bottom: 20px;
-            animation: float 3s ease-in-out infinite;
-        }
-        
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-        
-        #mobile-message h1 {
-            font-family: 'Outfit', sans-serif;
-            font-size: 2rem;
-            font-weight: 700;
-            color: #f8fafc;
-            margin: 0 0 15px 0;
-            background: linear-gradient(135deg, #818cf8, #c084fc);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-        
-        #mobile-message p {
-            font-family: 'Outfit', sans-serif;
-            font-size: 1rem;
-            color: #94a3b8;
-            margin: 0 0 10px 0;
-            line-height: 1.5;
-        }
-        
-        #mobile-message .sub-text {
-            font-size: 0.9rem;
-            color: #64748b;
-            margin-bottom: 25px;
-        }
-        
-        .mobile-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(129, 140, 248, 0.15);
-            border: 1px solid rgba(129, 140, 248, 0.3);
-            padding: 10px 20px;
-            border-radius: 50px;
-            color: #818cf8;
-            font-size: 0.9rem;
-            font-family: 'Outfit', sans-serif;
-            margin-bottom: 25px;
-        }
-        
-        .back-home-btn {
-            display: inline-block;
-            padding: 12px 30px;
-            background: linear-gradient(135deg, #818cf8, #c084fc);
-            color: white;
-            text-decoration: none;
-            border-radius: 50px;
-            font-family: 'Outfit', sans-serif;
-            font-weight: 500;
-            font-size: 1rem;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .back-home-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(129, 140, 248, 0.3);
-        }
-        
-        /* Show mobile message and hide everything else on mobile/tablet */
-        @media screen and (max-width: 1024px) {
-            #mobile-message {
-                display: flex !important;
-            }
-            
-            #bg-canvas,
-            .app-container,
-            #nav-placeholder,
-            #footer-placeholder,
-            .leaderboard-modal,
-            #toast {
-                display: none !important;
-                visibility: hidden !important;
-            }
-        }
-        
-        /* Hide mobile message on desktop */
-        @media screen and (min-width: 1025px) {
-            #mobile-message {
-                display: none !important;
-            }
-        }
-    </style>
-    
-    <!-- 3D Background Canvas - Hidden on mobile via CSS above -->
+    <!-- Minimalist Navigation -->
+    <nav class="mini-nav" id="mini-nav">
+        <a href="/courses" class="logo">Modern Age Coders</a>
+        <a href="/courses">Courses</a>
+    </nav>
+
     <canvas id="bg-canvas"></canvas>
 
-    <div class="app-container">""
+    <div class="app-container">
         <!-- START SCREEN -->
         <div id="start-screen" class="screen active glass-panel" style="text-align: center;">
             <h1>Aura Type</h1>
@@ -1465,216 +955,16 @@
 
             <button id="btn-start" class="btn">Begin Journey</button>
 
-            <button id="btn-view-leaderboard" class="btn btn-leaderboard" style="margin-top: 1.5rem;">
-                <span>🏆</span> View Leaderboard
-            </button>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem;">
+                <button id="btn-view-leaderboard" class="btn btn-leaderboard">
+                    <span>🏆</span> Leaderboard
+                </button>
+                <button id="btn-how-to-play" class="btn btn-leaderboard" style="background: linear-gradient(135deg, #4ade80, #22c55e);">
+                    <span>📖</span> How to Play
+                </button>
+            </div>
         </div>
 
-        <!-- MOBILE GAME SCREEN OVERRIDE STYLES - ENHANCED -->
-        <style id="mobile-game-fix">
-            /* Mobile-first game screen fixes */
-            @media screen and (max-width: 800px) {
-                /* Prevent any scrolling or weird viewport issues */
-                html, body {
-                    overflow: hidden !important;
-                    position: fixed !important;
-                    width: 100% !important;
-                    height: 100% !important;
-                    height: 100dvh !important;
-                }
-                
-                /* Game screen container */
-                #game-screen {
-                    display: none;
-                    position: absolute !important;
-                    top: 50% !important;
-                    left: 50% !important;
-                    transform: translate(-50%, -50%) !important;
-                    flex-direction: column !important;
-                    align-items: center !important;
-                    justify-content: flex-start !important;
-                    padding: 20px !important;
-                    padding-bottom: 20px !important;
-                    background: rgba(15, 23, 42, 0.98) !important;
-                    border-radius: 20px !important;
-                    border: 2px solid rgba(129, 140, 248, 0.5) !important;
-                    width: calc(100% - 30px) !important;
-                    max-width: 380px !important;
-                    min-height: auto !important;
-                    max-height: calc(100dvh - 130px) !important;
-                    overflow: visible !important;
-                    box-sizing: border-box !important;
-                    box-shadow: 0 0 50px rgba(129, 140, 248, 0.25) !important;
-                }
-                
-                #game-screen.active {
-                    display: flex !important;
-                    opacity: 1 !important;
-                    visibility: visible !important;
-                }
-                
-                /* HUD Stats Grid */
-                #game-screen .hud-top {
-                    display: grid !important;
-                    grid-template-columns: 1fr 1fr !important;
-                    gap: 8px !important;
-                    width: 100% !important;
-                    max-width: 320px !important;
-                    margin-bottom: 15px !important;
-                    background: rgba(0,0,0,0.4) !important;
-                    padding: 10px !important;
-                    border-radius: 12px !important;
-                    visibility: visible !important;
-                    opacity: 1 !important;
-                }
-                
-                #game-screen .hud-stat {
-                    display: flex !important;
-                    flex-direction: row !important;
-                    justify-content: space-between !important;
-                    align-items: center !important;
-                    background: rgba(255,255,255,0.1) !important;
-                    padding: 10px 12px !important;
-                    border-radius: 8px !important;
-                    visibility: visible !important;
-                    opacity: 1 !important;
-                }
-                
-                #game-screen .hud-stat span {
-                    font-size: 0.6rem !important;
-                    color: #94a3b8 !important;
-                    text-transform: uppercase !important;
-                    letter-spacing: 0.5px !important;
-                }
-                
-                #game-screen .hud-stat strong {
-                    font-size: 1.1rem !important;
-                    color: white !important;
-                    font-weight: 700 !important;
-                }
-                
-                /* Word Display Area */
-                #game-screen .word-display-area {
-                    display: flex !important;
-                    align-items: center !important;
-                    justify-content: center !important;
-                    min-height: 90px !important;
-                    width: 100% !important;
-                    max-width: 320px !important;
-                    margin: 15px 0 !important;
-                    padding: 20px 15px !important;
-                    background: rgba(255,255,255,0.05) !important;
-                    border-radius: 16px !important;
-                    border: 1px solid rgba(255,255,255,0.15) !important;
-                    visibility: visible !important;
-                    opacity: 1 !important;
-                }
-                
-                #game-screen #target-word {
-                    font-size: 1.7rem !important;
-                    color: rgba(255,255,255,0.2) !important;
-                    text-align: center !important;
-                    visibility: visible !important;
-                    opacity: 1 !important;
-                    line-height: 1.4 !important;
-                    word-break: break-word !important;
-                }
-                
-                #game-screen #target-word .char-correct {
-                    color: white !important;
-                }
-                
-                #game-screen #target-word .char-wrong {
-                    color: #f87171 !important;
-                }
-                
-                #game-screen #target-word .char-pending {
-                    color: rgba(255,255,255,0.2) !important;
-                }
-                
-                #game-screen .type-hint {
-                    color: #64748b !important;
-                    font-size: 0.75rem !important;
-                    margin-top: 8px !important;
-                    visibility: visible !important;
-                }
-                
-                /* Progress Bar */
-                #game-screen .progress-container {
-                    width: 100% !important;
-                    max-width: 280px !important;
-                    height: 5px !important;
-                    background: rgba(255,255,255,0.1) !important;
-                    border-radius: 3px !important;
-                    margin-top: 12px !important;
-                    visibility: visible !important;
-                    opacity: 1 !important;
-                }
-                
-                /* INPUT FIELD - Fixed at bottom */
-                #game-screen #input-field,
-                #input-field {
-                    position: fixed !important;
-                    bottom: 20px !important;
-                    left: 50% !important;
-                    transform: translateX(-50%) !important;
-                    width: calc(100% - 40px) !important;
-                    max-width: 340px !important;
-                    padding: 16px 20px !important;
-                    font-size: 18px !important;
-                    text-align: center !important;
-                    background: rgba(15, 23, 42, 0.99) !important;
-                    border: 2px solid #818cf8 !important;
-                    border-radius: 14px !important;
-                    color: white !important;
-                    opacity: 1 !important;
-                    visibility: visible !important;
-                    z-index: 999999 !important;
-                    font-family: 'Space Mono', monospace !important;
-                    letter-spacing: 2px !important;
-                    box-shadow: 0 -5px 40px rgba(129, 140, 248, 0.4) !important;
-                    -webkit-appearance: none !important;
-                    appearance: none !important;
-                }
-                
-                #input-field:focus {
-                    outline: none !important;
-                    border-color: #a5b4fc !important;
-                    box-shadow: 0 0 40px rgba(129, 140, 248, 0.6) !important;
-                }
-            }
-            
-            /* Extra small screens */
-            @media screen and (max-width: 380px) {
-                #game-screen {
-                    padding: 15px !important;
-                    max-height: calc(100dvh - 120px) !important;
-                }
-                
-                #game-screen .hud-stat {
-                    padding: 8px 10px !important;
-                }
-                
-                #game-screen .hud-stat span {
-                    font-size: 0.55rem !important;
-                }
-                
-                #game-screen .hud-stat strong {
-                    font-size: 0.95rem !important;
-                }
-                
-                #game-screen #target-word {
-                    font-size: 1.4rem !important;
-                }
-                
-                #input-field {
-                    padding: 14px 16px !important;
-                    font-size: 16px !important;
-                    bottom: 15px !important;
-                }
-            }
-        </style>
-        
         <!-- GAME SCREEN -->
         <div id="game-screen" class="screen">
             <div class="hud-top">
@@ -1688,15 +978,16 @@
                 <div id="target-word">Loading...</div>
             </div>
 
-            <div class="type-hint">Type in the box below ⬇️</div>
+            <input type="text" id="input-field" autocomplete="off" spellcheck="false">
+
+            <div style="color: var(--text-muted); font-size: 0.9rem; margin-top: 1rem; opacity: 0.6;">
+                Type the word above
+            </div>
 
             <div class="progress-container">
                 <div id="progress-fill"></div>
             </div>
         </div>
-        
-        <!-- INPUT FIELD - Outside game screen for mobile fixed positioning -->
-        <input type="text" id="input-field" autocomplete="off" spellcheck="false" inputmode="text" enterkeyhint="done">
 
         <!-- ROUND END SCREEN -->
         <div id="round-screen" class="screen glass-panel" style="text-align: center;">
@@ -1760,27 +1051,129 @@
         </div>
     </div>
 
+    <!-- RULES MODAL -->
+    <div id="rules-modal" class="rules-modal">
+        <div class="rules-content">
+            <button class="lb-close-btn" id="rules-close-btn">✕</button>
+            
+            <div class="rules-header">
+                <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">📖</span>
+                <h2>How to Play</h2>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Master the art of typing</p>
+            </div>
+
+            <div class="rules-section">
+                <h3>🎮 Game Overview</h3>
+                <p>Aura Type is a 3-stage typing challenge. Type the words that appear on screen as fast and accurately as possible. Complete all stages to finish your journey!</p>
+            </div>
+
+            <div class="rules-section">
+                <h3>📊 The Three Stages</h3>
+                <table class="score-table">
+                    <tr>
+                        <th>Stage</th>
+                        <th>Time</th>
+                        <th>Words</th>
+                        <th>Difficulty</th>
+                    </tr>
+                    <tr>
+                        <td>Flow</td>
+                        <td>45s</td>
+                        <td>18 words</td>
+                        <td>Short words (4-5 letters)</td>
+                    </tr>
+                    <tr>
+                        <td>Precision</td>
+                        <td>40s</td>
+                        <td>22 words</td>
+                        <td>Complex words (7-10 letters)</td>
+                    </tr>
+                    <tr>
+                        <td>Mastery</td>
+                        <td>50s</td>
+                        <td>12 phrases</td>
+                        <td>Full phrases</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="rules-section">
+                <h3>⭐ Scoring System</h3>
+                <p>Your score is calculated based on:</p>
+                <ul>
+                    <li><span class="score-highlight">Word Length × 10</span> — Longer words = more points</li>
+                    <li><span class="score-highlight">Stage Bonus × 5</span> — Higher stages give bonus multiplier</li>
+                    <li><span class="score-highlight">+15 Perfect Bonus</span> — No typos in a word</li>
+                    <li><span class="score-highlight">-20 Penalty</span> — Wrong word costs you points!</li>
+                </ul>
+                <p style="margin-top: 0.75rem;"><strong style="color: var(--text-main);">Example:</strong> Typing "harmony" perfectly in Precision = <span class="score-highlight">(7 × 10) + 10 + 15 = 95 points</span></p>
+            </div>
+
+            <div class="rules-section">
+                <h3>🏆 Leaderboard Ranking</h3>
+                <p>Rankings are determined by:</p>
+                <ul>
+                    <li><strong style="color: var(--text-main);">Primary:</strong> Total Score (higher is better)</li>
+                    <li><strong style="color: var(--text-main);">Tiebreaker:</strong> WPM (faster typist wins)</li>
+                </ul>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Same score? The faster typist takes the higher rank!</p>
+            </div>
+
+            <div class="rules-section">
+                <h3>⚡ WPM (Words Per Minute)</h3>
+                <p>WPM measures your typing speed. It's calculated as:</p>
+                <p style="text-align: center; margin: 0.75rem 0;"><span class="score-highlight">WPM = (Characters Typed ÷ 5) ÷ Minutes Elapsed</span></p>
+                <p>A "word" is standardized as 5 characters. Higher WPM = faster typing!</p>
+            </div>
+
+            <div class="rules-section">
+                <h3>🏅 Badges & Achievements</h3>
+                <div class="badge-explain">
+                    <span class="badge-icon">⚡</span>
+                    <div class="badge-info">
+                        <div class="badge-name">Flow Master</div>
+                        <div class="badge-req">Achieve WPM greater than 60</div>
+                    </div>
+                </div>
+                <div class="badge-explain">
+                    <span class="badge-icon">🎯</span>
+                    <div class="badge-info">
+                        <div class="badge-name">Perfectionist</div>
+                        <div class="badge-req">Maintain 98%+ accuracy</div>
+                    </div>
+                </div>
+                <div class="badge-explain">
+                    <span class="badge-icon">🛡️</span>
+                    <div class="badge-info">
+                        <div class="badge-name">Resilient</div>
+                        <div class="badge-req">Complete all 3 stages</div>
+                    </div>
+                </div>
+                <div class="badge-explain">
+                    <span class="badge-icon">✨</span>
+                    <div class="badge-info">
+                        <div class="badge-name">Transcendent</div>
+                        <div class="badge-req">Achieve WPM greater than 100 (God Mode!)</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rules-section">
+                <h3>💡 Tips</h3>
+                <ul>
+                    <li>Focus on accuracy first, speed will follow</li>
+                    <li>Keep your fingers on the home row</li>
+                    <li>Don't look at the keyboard</li>
+                    <li>Stay relaxed — tension slows you down</li>
+                    <li>Practice daily for best results</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div id="toast"></div>
 
     <script type="module">
-        // --- MOBILE/TABLET CHECK - Stop execution on small screens ---
-        const isMobileOrTablet = window.innerWidth <= 1024 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-        if (isMobileOrTablet) {
-            // Show mobile message and stop all game initialization
-            const mobileMsg = document.getElementById('mobile-message');
-            if (mobileMsg) mobileMsg.style.display = 'flex';
-            
-            // Hide everything else
-            const appContainer = document.querySelector('.app-container');
-            const bgCanvas = document.getElementById('bg-canvas');
-            if (appContainer) appContainer.style.display = 'none';
-            if (bgCanvas) bgCanvas.remove();
-            
-            // Stop script execution - don't initialize the game
-            throw new Error('Mobile device detected - game disabled');
-        }
-        
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
         import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, onSnapshot } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
 
@@ -1845,9 +1238,9 @@
         };
 
         const STAGES = [
-            { id: 'flow', name: "Flow State", time: 60, words: 15, diff: 'flow' },
-            { id: 'precision', name: "Precision", time: 45, words: 20, diff: 'precision' },
-            { id: 'mastery', name: "Mastery", time: 60, words: 10, diff: 'mastery' }
+            { id: 'flow', name: "Flow State", time: 45, words: 18, diff: 'flow' },
+            { id: 'precision', name: "Precision", time: 40, words: 22, diff: 'precision' },
+            { id: 'mastery', name: "Mastery", time: 50, words: 12, diff: 'mastery' }
         ];
 
         // --- STATE ---
@@ -1858,6 +1251,8 @@
             wordsTyped: 0,
             charsTyped: 0,
             errors: 0,
+            correctWords: 0,
+            wrongWords: 0,
             startTime: 0,
             timer: null,
             timeLeft: 0,
@@ -1891,64 +1286,6 @@
             btnStart: document.getElementById('btn-start'),
             roundName: document.getElementById('round-name-display')
         };
-
-        // --- MOBILE DETECTION & SETUP ---
-        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 800;
-        
-        if (isMobile) {
-            // Prevent all viewport issues on mobile
-            document.body.style.overflow = 'hidden';
-            document.body.style.position = 'fixed';
-            document.body.style.width = '100%';
-            document.body.style.height = '100%';
-            document.documentElement.style.overflow = 'hidden';
-            
-            // Prevent zoom on double tap
-            let lastTouchEnd = 0;
-            document.addEventListener('touchend', (e) => {
-                const now = Date.now();
-                if (now - lastTouchEnd <= 300) {
-                    e.preventDefault();
-                }
-                lastTouchEnd = now;
-            }, { passive: false });
-            
-            // Prevent pinch zoom
-            document.addEventListener('touchmove', (e) => {
-                if (e.touches.length > 1) {
-                    e.preventDefault();
-                }
-            }, { passive: false });
-            
-            // Handle input focus - prevent viewport shift
-            els.input.addEventListener('focus', () => {
-                setTimeout(() => {
-                    window.scrollTo(0, 0);
-                    document.body.scrollTop = 0;
-                    document.documentElement.scrollTop = 0;
-                }, 50);
-                
-                // Keep checking for a bit to prevent delayed shifts
-                const checkScroll = setInterval(() => {
-                    window.scrollTo(0, 0);
-                }, 100);
-                setTimeout(() => clearInterval(checkScroll), 500);
-            });
-            
-            // Handle orientation change
-            window.addEventListener('orientationchange', () => {
-                setTimeout(() => {
-                    window.scrollTo(0, 0);
-                }, 100);
-            });
-            
-            // Prevent pull-to-refresh
-            document.body.addEventListener('touchmove', (e) => {
-                if (e.target === document.body) {
-                    e.preventDefault();
-                }
-            }, { passive: false });
-        }
 
         // --- AUDIO ---
         const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
@@ -1987,55 +1324,46 @@
             }
         }
 
-        // --- 3D BACKGROUND (Desktop only - disabled on mobile for performance and to prevent visual issues) ---
-        if (!isMobile) {
-            const scene = new THREE.Scene();
-            const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-            const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg-canvas'), alpha: true, antialias: true });
-            renderer.setSize(window.innerWidth, window.innerHeight);
-            renderer.setPixelRatio(window.devicePixelRatio);
+        // --- 3D BACKGROUND ---
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ canvas: document.getElementById('bg-canvas'), alpha: true, antialias: true });
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        renderer.setPixelRatio(window.devicePixelRatio);
 
-            const particlesGeometry = new THREE.BufferGeometry();
-            const particlesCount = 700;
-            const posArray = new Float32Array(particlesCount * 3);
-            for (let i = 0; i < particlesCount * 3; i++) {
-                posArray[i] = (Math.random() - 0.5) * 20;
-            }
-            particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
-            const particlesMaterial = new THREE.PointsMaterial({ size: 0.03, color: 0x818cf8, transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending });
-            const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
-            scene.add(particlesMesh);
-            camera.position.z = 5;
-
-            let mouseX = 0, mouseY = 0;
-            document.addEventListener('mousemove', (event) => {
-                mouseX = event.clientX / window.innerWidth - 0.5;
-                mouseY = event.clientY / window.innerHeight - 0.5;
-            });
-
-            function animate3D() {
-                requestAnimationFrame(animate3D);
-                particlesMesh.rotation.y += 0.001;
-                particlesMesh.rotation.x += 0.0005;
-                camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.05;
-                camera.position.y += (-mouseY * 0.5 - camera.position.y) * 0.05;
-                renderer.render(scene, camera);
-            }
-            animate3D();
-
-            window.addEventListener('resize', () => {
-                camera.aspect = window.innerWidth / window.innerHeight;
-                camera.updateProjectionMatrix();
-                renderer.setSize(window.innerWidth, window.innerHeight);
-            });
-        } else {
-            // On mobile, just hide the canvas element completely
-            const bgCanvas = document.getElementById('bg-canvas');
-            if (bgCanvas) {
-                bgCanvas.style.display = 'none';
-                bgCanvas.remove(); // Remove it from DOM entirely
-            }
+        const particlesGeometry = new THREE.BufferGeometry();
+        const particlesCount = 700;
+        const posArray = new Float32Array(particlesCount * 3);
+        for (let i = 0; i < particlesCount * 3; i++) {
+            posArray[i] = (Math.random() - 0.5) * 20;
         }
+        particlesGeometry.setAttribute('position', new THREE.BufferAttribute(posArray, 3));
+        const particlesMaterial = new THREE.PointsMaterial({ size: 0.03, color: 0x818cf8, transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending });
+        const particlesMesh = new THREE.Points(particlesGeometry, particlesMaterial);
+        scene.add(particlesMesh);
+        camera.position.z = 5;
+
+        let mouseX = 0, mouseY = 0;
+        document.addEventListener('mousemove', (event) => {
+            mouseX = event.clientX / window.innerWidth - 0.5;
+            mouseY = event.clientY / window.innerHeight - 0.5;
+        });
+
+        function animate3D() {
+            requestAnimationFrame(animate3D);
+            particlesMesh.rotation.y += 0.001;
+            particlesMesh.rotation.x += 0.0005;
+            camera.position.x += (mouseX * 0.5 - camera.position.x) * 0.05;
+            camera.position.y += (-mouseY * 0.5 - camera.position.y) * 0.05;
+            renderer.render(scene, camera);
+        }
+        animate3D();
+
+        window.addEventListener('resize', () => {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        });
 
         // --- LEADERBOARD FUNCTIONS ---
         function openLeaderboard() {
@@ -2069,55 +1397,17 @@
 
         // --- GAME LOGIC ---
         function switchScreen(name) {
-            // Hide all screens first
             Object.values(screens).forEach(s => {
-                s.classList.remove('active');
-                s.style.display = 'none';
-                s.style.opacity = '0';
-                s.style.visibility = 'hidden';
+                if (s.classList.contains('active')) {
+                    s.classList.remove('active');
+                    s.style.display = 'none';
+                }
             });
-            
             const target = screens[name];
-            
-            // Show target screen
             target.style.display = 'flex';
-            target.style.visibility = 'visible';
-            void target.offsetWidth; // Force reflow
-            target.style.opacity = '1';
+            void target.offsetWidth;
             target.classList.add('active');
-            
-            // Animate with GSAP
-            if (typeof gsap !== 'undefined') {
-                gsap.fromTo(target, { opacity: 0.5, y: 10 }, { opacity: 1, y: 0, duration: 0.3, ease: "power2.out" });
-            }
-            
-            // Mobile-specific handling
-            if (isMobile) {
-                // Reset scroll position
-                window.scrollTo(0, 0);
-                document.body.scrollTop = 0;
-                
-                // Ensure visibility with multiple checks
-                setTimeout(() => {
-                    target.style.opacity = '1';
-                    target.style.display = 'flex';
-                    target.style.visibility = 'visible';
-                    
-                    // If game screen, ensure input is ready
-                    if (name === 'game') {
-                        els.input.style.opacity = '1';
-                        els.input.style.visibility = 'visible';
-                        els.input.style.display = 'block';
-                    }
-                }, 50);
-                
-                // Double-check after animation
-                setTimeout(() => {
-                    target.style.opacity = '1';
-                    target.style.visibility = 'visible';
-                    window.scrollTo(0, 0);
-                }, 350);
-            }
+            gsap.fromTo(target, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" });
         }
 
         function startGame() {
@@ -2128,6 +1418,8 @@
             state.wordsTyped = 0;
             state.charsTyped = 0;
             state.errors = 0;
+            state.correctWords = 0;
+            state.wrongWords = 0;
             state.startTime = Date.now();
             state.usedWords = new Set();
             startStage();
@@ -2145,58 +1437,30 @@
             els.hudScore.innerText = state.score;
             els.progress.style.width = '0%';
 
+            // Hide nav and lock scroll during gameplay
+            document.getElementById('mini-nav').classList.add('hidden');
+            document.body.classList.add('game-active');
+            window.scrollTo(0, 0);
+
             switchScreen('game');
             nextWord();
 
             if (state.timer) clearInterval(state.timer);
             state.timer = setInterval(gameLoop, 1000);
 
-            // Add body class for CSS targeting
-            document.body.classList.add('game-active');
-
-            // Show and focus input
-            const focusInput = () => {
-                els.input.style.display = 'block';
-                els.input.style.opacity = '1';
-                els.input.style.visibility = 'visible';
-                els.input.value = '';
-                els.input.focus();
-                
-                if (isMobile) {
-                    // Prevent viewport shift on mobile
-                    setTimeout(() => {
-                        window.scrollTo(0, 0);
-                        document.body.scrollTop = 0;
-                        document.documentElement.scrollTop = 0;
-                    }, 50);
-                }
-            };
-            
-            setTimeout(focusInput, 100);
-            // Retry focus in case first attempt fails on mobile
-            if (isMobile) {
-                setTimeout(focusInput, 300);
-                setTimeout(focusInput, 600);
-            }
-            
+            setTimeout(() => { els.input.value = ''; els.input.focus(); }, 100);
             document.addEventListener('click', keepFocus);
-            document.addEventListener('touchstart', keepFocus);
         }
 
-        function keepFocus(e) { 
+        function keepFocus() { if (state.isPlaying) els.input.focus(); }
+
+        // Prevent scroll during gameplay on mobile
+        function preventScroll(e) {
             if (state.isPlaying) {
-                // Don't steal focus from the input itself
-                if (e && e.target === els.input) return;
-                
-                els.input.focus();
-                
-                if (isMobile) {
-                    setTimeout(() => {
-                        window.scrollTo(0, 0);
-                    }, 50);
-                }
+                e.preventDefault();
             }
         }
+        document.addEventListener('touchmove', preventScroll, { passive: false });
 
         function nextWord() {
             const stage = STAGES[state.stageIdx];
@@ -2251,10 +1515,21 @@
                 const isCorrect = val === word;
                 if (isCorrect) {
                     playSound('success');
-                    state.score += (word.length * 10) + ((state.stageIdx + 1) * 5);
+                    // Base score: word length × 10 + stage bonus
+                    let baseScore = (word.length * 10) + ((state.stageIdx + 1) * 5);
+                    // Accuracy bonus: extra points for no errors in this word
+                    const wordErrors = val.split('').filter((c, i) => c !== word[i]).length;
+                    if (wordErrors === 0) {
+                        baseScore += 15; // Perfect word bonus
+                    }
+                    state.score += baseScore;
                     state.charsTyped += word.length;
+                    state.correctWords++;
                 } else {
                     playSound('error');
+                    // Penalty for wrong word: lose points
+                    state.score = Math.max(0, state.score - 20);
+                    state.wrongWords++;
                     gsap.to(els.target, { color: 'var(--accent-error)', duration: 0.2, onComplete: () => { els.target.style.color = ''; } });
                 }
 
@@ -2287,16 +1562,10 @@
             clearInterval(state.timer);
             state.isPlaying = false;
             document.removeEventListener('click', keepFocus);
-            document.removeEventListener('touchstart', keepFocus);
-            
-            // Remove game-active class and hide input
+
+            // Show nav and unlock scroll when not playing
+            document.getElementById('mini-nav').classList.remove('hidden');
             document.body.classList.remove('game-active');
-            els.input.style.display = 'none';
-            
-            // Blur input on mobile to hide keyboard
-            if (isMobile) {
-                els.input.blur();
-            }
 
             if (state.stageIdx < STAGES.length - 1) {
                 const acc = Math.round(((state.charsTyped - state.errors) / state.charsTyped) * 100) || 100;
@@ -2310,11 +1579,6 @@
         }
 
         function endGame() {
-            // Ensure game state is cleaned up
-            document.body.classList.remove('game-active');
-            els.input.style.display = 'none';
-            if (isMobile) els.input.blur();
-            
             switchScreen('end');
             els.finalScore.innerText = state.score;
             els.btnStart.disabled = false;
@@ -2334,9 +1598,15 @@
         async function checkLeaderboard(score) {
             if (!lbRef) return;
             try {
-                const q = query(lbRef, orderBy("score", "desc"), limit(25));
+                const q = query(lbRef, orderBy("score", "desc"), limit(50));
                 const snap = await getDocs(q);
-                const data = snap.docs.map(d => d.data());
+                let data = snap.docs.map(d => d.data());
+                // Sort by score, then WPM as tiebreaker
+                data.sort((a, b) => {
+                    if (b.score !== a.score) return b.score - a.score;
+                    return (b.wpm || 0) - (a.wpm || 0);
+                });
+                data = data.slice(0, 25);
                 const lowest = data.length < 25 ? 0 : data[data.length - 1].score;
                 if (score > lowest || data.length < 25) {
                     els.nameEntry.style.display = 'block';
@@ -2347,6 +1617,24 @@
             } catch (e) { console.error(e); }
         }
 
+        // --- RULES MODAL ---
+        const rulesModal = document.getElementById('rules-modal');
+        
+        function openRules() {
+            rulesModal.classList.add('active');
+            gsap.fromTo(rulesModal.querySelector('.rules-content'), 
+                { opacity: 0, scale: 0.9, y: 30 },
+                { opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" }
+            );
+        }
+
+        function closeRules() {
+            gsap.to(rulesModal.querySelector('.rules-content'), {
+                opacity: 0, scale: 0.9, y: 30, duration: 0.3, ease: "power2.in",
+                onComplete: () => rulesModal.classList.remove('active')
+            });
+        }
+
         // --- EVENT LISTENERS ---
         els.btnStart.addEventListener('click', startGame);
 
@@ -2354,8 +1642,9 @@
             if (e.code === 'Space' && screens.start.classList.contains('active') && !els.btnStart.disabled) {
                 startGame();
             }
-            if (e.code === 'Escape' && els.lbModal.classList.contains('active')) {
-                closeLeaderboard();
+            if (e.code === 'Escape') {
+                if (els.lbModal.classList.contains('active')) closeLeaderboard();
+                if (rulesModal.classList.contains('active')) closeRules();
             }
         });
 
@@ -2365,6 +1654,13 @@
             closeLeaderboard();
         });
         els.lbModal.addEventListener('click', (e) => { if (e.target === els.lbModal) closeLeaderboard(); });
+
+        document.getElementById('btn-how-to-play').addEventListener('click', openRules);
+        document.getElementById('rules-close-btn').addEventListener('click', (e) => {
+            e.stopPropagation();
+            closeRules();
+        });
+        rulesModal.addEventListener('click', (e) => { if (e.target === rulesModal) closeRules(); });
 
         document.getElementById('btn-next-round').addEventListener('click', () => { state.stageIdx++; startStage(); });
         document.getElementById('btn-restart').addEventListener('click', () => { switchScreen('start'); els.btnStart.disabled = false; });
@@ -2392,8 +1688,17 @@
 
         // --- LEADERBOARD LIVE FEED ---
         if (lbRef) {
-            onSnapshot(query(lbRef, orderBy("score", "desc"), limit(25)), (snap) => {
-                const players = snap.docs.map(d => d.data());
+            onSnapshot(query(lbRef, orderBy("score", "desc"), limit(50)), (snap) => {
+                let players = snap.docs.map(d => d.data());
+                
+                // Sort by score first, then by WPM as tiebreaker (higher WPM wins)
+                players.sort((a, b) => {
+                    if (b.score !== a.score) return b.score - a.score;
+                    return (b.wpm || 0) - (a.wpm || 0);
+                });
+                
+                // Take top 25 after sorting
+                players = players.slice(0, 25);
                 
                 // Full leaderboard
                 if (players.length === 0) {
@@ -2410,256 +1715,8 @@
             });
         }
 
-        // Mobile input visibility handler
-        function updateMobileInputVisibility() {
-            if (!isMobile) return;
-            
-            const gameActive = screens.game.classList.contains('active');
-            if (gameActive && state.isPlaying) {
-                els.input.style.display = 'block';
-                els.input.style.opacity = '1';
-                els.input.style.visibility = 'visible';
-            } else {
-                els.input.style.display = 'none';
-            }
-        }
-        
-        // Override switchScreen to handle input visibility
-        const originalSwitchScreen = switchScreen;
-        switchScreen = function(name) {
-            originalSwitchScreen(name);
-            setTimeout(updateMobileInputVisibility, 100);
-        };
-
         // Init
         switchScreen('start');
-        
-        // Initial mobile setup
-        if (isMobile) {
-            els.input.style.display = 'none';
-        }
-    </script>
-    
-    <!-- Only load components on desktop -->
-    <script>
-        (function() {
-            const isMobileDevice = window.innerWidth <= 768 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            
-            if (isMobileDevice) {
-                // Remove placeholders on mobile - no nav/footer needed
-                const navPlaceholder = document.getElementById('nav-placeholder');
-                const footerPlaceholder = document.getElementById('footer-placeholder');
-                if (navPlaceholder) navPlaceholder.remove();
-                if (footerPlaceholder) footerPlaceholder.remove();
-            } else {
-                // Only load components on desktop
-                const script1 = document.createElement('script');
-                script1.src = '/js/components-loader.js';
-                document.body.appendChild(script1);
-                
-                const script2 = document.createElement('script');
-                script2.src = '/js/mobile-navigation.js';
-                document.body.appendChild(script2);
-            }
-        })();
-    </script>
-    
-    <!-- Footer placeholder (only used on desktop) -->
-    <div id="footer-placeholder"></div>
-    
-    <!-- FINAL MOBILE FIX - This script runs last and ensures mobile works -->
-    <script>
-    (function() {
-        const isMobileDevice = window.innerWidth <= 800 || /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        
-        if (isMobileDevice) {
-            // IMMEDIATELY remove the bg-canvas - this is causing the weird box!
-            const bgCanvas = document.getElementById('bg-canvas');
-            if (bgCanvas) {
-                bgCanvas.style.display = 'none';
-                bgCanvas.style.visibility = 'hidden';
-                bgCanvas.style.opacity = '0';
-                bgCanvas.style.width = '0';
-                bgCanvas.style.height = '0';
-                bgCanvas.style.position = 'absolute';
-                bgCanvas.style.left = '-9999px';
-                // Remove from DOM entirely
-                bgCanvas.remove();
-            }
-            
-            // Create and inject final mobile CSS that overrides everything
-            const mobileCSS = document.createElement('style');
-            mobileCSS.id = 'final-mobile-override';
-            mobileCSS.textContent = `
-                /* FINAL MOBILE OVERRIDE - Highest specificity */
-                @media screen and (max-width: 800px) {
-                    /* HIDE THE 3D CANVAS - This causes the weird box */
-                    #bg-canvas, canvas#bg-canvas {
-                        display: none !important;
-                        visibility: hidden !important;
-                        opacity: 0 !important;
-                        width: 0 !important;
-                        height: 0 !important;
-                        position: absolute !important;
-                        left: -9999px !important;
-                        top: -9999px !important;
-                        pointer-events: none !important;
-                    }
-                    
-                    html, body {
-                        margin: 0 !important;
-                        padding: 0 !important;
-                        overflow: hidden !important;
-                        position: fixed !important;
-                        width: 100% !important;
-                        height: 100% !important;
-                        height: 100dvh !important;
-                        background: #0f172a !important;
-                        touch-action: manipulation !important;
-                    }
-                    
-                    #nav-placeholder, #footer-placeholder, header, nav, footer, 
-                    .site-footer, .navbar, .wa-float-btn, .misti-chat-btn,
-                    .nav-container, .mobile-nav, .hamburger {
-                        display: none !important;
-                        visibility: hidden !important;
-                        position: absolute !important;
-                        left: -9999px !important;
-                        width: 0 !important;
-                        height: 0 !important;
-                    }
-                    
-                    .app-container {
-                        position: fixed !important;
-                        top: 0 !important;
-                        left: 0 !important;
-                        right: 0 !important;
-                        bottom: 0 !important;
-                        width: 100% !important;
-                        height: 100% !important;
-                        margin: 0 !important;
-                        padding: 15px !important;
-                        display: flex !important;
-                        justify-content: center !important;
-                        align-items: center !important;
-                        z-index: 100 !important;
-                    }
-                    
-                    .screen {
-                        position: absolute !important;
-                        width: calc(100% - 30px) !important;
-                        max-width: 380px !important;
-                    }
-                    
-                    .screen:not(.active) {
-                        display: none !important;
-                        opacity: 0 !important;
-                        visibility: hidden !important;
-                    }
-                    
-                    .screen.active {
-                        display: flex !important;
-                        flex-direction: column !important;
-                        align-items: center !important;
-                        opacity: 1 !important;
-                        visibility: visible !important;
-                    }
-                    
-                    #game-screen {
-                        top: 45% !important;
-                        left: 50% !important;
-                        transform: translate(-50%, -50%) !important;
-                        max-height: calc(100dvh - 140px) !important;
-                        padding: 20px !important;
-                        background: rgba(15, 23, 42, 0.98) !important;
-                        border-radius: 20px !important;
-                        border: 2px solid rgba(129, 140, 248, 0.6) !important;
-                        box-shadow: 0 0 60px rgba(129, 140, 248, 0.3) !important;
-                    }
-                    
-                    #game-screen .hud-top {
-                        display: grid !important;
-                        grid-template-columns: 1fr 1fr !important;
-                        gap: 8px !important;
-                        width: 100% !important;
-                        margin-bottom: 15px !important;
-                        background: rgba(0, 0, 0, 0.4) !important;
-                        padding: 10px !important;
-                        border-radius: 12px !important;
-                    }
-                    
-                    #game-screen .hud-stat {
-                        display: flex !important;
-                        flex-direction: row !important;
-                        justify-content: space-between !important;
-                        align-items: center !important;
-                        background: rgba(255, 255, 255, 0.1) !important;
-                        padding: 10px 12px !important;
-                        border-radius: 8px !important;
-                    }
-                    
-                    #game-screen .word-display-area {
-                        display: flex !important;
-                        align-items: center !important;
-                        justify-content: center !important;
-                        min-height: 80px !important;
-                        width: 100% !important;
-                        margin: 10px 0 !important;
-                        padding: 20px 15px !important;
-                        background: rgba(255, 255, 255, 0.05) !important;
-                        border-radius: 16px !important;
-                        border: 1px solid rgba(255, 255, 255, 0.15) !important;
-                    }
-                    
-                    #game-screen #target-word {
-                        font-size: 1.6rem !important;
-                        text-align: center !important;
-                        line-height: 1.4 !important;
-                    }
-                    
-                    #input-field {
-                        position: fixed !important;
-                        bottom: 20px !important;
-                        left: 50% !important;
-                        transform: translateX(-50%) !important;
-                        width: calc(100% - 40px) !important;
-                        max-width: 340px !important;
-                        padding: 16px 20px !important;
-                        font-size: 18px !important;
-                        text-align: center !important;
-                        background: rgba(15, 23, 42, 0.99) !important;
-                        border: 2px solid #818cf8 !important;
-                        border-radius: 14px !important;
-                        color: white !important;
-                        z-index: 999999 !important;
-                        font-family: 'Space Mono', monospace !important;
-                        letter-spacing: 2px !important;
-                        box-shadow: 0 -5px 40px rgba(129, 140, 248, 0.4) !important;
-                        -webkit-appearance: none !important;
-                        display: none !important;
-                    }
-                    
-                    body.game-active #input-field {
-                        display: block !important;
-                    }
-                }
-            `;
-            document.body.appendChild(mobileCSS);
-            
-            // Prevent viewport issues
-            document.addEventListener('touchmove', function(e) {
-                if (e.touches.length > 1) e.preventDefault();
-            }, { passive: false });
-            
-            // Prevent double-tap zoom
-            let lastTap = 0;
-            document.addEventListener('touchend', function(e) {
-                const now = Date.now();
-                if (now - lastTap < 300) e.preventDefault();
-                lastTap = now;
-            }, { passive: false });
-        }
-    })();
     </script>
 </body>
 </html>
