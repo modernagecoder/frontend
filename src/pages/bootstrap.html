@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Bootstrap 5.3 Guide - Modern Age Coders</title>
+    
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --secondary-color: #6c757d;
+            --success-color: #198754;
+            --info-color: #0dcaf0;
+            --warning-color: #ffc107;
+            --danger-color: #dc3545;
+            --dark-color: #212529;
+            --light-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+            margin-bottom: 50px;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero-section p {
+            font-size: 1.3rem;
+            opacity: 0.95;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 60px 0 30px;
+            padding-bottom: 15px;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .subsection-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #34495e;
+            margin: 40px 0 20px;
+            padding-left: 15px;
+            border-left: 5px solid var(--info-color);
+        }
+
+        .topic-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #495057;
+            margin: 30px 0 15px;
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .explanation-box {
+            background: #e7f3ff;
+            border-left: 4px solid var(--info-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .explanation-box h5 {
+            color: #0c5460;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .why-box {
+            background: #fff3cd;
+            border-left: 4px solid var(--warning-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .why-box h5 {
+            color: #856404;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .example-box {
+            background: #d1ecf1;
+            border: 2px solid #bee5eb;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+
+        .example-box h6 {
+            color: #0c5460;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 20px;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 15px 0;
+            border: 1px solid #444;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 3px 8px;
+            border-radius: 4px;
+            color: #e83e8c;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        pre code {
+            background: transparent;
+            padding: 0;
+            color: #f8f8f2;
+        }
+
+        .key-point {
+            background: #d4edda;
+            border-left: 4px solid var(--success-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .key-point strong {
+            color: #155724;
+        }
+
+        .note-box {
+            background: #f8d7da;
+            border-left: 4px solid var(--danger-color);
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+
+        .note-box strong {
+            color: #721c24;
+        }
+
+        .table-of-contents {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 10px;
+            margin: 30px 0;
+            position: sticky;
+            top: 20px;
+        }
+
+        .table-of-contents h3 {
+            color: #2c3e50;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .table-of-contents ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .table-of-contents li {
+            margin: 10px 0;
+        }
+
+        .table-of-contents a {
+            color: #495057;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: block;
+            padding: 8px 15px;
+            border-radius: 5px;
+        }
+
+        .table-of-contents a:hover {
+            background: var(--primary-color);
+            color: white;
+            padding-left: 25px;
+        }
+
+        .visual-demo {
+            border: 2px dashed #dee2e6;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .visual-demo-title {
+            background: #6c757d;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .comparison-table {
+            margin: 20px 0;
+        }
+
+        .comparison-table th {
+            background: var(--primary-color);
+            color: white;
+        }
+
+        .badge-custom {
+            font-size: 0.85rem;
+            padding: 5px 10px;
+            margin: 0 5px;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 0;
+            margin-top: 80px;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--primary-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+
+        .scroll-to-top:hover {
+            background: #0b5ed7;
+            transform: translateY(-5px);
+        }
+
+        @media (max-width: 768px) {
+            .hero-section h1 {
+                font-size: 2.5rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .subsection-title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="text-primary">Bootstrap</span> 5.3 Guide
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#introduction">Introduction</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#layout">Layout</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#utilities">Utilities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#components">Components</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#forms">Forms</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1>Complete Bootstrap 5.3 Guide</h1>
+            <p class="lead">Master the world's most popular front-end framework with comprehensive explanations, detailed examples, and best practices</p>
+            <div class="mt-4">
+                <span class="badge bg-light text-dark badge-custom">Latest Version 5.3</span>
+                <span class="badge bg-light text-dark badge-custom">Comprehensive</span>
+                <span class="badge bg-light text-dark badge-custom">Beginner to Advanced</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-lg-12">
+
+                <!-- Introduction Section -->
+                <section id="introduction">
+                    <h2 class="section-title">📚 Introduction to Bootstrap 5.3</h2>
+                    
+                    <div class="explanation-box">
+                        <h5>What is Bootstrap?</h5>
+                        <p>Bootstrap is a powerful, feature-packed front-end toolkit that provides a comprehensive collection of pre-designed HTML, CSS, and JavaScript components. It enables developers to build responsive, mobile-first websites quickly and efficiently without writing extensive custom CSS.</p>
+                    </div>
+
+                    <div class="why-box">
+                        <h5>Why Use Bootstrap?</h5>
+                        <ul>
+                            <li><strong>Rapid Development:</strong> Pre-built components save hours of development time</li>
+                            <li><strong>Responsive by Default:</strong> Mobile-first approach ensures your site works on all devices</li>
+                            <li><strong>Consistency:</strong> Uniform design language across your entire application</li>
+                            <li><strong>Browser Compatibility:</strong> Works seamlessly across all modern browsers</li>
+                            <li><strong>Customizable:</strong> Easy to customize with Sass variables and mixins</li>
+                            <li><strong>Large Community:</strong> Extensive documentation and community support</li>
+                            <li><strong>Accessibility:</strong> Built with accessibility best practices in mind</li>
+                        </ul>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>Bootstrap 5.3 Key Features:</strong>
+                        <ul class="mb-0">
+                            <li>No jQuery dependency - Pure JavaScript</li>
+                            <li>Enhanced CSS custom properties (CSS variables)</li>
+                            <li>Improved color modes (light/dark theme support)</li>
+                            <li>New utility classes and components</li>
+                            <li>Better performance and smaller file sizes</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="subsection-title">Getting Started</h3>
+                    
+                    <div class="topic-title">Installation Methods</div>
+                    
+                    <p><strong>Method 1: CDN (Content Delivery Network) - Recommended for Beginners</strong></p>
+                    <pre><code>&lt;!-- Bootstrap CSS --&gt;
+&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+
+&lt;!-- Bootstrap JavaScript Bundle (includes Popper) --&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;</code></pre>
+
+                    <div class="explanation-box">
+                        <h5>Why use CDN?</h5>
+                        <p>CDN delivers Bootstrap files from servers closest to your users, resulting in faster load times. It also leverages browser caching - if users have visited other sites using the same CDN, the files are already cached.</p>
+                    </div>
+
+                    <p><strong>Method 2: NPM (Node Package Manager) - For Advanced Projects</strong></p>
+                    <pre><code>npm install bootstrap@5.3.2</code></pre>
+
+                    <p><strong>Method 3: Download Source Files</strong></p>
+                    <p>Download from <a href="https://getbootstrap.com" target="_blank">getbootstrap.com</a> and include in your project manually.</p>
+
+                    <div class="topic-title">Basic HTML Template</div>
+                    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Bootstrap 5.3 Page&lt;/title&gt;
+    
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+    &lt;h1&gt;Hello, Bootstrap!&lt;/h1&gt;
+    
+    &lt;!-- Bootstrap JavaScript --&gt;
+    &lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+                    <div class="note-box">
+                        <strong>Important:</strong> The <code>viewport</code> meta tag is crucial for responsive design. It ensures proper rendering and touch zooming on mobile devices.
+                    </div>
+
+                    <h3 class="subsection-title">Understanding Bootstrap's Naming Convention</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Class Naming Pattern</h5>
+                        <p>Bootstrap uses a systematic naming convention that makes classes predictable and easy to remember:</p>
+                        <p><code>{property}-{value}</code> or <code>{property}-{breakpoint}-{value}</code></p>
+                    </div>
+
+                    <div class="topic-title">Common Abbreviations</div>
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Abbreviation</th>
+                                <th>Meaning</th>
+                                <th>Example</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>m</code></td>
+                                <td>margin</td>
+                                <td><code>m-3</code> = margin on all sides</td>
+                            </tr>
+                            <tr>
+                                <td><code>p</code></td>
+                                <td>padding</td>
+                                <td><code>p-4</code> = padding on all sides</td>
+                            </tr>
+                            <tr>
+                                <td><code>t</code></td>
+                                <td>top</td>
+                                <td><code>mt-2</code> = margin-top</td>
+                            </tr>
+                            <tr>
+                                <td><code>b</code></td>
+                                <td>bottom</td>
+                                <td><code>pb-3</code> = padding-bottom</td>
+                            </tr>
+                            <tr>
+                                <td><code>s</code></td>
+                                <td>start (left in LTR)</td>
+                                <td><code>ms-2</code> = margin-start</td>
+                            </tr>
+                            <tr>
+                                <td><code>e</code></td>
+                                <td>end (right in LTR)</td>
+                                <td><code>pe-3</code> = padding-end</td>
+                            </tr>
+                            <tr>
+                                <td><code>x</code></td>
+                                <td>horizontal (left & right)</td>
+                                <td><code>mx-auto</code> = margin left & right auto</td>
+                            </tr>
+                            <tr>
+                                <td><code>y</code></td>
+                                <td>vertical (top & bottom)</td>
+                                <td><code>py-5</code> = padding top & bottom</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="topic-title">Breakpoint System</div>
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Breakpoint</th>
+                                <th>Class Infix</th>
+                                <th>Dimensions</th>
+                                <th>Device Type</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Extra small</td>
+                                <td><em>None</em></td>
+                                <td>&lt;576px</td>
+                                <td>Portrait phones</td>
+                            </tr>
+                            <tr>
+                                <td>Small</td>
+                                <td><code>sm</code></td>
+                                <td>≥576px</td>
+                                <td>Landscape phones</td>
+                            </tr>
+                            <tr>
+                                <td>Medium</td>
+                                <td><code>md</code></td>
+                                <td>≥768px</td>
+                                <td>Tablets</td>
+                            </tr>
+                            <tr>
+                                <td>Large</td>
+                                <td><code>lg</code></td>
+                                <td>≥992px</td>
+                                <td>Desktops</td>
+                            </tr>
+                            <tr>
+                                <td>Extra large</td>
+                                <td><code>xl</code></td>
+                                <td>≥1200px</td>
+                                <td>Large desktops</td>
+                            </tr>
+                            <tr>
+                                <td>Extra extra large</td>
+                                <td><code>xxl</code></td>
+                                <td>≥1400px</td>
+                                <td>Larger desktops</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="explanation-box">
+                        <h5>How Breakpoints Work</h5>
+                        <p>Bootstrap uses a mobile-first approach. This means:</p>
+                        <ul>
+                            <li>Classes without a breakpoint (like <code>col-6</code>) apply to all screen sizes</li>
+                            <li>Classes with a breakpoint (like <code>col-md-6</code>) apply from that breakpoint and up</li>
+                            <li>You can combine multiple breakpoints: <code>col-12 col-md-6 col-lg-4</code></li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-title">Color System</div>
+                    <p>Bootstrap provides a comprehensive color palette with semantic meaning:</p>
+                    
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Theme Colors</div>
+                        <div class="row g-3">
+                            <div class="col-md-3">
+                                <div class="p-3 bg-primary text-white rounded">Primary (#0d6efd)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-secondary text-white rounded">Secondary (#6c757d)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-success text-white rounded">Success (#198754)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-danger text-white rounded">Danger (#dc3545)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-warning text-dark rounded">Warning (#ffc107)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-info text-dark rounded">Info (#0dcaf0)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-light text-dark rounded border">Light (#f8f9fa)</div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="p-3 bg-dark text-white rounded">Dark (#212529)</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="why-box">
+                        <h5>Why Semantic Colors?</h5>
+                        <ul>
+                            <li><strong>Primary:</strong> Main brand color, used for primary actions</li>
+                            <li><strong>Secondary:</strong> Supporting color for less prominent actions</li>
+                            <li><strong>Success:</strong> Indicates successful or positive actions</li>
+                            <li><strong>Danger:</strong> Indicates errors or dangerous actions</li>
+                            <li><strong>Warning:</strong> Indicates caution or important information</li>
+                            <li><strong>Info:</strong> Provides informational messages</li>
+                            <li><strong>Light/Dark:</strong> For contrast and visual hierarchy</li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!-- Layout System Section -->
+                <section id="layout">
+                    <h2 class="section-title">🎨 Layout System</h2>
+                    
+                    <div class="explanation-box">
+                        <h5>What is the Grid System?</h5>
+                        <p>Bootstrap's grid system is the foundation of responsive layouts. It uses a 12-column flexible grid that adapts to different screen sizes. Think of it as dividing your page into 12 equal vertical slices that you can combine in various ways.</p>
+                    </div>
+
+                    <h3 class="subsection-title">1. Containers</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Understanding Containers</h5>
+                        <p>Containers are the most basic layout element in Bootstrap. They provide a means to center and horizontally pad your site's contents. All grid systems must be placed inside a container.</p>
+                    </div>
+
+                    <div class="topic-title">Container Types</div>
+                    
+                    <p><strong>1. Fixed-Width Container (<code>.container</code>)</strong></p>
+                    <div class="explanation-box">
+                        <p>A responsive fixed-width container that changes its max-width at each breakpoint:</p>
+                        <ul>
+                            <li>Extra small (&lt;576px): 100% width</li>
+                            <li>Small (≥576px): 540px max-width</li>
+                            <li>Medium (≥768px): 720px max-width</li>
+                            <li>Large (≥992px): 960px max-width</li>
+                            <li>Extra large (≥1200px): 1140px max-width</li>
+                            <li>Extra extra large (≥1400px): 1320px max-width</li>
+                        </ul>
+                    </div>
+                    <pre><code>&lt;div class="container"&gt;
+    &lt;!-- Content here will be centered with responsive max-width --&gt;
+    &lt;h1&gt;Fixed-Width Container&lt;/h1&gt;
+    &lt;p&gt;This container has a maximum width that changes based on screen size.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Fixed Container</div>
+                        <div class="container bg-light border p-3">
+                            <p class="mb-0">This is a fixed-width container. Resize your browser to see how it adapts!</p>
+                        </div>
+                    </div>
+
+                    <p><strong>2. Fluid Container (<code>.container-fluid</code>)</strong></p>
+                    <div class="explanation-box">
+                        <p>A full-width container that spans 100% of the viewport width at all breakpoints. Perfect for full-width designs or when you want content to stretch across the entire screen.</p>
+                    </div>
+                    <pre><code>&lt;div class="container-fluid"&gt;
+    &lt;!-- Content spans the full width of the viewport --&gt;
+    &lt;h1&gt;Full-Width Container&lt;/h1&gt;
+    &lt;p&gt;This container always takes up 100% of the screen width.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Fluid Container</div>
+                        <div class="container-fluid bg-light border p-3">
+                            <p class="mb-0">This is a fluid container. It always spans the full width!</p>
+                        </div>
+                    </div>
+
+                    <p><strong>3. Responsive Containers (<code>.container-{breakpoint}</code>)</strong></p>
+                    <div class="explanation-box">
+                        <p>These containers are 100% wide until the specified breakpoint, then they behave like a fixed container. Available options: <code>container-sm</code>, <code>container-md</code>, <code>container-lg</code>, <code>container-xl</code>, <code>container-xxl</code></p>
+                    </div>
+                    <pre><code>&lt;div class="container-md"&gt;
+    &lt;!-- 100% wide until medium breakpoint (768px), then fixed width --&gt;
+    &lt;p&gt;Fluid on mobile, fixed on tablets and up&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="why-box">
+                        <h5>When to Use Each Container Type?</h5>
+                        <ul>
+                            <li><strong>.container:</strong> Most common choice for standard websites with centered content</li>
+                            <li><strong>.container-fluid:</strong> Full-width designs, dashboards, or when you want edge-to-edge content</li>
+                            <li><strong>.container-{breakpoint}:</strong> When you want fluid layout on mobile but fixed on larger screens</li>
+                        </ul>
+                    </div>
+
+
+                    <h3 class="subsection-title">2. Grid System - Rows and Columns</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>How the Grid Works</h5>
+                        <p>Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive. Here's how it works:</p>
+                        <ol>
+                            <li><strong>Container:</strong> Wraps the entire grid and provides proper alignment</li>
+                            <li><strong>Row:</strong> Creates a horizontal group of columns and removes negative margins</li>
+                            <li><strong>Columns:</strong> Your content goes here. Columns are the immediate children of rows</li>
+                        </ol>
+                    </div>
+
+                    <div class="topic-title">Understanding the 12-Column System</div>
+                    <div class="explanation-box">
+                        <p>Bootstrap divides each row into 12 equal parts. You can combine these parts to create columns of different widths:</p>
+                        <ul>
+                            <li>One column spanning full width = 12 parts</li>
+                            <li>Two equal columns = 6 parts each</li>
+                            <li>Three equal columns = 4 parts each</li>
+                            <li>Four equal columns = 3 parts each</li>
+                            <li>You can mix: 8 parts + 4 parts, 3 parts + 6 parts + 3 parts, etc.</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-title">Basic Row and Column Structure</div>
+                    <pre><code>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col"&gt;
+            Column 1 - Equal width
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+            Column 2 - Equal width
+        &lt;/div&gt;
+        &lt;div class="col"&gt;
+            Column 3 - Equal width
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Equal Width Columns</div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="p-3 bg-primary text-white text-center rounded">Column 1</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-success text-white text-center rounded">Column 2</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-info text-white text-center rounded">Column 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-box">
+                        <h5>What's Happening Here?</h5>
+                        <p>When you use <code>.col</code> without a number, Bootstrap automatically divides the available space equally among all columns. Each column gets the same width, regardless of content.</p>
+                    </div>
+
+                    <div class="topic-title">Fixed-Width Columns</div>
+                    <div class="explanation-box">
+                        <p>Use <code>.col-{number}</code> to specify exactly how many of the 12 parts each column should occupy. The number can be from 1 to 12.</p>
+                    </div>
+                    <pre><code>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-4"&gt;
+            Takes 4/12 = 33.33% width
+        &lt;/div&gt;
+        &lt;div class="col-8"&gt;
+            Takes 8/12 = 66.67% width
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Fixed Width Columns</div>
+                        <div class="container">
+                            <div class="row mb-3">
+                                <div class="col-4">
+                                    <div class="p-3 bg-primary text-white text-center rounded">col-4 (33.33%)</div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="p-3 bg-success text-white text-center rounded">col-8 (66.67%)</div>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-3">
+                                    <div class="p-3 bg-warning text-dark text-center rounded">col-3</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="p-3 bg-info text-white text-center rounded">col-6</div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="p-3 bg-danger text-white text-center rounded">col-3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="topic-title">Responsive Columns</div>
+                    <div class="explanation-box">
+                        <h5>The Power of Responsive Design</h5>
+                        <p>This is where Bootstrap truly shines! You can specify different column widths for different screen sizes using breakpoint prefixes: <code>.col-{breakpoint}-{number}</code></p>
+                        <p>The mobile-first approach means:</p>
+                        <ul>
+                            <li>Start with the smallest screen (mobile)</li>
+                            <li>Add breakpoints as screens get larger</li>
+                            <li>Each breakpoint applies to that size and larger (unless overridden)</li>
+                        </ul>
+                    </div>
+
+                    <pre><code>&lt;div class="container"&gt;
+    &lt;div class="row"&gt;
+        &lt;div class="col-12 col-md-6 col-lg-4"&gt;
+            &lt;!-- 
+                Mobile (xs): 100% width (col-12)
+                Tablet (md): 50% width (col-md-6)
+                Desktop (lg): 33.33% width (col-lg-4)
+            --&gt;
+            Responsive Column 1
+        &lt;/div&gt;
+        &lt;div class="col-12 col-md-6 col-lg-4"&gt;
+            Responsive Column 2
+        &lt;/div&gt;
+        &lt;div class="col-12 col-md-12 col-lg-4"&gt;
+            Responsive Column 3
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Responsive Columns (Resize browser to see changes)</div>
+                        <div class="container">
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="p-3 bg-primary text-white text-center rounded">
+                                        <strong>Column 1</strong><br>
+                                        <small>Mobile: 100% | Tablet: 50% | Desktop: 33%</small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-4">
+                                    <div class="p-3 bg-success text-white text-center rounded">
+                                        <strong>Column 2</strong><br>
+                                        <small>Mobile: 100% | Tablet: 50% | Desktop: 33%</small>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-lg-4">
+                                    <div class="p-3 bg-info text-white text-center rounded">
+                                        <strong>Column 3</strong><br>
+                                        <small>Mobile: 100% | Tablet: 100% | Desktop: 33%</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="why-box">
+                        <h5>Real-World Example: Product Grid</h5>
+                        <p>Imagine an e-commerce site showing products:</p>
+                        <ul>
+                            <li><strong>Mobile:</strong> 1 product per row (col-12) - easy to see on small screens</li>
+                            <li><strong>Tablet:</strong> 2 products per row (col-md-6) - better use of space</li>
+                            <li><strong>Desktop:</strong> 4 products per row (col-lg-3) - maximum products visible</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="subsection-title">3. Column Alignment and Positioning</h3>
+
+                    <div class="topic-title">Vertical Alignment</div>
+                    <div class="explanation-box">
+                        <p>Control how columns align vertically within a row using flexbox alignment classes. These classes are applied to the <code>.row</code> element.</p>
+                    </div>
+
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Effect</th>
+                                <th>Use Case</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><code>.align-items-start</code></td>
+                                <td>Aligns columns to the top</td>
+                                <td>When you want content to start from the top</td>
+                            </tr>
+                            <tr>
+                                <td><code>.align-items-center</code></td>
+                                <td>Centers columns vertically</td>
+                                <td>Perfect for centering content in hero sections</td>
+                            </tr>
+                            <tr>
+                                <td><code>.align-items-end</code></td>
+                                <td>Aligns columns to the bottom</td>
+                                <td>When you want content aligned at the bottom</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <pre><code>&lt;div class="container"&gt;
+    &lt;!-- Align all columns to center --&gt;
+    &lt;div class="row align-items-center" style="min-height: 200px;"&gt;
+        &lt;div class="col"&gt;Column 1&lt;/div&gt;
+        &lt;div class="col"&gt;Column 2&lt;/div&gt;
+        &lt;div class="col"&gt;Column 3&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="visual-demo">
+                        <div class="visual-demo-title">Live Example: Vertical Alignment</div>
+                        <div class="container">
+                            <div class="row align-items-start bg-light border mb-3" style="min-height: 150px;">
+                                <div class="col"><div class="p-3 bg-primary text-white rounded">Start</div></div>
+                                <div class="col"><div class="p-3 bg-success text-white rounded">Start</div></div>
+                                <div class="col"><div class="p-3 bg-info text-white rounded">Start</div></div>
+                            </div>
+                            <div class="row align-items-center bg-light border mb-3" style="min-height: 150px;">
+                                <div class="col"><div class="p-3 bg-primary text-white rounded">Center</div></div>
+                                <div class="col"><div class="p-3 bg-success text-white rounded">Center</div></div>
+                                <div class="col"><div class="p-3 bg-info text-white rounded">Center</div></div>
+                            </div>
+                            <div class="row align-items-end bg-light border" style="min-height: 150px;">
+                                <div class="col"><div class="p-3 bg-primary text-white rounded">End</div></div>
+                                <div class="col"><div class="p-3 bg-success text-white rounded">End</div></div>
+                                <div class="col"><div class="p-3 bg-info text-white rounded">End</div></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="topic-title">Horizontal Alignment</div>
+                    <div class="explanation-box">
+                        <p>Control how columns are distributed horizontally within a row. These classes are also applied to the <code>.row</code> element.</p>
+                    </div>
+
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Effect</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>.justify-content-start</code></td><td>Columns start from the left (default)</td></tr>
+                            <tr><td><code>.justify-content-center</code></td><td>Columns are centered</td></tr>
+                            <tr><td><code>.justify-content-end</code></td><td>Columns are pushed to the right</td></tr>
+                            <tr><td><code>.justify-content-around</code></td><td>Equal space around each column</td></tr>
+                            <tr><td><code>.justify-content-between</code></td><td>Space between columns, none at edges</td></tr>
+                            <tr><td><code>.justify-content-evenly</code></td><td>Equal space between and around columns</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class="topic-title">Column Offsetting</div>
+                    <div class="explanation-box">
+                        <p>Move columns to the right using <code>.offset-{number}</code> or <code>.offset-{breakpoint}-{number}</code> classes. This adds left margin to push the column over.</p>
+                    </div>
+                    <pre><code>&lt;div class="row"&gt;
+    &lt;div class="col-4 offset-4"&gt;
+        &lt;!-- This column is centered (4 columns wide, offset by 4) --&gt;
+        Centered Column
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <h3 class="subsection-title">4. Gutters (Spacing Between Columns)</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>What are Gutters?</h5>
+                        <p>Gutters are the padding between columns. By default, Bootstrap adds 1.5rem (24px) of padding between columns. You can customize this spacing using gutter classes.</p>
+                    </div>
+
+                    <div class="topic-title">Gutter Classes</div>
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Class</th>
+                                <th>Direction</th>
+                                <th>Values</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td><code>.g-{0-5}</code></td><td>Both horizontal & vertical</td><td>0, 1, 2, 3, 4, 5</td></tr>
+                            <tr><td><code>.gx-{0-5}</code></td><td>Horizontal only</td><td>0, 1, 2, 3, 4, 5</td></tr>
+                            <tr><td><code>.gy-{0-5}</code></td><td>Vertical only</td><td>0, 1, 2, 3, 4, 5</td></tr>
+                        </tbody>
+                    </table>
+
+                    <pre><code>&lt;!-- No gutters --&gt;
+&lt;div class="row g-0"&gt;
+    &lt;div class="col"&gt;Column 1&lt;/div&gt;
+    &lt;div class="col"&gt;Column 2&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- Large gutters --&gt;
+&lt;div class="row g-5"&gt;
+    &lt;div class="col"&gt;Column 1&lt;/div&gt;
+    &lt;div class="col"&gt;Column 2&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                </section>
+
+
+                <!-- Utilities Section -->
+                <section id="utilities">
+                    <h2 class="section-title">🛠️ Utility Classes</h2>
+                    
+                    <div class="explanation-box">
+                        <h5>What are Utility Classes?</h5>
+                        <p>Utility classes are single-purpose classes that apply a specific style. They're the building blocks of rapid development, allowing you to style elements without writing custom CSS. Think of them as CSS shortcuts!</p>
+                    </div>
+
+                    <h3 class="subsection-title">Spacing Utilities</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Understanding Spacing</h5>
+                        <p>Spacing utilities control margin and padding. The format is: <code>{property}{sides}-{size}</code> or <code>{property}{sides}-{breakpoint}-{size}</code></p>
+                        <p><strong>Property:</strong> <code>m</code> (margin) or <code>p</code> (padding)</p>
+                        <p><strong>Sides:</strong> <code>t</code> (top), <code>b</code> (bottom), <code>s</code> (start/left), <code>e</code> (end/right), <code>x</code> (horizontal), <code>y</code> (vertical), or blank (all sides)</p>
+                        <p><strong>Size:</strong> 0, 1, 2, 3, 4, 5, or auto</p>
+                    </div>
+
+                    <table class="table table-bordered comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Size</th>
+                                <th>Value</th>
+                                <th>Pixels (approx)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>0</td><td>0</td><td>0px</td></tr>
+                            <tr><td>1</td><td>0.25rem</td><td>4px</td></tr>
+                            <tr><td>2</td><td>0.5rem</td><td>8px</td></tr>
+                            <tr><td>3</td><td>1rem</td><td>16px</td></tr>
+                            <tr><td>4</td><td>1.5rem</td><td>24px</td></tr>
+                            <tr><td>5</td><td>3rem</td><td>48px</td></tr>
+                        </tbody>
+                    </table>
+
+                    <div class="example-box">
+                        <h6>Common Spacing Examples</h6>
+                        <pre><code>&lt;!-- Margin examples --&gt;
+&lt;div class="m-3"&gt;Margin on all sides (16px)&lt;/div&gt;
+&lt;div class="mt-5"&gt;Margin top only (48px)&lt;/div&gt;
+&lt;div class="mx-auto"&gt;Horizontal margin auto (centers block element)&lt;/div&gt;
+&lt;div class="my-4"&gt;Vertical margin (24px top and bottom)&lt;/div&gt;
+
+&lt;!-- Padding examples --&gt;
+&lt;div class="p-4"&gt;Padding on all sides (24px)&lt;/div&gt;
+&lt;div class="px-3"&gt;Horizontal padding (16px left and right)&lt;/div&gt;
+&lt;div class="py-2"&gt;Vertical padding (8px top and bottom)&lt;/div&gt;</code></pre>
+                    </div>
+
+                    <h3 class="subsection-title">Display Utilities</h3>
+                    
+                    <div class="explanation-box">
+                        <p>Control the display property of elements. Format: <code>.d-{value}</code> or <code>.d-{breakpoint}-{value}</code></p>
+                        <p><strong>Values:</strong> none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex</p>
+                    </div>
+
+                    <div class="example-box">
+                        <h6>Display Examples</h6>
+                        <pre><code>&lt;!-- Hide element --&gt;
+&lt;div class="d-none"&gt;Hidden on all screens&lt;/div&gt;
+
+&lt;!-- Show only on large screens --&gt;
+&lt;div class="d-none d-lg-block"&gt;Visible only on large screens and up&lt;/div&gt;
+
+&lt;!-- Hide on mobile, show on tablet and up --&gt;
+&lt;div class="d-none d-md-block"&gt;Hidden on mobile, visible on tablet+&lt;/div&gt;
+
+&lt;!-- Flexbox --&gt;
+&lt;div class="d-flex"&gt;Flex container&lt;/div&gt;</code></pre>
+                    </div>
+
+                    <h3 class="subsection-title">Flexbox Utilities</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Flexbox Made Easy</h5>
+                        <p>Bootstrap provides comprehensive flexbox utilities. First, make an element a flex container with <code>.d-flex</code>, then use these utilities to control layout.</p>
+                    </div>
+
+                    <div class="topic-title">Flex Direction</div>
+                    <pre><code>&lt;div class="d-flex flex-row"&gt;Horizontal (default)&lt;/div&gt;
+&lt;div class="d-flex flex-row-reverse"&gt;Horizontal reversed&lt;/div&gt;
+&lt;div class="d-flex flex-column"&gt;Vertical&lt;/div&gt;
+&lt;div class="d-flex flex-column-reverse"&gt;Vertical reversed&lt;/div&gt;</code></pre>
+
+                    <div class="topic-title">Justify Content (Main Axis)</div>
+                    <pre><code>&lt;div class="d-flex justify-content-start"&gt;Items at start&lt;/div&gt;
+&lt;div class="d-flex justify-content-center"&gt;Items centered&lt;/div&gt;
+&lt;div class="d-flex justify-content-end"&gt;Items at end&lt;/div&gt;
+&lt;div class="d-flex justify-content-between"&gt;Space between items&lt;/div&gt;
+&lt;div class="d-flex justify-content-around"&gt;Space around items&lt;/div&gt;
+&lt;div class="d-flex justify-content-evenly"&gt;Equal space&lt;/div&gt;</code></pre>
+
+                    <div class="topic-title">Align Items (Cross Axis)</div>
+                    <pre><code>&lt;div class="d-flex align-items-start"&gt;Items at top&lt;/div&gt;
+&lt;div class="d-flex align-items-center"&gt;Items centered&lt;/div&gt;
+&lt;div class="d-flex align-items-end"&gt;Items at bottom&lt;/div&gt;
+&lt;div class="d-flex align-items-stretch"&gt;Items stretched&lt;/div&gt;</code></pre>
+
+                    <h3 class="subsection-title">Text Utilities</h3>
+                    
+                    <div class="topic-title">Text Alignment</div>
+                    <pre><code>&lt;p class="text-start"&gt;Left aligned text&lt;/p&gt;
+&lt;p class="text-center"&gt;Center aligned text&lt;/p&gt;
+&lt;p class="text-end"&gt;Right aligned text&lt;/p&gt;</code></pre>
+
+                    <div class="topic-title">Text Transform</div>
+                    <pre><code>&lt;p class="text-lowercase"&gt;LOWERCASED TEXT&lt;/p&gt;
+&lt;p class="text-uppercase"&gt;uppercased text&lt;/p&gt;
+&lt;p class="text-capitalize"&gt;capitalized text&lt;/p&gt;</code></pre>
+
+                    <div class="topic-title">Font Weight and Style</div>
+                    <pre><code>&lt;p class="fw-bold"&gt;Bold text&lt;/p&gt;
+&lt;p class="fw-bolder"&gt;Bolder text&lt;/p&gt;
+&lt;p class="fw-semibold"&gt;Semibold text&lt;/p&gt;
+&lt;p class="fw-normal"&gt;Normal weight text&lt;/p&gt;
+&lt;p class="fw-light"&gt;Light weight text&lt;/p&gt;
+&lt;p class="fw-lighter"&gt;Lighter weight text&lt;/p&gt;
+&lt;p class="fst-italic"&gt;Italic text&lt;/p&gt;
+&lt;p class="fst-normal"&gt;Normal style text&lt;/p&gt;</code></pre>
+
+                    <div class="topic-title">Font Size</div>
+                    <pre><code>&lt;p class="fs-1"&gt;Font size 1 (largest)&lt;/p&gt;
+&lt;p class="fs-2"&gt;Font size 2&lt;/p&gt;
+&lt;p class="fs-3"&gt;Font size 3&lt;/p&gt;
+&lt;p class="fs-4"&gt;Font size 4&lt;/p&gt;
+&lt;p class="fs-5"&gt;Font size 5&lt;/p&gt;
+&lt;p class="fs-6"&gt;Font size 6 (smallest)&lt;/p&gt;</code></pre>
+
+                    <h3 class="subsection-title">Color Utilities</h3>
+                    
+                    <div class="topic-title">Text Colors</div>
+                    <div class="visual-demo">
+                        <p class="text-primary">Primary text</p>
+                        <p class="text-secondary">Secondary text</p>
+                        <p class="text-success">Success text</p>
+                        <p class="text-danger">Danger text</p>
+                        <p class="text-warning">Warning text</p>
+                        <p class="text-info">Info text</p>
+                        <p class="text-light bg-dark">Light text</p>
+                        <p class="text-dark">Dark text</p>
+                        <p class="text-muted">Muted text</p>
+                    </div>
+
+                    <div class="topic-title">Background Colors</div>
+                    <div class="visual-demo">
+                        <div class="p-2 mb-2 bg-primary text-white">Primary background</div>
+                        <div class="p-2 mb-2 bg-secondary text-white">Secondary background</div>
+                        <div class="p-2 mb-2 bg-success text-white">Success background</div>
+                        <div class="p-2 mb-2 bg-danger text-white">Danger background</div>
+                        <div class="p-2 mb-2 bg-warning text-dark">Warning background</div>
+                        <div class="p-2 mb-2 bg-info text-dark">Info background</div>
+                        <div class="p-2 mb-2 bg-light text-dark">Light background</div>
+                        <div class="p-2 mb-2 bg-dark text-white">Dark background</div>
+                    </div>
+
+                </section>
+
+
+                <!-- Components Section -->
+                <section id="components">
+                    <h2 class="section-title">🧩 Bootstrap Components</h2>
+                    
+                    <div class="explanation-box">
+                        <h5>What are Components?</h5>
+                        <p>Components are pre-built, reusable UI elements that combine HTML, CSS, and sometimes JavaScript. They provide consistent, professional-looking interfaces with minimal effort.</p>
+                    </div>
+
+                    <h3 class="subsection-title">Buttons</h3>
+                    
+                    <div class="explanation-box">
+                        <p>Buttons are one of the most used components. Bootstrap provides extensive button styling with semantic colors, sizes, and states.</p>
+                    </div>
+
+                    <div class="topic-title">Button Variants</div>
+                    <div class="visual-demo">
+                        <button type="button" class="btn btn-primary m-1">Primary</button>
+                        <button type="button" class="btn btn-secondary m-1">Secondary</button>
+                        <button type="button" class="btn btn-success m-1">Success</button>
+                        <button type="button" class="btn btn-danger m-1">Danger</button>
+                        <button type="button" class="btn btn-warning m-1">Warning</button>
+                        <button type="button" class="btn btn-info m-1">Info</button>
+                        <button type="button" class="btn btn-light m-1">Light</button>
+                        <button type="button" class="btn btn-dark m-1">Dark</button>
+                        <button type="button" class="btn btn-link m-1">Link</button>
+                    </div>
+
+                    <pre><code>&lt;button type="button" class="btn btn-primary"&gt;Primary&lt;/button&gt;
+&lt;button type="button" class="btn btn-success"&gt;Success&lt;/button&gt;
+&lt;button type="button" class="btn btn-danger"&gt;Danger&lt;/button&gt;</code></pre>
+
+                    <div class="topic-title">Outline Buttons</div>
+                    <div class="visual-demo">
+                        <button type="button" class="btn btn-outline-primary m-1">Primary</button>
+                        <button type="button" class="btn btn-outline-success m-1">Success</button>
+                        <button type="button" class="btn btn-outline-danger m-1">Danger</button>
+                    </div>
+
+                    <div class="topic-title">Button Sizes</div>
+                    <div class="visual-demo">
+                        <button type="button" class="btn btn-primary btn-lg m-1">Large Button</button>
+                        <button type="button" class="btn btn-primary m-1">Default Button</button>
+                        <button type="button" class="btn btn-primary btn-sm m-1">Small Button</button>
+                    </div>
+
+                    <h3 class="subsection-title">Cards</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Understanding Cards</h5>
+                        <p>Cards are flexible content containers with multiple variants and options. They can include headers, footers, images, and various content types. Perfect for displaying products, articles, profiles, and more.</p>
+                    </div>
+
+                    <div class="visual-demo">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card image">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card Title</h5>
+                                        <p class="card-text">This is a basic card with an image, title, text, and button.</p>
+                                        <a href="#" class="btn btn-primary">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <div class="card-header">Featured</div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card with Header</h5>
+                                        <p class="card-text">Cards can have headers and footers for additional context.</p>
+                                    </div>
+                                    <div class="card-footer text-muted">2 days ago</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-primary text-white">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Colored Card</h5>
+                                        <p class="card-text">Cards can have background colors using utility classes.</p>
+                                        <a href="#" class="btn btn-light">Action</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <pre><code>&lt;div class="card"&gt;
+    &lt;img src="image.jpg" class="card-img-top" alt="..."&gt;
+    &lt;div class="card-body"&gt;
+        &lt;h5 class="card-title"&gt;Card Title&lt;/h5&gt;
+        &lt;p class="card-text"&gt;Card content goes here.&lt;/p&gt;
+        &lt;a href="#" class="btn btn-primary"&gt;Button&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <h3 class="subsection-title">Alerts</h3>
+                    
+                    <div class="explanation-box">
+                        <p>Alerts provide contextual feedback messages for user actions. They're perfect for success messages, warnings, errors, and informational notices.</p>
+                    </div>
+
+                    <div class="visual-demo">
+                        <div class="alert alert-primary" role="alert">
+                            <strong>Primary Alert!</strong> This is a primary alert message.
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            <strong>Success!</strong> Your action was completed successfully.
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            <strong>Warning!</strong> Please review this information carefully.
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                            <strong>Error!</strong> Something went wrong. Please try again.
+                        </div>
+                    </div>
+
+                    <h3 class="subsection-title">Badges</h3>
+                    
+                    <div class="explanation-box">
+                        <p>Badges are small count and labeling components. They scale to match the size of their parent element.</p>
+                    </div>
+
+                    <div class="visual-demo">
+                        <h1>Heading <span class="badge bg-secondary">New</span></h1>
+                        <h2>Heading <span class="badge bg-primary">Featured</span></h2>
+                        <button type="button" class="btn btn-primary">
+                            Notifications <span class="badge bg-danger">4</span>
+                        </button>
+                        <span class="badge rounded-pill bg-success">Pill Badge</span>
+                    </div>
+
+                    <h3 class="subsection-title">Navbar</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Building Navigation</h5>
+                        <p>Navbars are responsive navigation headers. They collapse on mobile and expand on larger screens. Essential for any website!</p>
+                    </div>
+
+                    <pre><code>&lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
+    &lt;div class="container"&gt;
+        &lt;a class="navbar-brand" href="#"&gt;Brand&lt;/a&gt;
+        &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav"&gt;
+            &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+        &lt;/button&gt;
+        &lt;div class="collapse navbar-collapse" id="navbarNav"&gt;
+            &lt;ul class="navbar-nav ms-auto"&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link active" href="#"&gt;Home&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;About&lt;/a&gt;
+                &lt;/li&gt;
+                &lt;li class="nav-item"&gt;
+                    &lt;a class="nav-link" href="#"&gt;Contact&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/nav&gt;</code></pre>
+
+                    <div class="why-box">
+                        <h5>Navbar Key Classes Explained</h5>
+                        <ul>
+                            <li><code>.navbar</code> - Base navbar class</li>
+                            <li><code>.navbar-expand-{breakpoint}</code> - When to expand (lg, md, etc.)</li>
+                            <li><code>.navbar-dark</code> or <code>.navbar-light</code> - Color scheme</li>
+                            <li><code>.navbar-toggler</code> - Mobile menu button</li>
+                            <li><code>.navbar-collapse</code> - Collapsible content</li>
+                            <li><code>.navbar-nav</code> - Navigation links container</li>
+                            <li><code>.nav-item</code> - Individual navigation item</li>
+                            <li><code>.nav-link</code> - Navigation link styling</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="subsection-title">Modal</h3>
+                    
+                    <div class="explanation-box">
+                        <h5>Understanding Modals</h5>
+                        <p>Modals are dialog boxes that appear on top of the page content. Perfect for forms, confirmations, alerts, or any content that needs user attention.</p>
+                    </div>
+
+                    <div class="visual-demo">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Launch Demo Modal
+                        </button>
+                    </div>
+
+                    <pre><code>&lt;!-- Button trigger --&gt;
+&lt;button type="button" class="btn btn-primary" data-bs-toggle="modal" 
+        data-bs-target="#myModal"&gt;
+    Open Modal
+&lt;/button&gt;
+
+&lt;!-- Modal --&gt;
+&lt;div class="modal fade" id="myModal" tabindex="-1"&gt;
+    &lt;div class="modal-dialog"&gt;
+        &lt;div class="modal-content"&gt;
+            &lt;div class="modal-header"&gt;
+                &lt;h5 class="modal-title"&gt;Modal Title&lt;/h5&gt;
+                &lt;button type="button" class="btn-close" 
+                        data-bs-dismiss="modal"&gt;&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;div class="modal-body"&gt;
+                Modal content goes here...
+            &lt;/div&gt;
+            &lt;div class="modal-footer"&gt;
+                &lt;button type="button" class="btn btn-secondary" 
+                        data-bs-dismiss="modal"&gt;Close&lt;/button&gt;
+                &lt;button type="button" class="btn btn-primary"&gt;Save&lt;/button&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                </section>
+
+
+                <!-- Forms Section -->
+                <section id="forms">
+                    <h2 class="section-title">📝 Forms</h2>
+                    
+                    <div class="explanation-box">
+                        <h5>Bootstrap Form System</h5>
+                        <p>Bootstrap provides comprehensive form styling that's consistent across browsers and devices. Forms are essential for user input, and Bootstrap makes them beautiful and functional.</p>
+                    </div>
+
+                    <h3 class="subsection-title">Form Controls</h3>
+                    
+                    <div class="topic-title">Text Inputs</div>
+                    <div class="visual-demo">
+                        <div class="mb-3">
+                            <label for="exampleInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInput1" placeholder="name@example.com">
+                            <div class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInput2" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInput2">
+                        </div>
+                    </div>
+
+                    <pre><code>&lt;div class="mb-3"&gt;
+    &lt;label for="email" class="form-label"&gt;Email address&lt;/label&gt;
+    &lt;input type="email" class="form-control" id="email" 
+           placeholder="name@example.com"&gt;
+    &lt;div class="form-text"&gt;Help text goes here&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+                    <div class="explanation-box">
+                        <h5>Form Classes Explained</h5>
+                        <ul>
+                            <li><code>.form-label</code> - Styles the label element</li>
+                            <li><code>.form-control</code> - Styles input, textarea, and select elements</li>
+                            <li><code>.form-text</code> - Adds help text below inputs</li>
+                            <li><code>.mb-3</code> - Adds bottom margin for spacing</li>
+                        </ul>
+                    </div>
+
+                    <div class="topic-title">Select Dropdowns</div>
+                    <div class="visual-demo">
+                        <label for="selectExample" class="form-label">Choose an option</label>
+                        <select class="form-select" id="selectExample">
+                            <option selected>Open this select menu</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+
+                    <div class="topic-title">Checkboxes and Radios</div>
+                    <div class="visual-demo">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">
+                                Default checkbox
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check2" checked>
+                            <label class="form-check-label" for="check2">
+                                Checked checkbox
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup" id="radio1">
+                            <label class="form-check-label" for="radio1">
+                                Radio option 1
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioGroup" id="radio2" checked>
+                            <label class="form-check-label" for="radio2">
+                                Radio option 2
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="topic-title">Switches</div>
+                    <div class="visual-demo">
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="switch1">
+                            <label class="form-check-label" for="switch1">Toggle switch</label>
+                        </div>
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="switch2" checked>
+                            <label class="form-check-label" for="switch2">Checked switch</label>
+                        </div>
+                    </div>
+
+                    <div class="topic-title">Range Slider</div>
+                    <div class="visual-demo">
+                        <label for="rangeInput" class="form-label">Range</label>
+                        <input type="range" class="form-range" id="rangeInput">
+                    </div>
+
+                    <div class="topic-title">Input Groups</div>
+                    <div class="explanation-box">
+                        <p>Input groups allow you to add text, buttons, or button groups on either side of textual inputs.</p>
+                    </div>
+                    <div class="visual-demo">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">@</span>
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username">
+                            <span class="input-group-text">@example.com</span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+
+                    <div class="topic-title">Floating Labels</div>
+                    <div class="explanation-box">
+                        <p>Floating labels are a modern design pattern where the label floats above the input when focused or filled.</p>
+                    </div>
+                    <div class="visual-demo">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                    </div>
+
+                    <div class="topic-title">Form Validation</div>
+                    <div class="explanation-box">
+                        <p>Bootstrap provides validation styles for success, warning, and error states.</p>
+                    </div>
+                    <div class="visual-demo">
+                        <div class="mb-3">
+                            <label for="validInput" class="form-label">Valid input</label>
+                            <input type="text" class="form-control is-valid" id="validInput" value="Correct value">
+                            <div class="valid-feedback">Looks good!</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="invalidInput" class="form-label">Invalid input</label>
+                            <input type="text" class="form-control is-invalid" id="invalidInput">
+                            <div class="invalid-feedback">Please provide a valid value.</div>
+                        </div>
+                    </div>
+
+                    <div class="topic-title">Complete Form Example</div>
+                    <div class="visual-demo">
+                        <form>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailForm" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="emailForm" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="messageForm" class="form-label">Message</label>
+                                <textarea class="form-control" id="messageForm" rows="3"></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="agreeCheck">
+                                <label class="form-check-label" for="agreeCheck">
+                                    I agree to the terms and conditions
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+
+                </section>
+
+                <!-- Best Practices Section -->
+                <section id="best-practices" class="mt-5">
+                    <h2 class="section-title">✨ Best Practices & Tips</h2>
+                    
+                    <div class="key-point">
+                        <strong>1. Mobile-First Approach</strong>
+                        <p>Always design for mobile first, then add breakpoints for larger screens. This ensures your site works on all devices.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>2. Use Semantic HTML</strong>
+                        <p>Use appropriate HTML elements (nav, header, footer, article, section) along with Bootstrap classes for better accessibility and SEO.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>3. Don't Override Core Bootstrap</strong>
+                        <p>Instead of modifying Bootstrap's CSS, use custom classes or CSS variables to customize your design.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>4. Leverage Utility Classes</strong>
+                        <p>Before writing custom CSS, check if Bootstrap has a utility class that does what you need.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>5. Test Responsiveness</strong>
+                        <p>Always test your layouts on different screen sizes using browser dev tools or real devices.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>6. Accessibility Matters</strong>
+                        <p>Use proper ARIA labels, semantic HTML, and ensure keyboard navigation works correctly.</p>
+                    </div>
+
+                    <div class="key-point">
+                        <strong>7. Performance Optimization</strong>
+                        <p>Only include the Bootstrap components you need. Consider using a custom build or tree-shaking with a bundler.</p>
+                    </div>
+
+                </section>
+
+                <!-- Resources Section -->
+                <section id="resources" class="mt-5 mb-5">
+                    <h2 class="section-title">📚 Additional Resources</h2>
+                    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Official Documentation</h5>
+                                    <p class="card-text">The official Bootstrap documentation is comprehensive and always up-to-date.</p>
+                                    <a href="https://getbootstrap.com/docs/5.3/" target="_blank" class="btn btn-primary">Visit Docs</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bootstrap Icons</h5>
+                                    <p class="card-text">Free, high-quality icon library designed for Bootstrap.</p>
+                                    <a href="https://icons.getbootstrap.com/" target="_blank" class="btn btn-primary">Browse Icons</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="explanation-box">
+                        <h5>Continue Learning</h5>
+                        <ul>
+                            <li>Practice by building real projects</li>
+                            <li>Explore Bootstrap themes and templates</li>
+                            <li>Learn Sass to customize Bootstrap deeply</li>
+                            <li>Join the Bootstrap community</li>
+                            <li>Stay updated with new releases</li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Example -->
+    <div class="modal fade" id="exampleModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Example Modal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This is a working example of a Bootstrap modal. Modals are perfect for displaying content that requires user attention without leaving the current page.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2024 Modern Age Coders. All rights reserved.</p>
+            <p class="mb-0">Built with Bootstrap 5.3 | <a href="#" class="text-white">Back to Top</a></p>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <div class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑
+    </div>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Show/hide scroll to top button
+        window.addEventListener('scroll', function() {
+            const scrollButton = document.querySelector('.scroll-to-top');
+            if (window.pageYOffset > 300) {
+                scrollButton.style.display = 'flex';
+            } else {
+                scrollButton.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>
