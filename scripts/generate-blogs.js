@@ -176,26 +176,25 @@ class BlogGenerator {
         // Write HTML file
         fs.writeFileSync(path.join(blogDir, 'index.html'), html);
         
-        // Copy CSS file
-        const cssSource = path.join(this.projectRoot, 'src', 'css', 'style.css');
-        const cssDest = path.join(blogDir, 'style.css');
-        if (fs.existsSync(cssSource)) {
-            fs.copyFileSync(cssSource, cssDest);
-        }
+        // Copy CSS files
+        const cssFiles = ['style.css', 'responsive.css', 'blog-styles.css', 'share-button.css'];
+        cssFiles.forEach(cssFile => {
+            const cssSource = path.join(this.projectRoot, 'src', 'css', cssFile);
+            const cssDest = path.join(blogDir, cssFile);
+            if (fs.existsSync(cssSource)) {
+                fs.copyFileSync(cssSource, cssDest);
+            }
+        });
         
         // Copy JavaScript files
-        const jsSource = path.join(this.projectRoot, 'src', 'js', 'blog-navigation.js');
-        const jsDest = path.join(blogDir, 'blog-navigation.js');
-        if (fs.existsSync(jsSource)) {
-            fs.copyFileSync(jsSource, jsDest);
-        }
-        
-        // Copy navigation.js as well
-        const navJsSource = path.join(this.projectRoot, 'src', 'js', 'navigation.js');
-        const navJsDest = path.join(blogDir, 'navigation.js');
-        if (fs.existsSync(navJsSource)) {
-            fs.copyFileSync(navJsSource, navJsDest);
-        }
+        const jsFiles = ['blog-navigation.js', 'blog-interactive.js', 'navigation.js', 'mobile-navigation.js', 'share-button.js'];
+        jsFiles.forEach(jsFile => {
+            const jsSource = path.join(this.projectRoot, 'src', 'js', jsFile);
+            const jsDest = path.join(blogDir, jsFile);
+            if (fs.existsSync(jsSource)) {
+                fs.copyFileSync(jsSource, jsDest);
+            }
+        });
     }
 
     /**
@@ -211,17 +210,21 @@ class BlogGenerator {
         for (const section of sections) {
             switch (section.type) {
                 case 'paragraph':
-                    html += `<p>${section.text}</p>\n`;
+                    const pClass = section.className || '';
+                    html += `<p class="${pClass}">${section.text}</p>\n`;
                     break;
                     
                 case 'heading':
                     const level = section.level || 2;
-                    html += `<h${level}>${section.text}</h${level}>\n`;
+                    const hId = section.id ? ` id="${section.id}"` : '';
+                    const hClass = section.className || '';
+                    html += `<h${level}${hId} class="${hClass}">${section.text}</h${level}>\n`;
                     break;
                     
                 case 'list':
                     const listTag = section.style === 'ordered' ? 'ol' : 'ul';
-                    html += `<${listTag}>\n`;
+                    const listClass = section.className || '';
+                    html += `<${listTag} class="${listClass}">\n`;
                     section.items.forEach(item => {
                         html += `  <li>${item}</li>\n`;
                     });
@@ -229,7 +232,7 @@ class BlogGenerator {
                     break;
                     
                 case 'image':
-                    html += `<figure class="blog-image">\n`;
+                    html += `<figure class="blog-image ${section.className || ''}">\n`;
                     html += `  <img src="${section.url}" alt="${section.alt}" loading="lazy">\n`;
                     if (section.caption) {
                         html += `  <figcaption>${section.caption}</figcaption>\n`;
@@ -239,16 +242,134 @@ class BlogGenerator {
                     
                 case 'code':
                     const language = section.language || 'plaintext';
+                    const codeTitle = section.title ? `<div class="code-title">${section.title}</div>\n` : '';
+                    html += `<div class="code-block">\n${codeTitle}`;
                     html += `<pre><code class="language-${language}">${this.escapeHtml(section.code)}</code></pre>\n`;
+                    html += `</div>\n`;
                     break;
                     
                 case 'quote':
-                    html += `<blockquote>\n`;
+                    html += `<blockquote class="${section.className || ''}">\n`;
                     html += `  <p>${section.text}</p>\n`;
                     if (section.author) {
                         html += `  <cite>— ${section.author}</cite>\n`;
                     }
                     html += `</blockquote>\n`;
+                    break;
+                    
+                case 'callout':
+                    const calloutType = section.calloutType || 'info';
+                    const calloutIcon = this.getCalloutIcon(calloutType);
+                    html += `<div class="callout callout-${calloutType}">\n`;
+                    html += `  <div class="callout-icon">${calloutIcon}</div>\n`;
+                    html += `  <div class="callout-content">\n`;
+                    if (section.title) {
+                        html += `    <h4 class="callout-title">${section.title}</h4>\n`;
+                    }
+                    html += `    <p>${section.text}</p>\n`;
+                    html += `  </div>\n`;
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'video':
+                    html += `<div class="blog-video">\n`;
+                    if (section.platform === 'youtube') {
+                        html += `  <iframe src="https://www.youtube.com/embed/${section.videoId}" frameborder="0" allowfullscreen></iframe>\n`;
+                    } else if (section.platform === 'vimeo') {
+                        html += `  <iframe src="https://player.vimeo.com/video/${section.videoId}" frameborder="0" allowfullscreen></iframe>\n`;
+                    } else {
+                        html += `  <video controls src="${section.url}"></video>\n`;
+                    }
+                    if (section.caption) {
+                        html += `  <p class="video-caption">${section.caption}</p>\n`;
+                    }
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'table':
+                    html += `<div class="table-wrapper">\n`;
+                    html += `<table class="blog-table">\n`;
+                    if (section.headers) {
+                        html += `  <thead>\n    <tr>\n`;
+                        section.headers.forEach(header => {
+                            html += `      <th>${header}</th>\n`;
+                        });
+                        html += `    </tr>\n  </thead>\n`;
+                    }
+                    html += `  <tbody>\n`;
+                    section.rows.forEach(row => {
+                        html += `    <tr>\n`;
+                        row.forEach(cell => {
+                            html += `      <td>${cell}</td>\n`;
+                        });
+                        html += `    </tr>\n`;
+                    });
+                    html += `  </tbody>\n`;
+                    html += `</table>\n`;
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'accordion':
+                    html += `<div class="accordion">\n`;
+                    section.items.forEach((item, index) => {
+                        html += `  <div class="accordion-item">\n`;
+                        html += `    <button class="accordion-header" data-accordion="${index}">\n`;
+                        html += `      ${item.title}\n`;
+                        html += `      <span class="accordion-icon">+</span>\n`;
+                        html += `    </button>\n`;
+                        html += `    <div class="accordion-content">\n`;
+                        html += `      <p>${item.content}</p>\n`;
+                        html += `    </div>\n`;
+                        html += `  </div>\n`;
+                    });
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'button':
+                    const btnClass = section.style || 'primary';
+                    const btnTarget = section.newTab ? ' target="_blank" rel="noopener noreferrer"' : '';
+                    html += `<div class="blog-button-wrapper">\n`;
+                    html += `  <a href="${section.url}" class="blog-button blog-button-${btnClass}"${btnTarget}>${section.text}</a>\n`;
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'divider':
+                    const dividerStyle = section.style || 'default';
+                    html += `<hr class="blog-divider blog-divider-${dividerStyle}">\n`;
+                    break;
+                    
+                case 'gallery':
+                    html += `<div class="blog-gallery">\n`;
+                    section.images.forEach(img => {
+                        html += `  <figure class="gallery-item">\n`;
+                        html += `    <img src="${img.url}" alt="${img.alt}" loading="lazy">\n`;
+                        if (img.caption) {
+                            html += `    <figcaption>${img.caption}</figcaption>\n`;
+                        }
+                        html += `  </figure>\n`;
+                    });
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'embed':
+                    html += `<div class="blog-embed">\n`;
+                    html += section.html;
+                    html += `</div>\n`;
+                    break;
+                    
+                case 'toc':
+                    html += this.generateTableOfContents(sections);
+                    break;
+                    
+                case 'columns':
+                    const colCount = section.columns.length;
+                    html += `<div class="blog-columns blog-columns-${colCount}">\n`;
+                    section.columns.forEach(col => {
+                        html += `  <div class="blog-column">\n`;
+                        html += this.generateContent(col.content);
+                        html += `  </div>\n`;
+                    });
+                    html += `</div>\n`;
                     break;
                     
                 default:
@@ -257,6 +378,53 @@ class BlogGenerator {
         }
         
         return html;
+    }
+    
+    /**
+     * Get callout icon based on type
+     */
+    getCalloutIcon(type) {
+        const icons = {
+            'info': 'ℹ️',
+            'warning': '⚠️',
+            'success': '✅',
+            'error': '❌',
+            'tip': '💡',
+            'note': '📝'
+        };
+        return icons[type] || icons['info'];
+    }
+    
+    /**
+     * Generate table of contents from headings
+     */
+    generateTableOfContents(sections) {
+        let html = '<div class="table-of-contents">\n';
+        html += '  <h3>Table of Contents</h3>\n';
+        html += '  <ul class="toc-list">\n';
+        
+        sections.forEach(section => {
+            if (section.type === 'heading' && section.level === 2) {
+                const id = section.id || this.slugify(section.text);
+                html += `    <li><a href="#${id}">${section.text}</a></li>\n`;
+            }
+        });
+        
+        html += '  </ul>\n';
+        html += '</div>\n';
+        return html;
+    }
+    
+    /**
+     * Create URL-friendly slug from text
+     */
+    slugify(text) {
+        return text
+            .toLowerCase()
+            .replace(/[^\w\s-]/g, '')
+            .replace(/\s+/g, '-')
+            .replace(/-+/g, '-')
+            .trim();
     }
 
     /**

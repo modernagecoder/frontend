@@ -26,22 +26,33 @@
   "content": {
     "sections": [
       {
+        "type": "toc"
+      },
+      {
         "type": "paragraph",
         "text": "JavaScript is the programming language that brings websites to life. From interactive buttons to complex web applications, JavaScript is everywhere on the modern web. In this tutorial, we'll cover the essential basics you need to start your JavaScript journey."
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "What is JavaScript?"
+        "text": "What is JavaScript?",
+        "id": "what-is-javascript"
       },
       {
         "type": "paragraph",
         "text": "JavaScript is a versatile programming language that runs in web browsers, making websites interactive and dynamic. Unlike HTML (which structures content) and CSS (which styles it), JavaScript adds behavior and functionality to web pages."
       },
       {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Did You Know?",
+        "text": "JavaScript was created in just 10 days in 1995 and is now one of the most popular programming languages in the world!"
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Your First JavaScript Program"
+        "text": "Your First JavaScript Program",
+        "id": "first-program"
       },
       {
         "type": "paragraph",
@@ -50,12 +61,14 @@
       {
         "type": "code",
         "language": "javascript",
+        "title": "hello.js",
         "code": "// Your first JavaScript program\nconsole.log('Hello, World!');\n\n// You can also show an alert\nalert('Welcome to JavaScript!');"
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Variables: Storing Information"
+        "text": "Variables: Storing Information",
+        "id": "variables"
       },
       {
         "type": "paragraph",
@@ -64,12 +77,20 @@
       {
         "type": "code",
         "language": "javascript",
+        "title": "variables.js",
         "code": "// Using let (can be changed)\nlet name = 'Alice';\nlet age = 12;\n\n// Using const (cannot be changed)\nconst PI = 3.14159;\nconst schoolName = 'Modern Age Coders';\n\n// Changing a variable\nname = 'Bob';\nage = age + 1;\n\nconsole.log(name); // Output: Bob\nconsole.log(age);  // Output: 13"
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Pro Tip",
+        "text": "Use 'const' by default, and only use 'let' when you know the value will change. Avoid 'var' in modern JavaScript!"
       },
       {
         "type": "heading",
         "level": 2,
-        "text": "Data Types in JavaScript"
+        "text": "Data Types in JavaScript",
+        "id": "data-types"
       },
       {
         "type": "paragraph",
@@ -92,9 +113,14 @@
         "code": "// Different data types\nlet message = 'Hello!';           // String\nlet score = 95;                   // Number\nlet isPassing = true;             // Boolean\nlet colors = ['red', 'blue'];     // Array\nlet student = {                   // Object\n    name: 'Alice',\n    grade: 7\n};"
       },
       {
+        "type": "divider",
+        "style": "default"
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Functions: Reusable Code Blocks"
+        "text": "Functions: Reusable Code Blocks",
+        "id": "functions"
       },
       {
         "type": "paragraph",
@@ -154,9 +180,14 @@
         "code": "// Create an array\nlet fruits = ['apple', 'banana', 'orange'];\n\n// Access array elements (starts at 0)\nconsole.log(fruits[0]);  // Output: apple\n\n// Add to array\nfruits.push('grape');\n\n// Loop through array\nfor (let i = 0; i < fruits.length; i++) {\n    console.log(fruits[i]);\n}"
       },
       {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Practice Project: Simple Calculator"
+        "text": "Practice Project: Simple Calculator",
+        "id": "practice-project"
       },
       {
         "type": "paragraph",
@@ -165,6 +196,7 @@
       {
         "type": "code",
         "language": "javascript",
+        "title": "calculator.js",
         "code": "function calculator(num1, num2, operation) {\n    if (operation === 'add') {\n        return num1 + num2;\n    } else if (operation === 'subtract') {\n        return num1 - num2;\n    } else if (operation === 'multiply') {\n        return num1 * num2;\n    } else if (operation === 'divide') {\n        return num1 / num2;\n    } else {\n        return 'Invalid operation';\n    }\n}\n\n// Test the calculator\nconsole.log(calculator(10, 5, 'add'));       // Output: 15\nconsole.log(calculator(10, 5, 'subtract'));  // Output: 5\nconsole.log(calculator(10, 5, 'multiply'));  // Output: 50\nconsole.log(calculator(10, 5, 'divide'));    // Output: 2"
       },
       {
@@ -173,9 +205,16 @@
         "author": "Modern Age Coders"
       },
       {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Congratulations!",
+        "text": "You've learned the basics of JavaScript! Now it's time to practice and build projects."
+      },
+      {
         "type": "heading",
         "level": 2,
-        "text": "Next Steps"
+        "text": "Next Steps",
+        "id": "next-steps"
       },
       {
         "type": "paragraph",
@@ -195,6 +234,12 @@
       {
         "type": "paragraph",
         "text": "Remember, everyone starts as a beginner. The key is consistent practice and not being afraid to make mistakes. Happy coding!"
+      },
+      {
+        "type": "button",
+        "text": "Start Learning JavaScript",
+        "url": "/courses",
+        "style": "primary"
       }
     ]
   },

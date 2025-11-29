@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "slug": "example-all-features",
+    "title": "Complete Blog Features Example - All Content Types",
+    "description": "A comprehensive example showcasing all available blog content types including callouts, videos, tables, accordions, galleries, and more.",
+    "keywords": ["blog features", "content types", "examples", "tutorial"],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2025-11-30",
+    "dateModified": "2025-11-30",
+    "category": "Tutorial",
+    "tags": ["Features", "Examples", "Guide"],
+    "readTime": "10 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Complete Blog Features Example",
+    "subtitle": "Learn how to use all available content types in your blog posts",
+    "featuredImage": {
+      "url": "https://placehold.co/1200x600/8A2BE2/FFFFFF?text=All+Features",
+      "alt": "Blog features showcase"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "This blog post demonstrates all the powerful content types available in our blog system. Use this as a reference when creating your own blog posts!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Basic Content Types",
+        "id": "basic-content"
+      },
+      {
+        "type": "paragraph",
+        "text": "Regular paragraphs support <strong>bold text</strong>, <em>italic text</em>, and <a href='https://example.com'>hyperlinks</a>. You can combine these for rich formatting."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Lists"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Unordered lists use custom arrow bullets",
+          "Perfect for feature lists",
+          "Easy to read and scan"
+        ]
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Ordered lists use numbered markers",
+          "Great for step-by-step instructions",
+          "Automatically numbered"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Callout Boxes",
+        "id": "callouts"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Information Callout",
+        "text": "Use info callouts to highlight important information that readers should know."
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Pro Tip",
+        "text": "Tip callouts are perfect for sharing helpful advice and best practices with your readers."
+      },
+      {
+        "type": "callout",
+        "calloutType": "warning",
+        "title": "Warning",
+        "text": "Warning callouts help alert readers to potential issues or things to watch out for."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Success",
+        "text": "Success callouts are great for highlighting positive outcomes or completed steps."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Code Examples",
+        "id": "code-examples"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can include inline code like <code>const x = 10;</code> or full code blocks with syntax highlighting."
+      },
+      {
+        "type": "code",
+        "language": "javascript",
+        "title": "example.js",
+        "code": "// JavaScript example with title\nfunction greet(name) {\n  console.log(`Hello, ${name}!`);\n  return `Welcome to Modern Age Coders`;\n}\n\ngreet('Student');"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Python example without title\ndef calculate_sum(numbers):\n    total = sum(numbers)\n    return total\n\nresult = calculate_sum([1, 2, 3, 4, 5])\nprint(f'Sum: {result}')"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quotes",
+        "id": "quotes"
+      },
+      {
+        "type": "quote",
+        "text": "Education is the most powerful weapon which you can use to change the world.",
+        "author": "Nelson Mandela"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Tables",
+        "id": "tables"
+      },
+      {
+        "type": "table",
+        "headers": ["Language", "Difficulty", "Best For"],
+        "rows": [
+          ["Scratch", "Beginner", "Kids 6-12"],
+          ["Python", "Beginner", "Ages 10+"],
+          ["JavaScript", "Intermediate", "Web Development"],
+          ["Java", "Intermediate", "Enterprise Apps"]
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Accordion (FAQ Style)",
+        "id": "accordion"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What age should kids start coding?",
+            "content": "Children can start learning coding concepts as early as 5-6 years old with visual programming tools like Scratch. Text-based coding is typically introduced around age 10-12."
+          },
+          {
+            "title": "Do I need prior experience?",
+            "content": "No prior experience is needed! Our courses are designed for complete beginners and guide you step-by-step through the learning process."
+          },
+          {
+            "title": "How long does it take to learn?",
+            "content": "Learning timelines vary by individual, but most students see significant progress within 3-6 months of consistent practice. The key is regular practice and building projects."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Video Embeds",
+        "id": "videos"
+      },
+      {
+        "type": "video",
+        "platform": "youtube",
+        "videoId": "dQw4w9WgXcQ",
+        "caption": "Example YouTube video embed"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Image Gallery",
+        "id": "gallery"
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "url": "https://placehold.co/400x300/8A2BE2/FFFFFF?text=Image+1",
+            "alt": "Gallery image 1",
+            "caption": "First image"
+          },
+          {
+            "url": "https://placehold.co/400x300/4ecdc4/FFFFFF?text=Image+2",
+            "alt": "Gallery image 2",
+            "caption": "Second image"
+          },
+          {
+            "url": "https://placehold.co/400x300/FFA500/FFFFFF?text=Image+3",
+            "alt": "Gallery image 3",
+            "caption": "Third image"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Buttons & CTAs",
+        "id": "buttons"
+      },
+      {
+        "type": "button",
+        "text": "Enroll Now",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "button",
+        "text": "Learn More",
+        "url": "/about",
+        "style": "secondary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Dividers",
+        "id": "dividers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use dividers to separate major sections:"
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "paragraph",
+        "text": "Gradient divider:"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dashed divider:"
+      },
+      {
+        "type": "divider",
+        "style": "dashed"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Column Layouts",
+        "id": "columns"
+      },
+      {
+        "type": "columns",
+        "columns": [
+          {
+            "content": [
+              {
+                "type": "heading",
+                "level": 3,
+                "text": "Column 1"
+              },
+              {
+                "type": "paragraph",
+                "text": "Content in the first column. Perfect for side-by-side comparisons."
+              }
+            ]
+          },
+          {
+            "content": [
+              {
+                "type": "heading",
+                "level": 3,
+                "text": "Column 2"
+              },
+              {
+                "type": "paragraph",
+                "text": "Content in the second column. Great for features or benefits."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Single Images",
+        "id": "images"
+      },
+      {
+        "type": "image",
+        "url": "https://placehold.co/800x400/8A2BE2/FFFFFF?text=Featured+Image",
+        "alt": "Example featured image",
+        "caption": "Images can have captions to provide context"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "These are all the content types available in our blog system. Mix and match them to create engaging, professional blog posts that keep readers interested!"
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Ready to Create?",
+        "text": "Now you know all the tools available. Start creating amazing blog content today!"
+      }
+    ]
+  },
+  "relatedPosts": ["coding-for-kids-guide", "python-for-beginners"]
+}
