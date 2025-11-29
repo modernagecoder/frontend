@@ -155,6 +155,11 @@
   status = 200
 
 [[redirects]]
+  from = "/student-labs"
+  to = "/src/pages/student-labs.html"
+  status = 200
+
+[[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
   status = 200
