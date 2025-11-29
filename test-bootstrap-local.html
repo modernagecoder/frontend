@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Bootstrap Page - Local</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-section {
+            background: #f8f9fa;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            border-left: 4px solid #0d6efd;
+        }
+        .success {
+            background: #d1e7dd;
+            border-left-color: #198754;
+        }
+        .error {
+            background: #f8d7da;
+            border-left-color: #dc3545;
+        }
+        a {
+            color: #0d6efd;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        h1 {
+            color: #212529;
+        }
+        h2 {
+            color: #495057;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 Bootstrap Page - Local Testing</h1>
+    
+    <div class="test-section">
+        <h2>📍 Test URLs</h2>
+        <p>Try accessing the Bootstrap page using these URLs:</p>
+        <ul>
+            <li><a href="/bootstrap" target="_blank">/bootstrap</a> (Clean URL - requires server)</li>
+            <li><a href="/src/pages/bootstrap.html" target="_blank">/src/pages/bootstrap.html</a> (Direct path)</li>
+            <li><a href="src/pages/bootstrap.html" target="_blank">src/pages/bootstrap.html</a> (Relative path)</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2>🚀 How to Run Local Server</h2>
+        
+        <h3>Option 1: Using Netlify Dev (Recommended)</h3>
+        <pre><code>netlify dev</code></pre>
+        <p>Then visit: <a href="http://localhost:8888/bootstrap" target="_blank">http://localhost:8888/bootstrap</a></p>
+        
+        <h3>Option 2: Using Python</h3>
+        <pre><code>python -m http.server 8000</code></pre>
+        <p>Then visit: <a href="http://localhost:8000/src/pages/bootstrap.html" target="_blank">http://localhost:8000/src/pages/bootstrap.html</a></p>
+        
+        <h3>Option 3: Using Node.js http-server</h3>
+        <pre><code>npx http-server -p 8000</code></pre>
+        <p>Then visit: <a href="http://localhost:8000/src/pages/bootstrap.html" target="_blank">http://localhost:8000/src/pages/bootstrap.html</a></p>
+        
+        <h3>Option 4: Using Live Server (VS Code Extension)</h3>
+        <p>1. Install "Live Server" extension in VS Code</p>
+        <p>2. Right-click on <code>src/pages/bootstrap.html</code></p>
+        <p>3. Select "Open with Live Server"</p>
+    </div>
+
+    <div class="test-section">
+        <h2>⚠️ Important Notes</h2>
+        <ul>
+            <li><strong>Clean URLs (/bootstrap)</strong> only work with Netlify Dev or a proper server that supports redirects</li>
+            <li><strong>Direct paths</strong> work with any local server</li>
+            <li>If using Python or http-server, use the direct path: <code>/src/pages/bootstrap.html</code></li>
+            <li>For production-like testing, use <code>netlify dev</code></li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2>🔍 Troubleshooting</h2>
+        
+        <h3>Issue: /bootstrap shows 404</h3>
+        <p><strong>Solution:</strong></p>
+        <ul>
+            <li>Make sure you're using <code>netlify dev</code> (not python or http-server)</li>
+            <li>Check that <code>_redirects</code> file exists in root</li>
+            <li>Verify the line: <code>/bootstrap /src/pages/bootstrap.html 200</code> is in _redirects</li>
+            <li>Restart the server</li>
+        </ul>
+        
+        <h3>Issue: Components not loading</h3>
+        <p><strong>Solution:</strong></p>
+        <ul>
+            <li>Check browser console for errors</li>
+            <li>Verify <code>/components/nav.html</code> exists</li>
+            <li>Verify <code>/components/footer.html</code> exists</li>
+            <li>Verify <code>/src/js/components-loader.js</code> exists</li>
+        </ul>
+        
+        <h3>Issue: Styles not loading</h3>
+        <p><strong>Solution:</strong></p>
+        <ul>
+            <li>Check that <code>/src/css/style.css</code> exists</li>
+            <li>Check that <code>/src/css/responsive.css</code> exists</li>
+            <li>Check browser console for 404 errors</li>
+            <li>Verify paths in HTML are correct</li>
+        </ul>
+    </div>
+
+    <div class="test-section success">
+        <h2>✅ Quick Test Checklist</h2>
+        <p>Once the page loads, verify:</p>
+        <ul>
+            <li>[ ] Page loads without errors</li>
+            <li>[ ] Navigation appears at top</li>
+            <li>[ ] Footer appears at bottom</li>
+            <li>[ ] Breadcrumbs show: Home → Resources → Bootstrap Guide</li>
+            <li>[ ] Hero section is visible</li>
+            <li>[ ] All text is readable (good contrast)</li>
+            <li>[ ] Code examples are visible</li>
+            <li>[ ] Smooth scrolling works</li>
+            <li>[ ] Mobile responsive (test by resizing)</li>
+            <li>[ ] No console errors</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2>📝 Color Contrast Fixes Applied</h2>
+        <p>The following color improvements were made for better readability:</p>
+        <ul>
+            <li><strong>Explanation boxes:</strong> Darker blue text (#004085)</li>
+            <li><strong>Why boxes:</strong> Darker brown text (#664d03)</li>
+            <li><strong>Example boxes:</strong> Darker teal text (#055160)</li>
+            <li><strong>Key points:</strong> Darker green text (#0f5132)</li>
+            <li><strong>Note boxes:</strong> Darker red text (#842029)</li>
+            <li><strong>Topic titles:</strong> Dark text (#212529) with better background</li>
+            <li><strong>Breadcrumbs:</strong> Improved contrast</li>
+        </ul>
+        <p>All colors now meet WCAG AA standards for contrast ratio (4.5:1 minimum).</p>
+    </div>
+
+    <script>
+        // Auto-detect which server is running
+        window.addEventListener('DOMContentLoaded', function() {
+            const port = window.location.port;
+            const protocol = window.location.protocol;
+            const hostname = window.location.hostname;
+            
+            console.log('Current URL:', window.location.href);
+            console.log('Server:', protocol + '//' + hostname + ':' + port);
+            
+            if (port === '8888') {
+                console.log('✅ Netlify Dev detected - Clean URLs should work');
+            } else {
+                console.log('⚠️ Using basic server - Use direct paths: /src/pages/bootstrap.html');
+            }
+        });
+    </script>
+</body>
+</html>

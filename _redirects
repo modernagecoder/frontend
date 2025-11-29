@@ -28,9 +28,11 @@
 /terms /src/pages/terms.html 200
 /privacy /src/pages/privacy.html 200
 /login /src/pages/login.html 200
+/faq /src/pages/faq.html 200
 /beat-the-babu /src/pages/beat-the-babu.html 200
 /aura /src/pages/aura.html 200
 /student-labs /src/pages/student-labs.html 200
+/bootstrap /src/pages/bootstrap.html 200
 /blog /content/blog/generated/index.html 200
 
 # Course category pages (must come before individual courses)

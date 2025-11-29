@@ -696,6 +696,16 @@
   </url>
 
   <!-- ========================================
+       RESOURCES & GUIDES
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/bootstrap</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ========================================
        BLOG POSTS
        ======================================== -->
   <url>

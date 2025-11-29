@@ -160,6 +160,11 @@
   status = 200
 
 [[redirects]]
+  from = "/bootstrap"
+  to = "/src/pages/bootstrap.html"
+  status = 200
+
+[[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
   status = 200
