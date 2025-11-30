@@ -785,17 +785,21 @@
 
         .badge-tooltip {
             position: absolute;
-            bottom: -35px;
-            background: rgba(0, 0, 0, 0.8);
+            bottom: -50px;
+            background: rgba(0, 0, 0, 0.9);
             color: white;
-            padding: 4px 8px;
-            border-radius: 4px;
+            padding: 6px 10px;
+            border-radius: 6px;
             font-size: 0.7rem;
             white-space: nowrap;
             opacity: 0;
             transform: translateY(-5px);
             transition: all 0.2s;
             pointer-events: none;
+            text-align: center;
+            line-height: 1.4;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         #toast {
@@ -1149,10 +1153,10 @@
             </div>
 
             <div class="badge-container" id="final-badges">
-                <div class="badge" id="badge-speed" title="Speed (>60 WPM)">⚡<span class="badge-tooltip">Flow Master</span></div>
-                <div class="badge" id="badge-acc" title="Accuracy (100%)">🎯<span class="badge-tooltip">Perfectionist</span></div>
-                <div class="badge" id="badge-endurance" title="Completed All">🛡️<span class="badge-tooltip">Resilient</span></div>
-                <div class="badge" id="badge-god" title="God Mode (>100 WPM)">✨<span class="badge-tooltip">Transcendent</span></div>
+                <div class="badge" id="badge-speed" title="Speed (>60 WPM)">⚡<span class="badge-tooltip">Flow Master<br><small style="opacity: 0.8; font-size: 0.75em;">60+ WPM</small></span></div>
+                <div class="badge" id="badge-acc" title="Accuracy (100%)">🎯<span class="badge-tooltip">Perfectionist<br><small style="opacity: 0.8; font-size: 0.75em;">98%+ Accuracy</small></span></div>
+                <div class="badge" id="badge-endurance" title="Completed All">🛡️<span class="badge-tooltip">Resilient<br><small style="opacity: 0.8; font-size: 0.75em;">Complete All Stages</small></span></div>
+                <div class="badge" id="badge-god" title="God Mode (>100 WPM)">✨<span class="badge-tooltip">Transcendent<br><small style="opacity: 0.8; font-size: 0.75em;">100+ WPM</small></span></div>
             </div>
 
             <div id="name-entry" style="margin-top: 2.5rem; display: none;">
