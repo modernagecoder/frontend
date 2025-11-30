@@ -617,31 +617,125 @@
 
         .lb-player-info {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         .lb-player-name {
             font-weight: 600;
             font-size: 1.05rem;
             color: var(--text-main);
-            margin-bottom: 0.2rem;
+            margin-bottom: 0.3rem;
         }
 
-        .lb-player-wpm {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            font-family: var(--font-mono);
+        .lb-player-stats {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.4rem;
         }
 
-        .lb-score {
+        .lb-accuracy-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.3rem 0.7rem;
+            background: rgba(129, 140, 248, 0.15);
+            border: 1px solid rgba(129, 140, 248, 0.3);
+            border-radius: 20px;
             font-family: var(--font-mono);
-            font-size: 1.3rem;
-            font-weight: 700;
+            font-size: 0.85rem;
+            font-weight: 600;
             color: var(--accent-primary);
+            transition: all 0.3s ease;
         }
 
-        .lb-entry.top-1 .lb-score { color: var(--accent-gold); }
-        .lb-entry.top-2 .lb-score { color: var(--accent-silver); }
-        .lb-entry.top-3 .lb-score { color: var(--accent-bronze); }
+        .lb-accuracy-icon {
+            font-size: 0.9rem;
+        }
+
+        .lb-accuracy-value {
+            font-weight: 700;
+        }
+
+        .lb-entry:hover .lb-accuracy-badge {
+            background: rgba(129, 140, 248, 0.25);
+            border-color: rgba(129, 140, 248, 0.5);
+            transform: scale(1.05);
+        }
+
+        .lb-entry.top-1 .lb-accuracy-badge {
+            background: rgba(255, 215, 0, 0.15);
+            border-color: rgba(255, 215, 0, 0.4);
+            color: var(--accent-gold);
+        }
+
+        .lb-entry.top-2 .lb-accuracy-badge {
+            background: rgba(192, 192, 192, 0.15);
+            border-color: rgba(192, 192, 192, 0.4);
+            color: var(--accent-silver);
+        }
+
+        .lb-entry.top-3 .lb-accuracy-badge {
+            background: rgba(205, 127, 50, 0.15);
+            border-color: rgba(205, 127, 50, 0.4);
+            color: var(--accent-bronze);
+        }
+
+        .lb-wpm-display {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+            min-width: 100px;
+        }
+
+        .lb-wpm-number {
+            font-family: var(--font-mono);
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0 0 30px rgba(129, 140, 248, 0.3);
+        }
+
+        .lb-wpm-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-top: 0.2rem;
+            font-weight: 500;
+        }
+
+        .lb-entry.top-1 .lb-wpm-number {
+            background: linear-gradient(135deg, var(--accent-gold), #ffaa00);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
+        }
+
+        .lb-entry.top-2 .lb-wpm-number {
+            background: linear-gradient(135deg, var(--accent-silver), #e8e8e8);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 15px rgba(192, 192, 192, 0.4));
+        }
+
+        .lb-entry.top-3 .lb-wpm-number {
+            background: linear-gradient(135deg, var(--accent-bronze), #e8a060);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 15px rgba(205, 127, 50, 0.4));
+        }
+
+
 
         .lb-empty {
             text-align: center;
@@ -910,6 +1004,10 @@
             .lb-header h2 { font-size: 1.5rem; }
             .lb-entry { padding: 0.8rem; }
             .lb-rank { width: 35px; height: 35px; font-size: 0.85rem; }
+            .lb-player-stats { flex-direction: row; gap: 0.3rem; margin-top: 0.3rem; }
+            .lb-wpm-number { font-size: 2rem; }
+            .lb-wpm-display { min-width: 80px; }
+            .lb-accuracy-badge { font-size: 0.75rem; padding: 0.25rem 0.5rem; }
         }
 
         @media (max-width: 480px) {
@@ -1078,7 +1176,7 @@
             <div class="lb-header">
                 <span class="lb-trophy">🏆</span>
                 <h2>Hall of Champions</h2>
-                <p>The finest typists in the realm</p>
+                <p>Ranked by typing speed (WPM)</p>
             </div>
             <div class="lb-list" id="lb-full-list"></div>
         </div>
@@ -1146,10 +1244,10 @@
                 <h3>🏆 Leaderboard Ranking</h3>
                 <p>Rankings are determined by:</p>
                 <ul>
-                    <li><strong style="color: var(--text-main);">Primary:</strong> Total Score (higher is better)</li>
-                    <li><strong style="color: var(--text-main);">Tiebreaker:</strong> WPM (faster typist wins)</li>
+                    <li><strong style="color: var(--text-main);">Primary:</strong> WPM (faster typist wins)</li>
+                    <li><strong style="color: var(--text-main);">Tiebreaker:</strong> Accuracy (higher accuracy wins)</li>
                 </ul>
-                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Same score? The faster typist takes the higher rank!</p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Same WPM? The more accurate typist takes the higher rank!</p>
             </div>
 
             <div class="rules-section">
@@ -1208,7 +1306,7 @@
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
-        import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, onSnapshot } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, onSnapshot, doc, updateDoc } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-firestore.js";
 
         // --- FIREBASE CONFIG ---
         const firebaseConfig = {
@@ -1281,8 +1379,10 @@
             stageIdx: 0,
             score: 0,
             wpm: 0,
+            accuracy: 0,
             wordsTyped: 0,
             charsTyped: 0,
+            correctChars: 0,
             errors: 0,
             correctWords: 0,
             wrongWords: 0,
@@ -1416,14 +1516,33 @@
 
         function renderLeaderboardEntry(player, index) {
             const topClass = index === 0 ? 'top-1' : index === 1 ? 'top-2' : index === 2 ? 'top-3' : '';
+            const accuracy = player.accuracy || 0;
+            const wpm = player.wpm || 0;
+            
+            // Choose icon based on accuracy
+            let accuracyIcon = '🎯';
+            if (accuracy >= 98) accuracyIcon = '💎';
+            else if (accuracy >= 95) accuracyIcon = '⭐';
+            else if (accuracy >= 90) accuracyIcon = '🎯';
+            else if (accuracy >= 80) accuracyIcon = '✓';
+            
             return `
                 <div class="lb-entry ${topClass}">
                     <div class="lb-rank">${index + 1}</div>
                     <div class="lb-player-info">
                         <div class="lb-player-name">${player.name}</div>
-                        <div class="lb-player-wpm">${player.wpm || 0} WPM</div>
+                        <div class="lb-player-stats">
+                            <div class="lb-accuracy-badge">
+                                <span class="lb-accuracy-icon">${accuracyIcon}</span>
+                                <span>Accuracy: </span>
+                                <span class="lb-accuracy-value">${accuracy}%</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="lb-score">${player.score.toLocaleString()}</div>
+                    <div class="lb-wpm-display">
+                        <div class="lb-wpm-number">${wpm}</div>
+                        <div class="lb-wpm-label">WPM</div>
+                    </div>
                 </div>
             `;
         }
@@ -1450,6 +1569,7 @@
             state.wpm = 0;
             state.wordsTyped = 0;
             state.charsTyped = 0;
+            state.correctChars = 0;
             state.errors = 0;
             state.correctWords = 0;
             state.wrongWords = 0;
@@ -1532,8 +1652,10 @@
 
             if (val.length > state.inputVal.length) {
                 const charIdx = val.length - 1;
+                state.charsTyped++;
                 if (val[charIdx] === word[charIdx]) {
                     playSound('type');
+                    state.correctChars++;
                 } else {
                     playSound('error');
                     state.errors++;
@@ -1556,7 +1678,6 @@
                         baseScore += 15; // Perfect word bonus
                     }
                     state.score += baseScore;
-                    state.charsTyped += word.length;
                     state.correctWords++;
                 } else {
                     playSound('error');
@@ -1585,8 +1706,9 @@
         function gameLoop() {
             state.timeLeft--;
             els.hudTime.innerText = state.timeLeft;
+            // Calculate WPM based on correct characters only (more accurate)
             const elapsedMin = (Date.now() - state.startTime) / 60000;
-            state.wpm = Math.round((state.charsTyped / 5) / elapsedMin) || 0;
+            state.wpm = Math.round((state.correctChars / 5) / elapsedMin) || 0;
             els.hudWpm.innerText = state.wpm;
             if (state.timeLeft <= 0) endStage();
         }
@@ -1601,7 +1723,7 @@
             document.body.classList.remove('game-active');
 
             if (state.stageIdx < STAGES.length - 1) {
-                const acc = Math.round(((state.charsTyped - state.errors) / state.charsTyped) * 100) || 100;
+                const acc = state.charsTyped > 0 ? Math.max(0, Math.round((state.correctChars / state.charsTyped) * 100)) : 100;
                 document.getElementById('round-acc').innerText = acc + '%';
                 document.getElementById('round-words').innerText = state.wordsTyped;
                 els.roundName.innerText = STAGES[state.stageIdx].name + " Complete";
@@ -1616,7 +1738,10 @@
             els.finalScore.innerText = state.score;
             els.btnStart.disabled = false;
 
-            const acc = Math.round(((state.charsTyped - state.errors) / state.charsTyped) * 100) || 0;
+            // Calculate final accuracy based on correct chars vs total chars typed
+            const acc = state.charsTyped > 0 ? Math.max(0, Math.round((state.correctChars / state.charsTyped) * 100)) : 0;
+            state.accuracy = acc; // Store for saving to database
+            
             document.getElementById('badge-speed').classList.toggle('unlocked', state.wpm > 60);
             document.getElementById('badge-acc').classList.toggle('unlocked', acc >= 98);
             document.getElementById('badge-endurance').classList.toggle('unlocked', true);
@@ -1625,23 +1750,23 @@
             if (window.confetti) {
                 confetti({ particleCount: 200, spread: 100, origin: { y: 0.6 }, colors: ['#818cf8', '#c084fc', '#ffffff'] });
             }
-            checkLeaderboard(state.score);
+            checkLeaderboard(state.wpm);
         }
 
-        async function checkLeaderboard(score) {
+        async function checkLeaderboard(wpm) {
             if (!lbRef) return;
             try {
-                const q = query(lbRef, orderBy("score", "desc"), limit(50));
+                const q = query(lbRef, orderBy("wpm", "desc"), limit(50));
                 const snap = await getDocs(q);
                 let data = snap.docs.map(d => d.data());
-                // Sort by score, then WPM as tiebreaker
+                // Sort by WPM, then accuracy as tiebreaker
                 data.sort((a, b) => {
-                    if (b.score !== a.score) return b.score - a.score;
-                    return (b.wpm || 0) - (a.wpm || 0);
+                    if ((b.wpm || 0) !== (a.wpm || 0)) return (b.wpm || 0) - (a.wpm || 0);
+                    return (b.accuracy || 0) - (a.accuracy || 0);
                 });
                 data = data.slice(0, 25);
-                const lowest = data.length < 25 ? 0 : data[data.length - 1].score;
-                if (score > lowest || data.length < 25) {
+                const lowestWpm = data.length < 25 ? 0 : data[data.length - 1].wpm;
+                if (wpm > lowestWpm || data.length < 25) {
                     els.nameEntry.style.display = 'block';
                     setTimeout(() => els.nameEntry.scrollIntoView({ behavior: 'smooth' }), 500);
                 } else {
@@ -1699,15 +1824,101 @@
         document.getElementById('btn-restart').addEventListener('click', () => { switchScreen('start'); els.btnStart.disabled = false; });
 
         document.getElementById('btn-submit-score').addEventListener('click', async () => {
-            const name = document.getElementById('player-name').value.trim() || 'Anonymous';
+            let name = document.getElementById('player-name').value.trim() || 'Anonymous';
             const btn = document.getElementById('btn-submit-score');
             btn.disabled = true;
             btn.innerText = "Saving...";
+            
+            // Calculate final accuracy before saving
+            const finalAccuracy = state.charsTyped > 0 ? Math.max(0, Math.round((state.correctChars / state.charsTyped) * 100)) : 0;
+            
             try {
-                await addDoc(lbRef, { name: name, score: state.score, wpm: state.wpm, timestamp: new Date() });
-                showToast("Score Saved to Cloud");
+                // Check if this name already exists
+                const existingQuery = query(lbRef, orderBy("name"));
+                const existingSnap = await getDocs(existingQuery);
+                const existingPlayers = existingSnap.docs.map(d => ({ id: d.id, ...d.data() }));
+                
+                // Find exact match for this name
+                const exactMatch = existingPlayers.find(p => p.name === name);
+                
+                if (exactMatch) {
+                    // Same player - check if new score is better
+                    if (state.wpm > (exactMatch.wpm || 0)) {
+                        // Update existing record with better score
+                        const docToUpdate = doc(db, "leaderboards", exactMatch.id);
+                        await updateDoc(docToUpdate, {
+                            score: state.score,
+                            wpm: state.wpm,
+                            accuracy: finalAccuracy,
+                            timestamp: new Date()
+                        });
+                        showToast("🎉 New Personal Best!");
+                    } else {
+                        // Worse score - don't save
+                        showToast("Previous score was better!");
+                    }
+                } else {
+                    // New player - but check if similar names exist (Vansh, Vansh2, etc.)
+                    const baseName = name.replace(/\d+$/, ''); // Remove trailing numbers
+                    const similarNames = existingPlayers.filter(p => p.name.startsWith(baseName));
+                    
+                    if (similarNames.length > 0 && similarNames[0].name === baseName) {
+                        // Similar name exists - ask user if they're the same person
+                        const isSamePerson = confirm(`A player named "${baseName}" already exists. Are you the same person?\n\nClick OK if YES (we'll update your score)\nClick CANCEL if NO (we'll add a number to your name)`);
+                        
+                        if (isSamePerson) {
+                            // Update existing player's score if better
+                            const existingPlayer = similarNames[0];
+                            if (state.wpm > (existingPlayer.wpm || 0)) {
+                                const docToUpdate = doc(db, "leaderboards", existingPlayer.id);
+                                await updateDoc(docToUpdate, {
+                                    score: state.score,
+                                    wpm: state.wpm,
+                                    accuracy: finalAccuracy,
+                                    timestamp: new Date()
+                                });
+                                showToast("🎉 Score Updated!");
+                            } else {
+                                showToast("Previous score was better!");
+                            }
+                        } else {
+                            // Different person - add number suffix
+                            let counter = 2;
+                            let newName = `${baseName}${counter}`;
+                            while (existingPlayers.some(p => p.name === newName)) {
+                                counter++;
+                                newName = `${baseName}${counter}`;
+                            }
+                            name = newName;
+                            
+                            // Save with new numbered name
+                            await addDoc(lbRef, {
+                                name: name,
+                                score: state.score,
+                                wpm: state.wpm,
+                                accuracy: finalAccuracy,
+                                timestamp: new Date()
+                            });
+                            showToast(`Saved as "${name}"!`);
+                        }
+                    } else {
+                        // Completely new name - save it
+                        await addDoc(lbRef, {
+                            name: name,
+                            score: state.score,
+                            wpm: state.wpm,
+                            accuracy: finalAccuracy,
+                            timestamp: new Date()
+                        });
+                        showToast("Score Saved to Cloud!");
+                    }
+                }
+                
                 els.nameEntry.style.display = 'none';
-            } catch (e) { console.error(e); showToast("Error Saving Score"); }
+            } catch (e) { 
+                console.error(e); 
+                showToast("Error Saving Score"); 
+            }
             btn.disabled = false;
             btn.innerText = "Save Record";
         });
@@ -1721,19 +1932,19 @@
 
         // --- LEADERBOARD LIVE FEED ---
         if (lbRef) {
-            onSnapshot(query(lbRef, orderBy("score", "desc"), limit(50)), (snap) => {
+            onSnapshot(query(lbRef, orderBy("wpm", "desc"), limit(50)), (snap) => {
                 let players = snap.docs.map(d => d.data());
                 
-                // Sort by score first, then by WPM as tiebreaker (higher WPM wins)
+                // Sort by WPM first, then by accuracy as tiebreaker
                 players.sort((a, b) => {
-                    if (b.score !== a.score) return b.score - a.score;
-                    return (b.wpm || 0) - (a.wpm || 0);
+                    if ((b.wpm || 0) !== (a.wpm || 0)) return (b.wpm || 0) - (a.wpm || 0);
+                    return (b.accuracy || 0) - (a.accuracy || 0);
                 });
                 
                 // Take top 25 after sorting
                 players = players.slice(0, 25);
                 
-                // Full leaderboard
+                // Render leaderboard
                 if (players.length === 0) {
                     els.lbFullList.innerHTML = `
                         <div class="lb-empty">
