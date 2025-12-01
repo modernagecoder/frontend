@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#007bff"/>
+
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    
+    <path d="M116 85 C 75 85, 70 120, 70 145 V 225 C 70 250, 50 256, 40 256 C 50 256, 70 262, 70 287 V 367 C 70 392, 75 427, 116 427" stroke-width="12"/>
+    
+    <path d="M396 85 C 437 85, 442 120, 442 145 V 225 C 442 250, 462 256, 472 256 C 462 256, 442 262, 442 287 V 367 C 442 392, 437 427, 396 427" stroke-width="12"/>
+    
+    <line x1="182" y1="190" x2="182" y2="300" stroke-width="10"/>
+    <line x1="330" y1="190" x2="330" y2="300" stroke-width="10"/>
+    
+    <line x1="182" y1="190" x2="262" y2="256" stroke-width="10"/>
+    <line x1="330" y1="190" x2="250" y2="256" stroke-width="10"/>
+  </g>
+
+  <g fill="#ffffff">
+    <circle cx="182" cy="190" r="41"/>
+    <circle cx="330" cy="190" r="41"/>
+    
+    <path d="M182 256 A 41 41 0 1 0 182 338 C 182 338 182 380 148 412 L 140 420 C 160 420 200 390 223 300 A 41 41 0 0 0 182 256 Z"/>
+
+    <path d="M330 256 A 41 41 0 1 0 330 338 C 330 338 330 380 296 412 L 288 420 C 308 420 340 390 371 300 A 41 41 0 0 0 330 256 Z"/>
+  </g>
+</svg>

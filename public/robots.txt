@@ -21,6 +21,7 @@ Allow: /pricing
 Allow: /business-solutions
 Allow: /aura
 Allow: /beat-the-babu
+Allow: /love
 
 # Sitemap location
 Sitemap: https://learn.modernagecoders.com/sitemap.xml

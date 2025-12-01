@@ -2,7 +2,7 @@
 
 [build]
   # Generate blog and course content before deployment
-  command = "npm install && npm run generate:all"
+  command = "npm install && npm run generate:all && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 
@@ -98,6 +98,12 @@
   to = "/src/admin/:splat"
   status = 200
 
+# Lovewall assets (built files)
+[[redirects]]
+  from = "/assets/*"
+  to = "/lovewall/dist/assets/:splat"
+  status = 200
+
 # Rewrite rules for clean URLs
 [[redirects]]
   from = "/"
@@ -162,6 +168,11 @@
 [[redirects]]
   from = "/bootstrap"
   to = "/src/pages/bootstrap.html"
+  status = 200
+
+[[redirects]]
+  from = "/love"
+  to = "/lovewall/dist/index.html"
   status = 200
 
 [[redirects]]

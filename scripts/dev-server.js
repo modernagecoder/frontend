@@ -48,6 +48,7 @@ function resolveFilePath(url) {
     if (urlPath === '/privacy') return 'src/pages/privacy.html';
     if (urlPath === '/student-labs') return 'src/pages/student-labs.html';
     if (urlPath === '/projects') return 'src/pages/projects.html';
+    if (urlPath === '/love') return 'lovewall/dist/index.html';
     if (urlPath === '/index.html') return 'src/pages/index.html';
     
     // Static assets
@@ -61,6 +62,12 @@ function resolveFilePath(url) {
         return urlPath.substring(1); // Remove leading slash, serve from root
     }
     if (urlPath.startsWith('/images/')) {
+        // Check if image exists in lovewall/dist/images first (for /love page)
+        const lovewallImagePath = 'lovewall/dist' + urlPath;
+        if (fs.existsSync(lovewallImagePath)) {
+            return lovewallImagePath;
+        }
+        // Otherwise serve from public/images
         return urlPath.replace('/images/', 'public/images/');
     }
     if (urlPath.startsWith('/favicon/')) {
@@ -71,6 +78,11 @@ function resolveFilePath(url) {
     }
     if (urlPath.startsWith('/admin/')) {
         return urlPath.replace('/admin/', 'src/admin/');
+    }
+    
+    // Lovewall assets (serve from dist folder)
+    if (urlPath.startsWith('/assets/')) {
+        return 'lovewall/dist' + urlPath;
     }
     
     // Blog
@@ -102,6 +114,9 @@ function resolveFilePath(url) {
 
 const server = http.createServer((req, res) => {
     let filePath = resolveFilePath(req.url);
+    
+    // Debug logging
+    console.log(`Request: ${req.url} -> ${filePath}`);
     
     // If directory, try index.html
     if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
