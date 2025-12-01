@@ -75,7 +75,7 @@ const App: React.FC = () => {
           <div className="md:hidden border-t-2 border-sketch-black bg-white absolute w-full left-0 shadow-sketch-lg">
             <div className="px-4 pt-2 pb-6 space-y-2">
               <a 
-                href="https://learn.modernagecoders.com/course"
+                href="https://learn.modernagecoders.com/courses"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-3 py-2 font-marker text-xl text-sketch-black hover:bg-pop-yellow rounded-md border-2 border-transparent hover:border-sketch-black transition-all"
@@ -202,7 +202,7 @@ const App: React.FC = () => {
                      "The only certificate which cannot be given, only earned."
                    </p>
                  </div>
-                 <a href="https://learn.modernagecoders.com/course" target="_blank" rel="noopener noreferrer">
+                 <a href="https://learn.modernagecoders.com/courses" target="_blank" rel="noopener noreferrer">
                    <SketchButton className="bg-white hover:bg-pop-yellow">Get Certified 🏅</SketchButton>
                  </a>
               </div>
