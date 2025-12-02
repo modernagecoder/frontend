@@ -20,8 +20,8 @@
     "title": "The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It)",
     "subtitle": "Your child might be scoring 90+ in Computer Science, but are they actually ready for the tech world? Here's the uncomfortable truth.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=CBSE+ICSE+Tech+Gap",
-      "alt": "Indian students learning technology beyond school curriculum"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_cbse_bridge.png",
+      "alt": "Student standing on bridge connecting traditional and modern tech education"
     }
   },
   "content": {
@@ -454,7 +454,7 @@
       },
       {
         "type": "paragraph",
-        "text": "The smart approach is to build real skills throughout the year and focus on board exam strategy closer to the exams. For students with strong fundamentals, scoring well in CS is easier because they actually understand the concepts rather than just memorizing them."
+        "text": "The smart approach is to build real skills throughout the year and focus on board exam strategy closer to the exams. For students with strong fundamentals, scoring well in CS is easier because they actually understand the concepts rather than just memorizing them. Our <a href='/courses'>courses</a> are designed to complement school education, not replace it."
       },
       {
         "type": "callout",
@@ -481,7 +481,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Visual programming: Scratch, Blockly, Code.org activities",
+          "Visual programming: <a href='/courses/scratch-kids'>Scratch</a>, Blockly, Code.org activities",
           "Logic puzzles and computational thinking games",
           "Introduction to how computers and the internet work",
           "Basic typing skills",
@@ -497,9 +497,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Transition from blocks to text-based coding (Python)",
-          "Basic web development: HTML, CSS",
-          "Simple game development projects",
+          "Transition from blocks to text-based coding (<a href='/courses/python-teens'>Python</a>)",
+          "Basic <a href='/courses/web-dev-kids'>web development</a>: HTML, CSS",
+          "Simple <a href='/courses/game-dev-kids'>game development</a> projects",
           "Introduction to algorithms and problem-solving",
           "First personal projects"
         ]
@@ -513,9 +513,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Deeper Python or JavaScript learning",
-          "Full web development: HTML, CSS, JavaScript, basic backend",
-          "Database fundamentals",
+          "Deeper <a href='/courses/python-teens'>Python</a> or JavaScript learning",
+          "Full <a href='/courses/full-stack-teens'>web development</a>: HTML, CSS, JavaScript, basic backend",
+          "Database fundamentals (<a href='/courses/mysql-teens'>MySQL</a>)",
           "Git and GitHub for version control",
           "Building portfolio projects",
           "Participation in coding competitions"
@@ -530,9 +530,9 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Advanced programming and data structures",
-          "Specialization exploration: web, mobile, data science, AI/ML",
-          "Full-stack development or app development",
+          "Advanced programming and <a href='/courses/data-structure-algorithms-college'>data structures</a>",
+          "Specialization exploration: web, mobile, <a href='/courses/data-science-college'>data science</a>, <a href='/courses/ai-ml-college'>AI/ML</a>",
+          "<a href='/courses/full-stack-web-development-college'>Full-stack development</a> or <a href='/courses/app-dev-college'>app development</a>",
           "Internships or freelance projects (if time permits)",
           "Open-source contributions",
           "Board exam preparation alongside real skill-building"
@@ -554,11 +554,11 @@
       },
       {
         "type": "paragraph",
-        "text": "\"My school taught C++ from a 2008 textbook. I started learning Python on my own in Class 9, built some web projects, and by Class 12 I had a GitHub portfolio. I got into a top NIT and had internship offers in first year because I could actually build things—not just write programs on paper.\" — Arjun, B.Tech Student"
+        "text": "\"My school taught C++ from a 2008 textbook. I started learning <a href='/courses/python-mastery-college'>Python</a> on my own in Class 9, built some web projects, and by Class 12 I had a GitHub portfolio. I got into a top NIT and had internship offers in first year because I could actually build things—not just write programs on paper.\" — Arjun, B.Tech Student"
       },
       {
         "type": "paragraph",
-        "text": "\"ICSE taught me Java syntax but not how to think. Weekend coding classes changed everything—I learned to solve problems, not just memorize solutions. Scored 96 in boards AND built an app that got 10,000 downloads.\" — Priya, Class 12 Graduate"
+        "text": "\"ICSE taught me <a href='/courses/java-teens'>Java</a> syntax but not how to think. Weekend coding classes changed everything—I learned to solve problems, not just memorize solutions. Scored 96 in boards AND built an <a href='/courses/app-dev-teens'>app</a> that got 10,000 downloads.\" — Priya, Class 12 Graduate"
       },
       {
         "type": "paragraph",
@@ -654,7 +654,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Absolutely. Tech skills are valuable across all careers. Commerce students benefit from understanding data analysis, automation, and fintech. Humanities students can leverage tech in media, research, and communication. Basic digital literacy is essential regardless of stream."
+        "text": "Absolutely. Tech skills are valuable across all careers. Commerce students benefit from understanding <a href='/courses/data-analysis-college'>data analysis</a>, automation, and fintech. Humanities students can leverage tech in media, research, and communication. Basic digital literacy is essential regardless of stream."
       },
       {
         "type": "heading",
@@ -724,7 +724,7 @@
       },
       {
         "type": "paragraph",
-        "text": "We work with students from Class 3 onwards, building foundational skills early and advancing them systematically. By the time they reach Class 12, they're not learning to code—they're already coders."
+        "text": "We work with students from Class 3 onwards, building foundational skills early and advancing them systematically. By the time they reach Class 12, they're not learning to code—they're already coders. Want to learn more? <a href='/contact'>Contact us</a> for a free consultation."
       },
       {
         "type": "button",

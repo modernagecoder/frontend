@@ -19,8 +19,8 @@
     "title": "Python for Beginners: Start Your Programming Journey",
     "subtitle": "Learn the world's most popular programming language from scratch",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/4ecdc4/000000?text=Python+Programming",
-      "alt": "Python code with colorful syntax highlighting on a dark background"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_python_journey.png",
+      "alt": "Beginner climbing colorful staircase on Python learning journey"
     }
   },
   "content": {
@@ -276,12 +276,12 @@
           "Study object-oriented programming (classes and objects)",
           "Try building projects like a calculator, to-do list, or simple game",
           "Join coding communities and practice on platforms like HackerRank",
-          "Enroll in our Python courses at Modern Age Coders for structured learning"
+          "Enroll in our <a href='/courses/python-teens'>Python courses</a> at Modern Age Coders for structured learning"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Remember, the best way to learn programming is by doing. Write code every day, even if it's just for 15 minutes. Don't be afraid to make mistakes—they're your best teachers. Happy coding!"
+        "text": "Remember, the best way to learn programming is by doing. Write code every day, even if it's just for 15 minutes. Don't be afraid to make mistakes—they're your best teachers. Need help getting started? <a href='/contact'>Contact us</a> for guidance. Happy coding!"
       },
       {
         "type": "button",

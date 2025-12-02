@@ -20,8 +20,8 @@
     "title": "Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?",
     "subtitle": "Both games are wildly popular with kids—but when it comes to real coding skills, one might surprise you.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Minecraft+vs+Roblox+Coding",
-      "alt": "Minecraft and Roblox coding comparison for kids"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_minecraft_roblox_worlds.png",
+      "alt": "Split screen showing Minecraft and Roblox gaming worlds"
     }
   },
   "content": {
@@ -438,7 +438,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of Minecraft and Roblox as entry points, not destinations. They get kids excited about coding—which is half the battle—but continued growth requires expanding horizons."
+        "text": "Think of Minecraft and Roblox as entry points, not destinations. They get kids excited about coding—which is half the battle—but continued growth requires expanding horizons. Explore our <a href='/courses/game-dev-kids'>Game Development courses</a> to take their skills to the next level."
       },
       {
         "type": "button",
@@ -505,7 +505,8 @@
           "Download Roblox Studio (free) and explore the built-in templates.",
           "Visit the Roblox Creator Hub for official tutorials and learning paths.",
           "Start with simple projects: a basic obby, a coin collection game, or a tycoon template modification.",
-          "Join Roblox developer communities where kids can ask questions and share their work."
+          "Join Roblox developer communities where kids can ask questions and share their work.",
+          "Consider enrolling in our <a href='/courses/game-dev-teens'>Game Development course</a> for structured learning and mentorship."
         ]
       },
       {

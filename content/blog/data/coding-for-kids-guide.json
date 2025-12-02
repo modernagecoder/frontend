@@ -20,8 +20,8 @@
     "title": "The Ultimate Guide to Teaching Kids Coding in 2025",
     "subtitle": "Transform your child's future with programming skills that matter",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/8A2BE2/FFFFFF?text=Coding+for+Kids",
-      "alt": "Children learning to code on computers in a colorful classroom"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_coding_adventure.png",
+      "alt": "Children on coding adventure journey climbing stairs to success"
     }
   },
   "content": {
@@ -71,7 +71,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For kids aged 10 and above, Python offers a gentle introduction to text-based programming. Its simple syntax reads almost like English, making it accessible yet powerful enough for real-world applications."
+        "text": "For kids aged 10 and above, <a href='/courses/python-teens'>Python</a> offers a gentle introduction to text-based programming. Its simple syntax reads almost like English, making it accessible yet powerful enough for real-world applications."
       },
       {
         "type": "code",
@@ -170,15 +170,15 @@
         "type": "list",
         "style": "ordered",
         "items": [
-          "Choose an age-appropriate platform (Scratch for younger kids, Python for older ones)",
+          "Choose an age-appropriate platform (<a href='/courses/scratch-kids'>Scratch</a> for younger kids, <a href='/courses/python-teens'>Python</a> for older ones)",
           "Set aside 30 minutes, 2-3 times per week for coding practice",
           "Start with a simple project like creating a greeting card or simple game",
-          "Join our Modern Age Coders community for support and resources"
+          "Join our <a href='/courses'>Modern Age Coders</a> community for support and resources"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Remember, the goal isn't to create the next tech prodigy overnight. It's about fostering curiosity, building confidence, and developing skills that will serve them throughout their lives. Start small, celebrate progress, and most importantly—make it fun!"
+        "text": "Remember, the goal isn't to create the next tech prodigy overnight. It's about fostering curiosity, building confidence, and developing skills that will serve them throughout their lives. Start small, celebrate progress, and most importantly—make it fun! Need guidance? <a href='/contact'>Reach out to us</a> for personalized advice."
       }
     ]
   },

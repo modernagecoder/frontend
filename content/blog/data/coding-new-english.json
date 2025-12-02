@@ -20,8 +20,8 @@
     "title": "Coding is the New English: Why 2026 is the Year to Start",
     "subtitle": "In a world run by technology, coding isn't just for programmers anymore—it's becoming the universal language everyone needs to speak.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Coding+is+the+New+English",
-      "alt": "Person learning to code in 2026"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_global_connection.png",
+      "alt": "Global network of diverse people connected through coding"
     }
   },
   "content": {
@@ -201,10 +201,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Want to build websites? Start with HTML, CSS, and JavaScript.",
-          "Interested in data or AI? Python is your best friend.",
-          "Dreaming of mobile apps? Look into Swift (iOS) or Kotlin (Android), or try cross-platform options like Flutter.",
-          "Just want to explore? Scratch or Blockly are perfect for understanding how coding logic works without getting bogged down in syntax."
+          "Want to build websites? Start with <a href='/courses/web-dev-kids'>HTML, CSS, and JavaScript</a>.",
+          "Interested in data or AI? <a href='/courses/python-teens'>Python</a> is your best friend.",
+          "Dreaming of mobile apps? Look into <a href='/courses/app-dev-teens'>mobile app development</a>, or try cross-platform options like Flutter.",
+          "Just want to explore? <a href='/courses/scratch-kids'>Scratch</a> or Blockly are perfect for understanding how coding logic works without getting bogged down in syntax."
         ]
       },
       {
@@ -216,7 +216,7 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Modern Age Coders: Structured courses designed for beginners with real projects and mentorship.",
+          "<a href='/courses'>Modern Age Coders</a>: Structured courses designed for beginners with real projects and mentorship.",
           "freeCodeCamp: Free, comprehensive curriculum covering web development.",
           "Codecademy: Interactive lessons with immediate feedback.",
           "YouTube: Countless free tutorials for every language and skill level."
@@ -269,12 +269,12 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Full-Stack Developer: Builds both the front-end (what users see) and back-end (server logic) of applications.",
-          "Data Scientist: Analyzes complex data to help companies make smarter decisions.",
-          "Machine Learning Engineer: Creates AI systems that learn and improve over time.",
+          "<a href='/courses/full-stack-web-development-college'>Full-Stack Developer</a>: Builds both the front-end (what users see) and back-end (server logic) of applications.",
+          "<a href='/courses/data-science-college'>Data Scientist</a>: Analyzes complex data to help companies make smarter decisions.",
+          "<a href='/courses/ai-ml-college'>Machine Learning Engineer</a>: Creates AI systems that learn and improve over time.",
           "DevOps Engineer: Bridges the gap between development and IT operations for faster, more reliable releases.",
           "Cybersecurity Analyst: Protects systems and data from digital threats.",
-          "Mobile App Developer: Designs and builds applications for smartphones and tablets.",
+          "<a href='/courses/app-dev-college'>Mobile App Developer</a>: Designs and builds applications for smartphones and tablets.",
           "Cloud Architect: Designs and manages cloud computing strategies for organizations."
         ]
       },
@@ -302,7 +302,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them."
+        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them. Check out our <a href='/courses/kids-coding'>Kids Coding courses</a> to get started."
       },
       {
         "type": "callout",
@@ -343,7 +343,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Ready to make 2026 the year you finally learn to code? Modern Age Coders offers courses designed for complete beginners—whether you're a kid, a teen, or an adult starting fresh."
+        "text": "Ready to make 2026 the year you finally learn to code? <a href='/courses'>Modern Age Coders</a> offers courses designed for complete beginners—whether you're a kid, a teen, or an adult starting fresh."
       },
       {
         "type": "list",
@@ -357,7 +357,7 @@
       },
       {
         "type": "paragraph",
-        "text": "We don't believe in overwhelming you with jargon or rushing through material. Our goal is to help you build real skills at a pace that works for you."
+        "text": "We don't believe in overwhelming you with jargon or rushing through material. Our goal is to help you build real skills at a pace that works for you. Have questions? <a href='/contact'>Get in touch</a> with our team."
       },
       {
         "type": "button",

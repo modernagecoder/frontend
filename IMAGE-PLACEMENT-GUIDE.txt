@@ -1,0 +1,110 @@
+📸 IMAGE PLACEMENT GUIDE
+========================
+
+✅ Folders Created Successfully!
+
+Now place your downloaded images in these folders:
+
+📁 BLOCKLY FOR KIDS
+-------------------
+public/images/blog/blockly-for-kids/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── block-building-fun.jpg
+  ├── block-to-code-magic.jpg
+  ├── creating-with-blocks.jpg
+  └── block-puzzle-success.jpg
+
+📁 CBSE/ICSE GAP
+----------------
+public/images/blog/cbse-icse-gap/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── old-vs-new-learning.jpg
+  ├── skills-gap-bridge.jpg
+  ├── student-success-story.jpg
+  ├── learning-path-timeline.jpg
+  └── modern-classroom-vision.jpg
+
+📁 CODING FOR KIDS GUIDE
+-------------------------
+public/images/blog/coding-for-kids-guide/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── visual-programming-fun.jpg
+  ├── learning-together.jpg
+  ├── programming-languages-journey.jpg
+  ├── project-creation.jpg
+  └── coding-adventure-map.jpg
+
+📁 CODING IS NEW ENGLISH
+-------------------------
+public/images/blog/coding-new-english/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── global-network.jpg
+  ├── career-paths-tree.jpg
+  ├── remote-work-freedom.jpg
+  ├── ai-helper-friend.jpg
+  ├── learning-resources-circle.jpg
+  └── future-2026-vision.jpg
+
+📁 JAVASCRIPT BASICS
+--------------------
+public/images/blog/javascript-basics/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── javascript-magic.jpg
+  ├── code-concepts-universe.jpg
+  ├── javascript-ecosystem.jpg
+  ├── first-program-success.jpg
+  ├── interactive-web-magic.jpg
+  └── learning-path.jpg
+
+📁 MINECRAFT VS ROBLOX
+-----------------------
+public/images/blog/minecraft-vs-roblox/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── minecraft-building-world.jpg
+  ├── roblox-creation-studio.jpg
+  ├── two-worlds-comparison.jpg
+  ├── gaming-journey.jpg
+  ├── learning-comparison.jpg
+  ├── kids-creating-together.jpg
+  └── game-development-path.jpg
+
+📁 PYTHON FOR BEGINNERS
+------------------------
+public/images/blog/python-for-beginners/
+  ├── hero.jpg (Hero image - 1200x630)
+  ├── python-snake-guide.jpg
+  ├── learning-staircase.jpg
+  ├── data-structures-garden.jpg
+  ├── python-applications-world.jpg
+  ├── first-program-joy.jpg
+  ├── python-vs-others.jpg
+  ├── learning-resources.jpg
+  └── python-community.jpg
+
+========================
+QUICK STEPS:
+========================
+
+1. ✅ Folders are already created
+2. 📥 Copy your downloaded images to the folders above
+3. ✏️ Update JSON files (see HOW-TO-ADD-BLOG-IMAGES.md)
+4. 🧪 Test on dev server: npm run dev
+5. 🚀 Deploy!
+
+========================
+NAMING CONVENTION:
+========================
+
+✅ Use lowercase with hyphens
+✅ Example: block-building-fun.jpg
+❌ Avoid: Block Building Fun.jpg
+❌ Avoid: block_building_fun.jpg
+
+========================
+FILE SIZES:
+========================
+
+Hero images: Under 200KB
+In-article images: Under 150KB
+
+Use TinyPNG.com to compress if needed!

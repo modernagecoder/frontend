@@ -20,8 +20,8 @@
     "title": "Introduction: What is Blockly for Kids?",
     "subtitle": "Coding made easy: Connect colorful blocks to build programs just like LEGO bricks.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Blockly+for+Kids",
-      "alt": "Blockly for kids visual interface"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_blockly_universe.png",
+      "alt": "Child floating in magical universe of colorful coding blocks"
     }
   },
   "content": {
@@ -148,7 +148,8 @@
           "Blockly Games: A free set of educational games teaching basic coding concepts like loops and conditionals.",
           "Code.org: Features famous coding challenges and Hour of Code activities powered by Blockly.",
           "Tynker: Offers interactive coding courses for beginners using Blockly blocks.",
-          "Modern Age Coders Kids Courses: Offers structured, project-based learning with Blockly for building games, quizzes, and animations."
+          "<a href='/courses/scratch-kids'>Modern Age Coders Scratch Course</a>: Offers structured, project-based learning with visual programming for building games, quizzes, and animations.",
+          "<a href='/courses/kids-coding'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
         ]
       },
       {
@@ -269,7 +270,7 @@
       },
       {
         "type": "paragraph",
-        "text": "After mastering Blockly, many kids are ready to move toward text-based coding. Python is usually the next best step after Blockly because it's simple and easy to read."
+        "text": "After mastering Blockly, many kids are ready to move toward text-based coding. <a href='/courses/python-teens'>Python</a> is usually the next best step after Blockly because it's simple and easy to read."
       },
       {
         "type": "paragraph",
@@ -289,7 +290,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Want a guided, fun, and easy way for your child to master Blockly? Modern Age Coders offers step-by-step Blockly courses where kids can:"
+        "text": "Want a guided, fun, and easy way for your child to master Blockly? <a href='/courses'>Modern Age Coders</a> offers step-by-step Blockly courses where kids can:"
       },
       {
         "type": "list",

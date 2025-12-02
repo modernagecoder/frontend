@@ -19,8 +19,8 @@
     "title": "JavaScript Basics: Your First Steps into Web Development",
     "subtitle": "Master the language that powers the modern web",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FFD700/000000?text=JavaScript+Basics",
-      "alt": "JavaScript code on a computer screen with colorful syntax highlighting"
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_js_code_magic.png",
+      "alt": "Character casting magic creating glowing JavaScript symbols"
     }
   },
   "content": {
@@ -226,14 +226,14 @@
         "items": [
           "Practice with coding challenges on platforms like CodeWars or LeetCode",
           "Learn about DOM manipulation to make interactive web pages",
-          "Explore JavaScript frameworks like React or Vue.js",
+          "Explore JavaScript frameworks like <a href='/courses/react-teens'>React</a> or Vue.js",
           "Build small projects like a to-do list or simple game",
-          "Join our Modern Age Coders community for support and guidance"
+          "Join our <a href='/courses'>Modern Age Coders</a> community for support and guidance"
         ]
       },
       {
         "type": "paragraph",
-        "text": "Remember, everyone starts as a beginner. The key is consistent practice and not being afraid to make mistakes. Happy coding!"
+        "text": "Remember, everyone starts as a beginner. The key is consistent practice and not being afraid to make mistakes. Questions? <a href='/contact'>We're here to help</a>. Happy coding!"
       },
       {
         "type": "button",
