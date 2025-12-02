@@ -41,6 +41,87 @@
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/blog-styles.css">
     <link rel="stylesheet" href="/css/share-button.css">
+    
+    <!-- Mobile Blog Fixes - Inline CSS with !important to override existing styles -->
+    <style>
+        /* Fix button text visibility */
+        .blog-button,
+        .blog-button-primary,
+        .blog-button-secondary,
+        .cta-button,
+        .blog-content .blog-button,
+        .blog-content a.blog-button {
+            color: #ffffff !important;
+            text-decoration: none !important;
+        }
+        .blog-button-primary {
+            background: linear-gradient(135deg, #8A2BE2, #4ecdc4) !important;
+            color: #ffffff !important;
+        }
+        .blog-button-secondary {
+            background: transparent !important;
+            border: 2px solid #8A2BE2 !important;
+            color: #8A2BE2 !important;
+        }
+        .blog-button:hover,
+        .blog-button-primary:hover {
+            color: #ffffff !important;
+            opacity: 0.9 !important;
+        }
+        
+        /* Fix blog content width on mobile - make it wider */
+        @media (max-width: 768px) {
+            .blog-content-section {
+                width: 95% !important;
+                max-width: 100% !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                margin: 0 auto !important;
+            }
+            .blog-content {
+                width: 100% !important;
+                max-width: 100% !important;
+                padding: 0 5px !important;
+            }
+            .blog-hero {
+                width: 95% !important;
+                max-width: 100% !important;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+            .blog-hero-content {
+                width: 100% !important;
+                padding: 0 5px !important;
+            }
+            article.blog-content {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            /* Fix hamburger menu button cropping */
+            .mobile-menu-btn {
+                min-width: 44px !important;
+                min-height: 44px !important;
+                width: 44px !important;
+                height: 44px !important;
+                padding: 8px !important;
+                margin-right: 5px !important;
+                overflow: visible !important;
+                flex-shrink: 0 !important;
+            }
+            .mobile-menu-btn span {
+                width: 24px !important;
+                height: 3px !important;
+                display: block !important;
+            }
+            .nav-container {
+                padding-right: 10px !important;
+                overflow: visible !important;
+            }
+            .navbar {
+                overflow: visible !important;
+            }
+        }
+    </style>
 </head>
 
 <body class="blog-detail-page">
