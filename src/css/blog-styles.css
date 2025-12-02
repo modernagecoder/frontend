@@ -545,11 +545,15 @@
     }
     
     .blog-content-section {
-        padding: 2rem 1.5rem 3rem;
+        padding: 2rem 1rem 3rem;
+        max-width: 100%;
     }
     
     .blog-content {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.75rem;
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .blog-content p,
@@ -577,8 +581,13 @@
         gap: 1rem;
     }
     
+    .blog-content-section {
+        padding: 2rem 0.75rem 3rem;
+    }
+    
     .blog-content {
-        padding: 1.5rem 1rem;
+        padding: 1.75rem 1.5rem;
+        max-width: 96%;
     }
     
     .blog-content blockquote {

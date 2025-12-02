@@ -7376,19 +7376,28 @@ body.courses-page .course-content {
         /* Changed from space-between for better centering */
         gap: 5px;
         /* Space between hamburger lines */
-        width: 44px;
-        /* Increased from 32px for better touch target */
-        height: 44px;
-        /* Increased from 24px for better touch target */
+        align-items: center;
+        width: 50px;
+        /* Increased for better visibility */
+        height: 50px;
+        /* Increased for better touch target */
         background: transparent;
         border: none;
         cursor: pointer;
-        padding: 10px;
-        /* Added padding for larger clickable area */
+        padding: 12px;
+        /* Increased padding for larger clickable area */
         z-index: 10000;
         /* Above navbar (9999) to ensure clickability */
         transition: all 0.2s ease;
         /* Smooth feedback */
+        margin-right: 0;
+        /* Remove margin to prevent cropping */
+        margin-left: auto;
+        /* Push to right edge */
+        flex-shrink: 0;
+        /* Prevent shrinking */
+        position: relative;
+        /* Ensure proper positioning */
     }
 
     /* Touch feedback for mobile menu button */
@@ -7400,12 +7409,14 @@ body.courses-page .course-content {
 
     .mobile-menu-btn span {
         display: block;
-        width: 24px;
-        /* Fixed width for hamburger lines */
+        width: 28px;
+        /* Increased for better visibility */
         height: 3px;
         background: white;
         border-radius: 3px;
         transition: all 0.3s var(--transition-timing);
+        flex-shrink: 0;
+        /* Prevent span from shrinking */
     }
 
     .mobile-menu-btn.open span:nth-child(1) {
@@ -10835,6 +10846,7 @@ body.course-detail-page main {
     .blog-content-container {
         grid-template-columns: 1fr;
         gap: 2rem;
+        padding: 0 1.5rem;
     }
 
     .blog-hero-content {
@@ -10842,7 +10854,13 @@ body.course-detail-page main {
     }
 
     .blog-article {
-        padding: 2rem;
+        padding: 2rem 1.5rem;
+        font-size: 1.05rem;
+        line-height: 1.8;
+    }
+
+    .blog-content-section {
+        padding: var(--spacing-xl) 1.5rem;
     }
 
     .filter-controls {
@@ -10894,7 +10912,11 @@ body.course-detail-page main {
     }
 
     .blog-article {
-        padding: 1.5rem;
+        padding: 1.75rem 1.25rem;
+    }
+
+    .blog-content-container {
+        padding: 0 1.25rem;
     }
 
     .blog-section h2 {
@@ -11433,7 +11455,7 @@ body.course-detail-page main {
 @media (max-width: 768px) {
     .blog-hero {
         grid-template-columns: 1fr;
-        padding: var(--spacing-2xl) var(--spacing-md);
+        padding: var(--spacing-2xl) 1.5rem;
         margin-top: 60px;
     }
 
@@ -11456,7 +11478,11 @@ body.course-detail-page main {
     }
 
     .blog-content-section {
-        padding: var(--spacing-xl) var(--spacing-md);
+        padding: var(--spacing-xl) 1.5rem;
+    }
+
+    .blog-content-container {
+        padding: 0 1.5rem;
     }
 
     .related-posts-grid {
