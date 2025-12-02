@@ -45,9 +45,9 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/680fe72243fd31420145893a/images/t7AJprknnzvqatamqc2z83dvykg.png",
-        "alt": "Blockly for Kids Interface",
-        "caption": "Visual blocks snapping together to create code"
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/blockly_building_fun.png",
+        "alt": "Child arranging giant colorful coding blocks with magical sparkles",
+        "caption": "Building programs with colorful visual blocks"
       },
       {
         "type": "paragraph",
@@ -148,8 +148,8 @@
           "Blockly Games: A free set of educational games teaching basic coding concepts like loops and conditionals.",
           "Code.org: Features famous coding challenges and Hour of Code activities powered by Blockly.",
           "Tynker: Offers interactive coding courses for beginners using Blockly blocks.",
-          "<a href='/courses/scratch-kids'>Modern Age Coders Scratch Course</a>: Offers structured, project-based learning with visual programming for building games, quizzes, and animations.",
-          "<a href='/courses/kids-coding'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
+          "<a href='/courses/scratch-programming-complete-course'>Modern Age Coders Scratch Course</a>: Offers structured, project-based learning with visual programming for building games, quizzes, and animations.",
+          "<a href='/courses/kids-coding-complete'>Modern Age Coders Kids Coding</a>: Comprehensive coding program for young learners starting their programming journey."
         ]
       },
       {
@@ -270,7 +270,7 @@
       },
       {
         "type": "paragraph",
-        "text": "After mastering Blockly, many kids are ready to move toward text-based coding. <a href='/courses/python-teens'>Python</a> is usually the next best step after Blockly because it's simple and easy to read."
+        "text": "After mastering Blockly, many kids are ready to move toward text-based coding. <a href='/courses/python-complete-masterclass-teens'>Python</a> is usually the next best step after Blockly because it's simple and easy to read."
       },
       {
         "type": "paragraph",
@@ -369,5 +369,5 @@
       }
     ]
   },
-  "relatedPosts": ["coding-for-kids-guide", "scratch-vs-python"]
+  "relatedPosts": ["coding-for-kids-guide", "python-for-beginners", "javascript-basics"]
 }

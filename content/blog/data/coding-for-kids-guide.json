@@ -71,7 +71,7 @@
       },
       {
         "type": "paragraph",
-        "text": "For kids aged 10 and above, <a href='/courses/python-teens'>Python</a> offers a gentle introduction to text-based programming. Its simple syntax reads almost like English, making it accessible yet powerful enough for real-world applications."
+        "text": "For kids aged 10 and above, <a href='/courses/python-complete-masterclass-teens'>Python</a> offers a gentle introduction to text-based programming. Its simple syntax reads almost like English, making it accessible yet powerful enough for real-world applications."
       },
       {
         "type": "code",
@@ -100,9 +100,9 @@
       },
       {
         "type": "image",
-        "url": "https://placehold.co/800x400/4ecdc4/FFFFFF?text=Kids+Coding+Tools",
-        "alt": "Various coding tools and platforms for children",
-        "caption": "Popular coding platforms that make learning fun and interactive"
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/coding_guide_visual_fun.png",
+        "alt": "Children working together on colorful coding projects",
+        "caption": "Making coding fun and interactive for young learners"
       },
       {
         "type": "heading",
@@ -170,7 +170,7 @@
         "type": "list",
         "style": "ordered",
         "items": [
-          "Choose an age-appropriate platform (<a href='/courses/scratch-kids'>Scratch</a> for younger kids, <a href='/courses/python-teens'>Python</a> for older ones)",
+          "Choose an age-appropriate platform (<a href='/courses/scratch-programming-complete-course'>Scratch</a> for younger kids, <a href='/courses/python-complete-masterclass-teens'>Python</a> for older ones)",
           "Set aside 30 minutes, 2-3 times per week for coding practice",
           "Start with a simple project like creating a greeting card or simple game",
           "Join our <a href='/courses'>Modern Age Coders</a> community for support and resources"

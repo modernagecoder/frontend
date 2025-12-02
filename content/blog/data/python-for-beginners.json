@@ -139,9 +139,9 @@
       },
       {
         "type": "image",
-        "url": "https://placehold.co/800x400/8A2BE2/FFFFFF?text=Python+Basics",
-        "alt": "Visual representation of Python programming concepts",
-        "caption": "Python's simple syntax makes it perfect for beginners"
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/python_snake_guide.png",
+        "alt": "Friendly Python snake character guiding a student",
+        "caption": "Python's friendly approach makes learning to code enjoyable"
       },
       {
         "type": "heading",
@@ -276,7 +276,7 @@
           "Study object-oriented programming (classes and objects)",
           "Try building projects like a calculator, to-do list, or simple game",
           "Join coding communities and practice on platforms like HackerRank",
-          "Enroll in our <a href='/courses/python-teens'>Python courses</a> at Modern Age Coders for structured learning"
+          "Enroll in our <a href='/courses/python-complete-masterclass-teens'>Python courses</a> at Modern Age Coders for structured learning"
         ]
       },
       {

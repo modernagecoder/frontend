@@ -161,9 +161,9 @@
       },
       {
         "type": "image",
-        "url": "https://placehold.co/800x400/4ecdc4/FFFFFF?text=JavaScript+Concepts",
-        "alt": "Diagram showing JavaScript concepts like variables, functions, and loops",
-        "caption": "Key JavaScript concepts every beginner should master"
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/js_basics_magic.png",
+        "alt": "Magical JavaScript symbols and code elements floating",
+        "caption": "JavaScript brings web pages to life with interactive magic"
       },
       {
         "type": "heading",
@@ -226,7 +226,7 @@
         "items": [
           "Practice with coding challenges on platforms like CodeWars or LeetCode",
           "Learn about DOM manipulation to make interactive web pages",
-          "Explore JavaScript frameworks like <a href='/courses/react-teens'>React</a> or Vue.js",
+          "Explore JavaScript frameworks like <a href='/courses/react-for-teens-complete-masterclass'>React</a> or Vue.js",
           "Build small projects like a to-do list or simple game",
           "Join our <a href='/courses'>Modern Age Coders</a> community for support and guidance"
         ]

@@ -49,9 +49,9 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/minecraft-vs-roblox/images/overview-comparison.png",
-        "alt": "Minecraft and Roblox side by side comparison",
-        "caption": "Two gaming giants with different approaches to creativity and coding"
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/minecraft_building_world.png",
+        "alt": "Minecraft blocky world with colorful building blocks",
+        "caption": "Minecraft's blocky world where kids learn through building"
       },
       {
         "type": "paragraph",
@@ -438,7 +438,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think of Minecraft and Roblox as entry points, not destinations. They get kids excited about coding—which is half the battle—but continued growth requires expanding horizons. Explore our <a href='/courses/game-dev-kids'>Game Development courses</a> to take their skills to the next level."
+        "text": "Think of Minecraft and Roblox as entry points, not destinations. They get kids excited about coding—which is half the battle—but continued growth requires expanding horizons. Explore our <a href='/courses/game-development-masterclass-for-kids'>Game Development courses</a> to take their skills to the next level."
       },
       {
         "type": "button",
@@ -506,7 +506,7 @@
           "Visit the Roblox Creator Hub for official tutorials and learning paths.",
           "Start with simple projects: a basic obby, a coin collection game, or a tycoon template modification.",
           "Join Roblox developer communities where kids can ask questions and share their work.",
-          "Consider enrolling in our <a href='/courses/game-dev-teens'>Game Development course</a> for structured learning and mentorship."
+          "Consider enrolling in our <a href='/courses/complete-game-development-masterclass-for-teens'>Game Development course</a> for structured learning and mentorship."
         ]
       },
       {
@@ -597,5 +597,5 @@
       }
     ]
   },
-  "relatedPosts": ["what-is-blockly-for-kids", "coding-is-the-new-english-why-2025-is-the-year-to-start", "best-coding-games-for-kids"]
+  "relatedPosts": ["what-is-blockly-for-kids", "coding-is-the-new-english-why-2026-is-the-year-to-start", "coding-for-kids-guide"]
 }

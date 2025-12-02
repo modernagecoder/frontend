@@ -45,8 +45,8 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/coding-new-english/images/global-coding-language.png",
-        "alt": "Coding as a global language illustration",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/coding_new_english_global_network.png",
+        "alt": "Global network connecting diverse people through coding",
         "caption": "Coding connects people across borders just like English does"
       },
       {
@@ -201,10 +201,10 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "Want to build websites? Start with <a href='/courses/web-dev-kids'>HTML, CSS, and JavaScript</a>.",
-          "Interested in data or AI? <a href='/courses/python-teens'>Python</a> is your best friend.",
-          "Dreaming of mobile apps? Look into <a href='/courses/app-dev-teens'>mobile app development</a>, or try cross-platform options like Flutter.",
-          "Just want to explore? <a href='/courses/scratch-kids'>Scratch</a> or Blockly are perfect for understanding how coding logic works without getting bogged down in syntax."
+          "Want to build websites? Start with <a href='/courses/kids-web-design'>HTML, CSS, and JavaScript</a>.",
+          "Interested in data or AI? <a href='/courses/python-complete-masterclass-teens'>Python</a> is your best friend.",
+          "Dreaming of mobile apps? Look into <a href='/courses/complete-app-development-masterclass-for-teens'>mobile app development</a>, or try cross-platform options like Flutter.",
+          "Just want to explore? <a href='/courses/scratch-programming-complete-course'>Scratch</a> or Blockly are perfect for understanding how coding logic works without getting bogged down in syntax."
         ]
       },
       {
@@ -269,12 +269,12 @@
         "type": "list",
         "style": "unordered",
         "items": [
-          "<a href='/courses/full-stack-web-development-college'>Full-Stack Developer</a>: Builds both the front-end (what users see) and back-end (server logic) of applications.",
-          "<a href='/courses/data-science-college'>Data Scientist</a>: Analyzes complex data to help companies make smarter decisions.",
-          "<a href='/courses/ai-ml-college'>Machine Learning Engineer</a>: Creates AI systems that learn and improve over time.",
+          "<a href='/courses/full-stack-web-development-masterclass-college'>Full-Stack Developer</a>: Builds both the front-end (what users see) and back-end (server logic) of applications.",
+          "<a href='/courses/data-science-complete-masterclass-college'>Data Scientist</a>: Analyzes complex data to help companies make smarter decisions.",
+          "<a href='/courses/ai-ml-masterclass-complete-college'>Machine Learning Engineer</a>: Creates AI systems that learn and improve over time.",
           "DevOps Engineer: Bridges the gap between development and IT operations for faster, more reliable releases.",
           "Cybersecurity Analyst: Protects systems and data from digital threats.",
-          "<a href='/courses/app-dev-college'>Mobile App Developer</a>: Designs and builds applications for smartphones and tablets.",
+          "<a href='/courses/complete-app-development-masterclass-college'>Mobile App Developer</a>: Designs and builds applications for smartphones and tablets.",
           "Cloud Architect: Designs and manages cloud computing strategies for organizations."
         ]
       },
@@ -302,7 +302,7 @@
       },
       {
         "type": "paragraph",
-        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them. Check out our <a href='/courses/kids-coding'>Kids Coding courses</a> to get started."
+        "text": "Think about it this way: kids growing up now will enter a workforce even more dominated by technology. Teaching them to code isn't just about career prep—it's about giving them the tools to understand and shape the world around them. Check out our <a href='/courses/kids-coding-complete'>Kids Coding courses</a> to get started."
       },
       {
         "type": "callout",
@@ -435,5 +435,5 @@
       }
     ]
   },
-  "relatedPosts": ["what-is-blockly-for-kids", "python-for-beginners-guide", "best-programming-languages-2026"]
+  "relatedPosts": ["what-is-blockly-for-kids", "python-for-beginners", "coding-for-kids-guide"]
 }
