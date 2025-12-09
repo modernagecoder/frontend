@@ -180,6 +180,32 @@
   to = "/content/blog/generated/index.html"
   status = 200
 
+# Category pages - Kids, Teens, College, Professionals, Corporate
+[[redirects]]
+  from = "/category/kids"
+  to = "/src/pages/category/kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/category/teens"
+  to = "/src/pages/category/teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/category/college"
+  to = "/src/pages/category/college.html"
+  status = 200
+
+[[redirects]]
+  from = "/category/professionals"
+  to = "/src/pages/category/professionals.html"
+  status = 200
+
+[[redirects]]
+  from = "/category/corporate"
+  to = "/src/pages/category/corporate.html"
+  status = 200
+
 # Course category URLs (must come before individual courses)
 [[redirects]]
   from = "/courses/coding/*"

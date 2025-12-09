@@ -39,6 +39,13 @@
 /love /lovewall/dist/index.html 200
 /blog /content/blog/generated/index.html 200
 
+# Category pages - NEW (must come before course category pages)
+/category/kids /src/pages/category/kids.html 200
+/category/teens /src/pages/category/teens.html 200
+/category/college /src/pages/category/college.html 200
+/category/professionals /src/pages/category/professionals.html 200
+/category/corporate /src/pages/category/corporate.html 200
+
 # Course category pages (must come before individual courses)
 /courses/coding/* /src/pages/course.html 200
 /courses/mathematics/* /src/pages/course.html 200

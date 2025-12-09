@@ -23,6 +23,13 @@ Allow: /aura
 Allow: /beat-the-babu
 Allow: /love
 
+# Category pages - Age group landing pages
+Allow: /category/kids
+Allow: /category/teens
+Allow: /category/college
+Allow: /category/professionals
+Allow: /category/corporate
+
 # Sitemap location
 Sitemap: https://learn.modernagecoders.com/sitemap.xml
 
