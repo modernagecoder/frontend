@@ -141,6 +141,8 @@
     <link rel="stylesheet" href="/css/try-coding-enhanced.css">
     <!-- WHY LEARN SECTION: Ultimate minimalist design -->
     <link rel="stylesheet" href="/css/why-learn-section.css">
+    <!-- PYRAMID LEVELS: Beautiful liquid pyramid design -->
+    <link rel="stylesheet" href="/css/pyramid-levels.css">
 
 </head>
 
@@ -1279,72 +1281,232 @@
                 from first steps to advanced mastery.
             </p>
 
-            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px; max-width:900px; margin:auto;">
+            <!-- Beautiful Pyramid Structure -->
+            <style>
+                .pyramid-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 8px;
+                    max-width: 1000px;
+                    margin: 40px auto;
+                    padding: 20px;
+                }
 
-                <!-- Kids -->
-                <div
-                    style="background-color:#4A1D1D; width:40%; min-width:300px; border-radius:15px; padding:30px 20px; box-shadow:0px 0px 10px rgba(255,255,255,0.1); text-align:center;">
-                    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:15px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#FF4D4D"
-                            viewBox="0 0 24 24">
-                            <path
-                                d="M12 12c2.21 0 4-1.79 4-4S14.21 4 12 4 8 5.79 8 8s1.79 4 4 4zm-7 9v-1c0-2.76 2.24-5 5-5h4c2.76 0 5 2.24 5 5v1H5z" />
-                        </svg>
-                    </div>
-                    <h2 style="color:#FF4D4D; font-size:26px; margin-bottom:10px;">Kids</h2>
-                    <p style="font-size:16px; color:#ddd;">Start young, build logic, and make learning fun through
-                        coding games and challenges.</p>
-                </div>
+                .pyramid-level {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 90px;
+                    border-radius: 12px;
+                    cursor: pointer;
+                    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+                    text-decoration: none;
+                    overflow: hidden;
+                    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+                }
 
-                <!-- Teens -->
-                <div
-                    style="background-color:#3A3300; width:40%; min-width:300px; border-radius:15px; padding:30px 20px; box-shadow:0px 0px 10px rgba(255,255,255,0.1); text-align:center;">
-                    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:15px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#FFD700"
-                            viewBox="0 0 24 24">
-                            <path d="M6 7h12a1 1 0 0 1 1 1v8h-2v-2H7v2H5V8a1 1 0 0 1 1-1zm0 10h12v2H6z" />
-                            <circle cx="8" cy="13" r="1.5" />
-                            <circle cx="16" cy="13" r="1.5" />
-                        </svg>
-                    </div>
-                    <h2 style="color:#FFD700; font-size:26px; margin-bottom:10px;">Teens</h2>
-                    <p style="font-size:16px; color:#ddd;">Turn creativity into apps, games, and websites. Build your
-                        own amazing tech projects.</p>
-                </div>
+                .pyramid-level::before {
+                    content: '';
+                    position: absolute;
+                    top: -50%;
+                    left: -50%;
+                    width: 200%;
+                    height: 200%;
+                    background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+                    opacity: 0;
+                    transition: opacity 0.4s ease;
+                }
 
-                <!-- Adults -->
-                <div
-                    style="background-color:#001B4D; width:40%; min-width:300px; border-radius:15px; padding:30px 20px; box-shadow:0px 0px 10px rgba(255,255,255,0.1); text-align:center;">
-                    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:15px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#4DB3FF"
-                            viewBox="0 0 24 24">
-                            <path d="M4 5h16c1.1 0 2 .9 2 2v10H2V7c0-1.1.9-2 2-2zm16 12H4v2h16v-2zM9 17h6v1H9z" />
-                        </svg>
-                    </div>
-                    <h2 style="color:#4DB3FF; font-size:26px; margin-bottom:10px;">Adults</h2>
-                    <p style="font-size:16px; color:#ddd;">Boost logical thinking and career opportunities with
-                        essential coding skills.</p>
-                </div>
+                .pyramid-level:hover::before {
+                    opacity: 1;
+                    animation: liquidMove 3s ease-in-out infinite;
+                }
 
-                <!-- Working Professionals -->
-                <div
-                    style="background-color:#002D1A; width:40%; min-width:300px; border-radius:15px; padding:30px 20px; box-shadow:0px 0px 10px rgba(255,255,255,0.1); text-align:center;">
-                    <div style="display:flex; justify-content:center; align-items:center; margin-bottom:15px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="#00FF88"
-                            viewBox="0 0 24 24">
-                            <path d="M12 2l1.5 4.5H18l-3.5 2.5L16 14l-4-3-4 3 1.5-5L6 6.5h4.5z" />
-                            <path d="M12 15l3 3H9z" />
-                        </svg>
-                    </div>
-                    <h2 style="color:#00FF88; font-size:26px; margin-bottom:10px;">Working Professionals</h2>
-                    <p style="font-size:16px; color:#ddd;">Stay future-ready and grow faster in your career with the
-                        power of coding.</p>
-                </div>
+                @keyframes liquidMove {
+                    0%, 100% { transform: translate(0, 0); }
+                    25% { transform: translate(10%, 10%); }
+                    50% { transform: translate(-5%, 5%); }
+                    75% { transform: translate(5%, -5%); }
+                }
 
+                .pyramid-level::after {
+                    content: '';
+                    position: absolute;
+                    inset: -3px;
+                    border-radius: 12px;
+                    background: inherit;
+                    filter: blur(15px);
+                    opacity: 0;
+                    z-index: -1;
+                    transition: opacity 0.4s ease;
+                }
+
+                .pyramid-level:hover::after {
+                    opacity: 0.6;
+                }
+
+                .pyramid-level:hover {
+                    transform: translateY(-5px) scale(1.02);
+                    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.5);
+                }
+
+                .pyramid-level:active {
+                    transform: translateY(-2px) scale(1.01);
+                }
+
+                .pyramid-level-text {
+                    position: relative;
+                    z-index: 2;
+                    font-size: 32px;
+                    font-weight: 700;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+                    transition: all 0.3s ease;
+                }
+
+                .pyramid-level:hover .pyramid-level-text {
+                    transform: scale(1.08);
+                    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+                }
+
+                .pyramid-level-1 {
+                    width: 95%;
+                    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+                    color: #ffffff;
+                }
+
+                .pyramid-level-2 {
+                    width: 80%;
+                    background: linear-gradient(135deg, #065f46 0%, #10b981 100%);
+                    color: #ffffff;
+                }
+
+                .pyramid-level-3 {
+                    width: 65%;
+                    background: linear-gradient(135deg, #7c2d12 0%, #f97316 100%);
+                    color: #ffffff;
+                }
+
+                .pyramid-level-4 {
+                    width: 50%;
+                    background: linear-gradient(135deg, #831843 0%, #ec4899 100%);
+                    color: #ffffff;
+                }
+
+                .pyramid-level-5 {
+                    width: 35%;
+                    background: linear-gradient(135deg, #4c1d95 0%, #a855f7 100%);
+                    color: #ffffff;
+                }
+
+                @keyframes shimmer {
+                    0% { background-position: -1000px 0; }
+                    100% { background-position: 1000px 0; }
+                }
+
+                .pyramid-level:hover {
+                    background-size: 200% 100%;
+                    animation: shimmer 2s infinite linear;
+                }
+
+                @keyframes pulse {
+                    0%, 100% { box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); }
+                    50% { box-shadow: 0 4px 30px rgba(255, 255, 255, 0.4); }
+                }
+
+                .pyramid-level {
+                    animation: pulse 3s ease-in-out infinite;
+                }
+
+                .pyramid-level:hover {
+                    animation: none;
+                }
+
+                .pyramid-level:focus {
+                    outline: 3px solid #ffffff;
+                    outline-offset: 3px;
+                }
+
+                .pyramid-level:focus:not(:focus-visible) {
+                    outline: none;
+                }
+
+                @media (max-width: 768px) {
+                    .pyramid-level {
+                        height: 75px;
+                    }
+                    
+                    .pyramid-level-text {
+                        font-size: 22px;
+                        letter-spacing: 0.5px;
+                    }
+                    
+                    .pyramid-level-1 { width: 100%; }
+                    .pyramid-level-2 { width: 95%; }
+                    .pyramid-level-3 { width: 90%; }
+                    .pyramid-level-4 { width: 85%; }
+                    .pyramid-level-5 { width: 80%; }
+                }
+
+                @media (max-width: 480px) {
+                    .pyramid-container {
+                        padding: 10px 5px;
+                        gap: 6px;
+                    }
+                    
+                    .pyramid-level {
+                        height: 65px;
+                        padding: 0 10px;
+                    }
+                    
+                    .pyramid-level-text {
+                        font-size: 17px;
+                        letter-spacing: 0.3px;
+                        white-space: nowrap;
+                    }
+                    
+                    .pyramid-level-1 { width: 100%; }
+                    .pyramid-level-2 { width: 95%; }
+                    .pyramid-level-3 { width: 90%; }
+                    .pyramid-level-4 { width: 85%; }
+                    .pyramid-level-5 { width: 80%; }
+                }
+
+                @media (max-width: 360px) {
+                    .pyramid-level {
+                        height: 60px;
+                        padding: 0 8px;
+                    }
+                    
+                    .pyramid-level-text {
+                        font-size: 15px;
+                        letter-spacing: 0.2px;
+                    }
+                }
+            </style>
+
+            <div class="pyramid-container">
+                <a href="https://learn.modernagecoders.com/category/corporate" class="pyramid-level pyramid-level-1">
+                    <span class="pyramid-level-text">Corporate</span>
+                </a>
+                <a href="https://learn.modernagecoders.com/category/professionals" class="pyramid-level pyramid-level-2">
+                        <span class="pyramid-level-text">Professionals</span>
+                </a>
+                <a href="https://learn.modernagecoders.com/category/college" class="pyramid-level pyramid-level-3">
+                    <span class="pyramid-level-text">College</span>
+                </a>
+                <a href="https://learn.modernagecoders.com/category/teens" class="pyramid-level pyramid-level-4">
+               
+                    <span class="pyramid-level-text">Teens</span>
+                </a>
+                <a href="https://learn.modernagecoders.com/category/kids" class="pyramid-level pyramid-level-5">
+                    
+                    <span class="pyramid-level-text">Kids</span>
+                </a>
             </div>
-
-
-
 
         </section>
 

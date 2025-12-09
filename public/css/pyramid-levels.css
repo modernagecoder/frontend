@@ -1,0 +1,223 @@
+/* ====================================== */
+/* PYRAMID LEVELS - LIQUID BEAUTIFUL DESIGN */
+/* ====================================== */
+
+.pyramid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.pyramid-level {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Liquid glow effect */
+.pyramid-level::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.15) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.pyramid-level:hover::before {
+    opacity: 1;
+    animation: liquidMove 3s ease-in-out infinite;
+}
+
+@keyframes liquidMove {
+    0%, 100% {
+        transform: translate(0, 0);
+    }
+    25% {
+        transform: translate(10%, 10%);
+    }
+    50% {
+        transform: translate(-5%, 5%);
+    }
+    75% {
+        transform: translate(5%, -5%);
+    }
+}
+
+/* Outer glow on hover */
+.pyramid-level::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 12px;
+    background: inherit;
+    filter: blur(15px);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.4s ease;
+}
+
+.pyramid-level:hover::after {
+    opacity: 0.6;
+}
+
+.pyramid-level:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 35px rgba(0, 0, 0, 0.5);
+}
+
+.pyramid-level:active {
+    transform: translateY(-2px) scale(1.01);
+}
+
+/* Level text */
+.pyramid-level-text {
+    position: relative;
+    z-index: 2;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.pyramid-level:hover .pyramid-level-text {
+    transform: scale(1.08);
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Individual level widths - pyramid shape */
+.pyramid-level-1 {
+    width: 95%;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    color: #ffffff;
+}
+
+.pyramid-level-2 {
+    width: 80%;
+    background: linear-gradient(135deg, #065f46 0%, #10b981 100%);
+    color: #ffffff;
+}
+
+.pyramid-level-3 {
+    width: 65%;
+    background: linear-gradient(135deg, #7c2d12 0%, #f97316 100%);
+    color: #ffffff;
+}
+
+.pyramid-level-4 {
+    width: 50%;
+    background: linear-gradient(135deg, #831843 0%, #ec4899 100%);
+    color: #ffffff;
+}
+
+.pyramid-level-5 {
+    width: 35%;
+    background: linear-gradient(135deg, #4c1d95 0%, #a855f7 100%);
+    color: #ffffff;
+}
+
+/* Shimmer effect on hover */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+.pyramid-level:hover {
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite linear;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .pyramid-level {
+        height: 75px;
+    }
+    
+    .pyramid-level-text {
+        font-size: 24px;
+    }
+    
+    .pyramid-level-1 {
+        width: 100%;
+    }
+    
+    .pyramid-level-2 {
+        width: 90%;
+    }
+    
+    .pyramid-level-3 {
+        width: 80%;
+    }
+    
+    .pyramid-level-4 {
+        width: 70%;
+    }
+    
+    .pyramid-level-5 {
+        width: 60%;
+    }
+}
+
+@media (max-width: 480px) {
+    .pyramid-container {
+        padding: 10px;
+        gap: 6px;
+    }
+    
+    .pyramid-level {
+        height: 65px;
+    }
+    
+    .pyramid-level-text {
+        font-size: 20px;
+    }
+}
+
+/* Accessibility */
+.pyramid-level:focus {
+    outline: 3px solid #ffffff;
+    outline-offset: 3px;
+}
+
+.pyramid-level:focus:not(:focus-visible) {
+    outline: none;
+}
+
+/* Pulse animation for attention */
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 4px 30px rgba(255, 255, 255, 0.4);
+    }
+}
+
+.pyramid-level {
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.pyramid-level:hover {
+    animation: none;
+}
