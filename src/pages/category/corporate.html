@@ -1005,12 +1005,12 @@
                     </div>
 
                     <!-- Right Side - Form -->
-                    <div class="corp-form-card">
+                    <div class="corp-form-card corporate-form-wrapper">
                         <h3>Get Started Today</h3>
                         <p>Our team will contact you within 24 hours</p>
                         
                         <form id="corporateTrainingForm">
-                            <div class="form-row single">
+                            <div class="form-row">
                                 <div class="form-group">
                                     <label for="trainingType">I am looking for: *</label>
                                     <select id="trainingType" name="trainingType" required>
@@ -1040,7 +1040,7 @@
                                     <input type="tel" id="phone" name="phone" required placeholder="+91 98765 43210">
                                 </div>
                                 <div class="form-group">
-                                    <label for="trainingArea">Training Area *</label>
+                                    <label for="trainingArea">Training Area of Interest *</label>
                                     <select id="trainingArea" name="trainingArea" required>
                                         <option value="">Select training area</option>
                                         <option value="web-development">Web Development (Full Stack)</option>
@@ -1050,8 +1050,10 @@
                                         <option value="cloud-computing">Cloud Computing (AWS/Azure/GCP)</option>
                                         <option value="devops">DevOps & CI/CD</option>
                                         <option value="cybersecurity">Cybersecurity</option>
+                                        <option value="blockchain">Blockchain Development</option>
                                         <option value="python">Python Programming</option>
                                         <option value="java">Java Programming</option>
+                                        <option value="javascript">JavaScript & Modern Frameworks</option>
                                         <option value="custom">Custom Training Program</option>
                                     </select>
                                 </div>
@@ -1059,11 +1061,11 @@
 
                             <!-- Corporate Fields -->
                             <div class="form-row" id="corporateFields" style="display: none;">
-                                <div class="form-group">
+                                <div class="form-group" id="companyNameGroup">
                                     <label for="companyName">Company Name</label>
                                     <input type="text" id="companyName" name="companyName" placeholder="Your company name">
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group" id="teamSizeGroup">
                                     <label for="teamSize">Team Size *</label>
                                     <select id="teamSize" name="teamSize">
                                         <option value="">Select team size</option>
@@ -1078,17 +1080,18 @@
 
                             <!-- Individual Fields -->
                             <div class="form-row" id="individualFields" style="display: none;">
-                                <div class="form-group">
-                                    <label for="currentEmployment">Employment Status *</label>
+                                <div class="form-group" id="currentEmploymentGroup">
+                                    <label for="currentEmployment">Current Employment Status *</label>
                                     <select id="currentEmployment" name="currentEmployment">
                                         <option value="">Select your status</option>
                                         <option value="employed">Currently Employed</option>
                                         <option value="unemployed">Looking for Job</option>
                                         <option value="student">Student / Recent Graduate</option>
                                         <option value="freelancer">Freelancer / Self-Employed</option>
+                                        <option value="career-break">Career Break / Returning to Work</option>
                                     </select>
                                 </div>
-                                <div class="form-group">
+                                <div class="form-group" id="careerGoalGroup">
                                     <label for="careerGoal">Your Career Goal *</label>
                                     <select id="careerGoal" name="careerGoal">
                                         <option value="">Select your goal</option>
@@ -1096,21 +1099,41 @@
                                         <option value="switch-career">Switch to Tech Career</option>
                                         <option value="better-job">Get a Better Job / Higher Salary</option>
                                         <option value="promotion">Get Promoted in Current Role</option>
+                                        <option value="freelance">Start Freelancing</option>
+                                        <option value="startup">Build My Own Startup</option>
+                                        <option value="team-training">Train My Team (Corporate)</option>
                                     </select>
                                 </div>
                             </div>
 
-                            <div class="form-row single">
-                                <div class="form-group">
-                                    <label for="trainingGoals">What do you want to achieve? *</label>
-                                    <textarea id="trainingGoals" name="trainingGoals" rows="3" required placeholder="Tell us about your goals..."></textarea>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="currentSkillLevel">Current Skill Level *</label>
+                                    <select id="currentSkillLevel" name="currentSkillLevel" required>
+                                        <option value="">Select skill level</option>
+                                        <option value="beginner">Beginner (No prior experience)</option>
+                                        <option value="intermediate">Intermediate (Some experience)</option>
+                                        <option value="advanced">Advanced (Experienced professionals)</option>
+                                        <option value="mixed">Mixed (Team with varying levels)</option>
+                                    </select>
                                 </div>
                             </div>
 
-                            <button type="submit" class="form-submit-btn">
-                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/></svg>
-                                Submit Request
-                            </button>
+                            <div class="form-row">
+                                <div class="form-group full-width">
+                                    <label for="trainingGoals">What do you want to achieve? *</label>
+                                    <textarea id="trainingGoals" name="trainingGoals" rows="4" required placeholder="Tell us about your goals... For example: 'I want to switch from marketing to web development' or 'I need to learn Python to get promoted' or 'I want to upskill my team in AI'..."></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-actions">
+                                <button type="submit" class="submit-btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"/>
+                                    </svg>
+                                    Submit Request
+                                </button>
+                            </div>
                         </form>
                     </div>
                 </div>

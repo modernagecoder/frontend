@@ -328,10 +328,8 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             // Get API URL from environment or use default
-            // const API_URL = window.API_URL || 'https://modernagecoders.vercel.app';
-             // Get API URL - check if running locally first
-            const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-            const API_URL = isLocal ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+            // Always use production backend API
+            const API_URL = 'https://backend-modernagecoders.vercel.app';
             
             console.log('Submitting to:', `${API_URL}/api/corporate-training/submit`);
             
