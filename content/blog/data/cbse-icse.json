@@ -2,8 +2,17 @@
   "meta": {
     "slug": "cbse-icse-gap-what-schools-not-teaching-about-tech",
     "title": "The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It)",
-    "description": "Indian schools follow outdated tech curricula that leave students unprepared for real-world careers. Learn what's missing from CBSE and ICSE syllabi and how parents can bridge the gap.",
-    "keywords": ["CBSE computer science", "ICSE technology gap", "Indian school coding", "tech education India", "coding for Indian students", "CBSE vs real programming", "computer education in India", "future-ready skills"],
+    "description": "Discover what's missing from CBSE and ICSE tech curricula. Learn how parents can bridge the gap and prepare students for real-world tech careers.",
+    "keywords": [
+      "CBSE computer science",
+      "ICSE technology gap",
+      "Indian school coding",
+      "tech education India",
+      "coding for Indian students",
+      "CBSE vs real programming",
+      "computer education in India",
+      "future-ready skills"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +21,14 @@
     "date": "2025-01-20",
     "dateModified": "2025-01-20",
     "category": "Education",
-    "tags": ["CBSE", "ICSE", "Indian Education", "Tech Skills", "Coding Gap", "Parents Guide"],
+    "tags": [
+      "CBSE",
+      "ICSE",
+      "Indian Education",
+      "Tech Skills",
+      "Coding Gap",
+      "Parents Guide"
+    ],
     "readTime": "10 min read",
     "featured": true
   },
@@ -20,7 +36,7 @@
     "title": "The CBSE/ICSE Gap: What Schools Aren't Teaching About Tech (And How to Fill It)",
     "subtitle": "Your child might be scoring 90+ in Computer Science, but are they actually ready for the tech world? Here's the uncomfortable truth.",
     "featuredImage": {
-      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_cbse_bridge.png",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_18_hero.png",
       "alt": "Student standing on bridge connecting traditional and modern tech education"
     }
   },
@@ -49,7 +65,7 @@
       },
       {
         "type": "image",
-        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/cbse_icse_old_vs_new.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_18_article.png",
         "alt": "Comparison of traditional and modern tech education",
         "caption": "The gap between traditional classroom and modern tech learning"
       },
@@ -810,5 +826,9 @@
       }
     ]
   },
-  "relatedPosts": ["coding-is-the-new-english-why-2026-is-the-year-to-start", "what-is-blockly-for-kids", "python-for-beginners"]
+  "relatedPosts": [
+    "coding-is-the-new-english-why-2026-is-the-year-to-start",
+    "what-is-blockly-for-kids",
+    "python-for-beginners"
+  ]
 }

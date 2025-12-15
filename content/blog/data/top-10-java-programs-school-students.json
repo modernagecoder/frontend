@@ -1,0 +1,1001 @@
+{
+  "meta": {
+    "slug": "top-10-java-programs-for-school-students",
+    "title": "Top 10 Java Programs Every School Student Should Know (With Solutions)",
+    "description": "Master 10 essential Java programs for school students. Complete solutions, explanations, and practice exercises for beginners.",
+    "keywords": [
+      "Java for students",
+      "school Java programs",
+      "beginner Java",
+      "Java programming",
+      "learn Java",
+      "Java exercises",
+      "Java for kids",
+      "Java basics"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2025-02-25",
+    "dateModified": "2025-02-25",
+    "category": "Programming",
+    "tags": [
+      "Java",
+      "School Students",
+      "Beginners",
+      "Programming Basics",
+      "Learning"
+    ],
+    "readTime": "12 min read",
+    "featured": true
+  },
+  "hero": {
+    "title": "Top 10 Java Programs Every School Student Should Know",
+    "subtitle": "Start your Java journey with these fun, practical programs designed specifically for school students—complete with easy-to-understand solutions!",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_40_hero.png",
+      "alt": "School students learning Java programming with excitement"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learning Java doesn't have to be scary or boring. If you're a school student just starting with programming, you're in the right place. This article covers 10 essential Java programs that will teach you the fundamentals while being fun and practical."
+      },
+      {
+        "type": "paragraph",
+        "text": "These aren't random exercises—they're carefully chosen programs that build on each other, teaching you important concepts like loops, conditions, arrays, and methods. By the end, you'll have a solid foundation in Java programming."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each program includes complete working code, simple explanations, and practice challenges. Let's start coding!"
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Perfect for Beginners",
+        "text": "These programs are designed for school students (Classes 8-12) who are new to Java. No prior programming experience needed—we'll explain everything step by step!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Learn These Programs?",
+        "id": "why-learn"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before we dive into the code, here's why these specific programs matter:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Build Strong Foundations:</strong> Each program teaches fundamental programming concepts",
+          "<strong>School Exam Preparation:</strong> These programs commonly appear in school exams and practicals",
+          "<strong>Logical Thinking:</strong> You'll develop problem-solving skills that help in all subjects",
+          "<strong>Confidence Building:</strong> Start simple and gradually tackle more challenging programs",
+          "<strong>Real-World Skills:</strong> Learn concepts used in actual software development"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Ready? Let's write some code!"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #1: Print Your Name and Age",
+        "id": "print-name-age"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's start with the absolute basics—printing output to the screen. This is your first step into Java programming!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "How to write a basic Java program",
+          "Using System.out.println() to display output",
+          "Understanding variables and data types",
+          "Basic program structure"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class PrintNameAge {\n    public static void main(String[] args) {\n        // Declare variables\n        String name = \"Rahul\";\n        int age = 15;\n        \n        // Print the information\n        System.out.println(\"Hello! My name is \" + name);\n        System.out.println(\"I am \" + age + \" years old.\");\n        \n        // You can also use printf for formatted output\n        System.out.printf(\"In 5 years, I will be %d years old.%n\", age + 5);\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>String name:</strong> Creates a variable to store text (your name)",
+          "<strong>int age:</strong> Creates a variable to store a whole number (your age)",
+          "<strong>System.out.println():</strong> Prints text to the screen and moves to next line",
+          "<strong>+ operator:</strong> Joins (concatenates) text and variables together"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Try This!",
+        "text": "Change the name and age to your own. Add more lines to print your school name, favorite subject, or hobby!"
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #2: Simple Calculator (Add, Subtract, Multiply, Divide)",
+        "id": "simple-calculator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's build a calculator that can perform basic math operations. This teaches you about arithmetic operators and user input."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Arithmetic operators (+, -, *, /)",
+          "Taking input from users using Scanner",
+          "Performing calculations",
+          "Displaying results"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class SimpleCalculator {\n    public static void main(String[] args) {\n        // Create Scanner object to read input\n        Scanner scanner = new Scanner(System.in);\n        \n        // Get two numbers from user\n        System.out.print(\"Enter first number: \");\n        double num1 = scanner.nextDouble();\n        \n        System.out.print(\"Enter second number: \");\n        double num2 = scanner.nextDouble();\n        \n        // Perform all operations\n        double sum = num1 + num2;\n        double difference = num1 - num2;\n        double product = num1 * num2;\n        double quotient = num1 / num2;\n        \n        // Display results\n        System.out.println(\"\\n--- Results ---\");\n        System.out.println(num1 + \" + \" + num2 + \" = \" + sum);\n        System.out.println(num1 + \" - \" + num2 + \" = \" + difference);\n        System.out.println(num1 + \" * \" + num2 + \" = \" + product);\n        System.out.println(num1 + \" / \" + num2 + \" = \" + quotient);\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Scanner:</strong> A tool to read input from the keyboard",
+          "<strong>nextDouble():</strong> Reads a decimal number from user",
+          "<strong>double:</strong> Data type for numbers with decimals",
+          "<strong>Operators:</strong> + adds, - subtracts, * multiplies, / divides"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Challenge",
+        "text": "Add a modulus operation (%) to find the remainder. Also, add error handling for division by zero!"
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #3: Check if a Number is Even or Odd",
+        "id": "even-odd"
+      },
+      {
+        "type": "paragraph",
+        "text": "This program introduces you to conditional statements—making decisions in your code based on conditions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "If-else statements for decision making",
+          "Modulus operator (%) to find remainders",
+          "Boolean conditions (true/false)",
+          "Program flow control"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class EvenOddChecker {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        \n        // Check if number is even or odd\n        if (number % 2 == 0) {\n            System.out.println(number + \" is an EVEN number.\");\n        } else {\n            System.out.println(number + \" is an ODD number.\");\n        }\n        \n        // Bonus: Check if positive, negative, or zero\n        if (number > 0) {\n            System.out.println(\"It is also a POSITIVE number.\");\n        } else if (number < 0) {\n            System.out.println(\"It is also a NEGATIVE number.\");\n        } else {\n            System.out.println(\"The number is ZERO.\");\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>% operator:</strong> Gives the remainder after division (5 % 2 = 1)",
+          "<strong>if-else:</strong> Executes different code based on conditions",
+          "<strong>== operator:</strong> Checks if two values are equal",
+          "<strong>Logic:</strong> If number divided by 2 has remainder 0, it's even"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #4: Find the Largest of Three Numbers",
+        "id": "largest-number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learn to compare multiple values and find the maximum—a common programming task."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Nested if-else statements",
+          "Comparison operators (>, <, >=, <=)",
+          "Logical operators (&&, ||)",
+          "Finding maximum values"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class LargestNumber {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        // Get three numbers from user\n        System.out.print(\"Enter first number: \");\n        int num1 = scanner.nextInt();\n        \n        System.out.print(\"Enter second number: \");\n        int num2 = scanner.nextInt();\n        \n        System.out.print(\"Enter third number: \");\n        int num3 = scanner.nextInt();\n        \n        // Method 1: Using if-else\n        int largest;\n        if (num1 >= num2 && num1 >= num3) {\n            largest = num1;\n        } else if (num2 >= num1 && num2 >= num3) {\n            largest = num2;\n        } else {\n            largest = num3;\n        }\n        \n        System.out.println(\"\\nThe largest number is: \" + largest);\n        \n        // Method 2: Using Math.max()\n        int max = Math.max(num1, Math.max(num2, num3));\n        System.out.println(\"Using Math.max(): \" + max);\n        \n        // Bonus: Find smallest too\n        int smallest = Math.min(num1, Math.min(num2, num3));\n        System.out.println(\"The smallest number is: \" + smallest);\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>&& operator:</strong> Means 'AND' - both conditions must be true",
+          "<strong>>= operator:</strong> Greater than or equal to",
+          "<strong>Math.max():</strong> Built-in function to find maximum of two numbers",
+          "<strong>Nested Math.max():</strong> Compare first two, then compare result with third"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Try This!",
+        "text": "Modify the program to find the largest of 5 numbers. Can you do it without using Math.max()?"
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #5: Print Multiplication Table",
+        "id": "multiplication-table"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your first loop! Learn to repeat actions automatically—one of the most powerful concepts in programming."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "For loops for repetition",
+          "Loop variables and counters",
+          "Formatted output",
+          "Automating repetitive tasks"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class MultiplicationTable {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        \n        System.out.println(\"\\nMultiplication Table of \" + number + \":\");\n        System.out.println(\"----------------------------\");\n        \n        // Using for loop to print table\n        for (int i = 1; i <= 10; i++) {\n            int result = number * i;\n            System.out.println(number + \" x \" + i + \" = \" + result);\n        }\n        \n        // Bonus: Print table in reverse\n        System.out.println(\"\\nReverse Table:\");\n        for (int i = 10; i >= 1; i--) {\n            System.out.println(number + \" x \" + i + \" = \" + (number * i));\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>for loop:</strong> Repeats code a specific number of times",
+          "<strong>i = 1:</strong> Starting value (initialization)",
+          "<strong>i <= 10:</strong> Condition to continue (while this is true, loop continues)",
+          "<strong>i++:</strong> Increment (add 1 to i after each loop)",
+          "<strong>Loop body:</strong> Code inside { } runs each time"
+        ]
+      },
+      {
+        "type": "button",
+        "text": "Learn Java Programming",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #6: Check if a Number is Prime",
+        "id": "prime-number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Prime numbers are special—they're only divisible by 1 and themselves. This program teaches you to check mathematical properties."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "While loops",
+          "Boolean variables (true/false)",
+          "Break statement to exit loops",
+          "Mathematical logic"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class PrimeChecker {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        \n        // Numbers less than 2 are not prime\n        if (number < 2) {\n            System.out.println(number + \" is NOT a prime number.\");\n            return;\n        }\n        \n        // Assume number is prime\n        boolean isPrime = true;\n        \n        // Check if number is divisible by any number from 2 to number-1\n        for (int i = 2; i <= number / 2; i++) {\n            if (number % i == 0) {\n                isPrime = false;\n                break; // No need to check further\n            }\n        }\n        \n        // Display result\n        if (isPrime) {\n            System.out.println(number + \" is a PRIME number!\");\n        } else {\n            System.out.println(number + \" is NOT a prime number.\");\n        }\n        \n        // Bonus: Print all prime numbers up to the entered number\n        System.out.println(\"\\nPrime numbers up to \" + number + \":\");\n        for (int num = 2; num <= number; num++) {\n            boolean prime = true;\n            for (int i = 2; i <= num / 2; i++) {\n                if (num % i == 0) {\n                    prime = false;\n                    break;\n                }\n            }\n            if (prime) {\n                System.out.print(num + \" \");\n            }\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>boolean isPrime:</strong> Variable that stores true or false",
+          "<strong>break:</strong> Exits the loop immediately",
+          "<strong>Logic:</strong> If number is divisible by any number (remainder = 0), it's not prime",
+          "<strong>Optimization:</strong> Only check up to number/2 (no number larger than half can divide evenly)"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #7: Reverse a Number",
+        "id": "reverse-number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learn to manipulate individual digits of a number—a fundamental skill for many programming problems."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "While loops with conditions",
+          "Extracting digits using modulus",
+          "Building numbers digit by digit",
+          "Mathematical operations"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class ReverseNumber {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        \n        int original = number; // Save original number\n        int reversed = 0;\n        \n        // Reverse the number\n        while (number != 0) {\n            int digit = number % 10;      // Get last digit\n            reversed = reversed * 10 + digit;  // Add digit to reversed number\n            number = number / 10;         // Remove last digit\n        }\n        \n        System.out.println(\"Original number: \" + original);\n        System.out.println(\"Reversed number: \" + reversed);\n        \n        // Bonus: Check if number is palindrome\n        if (original == reversed) {\n            System.out.println(original + \" is a PALINDROME!\");\n        } else {\n            System.out.println(original + \" is NOT a palindrome.\");\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>number % 10:</strong> Gets the last digit (1234 % 10 = 4)",
+          "<strong>number / 10:</strong> Removes the last digit (1234 / 10 = 123)",
+          "<strong>reversed * 10 + digit:</strong> Builds reversed number (0 → 4 → 43 → 432 → 4321)",
+          "<strong>Palindrome:</strong> Number that reads same forwards and backwards (121, 1331)"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Challenge",
+        "text": "Try reversing a string instead of a number. Hint: Use a for loop to go through the string backwards!"
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #8: Find Factorial of a Number",
+        "id": "factorial"
+      },
+      {
+        "type": "paragraph",
+        "text": "Factorial is a mathematical operation where you multiply a number by all positive integers less than it. Great for learning recursion!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Recursion (function calling itself)",
+          "Iterative vs recursive approaches",
+          "Base cases in recursion",
+          "Mathematical calculations"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class Factorial {\n    \n    // Method 1: Using loop (Iterative)\n    public static long factorialIterative(int n) {\n        long result = 1;\n        for (int i = 1; i <= n; i++) {\n            result *= i;  // Same as: result = result * i\n        }\n        return result;\n    }\n    \n    // Method 2: Using recursion\n    public static long factorialRecursive(int n) {\n        // Base case: factorial of 0 or 1 is 1\n        if (n == 0 || n == 1) {\n            return 1;\n        }\n        // Recursive case: n! = n × (n-1)!\n        return n * factorialRecursive(n - 1);\n    }\n    \n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        \n        if (number < 0) {\n            System.out.println(\"Factorial is not defined for negative numbers.\");\n        } else {\n            long resultIterative = factorialIterative(number);\n            System.out.println(\"Factorial (Iterative): \" + number + \"! = \" + resultIterative);\n            \n            long resultRecursive = factorialRecursive(number);\n            System.out.println(\"Factorial (Recursive): \" + number + \"! = \" + resultRecursive);\n            \n            // Show the calculation\n            System.out.print(\"\\nCalculation: \" + number + \"! = \");\n            for (int i = number; i >= 1; i--) {\n                System.out.print(i);\n                if (i > 1) System.out.print(\" × \");\n            }\n            System.out.println(\" = \" + resultIterative);\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Factorial:</strong> 5! = 5 × 4 × 3 × 2 × 1 = 120",
+          "<strong>Iterative:</strong> Uses a loop to multiply numbers",
+          "<strong>Recursive:</strong> Function calls itself with smaller values",
+          "<strong>Base case:</strong> Stopping condition for recursion (0! = 1, 1! = 1)",
+          "<strong>long:</strong> Used instead of int because factorials get very large"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #9: Print Patterns (Stars and Numbers)",
+        "id": "print-patterns"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pattern printing is fun and teaches you nested loops—loops inside loops!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Nested loops (loop inside another loop)",
+          "Understanding rows and columns",
+          "Pattern logic and visualization",
+          "Creative programming"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class PatternPrinting {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"Enter number of rows: \");\n        int rows = scanner.nextInt();\n        \n        // Pattern 1: Right-angled triangle\n        System.out.println(\"\\nPattern 1: Right Triangle\");\n        for (int i = 1; i <= rows; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(\"* \");\n            }\n            System.out.println();\n        }\n        \n        // Pattern 2: Inverted triangle\n        System.out.println(\"\\nPattern 2: Inverted Triangle\");\n        for (int i = rows; i >= 1; i--) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(\"* \");\n            }\n            System.out.println();\n        }\n        \n        // Pattern 3: Pyramid\n        System.out.println(\"\\nPattern 3: Pyramid\");\n        for (int i = 1; i <= rows; i++) {\n            // Print spaces\n            for (int j = 1; j <= rows - i; j++) {\n                System.out.print(\"  \");\n            }\n            // Print stars\n            for (int j = 1; j <= 2 * i - 1; j++) {\n                System.out.print(\"* \");\n            }\n            System.out.println();\n        }\n        \n        // Pattern 4: Number triangle\n        System.out.println(\"\\nPattern 4: Number Triangle\");\n        for (int i = 1; i <= rows; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(j + \" \");\n            }\n            System.out.println();\n        }\n        \n        // Pattern 5: Floyd's Triangle\n        System.out.println(\"\\nPattern 5: Floyd's Triangle\");\n        int number = 1;\n        for (int i = 1; i <= rows; i++) {\n            for (int j = 1; j <= i; j++) {\n                System.out.print(number + \" \");\n                number++;\n            }\n            System.out.println();\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Outer loop:</strong> Controls rows (how many lines)",
+          "<strong>Inner loop:</strong> Controls columns (what to print in each line)",
+          "<strong>Nested loops:</strong> Inner loop runs completely for each iteration of outer loop",
+          "<strong>Spaces:</strong> Used to create alignment in pyramid patterns",
+          "<strong>Floyd's Triangle:</strong> Continuous numbers arranged in triangular form"
+        ]
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_40_article.png",
+        "alt": "Examples of different star and number patterns",
+        "caption": "Pattern printing helps visualize nested loops"
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Challenge",
+        "text": "Try creating a diamond pattern or a hollow square! These require combining multiple pattern techniques."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #10: Simple Array Operations",
+        "id": "array-operations"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arrays let you store multiple values in one variable. This is your introduction to data structures!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You'll Learn"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Creating and initializing arrays",
+          "Accessing array elements",
+          "Looping through arrays",
+          "Common array operations (sum, average, max, min)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.Scanner;\n\npublic class ArrayOperations {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        \n        System.out.print(\"How many numbers do you want to enter? \");\n        int size = scanner.nextInt();\n        \n        // Create array\n        int[] numbers = new int[size];\n        \n        // Input array elements\n        System.out.println(\"Enter \" + size + \" numbers:\");\n        for (int i = 0; i < size; i++) {\n            System.out.print(\"Number \" + (i + 1) + \": \");\n            numbers[i] = scanner.nextInt();\n        }\n        \n        // Display array\n        System.out.print(\"\\nYour numbers: \");\n        for (int num : numbers) {\n            System.out.print(num + \" \");\n        }\n        System.out.println();\n        \n        // Calculate sum\n        int sum = 0;\n        for (int num : numbers) {\n            sum += num;\n        }\n        System.out.println(\"\\nSum: \" + sum);\n        \n        // Calculate average\n        double average = (double) sum / size;\n        System.out.println(\"Average: \" + average);\n        \n        // Find maximum\n        int max = numbers[0];\n        for (int num : numbers) {\n            if (num > max) {\n                max = num;\n            }\n        }\n        System.out.println(\"Maximum: \" + max);\n        \n        // Find minimum\n        int min = numbers[0];\n        for (int num : numbers) {\n            if (num < min) {\n                min = num;\n            }\n        }\n        System.out.println(\"Minimum: \" + min);\n        \n        // Search for a number\n        System.out.print(\"\\nEnter a number to search: \");\n        int search = scanner.nextInt();\n        boolean found = false;\n        int position = -1;\n        \n        for (int i = 0; i < numbers.length; i++) {\n            if (numbers[i] == search) {\n                found = true;\n                position = i;\n                break;\n            }\n        }\n        \n        if (found) {\n            System.out.println(search + \" found at position \" + (position + 1));\n        } else {\n            System.out.println(search + \" not found in the array.\");\n        }\n        \n        scanner.close();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>int[] numbers:</strong> Declares an array of integers",
+          "<strong>new int[size]:</strong> Creates array with specified size",
+          "<strong>numbers[i]:</strong> Accesses element at index i (arrays start at 0)",
+          "<strong>Enhanced for loop:</strong> for (int num : numbers) - easier way to loop through arrays",
+          "<strong>numbers.length:</strong> Property that gives the size of array"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Congratulations!",
+        "text": "You've completed all 10 programs! You now know variables, loops, conditions, methods, recursion, and arrays—the building blocks of Java programming!"
+      },
+      {
+        "type": "button",
+        "text": "Continue Learning Java",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Practice Tips for School Students",
+        "id": "practice-tips"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now that you've seen all 10 programs, here's how to practice effectively:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Type, Don't Copy-Paste"
+      },
+      {
+        "type": "paragraph",
+        "text": "Always type the code yourself. Your fingers need to learn the syntax, and typing helps you remember better than copying."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Experiment and Break Things"
+      },
+      {
+        "type": "paragraph",
+        "text": "Change values, modify conditions, add new features. See what happens when you break the code—that's how you learn!"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Explain to Someone Else"
+      },
+      {
+        "type": "paragraph",
+        "text": "Try teaching these programs to a friend or family member. If you can explain it, you truly understand it."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Practice Daily"
+      },
+      {
+        "type": "paragraph",
+        "text": "Even 20-30 minutes daily is better than 3 hours once a week. Consistency builds skills faster."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Create Your Own Variations"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Modify the calculator to include more operations",
+          "Create different pattern designs",
+          "Build a simple grade calculator using arrays",
+          "Make a number guessing game",
+          "Create a simple quiz program"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Study Schedule",
+        "text": "Week 1: Programs 1-3 | Week 2: Programs 4-6 | Week 3: Programs 7-8 | Week 4: Programs 9-10 | Week 5: Create your own programs!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common Mistakes to Avoid",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Forgetting semicolons (;):</strong> Every statement in Java needs to end with a semicolon",
+          "<strong>Case sensitivity:</strong> 'Number' and 'number' are different in Java",
+          "<strong>Array index errors:</strong> Remember arrays start at 0, not 1",
+          "<strong>Not closing Scanner:</strong> Always use scanner.close() at the end",
+          "<strong>Integer division:</strong> 5/2 gives 2, not 2.5 (use double for decimals)",
+          "<strong>Infinite loops:</strong> Make sure your loop condition eventually becomes false"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Quick Reference: Java Basics",
+        "id": "quick-reference"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here's a handy reference for the concepts you've learned:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Data Types"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>int:</strong> Whole numbers (5, -10, 1000)",
+          "<strong>double:</strong> Decimal numbers (3.14, -0.5, 99.99)",
+          "<strong>String:</strong> Text (\"Hello\", \"Java\")",
+          "<strong>boolean:</strong> True or false",
+          "<strong>char:</strong> Single character ('A', '5', '$')"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Operators"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Arithmetic:</strong> + (add), - (subtract), * (multiply), / (divide), % (remainder)",
+          "<strong>Comparison:</strong> == (equal), != (not equal), > (greater), < (less), >= (greater or equal), <= (less or equal)",
+          "<strong>Logical:</strong> && (and), || (or), ! (not)",
+          "<strong>Assignment:</strong> = (assign), += (add and assign), -= (subtract and assign)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Control Structures"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "// If-else\nif (condition) {\n    // code\n} else {\n    // code\n}\n\n// For loop\nfor (int i = 0; i < 10; i++) {\n    // code\n}\n\n// While loop\nwhile (condition) {\n    // code\n}\n\n// Enhanced for loop (for arrays)\nfor (int num : array) {\n    // code\n}"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Next Steps: Where to Go From Here",
+        "id": "next-steps"
+      },
+      {
+        "type": "paragraph",
+        "text": "You've mastered the basics! Here's what to learn next:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>Object-Oriented Programming:</strong> Learn about classes, objects, inheritance",
+          "<strong>More Data Structures:</strong> ArrayList, HashMap, LinkedList",
+          "<strong>String Manipulation:</strong> Working with text in detail",
+          "<strong>File Handling:</strong> Reading from and writing to files",
+          "<strong>Exception Handling:</strong> Dealing with errors gracefully",
+          "<strong>GUI Programming:</strong> Creating windows and buttons (Swing/JavaFX)"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Check out our <a href='/courses/python-complete-masterclass-teens'>complete Java courses for teens</a> to continue your learning journey with structured lessons and projects."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Fun Project Ideas",
+        "id": "project-ideas"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ready to build something cool? Try these projects using what you've learned:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Simple Calculator:</strong> Expand the basic calculator with more operations",
+          "<strong>Number Guessing Game:</strong> Computer picks a random number, you guess it",
+          "<strong>Grade Calculator:</strong> Input marks, calculate percentage and grade",
+          "<strong>Simple Banking System:</strong> Deposit, withdraw, check balance",
+          "<strong>To-Do List:</strong> Add, remove, and display tasks",
+          "<strong>Quiz Program:</strong> Ask questions and keep score",
+          "<strong>Temperature Converter:</strong> Convert between Celsius, Fahrenheit, Kelvin",
+          "<strong>Simple Voting System:</strong> Count votes for different options"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Challenge Yourself",
+        "text": "Pick one project idea and build it this week! Combine multiple concepts you've learned. Don't worry about making it perfect—just start building!"
+      },
+      {
+        "type": "button",
+        "text": "Join Our Coding Community",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faqs"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "Do I need to memorize all these programs?",
+            "content": "No! Focus on understanding the logic and concepts. Once you understand how they work, you can recreate them anytime. Practice regularly instead of memorizing."
+          },
+          {
+            "title": "Which program should I start with?",
+            "content": "Start with Program #1 and work your way through in order. Each program builds on concepts from previous ones, so the sequence matters for beginners."
+          },
+          {
+            "title": "How long will it take to learn all 10 programs?",
+            "content": "If you practice 30-60 minutes daily, you can understand all 10 programs in 2-3 weeks. Take your time—understanding is more important than speed."
+          },
+          {
+            "title": "What if I get errors in my code?",
+            "content": "Errors are normal! Read the error message carefully—it tells you what's wrong and which line. Common issues: missing semicolons, typos, wrong brackets. Debug step by step."
+          },
+          {
+            "title": "Can I use these programs in my school exams?",
+            "content": "Yes! These are standard programs that appear in school exams. Practice writing them from memory without looking at solutions. Understand the logic, not just the code."
+          },
+          {
+            "title": "What software do I need to run Java programs?",
+            "content": "You need JDK (Java Development Kit) installed on your computer. You can use any text editor, but IDEs like Eclipse, IntelliJ IDEA, or NetBeans make coding easier."
+          },
+          {
+            "title": "Are these programs enough for school?",
+            "content": "These 10 programs cover the core concepts for school-level Java. Your school might teach additional topics like classes and objects, which you should learn from your textbook or teacher."
+          },
+          {
+            "title": "How can I practice more?",
+            "content": "Modify these programs, create variations, solve problems on websites like HackerRank or Codingame (beginner sections), and most importantly—build your own small projects!"
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Congratulations! You've just learned 10 essential Java programs that form the foundation of programming. From printing your name to working with arrays, you've covered variables, loops, conditions, methods, recursion, and data structures."
+      },
+      {
+        "type": "paragraph",
+        "text": "These aren't just school exercises—they're building blocks for real programming. Every professional developer uses these concepts daily. The calculator you built? That's how real calculators work. The array operations? That's how apps manage data. The patterns? That's how graphics are created."
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference between students who succeed in programming and those who struggle isn't talent—it's practice. The students who succeed are the ones who:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Type the code themselves instead of copying",
+          "Experiment and try variations",
+          "Don't give up when they get errors",
+          "Practice a little bit every day",
+          "Build their own small projects"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "You now have everything you need to start. Pick Program #1, open your IDE, and start typing. Make mistakes. Get errors. Fix them. That's how you learn."
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember: every expert programmer was once a beginner who didn't give up. Every complex app started with simple programs like these. Your coding journey starts here, with these 10 programs."
+      },
+      {
+        "type": "paragraph",
+        "text": "Need more help? Want structured lessons with projects and mentorship? <a href='/courses'>Check out our Java courses for school students</a>. Or <a href='/contact'>reach out to us</a> with questions—we're here to help you succeed!"
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "You're Ready!",
+        "text": "You have the knowledge. You have the code. Now all you need is to start practicing. Open your IDE, pick a program, and start coding. Your programming journey begins today!"
+      },
+      {
+        "type": "button",
+        "text": "Start Learning Java Today",
+        "url": "/courses",
+        "style": "primary"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "top-10-java-programs-every-college-student-must-know",
+    "why-every-teen-should-learn-coding",
+    "python-for-beginners"
+  ]
+}

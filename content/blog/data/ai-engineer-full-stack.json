@@ -3,7 +3,16 @@
     "slug": "full-stack-vs-ai-engineer-salary-india",
     "title": "Full Stack vs. AI Engineer: Which Career Path Pays More in India?",
     "description": "Confused between Full Stack Development and AI Engineering? We break down salaries, job demand, skills, and career growth for both paths in the Indian market.",
-    "keywords": ["full stack developer salary India", "AI engineer salary India", "full stack vs AI engineer", "tech careers India", "software developer salary", "machine learning engineer India", "best tech career 2025", "IT jobs India"],
+    "keywords": [
+      "full stack developer salary India",
+      "AI engineer salary India",
+      "full stack vs AI engineer",
+      "tech careers India",
+      "software developer salary",
+      "machine learning engineer India",
+      "best tech career 2025",
+      "IT jobs India"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +21,13 @@
     "date": "2025-01-22",
     "dateModified": "2025-01-22",
     "category": "Career",
-    "tags": ["Full Stack", "AI Engineering", "Career Guide", "Salaries", "India Tech Jobs"],
+    "tags": [
+      "Full Stack",
+      "AI Engineering",
+      "Career Guide",
+      "Salaries",
+      "India Tech Jobs"
+    ],
     "readTime": "11 min read",
     "featured": true
   },
@@ -20,7 +35,7 @@
     "title": "Full Stack vs. AI Engineer: Which Career Path Pays More in India?",
     "subtitle": "Two of the hottest tech careers, one big question—which one should you choose? Let's talk money, opportunities, and reality.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Full+Stack+vs+AI+Engineer",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_12_hero.png",
       "alt": "Full Stack Developer vs AI Engineer career comparison in India"
     }
   },
@@ -58,7 +73,7 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/fullstack-vs-ai/images/fullstack-developer.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_12_article.png",
         "alt": "Full Stack Developer working on web application",
         "caption": "Full Stack Developers build complete web applications from front to back"
       },
@@ -867,5 +882,9 @@
       }
     ]
   },
-  "relatedPosts": ["coding-is-the-new-english-why-2025-is-the-year-to-start", "cbse-icse-gap-what-schools-not-teaching-about-tech", "python-for-beginners-guide"]
+  "relatedPosts": [
+    "coding-is-the-new-english-why-2025-is-the-year-to-start",
+    "cbse-icse-gap-what-schools-not-teaching-about-tech",
+    "python-for-beginners-guide"
+  ]
 }

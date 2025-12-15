@@ -1,0 +1,868 @@
+{
+  "meta": {
+    "slug": "top-10-java-programs-every-college-student-must-know",
+    "title": "Top 10 Java Programs Every College Student Must Know (With Solutions)",
+    "description": "Master 10 essential Java programs with complete solutions and explanations. Perfect for college students, interviews, and exams.",
+    "keywords": [
+      "Java programs",
+      "college Java",
+      "Java programming",
+      "Java interview questions",
+      "advanced Java",
+      "Java solutions",
+      "programming challenges",
+      "Java algorithms"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2025-02-20",
+    "dateModified": "2025-02-20",
+    "category": "Programming",
+    "tags": [
+      "Java",
+      "College",
+      "Programming",
+      "Algorithms",
+      "Interview Prep",
+      "Advanced"
+    ],
+    "readTime": "15 min read",
+    "featured": true
+  },
+  "hero": {
+    "title": "Top 10 Java Programs Every College Student Must Know",
+    "subtitle": "From medium to extremely hard—master these essential Java programs with complete solutions and explanations.",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_39_hero.png",
+      "alt": "College student mastering advanced Java programming concepts"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you're a college student studying Java, you've probably realized that knowing syntax isn't enough. Employers, interviewers, and professors expect you to solve real problems—the kind that test your logic, algorithms, and understanding of data structures."
+      },
+      {
+        "type": "paragraph",
+        "text": "This article covers 10 essential Java programs every college student should master. We're not talking about 'Hello World' or simple loops. These are medium to extremely hard problems that will challenge you, teach you, and prepare you for technical interviews and real-world development."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each program includes complete working code, detailed explanations, time/space complexity analysis, and practical applications. Let's dive in."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Difficulty Progression",
+        "text": "Programs are arranged from medium difficulty to extremely hard. Start with the earlier ones to build confidence, then tackle the advanced challenges. Each solution is production-quality code you can learn from."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why These Programs Matter",
+        "id": "why-matter"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before we jump into code, let's understand why these specific programs are crucial:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Interview Preparation:</strong> These patterns appear frequently in technical interviews at top companies",
+          "<strong>Algorithm Mastery:</strong> Each program teaches fundamental algorithmic thinking",
+          "<strong>Data Structure Practice:</strong> You'll work with arrays, lists, trees, graphs, and more",
+          "<strong>Problem-Solving Skills:</strong> These aren't just coding exercises—they're logic puzzles that sharpen your mind",
+          "<strong>Real-World Applications:</strong> Every program has practical use cases in actual software development"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Master these, and you'll be ahead of 90% of your peers. Let's begin."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #1: Binary Search Implementation (Medium)",
+        "id": "binary-search"
+      },
+      {
+        "type": "paragraph",
+        "text": "Binary search is a fundamental algorithm that every programmer must know. It searches for an element in a sorted array in O(log n) time—much faster than linear search."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given a sorted array of integers and a target value, return the index of the target if found, otherwise return -1. Implement both iterative and recursive approaches."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class BinarySearch {\n    \n    // Iterative approach\n    public static int binarySearchIterative(int[] arr, int target) {\n        int left = 0;\n        int right = arr.length - 1;\n        \n        while (left <= right) {\n            int mid = left + (right - left) / 2; // Prevents overflow\n            \n            if (arr[mid] == target) {\n                return mid;\n            } else if (arr[mid] < target) {\n                left = mid + 1;\n            } else {\n                right = mid - 1;\n            }\n        }\n        return -1;\n    }\n    \n    // Recursive approach\n    public static int binarySearchRecursive(int[] arr, int target, int left, int right) {\n        if (left > right) {\n            return -1;\n        }\n        \n        int mid = left + (right - left) / 2;\n        \n        if (arr[mid] == target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            return binarySearchRecursive(arr, target, mid + 1, right);\n        } else {\n            return binarySearchRecursive(arr, target, left, mid - 1);\n        }\n    }\n    \n    public static void main(String[] args) {\n        int[] arr = {2, 5, 8, 12, 16, 23, 38, 45, 56, 67, 78};\n        int target = 23;\n        \n        int resultIterative = binarySearchIterative(arr, target);\n        System.out.println(\"Iterative: Element found at index \" + resultIterative);\n        \n        int resultRecursive = binarySearchRecursive(arr, target, 0, arr.length - 1);\n        System.out.println(\"Recursive: Element found at index \" + resultRecursive);\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(log n) - divides search space in half each iteration",
+          "<strong>Space Complexity:</strong> O(1) for iterative, O(log n) for recursive (call stack)",
+          "<strong>Key Insight:</strong> Use 'left + (right - left) / 2' instead of '(left + right) / 2' to prevent integer overflow",
+          "<strong>Prerequisite:</strong> Array must be sorted",
+          "<strong>Real-World Use:</strong> Database indexing, searching in large datasets, autocomplete features"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #2: Merge Two Sorted Arrays (Medium)",
+        "id": "merge-sorted-arrays"
+      },
+      {
+        "type": "paragraph",
+        "text": "This program tests your understanding of the two-pointer technique and is commonly asked in interviews."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given two sorted arrays, merge them into a single sorted array without using any built-in sorting functions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class MergeSortedArrays {\n    \n    public static int[] mergeSortedArrays(int[] arr1, int[] arr2) {\n        int n1 = arr1.length;\n        int n2 = arr2.length;\n        int[] merged = new int[n1 + n2];\n        \n        int i = 0, j = 0, k = 0;\n        \n        // Compare elements from both arrays and add smaller one\n        while (i < n1 && j < n2) {\n            if (arr1[i] <= arr2[j]) {\n                merged[k++] = arr1[i++];\n            } else {\n                merged[k++] = arr2[j++];\n            }\n        }\n        \n        // Copy remaining elements from arr1\n        while (i < n1) {\n            merged[k++] = arr1[i++];\n        }\n        \n        // Copy remaining elements from arr2\n        while (j < n2) {\n            merged[k++] = arr2[j++];\n        }\n        \n        return merged;\n    }\n    \n    public static void main(String[] args) {\n        int[] arr1 = {1, 3, 5, 7, 9};\n        int[] arr2 = {2, 4, 6, 8, 10, 12};\n        \n        int[] result = mergeSortedArrays(arr1, arr2);\n        \n        System.out.print(\"Merged Array: \");\n        for (int num : result) {\n            System.out.print(num + \" \");\n        }\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(n + m) where n and m are array lengths",
+          "<strong>Space Complexity:</strong> O(n + m) for the merged array",
+          "<strong>Technique:</strong> Two-pointer approach - fundamental for many array problems",
+          "<strong>Edge Cases:</strong> Handle arrays of different lengths, empty arrays",
+          "<strong>Real-World Use:</strong> Merge sort algorithm, combining sorted data streams, database operations"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #3: Linked List Reversal (Medium-Hard)",
+        "id": "reverse-linked-list"
+      },
+      {
+        "type": "paragraph",
+        "text": "Reversing a linked list is a classic problem that tests your understanding of pointers and data structures."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given the head of a singly linked list, reverse the list and return the new head. Implement both iterative and recursive solutions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "class Node {\n    int data;\n    Node next;\n    \n    Node(int data) {\n        this.data = data;\n        this.next = null;\n    }\n}\n\npublic class LinkedListReversal {\n    \n    // Iterative approach\n    public static Node reverseIterative(Node head) {\n        Node prev = null;\n        Node current = head;\n        Node next = null;\n        \n        while (current != null) {\n            next = current.next;  // Store next node\n            current.next = prev;  // Reverse the link\n            prev = current;       // Move prev forward\n            current = next;       // Move current forward\n        }\n        \n        return prev; // New head\n    }\n    \n    // Recursive approach\n    public static Node reverseRecursive(Node head) {\n        // Base case: empty list or single node\n        if (head == null || head.next == null) {\n            return head;\n        }\n        \n        // Recursively reverse the rest of the list\n        Node newHead = reverseRecursive(head.next);\n        \n        // Reverse the link\n        head.next.next = head;\n        head.next = null;\n        \n        return newHead;\n    }\n    \n    // Helper method to print list\n    public static void printList(Node head) {\n        Node current = head;\n        while (current != null) {\n            System.out.print(current.data + \" -> \");\n            current = current.next;\n        }\n        System.out.println(\"null\");\n    }\n    \n    public static void main(String[] args) {\n        // Create list: 1 -> 2 -> 3 -> 4 -> 5\n        Node head = new Node(1);\n        head.next = new Node(2);\n        head.next.next = new Node(3);\n        head.next.next.next = new Node(4);\n        head.next.next.next.next = new Node(5);\n        \n        System.out.println(\"Original List:\");\n        printList(head);\n        \n        Node reversedHead = reverseIterative(head);\n        System.out.println(\"\\nReversed List (Iterative):\");\n        printList(reversedHead);\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(n) for both approaches",
+          "<strong>Space Complexity:</strong> O(1) for iterative, O(n) for recursive (call stack)",
+          "<strong>Key Concept:</strong> Three-pointer technique (prev, current, next)",
+          "<strong>Common Mistake:</strong> Losing reference to the rest of the list",
+          "<strong>Real-World Use:</strong> Undo functionality, browser history, implementing stacks"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Pro Tip",
+        "text": "Draw the linked list on paper and trace through the algorithm step by step. Visualizing pointer movements is crucial for understanding linked list problems."
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #4: Find All Permutations of a String (Hard)",
+        "id": "string-permutations"
+      },
+      {
+        "type": "paragraph",
+        "text": "This problem tests your understanding of recursion and backtracking—essential techniques for solving complex problems."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given a string, generate all possible permutations of its characters. For example, 'ABC' should generate: ABC, ACB, BAC, BCA, CAB, CBA."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class StringPermutations {\n    \n    public static List<String> findPermutations(String str) {\n        List<String> result = new ArrayList<>();\n        if (str == null || str.length() == 0) {\n            return result;\n        }\n        \n        boolean[] used = new boolean[str.length()];\n        StringBuilder current = new StringBuilder();\n        backtrack(str, used, current, result);\n        \n        return result;\n    }\n    \n    private static void backtrack(String str, boolean[] used, \n                                   StringBuilder current, List<String> result) {\n        // Base case: we've used all characters\n        if (current.length() == str.length()) {\n            result.add(current.toString());\n            return;\n        }\n        \n        // Try adding each unused character\n        for (int i = 0; i < str.length(); i++) {\n            if (used[i]) continue; // Skip if already used\n            \n            // Choose\n            current.append(str.charAt(i));\n            used[i] = true;\n            \n            // Explore\n            backtrack(str, used, current, result);\n            \n            // Unchoose (backtrack)\n            current.deleteCharAt(current.length() - 1);\n            used[i] = false;\n        }\n    }\n    \n    // Alternative approach using swapping\n    public static void permuteSwap(String str, int left, int right, List<String> result) {\n        if (left == right) {\n            result.add(str);\n            return;\n        }\n        \n        for (int i = left; i <= right; i++) {\n            str = swap(str, left, i);\n            permuteSwap(str, left + 1, right, result);\n            str = swap(str, left, i); // Backtrack\n        }\n    }\n    \n    private static String swap(String str, int i, int j) {\n        char[] chars = str.toCharArray();\n        char temp = chars[i];\n        chars[i] = chars[j];\n        chars[j] = temp;\n        return new String(chars);\n    }\n    \n    public static void main(String[] args) {\n        String str = \"ABC\";\n        \n        List<String> permutations = findPermutations(str);\n        System.out.println(\"All permutations of '\" + str + \"':\");\n        for (String perm : permutations) {\n            System.out.println(perm);\n        }\n        \n        System.out.println(\"\\nTotal permutations: \" + permutations.size());\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(n! × n) - n! permutations, each taking O(n) to build",
+          "<strong>Space Complexity:</strong> O(n) for recursion depth",
+          "<strong>Technique:</strong> Backtracking - choose, explore, unchoose pattern",
+          "<strong>Key Insight:</strong> Track which characters are used to avoid duplicates",
+          "<strong>Real-World Use:</strong> Password generation, combinatorial optimization, puzzle solving"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #5: Implement a Min Heap (Hard)",
+        "id": "min-heap"
+      },
+      {
+        "type": "paragraph",
+        "text": "Understanding heaps is crucial for priority queues, sorting algorithms, and many graph algorithms."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Implement a Min Heap data structure with insert, extractMin, and heapify operations. The heap should maintain the property that parent nodes are always smaller than their children."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class MinHeap {\n    private List<Integer> heap;\n    \n    public MinHeap() {\n        heap = new ArrayList<>();\n    }\n    \n    // Get parent index\n    private int parent(int i) {\n        return (i - 1) / 2;\n    }\n    \n    // Get left child index\n    private int leftChild(int i) {\n        return 2 * i + 1;\n    }\n    \n    // Get right child index\n    private int rightChild(int i) {\n        return 2 * i + 2;\n    }\n    \n    // Swap two elements\n    private void swap(int i, int j) {\n        int temp = heap.get(i);\n        heap.set(i, heap.get(j));\n        heap.set(j, temp);\n    }\n    \n    // Insert element into heap\n    public void insert(int value) {\n        heap.add(value);\n        int current = heap.size() - 1;\n        \n        // Bubble up to maintain heap property\n        while (current > 0 && heap.get(current) < heap.get(parent(current))) {\n            swap(current, parent(current));\n            current = parent(current);\n        }\n    }\n    \n    // Extract minimum element\n    public int extractMin() {\n        if (heap.isEmpty()) {\n            throw new NoSuchElementException(\"Heap is empty\");\n        }\n        \n        int min = heap.get(0);\n        int lastElement = heap.remove(heap.size() - 1);\n        \n        if (!heap.isEmpty()) {\n            heap.set(0, lastElement);\n            heapifyDown(0);\n        }\n        \n        return min;\n    }\n    \n    // Heapify down from given index\n    private void heapifyDown(int i) {\n        int minIndex = i;\n        int left = leftChild(i);\n        int right = rightChild(i);\n        \n        // Find smallest among node and its children\n        if (left < heap.size() && heap.get(left) < heap.get(minIndex)) {\n            minIndex = left;\n        }\n        \n        if (right < heap.size() && heap.get(right) < heap.get(minIndex)) {\n            minIndex = right;\n        }\n        \n        // If smallest is not the current node, swap and continue\n        if (minIndex != i) {\n            swap(i, minIndex);\n            heapifyDown(minIndex);\n        }\n    }\n    \n    // Get minimum without removing\n    public int peek() {\n        if (heap.isEmpty()) {\n            throw new NoSuchElementException(\"Heap is empty\");\n        }\n        return heap.get(0);\n    }\n    \n    // Get heap size\n    public int size() {\n        return heap.size();\n    }\n    \n    // Check if heap is empty\n    public boolean isEmpty() {\n        return heap.isEmpty();\n    }\n    \n    // Print heap\n    public void printHeap() {\n        System.out.println(heap);\n    }\n    \n    public static void main(String[] args) {\n        MinHeap minHeap = new MinHeap();\n        \n        // Insert elements\n        int[] elements = {5, 3, 8, 1, 9, 2, 7};\n        System.out.println(\"Inserting elements:\");\n        for (int element : elements) {\n            minHeap.insert(element);\n            System.out.println(\"Inserted \" + element + \": \");\n            minHeap.printHeap();\n        }\n        \n        // Extract minimum elements\n        System.out.println(\"\\nExtracting minimum elements:\");\n        while (!minHeap.isEmpty()) {\n            System.out.println(\"Extracted: \" + minHeap.extractMin());\n            if (!minHeap.isEmpty()) {\n                minHeap.printHeap();\n            }\n        }\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(log n) for insert and extractMin, O(1) for peek",
+          "<strong>Space Complexity:</strong> O(n) for storing elements",
+          "<strong>Key Operations:</strong> Bubble up (insert), bubble down (extract)",
+          "<strong>Heap Property:</strong> Parent is always smaller than children",
+          "<strong>Real-World Use:</strong> Priority queues, Dijkstra's algorithm, heap sort, task scheduling"
+        ]
+      },
+      {
+        "type": "button",
+        "text": "Learn Advanced Data Structures",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #6: Detect Cycle in a Directed Graph (Hard)",
+        "id": "detect-cycle-graph"
+      },
+      {
+        "type": "paragraph",
+        "text": "Graph algorithms are essential for technical interviews. This problem uses Depth-First Search (DFS) with color coding."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given a directed graph, detect if it contains a cycle. Use DFS with three states: unvisited (white), visiting (gray), and visited (black)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class CycleDetectionDirectedGraph {\n    \n    enum Color {\n        WHITE,  // Unvisited\n        GRAY,   // Currently visiting (in recursion stack)\n        BLACK   // Completely visited\n    }\n    \n    static class Graph {\n        private int vertices;\n        private List<List<Integer>> adjList;\n        \n        public Graph(int vertices) {\n            this.vertices = vertices;\n            adjList = new ArrayList<>(vertices);\n            for (int i = 0; i < vertices; i++) {\n                adjList.add(new ArrayList<>());\n            }\n        }\n        \n        public void addEdge(int source, int destination) {\n            adjList.get(source).add(destination);\n        }\n        \n        public boolean hasCycle() {\n            Color[] colors = new Color[vertices];\n            Arrays.fill(colors, Color.WHITE);\n            \n            // Check for cycle starting from each unvisited vertex\n            for (int i = 0; i < vertices; i++) {\n                if (colors[i] == Color.WHITE) {\n                    if (hasCycleDFS(i, colors)) {\n                        return true;\n                    }\n                }\n            }\n            return false;\n        }\n        \n        private boolean hasCycleDFS(int vertex, Color[] colors) {\n            // Mark current vertex as being visited\n            colors[vertex] = Color.GRAY;\n            \n            // Visit all adjacent vertices\n            for (int neighbor : adjList.get(vertex)) {\n                // If neighbor is gray, we found a back edge (cycle)\n                if (colors[neighbor] == Color.GRAY) {\n                    return true;\n                }\n                \n                // If neighbor is white, recursively visit it\n                if (colors[neighbor] == Color.WHITE) {\n                    if (hasCycleDFS(neighbor, colors)) {\n                        return true;\n                    }\n                }\n            }\n            \n            // Mark vertex as completely visited\n            colors[vertex] = Color.BLACK;\n            return false;\n        }\n        \n        // Alternative: Using recursion stack tracking\n        public boolean hasCycleAlternative() {\n            boolean[] visited = new boolean[vertices];\n            boolean[] recStack = new boolean[vertices];\n            \n            for (int i = 0; i < vertices; i++) {\n                if (hasCycleUtil(i, visited, recStack)) {\n                    return true;\n                }\n            }\n            return false;\n        }\n        \n        private boolean hasCycleUtil(int vertex, boolean[] visited, boolean[] recStack) {\n            if (recStack[vertex]) {\n                return true; // Found cycle\n            }\n            \n            if (visited[vertex]) {\n                return false; // Already processed\n            }\n            \n            visited[vertex] = true;\n            recStack[vertex] = true;\n            \n            for (int neighbor : adjList.get(vertex)) {\n                if (hasCycleUtil(neighbor, visited, recStack)) {\n                    return true;\n                }\n            }\n            \n            recStack[vertex] = false; // Remove from recursion stack\n            return false;\n        }\n    }\n    \n    public static void main(String[] args) {\n        // Create a graph with cycle\n        Graph graph1 = new Graph(4);\n        graph1.addEdge(0, 1);\n        graph1.addEdge(1, 2);\n        graph1.addEdge(2, 3);\n        graph1.addEdge(3, 1); // Creates cycle: 1 -> 2 -> 3 -> 1\n        \n        System.out.println(\"Graph 1 has cycle: \" + graph1.hasCycle());\n        \n        // Create a graph without cycle\n        Graph graph2 = new Graph(4);\n        graph2.addEdge(0, 1);\n        graph2.addEdge(1, 2);\n        graph2.addEdge(2, 3);\n        \n        System.out.println(\"Graph 2 has cycle: \" + graph2.hasCycle());\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(V + E) where V is vertices and E is edges",
+          "<strong>Space Complexity:</strong> O(V) for color/visited arrays and recursion stack",
+          "<strong>Key Concept:</strong> Gray nodes indicate vertices in current DFS path",
+          "<strong>Back Edge:</strong> Edge to a gray node indicates a cycle",
+          "<strong>Real-World Use:</strong> Deadlock detection, dependency resolution, build systems"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Important Distinction",
+        "text": "This algorithm is for directed graphs. For undirected graphs, you'd use a different approach (checking if you revisit a node that's not the parent)."
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #7: Longest Common Subsequence (Hard)",
+        "id": "longest-common-subsequence"
+      },
+      {
+        "type": "paragraph",
+        "text": "This classic dynamic programming problem appears frequently in interviews and has many practical applications."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Given two strings, find the length of their longest common subsequence. A subsequence is a sequence that appears in the same relative order but not necessarily contiguous. For example, 'ACE' is a subsequence of 'ABCDE'."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "public class LongestCommonSubsequence {\n    \n    // Dynamic Programming approach (Bottom-up)\n    public static int lcsDP(String text1, String text2) {\n        int m = text1.length();\n        int n = text2.length();\n        \n        // Create DP table\n        int[][] dp = new int[m + 1][n + 1];\n        \n        // Fill the DP table\n        for (int i = 1; i <= m; i++) {\n            for (int j = 1; j <= n; j++) {\n                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {\n                    // Characters match: add 1 to diagonal value\n                    dp[i][j] = dp[i - 1][j - 1] + 1;\n                } else {\n                    // Characters don't match: take max of left or top\n                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);\n                }\n            }\n        }\n        \n        return dp[m][n];\n    }\n    \n    // Recursive approach with memoization (Top-down)\n    public static int lcsMemo(String text1, String text2) {\n        int[][] memo = new int[text1.length()][text2.length()];\n        for (int[] row : memo) {\n            Arrays.fill(row, -1);\n        }\n        return lcsMemoHelper(text1, text2, 0, 0, memo);\n    }\n    \n    private static int lcsMemoHelper(String text1, String text2, int i, int j, int[][] memo) {\n        // Base case: reached end of either string\n        if (i == text1.length() || j == text2.length()) {\n            return 0;\n        }\n        \n        // Check memo\n        if (memo[i][j] != -1) {\n            return memo[i][j];\n        }\n        \n        int result;\n        if (text1.charAt(i) == text2.charAt(j)) {\n            // Characters match: include and move both pointers\n            result = 1 + lcsMemoHelper(text1, text2, i + 1, j + 1, memo);\n        } else {\n            // Characters don't match: try both options\n            int option1 = lcsMemoHelper(text1, text2, i + 1, j, memo);\n            int option2 = lcsMemoHelper(text1, text2, i, j + 1, memo);\n            result = Math.max(option1, option2);\n        }\n        \n        memo[i][j] = result;\n        return result;\n    }\n    \n    // Method to reconstruct the actual LCS string\n    public static String getLCSString(String text1, String text2) {\n        int m = text1.length();\n        int n = text2.length();\n        int[][] dp = new int[m + 1][n + 1];\n        \n        // Fill DP table\n        for (int i = 1; i <= m; i++) {\n            for (int j = 1; j <= n; j++) {\n                if (text1.charAt(i - 1) == text2.charAt(j - 1)) {\n                    dp[i][j] = dp[i - 1][j - 1] + 1;\n                } else {\n                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);\n                }\n            }\n        }\n        \n        // Backtrack to find the actual subsequence\n        StringBuilder lcs = new StringBuilder();\n        int i = m, j = n;\n        \n        while (i > 0 && j > 0) {\n            if (text1.charAt(i - 1) == text2.charAt(j - 1)) {\n                lcs.insert(0, text1.charAt(i - 1));\n                i--;\n                j--;\n            } else if (dp[i - 1][j] > dp[i][j - 1]) {\n                i--;\n            } else {\n                j--;\n            }\n        }\n        \n        return lcs.toString();\n    }\n    \n    public static void main(String[] args) {\n        String text1 = \"ABCDGH\";\n        String text2 = \"AEDFHR\";\n        \n        System.out.println(\"String 1: \" + text1);\n        System.out.println(\"String 2: \" + text2);\n        \n        int lengthDP = lcsDP(text1, text2);\n        System.out.println(\"\\nLCS Length (DP): \" + lengthDP);\n        \n        int lengthMemo = lcsMemo(text1, text2);\n        System.out.println(\"LCS Length (Memoization): \" + lengthMemo);\n        \n        String lcsString = getLCSString(text1, text2);\n        System.out.println(\"Actual LCS: \" + lcsString);\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(m × n) where m and n are string lengths",
+          "<strong>Space Complexity:</strong> O(m × n) for DP table",
+          "<strong>DP Recurrence:</strong> If chars match: dp[i][j] = dp[i-1][j-1] + 1, else: max(dp[i-1][j], dp[i][j-1])",
+          "<strong>Key Insight:</strong> Build solution from smaller subproblems",
+          "<strong>Real-World Use:</strong> Diff tools (git diff), DNA sequence analysis, plagiarism detection, file comparison"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #8: N-Queens Problem (Very Hard)",
+        "id": "n-queens"
+      },
+      {
+        "type": "paragraph",
+        "text": "The N-Queens problem is a classic backtracking challenge that tests your ability to handle complex constraints."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Place N chess queens on an N×N chessboard so that no two queens threaten each other. Find all possible solutions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class NQueens {\n    \n    public static List<List<String>> solveNQueens(int n) {\n        List<List<String>> solutions = new ArrayList<>();\n        char[][] board = new char[n][n];\n        \n        // Initialize board with empty cells\n        for (int i = 0; i < n; i++) {\n            Arrays.fill(board[i], '.');\n        }\n        \n        // Sets to track attacked positions\n        Set<Integer> cols = new HashSet<>();\n        Set<Integer> diag1 = new HashSet<>();  // row - col\n        Set<Integer> diag2 = new HashSet<>();  // row + col\n        \n        backtrack(0, n, board, solutions, cols, diag1, diag2);\n        return solutions;\n    }\n    \n    private static void backtrack(int row, int n, char[][] board,\n                                   List<List<String>> solutions,\n                                   Set<Integer> cols,\n                                   Set<Integer> diag1,\n                                   Set<Integer> diag2) {\n        // Base case: all queens placed successfully\n        if (row == n) {\n            solutions.add(constructSolution(board));\n            return;\n        }\n        \n        // Try placing queen in each column of current row\n        for (int col = 0; col < n; col++) {\n            // Check if position is safe\n            if (cols.contains(col) || \n                diag1.contains(row - col) || \n                diag2.contains(row + col)) {\n                continue;\n            }\n            \n            // Place queen\n            board[row][col] = 'Q';\n            cols.add(col);\n            diag1.add(row - col);\n            diag2.add(row + col);\n            \n            // Recurse to next row\n            backtrack(row + 1, n, board, solutions, cols, diag1, diag2);\n            \n            // Remove queen (backtrack)\n            board[row][col] = '.';\n            cols.remove(col);\n            diag1.remove(row - col);\n            diag2.remove(row + col);\n        }\n    }\n    \n    private static List<String> constructSolution(char[][] board) {\n        List<String> solution = new ArrayList<>();\n        for (char[] row : board) {\n            solution.add(new String(row));\n        }\n        return solution;\n    }\n    \n    // Helper method to print a solution\n    private static void printSolution(List<String> solution, int solutionNumber) {\n        System.out.println(\"\\nSolution \" + solutionNumber + \":\");\n        for (String row : solution) {\n            System.out.println(row);\n        }\n    }\n    \n    // Alternative: Check if position is safe (without sets)\n    private static boolean isSafe(char[][] board, int row, int col, int n) {\n        // Check column\n        for (int i = 0; i < row; i++) {\n            if (board[i][col] == 'Q') {\n                return false;\n            }\n        }\n        \n        // Check upper-left diagonal\n        for (int i = row - 1, j = col - 1; i >= 0 && j >= 0; i--, j--) {\n            if (board[i][j] == 'Q') {\n                return false;\n            }\n        }\n        \n        // Check upper-right diagonal\n        for (int i = row - 1, j = col + 1; i >= 0 && j < n; i--, j++) {\n            if (board[i][j] == 'Q') {\n                return false;\n            }\n        }\n        \n        return true;\n    }\n    \n    public static void main(String[] args) {\n        int n = 4;\n        System.out.println(\"Solving \" + n + \"-Queens Problem:\");\n        \n        List<List<String>> solutions = solveNQueens(n);\n        \n        System.out.println(\"\\nTotal solutions found: \" + solutions.size());\n        \n        // Print all solutions\n        for (int i = 0; i < solutions.size(); i++) {\n            printSolution(solutions.get(i), i + 1);\n        }\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(N!) - trying all possible placements",
+          "<strong>Space Complexity:</strong> O(N²) for board + O(N) for recursion",
+          "<strong>Optimization:</strong> Using sets to track attacked positions in O(1) time",
+          "<strong>Diagonal Formula:</strong> row - col for one diagonal, row + col for the other",
+          "<strong>Real-World Use:</strong> Constraint satisfaction problems, scheduling, resource allocation"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Challenge Yourself",
+        "text": "Try solving for N=8 (standard chessboard). There are 92 distinct solutions! Can you optimize the algorithm further?"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #9: Implement LRU Cache (Very Hard)",
+        "id": "lru-cache"
+      },
+      {
+        "type": "paragraph",
+        "text": "LRU (Least Recently Used) Cache is a common interview question that tests your understanding of data structures and design."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Design and implement a data structure for Least Recently Used (LRU) cache. It should support get and put operations in O(1) time complexity."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\npublic class LRUCache {\n    \n    // Doubly linked list node\n    class Node {\n        int key;\n        int value;\n        Node prev;\n        Node next;\n        \n        Node(int key, int value) {\n            this.key = key;\n            this.value = value;\n        }\n    }\n    \n    private Map<Integer, Node> cache;\n    private int capacity;\n    private Node head;  // Most recently used\n    private Node tail;  // Least recently used\n    \n    public LRUCache(int capacity) {\n        this.capacity = capacity;\n        this.cache = new HashMap<>();\n        \n        // Initialize dummy head and tail\n        head = new Node(0, 0);\n        tail = new Node(0, 0);\n        head.next = tail;\n        tail.prev = head;\n    }\n    \n    public int get(int key) {\n        if (!cache.containsKey(key)) {\n            return -1;\n        }\n        \n        Node node = cache.get(key);\n        // Move accessed node to front (most recently used)\n        moveToHead(node);\n        return node.value;\n    }\n    \n    public void put(int key, int value) {\n        if (cache.containsKey(key)) {\n            // Update existing key\n            Node node = cache.get(key);\n            node.value = value;\n            moveToHead(node);\n        } else {\n            // Add new key\n            Node newNode = new Node(key, value);\n            cache.put(key, newNode);\n            addToHead(newNode);\n            \n            // Check capacity\n            if (cache.size() > capacity) {\n                // Remove least recently used (tail)\n                Node lru = removeTail();\n                cache.remove(lru.key);\n            }\n        }\n    }\n    \n    // Helper method: Add node right after head\n    private void addToHead(Node node) {\n        node.prev = head;\n        node.next = head.next;\n        head.next.prev = node;\n        head.next = node;\n    }\n    \n    // Helper method: Remove node from list\n    private void removeNode(Node node) {\n        node.prev.next = node.next;\n        node.next.prev = node.prev;\n    }\n    \n    // Helper method: Move node to head\n    private void moveToHead(Node node) {\n        removeNode(node);\n        addToHead(node);\n    }\n    \n    // Helper method: Remove and return tail node\n    private Node removeTail() {\n        Node lru = tail.prev;\n        removeNode(lru);\n        return lru;\n    }\n    \n    // Helper method to display cache state\n    public void displayCache() {\n        System.out.print(\"Cache (MRU -> LRU): \");\n        Node current = head.next;\n        while (current != tail) {\n            System.out.print(\"[\" + current.key + \":\" + current.value + \"] \");\n            current = current.next;\n        }\n        System.out.println();\n    }\n    \n    public static void main(String[] args) {\n        LRUCache cache = new LRUCache(3);\n        \n        System.out.println(\"LRU Cache with capacity 3\\n\");\n        \n        cache.put(1, 10);\n        System.out.println(\"Put (1, 10)\");\n        cache.displayCache();\n        \n        cache.put(2, 20);\n        System.out.println(\"\\nPut (2, 20)\");\n        cache.displayCache();\n        \n        cache.put(3, 30);\n        System.out.println(\"\\nPut (3, 30)\");\n        cache.displayCache();\n        \n        System.out.println(\"\\nGet key 1: \" + cache.get(1));\n        cache.displayCache();\n        \n        cache.put(4, 40);\n        System.out.println(\"\\nPut (4, 40) - Should evict key 2\");\n        cache.displayCache();\n        \n        System.out.println(\"\\nGet key 2: \" + cache.get(2) + \" (should be -1)\");\n        \n        cache.put(5, 50);\n        System.out.println(\"\\nPut (5, 50) - Should evict key 3\");\n        cache.displayCache();\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(1) for both get and put operations",
+          "<strong>Space Complexity:</strong> O(capacity) for storing cache entries",
+          "<strong>Data Structures:</strong> HashMap for O(1) lookup + Doubly Linked List for O(1) removal/insertion",
+          "<strong>Key Design:</strong> HashMap stores key-node pairs, list maintains access order",
+          "<strong>Real-World Use:</strong> Browser cache, database query cache, CDN caching, memory management"
+        ]
+      },
+      {
+        "type": "divider",
+        "style": "default"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Program #10: Serialize and Deserialize Binary Tree (Extremely Hard)",
+        "id": "serialize-deserialize-tree"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is one of the most challenging tree problems. It tests your understanding of tree traversal, recursion, and string manipulation."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Problem Statement"
+      },
+      {
+        "type": "paragraph",
+        "text": "Design an algorithm to serialize a binary tree to a string and deserialize the string back to the original tree structure. The serialization should preserve the tree structure completely."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Solution"
+      },
+      {
+        "type": "code",
+        "language": "java",
+        "code": "import java.util.*;\n\nclass TreeNode {\n    int val;\n    TreeNode left;\n    TreeNode right;\n    \n    TreeNode(int val) {\n        this.val = val;\n    }\n}\n\npublic class SerializeDeserializeBinaryTree {\n    \n    private static final String NULL_MARKER = \"null\";\n    private static final String DELIMITER = \",\";\n    \n    // Serialize using preorder traversal\n    public static String serialize(TreeNode root) {\n        StringBuilder sb = new StringBuilder();\n        serializeHelper(root, sb);\n        return sb.toString();\n    }\n    \n    private static void serializeHelper(TreeNode node, StringBuilder sb) {\n        if (node == null) {\n            sb.append(NULL_MARKER).append(DELIMITER);\n            return;\n        }\n        \n        // Preorder: root -> left -> right\n        sb.append(node.val).append(DELIMITER);\n        serializeHelper(node.left, sb);\n        serializeHelper(node.right, sb);\n    }\n    \n    // Deserialize from string\n    public static TreeNode deserialize(String data) {\n        Queue<String> nodes = new LinkedList<>(Arrays.asList(data.split(DELIMITER)));\n        return deserializeHelper(nodes);\n    }\n    \n    private static TreeNode deserializeHelper(Queue<String> nodes) {\n        String val = nodes.poll();\n        \n        if (val.equals(NULL_MARKER)) {\n            return null;\n        }\n        \n        // Create node and recursively build left and right subtrees\n        TreeNode node = new TreeNode(Integer.parseInt(val));\n        node.left = deserializeHelper(nodes);\n        node.right = deserializeHelper(nodes);\n        \n        return node;\n    }\n    \n    // Alternative: Level-order (BFS) serialization\n    public static String serializeLevelOrder(TreeNode root) {\n        if (root == null) {\n            return \"\";\n        }\n        \n        StringBuilder sb = new StringBuilder();\n        Queue<TreeNode> queue = new LinkedList<>();\n        queue.offer(root);\n        \n        while (!queue.isEmpty()) {\n            TreeNode node = queue.poll();\n            \n            if (node == null) {\n                sb.append(NULL_MARKER).append(DELIMITER);\n            } else {\n                sb.append(node.val).append(DELIMITER);\n                queue.offer(node.left);\n                queue.offer(node.right);\n            }\n        }\n        \n        return sb.toString();\n    }\n    \n    public static TreeNode deserializeLevelOrder(String data) {\n        if (data.isEmpty()) {\n            return null;\n        }\n        \n        String[] values = data.split(DELIMITER);\n        TreeNode root = new TreeNode(Integer.parseInt(values[0]));\n        Queue<TreeNode> queue = new LinkedList<>();\n        queue.offer(root);\n        \n        int i = 1;\n        while (!queue.isEmpty() && i < values.length) {\n            TreeNode node = queue.poll();\n            \n            // Process left child\n            if (!values[i].equals(NULL_MARKER)) {\n                node.left = new TreeNode(Integer.parseInt(values[i]));\n                queue.offer(node.left);\n            }\n            i++;\n            \n            // Process right child\n            if (i < values.length && !values[i].equals(NULL_MARKER)) {\n                node.right = new TreeNode(Integer.parseInt(values[i]));\n                queue.offer(node.right);\n            }\n            i++;\n        }\n        \n        return root;\n    }\n    \n    // Helper method to print tree (inorder)\n    private static void printInorder(TreeNode node) {\n        if (node == null) {\n            return;\n        }\n        printInorder(node.left);\n        System.out.print(node.val + \" \");\n        printInorder(node.right);\n    }\n    \n    // Helper method to print tree structure\n    private static void printTree(TreeNode node, String prefix, boolean isLeft) {\n        if (node == null) {\n            return;\n        }\n        \n        System.out.println(prefix + (isLeft ? \"├── \" : \"└── \") + node.val);\n        \n        if (node.left != null || node.right != null) {\n            if (node.left != null) {\n                printTree(node.left, prefix + (isLeft ? \"│   \" : \"    \"), true);\n            }\n            if (node.right != null) {\n                printTree(node.right, prefix + (isLeft ? \"│   \" : \"    \"), false);\n            }\n        }\n    }\n    \n    public static void main(String[] args) {\n        // Create a sample tree:\n        //       1\n        //      / \\\n        //     2   3\n        //    / \\\n        //   4   5\n        \n        TreeNode root = new TreeNode(1);\n        root.left = new TreeNode(2);\n        root.right = new TreeNode(3);\n        root.left.left = new TreeNode(4);\n        root.left.right = new TreeNode(5);\n        \n        System.out.println(\"Original Tree:\");\n        printTree(root, \"\", false);\n        \n        // Serialize\n        String serialized = serialize(root);\n        System.out.println(\"\\nSerialized (Preorder): \" + serialized);\n        \n        // Deserialize\n        TreeNode deserialized = deserialize(serialized);\n        System.out.println(\"\\nDeserialized Tree:\");\n        printTree(deserialized, \"\", false);\n        \n        // Verify with inorder traversal\n        System.out.println(\"\\nInorder traversal of original: \");\n        printInorder(root);\n        System.out.println(\"\\nInorder traversal of deserialized: \");\n        printInorder(deserialized);\n        \n        // Test level-order approach\n        System.out.println(\"\\n\\nLevel-order serialization: \" + serializeLevelOrder(root));\n    }\n}"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Explanation & Key Points"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Time Complexity:</strong> O(n) for both serialization and deserialization",
+          "<strong>Space Complexity:</strong> O(n) for storing the tree structure",
+          "<strong>Two Approaches:</strong> Preorder (DFS) and Level-order (BFS) - both work",
+          "<strong>Key Challenge:</strong> Handling null nodes to preserve structure",
+          "<strong>Real-World Use:</strong> Saving/loading data structures, network transmission, database storage, caching"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Master Achievement",
+        "text": "If you can implement this from scratch without looking at the solution, you're ready for senior-level interviews. This problem combines multiple advanced concepts."
+      },
+      {
+        "type": "button",
+        "text": "Master Advanced Java Concepts",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Practice These Programs Effectively",
+        "id": "practice-tips"
+      },
+      {
+        "type": "paragraph",
+        "text": "Knowing the solutions isn't enough. Here's how to actually master these programs:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Code Without Looking"
+      },
+      {
+        "type": "paragraph",
+        "text": "After understanding a solution, close this article and try implementing it from scratch. Struggle is where learning happens."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Explain Out Loud"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pretend you're teaching the algorithm to someone else. If you can't explain it clearly, you don't understand it well enough."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Modify and Extend"
+      },
+      {
+        "type": "paragraph",
+        "text": "Change the problem slightly. What if the input is different? What if you need to optimize for space instead of time? Variations deepen understanding."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Time Yourself"
+      },
+      {
+        "type": "paragraph",
+        "text": "In interviews, you'll have limited time. Practice implementing these programs within 30-45 minutes to build speed and confidence."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Review Regularly"
+      },
+      {
+        "type": "paragraph",
+        "text": "Revisit these programs every few weeks. Spaced repetition is key to long-term retention."
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Week 1: Learn and implement all 10 programs",
+          "Week 2: Implement from memory without looking",
+          "Week 3: Solve variations and similar problems",
+          "Week 4: Teach these concepts to a peer or study group",
+          "Monthly: Review and optimize your solutions"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Interview Preparation",
+        "text": "These 10 programs cover 80% of common interview patterns. Master them, and you'll recognize similar problems instantly during interviews."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common Mistakes to Avoid",
+        "id": "common-mistakes"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Just Reading Solutions:</strong> You must code them yourself. Reading ≠ Understanding",
+          "<strong>Ignoring Edge Cases:</strong> Always test with empty inputs, single elements, and large datasets",
+          "<strong>Not Analyzing Complexity:</strong> Always think about time and space complexity",
+          "<strong>Memorizing Instead of Understanding:</strong> Focus on the 'why' behind each approach",
+          "<strong>Skipping the 'Easy' Ones:</strong> Even medium problems teach fundamental patterns",
+          "<strong>Not Testing Thoroughly:</strong> Write test cases before claiming your code works"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Resources for Further Learning",
+        "id": "resources"
+      },
+      {
+        "type": "paragraph",
+        "text": "Want to go deeper? Here are recommended resources:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Books:</strong> 'Cracking the Coding Interview' by Gayle Laakmann McDowell, 'Introduction to Algorithms' (CLRS)",
+          "<strong>Online Platforms:</strong> LeetCode, HackerRank, CodeForces for practice problems",
+          "<strong>Courses:</strong> <a href='/courses/full-stack-web-development-masterclass-college'>Our Full-Stack Development course</a> covers advanced Java concepts",
+          "<strong>YouTube Channels:</strong> Abdul Bari for algorithms, Tech Dose for problem-solving",
+          "<strong>Practice:</strong> Solve at least 2-3 problems daily on coding platforms"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why These Programs Matter for Your Career",
+        "id": "career-impact"
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's be real about why you should invest time mastering these programs:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Technical Interviews:</strong> 90% of coding interviews test these exact patterns",
+          "<strong>Problem-Solving Skills:</strong> These algorithms teach you to think systematically",
+          "<strong>Code Quality:</strong> You'll write cleaner, more efficient code in real projects",
+          "<strong>Confidence:</strong> Knowing you can solve hard problems builds genuine confidence",
+          "<strong>Career Growth:</strong> Senior developers are expected to know these fundamentals cold"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Companies like Google, Amazon, Microsoft, and top startups ask variations of these problems. Master them, and you'll stand out."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faqs"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "How long will it take to master all 10 programs?",
+            "content": "With consistent practice (1-2 hours daily), you can understand and implement all 10 in 2-3 weeks. True mastery—being able to code them from memory and explain them clearly—takes 1-2 months of regular practice."
+          },
+          {
+            "title": "Should I memorize these solutions?",
+            "content": "No! Memorization is useless. Focus on understanding the patterns, techniques, and reasoning. Once you understand the approach, you can recreate the solution even if you forget the exact code."
+          },
+          {
+            "title": "Are these enough for interview preparation?",
+            "content": "These 10 programs cover fundamental patterns, but you should solve 100-150 problems total for solid interview prep. Use these as your foundation, then practice variations on LeetCode or similar platforms."
+          },
+          {
+            "title": "What if I can't solve a problem on my own?",
+            "content": "That's normal! Struggle for 30-45 minutes first. If stuck, look at hints (not full solutions). If still stuck, study the solution, understand it completely, then implement it from scratch without looking."
+          },
+          {
+            "title": "Which programming language should I use for interviews?",
+            "content": "Java is excellent for interviews—it's widely accepted, has good library support, and forces you to think about data structures explicitly. Python is also popular for its conciseness. Choose what you're most comfortable with."
+          },
+          {
+            "title": "How do I know if my solution is optimal?",
+            "content": "Analyze time and space complexity. Compare with the solutions here. Ask yourself: Can I do better? Research the problem online to see if there are more efficient approaches. Discuss with peers or mentors."
+          },
+          {
+            "title": "Should I learn these before or after data structures?",
+            "content": "You need basic data structures knowledge first (arrays, linked lists, trees, graphs, hash maps). If you're weak on fundamentals, study data structures first, then tackle these programs."
+          },
+          {
+            "title": "Can I use these solutions in my college assignments?",
+            "content": "Use them to learn, not to copy. Understand the logic, then write your own implementation. Submitting copied code is plagiarism and defeats the purpose of learning."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "These 10 Java programs represent the core of what every college student should master. They're not just coding exercises—they're fundamental patterns that appear repeatedly in real software development and technical interviews."
+      },
+      {
+        "type": "paragraph",
+        "text": "From binary search to LRU cache, from linked list reversal to tree serialization—each program teaches you something essential about algorithms, data structures, and problem-solving."
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference between students who succeed in technical interviews and those who struggle often comes down to this: did they practice hard problems, or did they stick to easy ones? Did they understand the patterns, or did they just memorize solutions?"
+      },
+      {
+        "type": "paragraph",
+        "text": "You now have complete, working solutions with explanations. The question is: what will you do with them?"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Start with Program #1 and work your way up",
+          "Code each solution from scratch without looking",
+          "Test with multiple inputs and edge cases",
+          "Analyze time and space complexity",
+          "Solve variations to deepen understanding",
+          "Review regularly to maintain mastery"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Remember: every expert programmer once struggled with these exact problems. The difference is they kept going. They debugged, they learned, they practiced—and eventually, they mastered them."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can do the same. Start today. Pick one program. Understand it. Code it. Master it. Then move to the next. In a few months, you'll look back and be amazed at how far you've come."
+      },
+      {
+        "type": "paragraph",
+        "text": "Need more guidance? <a href='/courses'>Check out our advanced Java courses</a> where we dive deeper into algorithms, data structures, and interview preparation. Or <a href='/contact'>reach out to us</a> with questions—we're here to help you succeed."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "Your Journey Starts Now",
+        "text": "These 10 programs are your roadmap to coding mastery. Don't just read them—code them, break them, fix them, and make them yours. That's how you become the developer companies fight to hire."
+      },
+      {
+        "type": "button",
+        "text": "Explore Advanced Java Courses",
+        "url": "/courses",
+        "style": "primary"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "coding-is-the-new-english-why-2026-is-the-year-to-start",
+    "why-every-teen-should-learn-coding",
+    "python-for-beginners"
+  ]
+}

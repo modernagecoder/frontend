@@ -1,0 +1,704 @@
+{
+  "meta": {
+    "slug": "parents-guide-starting-coding-education-home",
+    "title": "A Parent's Guide to Starting Coding Education at Home",
+    "description": "Complete guide for parents teaching coding at home. Choose the right tools, create learning routines, and support your child's journey.",
+    "keywords": [
+      "coding for kids at home",
+      "teach kids coding",
+      "parent guide coding",
+      "home coding education",
+      "coding curriculum for kids",
+      "how to teach programming",
+      "coding resources for parents"
+    ],
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2025-03-18",
+    "dateModified": "2025-03-18",
+    "category": "Education",
+    "tags": [
+      "Parents",
+      "Home Learning",
+      "Kids Coding",
+      "Education Guide",
+      "Getting Started"
+    ],
+    "readTime": "12 min read",
+    "featured": true
+  },
+  "hero": {
+    "title": "A Parent's Guide to Starting Coding Education at Home",
+    "subtitle": "You don't need to be a programmer to help your child learn to code. Here's everything you need to know to get started—even if you've never written a line of code yourself.",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_7_hero.png",
+      "alt": "Parent and child learning coding together at home"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "You've heard that coding is important. You know your child should probably learn it. But where do you even start? What tools do you need? How do you teach something you don't know yourself?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a breath. You've got this."
+      },
+      {
+        "type": "paragraph",
+        "text": "The truth is, you don't need to be a programmer to help your child learn coding. You don't need expensive equipment. You don't need hours of free time. What you need is a little guidance—which is exactly what this guide provides."
+      },
+      {
+        "type": "paragraph",
+        "text": "By the end of this article, you'll have a clear roadmap for starting coding education at home, regardless of your technical background."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Home Coding Education Matters",
+        "id": "why-home"
+      },
+      {
+        "type": "paragraph",
+        "text": "Before we dive into the how, let's address the why. School computer classes often lag behind industry needs. They may teach basic digital literacy but rarely provide the depth of coding education that prepares kids for the future."
+      },
+      {
+        "type": "paragraph",
+        "text": "Home coding education offers several advantages:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Personalized pace:</strong> Your child can move faster or slower than a classroom allows",
+          "<strong>Interest-driven learning:</strong> Focus on what excites them—games, art, robots, whatever",
+          "<strong>Flexible scheduling:</strong> Learn when it works for your family",
+          "<strong>One-on-one attention:</strong> No competing with 30 other students",
+          "<strong>Supplemental depth:</strong> Go beyond what school offers"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Home learning doesn't replace school—it enhances it. And with the right approach, it can be enjoyable for both you and your child."
+      },
+      {
+        "type": "callout",
+        "calloutType": "info",
+        "title": "Good News for Non-Technical Parents",
+        "text": "Research shows that parental involvement matters more than parental expertise. Your encouragement, curiosity, and willingness to learn alongside your child are more valuable than any programming knowledge you might have."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Assessing Your Child's Readiness",
+        "id": "readiness"
+      },
+      {
+        "type": "paragraph",
+        "text": "Not every child is ready for coding at the same age. Here's how to gauge if your child is prepared:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Signs They're Ready"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Can follow multi-step instructions",
+          "Shows interest in how things work",
+          "Enjoys puzzles, building blocks, or strategy games",
+          "Has basic reading skills (for text-based platforms)",
+          "Can handle some frustration without giving up immediately",
+          "Asks questions about computers, games, or technology"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Age Guidelines"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Ages 4-6:</strong> Pre-coding activities—unplugged games, simple sequencing apps",
+          "<strong>Ages 6-8:</strong> Visual block-based coding like ScratchJr",
+          "<strong>Ages 8-12:</strong> Full Scratch, Code.org, game-based platforms",
+          "<strong>Ages 12+:</strong> Text-based languages like Python, JavaScript"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These are guidelines, not rules. Some 7-year-olds thrive with Scratch while some 10-year-olds need more time with visual tools. Follow your child's lead."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Setting Up Your Home Coding Environment",
+        "id": "setup"
+      },
+      {
+        "type": "paragraph",
+        "text": "Good news: you don't need much to get started. Here's what you actually need versus what's nice to have."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Essential Equipment"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Computer or tablet:</strong> Any device from the last 5-7 years works fine",
+          "<strong>Internet connection:</strong> Most coding platforms are web-based",
+          "<strong>Comfortable workspace:</strong> Good lighting, appropriate chair height",
+          "<strong>Headphones:</strong> Helpful for video tutorials and focused work"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Nice to Have (But Not Required)"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "External mouse (easier than trackpad for younger kids)",
+          "Second monitor (helpful for following tutorials)",
+          "Coding robots or kits (great for hands-on learners)",
+          "Whiteboard for planning and debugging"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Start Simple",
+        "text": "Don't buy expensive equipment before your child shows sustained interest. A basic laptop and free online platforms are enough to discover if coding clicks for them."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Choosing the Right Platform and Tools",
+        "id": "platforms"
+      },
+      {
+        "type": "paragraph",
+        "text": "The platform you choose depends on your child's age and interests. Here are the best options organized by age group:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "For Ages 4-7: Pre-Coding and Early Visual Coding"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>ScratchJr:</strong> Free app for tablets, perfect introduction to sequencing",
+          "<strong>Code.org Pre-Reader Courses:</strong> No reading required, uses visual instructions",
+          "<strong>Kodable:</strong> Game-based learning with cute characters",
+          "<strong>Unplugged activities:</strong> Board games like Robot Turtles, physical sequencing games"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "For Ages 8-12: Visual Block-Based Coding"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Scratch:</strong> The gold standard—free, creative, huge community",
+          "<strong>Code.org:</strong> Structured courses with familiar characters (Minecraft, Star Wars)",
+          "<strong>Tynker:</strong> Game-based with progression system",
+          "<strong>Blockly Games:</strong> Google's puzzle-based coding games"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "For Ages 12+: Text-Based Coding"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Python:</strong> Best first text language—readable, versatile, in-demand",
+          "<strong>JavaScript:</strong> Great for web development, immediate visual results",
+          "<strong>Lua (Roblox):</strong> Perfect for Roblox-obsessed kids",
+          "<strong>Swift Playgrounds:</strong> Apple's app for learning Swift on iPad"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Check out our <a href='/courses/scratch-programming-complete-course'>Scratch course</a> for younger learners or <a href='/courses/python-complete-masterclass-teens'>Python course for teens</a> for structured learning paths."
+      },
+      {
+        "type": "button",
+        "text": "Explore Our Kids Coding Courses",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Creating an Effective Learning Routine",
+        "id": "routine"
+      },
+      {
+        "type": "paragraph",
+        "text": "Consistency matters more than intensity. Here's how to build a sustainable coding routine:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Frequency and Duration"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Ages 5-7:</strong> 15-20 minutes, 2-3 times per week",
+          "<strong>Ages 8-10:</strong> 20-30 minutes, 3-4 times per week",
+          "<strong>Ages 11-14:</strong> 30-45 minutes, 3-5 times per week",
+          "<strong>Ages 15+:</strong> 45-60 minutes, as interest allows"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Short, regular sessions beat long, sporadic ones. It's better to code for 20 minutes three times a week than for two hours once a month."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Best Times to Code"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "When your child is alert and focused (not right before bed)",
+          "After homework is done but before screen time limits kick in",
+          "Weekend mornings when there's no time pressure",
+          "Whenever they're naturally curious and asking questions"
+        ]
+      },
+      {
+        "type": "callout",
+        "calloutType": "tip",
+        "title": "Make It a Habit",
+        "text": "Tie coding to an existing routine. 'After dinner on Tuesdays and Thursdays, we do coding time.' Habits stick better than intentions."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Your Role as a Non-Technical Parent",
+        "id": "parent-role"
+      },
+      {
+        "type": "paragraph",
+        "text": "You don't need to teach coding—you need to facilitate learning. Here's what that looks like:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You Should Do"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Be present:</strong> Sit nearby, show interest, ask questions about their projects",
+          "<strong>Celebrate effort:</strong> Praise persistence and problem-solving, not just results",
+          "<strong>Learn together:</strong> It's okay to say 'I don't know—let's figure it out'",
+          "<strong>Provide resources:</strong> Help find tutorials, courses, or communities",
+          "<strong>Remove obstacles:</strong> Handle technical setup, manage screen time boundaries",
+          "<strong>Connect coding to interests:</strong> Love Minecraft? There's coding for that. Love art? Coding can create art."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What You Should Avoid"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Taking over:</strong> Let them struggle productively—that's where learning happens",
+          "<strong>Comparing:</strong> Every child learns at their own pace",
+          "<strong>Pushing too hard:</strong> Forced coding kills interest",
+          "<strong>Expecting perfection:</strong> Bugs and mistakes are part of the process",
+          "<strong>Making it about careers:</strong> Focus on fun and curiosity, not future job prospects"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "The best thing a parent can do is be curious alongside their child. Ask questions, wonder aloud, and celebrate discoveries together.",
+        "author": "Coding Education Research"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Keeping Kids Motivated",
+        "id": "motivation"
+      },
+      {
+        "type": "paragraph",
+        "text": "Initial excitement often fades. Here's how to maintain momentum:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Connect to Their Interests"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most powerful motivator is relevance. Find the connection between coding and what your child already loves:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Gaming:</strong> Create their own games in Scratch or Roblox",
+          "<strong>Art:</strong> Generative art, animations, digital design",
+          "<strong>Music:</strong> Code-based music creation tools",
+          "<strong>Science:</strong> Simulations, data visualization, robotics",
+          "<strong>Stories:</strong> Interactive fiction, animated stories",
+          "<strong>Sports:</strong> Statistics tracking, game analysis projects"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Celebrate Milestones"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "First program that runs without errors",
+          "First game they can actually play",
+          "First project they share with friends or family",
+          "First time they debug a problem independently",
+          "Completing a course or tutorial series"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Create an Audience"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kids are more motivated when someone sees their work. Share their projects with family members, post to the Scratch community, or let them demo for friends. Having an audience transforms coding from homework into creation."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "The Power of Sharing",
+        "text": "When kids know someone will see their project, they put in more effort and feel more pride. A simple 'Show grandma what you made!' can be incredibly motivating."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Handling Common Challenges",
+        "id": "challenges"
+      },
+      {
+        "type": "paragraph",
+        "text": "Every coding journey has bumps. Here's how to navigate them:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Challenge: Frustration with Bugs"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution:</strong> Reframe bugs as puzzles to solve, not failures. Celebrate when they find and fix bugs—that's real programming! Teach them to take breaks when frustrated and return with fresh eyes."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Challenge: Loss of Interest"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution:</strong> Try a different platform or project type. Maybe Scratch isn't clicking but Roblox development would. Or take a break and return later—forcing it backfires."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Challenge: Wanting to Skip Ahead"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution:</strong> Let them try harder things and struggle a bit. Sometimes they'll surprise you. Sometimes they'll realize they need more foundation. Either way, they learn something."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Challenge: Comparing to Others"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution:</strong> Focus on personal progress, not peer comparison. 'Look how much better this is than your first project!' matters more than 'Your friend made something cooler.'"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Challenge: Screen Time Concerns"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Solution:</strong> Coding is active screen time—creating, not consuming. It's different from passive video watching. That said, balance still matters. Set clear boundaries and include unplugged coding activities."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Unplugged Coding Activities",
+        "id": "unplugged"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coding concepts can be learned without screens. These activities build computational thinking:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Games and Activities"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Robot Turtles:</strong> Board game teaching programming logic",
+          "<strong>Human Robot:</strong> One person gives instructions, another follows exactly (reveals the importance of precise instructions)",
+          "<strong>Algorithm recipes:</strong> Write step-by-step instructions for making a sandwich—then follow them literally",
+          "<strong>Debugging stories:</strong> Find the 'bug' in a set of instructions",
+          "<strong>Pattern recognition:</strong> Spot patterns in sequences, predict what comes next",
+          "<strong>Sorting challenges:</strong> Sort objects by different criteria, discuss efficiency"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These activities are especially valuable for younger children and provide screen-free learning options for any age."
+      },
+      {
+        "type": "divider",
+        "style": "gradient"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "When to Seek Additional Help",
+        "id": "additional-help"
+      },
+      {
+        "type": "paragraph",
+        "text": "Home learning is great, but sometimes you need support:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Consider Structured Courses When:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Your child wants more structure than self-directed learning provides",
+          "They're ready for text-based coding and need guided instruction",
+          "You want expert feedback on their progress",
+          "They'd benefit from learning with peers",
+          "You're running out of ideas for next steps"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Options for Additional Support"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Online courses:</strong> Structured learning with video instruction",
+          "<strong>Coding camps:</strong> Intensive learning during school breaks",
+          "<strong>After-school programs:</strong> Regular instruction with peers",
+          "<strong>Private tutoring:</strong> One-on-one attention for specific goals",
+          "<strong>Coding clubs:</strong> Social learning with other young coders"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our <a href='/courses'>coding courses</a> are designed specifically for young learners, with expert instruction and project-based learning. <a href='/contact'>Contact us</a> to find the right fit for your child."
+      },
+      {
+        "type": "button",
+        "text": "Explore Structured Learning Options",
+        "url": "/courses",
+        "style": "primary"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Measuring Progress",
+        "id": "progress"
+      },
+      {
+        "type": "paragraph",
+        "text": "How do you know if home coding education is working? Look for these signs:"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Positive Indicators"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "They code without being asked",
+          "They talk about their projects enthusiastically",
+          "They persist through challenges instead of giving up immediately",
+          "They start thinking about how things could be coded ('I could make a game like this!')",
+          "They help others learn or explain concepts",
+          "Their projects become more complex over time",
+          "They seek out new challenges independently"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "What Not to Worry About"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Messy code (everyone starts messy)",
+          "Slow progress compared to others",
+          "Periods of less interest (natural ebb and flow)",
+          "Not wanting to do 'serious' projects (games and fun projects teach real skills)",
+          "Making the same mistakes repeatedly (learning takes time)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Frequently Asked Questions",
+        "id": "faqs"
+      },
+      {
+        "type": "accordion",
+        "items": [
+          {
+            "title": "What age should my child start coding?",
+            "content": "Most children can start with pre-coding activities around age 4-5, visual coding like ScratchJr at 6-7, full Scratch at 8-10, and text-based coding at 12+. But these are guidelines—follow your child's readiness and interest."
+          },
+          {
+            "title": "I don't know anything about coding. Can I still help my child learn?",
+            "content": "Absolutely! Your role is to facilitate, not teach. Provide resources, show interest, ask questions, and learn alongside them. Research shows parental involvement matters more than parental expertise."
+          },
+          {
+            "title": "How much does home coding education cost?",
+            "content": "It can be completely free. Scratch, Code.org, and many other platforms are free. You only need a computer and internet connection. Paid courses and tools are optional enhancements, not requirements."
+          },
+          {
+            "title": "How do I know which platform to choose?",
+            "content": "Start with age-appropriate options: ScratchJr for ages 5-7, Scratch or Code.org for ages 8-12, Python for teens. Let your child try a few and see what clicks. There's no single 'best' platform."
+          },
+          {
+            "title": "My child gets frustrated easily. Is coding right for them?",
+            "content": "Coding actually helps build frustration tolerance over time. Start with easier platforms, celebrate small wins, and normalize that bugs and errors are part of the process. If frustration persists, try different approaches or take breaks."
+          },
+          {
+            "title": "How much screen time is too much for coding?",
+            "content": "Coding is active, creative screen time—different from passive consumption. That said, balance matters. Follow age-appropriate guidelines and include unplugged coding activities. Quality matters more than quantity."
+          },
+          {
+            "title": "Should coding replace other activities?",
+            "content": "No. Coding should complement, not replace, physical activity, social time, and other interests. It's one valuable skill among many. A well-rounded child who codes occasionally is better than an isolated child who codes constantly."
+          },
+          {
+            "title": "What if my child loses interest?",
+            "content": "That's normal. Try different platforms, project types, or take a break. Forced coding kills long-term interest. Some kids return to coding later with renewed enthusiasm. Don't make it a battle."
+          }
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Your Action Plan",
+        "id": "action-plan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ready to start? Here's your step-by-step plan:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "<strong>This week:</strong> Assess your child's readiness and interests. What do they love? What age-appropriate platforms match?",
+          "<strong>Next week:</strong> Set up a simple coding environment. Try a free platform together for 15-20 minutes.",
+          "<strong>Week 3:</strong> Establish a routine. Pick 2-3 regular times for coding sessions.",
+          "<strong>Week 4:</strong> Let them lead a small project. Step back and facilitate rather than direct.",
+          "<strong>Ongoing:</strong> Celebrate progress, adjust as needed, and enjoy the journey together."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Starting coding education at home doesn't require technical expertise, expensive equipment, or hours of free time. It requires curiosity, patience, and a willingness to learn alongside your child."
+      },
+      {
+        "type": "paragraph",
+        "text": "The best coding education happens when kids are engaged, supported, and free to explore. Your job isn't to be the expert—it's to create the conditions where learning can happen naturally."
+      },
+      {
+        "type": "paragraph",
+        "text": "Start small. Stay consistent. Celebrate progress. And remember: the goal isn't to create a programmer. It's to give your child a powerful way of thinking that will serve them whatever path they choose."
+      },
+      {
+        "type": "callout",
+        "calloutType": "success",
+        "title": "You've Got This",
+        "text": "Every expert programmer started exactly where your child is now—curious, uncertain, and ready to learn. With your support, they can discover the joy of creating with code."
+      },
+      {
+        "type": "button",
+        "text": "Start Your Child's Coding Journey",
+        "url": "/courses",
+        "style": "primary"
+      }
+    ]
+  },
+  "relatedPosts": [
+    "coding-for-kids-guide",
+    "best-coding-languages-kids-10-18-beginner-advanced",
+    "scratch-vs-python-which-better-young-learners"
+  ]
+}

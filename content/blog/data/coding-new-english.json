@@ -2,8 +2,16 @@
   "meta": {
     "slug": "coding-is-the-new-english-why-2026-is-the-year-to-start",
     "title": "Coding is the New English: Why 2026 is the Year to Start",
-    "description": "Coding has become as essential as learning English in today's world. Discover why 2026 is the perfect year to start coding and how it opens doors to endless opportunities.",
-    "keywords": ["coding in 2026", "learn to code", "why learn coding", "coding skills", "future of coding", "digital literacy", "programming for beginners"],
+    "description": "Coding is as essential as English today. Discover why 2026 is the perfect year to start and how it opens doors to endless opportunities.",
+    "keywords": [
+      "coding in 2026",
+      "learn to code",
+      "why learn coding",
+      "coding skills",
+      "future of coding",
+      "digital literacy",
+      "programming for beginners"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +20,13 @@
     "date": "2025-01-15",
     "dateModified": "2025-01-15",
     "category": "Education",
-    "tags": ["Coding", "Digital Skills", "Career", "Beginners", "2026 Trends"],
+    "tags": [
+      "Coding",
+      "Digital Skills",
+      "Career",
+      "Beginners",
+      "2026 Trends"
+    ],
     "readTime": "8 min read",
     "featured": true
   },
@@ -20,7 +34,7 @@
     "title": "Coding is the New English: Why 2026 is the Year to Start",
     "subtitle": "In a world run by technology, coding isn't just for programmers anymore—it's becoming the universal language everyone needs to speak.",
     "featuredImage": {
-      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_global_connection.png",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_23_hero.png",
       "alt": "Global network of diverse people connected through coding"
     }
   },
@@ -45,7 +59,7 @@
       },
       {
         "type": "image",
-        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/coding_new_english_global_network.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_23_article.png",
         "alt": "Global network connecting diverse people through coding",
         "caption": "Coding connects people across borders just like English does"
       },
@@ -435,5 +449,9 @@
       }
     ]
   },
-  "relatedPosts": ["what-is-blockly-for-kids", "python-for-beginners", "coding-for-kids-guide"]
+  "relatedPosts": [
+    "what-is-blockly-for-kids",
+    "python-for-beginners",
+    "coding-for-kids-guide"
+  ]
 }

@@ -3,7 +3,16 @@
     "slug": "minecraft-vs-roblox-which-teaches-kids-to-code",
     "title": "Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?",
     "description": "Minecraft and Roblox both claim to teach coding, but which one delivers? We break down how each game approaches programming and which is best for your child.",
-    "keywords": ["minecraft coding", "roblox coding", "kids coding games", "minecraft vs roblox", "learn to code games", "roblox studio", "minecraft education edition", "lua programming for kids"],
+    "keywords": [
+      "minecraft coding",
+      "roblox coding",
+      "kids coding games",
+      "minecraft vs roblox",
+      "learn to code games",
+      "roblox studio",
+      "minecraft education edition",
+      "lua programming for kids"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +21,13 @@
     "date": "2025-01-18",
     "dateModified": "2025-01-18",
     "category": "Education",
-    "tags": ["Minecraft", "Roblox", "Kids Coding", "Game-Based Learning", "Comparison"],
+    "tags": [
+      "Minecraft",
+      "Roblox",
+      "Kids Coding",
+      "Game-Based Learning",
+      "Comparison"
+    ],
     "readTime": "9 min read",
     "featured": true
   },
@@ -20,7 +35,7 @@
     "title": "Minecraft vs. Roblox: Which One Actually Teaches Your Child to Code?",
     "subtitle": "Both games are wildly popular with kids—but when it comes to real coding skills, one might surprise you.",
     "featuredImage": {
-      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/hero_minecraft_roblox_worlds.png",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_30_hero.png",
       "alt": "Split screen showing Minecraft and Roblox gaming worlds"
     }
   },
@@ -49,7 +64,7 @@
       },
       {
         "type": "image",
-        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/minecraft_building_world.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_30_article.png",
         "alt": "Minecraft blocky world with colorful building blocks",
         "caption": "Minecraft's blocky world where kids learn through building"
       },
@@ -597,5 +612,9 @@
       }
     ]
   },
-  "relatedPosts": ["what-is-blockly-for-kids", "coding-is-the-new-english-why-2026-is-the-year-to-start", "coding-for-kids-guide"]
+  "relatedPosts": [
+    "what-is-blockly-for-kids",
+    "coding-is-the-new-english-why-2026-is-the-year-to-start",
+    "coding-for-kids-guide"
+  ]
 }

@@ -3,7 +3,16 @@
     "slug": "app-idea-to-app-store-60-days-teen-developer-roadmap",
     "title": "App Idea to App Store in 60 Days: Teen Developer's Complete Roadmap",
     "description": "A step-by-step 60-day plan for teen developers to go from app idea to published on the App Store or Play Store. Real timeline, real tools, real success.",
-    "keywords": ["teen app developer", "publish app on app store", "app development for teenagers", "build an app in 60 days", "teen coding projects", "mobile app development guide", "app store publishing", "young developer success"],
+    "keywords": [
+      "teen app developer",
+      "publish app on app store",
+      "app development for teenagers",
+      "build an app in 60 days",
+      "teen coding projects",
+      "mobile app development guide",
+      "app store publishing",
+      "young developer success"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +21,14 @@
     "date": "2025-01-28",
     "dateModified": "2025-01-28",
     "category": "Projects",
-    "tags": ["App Development", "Teens", "Mobile Apps", "Project Guide", "App Store", "Play Store"],
+    "tags": [
+      "App Development",
+      "Teens",
+      "Mobile Apps",
+      "Project Guide",
+      "App Store",
+      "Play Store"
+    ],
     "readTime": "14 min read",
     "featured": true
   },
@@ -20,7 +36,7 @@
     "title": "App Idea to App Store in 60 Days: Teen Developer's Complete Roadmap",
     "subtitle": "You've got an app idea. Let's turn it into something real—with a published app and your name on it. Here's exactly how to do it in 60 days.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Teen+App+Developer+Roadmap",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_13_hero.png",
       "alt": "Teen developer building mobile app with 60-day roadmap"
     }
   },
@@ -57,7 +73,7 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/app-60-days/images/teen-developer-working.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_13_article.png",
         "alt": "Teen developer working on mobile app project",
         "caption": "60 days is enough time to build something real—if you stay focused"
       },
@@ -1182,5 +1198,9 @@
       }
     ]
   },
-  "relatedPosts": ["coding-is-the-new-english-why-2025-is-the-year-to-start", "full-stack-vs-ai-engineer-salary-india", "minecraft-vs-roblox-which-teaches-kids-to-code"]
+  "relatedPosts": [
+    "coding-is-the-new-english-why-2025-is-the-year-to-start",
+    "full-stack-vs-ai-engineer-salary-india",
+    "minecraft-vs-roblox-which-teaches-kids-to-code"
+  ]
 }

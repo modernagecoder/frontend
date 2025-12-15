@@ -3,7 +3,17 @@
     "slug": "safe-ai-tools-for-kids-homework-2025",
     "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2025",
     "description": "Worried about your child using ChatGPT for homework? Discover 10 parent-approved AI tools that help kids learn safely without doing the work for them.",
-    "keywords": ["AI tools for kids", "safe AI for homework", "ChatGPT for kids", "AI homework help", "kid-friendly AI", "AI learning tools", "Canva Magic for students", "educational AI 2025", "AI parental controls"],
+    "keywords": [
+      "AI tools for kids",
+      "safe AI for homework",
+      "ChatGPT for kids",
+      "AI homework help",
+      "kid-friendly AI",
+      "AI learning tools",
+      "Canva Magic for students",
+      "educational AI 2025",
+      "AI parental controls"
+    ],
     "author": {
       "name": "Modern Age Coders Team",
       "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
@@ -12,7 +22,14 @@
     "date": "2025-01-25",
     "dateModified": "2025-01-25",
     "category": "Education",
-    "tags": ["AI Tools", "Kids", "Homework Help", "Parent Guide", "EdTech", "Safe Technology"],
+    "tags": [
+      "AI Tools",
+      "Kids",
+      "Homework Help",
+      "Parent Guide",
+      "EdTech",
+      "Safe Technology"
+    ],
     "readTime": "12 min read",
     "featured": true
   },
@@ -20,7 +37,7 @@
     "title": "10 Safe AI Tools Your Child Should Be Using for Homework in 2025",
     "subtitle": "ChatGPT isn't the enemy—but it's not the only option either. Here are AI tools designed to help kids learn, not just give them answers.",
     "featuredImage": {
-      "url": "https://placehold.co/1200x600/FAFAFA/333333?text=Safe+AI+Tools+for+Kids",
+      "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_37_hero.png",
       "alt": "Child using safe AI tools for homework with parent supervision"
     }
   },
@@ -53,7 +70,7 @@
       },
       {
         "type": "image",
-        "url": "/s/articles/safe-ai-tools/images/parent-concerns.png",
+        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_37_article.png",
         "alt": "Parent looking concerned while child uses computer",
         "caption": "Your concerns about AI are valid—but there are solutions"
       },
@@ -948,5 +965,9 @@
       }
     ]
   },
-  "relatedPosts": ["cbse-icse-gap-what-schools-not-teaching-about-tech", "coding-is-the-new-english-why-2025-is-the-year-to-start", "what-is-blockly-for-kids"]
+  "relatedPosts": [
+    "cbse-icse-gap-what-schools-not-teaching-about-tech",
+    "coding-is-the-new-english-why-2025-is-the-year-to-start",
+    "what-is-blockly-for-kids"
+  ]
 }
