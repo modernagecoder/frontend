@@ -39,12 +39,19 @@
 /love /lovewall/dist/index.html 200
 /blog /content/blog/generated/index.html 200
 
-# Category pages - NEW (must come before course category pages)
-/category/kids /src/pages/category/kids.html 200
-/category/teens /src/pages/category/teens.html 200
-/category/college /src/pages/category/college.html 200
-/category/professionals /src/pages/category/professionals.html 200
-/category/corporate /src/pages/category/corporate.html 200
+# Category pages with .html extension (primary URLs)
+/category/kids.html /src/pages/category/kids.html 200
+/category/teens.html /src/pages/category/teens.html 200
+/category/college.html /src/pages/category/college.html 200
+/category/professionals.html /src/pages/category/professionals.html 200
+/category/corporate.html /src/pages/category/corporate.html 200
+
+# Redirect clean URLs to .html versions
+/category/kids /category/kids.html 301!
+/category/teens /category/teens.html 301!
+/category/college /category/college.html 301!
+/category/professionals /category/professionals.html 301!
+/category/corporate /category/corporate.html 301!
 
 # Course category pages (must come before individual courses)
 /courses/coding/* /src/pages/course.html 200

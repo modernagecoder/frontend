@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Demo - Modern Age Coders</title>
+  
+  <!-- Razorpay Checkout Script - REQUIRED -->
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    .payment-container {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .payment-header {
+      background: #3399cc;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    
+    .payment-header h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    
+    .payment-header p {
+      opacity: 0.9;
+    }
+    
+    .course-info {
+      padding: 20px 30px;
+      background: #f8f9fa;
+      border-bottom: 1px solid #eee;
+    }
+    
+    .course-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .course-price {
+      font-size: 28px;
+      font-weight: 700;
+      color: #3399cc;
+      margin-top: 5px;
+    }
+    
+    .payment-form {
+      padding: 30px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: #333;
+    }
+    
+    .form-group input {
+      width: 100%;
+      padding: 12px 15px;
+      border: 2px solid #e0e0e0;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: border-color 0.3s;
+    }
+    
+    .form-group input:focus {
+      outline: none;
+      border-color: #3399cc;
+    }
+    
+    .pay-button {
+      width: 100%;
+      padding: 15px;
+      background: #3399cc;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    
+    .pay-button:hover {
+      background: #2980b9;
+    }
+    
+    .pay-button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
+    
+    .secure-badge {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .secure-badge img {
+      height: 30px;
+      margin-top: 10px;
+    }
+    
+    .error-message {
+      background: #ffebee;
+      color: #c62828;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      display: none;
+    }
+    
+    .test-mode-banner {
+      background: #fff3cd;
+      color: #856404;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="payment-container">
+    <div class="test-mode-banner">
+      🧪 Test Mode - Use test card: 4111 1111 1111 1111
+    </div>
+    
+    <div class="payment-header">
+      <h1>Modern Age Coders</h1>
+      <p>Secure Payment</p>
+    </div>
+    
+    <div class="course-info">
+      <div class="course-name" id="product-name">Python Programming Course</div>
+      <div class="course-price" id="product-price">₹4,999</div>
+    </div>
+    
+    <form class="payment-form" id="payment-form">
+      <div class="error-message" id="error-message"></div>
+      
+      <div class="form-group">
+        <label for="name">Full Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name">
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email">
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="10-digit mobile number" maxlength="10">
+      </div>
+      
+      <button type="submit" class="pay-button" id="pay-button">
+        Pay ₹4,999
+      </button>
+      
+      <div class="secure-badge">
+        🔒 Secured by Razorpay
+      </div>
+    </form>
+  </div>
+
+  <!-- Payment Script -->
+  <script src="js/razorpay-payment.js"></script>
+  
+  <script>
+    // ============================================
+    // CONFIGURATION - UPDATE THESE VALUES
+    // ============================================
+    
+    // Your backend API URL
+    PAYMENT_CONFIG.API_URL = 'http://localhost:5000'; // Change to your Vercel URL in production
+    
+    // Product details (you can make this dynamic)
+    const PRODUCT = {
+      type: 'course',
+      id: 'python-course-001',
+      name: 'Python Programming Course',
+      amount: 4999 // Amount in rupees
+    };
+    
+    // Update display
+    document.getElementById('product-name').textContent = PRODUCT.name;
+    document.getElementById('product-price').textContent = `₹${PRODUCT.amount.toLocaleString()}`;
+    document.getElementById('pay-button').textContent = `Pay ₹${PRODUCT.amount.toLocaleString()}`;
+    
+    // ============================================
+    // PAYMENT FORM HANDLER
+    // ============================================
+    
+    const form = document.getElementById('payment-form');
+    const errorDiv = document.getElementById('error-message');
+    const payButton = document.getElementById('pay-button');
+    
+    function showError(message) {
+      errorDiv.textContent = message;
+      errorDiv.style.display = 'block';
+    }
+    
+    function hideError() {
+      errorDiv.style.display = 'none';
+    }
+    
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      hideError();
+      
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      
+      // Basic validation
+      if (!name || !email || !phone) {
+        showError('Please fill in all fields');
+        return;
+      }
+      
+      if (!/^[0-9]{10}$/.test(phone)) {
+        showError('Please enter a valid 10-digit phone number');
+        return;
+      }
+      
+      // Disable button
+      payButton.disabled = true;
+      payButton.textContent = 'Processing...';
+      
+      // Initiate payment
+      initiatePayment({
+        amount: PRODUCT.amount,
+        productType: PRODUCT.type,
+        productId: PRODUCT.id,
+        productName: PRODUCT.name,
+        customerName: name,
+        customerEmail: email,
+        customerPhone: phone,
+        
+        onSuccess: function(paymentData) {
+          console.log('Payment successful:', paymentData);
+          showPaymentSuccess(paymentData);
+          
+          // Reset form
+          form.reset();
+          payButton.disabled = false;
+          payButton.textContent = `Pay ₹${PRODUCT.amount.toLocaleString()}`;
+          
+          // Optional: Redirect to success page
+          // window.location.href = '/payment-success.html?orderId=' + paymentData.orderId;
+        },
+        
+        onFailure: function(error) {
+          console.error('Payment failed:', error);
+          showError(error.error || 'Payment failed. Please try again.');
+          payButton.disabled = false;
+          payButton.textContent = `Pay ₹${PRODUCT.amount.toLocaleString()}`;
+        },
+        
+        onDismiss: function() {
+          console.log('Payment cancelled by user');
+          payButton.disabled = false;
+          payButton.textContent = `Pay ₹${PRODUCT.amount.toLocaleString()}`;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -180,31 +180,62 @@
   to = "/content/blog/generated/index.html"
   status = 200
 
-# Category pages - Kids, Teens, College, Professionals, Corporate
+# Category pages with .html extension (primary URLs)
 [[redirects]]
-  from = "/category/kids"
+  from = "/category/kids.html"
   to = "/src/pages/category/kids.html"
   status = 200
 
 [[redirects]]
-  from = "/category/teens"
+  from = "/category/teens.html"
   to = "/src/pages/category/teens.html"
   status = 200
 
 [[redirects]]
-  from = "/category/college"
+  from = "/category/college.html"
   to = "/src/pages/category/college.html"
   status = 200
 
 [[redirects]]
-  from = "/category/professionals"
+  from = "/category/professionals.html"
   to = "/src/pages/category/professionals.html"
   status = 200
 
 [[redirects]]
-  from = "/category/corporate"
+  from = "/category/corporate.html"
   to = "/src/pages/category/corporate.html"
   status = 200
+
+# Redirect clean URLs to .html versions (301 permanent redirect)
+[[redirects]]
+  from = "/category/kids"
+  to = "/category/kids.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/teens"
+  to = "/category/teens.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/college"
+  to = "/category/college.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/professionals"
+  to = "/category/professionals.html"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/corporate"
+  to = "/category/corporate.html"
+  status = 301
+  force = true
 
 # Course category URLs (must come before individual courses)
 [[redirects]]
