@@ -102,7 +102,7 @@ class CourseEngine {
         
         // Update canonical URL
         const canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.href = `https://www.modernagecoders.com/courses/${meta.slug}`;
+        if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}`;
         
         // Update Open Graph tags
         this.updateOpenGraphTags(meta);
@@ -116,7 +116,7 @@ class CourseEngine {
      */
     updateOpenGraphTags(meta) {
         const ogUrl = document.querySelector('meta[property="og:url"]');
-        if (ogUrl) ogUrl.content = `https://www.modernagecoders.com/courses/${meta.slug}`;
+        if (ogUrl) ogUrl.content = `https://learn.modernagecoders.com/courses/${meta.slug}`;
         
         const ogTitle = document.querySelector('meta[property="og:title"]');
         if (ogTitle) ogTitle.content = `${meta.title} - Modern Age Coders`;
@@ -136,7 +136,7 @@ class CourseEngine {
      */
     updateTwitterCardTags(meta) {
         const twitterUrl = document.querySelector('meta[property="twitter:url"]');
-        if (twitterUrl) twitterUrl.content = `https://www.modernagecoders.com/courses/${meta.slug}`;
+        if (twitterUrl) twitterUrl.content = `https://learn.modernagecoders.com/courses/${meta.slug}`;
         
         const twitterTitle = document.querySelector('meta[property="twitter:title"]');
         if (twitterTitle) twitterTitle.content = `${meta.title} - Modern Age Coders`;
@@ -276,7 +276,7 @@ class CourseEngine {
             "provider": {
                 "@type": "Organization",
                 "name": "Modern Age Coders",
-                "sameAs": "https://www.modernagecoders.com"
+                "sameAs": "https://learn.modernagecoders.com"
             },
             "courseCode": meta.slug.toUpperCase(),
             "hasCourseInstance": {

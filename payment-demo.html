@@ -202,8 +202,18 @@
     // CONFIGURATION - UPDATE THESE VALUES
     // ============================================
     
-    // Your backend API URL
-    PAYMENT_CONFIG.API_URL = 'http://localhost:5000'; // Change to your Vercel URL in production
+    // Your backend API URL (auto-detect local vs production)
+    // When opening file directly (file://), hostname is empty, so we default to localhost
+    const isLocal = window.location.hostname === 'localhost' 
+      || window.location.hostname === '127.0.0.1' 
+      || window.location.hostname === ''
+      || window.location.protocol === 'file:';
+    
+    PAYMENT_CONFIG.API_URL = isLocal 
+      ? 'http://localhost:5000' 
+      : 'https://backend-modernagecoders.vercel.app';
+    
+    console.log('Using API URL:', PAYMENT_CONFIG.API_URL);
     
     // Product details (you can make this dynamic)
     const PRODUCT = {

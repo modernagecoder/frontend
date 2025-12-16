@@ -1,0 +1,178 @@
+/**
+ * Payment Modal Styles
+ * Shared styles for enrollment modal with payment options
+ */
+
+/* Payment Options Grid */
+.payment-options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.payment-option-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.payment-option-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.payment-option-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-option-icon.online {
+    background: linear-gradient(135deg, #a855f7, #6366f1);
+    color: white;
+}
+
+.payment-option-icon.whatsapp {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.payment-option-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #F8FAFC;
+    margin-bottom: 0.5rem;
+}
+
+.payment-option-card > p {
+    color: #94A3B8;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.payment-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem 0;
+    text-align: left;
+}
+
+.payment-features li {
+    color: #CBD5E1;
+    font-size: 0.85rem;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.payment-features li:last-child {
+    border-bottom: none;
+}
+
+.payment-option-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.online-btn {
+    background: linear-gradient(135deg, #a855f7, #6366f1);
+    color: white;
+}
+
+.online-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(168, 85, 247, 0.4);
+}
+
+.whatsapp-btn {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.whatsapp-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.contact-info-box {
+    background: rgba(168, 85, 247, 0.1);
+    border: 1px solid rgba(168, 85, 247, 0.2);
+    border-radius: 0.75rem;
+    padding: 1rem;
+}
+
+.contact-info-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #CBD5E1;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+}
+
+.contact-info-header svg {
+    color: #a855f7;
+}
+
+.contact-info-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.contact-quick-link {
+    color: #a855f7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.75rem;
+    background: rgba(168, 85, 247, 0.1);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.contact-quick-link:hover {
+    background: rgba(168, 85, 247, 0.2);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .payment-options-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .payment-option-card {
+        padding: 1.25rem;
+    }
+
+    .payment-option-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .payment-option-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .contact-info-links {
+        flex-direction: column;
+    }
+}

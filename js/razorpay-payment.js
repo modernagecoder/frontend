@@ -5,8 +5,8 @@
 
 // Configuration - Update this with your backend URL
 const PAYMENT_CONFIG = {
-  // Backend API URL (update for production)
-  API_URL: 'https://your-backend-url.vercel.app', // Change this!
+  // Backend API URL
+  API_URL: 'https://backend-modernagecoders.vercel.app',
   
   // Company details for Razorpay checkout
   COMPANY_NAME: 'Modern Age Coders',

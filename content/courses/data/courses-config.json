@@ -1,0 +1,104 @@
+{
+  "payment": {
+    "enabled": true,
+    "currency": "INR",
+    "razorpayKeyId": "YOUR_RAZORPAY_KEY_ID",
+    "backendUrl": "https://backend-modernagecoders.vercel.app"
+  },
+  "defaultPricing": {
+    "group": {
+      "amount": 1499,
+      "display": "₹1,499/month",
+      "description": "2 Classes per Week"
+    },
+    "personal": {
+      "amount": 2499,
+      "display": "₹2,499/month",
+      "description": "1-on-1 Personalized Mentorship"
+    },
+    "lifetime": {
+      "amount": 49999,
+      "display": "₹49,999",
+      "description": "One-time payment, Lifetime Access"
+    }
+  },
+  "courses": {
+    "python-complete-masterclass-teens": {
+      "name": "Python Programming Masterclass for Teens",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "lifetime": { "amount": 49999, "display": "₹49,999" }
+      }
+    },
+    "kids-coding-complete": {
+      "name": "Kids Coding Complete Course",
+      "pricing": {
+        "group": { "amount": 1299, "display": "₹1,299/month" },
+        "personal": { "amount": 1999, "display": "₹1,999/month" },
+        "lifetime": { "amount": 39999, "display": "₹39,999" }
+      }
+    },
+    "scratch-programming-complete-course": {
+      "name": "Scratch Programming Complete Course",
+      "pricing": {
+        "group": { "amount": 999, "display": "₹999/month" },
+        "personal": { "amount": 1499, "display": "₹1,499/month" },
+        "lifetime": { "amount": 29999, "display": "₹29,999" }
+      }
+    },
+    "full-stack-web-development-masterclass": {
+      "name": "Full Stack Web Development Masterclass",
+      "pricing": {
+        "group": { "amount": 1999, "display": "₹1,999/month" },
+        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "lifetime": { "amount": 59999, "display": "₹59,999" }
+      }
+    },
+    "data-science-complete-masterclass": {
+      "name": "Data Science Complete Masterclass",
+      "pricing": {
+        "group": { "amount": 1999, "display": "₹1,999/month" },
+        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "lifetime": { "amount": 59999, "display": "₹59,999" }
+      }
+    },
+    "ai-ml-masterclass-complete": {
+      "name": "AI/ML Masterclass Complete",
+      "pricing": {
+        "group": { "amount": 2499, "display": "₹2,499/month" },
+        "personal": { "amount": 3999, "display": "₹3,999/month" },
+        "lifetime": { "amount": 69999, "display": "₹69,999" }
+      }
+    },
+    "game-development-complete-masterclass": {
+      "name": "Game Development Complete Masterclass",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "lifetime": { "amount": 49999, "display": "₹49,999" }
+      }
+    },
+    "react-js-complete-masterclass": {
+      "name": "React.js Complete Masterclass",
+      "pricing": {
+        "group": { "amount": 1799, "display": "₹1,799/month" },
+        "personal": { "amount": 2999, "display": "₹2,999/month" },
+        "lifetime": { "amount": 54999, "display": "₹54,999" }
+      }
+    },
+    "mern-stack-development-masterclass": {
+      "name": "MERN Stack Development Masterclass",
+      "pricing": {
+        "group": { "amount": 1999, "display": "₹1,999/month" },
+        "personal": { "amount": 3499, "display": "₹3,499/month" },
+        "lifetime": { "amount": 59999, "display": "₹59,999" }
+      }
+    }
+  },
+  "notes": {
+    "howToAddNewCourse": "Add a new entry in the 'courses' object with the course slug as key",
+    "pricingFormat": "amount is in rupees (INR), display is the formatted string shown to users",
+    "defaultPricing": "If a course is not listed, defaultPricing will be used"
+  }
+}
