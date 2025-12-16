@@ -51,12 +51,22 @@ function resolveFilePath(url) {
     if (urlPath === '/love') return 'lovewall/dist/index.html';
     if (urlPath === '/index.html') return 'src/pages/index.html';
     
-    // Static assets
+    // Static assets - check multiple locations
     if (urlPath.startsWith('/css/')) {
-        return urlPath.replace('/css/', 'src/css/');
+        // First check src/css, then css folder
+        const srcPath = urlPath.replace('/css/', 'src/css/');
+        const rootPath = urlPath.replace('/css/', 'css/');
+        if (fs.existsSync(srcPath)) return srcPath;
+        if (fs.existsSync(rootPath)) return rootPath;
+        return srcPath; // Default to src/css
     }
     if (urlPath.startsWith('/js/')) {
-        return urlPath.replace('/js/', 'src/js/');
+        // First check src/js, then js folder
+        const srcPath = urlPath.replace('/js/', 'src/js/');
+        const rootPath = urlPath.replace('/js/', 'js/');
+        if (fs.existsSync(srcPath)) return srcPath;
+        if (fs.existsSync(rootPath)) return rootPath;
+        return srcPath; // Default to src/js
     }
     if (urlPath.startsWith('/components/')) {
         return urlPath.substring(1); // Remove leading slash, serve from root
