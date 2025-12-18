@@ -560,6 +560,82 @@
             font-size: 0.85rem;
         }
 
+        /* FAQ Section */
+        .faq-section {
+            padding: 5rem 2rem;
+            background: rgba(168, 85, 247, 0.05);
+        }
+        
+        .faq-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-list {
+            margin-top: 2rem;
+        }
+        
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: var(--accent-purple);
+        }
+        
+        .faq-question svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--accent-purple);
+            fill: none;
+            stroke-width: 2;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .faq-item.open .faq-question svg {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-out, padding 0.3s ease;
+            padding: 0 1.5rem;
+        }
+        
+        .faq-item.open .faq-answer {
+            max-height: 500px;
+            padding: 0 1.5rem 1.25rem;
+        }
+        
+        .faq-answer p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin: 0;
+            padding-top: 0.5rem;
+        }
+
         /* CTA Section */
         .cta-section {
             padding: 5rem 2rem;
@@ -997,6 +1073,98 @@
             </div>
         </section>
 
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="faq-inner">
+                <div class="section-header">
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Got questions? We've got answers.</p>
+                </div>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What age groups do you teach?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We teach students from age 8 to 21+. Our courses are designed for different age groups: Kids (8-12), Teens (13-17), and College/Adults (18+). Each course is tailored to the learning style and pace appropriate for that age.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do I need any prior coding experience?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Not at all! We have courses for complete beginners. We start from the basics and gradually build up. Whether you've never written a line of code or you're looking to advance your skills, we have the right course for you.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How are classes conducted?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All classes are conducted live online via video call. You get to interact with the teacher in real-time, ask questions, and work on projects together. All sessions are recorded so you can rewatch them anytime.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What's the difference between group and personalized classes?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Group classes have 5-6 students learning together at a fixed schedule. Personalized 1-on-1 classes are just you and the teacher, with flexible timing and curriculum tailored to your specific goals. 1-on-1 is great for shy students, slow learners, or those with specific requirements.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I get a free demo class?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! We offer a free demo class so you can experience our teaching style before enrolling. Just contact us to schedule one at a time that works for you.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do you provide certificates?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, every student receives a course completion certificate. More importantly, you'll have a portfolio of real projects that you built during the course — which is often more valuable than a certificate.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What if my child misses a class?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All sessions are recorded and shared with students. If you miss a class, you can watch the recording. For personalized classes, we can also reschedule if you inform us in advance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Do you also build software for businesses?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes! Apart from education, we build custom software, websites, mobile apps, and AI solutions for businesses. From startups to established companies, we help turn ideas into working products. Contact us to discuss your project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- CTA Section -->
         <section class="cta-section">
             <div class="cta-content">
@@ -1154,6 +1322,25 @@
             gsap.from(header, {
                 scrollTrigger: { trigger: header, start: 'top 90%' },
                 opacity: 0, y: 25, duration: 0.6, ease: 'power2.out'
+            });
+        });
+
+        // FAQ items animation
+        gsap.utils.toArray('.faq-item').forEach((item, i) => {
+            gsap.from(item, {
+                scrollTrigger: { trigger: item, start: 'top 90%' },
+                opacity: 0, y: 20, duration: 0.5, delay: i * 0.08, ease: 'power2.out'
+            });
+        });
+
+        // FAQ Accordion functionality
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isOpen = item.classList.contains('open');
+                faqItems.forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
             });
         });
     </script>
