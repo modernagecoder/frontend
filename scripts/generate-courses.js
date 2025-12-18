@@ -451,7 +451,7 @@ class CourseGenerator {
                     "email": "contact@modernagecoders.com"
                 }
             },
-            "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`,
+            "url": `https://learn.modernagecoders.com/courses/${meta.slug || ''}/`,
             "courseCode": meta.slug || "",
             "timeRequired": meta.duration || "Self-paced",
             "educationalLevel": meta.level || "All Levels",
@@ -565,7 +565,7 @@ class CourseGenerator {
                     "@type": "ListItem",
                     "position": 3,
                     "name": meta.title || "Course",
-                    "item": `https://learn.modernagecoders.com/courses/${meta.slug || ''}`
+                    "item": `https://learn.modernagecoders.com/courses/${meta.slug || ''}/`
                 }
             ]
         };
