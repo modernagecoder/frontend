@@ -965,14 +965,45 @@
                     }
                 </style>
 
-                    <!-- Sub Tabs Indicator -->
-                    <div class="sub-tabs-indicator">
-                        <div class="indicator-line"></div>
-                        <span class="indicator-text">Choose Your Level</span>
-                        <div class="indicator-line"></div>
+                    <!-- Sub Tabs Indicator - Scroll Target -->
+                    <div id="levelSelector" class="sub-tabs-indicator" style="
+                        display: flex !important;
+                        align-items: center !important;
+                        justify-content: center !important;
+                        gap: 1.5rem !important;
+                        margin: 2rem 0 1.5rem !important;
+                        padding-top: 1rem !important;
+                        scroll-margin-top: 80px !important;
+                    ">
+                        <div class="indicator-line" style="
+                            flex: 1 !important;
+                            height: 2px !important;
+                            background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(139, 92, 246, 0.6)) !important;
+                            max-width: 120px !important;
+                        "></div>
+                        <span class="indicator-text" style="
+                            color: #8b5cf6 !important;
+                            font-size: 1.1rem !important;
+                            font-weight: 700 !important;
+                            text-transform: uppercase !important;
+                            letter-spacing: 0.1em !important;
+                            white-space: nowrap !important;
+                            padding: 0.5rem 1.25rem !important;
+                            background: linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(139, 92, 246, 0.08) 100%) !important;
+                            border: 1px solid rgba(139, 92, 246, 0.3) !important;
+                            border-radius: 30px !important;
+                        ">👇 Choose Your Level</span>
+                        <div class="indicator-line" style="
+                            flex: 1 !important;
+                            height: 2px !important;
+                            background: linear-gradient(90deg, rgba(139, 92, 246, 0.6), rgba(139, 92, 246, 0.4), transparent) !important;
+                            max-width: 120px !important;
+                        "></div>
                     </div>
 
-                    <div class="sub-tabs-container">
+                    <div class="sub-tabs-container" style="
+                        margin-bottom: 2rem !important;
+                    ">
                         <!-- Coding Sub-tabs -->
                         <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel" aria-labelledby="codingTab">
                             <button class="sub-tab active" data-subtab="kids" data-main="coding">
@@ -1696,11 +1727,11 @@
                         }
                         applyTabFilters();
                         
-                        // Smooth scroll to courses section
-                        const coursesSection = document.getElementById('coursesSection');
-                        if (coursesSection) {
+                        // Smooth scroll to level selector so parents can see age group options
+                        const levelSelector = document.getElementById('levelSelector');
+                        if (levelSelector) {
                             setTimeout(() => {
-                                coursesSection.scrollIntoView({ 
+                                levelSelector.scrollIntoView({ 
                                     behavior: 'smooth', 
                                     block: 'start'
                                 });
@@ -1720,7 +1751,7 @@
                             this.classList.add('active');
                             applyTabFilters();
                             
-                            // Smooth scroll to courses section
+                            // Smooth scroll to courses section after selecting level
                             const coursesSection = document.getElementById('coursesSection');
                             if (coursesSection) {
                                 setTimeout(() => {
@@ -1728,7 +1759,7 @@
                                         behavior: 'smooth', 
                                         block: 'start'
                                     });
-                                }, 100);
+                                }, 150);
                             }
                         }
                     });
