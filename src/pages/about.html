@@ -617,23 +617,32 @@
             transform: rotate(180deg);
         }
         
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.4s ease-out, padding 0.3s ease;
-            padding: 0 1.5rem;
+        .about-page .faq-answer {
+            max-height: 0 !important;
+            overflow: hidden !important;
+            transition: max-height 0.4s ease-out, padding 0.3s ease, opacity 0.3s ease !important;
+            padding: 0 1.5rem !important;
+            opacity: 0 !important;
         }
         
-        .faq-item.open .faq-answer {
-            max-height: 500px;
-            padding: 0 1.5rem 1.25rem;
+        .about-page .faq-item.open .faq-answer,
+        .about-page .faq-item.active .faq-answer {
+            max-height: 500px !important;
+            padding: 0 1.5rem 1.25rem !important;
+            opacity: 1 !important;
         }
         
-        .faq-answer p {
-            color: var(--text-secondary);
-            line-height: 1.7;
-            margin: 0;
-            padding-top: 0.5rem;
+        .about-page .faq-item.open .faq-answer p,
+        .about-page .faq-item.active .faq-answer p,
+        .about-page .faq-answer p {
+            color: var(--text-secondary) !important;
+            line-height: 1.7 !important;
+            margin: 0 !important;
+            padding-top: 0.5rem !important;
+            padding-bottom: 0 !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
 
         /* CTA Section */
@@ -1339,8 +1348,14 @@
             const question = item.querySelector('.faq-question');
             question.addEventListener('click', () => {
                 const isOpen = item.classList.contains('open');
-                faqItems.forEach(i => i.classList.remove('open'));
-                if (!isOpen) item.classList.add('open');
+                faqItems.forEach(i => {
+                    i.classList.remove('open');
+                    i.classList.remove('active');
+                });
+                if (!isOpen) {
+                    item.classList.add('open');
+                    item.classList.add('active');
+                }
             });
         });
     </script>
