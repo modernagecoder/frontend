@@ -6,14 +6,14 @@
     
     <!-- SEO Meta Tags -->
     <title>Contact Us - Modern Age Coders | Get in Touch</title>
-    <meta name="description" content="Have questions about our coding courses? Contact Modern Age Coders today. We're here to help you start your programming journey.">
-    <meta name="keywords" content="contact modern age coders, coding course inquiry, programming school contact, get in touch">
+    <meta name="description" content="Have questions about coding or math courses? Want a free demo class? Contact Modern Age Coders. We respond within 24 hours. Call, email, or fill out the form.">
+    <meta name="keywords" content="contact modern age coders, coding course inquiry, free demo class, programming school contact, coding classes near me">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/contact">
+    <meta name="robots" content="index, follow">
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -23,271 +23,858 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/contact">
-    <meta property="og:title" content="Contact Us - Modern Age Coders | Get in Touch">
-    <meta property="og:description" content="Have questions about our coding courses? Contact Modern Age Coders today. We're here to help you start your programming journey.">
+    <meta property="og:title" content="Contact Us - Modern Age Coders">
+    <meta property="og:description" content="Questions about courses? Want a free demo? Get in touch. We respond within 24 hours.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://learn.modernagecoders.com/contact">
-    <meta name="twitter:title" content="Contact Us - Modern Age Coders | Get in Touch">
-    <meta name="twitter:description" content="Have questions about our coding courses? Contact Modern Age Coders today.">
+    <meta name="twitter:title" content="Contact Us - Modern Age Coders">
+    <meta name="twitter:description" content="Questions about courses? Want a free demo? Get in touch.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "ContactPage",
-      "name": "Contact Modern Age Coders",
-      "description": "Get in touch with Modern Age Coders for inquiries about our coding courses",
-      "url": "https://learn.modernagecoders.com/contact",
-      "mainEntity": {
-        "@type": "Organization",
-        "name": "Modern Age Coders",
-        "url": "https://learn.modernagecoders.com",
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "telephone": "+919123366161",
-          "contactType": "Customer Service",
-          "email": "contact@modernagecoders.com",
-          "availableLanguage": ["English", "Hindi"],
-          "areaServed": "IN"
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Modern Age Coders",
+        "description": "Get in touch with Modern Age Coders for coding and math course inquiries",
+        "url": "https://learn.modernagecoders.com/contact",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919123366161",
+                "contactType": "Customer Service",
+                "email": "contact@modernagecoders.com",
+                "availableLanguage": ["English", "Hindi"],
+                "areaServed": "IN",
+                "hoursAvailable": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                    "opens": "09:00",
+                    "closes": "18:00"
+                }
+            }
         }
-      }
     }
     </script>
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-    <link rel="stylesheet" href="/css/try-coding-enhanced.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <style>
+        /* Contact Page Custom Styles */
+        .contact-page {
+            --accent-purple: #a855f7;
+            --accent-teal: #4ecdc4;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --card-bg: rgba(30, 30, 50, 0.6);
+            --card-border: rgba(168, 85, 247, 0.2);
+        }
+
+        /* Hero Section */
+        .contact-hero {
+            text-align: center;
+            padding: 4rem 2rem 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .contact-hero h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .contact-hero h1 span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .contact-hero p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Main Contact Grid */
+        .contact-main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        @media (max-width: 900px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Contact Form Card */
+        .form-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+        }
+        
+        .form-card h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-card > p {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+        }
+        
+        .contact-form-new {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+        }
+        
+        .form-group-new {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .form-group-new label {
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+        
+        .form-input {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            padding: 0.9rem 1rem;
+            color: var(--text-primary);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
+        }
+        
+        .form-input::placeholder {
+            color: var(--text-secondary);
+            opacity: 0.7;
+        }
+        
+        textarea.form-input {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .submit-btn-new {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border: none;
+            border-radius: 12px;
+            padding: 1rem 2rem;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+        
+        .submit-btn-new:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
+        }
+        
+        .submit-btn-new:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .submit-btn-new svg {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .error-msg {
+            color: #ef4444;
+            font-size: 0.85rem;
+            display: none;
+        }
+        
+        .form-input.error {
+            border-color: #ef4444;
+        }
+
+        /* Contact Info Card */
+        .info-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+        }
+        
+        .info-card h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 2rem;
+        }
+        
+        .info-items {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        
+        .info-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .info-icon svg {
+            width: 24px;
+            height: 24px;
+            stroke: white;
+            fill: none;
+            stroke-width: 2;
+        }
+        
+        .info-content h3 {
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .info-content p,
+        .info-content a {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .info-content a:hover {
+            color: var(--accent-purple);
+        }
+
+        /* Social Links */
+        .social-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--card-border);
+        }
+        
+        .social-section h3 {
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-link {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .social-link svg {
+            width: 22px;
+            height: 22px;
+            fill: white;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+        }
+        
+        .social-link.facebook { background: linear-gradient(135deg, #1877f2, #0d5dbf); }
+        .social-link.instagram { background: linear-gradient(135deg, #f09433, #dc2743, #bc1888); }
+        .social-link.youtube { background: linear-gradient(135deg, #ff0000, #cc0000); }
+        .social-link.linkedin { background: linear-gradient(135deg, #0077b5, #005582); }
+        .social-link.github { background: linear-gradient(135deg, #333, #1a1a1a); }
+
+        /* Quick Contact Cards */
+        .contact-page .quick-contact {
+            padding: 3rem 2rem !important;
+            background: rgba(168, 85, 247, 0.05) !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-contact-inner {
+            max-width: 1100px !important;
+            margin: 0 auto !important;
+            display: block !important;
+            visibility: visible !important;
+        }
+        
+        .contact-page .section-header {
+            text-align: center !important;
+            margin-bottom: 2.5rem !important;
+            display: block !important;
+            visibility: visible !important;
+        }
+        
+        .contact-page .section-header h2 {
+            font-size: 2rem !important;
+            font-weight: 700 !important;
+            color: var(--text-primary) !important;
+            margin-bottom: 0.75rem !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .section-header p {
+            color: var(--text-secondary) !important;
+            font-size: 1.05rem !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-cards {
+            display: grid !important;
+            grid-template-columns: repeat(3, 1fr) !important;
+            gap: 1.5rem !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-page .quick-cards {
+                grid-template-columns: 1fr !important;
+            }
+        }
+        
+        .contact-page .quick-card {
+            background: var(--card-bg) !important;
+            border: 1px solid var(--card-border) !important;
+            border-radius: 16px !important;
+            padding: 2rem !important;
+            text-align: center !important;
+            transition: all 0.3s ease !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-card:hover {
+            transform: translateY(-5px) !important;
+            border-color: var(--accent-purple) !important;
+            box-shadow: 0 15px 30px rgba(168, 85, 247, 0.15) !important;
+        }
+        
+        .contact-page .quick-card-icon {
+            width: 60px !important;
+            height: 60px !important;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal)) !important;
+            border-radius: 16px !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            margin: 0 auto 1.25rem !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-card-icon svg {
+            width: 30px !important;
+            height: 30px !important;
+            stroke: white !important;
+            fill: none !important;
+            stroke-width: 2 !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-card h3 {
+            color: var(--text-primary) !important;
+            font-size: 1.2rem !important;
+            font-weight: 700 !important;
+            margin-bottom: 0.5rem !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .quick-card p {
+            color: var(--text-secondary) !important;
+            font-size: 0.95rem !important;
+            line-height: 1.6 !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .faq-list {
+            margin-top: 2rem;
+        }
+        
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: var(--accent-purple);
+        }
+        
+        .faq-question svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--accent-purple);
+            fill: none;
+            stroke-width: 2;
+            transition: transform 0.3s ease;
+            flex-shrink: 0;
+        }
+        
+        .faq-item.open .faq-question svg,
+        .faq-item.active .faq-question svg {
+            transform: rotate(180deg);
+        }
+        
+        .contact-page .faq-answer {
+            max-height: 0 !important;
+            overflow: hidden !important;
+            transition: max-height 0.4s ease-out, padding 0.3s ease, opacity 0.3s ease !important;
+            padding: 0 1.5rem !important;
+            opacity: 0 !important;
+        }
+        
+        .contact-page .faq-item.open .faq-answer,
+        .contact-page .faq-item.active .faq-answer {
+            max-height: 500px !important;
+            padding: 0 1.5rem 1.25rem !important;
+            opacity: 1 !important;
+        }
+        
+        .contact-page .faq-item.open .faq-answer p,
+        .contact-page .faq-item.active .faq-answer p,
+        .contact-page .faq-answer p {
+            color: var(--text-secondary) !important;
+            line-height: 1.7 !important;
+            margin: 0 !important;
+            padding-top: 0.5rem !important;
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+
+        /* Form Feedback */
+        .form-feedback {
+            display: none;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            margin-top: 1rem;
+        }
+        
+        .form-feedback.success {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        
+        .form-feedback.error {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        
+        .form-feedback p {
+            margin: 0;
+            flex: 1;
+        }
+        
+        .form-feedback.success p { color: #22c55e; }
+        .form-feedback.error p { color: #ef4444; }
+        
+        .feedback-close {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: inherit;
+            opacity: 0.7;
+        }
+
+        /* Spinner */
+        .spinner {
+            animation: rotate 1s linear infinite;
+            width: 20px;
+            height: 20px;
+        }
+        
+        .spinner .path {
+            stroke: white;
+            stroke-linecap: round;
+            animation: dash 1.5s ease-in-out infinite;
+        }
+        
+        @keyframes rotate {
+            100% { transform: rotate(360deg); }
+        }
+        
+        @keyframes dash {
+            0% { stroke-dasharray: 1, 150; stroke-dashoffset: 0; }
+            50% { stroke-dasharray: 90, 150; stroke-dashoffset: -35; }
+            100% { stroke-dasharray: 90, 150; stroke-dashoffset: -124; }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .contact-hero h1 { font-size: 1.75rem; }
+            .form-card, .info-card { padding: 1.75rem; }
+            .section-header h2 { font-size: 1.6rem; }
+        }
+    </style>
 </head>
 
 <body class="contact-page">
-    <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
-    
     <canvas id="background-canvas"></canvas>
-
-        <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
     <div id="nav-placeholder"></div>
 
     <main id="main">
-        
-    
-               <section id="contact" class="section try-coding-section" style="animation-delay: 1.2s;">
-            <div class="try-coding-header">
-                <h2 class="section-title try-coding-title">Try Coding and Maths</h2>
-                <p class="section-subtitle">Tell us what you want to learn, and we'll help you get started on your
-                    coding and maths journey!</p>
-            </div>
-
-            <div class="contact-container">
-                <form class="contact-form" id="tryCodeForm">
-                    <!-- Name Field -->
-                    <div class="form-group" style="animation-delay: 1.3s;">
-                        <input type="text" id="contactName" name="name" class="input-field" placeholder="Your Name"
-                            required aria-label="Your Name" autocomplete="name">
-                    </div>
-
-                    <!-- Email Field -->
-                    <div class="form-group" style="animation-delay: 1.4s;">
-                        <input type="email" id="contactEmail" name="email" class="input-field" placeholder="Your Email"
-                            required aria-label="Your Email" autocomplete="email">
-                        <span class="error-message" id="emailError" role="alert"></span>
-                    </div>
-
-                    <!-- Contact Number Field -->
-                    <div class="form-group" style="animation-delay: 1.5s;">
-                        <input type="tel" id="contactPhone" name="contact" class="input-field"
-                            placeholder="Contact Number (10 digits)" required pattern="[0-9]{10}"
-                            aria-label="Contact Number" autocomplete="tel">
-                        <span class="error-message" id="phoneError" role="alert"></span>
-                    </div>
-
-                    <!-- Message Field -->
-                    <div class="form-group" style="animation-delay: 1.6s;">
-                        <textarea id="contactMessage" name="message" class="input-field"
-                            placeholder="What do you want to learn? (e.g., Python, Web Development, AI, etc.)" required
-                            rows="5" aria-label="What do you want to learn?" minlength="10" maxlength="1000"></textarea>
-                        <span class="error-message" id="messageError" role="alert"></span>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <button type="submit" class="submit-button" style="animation-delay: 1.7s;">
-                        <span class="button-text">Send Message</span>
-                        <span class="button-loader" style="display: none;">
-                            <svg class="spinner" viewBox="0 0 50 50">
-                                <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
-                            </svg>
-                        </span>
-                    </button>
-                </form>
-
-                <!-- Success/Error Feedback -->
-                <div class="form-feedback" id="formFeedback" style="display: none;" role="status" aria-live="polite">
-                    <div class="feedback-icon"></div>
-                    <p class="feedback-message"></p>
-                    <button class="feedback-close" aria-label="Close message">×</button>
-                </div>
-            </div>
-        </section> 
-
-
-                <!-- Contact Information Card - Centered -->
-                <div style="max-width: 800px; margin: 0 auto 2rem auto;">
-                    <div class="contact-info-card" style="background: linear-gradient(135deg, rgba(16, 16, 28, 0.95) 0%, rgba(30, 20, 50, 0.95) 100%); padding: 2.5rem; border-radius: 1.5rem; border: 2px solid rgba(168, 85, 247, 0.4); box-shadow: 0 20px 60px rgba(168, 85, 247, 0.2); text-align: center; transition: all 0.3s ease;">
-                        <h2 style="color: #a855f7; margin-bottom: 2rem; font-size: 2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Get In Touch</h2>
-                        
-                        <!-- Contact Details Grid -->
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; text-align: left;">
-                            <!-- Email -->
-                            <div style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3); transition: all 0.3s ease;">
-                                <h3 style="color: #fff; font-size: 1.25rem; margin: 0 0 0.75rem 0; font-weight: 600;">Email</h3>
-                                <a href="mailto:contact@modernagecoders.com" style="color: #CBD5E1; text-decoration: none; font-size: 1rem; word-break: break-word; transition: color 0.3s ease;">
-                                    contact@modernagecoders.com
-                                </a>
-                            </div>
-
-                            <!-- Phone -->
-                            <div style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3); transition: all 0.3s ease;">
-                                <h3 style="color: #fff; font-size: 1.25rem; margin: 0 0 0.75rem 0; font-weight: 600;">Phone</h3>
-                                <a href="tel:+919123366161" style="color: #CBD5E1; text-decoration: none; font-size: 1.125rem; transition: color 0.3s ease;">
-                                    +91 9123366161
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- Office Hours -->
-                        <div style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3); margin-bottom: 2rem;">
-                            <h3 style="color: #fff; font-size: 1.25rem; margin: 0 0 1rem 0; font-weight: 600; text-align: center;">Office Hours</h3>
-                            <p style="color: #CBD5E1; margin: 0.5rem 0; font-size: 1.05rem;">Monday - Saturday: 9:00 AM - 6:00 PM IST</p>
-                            <p style="color: #94A3B8; margin: 0.5rem 0; font-size: 1rem;">Sunday: Closed</p>
-                        </div>
-
-                        <!-- Social Media -->
-                        <div>
-                            <h3 style="color: #fff; font-size: 1.5rem; margin-bottom: 1.25rem; font-weight: 600;">Connect With Us</h3>
-                            <div style="display: flex; justify-content: center; gap: 1.25rem; flex-wrap: wrap;">
-                                <a href="https://www.facebook.com/profile.php?id=100088860364349" target="_blank" rel="noopener noreferrer" 
-                                   style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: linear-gradient(135deg, #1877f2, #0d5dbf); border-radius: 50%; color: #fff; font-size: 1.75rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);" 
-                                   aria-label="Facebook" title="Follow us on Facebook">
-                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                                </a>
-                                
-                                <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener noreferrer" 
-                                   style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); border-radius: 50%; color: #fff; font-size: 1.75rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(225, 48, 108, 0.3);" 
-                                   aria-label="Instagram" title="Follow us on Instagram">
-                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                                </a>
-                                
-                                <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener noreferrer" 
-                                   style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: linear-gradient(135deg, #ff0000, #cc0000); border-radius: 50%; color: #fff; font-size: 1.75rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(255, 0, 0, 0.3);" 
-                                   aria-label="YouTube" title="Subscribe on YouTube">
-                                    <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                                </a>
-                                
-                                <a href="https://www.linkedin.com/in/shivam-khemka-948a2a277" target="_blank" rel="noopener noreferrer" 
-                                   style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: linear-gradient(135deg, #0077b5, #005582); border-radius: 50%; color: #fff; font-size: 1.75rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(0, 119, 181, 0.3);" 
-                                   aria-label="LinkedIn" title="Connect on LinkedIn">
-                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                                </a>
-                                
-                                <a href="https://github.com/modernagecoder" target="_blank" rel="noopener noreferrer" 
-                                   style="display: flex; align-items: center; justify-content: center; width: 60px; height: 60px; background: linear-gradient(135deg, #333, #1a1a1a); border-radius: 50%; color: #fff; font-size: 1.75rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(51, 51, 51, 0.3);" 
-                                   aria-label="GitHub" title="Follow us on GitHub">
-                                    <svg width="28" height="28" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <!-- FAQ Section -->
-                <div style="background: linear-gradient(135deg, rgba(16, 16, 28, 0.95) 0%, rgba(30, 20, 50, 0.95) 100%); padding: 2.5rem; border-radius: 1.5rem; border: 2px solid rgba(168, 85, 247, 0.4); box-shadow: 0 20px 60px rgba(168, 85, 247, 0.2);">
-                    <h2 style="color: #a855f7; margin-bottom: 2rem; text-align: center; font-size: 2rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Frequently Asked Questions</h2>
-                    
-                    <div style="display: grid; gap: 1.25rem; max-width: 900px; margin: 0 auto;">
-                        <div class="faq-item" style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border-left: 4px solid #a855f7; transition: all 0.3s ease;">
-                            <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 600;">
-                                What age groups do you teach?
-                            </h3>
-                            <p style="color: #CBD5E1; margin: 0; line-height: 1.6;">We offer courses for kids (ages 6-12), teens (ages 13-18), college students, and working professionals.</p>
-                        </div>
-
-                        <div class="faq-item" style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border-left: 4px solid #a855f7; transition: all 0.3s ease;">
-                            <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 600;">
-                                Do you offer online classes?
-                            </h3>
-                            <p style="color: #CBD5E1; margin: 0; line-height: 1.6;">Yes, all our courses are available online with live interactive sessions and recorded materials.</p>
-                        </div>
-
-                        <div class="faq-item" style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border-left: 4px solid #a855f7; transition: all 0.3s ease;">
-                            <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 600;">
-                                What is your refund policy?
-                            </h3>
-                            <p style="color: #CBD5E1; margin: 0; line-height: 1.6;">We offer a 7-day money-back guarantee if you're not satisfied with the course.</p>
-                        </div>
-
-                        <div class="faq-item" style="background: rgba(168, 85, 247, 0.1); padding: 1.5rem; border-radius: 1rem; border-left: 4px solid #a855f7; transition: all 0.3s ease;">
-                            <h3 style="color: #fff; font-size: 1.25rem; margin-bottom: 0.75rem; font-weight: 600;">
-                                How can I enroll in a course?
-                            </h3>
-                            <p style="color: #CBD5E1; margin: 0; line-height: 1.6;">Browse our courses page, select a course, and click "Enroll Now". You can also contact us for personalized guidance.</p>
-                        </div>
-                    </div>
-
-                    <!-- View Courses Button -->
-                    <div style="text-align: center; margin-top: 2.5rem;">
-                        <a href="/courses" class="course-explore-btn"
-                           style="display: inline-flex; align-items: center; gap: 0.75rem; padding: 1.25rem 3rem; background: linear-gradient(135deg, #a855f7 0%, #7c3aed 100%); color: #fff; text-decoration: none; border-radius: 50px; font-size: 1.25rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4); transition: all 0.3s ease; border: 2px solid transparent;">
-                            <span>Explore Our Courses</span>
-                            <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20" style="margin-left: 0.5rem;">
-                                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-           
-        
-        
+        <!-- Hero Section -->
+        <section class="contact-hero">
+            <h1>Let's <span>Talk</span></h1>
+            <p>Have a question about our courses? Want to schedule a free demo class? Or just want to say hi? We'd love to hear from you. Drop us a message and we'll get back to you within 24 hours.</p>
         </section>
 
+        <!-- Main Contact Section -->
+        <section class="contact-main">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="form-card">
+                    <h2>Send us a Message</h2>
+                    <p>Tell us what you're looking for and we'll help you get started.</p>
+                    
+                    <form class="contact-form-new" id="contactForm">
+                        <div class="form-group-new">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group-new">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                            <span class="error-msg" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group-new">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="contact" class="form-input" placeholder="10-digit mobile number" required pattern="[0-9]{10}">
+                            <span class="error-msg" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group-new">
+                            <label for="message">What would you like to learn?</label>
+                            <textarea id="message" name="message" class="form-input" placeholder="E.g., Python for my 12-year-old, Web development course, Math tutoring..." required minlength="10"></textarea>
+                            <span class="error-msg" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn-new" id="submitBtn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader" style="display: none;">
+                                <svg class="spinner" viewBox="0 0 50 50">
+                                    <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+                                </svg>
+                            </span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="send-icon"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                        </button>
+                    </form>
+                    
+                    <div class="form-feedback" id="formFeedback">
+                        <p class="feedback-message"></p>
+                        <button class="feedback-close" aria-label="Close">×</button>
+                    </div>
+                </div>
 
+                <!-- Contact Info -->
+                <div class="info-card">
+                    <h2>Contact Information</h2>
+                    
+                    <div class="info-items">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Phone</h3>
+                                <a href="tel:+919123366161">+91 9123366161</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Email</h3>
+                                <a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Office Hours</h3>
+                                <p>Mon - Sat: 9:00 AM - 6:00 PM IST</p>
+                                <p style="font-size: 0.85rem; opacity: 0.8;">Sunday: Closed</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                            </div>
+                            <div class="info-content">
+                                <h3>Response Time</h3>
+                                <p>We typically respond within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Links -->
+                    <div class="social-section">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/profile.php?id=100088860364349" target="_blank" rel="noopener" class="social-link facebook" aria-label="Facebook">
+                                <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                            <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener" class="social-link instagram" aria-label="Instagram">
+                                <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            </a>
+                            <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener" class="social-link youtube" aria-label="YouTube">
+                                <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/shivam-khemka-948a2a277" target="_blank" rel="noopener" class="social-link linkedin" aria-label="LinkedIn">
+                                <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                            </a>
+                            <a href="https://github.com/modernagecoder" target="_blank" rel="noopener" class="social-link github" aria-label="GitHub">
+                                <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Contact Options -->
+        <section class="quick-contact">
+            <div class="quick-contact-inner">
+                <div class="section-header">
+                    <h2>How Can We Help?</h2>
+                    <p>Choose the best way to reach us based on your needs.</p>
+                </div>
+                
+                <div class="quick-cards">
+                    <div class="quick-card">
+                        <div class="quick-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        </div>
+                        <h3>Quick Questions</h3>
+                        <p>Call us directly for quick answers about courses, pricing, or scheduling. We're happy to help!</p>
+                    </div>
+                    
+                    <div class="quick-card">
+                        <div class="quick-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
+                        </div>
+                        <h3>Book a Demo</h3>
+                        <p>Want to see how we teach? Schedule a free demo class. No commitment, just a chance to experience our style.</p>
+                    </div>
+                    
+                    <div class="quick-card">
+                        <div class="quick-card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3>Detailed Inquiry</h3>
+                        <p>Have specific requirements? Fill out the form above with details and we'll get back with a personalized response.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="section-header">
+                <h2>Common Questions</h2>
+                <p>Quick answers to things people often ask.</p>
+            </div>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly do you respond to inquiries?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We typically respond within 24 hours on working days. For urgent queries, calling us directly is the fastest way to get answers.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I get a free demo class?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We offer a free demo class so you can experience our teaching style before enrolling. Just mention it in your message or call us to schedule one.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What information should I include in my message?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Tell us the student's age, what they want to learn (coding, math, or both), preferred timing, and whether you're interested in group or 1-on-1 classes. The more details, the better we can help!</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer courses for complete beginners?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Most of our students start with zero coding experience. We have beginner-friendly courses designed specifically for first-timers.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What age groups do you teach?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We teach students from age 8 to 21+. We have different courses for kids (8-12), teens (13-17), and college students/adults (18+). Each course is designed for that specific age group.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I contact you on WhatsApp?
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! You can message us on WhatsApp at +91 9123366161. It's often the quickest way to get a response for simple questions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script>
         // API Configuration
         const API_CONFIG = {
             development: 'http://localhost:5000',
-            production: 'https://backend-modernagecoders.vercel.app', // Same as index.html
-
-            getBaseURL: function () {
+            production: 'https://backend-modernagecoders.vercel.app',
+            getBaseURL: function() {
                 if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
                     return this.development;
                 }
                 return this.production;
             }
         };
-
         const API_BASE_URL = API_CONFIG.getBaseURL();
-        console.log('🔗 API Base URL:', API_BASE_URL);
-        
-        // Background Canvas Animation (same as other pages)
+
+        // Background Canvas Animation
         const canvas = document.getElementById('background-canvas');
         const ctx = canvas.getContext('2d');
         let particles = [];
         const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
-        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
         const allSymbols = [...mathSymbols, ...codeSymbols];
 
         function resizeCanvas() {
@@ -297,17 +884,17 @@
 
         function createParticles() {
             particles = [];
-            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            const particleCount = Math.floor((canvas.width * canvas.height) / 8000);
             for (let i = 0; i < particleCount; i++) {
                 particles.push({
                     x: Math.random() * canvas.width,
                     y: Math.random() * canvas.height,
                     char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                    speed: 0.3 + Math.random() * 0.7,
-                    size: 12 + Math.random() * 10,
-                    opacity: 0.1 + Math.random() * 0.3,
+                    speed: 0.2 + Math.random() * 0.5,
+                    size: 10 + Math.random() * 8,
+                    opacity: 0.08 + Math.random() * 0.15,
                     rotation: Math.random() * Math.PI * 2,
-                    rotationSpeed: (Math.random() - 0.5) * 0.02,
+                    rotationSpeed: (Math.random() - 0.5) * 0.01,
                     isMath: Math.random() > 0.5
                 });
             }
@@ -315,379 +902,228 @@
 
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
             particles.forEach(p => {
                 p.y -= p.speed;
                 p.rotation += p.rotationSpeed;
-                
                 if (p.y < -30) {
                     p.y = canvas.height + 30;
                     p.x = Math.random() * canvas.width;
-                    p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
                 }
-                
                 ctx.save();
                 ctx.translate(p.x, p.y);
                 ctx.rotate(p.rotation);
                 ctx.font = `${p.size}px monospace`;
-                
-                if (p.isMath) {
-                    ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
-                } else {
-                    ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
-                }
-                
+                ctx.fillStyle = p.isMath ? `rgba(255, 215, 0, ${p.opacity})` : `rgba(168, 85, 247, ${p.opacity})`;
                 ctx.fillText(p.char, 0, 0);
                 ctx.restore();
             });
-            
             requestAnimationFrame(animate);
         }
 
-        window.addEventListener('resize', () => {
-            resizeCanvas();
-            createParticles();
-        });
-
+        window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
         resizeCanvas();
         createParticles();
         animate();
 
-       
-
-                // ========================================
-            // TRY CODING FORM - VALIDATION & SUBMISSION
-            // ========================================
-
-            /**
-             * VALIDATION FUNCTIONS
-             */
-
-            // Validate email format
-            function validateEmail(email) {
-                const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-                return re.test(email);
+        // Form Validation & Submission
+        const contactForm = document.getElementById('contactForm');
+        
+        function validateEmail(email) {
+            return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+        }
+        
+        function validatePhone(phone) {
+            return /^[0-9]{10}$/.test(phone.replace(/\s/g, ''));
+        }
+        
+        function showError(fieldId, message) {
+            const errorEl = document.getElementById(fieldId + 'Error');
+            const inputEl = document.getElementById(fieldId);
+            if (errorEl) { errorEl.textContent = message; errorEl.style.display = 'block'; }
+            if (inputEl) inputEl.classList.add('error');
+        }
+        
+        function clearError(fieldId) {
+            const errorEl = document.getElementById(fieldId + 'Error');
+            const inputEl = document.getElementById(fieldId);
+            if (errorEl) errorEl.style.display = 'none';
+            if (inputEl) inputEl.classList.remove('error');
+        }
+        
+        function showFeedback(type, message) {
+            const feedback = document.getElementById('formFeedback');
+            const msgEl = feedback.querySelector('.feedback-message');
+            feedback.className = `form-feedback ${type}`;
+            msgEl.textContent = message;
+            feedback.style.display = 'flex';
+            setTimeout(() => { feedback.style.display = 'none'; }, 5000);
+        }
+        
+        function setLoading(isLoading) {
+            const btn = document.getElementById('submitBtn');
+            const btnText = btn.querySelector('.btn-text');
+            const btnLoader = btn.querySelector('.btn-loader');
+            const sendIcon = btn.querySelector('.send-icon');
+            
+            if (isLoading) {
+                btn.disabled = true;
+                btnText.style.display = 'none';
+                sendIcon.style.display = 'none';
+                btnLoader.style.display = 'inline-block';
+            } else {
+                btn.disabled = false;
+                btnText.style.display = 'inline';
+                sendIcon.style.display = 'inline';
+                btnLoader.style.display = 'none';
             }
+        }
 
-            // Validate phone number (10 digits)
-            function validatePhone(phone) {
-                const re = /^[0-9]{10}$/;
-                const cleaned = phone.replace(/\s/g, '');
-                return re.test(cleaned);
-            }
+        // Real-time validation
+        document.getElementById('email')?.addEventListener('blur', function() {
+            if (this.value && !validateEmail(this.value)) showError('email', 'Please enter a valid email');
+            else clearError('email');
+        });
+        
+        document.getElementById('phone')?.addEventListener('blur', function() {
+            if (this.value && !validatePhone(this.value)) showError('phone', 'Please enter a valid 10-digit number');
+            else clearError('phone');
+        });
 
-            // Show error message
-            function showError(fieldId, message) {
-                const errorElement = document.getElementById(fieldId + 'Error');
-                const inputElement = document.getElementById(fieldId);
-
-                if (errorElement) {
-                    errorElement.textContent = message;
-                    errorElement.style.display = 'block';
-                }
-
-                if (inputElement) {
-                    inputElement.classList.add('error');
-                }
-            }
-
-            // Clear error message
-            function clearError(fieldId) {
-                const errorElement = document.getElementById(fieldId + 'Error');
-                const inputElement = document.getElementById(fieldId);
-
-                if (errorElement) {
-                    errorElement.style.display = 'none';
-                }
-
-                if (inputElement) {
-                    inputElement.classList.remove('error');
-                }
-            }
-
-            // Show feedback message (success or error)
-            function showFeedback(type, message) {
-                const feedbackElement = document.getElementById('formFeedback');
-                const messageElement = feedbackElement.querySelector('.feedback-message');
-
-                feedbackElement.className = `form-feedback feedback-${type}`;
-                messageElement.textContent = message;
-                feedbackElement.style.display = 'flex';
-
-                // Auto-hide after 5 seconds
-                setTimeout(() => {
-                    feedbackElement.style.display = 'none';
-                }, 5000);
-            }
-
-            // Show/hide loading state
-            function showLoading(isLoading) {
-                const button = document.querySelector('.submit-button');
-                if (!button) {
-                    console.error('❌ Submit button not found');
-                    return;  // ✅ Safely exit if button not found
-                }
-
-                const buttonText = button.querySelector('.button-text');
-                const buttonLoader = button.querySelector('.button-loader');
-
-                if (!buttonText || !buttonLoader) {
-                    console.error('❌ Button elements not found');
-                    return;  // ✅ Safely exit if elements not found
-                }
-
-                if (isLoading) {
-                    button.disabled = true;
-                    buttonText.style.display = 'none';
-                    buttonLoader.style.display = 'inline-block';
+        // Form submission
+        contactForm?.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            clearError('email'); clearError('phone'); clearError('message');
+            
+            const formData = {
+                name: document.getElementById('name').value.trim(),
+                email: document.getElementById('email').value.trim(),
+                contact: document.getElementById('phone').value.trim(),
+                message: document.getElementById('message').value.trim()
+            };
+            
+            let hasErrors = false;
+            if (!validateEmail(formData.email)) { showError('email', 'Please enter a valid email'); hasErrors = true; }
+            if (!validatePhone(formData.contact)) { showError('phone', 'Please enter a valid 10-digit number'); hasErrors = true; }
+            if (formData.message.length < 10) { showError('message', 'Please enter at least 10 characters'); hasErrors = true; }
+            if (hasErrors) return;
+            
+            setLoading(true);
+            
+            try {
+                const response = await fetch(API_BASE_URL + '/api/contact/submit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    showFeedback('success', 'Message sent! We\'ll get back to you within 24 hours.');
+                    contactForm.reset();
                 } else {
-                    button.disabled = false;
-                    buttonText.style.display = 'inline';
-                    buttonLoader.style.display = 'none';
+                    showFeedback('error', data.message || 'Something went wrong. Please try again.');
                 }
+            } catch (error) {
+                showFeedback('error', 'Network error. Please check your connection.');
+            } finally {
+                setLoading(false);
             }
+        });
 
-            /**
-             * FORM SUBMISSION HANDLER
-             */
-            const tryCodeForm = document.getElementById('tryCodeForm');
+        // Close feedback
+        document.querySelector('.feedback-close')?.addEventListener('click', () => {
+            document.getElementById('formFeedback').style.display = 'none';
+        });
 
-            if (tryCodeForm) {
-                // Real-time validation on input
-                const emailInput = document.getElementById('contactEmail');
-                const phoneInput = document.getElementById('contactPhone');
-
-                if (emailInput) {
-                    emailInput.addEventListener('blur', function () {
-                        if (this.value && !validateEmail(this.value)) {
-                            showError('contactEmail', 'Please enter a valid email address');
-                        } else {
-                            clearError('contactEmail');
-                        }
-                    });
-
-                    emailInput.addEventListener('input', function () {
-                        if (this.value && validateEmail(this.value)) {
-                            clearError('contactEmail');
-                        }
-                    });
+        // FAQ Accordion - Add both 'open' and 'active' classes for compatibility
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isOpen = faqItem.classList.contains('open');
+                
+                // Close all FAQ items first
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('open', 'active');
+                });
+                
+                // Toggle current item (add both classes for CSS compatibility)
+                if (!isOpen) {
+                    faqItem.classList.add('open', 'active');
                 }
+            });
+        });
 
-                if (phoneInput) {
-                    phoneInput.addEventListener('blur', function () {
-                        if (this.value && !validatePhone(this.value)) {
-                            showError('contactPhone', 'Please enter a valid 10-digit phone number');
-                        } else {
-                            clearError('contactPhone');
-                        }
-                    });
-
-                    phoneInput.addEventListener('input', function () {
-                        if (this.value && validatePhone(this.value)) {
-                            clearError('contactPhone');
-                        }
-                    });
+        // GSAP Animations - with fallback to ensure visibility
+        if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+            gsap.registerPlugin(ScrollTrigger);
+            
+            // Hero animation
+            gsap.fromTo('.contact-hero h1', 
+                { opacity: 0, y: 30 }, 
+                { opacity: 1, y: 0, duration: 0.8, ease: 'power2.out' }
+            );
+            gsap.fromTo('.contact-hero p', 
+                { opacity: 0, y: 20 }, 
+                { opacity: 1, y: 0, duration: 0.8, delay: 0.2, ease: 'power2.out' }
+            );
+            
+            // Form card animation
+            gsap.fromTo('.form-card', 
+                { opacity: 0, x: -30 },
+                { opacity: 1, x: 0, duration: 0.8, ease: 'power2.out',
+                  scrollTrigger: { trigger: '.form-card', start: 'top 80%' }
                 }
-
-                // Form submission
-                tryCodeForm.addEventListener('submit', async function (e) {
-                    e.preventDefault();
-
-                    // Clear all previous errors
-                    clearError('contactEmail');
-                    clearError('contactPhone');
-                    clearError('contactMessage');
-
-                    // Get form data
-                    const formData = {
-                        name: document.getElementById('contactName').value.trim(),
-                        email: document.getElementById('contactEmail').value.trim(),
-                        contact: document.getElementById('contactPhone').value.trim(),
-                        message: document.getElementById('contactMessage').value.trim()
-                    };
-
-                    // Validate all fields
-                    let hasErrors = false;
-
-                    if (!formData.name) {
-                        hasErrors = true;
-                    }
-
-                    if (!validateEmail(formData.email)) {
-                        showError('contactEmail', 'Please enter a valid email address');
-                        hasErrors = true;
-                    }
-
-                    if (!validatePhone(formData.contact)) {
-                        showError('contactPhone', 'Please enter a valid 10-digit phone number');
-                        hasErrors = true;
-                    }
-
-                    if (!formData.message || formData.message.length < 10) {
-                        showError('contactMessage', 'Please enter at least 10 characters');
-                        hasErrors = true;
-                    }
-
-                    if (hasErrors) {
-                        return;
-                    }
-
-                    // Show loading state
-                    showLoading(true);
-
-                    try {
-                        // Send to backend API
-                        const backendUrl = API_BASE_URL + '/api/contact/submit';
-                        console.log('📤 Sending to:', backendUrl);
-
-                        const response = await fetch(backendUrl, {
-                            method: 'POST',
-                            headers: {
-                                'Content-Type': 'application/json'
-                            },
-                            body: JSON.stringify(formData)
-                        });
-
-                        const data = await response.json();
-
-                        if (response.ok) {
-                            // Success!
-                            showFeedback('success', 'Your message has been sent successfully! We\'ll get back to you soon.');
-                            tryCodeForm.reset();
-
-                            // Log success
-                            console.log('✅ Contact form submitted successfully:', data.contactId);
-                        } else {
-                            // Server returned an error
-                            showFeedback('error', data.message || data.error || 'Something went wrong. Please try again.');
-                            console.error('❌ Server error:', data);
-                        }
-                    } catch (error) {
-                        // Network error
-                        showFeedback('error', 'Network error. Please check your connection and try again.');
-                        console.error('❌ Network error:', error);
-                    } finally {
-                        // Hide loading state
-                        showLoading(false);
-                    }
-                });
-            }
-
-            // Close feedback message when clicking the close button
-            const feedbackClose = document.querySelector('.feedback-close');
-            if (feedbackClose) {
-                feedbackClose.addEventListener('click', function () {
-                    document.getElementById('formFeedback').style.display = 'none';
-                });
-            }
-
-            // Close feedback when clicking outside
-            const formFeedback = document.getElementById('formFeedback');
-            if (formFeedback) {
-                formFeedback.addEventListener('click', function (e) {
-                    if (e.target === this) {
-                        this.style.display = 'none';
-                    }
-                });
-            }
-
-
-
+            );
+            
+            // Info card animation
+            gsap.fromTo('.info-card', 
+                { opacity: 0, x: 30 },
+                { opacity: 1, x: 0, duration: 0.8, ease: 'power2.out',
+                  scrollTrigger: { trigger: '.info-card', start: 'top 80%' }
+                }
+            );
+            
+            // Quick cards animation
+            gsap.fromTo('.quick-card', 
+                { opacity: 0, y: 30 },
+                { opacity: 1, y: 0, duration: 0.6, stagger: 0.15, ease: 'power2.out',
+                  scrollTrigger: { trigger: '.quick-cards', start: 'top 90%' }
+                }
+            );
+            
+            // FAQ items animation
+            gsap.fromTo('.faq-item', 
+                { opacity: 0, y: 20 },
+                { opacity: 1, y: 0, duration: 0.5, stagger: 0.1, ease: 'power2.out',
+                  scrollTrigger: { trigger: '.faq-list', start: 'top 90%' }
+                }
+            );
+        } else {
+            // Fallback: ensure all elements are visible if GSAP fails
+            document.querySelectorAll('.contact-hero h1, .contact-hero p, .form-card, .info-card, .quick-card, .faq-item').forEach(el => {
+                el.style.opacity = '1';
+                el.style.transform = 'none';
+            });
+        }
+        
+        // Additional fallback: ensure visibility after a short delay
+        setTimeout(() => {
+            document.querySelectorAll('.quick-card, .faq-item').forEach(el => {
+                if (getComputedStyle(el).opacity === '0') {
+                    el.style.opacity = '1';
+                    el.style.transform = 'none';
+                }
+            });
+        }, 1500);
     </script>
 
-    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
-    <script src="/js/unified-mobile-nav.js"></script>
-    
-    <!-- Load Keyboard Navigation JavaScript -->
-    <script src="/js/keyboard-navigation.js"></script>
-    
-    <!-- Load Tab Accessibility JavaScript -->
-    <script src="/js/tab-accessibility.js"></script>
-    
-    <!-- Load Form Validation JavaScript -->
-    <script src="/js/form-validation.js"></script>
-
-    <style>
-        @media (max-width: 768px) {
-            main > section > .container > div:first-of-type {
-                grid-template-columns: 1fr !important;
-            }
-        }
-
-        /* Contact Card Hover Effects */
-        .contact-info-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 25px 70px rgba(168, 85, 247, 0.3) !important;
-            border-color: rgba(168, 85, 247, 0.6) !important;
-        }
-
-        /* Social Media Icon Hover Effects */
-        a[aria-label="Facebook"]:hover {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 8px 25px rgba(24, 119, 242, 0.5) !important;
-        }
-
-        a[aria-label="Instagram"]:hover {
-            transform: scale(1.15) rotate(-5deg);
-            box-shadow: 0 8px 25px rgba(225, 48, 108, 0.5) !important;
-        }
-
-        a[aria-label="YouTube"]:hover {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 8px 25px rgba(255, 0, 0, 0.5) !important;
-        }
-
-        a[aria-label="LinkedIn"]:hover {
-            transform: scale(1.15) rotate(-5deg);
-            box-shadow: 0 8px 25px rgba(0, 119, 181, 0.5) !important;
-        }
-
-        a[aria-label="GitHub"]:hover {
-            transform: scale(1.15) rotate(5deg);
-            box-shadow: 0 8px 25px rgba(51, 51, 51, 0.5) !important;
-        }
-
-        /* FAQ Item Hover Effect */
-        .faq-item:hover {
-            background: rgba(168, 85, 247, 0.15) !important;
-            transform: translateX(10px);
-            border-left-width: 6px !important;
-        }
-
-        /* Course Button Hover Effect */
-        .course-explore-btn:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 15px 40px rgba(168, 85, 247, 0.6) !important;
-            border-color: #a855f7 !important;
-            background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%) !important;
-        }
-
-        /* Email and Phone Link Hover */
-        a[href^="mailto:"]:hover,
-        a[href^="tel:"]:hover {
-            color: #a855f7 !important;
-            text-decoration: underline;
-        }
-
-        /* Responsive adjustments */
-        @media (max-width: 768px) {
-            .contact-info-card > div:first-child > div {
-                grid-template-columns: 1fr !important;
-            }
-        }
-    </style>
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- ============================================ -->
+    <!-- Component Loaders -->
     <script src="/js/components-loader.js"></script>
+    <script src="/js/unified-mobile-nav.js"></script>
+    <script src="/js/keyboard-navigation.js"></script>
+    <script src="/js/tab-accessibility.js"></script>
 
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
+    <!-- Footer -->
     <div id="footer-placeholder"></div>
-
 </body>
 </html>
