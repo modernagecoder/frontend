@@ -5,292 +5,1067 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Pricing - Modern Age Coders | Course Fees & Plans</title>
-    <meta name="description" content="Affordable coding course pricing for all ages. Flexible payment plans, group classes, and personal mentorship options. View our transparent pricing today.">
-    <meta name="keywords" content="coding course pricing, programming course fees, online coding classes cost, affordable coding education">
+    <title>Pricing - Modern Age Coders | Coding & Math Course Fees</title>
+    <meta name="description" content="Transparent pricing for coding and math courses. Group classes from ₹1499/month, personalized 1-on-1 sessions from ₹2499/month. No hidden fees, flexible plans.">
+    <meta name="keywords" content="coding course fees India, math tuition pricing, online coding classes cost, affordable programming courses, 1-on-1 coding classes, personalized learning">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/pricing">
+    <meta name="robots" content="index, follow">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#a855f7">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/pricing">
-    <meta property="og:title" content="Pricing - Modern Age Coders | Course Fees & Plans">
-    <meta property="og:description" content="Affordable coding course pricing for all ages. Flexible payment plans, group classes, and personal mentorship options.">
+    <meta property="og:title" content="Pricing - Modern Age Coders | Simple & Transparent">
+    <meta property="og:description" content="Group classes from ₹1499/month. Personalized 1-on-1 from ₹2499/month. No hidden fees.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://learn.modernagecoders.com/pricing">
-    <meta name="twitter:title" content="Pricing - Modern Age Coders | Course Fees & Plans">
-    <meta name="twitter:description" content="Affordable coding course pricing for all ages. Flexible payment plans available.">
+    <meta name="twitter:title" content="Pricing - Modern Age Coders">
+    <meta name="twitter:description" content="Affordable coding & math courses. Transparent pricing, no surprises.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
 
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Pricing - Modern Age Coders",
-      "description": "Affordable coding course pricing for all ages. Flexible payment plans, group classes, and personal mentorship options.",
-      "url": "https://learn.modernagecoders.com/pricing"
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Pricing - Modern Age Coders",
+        "description": "Transparent pricing for coding and mathematics courses",
+        "url": "https://learn.modernagecoders.com/pricing",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "name": "Group Classes",
+                    "price": "1499",
+                    "priceCurrency": "INR",
+                    "description": "Weekly two classes in small group setting"
+                },
+                {
+                    "@type": "Offer",
+                    "name": "Personalized 1-on-1 Classes",
+                    "price": "2499",
+                    "priceCurrency": "INR",
+                    "description": "Weekly two personalized sessions with dedicated mentor"
+                }
+            ]
+        }
     }
     </script>
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     
     <style>
-        .pricing-card {
-            background: rgba(16, 16, 28, 0.8);
-            border: 1px solid rgba(168, 85, 247, 0.3);
-            border-radius: 1rem;
+        /* Pricing Page Custom Styles */
+        .pricing-page {
+            --accent-purple: #a855f7;
+            --accent-teal: #4ecdc4;
+            --accent-gold: #ffd700;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --card-bg: rgba(30, 30, 50, 0.6);
+            --card-border: rgba(168, 85, 247, 0.2);
+        }
+
+        /* Hero Section */
+        .pricing-hero {
+            text-align: center;
+            padding: 4rem 2rem 3rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .pricing-hero h1 {
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .pricing-hero h1 span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .pricing-hero p {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+
+        /* Pricing Tabs */
+        .pricing-tabs-section {
+            padding: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .pricing-tab-nav {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .pricing-tab-btn {
+            padding: 0.75rem 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 50px;
+            color: var(--text-secondary);
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .pricing-tab-btn:hover {
+            border-color: var(--accent-purple);
+            color: var(--text-primary);
+        }
+        
+        .pricing-tab-btn.active {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-color: transparent;
+            color: white;
+        }
+        
+        .pricing-tab-content {
+            display: none;
+        }
+        
+        .pricing-tab-content.active {
+            display: block;
+        }
+
+        /* Pricing Cards Grid */
+        .pricing-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .pricing-cards-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .pricing-card-new {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .pricing-card-new:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
+        }
+        
+        .pricing-card-new.recommended {
+            border-color: var(--accent-teal);
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
+        }
+        
+        .recommended-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: white;
+            padding: 0.4rem 1.25rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .card-icon {
+            width: 56px;
+            height: 56px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .card-icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: white;
+            fill: none;
+            stroke-width: 2;
+        }
+        
+        .pricing-card-new h3 {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .card-tagline {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .price-display {
+            margin-bottom: 1.5rem;
+        }
+        
+        .price-amount {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .price-currency {
+            font-size: 1.5rem;
+            vertical-align: top;
+        }
+        
+        .price-period {
+            font-size: 1rem;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+        
+        .features-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 2rem 0;
+        }
+        
+        .features-list li {
+            padding: 0.6rem 0;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.95rem;
+        }
+        
+        .features-list li svg {
+            width: 18px;
+            height: 18px;
+            stroke: var(--accent-teal);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .choose-plan-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border: none;
+            border-radius: 12px;
+            color: white;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .choose-plan-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
+        }
+        
+        .choose-plan-btn.outline {
+            background: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--accent-purple);
+        }
+        
+        .choose-plan-btn.outline:hover {
+            background: var(--accent-purple);
+            color: white;
+        }
+
+        /* Comparison Section */
+        .comparison-section {
+            padding: 4rem 2rem;
+            background: rgba(168, 85, 247, 0.05);
+        }
+        
+        .comparison-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-header h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .section-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto;
+            line-height: 1.7;
+        }
+        
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 950px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            .comparison-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .comparison-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
             padding: 2rem;
             transition: all 0.3s ease;
         }
         
-        .pricing-card:hover {
-            border-color: rgba(168, 85, 247, 0.6);
-            transform: translateY(-5px);
+        .comparison-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
         }
         
-        .pricing-card.featured {
-            border-color: rgba(168, 85, 247, 0.8);
-            background: rgba(168, 85, 247, 0.1);
+        .comparison-card.group-card {
+            border-top: 4px solid var(--accent-purple);
         }
         
-        .price {
-            font-size: 2.5rem;
+        .comparison-card.personal-card {
+            border-top: 4px solid var(--accent-teal);
+        }
+        
+        .comparison-card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .comparison-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .group-card .comparison-icon {
+            background: linear-gradient(135deg, var(--accent-purple), #7c3aed);
+        }
+        
+        .personal-card .comparison-icon {
+            background: linear-gradient(135deg, var(--accent-teal), #06b6d4);
+        }
+        
+        .comparison-icon svg {
+            width: 26px;
+            height: 26px;
+            stroke: white;
+            fill: none;
+            stroke-width: 2;
+        }
+        
+        .comparison-card-header h3 {
+            font-size: 1.3rem;
             font-weight: 700;
-            color: #a855f7;
-            margin: 1rem 0;
+            color: var(--text-primary);
+            margin: 0;
         }
         
-        .feature-list {
+        .comparison-card-header span {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        
+        .comparison-subtitle {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .comparison-list {
             list-style: none;
             padding: 0;
-            margin: 1.5rem 0;
+            margin: 0;
         }
         
-        .feature-list li {
+        .comparison-list li {
             padding: 0.75rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            color: #CBD5E1;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: flex-start;
+            gap: 0.75rem;
+            font-size: 0.95rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
         
-        .feature-list li:before {
-            content: "✓ ";
-            color: #4ecdc4;
-            font-weight: bold;
-            margin-right: 0.5rem;
+        .comparison-list li:last-child {
+            border-bottom: none;
         }
         
+        .comparison-list li svg {
+            width: 18px;
+            height: 18px;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        
+        .group-card .comparison-list li svg {
+            stroke: var(--accent-purple);
+        }
+        
+        .personal-card .comparison-list li svg {
+            stroke: var(--accent-teal);
+        }
+
+        /* What's Included Section */
+        .included-section {
+            padding: 4rem 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .included-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .included-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+        
+        .included-item:hover {
+            border-color: var(--accent-purple);
+        }
+        
+        .included-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .included-icon svg {
+            width: 22px;
+            height: 22px;
+            stroke: white;
+            fill: none;
+            stroke-width: 2;
+        }
+        
+        .included-text h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+        
+        .included-text p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        /* FAQ Section */
+        .faq-section {
+            padding: 4rem 2rem;
+            background: rgba(78, 205, 196, 0.05);
+        }
+        
+        .faq-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            width: 100%;
+            padding: 1.25rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: left;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: var(--accent-purple);
+        }
+        
+        .faq-question svg {
+            width: 20px;
+            height: 20px;
+            stroke: var(--accent-purple);
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-item.open .faq-question svg {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-item.open .faq-answer {
+            max-height: 300px;
+        }
+        
+        .faq-answer p {
+            padding: 0 1.5rem 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        /* CTA Section */
+        .pricing-cta {
+            padding: 4rem 2rem;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .pricing-cta h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .pricing-cta p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-btn-primary {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: white;
+        }
+        
+        .cta-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+        }
+        
+        .cta-btn-secondary {
+            background: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--accent-purple);
+        }
+        
+        .cta-btn-secondary:hover {
+            background: var(--accent-purple);
+            color: white;
+        }
+
+        /* Responsive */
         @media (max-width: 768px) {
-            .pricing-grid {
-                grid-template-columns: 1fr !important;
+            .pricing-hero h1 {
+                font-size: 1.75rem;
+            }
+            
+            .pricing-cards-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .price-amount {
+                font-size: 2.5rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.6rem;
             }
         }
     </style>
 </head>
 
 <body class="pricing-page">
-    <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
-    
     <canvas id="background-canvas"></canvas>
-
-        <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
     <div id="nav-placeholder"></div>
 
     <main id="main">
-      <section class="section" style="animation-delay: 1s;">
-            <h2 class="section-title">Affordable Plans, High-Quality Knowledge</h2>
-            <p class="section-subtitle">So that everyone can code and learn real maths.</p>
+        <!-- Hero Section -->
+        <section class="pricing-hero">
+            <h1>Simple, <span>Transparent</span> Pricing</h1>
+            <p>No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or need personalized attention, we've got you covered.</p>
+        </section>
 
-            <div class="tabs-wrapper" id="pricing-tabs">
-                <!-- Pricing Tab Navigation -->
-                <div class="tabs-container">
-                    <button class="tab-button active" data-target="#pricing-coding">Coding</button>
-                    <button class="tab-button" data-target="#pricing-maths">Mathematics</button>
-                    <button class="tab-button" data-target="#pricing-custom">Custom</button>
-                    <div class="tab-glider"></div>
-                </div>
+        <!-- Pricing Tabs Section -->
+        <section class="pricing-tabs-section">
+            <div class="pricing-tab-nav">
+                <button class="pricing-tab-btn active" data-tab="coding">Coding Courses</button>
+                <button class="pricing-tab-btn" data-tab="maths">Mathematics</button>
+                <button class="pricing-tab-btn" data-tab="custom">Custom Training</button>
+            </div>
 
-                <!-- Coding Pricing Content -->
-                <div class="tab-content active" id="pricing-coding">
-                    <div class="pricing-grid">
-                        <!-- Group Plan Card -->
-                        <div class="pricing-card popular">
-                            <div class="popular-badge">MOST POPULAR</div>
-                            <h3 class="plan-title">Group Classes</h3>
-                            <div class="plan-price">
-                                <span class="price-currency">₹</span>1499<span class="price-period">/month</span>
-                            </div>
-                            <ul class="plan-features">
-                                <li>Weekly Two Classes</li>
-                                <li>Collaborative Projects</li>
-                                <li>Interactive Sessions</li>
-                                <li>Community Access</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Recorded Session Access</li>
-                                <li>Doubt Resolution Support</li>
-                                <li>Project-Based Learning</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Choose Plan</a>
+            <!-- Coding Tab -->
+            <div class="pricing-tab-content active" id="tab-coding">
+                <div class="pricing-cards-grid">
+                    <!-- Group Classes -->
+                    <div class="pricing-card-new">
+                        <span class="recommended-badge">Recommended</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                         </div>
-                        <!-- Personalized Plan Card (Highlighted) -->
-                        <div class="pricing-card popular">
-                            
-                            <h3 class="plan-title">Personalized Classes</h3>
-                            <div class="plan-price">
-                                <span class="price-currency">₹</span>2499<span class="price-period">/month</span>
-                            </div>
-                            <ul class="plan-features">
-                                <li><strong>Weekly Two 1-on-1 Classes</strong></li>
-                                <li>Customized Curriculum</li>
-                                <li>Flexible Scheduling</li>
-                                <li>Dedicated Mentorship</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Lifetime Recording Access</li>
-                                <li>Priority Doubt Support</li>
-                                <li>Career Guidance Sessions</li>
-                                <li>Portfolio Building Assistance</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Choose Plan</a>
+                        <h3>Group Classes</h3>
+                        <p class="card-tagline">Learn with peers, grow together</p>
+                        <div class="price-display">
+                            <span class="price-amount"><span class="price-currency">₹</span>1499</span>
+                            <span class="price-period">/month</span>
                         </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>2 classes per week (1 hour each)</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Small batch of 5-6 students</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Collaborative project work</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Recorded sessions access</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Doubt clearing support</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Course completion certificate</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn outline">Get Started</a>
+                    </div>
+
+                    <!-- Personalized Classes -->
+                    <div class="pricing-card-new recommended">
+                        <!-- <span class="recommended-badge">Recommended</span> -->
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <h3>Personalized 1-on-1</h3>
+                        <p class="card-tagline">Your pace, your schedule, your goals</p>
+                        <div class="price-display">
+                            <span class="price-amount"><span class="price-currency">₹</span>2499</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>100% personalized curriculum</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Flexible scheduling</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Dedicated mentor</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Priority doubt support</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Lifetime recording access</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Portfolio building help</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Career guidance sessions</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn">Get Started</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Maths Pricing Content -->
-                <div class="tab-content" id="pricing-maths">
-                    <div class="pricing-grid">
-                        <!-- Group Plan Card -->
-                        <div class="pricing-card popular">
-                            <div class="popular-badge">MOST POPULAR</div>
-                            <h3 class="plan-title">Group Classes</h3>
-                            <div class="plan-price">
-                                <span class="price-currency">₹</span>1499<span class="price-period">/month</span>
-                            </div>
-                            <ul class="plan-features">
-                                <li>Weekly Two Classes</li>
-                                <li>Problem-Solving Sessions</li>
-                                <li>Concept Clarity Focus</li>
-                                <li>Peer Learning</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Practice Worksheets</li>
-                                <li>Doubt Resolution Support</li>
-                                <li>Competition Preparation</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Choose Plan</a>
+            <!-- Maths Tab -->
+            <div class="pricing-tab-content" id="tab-maths">
+                <div class="pricing-cards-grid">
+                    <!-- Group Classes -->
+                    <div class="pricing-card-new">
+                        <span class="recommended-badge">Recommended</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
                         </div>
-                        <!-- Personalized Plan Card (Highlighted) -->
-                        <div class="pricing-card popular">
-                            
-                            <h3 class="plan-title">Personalized Classes</h3>
-                            <div class="plan-price">
-                                <span class="price-currency">₹</span>2499<span class="price-period">/month</span>
-                            </div>
-                            <ul class="plan-features">
-                                <li><strong>Weekly Two 1-on-1 Classes</strong></li>
-                                <li>Targeted Topic Mastery</li>
-                                <li>Paced To Your Learning</li>
-                                <li>Exam Preparation Help</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Personalized Study Materials</li>
-                                <li>Priority Doubt Support</li>
-                                <li>Progress Tracking Reports</li>
-                                <li>Olympiad Training Available</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Choose Plan</a>
+                        <h3>Group Classes</h3>
+                        <p class="card-tagline">Solve problems together, learn faster</p>
+                        <div class="price-display">
+                            <span class="price-amount"><span class="price-currency">₹</span>1499</span>
+                            <span class="price-period">/month</span>
                         </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>2 classes per week</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Small batch of 5-6 students</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Concept clarity focus</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Practice worksheets</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Doubt clearing sessions</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Competition preparation</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn outline">Get Started</a>
+                    </div>
+
+                    <!-- Personalized Classes -->
+                    <div class="pricing-card-new recommended">
+                        <!-- <span class="recommended-badge">Recommended</span> -->
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        </div>
+                        <h3>Personalized 1-on-1</h3>
+                        <p class="card-tagline">Targeted learning at your pace</p>
+                        <div class="price-display">
+                            <span class="price-amount"><span class="price-currency">₹</span>2499</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>2 private sessions per week</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Customized to your syllabus</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Exam preparation help</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Personalized study materials</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Progress tracking reports</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Olympiad training available</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Flexible scheduling</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Priority doubt support</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn">Get Started</a>
                     </div>
                 </div>
+            </div>
 
-                <!-- Custom Pricing Content -->
-                <div class="tab-content" id="pricing-custom">
-                    <div style="text-align: center; margin-bottom: 2rem;">
-                        <p style="color: #CBD5E1; font-size: 1.125rem; max-width: 800px; margin: 0 auto;">
-                            Need something specific? We create customized training programs tailored to your goals, whether it's learning a specific language, mastering a particular skill, or achieving a unique objective.
-                        </p>
+            <!-- Custom Tab -->
+            <div class="pricing-tab-content" id="tab-custom">
+                <div style="text-align: center; margin-bottom: 2rem;">
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; max-width: 700px; margin: 0 auto; line-height: 1.7;">
+                        Need something specific? We create custom training programs for individuals, schools, and companies. Tell us your goals, and we'll design a plan that fits.
+                    </p>
+                </div>
+                <div class="pricing-cards-grid">
+                    <!-- Custom Group -->
+                    <div class="pricing-card-new">
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                        </div>
+                        <h3>Custom Group Training</h3>
+                        <p class="card-tagline">For schools, colleges, or friend groups</p>
+                        <div class="price-display">
+                            <span class="price-amount" style="font-size: 1.8rem;">Custom Quote</span>
+                        </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Choose any language/topic</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Define your learning goals</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Flexible schedule</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Group size: 3-10 students</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Project-based curriculum</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Certificates for all</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn outline">Get Quote</a>
+                    </div>
+
+                    <!-- Custom 1-on-1 -->
+                    <div class="pricing-card-new recommended">
+                        <span class="recommended-badge">Fully Customized</span>
+                        <div class="card-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7.05 11.5 7.35 11.76a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h3>Custom 1-on-1 Training</h3>
+                        <p class="card-tagline">100% tailored to your needs</p>
+                        <div class="price-display">
+                            <span class="price-amount" style="font-size: 1.8rem;">Custom Quote</span>
+                        </div>
+                        <ul class="features-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Learn any technology</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Your schedule, your pace</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Expert mentor assigned</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Real-world projects</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Career guidance</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Interview preparation</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Job placement help</li>
+                        </ul>
+                        <a href="/contact" class="choose-plan-btn">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Which One is Right for You Section -->
+        <section class="comparison-section">
+            <div class="comparison-inner">
+                <div class="section-header">
+                    <h2>Which One is Right for You?</h2>
+                    <p>Not sure which plan fits best? Here's a simple guide to help you decide.</p>
+                </div>
+                
+                <div class="comparison-grid">
+                    <!-- Group Classes Card -->
+                    <div class="comparison-card group-card">
+                        <div class="comparison-card-header">
+                            <div class="comparison-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                            </div>
+                            <div>
+                                <h3>Choose Group Classes</h3>
+                                <span>₹1499/month</span>
+                            </div>
+                        </div>
+                        <p class="comparison-subtitle">Group classes work great when you enjoy learning with others and can keep up with a steady pace.</p>
+                        <ul class="comparison-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You enjoy learning with peers and healthy competition</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You're comfortable asking questions in a group</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You can follow a fixed class schedule</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You learn well at a moderate pace</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You want collaborative project experience</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>Budget-friendly option works for you</li>
+                        </ul>
                     </div>
                     
-                    <div class="pricing-grid">
-                        <!-- Custom Group Plan Card -->
-                        <div class="pricing-card">
-                            <h3 class="plan-title">Custom Group Training</h3>
-                            <div class="plan-price">
-                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
+                    <!-- Personalized Classes Card -->
+                    <div class="comparison-card personal-card">
+                        <div class="comparison-card-header">
+                            <div class="comparison-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
                             </div>
-                            <ul class="plan-features">
-                                <li>Choose Your Programming Language</li>
-                                <li>Define Your Learning Goals</li>
-                                <li>Flexible Class Schedule</li>
-                                <li>Customized Curriculum</li>
-                                <li>Group Size: 3-8 Students</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Project-Based Learning</li>
-                                <li>Industry-Relevant Skills</li>
-                                <li>Recorded Sessions</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Contact Us</a>
+                            <div>
+                                <h3>Choose Personalized 1-on-1</h3>
+                                <span>₹2499/month</span>
+                            </div>
                         </div>
-                        
-                        <!-- Custom Personalized Plan Card -->
-                        <div class="pricing-card featured">
-                            <div class="popular-badge">FULLY CUSTOMIZED</div>
-                            <h3 class="plan-title">Custom 1-on-1 Training</h3>
-                            <div class="plan-price">
-                                <span style="font-size: 1.5rem; color: #a855f7;">Custom Pricing</span>
-                            </div>
-                            <ul class="plan-features">
-                                <li><strong>100% Personalized Curriculum</strong></li>
-                                <li>Learn Any Language/Technology</li>
-                                <li>Your Schedule, Your Pace</li>
-                                <li>Dedicated Expert Mentor</li>
-                                <li>Real-World Project Training</li>
-                                <li>Course Completion Certificate</li>
-                                <li>Lifetime Recording Access</li>
-                                <li>Career Guidance & Mentorship</li>
-                                <li>Portfolio Development</li>
-                                <li>Interview Preparation</li>
-                                <li>Job Placement Assistance</li>
-                            </ul>
-                            <a href="/contact" class="plan-button">Contact Us</a>
+                        <p class="comparison-subtitle">Personalized classes are ideal when you need individual attention or have specific learning needs.</p>
+                        <ul class="comparison-list">
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You feel shy or hesitant asking questions in groups</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You need more time to understand concepts</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You have a busy schedule and need flexibility</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You want curriculum tailored to your goals</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You prefer undivided teacher attention</li>
+                            <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>You're a slow learner who needs extra patience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What's Included Section -->
+        <section class="included-section">
+            <div class="section-header">
+                <h2>What's Included in Every Plan</h2>
+                <p>No matter which plan you choose, you get these essentials.</p>
+            </div>
+            
+            <div class="included-grid">
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 6 4 14"/><path d="M12 6v14"/><path d="M8 8v12"/><path d="M4 4v16"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Progress Tracking</h4>
+                        <p>Regular updates on what you've learned</p>
+                    </div>
+                </div>
+                
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Recorded Sessions</h4>
+                        <p>Rewatch classes anytime you need</p>
+                    </div>
+                </div>
+                
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Doubt Support</h4>
+                        <p>Get help when you're stuck</p>
+                    </div>
+                </div>
+                
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Certificate</h4>
+                        <p>Proof of your achievement</p>
+                    </div>
+                </div>
+                
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Real Projects</h4>
+                        <p>Build things you can show off</p>
+                    </div>
+                </div>
+                
+                <div class="included-item">
+                    <div class="included-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><line x1="19" x2="19" y1="8" y2="14"/><line x1="22" x2="16" y1="11" y2="11"/></svg>
+                    </div>
+                    <div class="included-text">
+                        <h4>Parent Updates</h4>
+                        <p>Regular reports for parents</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="faq-inner">
+                <div class="section-header">
+                    <h2>Common Questions</h2>
+                    <p>Quick answers to things parents and students often ask.</p>
+                </div>
+                
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I switch from group to personalized later?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, absolutely. You can upgrade to personalized classes anytime. Just let us know, and we'll adjust your plan from the next billing cycle.</p>
                         </div>
                     </div>
                     
-                    <div style="text-align: center; margin-top: 2.5rem; padding: 2rem; background: rgba(168, 85, 247, 0.1); border-radius: 1rem; border: 1px solid rgba(168, 85, 247, 0.3);">
-                        <h3 style="color: #a855f7; font-size: 1.5rem; margin-bottom: 1rem;">How Custom Training Works</h3>
-                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; text-align: left;">
-                            <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">1. Tell Us Your Goals</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Share what you want to learn and achieve</p>
-                            </div>
-                            <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">2. We Design Your Plan</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Our team creates a customized curriculum</p>
-                            </div>
-                            <div>
-                                <h4 style="color: #fff; margin-bottom: 0.5rem;">3. Start Learning</h4>
-                                <p style="color: #CBD5E1; margin: 0;">Begin your personalized learning journey</p>
-                            </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What if I miss a class?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>All sessions are recorded. If you miss a class, you can watch the recording. For personalized classes, we can also reschedule if you inform us in advance.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is there a free trial?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We offer a free demo class so you can experience our teaching style before committing. Contact us to schedule one.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            How do I pay?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We accept UPI, bank transfers, and card payments. You can pay monthly or get a discount for quarterly/yearly payments.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What age groups do you teach?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We teach students from age 8 to 21+. We have different courses designed for kids (8-12), teens (13-17), and college students/adults (18+).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Can I pause my subscription?
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Yes, you can pause for exams or vacations. Just let us know at least a week in advance, and we'll hold your spot.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="pricing-disclaimer">*Starting prices listed. Other plans and prices may vary.</p>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="pricing-cta">
+            <h2>Still Have Questions?</h2>
+            <p>Not sure which plan is right for you? Let's talk. We'll help you figure out the best option based on your goals and learning style.</p>
+            <div class="cta-buttons">
+                <a href="/contact" class="cta-btn cta-btn-primary">Talk to Us</a>
+                <a href="/courses" class="cta-btn cta-btn-secondary">Browse Courses</a>
+            </div>
         </section>
     </main>
 
@@ -300,7 +1075,7 @@
         const ctx = canvas.getContext('2d');
         let particles = [];
         const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
-        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
         const allSymbols = [...mathSymbols, ...codeSymbols];
 
         function resizeCanvas() {
@@ -310,17 +1085,17 @@
 
         function createParticles() {
             particles = [];
-            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            const particleCount = Math.floor((canvas.width * canvas.height) / 8000);
             for (let i = 0; i < particleCount; i++) {
                 particles.push({
                     x: Math.random() * canvas.width,
                     y: Math.random() * canvas.height,
                     char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                    speed: 0.3 + Math.random() * 0.7,
-                    size: 12 + Math.random() * 10,
-                    opacity: 0.1 + Math.random() * 0.3,
+                    speed: 0.2 + Math.random() * 0.5,
+                    size: 10 + Math.random() * 8,
+                    opacity: 0.08 + Math.random() * 0.15,
                     rotation: Math.random() * Math.PI * 2,
-                    rotationSpeed: (Math.random() - 0.5) * 0.02,
+                    rotationSpeed: (Math.random() - 0.5) * 0.01,
                     isMath: Math.random() > 0.5
                 });
             }
@@ -328,119 +1103,104 @@
 
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
             particles.forEach(p => {
                 p.y -= p.speed;
                 p.rotation += p.rotationSpeed;
-                
                 if (p.y < -30) {
                     p.y = canvas.height + 30;
                     p.x = Math.random() * canvas.width;
-                    p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
                 }
-                
                 ctx.save();
                 ctx.translate(p.x, p.y);
                 ctx.rotate(p.rotation);
                 ctx.font = `${p.size}px monospace`;
-                
-                if (p.isMath) {
-                    ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
-                } else {
-                    ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
-                }
-                
+                ctx.fillStyle = p.isMath ? `rgba(255, 215, 0, ${p.opacity})` : `rgba(168, 85, 247, ${p.opacity})`;
                 ctx.fillText(p.char, 0, 0);
                 ctx.restore();
             });
-            
             requestAnimationFrame(animate);
         }
 
-        window.addEventListener('resize', () => {
-            resizeCanvas();
-            createParticles();
-        });
-
+        window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
         resizeCanvas();
         createParticles();
         animate();
 
-
-                function setupTabs(tabWrapperId) {
-            const tabWrapper = document.getElementById(tabWrapperId);
-            if (!tabWrapper) return;
-
-            const tabButtons = tabWrapper.querySelectorAll('.tab-button');
-            const tabGlider = tabWrapper.querySelector('.tab-glider');
-            const contentPanels = tabWrapper.querySelectorAll('.tab-content');
-
-            function moveGlider(targetButton) {
-                tabGlider.style.width = `${targetButton.offsetWidth}px`;
-                tabGlider.style.left = `${targetButton.offsetLeft}px`;
-            }
-
-            // Initialize glider position
-            const initialActiveButton = tabWrapper.querySelector('.tab-button.active');
-            if (initialActiveButton) {
-                moveGlider(initialActiveButton);
-            }
-
-            tabButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    // Deactivate all
-                    tabButtons.forEach(btn => btn.classList.remove('active'));
-                    contentPanels.forEach(panel => panel.classList.remove('active'));
-
-                    // Activate clicked
-                    button.classList.add('active');
-                    const targetPanelId = button.getAttribute('data-target');
-                    const targetPanel = tabWrapper.querySelector(targetPanelId);
-                    if (targetPanel) {
-                        targetPanel.classList.add('active');
-                    }
-
-                    // Move glider
-                    moveGlider(button);
-                });
+        // Tab Functionality
+        const tabBtns = document.querySelectorAll('.pricing-tab-btn');
+        const tabContents = document.querySelectorAll('.pricing-tab-content');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const target = btn.getAttribute('data-tab');
+                
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabContents.forEach(c => c.classList.remove('active'));
+                
+                btn.classList.add('active');
+                document.getElementById(`tab-${target}`).classList.add('active');
             });
+        });
 
-            // Recalculate glider on window resize
-            window.addEventListener('resize', () => {
-                const currentActiveButton = tabWrapper.querySelector('.tab-button.active');
-                if (currentActiveButton) {
-                    moveGlider(currentActiveButton);
-                }
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                const isOpen = item.classList.contains('open');
+                faqItems.forEach(i => i.classList.remove('open'));
+                if (!isOpen) item.classList.add('open');
             });
-        }
+        });
 
-        setupTabs('coding-tabs');
-        setupTabs('math-tabs');
-        setupTabs('pricing-tabs');
+        // GSAP Animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.from('.pricing-hero h1', { opacity: 0, y: 30, duration: 0.8, ease: 'power3.out' });
+        gsap.from('.pricing-hero p', { opacity: 0, duration: 0.8, delay: 0.2, ease: 'power3.out' });
+        gsap.from('.pricing-tab-nav', { opacity: 0, y: 20, duration: 0.6, delay: 0.4, ease: 'power3.out' });
+
+        gsap.utils.toArray('.pricing-card-new').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: { trigger: card, start: 'top 90%' },
+                opacity: 0, y: 40, duration: 0.7, delay: i * 0.15, ease: 'power2.out'
+            });
+        });
+
+        gsap.utils.toArray('.comparison-card').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: { trigger: card, start: 'top 90%' },
+                opacity: 0, y: 30, duration: 0.6, delay: i * 0.15, ease: 'power2.out'
+            });
+        });
+
+        gsap.utils.toArray('.included-item').forEach((item, i) => {
+            gsap.from(item, {
+                scrollTrigger: { trigger: item, start: 'top 90%' },
+                opacity: 0, x: -20, duration: 0.5, delay: i * 0.06, ease: 'power2.out'
+            });
+        });
+
+        gsap.utils.toArray('.faq-item').forEach((item, i) => {
+            gsap.from(item, {
+                scrollTrigger: { trigger: item, start: 'top 90%' },
+                opacity: 0, y: 20, duration: 0.5, delay: i * 0.08, ease: 'power2.out'
+            });
+        });
+
+        gsap.utils.toArray('.section-header').forEach(header => {
+            gsap.from(header, {
+                scrollTrigger: { trigger: header, start: 'top 90%' },
+                opacity: 0, y: 25, duration: 0.6, ease: 'power2.out'
+            });
+        });
     </script>
-
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- MUST LOAD FIRST before other scripts         -->
-    <!-- ============================================ -->
+    
     <script src="/js/components-loader.js"></script>
-    
-    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
     <script src="/js/unified-mobile-nav.js"></script>
-    
-    <!-- Load Keyboard Navigation JavaScript -->
     <script src="/js/keyboard-navigation.js"></script>
-    
-    <!-- Load Tab Accessibility JavaScript -->
     <script src="/js/tab-accessibility.js"></script>
 
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
     <div id="footer-placeholder"></div>
-
 </body>
 </html>

@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- SEO Meta Tags -->
-    <title>About Modern Age Coders | Expert Coding Education</title>
-    <meta name="description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning. Discover our story and mission today!">
-    <meta name="keywords" content="about modern age coders, coding education, programming school, STEM education, technology training, expert instructors, personalized learning">
+    <!-- SEO Meta Tags - Optimized for Search -->
+    <title>About Modern Age Coders | Coding & Math Education That Actually Works</title>
+    <meta name="description" content="Modern Age Coders teaches coding and mathematics to students aged 12-21 through hands-on projects. We also build custom software, AI solutions & automation for businesses. Real skills, real results.">
+    <meta name="keywords" content="coding classes for kids, math tutoring, programming courses, software development company, AI solutions, web development, app development, STEM education India, learn coding online">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/about">
+    <meta name="robots" content="index, follow">
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -23,43 +23,42 @@
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/about">
-    <meta property="og:title" content="About Us - Modern Age Coders | Expert Coding & Math Education">
-    <meta property="og:description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning. Discover our story and mission.">
+    <meta property="og:title" content="About Modern Age Coders | Where Coding Meets Creativity">
+    <meta property="og:description" content="We teach coding & math to students and build software for businesses. 500+ students trained, 50+ projects delivered. See what makes us different.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://learn.modernagecoders.com/about">
-    <meta name="twitter:title" content="About Us - Modern Age Coders | Expert Coding & Math Education">
-    <meta name="twitter:description" content="Innovative coding & math education for all ages. 10,000+ students, 50+ expert instructors, project-based learning.">
+    <meta name="twitter:title" content="About Modern Age Coders | Coding & Math Education">
+    <meta name="twitter:description" content="Real coding skills for students. Custom software for businesses. See our story.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
 
-    <!-- Structured Data (JSON-LD) -->
+    <!-- Structured Data (JSON-LD) - Enhanced for SEO -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "AboutPage",
         "name": "About Modern Age Coders",
-        "description": "Learn about our innovative education platform teaching coding and mathematics to students of all ages.",
+        "description": "Modern Age Coders is an education platform teaching coding and mathematics, plus a software development company building AI solutions and custom applications.",
         "url": "https://learn.modernagecoders.com/about",
         "mainEntity": {
             "@type": "EducationalOrganization",
             "name": "Modern Age Coders",
-            "description": "Innovative education platform teaching coding and mathematics to students of all ages",
+            "description": "Coding and mathematics education for students aged 12-21, plus custom software development for businesses",
             "url": "https://learn.modernagecoders.com",
             "foundingDate": "2020",
-            "numberOfEmployees": {
-                "@type": "QuantitativeValue",
-                "value": "50+"
-            },
-            "alumni": {
-                "@type": "QuantitativeValue",
-                "value": "10000+"
-            },
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "IN"
+            "areaServed": "India",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Our Services",
+                "itemListElement": [
+                    {"@type": "Course", "name": "Coding Courses for Kids & Teens"},
+                    {"@type": "Course", "name": "Mathematics Courses"},
+                    {"@type": "Service", "name": "Custom Software Development"},
+                    {"@type": "Service", "name": "AI & Automation Solutions"}
+                ]
             },
             "contactPoint": {
                 "@type": "ContactPoint",
@@ -71,225 +70,947 @@
     }
     </script>
 
-    <!-- Link to the single, updated stylesheet -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
-    <!-- CRITICAL: Load this last to override all mobile nav conflicts -->
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    
+    <style>
+        /* About Page Custom Styles */
+        .about-page {
+            --accent-purple: #a855f7;
+            --accent-teal: #4ecdc4;
+            --accent-gold: #ffd700;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --card-bg: rgba(30, 30, 50, 0.6);
+            --card-border: rgba(168, 85, 247, 0.2);
+        }
+
+        /* Hero Section */
+        .about-hero-new {
+            min-height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 4rem 2rem;
+            position: relative;
+        }
+        
+        .hero-inner {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            padding: 0.5rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: white;
+        }
+        
+        .about-hero-new h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #fff 0%, #e2e8f0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .about-hero-new h1 span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            line-height: 1.8;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        
+        /* Quick Facts Strip */
+        .quick-facts {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .fact-item {
+            text-align: center;
+        }
+        
+        .fact-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .fact-label {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-top: 0.25rem;
+        }
+
+        /* Two Things Section */
+        .two-things-section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .section-header p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .two-pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .pillar-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .pillar-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-teal));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .pillar-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .pillar-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
+        }
+        
+        .pillar-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        
+        .pillar-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .pillar-card p {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+        
+        .pillar-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .pillar-list li {
+            padding: 0.5rem 0;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .pillar-list li::before {
+            content: '✓';
+            color: var(--accent-teal);
+            font-weight: bold;
+        }
+
+        /* Why Different Section */
+        .why-different {
+            padding: 5rem 2rem;
+            background: rgba(168, 85, 247, 0.05);
+        }
+        
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .why-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .why-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent-teal);
+        }
+        
+        .why-icon {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto 1.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 14px;
+            transition: transform 0.3s ease;
+        }
+        
+        .why-card:hover .why-icon {
+            transform: scale(1.05);
+        }
+        
+        .why-icon svg {
+            width: 28px;
+            height: 28px;
+            stroke: white;
+            fill: none;
+            stroke-width: 1.5;
+        }
+        
+        .why-card h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.75rem;
+        }
+        
+        .why-card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* Popular Courses Section */
+        .popular-courses-section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .courses-showcase {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .course-showcase-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .course-showcase-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .course-img-wrapper {
+            height: 180px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .course-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+        
+        .course-showcase-card:hover .course-img-wrapper img {
+            transform: scale(1.05);
+        }
+        
+        .course-badge-new {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: var(--accent-purple);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .course-showcase-content {
+            padding: 1.5rem;
+        }
+        
+        .course-showcase-content h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .course-showcase-content p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+        
+        .course-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .course-age {
+            color: var(--accent-teal);
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        
+        .course-link {
+            color: var(--accent-purple);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: color 0.3s ease;
+        }
+        
+        .course-link:hover {
+            color: var(--accent-teal);
+        }
+
+        /* Story Section */
+        .story-section {
+            padding: 5rem 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .story-content {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 3rem;
+        }
+        
+        .story-content h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .story-text {
+            color: var(--text-secondary);
+            line-height: 1.9;
+            font-size: 1.05rem;
+        }
+        
+        .story-text p {
+            margin-bottom: 1.5rem;
+        }
+        
+        .story-highlight {
+            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
+            border-left: 4px solid var(--accent-purple);
+            padding: 1.5rem;
+            border-radius: 0 12px 12px 0;
+            margin: 2rem 0;
+        }
+        
+        .story-highlight p {
+            margin: 0;
+            font-style: italic;
+            color: var(--text-primary);
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: 5rem 2rem;
+            background: rgba(78, 205, 196, 0.05);
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 2rem auto 0;
+        }
+        
+        .testimonial-card-new {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2rem;
+            position: relative;
+        }
+        
+        .testimonial-quote {
+            font-size: 3rem;
+            color: var(--accent-purple);
+            opacity: 0.3;
+            position: absolute;
+            top: 1rem;
+            left: 1.5rem;
+        }
+        
+        .testimonial-text {
+            color: var(--text-secondary);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+            padding-top: 1rem;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .author-avatar-new {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            color: white;
+            font-size: 1.2rem;
+        }
+        
+        .author-details h4 {
+            color: var(--text-primary);
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+        
+        .author-details span {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 5rem 2rem;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .cta-content h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 1rem;
+        }
+        
+        .cta-content p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn {
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        
+        .cta-btn-primary {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            color: white;
+        }
+        
+        .cta-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+        }
+        
+        .cta-btn-secondary {
+            background: transparent;
+            border: 2px solid var(--accent-purple);
+            color: var(--accent-purple);
+        }
+        
+        .cta-btn-secondary:hover {
+            background: var(--accent-purple);
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .about-hero-new h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            
+            .quick-facts {
+                gap: 1.5rem;
+            }
+            
+            .fact-number {
+                font-size: 2rem;
+            }
+            
+            .two-pillars {
+                grid-template-columns: 1fr;
+            }
+            
+            .pillar-card {
+                padding: 2rem;
+            }
+            
+            .story-content {
+                padding: 2rem;
+            }
+            
+            .section-header h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
 </head>
-<!-- Added 'about-page' class for page-specific styling -->
+
 <body class="about-page">
     <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
     
     <canvas id="background-canvas"></canvas>
 
-        <!-- ============================================ -->
-    <!-- NAVIGATION COMPONENT                         -->
-    <!-- Loaded from: /components/nav.html            -->
-    <!-- ============================================ -->
+    <!-- Navigation -->
     <div id="nav-placeholder"></div>
 
-    <!-- The container div is replaced by main to keep the layout consistent with other pages -->
     <main id="main">
-        <div class="about-hero">
-            <div class="hero-content">
-                <h1>About Modern Age Coders</h1>
-                <p>Where creativity meets discipline, and learning becomes an adventure in code and mathematics</p>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <h2 class="section-title">Our Story</h2>
-            <div class="content-card">
-                <h3>Who We Are</h3>
-                <p>Modern Age Coders is an innovative education platform teaching coding and mathematics to students aged 12-21. We combine expert instruction with personalized attention, preparing students for real-world tech careers through practical, project-based learning.</p>
-            </div>
-
-            <div class="content-card">
-                <h3>Our Approach</h3>
-                <p>We focus on hands-on learning where students build real projects. From games to websites, every lesson involves creating something tangible. This practical approach helps students understand concepts deeply while building an impressive portfolio.</p>
-            </div>
-
-            <div class="content-card">
-                <h3>Our Students</h3>
-                <p>We teach students from ages 12-21 in small batches, ensuring individual attention. Whether they're complete beginners or looking to advance their skills, we provide the right curriculum and pace for each student's learning journey.</p>
-            </div>
-
-            <div class="content-card">
-                <h3>Beyond Classroom</h3>
-                <p>Learning extends beyond coding lessons. We organize hackathons, coding competitions, tech field trips, and social events. Students build confidence, teamwork skills, and friendships while creating a professional portfolio.</p>
-            </div>
-        </div>
-
-        <div class="stats-section">
-            <h2 class="section-title">Our Impact</h2>
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <span class="stat-number" data-target="500">0</span>
-                    <span class="stat-label">Students Taught</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" data-target="50">0</span>
-                    <span class="stat-label">Projects Built</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" data-target="95">0</span>
-                    <span class="stat-label">Success Rate %</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-number" data-target="20">0</span>
-                    <span class="stat-label">Events Organized</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="journey-section">
-            <h2 class="section-title">The Learning Journey</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h3>Discovery Phase</h3>
-                        <p>Students learn programming fundamentals through interactive exercises. We cover logic, algorithms, and their first language with immediate feedback and practical examples.</p>
+        <!-- Hero Section -->
+        <section class="about-hero-new">
+            <div class="hero-inner">
+                <span class="hero-badge">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+                    Since 2020
+                </span>
+                <h1>We Teach <span>Coding & Math</span>.<br>We Build <span>Software</span>.</h1>
+                <p class="hero-subtitle">
+                    Modern Age Coders is where students learn real coding skills through hands-on projects, 
+                    and businesses get custom software solutions. Simple as that.
+                </p>
+                
+                <div class="quick-facts">
+                    <div class="fact-item">
+                        <div class="fact-number" data-target="500">0</div>
+                        <div class="fact-label">Students Trained</div>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">2</div>
-                    <div class="timeline-content">
-                        <h3>Building Phase</h3>
-                        <p>Students start creating real projects. Simple calculators become games, static pages turn into interactive websites. Each project reinforces concepts while building practical skills.</p>
+                    <div class="fact-item">
+                        <div class="fact-number" data-target="50">0</div>
+                        <div class="fact-label">Projects Delivered</div>
                     </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">3</div>
-                    <div class="timeline-content">
-                        <h3>Mastery Phase</h3>
-                        <p>Advanced topics like data structures, frameworks, and competitive programming. Students develop their own projects and explore specializations that interest them most.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-marker">4</div>
-                    <div class="timeline-content">
-                        <h3>Launch Phase</h3>
-                        <p>Students graduate with a portfolio of projects, strong computer science fundamentals, and confidence to pursue tech careers or continue learning independently.</p>
+                    <div class="fact-item">
+                        <div class="fact-number" data-target="95">0</div>
+                        <div class="fact-label">% Success Rate</div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="curriculum-section">
-            <h2 class="section-title">What Students Learn</h2>
-            <div class="curriculum-grid">
-                <div class="curriculum-card">
-                    <h3>Programming Languages</h3>
-                    <ul class="curriculum-list">
-                        <li>Python for beginners and data science</li>
-                        <li>JavaScript for web development</li>
-                        <li>Java for object-oriented programming</li>
-                        <li>C++ for competitive programming</li>
-                        <li>HTML/CSS for frontend design</li>
+        <!-- What We Do Section -->
+        <section class="two-things-section">
+            <div class="section-header">
+                <h2>Two Things We Do Really Well</h2>
+                <p>We keep it focused. No fluff, no gimmicks — just quality work in two areas.</p>
+            </div>
+            
+            <div class="two-pillars">
+                <!-- Education Pillar -->
+                <div class="pillar-card">
+                    <div class="pillar-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Education for Students</h3>
+                    <p>
+                        We teach coding and mathematics to students aged 12-21. Not through boring lectures, 
+                        but by building real things — games, websites, apps. Students learn by doing.
+                    </p>
+                    <ul class="pillar-list">
+                        <li>Python, JavaScript, Java, C++ courses</li>
+                        <li>Mathematics from basics to advanced</li>
+                        <li>Small batches (max 5-6 students)</li>
+                        <li>Project-based learning approach</li>
+                        <li>Weekend & weekday batches available</li>
                     </ul>
                 </div>
-
-                <div class="curriculum-card">
-                    <h3>Mathematics</h3>
-                    <ul class="curriculum-list">
-                        <li>Algebra and Number Theory</li>
-                        <li>Geometry and Trigonometry</li>
-                        <li>Calculus and Differential Equations</li>
-                        <li>Discrete Mathematics</li>
-                        <li>Statistics and Probability</li>
-                    </ul>
-                </div>
-
-                <div class="curriculum-card">
-                    <h3>Computer Science</h3>
-                    <ul class="curriculum-list">
-                        <li>Data Structures and Algorithms</li>
-                        <li>Object-Oriented Programming</li>
-                        <li>Database Design and SQL</li>
-                        <li>Web Development Frameworks</li>
-                        <li>Version Control with Git</li>
-                    </ul>
-                </div>
-
-                <div class="curriculum-card">
-                    <h3>Practical Skills</h3>
-                    <ul class="curriculum-list">
-                        <li>Building games, websites, and apps</li>
-                        <li>Problem-solving and logical thinking</li>
-                        <li>Team collaboration and communication</li>
-                        <li>Debugging and code optimization</li>
-                        <li>Portfolio development and presentation</li>
+                
+                <!-- Software Pillar -->
+                <div class="pillar-card">
+                    <div class="pillar-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h3>Software for Businesses</h3>
+                    <p>
+                        We build custom software, websites, mobile apps, and AI solutions for companies. 
+                        From startups to established businesses — we turn ideas into working products.
+                    </p>
+                    <ul class="pillar-list">
+                        <li>Custom web & mobile applications</li>
+                        <li>AI agents & automation tools</li>
+                        <li>E-commerce & business platforms</li>
+                        <li>API development & integrations</li>
+                        <li>Ongoing support & maintenance</li>
                     </ul>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="testimonial-section">
-            <h2 class="section-title">What People Say</h2>
-            <div class="testimonial-grid">
-                <div class="testimonial-card">
-                    <p class="testimonial-text">My daughter built her own game in 3 months. The teachers are patient, the curriculum is practical, and she looks forward to every class.</p>
+        <!-- Why We're Different Section -->
+        <section class="why-different">
+            <div class="section-header">
+                <h2>Why Parents & Students Choose Us</h2>
+                <p>Here's what makes learning with us actually work.</p>
+            </div>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+                    </div>
+                    <h3>Learn by Building</h3>
+                    <p>No death-by-PowerPoint. Students build real games, websites, and apps from week one. Theory comes naturally when you're creating something cool.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                    <h3>Small Batches Only</h3>
+                    <p>Maximum 5-6 students per batch. Every student gets personal attention. No one gets left behind or bored.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a8 8 0 0 0-8 8c0 5.4 7.05 11.5 7.35 11.76a1 1 0 0 0 1.3 0C13 21.5 20 15.4 20 10a8 8 0 0 0-8-8z"/><path d="M12 6v4"/><path d="M12 14h.01"/></svg>
+                    </div>
+                    <h3>Math + Code Together</h3>
+                    <p>We believe coding and math strengthen each other. Logic from math makes better coders. Coding makes math practical and fun.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+                    </div>
+                    <h3>Real Portfolio</h3>
+                    <p>Students graduate with actual projects they can show — not just certificates. Something to be proud of and share.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                    <h3>Flexible Timing</h3>
+                    <p>Weekend batches, evening slots, and schedules that work around school. Learning shouldn't stress families out.</p>
+                </div>
+                
+                <div class="why-card">
+                    <div class="why-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Parent Updates</h3>
+                    <p>Regular progress reports and open communication. Parents always know what their child is learning and achieving.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Courses Section -->
+        <section class="popular-courses-section">
+            <div class="section-header">
+                <h2>Popular Courses</h2>
+                <p>Our most loved programs that students keep coming back for.</p>
+            </div>
+            
+            <div class="courses-showcase">
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/kids-coding.png" alt="Kids Coding Course - Block-based programming for children" loading="lazy">
+                        <span class="course-badge-new">Popular</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>Kids Coding (Block-Based)</h3>
+                        <p>Perfect first step into coding. Kids create games and animations using visual blocks before moving to text-based coding.</p>
+                        <div class="course-meta">
+                            <span class="course-age">Ages 8-12</span>
+                            <a href="/courses/kids-coding-blocks-masterclass" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/python-kids.png" alt="Python Programming Course for Teens" loading="lazy">
+                        <span class="course-badge-new">Trending</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>Python Programming</h3>
+                        <p>The world's most popular programming language. Build games, automate tasks, and start your AI journey.</p>
+                        <div class="course-meta">
+                            <span class="course-age">Ages 12-18</span>
+                            <a href="/courses/python-ai-kids-masterclass" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/full-stack-development-college.jpg" alt="Full Stack Web Development Course" loading="lazy">
+                        <span class="course-badge-new">Career Ready</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>Full Stack Web Development</h3>
+                        <p>Build complete websites and web apps from scratch. Frontend, backend, databases — the whole package.</p>
+                        <div class="course-meta">
+                            <span class="course-age">Ages 16+</span>
+                            <a href="/courses/coding/college" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/dsa-college.jpg" alt="Data Structures and Algorithms Course" loading="lazy">
+                        <span class="course-badge-new">Interview Prep</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>DSA & Competitive Programming</h3>
+                        <p>Master data structures and algorithms. Crack coding interviews and compete in programming contests.</p>
+                        <div class="course-meta">
+                            <span class="course-age">Ages 15+</span>
+                            <a href="/courses/data-structures-algorithms-masterclass-college" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/ai-ml-teens.png" alt="AI and Machine Learning Course" loading="lazy">
+                        <span class="course-badge-new">Future Tech</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>AI & Machine Learning</h3>
+                        <p>Understand how AI works. Build chatbots, image recognition systems, and smart applications.</p>
+                        <div class="course-meta">
+                            <span class="course-age">Ages 14+</span>
+                            <a href="/courses/ai-ml-masterclass-teens" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="course-showcase-card">
+                    <div class="course-img-wrapper">
+                        <img src="/images/college-level-maths.png" alt="Mathematics Course for Students" loading="lazy">
+                        <span class="course-badge-new">Foundation</span>
+                    </div>
+                    <div class="course-showcase-content">
+                        <h3>Mathematics Mastery</h3>
+                        <p>From school math to competitive exams. Clear concepts, lots of practice, and real problem-solving skills.</p>
+                        <div class="course-meta">
+                            <span class="course-age">All Ages</span>
+                            <a href="/courses/maths" class="course-link">Learn More →</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Our Story Section -->
+        <section class="story-section">
+            <div class="story-content">
+                <h2>Our Story</h2>
+                <div class="story-text">
+                    <p>
+                        Modern Age Coders started in 2020 with a simple observation: most coding classes were either 
+                        too theoretical or too expensive. Students would sit through hours of lectures, memorize syntax, 
+                        and still not know how to build anything useful.
+                    </p>
+                    <p>
+                        We decided to flip that. What if students started building from day one? What if a 12-year-old 
+                        could create their own game in the first month? What if learning to code felt less like homework 
+                        and more like playing?
+                    </p>
+                    
+                    <div class="story-highlight">
+                        <p>
+                            "We don't just teach coding. We help students think like problem-solvers, 
+                            build things they're proud of, and gain confidence that lasts beyond the classroom."
+                        </p>
+                    </div>
+                    
+                    <p>
+                        Today, we've trained over 500 students across India. Some have gone on to win coding competitions. 
+                        Others have built apps that their friends actually use. Many have improved their school grades 
+                        because coding taught them how to think logically.
+                    </p>
+                    <p>
+                        On the business side, we've helped startups and companies build their digital products — 
+                        from simple websites to complex AI-powered applications. We bring the same hands-on, 
+                        practical approach to every project.
+                    </p>
+                    <p>
+                        Whether you're a parent looking for quality coding education for your child, a student 
+                        wanting to level up your skills, or a business needing software solutions — we're here to help.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-section">
+            <div class="section-header">
+                <h2>What Parents & Students Say</h2>
+                <p>Real feedback from real families.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card-new">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        My son was never interested in computers. After 3 months here, he built his own game 
+                        and now wants to learn more. The teachers are patient and actually care about each student.
+                    </p>
                     <div class="testimonial-author">
-                        <div class="author-avatar">P</div>
-                        <div class="author-info">
-                            <h3>Priya Sharma</h3>
-                            <p>Parent of 14-year-old</p>
+                        <div class="author-avatar-new">P</div>
+                        <div class="author-details">
+                            <h4>Priya Sharma</h4>
+                            <span>Parent of 13-year-old</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <p class="testimonial-text">Project-based learning made everything click. I'm now confident in hackathons and got an internship thanks to my portfolio.</p>
+                
+                <div class="testimonial-card-new">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        I tried learning coding from YouTube but kept getting stuck. Here, I actually understand 
+                        what I'm doing. Built my portfolio website and got an internship because of it.
+                    </p>
                     <div class="testimonial-author">
-                        <div class="author-avatar">R</div>
-                        <div class="author-info">
-                            <h3>Rahul Mehta</h3>
-                            <p>College Student, Age 20</p>
+                        <div class="author-avatar-new">R</div>
+                        <div class="author-details">
+                            <h4>Rahul Mehta</h4>
+                            <span>College Student, Age 20</span>
                         </div>
                     </div>
                 </div>
-
-                <div class="testimonial-card">
-                    <p class="testimonial-text">I appreciate the transparent progress tracking. My son improved in both coding and his school math grades.</p>
+                
+                <div class="testimonial-card-new">
+                    <span class="testimonial-quote">"</span>
+                    <p class="testimonial-text">
+                        What I appreciate most is the transparency. I get regular updates on my daughter's progress, 
+                        and I can see her confidence growing. Her math grades improved too!
+                    </p>
                     <div class="testimonial-author">
-                        <div class="author-avatar">A</div>
-                        <div class="author-info">
-                            <h3>Amit Patel</h3>
-                            <p>Parent of 16-year-old</p>
+                        <div class="author-avatar-new">A</div>
+                        <div class="author-details">
+                            <h4>Amit Patel</h4>
+                            <span>Parent of 15-year-old</span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="values-section">
-            <h2 class="section-title">What Drives Us</h2>
-            <div class="values-grid">
-                <div class="value-card">
-                    <h3>Creative Learning</h3>
-                    <p>We encourage creative thinking and innovative problem-solving. Students learn to approach challenges with imagination and develop unique solutions.</p>
-                </div>
-                <div class="value-card">
-                    <h3>Project-Based Education</h3>
-                    <p>Every concept is taught through real-world applications. Students build tangible projects they can showcase and be proud of.</p>
-                </div>
-                <div class="value-card">
-                    <h3>Community First</h3>
-                    <p>Through group activities and collaborative learning, we build a supportive community where students grow together and learn teamwork.</p>
-                </div>
-                <div class="value-card">
-                    <h3>Future Ready</h3>
-                    <p>We equip students with strong logic and problem-solving skills that prepare them for college, careers, and the evolving tech landscape.</p>
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>
+                    Whether you want to learn coding, improve your math, or need software built — 
+                    let's talk. No pressure, just a conversation about what you need.
+                </p>
+                <div class="cta-buttons">
+                    <a href="/courses" class="cta-btn cta-btn-primary">Explore Courses</a>
+                    <a href="/contact" class="cta-btn cta-btn-secondary">Contact Us</a>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <script>
@@ -298,7 +1019,7 @@
         const ctx = canvas.getContext('2d');
         let particles = [];
         const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
-        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
         const allSymbols = [...mathSymbols, ...codeSymbols];
 
         function resizeCanvas() {
@@ -308,17 +1029,17 @@
 
         function createParticles() {
             particles = [];
-            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            const particleCount = Math.floor((canvas.width * canvas.height) / 8000);
             for (let i = 0; i < particleCount; i++) {
                 particles.push({
                     x: Math.random() * canvas.width,
                     y: Math.random() * canvas.height,
                     char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                    speed: 0.3 + Math.random() * 0.7,
-                    size: 12 + Math.random() * 10,
-                    opacity: 0.1 + Math.random() * 0.3,
+                    speed: 0.2 + Math.random() * 0.5,
+                    size: 10 + Math.random() * 8,
+                    opacity: 0.08 + Math.random() * 0.15,
                     rotation: Math.random() * Math.PI * 2,
-                    rotationSpeed: (Math.random() - 0.5) * 0.02,
+                    rotationSpeed: (Math.random() - 0.5) * 0.01,
                     isMath: Math.random() > 0.5
                 });
             }
@@ -334,20 +1055,15 @@
                 if (p.y < -30) {
                     p.y = canvas.height + 30;
                     p.x = Math.random() * canvas.width;
-                    p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
                 }
                 
                 ctx.save();
                 ctx.translate(p.x, p.y);
                 ctx.rotate(p.rotation);
                 ctx.font = `${p.size}px monospace`;
-                
-                if (p.isMath) {
-                    ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
-                } else {
-                    ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
-                }
-                
+                ctx.fillStyle = p.isMath 
+                    ? `rgba(255, 215, 0, ${p.opacity})` 
+                    : `rgba(168, 85, 247, ${p.opacity})`;
                 ctx.fillText(p.char, 0, 0);
                 ctx.restore();
             });
@@ -364,174 +1080,91 @@
         createParticles();
         animate();
 
-        // GSAP Animations with faster scroll triggers
+        // GSAP Animations
         gsap.registerPlugin(ScrollTrigger);
 
         // Hero animations
-        gsap.from('.hero-content h1', {
-            opacity: 0,
-            y: 30,
-            duration: 0.8,
-            ease: 'power3.out'
-        });
+        gsap.from('.hero-badge', { opacity: 0, y: 20, duration: 0.6, ease: 'power3.out' });
+        gsap.from('.about-hero-new h1', { opacity: 0, y: 30, duration: 0.8, delay: 0.2, ease: 'power3.out' });
+        gsap.from('.hero-subtitle', { opacity: 0, duration: 0.8, delay: 0.4, ease: 'power3.out' });
+        gsap.from('.quick-facts', { opacity: 0, y: 20, duration: 0.6, delay: 0.6, ease: 'power3.out' });
 
-        gsap.from('.hero-content p', {
-            opacity: 0,
-            duration: 0.8,
-            delay: 0.2,
-            ease: 'power3.out'
-        });
-
-        // Content cards
-        gsap.utils.toArray('.content-card').forEach((card, i) => {
-            gsap.from(card, {
-                scrollTrigger: {
-                    trigger: card,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
+        // Counter animation for stats
+        document.querySelectorAll('.fact-number').forEach(num => {
+            const target = parseInt(num.getAttribute('data-target'));
+            gsap.to(num, {
+                scrollTrigger: { trigger: num, start: 'top 90%' },
+                duration: 2,
+                ease: 'power2.out',
+                onUpdate: function() {
+                    num.textContent = Math.floor(this.progress() * target);
                 },
-                opacity: 0,
-                y: 30,
-                duration: 0.6,
-                delay: i * 0.08,
-                ease: 'power2.out'
-            });
-        });
-
-        // Stats counter animation
-        gsap.utils.toArray('.stat-item').forEach((stat, i) => {
-            const number = stat.querySelector('.stat-number');
-            const target = parseInt(number.getAttribute('data-target'));
-            
-            gsap.from(stat, {
-                scrollTrigger: {
-                    trigger: stat,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 20,
-                duration: 0.5,
-                delay: i * 0.08,
-                ease: 'back.out',
-                onStart: () => {
-                    let current = 0;
-                    const increment = target / 50;
-                    const timer = setInterval(() => {
-                        current += increment;
-                        if (current >= target) {
-                            number.textContent = target;
-                            clearInterval(timer);
-                        } else {
-                            number.textContent = Math.floor(current);
-                        }
-                    }, 20);
+                onComplete: function() {
+                    num.textContent = target;
                 }
             });
         });
 
-        // Section titles
-        gsap.utils.toArray('.section-title').forEach(title => {
-            gsap.from(title, {
-                scrollTrigger: {
-                    trigger: title,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 20,
-                duration: 0.7,
-                ease: 'power2.out'
-            });
-        });
-
-        // Timeline items
-        gsap.utils.toArray('.timeline-item').forEach((item, i) => {
-            gsap.from(item, {
-                scrollTrigger: {
-                    trigger: item,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 30,
-                duration: 0.6,
-                delay: i * 0.1,
-                ease: 'power2.out'
-            });
-        });
-
-        // Curriculum cards
-        gsap.utils.toArray('.curriculum-card').forEach((card, i) => {
+        // Pillar cards
+        gsap.utils.toArray('.pillar-card').forEach((card, i) => {
             gsap.from(card, {
-                scrollTrigger: {
-                    trigger: card,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 30,
-                duration: 0.6,
-                delay: i * 0.08,
-                ease: 'power2.out'
+                scrollTrigger: { trigger: card, start: 'top 85%' },
+                opacity: 0, y: 40, duration: 0.7, delay: i * 0.15, ease: 'power2.out'
             });
         });
 
-        // Testimonial cards
-        gsap.utils.toArray('.testimonial-card').forEach((card, i) => {
+        // Why cards
+        gsap.utils.toArray('.why-card').forEach((card, i) => {
             gsap.from(card, {
-                scrollTrigger: {
-                    trigger: card,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 30,
-                duration: 0.6,
-                delay: i * 0.1,
-                ease: 'power2.out'
+                scrollTrigger: { trigger: card, start: 'top 90%' },
+                opacity: 0, y: 30, duration: 0.5, delay: i * 0.08, ease: 'power2.out'
             });
         });
 
-        // Value cards
-        gsap.utils.toArray('.value-card').forEach((card, i) => {
+        // Course cards
+        gsap.utils.toArray('.course-showcase-card').forEach((card, i) => {
             gsap.from(card, {
-                scrollTrigger: {
-                    trigger: card,
-                    start: 'top 90%',
-                    toggleActions: 'play none none none'
-                },
-                opacity: 0,
-                y: 30,
-                duration: 0.6,
-                delay: i * 0.1,
-                ease: 'power2.out'
+                scrollTrigger: { trigger: card, start: 'top 90%' },
+                opacity: 0, y: 30, duration: 0.6, delay: i * 0.1, ease: 'power2.out'
+            });
+        });
+
+        // Story section
+        gsap.from('.story-content', {
+            scrollTrigger: { trigger: '.story-content', start: 'top 85%' },
+            opacity: 0, y: 40, duration: 0.8, ease: 'power2.out'
+        });
+
+        // Testimonials
+        gsap.utils.toArray('.testimonial-card-new').forEach((card, i) => {
+            gsap.from(card, {
+                scrollTrigger: { trigger: card, start: 'top 90%' },
+                opacity: 0, y: 30, duration: 0.6, delay: i * 0.12, ease: 'power2.out'
+            });
+        });
+
+        // CTA section
+        gsap.from('.cta-content', {
+            scrollTrigger: { trigger: '.cta-content', start: 'top 85%' },
+            opacity: 0, y: 30, duration: 0.7, ease: 'power2.out'
+        });
+
+        // Section headers
+        gsap.utils.toArray('.section-header').forEach(header => {
+            gsap.from(header, {
+                scrollTrigger: { trigger: header, start: 'top 90%' },
+                opacity: 0, y: 25, duration: 0.6, ease: 'power2.out'
             });
         });
     </script>
     
-    <!-- ============================================ -->
-    <!-- COMPONENT LOADER SCRIPT                      -->
-    <!-- Loads navigation and footer components       -->
-    <!-- MUST LOAD FIRST before other scripts         -->
-    <!-- ============================================ -->
+    <!-- Component Loaders -->
     <script src="/js/components-loader.js"></script>
-    
-    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
     <script src="/js/unified-mobile-nav.js"></script>
-    
-    <!-- Load Keyboard Navigation JavaScript -->
     <script src="/js/keyboard-navigation.js"></script>
-    
-    <!-- Load Tab Accessibility JavaScript -->
     <script src="/js/tab-accessibility.js"></script>
 
-
-    <!-- ============================================ -->
-    <!-- FOOTER COMPONENT                             -->
-    <!-- Loaded from: /components/footer.html         -->
-    <!-- ============================================ -->
+    <!-- Footer -->
     <div id="footer-placeholder"></div>
-
 </body>
 </html>
