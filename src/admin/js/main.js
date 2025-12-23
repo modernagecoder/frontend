@@ -159,6 +159,9 @@ async function loadPage(page) {
       case 'business-solutions':
         await loadBusinessSolutions();
         break;
+      case 'callback-requests':
+        await loadCallbackRequests();
+        break;
       case 'analytics':
         await loadAnalytics();
         break;
@@ -312,3 +315,12 @@ window.loadPage = loadPage;
 window.showToast = showToast;
 window.showModal = showModal;
 window.closeModal = closeModal;
+
+/**
+ * Load callback requests page
+ */
+async function loadCallbackRequests() {
+  const mainContent = document.getElementById('mainContent');
+  mainContent.innerHTML = CallbackRequestsComponent.render();
+  CallbackRequestsComponent.init();
+}

@@ -1,0 +1,266 @@
+/* ============================================
+   CALLBACK REQUEST BUTTON & MODAL STYLES
+   Sweet minimalist design for quick callback requests
+   ============================================ */
+
+/* Callback Button in Navigation */
+.callback-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}
+
+.callback-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}
+
+.callback-btn:active {
+    transform: translateY(0);
+}
+
+.callback-btn svg {
+    flex-shrink: 0;
+}
+
+/* Modal Overlay */
+.callback-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.callback-modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal Container */
+.callback-modal {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.3s ease;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+}
+
+.callback-modal-overlay.active .callback-modal {
+    transform: scale(1) translateY(0);
+}
+
+/* Close Button */
+.callback-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: #f3f4f6;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #6b7280;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.callback-modal-close:hover {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+/* Modal Icon */
+.callback-modal-icon {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+}
+
+.callback-modal-icon svg {
+    stroke: #d97706;
+}
+
+/* Modal Title */
+.callback-modal-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0 0 8px;
+}
+
+.callback-modal-subtitle {
+    font-size: 15px;
+    color: #6b7280;
+    margin: 0 0 25px;
+}
+
+/* Form Styles */
+.callback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.callback-input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #f9fafb;
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.callback-input-wrapper:focus-within {
+    border-color: #f59e0b;
+    box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.1);
+}
+
+.callback-input-prefix {
+    padding: 14px 12px;
+    background: #f3f4f6;
+    color: #6b7280;
+    font-weight: 600;
+    font-size: 15px;
+    border-right: 2px solid #e5e7eb;
+}
+
+.callback-input-wrapper input {
+    flex: 1;
+    padding: 14px 15px;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #1f2937;
+    outline: none;
+}
+
+.callback-input-wrapper input::placeholder {
+    color: #9ca3af;
+}
+
+/* Submit Button */
+.callback-submit-btn {
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.callback-submit-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+}
+
+.callback-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Success State */
+.callback-success {
+    padding: 20px 0;
+}
+
+.callback-success svg {
+    margin-bottom: 15px;
+}
+
+.callback-success h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #10b981;
+    margin: 0 0 8px;
+}
+
+.callback-success p {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .callback-btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+    
+    .callback-btn span {
+        display: none;
+    }
+    
+    .callback-modal {
+        padding: 30px 25px;
+        margin: 15px;
+    }
+    
+    .callback-modal-title {
+        font-size: 20px;
+    }
+    
+    .callback-modal-icon {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .callback-modal-icon svg {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+/* Animation for phone icon pulse */
+@keyframes phonePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.callback-btn:hover svg {
+    animation: phonePulse 0.6s ease infinite;
+}
