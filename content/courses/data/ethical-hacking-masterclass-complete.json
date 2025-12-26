@@ -1,0 +1,1748 @@
+{
+  "meta": {
+    "slug": "ethical-hacking-masterclass-complete",
+    "title": "Complete Ethical Hacking & Cybersecurity Masterclass - Zero to Professional Pentester",
+    "description": "The most comprehensive ethical hacking program. From absolute basics to advanced penetration testing, web application security, network hacking, mobile security, and bug bounty hunting. Master networking, Linux, programming, OWASP Top 10, wireless hacking, social engineering, and become a certified ethical hacker.",
+    "keywords": [
+      "ethical hacking",
+      "penetration testing",
+      "cybersecurity",
+      "bug bounty",
+      "network security",
+      "web application security",
+      "OWASP",
+      "Kali Linux",
+      "Metasploit",
+      "Burp Suite",
+      "vulnerability assessment",
+      "white hat hacking",
+      "CEH",
+      "security testing",
+      "cyber defense"
+    ],
+    "category": "Cybersecurity & Ethical Hacking",
+    "price": {
+      "group": "₹999/month",
+      "personal": "₹2999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "6 months (26 weeks) - Can be taken as 1.5 hour daily sessions",
+    "level": "Complete Beginner to Professional Ethical Hacker",
+    "commitment": "1-1.5 hours per session, 10-15 hours/week recommended",
+    "certification": "Industry-recognized Ethical Hacker certification upon completion",
+    "image_path": "ethical-hacking-masterclass.png"
+  },
+  "program_overview": {
+    "title": "Complete Ethical Hacking & Cybersecurity Masterclass",
+    "tagline": "From Zero Knowledge to Professional Penetration Tester",
+    "description": "This is not just a hacking course—it's a complete transformation into a cybersecurity professional. Whether you're a complete beginner with no technical background, an IT professional wanting to transition into security, or a developer aiming to become a penetration tester, this comprehensive masterclass will turn you into a highly skilled ethical hacker capable of identifying, exploiting, and securing vulnerabilities in real-world systems.\n\nYou'll master ethical hacking from ground zero to expert level: from networking fundamentals and Linux basics to advanced exploitation techniques, from web application hacking to mobile security, from wireless attacks to social engineering. By the end, you'll have performed 100+ hands-on labs, compromised various systems ethically, written professional security reports, and be ready for cybersecurity roles at top organizations.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - no prior knowledge required",
+      "Legal and ethical hacking methodology throughout",
+      "Hands-on labs with real vulnerable applications",
+      "Latest tools and techniques used by professionals",
+      "Bug bounty hunting preparation included",
+      "Industry certifications preparation (CEH, OSCP prep)",
+      "Mobile and IoT security covered",
+      "Cloud security and DevSecOps practices",
+      "Real-world scenarios and CTF challenges",
+      "Build impressive security portfolio",
+      "Professional report writing skills"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Weeks 1-8): Networking, Linux, Programming Basics, Security Fundamentals",
+      "phase_2": "Core Hacking (Weeks 9-16): Network Penetration, Web Application Security, System Hacking",
+      "phase_3": "Advanced Security (Weeks 17-24): Wireless, Mobile, Cloud Security, Exploitation Development",
+      "phase_4": "Professional Skills (Weeks 25-26): Bug Bounty, Report Writing, Career Development"
+    },
+    "career_outcomes": [
+      "Junior Security Analyst (after 2 months)",
+      "Penetration Tester (after 4 months)",
+      "Security Consultant (after 5 months)",
+      "Senior Ethical Hacker / Bug Bounty Hunter (after 6 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Networking, Linux & Security Foundations (Weeks 1-8)",
+    "description": "Build rock-solid networking and Linux foundations essential for ethical hacking. Master TCP/IP, operating systems, programming basics, and security fundamentals.",
+    "month_1_2": {
+      "title": "Weeks 1-4: Networking & Linux Fundamentals",
+      "weeks": "Week 1-4",
+      "week_1_2": {
+        "title": "Introduction to Ethical Hacking & Networking Basics",
+        "topics": [
+          "What is ethical hacking and why it matters",
+          "Legal considerations and ethical guidelines",
+          "Hacking methodology: reconnaissance to reporting",
+          "Setting up hacking lab environment safely",
+          "VirtualBox/VMware installation and configuration",
+          "Kali Linux installation and initial setup",
+          "OSI model deep dive: all 7 layers",
+          "TCP/IP protocol suite fundamentals",
+          "IP addressing and subnetting mastery",
+          "IPv4 vs IPv6 differences and implications",
+          "MAC addresses and ARP protocol",
+          "Network devices: routers, switches, firewalls",
+          "DNS fundamentals and exploitation basics",
+          "HTTP/HTTPS protocol analysis",
+          "Common ports and services"
+        ],
+        "projects": [
+          "Complete hacking lab setup with multiple VMs",
+          "Network topology design and implementation",
+          "Subnet calculator tool development",
+          "Protocol analyzer using Wireshark"
+        ],
+        "practice": "Configure 10 different network scenarios, analyze 50 packet captures"
+      },
+      "week_3_4": {
+        "title": "Linux Mastery for Hackers",
+        "topics": [
+          "Linux file system hierarchy",
+          "Essential Linux commands for hackers",
+          "File permissions and ownership",
+          "User and group management",
+          "Process management and monitoring",
+          "Package management (apt, yum, dpkg)",
+          "Shell scripting fundamentals",
+          "Bash scripting for automation",
+          "Text manipulation: grep, sed, awk",
+          "Network commands: netstat, ss, lsof",
+          "Service management with systemctl",
+          "Log file analysis and monitoring",
+          "Cron jobs and task scheduling",
+          "SSH configuration and hardening",
+          "Linux security basics"
+        ],
+        "projects": [
+          "Automation scripts for reconnaissance",
+          "Custom security monitoring dashboard",
+          "Log analysis automation tool",
+          "Linux hardening checklist implementation"
+        ],
+        "practice": "Complete 100 Linux challenges, write 20 bash scripts"
+      },
+      "week_5_6": {
+        "title": "Programming for Hackers - Python & Web Basics",
+        "topics": [
+          "Python fundamentals for security",
+          "Socket programming in Python",
+          "Network programming with Scapy",
+          "Web scraping with BeautifulSoup",
+          "Requests library for HTTP interactions",
+          "Regular expressions for pattern matching",
+          "HTML, CSS, JavaScript basics",
+          "Understanding web application architecture",
+          "Client-server communication model",
+          "RESTful APIs and JSON",
+          "SQL fundamentals and injection basics",
+          "XML and XXE vulnerability basics",
+          "Encoding and encryption basics",
+          "Hashing algorithms and their weaknesses",
+          "Cryptography fundamentals"
+        ],
+        "projects": [
+          "Port scanner in Python",
+          "Password cracker for weak hashes",
+          "Web crawler for reconnaissance",
+          "Network packet sniffer",
+          "Simple vulnerability scanner"
+        ],
+        "practice": "Write 30 security tools in Python"
+      },
+      "week_7_8": {
+        "title": "Information Gathering & OSINT",
+        "topics": [
+          "Open Source Intelligence (OSINT) fundamentals",
+          "Google dorking and advanced search operators",
+          "Social media reconnaissance techniques",
+          "Email harvesting and verification",
+          "DNS enumeration and zone transfers",
+          "Subdomain discovery techniques",
+          "WHOIS and domain information gathering",
+          "Shodan for device discovery",
+          "Censys and other search engines",
+          "Metadata extraction from documents",
+          "Website technology identification",
+          "Company and employee reconnaissance",
+          "Physical location information gathering",
+          "Dark web basics for intelligence",
+          "OSINT frameworks and automation"
+        ],
+        "projects": [
+          "Complete OSINT profile builder",
+          "Automated reconnaissance framework",
+          "Company security assessment report",
+          "Social engineering information gatherer",
+          "Custom OSINT tool development"
+        ],
+        "practice": "Perform OSINT on 20 targets (legally and ethically)"
+      }
+    },
+    "month_3_4": {
+      "title": "Weeks 5-8: Scanning & Enumeration",
+      "weeks": "Week 5-8",
+      "week_9_10": {
+        "title": "Network Scanning & Enumeration",
+        "topics": [
+          "Network scanning methodology",
+          "Nmap fundamentals and advanced techniques",
+          "TCP connect and SYN stealth scanning",
+          "UDP scanning challenges and techniques",
+          "Service version detection",
+          "Operating system fingerprinting",
+          "Nmap Scripting Engine (NSE)",
+          "Vulnerability scanning with Nessus",
+          "OpenVAS configuration and usage",
+          "Banner grabbing techniques",
+          "SNMP enumeration",
+          "SMB/NetBIOS enumeration",
+          "LDAP enumeration",
+          "NFS enumeration",
+          "Database enumeration"
+        ],
+        "projects": [
+          "Network mapping automation tool",
+          "Vulnerability assessment report generator",
+          "Custom Nmap scripts development",
+          "Enumeration framework creation",
+          "Automated scanning pipeline"
+        ],
+        "practice": "Scan and enumerate 30 different networks/systems"
+      },
+      "week_11_12": {
+        "title": "Web Application Scanning",
+        "topics": [
+          "Web application architecture review",
+          "Burp Suite Professional setup",
+          "Proxy configuration and SSL handling",
+          "Spidering and crawling applications",
+          "Directory and file brute forcing",
+          "Parameter discovery and fuzzing",
+          "Technology stack identification",
+          "Web application firewalls (WAF) detection",
+          "API endpoint discovery",
+          "JavaScript analysis for endpoints",
+          "Source code review basics",
+          "Automated scanning with Burp Scanner",
+          "OWASP ZAP usage and automation",
+          "Nikto and dirb for web scanning",
+          "Custom wordlist creation"
+        ],
+        "projects": [
+          "Web application reconnaissance tool",
+          "API endpoint discovery framework",
+          "WAF detection and bypass tool",
+          "Custom web fuzzer development",
+          "Automated web scanning report"
+        ],
+        "practice": "Scan 25 web applications, find 100 endpoints"
+      },
+      "week_13": {
+        "title": "Vulnerability Assessment",
+        "topics": [
+          "Vulnerability assessment methodology",
+          "CVSS scoring understanding",
+          "CVE database navigation",
+          "Exploit database usage",
+          "Manual vulnerability verification",
+          "False positive identification",
+          "Risk assessment and prioritization",
+          "Vulnerability chaining concepts",
+          "Patch management basics",
+          "Compliance scanning (PCI DSS, HIPAA)",
+          "Creating vulnerability matrices",
+          "Remediation recommendations",
+          "Phase 1 comprehensive review"
+        ],
+        "projects": [
+          "PHASE 1 CAPSTONE: Complete Security Assessment",
+          "Target: Vulnerable VM (Metasploitable, DVWA)",
+          "Tasks: Full recon, scanning, enumeration, vulnerability assessment, professional report"
+        ],
+        "assessment": "Phase 1 Exam - Networking, Linux, Scanning, Enumeration"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Core Hacking & Exploitation (Weeks 9-16)",
+    "description": "Master system hacking, web application attacks, exploitation frameworks, and post-exploitation techniques.",
+    "month_7_8": {
+      "title": "Weeks 9-12: System Hacking & Exploitation",
+      "weeks": "Week 9-12",
+      "week_27_28": {
+        "title": "System Hacking & Password Attacks",
+        "topics": [
+          "Windows architecture and vulnerabilities",
+          "Linux privilege escalation techniques",
+          "Password attack methodology",
+          "Rainbow tables and time-memory trade-off",
+          "John the Ripper mastery",
+          "Hashcat for GPU cracking",
+          "Hydra for online attacks",
+          "Pass-the-hash attacks",
+          "Kerberoasting and ASREPRoasting",
+          "Credential dumping with Mimikatz",
+          "SAM and SYSTEM file extraction",
+          "Keyloggers and screenshot capture",
+          "Password policy bypassing",
+          "Multi-factor authentication bypasses",
+          "Physical access attacks"
+        ],
+        "projects": [
+          "Password cracking framework",
+          "Credential harvesting tool",
+          "Windows privilege escalation script",
+          "Linux privilege escalation checklist",
+          "Custom keylogger development"
+        ],
+        "practice": "Crack 50 passwords, escalate privileges on 20 systems"
+      },
+      "week_29_30": {
+        "title": "Metasploit Framework & Exploitation",
+        "topics": [
+          "Metasploit architecture and components",
+          "MSFconsole navigation and usage",
+          "Exploit selection and configuration",
+          "Payload types and encoding",
+          "Meterpreter advanced features",
+          "Post-exploitation with Metasploit",
+          "Persistence mechanisms",
+          "Pivoting through compromised hosts",
+          "Port forwarding and tunneling",
+          "Custom exploit development basics",
+          "Ruby for Metasploit modules",
+          "Evasion techniques and encoding",
+          "Anti-virus bypass methods",
+          "Exploit chaining strategies",
+          "Manual exploitation techniques"
+        ],
+        "projects": [
+          "Custom Metasploit module",
+          "Automated exploitation framework",
+          "Post-exploitation toolkit",
+          "Persistence mechanism generator",
+          "AV evasion payload creator",
+          "Exploit chain automation",
+          "Pivoting lab setup"
+        ],
+        "practice": "Exploit 30 vulnerable systems, develop 10 custom payloads"
+      },
+      "week_31_32": {
+        "title": "Web Application Hacking - OWASP Top 10",
+        "topics": [
+          "SQL Injection: union, blind, time-based",
+          "SQLMap advanced usage",
+          "Cross-Site Scripting (XSS): reflected, stored, DOM",
+          "XSS filter bypasses and polyglots",
+          "Cross-Site Request Forgery (CSRF)",
+          "XML External Entity (XXE) attacks",
+          "Server-Side Request Forgery (SSRF)",
+          "Insecure Deserialization exploitation",
+          "Command injection techniques",
+          "Directory traversal and LFI/RFI",
+          "File upload vulnerabilities",
+          "Authentication and session flaws",
+          "Broken access control exploitation",
+          "Security misconfiguration attacks",
+          "Using Burp Suite for exploitation"
+        ],
+        "projects": [
+          "SQL injection automation tool",
+          "XSS payload generator",
+          "Web shell development",
+          "Session hijacking tool",
+          "Automated OWASP scanner",
+          "Custom Burp extension",
+          "Web exploitation framework"
+        ],
+        "practice": "Exploit 50 web vulnerabilities across all OWASP Top 10"
+      },
+      "week_33_34": {
+        "title": "Advanced Web Attacks & API Security",
+        "topics": [
+          "Modern JavaScript framework vulnerabilities",
+          "React, Angular, Vue.js security issues",
+          "WebSocket vulnerabilities",
+          "GraphQL injection and attacks",
+          "REST API vulnerabilities",
+          "JWT token manipulation",
+          "OAuth and SAML attacks",
+          "Race conditions and TOCTOU",
+          "Cache poisoning attacks",
+          "HTTP request smuggling",
+          "Subdomain takeover techniques",
+          "CORS misconfiguration exploitation",
+          "Business logic vulnerabilities",
+          "Payment gateway bypasses",
+          "Two-factor authentication bypasses"
+        ],
+        "projects": [
+          "API security testing framework",
+          "JWT token manipulation tool",
+          "Race condition exploit tool",
+          "Business logic flaw detector",
+          "Modern web app scanner"
+        ],
+        "practice": "Test 20 APIs, find 30 logic flaws"
+      },
+      "week_35": {
+        "title": "Database Hacking & NoSQL Injection",
+        "topics": [
+          "Database architecture and weaknesses",
+          "Advanced SQL injection techniques",
+          "Oracle, MySQL, PostgreSQL specific attacks",
+          "MongoDB injection attacks",
+          "Redis exploitation techniques",
+          "Elasticsearch vulnerabilities",
+          "Database privilege escalation",
+          "Data exfiltration techniques",
+          "Blind injection automation",
+          "Time-based extraction optimization",
+          "NoSQL injection payloads",
+          "GraphQL database attacks",
+          "ORM injection vulnerabilities"
+        ],
+        "projects": [
+          "Database exploitation framework",
+          "NoSQL injection scanner",
+          "Blind injection optimizer",
+          "Data exfiltration tool",
+          "Database security assessment tool"
+        ],
+        "practice": "Exploit 25 database vulnerabilities"
+      }
+    },
+    "month_9_10": {
+      "title": "Weeks 13-16: Network Attacks & Post-Exploitation",
+      "weeks": "Week 13-16",
+      "week_36_37": {
+        "title": "Network Attacks & Man-in-the-Middle",
+        "topics": [
+          "ARP poisoning and spoofing",
+          "DNS spoofing and hijacking",
+          "DHCP starvation attacks",
+          "VLAN hopping techniques",
+          "STP manipulation",
+          "BGP hijacking basics",
+          "SSL/TLS vulnerabilities",
+          "SSL stripping attacks",
+          "Evil twin attacks",
+          "Rogue access points",
+          "SMB relay attacks",
+          "LLMNR/NBT-NS poisoning",
+          "Responder tool usage",
+          "IPv6 attack vectors",
+          "Network sniffing at scale"
+        ],
+        "projects": [
+          "MITM attack framework",
+          "Network poisoning toolkit",
+          "SSL stripping tool",
+          "Rogue DHCP server",
+          "Traffic manipulation proxy",
+          "Network attack automation"
+        ],
+        "practice": "Perform 30 network attacks in lab environment"
+      },
+      "week_38_39": {
+        "title": "Wireless Network Hacking",
+        "topics": [
+          "Wireless networking fundamentals",
+          "802.11 protocol weaknesses",
+          "Monitor mode and packet injection",
+          "WEP cracking techniques",
+          "WPA/WPA2 handshake capture",
+          "WPA2 cracking with hashcat",
+          "WPS attacks with Reaver/Bully",
+          "PMKID attack methodology",
+          "Evil twin and karma attacks",
+          "Captive portal bypassing",
+          "Bluetooth hacking basics",
+          "Software Defined Radio (SDR) basics",
+          "RFID and NFC hacking",
+          "Wireless IDS/IPS evasion",
+          "Creating custom rogue APs"
+        ],
+        "projects": [
+          "Automated WiFi cracking tool",
+          "Handshake capture framework",
+          "Rogue AP with captive portal",
+          "Bluetooth exploitation tool",
+          "Wireless security assessment kit"
+        ],
+        "practice": "Crack 20 wireless networks, create 10 rogue APs"
+      },
+      "week_40_41": {
+        "title": "Post-Exploitation & Lateral Movement",
+        "topics": [
+          "Post-exploitation methodology",
+          "Maintaining access techniques",
+          "Backdoor installation methods",
+          "Rootkit basics and detection",
+          "Living off the land (LOLBins)",
+          "PowerShell for post-exploitation",
+          "Windows privilege escalation",
+          "Linux privilege escalation",
+          "Lateral movement strategies",
+          "Pass-the-hash/ticket attacks",
+          "Kerberos attacks in depth",
+          "Active Directory exploitation",
+          "Domain dominance techniques",
+          "Data exfiltration methods",
+          "Covering tracks and log cleaning"
+        ],
+        "projects": [
+          "Post-exploitation framework",
+          "Persistence toolkit",
+          "Lateral movement automation",
+          "AD exploitation toolkit",
+          "Data exfiltration tool",
+          "Anti-forensics toolkit"
+        ],
+        "practice": "Complete 20 post-exploitation scenarios"
+      },
+      "week_42_43": {
+        "title": "Malware Analysis & Reverse Engineering Basics",
+        "topics": [
+          "Malware types and categories",
+          "Static malware analysis",
+          "Dynamic malware analysis",
+          "Sandboxing and VM detection",
+          "Basic assembly language",
+          "x86/x64 architecture basics",
+          "Debugging with OllyDbg/x64dbg",
+          "IDA Pro basics",
+          "Ghidra for reverse engineering",
+          "Packing and unpacking",
+          "Anti-analysis techniques",
+          "Behavioral analysis",
+          "Network traffic analysis",
+          "Memory forensics basics",
+          "Indicators of Compromise (IoCs)"
+        ],
+        "projects": [
+          "Malware analysis lab setup",
+          "Simple malware analyzer",
+          "Unpacker tool development",
+          "Behavioral analysis framework",
+          "IoC extraction tool"
+        ],
+        "practice": "Analyze 15 malware samples safely"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Complete penetration test planning",
+          "Scope definition and rules of engagement",
+          "Full attack chain execution",
+          "Exploitation and post-exploitation",
+          "Lateral movement demonstration",
+          "Data exfiltration simulation",
+          "Professional reporting"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Full Penetration Test",
+          "Target: Corporate network simulation (multiple systems)",
+          "Tasks: Complete penetration test from external to domain admin",
+          "Deliverables: Executive report, technical report, remediation guide"
+        ],
+        "assessment": "Phase 2 Final Exam - System and Web Application Hacking"
+      }
+    },
+    "month_11_12": {
+      "title": "Additional Phase 2 Content",
+      "weeks": "Week 9-16 (distributed)",
+      "week_45_46": {
+        "title": "Active Directory Attacks",
+        "topics": [
+          "Active Directory fundamentals",
+          "Domain enumeration with PowerView",
+          "BloodHound for AD mapping",
+          "Kerberoasting deep dive",
+          "ASREPRoasting techniques",
+          "Golden ticket attacks",
+          "Silver ticket attacks",
+          "DCSync attacks",
+          "Trust relationship abuse",
+          "Group Policy exploitation",
+          "LAPS bypass techniques",
+          "Constrained delegation abuse",
+          "Forest compromise strategies",
+          "Azure AD attacks",
+          "Hybrid environment exploitation"
+        ],
+        "projects": [
+          "AD enumeration toolkit",
+          "Kerberos attack framework",
+          "BloodHound custom queries",
+          "Domain persistence toolkit",
+          "Azure AD exploitation tool"
+        ],
+        "practice": "Compromise 10 Active Directory environments"
+      },
+      "week_47_48": {
+        "title": "Mobile Application Security",
+        "topics": [
+          "Android architecture and security",
+          "iOS security model",
+          "Mobile app reverse engineering",
+          "APK decompilation and analysis",
+          "Smali/baksmali usage",
+          "Frida for dynamic analysis",
+          "SSL pinning bypass",
+          "Root/jailbreak detection bypass",
+          "Mobile app traffic interception",
+          "Insecure data storage",
+          "Weak cryptography in mobile apps",
+          "Intent vulnerabilities",
+          "Deep link exploitation",
+          "Mobile malware basics",
+          "MDM bypass techniques"
+        ],
+        "projects": [
+          "Mobile app security scanner",
+          "APK analysis automation",
+          "Frida script collection",
+          "SSL pinning bypass tool",
+          "Mobile pentest framework"
+        ],
+        "practice": "Test 20 mobile applications"
+      },
+      "week_49_50": {
+        "title": "Cloud Security & Container Hacking",
+        "topics": [
+          "Cloud security fundamentals",
+          "AWS security and exploitation",
+          "S3 bucket misconfigurations",
+          "IAM privilege escalation",
+          "Lambda function attacks",
+          "Azure security issues",
+          "GCP vulnerabilities",
+          "Kubernetes security",
+          "Docker escape techniques",
+          "Container image vulnerabilities",
+          "Secrets management issues",
+          "Terraform security",
+          "CI/CD pipeline attacks",
+          "Serverless security",
+          "Cloud metadata exploitation"
+        ],
+        "projects": [
+          "Cloud security assessment tool",
+          "S3 bucket scanner",
+          "Container escape toolkit",
+          "Kubernetes exploitation framework",
+          "Cloud misconfiguration scanner"
+        ],
+        "practice": "Assess 15 cloud environments"
+      },
+      "week_51": {
+        "title": "IoT & ICS Security",
+        "topics": [
+          "IoT architecture and protocols",
+          "MQTT vulnerabilities",
+          "CoAP exploitation",
+          "Firmware extraction and analysis",
+          "JTAG and UART interfaces",
+          "Side-channel attacks basics",
+          "Industrial Control Systems (ICS)",
+          "SCADA security",
+          "Modbus protocol attacks",
+          "OT/IT convergence risks",
+          "Smart home device hacking",
+          "Automotive security basics",
+          "Medical device security",
+          "Hardware hacking tools",
+          "IoT botnets"
+        ],
+        "projects": [
+          "IoT device scanner",
+          "Firmware analysis toolkit",
+          "MQTT exploitation tool",
+          "Smart home security tester",
+          "ICS attack simulator"
+        ],
+        "practice": "Hack 10 IoT devices"
+      },
+      "week_52": {
+        "title": "Physical Security & Social Engineering",
+        "topics": [
+          "Physical security assessments",
+          "Lock picking basics",
+          "RFID/NFC cloning",
+          "Badge cloning techniques",
+          "Tailgating and piggybacking",
+          "Social engineering principles",
+          "Pretexting techniques",
+          "Phishing campaign creation",
+          "Vishing and smishing",
+          "Spear phishing strategies",
+          "Watering hole attacks",
+          "USB drop attacks",
+          "Evil maid attacks",
+          "Dumpster diving value",
+          "OSINT for social engineering"
+        ],
+        "projects": [
+          "Phishing framework setup",
+          "Social engineering toolkit usage",
+          "Physical security checklist",
+          "USB payload generator",
+          "SE campaign automation"
+        ],
+        "practice": "Design 10 social engineering scenarios"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Advanced Security & Specialized Domains (Weeks 17-24)",
+    "description": "Master advanced exploitation, zero-day research, exploit development, and specialized security domains.",
+    "month_13_14": {
+      "title": "Weeks 17-20: Advanced Exploitation & Zero Days",
+      "weeks": "Week 17-20",
+      "week_53_54": {
+        "title": "Buffer Overflow Exploitation",
+        "topics": [
+          "Memory layout and stack structure",
+          "Buffer overflow theory",
+          "Stack-based buffer overflows",
+          "EIP/RIP control",
+          "Shellcode development",
+          "NOP sleds and reliability",
+          "Bad character analysis",
+          "Return-to-libc attacks",
+          "Heap overflow basics",
+          "Format string vulnerabilities",
+          "Integer overflows",
+          "Off-by-one errors",
+          "Fuzzing fundamentals",
+          "Exploit development with Python",
+          "Debugging exploits with GDB"
+        ],
+        "projects": [
+          "Custom shellcode development",
+          "Buffer overflow exploit framework",
+          "Fuzzer development",
+          "Exploit reliability enhancer",
+          "ROP chain generator",
+          "Heap exploitation tool",
+          "Format string exploit builder"
+        ],
+        "practice": "Develop 20 working exploits from scratch"
+      },
+      "week_55_56": {
+        "title": "Modern Exploit Mitigation Bypasses",
+        "topics": [
+          "ASLR bypass techniques",
+          "DEP/NX bypass methods",
+          "Stack canaries bypass",
+          "Return-oriented programming (ROP)",
+          "ROP chain construction",
+          "Gadget finding tools",
+          "SEHOP bypass",
+          "Control Flow Guard (CFG) bypass",
+          "Kernel exploitation basics",
+          "Use-after-free vulnerabilities",
+          "Race condition exploitation",
+          "Sandbox escapes",
+          "Browser exploitation basics",
+          "0-day research methodology",
+          "Responsible disclosure"
+        ],
+        "projects": [
+          "ASLR bypass exploit",
+          "ROP chain automation tool",
+          "Kernel exploit development",
+          "Browser exploit PoC",
+          "Sandbox escape framework"
+        ],
+        "practice": "Bypass 15 different security mitigations"
+      },
+      "week_57_58": {
+        "title": "Web Application Firewall Bypasses",
+        "topics": [
+          "WAF detection techniques",
+          "Common WAF products and weaknesses",
+          "Encoding and obfuscation techniques",
+          "Unicode and UTF-8 bypasses",
+          "HTTP parameter pollution",
+          "HTTP verb tampering",
+          "Case variation attacks",
+          "Comment injection techniques",
+          "White space variations",
+          "SQL injection WAF bypasses",
+          "XSS filter evasion",
+          "XXE WAF bypasses",
+          "Rate limiting bypasses",
+          "IP rotation techniques",
+          "CDN and reverse proxy bypasses"
+        ],
+        "projects": [
+          "WAF fingerprinting tool",
+          "Automated bypass generator",
+          "Payload obfuscation framework",
+          "WAF testing methodology",
+          "Custom evasion toolkit"
+        ],
+        "practice": "Bypass 20 different WAF configurations"
+      },
+      "week_59_60": {
+        "title": "Cryptography & Cryptanalysis",
+        "topics": [
+          "Cryptography fundamentals review",
+          "Symmetric encryption algorithms",
+          "Asymmetric encryption systems",
+          "Hashing algorithms and collisions",
+          "Digital signatures and certificates",
+          "PKI infrastructure attacks",
+          "SSL/TLS vulnerabilities deep dive",
+          "Padding oracle attacks",
+          "CBC bit flipping",
+          "ECB mode vulnerabilities",
+          "Weak random number generators",
+          "Side-channel attacks",
+          "Timing attacks",
+          "Quantum computing threats",
+          "Blockchain security basics"
+        ],
+        "projects": [
+          "Padding oracle exploit tool",
+          "Certificate pinning bypass",
+          "Weak crypto detector",
+          "Hash collision finder",
+          "Timing attack framework",
+          "Blockchain vulnerability scanner"
+        ],
+        "practice": "Break 25 weak cryptographic implementations"
+      },
+      "week_61": {
+        "title": "Red Team Operations",
+        "topics": [
+          "Red team vs penetration testing",
+          "Adversary simulation",
+          "MITRE ATT&CK framework",
+          "Threat actor emulation",
+          "Command and control (C2) setup",
+          "Cobalt Strike usage",
+          "Empire framework",
+          "Covenant C2 platform",
+          "Infrastructure setup and management",
+          "Domain fronting",
+          "Operational security (OPSEC)",
+          "Anti-forensics techniques",
+          "Long-term persistence",
+          "Data staging and exfiltration",
+          "Purple team exercises"
+        ],
+        "projects": [
+          "Custom C2 framework",
+          "Red team infrastructure automation",
+          "OPSEC checklist implementation",
+          "Adversary emulation playbook",
+          "Purple team exercise design"
+        ],
+        "practice": "Complete 5 red team scenarios"
+      }
+    },
+    "month_15_16": {
+      "title": "Weeks 21-24: DevSecOps & Automation",
+      "weeks": "Week 21-24",
+      "week_62_63": {
+        "title": "DevSecOps & CI/CD Security",
+        "topics": [
+          "DevSecOps principles and practices",
+          "Shift-left security approach",
+          "SAST tools and implementation",
+          "DAST in CI/CD pipelines",
+          "IAST and RASP technologies",
+          "Container security scanning",
+          "Infrastructure as Code security",
+          "Secrets management in CI/CD",
+          "Git security and secret scanning",
+          "Jenkins security hardening",
+          "GitLab CI/CD security",
+          "GitHub Actions security",
+          "Supply chain security",
+          "SBOM generation and analysis",
+          "Compliance as code"
+        ],
+        "projects": [
+          "Secure CI/CD pipeline",
+          "Automated security testing framework",
+          "Container security scanner integration",
+          "IaC security validator",
+          "Secret scanning automation"
+        ],
+        "practice": "Secure 10 CI/CD pipelines"
+      },
+      "week_64_65": {
+        "title": "Security Automation & Orchestration",
+        "topics": [
+          "Security orchestration platforms",
+          "SOAR implementation",
+          "Playbook development",
+          "Automated incident response",
+          "Threat intelligence integration",
+          "API security automation",
+          "Vulnerability management automation",
+          "Compliance automation",
+          "Security metrics and KPIs",
+          "Dashboard creation",
+          "Alerting and notification systems",
+          "Integration with ticketing systems",
+          "Automated reporting",
+          "Machine learning for security",
+          "AI-powered threat detection"
+        ],
+        "projects": [
+          "SOAR platform setup",
+          "Automated incident response system",
+          "Security metrics dashboard",
+          "Threat intelligence aggregator",
+          "ML-based anomaly detector"
+        ],
+        "practice": "Automate 20 security workflows"
+      },
+      "week_66_67": {
+        "title": "Threat Hunting & Intelligence",
+        "topics": [
+          "Threat hunting methodology",
+          "Hypothesis-driven hunting",
+          "Threat intelligence lifecycle",
+          "OSINT for threat intelligence",
+          "Dark web monitoring",
+          "Threat actor tracking",
+          "IOC and YARA rules",
+          "SIGMA rules creation",
+          "Threat hunting with Splunk",
+          "ELK stack for security",
+          "Network flow analysis",
+          "Endpoint detection techniques",
+          "Memory analysis for threats",
+          "Threat intelligence platforms",
+          "Information sharing (STIX/TAXII)"
+        ],
+        "projects": [
+          "Threat hunting playbook",
+          "YARA rule repository",
+          "Threat intelligence platform",
+          "Automated threat hunter",
+          "IOC extraction framework"
+        ],
+        "practice": "Hunt for threats in 15 environments"
+      },
+      "week_68_69": {
+        "title": "Incident Response & Forensics",
+        "topics": [
+          "Incident response methodology",
+          "NIST incident response framework",
+          "Evidence collection and preservation",
+          "Chain of custody",
+          "Disk forensics and imaging",
+          "File system analysis",
+          "Memory forensics with Volatility",
+          "Network forensics",
+          "Timeline analysis",
+          "Windows forensics artifacts",
+          "Linux forensics artifacts",
+          "macOS forensics basics",
+          "Mobile device forensics",
+          "Cloud forensics challenges",
+          "Forensics report writing"
+        ],
+        "projects": [
+          "Incident response toolkit",
+          "Automated evidence collector",
+          "Memory analysis framework",
+          "Timeline generator",
+          "Forensics report template"
+        ],
+        "practice": "Investigate 15 security incidents"
+      },
+      "week_70": {
+        "title": "Compliance & Governance",
+        "topics": [
+          "Security frameworks overview",
+          "NIST Cybersecurity Framework",
+          "ISO 27001/27002",
+          "PCI DSS requirements",
+          "GDPR and privacy",
+          "HIPAA compliance",
+          "SOC 2 requirements",
+          "Risk assessment methodologies",
+          "Business impact analysis",
+          "Security policies and procedures",
+          "Security awareness training",
+          "Vendor risk management",
+          "Security metrics and reporting",
+          "Audit preparation"
+        ],
+        "projects": [
+          "Compliance assessment tool",
+          "Risk assessment framework",
+          "Policy template library",
+          "Compliance dashboard",
+          "Audit checklist generator"
+        ],
+        "practice": "Perform 5 compliance assessments"
+      }
+    },
+    "month_17_18": {
+      "title": "Additional Phase 3 Content",
+      "weeks": "Week 17-24 (distributed)",
+      "week_71_72": {
+        "title": "Zero Trust Architecture",
+        "topics": [
+          "Zero trust principles",
+          "Identity-centric security",
+          "Microsegmentation strategies",
+          "Software-defined perimeter",
+          "Identity and access management",
+          "Privileged access management",
+          "Multi-factor authentication",
+          "Conditional access policies",
+          "Device trust and compliance",
+          "Network access control",
+          "Zero trust network access",
+          "Application segmentation",
+          "Data classification and protection",
+          "Zero trust monitoring",
+          "Migration strategies"
+        ],
+        "projects": [
+          "Zero trust assessment tool",
+          "Microsegmentation design",
+          "Identity verification system",
+          "Device trust validator",
+          "Zero trust roadmap"
+        ],
+        "practice": "Design 5 zero trust architectures"
+      },
+      "week_73_74": {
+        "title": "Advanced Malware Development",
+        "topics": [
+          "Malware architecture patterns",
+          "Process injection techniques",
+          "DLL injection methods",
+          "Process hollowing",
+          "Thread hijacking",
+          "Reflective DLL injection",
+          "Fileless malware techniques",
+          "Living off the land",
+          "Anti-debugging techniques",
+          "VM detection and evasion",
+          "Polymorphic code",
+          "Metamorphic techniques",
+          "Crypters and packers",
+          "C2 communication methods",
+          "Data exfiltration techniques"
+        ],
+        "projects": [
+          "Custom malware framework",
+          "Process injection toolkit",
+          "Anti-analysis toolkit",
+          "Polymorphic engine",
+          "Custom C2 protocol"
+        ],
+        "practice": "Develop 10 evasive malware samples"
+      },
+      "week_75_76": {
+        "title": "Blockchain & Smart Contract Security",
+        "topics": [
+          "Blockchain technology overview",
+          "Cryptocurrency security",
+          "Smart contract basics",
+          "Solidity security issues",
+          "Reentrancy attacks",
+          "Integer overflow/underflow",
+          "Access control issues",
+          "Front-running attacks",
+          "Flash loan attacks",
+          "Oracle manipulation",
+          "Smart contract auditing",
+          "Web3 security",
+          "Wallet security",
+          "DeFi protocol risks",
+          "NFT security considerations"
+        ],
+        "projects": [
+          "Smart contract scanner",
+          "Blockchain security toolkit",
+          "DeFi vulnerability finder",
+          "Smart contract fuzzer",
+          "Web3 security framework"
+        ],
+        "practice": "Audit 10 smart contracts"
+      },
+      "week_77": {
+        "title": "AI/ML Security",
+        "topics": [
+          "ML model security threats",
+          "Adversarial attacks on ML",
+          "Data poisoning attacks",
+          "Model extraction attacks",
+          "Privacy attacks on ML models",
+          "Backdoor attacks in ML",
+          "Evasion attacks",
+          "Model inversion attacks",
+          "Membership inference",
+          "Differential privacy",
+          "Federated learning security",
+          "Secure multi-party computation",
+          "AI ethics and bias",
+          "Explainable AI for security",
+          "ML for cybersecurity"
+        ],
+        "projects": [
+          "Adversarial example generator",
+          "Model security scanner",
+          "Privacy-preserving ML tool",
+          "ML attack framework",
+          "AI security assessment"
+        ],
+        "practice": "Attack and defend 10 ML models"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Advanced security assessment",
+          "Multi-vector attack scenarios",
+          "Complex exploitation chains",
+          "Advanced persistence methods",
+          "Comprehensive security testing",
+          "Professional documentation"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Advanced Security Assessment",
+          "Option 1: Red Team Operation (full adversary simulation)",
+          "Option 2: Zero-day research and exploit development",
+          "Option 3: Advanced malware analysis and reverse engineering",
+          "Option 4: Cloud security assessment (AWS/Azure/GCP)",
+          "Requirements: Advanced techniques, custom tools, comprehensive report"
+        ],
+        "assessment": "Phase 3 Final Exam - Advanced Security Comprehensive Test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Professional Skills & Career Development (Weeks 25-26)",
+    "description": "Master bug bounty hunting, professional reporting, certification preparation, and career development.",
+    "month_19_20": {
+      "title": "Week 25: Bug Bounty & Professional Skills",
+      "weeks": "Week 25",
+      "week_79_80": {
+        "title": "Bug Bounty Hunting Mastery",
+        "topics": [
+          "Bug bounty platforms overview",
+          "HackerOne, Bugcrowd, Synack",
+          "Program selection strategies",
+          "Scope analysis and targeting",
+          "Vulnerability severity assessment",
+          "Report writing for bounties",
+          "Proof of concept creation",
+          "Responsible disclosure process",
+          "Communication with security teams",
+          "Bounty negotiation tactics",
+          "Time management for bug bounty",
+          "Automation for efficiency",
+          "Collaboration and information sharing",
+          "Building reputation",
+          "Income strategies"
+        ],
+        "projects": [
+          "Bug bounty automation toolkit",
+          "Report template library",
+          "Vulnerability tracking system",
+          "Recon automation framework",
+          "Bounty hunting dashboard"
+        ],
+        "practice": "Submit 10 vulnerability reports"
+      },
+      "week_81_82": {
+        "title": "Professional Report Writing",
+        "topics": [
+          "Executive summary writing",
+          "Technical documentation standards",
+          "Vulnerability description best practices",
+          "Risk rating and impact analysis",
+          "CVSS scoring accuracy",
+          "Evidence presentation",
+          "Screenshot and video documentation",
+          "Proof of concept guidelines",
+          "Remediation recommendations",
+          "Report formatting and structure",
+          "Client communication",
+          "Legal considerations",
+          "NDA and contract understanding",
+          "Deliverable management",
+          "Post-engagement activities"
+        ],
+        "projects": [
+          "Professional report templates",
+          "Automated report generator",
+          "Evidence collection framework",
+          "Risk assessment calculator",
+          "Client communication toolkit"
+        ],
+        "practice": "Write 10 professional security reports"
+      },
+      "week_83_84": {
+        "title": "Security Certifications Preparation",
+        "topics": [
+          "CEH (Certified Ethical Hacker) prep",
+          "OSCP preparation strategy",
+          "CompTIA Security+ overview",
+          "CompTIA PenTest+",
+          "GIAC certifications",
+          "CISSP domains review",
+          "Cloud security certifications",
+          "Vendor-specific certifications",
+          "Study strategies and resources",
+          "Practice exam techniques",
+          "Lab environment setup",
+          "Time management for exams",
+          "Continuing education",
+          "Certification maintenance",
+          "Career value of certifications"
+        ],
+        "projects": [
+          "Certification study plan",
+          "Practice exam simulator",
+          "Lab exercise collection",
+          "Study group organization",
+          "Knowledge base creation"
+        ],
+        "practice": "Complete 5 practice certification exams"
+      },
+      "week_85_86": {
+        "title": "Soft Skills & Consulting",
+        "topics": [
+          "Client communication skills",
+          "Presentation skills for security",
+          "Security awareness training delivery",
+          "Consulting engagement management",
+          "Project scoping and estimation",
+          "Team collaboration",
+          "Knowledge sharing practices",
+          "Documentation standards",
+          "Time and task management",
+          "Continuous learning strategies",
+          "Industry networking",
+          "Conference participation",
+          "Public speaking for security",
+          "Writing for security publications",
+          "Building personal brand"
+        ],
+        "projects": [
+          "Security awareness program",
+          "Presentation template library",
+          "Consulting framework",
+          "Personal brand strategy",
+          "Knowledge sharing platform"
+        ],
+        "practice": "Deliver 5 security presentations"
+      },
+      "week_87": {
+        "title": "Legal & Ethical Considerations",
+        "topics": [
+          "Computer crime laws",
+          "Legal frameworks globally",
+          "Authorization and scope",
+          "Evidence handling legally",
+          "Privacy laws and regulations",
+          "Ethical hacking guidelines",
+          "Professional codes of conduct",
+          "Liability and insurance",
+          "Contracts and agreements",
+          "Intellectual property",
+          "Non-disclosure agreements",
+          "Whistleblowing considerations",
+          "International law considerations",
+          "Law enforcement cooperation",
+          "Expert witness preparation"
+        ],
+        "projects": [
+          "Legal checklist for engagements",
+          "Contract template library",
+          "Ethical guidelines document",
+          "Compliance tracker",
+          "Legal resource compilation"
+        ],
+        "practice": "Review 10 legal scenarios"
+      }
+    },
+    "month_21_22": {
+      "title": "Week 26: Career Launch & Final Assessment",
+      "weeks": "Week 26",
+      "week_88_89": {
+        "title": "Career Strategy & Job Hunting",
+        "topics": [
+          "Cybersecurity career paths",
+          "Job market analysis",
+          "Resume optimization for security roles",
+          "LinkedIn profile for security professionals",
+          "GitHub portfolio creation",
+          "Technical interview preparation",
+          "Practical assessment preparation",
+          "Salary negotiation",
+          "Freelancing in security",
+          "Starting security consulting",
+          "Building client base",
+          "Networking strategies",
+          "Industry events and conferences",
+          "Online presence building",
+          "Continuous skill development"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "Optimized security resume",
+          "LinkedIn profile optimization",
+          "GitHub security portfolio",
+          "Interview preparation guide",
+          "100-day career plan"
+        ],
+        "practice": "Apply to 20 security positions"
+      },
+      "week_90_91": {
+        "title": "Industry Specializations",
+        "topics": [
+          "Financial services security",
+          "Healthcare security specialization",
+          "Government and defense security",
+          "E-commerce security",
+          "Gaming industry security",
+          "Automotive cybersecurity",
+          "Aviation security",
+          "Critical infrastructure protection",
+          "Retail security",
+          "Educational institution security",
+          "Startup security consulting",
+          "Enterprise security architecture",
+          "Security product development",
+          "Security research roles",
+          "Teaching and training roles"
+        ],
+        "projects": [
+          "Industry-specific security framework",
+          "Specialization roadmap",
+          "Industry contact list",
+          "Sector-specific tools",
+          "Industry certification plan"
+        ],
+        "practice": "Research 5 industry sectors deeply"
+      },
+      "week_92_93": {
+        "title": "Building Security Tools & Products",
+        "topics": [
+          "Security tool development",
+          "Open source contributions",
+          "Commercial tool development",
+          "SaaS security products",
+          "API development for security",
+          "Security tool documentation",
+          "Marketing security tools",
+          "Licensing and pricing",
+          "Support and maintenance",
+          "Community building",
+          "Tool monetization strategies",
+          "Security research publication",
+          "CVE submission process",
+          "Security blog writing",
+          "YouTube channel creation"
+        ],
+        "projects": [
+          "Open source security tool",
+          "Commercial tool prototype",
+          "Security blog launch",
+          "YouTube channel setup",
+          "Tool documentation system"
+        ],
+        "practice": "Develop 3 security tools"
+      },
+      "week_94_95": {
+        "title": "Advanced Career Development",
+        "topics": [
+          "Leadership in security",
+          "Team management skills",
+          "Security program development",
+          "Budget management",
+          "Vendor management",
+          "Board presentation skills",
+          "Risk communication",
+          "Security metrics for executives",
+          "Building security culture",
+          "Change management",
+          "Crisis management",
+          "Media relations",
+          "Thought leadership",
+          "Advisory board participation",
+          "Mentoring others"
+        ],
+        "projects": [
+          "Security program blueprint",
+          "Leadership development plan",
+          "Mentorship program design",
+          "Executive communication framework",
+          "Career advancement roadmap"
+        ],
+        "practice": "Mentor 3 junior security professionals"
+      },
+      "week_96": {
+        "title": "Continuous Learning & Growth",
+        "topics": [
+          "Staying current with threats",
+          "Research paper reading",
+          "Security podcast recommendations",
+          "Book recommendations",
+          "Online course platforms",
+          "Virtual lab resources",
+          "Capture The Flag (CTF) participation",
+          "Security competition strategies",
+          "Research collaboration",
+          "Security community involvement",
+          "Conference speaking",
+          "Security research trends",
+          "Emerging technologies",
+          "Future of cybersecurity",
+          "Personal development planning"
+        ],
+        "projects": [
+          "Personal learning roadmap",
+          "Resource library creation",
+          "CTF team formation",
+          "Research project proposal",
+          "5-year career vision"
+        ],
+        "practice": "Participate in 5 CTF competitions"
+      }
+    },
+    "month_23": {
+      "title": "Final Week Activities",
+      "weeks": "Week 26 (continued)",
+      "week_97": {
+        "title": "Real-World Scenarios",
+        "topics": [
+          "APT group emulation",
+          "Nation-state attack patterns",
+          "Ransomware incident handling",
+          "Data breach response",
+          "Insider threat detection",
+          "Supply chain attacks",
+          "Zero-day discovery",
+          "Critical vulnerability response",
+          "Emergency patch management",
+          "Crisis communication",
+          "Media handling during incidents",
+          "Regulatory reporting",
+          "Insurance claim processes",
+          "Forensic preservation",
+          "Business continuity"
+        ],
+        "projects": [
+          "Incident response runbook",
+          "APT emulation toolkit",
+          "Crisis management plan",
+          "Breach notification templates",
+          "Tabletop exercise design"
+        ],
+        "practice": "Complete 10 realistic scenarios"
+      },
+      "week_98": {
+        "title": "Security Operations Center (SOC)",
+        "topics": [
+          "SOC architecture and design",
+          "SIEM implementation",
+          "Security monitoring strategies",
+          "Alert triage and prioritization",
+          "Incident classification",
+          "Escalation procedures",
+          "Shift handover processes",
+          "SOC metrics and KPIs",
+          "Tool integration",
+          "Automation in SOC",
+          "Threat intelligence in SOC",
+          "SOC team training",
+          "24/7 operations management",
+          "Outsourced vs in-house SOC",
+          "SOC maturity models"
+        ],
+        "projects": [
+          "SOC setup blueprint",
+          "SIEM use case library",
+          "SOC runbook collection",
+          "Monitoring dashboard",
+          "SOC efficiency toolkit"
+        ],
+        "practice": "Design 3 SOC architectures"
+      },
+      "week_99": {
+        "title": "Emerging Threats & Technologies",
+        "topics": [
+          "5G security implications",
+          "Quantum computing threats",
+          "AI-powered attacks",
+          "Deepfake threats",
+          "Supply chain security",
+          "OT/IT convergence risks",
+          "Edge computing security",
+          "Serverless security",
+          "Container orchestration security",
+          "Mesh network security",
+          "Satellite communication security",
+          "Drone security",
+          "Augmented reality security",
+          "Virtual reality security",
+          "Future threat landscape"
+        ],
+        "projects": [
+          "Emerging threat research",
+          "Future security framework",
+          "Technology assessment tool",
+          "Threat prediction model",
+          "Innovation security guidelines"
+        ],
+        "practice": "Research 10 emerging technologies"
+      },
+      "week_100": {
+        "title": "Entrepreneurship in Security",
+        "topics": [
+          "Security startup ideas",
+          "Market research for security",
+          "Business plan development",
+          "Funding and investment",
+          "MVP development",
+          "Customer discovery",
+          "Product-market fit",
+          "Go-to-market strategy",
+          "Security product pricing",
+          "Partnership strategies",
+          "Scaling security business",
+          "Exit strategies",
+          "Acquisition considerations",
+          "Building security team",
+          "Security entrepreneur network"
+        ],
+        "projects": [
+          "Security startup blueprint",
+          "Business plan document",
+          "MVP prototype",
+          "Pitch deck creation",
+          "Go-to-market plan"
+        ],
+        "practice": "Develop complete startup concept"
+      }
+    },
+    "month_24": {
+      "title": "Final Assessment & Graduation",
+      "weeks": "Week 26 (final)",
+      "week_101_102": {
+        "title": "Final Capstone Project - Part 1",
+        "topics": [
+          "Project selection and scoping",
+          "Comprehensive security assessment",
+          "Multi-phase attack simulation",
+          "Complex vulnerability chains",
+          "Advanced exploitation techniques",
+          "Custom tool development",
+          "Zero-day research attempt",
+          "Professional documentation",
+          "Video demonstration preparation"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Complete Security Assessment",
+          "Option 1: Full enterprise penetration test with red team tactics",
+          "Option 2: Bug bounty automation framework with AI",
+          "Option 3: Security tool development and release",
+          "Option 4: Zero-day research and responsible disclosure",
+          "Option 5: Advanced malware analysis and threat hunting",
+          "Requirements: Professional quality, innovative approach, comprehensive documentation"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Part 2",
+        "topics": [
+          "Project completion",
+          "Quality assurance",
+          "Documentation finalization",
+          "Presentation preparation",
+          "Demo recording",
+          "Portfolio integration",
+          "Peer review",
+          "Instructor feedback",
+          "Project defense",
+          "Publication preparation"
+        ],
+        "deliverables": [
+          "Complete project code/tools",
+          "Professional security report",
+          "Executive presentation",
+          "Technical documentation",
+          "Video demonstration",
+          "Blog post or article",
+          "GitHub repository",
+          "Portfolio entry",
+          "Lessons learned document",
+          "Future improvements roadmap"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & Certification",
+        "topics": [
+          "Portfolio showcase",
+          "Final resume polish",
+          "LinkedIn optimization",
+          "Job application strategy",
+          "Interview preparation",
+          "Salary negotiation prep",
+          "Networking plan",
+          "Certification roadmap",
+          "Continuing education plan",
+          "Professional development",
+          "Alumni network access",
+          "Mentorship matching",
+          "Career coaching session",
+          "Goal setting for future",
+          "Graduation celebration"
+        ],
+        "deliverables": [
+          "Professional portfolio with 100+ labs/projects",
+          "Polished cybersecurity resume",
+          "Optimized LinkedIn profile",
+          "GitHub with security tools",
+          "Personal security blog",
+          "Bug bounty profile",
+          "Network of security professionals",
+          "Certification study plan",
+          "Job applications submitted",
+          "Clear career trajectory"
+        ],
+        "assessment": "FINAL COMPREHENSIVE EXAM - Complete Ethical Hacking Assessment"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1-8): 30+ foundational projects - networking tools, Linux scripts, recon frameworks",
+      "Phase 2 (Weeks 9-16): 40+ core hacking projects - exploits, web attacks, post-exploitation tools",
+      "Phase 3 (Weeks 17-24): 35+ advanced projects - zero-days, malware, specialized security tools",
+      "Phase 4 (Weeks 25-26): 15+ professional projects - bug bounty tools, reports, career materials",
+      "Total: 120+ hands-on security projects"
+    ],
+    "total_projects_built": "120+ security projects covering all domains from basic to advanced",
+    "skills_mastered": [
+      "Networking: TCP/IP, Routing, Switching, Protocols, Network Security",
+      "Operating Systems: Linux (expert), Windows Security, macOS Basics",
+      "Programming: Python, Bash, PowerShell, JavaScript, SQL, Ruby basics",
+      "Web Security: OWASP Top 10, API Security, Modern Web Vulnerabilities",
+      "System Hacking: Exploitation, Privilege Escalation, Persistence, Lateral Movement",
+      "Network Attacks: MITM, Spoofing, Wireless Hacking, Protocol Exploitation",
+      "Malware: Analysis, Reverse Engineering, Development, Evasion Techniques",
+      "Tools: Metasploit, Burp Suite, Nmap, Wireshark, Kali Linux, Custom Tools",
+      "Cloud Security: AWS, Azure, GCP, Container Security, Kubernetes",
+      "Mobile Security: Android, iOS, Mobile App Testing, Reverse Engineering",
+      "Forensics: Disk, Memory, Network, Mobile, Cloud Forensics",
+      "Reporting: Professional Reports, Executive Communication, Documentation"
+    ],
+    "weekly_structure": {
+      "theory_videos": "3-5 hours",
+      "hands_on_labs": "5-7 hours",
+      "projects": "3-4 hours",
+      "practice_challenges": "2-3 hours",
+      "reading_research": "1-2 hours",
+      "total_per_week": "14-21 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live hacking sessions and Q&A",
+      "mentorship": "1-on-1 mentorship from professional pentesters",
+      "community": "Active Discord with security professionals",
+      "lab_access": "24/7 access to vulnerable lab environments",
+      "code_review": "Expert review of tools and exploits",
+      "career_support": "Resume review, interview prep, job referrals",
+      "bug_bounty_guidance": "Tips and collaboration for bug bounties",
+      "certification_prep": "Study groups for CEH, OSCP, etc.",
+      "lifetime_access": "All content and future updates",
+      "legal_guidance": "Legal framework and ethical guidelines"
+    },
+    "certification": {
+      "course_certificate": "Ethical Hacker Professional Certificate",
+      "phase_certificates": "Certificate after each phase (4 total)",
+      "specialization_certificates": "Web Security, Network Security, Cloud Security",
+      "ceu_credits": "Continuing Education Units for certifications",
+      "linkedin_badges": "Digital badges for all achievements",
+      "industry_prep": "Preparation for CEH, OSCP, GPEN, etc.",
+      "portfolio_projects": "100+ documented security projects",
+      "bug_bounty_profile": "Established bug bounty hunter profile",
+      "tool_releases": "Published security tools on GitHub",
+      "recognition": "Industry-recognized completion certificate"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required",
+    "coding_experience": "Basic computer skills helpful but not required",
+    "mathematics": "Basic math understanding",
+    "age": "16+ years recommended",
+    "equipment": "Computer with 8GB+ RAM, ability to run VMs",
+    "time_commitment": "10-15 hours per week minimum",
+    "english": "Good English comprehension",
+    "motivation": "Strong interest in cybersecurity",
+    "learning_style": "Hands-on learner, problem solver",
+    "ethics": "Commitment to ethical hacking only"
+  },
+  "who_is_this_for": {
+    "beginners": "Complete beginners wanting to enter cybersecurity",
+    "it_professionals": "IT staff transitioning to security roles",
+    "developers": "Programmers wanting to understand security",
+    "students": "Computer science students specializing in security",
+    "network_admins": "Network professionals adding security skills",
+    "compliance_officers": "Compliance staff needing technical knowledge",
+    "auditors": "IT auditors wanting hands-on skills",
+    "law_enforcement": "Digital forensics and cybercrime investigation",
+    "military": "Cyber warfare and defense personnel",
+    "entrepreneurs": "Founders building security products"
+  },
+  "career_paths_after_completion": [
+    "Penetration Tester / Ethical Hacker",
+    "Security Analyst / SOC Analyst",
+    "Vulnerability Assessment Specialist",
+    "Security Consultant",
+    "Bug Bounty Hunter",
+    "Security Engineer",
+    "Cloud Security Architect",
+    "Application Security Engineer",
+    "Red Team Operator",
+    "Incident Response Specialist",
+    "Digital Forensics Investigator",
+    "Malware Analyst",
+    "Security Researcher",
+    "Cybersecurity Manager",
+    "Chief Information Security Officer (CISO) track"
+  ],
+  "salary_expectations": {
+  "after_3_months": "₹3-6 LPA (Junior Security Analyst, SOC Analyst L1)",
+  "after_6_months": "₹6-12 LPA (Ethical Hacker, SOC Analyst L2, VAPT Analyst)",
+  "after_9_months": "₹10-20 LPA (Penetration Tester, Security Engineer)",
+  "after_12_months": "₹18-30 LPA (Senior Ethical Hacker, Red Team Engineer)",
+  "experienced_2_years": "₹25-45 LPA (Lead Security Engineer, Security Consultant)",
+  "faang_companies": "₹35-70 LPA in India, $130k-280k USD in USA",
+  "government_projects": "₹8-20 LPA (Cyber Crime, CERT-In, Defense contractors)",
+  "cybersecurity_firms": "₹15-40 LPA (Big4, Security MNCs, Product-based firms)",
+  "freelance_bug_bounty": "₹2-15 Lakhs per valid vulnerability (platform & severity dependent)",
+  "freelance_consulting": "₹2500-12000/hour based on skills and certifications",
+  "security_architect": "₹40-90 LPA at senior level",
+  "note": "Ethical Hackers and Cybersecurity professionals are among the most in-demand and respected roles globally due to rising cyber threats"
+},  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee",
+    "job_assistance": "Job placement support with AI companies",
+    "lifetime_updates": "Free access to all new content, research implementations",
+    "mentorship": "Expert guidance throughout and beyond",
+    "certificate": "Industry-recognized AI/ML certification",
+    "portfolio": "50+ production-ready AI projects",
+    "kaggle_support": "Guidance to achieve Kaggle Expert rank",
+    "research_support": "Help with paper implementation and publication",
+    "community": "Lifetime access to AI/ML professional network",
+    "gpu_credits": "Cloud GPU credits for training (limited)",
+    "career_switch": "Support until successful transition to AI role",
+    "skill_guarantee": "Master AI/ML or continue learning free"
+  }
+}
