@@ -2089,9 +2089,104 @@
                 });
             });
 
+            // Parse URL and activate correct tabs
+            function activateTabsFromURL() {
+                const pathname = window.location.pathname;
+                const pathParts = pathname.split('/').filter(p => p);
+                
+                // Also check for query parameters (legacy support)
+                const urlParams = new URLSearchParams(window.location.search);
+                let mainTab = urlParams.get('tab');
+                let subTab = urlParams.get('subtab');
+                
+                // Parse clean URL format: /courses/coding/teens or /courses/mathematics/high
+                if (pathParts.length >= 2 && pathParts[0] === 'courses') {
+                    const category = pathParts[1];
+                    const level = pathParts[2];
+                    
+                    // Map URL category to tab
+                    if (category === 'coding') {
+                        mainTab = 'coding';
+                    } else if (category === 'mathematics' || category === 'maths') {
+                        mainTab = 'maths';
+                    }
+                    
+                    // Map URL level to subtab
+                    if (level) {
+                        const levelMapping = {
+                            'kids': 'kids',
+                            'teens': 'teens',
+                            'college': 'college',
+                            'girls': 'girls',
+                            'corporate': 'customized',
+                            'customized': 'customized',
+                            'elementary': 'elementary',
+                            'middle': 'middle',
+                            'middle-school': 'middle',
+                            'high': 'high',
+                            'high-school': 'high',
+                            'professional': 'professional',
+                            'professionals': 'professional'
+                        };
+                        subTab = levelMapping[level] || level;
+                    }
+                }
+                
+                // Activate main tab if specified
+                if (mainTab) {
+                    const mainTabBtn = document.querySelector(`.main-tab[data-tab="${mainTab}"]`);
+                    if (mainTabBtn) {
+                        // Update state
+                        tabState.activeMainTab = mainTab;
+                        
+                        // Update UI - main tabs
+                        document.querySelectorAll('.main-tab').forEach(t => {
+                            t.classList.remove('active');
+                            t.setAttribute('aria-selected', 'false');
+                        });
+                        mainTabBtn.classList.add('active');
+                        mainTabBtn.setAttribute('aria-selected', 'true');
+                        
+                        // Show correct sub-tabs container
+                        document.querySelectorAll('.sub-tabs').forEach(c => c.classList.remove('active'));
+                        const subTabContainer = document.querySelector(`.${mainTab}-subtabs`);
+                        if (subTabContainer) {
+                            subTabContainer.classList.add('active');
+                        }
+                    }
+                }
+                
+                // Activate sub-tab if specified
+                if (subTab) {
+                    tabState.activeSubTab = subTab;
+                    
+                    const subTabContainer = document.querySelector(`.${tabState.activeMainTab}-subtabs`);
+                    if (subTabContainer) {
+                        const subTabBtn = subTabContainer.querySelector(`.sub-tab[data-subtab="${subTab}"]`);
+                        if (subTabBtn) {
+                            subTabContainer.querySelectorAll('.sub-tab').forEach(st => st.classList.remove('active'));
+                            subTabBtn.classList.add('active');
+                        }
+                    }
+                }
+                
+                // Apply filters with the new tab state
+                applyTabFilters();
+                
+                // Scroll to level selector if a specific category was selected
+                if (mainTab || subTab) {
+                    setTimeout(() => {
+                        const levelSelector = document.getElementById('levelSelector');
+                        if (levelSelector) {
+                            levelSelector.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }, 300);
+                }
+            }
+
             // Initialize
             initializeTabs();
-            applyTabFilters();
+            activateTabsFromURL();
         });
     </script>
 
