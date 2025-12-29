@@ -170,6 +170,29 @@
   to = "/src/pages/bootstrap.html"
   status = 200
 
+# City Landing Pages - SEO Optimized
+[[redirects]]
+  from = "/best-coding-class-in-kolkata"
+  to = "/src/pages/best-coding-class-in-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-hyderabad"
+  to = "/src/pages/best-coding-class-in-hyderabad.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bengaluru"
+  to = "/src/pages/best-coding-class-in-bengaluru.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-pune"
+  to = "/src/pages/best-coding-class-in-pune.html"
+  status = 200
+
+
+
 [[redirects]]
   from = "/love"
   to = "/lovewall/dist/index.html"
