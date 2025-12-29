@@ -66,3 +66,13 @@
 
 # 404 fallback
 /* /src/pages/404.html 404
+
+
+
+# City Landing Pages - SEO Optimized
+/best-coding-class-in-kolkata /src/pages/best-coding-class-in-kolkata.html 200
+/best-coding-class-in-hyderabad /src/pages/best-coding-class-in-hyderabad.html 200
+/best-coding-class-in-bengaluru /src/pages/best-coding-class-in-bengaluru.html 200
+/best-coding-class-in-pune /src/pages/best-coding-class-in-pune.html 200
+/best-coding-class-in-mumbai /src/pages/best-coding-class-in-mumbai.html 200
+/best-coding-class-in-delhi /src/pages/best-coding-class-in-delhi.html 200
