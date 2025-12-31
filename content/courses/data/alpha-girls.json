@@ -30,7 +30,6 @@
     "commitment": "25-30 hours/week intensive",
     "certification": "Alpha Girls Elite Certification - Fortune 500 Recognized",
     "image_path": "alpha-girls.png"
-  
   },
   "program_overview": {
     "title": "Alpha Girls - The Apex of Women in Technology",
@@ -1636,5 +1635,31 @@
     "mentorship": "Billionaire mentor matching",
     "certificate": "Industry-defining certification",
     "portfolio": "Billion-dollar portfolio guaranteed"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is Alpha Girls and who is this elite tech program designed for?",
+      "answer": "Alpha Girls is an ultra-elite 12-month technology mastery program designed specifically for ambitious women in tech who want to reach the highest levels of the industry. It's ideal for experienced developers (3+ years) ready to transition into enterprise architecture, Fortune 500 leadership, tech consulting, or building billion-dollar startups."
+    },
+    {
+      "question": "What makes Alpha Girls different from other women in tech programs?",
+      "answer": "Unlike traditional coding bootcamps, Alpha Girls focuses on enterprise-level skills: system architecture for billions of users, $100M+ project leadership, executive-level communication, and building industry monopolies. You'll work on real Fortune 500 projects, get mentored by successful female tech leaders, and join an exclusive network of the most powerful women in technology."
+    },
+    {
+      "question": "What specific skills will I learn in the Alpha Girls program?",
+      "answer": "You'll master enterprise architecture, distributed systems design, cloud infrastructure at scale (AWS, GCP, Azure), system design for billions of requests, tech strategy and consulting, startup founding and scaling, venture capital fundraising, M&A strategies, and executive leadership. The curriculum covers both technical excellence and business acumen."
+    },
+    {
+      "question": "What career outcomes can I expect after completing Alpha Girls?",
+      "answer": "Graduates pursue roles as Chief Technology Officers, VP of Engineering at Fortune 500 companies, enterprise architects ($200K-600K+ salaries), tech startup founders, and high-level technical consultants. Many go on to raise venture funding, lead acquisitions, or build industry-defining companies."
+    },
+    {
+      "question": "What are the prerequisites for joining Alpha Girls?",
+      "answer": "This is an elite-level program requiring 3+ years of professional development experience, strong fundamentals in at least one tech stack, leadership potential, and intense commitment (25-30 hours/week). Prior experience with system design or architecture is beneficial but not mandatory."
+    },
+    {
+      "question": "How does Alpha Girls support women's success in a male-dominated industry?",
+      "answer": "Beyond technical training, Alpha Girls provides negotiation coaching, executive presence development, leadership communication skills, personal branding strategies, and access to an exclusive network of female tech leaders. The program specifically addresses challenges women face in tech and equips them with strategies to excel."
+    }
+  ]
 }

@@ -1233,5 +1233,31 @@
     "mentorship": "Dedicated mentor throughout",
     "certificate": "Recognized certification",
     "portfolio": "Impressive project portfolio"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What age group is this Python & AI course designed for?",
+      "answer": "This course is specifically designed for children ages 8-16. The curriculum adapts to different age levels: younger kids (8-11) focus more on visual programming with Turtle Graphics and game development, while older kids (12-16) dive deeper into AI concepts, machine learning, and advanced Python projects."
+    },
+    {
+      "question": "Does my child need any prior coding experience?",
+      "answer": "No prior coding experience is required. This course starts from absolute zero with fun 'Hello World' programs and gradually builds up to AI projects. The teaching approach is specifically designed for young minds with visual learning, gamification, and engaging projects."
+    },
+    {
+      "question": "What will my child be able to build after completing this course?",
+      "answer": "Your child will build 30+ projects including video games (Snake, Space Shooter), animated graphics, chatbots, face detection apps, image classifiers, a personal AI assistant, and AI art generators. These are real, working projects they can show to friends, family, and include in college applications."
+    },
+    {
+      "question": "How does this prepare my child for future STEM careers?",
+      "answer": "This course builds strong computational thinking, problem-solving skills, and familiarity with AI/ML concepts that are increasingly important in all STEM fields. Children gain a significant head start for computer science studies, coding competitions, robotics clubs, and future tech careers."
+    },
+    {
+      "question": "Is the online environment safe for children?",
+      "answer": "Yes, all classes are conducted in safe, moderated environments. We provide parent guidance notes, regular progress updates, and age-appropriate content. The online community is strictly monitored, and we use child-safe platforms with appropriate privacy controls."
+    },
+    {
+      "question": "How much time does my child need to dedicate weekly?",
+      "answer": "We recommend 5-8 hours per week, which includes 2 live classes plus practice time. The flexible structure allows kids to learn at their own pace, and the gamified approach with achievements and badges keeps them motivated without feeling overwhelmed."
+    }
+  ]
 }

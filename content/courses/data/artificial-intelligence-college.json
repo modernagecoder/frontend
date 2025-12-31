@@ -1450,5 +1450,31 @@
     "conference_guidance": "Help with conference submissions and attendance",
     "career_support": "Research career guidance and networking",
     "excellence_guarantee": "Master AI at the deepest theoretical and practical level"
-  }
+  },
+  "faqs": [
+    {
+      "question": "How is this AI Masterclass different from the AI/ML Masterclass?",
+      "answer": "This Artificial Intelligence Masterclass focuses on comprehensive AI theory: classical AI (search algorithms, symbolic reasoning), knowledge representation, planning, multi-agent systems, cognitive architectures, and AGI concepts. The AI/ML course focuses on practical machine learning engineering. Choose this course for PhD preparation, AI research careers, or deep theoretical understanding."
+    },
+    {
+      "question": "Is this course suitable for PhD preparation in Artificial Intelligence?",
+      "answer": "Yes, this course is specifically designed for PhD preparation. The capstone project is at publication quality, you'll master research methodology, read 100+ landmark AI papers, and get PhD application support including research statements, writing samples, and letters of recommendation guidance."
+    },
+    {
+      "question": "What AI paradigms and topics does this comprehensive course cover?",
+      "answer": "The course covers symbolic AI, connectionist AI, hybrid systems, search algorithms (BFS, DFS, A*, minimax), propositional and first-order logic, Bayesian networks, MDPs, classical planning, expert systems, multi-agent systems, game theory, robotics AI, computer vision, NLP, cognitive architectures, and AGI research frontiers."
+    },
+    {
+      "question": "What career paths are available after completing this AI research-focused program?",
+      "answer": "Graduates pursue careers as AI Research Scientists ($150K-400K), AI Research Engineers at top labs (Google DeepMind, OpenAI, Meta FAIR), PhD programs at top universities, AI architects at enterprises, or founding AI research startups. The course prepares you for the most advanced AI roles."
+    },
+    {
+      "question": "What are the prerequisites for this advanced AI course?",
+      "answer": "You need programming experience (Python preferred), understanding of algorithms and data structures, and comfort with mathematical reasoning. The course teaches all required mathematics (linear algebra, probability, logic) but prior exposure helps. Ideal for CS students, researchers, and experienced developers."
+    },
+    {
+      "question": "How many projects and intelligent systems will I build?",
+      "answer": "You'll build 50+ intelligent systems including search solvers, game-playing AIs (Chess, Go), expert systems, Bayesian reasoners, planners, robotics simulators, NLP systems, computer vision applications, multi-agent simulations, and a publication-quality capstone combining multiple AI techniques."
+    }
+  ]
 }

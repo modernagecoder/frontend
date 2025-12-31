@@ -1418,5 +1418,31 @@
     "code_repository": "Complete code library for all projects",
     "paper_trading": "Unlimited paper trading practice",
     "broker_support": "Assistance with live account setup"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What are the prerequisites for this algorithmic trading course?",
+      "answer": "No prior trading or programming experience is required. This course starts from absolute zero and teaches you Python programming, financial markets, and quantitative analysis from the ground up. Basic computer literacy and enthusiasm to learn are the only requirements."
+    },
+    {
+      "question": "What tools and technologies will I learn in this algorithmic trading masterclass?",
+      "answer": "You will master Python, NumPy, Pandas, Matplotlib, yfinance, TA-Lib, Zipline, Backtrader, scikit-learn, TensorFlow, broker APIs (Alpaca, Interactive Brokers, Zerodha), and quantitative analysis libraries. The course covers the complete tech stack used by professional quant traders."
+    },
+    {
+      "question": "Can I actually make money with algorithmic trading after this course?",
+      "answer": "This course provides you with all the skills, strategies (40+ backtested strategies), and risk management knowledge to trade profitably. However, trading involves risk and past performance doesn't guarantee future results. We teach proper position sizing, drawdown management, and realistic expectations alongside profitable strategy development."
+    },
+    {
+      "question": "How is this different from other trading courses?",
+      "answer": "Unlike courses that only teach theory, this 12-month masterclass gives you hands-on experience with real market data, 10+ years of backtesting, live paper trading, and guidance for real money deployment. We cover stocks, forex, crypto, commodities, and options trading automation."
+    },
+    {
+      "question": "What career opportunities are available after completing this course?",
+      "answer": "Graduates can pursue careers as Quantitative Analysts ($150K-$500K+), Algorithmic Traders at hedge funds, Prop Trading Firm traders, independent systematic traders, or start their own quantitative trading fund. The course includes resume building and interview prep for quant roles."
+    },
+    {
+      "question": "Do I get any certification after completing this algorithmic trading course?",
+      "answer": "Yes, upon successful completion you receive the 'Certified Algorithmic Trader' certificate. Additionally, you'll have a portfolio of 40+ trading strategies, a complete code repository, and documented backtesting results that demonstrate your skills to employers."
+    }
+  ]
 }

@@ -1182,5 +1182,31 @@
     "mentorship": "Professional DBA mentors throughout",
     "certificate": "Industry-recognized MySQL certification",
     "portfolio": "30+ real-world database projects for portfolio"
-  }
+  },
+  "faqs": [
+    {
+      "question": "Why should a teenager learn MySQL database management?",
+      "answer": "Every app, website, and game stores data in databases. Learning MySQL gives teens a highly marketable skill that's essential for software development, data science, and IT careers. Database skills complement web development and app programming, making teens more complete developers."
+    },
+    {
+      "question": "What real-world applications will I build in this MySQL course?",
+      "answer": "You'll build databases for social media apps (like TikTok/Instagram clone), gaming leaderboards, e-commerce systems, school management systems, inventory trackers, and analytics dashboards. All projects use scenarios teens relate to and can showcase in portfolios."
+    },
+    {
+      "question": "How does learning MySQL help with college applications?",
+      "answer": "Database skills demonstrate technical proficiency beyond typical high school curricula. Your portfolio of 30+ database projects, MySQL certification, and demonstrated ability to build complex data systems significantly strengthens computer science program applications."
+    },
+    {
+      "question": "What SQL commands and concepts will I master?",
+      "answer": "You'll master SELECT, INSERT, UPDATE, DELETE, JOINs (INNER, LEFT, RIGHT), GROUP BY, HAVING, subqueries, stored procedures, triggers, views, indexing, normalization, and database security. The course covers everything from basics to professional database administration."
+    },
+    {
+      "question": "Can I connect MySQL to websites and apps I build?",
+      "answer": "Yes! The course includes connecting MySQL to Python applications, building REST APIs with database backends, and understanding how popular apps like Instagram, YouTube, and TikTok use databases. You'll learn the complete stack from database to application."
+    },
+    {
+      "question": "What career opportunities are available for teens with MySQL skills?",
+      "answer": "Teen freelancers can earn ₹300-1500/hour on database projects. After completion, you're qualified for internships, junior database developer roles (₹2-8 LPA), and database administrator paths. MySQL is one of the most in-demand technical skills globally."
+    }
+  ]
 }

@@ -1689,5 +1689,31 @@
     "gpu_credits": "Cloud GPU credits for training (limited)",
     "career_switch": "Support until successful transition to AI role",
     "skill_guarantee": "Master AI/ML or continue learning free"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is the difference between this AI/ML Masterclass and the Artificial Intelligence Masterclass?",
+      "answer": "This Complete AI & ML Masterclass focuses on practical machine learning engineering: building ML pipelines, training models with TensorFlow/PyTorch, deploying to production, and achieving results on Kaggle. The AI Masterclass is more theoretical, covering classical AI, symbolic reasoning, and AGI concepts. Choose this course if you want hands-on ML engineering skills for immediate job placement."
+    },
+    {
+      "question": "What machine learning libraries and frameworks will I master?",
+      "answer": "You'll master NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow 2.x, Keras, PyTorch, OpenCV, NLTK, spaCy, Hugging Face Transformers, LangChain, MLflow, and cloud ML services (AWS SageMaker, GCP AI Platform, Azure ML). The course covers the complete modern ML engineering stack."
+    },
+    {
+      "question": "Can I get a job as an ML Engineer after this course?",
+      "answer": "Yes, this course is designed for job placement. You'll build 50+ production-ready projects, achieve competitive Kaggle rankings, and prepare for ML engineering interviews. Graduates typically secure roles as ML Engineers, Data Scientists, or AI Engineers with salaries ranging from ₹12-40 LPA in India or $100K-200K in the US."
+    },
+    {
+      "question": "What types of projects will I build in this AI/ML course?",
+      "answer": "You'll build image classifiers, object detection systems, NLP chatbots, recommendation engines, time series forecasters, fraud detection systems, sentiment analyzers, generative AI applications, and computer vision solutions. All projects use real datasets and are deployment-ready with APIs."
+    },
+    {
+      "question": "What are the prerequisites for this AI/ML masterclass?",
+      "answer": "You need basic Python programming knowledge, understanding of high school mathematics (algebra, basic statistics), and comfortable working with a computer. The course covers all required mathematics (linear algebra, calculus, probability) and advanced Python from scratch."
+    },
+    {
+      "question": "How does this course prepare me for Kaggle competitions?",
+      "answer": "Dedicated modules cover Kaggle competition strategies, feature engineering, model ensembling, cross-validation techniques, and achieving Expert/Master rankings. Students compete in 5+ real Kaggle competitions during the course with mentorship on leaderboard optimization."
+    }
+  ]
 }
