@@ -60,6 +60,7 @@
             "@type": "Course",
             "name": "Python Programming for Beginners",
             "description": "Learn Python from scratch with hands-on projects. Perfect for beginners who want to start coding.",
+            "url": "https://learn.modernagecoders.com/courses/python-complete-masterclass-teens",
             "provider": {"@type": "Organization", "name": "Modern Age Coders"},
             "educationalLevel": "Beginner"
           }
@@ -71,6 +72,7 @@
             "@type": "Course",
             "name": "Full Stack Web Development",
             "description": "Build complete websites from front to back. HTML, CSS, JavaScript, React, Node.js and more.",
+            "url": "https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college",
             "provider": {"@type": "Organization", "name": "Modern Age Coders"},
             "educationalLevel": "Intermediate"
           }
@@ -82,6 +84,7 @@
             "@type": "Course",
             "name": "AI & Machine Learning",
             "description": "Dive into artificial intelligence and machine learning. Build smart applications that learn.",
+            "url": "https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college",
             "provider": {"@type": "Organization", "name": "Modern Age Coders"},
             "educationalLevel": "Advanced"
           }
@@ -172,7 +175,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
@@ -183,7 +187,7 @@
 
     <style>
         /* Enhanced Course Page Styles */
-        
+
         /* Hero Section - Fixed Layout - Override style.css */
         .courses-page .course-hero,
         .course-hero {
@@ -195,7 +199,7 @@
             max-width: 100% !important;
             margin: 0 auto !important;
         }
-        
+
         .courses-page .course-hero h1,
         .course-hero h1 {
             font-size: clamp(2rem, 5vw, 3.5rem) !important;
@@ -211,12 +215,19 @@
             text-align: center !important;
             display: block !important;
         }
-        
+
         @keyframes heroGradient {
-            0%, 100% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
+
+            0%,
+            100% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
         }
-        
+
         .courses-page .course-hero .hero-subtitle,
         .course-hero .hero-subtitle {
             font-size: 1.15rem !important;
@@ -227,7 +238,7 @@
             text-align: center !important;
             display: block !important;
         }
-        
+
         .courses-page .hero-stats,
         .course-hero .hero-stats,
         .hero-stats {
@@ -240,7 +251,7 @@
             margin-top: 2rem !important;
             width: 100% !important;
         }
-        
+
         .courses-page .stat-item,
         .hero-stats .stat-item,
         .stat-item {
@@ -252,7 +263,7 @@
             background: transparent !important;
             border: none !important;
         }
-        
+
         .courses-page .stat-number,
         .hero-stats .stat-number,
         .stat-number {
@@ -263,7 +274,7 @@
             -webkit-text-fill-color: transparent !important;
             background-clip: text !important;
         }
-        
+
         .courses-page .stat-label,
         .hero-stats .stat-label,
         .stat-label {
@@ -284,7 +295,7 @@
             cursor: pointer;
             position: relative;
         }
-        
+
         .course-card-minimal::before {
             content: '';
             position: absolute;
@@ -296,39 +307,39 @@
             opacity: 0;
             transition: opacity 0.3s ease;
         }
-        
+
         .course-card-minimal:hover::before {
             opacity: 1;
         }
-        
+
         .course-card-minimal:hover {
             transform: translateY(-8px);
             border-color: rgba(168, 85, 247, 0.4);
             box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px rgba(168, 85, 247, 0.15);
         }
-        
+
         .course-image-container {
             width: 100%;
             height: 200px;
             overflow: hidden;
             background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
         }
-        
+
         .course-image-container img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: transform 0.5s ease;
         }
-        
+
         .course-card-minimal:hover .course-image-container img {
             transform: scale(1.08);
         }
-        
+
         .course-content-minimal {
             padding: 1.5rem;
         }
-        
+
         .course-title-minimal {
             font-size: 1.25rem;
             font-weight: 700;
@@ -336,7 +347,7 @@
             margin-bottom: 0.75rem;
             line-height: 1.3;
         }
-        
+
         .course-description-minimal {
             font-size: 0.95rem;
             color: rgba(148, 163, 184, 0.9);
@@ -365,24 +376,24 @@
             width: 100%;
             justify-content: center;
         }
-        
+
         .start-learning-btn:hover {
             background: linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(78, 205, 196, 0.25));
             border-color: rgba(168, 85, 247, 0.5);
             transform: translateY(-2px);
             box-shadow: 0 8px 25px rgba(168, 85, 247, 0.25);
         }
-        
+
         .start-learning-btn .btn-arrow {
             width: 18px;
             height: 18px;
             transition: transform 0.3s ease;
         }
-        
+
         .start-learning-btn:hover .btn-arrow {
             transform: translateX(4px);
         }
-        
+
         /* Courses Grid */
         .courses-grid {
             display: grid;
@@ -390,7 +401,7 @@
             gap: 2rem;
             padding: 1rem 0;
         }
-        
+
         /* FAQ Section */
         .faq-section {
             margin-top: 4rem;
@@ -399,7 +410,7 @@
             border-radius: 24px;
             border: 1px solid rgba(168, 85, 247, 0.15);
         }
-        
+
         .faq-section h2 {
             text-align: center;
             font-size: 2rem;
@@ -407,13 +418,13 @@
             color: #f1f5f9;
             margin-bottom: 0.5rem;
         }
-        
+
         .faq-section .faq-subtitle {
             text-align: center;
             color: rgba(148, 163, 184, 0.8);
             margin-bottom: 2.5rem;
         }
-        
+
         .faq-item {
             background: rgba(255, 255, 255, 0.03);
             border: 1px solid rgba(255, 255, 255, 0.08);
@@ -422,11 +433,11 @@
             overflow: hidden;
             transition: all 0.3s ease;
         }
-        
+
         .faq-item:hover {
             border-color: rgba(168, 85, 247, 0.25);
         }
-        
+
         .faq-question {
             width: 100%;
             padding: 1.25rem 1.5rem;
@@ -442,33 +453,33 @@
             align-items: center;
             transition: all 0.3s ease;
         }
-        
+
         .faq-question:hover {
             color: #c084fc;
         }
-        
+
         .faq-icon {
             width: 24px;
             height: 24px;
             transition: transform 0.3s ease;
             color: rgba(168, 85, 247, 0.7);
         }
-        
+
         .faq-item.active .faq-icon {
             transform: rotate(180deg);
         }
-        
+
         .faq-answer {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.4s ease, padding 0.3s ease;
         }
-        
+
         .faq-item.active .faq-answer {
             max-height: 300px;
             padding: 0 1.5rem 1.25rem;
         }
-        
+
         .faq-answer p {
             color: rgba(203, 213, 225, 0.85);
             line-height: 1.7;
@@ -479,20 +490,20 @@
         .why-choose-section {
             margin-top: 4rem !important;
             padding: 3.5rem 2rem !important;
-            background: linear-gradient(165deg, 
-                rgba(10, 25, 47, 0.95) 0%, 
-                rgba(17, 34, 64, 0.9) 50%,
-                rgba(15, 30, 55, 0.95) 100%) !important;
+            background: linear-gradient(165deg,
+                    rgba(10, 25, 47, 0.95) 0%,
+                    rgba(17, 34, 64, 0.9) 50%,
+                    rgba(15, 30, 55, 0.95) 100%) !important;
             border-radius: 28px !important;
             border: 2px solid rgba(78, 205, 196, 0.2) !important;
-            box-shadow: 
+            box-shadow:
                 0 25px 60px rgba(0, 0, 0, 0.3),
                 0 0 40px rgba(78, 205, 196, 0.08),
                 inset 0 1px 0 rgba(255, 255, 255, 0.05) !important;
             position: relative !important;
             overflow: hidden !important;
         }
-        
+
         .why-choose-section::before {
             content: '';
             position: absolute;
@@ -503,7 +514,7 @@
             background: linear-gradient(90deg, #4ecdc4, #22d3ee, #a855f7, #ec4899);
             border-radius: 28px 28px 0 0;
         }
-        
+
         .why-choose-section h2 {
             text-align: center !important;
             font-size: 2.25rem !important;
@@ -513,7 +524,7 @@
             position: relative !important;
             z-index: 1 !important;
         }
-        
+
         .features-grid {
             display: grid !important;
             grid-template-columns: repeat(4, 1fr) !important;
@@ -521,11 +532,11 @@
             position: relative !important;
             z-index: 1 !important;
         }
-        
+
         .feature-card {
-            background: linear-gradient(165deg, 
-                rgba(255, 255, 255, 0.06) 0%, 
-                rgba(255, 255, 255, 0.02) 100%) !important;
+            background: linear-gradient(165deg,
+                    rgba(255, 255, 255, 0.06) 0%,
+                    rgba(255, 255, 255, 0.02) 100%) !important;
             border: 1px solid rgba(78, 205, 196, 0.15) !important;
             border-radius: 20px !important;
             padding: 2rem 1.5rem !important;
@@ -536,25 +547,25 @@
             align-items: center !important;
             min-height: 220px !important;
         }
-        
+
         .feature-card:hover {
             transform: translateY(-8px) !important;
             border-color: rgba(78, 205, 196, 0.4) !important;
-            box-shadow: 
+            box-shadow:
                 0 20px 50px rgba(0, 0, 0, 0.25),
                 0 0 30px rgba(78, 205, 196, 0.15) !important;
-            background: linear-gradient(165deg, 
-                rgba(78, 205, 196, 0.1) 0%, 
-                rgba(168, 85, 247, 0.05) 100%) !important;
+            background: linear-gradient(165deg,
+                    rgba(78, 205, 196, 0.1) 0%,
+                    rgba(168, 85, 247, 0.05) 100%) !important;
         }
-        
+
         .feature-icon {
             width: 70px !important;
             height: 70px !important;
             margin: 0 auto 1.25rem !important;
-            background: linear-gradient(135deg, 
-                rgba(78, 205, 196, 0.2) 0%, 
-                rgba(168, 85, 247, 0.15) 100%) !important;
+            background: linear-gradient(135deg,
+                    rgba(78, 205, 196, 0.2) 0%,
+                    rgba(168, 85, 247, 0.15) 100%) !important;
             border-radius: 18px !important;
             display: flex !important;
             align-items: center !important;
@@ -562,21 +573,21 @@
             border: 1px solid rgba(78, 205, 196, 0.2) !important;
             transition: all 0.3s ease !important;
         }
-        
+
         .feature-card:hover .feature-icon {
             transform: scale(1.1) !important;
-            background: linear-gradient(135deg, 
-                rgba(78, 205, 196, 0.3) 0%, 
-                rgba(168, 85, 247, 0.2) 100%) !important;
+            background: linear-gradient(135deg,
+                    rgba(78, 205, 196, 0.3) 0%,
+                    rgba(168, 85, 247, 0.2) 100%) !important;
             box-shadow: 0 8px 25px rgba(78, 205, 196, 0.25) !important;
         }
-        
+
         .feature-icon svg {
             width: 32px !important;
             height: 32px !important;
             color: #4ecdc4 !important;
         }
-        
+
         .feature-card h3 {
             font-size: 1.15rem !important;
             font-weight: 700 !important;
@@ -584,41 +595,41 @@
             margin-bottom: 0.75rem !important;
             line-height: 1.3 !important;
         }
-        
+
         .feature-card p {
             font-size: 0.9rem !important;
             color: rgba(148, 163, 184, 0.9) !important;
             line-height: 1.65 !important;
             margin: 0 !important;
         }
-        
+
         /* Responsive for features grid */
         @media (max-width: 1024px) {
             .features-grid {
                 grid-template-columns: repeat(2, 1fr) !important;
             }
         }
-        
+
         @media (max-width: 640px) {
             .features-grid {
                 grid-template-columns: 1fr !important;
             }
-            
+
             .feature-card {
                 min-height: auto !important;
                 padding: 1.5rem !important;
             }
-            
+
             .why-choose-section {
                 padding: 2.5rem 1.25rem !important;
             }
-            
+
             .why-choose-section h2 {
                 font-size: 1.75rem !important;
                 margin-bottom: 2rem !important;
             }
         }
-        
+
         /* Toast Notification */
         .coming-soon-toast {
             position: fixed;
@@ -634,36 +645,52 @@
             opacity: 0;
             transition: all 0.3s ease;
         }
-        
+
         .coming-soon-toast.show {
             transform: translateX(-50%) translateY(0);
             opacity: 1;
         }
-        
+
         .toast-content {
             display: flex;
             align-items: center;
             color: #f1f5f9;
         }
-        
+
         .toast-content strong {
             display: block;
             margin-bottom: 0.25rem;
         }
-        
+
         .toast-content p {
             font-size: 0.85rem;
             color: rgba(148, 163, 184, 0.9);
             margin: 0;
         }
-        
+
         /* Responsive */
         @media (max-width: 768px) {
-            .course-hero h1 { font-size: 2rem; }
-            .hero-stats { gap: 1.5rem; }
-            .stat-number { font-size: 2rem; }
-            .courses-grid { grid-template-columns: 1fr; gap: 1.5rem; }
-            .faq-section, .why-choose-section { padding: 2rem 1.25rem; }
+            .course-hero h1 {
+                font-size: 2rem;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+            }
+
+            .stat-number {
+                font-size: 2rem;
+            }
+
+            .courses-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .faq-section,
+            .why-choose-section {
+                padding: 2rem 1.25rem;
+            }
         }
     </style>
 </head>
@@ -684,7 +711,7 @@
             <section class="course-hero">
                 <h1>Find Your Perfect Course</h1>
                 <p class="hero-subtitle">
-                    Whether you're 8 or 80, just starting out or leveling up — we've got a course that fits. 
+                    Whether you're 8 or 80, just starting out or leveling up — we've got a course that fits.
                     Learn coding, math, or both with real projects and mentors who actually care about your progress.
                 </p>
                 <div class="hero-stats">
@@ -739,7 +766,7 @@
                             #ef4444 100%) !important;
                         border-radius: 32px 32px 0 0 !important;
                     "></div>
-                    
+
                     <div class="main-tabs-header" style="
                         text-align: center !important;
                         margin-bottom: 2.5rem !important;
@@ -775,7 +802,7 @@
                             line-height: 1.6 !important;
                         ">Pick a track and find courses made just for your age group</p>
                     </div>
-                    
+
                     <div class="main-tabs" role="tablist" aria-label="Course Categories" style="
                         display: flex !important;
                         justify-content: center !important;
@@ -831,10 +858,14 @@
                                 align-items: center !important;
                                 justify-content: center !important;
                             ">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100% !important; height: 100% !important;">
-                                    <path d="M8 6L4 10L8 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M16 6L20 10L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M12 4L10 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 100% !important; height: 100% !important;">
+                                    <path d="M8 6L4 10L8 14" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M16 6L20 10L16 14" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M12 4L10 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                 </svg>
                             </span>
                             <span class="tab-text" style="
@@ -843,7 +874,7 @@
                                 color: #ffffff !important;
                             ">Coding</span>
                         </button>
-                        
+
                         <button class="main-tab" id="mathsTab" role="tab" aria-selected="false"
                             aria-controls="maths-content" data-tab="maths" style="
                             background: linear-gradient(135deg, 
@@ -888,10 +919,14 @@
                                 justify-content: center !important;
                                 transition: color 0.3s ease !important;
                             ">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 100% !important; height: 100% !important;">
-                                    <path d="M3 3V21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M9 9L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M15 9L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    style="width: 100% !important; height: 100% !important;">
+                                    <path d="M3 3V21H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M9 9L15 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M15 9L9 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
                                     <circle cx="18" cy="6" r="2" stroke="currentColor" stroke-width="2" />
                                 </svg>
                             </span>
@@ -899,74 +934,77 @@
                         </button>
                     </div>
                 </div>
-                
+
                 <!-- Add premium animation keyframes -->
                 <style>
                     @keyframes premiumGradient {
-                        0%, 100% { 
-                            background-position: 0% 50%; 
+
+                        0%,
+                        100% {
+                            background-position: 0% 50%;
                         }
-                        50% { 
-                            background-position: 100% 50%; 
+
+                        50% {
+                            background-position: 100% 50%;
                         }
                     }
-                    
+
                     /* Enhanced tab interactions */
                     .main-tab.active {
-                        background: linear-gradient(135deg, 
-                            rgba(139, 92, 246, 0.35) 0%, 
-                            rgba(139, 92, 246, 0.25) 100%) !important;
+                        background: linear-gradient(135deg,
+                                rgba(139, 92, 246, 0.35) 0%,
+                                rgba(139, 92, 246, 0.25) 100%) !important;
                         border-color: rgba(139, 92, 246, 0.6) !important;
-                        box-shadow: 
+                        box-shadow:
                             0 12px 35px rgba(139, 92, 246, 0.35),
                             0 0 30px rgba(139, 92, 246, 0.2) !important;
                         transform: translateY(-3px) !important;
                     }
-                    
+
                     .main-tab:not(.active):hover .tab-icon {
                         color: #06b6d4 !important;
                     }
-                    
+
                     /* Responsive adjustments */
                     @media (max-width: 768px) {
                         .tab-navigation {
                             padding: 2rem 1.5rem !important;
                             margin: 2rem auto !important;
                         }
-                        
+
                         .main-tabs-header .tabs-title {
                             font-size: 2rem !important;
                         }
-                        
+
                         .main-tabs {
                             flex-direction: column !important;
                             gap: 1rem !important;
                         }
-                        
+
                         .main-tab {
                             min-width: auto !important;
                             width: 100% !important;
                         }
                     }
-                    
+
                     @media (max-width: 480px) {
                         .tab-navigation {
                             padding: 1.5rem 1rem !important;
                             border-radius: 24px !important;
                         }
-                        
+
                         .main-tabs-header .tabs-title {
                             font-size: 1.75rem !important;
                         }
-                        
+
                         .main-tabs-header .tabs-subtitle {
                             font-size: 1rem !important;
                         }
                     }
                 </style>
 
-                    <!-- Sub Tabs Indicator - Scroll Target -->
-                    <div id="levelSelector" class="sub-tabs-indicator" style="
+                <!-- Sub Tabs Indicator - Scroll Target -->
+                <div id="levelSelector" class="sub-tabs-indicator" style="
                         display: flex !important;
                         align-items: center !important;
                         justify-content: center !important;
@@ -975,13 +1013,13 @@
                         padding-top: 1rem !important;
                         scroll-margin-top: 80px !important;
                     ">
-                        <div class="indicator-line" style="
+                    <div class="indicator-line" style="
                             flex: 1 !important;
                             height: 2px !important;
                             background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), rgba(139, 92, 246, 0.6)) !important;
                             max-width: 120px !important;
                         "></div>
-                        <span class="indicator-text" style="
+                    <span class="indicator-text" style="
                             color: #8b5cf6 !important;
                             font-size: 1.1rem !important;
                             font-weight: 700 !important;
@@ -993,78 +1031,79 @@
                             border: 1px solid rgba(139, 92, 246, 0.3) !important;
                             border-radius: 30px !important;
                         ">👇 Choose Your Level</span>
-                        <div class="indicator-line" style="
+                    <div class="indicator-line" style="
                             flex: 1 !important;
                             height: 2px !important;
                             background: linear-gradient(90deg, rgba(139, 92, 246, 0.6), rgba(139, 92, 246, 0.4), transparent) !important;
                             max-width: 120px !important;
                         "></div>
-                    </div>
+                </div>
 
-                    <div class="sub-tabs-container" style="
+                <div class="sub-tabs-container" style="
                         margin-bottom: 2rem !important;
                     ">
-                        <!-- Coding Sub-tabs -->
-                        <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel" aria-labelledby="codingTab">
-                            <button class="sub-tab active" data-subtab="kids" data-main="coding">
-                                <span class="subtab-text">Kids (6-12)</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="teens" data-main="coding">
-                                <span class="subtab-text">Teens (13-17)</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="college" data-main="coding">
-                                <span class="subtab-text">College & Beyond</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="girls" data-main="coding">
-                                <span class="subtab-text">Girls in Tech</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="customized" data-main="coding">
-                                <span class="subtab-text">Corporate Training</span>
-                            </button>
-                        </div>
+                    <!-- Coding Sub-tabs -->
+                    <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel"
+                        aria-labelledby="codingTab">
+                        <button class="sub-tab active" data-subtab="kids" data-main="coding">
+                            <span class="subtab-text">Kids (6-12)</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="teens" data-main="coding">
+                            <span class="subtab-text">Teens (13-17)</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="college" data-main="coding">
+                            <span class="subtab-text">College & Beyond</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="girls" data-main="coding">
+                            <span class="subtab-text">Girls in Tech</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="customized" data-main="coding">
+                            <span class="subtab-text">Corporate Training</span>
+                        </button>
+                    </div>
 
-                        <!-- Maths Sub-tabs -->
-                        <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel" aria-labelledby="mathsTab">
-                            <button class="sub-tab active" data-subtab="elementary" data-main="maths">
-                                <span class="subtab-text">Elementary (1-5)</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="middle" data-main="maths">
-                                <span class="subtab-text">Middle School (6-8)</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="high" data-main="maths">
-                                <span class="subtab-text">High School (9-12)</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="college" data-main="maths">
-                                <span class="subtab-text">College Level</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="professional" data-main="maths">
-                                <span class="subtab-text">Professionals</span>
-                            </button>
-                            <button class="sub-tab" data-subtab="girls" data-main="maths">
-                                <span class="subtab-text">Girls in STEM</span>
-                            </button>
-                        </div>
+                    <!-- Maths Sub-tabs -->
+                    <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel" aria-labelledby="mathsTab">
+                        <button class="sub-tab active" data-subtab="elementary" data-main="maths">
+                            <span class="subtab-text">Elementary (1-5)</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="middle" data-main="maths">
+                            <span class="subtab-text">Middle School (6-8)</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="high" data-main="maths">
+                            <span class="subtab-text">High School (9-12)</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="college" data-main="maths">
+                            <span class="subtab-text">College Level</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="professional" data-main="maths">
+                            <span class="subtab-text">Professionals</span>
+                        </button>
+                        <button class="sub-tab" data-subtab="girls" data-main="maths">
+                            <span class="subtab-text">Girls in STEM</span>
+                        </button>
                     </div>
                 </div>
+            </div>
 
-                <!-- Controls Section -->
-                <div class="controls-section">
-                    <div class="sort-dropdown">
-                        <button class="sort-btn" id="sortBtn">Sort by <span>⌄</span></button>
-                        <div class="sort-menu" id="sortMenu">
-                            <div class="sort-option" data-sort="popular">Most Popular</div>
-                            <div class="sort-option" data-sort="newest">Newest First</div>
-                            <div class="sort-option" data-sort="alphabetical">A-Z</div>
-                        </div>
-                    </div>
-                    <div class="view-toggle">
-                        <button class="view-btn active" id="gridView">⊞</button>
-                        <button class="view-btn" id="listView">☰</button>
+            <!-- Controls Section -->
+            <div class="controls-section">
+                <div class="sort-dropdown">
+                    <button class="sort-btn" id="sortBtn">Sort by <span>⌄</span></button>
+                    <div class="sort-menu" id="sortMenu">
+                        <div class="sort-option" data-sort="popular">Most Popular</div>
+                        <div class="sort-option" data-sort="newest">Newest First</div>
+                        <div class="sort-option" data-sort="alphabetical">A-Z</div>
                     </div>
                 </div>
+                <div class="view-toggle">
+                    <button class="view-btn active" id="gridView">⊞</button>
+                    <button class="view-btn" id="listView">☰</button>
+                </div>
+            </div>
 
-                <!-- Results Bar with Search -->
-                <div class="results-bar" id="coursesSection" style="
+            <!-- Results Bar with Search -->
+            <div class="results-bar" id="coursesSection" style="
                     display: flex !important;
                     justify-content: space-between !important;
                     align-items: center !important;
@@ -1074,16 +1113,17 @@
                     flex-wrap: wrap !important;
                     gap: 1rem !important;
                 ">
-                    <div class="results-count" style="
+                <div class="results-count" style="
                         color: rgba(226, 232, 240, 0.9) !important;
                         font-size: 1rem !important;
                         font-weight: 500 !important;
                     ">
-                        Showing <strong id="resultsCount" style="color: #8b5cf6 !important; font-weight: 700 !important;">12</strong> courses
-                    </div>
-                    
-                    <!-- Compact Search Box -->
-                    <div class="compact-search" id="compactSearchBox" style="
+                    Showing <strong id="resultsCount"
+                        style="color: #8b5cf6 !important; font-weight: 700 !important;">12</strong> courses
+                </div>
+
+                <!-- Compact Search Box -->
+                <div class="compact-search" id="compactSearchBox" style="
                         display: flex !important;
                         align-items: center !important;
                         background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(51, 65, 85, 0.6) 100%) !important;
@@ -1095,20 +1135,21 @@
                         transition: all 0.3s ease !important;
                         box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
                     ">
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="
                             width: 18px !important;
                             height: 18px !important;
                             color: rgba(139, 92, 246, 0.7) !important;
                             flex-shrink: 0 !important;
                             margin-right: 0.5rem !important;
                         ">
-                            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
-                            <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                        <input type="text" id="searchInput" placeholder="Search courses..." aria-label="Search courses" 
-                            onfocus="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.5)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 20px rgba(139, 92, 246, 0.25)';"
-                            onblur="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.25)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)';"
-                            style="
+                        <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
+                        <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <input type="text" id="searchInput" placeholder="Search courses..." aria-label="Search courses"
+                        onfocus="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.5)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 20px rgba(139, 92, 246, 0.25)';"
+                        onblur="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.25)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)';"
+                        style="
                             background: transparent !important;
                             border: none !important;
                             outline: none !important;
@@ -1117,7 +1158,7 @@
                             width: 100% !important;
                             padding: 0.25rem 0 !important;
                         ">
-                        <button id="searchClearBtn" aria-label="Clear search" style="
+                    <button id="searchClearBtn" aria-label="Clear search" style="
                             display: none;
                             background: transparent !important;
                             border: none !important;
@@ -1126,170 +1167,198 @@
                             color: rgba(148, 163, 184, 0.7) !important;
                             transition: color 0.2s ease !important;
                             flex-shrink: 0 !important;
-                        " onmouseover="this.style.color='#ef4444'" onmouseout="this.style.color='rgba(148, 163, 184, 0.7)'">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 16px !important; height: 16px !important;">
-                                <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                                <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Courses Grid -->
-                <div class="courses-grid" id="coursesGrid">
-                    <!-- Course Cards will be generated by JavaScript -->
-                </div>
-
-                <!-- No Results Message -->
-                <div class="no-results" id="noResults">
-                    <div class="no-results-content">
-                        <div class="no-results-icon">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
-                                <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <line x1="9" y1="9" x2="13" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                                <line x1="13" y1="9" x2="9" y2="13" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                            </svg>
-                        </div>
-                        <h3 class="no-results-title">Hmm, nothing here...</h3>
-                        <p class="no-results-description">We couldn't find courses matching your search. Try different keywords or browse our categories.</p>
-                        <div class="no-results-actions">
-                            <button class="clear-search-btn" id="clearSearchBtn">Clear Search</button>
-                            <button class="browse-all-btn" id="browseAllBtn">Browse All Courses</button>
-                        </div>
-                        <div class="popular-suggestions" id="popularSuggestions">
-                            <h4>Popular picks:</h4>
-                            <div class="suggestion-tags" id="suggestionTags"></div>
-                        </div>
-                    </div>
+                        " onmouseover="this.style.color='#ef4444'"
+                        onmouseout="this.style.color='rgba(148, 163, 184, 0.7)'">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            style="width: 16px !important; height: 16px !important;">
+                            <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                        </svg>
+                    </button>
                 </div>
             </div>
 
-            <!-- Why Choose Us Section -->
-            <section class="why-choose-section">
-                <h2>Why Students Love Learning With Us</h2>
-                <div class="features-grid">
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
-                        </div>
-                        <h3>Small Batches, Big Impact</h3>
-                        <p>4-8 students per batch means you actually get attention, not lost in a crowd of 100.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                            </svg>
-                        </div>
-                        <h3>Learn by Building</h3>
-                        <p>No boring theory dumps. You'll build real projects from day one — games, apps, websites.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                        </div>
-                        <h3>Flexible Timing</h3>
-                        <p>Weekend and evening batches available. Learning fits your schedule, not the other way around.</p>
-                    </div>
-                    <div class="feature-card">
-                        <div class="feature-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                            </svg>
-                        </div>
-                        <h3>Certificate + Portfolio</h3>
-                        <p>Walk away with a certificate and actual projects to show off to schools or employers.</p>
-                    </div>
-                </div>
-            </section>
+            <!-- Courses Grid -->
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Course Cards will be generated by JavaScript -->
+            </div>
 
-            <!-- FAQ Section for SEO -->
-            <section class="faq-section">
-                <h2>Got Questions? We've Got Answers</h2>
-                <p class="faq-subtitle">Here's what parents and students usually ask us</p>
-                
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What age groups are your coding courses designed for?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
+            <!-- No Results Message -->
+            <div class="no-results" id="noResults">
+                <div class="no-results-content">
+                    <div class="no-results-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
+                            <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <line x1="9" y1="9" x2="13" y2="13" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="13" y1="9" x2="9" y2="13" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" />
                         </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>We have courses for everyone! Kids (ages 6-12) can start with Scratch and visual coding — it's like playing with digital Legos. Teens (13-17) can learn Python, web development, and app creation. College students and adults can dive into advanced topics like AI, machine learning, and full-stack development. We match the teaching style to the age group, so learning feels natural.</p>
+                    </div>
+                    <h3 class="no-results-title">Hmm, nothing here...</h3>
+                    <p class="no-results-description">We couldn't find courses matching your search. Try different
+                        keywords or browse our categories.</p>
+                    <div class="no-results-actions">
+                        <button class="clear-search-btn" id="clearSearchBtn">Clear Search</button>
+                        <button class="browse-all-btn" id="browseAllBtn">Browse All Courses</button>
+                    </div>
+                    <div class="popular-suggestions" id="popularSuggestions">
+                        <h4>Popular picks:</h4>
+                        <div class="suggestion-tags" id="suggestionTags"></div>
                     </div>
                 </div>
+            </div>
+        </div>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Do I need any prior coding experience to join?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
+        <!-- Why Choose Us Section -->
+        <section class="why-choose-section">
+            <h2>Why Students Love Learning With Us</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                         </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Not at all! Most of our courses are designed for complete beginners. We start from "what is a computer?" level and build up your skills step by step. If you already have some experience, we have intermediate and advanced courses too. During enrollment, we'll help you pick the right level.</p>
                     </div>
+                    <h3>Small Batches, Big Impact</h3>
+                    <p>4-8 students per batch means you actually get attention, not lost in a crowd of 100.</p>
                 </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
+                        </svg>
+                    </div>
+                    <h3>Learn by Building</h3>
+                    <p>No boring theory dumps. You'll build real projects from day one — games, apps, websites.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Flexible Timing</h3>
+                    <p>Weekend and evening batches available. Learning fits your schedule, not the other way around.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Certificate + Portfolio</h3>
+                    <p>Walk away with a certificate and actual projects to show off to schools or employers.</p>
+                </div>
+            </div>
+        </section>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        How are the classes conducted?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Our classes are live and interactive with small batch sizes (typically 4-8 students). You'll work on real projects, get personalized feedback, and can ask questions anytime. We also provide recorded sessions for revision. Think of it as having a personal tutor, but in a fun group setting.</p>
-                    </div>
-                </div>
+        <!-- FAQ Section for SEO -->
+        <section class="faq-section">
+            <h2>Got Questions? We've Got Answers</h2>
+            <p class="faq-subtitle">Here's what parents and students usually ask us</p>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What makes your courses different from free YouTube tutorials?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Three things: structure, accountability, and mentorship. YouTube is great for random topics, but our courses follow a proven curriculum that builds skills systematically. You get regular assignments and feedback (not just "like and subscribe"). And you have a mentor who guides you through challenges — someone who notices when you're stuck and helps you push through.</p>
-                    </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What age groups are your coding courses designed for?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>We have courses for everyone! Kids (ages 6-12) can start with Scratch and visual coding — it's
+                        like playing with digital Legos. Teens (13-17) can learn Python, web development, and app
+                        creation. College students and adults can dive into advanced topics like AI, machine learning,
+                        and full-stack development. We match the teaching style to the age group, so learning feels
+                        natural.</p>
                 </div>
+            </div>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        Do you offer any certificates?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>Yes! Upon completing any course, you'll receive a certificate of completion. But honestly, the certificate is just the cherry on top. What really matters is the portfolio of real projects you'll build — those are what impress schools, colleges, or employers. We focus on skills that actually matter.</p>
-                    </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do I need any prior coding experience to join?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Not at all! Most of our courses are designed for complete beginners. We start from "what is a
+                        computer?" level and build up your skills step by step. If you already have some experience, we
+                        have intermediate and advanced courses too. During enrollment, we'll help you pick the right
+                        level.</p>
                 </div>
+            </div>
 
-                <div class="faq-item">
-                    <button class="faq-question">
-                        What if my child doesn't like coding after starting?
-                        <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                    </button>
-                    <div class="faq-answer">
-                        <p>We get it — not everything clicks for everyone. That's why we offer a trial class before you commit. If after a few sessions your child isn't enjoying it, we'll work with you to find a better fit or discuss refund options. Our goal is happy learners, not trapped customers.</p>
-                    </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    How are the classes conducted?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Our classes are live and interactive with small batch sizes (typically 4-8 students). You'll work
+                        on real projects, get personalized feedback, and can ask questions anytime. We also provide
+                        recorded sessions for revision. Think of it as having a personal tutor, but in a fun group
+                        setting.</p>
                 </div>
-            </section>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What makes your courses different from free YouTube tutorials?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Three things: structure, accountability, and mentorship. YouTube is great for random topics, but
+                        our courses follow a proven curriculum that builds skills systematically. You get regular
+                        assignments and feedback (not just "like and subscribe"). And you have a mentor who guides you
+                        through challenges — someone who notices when you're stuck and helps you push through.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer any certificates?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes! Upon completing any course, you'll receive a certificate of completion. But honestly, the
+                        certificate is just the cherry on top. What really matters is the portfolio of real projects
+                        you'll build — those are what impress schools, colleges, or employers. We focus on skills that
+                        actually matter.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                    What if my child doesn't like coding after starting?
+                    <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </button>
+                <div class="faq-answer">
+                    <p>We get it — not everything clicks for everyone. That's why we offer a trial class before you
+                        commit. If after a few sessions your child isn't enjoying it, we'll work with you to find a
+                        better fit or discuss refund options. Our goal is happy learners, not trapped customers.</p>
+                </div>
+            </div>
+        </section>
         </div>
     </main>
 
@@ -1563,17 +1632,17 @@
                 badges: ['hot'], templateUrl: '/courses/algorithmic-trading-automation-masterclass/index.html', imageUrl: 'algo-trading-college.jpg'
             },
             {
-    id: 210,
-    category: 'cyber-security',
-    title: 'Ethical Hacking Masterclass',
-    description: 'A complete hands-on cybersecurity program covering ethical hacking, penetration testing, and real-world attack-defense techniques used by professionals.',
-    skills: ['Networking Basics', 'Linux', 'Web Security', 'VAPT', 'Penetration Testing'],
-    difficulty: 'advanced',
-    ageGroup: 'college',
-    badges: ['hot'],
-    templateUrl: '/courses/ethical-hacking-masterclass-complete',
-    imageUrl: 'ethical-hacking-masterclass.png'
-},
+                id: 210,
+                category: 'cyber-security',
+                title: 'Ethical Hacking Masterclass',
+                description: 'A complete hands-on cybersecurity program covering ethical hacking, penetration testing, and real-world attack-defense techniques used by professionals.',
+                skills: ['Networking Basics', 'Linux', 'Web Security', 'VAPT', 'Penetration Testing'],
+                difficulty: 'advanced',
+                ageGroup: 'college',
+                badges: ['hot'],
+                templateUrl: '/courses/ethical-hacking-masterclass-complete',
+                imageUrl: 'ethical-hacking-masterclass.png'
+            },
 
 
             // GIRLS IN TECH COURSES
@@ -1739,13 +1808,13 @@
                             containerSubTabs[0].classList.add('active');
                         }
                         applyTabFilters();
-                        
+
                         // Smooth scroll to level selector so parents can see age group options
                         const levelSelector = document.getElementById('levelSelector');
                         if (levelSelector) {
                             setTimeout(() => {
-                                levelSelector.scrollIntoView({ 
-                                    behavior: 'smooth', 
+                                levelSelector.scrollIntoView({
+                                    behavior: 'smooth',
                                     block: 'start'
                                 });
                             }, 100);
@@ -1763,13 +1832,13 @@
                             container.querySelectorAll('.sub-tab').forEach(st => st.classList.remove('active'));
                             this.classList.add('active');
                             applyTabFilters();
-                            
+
                             // Smooth scroll to courses section after selecting level
                             const coursesSection = document.getElementById('coursesSection');
                             if (coursesSection) {
                                 setTimeout(() => {
-                                    coursesSection.scrollIntoView({ 
-                                        behavior: 'smooth', 
+                                    coursesSection.scrollIntoView({
+                                        behavior: 'smooth',
                                         block: 'start'
                                     });
                                 }, 150);
@@ -1857,7 +1926,7 @@
 
             function initializeCardClicks() {
                 document.querySelectorAll('.start-learning-btn').forEach(btn => {
-                    btn.addEventListener('click', function(e) {
+                    btn.addEventListener('click', function (e) {
                         e.stopPropagation();
                         const url = this.getAttribute('data-template-url');
                         const title = this.getAttribute('data-course-title');
@@ -1870,7 +1939,7 @@
                 });
 
                 document.querySelectorAll('.course-card-minimal').forEach(card => {
-                    card.addEventListener('click', function(e) {
+                    card.addEventListener('click', function (e) {
                         if (e.target.closest('.start-learning-btn')) return;
                         const url = this.getAttribute('data-template-url');
                         const title = this.getAttribute('data-course-title');
@@ -1981,7 +2050,7 @@
             function initCorporateForm() {
                 const form = document.getElementById('corporateTrainingFormCourse');
                 if (!form) return;
-                form.addEventListener('submit', async function(e) {
+                form.addEventListener('submit', async function (e) {
                     e.preventDefault();
                     const btn = form.querySelector('.submit-btn');
                     btn.disabled = true;
@@ -2061,8 +2130,8 @@
                 applyTabFilters();
             }
 
-            searchInput.addEventListener('input', function() { performSearch(this.value); });
-            searchClearBtn.addEventListener('click', function() { searchInput.value = ''; performSearch(''); searchInput.focus(); });
+            searchInput.addEventListener('input', function () { performSearch(this.value); });
+            searchClearBtn.addEventListener('click', function () { searchInput.value = ''; performSearch(''); searchInput.focus(); });
 
             // Sort
             const sortBtn = document.getElementById('sortBtn');
@@ -2070,7 +2139,7 @@
 
             sortBtn.addEventListener('click', () => sortMenu.classList.toggle('show'));
             document.querySelectorAll('.sort-option').forEach(option => {
-                option.addEventListener('click', function() {
+                option.addEventListener('click', function () {
                     currentSort = this.dataset.sort;
                     sortMenu.classList.remove('show');
                     applyTabFilters();
@@ -2091,7 +2160,7 @@
 
             // FAQ Accordion
             document.querySelectorAll('.faq-question').forEach(btn => {
-                btn.addEventListener('click', function() {
+                btn.addEventListener('click', function () {
                     const item = this.closest('.faq-item');
                     const wasActive = item.classList.contains('active');
                     document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('active'));
@@ -2103,24 +2172,24 @@
             function activateTabsFromURL() {
                 const pathname = window.location.pathname;
                 const pathParts = pathname.split('/').filter(p => p);
-                
+
                 // Also check for query parameters (legacy support)
                 const urlParams = new URLSearchParams(window.location.search);
                 let mainTab = urlParams.get('tab');
                 let subTab = urlParams.get('subtab');
-                
+
                 // Parse clean URL format: /courses/coding/teens or /courses/mathematics/high
                 if (pathParts.length >= 2 && pathParts[0] === 'courses') {
                     const category = pathParts[1];
                     const level = pathParts[2];
-                    
+
                     // Map URL category to tab
                     if (category === 'coding') {
                         mainTab = 'coding';
                     } else if (category === 'mathematics' || category === 'maths') {
                         mainTab = 'maths';
                     }
-                    
+
                     // Map URL level to subtab
                     if (level) {
                         const levelMapping = {
@@ -2141,14 +2210,14 @@
                         subTab = levelMapping[level] || level;
                     }
                 }
-                
+
                 // Activate main tab if specified
                 if (mainTab) {
                     const mainTabBtn = document.querySelector(`.main-tab[data-tab="${mainTab}"]`);
                     if (mainTabBtn) {
                         // Update state
                         tabState.activeMainTab = mainTab;
-                        
+
                         // Update UI - main tabs
                         document.querySelectorAll('.main-tab').forEach(t => {
                             t.classList.remove('active');
@@ -2156,7 +2225,7 @@
                         });
                         mainTabBtn.classList.add('active');
                         mainTabBtn.setAttribute('aria-selected', 'true');
-                        
+
                         // Show correct sub-tabs container
                         document.querySelectorAll('.sub-tabs').forEach(c => c.classList.remove('active'));
                         const subTabContainer = document.querySelector(`.${mainTab}-subtabs`);
@@ -2165,11 +2234,11 @@
                         }
                     }
                 }
-                
+
                 // Activate sub-tab if specified
                 if (subTab) {
                     tabState.activeSubTab = subTab;
-                    
+
                     const subTabContainer = document.querySelector(`.${tabState.activeMainTab}-subtabs`);
                     if (subTabContainer) {
                         const subTabBtn = subTabContainer.querySelector(`.sub-tab[data-subtab="${subTab}"]`);
@@ -2179,10 +2248,10 @@
                         }
                     }
                 }
-                
+
                 // Apply filters with the new tab state
                 applyTabFilters();
-                
+
                 // Scroll to level selector if a specific category was selected
                 if (mainTab || subTab) {
                     setTimeout(() => {
@@ -2204,4 +2273,5 @@
     <script src="/js/callback-modal.js"></script>
     <script src="/js/components-loader.js"></script>
 </body>
+
 </html>
