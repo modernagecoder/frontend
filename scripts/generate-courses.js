@@ -536,8 +536,8 @@ class CourseGenerator {
         // Add aggregated rating if available
         courseSchema.aggregateRating = {
             "@type": "AggregateRating",
-            "ratingValue": "4.8",
-            "reviewCount": "500+",
+            "ratingValue": 4.8,
+            "reviewCount": 500,
             "bestRating": "5",
             "worstRating": "1"
         };
