@@ -578,7 +578,7 @@
 
                             <div class="bs-form-group">
                                 <label>Project Details</label>
-                                <textarea name="message" rows="5" required
+                                <textarea name="message" rows="5" required minlength="20"
                                     placeholder="Tell us about your project requirements, goals, and timeline..."></textarea>
                             </div>
 
@@ -830,7 +830,7 @@
         // Show success message
         function showBusinessFormSuccess() {
             const formWrapper = document.querySelector('.bs-contact-form');
-            
+
             if (!formWrapper) {
                 alert('Inquiry Submitted Successfully! Our team will contact you within 24 hours.');
                 return;
@@ -862,7 +862,7 @@
         // Show error message
         function showBusinessFormError(message) {
             const formWrapper = document.querySelector('.bs-contact-form');
-            
+
             if (!formWrapper) {
                 alert('Submission Failed: ' + message);
                 return;
@@ -921,6 +921,11 @@
                         budget: formData.get('budget') || '',
                         message: formData.get('message')
                     };
+
+                    // Client-side validation for message length
+                    if (!data.message || data.message.trim().length < 20) {
+                        throw new Error('Project details must be at least 20 characters. Please provide more information about your project.');
+                    }
 
                     console.log('📤 Sending business inquiry to:', API_BASE_URL + '/api/business-solution/submit');
                     console.log('📋 Form data:', data);
