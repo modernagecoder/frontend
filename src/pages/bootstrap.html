@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Primary Meta Tags -->
     <title>Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch | Modern Age Coders</title>
     <meta name="title" content="Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch | Modern Age Coders">
-    <meta name="description" content="Master Bootstrap 5.3 with our comprehensive guide. Learn grid system, components, utilities, data attributes, JavaScript API, and more. Includes 100+ examples, live demos, and detailed explanations. Perfect for beginners to advanced developers.">
-    <meta name="keywords" content="Bootstrap 5.3, Bootstrap tutorial, Bootstrap guide, learn Bootstrap, Bootstrap components, Bootstrap grid, responsive design, web development, front-end framework, Bootstrap data attributes, Bootstrap JavaScript API, Modern Age Coders">
+    <meta name="description"
+        content="Master Bootstrap 5.3 with our comprehensive guide. Learn grid system, components, utilities, data attributes, JavaScript API, and more. Includes 100+ examples, live demos, and detailed explanations. Perfect for beginners to advanced developers.">
+    <meta name="keywords"
+        content="Bootstrap 5.3, Bootstrap tutorial, Bootstrap guide, learn Bootstrap, Bootstrap components, Bootstrap grid, responsive design, web development, front-end framework, Bootstrap data attributes, Bootstrap JavaScript API, Modern Age Coders">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://learn.modernagecoders.com/bootstrap">
-    
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://modernagecoders.com/bootstrap">
     <meta property="og:title" content="Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch">
-    <meta property="og:description" content="Master Bootstrap 5.3 with our comprehensive guide. 100+ examples, live demos, and detailed explanations covering everything from basics to advanced topics.">
+    <meta property="og:description"
+        content="Master Bootstrap 5.3 with our comprehensive guide. 100+ examples, live demos, and detailed explanations covering everything from basics to advanced topics.">
     <meta property="og:image" content="https://modernagecoders.com/images/bootstrap-guide-og.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
     <meta property="article:published_time" content="2024-01-15T00:00:00Z">
@@ -27,21 +31,22 @@
     <meta property="article:tag" content="Bootstrap">
     <meta property="article:tag" content="Web Development">
     <meta property="article:tag" content="Front-end Framework">
-    
+
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://modernagecoders.com/bootstrap">
     <meta property="twitter:title" content="Complete Bootstrap 5.3 Guide - Learn Bootstrap from Scratch">
-    <meta property="twitter:description" content="Master Bootstrap 5.3 with our comprehensive guide. 100+ examples, live demos, and detailed explanations covering everything from basics to advanced topics.">
+    <meta property="twitter:description"
+        content="Master Bootstrap 5.3 with our comprehensive guide. 100+ examples, live demos, and detailed explanations covering everything from basics to advanced topics.">
     <meta property="twitter:image" content="https://modernagecoders.com/images/bootstrap-guide-twitter.jpg">
     <meta name="twitter:creator" content="@modernagecoders">
-    
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    
+
     <!-- Structured Data / Schema.org -->
     <script type="application/ld+json">
     {
@@ -83,7 +88,7 @@
         ]
     }
     </script>
-    
+
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
     {
@@ -107,7 +112,7 @@
         }]
     }
     </script>
-    
+
     <!-- Course Schema -->
     <script type="application/ld+json">
     {
@@ -130,14 +135,14 @@
         }
     }
     </script>
-    
+
     <!-- Site CSS -->
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="stylesheet" href="/src/css/responsive.css">
-    
+
     <!-- Bootstrap 5.3 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Custom Styles -->
     <style>
         :root {
@@ -155,6 +160,75 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.8;
             color: #333;
+        }
+
+        /* Global text reset to prevent light/gradient text */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        strong,
+        b,
+        span,
+        li,
+        a,
+        .topic-title,
+        .section-title,
+        .subsection-title,
+        article p,
+        article strong,
+        article span,
+        main p,
+        main strong,
+        main span {
+            color: #333 !important;
+            -webkit-text-fill-color: #333 !important;
+            background-clip: border-box !important;
+            -webkit-background-clip: border-box !important;
+        }
+
+        /* Force headings to be darker */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #1a1a2e !important;
+            -webkit-text-fill-color: #1a1a2e !important;
+        }
+
+        /* Force strong/bold to be very dark */
+        strong,
+        b {
+            color: #1a1a2e !important;
+            -webkit-text-fill-color: #1a1a2e !important;
+        }
+
+        /* Links should remain blue */
+        a {
+            color: #0d6efd !important;
+            -webkit-text-fill-color: #0d6efd !important;
+        }
+
+        a:hover {
+            color: #0a58ca !important;
+            -webkit-text-fill-color: #0a58ca !important;
+        }
+
+        /* Allow hero section to keep white text */
+        .hero-section h1,
+        .hero-section h2,
+        .hero-section h3,
+        .hero-section p,
+        .hero-section span,
+        .hero-section strong,
+        .hero-section a {
+            color: white !important;
+            -webkit-text-fill-color: white !important;
         }
 
         .hero-section {
@@ -178,7 +252,11 @@
         .section-title {
             font-size: 2.5rem;
             font-weight: 700;
-            color: #2c3e50;
+            color: #1a1a2e !important;
+            -webkit-text-fill-color: #1a1a2e !important;
+            background: none !important;
+            background-clip: unset !important;
+            -webkit-background-clip: unset !important;
             margin: 60px 0 30px;
             padding-bottom: 15px;
             border-bottom: 4px solid var(--primary-color);
@@ -187,19 +265,29 @@
         .subsection-title {
             font-size: 2rem;
             font-weight: 600;
-            color: #34495e;
+            color: #2c3e50 !important;
+            -webkit-text-fill-color: #2c3e50 !important;
+            background: none !important;
+            background-clip: unset !important;
+            -webkit-background-clip: unset !important;
             margin: 40px 0 20px;
             padding-left: 15px;
             border-left: 5px solid var(--info-color);
         }
 
-        .topic-title {
+        .topic-title,
+        article .topic-title,
+        .col-lg-12 .topic-title,
+        div.topic-title {
             font-size: 1.5rem;
             font-weight: 700;
-            color: #212529;
+            color: #1a1a2e !important;
+            -webkit-text-fill-color: #1a1a2e !important;
             margin: 30px 0 15px;
             padding: 10px 15px;
-            background: #e9ecef;
+            background: #e9ecef !important;
+            background-clip: border-box !important;
+            -webkit-background-clip: border-box !important;
             border-radius: 5px;
             border-left: 4px solid #667eea;
         }
@@ -423,7 +511,7 @@
             align-items: center;
             justify-content: center;
             cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: all 0.3s;
             z-index: 1000;
         }
@@ -437,11 +525,11 @@
             .hero-section h1 {
                 font-size: 2.5rem;
             }
-            
+
             .section-title {
                 font-size: 2rem;
             }
-            
+
             .subsection-title {
                 font-size: 1.5rem;
             }
@@ -454,7 +542,7 @@
             margin-bottom: 0;
         }
 
-        .breadcrumb-item + .breadcrumb-item::before {
+        .breadcrumb-item+.breadcrumb-item::before {
             content: "›";
             color: #495057;
         }
@@ -487,20 +575,24 @@
 
         /* Print styles */
         @media print {
-            .navbar, .scroll-to-top, .breadcrumb, .hero-section {
+
+            .navbar,
+            .scroll-to-top,
+            .breadcrumb,
+            .hero-section {
                 display: none !important;
             }
-            
+
             body {
                 font-size: 12pt;
                 line-height: 1.5;
             }
-            
+
             pre {
                 page-break-inside: avoid;
                 border: 1px solid #ddd;
             }
-            
+
             .section-title {
                 page-break-after: avoid;
             }
@@ -529,13 +621,14 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Skip to content link for accessibility -->
     <a href="#main-content" class="skip-to-content">Skip to main content</a>
 
     <!-- Site Navigation -->
     <div id="nav-placeholder"></div>
-    
+
     <!-- Page Navigation (Sticky) -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="top: 0; z-index: 1020;">
         <div class="container">
@@ -574,7 +667,8 @@
     <section class="hero-section">
         <div class="container text-center">
             <h1>Complete Bootstrap 5.3 Guide</h1>
-            <p class="lead">Master the world's most popular front-end framework with comprehensive explanations, detailed examples, and best practices</p>
+            <p class="lead">Master the world's most popular front-end framework with comprehensive explanations,
+                detailed examples, and best practices</p>
             <div class="mt-4">
                 <span class="badge bg-light text-dark badge-custom">Latest Version 5.3</span>
                 <span class="badge bg-light text-dark badge-custom">Comprehensive</span>
@@ -597,18 +691,24 @@
                 <!-- Introduction Section -->
                 <section id="introduction">
                     <h2 class="section-title">📚 Introduction to Bootstrap 5.3</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>What is Bootstrap?</h5>
-                        <p>Bootstrap is a powerful, feature-packed front-end toolkit that provides a comprehensive collection of pre-designed HTML, CSS, and JavaScript components. It enables developers to build responsive, mobile-first websites quickly and efficiently without writing extensive custom CSS.</p>
+                        <p>Bootstrap is a powerful, feature-packed front-end toolkit that provides a comprehensive
+                            collection of pre-designed HTML, CSS, and JavaScript components. It enables developers to
+                            build responsive, mobile-first websites quickly and efficiently without writing extensive
+                            custom CSS.</p>
                     </div>
 
                     <div class="why-box">
                         <h5>Why Use Bootstrap?</h5>
                         <ul>
-                            <li><strong>Rapid Development:</strong> Pre-built components save hours of development time</li>
-                            <li><strong>Responsive by Default:</strong> Mobile-first approach ensures your site works on all devices</li>
-                            <li><strong>Consistency:</strong> Uniform design language across your entire application</li>
+                            <li><strong>Rapid Development:</strong> Pre-built components save hours of development time
+                            </li>
+                            <li><strong>Responsive by Default:</strong> Mobile-first approach ensures your site works on
+                                all devices</li>
+                            <li><strong>Consistency:</strong> Uniform design language across your entire application
+                            </li>
                             <li><strong>Browser Compatibility:</strong> Works seamlessly across all modern browsers</li>
                             <li><strong>Customizable:</strong> Easy to customize with Sass variables and mixins</li>
                             <li><strong>Large Community:</strong> Extensive documentation and community support</li>
@@ -628,9 +728,9 @@
                     </div>
 
                     <h3 class="subsection-title">Getting Started</h3>
-                    
+
                     <div class="topic-title">Installation Methods</div>
-                    
+
                     <p><strong>Method 1: CDN (Content Delivery Network) - Recommended for Beginners</strong></p>
                     <pre><code>&lt;!-- Bootstrap CSS --&gt;
 &lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"&gt;
@@ -640,14 +740,17 @@
 
                     <div class="explanation-box">
                         <h5>Why use CDN?</h5>
-                        <p>CDN delivers Bootstrap files from servers closest to your users, resulting in faster load times. It also leverages browser caching - if users have visited other sites using the same CDN, the files are already cached.</p>
+                        <p>CDN delivers Bootstrap files from servers closest to your users, resulting in faster load
+                            times. It also leverages browser caching - if users have visited other sites using the same
+                            CDN, the files are already cached.</p>
                     </div>
 
                     <p><strong>Method 2: NPM (Node Package Manager) - For Advanced Projects</strong></p>
                     <pre><code>npm install bootstrap@5.3.2</code></pre>
 
                     <p><strong>Method 3: Download Source Files</strong></p>
-                    <p>Download from <a href="https://getbootstrap.com" target="_blank">getbootstrap.com</a> and include in your project manually.</p>
+                    <p>Download from <a href="https://getbootstrap.com" target="_blank">getbootstrap.com</a> and include
+                        in your project manually.</p>
 
                     <div class="topic-title">Basic HTML Template</div>
                     <pre><code>&lt;!DOCTYPE html&gt;
@@ -670,14 +773,16 @@
 &lt;/html&gt;</code></pre>
 
                     <div class="note-box">
-                        <strong>Important:</strong> The <code>viewport</code> meta tag is crucial for responsive design. It ensures proper rendering and touch zooming on mobile devices.
+                        <strong>Important:</strong> The <code>viewport</code> meta tag is crucial for responsive design.
+                        It ensures proper rendering and touch zooming on mobile devices.
                     </div>
 
                     <h3 class="subsection-title">Understanding Bootstrap's Naming Convention</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Class Naming Pattern</h5>
-                        <p>Bootstrap uses a systematic naming convention that makes classes predictable and easy to remember:</p>
+                        <p>Bootstrap uses a systematic naming convention that makes classes predictable and easy to
+                            remember:</p>
                         <p><code>{property}-{value}</code> or <code>{property}-{breakpoint}-{value}</code></p>
                     </div>
 
@@ -789,14 +894,15 @@
                         <p>Bootstrap uses a mobile-first approach. This means:</p>
                         <ul>
                             <li>Classes without a breakpoint (like <code>col-6</code>) apply to all screen sizes</li>
-                            <li>Classes with a breakpoint (like <code>col-md-6</code>) apply from that breakpoint and up</li>
+                            <li>Classes with a breakpoint (like <code>col-md-6</code>) apply from that breakpoint and up
+                            </li>
                             <li>You can combine multiple breakpoints: <code>col-12 col-md-6 col-lg-4</code></li>
                         </ul>
                     </div>
 
                     <div class="topic-title">Color System</div>
                     <p>Bootstrap provides a comprehensive color palette with semantic meaning:</p>
-                    
+
                     <div class="visual-demo">
                         <div class="visual-demo-title">Theme Colors</div>
                         <div class="row g-3">
@@ -845,21 +951,25 @@
                 <!-- Layout System Section -->
                 <section id="layout">
                     <h2 class="section-title">🎨 Layout System</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>What is the Grid System?</h5>
-                        <p>Bootstrap's grid system is the foundation of responsive layouts. It uses a 12-column flexible grid that adapts to different screen sizes. Think of it as dividing your page into 12 equal vertical slices that you can combine in various ways.</p>
+                        <p>Bootstrap's grid system is the foundation of responsive layouts. It uses a 12-column flexible
+                            grid that adapts to different screen sizes. Think of it as dividing your page into 12 equal
+                            vertical slices that you can combine in various ways.</p>
                     </div>
 
                     <h3 class="subsection-title">1. Containers</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Containers</h5>
-                        <p>Containers are the most basic layout element in Bootstrap. They provide a means to center and horizontally pad your site's contents. All grid systems must be placed inside a container.</p>
+                        <p>Containers are the most basic layout element in Bootstrap. They provide a means to center and
+                            horizontally pad your site's contents. All grid systems must be placed inside a container.
+                        </p>
                     </div>
 
                     <div class="topic-title">Container Types</div>
-                    
+
                     <p><strong>1. Fixed-Width Container (<code>.container</code>)</strong></p>
                     <div class="explanation-box">
                         <p>A responsive fixed-width container that changes its max-width at each breakpoint:</p>
@@ -881,13 +991,15 @@
                     <div class="visual-demo">
                         <div class="visual-demo-title">Live Example: Fixed Container</div>
                         <div class="container bg-light border p-3">
-                            <p class="mb-0">This is a fixed-width container. Resize your browser to see how it adapts!</p>
+                            <p class="mb-0">This is a fixed-width container. Resize your browser to see how it adapts!
+                            </p>
                         </div>
                     </div>
 
                     <p><strong>2. Fluid Container (<code>.container-fluid</code>)</strong></p>
                     <div class="explanation-box">
-                        <p>A full-width container that spans 100% of the viewport width at all breakpoints. Perfect for full-width designs or when you want content to stretch across the entire screen.</p>
+                        <p>A full-width container that spans 100% of the viewport width at all breakpoints. Perfect for
+                            full-width designs or when you want content to stretch across the entire screen.</p>
                     </div>
                     <pre><code>&lt;div class="container-fluid"&gt;
     &lt;!-- Content spans the full width of the viewport --&gt;
@@ -904,7 +1016,10 @@
 
                     <p><strong>3. Responsive Containers (<code>.container-{breakpoint}</code>)</strong></p>
                     <div class="explanation-box">
-                        <p>These containers are 100% wide until the specified breakpoint, then they behave like a fixed container. Available options: <code>container-sm</code>, <code>container-md</code>, <code>container-lg</code>, <code>container-xl</code>, <code>container-xxl</code></p>
+                        <p>These containers are 100% wide until the specified breakpoint, then they behave like a fixed
+                            container. Available options: <code>container-sm</code>, <code>container-md</code>,
+                            <code>container-lg</code>, <code>container-xl</code>, <code>container-xxl</code>
+                        </p>
                     </div>
                     <pre><code>&lt;div class="container-md"&gt;
     &lt;!-- 100% wide until medium breakpoint (768px), then fixed width --&gt;
@@ -914,28 +1029,35 @@
                     <div class="why-box">
                         <h5>When to Use Each Container Type?</h5>
                         <ul>
-                            <li><strong>.container:</strong> Most common choice for standard websites with centered content</li>
-                            <li><strong>.container-fluid:</strong> Full-width designs, dashboards, or when you want edge-to-edge content</li>
-                            <li><strong>.container-{breakpoint}:</strong> When you want fluid layout on mobile but fixed on larger screens</li>
+                            <li><strong>.container:</strong> Most common choice for standard websites with centered
+                                content</li>
+                            <li><strong>.container-fluid:</strong> Full-width designs, dashboards, or when you want
+                                edge-to-edge content</li>
+                            <li><strong>.container-{breakpoint}:</strong> When you want fluid layout on mobile but fixed
+                                on larger screens</li>
                         </ul>
                     </div>
 
 
                     <h3 class="subsection-title">2. Grid System - Rows and Columns</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>How the Grid Works</h5>
-                        <p>Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. It's built with flexbox and is fully responsive. Here's how it works:</p>
+                        <p>Bootstrap's grid system uses a series of containers, rows, and columns to layout and align
+                            content. It's built with flexbox and is fully responsive. Here's how it works:</p>
                         <ol>
                             <li><strong>Container:</strong> Wraps the entire grid and provides proper alignment</li>
-                            <li><strong>Row:</strong> Creates a horizontal group of columns and removes negative margins</li>
-                            <li><strong>Columns:</strong> Your content goes here. Columns are the immediate children of rows</li>
+                            <li><strong>Row:</strong> Creates a horizontal group of columns and removes negative margins
+                            </li>
+                            <li><strong>Columns:</strong> Your content goes here. Columns are the immediate children of
+                                rows</li>
                         </ol>
                     </div>
 
                     <div class="topic-title">Understanding the 12-Column System</div>
                     <div class="explanation-box">
-                        <p>Bootstrap divides each row into 12 equal parts. You can combine these parts to create columns of different widths:</p>
+                        <p>Bootstrap divides each row into 12 equal parts. You can combine these parts to create columns
+                            of different widths:</p>
                         <ul>
                             <li>One column spanning full width = 12 parts</li>
                             <li>Two equal columns = 6 parts each</li>
@@ -979,12 +1101,15 @@
 
                     <div class="explanation-box">
                         <h5>What's Happening Here?</h5>
-                        <p>When you use <code>.col</code> without a number, Bootstrap automatically divides the available space equally among all columns. Each column gets the same width, regardless of content.</p>
+                        <p>When you use <code>.col</code> without a number, Bootstrap automatically divides the
+                            available space equally among all columns. Each column gets the same width, regardless of
+                            content.</p>
                     </div>
 
                     <div class="topic-title">Fixed-Width Columns</div>
                     <div class="explanation-box">
-                        <p>Use <code>.col-{number}</code> to specify exactly how many of the 12 parts each column should occupy. The number can be from 1 to 12.</p>
+                        <p>Use <code>.col-{number}</code> to specify exactly how many of the 12 parts each column should
+                            occupy. The number can be from 1 to 12.</p>
                     </div>
                     <pre><code>&lt;div class="container"&gt;
     &lt;div class="row"&gt;
@@ -1026,7 +1151,8 @@
                     <div class="topic-title">Responsive Columns</div>
                     <div class="explanation-box">
                         <h5>The Power of Responsive Design</h5>
-                        <p>This is where Bootstrap truly shines! You can specify different column widths for different screen sizes using breakpoint prefixes: <code>.col-{breakpoint}-{number}</code></p>
+                        <p>This is where Bootstrap truly shines! You can specify different column widths for different
+                            screen sizes using breakpoint prefixes: <code>.col-{breakpoint}-{number}</code></p>
                         <p>The mobile-first approach means:</p>
                         <ul>
                             <li>Start with the smallest screen (mobile)</li>
@@ -1055,7 +1181,8 @@
 &lt;/div&gt;</code></pre>
 
                     <div class="visual-demo">
-                        <div class="visual-demo-title">Live Example: Responsive Columns (Resize browser to see changes)</div>
+                        <div class="visual-demo-title">Live Example: Responsive Columns (Resize browser to see changes)
+                        </div>
                         <div class="container">
                             <div class="row g-3">
                                 <div class="col-12 col-md-6 col-lg-4">
@@ -1094,7 +1221,8 @@
 
                     <div class="topic-title">Vertical Alignment</div>
                     <div class="explanation-box">
-                        <p>Control how columns align vertically within a row using flexbox alignment classes. These classes are applied to the <code>.row</code> element.</p>
+                        <p>Control how columns align vertically within a row using flexbox alignment classes. These
+                            classes are applied to the <code>.row</code> element.</p>
                     </div>
 
                     <table class="table table-bordered comparison-table">
@@ -1137,19 +1265,37 @@
                         <div class="visual-demo-title">Live Example: Vertical Alignment</div>
                         <div class="container">
                             <div class="row align-items-start bg-light border mb-3" style="min-height: 150px;">
-                                <div class="col"><div class="p-3 bg-primary text-white rounded">Start</div></div>
-                                <div class="col"><div class="p-3 bg-success text-white rounded">Start</div></div>
-                                <div class="col"><div class="p-3 bg-info text-white rounded">Start</div></div>
+                                <div class="col">
+                                    <div class="p-3 bg-primary text-white rounded">Start</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-success text-white rounded">Start</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-info text-white rounded">Start</div>
+                                </div>
                             </div>
                             <div class="row align-items-center bg-light border mb-3" style="min-height: 150px;">
-                                <div class="col"><div class="p-3 bg-primary text-white rounded">Center</div></div>
-                                <div class="col"><div class="p-3 bg-success text-white rounded">Center</div></div>
-                                <div class="col"><div class="p-3 bg-info text-white rounded">Center</div></div>
+                                <div class="col">
+                                    <div class="p-3 bg-primary text-white rounded">Center</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-success text-white rounded">Center</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-info text-white rounded">Center</div>
+                                </div>
                             </div>
                             <div class="row align-items-end bg-light border" style="min-height: 150px;">
-                                <div class="col"><div class="p-3 bg-primary text-white rounded">End</div></div>
-                                <div class="col"><div class="p-3 bg-success text-white rounded">End</div></div>
-                                <div class="col"><div class="p-3 bg-info text-white rounded">End</div></div>
+                                <div class="col">
+                                    <div class="p-3 bg-primary text-white rounded">End</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-success text-white rounded">End</div>
+                                </div>
+                                <div class="col">
+                                    <div class="p-3 bg-info text-white rounded">End</div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1157,7 +1303,8 @@
 
                     <div class="topic-title">Horizontal Alignment</div>
                     <div class="explanation-box">
-                        <p>Control how columns are distributed horizontally within a row. These classes are also applied to the <code>.row</code> element.</p>
+                        <p>Control how columns are distributed horizontally within a row. These classes are also applied
+                            to the <code>.row</code> element.</p>
                     </div>
 
                     <table class="table table-bordered comparison-table">
@@ -1168,18 +1315,39 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td><code>.justify-content-start</code></td><td>Columns start from the left (default)</td></tr>
-                            <tr><td><code>.justify-content-center</code></td><td>Columns are centered</td></tr>
-                            <tr><td><code>.justify-content-end</code></td><td>Columns are pushed to the right</td></tr>
-                            <tr><td><code>.justify-content-around</code></td><td>Equal space around each column</td></tr>
-                            <tr><td><code>.justify-content-between</code></td><td>Space between columns, none at edges</td></tr>
-                            <tr><td><code>.justify-content-evenly</code></td><td>Equal space between and around columns</td></tr>
+                            <tr>
+                                <td><code>.justify-content-start</code></td>
+                                <td>Columns start from the left (default)</td>
+                            </tr>
+                            <tr>
+                                <td><code>.justify-content-center</code></td>
+                                <td>Columns are centered</td>
+                            </tr>
+                            <tr>
+                                <td><code>.justify-content-end</code></td>
+                                <td>Columns are pushed to the right</td>
+                            </tr>
+                            <tr>
+                                <td><code>.justify-content-around</code></td>
+                                <td>Equal space around each column</td>
+                            </tr>
+                            <tr>
+                                <td><code>.justify-content-between</code></td>
+                                <td>Space between columns, none at edges</td>
+                            </tr>
+                            <tr>
+                                <td><code>.justify-content-evenly</code></td>
+                                <td>Equal space between and around columns</td>
+                            </tr>
                         </tbody>
                     </table>
 
                     <div class="topic-title">Column Offsetting</div>
                     <div class="explanation-box">
-                        <p>Move columns to the right using <code>.offset-{number}</code> or <code>.offset-{breakpoint}-{number}</code> classes. This adds left margin to push the column over.</p>
+                        <p>Move columns to the right using <code>.offset-{number}</code> or
+                            <code>.offset-{breakpoint}-{number}</code> classes. This adds left margin to push the column
+                            over.
+                        </p>
                     </div>
                     <pre><code>&lt;div class="row"&gt;
     &lt;div class="col-4 offset-4"&gt;
@@ -1189,10 +1357,11 @@
 &lt;/div&gt;</code></pre>
 
                     <h3 class="subsection-title">4. Gutters (Spacing Between Columns)</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>What are Gutters?</h5>
-                        <p>Gutters are the padding between columns. By default, Bootstrap adds 1.5rem (24px) of padding between columns. You can customize this spacing using gutter classes.</p>
+                        <p>Gutters are the padding between columns. By default, Bootstrap adds 1.5rem (24px) of padding
+                            between columns. You can customize this spacing using gutter classes.</p>
                     </div>
 
                     <div class="topic-title">Gutter Classes</div>
@@ -1205,9 +1374,21 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td><code>.g-{0-5}</code></td><td>Both horizontal & vertical</td><td>0, 1, 2, 3, 4, 5</td></tr>
-                            <tr><td><code>.gx-{0-5}</code></td><td>Horizontal only</td><td>0, 1, 2, 3, 4, 5</td></tr>
-                            <tr><td><code>.gy-{0-5}</code></td><td>Vertical only</td><td>0, 1, 2, 3, 4, 5</td></tr>
+                            <tr>
+                                <td><code>.g-{0-5}</code></td>
+                                <td>Both horizontal & vertical</td>
+                                <td>0, 1, 2, 3, 4, 5</td>
+                            </tr>
+                            <tr>
+                                <td><code>.gx-{0-5}</code></td>
+                                <td>Horizontal only</td>
+                                <td>0, 1, 2, 3, 4, 5</td>
+                            </tr>
+                            <tr>
+                                <td><code>.gy-{0-5}</code></td>
+                                <td>Vertical only</td>
+                                <td>0, 1, 2, 3, 4, 5</td>
+                            </tr>
                         </tbody>
                     </table>
 
@@ -1229,19 +1410,25 @@
                 <!-- Utilities Section -->
                 <section id="utilities">
                     <h2 class="section-title">🛠️ Utility Classes</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>What are Utility Classes?</h5>
-                        <p>Utility classes are single-purpose classes that apply a specific style. They're the building blocks of rapid development, allowing you to style elements without writing custom CSS. Think of them as CSS shortcuts!</p>
+                        <p>Utility classes are single-purpose classes that apply a specific style. They're the building
+                            blocks of rapid development, allowing you to style elements without writing custom CSS.
+                            Think of them as CSS shortcuts!</p>
                     </div>
 
                     <h3 class="subsection-title">Spacing Utilities</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Spacing</h5>
-                        <p>Spacing utilities control margin and padding. The format is: <code>{property}{sides}-{size}</code> or <code>{property}{sides}-{breakpoint}-{size}</code></p>
+                        <p>Spacing utilities control margin and padding. The format is:
+                            <code>{property}{sides}-{size}</code> or <code>{property}{sides}-{breakpoint}-{size}</code>
+                        </p>
                         <p><strong>Property:</strong> <code>m</code> (margin) or <code>p</code> (padding)</p>
-                        <p><strong>Sides:</strong> <code>t</code> (top), <code>b</code> (bottom), <code>s</code> (start/left), <code>e</code> (end/right), <code>x</code> (horizontal), <code>y</code> (vertical), or blank (all sides)</p>
+                        <p><strong>Sides:</strong> <code>t</code> (top), <code>b</code> (bottom), <code>s</code>
+                            (start/left), <code>e</code> (end/right), <code>x</code> (horizontal), <code>y</code>
+                            (vertical), or blank (all sides)</p>
                         <p><strong>Size:</strong> 0, 1, 2, 3, 4, 5, or auto</p>
                     </div>
 
@@ -1254,12 +1441,36 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr><td>0</td><td>0</td><td>0px</td></tr>
-                            <tr><td>1</td><td>0.25rem</td><td>4px</td></tr>
-                            <tr><td>2</td><td>0.5rem</td><td>8px</td></tr>
-                            <tr><td>3</td><td>1rem</td><td>16px</td></tr>
-                            <tr><td>4</td><td>1.5rem</td><td>24px</td></tr>
-                            <tr><td>5</td><td>3rem</td><td>48px</td></tr>
+                            <tr>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0px</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>0.25rem</td>
+                                <td>4px</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>0.5rem</td>
+                                <td>8px</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>1rem</td>
+                                <td>16px</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>1.5rem</td>
+                                <td>24px</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>3rem</td>
+                                <td>48px</td>
+                            </tr>
                         </tbody>
                     </table>
 
@@ -1278,10 +1489,13 @@
                     </div>
 
                     <h3 class="subsection-title">Display Utilities</h3>
-                    
+
                     <div class="explanation-box">
-                        <p>Control the display property of elements. Format: <code>.d-{value}</code> or <code>.d-{breakpoint}-{value}</code></p>
-                        <p><strong>Values:</strong> none, inline, inline-block, block, grid, table, table-cell, table-row, flex, inline-flex</p>
+                        <p>Control the display property of elements. Format: <code>.d-{value}</code> or
+                            <code>.d-{breakpoint}-{value}</code>
+                        </p>
+                        <p><strong>Values:</strong> none, inline, inline-block, block, grid, table, table-cell,
+                            table-row, flex, inline-flex</p>
                     </div>
 
                     <div class="example-box">
@@ -1300,10 +1514,11 @@
                     </div>
 
                     <h3 class="subsection-title">Flexbox Utilities</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Flexbox Made Easy</h5>
-                        <p>Bootstrap provides comprehensive flexbox utilities. First, make an element a flex container with <code>.d-flex</code>, then use these utilities to control layout.</p>
+                        <p>Bootstrap provides comprehensive flexbox utilities. First, make an element a flex container
+                            with <code>.d-flex</code>, then use these utilities to control layout.</p>
                     </div>
 
                     <div class="topic-title">Flex Direction</div>
@@ -1327,7 +1542,7 @@
 &lt;div class="d-flex align-items-stretch"&gt;Items stretched&lt;/div&gt;</code></pre>
 
                     <h3 class="subsection-title">Text Utilities</h3>
-                    
+
                     <div class="topic-title">Text Alignment</div>
                     <pre><code>&lt;p class="text-start"&gt;Left aligned text&lt;/p&gt;
 &lt;p class="text-center"&gt;Center aligned text&lt;/p&gt;
@@ -1357,7 +1572,7 @@
 &lt;p class="fs-6"&gt;Font size 6 (smallest)&lt;/p&gt;</code></pre>
 
                     <h3 class="subsection-title">Color Utilities</h3>
-                    
+
                     <div class="topic-title">Text Colors</div>
                     <div class="visual-demo">
                         <p class="text-primary">Primary text</p>
@@ -1389,16 +1604,19 @@
                 <!-- Components Section -->
                 <section id="components">
                     <h2 class="section-title">🧩 Bootstrap Components</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>What are Components?</h5>
-                        <p>Components are pre-built, reusable UI elements that combine HTML, CSS, and sometimes JavaScript. They provide consistent, professional-looking interfaces with minimal effort.</p>
+                        <p>Components are pre-built, reusable UI elements that combine HTML, CSS, and sometimes
+                            JavaScript. They provide consistent, professional-looking interfaces with minimal effort.
+                        </p>
                     </div>
 
                     <h3 class="subsection-title">Buttons</h3>
-                    
+
                     <div class="explanation-box">
-                        <p>Buttons are one of the most used components. Bootstrap provides extensive button styling with semantic colors, sizes, and states.</p>
+                        <p>Buttons are one of the most used components. Bootstrap provides extensive button styling with
+                            semantic colors, sizes, and states.</p>
                     </div>
 
                     <div class="topic-title">Button Variants</div>
@@ -1433,20 +1651,24 @@
                     </div>
 
                     <h3 class="subsection-title">Cards</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Cards</h5>
-                        <p>Cards are flexible content containers with multiple variants and options. They can include headers, footers, images, and various content types. Perfect for displaying products, articles, profiles, and more.</p>
+                        <p>Cards are flexible content containers with multiple variants and options. They can include
+                            headers, footers, images, and various content types. Perfect for displaying products,
+                            articles, profiles, and more.</p>
                     </div>
 
                     <div class="visual-demo">
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="card">
-                                    <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Card image">
+                                    <img src="https://via.placeholder.com/300x200" class="card-img-top"
+                                        alt="Card image">
                                     <div class="card-body">
                                         <h5 class="card-title">Card Title</h5>
-                                        <p class="card-text">This is a basic card with an image, title, text, and button.</p>
+                                        <p class="card-text">This is a basic card with an image, title, text, and
+                                            button.</p>
                                         <a href="#" class="btn btn-primary">Learn More</a>
                                     </div>
                                 </div>
@@ -1456,7 +1678,8 @@
                                     <div class="card-header">Featured</div>
                                     <div class="card-body">
                                         <h5 class="card-title">Card with Header</h5>
-                                        <p class="card-text">Cards can have headers and footers for additional context.</p>
+                                        <p class="card-text">Cards can have headers and footers for additional context.
+                                        </p>
                                     </div>
                                     <div class="card-footer text-muted">2 days ago</div>
                                 </div>
@@ -1483,9 +1706,10 @@
 &lt;/div&gt;</code></pre>
 
                     <h3 class="subsection-title">Alerts</h3>
-                    
+
                     <div class="explanation-box">
-                        <p>Alerts provide contextual feedback messages for user actions. They're perfect for success messages, warnings, errors, and informational notices.</p>
+                        <p>Alerts provide contextual feedback messages for user actions. They're perfect for success
+                            messages, warnings, errors, and informational notices.</p>
                     </div>
 
                     <div class="visual-demo">
@@ -1504,9 +1728,10 @@
                     </div>
 
                     <h3 class="subsection-title">Badges</h3>
-                    
+
                     <div class="explanation-box">
-                        <p>Badges are small count and labeling components. They scale to match the size of their parent element.</p>
+                        <p>Badges are small count and labeling components. They scale to match the size of their parent
+                            element.</p>
                     </div>
 
                     <div class="visual-demo">
@@ -1519,45 +1744,54 @@
                     </div>
 
                     <h3 class="subsection-title">Accordion</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Accordions</h5>
-                        <p>Accordions are vertically collapsing elements perfect for FAQs, menus, and content organization. They save space by showing only one section at a time.</p>
+                        <p>Accordions are vertically collapsing elements perfect for FAQs, menus, and content
+                            organization. They save space by showing only one section at a time.</p>
                     </div>
 
                     <div class="visual-demo">
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">
                                         What is Bootstrap?
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Bootstrap is a powerful front-end framework for building responsive websites quickly.
+                                        Bootstrap is a powerful front-end framework for building responsive websites
+                                        quickly.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo">
                                         Why use Bootstrap?
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Bootstrap provides pre-built components, responsive grid system, and consistent design patterns.
+                                        Bootstrap provides pre-built components, responsive grid system, and consistent
+                                        design patterns.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
                                 <h2 class="accordion-header">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree">
                                         Is Bootstrap free?
                                     </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
                                         Yes! Bootstrap is completely free and open-source under the MIT license.
                                     </div>
@@ -1598,16 +1832,18 @@
                     </div>
 
                     <h3 class="subsection-title">Carousel</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Image Sliders Made Easy</h5>
-                        <p>Carousels are slideshow components for cycling through images, text, or custom content. Perfect for hero sections, product showcases, and testimonials.</p>
+                        <p>Carousels are slideshow components for cycling through images, text, or custom content.
+                            Perfect for hero sections, product showcases, and testimonials.</p>
                     </div>
 
                     <div class="visual-demo">
                         <div id="carouselDemo" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="0"
+                                    class="active"></button>
                                 <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="1"></button>
                                 <button type="button" data-bs-target="#carouselDemo" data-bs-slide-to="2"></button>
                             </div>
@@ -1631,32 +1867,38 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo" data-bs-slide="prev">
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselDemo"
+                                data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon"></span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo" data-bs-slide="next">
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselDemo"
+                                data-bs-slide="next">
                                 <span class="carousel-control-next-icon"></span>
                             </button>
                         </div>
                     </div>
 
                     <h3 class="subsection-title">Tabs and Pills</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Tabbed Navigation</h5>
-                        <p>Tabs organize content into separate views that users can switch between. Perfect for settings pages, product details, and multi-step forms.</p>
+                        <p>Tabs organize content into separate views that users can switch between. Perfect for settings
+                            pages, product details, and multi-step forms.</p>
                     </div>
 
                     <div class="visual-demo">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button">Home</button>
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home-tab-pane" type="button">Home</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button">Profile</button>
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#profile-tab-pane" type="button">Profile</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button">Contact</button>
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab"
+                                    data-bs-target="#contact-tab-pane" type="button">Contact</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
@@ -1695,10 +1937,11 @@
 &lt;/div&gt;</code></pre>
 
                     <h3 class="subsection-title">Toasts</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Lightweight Notifications</h5>
-                        <p>Toasts are lightweight notifications designed to mimic push notifications. They're perfect for success messages, updates, and non-intrusive alerts.</p>
+                        <p>Toasts are lightweight notifications designed to mimic push notifications. They're perfect
+                            for success messages, updates, and non-intrusive alerts.</p>
                     </div>
 
                     <div class="visual-demo">
@@ -1740,14 +1983,16 @@ toast.show();
 &lt;/script&gt;</code></pre>
 
                     <h3 class="subsection-title">Offcanvas</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Sidebar Panels</h5>
-                        <p>Offcanvas components are hidden sidebars that slide in from the edge of the viewport. Perfect for mobile menus, filters, shopping carts, and settings panels.</p>
+                        <p>Offcanvas components are hidden sidebars that slide in from the edge of the viewport. Perfect
+                            for mobile menus, filters, shopping carts, and settings panels.</p>
                     </div>
 
                     <div class="visual-demo">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample">
                             Open Offcanvas
                         </button>
                         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample">
@@ -1795,10 +2040,11 @@ toast.show();
                     </div>
 
                     <h3 class="subsection-title">Progress Bars</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Visual Progress Indicators</h5>
-                        <p>Progress bars show the completion status of tasks, uploads, downloads, or multi-step processes.</p>
+                        <p>Progress bars show the completion status of tasks, uploads, downloads, or multi-step
+                            processes.</p>
                     </div>
 
                     <div class="visual-demo">
@@ -1812,15 +2058,17 @@ toast.show();
                             <div class="progress-bar bg-info" style="width: 75%">75%</div>
                         </div>
                         <div class="progress mb-3" role="progressbar">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">Loading...</div>
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%">
+                                Loading...</div>
                         </div>
                     </div>
 
                     <h3 class="subsection-title">Spinners</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Loading Indicators</h5>
-                        <p>Spinners indicate loading states. They're lightweight, built with HTML and CSS, and require no JavaScript.</p>
+                        <p>Spinners indicate loading states. They're lightweight, built with HTML and CSS, and require
+                            no JavaScript.</p>
                     </div>
 
                     <div class="visual-demo">
@@ -1837,10 +2085,11 @@ toast.show();
                     </div>
 
                     <h3 class="subsection-title">Navbar</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Building Navigation</h5>
-                        <p>Navbars are responsive navigation headers. They collapse on mobile and expand on larger screens. Essential for any website!</p>
+                        <p>Navbars are responsive navigation headers. They collapse on mobile and expand on larger
+                            screens. Essential for any website!</p>
                     </div>
 
                     <pre><code>&lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
@@ -1881,14 +2130,16 @@ toast.show();
                     </div>
 
                     <h3 class="subsection-title">Modal</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Modals</h5>
-                        <p>Modals are dialog boxes that appear on top of the page content. Perfect for forms, confirmations, alerts, or any content that needs user attention.</p>
+                        <p>Modals are dialog boxes that appear on top of the page content. Perfect for forms,
+                            confirmations, alerts, or any content that needs user attention.</p>
                     </div>
 
                     <div class="visual-demo">
-                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
                             Launch Demo Modal
                         </button>
                     </div>
@@ -1926,14 +2177,15 @@ toast.show();
                 <!-- Forms Section -->
                 <section id="forms">
                     <h2 class="section-title">📝 Forms</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>Bootstrap Form System</h5>
-                        <p>Bootstrap provides comprehensive form styling that's consistent across browsers and devices. Forms are essential for user input, and Bootstrap makes them beautiful and functional.</p>
+                        <p>Bootstrap provides comprehensive form styling that's consistent across browsers and devices.
+                            Forms are essential for user input, and Bootstrap makes them beautiful and functional.</p>
                     </div>
 
                     <h3 class="subsection-title">Form Controls</h3>
-                    
+
                     <div class="topic-title">Text Inputs</div>
                     <div class="visual-demo">
                         <div class="mb-3">
@@ -2023,7 +2275,8 @@ toast.show();
 
                     <div class="topic-title">Input Groups</div>
                     <div class="explanation-box">
-                        <p>Input groups allow you to add text, buttons, or button groups on either side of textual inputs.</p>
+                        <p>Input groups allow you to add text, buttons, or button groups on either side of textual
+                            inputs.</p>
                     </div>
                     <div class="visual-demo">
                         <div class="input-group mb-3">
@@ -2043,7 +2296,8 @@ toast.show();
 
                     <div class="topic-title">Floating Labels</div>
                     <div class="explanation-box">
-                        <p>Floating labels are a modern design pattern where the label floats above the input when focused or filled.</p>
+                        <p>Floating labels are a modern design pattern where the label floats above the input when
+                            focused or filled.</p>
                     </div>
                     <div class="visual-demo">
                         <div class="form-floating mb-3">
@@ -2109,12 +2363,15 @@ toast.show();
                 <!-- Data Attributes Section -->
                 <section id="data-attributes" class="mt-5">
                     <h2 class="section-title">🔧 Bootstrap Data Attributes - Complete Guide</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>What are Data Attributes?</h5>
-                        <p>Data attributes are HTML5 attributes that start with <code>data-</code>. Bootstrap uses them extensively to add JavaScript functionality without writing any JavaScript code. They're the magic that makes Bootstrap components interactive!</p>
+                        <p>Data attributes are HTML5 attributes that start with <code>data-</code>. Bootstrap uses them
+                            extensively to add JavaScript functionality without writing any JavaScript code. They're the
+                            magic that makes Bootstrap components interactive!</p>
                         <p><strong>Format:</strong> <code>data-bs-{functionality}="{value}"</code></p>
-                        <p><strong>Why "bs"?</strong> The "bs" prefix stands for "Bootstrap" and prevents conflicts with other libraries.</p>
+                        <p><strong>Why "bs"?</strong> The "bs" prefix stands for "Bootstrap" and prevents conflicts with
+                            other libraries.</p>
                     </div>
 
                     <h3 class="subsection-title">Core Data Attributes</h3>
@@ -2122,8 +2379,10 @@ toast.show();
                     <div class="topic-title">1. data-bs-toggle</div>
                     <div class="explanation-box">
                         <h5>Purpose</h5>
-                        <p>Activates a Bootstrap JavaScript component. This is the most commonly used data attribute.</p>
-                        <p><strong>How it works:</strong> When you click an element with <code>data-bs-toggle</code>, Bootstrap automatically initializes and shows the specified component.</p>
+                        <p>Activates a Bootstrap JavaScript component. This is the most commonly used data attribute.
+                        </p>
+                        <p><strong>How it works:</strong> When you click an element with <code>data-bs-toggle</code>,
+                            Bootstrap automatically initializes and shows the specified component.</p>
                     </div>
 
                     <table class="table table-bordered comparison-table">
@@ -2210,8 +2469,11 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Specifies which element to target/control. Works with CSS selectors (ID or class).</p>
-                        <p><strong>How it works:</strong> Points to the element that should be affected by the toggle action.</p>
-                        <p><strong>Format:</strong> <code>data-bs-target="#elementId"</code> or <code>data-bs-target=".className"</code></p>
+                        <p><strong>How it works:</strong> Points to the element that should be affected by the toggle
+                            action.</p>
+                        <p><strong>Format:</strong> <code>data-bs-target="#elementId"</code> or
+                            <code>data-bs-target=".className"</code>
+                        </p>
                     </div>
 
                     <div class="example-box">
@@ -2240,18 +2502,23 @@ toast.show();
                     <div class="why-box">
                         <h5>Why Use data-bs-target Instead of href?</h5>
                         <ul>
-                            <li><strong>Semantic Clarity:</strong> Makes it clear this is a JavaScript action, not a link</li>
-                            <li><strong>Works on Any Element:</strong> Can be used on buttons, divs, spans, not just links</li>
+                            <li><strong>Semantic Clarity:</strong> Makes it clear this is a JavaScript action, not a
+                                link</li>
+                            <li><strong>Works on Any Element:</strong> Can be used on buttons, divs, spans, not just
+                                links</li>
                             <li><strong>Better Accessibility:</strong> Screen readers understand the purpose better</li>
-                            <li><strong>No Page Jump:</strong> Prevents unwanted scrolling that can happen with href="#id"</li>
+                            <li><strong>No Page Jump:</strong> Prevents unwanted scrolling that can happen with
+                                href="#id"</li>
                         </ul>
                     </div>
 
                     <div class="topic-title">3. data-bs-dismiss</div>
                     <div class="explanation-box">
                         <h5>Purpose</h5>
-                        <p>Closes/dismisses a component. Essential for close buttons in modals, alerts, toasts, and offcanvas.</p>
-                        <p><strong>How it works:</strong> When clicked, automatically closes the parent component without needing JavaScript.</p>
+                        <p>Closes/dismisses a component. Essential for close buttons in modals, alerts, toasts, and
+                            offcanvas.</p>
+                        <p><strong>How it works:</strong> When clicked, automatically closes the parent component
+                            without needing JavaScript.</p>
                     </div>
 
                     <table class="table table-bordered comparison-table">
@@ -2314,7 +2581,8 @@ toast.show();
                     <div class="topic-title">4. data-bs-slide</div>
                     <div class="explanation-box">
                         <h5>Purpose</h5>
-                        <p>Controls carousel navigation. Tells the carousel which direction to slide or which slide to show.</p>
+                        <p>Controls carousel navigation. Tells the carousel which direction to slide or which slide to
+                            show.</p>
                     </div>
 
                     <table class="table table-bordered comparison-table">
@@ -2365,7 +2633,8 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Jumps to a specific slide in a carousel by index (starting from 0).</p>
-                        <p><strong>How it works:</strong> Creates indicator dots or numbered buttons that jump directly to specific slides.</p>
+                        <p><strong>How it works:</strong> Creates indicator dots or numbered buttons that jump directly
+                            to specific slides.</p>
                     </div>
 
                     <div class="example-box">
@@ -2468,8 +2737,10 @@ toast.show();
                     <div class="topic-title">8. data-bs-parent</div>
                     <div class="explanation-box">
                         <h5>Purpose</h5>
-                        <p>Creates accordion behavior by ensuring only one collapse element is open at a time within a parent container.</p>
-                        <p><strong>How it works:</strong> When you open one item, all other items with the same parent automatically close.</p>
+                        <p>Creates accordion behavior by ensuring only one collapse element is open at a time within a
+                            parent container.</p>
+                        <p><strong>How it works:</strong> When you open one item, all other items with the same parent
+                            automatically close.</p>
                     </div>
 
                     <div class="example-box">
@@ -2511,7 +2782,8 @@ toast.show();
                     <div class="topic-title">9. data-bs-theme</div>
                     <div class="explanation-box">
                         <h5>Purpose (NEW in Bootstrap 5.3)</h5>
-                        <p>Enables color mode switching between light and dark themes. This is a game-changer for modern web design!</p>
+                        <p>Enables color mode switching between light and dark themes. This is a game-changer for modern
+                            web design!</p>
                         <p><strong>Values:</strong> <code>light</code>, <code>dark</code>, or <code>auto</code></p>
                     </div>
 
@@ -2566,7 +2838,9 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Controls where tooltips and popovers appear relative to their trigger element.</p>
-                        <p><strong>Values:</strong> <code>top</code>, <code>bottom</code>, <code>left</code>, <code>right</code>, <code>auto</code></p>
+                        <p><strong>Values:</strong> <code>top</code>, <code>bottom</code>, <code>left</code>,
+                            <code>right</code>, <code>auto</code>
+                        </p>
                     </div>
 
                     <div class="example-box">
@@ -2595,30 +2869,35 @@ toast.show();
                 <!-- Best Practices Section -->
                 <section id="best-practices" class="mt-5">
                     <h2 class="section-title">✨ Best Practices & Tips</h2>
-                    
+
                     <div class="key-point">
                         <strong>1. Mobile-First Approach</strong>
-                        <p>Always design for mobile first, then add breakpoints for larger screens. This ensures your site works on all devices.</p>
+                        <p>Always design for mobile first, then add breakpoints for larger screens. This ensures your
+                            site works on all devices.</p>
                     </div>
 
                     <div class="key-point">
                         <strong>2. Use Semantic HTML</strong>
-                        <p>Use appropriate HTML elements (nav, header, footer, article, section) along with Bootstrap classes for better accessibility and SEO.</p>
+                        <p>Use appropriate HTML elements (nav, header, footer, article, section) along with Bootstrap
+                            classes for better accessibility and SEO.</p>
                     </div>
 
                     <div class="key-point">
                         <strong>3. Don't Override Core Bootstrap</strong>
-                        <p>Instead of modifying Bootstrap's CSS, use custom classes or CSS variables to customize your design.</p>
+                        <p>Instead of modifying Bootstrap's CSS, use custom classes or CSS variables to customize your
+                            design.</p>
                     </div>
 
                     <div class="key-point">
                         <strong>4. Leverage Utility Classes</strong>
-                        <p>Before writing custom CSS, check if Bootstrap has a utility class that does what you need.</p>
+                        <p>Before writing custom CSS, check if Bootstrap has a utility class that does what you need.
+                        </p>
                     </div>
 
                     <div class="key-point">
                         <strong>5. Test Responsiveness</strong>
-                        <p>Always test your layouts on different screen sizes using browser dev tools or real devices.</p>
+                        <p>Always test your layouts on different screen sizes using browser dev tools or real devices.
+                        </p>
                     </div>
 
                     <div class="key-point">
@@ -2628,7 +2907,8 @@ toast.show();
 
                     <div class="key-point">
                         <strong>7. Performance Optimization</strong>
-                        <p>Only include the Bootstrap components you need. Consider using a custom build or tree-shaking with a bundler.</p>
+                        <p>Only include the Bootstrap components you need. Consider using a custom build or tree-shaking
+                            with a bundler.</p>
                     </div>
 
                 </section>
@@ -2640,7 +2920,8 @@ toast.show();
                     <div class="topic-title">11. data-bs-title</div>
                     <div class="explanation-box">
                         <h5>Purpose</h5>
-                        <p>Sets the title/content for tooltips. Replaces the old <code>title</code> attribute for better control.</p>
+                        <p>Sets the title/content for tooltips. Replaces the old <code>title</code> attribute for better
+                            control.</p>
                     </div>
                     <pre><code>&lt;button data-bs-toggle="tooltip" data-bs-title="This is the tooltip text"&gt;
     Hover for tooltip
@@ -2661,7 +2942,9 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Defines how tooltips and popovers are triggered.</p>
-                        <p><strong>Values:</strong> <code>click</code>, <code>hover</code>, <code>focus</code>, <code>manual</code>, or combinations like <code>hover focus</code></p>
+                        <p><strong>Values:</strong> <code>click</code>, <code>hover</code>, <code>focus</code>,
+                            <code>manual</code>, or combinations like <code>hover focus</code>
+                        </p>
                     </div>
                     <pre><code>&lt;!-- Click to show/hide --&gt;
 &lt;button data-bs-toggle="popover" data-bs-trigger="click"&gt;Click me&lt;/button&gt;
@@ -2682,7 +2965,9 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Sets delay (in milliseconds) before showing/hiding tooltips and popovers.</p>
-                        <p><strong>Format:</strong> Single number (same for show/hide) or object <code>{"show":500,"hide":100}</code></p>
+                        <p><strong>Format:</strong> Single number (same for show/hide) or object
+                            <code>{"show":500,"hide":100}</code>
+                        </p>
                     </div>
                     <pre><code>&lt;!-- 500ms delay for both show and hide --&gt;
 &lt;button data-bs-toggle="tooltip" data-bs-delay="500"&gt;Delayed tooltip&lt;/button&gt;
@@ -2793,7 +3078,8 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Sets reference element for dropdown positioning.</p>
-                        <p><strong>Values:</strong> <code>toggle</code> (default), <code>parent</code>, or CSS selector</p>
+                        <p><strong>Values:</strong> <code>toggle</code> (default), <code>parent</code>, or CSS selector
+                        </p>
                     </div>
 
                     <div class="topic-title">23. data-bs-display</div>
@@ -2807,7 +3093,8 @@ toast.show();
                     <div class="explanation-box">
                         <h5>Purpose</h5>
                         <p>Sets overflow constraint boundary for dropdowns and popovers.</p>
-                        <p><strong>Values:</strong> <code>clippingParents</code> (default), <code>viewport</code>, or CSS selector</p>
+                        <p><strong>Values:</strong> <code>clippingParents</code> (default), <code>viewport</code>, or
+                            CSS selector</p>
                     </div>
 
                     <div class="topic-title">25. data-bs-container</div>
@@ -2826,7 +3113,8 @@ toast.show();
                         <h5>Purpose</h5>
                         <p>Allows HTML content in tooltips and popovers.</p>
                         <p><strong>Values:</strong> <code>true</code> or <code>false</code> (default)</p>
-                        <p><strong>⚠️ Security Warning:</strong> Only use with trusted content to prevent XSS attacks!</p>
+                        <p><strong>⚠️ Security Warning:</strong> Only use with trusted content to prevent XSS attacks!
+                        </p>
                     </div>
                     <pre><code>&lt;button data-bs-toggle="tooltip" data-bs-html="true" 
         data-bs-title="&lt;strong&gt;Bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt;"&gt;
@@ -2891,7 +3179,8 @@ toast.show();
                     <div class="why-box">
                         <h5>Why So Many Data Attributes?</h5>
                         <ul>
-                            <li><strong>No JavaScript Required:</strong> Configure complex behaviors without writing code</li>
+                            <li><strong>No JavaScript Required:</strong> Configure complex behaviors without writing
+                                code</li>
                             <li><strong>Declarative:</strong> Behavior is clear from reading the HTML</li>
                             <li><strong>Maintainable:</strong> Easy to modify behavior by changing attributes</li>
                             <li><strong>Flexible:</strong> Mix and match for custom functionality</li>
@@ -2904,10 +3193,11 @@ toast.show();
                 <!-- JavaScript API Section -->
                 <section id="javascript-api" class="mt-5">
                     <h2 class="section-title">⚡ JavaScript API - Advanced Control</h2>
-                    
+
                     <div class="explanation-box">
                         <h5>When to Use JavaScript API</h5>
-                        <p>While data attributes handle most use cases, the JavaScript API gives you programmatic control for:</p>
+                        <p>While data attributes handle most use cases, the JavaScript API gives you programmatic
+                            control for:</p>
                         <ul>
                             <li>Dynamic component creation</li>
                             <li>Responding to events</li>
@@ -2917,7 +3207,7 @@ toast.show();
                     </div>
 
                     <h3 class="subsection-title">Initializing Components</h3>
-                    
+
                     <div class="topic-title">Method 1: Constructor</div>
                     <pre><code>// Get element
 const myModalEl = document.getElementById('myModal');
@@ -2939,7 +3229,7 @@ const modal = bootstrap.Modal.getInstance(myModalEl);
 const modal = bootstrap.Modal.getOrCreateInstance(myModalEl);</code></pre>
 
                     <h3 class="subsection-title">Component Methods</h3>
-                    
+
                     <div class="topic-title">Modal Methods</div>
                     <pre><code>const modal = new bootstrap.Modal('#myModal');
 
@@ -2987,10 +3277,11 @@ carousel.to(2);             // Go to slide index 2
 carousel.dispose();         // Destroy instance</code></pre>
 
                     <h3 class="subsection-title">Component Events</h3>
-                    
+
                     <div class="explanation-box">
                         <h5>Understanding Bootstrap Events</h5>
-                        <p>Bootstrap components fire events at different stages of their lifecycle. You can listen to these events to run custom code.</p>
+                        <p>Bootstrap components fire events at different stages of their lifecycle. You can listen to
+                            these events to run custom code.</p>
                         <p><strong>Event Naming Pattern:</strong> <code>{action}.bs.{component}</code></p>
                     </div>
 
@@ -3116,14 +3407,16 @@ carousel.addEventListener('slide.bs.carousel', function (event) {
                 <!-- Resources Section -->
                 <section id="resources" class="mt-5 mb-5">
                     <h2 class="section-title">📚 Additional Resources</h2>
-                    
+
                     <div class="row">
                         <div class="col-md-6">
                             <div class="card mb-3">
                                 <div class="card-body">
                                     <h5 class="card-title">Official Documentation</h5>
-                                    <p class="card-text">The official Bootstrap documentation is comprehensive and always up-to-date.</p>
-                                    <a href="https://getbootstrap.com/docs/5.3/" target="_blank" class="btn btn-primary">Visit Docs</a>
+                                    <p class="card-text">The official Bootstrap documentation is comprehensive and
+                                        always up-to-date.</p>
+                                    <a href="https://getbootstrap.com/docs/5.3/" target="_blank"
+                                        class="btn btn-primary">Visit Docs</a>
                                 </div>
                             </div>
                         </div>
@@ -3132,7 +3425,8 @@ carousel.addEventListener('slide.bs.carousel', function (event) {
                                 <div class="card-body">
                                     <h5 class="card-title">Bootstrap Icons</h5>
                                     <p class="card-text">Free, high-quality icon library designed for Bootstrap.</p>
-                                    <a href="https://icons.getbootstrap.com/" target="_blank" class="btn btn-primary">Browse Icons</a>
+                                    <a href="https://icons.getbootstrap.com/" target="_blank"
+                                        class="btn btn-primary">Browse Icons</a>
                                 </div>
                             </div>
                         </div>
@@ -3150,181 +3444,183 @@ carousel.addEventListener('slide.bs.carousel', function (event) {
                     </div>
                 </section>
 
+        </div>
+        </div>
+        </div>
+
+        <!-- Modal Example -->
+        <div class="modal fade" id="exampleModal" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Example Modal</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This is a working example of a Bootstrap modal. Modals are perfect for displaying content
+                            that requires user attention without leaving the current page.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Modal Example -->
-    <div class="modal fade" id="exampleModal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Example Modal</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="modal-body">
-                    <p>This is a working example of a Bootstrap modal. Modals are perfect for displaying content that requires user attention without leaving the current page.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
+        <!-- Footer -->
+        <div id="footer-placeholder"></div>
+
+        <!-- Scroll to Top Button -->
+        <div class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+            ↑
         </div>
-    </div>
 
-    <!-- Footer -->
-    <div id="footer-placeholder"></div>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Scroll to Top Button -->
-    <div class="scroll-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-        ↑
-    </div>
+        <!-- Components Loader -->
+        <script src="/js/callback-modal.js"></script>
+        <script src="/src/js/components-loader.js"></script>
 
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    
-    <!-- Components Loader -->
-    <script src="/js/callback-modal.js"></script>
-    <script src="/src/js/components-loader.js"></script>
-    
-    <!-- Custom JavaScript -->
-    <script>
-        // Load navigation and footer components
-        document.addEventListener('DOMContentLoaded', function() {
-            // Load components
-            loadComponent('nav-placeholder', '/components/nav.html');
-            loadComponent('footer-placeholder', '/components/footer.html');
-        });
+        <!-- Custom JavaScript -->
+        <script>
+            // Load navigation and footer components
+            document.addEventListener('DOMContentLoaded', function () {
+                // Load components
+                loadComponent('nav-placeholder', '/components/nav.html');
+                loadComponent('footer-placeholder', '/components/footer.html');
+            });
 
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    // Account for sticky navbar height
-                    const navbarHeight = 120; // Adjust based on your navbar height
-                    const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
-                    window.scrollTo({
-                        top: targetPosition,
-                        behavior: 'smooth'
-                    });
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        // Account for sticky navbar height
+                        const navbarHeight = 120; // Adjust based on your navbar height
+                        const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Show/hide scroll to top button
+            window.addEventListener('scroll', function () {
+                const scrollButton = document.querySelector('.scroll-to-top');
+                if (scrollButton) {
+                    if (window.pageYOffset > 300) {
+                        scrollButton.style.display = 'flex';
+                    } else {
+                        scrollButton.style.display = 'none';
+                    }
                 }
             });
-        });
 
-        // Show/hide scroll to top button
-        window.addEventListener('scroll', function() {
-            const scrollButton = document.querySelector('.scroll-to-top');
-            if (scrollButton) {
-                if (window.pageYOffset > 300) {
-                    scrollButton.style.display = 'flex';
-                } else {
-                    scrollButton.style.display = 'none';
-                }
-            }
-        });
+            // Toast demo
+            const toastTrigger = document.getElementById('liveToastBtn');
+            const toastLiveExample = document.getElementById('liveToast');
 
-        // Toast demo
-        const toastTrigger = document.getElementById('liveToastBtn');
-        const toastLiveExample = document.getElementById('liveToast');
-        
-        if (toastTrigger) {
-            toastTrigger.addEventListener('click', () => {
-                const toast = new bootstrap.Toast(toastLiveExample);
-                toast.show();
-            });
-        }
-
-        // Initialize all tooltips
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
-
-        // Initialize all popovers
-        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
-        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
-
-        // Track page view for analytics
-        if (typeof gtag !== 'undefined') {
-            gtag('event', 'page_view', {
-                page_title: 'Bootstrap 5.3 Guide',
-                page_location: window.location.href,
-                page_path: '/bootstrap'
-            });
-        }
-
-        // Track scroll depth
-        let maxScroll = 0;
-        window.addEventListener('scroll', function() {
-            const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-            if (scrollPercent > maxScroll) {
-                maxScroll = Math.floor(scrollPercent / 25) * 25; // Track in 25% increments
-                if (typeof gtag !== 'undefined' && maxScroll > 0) {
-                    gtag('event', 'scroll_depth', {
-                        event_category: 'engagement',
-                        event_label: maxScroll + '%',
-                        value: maxScroll
-                    });
-                }
-            }
-        });
-
-        // Track section views
-        const observerOptions = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.5
-        };
-
-        const sectionObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting && typeof gtag !== 'undefined') {
-                    const sectionId = entry.target.id;
-                    gtag('event', 'section_view', {
-                        event_category: 'engagement',
-                        event_label: sectionId
-                    });
-                }
-            });
-        }, observerOptions);
-
-        // Observe all major sections
-        document.querySelectorAll('section[id]').forEach(section => {
-            sectionObserver.observe(section);
-        });
-
-        // Track code copy events
-        document.querySelectorAll('pre code').forEach(codeBlock => {
-            codeBlock.addEventListener('click', function() {
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'code_interaction', {
-                        event_category: 'engagement',
-                        event_label: 'code_click'
-                    });
-                }
-            });
-        });
-    </script>
-    
-    <!-- Google Analytics (if you have it) -->
-    <!-- Add your Google Analytics code here -->
-    
-    <!-- Performance Monitoring -->
-    <script>
-        // Log page load performance
-        window.addEventListener('load', function() {
-            if (window.performance && typeof gtag !== 'undefined') {
-                const perfData = window.performance.timing;
-                const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
-                gtag('event', 'timing_complete', {
-                    name: 'page_load',
-                    value: pageLoadTime,
-                    event_category: 'performance'
+            if (toastTrigger) {
+                toastTrigger.addEventListener('click', () => {
+                    const toast = new bootstrap.Toast(toastLiveExample);
+                    toast.show();
                 });
             }
-        });
-    </script>
+
+            // Initialize all tooltips
+            const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+            const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl));
+
+            // Initialize all popovers
+            const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]');
+            const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl));
+
+            // Track page view for analytics
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'page_view', {
+                    page_title: 'Bootstrap 5.3 Guide',
+                    page_location: window.location.href,
+                    page_path: '/bootstrap'
+                });
+            }
+
+            // Track scroll depth
+            let maxScroll = 0;
+            window.addEventListener('scroll', function () {
+                const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+                if (scrollPercent > maxScroll) {
+                    maxScroll = Math.floor(scrollPercent / 25) * 25; // Track in 25% increments
+                    if (typeof gtag !== 'undefined' && maxScroll > 0) {
+                        gtag('event', 'scroll_depth', {
+                            event_category: 'engagement',
+                            event_label: maxScroll + '%',
+                            value: maxScroll
+                        });
+                    }
+                }
+            });
+
+            // Track section views
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.5
+            };
+
+            const sectionObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && typeof gtag !== 'undefined') {
+                        const sectionId = entry.target.id;
+                        gtag('event', 'section_view', {
+                            event_category: 'engagement',
+                            event_label: sectionId
+                        });
+                    }
+                });
+            }, observerOptions);
+
+            // Observe all major sections
+            document.querySelectorAll('section[id]').forEach(section => {
+                sectionObserver.observe(section);
+            });
+
+            // Track code copy events
+            document.querySelectorAll('pre code').forEach(codeBlock => {
+                codeBlock.addEventListener('click', function () {
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'code_interaction', {
+                            event_category: 'engagement',
+                            event_label: 'code_click'
+                        });
+                    }
+                });
+            });
+        </script>
+
+        <!-- Google Analytics (if you have it) -->
+        <!-- Add your Google Analytics code here -->
+
+        <!-- Performance Monitoring -->
+        <script>
+            // Log page load performance
+            window.addEventListener('load', function () {
+                if (window.performance && typeof gtag !== 'undefined') {
+                    const perfData = window.performance.timing;
+                    const pageLoadTime = perfData.loadEventEnd - perfData.navigationStart;
+                    gtag('event', 'timing_complete', {
+                        name: 'page_load',
+                        value: pageLoadTime,
+                        event_category: 'performance'
+                    });
+                }
+            });
+        </script>
 
 </body>
+
 </html>

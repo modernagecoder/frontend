@@ -38,8 +38,13 @@
 /bootstrap /src/pages/bootstrap.html 200
 /love /lovewall/dist/index.html 200
 /blog /content/blog/generated/index.html 200
+/success-stories /src/pages/success-stories.html 200
+/free-resources /src/pages/free-resources.html 200
 
-
+# Additional pages (clean URLs)
+/projects /src/pages/projects.html 200
+/student-projects /src/pages/student-projects-standalone.html 200
+/check-status /src/pages/check-status.html 200
 
 # City Landing Pages - SEO Optimized
 /best-coding-class-in-kolkata /src/pages/best-coding-class-in-kolkata.html 200

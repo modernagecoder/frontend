@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Free Programming Resources | Official Documentation & Learning Platforms | Modern Age Coders</title>
+    <meta name="description"
+        content="Curated collection of official programming documentation and trusted learning platforms. Access Python, JavaScript, Java, React documentation and more - all free.">
+    <meta name="keywords"
+        content="programming documentation, python docs, javascript MDN, java oracle docs, react documentation, free coding resources, learn programming, developer resources">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/free-resources">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <meta name="theme-color" content="#a855f7">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/free-resources">
+    <meta property="og:title" content="Free Programming Resources | Modern Age Coders">
+    <meta property="og:description"
+        content="Curated official documentation and trusted learning platforms for developers.">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Free Programming Resources",
+        "description": "Curated collection of official programming documentation and trusted learning platforms",
+        "url": "https://learn.modernagecoders.com/free-resources",
+        "provider": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com"
+        }
+    }
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        .resources-page {
+            --primary: #a855f7;
+            --primary-dark: #7c3aed;
+            --teal: #14b8a6;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --card-bg: rgba(15, 23, 42, 0.8);
+            --card-border: rgba(148, 163, 184, 0.1);
+            --card-hover: rgba(168, 85, 247, 0.1);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        .hero {
+            padding: 5rem 2rem 3rem;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            background: rgba(168, 85, 247, 0.15);
+            border: 1px solid rgba(168, 85, 247, 0.3);
+            border-radius: 100px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 4vw, 2.75rem);
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero p {
+            font-size: 1.125rem;
+            color: var(--text-muted);
+            line-height: 1.7;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem 4rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            margin: 3rem 0 1.25rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .section-header:first-child {
+            margin-top: 0;
+        }
+
+        .section-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section-icon svg {
+            width: 20px;
+            height: 20px;
+            stroke: white;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .section-header h2 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            display: block;
+        }
+
+        .card:hover {
+            border-color: var(--primary);
+            background: var(--card-hover);
+            transform: translateY(-2px);
+        }
+
+        .card-top {
+            display: flex;
+            align-items: center;
+            gap: 0.875rem;
+            margin-bottom: 0.875rem;
+        }
+
+        .card-logo {
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.875rem;
+            flex-shrink: 0;
+        }
+
+        .card-info h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text);
+            margin: 0 0 0.125rem;
+        }
+
+        .card-info span {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .card p {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin: 0 0 1rem;
+        }
+
+        .card-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.375rem;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--teal);
+            transition: color 0.2s;
+        }
+
+        .card:hover .card-link {
+            color: #2dd4bf;
+        }
+
+        .card-link svg {
+            width: 14px;
+            height: 14px;
+            stroke: currentColor;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .official-badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            background: rgba(20, 184, 166, 0.15);
+            border-radius: 4px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            color: var(--teal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-left: auto;
+        }
+
+        @media (max-width: 640px) {
+            .hero {
+                padding: 3rem 1.5rem 2rem;
+            }
+
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+
+            .content {
+                padding: 0 1rem 3rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body class="resources-page">
+    <a href="#main" class="skip-link">Skip to main content</a>
+    <div id="nav-placeholder"></div>
+
+    <main id="main">
+        <section class="hero">
+            <span class="hero-badge">Curated Learning Resources</span>
+            <h1>Official Documentation & Trusted Platforms</h1>
+            <p>We've compiled the most reliable programming resources from official sources. Learn directly from the
+                creators of the technologies you use.</p>
+        </section>
+
+        <section class="content">
+            <!-- Programming Languages -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M16 18l6-6-6-6M8 6l-6 6 6 6" />
+                    </svg>
+                </div>
+                <h2>Programming Languages</h2>
+            </div>
+            <div class="grid">
+                <a href="https://docs.python.org/3/tutorial/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo"
+                            style="background: linear-gradient(135deg, #3776ab, #ffd43b); color: #fff;">Py</div>
+                        <div class="card-info">
+                            <h3>Python Documentation</h3>
+                            <span>docs.python.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Complete language reference, standard library documentation, and beginner tutorials from the
+                        Python Software Foundation.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                    rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #f7df1e; color: #000;">JS</div>
+                        <div class="card-info">
+                            <h3>JavaScript Reference</h3>
+                            <span>developer.mozilla.org</span>
+                        </div>
+                        <span class="official-badge">MDN</span>
+                    </div>
+                    <p>Mozilla's comprehensive JavaScript documentation - the industry standard reference for web
+                        developers worldwide.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://docs.oracle.com/javase/tutorial/" target="_blank" rel="noopener noreferrer"
+                    class="card">
+                    <div class="card-top">
+                        <div class="card-logo"
+                            style="background: linear-gradient(135deg, #f89820, #5382a1); color: #fff;">Jv</div>
+                        <div class="card-info">
+                            <h3>Java Tutorials</h3>
+                            <span>docs.oracle.com</span>
+                        </div>
+                        <span class="official-badge">Oracle</span>
+                    </div>
+                    <p>Official Java tutorials from Oracle covering core concepts, APIs, and enterprise development
+                        practices.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #00599C; color: #fff;">C++</div>
+                        <div class="card-info">
+                            <h3>C++ Reference</h3>
+                            <span>cppreference.com</span>
+                        </div>
+                        <span class="official-badge">Reference</span>
+                    </div>
+                    <p>The most comprehensive C and C++ language reference with STL documentation and code examples.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://go.dev/doc/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #00ADD8; color: #fff;">Go</div>
+                        <div class="card-info">
+                            <h3>Go Documentation</h3>
+                            <span>go.dev</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Official Go programming language documentation including the tour, effective Go guide, and
+                        standard library.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.rust-lang.org/learn" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #ce422b; color: #fff;">Rs</div>
+                        <div class="card-info">
+                            <h3>Rust Language</h3>
+                            <span>rust-lang.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Learn Rust with "The Book", Rustlings exercises, and comprehensive official documentation.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Web Development -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #10b981, #059669);">
+                    <svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10" />
+                        <path
+                            d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
+                </div>
+                <h2>Web Development</h2>
+            </div>
+            <div class="grid">
+                <a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #04AA6D; color: #fff;">W3</div>
+                        <div class="card-info">
+                            <h3>W3Schools</h3>
+                            <span>w3schools.com</span>
+                        </div>
+                    </div>
+                    <p>The world's largest web developer site with interactive tutorials for HTML, CSS, JavaScript, and
+                        more.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank" rel="noopener noreferrer"
+                    class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #1e3a8a; color: #fff;">MDN</div>
+                        <div class="card-info">
+                            <h3>MDN Web Docs</h3>
+                            <span>developer.mozilla.org</span>
+                        </div>
+                        <span class="official-badge">Mozilla</span>
+                    </div>
+                    <p>Mozilla's structured learning path covering HTML, CSS, JavaScript, accessibility, and web APIs.
+                    </p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #0a0a23; color: #fff;">fCC</div>
+                        <div class="card-info">
+                            <h3>freeCodeCamp</h3>
+                            <span>freecodecamp.org</span>
+                        </div>
+                    </div>
+                    <p>Learn to code for free with 3,000+ hours of curriculum, real projects, and verified
+                        certifications.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #ff7043; color: #fff;">CSS</div>
+                        <div class="card-info">
+                            <h3>CSS-Tricks</h3>
+                            <span>css-tricks.com</span>
+                        </div>
+                    </div>
+                    <p>Tips, tricks, and techniques on CSS. Essential resource for Flexbox, Grid, and modern styling.
+                    </p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Frameworks -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #8b5cf6, #6d28d9);">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                    </svg>
+                </div>
+                <h2>Frameworks & Libraries</h2>
+            </div>
+            <div class="grid">
+                <a href="https://react.dev/learn" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #087ea4; color: #61dafb;">Re</div>
+                        <div class="card-info">
+                            <h3>React</h3>
+                            <span>react.dev</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Official React documentation with interactive tutorials, API reference, and best practices.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://nodejs.org/en/learn" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #3c873a; color: #fff;">No</div>
+                        <div class="card-info">
+                            <h3>Node.js</h3>
+                            <span>nodejs.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Official Node.js documentation for server-side JavaScript, APIs, and the npm ecosystem.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://vuejs.org/guide/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #42b883; color: #35495e;">Vu</div>
+                        <div class="card-info">
+                            <h3>Vue.js</h3>
+                            <span>vuejs.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>The Progressive JavaScript Framework documentation - approachable, performant, and versatile.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://angular.io/docs" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #dd0031; color: #fff;">Ng</div>
+                        <div class="card-info">
+                            <h3>Angular</h3>
+                            <span>angular.io</span>
+                        </div>
+                        <span class="official-badge">Google</span>
+                    </div>
+                    <p>Official Angular documentation for building enterprise-scale web applications with TypeScript.
+                    </p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://docs.djangoproject.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #092e20; color: #fff;">Dj</div>
+                        <div class="card-info">
+                            <h3>Django</h3>
+                            <span>djangoproject.com</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>The high-level Python web framework that encourages rapid development and clean design.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://docs.flutter.dev/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #02569b; color: #54c5f8;">Fl</div>
+                        <div class="card-info">
+                            <h3>Flutter</h3>
+                            <span>flutter.dev</span>
+                        </div>
+                        <span class="official-badge">Google</span>
+                    </div>
+                    <p>Build natively compiled applications for mobile, web, and desktop from a single codebase.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Data Science -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #f59e0b, #d97706);">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+                        <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                        <line x1="12" y1="22.08" x2="12" y2="12" />
+                    </svg>
+                </div>
+                <h2>Data Science & Machine Learning</h2>
+            </div>
+            <div class="grid">
+                <a href="https://numpy.org/doc/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #013243; color: #4dabcf;">Np</div>
+                        <div class="card-info">
+                            <h3>NumPy</h3>
+                            <span>numpy.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>The fundamental package for scientific computing with Python. Arrays, matrices, and mathematical
+                        functions.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://pandas.pydata.org/docs/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #150458; color: #e70488;">Pd</div>
+                        <div class="card-info">
+                            <h3>Pandas</h3>
+                            <span>pandas.pydata.org</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Powerful data analysis and manipulation library. DataFrames, time series, and data cleaning.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.tensorflow.org/learn" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #ff6f00; color: #fff;">TF</div>
+                        <div class="card-info">
+                            <h3>TensorFlow</h3>
+                            <span>tensorflow.org</span>
+                        </div>
+                        <span class="official-badge">Google</span>
+                    </div>
+                    <p>End-to-end open source platform for machine learning with tutorials and guides.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://pytorch.org/tutorials/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #ee4c2c; color: #fff;">PT</div>
+                        <div class="card-info">
+                            <h3>PyTorch</h3>
+                            <span>pytorch.org</span>
+                        </div>
+                        <span class="official-badge">Meta</span>
+                    </div>
+                    <p>Deep learning framework with strong GPU acceleration and dynamic computation graphs.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Beginner Resources -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #ec4899, #be185d);">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                    </svg>
+                </div>
+                <h2>Beginner-Friendly Platforms</h2>
+            </div>
+            <div class="grid">
+                <a href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #ff8c1a; color: #fff;">Sc</div>
+                        <div class="card-info">
+                            <h3>Scratch</h3>
+                            <span>scratch.mit.edu</span>
+                        </div>
+                        <span class="official-badge">MIT</span>
+                    </div>
+                    <p>Visual block-based programming for creating stories, games, and animations. Ideal for ages 8+.
+                    </p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://code.org/learn" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #f7931e; color: #fff;">Co</div>
+                        <div class="card-info">
+                            <h3>Code.org</h3>
+                            <span>code.org</span>
+                        </div>
+                    </div>
+                    <p>Learn computer science through fun activities and games. Hour of Code and full CS curriculum.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.khanacademy.org/computing" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #14bf96; color: #fff;">KA</div>
+                        <div class="card-info">
+                            <h3>Khan Academy</h3>
+                            <span>khanacademy.org</span>
+                        </div>
+                    </div>
+                    <p>Free world-class education including computer programming, algorithms, and computer science.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.codecademy.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #5533ff; color: #fff;">Ca</div>
+                        <div class="card-info">
+                            <h3>Codecademy</h3>
+                            <span>codecademy.com</span>
+                        </div>
+                    </div>
+                    <p>Interactive, hands-on coding lessons in 14+ programming languages with career paths.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Practice -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">
+                    <svg viewBox="0 0 24 24">
+                        <polygon
+                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                    </svg>
+                </div>
+                <h2>Practice & Coding Challenges</h2>
+            </div>
+            <div class="grid">
+                <a href="https://leetcode.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #1a1a1a; color: #ffa116;">LC</div>
+                        <div class="card-info">
+                            <h3>LeetCode</h3>
+                            <span>leetcode.com</span>
+                        </div>
+                    </div>
+                    <p>The leading platform for technical interview preparation with 3,000+ coding problems.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.hackerrank.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #2ec866; color: #fff;">HR</div>
+                        <div class="card-info">
+                            <h3>HackerRank</h3>
+                            <span>hackerrank.com</span>
+                        </div>
+                    </div>
+                    <p>Practice coding, prepare for interviews, and earn skill certifications recognized by employers.
+                    </p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://www.geeksforgeeks.org/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #2f8d46; color: #fff;">GfG</div>
+                        <div class="card-info">
+                            <h3>GeeksforGeeks</h3>
+                            <span>geeksforgeeks.org</span>
+                        </div>
+                    </div>
+                    <p>Computer science portal with tutorials, practice problems, and interview preparation content.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://exercism.org/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #604fcd; color: #fff;">Ex</div>
+                        <div class="card-info">
+                            <h3>Exercism</h3>
+                            <span>exercism.org</span>
+                        </div>
+                    </div>
+                    <p>Develop fluency in 67 programming languages with practice exercises and mentor feedback.</p>
+                    <span class="card-link">Visit Website <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+
+            <!-- Developer Tools -->
+            <div class="section-header">
+                <div class="section-icon" style="background: linear-gradient(135deg, #64748b, #475569);">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                    </svg>
+                </div>
+                <h2>Developer Tools</h2>
+            </div>
+            <div class="grid">
+                <a href="https://docs.github.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #24292e; color: #fff;">GH</div>
+                        <div class="card-info">
+                            <h3>GitHub Docs</h3>
+                            <span>docs.github.com</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Learn Git version control and GitHub for collaboration, repositories, and CI/CD workflows.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://code.visualstudio.com/docs" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #007acc; color: #fff;">VS</div>
+                        <div class="card-info">
+                            <h3>VS Code</h3>
+                            <span>code.visualstudio.com</span>
+                        </div>
+                        <span class="official-badge">Microsoft</span>
+                    </div>
+                    <p>Master Visual Studio Code - setup, extensions, debugging, and productivity features.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #2496ed; color: #fff;">Dk</div>
+                        <div class="card-info">
+                            <h3>Docker</h3>
+                            <span>docs.docker.com</span>
+                        </div>
+                        <span class="official-badge">Official</span>
+                    </div>
+                    <p>Learn containerization for consistent development environments and deployment.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+
+                <a href="https://kubernetes.io/docs/" target="_blank" rel="noopener noreferrer" class="card">
+                    <div class="card-top">
+                        <div class="card-logo" style="background: #326ce5; color: #fff;">K8</div>
+                        <div class="card-info">
+                            <h3>Kubernetes</h3>
+                            <span>kubernetes.io</span>
+                        </div>
+                        <span class="official-badge">CNCF</span>
+                    </div>
+                    <p>Container orchestration for automating deployment, scaling, and management of applications.</p>
+                    <span class="card-link">Visit Documentation <svg viewBox="0 0 24 24">
+                            <path d="M7 17L17 7M17 7H7M17 7v10" />
+                        </svg></span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script>
+        fetch('/components/nav.html').then(r => r.text()).then(d => { document.getElementById('nav-placeholder').innerHTML = d; const s = document.createElement('script'); s.src = '/js/navigation.js'; document.body.appendChild(s) });
+        fetch('/components/footer.html').then(r => r.text()).then(d => { document.getElementById('footer-placeholder').innerHTML = d });
+    </script>
+    <script src="/js/unified-mobile-nav.js"></script>
+</body>
+
+</html>
