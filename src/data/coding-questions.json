@@ -1,71 +1,1773 @@
 [
-    {
-        "id": "code_mon_01",
-        "day": "Monday",
-        "dayIndex": 1,
-        "difficulty": "Easy",
-        "topic": "Python Lists",
-        "question": "What is the output of the following Python code snippet?",
-        "code": "my_list = [1, 2, 3]\nnew_list = my_list\nnew_list.append(4)\nprint(my_list)",
-        "options": [
-            "[1, 2, 3]",
-            "[1, 2, 3, 4]",
-            "Error: Lists are immutable",
-            "[4, 1, 2, 3]"
-        ],
-        "correctIndex": 1,
-        "explanation": "In Python, lists are mutable objects. When you assign `new_list = my_list`, you aren't creating a copy of the list; you are creating a new reference to the *same* list object in memory. Therefore, modifying `new_list` also modifies `my_list`.",
-        "wrongExplanations": [
-            "This would only happen if `new_list` was a copy (e.g., `my_list[:]`). Here, they point to the same object.",
-            "Correct! Both variables point to the same list object.",
-            "Lists in Python are mutable, meaning they can be changed. Tuples are immutable.",
-            "Append adds elements to the end of the list, not the beginning."
-        ]
-    },
-    {
-        "id": "code_tue_01",
-        "day": "Tuesday",
-        "dayIndex": 2,
-        "difficulty": "Medium",
-        "topic": "JavaScript Scope",
-        "question": "Consider the following JavaScript code. What is logged to the console?",
-        "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}",
-        "options": [
-            "0 1 2",
-            "1 2 3",
-            "3 3 3",
-            "undefined"
-        ],
-        "correctIndex": 2,
-        "explanation": "This is a classic closure issue with `var`. `var` has function scope, not block scope. The loop completes *before* the `setTimeout` callbacks run. By the time they run, the shared variable `i` has essentially incremented to 3. (Using `let` would fix this).",
-        "wrongExplanations": [
-            "This would happen if `let i` was used, which has block scope.",
-            "The loop starts at 0, not 1.",
-            "Correct! `var` is function-scoped, so the final value of `i` (which is 3) is shared across all callbacks.",
-            "`i` is defined and reaches 3."
-        ]
-    },
-    {
-        "id": "code_sat_01",
-        "day": "Saturday",
-        "dayIndex": 6,
-        "difficulty": "Super Ultra Hard",
-        "topic": "Algorithm Analysis",
-        "question": "You have a function `mystery(n)` that calls itself recursively `mystery(n-1)` twice. What is the time complexity of this function?",
-        "code": "def mystery(n):\n    if n <= 1: return\n    mystery(n-1)\n    mystery(n-1)",
-        "options": [
-            "O(n)",
-            "O(n log n)",
-            "O(n^2)",
-            "O(2^n)"
-        ],
-        "correctIndex": 3,
-        "explanation": "This is a classic recurrence relation: T(n) = 2T(n-1) + O(1). Each call branches into two more calls. This creates a binary tree of calls with depth `n`. The total number of nodes in a full binary tree of depth `n` is 2^n - 1. Thus, the complexity is exponential, O(2^n).",
-        "wrongExplanations": [
-            "O(n) would be linear, like a single loop.",
-            "O(n log n) is typical for efficient sorting algorithms like Merge Sort.",
-            "O(n^2) is quadratic, typical for nested loops.",
-            "Correct! The recursion tree doubles at every level, leading to exponential growth."
-        ]
-    }
+  {
+    "id": "code_mon_01",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python Lists",
+    "question": "What is the output of the following Python code snippet?",
+    "code": "my_list = [1, 2, 3]\nnew_list = my_list\nnew_list.append(4)\nprint(my_list)",
+    "options": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4]",
+      "Error: Lists are immutable",
+      "[4, 1, 2, 3]"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Python, lists are mutable objects. When you assign `new_list = my_list`, you aren't creating a copy of the list; you are creating a new reference to the *same* list object in memory. Therefore, modifying `new_list` also modifies `my_list`.",
+    "wrongExplanations": [
+      "This would only happen if `new_list` was a copy (e.g., `my_list[:]`). Here, they point to the same object.",
+      "Correct! Both variables point to the same list object.",
+      "Lists in Python are mutable, meaning they can be changed. Tuples are immutable.",
+      "Append adds elements to the end of the list, not the beginning."
+    ]
+  },
+  {
+    "id": "code_tue_01",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Medium",
+    "topic": "JavaScript Scope",
+    "question": "Consider the following JavaScript code. What is logged to the console?",
+    "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}",
+    "options": [
+      "0 1 2",
+      "1 2 3",
+      "3 3 3",
+      "undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "This is a classic closure issue with `var`. `var` has function scope, not block scope. The loop completes *before* the `setTimeout` callbacks run. By the time they run, the shared variable `i` has essentially incremented to 3. (Using `let` would fix this).",
+    "wrongExplanations": [
+      "This would happen if `let i` was used, which has block scope.",
+      "The loop starts at 0, not 1.",
+      "Correct! `var` is function-scoped, so the final value of `i` (which is 3) is shared across all callbacks.",
+      "`i` is defined and reaches 3."
+    ]
+  },
+  {
+    "id": "code_wed_01",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Easy",
+    "topic": "Python Strings",
+    "question": "What does this Python code print?",
+    "code": "s = 'hello'\nprint(s[1:4])",
+    "options": [
+      "hel",
+      "ell",
+      "ello",
+      "hell"
+    ],
+    "correctIndex": 1,
+    "explanation": "String slicing in Python uses the syntax `[start:end]` where `start` is inclusive and `end` is exclusive. `s[1:4]` gets characters at indices 1, 2, and 3, which are 'e', 'l', 'l'.",
+    "wrongExplanations": [
+      "This would be `s[0:3]`.",
+      "Correct! Indices 1, 2, 3 give 'ell'.",
+      "This would be `s[1:5]` or `s[1:]`.",
+      "This would be `s[0:4]`."
+    ]
+  },
+  {
+    "id": "code_thu_01",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Medium",
+    "topic": "Python Dictionaries",
+    "question": "What is the output of this code?",
+    "code": "d = {'a': 1, 'b': 2}\nprint(d.get('c', 3))",
+    "options": [
+      "None",
+      "KeyError",
+      "3",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "The `get()` method returns the value for a key if it exists in the dictionary. If the key doesn't exist, it returns the default value provided as the second argument. Since 'c' is not in the dictionary, it returns 3.",
+    "wrongExplanations": [
+      "This would happen if no default was provided: `d.get('c')`.",
+      "This would happen with `d['c']`, not `d.get('c', 3)`.",
+      "Correct! The default value 3 is returned.",
+      "The default value is 3, not 0."
+    ]
+  },
+  {
+    "id": "code_fri_01",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "JavaScript Promises",
+    "question": "What will be logged to the console?",
+    "code": "console.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');",
+    "options": [
+      "1 2 3 4",
+      "1 4 2 3",
+      "1 4 3 2",
+      "1 3 4 2"
+    ],
+    "correctIndex": 2,
+    "explanation": "This tests understanding of the JavaScript event loop. Synchronous code runs first ('1', '4'). Promises use the microtask queue, which runs before the macrotask queue (where setTimeout callbacks go). So '3' logs before '2'.",
+    "wrongExplanations": [
+      "Async operations don't run in order of appearance.",
+      "Promise callbacks run before setTimeout callbacks.",
+      "Correct! Order: sync code (1, 4), microtasks (3), macrotasks (2).",
+      "Synchronous code runs before any async operations."
+    ]
+  },
+  {
+    "id": "code_sat_01",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Algorithm Analysis",
+    "question": "You have a function `mystery(n)` that calls itself recursively `mystery(n-1)` twice. What is the time complexity of this function?",
+    "code": "def mystery(n):\n    if n <= 1: return\n    mystery(n-1)\n    mystery(n-1)",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(2^n)"
+    ],
+    "correctIndex": 3,
+    "explanation": "This is a classic recurrence relation: T(n) = 2T(n-1) + O(1). Each call branches into two more calls. This creates a binary tree of calls with depth `n`. The total number of nodes in a full binary tree of depth `n` is 2^n - 1. Thus, the complexity is exponential, O(2^n).",
+    "wrongExplanations": [
+      "O(n) would be linear, like a single loop.",
+      "O(n log n) is typical for efficient sorting algorithms like Merge Sort.",
+      "O(n^2) is quadratic, typical for nested loops.",
+      "Correct! The recursion tree doubles at every level, leading to exponential growth."
+    ]
+  },
+  {
+    "id": "code_sun_01",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "Python Basics",
+    "question": "What is the result of this expression?",
+    "code": "print(type(5 / 2))",
+    "options": [
+      "<class 'int'>",
+      "<class 'float'>",
+      "<class 'str'>",
+      "2.5"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Python 3, the `/` operator performs true division and always returns a float, even when dividing two integers. For integer division, use `//`.",
+    "wrongExplanations": [
+      "The `/` operator returns float in Python 3. Use `//` for integer division.",
+      "Correct! Division with `/` always produces a float.",
+      "Division produces a number, not a string.",
+      "This is the value, but `type()` returns the data type."
+    ]
+  },
+  {
+    "id": "code_mon_02",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Medium",
+    "topic": "Python List Comprehension",
+    "question": "What does this code produce?",
+    "code": "result = [x*2 for x in range(5) if x % 2 == 0]\nprint(result)",
+    "options": [
+      "[0, 2, 4, 6, 8]",
+      "[0, 4, 8]",
+      "[2, 4, 6, 8]",
+      "[0, 1, 2, 3, 4]"
+    ],
+    "correctIndex": 1,
+    "explanation": "This list comprehension iterates through range(5) [0,1,2,3,4], filters for even numbers (0,2,4), then multiplies each by 2, giving [0,4,8].",
+    "wrongExplanations": [
+      "The `if` condition filters out odd numbers before multiplication.",
+      "Correct! Even numbers from 0-4 are [0,2,4], doubled to [0,4,8].",
+      "This would require the range to start at 1 and filtering would be different.",
+      "This doesn't apply the multiplication or filtering."
+    ]
+  },
+  {
+    "id": "code_tue_02",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Easy",
+    "topic": "JavaScript Arrays",
+    "question": "What is the output?",
+    "code": "let arr = [1, 2, 3];\narr.push(4);\nprint(arr.length);",
+    "options": [
+      "3",
+      "4",
+      "Error: print is not defined",
+      "undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "In JavaScript, the correct function is `console.log()`, not `print()`. Using `print()` will cause a ReferenceError in most JavaScript environments.",
+    "wrongExplanations": [
+      "The length would be 4, but the code has an error.",
+      "This would be correct if `console.log()` was used.",
+      "Correct! JavaScript uses `console.log()`, not `print()`.",
+      "The array is defined, but the function call is wrong."
+    ]
+  },
+  {
+    "id": "code_wed_02",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Hard",
+    "topic": "Python Decorators",
+    "question": "What does this code print?",
+    "code": "def wrapper(func):\n    def inner():\n        return func() * 2\n    return inner\n\n@wrapper\ndef get_num():\n    return 5\n\nprint(get_num())",
+    "options": [
+      "5",
+      "10",
+      "Error",
+      "None"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `@wrapper` decorator wraps `get_num()`. When called, it actually calls `inner()`, which calls the original function and multiplies the result by 2. So 5 * 2 = 10.",
+    "wrongExplanations": [
+      "The decorator modifies the function to multiply the result.",
+      "Correct! The decorator doubles the return value.",
+      "The code is syntactically correct.",
+      "The function returns 5, which is then doubled to 10."
+    ]
+  },
+  {
+    "id": "code_thu_02",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript Objects",
+    "question": "What is logged?",
+    "code": "const obj = {a: 1, b: 2};\ndelete obj.a;\nconsole.log(obj.a);",
+    "options": [
+      "1",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `delete` operator removes a property from an object. After deletion, accessing that property returns `undefined`.",
+    "wrongExplanations": [
+      "The property was deleted, so it no longer exists.",
+      "Correct! Deleted properties return `undefined` when accessed.",
+      "`delete` doesn't set the property to `null`, it removes it entirely.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_fri_02",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Medium",
+    "topic": "Python Sets",
+    "question": "What is the output?",
+    "code": "s1 = {1, 2, 3}\ns2 = {3, 4, 5}\nprint(s1 & s2)",
+    "options": [
+      "{1, 2, 3, 4, 5}",
+      "{3}",
+      "{1, 2, 4, 5}",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `&` operator performs set intersection, returning elements common to both sets. Only 3 appears in both s1 and s2.",
+    "wrongExplanations": [
+      "This would be set union (`|` operator).",
+      "Correct! Intersection returns only common elements.",
+      "This would be symmetric difference (`^` operator).",
+      "The syntax is valid for set operations."
+    ]
+  },
+  {
+    "id": "code_sat_02",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Memory Management",
+    "question": "In Python, what happens here?",
+    "code": "a = [1, 2]\nb = [1, 2]\nc = a\nprint(a is b, a is c, a == b)",
+    "options": [
+      "True True True",
+      "False True True",
+      "True False True",
+      "False False False"
+    ],
+    "correctIndex": 1,
+    "explanation": "`is` checks object identity (same memory location). `a` and `b` are separate list objects with equal values. `c` references the same object as `a`. `==` checks value equality.",
+    "wrongExplanations": [
+      "`a` and `b` are different objects despite equal values.",
+      "Correct! `a is b` (False), `a is c` (True), `a == b` (True).",
+      "`a` and `b` point to different memory locations.",
+      "`a == b` is True because they have the same values."
+    ]
+  },
+  {
+    "id": "code_sun_02",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Medium",
+    "topic": "JavaScript Type Coercion",
+    "question": "What does this evaluate to?",
+    "code": "console.log('5' + 3);",
+    "options": [
+      "8",
+      "'53'",
+      "53",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "When using `+` with a string and number in JavaScript, the number is coerced to a string and concatenation occurs. '5' + 3 becomes '5' + '3' = '53'.",
+    "wrongExplanations": [
+      "This would require both operands to be numbers.",
+      "Correct! String concatenation occurs, producing '53'.",
+      "The result is a string, not a number.",
+      "JavaScript performs automatic type coercion."
+    ]
+  },
+  {
+    "id": "code_mon_03",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python Functions",
+    "question": "What does this print?",
+    "code": "def func(x=[]):\n    x.append(1)\n    return x\nprint(func())\nprint(func())",
+    "options": [
+      "[1]\n[1]",
+      "[1]\n[1, 1]",
+      "[]\n[1]",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "This demonstrates a common Python gotcha: mutable default arguments. The default list `[]` is created once when the function is defined, not each time it's called. Both calls modify the same list.",
+    "wrongExplanations": [
+      "The default list is shared between calls, not recreated.",
+      "Correct! The same list object is modified both times.",
+      "The first call adds 1 to the list.",
+      "The code runs without errors."
+    ]
+  },
+  {
+    "id": "code_tue_03",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Hard",
+    "topic": "JavaScript Hoisting",
+    "question": "What is the output?",
+    "code": "console.log(x);\nvar x = 5;\nconsole.log(x);",
+    "options": [
+      "undefined\n5",
+      "5\n5",
+      "ReferenceError",
+      "null\n5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Variable declarations with `var` are hoisted to the top of their scope, but not their assignments. So `var x` is hoisted, but `x = 5` isn't. The first log sees the declared but uninitialized variable (undefined).",
+    "wrongExplanations": [
+      "Correct! Declaration is hoisted, but assignment happens in place.",
+      "The assignment hasn't occurred at the first log.",
+      "The variable is declared (hoisted), so no error occurs.",
+      "`undefined` is the default value for declared but unassigned variables."
+    ]
+  },
+  {
+    "id": "code_wed_03",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Medium",
+    "topic": "Python Lambda",
+    "question": "What is the output?",
+    "code": "funcs = [lambda x: x + i for i in range(3)]\nprint(funcs[0](10))",
+    "options": [
+      "10",
+      "12",
+      "11",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a closure issue. All lambdas reference the same variable `i`, which equals 2 after the loop completes. So funcs[0](10) computes 10 + 2 = 12.",
+    "wrongExplanations": [
+      "The lambda captures `i` by reference, not by value.",
+      "Correct! All lambdas use the final value of `i` (2).",
+      "This would be true if `i` was captured as 1.",
+      "This would be true if `i` was captured as 3."
+    ]
+  },
+  {
+    "id": "code_thu_03",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript String Methods",
+    "question": "What is logged?",
+    "code": "let str = 'hello';\nconsole.log(str.charAt(1));",
+    "options": [
+      "'h'",
+      "'e'",
+      "'l'",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `charAt()` method returns the character at the specified index. String indices start at 0, so charAt(1) returns the second character, 'e'.",
+    "wrongExplanations": [
+      "This is charAt(0).",
+      "Correct! Index 1 is the second character.",
+      "This is charAt(2) or charAt(3).",
+      "It returns the character, not the index."
+    ]
+  },
+  {
+    "id": "code_fri_03",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "Python Generators",
+    "question": "What happens when this runs?",
+    "code": "def gen():\n    yield 1\n    yield 2\ng = gen()\nprint(next(g))\nprint(next(g))\nprint(next(g))",
+    "options": [
+      "1\n2\n1",
+      "1\n2\nStopIteration exception",
+      "1\n1\n1",
+      "2\n2\n2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Generators yield values one at a time. After yielding 1 and 2, the generator is exhausted. Calling `next()` again raises a `StopIteration` exception.",
+    "wrongExplanations": [
+      "Generators don't loop back to the beginning.",
+      "Correct! The third `next()` call raises StopIteration.",
+      "Each `next()` call advances to the next yield.",
+      "The generator starts at the first yield."
+    ]
+  },
+  {
+    "id": "code_sat_03",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Bitwise Operations",
+    "question": "What is the result?",
+    "code": "print(5 ^ 3)",
+    "options": [
+      "2",
+      "6",
+      "8",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `^` operator performs bitwise XOR. In binary: 5 is 101, 3 is 011. XOR returns 1 where bits differ: 101 XOR 011 = 110, which is 6 in decimal.",
+    "wrongExplanations": [
+      "This would be 5 & 3 (bitwise AND).",
+      "Correct! XOR of 101 and 011 is 110 (6).",
+      "This would be 5 | 3 (bitwise OR).",
+      "This would require both bits to be 1 in all positions."
+    ]
+  },
+  {
+    "id": "code_sun_03",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "JavaScript Array Methods",
+    "question": "What does this code output?",
+    "code": "let arr = [1, 2, 3, 4];\nlet result = arr.filter(x => x > 2);\nconsole.log(result);",
+    "options": [
+      "[1, 2]",
+      "[3, 4]",
+      "[2, 3, 4]",
+      "[1, 2, 3]"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `filter()` method creates a new array with elements that pass the test function. Only elements greater than 2 (which are 3 and 4) are included.",
+    "wrongExplanations": [
+      "These elements are not greater than 2.",
+      "Correct! Only 3 and 4 satisfy x > 2.",
+      "2 is not greater than 2.",
+      "1 and 2 don't satisfy the condition."
+    ]
+  },
+  {
+    "id": "code_mon_04",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Medium",
+    "topic": "Python Tuples",
+    "question": "What is printed?",
+    "code": "t = (1, 2, 3)\nt[0] = 5\nprint(t)",
+    "options": [
+      "(5, 2, 3)",
+      "(1, 2, 3)",
+      "Error: tuples are immutable",
+      "[5, 2, 3]"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tuples are immutable in Python, meaning their elements cannot be changed after creation. Attempting to modify a tuple raises a TypeError.",
+    "wrongExplanations": [
+      "Tuples don't support item assignment.",
+      "The code raises an error before printing.",
+      "Correct! Tuples cannot be modified.",
+      "Tuples remain tuples; they don't convert to lists."
+    ]
+  },
+  {
+    "id": "code_tue_04",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Easy",
+    "topic": "JavaScript Comparison",
+    "question": "What does this log?",
+    "code": "console.log(0 == false);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "The `==` operator performs type coercion. `false` is coerced to 0, so 0 == 0 evaluates to true. Use `===` for strict equality without coercion.",
+    "wrongExplanations": [
+      "Correct! `false` coerces to 0, making the comparison true.",
+      "Type coercion makes them equal.",
+      "The comparison returns a boolean.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_wed_04",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Hard",
+    "topic": "Python Class Methods",
+    "question": "What is the output?",
+    "code": "class Counter:\n    count = 0\n    def __init__(self):\n        Counter.count += 1\n\na = Counter()\nb = Counter()\nprint(Counter.count)",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Error"
+    ],
+    "correctIndex": 2,
+    "explanation": "`count` is a class variable shared by all instances. Each time an instance is created, `__init__` increments the class variable. Two instances are created, so count becomes 2.",
+    "wrongExplanations": [
+      "Each instance creation increments the counter.",
+      "Both instances increment the counter.",
+      "Correct! Two instances created, count incremented twice.",
+      "The code is syntactically correct."
+    ]
+  },
+  {
+    "id": "code_thu_04",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Medium",
+    "topic": "JavaScript This Keyword",
+    "question": "What is logged?",
+    "code": "const obj = {\n  value: 10,\n  getValue: () => this.value\n};\nconsole.log(obj.getValue());",
+    "options": [
+      "10",
+      "undefined",
+      "null",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arrow functions don't have their own `this` binding. They inherit `this` from the enclosing scope. Here, `this` refers to the global object (or undefined in strict mode), not `obj`.",
+    "wrongExplanations": [
+      "Arrow functions don't bind `this` to the object.",
+      "Correct! Arrow function inherits `this` from outer scope.",
+      "`this.value` is undefined, not null.",
+      "The code runs but doesn't produce the expected result."
+    ]
+  },
+  {
+    "id": "code_fri_04",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Easy",
+    "topic": "Python Boolean Logic",
+    "question": "What does this print?",
+    "code": "print(bool([]))",
+    "options": [
+      "True",
+      "False",
+      "[]",
+      "None"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Python, empty collections (lists, tuples, dicts, sets) are considered falsy. `bool([])` returns False.",
+    "wrongExplanations": [
+      "Empty collections are falsy in Python.",
+      "Correct! Empty list evaluates to False.",
+      "`bool()` returns True or False, not the original value.",
+      "Empty collections are False, not None."
+    ]
+  },
+  {
+    "id": "code_sat_04",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Algorithm Complexity",
+    "question": "What is the space complexity of this function?",
+    "code": "def fibonacci(n):\n    if n <= 1: return n\n    return fibonacci(n-1) + fibonacci(n-2)",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(2^n)",
+      "O(n^2)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Space complexity considers the call stack depth. The maximum depth of recursion is n (when computing fibonacci(n-1) repeatedly down to fibonacci(0)). Each call uses O(1) space, so total space is O(n).",
+    "wrongExplanations": [
+      "Recursion uses stack space proportional to depth.",
+      "Correct! Maximum call stack depth is n.",
+      "This is the time complexity, not space complexity.",
+      "The stack depth grows linearly, not quadratically."
+    ]
+  },
+  {
+    "id": "code_sun_04",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Medium",
+    "topic": "JavaScript Destructuring",
+    "question": "What is logged?",
+    "code": "const {a, b, c} = {a: 1, b: 2};\nconsole.log(c);",
+    "options": [
+      "undefined",
+      "null",
+      "0",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Object destructuring extracts properties from an object. If a property doesn't exist, the variable is assigned `undefined`.",
+    "wrongExplanations": [
+      "Correct! Non-existent properties become undefined.",
+      "Missing properties are undefined, not null.",
+      "There's no default value of 0.",
+      "Destructuring non-existent properties is allowed."
+    ]
+  },
+  {
+    "id": "code_mon_05",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python String Methods",
+    "question": "What is the output?",
+    "code": "s = '  hello  '\nprint(s.strip())",
+    "options": [
+      "'  hello  '",
+      "'hello'",
+      "' hello '",
+      "'  hello'"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `strip()` method removes leading and trailing whitespace from a string. It doesn't affect whitespace in the middle.",
+    "wrongExplanations": [
+      "strip() removes whitespace from both ends.",
+      "Correct! All leading and trailing spaces are removed.",
+      "strip() removes from both ends, not just one side.",
+      "strip() removes from both ends."
+    ]
+  },
+  {
+    "id": "code_tue_05",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Hard",
+    "topic": "JavaScript Async/Await",
+    "question": "What happens here?",
+    "code": "async function test() {\n  return 1;\n}\ntest().then(val => console.log(val));",
+    "options": [
+      "undefined",
+      "1",
+      "Promise {1}",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Async functions always return a Promise. Even though the function returns 1 directly, it's automatically wrapped in a resolved Promise, so `.then()` receives the value 1.",
+    "wrongExplanations": [
+      "The promise resolves with the return value.",
+      "Correct! Async functions wrap return values in Promises.",
+      "The `.then()` extracts the value from the Promise.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_wed_05",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Medium",
+    "topic": "Python Dictionary Methods",
+    "question": "What does this print?",
+    "code": "d = {'a': 1, 'b': 2}\nd.update({'b': 3, 'c': 4})\nprint(d)",
+    "options": [
+      "{'a': 1, 'b': 2}",
+      "{'a': 1, 'b': 3, 'c': 4}",
+      "{'b': 3, 'c': 4}",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `update()` method merges dictionaries. Existing keys are updated with new values, and new keys are added. 'b' is updated to 3, and 'c' is added.",
+    "wrongExplanations": [
+      "update() modifies the original dictionary.",
+      "Correct! Existing keys update, new keys are added.",
+      "update() merges, it doesn't replace the dictionary.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_thu_05",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript Template Literals",
+    "question": "What is the output?",
+    "code": "let x = 5;\nlet y = 10;\nconsole.log(`Sum: ${x + y}`);",
+    "options": [
+      "Sum: 510",
+      "Sum: ${x + y}",
+      "Sum: 15",
+      "Error"
+    ],
+    "correctIndex": 2,
+    "explanation": "Template literals (backticks) allow expression interpolation using `${}`. The expression `x + y` is evaluated and the result (15) is inserted into the string.",
+    "wrongExplanations": [
+      "Template literals evaluate expressions, not concatenate strings.",
+      "The `${}` syntax triggers interpolation.",
+      "Correct! The expression is evaluated and inserted.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_fri_05",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "Python Context Managers",
+    "question": "What is printed?",
+    "code": "class MyContext:\n    def __enter__(self):\n        print('Enter')\n        return self\n    def __exit__(self, *args):\n        print('Exit')\n\nwith MyContext():\n    print('Inside')",
+    "options": [
+      "Inside\nEnter\nExit",
+      "Enter\nInside\nExit",
+      "Enter\nExit\nInside",
+      "Exit\nEnter\nInside"
+    ],
+    "correctIndex": 1,
+    "explanation": "Context managers execute `__enter__()` before the with block, the block contents, then `__exit__()` after the block. Order: Enter, Inside, Exit.",
+    "wrongExplanations": [
+      "__enter__() runs before the block contents.",
+      "Correct! Enter → Inside → Exit.",
+      "__exit__() runs after the block, not before.",
+      "__enter__() always runs first."
+    ]
+  },
+  {
+    "id": "code_sat_05",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Dynamic Programming",
+    "question": "What makes this function O(n) instead of O(2^n)?",
+    "code": "def fib(n, memo={}):\n    if n in memo: return memo[n]\n    if n <= 1: return n\n    memo[n] = fib(n-1, memo) + fib(n-2, memo)\n    return memo[n]",
+    "options": [
+      "It uses iteration instead of recursion",
+      "It caches previously computed results",
+      "It reduces the problem size by half",
+      "It uses bit manipulation"
+    ],
+    "correctIndex": 1,
+    "explanation": "This implements memoization. Each fibonacci number is computed once and stored in the memo dictionary. Subsequent calls retrieve cached results, reducing time complexity from O(2^n) to O(n).",
+    "wrongExplanations": [
+      "The function still uses recursion.",
+      "Correct! Memoization eliminates redundant calculations.",
+      "The problem reduces by 1, not half.",
+      "No bit manipulation is used here."
+    ]
+  },
+  {
+    "id": "code_sun_05",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "JavaScript Array Spread",
+    "question": "What is logged?",
+    "code": "let arr1 = [1, 2];\nlet arr2 = [...arr1, 3];\nconsole.log(arr2);",
+    "options": [
+      "[1, 2]",
+      "[[1, 2], 3]",
+      "[1, 2, 3]",
+      "Error"
+    ],
+    "correctIndex": 2,
+    "explanation": "The spread operator `...` expands an array's elements. `[...arr1, 3]` creates a new array with all elements from arr1 followed by 3.",
+    "wrongExplanations": [
+      "The spread operator adds arr1's elements, plus 3.",
+      "Spread expands elements, not nesting the array.",
+      "Correct! Elements are spread into the new array.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_mon_06",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Medium",
+    "topic": "Python Exception Handling",
+    "question": "What is printed?",
+    "code": "try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Error')\nfinally:\n    print('Done')",
+    "options": [
+      "Error",
+      "Done",
+      "Error\nDone",
+      "Nothing is printed"
+    ],
+    "correctIndex": 2,
+    "explanation": "The `except` block catches the ZeroDivisionError and prints 'Error'. The `finally` block always executes, printing 'Done'. Both are printed.",
+    "wrongExplanations": [
+      "The finally block also executes.",
+      "The except block executes first.",
+      "Correct! Both except and finally blocks execute.",
+      "Both blocks execute and print."
+    ]
+  },
+  {
+    "id": "code_tue_06",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Easy",
+    "topic": "JavaScript Nullish Coalescing",
+    "question": "What does this log?",
+    "code": "let x = null;\nlet y = x ?? 'default';\nconsole.log(y);",
+    "options": [
+      "null",
+      "undefined",
+      "'default'",
+      "Error"
+    ],
+    "correctIndex": 2,
+    "explanation": "The nullish coalescing operator `??` returns the right operand when the left is `null` or `undefined`. Since x is null, it returns 'default'.",
+    "wrongExplanations": [
+      "The ?? operator provides a fallback for null.",
+      "x is null, not undefined, but ?? handles both.",
+      "Correct! null triggers the fallback value.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_wed_06",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Hard",
+    "topic": "Python Metaclasses",
+    "question": "What is the type of MyClass?",
+    "code": "class MyClass:\n    pass\n\nprint(type(MyClass))",
+    "options": [
+      "<class 'object'>",
+      "<class 'type'>",
+      "<class 'class'>",
+      "<class 'MyClass'>"
+    ],
+    "correctIndex": 1,
+    "explanation": "In Python, classes are instances of `type`. `type` is the default metaclass for all classes. So the type of any class is `type`.",
+    "wrongExplanations": [
+      "object is the base class, not the metaclass.",
+      "Correct! Classes are instances of type.",
+      "There's no 'class' type in Python.",
+      "This would be the type of an instance, not the class itself."
+    ]
+  },
+  {
+    "id": "code_thu_06",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Medium",
+    "topic": "JavaScript Map",
+    "question": "What is logged?",
+    "code": "let arr = [1, 2, 3];\nlet result = arr.map(x => x * 2);\nconsole.log(arr);",
+    "options": [
+      "[2, 4, 6]",
+      "[1, 2, 3]",
+      "[1, 2, 3, 2, 4, 6]",
+      "undefined"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `map()` method creates a *new* array with transformed elements. It doesn't modify the original array. `arr` remains unchanged.",
+    "wrongExplanations": [
+      "This is the new array returned by map, not arr itself.",
+      "Correct! map() doesn't modify the original array.",
+      "map() creates a new array, not concatenates.",
+      "arr is still defined and unchanged."
+    ]
+  },
+  {
+    "id": "code_fri_06",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Easy",
+    "topic": "Python Range",
+    "question": "What does this print?",
+    "code": "for i in range(3, 0, -1):\n    print(i, end=' ')",
+    "options": [
+      "3 2 1",
+      "0 1 2 3",
+      "3 2 1 0",
+      "1 2 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "`range(start, stop, step)` with negative step counts backward. `range(3, 0, -1)` generates 3, 2, 1 (stops before 0).",
+    "wrongExplanations": [
+      "Correct! Counts down from 3 to 1.",
+      "The step is negative, counting down.",
+      "Stop value (0) is exclusive.",
+      "The range starts at 3 and goes backward."
+    ]
+  },
+  {
+    "id": "code_sat_06",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Sorting Algorithms",
+    "question": "What is the best-case time complexity of QuickSort?",
+    "code": "def quicksort(arr):\n    if len(arr) <= 1: return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    middle = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + middle + quicksort(right)",
+    "options": [
+      "O(n)",
+      "O(n log n)",
+      "O(n^2)",
+      "O(log n)"
+    ],
+    "correctIndex": 1,
+    "explanation": "QuickSort's best case occurs when the pivot divides the array into two equal halves each time. This gives O(log n) depth with O(n) work per level, resulting in O(n log n).",
+    "wrongExplanations": [
+      "O(n) is impossible for comparison-based sorting.",
+      "Correct! Best case with balanced partitions is O(n log n).",
+      "O(n^2) is the worst case when pivots are poorly chosen.",
+      "O(log n) doesn't account for work at each recursion level."
+    ]
+  },
+  {
+    "id": "code_sun_06",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Medium",
+    "topic": "JavaScript Object Methods",
+    "question": "What does this return?",
+    "code": "let obj = {a: 1, b: 2, c: 3};\nconsole.log(Object.keys(obj).length);",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "`Object.keys()` returns an array of an object's enumerable property names. The object has 3 keys: 'a', 'b', 'c', so the length is 3.",
+    "wrongExplanations": [
+      "The object has more than one key.",
+      "The object has three keys.",
+      "Correct! Three keys: a, b, c.",
+      "Object.keys() returns an array with a length property."
+    ]
+  },
+  {
+    "id": "code_mon_07",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python List Methods",
+    "question": "What is printed?",
+    "code": "lst = [3, 1, 2]\nlst.sort()\nprint(lst)",
+    "options": [
+      "[3, 1, 2]",
+      "[1, 2, 3]",
+      "None",
+      "[2, 1, 3]"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `sort()` method sorts a list in-place and returns None. The list itself is modified to be in ascending order.",
+    "wrongExplanations": [
+      "sort() modifies the list in place.",
+      "Correct! The list is sorted to [1, 2, 3].",
+      "sort() returns None, but print(lst) shows the sorted list.",
+      "sort() arranges elements in ascending order."
+    ]
+  },
+  {
+    "id": "code_tue_07",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Hard",
+    "topic": "JavaScript Prototypes",
+    "question": "What is logged?",
+    "code": "function Animal(name) {\n  this.name = name;\n}\nAnimal.prototype.speak = function() {\n  return this.name;\n};\nlet dog = new Animal('Dog');\nconsole.log(dog.speak());",
+    "options": [
+      "undefined",
+      "'Dog'",
+      "'Animal'",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Methods defined on a constructor's prototype are shared by all instances. `dog.speak()` accesses the prototype method, which returns `this.name`, which is 'Dog'.",
+    "wrongExplanations": [
+      "The name property is set in the constructor.",
+      "Correct! The prototype method accesses the instance's name.",
+      "name is 'Dog', not 'Animal'.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_wed_07",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Medium",
+    "topic": "Python Zip Function",
+    "question": "What does this produce?",
+    "code": "a = [1, 2, 3]\nb = ['a', 'b', 'c']\nprint(list(zip(a, b)))",
+    "options": [
+      "[(1, 'a'), (2, 'b'), (3, 'c')]",
+      "[1, 2, 3, 'a', 'b', 'c']",
+      "[(1, 2, 3), ('a', 'b', 'c')]",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "The `zip()` function pairs elements from multiple iterables at corresponding positions, creating tuples. It returns an iterator of tuples.",
+    "wrongExplanations": [
+      "Correct! Each pair becomes a tuple.",
+      "zip() pairs elements, not concatenates lists.",
+      "zip() pairs at each index, not grouping by list.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_thu_07",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript Ternary Operator",
+    "question": "What is the output?",
+    "code": "let x = 10;\nlet result = x > 5 ? 'big' : 'small';\nconsole.log(result);",
+    "options": [
+      "'big'",
+      "'small'",
+      "true",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ternary operator `condition ? valueIfTrue : valueIfFalse` evaluates the condition. Since 10 > 5 is true, it returns 'big'.",
+    "wrongExplanations": [
+      "Correct! 10 > 5 is true, so 'big' is returned.",
+      "The condition is true, not false.",
+      "The ternary returns the value, not the boolean.",
+      "The ternary returns one of the values, not x."
+    ]
+  },
+  {
+    "id": "code_fri_07",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "Python Iterator Protocol",
+    "question": "What happens?",
+    "code": "class Counter:\n    def __init__(self, max):\n        self.max = max\n        self.n = 0\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.n < self.max:\n            self.n += 1\n            return self.n\n        raise StopIteration\n\nfor i in Counter(3):\n    print(i, end=' ')",
+    "options": [
+      "0 1 2",
+      "1 2 3",
+      "1 2 3 4",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "This implements the iterator protocol. `__iter__()` returns the iterator (self), and `__next__()` returns successive values. It yields 1, 2, 3 before raising StopIteration.",
+    "wrongExplanations": [
+      "The counter starts at 0 but increments before returning.",
+      "Correct! Yields 1, 2, 3.",
+      "max is 3, so it stops at 3.",
+      "The code correctly implements the iterator protocol."
+    ]
+  },
+  {
+    "id": "code_sat_07",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Graph Algorithms",
+    "question": "What is the time complexity of DFS on an adjacency list representation of a graph with V vertices and E edges?",
+    "code": "def dfs(graph, start, visited=None):\n    if visited is None:\n        visited = set()\n    visited.add(start)\n    for neighbor in graph[start]:\n        if neighbor not in visited:\n            dfs(graph, neighbor, visited)\n    return visited",
+    "options": [
+      "O(V)",
+      "O(E)",
+      "O(V + E)",
+      "O(V * E)"
+    ],
+    "correctIndex": 2,
+    "explanation": "DFS visits each vertex once (O(V)) and examines each edge once (O(E)). With an adjacency list, the total time complexity is O(V + E).",
+    "wrongExplanations": [
+      "Must also account for examining edges.",
+      "Must also account for visiting vertices.",
+      "Correct! Visit all vertices and examine all edges.",
+      "This would be for an adjacency matrix."
+    ]
+  },
+  {
+    "id": "code_sun_07",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "JavaScript Array Reduce",
+    "question": "What is the result?",
+    "code": "let arr = [1, 2, 3, 4];\nlet sum = arr.reduce((acc, val) => acc + val, 0);\nconsole.log(sum);",
+    "options": [
+      "0",
+      "4",
+      "10",
+      "undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "The `reduce()` method applies a function to accumulate values. Starting with 0, it adds each element: 0+1+2+3+4 = 10.",
+    "wrongExplanations": [
+      "The initial value is 0, but all elements are added.",
+      "4 is just the last element.",
+      "Correct! Sum of all elements is 10.",
+      "reduce() returns the accumulated value."
+    ]
+  },
+  {
+    "id": "code_mon_08",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Medium",
+    "topic": "Python Enumerate",
+    "question": "What is printed?",
+    "code": "for i, val in enumerate(['a', 'b', 'c'], 1):\n    print(i, val, end=' ')",
+    "options": [
+      "0 a 1 b 2 c",
+      "1 a 2 b 3 c",
+      "a 0 b 1 c 2",
+      "a b c"
+    ],
+    "correctIndex": 1,
+    "explanation": "`enumerate(iterable, start)` returns tuples of (index, value). The start parameter sets the initial index. Starting at 1, indices are 1, 2, 3.",
+    "wrongExplanations": [
+      "The start parameter is 1, not 0.",
+      "Correct! Indices start at 1: 1 a 2 b 3 c.",
+      "enumerate() returns (index, value), not (value, index).",
+      "enumerate() returns both index and value."
+    ]
+  },
+  {
+    "id": "code_tue_08",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Easy",
+    "topic": "JavaScript Logical Operators",
+    "question": "What does this log?",
+    "code": "console.log(true && false || true);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Logical operators are evaluated left to right with precedence: `&&` before `||`. `true && false` = false, then `false || true` = true.",
+    "wrongExplanations": [
+      "Correct! (true && false) || true = false || true = true.",
+      "The final OR with true makes it true.",
+      "Logical expressions return boolean values.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_wed_08",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Hard",
+    "topic": "Python Descriptors",
+    "question": "What is printed?",
+    "code": "class Descriptor:\n    def __get__(self, obj, type=None):\n        return 'got'\n\nclass MyClass:\n    attr = Descriptor()\n\nobj = MyClass()\nprint(obj.attr)",
+    "options": [
+      "Descriptor object",
+      "'got'",
+      "None",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Descriptors are objects that define `__get__()`, `__set__()`, or `__delete__()`. When accessing `obj.attr`, Python calls the descriptor's `__get__()` method, which returns 'got'.",
+    "wrongExplanations": [
+      "The __get__ method is called, returning its value.",
+      "Correct! The descriptor's __get__ returns 'got'.",
+      "__get__ returns 'got', not None.",
+      "The code correctly implements a descriptor."
+    ]
+  },
+  {
+    "id": "code_thu_08",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Medium",
+    "topic": "JavaScript Array Find",
+    "question": "What is the output?",
+    "code": "let arr = [1, 2, 3, 4, 5];\nlet result = arr.find(x => x > 3);\nconsole.log(result);",
+    "options": [
+      "3",
+      "4",
+      "[4, 5]",
+      "undefined"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `find()` method returns the *first* element that satisfies the test function. The first element greater than 3 is 4.",
+    "wrongExplanations": [
+      "3 is not greater than 3.",
+      "Correct! First element > 3 is 4.",
+      "find() returns a single element, not an array.",
+      "There are elements that satisfy the condition."
+    ]
+  },
+  {
+    "id": "code_fri_08",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Easy",
+    "topic": "Python String Formatting",
+    "question": "What does this print?",
+    "code": "name = 'Alice'\nage = 30\nprint(f'{name} is {age} years old')",
+    "options": [
+      "'name is age years old'",
+      "'Alice is 30 years old'",
+      "'{name} is {age} years old'",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "F-strings (formatted string literals) allow embedding expressions inside strings using `{}`. Variables are evaluated and inserted into the string.",
+    "wrongExplanations": [
+      "F-strings evaluate variables, not treat them as literals.",
+      "Correct! Variables are evaluated and inserted.",
+      "The `f` prefix enables interpolation.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_sat_08",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Tree Traversal",
+    "question": "For a binary tree, what traversal visits the root between left and right subtrees?",
+    "code": "def traverse(node):\n    if node:\n        traverse(node.left)\n        print(node.val)\n        traverse(node.right)",
+    "options": [
+      "Pre-order",
+      "In-order",
+      "Post-order",
+      "Level-order"
+    ],
+    "correctIndex": 1,
+    "explanation": "In-order traversal visits nodes in the order: left subtree, root, right subtree. This is what the code demonstrates.",
+    "wrongExplanations": [
+      "Pre-order visits root first, then left, then right.",
+      "Correct! In-order: left, root, right.",
+      "Post-order visits left, right, then root.",
+      "Level-order uses a queue to visit level by level."
+    ]
+  },
+  {
+    "id": "code_sun_08",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Medium",
+    "topic": "JavaScript Set",
+    "question": "What is logged?",
+    "code": "let s = new Set([1, 2, 2, 3]);\nconsole.log(s.size);",
+    "options": [
+      "3",
+      "4",
+      "2",
+      "undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sets automatically remove duplicates. The array [1, 2, 2, 3] contains 4 elements, but the Set only stores unique values: 1, 2, 3 (size 3).",
+    "wrongExplanations": [
+      "Correct! Sets store only unique values.",
+      "This would be the array length, but duplicates are removed.",
+      "There are 3 unique values.",
+      "Sets have a size property."
+    ]
+  },
+  {
+    "id": "code_mon_09",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python If-Else",
+    "question": "What is printed?",
+    "code": "x = 15\nif x > 10:\n    print('A')\nelif x > 5:\n    print('B')\nelse:\n    print('C')",
+    "options": [
+      "'A'",
+      "'B'",
+      "'C'",
+      "'A' and 'B'"
+    ],
+    "correctIndex": 0,
+    "explanation": "If-elif-else chains execute the first block whose condition is true. Since x > 10 is true, 'A' is printed and the rest are skipped.",
+    "wrongExplanations": [
+      "Correct! First true condition executes.",
+      "This condition is true, but the first one already matched.",
+      "The first condition is true.",
+      "Only the first matching block executes."
+    ]
+  },
+  {
+    "id": "code_tue_09",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Hard",
+    "topic": "JavaScript Classes",
+    "question": "What is logged?",
+    "code": "class Animal {\n  constructor(name) {\n    this.name = name;\n  }\n  static info() {\n    return 'Animal class';\n  }\n}\nlet dog = new Animal('Dog');\nconsole.log(dog.info());",
+    "options": [
+      "'Animal class'",
+      "'Dog'",
+      "undefined",
+      "Error: info is not a function"
+    ],
+    "correctIndex": 3,
+    "explanation": "Static methods belong to the class itself, not instances. Calling `dog.info()` fails because `info()` is static and must be called as `Animal.info()`.",
+    "wrongExplanations": [
+      "Static methods aren't accessible on instances.",
+      "info() doesn't return the name.",
+      "The method exists but isn't on the instance.",
+      "Correct! Static methods can't be called on instances."
+    ]
+  },
+  {
+    "id": "code_wed_09",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Medium",
+    "topic": "Python List Slicing",
+    "question": "What does this produce?",
+    "code": "lst = [0, 1, 2, 3, 4, 5]\nprint(lst[::2])",
+    "options": [
+      "[0, 1, 2, 3, 4, 5]",
+      "[0, 2, 4]",
+      "[1, 3, 5]",
+      "[5, 4, 3, 2, 1, 0]"
+    ],
+    "correctIndex": 1,
+    "explanation": "The slice `[::2]` means start at the beginning, go to the end, with a step of 2. This selects every second element: 0, 2, 4.",
+    "wrongExplanations": [
+      "The step of 2 skips elements.",
+      "Correct! Every second element starting from index 0.",
+      "This would be `lst[1::2]`.",
+      "This would be `lst[::-1]`."
+    ]
+  },
+  {
+    "id": "code_thu_09",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript String Methods",
+    "question": "What is the output?",
+    "code": "let str = 'hello world';\nconsole.log(str.includes('world'));",
+    "options": [
+      "true",
+      "false",
+      "5",
+      "undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "The `includes()` method checks if a string contains a substring, returning a boolean. 'world' is in 'hello world', so it returns true.",
+    "wrongExplanations": [
+      "Correct! 'world' is found in the string.",
+      "'world' is present in the string.",
+      "includes() returns boolean, not the index.",
+      "includes() returns true or false."
+    ]
+  },
+  {
+    "id": "code_fri_09",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "Python Multiple Inheritance",
+    "question": "What is printed?",
+    "code": "class A:\n    def method(self):\n        return 'A'\n\nclass B(A):\n    def method(self):\n        return 'B'\n\nclass C(A):\n    def method(self):\n        return 'C'\n\nclass D(B, C):\n    pass\n\nprint(D().method())",
+    "options": [
+      "'A'",
+      "'B'",
+      "'C'",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python uses MRO (Method Resolution Order) based on C3 linearization. For D(B, C), MRO is D → B → C → A. The first `method()` found is in B.",
+    "wrongExplanations": [
+      "A is the base class, but B overrides the method first in MRO.",
+      "Correct! MRO finds B's method first.",
+      "B comes before C in the inheritance list.",
+      "Python handles multiple inheritance with MRO."
+    ]
+  },
+  {
+    "id": "code_sat_09",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Hash Tables",
+    "question": "What is the average-case time complexity for insertion in a hash table?",
+    "code": "class HashTable:\n    def __init__(self):\n        self.table = [[] for _ in range(100)]\n    \n    def insert(self, key, value):\n        index = hash(key) % len(self.table)\n        self.table[index].append((key, value))",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "With a good hash function and low load factor, hash table insertions are O(1) on average. Computing the hash and accessing the bucket are constant time operations.",
+    "wrongExplanations": [
+      "Correct! Average case is constant time with good hashing.",
+      "Hash tables don't require sorting or binary search.",
+      "O(n) is the worst case with many collisions.",
+      "Hash tables are designed to avoid quadratic complexity."
+    ]
+  },
+  {
+    "id": "code_sun_09",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "JavaScript Math Object",
+    "question": "What does this return?",
+    "code": "console.log(Math.floor(4.7));",
+    "options": [
+      "4",
+      "5",
+      "4.7",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "`Math.floor()` rounds a number down to the nearest integer. 4.7 rounds down to 4.",
+    "wrongExplanations": [
+      "Correct! floor() rounds down to 4.",
+      "This would be Math.ceil() or Math.round().",
+      "floor() returns an integer, not the original value.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_mon_10",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Medium",
+    "topic": "Python Dict Comprehension",
+    "question": "What is the result?",
+    "code": "d = {x: x**2 for x in range(1, 4)}\nprint(d)",
+    "options": [
+      "{1: 1, 2: 4, 3: 9}",
+      "{0: 0, 1: 1, 2: 4, 3: 9}",
+      "[1, 4, 9]",
+      "{x: x**2}"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dictionary comprehension creates a dict with key-value pairs. For x in range(1, 4) [1, 2, 3], it creates {1: 1, 2: 4, 3: 9}.",
+    "wrongExplanations": [
+      "Correct! Keys 1, 2, 3 with squared values.",
+      "range(1, 4) starts at 1, not 0.",
+      "This creates a dict, not a list.",
+      "The comprehension evaluates the expression."
+    ]
+  },
+  {
+    "id": "code_tue_10",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Easy",
+    "topic": "JavaScript Increment",
+    "question": "What is logged?",
+    "code": "let x = 5;\nconsole.log(x++);\nconsole.log(x);",
+    "options": [
+      "5\n6",
+      "6\n6",
+      "5\n5",
+      "6\n7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Post-increment `x++` returns the current value (5), *then* increments. So first log shows 5, second shows 6.",
+    "wrongExplanations": [
+      "Correct! Post-increment returns before incrementing.",
+      "Pre-increment would be ++x.",
+      "x is incremented after the first log.",
+      "x is only incremented once."
+    ]
+  },
+  {
+    "id": "code_wed_10",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Hard",
+    "topic": "Python Monkey Patching",
+    "question": "What is printed?",
+    "code": "class MyClass:\n    def method(self):\n        return 'original'\n\nobj = MyClass()\nMyClass.method = lambda self: 'patched'\nprint(obj.method())",
+    "options": [
+      "'original'",
+      "'patched'",
+      "Error",
+      "None"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monkey patching modifies a class or module at runtime. Changing `MyClass.method` affects all instances, including existing ones. The new method returns 'patched'.",
+    "wrongExplanations": [
+      "The class method was replaced.",
+      "Correct! The method was patched after object creation.",
+      "Python allows runtime modification of classes.",
+      "The lambda returns 'patched'."
+    ]
+  },
+  {
+    "id": "code_thu_10",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Medium",
+    "topic": "JavaScript Object Freeze",
+    "question": "What happens?",
+    "code": "const obj = Object.freeze({a: 1});\nobj.a = 2;\nconsole.log(obj.a);",
+    "options": [
+      "1",
+      "2",
+      "undefined",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "`Object.freeze()` makes an object immutable. Attempts to modify it fail silently (or throw in strict mode). The value remains 1.",
+    "wrongExplanations": [
+      "Correct! Frozen objects cannot be modified.",
+      "The assignment fails silently.",
+      "The property still exists with its original value.",
+      "In non-strict mode, the assignment fails silently."
+    ]
+  },
+  {
+    "id": "code_fri_10",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Easy",
+    "topic": "Python Any/All",
+    "question": "What does this return?",
+    "code": "print(any([False, False, True, False]))",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "The `any()` function returns True if at least one element in the iterable is truthy. Since one element is True, it returns True.",
+    "wrongExplanations": [
+      "Correct! At least one element is True.",
+      "There is a True value in the list.",
+      "any() returns a boolean.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_sat_10",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Binary Search",
+    "question": "What is the time complexity of binary search?",
+    "code": "def binary_search(arr, target):\n    left, right = 0, len(arr) - 1\n    while left <= right:\n        mid = (left + right) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            left = mid + 1\n        else:\n            right = mid - 1\n    return -1",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Binary search divides the search space in half each iteration. With n elements, it takes at most log₂(n) comparisons to find or exclude the target.",
+    "wrongExplanations": [
+      "Best case is O(1), but average/worst is logarithmic.",
+      "Correct! Search space halves each iteration: O(log n).",
+      "O(n) would be linear search.",
+      "O(n log n) is typical for efficient sorting algorithms."
+    ]
+  },
+  {
+    "id": "code_sun_10",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Medium",
+    "topic": "JavaScript Array Some",
+    "question": "What is the output?",
+    "code": "let arr = [1, 2, 3, 4];\nlet result = arr.some(x => x > 5);\nconsole.log(result);",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "[4]"
+    ],
+    "correctIndex": 1,
+    "explanation": "The `some()` method tests whether at least one element passes the test. No elements are greater than 5, so it returns false.",
+    "wrongExplanations": [
+      "No elements satisfy x > 5.",
+      "Correct! All elements are ≤ 5.",
+      "some() returns a boolean.",
+      "some() returns true/false, not filtered elements."
+    ]
+  },
+  {
+    "id": "code_mon_11",
+    "day": "Monday",
+    "dayIndex": 1,
+    "difficulty": "Easy",
+    "topic": "Python While Loop",
+    "question": "What is printed?",
+    "code": "i = 0\nwhile i < 3:\n    print(i, end=' ')\n    i += 1",
+    "options": [
+      "0 1 2",
+      "0 1 2 3",
+      "1 2 3",
+      "Infinite loop"
+    ],
+    "correctIndex": 0,
+    "explanation": "The while loop executes while i < 3. It prints 0, 1, 2, then stops when i becomes 3.",
+    "wrongExplanations": [
+      "Correct! Loop runs for i = 0, 1, 2.",
+      "Loop stops when i reaches 3.",
+      "i starts at 0, not 1.",
+      "i is incremented, so the loop terminates."
+    ]
+  },
+  {
+    "id": "code_tue_11",
+    "day": "Tuesday",
+    "dayIndex": 2,
+    "difficulty": "Hard",
+    "topic": "JavaScript Event Loop",
+    "question": "What is the output order?",
+    "code": "console.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nqueueMicrotask(() => console.log('4'));\nconsole.log('5');",
+    "options": [
+      "1 5 3 4 2",
+      "1 2 3 4 5",
+      "1 5 2 3 4",
+      "1 3 4 5 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Event loop: synchronous code first (1, 5), then microtasks (Promise and queueMicrotask: 3, 4), then macrotasks (setTimeout: 2).",
+    "wrongExplanations": [
+      "Correct! Sync → microtasks (3, 4) → macrotasks (2).",
+      "Async operations don't run immediately.",
+      "Microtasks run before macrotasks.",
+      "Synchronous code (5) runs before microtasks."
+    ]
+  },
+  {
+    "id": "code_wed_11",
+    "day": "Wednesday",
+    "dayIndex": 3,
+    "difficulty": "Medium",
+    "topic": "Python Args and Kwargs",
+    "question": "What does this print?",
+    "code": "def func(*args, **kwargs):\n    print(len(args), len(kwargs))\n\nfunc(1, 2, 3, a=4, b=5)",
+    "options": [
+      "5 0",
+      "3 2",
+      "2 3",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "`*args` collects positional arguments into a tuple (1, 2, 3), and `**kwargs` collects keyword arguments into a dict {a: 4, b: 5}. Lengths are 3 and 2.",
+    "wrongExplanations": [
+      "Keyword arguments are separate from positional.",
+      "Correct! 3 positional args, 2 keyword args.",
+      "The counts are reversed.",
+      "The syntax is valid."
+    ]
+  },
+  {
+    "id": "code_thu_11",
+    "day": "Thursday",
+    "dayIndex": 4,
+    "difficulty": "Easy",
+    "topic": "JavaScript Type Checking",
+    "question": "What is logged?",
+    "code": "console.log(typeof null);",
+    "options": [
+      "'null'",
+      "'object'",
+      "'undefined'",
+      "'number'"
+    ],
+    "correctIndex": 1,
+    "explanation": "This is a historic bug in JavaScript. `typeof null` returns 'object', even though null is a primitive value representing the absence of a value.",
+    "wrongExplanations": [
+      "typeof returns the type, not the value itself.",
+      "Correct! Historic JavaScript quirk: typeof null is 'object'.",
+      "null is defined, unlike undefined.",
+      "null is not a number."
+    ]
+  },
+  {
+    "id": "code_fri_11",
+    "day": "Friday",
+    "dayIndex": 5,
+    "difficulty": "Hard",
+    "topic": "Python Walrus Operator",
+    "question": "What is printed?",
+    "code": "if (n := len([1, 2, 3])) > 2:\n    print(n)",
+    "options": [
+      "3",
+      "True",
+      "False",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "The walrus operator `:=` assigns a value to a variable within an expression. It assigns `len([1, 2, 3])` (3) to n, checks if n > 2 (True), then prints n.",
+    "wrongExplanations": [
+      "Correct! n is assigned 3 and printed.",
+      "The print statement outputs n, not the boolean.",
+      "3 > 2 is True, so the if block executes.",
+      "The walrus operator is valid in Python 3.8+."
+    ]
+  },
+  {
+    "id": "code_sat_11",
+    "day": "Saturday",
+    "dayIndex": 6,
+    "difficulty": "Super Ultra Hard",
+    "topic": "Linked Lists",
+    "question": "What is the time complexity of inserting at the beginning of a singly linked list?",
+    "code": "class Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\ndef insert_at_beginning(head, data):\n    new_node = Node(data)\n    new_node.next = head\n    return new_node",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n^2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inserting at the beginning of a linked list only requires creating a new node and adjusting one pointer. No traversal needed, so it's O(1).",
+    "wrongExplanations": [
+      "Correct! Constant time, no traversal required.",
+      "No searching or tree structure involved.",
+      "O(n) would be for inserting at the end or middle.",
+      "No nested operations required."
+    ]
+  },
+  {
+    "id": "code_sun_11",
+    "day": "Sunday",
+    "dayIndex": 7,
+    "difficulty": "Easy",
+    "topic": "JavaScript Array Concat",
+    "question": "What is the result?",
+    "code": "let arr1 = [1, 2];\nlet arr2 = [3, 4];\nlet result = arr1.concat(arr2);\nconsole.log(result);",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[[1, 2], [3, 4]]",
+      "[1, 2]",
+      "[3, 4]"
+    ],
+    "correctIndex": 0,
+    "explanation": "The `concat()` method merges arrays by creating a new array with elements from both. It doesn't modify the original arrays.",
+    "wrongExplanations": [
+      "Correct! Elements are combined into one array.",
+      "concat() merges elements, not nests arrays.",
+      "arr2 is also included.",
+      "arr1 is also included."
+    ]
+  }
 ]
