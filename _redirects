@@ -51,10 +51,14 @@
 /best-coding-class-in-hyderabad /src/pages/best-coding-class-in-hyderabad.html 200
 /best-coding-class-in-bengaluru /src/pages/best-coding-class-in-bengaluru.html 200
 /best-coding-class-in-pune /src/pages/best-coding-class-in-pune.html 200
-/best-coding-class-in-mumbai /src/pages/best-coding-class-in-mumbai.html 200
-/best-coding-class-in-delhi /src/pages/best-coding-class-in-delhi.html 200
+/best-coding-class-in-chennai /src/pages/best-coding-class-in-chennai.html 200
 
-
+# Daily Challenges & Practice Pages
+/coding-challenges /src/pages/coding-challenges.html 200
+/maths-challenges /src/pages/maths-challenges.html 200
+/mistakes-students-make /src/pages/mistakes-students-make.html 200
+/corporate-training /src/pages/corporate.html 200
+/book-demo /src/pages/book-demo.html 200
 # Category pages with .html extension (primary URLs)
 /category/kids.html /src/pages/category/kids.html 200
 /category/teens.html /src/pages/category/teens.html 200

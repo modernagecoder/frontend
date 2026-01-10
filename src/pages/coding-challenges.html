@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Coding Challenge | Modern Age Coders</title>
+    <meta name="description"
+        content="Sharpen your programming logic with our daily coding challenge. One carefully crafted question per day designed for deep thinking. Python, JavaScript, Java, C++, and SQL.">
+    <meta name="keywords" content="daily coding challenge, programming practice, coding questions, Python practice, JavaScript quiz, logic problems, competitive programming, coding for students">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/coding-challenges">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/coding-challenges">
+    <meta property="og:title" content="Daily Coding Challenge | Modern Age Coders">
+    <meta property="og:description" content="Sharpen your programming logic with our daily coding challenge. 500+ problems in Python, JavaScript, Java, C++, and SQL.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-coding-challenge.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/coding-challenges">
+    <meta name="twitter:title" content="Daily Coding Challenge | Modern Age Coders">
+    <meta name="twitter:description" content="Sharpen your programming logic with our daily coding challenge. 500+ problems in Python, JavaScript, Java, C++, and SQL.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-coding-challenge.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/challenge-pages.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <!-- Structured Data - WebPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Daily Coding Challenge",
+        "description": "Sharpen your programming logic with our daily coding challenge. One carefully crafted question per day designed for deep thinking.",
+        "url": "https://learn.modernagecoders.com/coding-challenges",
+        "mainEntity": {
+            "@type": "Quiz",
+            "name": "Daily Coding Challenge",
+            "description": "A daily programming quiz to improve problem-solving skills",
+            "educationalLevel": "Beginner to Advanced",
+            "about": {
+                "@type": "Thing",
+                "name": "Computer Programming"
+            }
+        },
+        "provider": {
+            "@type": "Organization",
+            "name": "Modern Age Coders",
+            "url": "https://learn.modernagecoders.com"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://learn.modernagecoders.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Daily Coding Challenge",
+                    "item": "https://learn.modernagecoders.com/coding-challenges"
+                }
+            ]
+        }
+    }
+    </script>
+
+    <!-- Structured Data - FAQPage for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the Daily Coding Challenge?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The Daily Coding Challenge is a free practice platform where students receive one carefully crafted programming problem each day. It covers Python, JavaScript, Java, C++, and SQL with varying difficulty levels throughout the week."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the streak system work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The streak system tracks consecutive days of correct answers. Answer correctly each day to build your streak. Missing a day resets your streak to 1, encouraging consistent daily practice."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What difficulty levels are available?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Questions range from Easy on Monday to Super Ultra Hard on Saturday. The difficulty progresses through the week: Easy → Medium → Hard → Ultra, helping students gradually improve their skills."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body class="challenge-page" data-challenge-type="coding">
+
+    <!-- Simple Clean Navigation -->
+    <nav class="challenge-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">
+                <img src="/images/logo.svg" alt="Modern Age Coders" class="nav-logo-img">
+                <span>Modern Age Coders</span>
+            </a>
+            <div class="nav-links">
+                <a href="/course" class="nav-link">Courses</a>
+                <a href="/pricing" class="nav-link nav-link-highlight">Pricing</a>
+                <a href="/maths-challenges" class="nav-link">Maths Challenge</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN FOCUS: Challenge Section (First Thing Visible) -->
+    <main class="challenge-main">
+
+        <!-- Challenge Header -->
+        <div class="challenge-intro">
+            <div class="challenge-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+                Daily Coding Challenge
+            </div>
+            <div class="streak-pill">
+                <span class="streak-fire">🔥</span>
+                <span class="streak-text" id="dc-streak-count">0 Day Streak</span>
+            </div>
+        </div>
+
+        <!-- Weekly Timeline -->
+        <div class="timeline-section">
+            <div class="timeline-wrapper" id="dc-timeline">
+                <!-- Injected by JS -->
+            </div>
+        </div>
+
+        <!-- MAIN CHALLENGE CARD -->
+        <div class="main-challenge-card">
+            <div class="card-header">
+                <div class="card-meta">
+                    <span class="card-date" id="dc-date">Loading...</span>
+                    <span class="card-topic" id="dc-topic">Programming</span>
+                </div>
+                <span class="difficulty-tag easy" id="dc-difficulty">Easy</span>
+            </div>
+
+            <div class="card-body" id="dc-question-container">
+                <div class="loading-state">
+                    <div class="loading-spinner"></div>
+                    <p class="loading-text">Loading today's challenge...</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- SEO & Trust Section (Below the fold) -->
+    <section class="seo-section">
+        <div class="seo-container">
+
+            <div class="seo-header">
+                <h1>Daily Coding Challenge - Train Your Programming Logic</h1>
+                <p>Join 12,000+ students who sharpen their coding skills with our carefully crafted daily challenges</p>
+            </div>
+
+            <div class="seo-features">
+                <div class="seo-feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>500+ Challenges</h3>
+                    <p>Curated problems covering algorithms, data structures, and real-world scenarios</p>
+                </div>
+                <div class="seo-feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Daily Practice</h3>
+                    <p>One focused question per day - quality over quantity for deep learning</p>
+                </div>
+                <div class="seo-feature">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 20h9"></path>
+                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                        </svg>
+                    </div>
+                    <h3>Detailed Explanations</h3>
+                    <p>Every question comes with step-by-step reasoning for both correct and wrong answers</p>
+                </div>
+            </div>
+
+            <div class="seo-cta">
+                <h2>Ready to Master Coding?</h2>
+                <p>Our structured courses take you from beginner to job-ready developer</p>
+                <div class="cta-buttons">
+                    <a href="/course" class="cta-primary">View All Courses</a>
+                    <a href="/pricing" class="cta-secondary">See Pricing</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Quote -->
+    <div class="quote-banner">
+        <blockquote>"Logic will get you from A to B. Imagination will take you everywhere."</blockquote>
+        <cite>— Albert Einstein</cite>
+    </div>
+
+    <!-- Simple Clean Footer -->
+    <footer class="challenge-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="/" class="footer-logo">Modern Age Coders</a>
+                <p>Building the next generation of problem solvers</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <h4>Learn</h4>
+                    <a href="/course">All Courses</a>
+                    <a href="/pricing">Pricing</a>
+                    <a href="/book-demo">Book Free Demo</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Challenges</h4>
+                    <a href="/coding-challenges">Coding Challenge</a>
+                    <a href="/maths-challenges">Maths Challenge</a>
+                    <a href="/mistakes-students-make">Common Mistakes</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="/about-us">About Us</a>
+                    <a href="/success-stories">Success Stories</a>
+                    <a href="/love">Student Reviews</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Modern Age Coders. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/js/daily-challenge.js"></script>
+
+</body>
+
+</html>

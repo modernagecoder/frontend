@@ -1,0 +1,46 @@
+[
+    {
+        "id": "math_mon_01",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Number Sense",
+        "question": "If a number `x` is divisible by both 3 and 5, which of the following must also be true?",
+        "options": [
+            "x is divisible by 8",
+            "x is divisible by 15",
+            "x is an odd number",
+            "x ends in 0"
+        ],
+        "correctIndex": 1,
+        "explanation": "If a number is divisible by two coprime numbers (numbers that share no factors other than 1), it is divisible by their product. Since 3 and 5 are prime (and thus coprime), any number divisible by both must be divisible by 3 × 5 = 15.",
+        "wrongExplanations": [
+            "Divisibility by sums (3+5=8) is not a rule in mathematics.",
+            "Correct! LCM(3, 5) = 15.",
+            "Not necessarily. 30 is divisible by 3 and 5, but it is even.",
+            "Not necessarily. 15, 45, 75 end in 5."
+        ]
+    },
+    {
+        "id": "math_sat_01",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Combinatorics",
+        "question": "How many distinct ways can you traverse a 4x4 grid from top-left to bottom-right, moving only right or down?",
+        "options": [
+            "20",
+            "56",
+            "70",
+            "128"
+        ],
+        "correctIndex": 2,
+        "explanation": "To move from top-left (0,0) to bottom-right (4,4) in a 4x4 grid (assuming 4 unit steps down and 4 unit steps right, total grid size usually implies cells, but standard grid path problems on n x n lattice points imply n steps R and n steps D). Let's assume a grid of 4x4 squares, meaning 4 steps Right and 4 steps Down needed. Total steps = 8. You must choose which 4 of these 8 steps are 'Right'. The formula is C(n, k) = n! / (k!(n-k)!), where n=8 and k=4. 8! / (4! * 4!) = (8*7*6*5) / (4*3*2*1) = 1680 / 24 = 70.",
+        "wrongExplanations": [
+            "Too low.",
+            "Close, but incorrect calculation.",
+            "Correct! This is '8 choose 4'.",
+            "Too high."
+        ]
+    }
+]

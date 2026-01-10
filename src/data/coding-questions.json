@@ -1,0 +1,71 @@
+[
+    {
+        "id": "code_mon_01",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Python Lists",
+        "question": "What is the output of the following Python code snippet?",
+        "code": "my_list = [1, 2, 3]\nnew_list = my_list\nnew_list.append(4)\nprint(my_list)",
+        "options": [
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]",
+            "Error: Lists are immutable",
+            "[4, 1, 2, 3]"
+        ],
+        "correctIndex": 1,
+        "explanation": "In Python, lists are mutable objects. When you assign `new_list = my_list`, you aren't creating a copy of the list; you are creating a new reference to the *same* list object in memory. Therefore, modifying `new_list` also modifies `my_list`.",
+        "wrongExplanations": [
+            "This would only happen if `new_list` was a copy (e.g., `my_list[:]`). Here, they point to the same object.",
+            "Correct! Both variables point to the same list object.",
+            "Lists in Python are mutable, meaning they can be changed. Tuples are immutable.",
+            "Append adds elements to the end of the list, not the beginning."
+        ]
+    },
+    {
+        "id": "code_tue_01",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Medium",
+        "topic": "JavaScript Scope",
+        "question": "Consider the following JavaScript code. What is logged to the console?",
+        "code": "for (var i = 0; i < 3; i++) {\n  setTimeout(() => console.log(i), 1);\n}",
+        "options": [
+            "0 1 2",
+            "1 2 3",
+            "3 3 3",
+            "undefined"
+        ],
+        "correctIndex": 2,
+        "explanation": "This is a classic closure issue with `var`. `var` has function scope, not block scope. The loop completes *before* the `setTimeout` callbacks run. By the time they run, the shared variable `i` has essentially incremented to 3. (Using `let` would fix this).",
+        "wrongExplanations": [
+            "This would happen if `let i` was used, which has block scope.",
+            "The loop starts at 0, not 1.",
+            "Correct! `var` is function-scoped, so the final value of `i` (which is 3) is shared across all callbacks.",
+            "`i` is defined and reaches 3."
+        ]
+    },
+    {
+        "id": "code_sat_01",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Algorithm Analysis",
+        "question": "You have a function `mystery(n)` that calls itself recursively `mystery(n-1)` twice. What is the time complexity of this function?",
+        "code": "def mystery(n):\n    if n <= 1: return\n    mystery(n-1)\n    mystery(n-1)",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(2^n)"
+        ],
+        "correctIndex": 3,
+        "explanation": "This is a classic recurrence relation: T(n) = 2T(n-1) + O(1). Each call branches into two more calls. This creates a binary tree of calls with depth `n`. The total number of nodes in a full binary tree of depth `n` is 2^n - 1. Thus, the complexity is exponential, O(2^n).",
+        "wrongExplanations": [
+            "O(n) would be linear, like a single loop.",
+            "O(n log n) is typical for efficient sorting algorithms like Merge Sort.",
+            "O(n^2) is quadratic, typical for nested loops.",
+            "Correct! The recursion tree doubles at every level, leading to exponential growth."
+        ]
+    }
+]
