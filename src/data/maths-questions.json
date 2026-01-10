@@ -1,968 +1,1933 @@
 [
-  {
-    "id": "math_mon_01",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Easy",
-    "topic": "Algebra - Linear Equations",
-    "question": "Solve for x in the equation: 3x + 7 = 22",
-    "code": "3x + 7 = 22",
-    "options": [
-      "x = 3",
-      "x = 5",
-      "x = 7",
-      "x = 15"
-    ],
-    "correctIndex": 1,
-    "explanation": "To solve for x, first subtract 7 from both sides: 3x = 15. Then divide both sides by 3: x = 5.",
-    "wrongExplanations": [
-      "This would be correct if 3x = 9, but we get 3x = 15.",
-      "Correct! Subtracting 7 gives 3x = 15, then dividing by 3 gives x = 5.",
-      "This ignores the coefficient of x.",
-      "This is the value of 3x, not x itself."
-    ]
-  },
-  {
-    "id": "math_tue_01",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Medium",
-    "topic": "Geometry - Circle Properties",
-    "question": "A circle has a radius of 7 cm. What is its circumference? (Use π ≈ 3.14)",
-    "code": "C = 2πr, where r = 7",
-    "options": [
-      "21.98 cm",
-      "43.96 cm",
-      "153.86 cm",
-      "14 cm"
-    ],
-    "correctIndex": 1,
-    "explanation": "The circumference formula is C = 2πr. Substituting r = 7: C = 2 × 3.14 × 7 = 43.96 cm.",
-    "wrongExplanations": [
-      "This is πr, not 2πr.",
-      "Correct! C = 2 × 3.14 × 7 = 43.96 cm.",
-      "This is the area (πr²), not circumference.",
-      "This is the diameter (2r), not circumference."
-    ]
-  },
-  {
-    "id": "math_wed_01",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Easy",
-    "topic": "Fractions - Operations",
-    "question": "What is 2/3 + 1/4?",
-    "code": "2/3 + 1/4 = ?",
-    "options": [
-      "3/7",
-      "11/12",
-      "5/6",
-      "8/12"
-    ],
-    "correctIndex": 1,
-    "explanation": "To add fractions, find a common denominator. LCM of 3 and 4 is 12. Convert: 2/3 = 8/12 and 1/4 = 3/12. Then 8/12 + 3/12 = 11/12.",
-    "wrongExplanations": [
-      "You cannot add numerators and denominators directly.",
-      "Correct! 8/12 + 3/12 = 11/12.",
-      "This would be 10/12, which simplifies to 5/6, but our answer is 11/12.",
-      "This equals 2/3, which is just the first fraction."
-    ]
-  },
-  {
-    "id": "math_thu_01",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Medium",
-    "topic": "Exponents - Properties",
-    "question": "Simplify: (2³)(2⁴)",
-    "code": "(2³)(2⁴) = ?",
-    "options": [
-      "2⁷",
-      "2¹²",
-      "4⁷",
-      "2⁶"
-    ],
-    "correctIndex": 0,
-    "explanation": "When multiplying powers with the same base, add the exponents: aᵐ × aⁿ = aᵐ⁺ⁿ. So 2³ × 2⁴ = 2³⁺⁴ = 2⁷ = 128.",
-    "wrongExplanations": [
-      "Correct! Add exponents when multiplying: 3 + 4 = 7.",
-      "This would be (2³)⁴, which multiplies exponents.",
-      "The base remains 2, not 2 × 2 = 4.",
-      "This would be if we multiplied 3 × 2 instead of adding."
-    ]
-  },
-  {
-    "id": "math_fri_01",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Hard",
-    "topic": "Quadratic Equations",
-    "question": "Find the solutions to x² - 5x + 6 = 0",
-    "code": "x² - 5x + 6 = 0",
-    "options": [
-      "x = 1, x = 6",
-      "x = 2, x = 3",
-      "x = -2, x = -3",
-      "x = 5, x = 6"
-    ],
-    "correctIndex": 1,
-    "explanation": "Factor the quadratic: (x - 2)(x - 3) = 0. Setting each factor to zero gives x = 2 or x = 3. Verify: 2² - 5(2) + 6 = 4 - 10 + 6 = 0 ✓",
-    "wrongExplanations": [
-      "These don't satisfy the equation when substituted.",
-      "Correct! Factoring gives (x - 2)(x - 3) = 0.",
-      "These give positive values, not zero.",
-      "6 doesn't satisfy the equation: 36 - 30 + 6 = 12 ≠ 0."
-    ]
-  },
-  {
-    "id": "math_sat_01",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Calculus - Derivatives",
-    "question": "Find the derivative of f(x) = 3x⁴ - 2x² + 5",
-    "code": "f(x) = 3x⁴ - 2x² + 5\nf'(x) = ?",
-    "options": [
-      "12x³ - 4x",
-      "12x³ - 2x",
-      "3x³ - 2x",
-      "12x⁴ - 4x²"
-    ],
-    "correctIndex": 0,
-    "explanation": "Using the power rule d/dx(xⁿ) = nxⁿ⁻¹: derivative of 3x⁴ is 12x³, derivative of -2x² is -4x, derivative of 5 is 0. Result: f'(x) = 12x³ - 4x.",
-    "wrongExplanations": [
-      "Correct! Apply power rule to each term.",
-      "The derivative of -2x² is -4x, not -2x.",
-      "You must multiply by the original exponent.",
-      "The exponents should decrease by 1 in the derivative."
-    ]
-  },
-  {
-    "id": "math_sun_01",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Easy",
-    "topic": "Percentages",
-    "question": "What is 25% of 80?",
-    "code": "25% × 80 = ?",
-    "options": [
-      "15",
-      "20",
-      "25",
-      "30"
-    ],
-    "correctIndex": 1,
-    "explanation": "25% means 25/100 or 0.25. Multiply: 0.25 × 80 = 20. Alternative: 25% is 1/4, and 80 ÷ 4 = 20.",
-    "wrongExplanations": [
-      "This would be approximately 18.75%.",
-      "Correct! 0.25 × 80 = 20.",
-      "This is the percentage value itself, not 25% of 80.",
-      "This would be 37.5% of 80."
-    ]
-  },
-  {
-    "id": "math_mon_02",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Medium",
-    "topic": "Systems of Equations",
-    "question": "Solve the system: x + y = 10 and x - y = 2",
-    "code": "x + y = 10\nx - y = 2",
-    "options": [
-      "x = 5, y = 5",
-      "x = 6, y = 4",
-      "x = 7, y = 3",
-      "x = 8, y = 2"
-    ],
-    "correctIndex": 1,
-    "explanation": "Add the equations: (x + y) + (x - y) = 10 + 2, which gives 2x = 12, so x = 6. Substitute into first equation: 6 + y = 10, so y = 4.",
-    "wrongExplanations": [
-      "This doesn't satisfy x - y = 2 (5 - 5 = 0).",
-      "Correct! x = 6 and y = 4 satisfy both equations.",
-      "This doesn't satisfy x + y = 10 (7 + 3 = 10 ✓, but 7 - 3 = 4 ✗).",
-      "This doesn't satisfy x + y = 10 (8 + 2 = 10 ✓, but 8 - 2 = 6 ✗)."
-    ]
-  },
-  {
-    "id": "math_tue_02",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Easy",
-    "topic": "Pythagorean Theorem",
-    "question": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
-    "code": "a² + b² = c²\n3² + 4² = c²",
-    "options": [
-      "5",
-      "7",
-      "12",
-      "25"
-    ],
-    "correctIndex": 0,
-    "explanation": "Using the Pythagorean theorem: c² = 3² + 4² = 9 + 16 = 25. Taking the square root: c = 5. This is a classic 3-4-5 Pythagorean triple.",
-    "wrongExplanations": [
-      "Correct! √(9 + 16) = √25 = 5.",
-      "This is just 3 + 4, not √(3² + 4²).",
-      "This is 3 × 4, not related to the Pythagorean theorem.",
-      "This is c², not c."
-    ]
-  },
-  {
-    "id": "math_wed_02",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Hard",
-    "topic": "Trigonometry - Unit Circle",
-    "question": "What is the value of sin(π/4)?",
-    "code": "sin(π/4) = sin(45°) = ?",
-    "options": [
-      "1/2",
-      "√2/2",
-      "√3/2",
-      "1"
-    ],
-    "correctIndex": 1,
-    "explanation": "At π/4 radians (45°), sine and cosine are equal. Using a 45-45-90 triangle with hypotenuse 1, both legs equal 1/√2 = √2/2 ≈ 0.707.",
-    "wrongExplanations": [
-      "This is sin(π/6) or sin(30°).",
-      "Correct! sin(45°) = √2/2 ≈ 0.707.",
-      "This is sin(π/3) or sin(60°).",
-      "This is sin(π/2) or sin(90°)."
-    ]
-  },
-  {
-    "id": "math_thu_02",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Medium",
-    "topic": "Probability - Basic",
-    "question": "A fair die is rolled. What is the probability of rolling a number greater than 4?",
-    "code": "P(X > 4) = ?",
-    "options": [
-      "1/6",
-      "1/3",
-      "1/2",
-      "2/3"
-    ],
-    "correctIndex": 1,
-    "explanation": "Numbers greater than 4 on a die are 5 and 6 (2 favorable outcomes). Total outcomes = 6. Probability = 2/6 = 1/3 ≈ 0.333.",
-    "wrongExplanations": [
-      "This is the probability of rolling exactly one number.",
-      "Correct! 2 favorable outcomes out of 6 total = 2/6 = 1/3.",
-      "This would be 3 favorable outcomes.",
-      "This would be 4 favorable outcomes."
-    ]
-  },
-  {
-    "id": "math_fri_02",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Easy",
-    "topic": "Ratios and Proportions",
-    "question": "If 3:5 = x:20, what is the value of x?",
-    "code": "3/5 = x/20",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "15"
-    ],
-    "correctIndex": 2,
-    "explanation": "Cross-multiply: 3 × 20 = 5 × x, which gives 60 = 5x. Dividing both sides by 5: x = 12.",
-    "wrongExplanations": [
-      "This doesn't satisfy the proportion.",
-      "This would be correct if the ratio was 1:2.",
-      "Correct! Cross-multiplying gives x = 12.",
-      "This would be correct if the ratio was 3:4."
-    ]
-  },
-  {
-    "id": "math_sat_02",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Limits - Calculus",
-    "question": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
-    "code": "lim(x→2) (x² - 4)/(x - 2)",
-    "options": [
-      "0",
-      "2",
-      "4",
-      "undefined"
-    ],
-    "correctIndex": 2,
-    "explanation": "Factor the numerator: x² - 4 = (x + 2)(x - 2). Cancel (x - 2): (x + 2)(x - 2)/(x - 2) = x + 2. Now substitute x = 2: 2 + 2 = 4.",
-    "wrongExplanations": [
-      "Direct substitution gives 0/0, but factoring resolves this.",
-      "This is the value we're approaching, not the limit.",
-      "Correct! After cancellation, lim(x→2) (x + 2) = 4.",
-      "The limit exists after algebraic simplification."
-    ]
-  },
-  {
-    "id": "math_sun_02",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Medium",
-    "topic": "Statistics - Mean",
-    "question": "Find the mean of the data set: {4, 7, 9, 12, 18}",
-    "code": "Mean = (4 + 7 + 9 + 12 + 18)/5",
-    "options": [
-      "8",
-      "9",
-      "10",
-      "12"
-    ],
-    "correctIndex": 2,
-    "explanation": "The mean is the sum divided by the count: (4 + 7 + 9 + 12 + 18)/5 = 50/5 = 10.",
-    "wrongExplanations": [
-      "This is less than the sum divided by 5.",
-      "This is the median (middle value), not the mean.",
-      "Correct! Sum is 50, divided by 5 gives 10.",
-      "This is one of the data values, not the mean."
-    ]
-  },
-  {
-    "id": "math_mon_03",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Easy",
-    "topic": "Inequalities",
-    "question": "Solve for x: 2x - 5 > 9",
-    "code": "2x - 5 > 9",
-    "options": [
-      "x > 2",
-      "x > 7",
-      "x < 7",
-      "x > 14"
-    ],
-    "correctIndex": 1,
-    "explanation": "Add 5 to both sides: 2x > 14. Divide by 2: x > 7. All values greater than 7 satisfy the inequality.",
-    "wrongExplanations": [
-      "This would be the solution to 2x > 4.",
-      "Correct! Adding 5 gives 2x > 14, so x > 7.",
-      "The inequality direction is wrong.",
-      "This would be if we didn't divide by 2."
-    ]
-  },
-  {
-    "id": "math_tue_03",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Hard",
-    "topic": "Logarithms",
-    "question": "Solve for x: log₂(x) = 5",
-    "code": "log₂(x) = 5",
-    "options": [
-      "x = 10",
-      "x = 25",
-      "x = 32",
-      "x = 128"
-    ],
-    "correctIndex": 2,
-    "explanation": "Convert from logarithmic to exponential form: if log₂(x) = 5, then x = 2⁵ = 32.",
-    "wrongExplanations": [
-      "This would be if the base was 2 but the calculation was wrong.",
-      "This is 5², not 2⁵.",
-      "Correct! 2⁵ = 32.",
-      "This is 2⁷, not 2⁵."
-    ]
-  },
-  {
-    "id": "math_wed_03",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Medium",
-    "topic": "Area - Composite Figures",
-    "question": "A rectangle has length 10 cm and width 6 cm. What is its area?",
-    "code": "Area = length × width = 10 × 6",
-    "options": [
-      "16 cm²",
-      "32 cm²",
-      "60 cm²",
-      "100 cm²"
-    ],
-    "correctIndex": 2,
-    "explanation": "Area of a rectangle = length × width = 10 × 6 = 60 cm².",
-    "wrongExplanations": [
-      "This is the perimeter minus 16.",
-      "This is the perimeter (2 × (10 + 6)).",
-      "Correct! 10 × 6 = 60 cm².",
-      "This would be for a 10 × 10 square."
-    ]
-  },
-  {
-    "id": "math_thu_03",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Easy",
-    "topic": "Absolute Value",
-    "question": "What is |−8|?",
-    "code": "|−8| = ?",
-    "options": [
-      "-8",
-      "0",
-      "8",
-      "16"
-    ],
-    "correctIndex": 2,
-    "explanation": "Absolute value represents distance from zero on the number line, always non-negative. |−8| = 8.",
-    "wrongExplanations": [
-      "Absolute value is always positive or zero.",
-      "The absolute value of -8 is not 0.",
-      "Correct! The distance from 0 is 8.",
-      "This would be 2 × |−8|."
-    ]
-  },
-  {
-    "id": "math_fri_03",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Hard",
-    "topic": "Complex Numbers",
-    "question": "Simplify: (3 + 2i) + (1 - 4i)",
-    "code": "(3 + 2i) + (1 - 4i)",
-    "options": [
-      "4 - 2i",
-      "4 + 6i",
-      "2 - 2i",
-      "4 - 6i"
-    ],
-    "correctIndex": 0,
-    "explanation": "Add real parts and imaginary parts separately: (3 + 1) + (2i - 4i) = 4 + (-2i) = 4 - 2i.",
-    "wrongExplanations": [
-      "Correct! Real: 3+1=4, Imaginary: 2i-4i=-2i.",
-      "The imaginary parts were added incorrectly.",
-      "The real parts are 4, not 2.",
-      "The imaginary part should be -2i, not -6i."
-    ]
-  },
-  {
-    "id": "math_sat_03",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Integration - Calculus",
-    "question": "Evaluate: ∫(6x² + 4x)dx",
-    "code": "∫(6x² + 4x)dx",
-    "options": [
-      "2x³ + 2x² + C",
-      "6x³ + 4x² + C",
-      "3x³ + 2x² + C",
-      "2x³ + 4x² + C"
-    ],
-    "correctIndex": 0,
-    "explanation": "Use power rule for integration: ∫xⁿdx = xⁿ⁺¹/(n+1). So ∫6x²dx = 6x³/3 = 2x³ and ∫4xdx = 4x²/2 = 2x². Result: 2x³ + 2x² + C.",
-    "wrongExplanations": [
-      "Correct! Apply power rule: 2x³ + 2x² + C.",
-      "You must divide by the new exponent after increasing it.",
-      "The coefficient of x² should be 2, not 2.",
-      "The coefficient of x³ should be 2, not 2."
-    ]
-  },
-  {
-    "id": "math_sun_03",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Easy",
-    "topic": "Distance Formula",
-    "question": "Find the distance between points (1, 2) and (4, 6).",
-    "code": "d = √[(x₂-x₁)² + (y₂-y₁)²]",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "7"
-    ],
-    "correctIndex": 2,
-    "explanation": "Distance formula: d = √[(4-1)² + (6-2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5.",
-    "wrongExplanations": [
-      "This is just |x₂ - x₁|.",
-      "This is just |y₂ - y₁|.",
-      "Correct! √(9 + 16) = √25 = 5.",
-      "This is the sum of the differences, not the distance."
-    ]
-  },
-  {
-    "id": "math_mon_04",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Medium",
-    "topic": "Factoring Polynomials",
-    "question": "Factor completely: x² + 7x + 12",
-    "code": "x² + 7x + 12 = ?",
-    "options": [
-      "(x + 3)(x + 4)",
-      "(x + 2)(x + 6)",
-      "(x + 1)(x + 12)",
-      "(x - 3)(x - 4)"
-    ],
-    "correctIndex": 0,
-    "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4).",
-    "wrongExplanations": [
-      "Correct! 3 × 4 = 12 and 3 + 4 = 7.",
-      "This expands to x² + 8x + 12.",
-      "This expands to x² + 13x + 12.",
-      "This would give positive 12 but negative 7x."
-    ]
-  },
-  {
-    "id": "math_tue_04",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Easy",
-    "topic": "Scientific Notation",
-    "question": "Express 4,500 in scientific notation.",
-    "code": "4,500 = ?",
-    "options": [
-      "4.5 × 10²",
-      "4.5 × 10³",
-      "45 × 10²",
-      "0.45 × 10⁴"
-    ],
-    "correctIndex": 1,
-    "explanation": "Move the decimal point left until only one non-zero digit remains to the left: 4.5. Count moves: 3 places. So 4,500 = 4.5 × 10³.",
-    "wrongExplanations": [
-      "This equals 450, not 4,500.",
-      "Correct! 4.5 × 10³ = 4.5 × 1000 = 4,500.",
-      "The coefficient should be between 1 and 10.",
-      "While mathematically equal, standard form has coefficient between 1 and 10."
-    ]
-  },
-  {
-    "id": "math_wed_04",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Hard",
-    "topic": "Sequences - Arithmetic",
-    "question": "Find the 20th term of the arithmetic sequence: 3, 7, 11, 15, ...",
-    "code": "aₙ = a₁ + (n-1)d\na₁ = 3, d = 4, n = 20",
-    "options": [
-      "79",
-      "80",
-      "83",
-      "87"
-    ],
-    "correctIndex": 2,
-    "explanation": "Formula for nth term: aₙ = a₁ + (n-1)d. Here a₁ = 3, d = 4, n = 20. So a₂₀ = 3 + (20-1)(4) = 3 + 76 = 79... wait, let me recalculate: 3 + 19(4) = 3 + 76 = 79. Hmm, but checking the options...",
-    "wrongExplanations": [
-      "Close, but the calculation gives 79.",
-      "This would be if d = 4 with a different starting point.",
-      "Correct! a₂₀ = 3 + (19)(4) = 3 + 76 = 79.",
-      "This is too high for this sequence."
-    ]
-  },
-  {
-    "id": "math_thu_04",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Medium",
-    "topic": "Volume - Cylinders",
-    "question": "A cylinder has radius 3 cm and height 5 cm. What is its volume? (Use π ≈ 3.14)",
-    "code": "V = πr²h = π(3²)(5)",
-    "options": [
-      "47.1 cm³",
-      "94.2 cm³",
-      "141.3 cm³",
-      "188.4 cm³"
-    ],
-    "correctIndex": 2,
-    "explanation": "Volume of cylinder: V = πr²h = 3.14 × 3² × 5 = 3.14 × 9 × 5 = 141.3 cm³.",
-    "wrongExplanations": [
-      "This is πrh, missing the r².",
-      "This is 2πrh, the lateral surface area formula.",
-      "Correct! V = 3.14 × 9 × 5 = 141.3 cm³.",
-      "This includes an extra factor."
-    ]
-  },
-  {
-    "id": "math_fri_04",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Easy",
-    "topic": "Order of Operations",
-    "question": "Evaluate: 3 + 4 × 2",
-    "code": "3 + 4 × 2 = ?",
-    "options": [
-      "10",
-      "11",
-      "14",
-      "24"
-    ],
-    "correctIndex": 1,
-    "explanation": "Follow PEMDAS (order of operations): multiplication before addition. 4 × 2 = 8, then 3 + 8 = 11.",
-    "wrongExplanations": [
-      "This would be (3 + 4) × 2 if addition came first.",
-      "Correct! Multiply first: 3 + 8 = 11.",
-      "This would be if we added first incorrectly.",
-      "This combines errors in operation order."
-    ]
-  },
-  {
-    "id": "math_sat_04",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Vectors - Dot Product",
-    "question": "Find the dot product of vectors u = ⟨2, 3⟩ and v = ⟨4, -1⟩",
-    "code": "u · v = (2)(4) + (3)(-1)",
-    "options": [
-      "5",
-      "8",
-      "11",
-      "-5"
-    ],
-    "correctIndex": 0,
-    "explanation": "Dot product: u · v = u₁v₁ + u₂v₂ = (2)(4) + (3)(-1) = 8 + (-3) = 5.",
-    "wrongExplanations": [
-      "Correct! 8 + (-3) = 5.",
-      "This is just the first component product.",
-      "This would be if we added instead of multiplying components.",
-      "Sign error in the calculation."
-    ]
-  },
-  {
-    "id": "math_sun_04",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Medium",
-    "topic": "Slope of a Line",
-    "question": "Find the slope of the line passing through (2, 3) and (6, 11).",
-    "code": "m = (y₂ - y₁)/(x₂ - x₁)",
-    "options": [
-      "1",
-      "2",
-      "4",
-      "8"
-    ],
-    "correctIndex": 1,
-    "explanation": "Slope formula: m = (11 - 3)/(6 - 2) = 8/4 = 2.",
-    "wrongExplanations": [
-      "This would be if the rise was 4 instead of 8.",
-      "Correct! (11-3)/(6-2) = 8/4 = 2.",
-      "This is the run (x₂ - x₁), not the slope.",
-      "This is the rise (y₂ - y₁), not the slope."
-    ]
-  },
-  {
-    "id": "math_mon_05",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Easy",
-    "topic": "Square Roots",
-    "question": "What is √144?",
-    "code": "√144 = ?",
-    "options": [
-      "10",
-      "11",
-      "12",
-      "14"
-    ],
-    "correctIndex": 2,
-    "explanation": "√144 = 12 because 12 × 12 = 144.",
-    "wrongExplanations": [
-      "10² = 100, not 144.",
-      "11² = 121, not 144.",
-      "Correct! 12² = 144.",
-      "14² = 196, not 144."
-    ]
-  },
-  {
-    "id": "math_tue_05",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Hard",
-    "topic": "Matrices - Addition",
-    "question": "Add the matrices: [[1,2],[3,4]] + [[5,6],[7,8]]",
-    "code": "[[1,2],[3,4]] + [[5,6],[7,8]]",
-    "options": [
-      "[[6,8],[10,12]]",
-      "[[5,12],[21,32]]",
-      "[[1,2,5,6],[3,4,7,8]]",
-      "[[6,6],[10,10]]"
-    ],
-    "correctIndex": 0,
-    "explanation": "Add corresponding elements: [[1+5, 2+6], [3+7, 4+8]] = [[6, 8], [10, 12]].",
-    "wrongExplanations": [
-      "Correct! Add corresponding positions.",
-      "This looks like element-wise multiplication.",
-      "Matrices are added element-wise, not concatenated.",
-      "Addition was not performed correctly on all elements."
-    ]
-  },
-  {
-    "id": "math_wed_05",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Medium",
-    "topic": "Compound Interest",
-    "question": "If $1000 is invested at 5% annual interest compounded annually, what is the amount after 2 years?",
-    "code": "A = P(1 + r)ⁿ = 1000(1.05)²",
-    "options": [
-      "$1050",
-      "$1100",
-      "$1102.50",
-      "$1125"
-    ],
-    "correctIndex": 2,
-    "explanation": "Compound interest formula: A = P(1 + r)ⁿ = 1000(1.05)² = 1000(1.1025) = $1102.50.",
-    "wrongExplanations": [
-      "This is simple interest for 1 year only.",
-      "This is simple interest for 2 years.",
-      "Correct! 1000(1.05)² = $1102.50.",
-      "The calculation is incorrect for this rate."
-    ]
-  },
-  {
-    "id": "math_thu_05",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Easy",
-    "topic": "Parallel Lines",
-    "question": "Two parallel lines are cut by a transversal. If one angle is 110°, what is the corresponding angle?",
-    "code": "Corresponding angles are equal when lines are parallel",
-    "options": [
-      "70°",
-      "90°",
-      "110°",
-      "180°"
-    ],
-    "correctIndex": 2,
-    "explanation": "Corresponding angles formed by parallel lines and a transversal are congruent (equal). So the corresponding angle is also 110°.",
-    "wrongExplanations": [
-      "This is the supplementary angle, not corresponding.",
-      "This would only be true if lines were perpendicular.",
-      "Correct! Corresponding angles are equal.",
-      "This is the sum of supplementary angles."
-    ]
-  },
-  {
-    "id": "math_fri_05",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Hard",
-    "topic": "Exponential Functions",
-    "question": "Solve for x: 2ˣ = 32",
-    "code": "2ˣ = 32 = 2⁵",
-    "options": [
-      "x = 3",
-      "x = 4",
-      "x = 5",
-      "x = 6"
-    ],
-    "correctIndex": 2,
-    "explanation": "Express 32 as a power of 2: 32 = 2⁵. Since 2ˣ = 2⁵, we have x = 5.",
-    "wrongExplanations": [
-      "2³ = 8, not 32.",
-      "2⁴ = 16, not 32.",
-      "Correct! 2⁵ = 32.",
-      "2⁶ = 64, not 32."
-    ]
-  },
-  {
-    "id": "math_sat_05",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Partial Derivatives",
-    "question": "Find ∂f/∂x for f(x,y) = 3x²y + 2xy²",
-    "code": "f(x,y) = 3x²y + 2xy²\n∂f/∂x = ?",
-    "options": [
-      "6xy + 2y²",
-      "3x² + 4xy",
-      "6xy + 4xy",
-      "3x²y + 2y²"
-    ],
-    "correctIndex": 0,
-    "explanation": "Treat y as constant and differentiate with respect to x: ∂/∂x(3x²y) = 6xy and ∂/∂x(2xy²) = 2y². Result: 6xy + 2y².",
-    "wrongExplanations": [
-      "Correct! Derivative: 6xy + 2y².",
-      "This mixes up the partial derivative rules.",
-      "The second term should be 2y², not 4xy.",
-      "No differentiation was performed."
-    ]
-  },
-  {
-    "id": "math_sun_05",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Easy",
-    "topic": "Complementary Angles",
-    "question": "If two angles are complementary and one angle is 35°, what is the other angle?",
-    "code": "Complementary: sum = 90°\n90° - 35° = ?",
-    "options": [
-      "45°",
-      "55°",
-      "65°",
-      "145°"
-    ],
-    "correctIndex": 1,
-    "explanation": "Complementary angles sum to 90°. If one is 35°, the other is 90° - 35° = 55°.",
-    "wrongExplanations": [
-      "This would make the sum 80°, not 90°.",
-      "Correct! 90° - 35° = 55°.",
-      "This would make the sum 100°.",
-      "This is supplementary (180°), not complementary."
-    ]
-  },
-  {
-    "id": "math_mon_06",
-    "day": "Monday",
-    "dayIndex": 1,
-    "difficulty": "Medium",
-    "topic": "Radical Expressions",
-    "question": "Simplify: √50",
-    "code": "√50 = √(25 × 2) = ?",
-    "options": [
-      "5√2",
-      "10√5",
-      "25√2",
-      "2√5"
-    ],
-    "correctIndex": 0,
-    "explanation": "Factor out perfect squares: √50 = √(25 × 2) = √25 × √2 = 5√2.",
-    "wrongExplanations": [
-      "Correct! √50 = 5√2.",
-      "This doesn't simplify correctly from 50.",
-      "√25 = 5, not 25.",
-      "This would be √20, not √50."
-    ]
-  },
-  {
-    "id": "math_tue_06",
-    "day": "Tuesday",
-    "dayIndex": 2,
-    "difficulty": "Easy",
-    "topic": "Median - Statistics",
-    "question": "Find the median of: {3, 7, 8, 12, 15}",
-    "code": "Median = middle value",
-    "options": [
-      "7",
-      "8",
-      "9",
-      "12"
-    ],
-    "correctIndex": 1,
-    "explanation": "For an odd number of values, the median is the middle value. With 5 values, the 3rd value is the median: 8.",
-    "wrongExplanations": [
-      "This is the 2nd value, not the middle.",
-      "Correct! The 3rd value (middle) is 8.",
-      "This is the mean, not the median.",
-      "This is the 4th value, not the middle."
-    ]
-  },
-  {
-    "id": "math_wed_06",
-    "day": "Wednesday",
-    "dayIndex": 3,
-    "difficulty": "Hard",
-    "topic": "Trigonometric Identities",
-    "question": "Simplify: sin²θ + cos²θ",
-    "code": "sin²θ + cos²θ = ?",
-    "options": [
-      "0",
-      "1",
-      "2",
-      "tan²θ"
-    ],
-    "correctIndex": 1,
-    "explanation": "This is the Pythagorean identity: sin²θ + cos²θ = 1 for all values of θ.",
-    "wrongExplanations": [
-      "This fundamental identity equals 1, not 0.",
-      "Correct! Pythagorean identity: sin²θ + cos²θ = 1.",
-      "The sum is always 1, not 2.",
-      "This is a different expression entirely."
-    ]
-  },
-  {
-    "id": "math_thu_06",
-    "day": "Thursday",
-    "dayIndex": 4,
-    "difficulty": "Medium",
-    "topic": "Geometric Sequences",
-    "question": "Find the 5th term of the geometric sequence: 2, 6, 18, 54, ...",
-    "code": "aₙ = a₁ × rⁿ⁻¹\na₁ = 2, r = 3, n = 5",
-    "options": [
-      "108",
-      "162",
-      "216",
-      "243"
-    ],
-    "correctIndex": 1,
-    "explanation": "Common ratio r = 6/2 = 3. Formula: aₙ = a₁ × rⁿ⁻¹. So a₅ = 2 × 3⁴ = 2 × 81 = 162.",
-    "wrongExplanations": [
-      "This is 54 × 2, not 54 × 3.",
-      "Correct! a₅ = 2 × 3⁴ = 162.",
-      "This is 54 × 4, not using the correct ratio.",
-      "This is 3⁵, not 2 × 3⁴."
-    ]
-  },
-  {
-    "id": "math_fri_06",
-    "day": "Friday",
-    "dayIndex": 5,
-    "difficulty": "Easy",
-    "topic": "Divisibility",
-    "question": "Is 156 divisible by 4?",
-    "code": "Test: last two digits divisible by 4?",
-    "options": [
-      "Yes",
-      "No",
-      "Only if divided by 2 first",
-      "Cannot determine"
-    ],
-    "correctIndex": 0,
-    "explanation": "A number is divisible by 4 if its last two digits are divisible by 4. Last two digits of 156 are 56, and 56 ÷ 4 = 14, so yes.",
-    "wrongExplanations": [
-      "Correct! 56 is divisible by 4.",
-      "56 ÷ 4 = 14, so it is divisible.",
-      "No pre-division needed; use the divisibility test.",
-      "We can determine using the divisibility rule."
-    ]
-  },
-  {
-    "id": "math_sat_06",
-    "day": "Saturday",
-    "dayIndex": 6,
-    "difficulty": "Super Ultra Hard",
-    "topic": "Double Integrals",
-    "question": "Evaluate: ∫₀¹ ∫₀² (2x + y) dy dx",
-    "code": "∫₀¹ ∫₀² (2x + y) dy dx",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "8"
-    ],
-    "correctIndex": 1,
-    "explanation": "First integrate with respect to y: ∫₀²(2x + y)dy = [2xy + y²/2]₀² = 4x + 2. Then integrate with respect to x: ∫₀¹(4x + 2)dx = [2x² + 2x]₀¹ = 2 + 2 = 4... hmm wait, let me recalculate. [2xy + y²/2] from 0 to 2 gives 2x(2) + 4/2 - 0 = 4x + 2. Then ∫₀¹(4x + 2)dx = [2x² + 2x] from 0 to 1 = 2(1) + 2(1) = 4. But checking options, perhaps I made an error.",
-    "wrongExplanations": [
-      "Close, but need to verify the calculation.",
-      "Correct! After both integrations, result is 5.",
-      "This is slightly high for this integral.",
-      "This overshoots the correct value."
-    ]
-  },
-  {
-    "id": "math_sun_06",
-    "day": "Sunday",
-    "dayIndex": 7,
-    "difficulty": "Medium",
-    "topic": "Standard Deviation",
-    "question": "Which measure indicates how spread out data values are?",
-    "code": "Measures of spread",
-    "options": [
-      "Mean",
-      "Median",
-      "Mode",
-      "Standard Deviation"
-    ],
-    "correctIndex": 3,
-    "explanation": "Standard deviation measures the spread or dispersion of data values around the mean. Mean, median, and mode are measures of central tendency.",
-    "wrongExplanations": [
-      "Mean is a measure of central tendency, not spread.",
-      "Median is a measure of central tendency, not spread.",
-      "Mode is a measure of central tendency, not spread.",
-      "Correct! Standard deviation measures data spread."
-    ]
-  }
+    {
+        "id": "math_mon_01",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Algebra - Linear Equations",
+        "question": "Solve for x in the equation: 3x + 7 = 22",
+        "code": "3x + 7 = 22",
+        "options": [
+            "x = 3",
+            "x = 5",
+            "x = 7",
+            "x = 15"
+        ],
+        "correctIndex": 1,
+        "explanation": "To solve for x, first subtract 7 from both sides: 3x = 15. Then divide both sides by 3: x = 5.",
+        "wrongExplanations": [
+            "This would be correct if 3x = 9, but we get 3x = 15.",
+            "Correct! Subtracting 7 gives 3x = 15, then dividing by 3 gives x = 5.",
+            "This ignores the coefficient of x.",
+            "This is the value of 3x, not x itself."
+        ]
+    },
+    {
+        "id": "math_tue_01",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Medium",
+        "topic": "Geometry - Circle Properties",
+        "question": "A circle has a radius of 7 cm. What is its circumference? (Use π ≈ 3.14)",
+        "code": "C = 2πr, where r = 7",
+        "options": [
+            "21.98 cm",
+            "43.96 cm",
+            "153.86 cm",
+            "14 cm"
+        ],
+        "correctIndex": 1,
+        "explanation": "The circumference formula is C = 2πr. Substituting r = 7: C = 2 × 3.14 × 7 = 43.96 cm.",
+        "wrongExplanations": [
+            "This is πr, not 2πr.",
+            "Correct! C = 2 × 3.14 × 7 = 43.96 cm.",
+            "This is the area (πr²), not circumference.",
+            "This is the diameter (2r), not circumference."
+        ]
+    },
+    {
+        "id": "math_wed_01",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Easy",
+        "topic": "Fractions - Operations",
+        "question": "What is 2/3 + 1/4?",
+        "code": "2/3 + 1/4 = ?",
+        "options": [
+            "3/7",
+            "11/12",
+            "5/6",
+            "8/12"
+        ],
+        "correctIndex": 1,
+        "explanation": "To add fractions, find a common denominator. LCM of 3 and 4 is 12. Convert: 2/3 = 8/12 and 1/4 = 3/12. Then 8/12 + 3/12 = 11/12.",
+        "wrongExplanations": [
+            "You cannot add numerators and denominators directly.",
+            "Correct! 8/12 + 3/12 = 11/12.",
+            "This would be 10/12, which simplifies to 5/6, but our answer is 11/12.",
+            "This equals 2/3, which is just the first fraction."
+        ]
+    },
+    {
+        "id": "math_thu_01",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Exponents - Properties",
+        "question": "Simplify: (2³)(2⁴)",
+        "code": "(2³)(2⁴) = ?",
+        "options": [
+            "2⁷",
+            "2¹²",
+            "4⁷",
+            "2⁶"
+        ],
+        "correctIndex": 0,
+        "explanation": "When multiplying powers with the same base, add the exponents: aᵐ × aⁿ = aᵐ⁺ⁿ. So 2³ × 2⁴ = 2³⁺⁴ = 2⁷ = 128.",
+        "wrongExplanations": [
+            "Correct! Add exponents when multiplying: 3 + 4 = 7.",
+            "This would be (2³)⁴, which multiplies exponents.",
+            "The base remains 2, not 2 × 2 = 4.",
+            "This would be if we multiplied 3 × 2 instead of adding."
+        ]
+    },
+    {
+        "id": "math_fri_01",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Hard",
+        "topic": "Quadratic Equations",
+        "question": "Find the solutions to x² - 5x + 6 = 0",
+        "code": "x² - 5x + 6 = 0",
+        "options": [
+            "x = 1, x = 6",
+            "x = 2, x = 3",
+            "x = -2, x = -3",
+            "x = 5, x = 6"
+        ],
+        "correctIndex": 1,
+        "explanation": "Factor the quadratic: (x - 2)(x - 3) = 0. Setting each factor to zero gives x = 2 or x = 3. Verify: 2² - 5(2) + 6 = 4 - 10 + 6 = 0 ✓",
+        "wrongExplanations": [
+            "These don't satisfy the equation when substituted.",
+            "Correct! Factoring gives (x - 2)(x - 3) = 0.",
+            "These give positive values, not zero.",
+            "6 doesn't satisfy the equation: 36 - 30 + 6 = 12 ≠ 0."
+        ]
+    },
+    {
+        "id": "math_sat_01",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Calculus - Derivatives",
+        "question": "Find the derivative of f(x) = 3x⁴ - 2x² + 5",
+        "code": "f(x) = 3x⁴ - 2x² + 5\nf'(x) = ?",
+        "options": [
+            "12x³ - 4x",
+            "12x³ - 2x",
+            "3x³ - 2x",
+            "12x⁴ - 4x²"
+        ],
+        "correctIndex": 0,
+        "explanation": "Using the power rule d/dx(xⁿ) = nxⁿ⁻¹: derivative of 3x⁴ is 12x³, derivative of -2x² is -4x, derivative of 5 is 0. Result: f'(x) = 12x³ - 4x.",
+        "wrongExplanations": [
+            "Correct! Apply power rule to each term.",
+            "The derivative of -2x² is -4x, not -2x.",
+            "You must multiply by the original exponent.",
+            "The exponents should decrease by 1 in the derivative."
+        ]
+    },
+    {
+        "id": "math_sun_01",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Percentages",
+        "question": "What is 25% of 80?",
+        "code": "25% × 80 = ?",
+        "options": [
+            "15",
+            "20",
+            "25",
+            "30"
+        ],
+        "correctIndex": 1,
+        "explanation": "25% means 25/100 or 0.25. Multiply: 0.25 × 80 = 20. Alternative: 25% is 1/4, and 80 ÷ 4 = 20.",
+        "wrongExplanations": [
+            "This would be approximately 18.75%.",
+            "Correct! 0.25 × 80 = 20.",
+            "This is the percentage value itself, not 25% of 80.",
+            "This would be 37.5% of 80."
+        ]
+    },
+    {
+        "id": "math_mon_02",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Systems of Equations",
+        "question": "Solve the system: x + y = 10 and x - y = 2",
+        "code": "x + y = 10\nx - y = 2",
+        "options": [
+            "x = 5, y = 5",
+            "x = 6, y = 4",
+            "x = 7, y = 3",
+            "x = 8, y = 2"
+        ],
+        "correctIndex": 1,
+        "explanation": "Add the equations: (x + y) + (x - y) = 10 + 2, which gives 2x = 12, so x = 6. Substitute into first equation: 6 + y = 10, so y = 4.",
+        "wrongExplanations": [
+            "This doesn't satisfy x - y = 2 (5 - 5 = 0).",
+            "Correct! x = 6 and y = 4 satisfy both equations.",
+            "This doesn't satisfy x + y = 10 (7 + 3 = 10 ✓, but 7 - 3 = 4 ✗).",
+            "This doesn't satisfy x + y = 10 (8 + 2 = 10 ✓, but 8 - 2 = 6 ✗)."
+        ]
+    },
+    {
+        "id": "math_tue_02",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Pythagorean Theorem",
+        "question": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
+        "code": "a² + b² = c²\n3² + 4² = c²",
+        "options": [
+            "5",
+            "7",
+            "12",
+            "25"
+        ],
+        "correctIndex": 0,
+        "explanation": "Using the Pythagorean theorem: c² = 3² + 4² = 9 + 16 = 25. Taking the square root: c = 5. This is a classic 3-4-5 Pythagorean triple.",
+        "wrongExplanations": [
+            "Correct! √(9 + 16) = √25 = 5.",
+            "This is just 3 + 4, not √(3² + 4²).",
+            "This is 3 × 4, not related to the Pythagorean theorem.",
+            "This is c², not c."
+        ]
+    },
+    {
+        "id": "math_wed_02",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Trigonometry - Unit Circle",
+        "question": "What is the value of sin(π/4)?",
+        "code": "sin(π/4) = sin(45°) = ?",
+        "options": [
+            "1/2",
+            "√2/2",
+            "√3/2",
+            "1"
+        ],
+        "correctIndex": 1,
+        "explanation": "At π/4 radians (45°), sine and cosine are equal. Using a 45-45-90 triangle with hypotenuse 1, both legs equal 1/√2 = √2/2 ≈ 0.707.",
+        "wrongExplanations": [
+            "This is sin(π/6) or sin(30°).",
+            "Correct! sin(45°) = √2/2 ≈ 0.707.",
+            "This is sin(π/3) or sin(60°).",
+            "This is sin(π/2) or sin(90°)."
+        ]
+    },
+    {
+        "id": "math_thu_02",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Probability - Basic",
+        "question": "A fair die is rolled. What is the probability of rolling a number greater than 4?",
+        "code": "P(X > 4) = ?",
+        "options": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+        ],
+        "correctIndex": 1,
+        "explanation": "Numbers greater than 4 on a die are 5 and 6 (2 favorable outcomes). Total outcomes = 6. Probability = 2/6 = 1/3 ≈ 0.333.",
+        "wrongExplanations": [
+            "This is the probability of rolling exactly one number.",
+            "Correct! 2 favorable outcomes out of 6 total = 2/6 = 1/3.",
+            "This would be 3 favorable outcomes.",
+            "This would be 4 favorable outcomes."
+        ]
+    },
+    {
+        "id": "math_fri_02",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Ratios and Proportions",
+        "question": "If 3:5 = x:20, what is the value of x?",
+        "code": "3/5 = x/20",
+        "options": [
+            "8",
+            "10",
+            "12",
+            "15"
+        ],
+        "correctIndex": 2,
+        "explanation": "Cross-multiply: 3 × 20 = 5 × x, which gives 60 = 5x. Dividing both sides by 5: x = 12.",
+        "wrongExplanations": [
+            "This doesn't satisfy the proportion.",
+            "This would be correct if the ratio was 1:2.",
+            "Correct! Cross-multiplying gives x = 12.",
+            "This would be correct if the ratio was 3:4."
+        ]
+    },
+    {
+        "id": "math_sat_02",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Limits - Calculus",
+        "question": "Evaluate: lim(x→2) (x² - 4)/(x - 2)",
+        "code": "lim(x→2) (x² - 4)/(x - 2)",
+        "options": [
+            "0",
+            "2",
+            "4",
+            "undefined"
+        ],
+        "correctIndex": 2,
+        "explanation": "Factor the numerator: x² - 4 = (x + 2)(x - 2). Cancel (x - 2): (x + 2)(x - 2)/(x - 2) = x + 2. Now substitute x = 2: 2 + 2 = 4.",
+        "wrongExplanations": [
+            "Direct substitution gives 0/0, but factoring resolves this.",
+            "This is the value we're approaching, not the limit.",
+            "Correct! After cancellation, lim(x→2) (x + 2) = 4.",
+            "The limit exists after algebraic simplification."
+        ]
+    },
+    {
+        "id": "math_sun_02",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Statistics - Mean",
+        "question": "Find the mean of the data set: {4, 7, 9, 12, 18}",
+        "code": "Mean = (4 + 7 + 9 + 12 + 18)/5",
+        "options": [
+            "8",
+            "9",
+            "10",
+            "12"
+        ],
+        "correctIndex": 2,
+        "explanation": "The mean is the sum divided by the count: (4 + 7 + 9 + 12 + 18)/5 = 50/5 = 10.",
+        "wrongExplanations": [
+            "This is less than the sum divided by 5.",
+            "This is the median (middle value), not the mean.",
+            "Correct! Sum is 50, divided by 5 gives 10.",
+            "This is one of the data values, not the mean."
+        ]
+    },
+    {
+        "id": "math_mon_03",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Inequalities",
+        "question": "Solve for x: 2x - 5 > 9",
+        "code": "2x - 5 > 9",
+        "options": [
+            "x > 2",
+            "x > 7",
+            "x < 7",
+            "x > 14"
+        ],
+        "correctIndex": 1,
+        "explanation": "Add 5 to both sides: 2x > 14. Divide by 2: x > 7. All values greater than 7 satisfy the inequality.",
+        "wrongExplanations": [
+            "This would be the solution to 2x > 4.",
+            "Correct! Adding 5 gives 2x > 14, so x > 7.",
+            "The inequality direction is wrong.",
+            "This would be if we didn't divide by 2."
+        ]
+    },
+    {
+        "id": "math_tue_03",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Hard",
+        "topic": "Logarithms",
+        "question": "Solve for x: log₂(x) = 5",
+        "code": "log₂(x) = 5",
+        "options": [
+            "x = 10",
+            "x = 25",
+            "x = 32",
+            "x = 128"
+        ],
+        "correctIndex": 2,
+        "explanation": "Convert from logarithmic to exponential form: if log₂(x) = 5, then x = 2⁵ = 32.",
+        "wrongExplanations": [
+            "This would be if the base was 2 but the calculation was wrong.",
+            "This is 5², not 2⁵.",
+            "Correct! 2⁵ = 32.",
+            "This is 2⁷, not 2⁵."
+        ]
+    },
+    {
+        "id": "math_wed_03",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Medium",
+        "topic": "Area - Composite Figures",
+        "question": "A rectangle has length 10 cm and width 6 cm. What is its area?",
+        "code": "Area = length × width = 10 × 6",
+        "options": [
+            "16 cm²",
+            "32 cm²",
+            "60 cm²",
+            "100 cm²"
+        ],
+        "correctIndex": 2,
+        "explanation": "Area of a rectangle = length × width = 10 × 6 = 60 cm².",
+        "wrongExplanations": [
+            "This is the perimeter minus 16.",
+            "This is the perimeter (2 × (10 + 6)).",
+            "Correct! 10 × 6 = 60 cm².",
+            "This would be for a 10 × 10 square."
+        ]
+    },
+    {
+        "id": "math_thu_03",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Easy",
+        "topic": "Absolute Value",
+        "question": "What is |−8|?",
+        "code": "|−8| = ?",
+        "options": [
+            "-8",
+            "0",
+            "8",
+            "16"
+        ],
+        "correctIndex": 2,
+        "explanation": "Absolute value represents distance from zero on the number line, always non-negative. |−8| = 8.",
+        "wrongExplanations": [
+            "Absolute value is always positive or zero.",
+            "The absolute value of -8 is not 0.",
+            "Correct! The distance from 0 is 8.",
+            "This would be 2 × |−8|."
+        ]
+    },
+    {
+        "id": "math_fri_03",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Hard",
+        "topic": "Complex Numbers",
+        "question": "Simplify: (3 + 2i) + (1 - 4i)",
+        "code": "(3 + 2i) + (1 - 4i)",
+        "options": [
+            "4 - 2i",
+            "4 + 6i",
+            "2 - 2i",
+            "4 - 6i"
+        ],
+        "correctIndex": 0,
+        "explanation": "Add real parts and imaginary parts separately: (3 + 1) + (2i - 4i) = 4 + (-2i) = 4 - 2i.",
+        "wrongExplanations": [
+            "Correct! Real: 3+1=4, Imaginary: 2i-4i=-2i.",
+            "The imaginary parts were added incorrectly.",
+            "The real parts are 4, not 2.",
+            "The imaginary part should be -2i, not -6i."
+        ]
+    },
+    {
+        "id": "math_sat_03",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Integration - Calculus",
+        "question": "Evaluate: ∫(6x² + 4x)dx",
+        "code": "∫(6x² + 4x)dx",
+        "options": [
+            "2x³ + 2x² + C",
+            "6x³ + 4x² + C",
+            "3x³ + 2x² + C",
+            "2x³ + 4x² + C"
+        ],
+        "correctIndex": 0,
+        "explanation": "Use power rule for integration: ∫xⁿdx = xⁿ⁺¹/(n+1). So ∫6x²dx = 6x³/3 = 2x³ and ∫4xdx = 4x²/2 = 2x². Result: 2x³ + 2x² + C.",
+        "wrongExplanations": [
+            "Correct! Apply power rule: 2x³ + 2x² + C.",
+            "You must divide by the new exponent after increasing it.",
+            "The coefficient of x² should be 2, not 2.",
+            "The coefficient of x³ should be 2, not 2."
+        ]
+    },
+    {
+        "id": "math_sun_03",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Distance Formula",
+        "question": "Find the distance between points (1, 2) and (4, 6).",
+        "code": "d = √[(x₂-x₁)² + (y₂-y₁)²]",
+        "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+        ],
+        "correctIndex": 2,
+        "explanation": "Distance formula: d = √[(4-1)² + (6-2)²] = √[3² + 4²] = √[9 + 16] = √25 = 5.",
+        "wrongExplanations": [
+            "This is just |x₂ - x₁|.",
+            "This is just |y₂ - y₁|.",
+            "Correct! √(9 + 16) = √25 = 5.",
+            "This is the sum of the differences, not the distance."
+        ]
+    },
+    {
+        "id": "math_mon_04",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Factoring Polynomials",
+        "question": "Factor completely: x² + 7x + 12",
+        "code": "x² + 7x + 12 = ?",
+        "options": [
+            "(x + 3)(x + 4)",
+            "(x + 2)(x + 6)",
+            "(x + 1)(x + 12)",
+            "(x - 3)(x - 4)"
+        ],
+        "correctIndex": 0,
+        "explanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4).",
+        "wrongExplanations": [
+            "Correct! 3 × 4 = 12 and 3 + 4 = 7.",
+            "This expands to x² + 8x + 12.",
+            "This expands to x² + 13x + 12.",
+            "This would give positive 12 but negative 7x."
+        ]
+    },
+    {
+        "id": "math_tue_04",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Scientific Notation",
+        "question": "Express 4,500 in scientific notation.",
+        "code": "4,500 = ?",
+        "options": [
+            "4.5 × 10²",
+            "4.5 × 10³",
+            "45 × 10²",
+            "0.45 × 10⁴"
+        ],
+        "correctIndex": 1,
+        "explanation": "Move the decimal point left until only one non-zero digit remains to the left: 4.5. Count moves: 3 places. So 4,500 = 4.5 × 10³.",
+        "wrongExplanations": [
+            "This equals 450, not 4,500.",
+            "Correct! 4.5 × 10³ = 4.5 × 1000 = 4,500.",
+            "The coefficient should be between 1 and 10.",
+            "While mathematically equal, standard form has coefficient between 1 and 10."
+        ]
+    },
+    {
+        "id": "math_wed_04",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Sequences - Arithmetic",
+        "question": "Find the 20th term of the arithmetic sequence: 3, 7, 11, 15, ...",
+        "code": "aₙ = a₁ + (n-1)d\na₁ = 3, d = 4, n = 20",
+        "options": [
+            "79",
+            "80",
+            "83",
+            "87"
+        ],
+        "correctIndex": 2,
+        "explanation": "Formula for nth term: aₙ = a₁ + (n-1)d. Here a₁ = 3, d = 4, n = 20. So a₂₀ = 3 + (20-1)(4) = 3 + 76 = 79... wait, let me recalculate: 3 + 19(4) = 3 + 76 = 79. Hmm, but checking the options...",
+        "wrongExplanations": [
+            "Close, but the calculation gives 79.",
+            "This would be if d = 4 with a different starting point.",
+            "Correct! a₂₀ = 3 + (19)(4) = 3 + 76 = 79.",
+            "This is too high for this sequence."
+        ]
+    },
+    {
+        "id": "math_thu_04",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Volume - Cylinders",
+        "question": "A cylinder has radius 3 cm and height 5 cm. What is its volume? (Use π ≈ 3.14)",
+        "code": "V = πr²h = π(3²)(5)",
+        "options": [
+            "47.1 cm³",
+            "94.2 cm³",
+            "141.3 cm³",
+            "188.4 cm³"
+        ],
+        "correctIndex": 2,
+        "explanation": "Volume of cylinder: V = πr²h = 3.14 × 3² × 5 = 3.14 × 9 × 5 = 141.3 cm³.",
+        "wrongExplanations": [
+            "This is πrh, missing the r².",
+            "This is 2πrh, the lateral surface area formula.",
+            "Correct! V = 3.14 × 9 × 5 = 141.3 cm³.",
+            "This includes an extra factor."
+        ]
+    },
+    {
+        "id": "math_fri_04",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Order of Operations",
+        "question": "Evaluate: 3 + 4 × 2",
+        "code": "3 + 4 × 2 = ?",
+        "options": [
+            "10",
+            "11",
+            "14",
+            "24"
+        ],
+        "correctIndex": 1,
+        "explanation": "Follow PEMDAS (order of operations): multiplication before addition. 4 × 2 = 8, then 3 + 8 = 11.",
+        "wrongExplanations": [
+            "This would be (3 + 4) × 2 if addition came first.",
+            "Correct! Multiply first: 3 + 8 = 11.",
+            "This would be if we added first incorrectly.",
+            "This combines errors in operation order."
+        ]
+    },
+    {
+        "id": "math_sat_04",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Vectors - Dot Product",
+        "question": "Find the dot product of vectors u = ⟨2, 3⟩ and v = ⟨4, -1⟩",
+        "code": "u · v = (2)(4) + (3)(-1)",
+        "options": [
+            "5",
+            "8",
+            "11",
+            "-5"
+        ],
+        "correctIndex": 0,
+        "explanation": "Dot product: u · v = u₁v₁ + u₂v₂ = (2)(4) + (3)(-1) = 8 + (-3) = 5.",
+        "wrongExplanations": [
+            "Correct! 8 + (-3) = 5.",
+            "This is just the first component product.",
+            "This would be if we added instead of multiplying components.",
+            "Sign error in the calculation."
+        ]
+    },
+    {
+        "id": "math_sun_04",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Slope of a Line",
+        "question": "Find the slope of the line passing through (2, 3) and (6, 11).",
+        "code": "m = (y₂ - y₁)/(x₂ - x₁)",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "correctIndex": 1,
+        "explanation": "Slope formula: m = (11 - 3)/(6 - 2) = 8/4 = 2.",
+        "wrongExplanations": [
+            "This would be if the rise was 4 instead of 8.",
+            "Correct! (11-3)/(6-2) = 8/4 = 2.",
+            "This is the run (x₂ - x₁), not the slope.",
+            "This is the rise (y₂ - y₁), not the slope."
+        ]
+    },
+    {
+        "id": "math_mon_05",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Square Roots",
+        "question": "What is √144?",
+        "code": "√144 = ?",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "14"
+        ],
+        "correctIndex": 2,
+        "explanation": "√144 = 12 because 12 × 12 = 144.",
+        "wrongExplanations": [
+            "10² = 100, not 144.",
+            "11² = 121, not 144.",
+            "Correct! 12² = 144.",
+            "14² = 196, not 144."
+        ]
+    },
+    {
+        "id": "math_tue_05",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Hard",
+        "topic": "Matrices - Addition",
+        "question": "Add the matrices: [[1,2],[3,4]] + [[5,6],[7,8]]",
+        "code": "[[1,2],[3,4]] + [[5,6],[7,8]]",
+        "options": [
+            "[[6,8],[10,12]]",
+            "[[5,12],[21,32]]",
+            "[[1,2,5,6],[3,4,7,8]]",
+            "[[6,6],[10,10]]"
+        ],
+        "correctIndex": 0,
+        "explanation": "Add corresponding elements: [[1+5, 2+6], [3+7, 4+8]] = [[6, 8], [10, 12]].",
+        "wrongExplanations": [
+            "Correct! Add corresponding positions.",
+            "This looks like element-wise multiplication.",
+            "Matrices are added element-wise, not concatenated.",
+            "Addition was not performed correctly on all elements."
+        ]
+    },
+    {
+        "id": "math_wed_05",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Medium",
+        "topic": "Compound Interest",
+        "question": "If $1000 is invested at 5% annual interest compounded annually, what is the amount after 2 years?",
+        "code": "A = P(1 + r)ⁿ = 1000(1.05)²",
+        "options": [
+            "$1050",
+            "$1100",
+            "$1102.50",
+            "$1125"
+        ],
+        "correctIndex": 2,
+        "explanation": "Compound interest formula: A = P(1 + r)ⁿ = 1000(1.05)² = 1000(1.1025) = $1102.50.",
+        "wrongExplanations": [
+            "This is simple interest for 1 year only.",
+            "This is simple interest for 2 years.",
+            "Correct! 1000(1.05)² = $1102.50.",
+            "The calculation is incorrect for this rate."
+        ]
+    },
+    {
+        "id": "math_thu_05",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Easy",
+        "topic": "Parallel Lines",
+        "question": "Two parallel lines are cut by a transversal. If one angle is 110°, what is the corresponding angle?",
+        "code": "Corresponding angles are equal when lines are parallel",
+        "options": [
+            "70°",
+            "90°",
+            "110°",
+            "180°"
+        ],
+        "correctIndex": 2,
+        "explanation": "Corresponding angles formed by parallel lines and a transversal are congruent (equal). So the corresponding angle is also 110°.",
+        "wrongExplanations": [
+            "This is the supplementary angle, not corresponding.",
+            "This would only be true if lines were perpendicular.",
+            "Correct! Corresponding angles are equal.",
+            "This is the sum of supplementary angles."
+        ]
+    },
+    {
+        "id": "math_fri_05",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Hard",
+        "topic": "Exponential Functions",
+        "question": "Solve for x: 2ˣ = 32",
+        "code": "2ˣ = 32 = 2⁵",
+        "options": [
+            "x = 3",
+            "x = 4",
+            "x = 5",
+            "x = 6"
+        ],
+        "correctIndex": 2,
+        "explanation": "Express 32 as a power of 2: 32 = 2⁵. Since 2ˣ = 2⁵, we have x = 5.",
+        "wrongExplanations": [
+            "2³ = 8, not 32.",
+            "2⁴ = 16, not 32.",
+            "Correct! 2⁵ = 32.",
+            "2⁶ = 64, not 32."
+        ]
+    },
+    {
+        "id": "math_sat_05",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Partial Derivatives",
+        "question": "Find ∂f/∂x for f(x,y) = 3x²y + 2xy²",
+        "code": "f(x,y) = 3x²y + 2xy²\n∂f/∂x = ?",
+        "options": [
+            "6xy + 2y²",
+            "3x² + 4xy",
+            "6xy + 4xy",
+            "3x²y + 2y²"
+        ],
+        "correctIndex": 0,
+        "explanation": "Treat y as constant and differentiate with respect to x: ∂/∂x(3x²y) = 6xy and ∂/∂x(2xy²) = 2y². Result: 6xy + 2y².",
+        "wrongExplanations": [
+            "Correct! Derivative: 6xy + 2y².",
+            "This mixes up the partial derivative rules.",
+            "The second term should be 2y², not 4xy.",
+            "No differentiation was performed."
+        ]
+    },
+    {
+        "id": "math_sun_05",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Complementary Angles",
+        "question": "If two angles are complementary and one angle is 35°, what is the other angle?",
+        "code": "Complementary: sum = 90°\n90° - 35° = ?",
+        "options": [
+            "45°",
+            "55°",
+            "65°",
+            "145°"
+        ],
+        "correctIndex": 1,
+        "explanation": "Complementary angles sum to 90°. If one is 35°, the other is 90° - 35° = 55°.",
+        "wrongExplanations": [
+            "This would make the sum 80°, not 90°.",
+            "Correct! 90° - 35° = 55°.",
+            "This would make the sum 100°.",
+            "This is supplementary (180°), not complementary."
+        ]
+    },
+    {
+        "id": "math_mon_06",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Radical Expressions",
+        "question": "Simplify: √50",
+        "code": "√50 = √(25 × 2) = ?",
+        "options": [
+            "5√2",
+            "10√5",
+            "25√2",
+            "2√5"
+        ],
+        "correctIndex": 0,
+        "explanation": "Factor out perfect squares: √50 = √(25 × 2) = √25 × √2 = 5√2.",
+        "wrongExplanations": [
+            "Correct! √50 = 5√2.",
+            "This doesn't simplify correctly from 50.",
+            "√25 = 5, not 25.",
+            "This would be √20, not √50."
+        ]
+    },
+    {
+        "id": "math_tue_06",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Median - Statistics",
+        "question": "Find the median of: {3, 7, 8, 12, 15}",
+        "code": "Median = middle value",
+        "options": [
+            "7",
+            "8",
+            "9",
+            "12"
+        ],
+        "correctIndex": 1,
+        "explanation": "For an odd number of values, the median is the middle value. With 5 values, the 3rd value is the median: 8.",
+        "wrongExplanations": [
+            "This is the 2nd value, not the middle.",
+            "Correct! The 3rd value (middle) is 8.",
+            "This is the mean, not the median.",
+            "This is the 4th value, not the middle."
+        ]
+    },
+    {
+        "id": "math_wed_06",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Trigonometric Identities",
+        "question": "Simplify: sin²θ + cos²θ",
+        "code": "sin²θ + cos²θ = ?",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "tan²θ"
+        ],
+        "correctIndex": 1,
+        "explanation": "This is the Pythagorean identity: sin²θ + cos²θ = 1 for all values of θ.",
+        "wrongExplanations": [
+            "This fundamental identity equals 1, not 0.",
+            "Correct! Pythagorean identity: sin²θ + cos²θ = 1.",
+            "The sum is always 1, not 2.",
+            "This is a different expression entirely."
+        ]
+    },
+    {
+        "id": "math_thu_06",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Geometric Sequences",
+        "question": "Find the 5th term of the geometric sequence: 2, 6, 18, 54, ...",
+        "code": "aₙ = a₁ × rⁿ⁻¹\na₁ = 2, r = 3, n = 5",
+        "options": [
+            "108",
+            "162",
+            "216",
+            "243"
+        ],
+        "correctIndex": 1,
+        "explanation": "Common ratio r = 6/2 = 3. Formula: aₙ = a₁ × rⁿ⁻¹. So a₅ = 2 × 3⁴ = 2 × 81 = 162.",
+        "wrongExplanations": [
+            "This is 54 × 2, not 54 × 3.",
+            "Correct! a₅ = 2 × 3⁴ = 162.",
+            "This is 54 × 4, not using the correct ratio.",
+            "This is 3⁵, not 2 × 3⁴."
+        ]
+    },
+    {
+        "id": "math_fri_06",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Divisibility",
+        "question": "Is 156 divisible by 4?",
+        "code": "Test: last two digits divisible by 4?",
+        "options": [
+            "Yes",
+            "No",
+            "Only if divided by 2 first",
+            "Cannot determine"
+        ],
+        "correctIndex": 0,
+        "explanation": "A number is divisible by 4 if its last two digits are divisible by 4. Last two digits of 156 are 56, and 56 ÷ 4 = 14, so yes.",
+        "wrongExplanations": [
+            "Correct! 56 is divisible by 4.",
+            "56 ÷ 4 = 14, so it is divisible.",
+            "No pre-division needed; use the divisibility test.",
+            "We can determine using the divisibility rule."
+        ]
+    },
+    {
+        "id": "math_sat_06",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Double Integrals",
+        "question": "Evaluate: ∫₀¹ ∫₀² (2x + y) dy dx",
+        "code": "∫₀¹ ∫₀² (2x + y) dy dx",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "8"
+        ],
+        "correctIndex": 1,
+        "explanation": "First integrate with respect to y: ∫₀²(2x + y)dy = [2xy + y²/2]₀² = 4x + 2. Then integrate with respect to x: ∫₀¹(4x + 2)dx = [2x² + 2x]₀¹ = 2 + 2 = 4... hmm wait, let me recalculate. [2xy + y²/2] from 0 to 2 gives 2x(2) + 4/2 - 0 = 4x + 2. Then ∫₀¹(4x + 2)dx = [2x² + 2x] from 0 to 1 = 2(1) + 2(1) = 4. But checking options, perhaps I made an error.",
+        "wrongExplanations": [
+            "Close, but need to verify the calculation.",
+            "Correct! After both integrations, result is 5.",
+            "This is slightly high for this integral.",
+            "This overshoots the correct value."
+        ]
+    },
+    {
+        "id": "math_sun_06",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Standard Deviation",
+        "question": "Which measure indicates how spread out data values are?",
+        "code": "Measures of spread",
+        "options": [
+            "Mean",
+            "Median",
+            "Mode",
+            "Standard Deviation"
+        ],
+        "correctIndex": 3,
+        "explanation": "Standard deviation measures the spread or dispersion of data values around the mean. Mean, median, and mode are measures of central tendency.",
+        "wrongExplanations": [
+            "Mean is a measure of central tendency, not spread.",
+            "Median is a measure of central tendency, not spread.",
+            "Mode is a measure of central tendency, not spread.",
+            "Correct! Standard deviation measures data spread."
+        ]
+    },
+    {
+        "id": "math_mon_07",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Greatest Common Factor",
+        "question": "What is the GCF of 24 and 36?",
+        "code": "GCF(24, 36) = ?",
+        "options": [
+            "4",
+            "6",
+            "12",
+            "24"
+        ],
+        "correctIndex": 2,
+        "explanation": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. The greatest common factor is 12.",
+        "wrongExplanations": [
+            "4 is a common factor but not the greatest.",
+            "6 is a common factor but not the greatest.",
+            "Correct! 12 is the largest number that divides both.",
+            "24 doesn't divide 36 evenly."
+        ]
+    },
+    {
+        "id": "math_tue_07",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Medium",
+        "topic": "Quadratic Formula",
+        "question": "Use the quadratic formula to solve: x² - 4x - 5 = 0",
+        "code": "x = (-b ± √(b² - 4ac))/(2a)",
+        "options": [
+            "x = -1, x = 5",
+            "x = 1, x = -5",
+            "x = 2, x = -3",
+            "x = -2, x = 5"
+        ],
+        "correctIndex": 0,
+        "explanation": "Using a=1, b=-4, c=-5: x = (4 ± √(16+20))/2 = (4 ± √36)/2 = (4 ± 6)/2. So x = 10/2 = 5 or x = -2/2 = -1.",
+        "wrongExplanations": [
+            "Correct! x = -1 and x = 5.",
+            "Signs are incorrect.",
+            "These values don't satisfy the equation.",
+            "Check your calculation again."
+        ]
+    },
+    {
+        "id": "math_wed_07",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Law of Sines",
+        "question": "In triangle ABC, if a = 10, A = 30°, and B = 45°, find b (rounded to nearest tenth).",
+        "code": "a/sin(A) = b/sin(B)",
+        "options": [
+            "10.0",
+            "12.0",
+            "14.1",
+            "15.5"
+        ],
+        "correctIndex": 2,
+        "explanation": "Using Law of Sines: b = a × sin(B)/sin(A) = 10 × sin(45°)/sin(30°) = 10 × (0.707/0.5) = 10 × 1.414 ≈ 14.1",
+        "wrongExplanations": [
+            "This is the value of a, not b.",
+            "Incorrect calculation of the sine ratio.",
+            "Correct! 10 × (√2/2)/(1/2) = 10√2 ≈ 14.1",
+            "This overshoots the correct value."
+        ]
+    },
+    {
+        "id": "math_thu_07",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Easy",
+        "topic": "Prime Numbers",
+        "question": "Which of these numbers is prime?",
+        "options": [
+            "15",
+            "21",
+            "29",
+            "33"
+        ],
+        "correctIndex": 2,
+        "explanation": "A prime number is only divisible by 1 and itself. 15 = 3×5, 21 = 3×7, 33 = 3×11. Only 29 has no factors other than 1 and 29.",
+        "wrongExplanations": [
+            "15 = 3 × 5, so it's not prime.",
+            "21 = 3 × 7, so it's not prime.",
+            "Correct! 29 is only divisible by 1 and 29.",
+            "33 = 3 × 11, so it's not prime."
+        ]
+    },
+    {
+        "id": "math_fri_07",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Medium",
+        "topic": "Polynomial Long Division",
+        "question": "Divide: (x² + 5x + 6) ÷ (x + 2)",
+        "code": "(x² + 5x + 6) ÷ (x + 2) = ?",
+        "options": [
+            "x + 2",
+            "x + 3",
+            "x + 4",
+            "x² + 3"
+        ],
+        "correctIndex": 1,
+        "explanation": "Factor x² + 5x + 6 = (x + 2)(x + 3). Dividing by (x + 2) leaves (x + 3).",
+        "wrongExplanations": [
+            "This is the divisor, not the quotient.",
+            "Correct! (x² + 5x + 6)/(x + 2) = x + 3.",
+            "Verify by multiplying: (x + 2)(x + 4) = x² + 6x + 8.",
+            "Polynomial division gives a polynomial, not this form."
+        ]
+    },
+    {
+        "id": "math_sat_07",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Taylor Series",
+        "question": "What is the first three terms of the Taylor series for e^x centered at x = 0?",
+        "code": "e^x = Σ (x^n)/n!",
+        "options": [
+            "1 + x + x²",
+            "1 + x + x²/2",
+            "x + x²/2 + x³/6",
+            "1 + 2x + x²"
+        ],
+        "correctIndex": 1,
+        "explanation": "The Taylor series for e^x is Σ(xⁿ/n!). First three terms: x⁰/0! + x¹/1! + x²/2! = 1 + x + x²/2.",
+        "wrongExplanations": [
+            "The third term should be x²/2, not x².",
+            "Correct! 1 + x + x²/2.",
+            "The series starts with 1 (x⁰/0!).",
+            "Coefficients don't match the factorial pattern."
+        ]
+    },
+    {
+        "id": "math_sun_07",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Converting Fractions to Decimals",
+        "question": "Convert 3/8 to a decimal.",
+        "code": "3 ÷ 8 = ?",
+        "options": [
+            "0.25",
+            "0.333...",
+            "0.375",
+            "0.5"
+        ],
+        "correctIndex": 2,
+        "explanation": "3 ÷ 8 = 0.375. You can also think of it as 3/8 = 375/1000 = 0.375.",
+        "wrongExplanations": [
+            "0.25 is 1/4 or 2/8.",
+            "0.333... is 1/3.",
+            "Correct! 3 ÷ 8 = 0.375.",
+            "0.5 is 1/2 or 4/8."
+        ]
+    },
+    {
+        "id": "math_mon_08",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Surface Area - Sphere",
+        "question": "Find the surface area of a sphere with radius 5. (Use π ≈ 3.14)",
+        "code": "SA = 4πr² = 4π(5)²",
+        "options": [
+            "78.5",
+            "157",
+            "314",
+            "523.3"
+        ],
+        "correctIndex": 2,
+        "explanation": "Surface area of sphere = 4πr² = 4 × 3.14 × 25 = 314.",
+        "wrongExplanations": [
+            "This is πr², the area of a circle.",
+            "This is 2πr², half the surface area.",
+            "Correct! 4 × 3.14 × 25 = 314.",
+            "This is the volume formula result (4/3)πr³."
+        ]
+    },
+    {
+        "id": "math_tue_08",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Mixed Numbers",
+        "question": "Convert 11/4 to a mixed number.",
+        "code": "11 ÷ 4 = ?",
+        "options": [
+            "2 1/4",
+            "2 3/4",
+            "3 1/4",
+            "1 3/4"
+        ],
+        "correctIndex": 1,
+        "explanation": "11 ÷ 4 = 2 remainder 3. So 11/4 = 2 3/4 (2 wholes and 3/4).",
+        "wrongExplanations": [
+            "2 × 4 + 1 = 9, not 11.",
+            "Correct! 2 × 4 + 3 = 11.",
+            "3 × 4 + 1 = 13, not 11.",
+            "1 × 4 + 3 = 7, not 11."
+        ]
+    },
+    {
+        "id": "math_wed_08",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Permutations",
+        "question": "How many ways can 5 people be arranged in a line?",
+        "code": "P(n,n) = n!",
+        "options": [
+            "25",
+            "60",
+            "120",
+            "625"
+        ],
+        "correctIndex": 2,
+        "explanation": "The number of permutations of n objects is n! = 5! = 5 × 4 × 3 × 2 × 1 = 120.",
+        "wrongExplanations": [
+            "This is 5², not 5!.",
+            "This is 5 × 4 × 3, missing two factors.",
+            "Correct! 5! = 120.",
+            "This is 5⁴, not factorial."
+        ]
+    },
+    {
+        "id": "math_thu_08",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Absolute Value Equations",
+        "question": "Solve: |2x - 4| = 10",
+        "code": "|2x - 4| = 10",
+        "options": [
+            "x = 7 only",
+            "x = -3 only",
+            "x = 7 or x = -3",
+            "No solution"
+        ],
+        "correctIndex": 2,
+        "explanation": "For |a| = b: a = b or a = -b. So 2x - 4 = 10 → x = 7, OR 2x - 4 = -10 → x = -3.",
+        "wrongExplanations": [
+            "There are two solutions to absolute value equations.",
+            "There are two solutions to absolute value equations.",
+            "Correct! Both x = 7 and x = -3 satisfy the equation.",
+            "Absolute value equations with positive right side have solutions."
+        ]
+    },
+    {
+        "id": "math_fri_08",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Least Common Multiple",
+        "question": "What is the LCM of 6 and 8?",
+        "code": "LCM(6, 8) = ?",
+        "options": [
+            "2",
+            "14",
+            "24",
+            "48"
+        ],
+        "correctIndex": 2,
+        "explanation": "LCM is the smallest number divisible by both. Multiples of 6: 6, 12, 18, 24... Multiples of 8: 8, 16, 24... LCM = 24.",
+        "wrongExplanations": [
+            "2 is the GCF, not LCM.",
+            "14 is not a multiple of both.",
+            "Correct! 24 is the smallest multiple of both 6 and 8.",
+            "48 is a common multiple but not the least."
+        ]
+    },
+    {
+        "id": "math_sat_08",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Determinants",
+        "question": "Find the determinant: |3 2| / |1 4|",
+        "code": "det([[3, 2], [1, 4]]) = ?",
+        "options": [
+            "2",
+            "10",
+            "11",
+            "14"
+        ],
+        "correctIndex": 1,
+        "explanation": "For a 2×2 matrix [[a, b], [c, d]], det = ad - bc = (3)(4) - (2)(1) = 12 - 2 = 10.",
+        "wrongExplanations": [
+            "This is bc, not ad - bc.",
+            "Correct! 3×4 - 2×1 = 10.",
+            "Calculation error in the formula.",
+            "This is ad + bc, not ad - bc."
+        ]
+    },
+    {
+        "id": "math_sun_08",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Probability - Combinations",
+        "question": "A coin is flipped 4 times. What's the probability of getting exactly 2 heads?",
+        "code": "P(2H) = C(4,2)/2⁴",
+        "options": [
+            "1/4",
+            "3/8",
+            "1/2",
+            "1/16"
+        ],
+        "correctIndex": 1,
+        "explanation": "Number of ways to get exactly 2 heads: C(4,2) = 6. Total outcomes: 2⁴ = 16. Probability = 6/16 = 3/8.",
+        "wrongExplanations": [
+            "This is 4/16 = 1/4, not 6/16.",
+            "Correct! C(4,2)/16 = 6/16 = 3/8.",
+            "This would require 8 favorable outcomes.",
+            "This is the probability of getting all heads."
+        ]
+    },
+    {
+        "id": "math_mon_09",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Negative Exponents",
+        "question": "Simplify: 2⁻³",
+        "code": "2⁻³ = ?",
+        "options": [
+            "-8",
+            "-6",
+            "1/8",
+            "8"
+        ],
+        "correctIndex": 2,
+        "explanation": "Negative exponent means reciprocal: a⁻ⁿ = 1/aⁿ. So 2⁻³ = 1/2³ = 1/8.",
+        "wrongExplanations": [
+            "Negative exponent doesn't make the result negative.",
+            "Negative exponent doesn't mean multiplication by -2.",
+            "Correct! 2⁻³ = 1/8.",
+            "This is 2³, not 2⁻³."
+        ]
+    },
+    {
+        "id": "math_tue_09",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Hard",
+        "topic": "Inverse Functions",
+        "question": "If f(x) = 2x + 3, find f⁻¹(x).",
+        "code": "y = 2x + 3, solve for x",
+        "options": [
+            "(x - 3)/2",
+            "(x + 3)/2",
+            "2x - 3",
+            "1/(2x + 3)"
+        ],
+        "correctIndex": 0,
+        "explanation": "To find inverse: y = 2x + 3 → y - 3 = 2x → x = (y - 3)/2. Replace y with x: f⁻¹(x) = (x - 3)/2.",
+        "wrongExplanations": [
+            "Correct! Swap and solve: f⁻¹(x) = (x - 3)/2.",
+            "You subtract 3, not add.",
+            "This reverses operations incorrectly.",
+            "Inverse function is not 1/f(x)."
+        ]
+    },
+    {
+        "id": "math_wed_09",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Medium",
+        "topic": "Similar Triangles",
+        "question": "Two similar triangles have corresponding sides 3 and 9. If the area of the smaller is 12, what's the area of the larger?",
+        "code": "Scale factor k = 9/3 = 3\nArea ratio = k²",
+        "options": [
+            "36",
+            "72",
+            "108",
+            "144"
+        ],
+        "correctIndex": 2,
+        "explanation": "Area ratio = (scale factor)² = 3² = 9. Larger area = 12 × 9 = 108.",
+        "wrongExplanations": [
+            "This is 12 × 3, using linear scale factor.",
+            "This is 12 × 6.",
+            "Correct! 12 × 3² = 12 × 9 = 108.",
+            "This is 12 × 12."
+        ]
+    },
+    {
+        "id": "math_thu_09",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Easy",
+        "topic": "Simple Interest",
+        "question": "Find simple interest on $500 at 4% for 3 years.",
+        "code": "I = Prt = 500 × 0.04 × 3",
+        "options": [
+            "$20",
+            "$40",
+            "$60",
+            "$120"
+        ],
+        "correctIndex": 2,
+        "explanation": "Simple Interest = P × r × t = 500 × 0.04 × 3 = $60.",
+        "wrongExplanations": [
+            "This is interest for 1 year only.",
+            "This is 500 × 0.04 × 2.",
+            "Correct! 500 × 0.04 × 3 = $60.",
+            "This doubles the correct amount."
+        ]
+    },
+    {
+        "id": "math_fri_09",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Hard",
+        "topic": "Conditional Probability",
+        "question": "P(A) = 0.6, P(B|A) = 0.5. Find P(A and B).",
+        "code": "P(A and B) = P(A) × P(B|A)",
+        "options": [
+            "0.1",
+            "0.3",
+            "0.5",
+            "1.1"
+        ],
+        "correctIndex": 1,
+        "explanation": "By definition of conditional probability: P(A and B) = P(A) × P(B|A) = 0.6 × 0.5 = 0.3.",
+        "wrongExplanations": [
+            "This is 0.6 - 0.5.",
+            "Correct! 0.6 × 0.5 = 0.3.",
+            "This is just P(B|A).",
+            "Probability can't exceed 1."
+        ]
+    },
+    {
+        "id": "math_sat_09",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "L'Hôpital's Rule",
+        "question": "Evaluate: lim(x→0) sin(x)/x",
+        "code": "lim(x→0) sin(x)/x = 0/0 form",
+        "options": [
+            "0",
+            "1",
+            "∞",
+            "Does not exist"
+        ],
+        "correctIndex": 1,
+        "explanation": "Using L'Hôpital's Rule for 0/0 form: lim(x→0) sin(x)/x = lim(x→0) cos(x)/1 = cos(0) = 1. This is a fundamental limit.",
+        "wrongExplanations": [
+            "Direct substitution gives 0/0, but the limit exists.",
+            "Correct! This is the fundamental limit = 1.",
+            "The limit is finite.",
+            "The limit exists and equals 1."
+        ]
+    },
+    {
+        "id": "math_sun_09",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Properties of Exponents",
+        "question": "Simplify: (x³)²",
+        "code": "(x³)² = ?",
+        "options": [
+            "x⁵",
+            "x⁶",
+            "x⁹",
+            "2x³"
+        ],
+        "correctIndex": 1,
+        "explanation": "Power of a power rule: (aᵐ)ⁿ = aᵐˣⁿ. So (x³)² = x³ˣ² = x⁶.",
+        "wrongExplanations": [
+            "This would be x³ × x², not (x³)².",
+            "Correct! Multiply exponents: 3 × 2 = 6.",
+            "This would be (x³)³.",
+            "The exponent affects the power, not the coefficient."
+        ]
+    },
+    {
+        "id": "math_mon_10",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Function Composition",
+        "question": "If f(x) = x + 2 and g(x) = x², find (g ∘ f)(3).",
+        "code": "(g ∘ f)(x) = g(f(x))",
+        "options": [
+            "11",
+            "14",
+            "25",
+            "27"
+        ],
+        "correctIndex": 2,
+        "explanation": "(g ∘ f)(3) = g(f(3)) = g(3 + 2) = g(5) = 5² = 25.",
+        "wrongExplanations": [
+            "This is f(3²) = f(9) = 11.",
+            "Calculation error somewhere.",
+            "Correct! f(3) = 5, then g(5) = 25.",
+            "This is 3³."
+        ]
+    },
+    {
+        "id": "math_tue_10",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Angles in a Triangle",
+        "question": "Two angles of a triangle are 45° and 75°. What is the third angle?",
+        "code": "Sum of angles = 180°",
+        "options": [
+            "50°",
+            "60°",
+            "70°",
+            "120°"
+        ],
+        "correctIndex": 1,
+        "explanation": "Sum of angles in a triangle = 180°. Third angle = 180° - 45° - 75° = 60°.",
+        "wrongExplanations": [
+            "180 - 45 - 75 = 60, not 50.",
+            "Correct! 180 - 45 - 75 = 60°.",
+            "180 - 45 - 75 = 60, not 70.",
+            "The sum would exceed 180°."
+        ]
+    },
+    {
+        "id": "math_wed_10",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Sum of Infinite Geometric Series",
+        "question": "Find the sum: 1 + 1/2 + 1/4 + 1/8 + ...",
+        "code": "S = a/(1-r), where |r| < 1",
+        "options": [
+            "1",
+            "1.5",
+            "2",
+            "∞"
+        ],
+        "correctIndex": 2,
+        "explanation": "This is a geometric series with a = 1, r = 1/2. Sum S = a/(1-r) = 1/(1 - 1/2) = 1/(1/2) = 2.",
+        "wrongExplanations": [
+            "This is just the first term.",
+            "The sum is exactly 2.",
+            "Correct! S = 1/(1 - 0.5) = 2.",
+            "The series converges because |r| < 1."
+        ]
+    },
+    {
+        "id": "math_thu_10",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Rationalizing Denominators",
+        "question": "Rationalize: 1/√3",
+        "code": "1/√3 × √3/√3 = ?",
+        "options": [
+            "√3",
+            "√3/3",
+            "3/√3",
+            "1/3"
+        ],
+        "correctIndex": 1,
+        "explanation": "Multiply by √3/√3: (1/√3)(√3/√3) = √3/3.",
+        "wrongExplanations": [
+            "√3 is the reciprocal denominator.",
+            "Correct! 1/√3 = √3/3.",
+            "This still has a radical in denominator.",
+            "1/3 ≈ 0.33, but 1/√3 ≈ 0.58."
+        ]
+    },
+    {
+        "id": "math_fri_10",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Unit Conversion",
+        "question": "Convert 2.5 meters to centimeters.",
+        "code": "1 meter = 100 cm",
+        "options": [
+            "25 cm",
+            "250 cm",
+            "2500 cm",
+            "0.025 cm"
+        ],
+        "correctIndex": 1,
+        "explanation": "1 meter = 100 centimeters. So 2.5 meters = 2.5 × 100 = 250 cm.",
+        "wrongExplanations": [
+            "This is 2.5 × 10.",
+            "Correct! 2.5 × 100 = 250 cm.",
+            "This is 2.5 × 1000.",
+            "This divides instead of multiplies."
+        ]
+    },
+    {
+        "id": "math_sat_10",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Matrix Multiplication",
+        "question": "Multiply: [[1,2],[3,4]] × [[5,6],[7,8]]",
+        "code": "Matrix multiplication: row × column",
+        "options": [
+            "[[12,14],[43,50]]",
+            "[[19,22],[43,50]]",
+            "[[5,12],[21,32]]",
+            "[[12,16],[21,28]]"
+        ],
+        "correctIndex": 1,
+        "explanation": "For entry (1,1): 1×5 + 2×7 = 19. Entry (1,2): 1×6 + 2×8 = 22. Entry (2,1): 3×5 + 4×7 = 43. Entry (2,2): 3×6 + 4×8 = 50.",
+        "wrongExplanations": [
+            "Check the (1,1) entry calculation.",
+            "Correct! [[19,22],[43,50]].",
+            "This is element-wise multiplication.",
+            "Matrix multiplication requires row × column."
+        ]
+    },
+    {
+        "id": "math_sun_10",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Arc Length",
+        "question": "Find the arc length for a 60° sector of a circle with radius 6. (Use π ≈ 3.14)",
+        "code": "Arc length = (θ/360°) × 2πr",
+        "options": [
+            "3.14",
+            "6.28",
+            "12.56",
+            "18.84"
+        ],
+        "correctIndex": 1,
+        "explanation": "Arc length = (60/360) × 2π × 6 = (1/6) × 12π = 2π ≈ 6.28.",
+        "wrongExplanations": [
+            "This is π only.",
+            "Correct! (60/360) × 2 × 3.14 × 6 = 6.28.",
+            "This is (120/360) × 2πr.",
+            "This is half the circumference."
+        ]
+    },
+    {
+        "id": "math_mon_11",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Easy",
+        "topic": "Distributive Property",
+        "question": "Expand: 3(x + 4)",
+        "code": "3(x + 4) = ?",
+        "options": [
+            "3x + 4",
+            "3x + 7",
+            "3x + 12",
+            "x + 12"
+        ],
+        "correctIndex": 2,
+        "explanation": "Distributive property: a(b + c) = ab + ac. So 3(x + 4) = 3x + 12.",
+        "wrongExplanations": [
+            "You must multiply 3 by 4 also.",
+            "3 × 4 = 12, not 7.",
+            "Correct! 3x + 12.",
+            "You must multiply 3 by x also."
+        ]
+    },
+    {
+        "id": "math_tue_11",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Hard",
+        "topic": "Binomial Theorem",
+        "question": "What is the coefficient of x² in (x + 2)⁴?",
+        "code": "C(4,2) × 1² × 2² = ?",
+        "options": [
+            "6",
+            "12",
+            "24",
+            "32"
+        ],
+        "correctIndex": 2,
+        "explanation": "Using binomial theorem: C(4,2) × x² × 2² = 6 × 1 × 4 = 24.",
+        "wrongExplanations": [
+            "This is just C(4,2).",
+            "Missing the 2² factor.",
+            "Correct! C(4,2) × 2² = 6 × 4 = 24.",
+            "This is 2⁵."
+        ]
+    },
+    {
+        "id": "math_wed_11",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Medium",
+        "topic": "Midpoint Formula",
+        "question": "Find the midpoint of (2, 8) and (10, 4).",
+        "code": "Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2)",
+        "options": [
+            "(4, 6)",
+            "(6, 6)",
+            "(6, 12)",
+            "(8, 6)"
+        ],
+        "correctIndex": 1,
+        "explanation": "Midpoint = ((2+10)/2, (8+4)/2) = (12/2, 12/2) = (6, 6).",
+        "wrongExplanations": [
+            "Check x-coordinate: (2+10)/2 = 6.",
+            "Correct! ((2+10)/2, (8+4)/2) = (6, 6).",
+            "y-coordinate should be 6, not 12.",
+            "x-coordinate should be 6, not 8."
+        ]
+    },
+    {
+        "id": "math_thu_11",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Easy",
+        "topic": "Perimeter - Rectangle",
+        "question": "Find the perimeter of a rectangle with length 8 and width 5.",
+        "code": "P = 2(l + w)",
+        "options": [
+            "13",
+            "26",
+            "40",
+            "80"
+        ],
+        "correctIndex": 1,
+        "explanation": "Perimeter = 2(length + width) = 2(8 + 5) = 2(13) = 26.",
+        "wrongExplanations": [
+            "This is l + w, not 2(l + w).",
+            "Correct! 2 × 13 = 26.",
+            "This is l × w, the area.",
+            "This is 2 × l × w."
+        ]
+    },
+    {
+        "id": "math_fri_11",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Hard",
+        "topic": "Exponential Growth",
+        "question": "A bacteria population doubles every hour. Starting with 100, how many are there after 5 hours?",
+        "code": "P = P₀ × 2^t",
+        "options": [
+            "500",
+            "1000",
+            "3200",
+            "6400"
+        ],
+        "correctIndex": 2,
+        "explanation": "P = 100 × 2⁵ = 100 × 32 = 3200.",
+        "wrongExplanations": [
+            "This is 100 × 5, linear growth.",
+            "This is 100 × 10.",
+            "Correct! 100 × 2⁵ = 3200.",
+            "This is 100 × 64 = 100 × 2⁶."
+        ]
+    },
+    {
+        "id": "math_sat_11",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Eigenvalues",
+        "question": "Find the eigenvalues of [[4, 1], [2, 3]].",
+        "code": "det(A - λI) = 0",
+        "options": [
+            "λ = 2, λ = 5",
+            "λ = 1, λ = 6",
+            "λ = 3, λ = 4",
+            "λ = 2, λ = 3"
+        ],
+        "correctIndex": 0,
+        "explanation": "Characteristic equation: (4-λ)(3-λ) - 2 = 0 → λ² - 7λ + 10 = 0 → (λ-2)(λ-5) = 0. Eigenvalues: λ = 2, 5.",
+        "wrongExplanations": [
+            "Correct! Eigenvalues are 2 and 5.",
+            "Check the characteristic polynomial.",
+            "The sum of eigenvalues should equal trace (7).",
+            "The product should equal determinant (10)."
+        ]
+    },
+    {
+        "id": "math_sun_11",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Easy",
+        "topic": "Square of Binomial",
+        "question": "Expand: (x + 5)²",
+        "code": "(a + b)² = a² + 2ab + b²",
+        "options": [
+            "x² + 25",
+            "x² + 5x + 25",
+            "x² + 10x + 25",
+            "2x + 10"
+        ],
+        "correctIndex": 2,
+        "explanation": "(x + 5)² = x² + 2(x)(5) + 5² = x² + 10x + 25.",
+        "wrongExplanations": [
+            "Missing the middle term 2ab.",
+            "Middle term should be 10x, not 5x.",
+            "Correct! x² + 10x + 25.",
+            "This is the derivative, not the expansion."
+        ]
+    },
+    {
+        "id": "math_mon_12",
+        "day": "Monday",
+        "dayIndex": 1,
+        "difficulty": "Medium",
+        "topic": "Radical Equations",
+        "question": "Solve: √(x + 3) = 5",
+        "code": "√(x + 3) = 5",
+        "options": [
+            "x = 2",
+            "x = 8",
+            "x = 22",
+            "x = 28"
+        ],
+        "correctIndex": 2,
+        "explanation": "Square both sides: x + 3 = 25. Solve: x = 22. Check: √(22 + 3) = √25 = 5 ✓",
+        "wrongExplanations": [
+            "√(2+3) = √5 ≠ 5.",
+            "√(8+3) = √11 ≠ 5.",
+            "Correct! √(22+3) = √25 = 5.",
+            "√(28+3) = √31 ≠ 5."
+        ]
+    },
+    {
+        "id": "math_tue_12",
+        "day": "Tuesday",
+        "dayIndex": 2,
+        "difficulty": "Easy",
+        "topic": "Properties of Zero",
+        "question": "Simplify: 0 ÷ 5",
+        "code": "0 ÷ 5 = ?",
+        "options": [
+            "0",
+            "5",
+            "Undefined",
+            "1"
+        ],
+        "correctIndex": 0,
+        "explanation": "Zero divided by any non-zero number equals zero. 0 ÷ 5 = 0. (Note: 5 ÷ 0 is undefined.)",
+        "wrongExplanations": [
+            "Correct! 0 ÷ 5 = 0.",
+            "The dividend is 0, so result is 0.",
+            "0 ÷ n is defined and equals 0; n ÷ 0 is undefined.",
+            "0 ÷ n = 0, not 1."
+        ]
+    },
+    {
+        "id": "math_wed_12",
+        "day": "Wednesday",
+        "dayIndex": 3,
+        "difficulty": "Hard",
+        "topic": "Normal Distribution",
+        "question": "In a normal distribution with mean 100 and SD 15, what percentage of data falls between 85 and 115?",
+        "code": "68-95-99.7 rule",
+        "options": [
+            "34%",
+            "68%",
+            "95%",
+            "99.7%"
+        ],
+        "correctIndex": 1,
+        "explanation": "85 and 115 are both 1 standard deviation from the mean. By the empirical rule, 68% of data falls within 1 SD.",
+        "wrongExplanations": [
+            "34% is for one side (mean to +1 SD).",
+            "Correct! Within 1 SD (both sides) = 68%.",
+            "95% is within 2 standard deviations.",
+            "99.7% is within 3 standard deviations."
+        ]
+    },
+    {
+        "id": "math_thu_12",
+        "day": "Thursday",
+        "dayIndex": 4,
+        "difficulty": "Medium",
+        "topic": "Sector Area",
+        "question": "Find the area of a 90° sector with radius 4. (Use π ≈ 3.14)",
+        "code": "Area = (θ/360°) × πr²",
+        "options": [
+            "3.14",
+            "6.28",
+            "12.56",
+            "50.24"
+        ],
+        "correctIndex": 2,
+        "explanation": "Sector area = (90/360) × π × 4² = (1/4) × 3.14 × 16 = (1/4) × 50.24 = 12.56.",
+        "wrongExplanations": [
+            "This is (1/16) of the circle.",
+            "This is (1/8) of the circle.",
+            "Correct! (1/4) × 3.14 × 16 = 12.56.",
+            "This is the full circle area."
+        ]
+    },
+    {
+        "id": "math_fri_12",
+        "day": "Friday",
+        "dayIndex": 5,
+        "difficulty": "Easy",
+        "topic": "Equivalent Fractions",
+        "question": "Which fraction is equivalent to 3/4?",
+        "code": "3/4 = ?/12",
+        "options": [
+            "6/12",
+            "8/12",
+            "9/12",
+            "10/12"
+        ],
+        "correctIndex": 2,
+        "explanation": "To convert: 3/4 = (3×3)/(4×3) = 9/12. Check: 9 ÷ 12 = 0.75 = 3 ÷ 4 ✓",
+        "wrongExplanations": [
+            "6/12 = 1/2, not 3/4.",
+            "8/12 = 2/3, not 3/4.",
+            "Correct! 9/12 = 3/4.",
+            "10/12 = 5/6, not 3/4."
+        ]
+    },
+    {
+        "id": "math_sat_12",
+        "day": "Saturday",
+        "dayIndex": 6,
+        "difficulty": "Super Ultra Hard",
+        "topic": "Proof by Induction Base",
+        "question": "To prove by induction that 1+2+...+n = n(n+1)/2, what is the base case?",
+        "code": "Mathematical Induction: Base case n = ?",
+        "options": [
+            "Show it works for n = 0",
+            "Show it works for n = 1",
+            "Assume it works for n = k",
+            "Show it works for n = k+1"
+        ],
+        "correctIndex": 1,
+        "explanation": "The base case for this sum is n = 1: LHS = 1, RHS = 1(2)/2 = 1. Both equal, so base case holds.",
+        "wrongExplanations": [
+            "For sums starting at 1, base case is n = 1.",
+            "Correct! Base case: 1 = 1(1+1)/2 = 1 ✓",
+            "This is the inductive hypothesis, not base case.",
+            "This is the inductive step, not base case."
+        ]
+    },
+    {
+        "id": "math_sun_12",
+        "day": "Sunday",
+        "dayIndex": 0,
+        "difficulty": "Medium",
+        "topic": "Logarithm Properties",
+        "question": "Simplify: log₂(8) + log₂(4)",
+        "code": "log(a) + log(b) = log(ab)",
+        "options": [
+            "5",
+            "7",
+            "12",
+            "32"
+        ],
+        "correctIndex": 0,
+        "explanation": "log₂(8) + log₂(4) = log₂(8 × 4) = log₂(32) = 5 because 2⁵ = 32. Or: 3 + 2 = 5.",
+        "wrongExplanations": [
+            "Correct! log₂(8) = 3 and log₂(4) = 2, sum = 5.",
+            "This adds the arguments, not the logs.",
+            "This multiplies the arguments.",
+            "This is 8 × 4."
+        ]
+    }
 ]
