@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>7 Common Coding & Maths Mistakes Students Make | Modern Age Coders</title>
+    <title>11 Common Coding & Maths Mistakes Students Make | Modern Age Coders</title>
     <meta name="description"
         content="Discover the most common logic traps and misconceptions students face in coding and mathematics. Learn how to think clearly and avoid these critical mistakes.">
     <meta name="keywords"
@@ -16,7 +16,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://learn.modernagecoders.com/mistakes-students-make">
-    <meta property="og:title" content="7 Common Mistakes Students Make in Coding & Maths">
+    <meta property="og:title" content="11 Common Mistakes Students Make in Coding & Maths">
     <meta property="og:description"
         content="Discover the most common logic traps and misconceptions students face. Learn proven strategies to avoid these critical mistakes.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-mistakes-article.jpg">
@@ -27,7 +27,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://learn.modernagecoders.com/mistakes-students-make">
-    <meta name="twitter:title" content="7 Common Mistakes Students Make in Coding & Maths">
+    <meta name="twitter:title" content="11 Common Mistakes Students Make in Coding & Maths">
     <meta name="twitter:description"
         content="Discover the most common logic traps and misconceptions students face. Learn proven strategies to avoid these critical mistakes.">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-mistakes-article.jpg">
@@ -42,6 +42,166 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/css/challenge-pages.css">
 
+    <style>
+        /* Ultra Minimal Navigation */
+        .simple-nav {
+            background: transparent;
+            padding: 0.75rem 2rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav-logo {
+            font-size: 1rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-logo span {
+            color: #a5b4fc;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            color: rgba(255, 255, 255, 0.6) !important;
+            text-decoration: none !important;
+            font-size: 0.85rem !important;
+            font-weight: 400 !important;
+            transition: color 0.2s !important;
+            letter-spacing: 0.01em;
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            box-shadow: none !important;
+        }
+
+        .nav-link:hover {
+            color: rgba(255, 255, 255, 0.95) !important;
+            background: transparent !important;
+        }
+
+        .nav-demo-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .nav-demo-btn:hover {
+            background: rgba(255, 255, 255, 0.15);
+            border-color: rgba(255, 255, 255, 0.25);
+        }
+
+        /* Adjust hero section for nav overlap */
+        .article-hero {
+            padding-top: 4rem;
+        }
+
+        /* Student Love Section - Dark Theme */
+        .student-love-section {
+            background: #0f172a;
+            padding: 5rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .love-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .love-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .love-title {
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
+        }
+
+        .love-description {
+            color: rgba(255, 255, 255, 0.55);
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 2.5rem;
+        }
+
+        .love-quotes {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .love-quote {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 10px;
+            padding: 1.25rem 1.5rem;
+            text-align: left;
+        }
+
+        .love-quote-text {
+            color: rgba(255, 255, 255, 0.8);
+            font-style: italic;
+            font-size: 0.95rem;
+            line-height: 1.65;
+            margin-bottom: 0.5rem;
+        }
+
+        .love-quote-author {
+            color: #a5b4fc;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .love-cta-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .love-cta-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.35);
+        }
+    </style>
+
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -50,7 +210,7 @@
     {
         "@context": "https://schema.org",
         "@type": "Article",
-        "headline": "7 Common Mistakes Students Make in Coding & Maths",
+        "headline": "11 Common Mistakes Students Make in Coding & Maths",
         "description": "Discover the most common logic traps and misconceptions students face in coding and mathematics. Learn proven strategies to avoid these critical mistakes.",
         "image": "https://learn.modernagecoders.com/images/og-mistakes-article.jpg",
         "author": {
@@ -127,6 +287,19 @@
 
 <body class="article-page">
 
+    <!-- Simple Navigation -->
+    <nav class="simple-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">Modern<span>Age</span>Coders</a>
+            <div class="nav-links">
+                <a href="/courses" class="nav-link">Courses</a>
+                <a href="/pricing" class="nav-link">Pricing</a>
+                <a href="/contact" class="nav-link">Contact</a>
+                <a href="/book-demo" class="nav-demo-btn">Book a Free Demo</a>
+            </div>
+        </div>
+    </nav>
+
     <!-- Article Hero -->
     <section class="article-hero">
         <header class="article-header">
@@ -138,7 +311,7 @@
                 </svg>
                 Educational Insight
             </span>
-            <h1 class="article-title">7 Common Mistakes Students Make in Coding & Maths</h1>
+            <h1 class="article-title">11 Common Mistakes Students Make in Coding & Maths</h1>
             <div class="article-meta">
                 <span class="article-meta-item">
                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
@@ -155,7 +328,7 @@
                         <circle cx="12" cy="12" r="10"></circle>
                         <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
-                    6 Min Read
+                    9 Min Read
                 </span>
             </div>
         </header>
@@ -460,6 +633,183 @@
                 </div>
             </section>
 
+            <!-- Mistake 8 -->
+            <section class="article-section">
+                <h2 class="section-title">
+                    <span class="section-number">8</span>
+                    Showing Off Instead of Truly Learning
+                </h2>
+                <div class="section-content">
+                    <p>We see this all the time. A student learns something new—maybe loops or a cool library—and
+                        immediately they want everyone to know. "Look what I can do!" They answer questions in class not
+                        to help, but so others think they're smart. The focus shifts from understanding to impressing.
+                    </p>
+
+                    <div class="mistake-card">
+                        <span class="mistake-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                            </svg>
+                            The Mistake
+                        </span>
+                        <p class="mistake-text">Rushing to appear knowledgeable rather than actually becoming
+                            knowledgeable. These students skip the boring fundamentals because they're not "impressive
+                            enough" to show off. They collect surface-level tricks but miss the deep understanding.</p>
+                    </div>
+
+                    <div class="fix-card">
+                        <span class="fix-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            The Fix
+                        </span>
+                        <p class="fix-text">Real confidence comes from <strong>real skill</strong>. The best programmers
+                            we know are often the quietest—they don't need to prove anything. Focus on understanding,
+                            not applause. When you truly get it, people notice anyway.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mistake 9 -->
+            <section class="article-section">
+                <h2 class="section-title">
+                    <span class="section-number">9</span>
+                    Using AI to Do Homework, Then Claiming "I Did It Myself"
+                </h2>
+                <div class="section-content">
+                    <p>This one hurts to write, but we have to be honest. Some students paste their homework into
+                        ChatGPT, copy the answer, and tell their teacher (and parents) they solved it themselves. They
+                        might fool others for a while, but they're only fooling themselves in the end.</p>
+
+                    <div class="mistake-card">
+                        <span class="mistake-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                            </svg>
+                            The Mistake
+                        </span>
+                        <p class="mistake-text">Getting the assignment "done" without any struggle or thinking. The
+                            brain grows when it faces a challenge—when you let AI handle the hard part, your brain gets
+                            nothing. You end up with a submitted assignment but zero learning.</p>
+                    </div>
+
+                    <div class="fix-card">
+                        <span class="fix-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            The Fix
+                        </span>
+                        <p class="fix-text">AI is a tool, not a replacement for your brain. <strong>Struggle
+                                first.</strong> Try for at least 20-30 minutes on your own. If you're stuck, ask AI to
+                            explain the concept—not solve it for you. The struggle is where learning happens.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mistake 10 -->
+            <section class="article-section">
+                <h2 class="section-title">
+                    <span class="section-number">10</span>
+                    Copying Code Without Understanding the Logic
+                </h2>
+                <div class="section-content">
+                    <p>"It works!" they say, clicking run. But ask them why it works, and they have no idea. They found
+                        the code on Stack Overflow or their friend's notebook, pasted it in, and called it learning. The
+                        code runs, so they feel like a programmer. But deep down, nothing clicked.</p>
+
+                    <div class="mistake-card">
+                        <span class="mistake-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                            </svg>
+                            The Mistake
+                        </span>
+                        <p class="mistake-text">Treating coding like a copy-paste activity. When the same problem
+                            appears in a slightly different form, these students are completely stuck. They never built
+                            the mental model—they just borrowed someone else's.</p>
+                    </div>
+
+                    <div class="fix-card">
+                        <span class="fix-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            The Fix
+                        </span>
+                        <p class="fix-text">Before you copy any code, <strong>write it out by hand first</strong> (yes,
+                            pen and paper). Explain each line to yourself. Ask: "What would happen if I changed this
+                            part?" If you can't explain it, you don't understand it.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Mistake 11 -->
+            <section class="article-section">
+                <h2 class="section-title">
+                    <span class="section-number">11</span>
+                    Skipping Practice at Home—"I'll Do It Later"
+                </h2>
+                <div class="section-content">
+                    <p>Class ends. The teacher says, "Practice this at home." The student thinks, "I understood it in
+                        class, I'll be fine." Days pass. When they sit for the next class or a test, everything feels
+                        vague. That confident feeling from class? Gone. The knowledge never got cemented.</p>
+
+                    <div class="mistake-card">
+                        <span class="mistake-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="15" y1="9" x2="9" y2="15"></line>
+                                <line x1="9" y1="9" x2="15" y2="15"></line>
+                            </svg>
+                            The Mistake
+                        </span>
+                        <p class="mistake-text">Confusing "I understood it when the teacher explained" with "I can do it
+                            on my own." Understanding and doing are completely different things. Without practice,
+                            concepts fade within 24-48 hours—this is how memory works.</p>
+                    </div>
+
+                    <div class="fix-card">
+                        <span class="fix-label">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            The Fix
+                        </span>
+                        <p class="fix-text">Practice the <strong>same day</strong> you learn something new—even just for
+                            15 minutes. Your brain is still warm from class. This small habit makes a massive
+                            difference. Don't trust future-you to do it; do it now.</p>
+                    </div>
+                </div>
+            </section>
+
             <!-- CTA Section -->
             <div class="article-cta">
                 <h3 class="cta-title">Ready to Train Your Logic?</h3>
@@ -478,6 +828,24 @@
 
         </article>
     </main>
+
+    <!-- See Real Love & Success Stories -->
+    <section class="student-love-section">
+        <div class="love-container">
+            <div class="love-icon">💜</div>
+            <h2 class="love-title">See the Real Love & Success Stories</h2>
+            <p class="love-description">
+                Hear directly from students and parents who've been through the journey.
+            </p>
+            <a href="/love" class="love-cta-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                </svg>
+                Read Their Stories
+            </a>
+        </div>
+    </section>
 
 </body>
 
