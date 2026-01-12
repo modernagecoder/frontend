@@ -1669,5 +1669,69 @@
     "updates": "Free access to new content",
     "certificate": "Industry-recognized certification",
     "portfolio": "150+ documented problem solutions"
+  },
+  "faqs": [
+    {
+      "question": "What is computational thinking and why is it important for children?",
+      "answer": "Computational thinking is a problem-solving approach that breaks complex problems into smaller parts, finds patterns, ignores unnecessary details, and creates step-by-step solutions. It's the thinking skill behind coding, but applies to everything - from organizing a room to planning a project. Studies show it improves academic performance across all subjects."
+    },
+    {
+      "question": "What age group is this Problem Solving course designed for?",
+      "answer": "This course is designed for children ages 7-16. Younger kids (7-10) focus on visual puzzles, games, and block coding. Older kids (11-16) progress to advanced logic, programming basics, and real-world applications. The curriculum adapts to each child's developmental stage and learning pace."
+    },
+    {
+      "question": "Will this course help my child in school academics?",
+      "answer": "Absolutely! Problem-solving skills directly transfer to better performance in math, science, and even language arts. Students learn to analyze problems, think logically, and approach challenges systematically. Parents consistently report improved grades, better attention span, and increased confidence in school."
+    },
+    {
+      "question": "Does this course teach coding or is it just puzzles?",
+      "answer": "Both! We start with logical puzzles and computational thinking, then gradually introduce Scratch visual programming, and progress to Python basics. The focus is on developing the thinking skills that make coding feel natural, rather than just memorizing syntax. By completion, students are comfortable with real programming."
+    },
+    {
+      "question": "How much screen time does this course require?",
+      "answer": "We recommend 5-7 hours per week, including a mix of online lessons, offline puzzles/activities, and hands-on projects. Many activities involve paper, building blocks, or physical games. We're mindful of healthy screen time while building essential digital skills for your child's future."
+    },
+    {
+      "question": "What makes this different from school computer classes?",
+      "answer": "School computer classes often focus on basic software usage. This course develops deep thinking skills: logic, pattern recognition, decomposition, and algorithm design. We use games, competitions, and real projects to make learning exciting. Students don't just use technology - they learn to CREATE with it."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "scratch-programming-complete-course",
+      "title": "Scratch Programming",
+      "description": "Create games and animations with visual coding"
+    },
+    {
+      "slug": "python-ai-kids-masterclass",
+      "title": "Python for Kids",
+      "description": "Progress to real text-based programming"
+    },
+    {
+      "slug": "elementary-mathematics-complete-masterclass",
+      "title": "Elementary Mathematics",
+      "description": "Build strong math foundations alongside coding"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Computational Thinking is Your Child's Superpower",
+    "paragraphs": [
+      "Computational thinking isn't about computers—it's about thinking clearly and solving problems systematically. These skills help children excel in math, science, reading comprehension, and even creative writing. Studies show students with strong computational thinking outperform peers across all academic subjects.",
+      "Our program transforms abstract concepts into engaging, hands-on activities. Through puzzles, games, building challenges, and creative projects, children develop logical reasoning, pattern recognition, and algorithmic thinking without even realizing they're learning crucial STEM skills.",
+      "Unlike passive learning, our approach builds genuine problem-solving confidence. Children learn to break down complex challenges, think step-by-step, and persist through difficulties. These meta-skills benefit them throughout their education and careers—regardless of whether they pursue technology."
+    ],
+    "highlights": [
+      "Age-appropriate curriculum adapting to 7-16 year olds",
+      "Mix of screen and off-screen activities for balanced learning",
+      "Progressive path from puzzles to Scratch to Python",
+      "150+ documented problem solutions for portfolio",
+      "Improved academic performance across all subjects"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "2,100+",
+    "academic_improvement": "87%",
+    "parent_satisfaction": "94%",
+    "continued_to_coding": "78%"
   }
 }

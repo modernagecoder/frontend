@@ -1678,5 +1678,69 @@
     "mentorship": "6 months of mentor guidance",
     "certificate": "Industry-recognized certification",
     "portfolio": "60+ games in portfolio"
+  },
+  "faqs": [
+    {
+      "question": "What age is appropriate for this game development course for kids?",
+      "answer": "This course is designed for children ages 8-18. We use visual block-based programming in Scratch, GDevelop, and other kid-friendly engines that make game creation accessible without requiring typing skills. Younger kids (8-12) can fully participate, while teens will progress faster into more advanced 3D game development."
+    },
+    {
+      "question": "Does my child need prior coding experience to start this game development course?",
+      "answer": "No prior coding experience is needed! We start from absolute scratch (literally using Scratch!). The course uses drag-and-drop visual programming, which is perfect for beginners. We progressively introduce more complex concepts as kids build confidence, eventually transitioning to platforms like GDevelop, Construct, and Unity."
+    },
+    {
+      "question": "What games will my child learn to create in this 18-month program?",
+      "answer": "Kids will build 60+ complete games including: platformers like Mario, puzzle games, racing games, shooting games, RPGs, multiplayer games, mobile games, and even VR experiences. Each project teaches specific skills while keeping learning fun and engaging."
+    },
+    {
+      "question": "Can kids actually publish and sell games after this course?",
+      "answer": "Yes! By the end of the program, students learn how to publish games to platforms like Google Play Store, iOS App Store, itch.io, and even Steam. Many of our young students already earn pocket money from game ads and sales. We teach game marketing, monetization, and app store optimization."
+    },
+    {
+      "question": "Is game development a good career path for my child?",
+      "answer": "Absolutely! The game industry is worth over $200 billion globally and growing rapidly. Beyond game development, students gain programming logic, problem-solving, creativity, and project management skills that transfer to any tech career. Many successful developers at companies like Epic Games, Ubisoft, and indie studios started young."
+    },
+    {
+      "question": "What equipment does my child need for this game development course?",
+      "answer": "A basic computer or laptop is sufficient to start. For 3D game development modules, we recommend 8GB RAM. A tablet or smartphone is helpful for testing mobile games. All the software we use is free or has free educational versions. Parents can join learning sessions to support younger children."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "scratch-programming-complete-course",
+      "title": "Scratch Programming",
+      "description": "Build foundations with visual coding"
+    },
+    {
+      "slug": "python-ai-kids-masterclass",
+      "title": "Python for Kids",
+      "description": "Progress to text-based programming"
+    },
+    {
+      "slug": "problem-solving-and-computational-thinking-for-kids",
+      "title": "Problem Solving for Kids",
+      "description": "Develop logical thinking skills"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Game Development is the Ultimate Gateway to Coding",
+    "paragraphs": [
+      "Every kid loves games—and learning to make them is irresistible motivation. Game development teaches programming, math, physics, art, and storytelling while kids think they're just having fun. It's the Trojan horse of education that delivers serious coding skills through pure engagement.",
+      "Starting with Scratch and progressing to Unity, kids learn real programming concepts: variables, loops, functions, object-oriented programming, and physics simulations. These skills transfer directly to any programming career, but are acquired through projects they actually care about.",
+      "Beyond coding, game development builds creativity, persistence, project management, and collaborative skills. Many of our students have published games, won competitions, and developed the confidence to tackle any technical challenge."
+    ],
+    "highlights": [
+      "50+ games built across 2D, 3D, and mobile platforms",
+      "Progression from Scratch to Unity/Godot",
+      "Game design, art, sound, and storytelling",
+      "Publish to app stores and gaming platforms",
+      "Portfolio that impresses schools and competitions"
+    ]
+  },
+  "success_metrics": {
+    "games_published": "2,800+",
+    "competition_winners": "95+",
+    "continued_to_programming": "85%",
+    "parent_satisfaction": "97%"
   }
 }

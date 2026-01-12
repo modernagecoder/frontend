@@ -9,7 +9,8 @@
     <meta name="description" content="{{COURSE_DESCRIPTION}}" data-template="meta.description">
     <meta name="keywords" content="{{COURSE_KEYWORDS}}" data-template="meta.keywords">
     <meta name="author" content="Modern Age Coders">
-    <link rel="canonical" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}/" data-template="meta.canonical">
+    <link rel="canonical" href="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}/"
+        data-template="meta.canonical">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/courses/{{COURSE_SLUG}}/"
@@ -40,23 +41,24 @@
     <link rel="stylesheet" href="/src/css/responsive.css">
     <link rel="stylesheet" href="/src/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">
-    
+
     <!-- Then load course-specific CSS (curriculum, content styles) -->
     <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/style.css">
     <link rel="stylesheet" href="/content/courses/generated/{{COURSE_SLUG}}/mobile-responsive-fix.css">
     <link rel="stylesheet" href="/css/share-button.css">
-    
+
     <!-- CRITICAL: Load navigation override LAST to force correct styles -->
     <link rel="stylesheet" href="/src/css/course-nav-override.css">
-    
+
     <!-- FORCE FIX: Remove horizontal scrollbar AND show dropdown -->
     <style>
         /* FIX SCROLLBAR - Only hide on html/body, NOT on header */
-        html, body {
+        html,
+        body {
             overflow-x: hidden !important;
             max-width: 100vw !important;
         }
-        
+
         /* CRITICAL: Header must NOT have overflow hidden or it clips dropdown */
         header {
             overflow: visible !important;
@@ -64,14 +66,14 @@
             max-width: 100vw !important;
             box-sizing: border-box !important;
         }
-        
+
         nav {
             overflow: visible !important;
             width: 100% !important;
             max-width: 100vw !important;
             box-sizing: border-box !important;
         }
-        
+
         .navbar {
             overflow: visible !important;
             width: 100% !important;
@@ -80,7 +82,7 @@
             margin: 0 !important;
             padding: 0 !important;
         }
-        
+
         .nav-container {
             overflow: visible !important;
             width: 100% !important;
@@ -90,34 +92,35 @@
             padding-right: 1rem !important;
             margin: 0 auto !important;
         }
-        
+
         .nav-menu {
             overflow: visible !important;
             max-width: 100% !important;
         }
-        
+
         .nav-menu li {
             overflow: visible !important;
         }
-        
+
         /* Ensure dropdown shows */
         .dropdown {
             position: relative !important;
             overflow: visible !important;
         }
-        
+
         .dropdown-content {
             overflow: visible !important;
         }
-        
+
         /* MOBILE FIX - Ultra strong override to fix mobile menu alignment */
         @media (max-width: 900px) {
+
             /* Prevent horizontal scroll on body only */
             body {
                 overflow-x: hidden !important;
                 max-width: 100vw !important;
             }
-            
+
             /* Header must contain its children properly */
             header {
                 overflow-x: clip !important;
@@ -126,19 +129,19 @@
                 width: 100% !important;
                 max-width: 100vw !important;
             }
-            
+
             nav {
                 overflow-x: clip !important;
                 overflow-y: visible !important;
                 width: 100% !important;
             }
-            
+
             .navbar {
                 overflow-x: clip !important;
                 overflow-y: visible !important;
                 width: 100% !important;
             }
-            
+
             .nav-container {
                 overflow-x: clip !important;
                 overflow-y: visible !important;
@@ -148,7 +151,7 @@
                 grid-template-columns: auto 1fr auto !important;
                 align-items: center !important;
             }
-            
+
             /* Force logo to stay in header */
             .logo {
                 position: static !important;
@@ -156,14 +159,14 @@
                 align-items: center !important;
                 z-index: 10001 !important;
             }
-            
+
             /* Force hamburger to stay in header */
             .mobile-menu-btn {
                 position: static !important;
                 display: flex !important;
                 z-index: 10001 !important;
             }
-            
+
             /* Mobile menu positioning */
             .nav-menu {
                 overflow-y: auto !important;
@@ -176,9 +179,10 @@
                 height: 100vh !important;
             }
         }
-        
+
         /* ULTRA AGGRESSIVE DROPDOWN FIX - Force it to show */
         @media (min-width: 901px) {
+
             /* Base dropdown styles */
             .nav-menu .dropdown .dropdown-content,
             .dropdown .dropdown-content,
@@ -203,7 +207,7 @@
                 margin-top: 10px !important;
                 transition: all 0.3s ease !important;
             }
-            
+
             /* FORCE SHOW on hover - Maximum specificity */
             .nav-menu .dropdown:hover .dropdown-content,
             .nav-menu .dropdown:focus-within .dropdown-content,
@@ -221,7 +225,7 @@
                 pointer-events: auto !important;
                 transform: translateX(-50%) translateY(0) !important;
             }
-            
+
             /* Dropdown items styling */
             .dropdown-content .dropdown-item,
             .dropdown-content a {
@@ -233,7 +237,7 @@
                 transition: all 0.2s ease !important;
                 font-size: 0.95rem !important;
             }
-            
+
             .dropdown-content .dropdown-item:hover,
             .dropdown-content a:hover {
                 background: rgba(168, 85, 247, 0.2) !important;
@@ -390,7 +394,10 @@
                 <div class="enrollment-cta-text">
                     <h2 data-template="enrollment.title">Ready to Master {{COURSE_TITLE}}?</h2>
                     <p>Choose your plan and start your journey into the future of technology today.</p>
-                    <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 0.75rem; line-height: 1.5;">For international students, personalized classes start from 80 USD / 75 EUR / 65 GBP / 100 CAD / 120 AUD / 110 SGD / 300 AED per month and may vary by country due to customized learning and time-zone management.</p>
+                    <p style="font-size: 0.9rem; color: #94A3B8; margin-top: 0.75rem; line-height: 1.5;">For
+                        international students, personalized classes start from 80 USD / 75 EUR / 65 GBP / 100 CAD / 120
+                        AUD / 110 SGD / 300 AED per month and may vary by country due to customized learning and
+                        time-zone management.</p>
                 </div>
                 <div class="enrollment-options">
                     <div class="enrollment-option featured">
@@ -564,6 +571,15 @@
         <!-- FAQ Section - Only displays if course has FAQs -->
         {{FAQ_SECTION}}
 
+        <!-- Success Metrics Section - Only displays if course has metrics -->
+        {{SUCCESS_METRICS}}
+
+        <!-- Why This Course Section - Only displays if course has content -->
+        {{WHY_THIS_COURSE}}
+
+        <!-- Related Courses Section - Only displays if course has related courses -->
+        {{RELATED_COURSES}}
+
     </main>
 
     <script src="/content/courses/generated/{{COURSE_SLUG}}/course-navigation.js"></script>
@@ -607,16 +623,16 @@
     <!-- MUST BE LOADED BEFORE OTHER SCRIPTS          -->
     <!-- ============================================ -->
     <script src="/js/components-loader.js"></script>
-    
+
     <!-- ============================================ -->
     <!-- MOBILE NAVIGATION SCRIPT                     -->
     <!-- Handles hamburger menu functionality         -->
     <!-- ============================================ -->
     <script src="/js/mobile-navigation.js"></script>
-    
+
     <!-- Load Share Button JavaScript -->
     <script src="/js/share-button.js"></script>
-    
+
     <!-- ============================================ -->
     <!-- RAZORPAY PAYMENT INTEGRATION                 -->
     <!-- Handles course enrollment payments           -->
@@ -629,7 +645,8 @@
     <script src="/js/enrollment-modal.js"></script>
 
 
-    
+
 
 </body>
+
 </html>

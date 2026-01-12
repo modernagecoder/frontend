@@ -1478,5 +1478,69 @@
     "mentorship": "Dedicated teen mentor throughout",
     "certificate": "Industry-recognized certification",
     "portfolio": "GitHub portfolio that impresses"
+  },
+  "faqs": [
+    {
+      "question": "What is backend development and why should teens learn it?",
+      "answer": "Backend development is building the 'behind-the-scenes' systems that power apps - the servers, databases, and APIs. While frontend is what users see, backend is the brain that makes everything work. Think of Instagram: backend handles storing your photos, processing likes, and delivering feeds. Learning backend gives you the power to build complete, real applications."
+    },
+    {
+      "question": "Is this backend course suitable for teenagers with no coding experience?",
+      "answer": "Yes! This course is specifically designed for teens (13-18 years) with zero prior programming experience. We start with absolute basics like 'What is a server?' and progressively build to advanced topics like microservices and cloud deployment. The pace is tailored for high school students balancing academics."
+    },
+    {
+      "question": "How much time per week do I need to dedicate to this backend development course?",
+      "answer": "The course requires 10-15 hours per week, which is manageable alongside school. We recommend 1-2 hours of daily practice on weekdays and 3-4 hour project sessions on weekends. The course is self-paced with weekly milestones, so you can adjust based on exams and holidays."
+    },
+    {
+      "question": "What technologies will I learn in this 12-month backend development program?",
+      "answer": "You'll master: JavaScript, Python, TypeScript, Node.js, Express.js, REST APIs, GraphQL, WebSockets, MongoDB, PostgreSQL, Redis, Docker, Kubernetes, AWS, CI/CD pipelines, microservices architecture, and system design. These are the exact technologies used by companies like Netflix, Uber, and Spotify."
+    },
+    {
+      "question": "Can I earn money as a teenager with backend development skills?",
+      "answer": "Absolutely! Many of our teen students earn ₹300-1000/hour freelancing on Upwork and Fiverr. Backend skills are highly valued because fewer people know them compared to frontend. You can build SaaS products, create APIs for clients, or land internships at startups. Some students build profitable side projects while still in school."
+    },
+    {
+      "question": "How does this backend course help with college CS program admissions?",
+      "answer": "Having production-level backend skills significantly strengthens college applications. Your GitHub portfolio with deployed APIs and cloud projects demonstrates real-world capability. Many students use their Discord bots, game servers, or SaaS projects as application showcases. For CS programs, practical experience differentiates you from candidates with only academic achievements."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "frontend-development-masterclass-for-teens",
+      "title": "Frontend for Teens",
+      "description": "Complete the stack with frontend skills"
+    },
+    {
+      "slug": "full-stack-web-development-teens-masterclass",
+      "title": "Full Stack for Teens",
+      "description": "Comprehensive web development"
+    },
+    {
+      "slug": "python-complete-masterclass-teens",
+      "title": "Python for Teens",
+      "description": "Explore data science and automation"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Backend Development Sets Teens Apart",
+    "paragraphs": [
+      "While many teens learn HTML and CSS, backend development is a rare and valuable skill. Understanding databases, APIs, server security, and cloud deployment puts you years ahead of peers. These skills are what power real businesses—and what employers and colleges are desperate to find.",
+      "Backend developers earn 20-30% more than frontend-only developers because the skills are harder to acquire and more critical to business operations. Learning backend as a teenager gives you a massive head start on a lucrative career.",
+      "Our curriculum teaches real-world backend development: Node.js, databases, authentication, payment processing, and deployment to AWS. You'll build projects that actually work and scale—Discord bots, game servers, and SaaS applications."
+    ],
+    "highlights": [
+      "30+ backend projects including production APIs and bots",
+      "Cloud deployment with AWS, Docker, and serverless",
+      "Database design with MongoDB and PostgreSQL",
+      "Authentication, security, and payment integration",
+      "Freelance-ready skills earning ₹300-1000/hour"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "1,100+",
+    "internship_placements": "72%",
+    "freelance_earners": "45%",
+    "college_acceptance_boost": "3x"
   }
 }

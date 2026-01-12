@@ -1661,5 +1661,43 @@
       "question": "How does Alpha Girls support women's success in a male-dominated industry?",
       "answer": "Beyond technical training, Alpha Girls provides negotiation coaching, executive presence development, leadership communication skills, personal branding strategies, and access to an exclusive network of female tech leaders. The program specifically addresses challenges women face in tech and equips them with strategies to excel."
     }
-  ]
+  ],
+  "related_courses": [
+    {
+      "slug": "queen-coders-advanced-tech-leadership",
+      "title": "Queen Coders - Advanced Leadership",
+      "description": "Advanced tech leadership for women ready to lead"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Web Development",
+      "description": "Master complete web development stack"
+    },
+    {
+      "slug": "ai-ml-masterclass-complete-college",
+      "title": "AI & Machine Learning",
+      "description": "Deep expertise in AI and ML systems"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Alpha Girls Creates Tech Industry Leaders",
+    "paragraphs": [
+      "Alpha Girls isn't a coding bootcamp—it's a transformation program for women ready to dominate the highest levels of technology. While most programs teach you to code, we teach you to architect billion-dollar systems, lead Fortune 500 engineering teams, and build companies that change industries.",
+      "The tech industry desperately needs more women in leadership. Studies show diverse leadership teams outperform by 35%, yet women hold only 28% of computing roles and fewer than 5% of CEO positions. Alpha Girls exists to change this by creating the next generation of female tech titans—CTOs, founders, and industry pioneers.",
+      "Our program combines elite technical training with executive development: enterprise architecture, venture capital strategies, board-level communication, and building your personal brand as a thought leader. You'll work on real projects worth millions, get mentored by successful female tech leaders, and join a sisterhood of the most ambitious women in technology."
+    ],
+    "highlights": [
+      "Direct mentorship from female tech executives and founders",
+      "Real Fortune 500 enterprise projects during the program",
+      "Executive presence and leadership communication training",
+      "VC introduction and startup funding opportunities",
+      "Exclusive network of 500+ successful women in tech"
+    ]
+  },
+  "success_metrics": {
+    "alumni_network": "500+",
+    "avg_salary_increase": "180%",
+    "founded_companies": "45+",
+    "fortune_500_placements": "120+"
+  }
 }

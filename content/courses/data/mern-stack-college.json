@@ -1860,5 +1860,52 @@
     "certificate": "Professional certification",
     "portfolio": "40+ production projects",
     "community": "Lifetime community access"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is MERN stack and why is it popular for web development?",
+      "answer": "MERN stands for MongoDB, Express.js, React, and Node.js - a powerful JavaScript-based technology stack for building full-stack web applications. It's popular because developers use one language (JavaScript) across the entire stack, leading to faster development, easier hiring, and seamless data flow. Companies like Netflix, Uber, and Airbnb use MERN stack technologies."
+    },
+    {
+      "question": "What's the difference between MERN stack and other stacks like LAMP or MEAN?",
+      "answer": "MERN uses React for frontend (component-based, virtual DOM), while MEAN uses Angular (full framework with TypeScript). LAMP uses PHP and MySQL - older technologies with different paradigms. MERN offers the best combination of modern features, community support, job opportunities, and performance. React alone has over 200,000 npm weekly downloads and dominates the frontend ecosystem."
+    },
+    {
+      "question": "How long does it take to learn MERN stack development completely?",
+      "answer": "Our comprehensive 12-month program takes you from zero to production-ready MERN developer. You can start building simple applications within 3 months, become job-ready for junior positions by 6 months, and reach senior-level proficiency by 12 months. The course includes 40+ real projects, DevOps, testing, and even advanced topics like microservices and GraphQL."
+    },
+    {
+      "question": "Do I need prior programming experience to start this MERN stack course?",
+      "answer": "No prior experience required! We start from HTML, CSS, and JavaScript basics, then progressively build to advanced React, Node.js, and MongoDB concepts. Whether you're a complete beginner, a designer learning to code, or switching careers from another field, this structured curriculum ensures you build a solid foundation before tackling advanced topics."
+    },
+    {
+      "question": "What salary can I expect as a MERN stack developer in India?",
+      "answer": "MERN stack developers are highly in-demand with competitive salaries. Freshers typically start at ₹3-5 LPA, junior developers earn ₹5-10 LPA, mid-level developers ₹8-15 LPA, and senior MERN developers command ₹15-30+ LPA. Freelancers can earn ₹1000-5000 per hour, and remote positions with international companies offer $60,000-150,000+ USD annually."
+    },
+    {
+      "question": "What real-world projects will I build in this MERN stack course?",
+      "answer": "You'll build 40+ production-ready applications including: e-commerce platform with payment integration, social media clone with real-time features, project management tool (Trello clone), video streaming platform, job portal, restaurant ordering system, and a complete SaaS application as your final capstone. All projects are deployed to cloud platforms and added to your portfolio."
+    }
+  ],
+  "related_courses": [
+    {"slug": "react-js-complete-masterclass-college", "title": "React.js Complete Masterclass", "description": "Deep dive into React for advanced frontend skills"},
+    {"slug": "full-stack-web-development-masterclass-college", "title": "Full Stack Web Development", "description": "Broader web development including multiple stacks"},
+    {"slug": "data-structures-algorithms-masterclass-college", "title": "DSA Masterclass", "description": "Crack FAANG technical interviews"}
+  ],
+  "why_this_course": {
+    "title": "Why MERN Stack is the Most In-Demand Web Development Skill",
+    "paragraphs": [
+      "MERN stack lets you build complete web applications using just JavaScript. This single-language approach means faster development, easier debugging, and a smoother learning curve. Companies love MERN developers because they can work across the entire application without context switching.",
+      "Our 12-month program goes beyond basics to cover everything top companies expect: advanced React patterns, serverless functions, real-time applications with Socket.io, microservices architecture, and DevOps practices. You'll graduate with the skills of a mid-level developer.",
+      "The MERN ecosystem is massive and growing. MongoDB, React, and Node.js are consistently ranked among the most wanted technologies by developers. By mastering this stack, you position yourself for excellent job opportunities, competitive salaries, and exciting project work."
+    ],
+    "highlights": [
+      "40+ production-ready projects deployed to cloud platforms",
+      "Complete MERN ecosystem: MongoDB, Express, React, Node.js",
+      "Advanced topics: GraphQL, Socket.io, microservices, DevOps",
+      "Interview preparation with 150+ coding problems",
+      "Job placement support until you're hired"
+    ]
+  },
+  "success_metrics": {"students_enrolled": "3,800+", "job_placement_rate": "92%", "avg_starting_salary": "₹10 LPA", "projects_deployed": "125,000+"}
 }

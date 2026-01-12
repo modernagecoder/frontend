@@ -1664,5 +1664,69 @@
     "portfolio_review": "Industry-standard portfolio",
     "mentorship": "Expert C++ developer mentorship",
     "success": "50+ projects and competition-ready skills"
+  },
+  "faqs": [
+    {
+      "question": "Why should teenagers learn C++ when Python seems easier?",
+      "answer": "C++ teaches you how computers actually work - memory management, performance optimization, and low-level programming. This deep understanding makes you a better programmer in ANY language. Plus, C++ is essential for game development, competitive programming, robotics, and high-frequency trading - fields with the highest salaries."
+    },
+    {
+      "question": "Is C++ too difficult for a 13-16 year old beginner?",
+      "answer": "Not at all! Our course is specifically designed for teens starting from zero. We use games, visual projects, and fun challenges to teach complex concepts. Many students younger than 13 have completed this course successfully. The key is patience and practice, which we build gradually."
+    },
+    {
+      "question": "What can I build with C++ after completing this 12-month course?",
+      "answer": "You'll build 50+ projects including: 2D/3D games with graphics, competitive programming solutions, system utilities, chat applications, game engines, Arduino robotics projects, AI for games, and networking applications. Your portfolio will impress colleges and employers alike."
+    },
+    {
+      "question": "Will this course help me in competitive programming and USACO?",
+      "answer": "Yes! Phase 4 is dedicated to competitive programming: Dynamic Programming, Graph Algorithms, Advanced Data Structures, and USACO-style problems. Students who complete this course consistently qualify for national competitions and have a strong foundation for USACO Bronze, Silver, and Gold divisions."
+    },
+    {
+      "question": "How does C++ help with college admissions and scholarships?",
+      "answer": "C++ proficiency demonstrates serious technical ability. Your GitHub portfolio of games and projects, competitive programming rankings, and potential USACO medals become powerful differentiators for college applications. Many students have received scholarships and early admissions based on their C++ projects."
+    },
+    {
+      "question": "What equipment do I need for this C++ programming course?",
+      "answer": "Any computer (Windows, Mac, or Linux) with internet connection works perfectly. For the game development and graphics modules, we recommend at least 4GB RAM. For Arduino projects, you can optionally purchase a starter kit (₹2000-3000), but it's not mandatory - we provide simulation alternatives."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "complete-game-development-masterclass-for-teens",
+      "title": "Game Development for Teens",
+      "description": "Build professional games using industry-standard tools"
+    },
+    {
+      "slug": "python-complete-masterclass-teens",
+      "title": "Python for Teens",
+      "description": "Learn the most versatile programming language"
+    },
+    {
+      "slug": "problem-solving-dsa-masterclass-teens",
+      "title": "DSA & Problem Solving",
+      "description": "Master data structures and competitive programming"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why C++ is the Ultimate Language for Ambitious Teens",
+    "paragraphs": [
+      "C++ isn't just another programming language—it's the language that powers the world's most performance-critical systems. From video games like Fortnite and League of Legends to operating systems and rocket guidance software, C++ is everywhere that speed and precision matter.",
+      "Learning C++ gives teenagers a profound understanding of how computers actually work. Unlike higher-level languages that hide complexity, C++ teaches memory management, optimization, and system-level thinking. This deep knowledge makes mastering any other language significantly easier.",
+      "For competitive programming and college admissions, C++ proficiency is a serious differentiator. USACO, IOI, and other prestigious competitions use C++, and admission officers at top universities recognize the technical depth required to master it. Your C++ projects and competition rankings become powerful additions to college applications."
+    ],
+    "highlights": [
+      "50+ portfolio-ready projects including games and system tools",
+      "USACO and competitive programming preparation",
+      "Game development with graphics and physics",
+      "Arduino and robotics projects (optional hardware)",
+      "Industry-recognized certification for college applications"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "1,200+",
+    "competition_winners": "85+",
+    "projects_built": "45,000+",
+    "college_acceptances": "150+"
   }
 }

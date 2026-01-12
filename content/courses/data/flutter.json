@@ -1413,7 +1413,7 @@
     "fintech_banking": "₹18-40 LPA in fintechs and digital banks that adopt Flutter for their apps"
   },
   "course_guarantees": {
-    "money_back": "30-day 100% money-back guarantee – if you’re not satisfied, get a full refund.",
+    "money_back": "30-day 100% money-back guarantee – if you're not satisfied, get a full refund.",
     "job_assistance": "Job placement support with companies and agencies hiring Flutter/mobile developers.",
     "lifetime_updates": "Lifetime access to all Flutter content, including updates for new Flutter & Dart versions.",
     "mentorship": "Dedicated expert mentor support throughout the 12-month journey and during job search.",
@@ -1425,5 +1425,31 @@
     "interview_guarantee": "Unlimited mock interviews and portfolio reviews until you achieve a job offer (within program terms).",
     "salary_hike": "Average 150-300% salary hike reported by successful career switchers into Flutter/mobile roles.",
     "placement_record": "Strong placement outcomes; majority of committed learners land interviews or roles within 6 months of completion."
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is Flutter and why should I learn it for mobile app development?",
+      "answer": "Flutter is Google's open-source framework for building beautiful, natively compiled applications for mobile (iOS & Android), web, and desktop from a single codebase. It's used by companies like Google, BMW, Alibaba, and eBay. Learning Flutter means you can build apps for 6+ platforms with one codebase, making you highly valuable as a developer."
+    },
+    {
+      "question": "Do I need prior programming experience to start this Flutter course?",
+      "answer": "No prior experience required! We start from absolute basics, teaching Dart (Flutter's programming language) from scratch. Whether you're a complete beginner, designer wanting to code, or developer switching from another language, this structured 12-month program takes you from 'Hello World' to production-ready apps."
+    },
+    {
+      "question": "How does Flutter compare to React Native and native development (Swift/Kotlin)?",
+      "answer": "Flutter offers faster development (hot reload), beautiful native-looking UIs, and excellent performance with one codebase for all platforms. Unlike React Native, Flutter doesn't use JavaScript bridges, resulting in smoother animations. While native development gives full platform access, Flutter covers 95% of app needs with 50% less development time."
+    },
+    {
+      "question": "What kind of apps can I build with Flutter after this 12-month course?",
+      "answer": "You'll be able to build any type of app: e-commerce platforms, social media apps, booking systems, learning platforms, games, fintech apps, and more. You'll complete 40+ projects including apps with authentication, payments, real-time features, push notifications, and offline capabilities - all deployed to app stores."
+    },
+    {
+      "question": "What salary can I expect as a Flutter developer in India and internationally?",
+      "answer": "Flutter developers are in high demand. Freshers start at ₹3-5 LPA, mid-level at ₹8-15 LPA, and senior developers earn ₹15-40 LPA. Freelancers charge ₹1000-5000/hour. International remote positions offer $80k-160k USD. The cross-platform skill set commands premium rates compared to single-platform developers."
+    },
+    {
+      "question": "Can I build apps for iOS on a Windows computer with Flutter?",
+      "answer": "Yes and no. You can write and test Flutter code on Windows for iOS, but to actually build and publish iOS apps, you need a Mac (or cloud Mac services). However, the same code works on both platforms, so you can develop on Windows and do final iOS builds on any Mac. Many developers start on Windows and add Mac access later."
+    }
+  ]
 }

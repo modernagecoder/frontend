@@ -1170,5 +1170,31 @@
     "mentorship": "Dedicated mentor throughout the journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready portfolio by completion"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is data science and why is it one of the highest-paying careers in 2024?",
+      "answer": "Data science combines statistics, programming, and domain expertise to extract insights from data. It's in massive demand because companies like Netflix, Amazon, and Google use data science for recommendations, predictions, and decision-making. Data scientists in India earn ₹6-50+ LPA, with international salaries reaching $80k-200k USD, making it one of the most lucrative tech careers."
+    },
+    {
+      "question": "Do I need a mathematics or statistics background for this data science course?",
+      "answer": "No prior math background is required! We teach all the mathematics you need - statistics, probability, linear algebra, and calculus - from the ground up. Many successful data scientists started without a math degree. The course includes dedicated modules to build a solid mathematical foundation alongside practical projects."
+    },
+    {
+      "question": "What programming languages and tools will I learn in this 12-month data science program?",
+      "answer": "You'll master Python (the #1 language for data science), SQL, and Spark. Tools include Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, Matplotlib, Tableau, AWS SageMaker, and MLOps tools. By completion, you'll be proficient in 25+ technologies used by data science teams at top companies."
+    },
+    {
+      "question": "What's the difference between a Data Scientist, ML Engineer, and Data Analyst?",
+      "answer": "Data Analysts focus on reporting and visualization (₹4-12 LPA). Data Scientists build predictive models and find insights (₹8-30 LPA). ML Engineers deploy and scale machine learning systems in production (₹12-45 LPA). This course prepares you for all three paths, with deep coverage of machine learning, deep learning, and MLOps."
+    },
+    {
+      "question": "Will I learn AI and deep learning in this data science course?",
+      "answer": "Yes! Phase 3 covers deep learning extensively: Neural Networks, CNNs for computer vision, RNNs/LSTMs for sequences, Transformers, BERT, GPT, and reinforcement learning. You'll build projects like image classifiers, chatbots, recommendation systems, and even implement research papers. This covers the cutting-edge of AI."
+    },
+    {
+      "question": "What projects will I build to showcase in my data science portfolio?",
+      "answer": "You'll build 60+ projects including: stock price prediction, customer churn analysis, image classification, NLP sentiment analysis, recommendation systems, fraud detection, and a complete end-to-end ML pipeline deployed on AWS. Our graduates often showcase Kaggle competition rankings and published models as proof of expertise."
+    }
+  ]
 }

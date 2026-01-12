@@ -1643,5 +1643,69 @@
     "mentorship": "Dedicated mentor throughout the journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready AI portfolio by completion"
+  },
+  "faqs": [
+    {
+      "question": "What is Python AI Automation and why is it one of the highest-demand skills?",
+      "answer": "Python AI Automation combines Python programming with Artificial Intelligence to automate complex tasks that traditionally required human intelligence. From automating data entry to building intelligent chatbots, this skill is in massive demand. Companies pay ₹8-40+ LPA for professionals who can build AI-powered automation solutions."
+    },
+    {
+      "question": "Do I need prior programming experience for this Python AI Automation course?",
+      "answer": "No prior experience required! This course starts from absolute zero - we'll teach you Python fundamentals before moving to advanced AI and automation concepts. Whether you're a complete beginner or switching careers, our structured 12-month program takes you from 'Hello World' to building production AI systems."
+    },
+    {
+      "question": "What tools and technologies will I learn in this 12-month program?",
+      "answer": "You'll master Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Selenium, BeautifulSoup, OpenCV, Natural Language Processing (NLP), Deep Learning, AWS/GCP deployment, Docker, and MLOps. By completion, you'll be proficient in 30+ technologies used by AI engineers at top companies."
+    },
+    {
+      "question": "What kind of projects will I build to showcase in my portfolio?",
+      "answer": "You'll build 30+ production-ready projects including: web scrapers, browser automation bots, AI chatbots, image recognition systems, sentiment analyzers, stock price predictors, resume parsers, email automation, RPA bots, and a complete AI-powered SaaS application. These projects are designed to impress employers."
+    },
+    {
+      "question": "What careers can I pursue after completing this Python AI Automation course?",
+      "answer": "Graduates pursue roles as Python Developers (₹4-10 LPA), Automation Engineers (₹6-15 LPA), AI/ML Engineers (₹10-30 LPA), Data Scientists (₹12-35 LPA), RPA Developers (₹6-18 LPA), or AI Consultants (₹1000-5000/hour freelance). Many also start their own AI automation businesses."
+    },
+    {
+      "question": "How is this course different from other Python courses available online?",
+      "answer": "Unlike basic Python courses, this program focuses specifically on AI and automation applications. You'll learn not just programming, but how to build intelligent systems that solve real business problems. We include mentorship, live projects with companies, career support, and guaranteed job placement assistance."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "data-science-complete-masterclass-college",
+      "title": "Data Science Complete Masterclass",
+      "description": "Master data analysis, visualization, and machine learning with Python"
+    },
+    {
+      "slug": "ai-ml-masterclass-complete-college",
+      "title": "AI & Machine Learning Masterclass",
+      "description": "Deep dive into neural networks, deep learning, and AI deployment"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Web Development",
+      "description": "Build complete web applications with modern frameworks"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Choose This Python AI Automation Masterclass?",
+    "paragraphs": [
+      "In today's rapidly evolving tech landscape, Python AI Automation skills are among the most valuable and in-demand. Companies across every industry—from startups to Fortune 500 giants—are desperately seeking professionals who can build intelligent automation systems. This isn't just another Python course; it's a complete career transformation program designed to take you from absolute beginner to job-ready AI professional.",
+      "What sets this program apart is our hands-on, project-based approach. Over 12 months, you won't just watch videos—you'll build real AI systems that solve real business problems. From web scrapers and chatbots to computer vision applications and enterprise automation solutions, every project is designed to be portfolio-worthy and interview-ready.",
+      "Our curriculum is developed in partnership with industry leaders and updated continuously to reflect the latest technologies and best practices. You'll learn not just Python, but the entire modern AI/ML stack: TensorFlow, PyTorch, OpenCV, NLP frameworks, cloud deployment, and MLOps. By graduation, you'll have skills that companies are willing to pay premium salaries for."
+    ],
+    "highlights": [
+      "12-month structured curriculum with 500+ hours of content",
+      "30+ portfolio-ready projects including a capstone AI application",
+      "Direct mentorship from industry AI professionals",
+      "Career support including resume review and interview preparation",
+      "Lifetime access to course updates and alumni community"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "2,500+",
+    "completion_rate": "89%",
+    "job_placement_rate": "94%",
+    "avg_salary_increase": "58%"
   }
 }

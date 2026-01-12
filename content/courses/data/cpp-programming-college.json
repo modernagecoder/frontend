@@ -1283,5 +1283,69 @@
     "mentorship": "Dedicated mentor throughout the journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready portfolio by completion"
+  },
+  "faqs": [
+    {
+      "question": "Why should I learn C++ programming when there are easier languages like Python?",
+      "answer": "C++ offers unparalleled control over system resources and delivers the fastest execution speed of any mainstream language. It's essential for game development, operating systems, embedded systems, high-frequency trading, and performance-critical applications. While Python is great for scripting, C++ developers command premium salaries (₹20-40+ LPA) because they solve problems no other language can handle efficiently."
+    },
+    {
+      "question": "Is C++ too difficult for beginners? Can I learn it as my first language?",
+      "answer": "While C++ is considered more challenging than Python or JavaScript, our 12-month masterclass starts from absolute basics - assuming zero prior experience. We teach programming logic, memory management, and object-oriented programming step-by-step. Many successful C++ developers started here as their first language, gaining deeper computer science knowledge than those who started with higher-level languages."
+    },
+    {
+      "question": "What career paths are available after mastering C++ programming?",
+      "answer": "C++ opens doors to specialized, high-paying roles: Game Developer (Unreal Engine), Systems Programmer, Embedded Systems Engineer, Quantitative Developer in Finance, Graphics Programmer, Compiler Developer, and High-Performance Computing Engineer. These roles typically pay 25-50% more than general web development positions due to the specialized skill requirements."
+    },
+    {
+      "question": "What makes this C++ course different from free YouTube tutorials?",
+      "answer": "This 12-month program covers advanced topics rarely found online: modern C++20/23 features, template metaprogramming, lock-free programming, memory optimization, and system-level programming. You'll build 80+ projects including a database engine, game engine, and trading system. Plus, you get 1-on-1 mentorship, code reviews, and career support that YouTube can't provide."
+    },
+    {
+      "question": "How long does it take to become proficient in C++ programming?",
+      "answer": "Basic proficiency (junior developer level) takes 6 months of dedicated learning at 15-20 hours/week. True mastery of advanced concepts like templates, concurrency, and system programming takes 12-18 months. This course is designed to take you from zero to production-level skills in 12 months, with specialization options in game development, HPC, or financial systems."
+    },
+    {
+      "question": "Is C++ still relevant in 2024? Isn't it an outdated language?",
+      "answer": "C++ is more relevant than ever! It's actively developed with new standards (C++20, C++23) adding powerful features like concepts, coroutines, and modules. It powers game engines (Unreal Engine 5), operating systems, browsers (Chrome, Firefox), databases (MongoDB, MySQL), and AI frameworks (TensorFlow, PyTorch). Every major tech company - Google, Microsoft, Apple, Meta - heavily invests in C++ development."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "data-structures-algorithms-masterclass-college",
+      "title": "DSA Masterclass",
+      "description": "Master algorithms for competitive programming"
+    },
+    {
+      "slug": "game-development-complete-masterclass-college",
+      "title": "Game Development",
+      "description": "Build professional games with Unreal Engine"
+    },
+    {
+      "slug": "complete-java-programming-masterclass-college",
+      "title": "Java Programming",
+      "description": "Enterprise development with similar concepts"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why C++ Commands the Highest Developer Salaries",
+    "paragraphs": [
+      "C++ developers are among the highest-paid in the industry because they solve problems no other language can handle efficiently. When performance matters—games running at 120fps, trading systems executing in microseconds, autonomous vehicles making split-second decisions—C++ is the only choice.",
+      "This masterclass covers the complete C++ ecosystem from fundamentals to advanced topics like template metaprogramming, lock-free concurrency, and system-level optimization. You'll understand not just how to write C++, but how modern compilers optimize your code and how to think about performance.",
+      "Beyond salaries, C++ offers unique career paths: game engines at Epic Games, operating systems at Microsoft, trading systems at Goldman Sachs, autonomous vehicles at Tesla. These specialized roles offer not just high pay, but fascinating technical challenges."
+    ],
+    "highlights": [
+      "80+ production-ready projects including a database and game engine",
+      "Modern C++20/23 features covered comprehensively",
+      "System-level programming and optimization techniques",
+      "Game development, HPC, and financial systems specializations",
+      "Preparation for Google, Microsoft, and trading firm interviews"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "2,200+",
+    "specialized_placements": "78%",
+    "avg_salary_premium": "+35%",
+    "open_source_contributions": "500+"
   }
 }

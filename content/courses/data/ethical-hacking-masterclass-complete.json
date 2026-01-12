@@ -1719,19 +1719,20 @@
     "Chief Information Security Officer (CISO) track"
   ],
   "salary_expectations": {
-  "after_3_months": "₹3-6 LPA (Junior Security Analyst, SOC Analyst L1)",
-  "after_6_months": "₹6-12 LPA (Ethical Hacker, SOC Analyst L2, VAPT Analyst)",
-  "after_9_months": "₹10-20 LPA (Penetration Tester, Security Engineer)",
-  "after_12_months": "₹18-30 LPA (Senior Ethical Hacker, Red Team Engineer)",
-  "experienced_2_years": "₹25-45 LPA (Lead Security Engineer, Security Consultant)",
-  "faang_companies": "₹35-70 LPA in India, $130k-280k USD in USA",
-  "government_projects": "₹8-20 LPA (Cyber Crime, CERT-In, Defense contractors)",
-  "cybersecurity_firms": "₹15-40 LPA (Big4, Security MNCs, Product-based firms)",
-  "freelance_bug_bounty": "₹2-15 Lakhs per valid vulnerability (platform & severity dependent)",
-  "freelance_consulting": "₹2500-12000/hour based on skills and certifications",
-  "security_architect": "₹40-90 LPA at senior level",
-  "note": "Ethical Hackers and Cybersecurity professionals are among the most in-demand and respected roles globally due to rising cyber threats"
-},  "course_guarantees": {
+    "after_3_months": "₹3-6 LPA (Junior Security Analyst, SOC Analyst L1)",
+    "after_6_months": "₹6-12 LPA (Ethical Hacker, SOC Analyst L2, VAPT Analyst)",
+    "after_9_months": "₹10-20 LPA (Penetration Tester, Security Engineer)",
+    "after_12_months": "₹18-30 LPA (Senior Ethical Hacker, Red Team Engineer)",
+    "experienced_2_years": "₹25-45 LPA (Lead Security Engineer, Security Consultant)",
+    "faang_companies": "₹35-70 LPA in India, $130k-280k USD in USA",
+    "government_projects": "₹8-20 LPA (Cyber Crime, CERT-In, Defense contractors)",
+    "cybersecurity_firms": "₹15-40 LPA (Big4, Security MNCs, Product-based firms)",
+    "freelance_bug_bounty": "₹2-15 Lakhs per valid vulnerability (platform & severity dependent)",
+    "freelance_consulting": "₹2500-12000/hour based on skills and certifications",
+    "security_architect": "₹40-90 LPA at senior level",
+    "note": "Ethical Hackers and Cybersecurity professionals are among the most in-demand and respected roles globally due to rising cyber threats"
+  },
+  "course_guarantees": {
     "money_back": "30-day 100% money-back guarantee",
     "job_assistance": "Job placement support with AI companies",
     "lifetime_updates": "Free access to all new content, research implementations",
@@ -1744,5 +1745,31 @@
     "gpu_credits": "Cloud GPU credits for training (limited)",
     "career_switch": "Support until successful transition to AI role",
     "skill_guarantee": "Master AI/ML or continue learning free"
-  }
+  },
+  "faqs": [
+    {
+      "question": "What is ethical hacking and is it a legal career path?",
+      "answer": "Ethical hacking (also called penetration testing or white-hat hacking) involves legally and systematically testing computer systems, networks, and applications for security vulnerabilities - with permission. It's completely legal and highly respected. Companies pay ethical hackers ₹6-70+ LPA to find vulnerabilities before malicious hackers do. Certifications like CEH, OSCP, and formal authorization make this a legitimate, in-demand profession."
+    },
+    {
+      "question": "Do I need prior programming or IT experience for this ethical hacking course?",
+      "answer": "No prior experience required! We start from absolute basics: Linux fundamentals, networking concepts, and then Python scripting. Whether you're a complete beginner or IT professional, this 26-week intensive program builds your skills systematically. Many successful ethical hackers and bug bounty hunters started with zero technical background."
+    },
+    {
+      "question": "What tools and techniques will I learn in this cybersecurity masterclass?",
+      "answer": "You'll master 50+ tools including Kali Linux, Metasploit, Burp Suite, Nmap, Wireshark, Nessus, John the Ripper, and custom Python scripts. Techniques cover web application hacking, network attacks, wireless hacking, social engineering, malware analysis, cloud security (AWS/Azure/GCP), and mobile app security."
+    },
+    {
+      "question": "Can I earn money through bug bounties while learning this course?",
+      "answer": "Absolutely! We dedicate a full module to bug bounty hunting on platforms like HackerOne, Bugcrowd, and Synack. Many students earn their first bounties while still studying. Individual bug bounties range from ₹2,000 to ₹15+ Lakhs depending on severity. Some skilled hunters earn ₹50+ Lakhs annually through bug bounties alone."
+    },
+    {
+      "question": "What certifications does this course prepare me for?",
+      "answer": "This course prepares you for major industry certifications: CEH (Certified Ethical Hacker), OSCP (Offensive Security Certified Professional), CompTIA Security+, CompTIA PenTest+, GPEN, and cloud security certifications. We provide dedicated certification prep modules with practice exams and study strategies."
+    },
+    {
+      "question": "What salary can I expect as an ethical hacker in India and globally?",
+      "answer": "Cybersecurity salaries are exceptionally high due to talent shortage. Entry-level: ₹3-6 LPA, Mid-level: ₹10-20 LPA, Senior: ₹25-45 LPA, FAANG companies: ₹35-70 LPA (India) or $130k-280k (USA). Freelance consultants charge ₹2,500-12,000/hour. Security architects earn ₹40-90 LPA at senior levels. The demand far exceeds supply globally."
+    }
+  ]
 }

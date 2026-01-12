@@ -1231,5 +1231,69 @@
     "mentorship": "Dedicated mentor throughout journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready portfolio guaranteed"
+  },
+  "faqs": [
+    {
+      "question": "Why is React.js the most in-demand frontend framework in 2024?",
+      "answer": "React powers the frontends of Facebook, Instagram, Netflix, Airbnb, and thousands of top companies. Its component-based architecture makes building complex UIs manageable. The job market reflects this: React developers are among the highest-paid frontend engineers, with 60% of frontend job postings requiring React skills."
+    },
+    {
+      "question": "Do I need to know JavaScript before learning React?",
+      "answer": "Basic JavaScript knowledge helps, but our course includes JavaScript fundamentals review in Phase 1. We cover ES6+ features, DOM manipulation, and async programming before diving into React. Complete beginners may want to spend extra time on JavaScript basics, but it's not mandatory."
+    },
+    {
+      "question": "What's the difference between React, Angular, and Vue?",
+      "answer": "React is a library focused on building UI components with maximum flexibility. Angular is a complete framework with more structure but steeper learning curve. Vue sits in between. React's ecosystem, job market, and community are largest. Learning React makes learning other frameworks easy since concepts transfer."
+    },
+    {
+      "question": "What will I be able to build after completing this 12-month React course?",
+      "answer": "You'll build 60+ projects including: component libraries, social media platforms, e-commerce sites, admin dashboards, real-time apps with WebSockets, mobile apps with React Native, and production SaaS applications. Your portfolio will include complete full-stack applications deployed and serving real users."
+    },
+    {
+      "question": "Does this course cover React Native for mobile app development?",
+      "answer": "Yes! Phase 4 includes comprehensive React Native training. You'll learn to build iOS and Android apps, deploy to app stores, and understand when to use React Native vs native development. Many companies hire developers who can build both web and mobile applications with React."
+    },
+    {
+      "question": "What salary can I expect as a React developer in India?",
+      "answer": "React developers are highly valued. Entry-level: ₹5-8 LPA, Mid-level: ₹8-18 LPA, Senior: ₹15-35 LPA, Lead/Architect: ₹30-60 LPA. Freelancers earn ₹2000-8000/hour. International remote positions offer $60k-150k USD. The combination of React + TypeScript + Next.js commands premium salaries."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Web Development",
+      "description": "Complete your stack with backend and database skills"
+    },
+    {
+      "slug": "mern-stack-development-masterclass-college",
+      "title": "MERN Stack Masterclass",
+      "description": "Master MongoDB, Express, React, and Node.js"
+    },
+    {
+      "slug": "complete-typescript-programming-masterclass-college",
+      "title": "TypeScript Masterclass",
+      "description": "Add type safety and scalability to your React apps"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why React.js Dominates Modern Frontend Development",
+    "paragraphs": [
+      "React isn't just popular—it's the undisputed leader of frontend development. Powering Facebook, Instagram, Netflix, Airbnb, and countless top tech companies, React skills are the most sought-after in the frontend job market. With over 60% of frontend positions requiring React, this is the skill that opens doors.",
+      "Our 12-month program goes beyond tutorials to build real-world expertise. You'll master React's component architecture, hooks, state management, and the entire modern ecosystem: Next.js for server-side rendering, React Native for mobile apps, and advanced patterns used by senior engineers at top companies.",
+      "What truly sets this program apart is our project-based approach and career support. You won't just learn React—you'll build 60+ projects, deploy production applications, and receive interview preparation with companies actively hiring React developers. Many graduates land jobs before even completing the program."
+    ],
+    "highlights": [
+      "60+ portfolio-ready projects including production SaaS applications",
+      "Complete React ecosystem: Next.js, React Native, Redux, and more",
+      "TypeScript integration for enterprise-level development",
+      "Interview preparation with partner companies",
+      "94% job placement rate within 3 months of completion"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "3,200+",
+    "job_placement_rate": "94%",
+    "avg_starting_salary": "₹8.5 LPA",
+    "projects_deployed": "15,000+"
   }
 }

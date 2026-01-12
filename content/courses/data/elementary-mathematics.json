@@ -1603,5 +1603,69 @@
     "updates": "Free curriculum updates",
     "resources": "Access to all supplementary materials",
     "community": "Lifetime community access"
+  },
+  "faqs": [
+    {
+      "question": "What age group is this Elementary Mathematics course designed for?",
+      "answer": "This comprehensive course is designed for students ages 6-12 (Grades 1-5), though it can also help older students fill knowledge gaps or adults learning mathematics fundamentals. The curriculum adapts to each learner's pace with age-appropriate explanations and activities."
+    },
+    {
+      "question": "My child struggles with math anxiety. How does this course help?",
+      "answer": "We understand math anxiety is real! Our course uses fun games, visual learning, hands-on projects, and encouraging feedback to build confidence. We start with foundational concepts and progress gradually, celebrating small wins. Most students who start anxious end up loving math within weeks."
+    },
+    {
+      "question": "What topics are covered in this 24-month Elementary Mathematics program?",
+      "answer": "The course covers: Number sense and operations, Addition/Subtraction/Multiplication/Division mastery, Fractions and Decimals, Measurement and Geometry, Data analysis and Graphing, Pre-Algebra foundations, Problem-solving strategies, Statistics and Probability basics, and real-world math applications. It's a complete K-5 math foundation."
+    },
+    {
+      "question": "How is this different from school math tutoring?",
+      "answer": "Unlike traditional tutoring that focuses on homework help, this course builds deep conceptual understanding through visual learning, games, and projects. Students don't just memorize procedures - they understand WHY math works. This creates confident problem-solvers who excel in any math situation."
+    },
+    {
+      "question": "How much time should my child spend on this course each week?",
+      "answer": "We recommend 10-15 hours per week, broken into daily sessions of 1.5-2 hours. However, the course is flexible - students can adjust their pace. Consistency is more important than duration. Even 45 minutes daily produces excellent results over time."
+    },
+    {
+      "question": "Will this prepare my child for competitive exams and olympiads?",
+      "answer": "Absolutely! The course includes advanced problem-solving, logic puzzles, and competition-style questions. Students completing this program are well-prepared for Math Olympiad, NTSE preparation, school competitions, and develop the strong foundation needed for advanced mathematics in middle school and beyond."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "comprehensive-middle-school-mathematics-mastery",
+      "title": "Middle School Mathematics Mastery",
+      "description": "Continue your math journey with pre-algebra and geometry"
+    },
+    {
+      "slug": "problem-solving-and-computational-thinking-for-kids",
+      "title": "Problem Solving for Kids",
+      "description": "Develop logical thinking and computational skills"
+    },
+    {
+      "slug": "scratch-programming-complete-course",
+      "title": "Scratch Programming",
+      "description": "Learn coding through creative projects and games"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Choose This Elementary Mathematics Program?",
+    "paragraphs": [
+      "Mathematics is the foundation of all STEM learning, and the elementary years are when children develop their relationship with numbers that lasts a lifetime. Our program goes beyond memorization to build true mathematical understanding—the kind that makes students genuinely love math rather than fear it.",
+      "Unlike traditional tutoring that focuses on homework completion, our course develops deep number sense through visual learning, hands-on activities, and real-world connections. Children don't just learn procedures—they understand WHY math works, building confidence that transfers to every subject.",
+      "Our expert educators use gamification, personalized pacing, and proven pedagogical methods to make math enjoyable and engaging. With small class sizes and individual attention, every child gets the support they need to thrive."
+    ],
+    "highlights": [
+      "24-month comprehensive curriculum covering all K-5 math concepts",
+      "Visual learning approach that builds deep understanding",
+      "Games, puzzles, and real-world math activities",
+      "Olympiad and competition preparation included",
+      "Parent progress reports and involvement resources"
+    ]
+  },
+  "success_metrics": {
+    "students_helped": "1,800+",
+    "grade_improvement": "2+ Levels",
+    "parent_satisfaction": "96%",
+    "competition_qualifiers": "200+"
   }
 }

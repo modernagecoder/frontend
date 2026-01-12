@@ -1625,5 +1625,69 @@
     "mentorship": "Dedicated mentor throughout the journey",
     "certificate": "Industry-recognized certification",
     "portfolio": "Production-ready portfolio by completion"
+  },
+  "faqs": [
+    {
+      "question": "What is full stack web development and why should I learn it?",
+      "answer": "Full stack web development means building complete web applications from scratch - both the visible parts users interact with (frontend) and the behind-the-scenes systems that power them (backend). Learning full stack makes you a versatile developer who can build entire applications independently, making you highly valuable in the job market with salaries ranging from ₹6-30+ LPA."
+    },
+    {
+      "question": "Do I need prior coding experience for this full stack development course?",
+      "answer": "No prior experience is required! This 24-month masterclass starts from absolute zero - teaching you how computers work, basic HTML, and progressively building to advanced concepts like microservices and system design. Whether you're a complete beginner or switching careers, this course takes you from 'Hello World' to production-ready applications."
+    },
+    {
+      "question": "What technologies will I learn in this Full Stack Web Development program?",
+      "answer": "You'll master the complete modern web stack: HTML5, CSS3, JavaScript ES6+, TypeScript, React, Redux, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, Docker, Kubernetes, AWS, CI/CD pipelines, and system design. By completion, you'll be proficient in 25+ technologies used by top tech companies."
+    },
+    {
+      "question": "How long does it take to become a full stack developer?",
+      "answer": "This comprehensive program spans 24 months with 15-20 hours/week commitment. However, you can start applying for junior developer roles as early as 6 months in. By month 12, you'll be ready for mid-level positions, and by month 24, you'll have senior developer-level knowledge and a portfolio of 20+ production projects."
+    },
+    {
+      "question": "What's the difference between frontend and backend development?",
+      "answer": "Frontend development involves building what users see and interact with - the visual interface, buttons, forms, and animations using HTML, CSS, JavaScript, and React. Backend development handles the server-side logic - databases, APIs, authentication, and business logic using Node.js and Express. Full stack developers master both, making them capable of building complete applications."
+    },
+    {
+      "question": "What job opportunities are available after completing this full stack course?",
+      "answer": "Graduates pursue roles like Full Stack Developer, Frontend Developer, Backend Developer, React Developer, Node.js Developer, DevOps Engineer, Technical Lead, and Solutions Architect. Many also freelance or start their own tech companies. With the current tech boom, full stack developers are among the most in-demand professionals globally."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "mern-stack-development-masterclass-college",
+      "title": "MERN Stack Masterclass",
+      "description": "Specialize in MongoDB, Express, React, and Node"
+    },
+    {
+      "slug": "react-js-complete-masterclass-college",
+      "title": "React.js Complete Masterclass",
+      "description": "Deep expertise in React ecosystem"
+    },
+    {
+      "slug": "data-structures-algorithms-masterclass-college",
+      "title": "DSA Masterclass",
+      "description": "Crack technical interviews at FAANG companies"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Full Stack Development is the Most Valuable Tech Skill",
+    "paragraphs": [
+      "Full stack developers are the Swiss Army knives of tech—capable of building complete applications from scratch. This versatility makes them incredibly valuable: they can join startups and build entire products solo, or integrate seamlessly into large teams at enterprises. The result? Some of the highest salaries and best job security in tech.",
+      "Our 24-month program is the most comprehensive full stack curriculum available. You won't just learn React and Node—you'll master databases, DevOps, cloud deployment, system design, and software architecture. By graduation, you'll have the skills of a senior developer with 3-5 years of experience.",
+      "What truly sets our program apart is the emphasis on real-world projects. You'll build 20+ production applications, contribute to open source, and complete client projects. This hands-on approach means you graduate not with theoretical knowledge, but with a portfolio that proves your capabilities to any employer."
+    ],
+    "highlights": [
+      "24-month comprehensive curriculum covering every aspect of web development",
+      "20+ production projects deployed and serving real users",
+      "Complete DevOps and cloud deployment training (AWS, Docker, Kubernetes)",
+      "System design preparation for senior developer roles",
+      "94% job placement rate with average ₹12 LPA starting salary"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "4,200+",
+    "job_placement_rate": "94%",
+    "avg_starting_salary": "₹12 LPA",
+    "companies_hiring_grads": "150+"
   }
 }

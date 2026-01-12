@@ -1672,5 +1672,69 @@
     "mentorship": "6 months of mentor support",
     "certificate": "Industry-recognized certification",
     "portfolio": "70+ apps in your portfolio"
+  },
+  "faqs": [
+    {
+      "question": "What age group is this block coding course suitable for?",
+      "answer": "This course is designed for ages 8 and above. It's perfect for kids, teens, and even adults who want to learn app development without writing traditional code. The visual block-based approach makes complex programming concepts accessible to complete beginners of any age."
+    },
+    {
+      "question": "Do I need any prior coding experience for this block coding app development course?",
+      "answer": "No prior coding experience is required! This course starts from absolute zero. You'll learn programming logic through visual blocks using platforms like Scratch, MIT App Inventor, and Thunkable. The drag-and-drop interface makes it easy for anyone to create real mobile apps."
+    },
+    {
+      "question": "Can I actually publish apps to Google Play and App Store with block coding?",
+      "answer": "Yes, absolutely! By the end of this course, you'll learn how to publish your apps to both Google Play Store and Apple App Store. We cover the entire publishing process including creating app icons, writing descriptions, setting up developer accounts, and submitting your apps for review."
+    },
+    {
+      "question": "What platforms will I learn in this block-based app development masterclass?",
+      "answer": "You'll master three major visual programming platforms: Scratch (for game development and programming logic), MIT App Inventor (for Android app development), and Thunkable (for cross-platform iOS and Android apps). Each platform has unique strengths, and you'll learn when to use which."
+    },
+    {
+      "question": "How many apps will I build during this 6-month block coding program?",
+      "answer": "You'll build over 70 apps during this comprehensive program! This includes games, utilities, educational apps, social media apps, e-commerce apps, IoT-connected apps, and AI-powered applications. Each project is designed to teach specific skills while building your portfolio."
+    },
+    {
+      "question": "Can block coding lead to a real career in app development?",
+      "answer": "Yes! Many successful app developers started with block coding. This course prepares you for roles like No-Code App Developer, EdTech Specialist, App Entrepreneur, and freelance app creator. You'll also learn basics of transitioning to text-based programming languages like JavaScript and React Native for future career growth."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "scratch-programming-complete-course",
+      "title": "Scratch Programming",
+      "description": "Create games and animations with visual coding"
+    },
+    {
+      "slug": "python-ai-kids-masterclass",
+      "title": "Python for Kids",
+      "description": "Progress to text-based programming with Python"
+    },
+    {
+      "slug": "problem-solving-and-computational-thinking-for-kids",
+      "title": "Problem Solving for Kids",
+      "description": "Build logical thinking skills for programming"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Block Coding is the Perfect Start for Young App Creators",
+    "paragraphs": [
+      "Building apps used to require years of learning complex programming languages. Not anymore. Block coding platforms like MIT App Inventor and Thunkable let kids create real, working mobile apps using visual drag-and-drop blocks—no typing code required. This revolutionary approach makes app development accessible to anyone.",
+      "Our program takes kids from absolute zero to publishing apps on Google Play and App Store. They'll build 70+ apps across gaming, education, social media, and AI categories. Every project is designed to be fun while teaching real programming concepts that transfer to any language they learn later.",
+      "Beyond technical skills, kids develop creativity, problem-solving, and entrepreneurial thinking. Many of our students have published apps downloaded by thousands of users, won app competitions, and even earned money from their creations. Some go on to learn traditional programming, now equipped with a deep understanding of how apps work."
+    ],
+    "highlights": [
+      "70+ apps built including games, utilities, and AI-powered applications",
+      "Publish to real app stores (Google Play and Apple App Store)",
+      "No prior coding experience required",
+      "Seamless pathway to JavaScript and React Native",
+      "Portfolio of apps to showcase to schools and employers"
+    ]
+  },
+  "success_metrics": {
+    "apps_published": "3,500+",
+    "student_satisfaction": "97%",
+    "competition_winners": "120+",
+    "continued_to_programming": "82%"
   }
 }

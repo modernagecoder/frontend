@@ -1654,5 +1654,69 @@
     "mentorship": "Dedicated mentor throughout",
     "certificate": "Industry-recognized certification",
     "success": "40+ projects portfolio guaranteed"
+  },
+  "faqs": [
+    {
+      "question": "Is this frontend development course suitable for teenagers with no coding experience?",
+      "answer": "Absolutely! This course is specifically designed for teens (13-19 years) with zero prior coding experience. We start from the very basics of HTML, CSS, and JavaScript, using projects that resonate with teen interests like building Instagram clones, gaming websites, and portfolio sites. The curriculum is paced perfectly for school-going students."
+    },
+    {
+      "question": "How much time per week does this frontend development course require?",
+      "answer": "The course requires 10-12 hours per week, making it manageable alongside school and extracurricular activities. We recommend spreading this across 5-6 days with 1-2 hours of practice daily. Weekend students often spend 4-5 hours on Saturday and Sunday for project work."
+    },
+    {
+      "question": "What technologies and frameworks will I learn in this frontend course for teens?",
+      "answer": "You'll master the complete modern frontend stack: HTML5, CSS3, JavaScript ES6+, TypeScript, React, Vue.js, Svelte, Next.js, Nuxt.js, Tailwind CSS, GSAP animations, and Three.js for 3D. By completion, you'll be proficient in 15+ technologies used by top tech companies."
+    },
+    {
+      "question": "Can I start freelancing or get a job as a teenager after this course?",
+      "answer": "Yes! Many of our teen students start freelancing on Fiverr and Upwork while still in high school. We teach pricing, client communication, and how to land your first projects. For jobs, teens typically secure internships first, with some landing junior positions at startups. Your portfolio of 40+ projects makes you very competitive."
+    },
+    {
+      "question": "How does this frontend course help with college applications and admissions?",
+      "answer": "Having web development skills significantly boosts college applications. Your GitHub portfolio demonstrates technical ability and initiative. Many students use their capstone projects as application showcases. For computer science programs, this practical experience can set you apart from applicants who only have academic credentials."
+    },
+    {
+      "question": "What projects will I build in this 12-month frontend development program?",
+      "answer": "You'll build 40+ projects including: responsive portfolios, social media clones, e-commerce stores, real-time chat apps, progressive web apps (PWAs), 3D interactive websites, and a complete enterprise application as your capstone. Every project is deployed live and added to your professional portfolio."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "full-stack-web-development-teens-masterclass",
+      "title": "Full Stack Web Development for Teens",
+      "description": "Add backend skills to become a complete developer"
+    },
+    {
+      "slug": "react-for-teens-complete-masterclass",
+      "title": "React for Teens",
+      "description": "Master the most popular frontend framework"
+    },
+    {
+      "slug": "python-complete-masterclass-teens",
+      "title": "Python for Teens",
+      "description": "Learn backend programming with Python"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Frontend Development is the Perfect Entry into Tech for Teens",
+    "paragraphs": [
+      "Frontend development is the most visual and immediately rewarding area of programming. Within days, you'll be creating real websites you can show friends and family. This instant gratification keeps motivation high while you build genuinely valuable skills used by every tech company in the world.",
+      "The job market for frontend developers is booming. With companies digitizing everything, demand for skilled developers far exceeds supply. Teens who master React, CSS, and modern JavaScript can start freelancing at 16, land internships at top companies, and graduate with skills worth ₹8-20+ LPA.",
+      "Our curriculum covers not just coding, but the complete toolkit of a professional frontend developer: version control with Git, responsive design, accessibility, performance optimization, and deploying to the cloud. You'll graduate with a portfolio that impresses colleges and employers alike."
+    ],
+    "highlights": [
+      "40+ deployed projects in your professional portfolio",
+      "Modern stack: React, Next.js, TypeScript, and more",
+      "College application boost through demonstrated technical skills",
+      "Freelance-ready skills by program completion",
+      "Direct pathway to high-paying tech internships"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "1,500+",
+    "internship_placements": "85%",
+    "projects_deployed": "50,000+",
+    "scholarship_recipients": "65+"
   }
 }

@@ -1886,5 +1886,69 @@
     "interview_guarantee": "Unlimited mock interviews until you land a job",
     "salary_hike": "Average 150-300% salary hike for career switchers",
     "placement_record": "85%+ placement rate within 6 months of completion"
+  },
+  "faqs": [
+    {
+      "question": "Why should I learn Java programming in 2024 when there are newer languages available?",
+      "answer": "Java remains the #1 language for enterprise development, powering 3 billion devices worldwide. It's essential for Android development, banking systems, big data (Hadoop, Spark), and microservices. Companies like Google, Amazon, Netflix, and major banks heavily use Java. Job opportunities are abundant with salaries ranging from ₹5-50+ LPA depending on experience."
+    },
+    {
+      "question": "Is this Java programming course suitable for complete beginners with no coding experience?",
+      "answer": "Absolutely! This 12-month masterclass is designed for absolute beginners. We start with programming fundamentals before introducing Java syntax. Whether you're a student, working professional switching careers, or someone with no tech background, our structured curriculum takes you from 'What is programming?' to building enterprise-grade microservices applications."
+    },
+    {
+      "question": "What technologies and frameworks will I learn besides core Java?",
+      "answer": "Beyond core Java, you'll master: Spring Boot, Spring Security, Hibernate/JPA, Microservices with Spring Cloud, REST APIs, Docker, Kubernetes, AWS, CI/CD pipelines, MySQL, PostgreSQL, MongoDB, Redis, Apache Kafka, RabbitMQ, JUnit testing, and system design. This covers the complete stack used by product companies."
+    },
+    {
+      "question": "How does this Java course prepare me for job interviews and placement?",
+      "answer": "We provide comprehensive interview preparation including: 150+ LeetCode problem solutions, system design practice (designing Twitter, Uber, etc.), Java-specific interview questions, Spring Boot scenarios, and unlimited mock interviews. Our 85%+ placement rate within 6 months speaks to the effectiveness. We also help with resume optimization and company connections."
+    },
+    {
+      "question": "What kind of projects will I build in this Java programming masterclass?",
+      "answer": "You'll build 40+ production-ready projects including: e-commerce platform with microservices, social media backend, banking application, learning management system, video streaming service backend, and distributed systems. The final capstone involves a complete enterprise application deployed on AWS with Kubernetes."
+    },
+    {
+      "question": "What salary can I expect after completing this Java programming course?",
+      "answer": "Salaries vary by experience: Freshers start at ₹3-5 LPA, after 6 months ₹5-9 LPA, after 12 months ₹8-15 LPA, and experienced developers (2-3 years) earn ₹18-40 LPA. Top product companies (Google, Amazon, Microsoft) offer ₹15-50 LPA. Fintech/banking sectors pay ₹20-60 LPA. International remote jobs offer $80k-180k USD."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "data-structures-algorithms-masterclass-college",
+      "title": "DSA Masterclass",
+      "description": "Crack technical interviews at top companies"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Development",
+      "description": "Add frontend skills for complete development"
+    },
+    {
+      "slug": "complete-kotlin-programming-masterclass-professional",
+      "title": "Kotlin Masterclass",
+      "description": "Modern JVM language for Android"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Java Remains the King of Enterprise Development",
+    "paragraphs": [
+      "Java powers the backend of most Fortune 500 companies, major banks, and tech giants. It's the #1 language for enterprise software, Android development, and big data processing. With 9 million developers worldwide and 3 billion devices running Java, it's the safest language investment for a long tech career.",
+      "Our masterclass covers the complete modern Java ecosystem: Spring Boot for rapid development, microservices architecture, cloud-native patterns, and DevOps integration. You'll learn not just Java syntax, but how to build scalable, maintainable systems that enterprises pay premium for.",
+      "Java developers are especially valued in banking, healthcare, and government sectors where stability matters. These industries offer excellent salaries, job security, and the chance to work on systems that touch millions of lives."
+    ],
+    "highlights": [
+      "40+ enterprise-grade projects with Spring Boot microservices",
+      "Complete cloud deployment: AWS, Docker, Kubernetes",
+      "System design preparation for senior roles",
+      "150+ LeetCode problems with Java solutions",
+      "85% placement rate within 6 months"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "5,100+",
+    "job_placement_rate": "85%",
+    "avg_starting_salary": "₹8.5 LPA",
+    "enterprise_positions": "1,200+"
   }
 }

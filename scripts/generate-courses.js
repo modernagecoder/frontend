@@ -746,6 +746,18 @@ class CourseGenerator {
         const faqSectionHTML = this.generateFAQSectionHTML(courseData);
         html = html.replace(/{{FAQ_SECTION}}/g, faqSectionHTML);
 
+        // Generate Related Courses section (only if related_courses exist)
+        const relatedCoursesHTML = this.generateRelatedCoursesHTML(courseData);
+        html = html.replace(/{{RELATED_COURSES}}/g, relatedCoursesHTML);
+
+        // Generate Why This Course section (only if why_this_course exists)
+        const whyThisCourseHTML = this.generateWhyThisCourseHTML(courseData);
+        html = html.replace(/{{WHY_THIS_COURSE}}/g, whyThisCourseHTML);
+
+        // Generate Success Metrics section (only if success_metrics exists)
+        const successMetricsHTML = this.generateSuccessMetricsHTML(courseData);
+        html = html.replace(/{{SUCCESS_METRICS}}/g, successMetricsHTML);
+
         return html;
     }
 
@@ -1219,6 +1231,294 @@ class CourseGenerator {
                     </div>
                 `).join('')}
             </div>
+        `;
+    }
+
+    /**
+     * Generate Related Courses section HTML for internal linking
+     * @param {Object} courseData - Course data object
+     * @returns {string} HTML string for related courses section
+     */
+    generateRelatedCoursesHTML(courseData) {
+        const relatedCourses = courseData.related_courses || [];
+
+        if (!Array.isArray(relatedCourses) || relatedCourses.length === 0) {
+            return '';
+        }
+
+        const meta = courseData.meta || {};
+        const courseCategory = meta.category || 'Programming';
+
+        const coursesHTML = relatedCourses.map(course => `
+            <a href="/courses/${course.slug}/" class="related-course-card">
+                <div class="related-course-content">
+                    <h4 class="related-course-title">${this.escapeHtml(course.title)}</h4>
+                    <p class="related-course-desc">${this.escapeHtml(course.description || 'Explore this related course')}</p>
+                    <span class="related-course-link">Learn More →</span>
+                </div>
+            </a>
+        `).join('');
+
+        return `
+        <section class="related-courses-section" id="related-courses">
+            <div class="related-courses-container">
+                <div class="related-courses-header">
+                    <span class="related-courses-badge">Explore More</span>
+                    <h2 class="related-courses-title">Related ${this.escapeHtml(courseCategory)} Courses</h2>
+                    <p class="related-courses-subtitle">Continue your learning journey with these recommended courses</p>
+                </div>
+                <div class="related-courses-grid">
+                    ${coursesHTML}
+                </div>
+            </div>
+            <style>
+                .related-courses-section {
+                    margin-top: 3rem;
+                    padding: 3rem 2rem;
+                    background: linear-gradient(145deg, rgba(16, 16, 32, 0.95), rgba(24, 20, 40, 0.92));
+                    border-radius: 24px;
+                    border: 1px solid rgba(78, 205, 196, 0.2);
+                }
+                .related-courses-header { text-align: center; margin-bottom: 2rem; }
+                .related-courses-badge {
+                    display: inline-block;
+                    padding: 0.5rem 1rem;
+                    background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), rgba(168, 85, 247, 0.15));
+                    border-radius: 20px;
+                    font-size: 0.875rem;
+                    color: #4ecdc4;
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+                .related-courses-title {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: #f1f5f9;
+                    margin-bottom: 0.5rem;
+                }
+                .related-courses-subtitle {
+                    color: rgba(148, 163, 184, 0.8);
+                }
+                .related-courses-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                    gap: 1.5rem;
+                }
+                .related-course-card {
+                    background: rgba(255, 255, 255, 0.03);
+                    border: 1px solid rgba(255, 255, 255, 0.08);
+                    border-radius: 16px;
+                    padding: 1.5rem;
+                    text-decoration: none;
+                    transition: all 0.3s ease;
+                    display: block;
+                }
+                .related-course-card:hover {
+                    border-color: rgba(78, 205, 196, 0.4);
+                    transform: translateY(-4px);
+                    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+                }
+                .related-course-title {
+                    color: #f1f5f9;
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                    margin-bottom: 0.5rem;
+                }
+                .related-course-desc {
+                    color: rgba(148, 163, 184, 0.9);
+                    font-size: 0.9rem;
+                    line-height: 1.5;
+                    margin-bottom: 1rem;
+                }
+                .related-course-link {
+                    color: #4ecdc4;
+                    font-weight: 600;
+                    font-size: 0.875rem;
+                }
+            </style>
+        </section>
+        `;
+    }
+
+    /**
+     * Generate Why This Course section for unique content
+     * @param {Object} courseData - Course data object
+     * @returns {string} HTML string for why this course section
+     */
+    generateWhyThisCourseHTML(courseData) {
+        const whyContent = courseData.why_this_course || {};
+
+        if (Object.keys(whyContent).length === 0) {
+            return '';
+        }
+
+        const meta = courseData.meta || {};
+        const title = whyContent.title || `Why Choose ${meta.title || 'This Course'}?`;
+        const paragraphs = whyContent.paragraphs || [];
+        const highlights = whyContent.highlights || [];
+
+        const paragraphsHTML = paragraphs.map(p => `<p>${this.escapeHtml(p)}</p>`).join('');
+        const highlightsHTML = highlights.map(h => `
+            <div class="why-highlight">
+                <span class="why-highlight-icon">✓</span>
+                <span class="why-highlight-text">${this.escapeHtml(h)}</span>
+            </div>
+        `).join('');
+
+        return `
+        <section class="why-this-course-section" id="why-this-course">
+            <div class="why-course-container">
+                <div class="why-course-header">
+                    <span class="why-course-badge">Why Choose Us</span>
+                    <h2 class="why-course-title">${this.escapeHtml(title)}</h2>
+                </div>
+                <div class="why-course-content">
+                    <div class="why-course-text">
+                        ${paragraphsHTML}
+                    </div>
+                    ${highlightsHTML.length > 0 ? `<div class="why-course-highlights">${highlightsHTML}</div>` : ''}
+                </div>
+            </div>
+            <style>
+                .why-this-course-section {
+                    margin-top: 3rem;
+                    padding: 3rem 2rem;
+                    background: linear-gradient(145deg, rgba(10, 25, 47, 0.95), rgba(17, 34, 64, 0.9));
+                    border-radius: 24px;
+                    border: 1px solid rgba(168, 85, 247, 0.2);
+                }
+                .why-course-header { text-align: center; margin-bottom: 2rem; }
+                .why-course-badge {
+                    display: inline-block;
+                    padding: 0.5rem 1rem;
+                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(236, 72, 153, 0.15));
+                    border-radius: 20px;
+                    font-size: 0.875rem;
+                    color: #a855f7;
+                    font-weight: 600;
+                    margin-bottom: 1rem;
+                }
+                .why-course-title {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: #f1f5f9;
+                }
+                .why-course-text p {
+                    color: rgba(203, 213, 225, 0.9);
+                    font-size: 1.05rem;
+                    line-height: 1.8;
+                    margin-bottom: 1.25rem;
+                }
+                .why-course-highlights {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 1rem;
+                    margin-top: 2rem;
+                }
+                .why-highlight {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 0.75rem;
+                    padding: 1rem;
+                    background: rgba(255, 255, 255, 0.03);
+                    border-radius: 12px;
+                }
+                .why-highlight-icon {
+                    color: #4ecdc4;
+                    font-weight: bold;
+                    font-size: 1.25rem;
+                }
+                .why-highlight-text {
+                    color: #e2e8f0;
+                    font-size: 0.95rem;
+                }
+            </style>
+        </section>
+        `;
+    }
+
+    /**
+     * Generate Success Metrics section for social proof
+     * @param {Object} courseData - Course data object
+     * @returns {string} HTML string for success metrics section
+     */
+    generateSuccessMetricsHTML(courseData) {
+        const metrics = courseData.success_metrics || {};
+
+        if (Object.keys(metrics).length === 0) {
+            return '';
+        }
+
+        const metricsHTML = Object.entries(metrics).map(([key, value]) => `
+            <div class="success-metric-card">
+                <div class="success-metric-value">${this.escapeHtml(value)}</div>
+                <div class="success-metric-label">${this.escapeHtml(key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase()))}</div>
+            </div>
+        `).join('');
+
+        return `
+        <section class="success-metrics-section" id="success-metrics">
+            <div class="success-metrics-container">
+                <div class="success-metrics-header">
+                    <span class="success-badge">Proven Results</span>
+                    <h2 class="success-title">Our Impact in Numbers</h2>
+                </div>
+                <div class="success-metrics-grid">
+                    ${metricsHTML}
+                </div>
+            </div>
+            <style>
+                .success-metrics-section {
+                    margin-top: 3rem;
+                    padding: 3rem 2rem;
+                    background: linear-gradient(135deg, rgba(78, 205, 196, 0.1), rgba(168, 85, 247, 0.1));
+                    border-radius: 24px;
+                    border: 1px solid rgba(78, 205, 196, 0.25);
+                }
+                .success-metrics-header { text-align: center; margin-bottom: 2.5rem; }
+                .success-badge {
+                    display: inline-block;
+                    padding: 0.5rem 1rem;
+                    background: linear-gradient(135deg, #4ecdc4, #22d3ee);
+                    border-radius: 20px;
+                    font-size: 0.875rem;
+                    color: #0a1929;
+                    font-weight: 700;
+                    margin-bottom: 1rem;
+                }
+                .success-title {
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: #f1f5f9;
+                }
+                .success-metrics-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+                    gap: 1.5rem;
+                }
+                .success-metric-card {
+                    text-align: center;
+                    padding: 2rem 1.5rem;
+                    background: rgba(255, 255, 255, 0.05);
+                    border-radius: 16px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                }
+                .success-metric-value {
+                    font-size: 2.5rem;
+                    font-weight: 800;
+                    background: linear-gradient(135deg, #4ecdc4, #a855f7);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    margin-bottom: 0.5rem;
+                }
+                .success-metric-label {
+                    color: rgba(148, 163, 184, 0.9);
+                    font-size: 0.9rem;
+                    text-transform: capitalize;
+                }
+            </style>
+        </section>
         `;
     }
 }
