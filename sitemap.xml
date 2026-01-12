@@ -690,6 +690,47 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-flutter-app-development-masterclass-college</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========================================
+       HIGH DEMAND COURSES - TYPESCRIPT & GOLANG
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-typescript-programming-masterclass-college</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========================================
+       HIGH DEMAND COURSES - SWIFT & KOTLIN (MOBILE)
+       ======================================== -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
   <!-- ========================================
        HIGH DEMAND COURSES - DATABASE & TRADING

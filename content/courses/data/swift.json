@@ -1,0 +1,1940 @@
+{
+    "meta": {
+        "slug": "complete-swift-programming-masterclass-college",
+        "title": "Complete Swift Programming Masterclass - Zero to iOS/macOS Professional",
+        "description": "The most comprehensive 1-year Swift programming masterclass. From absolute basics to professional iOS/macOS applications. Master Swift, SwiftUI, UIKit, Core Data, Combine, networking, testing, App Store deployment, and everything needed for a successful Apple platform career.",
+        "keywords": [
+            "swift programming",
+            "swift masterclass",
+            "learn swift",
+            "swift for beginners",
+            "ios development",
+            "swiftui",
+            "uikit",
+            "macos development",
+            "xcode",
+            "apple developer",
+            "swift certification",
+            "core swift",
+            "advanced swift",
+            "ios developer",
+            "swift career",
+            "swift for kids",
+            "combine framework",
+            "core data",
+            "app store deployment"
+        ],
+        "category": "Professional iOS/macOS Development",
+        "price": {
+            "group": "₹1499/month",
+            "personal": "₹4999/month",
+            "lifetime": "₹29,999 (one-time)"
+        },
+        "duration": "12 months (52 weeks)",
+        "level": "Complete Beginner to iOS/macOS Professional",
+        "commitment": "15-20 hours/week recommended",
+        "certification": "Industry-recognized Swift/iOS Developer certification upon completion",
+        "image_path": "swift-college.png"
+    },
+    "program_overview": {
+        "title": "Complete Swift Programming Masterclass",
+        "tagline": "From 'Hello World' to App Store Success",
+        "description": "This is not just a Swift course—it's a complete transformation into a professional Apple platform developer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Swift developer capable of building stunning iOS apps, powerful macOS applications, watchOS experiences, and cross-platform solutions.\n\nYou'll master Swift from ground zero to professional architect level: from basic syntax to advanced protocols and generics, from simple views to complex SwiftUI animations, from local storage to cloud-synced Core Data, from single apps to multi-platform ecosystems. By the end, you'll have built 40+ projects, mastered the entire Apple development ecosystem, and be ready for senior iOS developer roles in top tech companies.",
+        "what_makes_this_different": [
+            "Starts from absolute zero - perfect for complete beginners",
+            "Separate learning tracks for kids (12+), teens, and adults",
+            "1 year of structured, industry-aligned learning",
+            "Covers Swift + SwiftUI + UIKit + Core Data + Combine + CloudKit",
+            "Real App Store projects and industry case studies",
+            "Hands-on with latest Swift versions (Swift 5.9+)",
+            "Interview preparation for top companies (Apple, Google, Meta)",
+            "Lifetime access with continuous updates for new iOS versions",
+            "Build production-ready App Store portfolio",
+            "Direct path to high-paying iOS developer jobs"
+        ],
+        "learning_path": {
+            "phase_1": "Foundation (Months 1-3): Swift Fundamentals, OOP Basics, Core Swift Concepts, Playgrounds",
+            "phase_2": "Intermediate (Months 4-6): Advanced Swift, SwiftUI Deep Dive, UIKit Fundamentals, Data Persistence",
+            "phase_3": "Professional (Months 7-9): Networking, Core Data, Combine, Testing, Advanced UI/UX, Animations",
+            "phase_4": "Expert (Months 10-12): App Store Deployment, Performance, Architecture Patterns, Multi-Platform, Career Launch"
+        },
+        "career_outcomes": [
+            "Junior iOS Developer (after 3 months)",
+            "iOS Developer (after 6 months)",
+            "Senior iOS Developer / Mobile Engineer (after 9 months)",
+            "Lead iOS Developer / Mobile Architect (after 12 months)"
+        ]
+    },
+    "phase_1_foundation": {
+        "title": "PHASE 1: Foundation & Core Swift Skills (Months 1-3, Weeks 1-13)",
+        "description": "Build rock-solid Swift fundamentals. Learn programming logic, master Swift syntax, protocol-oriented programming, and create your first iOS applications.",
+        "month_1_2": {
+            "title": "Months 1-2: Swift Fundamentals & Programming Basics",
+            "weeks": "Week 1-8",
+            "week_1_2": {
+                "title": "Introduction to Swift & Development Environment Setup",
+                "topics": [
+                    "What is Swift? History, features, and evolution from Objective-C",
+                    "Swift ecosystem: Xcode, Swift Package Manager, Playgrounds",
+                    "Apple platforms overview: iOS, macOS, watchOS, tvOS, visionOS",
+                    "Swift applications: Mobile apps, desktop apps, server-side Swift",
+                    "Installing Xcode from Mac App Store",
+                    "Setting up development environment on macOS",
+                    "Understanding Xcode interface, panels, and shortcuts",
+                    "Your first Swift program: Hello World in Playground",
+                    "Swift program structure: imports, main entry point",
+                    "Running Swift code in Playgrounds vs Apps",
+                    "Understanding LLVM compiler and Swift runtime",
+                    "Comments: single-line (//), multi-line (/* */), documentation (///)",
+                    "Swift coding conventions and API Design Guidelines",
+                    "Introduction to Apple Human Interface Guidelines (HIG)"
+                ],
+                "projects": [
+                    "Hello World variations with personalized messages in Playground",
+                    "Simple output programs using print() function",
+                    "Personal information display program",
+                    "ASCII art generator in Swift Playground",
+                    "Interactive Playground with markdown documentation"
+                ],
+                "practice": "Daily: 30 min Swift syntax practice, write 5-10 simple programs in Playgrounds"
+            },
+            "week_3_4": {
+                "title": "Variables, Data Types & Operators",
+                "topics": [
+                    "Variables (var) and Constants (let): declaration and initialization",
+                    "Type inference vs explicit type annotation",
+                    "Basic data types: Int, Double, Float, Bool, String, Character",
+                    "Understanding Int8, Int16, Int32, Int64, UInt variants",
+                    "Type safety and type inference in Swift",
+                    "Type conversion and casting with as, as?, as!",
+                    "Optionals: declaring with ?, unwrapping with !, optional binding",
+                    "Nil-coalescing operator ??",
+                    "Optional chaining with ?.",
+                    "Implicitly unwrapped optionals",
+                    "Operators: arithmetic (+, -, *, /, %)",
+                    "Compound assignment operators: +=, -=, *=, /=",
+                    "Comparison operators: ==, !=, >, <, >=, <=",
+                    "Logical operators: &&, ||, !",
+                    "Range operators: closed range (...), half-open range (..<)",
+                    "Ternary conditional operator: ? :",
+                    "Nil-coalescing operator: ??",
+                    "String basics: creation, interpolation, multiline strings",
+                    "String manipulation: concatenation, substring, characters"
+                ],
+                "projects": [
+                    "Simple calculator (four basic operations) in Playground",
+                    "Temperature converter (Celsius, Fahrenheit, Kelvin)",
+                    "Age calculator with optional handling",
+                    "BMI calculator with health categories",
+                    "Currency converter with type safety",
+                    "Area and perimeter calculator for shapes",
+                    "Compound interest calculator",
+                    "String formatter and validator"
+                ],
+                "practice": "Solve 30 problems on variables, data types, optionals, and operators"
+            },
+            "week_5_6": {
+                "title": "Control Flow Statements",
+                "topics": [
+                    "Boolean expressions and conditions",
+                    "If statement: single condition execution",
+                    "If-else statement: two-way branching",
+                    "If-else-if ladder: multiple conditions",
+                    "Nested if statements",
+                    "Switch statement: powerful pattern matching",
+                    "Switch with value binding and where clauses",
+                    "Switch with compound cases",
+                    "Switch with ranges and tuples",
+                    "No implicit fallthrough in Swift switch",
+                    "While loop: pre-tested loop",
+                    "Repeat-while loop: post-tested loop (equivalent to do-while)",
+                    "For-in loop: iterating over sequences",
+                    "For-in with ranges and stride",
+                    "For-in with enumerated() for index access",
+                    "Break statement: exit loop",
+                    "Continue statement: skip iteration",
+                    "Labeled statements for nested loops",
+                    "Guard statement: early exit pattern",
+                    "Defer statement: cleanup code"
+                ],
+                "projects": [
+                    "Number guessing game with attempts limit",
+                    "Grade calculator with letter grades using switch",
+                    "Even/odd checker and list generator",
+                    "Prime number checker and generator",
+                    "Multiplication table generator",
+                    "Factorial calculator (iterative)",
+                    "Fibonacci series generator",
+                    "Pattern printing (stars, numbers, pyramids, diamonds)",
+                    "FizzBuzz challenge with switch",
+                    "Menu-driven calculator with guard statements",
+                    "Simple ATM simulation with validation"
+                ],
+                "practice": "Solve 40 control flow and loop problems"
+            },
+            "week_7_8": {
+                "title": "Functions & Collections",
+                "topics": [
+                    "Functions: definition, purpose, and structure",
+                    "Function declaration: parameters and return types",
+                    "Function calling and argument labels",
+                    "External and internal parameter names",
+                    "Default parameter values",
+                    "Variadic parameters (...)",
+                    "In-out parameters for mutating arguments",
+                    "Functions returning multiple values with tuples",
+                    "Nested functions",
+                    "Function types as parameters and return types",
+                    "Closures: inline anonymous functions",
+                    "Closure syntax and shorthand argument names ($0, $1)",
+                    "Trailing closure syntax",
+                    "Capturing values in closures",
+                    "Escaping closures (@escaping)",
+                    "Autoclosures (@autoclosure)",
+                    "Arrays: declaration, initialization, manipulation",
+                    "Array methods: append, insert, remove, contains, filter, map",
+                    "Sets: unique unordered collections",
+                    "Set operations: union, intersection, subtraction",
+                    "Dictionaries: key-value pairs",
+                    "Dictionary methods: updateValue, removeValue, keys, values",
+                    "Iterating over collections",
+                    "Higher-order functions: map, filter, reduce, flatMap, compactMap"
+                ],
+                "projects": [
+                    "Function library for mathematical operations",
+                    "Array statistics calculator (sum, average, min, max)",
+                    "Linear search and binary search implementation",
+                    "Sorting algorithms: bubble sort, selection sort",
+                    "Contact list with dictionary",
+                    "Todo list with array operations",
+                    "Student grade management system",
+                    "Factorial using recursion",
+                    "Palindrome checker (string/number)",
+                    "Prime number generator in range",
+                    "Shopping cart with higher-order functions",
+                    "Word frequency counter with closures"
+                ],
+                "practice": "Create 25 functions for various functionalities, solve 30 collection problems"
+            }
+        },
+        "month_3_4": {
+            "title": "Month 3: Object-Oriented & Protocol-Oriented Programming",
+            "weeks": "Week 9-13",
+            "week_9_10": {
+                "title": "Structures, Classes & Properties",
+                "topics": [
+                    "Object-Oriented Programming paradigm in Swift",
+                    "Structures (struct): value types",
+                    "Classes (class): reference types",
+                    "Value types vs reference types comparison",
+                    "When to use struct vs class",
+                    "Properties: stored and computed properties",
+                    "Property observers: willSet and didSet",
+                    "Lazy stored properties",
+                    "Type properties (static)",
+                    "Instance methods",
+                    "Type methods (static and class)",
+                    "Mutating methods in structures",
+                    "Initializers: default, custom, memberwise",
+                    "Failable initializers (init?)",
+                    "Required initializers",
+                    "Deinitializers (deinit)",
+                    "Self keyword usage",
+                    "Access control: private, fileprivate, internal, public, open",
+                    "Encapsulation and data hiding",
+                    "Copy-on-write optimization"
+                ],
+                "projects": [
+                    "Student struct with properties and methods",
+                    "Bank Account class with deposit/withdraw",
+                    "Book struct for library management",
+                    "Employee class with computed salary",
+                    "Rectangle/Circle structs with area/perimeter",
+                    "Car class with property observers",
+                    "Product struct for inventory system",
+                    "Person struct with multiple initializers",
+                    "Date struct implementation",
+                    "Timer class with proper memory management"
+                ],
+                "practice": "Create 20 different structs and classes modeling real-world entities"
+            },
+            "week_11_12": {
+                "title": "Inheritance, Polymorphism & Memory Management",
+                "topics": [
+                    "Inheritance: creating subclasses",
+                    "Base class and subclass relationship",
+                    "Overriding methods with 'override' keyword",
+                    "Overriding properties",
+                    "Preventing overrides with 'final'",
+                    "Calling superclass methods with 'super'",
+                    "Designated and convenience initializers",
+                    "Initializer inheritance and overriding",
+                    "Required initializers in inheritance",
+                    "Polymorphism in Swift",
+                    "Type casting: is, as, as?, as!",
+                    "Any and AnyObject types",
+                    "Automatic Reference Counting (ARC)",
+                    "Strong references and retain cycles",
+                    "Weak references (weak)",
+                    "Unowned references (unowned)",
+                    "Closure capture lists [weak self], [unowned self]",
+                    "Memory leaks detection and prevention",
+                    "Identity operators: === and !=="
+                ],
+                "projects": [
+                    "Animal hierarchy (Animal -> Dog, Cat, Bird)",
+                    "Shape hierarchy with area calculation",
+                    "Vehicle system (Vehicle -> Car, Bike, Truck)",
+                    "Employee hierarchy (Employee -> Manager, Developer)",
+                    "Bank account types (Account -> Savings, Current)",
+                    "School management (Person -> Student, Teacher)",
+                    "Media player hierarchy (Media -> Audio, Video)",
+                    "Retain cycle demonstration and fix",
+                    "Memory-safe delegate implementation"
+                ],
+                "practice": "Build 15 inheritance hierarchies, solve 25 ARC and memory problems"
+            },
+            "week_13": {
+                "title": "Protocols & Protocol-Oriented Programming",
+                "topics": [
+                    "Protocols: defining blueprints",
+                    "Protocol syntax and requirements",
+                    "Property requirements in protocols",
+                    "Method requirements in protocols",
+                    "Mutating method requirements",
+                    "Initializer requirements in protocols",
+                    "Protocol adoption by structs, classes, enums",
+                    "Protocol inheritance",
+                    "Protocol composition with &",
+                    "Protocol extensions: default implementations",
+                    "Protocol-Oriented Programming (POP) philosophy",
+                    "POP vs OOP comparison",
+                    "Conditional conformance",
+                    "Associated types in protocols",
+                    "Self requirements in protocols",
+                    "Opaque types (some Protocol)",
+                    "Existential types (any Protocol)",
+                    "Common Swift protocols: Equatable, Hashable, Comparable, Codable",
+                    "Custom protocol creation",
+                    "Delegation pattern with protocols"
+                ],
+                "projects": [
+                    "Shape calculator with protocol requirements",
+                    "Payment gateway with protocol abstraction",
+                    "Database abstraction with protocols",
+                    "Notification system (Email, SMS, Push protocols)",
+                    "Sortable collection with Comparable",
+                    "Custom Equatable and Hashable types",
+                    "Plugin architecture using protocols",
+                    "PHASE 1 MINI CAPSTONE: Library Management System (Console-based)",
+                    "Features: Books, members, issue/return, search, POP principles"
+                ],
+                "practice": "Solve 30 protocol and POP problems",
+                "assessment": "Phase 1 Final Assessment - Core Swift & Protocol-Oriented fundamentals test"
+            }
+        }
+    },
+    "phase_2_frontend_mastery": {
+        "title": "PHASE 2: Intermediate Swift & SwiftUI Mastery (Months 4-6, Weeks 14-26)",
+        "description": "Master advanced Swift features, enumerations, generics, error handling, SwiftUI fundamentals, and basic iOS app development.",
+        "month_7_8": {
+            "title": "Months 4-5: Advanced Swift Features & SwiftUI Basics",
+            "weeks": "Week 14-22",
+            "week_27_28": {
+                "title": "Enumerations & Advanced Types",
+                "topics": [
+                    "Enumerations (enum) in Swift",
+                    "Enum cases and raw values",
+                    "Enum with associated values",
+                    "Computed properties in enums",
+                    "Methods in enums",
+                    "Mutating methods in enums",
+                    "Recursive enumerations (indirect)",
+                    "CaseIterable protocol for enum iteration",
+                    "Pattern matching with enums in switch",
+                    "If-case and guard-case syntax",
+                    "Nested types: structs, classes, enums inside types",
+                    "Type aliases (typealias)",
+                    "Tuple types and destructuring",
+                    "Optional as enum (Optional<Wrapped>)",
+                    "Result type for error handling",
+                    "Never type for functions that don't return"
+                ],
+                "projects": [
+                    "Compass direction enum with methods",
+                    "HTTP status code enum with raw values",
+                    "Network response enum with associated values",
+                    "Card game with suit and rank enums",
+                    "State machine with enum",
+                    "Currency converter with enum",
+                    "Error handling system with Result enum",
+                    "Menu system with nested enums",
+                    "Traffic light state machine",
+                    "JSON parsing result handling"
+                ],
+                "practice": "Solve 35 enumeration and advanced type problems"
+            },
+            "week_29_30": {
+                "title": "Error Handling & Advanced Error Management",
+                "topics": [
+                    "Error handling philosophy in Swift",
+                    "Error protocol and custom errors",
+                    "Creating custom error types with enum",
+                    "Throwing functions with 'throws' keyword",
+                    "Throwing initializers",
+                    "Do-catch blocks for error handling",
+                    "Multiple catch clauses",
+                    "Catching specific errors",
+                    "Converting errors to optionals with try?",
+                    "Forcing try with try! (use sparingly)",
+                    "Propagating errors with throws",
+                    "Rethrowing functions (rethrows)",
+                    "LocalizedError protocol for user messages",
+                    "CustomNSError for bridging to Objective-C",
+                    "Error handling best practices",
+                    "Cleanup with defer statements",
+                    "Assertions and preconditions",
+                    "fatalError for unimplemented code"
+                ],
+                "projects": [
+                    "Robust calculator with error handling",
+                    "File reader with proper error handling",
+                    "Custom banking error system",
+                    "Network request error handling",
+                    "User validation with custom errors",
+                    "Age validator with localized errors",
+                    "Division calculator with error handling",
+                    "User registration with validation errors",
+                    "JSON parser with comprehensive error handling"
+                ],
+                "practice": "Solve 25 error handling scenarios"
+            },
+            "week_31_32": {
+                "title": "Generics & Type System Deep Dive",
+                "topics": [
+                    "Introduction to generics: type parameters",
+                    "Generic functions",
+                    "Generic types (struct, class, enum)",
+                    "Type constraints with protocol conformance",
+                    "Where clauses for complex constraints",
+                    "Associated types in protocols",
+                    "Generic subscripts",
+                    "Generic extensions",
+                    "Protocol extensions with constraints",
+                    "Type erasure patterns",
+                    "Opaque types (some Protocol) deep dive",
+                    "Primary associated types (Swift 5.7+)",
+                    "Existential types (any Protocol)",
+                    "Conditional conformance",
+                    "Specialized generic implementations",
+                    "Standard library generic types: Array, Dictionary, Optional, Result"
+                ],
+                "projects": [
+                    "Generic stack and queue implementation",
+                    "Generic linked list",
+                    "Type-safe data repository",
+                    "Generic cache implementation",
+                    "Custom Result type with generics",
+                    "Generic sorting algorithms",
+                    "Generic tree data structure",
+                    "Type-safe networking layer"
+                ],
+                "practice": "Create 15 generic types, solve 25 generics problems"
+            },
+            "week_33_34": {
+                "title": "SwiftUI Fundamentals - Part 1",
+                "topics": [
+                    "Introduction to SwiftUI: declarative UI",
+                    "SwiftUI vs UIKit comparison",
+                    "View protocol and basic views",
+                    "Text view: styling, modifiers, formatting",
+                    "Image view: SF Symbols, asset images, resizing",
+                    "Button view: actions, styles, labels",
+                    "TextField and SecureField for input",
+                    "Toggle, Slider, Stepper, Picker",
+                    "VStack, HStack, ZStack for layout",
+                    "Spacer and Divider",
+                    "Frame modifier: fixed and flexible sizing",
+                    "Padding, background, overlay modifiers",
+                    "ForEach for dynamic content",
+                    "ScrollView for scrollable content",
+                    "List view for table-like layouts",
+                    "@State property wrapper for local state",
+                    "Two-way binding with $",
+                    "View modifiers and modifier order"
+                ],
+                "projects": [
+                    "Hello World SwiftUI app",
+                    "Profile card with image and text",
+                    "Simple counter app with @State",
+                    "Temperature converter UI",
+                    "BMI calculator with input fields",
+                    "Todo list with basic functionality",
+                    "Color picker interface",
+                    "Settings screen with toggles and pickers"
+                ],
+                "practice": "Build 15 SwiftUI views with various controls"
+            },
+            "week_35": {
+                "title": "SwiftUI Fundamentals - Part 2",
+                "topics": [
+                    "@Binding for child view communication",
+                    "@ObservableObject and @Published",
+                    "@StateObject vs @ObservedObject",
+                    "@EnvironmentObject for app-wide state",
+                    "ObservableObject protocol implementation",
+                    "NavigationStack (iOS 16+) navigation",
+                    "NavigationLink for navigation",
+                    "NavigationPath for programmatic navigation",
+                    "TabView for tab-based navigation",
+                    "Sheet, fullScreenCover for modal presentation",
+                    "Alert and confirmationDialog",
+                    "Custom view extraction",
+                    "ViewBuilder for custom containers",
+                    "Creating reusable components",
+                    "SF Symbols integration",
+                    "Dark mode and color schemes"
+                ],
+                "projects": [
+                    "Multi-screen navigation app",
+                    "Tab-based application",
+                    "Settings app with observable object",
+                    "Shopping list with CRUD operations",
+                    "Note-taking app with navigation",
+                    "Modal presentation examples",
+                    "Reusable component library",
+                    "Theme-aware application"
+                ],
+                "practice": "Build 10 multi-view SwiftUI applications"
+            }
+        },
+        "month_9_10": {
+            "title": "Month 6: Advanced SwiftUI & UIKit Fundamentals",
+            "weeks": "Week 23-26",
+            "week_36_37": {
+                "title": "SwiftUI Lists, Forms & Data Display",
+                "topics": [
+                    "List view deep dive",
+                    "List styles: plain, grouped, insetGrouped, sidebar",
+                    "SwipeActions for list items",
+                    "Contextual menus (contextMenu)",
+                    "List with sections and headers",
+                    "Dynamic lists with Identifiable",
+                    "List editing: delete, move, selection",
+                    "Searchable modifier for filtering",
+                    "Pull to refresh (refreshable)",
+                    "Form view for settings and input",
+                    "Section in forms",
+                    "LabeledContent for forms (iOS 16+)",
+                    "Grid layouts: LazyVGrid, LazyHGrid",
+                    "GridItem and grid configuration",
+                    "Lazy stacks for performance",
+                    "Table view (macOS and iPadOS)",
+                    "OutlineGroup for hierarchical data"
+                ],
+                "projects": [
+                    "Contact list with search and sections",
+                    "Settings app with forms",
+                    "Photo gallery with grid layout",
+                    "Task manager with swipe actions",
+                    "Editable list with add/delete/reorder",
+                    "Recipe list with contextual menus",
+                    "Product catalog with grid view",
+                    "Hierarchical file browser"
+                ],
+                "practice": "Build 10 list and grid-based applications"
+            },
+            "week_38_39": {
+                "title": "SwiftUI Animations & Custom Drawing",
+                "topics": [
+                    "Animation fundamentals in SwiftUI",
+                    "Implicit animations with .animation modifier",
+                    "Explicit animations with withAnimation",
+                    "Animation types: linear, easeIn, easeOut, spring",
+                    "Custom spring animations",
+                    "Animatable protocol and animatableData",
+                    "Transitions: opacity, scale, slide, move",
+                    "Combined and asymmetric transitions",
+                    "MatchedGeometryEffect for hero animations",
+                    "TimelineView for continuous animations",
+                    "Canvas for high-performance drawing",
+                    "Shapes: Rectangle, Circle, Ellipse, Capsule",
+                    "Path for custom shapes",
+                    "GeometryReader for dynamic layouts",
+                    "Custom shapes with Shape protocol",
+                    "Gradients: Linear, Radial, Angular",
+                    "Blend modes and visual effects"
+                ],
+                "projects": [
+                    "Animated button effects",
+                    "Loading spinner animations",
+                    "Card flip animation",
+                    "Hero transition between views",
+                    "Custom progress indicator",
+                    "Animated chart visualization",
+                    "Drawing app with Canvas",
+                    "Custom animated splash screen",
+                    "Particle effect animation",
+                    "Morphing shape animations"
+                ],
+                "practice": "Create 15 animations and custom shapes"
+            },
+            "week_40_41": {
+                "title": "UIKit Fundamentals",
+                "topics": [
+                    "UIKit overview and architecture",
+                    "UIViewController lifecycle",
+                    "Storyboards vs programmatic UI",
+                    "UIView and view hierarchy",
+                    "Auto Layout: constraints and anchors",
+                    "Programmatic Auto Layout with NSLayoutConstraint",
+                    "UIStackView for simplified layouts",
+                    "UILabel, UIButton, UIImageView",
+                    "UITextField and UITextView",
+                    "UITableView: cells, sections, data source",
+                    "UITableView delegate methods",
+                    "UICollectionView fundamentals",
+                    "UINavigationController navigation",
+                    "UITabBarController tabs",
+                    "Presenting view controllers modally",
+                    "UIAlertController for alerts and action sheets",
+                    "Integrating UIKit in SwiftUI (UIViewRepresentable)",
+                    "Integrating SwiftUI in UIKit (UIHostingController)"
+                ],
+                "projects": [
+                    "UIKit todo list app",
+                    "Table view with custom cells",
+                    "Collection view photo gallery",
+                    "Navigation-based master-detail app",
+                    "Tab bar application",
+                    "Form with text fields and validation",
+                    "UIKit + SwiftUI hybrid app",
+                    "Custom table view cells"
+                ],
+                "practice": "Build 12 UIKit-based views and controllers"
+            },
+            "week_42_43": {
+                "title": "Data Persistence - UserDefaults & File System",
+                "topics": [
+                    "Data persistence options in iOS",
+                    "UserDefaults for simple preferences",
+                    "Storing primitives in UserDefaults",
+                    "Storing custom objects with Codable",
+                    "@AppStorage property wrapper",
+                    "FileManager for file operations",
+                    "iOS file system: Documents, Caches, tmp",
+                    "Reading and writing files",
+                    "JSON encoding and decoding",
+                    "Codable protocol: Encodable, Decodable",
+                    "CodingKeys for custom mapping",
+                    "Custom encoding/decoding logic",
+                    "PropertyListEncoder and Decoder",
+                    "Keychain for secure storage",
+                    "Keychain wrapper libraries",
+                    "iCloud key-value storage",
+                    "Data migration strategies"
+                ],
+                "projects": [
+                    "User preferences with UserDefaults",
+                    "Settings app with @AppStorage",
+                    "Note-taking app with file storage",
+                    "JSON data persistence",
+                    "Secure login credentials with Keychain",
+                    "Configuration file manager",
+                    "Data export/import utility",
+                    "User profile with local storage"
+                ],
+                "practice": "Implement persistence in all previous projects"
+            },
+            "week_44": {
+                "title": "Phase 2 Capstone Project",
+                "topics": [
+                    "SwiftUI implementation",
+                    "Advanced Swift patterns",
+                    "Protocol-oriented design",
+                    "Data persistence",
+                    "Navigation and state management",
+                    "Custom animations"
+                ],
+                "projects": [
+                    "PHASE 2 CAPSTONE: Personal Finance Tracker",
+                    "Features: Income/expense tracking, categories, charts, budget alerts, data persistence, SwiftUI with animations",
+                    "Alternative: Recipe Book App with favorites and shopping lists",
+                    "Alternative: Habit Tracker with statistics and reminders",
+                    "Alternative: Travel Journal with photos and maps"
+                ],
+                "assessment": "Phase 2 Final Exam - Intermediate Swift and SwiftUI comprehensive test"
+            }
+        },
+        "month_11_12": {
+            "title": "PHASE 2 CONTINUED - Advanced Patterns & Core Data",
+            "weeks": "Week 14-26 (distributed)",
+            "week_45_46": {
+                "title": "Swift Concurrency - Async/Await",
+                "topics": [
+                    "Concurrency in Swift: history and evolution",
+                    "Grand Central Dispatch (GCD) basics",
+                    "DispatchQueue: main, global, custom",
+                    "Async/await syntax (Swift 5.5+)",
+                    "Async functions and methods",
+                    "Calling async functions with await",
+                    "Task for spawning async work",
+                    "Task groups for parallel execution",
+                    "Async sequences (AsyncSequence)",
+                    "Actors for data race protection",
+                    "@MainActor for UI updates",
+                    "Global actors and custom actors",
+                    "Sendable protocol for thread safety",
+                    "Structured concurrency",
+                    "Task cancellation and priorities",
+                    "Migrating from GCD to async/await"
+                ],
+                "projects": [
+                    "Async data fetching example",
+                    "Parallel image downloader",
+                    "Actor-based counter",
+                    "Async file operations",
+                    "Concurrent API calls",
+                    "Background task processing",
+                    "Thread-safe data manager",
+                    "Async search implementation"
+                ],
+                "practice": "Convert 10 projects to async/await"
+            },
+            "week_47_48": {
+                "title": "Core Data Fundamentals",
+                "topics": [
+                    "Core Data overview and architecture",
+                    "Core Data stack: NSPersistentContainer",
+                    "NSManagedObjectModel: data model",
+                    "NSManagedObjectContext: scratch pad",
+                    "NSPersistentStoreCoordinator",
+                    "Creating data model in Xcode",
+                    "Entities, attributes, and relationships",
+                    "NSManagedObject subclasses",
+                    "Creating and saving objects",
+                    "Fetching objects with NSFetchRequest",
+                    "Predicates for filtering (NSPredicate)",
+                    "Sorting with NSSortDescriptor",
+                    "Updating and deleting objects",
+                    "Core Data with SwiftUI: @FetchRequest",
+                    "@Environment(\\.managedObjectContext)",
+                    "FetchedResults for displaying data",
+                    "Relationships: one-to-one, one-to-many, many-to-many"
+                ],
+                "projects": [
+                    "Todo app with Core Data",
+                    "Contact manager with Core Data",
+                    "Expense tracker with categories",
+                    "Note-taking app with Core Data",
+                    "Book library with authors relationship",
+                    "Recipe app with ingredients relationship",
+                    "Core Data with SwiftUI integration",
+                    "Search and filter implementation"
+                ],
+                "practice": "Build 8 Core Data applications"
+            },
+            "week_49_50": {
+                "title": "Advanced Core Data",
+                "topics": [
+                    "Core Data migrations: lightweight and manual",
+                    "Versioning data models",
+                    "Batch insert, update, and delete",
+                    "Performance optimization techniques",
+                    "Faulting and prefetching",
+                    "NSFetchedResultsController for UIKit",
+                    "Core Data with background contexts",
+                    "Concurrency with Core Data",
+                    "Core Data debugging and profiling",
+                    "Core Data with CloudKit",
+                    "NSPersistentCloudKitContainer",
+                    "Syncing data across devices",
+                    "Conflict resolution strategies",
+                    "Core Data testing strategies",
+                    "Best practices and common pitfalls"
+                ],
+                "projects": [
+                    "CloudKit-synced todo app",
+                    "Multi-device note syncing",
+                    "Batch operations performance test",
+                    "Background import from JSON",
+                    "Core Data migration exercise",
+                    "Unit tests for Core Data",
+                    "Performance-optimized list app"
+                ],
+                "practice": "Implement CloudKit sync in 3 projects"
+            },
+            "week_51": {
+                "title": "Combine Framework Fundamentals",
+                "topics": [
+                    "Reactive programming concepts",
+                    "Publishers and Subscribers",
+                    "Built-in publishers: Just, Future, Empty, Fail",
+                    "@Published property wrapper",
+                    "Subjects: PassthroughSubject, CurrentValueSubject",
+                    "Operators: map, filter, flatMap, merge",
+                    "Combining publishers: combineLatest, zip, merge",
+                    "Error handling in Combine",
+                    "Scheduling and threads",
+                    "Cancellables and memory management",
+                    "Combine with SwiftUI",
+                    "Combine with URLSession",
+                    "Debounce and throttle for search",
+                    "Combine vs async/await comparison",
+                    "When to use Combine"
+                ],
+                "projects": [
+                    "Form validation with Combine",
+                    "Search with debounce",
+                    "Real-time data binding",
+                    "API response handling with Combine",
+                    "Multi-field form validation",
+                    "Live search implementation",
+                    "Timer-based updates"
+                ],
+                "practice": "Implement Combine in 8 projects"
+            },
+            "week_52": {
+                "title": "Swift Package Manager & Project Organization",
+                "topics": [
+                    "Swift Package Manager (SPM) overview",
+                    "Creating Swift packages",
+                    "Package.swift manifest file",
+                    "Adding dependencies to projects",
+                    "Popular Swift packages and libraries",
+                    "Creating reusable libraries",
+                    "Local packages for modularization",
+                    "Publishing packages",
+                    "Semantic versioning",
+                    "Version control with Git (review/deep dive)",
+                    "Git branching strategies",
+                    "GitHub collaboration for iOS projects",
+                    ".gitignore for Xcode projects",
+                    "Code organization best practices",
+                    "MVVM architecture introduction"
+                ],
+                "projects": [
+                    "Create custom Swift package",
+                    "Multi-module app architecture",
+                    "Networking library package",
+                    "UI component library package",
+                    "Git repository for all projects",
+                    "Modular app structure"
+                ],
+                "practice": "Convert all projects to modular structure"
+            }
+        }
+    },
+    "phase_3_backend_engineering": {
+        "title": "PHASE 3: Professional iOS Development (Months 7-9, Weeks 27-39)",
+        "description": "Master professional iOS development with networking, advanced architecture, testing, accessibility, and real-world app development patterns.",
+        "month_13_14": {
+            "title": "Months 7-8: Networking & Architecture",
+            "weeks": "Week 27-35",
+            "week_53_54": {
+                "title": "Networking with URLSession",
+                "topics": [
+                    "Networking fundamentals: HTTP protocol",
+                    "HTTP methods: GET, POST, PUT, DELETE, PATCH",
+                    "HTTP headers and status codes",
+                    "JSON format and structure",
+                    "URLSession overview and configuration",
+                    "URLSessionDataTask for data requests",
+                    "URLSessionDownloadTask for downloads",
+                    "URLSessionUploadTask for uploads",
+                    "URLRequest configuration",
+                    "Async/await with URLSession",
+                    "Error handling in networking",
+                    "Parsing JSON with Codable",
+                    "Handling nested JSON",
+                    "Custom CodingKeys and date handling",
+                    "Network error types and handling",
+                    "URL components and query parameters"
+                ],
+                "projects": [
+                    "Weather app consuming REST API",
+                    "Movie database browser (TMDb API)",
+                    "News reader with API integration",
+                    "GitHub user search",
+                    "Currency exchange rate app",
+                    "Photo download and caching",
+                    "REST API client library",
+                    "API response error handling"
+                ],
+                "practice": "Build 10 network-connected applications"
+            },
+            "week_55_56": {
+                "title": "Advanced Networking & Authentication",
+                "topics": [
+                    "Building a generic networking layer",
+                    "Protocol-based API client",
+                    "Request/Response interceptors",
+                    "Authentication: API keys, tokens",
+                    "OAuth 2.0 flow implementation",
+                    "JWT token handling",
+                    "Refresh token management",
+                    "Keychain for token storage",
+                    "SSL pinning for security",
+                    "Background downloads and uploads",
+                    "Network reachability (NWPathMonitor)",
+                    "Caching strategies: URLCache",
+                    "Image caching solutions",
+                    "Request retry logic",
+                    "Rate limiting handling",
+                    "GraphQL basics with Swift"
+                ],
+                "projects": [
+                    "Complete authenticated API client",
+                    "Social media login (OAuth)",
+                    "Image caching library",
+                    "Offline-first data sync",
+                    "Background upload manager",
+                    "Network layer with unit tests",
+                    "GraphQL client implementation",
+                    "API wrapper for multiple endpoints"
+                ],
+                "practice": "Build production-ready networking layer"
+            },
+            "week_57_58": {
+                "title": "App Architecture - MVVM",
+                "topics": [
+                    "Software architecture importance",
+                    "MVC: Model-View-Controller (Apple's default)",
+                    "Problems with Massive View Controller",
+                    "MVVM: Model-View-ViewModel",
+                    "ViewModel responsibilities",
+                    "Data binding with Combine",
+                    "Data binding with @Observable (iOS 17+)",
+                    "Dependency Injection principles",
+                    "Protocol-based dependencies",
+                    "Coordinator pattern for navigation",
+                    "Repository pattern for data access",
+                    "Service layer architecture",
+                    "Clean Architecture overview",
+                    "VIPER architecture basics",
+                    "Choosing the right architecture",
+                    "Testing with architecture patterns"
+                ],
+                "projects": [
+                    "Refactor app to MVVM",
+                    "MVVM with Combine bindings",
+                    "Coordinator-based navigation",
+                    "Repository pattern implementation",
+                    "Dependency injection container",
+                    "Clean architecture example",
+                    "Testable architecture demo",
+                    "Multi-module MVVM app"
+                ],
+                "practice": "Apply MVVM to all major projects"
+            },
+            "week_59_60": {
+                "title": "Advanced Architecture & The Composable Architecture",
+                "topics": [
+                    "State management challenges",
+                    "Unidirectional data flow",
+                    "The Composable Architecture (TCA) introduction",
+                    "Reducers and State",
+                    "Actions and Effects",
+                    "Store and ViewStore",
+                    "Scoping and composition",
+                    "Testing in TCA",
+                    "Alternatives: ReSwift, Redux-like patterns",
+                    "Feature modules with TCA",
+                    "Navigation in TCA",
+                    "Dependency injection in TCA",
+                    "Performance optimization",
+                    "When to use TCA vs MVVM",
+                    "Architecture decision factors"
+                ],
+                "projects": [
+                    "Counter app with TCA",
+                    "Todo list with TCA",
+                    "Navigation with TCA",
+                    "Feature composition example",
+                    "TCA with network effects",
+                    "Full app with TCA architecture",
+                    "Testing TCA reducers"
+                ],
+                "practice": "Build 5 TCA-based features"
+            },
+            "week_61": {
+                "title": "Unit Testing & Test-Driven Development",
+                "topics": [
+                    "Testing importance and types",
+                    "XCTest framework overview",
+                    "Writing test cases",
+                    "XCTAssert functions",
+                    "Test lifecycle: setUp, tearDown",
+                    "Testing view models",
+                    "Testing with protocols and mocks",
+                    "Dependency injection for testing",
+                    "Async testing with expectations",
+                    "Testing async/await code",
+                    "Testing Combine publishers",
+                    "Test doubles: mocks, stubs, fakes, spies",
+                    "Code coverage with Xcode",
+                    "Test-Driven Development (TDD) methodology",
+                    "Testing best practices",
+                    "Continuous testing workflow"
+                ],
+                "projects": [
+                    "Unit tests for calculator",
+                    "ViewModel testing suite",
+                    "Mock network layer tests",
+                    "TDD implementation of stack",
+                    "Core Data unit tests",
+                    "Async code testing",
+                    "Test coverage improvement",
+                    "Complete test suite for capstone"
+                ],
+                "practice": "Write tests for all major projects, achieve 70%+ coverage"
+            }
+        },
+        "month_15_16": {
+            "title": "Month 9: UI Testing, Accessibility & Advanced Features",
+            "weeks": "Week 36-39",
+            "week_62_63": {
+                "title": "UI Testing & Snapshot Testing",
+                "topics": [
+                    "UI testing with XCUITest",
+                    "XCUIApplication for app launching",
+                    "XCUIElement for element identification",
+                    "Accessibility identifiers for testing",
+                    "Tapping, typing, swiping gestures",
+                    "Assertions in UI tests",
+                    "Waiting for elements",
+                    "Testing navigation flows",
+                    "Testing lists and tables",
+                    "UI test recording",
+                    "Snapshot testing introduction",
+                    "swift-snapshot-testing library",
+                    "Testing different device sizes",
+                    "Testing dark mode",
+                    "Testing accessibility features",
+                    "Page Object pattern for UI tests"
+                ],
+                "projects": [
+                    "UI test suite for login flow",
+                    "Navigation UI tests",
+                    "List interaction tests",
+                    "Snapshot tests for components",
+                    "Multi-device snapshot tests",
+                    "Dark mode snapshot tests",
+                    "Accessibility audit tests",
+                    "End-to-end UI test suite"
+                ],
+                "practice": "Add UI tests to all major projects"
+            },
+            "week_64_65": {
+                "title": "Accessibility & Localization",
+                "topics": [
+                    "Accessibility importance and guidelines",
+                    "VoiceOver support",
+                    "Accessibility labels and hints",
+                    "Accessibility traits",
+                    "Accessibility value for dynamic content",
+                    "SwiftUI accessibility modifiers",
+                    "UIKit accessibility properties",
+                    "Dynamic Type support",
+                    "Color contrast requirements",
+                    "Reduce Motion support",
+                    "Accessibility testing with Xcode",
+                    "Localization fundamentals",
+                    "String localization: Localizable.strings",
+                    "String catalogs (Xcode 15+)",
+                    "Pluralization rules",
+                    "Date and number formatting",
+                    "Right-to-left (RTL) language support",
+                    "Testing localization"
+                ],
+                "projects": [
+                    "Accessibility audit and fixes",
+                    "VoiceOver-optimized app",
+                    "Dynamic Type implementation",
+                    "Localized app in 3+ languages",
+                    "RTL language support",
+                    "Accessible custom controls",
+                    "Localization testing automation"
+                ],
+                "practice": "Make all projects fully accessible"
+            },
+            "week_66_67": {
+                "title": "Maps, Location & Background Tasks",
+                "topics": [
+                    "MapKit framework overview",
+                    "Displaying maps with Map (SwiftUI)",
+                    "MKMapView in UIKit",
+                    "Map annotations and overlays",
+                    "Custom annotation views",
+                    "Route calculation and directions",
+                    "Core Location framework",
+                    "Requesting location permissions",
+                    "Getting user location",
+                    "Significant location changes",
+                    "Geofencing with CLCircularRegion",
+                    "Geocoding and reverse geocoding",
+                    "Background location updates",
+                    "Background tasks (BGTaskScheduler)",
+                    "Background app refresh",
+                    "Background processing tasks"
+                ],
+                "projects": [
+                    "Map with user location",
+                    "Points of interest app",
+                    "Route planning app",
+                    "Location-based reminders (geofencing)",
+                    "Store finder with directions",
+                    "Background location tracker",
+                    "Background sync implementation",
+                    "Fitness tracker with background location"
+                ],
+                "practice": "Build 8 location-aware applications"
+            },
+            "week_68_69": {
+                "title": "Push Notifications & App Extensions",
+                "topics": [
+                    "Push notifications overview",
+                    "Local notifications with UNUserNotificationCenter",
+                    "Notification triggers: time, calendar, location",
+                    "Notification content and categories",
+                    "Custom notification actions",
+                    "Remote push notifications (APNs)",
+                    "Setting up APNs certificates",
+                    "Firebase Cloud Messaging (FCM) alternative",
+                    "Handling notifications in app",
+                    "Rich notifications with attachments",
+                    "App extensions overview",
+                    "Today widgets / Widget extension",
+                    "Share extension",
+                    "Action extension",
+                    "Notification content extension",
+                    "App groups for data sharing"
+                ],
+                "projects": [
+                    "Local notification reminder app",
+                    "Scheduled notification system",
+                    "Remote push notification setup",
+                    "Rich notification with images",
+                    "Widget for app data",
+                    "Share extension for app",
+                    "Interactive notification actions",
+                    "Multi-widget app"
+                ],
+                "practice": "Add notifications and widgets to 5 projects"
+            },
+            "week_70": {
+                "title": "Camera, Photos & Media",
+                "topics": [
+                    "Camera access with UIImagePickerController",
+                    "PHPickerViewController for photo selection",
+                    "Camera with AVCaptureSession",
+                    "Custom camera UI",
+                    "Photo library access (PhotosUI)",
+                    "Saving photos to library",
+                    "Photo editing with Core Image",
+                    "CIFilter for image processing",
+                    "AVFoundation for video",
+                    "AVPlayer for media playback",
+                    "AVAudioPlayer for audio",
+                    "Recording audio with AVAudioRecorder",
+                    "Video capture and editing",
+                    "Media file formats and compression",
+                    "Metal basics for graphics"
+                ],
+                "projects": [
+                    "Photo capture app",
+                    "Photo gallery with picker",
+                    "Image filter app",
+                    "Video player app",
+                    "Voice memo recorder",
+                    "Custom camera with filters",
+                    "Photo editor with Core Image",
+                    "Media-rich content app"
+                ],
+                "practice": "Build 8 media-focused applications"
+            }
+        },
+        "month_17_18": {
+            "title": "PHASE 3 COMPLETION - Month 9 Final Week",
+            "weeks": "Week 27-39 (distributed)",
+            "week_71_72": {
+                "title": "App Performance & Optimization",
+                "topics": [
+                    "Performance measurement importance",
+                    "Instruments tool overview",
+                    "Time Profiler for CPU analysis",
+                    "Allocations for memory analysis",
+                    "Leaks instrument for memory leaks",
+                    "Network profiling",
+                    "Core Animation instrument",
+                    "App launch time optimization",
+                    "Memory management best practices",
+                    "Image optimization and caching",
+                    "Table/collection view performance",
+                    "Lazy loading patterns",
+                    "Background thread optimization",
+                    "Energy and battery impact",
+                    "MetricKit for production monitoring"
+                ],
+                "projects": [
+                    "Performance profiling report",
+                    "Memory leak identification and fix",
+                    "App launch optimization",
+                    "Image caching implementation",
+                    "List performance optimization",
+                    "Battery efficiency improvements",
+                    "Production metrics setup"
+                ],
+                "practice": "Profile and optimize all major projects"
+            },
+            "week_73_74": {
+                "title": "In-App Purchases & Subscriptions",
+                "topics": [
+                    "App monetization strategies",
+                    "StoreKit framework overview",
+                    "StoreKit 2 (modern API)",
+                    "Product types: consumable, non-consumable, subscription",
+                    "Configuring products in App Store Connect",
+                    "Fetching products",
+                    "Processing purchases",
+                    "Transaction verification",
+                    "Receipt validation",
+                    "Subscription management",
+                    "Subscription offers and trials",
+                    "Restoring purchases",
+                    "Server-side validation",
+                    "RevenueCat SDK integration",
+                    "Testing in-app purchases"
+                ],
+                "projects": [
+                    "Consumable IAP implementation",
+                    "Premium feature unlock",
+                    "Subscription-based app",
+                    "Restore purchases feature",
+                    "Receipt validation implementation",
+                    "RevenueCat integration",
+                    "Premium app conversion"
+                ],
+                "practice": "Add monetization to 3 projects"
+            },
+            "week_75_76": {
+                "title": "Security & Data Protection",
+                "topics": [
+                    "iOS security architecture",
+                    "App Transport Security (ATS)",
+                    "Secure data storage best practices",
+                    "Keychain deep dive",
+                    "Keychain access groups",
+                    "Data encryption with CryptoKit",
+                    "Hashing and digital signatures",
+                    "Biometric authentication (Face ID, Touch ID)",
+                    "LocalAuthentication framework",
+                    "Secure text entry",
+                    "Jailbreak detection",
+                    "SSL certificate pinning",
+                    "Code obfuscation basics",
+                    "Privacy manifest (iOS 17+)",
+                    "Privacy nutrition labels"
+                ],
+                "projects": [
+                    "Biometric login implementation",
+                    "Encrypted data storage",
+                    "Secure notes app",
+                    "Certificate pinning implementation",
+                    "Privacy-focused app",
+                    "Keychain wrapper library",
+                    "Security audit checklist"
+                ],
+                "practice": "Security audit all projects"
+            },
+            "week_77": {
+                "title": "Design Patterns & Best Practices",
+                "topics": [
+                    "Creational patterns: Singleton, Factory, Builder",
+                    "Structural patterns: Adapter, Decorator, Facade",
+                    "Behavioral patterns: Observer, Strategy, Command",
+                    "Delegation pattern (Swift/iOS native)",
+                    "Protocol-oriented patterns",
+                    "Coordinator pattern deep dive",
+                    "Repository pattern",
+                    "Clean code principles",
+                    "SOLID principles in Swift",
+                    "Code review guidelines",
+                    "Swift style guide",
+                    "Documentation with DocC",
+                    "Technical debt management",
+                    "Refactoring techniques"
+                ],
+                "projects": [
+                    "Pattern implementation examples",
+                    "Coordinator-based app navigation",
+                    "Plugin architecture with protocols",
+                    "Code refactoring exercise",
+                    "DocC documentation",
+                    "Design pattern showcase"
+                ],
+                "practice": "Apply patterns to all projects"
+            },
+            "week_78": {
+                "title": "Phase 3 Capstone Project",
+                "topics": [
+                    "Complete iOS application",
+                    "Architecture implementation",
+                    "Networking and persistence",
+                    "Testing and quality",
+                    "Accessibility and localization",
+                    "Performance optimization"
+                ],
+                "projects": [
+                    "MAJOR CAPSTONE: Social Photo Sharing App",
+                    "Features: User auth, photo capture/upload, feed, likes/comments, notifications, profile, search, Core Data + CloudKit sync, MVVM architecture, full test coverage",
+                    "Alternative: Fitness Tracking App (workouts, progress, HealthKit, charts)",
+                    "Alternative: E-commerce App (products, cart, checkout, orders, payments)",
+                    "Alternative: Messaging App (real-time chat, media sharing, contacts)"
+                ],
+                "assessment": "Phase 3 Final Exam - Professional iOS development comprehensive test"
+            }
+        }
+    },
+    "phase_4_advanced_production": {
+        "title": "PHASE 4: Expert Development, Multi-Platform & Career Excellence (Months 10-12, Weeks 40-52)",
+        "description": "Master advanced topics, multi-platform development, App Store publishing, CI/CD, and career preparation.",
+        "month_19_20": {
+            "title": "Months 10-11: Multi-Platform & Advanced Topics",
+            "weeks": "Week 40-48",
+            "week_79_80": {
+                "title": "SwiftUI Advanced Topics",
+                "topics": [
+                    "Custom view modifiers",
+                    "PreferenceKey for child-to-parent communication",
+                    "EnvironmentKey for custom environments",
+                    "ViewBuilder and resultBuilder",
+                    "Property wrapper deep dive",
+                    "Creating custom property wrappers",
+                    "Layout protocol (iOS 16+)",
+                    "Custom layouts implementation",
+                    "AnyLayout for dynamic layout switching",
+                    "Observation framework (iOS 17+)",
+                    "@Observable macro",
+                    "Migration from ObservableObject",
+                    "Performance optimization in SwiftUI",
+                    "Lazy loading and equatable",
+                    "SwiftUI debugging techniques"
+                ],
+                "projects": [
+                    "Custom modifier library",
+                    "PreferenceKey implementations",
+                    "Custom property wrappers",
+                    "Advanced layout system",
+                    "Observable migration project",
+                    "SwiftUI performance optimization",
+                    "Debug tooling for SwiftUI"
+                ],
+                "practice": "Build 8 advanced SwiftUI features"
+            },
+            "week_81_82": {
+                "title": "WidgetKit & App Intents",
+                "topics": [
+                    "WidgetKit fundamentals",
+                    "Widget timeline and entries",
+                    "Widget configuration types",
+                    "Interactive widgets (iOS 17+)",
+                    "Widget bundles",
+                    "Widget sizes and families",
+                    "Lock screen widgets",
+                    "Widget intent configuration",
+                    "App Intents framework",
+                    "Shortcuts integration",
+                    "Siri integration with App Intents",
+                    "Focus filters",
+                    "Live Activities",
+                    "Dynamic Island (iPhone 14 Pro+)",
+                    "ActivityKit for real-time updates"
+                ],
+                "projects": [
+                    "Static widget implementation",
+                    "Configurable widget",
+                    "Interactive widget (iOS 17)",
+                    "Lock screen widget",
+                    "Siri shortcuts integration",
+                    "Live Activity for sports/delivery",
+                    "Dynamic Island experience",
+                    "Complete widget suite"
+                ],
+                "practice": "Add widgets to 5 projects"
+            },
+            "week_83_84": {
+                "title": "macOS Development with SwiftUI",
+                "topics": [
+                    "macOS app fundamentals",
+                    "Differences from iOS development",
+                    "macOS-specific views and controls",
+                    "Window management",
+                    "Menu bar apps",
+                    "Settings/Preferences windows",
+                    "Document-based apps",
+                    "NSOpenPanel and NSSavePanel",
+                    "Toolbar and sidebar navigation",
+                    "Table view on macOS",
+                    "Drag and drop support",
+                    "macOS-specific APIs",
+                    "Mac Catalyst for iPad apps",
+                    "App Sandbox and capabilities",
+                    "Notarization and distribution"
+                ],
+                "projects": [
+                    "macOS utility app",
+                    "Menu bar application",
+                    "Document-based text editor",
+                    "macOS settings app",
+                    "iPad app with Mac Catalyst",
+                    "Cross-platform SwiftUI app",
+                    "macOS productivity tool"
+                ],
+                "practice": "Build 6 macOS applications"
+            },
+            "week_85_86": {
+                "title": "watchOS & tvOS Development",
+                "topics": [
+                    "watchOS app architecture",
+                    "Watch-only vs companion apps",
+                    "WatchKit basics",
+                    "SwiftUI on watchOS",
+                    "watchOS-specific complications",
+                    "HealthKit integration",
+                    "Workout session handling",
+                    "Watch connectivity",
+                    "Background refresh on watchOS",
+                    "tvOS app fundamentals",
+                    "Focus-based navigation",
+                    "tvOS-specific UI patterns",
+                    "Siri Remote input handling",
+                    "Top Shelf extension",
+                    "Multi-platform app targets"
+                ],
+                "projects": [
+                    "Standalone watchOS app",
+                    "Watch complication",
+                    "Fitness watch app with HealthKit",
+                    "Watch + iPhone companion app",
+                    "tvOS media app",
+                    "tvOS game with remote",
+                    "Multi-platform unified app"
+                ],
+                "practice": "Build apps for 3 Apple platforms"
+            },
+            "week_87": {
+                "title": "visionOS & Spatial Computing",
+                "topics": [
+                    "visionOS introduction",
+                    "Spatial computing concepts",
+                    "SwiftUI for visionOS",
+                    "Windows, volumes, and spaces",
+                    "RealityKit fundamentals",
+                    "3D content with RealityKit",
+                    "Immersive experiences",
+                    "Hand tracking and gestures",
+                    "Eye tracking concepts",
+                    "ARKit on visionOS",
+                    "SharePlay in spatial computing",
+                    "Entity Component System",
+                    "Reality Composer Pro",
+                    "visionOS design guidelines",
+                    "Future of spatial computing"
+                ],
+                "projects": [
+                    "Basic visionOS window app",
+                    "3D content viewer",
+                    "Immersive environment",
+                    "Hand gesture interactions",
+                    "AR experience on visionOS",
+                    "Spatial data visualization",
+                    "Mixed reality application"
+                ],
+                "practice": "Build 5 visionOS experiences"
+            }
+        },
+        "month_21_22": {
+            "title": "Month 12: App Store, CI/CD & Career Excellence",
+            "weeks": "Week 49-52",
+            "week_88_89": {
+                "title": "App Store Submission & Distribution",
+                "topics": [
+                    "Apple Developer Program enrollment",
+                    "App Store Connect setup",
+                    "App information and metadata",
+                    "Screenshots and app preview videos",
+                    "App Store product page optimization",
+                    "Pricing and availability",
+                    "In-app purchases configuration",
+                    "App Store Review Guidelines",
+                    "Common rejection reasons",
+                    "TestFlight for beta testing",
+                    "Internal and external testing",
+                    "Build distribution to testers",
+                    "Phased release strategies",
+                    "App Store Optimization (ASO)",
+                    "Custom product pages (iOS 15+)",
+                    "Product page optimization tests"
+                ],
+                "projects": [
+                    "Complete App Store submission",
+                    "TestFlight beta distribution",
+                    "App Store screenshot creation",
+                    "App preview video creation",
+                    "ASO optimization exercise",
+                    "A/B testing product pages",
+                    "Full release workflow"
+                ],
+                "practice": "Submit 3 apps to App Store"
+            },
+            "week_90_91": {
+                "title": "CI/CD & Automation",
+                "topics": [
+                    "Continuous Integration concepts",
+                    "Xcode Cloud setup and usage",
+                    "Xcode Cloud workflows",
+                    "Automated testing in CI",
+                    "Code signing for CI",
+                    "Fastlane overview",
+                    "Fastlane lanes and actions",
+                    "Automated screenshots with Fastlane",
+                    "Automated deployment with Fastlane",
+                    "GitHub Actions for iOS",
+                    "Bitrise for mobile CI/CD",
+                    "Code signing best practices",
+                    "Environment management",
+                    "Build versioning automation",
+                    "Automated release notes"
+                ],
+                "projects": [
+                    "Xcode Cloud workflow setup",
+                    "Automated test pipeline",
+                    "Fastlane deployment automation",
+                    "GitHub Actions workflow",
+                    "Automated screenshot generation",
+                    "Complete CI/CD pipeline",
+                    "Release automation workflow"
+                ],
+                "practice": "Set up CI/CD for all major projects"
+            },
+            "week_92_93": {
+                "title": "Analytics, Crash Reporting & Monitoring",
+                "topics": [
+                    "App analytics importance",
+                    "App Analytics in App Store Connect",
+                    "Firebase Analytics integration",
+                    "Custom event tracking",
+                    "User engagement metrics",
+                    "Conversion tracking",
+                    "A/B testing with Firebase",
+                    "Crash reporting with Firebase Crashlytics",
+                    "Symbolication of crash logs",
+                    "Xcode Organizer crash reports",
+                    "MetricKit for performance data",
+                    "Custom metrics logging",
+                    "User feedback collection",
+                    "In-app review prompts",
+                    "Privacy-focused analytics"
+                ],
+                "projects": [
+                    "Analytics integration",
+                    "Custom event tracking system",
+                    "Crash reporting setup",
+                    "Performance monitoring dashboard",
+                    "A/B testing implementation",
+                    "User feedback system",
+                    "Complete analytics suite"
+                ],
+                "practice": "Add analytics to all production apps"
+            },
+            "week_94_95": {
+                "title": "Server-Side Swift & Backend Integration",
+                "topics": [
+                    "Server-side Swift overview",
+                    "Vapor framework introduction",
+                    "Setting up Vapor project",
+                    "Routing in Vapor",
+                    "Models and Fluent ORM",
+                    "Database integration (PostgreSQL)",
+                    "RESTful API development",
+                    "Authentication and authorization",
+                    "Middleware in Vapor",
+                    "Deploying Vapor apps",
+                    "Firebase as backend",
+                    "Firebase Authentication",
+                    "Cloud Firestore database",
+                    "Firebase Cloud Functions",
+                    "AWS Amplify for iOS"
+                ],
+                "projects": [
+                    "Basic Vapor API",
+                    "Full-stack Swift application",
+                    "Firebase-backed iOS app",
+                    "Real-time data with Firestore",
+                    "User authentication backend",
+                    "Cloud function integration",
+                    "Complete backend solution"
+                ],
+                "practice": "Build 5 backend-connected applications"
+            },
+            "week_96": {
+                "title": "SwiftData & Modern Persistence (iOS 17+)",
+                "topics": [
+                    "SwiftData introduction",
+                    "SwiftData vs Core Data",
+                    "@Model macro for persistence",
+                    "Schema definition with Swift",
+                    "ModelContainer and ModelContext",
+                    "@Query for fetching data",
+                    "Relationships in SwiftData",
+                    "Migration strategies",
+                    "SwiftData with SwiftUI",
+                    "Performance considerations",
+                    "CloudKit integration",
+                    "Choosing SwiftData vs Core Data",
+                    "SwiftData testing",
+                    "Best practices and patterns"
+                ],
+                "projects": [
+                    "SwiftData basic app",
+                    "Migration from Core Data",
+                    "SwiftData relationships",
+                    "CloudKit sync with SwiftData",
+                    "SwiftData + SwiftUI app",
+                    "Performance-optimized queries"
+                ],
+                "practice": "Implement SwiftData in 5 projects"
+            }
+        },
+        "month_23": {
+            "title": "PHASE 4 COMPLETION - Career Preparation",
+            "weeks": "Week 40-52 (distributed)",
+            "week_97": {
+                "title": "Advanced Topics & Specializations",
+                "topics": [
+                    "Machine Learning with Core ML",
+                    "Create ML for training models",
+                    "Vision framework for image analysis",
+                    "Natural Language framework",
+                    "Speech recognition",
+                    "ARKit for augmented reality",
+                    "RealityKit for 3D experiences",
+                    "Game development with SpriteKit",
+                    "SceneKit for 3D graphics",
+                    "Metal for graphics programming",
+                    "HealthKit integration",
+                    "HomeKit for smart home",
+                    "CarPlay development",
+                    "MusicKit integration"
+                ],
+                "projects": [
+                    "ML-powered image classifier",
+                    "Text sentiment analyzer",
+                    "AR object placement app",
+                    "Simple game with SpriteKit",
+                    "Health tracking app",
+                    "Smart home control app",
+                    "Specialization project in chosen area"
+                ],
+                "practice": "Explore 3 advanced specializations"
+            },
+            "week_98": {
+                "title": "Code Quality & Professional Practices",
+                "topics": [
+                    "Swift style guide compliance",
+                    "SwiftLint for code quality",
+                    "SwiftFormat for formatting",
+                    "Code review best practices",
+                    "Pull request guidelines",
+                    "Technical documentation",
+                    "DocC documentation creation",
+                    "README writing",
+                    "Architecture decision records",
+                    "Technical debt management",
+                    "Refactoring strategies",
+                    "Performance benchmarking",
+                    "Debugging advanced techniques",
+                    "Memory debugging",
+                    "Thread sanitizer"
+                ],
+                "projects": [
+                    "SwiftLint integration",
+                    "Code quality automation",
+                    "DocC documentation site",
+                    "Refactoring exercise",
+                    "Performance benchmark suite",
+                    "Quality metrics dashboard"
+                ],
+                "practice": "Apply quality practices to all projects"
+            },
+            "week_99": {
+                "title": "Open Source & Community",
+                "topics": [
+                    "Open source in iOS community",
+                    "Contributing to Swift itself",
+                    "Popular iOS open source projects",
+                    "Finding beginner-friendly projects",
+                    "Understanding contribution guidelines",
+                    "Forking and pull requests",
+                    "Code review in open source",
+                    "Creating open source libraries",
+                    "Publishing to Swift Package Index",
+                    "Documentation for open source",
+                    "Community engagement",
+                    "iOS conferences and meetups",
+                    "Swift forums participation",
+                    "Building personal brand"
+                ],
+                "projects": [
+                    "Contribute to 5 open source projects",
+                    "Create Swift package library",
+                    "Publish on Swift Package Index",
+                    "Documentation contributions",
+                    "Bug fixes and features",
+                    "Community engagement"
+                ],
+                "practice": "Active open source participation"
+            },
+            "week_100": {
+                "title": "Interview Preparation",
+                "topics": [
+                    "iOS interview preparation strategy",
+                    "Swift language interview questions",
+                    "UIKit interview topics",
+                    "SwiftUI interview questions",
+                    "Memory management questions",
+                    "Concurrency and threading",
+                    "Architecture pattern questions",
+                    "System design for mobile",
+                    "Data structures and algorithms",
+                    "LeetCode in Swift",
+                    "Take-home project tips",
+                    "Behavioral interview questions",
+                    "STAR method for answers",
+                    "Salary negotiation tactics",
+                    "Resume optimization for iOS developers"
+                ],
+                "projects": [
+                    "Solve 150+ LeetCode problems in Swift",
+                    "System design case studies",
+                    "Mock interview practice",
+                    "Interview preparation guide",
+                    "Portfolio website creation"
+                ],
+                "practice": "Daily coding challenges and mock interviews"
+            }
+        },
+        "month_24": {
+            "title": "Final Month - Capstone & Career Launch",
+            "weeks": "Week 49-52",
+            "week_101_102": {
+                "title": "Final Capstone Project - Part 1",
+                "topics": [
+                    "Project ideation and planning",
+                    "Requirement analysis",
+                    "App architecture design",
+                    "UI/UX design with Figma",
+                    "Database design",
+                    "API design and integration",
+                    "Technology stack selection",
+                    "Development workflow setup",
+                    "Sprint planning",
+                    "Agile methodology"
+                ],
+                "projects": [
+                    "FINAL CAPSTONE: Production-Ready Multi-Platform App",
+                    "Option 1: Health & Fitness Ecosystem",
+                    "Platforms: iOS, watchOS, widgets, complications, HealthKit, CloudKit sync",
+                    "Option 2: Social Networking Platform",
+                    "Features: Feed, messaging, profiles, media sharing, notifications, analytics",
+                    "Option 3: Productivity Suite",
+                    "Apps: Task manager, notes, calendar, widgets, Mac Catalyst, sync",
+                    "Option 4: E-commerce Mobile App",
+                    "Features: Products, cart, checkout, payments, orders, push notifications"
+                ]
+            },
+            "week_103": {
+                "title": "Final Capstone Project - Part 2",
+                "topics": [
+                    "Implementation completion",
+                    "Comprehensive testing",
+                    "Performance optimization",
+                    "Accessibility compliance",
+                    "Localization implementation",
+                    "App Store submission preparation",
+                    "CI/CD pipeline setup",
+                    "Analytics integration",
+                    "Crash reporting setup",
+                    "Project presentation preparation"
+                ],
+                "deliverables": [
+                    "Complete source code on GitHub",
+                    "App published on App Store",
+                    "Multi-platform support (iOS, widget, watch/mac)",
+                    "Complete documentation with DocC",
+                    "Architecture diagrams and documentation",
+                    "Design files (Figma)",
+                    "CI/CD with Xcode Cloud or Fastlane",
+                    "Test coverage report (80%+ coverage)",
+                    "Performance report from Instruments",
+                    "Video demo and presentation",
+                    "Comprehensive README and wiki"
+                ]
+            },
+            "week_104": {
+                "title": "Career Launch & Professional Development",
+                "topics": [
+                    "Professional portfolio website",
+                    "Resume optimization for iOS roles",
+                    "LinkedIn profile enhancement",
+                    "GitHub profile showcase",
+                    "Technical blog writing",
+                    "Speaking at iOS meetups",
+                    "Networking strategies",
+                    "Job application process",
+                    "Interview follow-up",
+                    "Continuous learning plan",
+                    "Staying updated with WWDC",
+                    "Mentoring and teaching others",
+                    "Freelancing strategies",
+                    "Consulting career path",
+                    "Indie app development"
+                ],
+                "deliverables": [
+                    "Professional portfolio with 40+ projects",
+                    "Optimized resume for iOS developer roles",
+                    "Enhanced LinkedIn with App Store apps",
+                    "GitHub profile with 100+ contributions",
+                    "5-10 technical blog posts",
+                    "Personal brand establishment",
+                    "App Store presence with published apps",
+                    "Mock interview completion",
+                    "Continuous learning roadmap",
+                    "Professional network connections"
+                ],
+                "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete Swift/iOS mastery evaluation"
+            }
+        }
+    },
+    "additional_learning_resources": {
+        "projects_throughout_course": [
+            "Phase 1 (Months 1-3): 20+ foundational projects - playgrounds, console apps, OOP/POP systems",
+            "Phase 2 (Months 4-6): 18+ intermediate projects - SwiftUI apps, data persistence, animations",
+            "Phase 3 (Months 7-9): 20+ professional projects - networked apps, tested apps, production features",
+            "Phase 4 (Months 10-12): 15+ advanced projects - multi-platform, App Store apps, full ecosystem",
+            "Final: 5 major capstone projects demonstrating complete expertise"
+        ],
+        "total_projects_built": "70+ projects from beginner to App Store-ready production applications",
+        "skills_mastered": [
+            "Core Swift: Syntax, Optionals, Collections, Closures, OOP, POP, Generics, Error Handling, Concurrency",
+            "Advanced Swift: Protocols, Extensions, Property Wrappers, Result Builders, Macros",
+            "SwiftUI: Views, State Management, Navigation, Animations, Custom Layouts, Observation",
+            "UIKit: View Controllers, Auto Layout, Table/Collection Views, Navigation, Storyboards",
+            "Data Persistence: UserDefaults, FileManager, Core Data, SwiftData, CloudKit, Keychain",
+            "Networking: URLSession, Async/Await, REST APIs, JSON Parsing, Authentication",
+            "Combine: Publishers, Subscribers, Operators, Reactive Programming",
+            "Testing: XCTest, UI Testing, Snapshot Testing, TDD, Code Coverage",
+            "Architecture: MVC, MVVM, Coordinator, TCA, Clean Architecture, Dependency Injection",
+            "Multi-Platform: iOS, macOS, watchOS, tvOS, visionOS, Widgets, Extensions",
+            "DevOps: Xcode Cloud, Fastlane, GitHub Actions, CI/CD, App Store Connect",
+            "Advanced: ARKit, Core ML, HealthKit, MapKit, Push Notifications, In-App Purchases",
+            "Tools: Xcode, Instruments, Swift Package Manager, SwiftLint, DocC, Figma",
+            "Soft Skills: Problem-solving, Architecture Thinking, Code Review, Documentation, Agile"
+        ],
+        "weekly_structure": {
+            "theory_videos": "4-6 hours",
+            "hands_on_coding": "8-10 hours",
+            "projects": "3-5 hours",
+            "practice_problems": "2-3 hours",
+            "total_per_week": "15-20 hours"
+        },
+        "support_provided": {
+            "live_sessions": "Weekly live coding sessions and doubt clearing",
+            "mentorship": "1-on-1 expert iOS developer mentorship",
+            "community": "Active Discord/Slack community with 24/7 peer support",
+            "code_review": "Expert code reviews for all major projects",
+            "career_support": "Resume review, mock interviews, job referrals to product companies",
+            "lifetime_access": "All content, future updates, new iOS/Swift versions coverage",
+            "placement_assistance": "Dedicated placement cell with company partnerships",
+            "interview_prep": "Mock interviews with industry professionals"
+        },
+        "certification": {
+            "phase_certificates": "Certificate after each phase completion (4 certificates)",
+            "final_certificate": "Professional iOS Developer Certification",
+            "swiftui_certificate": "SwiftUI Specialist Certificate",
+            "multiplatform_certificate": "Apple Multi-Platform Developer Certificate",
+            "linkedin_badge": "Digital badges for LinkedIn profile",
+            "industry_recognized": "Recognized by Fortune 500 companies and startups",
+            "portfolio_projects": "40+ production-ready portfolio projects",
+            "app_store_apps": "Published apps on the App Store"
+        }
+    },
+    "prerequisites": {
+        "education": "No formal degree required - open to all backgrounds",
+        "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
+        "age": "12+ years (separate learning tracks for kids, teens, adults)",
+        "equipment": "Mac computer (MacBook or iMac) with macOS Ventura or later, minimum 8GB RAM (16GB recommended), iPhone/iPad for testing",
+        "time_commitment": "15-20 hours per week consistently for best results",
+        "english": "Basic reading comprehension (materials also available in Hindi)",
+        "motivation": "Strong desire to become a professional iOS/macOS developer",
+        "math": "Basic mathematics (taught as needed)"
+    },
+    "who_is_this_for": {
+        "kids": "Age 12-14: Simplified track with visual learning, game-based projects, Swift Playgrounds, fun app creation",
+        "teens": "Age 15-18: Student-focused track, app development skills, portfolio building, Swift Playgrounds to Xcode",
+        "students": "College students: Campus placement preparation, internship readiness, App Store portfolio",
+        "working_professionals": "Career switchers: Structured path from any background to iOS developer role",
+        "developers": "Developers from other languages wanting to master Swift and iOS ecosystem",
+        "android_developers": "Android developers wanting to add iOS development to their skillset",
+        "web_developers": "Web developers transitioning to native mobile development",
+        "designers": "UI/UX designers who want to build the apps they design",
+        "entrepreneurs": "Build your own iOS apps and launch on the App Store",
+        "freelancers": "Offer iOS development services to high-paying clients",
+        "anyone": "Anyone passionate about Apple platforms and mobile development"
+    },
+    "career_paths_after_completion": [
+        "iOS Developer (Junior to Senior levels)",
+        "Swift Developer",
+        "Mobile Application Developer",
+        "SwiftUI Developer",
+        "macOS Developer",
+        "watchOS Developer",
+        "visionOS Developer",
+        "Apple Platforms Engineer",
+        "Mobile Architect",
+        "Technical Lead / Team Lead",
+        "Solutions Architect",
+        "Principal Mobile Engineer",
+        "Freelance iOS Consultant",
+        "Technical Trainer / Instructor",
+        "Indie App Developer / Startup Founder"
+    ],
+    "salary_expectations": {
+        "after_3_months": "₹3-6 LPA (Junior iOS Developer / Fresher)",
+        "after_6_months": "₹6-12 LPA (iOS Developer)",
+        "after_9_months": "₹10-18 LPA (Senior iOS Developer)",
+        "after_12_months": "₹15-30 LPA (Lead iOS Developer / Mobile Architect)",
+        "experienced_3_years": "₹22-50 LPA (Principal Engineer / Solutions Architect)",
+        "freelance": "₹2000-7000/hour based on expertise",
+        "international_usa": "$95k-210k USD (iOS Developer to Principal)",
+        "international_europe": "€55k-140k EUR based on country and experience",
+        "product_companies": "₹20-65 LPA in top product companies (Apple, Google, Meta, etc.)",
+        "startups": "₹15-45 LPA + equity in funded startups"
+    },
+    "course_guarantees": {
+        "money_back": "30-day 100% money-back guarantee - no questions asked",
+        "job_assistance": "Job placement support with 500+ hiring partners",
+        "lifetime_updates": "Free access to all future content, new iOS/Swift versions, WWDC updates",
+        "mentorship": "Dedicated expert mentor throughout 12-month journey and beyond",
+        "certificate": "Industry-recognized certification from established platform",
+        "portfolio": "40+ production-ready projects for impressive portfolio",
+        "app_store_apps": "Guidance to publish apps on the App Store",
+        "community": "Lifetime access to alumni network and community",
+        "career_switch": "Extended support until successful career switch (up to 18 months)",
+        "skill_guarantee": "Master Swift and iOS development or continue learning free until you do",
+        "interview_guarantee": "Unlimited mock interviews until you land a job",
+        "salary_hike": "Average 170-320% salary hike for career switchers",
+        "placement_record": "87%+ placement rate within 6 months of completion"
+    }
+}

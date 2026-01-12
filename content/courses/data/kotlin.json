@@ -1,0 +1,1862 @@
+{
+  "meta": {
+    "slug": "complete-kotlin-programming-masterclass-professional",
+    "title": "Complete Kotlin Programming Masterclass - Zero to Professional Android & Backend Developer",
+    "description": "The most comprehensive 1-year Kotlin programming masterclass. From absolute basics to professional-level applications. Master Kotlin fundamentals, Android development, Spring Boot with Kotlin, multiplatform development, coroutines, and everything needed for a successful Kotlin career.",
+    "keywords": [
+      "kotlin programming",
+      "kotlin masterclass",
+      "learn kotlin",
+      "kotlin for beginners",
+      "android development",
+      "kotlin android",
+      "spring boot kotlin",
+      "kotlin multiplatform",
+      "kotlin coroutines",
+      "kotlin developer",
+      "kotlin backend",
+      "kotlin career",
+      "jetpack compose",
+      "kotlin certification",
+      "advanced kotlin",
+      "kotlin for kids"
+    ],
+    "category": "Professional Kotlin Development",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹4999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Professional Developer",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Industry-recognized Kotlin Developer certification upon completion",
+    "image_path": "kotlin-college.png"
+  },
+  "program_overview": {
+    "title": "Complete Kotlin Programming Masterclass",
+    "tagline": "From 'Hello World' to Professional Android & Backend Applications",
+    "description": "This is not just a Kotlin course—it's a complete transformation into a versatile Kotlin professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Kotlin developer capable of building modern Android apps, scalable backend systems, multiplatform applications, and cloud-native solutions.\n\nYou'll master Kotlin from ground zero to professional architect level: from basic syntax to advanced language features, from console applications to full-stack Android apps with Jetpack Compose, from JDBC to Spring Boot with Kotlin, from single-platform to Kotlin Multiplatform projects. By the end, you'll have built 50+ projects, mastered the entire Kotlin ecosystem, and be ready for senior Kotlin/Android developer roles in top tech companies.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - perfect for complete beginners",
+      "Separate learning tracks for kids (12+), teens, and adults",
+      "1 year of structured, industry-aligned learning",
+      "Covers Kotlin + Android + Backend (Spring Boot) + Multiplatform",
+      "Real-world projects and industry case studies",
+      "Hands-on with latest Kotlin versions and modern features",
+      "Android development with Jetpack Compose",
+      "Interview preparation for top companies",
+      "Lifetime access with continuous updates",
+      "Build production-ready professional portfolio",
+      "Direct path to high-paying Kotlin/Android developer jobs"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Kotlin Fundamentals, OOP, Functional Programming Basics",
+      "phase_2": "Intermediate (Months 4-6): Advanced Kotlin, Collections, Coroutines, Design Patterns",
+      "phase_3": "Android (Months 7-9): Android Development, Jetpack Compose, Material Design, APIs",
+      "phase_4": "Professional (Months 10-12): Spring Boot Kotlin, Multiplatform, Cloud, Career Excellence"
+    },
+    "career_outcomes": [
+      "Junior Kotlin Developer (after 3 months)",
+      "Android Developer (after 6 months)",
+      "Senior Kotlin/Android Developer (after 9 months)",
+      "Lead Developer / Solutions Architect (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Kotlin Skills (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid Kotlin fundamentals. Learn programming logic, master Kotlin syntax, OOP principles, functional programming, and create your first applications.",
+    "month_1_2": {
+      "title": "Months 1-2: Kotlin Fundamentals & Programming Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Kotlin & Development Environment Setup",
+        "topics": [
+          "What is Kotlin? History, features, and JetBrains creation",
+          "Why Kotlin? Advantages over Java and other languages",
+          "Kotlin ecosystem: Android, Backend, Multiplatform, Native",
+          "Kotlin/JVM, Kotlin/JS, Kotlin/Native explained",
+          "Interoperability with Java",
+          "Installing JDK (Java 17 LTS or latest)",
+          "Setting up development environment: IntelliJ IDEA, Android Studio",
+          "Understanding IDE features and Kotlin-specific shortcuts",
+          "Kotlin REPL (Read-Eval-Print Loop) for quick testing",
+          "Your first Kotlin program: Hello World",
+          "Kotlin program structure: main function, packages",
+          "Compiling and running Kotlin programs",
+          "Understanding bytecode and JVM execution",
+          "Comments: single-line (//), multi-line (/* */), KDoc (/** */)",
+          "Kotlin coding conventions and naming standards",
+          "Type inference and concise syntax"
+        ],
+        "projects": [
+          "Hello World variations with string templates",
+          "Simple output programs using println",
+          "Personal information display with string interpolation",
+          "ASCII art generator in Kotlin",
+          "Interactive REPL experiments"
+        ],
+        "practice": "Daily: 30 min Kotlin syntax practice, write 5-10 simple programs"
+      },
+      "week_3_4": {
+        "title": "Variables, Data Types & Operators",
+        "topics": [
+          "Variables: val (immutable) vs var (mutable)",
+          "Type inference: let the compiler infer types",
+          "Explicit type declarations",
+          "Basic types: Int, Long, Short, Byte, Double, Float, Char, Boolean",
+          "String type and string templates",
+          "String interpolation with $ and ${}",
+          "Multi-line strings with triple quotes",
+          "Type checking with is operator",
+          "Smart casts after type checking",
+          "Type casting: as and as? (safe cast)",
+          "Nullable types: Type? notation",
+          "Null safety: ?., ?:, !!, let",
+          "Operators: arithmetic (+, -, *, /, %, ++, --)",
+          "Relational operators: ==, !=, >, <, >=, <=",
+          "Logical operators: &&, ||, !",
+          "Assignment operators: =, +=, -=, *=, /=, %=",
+          "Bitwise operators: and, or, xor, inv, shl, shr, ushr",
+          "Range operator: ..",
+          "in operator for range checking",
+          "Elvis operator: ?:",
+          "Safe call operator: ?.",
+          "Not-null assertion: !!"
+        ],
+        "projects": [
+          "Null-safe calculator with Kotlin operators",
+          "Temperature converter with smart casts",
+          "Age calculator with null safety",
+          "BMI calculator with safe operations",
+          "Currency converter with type-safe design",
+          "Area calculator using when expressions",
+          "Compound interest calculator with ranges",
+          "String manipulation utility"
+        ],
+        "practice": "Solve 40 problems on variables, null safety, and operators"
+      },
+      "week_5_6": {
+        "title": "Control Flow & Expressions",
+        "topics": [
+          "If as an expression (returns value)",
+          "If-else expression",
+          "If-else-if ladder",
+          "When expression: Kotlin's switch replacement",
+          "When with values, ranges, types",
+          "When without argument",
+          "When as expression vs statement",
+          "While loop",
+          "Do-while loop",
+          "For loop with ranges",
+          "For loop with collections",
+          "Iterating with indices: forEachIndexed",
+          "Until vs downTo in ranges",
+          "Step in ranges",
+          "Break and continue",
+          "Labeled break and continue",
+          "Nested loops and loop patterns",
+          "repeat function for simple loops"
+        ],
+        "projects": [
+          "Number guessing game with when expression",
+          "Grade calculator using when",
+          "Even/odd checker with ranges",
+          "Prime number checker and generator",
+          "Multiplication table with for loops",
+          "Factorial calculator using ranges",
+          "Fibonacci series generator",
+          "Pattern printing (stars, pyramids, diamonds)",
+          "FizzBuzz challenge with when",
+          "Menu-driven calculator",
+          "Simple ATM simulation with when"
+        ],
+        "practice": "Solve 45 control flow and expression problems"
+      },
+      "week_7_8": {
+        "title": "Functions & Collections Basics",
+        "topics": [
+          "Functions: fun keyword",
+          "Function parameters and return types",
+          "Unit return type (like void)",
+          "Single-expression functions",
+          "Default parameter values",
+          "Named arguments",
+          "Variable number of arguments: vararg",
+          "Extension functions concept",
+          "Infix functions",
+          "Local functions (nested functions)",
+          "Higher-order functions introduction",
+          "Lambda expressions basics",
+          "Arrays: arrayOf, intArrayOf, etc.",
+          "Array access and modification",
+          "Lists: listOf (immutable), mutableListOf",
+          "Sets: setOf, mutableSetOf",
+          "Maps: mapOf, mutableMapOf",
+          "Collection operations: size, isEmpty, contains"
+        ],
+        "projects": [
+          "Function library for mathematical operations",
+          "Extension functions for String utilities",
+          "Collection statistics calculator",
+          "Array manipulation utilities",
+          "List-based todo manager",
+          "Map-based contact book",
+          "Set operations demonstrator",
+          "Higher-order function examples",
+          "Lambda-based filtering",
+          "Custom collection utilities"
+        ],
+        "practice": "Create 30 functions, solve 35 collection problems"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Object-Oriented Programming & Functional Concepts",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Classes, Objects & OOP in Kotlin",
+        "topics": [
+          "Classes: class keyword",
+          "Primary constructor in class header",
+          "Secondary constructors",
+          "init blocks for initialization",
+          "Properties: val and var in classes",
+          "Getters and setters (automatic and custom)",
+          "Backing fields: field keyword",
+          "Late initialization: lateinit var",
+          "Lazy initialization: lazy delegation",
+          "Creating objects (no 'new' keyword)",
+          "Visibility modifiers: public, private, protected, internal",
+          "Data classes for data holding",
+          "Copy function in data classes",
+          "Destructuring declarations",
+          "Object declarations (singleton)",
+          "Companion objects (like static in Java)",
+          "Object expressions (anonymous objects)"
+        ],
+        "projects": [
+          "Student data class with properties",
+          "Bank Account class with encapsulation",
+          "Book data class for library",
+          "Employee class with companion object",
+          "Rectangle/Circle classes with properties",
+          "Car class with lateinit properties",
+          "Singleton configuration object",
+          "Product data class for inventory",
+          "Person class with destructuring",
+          "Date utility with companion functions"
+        ],
+        "practice": "Create 25 different classes modeling real-world entities"
+      },
+      "week_11_12": {
+        "title": "Inheritance, Interfaces & Polymorphism",
+        "topics": [
+          "Inheritance with open keyword",
+          "Classes are final by default",
+          "Open functions for overriding",
+          "Override keyword (mandatory)",
+          "Calling superclass: super keyword",
+          "Abstract classes and members",
+          "Interfaces in Kotlin",
+          "Multiple interface implementation",
+          "Interface properties",
+          "Default implementations in interfaces",
+          "Resolving conflicts in multiple inheritance",
+          "Sealed classes for restricted hierarchies",
+          "Sealed class subtypes",
+          "Enum classes",
+          "Enum with properties and methods",
+          "Polymorphism and type checking",
+          "Smart casts in polymorphism"
+        ],
+        "projects": [
+          "Animal hierarchy with sealed classes",
+          "Shape hierarchy with abstract classes",
+          "Vehicle system with interfaces",
+          "Employee hierarchy with polymorphism",
+          "Payment system with sealed classes",
+          "School management (Person -> Student, Teacher)",
+          "E-commerce with product categories",
+          "State machine using sealed classes",
+          "Enum-based menu system",
+          "Multiple interface implementation demo"
+        ],
+        "practice": "Build 20 inheritance hierarchies, solve 30 polymorphism problems"
+      },
+      "week_13": {
+        "title": "Functional Programming in Kotlin",
+        "topics": [
+          "First-class functions",
+          "Lambda expressions syntax",
+          "Lambda with receivers",
+          "Anonymous functions",
+          "Higher-order functions",
+          "Function types: (Int) -> String",
+          "Returning functions from functions",
+          "Closures and capturing variables",
+          "Inline functions for performance",
+          "noinline and crossinline",
+          "Standard library functions: let, run, with, apply, also",
+          "Collection operations: map, filter, reduce",
+          "flatMap and flatten",
+          "fold and reduce operations",
+          "Sequences for lazy evaluation",
+          "Function composition",
+          "Currying and partial application"
+        ],
+        "projects": [
+          "Functional collection processor",
+          "Lambda-based calculator",
+          "DSL (Domain Specific Language) creation",
+          "Scope functions showcase",
+          "Lazy sequence operations",
+          "Function composition utilities",
+          "Higher-order function library",
+          "PHASE 1 MINI CAPSTONE: Functional Library Management System",
+          "Features: Immutable data, functional operations, sealed classes, DSL"
+        ],
+        "practice": "Solve 40 functional programming problems",
+        "assessment": "Phase 1 Final Assessment - Core Kotlin fundamentals test"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Advanced Kotlin & Modern Features (Months 4-6, Weeks 14-26)",
+    "description": "Master advanced Kotlin features, coroutines, DSLs, delegation, generics, and professional coding patterns.",
+    "month_7_8": {
+      "title": "Months 4-5: Advanced Language Features & Coroutines",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Generics & Type System",
+        "topics": [
+          "Generic types in Kotlin",
+          "Generic functions",
+          "Generic constraints: where clause",
+          "Variance: in, out, invariance",
+          "Covariance with out",
+          "Contravariance with in",
+          "Star projection: *",
+          "Reified type parameters",
+          "Type erasure and reified",
+          "Generic class inheritance",
+          "Type aliases for complex types",
+          "Inline classes (value classes)",
+          "Phantom types pattern",
+          "Generic builders",
+          "Type-safe builders with generics"
+        ],
+        "projects": [
+          "Generic repository pattern",
+          "Type-safe builder DSL",
+          "Generic data structures (Stack, Queue)",
+          "Variance examples with collections",
+          "Reified function utilities",
+          "Type-safe API client",
+          "Generic validation framework",
+          "Phantom types for compile-time safety"
+        ],
+        "practice": "Create 20 generic classes, solve 30 variance problems"
+      },
+      "week_29_30": {
+        "title": "Delegation & Property Delegates",
+        "topics": [
+          "Class delegation with by keyword",
+          "Delegation pattern in Kotlin",
+          "Property delegation",
+          "Lazy delegate for late initialization",
+          "Observable delegate for property observation",
+          "Vetoable delegate",
+          "Storing properties in a map",
+          "Custom delegates creation",
+          "ReadOnlyProperty and ReadWriteProperty",
+          "provideDelegate for dynamic delegation",
+          "Delegated properties in interfaces",
+          "Multiple delegation",
+          "Delegation vs inheritance trade-offs"
+        ],
+        "projects": [
+          "Lazy loading system",
+          "Observable property pattern",
+          "Preferences management with delegation",
+          "Custom logging delegate",
+          "Validation delegate",
+          "Cache delegate implementation",
+          "Thread-safe property delegate",
+          "Map-backed properties example"
+        ],
+        "practice": "Implement 15 different delegates, solve 25 delegation problems"
+      },
+      "week_31_32": {
+        "title": "Collections Deep Dive",
+        "topics": [
+          "List operations: filter, map, flatMap, fold",
+          "Set operations: union, intersect, subtract",
+          "Map operations: mapKeys, mapValues, filterKeys",
+          "Grouping: groupBy, groupingBy",
+          "Partitioning: partition",
+          "Zipping and unzipping",
+          "Windowed and chunked",
+          "Aggregate operations: sumOf, maxOf, minOf",
+          "Sorting: sortedBy, sortedWith",
+          "Distinct and distinctBy",
+          "Take, drop, slice operations",
+          "Associate operations",
+          "Sequences vs Collections performance",
+          "asSequence for lazy operations",
+          "generateSequence for infinite sequences"
+        ],
+        "projects": [
+          "Advanced collection processor",
+          "Data transformation pipeline",
+          "Student grade analyzer",
+          "E-commerce order processor",
+          "Log file analyzer",
+          "Sequence-based file reader",
+          "Performance comparison tool",
+          "Custom collection operations library"
+        ],
+        "practice": "Solve 50 advanced collection problems"
+      },
+      "week_33_34": {
+        "title": "Coroutines Fundamentals",
+        "topics": [
+          "Asynchronous programming need",
+          "Coroutines vs threads",
+          "Suspend functions",
+          "launch coroutine builder",
+          "async and await",
+          "runBlocking for blocking code",
+          "Coroutine context and dispatchers",
+          "Dispatchers.Main, IO, Default, Unconfined",
+          "withContext for switching context",
+          "Coroutine scope",
+          "GlobalScope vs structured concurrency",
+          "Job and Deferred",
+          "Cancellation and timeouts",
+          "Exception handling in coroutines",
+          "supervisorScope for independent children"
+        ],
+        "projects": [
+          "Parallel API calls with async",
+          "File downloader with coroutines",
+          "Timeout handling example",
+          "Cancellation demonstration",
+          "Exception handling in coroutines",
+          "Background task processor",
+          "Coroutine-based calculator",
+          "Multi-threaded data processor"
+        ],
+        "practice": "Build 15 coroutine-based applications"
+      },
+      "week_35": {
+        "title": "Advanced Coroutines & Flow",
+        "topics": [
+          "Channels for communication",
+          "Channel types: rendezvous, buffered, unlimited",
+          "produce and consumeEach",
+          "Flow for async streams",
+          "Flow builders: flow, flowOf, asFlow",
+          "Flow operators: map, filter, transform",
+          "Terminal flow operators: collect, toList",
+          "Flow context and dispatchers",
+          "Flow cancellation",
+          "Flow exceptions",
+          "StateFlow and SharedFlow",
+          "Cold vs hot flows",
+          "Flow combinations: combine, zip, merge",
+          "flatMapConcat, flatMapMerge, flatMapLatest",
+          "Flow buffering and conflation"
+        ],
+        "projects": [
+          "Real-time data stream processor",
+          "Channel-based producer-consumer",
+          "Flow-based search implementation",
+          "StateFlow example (state management)",
+          "SharedFlow for events",
+          "Flow transformation pipeline",
+          "Reactive UI updates with Flow",
+          "Network request with Flow"
+        ],
+        "practice": "Create 12 Flow-based systems"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: DSLs, Reflection & Professional Patterns",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Domain-Specific Languages (DSLs)",
+        "topics": [
+          "What are DSLs?",
+          "Type-safe builders",
+          "Lambda with receiver",
+          "Extension functions in DSLs",
+          "Infix notation for DSLs",
+          "Operator overloading",
+          "invoke operator",
+          "Creating HTML DSL",
+          "Creating SQL-like DSL",
+          "Creating test DSL",
+          "DslMarker annotation",
+          "Context receivers (Kotlin 1.6+)",
+          "Building fluent APIs",
+          "DSL scope control",
+          "Real-world DSL examples"
+        ],
+        "projects": [
+          "HTML builder DSL",
+          "JSON builder DSL",
+          "SQL query DSL",
+          "Configuration DSL",
+          "Test specification DSL",
+          "Route definition DSL",
+          "UI layout DSL",
+          "Build script DSL"
+        ],
+        "practice": "Build 10 different DSLs"
+      },
+      "week_38_39": {
+        "title": "Reflection & Annotations",
+        "topics": [
+          "Kotlin reflection API",
+          "Class references: ::class",
+          "KClass, KFunction, KProperty",
+          "Callable references",
+          "Function references: ::functionName",
+          "Property references",
+          "Bound and unbound references",
+          "Reflection for generics",
+          "Annotations in Kotlin",
+          "Creating custom annotations",
+          "Annotation targets",
+          "Annotation retention",
+          "Annotation parameters",
+          "Reading annotations at runtime",
+          "Annotation processing",
+          "Meta-annotations"
+        ],
+        "projects": [
+          "Dependency injection framework",
+          "JSON serializer using reflection",
+          "Validation framework with annotations",
+          "ORM mapper with reflection",
+          "Custom test framework",
+          "Route mapping with annotations",
+          "Configuration reader",
+          "Plugin system with reflection"
+        ],
+        "practice": "Build 8 reflection-based utilities"
+      },
+      "week_40_41": {
+        "title": "Design Patterns in Kotlin",
+        "topics": [
+          "Singleton with object declaration",
+          "Factory pattern with companion object",
+          "Builder pattern with DSL",
+          "Observer pattern with delegation",
+          "Strategy pattern with lambdas",
+          "Decorator pattern with delegation",
+          "Adapter pattern",
+          "Proxy pattern with lazy",
+          "Command pattern",
+          "State pattern with sealed classes",
+          "Chain of responsibility",
+          "Template method",
+          "Visitor pattern",
+          "Repository pattern",
+          "Dependency injection patterns"
+        ],
+        "projects": [
+          "Notification system (Observer)",
+          "Payment strategies implementation",
+          "Logging decorator",
+          "State machine with sealed classes",
+          "Command processor",
+          "Repository pattern implementation",
+          "DI container creation",
+          "Plugin architecture"
+        ],
+        "practice": "Implement 20 design patterns in Kotlin style"
+      },
+      "week_42_43": {
+        "title": "Testing in Kotlin",
+        "topics": [
+          "Unit testing with JUnit 5",
+          "Kotlin-specific test features",
+          "Assertions with Kotlin",
+          "Kotest framework",
+          "Property-based testing",
+          "Mocking with MockK",
+          "Coroutine testing",
+          "Testing suspending functions",
+          "TestCoroutineDispatcher",
+          "Testing flows",
+          "Turbine for Flow testing",
+          "Test-driven development in Kotlin",
+          "Behavior-driven development",
+          "Integration testing",
+          "Test coverage with JaCoCo"
+        ],
+        "projects": [
+          "Comprehensive test suite",
+          "Coroutine tests",
+          "Flow testing examples",
+          "Property-based tests",
+          "BDD-style tests with Kotest",
+          "Mock-based testing",
+          "TDD practice projects",
+          "Integration test suite"
+        ],
+        "practice": "Write tests for all previous projects, 85%+ coverage"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Advanced Kotlin features usage",
+          "Coroutines and Flow",
+          "DSL creation",
+          "Design patterns",
+          "Comprehensive testing",
+          "Functional programming"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Reactive Task Management System",
+          "Features: Coroutines, Flow, StateFlow, DSL for task creation, sealed classes for states, comprehensive testing",
+          "Alternative: Real-time Chat Server (Kotlin backend)",
+          "Alternative: Data Processing Pipeline with Flow",
+          "Alternative: Custom framework with DSL and reflection"
+        ],
+        "assessment": "Phase 2 Final Exam - Advanced Kotlin features comprehensive test"
+      }
+    },
+    "month_11_12": {
+      "title": "PHASE 2 CONTINUED - Kotlin for Backend",
+      "weeks": "Week 14-26 (distributed)",
+      "week_45_46": {
+        "title": "Ktor Framework - Part 1",
+        "topics": [
+          "Introduction to Ktor",
+          "Ktor vs Spring Boot",
+          "Setting up Ktor project",
+          "Routing in Ktor",
+          "HTTP methods handling",
+          "Request and response",
+          "Content negotiation",
+          "JSON serialization with kotlinx.serialization",
+          "Status pages and error handling",
+          "Authentication and authorization",
+          "JWT authentication in Ktor",
+          "Sessions in Ktor",
+          "Static content serving"
+        ],
+        "projects": [
+          "Hello World REST API with Ktor",
+          "CRUD API for products",
+          "User authentication API with JWT",
+          "File upload service",
+          "Static website hosting",
+          "API with JSON responses",
+          "Session-based auth"
+        ],
+        "practice": "Build 8 Ktor-based APIs"
+      },
+      "week_47_48": {
+        "title": "Ktor Framework - Part 2",
+        "topics": [
+          "Database integration with Exposed",
+          "Exposed DSL and DAO",
+          "Database transactions",
+          "Connection pooling",
+          "WebSockets in Ktor",
+          "Real-time communication",
+          "Testing Ktor applications",
+          "Client-side Ktor HTTP client",
+          "Dependency injection in Ktor (Koin)",
+          "Monitoring and metrics",
+          "Ktor deployment",
+          "Docker containerization"
+        ],
+        "projects": [
+          "Full-stack CRUD with database",
+          "Real-time chat with WebSockets",
+          "API testing suite",
+          "HTTP client for third-party APIs",
+          "Deployed Ktor application",
+          "Monitored production service"
+        ],
+        "practice": "Build 6 complete Ktor applications"
+      },
+      "week_49_50": {
+        "title": "Spring Boot with Kotlin",
+        "topics": [
+          "Spring Boot Kotlin setup",
+          "Kotlin-specific Spring features",
+          "Null-safe Spring configuration",
+          "Data classes as entities",
+          "Spring Data JPA with Kotlin",
+          "Repository interfaces in Kotlin",
+          "REST controllers in Kotlin",
+          "Coroutines support in Spring",
+          "Reactive Spring with Kotlin Flow",
+          "Spring Security with Kotlin",
+          "Testing Spring Boot with Kotlin",
+          "MockK for Spring tests"
+        ],
+        "projects": [
+          "Spring Boot REST API",
+          "JPA entities with data classes",
+          "Reactive API with Flow",
+          "Secured Spring Boot app",
+          "Coroutine-based Spring service",
+          "Complete CRUD application",
+          "Tested Spring Boot project"
+        ],
+        "practice": "Build 10 Spring Boot Kotlin applications"
+      },
+      "week_51": {
+        "title": "Database Access with Kotlin",
+        "topics": [
+          "JDBC with Kotlin",
+          "Exposed framework deep dive",
+          "Exposed DSL queries",
+          "Exposed DAO pattern",
+          "Relationships in Exposed",
+          "Transactions in Exposed",
+          "jOOQ with Kotlin",
+          "SQLDelight for type-safe SQL",
+          "MongoDB with Kotlin",
+          "Redis with Kotlin",
+          "Database migrations",
+          "Connection pool configuration"
+        ],
+        "projects": [
+          "Exposed-based ORM project",
+          "Type-safe database queries",
+          "Multi-table operations",
+          "NoSQL integration",
+          "Migration scripts",
+          "Connection pool setup",
+          "Database performance optimization"
+        ],
+        "practice": "Build 8 database-driven applications"
+      },
+      "week_52": {
+        "title": "Build Tools & Kotlin Scripting",
+        "topics": [
+          "Gradle with Kotlin DSL",
+          "Gradle Kotlin DSL syntax",
+          "Build script configuration",
+          "Dependencies management",
+          "Multi-module projects",
+          "Publishing libraries",
+          "Kotlin scripting (.kts files)",
+          "Custom Gradle tasks",
+          "Maven with Kotlin",
+          "Continuous integration setup",
+          "Git best practices for Kotlin"
+        ],
+        "projects": [
+          "Gradle Kotlin DSL project",
+          "Multi-module application",
+          "Published library to Maven Central",
+          "Custom Gradle plugin",
+          "Kotlin scripts for automation",
+          "CI/CD pipeline setup"
+        ],
+        "practice": "Configure all projects with Gradle Kotlin DSL"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Android Development Mastery (Months 7-9, Weeks 27-39)",
+    "description": "Master modern Android development with Kotlin, Jetpack Compose, Material Design, Architecture Components, and professional app development.",
+    "month_13_14": {
+      "title": "Months 7-8: Android Fundamentals & Jetpack Compose",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Android Basics & Setup",
+        "topics": [
+          "Android platform overview",
+          "Android architecture",
+          "Android SDK and tools",
+          "Android Studio setup and features",
+          "Project structure in Android",
+          "Gradle build system for Android",
+          "AndroidManifest.xml",
+          "Activities and lifecycle",
+          "Intents: explicit and implicit",
+          "Activity navigation",
+          "Passing data between activities",
+          "Fragment basics",
+          "Fragment lifecycle",
+          "Fragment transactions",
+          "UI with XML layouts",
+          "View and ViewGroup",
+          "Common layouts: LinearLayout, RelativeLayout, ConstraintLayout"
+        ],
+        "projects": [
+          "Hello Android app",
+          "Multi-activity application",
+          "Intent-based navigation",
+          "Fragment-based UI",
+          "Data passing between screens",
+          "Basic calculator app",
+          "Profile display app",
+          "Navigation drawer app"
+        ],
+        "practice": "Build 10 basic Android apps"
+      },
+      "week_55_56": {
+        "title": "Jetpack Compose Fundamentals",
+        "topics": [
+          "Introduction to Jetpack Compose",
+          "Declarative UI paradigm",
+          "Composable functions",
+          "@Composable annotation",
+          "Compose preview",
+          "State in Compose: remember, mutableStateOf",
+          "Recomposition concept",
+          "State hoisting",
+          "Modifiers in Compose",
+          "Layout composables: Column, Row, Box",
+          "LazyColumn and LazyRow",
+          "Text, Image, Button composables",
+          "TextField and user input",
+          "Spacer and Divider",
+          "Card and Surface",
+          "Material Design 3 components",
+          "Theming in Compose"
+        ],
+        "projects": [
+          "Hello Compose app",
+          "Counter app with state",
+          "Todo list with LazyColumn",
+          "Form with TextFields",
+          "Material Design 3 app",
+          "Custom theme implementation",
+          "Card-based UI",
+          "Image gallery with LazyGrid"
+        ],
+        "practice": "Build 12 Compose-based UIs"
+      },
+      "week_57_58": {
+        "title": "Advanced Compose & Navigation",
+        "topics": [
+          "Compose Navigation library",
+          "NavHost and NavController",
+          "Route-based navigation",
+          "Passing arguments in navigation",
+          "Bottom navigation with Compose",
+          "Navigation drawer in Compose",
+          "Nested navigation graphs",
+          "Side effects in Compose: LaunchedEffect, DisposableEffect",
+          "SideEffect, derivedStateOf",
+          "remember vs rememberSaveable",
+          "ViewModel integration with Compose",
+          "Lifecycle-aware composables",
+          "Animation in Compose",
+          "AnimatedVisibility, animateContentSize",
+          "Custom animations"
+        ],
+        "projects": [
+          "Multi-screen navigation app",
+          "Bottom navigation app",
+          "Navigation with arguments",
+          "Animated UI transitions",
+          "ViewModel-backed Compose app",
+          "Side effect demonstrations",
+          "Complex navigation flow",
+          "Login flow with navigation"
+        ],
+        "practice": "Build 10 navigation-based apps"
+      },
+      "week_59_60": {
+        "title": "Android Architecture Components",
+        "topics": [
+          "MVVM architecture pattern",
+          "ViewModel and LiveData",
+          "StateFlow and SharedFlow in Android",
+          "Repository pattern",
+          "Data layer architecture",
+          "Use cases / Interactors",
+          "Dependency injection with Hilt",
+          "Hilt setup and annotations",
+          "@HiltAndroidApp, @HiltViewModel",
+          "Providing dependencies",
+          "Scopes in Hilt",
+          "Testing with Hilt",
+          "Clean Architecture in Android",
+          "Separation of concerns"
+        ],
+        "projects": [
+          "MVVM app with ViewModel",
+          "Repository pattern implementation",
+          "Hilt dependency injection setup",
+          "Clean architecture project",
+          "Multi-layer application",
+          "Testable architecture demo",
+          "State management with StateFlow",
+          "Use case layer implementation"
+        ],
+        "practice": "Refactor 8 apps to clean architecture"
+      },
+      "week_61": {
+        "title": "Local Data Storage",
+        "topics": [
+          "SharedPreferences for simple data",
+          "DataStore (Preferences and Proto)",
+          "Room database introduction",
+          "Entity, DAO, Database classes",
+          "Room with Kotlin Coroutines",
+          "Room with Flow",
+          "Database migrations",
+          "Relationships in Room",
+          "Type converters",
+          "Database testing",
+          "File storage basics",
+          "Internal vs external storage"
+        ],
+        "projects": [
+          "Preferences-based settings screen",
+          "DataStore implementation",
+          "Room database CRUD app",
+          "Notes app with Room",
+          "Contact manager with Room",
+          "Offline-first architecture",
+          "Database migration example",
+          "Complex relationships in Room"
+        ],
+        "practice": "Build 10 data persistence apps"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: Networking, APIs & Advanced Android",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Networking & REST APIs",
+        "topics": [
+          "HTTP basics for Android",
+          "Retrofit library for REST APIs",
+          "Setting up Retrofit",
+          "Defining API interfaces",
+          "GET, POST, PUT, DELETE requests",
+          "Query parameters and path variables",
+          "Request and response models",
+          "JSON parsing with Gson/Moshi",
+          "kotlinx.serialization in Android",
+          "OkHttp interceptors",
+          "Authentication headers",
+          "Error handling in network calls",
+          "Coroutines with Retrofit",
+          "Loading states management",
+          "Offline caching strategies"
+        ],
+        "projects": [
+          "Weather app with API",
+          "News reader app",
+          "Movie database app (TMDB API)",
+          "REST API consumer",
+          "Authenticated API calls",
+          "Offline-first with Room cache",
+          "Error handling examples",
+          "Loading state UI"
+        ],
+        "practice": "Build 10 API-consuming apps"
+      },
+      "week_64_65": {
+        "title": "Image Loading & Media",
+        "topics": [
+          "Coil library for image loading",
+          "Glide library",
+          "Image caching strategies",
+          "Placeholder and error images",
+          "Image transformations",
+          "AsyncImage in Compose",
+          "Loading images from network",
+          "Camera integration",
+          "Gallery access",
+          "Image picker",
+          "Video playback: ExoPlayer",
+          "Media permissions",
+          "MediaStore API",
+          "Uploading images to server"
+        ],
+        "projects": [
+          "Image gallery app with Coil",
+          "Photo viewer with zoom",
+          "Camera app",
+          "Image picker implementation",
+          "Video player app",
+          "Image upload to server",
+          "Media browser",
+          "Photo editor basics"
+        ],
+        "practice": "Build 8 media-handling apps"
+      },
+      "week_66_67": {
+        "title": "Advanced UI & Material Design",
+        "topics": [
+          "Material Design 3 principles",
+          "Dynamic theming",
+          "Color schemes in Material 3",
+          "Custom themes and colors",
+          "Typography in Compose",
+          "Scaffold and top app bar",
+          "Bottom sheet in Compose",
+          "Dialogs and alerts",
+          "Snackbars and toasts",
+          "Tabs with TabRow",
+          "Chips and badges",
+          "Progress indicators",
+          "Swipe to refresh",
+          "Pull to refresh",
+          "Custom composables creation"
+        ],
+        "projects": [
+          "Material Design 3 showcase app",
+          "Custom themed app",
+          "Bottom sheet examples",
+          "Dialog-based workflows",
+          "Tab-based navigation",
+          "Complex custom UI components",
+          "Accessible UI implementation",
+          "Responsive layouts"
+        ],
+        "practice": "Design 10 Material Design apps"
+      },
+      "week_68_69": {
+        "title": "Background Work & Services",
+        "topics": [
+          "WorkManager for background tasks",
+          "One-time and periodic work",
+          "Constraints for WorkManager",
+          "Chaining work requests",
+          "Monitoring work status",
+          "Foreground services",
+          "Notifications in Android",
+          "NotificationCompat builder",
+          "Notification channels",
+          "Push notifications with Firebase",
+          "FCM integration",
+          "Handling notification clicks",
+          "AlarmManager for scheduling",
+          "JobScheduler basics"
+        ],
+        "projects": [
+          "Background sync with WorkManager",
+          "Periodic data refresh",
+          "Notification system",
+          "Push notification handler",
+          "Foreground service example",
+          "Reminder app with AlarmManager",
+          "Download manager",
+          "Background upload service"
+        ],
+        "practice": "Build 8 background processing apps"
+      },
+      "week_70": {
+        "title": "Testing Android Apps",
+        "topics": [
+          "Unit testing in Android",
+          "JUnit for Android",
+          "Testing ViewModels",
+          "Testing coroutines in Android",
+          "Mocking with MockK",
+          "Instrumented tests",
+          "Espresso for UI testing",
+          "Compose UI testing",
+          "Testing navigation",
+          "Testing Room database",
+          "Testing network calls",
+          "Test doubles and fakes",
+          "Screenshot testing",
+          "Code coverage in Android"
+        ],
+        "projects": [
+          "Comprehensive unit tests",
+          "ViewModel test suite",
+          "UI tests with Espresso",
+          "Compose UI tests",
+          "Integration tests",
+          "E2E testing",
+          "TDD Android app",
+          "Tested production app"
+        ],
+        "practice": "Write tests for all Android projects, 80%+ coverage"
+      }
+    },
+    "month_17_18": {
+      "title": "PHASE 3 COMPLETION - Month 9 Advanced Topics",
+      "weeks": "Week 27-39 (distributed)",
+      "week_71_72": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Android performance profiling",
+          "CPU profiler in Android Studio",
+          "Memory profiler",
+          "Network profiler",
+          "Layout Inspector",
+          "Detecting memory leaks",
+          "LeakCanary integration",
+          "App startup optimization",
+          "Lazy loading strategies",
+          "Image optimization",
+          "Database query optimization",
+          "Compose performance",
+          "Recomposition optimization",
+          "Battery optimization",
+          "App size reduction"
+        ],
+        "projects": [
+          "Profiled and optimized app",
+          "Memory leak fixes",
+          "Performance benchmark",
+          "Optimized startup time",
+          "Lazy-loaded content",
+          "APK size optimization",
+          "Battery-efficient app"
+        ],
+        "practice": "Optimize all previous Android apps"
+      },
+      "week_73_74": {
+        "title": "Publishing & Deployment",
+        "topics": [
+          "Preparing app for release",
+          "App signing with keystore",
+          "ProGuard and R8",
+          "Code obfuscation",
+          "Building release APK/AAB",
+          "Google Play Console setup",
+          "Creating store listing",
+          "Screenshots and graphics",
+          "App versioning strategy",
+          "Release management",
+          "Beta testing with Play Console",
+          "Internal testing tracks",
+          "App updates and migrations",
+          "Analytics integration: Firebase Analytics",
+          "Crash reporting: Firebase Crashlytics"
+        ],
+        "projects": [
+          "Signed release build",
+          "Play Store ready app",
+          "Complete store listing",
+          "Beta test distribution",
+          "Analytics-enabled app",
+          "Crash reporting setup",
+          "Update mechanism"
+        ],
+        "practice": "Prepare 3 apps for Play Store"
+      },
+      "week_75_76": {
+        "title": "Advanced Features & Libraries",
+        "topics": [
+          "Location services and maps",
+          "Google Maps integration",
+          "Geolocation and GPS",
+          "Firebase Firestore",
+          "Real-time database",
+          "Firebase Authentication",
+          "Social login (Google, Facebook)",
+          "Firebase Storage for files",
+          "Paging 3 library for pagination",
+          "In-app purchases",
+          "AdMob for monetization",
+          "WebView integration",
+          "Deep linking and app links",
+          "Widget development",
+          "Wear OS basics"
+        ],
+        "projects": [
+          "Maps-based location app",
+          "Firebase-backed chat app",
+          "Social login integration",
+          "Paginated list with Paging 3",
+          "App with in-app purchases",
+          "Ad-supported app",
+          "Deep linking demo",
+          "Home screen widget"
+        ],
+        "practice": "Build 10 advanced feature apps"
+      },
+      "week_77": {
+        "title": "Security Best Practices",
+        "topics": [
+          "Android security overview",
+          "Secure data storage",
+          "Encrypted SharedPreferences",
+          "Keystore system",
+          "Biometric authentication",
+          "Certificate pinning",
+          "ProGuard for security",
+          "SQL injection prevention",
+          "Secure network communication",
+          "HTTPS enforcement",
+          "API key protection",
+          "Code obfuscation",
+          "Root detection",
+          "SafetyNet API",
+          "OWASP mobile security"
+        ],
+        "projects": [
+          "Secured data storage app",
+          "Biometric auth implementation",
+          "Certificate pinned API calls",
+          "Encrypted database",
+          "Secure authentication flow",
+          "Obfuscated production app"
+        ],
+        "practice": "Security audit all Android apps"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "Complete Android app architecture",
+          "Jetpack Compose UI",
+          "MVVM with Clean Architecture",
+          "Room database",
+          "Retrofit networking",
+          "Hilt dependency injection",
+          "Comprehensive testing",
+          "Play Store deployment"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Social Media Android App",
+          "Features: User profiles, posts, comments, likes, real-time feed, image upload, push notifications, Material Design 3, offline support, Clean Architecture",
+          "Alternative: E-commerce Shopping App (products, cart, checkout, orders)",
+          "Alternative: Fitness Tracking App (workouts, progress, charts, reminders)",
+          "Alternative: Expense Manager (budgets, categories, reports, charts)"
+        ],
+        "assessment": "Phase 3 Final Exam - Android development comprehensive test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Kotlin Multiplatform, Cloud & Career Excellence (Months 10-12, Weeks 40-52)",
+    "description": "Master Kotlin Multiplatform, advanced backend, cloud deployment, system design, and professional career preparation.",
+    "month_19_20": {
+      "title": "Months 10-11: Kotlin Multiplatform & Advanced Topics",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Kotlin Multiplatform Mobile (KMM)",
+        "topics": [
+          "Introduction to Kotlin Multiplatform",
+          "KMM architecture",
+          "Shared code vs platform-specific code",
+          "Expect/actual mechanism",
+          "Setting up KMM project",
+          "Shared business logic",
+          "Shared networking code",
+          "Shared data models",
+          "Platform-specific implementations",
+          "iOS integration with Swift",
+          "Android integration",
+          "Ktor client in KMM",
+          "SQLDelight for shared database",
+          "Dependency injection in KMM: Koin",
+          "Testing shared code"
+        ],
+        "projects": [
+          "KMM project setup",
+          "Shared API client",
+          "Shared database layer",
+          "Business logic sharing",
+          "Cross-platform models",
+          "Platform-specific UI",
+          "Complete KMM app (Android + iOS)",
+          "Testing shared modules"
+        ],
+        "practice": "Build 5 KMM applications"
+      },
+      "week_81_82": {
+        "title": "Kotlin Multiplatform for All Platforms",
+        "topics": [
+          "Kotlin/JS for web frontend",
+          "Kotlin/JS with React",
+          "Kotlin/Native introduction",
+          "Kotlin for desktop: Compose Desktop",
+          "Compose Multiplatform",
+          "Sharing UI code with Compose",
+          "Multiplatform libraries",
+          "kotlinx libraries ecosystem",
+          "Serialization across platforms",
+          "Date-time handling multiplatform",
+          "Coroutines on all platforms",
+          "Publishing multiplatform libraries",
+          "Gradle setup for multiplatform"
+        ],
+        "projects": [
+          "Kotlin/JS web app",
+          "Compose Desktop application",
+          "Compose Multiplatform (Android, Desktop, iOS)",
+          "Multiplatform library creation",
+          "Shared UI components",
+          "Cross-platform game",
+          "Published multiplatform library"
+        ],
+        "practice": "Build 6 multiplatform projects"
+      },
+      "week_83_84": {
+        "title": "Advanced Backend with Kotlin",
+        "topics": [
+          "Microservices with Kotlin",
+          "Service discovery",
+          "API Gateway pattern",
+          "Circuit breaker in Kotlin",
+          "Message queues: RabbitMQ with Kotlin",
+          "Apache Kafka with Kotlin",
+          "Event-driven architecture",
+          "CQRS pattern in Kotlin",
+          "GraphQL server with Kotlin",
+          "gRPC with Kotlin",
+          "WebSocket servers",
+          "Real-time applications",
+          "Reactive programming with Kotlin",
+          "Project Reactor with Kotlin",
+          "Database sharding strategies"
+        ],
+        "projects": [
+          "Microservices architecture",
+          "Event-driven system",
+          "GraphQL API server",
+          "gRPC service",
+          "Real-time chat backend",
+          "Reactive backend service",
+          "Message queue integration",
+          "CQRS implementation"
+        ],
+        "practice": "Build 8 advanced backend systems"
+      },
+      "week_85_86": {
+        "title": "Cloud & Deployment",
+        "topics": [
+          "Containerization with Docker",
+          "Docker for Kotlin apps",
+          "Multi-stage Docker builds",
+          "Kubernetes basics",
+          "Deploying Kotlin to K8s",
+          "Helm charts for Kotlin",
+          "AWS deployment strategies",
+          "AWS Lambda with Kotlin",
+          "AWS Elastic Beanstalk",
+          "Google Cloud Platform",
+          "GCP Cloud Run for Kotlin",
+          "Azure deployment",
+          "CI/CD pipelines",
+          "GitHub Actions for Kotlin",
+          "Monitoring and logging"
+        ],
+        "projects": [
+          "Dockerized Kotlin app",
+          "Kubernetes deployment",
+          "Serverless function (Kotlin)",
+          "AWS deployment",
+          "GCP Cloud Run deployment",
+          "CI/CD pipeline setup",
+          "Monitored production service",
+          "Auto-scaling setup"
+        ],
+        "practice": "Deploy all apps to cloud platforms"
+      },
+      "week_87": {
+        "title": "Observability & DevOps",
+        "topics": [
+          "Application monitoring",
+          "Metrics with Micrometer",
+          "Prometheus integration",
+          "Grafana dashboards",
+          "Distributed tracing",
+          "OpenTelemetry with Kotlin",
+          "Logging best practices",
+          "Structured logging",
+          "Log aggregation: ELK stack",
+          "Error tracking: Sentry",
+          "Performance monitoring",
+          "APM tools integration",
+          "Infrastructure as Code",
+          "Terraform basics",
+          "GitOps practices"
+        ],
+        "projects": [
+          "Monitoring setup",
+          "Grafana dashboard creation",
+          "Distributed tracing implementation",
+          "Centralized logging",
+          "Error tracking integration",
+          "Performance monitoring",
+          "IaC with Terraform"
+        ],
+        "practice": "Add observability to all services"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: System Design & Career Excellence",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "System Design Fundamentals",
+        "topics": [
+          "System design principles",
+          "Scalability: horizontal vs vertical",
+          "Load balancing",
+          "Caching strategies",
+          "CDN usage",
+          "Database scaling",
+          "Sharding and partitioning",
+          "CAP theorem",
+          "Consistency models",
+          "Microservices design",
+          "API design best practices",
+          "Rate limiting",
+          "High availability design",
+          "Disaster recovery",
+          "System design interview prep"
+        ],
+        "projects": [
+          "Design URL shortener",
+          "Design messaging system",
+          "Design social media feed",
+          "Design e-commerce platform",
+          "Design video streaming service",
+          "Design notification system",
+          "System design documentation"
+        ],
+        "practice": "Solve 20 system design problems"
+      },
+      "week_90_91": {
+        "title": "Performance & Optimization",
+        "topics": [
+          "Performance profiling",
+          "JVM tuning for Kotlin",
+          "Memory management",
+          "Garbage collection optimization",
+          "Coroutine performance",
+          "Flow optimization",
+          "Database query optimization",
+          "Caching strategies",
+          "Load testing with Gatling",
+          "Benchmarking with JMH",
+          "Code optimization techniques",
+          "Algorithmic optimization",
+          "Resource utilization",
+          "Monitoring performance metrics"
+        ],
+        "projects": [
+          "Performance profiling suite",
+          "Load testing framework",
+          "Optimized backend service",
+          "JVM tuning example",
+          "Benchmark suite",
+          "Cache optimization",
+          "Performance dashboard"
+        ],
+        "practice": "Optimize all backend services"
+      },
+      "week_92_93": {
+        "title": "Security & Best Practices",
+        "topics": [
+          "Security best practices",
+          "OWASP Top 10",
+          "Secure coding in Kotlin",
+          "Input validation",
+          "SQL injection prevention",
+          "XSS prevention",
+          "CSRF protection",
+          "Authentication best practices",
+          "OAuth 2.0 and OIDC",
+          "JWT security",
+          "API security",
+          "Secrets management",
+          "Encryption in Kotlin",
+          "Security testing",
+          "Compliance: GDPR, etc."
+        ],
+        "projects": [
+          "Secured API implementation",
+          "OAuth integration",
+          "Encrypted data storage",
+          "Security audit tool",
+          "Penetration testing",
+          "Security-hardened app",
+          "Compliance checklist"
+        ],
+        "practice": "Security audit all projects"
+      },
+      "week_94_95": {
+        "title": "Open Source & Community",
+        "topics": [
+          "Contributing to Kotlin projects",
+          "Open source best practices",
+          "Finding projects to contribute",
+          "Making pull requests",
+          "Code review participation",
+          "Creating Kotlin libraries",
+          "Publishing to Maven Central",
+          "Documentation writing",
+          "Building personal brand",
+          "Technical blogging",
+          "Speaking at conferences",
+          "Community engagement",
+          "Mentoring others",
+          "Building portfolio"
+        ],
+        "projects": [
+          "Contribute to 5 Kotlin projects",
+          "Create own Kotlin library",
+          "Published open source project",
+          "Technical blog posts",
+          "Conference talk preparation",
+          "Portfolio website"
+        ],
+        "practice": "Active community participation"
+      },
+      "week_96": {
+        "title": "Advanced Kotlin Topics",
+        "topics": [
+          "Kotlin compiler plugins",
+          "KSP (Kotlin Symbol Processing)",
+          "Annotation processing",
+          "Code generation",
+          "Custom Gradle plugins",
+          "Kotlin scripting advanced",
+          "Meta-programming",
+          "Kotlin compiler internals",
+          "Advanced type system",
+          "Phantom types",
+          "Higher-kinded types workarounds",
+          "Arrow library for FP",
+          "Category theory basics",
+          "Monads in Kotlin"
+        ],
+        "projects": [
+          "Custom compiler plugin",
+          "KSP processor",
+          "Code generation tool",
+          "Gradle plugin creation",
+          "Advanced scripting",
+          "FP library with Arrow",
+          "Type-safe DSL with advanced types"
+        ],
+        "practice": "Explore 5 advanced topics"
+      }
+    },
+    "month_23": {
+      "title": "PHASE 4 COMPLETION - Career Launch",
+      "weeks": "Week 40-52 (distributed)",
+      "week_97": {
+        "title": "Interview Preparation",
+        "topics": [
+          "Kotlin interview preparation",
+          "Core Kotlin questions",
+          "OOP in Kotlin questions",
+          "Coroutines interview topics",
+          "Android interview prep",
+          "Jetpack Compose questions",
+          "Backend Kotlin questions",
+          "System design interviews",
+          "Data structures in Kotlin",
+          "Algorithms in Kotlin",
+          "LeetCode with Kotlin",
+          "Behavioral interviews",
+          "STAR method",
+          "Salary negotiation",
+          "Job search strategies"
+        ],
+        "projects": [
+          "Solve 200+ LeetCode (Kotlin)",
+          "System design case studies",
+          "Mock interview practice",
+          "Interview prep guide",
+          "Behavioral question bank"
+        ],
+        "practice": "Daily coding challenges and mock interviews"
+      },
+      "week_98": {
+        "title": "Professional Development",
+        "topics": [
+          "Resume optimization",
+          "LinkedIn profile enhancement",
+          "GitHub portfolio",
+          "Personal website creation",
+          "Cover letter writing",
+          "Networking strategies",
+          "Job application process",
+          "Technical interviews",
+          "Coding challenges",
+          "Take-home assignments",
+          "Interview follow-up",
+          "Offer negotiation",
+          "Career path planning",
+          "Continuous learning plan"
+        ],
+        "projects": [
+          "Professional resume",
+          "Optimized LinkedIn",
+          "GitHub showcase",
+          "Portfolio website",
+          "Interview prep materials",
+          "Learning roadmap"
+        ],
+        "practice": "Apply to 20+ positions"
+      },
+      "week_99": {
+        "title": "Specialization & Niches",
+        "topics": [
+          "Android specialization path",
+          "Backend Kotlin specialization",
+          "Kotlin Multiplatform expert",
+          "Kotlin for data science",
+          "Kotlin for game development",
+          "Kotlin for embedded systems",
+          "Consulting career path",
+          "Freelancing with Kotlin",
+          "Startup opportunities",
+          "Product development",
+          "Technical leadership",
+          "Architecture roles",
+          "Teaching and mentoring",
+          "Content creation"
+        ],
+        "projects": [
+          "Specialization portfolio",
+          "Niche expertise demo",
+          "Freelance service offering",
+          "Product MVP",
+          "Technical content",
+          "Mentorship program"
+        ],
+        "practice": "Choose and pursue specialization"
+      },
+      "week_100": {
+        "title": "Future of Kotlin",
+        "topics": [
+          "Kotlin roadmap",
+          "Upcoming Kotlin features",
+          "Kotlin 2.0 and beyond",
+          "Industry trends",
+          "Emerging technologies",
+          "Kotlin in AI/ML",
+          "Kotlin for IoT",
+          "Kotlin for blockchain",
+          "Cross-platform future",
+          "WebAssembly with Kotlin",
+          "Staying updated",
+          "Continuous learning resources",
+          "Community involvement",
+          "Conference participation"
+        ],
+        "projects": [
+          "Experimental features demo",
+          "Emerging tech integration",
+          "Innovation project",
+          "Future-ready portfolio"
+        ],
+        "practice": "Stay current with ecosystem"
+      }
+    },
+    "month_24": {
+      "title": "Final Month - Ultimate Capstone & Launch",
+      "weeks": "Week 49-52",
+      "week_101_102": {
+        "title": "Final Capstone Project - Part 1",
+        "topics": [
+          "Project planning",
+          "Requirements analysis",
+          "Architecture design",
+          "Technology selection",
+          "Database design",
+          "API design",
+          "UI/UX planning",
+          "Development workflow",
+          "Agile methodology",
+          "Sprint planning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Cross-Platform Application",
+          "Option 1: E-commerce Platform (Android + Backend + Admin Web)",
+          "KMM shared logic, Jetpack Compose UI, Ktor backend, Admin panel",
+          "Option 2: Social Media Platform (Android + iOS + Backend)",
+          "Full-stack with KMM, real-time features, cloud deployment",
+          "Option 3: Productivity Suite (Android + Desktop + Web)",
+          "Compose Multiplatform, offline-first, sync across devices",
+          "Option 4: Fitness & Health Platform (Mobile + Wearables + Backend)",
+          "Tracking, analytics, social features, integrations"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Part 2",
+        "topics": [
+          "Implementation completion",
+          "Testing all layers",
+          "Performance optimization",
+          "Security hardening",
+          "Documentation",
+          "Cloud deployment",
+          "CI/CD setup",
+          "Monitoring",
+          "Beta testing",
+          "Final polish"
+        ],
+        "deliverables": [
+          "Complete source code on GitHub",
+          "Android app on Play Store",
+          "Backend deployed to cloud",
+          "API documentation",
+          "Architecture documentation",
+          "Test coverage 85%+",
+          "CI/CD pipeline",
+          "Monitoring dashboard",
+          "User documentation",
+          "Video demo",
+          "Presentation deck"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & Beyond",
+        "topics": [
+          "Portfolio finalization",
+          "Resume perfection",
+          "LinkedIn optimization",
+          "GitHub showcase",
+          "Job applications",
+          "Interview scheduling",
+          "Networking events",
+          "Conference attendance",
+          "Blog launch",
+          "Open source maintenance",
+          "Continuous learning",
+          "Community leadership",
+          "Mentorship",
+          "Career goals"
+        ],
+        "deliverables": [
+          "Professional portfolio with 50+ projects",
+          "Polished resume for Kotlin roles",
+          "LinkedIn with certifications",
+          "GitHub with 100+ contributions",
+          "10+ technical blog posts",
+          "Active community presence",
+          "Job offers in hand",
+          "Continuous learning plan",
+          "Mentorship connections",
+          "Career roadmap"
+        ],
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION - Complete Kotlin mastery evaluation"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-3): 25+ foundational projects - console apps, functional programs, OOP systems",
+      "Phase 2 (Months 4-6): 20+ advanced projects - coroutines, DSLs, backend APIs, design patterns",
+      "Phase 3 (Months 7-9): 25+ Android projects - Compose UIs, full apps, production-ready applications",
+      "Phase 4 (Months 10-12): 15+ professional projects - multiplatform, cloud, distributed systems",
+      "Final: 5 major capstone projects demonstrating complete expertise"
+    ],
+    "total_projects_built": "80+ projects from beginner to professional cross-platform systems",
+    "skills_mastered": [
+      "Core Kotlin: Syntax, null safety, functional programming, OOP, collections, coroutines, Flow",
+      "Advanced Kotlin: Generics, delegation, DSLs, reflection, annotations, meta-programming",
+      "Android Development: Jetpack Compose, Material Design 3, Architecture Components, Room, Retrofit",
+      "Android Advanced: Navigation, Hilt, WorkManager, notifications, testing, performance",
+      "Backend Kotlin: Ktor, Spring Boot, Exposed, REST APIs, WebSockets, microservices",
+      "Kotlin Multiplatform: KMM, shared code, expect/actual, Compose Multiplatform",
+      "Databases: Room, Exposed, SQLDelight, MongoDB, Redis, query optimization",
+      "Networking: Retrofit, Ktor client, OkHttp, REST, GraphQL, gRPC",
+      "Testing: JUnit, Kotest, MockK, Espresso, Compose testing, property-based testing",
+      "DevOps: Docker, Kubernetes, CI/CD, GitHub Actions, monitoring, logging",
+      "Cloud: AWS, GCP, Azure, serverless, containers, orchestration",
+      "Tools: IntelliJ IDEA, Android Studio, Gradle, Git, Postman, profilers"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "4-6 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live coding and doubt clearing sessions",
+      "mentorship": "1-on-1 expert Kotlin developer mentorship",
+      "community": "Active Discord community with 24/7 peer support",
+      "code_review": "Expert code reviews for all major projects",
+      "career_support": "Resume review, mock interviews, job referrals",
+      "lifetime_access": "All content, future updates, new Kotlin versions",
+      "placement_assistance": "Dedicated placement with Android/Kotlin companies",
+      "interview_prep": "Mock interviews with industry professionals"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase (4 certificates)",
+      "final_certificate": "Professional Kotlin Developer Certification",
+      "android_certificate": "Android Developer with Kotlin Certificate",
+      "multiplatform_certificate": "Kotlin Multiplatform Specialist Certificate",
+      "linkedin_badge": "Digital badges for LinkedIn profile",
+      "industry_recognized": "Recognized by top tech companies",
+      "portfolio_projects": "50+ production-ready portfolio projects",
+      "jetbrains_prep": "Preparation for JetBrains Kotlin certification"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required - open to all backgrounds",
+    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
+    "age": "12+ years (separate learning tracks for kids, teens, adults)",
+    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM, internet connection",
+    "time_commitment": "15-20 hours per week consistently for best results",
+    "english": "Basic reading comprehension (materials also in Hindi)",
+    "motivation": "Strong desire to become a professional Kotlin developer",
+    "math": "Basic mathematics (taught as needed)"
+  },
+  "who_is_this_for": {
+    "kids": "Age 12-14: Simplified track, visual learning, game-based projects",
+    "teens": "Age 15-18: Student-focused, college prep, app development projects",
+    "students": "College students: Placement prep, internship readiness, portfolio building",
+    "working_professionals": "Career switchers from any background to Kotlin developer",
+    "java_developers": "Java developers wanting modern Kotlin ecosystem",
+    "android_developers": "Android devs wanting to master Kotlin deeply",
+    "backend_engineers": "Backend developers adding Kotlin to skillset",
+    "entrepreneurs": "Build Android apps and backends for your startup",
+    "freelancers": "Offer Kotlin/Android development services",
+    "anyone": "Anyone passionate about modern mobile and backend development"
+  },
+  "career_paths_after_completion": [
+    "Android Developer (Junior to Senior)",
+    "Kotlin Developer",
+    "Mobile Application Developer",
+    "Full Stack Kotlin Developer",
+    "Backend Developer (Kotlin)",
+    "Kotlin Multiplatform Developer",
+    "Mobile Architect",
+    "Technical Lead (Android/Kotlin)",
+    "Solutions Architect",
+    "DevOps Engineer (Kotlin focus)",
+    "Cloud Engineer",
+    "Principal Engineer",
+    "Freelance Kotlin Consultant",
+    "Technical Trainer",
+    "Startup Founder / CTO"
+  ],
+  "salary_expectations": {
+    "after_3_months": "₹3-6 LPA (Junior Kotlin/Android Developer)",
+    "after_6_months": "₹6-10 LPA (Android Developer)",
+    "after_9_months": "₹10-18 LPA (Senior Android Developer)",
+    "after_12_months": "₹15-30 LPA (Senior Kotlin Developer / Tech Lead)",
+    "experienced_3_years": "₹20-45 LPA (Lead Developer / Architect)",
+    "freelance": "₹1500-6000/hour based on expertise",
+    "international_usa": "$90k-200k USD (Android/Kotlin Developer to Senior)",
+    "international_europe": "€55k-130k EUR based on country",
+    "product_companies": "₹18-60 LPA in top companies (Google, Meta, etc.)",
+    "startups": "₹15-50 LPA with equity in high-growth startups"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee",
+    "job_assistance": "Job placement with 400+ hiring partners",
+    "lifetime_updates": "Free access to all updates, new Kotlin versions",
+    "mentorship": "Dedicated expert mentor for 12 months and beyond",
+    "certificate": "Industry-recognized certification",
+    "portfolio": "50+ production-ready projects",
+    "community": "Lifetime alumni network access",
+    "career_switch": "Extended support up to 18 months",
+    "skill_guarantee": "Master Kotlin or continue free until you do",
+    "interview_guarantee": "Unlimited mock interviews",
+    "salary_hike": "Average 200-350% salary hike for switchers",
+    "placement_record": "90%+ placement rate within 6 months"
+  }
+}

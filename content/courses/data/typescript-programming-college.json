@@ -1,0 +1,1670 @@
+{
+    "meta": {
+        "slug": "complete-typescript-programming-masterclass-college",
+        "title": "Complete TypeScript Programming Masterclass - Zero to Enterprise Professional",
+        "description": "The most comprehensive 1-year TypeScript programming masterclass. From absolute basics to enterprise-level applications. Master TypeScript fundamentals, React, Node.js, Next.js, GraphQL, databases, cloud deployment, and everything needed for a successful TypeScript career.",
+        "keywords": [
+            "typescript programming",
+            "typescript masterclass",
+            "learn typescript",
+            "typescript for beginners",
+            "react typescript",
+            "node.js typescript",
+            "next.js",
+            "graphql",
+            "typescript enterprise",
+            "typescript web development",
+            "typescript certification",
+            "advanced typescript",
+            "typescript developer",
+            "typescript career",
+            "typescript for kids"
+        ],
+        "category": "Professional TypeScript Development",
+        "price": {
+            "group": "₹1499/month",
+            "personal": "₹4999/month",
+            "lifetime": "₹29,999 (one-time)"
+        },
+        "duration": "12 months (52 weeks)",
+        "level": "Complete Beginner to Enterprise Professional",
+        "commitment": "15-20 hours/week recommended",
+        "certification": "Industry-recognized TypeScript Developer certification upon completion",
+        "image_path": "typescript-college.png"
+    },
+    "program_overview": {
+        "title": "Complete TypeScript Programming Masterclass",
+        "tagline": "From 'Hello World' to Full-Stack Enterprise Applications",
+        "description": "This is not just a TypeScript course—it's a complete transformation into an enterprise-ready TypeScript professional. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled TypeScript developer capable of building scalable full-stack applications, REST APIs, GraphQL services, and cloud-native solutions.\n\nYou'll master TypeScript from ground zero to enterprise architect level: from basic syntax to advanced type systems, from simple scripts to React/Next.js applications, from Node.js servers to microservices architecture. By the end, you'll have built 40+ projects, mastered the entire TypeScript ecosystem, and be ready for senior full-stack developer roles in top tech companies.",
+        "what_makes_this_different": [
+            "Starts from absolute zero - perfect for complete beginners",
+            "Separate learning tracks for kids (12+), teens, and adults",
+            "1 year of structured, industry-aligned learning",
+            "Covers TypeScript + React + Node.js + Next.js + GraphQL",
+            "Real enterprise projects and industry case studies",
+            "Hands-on with latest TypeScript versions (TypeScript 5+)",
+            "Interview preparation for top companies",
+            "Lifetime access with continuous updates",
+            "Build production-ready full-stack portfolio",
+            "Direct path to high-paying TypeScript developer jobs"
+        ],
+        "learning_path": {
+            "phase_1": "Foundation (Months 1-3): JavaScript Basics, TypeScript Fundamentals, Core Concepts",
+            "phase_2": "Intermediate (Months 4-6): Advanced Types, React with TypeScript, Frontend Mastery",
+            "phase_3": "Professional (Months 7-9): Node.js, Express, Databases, REST APIs, Backend Engineering",
+            "phase_4": "Enterprise (Months 10-12): Next.js, GraphQL, Microservices, DevOps, Cloud Deployment"
+        },
+        "career_outcomes": [
+            "Junior TypeScript Developer (after 3 months)",
+            "Frontend Developer with TypeScript (after 6 months)",
+            "Full-Stack TypeScript Developer (after 9 months)",
+            "Senior Full-Stack Developer / Solutions Architect (after 12 months)"
+        ]
+    },
+    "phase_1_foundation": {
+        "title": "PHASE 1: Foundation & TypeScript Fundamentals (Months 1-3, Weeks 1-13)",
+        "description": "Build rock-solid JavaScript and TypeScript fundamentals. Learn programming logic, master TypeScript syntax, type systems, and create your first applications.",
+        "month_1_2": {
+            "title": "Months 1-2: JavaScript & TypeScript Fundamentals",
+            "weeks": "Week 1-8",
+            "week_1_2": {
+                "title": "Introduction to Programming & JavaScript Basics",
+                "topics": [
+                    "What is programming? Introduction to software development",
+                    "JavaScript ecosystem: browsers, Node.js, runtime environments",
+                    "Why TypeScript? Benefits over plain JavaScript",
+                    "Installing Node.js and npm package manager",
+                    "Setting up development environment: VS Code with TypeScript extensions",
+                    "Understanding IDE features: IntelliSense, debugging, extensions",
+                    "Your first JavaScript program: Hello World",
+                    "JavaScript program structure: statements, expressions",
+                    "Running JavaScript in browser console and Node.js",
+                    "Comments: single-line (//), multi-line (/* */), documentation",
+                    "JavaScript coding conventions and naming standards",
+                    "Console methods: log, error, warn, table",
+                    "Introduction to ECMAScript versions (ES6+)"
+                ],
+                "projects": [
+                    "Hello World variations with personalized messages",
+                    "Simple output programs using console.log",
+                    "Personal information display program",
+                    "ASCII art generator in JavaScript",
+                    "Interactive greeting program"
+                ],
+                "practice": "Daily: 30 min JavaScript syntax practice, write 5-10 simple programs"
+            },
+            "week_3_4": {
+                "title": "Variables, Data Types & Operators",
+                "topics": [
+                    "Variables: var, let, const - differences and best practices",
+                    "Primitive data types: string, number, boolean, null, undefined, symbol, bigint",
+                    "Type coercion: implicit and explicit conversion",
+                    "typeof operator for type checking",
+                    "Template literals and string interpolation",
+                    "Numbers: integers, floats, Infinity, NaN",
+                    "Operators: arithmetic (+, -, *, /, %, **, ++, --)",
+                    "Relational operators: ==, ===, !=, !==, >, <, >=, <=",
+                    "Logical operators: &&, ||, !, nullish coalescing (??)",
+                    "Assignment operators: =, +=, -=, *=, /=, %=",
+                    "Bitwise operators: &, |, ^, ~, <<, >>, >>>",
+                    "Ternary operator: ? :",
+                    "Operator precedence and associativity",
+                    "Optional chaining operator (?.) and its uses"
+                ],
+                "projects": [
+                    "Simple calculator (four basic operations)",
+                    "Temperature converter (Celsius, Fahrenheit, Kelvin)",
+                    "Age calculator with detailed output",
+                    "BMI calculator with health categories",
+                    "Currency converter with exchange rates",
+                    "Area and perimeter calculator for shapes",
+                    "Compound interest calculator"
+                ],
+                "practice": "Solve 30 problems on variables, data types, and operators"
+            },
+            "week_5_6": {
+                "title": "Control Flow & Functions",
+                "topics": [
+                    "Boolean expressions and truthy/falsy values",
+                    "If statement: single condition execution",
+                    "If-else statement: two-way branching",
+                    "If-else-if ladder: multiple conditions",
+                    "Nested if statements",
+                    "Switch statement: multi-way branching",
+                    "Switch with fall-through and break",
+                    "While loop: pre-tested loop",
+                    "Do-while loop: post-tested loop",
+                    "For loop: counter-based iteration",
+                    "For-of loop: iterating arrays/strings",
+                    "For-in loop: iterating object properties",
+                    "Break and continue statements",
+                    "Labeled statements for nested loops",
+                    "Function declarations and expressions",
+                    "Arrow functions: concise syntax",
+                    "Parameters, arguments, default parameters",
+                    "Rest parameters and spread operator",
+                    "Return statement and return values",
+                    "Function scope and hoisting"
+                ],
+                "projects": [
+                    "Number guessing game with attempts limit",
+                    "Grade calculator with letter grades",
+                    "Even/odd checker and list generator",
+                    "Prime number checker and generator",
+                    "Multiplication table generator",
+                    "Factorial calculator (iterative and recursive)",
+                    "Fibonacci series generator",
+                    "Pattern printing (stars, numbers, pyramids)",
+                    "FizzBuzz challenge",
+                    "Menu-driven calculator",
+                    "Simple ATM simulation"
+                ],
+                "practice": "Solve 40 control flow and function problems"
+            },
+            "week_7_8": {
+                "title": "Arrays, Objects & ES6+ Features",
+                "topics": [
+                    "Arrays: declaration, creation, initialization",
+                    "Array indexing and accessing elements",
+                    "Array methods: push, pop, shift, unshift, splice",
+                    "Array iteration: forEach, map, filter, reduce",
+                    "Array methods: find, findIndex, some, every, includes",
+                    "Array sorting and reversing",
+                    "Spread operator with arrays",
+                    "Destructuring arrays",
+                    "Objects: creation and property access",
+                    "Object methods and 'this' keyword",
+                    "Object shorthand properties and methods",
+                    "Computed property names",
+                    "Object destructuring",
+                    "Spread operator with objects",
+                    "Object.keys(), Object.values(), Object.entries()",
+                    "JSON: parse and stringify",
+                    "Classes: declaration, constructor, methods",
+                    "Class inheritance: extends and super",
+                    "Static methods and properties",
+                    "Getters and setters"
+                ],
+                "projects": [
+                    "Array statistics calculator (sum, average, min, max)",
+                    "Todo list with array operations",
+                    "Linear search and binary search implementation",
+                    "Sorting algorithms: bubble sort, selection sort",
+                    "Student grade management system",
+                    "Contact book with objects",
+                    "Shopping cart implementation",
+                    "Product inventory system",
+                    "Simple class-based game (Rock Paper Scissors)"
+                ],
+                "practice": "Create 25 programs using arrays and objects, solve 30 problems"
+            }
+        },
+        "month_3_4": {
+            "title": "Month 3: TypeScript Core & Type System",
+            "weeks": "Week 9-13",
+            "week_9_10": {
+                "title": "TypeScript Fundamentals & Setup",
+                "topics": [
+                    "Introduction to TypeScript: static typing benefits",
+                    "TypeScript vs JavaScript: key differences",
+                    "Installing TypeScript globally and locally",
+                    "tsconfig.json configuration file",
+                    "Compiler options: target, module, strict mode",
+                    "Basic types: string, number, boolean",
+                    "Type annotations and type inference",
+                    "Arrays with type annotations",
+                    "Tuple types for fixed-length arrays",
+                    "Enum types: numeric and string enums",
+                    "Any type: when and when not to use",
+                    "Unknown type: safe alternative to any",
+                    "Void, null, and undefined types",
+                    "Never type for unreachable code",
+                    "Type assertions: as and angle-bracket syntax",
+                    "Literal types: string, number, boolean literals",
+                    "Union types: combining multiple types",
+                    "Type narrowing and type guards"
+                ],
+                "projects": [
+                    "Convert JavaScript projects to TypeScript",
+                    "Type-safe calculator application",
+                    "Enum-based status system",
+                    "Student management with typed objects",
+                    "Configuration manager with TypeScript",
+                    "Simple CLI tool with TypeScript"
+                ],
+                "practice": "Convert 10 JavaScript programs to TypeScript with proper types"
+            },
+            "week_11_12": {
+                "title": "Interfaces, Type Aliases & Advanced Types",
+                "topics": [
+                    "Interface declaration and usage",
+                    "Optional properties with ?",
+                    "Readonly properties",
+                    "Index signatures for dynamic properties",
+                    "Interface extending other interfaces",
+                    "Implementing interfaces in classes",
+                    "Type aliases with 'type' keyword",
+                    "Interface vs type alias: when to use which",
+                    "Intersection types: combining types with &",
+                    "Discriminated unions for type safety",
+                    "Type guards: typeof, instanceof, in operator",
+                    "User-defined type guards with 'is' keyword",
+                    "Nullable types and strict null checks",
+                    "Optional chaining with types",
+                    "Nullish coalescing with types",
+                    "Function types and signatures",
+                    "Call signatures in interfaces",
+                    "Function overloading in TypeScript"
+                ],
+                "projects": [
+                    "Type-safe user management system",
+                    "Product catalog with interfaces",
+                    "API response types modeling",
+                    "Form validation with types",
+                    "State management with discriminated unions",
+                    "Plugin system with interface contracts",
+                    "Event system with typed events"
+                ],
+                "practice": "Build 15 projects using interfaces and advanced types"
+            },
+            "week_13": {
+                "title": "Generics & Advanced TypeScript",
+                "topics": [
+                    "Introduction to generics: type parameters",
+                    "Generic functions and type inference",
+                    "Generic interfaces",
+                    "Generic classes",
+                    "Generic constraints with extends",
+                    "Multiple type parameters",
+                    "Default type parameters",
+                    "Generic utility types: Partial, Required, Readonly",
+                    "Pick, Omit, Record utility types",
+                    "Extract, Exclude, NonNullable types",
+                    "ReturnType and Parameters utility types",
+                    "Conditional types with extends and infer",
+                    "Mapped types for transforming types",
+                    "Template literal types",
+                    "Keyof operator for type keys",
+                    "Typeof operator in type context",
+                    "Module systems: ES modules in TypeScript",
+                    "Declaration files (.d.ts) basics"
+                ],
+                "projects": [
+                    "Generic data structure library (Stack, Queue, LinkedList)",
+                    "Type-safe API client with generics",
+                    "Generic form handler",
+                    "State container with generic types",
+                    "Generic validation library",
+                    "PHASE 1 MINI CAPSTONE: CLI Task Manager",
+                    "Features: Tasks, categories, priorities, file persistence, full TypeScript typing"
+                ],
+                "practice": "Create 15 generic utilities, solve 30 generics problems",
+                "assessment": "Phase 1 Final Assessment - TypeScript fundamentals and type system test"
+            }
+        }
+    },
+    "phase_2_frontend_mastery": {
+        "title": "PHASE 2: Frontend Mastery with React & TypeScript (Months 4-6, Weeks 14-26)",
+        "description": "Master modern frontend development with React, state management, testing, and build production-ready user interfaces.",
+        "month_7_8": {
+            "title": "Months 4-5: React Fundamentals & Advanced Patterns",
+            "weeks": "Week 14-22",
+            "week_27_28": {
+                "title": "HTML, CSS & DOM Fundamentals",
+                "topics": [
+                    "HTML5 semantic elements and structure",
+                    "Forms, inputs, and validation attributes",
+                    "CSS fundamentals: selectors, specificity, cascade",
+                    "CSS Box Model and layout basics",
+                    "Flexbox for one-dimensional layouts",
+                    "CSS Grid for two-dimensional layouts",
+                    "Responsive design with media queries",
+                    "CSS custom properties (variables)",
+                    "CSS animations and transitions",
+                    "DOM manipulation: selecting elements",
+                    "DOM events: click, submit, input, keyboard",
+                    "Event delegation and bubbling",
+                    "Creating and modifying DOM elements",
+                    "Local Storage and Session Storage",
+                    "Fetch API for HTTP requests"
+                ],
+                "projects": [
+                    "Responsive portfolio website",
+                    "Interactive form with validation",
+                    "Todo app with DOM manipulation",
+                    "Image gallery with lightbox",
+                    "Weather app using Fetch API",
+                    "Quiz application",
+                    "Calculator with UI",
+                    "Responsive navigation menu"
+                ],
+                "practice": "Build 10 interactive web pages with DOM manipulation"
+            },
+            "week_29_30": {
+                "title": "React Fundamentals & JSX",
+                "topics": [
+                    "Introduction to React: component-based architecture",
+                    "Create React App with TypeScript template",
+                    "Vite for React TypeScript projects",
+                    "JSX syntax and expressions",
+                    "Components: functional components",
+                    "Props: passing data to components",
+                    "TypeScript with React: typing props",
+                    "Children prop and composition",
+                    "Conditional rendering techniques",
+                    "Lists and keys in React",
+                    "Event handling in React",
+                    "TypeScript event types",
+                    "Styling: CSS modules, styled-components",
+                    "Tailwind CSS with React",
+                    "Component organization and file structure"
+                ],
+                "projects": [
+                    "Hello World React app with TypeScript",
+                    "Component library with props",
+                    "Card component with typed props",
+                    "Product listing page",
+                    "Navigation component",
+                    "Footer component",
+                    "Button component variants",
+                    "Simple landing page"
+                ],
+                "practice": "Build 15 reusable React components with TypeScript"
+            },
+            "week_31_32": {
+                "title": "React Hooks & State Management",
+                "topics": [
+                    "useState hook for local state",
+                    "Typing useState with TypeScript",
+                    "useEffect hook for side effects",
+                    "Cleanup functions in useEffect",
+                    "useRef hook for DOM references",
+                    "useMemo for expensive calculations",
+                    "useCallback for memoizing functions",
+                    "useReducer for complex state logic",
+                    "Typing useReducer actions and state",
+                    "Custom hooks creation",
+                    "Rules of hooks",
+                    "useContext for prop drilling solution",
+                    "Creating typed context providers",
+                    "React.memo for component memoization",
+                    "Performance optimization strategies"
+                ],
+                "projects": [
+                    "Counter app with useState",
+                    "Todo list with useReducer",
+                    "Form handling with hooks",
+                    "Data fetching with useEffect",
+                    "Theme switcher with useContext",
+                    "Custom useFetch hook",
+                    "Custom useLocalStorage hook",
+                    "Debounced search with useMemo"
+                ],
+                "practice": "Create 10 custom hooks with TypeScript"
+            },
+            "week_33_34": {
+                "title": "Advanced React Patterns",
+                "topics": [
+                    "Compound components pattern",
+                    "Render props pattern",
+                    "Higher-Order Components (HOCs)",
+                    "Custom hooks vs HOCs vs render props",
+                    "Controlled vs uncontrolled components",
+                    "Form libraries: React Hook Form",
+                    "Typing forms with TypeScript",
+                    "Form validation with Zod",
+                    "Error boundaries for error handling",
+                    "Suspense for data fetching",
+                    "React.lazy for code splitting",
+                    "Portal for modals and tooltips",
+                    "Forwarding refs with forwardRef",
+                    "useImperativeHandle hook",
+                    "Accessibility (a11y) in React"
+                ],
+                "projects": [
+                    "Modal component with portals",
+                    "Dropdown menu with compound components",
+                    "Form with React Hook Form and Zod",
+                    "Error boundary wrapper",
+                    "Lazy loaded routes",
+                    "Accessible form components",
+                    "Tooltip component",
+                    "Tabs component with compound pattern"
+                ],
+                "practice": "Implement all advanced patterns in projects"
+            },
+            "week_35": {
+                "title": "React Router & Navigation",
+                "topics": [
+                    "React Router v6 fundamentals",
+                    "BrowserRouter and Route components",
+                    "Link and NavLink for navigation",
+                    "Route parameters and useParams",
+                    "Query strings and useSearchParams",
+                    "Nested routes and Outlet",
+                    "Protected routes implementation",
+                    "useNavigate for programmatic navigation",
+                    "useLocation hook",
+                    "Route guards and authentication",
+                    "404 and error pages",
+                    "Code splitting with routes",
+                    "Scroll restoration",
+                    "Route transitions and animations"
+                ],
+                "projects": [
+                    "Multi-page application with routing",
+                    "Dashboard with nested routes",
+                    "Protected admin routes",
+                    "Blog with dynamic routes",
+                    "E-commerce product pages",
+                    "User profile with tabs"
+                ],
+                "practice": "Build 5 multi-page applications with React Router"
+            }
+        },
+        "month_9_10": {
+            "title": "Month 6: State Management & Testing",
+            "weeks": "Week 23-26",
+            "week_36_37": {
+                "title": "Global State Management",
+                "topics": [
+                    "State management overview and options",
+                    "Redux Toolkit fundamentals",
+                    "Creating slices with createSlice",
+                    "Redux store configuration",
+                    "useSelector and useDispatch hooks",
+                    "TypeScript with Redux Toolkit",
+                    "Async logic with createAsyncThunk",
+                    "RTK Query for data fetching",
+                    "Zustand: lightweight alternative",
+                    "Zustand with TypeScript",
+                    "Jotai: atomic state management",
+                    "React Query/TanStack Query",
+                    "Caching and background refetching",
+                    "Optimistic updates",
+                    "Comparing state management solutions"
+                ],
+                "projects": [
+                    "Todo app with Redux Toolkit",
+                    "Shopping cart with Redux",
+                    "User authentication state",
+                    "Data fetching with RTK Query",
+                    "Blog with TanStack Query",
+                    "Real-time dashboard with Zustand",
+                    "Complex form with state management"
+                ],
+                "practice": "Implement state management in all previous projects"
+            },
+            "week_38_39": {
+                "title": "Testing React Applications",
+                "topics": [
+                    "Testing pyramid: unit, integration, e2e",
+                    "Jest testing framework setup",
+                    "React Testing Library fundamentals",
+                    "Rendering components for testing",
+                    "Querying elements: getBy, findBy, queryBy",
+                    "User event simulation",
+                    "Testing forms and inputs",
+                    "Testing async operations",
+                    "Mocking API calls with MSW",
+                    "Testing hooks with renderHook",
+                    "Testing context providers",
+                    "Snapshot testing",
+                    "Code coverage reports",
+                    "Cypress for E2E testing",
+                    "Playwright introduction"
+                ],
+                "projects": [
+                    "Test suite for component library",
+                    "Form testing with user events",
+                    "API mocking with MSW",
+                    "E2E tests with Cypress",
+                    "Integration tests for features",
+                    "Accessibility testing"
+                ],
+                "practice": "Write tests for all React components, aim for 80%+ coverage"
+            },
+            "week_40_41": {
+                "title": "Build Tools & Performance",
+                "topics": [
+                    "Webpack fundamentals and configuration",
+                    "Vite: modern build tool",
+                    "Environment variables management",
+                    "Bundle analysis and optimization",
+                    "Tree shaking for dead code elimination",
+                    "Code splitting strategies",
+                    "Lazy loading components and routes",
+                    "Image optimization",
+                    "React DevTools profiler",
+                    "Performance measurement with Web Vitals",
+                    "React.memo and useMemo optimization",
+                    "Virtualization for long lists",
+                    "Service workers basics",
+                    "PWA fundamentals",
+                    "Lighthouse audits"
+                ],
+                "projects": [
+                    "Optimized production build",
+                    "Bundle size optimization",
+                    "Performance-optimized dashboard",
+                    "Virtualized list component",
+                    "PWA conversion of existing app",
+                    "Image gallery with lazy loading"
+                ],
+                "practice": "Optimize all projects for production performance"
+            },
+            "week_42_43": {
+                "title": "UI Libraries & Design Systems",
+                "topics": [
+                    "Component libraries overview",
+                    "Material-UI (MUI) with TypeScript",
+                    "Chakra UI fundamentals",
+                    "Ant Design components",
+                    "Headless UI for unstyled components",
+                    "Radix UI primitives",
+                    "Shadcn/ui component system",
+                    "Theme customization",
+                    "Design tokens and theming",
+                    "Dark mode implementation",
+                    "Responsive design patterns",
+                    "Animation libraries: Framer Motion",
+                    "Building design systems",
+                    "Storybook for component documentation",
+                    "Component documentation best practices"
+                ],
+                "projects": [
+                    "Dashboard with MUI components",
+                    "Landing page with Chakra UI",
+                    "Custom design system",
+                    "Storybook documentation",
+                    "Animated page transitions",
+                    "Dark mode toggle implementation"
+                ],
+                "practice": "Build 5 projects with different UI libraries"
+            },
+            "week_44": {
+                "title": "Phase 2 Capstone Project",
+                "topics": [
+                    "Full frontend application architecture",
+                    "Component design and organization",
+                    "State management implementation",
+                    "Routing and navigation",
+                    "Form handling and validation",
+                    "API integration",
+                    "Testing strategy",
+                    "Performance optimization"
+                ],
+                "projects": [
+                    "PHASE 2 CAPSTONE: E-commerce Frontend",
+                    "Features: Product catalog, cart, wishlist, user auth UI, checkout flow, responsive design, dark mode, comprehensive testing",
+                    "Alternative: Social Media Dashboard (posts, feeds, profiles, messaging UI)",
+                    "Alternative: Project Management Tool (boards, tasks, drag-drop, real-time updates)",
+                    "Alternative: Learning Platform Frontend (courses, progress, quizzes, video player)"
+                ],
+                "assessment": "Phase 2 Final Exam - React and Frontend comprehensive test"
+            }
+        }
+    },
+    "phase_3_backend_engineering": {
+        "title": "PHASE 3: Backend Engineering with Node.js & TypeScript (Months 7-9, Weeks 27-39)",
+        "description": "Master server-side development with Node.js, Express, databases, REST APIs, authentication, and production deployment.",
+        "month_13_14": {
+            "title": "Months 7-8: Node.js & Express Fundamentals",
+            "weeks": "Week 27-35",
+            "week_53_54": {
+                "title": "Node.js Fundamentals",
+                "topics": [
+                    "Node.js architecture: event loop, non-blocking I/O",
+                    "Node.js vs browser JavaScript",
+                    "npm and package.json management",
+                    "CommonJS vs ES modules in Node",
+                    "TypeScript setup for Node.js",
+                    "Built-in modules: fs, path, os, url",
+                    "File system operations: read, write, delete",
+                    "Streams and buffers",
+                    "Event emitter pattern",
+                    "Process and environment variables",
+                    "Child processes and workers",
+                    "Nodemon for development",
+                    "ts-node for TypeScript execution",
+                    "Debugging Node.js applications",
+                    "Error handling in Node.js"
+                ],
+                "projects": [
+                    "File system CLI tool",
+                    "Directory watcher application",
+                    "Log file parser",
+                    "Simple HTTP server from scratch",
+                    "Stream-based file processor",
+                    "Environment config manager",
+                    "Task runner CLI"
+                ],
+                "practice": "Build 10 Node.js utility scripts"
+            },
+            "week_55_56": {
+                "title": "Express.js Framework",
+                "topics": [
+                    "Introduction to Express.js",
+                    "Express with TypeScript setup",
+                    "Routing: GET, POST, PUT, DELETE, PATCH",
+                    "Route parameters and query strings",
+                    "Request and response objects",
+                    "Middleware concept and implementation",
+                    "Built-in middleware: json, urlencoded, static",
+                    "Custom middleware creation",
+                    "Error handling middleware",
+                    "Router for modular routes",
+                    "Request validation with express-validator",
+                    "File uploads with Multer",
+                    "CORS configuration",
+                    "Helmet for security headers",
+                    "Rate limiting with express-rate-limit"
+                ],
+                "projects": [
+                    "Basic REST API server",
+                    "User CRUD API",
+                    "File upload service",
+                    "API with validation",
+                    "Middleware chain implementation",
+                    "Logging middleware",
+                    "Request timing middleware"
+                ],
+                "practice": "Build 8 Express APIs with proper middleware"
+            },
+            "week_57_58": {
+                "title": "REST API Design & Best Practices",
+                "topics": [
+                    "REST architecture principles",
+                    "Resource naming conventions",
+                    "HTTP status codes usage",
+                    "Request/response design",
+                    "API versioning strategies",
+                    "Pagination implementation",
+                    "Filtering and sorting",
+                    "HATEOAS principles",
+                    "API documentation with Swagger/OpenAPI",
+                    "TypeScript types for API contracts",
+                    "Zod for runtime validation",
+                    "Error response standardization",
+                    "API testing with Postman/Insomnia",
+                    "API testing with supertest",
+                    "Contract-first API design"
+                ],
+                "projects": [
+                    "RESTful Blog API",
+                    "E-commerce Product API",
+                    "API with Swagger documentation",
+                    "Paginated list API",
+                    "Filter and search API",
+                    "API test suite with supertest"
+                ],
+                "practice": "Design and document 5 production-ready APIs"
+            },
+            "week_59_60": {
+                "title": "Database Fundamentals - SQL",
+                "topics": [
+                    "Relational database concepts",
+                    "SQL fundamentals: SELECT, INSERT, UPDATE, DELETE",
+                    "WHERE, ORDER BY, LIMIT, OFFSET",
+                    "JOINs: INNER, LEFT, RIGHT, FULL",
+                    "Aggregations: COUNT, SUM, AVG, GROUP BY",
+                    "Database design and normalization",
+                    "Primary keys and foreign keys",
+                    "Indexes for performance",
+                    "PostgreSQL setup and usage",
+                    "Node.js with pg driver",
+                    "Connection pooling",
+                    "Parameterized queries for security",
+                    "Transactions in Node.js",
+                    "Database migrations concept",
+                    "SQL injection prevention"
+                ],
+                "projects": [
+                    "User management with PostgreSQL",
+                    "Blog with posts and comments",
+                    "E-commerce products and orders",
+                    "Library management system",
+                    "Transaction-based banking API",
+                    "Database migration scripts"
+                ],
+                "practice": "Build 8 database-connected applications"
+            },
+            "week_61": {
+                "title": "ORMs - Prisma & Drizzle",
+                "topics": [
+                    "ORM concepts and benefits",
+                    "Prisma setup and configuration",
+                    "Prisma schema definition",
+                    "Prisma Client for queries",
+                    "CRUD operations with Prisma",
+                    "Relations: one-to-one, one-to-many, many-to-many",
+                    "Prisma migrations",
+                    "Prisma with TypeScript",
+                    "Drizzle ORM introduction",
+                    "Drizzle schema and queries",
+                    "Type-safe queries with Drizzle",
+                    "Raw SQL with ORMs",
+                    "Seeding databases",
+                    "ORM performance considerations",
+                    "Choosing between ORMs"
+                ],
+                "projects": [
+                    "Blog API with Prisma",
+                    "User authentication with Prisma",
+                    "E-commerce backend with Prisma",
+                    "Multi-tenant application",
+                    "Complex relations example",
+                    "Database seeding scripts"
+                ],
+                "practice": "Convert all SQL projects to use Prisma"
+            }
+        },
+        "month_15_16": {
+            "title": "Month 9: Authentication, NoSQL & Advanced Backend",
+            "weeks": "Week 36-39",
+            "week_62_63": {
+                "title": "Authentication & Authorization",
+                "topics": [
+                    "Authentication vs authorization",
+                    "Password hashing with bcrypt",
+                    "JWT (JSON Web Tokens) fundamentals",
+                    "Access tokens and refresh tokens",
+                    "JWT implementation in Express",
+                    "Passport.js authentication strategies",
+                    "Session-based authentication",
+                    "Cookie security: httpOnly, secure, sameSite",
+                    "Role-based access control (RBAC)",
+                    "Permission-based authorization",
+                    "OAuth 2.0 and OpenID Connect",
+                    "Social login: Google, GitHub, Facebook",
+                    "Two-factor authentication (2FA)",
+                    "Password reset flow",
+                    "Security best practices"
+                ],
+                "projects": [
+                    "User registration and login API",
+                    "JWT authentication system",
+                    "Refresh token rotation",
+                    "Role-based API access",
+                    "OAuth social login",
+                    "Password reset with email",
+                    "2FA implementation"
+                ],
+                "practice": "Secure all APIs with authentication"
+            },
+            "week_64_65": {
+                "title": "NoSQL Databases - MongoDB",
+                "topics": [
+                    "NoSQL database concepts",
+                    "MongoDB architecture and documents",
+                    "MongoDB Atlas cloud setup",
+                    "Mongoose ODM for Node.js",
+                    "Mongoose schemas and models",
+                    "TypeScript with Mongoose",
+                    "CRUD operations with Mongoose",
+                    "Mongoose middleware (hooks)",
+                    "Population for references",
+                    "Aggregation pipeline",
+                    "Indexing in MongoDB",
+                    "Schema validation",
+                    "Embedded vs referenced documents",
+                    "MongoDB transactions",
+                    "SQL vs NoSQL: when to use which"
+                ],
+                "projects": [
+                    "Blog with MongoDB and Mongoose",
+                    "Social media posts API",
+                    "Real-time chat data model",
+                    "Analytics data storage",
+                    "Product catalog with nested data",
+                    "User activity tracking"
+                ],
+                "practice": "Build 6 MongoDB-backed applications"
+            },
+            "week_66_67": {
+                "title": "Caching, Sessions & Real-time",
+                "topics": [
+                    "Caching strategies overview",
+                    "Redis: in-memory data store",
+                    "Redis with Node.js (ioredis)",
+                    "Caching API responses",
+                    "Session storage with Redis",
+                    "Rate limiting with Redis",
+                    "Pub/Sub with Redis",
+                    "WebSocket fundamentals",
+                    "Socket.io for real-time communication",
+                    "TypeScript with Socket.io",
+                    "Real-time events and rooms",
+                    "Broadcasting messages",
+                    "Server-Sent Events (SSE)",
+                    "Long polling vs WebSocket",
+                    "Real-time architecture patterns"
+                ],
+                "projects": [
+                    "Cached API responses",
+                    "Session management with Redis",
+                    "Real-time chat application",
+                    "Live notifications system",
+                    "Collaborative document editing",
+                    "Real-time dashboard updates",
+                    "Live auction system"
+                ],
+                "practice": "Add real-time features to existing projects"
+            },
+            "week_68_69": {
+                "title": "Email, File Storage & External Services",
+                "topics": [
+                    "Email sending with Nodemailer",
+                    "Email templates with EJS/Handlebars",
+                    "Transactional email services: SendGrid, Resend",
+                    "Queue-based email sending",
+                    "File storage strategies",
+                    "AWS S3 for object storage",
+                    "Cloudinary for image management",
+                    "File upload to cloud storage",
+                    "Image processing with Sharp",
+                    "PDF generation in Node.js",
+                    "Payment integration: Stripe",
+                    "Webhook handling",
+                    "Third-party API integration",
+                    "API rate limiting and retries",
+                    "Error handling for external services"
+                ],
+                "projects": [
+                    "Email notification service",
+                    "Welcome email flow",
+                    "Password reset emails",
+                    "File upload to S3",
+                    "Image resize and optimization",
+                    "Payment checkout flow",
+                    "Invoice PDF generation"
+                ],
+                "practice": "Integrate 5 external services"
+            },
+            "week_70": {
+                "title": "Testing Backend Applications",
+                "topics": [
+                    "Backend testing strategies",
+                    "Unit testing with Jest",
+                    "Testing Express routes",
+                    "Supertest for HTTP testing",
+                    "Mocking database calls",
+                    "Integration testing setup",
+                    "Test database management",
+                    "Factory patterns for test data",
+                    "Testing authentication flows",
+                    "Testing async operations",
+                    "Code coverage for backend",
+                    "CI/CD testing pipeline",
+                    "Load testing with Artillery",
+                    "Performance testing basics",
+                    "End-to-end API testing"
+                ],
+                "projects": [
+                    "Unit test suite for services",
+                    "Integration tests for APIs",
+                    "Authentication flow tests",
+                    "Database operation tests",
+                    "Load testing scripts",
+                    "CI/CD with automated tests"
+                ],
+                "practice": "Write comprehensive tests for all APIs"
+            }
+        },
+        "month_17_18": {
+            "title": "PHASE 3 COMPLETION - Advanced Backend",
+            "weeks": "Week 27-39 (distributed)",
+            "week_71_72": {
+                "title": "Background Jobs & Message Queues",
+                "topics": [
+                    "Background job processing need",
+                    "Bull/BullMQ for job queues",
+                    "Redis-based job queues",
+                    "Job scheduling and recurring jobs",
+                    "Job retries and error handling",
+                    "Job priorities and delays",
+                    "Message queue concepts",
+                    "RabbitMQ fundamentals",
+                    "Producer-consumer pattern",
+                    "Event-driven architecture",
+                    "Dead letter queues",
+                    "Queue monitoring and dashboards",
+                    "Scaling with workers",
+                    "Idempotency in job processing",
+                    "Distributed task processing"
+                ],
+                "projects": [
+                    "Email queue processor",
+                    "Image processing queue",
+                    "Report generation jobs",
+                    "Scheduled data cleanup",
+                    "Order processing pipeline",
+                    "Notification queue system"
+                ],
+                "practice": "Add background processing to applications"
+            },
+            "week_73_74": {
+                "title": "Logging, Monitoring & Observability",
+                "topics": [
+                    "Logging best practices",
+                    "Winston logger configuration",
+                    "Pino for high-performance logging",
+                    "Log levels and formatting",
+                    "Structured logging (JSON)",
+                    "Request logging and tracing",
+                    "Application metrics with Prometheus",
+                    "Custom metrics collection",
+                    "Health check endpoints",
+                    "Error tracking with Sentry",
+                    "APM (Application Performance Monitoring)",
+                    "Distributed tracing basics",
+                    "OpenTelemetry introduction",
+                    "Monitoring dashboards",
+                    "Alerting strategies"
+                ],
+                "projects": [
+                    "Centralized logging setup",
+                    "Metrics endpoint implementation",
+                    "Health check system",
+                    "Error tracking integration",
+                    "Performance monitoring",
+                    "Alerting rules configuration"
+                ],
+                "practice": "Add observability to all backend services"
+            },
+            "week_75_76": {
+                "title": "Security & API Protection",
+                "topics": [
+                    "OWASP Top 10 for Node.js",
+                    "SQL/NoSQL injection prevention",
+                    "XSS prevention strategies",
+                    "CSRF protection",
+                    "Security headers with Helmet",
+                    "Input sanitization",
+                    "Rate limiting implementation",
+                    "API key management",
+                    "Secrets management",
+                    "Environment security",
+                    "Dependency vulnerability scanning",
+                    "npm audit and fixes",
+                    "HTTPS and TLS",
+                    "Content Security Policy",
+                    "Secure file uploads"
+                ],
+                "projects": [
+                    "Security-hardened API",
+                    "Rate limiting system",
+                    "API key authentication",
+                    "Vulnerability scanning setup",
+                    "Security audit checklist",
+                    "Penetration testing basics"
+                ],
+                "practice": "Security audit all backend applications"
+            },
+            "week_77": {
+                "title": "Docker & Deployment",
+                "topics": [
+                    "Docker fundamentals",
+                    "Dockerfile for Node.js apps",
+                    "Multi-stage builds",
+                    "Docker Compose for development",
+                    "Container orchestration basics",
+                    "Environment configuration",
+                    "Deploying to VPS (DigitalOcean, Linode)",
+                    "Process managers: PM2",
+                    "Nginx reverse proxy",
+                    "SSL certificates with Let's Encrypt",
+                    "CI/CD with GitHub Actions",
+                    "Deployment to Railway, Render",
+                    "Zero-downtime deployments",
+                    "Database backups",
+                    "Production checklist"
+                ],
+                "projects": [
+                    "Dockerized Node.js app",
+                    "Docker Compose setup",
+                    "CI/CD pipeline creation",
+                    "VPS deployment",
+                    "Nginx configuration",
+                    "Automated deployments"
+                ],
+                "practice": "Deploy all applications to production"
+            },
+            "week_78": {
+                "title": "Phase 3 Capstone Project",
+                "topics": [
+                    "Full backend architecture",
+                    "Database design",
+                    "API development",
+                    "Authentication implementation",
+                    "File handling",
+                    "Real-time features",
+                    "Testing and documentation",
+                    "Deployment and monitoring"
+                ],
+                "projects": [
+                    "MAJOR CAPSTONE: E-commerce Backend API",
+                    "Features: User auth (JWT), products, categories, cart, orders, payments (Stripe), email notifications, file uploads, admin panel API, comprehensive testing",
+                    "Alternative: Social Media API (users, posts, comments, likes, follows, notifications, real-time)",
+                    "Alternative: Project Management API (workspaces, projects, tasks, comments, file attachments)",
+                    "Alternative: Learning Platform Backend (courses, lessons, enrollments, progress tracking, certificates)"
+                ],
+                "assessment": "Phase 3 Final Exam - Backend Engineering comprehensive test"
+            }
+        }
+    },
+    "phase_4_advanced_production": {
+        "title": "PHASE 4: Full-Stack Mastery & Enterprise Development (Months 10-12, Weeks 40-52)",
+        "description": "Master Next.js, GraphQL, microservices architecture, cloud-native development, DevOps, system design, and career preparation.",
+        "month_19_20": {
+            "title": "Months 10-11: Next.js, GraphQL & Advanced Full-Stack",
+            "weeks": "Week 40-48",
+            "week_79_80": {
+                "title": "Next.js Fundamentals",
+                "topics": [
+                    "Next.js introduction and benefits",
+                    "Next.js 14+ App Router architecture",
+                    "File-based routing system",
+                    "Layouts and nested layouts",
+                    "Loading and error states",
+                    "Server Components vs Client Components",
+                    "Data fetching in Server Components",
+                    "Static Site Generation (SSG)",
+                    "Server-Side Rendering (SSR)",
+                    "Incremental Static Regeneration (ISR)",
+                    "API Routes and Route Handlers",
+                    "Middleware for request handling",
+                    "Image optimization with next/image",
+                    "Font optimization with next/font",
+                    "Environment variables in Next.js"
+                ],
+                "projects": [
+                    "Next.js blog with SSG",
+                    "E-commerce with SSR",
+                    "Dashboard with App Router",
+                    "Portfolio with ISR",
+                    "API routes implementation",
+                    "Middleware authentication"
+                ],
+                "practice": "Build 6 Next.js applications"
+            },
+            "week_81_82": {
+                "title": "Advanced Next.js & Server Actions",
+                "topics": [
+                    "Server Actions for mutations",
+                    "Form handling with Server Actions",
+                    "Revalidation strategies",
+                    "Caching in Next.js",
+                    "Parallel and sequential data fetching",
+                    "Streaming with Suspense",
+                    "Route groups for organization",
+                    "Intercepting and parallel routes",
+                    "Internationalization (i18n)",
+                    "Authentication with NextAuth.js",
+                    "Session management",
+                    "Protected routes and middleware",
+                    "SEO optimization in Next.js",
+                    "Metadata and OpenGraph",
+                    "Sitemaps and robots.txt"
+                ],
+                "projects": [
+                    "Full CRUD with Server Actions",
+                    "Multi-language application",
+                    "Auth system with NextAuth",
+                    "SEO-optimized blog",
+                    "Admin dashboard with auth",
+                    "Real-time features in Next.js"
+                ],
+                "practice": "Build 5 production-ready Next.js apps"
+            },
+            "week_83_84": {
+                "title": "GraphQL Fundamentals",
+                "topics": [
+                    "GraphQL introduction and benefits",
+                    "GraphQL vs REST comparison",
+                    "Schema definition language (SDL)",
+                    "Types: Query, Mutation, Subscription",
+                    "Scalar and custom types",
+                    "Input types and enums",
+                    "Resolvers implementation",
+                    "Apollo Server setup",
+                    "TypeScript with GraphQL",
+                    "Code generation with GraphQL Codegen",
+                    "Apollo Client for React",
+                    "Queries and mutations in client",
+                    "Caching in Apollo Client",
+                    "Error handling in GraphQL",
+                    "DataLoader for optimized fetching"
+                ],
+                "projects": [
+                    "GraphQL API for blog",
+                    "Full-stack app with Apollo",
+                    "Type-safe GraphQL with Codegen",
+                    "Real-time subscriptions",
+                    "GraphQL with Prisma",
+                    "Complex query patterns"
+                ],
+                "practice": "Build 5 GraphQL applications"
+            },
+            "week_85_86": {
+                "title": "Advanced GraphQL & tRPC",
+                "topics": [
+                    "GraphQL subscriptions setup",
+                    "Real-time updates with WebSocket",
+                    "Pagination: cursor and offset",
+                    "Federation for microservices",
+                    "Schema stitching",
+                    "GraphQL security best practices",
+                    "Query complexity and depth limiting",
+                    "tRPC introduction",
+                    "End-to-end type safety with tRPC",
+                    "tRPC with Next.js",
+                    "tRPC procedures and routers",
+                    "tRPC with Zod validation",
+                    "tRPC vs GraphQL comparison",
+                    "Choosing the right approach",
+                    "Full-stack TypeScript patterns"
+                ],
+                "projects": [
+                    "Real-time chat with subscriptions",
+                    "Federated GraphQL setup",
+                    "tRPC full-stack app",
+                    "Type-safe API layer",
+                    "Combined approach example",
+                    "Production-ready API patterns"
+                ],
+                "practice": "Implement both GraphQL and tRPC solutions"
+            },
+            "week_87": {
+                "title": "Microservices Architecture",
+                "topics": [
+                    "Microservices vs monolith",
+                    "When to use microservices",
+                    "Service decomposition strategies",
+                    "Domain-Driven Design basics",
+                    "API Gateway pattern",
+                    "Service discovery",
+                    "Inter-service communication",
+                    "Synchronous vs asynchronous",
+                    "Event-driven architecture",
+                    "Message brokers: RabbitMQ, Kafka",
+                    "Saga pattern for transactions",
+                    "Circuit breaker pattern",
+                    "Service mesh basics",
+                    "Container orchestration",
+                    "Kubernetes introduction"
+                ],
+                "projects": [
+                    "Decompose monolith exercise",
+                    "API Gateway implementation",
+                    "Event-driven microservices",
+                    "Service communication patterns",
+                    "Saga implementation",
+                    "Kubernetes deployment"
+                ],
+                "practice": "Design 3 microservices architectures"
+            }
+        },
+        "month_21_22": {
+            "title": "Month 12: Cloud, DevOps & Career Excellence",
+            "weeks": "Week 49-52",
+            "week_88_89": {
+                "title": "Cloud Platforms & Serverless",
+                "topics": [
+                    "Cloud computing fundamentals",
+                    "AWS core services overview",
+                    "Vercel for Next.js deployments",
+                    "Serverless architecture",
+                    "AWS Lambda with TypeScript",
+                    "API Gateway with Lambda",
+                    "Serverless Framework",
+                    "Database services: RDS, DynamoDB",
+                    "S3 for file storage",
+                    "CloudFront CDN",
+                    "Azure and GCP alternatives",
+                    "Infrastructure as Code",
+                    "Terraform basics",
+                    "Pulumi with TypeScript",
+                    "Cost optimization strategies"
+                ],
+                "projects": [
+                    "Deploy to Vercel/Netlify",
+                    "Serverless API with Lambda",
+                    "Full-stack on AWS",
+                    "CDN configuration",
+                    "IaC with Terraform/Pulumi",
+                    "Multi-cloud strategy"
+                ],
+                "practice": "Deploy applications to multiple platforms"
+            },
+            "week_90_91": {
+                "title": "CI/CD & DevOps Practices",
+                "topics": [
+                    "DevOps culture and practices",
+                    "CI/CD pipeline design",
+                    "GitHub Actions deep dive",
+                    "Automated testing in CI",
+                    "Code quality gates",
+                    "Security scanning in pipeline",
+                    "Docker in production",
+                    "Container registries",
+                    "Kubernetes for orchestration",
+                    "Helm charts for deployment",
+                    "GitOps with ArgoCD",
+                    "Blue-green deployments",
+                    "Canary releases",
+                    "Feature flags",
+                    "Rollback strategies"
+                ],
+                "projects": [
+                    "Complete CI/CD pipeline",
+                    "Automated testing workflow",
+                    "Docker-based deployment",
+                    "Kubernetes deployment",
+                    "Feature flag system",
+                    "Zero-downtime deployment"
+                ],
+                "practice": "Set up CI/CD for all projects"
+            },
+            "week_92_93": {
+                "title": "System Design & Architecture",
+                "topics": [
+                    "System design fundamentals",
+                    "Scalability: horizontal vs vertical",
+                    "Load balancing strategies",
+                    "Caching layers and patterns",
+                    "Database scaling: sharding, replication",
+                    "CAP theorem",
+                    "Eventual consistency",
+                    "Message queues for decoupling",
+                    "CDN for static content",
+                    "High availability design",
+                    "Disaster recovery planning",
+                    "Rate limiting at scale",
+                    "API design at scale",
+                    "Monitoring at scale",
+                    "Common system design interviews"
+                ],
+                "projects": [
+                    "Design URL shortener",
+                    "Design Twitter clone",
+                    "Design e-commerce platform",
+                    "Design notification system",
+                    "Design chat application",
+                    "System design documentation"
+                ],
+                "practice": "Solve 15 system design problems"
+            },
+            "week_94_95": {
+                "title": "Performance & Optimization",
+                "topics": [
+                    "Frontend performance metrics",
+                    "Core Web Vitals optimization",
+                    "JavaScript bundle optimization",
+                    "Image and asset optimization",
+                    "Lazy loading strategies",
+                    "Server-side performance",
+                    "Database query optimization",
+                    "Caching strategies",
+                    "Memory management in Node.js",
+                    "Profiling Node.js applications",
+                    "Load testing with k6",
+                    "Performance monitoring",
+                    "Real User Monitoring (RUM)",
+                    "Synthetic monitoring",
+                    "Performance budgets"
+                ],
+                "projects": [
+                    "Performance audit and fix",
+                    "Bundle optimization exercise",
+                    "Database optimization",
+                    "Load testing suite",
+                    "Performance monitoring setup",
+                    "Optimization documentation"
+                ],
+                "practice": "Optimize all applications for performance"
+            },
+            "week_96": {
+                "title": "Advanced TypeScript Patterns",
+                "topics": [
+                    "Advanced type manipulation",
+                    "Recursive types",
+                    "Variadic tuple types",
+                    "Template literal types advanced",
+                    "Type-level programming",
+                    "Branded types for type safety",
+                    "Builder pattern with types",
+                    "Dependency injection in TypeScript",
+                    "Decorators and metadata",
+                    "Reflection with TypeScript",
+                    "Monorepo with TypeScript",
+                    "Turborepo and Nx",
+                    "Shared packages and libraries",
+                    "Publishing npm packages",
+                    "TypeScript compiler API"
+                ],
+                "projects": [
+                    "Type-safe library creation",
+                    "Monorepo setup",
+                    "Shared component library",
+                    "npm package publishing",
+                    "Advanced utility types",
+                    "Type-level validation"
+                ],
+                "practice": "Create 5 advanced TypeScript projects"
+            }
+        },
+        "month_23": {
+            "title": "PHASE 4 COMPLETION - Career Preparation",
+            "weeks": "Week 40-52 (distributed)",
+            "week_97": {
+                "title": "Code Quality & Best Practices",
+                "topics": [
+                    "Clean code principles",
+                    "SOLID principles in TypeScript",
+                    "Design patterns in TypeScript",
+                    "Code refactoring techniques",
+                    "Code review best practices",
+                    "ESLint and Prettier configuration",
+                    "Static analysis tools",
+                    "Documentation with TSDoc",
+                    "README and wiki writing",
+                    "Architecture documentation",
+                    "ADRs (Architecture Decision Records)",
+                    "Technical debt management",
+                    "Code metrics and quality gates",
+                    "SonarQube integration",
+                    "Continuous improvement"
+                ],
+                "projects": [
+                    "Code refactoring exercise",
+                    "Design patterns implementation",
+                    "Documentation overhaul",
+                    "Quality gates setup",
+                    "Code review guidelines",
+                    "Best practices checklist"
+                ],
+                "practice": "Refactor all projects with best practices"
+            },
+            "week_98": {
+                "title": "Open Source & Community",
+                "topics": [
+                    "Open source contribution guide",
+                    "Finding beginner-friendly projects",
+                    "Reading contribution guidelines",
+                    "Forking and pull requests",
+                    "Code review in open source",
+                    "Building open source portfolio",
+                    "Creating your own library",
+                    "npm package management",
+                    "Semantic versioning",
+                    "Changelog generation",
+                    "Community building",
+                    "Technical blogging",
+                    "Speaking at meetups",
+                    "Building personal brand",
+                    "Developer advocacy"
+                ],
+                "projects": [
+                    "Contribute to 5 open source projects",
+                    "Create and publish npm package",
+                    "Technical blog posts",
+                    "Lightning talk preparation",
+                    "GitHub profile optimization",
+                    "Portfolio website creation"
+                ],
+                "practice": "Active open source participation"
+            },
+            "week_99": {
+                "title": "Interview Preparation",
+                "topics": [
+                    "TypeScript interview questions",
+                    "React and Next.js questions",
+                    "Node.js and Express questions",
+                    "System design interview prep",
+                    "Coding interview strategies",
+                    "LeetCode problem patterns",
+                    "Data structures review",
+                    "Algorithms review",
+                    "Behavioral interview questions",
+                    "STAR method for answers",
+                    "Salary negotiation tactics",
+                    "Job search strategies",
+                    "Resume optimization",
+                    "LinkedIn optimization",
+                    "Portfolio presentation"
+                ],
+                "projects": [
+                    "Solve 150+ LeetCode problems",
+                    "System design case studies",
+                    "Mock interview practice",
+                    "Interview preparation guide",
+                    "Resume and portfolio polish",
+                    "LinkedIn profile optimization"
+                ],
+                "practice": "Daily coding challenges and mock interviews"
+            },
+            "week_100": {
+                "title": "Final Capstone Planning",
+                "topics": [
+                    "Project ideation and planning",
+                    "Requirement analysis",
+                    "System architecture design",
+                    "Technology stack selection",
+                    "Development workflow setup",
+                    "Sprint planning",
+                    "Agile methodology",
+                    "Project documentation",
+                    "Risk assessment",
+                    "Timeline estimation"
+                ],
+                "projects": [
+                    "FINAL CAPSTONE: Enterprise Full-Stack Application",
+                    "Option 1: SaaS Platform (multi-tenant, subscriptions, dashboards)",
+                    "Option 2: E-commerce Marketplace (vendors, products, orders, payments)",
+                    "Option 3: Social Learning Platform (courses, progress, community, certificates)",
+                    "Option 4: Project Management Suite (workspaces, projects, collaboration, real-time)"
+                ]
+            }
+        },
+        "month_24": {
+            "title": "Final Month - Capstone & Career Launch",
+            "weeks": "Week 49-52",
+            "week_101_102": {
+                "title": "Final Capstone Project - Part 1",
+                "topics": [
+                    "Implementation phase",
+                    "Frontend development",
+                    "Backend API development",
+                    "Database design",
+                    "Authentication and authorization",
+                    "File handling and storage",
+                    "Real-time features",
+                    "Third-party integrations"
+                ],
+                "projects": [
+                    "Full-stack implementation",
+                    "Frontend with Next.js",
+                    "Backend APIs",
+                    "Database setup with Prisma",
+                    "Authentication system",
+                    "Core features development"
+                ]
+            },
+            "week_103": {
+                "title": "Final Capstone Project - Part 2",
+                "topics": [
+                    "Implementation completion",
+                    "Comprehensive testing",
+                    "Performance optimization",
+                    "Security hardening",
+                    "Documentation writing",
+                    "Deployment to cloud",
+                    "CI/CD pipeline setup",
+                    "Monitoring and logging",
+                    "Load testing",
+                    "Project presentation preparation"
+                ],
+                "deliverables": [
+                    "Complete source code on GitHub",
+                    "Deployed application on Vercel/AWS",
+                    "API documentation (OpenAPI/GraphQL)",
+                    "Architecture diagrams",
+                    "Database schema documentation",
+                    "CI/CD pipeline configuration",
+                    "Test coverage report (80%+ coverage)",
+                    "Performance testing report",
+                    "Video demo and presentation",
+                    "Comprehensive README"
+                ]
+            },
+            "week_104": {
+                "title": "Career Launch & Professional Development",
+                "topics": [
+                    "Professional portfolio website",
+                    "Resume optimization for TypeScript roles",
+                    "LinkedIn profile enhancement",
+                    "GitHub profile showcase",
+                    "Technical blog writing",
+                    "Speaking at meetups/conferences",
+                    "Networking strategies",
+                    "Job application process",
+                    "Interview follow-up",
+                    "Continuous learning plan",
+                    "Staying updated with ecosystem",
+                    "Mentoring and teaching others",
+                    "Freelancing strategies",
+                    "Consulting career path",
+                    "Startup opportunities"
+                ],
+                "deliverables": [
+                    "Professional portfolio with 40+ projects",
+                    "Optimized resume for full-stack roles",
+                    "Enhanced LinkedIn profile",
+                    "GitHub profile with contributions",
+                    "Technical blog posts",
+                    "Personal brand establishment",
+                    "Job application materials ready",
+                    "Mock interview completion",
+                    "Continuous learning roadmap",
+                    "Professional network connections"
+                ],
+                "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete TypeScript mastery evaluation"
+            }
+        }
+    },
+    "additional_learning_resources": {
+        "projects_throughout_course": [
+            "Phase 1 (Months 1-3): 20+ foundational projects - calculators, games, console apps, TypeScript utilities",
+            "Phase 2 (Months 4-6): 18+ frontend projects - React components, dashboards, forms, state management",
+            "Phase 3 (Months 7-9): 20+ backend projects - REST APIs, databases, authentication, real-time apps",
+            "Phase 4 (Months 10-12): 15+ advanced projects - Next.js apps, GraphQL, microservices, cloud deployments",
+            "Final: 5 major capstone projects demonstrating complete full-stack expertise"
+        ],
+        "total_projects_built": "70+ projects from beginner to enterprise-grade production systems",
+        "skills_mastered": [
+            "Core TypeScript: Types, Interfaces, Generics, Utility Types, Advanced Patterns, Type Guards",
+            "Frontend: React, Hooks, State Management, Testing, Performance Optimization, Accessibility",
+            "Backend: Node.js, Express, REST APIs, Authentication, Authorization, Security",
+            "Databases: PostgreSQL, MongoDB, Prisma, Drizzle, Redis, Query Optimization",
+            "Full-Stack: Next.js, Server Components, Server Actions, tRPC, GraphQL",
+            "Testing: Jest, React Testing Library, Supertest, Cypress, Playwright",
+            "DevOps: Docker, Kubernetes, CI/CD, GitHub Actions, Cloud Deployment",
+            "Cloud: AWS, Vercel, Serverless, Lambda, S3, CloudFront",
+            "Architecture: System Design, Microservices, Event-Driven, CQRS, SAGA",
+            "Tools: VS Code, Git, npm, Webpack, Vite, ESLint, Prettier",
+            "Soft Skills: Problem-solving, System Design Thinking, Code Review, Documentation, Agile"
+        ],
+        "weekly_structure": {
+            "theory_videos": "4-6 hours",
+            "hands_on_coding": "8-10 hours",
+            "projects": "3-5 hours",
+            "practice_problems": "2-3 hours",
+            "total_per_week": "15-20 hours"
+        },
+        "support_provided": {
+            "live_sessions": "Weekly live coding sessions and doubt clearing",
+            "mentorship": "1-on-1 expert TypeScript developer mentorship",
+            "community": "Active Discord/Slack community with 24/7 peer support",
+            "code_review": "Expert code reviews for all major projects",
+            "career_support": "Resume review, mock interviews, job referrals to product companies",
+            "lifetime_access": "All content, future updates, new TypeScript versions coverage",
+            "placement_assistance": "Dedicated placement cell with company partnerships",
+            "interview_prep": "Mock interviews with industry professionals"
+        },
+        "certification": {
+            "phase_certificates": "Certificate after each phase completion (4 certificates)",
+            "final_certificate": "Professional Full-Stack TypeScript Developer Certification",
+            "frontend_certificate": "React & Next.js Specialist Certificate",
+            "backend_certificate": "Node.js Backend Developer Certificate",
+            "linkedin_badge": "Digital badges for LinkedIn profile",
+            "industry_recognized": "Recognized by Fortune 500 companies and startups",
+            "portfolio_projects": "40+ production-ready portfolio projects"
+        }
+    },
+    "prerequisites": {
+        "education": "No formal degree required - open to all backgrounds",
+        "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
+        "age": "12+ years (separate learning tracks for kids, teens, adults)",
+        "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, internet connection",
+        "time_commitment": "15-20 hours per week consistently for best results",
+        "english": "Basic reading comprehension (materials also available in Hindi)",
+        "motivation": "Strong desire to become a professional TypeScript developer",
+        "math": "Basic mathematics (taught as needed)"
+    },
+    "who_is_this_for": {
+        "kids": "Age 12-14: Simplified track with visual learning, game-based projects, interactive JavaScript basics",
+        "teens": "Age 15-18: Student-focused track, college prep, competitive programming, project-based learning",
+        "students": "College students: Campus placement preparation, internship readiness, strong portfolio building",
+        "working_professionals": "Career switchers: Structured path from any background to full-stack developer role",
+        "developers": "Developers from other languages wanting to master TypeScript ecosystem",
+        "frontend_developers": "Frontend devs wanting to become full-stack with Node.js and Next.js",
+        "backend_developers": "Backend devs wanting to add React and TypeScript to their skills",
+        "entrepreneurs": "Build your own SaaS products using modern TypeScript technologies",
+        "freelancers": "Offer full-stack development services to high-paying clients",
+        "anyone": "Anyone passionate about modern web development and full-stack engineering"
+    },
+    "career_paths_after_completion": [
+        "TypeScript Developer (Junior to Senior levels)",
+        "Frontend Developer / React Developer",
+        "Full-Stack Developer / Full-Stack Engineer",
+        "Next.js Developer",
+        "Node.js Backend Developer",
+        "Software Engineer",
+        "Solutions Architect",
+        "Technical Lead / Team Lead",
+        "DevOps Engineer (TypeScript focus)",
+        "Cloud Engineer (AWS/Vercel)",
+        "Software Architect",
+        "Principal Engineer",
+        "Freelance Full-Stack Consultant",
+        "Technical Trainer / Instructor",
+        "Startup Founder / CTO"
+    ],
+    "salary_expectations": {
+        "after_3_months": "₹3-5 LPA (Junior Developer / Fresher)",
+        "after_6_months": "₹5-10 LPA (Frontend Developer / React Developer)",
+        "after_9_months": "₹8-15 LPA (Full-Stack Developer)",
+        "after_12_months": "₹12-25 LPA (Senior Full-Stack Developer / Tech Lead)",
+        "experienced_3_years": "₹20-45 LPA (Lead Developer / Architect)",
+        "freelance": "₹1500-6000/hour based on expertise",
+        "international_usa": "$90k-200k USD (TypeScript Developer to Senior)",
+        "international_europe": "€55k-130k EUR based on country and experience",
+        "product_companies": "₹18-60 LPA in top product companies (Google, Meta, Microsoft, etc.)",
+        "startups": "₹15-40 LPA + equity in funded startups"
+    },
+    "course_guarantees": {
+        "money_back": "30-day 100% money-back guarantee - no questions asked",
+        "job_assistance": "Job placement support with 500+ hiring partners",
+        "lifetime_updates": "Free access to all future content, new TypeScript/React/Next.js versions",
+        "mentorship": "Dedicated expert mentor throughout 12-month journey and beyond",
+        "certificate": "Industry-recognized certification from established platform",
+        "portfolio": "40+ production-ready projects for impressive portfolio",
+        "community": "Lifetime access to alumni network and community",
+        "career_switch": "Extended support until successful career switch (up to 18 months)",
+        "skill_guarantee": "Master TypeScript full-stack or continue learning free until you do",
+        "interview_guarantee": "Unlimited mock interviews until you land a job",
+        "salary_hike": "Average 150-300% salary hike for career switchers",
+        "placement_record": "85%+ placement rate within 6 months of completion"
+    }
+}

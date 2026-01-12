@@ -1,0 +1,1429 @@
+{
+  "meta": {
+    "slug": "complete-flutter-app-development-masterclass-college",
+    "title": "Complete Flutter App Development Masterclass - Zero to Professional",
+    "description": "The most comprehensive 1-year Flutter development masterclass. From absolute basics to production-grade, multi-platform apps. Master Dart, Flutter widgets, state management, backend integration, Firebase, testing, performance, deployment, and everything needed for a successful Flutter developer career.",
+    "keywords": [
+      "flutter",
+      "flutter development",
+      "flutter course",
+      "learn flutter",
+      "flutter for beginners",
+      "dart programming",
+      "flutter mobile apps",
+      "flutter web",
+      "flutter desktop",
+      "flutter firebase",
+      "flutter state management",
+      "riverpod",
+      "bloc",
+      "flutter animations",
+      "flutter career",
+      "flutter for kids"
+    ],
+    "category": "Professional Flutter App Development",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹4999/month",
+      "lifetime": "₹29,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to Advanced Professional",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Industry-recognized Flutter App Developer certification upon completion",
+    "image_path": "flutter-college.png"
+  },
+  "program_overview": {
+    "title": "Complete Flutter App Development Masterclass",
+    "tagline": "From 'Hello World' to Production-Ready Cross‑Platform Apps",
+    "description": "This is not just a Flutter course—it’s a complete transformation into a professional cross-platform app developer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled Flutter developer capable of building beautiful, performant apps for Android, iOS, Web, and Desktop.\n\nYou’ll master Flutter and Dart from ground zero: from basic programming logic to advanced state management patterns, from simple UIs to complex, animated, responsive layouts, from offline-first apps to real-time apps powered by Firebase and custom backends. You’ll learn architectural patterns (MVVM, Clean Architecture), testing, CI/CD, performance optimization, and deployment to app stores. By the end, you’ll have built 40+ real-world projects and be ready for Flutter developer roles in product companies, agencies, and startups.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - perfect for complete beginners with no coding background",
+      "Separate learning tracks for kids (12+), teens, and adults with age-appropriate projects",
+      "1 year of structured, industry-aligned learning focused entirely on Flutter & Dart",
+      "Covers Dart fundamentals + Flutter widgets + advanced state management + architecture",
+      "Real production-style projects: e-commerce, chat apps, booking apps, dashboards, and more",
+      "Hands-on with latest Flutter and Dart stable releases, Material 3, and modern tooling",
+      "Interview preparation for Flutter roles in top product companies and remote-first startups",
+      "Lifetime access with continuous updates as Flutter ecosystem evolves",
+      "Build a strong, visually stunning app portfolio that runs on Android, iOS, Web & Desktop",
+      "Direct path to high-paying roles: Flutter Developer, Mobile Engineer, Full-Stack (Flutter+Firebase)"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Programming Logic, Dart Fundamentals, Core Flutter & UI Basics",
+      "phase_2": "Intermediate (Months 4-6): Advanced Dart, State Management, Navigation, Local Storage, Offline Apps",
+      "phase_3": "Backend & Product Apps (Months 7-9): Firebase, REST APIs, Auth, Payments, Architecture, Testing",
+      "phase_4": "Professional (Months 10-12): Scalable Apps, Clean Architecture, Performance, CI/CD, Store Deployment, Career"
+    },
+    "career_outcomes": [
+      "Junior Flutter Developer (after ~3 months, with guided projects)",
+      "Flutter Developer / Mobile App Developer (after ~6 months)",
+      "Senior Flutter Developer / Mobile Engineer (after ~9 months with strong portfolio)",
+      "Lead Flutter Engineer / Mobile Architect / Indie App Entrepreneur (after ~12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & Core Flutter + Dart Skills (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid programming and Flutter fundamentals. Learn Dart, understand Flutter’s widget tree, layout system, and create your first interactive cross‑platform apps.",
+    "month_1_2": {
+      "title": "Months 1-2: Dart Fundamentals & Flutter Basics",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Introduction to Flutter, Dart & Development Environment Setup",
+        "topics": [
+          "What is Flutter? History, features, and why it’s popular",
+          "Single codebase for Android, iOS, Web, Desktop",
+          "Flutter architecture overview: Engine, Framework, Widgets",
+          "Dart language introduction and why Flutter uses Dart",
+          "Installing Flutter SDK on Windows/Mac/Linux",
+          "Setting up Android Studio, VS Code, and Xcode (for macOS)",
+          "Configuring device emulators and real devices",
+          "Understanding Flutter project structure: lib, pubspec.yaml, android, ios, web",
+          "Your first Flutter app: counter & Hello World",
+          "main() function, runApp(), MaterialApp, Scaffold, AppBar, Body",
+          "Hot reload vs hot restart vs full restart",
+          "Understanding widget tree and composition",
+          "StatelessWidget vs StatefulWidget basics",
+          "DartPad and Flutter web previews",
+          "Code style, formatting (dartfmt), and basic conventions"
+        ],
+        "projects": [
+          "Hello Flutter app with personalized welcome screen",
+          "Digital visiting card app (name, role, contact info)",
+          "Simple profile screen with image, text and icons",
+          "Two-screen mini app using basic navigation",
+          "Kids track variant: Colorful \"My Favorite Things\" app"
+        ],
+        "practice": "Daily: 30–45 min Dart & Flutter basics; reproduce 3–5 simple screens from design snapshots"
+      },
+      "week_3_4": {
+        "title": "Dart Basics, Variables, Data Types & Operators",
+        "topics": [
+          "Dart program structure: main(), imports, packages",
+          "Variables: var, final, const, late",
+          "Primitive-like types in Dart: int, double, String, bool",
+          "num type and type inference",
+          "Dynamic vs static typing, dynamic keyword use-cases",
+          "Type conversion and parsing: int.parse, double.parse, toString",
+          "Collections overview: List, Set, Map (intro only)",
+          "Operators: arithmetic, relational, logical, assignment",
+          "Null safety in Dart: non-nullable & nullable types (int vs int?)",
+          "Null-aware operators: ?, ??, ??=, !",
+          "String interpolation and multi-line strings",
+          "String methods: length, substring, contains, split",
+          "Basic console apps in Dart (for logic practice)",
+          "Using dartpad.dev to practice Dart snippets"
+        ],
+        "projects": [
+          "Simple console calculator (add, subtract, multiply, divide)",
+          "Tip & bill split calculator (per person amount)",
+          "Age & birthday countdown calculator",
+          "Unit converters: temperature, length, weight",
+          "Kids variant: Score tracker for a simple game"
+        ],
+        "practice": "Solve 30+ problems on variables, strings, calculations and null-safety handling"
+      },
+      "week_5_6": {
+        "title": "Control Flow, Functions & Basic Collections",
+        "topics": [
+          "Control flow: if, else if, else",
+          "Switch-case in Dart, enums introduction",
+          "Loops: for, while, do-while, for-in",
+          "break and continue, labeled statements",
+          "Functions: definition, parameters (positional, named, optional), return types",
+          "Arrow functions (fat arrow syntax)=>",
+          "Scope rules and variable lifetime",
+          "Intro to collections: List, Set, Map basics",
+          "Iterating collections with for, for-in, forEach",
+          "Basic algorithm building: searching & counting",
+          "Introduction to error handling: try, catch, finally"
+        ],
+        "projects": [
+          "Number guessing game (console or Flutter dialog-based)",
+          "Grade calculator with letter-grade output",
+          "To-do list data model (List operations) with console UI",
+          "Simple quiz logic engine (questions and scoring)",
+          "Kids variant: Multiplication practice generator"
+        ],
+        "practice": "Solve 40+ problems covering loops, branching, and simple collection manipulations"
+      },
+      "week_7_8": {
+        "title": "Core Flutter Widgets & Layout Basics",
+        "topics": [
+          "Flutter widget philosophy: everything is a widget",
+          "Understanding build() method and widget lifecycle (overview)",
+          "Basic display widgets: Text, Icon, Image, Container",
+          "Layout widgets: Row, Column, Expanded, SizedBox",
+          "Alignment & positioning: MainAxisAlignment, CrossAxisAlignment, Center, Align",
+          "Styling text with TextStyle, GoogleFonts (package intro)",
+          "Colors, ThemeData, Material 3 basics",
+          "Buttons: ElevatedButton, TextButton, OutlinedButton, IconButton",
+          "Input widgets: TextField basics",
+          "Using Scaffold: appBar, body, floatingActionButton, bottomNavigationBar (intro)",
+          "SingleChildScrollView and ListView (intro)",
+          "Working with pubspec.yaml: adding assets (images, fonts)",
+          "Asset management & responsive basics (MediaQuery)",
+          "Debugging layout issues with Flutter DevTools & debugPrint"
+        ],
+        "projects": [
+          "Personal profile card app with images & icons",
+          "Single-page product detail UI (static)",
+          "Simple landing screen for a fictional app (hero image, CTA button)",
+          "Basic contact form UI (no backend yet)",
+          "Kids variant: \"My Pet\" info card with big images & fun fonts"
+        ],
+        "practice": "Recreate 6–10 simple UI screens from given Figma/Dribbble screenshots"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Object-Oriented Programming with Dart & Stateful Widgets",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Dart Classes, Objects & OOP Basics",
+        "topics": [
+          "OOP paradigm in Dart",
+          "Defining classes & creating objects",
+          "Fields, constructors (default, named, optional)",
+          "Named constructors and factory constructors (intro)",
+          "this keyword, initializer lists",
+          "Encapsulation: private members with _ prefix",
+          "Getters & setters (explicit, shorthand syntax)",
+          "Static variables and methods",
+          "Basic toString() overrides",
+          "Intro to enums for modeling states",
+          "Model classes for Flutter apps (e.g., User, Product, Task)"
+        ],
+        "projects": [
+          "User profile model and display widget",
+          "Product class used in a simple catalog list",
+          "Task/Todo model with computed properties (e.g. isOverdue)",
+          "Simple contact model and list",
+          "Kids variant: Character class for a mini game inventory"
+        ],
+        "practice": "Create 15+ different model classes to represent real-world entities used in apps"
+      },
+      "week_11_12": {
+        "title": "Inheritance, Polymorphism & Flutter Stateful Widgets",
+        "topics": [
+          "Inheritance in Dart: extends keyword",
+          "Abstract classes and methods (intro)",
+          "Method overriding & polymorphism",
+          "Mixins: with keyword, when and how to use",
+          "Interfaces via abstract classes & implicit interfaces",
+          "Intro to composition vs inheritance",
+          "StatefulWidget and State classes in Flutter",
+          "setState(), rebuilding the UI, performance considerations",
+          "Managing widget state vs app state (conceptual intro)",
+          "TextField controllers and input handling",
+          "Forms: Form, GlobalKey, basic validation",
+          "GestureDetector and InkWell for taps & gestures",
+          "Basic animations with AnimatedContainer and AnimatedOpacity (preview)"
+        ],
+        "projects": [
+          "Interactive counter app with custom logic",
+          "Simple login form with validation and error messages",
+          "Like/favorite button with animation",
+          "Basic habit tracker with toggling state",
+          "Kids variant: Tap-to-change-color playground app"
+        ],
+        "practice": "Implement 20+ stateful interactions (toggles, counters, forms, sliders, etc.)"
+      },
+      "week_13": {
+        "title": "Abstraction, Interfaces & PHASE 1 Mini Capstone",
+        "topics": [
+          "Deeper look at abstract classes & interfaces in Dart",
+          "Strategy-like patterns using abstract classes",
+          "Separation of concerns: UI vs business logic vs data models",
+          "Organizing Flutter code: folders (models, widgets, screens, services)",
+          "Intro to simple service classes for data handling",
+          "Preparing for larger apps: reusability & modular widgets"
+        ],
+        "projects": [
+          "Reusable UI components library (buttons, cards, chips)",
+          "Simple theme manager (light/dark mode toggle using inherited widget pattern - conceptual)",
+          "PHASE 1 MINI CAPSTONE: Multi-Screen Personal Productivity App (Tasks + Notes + Reminders)",
+          "Features: Home screen, list views, detail pages, basic persistence via in-memory lists, clean UI"
+        ],
+        "practice": "Refactor earlier projects to use cleaner OOP and reusable widgets",
+        "assessment": "Phase 1 Final Assessment – Dart fundamentals, core Flutter widgets & basic OOP"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: Intermediate Flutter, State Management & App Architecture (Months 4-6, Weeks 14-26)",
+    "description": "Master advanced Dart, state management patterns, navigation, forms, local storage, and start building real-world, offline-capable Flutter apps.",
+    "month_7_8": {
+      "title": "Months 4-5: Advanced Dart, Layouts & State Management Foundations",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Advanced Dart, Collections & Async Programming",
+        "topics": [
+          "Deep dive into Lists, Sets, Maps",
+          "Higher-order functions: map, where, reduce, fold",
+          "Collection if and collection for in Dart",
+          "Spread operator (...) and null-aware spread (...?)",
+          "Immutable vs mutable collections",
+          "Error handling in Dart: try-catch, on, finally, rethrow",
+          "Custom exceptions",
+          "Asynchronous programming: Future, async/await",
+          "Streams: single subscription vs broadcast (intro)",
+          "Stream transformations and listeners",
+          "Using async code in Flutter (FutureBuilder, StreamBuilder basics)",
+          "Using packages: http, intl and others",
+          "Organizing business logic into service classes"
+        ],
+        "projects": [
+          "Data transformation utilities (filtering, sorting, grouping)",
+          "HTTP client service (mock APIs) using http package",
+          "Simple news/feed list using FutureBuilder (with mock JSON)",
+          "Real-time counter/clock using StreamBuilder",
+          "Kids variant: Random joke/quote generator using an API"
+        ],
+        "practice": "Solve 35+ problems on collections & async patterns (Futures & Streams)"
+      },
+      "week_29_30": {
+        "title": "Flutter Navigation, Routing & App Structure",
+        "topics": [
+          "Navigator 1.0: push, pop, named routes",
+          "Route arguments and passing data between screens",
+          "Navigator 2.0 and Router (high-level intro, for advanced later)",
+          "BottomNavigationBar and tab-based navigation",
+          "Drawer navigation and custom side menus",
+          "Nested navigation and navigation stacks",
+          "App lifecycle basics: WidgetsBindingObserver, handling app states",
+          "Splash screens and onboarding flows",
+          "Handling back button and system navigation",
+          "Routing best practices and route generators"
+        ],
+        "projects": [
+          "Multi-screen notes app with details and edit screens",
+          "Onboarding flow with 3–4 intro pages",
+          "Bottom navigation based mini app (Home / Search / Profile)",
+          "Simple tabbed app with TabBar and TabBarView",
+          "Kids variant: Storybook app with navigation between chapters"
+        ],
+        "practice": "Implement routing and navigation in 6–8 mini applications"
+      },
+      "week_31_32": {
+        "title": "Forms, Validation & User Input Handling",
+        "topics": [
+          "Advanced TextField usage: controllers, focus nodes",
+          "Form widget, FormState, and GlobalKey",
+          "Synchronous and asynchronous validation",
+          "Custom form field widgets",
+          "Handling keyboard, focus traversal, and input submission",
+          "DropdownButton, Checkbox, Radio, Switch, Slider widgets",
+          "Date & time pickers",
+          "Input formatting and masking",
+          "Accessibility considerations for forms"
+        ],
+        "projects": [
+          "User registration form with full validation",
+          "Feedback/contact form with submission success screen",
+          "Settings screen with toggles, sliders, and dropdowns",
+          "Profile edit form with local validation & previews",
+          "Kids variant: Quiz creation form with multiple questions"
+        ],
+        "practice": "Build and validate 10+ complex forms and input flows"
+      },
+      "week_33_34": {
+        "title": "Flutter Layout Mastery, Lists & Responsive Design",
+        "topics": [
+          "Advanced layout widgets: Stack, Positioned, Wrap, LayoutBuilder",
+          "ListView.builder, ListView.separated",
+          "GridView builder and dynamic grids",
+          "Slivers overview: CustomScrollView, SliverAppBar, SliverList (intro)",
+          "Responsive design principles in Flutter",
+          "MediaQuery, LayoutBuilder and OrientationBuilder",
+          "Creating adaptive UIs for phone/tablet/web",
+          "Handling different screen densities and sizes",
+          "Using Flutter’s Flex and Expanded effectively"
+        ],
+        "projects": [
+          "E-commerce product list grid with responsive layout",
+          "Photo gallery app with grid and full-screen viewer",
+          "News feed with cards and SliverAppBar",
+          "Responsive dashboard layout (phone vs tablet)",
+          "Kids variant: Sticker board using Stack & Positioned"
+        ],
+        "practice": "Rebuild 10+ real-world UI screens with responsive layouts"
+      },
+      "week_35": {
+        "title": "Intro to State Management Patterns",
+        "topics": [
+          "What is state management? Local vs global state",
+          "Limitations of setState() for larger apps",
+          "Lifting state up and prop drilling problems",
+          "InheritedWidget and InheritedModel concept",
+          "Provider package introduction",
+          "ChangeNotifier and ChangeNotifierProvider",
+          "Listening to changes with Consumer and context.watch/select",
+          "Basic architecture: separating UI and logic using providers",
+          "Simple global app state (theme, locale, auth status)"
+        ],
+        "projects": [
+          "Counter app rebuilt with Provider",
+          "Theme toggler (light/dark mode) using Provider",
+          "Cart management in a simple shopping UI",
+          "Favorites list synced across multiple screens",
+          "Kids variant: Global score/coins manager for a mini game"
+        ],
+        "practice": "Create 10+ small apps using Provider for shared state"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: Persistent Storage, Offline Apps & Advanced State",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "Local Storage: SharedPreferences, SQLite & Object Persistence",
+        "topics": [
+          "Why persistence? Saving user data locally",
+          "Key-value storage with shared_preferences",
+          "Simple settings & flags persistence",
+          "SQLite basics and sqflite package",
+          "Database schema design for small apps",
+          "CRUD operations (create, read, update, delete)",
+          "Using path_provider for file paths",
+          "Storing JSON data locally",
+          "Intro to Hive / Isar (NoSQL local DB) and when to use them",
+          "Data serialization with jsonEncode/jsonDecode",
+          "Basic repository pattern for data layer"
+        ],
+        "projects": [
+          "Persistent to-do list app with sqflite",
+          "Settings/preferences manager using shared_preferences",
+          "Offline notes app using Hive or Isar",
+          "Simple expense tracker with SQLite",
+          "Kids variant: Sticker collection app persisted locally"
+        ],
+        "practice": "Build 12+ features requiring reading/writing persistent local data"
+      },
+      "week_38_39": {
+        "title": "State Management with Provider & Riverpod – Part 1",
+        "topics": [
+          "Revisiting Provider for larger apps",
+          "Multiple providers and provider scopes",
+          "Introduction to Riverpod: why & how it improves over Provider",
+          "Provider types in Riverpod: Provider, StateProvider, StateNotifierProvider (intro)",
+          "Using Riverpod for business logic & UI separation",
+          "Immutability and state objects",
+          "Error handling in async providers",
+          "Refactoring existing apps to Riverpod"
+        ],
+        "projects": [
+          "News/feed app powered by Riverpod for state",
+          "Weather app using async APIs with Riverpod",
+          "Multi-tab app with shared state using Riverpod",
+          "Theme + language switcher using Riverpod",
+          "Kids variant: Simple quiz app with score using Riverpod"
+        ],
+        "practice": "Refactor 5 existing apps from setState/Provider to Riverpod"
+      },
+      "week_40_41": {
+        "title": "Advanced State Management: Riverpod / BLoC – Part 2",
+        "topics": [
+          "StateNotifier & StateNotifierProvider with Riverpod",
+          "Modeling complex state (loading, loaded, error) patterns",
+          "BLoC pattern introduction (Cubit/BLoC) and when to use it",
+          "Comparing Riverpod, Provider, and BLoC (pros/cons)",
+          "Events, states, and BLoC logic (if using flutter_bloc)",
+          "Using Freezed for immutable data classes & unions (intro)",
+          "Folder structure for scalable apps (feature-first, layer-first)",
+          "Practical guidelines for choosing a pattern per project size"
+        ],
+        "projects": [
+          "Authentication flow using Riverpod or BLoC",
+          "Search with debounced queries and loading states",
+          "Paginated list with infinite scroll",
+          "Complex form with multi-step state management",
+          "Kids variant: Multi-level quiz/game with progress state"
+        ],
+        "practice": "Build 10+ flows using Riverpod/BLoC with loading/error handling"
+      },
+      "week_42_43": {
+        "title": "Flutter Animations & UX Polish",
+        "topics": [
+          "Implicit animations: AnimatedContainer, AnimatedOpacity, AnimatedAlign",
+          "AnimatedCrossFade, AnimatedSwitcher",
+          "Explicit animations: AnimationController, Tween, CurvedAnimation",
+          "Using AnimatedBuilder and AnimatedWidget",
+          "Hero animations between screens",
+          "Page transitions and custom route animations",
+          "Lottie animations integration",
+          "Micro-interactions and motion design principles",
+          "Performance considerations with animations"
+        ],
+        "projects": [
+          "Animated onboarding flow with Hero transitions",
+          "Like/Bookmark micro-interactions with animations",
+          "Expandable cards list with AnimatedContainer",
+          "Custom page transition for navigation",
+          "Kids variant: Animated \"reward\" screen with confetti"
+        ],
+        "practice": "Implement 20+ small animations and transitions across apps"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "Applying advanced Dart & collections in real app logic",
+          "Using Riverpod/Provider/BLoC for feature-level state",
+          "Designing multi-screen navigation and flows",
+          "Local storage for offline capabilities",
+          "Form handling, validation, and error display",
+          "Polishing UI with consistent theming and animations"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Offline-Capable Task & Habit Tracker",
+          "Features: Multi-list tasks, habits with streaks, reminders (UI only), local DB (Hive/SQLite), search & filters, theme switching, basic animations.",
+          "Alternative: Personal Finance Tracker with budgets and categories",
+          "Alternative: Recipe Organizer app with favorites and offline storage",
+          "Alternative: Journal/Diary app with tags and search"
+        ],
+        "assessment": "Phase 2 Final Exam – State management, navigation, persistence, and animations"
+      }
+    },
+    "month_11_12": {
+      "title": "PHASE 2 CONTINUED - Architecture, Packages & Best Practices",
+      "weeks": "Week 14-26 (distributed)",
+      "week_45_46": {
+        "title": "Reusable Widgets, Design Systems & Theming",
+        "topics": [
+          "Creating reusable, composable widgets",
+          "Building a design system: spacing, typography, colors",
+          "Material 3 (Material You) theming in Flutter",
+          "ThemeData and ColorScheme customization",
+          "Dark theme and dynamic theme switching",
+          "Global styles and app-wide configuration",
+          "Localization basics: using flutter_localizations and intl",
+          "Supporting multiple languages and locales",
+          "Accessibility: font scaling, contrast, semantics"
+        ],
+        "projects": [
+          "Design system library for buttons, cards, inputs",
+          "App-wide theming for a sample app (light/dark/custom)",
+          "Two-language version of an existing app (e.g. English + Hindi)",
+          "Custom theming for kids’ learning app",
+          "Reusable error/empty/loading state widgets"
+        ],
+        "practice": "Implement a consistent design system in 3+ existing apps"
+      },
+      "week_47_48": {
+        "title": "Clean Code, Architecture Patterns & Folder Structures",
+        "topics": [
+          "Clean code principles in Flutter",
+          "Common Flutter code smells and anti-patterns",
+          "Layered architecture: presentation, domain, data layers",
+          "MVVM & Clean Architecture concepts for Flutter",
+          "Repositories, use cases, and services",
+          "Separating UI, state management, and data sources",
+          "Project structure for small vs large apps",
+          "Configuration management and environment separation (dev/prod)",
+          "Refactoring legacy codebase to a cleaner structure"
+        ],
+        "projects": [
+          "Refactor a medium app using feature-first structure",
+          "Implement simple Clean Architecture in a new project",
+          "Create base repository and use case classes for reuse",
+          "Architecture template boilerplate for future apps",
+          "Kids variant: Simplified architecture for a game app"
+        ],
+        "practice": "Refactor 2–3 earlier apps using improved architecture patterns"
+      },
+      "week_49_50": {
+        "title": "Networking & REST API Integration - Fundamentals",
+        "topics": [
+          "HTTP basics: methods, status codes, headers, JSON",
+          "Using http / dio packages for API calls",
+          "GET, POST, PUT, DELETE requests",
+          "Parsing JSON manually and with json_serializable (intro)",
+          "Error handling for network failures & timeouts",
+          "Showing loading, success, and error states in UI",
+          "API pagination and infinite scroll",
+          "Securing API keys and environment variables (conceptual)",
+          "Handling connectivity changes (connectivity_plus intro)"
+        ],
+        "projects": [
+          "Public API driven list app (e.g. GitHub repos, movies, news)",
+          "Search UI with remote filtering",
+          "Paginated list with \"Load more\" and pull-to-refresh",
+          "Simple CRUD client for a mock REST API",
+          "Kids variant: Fun facts/animals viewer from an open API"
+        ],
+        "practice": "Build 8+ screens powered by real or mock REST APIs"
+      },
+      "week_51": {
+        "title": "Intro to Testing Flutter Apps",
+        "topics": [
+          "Why testing matters for Flutter apps",
+          "Types of tests: unit, widget, integration",
+          "Dart test package basics",
+          "Unit tests for Dart logic (services, utils)",
+          "Widget tests: testing UI components and layouts",
+          "Mocking services and repositories",
+          "Introduction to golden tests (visual regression) – concept",
+          "Basic test-driven development (TDD) workflow",
+          "Measuring coverage in Flutter projects"
+        ],
+        "projects": [
+          "Unit tests for validators and repository classes",
+          "Widget tests for key widgets in a sample app",
+          "Test suite for state management logic (Riverpod/BLoC)",
+          "Simple golden tests for critical UI components",
+          "Kids variant: Test coverage for a small game’s logic"
+        ],
+        "practice": "Write tests for at least 3 existing apps, targeting 60%+ coverage"
+      },
+      "week_52": {
+        "title": "Build Automation, Packages & Version Control",
+        "topics": [
+          "pubspec.yaml deep dive: dependencies, dev_dependencies",
+          "Managing versions and package upgrades",
+          "Creating and publishing your own Dart/Flutter package (concept)",
+          "Build flavors (dev, staging, prod) – overview",
+          "Flutter build commands for Android, iOS, Web",
+          "Introduction to Git with Flutter projects",
+          "Git branching strategies (feature, develop, main)",
+          "GitHub integration, PRs, code reviews",
+          "CI basics using GitHub Actions for Flutter test/build"
+        ],
+        "projects": [
+          "Extract common widgets into a local package",
+          "Git repository for all course projects (mono-repo or multi-repo)",
+          "Simple GitHub Actions workflow for test+build",
+          "Versioning and changelog for a sample app",
+          "Kids variant: Visual Git intro via Git GUI tools"
+        ],
+        "practice": "Convert all active projects to Git repos and set up basic CI for at least one"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Backend Integration, Firebase & Production Features (Months 7-9, Weeks 27-39)",
+    "description": "Master building connected apps with Firebase and REST backends, implement authentication, payments, notifications, and solid application architecture.",
+    "month_13_14": {
+      "title": "Months 7-8: Firebase, Auth & Real-World Features",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Firebase Fundamentals & Realtime Data",
+        "topics": [
+          "What is Firebase? Overview of its products",
+          "Setting up a Firebase project",
+          "Integrating Firebase with Flutter (firebase_core)",
+          "Crashlytics and Analytics setup (overview)",
+          "Realtime Database vs Firestore overview",
+          "Cloud Firestore basics: collections, documents, queries",
+          "Adding, reading, updating, deleting documents",
+          "Realtime listeners and streams from Firestore",
+          "Security rules overview and best practices",
+          "Offline support and caching behavior"
+        ],
+        "projects": [
+          "Realtime chat room (basic text chat) using Firestore",
+          "Live comments section on a sample post",
+          "Collaborative to-do list shared between users",
+          "Simple presence/online status indicator",
+          "Kids variant: Shared drawing board (concept + simple implementation)"
+        ],
+        "practice": "Build 6–8 small realtime features with Firestore streams"
+      },
+      "week_55_56": {
+        "title": "Authentication & User Management",
+        "topics": [
+          "Firebase Authentication overview",
+          "Email/password sign up and login",
+          "Password reset flow",
+          "Social login (Google, Apple, Facebook – platform dependent)",
+          "Persisting login state and auto-login",
+          "Linking auth user to Firestore profile documents",
+          "Protecting routes based on auth state",
+          "Handling auth errors and edge cases",
+          "Profile management and avatar uploads (intro to Storage)"
+        ],
+        "projects": [
+          "Complete auth flow: sign-up, login, logout, reset password",
+          "User profile screen linked to Firestore user data",
+          "Protected routes (e.g., only logged-in users see dashboard)",
+          "Simple role-based protection (admin vs user)",
+          "Kids variant: Simplified nickname-based login for child-friendly apps"
+        ],
+        "practice": "Implement full auth flows in at least 2 different sample apps"
+      },
+      "week_57_58": {
+        "title": "Cloud Storage, Media & File Handling",
+        "topics": [
+          "Firebase Storage integration",
+          "Uploading images/files from Flutter apps",
+          "Picking images from gallery/camera (image_picker, file_picker)",
+          "Displaying uploaded media in apps",
+          "Managing download URLs and access controls",
+          "Basic image caching for performance",
+          "Handling upload progress and cancellation",
+          "File size limits and optimization concepts"
+        ],
+        "projects": [
+          "User avatar upload & change profile picture feature",
+          "Simple image gallery app powered by Firebase Storage",
+          "Document upload & viewer (e.g., for resumes or PDFs)",
+          "Kids variant: Art gallery app where kids upload drawings",
+          "Media feed with upload progress indicators"
+        ],
+        "practice": "Add media upload/view features to at least 3 apps"
+      },
+      "week_59_60": {
+        "title": "Push Notifications & In-App Messaging",
+        "topics": [
+          "Firebase Cloud Messaging (FCM) integration",
+          "Obtaining device tokens and sending test notifications",
+          "Handling foreground, background, terminated notifications",
+          "Notification customization (sound, icon, click actions)",
+          "Topic-based and user-segment notifications",
+          "In-app messaging basics (e.g., using Firebase In-App Messaging or custom implementation)",
+          "Local notifications (flutter_local_notifications package)",
+          "Scheduling notifications and reminders"
+        ],
+        "projects": [
+          "Push notification integration in existing habit tracker app",
+          "Reminders/alerts app using local notifications",
+          "Topic-based notifications (e.g., daily tips/news categories)",
+          "In-app announcement banner system",
+          "Kids variant: Reward reminder notifications for practice streaks"
+        ],
+        "practice": "Implement both remote and local notifications across 2–3 apps"
+      },
+      "week_61": {
+        "title": "Advanced Firebase: Queries, Security & Performance",
+        "topics": [
+          "Advanced Firestore queries (compound, range, ordering)",
+          "Indexes in Firestore for performance",
+          "Optimizing read/write costs",
+          "Security rules patterns and testing",
+          "Multi-tenant data design (user-specific data separation)",
+          "Cloud Functions for backend logic (overview, callable functions)",
+          "Basic Cloud Functions triggered by Firestore events (concept)",
+          "Monitoring Firebase usage and costs"
+        ],
+        "projects": [
+          "Search & filter features using advanced queries",
+          "Role-based security rules for a sample app",
+          "Server-triggered notifications (concept + small demo with Cloud Functions)",
+          "Dashboard app with Firestore aggregate views",
+          "Kids variant: Filtered content access based on age group"
+        ],
+        "practice": "Design secure Firestore structures and rules for 2–3 different apps"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: REST APIs, Payments & Robust Product Apps",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "Advanced REST APIs, Error Handling & Data Layers",
+        "topics": [
+          "Refining data layer with repositories & DTOs",
+          "Handling complex JSON responses (nested, lists, maps)",
+          "Code generation with json_serializable & build_runner",
+          "Error modeling and mapping HTTP errors to UI states",
+          "Retry policies and exponential backoff (concept + simple implementation)",
+          "Network connectivity handling & offline-first strategies",
+          "Logging and monitoring HTTP traffic (e.g., dio interceptors)"
+        ],
+        "projects": [
+          "Robust API-driven app with error handling and retries",
+          "Offline-first news or blog reader (cache + network)",
+          "Centralized API client service with interceptors",
+          "Kids variant: Live quiz app using remote API data",
+          "Refactor earlier REST apps to use repository pattern"
+        ],
+        "practice": "Create 5+ robust REST clients with proper error and offline handling"
+      },
+      "week_64_65": {
+        "title": "In-App Purchases & Payment Gateway Integration",
+        "topics": [
+          "Monetization models: freemium, subscriptions, one-time purchases",
+          "In-app purchases on Android & iOS (overview, in_app_purchase package)",
+          "Using 3rd-party gateways like Razorpay, Stripe (concept + Flutter packages)",
+          "Handling payment flows and callbacks",
+          "Server verification of purchases (conceptual, minimal implementation)",
+          "Unlocking premium content and features",
+          "Compliance and security best practices (conceptual)",
+          "Sandbox/test environment usage"
+        ],
+        "projects": [
+          "Premium upgrade flow for an existing app (e.g., remove ads/unlock features)",
+          "Donation/payment screen integration with test gateway",
+          "Subscription-like experience (locally simulated) with feature flags",
+          "Kids variant: Parent-only purchase screen for unlocking content",
+          "Designing a pricing & plans screen with clear UX"
+        ],
+        "practice": "Integrate at least one payment-like flow in a demo app (test mode)"
+      },
+      "week_66_67": {
+        "title": "App Architecture in Depth: Clean Architecture & Large App Design",
+        "topics": [
+          "Revisiting Clean Architecture & MVVM in the context of bigger apps",
+          "Domain layer: entities, use cases, business rules",
+          "Data layer: models, DTOs, repositories, remote & local sources",
+          "Presentation layer: views, controllers, state management (Riverpod/BLoC)",
+          "Dependency injection basics (get_it, Riverpod providers)",
+          "Feature modularization for scalable apps",
+          "Working with multiple backends (REST + Firebase together)",
+          "Documentation of architecture and data flow"
+        ],
+        "projects": [
+          "Architect one mid-size app using full Clean Architecture",
+          "Combine local cache + remote data with repository pattern",
+          "Implement dependency injection for services and repositories",
+          "Architecture diagrams (UML, flow diagrams) for apps",
+          "Kids variant: Simplified layered structure for a learning app"
+        ],
+        "practice": "Re-architect one existing project using a full layered approach"
+      },
+      "week_68_69": {
+        "title": "Testing Connected Apps (REST + Firebase)",
+        "topics": [
+          "Unit testing repositories with mocked network/Firebase",
+          "Widget tests for screens relying on async data",
+          "Using fake clients, mocktail or Mockito for mocking",
+          "Integration tests for sign-up/login flows",
+          "Golden tests for critical UI screens",
+          "Continuous testing with CI integration",
+          "Measuring and improving test coverage for large apps"
+        ],
+        "projects": [
+          "Test suite for an authentication flow",
+          "Widget tests for list/detail pattern UI",
+          "Mocking Firestore/REST for offline tests",
+          "Regression test set for a capstone app",
+          "Kids variant: Test logic for a score/progress system"
+        ],
+        "practice": "Achieve 70%+ coverage on at least one sizable app; add essential tests to others"
+      },
+      "week_70": {
+        "title": "Phase 3 Capstone Preparation & Consolidation",
+        "topics": [
+          "Choosing appropriate backend (Firebase vs REST or hybrid)",
+          "Defining clear feature sets and MVP scope",
+          "Wireframing and UX flows for a mid-size product app",
+          "API contract design and documentation (OpenAPI/postman collections)",
+          "Planning offline capabilities and caching",
+          "Security and privacy considerations with user data"
+        ],
+        "projects": [
+          "PHASE 3 CAPSTONE: Full-Featured Social / Commerce / Utility App",
+          "Example: Social Feed App (posts, likes, comments, profiles, notifications)",
+          "Alternative: E-commerce Lite (product catalog, cart, checkout (mock), auth, favorites)",
+          "Alternative: Booking App (appointments, schedules, reminders, auth, reviews)",
+          "Alternative: Learning App (courses, progress, quizzes, leaderboards)"
+        ],
+        "practice": "Draft detailed spec, data models, navigation map, and wireframes for capstone"
+      }
+    },
+    "month_17_18": {
+      "title": "PHASE 3 COMPLETION - Production-Ready App Delivery",
+      "weeks": "Week 27-39 (distributed)",
+      "week_71_72": {
+        "title": "Performance Optimization & App Size Management",
+        "topics": [
+          "Performance profiling with Flutter DevTools",
+          "Identifying and fixing jank (frame drops)",
+          "Optimizing build methods and widget trees",
+          "Using const constructors and keys effectively",
+          "Image optimization and caching strategies",
+          "Lazy loading lists, pagination, and placeholders",
+          "Reducing app size: tree-shaking, splitting per ABI",
+          "Minimizing unnecessary rebuilds and re-renders",
+          "Monitoring performance in release builds"
+        ],
+        "projects": [
+          "Performance audit of capstone app",
+          "Implement skeleton loaders and shimmer effects",
+          "Optimize image-heavy screens",
+          "Reduce app bundle size for Android and iOS",
+          "Kids variant: Smooth animation showcase tuned for low-end devices"
+        ],
+        "practice": "Profile & optimize at least 3 screens per app; document improvements"
+      },
+      "week_73_74": {
+        "title": "Error Reporting, Logging & Analytics",
+        "topics": [
+          "Structured logging in Flutter (logger packages, print vs log)",
+          "Crashlytics deep dive: capturing and analyzing crashes",
+          "Custom error handling and error boundaries (via widget tree)",
+          "In-app error reporting (send logs, feedback)",
+          "Using Firebase Analytics or other analytics tools",
+          "Key metrics: MAU, retention, funnels (conceptual)",
+          "Privacy and consent for analytics tracking"
+        ],
+        "projects": [
+          "Centralized error handling layer in an app",
+          "User-friendly error screens with retry & support links",
+          "Basic analytics events for core user flows",
+          "Feedback form that sends logs & device info (with consent)",
+          "Kids variant: Minimal analytics respecting child privacy"
+        ],
+        "practice": "Integrate logging & crash reporting into all capstone-level apps"
+      },
+      "week_75_76": {
+        "title": "Security & Data Protection in Flutter Apps",
+        "topics": [
+          "Storing secrets securely (env files, platform secure storage)",
+          "Encrypted local storage (flutter_secure_storage, cryptography basics)",
+          "Protecting API keys and sensitive data",
+          "Secure communication: HTTPS/TLS verification (concept)",
+          "Obfuscation and code hardening (dart compile, proguard/R8 for Android)",
+          "Auth token management and refresh strategies",
+          "Basic OWASP considerations for mobile apps"
+        ],
+        "projects": [
+          "Secure token storage for an authenticated app",
+          "Secure notes/vault feature with local encryption (conceptual + basic implementation)",
+          "API key protection strategies demo",
+          "Kids variant: Content access locks and parental gate",
+          "Security checklist for all released apps"
+        ],
+        "practice": "Review and harden security for all apps handling user data"
+      },
+      "week_77": {
+        "title": "Phase 3 Capstone Implementation",
+        "topics": [
+          "Final integration of auth, data storage, and APIs",
+          "Polishing UI and interactions for product quality",
+          "Ensuring offline support, retries, and graceful failures",
+          "Testing critical user flows end-to-end",
+          "App icon, splash screen, and branding",
+          "Preparing release candidate builds"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Production-Ready Connected App (as scoped earlier)",
+          "Deliver full feature-set: auth, data, UI, offline, notifications",
+          "Alternative: Enterprise dashboard client app consuming existing APIs"
+        ],
+        "practice": "Stabilize capstone release with bug-fixing sprints"
+      },
+      "week_78": {
+        "title": "Phase 3 Review & Assessment",
+        "topics": [
+          "Code review of architecture & patterns",
+          "Refactoring opportunities and tech debt",
+          "End-to-end manual test checklist creation",
+          "Capturing lessons learned & best practices",
+          "Preparation for advanced micro-app and multi-platform work"
+        ],
+        "projects": [
+          "Code review & refactor iteration on capstone",
+          "Technical documentation of capstone architecture",
+          "Checklist for future production Flutter apps"
+        ],
+        "assessment": "Phase 3 Final Exam – Backend integration, Firebase, architecture & production features"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Advanced Flutter, Multi-Platform, DevOps & Career Excellence (Months 10-12, Weeks 40-52)",
+    "description": "Master advanced patterns, multi-platform delivery, CI/CD, store deployment, performance engineering, and become industry-ready as a professional Flutter developer.",
+    "month_19_20": {
+      "title": "Months 10-11: Multi-Platform, Advanced Patterns & Tooling",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Flutter Web & Desktop Fundamentals",
+        "topics": [
+          "Enabling Flutter web & desktop targets",
+          "Differences between mobile, web, and desktop UIs",
+          "Routing for web (URL-based navigation, go_router intro)",
+          "Mouse, keyboard and hover interactions",
+          "Window sizing and layout considerations on desktop",
+          "Persisting data on web (localStorage, indexedDB – via plugins)",
+          "SEO considerations for Flutter Web (limitations & strategies)",
+          "Packaging & distributing desktop apps (Windows, macOS, Linux basics)"
+        ],
+        "projects": [
+          "Responsive admin dashboard for web & desktop",
+          "Note-taking PWA-style web app",
+          "Simple desktop utility app (e.g. checklist/timer)",
+          "Kids variant: Web-based learning game with keyboard support",
+          "Port one existing mobile app to web & desktop with adaptations"
+        ],
+        "practice": "Adapt at least 2 apps for web/desktop and handle platform differences"
+      },
+      "week_81_82": {
+        "title": "Modularization, Packages & Plugin Ecosystem",
+        "topics": [
+          "Breaking apps into modules/packages (local Dart/Flutter packages)",
+          "Creating internal UI component libraries",
+          "Understanding platform channels for native integrations (concept)",
+          "Using common native plugins (camera, sensors, background tasks intro)",
+          "Dealing with plugin compatibility & platform issues",
+          "Maintaining and versioning internal packages"
+        ],
+        "projects": [
+          "Extract design system into a shared UI package",
+          "Create a utilities/data package shared by multiple apps",
+          "Proof-of-concept plugin usage (e.g., camera or location)",
+          "Kids variant: Sensor-based mini game (e.g., tilt/accelerometer)",
+          "Prepare one internal package for potential open-source release"
+        ],
+        "practice": "Modularize at least one large app into multiple packages"
+      },
+      "week_83_84": {
+        "title": "Internationalization, Accessibility & Advanced UX",
+        "topics": [
+          "Full internationalization (i18n) with arb/json & intl",
+          "Dynamic locale switching at runtime",
+          "Right-to-left (RTL) layout support basics",
+          "Accessibility labels, semantics widgets, and screen readers",
+          "Color contrast & large text support",
+          "Animation accessibility settings (reduce motion)",
+          "Improving perceived performance with skeletons & hints",
+          "Designing inclusive experiences for all ages (kids, seniors)"
+        ],
+        "projects": [
+          "Multi-language version of a key app (3+ languages)",
+          "Accessibility audit & improvements for a production app",
+          "RTL support demonstration (e.g., Arabic/Hebrew)",
+          "Kids variant: Child-friendly UI with big touch targets",
+          "Inclusive design checklist for Flutter apps"
+        ],
+        "practice": "Apply i18n and accessibility improvements to at least 2 apps"
+      },
+      "week_85_86": {
+        "title": "CI/CD, Automation & Release Management for Flutter",
+        "topics": [
+          "CI/CD concepts applied to Flutter projects",
+          "Using GitHub Actions/Codemagic/Bitrise for automated builds",
+          "Running tests and linters in pipelines",
+          "Automating versioning and changelogs",
+          "Automatic deployment to Play Store / App Store (overview)",
+          "Signing Android apps (keystores) & iOS code-signing basics",
+          "Managing build flavors and environments in CI",
+          "Release channels: alpha, beta, production"
+        ],
+        "projects": [
+          "CI pipeline that runs tests & builds APK/AAB",
+          "Automated build for web deployment (e.g., to Firebase Hosting)",
+          "Pipeline that signs and archives release builds",
+          "Kids variant: Visual dashboard of build status for understanding CI",
+          "Release checklist and template for major versions"
+        ],
+        "practice": "Set up CI for at least one large app covering tests and builds"
+      },
+      "week_87": {
+        "title": "Store Deployment & App Store Readiness",
+        "topics": [
+          "Preparing apps for Google Play Store",
+          "Preparing apps for Apple App Store (requirements & review)",
+          "App icons, splash screens and branding assets",
+          "Privacy policies, terms, and app descriptions",
+          "Screenshots, promo graphics, and store listing optimization (ASO)",
+          "Handling store reviews, updates, and crash reports",
+          "Versioning strategy for store releases",
+          "Beta testing via internal testing tracks / TestFlight"
+        ],
+        "projects": [
+          "Prepare a production app for Play Store submission",
+          "Create full store listing content (copy, screenshots, icons)",
+          "Draft privacy policy & basic legal pages",
+          "Kids variant: COPPA-like considerations (concept only)",
+          "Run a closed beta test and collect user feedback"
+        ],
+        "practice": "Complete end-to-end release process simulation for at least one app"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: System Design Thinking for Apps, Performance & DevOps",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "Mobile/App System Design & Architecture",
+        "topics": [
+          "High-level system design for mobile-first products",
+          "Backend choices: Firebase vs custom REST vs GraphQL",
+          "Designing for scale: many users, data, and devices",
+          "API contracts and versioning for mobile clients",
+          "Offline-first & sync strategies (conflict resolution concepts)",
+          "Push vs pull data flows (websocket, polling, FCM)",
+          "Multi-tenant and white-label apps (concepts)",
+          "Designing feature flags and remote config"
+        ],
+        "projects": [
+          "System design doc for a large consumer app (e.g., Instagram-like)",
+          "Data flow diagrams for offline-first sync",
+          "API contract definition for a new app idea",
+          "Feature flagging system concept for gradual rollouts",
+          "Kids variant: System design explained with simplified diagrams"
+        ],
+        "practice": "Create 3–4 system design documents for different app types"
+      },
+      "week_90_91": {
+        "title": "Performance Engineering for Flutter Apps",
+        "topics": [
+          "Deep dive into Flutter rendering pipeline basics",
+          "Jank analysis using Flutter performance overlays",
+          "Widget rebuild analysis and optimization",
+          "Isolates for heavy computations (intro + example)",
+          "Caching strategies for network and images (e.g., cached_network_image)",
+          "Network performance: compression, pagination, batch requests",
+          "Memory usage analysis and leak prevention strategies",
+          "Startup time optimization and lazy initialization"
+        ],
+        "projects": [
+          "Performance tuning exercise on capstone app",
+          "Extract heavy tasks into isolates (e.g., JSON processing)",
+          "Implement network caching and request batching",
+          "Create a reusable performance checklist for Flutter apps",
+          "Kids variant: Visualizing performance ideas with games (e.g., fewer objects, reuse)"
+        ],
+        "practice": "Tune at least one app to meet specific performance targets (e.g., <16ms frames)"
+      },
+      "week_92_93": {
+        "title": "DevOps & Observability for Flutter-Based Products",
+        "topics": [
+          "Monitoring mobile app health: crashes, ANRs (Application Not Responding)",
+          "Using Sentry, Firebase Crashlytics & other tools",
+          "User behavior analytics for product decisions",
+          "Remote configuration & feature toggles for runtime changes",
+          "A/B testing basics for apps (concepts)",
+          "Error budgets and release management mindset",
+          "Incident response workflows and rollback strategies"
+        ],
+        "projects": [
+          "Observability setup (crash + analytics) for capstone app",
+          "Remote configuration to toggle features without new release",
+          "Simple A/B test flow for UI variation (concept or controlled via remote config)",
+          "Kids variant: Simple \"version\" toggles to understand feature flags",
+          "Post-mortem template for production incidents"
+        ],
+        "practice": "Enable observability in all production-ready apps and simulate incidents"
+      },
+      "week_94_95": {
+        "title": "Code Quality, Refactoring & Long-Term Maintainability",
+        "topics": [
+          "Advanced linting & analysis (flutter_lints, custom rules)",
+          "Continuous refactoring and tech debt management",
+          "Design patterns for Flutter (Repository, Adapter, Strategy, etc.)",
+          "Documentation standards: README, API docs, architecture notes",
+          "Onboarding docs for new developers joining your project",
+          "Branching & release management for long-lived products",
+          "Open-source & community packages: maintaining compatibility"
+        ],
+        "projects": [
+          "Refactor a large codebase using updated best practices",
+          "Setup strict analysis_options.yaml and fix issues",
+          "Comprehensive documentation for one flagship app",
+          "Pattern catalog demo app showing multiple patterns",
+          "Kids variant: Simple code cleanup exercises on tiny projects"
+        ],
+        "practice": "Refactor and document at least two large projects for maintainability"
+      },
+      "week_96": {
+        "title": "Phase 4 Pre-Capstone Review",
+        "topics": [
+          "Reviewing full stack of skills gained: Dart, Flutter, state, APIs, Firebase, CI/CD, stores",
+          "Gap analysis: identifying areas needing revision",
+          "Idea validation for final mega-capstone",
+          "Planning timeline, deliverables, and milestones",
+          "Team collaboration best practices (if building with peers)"
+        ],
+        "projects": [
+          "Finalize concept & spec for final enterprise-grade Flutter app",
+          "Backlog and sprint planning for capstone build",
+          "Risk analysis and mitigation plan for project"
+        ],
+        "practice": "Consolidated revision: build one small app end-to-end in 1–2 days"
+      }
+    },
+    "month_23": {
+      "title": "PHASE 4 COMPLETION - Career Preparation",
+      "weeks": "Week 40-52 (distributed)",
+      "week_97": {
+        "title": "Advanced Flutter Topics & Specializations",
+        "topics": [
+          "Flutter animations advanced: custom painters, implicit vs explicit combinations",
+          "Flutter Web-specific optimization & SEO strategies (where possible)",
+          "Flutter for games: Flame engine overview (concept + small demo)",
+          "GraphQL clients in Flutter (graphql_flutter, ferry overview)",
+          "Real-time communication with WebSockets",
+          "Background services & notifications (platform limitations overview)",
+          "Platform-specific integrations via MethodChannels (concept)",
+          "Integration with existing native apps (add-to-app concept)"
+        ],
+        "projects": [
+          "Custom animated charts or visualizations",
+          "Small casual game using Flame (or simple game using standard widgets)",
+          "GraphQL-powered data screen in a demo app",
+          "WebSocket chat or live data ticker",
+          "Specialization mini-project in chosen advanced area"
+        ],
+        "practice": "Explore and prototype at least 3 advanced/edge Flutter capabilities"
+      },
+      "week_98": {
+        "title": "Code Quality & Best Practices (Flutter Edition)",
+        "topics": [
+          "Applying SOLID principles in Flutter code",
+          "Common Flutter-specific anti-patterns and their fixes",
+          "Effective widget composition vs massive widgets",
+          "State management best practices across app sizes",
+          "Reusability and DRY (Don't Repeat Yourself) in UI and logic",
+          "Testing strategy for long-term projects",
+          "Documentation via code comments and READMEs",
+          "Continuous improvement mindset for production apps"
+        ],
+        "projects": [
+          "Code review & refactor sprint on capstone app",
+          "Before/after comparison of a cleaned-up codebase",
+          "Best practices checklist curated from your own experience",
+          "Guidelines document for future Flutter team members",
+          "Kids variant: Simple \"tidy up\" exercises refactoring messy code"
+        ],
+        "practice": "Apply best-practices refactoring across the entire capstone project"
+      },
+      "week_99": {
+        "title": "Open Source & Community",
+        "topics": [
+          "Finding Flutter/Dart open-source projects to contribute to",
+          "Understanding CONTRIBUTING.md, issues, and PR templates",
+          "Submitting PRs: etiquette and expectations",
+          "Reporting and triaging bugs effectively",
+          "Creating and publishing your own open-source Flutter package",
+          "Building a personal brand in the Flutter community",
+          "Speaking at Flutter meetups and writing technical articles",
+          "Ethical and inclusive community participation"
+        ],
+        "projects": [
+          "Contribute to 3–5 Flutter/Dart open-source projects (docs, bugfixes, small features)",
+          "Create and publish at least one open-source Flutter/Dart package or starter template",
+          "Maintain an open-source example app or code snippet repository",
+          "Write documentation or tutorials for an existing open-source package",
+          "Engage in community Q&A (StackOverflow, Discord, Slack, etc.)"
+        ],
+        "practice": "Maintain regular community engagement and contributions over several weeks"
+      },
+      "week_100": {
+        "title": "Interview Preparation (Flutter & Mobile Roles)",
+        "topics": [
+          "Flutter-specific interview preparation strategy",
+          "Core Dart & Flutter concept questions",
+          "State management interview topics (Provider, Riverpod, BLoC)",
+          "Architecture & design pattern questions",
+          "Backend & Firebase conceptual questions",
+          "Mobile-specific topics: app lifecycle, performance, offline, notifications",
+          "System design for mobile apps interviews",
+          "DSA (Data Structures & Algorithms) essentials for Flutter devs",
+          "Platform & ecosystem questions (Android/iOS basics)",
+          "Behavioral and culture-fit interview questions",
+          "Presenting portfolio and explaining project decisions",
+          "Salary negotiation and remote job strategies",
+          "Freelancing & contract work interview differences",
+          "Building a long-term career roadmap with Flutter"
+        ],
+        "projects": [
+          "Solve 80–120 DSA problems relevant for mobile/backend roles",
+          "Curated list of 100+ Flutter interview Q&A with your own notes",
+          "Mock interviews (technical + behavioral) with peers/mentors",
+          "System design case studies with a focus on mobile apps",
+          "Polished portfolio presentation deck for interviews"
+        ],
+        "practice": "Daily coding practice + timed mock interviews leading up to job applications"
+      }
+    },
+    "month_24": {
+      "title": "Final Month - Capstone & Career Launch",
+      "weeks": "Week 49-52",
+      "week_101_102": {
+        "title": "Final Capstone Project - Part 1",
+        "topics": [
+          "Project ideation and selection aligned with desired career path (product, agency, freelance, startup)",
+          "Detailed requirement gathering and user stories",
+          "UX-driven design: wireframes, prototypes, and user flows",
+          "Full system architecture design (client + backend + analytics + notifications)",
+          "Choosing tech stack: Firebase vs custom backend vs hybrid",
+          "Database schema & data modeling for Firestore/SQL",
+          "API contract design (REST/GraphQL) and documentation",
+          "Defining MVP and phased roadmap",
+          "Setting up monorepo or multi-package structure if needed",
+          "Team collaboration & Agile/Scrum workflow planning"
+        ],
+        "projects": [
+          "FINAL CAPSTONE: Enterprise-Grade Flutter Application",
+          "Option 1: E-commerce Platform (multi-tenant, cart, checkout (real or test payments), admin panel, analytics)",
+          "Option 2: Social Platform (posts, stories, comments, likes, messaging, notifications, media upload)",
+          "Option 3: Booking/Marketplace App (services, search, booking, calendar, reviews, payments, chat)",
+          "Option 4: Learning Platform (courses, content, video, quizzes, certificates, progress tracking, notifications)"
+        ]
+      },
+      "week_103": {
+        "title": "Final Capstone Project - Part 2",
+        "topics": [
+          "Implementation of all planned features with robust state management",
+          "Integration of backend, auth, notifications, and analytics",
+          "Comprehensive manual and automated testing",
+          "Regression testing on multiple platforms (Android, iOS, Web, Desktop if applicable)",
+          "Performance optimization and profiling cycles",
+          "Security review: auth, storage, secrets, policies",
+          "Deployment to app stores and web hosting (if applicable)",
+          "CI/CD pipeline finalization for automated builds and tests",
+          "Monitoring and logging integration for production",
+          "Preparing documentation, demos, and marketing assets for the app"
+        ],
+        "deliverables": [
+          "Complete Flutter source code hosted on GitHub/GitLab with clear structure",
+          "Deployed mobile app (at least Android release on Play Store or internal track; iOS TestFlight/Store where possible)",
+          "Optional: Deployed web version and/or desktop package if relevant",
+          "End-to-end feature documentation and API references",
+          "Architecture and data flow diagrams",
+          "Automated test suite with target 70–80% coverage on core logic",
+          "CI/CD configuration scripts (GitHub Actions/Codemagic/etc.)",
+          "Performance profiling and optimization report",
+          "Security and privacy checklist with mitigation strategies",
+          "Video walkthrough/demo of the app and its architecture",
+          "Comprehensive README and project wiki for portfolio presentation"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & Professional Development",
+        "topics": [
+          "Building a standout professional portfolio website highlighting Flutter projects",
+          "Resume optimization for Flutter/Mobile/Front-end roles",
+          "LinkedIn profile tuning: headline, about, experience, projects, recommendations",
+          "GitHub profile curation: pinning best repos, writing good READMEs",
+          "Technical blog strategy: what to write, where to publish (Medium, Dev.to, Hashnode)",
+          "Speaking and presenting: meetups, webinars, internal tech talks",
+          "Networking: online communities, conferences, local meetups",
+          "Job search strategy: targeting remote-friendly and product companies",
+          "Freelance profile setup (Upwork, Fiverr, Toptal, local platforms)",
+          "Consulting & indie hacker paths with Flutter apps",
+          "Planning continuous learning: staying updated with Flutter releases & ecosystem",
+          "Giving back: mentoring juniors, contributing to OSS, sharing knowledge",
+          "Personal branding long-term plan"
+        ],
+        "deliverables": [
+          "Professional portfolio site showcasing 40+ projects with live demos/screenshots",
+          "ATS-optimized resume targeted at Flutter/Mobile Developer roles",
+          "Enhanced LinkedIn profile with featured projects and endorsements",
+          "GitHub profile with active contributions and polished repositories",
+          "5–10 technical blog posts or case studies documenting your learning or projects",
+          "Public presentation or recorded talk/demo of your capstone",
+          "Job application materials (cover letters, outreach templates)",
+          "Completed mock interviews with feedback incorporated",
+          "6–12 month personal learning roadmap beyond the course",
+          "List of relevant communities, newsletters, and events to stay engaged with"
+        ],
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM – Complete Flutter & Dart mastery evaluation plus portfolio review"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-3): 20+ foundational projects – Dart console apps, basic UIs, forms, small multi-screen apps",
+      "Phase 2 (Months 4-6): 18+ intermediate projects – responsive UIs, offline storage apps, advanced state management, animated experiences",
+      "Phase 3 (Months 7-9): 20+ connected projects – Firebase-powered apps, REST clients, auth flows, payment demos, complex product apps",
+      "Phase 4 (Months 10-12): 15+ advanced projects – multi-platform apps, CI/CD pipelines, performance-optimized apps, store-ready products",
+      "Final: 5 major capstone projects including at least 1 enterprise-grade app demonstrating complete Flutter expertise"
+    ],
+    "total_projects_built": "70+ projects from beginner toy apps to enterprise-grade, store-ready products",
+    "skills_mastered": [
+      "Dart Language: Syntax, OOP, Collections, Null Safety, Exceptions, Async/Await, Streams, Generators",
+      "Flutter Core: Widgets, Layout, Navigation, Theming, Animations, Gesture Handling, Forms, Accessibility",
+      "State Management: setState, InheritedWidget, Provider, Riverpod, BLoC (concepts), Clean Architecture patterns",
+      "Backend Integration: REST APIs, JSON, dio/http, error handling, pagination, caching",
+      "Firebase: Auth, Firestore, Realtime updates, Storage, Cloud Messaging (push), Analytics, basic Cloud Functions",
+      "Local Storage: shared_preferences, SQLite (sqflite), Hive/Isar, offline-first patterns",
+      "Multi-Platform: Android, iOS, Web, Desktop support, platform adaptations",
+      "Testing: Unit tests, Widget tests, Integration tests, Golden tests, CI-based testing workflows",
+      "DevOps & Delivery: Git, GitHub, CI/CD (GitHub Actions/Codemagic), build flavors, automated builds, store deployment",
+      "Performance & Security: Profiling, optimization, app size reduction, secure storage, encrypted data, secure API usage",
+      "Architecture & Design: MVVM, Clean Architecture, repository pattern, system design for mobile-first products",
+      "Tools & Ecosystem: Android Studio, VS Code, Flutter DevTools, Postman, Firebase Console, design tools (Figma basics)",
+      "Soft Skills: Problem-solving, product thinking, documentation, code review, Agile workflows, communication with teams/clients"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-10 hours",
+      "projects": "3-5 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live coding sessions, app reviews, and Q&A with Flutter experts",
+      "mentorship": "1-on-1 mentorship from senior Flutter developers and architects",
+      "community": "Active Discord/Slack community with 24/7 peer and TA support focused on Flutter",
+      "code_review": "Expert code reviews for all major apps and capstone projects",
+      "career_support": "Resume review, portfolio polishing, mock interviews for Flutter roles, and job search guidance",
+      "lifetime_access": "Lifetime access to all Flutter course content, updates, and new modules as Flutter evolves",
+      "placement_assistance": "Dedicated placement support with companies hiring Flutter/mobile developers",
+      "interview_prep": "Structured Flutter interview prep, mock interviews with industry professionals"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion (4 Flutter phase certificates)",
+      "final_certificate": "Professional Flutter App Developer Certification",
+      "spring_certificate": "N/A for Flutter – replaced by: Flutter Firebase Specialist Certificate",
+      "microservices_certificate": "N/A for Flutter – replaced by: Cross-Platform App Architecture Certificate",
+      "linkedin_badge": "Digital badges for LinkedIn reflecting Flutter specialization",
+      "industry_recognized": "Recognized by startups, agencies, and product companies using Flutter in production",
+      "portfolio_projects": "40+ production-style apps and mini-projects for your portfolio",
+      "oracle_exam_prep": "Not applicable – instead: guidance for Google/Flutter-related certifications and badges when available"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required – open to school students, college students, and working professionals",
+    "coding_experience": "Absolute beginner friendly – no prior programming or mobile development experience needed",
+    "age": "12+ years (separate learning tracks and examples for kids, teens, and adults)",
+    "equipment": "Computer/laptop (Windows/Mac/Linux), minimum 8GB RAM recommended, Android device or emulator; macOS recommended for iOS builds",
+    "time_commitment": "15-20 hours per week consistently for best results and portfolio depth",
+    "english": "Basic reading comprehension (core materials in English; key explanations also available in Hindi)",
+    "motivation": "Strong desire to build real, beautiful apps and pursue a Flutter/mobile development career",
+    "math": "Basic school-level mathematics (used occasionally for layouts, animations, and logic)"
+  },
+  "who_is_this_for": {
+    "kids": "Age 12-14: Simplified track with visual learning, colorful UIs, game-like projects, and easy Dart concepts explained with stories.",
+    "teens": "Age 15-18: Student-focused track with apps relevant to school/college life, portfolio building, and intro to competitive programming logic.",
+    "students": "College students: Strong Flutter portfolio for internships and placements, freelancing opportunities, and startup ideas.",
+    "working_professionals": "Career switchers: Structured path from any background into Flutter/mobile developer roles, with practical apps and interview prep.",
+    "developers": "Developers from web, native Android/iOS, or other languages wanting to specialize in Flutter for cross-platform development.",
+    "backend_engineers": "Backend developers wanting to add a modern Flutter front-end/mobile skill-set to their profile.",
+    "entrepreneurs": "Founders and product builders who want to quickly prototype and ship cross-platform apps without large teams.",
+    "freelancers": "Freelancers who want to offer Flutter app development services to global clients and agencies.",
+    "architects": "Technical leads/architects wanting to design and supervise cross-platform Flutter app ecosystems.",
+    "anyone": "Anyone passionate about building beautiful, performant apps that run on Android, iOS, Web, and Desktop from a single codebase."
+  },
+  "career_paths_after_completion": [
+    "Flutter Developer (Junior to Senior levels)",
+    "Mobile App Developer (Flutter-focused)",
+    "Cross-Platform App Developer",
+    "Front-end Engineer (Flutter Web & Mobile)",
+    "Full-Stack Flutter + Firebase Developer",
+    "Flutter Team Lead / Mobile Tech Lead",
+    "Mobile Solutions Architect (Flutter-centric)",
+    "Freelance Flutter Consultant / Contractor",
+    "Indie App Developer / Solo Founder",
+    "UI Engineer with Flutter specialization",
+    "Product Engineer (Mobile-first products)",
+    "Technical Trainer / Flutter Instructor",
+    "Open-Source Flutter Package Maintainer",
+    "Remote Flutter Developer for global startups",
+    "CTO / Tech Co-founder for app-based startups"
+  ],
+  "salary_expectations": {
+    "after_3_months": "₹3-5 LPA (Junior Flutter Developer / Mobile Intern with strong fundamentals)",
+    "after_6_months": "₹5-9 LPA (Flutter Developer / Mobile App Developer with portfolio apps)",
+    "after_9_months": "₹8-15 LPA (Senior Flutter Developer / Lead Mobile Engineer in startups & agencies)",
+    "after_12_months": "₹12-25 LPA (Senior/Lead Flutter Developer or Mobile Architect in product companies)",
+    "experienced_3_years": "₹18-40 LPA (Lead Developer / Mobile Architect / Specialist Consultant)",
+    "freelance": "₹1000-5000/hour or $20-$100/hour based on expertise and client region",
+    "international_usa": "$80k-160k USD (Mobile / Flutter Developer to Senior roles, remote or onsite)",
+    "international_europe": "€50k-120k EUR based on country, role, and experience in Flutter/mobile dev",
+    "product_companies": "₹15-45 LPA in top product companies and well-funded startups using Flutter",
+    "fintech_banking": "₹18-40 LPA in fintechs and digital banks that adopt Flutter for their apps"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee – if you’re not satisfied, get a full refund.",
+    "job_assistance": "Job placement support with companies and agencies hiring Flutter/mobile developers.",
+    "lifetime_updates": "Lifetime access to all Flutter content, including updates for new Flutter & Dart versions.",
+    "mentorship": "Dedicated expert mentor support throughout the 12-month journey and during job search.",
+    "certificate": "Industry-recognized Flutter Developer certification upon successful completion.",
+    "portfolio": "40+ visually impressive, real-world Flutter apps and mini-projects to showcase to employers/clients.",
+    "community": "Lifetime access to the alumni network and active Flutter-focused community.",
+    "career_switch": "Extended career transition guidance until you land a Flutter/mobile development role (up to 18 months).",
+    "skill_guarantee": "Master core Flutter & Dart concepts or continue with additional support and content at no extra cost.",
+    "interview_guarantee": "Unlimited mock interviews and portfolio reviews until you achieve a job offer (within program terms).",
+    "salary_hike": "Average 150-300% salary hike reported by successful career switchers into Flutter/mobile roles.",
+    "placement_record": "Strong placement outcomes; majority of committed learners land interviews or roles within 6 months of completion."
+  }
+}
