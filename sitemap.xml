@@ -916,54 +916,341 @@
   </url>
 
   <!-- ========================================
-       RESOURCES & GUIDES
+       CYBERSECURITY COURSES
        ======================================== -->
   <url>
-    <loc>https://learn.modernagecoders.com/bootstrap</loc>
-    <lastmod>2025-01-15</lastmod>
+    <loc>https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete</loc>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
 
   <!-- ========================================
-       BLOG POSTS
+       BLOG POSTS - COMPLETE COLLECTION
        ======================================== -->
+  <!-- Programming Fundamentals -->
   <url>
     <loc>https://learn.modernagecoders.com/blog/python-for-beginners</loc>
-    <lastmod>2025-12-31</lastmod>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog/javascript-basics</loc>
-    <lastmod>2025-12-31</lastmod>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>https://learn.modernagecoders.com/blog/coding-for-kids-guide</loc>
-    <lastmod>2025-12-31</lastmod>
+    <lastmod>2026-01-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  
-  <!-- ========================================
-       LEGAL PAGES
-       ======================================== -->
+
+  <!-- AI & Technology -->
   <url>
-    <loc>https://learn.modernagecoders.com/terms</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://learn.modernagecoders.com/blog/what-is-ai-complete-beginners-guide-how-to-start</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/privacy</loc>
-    <lastmod>2025-12-31</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://learn.modernagecoders.com/blog/ai-automation-transforming-small-medium-businesses</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
-  
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/safe-ai-tools-for-kids-homework-2025</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kids & School Students -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/why-coding-is-new-literacy-kids-2025</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/scratch-vs-python-which-better-young-learners</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/what-is-blockly-for-kids</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/top-coding-games-platforms-make-learning-fun-kids</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/minecraft-vs-roblox-which-teaches-kids-to-code</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/robotics-coding-stem-kits-build-logical-thinking</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-coding-improves-mathematical-thinking-children</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/common-myths-about-coding-for-school-students</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/why-early-exposure-coding-gives-students-competitive-advantage</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/cbse-icse-gap-what-schools-not-teaching-about-tech</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Parents & Education -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/parents-guide-starting-coding-education-home</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-schools-parents-prepare-children-future-tech-careers</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-coding-education-changing-future-india</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/project-based-learning-why-theory-alone-not-enough-coding</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Teens -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/why-every-teen-should-learn-coding</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/app-idea-to-app-store-60-days-teen-developer-roadmap</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/coding-is-the-new-english-why-2026-is-the-year-to-start</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- College Students -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2025</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/how-college-students-build-real-world-projects-while-studying</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/competitive-coding-vs-development-skills-what-students-focus</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/top-10-java-programs-every-college-student-must-know</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/top-10-java-programs-for-school-students</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Professionals & Career -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/why-python-most-powerful-skill-professionals-today</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/working-professionals-upskill-coding-without-quitting-job</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/career-transition-guide-moving-non-tech-to-tech-roles</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/full-stack-vs-ai-engineer-salary-india</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/data-science-ai-math-skills-professionals</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Business -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/why-every-business-needs-website-mobile-app-2025</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/mobile-apps-increase-customer-engagement-businesses</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/custom-software-vs-ready-made-software</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/outsourcing-software-development-vs-hiring-inhouse-developers</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/cloud-computing-explained-business-owners-without-tech-jargon</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/data-analytics-math-help-businesses-better-decisions</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Mathematics & STEM -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/coding-mathematics-engineering-science</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/role-of-mathematics-programming-logical-problem-solving</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- About Modern Age Coders -->
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/who-are-modern-age-coders-why-choose-us</loc>
+    <lastmod>2026-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>

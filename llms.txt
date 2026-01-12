@@ -1,0 +1,163 @@
+# Modern Age Coders
+> India's Premier Live Online Coding Academy for Kids, Teens, and Professionals
+
+## About
+Modern Age Coders is a live online coding education platform based in India, offering personalized 1-on-1 and small batch coding classes. We teach programming, AI, Data Science, Web Development, and Mathematics to students of all ages - from kids (6+) to working professionals.
+
+## Core Pages
+
+### Homepage
+- /
+- Main landing page with course overview, testimonials, and enrollment CTAs
+
+### Courses
+- /courses - Course catalog and browsing
+- /category/kids.html - Courses for children ages 6-12
+- /category/teens.html - Courses for teenagers 13-17
+- /category/college.html - Courses for college students
+- /category/professionals.html - Courses for working professionals
+- /category/corporate.html - Corporate training programs
+
+### Lead Generation
+- /book-demo - Schedule a free demo class
+- /contact - Contact form and information
+- /pricing - Pricing information
+
+### About & Trust
+- /about - Company information and team
+- /success-stories - Student success stories
+- /love - Student and parent testimonials (Love Wall)
+- /student-projects - Showcase of student work
+- /student-labs - Interactive coding labs
+
+### Free Resources
+- /free-resources - Free learning materials
+- /blog - Educational blog with 46+ articles
+- /coding-challenges - Daily coding practice challenges
+- /maths-challenges - Daily mathematics challenges
+
+### Tools & Games  
+- /beat-the-babu - Coding game for practice
+- /aura - Student achievement/gamification system
+- /bootstrap - Bootstrap CSS learning resource
+
+### For Businesses
+- /business-solutions - Custom software solutions
+- /corporate-training - Corporate training programs
+
+### Legal
+- /terms - Terms and conditions
+- /privacy - Privacy policy
+
+## City Landing Pages (Local SEO)
+- /best-coding-class-in-kolkata
+- /best-coding-class-in-bengaluru
+- /best-coding-class-in-chennai
+- /best-coding-class-in-pune
+- /best-coding-class-in-mumbai
+- /best-coding-class-in-delhi
+- /best-coding-class-in-hyderabad
+- /best-coding-class-in-ahmedabad
+- /best-coding-class-in-indore
+
+## Course Categories
+
+### Python & AI
+- /courses/python-programming-masterclass-zero-to-advanced-college
+- /courses/python-ai-automation-masterclass-college
+- /courses/python-ai-kids-masterclass
+- /courses/python-complete-masterclass-teens
+- /courses/artificial-intelligence-complete-masterclass-college
+- /courses/ai-ml-masterclass-complete-college
+- /courses/ai-ml-masterclass-teens
+- /courses/ai-tools-mastery-complete-college
+
+### Web Development
+- /courses/full-stack-web-development-masterclass-college
+- /courses/full-stack-web-development-teens-masterclass
+- /courses/mern-stack-development-masterclass-college
+- /courses/react-js-complete-masterclass-college
+- /courses/react-for-teens-complete-masterclass
+- /courses/frontend-development-masterclass-for-teens
+- /courses/backend-coding-masterclass-for-teens
+
+### Data Science & DSA
+- /courses/data-science-complete-masterclass-college
+- /courses/data-structures-algorithms-masterclass-college
+- /courses/data-analysis-mastery-course-college
+- /courses/competitive-programming-masterclass-college
+- /courses/problem-solving-dsa-masterclass-teens
+
+### Java & C++
+- /courses/complete-java-programming-masterclass-college
+- /courses/java-programming-masterclass-for-teens
+- /courses/cpp-programming-complete-masterclass-college
+- /courses/cpp-programming-masterclass-for-teens
+
+### Mobile Development
+- /courses/complete-app-development-masterclass-college
+- /courses/complete-app-development-masterclass-for-teens
+- /courses/complete-flutter-app-development-masterclass-college
+- /courses/complete-swift-programming-masterclass-college
+- /courses/complete-kotlin-programming-masterclass-professional
+
+### Game Development
+- /courses/game-development-complete-masterclass-college
+- /courses/complete-game-development-masterclass-for-teens
+- /courses/game-development-masterclass-for-kids
+
+### Kids Courses
+- /courses/scratch-programming-complete-course
+- /courses/kids-coding-blocks-masterclass
+- /courses/kids-ai-mastery-course
+- /courses/kids-ai-web-development-course
+- /courses/problem-solving-and-computational-thinking-for-kids
+- /courses/canva-ai-design-masterclass
+- /courses/microsoft-office-kids-mastery
+- /courses/creative-coding-animation-mastery
+
+### Girls Coding Programs
+- /courses/princess-coders-complete-coding-masterclass
+- /courses/queen-coders-advanced-tech-leadership
+- /courses/alpha-girls-elite-tech-mastery
+
+### Mathematics
+- /courses/elementary-mathematics-complete-masterclass
+- /courses/comprehensive-middle-school-mathematics-mastery
+- /courses/complete-high-school-mathematics-mastery
+- /courses/college-mathematics-complete-masterclass
+- /courses/olympiad-competition-mathematics-mastery
+- /courses/complete-business-finance-mathematics-mastery
+- /courses/data-analytics-mathematics-masterclass
+
+### Specialized
+- /courses/mysql-database-complete-masterclass-college
+- /courses/mysql-mastery-for-teens
+- /courses/algorithmic-trading-masterclass-complete
+- /courses/algorithmic-trading-automation-masterclass
+- /courses/complete-typescript-programming-masterclass-college
+- /courses/complete-golang-programming-masterclass-college
+- /courses/ethical-hacking-masterclass-complete
+
+## Blog Topics
+Our blog covers: coding for kids, programming languages, AI education, career guidance, college student resources, professional upskilling, business technology, mathematics, and parenting guides for tech education.
+
+Blog index: /blog
+All 46 blog posts accessible at /blog/[post-slug]
+
+## Contact Information
+- Website: https://learn.modernagecoders.com
+- Primary Focus: Live online coding education
+- Target Audience: Kids (6+), Teens, College Students, Working Professionals, Businesses
+- Location: India (serving students nationwide)
+
+## Key Features
+- Live 1-on-1 classes
+- Small batch classes (max 4 students)
+- Free demo classes available
+- Project-based learning
+- Industry-recognized certificates
+- Flexible scheduling
+
+## Optional: Extended Documentation
+For detailed course information, visit the individual course pages listed above.

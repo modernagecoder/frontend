@@ -8,6 +8,9 @@
 /images/* /public/images/:splat 200
 /admin/* /src/admin/:splat 200
 
+# LLMs.txt for AI assistants
+/llms.txt /llms.txt 200
+
 # Lovewall assets (built files)
 /assets/* /lovewall/dist/assets/:splat 200
 
