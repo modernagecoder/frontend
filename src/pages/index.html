@@ -1195,6 +1195,704 @@
         </section>
 
 
+
+
+
+              <!-- ====== PRICING PLANS SECTION START ====== -->
+
+        <!-- ====== PRICING PLANS SECTION END ====== -->
+
+        <!-- ====== COMPARISON TABLE SECTION START ====== -->
+        <section class="section comparison-section" style="animation-delay: 1.2s; padding: 5rem 1.5rem;">
+            <style>
+                .comparison-section {
+                    position: relative;
+                    overflow: visible;
+                }
+
+                .comparison-section::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+                    height: 50%;
+                    background: radial-gradient(ellipse at center top, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
+                    pointer-events: none;
+                }
+
+                .comparison-container {
+                    max-width: 850px;
+                    margin: 0 auto;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .comparison-header {
+                    text-align: center;
+                    margin-bottom: 3rem;
+                }
+
+                .comparison-header h2 {
+                    font-size: 2.5rem;
+                    font-weight: 700;
+                    color: #f1f5f9;
+                    margin-bottom: 1rem;
+                    letter-spacing: -0.02em;
+                }
+
+                .comparison-header p {
+                    font-size: 1.1rem;
+                    color: rgba(148, 163, 184, 0.9);
+                    max-width: 600px;
+                    margin: 0 auto;
+                }
+
+                .comparison-table-wrapper {
+                    background: rgba(30, 41, 59, 0.5);
+                    backdrop-filter: blur(20px);
+                    border-radius: 20px;
+                    border: 1px solid rgba(148, 163, 184, 0.15);
+                    overflow: hidden;
+                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+                    margin-top: 1rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                .comparison-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    table-layout: fixed;
+                }
+
+                .comparison-table thead {
+                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3) 0%, rgba(78, 205, 196, 0.3) 100%);
+                }
+
+                .comparison-table th {
+                    padding: 1.5rem 1rem;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                    color: #ffffff;
+                    border-bottom: 1px solid rgba(148, 163, 184, 0.2);
+                }
+
+                .comparison-table th:first-child {
+                    text-align: left;
+                    padding-left: 2rem;
+                    width: 40%;
+                }
+
+                .comparison-table th.modern-age-header {
+                    width: 30%;
+                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.5) 0%, rgba(139, 92, 246, 0.5) 100%);
+                    position: relative;
+                }
+
+                .comparison-table th.modern-age-header::before {
+                    content: '★ RECOMMENDED';
+                    position: absolute;
+                    top: -12px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    font-size: 0.65rem;
+                    font-weight: 600;
+                    color: #fbbf24;
+                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 100%);
+                    padding: 4px 12px;
+                    border-radius: 20px;
+                    letter-spacing: 0.5px;
+                    white-space: nowrap;
+                }
+
+                .comparison-table th.others-header {
+                    width: 30%;
+                    background: rgba(100, 116, 139, 0.3);
+                    color: rgba(226, 232, 240, 0.8);
+                    padding-right: 2rem;
+                }
+
+                .comparison-table tbody tr {
+                    transition: all 0.3s ease;
+                }
+
+                .comparison-table tbody tr:hover {
+                    background: rgba(168, 85, 247, 0.08);
+                }
+
+                .comparison-table tbody tr:not(:last-child) {
+                    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+                }
+
+                /* Round bottom corners for last row */
+                .comparison-table tbody tr:last-child td:first-child {
+                    border-bottom-left-radius: 20px;
+                }
+
+                .comparison-table tbody tr:last-child td:last-child {
+                    border-bottom-right-radius: 20px;
+                }
+
+                /* Round top corners for thead */
+                .comparison-table thead tr th:first-child {
+                    border-top-left-radius: 20px;
+                }
+
+                .comparison-table thead tr th:last-child {
+                    border-top-right-radius: 20px;
+                }
+
+                .comparison-table td {
+                    padding: 1.25rem 1rem;
+                    text-align: center;
+                    font-size: 1rem;
+                    color: #e2e8f0;
+                }
+
+                .comparison-table td:first-child {
+                    text-align: left;
+                    padding-left: 2rem;
+                    font-weight: 500;
+                    color: #f1f5f9;
+                }
+
+                .comparison-table td:last-child {
+                    padding-right: 2rem;
+                }
+
+                .comparison-table td.modern-age-col {
+                    background: rgba(168, 85, 247, 0.05);
+                }
+
+                .check-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+                    border-radius: 50%;
+                    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+                }
+
+                .check-icon svg {
+                    width: 18px;
+                    height: 18px;
+                    stroke: #ffffff;
+                    stroke-width: 3;
+                }
+
+                .cross-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                    background: rgba(239, 68, 68, 0.2);
+                    border-radius: 50%;
+                    border: 2px solid rgba(239, 68, 68, 0.4);
+                }
+
+                .cross-icon svg {
+                    width: 16px;
+                    height: 16px;
+                    stroke: #ef4444;
+                    stroke-width: 2.5;
+                }
+
+                .partial-icon {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                    background: rgba(245, 158, 11, 0.2);
+                    border-radius: 50%;
+                    border: 2px solid rgba(245, 158, 11, 0.4);
+                    color: #f59e0b;
+                    font-weight: 700;
+                    font-size: 1.2rem;
+                }
+
+                .comparison-cta {
+                    text-align: center;
+                    margin-top: 3rem;
+                }
+
+                .comparison-cta h3 {
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    color: #f1f5f9;
+                    margin-bottom: 0.75rem;
+                }
+
+                .comparison-cta p {
+                    color: rgba(148, 163, 184, 0.9);
+                    margin-bottom: 1.5rem;
+                    font-size: 1rem;
+                }
+
+                .demo-button {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 0.75rem;
+                    padding: 1rem 2.5rem;
+                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 50%, #6366f1 100%);
+                    color: #ffffff;
+                    font-size: 1.1rem;
+                    font-weight: 600;
+                    border: none;
+                    border-radius: 50px;
+                    text-decoration: none;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.4);
+                    position: relative;
+                    overflow: hidden;
+                }
+
+                .demo-button::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+                    transition: left 0.5s ease;
+                }
+
+                .demo-button:hover::before {
+                    left: 100%;
+                }
+
+                .demo-button:hover {
+                    transform: translateY(-3px);
+                    box-shadow: 0 12px 40px rgba(168, 85, 247, 0.5);
+                }
+
+                .demo-button svg {
+                    width: 20px;
+                    height: 20px;
+                    transition: transform 0.3s ease;
+                }
+
+                .demo-button:hover svg {
+                    transform: translateX(3px);
+                }
+
+                /* Mobile Responsive Styles */
+                @media (max-width: 768px) {
+                    .comparison-section {
+                        padding: 3rem 1rem;
+                    }
+
+                    .comparison-header h2 {
+                        font-size: 1.75rem;
+                    }
+
+                    .comparison-header p {
+                        font-size: 0.95rem;
+                        padding: 0 0.5rem;
+                    }
+
+                    .comparison-table-wrapper {
+                        border-radius: 16px;
+                        overflow-x: auto;
+                        -webkit-overflow-scrolling: touch;
+                    }
+
+                    .comparison-table {
+                        min-width: 100%;
+                    }
+
+                    .comparison-table th {
+                        font-size: 0.85rem;
+                        padding: 1rem 0.5rem;
+                    }
+
+                    .comparison-table th:first-child {
+                        padding-left: 1rem;
+                        width: 45%;
+                    }
+
+                    .comparison-table th.modern-age-header::before {
+                        font-size: 0.5rem;
+                        padding: 3px 8px;
+                        top: -10px;
+                    }
+
+                    .comparison-table td {
+                        font-size: 0.85rem;
+                        padding: 1rem 0.5rem;
+                    }
+
+                    .comparison-table td:first-child {
+                        padding-left: 1rem;
+                        font-size: 0.8rem;
+                    }
+
+                    .check-icon,
+                    .cross-icon,
+                    .partial-icon {
+                        width: 26px;
+                        height: 26px;
+                    }
+
+                    .check-icon svg {
+                        width: 14px;
+                        height: 14px;
+                    }
+
+                    .cross-icon svg {
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    .partial-icon {
+                        font-size: 1rem;
+                    }
+
+                    .comparison-cta h3 {
+                        font-size: 1.3rem;
+                    }
+
+                    .comparison-cta p {
+                        font-size: 0.9rem;
+                    }
+
+                    .demo-button {
+                        padding: 0.875rem 2rem;
+                        font-size: 1rem;
+                    }
+                }
+
+                @media (max-width: 480px) {
+                    .comparison-header h2 {
+                        font-size: 1.5rem;
+                    }
+
+                    .comparison-table th {
+                        font-size: 0.75rem;
+                        padding: 0.875rem 0.4rem;
+                    }
+
+                    .comparison-table td {
+                        font-size: 0.75rem;
+                        padding: 0.875rem 0.4rem;
+                    }
+
+                    .comparison-table td:first-child {
+                        font-size: 0.72rem;
+                        line-height: 1.3;
+                    }
+
+                    .check-icon,
+                    .cross-icon,
+                    .partial-icon {
+                        width: 22px;
+                        height: 22px;
+                    }
+
+                    .check-icon svg {
+                        width: 12px;
+                        height: 12px;
+                    }
+
+                    .cross-icon svg {
+                        width: 10px;
+                        height: 10px;
+                    }
+
+                    .demo-button {
+                        padding: 0.75rem 1.5rem;
+                        font-size: 0.9rem;
+                    }
+                }
+            </style>
+
+            <div class="comparison-container">
+                <div class="comparison-header">
+                    <h2>Why Choose Modern Age Coders?</h2>
+                    <p>See how we stand out from traditional coding institutes and online platforms</p>
+                </div>
+
+                <div class="comparison-table-wrapper">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Features</th>
+                                <th class="modern-age-header">Modern Age Coders</th>
+                                <th class="others-header">Others</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>100% Live Interactive Classes</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Small Batch Size (Max 6-8 Students)</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Big Batch (10-15 Top Performers)</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Personalized Learning Path</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="partial-icon">~</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Real-World Project Experience</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="partial-icon">~</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Doubt Clearing Anytime</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Coding + Maths Combined Learning</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Company Collaboration Projects</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Flexible Class Timings</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="partial-icon">~</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Recorded Sessions for Revision</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Affordable Pricing</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="partial-icon">~</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Parent Progress Reports</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="partial-icon">~</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Certificate on Completion</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Monthly Tests to Assess Progress</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Top Performers Promoted to Higher Batches</td>
+                                <td class="modern-age-col">
+                                    <span class="check-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="cross-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="comparison-cta">
+                    <h3>Ready to Experience the Difference?</h3>
+                    <p>Book a free demo class and see why 10,000+ students trust Modern Age Coders</p>
+                    <a href="/contact" class="demo-button">
+                        Book a Free Demo
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- ====== COMPARISON TABLE SECTION END ====== -->
+
+
+
+
         <!-- ====== ABOUT/INTRODUCTION SECTION ====== -->
         <section id="about" class="section" style="animation-delay: 0.1s;">
             <h2 class="section-title">The Modern Age Coders Advantage</h2>
@@ -2881,697 +3579,6 @@
             </div>
         </section>
 
-        <!-- ====== PRICING PLANS SECTION START ====== -->
-
-        <!-- ====== PRICING PLANS SECTION END ====== -->
-
-        <!-- ====== COMPARISON TABLE SECTION START ====== -->
-        <section class="section comparison-section" style="animation-delay: 1.2s; padding: 5rem 1.5rem;">
-            <style>
-                .comparison-section {
-                    position: relative;
-                    overflow: visible;
-                }
-
-                .comparison-section::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    width: 100%;
-                    height: 50%;
-                    background: radial-gradient(ellipse at center top, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
-                    pointer-events: none;
-                }
-
-                .comparison-container {
-                    max-width: 850px;
-                    margin: 0 auto;
-                    position: relative;
-                    z-index: 1;
-                }
-
-                .comparison-header {
-                    text-align: center;
-                    margin-bottom: 3rem;
-                }
-
-                .comparison-header h2 {
-                    font-size: 2.5rem;
-                    font-weight: 700;
-                    color: #f1f5f9;
-                    margin-bottom: 1rem;
-                    letter-spacing: -0.02em;
-                }
-
-                .comparison-header p {
-                    font-size: 1.1rem;
-                    color: rgba(148, 163, 184, 0.9);
-                    max-width: 600px;
-                    margin: 0 auto;
-                }
-
-                .comparison-table-wrapper {
-                    background: rgba(30, 41, 59, 0.5);
-                    backdrop-filter: blur(20px);
-                    border-radius: 20px;
-                    border: 1px solid rgba(148, 163, 184, 0.15);
-                    overflow: hidden;
-                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-                    margin-top: 1rem;
-                    margin-bottom: 0.5rem;
-                }
-
-                .comparison-table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    table-layout: fixed;
-                }
-
-                .comparison-table thead {
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3) 0%, rgba(78, 205, 196, 0.3) 100%);
-                }
-
-                .comparison-table th {
-                    padding: 1.5rem 1rem;
-                    text-align: center;
-                    font-size: 1.2rem;
-                    font-weight: 700;
-                    color: #ffffff;
-                    border-bottom: 1px solid rgba(148, 163, 184, 0.2);
-                }
-
-                .comparison-table th:first-child {
-                    text-align: left;
-                    padding-left: 2rem;
-                    width: 40%;
-                }
-
-                .comparison-table th.modern-age-header {
-                    width: 30%;
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.5) 0%, rgba(139, 92, 246, 0.5) 100%);
-                    position: relative;
-                }
-
-                .comparison-table th.modern-age-header::before {
-                    content: '★ RECOMMENDED';
-                    position: absolute;
-                    top: -12px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    font-size: 0.65rem;
-                    font-weight: 600;
-                    color: #fbbf24;
-                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 100%);
-                    padding: 4px 12px;
-                    border-radius: 20px;
-                    letter-spacing: 0.5px;
-                    white-space: nowrap;
-                }
-
-                .comparison-table th.others-header {
-                    width: 30%;
-                    background: rgba(100, 116, 139, 0.3);
-                    color: rgba(226, 232, 240, 0.8);
-                    padding-right: 2rem;
-                }
-
-                .comparison-table tbody tr {
-                    transition: all 0.3s ease;
-                }
-
-                .comparison-table tbody tr:hover {
-                    background: rgba(168, 85, 247, 0.08);
-                }
-
-                .comparison-table tbody tr:not(:last-child) {
-                    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
-                }
-
-                /* Round bottom corners for last row */
-                .comparison-table tbody tr:last-child td:first-child {
-                    border-bottom-left-radius: 20px;
-                }
-
-                .comparison-table tbody tr:last-child td:last-child {
-                    border-bottom-right-radius: 20px;
-                }
-
-                /* Round top corners for thead */
-                .comparison-table thead tr th:first-child {
-                    border-top-left-radius: 20px;
-                }
-
-                .comparison-table thead tr th:last-child {
-                    border-top-right-radius: 20px;
-                }
-
-                .comparison-table td {
-                    padding: 1.25rem 1rem;
-                    text-align: center;
-                    font-size: 1rem;
-                    color: #e2e8f0;
-                }
-
-                .comparison-table td:first-child {
-                    text-align: left;
-                    padding-left: 2rem;
-                    font-weight: 500;
-                    color: #f1f5f9;
-                }
-
-                .comparison-table td:last-child {
-                    padding-right: 2rem;
-                }
-
-                .comparison-table td.modern-age-col {
-                    background: rgba(168, 85, 247, 0.05);
-                }
-
-                .check-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-                    border-radius: 50%;
-                    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-                }
-
-                .check-icon svg {
-                    width: 18px;
-                    height: 18px;
-                    stroke: #ffffff;
-                    stroke-width: 3;
-                }
-
-                .cross-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: rgba(239, 68, 68, 0.2);
-                    border-radius: 50%;
-                    border: 2px solid rgba(239, 68, 68, 0.4);
-                }
-
-                .cross-icon svg {
-                    width: 16px;
-                    height: 16px;
-                    stroke: #ef4444;
-                    stroke-width: 2.5;
-                }
-
-                .partial-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: rgba(245, 158, 11, 0.2);
-                    border-radius: 50%;
-                    border: 2px solid rgba(245, 158, 11, 0.4);
-                    color: #f59e0b;
-                    font-weight: 700;
-                    font-size: 1.2rem;
-                }
-
-                .comparison-cta {
-                    text-align: center;
-                    margin-top: 3rem;
-                }
-
-                .comparison-cta h3 {
-                    font-size: 1.6rem;
-                    font-weight: 600;
-                    color: #f1f5f9;
-                    margin-bottom: 0.75rem;
-                }
-
-                .comparison-cta p {
-                    color: rgba(148, 163, 184, 0.9);
-                    margin-bottom: 1.5rem;
-                    font-size: 1rem;
-                }
-
-                .demo-button {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 0.75rem;
-                    padding: 1rem 2.5rem;
-                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 50%, #6366f1 100%);
-                    color: #ffffff;
-                    font-size: 1.1rem;
-                    font-weight: 600;
-                    border: none;
-                    border-radius: 50px;
-                    text-decoration: none;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.4);
-                    position: relative;
-                    overflow: hidden;
-                }
-
-                .demo-button::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: -100%;
-                    width: 100%;
-                    height: 100%;
-                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-                    transition: left 0.5s ease;
-                }
-
-                .demo-button:hover::before {
-                    left: 100%;
-                }
-
-                .demo-button:hover {
-                    transform: translateY(-3px);
-                    box-shadow: 0 12px 40px rgba(168, 85, 247, 0.5);
-                }
-
-                .demo-button svg {
-                    width: 20px;
-                    height: 20px;
-                    transition: transform 0.3s ease;
-                }
-
-                .demo-button:hover svg {
-                    transform: translateX(3px);
-                }
-
-                /* Mobile Responsive Styles */
-                @media (max-width: 768px) {
-                    .comparison-section {
-                        padding: 3rem 1rem;
-                    }
-
-                    .comparison-header h2 {
-                        font-size: 1.75rem;
-                    }
-
-                    .comparison-header p {
-                        font-size: 0.95rem;
-                        padding: 0 0.5rem;
-                    }
-
-                    .comparison-table-wrapper {
-                        border-radius: 16px;
-                        overflow-x: auto;
-                        -webkit-overflow-scrolling: touch;
-                    }
-
-                    .comparison-table {
-                        min-width: 100%;
-                    }
-
-                    .comparison-table th {
-                        font-size: 0.85rem;
-                        padding: 1rem 0.5rem;
-                    }
-
-                    .comparison-table th:first-child {
-                        padding-left: 1rem;
-                        width: 45%;
-                    }
-
-                    .comparison-table th.modern-age-header::before {
-                        font-size: 0.5rem;
-                        padding: 3px 8px;
-                        top: -10px;
-                    }
-
-                    .comparison-table td {
-                        font-size: 0.85rem;
-                        padding: 1rem 0.5rem;
-                    }
-
-                    .comparison-table td:first-child {
-                        padding-left: 1rem;
-                        font-size: 0.8rem;
-                    }
-
-                    .check-icon,
-                    .cross-icon,
-                    .partial-icon {
-                        width: 26px;
-                        height: 26px;
-                    }
-
-                    .check-icon svg {
-                        width: 14px;
-                        height: 14px;
-                    }
-
-                    .cross-icon svg {
-                        width: 12px;
-                        height: 12px;
-                    }
-
-                    .partial-icon {
-                        font-size: 1rem;
-                    }
-
-                    .comparison-cta h3 {
-                        font-size: 1.3rem;
-                    }
-
-                    .comparison-cta p {
-                        font-size: 0.9rem;
-                    }
-
-                    .demo-button {
-                        padding: 0.875rem 2rem;
-                        font-size: 1rem;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .comparison-header h2 {
-                        font-size: 1.5rem;
-                    }
-
-                    .comparison-table th {
-                        font-size: 0.75rem;
-                        padding: 0.875rem 0.4rem;
-                    }
-
-                    .comparison-table td {
-                        font-size: 0.75rem;
-                        padding: 0.875rem 0.4rem;
-                    }
-
-                    .comparison-table td:first-child {
-                        font-size: 0.72rem;
-                        line-height: 1.3;
-                    }
-
-                    .check-icon,
-                    .cross-icon,
-                    .partial-icon {
-                        width: 22px;
-                        height: 22px;
-                    }
-
-                    .check-icon svg {
-                        width: 12px;
-                        height: 12px;
-                    }
-
-                    .cross-icon svg {
-                        width: 10px;
-                        height: 10px;
-                    }
-
-                    .demo-button {
-                        padding: 0.75rem 1.5rem;
-                        font-size: 0.9rem;
-                    }
-                }
-            </style>
-
-            <div class="comparison-container">
-                <div class="comparison-header">
-                    <h2>Why Choose Modern Age Coders?</h2>
-                    <p>See how we stand out from traditional coding institutes and online platforms</p>
-                </div>
-
-                <div class="comparison-table-wrapper">
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>Features</th>
-                                <th class="modern-age-header">Modern Age Coders</th>
-                                <th class="others-header">Others</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>100% Live Interactive Classes</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Small Batch Size (Max 6-8 Students)</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Big Batch (10-15 Top Performers)</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Personalized Learning Path</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="partial-icon">~</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Real-World Project Experience</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="partial-icon">~</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Doubt Clearing Anytime</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Coding + Maths Combined Learning</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Company Collaboration Projects</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Flexible Class Timings</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="partial-icon">~</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Recorded Sessions for Revision</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Affordable Pricing</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="partial-icon">~</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Parent Progress Reports</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="partial-icon">~</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Certificate on Completion</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Monthly Tests to Assess Progress</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Top Performers Promoted to Higher Batches</td>
-                                <td class="modern-age-col">
-                                    <span class="check-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                                <td>
-                                    <span class="cross-icon">
-                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                                            <path d="M6 18L18 6M6 6l12 12" stroke-linecap="round"
-                                                stroke-linejoin="round" />
-                                        </svg>
-                                    </span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                <div class="comparison-cta">
-                    <h3>Ready to Experience the Difference?</h3>
-                    <p>Book a free demo class and see why 10,000+ students trust Modern Age Coders</p>
-                    <a href="/contact" class="demo-button">
-                        Book a Free Demo
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M5 12h14M12 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- ====== COMPARISON TABLE SECTION END ====== -->
 
 
     </main>
