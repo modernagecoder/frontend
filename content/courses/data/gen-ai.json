@@ -1,0 +1,2088 @@
+{
+  "meta": {
+    "slug": "complete-generative-ai-masterclass-college",
+    "title": "Complete Generative AI Masterclass - Zero to AI Engineer Professional",
+    "description": "The most comprehensive 1-year Generative AI masterclass. From absolute basics to building production-ready AI systems. Master LLMs, GPT models, Stable Diffusion, AI Agents, RAG systems, Fine-tuning, Prompt Engineering, and everything needed for a successful AI career.",
+    "keywords": [
+      "generative ai",
+      "ai masterclass",
+      "learn ai",
+      "ai for beginners",
+      "chatgpt",
+      "large language models",
+      "llm",
+      "stable diffusion",
+      "midjourney",
+      "prompt engineering",
+      "ai agents",
+      "langchain",
+      "openai api",
+      "ai career",
+      "machine learning",
+      "deep learning",
+      "transformer models",
+      "ai engineer",
+      "ai developer"
+    ],
+    "category": "Professional AI Development",
+    "price": {
+      "group": "₹1999/month",
+      "personal": "₹5999/month",
+      "lifetime": "₹39,999 (one-time)"
+    },
+    "duration": "12 months (52 weeks)",
+    "level": "Complete Beginner to AI Engineer Professional",
+    "commitment": "15-20 hours/week recommended",
+    "certification": "Industry-recognized Generative AI Engineer certification upon completion",
+    "image_path": "generative-ai-college.png"
+  },
+  "program_overview": {
+    "title": "Complete Generative AI Masterclass",
+    "tagline": "From 'What is AI?' to Building Production-Ready AI Systems",
+    "description": "This is not just a Generative AI course—it's a complete transformation into an enterprise-ready AI Engineer. Whether you're a curious beginner, student, working professional, or someone with zero coding experience, this 1-year masterclass will turn you into a highly skilled AI professional capable of building LLM applications, AI agents, image generation systems, multimodal AI, and production-ready generative AI solutions.\n\nYou'll master Generative AI from ground zero to AI architect level: from understanding neural networks to building GPT-powered applications, from basic prompts to advanced prompt engineering, from using APIs to fine-tuning models, from single AI calls to complex multi-agent systems. By the end, you'll have built 50+ AI projects, mastered the entire GenAI ecosystem, and be ready for AI Engineer roles at top tech companies and AI startups.",
+    "what_makes_this_different": [
+      "Starts from absolute zero - perfect for complete beginners",
+      "Separate learning tracks for kids (14+), teens, and adults",
+      "1 year of structured, industry-aligned learning",
+      "Covers foundational AI + Modern GenAI (LLMs, Diffusion, Agents)",
+      "Real AI products and industry case studies",
+      "Hands-on with latest models (GPT-4, Claude, Gemini, Stable Diffusion)",
+      "Build production-ready AI applications",
+      "Ethics and responsible AI development",
+      "Direct path to high-paying AI engineer jobs",
+      "Lifetime access with continuous model updates"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation (Months 1-3): Python, Math, ML Basics, Neural Networks, Introduction to GenAI",
+      "phase_2": "Intermediate (Months 4-6): Transformers, LLMs, Prompt Engineering, OpenAI/Anthropic APIs, Vector DBs",
+      "phase_3": "Advanced (Months 7-9): Fine-tuning, RAG Systems, AI Agents, LangChain, Image/Video Generation",
+      "phase_4": "Professional (Months 10-12): Multi-Agent Systems, Production Deployment, MLOps, Custom Models, AI Products"
+    },
+    "career_outcomes": [
+      "Junior AI Developer (after 3 months)",
+      "Prompt Engineer / AI Application Developer (after 6 months)",
+      "AI Engineer / ML Engineer (after 9 months)",
+      "Senior AI Engineer / AI Architect (after 12 months)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation & AI Fundamentals (Months 1-3, Weeks 1-13)",
+    "description": "Build rock-solid AI fundamentals. Learn Python, mathematics for AI, machine learning basics, and introduction to generative AI.",
+    "month_1_2": {
+      "title": "Months 1-2: Python Programming & Math for AI",
+      "weeks": "Week 1-8",
+      "week_1_2": {
+        "title": "Python Fundamentals & Development Setup",
+        "topics": [
+          "What is Artificial Intelligence? History and evolution",
+          "Types of AI: Narrow AI, General AI, Superintelligence",
+          "Machine Learning vs Deep Learning vs Generative AI",
+          "Generative AI revolution: GPT, DALL-E, Stable Diffusion",
+          "AI career paths and opportunities in 2024+",
+          "Why Python for AI? Python ecosystem overview",
+          "Installing Python (3.10+) and setting up environment",
+          "Development environments: Jupyter Notebook, VS Code, Google Colab",
+          "Python basics: variables, data types, operators",
+          "Control structures: if-else, loops (for, while)",
+          "Functions: definition, parameters, return values",
+          "Python data structures: lists, tuples, dictionaries, sets",
+          "List comprehensions and dictionary comprehensions",
+          "File handling: reading and writing files",
+          "Error handling: try-except blocks",
+          "Python modules and packages",
+          "Virtual environments with venv/conda"
+        ],
+        "projects": [
+          "Text-based calculator program",
+          "Todo list application",
+          "File organizer script",
+          "Simple data analyzer from CSV",
+          "Web scraper basics with requests",
+          "Command-line application",
+          "Personal expense tracker",
+          "Password generator and validator"
+        ],
+        "practice": "Daily: 45 min Python practice, solve 10-15 problems on HackerRank/LeetCode"
+      },
+      "week_3_4": {
+        "title": "Advanced Python & Data Manipulation",
+        "topics": [
+          "Object-Oriented Programming in Python",
+          "Classes and objects: __init__, self",
+          "Inheritance and polymorphism",
+          "Magic methods: __str__, __repr__, __len__",
+          "Decorators and their usage",
+          "Lambda functions and functional programming",
+          "Map, filter, reduce functions",
+          "Generators and iterators",
+          "Context managers and 'with' statement",
+          "Regular expressions for text processing",
+          "Working with JSON and CSV data",
+          "Introduction to NumPy: arrays and operations",
+          "NumPy array operations, broadcasting, indexing",
+          "Introduction to Pandas: DataFrames and Series",
+          "Data loading, cleaning, and exploration with Pandas",
+          "Data visualization basics with Matplotlib",
+          "Plotting: line plots, bar charts, scatter plots, histograms"
+        ],
+        "projects": [
+          "Data analysis pipeline for CSV files",
+          "Student grade analyzer with Pandas",
+          "Weather data visualizer",
+          "E-commerce sales dashboard",
+          "Stock price analyzer and plotter",
+          "Text file analyzer with regex",
+          "Custom data class library",
+          "API wrapper class with error handling"
+        ],
+        "practice": "Solve 30 Python problems, analyze 5 real-world datasets"
+      },
+      "week_5_6": {
+        "title": "Mathematics for AI - Part 1",
+        "topics": [
+          "Why math matters for AI and ML",
+          "Linear Algebra: vectors and vector operations",
+          "Dot product and cross product",
+          "Matrices and matrix operations",
+          "Matrix multiplication and transposition",
+          "Identity matrix and inverse matrix",
+          "Eigenvalues and eigenvectors (intuition)",
+          "Calculus: functions and limits",
+          "Derivatives: concepts and rules",
+          "Chain rule and partial derivatives",
+          "Gradient: direction of steepest ascent",
+          "Gradient descent algorithm basics",
+          "Multivariable calculus for neural networks",
+          "Probability theory: basics and terminology",
+          "Probability distributions: uniform, normal (Gaussian)",
+          "Expected value and variance",
+          "Bayes' theorem and conditional probability"
+        ],
+        "projects": [
+          "Vector operations visualizer",
+          "Matrix calculator with NumPy",
+          "Gradient descent implementation from scratch",
+          "Probability distribution plotter",
+          "Coin flip simulator with statistics",
+          "Linear regression using gradient descent",
+          "Simple optimization problems solver",
+          "Derivative calculator for basic functions"
+        ],
+        "practice": "Solve 40 math problems relevant to ML, implement algorithms"
+      },
+      "week_7_8": {
+        "title": "Mathematics for AI - Part 2 & Statistics",
+        "topics": [
+          "Statistics for data science",
+          "Descriptive statistics: mean, median, mode",
+          "Variance and standard deviation",
+          "Correlation and covariance",
+          "Hypothesis testing basics",
+          "P-values and statistical significance",
+          "Central Limit Theorem",
+          "Confidence intervals",
+          "Linear regression: mathematical foundation",
+          "Cost functions and loss functions",
+          "Optimization: local minima, global minima",
+          "Convex vs non-convex functions",
+          "Introduction to information theory",
+          "Entropy and cross-entropy",
+          "KL divergence",
+          "Dimensionality reduction concepts",
+          "Principal Component Analysis (PCA) intuition"
+        ],
+        "projects": [
+          "Statistical analyzer for datasets",
+          "Hypothesis testing tool",
+          "Correlation matrix visualizer",
+          "Simple linear regression implementation",
+          "Cost function visualizer",
+          "PCA implementation from scratch",
+          "Data distribution analyzer",
+          "A/B testing simulator"
+        ],
+        "practice": "Analyze 10 datasets statistically, implement core algorithms"
+      }
+    },
+    "month_3_4": {
+      "title": "Month 3: Machine Learning Fundamentals",
+      "weeks": "Week 9-13",
+      "week_9_10": {
+        "title": "Introduction to Machine Learning",
+        "topics": [
+          "What is Machine Learning? Formal definition",
+          "Types of learning: Supervised, Unsupervised, Reinforcement",
+          "Machine learning workflow: data, model, evaluation",
+          "Training, validation, and test sets",
+          "Overfitting and underfitting",
+          "Bias-variance tradeoff",
+          "Introduction to scikit-learn library",
+          "Linear regression with scikit-learn",
+          "Logistic regression for classification",
+          "Decision trees: intuition and implementation",
+          "Random forests ensemble method",
+          "K-Nearest Neighbors (KNN) algorithm",
+          "Support Vector Machines (SVM) basics",
+          "Naive Bayes classifier",
+          "Model evaluation metrics: accuracy, precision, recall, F1",
+          "Confusion matrix and ROC curves",
+          "Cross-validation techniques"
+        ],
+        "projects": [
+          "House price predictor (linear regression)",
+          "Email spam classifier (logistic regression)",
+          "Iris flower classifier (decision trees)",
+          "Handwritten digit recognizer (KNN)",
+          "Customer churn predictor",
+          "Movie recommendation system basics",
+          "Credit card fraud detection",
+          "Student performance predictor"
+        ],
+        "practice": "Build 15 ML models, solve Kaggle beginner competitions"
+      },
+      "week_11_12": {
+        "title": "Neural Networks & Deep Learning Basics",
+        "topics": [
+          "From ML to Deep Learning: why neural networks?",
+          "Perceptron: the building block",
+          "Multi-layer perceptron (MLP) architecture",
+          "Activation functions: sigmoid, tanh, ReLU, Leaky ReLU",
+          "Forward propagation step-by-step",
+          "Loss functions: MSE, cross-entropy",
+          "Backpropagation algorithm intuition",
+          "Gradient descent and its variants (SGD, Adam)",
+          "Learning rate and hyperparameters",
+          "Introduction to TensorFlow and Keras",
+          "Building neural networks with Keras Sequential API",
+          "Training and evaluating neural networks",
+          "Regularization techniques: dropout, L1/L2",
+          "Batch normalization",
+          "Early stopping and model checkpoints",
+          "Introduction to PyTorch basics",
+          "PyTorch tensors and autograd"
+        ],
+        "projects": [
+          "Neural network from scratch in NumPy",
+          "MNIST digit classifier with Keras",
+          "Fashion MNIST classifier",
+          "Binary classification with neural network",
+          "Multi-class classification problem",
+          "Regression with neural networks",
+          "Simple image classifier",
+          "Neural network hyperparameter tuning"
+        ],
+        "practice": "Build 12 neural networks, compare frameworks"
+      },
+      "week_13": {
+        "title": "Introduction to Generative AI",
+        "topics": [
+          "What is Generative AI? Definition and scope",
+          "Discriminative vs Generative models",
+          "Brief history: from GANs to GPT to Diffusion",
+          "Modern generative AI landscape 2024",
+          "Large Language Models (LLMs): GPT, Claude, Gemini",
+          "Text-to-image models: DALL-E, Midjourney, Stable Diffusion",
+          "Text-to-video: Sora, Runway, Pika",
+          "Audio generation: music and speech",
+          "Multimodal AI: combining text, image, audio",
+          "AI model sizes and capabilities",
+          "Prompt engineering: first introduction",
+          "Using ChatGPT/Claude effectively",
+          "AI ethics and responsible AI principles",
+          "Bias in AI models and mitigation",
+          "AI safety and alignment",
+          "Future of generative AI",
+          "Career opportunities in GenAI"
+        ],
+        "projects": [
+          "ChatGPT prompt collection and analysis",
+          "Simple prompt engineering experiments",
+          "AI-generated content curator",
+          "Comparative study: different AI models",
+          "Bias detection in AI responses",
+          "Personal AI assistant with prompts",
+          "PHASE 1 MINI CAPSTONE: AI-powered research assistant (using existing APIs)",
+          "Features: Multiple AI model comparison, prompt templates, response analysis"
+        ],
+        "practice": "Experiment with 50+ prompts across different AI models",
+        "assessment": "Phase 1 Final Assessment - Python, Math, ML, and GenAI basics test"
+      }
+    }
+  },
+  "phase_2_frontend_mastery": {
+    "title": "PHASE 2: LLM Foundations & Prompt Engineering (Months 4-6, Weeks 14-26)",
+    "description": "Master Large Language Models, transformer architecture, prompt engineering, working with AI APIs, and building LLM-powered applications.",
+    "month_7_8": {
+      "title": "Months 4-5: Transformers, LLMs & API Integration",
+      "weeks": "Week 14-22",
+      "week_27_28": {
+        "title": "Transformer Architecture Deep Dive",
+        "topics": [
+          "Limitations of RNNs and LSTMs",
+          "Attention mechanism: intuition and math",
+          "Self-attention and multi-head attention",
+          "Positional encoding in transformers",
+          "Transformer architecture: encoder-decoder",
+          "BERT: bidirectional encoder representations",
+          "GPT architecture: decoder-only transformers",
+          "Tokenization: BPE, WordPiece, SentencePiece",
+          "Embedding layers and embedding spaces",
+          "How GPT generates text: autoregressive generation",
+          "Temperature, top-k, top-p sampling",
+          "Model parameters: understanding 7B, 70B, 175B",
+          "Context windows and attention span",
+          "Fine-tuning vs prompt engineering vs RAG",
+          "Pre-training and transfer learning",
+          "Hugging Face Transformers library introduction",
+          "Loading and using pre-trained models"
+        ],
+        "projects": [
+          "Attention mechanism visualizer",
+          "Tokenizer comparison tool",
+          "Text generation with Hugging Face",
+          "Sentiment analysis with BERT",
+          "Text classification with transformers",
+          "Named Entity Recognition (NER) system",
+          "Question answering system",
+          "Text summarization tool"
+        ],
+        "practice": "Implement attention from scratch, use 10+ transformer models"
+      },
+      "week_29_30": {
+        "title": "OpenAI API & LLM Integration",
+        "topics": [
+          "OpenAI API overview and capabilities",
+          "Getting API keys and authentication",
+          "GPT-4 and GPT-3.5-turbo models",
+          "Chat completions API: messages and roles",
+          "System, user, and assistant messages",
+          "Completion parameters: temperature, max_tokens, top_p",
+          "Streaming responses for real-time output",
+          "Function calling with GPT-4",
+          "JSON mode for structured outputs",
+          "Vision API: GPT-4V for image understanding",
+          "DALL-E API for image generation",
+          "Whisper API for speech-to-text",
+          "TTS (Text-to-Speech) API",
+          "Embeddings API and semantic search",
+          "Moderation API for content filtering",
+          "Token counting and cost optimization",
+          "Rate limiting and error handling"
+        ],
+        "projects": [
+          "ChatGPT clone with OpenAI API",
+          "AI content generator dashboard",
+          "Function calling chatbot",
+          "Image analyzer with GPT-4V",
+          "AI image generator web app",
+          "Voice-to-text transcription tool",
+          "Semantic search engine",
+          "AI content moderation system"
+        ],
+        "practice": "Build 15 OpenAI API applications"
+      },
+      "week_31_32": {
+        "title": "Advanced Prompt Engineering",
+        "topics": [
+          "Prompt engineering as a discipline",
+          "Anatomy of effective prompts",
+          "Zero-shot, one-shot, few-shot learning",
+          "Chain-of-Thought (CoT) prompting",
+          "Tree of Thoughts (ToT) technique",
+          "Self-consistency prompting",
+          "Role prompting and persona design",
+          "Instruction tuning concepts",
+          "Prompt templates and variables",
+          "Output formatting and constraints",
+          "Handling hallucinations and reducing errors",
+          "Prompt injection and safety",
+          "Meta-prompting and prompt generation",
+          "Multi-turn conversation design",
+          "Context management in long conversations",
+          "Prompt optimization and A/B testing",
+          "Domain-specific prompting strategies"
+        ],
+        "projects": [
+          "Prompt library and template system",
+          "Chain-of-Thought problem solver",
+          "AI tutor with CoT reasoning",
+          "Code generator with prompts",
+          "Creative writing assistant",
+          "Structured data extractor",
+          "Multi-step task planner",
+          "Prompt testing and evaluation framework"
+        ],
+        "practice": "Create 100+ optimized prompts for various use cases"
+      },
+      "week_33_34": {
+        "title": "Alternative LLM APIs & Providers",
+        "topics": [
+          "Anthropic Claude API and capabilities",
+          "Claude's extended context window (100K+ tokens)",
+          "Constitutional AI and Claude's safety features",
+          "Google Gemini API and multimodal features",
+          "Gemini Pro vs Gemini Ultra",
+          "Meta Llama models and usage",
+          "Open-source LLMs: Mistral, Falcon, MPT",
+          "Running local LLMs with Ollama",
+          "LLM comparison: GPT vs Claude vs Gemini",
+          "Choosing the right model for your use case",
+          "Cost comparison across providers",
+          "Cohere API for enterprise solutions",
+          "Azure OpenAI Service",
+          "AWS Bedrock for LLM deployment",
+          "Model routing and fallback strategies",
+          "Multi-model applications",
+          "API key management and security"
+        ],
+        "projects": [
+          "Multi-LLM chat interface",
+          "Model comparison dashboard",
+          "Local LLM deployment with Ollama",
+          "Claude-powered research assistant",
+          "Gemini multimodal application",
+          "Cost optimizer for LLM calls",
+          "Model router based on task type",
+          "Unified LLM wrapper library"
+        ],
+        "practice": "Build applications with 5+ different LLM providers"
+      },
+      "week_35": {
+        "title": "Vector Databases & Embeddings",
+        "topics": [
+          "What are embeddings? Semantic representations",
+          "Word2Vec, GloVe, and modern embeddings",
+          "OpenAI embeddings (text-embedding-ada-002)",
+          "Sentence embeddings and document embeddings",
+          "Cosine similarity and semantic search",
+          "Vector databases: purpose and architecture",
+          "Pinecone: managed vector database",
+          "Weaviate: open-source vector DB",
+          "Chroma: simple vector store",
+          "Qdrant: performance-focused vector DB",
+          "FAISS: Facebook AI similarity search",
+          "Indexing strategies: flat, HNSW, IVF",
+          "Metadata filtering in vector search",
+          "Hybrid search: vector + keyword",
+          "Building semantic search systems",
+          "Recommendation systems with embeddings",
+          "Clustering and visualization of embeddings"
+        ],
+        "projects": [
+          "Semantic search engine for documents",
+          "Similar article finder",
+          "Customer support ticket classifier",
+          "Product recommendation system",
+          "Duplicate detection system",
+          "Embedding visualizer (t-SNE/UMAP)",
+          "Multi-language semantic search",
+          "Knowledge base with vector search"
+        ],
+        "practice": "Build 10 vector database applications"
+      }
+    },
+    "month_9_10": {
+      "title": "Month 6: LangChain & AI Application Development",
+      "weeks": "Week 23-26",
+      "week_36_37": {
+        "title": "LangChain Fundamentals",
+        "topics": [
+          "Introduction to LangChain framework",
+          "LangChain architecture and components",
+          "LLMs and Chat Models in LangChain",
+          "Prompt templates and prompt engineering",
+          "Output parsers: structured data from LLMs",
+          "Chains: sequential processing",
+          "LLMChain, SimpleSequentialChain, SequentialChain",
+          "Memory types: ConversationBufferMemory, ConversationSummaryMemory",
+          "Conversation chains with memory",
+          "Document loaders: PDF, CSV, web pages",
+          "Text splitters and chunking strategies",
+          "Vector stores integration in LangChain",
+          "Retrievers for information retrieval",
+          "Combining LLMs with external data",
+          "Question-answering over documents",
+          "LangChain Expression Language (LCEL)",
+          "Debugging and tracing in LangChain"
+        ],
+        "projects": [
+          "Conversational chatbot with memory",
+          "Document Q&A system with LangChain",
+          "PDF analyzer and summarizer",
+          "Web scraper with AI analysis",
+          "Multi-step reasoning chain",
+          "Structured data extraction pipeline",
+          "Conversation summarizer",
+          "Knowledge base chatbot"
+        ],
+        "practice": "Build 15 LangChain applications"
+      },
+      "week_38_39": {
+        "title": "Advanced LangChain & Tools",
+        "topics": [
+          "Agents: autonomous task execution",
+          "ReAct (Reasoning + Acting) agents",
+          "Agent types: Zero-shot, Conversational",
+          "Tools and toolkits in LangChain",
+          "Creating custom tools for agents",
+          "Google Search tool integration",
+          "Python REPL tool for code execution",
+          "Calculator and math tools",
+          "API tools and web requests",
+          "Database tools for SQL queries",
+          "File system tools",
+          "Multi-action agents",
+          "Agent error handling and retries",
+          "LangSmith for debugging and monitoring",
+          "Callbacks and custom handlers",
+          "Streaming responses in LangChain",
+          "Cost tracking and optimization"
+        ],
+        "projects": [
+          "Autonomous research agent",
+          "Code generator and executor agent",
+          "SQL query generator from natural language",
+          "Web automation agent",
+          "Data analysis agent",
+          "Personal assistant agent with tools",
+          "Multi-tool agent for complex tasks",
+          "Agent performance monitoring dashboard"
+        ],
+        "practice": "Build 12 AI agent applications"
+      },
+      "week_40_41": {
+        "title": "Retrieval Augmented Generation (RAG) - Part 1",
+        "topics": [
+          "What is RAG? Why RAG over fine-tuning?",
+          "RAG architecture: retrieval + generation",
+          "Building basic RAG pipeline",
+          "Document preprocessing for RAG",
+          "Chunking strategies: fixed-size, semantic",
+          "Embedding generation for documents",
+          "Vector store population",
+          "Retrieval strategies: similarity search, MMR",
+          "Reranking retrieved documents",
+          "Context compression techniques",
+          "Query transformation and expansion",
+          "Retrieval quality evaluation",
+          "Prompt engineering for RAG",
+          "Handling long contexts",
+          "Multi-query retrieval",
+          "Hypothetical document embeddings (HyDE)",
+          "Parent document retrieval"
+        ],
+        "projects": [
+          "Enterprise documentation Q&A system",
+          "Academic paper search and summarization",
+          "Legal document analyzer",
+          "Customer support knowledge base",
+          "Code documentation assistant",
+          "Research paper recommendation system",
+          "Meeting notes Q&A system",
+          "Email archive search with AI"
+        ],
+        "practice": "Build 10 RAG applications for different domains"
+      },
+      "week_42_43": {
+        "title": "Retrieval Augmented Generation (RAG) - Part 2",
+        "topics": [
+          "Advanced RAG architectures",
+          "Self-RAG: self-reflective retrieval",
+          "Corrective RAG (CRAG)",
+          "Agentic RAG with LangGraph",
+          "Multi-document RAG systems",
+          "Hierarchical retrieval strategies",
+          "Graph-based RAG",
+          "Conversational RAG with memory",
+          "RAG with structured data (tables, charts)",
+          "Multimodal RAG: text + images",
+          "RAG evaluation metrics: faithfulness, relevance",
+          "RAGAS framework for evaluation",
+          "RAG optimization techniques",
+          "Caching strategies for RAG",
+          "Production RAG deployment",
+          "RAG monitoring and observability",
+          "Security and privacy in RAG systems"
+        ],
+        "projects": [
+          "Advanced enterprise RAG system",
+          "Multi-source RAG pipeline",
+          "Conversational RAG with context",
+          "Evaluation framework for RAG",
+          "Self-improving RAG system",
+          "Multimodal document understanding",
+          "RAG-powered coding assistant",
+          "Production-ready RAG API"
+        ],
+        "practice": "Build and optimize 8 advanced RAG systems"
+      },
+      "week_44": {
+        "title": "Phase 2 Capstone Project",
+        "topics": [
+          "LLM application architecture",
+          "API integration best practices",
+          "Prompt engineering mastery",
+          "Vector database implementation",
+          "RAG system design",
+          "Agent orchestration"
+        ],
+        "projects": [
+          "PHASE 2 CAPSTONE: Enterprise RAG-powered AI Assistant",
+          "Features: Multi-document upload, vector search, conversational memory, source citations, admin dashboard, user authentication, cost tracking",
+          "Alternative: AI-powered code review system",
+          "Alternative: Research paper analysis platform",
+          "Alternative: Intelligent customer support system"
+        ],
+        "assessment": "Phase 2 Final Exam - LLMs, prompt engineering, and RAG comprehensive test"
+      }
+    },
+    "month_11_12": {
+      "title": "PHASE 2 CONTINUED - Computer Vision & Multimodal AI",
+      "weeks": "Week 14-26 (distributed)",
+      "week_45_46": {
+        "title": "Computer Vision Fundamentals",
+        "topics": [
+          "Introduction to computer vision",
+          "Digital images: pixels, channels, color spaces",
+          "Convolutional Neural Networks (CNNs)",
+          "Convolution operation and filters",
+          "Pooling layers: max pooling, average pooling",
+          "CNN architectures: LeNet, AlexNet, VGG",
+          "ResNet and skip connections",
+          "Transfer learning with pre-trained models",
+          "Image classification with CNNs",
+          "Object detection: R-CNN, YOLO, SSD",
+          "Image segmentation: semantic, instance",
+          "OpenCV library for image processing",
+          "PyTorch for computer vision",
+          "torchvision and pre-trained models",
+          "Data augmentation techniques",
+          "Training CNNs: tips and tricks",
+          "Model deployment for vision tasks"
+        ],
+        "projects": [
+          "Image classifier with ResNet",
+          "Custom object detector",
+          "Facial recognition system",
+          "Image segmentation tool",
+          "Real-time video processing",
+          "Medical image analyzer",
+          "Defect detection system",
+          "Transfer learning for custom dataset"
+        ],
+        "practice": "Build 10 computer vision applications"
+      },
+      "week_47_48": {
+        "title": "Generative Models for Images",
+        "topics": [
+          "Introduction to generative models",
+          "Variational Autoencoders (VAEs)",
+          "Generative Adversarial Networks (GANs)",
+          "GAN training: generator and discriminator",
+          "Common GAN variants: DCGAN, StyleGAN",
+          "Diffusion models: DDPM, DDIM",
+          "How Stable Diffusion works",
+          "Latent diffusion models",
+          "Text-to-image generation: Stable Diffusion",
+          "Image-to-image transformation",
+          "ControlNet for controlled generation",
+          "LoRA: Low-Rank Adaptation",
+          "DreamBooth for personalization",
+          "Inpainting and outpainting",
+          "Image upscaling with AI",
+          "Automatic1111 and ComfyUI interfaces",
+          "Hugging Face Diffusers library"
+        ],
+        "projects": [
+          "Text-to-image generator with Stable Diffusion",
+          "Image style transfer application",
+          "AI art generator with custom prompts",
+          "Image inpainting tool",
+          "Face generation with StyleGAN",
+          "Custom image model with LoRA",
+          "Image variation generator",
+          "AI-powered design tool"
+        ],
+        "practice": "Generate 1000+ images, fine-tune models"
+      },
+      "week_49_50": {
+        "title": "Multimodal AI & Vision-Language Models",
+        "topics": [
+          "Multimodal learning: combining modalities",
+          "CLIP: connecting text and images",
+          "CLIP embeddings and applications",
+          "GPT-4V: vision understanding with GPT-4",
+          "LLaVA: visual instruction tuning",
+          "BLIP and BLIP-2 models",
+          "Image captioning with transformers",
+          "Visual question answering (VQA)",
+          "Text-to-video generation: basics",
+          "Video understanding with AI",
+          "OCR with modern AI models",
+          "Document understanding: LayoutLM",
+          "Multimodal RAG systems",
+          "Integrating vision and language models",
+          "Building multimodal applications",
+          "Evaluation of multimodal models",
+          "Future of multimodal AI"
+        ],
+        "projects": [
+          "Image captioning system",
+          "Visual question answering app",
+          "Document analyzer with OCR",
+          "Multimodal search engine",
+          "AI-powered accessibility tool",
+          "Meme generator with AI",
+          "Video summarization tool",
+          "Multimodal RAG for images + text"
+        ],
+        "practice": "Build 12 multimodal AI applications"
+      },
+      "week_51": {
+        "title": "Audio & Speech AI",
+        "topics": [
+          "Audio processing basics: waveforms, spectrograms",
+          "Automatic Speech Recognition (ASR)",
+          "Whisper model architecture and usage",
+          "Speech-to-text applications",
+          "Text-to-Speech (TTS) models",
+          "Voice cloning with AI",
+          "Bark, ElevenLabs, and other TTS systems",
+          "Music generation with AI",
+          "MusicGen, AudioLM, Jukebox",
+          "Audio classification and tagging",
+          "Voice activity detection",
+          "Speaker diarization",
+          "Audio enhancement and denoising",
+          "Real-time audio processing",
+          "Building voice assistants",
+          "Multilingual speech models",
+          "Audio-visual speech recognition"
+        ],
+        "projects": [
+          "Transcription service with Whisper",
+          "AI voice assistant",
+          "Text-to-speech application",
+          "Voice cloning tool",
+          "Music generator",
+          "Podcast transcriber and summarizer",
+          "Real-time translation system",
+          "Audio classification system"
+        ],
+        "practice": "Build 10 audio AI applications"
+      },
+      "week_52": {
+        "title": "AI Ethics & Responsible Development",
+        "topics": [
+          "AI ethics fundamentals",
+          "Bias in AI: sources and mitigation",
+          "Fairness metrics and evaluation",
+          "Transparency and explainability",
+          "LIME and SHAP for model interpretation",
+          "Privacy in AI: data protection",
+          "Differential privacy",
+          "Federated learning basics",
+          "AI safety and alignment",
+          "Constitutional AI principles",
+          "Red teaming and adversarial testing",
+          "Content moderation and filtering",
+          "Deepfakes: detection and prevention",
+          "AI regulations: GDPR, AI Act",
+          "Responsible AI deployment",
+          "Environmental impact of AI",
+          "AI for social good"
+        ],
+        "projects": [
+          "Bias detection tool for models",
+          "Explainable AI dashboard",
+          "Content moderation system",
+          "Deepfake detector",
+          "Privacy-preserving AI application",
+          "AI impact assessment tool",
+          "Responsible AI checklist generator"
+        ],
+        "practice": "Evaluate and improve fairness in all projects"
+      }
+    }
+  },
+  "phase_3_backend_engineering": {
+    "title": "PHASE 3: Fine-tuning, AI Agents & Production Systems (Months 7-9, Weeks 27-39)",
+    "description": "Master model fine-tuning, build autonomous AI agents, create production-ready AI systems, and learn MLOps.",
+    "month_13_14": {
+      "title": "Months 7-8: Model Fine-tuning & Customization",
+      "weeks": "Week 27-35",
+      "week_53_54": {
+        "title": "Fine-tuning Fundamentals",
+        "topics": [
+          "What is fine-tuning? When to fine-tune?",
+          "Fine-tuning vs prompt engineering vs RAG",
+          "Types of fine-tuning: full, parameter-efficient",
+          "Transfer learning for LLMs",
+          "Dataset preparation for fine-tuning",
+          "Data annotation and labeling",
+          "Instruction tuning datasets",
+          "Supervised fine-tuning (SFT)",
+          "Training loops and optimization",
+          "Loss functions for language models",
+          "Hyperparameter tuning",
+          "Overfitting prevention in fine-tuning",
+          "Evaluation metrics for fine-tuned models",
+          "Benchmark datasets and tasks",
+          "OpenAI fine-tuning API",
+          "Fine-tuning GPT-3.5 and GPT-4",
+          "Cost considerations for fine-tuning"
+        ],
+        "projects": [
+          "Fine-tune GPT-3.5 for customer support",
+          "Domain-specific chatbot fine-tuning",
+          "Code completion model fine-tuning",
+          "Fine-tuned model for legal documents",
+          "Medical terminology fine-tuning",
+          "Custom classifier with fine-tuning",
+          "Sentiment analysis fine-tuned model",
+          "Fine-tuning evaluation framework"
+        ],
+        "practice": "Fine-tune 8 models for different domains"
+      },
+      "week_55_56": {
+        "title": "Advanced Fine-tuning Techniques",
+        "topics": [
+          "Parameter-Efficient Fine-Tuning (PEFT)",
+          "LoRA: Low-Rank Adaptation explained",
+          "LoRA implementation with PEFT library",
+          "QLoRA: quantized LoRA for efficiency",
+          "Adapter layers and adapter tuning",
+          "Prefix tuning and prompt tuning",
+          "P-tuning and P-tuning v2",
+          "(IA)³: Infused Adapter by Inhibiting and Amplifying",
+          "Choosing the right PEFT method",
+          "4-bit and 8-bit quantization",
+          "bitsandbytes library usage",
+          "Gradient checkpointing for memory",
+          "Mixed precision training",
+          "RLHF: Reinforcement Learning from Human Feedback",
+          "DPO: Direct Preference Optimization",
+          "Reward models and preference learning",
+          "Alignment techniques overview"
+        ],
+        "projects": [
+          "LoRA fine-tuning for Llama 2",
+          "QLoRA for consumer GPU training",
+          "Multi-adapter model system",
+          "RLHF preference dataset creation",
+          "DPO fine-tuning implementation",
+          "Memory-efficient training pipeline",
+          "Adapter merging and switching",
+          "Custom PEFT method comparison"
+        ],
+        "practice": "Fine-tune 10 models with PEFT techniques"
+      },
+      "week_57_58": {
+        "title": "Open Source LLMs & Local Deployment",
+        "topics": [
+          "Open source LLM landscape",
+          "Llama 2 and Llama 3 models",
+          "Mistral and Mixtral models",
+          "Falcon, MPT, and BLOOM",
+          "Model cards and model documentation",
+          "Downloading models from Hugging Face Hub",
+          "Model quantization: GGUF, GPTQ, AWQ",
+          "Running LLMs locally with Ollama",
+          "llama.cpp for efficient inference",
+          "vLLM for production serving",
+          "Text Generation Inference (TGI)",
+          "Model serving with FastAPI",
+          "GPU vs CPU inference",
+          "Batch inference optimization",
+          "Caching and KV-cache optimization",
+          "Model benchmarking: speed and quality",
+          "Building custom inference servers"
+        ],
+        "projects": [
+          "Local LLM deployment with Ollama",
+          "Quantized model serving API",
+          "Multi-model inference server",
+          "LLM benchmarking suite",
+          "Optimized inference pipeline",
+          "Custom model hosting solution",
+          "Edge deployment of LLMs",
+          "Inference cost calculator"
+        ],
+        "practice": "Deploy and optimize 10 open source models"
+      },
+      "week_59_60": {
+        "title": "AI Agents Architecture - Part 1",
+        "topics": [
+          "What are AI agents? Autonomous systems",
+          "Agent types: simple reflex, goal-based, utility-based",
+          "Perceive-Think-Act loop",
+          "ReAct: reasoning and acting",
+          "Plan-and-Execute agents",
+          "Cognitive architectures for agents",
+          "Agent memory systems",
+          "Short-term vs long-term memory",
+          "Semantic memory and episodic memory",
+          "Working memory implementation",
+          "Tool use and function calling",
+          "Multi-step reasoning with agents",
+          "Error handling and recovery",
+          "Agent observability and logging",
+          "LangGraph for agent workflows",
+          "State machines for agents",
+          "Human-in-the-loop agents"
+        ],
+        "projects": [
+          "Autonomous research agent",
+          "Data analysis agent",
+          "Code generation and debugging agent",
+          "Travel planning agent",
+          "Email management agent",
+          "Content creation agent",
+          "Personal productivity agent",
+          "Multi-step task automation agent"
+        ],
+        "practice": "Build 12 AI agent systems"
+      },
+      "week_61": {
+        "title": "AI Agents Architecture - Part 2",
+        "topics": [
+          "Multi-agent systems (MAS)",
+          "Agent communication protocols",
+          "Collaborative agents vs competitive agents",
+          "Agent coordination and cooperation",
+          "Hierarchical agent architectures",
+          "AutoGPT and BabyAGI patterns",
+          "Task decomposition and planning",
+          "Sub-goal generation",
+          "Agent self-evaluation and reflection",
+          "MetaGPT and role-playing agents",
+          "Specialized agent roles",
+          "Agent orchestration frameworks",
+          "Crew AI for multi-agent systems",
+          "Agent security and sandboxing",
+          "Rate limiting and cost control",
+          "Agent performance optimization",
+          "Debugging complex agent systems"
+        ],
+        "projects": [
+          "Multi-agent research team",
+          "Collaborative writing agents",
+          "Software development agent team",
+          "Customer service agent system",
+          "Agent-based simulation",
+          "Hierarchical task planner",
+          "Self-improving agent system",
+          "Production multi-agent platform"
+        ],
+        "practice": "Build 8 multi-agent systems"
+      }
+    },
+    "month_15_16": {
+      "title": "Month 9: MLOps & Production AI Systems",
+      "weeks": "Week 36-39",
+      "week_62_63": {
+        "title": "MLOps Fundamentals",
+        "topics": [
+          "What is MLOps? DevOps for ML",
+          "ML lifecycle: develop, deploy, monitor",
+          "Experiment tracking with MLflow",
+          "Model versioning and registry",
+          "Weights & Biases for experiment tracking",
+          "Data versioning with DVC",
+          "Model packaging and containerization",
+          "Docker for ML applications",
+          "Model serving patterns",
+          "REST APIs for model serving",
+          "Batch vs real-time inference",
+          "Model deployment strategies",
+          "Blue-green deployment for models",
+          "Canary releases and A/B testing",
+          "Model monitoring and observability",
+          "Detecting model drift",
+          "Retraining pipelines and triggers"
+        ],
+        "projects": [
+          "MLflow experiment tracking setup",
+          "Model registry and versioning system",
+          "Dockerized ML model API",
+          "CI/CD pipeline for ML models",
+          "Model monitoring dashboard",
+          "A/B testing framework",
+          "Automated retraining pipeline",
+          "Production ML workflow"
+        ],
+        "practice": "Implement MLOps for all ML projects"
+      },
+      "week_64_65": {
+        "title": "AI Application Architecture & APIs",
+        "topics": [
+          "Designing AI-powered applications",
+          "Microservices architecture for AI",
+          "FastAPI for ML/AI APIs",
+          "Request validation and error handling",
+          "Asynchronous processing with Celery",
+          "Message queues: RabbitMQ, Redis",
+          "Background tasks for AI workloads",
+          "Caching strategies for AI apps",
+          "Redis for response caching",
+          "Database integration: PostgreSQL, MongoDB",
+          "Storing embeddings in databases",
+          "User authentication and authorization",
+          "API rate limiting and throttling",
+          "Webhook integrations",
+          "Building SDKs for AI APIs",
+          "API documentation with OpenAPI",
+          "Postman and API testing"
+        ],
+        "projects": [
+          "Production AI API with FastAPI",
+          "Asynchronous AI processing system",
+          "Cached AI inference service",
+          "Multi-user AI application",
+          "AI API with usage tracking",
+          "Webhook-based AI integration",
+          "Client SDK for AI service",
+          "Complete AI backend system"
+        ],
+        "practice": "Build 10 production-ready AI APIs"
+      },
+      "week_66_67": {
+        "title": "Prompt Engineering at Scale",
+        "topics": [
+          "Enterprise prompt management",
+          "Prompt versioning and tracking",
+          "Prompt testing frameworks",
+          "Evaluation metrics for prompts",
+          "Automated prompt optimization",
+          "Prompt tuning with PromptPerfect",
+          "DSPy: programming with foundation models",
+          "Prompt composition and chaining",
+          "Dynamic prompt generation",
+          "Context-aware prompting",
+          "Multi-language prompt engineering",
+          "Prompt security and injection prevention",
+          "Guardrails for LLM outputs",
+          "NeMo Guardrails framework",
+          "Content filtering and moderation",
+          "Prompt governance and compliance",
+          "Cost optimization for prompts"
+        ],
+        "projects": [
+          "Prompt management system",
+          "Automated prompt testing suite",
+          "Prompt optimization pipeline",
+          "Guardrails implementation",
+          "Multi-language prompt system",
+          "Prompt injection detector",
+          "Cost-optimized prompt router",
+          "Enterprise prompt library"
+        ],
+        "practice": "Build enterprise prompt engineering tools"
+      },
+      "week_68_69": {
+        "title": "Vector Databases at Scale",
+        "topics": [
+          "Production vector database setup",
+          "Pinecone at scale: indexes and namespaces",
+          "Weaviate cluster configuration",
+          "Qdrant for high-performance search",
+          "Milvus for massive-scale vectors",
+          "pgvector: Postgres extension",
+          "Index optimization: HNSW tuning",
+          "Quantization for vector storage",
+          "Sharding and partitioning strategies",
+          "Backup and disaster recovery",
+          "Multi-tenancy in vector DBs",
+          "Security and access control",
+          "Monitoring vector database performance",
+          "Cost optimization strategies",
+          "Hybrid search at scale",
+          "GraphRAG with knowledge graphs",
+          "Neo4j integration with vectors"
+        ],
+        "projects": [
+          "Production vector database deployment",
+          "Multi-tenant vector search system",
+          "Optimized hybrid search engine",
+          "Knowledge graph + vector DB",
+          "Vector DB performance monitoring",
+          "High-availability vector system",
+          "Serverless vector search",
+          "Enterprise search platform"
+        ],
+        "practice": "Deploy and scale 5 vector database systems"
+      },
+      "week_70": {
+        "title": "LLM Observability & Monitoring",
+        "topics": [
+          "LLM observability challenges",
+          "Tracing LLM calls end-to-end",
+          "LangSmith for debugging",
+          "OpenTelemetry for AI applications",
+          "Logging best practices for LLMs",
+          "Prompt and completion logging",
+          "Cost tracking per request",
+          "Token usage monitoring",
+          "Latency optimization",
+          "Error rate tracking",
+          "User feedback collection",
+          "Quality metrics for LLM outputs",
+          "Automated quality evaluation",
+          "Hallucination detection",
+          "Safety and content filtering metrics",
+          "Building observability dashboards",
+          "Alerting and incident response"
+        ],
+        "projects": [
+          "LLM observability platform",
+          "Cost tracking dashboard",
+          "Quality monitoring system",
+          "Automated evaluation pipeline",
+          "Incident detection and alerting",
+          "User feedback aggregation tool",
+          "Performance optimization dashboard",
+          "Production monitoring system"
+        ],
+        "practice": "Add comprehensive observability to all AI apps"
+      }
+    },
+    "month_17_18": {
+      "title": "PHASE 3 COMPLETION - Month 9 Advanced Topics",
+      "weeks": "Week 27-39 (distributed)",
+      "week_71_72": {
+        "title": "Advanced RAG Techniques",
+        "topics": [
+          "Query understanding and decomposition",
+          "Query routing to different data sources",
+          "Fusion retrieval: combining strategies",
+          "Contextual compression and filtering",
+          "Re-ranking models: Cohere, ColBERT",
+          "Late interaction models",
+          "Multi-hop reasoning in RAG",
+          "Graph-based RAG architectures",
+          "Temporal RAG for time-sensitive data",
+          "Structured data RAG: SQL + vectors",
+          "Text-to-SQL with LLMs",
+          "RAG for code repositories",
+          "Recursive retrieval strategies",
+          "Adaptive retrieval: when to retrieve",
+          "Active RAG with verification",
+          "Multi-lingual RAG systems",
+          "RAG for streaming data"
+        ],
+        "projects": [
+          "Advanced multi-source RAG system",
+          "Graph RAG implementation",
+          "SQL + vector hybrid RAG",
+          "Code repository RAG assistant",
+          "Temporal knowledge RAG",
+          "Adaptive retrieval system",
+          "Multi-lingual enterprise RAG",
+          "Real-time data RAG pipeline"
+        ],
+        "practice": "Build 8 advanced RAG architectures"
+      },
+      "week_73_74": {
+        "title": "AI Security & Safety",
+        "topics": [
+          "LLM security vulnerabilities",
+          "Prompt injection attacks and defenses",
+          "Jailbreaking prevention",
+          "Data leakage and privacy concerns",
+          "PII detection and redaction",
+          "Model inversion attacks",
+          "Adversarial attacks on AI",
+          "Robustness testing for LLMs",
+          "Red teaming AI systems",
+          "Safety classifiers and filters",
+          "Constitutional AI implementation",
+          "Alignment faking detection",
+          "Secure API design for AI",
+          "Authentication and authorization",
+          "Secrets management for API keys",
+          "Compliance: GDPR, HIPAA, SOC2",
+          "Building audit trails"
+        ],
+        "projects": [
+          "Prompt injection detector",
+          "PII redaction system",
+          "Red team evaluation suite",
+          "Safety classifier implementation",
+          "Secure AI API gateway",
+          "Compliance monitoring tool",
+          "Audit logging system",
+          "Security hardened AI platform"
+        ],
+        "practice": "Security audit all AI applications"
+      },
+      "week_75_76": {
+        "title": "AI Infrastructure & Cloud Deployment",
+        "topics": [
+          "Cloud platforms for AI: AWS, GCP, Azure",
+          "AWS SageMaker for ML/AI",
+          "AWS Bedrock for LLM deployment",
+          "Azure OpenAI Service",
+          "Google Cloud Vertex AI",
+          "GPU instances: A100, H100, V100",
+          "Kubernetes for AI workloads",
+          "Ray for distributed computing",
+          "Serverless AI with AWS Lambda",
+          "Cloud Run for containerized AI",
+          "Auto-scaling AI services",
+          "Load balancing for AI APIs",
+          "CDN for AI-generated content",
+          "Edge AI deployment",
+          "Multi-cloud strategies",
+          "Cost optimization: spot instances, reserved",
+          "Infrastructure as Code: Terraform"
+        ],
+        "projects": [
+          "AWS SageMaker model deployment",
+          "Kubernetes cluster for AI",
+          "Serverless AI function",
+          "Auto-scaling AI API",
+          "Edge AI deployment",
+          "Multi-cloud AI architecture",
+          "Cost-optimized infrastructure",
+          "Terraform IaC for AI"
+        ],
+        "practice": "Deploy AI applications on all major clouds"
+      },
+      "week_77": {
+        "title": "AI Product Development",
+        "topics": [
+          "Building AI products: strategy",
+          "Product-market fit for AI",
+          "User experience design for AI",
+          "Conversational UI best practices",
+          "AI feature discovery and iteration",
+          "A/B testing AI features",
+          "Product analytics for AI",
+          "User feedback loops",
+          "MVP development for AI products",
+          "Go-to-market for AI products",
+          "Pricing strategies for AI",
+          "Monetization: API-first, SaaS, usage-based",
+          "Building AI product roadmaps",
+          "Competitive analysis in AI space",
+          "AI product metrics and KPIs",
+          "Customer success for AI products",
+          "Building AI product teams"
+        ],
+        "projects": [
+          "AI product MVP",
+          "User analytics dashboard",
+          "A/B testing framework",
+          "Feedback collection system",
+          "Pricing calculator",
+          "Product roadmap template",
+          "Competitive analysis tool",
+          "AI product launch plan"
+        ],
+        "practice": "Develop complete AI product strategy"
+      },
+      "week_78": {
+        "title": "Phase 3 Capstone Project",
+        "topics": [
+          "End-to-end AI system design",
+          "Production deployment",
+          "Monitoring and observability",
+          "Security implementation",
+          "Scalability optimization",
+          "Cost management"
+        ],
+        "projects": [
+          "MAJOR CAPSTONE: Production AI Platform",
+          "Features: Multi-agent system, advanced RAG, fine-tuned models, vector search, API with auth, monitoring dashboard, cost tracking, security hardening, cloud deployment, CI/CD pipeline",
+          "Alternative: Enterprise AI Assistant Platform (Slack/Teams integration, custom models, knowledge base)",
+          "Alternative: AI-Powered Analytics Platform (data analysis agents, automated insights, visualization)",
+          "Alternative: Intelligent Content Platform (generation, moderation, personalization, multi-modal)"
+        ],
+        "assessment": "Phase 3 Final Exam - Advanced AI systems comprehensive test"
+      }
+    }
+  },
+  "phase_4_advanced_production": {
+    "title": "PHASE 4: Custom Models, Research & Professional Excellence (Months 10-12, Weeks 40-52)",
+    "description": "Master custom model development, research methodologies, specialized AI domains, and career mastery.",
+    "month_19_20": {
+      "title": "Months 10-11: Training Custom Models & Advanced Topics",
+      "weeks": "Week 40-48",
+      "week_79_80": {
+        "title": "Training LLMs from Scratch - Theory",
+        "topics": [
+          "LLM training pipeline overview",
+          "Data collection and curation",
+          "Data cleaning and filtering",
+          "Tokenizer training: BPE, SentencePiece",
+          "Model architecture design",
+          "Choosing model size and layers",
+          "Attention mechanisms variants",
+          "Position embeddings: absolute, relative, RoPE",
+          "Activation functions for transformers",
+          "Initialization strategies",
+          "Parallelism: data, model, pipeline",
+          "Distributed training frameworks",
+          "Gradient accumulation",
+          "Mixed precision training",
+          "Optimizer choice: Adam, AdamW, Lion",
+          "Learning rate schedules",
+          "Pre-training objectives"
+        ],
+        "projects": [
+          "Tokenizer training pipeline",
+          "Small transformer from scratch",
+          "Data preprocessing pipeline",
+          "Training infrastructure setup",
+          "Distributed training experiment",
+          "Model architecture comparison",
+          "Training monitoring dashboard",
+          "Pre-training experiment"
+        ],
+        "practice": "Train 3 small language models from scratch"
+      },
+      "week_81_82": {
+        "title": "Training LLMs from Scratch - Practice",
+        "topics": [
+          "Setting up training environment",
+          "PyTorch Lightning for training",
+          "Hugging Face Accelerate library",
+          "DeepSpeed for large models",
+          "FSDP: Fully Sharded Data Parallel",
+          "Flash Attention for efficiency",
+          "Checkpointing and recovery",
+          "Evaluation during training",
+          "Perplexity and other metrics",
+          "Early stopping strategies",
+          "Debugging training issues",
+          "OOM errors and solutions",
+          "Gradient clipping and stabilization",
+          "Post-training: alignment and safety",
+          "Instruction tuning pipeline",
+          "Dataset quality for alignment",
+          "Evaluation of trained models"
+        ],
+        "projects": [
+          "Complete pre-training pipeline",
+          "Instruction-tuned model",
+          "Efficient training with DeepSpeed",
+          "Multi-GPU training setup",
+          "Training monitoring and logging",
+          "Model evaluation suite",
+          "Checkpoint management system",
+          "Custom training framework"
+        ],
+        "practice": "Complete training pipeline for custom model"
+      },
+      "week_83_84": {
+        "title": "Specialized AI Domains - NLP",
+        "topics": [
+          "Advanced NLP tasks beyond generation",
+          "Named Entity Recognition (NER) at scale",
+          "Relation extraction from text",
+          "Coreference resolution",
+          "Semantic role labeling",
+          "Dependency parsing",
+          "Information extraction pipelines",
+          "Document understanding",
+          "Table extraction and understanding",
+          "Knowledge graph construction from text",
+          "Text classification: hierarchical, multi-label",
+          "Sentiment analysis: aspect-based",
+          "Topic modeling with LLMs",
+          "Text clustering and categorization",
+          "Zero-shot and few-shot classification",
+          "Cross-lingual NLP",
+          "Low-resource language processing"
+        ],
+        "projects": [
+          "End-to-end information extraction system",
+          "Knowledge graph builder",
+          "Document understanding pipeline",
+          "Multi-label classifier",
+          "Aspect-based sentiment analyzer",
+          "Cross-lingual text processor",
+          "Entity linking system",
+          "Hierarchical categorization tool"
+        ],
+        "practice": "Build 10 advanced NLP systems"
+      },
+      "week_85_86": {
+        "title": "Specialized AI Domains - Code & Reasoning",
+        "topics": [
+          "Code generation with LLMs",
+          "Code completion models",
+          "Program synthesis",
+          "Code translation between languages",
+          "Bug detection and fixing",
+          "Code review automation",
+          "Test case generation",
+          "Documentation generation",
+          "Code search and retrieval",
+          "Execution-based code evaluation",
+          "Mathematical reasoning with LLMs",
+          "Symbolic reasoning integration",
+          "Tool use for complex reasoning",
+          "Multi-step problem solving",
+          "Verification and validation",
+          "Chain-of-thought for code",
+          "Self-debugging agents"
+        ],
+        "projects": [
+          "AI coding assistant",
+          "Automated code reviewer",
+          "Test generator",
+          "Code documentation tool",
+          "Bug detection system",
+          "Math problem solver",
+          "Code search engine",
+          "Multi-step reasoning system"
+        ],
+        "practice": "Build 8 code and reasoning AI tools"
+      },
+      "week_87": {
+        "title": "Reinforcement Learning for LLMs",
+        "topics": [
+          "Reinforcement Learning basics review",
+          "RL for language models",
+          "Reward modeling for RLHF",
+          "Preference datasets and collection",
+          "Proximal Policy Optimization (PPO)",
+          "PPO for language models",
+          "Reward hacking and mitigation",
+          "KL divergence constraint",
+          "Online vs offline RL",
+          "Constitutional AI with RL",
+          "Multi-objective RLHF",
+          "DPO: Direct Preference Optimization",
+          "IPO and other alignment methods",
+          "Reward model training",
+          "Evaluation of aligned models",
+          "Scaling RLHF",
+          "Future of alignment research"
+        ],
+        "projects": [
+          "Reward model training",
+          "RLHF pipeline implementation",
+          "DPO fine-tuning",
+          "Preference dataset creation",
+          "Alignment evaluation suite",
+          "Multi-objective alignment",
+          "Constitutional AI implementation",
+          "Complete RLHF system"
+        ],
+        "practice": "Implement RLHF and DPO pipelines"
+      }
+    },
+    "month_21_22": {
+      "title": "Month 12: Research, Cutting Edge & Career Launch",
+      "weeks": "Week 49-52",
+      "week_88_89": {
+        "title": "AI Research & Paper Implementation",
+        "topics": [
+          "Reading research papers effectively",
+          "Understanding paper structure",
+          "Key AI conferences: NeurIPS, ICML, ICLR",
+          "ArXiv and Hugging Face Papers",
+          "State-of-the-art tracking",
+          "Implementing papers from scratch",
+          "Reproducing research results",
+          "Ablation studies and experiments",
+          "Writing technical blog posts",
+          "Contributing to research discussions",
+          "Benchmarking new techniques",
+          "Open source contributions to AI",
+          "Creating research reproducibility",
+          "Building on existing research",
+          "Novel applications of research",
+          "Research ethics and attribution",
+          "Staying current with AI advances"
+        ],
+        "projects": [
+          "Implement 5 recent papers",
+          "Reproduce benchmark results",
+          "Novel application of research",
+          "Technical blog series",
+          "Benchmark comparison tool",
+          "Research tracking dashboard",
+          "Paper implementation library",
+          "Open source contribution"
+        ],
+        "practice": "Read 50+ papers, implement 10+ techniques"
+      },
+      "week_90_91": {
+        "title": "Cutting-Edge AI Techniques",
+        "topics": [
+          "Mixture of Experts (MoE) models",
+          "Sparse models and efficiency",
+          "Long context models: 100K+ tokens",
+          "Efficient attention mechanisms",
+          "Quantization: GPTQ, AWQ, GGUF",
+          "Speculative decoding",
+          "Model merging and mixing",
+          "Continuous learning and lifelong learning",
+          "Few-shot in-context learning",
+          "Meta-learning for AI",
+          "Retrieval-augmented pre-training",
+          "Multimodal fusion techniques",
+          "Chain-of-thought prompting variants",
+          "Tool-augmented LLMs",
+          "Neuro-symbolic AI",
+          "AI for science: protein folding, drug discovery",
+          "Frontier capabilities and risks"
+        ],
+        "projects": [
+          "MoE model implementation",
+          "Long context application",
+          "Quantized model optimization",
+          "Model merging experiments",
+          "Meta-learning system",
+          "Tool-use agent",
+          "Multimodal fusion model",
+          "Cutting-edge technique showcase"
+        ],
+        "practice": "Experiment with latest AI techniques"
+      },
+      "week_92_93": {
+        "title": "Building AI Startups & Products",
+        "topics": [
+          "AI startup landscape 2024+",
+          "Identifying AI opportunities",
+          "Market research for AI products",
+          "Building vs buying foundation models",
+          "Vertical AI applications",
+          "AI-native product design",
+          "Technical co-founder skills",
+          "Building MVP for AI products",
+          "Fundraising for AI startups",
+          "Pitch deck for AI companies",
+          "Go-to-market strategies",
+          "Distribution channels for AI",
+          "Pricing and business models",
+          "Unit economics for AI",
+          "Building AI teams",
+          "Hiring AI talent",
+          "AI startup case studies"
+        ],
+        "projects": [
+          "AI startup idea validation",
+          "Market research report",
+          "AI product MVP",
+          "Pitch deck creation",
+          "Business model canvas",
+          "Financial projections",
+          "GTM strategy document",
+          "AI startup playbook"
+        ],
+        "practice": "Develop complete startup strategy"
+      },
+      "week_94_95": {
+        "title": "AI Consulting & Freelancing",
+        "topics": [
+          "AI consulting services landscape",
+          "Building consulting practice",
+          "Client discovery and scoping",
+          "AI project estimation",
+          "Proposal writing for AI projects",
+          "Contract negotiation",
+          "AI audit and assessment",
+          "Strategy consulting for AI",
+          "Implementation services",
+          "Training and enablement",
+          "Ongoing support models",
+          "Pricing consulting services",
+          "Building case studies",
+          "Marketing AI services",
+          "Networking and partnerships",
+          "Scaling consulting business",
+          "Freelance platforms for AI"
+        ],
+        "projects": [
+          "Consulting service offerings",
+          "Client proposal templates",
+          "AI audit framework",
+          "Project estimation tool",
+          "Case study portfolio",
+          "Marketing website",
+          "Client onboarding process",
+          "Consulting playbook"
+        ],
+        "practice": "Develop consulting business materials"
+      },
+      "week_96": {
+        "title": "Career Development & Job Search",
+        "topics": [
+          "AI career paths: engineer, researcher, scientist",
+          "Resume optimization for AI roles",
+          "Portfolio building: GitHub, blog, projects",
+          "LinkedIn for AI professionals",
+          "Networking in AI community",
+          "Job search strategies",
+          "Company research: startups vs big tech",
+          "Application process optimization",
+          "AI interview preparation",
+          "Technical interview: coding + ML",
+          "System design for AI systems",
+          "Behavioral interviews",
+          "Take-home assignments",
+          "Salary negotiation for AI roles",
+          "Offer evaluation",
+          "Continuous learning plans",
+          "Building personal brand"
+        ],
+        "projects": [
+          "Professional portfolio website",
+          "Technical blog",
+          "50+ project showcase",
+          "Resume optimization",
+          "LinkedIn profile enhancement",
+          "Interview preparation guide",
+          "System design case studies",
+          "Personal brand strategy"
+        ],
+        "practice": "Complete 50 interview problems, 10 system designs"
+      }
+    },
+    "month_23": {
+      "title": "PHASE 4 COMPLETION - Specialization & Mastery",
+      "weeks": "Week 40-52 (distributed)",
+      "week_97": {
+        "title": "Choose Your Specialization",
+        "topics": [
+          "Specialization paths overview",
+          "Path 1: LLM Engineer (production systems, scaling)",
+          "Path 2: AI Research Engineer (paper implementation, novel techniques)",
+          "Path 3: Applied AI Engineer (domain-specific applications)",
+          "Path 4: MLOps/AI Infrastructure Engineer (deployment, monitoring)",
+          "Path 5: AI Product Manager (strategy, roadmap, execution)",
+          "Path 6: Prompt Engineer (advanced prompting, optimization)",
+          "Path 7: AI Ethics/Safety Researcher (alignment, safety)",
+          "Path 8: AI Consultant (client services, implementation)",
+          "Building expertise in chosen path",
+          "Advanced projects for specialization",
+          "Networking in specialized field",
+          "Thought leadership",
+          "Contributing to community",
+          "Teaching and mentoring",
+          "Continuous specialization learning"
+        ],
+        "projects": [
+          "Deep dive project in specialization",
+          "3-5 advanced specialized projects",
+          "Research or implementation in niche",
+          "Community contribution",
+          "Teaching materials creation",
+          "Specialization portfolio"
+        ],
+        "practice": "Become expert in chosen specialization"
+      },
+      "week_98": {
+        "title": "AI Community & Open Source",
+        "topics": [
+          "AI open source ecosystem",
+          "Contributing to major projects",
+          "Hugging Face contributions",
+          "LangChain contributions",
+          "PyTorch and TensorFlow contributions",
+          "Creating open source AI tools",
+          "Documentation contributions",
+          "Building community around projects",
+          "Speaking at meetups and conferences",
+          "Writing influential blog posts",
+          "YouTube and content creation",
+          "Twitter/X for AI professionals",
+          "Discord and community management",
+          "Mentoring others in AI",
+          "Teaching AI online",
+          "Building reputation",
+          "Long-term community involvement"
+        ],
+        "projects": [
+          "Major open source contribution",
+          "Create open source AI library",
+          "Technical blog series (10+ posts)",
+          "Conference talk/workshop",
+          "YouTube channel start",
+          "Community resource creation",
+          "Mentorship program participation"
+        ],
+        "practice": "Active community participation and leadership"
+      },
+      "week_99": {
+        "title": "The Future of AI & Your Role",
+        "topics": [
+          "Current state of AI (2024+)",
+          "AGI timeline and implications",
+          "Multimodal AI evolution",
+          "AI agents and automation",
+          "Specialized AI systems",
+          "AI in every industry",
+          "Regulatory landscape evolution",
+          "AI safety and alignment future",
+          "Economic impact of AI",
+          "Job market evolution",
+          "Skills for the AI future",
+          "Continuous adaptation strategies",
+          "Ethical considerations ahead",
+          "Your unique value proposition",
+          "Building resilient AI career",
+          "Lifelong learning plans",
+          "Contributing to AI's future"
+        ],
+        "projects": [
+          "Future of AI research report",
+          "Personal AI vision document",
+          "5-year career plan",
+          "Lifelong learning roadmap",
+          "Thought leadership pieces",
+          "Future-focused portfolio"
+        ],
+        "practice": "Strategic career planning"
+      },
+      "week_100": {
+        "title": "Interview Mastery & Career Launch",
+        "topics": [
+          "AI interview process deep dive",
+          "Company-specific preparation: OpenAI, Anthropic, Google",
+          "Startup interviews vs big tech",
+          "Technical rounds: ML fundamentals",
+          "LLM-specific questions",
+          "Coding interviews for AI roles",
+          "System design for AI systems",
+          "ML system design interviews",
+          "Designing AI products in interviews",
+          "Behavioral interviews: STAR method",
+          "Portfolio presentation",
+          "Take-home projects excellence",
+          "Negotiation strategies",
+          "Evaluating offers",
+          "Onboarding preparation",
+          "First 90 days plan",
+          "Career launch checklist"
+        ],
+        "projects": [
+          "100+ interview practice problems",
+          "10+ system design solutions",
+          "Portfolio presentation deck",
+          "Interview tracking system",
+          "Negotiation preparation",
+          "Career launch materials",
+          "Mock interview completion"
+        ],
+        "practice": "Intensive interview preparation"
+      }
+    },
+    "month_24": {
+      "title": "Final Month - Masterpiece Project & Career Launch",
+      "weeks": "Week 49-52",
+      "week_101_102": {
+        "title": "Final Masterpiece Project - Part 1",
+        "topics": [
+          "Grand finale project planning",
+          "Innovative AI application idea",
+          "Complete system architecture",
+          "Technology stack selection",
+          "Development workflow",
+          "Agile sprint planning",
+          "Team collaboration (if applicable)",
+          "Code organization and structure",
+          "Documentation strategy",
+          "Testing strategy"
+        ],
+        "projects": [
+          "FINAL MASTERPIECE: Revolutionary AI Application",
+          "Option 1: Multi-Agent AI Platform (autonomous agent ecosystem, task marketplace, evaluation system)",
+          "Option 2: Next-Gen RAG System (multi-modal knowledge base, graph integration, self-improving)",
+          "Option 3: AI Research Lab (experiment tracking, model training, evaluation, collaboration)",
+          "Option 4: Vertical AI Solution (industry-specific: legal, medical, finance, education)",
+          "Option 5: AI Development Platform (no-code/low-code AI, model marketplace, deployment)",
+          "Requirements: Novel application, production-ready, fully deployed, comprehensive docs"
+        ]
+      },
+      "week_103": {
+        "title": "Final Masterpiece Project - Part 2",
+        "topics": [
+          "Implementation completion",
+          "Advanced features integration",
+          "Performance optimization",
+          "Security hardening",
+          "Comprehensive testing",
+          "User experience refinement",
+          "Production deployment",
+          "Monitoring setup",
+          "Documentation writing",
+          "Demo video creation",
+          "Presentation preparation",
+          "Open source release"
+        ],
+        "deliverables": [
+          "Production-ready AI application",
+          "Complete source code on GitHub (public)",
+          "Deployed and accessible (live URL)",
+          "Comprehensive documentation",
+          "Architecture diagrams and explanations",
+          "API documentation (if applicable)",
+          "User guide and tutorials",
+          "Demo video (5-10 minutes)",
+          "Technical deep-dive blog post",
+          "Presentation slides",
+          "Open source release with license",
+          "Community contribution plan"
+        ]
+      },
+      "week_104": {
+        "title": "Career Launch & AI Leadership",
+        "topics": [
+          "Professional presence establishment",
+          "Portfolio website showcase",
+          "GitHub profile optimization",
+          "LinkedIn thought leadership",
+          "Technical blog authority",
+          "Conference speaking applications",
+          "Community leadership",
+          "Mentorship opportunities",
+          "Teaching and training",
+          "Consulting setup",
+          "Startup plans (if applicable)",
+          "Job offers evaluation",
+          "Career trajectory planning",
+          "Network expansion",
+          "Continuous innovation",
+          "Giving back to community",
+          "Long-term AI career vision"
+        ],
+        "deliverables": [
+          "Professional portfolio with 50+ projects",
+          "Active GitHub with significant contributions",
+          "Established technical blog (20+ posts)",
+          "Strong LinkedIn presence with thought leadership",
+          "Conference talk submissions",
+          "Open source project maintainer status",
+          "Mentorship program participation",
+          "Teaching/training materials",
+          "Multiple job offers or consulting clients",
+          "Clear 5-year career roadmap",
+          "Community leadership role",
+          "AI network of 500+ connections"
+        ],
+        "assessment": "FINAL COMPREHENSIVE CERTIFICATION EXAM - Complete Generative AI mastery evaluation"
+      }
+    }
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Months 1-3): 25+ foundational projects - Python tools, ML models, first AI experiments",
+      "Phase 2 (Months 4-6): 30+ LLM projects - API integrations, RAG systems, prompt engineering, vector DBs",
+      "Phase 3 (Months 7-9): 25+ advanced projects - fine-tuned models, AI agents, production systems, MLOps",
+      "Phase 4 (Months 10-12): 20+ cutting-edge projects - custom models, research implementations, specialized apps",
+      "Final: 1 revolutionary masterpiece demonstrating complete expertise"
+    ],
+    "total_projects_built": "100+ projects from beginner experiments to production AI systems",
+    "skills_mastered": [
+      "Programming: Python mastery, data structures, algorithms, OOP, functional programming",
+      "Mathematics: Linear algebra, calculus, statistics, probability, optimization",
+      "Machine Learning: Supervised/unsupervised learning, neural networks, deep learning, evaluation",
+      "Generative AI: LLMs, prompt engineering, fine-tuning, RLHF, diffusion models, multimodal AI",
+      "LLM APIs: OpenAI GPT-4, Claude, Gemini, Llama, Mistral, local models",
+      "Frameworks: LangChain, LlamaIndex, Hugging Face Transformers, PyTorch, TensorFlow",
+      "Vector Databases: Pinecone, Weaviate, Chroma, Qdrant, FAISS, pgvector",
+      "RAG Systems: Basic to advanced RAG, multi-hop reasoning, graph RAG, evaluation",
+      "AI Agents: Single agents, multi-agent systems, ReAct, planning, tool use, memory",
+      "Fine-tuning: Full fine-tuning, LoRA, QLoRA, RLHF, DPO, alignment techniques",
+      "Computer Vision: CNNs, object detection, segmentation, diffusion models, multimodal",
+      "Production: MLOps, model serving, monitoring, scaling, security, deployment",
+      "Cloud: AWS SageMaker/Bedrock, Azure OpenAI, GCP Vertex AI, Kubernetes",
+      "Tools: Docker, Git, Jupyter, VS Code, FastAPI, Streamlit, Gradio, MLflow, W&B",
+      "Soft Skills: System design, problem-solving, research, communication, ethics, product thinking"
+    ],
+    "weekly_structure": {
+      "theory_videos": "4-6 hours",
+      "hands_on_coding": "8-12 hours",
+      "projects": "4-6 hours",
+      "practice_problems": "2-3 hours",
+      "total_per_week": "15-20 hours"
+    },
+    "support_provided": {
+      "live_sessions": "Weekly live coding sessions, office hours, and expert Q&A",
+      "mentorship": "1-on-1 AI engineer mentorship and career guidance",
+      "community": "Active Discord community with 24/7 peer support and collaboration",
+      "code_review": "Expert code reviews for all major projects and assignments",
+      "career_support": "Resume review, mock interviews, job referrals to AI companies",
+      "lifetime_access": "All content, future updates, new models and techniques coverage",
+      "placement_assistance": "Dedicated placement support with AI startup and enterprise partnerships",
+      "interview_prep": "Mock technical interviews, system design practice with experts",
+      "research_guidance": "Paper reading groups, research implementation support",
+      "startup_support": "For those building AI products, access to entrepreneurship resources"
+    },
+    "certification": {
+      "phase_certificates": "Certificate after each phase completion (4 certificates)",
+      "final_certificate": "Professional Generative AI Engineer Certification",
+      "specialization_certificates": "Certificates for chosen specialization tracks",
+      "project_certificates": "Verified project completion badges",
+      "linkedin_badge": "Digital badges for LinkedIn profile showcase",
+      "industry_recognized": "Recognized by AI startups, tech giants, and research labs",
+      "portfolio_projects": "50+ production-ready AI projects",
+      "github_verified": "Verified GitHub contributions and open source work"
+    }
+  },
+  "prerequisites": {
+    "education": "No formal degree required - open to all backgrounds including non-technical",
+    "coding_experience": "Absolute beginner friendly - zero programming knowledge required",
+    "age": "14+ years (separate learning tracks for teens and adults)",
+    "equipment": "Computer/laptop with 16GB+ RAM recommended (8GB minimum), NVIDIA GPU helpful but not required (use Google Colab), internet connection",
+    "time_commitment": "15-20 hours per week consistently for best results",
+    "english": "Basic reading comprehension (materials also available in Hindi)",
+    "motivation": "Strong desire to become an AI professional and shape the future",
+    "math": "Basic high school mathematics (taught from scratch as needed)"
+  },
+  "who_is_this_for": {
+    "teens": "Age 14-18: AI-focused track with fundamentals, college prep, research skills, future-ready education",
+    "students": "College students: Career preparation, internship readiness, research opportunities, strong AI portfolio",
+    "working_professionals": "Career switchers: Structured path from any background to AI engineer role",
+    "developers": "Software developers wanting to pivot to AI engineering",
+    "data_scientists": "Data scientists wanting to master modern generative AI",
+    "ml_engineers": "ML engineers wanting to specialize in LLMs and generative models",
+    "entrepreneurs": "Build revolutionary AI products and startups",
+    "researchers": "Academic researchers wanting practical AI implementation skills",
+    "freelancers": "Offer cutting-edge AI services to high-paying clients",
+    "ai_curious": "Anyone fascinated by AI and wanting to be part of the AI revolution",
+    "career_advancers": "Professionals wanting to add AI skills to their domain expertise"
+  },
+  "career_paths_after_completion": [
+    "AI Engineer / Generative AI Engineer",
+    "LLM Engineer / LLM Application Developer",
+    "Prompt Engineer / Prompt Engineering Lead",
+    "AI/ML Engineer (focusing on GenAI)",
+    "AI Research Engineer",
+    "Applied AI Scientist",
+    "MLOps Engineer (AI/LLM focus)",
+    "AI Product Manager / AI Product Lead",
+    "AI Solutions Architect",
+    "AI Consultant / AI Strategy Consultant",
+    "Conversational AI Engineer",
+    "AI Agent Developer",
+    "Computer Vision Engineer (Generative)",
+    "Multimodal AI Engineer",
+    "AI Safety/Alignment Researcher",
+    "AI Startup Founder / CTO",
+    "Independent AI Researcher",
+    "AI Educator / Technical Trainer",
+    "AI Freelancer / Contract Engineer"
+  ],
+  "salary_expectations": {
+    "after_3_months": "₹4-7 LPA (Junior AI Developer / Prompt Engineer)",
+    "after_6_months": "₹8-15 LPA (AI Application Developer / LLM Engineer)",
+    "after_9_months": "₹15-25 LPA (AI Engineer / Senior LLM Engineer)",
+    "after_12_months": "₹20-40 LPA (Senior AI Engineer / AI Architect / AI Lead)",
+    "experienced_2_years": "₹30-70 LPA (Lead AI Engineer / Principal Engineer)",
+    "freelance": "₹2000-10000/hour based on expertise and specialization",
+    "international_usa": "$120k-300k USD (AI Engineer to Senior/Staff level)",
+    "international_europe": "€70k-180k EUR based on country and experience",
+    "ai_startups": "₹25-80 LPA + equity in funded AI startups",
+    "faang_companies": "₹40-100 LPA at Google, Meta, Microsoft, Amazon AI teams",
+    "research_roles": "₹30-60 LPA at AI research labs (OpenAI, Anthropic, DeepMind styles)",
+    "ai_consulting": "₹50-150 LPA as independent consultant or at top firms"
+  },
+  "course_guarantees": {
+    "money_back": "30-day 100% money-back guarantee - no questions asked",
+    "job_assistance": "AI job placement support with 300+ AI companies and startups",
+    "lifetime_updates": "Free access to all future content, new models, frameworks, and techniques",
+    "mentorship": "Dedicated AI expert mentor throughout 12-month journey and beyond",
+    "certificate": "Industry-recognized Generative AI Engineer certification",
+    "portfolio": "50+ production-ready AI projects for impressive portfolio",
+    "community": "Lifetime access to AI professionals alumni network and community",
+    "career_switch": "Extended support until successful career switch into AI (up to 18 months)",
+    "skill_guarantee": "Master Generative AI or continue learning free until you do",
+    "interview_guarantee": "Unlimited mock AI interviews until you land a job",
+    "salary_hike": "Average 200-400% salary hike for career switchers",
+    "placement_record": "80%+ placement rate within 6 months of completion in AI roles",
+    "startup_support": "For entrepreneurs, access to AI startup accelerator network",
+    "research_support": "For researchers, paper publication guidance and collaboration opportunities"
+  },
+  "faqs": [
+    {
+      "question": "Why should I learn Generative AI now? Isn't it too competitive?",
+      "answer": "Generative AI is the fastest-growing field in tech with massive shortage of skilled professionals. Every company from startups to Fortune 500 is racing to adopt AI. There are 10-20 AI job openings for every qualified candidate. Early movers (now) will have 5-10 year career advantage. Salaries range from ₹10-80 LPA in India and $120k-300k globally. It's not too late - it's the perfect time."
+    },
+    {
+      "question": "Is this Generative AI course suitable for complete beginners with no coding experience?",
+      "answer": "Absolutely! We start from absolute zero - teaching Python from scratch, mathematics needed for AI, ML fundamentals, then gradually moving to LLMs, prompt engineering, fine-tuning, and building production AI systems. Our structured 12-month curriculum takes you from 'What is AI?' to building enterprise-grade AI applications. Thousands of non-technical people have successfully transitioned to AI careers through this program."
+    },
+    {
+      "question": "What makes this different from other AI courses and ChatGPT tutorials?",
+      "answer": "Unlike superficial ChatGPT tutorials, we teach deep fundamentals: transformer architecture, how LLMs actually work, training models from scratch, fine-tuning, RAG systems, AI agents, production deployment, and MLOps. You'll build 50+ real projects, not just use APIs. We cover OpenAI, Anthropic (Claude), Google (Gemini), open-source models (Llama, Mistral), LangChain, vector databases, and the entire modern AI stack. This is professional AI engineering, not just prompt writing."
+    },
+    {
+      "question": "What kind of projects will I build and can I use them for my portfolio?",
+      "answer": "You'll build 50+ projects including: ChatGPT clones, RAG-powered Q&A systems, AI agents for automation, fine-tuned models for specific domains, image generation apps, multi-agent systems, production AI APIs, and a final masterpiece project. All projects are production-ready and portfolio-worthy. You'll deploy them to cloud, create demos, and showcase them on GitHub. These projects alone can land you AI jobs at top companies."
+    },
+    {
+      "question": "Will I learn to train and fine-tune my own AI models or just use APIs?",
+      "answer": "Both! You'll master using APIs (OpenAI, Claude, Gemini) for rapid development AND learn to train transformers from scratch, fine-tune Llama/Mistral models, implement LoRA/QLoRA, use RLHF and DPO for alignment, optimize models for production, and deploy them at scale. We cover the full spectrum from using commercial APIs to training custom models on your data."
+    },
+    {
+      "question": "What salary can I expect after completing this Generative AI masterclass?",
+      "answer": "Salaries vary by experience level: After 6 months ₹8-15 LPA as AI developer, after 12 months ₹15-30 LPA as AI Engineer, with 2-3 years ₹30-70 LPA as Senior/Lead. AI startups offer ₹25-80 LPA + equity. FAANG companies pay ₹40-100 LPA. International remote jobs offer $120k-300k USD. Freelance AI consulting can earn ₹2000-10000/hour. The AI talent shortage means exceptional compensation for skilled professionals."
+    },
+    {
+      "question": "Do I need an expensive GPU to learn Generative AI?",
+      "answer": "No! While a NVIDIA GPU helps, it's not required. We'll teach you to use Google Colab (free GPU), Kaggle notebooks (free GPU), and cloud platforms. For production work, we cover AWS SageMaker, Azure, and GCP. We also teach optimization techniques to run models on consumer hardware. Many students complete the entire course using only free resources and land high-paying jobs."
+    },
+    {
+      "question": "How is this different from a traditional ML/Data Science course?",
+      "answer": "Traditional ML courses focus on classical ML algorithms (linear regression, random forests, etc.) while we focus on modern Generative AI: Large Language Models (GPT, Claude, Llama), transformer architecture, prompt engineering, fine-tuning, RAG systems, AI agents, diffusion models for images, and multimodal AI. These are the technologies companies are desperately hiring for in 2024-2025. You'll learn some foundational ML, but 80% focus is on cutting-edge GenAI."
+    },
+    {
+      "question": "Will this course help me get a job at AI companies like OpenAI, Anthropic, or Google DeepMind?",
+      "answer": "Yes! Our curriculum is based on job requirements at top AI companies. We cover: transformer architecture, training large models, RLHF, prompt engineering, production deployment, system design for AI, research paper implementation, and building novel applications. We provide interview preparation, system design practice, and coding challenges. Many graduates have joined leading AI companies, well-funded startups, and research labs."
+    },
+    {
+      "question": "Can I build my own AI startup or product after this course?",
+      "answer": "Absolutely! You'll learn everything needed to build AI products: ideation, architecture design, MVP development, model selection/fine-tuning, RAG implementation, agent systems, production deployment, monitoring, and scaling. We cover business strategy, monetization, and go-to-market for AI products. Many students have launched successful AI startups, consulting practices, or SaaS products generating significant revenue."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "ai-ml-masterclass-complete-college",
+      "title": "ML Engineering Masterclass",
+      "description": "Deep dive into traditional ML and model engineering"
+    },
+    {
+      "slug": "data-science-complete-masterclass-college",
+      "title": "Data Science Masterclass",
+      "description": "Data analysis and ML foundations"
+    },
+    {
+      "slug": "python-programming-masterclass-zero-to-advanced-college",
+      "title": "Python Programming Masterclass",
+      "description": "Advanced Python for AI/ML development"
+    },
+    {
+      "slug": "full-stack-web-development-masterclass-college",
+      "title": "Full Stack Development",
+      "description": "Build complete AI-powered web applications"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Generative AI is the Most Important Skill of Our Era",
+    "paragraphs": [
+      "We're witnessing the biggest technological revolution since the internet. Generative AI is not just a trend - it's fundamentally changing how we work, create, and solve problems. ChatGPT reached 100 million users in 2 months. Every Fortune 500 company is racing to adopt AI. Startups are raising billions. Governments are investing trillions. This is the defining technology of our generation.",
+      "The AI talent shortage is unprecedented. Companies are desperate for AI engineers who understand LLMs, can build production systems, fine-tune models, implement RAG, and create AI agents. Salaries have skyrocketed: ₹15-40 LPA in India, $150k-300k in the US, with top talent commanding even more. This isn't hype - it's supply and demand fundamentals.",
+      "But here's the opportunity: most 'AI experts' only know surface-level ChatGPT usage. Our masterclass teaches you real AI engineering - from transformer architecture to training models, from prompt engineering to production deployment. You'll build a portfolio of 50+ projects that showcases genuine expertise. After 12 months, you'll be in the top 1% of AI practitioners globally, positioned to shape the future and build a extraordinary career.",
+      "The next decade belongs to AI engineers. Foundation model companies need talent. Every industry needs AI transformation. Startups need technical co-founders. The opportunities are limitless. The question isn't 'Should I learn AI?' - it's 'Can I afford NOT to?' This is your chance to be at the forefront of the AI revolution."
+    ],
+    "highlights": [
+      "50+ production-ready projects from APIs to custom trained models",
+      "Master every major AI framework and platform in the ecosystem",
+      "Build RAG systems, AI agents, and multimodal applications",
+      "Complete interview preparation for top AI companies",
+      "80% placement rate within 6 months with ₹15-40 LPA average"
+    ]
+  },
+  "success_metrics": {
+    "students_enrolled": "3,800+",
+    "job_placement_rate": "80%",
+    "avg_starting_salary": "₹18.5 LPA",
+    "ai_positions": "950+"
+  }
+}
