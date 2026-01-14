@@ -13,8 +13,23 @@
     <meta name="keywords"
         content="learn coding online, coding courses for kids, python course, web development course, math tutoring online, AI machine learning course, programming for beginners, coding bootcamp, STEM education">
     <meta name="author" content="Modern Age Coders">
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+        id="robots-meta">
     <link rel="canonical" href="https://learn.modernagecoders.com/courses">
+
+    <!-- Prevent indexing of category filter paths like /courses/coding/* or /courses/mathematics/* -->
+    <script>
+        (function () {
+            var path = window.location.pathname;
+            // If URL contains category filter paths, add noindex
+            if (path.match(/^\/courses\/(coding|mathematics)\/.+/)) {
+                var robotsMeta = document.getElementById('robots-meta');
+                if (robotsMeta) {
+                    robotsMeta.setAttribute('content', 'noindex, nofollow');
+                }
+            }
+        })();
+    </script>
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -1530,41 +1545,41 @@
                 badges: ['hot'], templateUrl: '/courses/python-programming-masterclass-zero-to-advanced-college', imageUrl: 'python-college.png'
             },
             {
-    id: 211, category: 'app-dev', title: 'Flutter App Development Masterclass',
-    description: 'Build high-performance cross-platform mobile apps with a single codebase. From UI to deployment, learn Flutter the right way.',
-    skills: ['Flutter', 'Dart', 'Firebase', 'REST APIs'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['trending'], templateUrl: '/courses/complete-flutter-app-development-masterclass-college', imageUrl: 'flutter-college.png'
-}
-,{
-    id: 212, category: 'app-dev', title: 'Swift iOS Development Masterclass',
-    description: 'Learn to build fast, secure, and elegant iOS applications using Swift and Apple’s native frameworks.',
-    skills: ['Swift', 'UIKit', 'SwiftUI', 'Xcode'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['premium'], templateUrl: '/courses/complete-swift-programming-masterclass-college', imageUrl: 'swift-college.png'
-},{
-    id: 213, category: 'app-dev', title: 'Kotlin Android Development Masterclass',
-    description: 'Create modern, robust Android apps using Kotlin with industry-standard architecture and tools.',
-    skills: ['Kotlin', 'Android SDK', 'Jetpack', 'MVVM'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['popular'], templateUrl: '/courses/complete-kotlin-programming-masterclass-professional', imageUrl: 'kotlin-college.png'
-},{
-    id: 214, category: 'web-dev', title: 'TypeScript Full-Stack Development Masterclass',
-    description: 'Write safer, scalable, and production-grade applications using TypeScript across frontend and backend.',
-    skills: ['TypeScript', 'Node.js', 'Express', 'Frontend Frameworks'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['essential'], templateUrl: '/courses/complete-typescript-programming-masterclass-college', imageUrl: 'typescript-college.png'
-}
-,{
-    id: 215, category: 'backend-dev', title: 'Go (Golang) Backend Engineering Masterclass',
-    description: 'Design and build scalable, concurrent, and production-ready backend systems using Go.',
-    skills: ['Go', 'Concurrency', 'REST APIs', 'Microservices'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['high-demand'], templateUrl: '/courses/complete-golang-programming-masterclass-college', imageUrl: 'golang-college.png'
-}
-,
-{
-    id: 216, category: 'ai-ml', title: 'Generative AI Masterclass',
-    description: 'Learn how modern AI systems generate text, images, code, and ideas. Build real applications using generative models and understand how AI works behind the scenes.',
-    skills: ['Generative AI', 'Prompt Engineering', 'LLMs', 'AI APIs'], difficulty: 'advanced', ageGroup: 'college',
-    badges: ['future-skill'], templateUrl: '/courses/complete-generative-ai-masterclass-college', imageUrl: 'generative-ai-college.png'
-}
-,
+                id: 211, category: 'app-dev', title: 'Flutter App Development Masterclass',
+                description: 'Build high-performance cross-platform mobile apps with a single codebase. From UI to deployment, learn Flutter the right way.',
+                skills: ['Flutter', 'Dart', 'Firebase', 'REST APIs'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['trending'], templateUrl: '/courses/complete-flutter-app-development-masterclass-college', imageUrl: 'flutter-college.png'
+            }
+            , {
+                id: 212, category: 'app-dev', title: 'Swift iOS Development Masterclass',
+                description: 'Learn to build fast, secure, and elegant iOS applications using Swift and Apple’s native frameworks.',
+                skills: ['Swift', 'UIKit', 'SwiftUI', 'Xcode'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['premium'], templateUrl: '/courses/complete-swift-programming-masterclass-college', imageUrl: 'swift-college.png'
+            }, {
+                id: 213, category: 'app-dev', title: 'Kotlin Android Development Masterclass',
+                description: 'Create modern, robust Android apps using Kotlin with industry-standard architecture and tools.',
+                skills: ['Kotlin', 'Android SDK', 'Jetpack', 'MVVM'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['popular'], templateUrl: '/courses/complete-kotlin-programming-masterclass-professional', imageUrl: 'kotlin-college.png'
+            }, {
+                id: 214, category: 'web-dev', title: 'TypeScript Full-Stack Development Masterclass',
+                description: 'Write safer, scalable, and production-grade applications using TypeScript across frontend and backend.',
+                skills: ['TypeScript', 'Node.js', 'Express', 'Frontend Frameworks'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['essential'], templateUrl: '/courses/complete-typescript-programming-masterclass-college', imageUrl: 'typescript-college.png'
+            }
+            , {
+                id: 215, category: 'backend-dev', title: 'Go (Golang) Backend Engineering Masterclass',
+                description: 'Design and build scalable, concurrent, and production-ready backend systems using Go.',
+                skills: ['Go', 'Concurrency', 'REST APIs', 'Microservices'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['high-demand'], templateUrl: '/courses/complete-golang-programming-masterclass-college', imageUrl: 'golang-college.png'
+            }
+            ,
+            {
+                id: 216, category: 'ai-ml', title: 'Generative AI Masterclass',
+                description: 'Learn how modern AI systems generate text, images, code, and ideas. Build real applications using generative models and understand how AI works behind the scenes.',
+                skills: ['Generative AI', 'Prompt Engineering', 'LLMs', 'AI APIs'], difficulty: 'advanced', ageGroup: 'college',
+                badges: ['future-skill'], templateUrl: '/courses/complete-generative-ai-masterclass-college', imageUrl: 'generative-ai-college.png'
+            }
+            ,
 
 
             {
@@ -2121,7 +2136,7 @@
                 }
 
                 const categoryMapping = {
-                    coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity', 'logic', 'coding', 'technology', 'game-dev', 'cyber-security','backend-dev','app-dev'],
+                    coding: ['programming', 'web-dev', 'mobile-dev', 'ai-ml', 'design', 'finance', 'productivity', 'logic', 'coding', 'technology', 'game-dev', 'cyber-security', 'backend-dev', 'app-dev'],
                     maths: ['mathematics']
                 };
 
