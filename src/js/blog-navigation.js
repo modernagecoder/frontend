@@ -1,18 +1,18 @@
 // Blog Navigation JavaScript
 // Handles navigation and interactions for Modern Age Coders blog pages
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Initialize mobile menu
     initializeMobileMenu();
-    
+
     // Initialize smooth scrolling
     initializeSmoothScrolling();
-    
+
     // Initialize reading progress indicator (if on blog detail page)
     if (document.body.classList.contains('blog-detail-page')) {
         initializeReadingProgress();
     }
-    
+
     // Initialize blog card navigation
     initializeBlogCardNavigation();
 });
@@ -23,15 +23,15 @@ document.addEventListener('DOMContentLoaded', function() {
 function initializeMobileMenu() {
     const mobileMenuBtn = document.getElementById('mobileMenuBtn');
     const navMenu = document.getElementById('navMenu');
-    
+
     if (mobileMenuBtn && navMenu) {
-        mobileMenuBtn.addEventListener('click', function() {
+        mobileMenuBtn.addEventListener('click', function () {
             navMenu.classList.toggle('active');
             mobileMenuBtn.classList.toggle('open');
         });
-        
+
         // Close menu when clicking outside
-        document.addEventListener('click', function(event) {
+        document.addEventListener('click', function (event) {
             if (!event.target.closest('.nav-container')) {
                 navMenu.classList.remove('active');
                 mobileMenuBtn.classList.remove('open');
@@ -70,16 +70,16 @@ function initializeReadingProgress() {
     progressBar.className = 'reading-progress';
     progressBar.innerHTML = '<div class="reading-progress-bar"></div>';
     document.body.appendChild(progressBar);
-    
+
     const progressBarFill = progressBar.querySelector('.reading-progress-bar');
-    
+
     // Update progress on scroll
-    window.addEventListener('scroll', function() {
+    window.addEventListener('scroll', function () {
         const windowHeight = window.innerHeight;
         const documentHeight = document.documentElement.scrollHeight - windowHeight;
         const scrolled = window.scrollY;
         const progress = (scrolled / documentHeight) * 100;
-        
+
         progressBarFill.style.width = Math.min(progress, 100) + '%';
     });
 }
@@ -89,30 +89,22 @@ function initializeReadingProgress() {
  */
 function initializeBlogCardNavigation() {
     const blogCards = document.querySelectorAll('.blog-card[data-blog-url]');
-    
+
     blogCards.forEach(card => {
         card.style.cursor = 'pointer';
-        
-        card.addEventListener('click', function(e) {
+
+        card.addEventListener('click', function (e) {
             // Don't navigate if clicking on a button or link
-            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' ||
                 e.target.closest('a') || e.target.closest('button')) {
                 return;
             }
-            
+
             const blogUrl = this.getAttribute('data-blog-url');
             if (blogUrl) {
-                // Check if we're on the listing page or a blog post page
-                const pathname = window.location.pathname;
-                const isListingPage = pathname.endsWith('/generated/') || pathname.endsWith('/generated/index.html');
-                
-                if (isListingPage) {
-                    // We're on the listing page, navigate to blog post
-                    window.location.href = `${blogUrl}/`;
-                } else {
-                    // We're on a blog post page, navigate to sibling
-                    window.location.href = `../${blogUrl}/`;
-                }
+                // Use absolute path to /blog/{slug}/ for consistent navigation
+                // This works in both development (/content/blog/generated/) and production (/blog/)
+                window.location.href = `/blog/${blogUrl}/`;
             }
         });
     });
