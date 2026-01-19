@@ -4,49 +4,49 @@
  */
 
 const SummerCampEnrollment = {
-    courseName: 'Summer Coding Camp',
-    coursePrice: 4999,
+  courseName: 'Summer Coding Camp',
+  coursePrice: 4999,
 
-    // API URL - auto-detect local vs production
-    getApiUrl: function () {
-        const isLocal = window.location.hostname === 'localhost'
-            || window.location.hostname === '127.0.0.1'
-            || window.location.hostname === ''
-            || window.location.protocol === 'file:';
-        return isLocal ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
-    },
+  // API URL - auto-detect local vs production
+  getApiUrl: function () {
+    const isLocal = window.location.hostname === 'localhost'
+      || window.location.hostname === '127.0.0.1'
+      || window.location.hostname === ''
+      || window.location.protocol === 'file:';
+    return isLocal ? 'http://localhost:5000' : 'https://backend-modernagecoders.vercel.app';
+  },
 
-    init() {
-        // Detect which track based on page
-        const path = window.location.pathname;
-        if (path.includes('kids')) {
-            this.courseName = 'Summer Coding Camp - Kids Track (Ages 6-12)';
-        } else if (path.includes('teens')) {
-            this.courseName = 'Summer Coding Camp - Teens Track (Ages 12-17)';
-        } else if (path.includes('adults')) {
-            this.courseName = 'Summer Coding Camp - Adults Track (18+)';
-        }
+  init() {
+    // Detect which track based on page
+    const path = window.location.pathname;
+    if (path.includes('kids')) {
+      this.courseName = 'Summer Coding Camp - Kids Track (Ages 6-12)';
+    } else if (path.includes('teens')) {
+      this.courseName = 'Summer Coding Camp - Teens Track (Ages 12-17)';
+    } else if (path.includes('adults')) {
+      this.courseName = 'Summer Coding Camp - Adults Track (18+)';
+    }
 
-        this.setupEnrollButtons();
-        this.addModalStyles();
-    },
+    this.setupEnrollButtons();
+    this.addModalStyles();
+  },
 
-    setupEnrollButtons() {
-        // Find all Enroll buttons in pricing cards
-        const enrollButtons = document.querySelectorAll('.pricing-card .btn-premium-solid, [data-enroll-camp]');
-        enrollButtons.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                this.openEnrollmentModal();
-            });
-        });
-    },
+  setupEnrollButtons() {
+    // Find all Enroll buttons in pricing cards
+    const enrollButtons = document.querySelectorAll('.pricing-card .btn-premium-solid, [data-enroll-camp]');
+    enrollButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        this.openEnrollmentModal();
+      });
+    });
+  },
 
-    openEnrollmentModal() {
-        // Close any existing modals
-        this.closeAll();
+  openEnrollmentModal() {
+    // Close any existing modals
+    this.closeAll();
 
-        const modalHTML = `
+    const modalHTML = `
       <div id="summerCampEnrollModal" class="summer-camp-modal-overlay">
         <div class="summer-camp-modal-container">
           <button class="summer-camp-modal-close" onclick="SummerCampEnrollment.close()">
@@ -193,25 +193,25 @@ const SummerCampEnrollment = {
       </div>
     `;
 
-        document.body.insertAdjacentHTML('beforeend', modalHTML);
-        document.body.style.overflow = 'hidden';
+    document.body.insertAdjacentHTML('beforeend', modalHTML);
+    document.body.style.overflow = 'hidden';
 
-        // Close on overlay click
-        const overlay = document.getElementById('summerCampEnrollModal');
-        overlay.addEventListener('click', (e) => {
-            if (e.target === overlay) {
-                this.close();
-            }
-        });
-
-        // Close on Escape key
-        document.addEventListener('keydown', this.handleEscape);
-    },
-
-    showPaymentForm() {
+    // Close on overlay click
+    const overlay = document.getElementById('summerCampEnrollModal');
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
         this.close();
+      }
+    });
 
-        const formHTML = `
+    // Close on Escape key
+    document.addEventListener('keydown', this.handleEscape);
+  },
+
+  showPaymentForm() {
+    this.close();
+
+    const formHTML = `
       <div id="summerCampPaymentModal" class="summer-camp-modal-overlay">
         <div class="summer-camp-modal-container payment-form-container">
           <button class="summer-camp-modal-close" onclick="SummerCampEnrollment.closePayment()">
@@ -256,133 +256,133 @@ const SummerCampEnrollment = {
       </div>
     `;
 
-        document.body.insertAdjacentHTML('beforeend', formHTML);
-        document.body.style.overflow = 'hidden';
+    document.body.insertAdjacentHTML('beforeend', formHTML);
+    document.body.style.overflow = 'hidden';
 
-        // Setup form submission
-        document.getElementById('summer-camp-payment-form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            this.processPayment();
-        });
+    // Setup form submission
+    document.getElementById('summer-camp-payment-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      this.processPayment();
+    });
 
-        // Close on overlay click
-        const overlay = document.getElementById('summerCampPaymentModal');
-        overlay.addEventListener('click', (e) => {
-            if (e.target === overlay) {
-                this.closePayment();
-            }
-        });
-    },
+    // Close on overlay click
+    const overlay = document.getElementById('summerCampPaymentModal');
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        this.closePayment();
+      }
+    });
+  },
 
-    async processPayment() {
-        const name = document.getElementById('sc-name').value.trim();
-        const email = document.getElementById('sc-email').value.trim();
-        const phone = document.getElementById('sc-phone').value.trim();
+  async processPayment() {
+    const name = document.getElementById('sc-name').value.trim();
+    const email = document.getElementById('sc-email').value.trim();
+    const phone = document.getElementById('sc-phone').value.trim();
 
-        // Validate
-        if (!name || !email || !phone) {
-            alert('Please fill all fields');
-            return;
-        }
+    // Validate
+    if (!name || !email || !phone) {
+      alert('Please fill all fields');
+      return;
+    }
 
-        if (!/^[0-9]{10}$/.test(phone)) {
-            alert('Please enter a valid 10-digit phone number');
-            return;
-        }
+    if (!/^[0-9]{10}$/.test(phone)) {
+      alert('Please enter a valid 10-digit phone number');
+      return;
+    }
 
-        const submitBtn = document.getElementById('sc-submit-btn');
+    const submitBtn = document.getElementById('sc-submit-btn');
 
-        try {
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Processing...';
+    try {
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Processing...';
 
-            const apiUrl = this.getApiUrl();
-            const response = await fetch(`${apiUrl}/api/payment/create-order`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    amount: this.coursePrice,
-                    productType: 'summer-camp',
-                    productId: 'summer-coding-camp-2026',
-                    productName: this.courseName,
-                    customerName: name,
-                    customerEmail: email,
-                    customerPhone: phone
-                })
-            });
+      const apiUrl = this.getApiUrl();
+      const response = await fetch(`${apiUrl}/api/payment/create-order`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          amount: this.coursePrice,
+          productType: 'course',
+          productId: 'summer-coding-camp-2026',
+          productName: this.courseName,
+          customerName: name,
+          customerEmail: email,
+          customerPhone: phone
+        })
+      });
 
-            const data = await response.json();
+      const data = await response.json();
 
-            if (!data.success) {
-                throw new Error(data.error || 'Failed to create order');
-            }
+      if (!data.success) {
+        throw new Error(data.error || 'Failed to create order');
+      }
 
-            // Open Razorpay checkout
-            const options = {
-                key: data.key,
-                amount: data.order.amount,
-                currency: data.order.currency,
-                name: 'Modern Age Coders',
-                description: this.courseName,
-                order_id: data.order.id,
-                prefill: { name, email, contact: phone },
-                theme: { color: '#ffab4c' },
-                handler: async (response) => {
-                    await this.verifyPayment(response, data.order.orderId);
-                },
-                modal: {
-                    ondismiss: () => {
-                        submitBtn.disabled = false;
-                        submitBtn.textContent = 'Pay ₹4,999';
-                    }
-                }
-            };
-
-            const razorpay = new Razorpay(options);
-            razorpay.on('payment.failed', (resp) => {
-                alert('Payment failed: ' + resp.error.description);
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Pay ₹4,999';
-            });
-            razorpay.open();
-
-        } catch (error) {
-            console.error('Payment error:', error);
-            alert('Payment failed: ' + error.message);
+      // Open Razorpay checkout
+      const options = {
+        key: data.key,
+        amount: data.order.amount,
+        currency: data.order.currency,
+        name: 'Modern Age Coders',
+        description: this.courseName,
+        order_id: data.order.id,
+        prefill: { name, email, contact: phone },
+        theme: { color: '#ffab4c' },
+        handler: async (response) => {
+          await this.verifyPayment(response, data.order.orderId);
+        },
+        modal: {
+          ondismiss: () => {
             submitBtn.disabled = false;
-            submitBtn.textContent = 'Try Again';
+            submitBtn.textContent = 'Pay ₹4,999';
+          }
         }
-    },
+      };
 
-    async verifyPayment(razorpayResponse, orderId) {
-        try {
-            const apiUrl = this.getApiUrl();
-            const response = await fetch(`${apiUrl}/api/payment/verify`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    razorpay_order_id: razorpayResponse.razorpay_order_id,
-                    razorpay_payment_id: razorpayResponse.razorpay_payment_id,
-                    razorpay_signature: razorpayResponse.razorpay_signature
-                })
-            });
+      const razorpay = new Razorpay(options);
+      razorpay.on('payment.failed', (resp) => {
+        alert('Payment failed: ' + resp.error.description);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Pay ₹4,999';
+      });
+      razorpay.open();
 
-            const data = await response.json();
+    } catch (error) {
+      console.error('Payment error:', error);
+      alert('Payment failed: ' + error.message);
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Try Again';
+    }
+  },
 
-            if (data.success) {
-                this.closePayment();
-                this.showSuccessMessage(data.payment);
-            } else {
-                throw new Error(data.error || 'Verification failed');
-            }
-        } catch (error) {
-            console.error('Verification error:', error);
-            alert('Payment verification failed. Please contact support with your payment ID.');
-        }
-    },
+  async verifyPayment(razorpayResponse, orderId) {
+    try {
+      const apiUrl = this.getApiUrl();
+      const response = await fetch(`${apiUrl}/api/payment/verify`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          razorpay_order_id: razorpayResponse.razorpay_order_id,
+          razorpay_payment_id: razorpayResponse.razorpay_payment_id,
+          razorpay_signature: razorpayResponse.razorpay_signature
+        })
+      });
 
-    showSuccessMessage(payment) {
-        const successHtml = `
+      const data = await response.json();
+
+      if (data.success) {
+        this.closePayment();
+        this.showSuccessMessage(data.payment);
+      } else {
+        throw new Error(data.error || 'Verification failed');
+      }
+    } catch (error) {
+      console.error('Verification error:', error);
+      alert('Payment verification failed. Please contact support with your payment ID.');
+    }
+  },
+
+  showSuccessMessage(payment) {
+    const successHtml = `
       <div id="summerCampSuccessModal" class="summer-camp-modal-overlay">
         <div class="summer-camp-modal-container success-container">
           <div class="success-icon">✓</div>
@@ -397,42 +397,42 @@ const SummerCampEnrollment = {
         </div>
       </div>
     `;
-        document.body.insertAdjacentHTML('beforeend', successHtml);
-    },
+    document.body.insertAdjacentHTML('beforeend', successHtml);
+  },
 
-    close() {
-        const modal = document.getElementById('summerCampEnrollModal');
-        if (modal) modal.remove();
-        document.body.style.overflow = '';
-        document.removeEventListener('keydown', this.handleEscape);
-    },
+  close() {
+    const modal = document.getElementById('summerCampEnrollModal');
+    if (modal) modal.remove();
+    document.body.style.overflow = '';
+    document.removeEventListener('keydown', this.handleEscape);
+  },
 
-    closePayment() {
-        const modal = document.getElementById('summerCampPaymentModal');
-        if (modal) modal.remove();
-        document.body.style.overflow = '';
-    },
+  closePayment() {
+    const modal = document.getElementById('summerCampPaymentModal');
+    if (modal) modal.remove();
+    document.body.style.overflow = '';
+  },
 
-    closeAll() {
-        ['summerCampEnrollModal', 'summerCampPaymentModal', 'summerCampSuccessModal'].forEach(id => {
-            const modal = document.getElementById(id);
-            if (modal) modal.remove();
-        });
-        document.body.style.overflow = '';
-    },
+  closeAll() {
+    ['summerCampEnrollModal', 'summerCampPaymentModal', 'summerCampSuccessModal'].forEach(id => {
+      const modal = document.getElementById(id);
+      if (modal) modal.remove();
+    });
+    document.body.style.overflow = '';
+  },
 
-    handleEscape(e) {
-        if (e.key === 'Escape') {
-            SummerCampEnrollment.closeAll();
-        }
-    },
+  handleEscape(e) {
+    if (e.key === 'Escape') {
+      SummerCampEnrollment.closeAll();
+    }
+  },
 
-    addModalStyles() {
-        if (document.getElementById('summer-camp-modal-styles')) return;
+  addModalStyles() {
+    if (document.getElementById('summer-camp-modal-styles')) return;
 
-        const styles = document.createElement('style');
-        styles.id = 'summer-camp-modal-styles';
-        styles.textContent = `
+    const styles = document.createElement('style');
+    styles.id = 'summer-camp-modal-styles';
+    styles.textContent = `
       .summer-camp-modal-overlay {
         position: fixed;
         top: 0;
@@ -843,15 +843,15 @@ const SummerCampEnrollment = {
         }
       }
     `;
-        document.head.appendChild(styles);
-    }
+    document.head.appendChild(styles);
+  }
 };
 
 // Auto-initialize when DOM is ready
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', () => SummerCampEnrollment.init());
+  document.addEventListener('DOMContentLoaded', () => SummerCampEnrollment.init());
 } else {
-    SummerCampEnrollment.init();
+  SummerCampEnrollment.init();
 }
 
 // Export for global use
