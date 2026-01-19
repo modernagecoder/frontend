@@ -7,6 +7,9 @@
 /js/* /src/js/:splat 200
 /images/* /public/images/:splat 200
 /admin/* /src/admin/:splat 200
+/pages/*.gif /src/pages/:splat 200
+/pages/*.png /src/pages/:splat 200
+/pages/*.jpg /src/pages/:splat 200
 
 # LLMs.txt for AI assistants
 /llms.txt /llms.txt 200
