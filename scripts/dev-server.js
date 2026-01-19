@@ -25,12 +25,12 @@ const mimeTypes = {
 function resolveFilePath(url) {
     // Remove query string
     const urlPath = url.split('?')[0];
-    
+
     // Root
     if (urlPath === '/') {
         return 'src/pages/index.html';
     }
-    
+
     // Clean URLs
     if (urlPath === '/about') return 'src/pages/about.html';
     if (urlPath === '/about.html') return 'src/pages/about.html';
@@ -49,8 +49,9 @@ function resolveFilePath(url) {
     if (urlPath === '/student-labs') return 'src/pages/student-labs.html';
     if (urlPath === '/projects') return 'src/pages/projects.html';
     if (urlPath === '/love') return 'lovewall/dist/index.html';
+    if (urlPath === '/summer-coding-camp') return 'src/pages/summer-coding-camp.html';
     if (urlPath === '/index.html') return 'src/pages/index.html';
-    
+
     // Static assets - check multiple locations
     if (urlPath.startsWith('/css/')) {
         // First check src/css, then css folder
@@ -89,12 +90,12 @@ function resolveFilePath(url) {
     if (urlPath.startsWith('/admin/')) {
         return urlPath.replace('/admin/', 'src/admin/');
     }
-    
+
     // Lovewall assets (serve from dist folder)
     if (urlPath.startsWith('/assets/')) {
         return 'lovewall/dist' + urlPath;
     }
-    
+
     // Blog
     if (urlPath === '/blog') {
         return 'content/blog/generated/index.html';
@@ -102,40 +103,40 @@ function resolveFilePath(url) {
     if (urlPath.startsWith('/blog/')) {
         return urlPath.replace('/blog/', 'content/blog/generated/') + '/index.html';
     }
-    
+
     // Course category pages (must come before individual courses)
     if (urlPath.startsWith('/courses/coding/') || urlPath.startsWith('/courses/mathematics/')) {
         return 'src/pages/course.html';
     }
-    
+
     // Course static assets (CSS, JS, images from course folders)
     if (urlPath.startsWith('/content/courses/generated/')) {
         return urlPath.substring(1); // Remove leading slash
     }
-    
+
     // Individual course pages
     if (urlPath.startsWith('/courses/')) {
         return urlPath.replace('/courses/', 'content/courses/generated/') + '/index.html';
     }
-    
+
     // Default: try to serve the file directly
     return urlPath.substring(1);
 }
 
 const server = http.createServer((req, res) => {
     let filePath = resolveFilePath(req.url);
-    
+
     // Debug logging
     console.log(`Request: ${req.url} -> ${filePath}`);
-    
+
     // If directory, try index.html
     if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
         filePath = path.join(filePath, 'index.html');
     }
-    
+
     const ext = path.extname(filePath).toLowerCase();
     const contentType = mimeTypes[ext] || 'application/octet-stream';
-    
+
     fs.readFile(filePath, (err, content) => {
         if (err) {
             if (err.code === 'ENOENT') {

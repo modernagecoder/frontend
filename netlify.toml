@@ -199,6 +199,11 @@
   status = 200
 
 [[redirects]]
+  from = "/summer-coding-camp"
+  to = "/src/pages/summer-coding-camp.html"
+  status = 200
+
+[[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
   status = 200
