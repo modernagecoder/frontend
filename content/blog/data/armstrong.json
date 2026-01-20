@@ -1,0 +1,578 @@
+{
+  "meta": {
+    "slug": "armstrong-number-python-complete-guide-examples-code",
+    "title": "Armstrong Number in Python: Complete Guide with Examples and Code",
+    "description": "Master Armstrong numbers in Python with examples, code snippets, and exercises. Perfect for beginners and interview prep.",
+    "keywords": [
+      "armstrong number python",
+      "armstrong number program",
+      "python armstrong number",
+      "narcissistic number",
+      "armstrong number code",
+      "python programming",
+      "coding interview questions",
+      "python exercises"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-01-18",
+    "dateModified": "2026-01-18",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Programming",
+      "Mathematics",
+      "Coding Exercises",
+      "Algorithm"
+    ],
+    "readTime": "10 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "Armstrong Number in Python: Complete Guide with Examples and Code",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/Armstrong%20Number%20IN%20Python!",
+      "alt": "Armstrong Number in Python: Complete Guide with Examples and Code"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "Armstrong numbers are fascinating mathematical concepts that make excellent Python programming practice. Whether you're a student learning Python basics or preparing for coding interviews, understanding Armstrong numbers helps you master loops, mathematical operations, and algorithmic thinking."
+      },
+      {
+        "type": "paragraph",
+        "text": "In this comprehensive guide, you'll learn exactly what Armstrong numbers are, why they matter in programming, and how to work with them in Python. We'll walk through multiple approaches—from simple beginner-friendly code to optimized solutions."
+      },
+      {
+        "type": "paragraph",
+        "text": "No advanced math required—just basic Python knowledge and curiosity. Let's dive in!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What is an Armstrong Number? Understanding the Concept",
+        "id": "what-is-armstrong-number"
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/What%20is%20an%20Armstrong%20Number.png",
+        "alt": "What is an Armstrong Number?",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "An Armstrong number (also called a narcissistic number or pluperfect digital invariant) is a number that equals the sum of its own digits, each raised to the power of the total number of digits."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Mathematical definition:"
+      },
+      {
+        "type": "paragraph",
+        "text": "If a number has n digits, it's an Armstrong number when the sum of each digit raised to the power n equals the original number."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Simple examples to understand:"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>153 is an Armstrong number:</strong>"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Number of digits: 3",
+          "Calculation: 1³ + 5³ + 3³ = 1 + 125 + 27 = 153",
+          "Result: 153 = 153 ✓"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>9474 is an Armstrong number:</strong>"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Number of digits: 4",
+          "Calculation: 9⁴ + 4⁴ + 7⁴ + 4⁴ = 6561 + 256 + 2401 + 256 = 9474",
+          "Result: 9474 = 9474 ✓"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>123 is NOT an Armstrong number:</strong>"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Number of digits: 3",
+          "Calculation: 1³ + 2³ + 3³ = 1 + 8 + 27 = 36",
+          "Result: 123 ≠ 36 ✗"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Important note:</strong> All single-digit numbers (0-9) are Armstrong numbers because each digit raised to the power of 1 equals itself. For example, 5¹ = 5."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "You May Also like:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='https://learn.modernagecoders.com/blog/javascript-basics' target='_blank' rel='noopener noreferrer'>JavaScript Basics</a>",
+          "<a href='https://learn.modernagecoders.com/blog/data-science-ai-math-skills-professionals' target='_blank' rel='noopener noreferrer'>Data Science, AI, and Math</a>"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why Learn Armstrong Numbers in Python?",
+        "id": "why-learn-armstrong-numbers"
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/Why%20Learn%20Armstrong%20Numbers%20in%20Python.png",
+        "alt": "Why Learn Armstrong Numbers in Python?",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "Working with Armstrong numbers provides excellent practice for fundamental Python concepts that every programmer needs."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Skills you'll develop:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Loop mastery:</strong> Both while and for loops in practical scenarios",
+          "<strong>Mathematical operations:</strong> Power calculations, modulo arithmetic, integer division",
+          "<strong>Type conversions:</strong> Switching between strings and integers effectively",
+          "<strong>Conditional logic:</strong> Using if-else statements for decision making",
+          "<strong>Algorithm design:</strong> Breaking complex problems into step-by-step solutions"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Practical benefits:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Armstrong number programs appear frequently in coding interviews, school assignments, and competitive programming. They test your ability to manipulate numbers, think logically, and write clean code."
+      },
+      {
+        "type": "paragraph",
+        "text": "The techniques you learn here—digit extraction, iterative checking, and mathematical validation—apply to countless other programming challenges."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Check if a Number is an Armstrong Number in Python?",
+        "id": "check-armstrong-number-python"
+      },
+      {
+        "type": "image",
+        "url": "https://ik.imagekit.io/qnvuzyjls/Armstrong%20number%20in%20python/How%20to%20Check%20if%20a%20Number%20is%20an%20Armstrong%20Number%20in%20Python.png",
+        "alt": "How to Check if a Number is an Armstrong Number in Python",
+        "caption": ""
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's explore three different methods to check Armstrong numbers, each with its own advantages."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Method 1: Using While Loop (Traditional Approach)"
+      },
+      {
+        "type": "paragraph",
+        "text": "This method extracts digits using mathematical operations—the classic algorithm approach."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_armstrong_while(number):\n    # Store original number\n    original = number\n    sum_of_powers = 0\n    \n    # Count number of digits\n    num_digits = len(str(number))\n    \n    # Extract digits and calculate sum\n    while number > 0:\n        digit = number % 10  # Get last digit\n        sum_of_powers += digit ** num_digits\n        number = number // 10  # Remove last digit\n    \n    # Check if sum equals original number\n    return sum_of_powers == original\n\n# Test the function\nprint(is_armstrong_while(153))   # True\nprint(is_armstrong_while(123))   # False"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "How it works:"
+      },
+      {
+        "type": "list",
+        "style": "ordered",
+        "items": [
+          "Store the original number for comparison",
+          "Count digits by converting to string temporarily",
+          "Extract each digit using modulo (%) to get the last digit",
+          "Add digit raised to power to running sum",
+          "Remove last digit using integer division (//)",
+          "Compare final sum with original number"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Method 2: Using String Conversion (Simpler Approach)"
+      },
+      {
+        "type": "paragraph",
+        "text": "This method is more readable and easier for beginners to understand."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_armstrong_string(number):\n    # Convert to string to easily access each digit\n    digits = str(number)\n    num_digits = len(digits)\n    \n    # Calculate sum of each digit raised to power\n    sum_of_powers = sum(int(digit) ** num_digits for digit in digits)\n    \n    return sum_of_powers == number\n\n# Test the function\nprint(is_armstrong_string(370))   # True\nprint(is_armstrong_string(400))   # False"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Advantages:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "More concise and readable code",
+          "Uses Python's string iteration naturally",
+          "List comprehension makes it elegant",
+          "Fewer variables to track"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>When to use:</strong> Great for learning and quick implementations. The while loop method is better for understanding the mathematical approach."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Method 3: Complete Program with User Input"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here's a practical program users can interact with."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def check_armstrong(number):\n    digits = str(number)\n    num_digits = len(digits)\n    sum_of_powers = sum(int(d) ** num_digits for d in digits)\n    return sum_of_powers == number\n\n# Main program\nnum = int(input(\"Enter a number: \"))\n\nif check_armstrong(num):\n    print(f\"{num} is an Armstrong number!\")\nelse:\n    print(f\"{num} is not an Armstrong number.\")"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Python Program to Find Armstrong Numbers in a Range",
+        "id": "armstrong-numbers-in-range"
+      },
+      {
+        "type": "paragraph",
+        "text": "Finding all Armstrong numbers within a specific range requires checking each number systematically."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_armstrong_in_range(start, end):\n    armstrong_numbers = []\n    \n    for num in range(start, end + 1):\n        # Convert to string to get digits\n        digits = str(num)\n        num_digits = len(digits)\n        \n        # Calculate sum of powers\n        sum_of_powers = sum(int(d) ** num_digits for d in digits)\n        \n        # Check if Armstrong number\n        if sum_of_powers == num:\n            armstrong_numbers.append(num)\n    \n    return armstrong_numbers\n\n# Find all Armstrong numbers between 1 and 1000\nresult = find_armstrong_in_range(1, 1000)\nprint(\"Armstrong numbers between 1 and 1000:\")\nprint(result)"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Output:</strong>"
+      },
+      {
+        "type": "code",
+        "language": "text",
+        "code": "Armstrong numbers between 1 and 1000:\n[1, 2, 3, 4, 5, 6, 7, 8, 9, 153, 370, 371, 407]"
+      },
+      {
+        "type": "paragraph",
+        "text": "This program efficiently checks every number in the range and stores Armstrong numbers in a list for easy access."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "List of Armstrong Numbers (Complete Reference)",
+        "id": "armstrong-numbers-list"
+      },
+      {
+        "type": "paragraph",
+        "text": "Armstrong numbers become increasingly rare as digits increase. Here's a complete reference:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>1-digit Armstrong numbers (10 total):</strong> 0, 1, 2, 3, 4, 5, 6, 7, 8, 9",
+          "<strong>3-digit Armstrong numbers (4 total):</strong> 153, 370, 371, 407",
+          "<strong>4-digit Armstrong numbers (3 total):</strong> 1634, 8208, 9474",
+          "<strong>5-digit Armstrong numbers (3 total):</strong> 54748, 92727, 93084",
+          "<strong>6-digit Armstrong numbers (1 total):</strong> 548834"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Note:</strong> There are no 2-digit Armstrong numbers. There are exactly 88 Armstrong numbers in total across all digit lengths, with the largest being 39 digits long."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Advanced Armstrong Number Programs",
+        "id": "advanced-armstrong-programs"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Finding First N Armstrong Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "This program generates the first N Armstrong numbers efficiently."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def find_n_armstrong(n):\n    armstrong_list = []\n    num = 0\n    \n    while len(armstrong_list) < n:\n        digits = str(num)\n        num_digits = len(digits)\n        sum_of_powers = sum(int(d) ** num_digits for d in digits)\n        \n        if sum_of_powers == num:\n            armstrong_list.append(num)\n        \n        num += 1\n    \n    return armstrong_list\n\n# Find first 15 Armstrong numbers\nfirst_15 = find_n_armstrong(15)\nprint(\"First 15 Armstrong numbers:\")\nprint(first_15)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Interactive Menu-Driven Program"
+      },
+      {
+        "type": "paragraph",
+        "text": "A complete program with multiple options for users."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def check_armstrong(num):\n    digits = str(num)\n    return sum(int(d) ** len(digits) for d in digits) == num\n\ndef find_in_range(start, end):\n    return [n for n in range(start, end + 1) if check_armstrong(n)]\n\ndef main():\n    while True:\n        print(\"\\n--- Armstrong Number Program ---\")\n        print(\"1. Check if a number is Armstrong\")\n        print(\"2. Find Armstrong numbers in range\")\n        print(\"3. Exit\")\n        \n        choice = input(\"Enter choice (1-3): \")\n        \n        if choice == '1':\n            num = int(input(\"Enter number: \"))\n            if check_armstrong(num):\n                print(f\"{num} is an Armstrong number!\")\n            else:\n                print(f\"{num} is not an Armstrong number.\")\n        \n        elif choice == '2':\n            start = int(input(\"Enter start: \"))\n            end = int(input(\"Enter end: \"))\n            result = find_in_range(start, end)\n            print(f\"Armstrong numbers: {result}\")\n        \n        elif choice == '3':\n            print(\"Goodbye!\")\n            break\n        \n        else:\n            print(\"Invalid choice. Try again.\")\n\n# Run the program\nif __name__ == \"__main__\":\n    main()"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Common Errors and How to Fix Them",
+        "id": "common-errors"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Type Conversion Issues"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Error:</strong> Trying to use string methods on integers or vice versa."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Wrong\nnum = 153\nfor digit in num:  # TypeError: int object is not iterable\n\n# Correct\nnum = 153\nfor digit in str(num):  # Convert to string first\n    print(digit)"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Power Calculation Mistakes"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Error:</strong> Using wrong exponent (fixed number instead of digit count)."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Wrong - always using power of 3\nsum_of_powers = sum(int(d) ** 3 for d in str(num))\n\n# Correct - using actual digit count\nnum_digits = len(str(num))\nsum_of_powers = sum(int(d) ** num_digits for d in str(num))"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Logic Errors in Digit Extraction"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Error:</strong> Not properly extracting all digits with while loop."
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "# Wrong - infinite loop\nwhile number > 0:\n    digit = number % 10\n    sum_of_powers += digit ** num_digits\n    # Missing: number = number // 10\n\n# Correct\nwhile number > 0:\n    digit = number % 10\n    sum_of_powers += digit ** num_digits\n    number = number // 10  # Remove last digit"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Practice Exercises and Challenges",
+        "id": "practice-exercises"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Beginner Level"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 1:</strong> Write a program that checks if user input is an Armstrong number and displays the calculation step-by-step."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 2:</strong> Create a function that returns True only for 3-digit Armstrong numbers."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 3:</strong> Count how many Armstrong numbers exist between 1 and 10000."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Intermediate Level"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 4:</strong> Implement an Armstrong number checker using recursion instead of loops."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 5:</strong> Create a program that finds the largest Armstrong number with exactly 4 digits."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 6:</strong> Build a function that validates user input and handles errors gracefully."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Advanced Level"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 7:</strong> Optimize the range finder to skip impossible candidates (hint: mathematical properties can eliminate certain numbers)."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 8:</strong> Create a class ArmstrongNumber with methods for checking, finding, and generating Armstrong numbers."
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>Exercise 9:</strong> Implement Armstrong number verification in different number bases (not just base 10)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Real-World Applications and Interview Questions",
+        "id": "real-world-applications"
+      },
+      {
+        "type": "paragraph",
+        "text": "Armstrong numbers frequently appear in coding interviews to test fundamental programming skills."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Common interview questions:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "\"Check if a given number is an Armstrong number\" (Basic)",
+          "\"Find all Armstrong numbers between 1 and N\" (Intermediate)",
+          "\"Generate the first N Armstrong numbers efficiently\" (Advanced)",
+          "\"Optimize your solution for very large ranges\" (Advanced)"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related mathematical concepts:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Perfect numbers:</strong> Numbers equal to sum of their divisors",
+          "<strong>Happy numbers:</strong> Numbers that eventually reach 1 through digit squaring",
+          "<strong>Kaprekar numbers:</strong> Numbers with special digit properties",
+          "<strong>Narcissistic numbers:</strong> General term for Armstrong-type numbers"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "These concepts build on similar programming techniques: digit manipulation, iterative checking, and mathematical validation."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Complete Code Example (Copy-Paste Ready)",
+        "id": "complete-code-example"
+      },
+      {
+        "type": "paragraph",
+        "text": "Here's a complete, well-documented program you can use immediately:"
+      },
+      {
+        "type": "code",
+        "language": "python",
+        "code": "def is_armstrong(number):\n    \"\"\"\n    Check if a number is an Armstrong number.\n    \n    Args:\n        number (int): The number to check\n    \n    Returns:\n        bool: True if Armstrong number, False otherwise\n    \"\"\"\n    digits = str(abs(number))  # Handle negative numbers\n    num_digits = len(digits)\n    sum_of_powers = sum(int(digit) ** num_digits for digit in digits)\n    return sum_of_powers == abs(number)\n\ndef find_armstrong_numbers(start, end):\n    \"\"\"Find all Armstrong numbers in a range.\"\"\"\n    return [n for n in range(start, end + 1) if is_armstrong(n)]\n\ndef display_calculation(number):\n    \"\"\"Show the Armstrong number calculation step by step.\"\"\"\n    digits = str(number)\n    num_digits = len(digits)\n    \n    calculation = \" + \".join(f\"{d}^{num_digits}\" for d in digits)\n    values = \" + \".join(str(int(d) ** num_digits) for d in digits)\n    total = sum(int(d) ** num_digits for d in digits)\n    \n    print(f\"\\nNumber: {number}\")\n    print(f\"Calculation: {calculation}\")\n    print(f\"Values: {values}\")\n    print(f\"Sum: {total}\")\n    print(f\"Result: {number} {'==' if total == number else '!='} {total}\")\n    print(f\"Armstrong: {is_armstrong(number)}\")\n\n# Example usage\nprint(\"=== Armstrong Number Checker ===\\n\")\n\n# Check individual numbers\ntest_numbers = [153, 370, 9474, 123, 548834]\nfor num in test_numbers:\n    display_calculation(num)\n\n# Find in range\nprint(\"\\n=== Armstrong Numbers 1-1000 ===\")\nprint(find_armstrong_numbers(1, 1000))"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "paragraph",
+        "text": "Armstrong numbers provide an excellent foundation for practicing Python programming fundamentals. Through working with these numbers, you've learned how to manipulate digits, use loops effectively, apply mathematical operations, and think algorithmically."
+      },
+      {
+        "type": "paragraph",
+        "text": "The techniques you've learned digit extraction, power calculations, and iterative checking, are building blocks for more advanced programming concepts. Whether you're preparing for coding interviews, completing school assignments, or simply practicing Python, Armstrong numbers offer valuable hands-on experience."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "Related Post:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<a href='https://learn.modernagecoders.com/blog/coding-mathematics-engineering-science' target='_blank' rel='noopener noreferrer'>Coding, Mathematics, Engineering & Science</a>",
+          "<a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>Python for Beginners</a>",
+          "<a href='https://learn.modernagecoders.com/blog/cloud-computing-explained-business-owners-without-tech-jargon' target='_blank' rel='noopener noreferrer'>Cloud Computing Explained for Business Owners Without Tech Jargon</a>"
+        ]
+      }
+    ]
+  },
+"relatedPosts": [
+    {
+      "title": "Coding, Mathematics, Engineering & Science",
+      "slug": "coding-mathematics-engineering-science"
+    },
+    {
+      "title": "Python for Beginners",
+      "slug": "python-for-beginners"
+    },
+    {
+      "title": "Cloud Computing Explained for Business Owners Without Tech Jargon",
+      "slug": "cloud-computing-explained-business-owners-without-tech-jargon"
+    }
+  ]
+}
+
