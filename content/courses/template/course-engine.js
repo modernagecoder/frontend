@@ -23,7 +23,7 @@ class CourseEngine {
         // Try to get from URL path
         const pathParts = window.location.pathname.split('/');
         const coursesIndex = pathParts.indexOf('courses');
-        
+
         if (coursesIndex !== -1 && pathParts[coursesIndex + 1]) {
             return pathParts[coursesIndex + 1];
         }
@@ -45,7 +45,7 @@ class CourseEngine {
         try {
             this.courseSlug = this.getCourseSlug();
             const response = await fetch(`../data/${this.courseSlug}.json`);
-            
+
             if (!response.ok) {
                 throw new Error(`Course data not found: ${this.courseSlug}`);
             }
@@ -66,19 +66,19 @@ class CourseEngine {
 
         // Update meta tags
         this.updateMetaTags();
-        
+
         // Update hero section
         this.updateHeroSection();
-        
+
         // Update enrollment section
         this.updateEnrollmentSection();
-        
+
         // Update about section
         this.updateAboutSection();
-        
+
         // Update curriculum section
         this.updateCurriculumSection();
-        
+
         // Update structured data
         this.updateStructuredData();
     }
@@ -88,25 +88,25 @@ class CourseEngine {
      */
     updateMetaTags() {
         const { meta } = this.courseData;
-        
+
         // Update title
         document.title = `${meta.title} - Modern Age Coders`;
-        
+
         // Update meta description
         const metaDesc = document.querySelector('meta[name="description"]');
         if (metaDesc) metaDesc.content = meta.description;
-        
+
         // Update meta keywords
         const metaKeywords = document.querySelector('meta[name="keywords"]');
         if (metaKeywords) metaKeywords.content = meta.keywords.join(', ');
-        
+
         // Update canonical URL
         const canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}`;
-        
+        if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}/`;
+
         // Update Open Graph tags
         this.updateOpenGraphTags(meta);
-        
+
         // Update Twitter Card tags
         this.updateTwitterCardTags(meta);
     }
@@ -117,13 +117,13 @@ class CourseEngine {
     updateOpenGraphTags(meta) {
         const ogUrl = document.querySelector('meta[property="og:url"]');
         if (ogUrl) ogUrl.content = `https://learn.modernagecoders.com/courses/${meta.slug}`;
-        
+
         const ogTitle = document.querySelector('meta[property="og:title"]');
         if (ogTitle) ogTitle.content = `${meta.title} - Modern Age Coders`;
-        
+
         const ogDesc = document.querySelector('meta[property="og:description"]');
         if (ogDesc) ogDesc.content = meta.description;
-        
+
         const ogImage = document.querySelector('meta[property="og:image"]');
         if (ogImage) {
             const encodedTitle = encodeURIComponent(meta.title);
@@ -137,13 +137,13 @@ class CourseEngine {
     updateTwitterCardTags(meta) {
         const twitterUrl = document.querySelector('meta[property="twitter:url"]');
         if (twitterUrl) twitterUrl.content = `https://learn.modernagecoders.com/courses/${meta.slug}`;
-        
+
         const twitterTitle = document.querySelector('meta[property="twitter:title"]');
         if (twitterTitle) twitterTitle.content = `${meta.title} - Modern Age Coders`;
-        
+
         const twitterDesc = document.querySelector('meta[property="twitter:description"]');
         if (twitterDesc) twitterDesc.content = meta.description;
-        
+
         const twitterImage = document.querySelector('meta[property="twitter:image"]');
         if (twitterImage) {
             const encodedTitle = encodeURIComponent(meta.title);
@@ -156,16 +156,16 @@ class CourseEngine {
      */
     updateHeroSection() {
         const { hero } = this.courseData;
-        
+
         const categoryEl = document.querySelector('[data-template="hero.category"]');
         if (categoryEl) categoryEl.textContent = hero.category;
-        
+
         const titleEl = document.querySelector('[data-template="hero.title"]');
         if (titleEl) titleEl.textContent = hero.title;
-        
+
         const subtitleEl = document.querySelector('[data-template="hero.subtitle"]');
         if (subtitleEl) subtitleEl.textContent = hero.subtitle;
-        
+
         // Update hero icon
         this.updateHeroIcon(hero.icon);
     }
@@ -194,15 +194,15 @@ class CourseEngine {
      */
     updateEnrollmentSection() {
         const { meta, hero } = this.courseData;
-        
+
         const enrollmentTitle = document.querySelector('[data-template="enrollment.title"]');
         if (enrollmentTitle) {
             enrollmentTitle.textContent = `Ready to Become a ${hero.title} Expert?`;
         }
-        
+
         const groupPrice = document.querySelector('[data-template="meta.price.group"]');
         if (groupPrice) groupPrice.textContent = meta.price.group;
-        
+
         const personalPrice = document.querySelector('[data-template="meta.price.personal"]');
         if (personalPrice) personalPrice.textContent = meta.price.personal;
     }
@@ -212,19 +212,19 @@ class CourseEngine {
      */
     updateAboutSection() {
         const { about } = this.courseData;
-        
+
         // Update overview
         const overviewEl = document.querySelector('[data-template="about.overview"]');
         if (overviewEl) {
             overviewEl.innerHTML = about.overview.split('\\n').map(p => `<p>${p}</p>`).join('');
         }
-        
+
         // Update skills list
         const skillsEl = document.querySelector('[data-template="about.skills"]');
         if (skillsEl) {
             skillsEl.innerHTML = about.skills.map(skill => `<li>${skill}</li>`).join('');
         }
-        
+
         // Update tools grid
         const toolsEl = document.querySelector('[data-template="about.tools"]');
         if (toolsEl) {
@@ -237,10 +237,10 @@ class CourseEngine {
      */
     updateCurriculumSection() {
         const { curriculum } = this.courseData;
-        
+
         const curriculumEl = document.querySelector('[data-template="curriculum"]');
         if (!curriculumEl) return;
-        
+
         const modulesHTML = curriculum.map(module => `
             <div class="curriculum-module">
                 <button class="module-header">
@@ -255,9 +255,9 @@ class CourseEngine {
                 </div>
             </div>
         `).join('');
-        
+
         curriculumEl.innerHTML = modulesHTML;
-        
+
         // Re-initialize accordion functionality
         this.initializeAccordion();
     }
@@ -267,7 +267,7 @@ class CourseEngine {
      */
     updateStructuredData() {
         const { meta } = this.courseData;
-        
+
         const structuredData = {
             "@context": "https://schema.org",
             "@type": "Course",
@@ -290,7 +290,7 @@ class CourseEngine {
                 "priceCurrency": "INR"
             }
         };
-        
+
         const scriptEl = document.querySelector('script[data-template="structured_data"]');
         if (scriptEl) {
             scriptEl.textContent = JSON.stringify(structuredData, null, 2);
@@ -302,16 +302,16 @@ class CourseEngine {
      */
     initializeAccordion() {
         const moduleHeaders = document.querySelectorAll('.module-header');
-        
+
         moduleHeaders.forEach(header => {
-            header.addEventListener('click', function() {
+            header.addEventListener('click', function () {
                 const module = this.parentElement;
                 const content = module.querySelector('.module-content');
                 const icon = this.querySelector('.module-icon');
-                
+
                 // Toggle active state
                 module.classList.toggle('active');
-                
+
                 // Toggle content visibility
                 if (module.classList.contains('active')) {
                     content.style.display = 'block';
@@ -329,7 +329,7 @@ class CourseEngine {
      */
     handleError(error) {
         console.error('Course Engine Error:', error);
-        
+
         // Show user-friendly error message
         const main = document.querySelector('main');
         if (main) {
