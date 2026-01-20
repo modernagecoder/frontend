@@ -27,7 +27,8 @@
 
     <!-- Twitter Card Meta Tags -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}" data-template="meta.twitter_url">
+    <meta property="twitter:url" content="https://learn.modernagecoders.com/blog/{{BLOG_SLUG}}"
+        data-template="meta.twitter_url">
     <meta property="twitter:title" content="{{BLOG_TITLE}} - Modern Age Coders" data-template="meta.twitter_title">
     <meta property="twitter:description" content="{{BLOG_DESCRIPTION}}" data-template="meta.twitter_description">
     <meta property="twitter:image" content="{{HERO_IMAGE_URL}}" data-template="meta.twitter_image">
@@ -41,7 +42,7 @@
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/blog-styles.css">
     <link rel="stylesheet" href="/css/share-button.css">
-    
+
     <!-- Mobile Blog Fixes - Inline CSS with !important to override existing styles -->
     <style>
         /* Fix button text visibility */
@@ -54,21 +55,24 @@
             color: #ffffff !important;
             text-decoration: none !important;
         }
+
         .blog-button-primary {
             background: linear-gradient(135deg, #8A2BE2, #4ecdc4) !important;
             color: #ffffff !important;
         }
+
         .blog-button-secondary {
             background: transparent !important;
             border: 2px solid #8A2BE2 !important;
             color: #8A2BE2 !important;
         }
+
         .blog-button:hover,
         .blog-button-primary:hover {
             color: #ffffff !important;
             opacity: 0.9 !important;
         }
-        
+
         /* Fix blog content width on mobile - make it wider */
         @media (max-width: 768px) {
             .blog-content-section {
@@ -78,25 +82,30 @@
                 padding-right: 10px !important;
                 margin: 0 auto !important;
             }
+
             .blog-content {
                 width: 100% !important;
                 max-width: 100% !important;
                 padding: 0 5px !important;
             }
+
             .blog-hero {
                 width: 95% !important;
                 max-width: 100% !important;
                 padding-left: 10px !important;
                 padding-right: 10px !important;
             }
+
             .blog-hero-content {
                 width: 100% !important;
                 padding: 0 5px !important;
             }
+
             article.blog-content {
                 width: 100% !important;
                 max-width: 100% !important;
             }
+
             /* Fix hamburger menu button cropping */
             .mobile-menu-btn {
                 min-width: 44px !important;
@@ -108,15 +117,18 @@
                 overflow: visible !important;
                 flex-shrink: 0 !important;
             }
+
             .mobile-menu-btn span {
                 width: 24px !important;
                 height: 3px !important;
                 display: block !important;
             }
+
             .nav-container {
                 padding-right: 10px !important;
                 overflow: visible !important;
             }
+
             .navbar {
                 overflow: visible !important;
             }
@@ -133,8 +145,9 @@
             <div class="navbar">
                 <div class="nav-container">
                     <a href="/blog" class="back-button" title="Back to Blog">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M19 12H5M12 19l-7-7 7-7"/>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M19 12H5M12 19l-7-7 7-7" />
                         </svg>
                     </a>
                     <a href="/" class="logo">
@@ -172,7 +185,8 @@
                                 <a href="/login?type=teacher" class="dropdown-item">Teacher Login</a>
                             </div>
                         </li>
-                        <li class="nav-item" style="margin-left: 10px;"><a href="/courses" class="cta-button">Start Learning</a></li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="/courses" class="cta-button">Start
+                                Learning</a></li>
                     </ul>
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                         <span></span>
@@ -213,7 +227,7 @@
             <article class="blog-content" data-template="content">
                 {{BLOG_CONTENT}}
             </article>
-            
+
             <!-- Author Bio Section -->
             <div class="author-bio-section">
                 <img src="{{BLOG_AUTHOR_AVATAR}}" alt="{{BLOG_AUTHOR_NAME}}" class="author-bio-avatar" loading="lazy">
@@ -222,7 +236,7 @@
                     <p>{{BLOG_AUTHOR_BIO}}</p>
                 </div>
             </div>
-            
+
             <!-- Related Posts Section -->
             <div class="related-posts-section" data-template="related">
                 <h2>Related Articles</h2>
@@ -237,10 +251,11 @@
     <script src="/js/navigation.js"></script>
     <script src="/js/blog-navigation.js"></script>
     <script src="/js/blog-interactive.js"></script>
-    
+
     <!-- Load Mobile Navigation JavaScript -->
+    <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
-    
+
     <!-- Load Share Button JavaScript -->
     <script src="/js/share-button.js"></script>
 </body>

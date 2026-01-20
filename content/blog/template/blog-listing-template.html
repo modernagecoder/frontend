@@ -7,8 +7,10 @@
     <title>Blog - Modern Age Coders</title>
 
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Explore our latest articles on coding, programming, and technology education for all ages. Learn from expert insights and tutorials.">
-    <meta name="keywords" content="coding blog, programming tutorials, technology education, STEM learning, web development, software engineering">
+    <meta name="description"
+        content="Explore our latest articles on coding, programming, and technology education for all ages. Learn from expert insights and tutorials.">
+    <meta name="keywords"
+        content="coding blog, programming tutorials, technology education, STEM learning, web development, software engineering">
     <meta name="author" content="Modern Age Coders">
     <link rel="canonical" href="https://learn.modernagecoders.com/blog">
 
@@ -22,18 +24,20 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/blog">
     <meta property="og:title" content="Blog - Modern Age Coders">
-    <meta property="og:description" content="Explore our latest articles on coding, programming, and technology education for all ages.">
+    <meta property="og:description"
+        content="Explore our latest articles on coding, programming, and technology education for all ages.">
     <meta property="og:image" content="https://placehold.co/1200x630/8A2BE2/FFFFFF?text=Modern+Age+Coders+Blog">
 
     <!-- Twitter Card Meta Tags -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://learn.modernagecoders.com/blog">
     <meta property="twitter:title" content="Blog - Modern Age Coders">
-    <meta property="twitter:description" content="Explore our latest articles on coding, programming, and technology education for all ages.">
+    <meta property="twitter:description"
+        content="Explore our latest articles on coding, programming, and technology education for all ages.">
     <meta property="twitter:image" content="https://placehold.co/1200x600/8A2BE2/FFFFFF?text=Modern+Age+Coders+Blog">
 
     <link rel="stylesheet" href="/css/style.css">
-    
+
     <!-- Mobile Blog Fixes - Inline CSS with !important to override existing styles -->
     <style>
         /* Fix hamburger menu button cropping on mobile */
@@ -48,15 +52,18 @@
                 overflow: visible !important;
                 flex-shrink: 0 !important;
             }
+
             .mobile-menu-btn span {
                 width: 24px !important;
                 height: 3px !important;
                 display: block !important;
             }
+
             .nav-container {
                 padding-right: 10px !important;
                 overflow: visible !important;
             }
+
             .navbar {
                 overflow: visible !important;
             }
@@ -99,12 +106,13 @@
                         <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="/blog" class="nav-link active">Blog</a></li>
                         <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-                      <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
                         <li class="nav-item dropdown">
                             <a href="/login" class="nav-link login-btn">Login</a>
-            
+
                         </li>
-                        <li class="nav-item" style="margin-left: 10px;"><a href="/courses" class="cta-button">Start Learning</a></li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="/courses" class="cta-button">Start
+                                Learning</a></li>
                     </ul>
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                         <span></span>
@@ -141,19 +149,19 @@
     <script src="/js/navigation.js"></script>
     <script>
         // Add click handlers for blog cards
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const blogCards = document.querySelectorAll('.blog-card[data-blog-url]');
-            
+
             blogCards.forEach(card => {
                 card.style.cursor = 'pointer';
-                
-                card.addEventListener('click', function(e) {
+
+                card.addEventListener('click', function (e) {
                     // Don't navigate if clicking on a link or button
-                    if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
+                    if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' ||
                         e.target.closest('a') || e.target.closest('button')) {
                         return;
                     }
-                    
+
                     const blogUrl = this.getAttribute('data-blog-url');
                     if (blogUrl) {
                         window.location.href = `/blog/${blogUrl}`;
@@ -162,6 +170,10 @@
             });
         });
     </script>
+
+    <!-- Mobile Navigation -->
+    <script src="/js/unified-mobile-nav.js"></script>
+    <script src="/js/mobile-navigation.js"></script>
 </body>
 
 </html>
