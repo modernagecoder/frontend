@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Modern Age Coders</title>
-    
+
     <meta name="description" content="Login to Modern Age Coders - Access your student or teacher dashboard">
     <meta name="robots" content="noindex, nofollow">
-    
+
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
@@ -16,20 +17,22 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
     <meta name="theme-color" content="#a855f7">
-    
+
     <!-- Main CSS for navigation and footer -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-    
+
     <style>
         /* Ensure navigation and footer display properly */
-        header, nav, footer {
+        header,
+        nav,
+        footer {
             display: block !important;
             position: relative !important;
         }
-        
+
         header {
             position: fixed !important;
             top: 0 !important;
@@ -39,29 +42,33 @@
             background: rgba(10, 10, 20, 0.95) !important;
             backdrop-filter: blur(10px) !important;
         }
-        
+
         /* Reset and Base Styles with !important to override external CSS */
-        html, body {
+        html,
+        body {
             margin: 0 !important;
             padding: 0 !important;
             box-sizing: border-box !important;
             width: 100% !important;
             min-height: 100% !important;
         }
-        
-        *, *::before, *::after {
+
+        *,
+        *::before,
+        *::after {
             box-sizing: border-box !important;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif !important;
             line-height: 1.6 !important;
             background: linear-gradient(135deg, #0a0a14 0%, #1a1a2e 50%, #16213e 100%) !important;
             min-height: 100vh !important;
             overflow-x: hidden !important;
-            padding-top: 80px !important; /* Space for fixed navigation */
+            padding-top: 80px !important;
+            /* Space for fixed navigation */
         }
-        
+
         /* Login Page Container */
         .login-page {
             min-height: calc(100vh - 80px) !important;
@@ -73,7 +80,7 @@
             overflow: hidden !important;
             background: linear-gradient(135deg, #0a0a14 0%, #1a1a2e 50%, #16213e 100%) !important;
         }
-        
+
         /* Animated background effect */
         .login-page::before {
             content: '' !important;
@@ -86,12 +93,17 @@
             animation: rotate 20s linear infinite !important;
             z-index: 0 !important;
         }
-        
+
         @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
         }
-        
+
         /* Login Container */
         .login-container {
             width: 100% !important;
@@ -104,13 +116,13 @@
             position: relative !important;
             z-index: 10 !important;
         }
-        
+
         /* Header Section */
         .login-header {
             text-align: center !important;
             margin-bottom: 2.5rem !important;
         }
-        
+
         .login-logo {
             width: 90px !important;
             height: 90px !important;
@@ -123,13 +135,13 @@
             /* box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4) !important; */
             padding: 0.75rem !important;
         }
-        
+
         .login-logo img {
             width: 100% !important;
             height: 100% !important;
             object-fit: contain !important;
         }
-        
+
         .login-title {
             font-size: 2.25rem !important;
             margin-bottom: 0.75rem !important;
@@ -137,13 +149,13 @@
             font-weight: 700 !important;
             letter-spacing: -0.5px !important;
         }
-        
+
         .login-subtitle {
             color: rgba(255, 255, 255, 0.75) !important;
             font-size: 1.05rem !important;
             font-weight: 400 !important;
         }
-        
+
         /* Tab Buttons */
         .login-tabs {
             display: flex !important;
@@ -153,7 +165,7 @@
             padding: 0.625rem !important;
             border-radius: 1rem !important;
         }
-        
+
         .login-tab {
             flex: 1 !important;
             padding: 1rem 1.5rem !important;
@@ -168,44 +180,45 @@
             min-height: 52px !important;
             font-family: inherit !important;
         }
-        
+
         .login-tab.active {
             background: linear-gradient(135deg, #a855f7 0%, #4ecdc4 100%) !important;
             color: #ffffff !important;
             box-shadow: 0 6px 16px rgba(168, 85, 247, 0.5) !important;
             transform: translateY(-1px) !important;
         }
-        
+
         .login-tab:hover:not(.active) {
             background: rgba(168, 85, 247, 0.2) !important;
             color: rgba(255, 255, 255, 0.95) !important;
         }
-        
+
         /* Form Styles */
         .login-form {
             display: none !important;
         }
-        
+
         .login-form.active {
             display: block !important;
             animation: fadeInUp 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
         }
-        
+
         @keyframes fadeInUp {
-            from { 
+            from {
                 opacity: 0;
                 transform: translateY(20px);
             }
-            to { 
+
+            to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
-        
+
         .form-group {
             margin-bottom: 1.75rem !important;
         }
-        
+
         .form-label {
             display: block !important;
             margin-bottom: 0.75rem !important;
@@ -214,7 +227,7 @@
             font-size: 1rem !important;
             font-family: inherit !important;
         }
-        
+
         .form-input {
             width: 100% !important;
             padding: 1.125rem 1.5rem !important;
@@ -228,26 +241,26 @@
             font-family: inherit !important;
             outline: none !important;
         }
-        
+
         .form-input::placeholder {
             color: rgba(255, 255, 255, 0.4) !important;
         }
-        
+
         .form-input:focus {
             border-color: #a855f7 !important;
             background: rgba(10, 10, 20, 0.9) !important;
             box-shadow: 0 0 0 4px rgba(168, 85, 247, 0.15) !important;
         }
-        
+
         /* Password Field */
         .password-wrapper {
             position: relative !important;
         }
-        
+
         .password-wrapper .form-input {
             padding-right: 4rem !important;
         }
-        
+
         .password-toggle {
             position: absolute !important;
             right: 0.75rem !important;
@@ -266,12 +279,12 @@
             border-radius: 0.625rem !important;
             transition: all 0.3s ease !important;
         }
-        
+
         .password-toggle:hover {
             color: rgba(255, 255, 255, 0.95) !important;
             background: rgba(168, 85, 247, 0.15) !important;
         }
-        
+
         /* Submit Button */
         .submit-btn {
             width: 100% !important;
@@ -290,21 +303,21 @@
             font-family: inherit !important;
             letter-spacing: 0.5px !important;
         }
-        
+
         .submit-btn:hover:not(:disabled) {
             transform: translateY(-3px) !important;
             box-shadow: 0 10px 30px rgba(168, 85, 247, 0.6) !important;
         }
-        
+
         .submit-btn:active:not(:disabled) {
             transform: translateY(-1px) !important;
         }
-        
+
         .submit-btn:disabled {
             opacity: 0.6 !important;
             cursor: not-allowed !important;
         }
-        
+
         /* Error Message */
         .error-message {
             display: none !important;
@@ -318,17 +331,27 @@
             animation: shake 0.5s ease !important;
             font-weight: 500 !important;
         }
-        
+
         @keyframes shake {
-            0%, 100% { transform: translateX(0); }
-            25% { transform: translateX(-12px); }
-            75% { transform: translateX(12px); }
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-12px);
+            }
+
+            75% {
+                transform: translateX(12px);
+            }
         }
-        
+
         .error-message.show {
             display: block !important;
         }
-        
+
         /* Back Link */
         .back-link {
             text-align: center !important;
@@ -336,7 +359,7 @@
             padding-top: 2.5rem !important;
             border-top: 1px solid rgba(168, 85, 247, 0.25) !important;
         }
-        
+
         .back-link a {
             color: #a855f7 !important;
             text-decoration: none !important;
@@ -347,92 +370,92 @@
             align-items: center !important;
             gap: 0.625rem !important;
         }
-        
+
         .back-link a:hover {
             color: #4ecdc4 !important;
             gap: 0.875rem !important;
         }
-        
+
         .back-link a svg {
             transition: transform 0.3s ease !important;
         }
-        
+
         .back-link a:hover svg {
             transform: translateX(-4px) !important;
         }
-        
+
         /* Responsive Design */
         @media (max-width: 640px) {
             .login-page {
                 padding: 1.5rem 1rem !important;
             }
-            
+
             .login-container {
                 padding: 2.5rem 2rem !important;
                 border-radius: 1.5rem !important;
             }
-            
+
             .login-title {
                 font-size: 1.875rem !important;
             }
-            
+
             .login-logo {
                 width: 75px !important;
                 height: 75px !important;
             }
-            
+
             .login-logo svg {
                 width: 44px !important;
                 height: 44px !important;
             }
-            
+
             .login-tab {
                 padding: 0.875rem 1.25rem !important;
                 font-size: 1rem !important;
             }
-            
+
             .form-input {
                 padding: 1rem 1.25rem !important;
                 font-size: 1rem !important;
             }
-            
+
             .submit-btn {
                 padding: 1.125rem !important;
                 font-size: 1.05rem !important;
             }
         }
-        
+
         @media (max-width: 420px) {
             .login-container {
                 padding: 2rem 1.5rem !important;
             }
-            
+
             .login-title {
                 font-size: 1.625rem !important;
             }
-            
+
             .login-tab {
                 padding: 0.75rem 1rem !important;
                 font-size: 0.95rem !important;
             }
         }
-        
+
         /* Desktop optimization */
         @media (min-width: 1024px) {
             .login-container {
                 max-width: 540px !important;
                 padding: 3.5rem 3rem !important;
             }
-            
+
             .login-title {
                 font-size: 2.5rem !important;
             }
-            
+
             .login-logo {
                 width: 100px !important;
                 height: 100px !important;
             }
-            
+
             .login-logo svg {
                 width: 56px !important;
                 height: 56px !important;
@@ -440,6 +463,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- ============================================ -->
     <!-- NAVIGATION COMPONENT                         -->
@@ -451,112 +475,100 @@
         <div class="login-container">
             <div class="login-header">
                 <div class="login-logo">
-                 <a href="https://learn.modernagecoders.com">   <img style="border-radius: 10px;transform: scale(2.5);" src="../../public/images/logo.svg" alt="Modern Age Coders Logo"> </a>
+                    <a href="https://learn.modernagecoders.com"> <img style="border-radius: 10px;transform: scale(2.5);"
+                            src="../../public/images/logo.svg" alt="Modern Age Coders Logo"> </a>
                 </div>
                 <h1 class="login-title">Welcome Back</h1>
                 <p class="login-subtitle">Login to access your dashboard</p>
             </div>
-            
+
             <div class="login-tabs">
                 <button class="login-tab active" data-tab="student">Student</button>
                 <button class="login-tab" data-tab="teacher">Teacher</button>
             </div>
-            
+
             <!-- Student Login Form -->
             <form class="login-form active" id="studentForm" data-role="student">
                 <div class="error-message" id="studentError"></div>
-                
+
                 <div class="form-group">
                     <label for="studentUsername" class="form-label">Username or Email</label>
-                    <input 
-                        type="text" 
-                        id="studentUsername" 
-                        class="form-input" 
-                        placeholder="Enter your username"
-                        required
-                        autocomplete="username"
-                    >
+                    <input type="text" id="studentUsername" class="form-input" placeholder="Enter your username"
+                        required autocomplete="username">
                 </div>
-                
+
                 <div class="form-group">
                     <label for="studentPassword" class="form-label">Password</label>
                     <div class="password-wrapper">
-                        <input 
-                            type="password" 
-                            id="studentPassword" 
-                            class="form-input" 
-                            placeholder="Enter your password"
-                            required
-                            autocomplete="current-password"
-                        >
+                        <input type="password" id="studentPassword" class="form-input" placeholder="Enter your password"
+                            required autocomplete="current-password">
                         <button type="button" class="password-toggle" aria-label="Toggle password visibility">
-                            <svg class="eye-open" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            <svg class="eye-open" width="22" height="22" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                             </svg>
-                            <svg class="eye-closed" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>
+                            <svg class="eye-closed" width="22" height="22" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" style="display: none;">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
                             </svg>
                         </button>
                     </div>
                 </div>
-                
+
                 <button type="submit" class="submit-btn">Login as Student</button>
             </form>
-            
+
             <!-- Teacher Login Form -->
             <form class="login-form" id="teacherForm" data-role="teacher">
                 <div class="error-message" id="teacherError"></div>
-                
+
                 <div class="form-group">
                     <label for="teacherUsername" class="form-label">Username or Email</label>
-                    <input 
-                        type="text" 
-                        id="teacherUsername" 
-                        class="form-input" 
-                        placeholder="Enter your username"
-                        required
-                        autocomplete="username"
-                    >
+                    <input type="text" id="teacherUsername" class="form-input" placeholder="Enter your username"
+                        required autocomplete="username">
                 </div>
-                
+
                 <div class="form-group">
                     <label for="teacherPassword" class="form-label">Password</label>
                     <div class="password-wrapper">
-                        <input 
-                            type="password" 
-                            id="teacherPassword" 
-                            class="form-input" 
-                            placeholder="Enter your password"
-                            required
-                            autocomplete="current-password"
-                        >
+                        <input type="password" id="teacherPassword" class="form-input" placeholder="Enter your password"
+                            required autocomplete="current-password">
                         <button type="button" class="password-toggle" aria-label="Toggle password visibility">
-                            <svg class="eye-open" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+                            <svg class="eye-open" width="22" height="22" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
                             </svg>
-                            <svg class="eye-closed" width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"/>
+                            <svg class="eye-closed" width="22" height="22" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24" style="display: none;">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21" />
                             </svg>
                         </button>
                     </div>
                 </div>
-                
+
                 <button type="submit" class="submit-btn">Login as Teacher</button>
             </form>
-            
+
             <div class="back-link">
                 <a href="/">
                     <svg width="22" height="22" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18" />
                     </svg>
                     Back to Home
                 </a>
             </div>
         </div>
     </div>
-    
+
     <script src="../js/config.js"></script>
     <script src="../js/login-page.js"></script>
     <!-- ============================================ -->
@@ -569,6 +581,7 @@
     <!-- MOBILE NAVIGATION SCRIPT                     -->
     <!-- Handles hamburger menu functionality         -->
     <!-- ============================================ -->
+    <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 
 
@@ -579,4 +592,5 @@
     <div id="footer-placeholder"></div>
 
 </body>
+
 </html>

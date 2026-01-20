@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Labs - Modern Age Coders</title>
-    
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
-    
+
     <style>
         /* Page-specific overrides */
         .student-projects-page main {
             padding-top: 100px;
         }
-        
+
         .student-projects-page .container {
             max-width: 1400px;
             margin: 0 auto;
@@ -159,20 +160,20 @@
             .student-projects-page main {
                 padding-top: 90px;
             }
-            
+
             .student-projects-page .container {
                 padding: 15px;
             }
-            
+
             .student-projects-page .projects-grid {
                 gap: 1.5rem;
             }
-            
+
             .student-projects-page .project-image {
                 height: 180px;
                 font-size: 4rem;
             }
-            
+
             .student-projects-page .project-info {
                 padding: 20px;
             }
@@ -182,20 +183,20 @@
             .student-projects-page main {
                 padding-top: 80px;
             }
-            
+
             .student-projects-page .container {
                 padding: 10px;
             }
-            
+
             .student-projects-page .project-image {
                 height: 160px;
                 font-size: 3.5rem;
             }
-            
+
             .student-projects-page .project-info {
                 padding: 15px;
             }
-            
+
             .student-projects-page .project-link {
                 padding: 10px 20px;
                 font-size: 0.9rem;
@@ -203,12 +204,13 @@
         }
     </style>
 </head>
+
 <body class="student-projects-page">
     <a href="#main" class="skip-link">Skip to main content</a>
-    
+
     <canvas id="background-canvas"></canvas>
 
-        <!-- ============================================ -->
+    <!-- ============================================ -->
     <!-- NAVIGATION COMPONENT                         -->
     <!-- Loaded from: /components/nav.html            -->
     <!-- ============================================ -->
@@ -217,7 +219,8 @@
     <main id="main">
         <div class="container">
             <h1>🧪 Student Labs - Experiments & Projects</h1>
-            <p class="subtitle">🔬 Explore innovative experiments and creative projects crafted by our brilliant students in the lab</p>
+            <p class="subtitle">🔬 Explore innovative experiments and creative projects crafted by our brilliant
+                students in the lab</p>
             <br><br>
             <div class="projects-grid" id="projectsGrid"></div>
         </div>
@@ -241,7 +244,7 @@
                 link: "https://krish-shroff.github.io/AuraWeatherTech/",
                 image: "/images/projects/skycast.png"
             },
-         
+
             {
                 title: "Word Counter Website",
                 student: "Vansh",
@@ -251,14 +254,14 @@
                 image: "/images/projects/wordcounter.png"
             },
 
-               {
-    title: "Life Span Tracker",
-    student: "Manay",
-    description: "A simple, insightful, and interactive web tool that helps users calculate their expected lifespan, understand how many days, months, and years they have already lived, and visualize their remaining time using clean UI and smart APIs. It motivates users to use their time wisely and build better habits through awareness.",
-    tags: ["HTML", "CSS", "JavaScript", "APIs", "Date Calculations", "Frontend Tools"],
-    link: "https://lifespantracker.netlify.app/",  // replace with actual link if available
-    image: "/images/projects/lifespan.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
+            {
+                title: "Life Span Tracker",
+                student: "Manay",
+                description: "A simple, insightful, and interactive web tool that helps users calculate their expected lifespan, understand how many days, months, and years they have already lived, and visualize their remaining time using clean UI and smart APIs. It motivates users to use their time wisely and build better habits through awareness.",
+                tags: ["HTML", "CSS", "JavaScript", "APIs", "Date Calculations", "Frontend Tools"],
+                link: "https://lifespantracker.netlify.app/",  // replace with actual link if available
+                image: "/images/projects/lifespan.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
             {
                 title: "Simon Game",
                 student: "Yashaswi",
@@ -269,29 +272,29 @@
             },
 
 
-{
-    title: "The Beautiful Mind",
-    student: "Modern Age Coders",
-    description: "A scientifically designed focus and brain-strength game that challenges players across 15 progressive levels. Each level tests attention, control, and mental endurance with increasing complexity. The platform integrates real-time progress tracking and leaderboard systems to evaluate consistency, speed, and accuracy, making it a strong demonstration of modern front-end and cloud-based application development.",
-    tags: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Firebase",
-        "Firebase Realtime Database",
-        "Firestore",
-        "Authentication",
-        "React",
-        "Angular",
-        "Single Page Application",
-        "Game Logic",
-        "State Management",
-        "UI/UX Design"
-    ],
-    link: "https://mind.modernagecoders.com",
-    image: "/images/projects/mindgame.png"
-}
-,
+            {
+                title: "The Beautiful Mind",
+                student: "Modern Age Coders",
+                description: "A scientifically designed focus and brain-strength game that challenges players across 15 progressive levels. Each level tests attention, control, and mental endurance with increasing complexity. The platform integrates real-time progress tracking and leaderboard systems to evaluate consistency, speed, and accuracy, making it a strong demonstration of modern front-end and cloud-based application development.",
+                tags: [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Firebase",
+                    "Firebase Realtime Database",
+                    "Firestore",
+                    "Authentication",
+                    "React",
+                    "Angular",
+                    "Single Page Application",
+                    "Game Logic",
+                    "State Management",
+                    "UI/UX Design"
+                ],
+                link: "https://mind.modernagecoders.com",
+                image: "/images/projects/mindgame.png"
+            }
+            ,
 
             {
                 title: "Baby - Typing Speed Challenge",
@@ -301,61 +304,61 @@
                 link: "https://baby.modernagecoders.com",
                 image: "/images/projects/baby.png"
             },
-          {
-    title: "HugSelle - AI Smile Generator",
-    student: "Anurag",
-    description: "A heartwarming AI-powered web app built using Python, Machine Learning, HTML, CSS, and JavaScript that detects your mood and generates uplifting quotes, visuals, or patterns to make you smile. A creative blend of technology and positivity!",
-    tags: ["Python", "Machine Learning", "HTML", "CSS", "JavaScript", "AI"],
-    link: "https://hugselle.modernagecoders.com",  // replace with actual link if available
-    image: "/images/projects/hugselle.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
+            {
+                title: "HugSelle - AI Smile Generator",
+                student: "Anurag",
+                description: "A heartwarming AI-powered web app built using Python, Machine Learning, HTML, CSS, and JavaScript that detects your mood and generates uplifting quotes, visuals, or patterns to make you smile. A creative blend of technology and positivity!",
+                tags: ["Python", "Machine Learning", "HTML", "CSS", "JavaScript", "AI"],
+                link: "https://hugselle.modernagecoders.com",  // replace with actual link if available
+                image: "/images/projects/hugselle.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
 
-         {
-    title: "Moxo - Company Landing Page",
-    student: "isha",
-    description: "A stunning and modern landing page built for the fictional company 'Moxo' using HTML, CSS, JavaScript, and GSAP. It features smooth parallax scrolling, advanced animations, and elegant section transitions that bring the brand to life with a premium look and feel.",
-    tags: ["HTML", "CSS", "JavaScript", "GSAP", "Parallax"],
-    link: "https://moxo.modernagecoders.com",  // replace with actual link if available
-    image: "/images/projects/moxo.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
+            {
+                title: "Moxo - Company Landing Page",
+                student: "isha",
+                description: "A stunning and modern landing page built for the fictional company 'Moxo' using HTML, CSS, JavaScript, and GSAP. It features smooth parallax scrolling, advanced animations, and elegant section transitions that bring the brand to life with a premium look and feel.",
+                tags: ["HTML", "CSS", "JavaScript", "GSAP", "Parallax"],
+                link: "https://moxo.modernagecoders.com",  // replace with actual link if available
+                image: "/images/projects/moxo.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
 
-          {
-    title: "FreshTrack - Food Expiry Tracker",
-    student: "Tanish",
-    description: "A smart food management system that helps users track and manage food expiry dates efficiently. Users can add, update, and delete food items while the app checks expiry automatically. Built with HTML, CSS, JavaScript, MongoDB, and local storage for real-time and offline tracking.",
-    tags: ["HTML", "CSS", "JavaScript", "MongoDB", "Local Storage"],
-    link: "https://freshtrackpro.netlify.app/",  // replace with actual link if available
-    image: "/images/projects/fresh.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
-         {
-    title: "Pracy - Coding Practice & Quiz Platform",
-    student: "Rohan",
-    description: "An all-in-one coding practice website where users can learn, solve, and test their knowledge across multiple programming languages. It includes interactive coding challenges, quizzes, and score tracking to help students strengthen logic and problem-solving skills.",
-    tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
-    link: "https://astounding-flan-f18e08.netlify.app/",  // replace with actual link if available
-    image: "/images/projects/pracy.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
+            {
+                title: "FreshTrack - Food Expiry Tracker",
+                student: "Tanish",
+                description: "A smart food management system that helps users track and manage food expiry dates efficiently. Users can add, update, and delete food items while the app checks expiry automatically. Built with HTML, CSS, JavaScript, MongoDB, and local storage for real-time and offline tracking.",
+                tags: ["HTML", "CSS", "JavaScript", "MongoDB", "Local Storage"],
+                link: "https://freshtrackpro.netlify.app/",  // replace with actual link if available
+                image: "/images/projects/fresh.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
+            {
+                title: "Pracy - Coding Practice & Quiz Platform",
+                student: "Rohan",
+                description: "An all-in-one coding practice website where users can learn, solve, and test their knowledge across multiple programming languages. It includes interactive coding challenges, quizzes, and score tracking to help students strengthen logic and problem-solving skills.",
+                tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB"],
+                link: "https://astounding-flan-f18e08.netlify.app/",  // replace with actual link if available
+                image: "/images/projects/pracy.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
 
-{
-    title: "Misti - AI Chatbot for Maths & Coding",
-    student: "Harshit",
-    description: "An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations. Misti uses advanced Python AI frameworks, integrates top AI model APIs, and provides a smooth chat interface built with HTML, CSS, and JavaScript. It stores conversation history and learning progress using a secure database to deliver a personalized learning experience.",
-    tags: ["Python", "AI Frameworks", "LLM APIs", "HTML", "CSS", "JavaScript", "Database", "Backend Integration", "Math & Coding Solver"],
-    link: "https://misti.modernagecoders.com",  // replace with actual link if available
-    image: "/images/projects/misti.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-}
-,
+            {
+                title: "Misti - AI Chatbot for Maths & Coding",
+                student: "Harshit",
+                description: "An intelligent AI-powered chatbot that helps students solve maths and coding questions with deep, step-by-step explanations. Misti uses advanced Python AI frameworks, integrates top AI model APIs, and provides a smooth chat interface built with HTML, CSS, and JavaScript. It stores conversation history and learning progress using a secure database to deliver a personalized learning experience.",
+                tags: ["Python", "AI Frameworks", "LLM APIs", "HTML", "CSS", "JavaScript", "Database", "Backend Integration", "Math & Coding Solver"],
+                link: "https://misti.modernagecoders.com",  // replace with actual link if available
+                image: "/images/projects/misti.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            }
+            ,
 
 
-          {
-    title: "MyDay - Social Productivity & Task Organizer",
-    student: "Vedant",
-    description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others’ daily plans for inspiration, creating a social and motivating community around productivity.",
-    tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Calendar API","python"],
-    link: "https://myday.modernagecoders.com",  // replace with actual link if available
-    image: "/images/projects/myday.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},
-     {
+            {
+                title: "MyDay - Social Productivity & Task Organizer",
+                student: "Vedant",
+                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others’ daily plans for inspiration, creating a social and motivating community around productivity.",
+                tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Calendar API", "python"],
+                link: "https://myday.modernagecoders.com",  // replace with actual link if available
+                image: "/images/projects/myday.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+            },
+            {
                 title: "Image Slider Website",
                 student: "Somraj",
                 description: "A visually appealing website featuring a smooth image carousel where users can view images sliding automatically or manually using navigation controls. Designed with responsive layout and transition effects for a better user experience.",
@@ -364,32 +367,32 @@
                 image: "/images/projects/slider.png"
             }
 
-          /* {
-    title: "ChatBot - AI Question Answering System",
-    student: "Yashvi",
-    description: "An intelligent chatbot built using Python, NLP, and Machine Learning that can answer user questions based on trained data. It integrates APIs and language models to understand natural queries, respond meaningfully, and continuously improve through user interactions.",
-    tags: ["Python", "NLP", "Machine Learning", "API", "HTML", "CSS", "JavaScript"],
-    link: "https://learn.modernagecoders.com",  // replace with actual link if available
-    image: "/images/projects/chatbot.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
-},*/
+            /* {
+      title: "ChatBot - AI Question Answering System",
+      student: "Yashvi",
+      description: "An intelligent chatbot built using Python, NLP, and Machine Learning that can answer user questions based on trained data. It integrates APIs and language models to understand natural queries, respond meaningfully, and continuously improve through user interactions.",
+      tags: ["Python", "NLP", "Machine Learning", "API", "HTML", "CSS", "JavaScript"],
+      link: "https://learn.modernagecoders.com",  // replace with actual link if available
+      image: "/images/projects/chatbot.png"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
+  },*/
 
         ];
 
         const grid = document.getElementById('projectsGrid');
-        
+
         function displayProjects(projectsToShow) {
             grid.innerHTML = '';
-            
+
             projectsToShow.forEach(project => {
                 const card = document.createElement('div');
                 card.className = 'project-card';
-                
+
                 card.innerHTML = `
                     <div class="project-image">
-                        ${project.image ? 
-                            `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;">` : 
-                            '🚀'
-                        }
+                        ${project.image ?
+                        `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;">` :
+                        '🚀'
+                    }
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">${project.title}</h3>
@@ -401,13 +404,13 @@
                         <a href="${project.link}" target="_blank" class="project-link">View Project →</a>
                     </div>
                 `;
-                
-                card.addEventListener('click', function(e) {
+
+                card.addEventListener('click', function (e) {
                     if (!e.target.closest('.project-link')) {
                         window.open(project.link, '_blank');
                     }
                 });
-                
+
                 grid.appendChild(card);
             });
         }
@@ -416,6 +419,7 @@
     </script>
 
     <script src="/js/main.js"></script>
+    <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
     <!-- ============================================ -->
     <!-- COMPONENT LOADER SCRIPT                      -->
@@ -432,4 +436,5 @@
     <div id="footer-placeholder"></div>
 
 </body>
+
 </html>

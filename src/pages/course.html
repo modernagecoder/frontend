@@ -193,12 +193,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/corporate-training.css">
     <link rel="stylesheet" href="/css/course-page-mobile-fix.css">
     <link rel="stylesheet" href="/css/beautiful-tabs.css">
     <link rel="stylesheet" href="/css/course-page-enhanced.css">
+    <!-- CRITICAL: Load this last to override all mobile nav conflicts -->
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
 
     <style>
         /* Enhanced Course Page Styles */
@@ -2325,6 +2328,11 @@
     <!-- Components Loader - MUST BE LOADED FOR NAV & FOOTER -->
     <script src="/js/callback-modal.js"></script>
     <script src="/js/components-loader.js"></script>
+
+    <!-- Mobile Navigation - Handles hamburger menu functionality -->
+    <script src="/js/unified-mobile-nav.js"></script>
+    <script src="/js/mobile-navigation.js"></script>
+    <script src="/js/keyboard-navigation.js"></script>
 </body>
 
 </html>

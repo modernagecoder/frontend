@@ -15,7 +15,7 @@
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <link rel="canonical" href="https://learn.modernagecoders.com/category/professionals.html">
-    
+
     <!-- Additional SEO Tags -->
     <meta name="geo.region" content="IN">
     <meta name="geo.placename" content="India">
@@ -36,21 +36,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/category/professionals.html">
     <meta property="og:title" content="Professional Coding Courses | Upskill & Career Growth | Modern Age Coders">
-    <meta property="og:description" content="Top-rated online coding courses for working professionals. Upskill in AI/ML, Data Science, Full Stack & more. Career switch, promotions, corporate training.">
+    <meta property="og:description"
+        content="Top-rated online coding courses for working professionals. Upskill in AI/ML, Data Science, Full Stack & more. Career switch, promotions, corporate training.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-professionals-coding.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:site_name" content="Modern Age Coders">
     <meta property="og:locale" content="en_US">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@modernagecoders">
     <meta name="twitter:creator" content="@modernagecoders">
     <meta name="twitter:title" content="Professional Coding Courses | Upskill & Career Growth">
-    <meta name="twitter:description" content="Top-rated online coding courses for working professionals. Upskill in AI/ML, Data Science, Full Stack & more. Start free trial!">
+    <meta name="twitter:description"
+        content="Top-rated online coding courses for working professionals. Upskill in AI/ML, Data Science, Full Stack & more. Start free trial!">
     <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-professionals-coding.jpg">
-    
+
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
     {
@@ -124,11 +126,21 @@
             --text-muted: #94a3b8;
         }
 
-        .professionals-page { background: var(--dark); }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+        .professionals-page {
+            background: var(--dark);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
 
         /* ===== HERO ===== */
-        .hero { padding: 3rem 0 2rem; text-align: center; }
+        .hero {
+            padding: 3rem 0 2rem;
+            text-align: center;
+        }
 
         .hero-tag {
             display: inline-flex;
@@ -143,7 +155,10 @@
             margin-bottom: 1.25rem;
         }
 
-        .hero-tag svg { width: 16px; height: 16px; }
+        .hero-tag svg {
+            width: 16px;
+            height: 16px;
+        }
 
         .hero h1 {
             font-size: clamp(2rem, 5vw, 3rem);
@@ -169,17 +184,52 @@
             text-align: center;
         }
 
-        .hero-stats { display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap; }
-        .hero-stat { text-align: center; }
-        .hero-stat strong { display: block; font-size: 1.5rem; font-weight: 700; color: var(--orange); }
-        .hero-stat span { font-size: 0.8rem; color: var(--text-muted); }
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .hero-stat {
+            text-align: center;
+        }
+
+        .hero-stat strong {
+            display: block;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--orange);
+        }
+
+        .hero-stat span {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
 
         /* ===== COURSES SECTION ===== */
-        .courses-section { padding: 2rem 0 4rem; }
+        .courses-section {
+            padding: 2rem 0 4rem;
+        }
 
-        .section-title { text-align: center; margin-bottom: 2.5rem; }
-        .section-title h2 { font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
-        .section-title p { color: var(--text-muted); font-size: 1rem; text-align: center; margin: 0 auto; }
+        .section-title {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+
+        .section-title h2 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-title p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            text-align: center;
+            margin: 0 auto;
+        }
 
         .courses-grid {
             display: grid;
@@ -192,17 +242,25 @@
             background: var(--dark-card);
             border-radius: 16px;
             overflow: hidden;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255, 255, 255, 0.06);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .course-card:hover {
             transform: translateY(-6px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
         }
 
-        .course-img { width: 100%; height: 180px; object-fit: cover; display: block; }
-        .course-body { padding: 1.25rem; }
+        .course-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .course-body {
+            padding: 1.25rem;
+        }
 
         .course-badge {
             display: inline-block;
@@ -217,11 +275,25 @@
             margin-bottom: 0.75rem;
         }
 
-        .course-badge.new { background: var(--teal); }
-        .course-badge.hot { background: #ef4444; }
-        .course-badge.advanced { background: var(--purple); }
+        .course-badge.new {
+            background: var(--teal);
+        }
 
-        .course-card h3 { font-size: 1.1rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; line-height: 1.3; }
+        .course-badge.hot {
+            background: #ef4444;
+        }
+
+        .course-badge.advanced {
+            background: var(--purple);
+        }
+
+        .course-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
 
         .course-card p {
             color: var(--text-muted);
@@ -235,7 +307,12 @@
             overflow: hidden;
         }
 
-        .course-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+        .course-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-bottom: 1rem;
+        }
 
         .course-tag {
             background: rgba(245, 158, 11, 0.12);
@@ -262,11 +339,21 @@
             transition: all 0.2s ease;
         }
 
-        .course-link:hover { filter: brightness(1.1); gap: 0.75rem; }
-        .course-link svg { width: 16px; height: 16px; }
+        .course-link:hover {
+            filter: brightness(1.1);
+            gap: 0.75rem;
+        }
+
+        .course-link svg {
+            width: 16px;
+            height: 16px;
+        }
 
         /* View All */
-        .view-all { text-align: center; margin-top: 2.5rem; }
+        .view-all {
+            text-align: center;
+            margin-top: 2.5rem;
+        }
 
         .view-all-btn {
             display: inline-flex;
@@ -282,11 +369,21 @@
             transition: all 0.3s ease;
         }
 
-        .view-all-btn:hover { background: var(--orange); color: white; }
-        .view-all-btn svg { width: 18px; height: 18px; }
+        .view-all-btn:hover {
+            background: var(--orange);
+            color: white;
+        }
+
+        .view-all-btn svg {
+            width: 18px;
+            height: 18px;
+        }
 
         /* ===== WHY SECTION ===== */
-        .why-section { padding: 3rem 0; border-top: 1px solid rgba(255,255,255,0.05); }
+        .why-section {
+            padding: 3rem 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
 
         .why-grid {
             display: grid;
@@ -296,9 +393,9 @@
 
         .why-card {
             padding: 1.5rem;
-            background: rgba(255,255,255,0.02);
+            background: rgba(255, 255, 255, 0.02);
             border-radius: 12px;
-            border: 1px solid rgba(255,255,255,0.04);
+            border: 1px solid rgba(255, 255, 255, 0.04);
             text-align: center;
         }
 
@@ -313,13 +410,29 @@
             justify-content: center;
         }
 
-        .why-icon svg { width: 24px; height: 24px; color: var(--orange); }
+        .why-icon svg {
+            width: 24px;
+            height: 24px;
+            color: var(--orange);
+        }
 
-        .why-card h3 { font-size: 1rem; font-weight: 600; color: var(--text); margin-bottom: 0.4rem; }
-        .why-card p { color: var(--text-muted); font-size: 0.85rem; line-height: 1.5; }
+        .why-card h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.4rem;
+        }
+
+        .why-card p {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
 
         /* ===== TRUST SECTION ===== */
-        .trust-section { padding: 3rem 0; }
+        .trust-section {
+            padding: 3rem 0;
+        }
 
         .trust-box {
             background: linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(239, 68, 68, 0.08));
@@ -332,18 +445,69 @@
         }
 
         @media (max-width: 768px) {
-            .trust-box { grid-template-columns: 1fr; text-align: center; }
+            .trust-box {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
         }
 
-        .trust-content h2 { font-size: 1.5rem; font-weight: 700; color: var(--text); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem; }
-        @media (max-width: 768px) { .trust-content h2 { justify-content: center; } }
-        .trust-content h2 svg { width: 24px; height: 24px; color: var(--orange); }
-        .trust-content p { color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.25rem; }
+        .trust-content h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
 
-        .trust-list { list-style: none; padding: 0; margin: 0 0 1.5rem 0; }
-        .trust-list li { display: flex; align-items: center; gap: 0.6rem; color: var(--text); font-size: 0.9rem; margin-bottom: 0.6rem; }
-        @media (max-width: 768px) { .trust-list { display: inline-block; text-align: left; } }
-        .trust-list svg { width: 18px; height: 18px; color: var(--orange); flex-shrink: 0; }
+        @media (max-width: 768px) {
+            .trust-content h2 {
+                justify-content: center;
+            }
+        }
+
+        .trust-content h2 svg {
+            width: 24px;
+            height: 24px;
+            color: var(--orange);
+        }
+
+        .trust-content p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1.25rem;
+        }
+
+        .trust-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 1.5rem 0;
+        }
+
+        .trust-list li {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            color: var(--text);
+            font-size: 0.9rem;
+            margin-bottom: 0.6rem;
+        }
+
+        @media (max-width: 768px) {
+            .trust-list {
+                display: inline-block;
+                text-align: left;
+            }
+        }
+
+        .trust-list svg {
+            width: 18px;
+            height: 18px;
+            color: var(--orange);
+            flex-shrink: 0;
+        }
 
         .trust-cta {
             display: inline-flex;
@@ -359,14 +523,30 @@
             transition: all 0.2s ease;
         }
 
-        .trust-cta:hover { filter: brightness(1.1); transform: translateY(-2px); }
-        .trust-cta svg { width: 16px; height: 16px; }
+        .trust-cta:hover {
+            filter: brightness(1.1);
+            transform: translateY(-2px);
+        }
 
-        .trust-visual { display: flex; justify-content: center; }
-        .trust-visual svg { width: 100%; max-width: 280px; }
+        .trust-cta svg {
+            width: 16px;
+            height: 16px;
+        }
+
+        .trust-visual {
+            display: flex;
+            justify-content: center;
+        }
+
+        .trust-visual svg {
+            width: 100%;
+            max-width: 280px;
+        }
 
         /* ===== CTA SECTION ===== */
-        .cta-section { padding: 3rem 0 4rem; }
+        .cta-section {
+            padding: 3rem 0 4rem;
+        }
 
         .cta-box {
             background: linear-gradient(135deg, var(--orange), #d97706);
@@ -375,10 +555,29 @@
             text-align: center;
         }
 
-        .cta-box h2 { font-size: clamp(1.25rem, 3vw, 1.75rem); font-weight: 700; color: white; margin-bottom: 0.75rem; text-align: center; }
-        .cta-box p { color: rgba(255,255,255,0.85); font-size: 1rem; margin-bottom: 1.5rem; text-align: center; margin-left: auto; margin-right: auto; }
+        .cta-box h2 {
+            font-size: clamp(1.25rem, 3vw, 1.75rem);
+            font-weight: 700;
+            color: white;
+            margin-bottom: 0.75rem;
+            text-align: center;
+        }
 
-        .cta-buttons { display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+        .cta-box p {
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
 
         .cta-primary {
             background: white;
@@ -390,26 +589,42 @@
             transition: transform 0.2s ease;
         }
 
-        .cta-primary:hover { transform: translateY(-2px); color: white; background-color: #b45309; }
+        .cta-primary:hover {
+            transform: translateY(-2px);
+            color: white;
+            background-color: #b45309;
+        }
 
         .cta-secondary {
             background: transparent;
             color: white;
             padding: 0.8rem 1.75rem;
-            border: 2px solid rgba(255,255,255,0.5);
+            border: 2px solid rgba(255, 255, 255, 0.5);
             border-radius: 10px;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.2s ease;
         }
 
-        .cta-secondary:hover { background: white; color: var(--orange); border-color: white; }
+        .cta-secondary:hover {
+            background: white;
+            color: var(--orange);
+            border-color: white;
+        }
 
         /* ===== RESPONSIVE ===== */
         @media (max-width: 640px) {
-            .courses-grid { grid-template-columns: 1fr; }
-            .hero-stats { gap: 1.5rem; }
-            .cta-box { padding: 2rem 1.5rem; }
+            .courses-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+            }
+
+            .cta-box {
+                padding: 2rem 1.5rem;
+            }
         }
     </style>
 </head>
@@ -417,7 +632,7 @@
 <body class="professionals-page">
     <a href="#main" class="skip-link">Skip to main content</a>
     <canvas id="background-canvas"></canvas>
-    
+
     <!-- Navigation Component -->
     <div id="nav-placeholder"></div>
 
@@ -427,11 +642,15 @@
             <!-- Hero -->
             <section class="hero">
                 <div class="hero-tag">
-                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                    </svg>
                     Working Professionals • Career Growth
                 </div>
                 <h1>Upskill Your <span>Career</span></h1>
-                <p>Transform your career with in-demand tech skills. Whether you're switching careers, seeking a promotion, or upskilling your team — our flexible courses fit your busy schedule.</p>
+                <p>Transform your career with in-demand tech skills. Whether you're switching careers, seeking a
+                    promotion, or upskilling your team — our flexible courses fit your busy schedule.</p>
                 <div class="hero-stats">
                     <div class="hero-stat"><strong>15+</strong><span>Courses</span></div>
                     <div class="hero-stat"><strong>850+</strong><span>Professionals</span></div>
@@ -450,17 +669,23 @@
 
                     <!-- AI & Machine Learning -->
                     <article class="course-card">
-                        <img src="/images/artificial-intelligence.png" alt="AI & Machine Learning" class="course-img" loading="lazy">
+                        <img src="/images/artificial-intelligence.png" alt="AI & Machine Learning" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge hot">Hot</span>
                             <h3>AI & Machine Learning</h3>
-                            <p>Master neural networks, deep learning, and AI applications. Build intelligent systems that solve real business problems.</p>
+                            <p>Master neural networks, deep learning, and AI applications. Build intelligent systems
+                                that solve real business problems.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Neural Networks</span>
                                 <span class="course-tag">Deep Learning</span>
                                 <span class="course-tag">Python</span>
                             </div>
-                            <a href="/courses/ai-ml-masterclass-complete-college" class="course-link">Master AI <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/ai-ml-masterclass-complete-college" class="course-link">Master AI <svg
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -470,29 +695,40 @@
                         <div class="course-body">
                             <span class="course-badge hot">Hot</span>
                             <h3>Data Science Complete</h3>
-                            <p>Learn data analysis, Python, Pandas, and visualization. Extract actionable insights from complex business data.</p>
+                            <p>Learn data analysis, Python, Pandas, and visualization. Extract actionable insights from
+                                complex business data.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Python</span>
                                 <span class="course-tag">Pandas</span>
                                 <span class="course-tag">Visualization</span>
                             </div>
-                            <a href="/courses/data-science-complete-masterclass-college" class="course-link">Analyze Data <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/data-science-complete-masterclass-college" class="course-link">Analyze
+                                Data <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
                     <!-- Full Stack Development -->
                     <article class="course-card">
-                        <img src="/images/full-stack.png" alt="Full Stack Development" class="course-img" loading="lazy">
+                        <img src="/images/full-stack.png" alt="Full Stack Development" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge">Popular</span>
                             <h3>Full Stack Development</h3>
-                            <p>Master frontend and backend technologies. Build complete web applications from scratch with React, Node.js, and MongoDB.</p>
+                            <p>Master frontend and backend technologies. Build complete web applications from scratch
+                                with React, Node.js, and MongoDB.</p>
                             <div class="course-tags">
                                 <span class="course-tag">React</span>
                                 <span class="course-tag">Node.js</span>
                                 <span class="course-tag">MongoDB</span>
                             </div>
-                            <a href="/courses/full-stack-web-development-masterclass-college" class="course-link">Build Apps <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/full-stack-web-development-masterclass-college" class="course-link">Build
+                                Apps <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -502,13 +738,19 @@
                         <div class="course-body">
                             <span class="course-badge">Popular</span>
                             <h3>Python Programming</h3>
-                            <p>From fundamentals to advanced. Automation, web development, data science, and AI/ML with Python.</p>
+                            <p>From fundamentals to advanced. Automation, web development, data science, and AI/ML with
+                                Python.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Python</span>
                                 <span class="course-tag">Automation</span>
                                 <span class="course-tag">AI/ML</span>
                             </div>
-                            <a href="/courses/python-programming-masterclass-zero-to-advanced-college" class="course-link">Learn Python <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/python-programming-masterclass-zero-to-advanced-college"
+                                class="course-link">Learn Python <svg fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -517,29 +759,40 @@
                         <img src="/images/data-analysis.png" alt="Data Analysis" class="course-img" loading="lazy">
                         <div class="course-body">
                             <h3>Data Analysis Mastery</h3>
-                            <p>Master data analysis techniques with Excel and Python. Extract insights from complex datasets for business decisions.</p>
+                            <p>Master data analysis techniques with Excel and Python. Extract insights from complex
+                                datasets for business decisions.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Excel</span>
                                 <span class="course-tag">Python</span>
                                 <span class="course-tag">Statistics</span>
                             </div>
-                            <a href="/courses/data-analysis-mastery-course-college" class="course-link">Analyze Now <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/data-analysis-mastery-course-college" class="course-link">Analyze Now <svg
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
                     <!-- Python AI Automation -->
                     <article class="course-card">
-                        <img src="/images/automation-with-python-ai.png" alt="Python AI Automation" class="course-img" loading="lazy">
+                        <img src="/images/automation-with-python-ai.png" alt="Python AI Automation" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge new">New</span>
                             <h3>Python AI Automation</h3>
-                            <p>Automate repetitive tasks with Python and AI. Build intelligent automation systems for real-world business applications.</p>
+                            <p>Automate repetitive tasks with Python and AI. Build intelligent automation systems for
+                                real-world business applications.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Python</span>
                                 <span class="course-tag">Automation</span>
                                 <span class="course-tag">AI Integration</span>
                             </div>
-                            <a href="/courses/python-ai-automation-masterclass-college" class="course-link">Automate Now <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/python-ai-automation-masterclass-college" class="course-link">Automate Now
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -549,45 +802,62 @@
                         <div class="course-body">
                             <span class="course-badge new">New</span>
                             <h3>Algorithmic Trading</h3>
-                            <p>Automate stock trading with Python. Learn algorithmic trading, market analysis, and build trading bots.</p>
+                            <p>Automate stock trading with Python. Learn algorithmic trading, market analysis, and build
+                                trading bots.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Python</span>
                                 <span class="course-tag">Trading</span>
                                 <span class="course-tag">Algorithms</span>
                             </div>
-                            <a href="/courses/algorithmic-trading-masterclass-complete" class="course-link">Trade Smart <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/algorithmic-trading-masterclass-complete" class="course-link">Trade Smart
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
                     <!-- Stock Market Automation -->
                     <article class="course-card">
-                        <img src="/images/stock-market-automation.png" alt="Stock Market Automation" class="course-img" loading="lazy">
+                        <img src="/images/stock-market-automation.png" alt="Stock Market Automation" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge hot">Hot</span>
                             <h3>Trading Automation</h3>
-                            <p>Build automated trading systems. Trading bots, automation strategies, and risk management for consistent returns.</p>
+                            <p>Build automated trading systems. Trading bots, automation strategies, and risk management
+                                for consistent returns.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Trading Bots</span>
                                 <span class="course-tag">Automation</span>
                                 <span class="course-tag">Risk Management</span>
                             </div>
-                            <a href="/courses/algorithmic-trading-automation-masterclass" class="course-link">Automate Trading <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/algorithmic-trading-automation-masterclass" class="course-link">Automate
+                                Trading <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
                     <!-- MERN Stack -->
                     <article class="course-card">
-                        <img src="/images/mern-stack.png" alt="MERN Stack Development" class="course-img" loading="lazy">
+                        <img src="/images/mern-stack.png" alt="MERN Stack Development" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge">Popular</span>
                             <h3>MERN Stack Development</h3>
-                            <p>Build full-stack applications using MongoDB, Express, React, and Node.js. Industry's most demanded stack.</p>
+                            <p>Build full-stack applications using MongoDB, Express, React, and Node.js. Industry's most
+                                demanded stack.</p>
                             <div class="course-tags">
                                 <span class="course-tag">MongoDB</span>
                                 <span class="course-tag">Express</span>
                                 <span class="course-tag">React</span>
                             </div>
-                            <a href="/courses/mern-stack-development-masterclass-college" class="course-link">Build Full Stack <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/mern-stack-development-masterclass-college" class="course-link">Build Full
+                                Stack <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -597,13 +867,18 @@
                         <div class="course-body">
                             <span class="course-badge">Popular</span>
                             <h3>React JS Complete</h3>
-                            <p>Master React, Redux, Next.js, and TypeScript. Build modern, scalable frontend applications.</p>
+                            <p>Master React, Redux, Next.js, and TypeScript. Build modern, scalable frontend
+                                applications.</p>
                             <div class="course-tags">
                                 <span class="course-tag">React</span>
                                 <span class="course-tag">Redux</span>
                                 <span class="course-tag">Next.js</span>
                             </div>
-                            <a href="/courses/react-js-complete-masterclass-college" class="course-link">Learn React <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/react-js-complete-masterclass-college" class="course-link">Learn React
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -612,13 +887,18 @@
                         <img src="/images/java-dev.png" alt="Java Programming" class="course-img" loading="lazy">
                         <div class="course-body">
                             <h3>Java Programming</h3>
-                            <p>Core Java, Spring Boot, Microservices, and Hibernate. Enterprise-level development skills for corporate roles.</p>
+                            <p>Core Java, Spring Boot, Microservices, and Hibernate. Enterprise-level development skills
+                                for corporate roles.</p>
                             <div class="course-tags">
                                 <span class="course-tag">Java</span>
                                 <span class="course-tag">Spring Boot</span>
                                 <span class="course-tag">Microservices</span>
                             </div>
-                            <a href="/courses/complete-java-programming-masterclass-college" class="course-link">Master Java <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/complete-java-programming-masterclass-college" class="course-link">Master
+                                Java <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
@@ -627,13 +907,18 @@
                         <img src="/images/my-sql.png" alt="MySQL Database" class="course-img" loading="lazy">
                         <div class="course-body">
                             <h3>MySQL Database</h3>
-                            <p>SQL queries, database design, and data manipulation. Essential for backend development and data roles.</p>
+                            <p>SQL queries, database design, and data manipulation. Essential for backend development
+                                and data roles.</p>
                             <div class="course-tags">
                                 <span class="course-tag">SQL</span>
                                 <span class="course-tag">Database Design</span>
                                 <span class="course-tag">Data</span>
                             </div>
-                            <a href="/courses/mysql-database-complete-masterclass-college" class="course-link">Learn SQL <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/mysql-database-complete-masterclass-college" class="course-link">Learn SQL
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
                 </div>
@@ -641,7 +926,10 @@
                 <div class="view-all">
                     <a href="/courses#coding-customized" class="view-all-btn">
                         View All Professional Courses
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
                     </a>
                 </div>
             </section>
@@ -650,7 +938,11 @@
             <section class="courses-section maths-section" style="border-top: 1px solid rgba(255,255,255,0.05);">
                 <div class="section-title">
                     <h2 style="display: flex; align-items: center; justify-content: center; gap: 0.5rem;">
-                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--teal);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                        <svg width="28" height="28" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            style="color: var(--teal);">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
                         Mathematics for Professionals
                     </h2>
                     <p>Quantitative skills for finance, analytics, and business roles</p>
@@ -659,41 +951,66 @@
                 <div class="courses-grid">
                     <!-- Business & Finance Mathematics -->
                     <article class="course-card">
-                        <img src="/images/business-finance-maths.png" alt="Business & Finance Mathematics" class="course-img" loading="lazy">
+                        <img src="/images/business-finance-maths.png" alt="Business & Finance Mathematics"
+                            class="course-img" loading="lazy">
                         <div class="course-body">
                             <span class="course-badge" style="background: var(--teal);">Popular</span>
                             <h3>Business & Finance Mathematics</h3>
-                            <p>Master quantitative finance, risk analysis, financial modeling, and business mathematics for professional applications.</p>
+                            <p>Master quantitative finance, risk analysis, financial modeling, and business mathematics
+                                for professional applications.</p>
                             <div class="course-tags">
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Financial Modeling</span>
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Risk Analysis</span>
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Quantitative</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Financial
+                                    Modeling</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Risk Analysis</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Quantitative</span>
                             </div>
-                            <a href="/courses/complete-business-finance-mathematics-mastery" class="course-link" style="background: linear-gradient(135deg, var(--teal), #14b8a6);">Learn Finance Math <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/complete-business-finance-mathematics-mastery" class="course-link"
+                                style="background: linear-gradient(135deg, var(--teal), #14b8a6);">Learn Finance Math
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
 
                     <!-- Data Analytics Mathematics -->
                     <article class="course-card">
-                        <img src="/images/data-analytics-maths.png" alt="Data Analytics Mathematics" class="course-img" loading="lazy">
+                        <img src="/images/data-analytics-maths.png" alt="Data Analytics Mathematics" class="course-img"
+                            loading="lazy">
                         <div class="course-body">
                             <span class="course-badge" style="background: var(--teal);">Hot</span>
                             <h3>Data Analytics Mathematics</h3>
-                            <p>Statistics, probability, machine learning mathematics, and data science fundamentals for analytics professionals.</p>
+                            <p>Statistics, probability, machine learning mathematics, and data science fundamentals for
+                                analytics professionals.</p>
                             <div class="course-tags">
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Statistics</span>
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Probability</span>
-                                <span class="course-tag" style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">ML Math</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Statistics</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">Probability</span>
+                                <span class="course-tag"
+                                    style="background: rgba(78, 205, 196, 0.12); color: #5eead4;">ML Math</span>
                             </div>
-                            <a href="/courses/data-analytics-mathematics-masterclass" class="course-link" style="background: linear-gradient(135deg, var(--teal), #14b8a6);">Master Analytics <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg></a>
+                            <a href="/courses/data-analytics-mathematics-masterclass" class="course-link"
+                                style="background: linear-gradient(135deg, var(--teal), #14b8a6);">Master Analytics <svg
+                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg></a>
                         </div>
                     </article>
                 </div>
 
                 <div class="view-all">
-                    <a href="/courses#maths-professional" class="view-all-btn" style="border-color: var(--teal); color: var(--teal);">
+                    <a href="/courses#maths-professional" class="view-all-btn"
+                        style="border-color: var(--teal); color: var(--teal);">
                         View All Maths Courses
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                        </svg>
                     </a>
                 </div>
             </section>
@@ -707,28 +1024,40 @@
                 <div class="why-grid">
                     <div class="why-card">
                         <div class="why-icon">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
                         </div>
                         <h3>Flexible Schedule</h3>
                         <p>Weekend & evening batches for busy professionals</p>
                     </div>
                     <div class="why-card">
                         <div class="why-icon">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                            </svg>
                         </div>
                         <h3>Career Growth</h3>
                         <p>Skills that lead to promotions and better roles</p>
                     </div>
                     <div class="why-card">
                         <div class="why-icon">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                            </svg>
                         </div>
                         <h3>Career Switch</h3>
                         <p>Transition to tech from any background</p>
                     </div>
                     <div class="why-card">
                         <div class="why-icon">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
                         </div>
                         <h3>Corporate Training</h3>
                         <p>Customized programs for teams</p>
@@ -742,130 +1071,225 @@
                 <div class="trust-box">
                     <div class="trust-content">
                         <h2>
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
                             Your Career Partner
                         </h2>
-                        <p>We understand the challenges of learning while working. Our courses are designed for busy professionals who want to upskill without disrupting their careers.</p>
+                        <p>We understand the challenges of learning while working. Our courses are designed for busy
+                            professionals who want to upskill without disrupting their careers.</p>
                         <ul class="trust-list">
-                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Industry-experienced instructors</li>
-                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Self-paced learning options</li>
-                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Real-world project experience</li>
-                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Career guidance & mentorship</li>
-                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg> Lifetime access to materials</li>
+                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg> Industry-experienced instructors</li>
+                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg> Self-paced learning options</li>
+                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg> Real-world project experience</li>
+                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg> Career guidance & mentorship</li>
+                            <li><svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M5 13l4 4L19 7" />
+                                </svg> Lifetime access to materials</li>
                         </ul>
                         <a href="/contact" class="trust-cta">
                             Book Free Consultation
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                            </svg>
                         </a>
                     </div>
                     <div class="trust-visual">
                         <svg viewBox="0 0 300 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="150" cy="110" r="90" fill="url(#g1)" opacity="0.15"/>
-                            <rect x="60" y="40" width="180" height="120" rx="8" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
-                            <rect x="70" y="50" width="160" height="100" rx="4" fill="#0f172a"/>
-                            <rect x="82" y="65" width="70" height="10" rx="2" fill="#f59e0b" opacity="0.8"/>
-                            <rect x="82" y="85" width="90" height="10" rx="2" fill="#ef4444" opacity="0.8"/>
-                            <rect x="82" y="105" width="55" height="10" rx="2" fill="#4ecdc4" opacity="0.8"/>
-                            <rect x="82" y="125" width="75" height="10" rx="2" fill="#f59e0b" opacity="0.8"/>
-                            <path d="M40 170 L60 170 L60 175 L240 175 L240 170 L260 170 L250 190 L50 190 Z" fill="#1e293b"/>
-                            <circle cx="260" cy="35" r="22" fill="#f59e0b"/>
-                            <path d="M252 35 L258 41 L268 31" stroke="white" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M35 195 L40 205 L50 205 L42 212 L45 222 L35 215 L25 222 L28 212 L20 205 L30 205 Z" fill="#f59e0b"/>
-                            <path d="M270 185 L274 193 L282 193 L276 199 L278 207 L270 201 L262 207 L264 199 L258 193 L266 193 Z" fill="#ef4444"/>
-                            <defs><linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>
+                            <circle cx="150" cy="110" r="90" fill="url(#g1)" opacity="0.15" />
+                            <rect x="60" y="40" width="180" height="120" rx="8" fill="#1e293b" stroke="#f59e0b"
+                                stroke-width="2" />
+                            <rect x="70" y="50" width="160" height="100" rx="4" fill="#0f172a" />
+                            <rect x="82" y="65" width="70" height="10" rx="2" fill="#f59e0b" opacity="0.8" />
+                            <rect x="82" y="85" width="90" height="10" rx="2" fill="#ef4444" opacity="0.8" />
+                            <rect x="82" y="105" width="55" height="10" rx="2" fill="#4ecdc4" opacity="0.8" />
+                            <rect x="82" y="125" width="75" height="10" rx="2" fill="#f59e0b" opacity="0.8" />
+                            <path d="M40 170 L60 170 L60 175 L240 175 L240 170 L260 170 L250 190 L50 190 Z"
+                                fill="#1e293b" />
+                            <circle cx="260" cy="35" r="22" fill="#f59e0b" />
+                            <path d="M252 35 L258 41 L268 31" stroke="white" stroke-width="3" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M35 195 L40 205 L50 205 L42 212 L45 222 L35 215 L25 222 L28 212 L20 205 L30 205 Z"
+                                fill="#f59e0b" />
+                            <path
+                                d="M270 185 L274 193 L282 193 L276 199 L278 207 L270 201 L262 207 L264 199 L258 193 L266 193 Z"
+                                fill="#ef4444" />
+                            <defs>
+                                <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#f59e0b" />
+                                    <stop offset="100%" stop-color="#ef4444" />
+                                </linearGradient>
+                            </defs>
                         </svg>
                     </div>
                 </div>
             </section>
 
             <!-- Learning Path Section -->
-            <section class="learning-path-section" style="padding: 3rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
+            <section class="learning-path-section"
+                style="padding: 3rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
                 <div class="section-title">
                     <h2>Career Transformation Paths</h2>
                     <p>Structured journeys for different career goals</p>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
+                <div
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 2rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"/></svg>
+                            <div
+                                style="width: 40px; height: 40px; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" />
+                                </svg>
                             </div>
-                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Career Switch</h3>
+                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Career
+                                Switch</h3>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Transition from any field to tech. Start with Python or Full Stack, build projects, and land your first tech role in 6-9 months.</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+                            Transition from any field to tech. Start with Python or Full Stack, build projects, and land
+                            your first tech role in 6-9 months.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                            <span style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Python</span>
-                            <span style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Full Stack</span>
-                            <span style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Portfolio</span>
+                            <span
+                                style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Python</span>
+                            <span
+                                style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Full
+                                Stack</span>
+                            <span
+                                style="background: rgba(245, 158, 11, 0.15); color: #fcd34d; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Portfolio</span>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                            <div
+                                style="width: 40px; height: 40px; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                                </svg>
                             </div>
-                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Promotion Track</h3>
+                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Promotion
+                                Track</h3>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Already in tech? Level up with AI/ML, Data Science, or advanced frameworks. Get promoted to senior roles or leadership positions.</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+                            Already in tech? Level up with AI/ML, Data Science, or advanced frameworks. Get promoted to
+                            senior roles or leadership positions.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                            <span style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">AI/ML</span>
-                            <span style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Data Science</span>
-                            <span style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Leadership</span>
+                            <span
+                                style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">AI/ML</span>
+                            <span
+                                style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Data
+                                Science</span>
+                            <span
+                                style="background: rgba(239, 68, 68, 0.15); color: #fca5a5; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Leadership</span>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 2rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #4ecdc4, #14b8a6); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
+                            <div
+                                style="width: 40px; height: 40px; background: linear-gradient(135deg, #4ecdc4, #14b8a6); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.1rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
                             </div>
-                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Corporate Training</h3>
+                            <h3 style="color: var(--text); font-size: 1.1rem; font-weight: 600; margin: 0;">Corporate
+                                Training</h3>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Upskill your entire team with customized training programs. Tailored curriculum, flexible scheduling, and progress tracking.</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">
+                            Upskill your entire team with customized training programs. Tailored curriculum, flexible
+                            scheduling, and progress tracking.</p>
                         <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
-                            <span style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Custom Curriculum</span>
-                            <span style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Team Training</span>
-                            <span style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Reports</span>
+                            <span
+                                style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Custom
+                                Curriculum</span>
+                            <span
+                                style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Team
+                                Training</span>
+                            <span
+                                style="background: rgba(78, 205, 196, 0.15); color: #5eead4; font-size: 0.75rem; padding: 0.3rem 0.6rem; border-radius: 4px;">Reports</span>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Success Stories Section -->
-            <section class="testimonials-section" style="padding: 3rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
+            <section class="testimonials-section"
+                style="padding: 3rem 0; border-top: 1px solid rgba(255,255,255,0.05);">
                 <div class="section-title">
                     <h2>Success Stories</h2>
                     <p>Real career transformations from real professionals</p>
                 </div>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
+                <div
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">S</div>
+                            <div
+                                style="width: 48px; height: 48px; background: linear-gradient(135deg, #f59e0b, #d97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">
+                                S</div>
                             <div>
-                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">Suresh, Ex-Banker</h4>
-                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Now Data Analyst at Deloitte</p>
+                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">Suresh,
+                                    Ex-Banker</h4>
+                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Now Data Analyst at
+                                    Deloitte</p>
                             </div>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"After 8 years in banking, I switched to data analytics. The course fit perfectly with my work schedule. Within 6 months, I landed a role at Deloitte with a 40% salary hike!"</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"After 8
+                            years in banking, I switched to data analytics. The course fit perfectly with my work
+                            schedule. Within 6 months, I landed a role at Deloitte with a 40% salary hike!"</p>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">M</div>
+                            <div
+                                style="width: 48px; height: 48px; background: linear-gradient(135deg, #ef4444, #dc2626); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">
+                                M</div>
                             <div>
-                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">Meera, Marketing Manager</h4>
-                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Promoted to Tech Lead</p>
+                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">Meera,
+                                    Marketing Manager</h4>
+                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Promoted to Tech Lead
+                                </p>
                             </div>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"Learning Python and data analysis helped me automate reports and bring data-driven insights to my team. Got promoted to lead the digital transformation initiative!"</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"Learning
+                            Python and data analysis helped me automate reports and bring data-driven insights to my
+                            team. Got promoted to lead the digital transformation initiative!"</p>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 16px; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
-                            <div style="width: 48px; height: 48px; background: linear-gradient(135deg, #4ecdc4, #14b8a6); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">K</div>
+                            <div
+                                style="width: 48px; height: 48px; background: linear-gradient(135deg, #4ecdc4, #14b8a6); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.2rem;">
+                                K</div>
                             <div>
-                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">Karthik, Mechanical Engineer</h4>
-                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Now Full Stack Developer</p>
+                                <h4 style="color: var(--text); font-size: 0.95rem; font-weight: 600; margin: 0;">
+                                    Karthik, Mechanical Engineer</h4>
+                                <p style="color: var(--text-muted); font-size: 0.8rem; margin: 0;">Now Full Stack
+                                    Developer</p>
                             </div>
                         </div>
-                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"Switched from mechanical engineering to software development. The MERN Stack course gave me practical skills and a portfolio that impressed recruiters. Best decision ever!"</p>
+                        <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">"Switched
+                            from mechanical engineering to software development. The MERN Stack course gave me practical
+                            skills and a portfolio that impressed recruiters. Best decision ever!"</p>
                     </div>
                 </div>
             </section>
@@ -877,49 +1301,90 @@
                     <p>Common questions from working professionals</p>
                 </div>
                 <div style="max-width: 800px; margin: 2rem auto 0;">
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
                         <div style="padding: 1.5rem;">
-                            <h3 style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--orange);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <h3
+                                style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    style="color: var(--orange);">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
                                 Can I learn while working full-time?
                             </h3>
-                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Absolutely! Our courses are designed for busy professionals. We offer weekend batches, evening sessions, and self-paced options. Most students dedicate 8-10 hours per week.</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">
+                                Absolutely! Our courses are designed for busy professionals. We offer weekend batches,
+                                evening sessions, and self-paced options. Most students dedicate 8-10 hours per week.
+                            </p>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
                         <div style="padding: 1.5rem;">
-                            <h3 style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--orange);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <h3
+                                style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    style="color: var(--orange);">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
                                 How long does it take to switch careers?
                             </h3>
-                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">For a complete career switch, plan for 6-9 months of dedicated learning. This includes mastering fundamentals, building projects, and preparing for interviews.</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">For a
+                                complete career switch, plan for 6-9 months of dedicated learning. This includes
+                                mastering fundamentals, building projects, and preparing for interviews.</p>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
                         <div style="padding: 1.5rem;">
-                            <h3 style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--orange);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <h3
+                                style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    style="color: var(--orange);">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
                                 Do you offer corporate training?
                             </h3>
-                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Yes! We provide customized corporate training programs for teams of all sizes. Includes tailored curriculum, flexible scheduling, progress tracking, and dedicated support.</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Yes! We
+                                provide customized corporate training programs for teams of all sizes. Includes tailored
+                                curriculum, flexible scheduling, progress tracking, and dedicated support.</p>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04); margin-bottom: 1rem;">
                         <div style="padding: 1.5rem;">
-                            <h3 style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--orange);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                            <h3
+                                style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    style="color: var(--orange);">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
                                 Is age a barrier for learning to code?
                             </h3>
-                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Not at all! We have successful students from 25 to 55+ years old. Your professional experience is actually an advantage — it brings domain knowledge and problem-solving skills.</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Not at
+                                all! We have successful students from 25 to 55+ years old. Your professional experience
+                                is actually an advantage — it brings domain knowledge and problem-solving skills.</p>
                         </div>
                     </div>
-                    <div style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04);">
+                    <div
+                        style="background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.04);">
                         <div style="padding: 1.5rem;">
-                            <h3 style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
-                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--orange);"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                            <h3
+                                style="color: var(--text); font-size: 1rem; font-weight: 600; margin: 0 0 0.75rem 0; display: flex; align-items: center; gap: 0.5rem;">
+                                <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    style="color: var(--orange);">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                                </svg>
                                 What support do you provide after the course?
                             </h3>
-                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">You get lifetime access to course materials, alumni community access, career guidance, resume reviews, and mock interview sessions. We're invested in your long-term success.</p>
+                            <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">You get
+                                lifetime access to course materials, alumni community access, career guidance, resume
+                                reviews, and mock interview sessions. We're invested in your long-term success.</p>
                         </div>
                     </div>
                 </div>
@@ -1002,11 +1467,13 @@
             animate();
         }
     </script>
-    
+
     <!-- Component Loader - Loads nav and footer -->
     <script src="/js/components-loader.js"></script>
-    
+
     <!-- Mobile Navigation -->
+    <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 </body>
+
 </html>

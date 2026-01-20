@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Projects - Modern Age Coders</title>
-    
+
     <style>
         * {
             margin: 0;
@@ -87,10 +88,21 @@
             font-weight: 700;
         }
 
-        .badge.web { background: rgba(78, 205, 196, 0.95); }
-        .badge.ai { background: rgba(168, 85, 247, 0.95); }
-        .badge.game { background: rgba(255, 165, 0, 0.95); }
-        .badge.mobile { background: rgba(59, 130, 246, 0.95); }
+        .badge.web {
+            background: rgba(78, 205, 196, 0.95);
+        }
+
+        .badge.ai {
+            background: rgba(168, 85, 247, 0.95);
+        }
+
+        .badge.game {
+            background: rgba(255, 165, 0, 0.95);
+        }
+
+        .badge.mobile {
+            background: rgba(59, 130, 246, 0.95);
+        }
 
         .project-info {
             padding: 25px;
@@ -155,7 +167,7 @@
             h1 {
                 font-size: 2rem;
             }
-            
+
             .projects-grid {
                 grid-template-columns: 1fr;
                 gap: 1.5rem;
@@ -163,6 +175,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- ============================================ -->
     <!-- NAVIGATION COMPONENT                         -->
@@ -173,7 +186,7 @@
     <div class="container">
         <h1>🚀 Student Projects Showcase</h1>
         <p class="subtitle">Amazing projects built by our talented students</p>
-        
+
         <div class="projects-grid" id="projectsGrid">
             <!-- Projects will be loaded here -->
         </div>
@@ -181,7 +194,7 @@
 
     <script>
         console.log('Loading projects...');
-        
+
         const projects = [
             {
                 title: "AI Chatbot Assistant",
@@ -282,7 +295,7 @@
         ];
 
         const grid = document.getElementById('projectsGrid');
-        
+
         projects.forEach(project => {
             const badgeText = {
                 'web': 'Web Dev',
@@ -293,7 +306,7 @@
 
             const card = document.createElement('div');
             card.className = 'project-card';
-            
+
             card.innerHTML = `
                 <div class="project-image">
                     🚀
@@ -309,16 +322,16 @@
                     <a href="${project.link}" target="_blank" class="project-link">View Project →</a>
                 </div>
             `;
-            
-            card.addEventListener('click', function(e) {
+
+            card.addEventListener('click', function (e) {
                 if (!e.target.closest('.project-link')) {
                     window.open(project.link, '_blank');
                 }
             });
-            
+
             grid.appendChild(card);
         });
-        
+
         console.log('Projects loaded successfully!');
         console.log('Total projects:', projects.length);
     </script>
@@ -332,6 +345,7 @@
     <!-- MOBILE NAVIGATION SCRIPT                     -->
     <!-- Handles hamburger menu functionality         -->
     <!-- ============================================ -->
+    <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 
 
@@ -342,4 +356,5 @@
     <div id="footer-placeholder"></div>
 
 </body>
+
 </html>

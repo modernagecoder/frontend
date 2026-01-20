@@ -90,6 +90,20 @@
             menu: navMenu
         });
         
+        // CRITICAL FIX: Sync isMenuOpen state with actual DOM state on init
+        // This ensures the first click works correctly
+        isMenuOpen = navMenu.classList.contains('active');
+        log('Initial menu state:', isMenuOpen ? 'open' : 'closed');
+        
+        // Also ensure body scroll state is synced
+        if (isMenuOpen) {
+            document.body.style.overflow = 'hidden';
+            document.body.classList.add('mobile-menu-open');
+        } else {
+            document.body.style.overflow = '';
+            document.body.classList.remove('mobile-menu-open');
+        }
+        
         // Setup
         setupAccessibility();
         setupEventListeners();
