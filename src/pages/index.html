@@ -1198,7 +1198,7 @@
 
 
 
-              <!-- ====== PRICING PLANS SECTION START ====== -->
+        <!-- ====== PRICING PLANS SECTION START ====== -->
 
         <!-- ====== PRICING PLANS SECTION END ====== -->
 
@@ -2164,84 +2164,135 @@
                     outline: none;
                 }
 
+                /* MOBILE: Fixed pixel widths for perfect pyramid shape */
                 @media (max-width: 768px) {
+                    .pyramid-container {
+                        width: 100% !important;
+                        max-width: 500px !important;
+                        padding: 20px 10px !important;
+                        margin: 30px auto !important;
+                    }
+
                     .pyramid-level {
-                        height: 75px;
+                        height: 60px !important;
                     }
 
                     .pyramid-level-text {
-                        font-size: 22px;
-                        letter-spacing: 0.5px;
+                        font-size: 16px !important;
+                        letter-spacing: 0.5px !important;
                     }
 
+                    /* Fixed widths for perfect pyramid - matching desktop proportions */
                     .pyramid-level-1 {
-                        width: 100%;
+                        width: 100% !important;
+                        max-width: 480px !important;
                     }
 
                     .pyramid-level-2 {
-                        width: 95%;
+                        width: 84% !important;
+                        max-width: 400px !important;
                     }
 
                     .pyramid-level-3 {
-                        width: 90%;
+                        width: 68% !important;
+                        max-width: 320px !important;
                     }
 
                     .pyramid-level-4 {
-                        width: 85%;
+                        width: 52% !important;
+                        max-width: 250px !important;
                     }
 
                     .pyramid-level-5 {
-                        width: 80%;
+                        width: 38% !important;
+                        max-width: 180px !important;
                     }
                 }
 
                 @media (max-width: 480px) {
                     .pyramid-container {
-                        padding: 10px 5px;
-                        gap: 6px;
+                        padding: 15px 5px !important;
+                        gap: 6px !important;
+                        max-width: 100% !important;
                     }
 
                     .pyramid-level {
-                        height: 65px;
-                        padding: 0 10px;
+                        height: 52px !important;
+                        padding: 0 5px !important;
                     }
 
                     .pyramid-level-text {
-                        font-size: 17px;
-                        letter-spacing: 0.3px;
-                        white-space: nowrap;
+                        font-size: 13px !important;
+                        letter-spacing: 0.3px !important;
                     }
 
+                    /* Fixed pixel widths for small screens */
                     .pyramid-level-1 {
-                        width: 100%;
+                        width: 340px !important;
+                        max-width: 95% !important;
                     }
 
                     .pyramid-level-2 {
-                        width: 95%;
+                        width: 280px !important;
+                        max-width: 80% !important;
                     }
 
                     .pyramid-level-3 {
-                        width: 90%;
+                        width: 220px !important;
+                        max-width: 65% !important;
                     }
 
                     .pyramid-level-4 {
-                        width: 85%;
+                        width: 165px !important;
+                        max-width: 50% !important;
                     }
 
                     .pyramid-level-5 {
-                        width: 80%;
+                        width: 115px !important;
+                        max-width: 38% !important;
                     }
                 }
 
                 @media (max-width: 360px) {
+                    .pyramid-container {
+                        padding: 10px 3px !important;
+                        gap: 5px !important;
+                    }
+
                     .pyramid-level {
-                        height: 60px;
-                        padding: 0 8px;
+                        height: 46px !important;
+                        padding: 0 3px !important;
                     }
 
                     .pyramid-level-text {
-                        font-size: 15px;
-                        letter-spacing: 0.2px;
+                        font-size: 11px !important;
+                        letter-spacing: 0.2px !important;
+                    }
+
+                    /* Fixed pixel widths for very small screens */
+                    .pyramid-level-1 {
+                        width: 320px !important;
+                        max-width: 98% !important;
+                    }
+
+                    .pyramid-level-2 {
+                        width: 260px !important;
+                        max-width: 82% !important;
+                    }
+
+                    .pyramid-level-3 {
+                        width: 200px !important;
+                        max-width: 65% !important;
+                    }
+
+                    .pyramid-level-4 {
+                        width: 145px !important;
+                        max-width: 48% !important;
+                    }
+
+                    .pyramid-level-5 {
+                        width: 100px !important;
+                        max-width: 35% !important;
                     }
                 }
             </style>

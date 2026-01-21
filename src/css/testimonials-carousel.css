@@ -32,16 +32,19 @@
     padding: 35px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    aspect-ratio: 1.4/1; /* Landscape aspect ratio */
-    display: flex;
-    flex-direction: column;
-    min-height: 300px; /* Minimum height */
+    /* AUTO HEIGHT - force override with !important */
+    aspect-ratio: unset !important;
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 350px !important;
+    height: auto !important;
+    overflow: visible !important;
 }
 
 /* Allow cards to grow when text is expanded */
 .testimonial-card:has(.expanded) {
-    aspect-ratio: auto;
-    height: auto;
+    aspect-ratio: auto !important;
+    height: auto !important;
 }
 
 .testimonial-card:hover {
@@ -113,30 +116,38 @@
 }
 
 .testimonial-content blockquote {
-    margin: 0;
-    padding: 0;
-    font-size: 15px;
-    line-height: 1.6;
-    color: rgba(255, 255, 255, 0.85);
-    font-style: italic;
-    flex-grow: 1;
+    margin: 0 !important;
+    padding: 15px 0 !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    color: #ffffff !important;
+    font-style: italic !important;
+    flex-grow: 1 !important;
     transition: all 0.3s ease;
+    /* FORCE text visibility */
+    opacity: 1 !important;
+    visibility: visible !important;
+    text-shadow: none !important;
+    height: auto !important;
+    min-height: 100px !important;
+    max-height: none !important;
 }
 
-/* Collapsed state - truncated text */
+/* Show enough lines of text by default */
 .testimonial-content blockquote:not(.expanded) {
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 8 !important;
+    -webkit-box-orient: vertical !important;
 }
 
 /* Expanded state - full text visible */
 .testimonial-content blockquote.expanded {
-    display: block;
-    overflow: visible;
-    -webkit-line-clamp: none;
-    -webkit-box-orient: initial;
+    display: block !important;
+    overflow: visible !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: initial !important;
+    max-height: none !important;
 }
 
 /* Read More Button */
@@ -291,19 +302,21 @@
     .testimonials-carousel-container {
         padding: 0 50px;
     }
-    
+
     .carousel-arrow {
         width: 45px;
         height: 45px;
     }
-    
+
     .carousel-arrow svg {
         width: 20px;
         height: 20px;
     }
-    
+
     .testimonial-card {
-        aspect-ratio: 1.2/1; /* Slightly more square on tablets */
+        aspect-ratio: unset;
+        height: auto;
+        min-height: 320px;
     }
 }
 
@@ -311,83 +324,89 @@
     .testimonials-carousel-container {
         padding: 0 45px;
     }
-    
+
     .testimonials-track {
         gap: 20px;
     }
-    
+
     .testimonial-card {
         flex: 0 0 100%;
         min-width: 100%;
         padding: 25px;
-        aspect-ratio: 1/1; /* Square on mobile */
+        aspect-ratio: unset;
+        height: auto;
+        min-height: 320px;
     }
-    
+
     .carousel-arrow {
         width: 40px;
         height: 40px;
     }
-    
+
     .carousel-arrow svg {
         width: 18px;
         height: 18px;
     }
-    
+
     .testimonial-header {
         gap: 12px;
         margin-bottom: 12px;
     }
-    
+
     .parent-avatar {
         width: 50px;
         height: 50px;
     }
-    
+
     .testimonial-content blockquote:not(.expanded) {
-        font-size: 14px;
-        -webkit-line-clamp: 3;
+        font-size: 15px;
+        line-height: 1.6;
+        -webkit-line-clamp: 6;
+        color: #ffffff;
     }
-    
+
     .testimonial-content blockquote.expanded {
-        font-size: 14px;
+        font-size: 15px;
+        line-height: 1.6;
+        color: #ffffff;
     }
-    
+
     .read-more-btn {
         font-size: 11px;
         padding: 5px 10px;
     }
-    
+
     .testimonial-info .name {
         font-size: 15px;
     }
-    
+
     .testimonial-info .course {
         font-size: 12px;
     }
-    
+
     .star-rating .star {
         font-size: 14px;
     }
-    
+
     .post-review-button {
         padding: 12px 24px;
         font-size: 14px;
     }
-    
+
     .post-review-button svg {
         width: 18px;
         height: 18px;
     }
-    
+
     .carousel-dots {
         margin-top: 30px;
     }
-    
+
     .carousel-dot {
         width: 10px;
         height: 10px;
     }
-    
+
     .carousel-dot.active {
         width: 25px;
     }
@@ -397,86 +416,90 @@
     .testimonials-carousel-container {
         padding: 0 40px;
     }
-    
+
     .testimonial-card {
         padding: 20px;
-        aspect-ratio: 1/1; /* Keep square on small mobile */
+        aspect-ratio: unset;
+        height: auto;
+        min-height: 300px;
     }
-    
+
     .carousel-arrow {
         width: 36px;
         height: 36px;
     }
-    
+
     .carousel-arrow svg {
         width: 16px;
         height: 16px;
     }
-    
+
     .testimonial-header {
         gap: 10px;
         margin-bottom: 10px;
     }
-    
+
     .parent-avatar {
         width: 45px;
         height: 45px;
         border-width: 2px;
     }
-    
+
     .testimonial-content blockquote:not(.expanded) {
-        font-size: 13px;
-        line-height: 1.5;
-        -webkit-line-clamp: 3;
+        font-size: 14px;
+        line-height: 1.6;
+        -webkit-line-clamp: 6;
+        color: #ffffff;
     }
-    
+
     .testimonial-content blockquote.expanded {
-        font-size: 13px;
-        line-height: 1.5;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #ffffff;
     }
-    
+
     .read-more-btn {
         font-size: 10px;
         padding: 4px 8px;
     }
-    
+
     .read-more-btn svg {
         width: 10px;
         height: 10px;
     }
-    
+
     .testimonial-info .name {
         font-size: 14px;
     }
-    
+
     .testimonial-info .course {
         font-size: 11px;
     }
-    
+
     .star-rating .star {
         font-size: 12px;
     }
-    
+
     .post-review-button {
         padding: 10px 20px;
         font-size: 13px;
     }
-    
+
     .post-review-button svg {
         width: 16px;
         height: 16px;
     }
-    
+
     .carousel-dots {
         gap: 8px;
         margin-top: 25px;
     }
-    
+
     .carousel-dot {
         width: 8px;
         height: 8px;
     }
-    
+
     .carousel-dot.active {
         width: 20px;
     }
@@ -487,7 +510,7 @@
     .carousel-arrow {
         background: rgba(168, 85, 247, 0.3);
     }
-    
+
     .testimonial-card:hover {
         transform: none;
     }
@@ -508,27 +531,27 @@
     .testimonials-track {
         transition: none !important;
     }
-    
+
     .testimonial-card {
         transition: none !important;
     }
-    
+
     .testimonial-card:hover {
         transform: none !important;
     }
-    
+
     .carousel-arrow {
         transition: none !important;
     }
-    
+
     .carousel-arrow:hover {
         transform: translateY(-50%) !important;
     }
-    
+
     .carousel-arrow:active {
         transform: translateY(-50%) !important;
     }
-    
+
     .carousel-dot {
         transition: none !important;
     }
