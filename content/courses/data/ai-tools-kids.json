@@ -1155,6 +1155,30 @@
       "AI Safety Advocate",
       "Innovation Designer",
       "Future Ready"
+    ],
+    "completion_criteria": [
+      "Complete 80% of weekly projects",
+      "Master 40+ AI tools",
+      "Create portfolio of 50+ projects",
+      "Pass safety and ethics assessment",
+      "Complete capstone project",
+      "Present to audience"
+    ],
+    "certification_levels": [
+      "AI Explorer (Month 1-2)",
+      "AI Creator (Month 3-4)",
+      "AI Innovator (Month 5-6)",
+      "AI Master (Full completion)"
+    ],
+    "portfolio_components": [
+      "AI conversation archive",
+      "Art and design gallery",
+      "Music and audio library",
+      "Video showcase reel",
+      "Code repository",
+      "Written content samples",
+      "Project documentation",
+      "Reflection journal"
     ]
   },
   "resources_and_support": {
@@ -1308,30 +1332,6 @@
     ]
   },
   "success_metrics": {
-    "completion_criteria": [
-      "Complete 80% of weekly projects",
-      "Master 40+ AI tools",
-      "Create portfolio of 50+ projects",
-      "Pass safety and ethics assessment",
-      "Complete capstone project",
-      "Present to audience"
-    ],
-    "certification_levels": [
-      "AI Explorer (Month 1-2)",
-      "AI Creator (Month 3-4)",
-      "AI Innovator (Month 5-6)",
-      "AI Master (Full completion)"
-    ],
-    "portfolio_components": [
-      "AI conversation archive",
-      "Art and design gallery",
-      "Music and audio library",
-      "Video showcase reel",
-      "Code repository",
-      "Written content samples",
-      "Project documentation",
-      "Reflection journal"
-    ],
     "ai_projects_created": "3,500+",
     "tools_mastered_by_students": "50+",
     "continued_to_advanced_ai": "82%",

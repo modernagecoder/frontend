@@ -1221,5 +1221,69 @@
     "mentorship": "Dedicated youth mentor throughout",
     "certificate": "Verified certificate of completion",
     "portfolio": "30+ projects for college applications"
+  },
+  "faqs": [
+    {
+      "question": "What age is appropriate for this web development course for kids?",
+      "answer": "This course is designed for children ages 8-18. Younger kids (8-12) start with visual, fun HTML projects with parental guidance, while teens can progress faster into JavaScript and advanced topics. Our teaching approach is tailored for young minds with engaging, game-like learning."
+    },
+    {
+      "question": "Does my child need prior coding experience?",
+      "answer": "No prior experience needed! We start from absolute zero - even kids who've never seen code before can begin. The course uses colorful, engaging examples and AI assistants to make learning easy and fun. Many of our best students started with no tech background at all."
+    },
+    {
+      "question": "How is AI used in this web development course?",
+      "answer": "AI tools like ChatGPT, Claude, and GitHub Copilot are integrated throughout to help kids code faster, debug problems, and learn concepts. Kids learn to use AI as a helpful assistant, not a replacement for learning. This prepares them for the AI-powered future of development."
+    },
+    {
+      "question": "What websites will my child be able to build after this course?",
+      "answer": "Students build 30+ projects including personal portfolios, games, interactive stories, quizzes, blogs, and even professional-looking business websites. All projects are real websites they can share with friends and family, building confidence and a portfolio for future opportunities."
+    },
+    {
+      "question": "Is web development a good skill for my child's future?",
+      "answer": "Absolutely! Web development is one of the most in-demand skills globally. Beyond careers, it teaches problem-solving, creativity, and logical thinking. Many tech leaders started coding as kids, and early exposure to web development opens doors to countless opportunities in tech and beyond."
+    },
+    {
+      "question": "What equipment does my child need for this course?",
+      "answer": "A basic computer or laptop with internet access is all that's needed. We use free software like VS Code and free AI tools. A mouse is recommended for younger kids. Parents can set up accounts together with children, and all tools are safe and kid-friendly."
+    }
+  ],
+  "related_courses": [
+    {
+      "slug": "kids-ai-mastery-course",
+      "title": "AI Tools Mastery for Kids",
+      "description": "Master 50+ AI tools for creativity and productivity"
+    },
+    {
+      "slug": "game-development-masterclass-for-kids",
+      "title": "Game Development for Kids",
+      "description": "Create games with visual programming"
+    },
+    {
+      "slug": "problem-solving-and-computational-thinking-for-kids",
+      "title": "Problem Solving for Kids",
+      "description": "Build logical thinking and coding foundations"
+    }
+  ],
+  "why_this_course": {
+    "title": "Why Web Development is the Perfect First Coding Skill for Kids",
+    "paragraphs": [
+      "Web development offers instant visual feedback that keeps kids engaged - every line of code immediately shows results on screen. Unlike abstract programming concepts, kids can see their creations come to life, share them with friends, and build a real online presence from day one.",
+      "Combined with AI assistants, modern web development is more accessible than ever. Kids learn to code alongside AI helpers like ChatGPT and GitHub Copilot, preparing them for how professional developers actually work today. This dual skill set - coding plus AI - makes them uniquely prepared for the future.",
+      "Beyond technical skills, web development teaches creativity, problem-solving, attention to detail, and project completion. Many successful entrepreneurs and tech leaders started by building websites as kids. This course gives children a head start on a future-proof skill set."
+    ],
+    "highlights": [
+      "30+ projects from beginner to professional level",
+      "AI-assisted learning with ChatGPT and Copilot",
+      "Real websites hosted online to share with friends",
+      "Foundation for any tech or creative career",
+      "Fun, game-like progression with badges and rewards"
+    ]
+  },
+  "success_metrics": {
+    "websites_created": "4,200+",
+    "young_developers_trained": "850+",
+    "continued_to_advanced_coding": "88%",
+    "parent_satisfaction": "96%"
   }
 }
