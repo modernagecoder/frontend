@@ -64,7 +64,7 @@
       },
       {
         "type": "image",
-        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_43_article.png",
+        "url": "/images/logo.svg",
         "alt": "Modern Age Coders founders teaching first coding class",
         "caption": "Where it all began—our mission to make coding accessible to everyone"
       },
@@ -362,7 +362,7 @@
       },
       {
         "type": "image",
-        "url": "https://ik.imagekit.io/ysmxsdgmw4/articleimages/item_43_article.png",
+        "url": "/images/coding-community-vibes.png",
         "alt": "Diverse group of Modern Age Coders students of all ages",
         "caption": "From kids to adults—coding education for everyone"
       },
