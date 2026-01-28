@@ -290,6 +290,17 @@
   force = true
 
 [[redirects]]
+  from = "/blog/:slug/"
+  to = "/content/blog/generated/:slug/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/blog/:slug/"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/courses/:course/"
   to = "/content/courses/generated/:course/index.html"
   status = 200
