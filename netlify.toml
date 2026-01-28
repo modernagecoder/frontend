@@ -166,6 +166,11 @@
   status = 200
 
 [[redirects]]
+  from = "/coding-roadmap"
+  to = "/src/pages/coding-roadmap.html"
+  status = 200
+
+[[redirects]]
   from = "/bootstrap"
   to = "/src/pages/bootstrap.html"
   status = 200

@@ -22,6 +22,7 @@ Allow: /business-solutions
 Allow: /aura
 Allow: /beat-the-babu
 Allow: /love
+Allow: /coding-roadmap
 
 # Category pages - Age group landing pages
 Allow: /category/kids
