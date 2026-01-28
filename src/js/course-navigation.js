@@ -1,14 +1,14 @@
 // Course Navigation JavaScript
 // Handles tab switching and navigation for Modern Age Coders website
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     // Only initialize course page functionality if we're on a course page
     if (document.body.classList.contains('course-detail-page')) {
         initializeCourseTabs();
         initializeCurriculumAccordion();
         handleURLParameters();
     }
-    
+
     // Initialize course card navigation on all pages
     initializeCourseCardNavigation();
 });
@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', function() {
  */
 function updateGliderPosition(activeButton, glider) {
     if (!glider || !activeButton) return;
-    
+
     const left = activeButton.offsetLeft;
     const width = activeButton.offsetWidth;
-    
+
     glider.style.width = `${width}px`;
     glider.style.left = `${left}px`;
 }
@@ -32,28 +32,28 @@ function updateGliderPosition(activeButton, glider) {
 function initializeCourseTabs() {
     const courseTabsWrapper = document.querySelector('.course-tabs-wrapper');
     if (!courseTabsWrapper) return;
-    
+
     const courseTabButtons = courseTabsWrapper.querySelectorAll('.course-tab-button');
     const courseTabGlider = courseTabsWrapper.querySelector('.course-tab-glider');
     const courseTabContents = courseTabsWrapper.querySelectorAll('.course-tab-content');
-    
+
     if (courseTabButtons.length === 0) return;
-    
+
     // Set initial glider position
     const activeButton = courseTabsWrapper.querySelector('.course-tab-button.active');
     if (activeButton && courseTabGlider) {
         updateGliderPosition(activeButton, courseTabGlider);
     }
-    
+
     // Add click handlers
     courseTabButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
+        button.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('data-target');
             switchCourseTab(this, targetId, courseTabButtons, courseTabContents, courseTabGlider);
         });
     });
-    
+
     // Recalculate glider on window resize
     window.addEventListener('resize', () => {
         const currentActiveButton = courseTabsWrapper.querySelector('.course-tab-button.active');
@@ -69,21 +69,21 @@ function initializeCourseTabs() {
 function switchCourseTab(activeButton, targetId, allButtons, allContents, glider) {
     // Remove active class from all buttons
     allButtons.forEach(btn => btn.classList.remove('active'));
-    
+
     // Add active class to clicked button
     activeButton.classList.add('active');
-    
+
     // Hide all tab contents
     allContents.forEach(content => {
         content.classList.remove('active');
     });
-    
+
     // Show target content
     const targetContent = document.querySelector(targetId);
     if (targetContent) {
         targetContent.classList.add('active');
     }
-    
+
     // Update glider position
     updateGliderPosition(activeButton, glider);
 }
@@ -93,20 +93,22 @@ function switchCourseTab(activeButton, targetId, allButtons, allContents, glider
  */
 function initializeCourseCardNavigation() {
     const courseCards = document.querySelectorAll('.course-card[data-course-url]');
-    
+
     courseCards.forEach(card => {
         card.style.cursor = 'pointer';
-        
-        card.addEventListener('click', function(e) {
+
+        card.addEventListener('click', function (e) {
             // Don't navigate if clicking on a button or link
-            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' || 
+            if (e.target.tagName === 'A' || e.target.tagName === 'BUTTON' ||
                 e.target.closest('a') || e.target.closest('button')) {
                 return;
             }
-            
+
             const courseUrl = this.getAttribute('data-course-url');
             if (courseUrl) {
-                window.location.href = `/courses/${courseUrl}`;
+                // FORCE TRAILING SLASH FOR SEO
+                const cleanUrl = courseUrl.endsWith('/') ? courseUrl : `${courseUrl}/`;
+                window.location.href = `/courses/${cleanUrl}`;
             }
         });
     });
@@ -120,13 +122,13 @@ function initializeCurriculumAccordion() {
     // Initialize old-style module headers (backward compatibility)
     const moduleHeaders = document.querySelectorAll('.module-header');
     moduleHeaders.forEach(header => {
-        header.addEventListener('click', function() {
+        header.addEventListener('click', function () {
             const module = this.parentElement;
             const content = module.querySelector('.module-content');
             const icon = this.querySelector('.module-icon');
-            
+
             const isExpanded = module.classList.contains('expanded');
-            
+
             if (isExpanded) {
                 module.classList.remove('expanded');
                 content.style.maxHeight = '0';
@@ -138,58 +140,58 @@ function initializeCurriculumAccordion() {
             }
         });
     });
-    
+
     // Initialize Phase accordions
     const phaseHeaders = document.querySelectorAll('.phase-header');
     phaseHeaders.forEach(header => {
-        header.addEventListener('click', function(e) {
+        header.addEventListener('click', function (e) {
             e.stopPropagation();
             toggleAccordion(this.parentElement, 'phase');
         });
-        
+
         // Add keyboard support
-        header.addEventListener('keydown', function(e) {
+        header.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
                 this.click();
             }
         });
     });
-    
+
     // Initialize Month accordions
     const monthHeaders = document.querySelectorAll('.month-header');
     monthHeaders.forEach(header => {
-        header.addEventListener('click', function(e) {
+        header.addEventListener('click', function (e) {
             e.stopPropagation();
             toggleAccordion(this.parentElement, 'month');
         });
-        
+
         // Add keyboard support
-        header.addEventListener('keydown', function(e) {
+        header.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
                 this.click();
             }
         });
     });
-    
+
     // Initialize Week accordions
     const weekHeaders = document.querySelectorAll('.week-header');
     weekHeaders.forEach(header => {
-        header.addEventListener('click', function(e) {
+        header.addEventListener('click', function (e) {
             e.stopPropagation();
             toggleAccordion(this.parentElement, 'week');
         });
-        
+
         // Add keyboard support
-        header.addEventListener('keydown', function(e) {
+        header.addEventListener('keydown', function (e) {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
                 this.click();
             }
         });
     });
-    
+
     // Initialize "Show More" buttons for long topic lists
     initializeShowMoreButtons();
 }
@@ -199,14 +201,14 @@ function initializeCurriculumAccordion() {
  */
 function toggleAccordion(section, type) {
     const isActive = section.classList.contains('active');
-    
+
     if (isActive) {
         // Collapse
         section.classList.remove('active');
     } else {
         // Expand
         section.classList.add('active');
-        
+
         // Recalculate max-height for parent sections if needed
         setTimeout(() => {
             updateParentHeights(section);
@@ -219,12 +221,12 @@ function toggleAccordion(section, type) {
  */
 function updateParentHeights(element) {
     let parent = element.parentElement;
-    
+
     while (parent) {
-        if (parent.classList.contains('phase-content') || 
-            parent.classList.contains('month-content') || 
+        if (parent.classList.contains('phase-content') ||
+            parent.classList.contains('month-content') ||
             parent.classList.contains('week-content')) {
-            
+
             const parentSection = parent.parentElement;
             if (parentSection && parentSection.classList.contains('active')) {
                 // Force recalculation by temporarily removing max-height
@@ -242,17 +244,17 @@ function updateParentHeights(element) {
  */
 function initializeShowMoreButtons() {
     const showMoreButtons = document.querySelectorAll('.show-more-btn');
-    
+
     showMoreButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
+        button.addEventListener('click', function (e) {
             e.stopPropagation();
-            
+
             const weekSection = this.closest('.week-section');
             const hiddenTopics = weekSection.querySelector('.topics-hidden');
-            
+
             if (hiddenTopics) {
                 const isHidden = hiddenTopics.style.display === 'none' || !hiddenTopics.style.display;
-                
+
                 if (isHidden) {
                     // Show hidden topics
                     hiddenTopics.style.display = 'grid';
@@ -263,7 +265,7 @@ function initializeShowMoreButtons() {
                     const hiddenCount = hiddenTopics.querySelectorAll('li').length;
                     this.innerHTML = `Show ${hiddenCount} more topics ▼`;
                 }
-                
+
                 // Update parent heights
                 setTimeout(() => {
                     updateParentHeights(weekSection);
@@ -297,7 +299,7 @@ function collapseAllAccordions() {
 function handleURLParameters() {
     const urlParams = new URLSearchParams(window.location.search);
     const activeTab = urlParams.get('tab');
-    
+
     if (activeTab) {
         // Try to find and activate the specified tab
         const targetButton = document.querySelector(`[data-target="#${activeTab}"]`);
