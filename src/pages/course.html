@@ -17,19 +17,7 @@
         id="robots-meta">
     <link rel="canonical" href="https://learn.modernagecoders.com/courses">
 
-    <!-- Prevent indexing of category filter paths like /courses/coding/* or /courses/mathematics/* -->
-    <script>
-        (function () {
-            var path = window.location.pathname;
-            // If URL contains category filter paths, add noindex
-            if (path.match(/^\/courses\/(coding|mathematics)\/.+/)) {
-                var robotsMeta = document.getElementById('robots-meta');
-                if (robotsMeta) {
-                    robotsMeta.setAttribute('content', 'noindex, nofollow');
-                }
-            }
-        })();
-    </script>
+
 
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
