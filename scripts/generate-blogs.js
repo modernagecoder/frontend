@@ -29,60 +29,60 @@ class BlogGenerator {
     async generate() {
         try {
             console.log('🚀 Generating blog posts...');
-            
+
             // Create directories if needed
             this.ensureDirectories();
-            
+
             // Load templates
             console.log('📄 Loading templates...');
             const blogTemplate = fs.readFileSync(this.blogTemplatePath, 'utf8');
             const listingTemplate = fs.readFileSync(this.listingTemplatePath, 'utf8');
-            
+
             // Get blog data files
             const blogFiles = this.getBlogFiles();
-            
+
             if (blogFiles.length === 0) {
                 console.log('⚠️  No blog files found in blog/data/');
                 return;
             }
-            
+
             console.log(`📝 Found ${blogFiles.length} blog post(s)`);
-            
+
             // Store all blog data for listing page
             const allBlogData = [];
-            
+
             // Generate each blog post
             for (const file of blogFiles) {
                 try {
                     const blogData = this.loadBlogData(file);
-                    
+
                     // Validate blog data
                     if (!this.validateBlogData(blogData, file)) {
                         continue;
                     }
-                    
+
                     console.log(`  ✏️  Generating: ${blogData.meta.slug}`);
-                    
+
                     // Generate blog post
                     this.generateBlogPost(blogTemplate, blogData);
-                    
+
                     // Store for listing page
                     allBlogData.push(blogData);
-                    
+
                 } catch (error) {
                     console.error(`  ❌ Error processing ${file}: ${error.message}`);
                     continue;
                 }
             }
-            
+
             // Generate listing page
             if (allBlogData.length > 0) {
                 console.log('📋 Generating blog listing page...');
                 this.generateListingPage(listingTemplate, allBlogData);
             }
-            
+
             console.log('✅ Blog generation complete!');
-            
+
         } catch (error) {
             console.error('❌ Fatal error:', error.message);
             process.exit(1);
@@ -98,7 +98,7 @@ class BlogGenerator {
             path.join(this.imagesDir, 'featured'),
             path.join(this.imagesDir, 'content')
         ];
-        
+
         dirs.forEach(dir => {
             if (!fs.existsSync(dir)) {
                 fs.mkdirSync(dir, { recursive: true });
@@ -131,7 +131,7 @@ class BlogGenerator {
     validateBlogData(blogData, filename) {
         const required = ['meta', 'hero', 'content'];
         const metaRequired = ['slug', 'title', 'description', 'author', 'date'];
-        
+
         // Check top-level fields
         for (const field of required) {
             if (!blogData[field]) {
@@ -139,7 +139,7 @@ class BlogGenerator {
                 return false;
             }
         }
-        
+
         // Check meta fields
         for (const field of metaRequired) {
             if (!blogData.meta[field]) {
@@ -147,14 +147,14 @@ class BlogGenerator {
                 return false;
             }
         }
-        
+
         // Validate date format (YYYY-MM-DD)
         const dateRegex = /^\d{4}-\d{2}-\d{2}$/;
         if (!dateRegex.test(blogData.meta.date)) {
             console.error(`  ❌ ${filename}: Invalid date format. Use YYYY-MM-DD`);
             return false;
         }
-        
+
         return true;
     }
 
@@ -163,19 +163,19 @@ class BlogGenerator {
      */
     generateBlogPost(template, blogData) {
         const slug = blogData.meta.slug;
-        
+
         // Create blog post directory
         const blogDir = path.join(this.generatedDir, slug);
         if (!fs.existsSync(blogDir)) {
             fs.mkdirSync(blogDir, { recursive: true });
         }
-        
+
         // Populate template
         const html = this.populateTemplate(template, blogData);
-        
+
         // Write HTML file
         fs.writeFileSync(path.join(blogDir, 'index.html'), html);
-        
+
         // Copy CSS files
         const cssFiles = ['style.css', 'responsive.css', 'blog-styles.css', 'share-button.css'];
         cssFiles.forEach(cssFile => {
@@ -185,7 +185,7 @@ class BlogGenerator {
                 fs.copyFileSync(cssSource, cssDest);
             }
         });
-        
+
         // Copy JavaScript files
         const jsFiles = ['blog-navigation.js', 'blog-interactive.js', 'navigation.js', 'mobile-navigation.js', 'share-button.js'];
         jsFiles.forEach(jsFile => {
@@ -204,23 +204,23 @@ class BlogGenerator {
         if (!sections || !Array.isArray(sections)) {
             return '';
         }
-        
+
         let html = '';
-        
+
         for (const section of sections) {
             switch (section.type) {
                 case 'paragraph':
                     const pClass = section.className || '';
                     html += `<p class="${pClass}">${section.text}</p>\n`;
                     break;
-                    
+
                 case 'heading':
                     const level = section.level || 2;
                     const hId = section.id ? ` id="${section.id}"` : '';
                     const hClass = section.className || '';
                     html += `<h${level}${hId} class="${hClass}">${section.text}</h${level}>\n`;
                     break;
-                    
+
                 case 'list':
                     const listTag = section.style === 'ordered' ? 'ol' : 'ul';
                     const listClass = section.className || '';
@@ -230,7 +230,7 @@ class BlogGenerator {
                     });
                     html += `</${listTag}>\n`;
                     break;
-                    
+
                 case 'image':
                     html += `<figure class="blog-image ${section.className || ''}">\n`;
                     html += `  <img src="${section.url}" alt="${section.alt}" loading="lazy">\n`;
@@ -239,7 +239,7 @@ class BlogGenerator {
                     }
                     html += `</figure>\n`;
                     break;
-                    
+
                 case 'code':
                     const language = section.language || 'plaintext';
                     const codeTitle = section.title ? `<div class="code-title">${section.title}</div>\n` : '';
@@ -247,7 +247,7 @@ class BlogGenerator {
                     html += `<pre><code class="language-${language}">${this.escapeHtml(section.code)}</code></pre>\n`;
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'quote':
                     html += `<blockquote class="${section.className || ''}">\n`;
                     html += `  <p>${section.text}</p>\n`;
@@ -256,7 +256,7 @@ class BlogGenerator {
                     }
                     html += `</blockquote>\n`;
                     break;
-                    
+
                 case 'callout':
                     const calloutType = section.calloutType || 'info';
                     const calloutIcon = this.getCalloutIcon(calloutType);
@@ -270,7 +270,7 @@ class BlogGenerator {
                     html += `  </div>\n`;
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'video':
                     html += `<div class="blog-video">\n`;
                     if (section.platform === 'youtube') {
@@ -285,7 +285,7 @@ class BlogGenerator {
                     }
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'table':
                     html += `<div class="table-wrapper">\n`;
                     html += `<table class="blog-table">\n`;
@@ -308,7 +308,7 @@ class BlogGenerator {
                     html += `</table>\n`;
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'accordion':
                     html += `<div class="accordion">\n`;
                     section.items.forEach((item, index) => {
@@ -324,7 +324,7 @@ class BlogGenerator {
                     });
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'button':
                     const btnClass = section.style || 'primary';
                     const btnTarget = section.newTab ? ' target="_blank" rel="noopener noreferrer"' : '';
@@ -332,12 +332,12 @@ class BlogGenerator {
                     html += `  <a href="${section.url}" class="blog-button blog-button-${btnClass}"${btnTarget}>${section.text}</a>\n`;
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'divider':
                     const dividerStyle = section.style || 'default';
                     html += `<hr class="blog-divider blog-divider-${dividerStyle}">\n`;
                     break;
-                    
+
                 case 'gallery':
                     html += `<div class="blog-gallery">\n`;
                     section.images.forEach(img => {
@@ -350,17 +350,17 @@ class BlogGenerator {
                     });
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'embed':
                     html += `<div class="blog-embed">\n`;
                     html += section.html;
                     html += `</div>\n`;
                     break;
-                    
+
                 case 'toc':
                     html += this.generateTableOfContents(sections);
                     break;
-                    
+
                 case 'columns':
                     const colCount = section.columns.length;
                     html += `<div class="blog-columns blog-columns-${colCount}">\n`;
@@ -371,15 +371,15 @@ class BlogGenerator {
                     });
                     html += `</div>\n`;
                     break;
-                    
+
                 default:
                     console.warn(`  ⚠️  Unknown content type: ${section.type}`);
             }
         }
-        
+
         return html;
     }
-    
+
     /**
      * Get callout icon based on type
      */
@@ -394,7 +394,7 @@ class BlogGenerator {
         };
         return icons[type] || icons['info'];
     }
-    
+
     /**
      * Generate table of contents from headings
      */
@@ -402,19 +402,19 @@ class BlogGenerator {
         let html = '<div class="table-of-contents">\n';
         html += '  <h3>Table of Contents</h3>\n';
         html += '  <ul class="toc-list">\n';
-        
+
         sections.forEach(section => {
             if (section.type === 'heading' && section.level === 2) {
                 const id = section.id || this.slugify(section.text);
                 html += `    <li><a href="#${id}">${section.text}</a></li>\n`;
             }
         });
-        
+
         html += '  </ul>\n';
         html += '</div>\n';
         return html;
     }
-    
+
     /**
      * Create URL-friendly slug from text
      */
@@ -456,19 +456,48 @@ class BlogGenerator {
     generateStructuredData(blogData) {
         // Generate BlogPosting schema using SEO utilities
         const blogPostingSchema = seoUtils.generateBlogPostingSchema(blogData);
-        
+
         // Generate breadcrumb schema for blog post
         const breadcrumbs = [
             { name: 'Home', url: '/' },
-            { name: 'Blog', url: '/content/blog/generated/' },
-            { name: blogData.meta.title, url: `/blog/${blogData.meta.slug}` }
+            { name: 'Blog', url: '/blog/' },
+            { name: blogData.meta.title, url: `/blog/${blogData.meta.slug}/` }
         ];
         const breadcrumbSchema = seoUtils.generateBreadcrumbSchema(breadcrumbs);
-        
+
         // Combine schemas into an array
         const schemas = [blogPostingSchema, breadcrumbSchema];
-        
+
+        // Extract FAQ items from accordion sections and add FAQPage schema
+        const faqItems = this.extractFAQItems(blogData.content?.sections || []);
+        if (faqItems.length > 0) {
+            const faqSchema = seoUtils.generateFAQSchema(faqItems);
+            schemas.push(faqSchema);
+        }
+
         return JSON.stringify(schemas, null, 2);
+    }
+
+    /**
+     * Extract FAQ items from accordion sections in content
+     */
+    extractFAQItems(sections) {
+        const faqItems = [];
+
+        for (const section of sections) {
+            if (section.type === 'accordion' && section.items) {
+                for (const item of section.items) {
+                    if (item.title && item.content) {
+                        faqItems.push({
+                            question: item.title,
+                            answer: item.content
+                        });
+                    }
+                }
+            }
+        }
+
+        return faqItems;
     }
 
     /**
@@ -476,7 +505,7 @@ class BlogGenerator {
      */
     populateTemplate(template, blogData) {
         let html = template;
-        
+
         // Meta replacements
         html = html.replace(/{{BLOG_TITLE}}/g, blogData.meta.title);
         html = html.replace(/{{BLOG_DESCRIPTION}}/g, blogData.meta.description);
@@ -485,35 +514,35 @@ class BlogGenerator {
         html = html.replace(/{{BLOG_CATEGORY}}/g, blogData.meta.category || 'Blog');
         html = html.replace(/{{BLOG_TAGS}}/g, (blogData.meta.tags || []).join(', '));
         html = html.replace(/{{BLOG_READ_TIME}}/g, blogData.meta.readTime || '5 min read');
-        
+
         // Author replacements
         html = html.replace(/{{BLOG_AUTHOR_NAME}}/g, blogData.meta.author.name);
         html = html.replace(/{{BLOG_AUTHOR_BIO}}/g, blogData.meta.author.bio || '');
         html = html.replace(/{{BLOG_AUTHOR_AVATAR}}/g, blogData.meta.author.avatar || '/images/default-avatar.png');
-        
+
         // Date replacements
         html = html.replace(/{{BLOG_DATE}}/g, this.formatDate(blogData.meta.date));
         html = html.replace(/{{BLOG_DATE_ISO}}/g, blogData.meta.date);
         html = html.replace(/{{BLOG_DATE_MODIFIED_ISO}}/g, blogData.meta.dateModified || blogData.meta.date);
-        
+
         // Hero section replacements
         html = html.replace(/{{HERO_TITLE}}/g, blogData.hero.title || blogData.meta.title);
         html = html.replace(/{{HERO_SUBTITLE}}/g, blogData.hero.subtitle || blogData.meta.description);
         html = html.replace(/{{HERO_IMAGE_URL}}/g, blogData.hero.featuredImage.url);
         html = html.replace(/{{HERO_IMAGE_ALT}}/g, blogData.hero.featuredImage.alt);
-        
+
         // Content replacement
         const contentHtml = this.generateContent(blogData.content.sections);
         html = html.replace(/{{BLOG_CONTENT}}/g, contentHtml);
-        
+
         // Related posts replacement
         const relatedPostsHtml = this.generateRelatedPosts(blogData.relatedPosts || []);
         html = html.replace(/{{RELATED_POSTS}}/g, relatedPostsHtml);
-        
+
         // Structured data replacement
         const structuredData = this.generateStructuredData(blogData);
         html = html.replace(/{{STRUCTURED_DATA}}/g, structuredData);
-        
+
         return html;
     }
 
@@ -524,14 +553,14 @@ class BlogGenerator {
         if (!relatedSlugs || relatedSlugs.length === 0) {
             return '<p class="no-related">No related posts yet.</p>';
         }
-        
+
         let html = '';
-        
+
         for (const slug of relatedSlugs) {
             try {
                 const relatedFile = `${slug}.json`;
                 const relatedPath = path.join(this.dataDir, relatedFile);
-                
+
                 if (fs.existsSync(relatedPath)) {
                     const relatedData = JSON.parse(fs.readFileSync(relatedPath, 'utf8'));
                     html += this.generateBlogCard(relatedData);
@@ -540,7 +569,7 @@ class BlogGenerator {
                 console.warn(`  ⚠️  Could not load related post: ${slug}`);
             }
         }
-        
+
         return html || '<p class="no-related">No related posts available.</p>';
     }
 
@@ -574,11 +603,11 @@ class BlogGenerator {
         allBlogData.sort((a, b) => {
             return new Date(b.meta.date) - new Date(a.meta.date);
         });
-        
+
         // Find featured post if any
         const featuredPost = allBlogData.find(blog => blog.meta.featured === true);
         let featuredHtml = '';
-        
+
         if (featuredPost) {
             featuredHtml = `
                 <section class="featured-post-section section">
@@ -601,22 +630,22 @@ class BlogGenerator {
                 </section>
             `;
         }
-        
+
         // Generate blog cards for all posts
         let cardsHtml = '';
         for (const blogData of allBlogData) {
             cardsHtml += this.generateBlogCard(blogData);
         }
-        
+
         // Populate template
         let html = template;
         html = html.replace(/{{FEATURED_POST}}/g, featuredHtml);
         html = html.replace(/{{BLOG_CARDS}}/g, cardsHtml);
-        
+
         // Write listing page
         const listingPath = path.join(this.generatedDir, 'index.html');
         fs.writeFileSync(listingPath, html);
-        
+
         console.log('  ✅ Blog listing page generated');
     }
 }

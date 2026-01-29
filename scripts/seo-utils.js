@@ -17,18 +17,18 @@ function validateTitle(title, maxLength = 60) {
     console.warn('[SEO] Empty title provided, using default');
     return SEO_CONFIG.defaultTitle;
   }
-  
+
   const trimmedTitle = title.trim();
-  
+
   if (trimmedTitle.length > maxLength) {
     console.warn(`[SEO] Title too long: ${trimmedTitle.length} characters (max: ${maxLength})`);
     return trimmedTitle.substring(0, maxLength - 3) + '...';
   }
-  
+
   if (trimmedTitle.length < 30) {
     console.warn(`[SEO] Title too short: ${trimmedTitle.length} characters (recommended min: 30)`);
   }
-  
+
   return trimmedTitle;
 }
 
@@ -43,18 +43,18 @@ function validateDescription(description, maxLength = 160) {
     console.warn('[SEO] Empty description provided, using default');
     return SEO_CONFIG.defaultDescription;
   }
-  
+
   const trimmedDesc = description.trim();
-  
+
   if (trimmedDesc.length > maxLength) {
     console.warn(`[SEO] Description too long: ${trimmedDesc.length} characters (max: ${maxLength})`);
     return trimmedDesc.substring(0, maxLength - 3) + '...';
   }
-  
+
   if (trimmedDesc.length < 120) {
     console.warn(`[SEO] Description too short: ${trimmedDesc.length} characters (recommended min: 120)`);
   }
-  
+
   return trimmedDesc;
 }
 
@@ -69,31 +69,32 @@ function validateImageUrl(imageUrl, type = 'og') {
     console.warn('[SEO] Empty image URL provided, using default');
     return SEO_CONFIG.defaultImage;
   }
-  
+
   // Ensure absolute URL
   if (!imageUrl.startsWith('http')) {
     imageUrl = SEO_CONFIG.domain + (imageUrl.startsWith('/') ? '' : '/') + imageUrl;
   }
-  
+
   return imageUrl;
 }
 
 /**
  * Generate canonical URL
- * @param {string} path - The page path (e.g., '/courses/python')
+ * @param {string} path - The page path (e.g., '/courses/python' or '/blog/slug/')
  * @returns {string} - Full canonical URL
  */
 function generateCanonicalUrl(path) {
   if (!path) {
     return SEO_CONFIG.domain + '/';
   }
-  
-  // Remove trailing slash except for root
-  const cleanPath = path === '/' ? '/' : path.replace(/\/$/, '');
-  
+
+  // Preserve trailing slash if it was provided (important for blog/course URLs)
+  // Only normalize if path doesn't end with /
+  const hasTrailingSlash = path.endsWith('/');
+
   // Ensure path starts with /
-  const normalizedPath = cleanPath.startsWith('/') ? cleanPath : '/' + cleanPath;
-  
+  const normalizedPath = path.startsWith('/') ? path : '/' + path;
+
   return SEO_CONFIG.domain + normalizedPath;
 }
 
@@ -107,7 +108,7 @@ function formatKeywords(keywords, maxKeywords = 10) {
   if (!Array.isArray(keywords) || keywords.length === 0) {
     return SEO_CONFIG.defaultKeywords.slice(0, maxKeywords).join(', ');
   }
-  
+
   return keywords
     .slice(0, maxKeywords)
     .map(k => k.trim())
@@ -131,13 +132,13 @@ function generateMetaTags(options) {
     twitterCard = 'summary_large_image',
     author = 'Modern Age Coders'
   } = options;
-  
+
   const validatedTitle = validateTitle(title);
   const validatedDescription = validateDescription(description);
   const validatedKeywords = formatKeywords(keywords);
   const canonicalUrl = generateCanonicalUrl(canonical);
   const validatedImage = validateImageUrl(ogImage);
-  
+
   return `
     <!-- Basic Meta Tags -->
     <meta charset="UTF-8">
@@ -171,7 +172,7 @@ function generateMetaTags(options) {
  */
 function generateOrganizationSchema() {
   const org = SEO_CONFIG.organization;
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -249,7 +250,7 @@ function generateEducationalOrganizationSchema() {
  */
 function generateCourseSchema(courseData) {
   const meta = courseData.meta;
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "Course",
@@ -294,27 +295,27 @@ function generateCourseSchema(courseData) {
  */
 function generateBlogPostingSchema(blogData) {
   const meta = blogData.meta;
-  
+
   // Ensure we have a valid image URL
   const imageUrl = blogData.hero?.featuredImage?.url || SEO_CONFIG.defaultImage;
   const fullImageUrl = validateImageUrl(imageUrl);
-  
+
   // Build author information
   const author = {
     "@type": "Person",
     "name": meta.author?.name || "Modern Age Coders Team"
   };
-  
+
   // Add author bio if available
   if (meta.author?.bio) {
     author.description = meta.author.bio;
   }
-  
+
   // Add author URL if available (could be profile page)
   if (meta.author?.url) {
     author.url = meta.author.url;
   }
-  
+
   // Build publisher information with complete organization details
   const publisher = {
     "@type": "Organization",
@@ -327,7 +328,7 @@ function generateBlogPostingSchema(blogData) {
       "height": 512
     }
   };
-  
+
   // Add contact information to publisher
   if (SEO_CONFIG.organization.email) {
     publisher.contactPoint = {
@@ -336,7 +337,7 @@ function generateBlogPostingSchema(blogData) {
       "email": SEO_CONFIG.organization.email
     };
   }
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -354,7 +355,7 @@ function generateBlogPostingSchema(blogData) {
     "dateModified": meta.dateModified || meta.date,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": generateCanonicalUrl(`/blog/${meta.slug}`)
+      "@id": generateCanonicalUrl(`/blog/${meta.slug}/`)
     },
     "articleSection": meta.category || "Programming",
     "keywords": Array.isArray(meta.keywords) ? meta.keywords.join(', ') : (meta.keywords || ''),
@@ -362,7 +363,7 @@ function generateBlogPostingSchema(blogData) {
     "timeRequired": meta.readTime || undefined,
     "inLanguage": "en-US",
     "isAccessibleForFree": true,
-    "url": generateCanonicalUrl(`/blog/${meta.slug}`)
+    "url": generateCanonicalUrl(`/blog/${meta.slug}/`)
   };
 }
 
@@ -460,10 +461,10 @@ function generateContactPageSchema(contactInfo = {}) {
  */
 function generateItemListSchema(items, listType = 'courses') {
   const listName = listType === 'courses' ? 'Modern Age Coders Course Catalog' : 'Modern Age Coders Blog Posts';
-  const listDescription = listType === 'courses' 
+  const listDescription = listType === 'courses'
     ? 'Comprehensive coding and mathematics courses for all ages'
     : 'Expert coding tutorials and programming insights';
-  
+
   return {
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -517,12 +518,12 @@ function generateFAQSchema(faqItems) {
 function generatePageSchema(pageType, pageData = {}) {
   const schemas = [];
   const pageConfig = SEO_CONFIG.pages[pageType];
-  
+
   if (!pageConfig || !pageConfig.schema) {
     logSEOWarning(`No schema configuration found for page type: ${pageType}`);
     return schemas;
   }
-  
+
   pageConfig.schema.forEach(schemaType => {
     switch (schemaType) {
       case 'Organization':
@@ -564,7 +565,7 @@ function generatePageSchema(pageType, pageData = {}) {
         logSEOWarning(`Unknown schema type: ${schemaType}`);
     }
   });
-  
+
   return schemas;
 }
 
@@ -579,7 +580,7 @@ function validatePageSEO(pageElement) {
     warnings: [],
     errors: []
   };
-  
+
   // Check for title
   const title = pageElement.querySelector ? pageElement.querySelector('title')?.textContent : pageElement.title;
   if (!title) {
@@ -588,10 +589,10 @@ function validatePageSEO(pageElement) {
   } else if (title.length < 30 || title.length > 60) {
     report.warnings.push(`Title length ${title.length} is outside recommended range (30-60 characters)`);
   }
-  
+
   // Check for meta description
-  const description = pageElement.querySelector ? 
-    pageElement.querySelector('meta[name="description"]')?.content : 
+  const description = pageElement.querySelector ?
+    pageElement.querySelector('meta[name="description"]')?.content :
     pageElement.description;
   if (!description) {
     report.errors.push('Missing meta description');
@@ -599,39 +600,39 @@ function validatePageSEO(pageElement) {
   } else if (description.length < 120 || description.length > 160) {
     report.warnings.push(`Description length ${description.length} is outside recommended range (120-160 characters)`);
   }
-  
+
   // Check for canonical URL
-  const canonical = pageElement.querySelector ? 
-    pageElement.querySelector('link[rel="canonical"]')?.href : 
+  const canonical = pageElement.querySelector ?
+    pageElement.querySelector('link[rel="canonical"]')?.href :
     pageElement.canonical;
   if (!canonical) {
     report.warnings.push('Missing canonical URL');
   }
-  
+
   // Check for Open Graph tags
-  const ogTitle = pageElement.querySelector ? 
-    pageElement.querySelector('meta[property="og:title"]')?.content : 
+  const ogTitle = pageElement.querySelector ?
+    pageElement.querySelector('meta[property="og:title"]')?.content :
     pageElement.ogTitle;
   if (!ogTitle) {
     report.warnings.push('Missing Open Graph title');
   }
-  
-  const ogImage = pageElement.querySelector ? 
-    pageElement.querySelector('meta[property="og:image"]')?.content : 
+
+  const ogImage = pageElement.querySelector ?
+    pageElement.querySelector('meta[property="og:image"]')?.content :
     pageElement.ogImage;
   if (!ogImage) {
     report.warnings.push('Missing Open Graph image');
   }
-  
+
   // Check for viewport meta tag
-  const viewport = pageElement.querySelector ? 
-    pageElement.querySelector('meta[name="viewport"]')?.content : 
+  const viewport = pageElement.querySelector ?
+    pageElement.querySelector('meta[name="viewport"]')?.content :
     pageElement.viewport;
   if (!viewport) {
     report.errors.push('Missing viewport meta tag');
     report.valid = false;
   }
-  
+
   return report;
 }
 
