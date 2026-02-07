@@ -355,7 +355,7 @@ function generateBlogPostingSchema(blogData) {
     "dateModified": meta.dateModified || meta.date,
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": generateCanonicalUrl(`/blog/${meta.slug}/`)
+      "@id": generateCanonicalUrl(`/blog/${meta.slug}`)
     },
     "articleSection": meta.category || "Programming",
     "keywords": Array.isArray(meta.keywords) ? meta.keywords.join(', ') : (meta.keywords || ''),
@@ -363,7 +363,7 @@ function generateBlogPostingSchema(blogData) {
     "timeRequired": meta.readTime || undefined,
     "inLanguage": "en-US",
     "isAccessibleForFree": true,
-    "url": generateCanonicalUrl(`/blog/${meta.slug}/`)
+    "url": generateCanonicalUrl(`/blog/${meta.slug}`)
   };
 }
 

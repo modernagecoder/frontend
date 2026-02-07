@@ -460,8 +460,8 @@ class BlogGenerator {
         // Generate breadcrumb schema for blog post
         const breadcrumbs = [
             { name: 'Home', url: '/' },
-            { name: 'Blog', url: '/blog/' },
-            { name: blogData.meta.title, url: `/blog/${blogData.meta.slug}/` }
+            { name: 'Blog', url: '/blog' },
+            { name: blogData.meta.title, url: `/blog/${blogData.meta.slug}` }
         ];
         const breadcrumbSchema = seoUtils.generateBreadcrumbSchema(breadcrumbs);
 

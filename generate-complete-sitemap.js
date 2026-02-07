@@ -130,7 +130,7 @@ ${fs.readdirSync('./content/blog/generated').filter(item => {
       const indexPath = path.join(fullPath, 'index.html');
       return fs.statSync(fullPath).isDirectory() && fs.existsSync(indexPath);
     }).map(folder => `  <url>
-    <loc>${BASE_URL}/blog/${folder}/</loc>
+    <loc>${BASE_URL}/blog/${folder}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

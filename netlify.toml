@@ -294,25 +294,21 @@
   status = 301
   force = true
 
+# Blog posts - serve both with and without trailing slash (no 301 redirect for SEO)
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/content/blog/generated/:slug/index.html"
+  status = 200
+
 [[redirects]]
   from = "/blog/:slug/"
   to = "/content/blog/generated/:slug/index.html"
   status = 200
 
-[[redirects]]
-  from = "/blog/:slug"
-  to = "/blog/:slug/"
-  status = 301
-  force = true
-
+# Course pages (keep trailing slash redirect for courses as requested)
 [[redirects]]
   from = "/courses/:course/"
   to = "/content/courses/generated/:course/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/blog/*"
-  to = "/content/blog/generated/:splat/index.html"
   status = 200
 
 # 404 fallback
