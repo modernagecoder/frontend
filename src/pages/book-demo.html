@@ -1187,31 +1187,10 @@
                         </div>
 
                         <div class="form-group-new">
-                            <label for="subject">What would you like to learn?</label>
-                            <select id="subject" name="subject" class="form-input form-select" required>
-                                <option value="">Select a subject</option>
-                                <optgroup label="Coding Courses">
-                                    <option value="Python Programming">Python Programming</option>
-                                    <option value="Scratch for Kids">Scratch for Kids</option>
-                                    <option value="Web Development">Web Development</option>
-                                    <option value="App Development">App Development</option>
-                                    <option value="Game Development">Game Development</option>
-                                    <option value="AI & Machine Learning">AI & Machine Learning</option>
-                                    <option value="Data Science">Data Science</option>
-                                </optgroup>
-                                <optgroup label="Maths Courses">
-                                    <option value="Elementary Math">Elementary Math (Class 1-5)</option>
-                                    <option value="Middle School Math">Middle School Math (Class 6-8)</option>
-                                    <option value="High School Math">High School Math (Class 9-12)</option>
-                                    <option value="College Math">College Level Math</option>
-                                </optgroup>
-                            </select>
-                        </div>
-
-                        <div class="form-group-new">
-                            <label for="message">Tell us more (optional)</label>
+                            <label for="message">What would you like to learn?</label>
                             <textarea id="message" name="message" class="form-input"
-                                placeholder="E.g., My 10-year-old wants to learn Python, preferred time slots, any specific goals..."></textarea>
+                                placeholder="E.g., Python for my 12-year-old, Web development course, Math tutoring..."
+                                required minlength="10"></textarea>
                             <span class="error-msg" id="messageError"></span>
                         </div>
 
@@ -1684,10 +1663,18 @@
 
     <!-- Background Canvas Script -->
     <script>
-        // API Base URL Configuration
-        const API_BASE_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-            ? 'http://localhost:5000'
-            : 'https://api.modernagecoders.com';
+        // API Configuration
+        const API_CONFIG = {
+            development: 'http://localhost:5000',
+            production: 'https://backend-modernagecoders.vercel.app',
+            getBaseURL: function () {
+                if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                    return this.development;
+                }
+                return this.production;
+            }
+        };
+        const API_BASE_URL = API_CONFIG.getBaseURL();
 
         // Background Animation
         const canvas = document.getElementById('background-canvas');
@@ -1817,22 +1804,17 @@
             e.preventDefault();
             clearError('email'); clearError('phone'); clearError('message');
 
-            const subjectEl = document.getElementById('subject');
-            const messageEl = document.getElementById('message');
-            const selectedSubject = subjectEl ? subjectEl.value : '';
-            const additionalMessage = messageEl ? messageEl.value.trim() : '';
-
             const formData = {
                 name: document.getElementById('name').value.trim(),
                 email: document.getElementById('email').value.trim(),
                 contact: document.getElementById('phone').value.trim(),
-                message: `[Demo Request - ${selectedSubject}] ${additionalMessage}`.trim()
+                message: '[Demo Request] ' + document.getElementById('message').value.trim()
             };
 
             let hasErrors = false;
             if (!validateEmail(formData.email)) { showError('email', 'Please enter a valid email'); hasErrors = true; }
             if (!validatePhone(formData.contact)) { showError('phone', 'Please enter a valid 10-digit number'); hasErrors = true; }
-            if (!selectedSubject) { alert('Please select a subject for your demo class'); hasErrors = true; }
+            if (formData.message.length < 25) { showError('message', 'Please enter at least 10 characters'); hasErrors = true; }
             if (hasErrors) return;
 
             setLoading(true);
