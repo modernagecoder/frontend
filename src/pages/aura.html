@@ -2,29 +2,43 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aura Type - Master Your Typing Flow | Modern Age Coders</title>
-    <meta name="description" content="Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
-    
+    <meta name="description"
+        content="Aura Type - A minimalistic, aesthetic typing experience to improve your flow, precision and WPM. Practice with psychological words and motivational phrases.">
+
     <!-- SEO Meta Tags -->
-    <meta name="keywords" content="typing practice, typing test, WPM test, typing game, improve typing speed, typing trainer, aura type, modern age coders">
+    <meta name="keywords"
+        content="typing practice, typing test, WPM test, typing game, improve typing speed, typing trainer, aura type, modern age coders">
     <meta name="author" content="Modern Age Coders">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://learn.modernagecoders.com/aura">
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/aura" />
-    
+
     <!-- Open Graph / Social Media -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://learn.modernagecoders.com/aura">
     <meta property="og:title" content="Aura Type - Master Your Typing Flow">
-    <meta property="og:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
+    <meta property="og:description"
+        content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
     <meta property="og:site_name" content="Modern Age Coders">
-    
+
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Aura Type - Master Your Typing Flow">
-    <meta name="twitter:description" content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
+    <meta name="twitter:description"
+        content="A minimalistic, aesthetic typing experience to improve your flow, precision and WPM.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -159,6 +173,7 @@
             .mini-nav {
                 padding: 0.75rem 1rem;
             }
+
             .mini-nav a {
                 font-size: 0.85rem;
                 padding: 0.4rem 0.8rem;
@@ -257,7 +272,9 @@
             transition: transform 0.3s ease;
         }
 
-        h1, h2, h3 {
+        h1,
+        h2,
+        h3 {
             font-weight: 700;
             letter-spacing: -0.02em;
             background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
@@ -266,9 +283,23 @@
             -webkit-text-fill-color: transparent;
         }
 
-        h1 { font-size: 4rem; margin-bottom: 0.5rem; }
-        h2 { font-size: 2.5rem; margin-bottom: 1rem; }
-        h3 { font-size: 1.5rem; margin-bottom: 1rem; color: var(--text-muted); -webkit-text-fill-color: initial; font-weight: 500; }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-muted);
+            -webkit-text-fill-color: initial;
+            font-weight: 500;
+        }
 
         .subtitle {
             color: var(--text-muted);
@@ -299,7 +330,10 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
 
         .btn-leaderboard {
             background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
@@ -400,12 +434,29 @@
             position: relative;
         }
 
-        #target-word span { transition: color 0.1s; }
-        .char-correct { color: var(--text-main); }
-        .char-wrong { color: var(--accent-error); text-decoration: underline; text-decoration-color: var(--accent-error); }
-        .char-pending { color: rgba(255, 255, 255, 0.2); }
+        #target-word span {
+            transition: color 0.1s;
+        }
 
-        #input-field { position: absolute; opacity: 0; top: -1000px; }
+        .char-correct {
+            color: var(--text-main);
+        }
+
+        .char-wrong {
+            color: var(--accent-error);
+            text-decoration: underline;
+            text-decoration-color: var(--accent-error);
+        }
+
+        .char-pending {
+            color: rgba(255, 255, 255, 0.2);
+        }
+
+        #input-field {
+            position: absolute;
+            opacity: 0;
+            top: -1000px;
+        }
 
         .progress-container {
             width: 100%;
@@ -525,8 +576,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         .lb-list {
@@ -904,7 +962,8 @@
             gap: 0.5rem;
         }
 
-        .rules-section p, .rules-section li {
+        .rules-section p,
+        .rules-section li {
             color: var(--text-muted);
             font-size: 0.9rem;
             line-height: 1.6;
@@ -934,7 +993,8 @@
             margin-top: 0.5rem;
         }
 
-        .score-table th, .score-table td {
+        .score-table th,
+        .score-table td {
             padding: 0.6rem 0.8rem;
             text-align: left;
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -986,47 +1046,182 @@
         }
 
         @media (max-width: 1024px) {
-            h1 { font-size: 3rem; }
-            #target-word { font-size: 4rem; }
-            .glass-panel { padding: 2rem; width: 85%; }
+            h1 {
+                font-size: 3rem;
+            }
+
+            #target-word {
+                font-size: 4rem;
+            }
+
+            .glass-panel {
+                padding: 2rem;
+                width: 85%;
+            }
         }
 
         @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-            .subtitle { font-size: 1rem; margin-bottom: 2rem; }
-            .level-info { grid-template-columns: 1fr; gap: 0.8rem; }
-            .glass-panel { padding: 1.5rem; width: 95%; border-radius: 16px; }
-            .hud-top { margin-bottom: 0.5rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; }
-            .hud-stat { flex-direction: row; justify-content: space-between; background: rgba(255, 255, 255, 0.03); padding: 0.4rem 0.8rem; border-radius: 8px; width: 100%; }
-            .hud-stat span { margin-bottom: 0; margin-right: 0.5rem; font-size: 0.65rem; }
-            .hud-stat strong { font-size: 1rem; }
-            #target-word { font-size: 2.5rem; height: auto; min-height: 50px; line-height: 1.2; }
-            .word-display-area { height: auto; min-height: 60px; margin-bottom: 0.5rem; }
-            .progress-container { margin-top: 0.5rem; }
-            .btn { padding: 0.8rem 2rem; font-size: 1rem; width: 100%; max-width: 300px; }
-            input[type="text"] { font-size: 16px; }
-            .leaderboard-content { padding: 1.5rem; }
-            .lb-header h2 { font-size: 1.5rem; }
-            .lb-entry { padding: 0.8rem; }
-            .lb-rank { width: 35px; height: 35px; font-size: 0.85rem; }
-            .lb-player-stats { flex-direction: row; gap: 0.3rem; margin-top: 0.3rem; }
-            .lb-wpm-number { font-size: 2rem; }
-            .lb-wpm-display { min-width: 80px; }
-            .lb-accuracy-badge { font-size: 0.75rem; padding: 0.25rem 0.5rem; }
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+                margin-bottom: 2rem;
+            }
+
+            .level-info {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .glass-panel {
+                padding: 1.5rem;
+                width: 95%;
+                border-radius: 16px;
+            }
+
+            .hud-top {
+                margin-bottom: 0.5rem;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0.5rem;
+            }
+
+            .hud-stat {
+                flex-direction: row;
+                justify-content: space-between;
+                background: rgba(255, 255, 255, 0.03);
+                padding: 0.4rem 0.8rem;
+                border-radius: 8px;
+                width: 100%;
+            }
+
+            .hud-stat span {
+                margin-bottom: 0;
+                margin-right: 0.5rem;
+                font-size: 0.65rem;
+            }
+
+            .hud-stat strong {
+                font-size: 1rem;
+            }
+
+            #target-word {
+                font-size: 2.5rem;
+                height: auto;
+                min-height: 50px;
+                line-height: 1.2;
+            }
+
+            .word-display-area {
+                height: auto;
+                min-height: 60px;
+                margin-bottom: 0.5rem;
+            }
+
+            .progress-container {
+                margin-top: 0.5rem;
+            }
+
+            .btn {
+                padding: 0.8rem 2rem;
+                font-size: 1rem;
+                width: 100%;
+                max-width: 300px;
+            }
+
+            input[type="text"] {
+                font-size: 16px;
+            }
+
+            .leaderboard-content {
+                padding: 1.5rem;
+            }
+
+            .lb-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .lb-entry {
+                padding: 0.8rem;
+            }
+
+            .lb-rank {
+                width: 35px;
+                height: 35px;
+                font-size: 0.85rem;
+            }
+
+            .lb-player-stats {
+                flex-direction: row;
+                gap: 0.3rem;
+                margin-top: 0.3rem;
+            }
+
+            .lb-wpm-number {
+                font-size: 2rem;
+            }
+
+            .lb-wpm-display {
+                min-width: 80px;
+            }
+
+            .lb-accuracy-badge {
+                font-size: 0.75rem;
+                padding: 0.25rem 0.5rem;
+            }
         }
 
         @media (max-width: 480px) {
-            h1 { font-size: 2rem; }
-            #target-word { font-size: 2rem; word-break: break-all; min-height: 40px; }
-            .badge-container { gap: 0.8rem; }
-            .badge { width: 40px; height: 40px; font-size: 1rem; }
-            .btn { padding: 1rem; }
-            .app-container { padding: 4rem 0 2rem; }
-            .glass-panel { margin: 1rem; }
-            .type-hint { display: none; }
-            .word-display-area { min-height: 50px; margin-bottom: 0; }
-            .hud-stat span { font-size: 0.6rem; }
-            .hud-stat strong { font-size: 0.9rem; }
+            h1 {
+                font-size: 2rem;
+            }
+
+            #target-word {
+                font-size: 2rem;
+                word-break: break-all;
+                min-height: 40px;
+            }
+
+            .badge-container {
+                gap: 0.8rem;
+            }
+
+            .badge {
+                width: 40px;
+                height: 40px;
+                font-size: 1rem;
+            }
+
+            .btn {
+                padding: 1rem;
+            }
+
+            .app-container {
+                padding: 4rem 0 2rem;
+            }
+
+            .glass-panel {
+                margin: 1rem;
+            }
+
+            .type-hint {
+                display: none;
+            }
+
+            .word-display-area {
+                min-height: 50px;
+                margin-bottom: 0;
+            }
+
+            .hud-stat span {
+                font-size: 0.6rem;
+            }
+
+            .hud-stat strong {
+                font-size: 0.9rem;
+            }
         }
 
         /* Mobile scroll indicator */
@@ -1035,26 +1230,31 @@
                 max-height: none;
                 overflow-y: visible;
             }
-            
-            .rules-modal, .leaderboard-modal {
+
+            .rules-modal,
+            .leaderboard-modal {
                 align-items: flex-start;
                 padding-top: 1rem;
             }
-            
-            .rules-content, .leaderboard-content {
+
+            .rules-content,
+            .leaderboard-content {
                 margin: 1rem;
                 max-height: none;
             }
         }
 
-        button { touch-action: manipulation; }
-        
+        button {
+            touch-action: manipulation;
+        }
+
         /* Smooth scrolling */
         html {
             scroll-behavior: smooth;
         }
     </style>
 </head>
+
 <body>
     <!-- Minimalist Navigation -->
     <nav class="mini-nav" id="mini-nav">
@@ -1086,7 +1286,9 @@
             </div>
 
             <div style="margin-bottom: 2rem; color: var(--text-muted); font-size: 0.9rem;">
-                <p>Press <span style="border: 1px solid rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px;">Space</span> to Start</p>
+                <p>Press <span
+                        style="border: 1px solid rgba(255,255,255,0.2); padding: 2px 6px; border-radius: 4px;">Space</span>
+                    to Start</p>
             </div>
 
             <button id="btn-start" class="btn">Begin Journey</button>
@@ -1095,7 +1297,8 @@
                 <button id="btn-view-leaderboard" class="btn btn-leaderboard">
                     <span>🏆</span> Leaderboard
                 </button>
-                <button id="btn-how-to-play" class="btn btn-leaderboard" style="background: linear-gradient(135deg, #4ade80, #22c55e);">
+                <button id="btn-how-to-play" class="btn btn-leaderboard"
+                    style="background: linear-gradient(135deg, #4ade80, #22c55e);">
                     <span>📖</span> How to Play
                 </button>
             </div>
@@ -1116,7 +1319,8 @@
 
             <input type="text" id="input-field" autocomplete="off" spellcheck="false">
 
-            <div class="type-hint" style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.6;">
+            <div class="type-hint"
+                style="color: var(--text-muted); font-size: 0.9rem; margin-top: 0.5rem; opacity: 0.6;">
                 Type the word above
             </div>
 
@@ -1154,10 +1358,17 @@
             </div>
 
             <div class="badge-container" id="final-badges">
-                <div class="badge" id="badge-speed" title="Speed (>60 WPM)">⚡<span class="badge-tooltip">Flow Master<br><small style="opacity: 0.8; font-size: 0.75em;">60+ WPM</small></span></div>
-                <div class="badge" id="badge-acc" title="Accuracy (100%)">🎯<span class="badge-tooltip">Perfectionist<br><small style="opacity: 0.8; font-size: 0.75em;">98%+ Accuracy</small></span></div>
-                <div class="badge" id="badge-endurance" title="Completed All">🛡️<span class="badge-tooltip">Resilient<br><small style="opacity: 0.8; font-size: 0.75em;">Complete All Stages</small></span></div>
-                <div class="badge" id="badge-god" title="God Mode (>100 WPM)">✨<span class="badge-tooltip">Transcendent<br><small style="opacity: 0.8; font-size: 0.75em;">100+ WPM</small></span></div>
+                <div class="badge" id="badge-speed" title="Speed (>60 WPM)">⚡<span class="badge-tooltip">Flow
+                        Master<br><small style="opacity: 0.8; font-size: 0.75em;">60+ WPM</small></span></div>
+                <div class="badge" id="badge-acc" title="Accuracy (100%)">🎯<span
+                        class="badge-tooltip">Perfectionist<br><small style="opacity: 0.8; font-size: 0.75em;">98%+
+                            Accuracy</small></span></div>
+                <div class="badge" id="badge-endurance" title="Completed All">🛡️<span
+                        class="badge-tooltip">Resilient<br><small style="opacity: 0.8; font-size: 0.75em;">Complete All
+                            Stages</small></span></div>
+                <div class="badge" id="badge-god" title="God Mode (>100 WPM)">✨<span
+                        class="badge-tooltip">Transcendent<br><small style="opacity: 0.8; font-size: 0.75em;">100+
+                            WPM</small></span></div>
             </div>
 
             <div id="name-entry" style="margin-top: 2.5rem; display: none;">
@@ -1165,11 +1376,14 @@
                 <input type="text" id="player-name" placeholder="Enter your name" maxlength="12"
                     style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.2); padding: 0.8rem 1.5rem; color: white; font-family: var(--font-ui); text-align: center; font-size: 1.1rem; border-radius: 8px; outline: none; width: 200px;">
                 <br>
-                <button id="btn-submit-score" class="btn" style="margin-top: 1rem; font-size: 0.9rem; padding: 0.8rem 2rem;">Save Record</button>
+                <button id="btn-submit-score" class="btn"
+                    style="margin-top: 1rem; font-size: 0.9rem; padding: 0.8rem 2rem;">Save Record</button>
             </div>
 
             <div style="margin-top: 2.5rem;">
-                <button id="btn-restart" class="btn" style="background: transparent; border: none; color: var(--text-muted); font-size: 0.9rem;">Restart Journey</button>
+                <button id="btn-restart" class="btn"
+                    style="background: transparent; border: none; color: var(--text-muted); font-size: 0.9rem;">Restart
+                    Journey</button>
             </div>
         </div>
     </div>
@@ -1191,7 +1405,7 @@
     <div id="rules-modal" class="rules-modal">
         <div class="rules-content">
             <button class="lb-close-btn" id="rules-close-btn">✕</button>
-            
+
             <div class="rules-header">
                 <span style="font-size: 2.5rem; display: block; margin-bottom: 0.5rem;">📖</span>
                 <h2>How to Play</h2>
@@ -1200,7 +1414,8 @@
 
             <div class="rules-section">
                 <h3>🎮 Game Overview</h3>
-                <p>Aura Type is a 3-stage typing challenge. Type the words that appear on screen as fast and accurately as possible. Complete all stages to finish your journey!</p>
+                <p>Aura Type is a 3-stage typing challenge. Type the words that appear on screen as fast and accurately
+                    as possible. Complete all stages to finish your journey!</p>
             </div>
 
             <div class="rules-section">
@@ -1242,7 +1457,9 @@
                     <li><span class="score-highlight">+15 Perfect Bonus</span> — No typos in a word</li>
                     <li><span class="score-highlight">-20 Penalty</span> — Wrong word costs you points!</li>
                 </ul>
-                <p style="margin-top: 0.75rem;"><strong style="color: var(--text-main);">Example:</strong> Typing "harmony" perfectly in Precision = <span class="score-highlight">(7 × 10) + 10 + 15 = 95 points</span></p>
+                <p style="margin-top: 0.75rem;"><strong style="color: var(--text-main);">Example:</strong> Typing
+                    "harmony" perfectly in Precision = <span class="score-highlight">(7 × 10) + 10 + 15 = 95
+                        points</span></p>
             </div>
 
             <div class="rules-section">
@@ -1250,15 +1467,18 @@
                 <p>Rankings are determined by:</p>
                 <ul>
                     <li><strong style="color: var(--text-main);">Primary:</strong> WPM (faster typist wins)</li>
-                    <li><strong style="color: var(--text-main);">Tiebreaker:</strong> Accuracy (higher accuracy wins)</li>
+                    <li><strong style="color: var(--text-main);">Tiebreaker:</strong> Accuracy (higher accuracy wins)
+                    </li>
                 </ul>
-                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Same WPM? The more accurate typist takes the higher rank!</p>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Same WPM? The more accurate typist takes the higher
+                    rank!</p>
             </div>
 
             <div class="rules-section">
                 <h3>⚡ WPM (Words Per Minute)</h3>
                 <p>WPM measures your typing speed. It's calculated as:</p>
-                <p style="text-align: center; margin: 0.75rem 0;"><span class="score-highlight">WPM = (Characters Typed ÷ 5) ÷ Minutes Elapsed</span></p>
+                <p style="text-align: center; margin: 0.75rem 0;"><span class="score-highlight">WPM = (Characters Typed
+                        ÷ 5) ÷ Minutes Elapsed</span></p>
                 <p>A "word" is standardized as 5 characters. Higher WPM = faster typing!</p>
             </div>
 
@@ -1506,7 +1726,7 @@
         // --- LEADERBOARD FUNCTIONS ---
         function openLeaderboard() {
             els.lbModal.classList.add('active');
-            gsap.fromTo(els.lbModal.querySelector('.leaderboard-content'), 
+            gsap.fromTo(els.lbModal.querySelector('.leaderboard-content'),
                 { opacity: 0, scale: 0.9, y: 30 },
                 { opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" }
             );
@@ -1523,14 +1743,14 @@
             const topClass = index === 0 ? 'top-1' : index === 1 ? 'top-2' : index === 2 ? 'top-3' : '';
             const accuracy = player.accuracy || 0;
             const wpm = player.wpm || 0;
-            
+
             // Choose icon based on accuracy
             let accuracyIcon = '🎯';
             if (accuracy >= 98) accuracyIcon = '💎';
             else if (accuracy >= 95) accuracyIcon = '⭐';
             else if (accuracy >= 90) accuracyIcon = '🎯';
             else if (accuracy >= 80) accuracyIcon = '✓';
-            
+
             return `
                 <div class="lb-entry ${topClass}">
                     <div class="lb-rank">${index + 1}</div>
@@ -1746,7 +1966,7 @@
             // Calculate final accuracy based on correct chars vs total chars typed
             const acc = state.charsTyped > 0 ? Math.max(0, Math.round((state.correctChars / state.charsTyped) * 100)) : 0;
             state.accuracy = acc; // Store for saving to database
-            
+
             document.getElementById('badge-speed').classList.toggle('unlocked', state.wpm > 60);
             document.getElementById('badge-acc').classList.toggle('unlocked', acc >= 98);
             document.getElementById('badge-endurance').classList.toggle('unlocked', true);
@@ -1782,10 +2002,10 @@
 
         // --- RULES MODAL ---
         const rulesModal = document.getElementById('rules-modal');
-        
+
         function openRules() {
             rulesModal.classList.add('active');
-            gsap.fromTo(rulesModal.querySelector('.rules-content'), 
+            gsap.fromTo(rulesModal.querySelector('.rules-content'),
                 { opacity: 0, scale: 0.9, y: 30 },
                 { opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(1.7)" }
             );
@@ -1833,19 +2053,19 @@
             const btn = document.getElementById('btn-submit-score');
             btn.disabled = true;
             btn.innerText = "Saving...";
-            
+
             // Calculate final accuracy before saving
             const finalAccuracy = state.charsTyped > 0 ? Math.max(0, Math.round((state.correctChars / state.charsTyped) * 100)) : 0;
-            
+
             try {
                 // Check if this name already exists
                 const existingQuery = query(lbRef, orderBy("name"));
                 const existingSnap = await getDocs(existingQuery);
                 const existingPlayers = existingSnap.docs.map(d => ({ id: d.id, ...d.data() }));
-                
+
                 // Find exact match for this name
                 const exactMatch = existingPlayers.find(p => p.name === name);
-                
+
                 if (exactMatch) {
                     // Same player - check if new score is better
                     if (state.wpm > (exactMatch.wpm || 0)) {
@@ -1866,11 +2086,11 @@
                     // New player - but check if similar names exist (Vansh, Vansh2, etc.)
                     const baseName = name.replace(/\d+$/, ''); // Remove trailing numbers
                     const similarNames = existingPlayers.filter(p => p.name.startsWith(baseName));
-                    
+
                     if (similarNames.length > 0 && similarNames[0].name === baseName) {
                         // Similar name exists - ask user if they're the same person
                         const isSamePerson = confirm(`A player named "${baseName}" already exists. Are you the same person?\n\nClick OK if YES (we'll update your score)\nClick CANCEL if NO (we'll add a number to your name)`);
-                        
+
                         if (isSamePerson) {
                             // Update existing player's score if better
                             const existingPlayer = similarNames[0];
@@ -1895,7 +2115,7 @@
                                 newName = `${baseName}${counter}`;
                             }
                             name = newName;
-                            
+
                             // Save with new numbered name
                             await addDoc(lbRef, {
                                 name: name,
@@ -1918,11 +2138,11 @@
                         showToast("Score Saved to Cloud!");
                     }
                 }
-                
+
                 els.nameEntry.style.display = 'none';
-            } catch (e) { 
-                console.error(e); 
-                showToast("Error Saving Score"); 
+            } catch (e) {
+                console.error(e);
+                showToast("Error Saving Score");
             }
             btn.disabled = false;
             btn.innerText = "Save Record";
@@ -1939,16 +2159,16 @@
         if (lbRef) {
             onSnapshot(query(lbRef, orderBy("wpm", "desc"), limit(50)), (snap) => {
                 let players = snap.docs.map(d => d.data());
-                
+
                 // Sort by WPM first, then by accuracy as tiebreaker
                 players.sort((a, b) => {
                     if ((b.wpm || 0) !== (a.wpm || 0)) return (b.wpm || 0) - (a.wpm || 0);
                     return (b.accuracy || 0) - (a.accuracy || 0);
                 });
-                
+
                 // Take top 25 after sorting
                 players = players.slice(0, 25);
-                
+
                 // Render leaderboard
                 if (players.length === 0) {
                     els.lbFullList.innerHTML = `
@@ -1968,4 +2188,5 @@
         switchScreen('start');
     </script>
 </body>
+
 </html>

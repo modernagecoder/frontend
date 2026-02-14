@@ -36,17 +36,9 @@
   - `/public/images/og-pricing.jpg` - pricing page
   - Create OG images for each course and blog post too
 
-### BUG 1.2: Footer Has Broken Category Links
-- **File:** `components/footer.html:56-60`
-- **Problem:** Footer links use `/category/kids.html`, `/category/teens.html` etc. but netlify.toml redirects `/category/kids` to `/category/kids.html` (301). These `.html` links ARE configured, but the URL structure is inconsistent with the rest of the site (which uses clean URLs).
-- **Impact:** Inconsistent URL pattern confuses Google. Some pages use clean URLs, category pages use `.html` extension.
-- **Fix:** Change footer links to clean URLs (`/category/kids`) and update netlify.toml to serve them directly instead of 301 redirecting.
 
-### BUG 1.3: Inconsistent Path References in index.html
-- **File:** `src/pages/index.html:293` vs `src/pages/index.html:225`
-- **Problem:** Some image paths use `/images/java-teens.png` (line 293, missing leading slash consistency: `images/java-teens.png`) while others use `/images/kids-coding.png` (line 225, with leading slash). The relative path `images/java-teens.png` will BREAK because the page is served at `/` via Netlify redirect.
-- **Impact:** Some course card images may not load correctly.
-- **Fix:** Ensure ALL image paths start with `/images/` (absolute paths).
+
+
 
 
 

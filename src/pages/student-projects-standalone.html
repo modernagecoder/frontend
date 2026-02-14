@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO Meta Tags -->
     <title>Student Projects - Modern Age Coders | Showcase of Amazing Work</title>
-    <meta name="description" content="Explore incredible projects built by our students. From web apps to AI projects, see what our students have created and get inspired!">
-    
+    <meta name="description"
+        content="Explore incredible projects built by our students. From web apps to AI projects, see what our students have created and get inspired!">
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
 
@@ -17,7 +29,7 @@
     <link rel="stylesheet" href="/css/mobile-nav-fix.css">
     <link rel="stylesheet" href="/css/keyboard-navigation.css">
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-    
+
     <style>
         /* Student Projects Specific Styles */
         .projects-hero {
@@ -167,10 +179,21 @@
             z-index: 2;
         }
 
-        .project-badge.web { background: rgba(78, 205, 196, 0.9); }
-        .project-badge.ai { background: rgba(168, 85, 247, 0.9); }
-        .project-badge.game { background: rgba(255, 165, 0, 0.9); }
-        .project-badge.mobile { background: rgba(59, 130, 246, 0.9); }
+        .project-badge.web {
+            background: rgba(78, 205, 196, 0.9);
+        }
+
+        .project-badge.ai {
+            background: rgba(168, 85, 247, 0.9);
+        }
+
+        .project-badge.game {
+            background: rgba(255, 165, 0, 0.9);
+        }
+
+        .project-badge.mobile {
+            background: rgba(59, 130, 246, 0.9);
+        }
 
         /* Project Content */
         .project-content {
@@ -178,7 +201,7 @@
             background: rgba(16, 16, 28, 0.9);
             min-height: 200px;
         }
-        
+
         .project-content * {
             visibility: visible !important;
             opacity: 1 !important;
@@ -374,9 +397,12 @@
                                 </svg>
                             </a>
                             <div class="dropdown-content">
-                                <a href="course.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages 6-12)</a>
-                                <a href="course.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages 13-18)</a>
-                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For College Students</a>
+                                <a href="course.html?tab=coding&subtab=kids" class="dropdown-item">For Kids (Ages
+                                    6-12)</a>
+                                <a href="course.html?tab=coding&subtab=teens" class="dropdown-item">For Teens (Ages
+                                    13-18)</a>
+                                <a href="course.html?tab=coding&subtab=college" class="dropdown-item">For College
+                                    Students</a>
                             </div>
                         </li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
@@ -387,7 +413,8 @@
                         <li class="nav-item">
                             <a href="login.html" class="nav-link login-btn">Login</a>
                         </li>
-                        <li class="nav-item" style="margin-left: 10px;"><a href="course.html" class="cta-button">Start Learning</a></li>
+                        <li class="nav-item" style="margin-left: 10px;"><a href="course.html" class="cta-button">Start
+                                Learning</a></li>
                     </ul>
                     <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
                         <span></span>
@@ -403,7 +430,8 @@
         <!-- Hero Section -->
         <div class="projects-hero">
             <h1>🚀 Student Projects Showcase</h1>
-            <p>Discover amazing projects built by our talented students. From web apps to AI innovations, see what's possible when creativity meets code!</p>
+            <p>Discover amazing projects built by our talented students. From web apps to AI innovations, see what's
+                possible when creativity meets code!</p>
         </div>
 
         <!-- Stats Section -->
@@ -475,32 +503,32 @@
 
         function animate() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            
+
             particles.forEach(p => {
                 p.y -= p.speed;
                 p.rotation += p.rotationSpeed;
-                
+
                 if (p.y < -30) {
                     p.y = canvas.height + 30;
                     p.x = Math.random() * canvas.width;
                     p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
                 }
-                
+
                 ctx.save();
                 ctx.translate(p.x, p.y);
                 ctx.rotate(p.rotation);
                 ctx.font = `${p.size}px monospace`;
-                
+
                 if (p.isMath) {
                     ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
                 } else {
                     ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
                 }
-                
+
                 ctx.fillText(p.char, 0, 0);
                 ctx.restore();
             });
-            
+
             requestAnimationFrame(animate);
         }
 
@@ -517,7 +545,7 @@
     <!-- EMBEDDED Projects Data and Logic -->
     <script>
         console.log('[Student Projects] Starting...');
-        
+
         // Projects Data - EMBEDDED
         const studentProjects = [
             {
@@ -666,7 +694,7 @@
                 console.error('[Student Projects] Grid element not found!');
                 return;
             }
-            
+
             console.log('[Student Projects] Displaying', projectsToDisplay.length, 'projects');
             grid.innerHTML = '';
 
@@ -712,7 +740,7 @@
                     </div>
                 `;
 
-                card.addEventListener('click', function(e) {
+                card.addEventListener('click', function (e) {
                     if (!e.target.closest('.project-link')) {
                         window.open(project.link, '_blank');
                     }
@@ -724,10 +752,10 @@
 
         // Filter functionality
         document.querySelectorAll('.filter-btn').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                 this.classList.add('active');
-                
+
                 const filter = this.getAttribute('data-filter');
                 const filtered = filter === 'all' ? studentProjects : studentProjects.filter(p => p.category === filter);
                 displayProjects(filtered);
@@ -742,4 +770,5 @@
     <!-- Load Unified Mobile Navigation JavaScript -->
     <script src="/js/unified-mobile-nav.js"></script>
 </body>
+
 </html>

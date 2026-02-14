@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Projects - Modern Age Coders</title>
-    
+
     <style>
         * {
             margin: 0;
@@ -142,10 +153,21 @@
             z-index: 2;
         }
 
-        .project-badge.web { background: rgba(78, 205, 196, 0.95); }
-        .project-badge.ai { background: rgba(168, 85, 247, 0.95); }
-        .project-badge.game { background: rgba(255, 165, 0, 0.95); }
-        .project-badge.mobile { background: rgba(59, 130, 246, 0.95); }
+        .project-badge.web {
+            background: rgba(78, 205, 196, 0.95);
+        }
+
+        .project-badge.ai {
+            background: rgba(168, 85, 247, 0.95);
+        }
+
+        .project-badge.game {
+            background: rgba(255, 165, 0, 0.95);
+        }
+
+        .project-badge.mobile {
+            background: rgba(59, 130, 246, 0.95);
+        }
 
         /* Project Content */
         .project-content {
@@ -262,7 +284,7 @@
 
     <script>
         console.log('=== STUDENT PROJECTS PAGE LOADING ===');
-        
+
         // Projects Data
         const studentProjects = [
             {
@@ -362,7 +384,7 @@
                     </div>
                 `;
 
-                card.addEventListener('click', function(e) {
+                card.addEventListener('click', function (e) {
                     if (!e.target.closest('.project-link')) {
                         window.open(project.link, '_blank');
                     }
@@ -376,10 +398,10 @@
 
         // Filter functionality
         document.querySelectorAll('.filter-btn').forEach(button => {
-            button.addEventListener('click', function() {
+            button.addEventListener('click', function () {
                 document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                 this.classList.add('active');
-                
+
                 const filter = this.getAttribute('data-filter');
                 const filtered = filter === 'all' ? studentProjects : studentProjects.filter(p => p.category === filter);
                 displayProjects(filtered);
@@ -388,8 +410,9 @@
 
         // Initial display
         displayProjects(studentProjects);
-        
+
         console.log('=== PAGE LOADED SUCCESSFULLY ===');
     </script>
 </body>
+
 </html>

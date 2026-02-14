@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Status Check</title>
@@ -23,6 +34,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -30,10 +42,12 @@
             min-height: 100vh;
             padding: 20px;
         }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
         }
+
         h1 {
             text-align: center;
             margin: 30px 0;
@@ -42,6 +56,7 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         .status-card {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid rgba(255, 255, 255, 0.1);
@@ -50,16 +65,19 @@
             margin: 20px 0;
             backdrop-filter: blur(10px);
         }
+
         .status-header {
             display: flex;
             align-items: center;
             justify-content: space-between;
             margin-bottom: 15px;
         }
+
         .status-title {
             font-size: 1.3rem;
             font-weight: 600;
         }
+
         .status-indicator {
             width: 20px;
             height: 20px;
@@ -67,26 +85,39 @@
             background: #666;
             animation: pulse 2s infinite;
         }
+
         .status-indicator.checking {
             background: #ffd93d;
         }
+
         .status-indicator.success {
             background: #4ecdc4;
             animation: none;
         }
+
         .status-indicator.error {
             background: #ff6b6b;
             animation: none;
         }
+
         @keyframes pulse {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.5; }
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.5;
+            }
         }
+
         .status-message {
             color: #cbd5e1;
             line-height: 1.6;
             margin: 10px 0;
         }
+
         .status-details {
             background: rgba(0, 0, 0, 0.3);
             border-radius: 8px;
@@ -96,6 +127,7 @@
             font-size: 0.9rem;
             overflow-x: auto;
         }
+
         .btn {
             background: linear-gradient(135deg, #a855f7, #9333ea);
             color: white;
@@ -108,13 +140,16 @@
             margin: 10px 5px 10px 0;
             transition: transform 0.2s;
         }
+
         .btn:hover {
             transform: translateY(-2px);
         }
+
         .btn:disabled {
             opacity: 0.5;
             cursor: not-allowed;
         }
+
         .instructions {
             background: rgba(168, 85, 247, 0.1);
             border-left: 4px solid #a855f7;
@@ -122,29 +157,36 @@
             border-radius: 8px;
             margin: 20px 0;
         }
+
         .instructions h3 {
             margin-bottom: 15px;
             color: #a855f7;
         }
+
         .instructions ol {
             margin-left: 20px;
         }
+
         .instructions li {
             margin: 10px 0;
             line-height: 1.6;
         }
+
         .success-text {
             color: #4ecdc4;
             font-weight: 600;
         }
+
         .error-text {
             color: #ff6b6b;
             font-weight: 600;
         }
+
         .warning-text {
             color: #ffd93d;
             font-weight: 600;
         }
+
         code {
             background: rgba(0, 0, 0, 0.5);
             padding: 2px 8px;
@@ -154,6 +196,7 @@
     </style>
     <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/check-status" />
 </head>
+
 <body>
     <div class="container">
         <h1>🔍 System Status Check</h1>
@@ -247,7 +290,7 @@
                 const data = await response.json();
 
                 if (response.ok) {
-                    setStatus('backend', 'success', 
+                    setStatus('backend', 'success',
                         `<span class="success-text">✅ Backend is running!</span><br>
                         Server: ${BACKEND_URL}<br>
                         Version: ${data.version || 'N/A'}`,
@@ -255,14 +298,14 @@
                     );
                     return true;
                 } else {
-                    setStatus('backend', 'error', 
+                    setStatus('backend', 'error',
                         `<span class="error-text">❌ Backend returned error</span>`,
                         data
                     );
                     return false;
                 }
             } catch (error) {
-                setStatus('backend', 'error', 
+                setStatus('backend', 'error',
                     `<span class="error-text">❌ Cannot connect to backend</span><br>
                     Error: ${error.message}<br><br>
                     <span class="warning-text">Make sure:</span><br>
@@ -282,7 +325,7 @@
                 const data = await response.json();
 
                 if (response.ok && data.database === 'connected') {
-                    setStatus('mongodb', 'success', 
+                    setStatus('mongodb', 'success',
                         `<span class="success-text">✅ MongoDB is connected!</span><br>
                         Database: ${data.database}<br>
                         Status: Connected`,
@@ -290,7 +333,7 @@
                     );
                     return true;
                 } else {
-                    setStatus('mongodb', 'error', 
+                    setStatus('mongodb', 'error',
                         `<span class="error-text">❌ MongoDB is not connected</span><br>
                         Database status: ${data.database || 'unknown'}<br><br>
                         <span class="warning-text">Make sure:</span><br>
@@ -300,7 +343,7 @@
                     return false;
                 }
             } catch (error) {
-                setStatus('mongodb', 'error', 
+                setStatus('mongodb', 'error',
                     `<span class="error-text">❌ Cannot check MongoDB status</span><br>
                     Error: ${error.message}`
                 );
@@ -330,7 +373,7 @@
                 const data = await response.json();
 
                 if (response.ok) {
-                    setStatus('contact', 'success', 
+                    setStatus('contact', 'success',
                         `<span class="success-text">✅ Contact API is working!</span><br>
                         Test submission successful<br>
                         Contact ID: ${data.contactId || 'N/A'}<br><br>
@@ -339,7 +382,7 @@
                     );
                     return true;
                 } else {
-                    setStatus('contact', 'error', 
+                    setStatus('contact', 'error',
                         `<span class="error-text">❌ Contact API returned error</span><br>
                         Status: ${response.status}<br>
                         Error: ${data.error || data.message || 'Unknown error'}`,
@@ -348,7 +391,7 @@
                     return false;
                 }
             } catch (error) {
-                setStatus('contact', 'error', 
+                setStatus('contact', 'error',
                     `<span class="error-text">❌ Cannot connect to contact API</span><br>
                     Error: ${error.message}<br><br>
                     <span class="warning-text">Make sure backend server is running!</span>`
@@ -372,7 +415,7 @@
 
             // Update overall status
             if (backendOk && mongodbOk && contactOk) {
-                setStatus('overall', 'success', 
+                setStatus('overall', 'success',
                     `<span class="success-text">🎉 All systems operational!</span><br><br>
                     ✅ Backend server is running<br>
                     ✅ MongoDB is connected<br>
@@ -386,7 +429,7 @@
                 if (!mongodbOk) issues.push('MongoDB');
                 if (!contactOk) issues.push('Contact API');
 
-                setStatus('overall', 'error', 
+                setStatus('overall', 'error',
                     `<span class="error-text">⚠️ Some systems need attention</span><br><br>
                     Issues found with: ${issues.join(', ')}<br><br>
                     Please check the details above and follow the instructions.`
@@ -400,4 +443,5 @@
         });
     </script>
 </body>
+
 </html>
