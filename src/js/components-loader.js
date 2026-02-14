@@ -3,7 +3,7 @@
  * Dynamically loads navigation and footer components into pages
  */
 
-(function() {
+(function () {
     'use strict';
 
     /**
@@ -12,7 +12,7 @@
     function getBasePath() {
         const path = window.location.pathname;
         const scriptTag = document.currentScript || document.querySelector('script[src*="components-loader"]');
-        
+
         if (scriptTag && scriptTag.src) {
             // Calculate path based on script location
             const scriptPath = scriptTag.src;
@@ -20,14 +20,14 @@
             const baseUrl = scriptDir.replace(/\/js$/, '');
             return baseUrl + '/components/';
         }
-        
+
         // Fallback: calculate from current page location
         if (path.includes('/src/pages/')) {
             return '../../components/';
         } else if (path.includes('/src/')) {
             return '../components/';
         }
-        
+
         // Default to root-relative path
         return '/components/';
     }
@@ -75,17 +75,27 @@
         console.log('Initializing components...');
         const basePath = getBasePath();
         console.log('Base path:', basePath);
-        
+
+        // Check if we are in development mode
+        const isDev = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const cacheBust = isDev ? `?t=${Date.now()}` : '';
+
         // Load navigation
-        const navHTML = await loadComponent(basePath + 'nav.html');
+        const navHTML = await loadComponent(basePath + 'nav.html' + cacheBust);
         if (navHTML) {
             insertComponent('nav-placeholder', navHTML);
         }
 
         // Load footer
-        const footerHTML = await loadComponent(basePath + 'footer.html');
+        const footerHTML = await loadComponent(basePath + 'footer.html' + cacheBust);
         if (footerHTML) {
             insertComponent('footer-placeholder', footerHTML);
+
+            // Initialize copyright date
+            const copyrightElem = document.getElementById("copyright");
+            if (copyrightElem) {
+                copyrightElem.innerHTML = "&copy; " + new Date().getFullYear() + " Modern Age Coders. All Rights Reserved.";
+            }
         }
 
         // Trigger custom event after components are loaded
