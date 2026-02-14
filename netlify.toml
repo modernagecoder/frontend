@@ -175,6 +175,11 @@
   to = "/src/pages/bootstrap.html"
   status = 200
 
+[[redirects]]
+  from = "/search"
+  to = "/src/pages/search.html"
+  status = 200
+
 # City Landing Pages - SEO Optimized
 [[redirects]]
   from = "/best-coding-class-in-kolkata"

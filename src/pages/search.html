@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Search - Modern Age Coders | Find Courses, Resources & More</title>
+    <meta name="description"
+        content="Search across Modern Age Coders courses, blog posts, resources, and programs. Find the perfect coding or math course for kids, teens, and professionals.">
+    <meta name="keywords"
+        content="search Modern Age Coders, find coding courses, search programming classes, educational search">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/search">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/search" />
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/search">
+    <meta property="og:title" content="Search - Modern Age Coders">
+    <meta property="og:description"
+        content="Search across Modern Age Coders courses, blog posts, resources, and programs.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/search">
+    <meta name="twitter:title" content="Search - Modern Age Coders">
+    <meta name="twitter:description"
+        content="Search across Modern Age Coders courses, blog posts, resources, and programs.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="/css/search.css">
+</head>
+
+<body class="search-page">
+    <!-- Skip link for keyboard navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <canvas id="background-canvas"></canvas>
+
+    <!-- ============================================ -->
+    <!-- NAVIGATION COMPONENT                         -->
+    <!-- Loaded from: /components/nav.html            -->
+    <!-- ============================================ -->
+    <div id="nav-placeholder"></div>
+
+    <main id="main">
+        <section class="section">
+            <!-- Search Hero -->
+            <div class="search-hero">
+                <h1>Search</h1>
+                <p>Find courses, resources, and everything Modern Age Coders has to offer</p>
+
+                <div class="search-input-container">
+                    <input type="text" id="searchInput" placeholder="Search for courses, topics, resources..."
+                        autocomplete="off" autofocus>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Search Status -->
+            <div class="search-status" id="searchStatus" style="display: none;"></div>
+
+            <!-- Results Container -->
+            <div class="search-results-container" id="searchResults">
+                <!-- Initial State -->
+                <div class="search-initial" id="searchInitial">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <h3>What are you looking for?</h3>
+                    <p>Type a keyword to search across courses, blog posts, and resources</p>
+
+                    <div class="popular-topics">
+                        <h4>Popular Searches</h4>
+                        <div class="topic-pills">
+                            <button class="topic-pill" data-query="Python">Python</button>
+                            <button class="topic-pill" data-query="Web Development">Web Development</button>
+                            <button class="topic-pill" data-query="AI">AI</button>
+                            <button class="topic-pill" data-query="Kids Coding">Kids Coding</button>
+                            <button class="topic-pill" data-query="Mathematics">Mathematics</button>
+                            <button class="topic-pill" data-query="Java">Java</button>
+                            <button class="topic-pill" data-query="DSA">DSA</button>
+                            <button class="topic-pill" data-query="Summer Camp">Summer Camp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // ============================
+        // SEARCHABLE CONTENT INDEX
+        // ============================
+        const searchIndex = [
+            // ---- CODING COURSES: KIDS ----
+            {
+                title: "Kids Coding — Blocks Masterclass",
+                description: "A complete journey into the world of coding — from basics to advanced. Kids learn block coding, game design, animations, and web app development in a fun and interactive way.",
+                url: "/courses/kids-coding-blocks-masterclass",
+                tags: ["coding", "kids"]
+            },
+            {
+                title: "Web Design for Kids — AI Web Development Course",
+                description: "Create your own colorful websites with HTML and CSS. Build fun projects and share them with friends!",
+                url: "/courses/kids-ai-web-development-course",
+                tags: ["coding", "kids", "web development"]
+            },
+
+            // ---- CODING COURSES: TEENS ----
+            {
+                title: "Java Programming Masterclass for Teens",
+                description: "Master one of the world's most powerful programming languages! Teens learn core concepts of Java — from variables, loops, and functions to object-oriented programming.",
+                url: "/courses/java-programming-masterclass-for-teens",
+                tags: ["coding", "teens", "java"]
+            },
+            {
+                title: "AI & Machine Learning Masterclass for Teens",
+                description: "Step into the world of Artificial Intelligence and Machine Learning! Explore how computers learn, make predictions, and create smart solutions using Python and real-world datasets.",
+                url: "/courses/ai-ml-masterclass-teens",
+                tags: ["coding", "teens", "ai", "machine learning", "python"]
+            },
+
+            // ---- CODING COURSES: COLLEGE ----
+            {
+                title: "Advanced Algorithms & Data Structures",
+                description: "Master complex algorithms and data structures essential for technical interviews and competitive programming.",
+                url: "/courses/data-structures-algorithms-masterclass-college",
+                tags: ["coding", "college", "dsa", "algorithms"]
+            },
+            {
+                title: "Artificial Intelligence Complete Masterclass",
+                description: "Comprehensive AI course covering all aspects of artificial intelligence and applications for college students.",
+                url: "/courses/artificial-intelligence-complete-masterclass-college",
+                tags: ["coding", "college", "ai", "python"]
+            },
+
+            // ---- CODING COURSES: GIRLS ----
+            {
+                title: "Queen Coders — Advanced Tech Leadership",
+                description: "A special batch designed exclusively for girls! Build coding confidence, leadership skills, and creativity in a supportive and empowering environment.",
+                url: "/courses/queen-coders-advanced-tech-leadership",
+                tags: ["coding", "girls"]
+            },
+            {
+                title: "Princess Coders — Complete Coding Masterclass",
+                description: "A special coding batch for young princesses who dream big! Learn to create apps, games, and websites while building confidence and leadership in the digital world.",
+                url: "/courses/princess-coders-complete-coding-masterclass",
+                tags: ["coding", "girls", "kids"]
+            },
+
+            // ---- MATH COURSES ----
+            {
+                title: "Elementary Mathematics",
+                description: "Build strong foundations in numbers, operations, fractions, geometry, and problem-solving for grades 1-5.",
+                url: "/courses/elementary-mathematics-complete-masterclass",
+                tags: ["math", "elementary"]
+            },
+            {
+                title: "Olympiad & Competition Math",
+                description: "Master advanced problem-solving techniques and prepare for mathematical competitions at various levels.",
+                url: "/courses/olympiad-competition-mathematics-mastery",
+                tags: ["math", "competition", "olympiad"]
+            },
+            {
+                title: "Middle School Mathematics",
+                description: "Master pre-algebra, ratios, proportions, geometry fundamentals, and statistical thinking for grades 6-8.",
+                url: "/courses/comprehensive-middle-school-mathematics-mastery",
+                tags: ["math", "middle school"]
+            },
+
+            // ---- PAGES ----
+            {
+                title: "All Courses",
+                description: "Browse our complete catalog of Coding and Mathematics courses for kids, teens, college students, and professionals.",
+                url: "/courses",
+                tags: ["page"]
+            },
+            {
+                title: "About Modern Age Coders",
+                description: "Learn about our mission, team, and how we are transforming coding and math education for all ages.",
+                url: "/about",
+                tags: ["page"]
+            },
+            {
+                title: "Pricing & Plans",
+                description: "View our pricing plans for group classes, 1-on-1 sessions, and international students. Affordable coding and math education.",
+                url: "/pricing",
+                tags: ["page", "pricing"]
+            },
+            {
+                title: "Contact Us",
+                description: "Get in touch with Modern Age Coders. Reach out for enrollment, queries, or partnerships.",
+                url: "/contact",
+                tags: ["page"]
+            },
+            {
+                title: "FAQ — Frequently Asked Questions",
+                description: "Find answers to common questions about our courses, pricing, enrollment process, and more.",
+                url: "/faq",
+                tags: ["page"]
+            },
+            {
+                title: "Blog — Articles & Resources",
+                description: "Read our latest articles on coding, mathematics, technology trends, and educational tips.",
+                url: "/blog",
+                tags: ["page", "blog"]
+            },
+            {
+                title: "Free Resources",
+                description: "Access free coding and math resources, tutorials, cheat sheets, and practice problems.",
+                url: "/free-resources",
+                tags: ["page", "resources"]
+            },
+            {
+                title: "Student Labs",
+                description: "Interactive coding labs where students can practice, experiment, and build projects in a guided environment.",
+                url: "/student-labs",
+                tags: ["page", "labs"]
+            },
+            {
+                title: "Coding Roadmap",
+                description: "A structured path to learn coding from beginner to advanced. Follow our step-by-step roadmap to master programming.",
+                url: "/coding-roadmap",
+                tags: ["page", "roadmap"]
+            },
+            {
+                title: "Student Projects",
+                description: "Explore amazing projects built by our students. See real work from kids, teens, and college learners.",
+                url: "/student-projects",
+                tags: ["page", "projects"]
+            },
+            {
+                title: "Success Stories",
+                description: "Read about the achievements of our students and how Modern Age Coders helped them reach their goals.",
+                url: "/success-stories",
+                tags: ["page"]
+            },
+            {
+                title: "Book a Demo Class",
+                description: "Schedule a free demo class and experience our teaching methodology firsthand. Try before you enroll!",
+                url: "/book-demo",
+                tags: ["page", "demo"]
+            },
+            {
+                title: "Bootstrap Course",
+                description: "Learn Bootstrap — the most popular CSS framework for building responsive, mobile-first websites quickly.",
+                url: "/bootstrap",
+                tags: ["page", "web development", "bootstrap"]
+            },
+            {
+                title: "Business Solutions & Corporate Training",
+                description: "Enterprise-grade training programs to upskill your team. Custom corporate training in AI, web development, and more.",
+                url: "/business-solutions",
+                tags: ["page", "corporate"]
+            },
+            {
+                title: "Login — Student & Teacher Dashboard",
+                description: "Log in to access your personalized student or teacher dashboard, class schedules, and assignments.",
+                url: "/login",
+                tags: ["page"]
+            },
+
+            // ---- SUMMER CAMPS ----
+            {
+                title: "Summer Coding Camp",
+                description: "Intensive summer coding programs for all ages. Learn programming, build projects, and have fun during summer break!",
+                url: "/summer-coding-camp",
+                tags: ["summer camp"]
+            },
+            {
+                title: "Summer Coding Camp for Kids",
+                description: "Fun-filled summer coding camp designed for young learners. Block coding, game design, and creative projects.",
+                url: "/summer-coding-camp-kids",
+                tags: ["summer camp", "kids"]
+            },
+            {
+                title: "Summer Coding Camp for Teens",
+                description: "Advanced summer programs for teenagers. Build real apps, learn Python, and explore AI during summer.",
+                url: "/summer-coding-camp-teens",
+                tags: ["summer camp", "teens"]
+            },
+            {
+                title: "Summer Coding Camp for Adults",
+                description: "Career-focused summer programs for professionals looking to upskill in web development, AI, or data science.",
+                url: "/summer-coding-camp-adults",
+                tags: ["summer camp", "adults", "corporate"]
+            },
+
+            // ---- TOPICS / KEYWORDS ----
+            {
+                title: "Python Programming",
+                description: "Learn Python programming from scratch. Our courses cover Python basics, automation, data science, and AI — for all ages.",
+                url: "/courses",
+                tags: ["topic", "python"]
+            },
+            {
+                title: "Web Development",
+                description: "Master HTML, CSS, JavaScript, and modern frameworks. Build responsive websites and full-stack web applications.",
+                url: "/courses",
+                tags: ["topic", "web development"]
+            },
+            {
+                title: "Artificial Intelligence & Machine Learning",
+                description: "Explore AI and ML concepts, neural networks, NLP, and real-world applications with hands-on projects.",
+                url: "/courses",
+                tags: ["topic", "ai", "machine learning"]
+            },
+            {
+                title: "Coding Challenges",
+                description: "Sharpen your skills with daily coding challenges. Practice problem-solving, logic, and algorithmic thinking.",
+                url: "/coding-challenges",
+                tags: ["page", "challenges"]
+            },
+            {
+                title: "Maths Challenges",
+                description: "Brain-boosting math challenges to improve problem‐solving, logical reasoning, and mental arithmetic.",
+                url: "/maths-challenges",
+                tags: ["page", "math", "challenges"]
+            },
+            {
+                title: "Common Mistakes Students Make",
+                description: "Avoid the most common mistakes students make in coding and math. Tips and guidance to learn smarter.",
+                url: "/mistakes-students-make",
+                tags: ["page", "tips"]
+            },
+            {
+                title: "Programming Languages Guide",
+                description: "Compare popular programming languages — Python, Java, JavaScript, C++ and more. Find the right language for your goals.",
+                url: "/coding-lang",
+                tags: ["page", "languages"]
+            }
+        ];
+
+        // ============================
+        // SEARCH ENGINE
+        // ============================
+        const searchInput = document.getElementById('searchInput');
+        const searchResults = document.getElementById('searchResults');
+        const searchStatus = document.getElementById('searchStatus');
+        const searchInitial = document.getElementById('searchInitial');
+
+        let debounceTimer;
+
+        function performSearch(query) {
+            query = query.trim();
+
+            if (!query) {
+                searchStatus.style.display = 'none';
+                searchResults.innerHTML = '';
+                searchResults.appendChild(searchInitial);
+                searchInitial.style.display = '';
+                return;
+            }
+
+            const terms = query.toLowerCase().split(/\s+/);
+            const scored = [];
+
+            searchIndex.forEach(item => {
+                let score = 0;
+                const titleLower = item.title.toLowerCase();
+                const descLower = item.description.toLowerCase();
+                const tagsJoined = item.tags.join(' ').toLowerCase();
+
+                terms.forEach(term => {
+                    // Exact title match (highest weight)
+                    if (titleLower.includes(term)) score += 10;
+                    // Tag match (high weight)
+                    if (tagsJoined.includes(term)) score += 6;
+                    // Description match
+                    if (descLower.includes(term)) score += 3;
+                });
+
+                // Bonus for query appearing as a full phrase
+                if (titleLower.includes(query.toLowerCase())) score += 5;
+
+                if (score > 0) {
+                    scored.push({ ...item, score });
+                }
+            });
+
+            // Sort by score descending
+            scored.sort((a, b) => b.score - a.score);
+
+            renderResults(scored, query);
+        }
+
+        function highlightMatch(text, query) {
+            if (!query) return text;
+            const terms = query.split(/\s+/).filter(Boolean);
+            let highlighted = text;
+            terms.forEach(term => {
+                const regex = new RegExp(`(${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+                highlighted = highlighted.replace(regex, '<mark>$1</mark>');
+            });
+            return highlighted;
+        }
+
+        function getTagClass(tag) {
+            if (['math', 'elementary', 'middle school', 'competition', 'olympiad'].includes(tag)) return 'math';
+            if (['page', 'topic'].includes(tag)) return 'page';
+            return '';
+        }
+
+        function renderResults(results, query) {
+            // Update status
+            searchStatus.style.display = '';
+            searchStatus.innerHTML = `Showing <span class="result-count">${results.length}</span> result${results.length !== 1 ? 's' : ''} for <span class="query-highlight">"${query}"</span>`;
+
+            // Clear previous results
+            searchResults.innerHTML = '';
+
+            if (results.length === 0) {
+                searchResults.innerHTML = `
+          <div class="no-results">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.182 16.318A4.486 4.486 0 0 0 12.016 15a4.486 4.486 0 0 0-3.198 1.318M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
+            </svg>
+            <h3>No results found</h3>
+            <p>We couldn't find anything matching "<strong>${query}</strong>". Try different keywords or browse our popular pages.</p>
+            <div class="suggested-links">
+              <a href="/courses">All Courses</a>
+              <a href="/blog">Blog</a>
+              <a href="/pricing">Pricing</a>
+              <a href="/free-resources">Free Resources</a>
+              <a href="/contact">Contact Us</a>
+            </div>
+          </div>`;
+                return;
+            }
+
+            results.forEach(item => {
+                const card = document.createElement('a');
+                card.href = item.url;
+                card.className = 'search-result-card';
+
+                const tagsHtml = item.tags
+                    .map(tag => `<span class="result-tag ${getTagClass(tag)}">${tag}</span>`)
+                    .join('');
+
+                card.innerHTML = `
+          <span class="result-url">learn.modernagecoders.com${item.url}</span>
+          <div class="result-title">${highlightMatch(item.title, query)}</div>
+          <div class="result-description">${highlightMatch(item.description, query)}</div>
+          <div class="result-tags">${tagsHtml}</div>
+        `;
+
+                searchResults.appendChild(card);
+            });
+        }
+
+        // Debounced input handler
+        searchInput.addEventListener('input', () => {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                const query = searchInput.value;
+                // Update URL without reload
+                const url = new URL(window.location);
+                if (query) {
+                    url.searchParams.set('q', query);
+                } else {
+                    url.searchParams.delete('q');
+                }
+                history.replaceState(null, '', url);
+                performSearch(query);
+            }, 250);
+        });
+
+        // Topic pill clicks
+        document.querySelectorAll('.topic-pill').forEach(pill => {
+            pill.addEventListener('click', () => {
+                const query = pill.dataset.query;
+                searchInput.value = query;
+                const url = new URL(window.location);
+                url.searchParams.set('q', query);
+                history.replaceState(null, '', url);
+                performSearch(query);
+                searchInput.focus();
+            });
+        });
+
+        // Auto-search from URL parameter on page load
+        const urlParams = new URLSearchParams(window.location.search);
+        const initialQuery = urlParams.get('q');
+        if (initialQuery) {
+            searchInput.value = initialQuery;
+            performSearch(initialQuery);
+        }
+    </script>
+
+    <script>
+        // Background Canvas Animation
+        const canvas = document.getElementById('background-canvas');
+        const ctx = canvas.getContext('2d');
+        let particles = [];
+        const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
+        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+        const allSymbols = [...mathSymbols, ...codeSymbols];
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        function createParticles() {
+            particles = [];
+            const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
+                    speed: 0.3 + Math.random() * 0.7,
+                    size: 12 + Math.random() * 10,
+                    opacity: 0.1 + Math.random() * 0.3,
+                    rotation: Math.random() * Math.PI * 2,
+                    rotationSpeed: (Math.random() - 0.5) * 0.02,
+                    isMath: Math.random() > 0.5
+                });
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            particles.forEach(p => {
+                p.y -= p.speed;
+                p.rotation += p.rotationSpeed;
+                if (p.y < -30) {
+                    p.y = canvas.height + 30;
+                    p.x = Math.random() * canvas.width;
+                    p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
+                }
+                ctx.save();
+                ctx.translate(p.x, p.y);
+                ctx.rotate(p.rotation);
+                ctx.font = `${p.size}px monospace`;
+                ctx.fillStyle = p.isMath
+                    ? `rgba(255, 215, 0, ${p.opacity})`
+                    : `rgba(168, 85, 247, ${p.opacity})`;
+                ctx.fillText(p.char, 0, 0);
+                ctx.restore();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
+        resizeCanvas();
+        createParticles();
+        animate();
+    </script>
+</body>
+
+</html>

@@ -47,6 +47,7 @@ function resolveFilePath(url) {
     if (urlPath === '/terms') return 'src/pages/terms.html';
     if (urlPath === '/privacy') return 'src/pages/privacy.html';
     if (urlPath === '/student-labs') return 'src/pages/student-labs.html';
+    if (urlPath === '/search') return 'src/pages/search.html';
     if (urlPath === '/projects') return 'src/pages/projects.html';
     if (urlPath === '/love') return 'lovewall/dist/index.html';
     if (urlPath === '/summer-coding-camp') return 'src/pages/summer-coding-camp.html';
