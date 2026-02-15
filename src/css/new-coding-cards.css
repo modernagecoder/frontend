@@ -239,8 +239,7 @@
 .tabs-wrapper .tab-content .courses-grid .course-card .card-content {
     z-index: 2 !important;
 }
-/
-* ADDITIONAL MOBILE CENTERING FIXES */
+
 @media (max-width: 480px) {
     .tabs-wrapper .tab-content .courses-grid {
         padding: 10px 10px !important; /* Smaller padding on very small screens */
