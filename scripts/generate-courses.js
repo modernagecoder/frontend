@@ -589,6 +589,31 @@ class CourseGenerator {
             schemas.push(faqSchema);
         }
 
+        // Article Schema
+        const articleSchema = {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": meta.title || "Course",
+            "description": meta.description || "",
+            "image": meta.image_path ? `https://learn.modernagecoders.com/content/courses/generated/${meta.slug}/images/${path.basename(meta.image_path)}` : `https://placehold.co/1200x630/8A2BE2/FFFFFF?text=${encodeURIComponent(meta.title || 'Course')}`,
+            "author": {
+                "@type": "Organization",
+                "name": "Modern Age Coders",
+                "url": "https://learn.modernagecoders.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Modern Age Coders",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://learn.modernagecoders.com/images/logo.png"
+                }
+            },
+            "datePublished": new Date().toISOString(),
+            "dateModified": new Date().toISOString()
+        };
+        schemas.push(articleSchema);
+
         return schemas;
     }
 

@@ -70,13 +70,6 @@
 
 
 
-### SEO 2.2: SearchAction Schema Points to Non-Existent Search Page
-- **File:** `src/pages/index.html:87-88`
-- **Problem:** `"urlTemplate": "https://learn.modernagecoders.com/search?q={search_term_string}"` - there is NO search page at `/search`.
-- **Why it matters:** Google may show a sitelinks search box but clicking it sends users to a 404.
-- **Fix:** Either build a search page or remove the SearchAction schema.
-
-
 
 
 
@@ -118,11 +111,7 @@
 - **Why it matters:** "Best coding class in [city]" is a high-intent search query for each city.
 - **Fix:** Create landing pages for top 15-20 Indian cities.
 
-### SEO 2.12: Blog Posts Not Linked From Main Navigation
-- **File:** `components/nav.html`
-- **Problem:** Blog is buried under "Tools" dropdown. It's not obvious.
-- **Why it matters:** Blog is the #1 driver of organic traffic. Hiding it kills discoverability.
-- **Fix:** Add "Blog" as a top-level navigation item.
+
 
 ### SEO 2.13: Missing `<meta name="author">` on Generated Course Pages
 - **Problem:** Generated course pages may not have proper author metadata.
@@ -171,9 +160,6 @@
 - **Impact:** Navigation/footer appear with a visible delay (FOUC). Also, Google may not see the nav/footer content since it relies on JS.
 - **Fix:** Use a build step to inline nav.html and footer.html into each page at build time, OR use server-side includes.
 
-### PERF 3.5: No Resource Hints for Third-Party Scripts
-- **Problem:** GSAP loaded from cdnjs on about page (`about.html:79-80`) without preconnect.
-- **Fix:** Add `<link rel="preconnect" href="https://cdnjs.cloudflare.com">` before the script tags.
 
 ### PERF 3.6: Massive Inline CSS in index.html
 - **File:** `src/pages/index.html:1213-1600+`
@@ -187,10 +173,6 @@
 - **Impact:** When you update a CSS file, browsers will use the old cached version for up to 1 YEAR because of "immutable".
 - **Fix:** Either add content hashes to filenames (e.g., `style.a1b2c3.css`) or change to shorter cache duration with `must-revalidate`.
 
-### PERF 3.8: About Page Loads GSAP Library for Simple Animations
-- **File:** `src/pages/about.html:79-80`
-- **Problem:** Loads 2 GSAP files (~60KB) from CDN for scroll animations that could be done with CSS.
-- **Fix:** Replace GSAP with CSS `@keyframes` and Intersection Observer API.
 
 ---
 
