@@ -8,29 +8,34 @@ const PORT = 3001;
 const NAV_FILE = path.join(__dirname, '..', 'components', 'nav.html');
 const FOOTER_FILE = path.join(__dirname, '..', 'components', 'footer.html');
 
-let navHtml = '';
-let footerHtml = '';
-try {
-    navHtml = fs.readFileSync(NAV_FILE, 'utf-8');
-    footerHtml = fs.readFileSync(FOOTER_FILE, 'utf-8');
-    console.log('✅ Loaded nav.html & footer.html for on-the-fly inlining');
-} catch (e) {
-    console.warn('⚠️  Could not load nav/footer components for inlining:', e.message);
-}
-
 /**
  * Inline nav/footer into an HTML string (mirrors build-time inlining)
+ * Reads component files on every request for instant dev updates.
  */
 function inlineComponents(html) {
+    let navHtml = '';
+    let footerHtml = '';
+
+    try {
+        if (fs.existsSync(NAV_FILE)) navHtml = fs.readFileSync(NAV_FILE, 'utf-8');
+        if (fs.existsSync(FOOTER_FILE)) footerHtml = fs.readFileSync(FOOTER_FILE, 'utf-8');
+    } catch (e) {
+        console.warn('⚠️ Error reading component files:', e.message);
+    }
+
     if (!navHtml && !footerHtml) return html;
 
     let result = html;
 
     // Replace nav placeholder
-    result = result.replace(/<div\s+id=["']nav-placeholder["']\s*>\s*<\/div>/gi, navHtml);
+    if (navHtml) {
+        result = result.replace(/<div\s+id=["']nav-placeholder["']\s*>\s*<\/div>/gi, navHtml);
+    }
 
     // Replace footer placeholder
-    result = result.replace(/<div\s+id=["']footer-placeholder["']\s*>\s*<\/div>/gi, footerHtml);
+    if (footerHtml) {
+        result = result.replace(/<div\s+id=["']footer-placeholder["']\s*>\s*<\/div>/gi, footerHtml);
+    }
 
     // Remove components-loader script tag (no longer needed)
     result = result.replace(/\s*<script\s+src=["']\/(?:src\/)?js\/components-loader\.js["']\s*>\s*<\/script>\s*/gi, '\n');

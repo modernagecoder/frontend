@@ -63,21 +63,48 @@ function inlineFile(filePath, navHtml, footerHtml) {
     const original = content;
     let changes = 0;
 
-    // 1. Replace nav placeholder (various whitespace patterns)
-    const navPlaceholderRegex = /<div\s+id=["']nav-placeholder["']\s*>\s*<\/div>/gi;
-    if (navPlaceholderRegex.test(content)) {
-        content = content.replace(navPlaceholderRegex, navHtml);
+    // Wrappers for re-inlining support
+    const NAV_START = '<!-- BEGIN_INLINED_NAV -->';
+    const NAV_END = '<!-- END_INLINED_NAV -->';
+    const FOOTER_START = '<!-- BEGIN_INLINED_FOOTER -->';
+    const FOOTER_END = '<!-- END_INLINED_FOOTER -->';
+
+    const wrappedNav = `${NAV_START}\n${navHtml}\n${NAV_END}`;
+    const wrappedFooter = `${FOOTER_START}\n${footerHtml}\n${FOOTER_END}`;
+
+    // 1. Update ALREADY INLINED nav (Update mode)
+    //    Look for content between Start/End comments
+    const navBlockRegex = new RegExp(`${NAV_START}[\\s\\S]*?${NAV_END}`, 'gi');
+    if (navBlockRegex.test(content)) {
+        content = content.replace(navBlockRegex, wrappedNav);
         changes++;
     }
-
-    // 2. Replace footer placeholder
-    const footerPlaceholderRegex = /<div\s+id=["']footer-placeholder["']\s*>\s*<\/div>/gi;
-    if (footerPlaceholderRegex.test(content)) {
-        content = content.replace(footerPlaceholderRegex, footerHtml);
-        changes++;
+    // 2. Or replace placeholder (First run)
+    else {
+        const navPlaceholderRegex = /<div\s+id=["']nav-placeholder["']\s*>\s*<\/div>/gi;
+        if (navPlaceholderRegex.test(content)) {
+            content = content.replace(navPlaceholderRegex, wrappedNav);
+            changes++;
+        }
     }
 
-    // 3. Remove <script src="/js/components-loader.js"></script> (and /src/js/ variant)
+    // 3. Update ALREADY INLINED footer (Update mode)
+    const footerBlockRegex = new RegExp(`${FOOTER_START}[\\s\\S]*?${FOOTER_END}`, 'gi');
+    if (footerBlockRegex.test(content)) {
+        content = content.replace(footerBlockRegex, wrappedFooter);
+        changes++;
+    }
+    // 4. Or replace placeholder (First run)
+    else {
+        const footerPlaceholderRegex = /<div\s+id=["']footer-placeholder["']\s*>\s*<\/div>/gi;
+        if (footerPlaceholderRegex.test(content)) {
+            content = content.replace(footerPlaceholderRegex, wrappedFooter);
+            changes++;
+        }
+    }
+
+    // 5. Remove <script src="/js/components-loader.js"></script> (and /src/js/ variant)
+    // ... (rest remains same)
     const loaderScriptRegex = /\s*<script\s+src=["']\/(?:src\/)?js\/components-loader\.js["']\s*>\s*<\/script>\s*/gi;
     if (loaderScriptRegex.test(content)) {
         content = content.replace(loaderScriptRegex, '\n');
