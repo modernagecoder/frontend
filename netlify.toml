@@ -2,7 +2,7 @@
 
 [build]
   # Generate blog and course content before deployment
-  command = "npm install && npm run generate:all && cd lovewall && npm install && npm run build && cd .."
+  command = "npm install && npm run generate:all && npm run build:inline && cd lovewall && npm install && npm run build && cd .."
   publish = "."
   functions = "api"
 

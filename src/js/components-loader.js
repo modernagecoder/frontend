@@ -72,6 +72,18 @@
      * Initialize all components
      */
     async function initComponents() {
+        // If components were already inlined at build time, skip fetching
+        const navEl = document.getElementById('nav-placeholder');
+        const footerEl = document.getElementById('footer-placeholder');
+        const navAlreadyPresent = !navEl || navEl.children.length > 0;
+        const footerAlreadyPresent = !footerEl || footerEl.children.length > 0;
+
+        if (navAlreadyPresent && footerAlreadyPresent) {
+            console.log('Components already inlined, skipping fetch.');
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            return;
+        }
+
         console.log('Initializing components...');
         const basePath = getBasePath();
         console.log('Base path:', basePath);

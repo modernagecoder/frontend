@@ -4,6 +4,52 @@ const path = require('path');
 
 const PORT = 3001;
 
+// ── Load nav & footer for on-the-fly inlining ────────────────────
+const NAV_FILE = path.join(__dirname, '..', 'components', 'nav.html');
+const FOOTER_FILE = path.join(__dirname, '..', 'components', 'footer.html');
+
+let navHtml = '';
+let footerHtml = '';
+try {
+    navHtml = fs.readFileSync(NAV_FILE, 'utf-8');
+    footerHtml = fs.readFileSync(FOOTER_FILE, 'utf-8');
+    console.log('✅ Loaded nav.html & footer.html for on-the-fly inlining');
+} catch (e) {
+    console.warn('⚠️  Could not load nav/footer components for inlining:', e.message);
+}
+
+/**
+ * Inline nav/footer into an HTML string (mirrors build-time inlining)
+ */
+function inlineComponents(html) {
+    if (!navHtml && !footerHtml) return html;
+
+    let result = html;
+
+    // Replace nav placeholder
+    result = result.replace(/<div\s+id=["']nav-placeholder["']\s*>\s*<\/div>/gi, navHtml);
+
+    // Replace footer placeholder
+    result = result.replace(/<div\s+id=["']footer-placeholder["']\s*>\s*<\/div>/gi, footerHtml);
+
+    // Remove components-loader script tag (no longer needed)
+    result = result.replace(/\s*<script\s+src=["']\/(?:src\/)?js\/components-loader\.js["']\s*>\s*<\/script>\s*/gi, '\n');
+
+    // Add componentsLoaded event + copyright year before </body>
+    const bootstrap = `
+    <!-- Components inlined by dev server -->
+    <script>
+        (function() {
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>`;
+    result = result.replace(/<\/body>/i, bootstrap + '\n</body>');
+
+    return result;
+}
+
 // MIME types
 const mimeTypes = {
     '.html': 'text/html',
@@ -152,9 +198,15 @@ const server = http.createServer((req, res) => {
                 res.end(`Server Error: ${err.code}`, 'utf-8');
             }
         } else {
-            // Success
-            res.writeHead(200, { 'Content-Type': contentType });
-            res.end(content, 'utf-8');
+            // Success – inline components for HTML files
+            if (ext === '.html') {
+                const inlined = inlineComponents(content.toString('utf-8'));
+                res.writeHead(200, { 'Content-Type': contentType });
+                res.end(inlined, 'utf-8');
+            } else {
+                res.writeHead(200, { 'Content-Type': contentType });
+                res.end(content, 'utf-8');
+            }
         }
     });
 });
