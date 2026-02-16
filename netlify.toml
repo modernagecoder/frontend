@@ -292,27 +292,28 @@
   to = "/content/courses/generated/:splat"
   status = 200
 
-# Individual course pages (with and without trailing slash)
+# Trailing slash → no trailing slash 301 redirects (SEO canonicalization)
 [[redirects]]
-  from = "/courses/:course"
-  to = "/courses/:course/"
+  from = "/courses/:course/"
+  to = "/courses/:course"
   status = 301
   force = true
 
-# Blog posts - serve both with and without trailing slash (no 301 redirect for SEO)
+[[redirects]]
+  from = "/blog/:slug/"
+  to = "/blog/:slug"
+  status = 301
+  force = true
+
+# Blog posts (without trailing slash)
 [[redirects]]
   from = "/blog/:slug"
   to = "/content/blog/generated/:slug/index.html"
   status = 200
 
+# Course pages (without trailing slash)
 [[redirects]]
-  from = "/blog/:slug/"
-  to = "/content/blog/generated/:slug/index.html"
-  status = 200
-
-# Course pages (keep trailing slash redirect for courses as requested)
-[[redirects]]
-  from = "/courses/:course/"
+  from = "/courses/:course"
   to = "/content/courses/generated/:course/index.html"
   status = 200
 

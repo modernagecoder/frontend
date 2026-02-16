@@ -102,7 +102,7 @@ class CourseEngine {
 
         // Update canonical URL
         const canonical = document.querySelector('link[rel="canonical"]');
-        if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}/`;
+        if (canonical) canonical.href = `https://learn.modernagecoders.com/courses/${meta.slug}`;
 
         // Update Open Graph tags
         this.updateOpenGraphTags(meta);

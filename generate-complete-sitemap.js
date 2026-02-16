@@ -118,7 +118,7 @@ ${fs.readdirSync('./src/pages/category')
   
   <!-- All Course Pages -->
 ${courseFolders.map(folder => `  <url>
-    <loc>${BASE_URL}/courses/${folder}/</loc>
+    <loc>${BASE_URL}/courses/${folder}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -163,7 +163,7 @@ console.log(`📄 Saved to: ${SITEMAP_PATH}\n`);
 // Show sample URLs
 console.log('📋 Sample course URLs:');
 courseFolders.slice(0, 5).forEach(folder => {
-  console.log(`   ${BASE_URL}/courses/${folder}/`);
+  console.log(`   ${BASE_URL}/courses/${folder}`);
 });
 console.log(`   ... and ${courseFolders.length - 5} more\n`);
 

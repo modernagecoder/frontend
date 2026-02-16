@@ -1275,7 +1275,7 @@ class CourseGenerator {
         const courseCategory = meta.category || 'Programming';
 
         const coursesHTML = relatedCourses.map(course => `
-            <a href="/courses/${course.slug}/" class="related-course-card">
+            <a href="/courses/${course.slug}" class="related-course-card">
                 <div class="related-course-content">
                     <h4 class="related-course-title">${this.escapeHtml(course.title)}</h4>
                     <p class="related-course-desc">${this.escapeHtml(course.description || 'Explore this related course')}</p>

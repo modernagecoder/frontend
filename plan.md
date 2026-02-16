@@ -338,11 +338,7 @@
 
 ---
 
-## 8. MISSING PAGES & FEATURES
 
-### 8.1: Missing `/search` Page
-- Referenced in SearchAction schema but doesn't exist.
-- Build a search page with JavaScript-based search across courses and blogs.
 
 ### 8.2: Missing `/courses` Listing Page with Filters
 - The main `/courses` page should have filters by category, age group, subject.
@@ -419,10 +415,6 @@ Category Pages: CollectionPage + ItemList + BreadcrumbList
 - Add sitemap index if total URLs > 50,000
 - Set accurate `lastmod` dates (Google uses these)
 
-#### 10.4: Add Google Search Console & GA4
-- Set up GSC to monitor indexing
-- Set up GA4 to track user behavior
-- Connect both for full visibility
 
 ### Phase 2: Content SEO Strategy (Week 3-6)
 
