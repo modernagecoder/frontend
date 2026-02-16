@@ -76,14 +76,14 @@
 /mistakes-students-make /src/pages/mistakes-students-make.html 200
 /corporate-training /src/pages/corporate.html 200
 /book-demo /src/pages/book-demo.html 200
-# Category pages with .html extension (primary URLs)
-/category/kids.html /src/pages/category/kids.html 200
-/category/teens.html /src/pages/category/teens.html 200
-/category/college.html /src/pages/category/college.html 200
-/category/professionals.html /src/pages/category/professionals.html 200
-/category/corporate.html /src/pages/category/corporate.html 200
+# Category pages - redirect .html to clean URLs
+/category/kids.html /category/kids 301!
+/category/teens.html /category/teens 301!
+/category/college.html /category/college 301!
+/category/professionals.html /category/professionals 301!
+/category/corporate.html /category/corporate 301!
 
-# Clean URLs serve directly (200 rewrite, not 301 redirect)
+# Category pages - clean URL rewrites
 /category/kids /src/pages/category/kids.html 200
 /category/teens /src/pages/category/teens.html 200
 /category/college /src/pages/category/college.html 200

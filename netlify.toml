@@ -218,62 +218,62 @@
   to = "/content/blog/generated/index.html"
   status = 200
 
-# Category pages with .html extension (primary URLs)
+# Category pages - redirect .html to clean URLs
 [[redirects]]
   from = "/category/kids.html"
+  to = "/category/kids"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/teens.html"
+  to = "/category/teens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/college.html"
+  to = "/category/college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/professionals.html"
+  to = "/category/professionals"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/corporate.html"
+  to = "/category/corporate"
+  status = 301
+  force = true
+
+# Category pages - clean URL rewrites
+[[redirects]]
+  from = "/category/kids"
   to = "/src/pages/category/kids.html"
   status = 200
 
 [[redirects]]
-  from = "/category/teens.html"
+  from = "/category/teens"
   to = "/src/pages/category/teens.html"
   status = 200
 
 [[redirects]]
-  from = "/category/college.html"
+  from = "/category/college"
   to = "/src/pages/category/college.html"
   status = 200
 
 [[redirects]]
-  from = "/category/professionals.html"
+  from = "/category/professionals"
   to = "/src/pages/category/professionals.html"
   status = 200
 
 [[redirects]]
-  from = "/category/corporate.html"
+  from = "/category/corporate"
   to = "/src/pages/category/corporate.html"
   status = 200
-
-# Redirect clean URLs to .html versions (301 permanent redirect)
-[[redirects]]
-  from = "/category/kids"
-  to = "/category/kids.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/category/teens"
-  to = "/category/teens.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/category/college"
-  to = "/category/college.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/category/professionals"
-  to = "/category/professionals.html"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/category/corporate"
-  to = "/category/corporate.html"
-  status = 301
-  force = true
 
 # Course category URLs (must come before individual courses)
 [[redirects]]

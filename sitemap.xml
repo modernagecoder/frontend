@@ -216,14 +216,7 @@
   </url>
   
   <url>
-    <loc>https://learn.modernagecoders.com/student-projects-standalone</loc>
-    <lastmod>2026-02-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  
-  <url>
-    <loc>https://learn.modernagecoders.com/student-projects-working</loc>
+    <loc>https://learn.modernagecoders.com/student-projects</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
@@ -264,37 +257,51 @@
     <priority>0.85</priority>
   </url>
 
+  <url>
+    <loc>https://learn.modernagecoders.com/corporate-training</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/love</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Category Pages -->
   <url>
-    <loc>https://learn.modernagecoders.com/category/college.html</loc>
+    <loc>https://learn.modernagecoders.com/category/college</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/corporate.html</loc>
+    <loc>https://learn.modernagecoders.com/category/corporate</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/kids.html</loc>
+    <loc>https://learn.modernagecoders.com/category/kids</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/professionals.html</loc>
+    <loc>https://learn.modernagecoders.com/category/professionals</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/teens.html</loc>
+    <loc>https://learn.modernagecoders.com/category/teens</loc>
     <lastmod>2026-02-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -1058,6 +1065,13 @@
     <priority>0.7</priority>
   </url>
   
+  <url>
+    <loc>https://learn.modernagecoders.com/blog/what-is-floor-division-in-python</loc>
+    <lastmod>2026-02-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <url>
     <loc>https://learn.modernagecoders.com/blog/who-are-modern-age-coders-why-choose-us</loc>
     <lastmod>2026-02-07</lastmod>
