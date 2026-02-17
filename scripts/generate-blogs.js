@@ -700,7 +700,7 @@ class BlogGenerator {
                 : 'Explore this comprehensive learning program';
 
             return `
-            <a href="/courses/${course.slug}/" class="il-card il-card--course">
+            <a href="/courses/${course.slug}" class="il-card il-card--course">
                 <div class="il-card__image-wrap">
                     <img src="${imageSrc}" alt="${this.escapeHtml(course.title)}" class="il-card__image" loading="lazy">
                     <span class="il-card__category">${this.escapeHtml(course.category || 'Course')}</span>
