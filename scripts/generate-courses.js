@@ -16,6 +16,69 @@ class CourseGenerator {
         this.generatedDir = path.join(this.projectRoot, 'content', 'courses', 'generated');
         this.imagesDir = path.join(this.projectRoot, 'content', 'courses', 'images');
         this.templatePath = path.join(this.templateDir, 'course-template.html');
+        this.blogDataDir = path.join(this.projectRoot, 'content', 'blog', 'data');
+        // Preloaded metadata for internal linking
+        this.allCourseMeta = [];
+        this.allBlogMeta = [];
+    }
+
+    /**
+     * Preload all course and blog metadata for internal linking.
+     * Called once at the start of generate() so each course doesn't re-read every JSON.
+     */
+    preloadMetadata() {
+        // Preload course metadata
+        try {
+            const courseFiles = fs.readdirSync(this.dataDir).filter(f => f.endsWith('.json'));
+            this.allCourseMeta = courseFiles.map(file => {
+                try {
+                    const data = JSON.parse(fs.readFileSync(path.join(this.dataDir, file), 'utf8'));
+                    const meta = data.meta || {};
+                    return {
+                        slug: meta.slug || '',
+                        title: meta.title || '',
+                        description: meta.description || '',
+                        category: meta.category || '',
+                        keywords: (meta.keywords || []).map(k => k.toLowerCase()),
+                        image_path: meta.image_path || '',
+                        level: meta.level || ''
+                    };
+                } catch (e) {
+                    return null;
+                }
+            }).filter(Boolean);
+            console.log(`📚 Preloaded ${this.allCourseMeta.length} course metadata entries for internal linking`);
+        } catch (e) {
+            console.warn('⚠️  Could not preload course metadata:', e.message);
+        }
+
+        // Preload blog metadata
+        try {
+            const blogFiles = fs.readdirSync(this.blogDataDir).filter(f => f.endsWith('.json'));
+            this.allBlogMeta = blogFiles.map(file => {
+                try {
+                    const data = JSON.parse(fs.readFileSync(path.join(this.blogDataDir, file), 'utf8'));
+                    const meta = data.meta || {};
+                    const hero = data.hero || {};
+                    return {
+                        slug: meta.slug || '',
+                        title: meta.title || '',
+                        description: meta.description || '',
+                        category: meta.category || '',
+                        tags: (meta.tags || []).map(t => t.toLowerCase()),
+                        keywords: (meta.keywords || []).map(k => k.toLowerCase()),
+                        image_url: (hero.featuredImage && hero.featuredImage.url) || '',
+                        image_alt: (hero.featuredImage && hero.featuredImage.alt) || '',
+                        readTime: meta.readTime || ''
+                    };
+                } catch (e) {
+                    return null;
+                }
+            }).filter(Boolean);
+            console.log(`📝 Preloaded ${this.allBlogMeta.length} blog metadata entries for internal linking`);
+        } catch (e) {
+            console.warn('⚠️  Could not preload blog metadata:', e.message);
+        }
     }
 
     /**
@@ -29,6 +92,9 @@ class CourseGenerator {
             if (!fs.existsSync(this.generatedDir)) {
                 fs.mkdirSync(this.generatedDir, { recursive: true });
             }
+
+            // Preload all course & blog metadata for internal linking
+            this.preloadMetadata();
 
             // Load template
             const template = fs.readFileSync(this.templatePath, 'utf8');
@@ -771,9 +837,13 @@ class CourseGenerator {
         const faqSectionHTML = this.generateFAQSectionHTML(courseData);
         html = html.replace(/{{FAQ_SECTION}}/g, faqSectionHTML);
 
-        // Generate Related Courses section (only if related_courses exist)
+        // Generate Related Courses section (auto-matched with image cards)
         const relatedCoursesHTML = this.generateRelatedCoursesHTML(courseData);
         html = html.replace(/{{RELATED_COURSES}}/g, relatedCoursesHTML);
+
+        // Generate Related Blogs section (auto-matched with image cards)
+        const relatedBlogsHTML = this.generateRelatedBlogsHTML(courseData);
+        html = html.replace(/{{RELATED_BLOGS}}/g, relatedBlogsHTML);
 
         // Generate Why This Course section (only if why_this_course exists)
         const whyThisCourseHTML = this.generateWhyThisCourseHTML(courseData);
@@ -1260,109 +1330,382 @@ class CourseGenerator {
     }
 
     /**
-     * Generate Related Courses section HTML for internal linking
+     * Find related courses by category/keyword overlap, excluding the current course.
+     * @param {Object} courseData - Current course data
+     * @param {number} count - Number of related courses to return
+     * @returns {Array} Array of related course metadata objects
+     */
+    findRelatedCourses(courseData, count = 2) {
+        const meta = courseData.meta || {};
+        const currentSlug = meta.slug || '';
+        const currentCategory = (meta.category || '').toLowerCase();
+        const currentKeywords = (meta.keywords || []).map(k => k.toLowerCase());
+
+        // Score each course by relevance
+        const scored = this.allCourseMeta
+            .filter(c => c.slug !== currentSlug)
+            .map(c => {
+                let score = 0;
+                // Same category = strong signal
+                if (currentCategory && c.category.toLowerCase() === currentCategory) score += 10;
+                // Keyword overlap
+                const overlap = c.keywords.filter(k => currentKeywords.includes(k)).length;
+                score += overlap * 2;
+                return { ...c, score };
+            })
+            .sort((a, b) => b.score - a.score);
+
+        // Take top N with score > 0, or random picks if no matches
+        const matches = scored.filter(c => c.score > 0).slice(0, count);
+        if (matches.length < count) {
+            const remaining = scored.filter(c => !matches.find(m => m.slug === c.slug));
+            while (matches.length < count && remaining.length > 0) {
+                const idx = Math.floor(Math.random() * remaining.length);
+                matches.push(remaining.splice(idx, 1)[0]);
+            }
+        }
+        return matches;
+    }
+
+    /**
+     * Find related blogs by keyword/tag overlap with the current course.
+     * @param {Object} courseData - Current course data
+     * @param {number} count - Number of related blogs to return
+     * @returns {Array} Array of related blog metadata objects
+     */
+    findRelatedBlogs(courseData, count = 2) {
+        const meta = courseData.meta || {};
+        const currentCategory = (meta.category || '').toLowerCase();
+        const currentKeywords = (meta.keywords || []).map(k => k.toLowerCase());
+        const currentTitle = (meta.title || '').toLowerCase();
+
+        const scored = this.allBlogMeta.map(b => {
+            let score = 0;
+            // Tag overlap with course keywords
+            const tagOverlap = b.tags.filter(t => currentKeywords.some(k => k.includes(t) || t.includes(k))).length;
+            score += tagOverlap * 3;
+            // Keyword overlap
+            const kwOverlap = b.keywords.filter(k => currentKeywords.includes(k)).length;
+            score += kwOverlap * 2;
+            // Category proximity
+            if (currentCategory && b.category.toLowerCase() === currentCategory) score += 5;
+            // Title word overlap
+            const titleWords = currentTitle.split(/\s+/).filter(w => w.length > 3);
+            const blogTitle = (b.title || '').toLowerCase();
+            titleWords.forEach(w => { if (blogTitle.includes(w)) score += 1; });
+            return { ...b, score };
+        }).sort((a, b) => b.score - a.score);
+
+        const matches = scored.filter(b => b.score > 0).slice(0, count);
+        if (matches.length < count) {
+            const remaining = scored.filter(b => !matches.find(m => m.slug === b.slug));
+            while (matches.length < count && remaining.length > 0) {
+                const idx = Math.floor(Math.random() * remaining.length);
+                matches.push(remaining.splice(idx, 1)[0]);
+            }
+        }
+        return matches;
+    }
+
+    /**
+     * Generate Related Courses section HTML with image cards for internal linking.
+     * Auto-selects 2 related courses by category/keyword matching.
      * @param {Object} courseData - Course data object
      * @returns {string} HTML string for related courses section
      */
     generateRelatedCoursesHTML(courseData) {
-        const relatedCourses = courseData.related_courses || [];
+        const relatedCourses = this.findRelatedCourses(courseData, 2);
 
-        if (!Array.isArray(relatedCourses) || relatedCourses.length === 0) {
+        if (relatedCourses.length === 0) {
             return '';
         }
 
         const meta = courseData.meta || {};
-        const courseCategory = meta.category || 'Programming';
 
-        const coursesHTML = relatedCourses.map(course => `
-            <a href="/courses/${course.slug}" class="related-course-card">
-                <div class="related-course-content">
-                    <h4 class="related-course-title">${this.escapeHtml(course.title)}</h4>
-                    <p class="related-course-desc">${this.escapeHtml(course.description || 'Explore this related course')}</p>
-                    <span class="related-course-link">Learn More →</span>
+        const coursesHTML = relatedCourses.map(course => {
+            const imageSrc = course.image_path
+                ? `/content/courses/generated/${course.slug}/images/${path.basename(course.image_path)}`
+                : `https://placehold.co/600x340/1a1a2e/4ecdc4?text=${encodeURIComponent(course.title.substring(0, 30))}`;
+            const shortDesc = course.description
+                ? course.description.substring(0, 100) + (course.description.length > 100 ? '...' : '')
+                : 'Explore this comprehensive learning program';
+
+            return `
+            <a href="/courses/${course.slug}/" class="il-card il-card--course">
+                <div class="il-card__image-wrap">
+                    <img src="${imageSrc}" alt="${this.escapeHtml(course.title)}" class="il-card__image" loading="lazy">
+                    <span class="il-card__category">${this.escapeHtml(course.category || 'Course')}</span>
                 </div>
-            </a>
-        `).join('');
+                <div class="il-card__body">
+                    <h4 class="il-card__title">${this.escapeHtml(course.title)}</h4>
+                    <p class="il-card__desc">${this.escapeHtml(shortDesc)}</p>
+                    <span class="il-card__link">Explore Course <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                </div>
+            </a>`;
+        }).join('');
 
         return `
-        <section class="related-courses-section" id="related-courses">
-            <div class="related-courses-container">
-                <div class="related-courses-header">
-                    <span class="related-courses-badge">Explore More</span>
-                    <h2 class="related-courses-title">Related ${this.escapeHtml(courseCategory)} Courses</h2>
-                    <p class="related-courses-subtitle">Continue your learning journey with these recommended courses</p>
+        <section class="il-section il-section--courses" id="related-courses">
+            <div class="il-container">
+                <div class="il-header">
+                    <span class="il-badge">Explore More</span>
+                    <h2 class="il-title">Related Courses You May Like</h2>
+                    <p class="il-subtitle">Continue your learning journey with these recommended programs</p>
                 </div>
-                <div class="related-courses-grid">
+                <div class="il-grid">
                     ${coursesHTML}
                 </div>
             </div>
-            <style>
-                .related-courses-section {
-                    margin-top: 3rem;
-                    padding: 3rem 2rem;
-                    background: linear-gradient(145deg, rgba(16, 16, 32, 0.95), rgba(24, 20, 40, 0.92));
-                    border-radius: 24px;
-                    border: 1px solid rgba(78, 205, 196, 0.2);
-                }
-                .related-courses-header { text-align: center; margin-bottom: 2rem; }
-                .related-courses-badge {
-                    display: inline-block;
-                    padding: 0.5rem 1rem;
-                    background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), rgba(168, 85, 247, 0.15));
-                    border-radius: 20px;
-                    font-size: 0.875rem;
-                    color: #4ecdc4;
-                    font-weight: 600;
-                    margin-bottom: 1rem;
-                }
-                .related-courses-title {
-                    font-size: 2rem;
-                    font-weight: 800;
-                    color: #f1f5f9;
-                    margin-bottom: 0.5rem;
-                }
-                .related-courses-subtitle {
-                    color: rgba(148, 163, 184, 0.8);
-                }
-                .related-courses-grid {
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-                    gap: 1.5rem;
-                }
-                .related-course-card {
-                    background: rgba(255, 255, 255, 0.03);
-                    border: 1px solid rgba(255, 255, 255, 0.08);
-                    border-radius: 16px;
-                    padding: 1.5rem;
-                    text-decoration: none;
-                    transition: all 0.3s ease;
-                    display: block;
-                }
-                .related-course-card:hover {
-                    border-color: rgba(78, 205, 196, 0.4);
-                    transform: translateY(-4px);
-                    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
-                }
-                .related-course-title {
-                    color: #f1f5f9;
-                    font-size: 1.125rem;
-                    font-weight: 700;
-                    margin-bottom: 0.5rem;
-                }
-                .related-course-desc {
-                    color: rgba(148, 163, 184, 0.9);
-                    font-size: 0.9rem;
-                    line-height: 1.5;
-                    margin-bottom: 1rem;
-                }
-                .related-course-link {
-                    color: #4ecdc4;
-                    font-weight: 600;
-                    font-size: 0.875rem;
-                }
-            </style>
+            ${this._internalLinkingCSS()}
         </section>
         `;
+    }
+
+    /**
+     * Generate Related Blogs section HTML with image cards for internal linking.
+     * Auto-selects 2 related blogs by keyword/tag matching.
+     * @param {Object} courseData - Course data object
+     * @returns {string} HTML string for related blogs section
+     */
+    generateRelatedBlogsHTML(courseData) {
+        const relatedBlogs = this.findRelatedBlogs(courseData, 2);
+
+        if (relatedBlogs.length === 0) {
+            return '';
+        }
+
+        const blogsHTML = relatedBlogs.map(blog => {
+            const imageSrc = blog.image_url
+                || `https://placehold.co/600x340/1a1a2e/a855f7?text=${encodeURIComponent(blog.title.substring(0, 30))}`;
+            const shortDesc = blog.description
+                ? blog.description.substring(0, 100) + (blog.description.length > 100 ? '...' : '')
+                : 'Read this insightful article';
+
+            return `
+            <a href="/blog/${blog.slug}/" class="il-card il-card--blog">
+                <div class="il-card__image-wrap">
+                    <img src="${imageSrc}" alt="${this.escapeHtml(blog.image_alt || blog.title)}" class="il-card__image" loading="lazy">
+                    <span class="il-card__category">${this.escapeHtml(blog.category || 'Article')}</span>
+                    ${blog.readTime ? `<span class="il-card__read-time">${this.escapeHtml(blog.readTime)}</span>` : ''}
+                </div>
+                <div class="il-card__body">
+                    <h4 class="il-card__title">${this.escapeHtml(blog.title)}</h4>
+                    <p class="il-card__desc">${this.escapeHtml(shortDesc)}</p>
+                    <span class="il-card__link il-card__link--blog">Read Article <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></span>
+                </div>
+            </a>`;
+        }).join('');
+
+        return `
+        <section class="il-section il-section--blogs" id="related-articles">
+            <div class="il-container">
+                <div class="il-header">
+                    <span class="il-badge il-badge--blog">Recommended Reading</span>
+                    <h2 class="il-title">Related Articles & Guides</h2>
+                    <p class="il-subtitle">Deepen your knowledge with these hand-picked articles</p>
+                </div>
+                <div class="il-grid">
+                    ${blogsHTML}
+                </div>
+            </div>
+        </section>
+        `;
+    }
+
+    /**
+     * Shared CSS for the internal linking sections (courses + blogs).
+     * Injected once by the first section that renders.
+     * @returns {string} <style> block
+     */
+    _internalLinkingCSS() {
+        return `
+        <style>
+            /* ── Internal Linking Sections ── */
+            .il-section {
+                margin-top: 3rem;
+                padding: 4rem 2rem;
+                position: relative;
+                overflow: hidden;
+            }
+            .il-section::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: linear-gradient(90deg, transparent, rgba(78, 205, 196, 0.4), rgba(168, 85, 247, 0.4), transparent);
+            }
+            .il-container {
+                max-width: 1000px;
+                margin: 0 auto;
+            }
+            .il-header {
+                text-align: center;
+                margin-bottom: 2.5rem;
+            }
+            .il-badge {
+                display: inline-block;
+                padding: 0.45rem 1.15rem;
+                background: linear-gradient(135deg, rgba(78, 205, 196, 0.18), rgba(168, 85, 247, 0.12));
+                border: 1px solid rgba(78, 205, 196, 0.25);
+                border-radius: 2rem;
+                font-size: 0.82rem;
+                color: #4ecdc4;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-bottom: 1rem;
+            }
+            .il-badge--blog {
+                background: linear-gradient(135deg, rgba(168, 85, 247, 0.18), rgba(236, 72, 153, 0.12));
+                border-color: rgba(168, 85, 247, 0.25);
+                color: #a855f7;
+            }
+            .il-title {
+                font-size: 2rem;
+                font-weight: 800;
+                color: #F8FAFC;
+                margin-bottom: 0.5rem;
+                background: linear-gradient(135deg, #ffffff, #c7d2fe);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+            .il-subtitle {
+                color: #94A3B8;
+                font-size: 1.05rem;
+            }
+            .il-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1.5rem;
+            }
+
+            /* ── Card ── */
+            .il-card {
+                background: rgba(16, 16, 32, 0.7);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                border: 1px solid rgba(255, 255, 255, 0.08);
+                border-radius: 18px;
+                overflow: hidden;
+                text-decoration: none;
+                display: flex;
+                flex-direction: column;
+                transition: transform 0.35s cubic-bezier(.22,1,.36,1),
+                            box-shadow 0.35s cubic-bezier(.22,1,.36,1),
+                            border-color 0.35s ease;
+            }
+            .il-card:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4),
+                            0 0 30px rgba(78, 205, 196, 0.08);
+                border-color: rgba(78, 205, 196, 0.35);
+            }
+            .il-card--blog:hover {
+                border-color: rgba(168, 85, 247, 0.35);
+                box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4),
+                            0 0 30px rgba(168, 85, 247, 0.08);
+            }
+
+            /* Image */
+            .il-card__image-wrap {
+                position: relative;
+                width: 100%;
+                height: 200px;
+                overflow: hidden;
+            }
+            .il-card__image {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.5s ease;
+            }
+            .il-card:hover .il-card__image {
+                transform: scale(1.06);
+            }
+            .il-card__category {
+                position: absolute;
+                top: 12px;
+                left: 12px;
+                padding: 0.3rem 0.75rem;
+                background: rgba(10, 10, 20, 0.75);
+                backdrop-filter: blur(6px);
+                -webkit-backdrop-filter: blur(6px);
+                border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 8px;
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: #4ecdc4;
+                text-transform: uppercase;
+                letter-spacing: 0.04em;
+            }
+            .il-card--blog .il-card__category { color: #a855f7; }
+            .il-card__read-time {
+                position: absolute;
+                top: 12px;
+                right: 12px;
+                padding: 0.3rem 0.75rem;
+                background: rgba(10, 10, 20, 0.75);
+                backdrop-filter: blur(6px);
+                -webkit-backdrop-filter: blur(6px);
+                border: 1px solid rgba(255,255,255,0.1);
+                border-radius: 8px;
+                font-size: 0.72rem;
+                font-weight: 600;
+                color: #CBD5E1;
+            }
+
+            /* Body */
+            .il-card__body {
+                padding: 1.25rem 1.35rem 1.5rem;
+                display: flex;
+                flex-direction: column;
+                flex: 1;
+            }
+            .il-card__title {
+                font-size: 1.05rem;
+                font-weight: 700;
+                color: #F1F5F9;
+                line-height: 1.35;
+                margin-bottom: 0.5rem;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+            }
+            .il-card__desc {
+                color: #94A3B8;
+                font-size: 0.88rem;
+                line-height: 1.55;
+                margin-bottom: 1rem;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                flex: 1;
+            }
+            .il-card__link {
+                display: inline-flex;
+                align-items: center;
+                gap: 0.4rem;
+                color: #4ecdc4;
+                font-weight: 600;
+                font-size: 0.85rem;
+                transition: gap 0.25s ease;
+            }
+            .il-card__link--blog { color: #a855f7; }
+            .il-card:hover .il-card__link { gap: 0.7rem; }
+
+            /* ── Responsive ── */
+            @media (max-width: 768px) {
+                .il-section { padding: 3rem 1rem; }
+                .il-title { font-size: 1.5rem; }
+                .il-grid { grid-template-columns: 1fr; }
+                .il-card__image-wrap { height: 180px; }
+            }
+        </style>`;
     }
 
     /**
