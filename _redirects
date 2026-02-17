@@ -97,14 +97,10 @@
 # Course static assets
 /content/courses/generated/* /content/courses/generated/:splat 200
 
-# Trailing slash → no trailing slash 301 redirects (SEO canonicalization)
-/courses/:course/ /courses/:course 301!
-/blog/:slug/ /blog/:slug 301!
-
-# Individual course pages (without trailing slash)
+# Individual course pages
 /courses/* /content/courses/generated/:splat/index.html 200
 
-# Blog posts (without trailing slash)
+# Blog posts
 /blog/* /content/blog/generated/:splat/index.html 200
 
 # 404 fallback
