@@ -292,30 +292,10 @@
   to = "/content/courses/generated/:splat"
   status = 200
 
-# Trailing slash → no trailing slash 301 redirects (SEO canonicalization)
-[[redirects]]
-  from = "/courses/:course/"
-  to = "/courses/:course"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/blog/:slug/"
-  to = "/blog/:slug"
-  status = 301
-  force = true
-
-# Blog posts (without trailing slash)
-[[redirects]]
-  from = "/blog/:slug"
-  to = "/content/blog/generated/:slug/index.html"
-  status = 200
-
-# Course pages (without trailing slash)
-[[redirects]]
-  from = "/courses/:course"
-  to = "/content/courses/generated/:course/index.html"
-  status = 200
+# Explicitly disable Pretty URLs to prevent redirect loops
+# (Pretty URLs auto-adds trailing slashes which conflict with trailing-slash-stripping rules)
+[build.processing.html]
+  pretty_urls = false
 
 # 404 fallback
 [[redirects]]
