@@ -644,6 +644,10 @@
         "text": "<strong> <a href='https://learn.modernagecoders.com/blog/scratch-vs-python-which-better-young-learners'> Scratch vs Python: Which is Better for Young Learners? </a> </strong> Compare Scratch and Python to understand which programming language suits your child's age, skill level, and learning goals best."
       }
     ]
-  }
+  },
+  "relatedPosts": [
+    "coding-for-7-year-olds-what-how-kids-should-learn-programming",
+    "coding-for-5-year-olds-young-kids-start-learning-programming",
+    "what-is-blockly-for-kids"
+  ]
 }
-

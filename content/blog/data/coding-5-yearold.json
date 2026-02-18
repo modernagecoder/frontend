@@ -939,19 +939,8 @@
     ]
   },
   "relatedPosts": [
-    {
-      "title": "Armstrong Number in Python: Complete Guide with Examples and Code",
-      "slug": "armstrong-number-python-complete-guide-examples-code"
-    },
-    {
-      "title": "How Coding and Mathematics Work Together in Engineering & Science",
-      "slug": "coding-mathematics-engineering-science"
-    },
-    {
-      "title": "What is Blockly for Kids?",
-      "slug": "what-is-blockly-for-kids"
-    }
+    "armstrong-number-python-complete-guide-examples-code",
+    "coding-mathematics-engineering-science",
+    "what-is-blockly-for-kids"
   ]
 }
-
-

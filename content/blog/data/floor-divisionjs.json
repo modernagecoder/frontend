@@ -178,10 +178,26 @@
           "Floor (//)"
         ],
         "rows": [
-          ["17 / 5", "3.4", "3"],
-          ["20 / 4", "5.0", "5"],
-          ["9 / 2", "4.5", "4"],
-          ["100 / 7", "14.285...", "14"]
+          [
+            "17 / 5",
+            "3.4",
+            "3"
+          ],
+          [
+            "20 / 4",
+            "5.0",
+            "5"
+          ],
+          [
+            "9 / 2",
+            "4.5",
+            "4"
+          ],
+          [
+            "100 / 7",
+            "14.285...",
+            "14"
+          ]
         ]
       },
       {
@@ -551,18 +567,8 @@
     ]
   },
   "relatedPosts": [
-    {
-      "title": "Python for Beginners: Complete Guide to Getting Started",
-      "slug": "python-for-beginners"
-    },
-    {
-      "title": "Top 10 Java Programs Every College Student Must Know",
-      "slug": "top-10-java-programs-every-college-student-must-know"
-    },
-    {
-      "title": "Role of Mathematics in Programming and Logical Problem-Solving",
-      "slug": "mathematics-programming-logical-problem-solving"
-    }
+    "python-for-beginners",
+    "top-10-java-programs-every-college-student-must-know",
+    "mathematics-programming-logical-problem-solving"
   ]
 }
-

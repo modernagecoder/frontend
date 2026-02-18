@@ -560,19 +560,9 @@
       }
     ]
   },
-"relatedPosts": [
-    {
-      "title": "Coding, Mathematics, Engineering & Science",
-      "slug": "coding-mathematics-engineering-science"
-    },
-    {
-      "title": "Python for Beginners",
-      "slug": "python-for-beginners"
-    },
-    {
-      "title": "Cloud Computing Explained for Business Owners Without Tech Jargon",
-      "slug": "cloud-computing-explained-business-owners-without-tech-jargon"
-    }
+  "relatedPosts": [
+    "coding-mathematics-engineering-science",
+    "python-for-beginners",
+    "cloud-computing-explained-business-owners-without-tech-jargon"
   ]
 }
-

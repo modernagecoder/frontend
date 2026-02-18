@@ -888,17 +888,8 @@
     ]
   },
   "relatedPosts": [
-    {
-      "title": "What is Blockly for Kids?",
-      "slug": "what-is-blockly-for-kids"
-    },
-    {
-      "title": "The Ultimate Guide to Teaching Kids Coding in 2025",
-      "slug": "coding-for-kids-guide"
-    },
-    {
-      "title": "What is Coding for Kids?",
-      "slug": "coding-for-kids-parents-complete-guide-2026"
-    }
+    "what-is-blockly-for-kids",
+    "coding-for-kids-guide",
+    "coding-for-kids-parents-complete-guide-2026"
   ]
 }
