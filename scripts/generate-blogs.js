@@ -24,6 +24,27 @@ class BlogGenerator {
         this.courseDataDir = path.join(this.projectRoot, 'content', 'courses', 'data');
         // Preloaded course metadata for internal linking
         this.allCourseMeta = [];
+        // Slug-to-filepath lookup map for related posts
+        this.slugToFileMap = {};
+    }
+
+    /**
+     * Build a lookup map from blog slug to actual file path.
+     * This is needed because JSON filenames don't always match the slug.
+     */
+    buildSlugToFileMap() {
+        const files = this.getBlogFiles();
+        for (const file of files) {
+            try {
+                const data = this.loadBlogData(file);
+                if (data.meta && data.meta.slug) {
+                    this.slugToFileMap[data.meta.slug] = path.join(this.dataDir, file);
+                }
+            } catch (e) {
+                // Skip invalid files
+            }
+        }
+        console.log(`🔗 Built slug-to-file map with ${Object.keys(this.slugToFileMap).length} entries`);
     }
 
     /**
@@ -66,6 +87,9 @@ class BlogGenerator {
 
             // Create directories if needed
             this.ensureDirectories();
+
+            // Build slug-to-file lookup map for related posts
+            this.buildSlugToFileMap();
 
             // Preload course metadata for internal linking
             this.preloadCourseMetadata();
@@ -599,12 +623,13 @@ class BlogGenerator {
 
         for (const slug of relatedSlugs) {
             try {
-                const relatedFile = `${slug}.json`;
-                const relatedPath = path.join(this.dataDir, relatedFile);
+                const relatedPath = this.slugToFileMap[slug];
 
-                if (fs.existsSync(relatedPath)) {
+                if (relatedPath && fs.existsSync(relatedPath)) {
                     const relatedData = JSON.parse(fs.readFileSync(relatedPath, 'utf8'));
                     html += this.generateBlogCard(relatedData);
+                } else {
+                    console.warn(`  ⚠️  No file found for related post slug: ${slug}`);
                 }
             } catch (error) {
                 console.warn(`  ⚠️  Could not load related post: ${slug}`);
