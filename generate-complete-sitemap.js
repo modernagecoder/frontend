@@ -109,12 +109,15 @@ ${fs.readdirSync('./src/pages')
   <!-- Category Pages -->
 ${fs.readdirSync('./src/pages/category')
     .filter(file => file.endsWith('.html'))
-    .map(file => `  <url>
-    <loc>${BASE_URL}/category/${file}</loc>
+    .map(file => {
+      const slug = file.replace('.html', '');
+      return `  <url>
+    <loc>${BASE_URL}/category/${slug}</loc>
     <lastmod>${TODAY}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
-  </url>`).join('\n  \n')}
+  </url>`;
+    }).join('\n  \n')}
   
   <!-- All Course Pages -->
 ${courseFolders.map(folder => `  <url>
