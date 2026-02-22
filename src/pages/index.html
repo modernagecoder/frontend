@@ -362,25 +362,246 @@
 
             </div>
             <div class="hero-image">
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg"
+                    style="width: 100%; max-width: 600px; height: auto; filter: drop-shadow(0 25px 40px rgba(0,0,0,0.15)); margin: 0 auto; display: block; user-select: none;">
                     <defs>
-                        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
-                            <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+                        <!-- Glows & Blurs -->
+                        <filter id="ambientGlow1" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="60" result="blur" />
+                        </filter>
+                        <filter id="ambientGlow2" x="-50%" y="-50%" width="200%" height="200%">
+                            <feGaussianBlur stdDeviation="40" result="blur" />
+                        </filter>
+                        <filter id="cardBlur" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="15" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+
+                        <!-- Gradients -->
+                        <linearGradient id="purpleGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#a855f7; stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#7e22ce; stop-opacity:0.2" />
+                        </linearGradient>
+                        <linearGradient id="tealGlow" x1="100%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#4ecdc4; stop-opacity:0.8" />
+                            <stop offset="100%" style="stop-color:#0d9488; stop-opacity:0.2" />
+                        </linearGradient>
+
+                        <!-- Glassmorphism Card Gradients -->
+                        <linearGradient id="glassCard1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="rgba(30, 41, 59, 0.85)" />
+                            <stop offset="100%" stop-color="rgba(15, 23, 42, 0.95)" />
+                        </linearGradient>
+                        <linearGradient id="glassCard2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="rgba(30, 41, 59, 0.75)" />
+                            <stop offset="100%" stop-color="rgba(15, 23, 42, 0.85)" />
+                        </linearGradient>
+
+                        <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="rgba(168, 85, 247, 0.5)" />
+                            <stop offset="50%" stop-color="rgba(255, 255, 255, 0.05)" />
+                            <stop offset="100%" stop-color="rgba(78, 205, 196, 0.5)" />
+                        </linearGradient>
+                        <linearGradient id="borderGradientTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="rgba(78, 205, 196, 0.6)" />
+                            <stop offset="100%" stop-color="rgba(255, 255, 255, 0.05)" />
+                        </linearGradient>
+
+                        <!-- Math Curves Patterns -->
+                        <linearGradient id="sineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#4ecdc4" stop-opacity="0" />
+                            <stop offset="50%" stop-color="#4ecdc4" stop-opacity="1" />
+                            <stop offset="100%" stop-color="#4ecdc4" stop-opacity="0" />
                         </linearGradient>
                     </defs>
-                    <g>
-                        <path fill="url(#grad1)"
-                            d="M49.8,-54.6C62.9,-44,70.9,-26.8,72.2,-9.2C73.5,8.4,68.2,26.4,56.7,40.5C45.2,54.6,27.5,64.8,9.7,68.2C-8,71.5,-25.9,68,-40.5,58.8C-55.2,49.6,-66.6,34.7,-72.1,17.4C-77.6,0.1,-77.2,-19.6,-67.9,-33.8C-58.5,-48,-40.1,-56.6,-23.7,-61.7C-7.2,-66.7,7.3,-68.2,22.2,-65.4C37.1,-62.7,49.8,-54.6,49.8,-54.6Z"
-                            transform="translate(100 100)" opacity="0.4" />
-                        <g transform="translate(100 100)" fill="#E2E8F0" font-family="monospace" font-size="14"
-                            text-anchor="middle" style="user-select: none;">
-                            <text x="-30" y="-30" opacity="0.9">{;}</text>
-                            <text x="40" y="-15" opacity="0.9">&lt;/&gt;</text>
-                            <text x="0" y="10" font-size="20" opacity="0.9">f(x)</text>
-                            <text x="50" y="45" opacity="0.9">âˆ‘</text>
-                            <text x="-40" y="50" font-size="16" opacity="0.9">Ï€</text>
+
+                    <!-- Background Ambient Glowing Orbs -->
+                    <circle cx="150" cy="150" r="120" fill="url(#purpleGlow)" filter="url(#ambientGlow1)">
+                        <animate attributeName="opacity" values="0.5;0.8;0.5" dur="8s" repeatCount="indefinite" />
+                    </circle>
+                    <circle cx="450" cy="350" r="140" fill="url(#tealGlow)" filter="url(#ambientGlow1)">
+                        <animate attributeName="opacity" values="0.4;0.7;0.4" dur="10s" repeatCount="indefinite" />
+                    </circle>
+
+                    <!-- Background Grid for Tech Feel -->
+                    <g stroke="rgba(255,255,255,0.03)" stroke-width="1.5">
+                        <path
+                            d="M 0,50 L 600,50 M 0,100 L 600,100 M 0,150 L 600,150 M 0,200 L 600,200 M 0,250 L 600,250 M 0,300 L 600,300 M 0,350 L 600,350 M 0,400 L 600,400 M 0,450 L 600,450" />
+                        <path
+                            d="M 50,0 L 50,500 M 100,0 L 100,500 M 150,0 L 150,500 M 200,0 L 200,500 M 250,0 L 250,500 M 300,0 L 300,500 M 350,0 L 350,500 M 400,0 L 400,500 M 450,0 L 450,500 M 500,0 L 500,500 M 550,0 L 550,500" />
+                    </g>
+
+                    <!-- ============================================== -->
+                    <!-- COMPONENT 1: The Coding Editor Interface -->
+                    <!-- ============================================== -->
+                    <g transform="translate(40, 60)">
+                        <!-- Editor Body -->
+                        <rect width="360" height="260" rx="16" fill="url(#glassCard1)" stroke="url(#borderGradient)"
+                            stroke-width="1.5" style="box-shadow: 0 20px 40px rgba(0,0,0,0.5);" />
+
+                        <!-- Top Bar -->
+                        <rect width="360" height="40" rx="16" fill="rgba(255,255,255,0.03)" />
+                        <path d="M0,40 L360,40" stroke="rgba(255,255,255,0.05)" stroke-width="1.5" />
+
+                        <!-- Mac OS Dots -->
+                        <circle cx="25" cy="20" r="5" fill="#ef4444" opacity="0.8" />
+                        <circle cx="45" cy="20" r="5" fill="#eab308" opacity="0.8" />
+                        <circle cx="65" cy="20" r="5" fill="#22c55e" opacity="0.8" />
+
+                        <text x="180" y="25" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12"
+                            text-anchor="middle" font-weight="600">algorithm.js</text>
+
+                        <!-- Animated Code Lines Group -->
+                        <g transform="translate(25, 75)" font-family="'Courier New', monospace" font-size="14"
+                            font-weight="bold">
+                            <!-- Line 1 -->
+                            <text x="0" y="0" fill="#a855f7">const <tspan fill="#e2e8f0">optimizeLearning</tspan>
+                                <tspan fill="#4ecdc4">=</tspan>
+                                <tspan fill="#facc15">(student)</tspan>
+                                <tspan fill="#4ecdc4">=></tspan>
+                                <tspan fill="#64748b">{</tspan>
+                            </text>
+                            <!-- Line 2 -->
+                            <text x="20" y="30" fill="#a855f7">let <tspan fill="#e2e8f0">potential</tspan>
+                                <tspan fill="#4ecdc4">=</tspan>
+                                <tspan fill="#f472b6">Math</tspan>
+                                <tspan fill="#e2e8f0">.pow</tspan>
+                                <tspan fill="#64748b">(</tspan>
+                                <tspan fill="#e2e8f0">student.passion</tspan>
+                                <tspan fill="#64748b">,</tspan>
+                                <tspan fill="#38bdf8">2</tspan>
+                                <tspan fill="#64748b">)</tspan>
+                                <tspan fill="#e2e8f0">;</tspan>
+                            </text>
+                            <!-- Line 3 -->
+                            <text x="20" y="60" fill="#a855f7">if <tspan fill="#64748b">(</tspan>
+                                <tspan fill="#e2e8f0">student.hasCuriosity</tspan>
+                                <tspan fill="#64748b">)</tspan>
+                                <tspan fill="#64748b">{</tspan>
+                            </text>
+                            <!-- Line 4 -->
+                            <text x="40" y="90" fill="#e2e8f0">potential <tspan fill="#4ecdc4">*=</tspan>
+                                <tspan fill="#38bdf8">∞</tspan>
+                                <tspan fill="#e2e8f0">;</tspan>
+                                <tspan fill="#64748b" font-style="italic" font-weight="normal">// Extrapolate</tspan>
+                            </text>
+                            <!-- Line 5 -->
+                            <text x="20" y="120" fill="#64748b">}</tspan></text>
+                            <!-- Line 6 -->
+                            <text x="20" y="150" fill="#a855f7">return <tspan fill="#e2e8f0">potential;</tspan></text>
+                            <!-- Line 7 -->
+                            <text x="0" y="180" fill="#64748b">}</tspan>
+                                <tspan fill="#e2e8f0">;</tspan>
+                            </text>
                         </g>
+
+                        <!-- Subtle Blinking Cursor -->
+                        <rect x="230" y="240" rx="2" width="10" height="18" fill="#4ecdc4" opacity="0.8">
+                            <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
+                        </rect>
+                    </g>
+
+                    <!-- ============================================== -->
+                    <!-- COMPONENT 2: The Mathematics / Graph Window -->
+                    <!-- ============================================== -->
+                    <g transform="translate(250, 180)">
+                        <!-- Backdrop Filter & Main shape -->
+                        <g filter="url(#cardBlur)">
+                            <rect width="320" height="260" rx="16" fill="url(#glassCard2)"
+                                stroke="url(#borderGradientTeal)" stroke-width="1.5" />
+                        </g>
+
+                        <!-- Top Bar -->
+                        <rect width="320" height="40" rx="16" fill="rgba(255,255,255,0.02)" />
+                        <path d="M0,40 L320,40" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+                        <!-- Chart Window Header -->
+                        <text x="160" y="25" fill="rgba(255,255,255,0.4)" font-family="sans-serif" font-size="12"
+                            text-anchor="middle" font-weight="600">analysis_visualizer.py</text>
+
+                        <!-- Mini Controls -->
+                        <g transform="translate(280, 20)">
+                            <circle cx="0" cy="0" r="3" fill="#64748b" />
+                            <circle cx="10" cy="0" r="3" fill="#64748b" />
+                            <circle cx="20" cy="0" r="3" fill="#64748b" />
+                        </g>
+
+                        <!-- Math Graph Area -->
+                        <g transform="translate(25, 70)">
+                            <!-- Axis Lines -->
+                            <line x1="0" y1="150" x2="270" y2="150" stroke="rgba(255,255,255,0.15)" stroke-width="1.5"
+                                stroke-dasharray="4" />
+                            <line x1="20" y1="0" x2="20" y2="170" stroke="rgba(255,255,255,0.15)" stroke-width="1.5" />
+
+                            <!-- Graph Curve: Sigmoid / Exponential Growth -->
+                            <path d="M 20,150 C 100,140 150,140 180,90 C 210,40 230,20 270,10" fill="none"
+                                stroke="url(#sineGrad)" stroke-width="4" stroke-linecap="round">
+                                <animate attributeName="stroke-dasharray" values="0, 500; 500, 0" dur="4s"
+                                    fill="freeze" />
+                            </path>
+
+                            <!-- Data Points -->
+                            <circle cx="110" cy="140" r="4" fill="#facc15" stroke="rgba(30,41,59,0.9)"
+                                stroke-width="2" />
+                            <circle cx="180" cy="90" r="5" fill="#a855f7" stroke="rgba(30,41,59,0.9)"
+                                stroke-width="2" />
+                            <circle cx="240" cy="30" r="6" fill="#f472b6" stroke="rgba(30,41,59,0.9)"
+                                stroke-width="2" />
+                            <circle cx="270" cy="10" r="7" fill="#4ecdc4" stroke="rgba(30,41,59,0.9)" stroke-width="2">
+                                <animate attributeName="r" values="6;8;6" dur="2s" repeatCount="indefinite" />
+                            </circle>
+
+                            <!-- Integral Equation floating -->
+                            <g transform="translate(45, 20)" fill="#e2e8f0"
+                                font-family="'Times New Roman', Times, serif" font-weight="bold" font-style="italic">
+                                <text x="0" y="30" font-size="44" fill="#a855f7">∫</text>
+                                <text x="25" y="15" font-size="18">∞</text>
+                                <text x="25" y="45" font-size="14">0</text>
+                                <text x="45" y="30" font-size="20">e<tspan dy="-10" font-size="14">-x²</tspan>
+                                    <tspan dy="10">dx = </tspan>
+                                    <tspan fill="#4ecdc4" font-family="sans-serif">√π / 2</tspan>
+                                </text>
+                            </g>
+                        </g>
+
+                        <!-- Small stats box -->
+                        <g transform="translate(160, 200)">
+                            <rect width="130" height="40" rx="8" fill="rgba(78, 205, 196, 0.1)"
+                                stroke="rgba(78, 205, 196, 0.3)" stroke-width="1" />
+                            <text x="15" y="25" fill="#4ecdc4" font-family="'Courier New', monospace" font-size="13"
+                                font-weight="bold">Output = 99.9%</text>
+                        </g>
+                    </g>
+
+                    <!-- Floating Aesthetic UI Elements -->
+                    <!-- Pi floating icon -->
+                    <g transform="translate(70, 360)">
+                        <rect width="45" height="45" rx="12" fill="rgba(168, 85, 247, 0.15)"
+                            stroke="rgba(168, 85, 247, 0.4)" stroke-width="1.5" />
+                        <text x="22.5" y="30" fill="#a855f7" font-family="sans-serif" font-size="24"
+                            text-anchor="middle" font-weight="bold">π</text>
+                        <animateTransform attributeName="transform" type="translate" values="70,360; 70,370; 70,360"
+                            dur="5s" repeatCount="indefinite" />
+                    </g>
+
+                    <!-- React/Code bracket icon -->
+                    <g transform="translate(480, 100)">
+                        <rect width="50" height="50" rx="14" fill="rgba(78, 205, 196, 0.15)"
+                            stroke="rgba(78, 205, 196, 0.4)" stroke-width="1.5" />
+                        <text x="25" y="33" fill="#4ecdc4" font-family="'Courier New', monospace" font-size="22"
+                            text-anchor="middle" font-weight="bold">&lt;/&gt;</text>
+                        <animateTransform attributeName="transform" type="translate" values="480,100; 480,90; 480,100"
+                            dur="4.2s" repeatCount="indefinite" />
+                    </g>
+
+                    <!-- ∑ Summation icon -->
+                    <g transform="translate(230, 20)">
+                        <circle cx="22" cy="22" r="22" fill="rgba(244, 114, 182, 0.15)"
+                            stroke="rgba(244, 114, 182, 0.4)" stroke-width="1.5" />
+                        <text x="23" y="29" fill="#f472b6" font-family="'Times New Roman', Times, serif" font-size="22"
+                            text-anchor="middle" font-weight="bold">∑</text>
+                        <animateTransform attributeName="transform" type="translate" values="230,20; 220,15; 230,20"
+                            dur="6s" repeatCount="indefinite" />
                     </g>
                 </svg>
             </div>
@@ -477,7 +698,8 @@
                                 <h3 class="card-title">Java Programming</h3>
                                 <p class="card-description">Master one of the worldâ€™s most powerful programming
                                     languages! Teens will learn the core concepts of Java â€” from variables, loops, and
-                                    functions to object-oriented programming â€” and build real-world applications step by
+                                    functions to object-oriented programming â€” and build real-world applications step
+                                    by
                                     step.</p>
                                 <!-- <ul class="card-skills">
                                     <li>React & Node.js</li>
@@ -1470,7 +1692,7 @@
                 }
 
                 .comparison-table th.modern-age-header::before {
-                    /* content: 'â˜… RECOMMENDED'; */
+                    /* content: '★ RECOMMENDED'; */
                     position: absolute;
                     top: -12px;
                     left: 50%;
@@ -2635,7 +2857,8 @@
                             <div class="project-info">
                                 <h3>Baby Website</h3>
                                 <p>A fun and engaging typing speed website where students can test their typing skills
-                                    in real time. It tracks accuracy, speed, and displays a leaderboard to see whoâ€™s the
+                                    in real time. It tracks accuracy, speed, and displays a leaderboard to see whoâ€™s
+                                    the
                                     fastest typer among friends!</p>
                                 <span class="student-name">- by Kritika</span>
                             </div>
@@ -2733,11 +2956,11 @@
                                         <p class="name">Sonam Oswal</p>
                                         <p class="course">Mother of Dhairya</p>
                                         <div class="star-rating">
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2768,11 +2991,11 @@
                                         <p class="name">Shradha Saraf</p>
                                         <p class="course">Mother of Mivaan</p>
                                         <div class="star-rating">
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2800,11 +3023,11 @@
                                         <p class="name">Shewta Singh</p>
                                         <p class="course">Mother of Ishan</p>
                                         <div class="star-rating">
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2831,11 +3054,11 @@
                                         <p class="name">Ritu Kedia</p>
                                         <p class="course">Mother of Aditya</p>
                                         <div class="star-rating">
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
-                                            <span class="star">â˜…</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
                                         </div>
                                     </div>
                                 </div>
