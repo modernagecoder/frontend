@@ -643,22 +643,24 @@ class BlogGenerator {
      * Generate a blog card HTML
      */
     generateBlogCard(blogData) {
+        const category = blogData.meta.category || 'Blog';
+        const tags = (blogData.meta.tags || []).join(',');
         return `
-            <div class="blog-card" data-blog-url="${blogData.meta.slug}">
-                <div class="blog-card-image">
-                    <img src="${blogData.hero.featuredImage.url}" alt="${blogData.hero.featuredImage.alt}">
-                </div>
-                <div class="blog-card-content">
-                    <span class="blog-card-category">${blogData.meta.category || 'Blog'}</span>
-                    <h3 class="blog-card-title">${blogData.meta.title}</h3>
-                    <p class="blog-card-excerpt">${blogData.meta.description}</p>
-                    <div class="blog-card-footer">
-                        <span class="blog-card-date">${this.formatDate(blogData.meta.date)}</span>
-                        <span class="blog-card-read-time">${blogData.meta.readTime || '5 min read'}</span>
-                    </div>
+        <div class="blog-card" data-blog-url="${blogData.meta.slug}" data-category="${category}" data-tags="${tags}">
+            <div class="blog-card-image">
+                <img src="${blogData.hero.featuredImage.url}" alt="${blogData.hero.featuredImage.alt}">
+            </div>
+            <div class="blog-card-content">
+                <span class="blog-card-category">${category}</span>
+                <h3 class="blog-card-title">${blogData.meta.title}</h3>
+                <p class="blog-card-excerpt">${blogData.meta.description}</p>
+                <div class="blog-card-footer">
+                    <span class="blog-card-date">${this.formatDate(blogData.meta.date)}</span>
+                    <span class="blog-card-read-time">${blogData.meta.readTime || '5 min read'}</span>
                 </div>
             </div>
-        `;
+        </div>
+    `;
     }
 
     /**
@@ -923,8 +925,8 @@ class BlogGenerator {
     }
 
     /**
-     * Generate blog listing page
-     */
+ * Generate blog listing page
+ */
     generateListingPage(template, allBlogData) {
         // Sort blog posts by date (newest first)
         allBlogData.sort((a, b) => {
@@ -937,26 +939,62 @@ class BlogGenerator {
 
         if (featuredPost) {
             featuredHtml = `
-                <section class="featured-post-section section">
-                    <div class="featured-post">
-                        <div class="featured-post-image">
-                            <img src="${featuredPost.hero.featuredImage.url}" alt="${featuredPost.hero.featuredImage.alt}">
-                        </div>
-                        <div class="featured-post-content">
-                            <span class="featured-badge">Featured</span>
-                            <span class="blog-card-category">${featuredPost.meta.category || 'Blog'}</span>
-                            <h2>${featuredPost.meta.title}</h2>
-                            <p>${featuredPost.meta.description}</p>
-                            <div class="featured-post-meta">
-                                <span class="blog-card-date">${this.formatDate(featuredPost.meta.date)}</span>
-                                <span class="blog-card-read-time">${featuredPost.meta.readTime || '5 min read'}</span>
-                            </div>
-                            <a href="/blog/${featuredPost.meta.slug}" class="cta-button">Read Article</a>
-                        </div>
+            <section class="featured-post-section section">
+                <div class="featured-post">
+                    <div class="featured-post-image">
+                        <img src="${featuredPost.hero.featuredImage.url}" alt="${featuredPost.hero.featuredImage.alt}">
                     </div>
-                </section>
-            `;
+                    <div class="featured-post-content">
+                        <div class="featured-post-tags" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem;">
+                        <span class="blog-featured-badge">Featured</span>
+                        <span class="blog-card-category" style="margin-bottom: 0;">${featuredPost.meta.category || 'Blog'}</span>
+                    </div>
+                        <h2>${featuredPost.meta.title}</h2>
+                        <p>${featuredPost.meta.description}</p>
+                        <div class="featured-post-meta">
+                            <span class="blog-card-date">${this.formatDate(featuredPost.meta.date)}</span>
+                            <span class="blog-card-read-time">${featuredPost.meta.readTime || '5 min read'}</span>
+                        </div>
+                        <a href="/blog/${featuredPost.meta.slug}" class="cta-button">Read Article</a>
+                    </div>
+                </div>
+            </section>
+        `;
         }
+
+        // Build category counts for sidebar
+        const categoryCounts = {};
+        for (const blog of allBlogData) {
+            const cat = blog.meta.category || 'Uncategorized';
+            categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+        }
+        // Sort categories by count descending
+        const sortedCategories = Object.entries(categoryCounts)
+            .sort((a, b) => b[1] - a[1]);
+
+        // Generate category pills HTML
+        let categoryPillsHtml = '<button class="blog-category-pill active" data-filter="all">All</button>\n';
+        for (const [cat] of sortedCategories) {
+            categoryPillsHtml += `                        <button class="blog-category-pill" data-filter="${cat}">${cat}</button>\n`;
+        }
+
+        // Generate search & filter toolbar HTML
+        const searchFilterHtml = `
+        <section class="blog-search-filter-section section">
+            <div class="blog-search-filter">
+                <div class="blog-search-box">
+                    <svg class="blog-search-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                    <input type="text" id="blog-search-input" class="blog-search-input" placeholder="Search articles..." autocomplete="off">
+                    <div id="blog-search-dropdown" class="blog-search-dropdown"></div>
+                </div>
+                <div class="blog-category-pills">
+                    ${categoryPillsHtml}
+                </div>
+            </div>
+        </section>
+    `;
+
+
 
         // Generate blog cards for all posts
         let cardsHtml = '';
@@ -967,6 +1005,7 @@ class BlogGenerator {
         // Populate template
         let html = template;
         html = html.replace(/{{FEATURED_POST}}/g, featuredHtml);
+        html = html.replace(/{{SEARCH_AND_FILTERS}}/g, searchFilterHtml);
         html = html.replace(/{{BLOG_CARDS}}/g, cardsHtml);
 
         // Write listing page

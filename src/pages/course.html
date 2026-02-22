@@ -370,7 +370,7 @@
             margin-bottom: 1.25rem;
             display: -webkit-box;
             -webkit-line-clamp: 3;
-            line-clamp:3;
+            line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
@@ -1050,20 +1050,20 @@
                         display: none !important;
                     }
 
-                    .track-card:hover {
-                        opacity: 0.85 !important;
-                        background: rgba(255, 255, 255, 0.04) !important;
-                        border-color: rgba(148, 163, 184, 0.15) !important;
-                        transform: none !important;
-                        box-shadow: none !important;
+                    .track-card:hover:not(.active) {
+                        opacity: 0.9 !important;
+                        background: rgba(168, 85, 247, 0.05) !important;
+                        border-color: rgba(168, 85, 247, 0.25) !important;
+                        transform: translateY(-2px) !important;
+                        box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1) !important;
                     }
 
                     .track-card.active {
                         opacity: 1 !important;
-                        background: rgba(241, 245, 249, 0.07) !important;
-                        border-color: rgba(241, 245, 249, 0.18) !important;
-                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12) !important;
-                        transform: none !important;
+                        background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15)) !important;
+                        border-color: rgba(168, 85, 247, 0.6) !important;
+                        box-shadow: 0 8px 25px rgba(168, 85, 247, 0.25) !important;
+                        transform: translateY(-2px) !important;
                     }
 
                     .track-icon-wrap {
@@ -1082,8 +1082,9 @@
                     }
 
                     .track-card.active .track-icon-wrap {
-                        background: rgba(241, 245, 249, 0.1) !important;
-                        border-color: rgba(241, 245, 249, 0.15) !important;
+                        background: linear-gradient(135deg, #a855f7, #4ecdc4) !important;
+                        border-color: transparent !important;
+                        box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4) !important;
                     }
 
                     .track-icon-wrap svg {
@@ -1138,9 +1139,9 @@
                     }
 
                     .track-card.active .track-badge {
-                        background: rgba(241, 245, 249, 0.1) !important;
-                        color: #cbd5e1 !important;
-                        border-color: rgba(241, 245, 249, 0.15) !important;
+                        background: rgba(78, 205, 196, 0.2) !important;
+                        color: #4ecdc4 !important;
+                        border-color: rgba(78, 205, 196, 0.4) !important;
                     }
 
                     .track-desc {
@@ -1152,7 +1153,7 @@
                     }
 
                     .track-card.active .track-desc {
-                        color: #64748b !important;
+                        color: #e2e8f0 !important;
                     }
 
                     .track-arrow {
@@ -1175,8 +1176,9 @@
 
                     .track-card.active .track-arrow {
                         opacity: 1 !important;
-                        color: #f1f5f9 !important;
-                        transform: translateX(3px) !important;
+                        color: #a855f7 !important;
+                        transform: translateX(5px) !important;
+                        filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.5)) !important;
                     }
 
                     /* ====== LEVEL DIVIDER ====== */
@@ -1251,21 +1253,21 @@
                         display: none !important;
                     }
 
-                    .sub-tab:hover {
-                        color: #e2e8f0 !important;
-                        background: rgba(255, 255, 255, 0.06) !important;
-                        border-color: transparent !important;
-                        transform: none !important;
-                        box-shadow: none !important;
+                    .sub-tab:hover:not(.active) {
+                        color: #f1f5f9 !important;
+                        background: rgba(168, 85, 247, 0.15) !important;
+                        border-color: rgba(168, 85, 247, 0.3) !important;
+                        transform: translateY(-1px) !important;
+                        box-shadow: 0 4px 10px rgba(168, 85, 247, 0.1) !important;
                     }
 
                     .sub-tab.active {
-                        color: #f1f5f9 !important;
-                        background: rgba(241, 245, 249, 0.1) !important;
-                        border-color: rgba(241, 245, 249, 0.15) !important;
-                        font-weight: 600 !important;
-                        box-shadow: none !important;
-                        transform: none !important;
+                        color: #fff !important;
+                        background: linear-gradient(135deg, #a855f7, #4ecdc4) !important;
+                        border-color: transparent !important;
+                        font-weight: 700 !important;
+                        box-shadow: 0 6px 15px rgba(168, 85, 247, 0.35) !important;
+                        transform: translateY(-2px) !important;
                     }
 
                     /* ====== CONTROLS SECTION ====== */
@@ -1535,17 +1537,22 @@
                     <!-- Sub-tabs Container -->
                     <div class="sub-tabs-container">
                         <!-- Coding Sub-tabs -->
-                        <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel" aria-labelledby="codingTab">
+                        <div class="sub-tabs coding-subtabs active" id="coding-content" role="tabpanel"
+                            aria-labelledby="codingTab">
                             <button class="sub-tab active" data-subtab="kids" data-main="coding">Kids (6–12)</button>
                             <button class="sub-tab" data-subtab="teens" data-main="coding">Teens (13–17)</button>
-                            <button class="sub-tab" data-subtab="college" data-main="coding">College &amp; Beyond</button>
+                            <button class="sub-tab" data-subtab="college" data-main="coding">College &amp;
+                                Beyond</button>
                             <button class="sub-tab" data-subtab="girls" data-main="coding">Girls in Tech</button>
-                            <button class="sub-tab" data-subtab="customized" data-main="coding">Corporate Training</button>
+                            <button class="sub-tab" data-subtab="customized" data-main="coding">Corporate
+                                Training</button>
                         </div>
 
                         <!-- Maths Sub-tabs -->
-                        <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel" aria-labelledby="mathsTab">
-                            <button class="sub-tab active" data-subtab="elementary" data-main="maths">Elementary (1–5)</button>
+                        <div class="sub-tabs maths-subtabs" id="maths-content" role="tabpanel"
+                            aria-labelledby="mathsTab">
+                            <button class="sub-tab active" data-subtab="elementary" data-main="maths">Elementary
+                                (1–5)</button>
                             <button class="sub-tab" data-subtab="middle" data-main="maths">Middle School (6–8)</button>
                             <button class="sub-tab" data-subtab="high" data-main="maths">High School (9–12)</button>
                             <button class="sub-tab" data-subtab="college" data-main="maths">College Level</button>
@@ -1571,10 +1578,19 @@
                 </div>
                 <div class="view-toggle">
                     <button class="view-btn active" id="gridView" aria-label="Grid view">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1" width="6" height="6" rx="1.5"/><rect x="9" y="1" width="6" height="6" rx="1.5"/><rect x="1" y="9" width="6" height="6" rx="1.5"/><rect x="9" y="9" width="6" height="6" rx="1.5"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <rect x="1" y="1" width="6" height="6" rx="1.5" />
+                            <rect x="9" y="1" width="6" height="6" rx="1.5" />
+                            <rect x="1" y="9" width="6" height="6" rx="1.5" />
+                            <rect x="9" y="9" width="6" height="6" rx="1.5" />
+                        </svg>
                     </button>
                     <button class="view-btn" id="listView" aria-label="List view">
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><rect x="1" y="1.5" width="14" height="3" rx="1.5"/><rect x="1" y="6.5" width="14" height="3" rx="1.5"/><rect x="1" y="11.5" width="14" height="3" rx="1.5"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                            <rect x="1" y="1.5" width="14" height="3" rx="1.5" />
+                            <rect x="1" y="6.5" width="14" height="3" rx="1.5" />
+                            <rect x="1" y="11.5" width="14" height="3" rx="1.5" />
+                        </svg>
                     </button>
                 </div>
             </div>
@@ -1698,7 +1714,8 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                             <circle cx="9" cy="7" r="4"></circle>
                             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
@@ -1712,8 +1729,11 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polygon
+                                points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                            </polygon>
                         </svg>
                     </div>
                     <div class="feature-card-text">
@@ -1723,19 +1743,22 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="12" cy="12" r="10"></circle>
                             <polyline points="12 6 12 12 16 14"></polyline>
                         </svg>
                     </div>
                     <div class="feature-card-text">
                         <h3>Flexible Timing</h3>
-                        <p>Weekend and evening batches available. Learning fits your schedule, not the other way around.</p>
+                        <p>Weekend and evening batches available. Learning fits your schedule, not the other way around.
+                        </p>
                     </div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                             <polyline points="22 4 12 14.01 9 11.01"></polyline>
                         </svg>
