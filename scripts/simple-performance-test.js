@@ -60,7 +60,7 @@ function makeRequest(url) {
                     hasMetaDescription: data.includes('name="description"'),
                     hasTitle: /<title>.*<\/title>/.test(data),
                     hasH1: /<h1[^>]*>/.test(data),
-                    imageCount: (data.match(/<img[^>]*>/g) || []).length,
+                    imageCount: (data.match(/<img[^ loading="lazy">]*>/g) || []).length,
                     linkCount: (data.match(/<a[^>]*>/g) || []).length
                 });
             });

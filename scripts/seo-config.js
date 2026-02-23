@@ -7,7 +7,7 @@ const SEO_CONFIG = {
   // Domain Configuration
   domain: 'https://learn.modernagecoders.com',
   siteName: 'Modern Age Coders',
-  
+
   // Default Meta Tags
   defaultTitle: 'Modern Age Coders - Learn Coding & Math for All Ages',
   defaultDescription: 'Professional coding and mathematics education platform for kids, teens, college students, and working professionals. Master programming skills at any age with expert instructors and hands-on projects.',
@@ -22,23 +22,23 @@ const SEO_CONFIG = {
     'learn programming'
   ],
   defaultImage: '/images/og-default.jpg',
-  
+
   // Social Media
   twitterHandle: '@modernagecoders',
   facebookAppId: '', // Add if available
-  
+
   // Organization Information
   organization: {
     name: 'Modern Age Coders',
     legalName: 'Modern Age Coders Education',
-    logo: '/images/logo.png',
+    logo: '/images/logo.webp',
     foundingDate: '2020',
     description: 'Innovative education platform teaching coding and mathematics to students of all ages',
-    
+
     // Contact Information
     email: 'contact@modernagecoders.com',
     phone: '+919123366161',
-    
+
     // Address (if available)
     address: {
       streetAddress: '',
@@ -47,7 +47,7 @@ const SEO_CONFIG = {
       postalCode: '',
       addressCountry: 'IN'
     },
-    
+
     // Social Media Profiles
     socialProfiles: [
       'https://facebook.com/modernagecoders',
@@ -57,7 +57,7 @@ const SEO_CONFIG = {
       'https://youtube.com/@modernagecoders'
     ]
   },
-  
+
   // Image Requirements
   imageRequirements: {
     ogImage: {
@@ -71,7 +71,7 @@ const SEO_CONFIG = {
       format: 'jpg, png'
     }
   },
-  
+
   // Meta Tag Length Limits
   limits: {
     titleMin: 30,
@@ -80,7 +80,7 @@ const SEO_CONFIG = {
     descriptionMax: 160,
     keywordsMax: 10
   },
-  
+
   // Page-Specific SEO Configurations
   pages: {
     home: {
@@ -159,7 +159,7 @@ const SEO_CONFIG = {
       noindex: true
     }
   },
-  
+
   // Schema Templates
   schemaTemplates: {
     organization: {

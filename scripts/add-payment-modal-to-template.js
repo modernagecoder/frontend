@@ -15,7 +15,7 @@ const PAYMENT_MODAL_HTML = `
             <button onclick="closePaymentModal()" style="position:absolute;top:15px;right:15px;width:40px;height:40px;border:none;background:rgba(255,255,255,0.1);color:#fff;font-size:24px;border-radius:50%;cursor:pointer;z-index:10;">&times;</button>
             
             <div style="text-align:center;padding:28px 25px 22px;border-bottom:1px solid rgba(255,255,255,0.08);background:linear-gradient(135deg,rgba(168,85,247,0.08),rgba(6,182,212,0.05));">
-                <img src="/images/logo.png" alt="Modern Age Coders" style="height:55px;margin-bottom:15px;filter:drop-shadow(0 4px 15px rgba(168,85,247,0.4));" onerror="this.style.display='none'">
+                <img src="/images/logo.webp" alt="Modern Age Coders" style="height:55px;margin-bottom:15px;filter:drop-shadow(0 4px 15px rgba(168,85,247,0.4));" onerror="this.style.display='none'" loading="lazy">
                 <h2 style="font-size:1.5rem;font-weight:700;color:#fff;margin:0 0 8px;">Start Your Learning Journey</h2>
                 <p style="color:#94a3b8;font-size:0.95rem;margin:0;">Choose your preferred payment method</p>
             </div>
@@ -108,7 +108,7 @@ const PAYMENT_SCRIPT = `
             '<div style="position:relative;background:linear-gradient(160deg,#0f0f1a 0%,#1a1a2e 50%,#16213e 100%);border:2px solid rgba(168,85,247,0.4);border-radius:24px;max-width:480px;width:100%;padding:0;box-shadow:0 30px 100px rgba(0,0,0,0.7),0 0 40px rgba(168,85,247,0.15);overflow:hidden;">' +
             '<button onclick="closeRazorpayForm()" style="position:absolute;top:12px;right:12px;width:32px;height:32px;border:none;background:rgba(255,255,255,0.1);color:#fff;font-size:18px;border-radius:50%;cursor:pointer;z-index:10;transition:all 0.2s;" onmouseover="this.style.background=\\'rgba(255,255,255,0.2)\\'" onmouseout="this.style.background=\\'rgba(255,255,255,0.1)\\'">&times;</button>' +
             '<div style="background:linear-gradient(135deg,rgba(168,85,247,0.15),rgba(6,182,212,0.1));padding:25px 25px 20px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.08);">' +
-            '<img src="/images/logo.png" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display=\\'none\\'">' +
+            '<img src="/images/logo.webp" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display=\\'none\\'" loading="lazy">' +
             '<h2 style="color:#fff;font-size:1.4rem;font-weight:700;margin:0 0 6px;">Secure Payment</h2>' +
             '<p style="color:#94a3b8;font-size:0.9rem;margin:0;">' + courseName + '</p></div>' +
             '<div style="padding:20px 25px 25px;">' +
@@ -166,7 +166,7 @@ const PAYMENT_SCRIPT = `
                 currency: data.order.currency,
                 name: 'Modern Age Coders',
                 description: getCourseName(),
-                image: '/images/logo.png',
+                image: '/images/logo.webp',
                 order_id: data.order.id,
                 prefill: { name: name, email: email, contact: phone },
                 theme: { color: '#a855f7' },

@@ -508,7 +508,7 @@ class CourseGenerator {
                 "sameAs": "https://www.modernagecoders.com",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://learn.modernagecoders.com/images/logo.png"
+                    "url": "https://learn.modernagecoders.com/images/logo.webp"
                 },
                 "contactPoint": {
                     "@type": "ContactPoint",
@@ -672,7 +672,7 @@ class CourseGenerator {
                 "name": "Modern Age Coders",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://learn.modernagecoders.com/images/logo.png"
+                    "url": "https://learn.modernagecoders.com/images/logo.webp"
                 }
             },
             "datePublished": new Date().toISOString(),

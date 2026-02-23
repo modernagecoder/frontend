@@ -64,7 +64,7 @@ const COMPLETE_PAYMENT_SCRIPT = `    <script src="https://checkout.razorpay.com/
             '<div style="position:relative;background:linear-gradient(160deg,#0f0f1a 0%,#1a1a2e 50%,#16213e 100%);border:2px solid rgba(168,85,247,0.4);border-radius:24px;max-width:480px;width:100%;padding:0;box-shadow:0 30px 100px rgba(0,0,0,0.7),0 0 40px rgba(168,85,247,0.15);overflow:hidden;">' +
             '<button onclick="closeRazorpayForm()" style="position:absolute;top:12px;right:12px;width:32px;height:32px;border:none;background:rgba(255,255,255,0.1);color:#fff;font-size:18px;border-radius:50%;cursor:pointer;z-index:10;transition:all 0.2s;" onmouseover="this.style.background=\\'rgba(255,255,255,0.2)\\'" onmouseout="this.style.background=\\'rgba(255,255,255,0.1)\\'">&times;</button>' +
             '<div style="background:linear-gradient(135deg,rgba(168,85,247,0.15),rgba(6,182,212,0.1));padding:25px 25px 20px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.08);">' +
-            '<img src="/images/logo.png" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display=\\'none\\'">' +
+            '<img src="/images/logo.webp" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display=\\'none\\'" loading="lazy">' +
             '<h2 style="color:#fff;font-size:1.4rem;font-weight:700;margin:0 0 6px;">Secure Payment</h2>' +
             '<p style="color:#94a3b8;font-size:0.9rem;margin:0;">' + courseName + '</p>' +
             '</div>' +
@@ -145,7 +145,7 @@ const COMPLETE_PAYMENT_SCRIPT = `    <script src="https://checkout.razorpay.com/
                 currency: data.order.currency,
                 name: 'Modern Age Coders',
                 description: getCourseName(),
-                image: '/images/logo.png',
+                image: '/images/logo.webp',
                 order_id: data.order.id,
                 prefill: { name: name, email: email, contact: phone },
                 theme: { color: '#a855f7' },
@@ -199,18 +199,18 @@ const COMPLETE_PAYMENT_SCRIPT = `    <script src="https://checkout.razorpay.com/
 function fixPaymentInFile(filePath) {
     try {
         let content = fs.readFileSync(filePath, 'utf8');
-        
+
         // Find the old script section (from Razorpay script to </body>)
         const scriptStart = content.indexOf('<script src="https://checkout.razorpay.com/v1/checkout.js"></script>');
         const bodyEnd = content.lastIndexOf('</body>');
-        
+
         if (scriptStart === -1 || bodyEnd === -1) {
             return 'no-script';
         }
-        
+
         // Replace everything between Razorpay script and </body>
         content = content.substring(0, scriptStart) + COMPLETE_PAYMENT_SCRIPT + '\n\n</body>\n</html>';
-        
+
         fs.writeFileSync(filePath, content, 'utf8');
         return 'fixed';
     } catch (e) {
@@ -229,9 +229,9 @@ for (const item of items) {
         const indexPath = path.join(itemPath, 'index.html');
         if (fs.existsSync(indexPath)) {
             const result = fixPaymentInFile(indexPath);
-            if (result === 'fixed') { 
-                fixed++; 
-                console.log(`✅ ${item}`); 
+            if (result === 'fixed') {
+                fixed++;
+                console.log(`✅ ${item}`);
             } else if (result === 'error') {
                 errors++;
             } else {

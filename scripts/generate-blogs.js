@@ -579,7 +579,7 @@ class BlogGenerator {
         // Author replacements
         html = html.replace(/{{BLOG_AUTHOR_NAME}}/g, blogData.meta.author.name);
         html = html.replace(/{{BLOG_AUTHOR_BIO}}/g, blogData.meta.author.bio || '');
-        html = html.replace(/{{BLOG_AUTHOR_AVATAR}}/g, blogData.meta.author.avatar || '/images/default-avatar.png');
+        html = html.replace(/{{BLOG_AUTHOR_AVATAR}}/g, blogData.meta.author.avatar || '/images/default-avatar.webp');
 
         // Date replacements
         html = html.replace(/{{BLOG_DATE}}/g, this.formatDate(blogData.meta.date));
@@ -648,7 +648,7 @@ class BlogGenerator {
         return `
         <div class="blog-card" data-blog-url="${blogData.meta.slug}" data-category="${category}" data-tags="${tags}">
             <div class="blog-card-image">
-                <img src="${blogData.hero.featuredImage.url}" alt="${blogData.hero.featuredImage.alt}">
+                <img src="${blogData.hero.featuredImage.url}" alt="${blogData.hero.featuredImage.alt}" loading="lazy">
             </div>
             <div class="blog-card-content">
                 <span class="blog-card-category">${category}</span>
@@ -942,7 +942,7 @@ class BlogGenerator {
             <section class="featured-post-section section">
                 <div class="featured-post">
                     <div class="featured-post-image">
-                        <img src="${featuredPost.hero.featuredImage.url}" alt="${featuredPost.hero.featuredImage.alt}">
+                        <img src="${featuredPost.hero.featuredImage.url}" alt="${featuredPost.hero.featuredImage.alt}" loading="lazy">
                     </div>
                     <div class="featured-post-content">
                         <div class="featured-post-tags" style="display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem;">

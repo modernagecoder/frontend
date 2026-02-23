@@ -21,7 +21,7 @@ const NEW_RAZORPAY_FORM = `    // Open Razorpay payment form
                 <button onclick="document.getElementById('razorpayFormModal').remove()" style="position:absolute;top:12px;right:12px;width:32px;height:32px;border:none;background:rgba(255,255,255,0.1);color:#fff;font-size:18px;border-radius:50%;cursor:pointer;z-index:10;transition:all 0.2s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">&times;</button>
                 
                 <div style="background:linear-gradient(135deg,rgba(168,85,247,0.15),rgba(6,182,212,0.1));padding:25px 25px 20px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.08);">
-                    <img src="/images/logo.png" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display='none'">
+                    <img src="/images/logo.webp" alt="Modern Age Coders" style="height:50px;margin-bottom:12px;filter:drop-shadow(0 4px 12px rgba(168,85,247,0.3));" onerror="this.style.display='none'" loading="lazy">
                     <h2 style="color:#fff;font-size:1.4rem;font-weight:700;margin:0 0 6px;">Secure Payment</h2>
                     <p style="color:#94a3b8;font-size:0.9rem;margin:0;">\${courseName}</p>
                 </div>
@@ -82,7 +82,7 @@ const OLD_MODAL_HEADER = `            <div style="text-align:center;padding:30px
             </div>`;
 
 const NEW_MODAL_HEADER = `            <div style="text-align:center;padding:28px 25px 22px;border-bottom:1px solid rgba(255,255,255,0.08);background:linear-gradient(135deg,rgba(168,85,247,0.08),rgba(6,182,212,0.05));">
-                <img src="/images/logo.png" alt="Modern Age Coders" style="height:55px;margin-bottom:15px;filter:drop-shadow(0 4px 15px rgba(168,85,247,0.4));" onerror="this.style.display='none'">
+                <img src="/images/logo.webp" alt="Modern Age Coders" style="height:55px;margin-bottom:15px;filter:drop-shadow(0 4px 15px rgba(168,85,247,0.4));" onerror="this.style.display='none'" loading="lazy">
                 <h2 style="font-size:1.5rem;font-weight:700;color:#fff;margin:0 0 8px;">Start Your Learning Journey</h2>
                 <p style="color:#94a3b8;font-size:0.95rem;margin:0;">Choose your preferred payment method</p>
             </div>`;
@@ -91,25 +91,25 @@ function updatePaymentUI(filePath) {
     try {
         let content = fs.readFileSync(filePath, 'utf8');
         let modified = false;
-        
+
         // Update the razorpay form function
         if (content.includes('function openRazorpayForm()')) {
             // Find and replace the entire openRazorpayForm function
             const funcStart = content.indexOf('    // Open Razorpay payment form\n    function openRazorpayForm()');
             const funcEnd = content.indexOf('    // Process Razorpay payment');
-            
+
             if (funcStart !== -1 && funcEnd !== -1) {
                 content = content.substring(0, funcStart) + NEW_RAZORPAY_FORM + '\n\n' + content.substring(funcEnd);
                 modified = true;
             }
         }
-        
+
         // Update modal header with logo
         if (content.includes(OLD_MODAL_HEADER)) {
             content = content.replace(OLD_MODAL_HEADER, NEW_MODAL_HEADER);
             modified = true;
         }
-        
+
         if (modified) {
             fs.writeFileSync(filePath, content, 'utf8');
             return 'updated';

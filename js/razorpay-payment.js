@@ -7,12 +7,12 @@
 const PAYMENT_CONFIG = {
   // Backend API URL
   API_URL: 'https://backend-modernagecoders.vercel.app',
-  
+
   // Company details for Razorpay checkout
   COMPANY_NAME: 'Modern Age Coders',
-  COMPANY_LOGO: '/images/logo.png', // Your logo path
+  COMPANY_LOGO: '/images/logo.webp', // Your logo path
   THEME_COLOR: '#3399cc', // Your brand color
-  
+
   // Currency
   CURRENCY: 'INR'
 };
@@ -40,9 +40,9 @@ async function initiatePayment(options) {
     customerName,
     customerEmail,
     customerPhone,
-    onSuccess = () => {},
-    onFailure = () => {},
-    onDismiss = () => {}
+    onSuccess = () => { },
+    onFailure = () => { },
+    onDismiss = () => { }
   } = options;
 
   // Validate required fields
@@ -117,12 +117,12 @@ async function initiatePayment(options) {
       theme: {
         color: PAYMENT_CONFIG.THEME_COLOR
       },
-      handler: async function(response) {
+      handler: async function (response) {
         // Payment successful - verify on backend
         await verifyPayment(response, orderData.order.orderId, onSuccess, onFailure);
       },
       modal: {
-        ondismiss: function() {
+        ondismiss: function () {
           console.log('Payment checkout closed');
           onDismiss();
         },
@@ -137,9 +137,9 @@ async function initiatePayment(options) {
     }
 
     const razorpay = new Razorpay(razorpayOptions);
-    
+
     // Handle payment failure
-    razorpay.on('payment.failed', function(response) {
+    razorpay.on('payment.failed', function (response) {
       console.error('Payment failed:', response.error);
       onFailure({
         error: response.error.description || 'Payment failed',
@@ -218,7 +218,7 @@ async function checkPaymentStatus(orderId) {
  */
 function showPaymentLoading(show, message = 'Processing payment...') {
   let overlay = document.getElementById('payment-loading-overlay');
-  
+
   if (show) {
     if (!overlay) {
       overlay = document.createElement('div');
@@ -259,7 +259,7 @@ function showPaymentSuccess(paymentData) {
       </div>
     </div>
   `;
-  
+
   document.body.insertAdjacentHTML('beforeend', successHtml);
 }
 

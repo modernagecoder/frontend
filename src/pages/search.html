@@ -108,7 +108,7 @@
             <div class="nav-container">
                 <a href="/" class="logo">
                     <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img">
+                        class="logo-img" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <ul class="nav-menu" id="navMenu">
@@ -781,6 +781,17 @@
         animate();
     </script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

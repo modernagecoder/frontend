@@ -1040,7 +1040,7 @@
             <div class="nav-container">
                 <a href="/" class="logo">
                     <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img">
+                        class="logo-img" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <ul class="nav-menu" id="navMenu">
@@ -2493,7 +2493,7 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <a href="/" class="logo">
-                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img">
+                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <p class="footer-tagline">Forging the next generation of innovators.</p>
@@ -2675,6 +2675,32 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+        }
+    });
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -2758,6 +2784,17 @@
         }
     </style>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

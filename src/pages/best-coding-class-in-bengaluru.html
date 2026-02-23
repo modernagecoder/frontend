@@ -277,7 +277,7 @@
             <div class="nav-container">
                 <a href="/" class="logo">
                     <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img">
+                        class="logo-img" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <ul class="nav-menu" id="navMenu">
@@ -575,7 +575,7 @@
                     <!-- Kids Course 1: Scratch -->
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/kids-coding.png"
+                            <img src="/images/kids-coding.webp"
                                 alt="Kids Coding with Scratch - Best coding class for kids in Bengaluru" loading="lazy">
                         </div>
                         <div class="card-content">
@@ -612,7 +612,7 @@
                     <!-- Kids Course 2: Web Design -->
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/html-css-kids.png"
+                            <img src="/images/html-css-kids.webp"
                                 alt="Web Design for Kids - HTML CSS course in Bengaluru" loading="lazy">
                         </div>
                         <div class="card-content">
@@ -647,7 +647,7 @@
                     <!-- Kids Course 3: Python -->
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/python-kids.png" alt="Python for Kids - Programming course in Bengaluru"
+                            <img src="/images/python-kids.webp" alt="Python for Kids - Programming course in Bengaluru"
                                 loading="lazy">
                         </div>
                         <div class="card-content">
@@ -705,7 +705,7 @@
                 <div class="courses-grid">
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/python-teens.png" alt="Python Programming for Teens in Bengaluru"
+                            <img src="/images/python-teens.webp" alt="Python Programming for Teens in Bengaluru"
                                 loading="lazy">
                         </div>
                         <div class="card-content">
@@ -723,7 +723,7 @@
 
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/java-teens.png" alt="Java Programming for Teens in Bengaluru"
+                            <img src="/images/java-teens.webp" alt="Java Programming for Teens in Bengaluru"
                                 loading="lazy">
                         </div>
                         <div class="card-content">
@@ -741,7 +741,7 @@
 
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/web-dev-teens.png" alt="Web Development for Teens in Bengaluru"
+                            <img src="/images/web-dev-teens.webp" alt="Web Development for Teens in Bengaluru"
                                 loading="lazy">
                         </div>
                         <div class="card-content">
@@ -759,7 +759,7 @@
 
                     <div class="course-card coding">
                         <div class="card-thumbnail-container">
-                            <img src="/images/ai-ml-teens.png" alt="AI Machine Learning for Teens in Bengaluru"
+                            <img src="/images/ai-ml-teens.webp" alt="AI Machine Learning for Teens in Bengaluru"
                                 loading="lazy">
                         </div>
                         <div class="card-content">
@@ -802,7 +802,7 @@
                     <!-- Maths Course 1 -->
                     <div class="course-card math">
                         <div class="card-thumbnail-container">
-                            <img src="/images/elementary-maths.png"
+                            <img src="/images/elementary-maths.webp"
                                 alt="Elementary Mathematics - Maths classes in Bengaluru" loading="lazy">
                         </div>
                         <div class="card-content">
@@ -826,7 +826,7 @@
                     <!-- Maths Course 2 -->
                     <div class="course-card math">
                         <div class="card-thumbnail-container">
-                            <img src="/images/high-school-maths.png"
+                            <img src="/images/high-school-maths.webp"
                                 alt="High School Mathematics - Maths tuition in Bengaluru" loading="lazy">
                         </div>
                         <div class="card-content">
@@ -848,7 +848,7 @@
                     <!-- Maths Course 3 -->
                     <div class="course-card math">
                         <div class="card-thumbnail-container">
-                            <img src="/images/olympiad-competition-maths.png"
+                            <img src="/images/olympiad-competition-maths.webp"
                                 alt="Olympiad Mathematics - Competition prep in Bengaluru" loading="lazy">
                         </div>
                         <div class="card-content">
@@ -2089,7 +2089,7 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <a href="/" class="logo">
-                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img">
+                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <p class="footer-tagline">Forging the next generation of innovators.</p>
@@ -2271,6 +2271,32 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+        }
+    });
+</script>
 <!-- END_INLINED_FOOTER -->
 
 <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -2522,6 +2548,17 @@
     <script src="/js/callback-modal.js"></script>
 <script src="/js/navigation.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

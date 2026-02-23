@@ -18,7 +18,7 @@ const NEW_PAYMENT_MODAL = `
             
             <!-- Header -->
             <div style="padding:32px 32px 24px;text-align:center;border-bottom:1px solid #f0f0f0;">
-                <img src="/images/logo.png" alt="Modern Age Coders" style="height:48px;margin-bottom:16px;" onerror="this.style.display='none'">
+                <img src="/images/logo.webp" alt="Modern Age Coders" style="height:48px;margin-bottom:16px;" onerror="this.style.display='none'" loading="lazy">
                 <h2 style="font-size:1.5rem;font-weight:600;color:#1a1a1a;margin:0 0 8px;letter-spacing:-0.02em;">Choose Payment Method</h2>
                 <p style="color:#666;font-size:0.95rem;margin:0;">Select how you'd like to enroll</p>
             </div>
@@ -101,7 +101,7 @@ const NEW_PAYMENT_FORM_FUNCTION = `
                 <button onclick="closeRazorpayForm()" style="position:absolute;top:16px;right:16px;width:36px;height:36px;border:none;background:rgba(0,0,0,0.05);color:#333;font-size:20px;border-radius:50%;cursor:pointer;z-index:10;transition:all 0.2s;display:flex;align-items:center;justify-content:center;" onmouseover="this.style.background='rgba(0,0,0,0.1)'" onmouseout="this.style.background='rgba(0,0,0,0.05)'">&times;</button>
                 
                 <div style="padding:32px 32px 24px;text-align:center;border-bottom:1px solid #f0f0f0;">
-                    <img src="/images/logo.png" alt="Modern Age Coders" style="height:48px;margin-bottom:16px;" onerror="this.style.display='none'">
+                    <img src="/images/logo.webp" alt="Modern Age Coders" style="height:48px;margin-bottom:16px;" onerror="this.style.display='none'" loading="lazy">
                     <h2 style="font-size:1.4rem;font-weight:600;color:#1a1a1a;margin:0 0 6px;letter-spacing:-0.02em;">Complete Payment</h2>
                     <p style="color:#666;font-size:0.9rem;margin:0;">\${courseName}</p>
                 </div>
