@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth !important;">
+<html lang="en" >
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -2080,8 +2080,23 @@
                 requestAnimationFrame(raf);
             }
             requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
         }
     });
+
 </script>
 <!-- END_INLINED_FOOTER -->
 

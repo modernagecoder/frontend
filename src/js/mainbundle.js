@@ -784,7 +784,6 @@
         const style = document.createElement('style');
         style.textContent = `
             html {
-                scroll-behavior: smooth;
             }
             
             @media (prefers-reduced-motion: reduce) {

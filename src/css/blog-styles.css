@@ -1031,7 +1031,6 @@
 
 /* Smooth Scroll for TOC Links */
 html {
-    scroll-behavior: smooth;
 }
 
 /* Heading Anchor Targets */
