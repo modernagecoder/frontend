@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Beat The Babu – The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
+    <title>Beat The Babu � The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
 
     <meta name="description"
         content="Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents.">
@@ -26,9 +26,9 @@
     <meta name="theme-color" content="#0f172a">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Beat The Babu – The Fastest 90-Second Math Challenge Game">
+    <meta property="og:title" content="Beat The Babu � The Fastest 90-Second Math Challenge Game">
     <meta property="og:description"
-        content="Try Beat The Babu – a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
+        content="Try Beat The Babu � a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
     <meta property="og:url" content="https://learn.modernagecoders.com/beat-the-babu/">
     <meta property="og:image" content="https://placehold.co/600x400/0f172a/3b82f6?text=Beat+The+Babu">
 
@@ -36,7 +36,7 @@
     {
       "@context": "https://schema.org",
       "@type": "EducationalApplication",
-      "name": "Beat The Babu – The Fastest 90-Second Math Challenge Game",
+      "name": "Beat The Babu � The Fastest 90-Second Math Challenge Game",
       "description": "A fun and competitive 90-second mental math game built by ModernAgeCoders to help students and families improve calculation speed and confidence.",
       "brand": {
         "@type": "Brand",
@@ -677,7 +677,7 @@
                             <span></span>
                         </button>
                     </li>
-                    <li class="nav-item" style="margin-left: 10px;"><a href="/login" class="cta-button"
+                    <li class="nav-item" style="margin-left: 10px;"><a href="https://dashboard.modernagecoders.com" target="_blank" class="cta-button"
                             style="padding: 0.6rem 2rem !important;">Login</a></li>
                 </ul>
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
@@ -742,7 +742,7 @@
             </div>
 
             <div class="streak-container" id="streak-box">
-                <div class="streak-flame">🔥</div>
+                <div class="streak-flame">??</div>
                 <div class="hud-label" style="margin-bottom:0;">Combo</div>
                 <div style="font-weight:800; color:var(--gold);" id="streak-display">x0</div>
             </div>
@@ -767,7 +767,7 @@
                 <div class="hud-label"
                     style="text-align: left; margin-bottom:12px; display:flex; justify-content:space-between;">
                     <span>Global Legends</span>
-                    <span>🏆</span>
+                    <span>??</span>
                 </div>
                 <div id="lb-list">
                     <div style="text-align:center; color:#64748b; padding:10px;">Connecting...</div>
@@ -795,7 +795,7 @@
                 id="final-score">0</div>
 
             <div id="save-box" style="width:100%; display:none; animation: fadeIn 0.5s forwards;">
-                <p style="text-align: center; margin-bottom: 10px; color: var(--success); font-weight: 700;">🎉 NEW HIGH
+                <p style="text-align: center; margin-bottom: 10px; color: var(--success); font-weight: 700;">?? NEW HIGH
                     SCORE!</p>
                 <input type="text" id="name-input" placeholder="ENTER YOUR NAME" maxlength="12">
                 <button class="btn btn-primary" onclick="saveScore()">SAVE TO LEADERBOARD</button>
@@ -903,10 +903,10 @@
                 q = `${a} - ${b}`; ans = a - b; state.q.pts = 12; type = "SUBTRACTION";
             } else if (roll < 0.85) {
                 const a = r(2, 12), b = r(2, 12 + Math.min(5, diffMod));
-                q = `${a} × ${b}`; ans = a * b; state.q.pts = 15; type = "MULTIPLICATION";
+                q = `${a} � ${b}`; ans = a * b; state.q.pts = 15; type = "MULTIPLICATION";
             } else {
                 const b = r(2, 9), a = b * r(2, 10 + Math.min(5, diffMod));
-                q = `${a} ÷ ${b}`; ans = a / b; state.q.pts = 20; type = "DIVISION";
+                q = `${a} � ${b}`; ans = a / b; state.q.pts = 20; type = "DIVISION";
             }
 
             state.q.ans = ans;
@@ -1043,7 +1043,7 @@
             scores.slice(0, 10).forEach(d => {
                 const row = document.createElement('div');
                 row.className = 'lb-row';
-                let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank === 3 ? '🥉 ' : rank + '. '));
+                let rankIcon = rank === 1 ? '?? ' : (rank === 2 ? '?? ' : (rank === 3 ? '?? ' : rank + '. '));
                 row.innerHTML = `<span>${rankIcon} ${d.name}</span><span style="color:white; font-weight:700;">${d.score}</span>`;
                 l.appendChild(row);
                 rank++;

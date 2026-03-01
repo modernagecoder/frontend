@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -394,7 +394,7 @@
                             <span></span>
                         </button>
                     </li>
-                    <li class="nav-item" style="margin-left: 10px;"><a href="/login" class="cta-button"
+                    <li class="nav-item" style="margin-left: 10px;"><a href="https://dashboard.modernagecoders.com" target="_blank" class="cta-button"
                             style="padding: 0.6rem 2rem !important;">Login</a></li>
                 </ul>
                 <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
@@ -452,8 +452,8 @@
 
     <main id="main">
         <div class="container">
-            <h1>🧪 Student Labs - Experiments & Projects</h1>
-            <p class="subtitle">🔬 Explore innovative experiments and creative projects crafted by our brilliant
+            <h1>?? Student Labs - Experiments & Projects</h1>
+            <p class="subtitle">?? Explore innovative experiments and creative projects crafted by our brilliant
                 students in the lab</p>
             <br><br>
             <div class="projects-grid" id="projectsGrid"></div>
@@ -585,7 +585,7 @@
             {
                 title: "MyDay - Social Productivity & Task Organizer",
                 student: "Vedant",
-                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others’ daily plans for inspiration, creating a social and motivating community around productivity.",
+                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others� daily plans for inspiration, creating a social and motivating community around productivity.",
                 tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Calendar API", "python"],
                 link: "https://myday.modernagecoders.com",  // replace with actual link if available
                 image: "/images/projects/myday.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
@@ -623,17 +623,17 @@
                     <div class="project-image">
                         ${project.image ?
                         `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">` :
-                        '🚀'
+                        '??'
                     }
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">${project.title}</h3>
-                        <div class="project-student">👤 ${project.student}</div>
+                        <div class="project-student">?? ${project.student}</div>
                         <p class="project-description">${project.description}</p>
                         <div class="tags">
                             ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
                         </div>
-                        <a href="${project.link}" target="_blank" class="project-link">View Project →</a>
+                        <a href="${project.link}" target="_blank" class="project-link">View Project ?</a>
                     </div>
                 `;
 
