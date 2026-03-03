@@ -57,6 +57,8 @@
 # Additional pages (clean URLs)
 /projects /src/pages/projects.html 200
 /student-projects /src/pages/student-projects-standalone.html 200
+/student-projects-working /src/pages/student-projects-working.html 200
+/student-projects-standalone /src/pages/student-projects-standalone.html 200
 /check-status /src/pages/check-status.html 200
 
 # City Landing Pages - SEO Optimized
@@ -103,7 +105,42 @@
 # Blog posts
 /blog/* /content/blog/generated/:splat/index.html 200
 
+# 301 Redirects for retired/changed course slugs
+/courses/python-programming-masterclass-teens /courses/python-complete-masterclass-teens 301!
+/courses/maths /courses/college-mathematics-complete-masterclass 301!
+/courses/python-ai-automation-masterclass /courses/python-ai-automation-masterclass-college 301!
+/courses/kids-coding-complete /courses/kids-coding-blocks-masterclass 301!
+/courses/ai-tools-mastery-complete /courses/ai-tools-mastery-complete-college 301!
+/courses/data-science-complete-masterclass /courses/data-science-complete-masterclass-college 301!
+/courses/data-analysis-mastery-course /courses/data-analysis-mastery-course-college 301!
+/courses/react-js-complete-masterclass /courses/react-js-complete-masterclass-college 301!
+/courses/mysql-database-complete-masterclass /courses/mysql-database-complete-masterclass-college 301!
+/courses/competitive-programming-masterclass /courses/competitive-programming-masterclass-college 301!
+/courses/complete-java-programming-masterclass /courses/complete-java-programming-masterclass-college 301!
+/courses/game-development-complete-masterclass /courses/game-development-complete-masterclass-college 301!
+/courses/cpp-programming-complete-masterclass /courses/cpp-programming-complete-masterclass-college 301!
+/courses/artificial-intelligence-complete-masterclass /courses/artificial-intelligence-complete-masterclass-college 301!
+/courses/ai-ml-masterclass-complete /courses/ai-ml-masterclass-complete-college 301!
+/courses/mern-stack-development-masterclass /courses/mern-stack-development-masterclass-college 301!
+/courses/full-stack-web-development-masterclass /courses/full-stack-web-development-masterclass-college 301!
+/courses/python-programming-masterclass-zero-to-advanced /courses/python-programming-masterclass-zero-to-advanced-college 301!
+
+# Handle missing path parts
+/courses/app-development /courses/complete-app-development-masterclass-college 301!
+/courses/data-structures-algorithms-masterclass /courses/data-structures-algorithms-masterclass-college 301!
+/courses/kids-python-programming /courses/python-ai-kids-masterclass 301!
+/courses/kids-web-design /courses/kids-ai-web-development-course 301!
+
+# Redirect wrong category structures
+/courses/college /category/college 301!
+/courses/teens /category/teens 301!
+/courses/kids /category/kids 301!
+/courses/girls-coding /category/kids 301!
+
+# Catch singular typos and missing blog
+/course /courses 301!
+/blog/example-all-features /blog 301!
+
 # 404 fallback
 /* /src/pages/404.html 404
-
 

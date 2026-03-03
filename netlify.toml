@@ -275,6 +275,17 @@
   to = "/src/pages/category/corporate.html"
   status = 200
 
+# Clean URL rewrites for new projects
+[[redirects]]
+  from = "/student-projects-working"
+  to = "/src/pages/student-projects-working.html"
+  status = 200
+
+[[redirects]]
+  from = "/student-projects-standalone"
+  to = "/src/pages/student-projects-standalone.html"
+  status = 200
+
 # Course category URLs (must come before individual courses)
 [[redirects]]
   from = "/courses/coding/*"
@@ -296,6 +307,177 @@
 # (Pretty URLs auto-adds trailing slashes which conflict with trailing-slash-stripping rules)
 [build.processing.html]
   pretty_urls = false
+
+# ----------------------------------------------------
+# 301 Redirects for retired/changed course slugs
+# ----------------------------------------------------
+[[redirects]]
+  from = "/courses/python-programming-masterclass-teens"
+  to = "/courses/python-complete-masterclass-teens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/maths"
+  to = "/courses/college-mathematics-complete-masterclass"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/python-ai-automation-masterclass"
+  to = "/courses/python-ai-automation-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/kids-coding-complete"
+  to = "/courses/kids-coding-blocks-masterclass"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/ai-tools-mastery-complete"
+  to = "/courses/ai-tools-mastery-complete-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/data-science-complete-masterclass"
+  to = "/courses/data-science-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/data-analysis-mastery-course"
+  to = "/courses/data-analysis-mastery-course-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/react-js-complete-masterclass"
+  to = "/courses/react-js-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/mysql-database-complete-masterclass"
+  to = "/courses/mysql-database-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/competitive-programming-masterclass"
+  to = "/courses/competitive-programming-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/complete-java-programming-masterclass"
+  to = "/courses/complete-java-programming-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/game-development-complete-masterclass"
+  to = "/courses/game-development-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/cpp-programming-complete-masterclass"
+  to = "/courses/cpp-programming-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/artificial-intelligence-complete-masterclass"
+  to = "/courses/artificial-intelligence-complete-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/ai-ml-masterclass-complete"
+  to = "/courses/ai-ml-masterclass-complete-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/mern-stack-development-masterclass"
+  to = "/courses/mern-stack-development-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/full-stack-web-development-masterclass"
+  to = "/courses/full-stack-web-development-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/python-programming-masterclass-zero-to-advanced"
+  to = "/courses/python-programming-masterclass-zero-to-advanced-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/app-development"
+  to = "/courses/complete-app-development-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/data-structures-algorithms-masterclass"
+  to = "/courses/data-structures-algorithms-masterclass-college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/kids-python-programming"
+  to = "/courses/python-ai-kids-masterclass"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/kids-web-design"
+  to = "/courses/kids-ai-web-development-course"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/college"
+  to = "/category/college"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/teens"
+  to = "/category/teens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/kids"
+  to = "/category/kids"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/courses/girls-coding"
+  to = "/category/kids"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/course"
+  to = "/courses"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/blog/example-all-features"
+  to = "/blog"
+  status = 301
+  force = true
 
 # 404 fallback
 [[redirects]]
