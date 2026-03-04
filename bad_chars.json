@@ -1,0 +1,186 @@
+[
+  {
+    "line": 22,
+    "text": "        content=\"Ready to learn coding or math? We've got 30+ hands-on courses for every age � from Scratch for kids to AI for college students. Real projects, real skills, real results. Start your journey today!\">\r"
+  },
+  {
+    "line": 198,
+    "text": "    <!-- beautiful-tabs.css removed � styles now handled by internal minimalist CSS -->\r"
+  },
+  {
+    "line": 950,
+    "text": "                    Whether you're 8 or 80, just starting out or leveling up � we've got a course that fits.\r"
+  },
+  {
+    "line": 975,
+    "text": "                    /* ====== LEARN SECTION � PROFESSIONAL MINIMALIST ====== */\r"
+  },
+  {
+    "line": 1474,
+    "text": "                        <p>Choose your track and level � we'll show you the perfect courses to get started.</p>\r"
+  },
+  {
+    "line": 1541,
+    "text": "                            <button class=\"sub-tab active\" data-subtab=\"kids\" data-main=\"coding\">Kids (6�12)</button>\r"
+  },
+  {
+    "line": 1542,
+    "text": "                            <button class=\"sub-tab\" data-subtab=\"teens\" data-main=\"coding\">Teens (13�17)</button>\r"
+  },
+  {
+    "line": 1554,
+    "text": "                                (1�5)</button>\r"
+  },
+  {
+    "line": 1555,
+    "text": "                            <button class=\"sub-tab\" data-subtab=\"middle\" data-main=\"maths\">Middle School (6�8)</button>\r"
+  },
+  {
+    "line": 1556,
+    "text": "                            <button class=\"sub-tab\" data-subtab=\"high\" data-main=\"maths\">High School (9�12)</button>\r"
+  },
+  {
+    "line": 1712,
+    "text": "            <p class=\"why-choose-subtitle\">Real skills, real projects, real mentorship � not another boring course.</p>\r"
+  },
+  {
+    "line": 1740,
+    "text": "                        <p>No boring theory dumps. You'll build real projects from day one � games, apps, websites.</p>\r"
+  },
+  {
+    "line": 1786,
+    "text": "                    <p>We have courses for everyone! Kids (ages 6-12) can start with Scratch and visual coding � it's\r"
+  },
+  {
+    "line": 1835,
+    "text": "                        through challenges � someone who notices when you're stuck and helps you push through.</p>\r"
+  },
+  {
+    "line": 1849,
+    "text": "                        you'll build � those are what impress schools, colleges, or employers. We focus on skills that\r"
+  },
+  {
+    "line": 1862,
+    "text": "                    <p>We get it � not everything clicks for everyone. That's why we offer a trial class before you\r"
+  },
+  {
+    "line": 2149,
+    "text": "                description: 'The perfect first step into coding! Kids drag and drop colorful blocks to create games, animations, and stories. No typing needed � just creativity and curiosity.',\r"
+  },
+  {
+    "line": 2161,
+    "text": "                description: 'Learn real Python through Turtle graphics � draw shapes, create patterns, and build mini-games. It\\'s like art class meets coding!',\r"
+  },
+  {
+    "line": 2191,
+    "text": "                description: 'Train your brain with puzzles, patterns, and coding challenges. Think like a computer scientist � break big problems into small steps.',\r"
+  },
+  {
+    "line": 2203,
+    "text": "                description: 'Build your own mobile apps using drag-and-drop tools! No coding experience needed � just ideas and imagination.',\r"
+  },
+  {
+    "line": 2217,
+    "text": "                description: 'The language behind Instagram, Spotify, and Netflix. Learn Python through real projects � from games to automation scripts.',\r"
+  },
+  {
+    "line": 2223,
+    "text": "                description: 'Build complete websites from scratch � front-end, back-end, databases, everything. The skills that get you hired.',\r"
+  },
+  {
+    "line": 2247,
+    "text": "                description: 'Design beautiful, responsive websites that work on any device. HTML, CSS, JavaScript � the holy trinity of the web.',\r"
+  },
+  {
+    "line": 2253,
+    "text": "                description: 'Learn what happens behind the scenes � servers, databases, APIs. Build the engine that powers web applications.',\r"
+  },
+  {
+    "line": 2259,
+    "text": "                description: 'Build apps that run on millions of phones. From idea to App Store � learn the complete mobile development journey.',\r"
+  },
+  {
+    "line": 2265,
+    "text": "                description: 'Teach computers to learn! Build image recognizers, chatbots, and prediction models. The future is AI � be part of it.',\r"
+  },
+  {
+    "line": 2289,
+    "text": "                description: 'Learn to organize and query data like a pro. Every app needs a database � this is how you build them right.',\r"
+  },
+  {
+    "line": 2297,
+    "text": "                description: 'The complete package � React, Node.js, MongoDB, and everything in between. Build production-ready applications.',\r"
+  },
+  {
+    "line": 2303,
+    "text": "                description: 'From basics to building AI applications. Python is everywhere � web, data science, automation, AI. Master it all.',\r"
+  },
+  {
+    "line": 2315,
+    "text": "                description: 'Learn to build fast, secure, and elegant iOS applications using Swift and Apple�s native frameworks.',\r"
+  },
+  {
+    "line": 2346,
+    "text": "                description: 'Build intelligent systems that learn and adapt. Neural networks, deep learning, computer vision � the works.',\r"
+  },
+  {
+    "line": 2352,
+    "text": "                description: 'Turn raw data into insights that drive decisions. Statistics, visualization, machine learning � become data-fluent.',\r"
+  },
+  {
+    "line": 2364,
+    "text": "                description: 'MongoDB, Express, React, Node.js � the modern web stack. Build full-stack apps that companies actually use.',\r"
+  },
+  {
+    "line": 2400,
+    "text": "                description: 'Create games with Unity and Unreal Engine. From 2D platformers to 3D worlds � bring your imagination to life.',\r"
+  },
+  {
+    "line": 2424,
+    "text": "                description: 'Design, query, and optimize databases. The backbone of every application � learn to build it right.',\r"
+  },
+  {
+    "line": 2430,
+    "text": "                description: 'Extract insights from complex datasets. Excel, Python, SQL � become the person who finds the answers in data.',\r"
+  },
+  {
+    "line": 2442,
+    "text": "                description: 'Advanced algorithmic trading � build automated systems that trade while you sleep.',\r"
+  },
+  {
+    "line": 2462,
+    "text": "                description: 'A welcoming space for girls to start their coding journey. From basics to building real projects � at your own pace.',\r"
+  },
+  {
+    "line": 2468,
+    "text": "                description: 'Level up from intermediate to tech leader. Cloud, AI, blockchain � master the technologies shaping tomorrow.',\r"
+  },
+  {
+    "line": 2482,
+    "text": "                description: 'Build a rock-solid math foundation! Numbers, operations, fractions, geometry � everything grades 1-5 need.',\r"
+  },
+  {
+    "line": 2496,
+    "text": "                description: 'Pre-algebra, ratios, geometry basics � the bridge between elementary and high school math.',\r"
+  },
+  {
+    "line": 2510,
+    "text": "                description: 'Algebra, geometry, trig, pre-calc, calculus � accelerated learning for ambitious students.',\r"
+  },
+  {
+    "line": 2524,
+    "text": "                description: 'Advanced calculus, linear algebra, differential equations � the math that powers engineering and science.',\r"
+  },
+  {
+    "line": 2538,
+    "text": "                description: 'Quantitative finance, risk analysis, financial modeling � the math that moves money.',\r"
+  },
+  {
+    "line": 2544,
+    "text": "                description: 'Statistics, probability, ML math � the foundation every data professional needs.',\r"
+  },
+  {
+    "line": 2805,
+    "text": "                            <p class=\"corporate-subtitle\">Whether you're looking to switch careers, get promoted, or train your team � we'll create a custom program that fits your goals.</p>\r"
+  }
+]

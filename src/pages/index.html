@@ -349,8 +349,9 @@
     <main id="main">
         <section class="section hero-section" style="padding-top: 5rem; padding-bottom: 3rem;">
             <div class="hero-text">
-                <h1><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths + Co<span
-                            class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for Each
+                <h1 id="hero-main-title"><span style="white-space: nowrap;"><span class="highlight-ma">Ma</span>ths +
+                        Co<span class="highlight-de">de</span></span><br><span class="highlight-made">Made</span> for
+                    Each
                     Other.</h1>
                 <!-- <p>We at Modern Age Coders believe that Coding and Maths together bring out the best of both worlds
                     logic and creativity. When numbers meet imagination, learning becomes fun, meaningful, and full of
@@ -362,169 +363,391 @@
                     stage.
                 </p>
 
-            </div>
-            <div class="hero-symbol-wrapper">
                 <style>
-                    .hero-symbol-wrapper {
+                    /* ====== HERO SEGMENTED CONTROL TOGGLE (SMALLER / LEFT ALIGNED) ====== */
+                    .hero-toggle-container {
                         display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin: 3rem auto 1.5rem;
-                        width: 100%;
+                        justify-content: flex-start;
+                        /* Left aligned */
+                        margin: 1.5rem 0 0 0;
+                        /* Reduced margin, no auto margin */
+                        padding: 0;
+                        position: relative;
+                        z-index: 10;
                     }
 
-                    .glow-symbol-container {
+                    .hero-toggle-track {
                         position: relative;
-                        display: inline-flex;
+                        display: flex;
+                        align-items: center;
+                        background: rgba(15, 23, 42, 0.6);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        border-radius: 40px;
+                        /* smaller radius */
+                        padding: 6px;
+                        /* smaller padding */
+                        width: 100%;
+                        max-width: 320px;
+                        /* Reduced max width */
+                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), inset 0 2px 10px rgba(0, 0, 0, 0.3);
+                        backdrop-filter: blur(10px);
+                        -webkit-backdrop-filter: blur(10px);
+                        transition: animation 0.5s ease;
+                    }
+
+                    .hero-toggle-input {
+                        display: none;
+                    }
+
+                    .hero-toggle-slider {
+                        position: absolute;
+                        top: 6px;
+                        left: 6px;
+                        width: calc(50% - 6px);
+                        height: calc(100% - 12px);
+                        background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
+                        border-radius: 40px;
+                        z-index: 1;
+                        transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1), background 0.4s ease, box-shadow 0.4s ease;
+                        box-shadow: 0 4px 10px rgba(168, 85, 247, 0.4);
+                    }
+
+                    .hero-toggle-slider::after {
+                        content: '';
+                        position: absolute;
+                        inset: 0;
+                        border-radius: 40px;
+                        box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.4), inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+                    }
+
+                    .hero-toggle-label {
+                        flex: 1;
+                        text-align: center;
+                        font-size: 1.1rem;
+                        /* Smaller font */
+                        font-weight: 700;
+                        color: #94a3b8;
+                        padding: 0.8rem 0;
+                        /* Smaller padding */
+                        cursor: pointer;
+                        z-index: 2;
+                        transition: color 0.3s ease;
+                        display: flex;
                         align-items: center;
                         justify-content: center;
-                        gap: 0;
-                        animation: floatSymbol 8s ease-in-out infinite;
-                        /* Slower, minimalistic float */
+                        gap: 0.5rem;
+                        /* Smaller gap */
                         user-select: none;
                     }
 
-                    @keyframes floatSymbol {
+                    .hero-toggle-icon {
+                        font-size: 1.2rem;
+                        /* Smaller icon */
+                        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                        filter: grayscale(100%) opacity(0.5);
+                    }
 
-                        0%,
-                        100% {
-                            transform: translateY(0px);
+                    /* Coding Active State */
+                    .hero-toggle-input[value="coding"]:checked~.hero-toggle-track .hero-toggle-slider {
+                        transform: translateX(0);
+                        background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
+                        box-shadow: 0 4px 10px rgba(168, 85, 247, 0.4);
+                    }
+
+
+                    .hero-toggle-input[value="coding"]:checked~.hero-toggle-track .coding-label {
+                        color: #ffffff;
+                        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                    }
+
+                    .hero-toggle-input[value="coding"]:checked~.hero-toggle-track .coding-label .hero-toggle-icon {
+                        transform: scale(1.1) translateY(-1px);
+                        filter: none;
+                    }
+
+                    /* Maths Active State */
+                    .hero-toggle-input[value="maths"]:checked~.hero-toggle-track .hero-toggle-slider {
+                        transform: translateX(100%);
+                        background: linear-gradient(135deg, #f59e0b 0%, #db2777 100%);
+                        box-shadow: 0 4px 10px rgba(245, 158, 11, 0.4);
+                    }
+
+
+                    .hero-toggle-input[value="maths"]:checked~.hero-toggle-track .maths-label {
+                        color: #ffffff;
+                        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+                    }
+
+                    .hero-toggle-input[value="maths"]:checked~.hero-toggle-track .maths-label .hero-toggle-icon {
+                        transform: scale(1.1) translateY(-1px);
+                        filter: none;
+                    }
+
+                    @media (max-width: 640px) {
+                        .hero-toggle-container {
+                            justify-content: center;
+                            /* Center on mobile to look better */
                         }
-
-                        50% {
-                            transform: translateY(-8px);
-                        }
                     }
 
-                    /* Each character as an individual span - static gradient */
-                    .sym-char {
-                        font-family: 'Fira Code', 'Consolas', monospace;
-                        font-weight: 900;
-                        line-height: 1;
-                        display: inline-block;
-                        color: transparent;
-                        -webkit-background-clip: text;
-                        background-clip: text;
-                        position: relative;
-                    }
-
-                    /* Braces - purple to pink gradient */
-                    .sym-brace {
-                        font-size: 160px;
-                        background-image: linear-gradient(90deg, #a855f7, #ec4899);
-                        filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.5));
-                    }
-
-                    /* e? math symbol grouped properly */
-                    .sym-math-group {
-                        display: inline-flex;
-                        align-items: flex-start;
-                        margin: 0 4px;
-                        position: relative;
-                        top: 6px;
-                        /* Vertically center with braces */
-                    }
-
-                    .sym-math-e {
-                        font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 100px;
-                        font-style: italic;
-                        font-weight: 700;
-                        background-image: linear-gradient(90deg, #f59e0b, #fb923c);
-                        filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.5));
-                    }
-
-                    .sym-math-x {
-                        font-family: 'Georgia', 'Times New Roman', serif;
-                        font-size: 56px;
-                        font-style: italic;
-                        font-weight: 700;
-                        background-image: linear-gradient(90deg, #fb923c, #f59e0b);
-                        filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.5));
-                        margin-top: -2px;
-                        /* Lift slightly to act as superscript */
-                    }
-
-                    /* Semicolons - cyan/blue gradient */
-                    .sym-semi {
-                        font-size: 130px;
-                        background-image: linear-gradient(90deg, #0ea5e9, #2dd4bf);
-                        filter: drop-shadow(0 0 16px rgba(14, 165, 233, 0.5));
-                        margin: 0 -8px;
-                    }
-
-                    /* Ambient Background Glow */
+                    /* Interactive Symbol Glow Transitions */
                     .ambient-glow {
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, -50%);
-                        width: 140%;
-                        height: 140%;
-                        background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.15) 0%, rgba(14, 165, 233, 0.1) 30%, transparent 60%);
-                        filter: blur(50px);
-                        z-index: -1;
-                        animation: pulseAmbient 6s ease-in-out infinite alternate;
-                        /* Slower, subtle pulse */
-                        pointer-events: none;
+                        transition: background 0.8s ease;
                     }
 
-                    @keyframes pulseAmbient {
-                        0% {
-                            opacity: 0.4;
-                            transform: translate(-50%, -50%) scale(0.95);
-                        }
-
-                        100% {
-                            opacity: 0.8;
-                            transform: translate(-50%, -50%) scale(1.05);
-                        }
+                    /* Coding vs Maths Symbol Changes */
+                    .sym-char,
+                    .sym-math-group {
+                        transition: all 0.5s ease;
                     }
 
-                    @media (max-width: 768px) {
-                        .sym-brace {
-                            font-size: 100px;
-                        }
+                    /* Add transition to specific classes used dynamically */
+                    .glow-color-maths-brace {
+                        background-image: linear-gradient(90deg, #f59e0b, #db2777) !important;
+                        filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.5)) !important;
+                    }
 
-                        .sym-math-group {
-                            top: 2px;
-                        }
+                    .glow-color-maths-semi {
+                        background-image: linear-gradient(90deg, #db2777, #f59e0b) !important;
+                        filter: drop-shadow(0 0 16px rgba(219, 39, 119, 0.5)) !important;
+                    }
 
-                        .sym-math-e {
-                            font-size: 60px;
-                        }
-
-                        .sym-math-x {
-                            font-size: 36px;
-                        }
-
-                        .sym-semi {
-                            font-size: 80px;
-                            margin: 0 -6px;
-                        }
-
-                        .hero-symbol-wrapper {
-                            margin: 2rem auto 1rem;
-                        }
-
-                        .hero-section {
-                            padding-top: 3rem !important;
-                            padding-bottom: 2rem !important;
-                        }
+                    .glow-color-maths-inner {
+                        background-image: linear-gradient(90deg, #0ea5e9, #2dd4bf) !important;
+                        filter: drop-shadow(0 0 16px rgba(14, 165, 233, 0.5)) !important;
                     }
                 </style>
 
-                <div class="glow-symbol-container" title="Maths & Code = Magic">
-                    <div class="ambient-glow"></div>
-                    <span class="sym-char sym-brace">{</span>
-                    <span class="sym-char sym-semi">;</span>
-                    <span class="sym-math-group">
-                        <span class="sym-char sym-math-e">e</span><span class="sym-char sym-math-x">x</span>
-                    </span>
-                    <span class="sym-char sym-semi">;</span>
-                    <span class="sym-char sym-brace">}</span>
+                <div class="hero-toggle-container">
+                    <input type="radio" id="hero-coding-toggle" name="hero-category" class="hero-toggle-input"
+                        value="coding" checked>
+                    <input type="radio" id="hero-maths-toggle" name="hero-category" class="hero-toggle-input"
+                        value="maths">
+
+                    <div class="hero-toggle-track">
+                        <div class="hero-toggle-slider"></div>
+
+                        <label for="hero-coding-toggle" class="hero-toggle-label coding-label">
+                            <span class="hero-toggle-icon">👨‍💻</span>
+                            <span class="hero-text-label">Coding</span>
+                        </label>
+
+                        <label for="hero-maths-toggle" class="hero-toggle-label maths-label">
+                            <span class="hero-toggle-icon">🧮</span>
+                            <span class="hero-text-label">Maths</span>
+                        </label>
+                    </div>
                 </div>
-            </div>
+            </div> <!-- Close hero-text -->
+
+            <div class="hero-image">
+                <div class="hero-symbol-wrapper">
+                    <style>
+                        .hero-symbol-wrapper {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin: 1rem auto 1.5rem;
+                            width: 100%;
+                        }
+
+                        .glow-symbol-container {
+                            position: relative;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            gap: 0;
+                            animation: floatSymbol 8s ease-in-out infinite;
+                            user-select: none;
+                        }
+
+                        @keyframes floatSymbol {
+
+                            0%,
+                            100% {
+                                transform: translateY(0px);
+                            }
+
+                            50% {
+                                transform: translateY(-8px);
+                            }
+                        }
+
+                        .sym-char {
+                            font-family: 'Fira Code', 'Consolas', monospace;
+                            font-weight: 900;
+                            line-height: 1;
+                            display: inline-block;
+                            color: transparent;
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            position: relative;
+                        }
+
+                        .sym-brace {
+                            font-size: 160px;
+                            background-image: linear-gradient(90deg, #a855f7, #ec4899);
+                            filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.5));
+                        }
+
+                        .sym-math-group {
+                            display: inline-flex;
+                            align-items: flex-start;
+                            margin: 0 4px;
+                            position: relative;
+                            top: 6px;
+                        }
+
+                        .sym-math-e {
+                            font-family: 'Georgia', 'Times New Roman', serif;
+                            font-size: 100px;
+                            font-style: italic;
+                            font-weight: 700;
+                            background-image: linear-gradient(90deg, #f59e0b, #fb923c);
+                            filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.5));
+                        }
+
+                        .sym-math-x {
+                            font-family: 'Georgia', 'Times New Roman', serif;
+                            font-size: 56px;
+                            font-style: italic;
+                            font-weight: 700;
+                            background-image: linear-gradient(90deg, #fb923c, #f59e0b);
+                            filter: drop-shadow(0 0 16px rgba(245, 158, 11, 0.5));
+                            margin-top: -2px;
+                        }
+
+                        .sym-semi {
+                            font-size: 130px;
+                            background-image: linear-gradient(90deg, #0ea5e9, #2dd4bf);
+                            filter: drop-shadow(0 0 16px rgba(14, 165, 233, 0.5));
+                            margin: 0 -8px;
+                        }
+
+                        .ambient-glow {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 140%;
+                            height: 140%;
+                            background: radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.15) 0%, rgba(14, 165, 233, 0.1) 30%, transparent 60%);
+                            filter: blur(50px);
+                            z-index: -1;
+                            animation: pulseAmbient 6s ease-in-out infinite alternate;
+                            pointer-events: none;
+                        }
+
+                        @keyframes pulseAmbient {
+                            0% {
+                                opacity: 0.4;
+                                transform: translate(-50%, -50%) scale(0.95);
+                            }
+
+                            100% {
+                                opacity: 0.8;
+                                transform: translate(-50%, -50%) scale(1.05);
+                            }
+                        }
+
+                        @media (max-width: 768px) {
+                            .sym-brace {
+                                font-size: 100px;
+                            }
+
+                            .sym-math-group {
+                                top: 2px;
+                            }
+
+                            .sym-math-e {
+                                font-size: 60px;
+                            }
+
+                            .sym-math-x {
+                                font-size: 36px;
+                            }
+
+                            .sym-semi {
+                                font-size: 80px;
+                                margin: 0 -6px;
+                            }
+
+                            .hero-symbol-wrapper {
+                                margin: 1rem auto 1rem;
+                            }
+
+                            .hero-section {
+                                padding-top: 3rem !important;
+                                padding-bottom: 2rem !important;
+                            }
+                        }
+                    </style>
+
+                    <div class="glow-symbol-container" id="dynamic-hero-symbol" title="Maths & Code = Magic">
+                        <div class="ambient-glow" id="hero-ambient-glow"></div>
+                        <span class="sym-char sym-brace" id="sym-brace-left">{</span>
+                        <span class="sym-char sym-semi" id="sym-semi-left">;</span>
+                        <span class="sym-math-group" id="sym-center-group">
+                            <span class="sym-char sym-math-e"
+                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&lt;</span><span
+                                class="sym-char sym-math-x"
+                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #fb923c, #f59e0b); font-size: 110px; margin-top: 0px;">/</span><span
+                                class="sym-char sym-math-e"
+                                style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&gt;</span>
+                        </span>
+                        <span class="sym-char sym-semi" id="sym-semi-right">;</span>
+                        <span class="sym-char sym-brace" id="sym-brace-right">}</span>
+                    </div>
+                </div>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        const codingToggle = document.getElementById('hero-coding-toggle');
+                        const mathsToggle = document.getElementById('hero-maths-toggle');
+
+                        const glowBg = document.getElementById('hero-ambient-glow');
+                        const braceLeft = document.getElementById('sym-brace-left');
+                        const braceRight = document.getElementById('sym-brace-right');
+                        const semiLeft = document.getElementById('sym-semi-left');
+                        const semiRight = document.getElementById('sym-semi-right');
+                        const centerGroup = document.getElementById('sym-center-group');
+
+                        // We DO NOT update the hero Title text, only the glow and the symbols.
+                        const updateHeroTheme = () => {
+                            if (codingToggle.checked) {
+                                if (glowBg) glowBg.style.background = 'radial-gradient(circle at 50% 50%, rgba(168, 85, 247, 0.15) 0%, rgba(14, 165, 233, 0.1) 30%, transparent 60%)';
+
+                                // Transform colors back to coding
+                                if (braceLeft) { braceLeft.innerText = '{'; braceLeft.classList.remove('glow-color-maths-brace'); }
+                                if (braceRight) { braceRight.innerText = '}'; braceRight.classList.remove('glow-color-maths-brace'); }
+
+                                if (semiLeft) { semiLeft.innerText = ';'; semiLeft.classList.remove('glow-color-maths-semi'); }
+                                if (semiRight) { semiRight.innerText = ';'; semiRight.classList.remove('glow-color-maths-semi'); }
+
+                                if (centerGroup) centerGroup.innerHTML = `<span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&lt;</span><span class="sym-char sym-math-x" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #fb923c, #f59e0b); font-size: 110px; margin-top: 0px;">/</span><span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Fira Code', 'Consolas', monospace; font-weight: 900; background-image: linear-gradient(90deg, #f59e0b, #fb923c); font-size: 110px;">&gt;</span>`;
+
+                            } else {
+                                if (glowBg) glowBg.style.background = 'radial-gradient(circle at 50% 50%, rgba(245, 158, 11, 0.15) 0%, rgba(219, 39, 119, 0.1) 30%, transparent 60%)';
+
+                                // Transform colors to maths theme
+                                if (braceLeft) { braceLeft.innerText = '['; braceLeft.classList.add('glow-color-maths-brace'); }
+                                if (braceRight) { braceRight.innerText = ']'; braceRight.classList.add('glow-color-maths-brace'); }
+
+                                if (semiLeft) { semiLeft.innerText = '\u00A0'; semiLeft.classList.add('glow-color-maths-semi'); }
+                                if (semiRight) { semiRight.innerText = '\u00A0'; semiRight.classList.add('glow-color-maths-semi'); }
+
+                                if (centerGroup) centerGroup.innerHTML = `<span class="sym-char sym-math-e" style="font-style: normal; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; background-image: linear-gradient(90deg, #0ea5e9, #2dd4bf); font-size: 110px;">&sum;</span><span class="sym-char sym-math-x" style="font-style: normal; font-family: 'Georgia', 'Times New Roman', serif; font-weight: 700; background-image: linear-gradient(90deg, #2dd4bf, #0ea5e9); font-size: 80px; margin-top: 15px; margin-left:15px;">&infin;</span>`;
+                            }
+                        };
+
+                        codingToggle.addEventListener('change', updateHeroTheme);
+                        mathsToggle.addEventListener('change', updateHeroTheme);
+
+                        // Initial setup
+                        updateHeroTheme();
+                    });
+                </script>
+            </div> <!-- Close hero-image -->
         </section>
 
         <!-- ====== CODING CURRICULUM SECTION ====== -->
@@ -3960,7 +4183,8 @@
                 style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.6rem; max-width: 1000px; margin: 0 auto;">
 
                 <!-- Python & AI Courses -->
-                <a href="/courses/python-programming-masterclass-zero-to-advanced-college" target="_blank" rel="noopener"
+                <a href="/courses/python-programming-masterclass-zero-to-advanced-college" target="_blank"
+                    rel="noopener"
                     style="padding: 0.55rem 1.1rem; background: rgba(168, 85, 247, 0.12); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 50px; color: #e2e8f0; text-decoration: none; font-size: 0.8rem; font-weight: 500; transition: all 0.25s ease;">Python
                     Masterclass</a>
                 <a href="/courses/python-ai-automation-masterclass-college" target="_blank" rel="noopener"
