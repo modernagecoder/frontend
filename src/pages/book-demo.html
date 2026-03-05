@@ -1336,7 +1336,7 @@
         <section class="demo-hero">
             <h1>Book Your <span class="free-badge">FREE</span> <span>Demo Class</span></h1>
             <p>Experience our world-class teaching before you commit. Try a live 1-on-1 session with our expert
-                instructors — absolutely free, no strings attached.</p>
+                instructors ï¿½ absolutely free, no strings attached.</p>
 
             <div class="trust-badges">
                 <div class="trust-badge">
@@ -1425,7 +1425,7 @@
 
                     <div class="form-feedback" id="formFeedback">
                         <p class="feedback-message"></p>
-                        <button class="feedback-close" aria-label="Close">×</button>
+                        <button class="feedback-close" aria-label="Close">ï¿½</button>
                     </div>
                 </div>
 
@@ -1470,7 +1470,7 @@
                             </div>
                             <div class="benefit-content">
                                 <h4>Q&A Session</h4>
-                                <p>Ask anything — about courses, schedules, or our approach.</p>
+                                <p>Ask anything ï¿½ about courses, schedules, or our approach.</p>
                             </div>
                         </div>
 
@@ -1798,7 +1798,7 @@
                     </button>
                     <div class="faq-answer">
                         <p>Yes! Our demo class is 100% free with no hidden charges. Experience our teaching methodology,
-                            meet your instructor, and see if we're the right fit — all at zero cost to you.</p>
+                            meet your instructor, and see if we're the right fit ï¿½ all at zero cost to you.</p>
                     </div>
                 </div>
 
@@ -1823,7 +1823,7 @@
                         </svg>
                     </button>
                     <div class="faq-answer">
-                        <p>We teach students of all ages — kids as young as 6, teenagers, college students, and even
+                        <p>We teach students of all ages ï¿½ kids as young as 6, teenagers, college students, and even
                             working professionals looking to upskill. Our curriculum is customized for each age group
                             and skill level.</p>
                     </div>
@@ -1897,7 +1897,7 @@
 
         const chars = [
             '{ }', '< >', '( )', '[ ]', '=>', '//', '/*', '*/', '&&', '||',
-            'p', '?', '?', 'v', '8', '˜', '±', '÷', '×', 'a', 'ß', '?',
+            'p', '?', '?', 'v', '8', 'ï¿½', 'ï¿½', 'ï¿½', 'ï¿½', 'a', 'ï¿½', '?',
             'def', 'if', 'for', 'while', 'class', '===', '!=', '++', '--'
         ];
 
@@ -2323,6 +2323,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
 <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -2406,6 +2447,17 @@
     }
 </style>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

@@ -137,11 +137,8 @@
             if (dropdownLink && dropdownContent) {
                 dropdownLink.addEventListener('click', function(e) {
                     if (window.innerWidth <= 900) {
-                        // Only prevent default if it doesn't have a real href
-                        if (!this.getAttribute('href') || this.getAttribute('href') === '#') {
-                            e.preventDefault();
-                        }
-                        
+                        // On mobile, ALWAYS toggle dropdown instead of navigating
+                        e.preventDefault();
                         e.stopPropagation();
                         
                         // Close other dropdowns

@@ -1,4 +1,112 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-N8BM164YJP');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags - Optimized for Search -->
+    <title>About Modern Age Coders | Coding & Math Education That Actually Works</title>
+    <meta name="description"
+        content="Modern Age Coders teaches coding and mathematics to students aged 12-21 through hands-on projects. We also build custom software, AI solutions & automation for businesses. Real skills, real results.">
+    <meta name="keywords"
+        content="coding classes for kids, math tutoring, programming courses, software development company, AI solutions, web development, app development, STEM education India, learn coding online">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/about">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/about" />
+    <meta name="robots" content="index, follow">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#a855f7">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/about">
+    <meta property="og:title" content="About Modern Age Coders | Where Coding Meets Creativity">
+    <meta property="og:description"
+        content="We teach coding & math to students and build software for businesses. 500+ students trained, 50+ projects delivered. See what makes us different.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/about">
+    <meta name="twitter:title" content="About Modern Age Coders | Coding & Math Education">
+    <meta name="twitter:description"
+        content="Real coding skills for students. Custom software for businesses. See our story.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-about.jpg">
+
+    <!-- Structured Data (JSON-LD) - Enhanced for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Modern Age Coders",
+        "description": "Modern Age Coders is an education platform teaching coding and mathematics, plus a software development company building AI solutions and custom applications.",
+        "url": "https://learn.modernagecoders.com/about",
+        "mainEntity": {
+            "@type": "EducationalOrganization",
+            "name": "Modern Age Coders",
+            "description": "Coding and mathematics education for students aged 12-21, plus custom software development for businesses",
+            "url": "https://learn.modernagecoders.com",
+            "foundingDate": "2020",
+            "areaServed": "India",
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Our Services",
+                "itemListElement": [
+                    {"@type": "Course", "name": "Coding Courses for Kids & Teens"},
+                    {"@type": "Course", "name": "Mathematics Courses"},
+                    {"@type": "Service", "name": "Custom Software Development"},
+                    {"@type": "Service", "name": "AI & Automation Solutions"}
+                ]
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+919123366161",
+                "contactType": "Customer Service",
+                "email": "contact@modernagecoders.com"
+            }
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://learn.modernagecoders.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://learn.modernagecoders.com/about"
+        }
+      ]
+    }
+    </script>
+
+    <!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -87,38 +195,706 @@
     </script>
 
         <!-- Stylesheets -->
-        <!-- <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <link rel="stylesheet" href="/css/responsive.css">
         <link rel="stylesheet" href="/css/mobile-nav-fix.css">
         <link rel="stylesheet" href="/css/keyboard-navigation.css">
-        <link rel="stylesheet" href="/css/mobile-nav-final-fix.css"> -->
-        <link rel="stylesheet" href="/css/about.css">
-
+        <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
         <!-- GSAP Removed for Performance -->
 
-        
-    
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://learn.modernagecoders.com/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "About Us",
-          "item": "https://learn.modernagecoders.com/about"
-        }
-      ]
-    }
-    </script>
-</head>
+        <style>
+            /* About Page Custom Styles */
+            .about-page {
+                --accent-purple: #a855f7;
+                --accent-teal: #4ecdc4;
+                --accent-gold: #ffd700;
+                --text-primary: #f1f5f9;
+                --text-secondary: #94a3b8;
+                --card-bg: rgba(30, 30, 50, 0.6);
+                --card-border: rgba(168, 85, 247, 0.2);
+            }
+
+            /* Hero Section */
+            .about-hero-new {
+                min-height: 70vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 4rem 2rem;
+                position: relative;
+            }
+
+            .hero-inner {
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            .hero-badge {
+                display: inline-block;
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                padding: 0.5rem 1.5rem;
+                border-radius: 50px;
+                font-size: 0.9rem;
+                font-weight: 600;
+                margin-bottom: 1.5rem;
+                color: white;
+            }
+
+            .about-hero-new h1 {
+                font-size: clamp(2.5rem, 5vw, 4rem);
+                font-weight: 800;
+                line-height: 1.2;
+                margin-bottom: 1.5rem;
+                background: linear-gradient(135deg, #fff 0%, #e2e8f0 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .about-hero-new h1 span {
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+
+            .hero-subtitle {
+                font-size: 1.25rem;
+                color: var(--text-secondary);
+                line-height: 1.8;
+                max-width: 700px;
+                margin: 0 auto 2rem;
+            }
+
+            /* Quick Facts Strip */
+            .quick-facts {
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                flex-wrap: wrap;
+                margin-top: 2rem;
+            }
+
+            .fact-item {
+                text-align: center;
+            }
+
+            .fact-number {
+                font-size: 2.5rem;
+                font-weight: 800;
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+
+            .fact-label {
+                font-size: 0.9rem;
+                color: var(--text-secondary);
+                margin-top: 0.25rem;
+            }
+
+            /* Two Things Section */
+            .two-things-section {
+                padding: 5rem 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .section-header {
+                text-align: center;
+                margin-bottom: 3rem;
+            }
+
+            .section-header h2 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 1rem;
+            }
+
+            .section-header p {
+                color: var(--text-secondary);
+                font-size: 1.1rem;
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            .two-pillars {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+                gap: 2rem;
+                margin-top: 2rem;
+            }
+
+            .pillar-card {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 20px;
+                padding: 2.5rem;
+                transition: all 0.3s ease;
+                position: relative;
+                overflow: hidden;
+            }
+
+            .pillar-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 4px;
+                background: linear-gradient(90deg, var(--accent-purple), var(--accent-teal));
+                transform: scaleX(0);
+                transition: transform 0.3s ease;
+            }
+
+            .pillar-card:hover::before {
+                transform: scaleX(1);
+            }
+
+            .pillar-card:hover {
+                transform: translateY(-5px);
+                border-color: var(--accent-purple);
+                box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
+            }
+
+            .pillar-icon {
+                width: 60px;
+                height: 60px;
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                border-radius: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+                font-size: 1.5rem;
+            }
+
+            .pillar-card h3 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 1rem;
+            }
+
+            .pillar-card p {
+                color: var(--text-secondary);
+                line-height: 1.7;
+                margin-bottom: 1.5rem;
+            }
+
+            .pillar-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+
+            .pillar-list li {
+                padding: 0.5rem 0;
+                color: var(--text-secondary);
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+            }
+
+            .pillar-list li::before {
+                content: '?';
+                color: var(--accent-teal);
+                font-weight: bold;
+            }
+
+            /* Why Different Section */
+            .why-different {
+                padding: 5rem 2rem;
+                background: rgba(168, 85, 247, 0.05);
+            }
+
+            .why-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 1.5rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .why-card {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 16px;
+                padding: 2rem;
+                text-align: center;
+                transition: all 0.3s ease;
+            }
+
+            .why-card:hover {
+                transform: translateY(-3px);
+                border-color: var(--accent-teal);
+            }
+
+            .why-icon {
+                width: 56px;
+                height: 56px;
+                margin: 0 auto 1.25rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                border-radius: 14px;
+                transition: transform 0.3s ease;
+            }
+
+            .why-card:hover .why-icon {
+                transform: scale(1.05);
+            }
+
+            .why-icon svg {
+                width: 28px;
+                height: 28px;
+                stroke: white;
+                fill: none;
+                stroke-width: 1.5;
+            }
+
+            .why-card h3 {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 0.75rem;
+            }
+
+            .why-card p {
+                color: var(--text-secondary);
+                font-size: 0.95rem;
+                line-height: 1.6;
+            }
+
+            /* Popular Courses Section */
+            .popular-courses-section {
+                padding: 5rem 2rem;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+
+            .courses-showcase {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1.5rem;
+                margin-top: 2rem;
+            }
+
+            .course-showcase-card {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 16px;
+                overflow: hidden;
+                transition: all 0.3s ease;
+            }
+
+            .course-showcase-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            }
+
+            .course-img-wrapper {
+                height: 180px;
+                overflow: hidden;
+                position: relative;
+            }
+
+            .course-img-wrapper img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s ease;
+            }
+
+            .course-showcase-card:hover .course-img-wrapper img {
+                transform: scale(1.05);
+            }
+
+            .course-badge-new {
+                position: absolute;
+                top: 1rem;
+                left: 1rem;
+                background: var(--accent-purple);
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 20px;
+                font-size: 0.75rem;
+                font-weight: 600;
+            }
+
+            .course-showcase-content {
+                padding: 1.5rem;
+            }
+
+            .course-showcase-content h3 {
+                font-size: 1.1rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 0.5rem;
+            }
+
+            .course-showcase-content p {
+                color: var(--text-secondary);
+                font-size: 0.9rem;
+                line-height: 1.5;
+                margin-bottom: 1rem;
+            }
+
+            .course-meta {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 1rem;
+                border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .course-age {
+                color: var(--accent-teal);
+                font-size: 0.85rem;
+                font-weight: 600;
+            }
+
+            .course-link {
+                color: var(--accent-purple);
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 0.9rem;
+                transition: color 0.3s ease;
+            }
+
+            .course-link:hover {
+                color: var(--accent-teal);
+            }
+
+            /* Story Section */
+            .story-section {
+                padding: 5rem 2rem;
+                max-width: 900px;
+                margin: 0 auto;
+            }
+
+            .story-content {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 20px;
+                padding: 3rem;
+            }
+
+            .story-content h2 {
+                font-size: 2rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
+
+            .story-text {
+                color: var(--text-secondary);
+                line-height: 1.9;
+                font-size: 1.05rem;
+            }
+
+            .story-text p {
+                margin-bottom: 1.5rem;
+            }
+
+            .story-highlight {
+                background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
+                border-left: 4px solid var(--accent-purple);
+                padding: 1.5rem;
+                border-radius: 0 12px 12px 0;
+                margin: 2rem 0;
+            }
+
+            .story-highlight p {
+                margin: 0;
+                font-style: italic;
+                color: var(--text-primary);
+            }
+
+            /* Testimonials Section */
+            .testimonials-section {
+                padding: 5rem 2rem;
+                background: rgba(78, 205, 196, 0.05);
+            }
+
+            .testimonials-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                gap: 1.5rem;
+                max-width: 1200px;
+                margin: 2rem auto 0;
+            }
+
+            .testimonial-card-new {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 16px;
+                padding: 2rem;
+                position: relative;
+            }
+
+            .testimonial-quote {
+                font-size: 3rem;
+                color: var(--accent-purple);
+                opacity: 0.3;
+                position: absolute;
+                top: 1rem;
+                left: 1.5rem;
+            }
+
+            .testimonial-text {
+                color: var(--text-secondary);
+                line-height: 1.7;
+                margin-bottom: 1.5rem;
+                padding-top: 1rem;
+            }
+
+            .testimonial-author {
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .author-avatar-new {
+                width: 50px;
+                height: 50px;
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: 700;
+                color: white;
+                font-size: 1.2rem;
+            }
+
+            .author-details h4 {
+                color: var(--text-primary);
+                font-weight: 600;
+                margin-bottom: 0.25rem;
+            }
+
+            .author-details span {
+                color: var(--text-secondary);
+                font-size: 0.85rem;
+            }
+
+            /* FAQ Section */
+            .faq-section {
+                padding: 5rem 2rem;
+                background: rgba(168, 85, 247, 0.05);
+            }
+
+            .faq-inner {
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            .faq-list {
+                margin-top: 2rem;
+            }
+
+            .faq-item {
+                background: var(--card-bg);
+                border: 1px solid var(--card-border);
+                border-radius: 12px;
+                margin-bottom: 1rem;
+                overflow: hidden;
+            }
+
+            .faq-question {
+                width: 100%;
+                padding: 1.25rem 1.5rem;
+                background: transparent;
+                border: none;
+                color: var(--text-primary);
+                font-size: 1rem;
+                font-weight: 600;
+                text-align: left;
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transition: all 0.3s ease;
+            }
+
+            .faq-question:hover {
+                color: var(--accent-purple);
+            }
+
+            .faq-question svg {
+                width: 20px;
+                height: 20px;
+                stroke: var(--accent-purple);
+                fill: none;
+                stroke-width: 2;
+                transition: transform 0.3s ease;
+                flex-shrink: 0;
+            }
+
+            .faq-item.open .faq-question svg {
+                transform: rotate(180deg);
+            }
+
+            .about-page .faq-answer {
+                max-height: 0 !important;
+                overflow: hidden !important;
+                transition: max-height 0.4s ease-out, padding 0.3s ease, opacity 0.3s ease !important;
+                padding: 0 1.5rem !important;
+                opacity: 0 !important;
+            }
+
+            .about-page .faq-item.open .faq-answer,
+            .about-page .faq-item.active .faq-answer {
+                max-height: 500px !important;
+                padding: 0 1.5rem 1.25rem !important;
+                opacity: 1 !important;
+            }
+
+            .about-page .faq-item.open .faq-answer p,
+            .about-page .faq-item.active .faq-answer p,
+            .about-page .faq-answer p {
+                color: var(--text-secondary) !important;
+                line-height: 1.7 !important;
+                margin: 0 !important;
+                padding-top: 0.5rem !important;
+                padding-bottom: 0 !important;
+                display: block !important;
+                visibility: visible !important;
+                opacity: 1 !important;
+            }
+
+            /* CTA Section */
+            .cta-section {
+                padding: 5rem 2rem;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+
+            .cta-content h2 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                color: var(--text-primary);
+                margin-bottom: 1rem;
+            }
+
+            .cta-content p {
+                color: var(--text-secondary);
+                font-size: 1.1rem;
+                margin-bottom: 2rem;
+            }
+
+            .cta-buttons {
+                display: flex;
+                justify-content: center;
+                gap: 1rem;
+                flex-wrap: wrap;
+            }
+
+            .cta-btn {
+                padding: 1rem 2rem;
+                border-radius: 50px;
+                font-weight: 600;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                display: inline-block;
+            }
+
+            .cta-btn-primary {
+                background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+                color: white;
+            }
+
+            .cta-btn-primary:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
+            }
+
+            .cta-btn-secondary {
+                background: transparent;
+                border: 2px solid var(--accent-purple);
+                color: var(--accent-purple);
+            }
+
+            .cta-btn-secondary:hover {
+                background: var(--accent-purple);
+                color: white;
+            }
+
+            /* Responsive */
+            @media (max-width: 768px) {
+                .about-hero-new h1 {
+                    font-size: 2rem;
+                }
+
+                .hero-subtitle {
+                    font-size: 1rem;
+                }
+
+                .quick-facts {
+                    gap: 1.5rem;
+                }
+
+                .fact-number {
+                    font-size: 2rem;
+                }
+
+                .two-pillars {
+                    grid-template-columns: 1fr;
+                }
+
+                .pillar-card {
+                    padding: 2rem;
+                }
+
+                .story-content {
+                    padding: 2rem;
+                }
+
+                .section-header h2 {
+                    font-size: 1.8rem;
+                }
+            }
+
+            /* Animation Classes */
+            .reveal-up {
+                opacity: 0;
+                transform: translateY(30px);
+                transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+                will-change: opacity, transform;
+            }
+
+            .reveal-up.active {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            .stagger-delay-1 {
+                transition-delay: 0.1s;
+            }
+
+            .stagger-delay-2 {
+                transition-delay: 0.2s;
+            }
+
+            .stagger-delay-3 {
+                transition-delay: 0.3s;
+            }
+
+            .stagger-delay-4 {
+                transition-delay: 0.4s;
+            }
+
+            .stagger-delay-5 {
+                transition-delay: 0.5s;
+            }
+        </style>
+    </head>
 
 <body class="about-page">
     <!-- Skip link for keyboard navigation -->
@@ -339,7 +1115,7 @@
                 <span class="hero-badge">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="about-inline_29">
+                        style="vertical-align: middle; margin-right: 6px;">
                         <path
                             d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
                         <path
@@ -376,7 +1152,7 @@
         <section class="two-things-section">
             <div class="section-header">
                 <h2>Two Things We Do Really Well</h2>
-                <p>We keep it focused. No fluff, no gimmicks — just quality work in two areas.</p>
+                <p>We keep it focused. No fluff, no gimmicks � just quality work in two areas.</p>
             </div>
 
             <div class="two-pillars">
@@ -392,7 +1168,7 @@
                     <h3>Education for Students</h3>
                     <p>
                         We teach coding and mathematics to students aged 12-21. Not through boring lectures,
-                        but by building real things — games, websites, apps. Students learn by doing.
+                        but by building real things � games, websites, apps. Students learn by doing.
                     </p>
                     <ul class="pillar-list">
                         <li>Python, JavaScript, Java, C++ courses</li>
@@ -415,7 +1191,7 @@
                     <h3>Software for Businesses</h3>
                     <p>
                         We build custom software, websites, mobile apps, and AI solutions for companies.
-                        From startups to established businesses — we turn ideas into working products.
+                        From startups to established businesses � we turn ideas into working products.
                     </p>
                     <ul class="pillar-list">
                         <li>Custom web & mobile applications</li>
@@ -486,7 +1262,7 @@
                         </svg>
                     </div>
                     <h3>Real Portfolio</h3>
-                    <p>Students graduate with actual projects they can show — not just certificates. Something to be
+                    <p>Students graduate with actual projects they can show � not just certificates. Something to be
                         proud of and share.</p>
                 </div>
 
@@ -535,7 +1311,7 @@
                             moving to text-based coding.</p>
                         <div class="course-meta">
                             <span class="course-age">Ages 8-12</span>
-                            <a href="/courses/kids-coding-blocks-masterclass" class="course-link">Learn More →</a>
+                            <a href="/courses/kids-coding-blocks-masterclass" class="course-link">Learn More ?</a>
                         </div>
                     </div>
                 </article>
@@ -551,7 +1327,7 @@
                             journey.</p>
                         <div class="course-meta">
                             <span class="course-age">Ages 12-18</span>
-                            <a href="/courses/python-ai-kids-masterclass" class="course-link">Learn More →</a>
+                            <a href="/courses/python-ai-kids-masterclass" class="course-link">Learn More ?</a>
                         </div>
                     </div>
                 </article>
@@ -564,11 +1340,11 @@
                     </div>
                     <div class="course-showcase-content">
                         <h3>Full Stack Web Development</h3>
-                        <p>Build complete websites and web apps from scratch. Frontend, backend, databases — the whole
+                        <p>Build complete websites and web apps from scratch. Frontend, backend, databases � the whole
                             package.</p>
                         <div class="course-meta">
                             <span class="course-age">Ages 16+</span>
-                            <a href="/courses/coding/college" class="course-link">Learn More →</a>
+                            <a href="/courses/coding/college" class="course-link">Learn More ?</a>
                         </div>
                     </div>
                 </article>
@@ -584,7 +1360,8 @@
                             contests.</p>
                         <div class="course-meta">
                             <span class="course-age">Ages 15+</span>
-                            <a href="/courses/data-structures-algorithms-masterclass-college" class="course-link">Learn More →</a>
+                            <a href="/courses/data-structures-algorithms-masterclass-college" class="course-link">Learn
+                                More ?</a>
                         </div>
                     </div>
                 </article>
@@ -600,7 +1377,7 @@
                         </p>
                         <div class="course-meta">
                             <span class="course-age">Ages 14+</span>
-                            <a href="/courses/ai-ml-masterclass-teens" class="course-link">Learn More →</a>
+                            <a href="/courses/ai-ml-masterclass-teens" class="course-link">Learn More ?</a>
                         </div>
                     </div>
                 </article>
@@ -616,7 +1393,8 @@
                             problem-solving skills.</p>
                         <div class="course-meta">
                             <span class="course-age">All Ages</span>
-                            <a href="/courses/college-mathematics-complete-masterclass" class="course-link">Learn More →</a>
+                            <a href="/courses/college-mathematics-complete-masterclass" class="course-link">Learn More
+                                ?</a>
                         </div>
                     </div>
                 </article>
@@ -653,13 +1431,13 @@
                         because coding taught them how to think logically.
                     </p>
                     <p>
-                        On the business side, we've helped startups and companies build their digital products —
+                        On the business side, we've helped startups and companies build their digital products �
                         from simple websites to complex AI-powered applications. We bring the same hands-on,
                         practical approach to every project.
                     </p>
                     <p>
                         Whether you're a parent looking for quality coding education for your child, a student
-                        wanting to level up your skills, or a business needing software solutions — we're here to help.
+                        wanting to level up your skills, or a business needing software solutions � we're here to help.
                     </p>
                 </div>
             </div>
@@ -808,7 +1586,7 @@
                         </button>
                         <div class="faq-answer">
                             <p>Yes, every student receives a course completion certificate. More importantly, you'll
-                                have a portfolio of real projects that you built during the course — which is often more
+                                have a portfolio of real projects that you built during the course � which is often more
                                 valuable than a certificate.</p>
                         </div>
                     </div>
@@ -849,7 +1627,7 @@
             <div class="cta-content">
                 <h2>Ready to Get Started?</h2>
                 <p>
-                    Whether you want to learn coding, improve your math, or need software built —
+                    Whether you want to learn coding, improve your math, or need software built �
                     let's talk. No pressure, just a conversation about what you need.
                 </p>
                 <div class="cta-buttons">
@@ -865,7 +1643,7 @@
         const canvas = document.getElementById('background-canvas');
         const ctx = canvas.getContext('2d');
         let particles = [];
-        const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
+        const mathSymbols = ['?', '?', 'p', '8', 'v', '?', '?', '?', '?', 'f'];
         const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
         const allSymbols = [...mathSymbols, ...codeSymbols];
 
@@ -1225,93 +2003,89 @@
         }
     }
 </style>
-
-<!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (typeof Lenis !== 'undefined') {
-            const lenis = new Lenis({
-                duration: 1.2,
-                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-                direction: 'vertical',
-                gestureDirection: 'vertical',
-                smooth: true,
-                mouseMultiplier: 1,
-                smoothTouch: false,
-                touchMultiplier: 2,
-                infinite: false,
-            });
-
-            function raf(time) {
-                lenis.raf(time);
-                requestAnimationFrame(raf);
-            }
-            requestAnimationFrame(raf);
-
-            // Handle smooth scrolling for anchor links using Lenis
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    const targetId = this.getAttribute('href');
-                    if (targetId && targetId !== '#') {
-                        const targetElement = document.querySelector(targetId);
-                        if (targetElement) {
-                            e.preventDefault();
-                            lenis.scrollTo(targetElement);
-                        }
-                    }
-                });
-            });
-        }
-    });
-
-</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
-    <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn about-inline_38"
+    <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
         aria-label="Chat with Misti AI"
-       >
-        <span class="misti-label about-inline_39"
-           >Ask
+        style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+        <span class="misti-label"
+            style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
             Misti AI</span>
-        <div class="misti-icon about-inline_40"
-           >
+        <div class="misti-icon"
+            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
             <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" class="about-inline_41">
+                stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
                 <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
             </svg>
         </div>
     </a>
     <!-- WhatsApp Floating Chat Button -->
     <a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-        target="_blank" rel="noopener noreferrer" class="wa-float-btn about-inline_42" aria-label="Chat on WhatsApp"
-       >
-        <span class="wa-label about-inline_43"
-           >Chat
+        target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
+        style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+        <span class="wa-label"
+            style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
             with us</span>
-        <div class="wa-icon about-inline_44"
-           >
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" class="about-inline_45">
+        <div class="wa-icon"
+            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
                 <path
                     d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
             </svg>
         </div>
     </a>
 
-    
+    <style>
+        /* Misti AI Button Hover */
+        .misti-chat-btn:hover .misti-icon {
+            transform: scale(1.08);
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
 
+        .misti-chat-btn:hover .misti-label {
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
 
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
+        /* WhatsApp Button Hover */
+        .wa-float-btn:hover .wa-icon {
+            transform: scale(1.08);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        .wa-float-btn:hover .wa-label {
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        /* Mobile - Hide labels, show only icons */
+        @media (max-width: 768px) {
+
+            .misti-label,
+            .wa-label {
+                display: none !important;
+                visibility: hidden !important;
+            }
+
+            .misti-chat-btn {
+                bottom: 88px !important;
+                right: 16px !important;
+            }
+
+            .wa-float-btn {
+                bottom: 20px !important;
+                right: 16px !important;
+            }
+
+            .misti-icon,
+            .wa-icon {
+                width: 52px !important;
+                height: 52px !important;
+                min-width: 52px !important;
+                min-height: 52px !important;
+            }
+        }
+    </style>
+
 
     <!-- Components inlined at build time -->
     <script>

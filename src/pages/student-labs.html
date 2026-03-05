@@ -452,8 +452,8 @@
 
     <main id="main">
         <div class="container">
-            <h1>?? Student Labs - Experiments & Projects</h1>
-            <p class="subtitle">?? Explore innovative experiments and creative projects crafted by our brilliant
+            <h1>🧪 Student Labs - Experiments & Projects</h1>
+            <p class="subtitle">🔬 Explore innovative experiments and creative projects crafted by our brilliant
                 students in the lab</p>
             <br><br>
             <div class="projects-grid" id="projectsGrid"></div>
@@ -585,7 +585,7 @@
             {
                 title: "MyDay - Social Productivity & Task Organizer",
                 student: "Vedant",
-                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others� daily plans for inspiration, creating a social and motivating community around productivity.",
+                description: "A beautifully designed productivity and calendar-based platform that helps users organize their daily tasks, set goals, and stay consistent. It also allows users to view others� daily plans for inspiration, creating a social and motivating community around productivity.",
                 tags: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Calendar API", "python"],
                 link: "https://myday.modernagecoders.com",  // replace with actual link if available
                 image: "/images/projects/myday.webp"  // ADD IMAGE PATH HERE (leave empty for rocket emoji)
@@ -623,12 +623,12 @@
                     <div class="project-image">
                         ${project.image ?
                         `<img src="${project.image}" alt="${project.title}" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">` :
-                        '??'
+                        '🚀'
                     }
                     </div>
                     <div class="project-info">
                         <h3 class="project-title">${project.title}</h3>
-                        <div class="project-student">?? ${project.student}</div>
+                        <div class="project-student">👤 ${project.student}</div>
                         <p class="project-description">${project.description}</p>
                         <div class="tags">
                             ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
@@ -850,6 +850,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -933,6 +974,17 @@
         }
     </style>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

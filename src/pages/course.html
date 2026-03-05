@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -190,542 +190,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/keyboard-navigation.css">
-    <link rel="stylesheet" href="/css/corporate-training.css">
-    <link rel="stylesheet" href="/css/course-page-mobile-fix.css">
-    <!-- beautiful-tabs.css removed - styles now handled by internal minimalist CSS -->
-    <link rel="stylesheet" href="/css/course-page-enhanced.css">
-    <!-- CRITICAL: Load this last to override all mobile nav conflicts -->
-    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
-
-    <style>
-        /* Enhanced Course Page Styles */
-
-        /* Hero Section - Fixed Layout - Override style.css */
-        .courses-page .course-hero,
-        .course-hero {
-            text-align: center !important;
-            padding: 3rem 1rem 2rem !important;
-            position: relative !important;
-            display: block !important;
-            width: 100% !important;
-            max-width: 100% !important;
-            margin: 0 auto !important;
-        }
-
-        .courses-page .course-hero h1,
-        .course-hero h1 {
-            font-size: clamp(2rem, 5vw, 3.5rem) !important;
-            font-weight: 800 !important;
-            background: linear-gradient(135deg, #fff 0%, #e2e8f0 30%, #c084fc 60%, #4ecdc4 100%) !important;
-            background-size: 200% 200% !important;
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
-            background-clip: text !important;
-            margin-bottom: 1rem !important;
-            animation: heroGradient 8s ease infinite !important;
-            width: 100% !important;
-            text-align: center !important;
-            display: block !important;
-        }
-
-        @keyframes heroGradient {
-
-            0%,
-            100% {
-                background-position: 0% 50%;
-            }
-
-            50% {
-                background-position: 100% 50%;
-            }
-        }
-
-        .courses-page .course-hero .hero-subtitle,
-        .course-hero .hero-subtitle {
-            font-size: 1.15rem !important;
-            color: rgba(226, 232, 240, 0.85) !important;
-            max-width: 700px !important;
-            margin: 0 auto 1.5rem !important;
-            line-height: 1.7 !important;
-            text-align: center !important;
-            display: block !important;
-        }
-
-        .courses-page .hero-stats,
-        .course-hero .hero-stats,
-        .hero-stats {
-            display: flex !important;
-            flex-direction: row !important;
-            justify-content: center !important;
-            align-items: center !important;
-            gap: 2.5rem !important;
-            flex-wrap: wrap !important;
-            margin-top: 2rem !important;
-            width: 100% !important;
-        }
-
-        .courses-page .stat-item,
-        .hero-stats .stat-item,
-        .stat-item {
-            text-align: center !important;
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-            padding: 0 !important;
-            background: transparent !important;
-            border: none !important;
-        }
-
-        .courses-page .stat-number,
-        .hero-stats .stat-number,
-        .stat-number {
-            font-size: 2.5rem !important;
-            font-weight: 800 !important;
-            background: linear-gradient(135deg, #4ecdc4, #a855f7) !important;
-            -webkit-background-clip: text !important;
-            -webkit-text-fill-color: transparent !important;
-            background-clip: text !important;
-        }
-
-        .courses-page .stat-label,
-        .hero-stats .stat-label,
-        .stat-label {
-            font-size: 0.9rem !important;
-            color: rgba(148, 163, 184, 0.9) !important;
-            margin-top: 0.25rem !important;
-            text-transform: uppercase !important;
-            letter-spacing: 0.05em !important;
-        }
-
-        /* Course Cards Enhanced */
-        .course-card-minimal {
-            background: linear-gradient(145deg, rgba(30, 30, 50, 0.9), rgba(20, 20, 35, 0.95));
-            border-radius: 20px;
-            overflow: hidden;
-            border: 1px solid rgba(168, 85, 247, 0.15);
-            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            cursor: pointer;
-            position: relative;
-        }
-
-        .course-card-minimal::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #4ecdc4, #a855f7, #ec4899);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .course-card-minimal:hover::before {
-            opacity: 1;
-        }
-
-        .course-card-minimal:hover {
-            transform: translateY(-8px);
-            border-color: rgba(168, 85, 247, 0.4);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 40px rgba(168, 85, 247, 0.15);
-        }
-
-        .course-image-container {
-            width: 100%;
-            height: 200px;
-            overflow: hidden;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
-        }
-
-        .course-image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            transition: transform 0.5s ease;
-        }
-
-        .course-card-minimal:hover .course-image-container img {
-            transform: scale(1.08);
-        }
-
-        .course-content-minimal {
-            padding: 1.5rem;
-        }
-
-        .course-title-minimal {
-            font-size: 1.25rem;
-            font-weight: 700;
-            color: #f1f5f9;
-            margin-bottom: 0.75rem;
-            line-height: 1.3;
-        }
-
-        .course-description-minimal {
-            font-size: 0.95rem;
-            color: rgba(148, 163, 184, 0.9);
-            line-height: 1.6;
-            margin-bottom: 1.25rem;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        /* Start Learning Button */
-        .start-learning-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.875rem 1.5rem;
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.2), rgba(78, 205, 196, 0.15));
-            border: 1px solid rgba(168, 85, 247, 0.3);
-            border-radius: 12px;
-            color: #e2e8f0;
-            font-weight: 600;
-            font-size: 0.95rem;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            width: 100%;
-            justify-content: center;
-        }
-
-        .start-learning-btn:hover {
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.35), rgba(78, 205, 196, 0.25));
-            border-color: rgba(168, 85, 247, 0.5);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(168, 85, 247, 0.25);
-        }
-
-        .start-learning-btn .btn-arrow {
-            width: 18px;
-            height: 18px;
-            transition: transform 0.3s ease;
-        }
-
-        .start-learning-btn:hover .btn-arrow {
-            transform: translateX(4px);
-        }
-
-        /* Courses Grid */
-        .courses-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-            gap: 2rem;
-            padding: 1rem 0;
-        }
-
-        /* FAQ Section */
-        .faq-section {
-            margin-top: 4rem;
-            padding: 3rem 2rem;
-            background: linear-gradient(145deg, rgba(16, 16, 32, 0.95), rgba(24, 20, 40, 0.92));
-            border-radius: 24px;
-            border: 1px solid rgba(168, 85, 247, 0.15);
-        }
-
-        .faq-section h2 {
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 800;
-            color: #f1f5f9;
-            margin-bottom: 0.5rem;
-        }
-
-        .faq-section .faq-subtitle {
-            text-align: center;
-            color: rgba(148, 163, 184, 0.8);
-            margin-bottom: 2.5rem;
-        }
-
-        .faq-item {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 16px;
-            margin-bottom: 1rem;
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-
-        .faq-item:hover {
-            border-color: rgba(168, 85, 247, 0.25);
-        }
-
-        .faq-question {
-            width: 100%;
-            padding: 1.25rem 1.5rem;
-            background: transparent;
-            border: none;
-            color: #f1f5f9;
-            font-size: 1.05rem;
-            font-weight: 600;
-            text-align: left;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-
-        .faq-question:hover {
-            color: #c084fc;
-        }
-
-        .faq-icon {
-            width: 24px;
-            height: 24px;
-            transition: transform 0.3s ease;
-            color: rgba(168, 85, 247, 0.7);
-        }
-
-        .faq-item.active .faq-icon {
-            transform: rotate(180deg);
-        }
-
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.4s ease, padding 0.3s ease;
-        }
-
-        .faq-item.active .faq-answer {
-            max-height: 300px;
-            padding: 0 1.5rem 1.25rem;
-        }
-
-        .faq-answer p {
-            color: rgba(203, 213, 225, 0.85);
-            line-height: 1.7;
-            font-size: 0.95rem;
-        }
-
-        /* Why Choose Us Section - Clean Minimalist */
-        .why-choose-section {
-            margin-top: 4.5rem !important;
-            padding: 3.5rem 2rem !important;
-            background: transparent !important;
-            border-radius: 0 !important;
-            border: none !important;
-            box-shadow: none !important;
-            position: relative !important;
-            overflow: visible !important;
-            max-width: 960px !important;
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        .why-choose-section::before {
-            display: none !important;
-        }
-
-        .why-choose-section h2 {
-            text-align: center !important;
-            font-size: clamp(1.8rem, 3.5vw, 2.3rem) !important;
-            font-weight: 800 !important;
-            color: #f1f5f9 !important;
-            margin-bottom: 0.6rem !important;
-            position: relative !important;
-            z-index: 1 !important;
-            letter-spacing: -0.03em !important;
-            background: none !important;
-            -webkit-background-clip: unset !important;
-            -webkit-text-fill-color: #f1f5f9 !important;
-            background-clip: unset !important;
-        }
-
-        .why-choose-subtitle {
-            text-align: center !important;
-            font-size: 1rem !important;
-            color: #64748b !important;
-            margin-bottom: 3rem !important;
-            line-height: 1.6 !important;
-        }
-
-        .features-grid {
-            display: grid !important;
-            grid-template-columns: repeat(2, 1fr) !important;
-            gap: 1.25rem !important;
-            position: relative !important;
-            z-index: 1 !important;
-        }
-
-        .feature-card {
-            background: rgba(255, 255, 255, 0.025) !important;
-            border: 1px solid rgba(148, 163, 184, 0.1) !important;
-            border-radius: 16px !important;
-            padding: 1.75rem 1.5rem !important;
-            text-align: left !important;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-            display: flex !important;
-            flex-direction: row !important;
-            align-items: flex-start !important;
-            gap: 1.25rem !important;
-            min-height: auto !important;
-        }
-
-        .feature-card:hover {
-            transform: translateY(-2px) !important;
-            border-color: rgba(148, 163, 184, 0.2) !important;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12) !important;
-            background: rgba(255, 255, 255, 0.04) !important;
-        }
-
-        .feature-icon {
-            width: 48px !important;
-            height: 48px !important;
-            min-width: 48px !important;
-            margin: 0 !important;
-            background: rgba(148, 163, 184, 0.08) !important;
-            border-radius: 12px !important;
-            display: flex !important;
-            align-items: center !important;
-            justify-content: center !important;
-            border: 1px solid rgba(148, 163, 184, 0.1) !important;
-            transition: all 0.3s ease !important;
-        }
-
-        .feature-card:hover .feature-icon {
-            transform: none !important;
-            background: rgba(148, 163, 184, 0.12) !important;
-            box-shadow: none !important;
-        }
-
-        .feature-icon svg {
-            width: 22px !important;
-            height: 22px !important;
-            color: #94a3b8 !important;
-            stroke: #94a3b8 !important;
-        }
-
-        .feature-card:hover .feature-icon svg {
-            color: #cbd5e1 !important;
-            stroke: #cbd5e1 !important;
-        }
-
-        .feature-card-text h3 {
-            font-size: 1.05rem !important;
-            font-weight: 650 !important;
-            color: #f1f5f9 !important;
-            margin-bottom: 0.4rem !important;
-            line-height: 1.3 !important;
-        }
-
-        .feature-card h3 {
-            font-size: 1.05rem !important;
-            font-weight: 650 !important;
-            color: #f1f5f9 !important;
-            margin-bottom: 0.4rem !important;
-            line-height: 1.3 !important;
-        }
-
-        .feature-card p {
-            font-size: 0.88rem !important;
-            color: #64748b !important;
-            line-height: 1.6 !important;
-            margin: 0 !important;
-        }
-
-        /* Responsive for features grid */
-        @media (max-width: 768px) {
-            .features-grid {
-                grid-template-columns: 1fr !important;
-                gap: 1rem !important;
-            }
-        }
-
-        @media (max-width: 640px) {
-            .feature-card {
-                min-height: auto !important;
-                padding: 1.35rem 1.25rem !important;
-            }
-
-            .why-choose-section {
-                padding: 2.5rem 1.25rem !important;
-                margin-top: 3rem !important;
-            }
-
-            .why-choose-section h2 {
-                font-size: 1.6rem !important;
-            }
-
-            .feature-icon {
-                width: 42px !important;
-                height: 42px !important;
-                min-width: 42px !important;
-            }
-
-            .feature-icon svg {
-                width: 20px !important;
-                height: 20px !important;
-            }
-        }
-
-        /* Toast Notification */
-        .coming-soon-toast {
-            position: fixed;
-            bottom: 2rem;
-            left: 50%;
-            transform: translateX(-50%) translateY(100px);
-            background: linear-gradient(145deg, rgba(30, 30, 50, 0.98), rgba(20, 20, 35, 0.98));
-            border: 1px solid rgba(168, 85, 247, 0.3);
-            border-radius: 16px;
-            padding: 1rem 1.5rem;
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-            z-index: 9999;
-            opacity: 0;
-            transition: all 0.3s ease;
-        }
-
-        .coming-soon-toast.show {
-            transform: translateX(-50%) translateY(0);
-            opacity: 1;
-        }
-
-        .toast-content {
-            display: flex;
-            align-items: center;
-            color: #f1f5f9;
-        }
-
-        .toast-content strong {
-            display: block;
-            margin-bottom: 0.25rem;
-        }
-
-        .toast-content p {
-            font-size: 0.85rem;
-            color: rgba(148, 163, 184, 0.9);
-            margin: 0;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .course-hero h1 {
-                font-size: 2rem;
-            }
-
-            .hero-stats {
-                gap: 1.5rem;
-            }
-
-            .stat-number {
-                font-size: 2rem;
-            }
-
-            .courses-grid {
-                grid-template-columns: 1fr;
-                gap: 1.5rem;
-            }
-
-            .faq-section,
-            .why-choose-section {
-                padding: 2rem 1.25rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="/css/course.css">
 </head>
 
 <body class="courses-page">
@@ -971,499 +436,7 @@
                 <!-- =====================================================
                      WHAT WOULD YOU LIKE TO LEARN - MINIMALIST SECTION
                      ===================================================== -->
-                <style>
-                    /* ====== LEARN SECTION - PROFESSIONAL MINIMALIST ====== */
-                    .tab-navigation.learn-section {
-                        margin: 4rem auto !important;
-                        max-width: 900px !important;
-                        padding: 0 1.5rem !important;
-                        background: none !important;
-                        border: none !important;
-                        box-shadow: none !important;
-                        border-radius: 0 !important;
-                        overflow: visible !important;
-                        position: relative !important;
-                    }
 
-                    .tab-navigation.learn-section::before,
-                    .tab-navigation.learn-section::after {
-                        display: none !important;
-                    }
-
-                    .learn-heading {
-                        text-align: center !important;
-                        margin-bottom: 3rem !important;
-                    }
-
-                    .learn-heading h2 {
-                        font-size: clamp(1.8rem, 4vw, 2.6rem) !important;
-                        font-weight: 800 !important;
-                        color: #f1f5f9 !important;
-                        line-height: 1.15 !important;
-                        margin-bottom: 0.75rem !important;
-                        letter-spacing: -0.03em !important;
-                        background: none !important;
-                        -webkit-background-clip: unset !important;
-                        -webkit-text-fill-color: #f1f5f9 !important;
-                        background-clip: unset !important;
-                        animation: none !important;
-                    }
-
-                    .learn-heading p {
-                        font-size: 1.05rem !important;
-                        color: #94a3b8 !important;
-                        max-width: 460px !important;
-                        margin: 0 auto !important;
-                        line-height: 1.6 !important;
-                    }
-
-                    /* ====== TRACK CARDS ====== */
-                    .track-cards {
-                        display: grid !important;
-                        grid-template-columns: 1fr 1fr !important;
-                        gap: 1rem !important;
-                        margin-bottom: 2.5rem !important;
-                    }
-
-                    .track-card {
-                        display: flex !important;
-                        align-items: center !important;
-                        gap: 1rem !important;
-                        padding: 1.35rem 1.6rem !important;
-                        background: rgba(255, 255, 255, 0.02) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.08) !important;
-                        border-radius: 16px !important;
-                        cursor: pointer !important;
-                        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-                        text-align: left !important;
-                        color: #cbd5e1 !important;
-                        min-width: unset !important;
-                        box-shadow: none !important;
-                        transform: none !important;
-                        overflow: visible !important;
-                        position: relative !important;
-                        opacity: 0.6 !important;
-                    }
-
-                    .track-card::before {
-                        display: none !important;
-                    }
-
-                    .track-card:hover:not(.active) {
-                        opacity: 0.9 !important;
-                        background: rgba(168, 85, 247, 0.05) !important;
-                        border-color: rgba(168, 85, 247, 0.25) !important;
-                        transform: translateY(-2px) !important;
-                        box-shadow: 0 4px 15px rgba(168, 85, 247, 0.1) !important;
-                    }
-
-                    .track-card.active {
-                        opacity: 1 !important;
-                        background: linear-gradient(135deg, rgba(168, 85, 247, 0.15), rgba(78, 205, 196, 0.15)) !important;
-                        border-color: rgba(168, 85, 247, 0.6) !important;
-                        box-shadow: 0 8px 25px rgba(168, 85, 247, 0.25) !important;
-                        transform: translateY(-2px) !important;
-                    }
-
-                    .track-icon-wrap {
-                        width: 50px !important;
-                        height: 50px !important;
-                        border-radius: 14px !important;
-                        display: flex !important;
-                        align-items: center !important;
-                        justify-content: center !important;
-                        flex-shrink: 0 !important;
-                        background: rgba(148, 163, 184, 0.06) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.1) !important;
-                        box-shadow: none !important;
-                        transform: none !important;
-                        transition: all 0.3s ease !important;
-                    }
-
-                    .track-card.active .track-icon-wrap {
-                        background: linear-gradient(135deg, #a855f7, #4ecdc4) !important;
-                        border-color: transparent !important;
-                        box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4) !important;
-                    }
-
-                    .track-icon-wrap svg {
-                        width: 24px !important;
-                        height: 24px !important;
-                        color: #64748b !important;
-                        stroke: #64748b !important;
-                        filter: none !important;
-                        transition: all 0.3s ease !important;
-                    }
-
-                    .track-card.active .track-icon-wrap svg {
-                        color: #f1f5f9 !important;
-                        stroke: #f1f5f9 !important;
-                    }
-
-                    .track-info {
-                        flex: 1 !important;
-                        min-width: 0 !important;
-                    }
-
-                    .track-name {
-                        font-size: 1.1rem !important;
-                        font-weight: 700 !important;
-                        color: #94a3b8 !important;
-                        margin: 0 0 0.25rem !important;
-                        display: flex !important;
-                        align-items: center !important;
-                        gap: 0.6rem !important;
-                        transition: color 0.3s ease !important;
-                    }
-
-                    .track-card.active .track-name {
-                        color: #f1f5f9 !important;
-                    }
-
-                    .track-name::after {
-                        display: none !important;
-                    }
-
-                    .track-badge {
-                        font-size: 0.6rem !important;
-                        font-weight: 600 !important;
-                        letter-spacing: 0.05em !important;
-                        padding: 0.2rem 0.55rem !important;
-                        border-radius: 20px !important;
-                        text-transform: uppercase !important;
-                        background: rgba(148, 163, 184, 0.08) !important;
-                        color: #64748b !important;
-                        border: 1px solid rgba(148, 163, 184, 0.12) !important;
-                        transition: all 0.3s ease !important;
-                    }
-
-                    .track-card.active .track-badge {
-                        background: rgba(78, 205, 196, 0.2) !important;
-                        color: #4ecdc4 !important;
-                        border-color: rgba(78, 205, 196, 0.4) !important;
-                    }
-
-                    .track-desc {
-                        font-size: 0.85rem !important;
-                        color: #475569 !important;
-                        margin: 0 !important;
-                        line-height: 1.4 !important;
-                        transition: color 0.3s ease !important;
-                    }
-
-                    .track-card.active .track-desc {
-                        color: #e2e8f0 !important;
-                    }
-
-                    .track-arrow {
-                        flex-shrink: 0 !important;
-                        color: #475569 !important;
-                        transition: all 0.3s ease !important;
-                        opacity: 0 !important;
-                        width: auto !important;
-                        height: auto !important;
-                        background: none !important;
-                        border: none !important;
-                        border-radius: 0 !important;
-                    }
-
-                    .track-card:hover .track-arrow {
-                        opacity: 0.5 !important;
-                        color: #94a3b8 !important;
-                        transform: translateX(2px) !important;
-                    }
-
-                    .track-card.active .track-arrow {
-                        opacity: 1 !important;
-                        color: #a855f7 !important;
-                        transform: translateX(5px) !important;
-                        filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.5)) !important;
-                    }
-
-                    /* ====== LEVEL DIVIDER ====== */
-                    .level-divider {
-                        display: flex !important;
-                        align-items: center !important;
-                        gap: 1rem !important;
-                        margin: 0 0 1.5rem !important;
-                    }
-
-                    .level-divider-line {
-                        flex: 1 !important;
-                        height: 1px !important;
-                        background: linear-gradient(90deg, transparent, rgba(148, 163, 184, 0.15), transparent) !important;
-                    }
-
-                    .level-divider-text {
-                        font-size: 0.72rem !important;
-                        font-weight: 600 !important;
-                        color: #94a3b8 !important;
-                        text-transform: uppercase !important;
-                        letter-spacing: 0.14em !important;
-                        white-space: nowrap !important;
-                        background: none !important;
-                        border: none !important;
-                        padding: 0 !important;
-                        border-radius: 0 !important;
-                    }
-
-                    /* ====== SUB-TABS ====== */
-                    .sub-tabs-container {
-                        background: rgba(255, 255, 255, 0.02) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.08) !important;
-                        border-radius: 16px !important;
-                        padding: 0.5rem !important;
-                        margin-bottom: 2rem !important;
-                    }
-
-                    .sub-tabs {
-                        display: none !important;
-                        flex-wrap: wrap !important;
-                        justify-content: center !important;
-                        gap: 0.35rem !important;
-                        margin-bottom: 0 !important;
-                    }
-
-                    .sub-tabs.active {
-                        display: flex !important;
-                    }
-
-                    .sub-tab {
-                        display: inline-flex !important;
-                        align-items: center !important;
-                        padding: 0.6rem 1.25rem !important;
-                        border-radius: 10px !important;
-                        font-size: 0.85rem !important;
-                        font-weight: 500 !important;
-                        cursor: pointer !important;
-                        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
-                        border: 1px solid transparent !important;
-                        background: transparent !important;
-                        color: #64748b !important;
-                        box-shadow: none !important;
-                        transform: none !important;
-                        min-width: unset !important;
-                        white-space: nowrap !important;
-                        letter-spacing: 0.01em !important;
-                    }
-
-                    .sub-tab::before,
-                    .sub-tab::after {
-                        display: none !important;
-                    }
-
-                    .sub-tab:hover:not(.active) {
-                        color: #f1f5f9 !important;
-                        background: rgba(168, 85, 247, 0.15) !important;
-                        border-color: rgba(168, 85, 247, 0.3) !important;
-                        transform: translateY(-1px) !important;
-                        box-shadow: 0 4px 10px rgba(168, 85, 247, 0.1) !important;
-                    }
-
-                    .sub-tab.active {
-                        color: #fff !important;
-                        background: linear-gradient(135deg, #a855f7, #4ecdc4) !important;
-                        border-color: transparent !important;
-                        font-weight: 700 !important;
-                        box-shadow: 0 6px 15px rgba(168, 85, 247, 0.35) !important;
-                        transform: translateY(-2px) !important;
-                    }
-
-                    /* ====== CONTROLS SECTION ====== */
-                    .controls-section {
-                        display: flex !important;
-                        justify-content: flex-end !important;
-                        align-items: center !important;
-                        gap: 0.75rem !important;
-                        margin-bottom: 1rem !important;
-                        padding: 0 !important;
-                    }
-
-                    .sort-dropdown {
-                        position: relative !important;
-                    }
-
-                    .sort-btn {
-                        display: inline-flex !important;
-                        align-items: center !important;
-                        gap: 0.4rem !important;
-                        padding: 0.55rem 1rem !important;
-                        background: rgba(255, 255, 255, 0.04) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.12) !important;
-                        border-radius: 10px !important;
-                        color: #94a3b8 !important;
-                        font-size: 0.85rem !important;
-                        font-weight: 500 !important;
-                        cursor: pointer !important;
-                        transition: all 0.2s ease !important;
-                        white-space: nowrap !important;
-                    }
-
-                    .sort-btn::before {
-                        display: none !important;
-                    }
-
-                    .sort-btn:hover {
-                        background: rgba(255, 255, 255, 0.07) !important;
-                        border-color: rgba(168, 85, 247, 0.25) !important;
-                        color: #e2e8f0 !important;
-                    }
-
-                    .sort-menu {
-                        position: absolute !important;
-                        top: calc(100% + 6px) !important;
-                        right: 0 !important;
-                        background: rgba(20, 20, 35, 0.98) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.15) !important;
-                        border-radius: 12px !important;
-                        padding: 0.4rem !important;
-                        min-width: 160px !important;
-                        display: none !important;
-                        z-index: 50 !important;
-                        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4) !important;
-                        backdrop-filter: blur(20px) !important;
-                    }
-
-                    .sort-menu.show {
-                        display: block !important;
-                    }
-
-                    .sort-option {
-                        padding: 0.55rem 0.9rem !important;
-                        color: #94a3b8 !important;
-                        font-size: 0.85rem !important;
-                        cursor: pointer !important;
-                        border-radius: 8px !important;
-                        transition: all 0.15s ease !important;
-                    }
-
-                    .sort-option::before {
-                        display: none !important;
-                    }
-
-                    .sort-option:hover {
-                        background: rgba(168, 85, 247, 0.12) !important;
-                        color: #e2e8f0 !important;
-                    }
-
-                    .view-toggle {
-                        display: flex !important;
-                        align-items: center !important;
-                        gap: 2px !important;
-                        background: rgba(255, 255, 255, 0.04) !important;
-                        border: 1px solid rgba(148, 163, 184, 0.12) !important;
-                        border-radius: 10px !important;
-                        padding: 3px !important;
-                    }
-
-                    .view-btn {
-                        display: inline-flex !important;
-                        align-items: center !important;
-                        justify-content: center !important;
-                        width: 34px !important;
-                        height: 34px !important;
-                        border: none !important;
-                        border-radius: 8px !important;
-                        background: transparent !important;
-                        color: #64748b !important;
-                        font-size: 1rem !important;
-                        cursor: pointer !important;
-                        transition: all 0.2s ease !important;
-                    }
-
-                    .view-btn:hover:not(.active) {
-                        color: #94a3b8 !important;
-                        background: rgba(255, 255, 255, 0.04) !important;
-                    }
-
-                    .view-btn.active {
-                        background: rgba(168, 85, 247, 0.18) !important;
-                        color: #c084fc !important;
-                    }
-
-                    /* ====== LIST VIEW ====== */
-                    .courses-grid.list-view {
-                        grid-template-columns: 1fr !important;
-                        gap: 1rem !important;
-                    }
-
-                    .courses-grid.list-view .course-card-minimal {
-                        display: flex !important;
-                        flex-direction: row !important;
-                        height: auto !important;
-                    }
-
-                    .courses-grid.list-view .course-image-container {
-                        width: 220px !important;
-                        min-width: 220px !important;
-                        height: auto !important;
-                        min-height: 180px !important;
-                        border-radius: 20px 0 0 20px !important;
-                    }
-
-                    .courses-grid.list-view .course-content-minimal {
-                        flex: 1 !important;
-                        display: flex !important;
-                        flex-direction: column !important;
-                        justify-content: center !important;
-                    }
-
-                    .courses-grid.list-view .start-learning-btn {
-                        width: auto !important;
-                        align-self: flex-start !important;
-                    }
-
-                    /* ====== RESPONSIVE ====== */
-                    @media (max-width: 640px) {
-                        .track-cards {
-                            grid-template-columns: 1fr !important;
-                        }
-
-                        .learn-heading h2 {
-                            font-size: 1.6rem !important;
-                        }
-
-                        .track-card {
-                            padding: 1.1rem 1.2rem !important;
-                        }
-
-                        .track-icon-wrap {
-                            width: 44px !important;
-                            height: 44px !important;
-                        }
-
-                        .controls-section {
-                            justify-content: space-between !important;
-                        }
-
-                        .courses-grid.list-view .course-card-minimal {
-                            flex-direction: column !important;
-                        }
-
-                        .courses-grid.list-view .course-image-container {
-                            width: 100% !important;
-                            min-width: unset !important;
-                            height: 180px !important;
-                            border-radius: 20px 20px 0 0 !important;
-                        }
-
-                        .courses-grid.list-view .start-learning-btn {
-                            width: 100% !important;
-                            align-self: stretch !important;
-                        }
-                    }
-
-                    @media (max-width: 420px) {
-                        .sub-tab {
-                            font-size: 0.78rem !important;
-                            padding: 0.5rem 0.9rem !important;
-                        }
-
-                        .sub-tabs-container {
-                            padding: 0.35rem !important;
-                        }
-                    }
-                </style>
 
                 <!-- Tab Navigation -->
                 <div class="tab-navigation learn-section" id="learnSection">
@@ -1475,177 +448,24 @@
                     </div>
 
                     <!-- Main Track Cards -->
-                    
-                    
-                    
-                    <style>
-                        /* ====== SEGMENTED CONTROL TOGGLE ====== */
-                        .course-toggle-container {
-                            display: flex;
-                            justify-content: center;
-                            margin: 3rem auto 4rem;
-                            padding: 0 1rem;
-                        }
 
-                        .toggle-track {
-                            position: relative;
-                            display: flex;
-                            align-items: center;
-                            background: rgba(15, 23, 42, 0.6);
-                            border: 1px solid rgba(255, 255, 255, 0.1);
-                            border-radius: 60px;
-                            padding: 8px;
-                            width: 100%;
-                            max-width: 450px;
-                            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), inset 0 2px 10px rgba(0, 0, 0, 0.3);
-                            backdrop-filter: blur(10px);
-                            -webkit-backdrop-filter: blur(10px);
-                            /* Subtle pulse to draw attention */
-                            animation: togglePulse 3s infinite;
-                        }
 
-                        @keyframes togglePulse {
-                            0% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(168, 85, 247, 0.3); }
-                            50% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(168, 85, 247, 0); }
-                            100% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(168, 85, 247, 0); }
-                        }
 
-                        .toggle-input {
-                            display: none;
-                        }
 
-                        .toggle-slider {
-                            position: absolute;
-                            top: 8px;
-                            left: 8px;
-                            width: calc(50% - 8px);
-                            height: calc(100% - 16px);
-                            background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
-                            border-radius: 50px;
-                            z-index: 1;
-                            transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), background 0.5s ease, box-shadow 0.5s ease;
-                            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
-                        }
-
-                        .toggle-slider::after {
-                            content: '';
-                            position: absolute;
-                            inset: 0;
-                            border-radius: 50px;
-                            box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.4), inset 0 -2px 4px rgba(0, 0, 0, 0.2);
-                        }
-
-                        .toggle-label {
-                            flex: 1;
-                            text-align: center;
-                            font-size: 1.35rem;
-                            font-weight: 800;
-                            color: #94a3b8; /* Slate 400 */
-                            padding: 1.2rem 0;
-                            cursor: pointer;
-                            z-index: 2;
-                            transition: color 0.3s ease;
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            gap: 0.75rem;
-                            user-select: none;
-                        }
-
-                        .toggle-icon {
-                            font-size: 1.6rem;
-                            transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-                            filter: grayscale(100%) opacity(0.5);
-                        }
-
-                        /* Coding Active State */
-                        .toggle-input[value="coding"]:checked ~ .toggle-track .toggle-slider {
-                            transform: translateX(0);
-                            background: linear-gradient(135deg, #a855f7 0%, #3b82f6 100%);
-                            box-shadow: 0 4px 15px rgba(168, 85, 247, 0.5);
-                        }
-                        
-                        .toggle-input[value="coding"]:checked ~ .toggle-track {
-                            animation: togglePulseCoding 3s infinite;
-                        }
-
-                        @keyframes togglePulseCoding {
-                            0% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(168, 85, 247, 0.2); }
-                            70% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(168, 85, 247, 0); }
-                            100% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(168, 85, 247, 0); }
-                        }
-
-                        .toggle-input[value="coding"]:checked ~ .toggle-track .coding-label {
-                            color: #ffffff;
-                            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
-                        }
-
-                        .toggle-input[value="coding"]:checked ~ .toggle-track .coding-label .toggle-icon {
-                            transform: scale(1.2) translateY(-2px);
-                            filter: none;
-                        }
-
-                        /* Maths Active State */
-                        .toggle-input[value="maths"]:checked ~ .toggle-track .toggle-slider {
-                            transform: translateX(100%);
-                            background: linear-gradient(135deg, #10b981 0%, #06b6d4 100%);
-                            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.5);
-                        }
-                        
-                        .toggle-input[value="maths"]:checked ~ .toggle-track {
-                            animation: togglePulseMaths 3s infinite;
-                        }
-
-                        @keyframes togglePulseMaths {
-                            0% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(16, 185, 129, 0.2); }
-                            70% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(16, 185, 129, 0); }
-                            100% { box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 0 0 0 rgba(16, 185, 129, 0); }
-                        }
-
-                        .toggle-input[value="maths"]:checked ~ .toggle-track .maths-label {
-                            color: #ffffff;
-                            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
-                        }
-
-                        .toggle-input[value="maths"]:checked ~ .toggle-track .maths-label .toggle-icon {
-                            transform: scale(1.2) translateY(-2px);
-                            filter: none;
-                        }
-
-                        @media (max-width: 640px) {
-                            .toggle-track {
-                                max-width: 100%;
-                                padding: 6px;
-                                border-radius: 40px;
-                            }
-                            .toggle-label {
-                                font-size: 1.15rem;
-                                padding: 0.8rem 0;
-                            }
-                            .toggle-icon {
-                                font-size: 1.3rem;
-                            }
-                            .toggle-slider {
-                                top: 6px;
-                                left: 6px;
-                                width: calc(50% - 6px);
-                                height: calc(100% - 12px);
-                            }
-                        }
-                    </style>
 
                     <div class="course-toggle-container">
-                        <input type="radio" id="coding-toggle" name="course-category" class="toggle-input" value="coding" checked>
+                        <input type="radio" id="coding-toggle" name="course-category" class="toggle-input"
+                            value="coding" checked>
                         <input type="radio" id="maths-toggle" name="course-category" class="toggle-input" value="maths">
 
                         <div class="toggle-track">
                             <div class="toggle-slider"></div>
-                            
+
                             <label for="coding-toggle" class="toggle-label coding-label">
                                 <span class="toggle-icon">👨‍💻</span>
                                 <span class="toggle-text">Coding</span>
                             </label>
-                            
+
                             <label for="maths-toggle" class="toggle-label maths-label">
                                 <span class="toggle-icon">🧮</span>
                                 <span class="toggle-text">Maths</span>
@@ -1653,8 +473,8 @@
                         </div>
                     </div>
 
-                    
-                    <div class="level-divider" id="levelSelector" style="scroll-margin-top: 80px;">
+
+                    <div class="level-divider" id="levelSelector">
                         <div class="level-divider-line"></div>
                         <span class="level-divider-text">Select your level</span>
                         <div class="level-divider-line"></div>
@@ -1722,74 +542,22 @@
             </div>
 
             <!-- Results Bar with Search -->
-            <div class="results-bar" id="coursesSection" style="
-                    display: flex !important;
-                    justify-content: space-between !important;
-                    align-items: center !important;
-                    padding: 1rem 0 !important;
-                    margin-bottom: 1.5rem !important;
-                    border-bottom: 1px solid rgba(139, 92, 246, 0.15) !important;
-                    flex-wrap: wrap !important;
-                    gap: 1rem !important;
-                ">
-                <div class="results-count" style="
-                        color: rgba(226, 232, 240, 0.9) !important;
-                        font-size: 1rem !important;
-                        font-weight: 500 !important;
-                    ">
-                    Showing <strong id="resultsCount"
-                        style="color: #8b5cf6 !important; font-weight: 700 !important;">12</strong> courses
+            <div class="results-bar" id="coursesSection">
+                <div class="results-count">
+                    Showing <strong id="resultsCount">12</strong> courses
                 </div>
 
                 <!-- Compact Search Box -->
-                <div class="compact-search" id="compactSearchBox" style="
-                        display: flex !important;
-                        align-items: center !important;
-                        background: linear-gradient(135deg, rgba(30, 41, 59, 0.8) 0%, rgba(51, 65, 85, 0.6) 100%) !important;
-                        border: 1px solid rgba(139, 92, 246, 0.25) !important;
-                        border-radius: 12px !important;
-                        padding: 0.5rem 1rem !important;
-                        min-width: 220px !important;
-                        max-width: 280px !important;
-                        transition: all 0.3s ease !important;
-                        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
-                    ">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="
-                            width: 18px !important;
-                            height: 18px !important;
-                            color: rgba(139, 92, 246, 0.7) !important;
-                            flex-shrink: 0 !important;
-                            margin-right: 0.5rem !important;
-                        ">
+                <div class="compact-search" id="compactSearchBox">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
                         <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                             stroke-linejoin="round" />
                     </svg>
-                    <input type="text" id="searchInput" placeholder="Search courses..." aria-label="Search courses"
-                        onfocus="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.5)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 20px rgba(139, 92, 246, 0.25)';"
-                        onblur="document.getElementById('compactSearchBox').style.borderColor='rgba(139, 92, 246, 0.25)'; document.getElementById('compactSearchBox').style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.2)';"
-                        style="
-                            background: transparent !important;
-                            border: none !important;
-                            outline: none !important;
-                            color: #e2e8f0 !important;
-                            font-size: 0.9rem !important;
-                            width: 100% !important;
-                            padding: 0.25rem 0 !important;
-                        ">
-                    <button id="searchClearBtn" aria-label="Clear search" style="
-                            display: none;
-                            background: transparent !important;
-                            border: none !important;
-                            cursor: pointer !important;
-                            padding: 0.25rem !important;
-                            color: rgba(148, 163, 184, 0.7) !important;
-                            transition: color 0.2s ease !important;
-                            flex-shrink: 0 !important;
-                        " onmouseover="this.style.color='#ef4444'"
-                        onmouseout="this.style.color='rgba(148, 163, 184, 0.7)'">
+                    <input type="text" id="searchInput" placeholder="Search courses..." aria-label="Search courses">
+                    <button id="searchClearBtn" aria-label="Clear search">
                         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                            style="width: 16px !important; height: 16px !important;">
+                            class="search-clear-btn">
                             <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" />
                             <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2"
@@ -2184,88 +952,50 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
-    <!-- Misti AI Floating Chat Button - Above WhatsApp -->
-    <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
-        aria-label="Chat with Misti AI"
-        style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-        <span class="misti-label"
-            style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
-            Misti AI</span>
-        <div class="misti-icon"
-            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-            </svg>
-        </div>
-    </a>
-    <!-- WhatsApp Floating Chat Button -->
-    <a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
-        target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
-        style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
-        <span class="wa-label"
-            style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
-            with us</span>
-        <div class="wa-icon"
-            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
-                <path
-                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-            </svg>
-        </div>
-    </a>
 
-    <style>
-        /* Misti AI Button Hover */
-        .misti-chat-btn:hover .misti-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        .misti-chat-btn:hover .misti-label {
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        /* WhatsApp Button Hover */
-        .wa-float-btn:hover .wa-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        .wa-float-btn:hover .wa-label {
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        /* Mobile - Hide labels, show only icons */
-        @media (max-width: 768px) {
-
-            .misti-label,
-            .wa-label {
-                display: none !important;
-                visibility: hidden !important;
-            }
-
-            .misti-chat-btn {
-                bottom: 88px !important;
-                right: 16px !important;
-            }
-
-            .wa-float-btn {
-                bottom: 20px !important;
-                right: 16px !important;
-            }
-
-            .misti-icon,
-            .wa-icon {
-                width: 52px !important;
-                height: 52px !important;
-                min-width: 52px !important;
-                min-height: 52px !important;
-            }
-        }
-    </style>
 
     <script>
         // Course Data with Natural, Human-Friendly Descriptions
@@ -2736,7 +1466,7 @@
                             label.setAttribute('aria-selected', 'false');
                         });
                         const activeLabel = document.querySelector(`label[for="${this.id}"]`);
-                        if(activeLabel) {
+                        if (activeLabel) {
                             activeLabel.classList.add('active');
                             activeLabel.setAttribute('aria-selected', 'true');
                         }
@@ -2792,9 +1522,9 @@
 
                 // Set initial state from existing URL if parsed later, OR trigger change on load
                 const checkedToggle = document.querySelector('.toggle-input:checked');
-                if(checkedToggle) {
-                     // manually apply for load
-                     // tabState logic is set initially to 'coding' automatically.
+                if (checkedToggle) {
+                    // manually apply for load
+                    // tabState logic is set initially to 'coding' automatically.
                 }
             }
 
@@ -2905,7 +1635,7 @@
             function showToast(title) {
                 const toast = document.createElement('div');
                 toast.className = 'coming-soon-toast';
-                toast.innerHTML = `<div class="toast-content"><svg viewBox="0 0 24 24" fill="none" style="width:24px;height:24px;margin-right:12px;color:#c084fc;"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><div><strong>${title}</strong><p>Course details coming soon!</p></div></div>`;
+                toast.innerHTML = `<div class="toast-content"><svg viewBox="0 0 24 24" fill="none" class="toast-icon"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><div><strong>${title}</strong><p>Course details coming soon!</p></div></div>`;
                 document.body.appendChild(toast);
                 setTimeout(() => toast.classList.add('show'), 10);
                 setTimeout(() => { toast.classList.remove('show'); setTimeout(() => toast.remove(), 300); }, 3000);
@@ -2938,7 +1668,7 @@
                 document.getElementById('resultsCount').textContent = '1';
 
                 grid.innerHTML = `
-                    <div class="corporate-training-container" style="grid-column: 1 / -1;">
+                    <div class="corporate-training-container">
                         <div class="corporate-intro">
                             <h3 class="corporate-title">Level Up Your Career or Team</h3>
                             <p class="corporate-subtitle">Whether you're looking to switch careers, get promoted, or train your team - we'll create a custom program that fits your goals.</p>
@@ -3236,12 +1966,21 @@
         });
     </script>
 
-    <!-- Components Loader - MUST BE LOADED FOR NAV & FOOTER -->
-    <script src="/js/callback-modal.js"></script>
-    <!-- Mobile Navigation - Handles hamburger menu functionality -->
-    <script src="/js/unified-mobile-nav.js"></script>
-    <script src="/js/mobile-navigation.js"></script>
-    <script src="/js/keyboard-navigation.js"></script>
+    <!-- ============================================ -->
+    <!-- CALLBACK MODAL SCRIPT - Must load first      -->
+    <!-- ============================================ -->
+    <!-- <script src="/js/callback-modal.js"></script> -->
+
+    <!-- ============================================ -->
+    <!-- COMPONENT LOADER SCRIPT                      -->
+    <!-- Loads navigation and footer components       -->
+    <!-- MUST BE LOADED BEFORE OTHER SCRIPTS          -->
+    <!-- ============================================ -->
+    <!-- ============================================ -->
+    <!-- MOBILE NAVIGATION SCRIPT                     -->
+    <!-- Handles hamburger menu functionality         -->
+    <!-- ============================================ -->
+    <!-- <script src="/js/mobile-navigation.js"></script> -->
 
 
     <!-- Components inlined at build time -->

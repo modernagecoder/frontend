@@ -133,75 +133,101 @@
     }
     
     // Handle dropdown on mobile and desktop
-    const dropdowns = document.querySelectorAll('.dropdown');
-    dropdowns.forEach(dropdown => {
-        const dropdownLink = dropdown.querySelector('.nav-link');
-        const dropdownContent = dropdown.querySelector('.dropdown-content');
-        
-        if (dropdownLink && dropdownContent) {
-            // Initialize ARIA attributes for dropdown toggles
-            dropdownLink.setAttribute('aria-haspopup', 'true');
-            dropdownLink.setAttribute('aria-expanded', 'false');
-            
-            // Generate unique ID for dropdown content
-            const dropdownId = 'dropdown-' + Math.random().toString(36).substr(2, 9);
-            dropdownContent.setAttribute('id', dropdownId);
-            dropdownLink.setAttribute('aria-controls', dropdownId);
-            
-            // Handle mobile dropdown clicks
-            dropdownLink.addEventListener('click', function(e) {
-                // Don't prevent default if it's a regular link (like login.html)
-                if (this.getAttribute('href') && this.getAttribute('href') !== '#') {
-                    return; // Allow normal navigation
-                }
-                
-                if (window.innerWidth <= 900) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    
-                    // Close other dropdowns
-                    dropdowns.forEach(otherDropdown => {
-                        if (otherDropdown !== dropdown) {
-                            otherDropdown.classList.remove('active');
-                            const otherLink = otherDropdown.querySelector('.nav-link');
-                            if (otherLink) {
-                                otherLink.setAttribute('aria-expanded', 'false');
+    function initDropdowns() {
+        const dropdowns = document.querySelectorAll('.dropdown');
+        const navMenu = document.getElementById('navMenu');
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+
+        dropdowns.forEach(dropdown => {
+            const dropdownLink = dropdown.querySelector('.nav-link');
+            const dropdownContent = dropdown.querySelector('.dropdown-content');
+
+            if (dropdownLink && dropdownContent) {
+                // Initialize ARIA attributes for dropdown toggles
+                dropdownLink.setAttribute('aria-haspopup', 'true');
+                dropdownLink.setAttribute('aria-expanded', 'false');
+
+                // Generate unique ID for dropdown content
+                const dropdownId = 'dropdown-' + Math.random().toString(36).substr(2, 9);
+                dropdownContent.setAttribute('id', dropdownId);
+                dropdownLink.setAttribute('aria-controls', dropdownId);
+
+                // Handle mobile dropdown clicks - MUST toggle dropdown, not navigate
+                dropdownLink.addEventListener('click', function(e) {
+                    if (window.innerWidth <= 900) {
+                        e.preventDefault();
+                        e.stopPropagation();
+
+                        // Close other dropdowns
+                        dropdowns.forEach(otherDropdown => {
+                            if (otherDropdown !== dropdown) {
+                                otherDropdown.classList.remove('active');
+                                const otherLink = otherDropdown.querySelector('.nav-link');
+                                if (otherLink) {
+                                    otherLink.setAttribute('aria-expanded', 'false');
+                                }
                             }
-                        }
-                    });
-                    
-                    // Toggle current dropdown
-                    const isActive = dropdown.classList.toggle('active');
-                    dropdownLink.setAttribute('aria-expanded', isActive.toString());
-                }
-            });
-            
-            // Handle desktop dropdown hover
-            dropdown.addEventListener('mouseenter', function() {
-                if (window.innerWidth > 900) {
-                    dropdownLink.setAttribute('aria-expanded', 'true');
-                }
-            });
-            
-            dropdown.addEventListener('mouseleave', function() {
-                if (window.innerWidth > 900) {
-                    dropdownLink.setAttribute('aria-expanded', 'false');
-                }
-            });
-        }
-        
-        // Close dropdown when clicking on dropdown items
-        const dropdownItems = dropdown.querySelectorAll('.dropdown-item');
-        dropdownItems.forEach(item => {
-            item.addEventListener('click', function() {
-                if (window.innerWidth <= 900) {
-                    navMenu.classList.remove('active');
-                    mobileMenuBtn.classList.remove('open');
-                    document.body.style.overflow = '';
-                }
+                        });
+
+                        // Toggle current dropdown
+                        const isActive = dropdown.classList.toggle('active');
+                        dropdownLink.setAttribute('aria-expanded', isActive.toString());
+                    }
+                    // On desktop, allow normal navigation (hover shows dropdown)
+                });
+
+                // Desktop: keep dropdown open with slight delay for better UX
+                let hideTimeout;
+
+                dropdown.addEventListener('mouseenter', function() {
+                    if (window.innerWidth > 900) {
+                        clearTimeout(hideTimeout);
+                        dropdown.classList.add('dropdown-open');
+                        dropdownLink.setAttribute('aria-expanded', 'true');
+                    }
+                });
+
+                dropdown.addEventListener('mouseleave', function() {
+                    if (window.innerWidth > 900) {
+                        hideTimeout = setTimeout(function() {
+                            dropdown.classList.remove('dropdown-open');
+                            dropdownLink.setAttribute('aria-expanded', 'false');
+                        }, 150);
+                    }
+                });
+
+                // Keep dropdown open when hovering over dropdown content
+                dropdownContent.addEventListener('mouseenter', function() {
+                    if (window.innerWidth > 900) {
+                        clearTimeout(hideTimeout);
+                    }
+                });
+
+                dropdownContent.addEventListener('mouseleave', function() {
+                    if (window.innerWidth > 900) {
+                        hideTimeout = setTimeout(function() {
+                            dropdown.classList.remove('dropdown-open');
+                            dropdownLink.setAttribute('aria-expanded', 'false');
+                        }, 150);
+                    }
+                });
+            }
+
+            // Close dropdown and mobile menu when clicking on dropdown items
+            const dropdownItems = dropdown.querySelectorAll('.dropdown-item');
+            dropdownItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    if (window.innerWidth <= 900) {
+                        if (navMenu) navMenu.classList.remove('active');
+                        if (mobileMenuBtn) mobileMenuBtn.classList.remove('open');
+                        document.body.style.overflow = '';
+                    }
+                });
             });
         });
-    });
+    }
+
+    initDropdowns();
     
     // Initialize active state on page load
     if (document.readyState === 'loading') {

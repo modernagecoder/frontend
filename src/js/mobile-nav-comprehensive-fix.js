@@ -286,27 +286,11 @@
             if (dropdownLink && dropdownContent) {
                 dropdownLink.addEventListener('click', function(e) {
                     if (isMobileView() && isMenuOpen) {
-                        const href = this.getAttribute('href');
-                        
-                        // SIMPLE FIX: If it has a real href, allow navigation
-                        if (href && href !== '#' && !href.startsWith('javascript:')) {
-                            log('Dropdown link with real href clicked on mobile - allowing navigation', {
-                                href: href
-                            });
-                            
-                            // Allow the navigation to happen - don't prevent default
-                            // Just close the menu
-                            setTimeout(() => closeMenu(), 100);
-                            return; // Exit early - allow navigation
-                        }
-                        
-                        // Only prevent navigation if no real href
+                        // On mobile, ALWAYS toggle dropdown instead of navigating
                         e.preventDefault();
                         e.stopPropagation();
-                        
-                        log('Dropdown link clicked on mobile - showing dropdown', {
-                            href: href
-                        });
+
+                        log('Dropdown link clicked on mobile - toggling dropdown');
                         
                         // Close other dropdowns
                         dropdowns.forEach(otherDropdown => {

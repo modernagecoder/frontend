@@ -882,6 +882,18 @@ img {
 
 }
 
+@keyframes dropdownSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @keyframes slideInLeft {
 
     from {
@@ -926,7 +938,7 @@ img {
 .dropdown-content {
     z-index: 1001;
     position: absolute;
-    top: calc(100% + 10px);
+    top: 100%;
     left: 50%;
     background: var(--glass-bg-dark);
     backdrop-filter: blur(var(--glass-blur));
@@ -935,12 +947,19 @@ img {
     border-radius: 1rem;
     min-width: 220px;
     padding: 0.5rem;
+    padding-top: 0.75rem;
     box-shadow: var(--glass-shadow);
     opacity: 0;
     visibility: hidden;
     transform: translateX(-50%) translateY(-10px);
-    transition: all var(--transition-speed) var(--transition-timing);
-    overflow: hidden;
+    transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease;
+    pointer-events: none;
+    margin-top: 5px;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown.dropdown-open .dropdown-content {
+    pointer-events: auto;
 }
 
 .mobile-menu {
@@ -1198,7 +1217,19 @@ nav {
     position: relative;
 }
 
-.dropdown:hover .dropdown-content {
+/* Invisible bridge to prevent dropdown from disappearing when moving mouse to it */
+.dropdown::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: transparent;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown.dropdown-open .dropdown-content {
     opacity: 1;
     visibility: visible;
     transform: translateX(-50%) translateY(0);
@@ -4470,6 +4501,11 @@ body.courses-page .course-content {
         transform: rotate(-45deg) translate(8px, -8px);
     }
 
+    /* Hide the desktop hover bridge on mobile */
+    .dropdown::after {
+        display: none;
+    }
+
     .dropdown-content {
         position: static;
     transform: none;
@@ -4482,10 +4518,12 @@ body.courses-page .course-content {
     display: none;
     padding: 0.5rem;
     margin-top: 0.5rem;
+    pointer-events: auto;
     }
 
     .dropdown.active .dropdown-content {
         display: block;
+    animation: dropdownSlideIn 0.3s ease;
     }
 
     .dropdown-item {

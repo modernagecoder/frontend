@@ -65,16 +65,16 @@ nav {
     .nav-menu .dropdown .dropdown-content {
         /* Position */
         position: absolute !important;
-        top: calc(100% + 10px) !important;
+        top: 100% !important;
         left: 50% !important;
         transform: translateX(-50%) translateY(-10px) !important;
-        
+
         /* Visibility - HIDDEN by default */
         opacity: 0 !important;
         visibility: hidden !important;
         display: block !important;
         pointer-events: none !important;
-        
+
         /* Styling */
         background: rgba(16, 16, 28, 0.98) !important;
         backdrop-filter: blur(20px) !important;
@@ -83,17 +83,20 @@ nav {
         border-radius: 1rem !important;
         min-width: 220px !important;
         padding: 0.5rem !important;
+        padding-top: 0.75rem !important;
         box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5) !important;
-        
+        margin-top: 5px !important;
+
         /* Z-index - MAXIMUM VALUE */
         z-index: 999999 !important;
-        
+
         /* Transition */
-        transition: all 0.3s ease !important;
+        transition: opacity 0.25s ease, visibility 0.25s ease, transform 0.25s ease !important;
     }
-    
+
     /* FORCE dropdown to show on hover - MAXIMUM SPECIFICITY */
     .nav-menu .dropdown:hover .dropdown-content,
+    .nav-menu .dropdown.dropdown-open .dropdown-content,
     .nav-menu .dropdown:focus-within .dropdown-content,
     .nav-menu li.dropdown:hover .dropdown-content,
     .nav-item.dropdown:hover .dropdown-content {

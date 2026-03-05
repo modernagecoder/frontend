@@ -1207,7 +1207,7 @@
                 </div>
                 <h1>Upskill Your <span>Workforce</span></h1>
                 <p class="corp-hero-desc">Transform your team with cutting-edge tech skills. Whether you're looking to
-                    upskill employees, switch careers, or train your entire organization — our customized programs
+                    upskill employees, switch careers, or train your entire organization ï¿½ our customized programs
                     deliver real results.</p>
                 <div class="corp-hero-btns">
                     <a href="#corp-form" class="corp-btn corp-btn-primary">
@@ -2076,6 +2076,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -2165,6 +2206,17 @@
     <script src="/js/mobile-navigation.js"></script>
     <script src="/js/corporate-training-form.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

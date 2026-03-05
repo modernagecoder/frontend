@@ -18,7 +18,7 @@
     <!-- SEO Meta Tags -->
     <title>Pricing - Modern Age Coders | Coding & Math Course Fees</title>
     <meta name="description"
-        content="Transparent pricing for coding and math courses. Group classes from ?1499/month, personalized 1-on-1 sessions from ?2499/month. No hidden fees, flexible plans.">
+        content="Transparent pricing for coding and math courses. Group classes from ₹1499/month, personalized 1-on-1 sessions from ₹2499/month. No hidden fees, flexible plans.">
     <meta name="keywords"
         content="coding course fees India, math tuition pricing, online coding classes cost, affordable programming courses, 1-on-1 coding classes, personalized learning">
     <meta name="author" content="Modern Age Coders">
@@ -39,7 +39,7 @@
     <meta property="og:url" content="https://learn.modernagecoders.com/pricing">
     <meta property="og:title" content="Pricing - Modern Age Coders | Simple & Transparent">
     <meta property="og:description"
-        content="Group classes from ?1499/month. Personalized 1-on-1 from ?2499/month. No hidden fees.">
+        content="Group classes from ₹1499/month. Personalized 1-on-1 from ₹2499/month. No hidden fees.">
     <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
     <meta property="og:site_name" content="Modern Age Coders">
 
@@ -99,630 +99,11 @@
     }
     </script>
 
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/css/keyboard-navigation.css">
-    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/pricing.css">
+    
     <!-- GSAP moved to end of body for better LCP -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-
-    <style>
-        /* Pricing Page Custom Styles */
-        .pricing-page {
-            --accent-purple: #a855f7;
-            --accent-teal: #4ecdc4;
-            --accent-gold: #ffd700;
-            --text-primary: #f1f5f9;
-            --text-secondary: #94a3b8;
-            --card-bg: rgba(30, 30, 50, 0.6);
-            --card-border: rgba(168, 85, 247, 0.2);
-        }
-
-        /* Hero Section */
-        .pricing-hero {
-            text-align: center;
-            padding: 4rem 2rem 3rem;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .pricing-hero h1 {
-            font-size: clamp(2rem, 4vw, 3rem);
-            font-weight: 800;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .pricing-hero h1 span {
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .pricing-hero p {
-            font-size: 1.15rem;
-            color: var(--text-secondary);
-            line-height: 1.7;
-        }
-
-        /* Pricing Tabs */
-        .pricing-tabs-section {
-            padding: 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .pricing-tab-nav {
-            display: flex;
-            justify-content: center;
-            gap: 0.5rem;
-            margin-bottom: 2.5rem;
-            flex-wrap: wrap;
-        }
-
-        .pricing-tab-btn {
-            padding: 0.75rem 1.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 50px;
-            color: var(--text-secondary);
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .pricing-tab-btn:hover {
-            border-color: var(--accent-purple);
-            color: var(--text-primary);
-        }
-
-        .pricing-tab-btn.active {
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            border-color: transparent;
-            color: white;
-        }
-
-        .pricing-tab-content {
-            display: none;
-        }
-
-        .pricing-tab-content.active {
-            display: block;
-        }
-
-        /* Pricing Cards Grid */
-        .pricing-cards-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            margin-bottom: 2rem;
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        @media (max-width: 768px) {
-            .pricing-cards-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .pricing-card-new {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 20px;
-            padding: 2.5rem;
-            position: relative;
-            transition: all 0.3s ease;
-        }
-
-        .pricing-card-new:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent-purple);
-            box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
-        }
-
-        .pricing-card-new.recommended {
-            border-color: var(--accent-teal);
-            background: linear-gradient(135deg, rgba(168, 85, 247, 0.1), rgba(78, 205, 196, 0.1));
-        }
-
-        .recommended-badge {
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            transform: translateX(-50%);
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            color: white;
-            padding: 0.4rem 1.25rem;
-            border-radius: 50px;
-            font-size: 0.75rem;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .card-icon {
-            width: 56px;
-            height: 56px;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            border-radius: 14px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-        }
-
-        .card-icon svg {
-            width: 28px;
-            height: 28px;
-            stroke: white;
-            fill: none;
-            stroke-width: 2;
-        }
-
-        .pricing-card-new h3 {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 0.5rem;
-        }
-
-        .card-tagline {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .price-display {
-            margin-bottom: 1.5rem;
-        }
-
-        .price-amount {
-            font-size: 3rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .price-currency {
-            font-size: 1.5rem;
-            vertical-align: top;
-        }
-
-        .price-period {
-            font-size: 1rem;
-            color: var(--text-secondary);
-            font-weight: 400;
-        }
-
-        .features-list {
-            list-style: none;
-            padding: 0;
-            margin: 0 0 2rem 0;
-        }
-
-        .features-list li {
-            padding: 0.6rem 0;
-            color: var(--text-secondary);
-            display: flex;
-            align-items: flex-start;
-            gap: 0.75rem;
-            font-size: 0.95rem;
-        }
-
-        .features-list li svg {
-            width: 18px;
-            height: 18px;
-            stroke: var(--accent-teal);
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .choose-plan-btn {
-            display: block;
-            width: 100%;
-            padding: 1rem;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            border: none;
-            border-radius: 12px;
-            color: white;
-            font-weight: 600;
-            font-size: 1rem;
-            text-decoration: none;
-            text-align: center;
-            cursor: pointer;
-            transition: all 0.3s ease;
-        }
-
-        .choose-plan-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(168, 85, 247, 0.4);
-        }
-
-        .choose-plan-btn.outline {
-            background: transparent;
-            border: 2px solid var(--accent-purple);
-            color: var(--accent-purple);
-        }
-
-        .choose-plan-btn.outline:hover {
-            background: var(--accent-purple);
-            color: white;
-        }
-
-        /* Comparison Section */
-        .comparison-section {
-            padding: 4rem 2rem;
-            background: rgba(168, 85, 247, 0.05);
-        }
-
-        .comparison-inner {
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .section-header {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-header h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .section-header p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            max-width: 650px;
-            margin: 0 auto;
-            line-height: 1.7;
-        }
-
-        .comparison-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
-            max-width: 950px;
-            margin: 0 auto;
-        }
-
-        @media (max-width: 768px) {
-            .comparison-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .comparison-card {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 20px;
-            padding: 2rem;
-            transition: all 0.3s ease;
-        }
-
-        .comparison-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-        }
-
-        .comparison-card.group-card {
-            border-top: 4px solid var(--accent-purple);
-        }
-
-        .comparison-card.personal-card {
-            border-top: 4px solid var(--accent-teal);
-        }
-
-        .comparison-card-header {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .comparison-icon {
-            width: 50px;
-            height: 50px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .group-card .comparison-icon {
-            background: linear-gradient(135deg, var(--accent-purple), #7c3aed);
-        }
-
-        .personal-card .comparison-icon {
-            background: linear-gradient(135deg, var(--accent-teal), #06b6d4);
-        }
-
-        .comparison-icon svg {
-            width: 26px;
-            height: 26px;
-            stroke: white;
-            fill: none;
-            stroke-width: 2;
-        }
-
-        .comparison-card-header h3 {
-            font-size: 1.3rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin: 0;
-        }
-
-        .comparison-card-header span {
-            font-size: 0.85rem;
-            color: var(--text-secondary);
-        }
-
-        .comparison-subtitle {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin-bottom: 1.5rem;
-            line-height: 1.6;
-        }
-
-        .comparison-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .comparison-list li {
-            padding: 0.75rem 0;
-            color: var(--text-secondary);
-            display: flex;
-            align-items: flex-start;
-            gap: 0.75rem;
-            font-size: 0.95rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .comparison-list li:last-child {
-            border-bottom: none;
-        }
-
-        .comparison-list li svg {
-            width: 18px;
-            height: 18px;
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .group-card .comparison-list li svg {
-            stroke: var(--accent-purple);
-        }
-
-        .personal-card .comparison-list li svg {
-            stroke: var(--accent-teal);
-        }
-
-        /* What's Included Section */
-        .included-section {
-            padding: 4rem 2rem;
-            max-width: 1100px;
-            margin: 0 auto;
-        }
-
-        .included-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-        }
-
-        .included-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            padding: 1.5rem;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
-
-        .included-item:hover {
-            border-color: var(--accent-purple);
-        }
-
-        .included-icon {
-            width: 44px;
-            height: 44px;
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-shrink: 0;
-        }
-
-        .included-icon svg {
-            width: 22px;
-            height: 22px;
-            stroke: white;
-            fill: none;
-            stroke-width: 2;
-        }
-
-        .included-text h4 {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 0.25rem;
-        }
-
-        .included-text p {
-            color: var(--text-secondary);
-            font-size: 0.85rem;
-            margin: 0;
-        }
-
-        /* FAQ Section */
-        .faq-section {
-            padding: 4rem 2rem;
-            background: rgba(78, 205, 196, 0.05);
-        }
-
-        .faq-inner {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        .faq-item {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 12px;
-            margin-bottom: 1rem;
-            overflow: hidden;
-        }
-
-        .faq-question {
-            width: 100%;
-            padding: 1.25rem 1.5rem;
-            background: transparent;
-            border: none;
-            color: var(--text-primary);
-            font-size: 1rem;
-            font-weight: 600;
-            text-align: left;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            transition: all 0.3s ease;
-        }
-
-        .faq-question:hover {
-            color: var(--accent-purple);
-        }
-
-        .faq-question svg {
-            width: 20px;
-            height: 20px;
-            stroke: var(--accent-purple);
-            transition: transform 0.3s ease;
-        }
-
-        .faq-item.open .faq-question svg {
-            transform: rotate(180deg);
-        }
-
-        .pricing-page .faq-answer {
-            max-height: 0 !important;
-            overflow: hidden !important;
-            transition: max-height 0.4s ease-out, padding 0.3s ease, opacity 0.3s ease !important;
-            padding: 0 1.5rem !important;
-            opacity: 0 !important;
-        }
-
-        .pricing-page .faq-item.open .faq-answer,
-        .pricing-page .faq-item.active .faq-answer {
-            max-height: 500px !important;
-            padding: 0 1.5rem 1.25rem !important;
-            opacity: 1 !important;
-        }
-
-        .pricing-page .faq-item.open .faq-answer p,
-        .pricing-page .faq-item.active .faq-answer p,
-        .pricing-page .faq-answer p {
-            color: var(--text-secondary) !important;
-            line-height: 1.7 !important;
-            margin: 0 !important;
-            padding-top: 0.5rem !important;
-            padding-bottom: 0 !important;
-            display: block !important;
-            visibility: visible !important;
-            opacity: 1 !important;
-        }
-
-        /* CTA Section */
-        .pricing-cta {
-            padding: 4rem 2rem;
-            text-align: center;
-            max-width: 700px;
-            margin: 0 auto;
-        }
-
-        .pricing-cta h2 {
-            font-size: 2rem;
-            font-weight: 700;
-            color: var(--text-primary);
-            margin-bottom: 1rem;
-        }
-
-        .pricing-cta p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-            line-height: 1.7;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .cta-btn {
-            padding: 1rem 2rem;
-            border-radius: 50px;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-
-        .cta-btn-primary {
-            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
-            color: white;
-        }
-
-        .cta-btn-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 30px rgba(168, 85, 247, 0.4);
-        }
-
-        .cta-btn-secondary {
-            background: transparent;
-            border: 2px solid var(--accent-purple);
-            color: var(--accent-purple);
-        }
-
-        .cta-btn-secondary:hover {
-            background: var(--accent-purple);
-            color: white;
-        }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .pricing-hero h1 {
-                font-size: 1.75rem;
-            }
-
-            .pricing-cards-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .price-amount {
-                font-size: 2.5rem;
-            }
-
-            .section-header h2 {
-                font-size: 1.6rem;
-            }
-        }
-    </style>
 </head>
 
 <body class="pricing-page">
@@ -966,7 +347,7 @@
                         <h3>Group Classes</h3>
                         <p class="card-tagline">Learn with peers, grow together</p>
                         <div class="price-display">
-                            <span class="price-amount"><span class="price-currency">?</span>1499</span>
+                            <span class="price-amount"><span class="price-currency">₹</span>1499</span>
                             <span class="price-period">/month</span>
                         </div>
                         <ul class="features-list">
@@ -1010,7 +391,7 @@
                         <h3>Personalized 1-on-1</h3>
                         <p class="card-tagline">Your pace, your schedule, your goals</p>
                         <div class="price-display">
-                            <span class="price-amount"><span class="price-currency">?</span>2499</span>
+                            <span class="price-amount"><span class="price-currency">₹</span>2499</span>
                             <span class="price-period">/month</span>
                         </div>
                         <ul class="features-list">
@@ -1069,7 +450,7 @@
                         <h3>Group Classes</h3>
                         <p class="card-tagline">Solve problems together, learn faster</p>
                         <div class="price-display">
-                            <span class="price-amount"><span class="price-currency">?</span>1499</span>
+                            <span class="price-amount"><span class="price-currency">₹</span>1499</span>
                             <span class="price-period">/month</span>
                         </div>
                         <ul class="features-list">
@@ -1113,7 +494,7 @@
                         <h3>Personalized 1-on-1</h3>
                         <p class="card-tagline">Targeted learning at your pace</p>
                         <div class="price-display">
-                            <span class="price-amount"><span class="price-currency">?</span>2499</span>
+                            <span class="price-amount"><span class="price-currency">₹</span>2499</span>
                             <span class="price-period">/month</span>
                         </div>
                         <ul class="features-list">
@@ -1261,272 +642,7 @@
 
         <!-- ====== INTERNATIONAL PRICING SECTION ====== -->
         <section class="intl-pricing-section">
-            <style>
-                .intl-pricing-section {
-                    padding: 4rem 2rem;
-                    position: relative;
-                    overflow: hidden;
-                }
-
-                .intl-pricing-section::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    height: 1px;
-                    background: linear-gradient(90deg, transparent, rgba(14, 165, 233, 0.4), rgba(168, 85, 247, 0.4), transparent);
-                }
-
-                .intl-pricing-inner {
-                    max-width: 900px;
-                    margin: 0 auto;
-                }
-
-                .intl-header {
-                    text-align: center;
-                    margin-bottom: 2.5rem;
-                }
-
-                .intl-globe-icon {
-                    width: 64px;
-                    height: 64px;
-                    background: linear-gradient(135deg, #0ea5e9, #38bdf8);
-                    border-radius: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 0 auto 1.25rem;
-                    box-shadow: 0 8px 30px rgba(14, 165, 233, 0.35);
-                }
-
-                .intl-header h2 {
-                    font-size: 2rem;
-                    font-weight: 700;
-                    color: var(--text-primary);
-                    margin-bottom: 0.75rem;
-                }
-
-                .intl-header h2 span {
-                    background: linear-gradient(135deg, #0ea5e9, #38bdf8);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                }
-
-                .intl-header p {
-                    color: var(--text-secondary);
-                    font-size: 1.05rem;
-                    max-width: 600px;
-                    margin: 0 auto;
-                    line-height: 1.7;
-                }
-
-                .intl-cards-grid {
-                    display: grid;
-                    grid-template-columns: repeat(2, 1fr);
-                    gap: 2rem;
-                    max-width: 750px;
-                    margin: 0 auto 2rem;
-                }
-
-                @media (max-width: 600px) {
-                    .intl-cards-grid {
-                        grid-template-columns: 1fr;
-                        max-width: 380px;
-                    }
-
-                    .intl-header h2 {
-                        font-size: 1.5rem;
-                    }
-                }
-
-                .intl-card {
-                    background: var(--card-bg);
-                    border-radius: 20px;
-                    padding: 2.5rem 2rem;
-                    text-align: center;
-                    position: relative;
-                    transition: all 0.3s ease;
-                    overflow: hidden;
-                }
-
-                .intl-card::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    right: 0;
-                    height: 3px;
-                }
-
-                .intl-card-group {
-                    border: 1px solid rgba(14, 165, 233, 0.3);
-                }
-
-                .intl-card-group::before {
-                    background: linear-gradient(90deg, transparent, #0ea5e9, transparent);
-                }
-
-                .intl-card-group:hover {
-                    transform: translateY(-5px);
-                    border-color: rgba(14, 165, 233, 0.6);
-                    box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
-                }
-
-                .intl-card-personal {
-                    border: 1px solid rgba(168, 85, 247, 0.3);
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.08), rgba(78, 205, 196, 0.05));
-                }
-
-                .intl-card-personal::before {
-                    background: linear-gradient(90deg, transparent, #a855f7, transparent);
-                }
-
-                .intl-card-personal:hover {
-                    transform: translateY(-5px);
-                    border-color: rgba(168, 85, 247, 0.6);
-                    box-shadow: 0 20px 40px rgba(168, 85, 247, 0.15);
-                }
-
-                .intl-card-wrapper {
-                    position: relative;
-                }
-
-                .intl-recommended-badge {
-                    position: absolute;
-                    top: -12px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    background: linear-gradient(135deg, #a855f7, #8b5cf6);
-                    color: white;
-                    font-size: 0.7rem;
-                    font-weight: 700;
-                    padding: 0.35rem 1rem;
-                    border-radius: 50px;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                    z-index: 10;
-                    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
-                    white-space: nowrap;
-                }
-
-                .intl-card-label {
-                    font-size: 0.85rem;
-                    color: var(--text-secondary);
-                    text-transform: uppercase;
-                    letter-spacing: 0.15em;
-                    font-weight: 600;
-                    margin-bottom: 1rem;
-                }
-
-                .intl-card-price {
-                    font-size: 3.5rem;
-                    font-weight: 800;
-                    line-height: 1;
-                    margin-bottom: 0.25rem;
-                }
-
-                .intl-card-group .intl-card-price {
-                    background: linear-gradient(135deg, #0ea5e9, #38bdf8);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                }
-
-                .intl-card-personal .intl-card-price {
-                    background: linear-gradient(135deg, #a855f7, #8b5cf6);
-                    -webkit-background-clip: text;
-                    -webkit-text-fill-color: transparent;
-                    background-clip: text;
-                }
-
-                .intl-card-period {
-                    font-size: 1rem;
-                    color: var(--text-secondary);
-                    margin-bottom: 1.25rem;
-                }
-
-                .intl-card-features {
-                    list-style: none;
-                    padding: 0;
-                    margin: 0 0 1.5rem;
-                    text-align: left;
-                }
-
-                .intl-card-features li {
-                    padding: 0.5rem 0;
-                    color: var(--text-secondary);
-                    display: flex;
-                    align-items: center;
-                    gap: 0.6rem;
-                    font-size: 0.9rem;
-                }
-
-                .intl-card-features li svg {
-                    width: 16px;
-                    height: 16px;
-                    flex-shrink: 0;
-                }
-
-                .intl-card-group .intl-card-features li svg {
-                    stroke: #0ea5e9;
-                }
-
-                .intl-card-personal .intl-card-features li svg {
-                    stroke: #a855f7;
-                }
-
-                .intl-whatsapp-btn {
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    gap: 0.6rem;
-                    width: 100%;
-                    padding: 0.85rem 1.5rem;
-                    background: linear-gradient(135deg, #25D366, #128C7E);
-                    border: none;
-                    border-radius: 12px;
-                    color: white;
-                    font-size: 0.95rem;
-                    font-weight: 600;
-                    text-decoration: none;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                }
-
-                .intl-whatsapp-btn:hover {
-                    transform: translateY(-2px);
-                    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.35);
-                }
-
-                .intl-whatsapp-btn svg {
-                    width: 20px;
-                    height: 20px;
-                    fill: white;
-                }
-
-                .intl-currencies-note {
-                    text-align: center;
-                    color: var(--text-secondary);
-                    font-size: 0.9rem;
-                    line-height: 1.6;
-                    max-width: 550px;
-                    margin: 0 auto;
-                }
-
-                .intl-currencies-note a {
-                    color: #0ea5e9;
-                    text-decoration: none;
-                    font-weight: 500;
-                }
-
-                .intl-currencies-note a:hover {
-                    text-decoration: underline;
-                }
-            </style>
-
-            <div class="intl-pricing-inner">
+<div class="intl-pricing-inner">
                 <!-- Header -->
                 <div class="intl-header">
                     <div class="intl-globe-icon">
@@ -1540,7 +656,7 @@
                         </svg>
                     </div>
                     <h2>International <span>Student Pricing</span></h2>
-                    <p>For students outside India � all coding and math courses at a single transparent price in USD.
+                    <p>For students outside India � all coding and math courses at a single transparent price in USD.
                     </p>
                 </div>
 
@@ -1640,416 +756,7 @@
 
         <!-- ====== COMPARISON TABLE SECTION START ====== -->
         <section class="section comparison-section" style="animation-delay: 1.2s; padding: 5rem 1.5rem;">
-            <style>
-                .comparison-section {
-                    position: relative;
-                    overflow: visible;
-                }
-
-                .comparison-section::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    width: 100%;
-                    height: 50%;
-                    background: radial-gradient(ellipse at center top, rgba(168, 85, 247, 0.08) 0%, transparent 70%);
-                    pointer-events: none;
-                }
-
-                .comparison-container {
-                    max-width: 850px;
-                    margin: 0 auto;
-                    position: relative;
-                    z-index: 1;
-                }
-
-                .comparison-header {
-                    text-align: center;
-                    margin-bottom: 3rem;
-                }
-
-                .comparison-header h2 {
-                    font-size: 2.5rem;
-                    font-weight: 700;
-                    color: #f1f5f9;
-                    margin-bottom: 1rem;
-                    letter-spacing: -0.02em;
-                }
-
-                .comparison-header p {
-                    font-size: 1.1rem;
-                    color: rgba(148, 163, 184, 0.9);
-                    max-width: 600px;
-                    margin: 0 auto;
-                }
-
-                .comparison-table-wrapper {
-                    background: rgba(30, 41, 59, 0.5);
-                    backdrop-filter: blur(20px);
-                    border-radius: 20px;
-                    border: 1px solid rgba(148, 163, 184, 0.15);
-                    overflow: hidden;
-                    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-                    margin-top: 1rem;
-                    margin-bottom: 0.5rem;
-                }
-
-                .comparison-table {
-                    width: 100%;
-                    border-collapse: collapse;
-                    table-layout: fixed;
-                }
-
-                .comparison-table thead {
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.3) 0%, rgba(78, 205, 196, 0.3) 100%);
-                }
-
-                .comparison-table th {
-                    padding: 1.5rem 1rem;
-                    text-align: center;
-                    font-size: 1.2rem;
-                    font-weight: 700;
-                    color: #ffffff;
-                    border-bottom: 1px solid rgba(148, 163, 184, 0.2);
-                }
-
-                .comparison-table th:first-child {
-                    text-align: left;
-                    padding-left: 2rem;
-                    width: 40%;
-                }
-
-                .comparison-table th.modern-age-header {
-                    width: 30%;
-                    background: linear-gradient(135deg, rgba(168, 85, 247, 0.5) 0%, rgba(139, 92, 246, 0.5) 100%);
-                    position: relative;
-                }
-
-                .comparison-table th.modern-age-header::before {
-                    /* content: '? RECOMMENDED'; */
-                    position: absolute;
-                    top: -12px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    font-size: 0.65rem;
-                    font-weight: 600;
-                    color: #fbbf24;
-                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 100%);
-                    padding: 4px 12px;
-                    border-radius: 20px;
-                    letter-spacing: 0.5px;
-                    white-space: nowrap;
-                }
-
-                .comparison-table th.others-header {
-                    width: 30%;
-                    background: rgba(100, 116, 139, 0.3);
-                    color: rgba(226, 232, 240, 0.8);
-                    padding-right: 2rem;
-                }
-
-                .comparison-table tbody tr {
-                    transition: all 0.3s ease;
-                }
-
-                .comparison-table tbody tr:hover {
-                    background: rgba(168, 85, 247, 0.08);
-                }
-
-                .comparison-table tbody tr:not(:last-child) {
-                    border-bottom: 1px solid rgba(148, 163, 184, 0.1);
-                }
-
-                /* Round bottom corners for last row */
-                .comparison-table tbody tr:last-child td:first-child {
-                    border-bottom-left-radius: 20px;
-                }
-
-                .comparison-table tbody tr:last-child td:last-child {
-                    border-bottom-right-radius: 20px;
-                }
-
-                /* Round top corners for thead */
-                .comparison-table thead tr th:first-child {
-                    border-top-left-radius: 20px;
-                }
-
-                .comparison-table thead tr th:last-child {
-                    border-top-right-radius: 20px;
-                }
-
-                .comparison-table td {
-                    padding: 1.25rem 1rem;
-                    text-align: center;
-                    font-size: 1rem;
-                    color: #e2e8f0;
-                }
-
-                .comparison-table td:first-child {
-                    text-align: left;
-                    padding-left: 2rem;
-                    font-weight: 500;
-                    color: #f1f5f9;
-                }
-
-                .comparison-table td:last-child {
-                    padding-right: 2rem;
-                }
-
-                .comparison-table td.modern-age-col {
-                    background: rgba(168, 85, 247, 0.05);
-                }
-
-                .check-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-                    border-radius: 50%;
-                    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
-                }
-
-                .check-icon svg {
-                    width: 18px;
-                    height: 18px;
-                    stroke: #ffffff;
-                    stroke-width: 3;
-                }
-
-                .cross-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: rgba(239, 68, 68, 0.2);
-                    border-radius: 50%;
-                    border: 2px solid rgba(239, 68, 68, 0.4);
-                }
-
-                .cross-icon svg {
-                    width: 16px;
-                    height: 16px;
-                    stroke: #ef4444;
-                    stroke-width: 2.5;
-                }
-
-                .partial-icon {
-                    display: inline-flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 32px;
-                    height: 32px;
-                    background: rgba(245, 158, 11, 0.2);
-                    border-radius: 50%;
-                    border: 2px solid rgba(245, 158, 11, 0.4);
-                    color: #f59e0b;
-                    font-weight: 700;
-                    font-size: 1.2rem;
-                }
-
-                .comparison-cta {
-                    text-align: center;
-                    margin-top: 3rem;
-                }
-
-                .comparison-cta h3 {
-                    font-size: 1.6rem;
-                    font-weight: 600;
-                    color: #f1f5f9;
-                    margin-bottom: 0.75rem;
-                }
-
-                .comparison-cta p {
-                    color: rgba(148, 163, 184, 0.9);
-                    margin-bottom: 1.5rem;
-                    font-size: 1rem;
-                }
-
-                .demo-button {
-                    display: inline-flex;
-                    align-items: center;
-                    gap: 0.75rem;
-                    padding: 1rem 2.5rem;
-                    background: linear-gradient(135deg, #a855f7 0%, #8b5cf6 50%, #6366f1 100%);
-                    color: #ffffff;
-                    font-size: 1.1rem;
-                    font-weight: 600;
-                    border: none;
-                    border-radius: 50px;
-                    text-decoration: none;
-                    cursor: pointer;
-                    transition: all 0.3s ease;
-                    box-shadow: 0 8px 30px rgba(168, 85, 247, 0.4);
-                    position: relative;
-                    overflow: hidden;
-                }
-
-                .demo-button::before {
-                    content: '';
-                    position: absolute;
-                    top: 0;
-                    left: -100%;
-                    width: 100%;
-                    height: 100%;
-                    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-                    transition: left 0.5s ease;
-                }
-
-                .demo-button:hover::before {
-                    left: 100%;
-                }
-
-                .demo-button:hover {
-                    transform: translateY(-3px);
-                    box-shadow: 0 12px 40px rgba(168, 85, 247, 0.5);
-                }
-
-                .demo-button svg {
-                    width: 20px;
-                    height: 20px;
-                    transition: transform 0.3s ease;
-                }
-
-                .demo-button:hover svg {
-                    transform: translateX(3px);
-                }
-
-                /* Mobile Responsive Styles */
-                @media (max-width: 768px) {
-                    .comparison-section {
-                        padding: 3rem 1rem;
-                    }
-
-                    .comparison-header h2 {
-                        font-size: 1.75rem;
-                    }
-
-                    .comparison-header p {
-                        font-size: 0.95rem;
-                        padding: 0 0.5rem;
-                    }
-
-                    .comparison-table-wrapper {
-                        border-radius: 16px;
-                        overflow-x: auto;
-                        -webkit-overflow-scrolling: touch;
-                    }
-
-                    .comparison-table {
-                        min-width: 100%;
-                    }
-
-                    .comparison-table th {
-                        font-size: 0.85rem;
-                        padding: 1rem 0.5rem;
-                    }
-
-                    .comparison-table th:first-child {
-                        padding-left: 1rem;
-                        width: 45%;
-                    }
-
-                    .comparison-table th.modern-age-header::before {
-                        font-size: 0.5rem;
-                        padding: 3px 8px;
-                        top: -10px;
-                    }
-
-                    .comparison-table td {
-                        font-size: 0.85rem;
-                        padding: 1rem 0.5rem;
-                    }
-
-                    .comparison-table td:first-child {
-                        padding-left: 1rem;
-                        font-size: 0.8rem;
-                    }
-
-                    .check-icon,
-                    .cross-icon,
-                    .partial-icon {
-                        width: 26px;
-                        height: 26px;
-                    }
-
-                    .check-icon svg {
-                        width: 14px;
-                        height: 14px;
-                    }
-
-                    .cross-icon svg {
-                        width: 12px;
-                        height: 12px;
-                    }
-
-                    .partial-icon {
-                        font-size: 1rem;
-                    }
-
-                    .comparison-cta h3 {
-                        font-size: 1.3rem;
-                    }
-
-                    .comparison-cta p {
-                        font-size: 0.9rem;
-                    }
-
-                    .demo-button {
-                        padding: 0.875rem 2rem;
-                        font-size: 1rem;
-                    }
-                }
-
-                @media (max-width: 480px) {
-                    .comparison-header h2 {
-                        font-size: 1.5rem;
-                    }
-
-                    .comparison-table th {
-                        font-size: 0.75rem;
-                        padding: 0.875rem 0.4rem;
-                    }
-
-                    .comparison-table td {
-                        font-size: 0.75rem;
-                        padding: 0.875rem 0.4rem;
-                    }
-
-                    .comparison-table td:first-child {
-                        font-size: 0.72rem;
-                        line-height: 1.3;
-                    }
-
-                    .check-icon,
-                    .cross-icon,
-                    .partial-icon {
-                        width: 22px;
-                        height: 22px;
-                    }
-
-                    .check-icon svg {
-                        width: 12px;
-                        height: 12px;
-                    }
-
-                    .cross-icon svg {
-                        width: 10px;
-                        height: 10px;
-                    }
-
-                    .demo-button {
-                        padding: 0.75rem 1.5rem;
-                        font-size: 0.9rem;
-                    }
-                }
-            </style>
-
-            <div class="comparison-container">
+<div class="comparison-container">
                 <div class="comparison-header">
                     <h2>Why Choose Modern Age Coders?</h2>
                     <p>See how we stand out from traditional coding institutes and online platforms</p>
@@ -2348,7 +1055,7 @@
                             </div>
                             <div>
                                 <h3>Choose Group Classes</h3>
-                                <span>?1499/month</span>
+                                <span>₹1499/month</span>
                             </div>
                         </div>
                         <p class="comparison-subtitle">Group classes work great when you enjoy learning with others and
@@ -2392,7 +1099,7 @@
                             </div>
                             <div>
                                 <h3>Choose Personalized 1-on-1</h3>
-                                <span>?2499/month</span>
+                                <span>₹2499/month</span>
                             </div>
                         </div>
                         <p class="comparison-subtitle">Personalized classes are ideal when you need individual attention
@@ -2958,6 +1665,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -2991,56 +1739,16 @@
         </div>
     </a>
 
-    <style>
-        /* Misti AI Button Hover */
-        .misti-chat-btn:hover .misti-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        .misti-chat-btn:hover .misti-label {
-            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-        }
-
-        /* WhatsApp Button Hover */
-        .wa-float-btn:hover .wa-icon {
-            transform: scale(1.08);
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        .wa-float-btn:hover .wa-label {
-            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-        }
-
-        /* Mobile - Hide labels, show only icons */
-        @media (max-width: 768px) {
-
-            .misti-label,
-            .wa-label {
-                display: none !important;
-                visibility: hidden !important;
-            }
-
-            .misti-chat-btn {
-                bottom: 88px !important;
-                right: 16px !important;
-            }
-
-            .wa-float-btn {
-                bottom: 20px !important;
-                right: 16px !important;
-            }
-
-            .misti-icon,
-            .wa-icon {
-                width: 52px !important;
-                height: 52px !important;
-                min-width: 52px !important;
-                min-height: 52px !important;
-            }
-        }
-    </style>
-
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

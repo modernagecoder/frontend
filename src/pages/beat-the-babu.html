@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Beat The Babu – The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
+    <title>Beat The Babu ï¿½ The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
 
     <meta name="description"
         content="Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents.">
@@ -26,9 +26,9 @@
     <meta name="theme-color" content="#0f172a">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Beat The Babu – The Fastest 90-Second Math Challenge Game">
+    <meta property="og:title" content="Beat The Babu ï¿½ The Fastest 90-Second Math Challenge Game">
     <meta property="og:description"
-        content="Try Beat The Babu – a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
+        content="Try Beat The Babu ï¿½ a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
     <meta property="og:url" content="https://learn.modernagecoders.com/beat-the-babu/">
     <meta property="og:image" content="https://placehold.co/600x400/0f172a/3b82f6?text=Beat+The+Babu">
 
@@ -36,7 +36,7 @@
     {
       "@context": "https://schema.org",
       "@type": "EducationalApplication",
-      "name": "Beat The Babu – The Fastest 90-Second Math Challenge Game",
+      "name": "Beat The Babu ï¿½ The Fastest 90-Second Math Challenge Game",
       "description": "A fun and competitive 90-second mental math game built by ModernAgeCoders to help students and families improve calculation speed and confidence.",
       "brand": {
         "@type": "Brand",
@@ -903,10 +903,10 @@
                 q = `${a} - ${b}`; ans = a - b; state.q.pts = 12; type = "SUBTRACTION";
             } else if (roll < 0.85) {
                 const a = r(2, 12), b = r(2, 12 + Math.min(5, diffMod));
-                q = `${a} × ${b}`; ans = a * b; state.q.pts = 15; type = "MULTIPLICATION";
+                q = `${a} ï¿½ ${b}`; ans = a * b; state.q.pts = 15; type = "MULTIPLICATION";
             } else {
                 const b = r(2, 9), a = b * r(2, 10 + Math.min(5, diffMod));
-                q = `${a} ÷ ${b}`; ans = a / b; state.q.pts = 20; type = "DIVISION";
+                q = `${a} ï¿½ ${b}`; ans = a / b; state.q.pts = 20; type = "DIVISION";
             }
 
             state.q.ans = ans;
@@ -1257,6 +1257,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
 <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -1340,6 +1381,17 @@
     }
 </style>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

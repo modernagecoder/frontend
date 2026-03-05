@@ -4,7 +4,11 @@
       "Bash(grep:*)",
       "Bash(ls:*)",
       "Bash(comm:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(cat:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(node:*)"
     ]
   }
 }

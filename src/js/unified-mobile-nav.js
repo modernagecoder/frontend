@@ -250,30 +250,21 @@
             
             if (!dropdownLink || !dropdownContent) return;
             
-            // Dropdown parent link click
+            // Dropdown parent link click - always toggle dropdown on mobile
             dropdownLink.addEventListener('click', function(e) {
                 if (!isMobile()) return;
-                
-                const href = this.getAttribute('href');
-                
-                // If it has a real href, allow navigation
-                if (href && href !== '#' && !href.startsWith('javascript:')) {
-                    log('Dropdown link with href clicked, allowing navigation');
-                    setTimeout(() => closeMenu(), 100);
-                    return;
-                }
-                
-                // Otherwise, toggle dropdown
+
+                // On mobile, ALWAYS toggle dropdown instead of navigating
                 e.preventDefault();
                 e.stopPropagation();
-                
+
                 // Close other dropdowns
                 dropdowns.forEach(other => {
                     if (other !== dropdown) {
                         other.classList.remove('active');
                     }
                 });
-                
+
                 // Toggle this dropdown
                 dropdown.classList.toggle('active');
                 log('Dropdown toggled');

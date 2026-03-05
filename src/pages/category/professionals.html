@@ -876,11 +876,11 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                     </svg>
-                    Working Professionals • Career Growth
+                    Working Professionals ï¿½ Career Growth
                 </div>
                 <h1>Upskill Your <span>Career</span></h1>
                 <p>Transform your career with in-demand tech skills. Whether you're switching careers, seeking a
-                    promotion, or upskilling your team — our flexible courses fit your busy schedule.</p>
+                    promotion, or upskilling your team ï¿½ our flexible courses fit your busy schedule.</p>
                 <div class="hero-stats">
                     <div class="hero-stat"><strong>15+</strong><span>Courses</span></div>
                     <div class="hero-stat"><strong>850+</strong><span>Professionals</span></div>
@@ -1595,7 +1595,7 @@
                             </h3>
                             <p style="color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin: 0;">Not at
                                 all! We have successful students from 25 to 55+ years old. Your professional experience
-                                is actually an advantage — it brings domain knowledge and problem-solving skills.</p>
+                                is actually an advantage ï¿½ it brings domain knowledge and problem-solving skills.</p>
                         </div>
                     </div>
                     <div
@@ -1821,6 +1821,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -1970,6 +2011,17 @@
     <script src="/js/unified-mobile-nav.js"></script>
     <script src="/js/mobile-navigation.js"></script>
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>

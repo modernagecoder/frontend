@@ -781,7 +781,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"My son went from playing games all day to creating them. The
-                            transformation in his problem-solving skills is incredible!" — Mrs. Sharma</p>
+                            transformation in his problem-solving skills is incredible!" ï¿½ Mrs. Sharma</p>
                     </div>
                 </div>
 
@@ -818,7 +818,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"Priya was always good at maths but now she combines it with coding
-                            beautifully. Modern Age Coders made that connection!" — Mr. Patel</p>
+                            beautifully. Modern Age Coders made that connection!" ï¿½ Mr. Patel</p>
                     </div>
                 </div>
 
@@ -855,7 +855,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"The supportive environment at Modern Age Coders helped Sneha find her
-                            voice in tech." — Mrs. Reddy</p>
+                            voice in tech." ï¿½ Mrs. Reddy</p>
                     </div>
                 </div>
 
@@ -924,7 +924,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"At 9 years old, he built something professionals charge thousands for.
-                            Worth every penny!" — Mrs. Kumar</p>
+                            Worth every penny!" ï¿½ Mrs. Kumar</p>
                     </div>
                 </div>
 
@@ -1057,7 +1057,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"The girls-only environment was exactly what Kavya needed. Her confidence
-                            has skyrocketed!" — Mrs. Nair</p>
+                            has skyrocketed!" ï¿½ Mrs. Nair</p>
                     </div>
                 </div>
 
@@ -1138,7 +1138,7 @@
                         <span class="story-badge">Teens</span>
                     </div>
                     <p class="story-quote">I made new friends and learned valuable coding skills while having the fun of
-                        my life. It's not just coding here—it's outings, bonding, and preparing you for your future!</p>
+                        my life. It's not just coding hereï¿½it's outings, bonding, and preparing you for your future!</p>
                     <div class="story-details">
                         <div class="detail-row">
                             <span class="detail-label">Course</span>
@@ -1197,7 +1197,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"Mivaan enjoys the class. He understands the concepts and completes his
-                            tasks with excitement. He started taking interest in coding… truly amazing!" — Mrs. Shradha
+                            tasks with excitement. He started taking interest in codingï¿½ truly amazing!" ï¿½ Mrs. Shradha
                             Saraf</p>
                     </div>
                 </div>
@@ -1269,7 +1269,7 @@
                     <div class="parent-quote">
                         <div class="parent-label">Parent's Words</div>
                         <p class="parent-text">"They practice A LOT. Not just 2-3 problems, but 20-30 variations until
-                            the concept is crystal clear. My son can now solve problems he's never seen before." — Mr.
+                            the concept is crystal clear. My son can now solve problems he's never seen before." ï¿½ Mr.
                             Rajesh Kumar</p>
                     </div>
                 </div>
@@ -1496,6 +1496,47 @@
         }
     }
 </style>
+
+<!-- Lenis Smooth Scrolling -->
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.2,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                direction: 'vertical',
+                gestureDirection: 'vertical',
+                smooth: true,
+                mouseMultiplier: 1,
+                smoothTouch: false,
+                touchMultiplier: 2,
+                infinite: false,
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Handle smooth scrolling for anchor links using Lenis
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    const targetId = this.getAttribute('href');
+                    if (targetId && targetId !== '#') {
+                        const targetElement = document.querySelector(targetId);
+                        if (targetElement) {
+                            e.preventDefault();
+                            lenis.scrollTo(targetElement);
+                        }
+                    }
+                });
+            });
+        }
+    });
+
+</script>
 <!-- END_INLINED_FOOTER -->
 
     <!-- Misti AI Floating Chat Button - Above WhatsApp -->
@@ -1661,6 +1702,17 @@
     <script src="/js/unified-mobile-nav.js"></script>
 
 
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>
