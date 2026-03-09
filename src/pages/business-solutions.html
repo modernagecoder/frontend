@@ -1215,7 +1215,7 @@
         "offers": {
             "@type": "Offer",
             "availability": "https://schema.org/InStock",
-            "priceRange": "???"
+            "priceRange": "₹₹"
         }
     }
     </script>
@@ -1278,7 +1278,7 @@
             ? 'http://localhost:5000'
             : 'https://backend-modernagecoders.vercel.app';
 
-        console.log('?? API Base URL:', API_BASE_URL, '(Local:', isLocalhost, ')');
+        console.log('🔧 API Base URL:', API_BASE_URL, '(Local:', isLocalhost, ')');
 
         // Add CSS for success/error messages
         const formStyles = document.createElement('style');
@@ -1466,8 +1466,8 @@
                         throw new Error('Project details must be at least 20 characters. Please provide more information about your project.');
                     }
 
-                    console.log('?? Sending business inquiry to:', API_BASE_URL + '/api/business-solution/submit');
-                    console.log('?? Form data:', data);
+                    console.log('📤 Sending business inquiry to:', API_BASE_URL + '/api/business-solution/submit');
+                    console.log('📋 Form data:', data);
 
                     const response = await fetch(API_BASE_URL + '/api/business-solution/submit', {
                         method: 'POST',
@@ -1478,10 +1478,10 @@
                     });
 
                     const result = await response.json();
-                    console.log('?? Response:', result);
+                    console.log('📨 Response:', result);
 
                     if (response.ok && result.success) {
-                        console.log('? Business inquiry submitted successfully:', result.inquiryId);
+                        console.log('✅ Business inquiry submitted successfully:', result.inquiryId);
                         showBusinessFormSuccess();
                         this.reset();
                     } else {
@@ -1489,7 +1489,7 @@
                     }
 
                 } catch (error) {
-                    console.error('? Submission error:', error);
+                    console.error('❌ Submission error:', error);
                     showBusinessFormError(error.message || 'Network error. Please check your connection and try again.');
                 } finally {
                     // Re-enable button
@@ -1499,9 +1499,9 @@
                 }
             });
 
-            console.log('? Business form handler initialized');
+            console.log('✅ Business form handler initialized');
         } else {
-            console.error('? Business form not found!');
+            console.error('❌ Business form not found!');
         }
     </script>
 
