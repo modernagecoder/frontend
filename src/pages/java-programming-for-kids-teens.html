@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8BM164YJP"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-N8BM164YJP');</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Java Programming for Kids & Teens | Best Java Course Online | Modern Age Coders</title>
+<meta name="description" content="Best Java programming course for kids (8-12) and teens (13-18). Live online classes, max 6 students, real projects — games, apps & tools. Learn Java from scratch. Free demo class!">
+<meta name="keywords" content="java programming for kids, java course for teens, java for beginners kids, best java class online india, java programming course teenagers, learn java for kids, java online course teens india, java programming children, java course 10-18 years, java classes for school students">
+<meta name="author" content="Modern Age Coders">
+<link rel="canonical" href="https://learn.modernagecoders.com/java-programming-for-kids-teens">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<meta name="theme-color" content="#f97316">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://learn.modernagecoders.com/java-programming-for-kids-teens">
+<meta property="og:title" content="Java Programming for Kids & Teens | Modern Age Coders">
+<meta property="og:description" content="Live Java programming classes for kids 8-12 and teens 13-18. Max 6 students, real projects, free demo. India's most trusted online Java course!">
+<meta property="og:image" content="https://learn.modernagecoders.com/images/java-teens.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Java Programming for Kids & Teens | Modern Age Coders">
+<meta name="twitter:description" content="Live Java programming classes. Max 6 students, real projects, free demo!">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="geo.region" content="IN">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Course",
+      "name":"Java Programming Masterclass for Kids & Teens",
+      "description":"A comprehensive live online Java programming course for children aged 8-18. Kids (8-12) start with game-based Java fundamentals, while teens (13-18) build full apps, tools and games. Small batches of max 6, expert instructors, real deployable projects.",
+      "provider":{"@type":"Organization","name":"Modern Age Coders","sameAs":"https://learn.modernagecoders.com"},
+      "educationalLevel":"Beginner to Intermediate",
+      "audience":{"@type":"Audience","audienceType":"Kids and Teenagers aged 8-18"},
+      "hasCourseInstance":{"@type":"CourseInstance","courseMode":"Online","instructor":{"@type":"Person","name":"Modern Age Coders Instructors"}},
+      "offers":{"@type":"Offer","price":"1499","priceCurrency":"INR","availability":"https://schema.org/InStock"},
+      "about":["Java Programming","Object-Oriented Programming","Game Development","App Development","Data Structures"]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"What age can kids start learning Java?","acceptedAnswer":{"@type":"Answer","text":"Our Kids Java track starts at age 8. Young learners (8-12) begin with visual, game-based Java exercises before progressing to real code. By age 10-11 most students are writing proper Java classes. Teens (13-18) join the advanced track and move faster."}},
+        {"@type":"Question","name":"Do kids need prior coding knowledge for Java?","acceptedAnswer":{"@type":"Answer","text":"No prior experience is needed. Our Kids track starts from absolute zero — teaching variables, loops and logic through fun mini-games. Students with Python or Scratch experience can fast-track to Java OOP concepts in the first week."}},
+        {"@type":"Question","name":"What projects will kids and teens build in Java?","acceptedAnswer":{"@type":"Answer","text":"Kids build fun games like Snake, Number Guessing, and Quiz programs. Teens build a bank management system, student grade tracker, Java calculator app, console RPG game, and a final capstone project of their choice."}},
+        {"@type":"Question","name":"Why should my child learn Java specifically?","acceptedAnswer":{"@type":"Answer","text":"Java is taught in school/college CS curriculums across India (CBSE, ICSE, state boards) and worldwide. Learning Java now means your child is ahead when it appears in exams. Java is also the foundation for Android app development and enterprise software — making it one of the most career-valuable languages to know."}}
+      ]
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://learn.modernagecoders.com"},
+        {"@type":"ListItem","position":2,"name":"Courses","item":"https://learn.modernagecoders.com/courses"},
+        {"@type":"ListItem","position":3,"name":"Java for Kids & Teens","item":"https://learn.modernagecoders.com/java-programming-for-kids-teens"}
+      ]
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/responsive.css">
+<link rel="stylesheet" href="/css/best-coding-class.css">
+<style>
+:root{
+  --org:#f97316;--org2:#fb923c;--red:#ef4444;--amber:#f59e0b;
+  --blue:#3b82f6;--violet:#7c3aed;
+  --bg:#060a0f;--bg2:#0a0f06;--card:#0c1220;--card2:#0f1929;
+  --text:#e2e8f0;--muted:#64748b;--border:rgba(249,115,22,.15);
+}
+*{box-sizing:border-box;}
+body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;margin:0;}
+canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;}
+.page-wrap{position:relative;z-index:1;}
+.skip-link{position:absolute;top:-999px;left:-999px;}
+/* HERO */
+.hero{padding:120px 20px 80px;text-align:center;max-width:1100px;margin:0 auto;position:relative;}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.4);border-radius:40px;padding:8px 22px;font-size:13px;font-weight:600;color:#fdba74;margin-bottom:28px;letter-spacing:.3px;}
+.hero h1{font-size:clamp(2rem,5.5vw,3.8rem);font-weight:900;line-height:1.1;margin-bottom:20px;color:#fff;letter-spacing:-1px;}
+.hero h1 .hl{background:linear-gradient(135deg,var(--org),var(--amber));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:1.1rem;color:#94a3b8;max-width:720px;margin:0 auto 36px;line-height:1.8;}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:44px;}
+.btn-primary{background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;padding:16px 34px;border-radius:12px;font-weight:700;font-size:1rem;text-decoration:none;display:inline-flex;align-items:center;gap:10px;box-shadow:0 8px 28px rgba(249,115,22,.35);transition:transform .2s,box-shadow .2s;}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(249,115,22,.45);}
+.btn-outline{background:rgba(249,115,22,.08);border:2px solid rgba(249,115,22,.4);color:#fdba74;padding:14px 28px;border-radius:12px;font-weight:600;font-size:.95rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:all .2s;}
+.btn-outline:hover{background:rgba(249,115,22,.15);}
+.btn-wa{background:rgba(37,211,102,.08);border:2px solid rgba(37,211,102,.35);color:#25d366;padding:14px 28px;border-radius:12px;font-weight:600;font-size:.95rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;transition:all .2s;}
+.btn-wa:hover{background:rgba(37,211,102,.15);}
+.stat-pills{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;}
+.pill{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:10px 18px;font-size:13px;color:#cbd5e1;}
+.pill span{font-weight:700;color:#fdba74;}
+/* TICKER */
+.ticker-bar{background:rgba(6,10,15,.97);border-top:1px solid rgba(249,115,22,.2);border-bottom:1px solid rgba(249,115,22,.2);padding:13px 0;overflow:hidden;}
+.ticker-inner{display:flex;gap:52px;white-space:nowrap;animation:tick 32s linear infinite;}
+.ticker-inner span{font-size:12.5px;color:rgba(253,186,116,.7);font-weight:500;display:flex;align-items:center;gap:10px;}
+.ticker-inner span::before{content:"◆";color:var(--org);font-size:9px;}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+/* SECTION */
+.s-wrap{max-width:1100px;margin:0 auto;padding:72px 20px;text-align:center;}
+.s-tag{font-size:11.5px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--org2);display:block;width:100%;text-align:center;margin:0 auto 10px;}
+.s-title{font-size:clamp(1.6rem,3.5vw,2.5rem);font-weight:800;color:#fff;line-height:1.18;text-align:center;display:block;width:100%;margin:0 auto 12px;}
+.s-sub{color:#64748b;font-size:1rem;max-width:640px;line-height:1.75;margin:0 auto 44px;display:block;text-align:center;}
+.section{position:relative;}
+/* TRACK TOGGLE */
+.track-tabs{display:flex;gap:8px;justify-content:center;margin-bottom:36px;flex-wrap:wrap;}
+.track-tab{padding:10px 24px;border-radius:30px;font-size:.88rem;font-weight:600;cursor:pointer;border:2px solid rgba(249,115,22,.3);color:#94a3b8;background:transparent;transition:all .2s;}
+.track-tab.active{background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;border-color:transparent;}
+.track-panel{display:none;}
+.track-panel.active{display:block;}
+/* MODULE GRID */
+.module-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;}
+.mod-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:26px;text-align:left;transition:border-color .2s,transform .2s;}
+.mod-card:hover{border-color:rgba(249,115,22,.4);transform:translateY(-3px);}
+.mod-num{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--org2);margin-bottom:10px;text-transform:uppercase;}
+.mod-card h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:8px;}
+.mod-card ul{list-style:none;padding:0;margin:0;}
+.mod-card ul li{font-size:.83rem;color:#94a3b8;padding:4px 0;display:flex;align-items:center;gap:8px;}
+.mod-card ul li::before{content:"→";color:var(--org2);font-weight:700;flex-shrink:0;}
+/* STATS */
+.stats-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:18px;}
+.stat-box{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px 16px;text-align:center;}
+.stat-box .num{font-size:2.4rem;font-weight:900;background:linear-gradient(135deg,var(--org),var(--amber));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:6px;}
+.stat-box p{font-size:.8rem;color:#94a3b8;line-height:1.5;}
+/* FEAT SPLIT */
+.feat-block{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;}
+@media(max-width:768px){.feat-block{grid-template-columns:1fr;gap:32px;}}
+.feat-img img{width:100%;border-radius:20px;border:1px solid rgba(249,115,22,.2);}
+.f-tag{font-size:.72rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--org2);margin-bottom:12px;display:block;}
+.feat-text h2{font-size:clamp(1.5rem,3vw,2.1rem);font-weight:800;color:#fff;margin-bottom:14px;line-height:1.2;}
+.feat-text h2 .hl{background:linear-gradient(135deg,var(--org),var(--amber));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.feat-text p{font-size:.95rem;color:#94a3b8;line-height:1.8;margin-bottom:14px;}
+.f-list{list-style:none;padding:0;margin:0 0 24px;}
+.f-list li{display:flex;align-items:flex-start;gap:10px;font-size:.9rem;color:#cbd5e1;padding:5px 0;}
+.f-list li::before{content:"✓";color:var(--org2);font-weight:700;flex-shrink:0;margin-top:2px;}
+/* PROJECTS */
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.proj-card{background:var(--card);border:1px solid var(--border);border-radius:18px;padding:28px;text-align:left;transition:border-color .2s,transform .2s;}
+.proj-card:hover{border-color:rgba(249,115,22,.4);transform:translateY(-3px);}
+.proj-tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;background:linear-gradient(135deg,rgba(249,115,22,.2),rgba(251,146,60,.1));border:1px solid rgba(249,115,22,.3);color:var(--org2);padding:3px 10px;border-radius:20px;margin-bottom:14px;}
+.proj-card h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:8px;}
+.proj-card p{font-size:.83rem;color:#94a3b8;line-height:1.6;margin-bottom:12px;}
+.proj-stack{display:flex;flex-wrap:wrap;gap:6px;}
+.proj-stack span{font-size:.72rem;background:rgba(249,115,22,.08);border:1px solid rgba(249,115,22,.2);color:var(--org2);padding:2px 8px;border-radius:6px;font-weight:500;}
+/* ROADMAP */
+.roadmap{max-width:780px;margin:0 auto;position:relative;}
+.roadmap::before{content:'';position:absolute;left:30px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--org),var(--amber));opacity:.25;}
+.rm-item{display:flex;gap:22px;margin-bottom:28px;position:relative;}
+.rm-dot{width:60px;height:60px;min-width:60px;border-radius:50%;background:linear-gradient(135deg,var(--org),var(--amber));display:flex;align-items:center;justify-content:center;font-size:1.1rem;font-weight:900;color:#fff;z-index:1;}
+.rm-body{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px 22px;flex:1;text-align:left;}
+.rm-body h4{font-size:.975rem;font-weight:700;color:#fff;margin-bottom:5px;}
+.rm-body p{font-size:.82rem;color:#94a3b8;margin-bottom:6px;}
+.rm-meta{display:inline-block;font-size:.72rem;font-weight:600;background:rgba(249,115,22,.1);color:var(--org2);padding:2px 10px;border-radius:12px;}
+/* WHY CARDS */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;}
+.why-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:26px;text-align:left;transition:border-color .2s,transform .2s;}
+.why-card:hover{border-color:rgba(249,115,22,.35);transform:translateY(-3px);}
+.why-icon{width:42px;height:42px;border-radius:10px;background:linear-gradient(135deg,rgba(249,115,22,.2),rgba(251,146,60,.1));display:flex;align-items:center;justify-content:center;margin-bottom:14px;}
+.why-icon svg{width:20px;height:20px;stroke:var(--org2);}
+.why-card h3{font-size:.975rem;font-weight:700;color:#fff;margin-bottom:8px;}
+.why-card p{font-size:.83rem;color:#94a3b8;line-height:1.65;}
+/* COMPARE */
+.compare-wrap{overflow-x:auto;max-width:900px;margin:0 auto;}
+.compare-table{width:100%;border-collapse:collapse;min-width:540px;}
+.compare-table th{background:rgba(249,115,22,.08);color:#fdba74;font-size:.76rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:13px 16px;text-align:left;border-bottom:1px solid rgba(249,115,22,.2);}
+.compare-table td{padding:13px 16px;font-size:.84rem;color:#cbd5e1;border-bottom:1px solid rgba(255,255,255,.04);}
+.compare-table tr:last-child td{border-bottom:none;}
+.compare-table .yes{color:#10b981;font-weight:700;}
+.compare-table .no{color:#ef4444;}
+.badge-mac{background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;padding:2px 10px;border-radius:20px;font-size:.72rem;font-weight:700;}
+/* TESTIMONIALS */
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
+.testi-card{background:var(--card);border:1px solid rgba(249,115,22,.1);border-radius:18px;padding:28px;}
+.testi-stars{color:#f59e0b;font-size:.85rem;letter-spacing:2px;margin-bottom:12px;}
+.testi-quote{font-size:.93rem;color:#e2e8f0;line-height:1.78;font-style:italic;padding-left:24px;position:relative;margin-bottom:18px;}
+.testi-quote::before{content:'\201C';font-size:2.8rem;color:var(--org);opacity:.3;position:absolute;top:-6px;left:0;line-height:1;font-style:normal;}
+.testi-name{font-weight:700;color:#fff;font-size:.88rem;margin-bottom:2px;}
+.testi-meta{font-size:.75rem;color:var(--muted);}
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;max-width:900px;margin:0 auto;}
+.price-card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:20px;padding:30px;text-align:center;position:relative;overflow:hidden;transition:transform .2s;}
+.price-card:hover{transform:translateY(-4px);}
+.price-card.featured{border-color:var(--org);box-shadow:0 0 36px rgba(249,115,22,.12);}
+.price-ribbon{position:absolute;top:18px;right:-28px;background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;font-size:.68rem;font-weight:700;padding:5px 36px;transform:rotate(45deg);}
+.price-label{font-size:.75rem;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--muted);margin-bottom:10px;}
+.price-amt{font-size:2.6rem;font-weight:900;color:#fff;line-height:1;}
+.price-amt sup{font-size:1rem;vertical-align:top;margin-top:8px;}
+.price-per{font-size:.78rem;color:var(--muted);margin-bottom:20px;}
+.price-features{list-style:none;padding:0;margin:0 0 24px;text-align:left;}
+.price-features li{font-size:.86rem;color:#94a3b8;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.04);display:flex;align-items:center;gap:10px;}
+.price-features li::before{content:"✓";color:var(--org2);font-weight:700;flex-shrink:0;}
+.price-cta{display:block;background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;padding:13px;border-radius:12px;font-weight:700;font-size:.95rem;text-decoration:none;transition:opacity .2s;}
+.price-cta:hover{opacity:.85;}
+.price-card:not(.featured) .price-cta{background:transparent;border:2px solid rgba(249,115,22,.5);color:var(--org2);}
+/* FAQ */
+.faq-list{max-width:760px;margin:0 auto;}
+.faq-item{background:var(--card);border:1px solid rgba(255,255,255,.06);border-radius:14px;margin-bottom:10px;overflow:hidden;transition:border-color .2s;}
+.faq-item.open{border-color:rgba(249,115,22,.35);}
+.faq-q{display:flex;justify-content:space-between;align-items:center;padding:20px 22px;cursor:pointer;gap:16px;}
+.faq-q span{font-size:.93rem;font-weight:600;color:#fff;text-align:left;}
+.faq-tog{width:26px;height:26px;border-radius:50%;background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.3);color:var(--org2);font-size:1.1rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;}
+.faq-item.open .faq-tog{background:var(--org);color:#fff;}
+.faq-ans{max-height:0;overflow:hidden;transition:max-height .35s ease;}
+.faq-ans-inner{padding:0 22px 20px;font-size:.88rem;color:#94a3b8;line-height:1.8;text-align:left;}
+/* CONTACT */
+.contact-section{background:rgba(249,115,22,.03);border-top:1px solid rgba(249,115,22,.1);}
+.form-wrap{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start;}
+@media(max-width:768px){.form-wrap{grid-template-columns:1fr;gap:28px;}}
+.form-left h2{font-size:1.85rem;font-weight:800;color:#fff;margin-bottom:14px;line-height:1.22;}
+.form-left p{font-size:.93rem;color:#94a3b8;line-height:1.78;margin-bottom:16px;}
+.contact-meta{list-style:none;padding:0;margin:0 0 20px;}
+.contact-meta li{display:flex;align-items:center;gap:12px;font-size:.88rem;color:#94a3b8;margin-bottom:10px;}
+.contact-meta svg{width:17px;height:17px;stroke:var(--org2);flex-shrink:0;}
+.contact-meta a{color:#fdba74;text-decoration:none;}
+.form-right{background:var(--card);border:1px solid rgba(249,115,22,.15);border-radius:20px;padding:32px;}
+.form-right h3{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:4px;text-align:center;}
+.form-sub{font-size:.8rem;color:#64748b;text-align:center;margin-bottom:22px;}
+.input-field{width:100%;background:rgba(255,255,255,.04);border:1.5px solid rgba(255,255,255,.09);border-radius:10px;padding:13px 16px;font-size:.88rem;color:#fff;margin-bottom:13px;transition:border-color .2s;font-family:'Inter',sans-serif;}
+.input-field:focus{outline:none;border-color:var(--org);}
+.input-field::placeholder{color:#475569;}
+.input-field option{background:#0c1220;color:#fff;}
+.submit-btn{width:100%;background:linear-gradient(135deg,var(--org),var(--amber));color:#fff;border:none;border-radius:12px;padding:15px;font-size:.975rem;font-weight:700;cursor:pointer;transition:opacity .2s,transform .2s;margin-top:4px;}
+.submit-btn:hover{opacity:.88;transform:translateY(-1px);}
+.error-msg{color:#f87171;font-size:.76rem;margin-top:-9px;margin-bottom:10px;display:none;}
+.feedback-box{display:none;border-radius:12px;padding:14px 18px;margin-bottom:14px;font-size:.88rem;font-weight:500;}
+/* FOOTER */
+.site-footer{background:rgba(6,10,15,.99);border-top:1px solid rgba(249,115,22,.1);padding:60px 20px 22px;}
+.footer-container{max-width:1100px;margin:0 auto;}
+.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px;}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;}}
+@media(max-width:500px){.footer-grid{grid-template-columns:1fr;}}
+.footer-column .logo{display:flex;align-items:center;gap:10px;text-decoration:none;margin-bottom:12px;}
+.footer-column .logo-img{width:34px;height:34px;border-radius:8px;}
+.footer-column .logo-text{font-size:.95rem;font-weight:700;color:#fff;}
+.footer-tagline{font-size:.82rem;color:#64748b;margin-bottom:18px;line-height:1.6;}
+.social-links{display:flex;gap:10px;}
+.social-links a{width:34px;height:34px;border-radius:8px;background:rgba(255,255,255,.05);display:flex;align-items:center;justify-content:center;color:#94a3b8;transition:all .2s;text-decoration:none;}
+.social-links a svg{width:16px;height:16px;}
+.social-links a:hover{background:rgba(249,115,22,.2);color:var(--org2);}
+.footer-heading{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:#334155;margin-bottom:14px;}
+.footer-links{list-style:none;padding:0;margin:0;}
+.footer-links li{margin-bottom:7px;}
+.footer-links a{font-size:.84rem;color:#64748b;text-decoration:none;transition:color .2s;}
+.footer-links a:hover{color:var(--org2);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.04);padding-top:18px;text-align:center;font-size:.78rem;color:#1e293b;}
+/* RESPONSIVE */
+@media(max-width:640px){
+  .hero h1{font-size:1.9rem;}
+  .s-title{font-size:1.45rem;}
+  .module-grid,.projects-grid{grid-template-columns:1fr;}
+}
+.callback-nav-btn{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;background:linear-gradient(135deg,#f59e0b,#d97706);color:white;border:none;border-radius:25px;font-size:14px;font-weight:600;cursor:pointer;transition:all .3s;box-shadow:0 2px 8px rgba(245,158,11,.3);}
+.callback-nav-btn:hover{transform:translateY(-2px);}
+@media(max-width:768px){.callback-nav-btn span{display:none;}.callback-nav-btn{padding:10px;}}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<canvas id="bg-canvas"></canvas>
+<div class="page-wrap">
+
+<!-- NAV -->
+<header><nav><div class="navbar"><div class="nav-container">
+<a href="/" class="logo"><img style="border-radius:10px;" src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
+<ul class="nav-menu" id="navMenu">
+<li class="nav-item dropdown"><a href="/courses" class="nav-link">Courses <svg style="width:14px;height:14px;margin-left:4px;opacity:.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a><div class="dropdown-content"><a href="/courses" class="dropdown-item" style="font-weight:bold;border-bottom:1px solid rgba(249,115,22,.3);margin-bottom:.5rem;padding-bottom:.75rem;">View All Courses</a><a href="/courses/coding/kids" class="dropdown-item">For Kids (Ages 6-12)</a><a href="/courses/coding/teens" class="dropdown-item">For Teens (Ages 13-18)</a><a href="/courses/coding/college" class="dropdown-item">For College Students</a><a href="/coding-classes-for-girls" class="dropdown-item">Special For Girls</a><a href="/summer-coding-camp" class="dropdown-item highlight">Summer Coding Camp</a></div></li>
+<li class="nav-item dropdown"><a href="/coding-challenges" class="nav-link">Practice <svg style="width:14px;height:14px;margin-left:4px;opacity:.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a><div class="dropdown-content"><a href="/coding-challenges" class="dropdown-item">Coding Challenges</a><a href="/maths-challenges" class="dropdown-item">Maths Challenges</a></div></li>
+<li class="nav-item dropdown"><a href="/student-labs" class="nav-link">Tools <svg style="width:14px;height:14px;margin-left:4px;opacity:.7;" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a><div class="dropdown-content"><a href="/beat-the-babu" class="dropdown-item">Beat the Babu</a><a href="/aura" class="dropdown-item">Aura</a><a href="https://misti.modernagecoders.com" class="dropdown-item">Misti AI</a></div></li>
+<li class="nav-item"><a href="/pricing" class="nav-link">Pricing</a></li>
+<li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+<li class="nav-item"><button type="button" class="callback-nav-btn" onclick="openCallbackModal()"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span></span></button></li>
+<li class="nav-item" style="margin-left:10px;"><a href="https://dashboard.modernagecoders.com" target="_blank" class="cta-button" style="padding:.6rem 2rem !important;">Login</a></li>
+</ul>
+<button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu"><span></span><span></span><span></span></button>
+</div></div></nav></header>
+
+<!-- CALLBACK MODAL -->
+<div id="callbackModalOverlay" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:99999;align-items:center;justify-content:center;">
+<div style="background:#fff;border-radius:20px;padding:40px;max-width:400px;width:90%;text-align:center;position:relative;">
+<button type="button" onclick="closeCallbackModal()" style="position:absolute;top:15px;right:15px;width:32px;height:32px;border:none;background:#f3f4f6;border-radius:50%;font-size:20px;cursor:pointer;color:#666;">&times;</button>
+<div style="width:80px;height:80px;background:linear-gradient(135deg,#fed7aa,#fdba74);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 20px;"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+<h3 style="font-size:22px;font-weight:700;color:#1f2937;margin:0 0 8px;">Request a Callback</h3>
+<p style="font-size:14px;color:#6b7280;margin:0 0 24px;">Enter your number — we'll call within 3 hours!</p>
+<form id="callbackForm" onsubmit="submitCallback(event)" style="display:flex;flex-direction:column;gap:14px;">
+<div style="display:flex;align-items:center;background:#f9fafb;border:2px solid #e5e7eb;border-radius:12px;overflow:hidden;"><span style="padding:13px 12px;background:#f3f4f6;color:#6b7280;font-weight:600;border-right:2px solid #e5e7eb;">+91</span><input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required style="flex:1;padding:13px 15px;border:none;background:transparent;font-size:16px;color:#1f2937;outline:none;"></div>
+<button type="submit" id="callbackSubmitBtn" style="padding:13px 24px;background:linear-gradient(135deg,#f97316,#f59e0b);color:#fff;border:none;border-radius:12px;font-size:16px;font-weight:600;cursor:pointer;">Call Me Back</button>
+</form>
+<div id="callbackSuccessMsg" style="display:none;padding:20px 0;"><svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" style="margin-bottom:12px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg><h4 style="font-size:18px;font-weight:700;color:#10b981;margin:0 0 6px;">We'll call you soon!</h4><p style="font-size:13px;color:#6b7280;margin:0;">Expect a call within 3 hours</p></div>
+</div></div>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="section">
+<div class="hero">
+  <div class="hero-badge">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    India's Most Loved Java Course for Kids &amp; Teens
+  </div>
+  <h1>Java Programming That<br><span class="hl">Kids Actually Love Learning</span></h1>
+  <p class="hero-sub">Live online Java classes for ages 8-18. Max 6 students per batch. Your child builds real games, apps and tools — not boring hello-world exercises. Expert instructors. Free demo class. Results guaranteed.</p>
+  <div class="cta-row">
+    <a href="#book-demo" class="btn-primary">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+      Book Free Demo Class
+    </a>
+    <a href="tel:+919123366161" class="btn-outline">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call: 9123366161
+    </a>
+    <a href="https://wa.me/919123366161?text=Hi, I want to know more about Java programming for kids and teens" target="_blank" class="btn-wa">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp Us
+    </a>
+  </div>
+  <div class="stat-pills">
+    <div class="pill">Ages <span>8-18</span></div>
+    <div class="pill"><span>Max 6</span> Students Per Batch</div>
+    <div class="pill">Rated <span>4.9/5</span> by Parents</div>
+    <div class="pill"><span>Live</span> Online Classes</div>
+    <div class="pill"><span>Free</span> Demo Class</div>
+    <div class="pill">CBSE &amp; ICSE <span>Aligned</span></div>
+  </div>
+</div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-bar" aria-hidden="true">
+<div class="ticker-inner">
+  <span>Java · OOP · Game Dev · Spring Basics · Data Structures · Android Foundation</span>
+  <span>Max 6 students per batch — every child gets full attention</span>
+  <span>CBSE &amp; ICSE curriculum aligned — ace school exams too</span>
+  <span>Live online — join from India, UAE, UK, USA, Canada or anywhere</span>
+  <span>Every class recorded — re-watch forever</span>
+  <span>Ages 8 to 18 — two dedicated tracks, kids and teens</span>
+  <span>Java · OOP · Game Dev · Spring Basics · Data Structures · Android Foundation</span>
+  <span>Max 6 students per batch — every child gets full attention</span>
+  <span>CBSE &amp; ICSE curriculum aligned — ace school exams too</span>
+  <span>Live online — join from India, UAE, UK, USA, Canada or anywhere</span>
+  <span>Every class recorded — re-watch forever</span>
+  <span>Ages 8 to 18 — two dedicated tracks, kids and teens</span>
+</div>
+</div>
+<!-- STATS -->
+<section class="section">
+<div class="s-wrap">
+<p class="s-tag">Proven Track Record</p>
+<h2 class="s-title">By the Numbers</h2>
+<p class="s-sub">Real data from real students who learned Java with us — across two age groups and six countries.</p>
+<div class="stats-strip">
+  <div class="stat-box"><div class="num">600+</div><p>Kids &amp; teens taught Java — from India, UAE, UK, USA, Canada &amp; Singapore</p></div>
+  <div class="stat-box"><div class="num">4.9★</div><p>Average parent rating across 700+ verified reviews on Google &amp; social media</p></div>
+  <div class="stat-box"><div class="num">6</div><p>Maximum students per batch — no crowded classrooms, ever</p></div>
+  <div class="stat-box"><div class="num">97%</div><p>Course completion rate — students stay because they love it</p></div>
+  <div class="stat-box"><div class="num">8+</div><p>Real Java projects built per student — games, apps, tools &amp; systems</p></div>
+  <div class="stat-box"><div class="num">100%</div><p>Live classes — every session is taught live, never pre-recorded</p></div>
+</div>
+</div>
+</section>
+
+<!-- WHY JAVA -->
+<section class="section" style="background:rgba(249,115,22,.02);border-top:1px solid rgba(249,115,22,.07);">
+<div class="s-wrap">
+<div class="feat-block">
+  <div class="feat-img">
+    <img src="/images/java-teens.webp" alt="Teens and kids learning Java programming online at Modern Age Coders" loading="lazy">
+  </div>
+  <div class="feat-text">
+    <span class="f-tag">Why Java — Not Just Python</span>
+    <h2>Java is the Language That<br><span class="hl">Opens Every Door.</span></h2>
+    <p>Python is popular. But Java is powerful in a way that directly affects school marks, college admissions, and careers. CBSE (Class 11-12), ICSE, and most state boards teach Java — so learning it now means your child reaches exams already confident.</p>
+    <p>Beyond school, Java powers Android apps (used by 3 billion devices), enterprise software at companies like Google, Amazon and Infosys, and the foundations of computer science that every serious programmer eventually needs.</p>
+    <ul class="f-list">
+      <li>Java is in CBSE Class 11-12 and ICSE Computer Science — learning now means exam advantage</li>
+      <li>Java is the language of Android — your teen can build mobile apps after the course</li>
+      <li>Object-Oriented Programming in Java teaches thinking patterns used in every language</li>
+      <li>Java developers are among the highest-paid engineers in India and globally</li>
+      <li>Strong Java foundation makes Python, C++ and Kotlin dramatically easier to learn later</li>
+      <li>Our course starts from zero — no prior coding knowledge needed from kids or teens</li>
+    </ul>
+    <a href="#book-demo" class="btn-primary" style="display:inline-flex;">Book Free Java Demo Class</a>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- CURRICULUM — TABBED BY TRACK -->
+<section class="section">
+<div class="s-wrap">
+<p class="s-tag">Course Curriculum</p>
+<h2 class="s-title">Two Tracks. One Goal — Java Mastery.</h2>
+<p class="s-sub">We run separate, age-appropriate tracks. Kids aged 8-12 learn through games and stories. Teens aged 13-18 learn professional-grade Java with full OOP, data structures and real deployable projects.</p>
+<div class="track-tabs">
+  <button class="track-tab active" onclick="switchTrack('kids',this)">Kids Track — Ages 8-12</button>
+  <button class="track-tab" onclick="switchTrack('teens',this)">Teens Track — Ages 13-18</button>
+</div>
+
+<!-- KIDS TRACK -->
+<div id="track-kids" class="track-panel active">
+<div class="module-grid">
+  <div class="mod-card">
+    <div class="mod-num">Module 1 · Weeks 1-3</div>
+    <h3>Introduction to Programming Thinking</h3>
+    <ul>
+      <li>What is programming? How does a computer think?</li>
+      <li>Algorithms and sequencing — step-by-step instructions</li>
+      <li>Setting up Java &amp; IntelliJ — your first "Hello World"</li>
+      <li>Variables: storing names, numbers and messages</li>
+      <li>Mini-project: personalised greeting program</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 2 · Weeks 4-6</div>
+    <h3>Numbers, Decisions &amp; Loops</h3>
+    <ul>
+      <li>Data types — int, double, String, boolean</li>
+      <li>Math operations and expressions in Java</li>
+      <li>if / else decisions — making programs choose</li>
+      <li>Loops — while and for to repeat actions</li>
+      <li>Mini-project: Number Guessing Game</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 3 · Weeks 7-9</div>
+    <h3>Methods &amp; Reusable Code</h3>
+    <ul>
+      <li>Writing your own methods — giving programs superpowers</li>
+      <li>Parameters &amp; return values explained simply</li>
+      <li>Scanner — reading input from the user</li>
+      <li>Random numbers — making programs unpredictable</li>
+      <li>Mini-project: Quiz Challenge Program</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 4 · Weeks 10-12</div>
+    <h3>Arrays &amp; Collections</h3>
+    <ul>
+      <li>Arrays — storing lists of data in Java</li>
+      <li>Looping through arrays to process items</li>
+      <li>ArrayLists — dynamic, flexible lists</li>
+      <li>Sorting and searching arrays</li>
+      <li>Mini-project: Student Grade Tracker</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 5 · Weeks 13-16</div>
+    <h3>Introduction to Object-Oriented Programming</h3>
+    <ul>
+      <li>Classes and objects — the Java way of thinking</li>
+      <li>Attributes and methods inside a class</li>
+      <li>Creating objects and using constructors</li>
+      <li>Simple inheritance — "is-a" relationships</li>
+      <li>Project: Animal Kingdom simulator</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 6 · Weeks 17-20</div>
+    <h3>Games &amp; Fun Capstone</h3>
+    <ul>
+      <li>Building a text-based adventure game in Java</li>
+      <li>Rock-Paper-Scissors game against the computer</li>
+      <li>Simple calculator with full operations</li>
+      <li>Capstone: build your own game from scratch</li>
+      <li>Graduation presentation &amp; certificate</li>
+    </ul>
+  </div>
+</div>
+</div>
+
+<!-- TEENS TRACK -->
+<div id="track-teens" class="track-panel">
+<div class="module-grid">
+  <div class="mod-card">
+    <div class="mod-num">Module 1 · Weeks 1-2</div>
+    <h3>Java Foundations &amp; Environment</h3>
+    <ul>
+      <li>Java architecture — JDK, JVM, JRE explained</li>
+      <li>Data types, operators, casting &amp; expressions</li>
+      <li>Control flow — if/else if, switch, ternary</li>
+      <li>Loops — for, while, do-while, enhanced for</li>
+      <li>Mini-project: Java calculator with all operations</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 2 · Weeks 3-4</div>
+    <h3>Methods, Arrays &amp; Strings</h3>
+    <ul>
+      <li>Methods — parameters, return types, overloading</li>
+      <li>1D &amp; 2D arrays — declaration, traversal, sorting</li>
+      <li>String methods — substring, split, replace, format</li>
+      <li>Java Math class — floor, ceil, pow, random</li>
+      <li>Mini-project: Word frequency analyser</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 3 · Weeks 5-7</div>
+    <h3>Object-Oriented Programming</h3>
+    <ul>
+      <li>Classes, objects, constructors and destructors</li>
+      <li>Encapsulation — private fields, getters &amp; setters</li>
+      <li>Inheritance — extends, super, method overriding</li>
+      <li>Polymorphism — runtime and compile-time</li>
+      <li>Project: Library management system</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 4 · Weeks 8-9</div>
+    <h3>Interfaces, Abstract Classes &amp; Exceptions</h3>
+    <ul>
+      <li>Abstract classes vs interfaces — when and why</li>
+      <li>Implementing multiple interfaces in Java</li>
+      <li>Exception handling — try/catch/finally blocks</li>
+      <li>Custom exceptions — throwing your own errors</li>
+      <li>Mini-project: Robust Bank Account system</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 5 · Weeks 10-12</div>
+    <h3>Collections Framework &amp; Generics</h3>
+    <ul>
+      <li>ArrayList, LinkedList, HashMap, HashSet, TreeMap</li>
+      <li>Iterators and for-each loops over collections</li>
+      <li>Generics — writing type-safe reusable code</li>
+      <li>Collections utility methods — sort, shuffle, min, max</li>
+      <li>Project: Student management system (full CRUD)</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 6 · Weeks 13-15</div>
+    <h3>File I/O, Streams &amp; Lambda</h3>
+    <ul>
+      <li>Reading and writing files with BufferedReader/Writer</li>
+      <li>Java Streams — filter, map, reduce, collect</li>
+      <li>Lambda expressions — functional programming in Java</li>
+      <li>Optional class — avoiding NullPointerException</li>
+      <li>Mini-project: CSV data reader &amp; report generator</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 7 · Weeks 16-18</div>
+    <h3>Data Structures &amp; Algorithms in Java</h3>
+    <ul>
+      <li>Stacks and queues — implementation and use cases</li>
+      <li>Recursion — factorial, Fibonacci, binary search</li>
+      <li>Sorting algorithms — bubble, selection, merge, quick</li>
+      <li>Intro to graphs &amp; trees</li>
+      <li>Project: Mini search engine using DSA concepts</li>
+    </ul>
+  </div>
+  <div class="mod-card">
+    <div class="mod-num">Module 8 · Weeks 19-24</div>
+    <h3>Capstone &amp; Portfolio Project</h3>
+    <ul>
+      <li>Design a full Java application from scratch</li>
+      <li>Choose your domain: console game, bank system, inventory etc.</li>
+      <li>Full OOP implementation + file persistence</li>
+      <li>GitHub repository &amp; professional documentation</li>
+      <li>Live presentation — graduation &amp; certificate</li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" style="background:rgba(249,115,22,.02);border-top:1px solid rgba(249,115,22,.07);">
+<div class="s-wrap">
+<p class="s-tag">Real Projects Built</p>
+<h2 class="s-title">8 Real Java Projects. Not Toy Demos.</h2>
+<p class="s-sub">By the end of the course, every student has a real Java portfolio. These are actual programs that run — not screenshots of code.</p>
+<div class="projects-grid">
+  <div class="proj-card">
+    <span class="proj-tag">Kids — Module 2</span>
+    <h3>Number Guessing Game</h3>
+    <p>A fully interactive game where the computer picks a secret number and the player gets clues (higher/lower) until they guess correctly. Includes score tracking and replay functionality.</p>
+    <div class="proj-stack"><span>Java</span><span>Scanner</span><span>Random</span><span>Loops</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Kids — Module 3</span>
+    <h3>Java Quiz Challenge</h3>
+    <p>A multi-round quiz program on any topic the student chooses. Tracks correct/wrong answers, shows a final score, and gives encouraging messages based on performance.</p>
+    <div class="proj-stack"><span>Methods</span><span>Arrays</span><span>Scanner</span><span>if-else</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Kids — Module 6</span>
+    <h3>Text Adventure Game</h3>
+    <p>A story-driven game where the player makes choices that change the outcome — a choose-your-own-adventure built entirely in Java. Students design the story themselves.</p>
+    <div class="proj-stack"><span>OOP</span><span>Methods</span><span>String</span><span>switch</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Teens — Module 3</span>
+    <h3>Library Management System</h3>
+    <p>A full OOP application simulating a library — add books, issue books to members, return books, and check availability. Built with classes, inheritance and encapsulation.</p>
+    <div class="proj-stack"><span>OOP</span><span>ArrayList</span><span>Classes</span><span>Inheritance</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Teens — Module 4</span>
+    <h3>Bank Account System</h3>
+    <p>A robust banking simulation with deposits, withdrawals, balance checks and transaction history. Custom exceptions handle insufficient funds and invalid inputs correctly.</p>
+    <div class="proj-stack"><span>Exceptions</span><span>Abstract</span><span>Interface</span><span>Encapsulation</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Teens — Module 5</span>
+    <h3>Student Management System</h3>
+    <p>A complete CRUD application — add, view, update, delete students with grades and attendance. Uses HashMap and TreeMap for efficient data retrieval and sorting.</p>
+    <div class="proj-stack"><span>Collections</span><span>HashMap</span><span>Generics</span><span>File I/O</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Teens — Module 6</span>
+    <h3>CSV Data Report Generator</h3>
+    <p>A program that reads CSV files, processes the data using Java Streams and Lambdas, and generates formatted summary reports — real data engineering in Java.</p>
+    <div class="proj-stack"><span>Streams</span><span>Lambda</span><span>File I/O</span><span>Collections</span></div>
+  </div>
+  <div class="proj-card">
+    <span class="proj-tag">Teens — Capstone</span>
+    <h3>Personal Java Capstone</h3>
+    <p>Students design and build a complete Java application of their choice — inventory system, console RPG game, hotel management, employee payroll. All code pushed to GitHub with documentation.</p>
+    <div class="proj-stack"><span>Full OOP</span><span>DSA</span><span>GitHub</span><span>Portfolio</span></div>
+  </div>
+</div>
+</div>
+</section>
+<!-- WHY US -->
+<section class="section">
+<div class="s-wrap">
+<p class="s-tag">What Makes Us Different</p>
+<h2 class="s-title">The Modern Age Coders Difference</h2>
+<p class="s-sub">We have one job: make your child love Java and get genuinely good at it. Here's exactly how we do that.</p>
+<div class="why-grid">
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg></div>
+    <h3>Max 6 Students — Every Class</h3>
+    <p>Coaching centres have 25-40 kids. We have 6. Your child's name is remembered, their code is seen, their questions are answered — in every single class, not once in a while.</p>
+  </div>
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z"/></svg></div>
+    <h3>Two Age-Specific Tracks</h3>
+    <p>We don't put 9-year-olds and 17-year-olds in the same class. The Kids Java Track (8-12) uses games, stories and visual examples. The Teens Java Track (13-18) covers OOP, DSA and career-grade projects.</p>
+  </div>
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg></div>
+    <h3>CBSE &amp; ICSE Aligned</h3>
+    <p>Our syllabus directly maps to Java topics in CBSE Class 11 &amp; 12 Computer Science and ICSE Class 9 &amp; 10. Students don't just learn Java — they master exactly what appears in board exams.</p>
+  </div>
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18V8.25m-18 0V6a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 6v2.25m-18 0h18"/></svg></div>
+    <h3>Every Class Recorded Forever</h3>
+    <p>Miss a class? Your child re-watches it that evening. Want to revise before an exam? Every session is in the student portal permanently — not deleted after 7 days like some platforms.</p>
+  </div>
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/></svg></div>
+    <h3>Doubt Support on WhatsApp</h3>
+    <p>Stuck at 9 PM on a homework problem? Message the instructor. We respond the same day. Parent updates are sent after every class so you always know exactly what was covered.</p>
+  </div>
+  <div class="why-card">
+    <div class="why-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.746 3.746 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.745 3.745 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/></svg></div>
+    <h3>Progress Reports &amp; Portfolio</h3>
+    <p>Every student gets a monthly progress report. Teens receive help documenting their Java projects for GitHub and college applications — a portfolio most adults don't have.</p>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- ROADMAP -->
+<section class="section" style="background:rgba(249,115,22,.02);border-top:1px solid rgba(249,115,22,.07);">
+<div class="s-wrap">
+<p class="s-tag">Learning Journey</p>
+<h2 class="s-title">From Zero to Java Developer — Step by Step</h2>
+<p class="s-sub">A clear path with no guesswork. Every step has a concrete outcome — not vague "progress".</p>
+<div class="roadmap">
+  <div class="rm-item"><div class="rm-dot">1</div><div class="rm-body"><h4>Free Demo Class</h4><p>Your child writes their first Java program live with the instructor. Parents see exactly how the class runs. No pressure, no payment. Most families book a batch within 24 hours of the demo.</p><span class="rm-meta">Day 1 · 60 min · Zero cost</span></div></div>
+  <div class="rm-item"><div class="rm-dot">2</div><div class="rm-body"><h4>Java Foundations</h4><p>Variables, data types, operators, loops and conditions. Kids get fun game exercises; teens get logical programming challenges. By Week 3, every student writes programs independently.</p><span class="rm-meta">Weeks 1-4 · 8 live classes</span></div></div>
+  <div class="rm-item"><div class="rm-dot">3</div><div class="rm-body"><h4>Methods, Arrays &amp; First Projects</h4><p>Reusable code via methods. Storing data with arrays. First real mini-projects — Quiz program (kids) and Word Frequency Analyser (teens). Students start feeling like real programmers.</p><span class="rm-meta">Weeks 5-9 · 10 live classes · Projects 1-2</span></div></div>
+  <div class="rm-item"><div class="rm-dot">4</div><div class="rm-body"><h4>Object-Oriented Programming</h4><p>The moment everything clicks. Classes, objects, inheritance, encapsulation and polymorphism. Build a Library Management System (teens) or Animal Kingdom simulator (kids).</p><span class="rm-meta">Weeks 10-15 · 12 live classes · Projects 3-4</span></div></div>
+  <div class="rm-item"><div class="rm-dot">5</div><div class="rm-body"><h4>Advanced Java — Collections, DSA &amp; Files</h4><p>HashMap, LinkedList, Streams, Lambdas. Data Structures — stacks, queues, recursion, sorting. File I/O. Deploy a report generator and a mini search engine.</p><span class="rm-meta">Weeks 16-20 · 10 live classes · Projects 5-6</span></div></div>
+  <div class="rm-item"><div class="rm-dot">6</div><div class="rm-body"><h4>Capstone, Certificate &amp; Portfolio</h4><p>Build a complete Java application. Document it on GitHub. Present it live to instructors. Receive a verified certificate. Teens graduate with a portfolio that impresses CBSE teachers and college committees.</p><span class="rm-meta">Weeks 21-24 · Graduation · Certificate · Portfolio</span></div></div>
+</div>
+</div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section">
+<div class="s-wrap">
+<p class="s-tag">Real Stories</p>
+<h2 class="s-title">Parents &amp; Students Speak</h2>
+<p class="s-sub">Unedited — these are the real words of families who enrolled their children in our Java programming course.</p>
+<div class="testi-grid">
+  <div class="testi-card"><div class="testi-stars">★★★★★</div><p class="testi-quote">"My son Ansh (11 years old) was intimidated by coding before this course. Within 3 months he had built a quiz game and a number guessing game on his own. The instructor's patience with young kids is exceptional — Ansh now asks to code after school. That's all I needed to hear."</p><p class="testi-name">Priya Sharma</p><p class="testi-meta">Parent · Son aged 11 · Kids Java Track · Pune</p></div>
+  <div class="testi-card"><div class="testi-stars">★★★★★</div><p class="testi-quote">"I'm 16 and preparing for JEE. Learning Java here gave me a huge advantage in my CBSE Class 12 CS practicals. The instructor doesn't just teach — they explain WHY Java works the way it does. I scored 98% in CS practicals and I credit this course significantly."</p><p class="testi-name">Dhruv Mehta, Age 16</p><p class="testi-meta">Student · Teens Java Track · Delhi · CBSE topper</p></div>
+  <div class="testi-card"><div class="testi-stars">★★★★★</div><p class="testi-quote">"We're in Dubai and finding a structured Java course for my daughter (13) was nearly impossible. Every other option was either too basic or University-level. Modern Age Coders found exactly the right level. She's building a student management system now and can't wait to show her school teachers."</p><p class="testi-name">Rekha Nair</p><p class="testi-meta">Parent · Daughter aged 13 · Teens Java Track · Dubai, UAE</p></div>
+</div>
+</div>
+</section>
+
+<!-- COMPARE -->
+<section class="section" style="background:rgba(249,115,22,.02);border-top:1px solid rgba(249,115,22,.07);">
+<div class="s-wrap">
+<p class="s-tag">Honest Comparison</p>
+<h2 class="s-title">Us vs. Every Other Option</h2>
+<p class="s-sub">We don't ask you to trust us blindly. Compare every feature before you decide.</p>
+<div class="compare-wrap">
+<table class="compare-table">
+  <thead><tr><th>Feature</th><th><span class="badge-mac">Modern Age Coders</span></th><th>YouTube / Udemy</th><th>Offline Coaching</th></tr></thead>
+  <tbody>
+    <tr><td>Live classes with expert instructor</td><td class="yes">✓ Always live</td><td class="no">✗ Pre-recorded</td><td class="yes">✓ (crowded)</td></tr>
+    <tr><td>Batch size</td><td class="yes">Max 6 students</td><td>None</td><td class="no">20-40 students</td></tr>
+    <tr><td>Separate Kids and Teens tracks</td><td class="yes">✓ Age-appropriate</td><td class="no">✗ Same content</td><td class="no">✗ Usually mixed</td></tr>
+    <tr><td>CBSE / ICSE curriculum aligned</td><td class="yes">✓ Fully aligned</td><td class="no">✗</td><td>Varies</td></tr>
+    <tr><td>Recorded sessions forever</td><td class="yes">✓ Every class</td><td class="yes">✓ Pre-made</td><td class="no">✗ Rarely</td></tr>
+    <tr><td>WhatsApp doubt support</td><td class="yes">✓ Same-day</td><td class="no">✗</td><td class="no">✗</td></tr>
+    <tr><td>Portfolio &amp; GitHub documentation</td><td class="yes">✓ Included</td><td class="no">✗</td><td class="no">✗</td></tr>
+    <tr><td>Free full demo class</td><td class="yes">✓ 60 min class</td><td class="no">✗</td><td>Varies</td></tr>
+  </tbody>
+</table>
+</div>
+</div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section">
+<div class="s-wrap">
+<p class="s-tag">Transparent Pricing</p>
+<h2 class="s-title">Simple. Honest. No Hidden Fees.</h2>
+<p class="s-sub">No registration charges. Start with a 100% free demo class — pay only after you decide to join.</p>
+<div class="pricing-grid">
+  <div class="price-card">
+    <p class="price-label">Kids Track · Ages 8-12</p>
+    <p class="price-amt"><sup>₹</sup>1,499</p>
+    <p class="price-per">per month · 2 live classes per week</p>
+    <ul class="price-features">
+      <li>Age-appropriate Kids Java track</li>
+      <li>Max 4-6 students per batch</li>
+      <li>Live classes (60-75 min each)</li>
+      <li>All 6 curriculum modules</li>
+      <li>Recorded sessions forever</li>
+      <li>WhatsApp doubt support</li>
+      <li>Parent progress updates</li>
+      <li>Certificate on completion</li>
+    </ul>
+    <a href="#book-demo" class="price-cta">Book Free Demo →</a>
+  </div>
+  <div class="price-card featured">
+    <div class="price-ribbon">Most Popular</div>
+    <p class="price-label">Teens Track · Ages 13-18</p>
+    <p class="price-amt"><sup>₹</sup>1,499</p>
+    <p class="price-per">per month · 2 live classes per week</p>
+    <ul class="price-features">
+      <li>Professional Teens Java track</li>
+      <li>Max 4-6 students per batch</li>
+      <li>Live classes (75-90 min each)</li>
+      <li>All 8 curriculum modules incl. DSA</li>
+      <li>CBSE &amp; ICSE exam prep aligned</li>
+      <li>GitHub portfolio documentation</li>
+      <li>College application Java project help</li>
+      <li>Certificate on graduation</li>
+    </ul>
+    <a href="#book-demo" class="price-cta">Book Free Demo →</a>
+  </div>
+  <div class="price-card">
+    <p class="price-label">1-on-1 Private · Any Age</p>
+    <p class="price-amt"><sup>₹</sup>2,499</p>
+    <p class="price-per">per month · personalised schedule</p>
+    <ul class="price-features">
+      <li>1 instructor : 1 student always</li>
+      <li>Fully personalised pace &amp; curriculum</li>
+      <li>Flexible time slots — any day</li>
+      <li>Faster progress &amp; deeper coverage</li>
+      <li>Priority WhatsApp — 2 hr replies</li>
+      <li>Exam-focused revision sessions</li>
+      <li>All group track benefits included</li>
+    </ul>
+    <a href="#book-demo" class="price-cta">Book Free Demo →</a>
+  </div>
+</div>
+<p style="text-align:center;margin-top:22px;font-size:.83rem;color:#334155;">EMI available · Sibling discounts · <a href="/pricing" style="color:var(--org2);text-decoration:none;">Full pricing details →</a></p>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section" style="background:rgba(249,115,22,.02);border-top:1px solid rgba(249,115,22,.07);">
+<div class="s-wrap">
+<p class="s-tag">Common Questions</p>
+<h2 class="s-title">Every Question Answered</h2>
+<p class="s-sub">Honest and complete answers — we don't hide anything.</p>
+<div class="faq-list">
+  <div class="faq-item"><div class="faq-q"><span>What age is this Java course for?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">We have two dedicated tracks. The Kids Java Track accepts students aged 8-12, teaching through games, stories and visual exercises. The Teens Java Track covers ages 13-18 with a professional curriculum including OOP, data structures and real project deployment. Students are never mixed across age groups — each class is designed specifically for one track. Students as young as 7 with strong logical ability have joined the Kids track successfully.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>Does my child need to know coding before joining Java?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">No. Both tracks start from absolute zero. We assess each student briefly during the free demo class and recommend the right starting point. Students with prior Python or Scratch experience can fast-track through Module 1. For teens who already know Python, we can start directly from Java OOP in Module 3 and work backwards if needed. We adapt to each student — not the other way around.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>Is this course aligned with CBSE and ICSE Java syllabus?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">Yes — completely. The Teens Java Track covers everything in CBSE Class 11-12 Computer Science (Java) and ICSE Class 9-10 Computer Applications. This includes: basic Java syntax, methods and arrays, OOP (classes, objects, inheritance, polymorphism), exception handling, Java I/O, and data structures. Students who complete our course typically score 90%+ in Java-related questions in board exams. We also provide specific exam revision sessions upon request.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>How is this different from YouTube Java tutorials?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">YouTube tutorials teach at one. Your child watches — they don't write. In our classes, students write code every session, get their code reviewed line by line, ask questions mid-class and get immediate answers. Instructors catch and explain misconceptions in real time — something no recorded video can do. Additionally, YouTube doesn't give projects, deadlines, portfolio documentation, or follow-up doubt support. We do all of this.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>What if my child has missed some classes?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">Every class is recorded and uploaded to the student portal within 2 hours of the session ending. Students watch the recording and catch up before the next class. Instructors also offer free makeup sessions for genuinely unavoidable absences. No student ever "falls behind permanently" in our classes — we check in specifically with students who miss sessions.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>Can kids and teens outside India join?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">Yes — we have students from UAE (Dubai, Abu Dhabi), UK, USA, Canada, Singapore and Australia. Classes run on Google Meet and are scheduled around the student's timezone. International pricing is still in INR — making our courses extremely affordable for international families. Payments can be made via international credit/debit cards, PayPal or wire transfer. Time zone scheduling is handled individually for each international student.</div></div></div>
+  <div class="faq-item"><div class="faq-q"><span>Why should my child learn Java instead of Python?</span><div class="faq-tog">+</div></div><div class="faq-ans"><div class="faq-ans-inner">Both are valuable, but Java has specific advantages for school students: (1) Java is directly in CMSEdge Class 11-12 and ICSE board exams — knowing it improves marks. (2) Java teaches Object-Oriented Programming more rigorously than Python, giving a deeper programming foundation. (3) Java leads to Android app development. (4) Java is heavily used in enterprise companies including many Indian IT firms. (5) Once you know Java, learning Python takes days — the reverse journey is harder. We also offer a Python + AI course if that's the priority.</div></div></div>
+</div>
+</div>
+</section>
+
+<!-- CONTACT / DEMO FORM -->
+<section id="book-demo" class="section contact-section">
+<div class="s-wrap">
+<div class="form-wrap">
+  <div class="form-left">
+    <p style="font-size:.75rem;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--org2);margin-bottom:10px;">Book Your Free Demo</p>
+    <h2>Watch Your Child Write Java.<br>First Class is Always Free.</h2>
+    <p>Fill in the form and we'll call you within 3 hours to schedule a free 60-minute demo class. Your child will write real Java code and build a mini-program live — with zero payment or commitment required.</p>
+    <p style="font-size:.84rem;color:var(--org2);font-weight:600;margin-bottom:18px;">Batch seats are limited — demo slots fill up fast.</p>
+    <ul class="contact-meta">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg><a href="tel:+919123366161">+91 9123366161</a></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg><span>Mon–Sun · 9 AM – 9 PM IST</span></li>
+    </ul>
+    <div style="margin-top:22px;display:flex;gap:10px;flex-wrap:wrap;">
+      <a href="https://wa.me/919123366161?text=Hi, I want to book a free demo for Java programming for kids and teens" target="_blank" style="background:#25d366;color:#fff;padding:12px 22px;border-radius:10px;font-weight:600;font-size:.88rem;text-decoration:none;display:inline-flex;align-items:center;gap:8px;">WhatsApp Now</a>
+      <a href="/contact" style="background:rgba(249,115,22,.1);border:1px solid rgba(249,115,22,.4);color:var(--org2);padding:12px 22px;border-radius:10px;font-weight:600;font-size:.88rem;text-decoration:none;">Contact Page →</a>
+    </div>
+  </div>
+  <div class="form-right">
+    <h3>Book Free Java Demo Class</h3>
+    <p class="form-sub">We'll call you within 3 hours to schedule</p>
+    <div id="formFeedback" class="feedback-box"><span class="fb-msg"></span></div>
+    <form id="javaContactForm" novalidate>
+      <input type="text" id="cName" class="input-field" placeholder="Your Full Name *" required>
+      <input type="email" id="cEmail" class="input-field" placeholder="Email Address *" required>
+      <div id="emailErr" class="error-msg"></div>
+      <input type="tel" id="cPhone" class="input-field" placeholder="WhatsApp Number *" maxlength="10" required>
+      <div id="phoneErr" class="error-msg"></div>
+      <select id="cAge" class="input-field" required>
+        <option value="">Student's Current Age *</option>
+        <option value="8">8 years old</option><option value="9">9 years old</option>
+        <option value="10">10 years old</option><option value="11">11 years old</option>
+        <option value="12">12 years old</option><option value="13">13 years old</option>
+        <option value="14">14 years old</option><option value="15">15 years old</option>
+        <option value="16">16 years old</option><option value="17">17 years old</option>
+        <option value="18">18 years old</option>
+      </select>
+      <select id="cTrack" class="input-field">
+        <option value="">Track Preference (optional)</option>
+        <option value="kids">Kids Track (8-12) — fun &amp; game-based</option>
+        <option value="teens">Teens Track (13-18) — professional Java</option>
+        <option value="private">1-on-1 Private Class</option>
+        <option value="unsure">Not sure — please recommend</option>
+      </select>
+      <textarea id="cMsg" class="input-field" rows="3" placeholder="Any questions or goals? e.g. 'CBSE Class 11 CS, need Java help' *" style="resize:vertical;"></textarea>
+      <div id="msgErr" class="error-msg"></div>
+      <button type="submit" class="submit-btn"><span class="btn-txt">Book My Free Java Demo →</span><span class="btn-load" style="display:none;">Submitting…</span></button>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+<div class="footer-container">
+<div class="footer-grid">
+  <div class="footer-column">
+    <a href="/" class="logo"><img src="/images/logo.svg" alt="Modern Age Coders" class="logo-img" loading="lazy"><span class="logo-text">Modern Age Coders</span></a>
+    <p class="footer-tagline">India's most trusted live online coding institute for kids, teens &amp; adults.</p>
+    <div class="social-links">
+      <a href="https://instagram.com/modern_age_coders" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+      <a href="https://www.youtube.com/@modernagecoders" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+      <a href="https://www.linkedin.com/in/shivam-khemka-948a2a277" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+    </div>
+  </div>
+  <div class="footer-column">
+    <h3 class="footer-heading">Java Courses</h3>
+    <ul class="footer-links">
+      <li><a href="/java-programming-for-kids-teens">Java for Kids &amp; Teens</a></li>
+      <li><a href="https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens">Java Teens Masterclass</a></li>
+      <li><a href="https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college">Java College Course</a></li>
+      <li><a href="/python-and-ai-classes-for-kids-teens">Python &amp; AI Classes</a></li>
+      <li><a href="/ai-ml-course-for-teens">AI &amp; ML for Teens</a></li>
+    </ul>
+  </div>
+  <div class="footer-column">
+    <h3 class="footer-heading">Quick Links</h3>
+    <ul class="footer-links">
+      <li><a href="/courses">All Courses</a></li>
+      <li><a href="/pricing">Pricing</a></li>
+      <li><a href="/success-stories">Success Stories</a></li>
+      <li><a href="/coding-classes-for-girls">Girls Coding</a></li>
+      <li><a href="/best-coding-classes-online">Online Classes</a></li>
+      <li><a href="/contact">Contact</a></li>
+      <li><a href="https://dashboard.modernagecoders.com">Student Login</a></li>
+    </ul>
+  </div>
+  <div class="footer-column">
+    <h3 class="footer-heading">Contact</h3>
+    <ul class="footer-links">
+      <li><a href="tel:+919123366161">+91 9123366161</a></li>
+      <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
+      <li><a href="/privacy">Privacy Policy</a></li>
+      <li><a href="/terms">Terms of Service</a></li>
+    </ul>
+  </div>
+</div>
+<div class="footer-bottom"><p id="copyright"></p></div>
+</div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<a href="https://misti.modernagecoders.com" target="_blank" rel="noopener" aria-label="Ask Misti AI" style="position:fixed!important;bottom:92px!important;right:24px!important;z-index:2147483646!important;display:flex!important;align-items:center!important;gap:10px!important;text-decoration:none!important;"><span style="background:linear-gradient(135deg,#a855f7,#8b5cf6);color:#fff;padding:8px 16px;border-radius:20px;font-size:13px;font-weight:600;box-shadow:0 4px 14px rgba(168,85,247,.4);">Ask Misti AI</span><div style="width:52px;height:52px;min-width:52px;background:linear-gradient(135deg,#a855f7,#8b5cf6);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(168,85,247,.4);"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div></a>
+<a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Java%20programming%20for%20kids%20and%20teens!" target="_blank" rel="noopener" aria-label="WhatsApp" style="position:fixed!important;bottom:24px!important;right:24px!important;z-index:2147483645!important;display:flex!important;align-items:center!important;gap:10px!important;text-decoration:none!important;"><span style="background:#25d366;color:#fff;padding:8px 16px;border-radius:20px;font-size:13px;font-weight:600;box-shadow:0 4px 14px rgba(37,211,102,.4);">Chat with us</span><div style="width:52px;height:52px;min-width:52px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(37,211,102,.4);"><svg width="26" height="26" viewBox="0 0 24 24" fill="#fff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></div></a>
+
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script>
+// Track tab switcher
+function switchTrack(track,btn){document.querySelectorAll('.track-panel').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.track-tab').forEach(b=>b.classList.remove('active'));document.getElementById('track-'+track).classList.add('active');btn.classList.add('active');}
+// Smooth scroll
+document.addEventListener("DOMContentLoaded",function(){if(typeof Lenis!=='undefined'){const l=new Lenis({duration:1.2,easing:t=>Math.min(1,1.001-Math.pow(2,-10*t))});function raf(t){l.raf(t);requestAnimationFrame(raf);}requestAnimationFrame(raf);document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const t=this.getAttribute('href');if(t&&t!=='#'){const el=document.querySelector(t);if(el){e.preventDefault();l.scrollTo(el);}}});});}});
+// Canvas BG
+const cv=document.getElementById('bg-canvas'),cx=cv.getContext('2d');let pts=[];
+const syms=['{}','class','OOP','Java','new','int[]','extends','static','void','public','//','import'];
+function rsz(){cv.width=innerWidth;cv.height=innerHeight;}
+function init(){pts=[];const n=Math.floor(cv.width*cv.height/13000);for(let i=0;i<n;i++)pts.push({x:Math.random()*cv.width,y:Math.random()*cv.height,c:syms[Math.floor(Math.random()*syms.length)],s:Math.random()*11+6,sp:Math.random()*.18+.05,o:Math.random()*.05+.01});}
+function draw(){cx.clearRect(0,0,cv.width,cv.height);pts.forEach(p=>{p.y-=p.sp;if(p.y<-20){p.y=cv.height+20;p.x=Math.random()*cv.width;}cx.font=`${p.s}px 'JetBrains Mono',monospace`;cx.fillStyle=`rgba(249,115,22,${p.o})`;cx.fillText(p.c,p.x,p.y);});requestAnimationFrame(draw);}
+window.addEventListener('resize',()=>{rsz();init();});rsz();init();draw();
+// FAQ
+document.querySelectorAll('.faq-item').forEach(item=>{item.querySelector('.faq-q').addEventListener('click',()=>{const open=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>{i.classList.remove('open');i.querySelector('.faq-ans').style.maxHeight='0';i.querySelector('.faq-tog').textContent='+';});if(!open){item.classList.add('open');item.querySelector('.faq-ans').style.maxHeight=item.querySelector('.faq-ans').scrollHeight+'px';item.querySelector('.faq-tog').textContent='−';}});});
+// Section fade
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}});},{threshold:.07,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.section').forEach(s=>{s.style.opacity='0';s.style.transform='translateY(20px)';s.style.transition='opacity .6s ease,transform .6s ease';obs.observe(s);});
+// API
+const API={dev:'http://localhost:5000',prod:'https://backend-modernagecoders.vercel.app',url(){return(location.hostname==='localhost'||location.hostname==='127.0.0.1')?this.dev:this.prod;}};
+const BASE=API.url();
+function vEmail(e){return/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e);}
+function vPhone(p){return/^[0-9]{10}$/.test(p.replace(/\s/g,''));}
+function showE(id,m){const el=document.getElementById(id);if(el){el.textContent=m;el.style.display='block';}}
+function clrE(id){const el=document.getElementById(id);if(el)el.style.display='none';}
+function showFB(type,msg){const fb=document.getElementById('formFeedback');fb.style.display='block';fb.style.background=type==='ok'?'rgba(16,185,129,.12)':'rgba(239,68,68,.12)';fb.style.border=type==='ok'?'1px solid #10b981':'1px solid #ef4444';fb.style.padding='13px 16px';fb.style.borderRadius='10px';fb.style.color=type==='ok'?'#10b981':'#ef4444';fb.querySelector('.fb-msg').textContent=msg;setTimeout(()=>fb.style.display='none',7000);}
+function setLoad(on){const b=document.querySelector('.submit-btn');if(!b)return;b.disabled=on;b.style.opacity=on?'.65':'1';b.querySelector('.btn-txt').style.display=on?'none':'inline';b.querySelector('.btn-load').style.display=on?'inline':'none';}
+document.addEventListener('DOMContentLoaded',()=>{
+  const frm=document.getElementById('javaContactForm');if(!frm)return;
+  document.getElementById('cEmail').addEventListener('blur',function(){if(this.value&&!vEmail(this.value))showE('emailErr','Enter a valid email');else clrE('emailErr');});
+  document.getElementById('cPhone').addEventListener('blur',function(){if(this.value&&!vPhone(this.value))showE('phoneErr','Enter a valid 10-digit number');else clrE('phoneErr');});
+  frm.addEventListener('submit',async e=>{e.preventDefault();clrE('emailErr');clrE('phoneErr');clrE('msgErr');
+    const name=document.getElementById('cName').value.trim();
+    const email=document.getElementById('cEmail').value.trim();
+    const phone=document.getElementById('cPhone').value.trim();
+    const age=document.getElementById('cAge').value;
+    const track=document.getElementById('cTrack').value;
+    const msg=document.getElementById('cMsg').value.trim();
+    let err=false;
+    if(!name){alert('Please enter your name');err=true;}
+    if(!vEmail(email)){showE('emailErr','Enter a valid email');err=true;}
+    if(!vPhone(phone)){showE('phoneErr','Enter a valid 10-digit number');err=true;}
+    if(!age){alert('Please select student age');err=true;}
+    if(msg.length<10){showE('msgErr','Please write at least 10 characters');err=true;}
+    if(err)return;
+    setLoad(true);
+    const full=msg+(age?` | Age: ${age}`:'')+( track?` | Track: ${track}`:'')+' | [Source: Java Programming for Kids & Teens Page]';
+    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFB('ok','Thank you! We will call you within 3 hours to schedule your free Java demo class.');frm.reset();}else throw new Error(d.message);}
+    catch{showFB('err','Something went wrong. Please call 9123366161 or WhatsApp us directly.');}
+    finally{setLoad(false);}
+  });
+  document.getElementById('copyright').innerHTML='&copy;'+new Date().getFullYear()+' Modern Age Coders. All Rights Reserved.';
+});
+</script>
+<script src="/js/callback-modal.js"></script>
+<script src="/js/navigation.js"></script>
+<script>(function(){document.dispatchEvent(new CustomEvent('componentsLoaded'));var c=document.getElementById('copyright');if(c)c.innerHTML='&copy;'+new Date().getFullYear()+' Modern Age Coders. All Rights Reserved.';})();</script>
+
+</main>
+</div>
+</body>
+</html>
