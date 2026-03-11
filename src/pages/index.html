@@ -758,7 +758,40 @@
                     <button class="tab-button" data-target="#coding-teens">Teens</button>
                     <button class="tab-button" data-target="#coding-college">College</button>
                     <button class="tab-button" data-target="#coding-corporate">Corporate</button>
-                    <button class="tab-button" data-target="#coding-girls">Girls only</button>
+                    <style>
+                        .shiny-girls-tab {
+                            background: linear-gradient(90deg, #ff007a, #a855f7, #ff007a) !important;
+                            background-size: 200% auto !important;
+                            color: white !important;
+                            border: none !important;
+                            animation: shineEffect 3s linear infinite !important;
+                            box-shadow: 0 0 15px rgba(255, 0, 122, 0.5) !important;
+                            font-weight: 800 !important;
+                            text-shadow: 0 1px 2px rgba(0,0,0,0.2) !important;
+                            position: relative;
+                            overflow: hidden;
+                        }
+                        
+                        .shiny-girls-tab::before {
+                            content: '';
+                            position: absolute;
+                            top: -50%;
+                            left: -50%;
+                            width: 200%;
+                            height: 200%;
+                            background: radial-gradient(circle, rgba(255,255,255,0.8) 10%, transparent 10.01%);
+                            background-size: 20px 20px;
+                            opacity: 0.1;
+                            transform: rotate(30deg);
+                        }
+
+                        @keyframes shineEffect {
+                            to {
+                                background-position: 200% center;
+                            }
+                        }
+                    </style>
+                    <button class="tab-button shiny-girls-tab" data-target="#coding-girls">✨ Girls Only ✨</button>
                     <div class="tab-glider"></div>
                 </div>
 
@@ -2674,21 +2707,8 @@
                     animation: shimmer 2s infinite linear;
                 }
 
-                @keyframes pulse {
-
-                    0%,
-                    100% {
-                        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-                    }
-
-                    50% {
-                        box-shadow: 0 4px 30px rgba(255, 255, 255, 0.4);
-                    }
-                }
-
-                .pyramid-level {
-                    animation: pulse 3s ease-in-out infinite;
-                }
+                /* pulse animation removed — box-shadow animations are not GPU-
+                   accelerated and caused repaints every frame, contributing to scroll lag */
 
                 .pyramid-level:hover {
                     animation: none;
@@ -4261,12 +4281,25 @@
 
         document.addEventListener('DOMContentLoaded', function () {
             // --- Enhanced Animated Background Canvas Script ---
+            // PERF FIX: Canvas animation now pauses when scrolled off-screen
             const canvas = document.getElementById('background-canvas');
             const ctx = canvas.getContext('2d');
             let particles = [];
+            let canvasVisible = true;
+            let animationRunning = false;
             const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
             const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
             const allSymbols = [...mathSymbols, ...codeSymbols];
+
+            // Observe canvas visibility — stop animation when off-screen
+            const canvasObserver = new IntersectionObserver((entries) => {
+                canvasVisible = entries[0].isIntersecting;
+                if (canvasVisible && !animationRunning) {
+                    animationRunning = true;
+                    animate();
+                }
+            }, { threshold: 0 });
+            canvasObserver.observe(canvas);
 
             function resizeCanvas() {
                 canvas.width = window.innerWidth;
@@ -4292,6 +4325,11 @@
             }
 
             function animate() {
+                if (!canvasVisible) {
+                    animationRunning = false;
+                    return; // Stop the rAF loop when canvas is off-screen
+                }
+
                 ctx.clearRect(0, 0, canvas.width, canvas.height);
 
                 particles.forEach(p => {
@@ -4309,11 +4347,10 @@
                     ctx.rotate(p.rotation);
                     ctx.font = `${p.size}px monospace`;
 
-                    // Create gradient for symbols
                     if (p.isMath) {
-                        ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`; // Gold for math
+                        ctx.fillStyle = `rgba(255, 215, 0, ${p.opacity})`;
                     } else {
-                        ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`; // Purple for code
+                        ctx.fillStyle = `rgba(168, 85, 247, ${p.opacity})`;
                     }
 
                     ctx.fillText(p.char, 0, 0);
@@ -4330,6 +4367,7 @@
 
             resizeCanvas();
             createParticles();
+            animationRunning = true;
             animate();
 
             // --- Mobile Menu Script ---
@@ -4365,8 +4403,9 @@
                 });
             });
 
-            // --- Navbar Scroll Effect with Smooth Transition ---
-            // Wait for navbar to be loaded by components-loader
+            // --- Navbar Scroll Effect with CSS Class Toggle ---
+            // PERF FIX: Uses class toggle instead of setting backdrop-filter in JS.
+            // Passive listener + class toggle = no forced repaints on scroll.
             document.addEventListener('componentsLoaded', function () {
                 const navbar = document.querySelector('.navbar');
                 if (!navbar) {
@@ -4374,23 +4413,17 @@
                     return;
                 }
 
-                let lastScrollTop = 0;
-
+                let ticking = false;
                 window.addEventListener('scroll', () => {
-                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-                    if (scrollTop > 50) {
-                        navbar.style.background = 'rgba(12, 12, 22, 0.95)';
-                        navbar.style.backdropFilter = 'blur(30px)';
-                        navbar.style.boxShadow = '0 10px 40px rgba(0, 0, 0, 0.5)';
-                    } else {
-                        navbar.style.background = 'var(--glass-bg-dark)';
-                        navbar.style.backdropFilter = 'blur(var(--glass-blur))';
-                        navbar.style.boxShadow = 'var(--glass-shadow)';
+                    if (!ticking) {
+                        requestAnimationFrame(() => {
+                            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                            navbar.classList.toggle('navbar-scrolled', scrollTop > 50);
+                            ticking = false;
+                        });
+                        ticking = true;
                     }
-
-                    lastScrollTop = scrollTop;
-                });
+                }, { passive: true });
             });
 
             // --- Intersection Observer for Scroll Animations ---
@@ -5175,46 +5208,9 @@
     }
 </style>
 
-<!-- Lenis Smooth Scrolling -->
-<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        if (typeof Lenis !== 'undefined') {
-            const lenis = new Lenis({
-                duration: 1.2,
-                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-                direction: 'vertical',
-                gestureDirection: 'vertical',
-                smooth: true,
-                mouseMultiplier: 1,
-                smoothTouch: false,
-                touchMultiplier: 2,
-                infinite: false,
-            });
-
-            function raf(time) {
-                lenis.raf(time);
-                requestAnimationFrame(raf);
-            }
-            requestAnimationFrame(raf);
-
-            // Handle smooth scrolling for anchor links using Lenis
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function (e) {
-                    const targetId = this.getAttribute('href');
-                    if (targetId && targetId !== '#') {
-                        const targetElement = document.querySelector(targetId);
-                        if (targetElement) {
-                            e.preventDefault();
-                            lenis.scrollTo(targetElement);
-                        }
-                    }
-                });
-            });
-        }
-    });
-
-</script>
+<!-- PERF FIX: Lenis removed — it ran a second requestAnimationFrame loop
+     every frame, doubling the per-frame JS cost. Native CSS scroll-behavior
+     handles smooth anchor scrolling without any JS overhead. -->
 <!-- END_INLINED_FOOTER -->
 
     <!-- ============================================ -->
@@ -5245,27 +5241,8 @@
         })();
     </script>
 
-    <!-- Components inlined at build time -->
-    <script>
-        (function () {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
-
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
+    <!-- PERF FIX: Removed 2 duplicate componentsLoaded scripts that were
+         firing the event 3 times and attaching redundant scroll listeners -->
 </body>
 <!-- test -->
 

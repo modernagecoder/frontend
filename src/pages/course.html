@@ -1967,9 +1967,89 @@
     </script>
 
     <!-- ============================================ -->
+    <!-- BACKGROUND CANVAS PARTICLE ANIMATION         -->
+    <!-- Optimized: pauses when scrolled off-screen   -->
+    <!-- ============================================ -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const canvas = document.getElementById('background-canvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            let canvasVisible = true;
+            let animationRunning = false;
+            const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
+            const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', 'return', ';', '//'];
+            const allSymbols = [...mathSymbols, ...codeSymbols];
+
+            const canvasObserver = new IntersectionObserver((entries) => {
+                canvasVisible = entries[0].isIntersecting;
+                if (canvasVisible && !animationRunning) {
+                    animationRunning = true;
+                    animate();
+                }
+            }, { threshold: 0 });
+            canvasObserver.observe(canvas);
+
+            function resizeCanvas() {
+                canvas.width = window.innerWidth;
+                canvas.height = window.innerHeight;
+            }
+
+            function createParticles() {
+                particles = [];
+                const particleCount = Math.floor((canvas.width * canvas.height) / 5000);
+                for (let i = 0; i < particleCount; i++) {
+                    particles.push({
+                        x: Math.random() * canvas.width,
+                        y: Math.random() * canvas.height,
+                        char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
+                        speed: 0.3 + Math.random() * 0.7,
+                        size: 12 + Math.random() * 10,
+                        opacity: 0.1 + Math.random() * 0.3,
+                        rotation: Math.random() * Math.PI * 2,
+                        rotationSpeed: (Math.random() - 0.5) * 0.02,
+                        isMath: Math.random() > 0.5
+                    });
+                }
+            }
+
+            function animate() {
+                if (!canvasVisible) { animationRunning = false; return; }
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                particles.forEach(p => {
+                    p.y -= p.speed;
+                    p.rotation += p.rotationSpeed;
+                    if (p.y < -30) {
+                        p.y = canvas.height + 30;
+                        p.x = Math.random() * canvas.width;
+                        p.char = allSymbols[Math.floor(Math.random() * allSymbols.length)];
+                    }
+                    ctx.save();
+                    ctx.translate(p.x, p.y);
+                    ctx.rotate(p.rotation);
+                    ctx.font = `${p.size}px monospace`;
+                    ctx.fillStyle = p.isMath
+                        ? `rgba(255, 215, 0, ${p.opacity})`
+                        : `rgba(168, 85, 247, ${p.opacity})`;
+                    ctx.fillText(p.char, 0, 0);
+                    ctx.restore();
+                });
+                requestAnimationFrame(animate);
+            }
+
+            window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
+            resizeCanvas();
+            createParticles();
+            animationRunning = true;
+            animate();
+        });
+    </script>
+
+    <!-- ============================================ -->
     <!-- CALLBACK MODAL SCRIPT - Must load first      -->
     <!-- ============================================ -->
-    <!-- <script src="/js/callback-modal.js"></script> -->
+    <script src="/js/callback-modal.js"></script>
 
     <!-- ============================================ -->
     <!-- COMPONENT LOADER SCRIPT                      -->
@@ -1994,16 +2074,7 @@
         })();
     </script>
 
-    <!-- Components inlined at build time -->
-    <script>
-        (function() {
-            // Fire componentsLoaded event for backward compatibility
-            document.dispatchEvent(new CustomEvent('componentsLoaded'));
-            // Set copyright year
-            var c = document.getElementById('copyright');
-            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
-        })();
-    </script>
+    <!-- PERF FIX: Removed duplicate componentsLoaded script -->
 </body>
 
 </html>

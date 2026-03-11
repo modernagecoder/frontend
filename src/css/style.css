@@ -537,6 +537,10 @@ body::before,
     -moz-box-shadow: 0 12px 35px var(--ai-glow-color);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .card,
 .course-card,
 .feature-card,
@@ -1082,6 +1086,15 @@ nav {
 
 .navbar:hover {
     box-shadow: 0 12px 40px rgba(168, 85, 247, 0.2);
+}
+
+/* PERF FIX: Class toggled by JS on scroll instead of setting
+   backdrop-filter directly in the scroll handler */
+.navbar-scrolled {
+    background: rgba(12, 12, 22, 0.95) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5) !important;
 }
 
 .nav-container {
