@@ -6,7 +6,7 @@
 - https://learn.modernagecoders.com/blog/armstrong-number-python-complete-guide-examples-code
 - https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner-advanced
 - https://learn.modernagecoders.com/blog/best-free-paid-coding-courses-students
-- https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2025
+- https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2026
 - https://learn.modernagecoders.com/blog/career-transition-guide-moving-non-tech-to-tech-roles
 - https://learn.modernagecoders.com/blog/cbse-icse-gap-what-schools-not-teaching-about-tech
 - https://learn.modernagecoders.com/blog/cloud-computing-explained-business-owners-without-tech-jargon

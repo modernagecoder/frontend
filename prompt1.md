@@ -25,7 +25,7 @@ https://learn.modernagecoders.com/blog/best-coding-languages-kids-10-18-beginner
 https://learn.modernagecoders.com/blog/coding-for-kids-parents-complete-guide-2026/
 https://learn.modernagecoders.com/blog/why-every-teen-should-learn-coding/
 https://learn.modernagecoders.com/blog/python-for-beginners/
-https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2025/
+https://learn.modernagecoders.com/blog/best-programming-languages-college-students-2026/
 https://learn.modernagecoders.com/blog/parents-guide-starting-coding-education-home/
 https://learn.modernagecoders.com/blog/role-of-mathematics-programming-logical-problem-solving/
 https://learn.modernagecoders.com/blog/custom-software-vs-ready-made-software/

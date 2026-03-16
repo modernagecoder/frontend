@@ -1,34 +1,44 @@
-https://learn.modernagecoders.com/blog/python-for-beginners
-Jan 23, 2026
-https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college
-Jan 22, 2026
-https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college
-Jan 22, 2026
-https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens
-Jan 22, 2026
-https://learn.modernagecoders.com/courses/mysql-mastery-for-teens
-Jan 18, 2026
-https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college
-Jan 16, 2026
-https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college
-Jan 15, 2026
-https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens
-Jan 13, 2026
-https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college
-Jan 13, 2026
-https://learn.modernagecoders.com/blog/how-college-students-build-real-world-projects-while-studying
-Jan 13, 2026
+https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery
+https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college
+https://learn.modernagecoders.com/blog/coding-for-kids-guide
+https://learn.modernagecoders.com/blog/coding-is-the-new-english-why-2026-is-the-year-to-start
+https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids
+https://learn.modernagecoders.com/blog/why-early-exposure-coding-gives-students-competitive-advantage
+https://learn.modernagecoders.com/blog/competitive-coding-vs-development-skills-what-students-focus
+https://learn.modernagecoders.com/blog/working-professionals-upskill-coding-without-quitting-job
+https://learn.modernagecoders.com/blog/ai-automation-transforming-small-medium-businesses
+https://learn.modernagecoders.com/blog/parents-guide-starting-coding-education-home
+https://learn.modernagecoders.com/blog/common-myths-about-coding-for-school-students
+https://learn.modernagecoders.com/blog/outsourcing-software-development-vs-hiring-inhouse-developers
+https://learn.modernagecoders.com/blog/top-emerging-tech-skills-learn-2025-ai-low-code-cloud
+https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional
+https://learn.modernagecoders.com/blog/data-analytics-math-help-businesses-better-decisions
+https://learn.modernagecoders.com/blog/custom-software-vs-ready-made-software
+https://learn.modernagecoders.com/blog/what-is-ai-complete-beginners-guide-how-to-start
+https://learn.modernagecoders.com/blog/javascript-basics
+https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass
+https://learn.modernagecoders.com/blog/project-based-learning-why-theory-alone-not-enough-coding
+https://learn.modernagecoders.com/blog/mobile-apps-increase-customer-engagement-businesses
+https://learn.modernagecoders.com/blog/why-every-teen-should-learn-coding
+https://learn.modernagecoders.com/blog/how-coding-improves-mathematical-thinking-children
 https://learn.modernagecoders.com/blog/data-science-ai-math-skills-professionals
-Jan 13, 2026
+https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college
+https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens
+https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass
+https://learn.modernagecoders.com/blog/python-for-beginners
+https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college
+https://learn.modernagecoders.com/courses/creative-coding-animation-mastery
+https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery
+https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college
+https://learn.modernagecoders.com/courses/mysql-mastery-for-teens
 https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college
-Dec 1, 2025
+https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college
+https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens
+https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens
+https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college
+https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college
 https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
-
-Nov 26, 2025
-https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery
-Nov 23, 2025
+https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
 https://learn.modernagecoders.com/courses/canva-ai-design-masterclass
-Nov 23, 2025
 https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery
-Nov 22, 2025
 https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college
