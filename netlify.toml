@@ -218,60 +218,90 @@
   to = "/content/blog/generated/index.html"
   status = 200
 
-# Category pages - redirect .html to clean URLs
+# Category pages - 301 redirects to new /levels/ canonical URLs
 [[redirects]]
   from = "/category/kids.html"
-  to = "/category/kids"
+  to = "/levels/coding-for-kids"
   status = 301
   force = true
 
 [[redirects]]
   from = "/category/teens.html"
-  to = "/category/teens"
+  to = "/levels/coding-for-teens"
   status = 301
   force = true
 
 [[redirects]]
   from = "/category/college.html"
-  to = "/category/college"
+  to = "/levels/coding-for-college-students"
   status = 301
   force = true
 
 [[redirects]]
   from = "/category/professionals.html"
-  to = "/category/professionals"
+  to = "/levels/coding-for-professionals"
   status = 301
   force = true
 
 [[redirects]]
   from = "/category/corporate.html"
-  to = "/category/corporate"
+  to = "/levels/corporate-training"
   status = 301
   force = true
 
-# Category pages - clean URL rewrites
 [[redirects]]
   from = "/category/kids"
+  to = "/levels/coding-for-kids"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/teens"
+  to = "/levels/coding-for-teens"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/college"
+  to = "/levels/coding-for-college-students"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/professionals"
+  to = "/levels/coding-for-professionals"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/category/corporate"
+  to = "/levels/corporate-training"
+  status = 301
+  force = true
+
+# Levels pages - clean URL rewrites (canonical, SEO-friendly)
+[[redirects]]
+  from = "/levels/coding-for-kids"
   to = "/src/pages/category/kids.html"
   status = 200
 
 [[redirects]]
-  from = "/category/teens"
+  from = "/levels/coding-for-teens"
   to = "/src/pages/category/teens.html"
   status = 200
 
 [[redirects]]
-  from = "/category/college"
+  from = "/levels/coding-for-college-students"
   to = "/src/pages/category/college.html"
   status = 200
 
 [[redirects]]
-  from = "/category/professionals"
+  from = "/levels/coding-for-professionals"
   to = "/src/pages/category/professionals.html"
   status = 200
 
 [[redirects]]
-  from = "/category/corporate"
+  from = "/levels/corporate-training"
   to = "/src/pages/category/corporate.html"
   status = 200
 
@@ -445,25 +475,25 @@
 
 [[redirects]]
   from = "/courses/college"
-  to = "/category/college"
+  to = "/levels/coding-for-college-students"
   status = 301
   force = true
 
 [[redirects]]
   from = "/courses/teens"
-  to = "/category/teens"
+  to = "/levels/coding-for-teens"
   status = 301
   force = true
 
 [[redirects]]
   from = "/courses/kids"
-  to = "/category/kids"
+  to = "/levels/coding-for-kids"
   status = 301
   force = true
 
 [[redirects]]
   from = "/courses/girls-coding"
-  to = "/category/kids"
+  to = "/levels/coding-for-kids"
   status = 301
   force = true
 

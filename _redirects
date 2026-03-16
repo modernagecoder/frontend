@@ -84,21 +84,28 @@
 /coding-challenges /src/pages/coding-challenges.html 200
 /maths-challenges /src/pages/maths-challenges.html 200
 /mistakes-students-make /src/pages/mistakes-students-make.html 200
-/corporate-training /src/pages/corporate.html 200
+/corporate-training /levels/corporate-training 301!
 /book-demo /src/pages/book-demo.html 200
 # Category pages - redirect .html to clean URLs
-/category/kids.html /category/kids 301!
-/category/teens.html /category/teens 301!
-/category/college.html /category/college 301!
-/category/professionals.html /category/professionals 301!
-/category/corporate.html /category/corporate 301!
+/category/kids.html /levels/coding-for-kids 301!
+/category/teens.html /levels/coding-for-teens 301!
+/category/college.html /levels/coding-for-college-students 301!
+/category/professionals.html /levels/coding-for-professionals 301!
+/category/corporate.html /levels/corporate-training 301!
 
-# Category pages - clean URL rewrites
-/category/kids /src/pages/category/kids.html 200
-/category/teens /src/pages/category/teens.html 200
-/category/college /src/pages/category/college.html 200
-/category/professionals /src/pages/category/professionals.html 200
-/category/corporate /src/pages/category/corporate.html 200
+# Category pages - 301 redirects to new /levels/ URLs
+/category/kids /levels/coding-for-kids 301!
+/category/teens /levels/coding-for-teens 301!
+/category/college /levels/coding-for-college-students 301!
+/category/professionals /levels/coding-for-professionals 301!
+/category/corporate /levels/corporate-training 301!
+
+# Levels pages - clean URL rewrites (canonical URLs)
+/levels/coding-for-kids /src/pages/category/kids.html 200
+/levels/coding-for-teens /src/pages/category/teens.html 200
+/levels/coding-for-college-students /src/pages/category/college.html 200
+/levels/coding-for-professionals /src/pages/category/professionals.html 200
+/levels/corporate-training /src/pages/category/corporate.html 200
 
 # Course category pages (must come before individual courses)
 /courses/coding/* /src/pages/course.html 200
@@ -140,10 +147,10 @@
 /courses/kids-web-design /courses/kids-ai-web-development-course 301!
 
 # Redirect wrong category structures
-/courses/college /category/college 301!
-/courses/teens /category/teens 301!
-/courses/kids /category/kids 301!
-/courses/girls-coding /category/kids 301!
+/courses/college /levels/coding-for-college-students 301!
+/courses/teens /levels/coding-for-teens 301!
+/courses/kids /levels/coding-for-kids 301!
+/courses/girls-coding /levels/coding-for-kids 301!
 
 # Catch singular typos and missing blog
 /course /courses 301!

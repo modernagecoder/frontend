@@ -307,37 +307,37 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Category Pages -->
+  <!-- Levels Pages (audience-specific landing pages) -->
   <url>
-    <loc>https://learn.modernagecoders.com/category/college</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-kids</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/corporate</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-teens</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/kids</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-college-students</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/professionals</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-professionals</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-  
+
   <url>
-    <loc>https://learn.modernagecoders.com/category/teens</loc>
+    <loc>https://learn.modernagecoders.com/levels/corporate-training</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
