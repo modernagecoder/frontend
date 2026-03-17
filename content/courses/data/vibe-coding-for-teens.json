@@ -1,0 +1,510 @@
+{
+  "meta": {
+    "slug": "vibe-coding-for-teens-python-web-ai-projects-course",
+    "title": "Vibe Coding for Teens — Python, Web Dev & AI Projects (Ages 13–17)",
+    "description": "The best vibe coding course for teenagers aged 13–17. Learn Python, HTML/CSS/JavaScript, AI projects, and real-world app development in an exciting 3-month program. Build a full portfolio and launch your tech career with Modern Age Coders.",
+    "keywords": [
+      "vibe coding for teens",
+      "coding course for teenagers India",
+      "Python for teens",
+      "web development for teenagers",
+      "AI projects for teens",
+      "learn JavaScript for teens",
+      "teen coding bootcamp",
+      "best online coding course for teenagers",
+      "coding for 13 to 17 year olds",
+      "project-based coding for teens",
+      "teen programmer course",
+      "vibe coding intermediate",
+      "HTML CSS for teens",
+      "teen app development course",
+      "Cursor IDE for teens",
+      "GitHub Copilot for students",
+      "v0.dev for teens",
+      "Bolt.new for teens",
+      "Lovable AI app builder teens",
+      "vibe coding tools for teenagers",
+      "AI coding for teens 2026",
+      "Modern Age Coders teens"
+    ],
+    "category": "Teen Coding & Web Development",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹44,999 (one-time)"
+    },
+    "duration": "3 months (12 weeks)",
+    "level": "Beginner to Intermediate (Ages 13–17)",
+    "commitment": "6–8 hours/week",
+    "certification": "Vibe Coder — Teens Level Certification",
+    "image_path": "vibe-coding-teens.webp",
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding accessible, creative, and career-ready for teens.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-03-01",
+    "dateModified": "2026-03-17",
+    "tags": [
+      "Vibe Coding",
+      "Teens",
+      "Python",
+      "JavaScript",
+      "Cursor IDE",
+      "GitHub Copilot",
+      "v0.dev",
+      "Bolt.new",
+      "Lovable",
+      "Web Development",
+      "AI Projects",
+      "Prompt Engineering",
+      "Portfolio Building"
+    ],
+    "featured": true
+  },
+  "program_overview": {
+    "title": "Vibe Coding for Teens — Code Real Projects, Build Real Skills",
+    "tagline": "Stop Scrolling. Start Building. Your Code. Your World.",
+    "description": "Vibe Coding for Teens is the definitive 3-month coding program for ages 13–17 who want to go from beginner (or block-coding graduate) to building actual websites, Python apps, and AI-powered projects using the most cutting-edge tools in tech.\n\n'Vibe Coding' — coined by AI pioneer Andrej Karpathy in 2025 (Collins Dictionary Word of the Year!) — means building software by describing what you want in natural language and letting AI generate the code. But here's the secret the pros know: the best vibe coders are also great traditional coders. That's why this course teaches you BOTH — you'll learn Python and JavaScript fundamentals AND master AI-powered development tools like Cursor IDE, GitHub Copilot, v0.dev, Bolt.new, and Lovable.\n\nAt Modern Age Coders, we've designed this curriculum around what teens actually want to build: apps that solve real problems, games they can share with friends, websites that look professional, and AI tools that feel like the future. You'll use the same tools that professional developers use every day — not toy platforms. Graduate with a portfolio of 12+ real projects that proves you can code — with AND without AI assistance.",
+    "what_makes_this_different": [
+      "Real languages: Python and JavaScript — not toy platforms",
+      "Real vibe coding tools: Cursor IDE, GitHub Copilot, v0.dev, Bolt.new, Lovable",
+      "Learn BOTH ways: traditional coding fundamentals + AI-assisted vibe coding",
+      "Project-first approach — you build something real every single week",
+      "Portfolio focus — graduate with 12+ projects for college/job applications",
+      "Industry-relevant tools: Cursor, VS Code, Git, GitHub, APIs",
+      "AI-integrated projects — use and build AI tools",
+      "Prompt engineering — learn to communicate with AI effectively",
+      "Peer coding sessions — collaborate like real dev teams",
+      "1-on-1 code reviews with expert instructors",
+      "Access to the Modern Age Coders teen developer community",
+      "Hackathon preparation and coding competitions support"
+    ],
+    "learning_path": {
+      "phase_1": "Python Vibes (Weeks 1–4): Python fundamentals with GitHub Copilot, functions, games, and automation scripts",
+      "phase_2": "Web Dev Vibes (Weeks 5–8): HTML, CSS, JavaScript + vibe coding with v0.dev and Bolt.new — build responsive websites and web apps",
+      "phase_3": "AI & Vibe Coding Mastery (Weeks 9–12): Cursor IDE, AI-powered development, Lovable for app building, final portfolio, deployment & showcase"
+    },
+    "skills_gained": [
+      "Python Programming (variables, loops, functions, OOP basics)",
+      "Web Development: HTML5, CSS3, Responsive Design",
+      "JavaScript: DOM manipulation, events, interactive pages",
+      "Vibe Coding with AI Tools: Cursor, GitHub Copilot, v0.dev, Bolt.new, Lovable",
+      "Prompt Engineering — writing effective AI prompts for code generation",
+      "AI Code Review — reading and understanding AI-generated code",
+      "Working with APIs — fetching real-world data",
+      "Git & GitHub — version control like a professional",
+      "AI & Machine Learning basics with Python libraries",
+      "Command Line & Developer Environment Setup",
+      "Problem Solving & Algorithmic Thinking",
+      "UI/UX Design Principles for Teen Developers",
+      "Project Documentation & Technical Communication"
+    ],
+    "career_outcomes": [
+      "Junior Web Developer",
+      "Python Developer Intern",
+      "Tech Entrepreneur / App Creator",
+      "Competitive Programmer (ICPC, CodeChef, HackerRank)",
+      "Ready for Vibe Coding for College / Full Stack programs"
+    ],
+    "tools_platforms": [
+      "Python 3.x",
+      "Cursor IDE (AI-Powered Code Editor — the #1 vibe coding IDE)",
+      "GitHub Copilot (Free for Students — AI pair programmer)",
+      "v0.dev (AI React/Next.js Component Generator by Vercel)",
+      "Bolt.new (AI App Builder — Instant Preview)",
+      "Lovable (AI Full-Stack App Builder — Clean React Code)",
+      "Visual Studio Code",
+      "HTML5 & CSS3",
+      "JavaScript (Vanilla + ES6+)",
+      "Git & GitHub",
+      "Google Gemini API / Claude API",
+      "Replit (collaborative coding + AI Agent)",
+      "Figma (design basics)",
+      "Netlify / Vercel / GitHub Pages (deployment)",
+      "Postman (API testing)"
+    ],
+    "prerequisites": "Basic understanding of what coding is. Completing Vibe Coding for Kids is ideal but NOT required. Anyone aged 13–17 with curiosity and a laptop can join!"
+  },
+  "phase_1_python": {
+    "title": "PHASE 1: Python Vibes — Think Like a Developer (Weeks 1–4)",
+    "description": "Teens dive deep into Python — the world's most popular and versatile programming language. From variables and loops to building actual games and automation tools, Phase 1 transforms a complete beginner into a confident Python programmer.",
+    "week_1": {
+      "title": "Week 1: Python Unlocked — Your Developer Setup & First Programs",
+      "theme": "Getting Started with Real Coding",
+      "topics": [
+        "Why Python? The language of AI, data, and the web",
+        "What is Vibe Coding? — Andrej Karpathy's 2025 concept that changed software forever",
+        "The vibe coding workflow: Describe → AI Generates → You Review → Iterate → Ship",
+        "Setting up VS Code & Cursor IDE — your professional AI-powered developer environment",
+        "Setting up GitHub Copilot (free for students!) — your AI pair programmer",
+        "Python basics: print(), variables, strings, integers, floats",
+        "String manipulation — slicing, formatting, f-strings",
+        "Getting user input with input() function",
+        "Basic arithmetic and math operations in Python",
+        "Boolean logic: True, False, and comparisons",
+        "Your first command-line programs",
+        "Understanding error messages — the developer's best friend",
+        "Running Python files from the terminal",
+        "Introduction to Git — saving your code like a pro",
+        "Creating your GitHub profile and first repository"
+      ],
+      "projects": [
+        "Personal Bio Generator — asks 5 questions and prints a formatted story about you",
+        "Simple Calculator — performs all 4 operations with user input",
+        "Mad Libs Creator — fill-in-the-blank story generator"
+      ],
+      "vibe_challenge": "Build a 'Vibe Name Generator' that creates a cool coder alias from your real name",
+      "tools_used": ["Cursor IDE", "VS Code", "GitHub Copilot", "Python 3.x", "Git", "Terminal/Command Prompt"]
+    },
+    "week_2": {
+      "title": "Week 2: Flow Control — Making Smart Programs",
+      "theme": "Conditionals, Loops & Logic",
+      "topics": [
+        "If, elif, else — decision-making in code",
+        "Nested conditionals for complex logic",
+        "While loops — repeating until a condition is met",
+        "For loops — iterating over sequences",
+        "Range() function — generating number sequences",
+        "Loop control: break, continue, pass",
+        "Lists — storing multiple values in one variable",
+        "List methods: append, remove, sort, reverse, index",
+        "Tuples and when to use them",
+        "String loops — processing text character by character",
+        "Nested loops for patterns and grids",
+        "Debugging with print() statements and VS Code debugger"
+      ],
+      "projects": [
+        "Number Guessing Game — with hints, attempts counter, and high score",
+        "Times Table Generator — print any multiplication table on demand",
+        "Password Strength Checker — analyses a password and gives a strength rating"
+      ],
+      "vibe_challenge": "Build a simple text-based 'Choose Your Own Adventure' story with multiple paths",
+      "tools_used": ["VS Code", "Python 3.x", "GitHub"]
+    },
+    "week_3": {
+      "title": "Week 3: Functions & Modules — Writing Clean, Reusable Code",
+      "theme": "Functions, Modules & Pythonic Code",
+      "topics": [
+        "Defining functions with def keyword",
+        "Parameters and arguments — passing data to functions",
+        "Return values — getting data back from functions",
+        "Default parameters and keyword arguments",
+        "Scope: local vs. global variables",
+        "Importing Python's built-in modules: math, random, datetime, os",
+        "The random module — creating unpredictable programs",
+        "Working with the datetime module for time-based features",
+        "Writing your own modules and importing them",
+        "Docstrings — documenting your functions properly",
+        "Lambda functions — quick, anonymous functions",
+        "Recursion basics — functions that call themselves"
+      ],
+      "projects": [
+        "Dice Rolling Simulator — roll any number of sides, track statistics",
+        "Tip Calculator — restaurant bill splitter with formatted output",
+        "Word Counter — analyses a paragraph for word count, unique words, and top 5 most used"
+      ],
+      "vibe_challenge": "Build a 'Daily Quote Generator' that gives you a random motivational quote each run",
+      "tools_used": ["VS Code", "Python modules: random, math, datetime", "GitHub"]
+    },
+    "week_4": {
+      "title": "Week 4: Data Structures & File Handling — Real Persistent Apps",
+      "theme": "Dictionaries, Files & Data Persistence",
+      "topics": [
+        "Dictionaries — key-value pairs for structured data",
+        "Dictionary methods: get, keys, values, items, update",
+        "Nested dictionaries — representing complex real-world data",
+        "Sets — unique collections and set operations",
+        "List comprehensions — Pythonic one-line transformations",
+        "Dictionary comprehensions",
+        "Reading and writing text files with open()",
+        "File modes: r, w, a, r+ explained",
+        "Working with CSV files — reading datasets",
+        "JSON files in Python — the language of the web",
+        "Error handling with try, except, finally",
+        "Building a simple contact book — CRUD operations"
+      ],
+      "projects": [
+        "Contact Manager — add, search, update, delete contacts saved to a file",
+        "Student Grade Tracker — stores grades in JSON and calculates averages",
+        "Vocabulary Flash Card App — add words, quiz yourself, track score"
+      ],
+      "capstone": "PHASE 1 CAPSTONE — Python Project: Build a fully functional command-line application of your choice. Must include: 3+ functions, data storage (file or JSON), input validation, and error handling. Present your app + explain the code.",
+      "vibe_challenge": "Build a 'Personal Journal' app that logs dated entries to a file and lets you search past entries"
+    }
+  },
+  "phase_2_web_dev": {
+    "title": "PHASE 2: Web Dev Vibes — Build the Internet (Weeks 5–8)",
+    "description": "Now teens build things the whole world can see. Phase 2 covers HTML, CSS, and JavaScript — the core technologies of every website on the internet. By Week 8, students will have built fully responsive, beautifully designed websites deployed live on the internet.",
+    "week_5": {
+      "title": "Week 5: HTML — Structure is Everything",
+      "theme": "HTML5 & Semantic Web",
+      "topics": [
+        "How the web works — browsers, servers, HTTP basics",
+        "HTML document structure: DOCTYPE, html, head, body",
+        "Semantic HTML: header, nav, main, section, article, footer",
+        "Text elements: h1-h6, p, strong, em, blockquote",
+        "Links and navigation: anchor tags, href, relative vs. absolute URLs",
+        "Images: img tag, alt text for accessibility and SEO",
+        "Lists: ordered, unordered, nested lists",
+        "Tables — displaying structured data",
+        "HTML Forms: input types, labels, buttons, textareas",
+        "HTML attributes: id, class, style",
+        "Accessibility basics: ARIA roles, alt text, heading hierarchy",
+        "Vibe Coding HTML: using v0.dev to generate page layouts from descriptions",
+        "Comparing hand-written HTML vs AI-generated HTML — understanding what AI creates",
+        "Validating your HTML with W3C Validator"
+      ],
+      "projects": [
+        "Personal Portfolio Page v1 — bio, skills, and contact section in pure HTML",
+        "Recipe Website — multi-page site with ingredients and instructions",
+        "Event Landing Page — HTML structure for a fictional school event"
+      ],
+      "vibe_challenge": "Build an HTML tribute page to your favourite tech innovator",
+      "tools_used": ["VS Code", "Live Server extension", "Chrome DevTools", "W3C Validator"]
+    },
+    "week_6": {
+      "title": "Week 6: CSS — Make It Look Amazing",
+      "theme": "CSS3 & Responsive Design",
+      "topics": [
+        "CSS syntax: selectors, properties, values",
+        "The Box Model: margin, padding, border, content",
+        "CSS colours: hex, RGB, HSL, and CSS variables",
+        "Typography: fonts, Google Fonts integration, font-size, line-height",
+        "CSS Flexbox — modern, powerful layout system",
+        "CSS Grid — two-dimensional layout mastery",
+        "Responsive design with Media Queries",
+        "Mobile-first design principles",
+        "CSS animations and transitions",
+        "Pseudo-classes: hover, focus, active, nth-child",
+        "CSS custom properties (variables) for design systems",
+        "Dark mode implementation with CSS",
+        "Vibe Coding CSS: using v0.dev and Bolt.new to generate beautiful UI components from text prompts",
+        "Reading AI-generated Tailwind CSS — understanding utility-first styling"
+      ],
+      "projects": [
+        "Fully Styled Portfolio — transform Week 5's HTML into a beautiful, responsive portfolio",
+        "Product Card Component — an Instagram-worthy card with hover effects",
+        "Responsive Navigation Bar — a professional nav that collapses on mobile"
+      ],
+      "vibe_challenge": "Create a 'Glassmorphism' card UI that looks straight out of 2026",
+      "tools_used": ["VS Code", "Chrome DevTools", "Google Fonts", "CSS Grid/Flexbox"]
+    },
+    "week_7": {
+      "title": "Week 7: JavaScript — Bring Your Website to Life",
+      "theme": "JavaScript & DOM Manipulation",
+      "topics": [
+        "What is JavaScript and why it makes the web interactive",
+        "JS basics: variables (let, const), data types, operators",
+        "Functions in JavaScript — declarations, expressions, arrow functions",
+        "Arrays and array methods: map, filter, reduce, forEach",
+        "Objects in JavaScript — structuring real-world data",
+        "The DOM — Document Object Model explained simply",
+        "Selecting elements: getElementById, querySelector",
+        "Changing content and styles with JavaScript",
+        "Event listeners: click, mouseover, input, submit",
+        "Form validation with JavaScript",
+        "Fetch basics — getting data from the internet",
+        "Local Storage — persisting data in the browser"
+      ],
+      "projects": [
+        "Interactive To-Do App — add, complete, and delete tasks (persists with LocalStorage)",
+        "Quiz App — 10-question quiz with timer, score, and results screen",
+        "Real-time Character Counter — live word/character counts as you type"
+      ],
+      "vibe_challenge": "Build a 'Vibe Mood Board Generator' — click a mood to change the entire page colour scheme and quote",
+      "tools_used": ["VS Code", "Chrome DevTools Console", "JavaScript ES6+", "LocalStorage API"]
+    },
+    "week_8": {
+      "title": "Week 8: APIs & Full Web Projects — Connect to the Real World",
+      "theme": "REST APIs & Complete Web Applications",
+      "topics": [
+        "What is an API? REST APIs explained with real examples",
+        "Fetch API — making HTTP GET requests in JavaScript",
+        "Async/await — handling asynchronous operations cleanly",
+        "JSON parsing — working with API response data",
+        "Error handling in fetch requests",
+        "Public APIs: Weather, Quotes, Space, Pokemon, SpaceX",
+        "Displaying API data dynamically in your webpage",
+        "API keys — working with authenticated APIs safely",
+        "Introduction to the OpenWeather API",
+        "Deploying your website with Netlify — live in 60 seconds",
+        "Custom domain basics",
+        "Vibe Coding a full web app: using Bolt.new to build and deploy a project in minutes",
+        "Comparing your hand-coded projects vs vibe-coded projects — understanding the trade-offs",
+        "Phase 2 portfolio review — making your projects job-ready"
+      ],
+      "projects": [
+        "Live Weather App — fetch real weather data for any city using OpenWeather API",
+        "Random Quote Machine — fetches and displays random motivational quotes",
+        "Space Explorer — displays real NASA photo of the day with Astronomy API"
+      ],
+      "capstone": "PHASE 2 CAPSTONE — Web Application: Build and deploy a fully functional, responsive web app that connects to at least one real API. Must be live online. Present the live URL, explain your code, and demo the features.",
+      "vibe_challenge": "Add a 'share on Twitter' button to your capstone project",
+      "tools_used": ["Fetch API", "OpenWeather API", "NASA API", "Netlify", "GitHub Pages"]
+    }
+  },
+  "phase_3_ai_portfolio": {
+    "title": "PHASE 3: AI & Vibe Coding Mastery — Build Your Future (Weeks 9–12)",
+    "description": "The most exciting phase — teens master real vibe coding tools (Cursor IDE, Lovable, Claude/Gemini APIs), combine Python + Web skills to build AI-powered projects, set up their professional developer portfolio, and prepare for real-world opportunities: internships, hackathons, and competitive coding. This is where you become a true vibe coder — someone who can build anything by combining traditional coding skills with AI-powered development.",
+    "week_9": {
+      "title": "Week 9: AI Tools & Vibe Coding Mastery — Build with AI Like a Pro",
+      "theme": "AI APIs + Professional Vibe Coding Tools",
+      "topics": [
+        "Introduction to AI APIs — using AI as a superpower",
+        "Working with the Google Gemini API (or Claude API) — setup and authentication",
+        "Chat Completion API — building a simple AI chatbot",
+        "System prompts — guiding AI behaviour for your use case",
+        "Deep dive into Cursor IDE — the #1 AI-powered code editor for vibe coding",
+        "Cursor Composer: describe a feature in English → Cursor writes the code across multiple files",
+        "Cursor Tab: AI auto-completes your code as you type",
+        "GitHub Copilot Chat — asking your AI pair programmer questions about your code",
+        "Prompt engineering for code: writing clear, specific prompts that get better results",
+        "AI for text: summarization, sentiment analysis, translation",
+        "Image generation API basics (DALL-E / Stable Diffusion)",
+        "Comparing AI models: Claude Sonnet (best for code), GPT-4, Gemini — which to use when",
+        "AI ethics for teen developers — bias, transparency, and responsibility"
+      ],
+      "projects": [
+        "AI Study Buddy — paste any topic, get an explanation in simple language (Python + Gemini API)",
+        "Mood Journal Analyser — enter your journal entry, AI analyses the mood and gives advice",
+        "Vibe-Coded AI App — use Cursor Composer to build an entire AI tool from a single description"
+      ],
+      "vibe_challenge": "Build an AI tool that solves a real problem you personally face every day — using Cursor IDE",
+      "tools_used": ["Python", "Cursor IDE", "GitHub Copilot", "Google Gemini API / Claude API", "Postman"]
+    },
+    "week_10": {
+      "title": "Week 10: Vibe Coding Full Apps — Lovable, Bolt.new & Full Stack",
+      "theme": "AI App Builders + Flask Backend Fundamentals",
+      "topics": [
+        "Lovable — the AI app builder that generates clean React code from conversation",
+        "Building a complete web app with Lovable: describe features → AI codes → you iterate",
+        "Bolt.new deep dive — building and deploying apps entirely through AI prompts",
+        "When to vibe code vs. hand code — understanding the trade-offs and limitations",
+        "Introduction to Flask — Python for the web (understanding what AI builds for you)",
+        "Setting up a Flask app — routes and views",
+        "Connecting your AI Python code to a web frontend",
+        "Building a simple AI web app — Python backend + HTML frontend",
+        "Environment variables and .env files — keeping API keys safe",
+        "Introduction to databases: SQLite with Python basics",
+        "Deploying your apps: Replit, Vercel, Netlify, Render (free tier)",
+        "Security basics: why vibe-coded apps need human review before going live",
+        "Planning your capstone project — choosing between vibe-coded or hand-coded"
+      ],
+      "projects": [
+        "Lovable App — build a complete app by chatting with AI (e.g., habit tracker, expense tracker)",
+        "AI Chatbot Web App — a proper web interface for your Week 9 AI chatbot using Flask",
+        "Bolt.new Speed Build — go from idea to deployed app in under 30 minutes"
+      ],
+      "vibe_challenge": "Build and deploy a complete app using ONLY Lovable — no hand-written code!",
+      "tools_used": ["Lovable", "Bolt.new", "Flask", "SQLite", "Cursor IDE", "Replit", "Vercel"]
+    },
+    "week_11": {
+      "title": "Week 11: Developer Portfolio & Professional Presence",
+      "theme": "Portfolio Building & Career Preparation",
+      "topics": [
+        "What is a developer portfolio and why every teen dev needs one",
+        "Structuring your portfolio: projects, about, skills, contact",
+        "Writing project descriptions that impress — STAR format",
+        "README files on GitHub — making your repos presentable",
+        "Vibe coding your portfolio website: use v0.dev or Lovable to build a stunning portfolio in minutes",
+        "Picking your best 4 projects for the portfolio (mix of hand-coded and vibe-coded)",
+        "GitHub profile optimization — pins, README profile, contributions graph",
+        "LinkedIn basics for teen developers — setting up a professional profile",
+        "Personal branding — your developer identity and niche",
+        "Technical interview basics — what companies actually ask",
+        "Writing a tech resume for internships and college applications",
+        "Open source contribution basics — finding good first issues",
+        "Hackathons: how to find, join, and win at hackathons"
+      ],
+      "projects": [
+        "Professional Developer Portfolio Website — multi-section, deployed, polished and live",
+        "GitHub Profile README — a custom animated profile readme showcasing your skills",
+        "Project README Collection — professional documentation for all 4 key portfolio projects"
+      ],
+      "vibe_challenge": "Contribute a fix or documentation improvement to any open-source project on GitHub",
+      "tools_used": ["v0.dev", "Lovable", "GitHub", "Netlify / Vercel", "LinkedIn", "Figma (portfolio design)", "Markdown"]
+    },
+    "week_12": {
+      "title": "Week 12: Grand Vibe Showcase — Launch Your Career!",
+      "theme": "Final Capstone, Certification & Future Pathways",
+      "topics": [
+        "Final capstone project polish — code review and bug fixes",
+        "Code documentation best practices",
+        "Recording a 3-minute project demo video",
+        "The art of the technical demo — explaining code to non-coders",
+        "Preparing for Q&A — answering questions about your code",
+        "The vibe coding toolkit recap — Cursor, Copilot, v0.dev, Bolt.new, Lovable: when to use each",
+        "Introduction to competitive coding: HackerRank, LeetCode, CodeChef",
+        "What's next? — College applications with a portfolio, internships, freelancing",
+        "Vibe Coding for College preview — MERN, DSA, Machine Learning, Claude Code, Windsurf, and more",
+        "Networking with the Modern Age Coders alumni community",
+        "Receiving the Vibe Coder Teens Certification",
+        "Graduation ceremony and class showcase"
+      ],
+      "projects": [
+        "GRAND CAPSTONE — 'Vibe Project Launch': A complete, full-stack (or AI-powered) web application built using a combination of traditional coding and vibe coding tools (Cursor, Lovable, or Bolt.new). Must be deployed live, documented on GitHub, and presented at the showcase with a 3-minute live demo explaining both what you built AND how you used AI to build it"
+      ],
+      "assessment": "Final Capstone Code Review + Live Demo + Panel Q&A",
+      "certification": "Vibe Coder — Teens Level (Modern Age Coders Certified)"
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is Vibe Coding for Teens?",
+      "answer": "Vibe Coding for Teens is a 3-month, project-first coding program for ages 13–17. 'Vibe Coding' — coined by AI pioneer Andrej Karpathy in 2025 (Collins Dictionary Word of the Year!) — means building software by describing what you want in natural language and letting AI generate the code. Teens learn both traditional coding (Python, HTML/CSS/JavaScript) AND modern vibe coding tools (Cursor IDE, GitHub Copilot, v0.dev, Bolt.new, Lovable). You graduate with 12+ real projects and the ability to build anything — with or without AI assistance."
+    },
+    {
+      "question": "Do I need to have done Vibe Coding for Kids first?",
+      "answer": "No! Vibe Coding for Teens is designed to welcome complete beginners aged 13–17. If you completed Vibe Coding for Kids, you'll find Phase 1 comes very naturally to you and you'll move faster. But anyone with curiosity and a laptop can join from zero."
+    },
+    {
+      "question": "What programming languages and AI tools will I learn?",
+      "answer": "You will learn Python (Phases 1 and 3) and the core web trio — HTML, CSS, and JavaScript (Phase 2). But what makes this course special is the vibe coding tools: Cursor IDE (the #1 AI code editor), GitHub Copilot (free for students!), v0.dev (AI UI generator by Vercel), Bolt.new (AI app builder), and Lovable (builds full-stack React apps from conversation). You'll also learn AI APIs (Gemini / Claude), Git, and GitHub. By the end, you'll know which tool to use for any project."
+    },
+    {
+      "question": "Will I be able to build real websites and apps by the end?",
+      "answer": "Absolutely. By Week 12, you will have built and deployed multiple live websites and web applications that anyone can visit on the internet. You'll also have Python CLI apps, an AI-powered project, and a professional portfolio on GitHub."
+    },
+    {
+      "question": "How much time should I set aside each week?",
+      "answer": "We recommend 6–8 hours per week: 2 live sessions (1.5–2 hours each) plus 3–4 hours of independent project work. The more time you put in, the more impressive your portfolio will be."
+    },
+    {
+      "question": "What tools and software will I need?",
+      "answer": "You need a computer (Windows, Mac, or Linux) and a stable internet connection. All primary tools are free: Cursor IDE (free tier), VS Code, GitHub Copilot (free for students via GitHub Education), Python, Git, v0.dev (free tier), Bolt.new (free tier), Lovable (free tier), and Replit (free tier). We walk through every setup in Week 1. No paid subscriptions are required."
+    },
+    {
+      "question": "Can this help with college applications or internship applications?",
+      "answer": "Yes! A strong developer portfolio with real, deployed projects is an incredible differentiator in college applications (especially for CS/tech programs) and internship applications. Our Week 11 module specifically teaches you how to present your portfolio professionally."
+    },
+    {
+      "question": "What comes after Vibe Coding for Teens?",
+      "answer": "Graduates are ready for Vibe Coding for College — which dives into Data Structures & Algorithms, full MERN stack development, Machine Learning with Python, cloud deployment, professional AI tools (Claude Code, Windsurf), and building production-grade applications with advanced vibe coding and agentic engineering workflows."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Aditya Nair, 16 (Student)",
+      "text": "I went from knowing literally nothing about coding to having 3 deployed websites and a Python AI chatbot in 12 weeks. My friends think I'm a genius now. MAC made the hardest concepts feel easy and fun.",
+      "rating": 5
+    },
+    {
+      "name": "Riya Joshi (Parent of 14-year-old student)",
+      "text": "My daughter was nervous about coding being 'too hard' for her. After completing Vibe Coding for Teens, she applied for a school tech club leadership position — and got it. The confidence this course built is incredible.",
+      "rating": 5
+    },
+    {
+      "name": "Kartik Srivastava, 17 (Student)",
+      "text": "The AI project week blew my mind. I built a chatbot that actually does something useful. I'm putting it on my Class 12 certificate application. This course is the reason I want to study Computer Science.",
+      "rating": 5
+    }
+  ],
+  "relatedCourses": [
+    "vibe-coding-for-kids-beginners-ai-scratch-game-dev",
+    "vibe-coding-for-college-fullstack-ai-career",
+    "python-teens",
+    "frontend-teens",
+    "game-dev-teens"
+  ]
+}

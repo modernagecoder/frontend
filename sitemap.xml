@@ -345,6 +345,25 @@
   
   <!-- All Course Pages -->
   <url>
+    <loc>https://learn.modernagecoders.com/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course</loc>
+    <lastmod>2026-03-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
     <loc>https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>

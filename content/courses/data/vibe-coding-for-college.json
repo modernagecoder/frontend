@@ -1,0 +1,562 @@
+{
+  "meta": {
+    "slug": "vibe-coding-for-college-fullstack-ai-dsa-career-course",
+    "title": "Vibe Coding for College — Full Stack, AI & DSA Career Course (Ages 18+)",
+    "description": "The ultimate vibe coding course for college students aged 18+. Master MERN stack, Data Structures & Algorithms, Machine Learning, system design, and build a production-grade portfolio. Crack tech placements and land top internships with Modern Age Coders.",
+    "keywords": [
+      "vibe coding for college students",
+      "coding course for college India",
+      "full stack web development college",
+      "MERN stack course India",
+      "DSA for placements",
+      "machine learning for college students",
+      "best coding course for engineers India",
+      "placement preparation course India",
+      "JavaScript React for college",
+      "Node.js MongoDB course India",
+      "system design course beginners",
+      "tech internship preparation course",
+      "competitive programming for college",
+      "software engineer interview prep India",
+      "Cursor IDE course India",
+      "Claude Code course",
+      "Windsurf IDE course",
+      "GitHub Copilot college course",
+      "Lovable AI app builder course",
+      "Bolt.new course India",
+      "vibe coding tools for college students",
+      "agentic engineering course 2026",
+      "AI-powered software development course",
+      "Modern Age Coders college"
+    ],
+    "category": "College-Level Software Engineering",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹59,999 (one-time)"
+    },
+    "duration": "3 months (12 weeks)",
+    "level": "Intermediate to Advanced (Ages 18+ / College Students)",
+    "commitment": "10–15 hours/week",
+    "certification": "Vibe Coder — College Level Full Stack & AI Engineer Certification",
+    "image_path": "vibe-coding-college.webp",
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Industry-experienced educators helping college students crack placements and build production-grade software.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-03-01",
+    "dateModified": "2026-03-17",
+    "tags": [
+      "Vibe Coding",
+      "College",
+      "MERN Stack",
+      "Cursor IDE",
+      "Claude Code",
+      "GitHub Copilot",
+      "Lovable",
+      "Bolt.new",
+      "DSA",
+      "Machine Learning",
+      "System Design",
+      "Agentic Engineering",
+      "Placement Preparation",
+      "Internship",
+      "Full Stack"
+    ],
+    "featured": true
+  },
+  "program_overview": {
+    "title": "Vibe Coding for College — Build Production-Grade Software, Crack Placements, Shape Your Career",
+    "tagline": "From Student to Software Engineer — Ship Real Code, Ace Interviews, Land the Offer.",
+    "description": "Vibe Coding for College is the most comprehensive 3-month software engineering program for college students and fresh graduates aged 18+. 'Vibe Coding' — coined by AI pioneer Andrej Karpathy in 2025 — means building software by describing what you want in natural language and letting AI generate the code. In 2026, this has evolved into 'agentic engineering' — orchestrating multiple AI agents to build production-grade software at startup speed.\n\nThis course teaches you both: deep engineering fundamentals AND professional-grade AI development tools. You will master the MERN stack using Cursor IDE (the #1 AI code editor), accelerate development with Claude Code (Anthropic's terminal-based AI engineer), prototype at speed with Lovable and Bolt.new, and ship code with GitHub Copilot as your AI pair programmer. You'll also dive deep into DSA for placements, build ML projects, and learn System Design.\n\nBut here's what separates great vibe coders from prompt-copy-pasters: understanding the code AI generates. That's why we teach you to be a developer FIRST and a vibe coder SECOND — so you can review, debug, secure, and scale what AI builds for you. Studies show 45% of AI-generated code contains security vulnerabilities (OWASP Top 10). We teach you to catch them.\n\nAt Modern Age Coders, we've placed students at top tech companies. Our curriculum is designed by engineers from FAANG-adjacent companies who know exactly what interviews look for and what internships demand of you from day one.",
+    "what_makes_this_different": [
+      "Industry-grade curriculum — same tools used at Google, Amazon, and top startups",
+      "Professional vibe coding tools: Cursor IDE, Claude Code, Windsurf, GitHub Copilot",
+      "AI app builders for rapid prototyping: Lovable, Bolt.new, v0.dev, Replit Agent",
+      "Learn to BUILD with AI AND REVIEW what AI builds — security-aware development",
+      "MERN Stack mastery — the most in-demand full-stack for 2026 hiring",
+      "DSA preparation integrated throughout — not an afterthought",
+      "Machine Learning with Python — scikit-learn, TensorFlow fundamentals",
+      "System Design basics — asked in every senior/product company interview",
+      "Agentic engineering workflows — orchestrating AI agents for multi-step development tasks",
+      "Real project deployment on cloud (AWS EC2 / Render / Vercel)",
+      "Code reviews by industry-experienced mentors (including AI-generated code review)",
+      "Placement preparation: mock interviews, resume reviews, LinkedIn optimization",
+      "Access to Modern Age Coders alumni network of placed students",
+      "Open-source contribution guidance — building a credible GitHub"
+    ],
+    "learning_path": {
+      "phase_1": "MERN Vibes (Weeks 1–4): MongoDB, Express.js, React.js, Node.js — build full-stack apps with Cursor IDE, GitHub Copilot & Claude Code",
+      "phase_2": "DSA & ML Vibes (Weeks 5–8): Data Structures, Algorithms, Python ML, model deployment + vibe coding rapid prototyping with Lovable & Bolt.new",
+      "phase_3": "Career Vibes (Weeks 9–12): System Design, agentic engineering, security for AI-generated code, Capstone, placement prep, professional launch"
+    },
+    "skills_gained": [
+      "MERN Stack: MongoDB, Express.js, React.js, Node.js",
+      "Professional Vibe Coding: Cursor IDE, Claude Code, Windsurf, GitHub Copilot",
+      "AI App Building: Lovable, Bolt.new, v0.dev, Replit Agent — rapid prototyping",
+      "Agentic Engineering: orchestrating AI agents for complex multi-file development",
+      "AI Code Review & Security: identifying vulnerabilities in AI-generated code (OWASP Top 10)",
+      "Prompt Engineering for Code: writing prompts that produce production-quality output",
+      "REST API Design & Development",
+      "User Authentication: JWT, OAuth, bcrypt",
+      "Data Structures: Arrays, Linked Lists, Trees, Graphs, Hash Maps",
+      "Algorithms: Sorting, Searching, Dynamic Programming, Greedy",
+      "Machine Learning: regression, classification, clustering with scikit-learn",
+      "Deep Learning basics: neural networks, TensorFlow/Keras",
+      "Cloud Deployment: AWS EC2, S3, Vercel, Render",
+      "Docker basics and containerization",
+      "System Design: load balancing, caching, databases, microservices concepts",
+      "Git, GitHub, CI/CD pipelines",
+      "Technical Communication & Interview Preparation"
+    ],
+    "career_outcomes": [
+      "Full Stack Web Developer (₹6–18 LPA)",
+      "Frontend Developer — React Specialist (₹7–20 LPA)",
+      "Backend Developer — Node.js/Python (₹8–22 LPA)",
+      "Junior Machine Learning Engineer (₹10–25 LPA)",
+      "Software Development Engineer (SDE) at product companies",
+      "Summer Internships at tech startups and MNCs",
+      "Freelance Full Stack Developer (₹500–2,500/hour)"
+    ],
+    "tools_platforms": [
+      "Cursor IDE (AI-Powered Code Editor — #1 vibe coding IDE, Composer + Agent mode)",
+      "Claude Code (Anthropic's Terminal-Based AI Engineer — codebase-aware, git-integrated)",
+      "Windsurf IDE (AI IDE with Cascade Agent — fastest completions with SWE-1.5 model)",
+      "GitHub Copilot (Free for Students — AI pair programmer, chat + autocomplete)",
+      "Lovable (AI Full-Stack App Builder — generates clean React + Supabase code from chat)",
+      "Bolt.new (AI App Builder — WebContainer-based, instant preview, fastest prototyping)",
+      "v0.dev (AI React/Next.js UI Generator by Vercel — polished component generation)",
+      "Replit Agent (Browser IDE + AI Agent — 30+ integrations, multiplayer, hosting)",
+      "JavaScript (ES6+) & Node.js",
+      "React.js 18+",
+      "Express.js",
+      "MongoDB & Mongoose",
+      "Python 3.x",
+      "scikit-learn, pandas, NumPy, Matplotlib",
+      "TensorFlow / Keras",
+      "Git & GitHub",
+      "Postman & Thunder Client",
+      "Docker (basics)",
+      "AWS EC2, S3 (basics) / Render / Vercel",
+      "Figma (UI design reference)"
+    ],
+    "prerequisites": "Familiarity with at least one programming language (Python, Java, C++, or JavaScript) and basic understanding of HTML/CSS. Completing Vibe Coding for Teens is ideal but not mandatory. Prior college-level programming coursework (OOP, any CS course) is sufficient to begin."
+  },
+  "phase_1_mern": {
+    "title": "PHASE 1: MERN Vibes — Full Stack Web Development (Weeks 1–4)",
+    "description": "Phase 1 builds you into a full-stack MERN developer. You'll master both the frontend (React) and backend (Node.js + Express + MongoDB), learn professional API design, authentication, and deploy your first production-level web application.",
+    "week_1": {
+      "title": "Week 1: JavaScript Mastery, Node.js & Your AI Development Toolkit",
+      "theme": "Advanced JavaScript, Backend Foundations & Vibe Coding Setup",
+      "topics": [
+        "What is Vibe Coding? — Andrej Karpathy's 2025 concept → 2026's 'agentic engineering' evolution",
+        "The professional vibe coding workflow: Intent → Spec → Prompt → Generate → Review → Iterate → Ship",
+        "Setting up Cursor IDE — your primary AI-powered development environment",
+        "Cursor Composer & Agent mode — multi-file AI development across your entire codebase",
+        "Setting up GitHub Copilot (free for students) — inline AI completions and chat",
+        "Introduction to Claude Code — terminal-based AI that understands your full project",
+        "Windsurf IDE overview — Cascade agent and SWE-1.5 model for lightning-fast completions",
+        "Advanced JavaScript: ES6+ features — destructuring, spread/rest, optional chaining",
+        "Asynchronous JavaScript: callbacks, promises, async/await deep dive",
+        "Event loop and JavaScript's single-threaded model explained",
+        "Node.js architecture — non-blocking I/O, the event loop in Node",
+        "Express.js setup and first REST API — hand-coded, then rebuilt with Cursor Composer",
+        "RESTful API design principles — GET, POST, PUT, DELETE semantics",
+        "Comparing hand-coded vs AI-generated Express APIs — reviewing what AI produces",
+        "Environment variables, nodemon, and development tooling"
+      ],
+      "projects": [
+        "Products REST API — CRUD operations for a product catalog (in-memory, no DB yet)",
+        "URL Shortener API — shorten URLs and redirect, stored in memory",
+        "News Aggregation Proxy — fetch and forward data from a public news API"
+      ],
+      "vibe_challenge": "Build a webhook listener that logs all incoming requests to a file",
+      "tools_used": ["Cursor IDE", "Claude Code", "GitHub Copilot", "Windsurf", "Node.js", "Express.js", "Postman", "Thunder Client"]
+    },
+    "week_2": {
+      "title": "Week 2: MongoDB & Database Design — Persistent, Scalable Data",
+      "theme": "MongoDB, Mongoose & Database Architecture",
+      "topics": [
+        "SQL vs. NoSQL — when to use each, MongoDB's document model",
+        "MongoDB Atlas setup — cloud database in 5 minutes",
+        "CRUD operations with MongoDB shell and Compass",
+        "Mongoose ODM — schemas, models, and data validation",
+        "Schema design: embedded vs. referenced documents",
+        "Population — joining documents across collections",
+        "Indexes for performance — understanding query plans",
+        "Aggregation pipeline — complex data transformations",
+        "Pagination and sorting on large datasets",
+        "Data validation with Joi / Zod",
+        "Seeding databases with realistic test data",
+        "Connecting MongoDB Atlas to your Express app securely"
+      ],
+      "projects": [
+        "Blogging Platform API — full CRUD for posts, with categories, tags, and pagination",
+        "Student Records System — schema design with references between students, courses, grades",
+        "E-Commerce Product Catalog — categories, variants, stock tracking in MongoDB"
+      ],
+      "vibe_challenge": "Design a schema for a social media app — explain your design decisions",
+      "tools_used": ["MongoDB Atlas", "MongoDB Compass", "Mongoose", "Postman"]
+    },
+    "week_3": {
+      "title": "Week 3: React.js — Modern Frontend Development",
+      "theme": "React 18, Hooks & Component Architecture",
+      "topics": [
+        "React fundamentals: JSX, components, props, and the virtual DOM",
+        "State management with useState — reactive UI basics",
+        "useEffect — side effects, data fetching, and cleanup",
+        "Component composition — building UIs from small, reusable pieces",
+        "Conditional rendering and list rendering with keys",
+        "Event handling in React — forms, clicks, input controlled components",
+        "React Router v6 — client-side navigation and nested routes",
+        "Custom hooks — extracting and reusing complex logic",
+        "Context API — sharing state without prop drilling",
+        "React Query / TanStack Query — server state management",
+        "Tailwind CSS with React — rapid, utility-first styling",
+        "v0.dev — generating polished React/Next.js components from text descriptions",
+        "Vibe coding React components: using Cursor Composer to scaffold entire features",
+        "Reading and reviewing AI-generated React code — catching anti-patterns",
+        "Performance: React.memo, useMemo, useCallback — when and why"
+      ],
+      "projects": [
+        "Task Management Dashboard — Kanban-style board with drag and React state",
+        "Movie Browser — fetches TMDB API, search, filter, detailed movie pages",
+        "Expense Tracker — add/categorize/delete expenses, charts with Chart.js"
+      ],
+      "vibe_challenge": "Add dark mode toggle with Context API to any of your React projects",
+      "tools_used": ["React 18", "React Router v6", "Tailwind CSS", "Vite", "React Query"]
+    },
+    "week_4": {
+      "title": "Week 4: Full MERN — Authentication, Authorization & Deployment",
+      "theme": "JWT Auth, Full-Stack Integration & Cloud Deployment",
+      "topics": [
+        "User authentication — registration, login, logout flows",
+        "Password hashing with bcrypt — never store plain text passwords",
+        "JWT (JSON Web Tokens) — stateless authentication explained",
+        "Protected routes — both API endpoints and React pages",
+        "Role-based access control (RBAC) — admin vs. user permissions",
+        "Connecting React frontend to Express backend across environments",
+        "CORS configuration — handling cross-origin requests",
+        "HTTP-only cookies for secure token storage",
+        "File uploads with Multer and Cloudinary / AWS S3",
+        "Rapid prototyping with Lovable — build a full-stack MVP by chatting with AI",
+        "Bolt.new for speed: idea → deployed app in under 30 minutes",
+        "Understanding what AI app builders generate vs. what you need to customize",
+        "Deploying backend on Render (with MongoDB Atlas)",
+        "Deploying React frontend on Vercel",
+        "CI/CD basics with GitHub Actions — auto-deploy on push"
+      ],
+      "projects": [
+        "Full-Stack Social Notes App — register/login, create/edit/delete notes, private per user",
+        "Recipe Sharing Platform — MERN app with auth, image uploads, saved recipes"
+      ],
+      "capstone": "PHASE 1 CAPSTONE — MERN Full Stack Application: Build and deploy a complete, authenticated full-stack web application using the MERN stack. Must include: user auth, at least 3 data models, REST API, React frontend, and live deployment URL. Code reviewed by an industry mentor.",
+      "vibe_challenge": "Add Google OAuth login to your capstone project using Passport.js or NextAuth.js",
+      "tools_used": ["MERN", "JWT", "bcrypt", "Multer", "Cloudinary", "Render", "Vercel", "GitHub Actions"]
+    }
+  },
+  "phase_2_dsa_ml": {
+    "title": "PHASE 2: DSA & ML Vibes — Think Deeply, Build Intelligently (Weeks 5–8)",
+    "description": "Phase 2 is the intellectual heart of the program. We go deep into Data Structures & Algorithms for placement preparation, and simultaneously build practical Machine Learning projects that solve real problems. This phase makes you stand out in every technical interview.",
+    "week_5": {
+      "title": "Week 5: Data Structures — The Foundation of Every Interview",
+      "theme": "Arrays, Strings, Linked Lists & Hash Maps",
+      "topics": [
+        "Why DSA matters — the real purpose of data structures in engineering",
+        "Time Complexity & Big O Notation — measuring efficiency",
+        "Space Complexity — memory analysis",
+        "Arrays: two-pointer technique, sliding window, prefix sums",
+        "String problems: anagrams, palindromes, pattern matching",
+        "Hash Maps & Hash Sets — O(1) lookup and counting patterns",
+        "Linked Lists: singly, doubly, circular — implementation and operations",
+        "Linked list problems: reverse, detect cycle, find middle, merge sorted lists",
+        "Stacks: implementation, use cases (balanced brackets, undo operations)",
+        "Queues: implementation, BFS patterns",
+        "Deque and monotonic stack patterns",
+        "LeetCode/HackerRank strategy — how to approach problems systematically"
+      ],
+      "projects": [
+        "LeetCode Top 50 Arrays & Strings — solve 15 curated problems with explanations",
+        "Custom Hash Map Implementation — build a hash map from scratch in Python",
+        "Text Editor Undo/Redo — stack-based implementation with UI"
+      ],
+      "vibe_challenge": "Solve a LeetCode Medium problem every day this week and journal your approach",
+      "tools_used": ["Python", "LeetCode", "LeetCode Discuss", "VS Code"]
+    },
+    "week_6": {
+      "title": "Week 6: Trees, Graphs & Advanced Algorithms",
+      "theme": "Trees, Graphs, BFS/DFS & Dynamic Programming",
+      "topics": [
+        "Binary Trees — traversals: inorder, preorder, postorder, level order",
+        "Binary Search Trees (BSTs) — operations and balancing concepts",
+        "Tree problems: height, diameter, LCA, path sum, zigzag traversal",
+        "Heaps & Priority Queues — min-heap, max-heap, heapify",
+        "Graphs: representations (adjacency list vs. matrix), directed vs. undirected",
+        "BFS — shortest path in unweighted graphs, level-order problems",
+        "DFS — cycle detection, topological sort, connected components",
+        "Dijkstra's Algorithm — weighted shortest path",
+        "Union-Find (Disjoint Set Union) — efficient connectivity queries",
+        "Dynamic Programming: memoization vs. tabulation, top-down vs. bottom-up",
+        "Classic DP patterns: Fibonacci, coin change, 0/1 knapsack, LCS, LIS",
+        "Greedy Algorithms — interval scheduling, activity selection"
+      ],
+      "projects": [
+        "Graph Visualizer — interactive BFS/DFS visualization built with React",
+        "Pathfinding Visualizer — Dijkstra's and A* in a grid, visually animated",
+        "Course Prerequisite Checker — topological sort applied to a real problem"
+      ],
+      "vibe_challenge": "Solve the top 5 most common DP problems asked in Amazon and Google interviews",
+      "tools_used": ["Python", "LeetCode", "JavaScript (visualization)", "React"]
+    },
+    "week_7": {
+      "title": "Week 7: Machine Learning — Teach Python to Predict the Future",
+      "theme": "Applied Machine Learning with scikit-learn",
+      "topics": [
+        "Machine Learning overview — supervised, unsupervised, reinforcement learning",
+        "The ML workflow: data → features → model → evaluate → deploy",
+        "Data exploration with pandas — statistical analysis and visualizations",
+        "Feature engineering — creating meaningful inputs for ML models",
+        "Train/test/validation split — avoiding overfitting and data leakage",
+        "Linear Regression — predicting continuous values (housing prices, salaries)",
+        "Logistic Regression — binary classification problems",
+        "Decision Trees and Random Forests — ensemble methods",
+        "Support Vector Machines (SVM) — classification with hyperplanes",
+        "K-Means Clustering — unsupervised customer segmentation",
+        "Model evaluation: accuracy, precision, recall, F1, ROC-AUC",
+        "scikit-learn pipelines — cleanly combining preprocessing and models"
+      ],
+      "projects": [
+        "House Price Predictor — regression model trained on real estate dataset",
+        "Email Spam Classifier — text-based binary classification with logistic regression",
+        "Customer Segmentation — K-means on e-commerce purchase data"
+      ],
+      "vibe_challenge": "Put your best ML model into a Flask web API so others can use it",
+      "tools_used": ["Python", "pandas", "scikit-learn", "Matplotlib", "Seaborn", "Jupyter Notebook"]
+    },
+    "week_8": {
+      "title": "Week 8: Deep Learning & AI Project Deployment",
+      "theme": "Neural Networks, TensorFlow & Production ML",
+      "topics": [
+        "Neural Networks — neurons, layers, activation functions explained intuitively",
+        "How deep learning trains — gradient descent, backpropagation",
+        "TensorFlow and Keras — building and training neural networks",
+        "Convolutional Neural Networks (CNNs) — image recognition",
+        "Transfer Learning — using pre-trained models (MobileNet, ResNet) for new tasks",
+        "Natural Language Processing basics — tokenization, embeddings, TF-IDF",
+        "Hugging Face Transformers — using BERT and GPT models via Python",
+        "Model serialization — saving and loading trained models",
+        "Deploying ML models as REST APIs with Flask/FastAPI",
+        "Streamlit — building beautiful ML demo apps with pure Python",
+        "Using Claude Code to scaffold ML pipelines: describe your data → AI writes the training code",
+        "Vibe coding ML dashboards: using Lovable or Bolt.new to build a frontend for your ML API",
+        "Monitoring ML models in production — drift, versioning, logging",
+        "AI responsible use — bias auditing and model transparency"
+      ],
+      "projects": [
+        "Image Classifier API — custom CNN trained on a dataset of your choice, deployed",
+        "Sentiment Analysis Web App — Hugging Face transformer, Flask API, Streamlit UI",
+        "Real-Time Object Detector — webcam feed with YOLO model via OpenCV"
+      ],
+      "capstone": "PHASE 2 CAPSTONE — An end-to-end ML application: data collection/cleaning, trained model, evaluation report, REST API, and a front-end interface. Deployed and publicly accessible.",
+      "vibe_challenge": "Submit your ML project to Kaggle and write a public notebook explaining your approach",
+      "tools_used": ["TensorFlow", "Keras", "Hugging Face", "FastAPI", "Streamlit", "OpenCV", "Kaggle"]
+    }
+  },
+  "phase_3_career": {
+    "title": "PHASE 3: Career Vibes — System Design, Capstone & Professional Launch (Weeks 9–12)",
+    "description": "The final phase transforms a skilled developer into a career-ready software engineer. System Design, advanced cloud deployment, the grand capstone project, and an intensive placement preparation program — this phase exists to get you hired.",
+    "week_9": {
+      "title": "Week 9: System Design & Agentic Engineering — Think Like a Senior Engineer",
+      "theme": "Distributed Systems, Architecture Design & AI-Powered Development Workflows",
+      "topics": [
+        "What is System Design? Why it's asked in every senior tech interview",
+        "Agentic Engineering — Karpathy's evolution of vibe coding: orchestrating AI agents for complex tasks",
+        "Using Claude Code for large codebase navigation — AI that understands your entire project",
+        "Cursor Agent mode: giving AI a task, letting it plan and execute across dozens of files",
+        "Multi-agent workflows: using Cursor (planning) + Claude Code (execution) + Copilot (inline) together",
+        "Scalability: horizontal vs. vertical scaling",
+        "Load Balancers — distributing traffic, round-robin, least connections",
+        "Databases at scale: sharding, replication, read replicas",
+        "SQL vs. NoSQL selection framework — when each is right",
+        "Caching strategies: Redis basics, cache-aside, write-through, TTL",
+        "Content Delivery Networks (CDN) — how your assets go global",
+        "Microservices vs. Monolith — honest trade-offs, not just hype",
+        "Docker and containerization — packaging apps for consistent deployment",
+        "Case studies: Design Twitter, Design YouTube, Design WhatsApp — methodically"
+      ],
+      "projects": [
+        "System Design Document — write a complete design document for a URL shortener at scale",
+        "Redis Caching Layer — add Redis caching to your MERN capstone app",
+        "Docker Compose Setup — containerize your full MERN stack with Docker Compose"
+      ],
+      "vibe_challenge": "Record a 10-minute system design interview mock — 'Design a ride-sharing app like Ola'",
+      "tools_used": ["Redis", "Docker", "Docker Compose", "Draw.io (system diagrams)", "AWS EC2 basics"]
+    },
+    "week_10": {
+      "title": "Week 10: Cloud, DevOps & Security for AI-Generated Code",
+      "theme": "AWS, CI/CD, Security & Securing Vibe-Coded Applications",
+      "topics": [
+        "AWS core services: EC2, S3, RDS, CloudFront, Route 53",
+        "Deploying a Node.js app on EC2 with Nginx reverse proxy",
+        "AWS S3 — storing and serving static assets and user uploads at scale",
+        "SSL/TLS certificates — HTTPS with Let's Encrypt",
+        "CI/CD pipelines with GitHub Actions — test, build, deploy automatically",
+        "Environment management — dev, staging, production environments",
+        "CRITICAL: Security risks of vibe-coded apps — 45% of AI-generated code contains OWASP vulnerabilities (Wiz Security study)",
+        "Web Application Security: OWASP Top 10 for developers — with specific AI-generated code examples",
+        "SQL injection, XSS, CSRF in AI-generated code — what AI commonly gets wrong",
+        "Security audit workflow: using OWASP ZAP and Snyk to scan vibe-coded apps",
+        "Rate limiting, IP blocking, and DDoS basics",
+        "Secrets management — never commit credentials to GitHub (AI tools often leak .env files)",
+        "Application monitoring with Datadog / Sentry (free tiers)",
+        "The responsible vibe coder checklist: security review before every deployment"
+      ],
+      "projects": [
+        "Production Deployment: Deploy your MERN capstone with HTTPS on AWS EC2 via Nginx",
+        "Automated CI/CD: Full GitHub Actions pipeline — lint, test, deploy on merge to main",
+        "Security Audit: Run OWASP ZAP against your app and fix at least 3 vulnerabilities"
+      ],
+      "vibe_challenge": "Set up application monitoring with Sentry — get alerted when your app throws an error",
+      "tools_used": ["AWS EC2", "AWS S3", "Nginx", "GitHub Actions", "Let's Encrypt", "Sentry"]
+    },
+    "week_11": {
+      "title": "Week 11: Placement Preparation & Professional Identity",
+      "theme": "Interviews, Portfolio & Professional Branding",
+      "topics": [
+        "The placement roadmap — on-campus and off-campus strategy for 2026",
+        "Resume that gets shortlisted — ATS optimization, STAR format, quantification",
+        "GitHub portfolio for job seekers — README, contributions, and credibility",
+        "LinkedIn optimization: headline, about section, skills endorsements",
+        "Behavioural interview prep: STAR method for tech companies",
+        "Technical interview process — online assessment, DSA round, system design, HR",
+        "DSA rapid revision — top 20 most frequently asked interview questions",
+        "Mock Interview Session 1: Full 45-minute technical mock with feedback",
+        "Mock Interview Session 2: System design mock — 30 minutes",
+        "Negotiating your offer — salary benchmarks for fresher SDE roles India",
+        "Freelancing as a college developer — finding clients, pricing, contracts",
+        "Open source strategy — how meaningful contributions open career doors"
+      ],
+      "projects": [
+        "Professional Portfolio Website v2 — updated with all 12-week projects, live, SEO-optimized",
+        "Optimized Resume — ATS-ready, reviewed by an industry mentor",
+        "GitHub Portfolio Cleanup — all key repos have great READMEs, demo links, and screenshots"
+      ],
+      "vibe_challenge": "Apply to 10 internship positions this week using your new resume and portfolio",
+      "tools_used": ["GitHub", "LinkedIn", "Figma (portfolio)", "VS Code", "Notion (job tracker)"]
+    },
+    "week_12": {
+      "title": "Week 12: Grand Capstone Launch — Showcase, Certify & Conquer",
+      "theme": "Final Capstone, Certification & Career Launch",
+      "topics": [
+        "Grand Capstone final polish — code review, performance optimization",
+        "Writing a technical blog post about your capstone project (Medium / Dev.to)",
+        "SEO optimization for your portfolio — getting found by recruiters",
+        "Open source contribution: submit a PR to a real open-source project",
+        "The modern developer identity: traditional coding + vibe coding + agentic engineering",
+        "Your vibe coding toolkit mastery recap: Cursor, Claude Code, Windsurf, Copilot, Lovable, Bolt.new, v0.dev",
+        "The developer mindset — growth, continuous learning, imposter syndrome",
+        "Building in public — Twitter/X, LinkedIn, community engagement",
+        "Advanced paths beyond Vibe Coding: Competitive Programming, ML research, DevOps, AI Engineering",
+        "Modern Age Coders Alumni Network — joining and giving back",
+        "Capstone presentations — live demo to a panel of industry judges",
+        "Project feedback from industry professionals",
+        "Receiving the Vibe Coder — College Level Certification",
+        "Next steps: internships, placements, freelancing, and startups"
+      ],
+      "projects": [
+        "GRAND CAPSTONE — 'Production-Grade Vibe Project': A complete, full-stack (MERN) OR ML-powered application built using a professional vibe coding workflow (Cursor IDE + Claude Code + AI app builders for prototyping). Must include: user authentication, real data, API integrations, responsive UI, full cloud deployment, CI/CD pipeline, security audit (AI-generated code reviewed for OWASP vulnerabilities), documented on GitHub, and presented live to a panel of industry mentors with a walkthrough of both the product AND the AI-assisted development process"
+      ],
+      "assessment": "Grand Capstone: Live Demo → Code Review → System Design Q&A → Panel Feedback",
+      "certification": "Vibe Coder — College Level: Full Stack & AI Engineer (Modern Age Coders Certified)"
+    }
+  },
+  "dsa_preparation_track": {
+    "title": "Integrated DSA Preparation Track (Parallel to Course Weeks 1–12)",
+    "description": "DSA preparation runs in parallel with the main curriculum throughout all 12 weeks. Each week, students complete a set of curated problems aligned with that week's learning theme.",
+    "weekly_targets": {
+      "weeks_1_4": "15 LeetCode Easy problems + 5 Medium (Arrays, Strings, Hash Maps, Linked Lists)",
+      "weeks_5_6": "10 Medium + 5 Hard (Trees, Graphs, DP, Greedy)",
+      "weeks_7_8": "Interview-focused: 20 most common interview questions from FAANG, product companies",
+      "weeks_9_12": "Mock assessments weekly: 3 problems in 90 minutes (company-style OA format)"
+    },
+    "recommended_platforms": [
+      "LeetCode (primary — aim for 100+ solved by course end)",
+      "Codeforces (competitive programming, Div 3/4 contests)",
+      "GeeksforGeeks — for conceptual Indian placement questions",
+      "HackerRank — company-specific practice sets"
+    ],
+    "weekly_dsaTarget": "Minimum 10 problems per week — consistency over volume"
+  },
+  "faqs": [
+    {
+      "question": "What is Vibe Coding for College?",
+      "answer": "Vibe Coding for College is a 3-month, intensive software engineering program for college students and fresh graduates (18+). It uniquely combines deep engineering fundamentals with professional AI development tools: you master MERN stack using Cursor IDE and Claude Code, build rapid prototypes with Lovable and Bolt.new, learn DSA for placements, Machine Learning with Python, System Design, and security for AI-generated code — all taught live by industry-experienced mentors at Modern Age Coders."
+    },
+    {
+      "question": "Who is this course for?",
+      "answer": "This course is for college students (any year) and recent graduates who know at least basic programming and want to break into software engineering. It's ideal for CS/IT/MCA students, but engineering students from any branch who are serious about tech can join. You should have basic knowledge of at least one programming language (Python, Java, C++, or JavaScript)."
+    },
+    {
+      "question": "What is the MERN stack and why learn it?",
+      "answer": "MERN stands for MongoDB (database), Express.js (backend framework), React.js (frontend library), and Node.js (JavaScript runtime). It is the most popular and in-demand full-stack technology combination for 2026, used by top startups and tech companies worldwide. MERN skills are specifically sought in Indian product companies, MNCs, and international remote roles."
+    },
+    {
+      "question": "How does DSA preparation fit into this course?",
+      "answer": "DSA is integrated throughout all 12 weeks rather than crammed at the end. Weeks 5–6 are dedicated DSA weeks, but we recommend 10 problems per week from Week 1 onwards through our parallel preparation track. By Week 12, students have typically solved 100–150 problems across LeetCode, GeeksforGeeks, and Codeforces."
+    },
+    {
+      "question": "Will studying 3 months really prepare me for placements?",
+      "answer": "Three months of focused, structured preparation — building real projects, solving 100+ DSA problems, and doing mock interviews — is absolutely transformative. Join as early in your college career as possible: students who take this course in their 2nd or 3rd year have maximally more time to practice and build. Our alumni have been placed at companies including Infosys, TCS, Wipro, Freshworks, Juspay, and international remote companies."
+    },
+    {
+      "question": "What does 'Vibe Coding' mean at the college level?",
+      "answer": "Vibe Coding — coined by Andrej Karpathy in 2025 — means building software by describing what you want and letting AI generate the code. At the college level, this evolves into 'agentic engineering': using professional AI tools (Cursor IDE, Claude Code, Windsurf, GitHub Copilot) alongside AI app builders (Lovable, Bolt.new, v0.dev) to build production-grade software at startup speed. But the key differentiator is that you also learn to REVIEW, SECURE, and SCALE what AI generates — because 45% of AI-generated code contains security vulnerabilities. You graduate as a developer who can build with AI AND without it."
+    },
+    {
+      "question": "Will I get placement support?",
+      "answer": "Yes. Week 11 is entirely dedicated to placement preparation: resume reviews, LinkedIn optimization, mock technical interviews, system design mocks, and DSA rapid revision. Our alumni network, industry mentor panels, and job referral channels provide ongoing placement support beyond the course."
+    },
+    {
+      "question": "What is the time commitment?",
+      "answer": "We recommend 10–15 hours per week: 2 live sessions (2 hours each), weekly DSA practice (3–4 hours), and project work (4–6 hours). This is an intensive program. The more you invest, the stronger your portfolio and placement readiness will be."
+    },
+    {
+      "question": "Is Machine Learning part of this course?",
+      "answer": "Yes. Weeks 7 and 8 cover applied Machine Learning with Python — scikit-learn, regression, classification, clustering, neural networks with TensorFlow/Keras, and deploying ML models as APIs and web apps. This is applied/practical ML, not theory-heavy research ML."
+    },
+    {
+      "question": "What certification will I receive?",
+      "answer": "Graduates receive the 'Vibe Coder — College Level: Full Stack & AI Engineer' certification from Modern Age Coders, awarded upon completion of the capstone project and final assessment. This is a credential recognized by our industry partners and verifiable online."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Arjun Mehta, B.Tech CSE 3rd Year (placed at Freshworks)",
+      "text": "I came in knowing basic Python from college and left with a full MERN app deployed on AWS, 120 LeetCode problems solved, and an internship offer. The system design week was a game-changer — it's what cracked my interview. Modern Age Coders is serious about placements.",
+      "rating": 5
+    },
+    {
+      "name": "Sneha Banerjee, MCA 2nd Year",
+      "text": "The ML weeks were incredible. I trained and deployed an actual deep learning model that my college professors hadn't seen from a student before. My capstone project is now my biggest interview conversation starter. MAC gave me a career, not just a certificate.",
+      "rating": 5
+    },
+    {
+      "name": "Rahul Patel, BCA Final Year (Remote freelancer — ₹1.2L/month)",
+      "text": "After this course, I stopped looking for placements and started freelancing. My MERN portfolio got me 3 international clients within 6 weeks of graduating. The quality of projects MAC helps you build is genuinely impressive to non-technical clients.",
+      "rating": 5
+    },
+    {
+      "name": "Priya Kulkarni, BTech IT, 2nd Year",
+      "text": "I took this in my second year which was the smartest decision of my college life. I now have 2 years to build on this foundation before placements. Every batch mate who sees my GitHub asks how I built those projects. Highly recommend starting early.",
+      "rating": 5
+    }
+  ],
+  "relatedCourses": [
+    "vibe-coding-for-teens-python-web-ai-projects-course",
+    "mern-stack-college",
+    "data-structure-algorithms-college",
+    "python-ai-automation-college",
+    "full-stack-web-development-college"
+  ]
+}

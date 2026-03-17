@@ -1,0 +1,472 @@
+{
+  "meta": {
+    "slug": "vibe-coding-for-kids-beginners-ai-scratch-game-dev",
+    "title": "Vibe Coding for Kids — Fun AI & Scratch Game Dev Course (Ages 8–12)",
+    "description": "Enroll your child in the best vibe coding course for kids aged 8–12. Learn Scratch, AI tools, game development, and creative coding in a 3-month beginner program at Modern Age Coders. No prior experience needed!",
+    "keywords": [
+      "vibe coding for kids",
+      "kids coding course India",
+      "Scratch programming for children",
+      "coding for kids aged 8 to 12",
+      "best online coding course for kids",
+      "AI for kids course",
+      "game development for kids",
+      "learn coding for kids online",
+      "beginner coding kids India",
+      "kids programming classes",
+      "child-friendly coding course",
+      "fun coding for children",
+      "vibe coding beginners",
+      "Replit for kids",
+      "Bolt.new for kids",
+      "AI app builder for kids",
+      "kids build apps with AI",
+      "Andrej Karpathy vibe coding kids",
+      "coding classes for 8 year olds",
+      "Modern Age Coders kids"
+    ],
+    "category": "Kids Coding & Creative Technology",
+    "price": {
+      "group": "₹1,499/month",
+      "personal": "₹4,999/month",
+      "lifetime": "₹34,999 (one-time)"
+    },
+    "duration": "3 months (12 weeks)",
+    "level": "Complete Beginner (Ages 8–12)",
+    "commitment": "4–6 hours/week",
+    "certification": "Vibe Coder — Kids Level Certification",
+    "image_path": "vibe-coding-kids.webp",
+    "author": {
+      "name": "Modern Age Coders Team",
+      "bio": "Expert educators passionate about making coding fun, creative, and accessible for every child.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-03-01",
+    "dateModified": "2026-03-17",
+    "tags": [
+      "Vibe Coding",
+      "Kids",
+      "Scratch",
+      "Replit",
+      "Bolt.new",
+      "AI Tools",
+      "Google Gemini",
+      "Game Development",
+      "Creative Coding",
+      "Beginner"
+    ],
+    "featured": true
+  },
+  "program_overview": {
+    "title": "Vibe Coding for Kids — Creative, Fun & Future-Ready",
+    "tagline": "Where Imagination Meets Code — Build Games, Stories & AI Projects!",
+    "description": "Vibe Coding for Kids is the ultimate 3-month beginner coding journey designed specifically for children aged 8 to 12. 'Vibe Coding' — a term coined by AI pioneer Andrej Karpathy in 2025 — means telling a computer what you want to build in plain English and letting AI create the code for you. It's the future of how software gets made, and your child can start learning it now.\n\nThrough playful, visual, and project-driven learning, kids discover the magic of creating their own games, animated stories, music with code, and real AI-powered apps — no complex typing required to get started! Kids begin with visual block coding (Scratch) to learn how computers think, then graduate to actual vibe coding using tools like Replit, Bolt.new, and Google Gemini — the same AI tools professionals use today.\n\nAt Modern Age Coders, we believe every child is a natural creator. Our expert instructors blend visual block programming, creative exploration, and real AI app-building tools to make coding feel like play. By the end of 12 weeks, your child will have built 15+ original projects — including apps they built by talking to AI — and gained real digital superpowers.",
+    "what_makes_this_different": [
+      "100% project-based — kids build something real every single week",
+      "Age-appropriate content designed for 8–12 year olds",
+      "No prior experience or technical knowledge needed",
+      "Visual block coding (Scratch, Code.org) — no complex syntax to start",
+      "Real vibe coding: kids build apps by talking to AI (Replit, Bolt.new)",
+      "Includes AI tools, music coding, and creative art projects",
+      "Live classes with expert instructors + recorded replays",
+      "Parent dashboard to track weekly progress",
+      "Portfolio of 15+ completed projects at course end",
+      "Fun, encouraging, and bully-free classroom environment"
+    ],
+    "learning_path": {
+      "phase_1": "Foundation Vibes (Weeks 1–4): Scratch basics, animations, storytelling with code",
+      "phase_2": "Game Dev Vibes (Weeks 5–8): Game mechanics, score systems, interactive adventures",
+      "phase_3": "AI & Vibe Coding Vibes (Weeks 9–12): Real vibe coding with AI app builders (Replit, Bolt.new), AI tools, music coding, capstone project showcase"
+    },
+    "skills_gained": [
+      "Computational Thinking & Problem Solving",
+      "Block-Based Visual Programming (Scratch, Code.org)",
+      "Vibe Coding — Building Apps by Talking to AI (Replit, Bolt.new)",
+      "Animation & Digital Storytelling",
+      "Game Design & Development Fundamentals",
+      "Introduction to AI & Machine Learning for Kids",
+      "Prompt Engineering for Kids — How to Talk to AI Clearly",
+      "Creative Coding with Music & Art",
+      "Digital Citizenship & Online Safety",
+      "Project Planning & Presentation Skills"
+    ],
+    "career_outcomes": [
+      "Digital Creator & Storyteller",
+      "Junior Game Designer",
+      "Creative Technologist",
+      "Ready for Vibe Coding for Teens program"
+    ],
+    "tools_platforms": [
+      "Scratch 3.0",
+      "Code.org",
+      "Replit (Browser-Based Vibe Coding)",
+      "Bolt.new (AI App Builder — Instant Preview)",
+      "Google Gemini (AI Chat for Kids)",
+      "Google Teachable Machine",
+      "Sonic Pi (Music Coding)",
+      "Canva for Kids",
+      "MakeCode Arcade",
+      "ML4Kids (Machine Learning for Kids)"
+    ]
+  },
+  "phase_1_foundation": {
+    "title": "PHASE 1: Foundation Vibes — Scratch & Creative Coding (Weeks 1–4)",
+    "description": "Kids dive into the colourful world of Scratch and block-based programming. They create their first animations, interactive stories, and simple games while learning the core ideas of coding — loops, events, and conditionals — through hands-on fun.",
+    "week_1": {
+      "title": "Week 1: Welcome to Vibe Coding! — Your First Animations",
+      "theme": "Discovery & First Steps",
+      "topics": [
+        "What is Vibe Coding? — Telling computers what to build using your words (coined by AI scientist Andrej Karpathy in 2025)",
+        "The two ways to code: Block Coding (Scratch) and Vibe Coding (talking to AI) — we'll learn both!",
+        "How computers think — understanding instructions step by step",
+        "Introduction to Scratch 3.0 — navigating the interface",
+        "Sprites, stages, and backdrops — building your digital world",
+        "Basic motion blocks: move, turn, glide",
+        "Looks blocks: say, think, costumes, effects",
+        "Sound blocks: play music, record your voice",
+        "Your first animation: Make a character walk and talk",
+        "Saving and sharing your Scratch project",
+        "Online safety and being a kind digital citizen",
+        "Setting up your Vibe Coder profile"
+      ],
+      "projects": [
+        "Animated Greeting Card — make a character say hello to the world",
+        "Dancing Pet — a sprite that moves to your favourite music",
+        "About Me Story — an interactive presentation about yourself"
+      ],
+      "vibe_challenge": "Create an animation that tells your favourite joke",
+      "parent_note": "Encourage your child to show you their projects each evening. Ask 'What did your character do today?'"
+    },
+    "week_2": {
+      "title": "Week 2: Storytelling with Code — Scenes, Dialogues & Adventures",
+      "theme": "Creative Storytelling",
+      "topics": [
+        "Creating multi-scene stories with backdrop changes",
+        "Broadcasting messages between sprites — making characters talk to each other",
+        "Using the 'ask and answer' block for interactive dialogue",
+        "Timing animations — wait blocks and synchronized stories",
+        "Creating sprite costumes for character emotions",
+        "Adding background music and sound effects",
+        "Text-to-speech: making your characters speak in different voices",
+        "Importing your own images and drawings as sprites",
+        "Drawing custom sprites with the Scratch paint editor",
+        "Story planning: beginning, middle, and end",
+        "Sharing your story with family and friends"
+      ],
+      "projects": [
+        "A 3-Scene Adventure Story — hero, challenge, and victory",
+        "Interactive Storybook — click to turn pages",
+        "Talking Animal Show — two animals have a funny conversation"
+      ],
+      "vibe_challenge": "Create a story based on your favourite book or movie character",
+      "parent_note": "Ask your child to narrate their story to you — storytelling + coding builds literacy and logic simultaneously."
+    },
+    "week_3": {
+      "title": "Week 3: Events & Interactivity — Making Things Happen!",
+      "theme": "Interactivity & Control",
+      "topics": [
+        "Event blocks: when green flag clicked, when key pressed, when sprite clicked",
+        "Keyboard controls — making characters move with arrow keys",
+        "Mouse events — click-to-activate actions",
+        "Creating clickable buttons and navigation menus",
+        "Introduction to conditionals: If-Then logic blocks",
+        "Touching and color detection — collision basics",
+        "Creating interactive art — drawing with mouse movements",
+        "Building a virtual musical keyboard",
+        "Combining multiple events for complex interactions",
+        "User input with 'ask' and storing answers",
+        "Debugging basics: What to do when something goes wrong"
+      ],
+      "projects": [
+        "Virtual Piano — play notes by pressing keyboard keys",
+        "Click-and-Colour Art Canvas — draw with code",
+        "Interactive Quiz — 5 questions with right/wrong feedback"
+      ],
+      "vibe_challenge": "Build a 'secret button' game where hidden sprites reveal surprises",
+      "parent_note": "Interactivity is a huge milestone! Your child is now thinking like a programmer — anticipating user actions."
+    },
+    "week_4": {
+      "title": "Week 4: Loops & Patterns — The Magic of Repetition",
+      "theme": "Loops & Computational Thinking",
+      "topics": [
+        "Forever loops — making things go on and on",
+        "Repeat loops with a specific number of times",
+        "Nested loops — loops inside loops for complex patterns",
+        "Drawing geometric shapes with pen blocks",
+        "Creating spirals, stars, and kaleidoscopes with loops",
+        "The Stamp tool — making repeating patterns",
+        "Color effects and graphic transformations",
+        "Thinking like a computer: breaking big tasks into small loops",
+        "Efficiency — doing more with less code",
+        "Creating a looping background animation",
+        "Phase 1 Review & Project Planning"
+      ],
+      "projects": [
+        "Geometric Art Machine — generates beautiful patterns automatically",
+        "Spinning Galaxy — looping space animation",
+        "Pattern Puzzle — create a design and challenge friends to recreate it"
+      ],
+      "vibe_challenge": "Design your name using only loops and the pen tool",
+      "capstone": "PHASE 1 CAPSTONE — My First Vibe Story: Create a complete, interactive animated story with 3+ scenes, clickable elements, and loops. Present to your class!"
+    }
+  },
+  "phase_2_game_dev": {
+    "title": "PHASE 2: Game Dev Vibes — Build Your Own Games! (Weeks 5–8)",
+    "description": "Now the real fun begins! Kids learn the building blocks of game development: scoring, lives, enemies, levels, and game loops. By the end of Phase 2, every child will have built a complete, playable video game from scratch.",
+    "week_5": {
+      "title": "Week 5: Variables & Score Systems — 'You Win!' Moments",
+      "theme": "Variables & Game Logic",
+      "topics": [
+        "What are variables? Understanding data storage in simple terms",
+        "Creating score, lives, and timer variables",
+        "Changing variable values — adding points, losing lives",
+        "Using random numbers — the element of surprise in games",
+        "Countdown timers and time-based challenges",
+        "Displaying variables on screen as a score HUD",
+        "Win conditions: What happens when you reach a goal?",
+        "Game Over conditions: Lives system and health bars",
+        "High score saving basics",
+        "Creating power-ups that boost your score",
+        "Playtesting your games — the 'fun factor' check"
+      ],
+      "projects": [
+        "Catch the Falling Stars — catch sprites to earn points",
+        "Number Guessing Game — with hints and score tracking",
+        "Speed Challenge — collect 10 items before the timer runs out"
+      ],
+      "vibe_challenge": "Add a secret cheat code to your game that gives infinite lives",
+      "parent_note": "Variables are one of the most important concepts in all of programming. Your child just mastered them through game-making!"
+    },
+    "week_6": {
+      "title": "Week 6: Collision Detection & Game Mechanics — Real Game Feels",
+      "theme": "Physics & Interaction",
+      "topics": [
+        "Touching detection — sprites interacting with each other",
+        "Color collision — detecting when you touch a wall or obstacle",
+        "Gravity simulation using loops and variables",
+        "Jumping mechanics — platformer physics basics",
+        "Enemy movement — creating obstacles that move and follow",
+        "Projectile mechanics — shooting and throwing",
+        "Boundary detection — keeping sprites inside the screen",
+        "Creating a scrolling background effect",
+        "Power-up pickups and damage effects",
+        "Sound effects for collisions, wins, and game over",
+        "Making your game feel satisfying — game juice basics"
+      ],
+      "projects": [
+        "The Endless Runner — dodge obstacles as you run",
+        "Space Invaders Jr. — shoot incoming aliens",
+        "Trampoline Jump — bounce as high as you can game"
+      ],
+      "vibe_challenge": "Add 'slow motion' power-up to one of your games",
+      "parent_note": "Game physics is applied mathematics — your child is learning physics concepts intuitively through play."
+    },
+    "week_7": {
+      "title": "Week 7: Level Design & Multi-Screen Games — The Full Experience",
+      "theme": "Game Design & Level Structure",
+      "topics": [
+        "What makes a great game level? Flow, challenge, and reward",
+        "Designing level 1, level 2, and level 3 with increasing difficulty",
+        "Using backdrops as levels — switching on game events",
+        "Creating boss levels and final challenges",
+        "Save and load game states using cloud variables",
+        "Cutscenes and story sequences between levels",
+        "Sound design — choosing music for different game moods",
+        "UI design: Start screen, game over screen, victory screen",
+        "Multiple character selection screens",
+        "Accessibility in games — making your game easy to understand",
+        "Beta testing with classmates and collecting feedback"
+      ],
+      "projects": [
+        "3-Level Maze Adventure — escape each dungeon to advance",
+        "Fruit Ninja Clone — 3 difficulty levels with progressive speed",
+        "Boss Battle Game — survive the final boss to win"
+      ],
+      "vibe_challenge": "Design a secret hidden level that can only be unlocked with a code",
+      "parent_note": "Level design teaches planning, foresight, and empathy (designing for the player). These are powerful creative skills."
+    },
+    "week_8": {
+      "title": "Week 8: Complete Game Jam — Build Your Dream Game!",
+      "theme": "Full Game Development",
+      "topics": [
+        "Game design document — planning your game on paper first",
+        "Asset creation — custom sprites, backgrounds, and sounds",
+        "Implementing full game loop: start, play, lose, win",
+        "Bug hunting and debugging strategies",
+        "Game polishing — making it look professional",
+        "Writing game instructions for players",
+        "Creating a game thumbnail and cover art",
+        "Publishing your game to the Scratch community",
+        "Presenting your game to classmates",
+        "Getting featured on the Modern Age Coders showcase",
+        "Reflecting on your journey from Week 1 to Week 8"
+      ],
+      "projects": [
+        "PHASE 2 CAPSTONE — My Dream Game: A complete, original game with: custom sprites, 2+ levels, score system, sound effects, start and end screens"
+      ],
+      "vibe_challenge": "Get 10 people to play and rate your game",
+      "assessment": "Phase 2 Game Development Assessment — completed game review with instructor feedback"
+    }
+  },
+  "phase_3_ai_creative": {
+    "title": "PHASE 3: AI & Real Vibe Coding — Build Apps by Talking to AI! (Weeks 9–12)",
+    "description": "In the final phase, kids experience the real magic of vibe coding — they train their own machine learning models, build real apps by describing ideas to AI tools like Replit and Bolt.new, create music with code, design with AI, and build their capstone 'Vibe Showcase' project. This is where kids learn the skill that Andrej Karpathy says will define the future: telling AI what to build and watching it come to life.",
+    "week_9": {
+      "title": "Week 9: AI for Kids — Teaching Computers to See, Hear & Build!",
+      "theme": "Introduction to Artificial Intelligence & Vibe Coding",
+      "topics": [
+        "What is Artificial Intelligence? A fun, simple explanation",
+        "What is Vibe Coding? — The story of Andrej Karpathy and how AI writes code for you",
+        "The vibe coding loop: Describe → AI Builds → You Test → You Improve",
+        "Machine Learning — teaching computers by showing examples",
+        "Google Teachable Machine: train your first image model",
+        "Training an AI to recognize your hand gestures",
+        "Training an AI to recognize sounds",
+        "Using your trained model in a Scratch project",
+        "Introduction to Google Gemini — chatting with AI safely",
+        "How to write good prompts — being clear and specific with AI",
+        "What is bias in AI? Why AI needs diverse data",
+        "Machine Learning for Kids (ML4Kids) platform",
+        "AI ethics for kids — being responsible with technology",
+        "The future of AI — jobs, creativity, and possibilities"
+      ],
+      "projects": [
+        "Rock Paper Scissors AI — a computer that plays against you using real ML",
+        "Emotion Detector — AI that reads your facial expression",
+        "AI Chat Experiment — ask Google Gemini to explain your favourite topic and fact-check its answers"
+      ],
+      "vibe_challenge": "Train an AI model to recognize your own drawings and use it in a Scratch project",
+      "parent_note": "Your child just trained a real machine learning model and learned to talk to AI! This is cutting-edge tech — Collins Dictionary named 'vibe coding' the Word of the Year 2025."
+    },
+    "week_10": {
+      "title": "Week 10: Vibe Coding Your First Apps — Build by Talking to AI!",
+      "theme": "Real Vibe Coding with AI App Builders",
+      "topics": [
+        "Welcome to real vibe coding! — building apps by describing them in English",
+        "Introduction to Replit — your browser-based coding playground",
+        "Replit Agent — tell it what to build and watch it create your app live",
+        "Writing great prompts: being specific about what you want (colours, buttons, features)",
+        "Building your first vibe-coded app: a simple calculator",
+        "Introduction to Bolt.new — type what you want, see it instantly",
+        "Building a game with Bolt.new — describe the rules, AI codes it",
+        "Testing your AI-built app — does it do what you asked?",
+        "Fixing problems by telling AI what went wrong (iterating)",
+        "Understanding the code AI wrote — reading what it made for you",
+        "Comparing: Scratch (you drag blocks) vs. Vibe Coding (you describe in words)",
+        "When AI makes mistakes — learning to spot and fix errors"
+      ],
+      "projects": [
+        "My Calculator App — tell Replit Agent to build a colourful calculator and customize it",
+        "Quiz Game App — describe a quiz game to Bolt.new with topics you love",
+        "Vibe-Coded Story App — describe an interactive story app and watch AI build it"
+      ],
+      "vibe_challenge": "Build an app using ONLY your voice and words — no dragging blocks, no typing code!",
+      "parent_note": "This is the week everything changes! Your child is now building real apps using the same AI tools that professional developers use. A 13-year-old recently built a full 3D game this way — imagine what your child can create!"
+    },
+    "week_11": {
+      "title": "Week 11: Music Coding, AI Art & Portfolio — Create Like a Pro",
+      "theme": "Music Coding, Digital Design & Portfolio Building",
+      "topics": [
+        "Introduction to Sonic Pi — coding music like a DJ",
+        "Notes, beats, and rhythms in code — loops for musical patterns",
+        "Live coding music — composing a 30-second original track",
+        "Using AI to help compose: describe a mood, get a melody suggestion",
+        "Introduction to AI image generation for kids (safe, educational tools)",
+        "Design principles for kids: colour, space, balance, contrast",
+        "Canva for Kids — templates, elements, and publishing",
+        "Creating game covers and posters for your projects",
+        "Vibe coding a portfolio: use Bolt.new to build your own showcase page",
+        "Adding your Scratch games and vibe-coded apps to your portfolio",
+        "Presentation design — making your showcase slides look amazing",
+        "Building your Digital Portfolio — showcasing all 12 weeks of work"
+      ],
+      "projects": [
+        "My Vibe Track — compose an original beat in Sonic Pi",
+        "Vibe-Coded Portfolio Website — tell Bolt.new to create a page showcasing your best projects",
+        "Game Cover Design — a professional-looking cover for your dream game in Canva"
+      ],
+      "vibe_challenge": "Design a logo for yourself as a 'Vibe Coder brand' and add it to your portfolio site",
+      "parent_note": "Your child just built their own portfolio website by talking to AI! Design + music + coding skills are incredibly valuable in any career."
+    },
+    "week_12": {
+      "title": "Week 12: Grand Vibe Showcase — Your Moment to Shine!",
+      "theme": "Capstone Project & Certification",
+      "topics": [
+        "Finalizing your capstone Vibe Project — choosing your best idea",
+        "Combining everything: block coding, vibe coding, AI, design, and music",
+        "Project polishing and bug-free testing",
+        "Writing a project description — SEO basics even for kids!",
+        "Recording a demo video of your project",
+        "Creating a 2-minute presentation pitch",
+        "Peer review — giving kind and helpful feedback",
+        "Receiving your Vibe Coder Kids Certification",
+        "Sharing your work on the Modern Age Coders Hall of Fame",
+        "What's next? — Preview of Vibe Coding for Teens",
+        "Celebration and graduation ceremony"
+      ],
+      "projects": [
+        "GRAND CAPSTONE 'Vibe Project': An original multi-element creation combining Scratch game OR a vibe-coded app (built with Replit/Bolt.new), AI model, original music, and Canva design — presented live to parents and peers"
+      ],
+      "assessment": "Final Capstone Assessment + Vibe Coder Kids Certification awarded",
+      "certification": "Vibe Coder — Kids Level (Modern Age Coders Certified)"
+    }
+  },
+  "faqs": [
+    {
+      "question": "What is Vibe Coding for Kids?",
+      "answer": "Vibe Coding for Kids is a 3-month, project-based program at Modern Age Coders designed for children aged 8–12. 'Vibe Coding' means building apps and software by describing what you want in plain English and letting AI create the code — a term coined by AI pioneer Andrej Karpathy in 2025 (Collins Dictionary Word of the Year!). Kids start with Scratch to learn coding fundamentals, then graduate to real vibe coding using AI tools like Replit, Bolt.new, and Google Gemini to build their own apps."
+    },
+    {
+      "question": "What age is this course designed for?",
+      "answer": "This course is specifically designed for children aged 8 to 12. The content, pace, and teaching style are all optimized for this age group, with age-appropriate projects and language."
+    },
+    {
+      "question": "Does my child need any prior coding experience?",
+      "answer": "Absolutely not! Vibe Coding for Kids is a complete beginner program. We start from zero — no prior coding or technical knowledge is required. All you need is curiosity and a computer!"
+    },
+    {
+      "question": "What tools and platforms will my child use?",
+      "answer": "Your child will use Scratch 3.0, Code.org, Replit (AI-powered browser coding), Bolt.new (AI app builder with instant preview), Google Gemini (AI chat), Google Teachable Machine, Sonic Pi (music coding), Canva, and ML4Kids. All of these are free, safe, and browser-based — nothing to install. These are the same AI tools professionals use for vibe coding in 2026."
+    },
+    {
+      "question": "How many hours per week does the course require?",
+      "answer": "We recommend 4–6 hours per week, which includes 2 live classes (1.5 hours each) plus 1–3 hours of independent project time. All classes are recorded so your child never misses a session."
+    },
+    {
+      "question": "What will my child have built by the end of the course?",
+      "answer": "By the end of 12 weeks, your child will have built 15+ projects including animated stories, original video games, a trained AI model, apps built using real vibe coding (AI app builders), original music tracks, their own portfolio website, and a full digital portfolio — all showcased at a Grand Vibe Showcase event."
+    },
+    {
+      "question": "Is there a certificate at the end?",
+      "answer": "Yes! Every student who completes the course and their capstone project receives the official 'Vibe Coder — Kids Level' certification from Modern Age Coders."
+    },
+    {
+      "question": "What comes after this course?",
+      "answer": "Upon completing Vibe Coding for Kids, students are ready for the Vibe Coding for Teens program, where they learn real programming languages (Python, JavaScript), build apps, and explore advanced AI — building directly on the foundation from this course."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma (Parent of 9-year-old Aryan)",
+      "text": "Aryan couldn't stop talking about his game every single day. In 12 weeks, he went from zero to building a complete game with levels, scores, and even AI! Modern Age Coders made it feel like play. Best investment we made.",
+      "rating": 5
+    },
+    {
+      "name": "Rohan Mehta (Parent of 10-year-old Kavya)",
+      "text": "Kavya used to think coding was 'boring and hard'. After Vibe Coding for Kids, she dreams of being a game developer. The way MAC teaches — through real projects and creativity — is just magical.",
+      "rating": 5
+    },
+    {
+      "name": "Sunita Pillai (Parent of 11-year-old Dev)",
+      "text": "The Grand Vibe Showcase at the end was an emotional moment. Dev stood up and presented his AI project to the whole class. I was so proud. The confidence this course built is priceless.",
+      "rating": 5
+    }
+  ],
+  "relatedCourses": [
+    "vibe-coding-for-teens-python-web-ai",
+    "scratch-kids",
+    "game-dev-kids",
+    "ai-tools-kids",
+    "problem-solving-kids"
+  ]
+}

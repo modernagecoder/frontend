@@ -23,6 +23,30 @@
     }
   },
   "courses": {
+    "vibe-coding-for-kids-beginners-ai-scratch-game-dev": {
+      "name": "Vibe Coding for Kids",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 34999, "display": "₹34,999" }
+      }
+    },
+    "vibe-coding-for-teens-python-web-ai-projects-course": {
+      "name": "Vibe Coding for Teens",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 44999, "display": "₹44,999" }
+      }
+    },
+    "vibe-coding-for-college-fullstack-ai-dsa-career-course": {
+      "name": "Vibe Coding for College",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 4999, "display": "₹4,999/month" },
+        "lifetime": { "amount": 59999, "display": "₹59,999" }
+      }
+    },
     "python-complete-masterclass-teens": {
       "name": "Python Programming Masterclass for Teens",
       "pricing": {

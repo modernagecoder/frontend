@@ -405,7 +405,15 @@ class CourseGenerator {
                 html += this.generateMonthHTML(month.data, month.key);
             });
         } else {
-            html += '<p class="no-content">No monthly content available</p>';
+            // Fallback: check if phase has weeks directly (no month wrapper)
+            const weeks = this.extractWeeks(phaseData);
+            if (weeks.length > 0) {
+                weeks.forEach(week => {
+                    html += this.generateWeekHTML(week.data, week.key);
+                });
+            } else {
+                html += '<p class="no-content">No monthly content available</p>';
+            }
         }
 
         html += `
