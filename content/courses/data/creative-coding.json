@@ -1813,5 +1813,87 @@
       "Legal basics",
       "Tax guidance"
     ]
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1 (Weeks 1-4): Digital art, 2D animation, video editing fundamentals",
+      "Month 2 (Weeks 5-8): Motion graphics, After Effects, character animation, VFX",
+      "Month 3 (Weeks 9-12): Creative coding with Processing & p5.js, interactive media",
+      "Month 4 (Weeks 13-16): 3D animation with Blender, advanced VFX, motion capture",
+      "Month 5 (Weeks 17-20): Social media content mastery - Instagram, TikTok, YouTube",
+      "Month 6 (Weeks 21-26): Professional portfolio, client projects, capstone"
+    ],
+    "total_projects_built": "50+ creative projects + professional showreel portfolio",
+    "skills_mastered": [
+      "Digital Art: design principles, color theory, composition, digital painting",
+      "Video Editing: DaVinci Resolve, CapCut, mobile editing, color grading",
+      "Motion Graphics: After Effects, keyframing, expressions, kinetic typography",
+      "3D Animation: Blender, modeling, rigging, character animation, VFX",
+      "Creative Coding: Processing, p5.js, generative art, interactive installations",
+      "Social Media: Instagram Reels, TikTok, YouTube - platform-specific strategies",
+      "Professional: portfolio development, client management, personal branding",
+      "Hardware: Arduino basics, physical computing, interactive installations"
+    ],
+    "weekly_structure": {
+      "live_sessions": "2 sessions (2 hours each)",
+      "hands_on_projects": "4-6 hours of creative production",
+      "portfolio_work": "2-3 hours building and refining portfolio pieces",
+      "total_per_week": "10-15 hours"
+    },
+    "certification": {
+      "final_certificate": "Certified Creative Technologist & Digital Animator (Modern Age Coders)",
+      "capstone_required": "Professional showreel + client-ready portfolio with 10+ polished pieces",
+      "specialization": "Choose specialization: Motion Graphics, 3D Animation, or Creative Coding"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes by industry professionals",
+      "portfolio_review": "Regular portfolio reviews and feedback from mentors",
+      "industry_exposure": "Guest sessions from working motion designers and animators",
+      "community": "Access to Modern Age Coders creative professionals community",
+      "career_support": "Freelancing guidance, client acquisition, and portfolio strategy"
+    }
+  },
+  "prerequisites": {
+    "age": "Ages 14+ (teens and adults)",
+    "experience": "No prior design or coding experience required - complete beginner friendly",
+    "equipment": "Computer with decent GPU (for 3D and video editing), internet connection",
+    "software": "Free tools used: DaVinci Resolve, Blender, Processing, p5.js. After Effects (trial/subscription)",
+    "creativity": "Passion for visual storytelling, art, or content creation"
+  },
+  "who_is_this_for": {
+    "aspiring_animators": "Teens and adults who dream of creating animations and motion graphics",
+    "content_creators": "Aspiring YouTubers, Instagram creators, and TikTok creators",
+    "design_enthusiasts": "Anyone passionate about visual design and digital art",
+    "career_switchers": "Professionals wanting to switch to creative technology roles",
+    "freelancers": "People who want to offer video editing, animation, or design services",
+    "creative_coders": "Developers who want to explore the intersection of code and art"
+  },
+  "career_paths_after_completion": [
+    "Motion Graphics Designer",
+    "Content Creator / Influencer",
+    "Video Editor",
+    "Creative Technologist",
+    "Animation Artist",
+    "Social Media Manager",
+    "VFX Artist",
+    "Creative Director",
+    "Freelance Designer"
+  ],
+  "salary_expectations": {
+    "fresher": "3-6 LPA (Junior Motion Designer / Video Editor)",
+    "after_1_year": "6-12 LPA (Motion Graphics Designer / Content Creator)",
+    "senior": "12-25 LPA (Creative Director / Lead Animator)",
+    "freelance": "500-3,000/hour based on specialization and client type",
+    "content_creator": "10,000-5,00,000/month from brand deals, YouTube, and freelancing",
+    "international": "40k-100k USD for remote creative technology roles"
+  },
+  "course_guarantees": {
+    "professional_portfolio": "Complete showreel and portfolio by course end",
+    "industry_tools": "Hands-on experience with industry-standard software",
+    "recorded_classes": "All live sessions recorded - never miss a class",
+    "mentorship": "Feedback from working professionals in animation and design",
+    "certificate": "Official Creative Technologist certification upon completion",
+    "freelance_ready": "Client acquisition and pricing strategy guidance included",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
   }
 }

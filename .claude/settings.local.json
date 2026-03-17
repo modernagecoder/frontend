@@ -11,7 +11,9 @@
       "Bash(node:*)",
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_take_screenshot",
-      "WebSearch"
+      "WebSearch",
+      "Bash(for course:*)",
+      "Bash(for f:*)"
     ]
   }
 }

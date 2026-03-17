@@ -1291,5 +1291,80 @@
       "Competition opportunities",
       "Certification pathways"
     ]
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1 (Weeks 1-4): Windows mastery, digital art with Paint & Paint 3D",
+      "Month 2 (Weeks 5-8): Microsoft Word - documents, reports, newsletters",
+      "Month 3 (Weeks 9-12): PowerPoint - presentations, animations, multimedia",
+      "Month 4 (Weeks 13-16): Excel - data entry, formulas, charts, analysis",
+      "Month 5 (Weeks 17-20): OneNote, Teams, Outlook, collaboration tools",
+      "Month 6 (Weeks 21-26): Integrated projects, capstone, certification"
+    ],
+    "total_projects_built": "40+ professional documents, presentations, spreadsheets & projects",
+    "skills_mastered": [
+      "Windows: file management, organization, system navigation, shortcuts",
+      "Microsoft Word: formatting, page layout, images, tables, collaboration",
+      "PowerPoint: slide design, animations, transitions, multimedia presentations",
+      "Excel: data entry, formulas, functions, charts, data visualization",
+      "OneNote: digital notebooks, note-taking, organization",
+      "Teams & Outlook: collaboration, email etiquette, video meetings",
+      "Digital Art: Paint, Paint 3D, creative design skills",
+      "Professional Skills: document design, data presentation, digital citizenship"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1 hour each)",
+      "practice_exercises": "1-2 hours of hands-on practice",
+      "weekly_project": "1 real-world project per week",
+      "total_per_week": "4-6 hours"
+    },
+    "certification": {
+      "final_certificate": "Microsoft Office Young Professional Certificate (Modern Age Coders)",
+      "capstone_required": "Integrated capstone project using Word, PowerPoint, and Excel together",
+      "portfolio": "40+ professional documents and presentations in digital portfolio"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes with recorded replays",
+      "age_appropriate": "Content designed for kids - real-world, school-relevant projects",
+      "parent_resources": "Parent and teacher resources for reinforcing skills at home",
+      "community": "Access to Modern Age Coders digital skills community",
+      "school_ready": "Skills directly applicable to school projects and assignments"
+    }
+  },
+  "prerequisites": {
+    "age": "Ages 8-14",
+    "experience": "No prior computer experience needed - start from basics",
+    "equipment": "Windows computer or laptop with Microsoft Office installed",
+    "software": "Microsoft Office (Word, PowerPoint, Excel) - free alternatives guidance provided",
+    "reading": "Basic reading ability to follow instructions"
+  },
+  "who_is_this_for": {
+    "school_students": "Kids aged 8-14 who need computer skills for school projects",
+    "digital_beginners": "Children with little or no computer experience",
+    "presentation_skills": "Students who want to create impressive school presentations",
+    "future_professionals": "Kids building early professional digital literacy skills",
+    "homeschoolers": "Families wanting structured digital skills education"
+  },
+  "career_paths_after_completion": [
+    "Digital Content Creator",
+    "Student Technology Leader",
+    "Office Productivity Expert",
+    "Data Analysis Beginner",
+    "Professional Document Designer",
+    "Ready for advanced coding or design courses"
+  ],
+  "salary_expectations": {
+    "note": "This is a foundational digital literacy course for children",
+    "school_impact": "Students report 40% improvement in school project quality",
+    "next_step": "Advanced courses in coding, design, or data analysis",
+    "long_term": "Digital literacy is essential for every modern career"
+  },
+  "course_guarantees": {
+    "practical_skills": "40+ real-world documents and projects created",
+    "school_applicable": "Skills directly usable for school assignments and projects",
+    "recorded_classes": "All live sessions recorded - never miss a class",
+    "safe_learning": "Age-appropriate, structured, and encouraging environment",
+    "certificate": "Official Microsoft Office Young Professional certificate upon completion",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
   }
 }

@@ -552,6 +552,87 @@
       "rating": 5
     }
   ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1–4): 8+ MERN stack projects — REST APIs, React apps, full-stack authenticated apps",
+      "Phase 2 (Weeks 5–8): 6+ DSA visualizers + 3 ML models trained, evaluated & deployed",
+      "Phase 3 (Weeks 9–12): System design documents, Docker/AWS deployments, Grand Capstone"
+    ],
+    "total_projects_built": "15+ production-grade projects + 100+ DSA problems solved",
+    "skills_mastered": [
+      "Frontend: React 18, React Router, TanStack Query, Tailwind CSS, Vite, v0.dev",
+      "Backend: Node.js, Express.js, REST API design, JWT auth, bcrypt, Multer",
+      "Database: MongoDB, Mongoose, schema design, aggregation, indexing",
+      "Vibe Coding: Cursor IDE (Composer + Agent), Claude Code, Windsurf, GitHub Copilot, Lovable, Bolt.new",
+      "DSA: Arrays, Strings, Linked Lists, Trees, Graphs, DP, Greedy — 100+ LeetCode problems",
+      "Machine Learning: scikit-learn, pandas, TensorFlow/Keras, Hugging Face, model deployment",
+      "DevOps: Git, GitHub Actions, Docker, AWS EC2/S3, Nginx, CI/CD pipelines",
+      "System Design: load balancing, caching, Redis, microservices, database scaling",
+      "Security: OWASP Top 10, AI-generated code auditing, rate limiting, secrets management"
+    ],
+    "weekly_structure": {
+      "live_sessions": "2 sessions (2 hours each)",
+      "dsa_practice": "3–4 hours (10+ problems/week)",
+      "project_work": "4–6 hours",
+      "total_per_week": "10–15 hours"
+    },
+    "certification": {
+      "final_certificate": "Vibe Coder — College Level: Full Stack & AI Engineer (Modern Age Coders Certified)",
+      "capstone_required": "Production-grade MERN or ML app with auth, cloud deployment, CI/CD, and security audit",
+      "dsa_milestone": "100+ LeetCode problems solved with documented approaches",
+      "portfolio": "Professional developer portfolio + optimized GitHub + LinkedIn"
+    },
+    "support_provided": {
+      "mentorship": "Code reviews by industry-experienced mentors",
+      "mock_interviews": "Technical mock interviews (DSA + System Design) with feedback",
+      "placement_support": "Resume reviews, LinkedIn optimization, job referral channels",
+      "community": "Access to Modern Age Coders alumni network of placed students",
+      "career_guidance": "Freelancing, internship, and placement strategy sessions"
+    }
+  },
+  "prerequisites": {
+    "education": "College student (any year) or recent graduate — any branch welcome",
+    "coding_experience": "Familiarity with at least one programming language (Python, Java, C++, or JavaScript)",
+    "web_basics": "Basic understanding of HTML/CSS (completing Vibe Coding for Teens is ideal but not required)",
+    "equipment": "Computer/laptop (Windows, Mac, or Linux) with stable internet",
+    "time_commitment": "10–15 hours per week — this is an intensive program",
+    "motivation": "Serious about building a career in software engineering"
+  },
+  "who_is_this_for": {
+    "cs_students": "CS/IT/MCA students preparing for campus placements and off-campus hiring",
+    "non_cs_engineers": "Engineering students from any branch (Mech, Civil, EE) switching to tech careers",
+    "career_switchers": "Recent graduates wanting to break into software development",
+    "dsa_preparation": "Students who need structured DSA preparation for product company interviews",
+    "startup_founders": "Aspiring founders who want to build their own MVPs at startup speed with AI tools",
+    "freelancers": "Students who want to earn through freelance full-stack development while studying"
+  },
+  "career_paths_after_completion": [
+    "Full Stack Web Developer (₹6–18 LPA)",
+    "Frontend Developer — React Specialist (₹7–20 LPA)",
+    "Backend Developer — Node.js/Python (₹8–22 LPA)",
+    "Junior Machine Learning Engineer (₹10–25 LPA)",
+    "Software Development Engineer (SDE) at product companies",
+    "Summer Internships at tech startups and MNCs",
+    "Freelance Full Stack Developer (₹500–2,500/hour)",
+    "AI/Vibe Coding Consultant — building MVPs for clients with AI tools"
+  ],
+  "salary_expectations": {
+    "fresher_sde": "₹6–12 LPA (SDE-1 at product companies and MNCs)",
+    "after_6_months_experience": "₹10–18 LPA (with strong portfolio and MERN skills)",
+    "after_1_year": "₹15–25 LPA (with ML specialization or senior full-stack role)",
+    "freelance": "₹500–2,500/hour based on project complexity and specialization",
+    "international_remote": "$40k–100k USD (remote roles with international companies)",
+    "startup_founding": "Equity-based — build and launch your own product at near-zero cost with vibe coding"
+  },
+  "course_guarantees": {
+    "production_projects": "15+ production-grade projects deployed on real cloud infrastructure",
+    "dsa_readiness": "100+ LeetCode problems solved — ready for product company OA rounds",
+    "placement_support": "Mock interviews, resume reviews, and job referral network access",
+    "industry_mentorship": "Code reviews and feedback from engineers at top companies",
+    "certificate": "Official Vibe Coder College Level certification upon completion",
+    "lifetime_community": "Lifetime access to alumni network and community channels",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
+  },
   "relatedCourses": [
     "vibe-coding-for-teens-python-web-ai-projects-course",
     "mern-stack-college",

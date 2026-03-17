@@ -500,6 +500,80 @@
       "rating": 5
     }
   ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1–4): 9+ Python CLI projects — games, calculators, automation tools",
+      "Phase 2 (Weeks 5–8): 9+ web projects — portfolio, responsive sites, API-connected apps",
+      "Phase 3 (Weeks 9–12): 6+ AI & vibe-coded projects + Grand Capstone deployed live"
+    ],
+    "total_projects_built": "12+ real projects deployed live + professional portfolio",
+    "skills_mastered": [
+      "Python: variables, loops, functions, OOP basics, file handling, JSON, error handling",
+      "Web Development: HTML5, CSS3, Flexbox, Grid, responsive design, JavaScript ES6+",
+      "JavaScript: DOM manipulation, event listeners, Fetch API, LocalStorage, async/await",
+      "Vibe Coding Tools: Cursor IDE, GitHub Copilot, v0.dev, Bolt.new, Lovable",
+      "AI & APIs: Google Gemini API, Claude API, prompt engineering, chatbot development",
+      "Backend Basics: Flask, Jinja2, SQLite, REST API concepts",
+      "DevOps: Git, GitHub, deployment on Netlify, Vercel, Render",
+      "Professional Skills: portfolio building, README writing, LinkedIn optimization"
+    ],
+    "weekly_structure": {
+      "live_sessions": "2 sessions (1.5–2 hours each)",
+      "independent_projects": "3–4 hours",
+      "vibe_challenge": "1 weekly creative challenge",
+      "total_per_week": "6–8 hours"
+    },
+    "certification": {
+      "final_certificate": "Vibe Coder — Teens Level (Modern Age Coders Certified)",
+      "capstone_required": "Complete full-stack or AI-powered web app, deployed live, presented at showcase",
+      "portfolio": "12+ completed projects + professional developer portfolio website"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes with recorded replays",
+      "code_reviews": "1-on-1 code reviews with instructors",
+      "peer_coding": "Collaborative coding sessions with classmates",
+      "community": "Access to Modern Age Coders teen developer community",
+      "hackathon_prep": "Guidance for coding competitions and hackathons"
+    }
+  },
+  "prerequisites": {
+    "age": "13–17 years old",
+    "experience": "Complete beginner friendly — no prior coding needed (Vibe Coding for Kids graduates will move faster)",
+    "equipment": "Computer or laptop (Windows, Mac, or Linux) with stable internet",
+    "software": "All tools are free — Cursor IDE, VS Code, GitHub Copilot (free for students), Python, Git",
+    "motivation": "Curiosity and willingness to build real projects every week"
+  },
+  "who_is_this_for": {
+    "complete_beginners": "Teens aged 13–17 with zero coding experience who want to start building real projects",
+    "scratch_graduates": "Kids who completed block coding and want to learn real programming languages",
+    "aspiring_developers": "Teens who dream of building their own apps, games, or websites",
+    "college_prep": "Students who want a strong portfolio for CS/tech college applications",
+    "hackathon_enthusiasts": "Teens interested in coding competitions, hackathons, and tech clubs",
+    "creative_builders": "Anyone who wants to bring ideas to life using code and AI"
+  },
+  "career_paths_after_completion": [
+    "Junior Web Developer (freelance or internship)",
+    "Python Developer Intern",
+    "Tech Entrepreneur / App Creator",
+    "Competitive Programmer (ICPC, CodeChef, HackerRank)",
+    "Freelance Web Developer (₹500–1,500/hour)",
+    "Tech Club Leader / School Tech Projects",
+    "Ready for Vibe Coding for College — MERN, DSA, ML & more"
+  ],
+  "salary_expectations": {
+    "freelance_teen": "₹500–1,500/hour for web development gigs",
+    "internship": "₹5,000–15,000/month internship stipend (after building portfolio)",
+    "after_college_course": "₹6–18 LPA as full-stack developer with strong portfolio",
+    "competitive_edge": "Students with real deployed projects get 3x more interview calls"
+  },
+  "course_guarantees": {
+    "deployed_projects": "Multiple projects deployed live on the internet by course end",
+    "professional_portfolio": "Complete developer portfolio website with GitHub profile",
+    "recorded_classes": "All live sessions recorded — never miss a class",
+    "free_tools": "Every tool used in this course is free — no paid subscriptions required",
+    "certificate": "Official Vibe Coder Teens certification upon completion",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
+  },
   "relatedCourses": [
     "vibe-coding-for-kids-beginners-ai-scratch-game-dev",
     "vibe-coding-for-college-fullstack-ai-career",

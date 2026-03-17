@@ -1336,5 +1336,51 @@
     "tools_mastered_by_students": "50+",
     "continued_to_advanced_ai": "82%",
     "parent_satisfaction": "98%"
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1 (Weeks 1-4): AI chatbot mastery, prompt engineering projects",
+      "Month 2 (Weeks 5-8): AI art generation, image editing, creative portfolio",
+      "Month 3 (Weeks 9-12): AI music, video, and animation creation projects",
+      "Month 4 (Weeks 13-16): AI study tools, productivity apps, creative projects",
+      "Month 5 (Weeks 17-20): AI coding assistants, no-code app building, ML platforms",
+      "Month 6 (Weeks 21-26): AI for social good, capstone project, future skills"
+    ],
+    "total_projects_built": "50+ AI-powered creative projects + Grand Capstone",
+    "skills_mastered": [
+      "AI Chat: ChatGPT, Google Gemini, Claude - prompt engineering and conversation design",
+      "AI Art: DALL-E, Midjourney, Bing Image Creator, AI photo editing",
+      "AI Music & Audio: AI music generation, voice tools, audio creation",
+      "AI Video: AI video generation, animation, motion graphics",
+      "AI Productivity: study assistants, research tools, writing helpers",
+      "AI Coding: AI coding assistants, no-code app builders, ML platforms",
+      "AI Ethics: safety, bias awareness, responsible AI use",
+      "Prompt Engineering: writing effective prompts for any AI tool"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1-1.5 hours each)",
+      "hands_on_projects": "2-4 hours of creative AI projects",
+      "ai_exploration": "1-2 hours experimenting with new AI tools",
+      "total_per_week": "5-8 hours"
+    },
+    "certification": {
+      "final_certificate": "Certified AI Creator for Youth (Modern Age Coders)",
+      "capstone_required": "Multi-tool AI project combining art, text, audio, and video AI",
+      "portfolio": "50+ AI-created projects in digital showcase portfolio"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes with recorded replays",
+      "safe_ai_access": "All AI tools used in supervised, age-appropriate settings",
+      "parent_updates": "Weekly progress reports and tool usage guidelines",
+      "community": "Access to Modern Age Coders AI creators community",
+      "ethics_focus": "Dedicated module on AI safety, ethics, and responsible use"
+    }
+  },
+  "prerequisites": {
+    "age": "Ages 8-16 (multiple difficulty tracks)",
+    "experience": "No prior AI or coding experience needed",
+    "equipment": "Computer or tablet with internet connection",
+    "software": "Most AI tools used are free or have free tiers - guidance provided",
+    "curiosity": "Interest in AI, creativity, and building cool things"
   }
 }

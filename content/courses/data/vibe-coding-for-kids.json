@@ -462,6 +462,76 @@
       "rating": 5
     }
   ],
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Phase 1 (Weeks 1–4): 9+ Scratch animations, stories & interactive projects",
+      "Phase 2 (Weeks 5–8): 9+ games including Dream Game capstone",
+      "Phase 3 (Weeks 9–12): 6+ AI, vibe coding & creative projects + Grand Capstone"
+    ],
+    "total_projects_built": "15+ creative projects + Grand Vibe Showcase Capstone",
+    "skills_mastered": [
+      "Block Coding: Scratch 3.0, sprites, backdrops, motion, looks, sound blocks",
+      "Programming Logic: loops, conditionals, events, variables, collision detection",
+      "Game Development: score systems, lives, levels, enemy AI, game physics",
+      "Vibe Coding: Replit Agent, Bolt.new — building apps by describing in English",
+      "AI & Machine Learning: Google Teachable Machine, ML4Kids, Google Gemini",
+      "Music Coding: Sonic Pi — beats, loops, live coding",
+      "Digital Design: Canva, portfolio building, presentation skills",
+      "Prompt Engineering: writing clear instructions for AI tools"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1.5 hours each)",
+      "independent_projects": "1–3 hours",
+      "vibe_challenge": "1 fun weekly challenge",
+      "total_per_week": "4–6 hours"
+    },
+    "certification": {
+      "final_certificate": "Vibe Coder — Kids Level (Modern Age Coders Certified)",
+      "capstone_required": "Grand Vibe Showcase project combining coding, AI, music & design",
+      "portfolio": "15+ completed projects showcased in digital portfolio"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes with recorded replays",
+      "parent_dashboard": "Weekly progress tracking for parents",
+      "age_appropriate": "Content designed specifically for ages 8–12",
+      "safe_environment": "Fun, encouraging, and bully-free classroom",
+      "community": "Access to Modern Age Coders kids community"
+    }
+  },
+  "prerequisites": {
+    "age": "8–12 years old",
+    "experience": "Absolutely none — complete beginner friendly",
+    "equipment": "A computer or laptop with internet connection",
+    "software": "All tools are free and browser-based — nothing to install",
+    "parental_support": "Parents encouraged to engage and review weekly projects"
+  },
+  "who_is_this_for": {
+    "curious_kids": "Children aged 8–12 who are curious about how games and apps are made",
+    "creative_kids": "Kids who love drawing, storytelling, music, or building things",
+    "screen_time_shift": "Parents who want to turn screen time into productive learning time",
+    "future_ready": "Families who want to give their child a head start in technology and AI",
+    "struggling_learners": "Children with dyslexia, ADHD, or other learning differences — vibe coding removes syntax barriers"
+  },
+  "career_paths_after_completion": [
+    "Digital Creator & Storyteller",
+    "Junior Game Designer",
+    "Creative Technologist",
+    "AI Explorer",
+    "Ready for Vibe Coding for Teens program"
+  ],
+  "salary_expectations": {
+    "note": "This is a foundational course for children — career/salary outcomes apply after completing advanced programs",
+    "next_step": "Vibe Coding for Teens (Ages 13–17) — Python, Web Dev, AI projects",
+    "long_term": "Students who continue to College level can earn ₹6–25 LPA in tech roles"
+  },
+  "course_guarantees": {
+    "project_portfolio": "15+ completed projects by course end",
+    "recorded_classes": "All live sessions recorded — never miss a class",
+    "parent_updates": "Weekly progress reports via parent dashboard",
+    "safe_learning": "Age-appropriate, moderated, and bully-free environment",
+    "certificate": "Official Vibe Coder Kids certification upon completion",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
+  },
   "relatedCourses": [
     "vibe-coding-for-teens-python-web-ai",
     "scratch-kids",

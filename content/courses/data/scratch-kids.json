@@ -1203,5 +1203,74 @@
       "Open source contributor",
       "Content creator"
     ]
+  },
+  "additional_learning_resources": {
+    "projects_throughout_course": [
+      "Month 1 (Weeks 1-4): 12+ Scratch projects - animations, drawings, interactive stories",
+      "Month 2 (Weeks 5-8): 12+ games - score systems, clones, multi-sprite coordination",
+      "Month 3 (Weeks 9-12): 12+ advanced projects - physics simulations, extensions, final portfolio"
+    ],
+    "total_projects_built": "36+ Scratch projects + Final Capstone Game",
+    "skills_mastered": [
+      "Scratch Basics: sprites, motion, looks, sound, pen blocks, backdrops",
+      "Programming Logic: loops, conditionals, events, variables, operators",
+      "Data Structures: lists, data management, cloud variables",
+      "Game Development: score systems, collision detection, clones, physics",
+      "Animation: character animation, scene transitions, storytelling",
+      "Advanced: extensions (music, video sensing, text-to-speech), optimization",
+      "Professional Skills: debugging, code organization, project planning"
+    ],
+    "weekly_structure": {
+      "live_classes": "2 sessions (1-1.5 hours each)",
+      "independent_practice": "2-3 hours of project work",
+      "weekly_challenge": "1 creative coding challenge",
+      "total_per_week": "5-7 hours"
+    },
+    "certification": {
+      "final_certificate": "Certified Scratch Game Developer (Modern Age Coders)",
+      "capstone_required": "Complete original game with multiple levels, score system, and polished UI",
+      "portfolio": "36+ completed Scratch projects in online portfolio"
+    },
+    "support_provided": {
+      "live_instruction": "Expert-led live classes with recorded replays",
+      "age_appropriate": "Content designed for kids - fun, visual, and encouraging",
+      "parent_guide": "Parent & teacher resources for supporting learning at home",
+      "community": "Access to Modern Age Coders kids coding community",
+      "transition_path": "Clear pathway to Python/JavaScript after course completion"
+    }
+  },
+  "prerequisites": {
+    "age": "Ages 6-14 (designed for complete beginners)",
+    "experience": "Absolutely none - start from zero",
+    "equipment": "Computer or laptop with internet connection",
+    "software": "Scratch is free and browser-based - nothing to install",
+    "reading": "Basic reading ability to follow on-screen instructions"
+  },
+  "who_is_this_for": {
+    "complete_beginners": "Kids aged 6-14 with zero coding experience",
+    "creative_kids": "Children who love games, stories, art, or music",
+    "visual_learners": "Kids who learn best through visual, hands-on activities",
+    "future_coders": "Children interested in eventually learning Python or JavaScript",
+    "homeschoolers": "Families looking for structured coding education"
+  },
+  "career_paths_after_completion": [
+    "Junior Game Developer",
+    "Creative Coder",
+    "Animation Creator",
+    "Interactive Media Designer",
+    "Ready for Python/JavaScript transition"
+  ],
+  "salary_expectations": {
+    "note": "This is a foundational course for children - career/salary outcomes apply after completing advanced programs",
+    "next_step": "Vibe Coding for Teens or Python for Teens - real programming languages",
+    "long_term": "Students who continue can earn 6-25 LPA in game development and creative tech roles"
+  },
+  "course_guarantees": {
+    "project_portfolio": "36+ completed Scratch projects by course end",
+    "recorded_classes": "All live sessions recorded - never miss a class",
+    "safe_learning": "Age-appropriate, moderated, and encouraging environment",
+    "certificate": "Official Scratch Game Developer certification upon completion",
+    "transition_support": "Guidance for moving to text-based programming languages",
+    "satisfaction": "If not satisfied in first 2 weeks, full refund guaranteed"
   }
 }
