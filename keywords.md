@@ -164,6 +164,7 @@ Create a dedicated maths landing page with:
 - **Schema:** Course + FAQPage
 
 ---
+<!-- done till keyword 3 -->
 
 ### KEYWORD 4: `learn python for beginners`
 
@@ -407,7 +408,7 @@ Create a dedicated maths landing page with:
 
 **Also add to sitemap.xml and navigation (under a "Maths" dropdown)**
 
----
+<!-- we have completed till keyword 10 -->
 
 ### KEYWORD 11: `how to start coding`
 
@@ -552,6 +553,8 @@ Create a dedicated maths landing page with:
 
 ---
 
+
+
 ### KEYWORD 17: `book free coding demo class`
 
 **Volume:** 500–1K | **Competition:** Low | **Intent:** Transactional (highest intent!)
@@ -570,7 +573,8 @@ Create a dedicated maths landing page with:
 | Google Ads landing page | Use this page as Google Ads destination for demo-related keywords |
 
 ---
-
+<!-- complete tilllher keyword 17 -->
+<!-- ------------------------------------------------------------- -->
 ### KEYWORD 18: `CBSE maths tuition online`
 
 **Volume:** 1K–5K | **Competition:** Low | **Intent:** Commercial

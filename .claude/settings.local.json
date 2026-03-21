@@ -18,7 +18,8 @@
       "Bash(find /c/Users/hp/Desktop/SkyCoders/kiro24/frontend/content/blog/generated -name *.html)",
       "Bash(grep -h \"<title>\" /c/Users/hp/Desktop/SkyCoders/kiro24/frontend/src/pages/*.html)",
       "Bash(sed 's/<[^>]*>//g')",
-      "Bash(find /c/Users/hp/Desktop/SkyCoders/kiro24/frontend -type f -name *python* -o -name *blog*)"
+      "Bash(find /c/Users/hp/Desktop/SkyCoders/kiro24/frontend -type f -name *python* -o -name *blog*)",
+      "Bash(find C:UsershpDesktopSkyCoderskiro24frontendcontentblog -type f -iname *scratch*)"
     ]
   }
 }
