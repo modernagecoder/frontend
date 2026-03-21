@@ -1,14 +1,16 @@
 {
   "meta": {
     "slug": "python-for-beginners",
-    "title": "Python for Beginners: Start Your Programming Journey",
-    "description": "A comprehensive beginner's guide to Python programming. Learn syntax, data structures, and build your first Python projects with step-by-step examples.",
+    "title": "Learn Python for Beginners: Complete Step-by-Step Guide (2026)",
+    "description": "Learn Python for beginners with our free step-by-step guide. Covers variables, loops, functions, OOP, and your first project. Start coding Python today!",
     "keywords": [
+      "learn python for beginners",
       "python tutorial",
       "learn python",
       "python for beginners",
       "programming tutorial",
-      "python basics"
+      "python basics",
+      "how to learn python from scratch"
     ],
     "author": {
       "name": "Modern Age Coders Team",
@@ -27,8 +29,8 @@
     "featured": false
   },
   "hero": {
-    "title": "Python for Beginners: Start Your Programming Journey",
-    "subtitle": "Learn the world's most popular programming language from scratch",
+    "title": "Learn Python for Beginners: Complete Step-by-Step Guide (2026)",
+    "subtitle": "Learn the world's most popular programming language from scratch with free examples and projects",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_35_hero.png",
       "alt": "Beginner climbing colorful staircase on Python learning journey"
@@ -610,6 +612,50 @@
         "calloutType": "success",
         "title": "Final Milestone!",
         "text": "Congratulations! You've completed the Python basics tutorial. You now know variables, operators, conditionals, loops, lists, dictionaries, functions, error handling, and modules—everything you need to build real programs!"
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What You'll Learn in Our Python for Beginners Course",
+        "id": "python-course-overview"
+      },
+      {
+        "type": "paragraph",
+        "text": "At Modern Age Coders, our structured Python course covers everything you need to go from complete beginner to building real projects:"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "Variables, data types & operators",
+          "Conditionals & loops",
+          "Functions & modules",
+          "File handling & error management",
+          "Object-oriented programming (OOP)",
+          "Working with APIs and JSON data",
+          "Your first 5 projects: calculator, quiz game, web scraper, chatbot, and portfolio site"
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Who Should Learn Python?",
+        "id": "who-should-learn-python"
+      },
+      {
+        "type": "list",
+        "style": "unordered",
+        "items": [
+          "<strong>Kids aged 10+</strong> starting their first text-based language after Scratch",
+          "<strong>Teens</strong> preparing for competitive programming, hackathons, and college applications",
+          "<strong>College students</strong> needing Python for data science, AI, or software engineering",
+          "<strong>Working professionals</strong> switching to tech careers or automating their workflow",
+          "<strong>Anyone worldwide</strong> who wants to learn the #1 most popular programming language"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Our live 1-on-1 Python classes are available worldwide with flexible scheduling across all time zones. Students from the US, UK, UAE, Singapore, Australia, and 15+ other countries already learn with us. <a href='/book-demo'>Book a free demo class</a> to see if it's right for you."
       },
       {
         "type": "heading",
