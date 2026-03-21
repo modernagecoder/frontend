@@ -1,163 +1,257 @@
 # Modern Age Coders
-> India's Premier Live Online Coding Academy for Kids, Teens, and Professionals
 
-## About
-Modern Age Coders is a live online coding education platform based in India, offering personalized 1-on-1 and small batch coding classes. We teach programming, AI, Data Science, Web Development, and Mathematics to students of all ages - from kids (6+) to working professionals.
+> Live online coding and mathematics classes for kids (ages 6+), teens, college students, 
+and adults across India. Small batch sizes of 4-8 students per class.
 
-## Core Pages
+Modern Age Coders is an Indian online education platform founded to make quality coding and 
+mathematics education accessible to learners of all ages. We offer live, interactive classes 
+taught by expert mentors with a maximum of 4-8 students per batch — unlike large platforms 
+where students get lost in the crowd.
 
-### Homepage
-- /
-- Main landing page with course overview, testimonials, and enrollment CTAs
+Our courses span from Scratch block coding for 6-year-olds to AI and machine learning for 
+adults. Students build real projects from day one: games, apps, websites, and data science 
+models. All classes are conducted online over video conferencing and include recorded sessions 
+for revision.
 
-### Courses
-- /courses - Course catalog and browsing
-- /category/kids.html - Courses for children ages 6-12
-- /category/teens.html - Courses for teenagers 13-17
-- /category/college.html - Courses for college students
-- /category/professionals.html - Courses for working professionals
-- /category/corporate.html - Corporate training programs
+We serve students across India including Mumbai, Kolkata, Bengaluru, Delhi, Hyderabad, Pune, 
+Chennai, Ahmedabad, and Indore, as well as international students (classes available in USD, 
+EUR, GBP, and other currencies).
 
-### Lead Generation
-- /book-demo - Schedule a free demo class
-- /contact - Contact form and information
-- /pricing - Pricing information
+## Products & Services
 
-### About & Trust
-- /about - Company information and team
-- /success-stories - Student success stories
-- /love - Student and parent testimonials (Love Wall)
-- /student-projects - Showcase of student work
-- /student-labs - Interactive coding labs
+- Kids Coding (Ages 6-12): Scratch, block coding, game design, Canva — https://learn.modernagecoders.com/courses/coding/kids
+- Teens Coding (Ages 13-17): Python, Java, web development, AI/ML — https://learn.modernagecoders.com/courses/coding/teens
+- Adults & College: Full-stack development, data science, enterprise Java — https://learn.modernagecoders.com/courses/coding/college
+- Mathematics: School math, olympiad prep, college math, data science math — https://learn.modernagecoders.com/courses
+- Girls in Tech: Special empowering batch exclusively for girls — https://learn.modernagecoders.com/coding-classes-for-girls
+- Summer Coding Camp: Intensive multi-week camps for kids & teens — https://learn.modernagecoders.com/summer-coding-camp
+- Corporate Training: Custom tech training for companies — https://learn.modernagecoders.com/courses/coding/corporate
+- Vibe Coding: AI-powered coding for kids, teens, and college students — https://learn.modernagecoders.com/courses
+- Coding Challenges: Daily Python, JavaScript, Java challenges — https://learn.modernagecoders.com/coding-challenges
+- Maths Challenges: Daily mathematics practice problems — https://learn.modernagecoders.com/maths-challenges
+- Business Solutions: Custom software, AI solutions & automation — https://learn.modernagecoders.com/business-solutions
 
-### Free Resources
-- /free-resources - Free learning materials
-- /blog - Educational blog with 46+ articles
-- /coding-challenges - Daily coding practice challenges
-- /maths-challenges - Daily mathematics challenges
+## Key Pages
 
-### Tools & Games  
-- /beat-the-babu - Coding game for practice
-- /aura - Student achievement/gamification system
-- /bootstrap - Bootstrap CSS learning resource
+- Homepage: https://learn.modernagecoders.com/
+- All Courses: https://learn.modernagecoders.com/courses
+- About Us: https://learn.modernagecoders.com/about
+- Blog (coding & math education tips): https://learn.modernagecoders.com/blog
+- Pricing (from ₹1499/month): https://learn.modernagecoders.com/pricing
+- Book a Free Demo: https://learn.modernagecoders.com/book-demo
+- Student Success Stories: https://learn.modernagecoders.com/success-stories
+- Wall of Love (Testimonials): https://learn.modernagecoders.com/love
+- Contact: https://learn.modernagecoders.com/contact
+- FAQ: https://learn.modernagecoders.com/faq
+- Free Resources: https://learn.modernagecoders.com/free-resources
+- Student Projects: https://learn.modernagecoders.com/projects
+- Coding Roadmap: https://learn.modernagecoders.com/coding-roadmap
+- Coding Languages Guide: https://learn.modernagecoders.com/coding-lang
+- Privacy Policy: https://learn.modernagecoders.com/privacy
+- Terms of Service: https://learn.modernagecoders.com/terms
 
-### For Businesses
-- /business-solutions - Custom software solutions
-- /corporate-training - Corporate training programs
+## Course Catalog by Audience
 
-### Legal
-- /terms - Terms and conditions
-- /privacy - Privacy policy
+### For Kids (Ages 6-12): https://learn.modernagecoders.com/levels/coding-for-kids
+- Vibe Coding for Kids (AI + Scratch + Game Dev): https://learn.modernagecoders.com/courses/vibe-coding-for-kids-beginners-ai-scratch-game-dev
+- Scratch Programming Complete Course: https://learn.modernagecoders.com/courses/scratch-programming-complete-course
+- Kids Coding Blocks Masterclass: https://learn.modernagecoders.com/courses/kids-coding-blocks-masterclass
+- Block Coding App Development: https://learn.modernagecoders.com/courses/block-coding-app-development-masterclass
+- Kids AI Mastery Course: https://learn.modernagecoders.com/courses/kids-ai-mastery-course
+- Kids AI Web Development: https://learn.modernagecoders.com/courses/kids-ai-web-development-course
+- Problem Solving & Computational Thinking: https://learn.modernagecoders.com/courses/problem-solving-and-computational-thinking-for-kids
+- Game Development for Kids: https://learn.modernagecoders.com/courses/game-development-masterclass-for-kids
+- Creative Coding & Animation: https://learn.modernagecoders.com/courses/creative-coding-animation-mastery
+- Canva AI Design Masterclass: https://learn.modernagecoders.com/courses/canva-ai-design-masterclass
+- Microsoft Office Kids Mastery: https://learn.modernagecoders.com/courses/microsoft-office-kids-mastery
 
-## City Landing Pages (Local SEO)
-- /best-coding-class-in-kolkata
-- /best-coding-class-in-bengaluru
-- /best-coding-class-in-chennai
-- /best-coding-class-in-pune
-- /best-coding-class-in-mumbai
-- /best-coding-class-in-delhi
-- /best-coding-class-in-hyderabad
-- /best-coding-class-in-ahmedabad
-- /best-coding-class-in-indore
+### For Teens (Ages 13-17): https://learn.modernagecoders.com/levels/coding-for-teens
+- Vibe Coding for Teens (Python + Web + AI): https://learn.modernagecoders.com/courses/vibe-coding-for-teens-python-web-ai-projects-course
+- Python Complete Masterclass: https://learn.modernagecoders.com/courses/python-complete-masterclass-teens
+- Python AI Kids Masterclass: https://learn.modernagecoders.com/courses/python-ai-kids-masterclass
+- Java Programming for Teens: https://learn.modernagecoders.com/courses/java-programming-masterclass-for-teens
+- C++ Programming for Teens: https://learn.modernagecoders.com/courses/cpp-programming-masterclass-for-teens
+- Frontend Development for Teens: https://learn.modernagecoders.com/courses/frontend-development-masterclass-for-teens
+- Full Stack Web Development for Teens: https://learn.modernagecoders.com/courses/full-stack-web-development-teens-masterclass
+- Backend Coding for Teens: https://learn.modernagecoders.com/courses/backend-coding-masterclass-for-teens
+- React for Teens: https://learn.modernagecoders.com/courses/react-for-teens-complete-masterclass
+- App Development for Teens: https://learn.modernagecoders.com/courses/complete-app-development-masterclass-for-teens
+- Game Development for Teens: https://learn.modernagecoders.com/courses/complete-game-development-masterclass-for-teens
+- AI/ML Masterclass for Teens: https://learn.modernagecoders.com/courses/ai-ml-masterclass-teens
+- Problem Solving & DSA for Teens: https://learn.modernagecoders.com/courses/problem-solving-dsa-masterclass-teens
+- MySQL Mastery for Teens: https://learn.modernagecoders.com/courses/mysql-mastery-for-teens
+- Creative Media Design for Teens: https://learn.modernagecoders.com/courses/creative-media-design-masterclass-teens
 
-## Course Categories
+### For College Students: https://learn.modernagecoders.com/levels/coding-for-college-students
+- Vibe Coding for College (Full-Stack + AI + DSA): https://learn.modernagecoders.com/courses/vibe-coding-for-college-fullstack-ai-dsa-career-course
+- Python Programming Zero to Advanced: https://learn.modernagecoders.com/courses/python-programming-masterclass-zero-to-advanced-college
+- Python AI Automation: https://learn.modernagecoders.com/courses/python-ai-automation-masterclass-college
+- Complete Java Programming: https://learn.modernagecoders.com/courses/complete-java-programming-masterclass-college
+- C++ Programming Complete: https://learn.modernagecoders.com/courses/cpp-programming-complete-masterclass-college
+- Full Stack Web Development: https://learn.modernagecoders.com/courses/full-stack-web-development-masterclass-college
+- MERN Stack Development: https://learn.modernagecoders.com/courses/mern-stack-development-masterclass-college
+- React.js Complete Masterclass: https://learn.modernagecoders.com/courses/react-js-complete-masterclass-college
+- Complete App Development: https://learn.modernagecoders.com/courses/complete-app-development-masterclass-college
+- Flutter App Development: https://learn.modernagecoders.com/courses/complete-flutter-app-development-masterclass-college
+- Swift Programming: https://learn.modernagecoders.com/courses/complete-swift-programming-masterclass-college
+- Kotlin Programming: https://learn.modernagecoders.com/courses/complete-kotlin-programming-masterclass-professional
+- TypeScript Programming: https://learn.modernagecoders.com/courses/complete-typescript-programming-masterclass-college
+- Golang Programming: https://learn.modernagecoders.com/courses/complete-golang-programming-masterclass-college
+- Game Development Complete: https://learn.modernagecoders.com/courses/game-development-complete-masterclass-college
+- AI/ML Complete Masterclass: https://learn.modernagecoders.com/courses/ai-ml-masterclass-complete-college
+- Artificial Intelligence Complete: https://learn.modernagecoders.com/courses/artificial-intelligence-complete-masterclass-college
+- Generative AI Masterclass: https://learn.modernagecoders.com/courses/complete-generative-ai-masterclass-college
+- AI Tools Mastery: https://learn.modernagecoders.com/courses/ai-tools-mastery-complete-college
+- Data Science Complete: https://learn.modernagecoders.com/courses/data-science-complete-masterclass-college
+- Data Analysis Mastery: https://learn.modernagecoders.com/courses/data-analysis-mastery-course-college
+- Data Structures & Algorithms: https://learn.modernagecoders.com/courses/data-structures-algorithms-masterclass-college
+- Competitive Programming: https://learn.modernagecoders.com/courses/competitive-programming-masterclass-college
+- MySQL Database Complete: https://learn.modernagecoders.com/courses/mysql-database-complete-masterclass-college
+- Ethical Hacking Masterclass: https://learn.modernagecoders.com/courses/ethical-hacking-masterclass-complete
+- Algorithmic Trading Masterclass: https://learn.modernagecoders.com/courses/algorithmic-trading-masterclass-complete
+- Algorithmic Trading Automation: https://learn.modernagecoders.com/courses/algorithmic-trading-automation-masterclass
 
-### Python & AI
-- /courses/python-programming-masterclass-zero-to-advanced-college
-- /courses/python-ai-automation-masterclass-college
-- /courses/python-ai-kids-masterclass
-- /courses/python-complete-masterclass-teens
-- /courses/artificial-intelligence-complete-masterclass-college
-- /courses/ai-ml-masterclass-complete-college
-- /courses/ai-ml-masterclass-teens
-- /courses/ai-tools-mastery-complete-college
+### For Professionals: https://learn.modernagecoders.com/levels/coding-for-professionals
 
-### Web Development
-- /courses/full-stack-web-development-masterclass-college
-- /courses/full-stack-web-development-teens-masterclass
-- /courses/mern-stack-development-masterclass-college
-- /courses/react-js-complete-masterclass-college
-- /courses/react-for-teens-complete-masterclass
-- /courses/frontend-development-masterclass-for-teens
-- /courses/backend-coding-masterclass-for-teens
-
-### Data Science & DSA
-- /courses/data-science-complete-masterclass-college
-- /courses/data-structures-algorithms-masterclass-college
-- /courses/data-analysis-mastery-course-college
-- /courses/competitive-programming-masterclass-college
-- /courses/problem-solving-dsa-masterclass-teens
-
-### Java & C++
-- /courses/complete-java-programming-masterclass-college
-- /courses/java-programming-masterclass-for-teens
-- /courses/cpp-programming-complete-masterclass-college
-- /courses/cpp-programming-masterclass-for-teens
-
-### Mobile Development
-- /courses/complete-app-development-masterclass-college
-- /courses/complete-app-development-masterclass-for-teens
-- /courses/complete-flutter-app-development-masterclass-college
-- /courses/complete-swift-programming-masterclass-college
-- /courses/complete-kotlin-programming-masterclass-professional
-
-### Game Development
-- /courses/game-development-complete-masterclass-college
-- /courses/complete-game-development-masterclass-for-teens
-- /courses/game-development-masterclass-for-kids
-
-### Kids Courses
-- /courses/scratch-programming-complete-course
-- /courses/kids-coding-blocks-masterclass
-- /courses/kids-ai-mastery-course
-- /courses/kids-ai-web-development-course
-- /courses/problem-solving-and-computational-thinking-for-kids
-- /courses/canva-ai-design-masterclass
-- /courses/microsoft-office-kids-mastery
-- /courses/creative-coding-animation-mastery
+### Corporate Training: https://learn.modernagecoders.com/levels/corporate-training
 
 ### Girls Coding Programs
-- /courses/princess-coders-complete-coding-masterclass
-- /courses/queen-coders-advanced-tech-leadership
-- /courses/alpha-girls-elite-tech-mastery
+- Princess Coders (Beginner Girls): https://learn.modernagecoders.com/courses/princess-coders-complete-coding-masterclass
+- Queen Coders (Advanced Girls): https://learn.modernagecoders.com/courses/queen-coders-advanced-tech-leadership
+- Alpha Girls (Elite Tech Mastery): https://learn.modernagecoders.com/courses/alpha-girls-elite-tech-mastery
 
-### Mathematics
-- /courses/elementary-mathematics-complete-masterclass
-- /courses/comprehensive-middle-school-mathematics-mastery
-- /courses/complete-high-school-mathematics-mastery
-- /courses/college-mathematics-complete-masterclass
-- /courses/olympiad-competition-mathematics-mastery
-- /courses/complete-business-finance-mathematics-mastery
-- /courses/data-analytics-mathematics-masterclass
+### Mathematics Courses
+- Elementary Mathematics Complete: https://learn.modernagecoders.com/courses/elementary-mathematics-complete-masterclass
+- Middle School Mathematics: https://learn.modernagecoders.com/courses/comprehensive-middle-school-mathematics-mastery
+- High School Mathematics: https://learn.modernagecoders.com/courses/complete-high-school-mathematics-mastery
+- College Mathematics Complete: https://learn.modernagecoders.com/courses/college-mathematics-complete-masterclass
+- Olympiad & Competition Mathematics: https://learn.modernagecoders.com/courses/olympiad-competition-mathematics-mastery
+- Business & Finance Mathematics: https://learn.modernagecoders.com/courses/complete-business-finance-mathematics-mastery
+- Data Analytics Mathematics: https://learn.modernagecoders.com/courses/data-analytics-mathematics-masterclass
 
-### Specialized
-- /courses/mysql-database-complete-masterclass-college
-- /courses/mysql-mastery-for-teens
-- /courses/algorithmic-trading-masterclass-complete
-- /courses/algorithmic-trading-automation-masterclass
-- /courses/complete-typescript-programming-masterclass-college
-- /courses/complete-golang-programming-masterclass-college
-- /courses/ethical-hacking-masterclass-complete
+## SEO Landing Pages
 
-## Blog Topics
-Our blog covers: coding for kids, programming languages, AI education, career guidance, college student resources, professional upskilling, business technology, mathematics, and parenting guides for tech education.
+- Python & AI Classes for Kids & Teens: https://learn.modernagecoders.com/python-and-ai-classes-for-kids-teens
+- Coding Classes for Girls: https://learn.modernagecoders.com/coding-classes-for-girls
+- Best Coding Classes Online: https://learn.modernagecoders.com/best-coding-classes-online
+- AI/ML Course for Teens: https://learn.modernagecoders.com/ai-ml-course-for-teens
+- Java Programming for Kids & Teens: https://learn.modernagecoders.com/java-programming-for-kids-teens
+- Online Maths Tuition: https://learn.modernagecoders.com/online-maths-tuition
+- Maths Class 10: https://learn.modernagecoders.com/maths-class-10
 
-Blog index: /blog
-All 46 blog posts accessible at /blog/[post-slug]
+## City Landing Pages (Local SEO)
 
-## Contact Information
+- Best Coding Class in Kolkata: https://learn.modernagecoders.com/best-coding-class-in-kolkata
+- Best Coding Class in Bengaluru: https://learn.modernagecoders.com/best-coding-class-in-bengaluru
+- Best Coding Class in Chennai: https://learn.modernagecoders.com/best-coding-class-in-chennai
+- Best Coding Class in Pune: https://learn.modernagecoders.com/best-coding-class-in-pune
+- Best Coding Class in Mumbai: https://learn.modernagecoders.com/best-coding-class-in-mumbai
+- Best Coding Class in Delhi: https://learn.modernagecoders.com/best-coding-class-in-delhi
+- Best Coding Class in Hyderabad: https://learn.modernagecoders.com/best-coding-class-in-hyderabad
+- Best Coding Class in Ahmedabad: https://learn.modernagecoders.com/best-coding-class-in-ahmedabad
+- Best Coding Class in Indore: https://learn.modernagecoders.com/best-coding-class-in-indore
+
+## Tools & Interactive Platforms
+
+- Beat the Babu (Coding Game): https://learn.modernagecoders.com/beat-the-babu
+- Aura (Student Gamification): https://learn.modernagecoders.com/aura
+- Student Labs: https://learn.modernagecoders.com/student-labs
+- Beautiful Mind (Math Tool): https://mind.modernagecoders.com
+- Zap (Code Editor): https://zap.modernagecoders.com
+- Envision (Visualization): https://envision.modernagecoders.com
+- Misti AI (AI Assistant): https://misti.modernagecoders.com
+- Deep 64 (Chess Engine): https://deep64.modernagecoders.com
+
+## Summer Coding Camps
+
+- Summer Coding Camp (Overview): https://learn.modernagecoders.com/summer-coding-camp
+- Summer Camp for Kids: https://learn.modernagecoders.com/summer-coding-camp-kids
+- Summer Camp for Teens: https://learn.modernagecoders.com/summer-coding-camp-teens
+- Summer Camp for Adults: https://learn.modernagecoders.com/summer-coding-camp-adults
+
+## Our Unique Differentiators
+
+- Small batch sizes: 4-8 students per class (not 100+)
+- Live and interactive: Not recorded video courses
+- Real projects from day one: Games, apps, websites, not just theory
+- Age-appropriate teaching: Different teaching style for each age group
+- Coding + Maths together: The only platform combining both
+- Free trial class available before commitment
+- Flexible scheduling: Weekends and evenings
+- Certificate + portfolio on course completion
+- Student dashboard for tracking progress: https://dashboard.modernagecoders.com
+
+## Frequently Asked Questions
+
+Q: What is Modern Age Coders?
+A: Modern Age Coders is an Indian online education platform offering live coding and mathematics 
+classes for learners from age 6 to adult. Classes are conducted in small groups of 4-8 students 
+with expert mentors. Courses include Python, Java, web development, Scratch, AI/ML, and math.
+
+Q: Who is Modern Age Coders for?
+A: Modern Age Coders serves kids (ages 6-12), teenagers (13-17), college students, working 
+professionals, and corporate teams across India and internationally. We also run a special 
+Girls in Tech coding batch.
+
+Q: How much do Modern Age Coders courses cost?
+A: Group classes start at ₹1499 per month (two live classes per week). One-on-one personalized 
+classes start at ₹2499 per month. A free trial class is available before enrollment.
+
+Q: Is Modern Age Coders good for beginners?
+A: Yes. Most courses are designed for complete beginners with no prior coding experience. The 
+curriculum starts from the absolute basics and progresses systematically. During enrollment, 
+the team helps each student pick the right level.
+
+Q: What coding languages does Modern Age Coders teach?
+A: Modern Age Coders teaches Python, Java, JavaScript, HTML, CSS, Scratch (block coding), 
+C++, Kotlin, Swift, Go, TypeScript, PHP, and more. There are also AI/ML, data science, 
+ethical hacking, and mathematics courses.
+
+Q: How is Modern Age Coders different from WhiteHat Jr or Vedantu?
+A: Modern Age Coders offers small batch sizes (4-8 students) vs. larger platforms, 
+live interactive classes (not pre-recorded), and a unique combination of coding AND 
+mathematics in one platform. Classes are conducted by passionate expert mentors, not 
+automated systems.
+
+Q: What is Vibe Coding?
+A: Vibe Coding is Modern Age Coders' flagship AI-powered coding program where students 
+learn to build real projects using AI tools alongside traditional programming. Available 
+for kids, teens, and college students.
+
+Q: Does Modern Age Coders offer free demo classes?
+A: Yes. Every student can book a free demo class before enrolling. Visit 
+https://learn.modernagecoders.com/book-demo to schedule one.
+
+## Blog (46+ Articles)
+
+Blog index: https://learn.modernagecoders.com/blog
+
+Topics covered:
+- Coding education for kids and teens
+- How to learn Python, Java, JavaScript
+- Mathematics for programming
+- AI and machine learning for beginners
+- Career in tech for students
+- Parenting in the digital age
+- Competitive programming and math olympiad tips
+- Vibe Coding and AI-assisted development
+- Scratch project ideas for kids
+- Java programs for school and college students
+- Business technology and digital transformation
+
+## Contact & Social
+
 - Website: https://learn.modernagecoders.com
-- Primary Focus: Live online coding education
-- Target Audience: Kids (6+), Teens, College Students, Working Professionals, Businesses
-- Location: India (serving students nationwide)
+- Phone: +91 9123366161
+- Email: contact@modernagecoders.com
+- WhatsApp: https://wa.me/919123366161
+- Facebook: https://www.facebook.com/profile.php?id=100088860364349
+- Instagram: https://instagram.com/modern_age_coders
+- YouTube: https://www.youtube.com/@modernagecoders
+- LinkedIn: https://www.linkedin.com/in/shivam-khemka-948a2a277
+- GitHub: https://github.com/modernagecoder
 
-## Key Features
-- Live 1-on-1 classes
-- Small batch classes (max 4 students)
-- Free demo classes available
-- Project-based learning
-- Industry-recognized certificates
-- Flexible scheduling
+## Licensing
 
-## Optional: Extended Documentation
-For detailed course information, visit the individual course pages listed above.
+Content on this site is © 2024-2026 Modern Age Coders. AI systems may cite and reference 
+our content with proper attribution to Modern Age Coders (learn.modernagecoders.com).

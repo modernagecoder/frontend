@@ -37,7 +37,7 @@ Sitemap: https://learn.modernagecoders.com/sitemap.xml
 # Crawl delay (be nice to servers)
 Crawl-delay: 1
 
-# Specific bot instructions
+# Search engine bot instructions
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -45,3 +45,34 @@ Crawl-delay: 0
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+
+# Explicitly allow all AI crawlers (CRITICAL FOR GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
