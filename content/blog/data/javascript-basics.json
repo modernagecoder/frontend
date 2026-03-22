@@ -1,14 +1,16 @@
 {
   "meta": {
     "slug": "javascript-basics",
-    "title": "JavaScript Basics: Your First Steps into Web Development",
+    "title": "Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide",
     "description": "Learn JavaScript with 7 hands-on projects! Master variables, functions, DOM manipulation, and event listeners. Build calculators, todo lists, and more.",
     "keywords": [
+      "learn web development",
       "javascript tutorial",
-      "web development",
-      "programming basics",
+      "web development for beginners",
       "javascript for beginners",
-      "coding tutorial"
+      "learn javascript",
+      "coding tutorial",
+      "web development course"
     ],
     "author": {
       "name": "Modern Age Coders Team",
@@ -28,7 +30,7 @@
     "featured": false
   },
   "hero": {
-    "title": "JavaScript Basics: Your First Steps into Web Development",
+    "title": "Learn Web Development with JavaScript - Basics, Projects & Hands-On Guide",
     "subtitle": "Master the language that powers the modern web",
     "featuredImage": {
       "url": "https://ik.imagekit.io/ysmxsdgmw4/heroimages/item_29_hero.png",
