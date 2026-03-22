@@ -601,6 +601,8 @@ main {
     font-size: 1.15rem;
     color: var(--text-secondary);
     line-height: 1.7;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 /* ========================================
@@ -2064,8 +2066,20 @@ body.mobile-menu-open {
    21. RESPONSIVE - TABLET (max-width: 768px)
    ======================================== */
 @media (max-width: 768px) {
+    .pricing-hero {
+        padding: 3rem 1.25rem 1.5rem;
+    }
+
     .pricing-hero h1 {
         font-size: 1.75rem;
+        line-height: 1.3;
+    }
+
+    .pricing-hero p {
+        font-size: 1rem;
+        max-width: 100%;
+        padding: 0 0.5rem;
+        line-height: 1.6;
     }
 
     .pricing-cards-grid {
@@ -2076,8 +2090,19 @@ body.mobile-menu-open {
         font-size: 2.5rem;
     }
 
+    .section-header {
+        padding: 0 1rem;
+    }
+
     .section-header h2 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .section-header p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        padding: 0 0.25rem;
     }
 
     .comparison-grid {
@@ -2162,6 +2187,50 @@ body.mobile-menu-open {
     .demo-button {
         padding: 0.875rem 2rem;
         font-size: 1rem;
+    }
+
+    /* International Pricing Mobile */
+    .intl-section {
+        padding: 3rem 1rem;
+    }
+
+    .intl-header {
+        padding: 0 0.5rem;
+    }
+
+    .intl-header h2 {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .intl-header p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    /* FAQ Section Mobile */
+    .faq-section {
+        padding: 3rem 1rem;
+    }
+
+    /* Included Section Mobile */
+    .included-section {
+        padding: 3rem 1rem;
+    }
+
+    /* CTA Section Mobile */
+    .pricing-cta {
+        padding: 3rem 1.25rem;
+    }
+
+    .pricing-cta h2 {
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+
+    .pricing-cta p {
+        font-size: 0.95rem;
+        line-height: 1.6;
     }
 
     /* Footer Mobile */
