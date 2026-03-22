@@ -1,0 +1,1710 @@
+{
+  "meta": {
+    "slug": "cbse-icse-computer-science-class-11-12-python-java-complete-course",
+    "title": "Computer Science Class 11 & 12 Complete Course | CBSE (Python) & ICSE/ISC (Java) | Board Exam Topper Program",
+    "description": "India's most comprehensive Computer Science course for Class 11 & 12 students. Covers CBSE CS (Code 083) with Python programming, SQL, networking, file handling, data structures & ICSE/ISC Computer Science with Java, OOP, linked lists, Boolean algebra. Separate dedicated batches for CBSE and ICSE boards. Aligned with Sumita Arora, Preeti Arora & NCERT textbooks. 100% syllabus coverage + board exam mastery + practical file + project guidance. Live 1-on-1 and group classes with expert mentors.",
+    "keywords": [
+      "computer science class 11",
+      "computer science class 12",
+      "CBSE computer science",
+      "CBSE CS class 12 syllabus 2025-26",
+      "CBSE CS class 11 syllabus 2025-26",
+      "CBSE computer science code 083",
+      "Python for class 12 CBSE",
+      "Python for class 11 CBSE",
+      "ISC computer science class 12",
+      "ISC computer science class 11",
+      "ICSE computer science",
+      "Java programming class 12 ISC",
+      "Java programming class 11 ISC",
+      "computer science class 12 notes",
+      "computer science class 11 notes",
+      "Sumita Arora class 12 solutions",
+      "Sumita Arora class 11 solutions",
+      "Preeti Arora computer science",
+      "NCERT computer science class 12",
+      "NCERT computer science class 11",
+      "Python programs for class 12 board exam",
+      "SQL queries for class 12 CBSE",
+      "Python file handling class 12",
+      "stack implementation Python class 12",
+      "Python SQL connectivity class 12",
+      "computer science class 12 practical file",
+      "computer science class 12 project ideas",
+      "CBSE CS 083 syllabus",
+      "computer science class 12 previous year papers",
+      "Python functions class 12 notes",
+      "exception handling Python class 12",
+      "binary file handling Python class 12",
+      "computer networks class 12 notes",
+      "DBMS class 12 notes",
+      "boolean logic class 11 computer science",
+      "number system class 11 CS",
+      "ISC Java programs class 12",
+      "Java data structures ISC class 12",
+      "linked list Java ISC",
+      "stack queue Java ISC class 12",
+      "Boolean algebra ISC class 12",
+      "Karnaugh map ISC class 12",
+      "inheritance polymorphism Java ISC",
+      "recursion Java ISC class 12",
+      "ISC computer science specimen paper",
+      "computer science board exam preparation",
+      "class 12 CS important questions",
+      "best computer science tuition class 11 12",
+      "online computer science classes class 12",
+      "computer science tutor near me",
+      "CBSE vs ICSE computer science",
+      "computer science class 12 one shot revision",
+      "CS class 12 sample paper 2025-26",
+      "computer science class 12 marking scheme",
+      "sorting algorithms class 12",
+      "bubble sort selection sort insertion sort",
+      "linear search binary search Python",
+      "pickle module Python class 12",
+      "CSV file handling Python class 12",
+      "computer science practical viva questions"
+    ],
+    "category": "School Board Exam Preparation - Computer Science",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹24,999 (one-time for 2-year access)"
+    },
+    "duration": "24 months (Class 11 + Class 12 full syllabus)",
+    "level": "Class 11 Beginner to Class 12 Board Exam Ready",
+    "commitment": "8-10 hours/week (4 classes + self-practice)",
+    "certification": "Course Completion Certificate + Board Exam Readiness Guarantee",
+    "image_path": "ip-cs-class-11-12.webp",
+    "boards_covered": ["CBSE (Code 083)", "ICSE / ISC"],
+    "batch_info": "Separate dedicated batches for CBSE and ICSE students — syllabus, programming language, exam pattern, and teaching approach are customized per board"
+  },
+  "program_overview": {
+    "title": "Computer Science Class 11 & 12 — Complete Board Exam Mastery Program",
+    "tagline": "100% Syllabus Coverage · Separate CBSE & ICSE Batches · Board Topper Strategy · Live Expert Mentoring",
+    "description": "This is the most thorough Computer Science program built for Indian Class 11 & 12 students across both CBSE and ICSE boards. We run completely separate batches for CBSE and ICSE students because the syllabus, programming language, exam pattern, and marking scheme are fundamentally different.\n\nCBSE students learn Python programming (as per Code 083 syllabus), SQL with MySQL, computer networking, file handling, data structures using Python, and Python-MySQL connectivity. ICSE/ISC students learn Java programming, object-oriented programming, data structures (stack, queue, linked list, binary trees), Boolean algebra with Karnaugh maps, and advanced recursion.\n\nEvery class is aligned chapter-by-chapter with Sumita Arora, Preeti Arora, and NCERT textbooks. Students get complete practical file preparation, project guidance, viva preparation, previous year paper solving, and dedicated board exam revision modules. Our students consistently score 95+ in board exams because we don't just teach — we drill, practice, and perfect every concept until it becomes second nature.",
+    "what_makes_this_different": [
+      "Separate CBSE and ICSE batches — no mixing of syllabus or programming languages",
+      "100% syllabus coverage aligned with latest 2025-26 CBSE & ISC curriculum",
+      "Chapter-wise teaching matching Sumita Arora, Preeti Arora & NCERT textbooks",
+      "Complete practical file with 20+ programs (CBSE) / lab assignments (ISC) included",
+      "Board exam project guidance with documentation and viva preparation",
+      "Weekly chapter tests + monthly unit tests + mock board exams",
+      "Previous 10 years solved papers with detailed marking scheme analysis",
+      "Dedicated doubt-clearing sessions before exams",
+      "Sample paper solving with CBSE/ISC marking scheme training",
+      "Programming logic building from scratch — no prior coding needed",
+      "SQL hands-on practice with live MySQL database",
+      "Assertion-Reason, Case Study, and MCQ-specific exam strategies"
+    ],
+    "boards_and_batches": {
+      "cbse_batch": {
+        "board": "CBSE (Central Board of Secondary Education)",
+        "subject_code": "083 — Computer Science",
+        "programming_language": "Python 3",
+        "database": "MySQL",
+        "exam_pattern": "70 marks Theory + 30 marks Practical",
+        "textbooks_followed": ["Sumita Arora — Computer Science with Python (Class 11 & 12)", "Preeti Arora — Computer Science with Python", "NCERT Computer Science Textbook (Class 11 & 12)"],
+        "key_topics": "Python programming, file handling (text/binary/CSV), data structures (stack), SQL, computer networks, Python-MySQL connectivity, sorting & searching algorithms, society law & ethics"
+      },
+      "icse_batch": {
+        "board": "CISCE (Council for the Indian School Certificate Examinations)",
+        "subject_code": "ISC Computer Science",
+        "programming_language": "Java",
+        "exam_pattern": "70 marks Theory (Paper 1) + 30 marks Practical (Paper 2)",
+        "textbooks_followed": ["Sumita Arora — ISC Computer Science with Java", "Vijay Kumar Pandey & Dilip Kumar Dey — Understanding Computer Science (ISC)", "APC Publications ISC Computer Science"],
+        "key_topics": "Java OOP, inheritance, polymorphism, data structures (stack, queue, linked list, binary tree), Boolean algebra, Karnaugh maps, recursion, sorting & searching, file handling in Java"
+      }
+    },
+    "learning_path": {
+      "phase_1": "Class 11 — Semester 1 (Months 1-5): Computer fundamentals, number systems, Boolean logic, Python/Java basics, control flow, functions",
+      "phase_2": "Class 11 — Semester 2 (Months 6-10): Data structures (lists/tuples/dictionaries in Python OR arrays/strings in Java), society & ethics, practicals",
+      "phase_3": "Class 12 — Semester 1 (Months 11-17): Advanced programming, file handling, data structures, recursion, sorting & searching",
+      "phase_4": "Class 12 — Semester 2 (Months 18-24): SQL & databases, computer networks, Python-MySQL connectivity / ISC advanced topics, board exam prep"
+    },
+    "career_outcomes": [
+      "Score 95+ in CBSE/ISC Computer Science board exam",
+      "Complete practical file + project ready for submission",
+      "Strong programming foundation for engineering entrance (JEE/BITSAT)",
+      "Ready for BCA, B.Tech CS, B.Sc IT, and other CS undergraduate programs",
+      "Competitive coding fundamentals for future olympiads and hackathons",
+      "College-ready programming skills in Python and/or Java"
+    ]
+  },
+  "phase_1_class_11_semester_1": {
+    "title": "PHASE 1: Class 11 Semester 1 — Computer Fundamentals & Programming Foundations (Months 1-5)",
+    "description": "Build rock-solid fundamentals in computer science theory and start your programming journey. CBSE students begin with Python, ISC students begin with Java. Both batches cover computer organization, number systems, and Boolean logic.",
+    "month_1": {
+      "title": "Month 1: Computer Systems & Organization",
+      "weeks": "Week 1-4",
+      "applies_to": "Both CBSE & ICSE batches",
+      "week_1": {
+        "title": "Computer System Overview & Hardware",
+        "topics": [
+          "Evolution of computers — from Abacus to AI-powered machines",
+          "Computer generations: First (vacuum tubes) to Fifth (AI)",
+          "Block diagram of a computer system — Input, CPU, Memory, Output",
+          "CPU architecture: ALU (Arithmetic Logic Unit), Control Unit, Registers",
+          "Types of processors: CISC vs RISC, multicore processors",
+          "Input devices: keyboard, mouse, scanner, touchscreen, biometric devices, microphone",
+          "Output devices: monitor (LCD, LED, OLED), printer (laser, inkjet, 3D), speaker, projector",
+          "Memory hierarchy: registers → cache → RAM → secondary storage",
+          "Primary memory: RAM (SRAM vs DRAM), ROM (PROM, EPROM, EEPROM), Cache memory",
+          "Secondary storage: HDD, SSD, USB flash drive, optical discs (CD, DVD, Blu-ray)",
+          "Cloud storage concepts and modern storage solutions",
+          "Units of memory: bit, nibble, byte, KB, MB, GB, TB, PB"
+        ],
+        "projects": [
+          "Create an illustrated computer system diagram with all components labeled",
+          "Memory hierarchy comparison chart with speed, cost, and capacity",
+          "Research report: Evolution of processors from Intel 4004 to latest chips"
+        ],
+        "practice": "Chapter-end exercises from Sumita Arora Chapter 1, NCERT textbook questions, 30 MCQs on computer fundamentals"
+      },
+      "week_2": {
+        "title": "Software, Operating Systems & Encoding",
+        "topics": [
+          "Software classification: System software vs Application software",
+          "System software: operating system, language processors (compiler, interpreter, assembler), device drivers",
+          "Application software: general purpose (MS Office, browsers) vs specific purpose (Tally, hospital management)",
+          "Open source vs proprietary software — examples and differences",
+          "Operating system functions: process management, memory management, file management, device management",
+          "Types of OS: batch processing, time-sharing, real-time, distributed, mobile OS",
+          "User interface: CLI (Command Line Interface) vs GUI (Graphical User Interface)",
+          "Language processors: compiler vs interpreter — detailed comparison",
+          "High-level vs low-level vs machine-level languages",
+          "Utility software: antivirus, disk defragmenter, backup tools, compression tools",
+          "Firmware and embedded systems concepts",
+          "Mobile operating systems: Android, iOS — overview"
+        ],
+        "projects": [
+          "Software classification mind map with 20+ real-world examples",
+          "OS comparison: Windows vs Linux vs macOS — features and use cases",
+          "Install and explore Linux (Ubuntu) in a virtual machine"
+        ],
+        "practice": "NCERT exercises, Sumita Arora solved examples, 40 MCQs, 10 short-answer questions"
+      },
+      "week_3": {
+        "title": "Number Systems & Conversions",
+        "topics": [
+          "Why computers use binary — the digital foundation",
+          "Decimal number system (base 10) — positional notation explained",
+          "Binary number system (base 2) — counting in binary, place values",
+          "Octal number system (base 8) — uses in Unix/Linux file permissions",
+          "Hexadecimal number system (base 16) — uses in memory addresses, colors (#FF0000)",
+          "Conversion: Decimal to Binary (successive division method)",
+          "Conversion: Decimal to Octal and Hexadecimal",
+          "Conversion: Binary to Decimal (positional value method)",
+          "Conversion: Binary to Octal (grouping of 3 bits) and Binary to Hexadecimal (grouping of 4 bits)",
+          "Conversion: Octal to Binary, Hexadecimal to Binary",
+          "Fractional number conversions across all bases",
+          "Binary addition and subtraction",
+          "1's complement and 2's complement representation",
+          "Signed magnitude representation",
+          "Overflow and underflow in binary arithmetic",
+          "Shortcut methods for quick conversions in exams"
+        ],
+        "projects": [
+          "Number system converter calculator (manual worksheet with 50 conversions)",
+          "Color code converter: RGB decimal to hexadecimal",
+          "Binary arithmetic drill — 30 addition and subtraction problems"
+        ],
+        "practice": "100 conversion problems across all bases, previous year board questions on number systems, timed practice tests"
+      },
+      "week_4": {
+        "title": "Boolean Logic & Encoding Schemes",
+        "topics": [
+          "Introduction to Boolean algebra — George Boole's contribution",
+          "Boolean values: True (1) and False (0)",
+          "Basic logic gates: AND, OR, NOT — symbols, truth tables, expressions",
+          "Derived gates: NAND, NOR, XOR, XNOR — truth tables and equivalences",
+          "Universal gates: NAND and NOR — implementing any gate using only NAND/NOR (ISC focus)",
+          "Boolean expressions and evaluation",
+          "De Morgan's theorems: NOT(A AND B) = NOT A OR NOT B, NOT(A OR B) = NOT A AND NOT B",
+          "Verification of De Morgan's theorems using truth tables",
+          "Basic Boolean laws: Identity, Complement, Idempotent, Absorption, Involution",
+          "Simplification of Boolean expressions using algebraic method",
+          "Character encoding schemes: ASCII (7-bit, 128 characters)",
+          "ISCII (Indian Script Code for Information Interchange) — 8-bit",
+          "Unicode (UTF-8, UTF-16, UTF-32) — multilingual support, emojis",
+          "Difference between ASCII, ISCII, and Unicode — why Unicode is the modern standard"
+        ],
+        "projects": [
+          "Truth table generator for any 2-3 variable Boolean expression",
+          "Gate diagram drawing practice — 10 circuits",
+          "Encoding explorer: Convert your name to ASCII, Unicode values"
+        ],
+        "practice": "50 Boolean expression simplification problems, 30 truth table exercises, previous year questions on encoding"
+      }
+    },
+    "month_2_3": {
+      "title": "Months 2-3: Programming Foundations (Python for CBSE / Java for ISC)",
+      "weeks": "Week 5-12",
+      "cbse_python_track": {
+        "week_5_6": {
+          "title": "Getting Started with Python — Setup, Syntax & Fundamentals",
+          "topics": [
+            "Why Python? — Used by Google, Instagram, YouTube, NASA, Netflix",
+            "Python history: Guido van Rossum, Python 2 vs Python 3",
+            "Installing Python 3.12+ on Windows/Mac/Linux",
+            "Python IDLE — Interactive mode vs Script mode",
+            "Setting up VS Code with Python extensions",
+            "First Python program: print('Hello, World!')",
+            "Python tokens: keywords, identifiers, literals, operators, punctuators",
+            "Python keywords list — import, def, class, if, else, elif, for, while, etc.",
+            "Identifiers: naming rules (start with letter/underscore, case-sensitive, no keywords)",
+            "Variables: declaration, assignment, dynamic typing",
+            "Data types: int, float, complex, str, bool, None",
+            "Type checking with type() function",
+            "Type conversion: int(), float(), str(), bool() — implicit vs explicit",
+            "Mutable vs Immutable types — fundamental concept for board exams",
+            "Comments: single-line (#) and multi-line (triple quotes)",
+            "Input function: input() — always returns string",
+            "Output function: print() — sep, end parameters, formatted output",
+            "f-strings for formatted printing (Python 3.6+)",
+            "Escape sequences: \\n, \\t, \\\\, \\', \\\"",
+            "Python's philosophy: import this — The Zen of Python"
+          ],
+          "projects": [
+            "Personal bio generator — takes name, age, hobby as input and formats output",
+            "Simple calculator — add, subtract, multiply, divide two numbers",
+            "Temperature converter — Celsius to Fahrenheit and vice versa",
+            "Area calculator for circle, rectangle, triangle with formatted output"
+          ],
+          "practice": "Sumita Arora Chapter 3 & 4 exercises, 50 output prediction questions, 20 error-finding programs"
+        },
+        "week_7_8": {
+          "title": "Operators & Expressions in Python",
+          "topics": [
+            "Arithmetic operators: + - * / // (floor division) % (modulus) ** (exponent)",
+            "Floor division vs true division — 7//2 = 3 vs 7/2 = 3.5",
+            "Modulus operator applications — even/odd check, digit extraction",
+            "Relational/Comparison operators: == != < > <= >=",
+            "Logical operators: and, or, not — truth tables and short-circuit evaluation",
+            "Short-circuit evaluation: how Python skips unnecessary checks",
+            "Assignment operators: = += -= *= /= //= %= **=",
+            "Identity operators: is, is not — comparing object identity vs equality",
+            "Membership operators: in, not in — checking presence in sequences",
+            "Bitwise operators: & (AND), | (OR), ^ (XOR), ~ (NOT), << (left shift), >> (right shift)",
+            "Operator precedence table — PEMDAS for Python (** → unary → * / // % → + - → comparisons → not → and → or)",
+            "Associativity: left-to-right vs right-to-left (**)",
+            "Expression evaluation practice — step-by-step breakdown",
+            "Mixed-type expressions and type coercion rules",
+            "The walrus operator := (Python 3.8+) — assignment within expressions",
+            "Common exam traps: integer division, operator precedence gotchas"
+          ],
+          "projects": [
+            "Expression evaluator — predict output of 20 complex expressions",
+            "Bill calculator with tax and discount using all arithmetic operators",
+            "Bitwise operation visualizer — show binary representation and result",
+            "Operator precedence quiz game"
+          ],
+          "practice": "100 expression evaluation problems, 30 output prediction MCQs, Sumita Arora Chapter 5 exercises"
+        },
+        "week_9_10": {
+          "title": "Control Flow — Conditional Statements",
+          "topics": [
+            "Sequential flow vs conditional flow vs iterative flow — program flow types",
+            "if statement: syntax, indentation rules, single-line and multi-line body",
+            "if-else statement: two-way branching",
+            "if-elif-else ladder: multi-way branching",
+            "Nested if statements: decision trees within decisions",
+            "Ternary operator / conditional expression: value = x if condition else y",
+            "Common patterns: finding max/min of 2/3 numbers, grade calculator",
+            "Leap year detection algorithm — complete logic",
+            "Character type checking: vowel/consonant, uppercase/lowercase, digit/letter",
+            "Menu-driven programs — building interactive applications",
+            "Logical operators in conditions: combining multiple conditions",
+            "Truthiness and falsiness in Python: 0, None, '', [], {} are falsy",
+            "Common mistakes: = vs ==, missing colon, indentation errors",
+            "Board exam pattern: output prediction for nested if-elif-else",
+            "Assertion-Reason questions on conditional statements"
+          ],
+          "projects": [
+            "Grade calculator — CBSE marking scheme with A1, A2, B1, B2, C1, C2, D, E",
+            "Income tax calculator — with Indian tax slab rates for 2025-26",
+            "Triangle type detector — equilateral, isosceles, scalene, right-angled",
+            "Simple login system with username and password validation",
+            "Day of the week finder — input a number, output the day"
+          ],
+          "practice": "60 conditional logic problems, 30 output prediction questions, previous year board questions, Sumita Arora exercises"
+        },
+        "week_11_12": {
+          "title": "Control Flow — Loops & Iterations",
+          "topics": [
+            "for loop: iterating over sequences (range, string, list)",
+            "range() function: range(stop), range(start, stop), range(start, stop, step)",
+            "Negative step in range: range(10, 0, -1) for countdown",
+            "while loop: condition-based repetition",
+            "Infinite loops: while True — when and how to use safely",
+            "Loop control statements: break (exit loop), continue (skip iteration)",
+            "else clause with loops — executes when loop completes without break",
+            "Nested loops: outer and inner loop — execution flow tracing",
+            "Pattern printing with nested loops — stars, numbers, alphabets",
+            "Common patterns: pyramid, diamond, Floyd's triangle, Pascal's triangle",
+            "Accumulator pattern: sum, product, counting with loops",
+            "Finding factors, prime numbers, Fibonacci series using loops",
+            "GCD and LCM calculation using loops",
+            "Digit extraction: sum of digits, reverse a number, palindrome check",
+            "Armstrong number, perfect number, strong number detection",
+            "Loop optimization and avoiding unnecessary iterations",
+            "Board exam focus: tracing loop output, counting iterations"
+          ],
+          "projects": [
+            "Pattern printer — 15 different star and number patterns",
+            "Prime number checker and generator (Sieve of Eratosthenes approach)",
+            "Number guessing game with limited attempts",
+            "Multiplication table generator with formatted output",
+            "Fibonacci series generator up to n terms",
+            "Armstrong number finder in a given range"
+          ],
+          "practice": "80 loop tracing problems, 20 pattern programs, Sumita Arora loop exercises, previous year board pattern questions"
+        }
+      },
+      "isc_java_track": {
+        "week_5_6": {
+          "title": "Getting Started with Java — OOP Foundations",
+          "topics": [
+            "Why Java? — Platform independence, Android development, enterprise applications",
+            "Java history: James Gosling, Sun Microsystems, Oracle acquisition",
+            "Installing JDK 17+ and setting up PATH environment variable",
+            "Setting up BlueJ IDE (preferred for ISC) and IntelliJ IDEA",
+            "First Java program: public static void main(String[] args)",
+            "Understanding class structure, main method, System.out.println()",
+            "Java tokens: keywords, identifiers, literals, operators, separators",
+            "Primitive data types: byte, short, int, long, float, double, char, boolean",
+            "Size and range of each primitive type — exam favorite",
+            "Variables: declaration, initialization, naming conventions",
+            "Constants with final keyword",
+            "Type casting: widening (automatic) vs narrowing (explicit)",
+            "Wrapper classes: Integer, Double, Character, Boolean — autoboxing/unboxing",
+            "Scanner class for input: nextInt(), nextDouble(), nextLine(), next()",
+            "Output: System.out.print(), println(), printf()",
+            "Comments: //, /* */, /** */ (Javadoc)",
+            "Java's object-oriented philosophy: everything is an object"
+          ],
+          "projects": [
+            "Student profile program — input name, roll number, marks, display formatted",
+            "Simple calculator with Scanner input",
+            "Type casting demonstrator — show widening and narrowing",
+            "Wrapper class explorer — convert between primitives and objects"
+          ],
+          "practice": "50 output prediction questions, 20 type casting problems, ISC specimen paper MCQs"
+        },
+        "week_7_8": {
+          "title": "Operators, Expressions & Math Library in Java",
+          "topics": [
+            "Arithmetic operators: + - * / % — integer vs floating-point division",
+            "Relational operators: == != < > <= >=",
+            "Logical operators: && (AND), || (OR), ! (NOT) — short-circuit evaluation",
+            "Assignment operators: = += -= *= /= %=",
+            "Increment/Decrement: ++x (prefix) vs x++ (postfix) — critical for ISC exams",
+            "Ternary operator: condition ? value1 : value2",
+            "Bitwise operators: & | ^ ~ << >>",
+            "Operator precedence and associativity — complete table",
+            "Expression evaluation with mixed types — promotion rules",
+            "Math class methods: Math.sqrt(), Math.pow(), Math.abs(), Math.max(), Math.min()",
+            "Math.ceil(), Math.floor(), Math.round(), Math.random()",
+            "Math.PI, Math.E — mathematical constants",
+            "Trigonometric functions: Math.sin(), Math.cos(), Math.tan() (radians)",
+            "String concatenation with + operator — rules and gotchas",
+            "Type promotion in expressions: byte → short → int → long → float → double"
+          ],
+          "projects": [
+            "Scientific calculator with Math library functions",
+            "Expression evaluator — step-by-step breakdown of complex expressions",
+            "Prefix vs postfix increment quiz — 20 tricky questions",
+            "Random number generator game"
+          ],
+          "practice": "100 expression evaluation problems, ISC previous year questions, operator precedence drills"
+        },
+        "week_9_10": {
+          "title": "Conditional Statements in Java",
+          "topics": [
+            "if statement: syntax with curly braces, single statement shortcuts",
+            "if-else statement: two-way branching",
+            "if-else if-else ladder: multi-way branching",
+            "Nested if statements: complex decision trees",
+            "switch-case statement: syntax, break keyword, default clause",
+            "switch vs if-else: when to use which — ISC exam favorite",
+            "Fall-through in switch: what happens without break",
+            "Menu-driven programs using switch-case",
+            "Ternary operator for concise conditions",
+            "Common programs: largest of 3, grade calculator, day finder",
+            "Leap year, vowel/consonant, positive/negative/zero checks",
+            "Character-based conditions: ASCII value ranges for A-Z, a-z, 0-9",
+            "Dangling else problem and how Java resolves it",
+            "Board exam focus: output tracing with nested conditions"
+          ],
+          "projects": [
+            "Menu-driven calculator using switch-case",
+            "Income tax calculator with Indian tax slabs",
+            "Student grade card generator with ISC marking scheme",
+            "Electric bill calculator with slab-based pricing"
+          ],
+          "practice": "ISC specimen paper conditional questions, 50 output tracing problems, 20 switch-case programs"
+        },
+        "week_11_12": {
+          "title": "Loops & Iterations in Java",
+          "topics": [
+            "for loop: initialization, condition, update — execution flow",
+            "while loop: pre-test loop — condition checked before body",
+            "do-while loop: post-test loop — body executes at least once (NOT in Python!)",
+            "for vs while vs do-while: choosing the right loop",
+            "Nested loops: matrix traversal, pattern printing",
+            "Loop control: break (exit loop), continue (skip iteration)",
+            "Labeled break and continue — for nested loop control",
+            "Pattern printing: stars, numbers, alphabets — ISC exam staple",
+            "Pyramid, inverted pyramid, diamond, Floyd's triangle patterns",
+            "Digit extraction: sum of digits, reverse number, palindrome",
+            "Prime number programs: check, generate, prime factorization",
+            "GCD (Euclidean algorithm), LCM, Fibonacci series",
+            "Armstrong, perfect, neon, spy, niven (Harshad) numbers",
+            "Automorphic, kaprekar, twin prime numbers",
+            "Frequency counting: digit frequency, character frequency in strings",
+            "Loop optimization and efficiency analysis"
+          ],
+          "projects": [
+            "Pattern printer — 20 different patterns (stars, numbers, alphabets)",
+            "Special number detector — checks Armstrong, palindrome, perfect in one program",
+            "Prime number generator with sieve approach",
+            "Number series generator: Fibonacci, triangular, square numbers"
+          ],
+          "practice": "100 loop tracing problems, 30 pattern programs, ISC previous year loop questions, number program drills"
+        }
+      }
+    },
+    "month_4_5": {
+      "title": "Months 4-5: Functions, Strings & Data Handling",
+      "weeks": "Week 13-20",
+      "cbse_python_track": {
+        "week_13_14": {
+          "title": "Strings in Python — Complete Mastery",
+          "topics": [
+            "String creation: single quotes, double quotes, triple quotes",
+            "String as a sequence — indexing (0-based, negative indexing)",
+            "String slicing: [start:stop:step] — extracting substrings",
+            "String immutability — why strings cannot be changed in place",
+            "String operators: + (concatenation), * (repetition), in, not in",
+            "String comparison: lexicographic ordering, ASCII values",
+            "Traversing strings: for loop, while loop, enumerate()",
+            "String methods (MUST KNOW for boards): len(), capitalize(), title(), upper(), lower(), swapcase()",
+            "count(), find(), index(), rfind(), rindex()",
+            "startswith(), endswith(), isalpha(), isdigit(), isalnum()",
+            "isspace(), islower(), isupper(), istitle()",
+            "strip(), lstrip(), rstrip(), replace(), split(), join()",
+            "partition(), maketrans(), translate()",
+            "String formatting: %, .format(), f-strings",
+            "Common programs: palindrome check, character frequency, vowel count, word count",
+            "Reverse a string, remove spaces, capitalize each word",
+            "Board exam pattern: output prediction with string slicing and methods"
+          ],
+          "projects": [
+            "Word counter and analyzer — count words, vowels, consonants, digits, special chars",
+            "Palindrome checker for strings and sentences",
+            "Caesar cipher — encrypt and decrypt messages",
+            "String formatting report generator"
+          ],
+          "practice": "Sumita Arora Chapter 7 complete exercises, 50 string output prediction MCQs, 30 string programs"
+        },
+        "week_15_16": {
+          "title": "Lists in Python — Complete Mastery",
+          "topics": [
+            "List creation: [], list(), list comprehension",
+            "Lists as mutable sequences — key difference from strings and tuples",
+            "Indexing and negative indexing in lists",
+            "List slicing: [start:stop:step]",
+            "List operations: + (concatenation), * (repetition), in, not in",
+            "List methods (BOARD EXAM CRITICAL): append(), extend(), insert()",
+            "remove(), pop(), pop(index), clear()",
+            "index(), count(), sort(), sort(reverse=True), reverse()",
+            "copy() — shallow copy vs deep copy explained",
+            "Built-in functions with lists: len(), min(), max(), sum(), sorted()",
+            "List comprehension: [expression for item in iterable if condition]",
+            "Nested lists (2D lists / matrices) — accessing elements with [row][col]",
+            "Traversing lists: for loop, while loop, enumerate(), zip()",
+            "del statement vs remove() vs pop() — differences",
+            "Aliasing vs cloning — the assignment trap (a = b vs a = b[:])",
+            "Passing lists to functions — mutable argument behavior",
+            "Common programs: linear search, finding max/min, removing duplicates, merging sorted lists",
+            "Board exam focus: output prediction with list methods and slicing"
+          ],
+          "projects": [
+            "Student marks management system — add, remove, search, sort, average",
+            "Inventory management with nested lists",
+            "Matrix operations — addition, subtraction, transpose using 2D lists",
+            "List-based quiz application"
+          ],
+          "practice": "Sumita Arora Chapter 8 exercises, 60 list operation MCQs, 25 list programs"
+        },
+        "week_17_18": {
+          "title": "Tuples & Dictionaries in Python",
+          "topics": [
+            "Tuples: creation with () and tuple(), single element tuple (a,) trap",
+            "Tuple immutability — cannot add, remove, or change elements",
+            "Tuple indexing, slicing, and operations (+, *, in)",
+            "Tuple methods: count(), index()",
+            "Built-in functions: len(), min(), max(), sum(), sorted() with tuples",
+            "Tuple packing and unpacking: a, b, c = (1, 2, 3)",
+            "Tuple vs List: when to use which — performance and safety",
+            "Nested tuples and accessing elements",
+            "Dictionaries: key-value pair data structure — {} and dict()",
+            "Dictionary keys must be immutable (strings, numbers, tuples) — why?",
+            "Accessing values: d[key] vs d.get(key, default)",
+            "Adding and updating: d[key] = value, d.update()",
+            "Removing: del d[key], d.pop(key), d.popitem(), d.clear()",
+            "Dictionary methods: keys(), values(), items(), get(), update(), copy()",
+            "Dictionary traversal: iterating over keys, values, items",
+            "Nested dictionaries — student records with multiple attributes",
+            "Dictionary comprehension: {k: v for k, v in iterable}",
+            "len(), min(), max(), sorted() with dictionaries",
+            "Common programs: frequency counter, word dictionary, student database",
+            "Board exam: output prediction with dictionary operations"
+          ],
+          "projects": [
+            "Contact book application using dictionary",
+            "Word frequency analyzer — count occurrence of each word in text",
+            "Student report card using nested dictionaries",
+            "English-Hindi dictionary with search feature"
+          ],
+          "practice": "Sumita Arora Chapters 9 & 10 exercises, 50 MCQs on tuples and dictionaries, 20 programs"
+        },
+        "week_19_20": {
+          "title": "Functions & Modules in Python",
+          "topics": [
+            "What are functions? — code reusability, modularity, abstraction",
+            "Built-in functions vs user-defined functions",
+            "Defining functions: def keyword, function name, parameters, body, return",
+            "Calling functions: positional arguments, keyword arguments",
+            "Default parameter values — avoiding mutable default argument trap",
+            "*args — variable-length positional arguments",
+            "**kwargs — variable-length keyword arguments",
+            "Return statement: returning single value, multiple values (as tuple)",
+            "Functions without return — returns None by default",
+            "Scope of variables: local scope, global scope, LEGB rule",
+            "global keyword — modifying global variables inside functions",
+            "Passing arguments: immutable (pass by value behavior) vs mutable (pass by reference behavior)",
+            "Recursive functions introduction — factorial, Fibonacci (preview for Class 12)",
+            "Lambda functions: lambda arguments: expression",
+            "map(), filter(), reduce() — functional programming basics",
+            "Modules: import, from...import, import...as",
+            "math module: sqrt(), ceil(), floor(), pow(), fabs(), sin(), cos(), tan(), pi, e, log(), log10()",
+            "random module: random(), randint(), randrange(), choice(), shuffle(), seed()",
+            "statistics module: mean(), median(), mode()",
+            "Creating your own modules — __name__ == '__main__' pattern",
+            "Board exam focus: function output tracing, scope questions, module function MCQs"
+          ],
+          "projects": [
+            "Math utility library — custom module with 20+ mathematical functions",
+            "Random password generator using random module",
+            "Statistics calculator using statistics module",
+            "Menu-driven bank account system using functions"
+          ],
+          "practice": "Sumita Arora function chapter exercises, 40 function tracing MCQs, 25 function-based programs, scope identification exercises"
+        }
+      },
+      "isc_java_track": {
+        "week_13_14": {
+          "title": "Methods, Constructors & Scope in Java",
+          "topics": [
+            "Methods: defining, calling, return types, parameters",
+            "Formal parameters vs actual parameters (arguments)",
+            "Pass by value in Java — primitive types are copied",
+            "Pass by reference behavior — objects are passed by reference copy",
+            "Method overloading: same name, different parameter lists",
+            "Constructors: default, parameterized, copy constructor",
+            "Constructor overloading — multiple constructors in a class",
+            "this keyword: referring to current object, constructor chaining",
+            "Static methods and static variables — class-level members",
+            "Static vs non-static: when to use which",
+            "Variable scope: local, instance, class (static) variables",
+            "Access modifiers: public, private, protected, default",
+            "Encapsulation: data hiding with private variables and public getters/setters",
+            "Pure functions and impure functions in Java",
+            "Method signature and return type — ISC exam focus",
+            "Recursive methods introduction — factorial, GCD"
+          ],
+          "projects": [
+            "Bank account class with deposit, withdraw, balance methods",
+            "Student class with multiple constructors and method overloading",
+            "Calculator class with static utility methods",
+            "Library book management with encapsulation"
+          ],
+          "practice": "ISC method-based questions, 40 output tracing problems, constructor MCQs"
+        },
+        "week_15_16": {
+          "title": "Arrays in Java — 1D and 2D",
+          "topics": [
+            "Array declaration, creation with new keyword, initialization",
+            "Array as reference type — memory allocation on heap",
+            "Accessing elements: indexing (0-based), ArrayIndexOutOfBoundsException",
+            "Array traversal: for loop, for-each (enhanced for) loop",
+            "Array input with Scanner — reading n elements",
+            "1D array operations: sum, average, max, min, counting",
+            "Linear search: sequential search algorithm",
+            "Binary search: divide and conquer on sorted arrays",
+            "Sorting algorithms: Bubble sort — swapping adjacent elements",
+            "Selection sort — finding minimum and placing in position",
+            "Insertion sort — inserting element in correct position in sorted part",
+            "Comparison of sorting algorithms — time complexity basics",
+            "2D arrays (matrices): declaration, initialization, traversal",
+            "Matrix operations: addition, subtraction, multiplication, transpose",
+            "Row-wise and column-wise operations on 2D arrays",
+            "Jagged arrays — arrays of different lengths",
+            "Array address calculation: row-major and column-major (ISC theory)",
+            "Common programs: merge arrays, rotate array, remove duplicates"
+          ],
+          "projects": [
+            "Student marks analyzer — input marks, sort, find topper, grade distribution",
+            "Matrix calculator — all operations with menu-driven interface",
+            "Address calculation worksheet — 20 problems",
+            "Sorting visualizer — trace each pass of bubble, selection, insertion sort"
+          ],
+          "practice": "ISC array-based programs (30+), sorting algorithm tracing, address calculation formula problems"
+        },
+        "week_17_18": {
+          "title": "String Handling in Java",
+          "topics": [
+            "String class: immutable strings in Java",
+            "String creation: literal vs new keyword — String pool concept",
+            "String methods: length(), charAt(), indexOf(), lastIndexOf()",
+            "substring(), concat(), replace(), toUpperCase(), toLowerCase()",
+            "trim(), startsWith(), endsWith(), contains()",
+            "equals() vs == : content comparison vs reference comparison — EXAM CRITICAL",
+            "equalsIgnoreCase(), compareTo(), compareToIgnoreCase()",
+            "String to char array: toCharArray(), and vice versa valueOf()",
+            "Character class methods: isLetter(), isDigit(), isUpperCase(), isLowerCase()",
+            "Character.toUpperCase(), Character.toLowerCase()",
+            "StringBuffer/StringBuilder: mutable strings — append(), insert(), delete(), reverse()",
+            "String vs StringBuffer vs StringBuilder — differences and when to use",
+            "StringTokenizer class: splitting strings (ISC specific)",
+            "String concatenation performance: why StringBuilder matters",
+            "Common programs: palindrome, word extraction, pigLatin, character frequency",
+            "Sentence manipulation: reverse words, title case, remove duplicates",
+            "Board exam focus: output tracing with string methods"
+          ],
+          "projects": [
+            "Text analyzer — word count, sentence count, character frequency",
+            "Pig Latin converter",
+            "Unique word extractor from a sentence",
+            "String encryption/decryption program"
+          ],
+          "practice": "ISC string programs (40+), method output prediction MCQs, character manipulation problems"
+        },
+        "week_19_20": {
+          "title": "Recursion in Java — ISC Focus",
+          "topics": [
+            "What is recursion? — method calling itself",
+            "Base case and recursive case — avoiding infinite recursion",
+            "Stack memory and recursion — how function calls are stacked",
+            "StackOverflowError — what happens without base case",
+            "Factorial using recursion — tracing each call",
+            "Fibonacci series using recursion",
+            "GCD using Euclidean algorithm (recursive)",
+            "Power calculation: a^n using recursion",
+            "Sum of digits using recursion",
+            "Reverse a number using recursion",
+            "Palindrome check using recursion",
+            "Binary search using recursion",
+            "Tower of Hanoi — classic recursion problem (ISC important)",
+            "Decimal to binary conversion using recursion",
+            "String reversal using recursion",
+            "Recursion vs iteration: pros, cons, when to use which",
+            "Tail recursion concept",
+            "ISC exam focus: tracing recursive calls, finding output, counting calls"
+          ],
+          "projects": [
+            "Recursive function library — 15 recursive solutions",
+            "Tower of Hanoi solver with step-by-step output",
+            "Recursive pattern printer",
+            "Recursive maze solver (bonus challenge)"
+          ],
+          "practice": "ISC recursion questions (30+), call stack tracing exercises, output prediction problems"
+        }
+      }
+    }
+  },
+  "phase_2_class_11_semester_2": {
+    "title": "PHASE 2: Class 11 Semester 2 — Advanced Concepts, Ethics & Practicals (Months 6-10)",
+    "description": "Complete remaining Class 11 syllabus topics, prepare practical file with 20+ programs, work on project, and build exam readiness.",
+    "month_6_7": {
+      "title": "Months 6-7: Society, Law, Ethics & Advanced Topics",
+      "weeks": "Week 21-28",
+      "week_21_22": {
+        "title": "Society, Law and Ethics — Digital Citizenship (CBSE) / Computing Trends (ISC)",
+        "topics": [
+          "Digital footprint: active vs passive — what you leave behind online",
+          "Net etiquette (Netiquette): proper online behavior, email etiquette",
+          "Social media ethics and responsible usage",
+          "Data protection and privacy — personal data, consent, GDPR concepts",
+          "Intellectual Property Rights (IPR): copyright, patent, trademark",
+          "Plagiarism: what it is, how to avoid, proper citation",
+          "Software licensing: proprietary vs open source",
+          "Free and Open Source Software (FOSS): Linux, LibreOffice, GIMP, Python",
+          "Creative Commons licenses: CC-BY, CC-BY-SA, CC-BY-NC",
+          "GPL (GNU General Public License), Apache License, MIT License",
+          "Cybercrime: hacking, cracking, phishing, pharming, vishing, smishing",
+          "Malware types: virus, worm, trojan horse, ransomware, spyware, adware",
+          "Ransomware attacks: WannaCry, NotPetya — real-world case studies",
+          "Cyberbullying: forms, impact, prevention, reporting",
+          "Indian Information Technology Act 2000 (amended 2008) — key provisions",
+          "IT Act sections relevant to students: Sections 43, 65, 66, 67",
+          "E-waste: definition, hazards, proper disposal methods, recycling",
+          "Health concerns: ergonomics, digital eye strain, repetitive strain injury",
+          "Gender and disability issues in computing — inclusivity in tech",
+          "Emerging trends: AI, IoT, Cloud Computing, Big Data, Blockchain (overview)"
+        ],
+        "projects": [
+          "Digital citizenship presentation — 20 dos and don'ts",
+          "Cybercrime awareness poster/infographic",
+          "E-waste management plan for your school",
+          "Research report: Famous cyberattacks and lessons learned"
+        ],
+        "practice": "NCERT society chapter questions, 50 MCQs on cyber ethics, case study questions, IT Act scenario-based questions"
+      },
+      "week_23_24": {
+        "title": "CBSE: Advanced Python Concepts / ISC: File Handling & Packages in Java",
+        "cbse_topics": [
+          "Revisiting all Python concepts for exam preparation",
+          "Advanced list comprehensions with multiple conditions",
+          "Dictionary and set operations — advanced patterns",
+          "Nested data structures: list of dictionaries, dictionary of lists",
+          "Error handling basics: try, except, finally (preview for Class 12)",
+          "File handling introduction: open(), read(), write(), close() (preview)",
+          "Standard library exploration: os module, sys module basics",
+          "Code optimization techniques — writing Pythonic code",
+          "PEP 8 coding style guidelines",
+          "Debugging strategies: print debugging, IDE debugger usage"
+        ],
+        "isc_topics": [
+          "File handling in Java using FileInputStream, FileOutputStream",
+          "FileReader and FileWriter — character stream handling",
+          "BufferedReader and PrintWriter for efficient I/O",
+          "Reading and writing text files — line by line",
+          "Exception handling: try-catch-finally in file operations",
+          "Packages: what are packages, package declaration",
+          "Creating user-defined packages",
+          "Importing packages: import statement, wildcard import",
+          "Java API packages: java.lang, java.util, java.io",
+          "Access modifiers with packages: public, protected, default, private"
+        ],
+        "practice": "Mixed concept revision, integrated programs using multiple concepts"
+      },
+      "week_25_28": {
+        "title": "Practical File Preparation, Project Work & Class 11 Exam Prep",
+        "topics": [
+          "CBSE Practical file: Minimum 20 Python programs covering all chapters",
+          "ISC Practical: Year-long programming assignments compilation",
+          "Program 1-5: Basic Python/Java programs (variables, operators, input/output)",
+          "Program 6-10: Control flow programs (if-else, loops, patterns)",
+          "Program 11-15: String manipulation programs",
+          "Program 16-20: List/Array, Tuple, Dictionary programs",
+          "Program 21-25: Function-based programs with modules (CBSE) / OOP programs (ISC)",
+          "Project selection and planning — choosing a meaningful project",
+          "CBSE suggested projects: Quiz game, Library management, Student database",
+          "ISC suggested projects: Inventory system, Bank management, School management",
+          "Project documentation: introduction, system requirements, source code, output screenshots",
+          "Viva voce preparation: 50 most-asked questions with answers",
+          "Class 11 final exam revision — chapter-wise important questions",
+          "Sample paper solving — 5 complete papers with marking scheme",
+          "Time management during exams — allocating marks to time"
+        ],
+        "deliverables": [
+          "Complete practical file with 20-25 programs (handwritten/printed as per school)",
+          "Project report with documentation",
+          "Viva preparation sheet — 50 Q&A",
+          "5 solved sample papers"
+        ]
+      }
+    }
+  },
+  "phase_3_class_12_semester_1": {
+    "title": "PHASE 3: Class 12 Semester 1 — Advanced Programming, File Handling & Data Structures (Months 11-17)",
+    "description": "Deep dive into Class 12 core topics: advanced programming, file handling, data structures, sorting and searching algorithms. This is the highest-weightage section in board exams.",
+    "month_11_12": {
+      "title": "Months 11-12: Advanced Functions, Exception Handling & File Handling",
+      "weeks": "Week 41-48",
+      "cbse_python_track": {
+        "week_41_42": {
+          "title": "Advanced Functions & Exception Handling in Python",
+          "topics": [
+            "Revision of Class 11 function concepts — parameters, return, scope",
+            "Global vs local scope deep dive — LEGB rule revisited",
+            "global keyword — modifying global variables inside functions",
+            "Nested functions and closures",
+            "Functions as first-class objects — passing functions as arguments",
+            "Advanced default arguments and keyword-only arguments",
+            "Recursive functions: factorial, Fibonacci, sum of digits, power, GCD",
+            "Recursion depth and sys.setrecursionlimit()",
+            "Exception handling: what are exceptions vs syntax errors",
+            "try block: code that might cause an exception",
+            "except block: handling specific exceptions",
+            "Multiple except blocks for different exception types",
+            "except with as keyword: except ValueError as e",
+            "else block: executes when no exception occurs",
+            "finally block: always executes — cleanup code",
+            "Common built-in exceptions: ValueError, TypeError, IndexError, KeyError, ZeroDivisionError, FileNotFoundError, IOError",
+            "raise statement: raising exceptions manually",
+            "Custom exception classes (basics)",
+            "Board exam pattern: output prediction with try-except, function scope questions"
+          ],
+          "projects": [
+            "Robust calculator with exception handling for all edge cases",
+            "Recursive problem set — 10 programs using recursion",
+            "Error-proof input validator using try-except",
+            "Function library with comprehensive error handling"
+          ],
+          "practice": "Sumita Arora Class 12 function chapters, 40 exception handling MCQs, 20 recursive function tracing problems"
+        },
+        "week_43_44": {
+          "title": "Text File Handling in Python",
+          "topics": [
+            "What are files? — persistent storage, file vs variable",
+            "Types of files: text files vs binary files",
+            "Opening a file: open(filename, mode) — file handle/object",
+            "File modes: 'r' (read), 'w' (write), 'a' (append), 'r+' (read+write), 'w+' (write+read), 'a+' (append+read)",
+            "Reading text files: read(), read(n), readline(), readlines()",
+            "Difference between read(), readline(), readlines() — EXAM CRITICAL",
+            "Writing to text files: write(), writelines()",
+            "Difference between write() and writelines()",
+            "Closing files: close() — why it's important",
+            "with statement: automatic file closing — best practice",
+            "File pointer: tell() — current position, seek(offset, whence) — moving pointer",
+            "seek(0) — go to beginning, seek(0, 2) — go to end",
+            "Line-by-line processing: for line in file_handle",
+            "Counting lines, words, characters in a text file",
+            "Searching for a word/pattern in a text file",
+            "Copying content from one file to another",
+            "Appending data to existing files",
+            "Common programs: count uppercase/lowercase/digits/vowels in file",
+            "Find and replace words in a text file",
+            "Board exam focus: output prediction with file operations, explain difference questions"
+          ],
+          "projects": [
+            "Text file analyzer — count lines, words, characters, vowels, consonants",
+            "Log file processor — search and filter entries",
+            "Student record manager using text files",
+            "File copy and merge utility"
+          ],
+          "practice": "Sumita Arora file handling chapter, 30 file handling programs, 40 MCQs on file operations"
+        },
+        "week_45_46": {
+          "title": "Binary File Handling & CSV File Handling in Python",
+          "topics": [
+            "Binary files: what and why — storing non-text data",
+            "Binary file modes: 'rb', 'wb', 'ab', 'r+b', 'w+b', 'a+b'",
+            "pickle module: serialization and deserialization",
+            "pickle.dump(object, file_handle): writing Python objects to binary file",
+            "pickle.load(file_handle): reading Python objects from binary file",
+            "Pickling different data types: int, float, string, list, tuple, dictionary",
+            "Writing and reading multiple records to/from binary file",
+            "Searching records in a binary file — reading until EOFError",
+            "Updating and deleting records in binary files (read all, modify, write all)",
+            "EOFError handling with try-except — standard pattern for binary files",
+            "CSV files: Comma Separated Values — structure and usage",
+            "csv module: importing csv",
+            "csv.writer(): creating CSV writer object",
+            "writerow() — writing single row, writerows() — writing multiple rows",
+            "csv.reader(): reading CSV files — returns iterable",
+            "Reading CSV with for loop — each row is a list",
+            "Using delimiter parameter for custom separators",
+            "CSV with headers — DictWriter and DictReader (bonus)",
+            "Real-world CSV: exporting student data, reading attendance sheets",
+            "Board exam pattern: complete programs on binary and CSV file operations"
+          ],
+          "projects": [
+            "Student database with binary file — add, search, update, delete records",
+            "Employee payroll system using pickle",
+            "CSV report generator — attendance tracker",
+            "Data migration tool — text file to CSV to binary file conversion"
+          ],
+          "practice": "30 binary file handling programs, 15 CSV programs, Sumita Arora exercises, previous year board questions"
+        },
+        "week_47_48": {
+          "title": "Data Structures — Stack Implementation using Python List",
+          "topics": [
+            "What are data structures? — organizing data efficiently",
+            "Linear vs non-linear data structures",
+            "Stack: Last-In-First-Out (LIFO) principle",
+            "Real-world stack analogies: stack of plates, undo/redo, browser back button",
+            "Stack operations: push (insert at top), pop (remove from top), peek/top (view top)",
+            "isEmpty() — check if stack is empty, size() — number of elements",
+            "Stack overflow and stack underflow conditions",
+            "Implementing stack using Python list: append() for push, pop() for pop",
+            "Complete stack implementation with all operations",
+            "Stack applications: parenthesis matching, expression evaluation",
+            "Infix, prefix, postfix notation — understanding the concepts",
+            "Reversing a string using stack",
+            "Stack-based programs for board exams: book management, student records",
+            "Tracing push and pop operations — step-by-step visualization",
+            "Board exam pattern: stack operation output prediction, application-based questions",
+            "Stack vs Queue (conceptual comparison)",
+            "Time complexity of stack operations: O(1) for push and pop"
+          ],
+          "projects": [
+            "Stack implementation — complete menu-driven program",
+            "Parenthesis/bracket matcher using stack",
+            "Reverse a string/list using stack",
+            "Undo feature simulation using stack"
+          ],
+          "practice": "25 stack programs, operation tracing exercises, Sumita Arora data structure chapter, board exam stack questions from last 10 years"
+        }
+      },
+      "isc_java_track": {
+        "week_41_42": {
+          "title": "Inheritance & Polymorphism in Java (ISC Class 12 Focus)",
+          "topics": [
+            "Inheritance: creating new classes from existing classes",
+            "extends keyword — subclass inherits from superclass",
+            "Types of inheritance: single, multilevel, hierarchical",
+            "Why Java doesn't support multiple inheritance (through classes)",
+            "super keyword: calling superclass constructor, accessing superclass methods/variables",
+            "Constructor chaining in inheritance — order of constructor execution",
+            "Method overriding: subclass redefining superclass method",
+            "Method overloading vs method overriding — EXAM CRITICAL comparison",
+            "Polymorphism: one interface, multiple forms",
+            "Compile-time polymorphism (method overloading) vs Runtime polymorphism (method overriding)",
+            "Dynamic method dispatch / dynamic binding",
+            "Abstract classes: abstract keyword, abstract methods",
+            "Concrete vs abstract classes — when to use which",
+            "Interfaces in Java: what they are, how they differ from abstract classes",
+            "Implementing interfaces: implements keyword",
+            "Interface vs abstract class — ISC exam comparison question",
+            "final keyword: final variables (constants), final methods (can't override), final classes (can't inherit)",
+            "instanceof operator — type checking",
+            "Upcasting and downcasting"
+          ],
+          "projects": [
+            "Shape hierarchy: Shape → Circle, Rectangle, Triangle with area/perimeter",
+            "Employee payroll with Manager, Developer, Intern subclasses",
+            "Vehicle inheritance: Vehicle → Car, Bike, Truck",
+            "Banking system with different account types"
+          ],
+          "practice": "ISC inheritance questions (40+), output tracing with polymorphism, method dispatch problems"
+        },
+        "week_43_44": {
+          "title": "Advanced Data Structures — Stack & Queue in Java (ISC)",
+          "topics": [
+            "Stack: LIFO principle — push, pop, peek, isEmpty",
+            "Stack implementation using arrays in Java",
+            "Stack overflow (array full) and underflow (array empty) handling",
+            "Stack applications: parenthesis matching, infix to postfix conversion",
+            "Infix to prefix conversion using stack",
+            "Postfix expression evaluation using stack",
+            "Queue: FIFO principle — enqueue, dequeue, front, rear, isEmpty",
+            "Queue implementation using arrays in Java",
+            "Limitation of linear queue — wasted space",
+            "Circular Queue: efficient queue implementation",
+            "Circular queue operations: enqueue, dequeue with modular arithmetic",
+            "Double-Ended Queue (Deque): insertion and deletion from both ends",
+            "Priority Queue concepts",
+            "Applications of queue: scheduling, BFS, printer queue",
+            "ISC exam pattern: implementing stack/queue as a class with constructor and methods"
+          ],
+          "projects": [
+            "Stack class with complete implementation and menu-driven testing",
+            "Infix to Postfix converter using stack",
+            "Circular Queue implementation",
+            "Postfix expression evaluator"
+          ],
+          "practice": "ISC data structure questions (40+), stack/queue operation tracing, conversion problems"
+        },
+        "week_45_46": {
+          "title": "Linked List in Java (ISC Class 12)",
+          "topics": [
+            "What is a linked list? — dynamic data structure, nodes and links",
+            "Node class: data field and next reference",
+            "Singly Linked List: creating, traversing",
+            "Insertion: at beginning, at end, at specific position",
+            "Deletion: from beginning, from end, specific node by value",
+            "Searching in a linked list — sequential traversal",
+            "Counting nodes in a linked list",
+            "Reversing a linked list — iterative approach",
+            "Extracting a sublist from a linked list",
+            "Checking if linked list is empty",
+            "Linked list vs array — advantages and disadvantages comparison",
+            "Memory allocation: static (arrays) vs dynamic (linked lists)",
+            "ISC exam pattern: writing complete linked list class with all operations",
+            "Sorted insertion in a linked list",
+            "Merging two sorted linked lists",
+            "Applications of linked lists: polynomial representation, sparse matrix"
+          ],
+          "projects": [
+            "Complete Linked List class with all operations — ISC exam format",
+            "Polynomial addition using linked lists",
+            "Student record management using linked list",
+            "Sorted linked list with insertion and deletion"
+          ],
+          "practice": "ISC linked list questions (30+), operation tracing, complete class implementation practice"
+        },
+        "week_47_48": {
+          "title": "Binary Trees & Computational Complexity (ISC Class 12)",
+          "topics": [
+            "Binary trees: concept, terminology — root, node, leaf, parent, child, sibling",
+            "Tree properties: height, depth, level, degree",
+            "Types of binary trees: full, complete, perfect, balanced",
+            "Binary Search Tree (BST): property — left < root < right",
+            "Tree traversals (conceptual — ISC doesn't require implementation):",
+            "In-order traversal: Left → Root → Right (gives sorted order for BST)",
+            "Pre-order traversal: Root → Left → Right",
+            "Post-order traversal: Left → Right → Root",
+            "Constructing BST from given data",
+            "Tracing traversal outputs for given trees — EXAM FAVORITE",
+            "Computational complexity: measuring algorithm efficiency",
+            "Input size concept — how it affects running time",
+            "Best case, average case, worst case analysis",
+            "Big O notation: O(1), O(log n), O(n), O(n log n), O(n²)",
+            "Dominant term — ignoring constants and lower-order terms",
+            "Complexity of common algorithms: linear search O(n), binary search O(log n)",
+            "Sorting complexity: bubble O(n²), selection O(n²), insertion O(n²)",
+            "Stack/Queue operations: O(1)",
+            "Linked list search: O(n)"
+          ],
+          "projects": [
+            "BST traversal tracer — draw tree and show all 3 traversal outputs",
+            "Complexity comparison chart for all algorithms learned",
+            "Algorithm efficiency analyzer — compare running times"
+          ],
+          "practice": "ISC tree traversal questions (20+), complexity analysis MCQs, BST construction exercises"
+        }
+      }
+    },
+    "month_13_14": {
+      "title": "Months 13-14: Sorting, Searching & Algorithm Efficiency",
+      "weeks": "Week 49-56",
+      "applies_to_cbse": {
+        "week_49_50": {
+          "title": "Sorting Algorithms in Python (CBSE Class 12)",
+          "topics": [
+            "Why sorting matters — organizing data for efficient processing",
+            "Bubble Sort: comparing adjacent elements, swapping, multiple passes",
+            "Bubble sort algorithm: step-by-step with example array",
+            "Bubble sort Python code with complete explanation",
+            "Optimized bubble sort with swap flag — early termination",
+            "Bubble sort complexity: O(n²) average/worst, O(n) best (optimized)",
+            "Selection Sort: finding minimum, placing in correct position",
+            "Selection sort algorithm: step-by-step with example",
+            "Selection sort Python code with explanation",
+            "Selection sort complexity: O(n²) in all cases",
+            "Insertion Sort: building sorted portion, inserting elements",
+            "Insertion sort algorithm: step-by-step with example — like sorting cards",
+            "Insertion sort Python code with explanation",
+            "Insertion sort complexity: O(n²) average/worst, O(n) best",
+            "Comparison of all three sorting algorithms — when to use which",
+            "Stability of sorting algorithms — bubble and insertion are stable, selection is not",
+            "Board exam focus: tracing sort passes, writing code, comparing algorithms"
+          ],
+          "projects": [
+            "Sorting visualizer — show each pass of all 3 algorithms",
+            "Performance comparison — time 1000 sorts with each algorithm",
+            "Sort student records by name, marks, roll number"
+          ],
+          "practice": "30 sort tracing problems, write all 3 algorithms from memory, previous year board sorting questions"
+        },
+        "week_51_52": {
+          "title": "Searching Algorithms in Python (CBSE Class 12)",
+          "topics": [
+            "Linear Search: sequential checking, works on unsorted data",
+            "Linear search algorithm and Python implementation",
+            "Linear search: best case O(1), worst case O(n), average O(n/2)",
+            "Binary Search: divide and conquer, requires sorted data",
+            "Binary search algorithm: finding mid, comparing, narrowing range",
+            "Binary search Python implementation — iterative approach",
+            "Binary search: best case O(1), worst case O(log n)",
+            "Why binary search is dramatically faster — logarithmic vs linear",
+            "Binary search edge cases: element not found, first/last element",
+            "Linear vs Binary search comparison — detailed table",
+            "When to use which: unsorted data → linear, sorted data → binary",
+            "Searching in lists, tuples, and dictionaries",
+            "Python's built-in search: in operator, index() method, bisect module",
+            "Board exam pattern: tracing binary search steps, code output prediction"
+          ],
+          "projects": [
+            "Search algorithm comparison tool — count comparisons for both",
+            "Phone book search — linear for names, binary for sorted entries",
+            "Searching programs from past 10 years board papers — complete solutions"
+          ],
+          "practice": "20 binary search tracing problems, comparison with linear search, board exam questions"
+        }
+      }
+    }
+  },
+  "phase_4_class_12_semester_2": {
+    "title": "PHASE 4: Class 12 Semester 2 — SQL, Networks, Connectivity & Board Exam Mastery (Months 18-24)",
+    "description": "Complete the remaining Class 12 syllabus: SQL and databases, computer networks, Python-MySQL connectivity, then intensive board exam preparation with mock tests and revision.",
+    "month_18_19": {
+      "title": "Months 18-19: Database Management & SQL",
+      "weeks": "Week 69-76",
+      "applies_to": "CBSE batch (ISC students cover Boolean algebra in parallel)",
+      "week_69_70": {
+        "title": "Database Concepts & SQL Fundamentals",
+        "topics": [
+          "What is a database? — organized collection of related data",
+          "File system vs DBMS: advantages of database approach",
+          "DBMS examples: MySQL, PostgreSQL, Oracle, SQL Server, MongoDB",
+          "Relational Database Management System (RDBMS) — storing data in tables",
+          "Relational model terminology: relation (table), attribute (column), tuple (row), domain (valid values)",
+          "Degree of a relation: number of columns, Cardinality: number of rows",
+          "Keys in RDBMS — EXAM CRITICAL:",
+          "Candidate key: uniquely identifies each row (may have multiple)",
+          "Primary key: chosen candidate key for unique identification (only one per table)",
+          "Alternate key: candidate keys that are not primary key",
+          "Foreign key: attribute referencing primary key of another table — establishes relationship",
+          "Composite key: primary key made of two or more columns",
+          "Introduction to SQL: Structured Query Language — not a programming language",
+          "SQL categories: DDL (Data Definition), DML (Data Manipulation), DQL (Data Query)",
+          "MySQL installation and setup — accessing MySQL command line",
+          "SQL data types: CHAR(n), VARCHAR(n), INT, SMALLINT, FLOAT, DOUBLE, DATE, DATETIME",
+          "CHAR vs VARCHAR: fixed vs variable length — when to use which",
+          "Constraints: NOT NULL, UNIQUE, PRIMARY KEY, DEFAULT, CHECK"
+        ],
+        "projects": [
+          "Design a school database: tables for Students, Teachers, Classes, Marks",
+          "Identify keys for 10 different real-world scenarios",
+          "Install MySQL and create your first database and tables"
+        ],
+        "practice": "50 MCQs on database concepts, key identification exercises, Sumita Arora SQL chapter theory questions"
+      },
+      "week_71_72": {
+        "title": "SQL DDL & DML Commands",
+        "topics": [
+          "DDL — Data Definition Language (structure commands):",
+          "CREATE DATABASE database_name; — creating a new database",
+          "USE database_name; — selecting active database",
+          "SHOW DATABASES; SHOW TABLES; — listing databases and tables",
+          "CREATE TABLE: defining table structure with columns, data types, constraints",
+          "CREATE TABLE with PRIMARY KEY, NOT NULL, UNIQUE, DEFAULT constraints",
+          "DESCRIBE/DESC table_name; — viewing table structure",
+          "ALTER TABLE: ADD column, MODIFY column data type/size, DROP column",
+          "ALTER TABLE: ADD PRIMARY KEY, DROP PRIMARY KEY",
+          "DROP TABLE table_name; — deleting entire table",
+          "DROP DATABASE database_name; — deleting entire database",
+          "DML — Data Manipulation Language (data commands):",
+          "INSERT INTO: adding single row, adding multiple rows",
+          "INSERT INTO with column list vs without (all columns required)",
+          "INSERT INTO with NULL values and DEFAULT values",
+          "UPDATE: modifying existing data with SET clause",
+          "UPDATE with WHERE clause — conditional update",
+          "UPDATE multiple columns simultaneously",
+          "DELETE FROM: removing rows with WHERE condition",
+          "DELETE vs DROP: removing data vs removing structure",
+          "CAUTION: UPDATE/DELETE without WHERE affects ALL rows"
+        ],
+        "projects": [
+          "Create complete school database with 5 tables",
+          "Insert 20+ records in each table — realistic data",
+          "Practice ALTER TABLE: add, modify, drop columns",
+          "UPDATE and DELETE operations with various conditions"
+        ],
+        "practice": "40 DDL/DML practice queries, Sumita Arora exercises, create-insert-update-delete drill"
+      },
+      "week_73_74": {
+        "title": "SQL DQL — SELECT Queries, Clauses & Functions",
+        "topics": [
+          "SELECT statement: retrieving data from tables",
+          "SELECT * FROM table; — all columns, all rows",
+          "SELECT column1, column2 FROM table; — specific columns",
+          "SELECT DISTINCT column FROM table; — removing duplicates",
+          "Column aliases: SELECT column AS alias_name",
+          "WHERE clause: filtering rows based on conditions",
+          "Comparison operators in WHERE: = <> < > <= >=",
+          "Logical operators: AND, OR, NOT — combining conditions",
+          "BETWEEN operator: WHERE column BETWEEN value1 AND value2",
+          "IN operator: WHERE column IN (value1, value2, value3)",
+          "LIKE operator: pattern matching with wildcards",
+          "% wildcard: any number of characters, _ wildcard: single character",
+          "LIKE patterns: 'A%' (starts with A), '%ing' (ends with ing), '%an%' (contains an)",
+          "IS NULL and IS NOT NULL: checking for missing values",
+          "ORDER BY: sorting results — ASC (default) and DESC",
+          "ORDER BY multiple columns — secondary sorting",
+          "Aggregate functions — BOARD EXAM ESSENTIALS:",
+          "COUNT(*), COUNT(column), COUNT(DISTINCT column)",
+          "SUM(column), AVG(column), MAX(column), MIN(column)",
+          "Aggregate functions ignore NULL values (except COUNT(*))",
+          "GROUP BY: grouping rows for aggregate calculations",
+          "HAVING clause: filtering groups (WHERE filters rows, HAVING filters groups)",
+          "Difference between WHERE and HAVING — EXAM CRITICAL",
+          "Query execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY"
+        ],
+        "projects": [
+          "50-query drill: write SELECT queries for given scenarios",
+          "Student performance analysis: average marks by subject, topper per class",
+          "Employee database queries: salary analysis, department-wise stats",
+          "SQL query challenge: 20 real-world business questions"
+        ],
+        "practice": "100 SELECT query practice problems, Sumita Arora SQL exercises, previous 10 years board SQL questions"
+      },
+      "week_75_76": {
+        "title": "SQL Joins, Functions & Advanced Queries",
+        "topics": [
+          "SQL Functions — Single row functions:",
+          "Math functions: POWER(base, exp), ROUND(num, decimals), MOD(a, b)",
+          "TRUNCATE(num, decimals), ABS(num), CEIL(num), FLOOR(num)",
+          "String/Text functions: UCASE()/UPPER(), LCASE()/LOWER()",
+          "MID()/SUBSTRING()/SUBSTR(str, start, length)",
+          "LENGTH(str), LEFT(str, n), RIGHT(str, n)",
+          "INSTR(str, substr) — find position of substring",
+          "LTRIM(), RTRIM(), TRIM() — removing spaces",
+          "CONCAT(str1, str2) — joining strings",
+          "Date functions: NOW(), DATE(), MONTH(), MONTHNAME()",
+          "YEAR(), DAY(), DAYNAME(), DAYOFWEEK()",
+          "Joins — combining data from multiple tables:",
+          "Cartesian Product: combining every row of table1 with every row of table2",
+          "Equi-Join: Cartesian product with equality condition on common column",
+          "Natural Join: automatic join on common column names",
+          "JOIN syntax: SELECT ... FROM table1, table2 WHERE table1.col = table2.col",
+          "Table aliases in joins: SELECT a.name, b.dept FROM emp a, dept b WHERE a.deptno = b.deptno",
+          "Self-join concept (CBSE bonus)",
+          "Board exam pattern: write SQL query for given output, find errors in SQL"
+        ],
+        "projects": [
+          "Multi-table database project: Student-Marks-Subject tables with joins",
+          "Query-the-database challenge: 30 join-based questions",
+          "SQL function practice: 40 function-based queries",
+          "Complete SQL revision — all concepts in one project"
+        ],
+        "practice": "50 join queries, 30 function queries, Sumita Arora advanced SQL exercises, board exam SQL from last 10 years"
+      },
+      "isc_parallel_topic": {
+        "title": "Boolean Algebra & Karnaugh Maps (ISC Class 12 — runs parallel to SQL for CBSE)",
+        "topics": [
+          "Boolean algebra postulates and theorems — complete set",
+          "Simplification using algebraic method — 10+ practice expressions",
+          "Sum of Products (SOP) form — minterm representation",
+          "Product of Sums (POS) form — maxterm representation",
+          "Canonical SOP and POS from truth tables",
+          "Karnaugh Map (K-Map): 2-variable, 3-variable, 4-variable",
+          "Grouping rules: groups of 1, 2, 4, 8 — must be powers of 2",
+          "Don't care conditions in K-Maps",
+          "Simplification using K-Map — extracting minimal SOP/POS",
+          "Verification of simplified expression using truth tables",
+          "Logic circuit design from Boolean expressions",
+          "Implementing circuits using universal gates (NAND only, NOR only)",
+          "Half adder and full adder circuits — truth tables, expressions, diagrams",
+          "Encoder and decoder circuits",
+          "Multiplexer and demultiplexer concepts"
+        ],
+        "practice": "30 algebraic simplification problems, 30 K-Map problems, circuit design practice, ISC previous year Boolean algebra questions"
+      }
+    },
+    "month_20_21": {
+      "title": "Months 20-21: Computer Networks & Python-MySQL Connectivity",
+      "weeks": "Week 77-84",
+      "week_77_78": {
+        "title": "Computer Networks — Complete Chapter (CBSE & ISC)",
+        "topics": [
+          "Evolution of networking: ARPANET → NSFNET → Modern Internet",
+          "Data communication: sender, receiver, message, transmission medium, protocol",
+          "Types of data: text, numbers, images, audio, video",
+          "Bandwidth: definition, units (bps, Kbps, Mbps, Gbps)",
+          "Communication modes: simplex, half-duplex, full-duplex",
+          "Switching techniques: circuit switching vs packet switching",
+          "IP addressing: IPv4 (32-bit, dotted decimal), IPv6 (128-bit)",
+          "IP address classes: A, B, C, D, E — ranges and default subnet masks",
+          "Public IP vs Private IP addresses",
+          "Transmission media — Guided (wired):",
+          "Twisted pair cable: UTP, STP — uses, advantages",
+          "Coaxial cable: structure, uses (cable TV, earlier ethernet)",
+          "Fiber optic cable: total internal reflection, uses, advantages — fastest guided medium",
+          "Transmission media — Unguided (wireless):",
+          "Radio waves: long range, omnidirectional — FM, AM, WiFi, Bluetooth",
+          "Microwaves: line of sight, point-to-point — cell towers",
+          "Infrared: short range, line of sight — TV remote, IrDA",
+          "Satellite communication: geostationary orbit, VSAT",
+          "Networking devices: modem (modulator-demodulator), Ethernet card/NIC",
+          "RJ45 connector, repeater (signal amplification), hub (broadcasts to all)",
+          "Switch (intelligent forwarding), router (inter-network routing, IP-based)",
+          "Gateway (protocol conversion), bridge (segment connection)",
+          "WiFi card, access point — wireless networking"
+        ],
+        "projects": [
+          "Network diagram design for a school/office — choose appropriate devices and media",
+          "IP addressing worksheet — classify 30 IP addresses, identify class",
+          "Transmission media comparison chart — speed, cost, distance, use cases"
+        ],
+        "practice": "Sumita Arora network chapters, 60 MCQs, previous year network questions, case study practice"
+      },
+      "week_79_80": {
+        "title": "Network Topologies, Protocols & Web Technologies",
+        "topics": [
+          "Network topologies — physical layout:",
+          "Star topology: central hub/switch, easy troubleshooting, single point of failure",
+          "Bus topology: single backbone cable, terminators, difficult troubleshooting",
+          "Tree/Hierarchical topology: combination of star and bus",
+          "Mesh topology: every device connected to every other — maximum redundancy",
+          "Ring topology: circular connection — token passing",
+          "Types of networks based on geographical spread:",
+          "PAN (Personal Area Network): Bluetooth, within 10m",
+          "LAN (Local Area Network): within a building, Ethernet, WiFi",
+          "MAN (Metropolitan Area Network): across a city, cable TV network",
+          "WAN (Wide Area Network): across countries, Internet is largest WAN",
+          "Network protocols — rules for communication:",
+          "HTTP (HyperText Transfer Protocol): web page transfer, port 80",
+          "HTTPS: secure HTTP with SSL/TLS encryption, port 443",
+          "FTP (File Transfer Protocol): file transfer, port 21",
+          "SMTP (Simple Mail Transfer Protocol): sending emails, port 25",
+          "POP3 (Post Office Protocol 3): receiving emails, port 110",
+          "IMAP: accessing emails on server, port 143",
+          "TCP/IP (Transmission Control Protocol/Internet Protocol): foundational protocol suite",
+          "PPP (Point-to-Point Protocol): direct connection between two nodes",
+          "TELNET: remote login, port 23 — insecure",
+          "VoIP (Voice over IP): voice calls over Internet (WhatsApp calls, Zoom)",
+          "Web concepts: WWW, HTML, XML, domain names, URL structure",
+          "URL components: protocol://domain:port/path?query#fragment",
+          "DNS (Domain Name System): translating domain names to IP addresses",
+          "Web browser, web server, web hosting concepts",
+          "Static vs dynamic web pages",
+          "Cookies: what they store, first-party vs third-party"
+        ],
+        "projects": [
+          "Network design case study — layout for multi-floor building with 200 computers",
+          "Protocol identification quiz — match scenarios to protocols",
+          "Web technology report — how the Internet works from URL to page load"
+        ],
+        "practice": "50 protocol MCQs, topology comparison questions, case study practice (CBSE favorite), board exam network questions"
+      },
+      "week_81_82": {
+        "title": "Network Security & Python-MySQL Connectivity (CBSE)",
+        "topics": [
+          "Network security threats:",
+          "Malware: virus (needs host), worm (self-replicating), trojan horse (disguised)",
+          "Ransomware: encrypts data, demands payment — WannaCry, NotPetya examples",
+          "Spyware: secretly monitors, keyloggers",
+          "Adware: unwanted advertisements",
+          "Phishing: fake websites/emails to steal credentials",
+          "Pharming: redirecting website traffic to fake sites",
+          "Denial of Service (DoS): overwhelming server with requests",
+          "Man-in-the-middle attack: intercepting communication",
+          "Security measures: antivirus software, firewall (hardware/software)",
+          "Encryption: converting data to unreadable form",
+          "HTTP vs HTTPS: why HTTPS matters — SSL/TLS certificates",
+          "Hacker vs cracker: ethical hacking vs malicious hacking",
+          "Strong passwords: length, complexity, uniqueness",
+          "Two-factor authentication (2FA)",
+          "Python-MySQL Connectivity (CBSE Class 12 CRITICAL):",
+          "Installing mysql.connector: pip install mysql-connector-python",
+          "Importing: import mysql.connector",
+          "Establishing connection: mysql.connector.connect(host, user, password, database)",
+          "Creating cursor object: connection.cursor()",
+          "Executing SQL queries: cursor.execute('SQL query')",
+          "Fetching results: fetchone(), fetchall(), fetchmany(n)",
+          "cursor.rowcount — number of rows affected",
+          "Committing changes: connection.commit() — MANDATORY for INSERT/UPDATE/DELETE",
+          "Closing connection: connection.close()",
+          "Parameterized queries: preventing SQL injection with %s placeholders",
+          "Complete CRUD operations: Create, Read, Update, Delete through Python"
+        ],
+        "projects": [
+          "Complete student management system — Python frontend + MySQL backend",
+          "Library management system with Python-MySQL connectivity",
+          "4 Python-MySQL programs as required for practical file",
+          "Network security awareness presentation"
+        ],
+        "practice": "30 Python-MySQL programs, connectivity code output prediction, board exam connectivity questions from last 5 years"
+      }
+    },
+    "month_22_24": {
+      "title": "Months 22-24: Board Exam Preparation — Intensive Revision & Mock Tests",
+      "weeks": "Week 85-96",
+      "week_85_86": {
+        "title": "Practical File Completion & Project Submission Preparation",
+        "topics": [
+          "CBSE Practical file requirements: 15+ Python programs + 5+ SQL sets + 4+ Python-MySQL programs",
+          "ISC Practical: complete programming assignment compilation",
+          "Python programs list: functions, file handling (text, binary, CSV), stack, sorting, searching",
+          "SQL query sets: DDL, DML, DQL with single and multi-table queries",
+          "Python-MySQL connectivity programs: CRUD operations",
+          "Project selection for board practical: Python file handling OR Python-MySQL application",
+          "Project documentation template: cover page, certificate, acknowledgement",
+          "Project components: introduction, system requirements, source code, output screenshots, bibliography",
+          "CBSE project ideas: Inventory management, Quiz application, Student database, E-commerce simulator",
+          "ISC project ideas: Library system, Banking application, School management, Payroll system",
+          "Viva voce preparation: top 50 questions with model answers",
+          "Internal assessment preparation and marks distribution understanding"
+        ],
+        "deliverables": [
+          "Complete practical file (printed/handwritten as per school requirement)",
+          "Project with source code, documentation, and output",
+          "Viva preparation notes — 50 Q&A for each subject area"
+        ]
+      },
+      "week_87_88": {
+        "title": "Chapter-Wise Revision — Programming Topics",
+        "topics": [
+          "CBSE: Python revision — functions, scope, recursion (40 marks in board)",
+          "Exception handling revision with practice programs",
+          "File handling complete revision: text, binary (pickle), CSV",
+          "Data structures revision: stack operations, applications",
+          "Sorting algorithms revision: bubble, selection, insertion — code + tracing",
+          "Searching algorithms revision: linear, binary — code + tracing",
+          "ISC: Java revision — OOP, inheritance, polymorphism",
+          "Data structures revision: stack, queue, circular queue, deque",
+          "Linked list complete revision — all operations",
+          "Binary tree traversal revision",
+          "Recursion revision with 15 standard programs",
+          "Complexity analysis revision — Big O for all algorithms"
+        ],
+        "practice": "Topic-wise previous year questions, formula sheets, quick reference cards"
+      },
+      "week_89_90": {
+        "title": "Chapter-Wise Revision — SQL, Networks & Theory",
+        "topics": [
+          "SQL complete revision: DDL, DML, DQL commands",
+          "SQL functions revision: math, string, date, aggregate",
+          "GROUP BY, HAVING, ORDER BY — combined query practice",
+          "Joins revision: Cartesian product, equi-join, natural join",
+          "CBSE: Python-MySQL connectivity revision — connection, cursor, execute, fetch, commit",
+          "Computer networks complete revision: media, devices, topologies, protocols",
+          "ISC: Boolean algebra revision — laws, simplification, K-maps",
+          "Society, law and ethics revision: cybercrime, IPR, IT Act, e-waste",
+          "Case study questions practice — network design scenarios",
+          "Assertion-Reason questions practice — all chapters"
+        ],
+        "practice": "100 SQL queries revision, network diagram practice, case study solving"
+      },
+      "week_91_92": {
+        "title": "Mock Board Exams — Set 1 & 2",
+        "topics": [
+          "Full-length Mock Exam 1: 70 marks, 3 hours — strict exam conditions",
+          "Detailed solution discussion and marking scheme analysis",
+          "Common mistakes identification and correction",
+          "Full-length Mock Exam 2: 70 marks, 3 hours — different question set",
+          "Detailed solution discussion with alternative approaches",
+          "Marks improvement strategies based on mock performance",
+          "Section-wise time allocation strategy:",
+          "Section A (21 marks): 35 minutes — 1.5 min per MCQ",
+          "Section B (14 marks): 20 minutes — 3 min per 2-mark question",
+          "Section C (9-12 marks): 20 minutes — 5 min per 3-mark question",
+          "Section D (8-16 marks): 25 minutes — 6 min per 4-mark question",
+          "Section E (10-15 marks): 20 minutes — 8 min per 5-mark question",
+          "Presentation tips: writing code in exams, proper indentation, comments"
+        ],
+        "deliverables": [
+          "2 complete mock papers solved and reviewed",
+          "Personal weak areas identified and improvement plan",
+          "Time management skill developed through timed practice"
+        ]
+      },
+      "week_93_94": {
+        "title": "Mock Board Exams — Set 3, 4 & 5 + Previous Year Paper Analysis",
+        "topics": [
+          "Mock Exam 3, 4, 5: Full-length papers with varying difficulty",
+          "CBSE Previous Year Papers: 2020, 2021, 2022, 2023, 2024, 2025 — full solved",
+          "ISC Previous Year Papers: 2020, 2021, 2022, 2023, 2024, 2025 — full solved",
+          "CBSE Sample Paper 2025-26 — detailed solution with marking scheme",
+          "ISC Specimen Paper 2025-26 — detailed solution",
+          "Frequently repeated questions analysis — top 30 most-asked topics",
+          "Marking scheme tricks: how examiners award step marks",
+          "Partial credit strategies: getting marks even if full answer unknown",
+          "Common errors students make — and how to avoid them",
+          "Important program outputs that repeat in exams"
+        ],
+        "practice": "5 mock papers + 6 previous year papers = 11 full papers solved"
+      },
+      "week_95_96": {
+        "title": "Final Revision & Last-Minute Board Exam Tips",
+        "topics": [
+          "One-shot revision: complete syllabus in 2 days — key points only",
+          "Formula sheet / cheat sheet revision: all Python/Java syntax, SQL commands, network concepts",
+          "Top 50 most important programs — practice writing by hand",
+          "Top 30 SQL queries — write without thinking",
+          "Top 20 output prediction questions — instant answer practice",
+          "Board exam day strategy: reading time usage, question selection",
+          "How to write Python code in board exams: indentation, proper syntax",
+          "How to write SQL queries: uppercase commands, proper formatting",
+          "How to draw network diagrams: clean, labeled, with proper legends",
+          "Common last-minute doubts cleared",
+          "Confidence building: you've prepared more than 95% of students",
+          "Final practical exam preparation: lab test strategy, viva confidence"
+        ],
+        "deliverables": [
+          "Quick revision notes — entire syllabus on 10 pages",
+          "Top programs list — 50 most important programs",
+          "SQL quick reference — all commands on 2 pages",
+          "Network concepts summary — devices, protocols, topologies on 1 page",
+          "READY FOR BOARD EXAM — 95+ score target"
+        ]
+      }
+    }
+  },
+  "practical_assessment_guide": {
+    "cbse_practical": {
+      "title": "CBSE Computer Science Practical Exam Guide (30 Marks)",
+      "breakdown": {
+        "lab_test_python": {
+          "marks": 8,
+          "description": "Write and execute a Python program in exam — file handling / data structures / functions",
+          "evaluation": "60% logic correctness, 20% documentation, 20% code quality"
+        },
+        "lab_test_sql": {
+          "marks": 4,
+          "description": "4 SQL queries on 1-2 tables — DDL, DML, DQL, aggregate functions, joins"
+        },
+        "report_file": {
+          "marks": 7,
+          "description": "Minimum 15 Python programs (file handling, data structures, functions) + 5 SQL query sets + 4 Python-MySQL connectivity programs"
+        },
+        "project": {
+          "marks": 8,
+          "description": "Project using Python file handling or Python-MySQL connectivity with documentation"
+        },
+        "viva_voce": {
+          "marks": 3,
+          "description": "Oral examination on practical file programs and project"
+        }
+      },
+      "program_list_suggestions": [
+        "P1: Read a text file and count vowels, consonants, uppercase, lowercase, digits",
+        "P2: Read a text file and count words starting with a specific letter",
+        "P3: Read a text file and display lines with a specific word",
+        "P4: Copy lines containing a keyword from one file to another",
+        "P5: Write and read student records using binary file (pickle)",
+        "P6: Search for a record in binary file by roll number",
+        "P7: Update a record in binary file",
+        "P8: Delete a record from binary file",
+        "P9: Write and read data using CSV file",
+        "P10: Stack implementation using list — push, pop, display",
+        "P11: Stack application — reversing a string",
+        "P12: Bubble sort implementation",
+        "P13: Selection sort / Insertion sort implementation",
+        "P14: Linear search implementation",
+        "P15: Binary search implementation",
+        "P16: Python-MySQL — Create table and insert records",
+        "P17: Python-MySQL — Fetch and display all records",
+        "P18: Python-MySQL — Update records based on condition",
+        "P19: Python-MySQL — Delete records based on condition",
+        "P20: Recursive function — factorial / Fibonacci / sum of digits"
+      ]
+    },
+    "isc_practical": {
+      "title": "ISC Computer Science Practical Exam Guide (30 Marks)",
+      "breakdown": {
+        "planning_session": {
+          "duration": "90 minutes",
+          "description": "Design algorithm and write Java program by hand on paper"
+        },
+        "examination_session": {
+          "duration": "90 minutes",
+          "marks": 15,
+          "description": "Implement and execute the Java program on computer. Three problems given, attempt one."
+        },
+        "programming_assignments": {
+          "marks": 5,
+          "description": "Year-long programming assignments — 20+ programs covering all topics"
+        },
+        "internal_assessment": {
+          "marks": 10,
+          "description": "Project work and internal evaluation throughout the year"
+        }
+      }
+    }
+  },
+  "exam_pattern_summary": {
+    "cbse_class_12_theory": {
+      "total_marks": 70,
+      "duration": "3 hours",
+      "sections": {
+        "A": { "questions": 21, "marks_each": 1, "total": 21, "types": "MCQ, Fill-in-blanks, True/False, Assertion-Reason" },
+        "B": { "questions": 7, "marks_each": 2, "total": 14, "type": "Very Short Answer" },
+        "C": { "questions": 3, "marks_each": 3, "total": 9, "type": "Short Answer" },
+        "D": { "questions": 4, "marks_each": 4, "total": 16, "type": "Long Answer / Case Study" },
+        "E": { "questions": 2, "marks_each": 5, "total": 10, "type": "Very Long Answer / Programming" }
+      },
+      "internal_choices": "Yes — some questions have internal choice (either/or)",
+      "programming_language": "Python only — all code must be in Python"
+    },
+    "isc_class_12_theory": {
+      "total_marks": 70,
+      "duration": "3 hours + 15 minutes reading time",
+      "structure": {
+        "part_1": { "marks": 20, "description": "Compulsory short answer questions covering entire syllabus" },
+        "part_2": {
+          "marks": 50,
+          "section_a": "Boolean Algebra & Hardware — answer 2 of 3 questions (10 marks each)",
+          "section_b": "Java Programming — answer 2 of 3 questions (10 marks each)",
+          "section_c": "Data Structures & Advanced — answer 2 of 3 questions (5 marks each)"
+        }
+      },
+      "programming_language": "Java only — all code must be in Java"
+    }
+  },
+  "textbooks_and_resources": {
+    "cbse_recommended": [
+      {
+        "title": "Computer Science with Python",
+        "author": "Sumita Arora",
+        "publisher": "Dhanpat Rai & Co.",
+        "classes": "Class 11 & 12",
+        "note": "Most widely used textbook — nearly every school follows it"
+      },
+      {
+        "title": "Computer Science with Python",
+        "author": "Preeti Arora",
+        "publisher": "Sultan Chand & Sons",
+        "classes": "Class 11 & 12",
+        "note": "Second most popular — excellent solved examples"
+      },
+      {
+        "title": "NCERT Computer Science Textbook",
+        "author": "NCERT",
+        "publisher": "NCERT",
+        "classes": "Class 11 & 12",
+        "note": "Official CBSE textbook — must-read for theory questions"
+      },
+      {
+        "title": "Computer Science with Python",
+        "author": "Reeta Sahoo & Gagan Sahoo",
+        "publisher": "New Saraswati House",
+        "classes": "Class 11 & 12"
+      }
+    ],
+    "isc_recommended": [
+      {
+        "title": "Understanding Computer Science (ISC)",
+        "author": "Vijay Kumar Pandey & Dilip Kumar Dey",
+        "publisher": "APC Publications",
+        "classes": "Class 11 & 12"
+      },
+      {
+        "title": "ISC Computer Science with Java",
+        "author": "Sumita Arora",
+        "publisher": "Dhanpat Rai & Co.",
+        "classes": "Class 11 & 12"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Are CBSE and ICSE batches really separate?",
+      "answer": "Yes, absolutely. CBSE uses Python and ICSE/ISC uses Java. The syllabus, exam pattern, marking scheme, practical requirements, and even the thinking approach are different. We run completely separate batches with specialized mentors for each board."
+    },
+    {
+      "question": "Can I join if I have zero programming experience?",
+      "answer": "Yes! Both our CBSE and ISC courses start from absolute scratch. We assume no prior coding experience. You'll learn everything from installing Python/Java to solving complex board-level programs."
+    },
+    {
+      "question": "Which textbook do you follow?",
+      "answer": "For CBSE, we primarily follow Sumita Arora (Computer Science with Python) supplemented by NCERT textbook. For ISC, we follow Understanding Computer Science by Pandey & Dey (APC Publications) and Sumita Arora ISC edition. Our teaching covers every chapter from these books."
+    },
+    {
+      "question": "Will this course help me score 95+ in boards?",
+      "answer": "Our structured approach with 100% syllabus coverage, 20+ practice programs, 10+ mock papers, previous year paper analysis, and dedicated doubt sessions has consistently helped students score 95+. We focus on both understanding and exam strategy."
+    },
+    {
+      "question": "Do you cover practical file and project work?",
+      "answer": "Yes, completely. We prepare your entire practical file (20+ programs for CBSE, lab assignments for ISC), guide you through the project with documentation, and prepare you for the viva voce examination."
+    },
+    {
+      "question": "What is the difference between CS and IP in CBSE?",
+      "answer": "CS (Code 083) focuses on deep Python programming — file handling, data structures (stack), sorting/searching algorithms, and Python-MySQL connectivity. IP (Code 065) focuses on data handling with Python Pandas, data visualization with Matplotlib, and SQL. CS is harder and more programming-intensive; IP is application-oriented. Both include SQL."
+    },
+    {
+      "question": "Is ISC Computer Science harder than CBSE CS?",
+      "answer": "ISC CS covers more advanced topics like linked lists, binary trees, Karnaugh maps, and has a stronger focus on OOP through Java. CBSE CS has more practical connectivity topics (Python-MySQL). Both are challenging in their own ways — our separate batches ensure you're prepared for YOUR specific board."
+    },
+    {
+      "question": "Do you help with competitive programming too?",
+      "answer": "While this course focuses on board exam preparation, the strong programming foundation you build here — especially in ISC with data structures and algorithms — is an excellent stepping stone for competitive programming. We offer a separate competitive programming course for those interested."
+    }
+  ]
+}

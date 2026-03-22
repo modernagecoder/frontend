@@ -1,0 +1,1466 @@
+{
+  "meta": {
+    "slug": "cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course",
+    "title": "Informatics Practices (IP) Class 11 & 12 Complete Course | CBSE Code 065 | Python Pandas SQL Data Visualization Board Exam Topper Program",
+    "description": "India's most comprehensive Informatics Practices (IP) course for CBSE Class 11 & 12 students. 100% syllabus coverage for CBSE Code 065 — Python programming, Pandas DataFrames, NumPy, Matplotlib data visualization, MySQL SQL queries, computer networks, societal impacts, and emerging trends. Aligned with Preeti Arora, Sumita Arora & NCERT IP textbooks. Complete practical file with 15+ Pandas programs, 4+ Matplotlib charts, 15+ SQL queries + project guidance + viva preparation. Separate dedicated batches for CBSE students. Also available: ICSE batch for Computer Applications/Science (Java-based).",
+    "keywords": [
+      "informatics practices class 11",
+      "informatics practices class 12",
+      "IP class 12 syllabus 2025-26",
+      "IP class 11 syllabus 2025-26",
+      "CBSE informatics practices",
+      "CBSE IP code 065",
+      "IP class 12 notes",
+      "IP class 11 notes",
+      "Pandas class 12 notes",
+      "DataFrame class 12 Python",
+      "Series class 12 Python",
+      "Matplotlib class 12 notes",
+      "data visualization class 12",
+      "Python Pandas Series DataFrame",
+      "SQL functions class 12 IP",
+      "informatics practices class 12 practical file",
+      "IP class 12 sample paper 2025-26",
+      "Preeti Arora IP class 12 solutions",
+      "Preeti Arora IP class 11 solutions",
+      "Sumita Arora informatics practices",
+      "NCERT informatics practices class 12",
+      "NCERT informatics practices class 11",
+      "GROUP BY HAVING class 12 SQL",
+      "IP 065 syllabus CBSE",
+      "informatics practices class 12 previous year papers",
+      "computer networks class 12 IP notes",
+      "societal impacts class 12 IP",
+      "emerging trends class 11 IP",
+      "Python for board exams IP",
+      "data handling using Pandas",
+      "line chart bar graph histogram Matplotlib",
+      "SQL aggregate functions class 12",
+      "equi join natural join class 12 IP",
+      "IP practical file programs",
+      "informatics practices project ideas",
+      "CS or IP which to choose class 11",
+      "computer science vs informatics practices which is better",
+      "best book for informatics practices class 12",
+      "IP class 12 one shot revision",
+      "informatics practices class 12 marking scheme",
+      "CBSE IP sample paper 2025-26",
+      "Python lists dictionaries class 11 IP",
+      "SQL DDL DML DQL class 11 IP",
+      "emerging trends AI IoT cloud computing class 11",
+      "digital footprint cybercrime class 12 IP",
+      "IPR copyright class 12 IP",
+      "e-waste management class 12 IP",
+      "Indian IT Act class 12",
+      "informatics practices online classes",
+      "IP tuition near me",
+      "best IP tutor class 12",
+      "informatics practices crash course",
+      "CBSE board exam IP preparation",
+      "Pandas DataFrame operations class 12",
+      "CSV file with Pandas class 12",
+      "Boolean indexing DataFrame class 12",
+      "Matplotlib plot customization class 12",
+      "SQL math string date functions class 12 IP"
+    ],
+    "category": "School Board Exam Preparation - Informatics Practices",
+    "price": {
+      "group": "₹1499/month",
+      "personal": "₹2499/month",
+      "lifetime": "₹24,999 (one-time for 2-year access)"
+    },
+    "duration": "24 months (Class 11 + Class 12 full syllabus)",
+    "level": "Class 11 Beginner to Class 12 Board Exam Ready",
+    "commitment": "6-8 hours/week (3-4 classes + self-practice)",
+    "certification": "Course Completion Certificate + Board Exam Readiness Guarantee",
+    "image_path": "ip-cs-class-11-12.webp",
+    "boards_covered": ["CBSE (Code 065)"],
+    "batch_info": "Dedicated CBSE IP batch — completely separate from CS (083) batch and ICSE batch. IP has its own syllabus, exam pattern, and practical requirements. Students who opted for IP instead of CS get focused attention on Pandas, data visualization, and application-oriented Python."
+  },
+  "program_overview": {
+    "title": "Informatics Practices (IP) Class 11 & 12 — Complete CBSE Board Exam Mastery Program",
+    "tagline": "100% CBSE IP Syllabus · Pandas & Matplotlib Mastery · SQL Expert · Board Topper Strategy · Live Mentoring",
+    "description": "Informatics Practices (IP, Code 065) is the perfect subject for students interested in data science, business analytics, and technology applications. Unlike Computer Science (Code 083) which dives deep into programming logic and data structures, IP focuses on practical data handling using Python's Pandas library, stunning data visualization with Matplotlib, and powerful SQL database querying.\n\nThis 2-year course covers the complete CBSE IP syllabus for Class 11 and Class 12 — from the very basics of Python programming and SQL to advanced DataFrame operations, pivot tables, data visualization charts, GROUP BY/HAVING queries, table joins, computer networks, and societal impacts of technology.\n\nOur IP batch is completely separate from CS (083) and ICSE batches. Every class, assignment, test, and mock exam is specifically designed for the IP syllabus and CBSE exam pattern. We follow Preeti Arora (most popular IP textbook), Sumita Arora, and NCERT Informatics Practices textbooks chapter-by-chapter.\n\nStudents get complete practical file preparation (15+ Pandas programs, 4+ Matplotlib visualizations, 15+ SQL queries), guided project work, viva preparation, and intensive board exam revision with 10+ mock papers. Our goal: every student scores 90+ in IP board exams.",
+    "what_makes_this_different": [
+      "Dedicated CBSE IP batch — not mixed with CS or ICSE students",
+      "100% CBSE Code 065 syllabus coverage — latest 2025-26 curriculum",
+      "Chapter-wise teaching matching Preeti Arora, Sumita Arora & NCERT IP textbooks",
+      "Hands-on Pandas practice with real datasets — not just theory",
+      "Matplotlib visualization projects with real-world data",
+      "Live MySQL database for SQL practice — write and execute queries in class",
+      "Complete practical file: 15+ Pandas programs + 4+ Matplotlib charts + 15+ SQL queries",
+      "Board exam project guidance with documentation template",
+      "Weekly chapter tests + monthly unit tests + 10+ full mock board exams",
+      "Previous 10 years solved papers with marking scheme analysis",
+      "Dedicated doubt-clearing sessions before exams",
+      "Assertion-Reason, Case Study, and MCQ-specific preparation",
+      "Data science career orientation — understand where IP skills lead"
+    ],
+    "ip_vs_cs_comparison": {
+      "title": "Why IP? Informatics Practices vs Computer Science — Choosing the Right Subject",
+      "ip_advantages": [
+        "Easier than CS — more application-focused, less abstract programming",
+        "Data science foundation — Pandas, NumPy, Matplotlib are industry-standard tools",
+        "SQL is highly valued in data analytics, business intelligence, and IT careers",
+        "No complex data structures (stack, queue, linked list) — focuses on data handling",
+        "Better for students interested in business, analytics, journalism, economics + technology",
+        "Practical skills immediately usable — data analysis, charts, database queries",
+        "Higher average board scores compared to CS (generally considered easier)"
+      ],
+      "ip_covers": "Python basics, Pandas (Series, DataFrame), Matplotlib (charts), SQL (DDL, DML, DQL, functions, joins), computer networks, societal impacts",
+      "cs_covers": "Deep Python (functions, file handling, recursion), data structures (stack), sorting/searching algorithms, SQL + Python-MySQL connectivity, computer networks",
+      "career_paths_from_ip": ["Data Analyst", "Business Analyst", "SQL Developer", "Data Scientist", "BI Developer", "IT Manager", "Digital Marketing Analyst", "Financial Analyst"]
+    },
+    "learning_path": {
+      "phase_1": "Class 11 — Semester 1 (Months 1-5): Computer fundamentals, Python basics (variables, operators, control flow, lists, dictionaries), SQL fundamentals",
+      "phase_2": "Class 11 — Semester 2 (Months 6-10): Advanced SQL (DQL), Emerging Trends (AI, IoT, Cloud), practical file, Class 11 exam prep",
+      "phase_3": "Class 12 — Semester 1 (Months 11-17): Pandas Series & DataFrame, data visualization with Matplotlib, CSV import/export",
+      "phase_4": "Class 12 — Semester 2 (Months 18-24): Advanced SQL (functions, GROUP BY, joins), computer networks, societal impacts, board exam prep"
+    },
+    "career_outcomes": [
+      "Score 90+ in CBSE Informatics Practices board exam",
+      "Complete practical file + project ready for submission",
+      "Strong foundation in Python data analysis with Pandas",
+      "SQL proficiency for data querying and database management",
+      "Data visualization skills for presentations and reports",
+      "Ready for BCA, B.Sc IT, BBA, Data Analytics, and commerce + tech programs",
+      "Skills directly applicable in internships and college projects"
+    ]
+  },
+  "phase_1_class_11_semester_1": {
+    "title": "PHASE 1: Class 11 Semester 1 — Computer Basics, Python Programming & SQL Introduction (Months 1-5)",
+    "description": "Build your foundation in computer science concepts, learn Python programming from scratch, and start with SQL database queries. By the end of this phase, you'll write Python programs confidently and run basic SQL queries on MySQL.",
+    "month_1": {
+      "title": "Month 1: Introduction to Computer Systems",
+      "weeks": "Week 1-4",
+      "unit": "CBSE IP Unit 1: Introduction to Computer System (10 marks)",
+      "week_1": {
+        "title": "Evolution of Computing & Computer Hardware",
+        "topics": [
+          "Evolution of computing devices — from Abacus to modern AI-powered computers",
+          "Generations of computers: First (vacuum tubes) to Fifth (AI)",
+          "Computer system components: Input Unit, CPU, Memory, Output Unit",
+          "Block diagram of a computer — data flow from input to output",
+          "CPU components: ALU (Arithmetic Logic Unit), Control Unit (CU), Registers",
+          "Types of processors: single core, dual core, quad core, octa core",
+          "Clock speed and its effect on processing: GHz explained",
+          "Input devices: keyboard, mouse, scanner, webcam, microphone, touchscreen, stylus",
+          "Biometric devices: fingerprint scanner, iris scanner, face recognition",
+          "Output devices: monitor (CRT, LCD, LED, OLED, AMOLED), printer (inkjet, laser, 3D), speaker, projector, plotter",
+          "Combined devices: touchscreen (both input and output)",
+          "How a computer processes data: Input → Process → Output cycle"
+        ],
+        "projects": [
+          "Computer system diagram with all components labeled",
+          "Input-output devices classification chart with 20+ devices",
+          "Research project: Latest processor technologies in 2025-26"
+        ],
+        "practice": "NCERT IP Chapter 1 questions, Preeti Arora exercises, 30 MCQs on computer fundamentals"
+      },
+      "week_2": {
+        "title": "Memory, Storage & Software",
+        "topics": [
+          "Computer memory: why it's needed, role in processing",
+          "Primary memory (volatile): RAM — SRAM vs DRAM, speed, cost",
+          "ROM — PROM, EPROM, EEPROM — non-volatile, stores firmware",
+          "Cache memory: L1, L2, L3 — speeds up CPU access to frequently used data",
+          "Memory hierarchy: Registers → Cache → RAM → SSD → HDD (speed vs capacity trade-off)",
+          "Units of memory: bit, nibble (4 bits), byte (8 bits), KB, MB, GB, TB, PB, EB",
+          "Secondary storage: HDD (magnetic), SSD (flash), USB drive, memory card",
+          "Optical storage: CD (700MB), DVD (4.7GB), Blu-ray (25-50GB)",
+          "Cloud storage: Google Drive, OneDrive, iCloud — advantages and concerns",
+          "Data deletion and recovery: when you delete, data isn't immediately gone",
+          "Data security concerns: unauthorized access, data corruption, backup importance",
+          "Software: definition, need for software, software vs hardware",
+          "System software: OS, language processors, device drivers, utility programs",
+          "Application software: general purpose (MS Office, browser) vs specific purpose (Tally, AutoCAD)",
+          "Open source software: Linux, LibreOffice, GIMP, Python, MySQL",
+          "Proprietary software: Windows, MS Office, Adobe Photoshop",
+          "Operating system: functions — process management, memory management, file management, device management, user interface",
+          "Types of user interface: CLI (Command Line) vs GUI (Graphical)"
+        ],
+        "projects": [
+          "Memory hierarchy pyramid diagram with specifications",
+          "Software classification chart — 15+ examples each category",
+          "Compare 5 open-source vs proprietary software alternatives"
+        ],
+        "practice": "Preeti Arora Chapter 1 exercises, 50 MCQs, fill-in-the-blanks, true/false questions"
+      }
+    },
+    "month_2_3": {
+      "title": "Months 2-3: Introduction to Python Programming",
+      "weeks": "Week 5-12",
+      "unit": "CBSE IP Unit 2: Introduction to Python (25 marks — highest weightage in Class 11)",
+      "week_5": {
+        "title": "Getting Started with Python — Setup & First Programs",
+        "topics": [
+          "Why Python for IP? — simple syntax, data analysis libraries, industry standard",
+          "Python in the real world: Instagram, YouTube, Spotify, Netflix use Python",
+          "Installing Python 3.12+ on Windows — downloading from python.org",
+          "Python IDLE: Interactive mode (>>> prompt) vs Script mode (.py files)",
+          "Difference between Interactive and Script mode — when to use which",
+          "Setting up VS Code with Python extension (optional — IDLE is sufficient for IP)",
+          "First program: print('Hello, World!') — both in interactive and script mode",
+          "Saving and running .py files",
+          "Python tokens: keywords, identifiers, literals, operators, punctuators/delimiters",
+          "Python keywords: 35 reserved words — False, True, None, and, or, not, if, else, elif, for, while, def, return, import, etc.",
+          "Identifiers: rules — must start with letter or underscore, case-sensitive, no keywords, no spaces",
+          "Valid vs invalid identifiers — practice exercises"
+        ],
+        "projects": [
+          "10 print() variations — different data types, multiple arguments",
+          "Interactive mode exploration — test 20 expressions",
+          "Valid/invalid identifier quiz — 30 examples"
+        ],
+        "practice": "Preeti Arora Python introduction exercises, 20 MCQs, output prediction for print statements"
+      },
+      "week_6": {
+        "title": "Variables, Data Types & Input/Output",
+        "topics": [
+          "Variables: named storage locations in memory",
+          "Variable assignment: x = 10, name = 'Riya'",
+          "Dynamic typing: Python infers data type automatically",
+          "Multiple assignment: a, b, c = 1, 2, 3 and a = b = c = 0",
+          "Data types in Python:",
+          "int — integers: 10, -5, 0, 1000000 (unlimited precision)",
+          "float — decimal numbers: 3.14, -0.5, 2.0",
+          "complex — complex numbers: 3+4j (not in board exams but good to know)",
+          "str — strings: 'hello', \"world\", '''multi-line'''",
+          "bool — boolean: True, False (capital T and F!)",
+          "None — absence of value: x = None",
+          "type() function: checking data type of any variable",
+          "Mutable vs Immutable types: lists are mutable, strings/tuples/int/float are immutable — IMPORTANT CONCEPT",
+          "Type conversion (casting): int(), float(), str(), bool()",
+          "Implicit type conversion: int + float → float (automatic)",
+          "Explicit type conversion: int('25'), float('3.14'), str(100)",
+          "Input function: input() — ALWAYS returns a string",
+          "Converting input: int(input()), float(input())",
+          "print() function: sep parameter, end parameter",
+          "Formatted output: f-strings — f'Hello {name}, age {age}'",
+          "Comments: # single line, '''multi-line docstrings'''",
+          "Debugging basics: reading error messages, common beginner mistakes"
+        ],
+        "projects": [
+          "Student information collector — input name, age, class, marks, display formatted",
+          "Simple interest calculator — P, R, T as input",
+          "BMI calculator with formatted output",
+          "Swap two variables — 3 methods: temp, arithmetic, Pythonic a,b = b,a"
+        ],
+        "practice": "40 output prediction MCQs, 15 type conversion exercises, Preeti Arora data handling exercises"
+      },
+      "week_7": {
+        "title": "Operators & Expressions",
+        "topics": [
+          "Arithmetic operators: + (add), - (subtract), * (multiply), / (true division), // (floor division), % (modulus), ** (exponent)",
+          "/ vs // — 7/2 gives 3.5 (float), 7//2 gives 3 (integer) — EXAM FAVORITE",
+          "Modulus operator: 17%5 = 2 (remainder), -17%5 = 3 (Python's floor modulus!)",
+          "Exponent: 2**10 = 1024, 9**0.5 = 3.0 (square root)",
+          "Relational/comparison operators: == (equals), != (not equals), <, >, <=, >=",
+          "Comparing strings: lexicographic order based on ASCII/Unicode values",
+          "Logical operators: and, or, not",
+          "Truth tables for and, or, not",
+          "Short-circuit evaluation: False and X → False (X not evaluated), True or X → True",
+          "Assignment operators: =, +=, -=, *=, /=, //=, %=, **=",
+          "Identity operators: is, is not — checks if same object in memory (not just equal)",
+          "Membership operators: in, not in — checks presence in sequence",
+          "'a' in 'apple' → True, 5 in [1,2,3,4,5] → True",
+          "Operator precedence (PEMDAS for Python):",
+          "** → unary +x -x ~x → * / // % → + - → == != < > <= >= → not → and → or",
+          "Associativity: most operators left-to-right, ** is right-to-left",
+          "Expression evaluation: step-by-step breakdown practice",
+          "Common exam traps: precedence gotchas, integer vs float division"
+        ],
+        "projects": [
+          "Expression evaluator worksheet — 30 complex expressions with step-by-step solutions",
+          "Electricity bill calculator with slab rates",
+          "Operator precedence quiz — 20 tricky questions",
+          "Truth table generator for and, or, not combinations"
+        ],
+        "practice": "50 expression evaluation problems, 30 operator MCQs, Preeti Arora operator exercises"
+      },
+      "week_8_9": {
+        "title": "Control Flow — Conditional Statements & Loops",
+        "topics": [
+          "Program flow types: sequential, selection (conditional), iteration (loops)",
+          "if statement: if condition: (note the colon and indentation!)",
+          "if-else statement: two-way decision making",
+          "if-elif-else ladder: multi-way branching — checking multiple conditions",
+          "Nested if: if inside if — complex decision trees",
+          "Ternary expression: result = 'Pass' if marks >= 40 else 'Fail'",
+          "Common programs: largest of 2/3 numbers, even/odd, positive/negative/zero",
+          "Grade calculator, leap year checker, vowel/consonant detector",
+          "for loop: for variable in sequence: — iterating over range, string, list",
+          "range() function: range(stop), range(start, stop), range(start, stop, step)",
+          "range(5) → 0,1,2,3,4; range(2,8) → 2,3,4,5,6,7; range(10,0,-1) → 10,9,...,1",
+          "while loop: while condition: — repeat until condition becomes False",
+          "while loop with counter — controlled repetition",
+          "Infinite loop: while True — use with break for exit",
+          "Loop control: break (exit loop immediately), continue (skip to next iteration)",
+          "Nested loops: outer loop controls rows, inner loop controls columns",
+          "Pattern printing: *, numbers, alphabets — basic patterns",
+          "Accumulator patterns: sum of n numbers, factorial, counting",
+          "Common programs: sum of digits, reverse number, palindrome check, Fibonacci",
+          "Board exam focus: tracing loop output, counting iterations, break/continue effects"
+        ],
+        "projects": [
+          "Menu-driven calculator with if-elif-else",
+          "Number guessing game using while loop",
+          "Pattern printer — 10 basic star and number patterns",
+          "Prime number checker and Fibonacci generator",
+          "Multiplication table generator"
+        ],
+        "practice": "40 conditional logic problems, 30 loop tracing exercises, 15 pattern programs, Preeti Arora exercises"
+      },
+      "week_10_11": {
+        "title": "Lists in Python — IP Perspective",
+        "topics": [
+          "What are lists? — ordered, mutable, indexed collection of items",
+          "List creation: [] empty list, [1,2,3], list() constructor, list('hello')",
+          "Lists can contain mixed types: [1, 'hello', 3.14, True, None]",
+          "Indexing: positive (0-based) and negative (-1 for last element)",
+          "Slicing: list[start:stop:step] — extracting sublists",
+          "List is MUTABLE — elements can be changed: list[0] = 'new_value'",
+          "List operations: + (concatenation), * (repetition), in (membership)",
+          "List traversal: for item in list:, for i in range(len(list)):",
+          "List methods — MUST KNOW for exams:",
+          "append(x) — add x to end",
+          "insert(i, x) — add x at position i",
+          "extend(iterable) — add all items from another list",
+          "remove(x) — remove first occurrence of x (ValueError if not found)",
+          "pop() — remove and return last item, pop(i) — remove at position i",
+          "clear() — remove all items",
+          "index(x) — return position of first occurrence",
+          "count(x) — count occurrences of x",
+          "sort() — sort in ascending order, sort(reverse=True) — descending",
+          "reverse() — reverse the list in place",
+          "copy() — create shallow copy",
+          "Built-in functions: len(), min(), max(), sum(), sorted(), list()",
+          "del statement: del list[i], del list[start:stop]",
+          "List comprehension basics: [x*2 for x in range(5)] → [0, 2, 4, 6, 8]",
+          "Common programs: linear search, finding max/min without built-in, removing duplicates",
+          "Board exam: output prediction with list operations and methods"
+        ],
+        "projects": [
+          "Student marks manager — add, remove, sort, find topper, average",
+          "Shopping list application with all list operations",
+          "List-based number analyzer — even/odd count, sum, average, max, min",
+          "Duplicate remover — remove duplicate elements from a list"
+        ],
+        "practice": "Preeti Arora list chapter exercises, 50 list MCQs, 20 list programs"
+      },
+      "week_12": {
+        "title": "Dictionaries in Python — IP Perspective",
+        "topics": [
+          "What are dictionaries? — unordered collection of key-value pairs",
+          "Dictionary creation: {} empty, {'name': 'Riya', 'age': 16}, dict()",
+          "Keys must be immutable (string, int, tuple) — lists cannot be keys",
+          "Values can be any type — including lists, other dictionaries",
+          "Accessing values: d['key'] (raises KeyError if not found), d.get('key', default)",
+          "Adding/updating: d['new_key'] = value (adds if new, updates if exists)",
+          "Removing: del d['key'], d.pop('key'), d.popitem() (removes last), d.clear()",
+          "Dictionary methods:",
+          "dict() — constructor",
+          "len(d) — number of key-value pairs",
+          "d.keys() — view of all keys",
+          "d.values() — view of all values",
+          "d.items() — view of all (key, value) tuples",
+          "d.get(key, default) — safe access with default",
+          "d.update(other_dict) — merge/update from another dictionary",
+          "d.copy() — shallow copy",
+          "d.clear() — remove all items",
+          "Traversing dictionaries: for key in d:, for key, value in d.items():",
+          "Nested dictionaries: student records with multiple attributes",
+          "in operator with dictionaries: checks keys (not values)",
+          "Dictionary comprehension basics: {x: x**2 for x in range(5)}",
+          "Common programs: character frequency, word counter, student database",
+          "Board exam focus: output prediction with dictionary operations"
+        ],
+        "projects": [
+          "Phone book application — add, search, update, delete contacts",
+          "Character frequency counter for a string",
+          "Student report card using nested dictionaries",
+          "Word frequency analyzer — count each word in a paragraph"
+        ],
+        "practice": "Preeti Arora dictionary exercises, 40 MCQs, 15 dictionary programs"
+      }
+    },
+    "month_4_5": {
+      "title": "Months 4-5: SQL Fundamentals — Database Concepts & Basic Queries",
+      "weeks": "Week 13-20",
+      "unit": "CBSE IP Unit 3: Database Concepts and SQL (30 marks — HIGHEST weightage in Class 11!)",
+      "week_13": {
+        "title": "Database Concepts & Relational Model",
+        "topics": [
+          "What is data? — raw facts and figures vs information (processed data)",
+          "What is a database? — organized collection of related data",
+          "Need for databases: data redundancy reduction, data integrity, data security",
+          "File system vs DBMS: why databases replaced flat files",
+          "DBMS examples: MySQL, PostgreSQL, Oracle, MongoDB, SQL Server",
+          "Relational Database Model: data stored in tables (relations)",
+          "RDBMS terminology:",
+          "Relation = Table (collection of rows and columns)",
+          "Attribute = Column = Field (a property of the entity)",
+          "Tuple = Row = Record (a single entry in the table)",
+          "Domain = Set of valid values for an attribute",
+          "Degree = Number of attributes (columns) in a relation",
+          "Cardinality = Number of tuples (rows) in a relation",
+          "Keys — identifying rows uniquely:",
+          "Candidate Key: attribute(s) that can uniquely identify each tuple — there can be multiple",
+          "Primary Key: the chosen candidate key — only ONE per table, no NULL values",
+          "Alternate Key: candidate keys that were not chosen as primary key",
+          "Example: Student table — RollNo and AdmissionNo are both candidate keys; if RollNo is primary key, AdmissionNo is alternate key",
+          "Referential integrity concept basics"
+        ],
+        "projects": [
+          "Design database schema for: school, library, hospital, e-commerce — identify all keys",
+          "Key identification worksheet — 15 scenarios",
+          "Draw 5 sample tables with proper attributes, data types, and keys"
+        ],
+        "practice": "Preeti Arora database concepts chapter, 40 MCQs on RDBMS terminology, key identification exercises"
+      },
+      "week_14_15": {
+        "title": "SQL Introduction — DDL & DML Commands",
+        "topics": [
+          "What is SQL? — Structured Query Language — communicating with databases",
+          "SQL is NOT a programming language — it's a query language",
+          "MySQL: free, open-source RDBMS — used in CBSE IP",
+          "Installing MySQL on Windows — MySQL Community Server + MySQL Workbench",
+          "Accessing MySQL: command line client, MySQL Workbench GUI",
+          "SQL command categories: DDL, DML, DQL",
+          "SQL data types:",
+          "CHAR(n) — fixed-length string (padded with spaces), VARCHAR(n) — variable-length",
+          "INT — integer, SMALLINT — smaller range, BIGINT — larger range",
+          "FLOAT — decimal with approximate precision, DOUBLE — higher precision",
+          "DATE — format 'YYYY-MM-DD', DATETIME — 'YYYY-MM-DD HH:MM:SS'",
+          "DDL (Data Definition Language) — structure commands:",
+          "CREATE DATABASE db_name; — create new database",
+          "USE db_name; — select active database",
+          "SHOW DATABASES; — list all databases",
+          "SHOW TABLES; — list all tables in current database",
+          "CREATE TABLE table_name (col1 datatype constraint, col2 datatype, ...);",
+          "Constraints: NOT NULL, UNIQUE, PRIMARY KEY, DEFAULT",
+          "DESCRIBE table_name; / DESC table_name; — show table structure",
+          "ALTER TABLE: ADD column, MODIFY column, DROP column",
+          "DROP TABLE table_name; — delete entire table (structure + data)",
+          "DROP DATABASE db_name; — delete entire database",
+          "DML (Data Manipulation Language) — data commands:",
+          "INSERT INTO table VALUES (val1, val2, ...); — insert all columns",
+          "INSERT INTO table (col1, col2) VALUES (val1, val2); — insert specific columns",
+          "INSERT multiple rows in one command",
+          "UPDATE table SET col1=val1 WHERE condition; — modify data",
+          "DELETE FROM table WHERE condition; — remove specific rows",
+          "WARNING: UPDATE/DELETE without WHERE affects ALL rows!"
+        ],
+        "projects": [
+          "Create School database with Student, Teacher, Subject tables",
+          "Insert 15+ records in each table",
+          "Practice ALTER TABLE — add, modify, drop columns",
+          "UPDATE and DELETE with various conditions"
+        ],
+        "practice": "30 DDL/DML queries, Preeti Arora SQL chapter exercises, create-insert-update-delete practice"
+      },
+      "week_16_17": {
+        "title": "SQL DQL — SELECT Queries with WHERE, Operators & Sorting",
+        "topics": [
+          "SELECT — the most important SQL command for IP exams",
+          "SELECT * FROM table; — retrieve all columns, all rows",
+          "SELECT col1, col2 FROM table; — specific columns only",
+          "SELECT DISTINCT col FROM table; — remove duplicate values",
+          "Column aliases: SELECT col AS alias_name",
+          "WHERE clause — filtering rows based on conditions:",
+          "Comparison operators: = <> (or !=) < > <= >=",
+          "Logical operators: AND, OR, NOT",
+          "Operator precedence: NOT > AND > OR (use parentheses for clarity)",
+          "BETWEEN operator: WHERE marks BETWEEN 60 AND 90 (inclusive!)",
+          "NOT BETWEEN: marks NOT BETWEEN 60 AND 90",
+          "IN operator: WHERE city IN ('Delhi', 'Mumbai', 'Kolkata')",
+          "NOT IN: WHERE city NOT IN ('Delhi', 'Mumbai')",
+          "LIKE operator — pattern matching:",
+          "% — matches zero or more characters: 'A%' (starts with A), '%ing' (ends with ing)",
+          "_ — matches exactly one character: '_a%' (second letter is a), '___' (exactly 3 chars)",
+          "LIKE patterns: '%an%' (contains 'an'), 'S____' (S followed by exactly 4 chars)",
+          "IS NULL: WHERE commission IS NULL — checking for missing values",
+          "IS NOT NULL: WHERE phone IS NOT NULL",
+          "NULL arithmetic: anything + NULL = NULL, NULL = NULL is UNKNOWN (use IS NULL!)",
+          "ORDER BY clause — sorting results:",
+          "ORDER BY col ASC — ascending (default, A-Z, 0-9)",
+          "ORDER BY col DESC — descending (Z-A, 9-0)",
+          "ORDER BY col1 ASC, col2 DESC — multi-column sorting",
+          "NULL values in ORDER BY — appear first in ASC, last in DESC"
+        ],
+        "projects": [
+          "40-query challenge on Student table — various SELECT queries",
+          "Employee database queries — salary filtering, department queries",
+          "Pattern matching challenge — 15 LIKE queries",
+          "Multi-condition queries combining AND, OR, NOT, BETWEEN, IN, LIKE"
+        ],
+        "practice": "60 SELECT queries, Preeti Arora DQL exercises, 30 output prediction MCQs for SQL"
+      },
+      "week_18_20": {
+        "title": "SQL Aggregate Functions & Class 11 SQL Revision",
+        "topics": [
+          "Aggregate functions — operating on groups of rows:",
+          "COUNT(*) — count all rows (including NULLs)",
+          "COUNT(column) — count non-NULL values in column",
+          "COUNT(DISTINCT column) — count unique non-NULL values",
+          "SUM(column) — total of numeric column (ignores NULLs)",
+          "AVG(column) — average of numeric column (ignores NULLs)",
+          "MAX(column) — maximum value (works with numbers, strings, dates)",
+          "MIN(column) — minimum value",
+          "Aggregate functions IGNORE NULL values (except COUNT(*))",
+          "Using aggregate functions with WHERE: SELECT AVG(marks) FROM student WHERE class=12;",
+          "Aliases with aggregates: SELECT COUNT(*) AS total_students FROM student;",
+          "GROUP BY clause: grouping rows for aggregate calculations",
+          "SELECT city, COUNT(*) FROM student GROUP BY city;",
+          "GROUP BY with multiple columns",
+          "HAVING clause: filtering groups after GROUP BY",
+          "WHERE vs HAVING — WHERE filters rows BEFORE grouping, HAVING filters AFTER grouping",
+          "Complete query with all clauses: SELECT ... FROM ... WHERE ... GROUP BY ... HAVING ... ORDER BY ...",
+          "Class 11 SQL complete revision — all DDL, DML, DQL commands",
+          "SQL query writing strategy for exams",
+          "Common mistakes in SQL and how to avoid them"
+        ],
+        "projects": [
+          "Sales database analysis — total, average, max, min by category, region",
+          "Student performance report — class-wise, section-wise statistics",
+          "SQL revision worksheet — 80 queries covering all topics",
+          "SQL error correction — find and fix errors in 20 queries"
+        ],
+        "practice": "50 aggregate/GROUP BY/HAVING queries, Preeti Arora exercises, previous year SQL questions"
+      }
+    }
+  },
+  "phase_2_class_11_semester_2": {
+    "title": "PHASE 2: Class 11 Semester 2 — Emerging Trends, Practicals & Exam Prep (Months 6-10)",
+    "description": "Complete remaining Class 11 topics: Emerging Trends in Technology. Prepare practical file with Python programs and SQL queries. Get ready for Class 11 final examination.",
+    "month_6_7": {
+      "title": "Months 6-7: Emerging Trends & Revision",
+      "weeks": "Week 21-28",
+      "week_21_22": {
+        "title": "Introduction to Emerging Trends (CBSE IP Unit 4 — 5 marks)",
+        "topics": [
+          "Artificial Intelligence (AI): machines that simulate human intelligence",
+          "Types of AI: Narrow AI (Siri, Alexa), General AI (future), Super AI (theoretical)",
+          "Applications of AI: healthcare, education, autonomous vehicles, chatbots (ChatGPT)",
+          "Machine Learning (ML): subset of AI — computers learn from data without explicit programming",
+          "Types of ML: supervised, unsupervised, reinforcement learning",
+          "Natural Language Processing (NLP): AI understanding human language — Google Translate, voice assistants",
+          "Augmented Reality (AR): digital content overlaid on real world — Pokémon Go, Instagram filters",
+          "Virtual Reality (VR): fully immersive digital environment — Oculus, VR gaming",
+          "Mixed Reality (MR): combination of AR and VR",
+          "Robotics: programmable machines performing tasks — manufacturing, surgery, exploration",
+          "Types of robots: industrial, service, humanoid, drone",
+          "Internet of Things (IoT): everyday objects connected to internet — smart home, wearables",
+          "IoT architecture: sensors → connectivity → data processing → user interface",
+          "IoT examples: smart thermostat, fitness tracker, smart fridge, traffic management",
+          "Smart Cities: technology-driven urban management — traffic, waste, energy, safety",
+          "Big Data: extremely large datasets requiring special tools to process",
+          "Big Data characteristics: 5 V's — Volume, Velocity, Variety, Veracity, Value",
+          "Cloud Computing: accessing computing resources over internet instead of local machines",
+          "Cloud service models: SaaS (Gmail), PaaS (Google App Engine), IaaS (AWS EC2)",
+          "Cloud deployment: public, private, hybrid, community cloud",
+          "Grid Computing: distributed computing — combining many computers for complex tasks",
+          "Blockchain technology: decentralized, immutable digital ledger — cryptocurrency, supply chain",
+          "How blockchain works: blocks, hashing, consensus mechanism"
+        ],
+        "projects": [
+          "Emerging technology presentation — choose one topic and present for 10 minutes",
+          "IoT application design — design a smart home system on paper",
+          "AI in daily life report — identify 15 AI applications you use daily",
+          "Cloud vs traditional computing comparison chart"
+        ],
+        "practice": "Preeti Arora emerging trends chapter, NCERT IP textbook, 50 MCQs on emerging trends"
+      },
+      "week_23_28": {
+        "title": "Practical File, Project & Class 11 Exam Preparation",
+        "topics": [
+          "Practical file requirements for Class 11 IP:",
+          "Minimum 14 Python programs covering all topics",
+          "Minimum 14 SQL queries covering DDL, DML, DQL",
+          "Python programs for practical file:",
+          "P1: Input two numbers, perform all arithmetic operations",
+          "P2: Find largest of three numbers",
+          "P3: Check if number is even/odd, positive/negative",
+          "P4: Grade calculator using if-elif-else",
+          "P5: Print multiplication table using for loop",
+          "P6: Print patterns using nested loops (3 patterns)",
+          "P7: Check prime number, palindrome, Armstrong number",
+          "P8: Calculate factorial using while loop",
+          "P9: List operations — create, append, insert, remove, sort, search",
+          "P10: Find max, min, sum, average from a list",
+          "P11: Count vowels, consonants in a string",
+          "P12: Dictionary operations — create, add, update, delete, traverse",
+          "P13: Character/word frequency counter using dictionary",
+          "P14: Menu-driven program combining multiple concepts",
+          "SQL queries for practical file:",
+          "Q1-Q3: CREATE TABLE, INSERT INTO — DDL and DML",
+          "Q4-Q6: SELECT with WHERE, BETWEEN, IN, LIKE",
+          "Q7-Q9: UPDATE, DELETE with conditions",
+          "Q10-Q11: Aggregate functions — COUNT, SUM, AVG, MAX, MIN",
+          "Q12-Q14: GROUP BY, HAVING, ORDER BY",
+          "Class 11 final exam revision — unit-wise important questions",
+          "Sample paper solving — 3 complete papers with solutions",
+          "Viva voce preparation — 30 Q&A"
+        ],
+        "deliverables": [
+          "Complete practical file: 14+ Python programs + 14+ SQL queries",
+          "3 solved sample papers",
+          "Viva preparation notes",
+          "Ready for Class 11 final exam"
+        ]
+      }
+    }
+  },
+  "phase_3_class_12_semester_1": {
+    "title": "PHASE 3: Class 12 Semester 1 — Pandas, Data Visualization & Advanced Data Handling (Months 11-17)",
+    "description": "This is the CORE of Class 12 IP — mastering Pandas for data handling and Matplotlib for data visualization. Unit 1 carries 25 marks in the board exam. Every concept here is board exam critical.",
+    "month_11_12": {
+      "title": "Months 11-12: Python Pandas — Series",
+      "weeks": "Week 41-48",
+      "unit": "CBSE IP Class 12 Unit 1: Data Handling using Pandas and Data Visualization (25 marks)",
+      "week_41_42": {
+        "title": "Introduction to Python Libraries & Pandas Series Basics",
+        "topics": [
+          "What are Python libraries? — pre-written code modules for specific tasks",
+          "NumPy: Numerical Python — arrays, mathematical operations (foundation for Pandas)",
+          "Pandas: Python Data Analysis Library — data manipulation and analysis",
+          "Matplotlib: plotting and visualization library",
+          "Installing libraries: pip install pandas numpy matplotlib",
+          "Importing: import pandas as pd, import numpy as np",
+          "Pandas data structures: Series (1D) and DataFrame (2D)",
+          "Series: one-dimensional labeled array — like a column in a table",
+          "Creating Series from a list: pd.Series([10, 20, 30, 40])",
+          "Default index: 0, 1, 2, 3... (RangeIndex)",
+          "Custom index: pd.Series([10, 20, 30], index=['a', 'b', 'c'])",
+          "Creating Series from a dictionary: pd.Series({'Maths': 90, 'Science': 85})",
+          "Creating Series from a scalar value: pd.Series(5, index=['a', 'b', 'c']) → all values are 5",
+          "Creating Series from NumPy ndarray: pd.Series(np.array([1, 2, 3]))",
+          "Series attributes: dtype, shape, size, nbytes, ndim, index, values, name",
+          "Checking data type: s.dtype → returns data type of elements",
+          "Series is like a fixed-size dictionary — index acts as keys"
+        ],
+        "projects": [
+          "Create 10 different Series — from list, dict, scalar, ndarray",
+          "Student marks Series with subject names as index",
+          "Temperature data Series for a week with day names as index"
+        ],
+        "practice": "Preeti Arora Pandas chapter exercises, 20 Series creation MCQs"
+      },
+      "week_43_44": {
+        "title": "Pandas Series — Operations, Indexing & Methods",
+        "topics": [
+          "Accessing elements: s[0] (positional), s['a'] (label-based)",
+          "Slicing Series: s[1:4] (positional), s['b':'d'] (label — inclusive on both ends!)",
+          "s.head(n) — first n elements (default 5), s.tail(n) — last n elements",
+          "Mathematical operations on Series — element-wise:",
+          "s + 10 → adds 10 to each element",
+          "s1 + s2 → adds corresponding elements (NaN for unmatched indices)",
+          "s * 2, s / 3, s ** 2 — all element-wise operations",
+          "Comparison operations: s > 50, s == 100 → returns Boolean Series",
+          "Boolean indexing / filtering: s[s > 50] → elements greater than 50",
+          "NaN (Not a Number): result of mismatched index operations",
+          "Handling NaN: s.isnull(), s.notnull(), s.dropna(), s.fillna(value)",
+          "Series methods for board exams:",
+          "s.sum(), s.mean(), s.median(), s.mode(), s.std(), s.var()",
+          "s.min(), s.max(), s.count() (non-NaN count)",
+          "s.describe() — summary statistics (count, mean, std, min, 25%, 50%, 75%, max)",
+          "s.value_counts() — frequency count of each unique value",
+          "s.unique() — array of unique values, s.nunique() — count of unique values",
+          "s.sort_values(ascending=True/False) — sort by values",
+          "s.sort_index() — sort by index labels",
+          "Vectorized string operations: s.str.upper(), s.str.lower(), s.str.len()",
+          "Board exam focus: output prediction with Series operations, NaN handling"
+        ],
+        "projects": [
+          "Sales data analysis using Series — total, average, max, min, filtering",
+          "Temperature analysis — find hottest/coldest day, above average days",
+          "Student marks comparison — Series arithmetic with NaN handling",
+          "Statistical summary report using describe()"
+        ],
+        "practice": "40 Series operation MCQs, 20 output prediction problems, Preeti Arora exercises"
+      },
+      "week_45_46": {
+        "title": "Pandas DataFrame — Creation & Basic Operations",
+        "topics": [
+          "DataFrame: 2-dimensional labeled data structure — like a spreadsheet/SQL table",
+          "DataFrame = collection of Series sharing the same index",
+          "Creating DataFrame from dictionary of lists:",
+          "pd.DataFrame({'Name': ['A', 'B'], 'Marks': [90, 85]})",
+          "Creating DataFrame from dictionary of Series",
+          "Creating DataFrame from list of dictionaries",
+          "Creating DataFrame from 2D list/array with columns parameter",
+          "Creating DataFrame from CSV file: pd.read_csv('file.csv') — VERY IMPORTANT",
+          "Custom index: pd.DataFrame(data, index=['row1', 'row2', ...])",
+          "DataFrame attributes: shape, size, ndim, dtypes, columns, index, values, T (transpose)",
+          "Selecting columns: df['column'], df[['col1', 'col2']] (single vs multiple)",
+          "Adding a new column: df['new_col'] = values",
+          "Deleting a column: del df['col'], df.drop('col', axis=1), df.pop('col')",
+          "Renaming columns: df.rename(columns={'old': 'new'})",
+          "Selecting rows by label: df.loc['row_label'], df.loc['r1':'r3']",
+          "Selecting rows by position: df.iloc[0], df.iloc[0:3]",
+          "loc vs iloc — label-based vs integer position-based — EXAM CRITICAL",
+          "Selecting specific cell: df.loc['row', 'col'], df.iloc[row_idx, col_idx]",
+          "df.at['row', 'col'] — fast scalar access by label",
+          "df.iat[row_idx, col_idx] — fast scalar access by position",
+          "df.head(n), df.tail(n) — view first/last n rows"
+        ],
+        "projects": [
+          "Student database DataFrame — create from dictionary, CSV, and list of dicts",
+          "Employee records with adding, renaming, and deleting columns",
+          "Accessing data challenge — loc vs iloc practice with 20 examples",
+          "CSV data loader — read real-world dataset and explore"
+        ],
+        "practice": "Preeti Arora DataFrame chapter exercises, 30 creation MCQs, 20 loc/iloc problems"
+      },
+      "week_47_48": {
+        "title": "Pandas DataFrame — Advanced Operations & Data Manipulation",
+        "topics": [
+          "Adding a new row: df.loc['new_index'] = [values], pd.concat()",
+          "Deleting rows: df.drop('row_label'), df.drop([indices])",
+          "Boolean indexing with DataFrame: df[df['Marks'] > 80]",
+          "Multiple conditions: df[(df['Marks'] > 80) & (df['City'] == 'Delhi')]",
+          "Note: use & instead of 'and', | instead of 'or' for DataFrame filtering",
+          "Sorting: df.sort_values('column'), df.sort_values(['col1', 'col2'])",
+          "df.sort_values('column', ascending=False) — descending sort",
+          "df.sort_index() — sort by index",
+          "DataFrame iteration: df.iterrows() — iterate row by row",
+          "Aggregate operations: df['col'].sum(), .mean(), .max(), .min(), .count()",
+          "df.describe() — statistical summary for all numeric columns",
+          "df.info() — overview of DataFrame structure",
+          "df.isnull() — check for NaN values, df.notnull()",
+          "df.dropna() — remove rows with NaN, df.fillna(value) — fill NaN",
+          "df.drop_duplicates() — remove duplicate rows",
+          "Exporting DataFrame to CSV: df.to_csv('output.csv', index=False)",
+          "DataFrame arithmetic: df1 + df2, df * scalar — element-wise operations",
+          "Pivot tables basics: df.pivot_table(values, index, aggfunc)",
+          "Groupby basics: df.groupby('column').mean()",
+          "Board exam focus: complete DataFrame operation chains, output prediction"
+        ],
+        "projects": [
+          "Complete student report card system using DataFrame",
+          "Sales data analysis — filtering, sorting, grouping, statistics",
+          "CSV data processing pipeline — read → clean → analyze → export",
+          "Covid/weather/population dataset analysis (real-world data)"
+        ],
+        "practice": "50 DataFrame operation problems, 30 output prediction MCQs, Preeti Arora advanced exercises"
+      }
+    },
+    "month_13_14": {
+      "title": "Months 13-14: Data Visualization with Matplotlib",
+      "weeks": "Week 49-56",
+      "week_49_50": {
+        "title": "Introduction to Matplotlib — Line Charts & Bar Graphs",
+        "topics": [
+          "What is data visualization? — representing data graphically for insights",
+          "Why visualize? — patterns, trends, comparisons are easier to see in charts",
+          "Matplotlib library: most popular Python plotting library",
+          "Importing: import matplotlib.pyplot as plt",
+          "Basic plot workflow: create figure → plot data → customize → show/save",
+          "Line Chart / Line Plot: plt.plot(x, y)",
+          "plt.plot() with just y values — x defaults to 0, 1, 2, ...",
+          "Multiple lines on same plot: call plt.plot() multiple times",
+          "Line customization:",
+          "color: plt.plot(x, y, color='red') or color='r' or color='#FF0000'",
+          "Line style: linestyle='-' (solid), '--' (dashed), '-.' (dash-dot), ':' (dotted)",
+          "Line width: linewidth=2 or lw=2",
+          "Markers: marker='o' (circle), 's' (square), '^' (triangle), 'D' (diamond), '*' (star)",
+          "Marker size: markersize=10 or ms=10",
+          "Combined format string: plt.plot(x, y, 'r--o') → red dashed line with circles",
+          "Chart elements — MUST add for full marks:",
+          "plt.title('Chart Title') — chart title",
+          "plt.xlabel('X-Axis Label'), plt.ylabel('Y-Axis Label') — axis labels",
+          "plt.legend(['Line 1', 'Line 2']) or label='name' in plot + plt.legend()",
+          "plt.grid(True) — add grid lines",
+          "plt.xticks(rotation=45) — rotate x-axis labels",
+          "plt.show() — display the chart",
+          "plt.savefig('chart.png') — save chart as image",
+          "Bar Graph: plt.bar(x, height) — vertical bars",
+          "Horizontal bar: plt.barh(x, width)",
+          "Bar customization: color, width, edgecolor, align",
+          "Multiple bar groups: side-by-side bars using width offset",
+          "Stacked bars: plt.bar(x, y1); plt.bar(x, y2, bottom=y1)"
+        ],
+        "projects": [
+          "Monthly temperature line chart — 12 months with customization",
+          "Student marks comparison — line chart for 5 subjects across 3 students",
+          "Product sales bar graph — quarterly sales for 4 products",
+          "Population comparison — horizontal bar chart for 10 cities"
+        ],
+        "practice": "15 line chart programs, 10 bar chart programs, Preeti Arora visualization exercises"
+      },
+      "week_51_52": {
+        "title": "Histograms, Advanced Customization & Combining Charts",
+        "topics": [
+          "Histogram: plt.histogram(data, bins) — frequency distribution chart",
+          "Histogram vs Bar graph: histogram for continuous data, bar for categorical",
+          "Histogram parameters: bins (number of intervals), range, edgecolor, color, alpha",
+          "bins parameter: bins=10 (10 equal intervals), bins=[0,20,40,60,80,100] (custom)",
+          "alpha parameter: transparency — alpha=0.7 (0=invisible, 1=opaque)",
+          "Using histograms: exam marks distribution, age distribution, salary distribution",
+          "Advanced customization for all chart types:",
+          "Figure size: plt.figure(figsize=(10, 6))",
+          "Font sizes: fontsize parameter in title, xlabel, ylabel, legend",
+          "Font weight: fontweight='bold'",
+          "Color options: named colors, hex codes, RGB tuples",
+          "Grid customization: plt.grid(axis='y', linestyle='--', alpha=0.7)",
+          "Setting axis limits: plt.xlim(0, 100), plt.ylim(0, 50)",
+          "Annotations: plt.annotate('text', xy=(x,y), xytext=(tx,ty), arrowprops=dict(arrowstyle='->'))",
+          "Adding text: plt.text(x, y, 'text')",
+          "Subplots: plt.subplot(rows, cols, position) — multiple charts in one figure",
+          "plt.tight_layout() — avoid overlapping in subplots",
+          "Complete chart for board exam: title + labels + legend + grid + colors + markers",
+          "Board exam pattern: write code to create a specific chart from given data",
+          "Chart type selection: when to use line vs bar vs histogram",
+          "Practical exam: creating charts from Pandas DataFrame data"
+        ],
+        "projects": [
+          "Student marks histogram — frequency distribution across score ranges",
+          "Dashboard with subplots — line, bar, and histogram in one figure",
+          "Complete data story: Pandas analysis → Matplotlib visualization",
+          "4 Matplotlib programs for practical file — fully customized charts"
+        ],
+        "practice": "10 histogram programs, 5 subplot programs, complete visualization exercises, board exam chart questions"
+      }
+    },
+    "month_15_16": {
+      "title": "Months 15-16: Pandas + Matplotlib Integration & CSV Data Workflow",
+      "weeks": "Week 57-64",
+      "week_57_58": {
+        "title": "Pandas DataFrame Visualization & CSV Import/Export",
+        "topics": [
+          "Plotting directly from DataFrame: df.plot() — integrates Pandas with Matplotlib",
+          "df.plot(kind='line') — line chart from DataFrame columns",
+          "df.plot(kind='bar') — bar chart, df.plot(kind='barh') — horizontal bar",
+          "df.plot(kind='hist') — histogram from DataFrame data",
+          "df['column'].plot() — plot a single column as Series",
+          "Complete CSV workflow:",
+          "Step 1: pd.read_csv('data.csv') — import data into DataFrame",
+          "read_csv parameters: sep, header, index_col, usecols, nrows, na_values",
+          "Step 2: df.head(), df.info(), df.describe() — explore the data",
+          "Step 3: df[condition] — filter and clean data",
+          "Step 4: df.groupby().agg() — aggregate and summarize",
+          "Step 5: df.plot() or plt.plot() — visualize insights",
+          "Step 6: df.to_csv('output.csv', index=False) — export results",
+          "Real-world data analysis workflow using CSV files",
+          "Handling large CSV files: chunking, selecting columns",
+          "Common Pandas + Matplotlib patterns for board exams"
+        ],
+        "projects": [
+          "Weather data analysis: CSV import → filtering → visualization",
+          "Student performance dashboard: CSV → DataFrame → charts",
+          "Sales trend analysis: monthly/quarterly charts from CSV data",
+          "Complete data analysis project for practical file"
+        ],
+        "practice": "15 integrated Pandas-Matplotlib programs, CSV workflow exercises"
+      },
+      "week_59_64": {
+        "title": "Pandas & Matplotlib Revision + Practical Programs",
+        "topics": [
+          "Complete Pandas revision: Series creation, operations, methods",
+          "DataFrame revision: creation, selection, filtering, sorting, groupby",
+          "CSV read/write revision",
+          "Matplotlib revision: line, bar, histogram with full customization",
+          "15 Pandas programs for practical file:",
+          "P1: Create Series from list, dict, ndarray — display attributes",
+          "P2: Series arithmetic operations and NaN handling",
+          "P3: Series statistical functions — mean, median, mode, std",
+          "P4: Create DataFrame from dict, list of dicts, CSV",
+          "P5: DataFrame column operations — add, delete, rename",
+          "P6: DataFrame row selection with loc and iloc",
+          "P7: Boolean indexing — filter DataFrame rows by condition",
+          "P8: Sorting DataFrame by column values",
+          "P9: DataFrame aggregate functions — sum, mean, count",
+          "P10: GroupBy operations — group by category and aggregate",
+          "P11: Handling missing data — isnull, dropna, fillna",
+          "P12: Import CSV into DataFrame and display statistics",
+          "P13: Export DataFrame to CSV file",
+          "P14: DataFrame describe() and info() — data exploration",
+          "P15: Integrated program — CSV → filter → aggregate → export",
+          "4+ Matplotlib programs for practical file:",
+          "M1: Line chart with title, labels, legend, grid, colors",
+          "M2: Bar graph (vertical/horizontal) with customization",
+          "M3: Histogram with bins, color, edgecolor",
+          "M4: Multiple charts comparison using subplots"
+        ],
+        "deliverables": [
+          "15 Pandas programs written and tested",
+          "4+ Matplotlib programs with saved chart images",
+          "Complete understanding of Pandas-Matplotlib for board exam"
+        ]
+      }
+    }
+  },
+  "phase_4_class_12_semester_2": {
+    "title": "PHASE 4: Class 12 Semester 2 — Advanced SQL, Networks, Society & Board Exam Mastery (Months 18-24)",
+    "description": "Complete remaining Class 12 syllabus: advanced SQL with functions, joins, GROUP BY/HAVING, computer networks, and societal impacts. Then intensive board exam preparation with mock tests.",
+    "month_18_19": {
+      "title": "Months 18-19: Advanced SQL — Functions, GROUP BY, HAVING & Joins",
+      "weeks": "Week 69-76",
+      "unit": "CBSE IP Class 12 Unit 2: Database Query using SQL (25 marks)",
+      "week_69_70": {
+        "title": "SQL Single Row Functions — Math, String & Date Functions",
+        "topics": [
+          "Revision of Class 11 SQL: CREATE, INSERT, SELECT, WHERE, operators",
+          "SQL Functions: two categories — single row functions & aggregate functions",
+          "Single row functions work on each row individually",
+          "Mathematical functions:",
+          "POWER(base, exponent) — POWER(2, 3) = 8",
+          "ROUND(number, decimals) — ROUND(15.678, 1) = 15.7, ROUND(15.678, 0) = 16",
+          "ROUND(1256, -2) = 1300 — rounding to nearest hundred",
+          "MOD(dividend, divisor) — MOD(17, 5) = 2 (remainder)",
+          "TRUNCATE(number, decimals) — TRUNCATE(15.678, 1) = 15.6 (no rounding!)",
+          "ABS(number) — absolute value",
+          "CEIL(number) / CEILING(number) — smallest integer >= number",
+          "FLOOR(number) — largest integer <= number",
+          "String/Text functions:",
+          "UCASE(str) / UPPER(str) — convert to uppercase",
+          "LCASE(str) / LOWER(str) — convert to lowercase",
+          "MID(str, start, length) / SUBSTRING(str, start, length) / SUBSTR(str, start, length)",
+          "Note: MySQL string positions start from 1 (not 0 like Python!)",
+          "LENGTH(str) — number of characters including spaces",
+          "LEFT(str, n) — first n characters, RIGHT(str, n) — last n characters",
+          "INSTR(str, substr) — position of first occurrence of substr (returns 0 if not found)",
+          "LTRIM(str) — remove leading spaces, RTRIM(str) — remove trailing spaces",
+          "TRIM(str) — remove both leading and trailing spaces",
+          "CONCAT(str1, str2) — join strings together",
+          "REPLACE(str, old, new) — replace occurrences",
+          "Date functions:",
+          "NOW() — current date and time",
+          "DATE(datetime) — extract date portion",
+          "MONTH(date) — month number (1-12)",
+          "MONTHNAME(date) — month name ('January', 'February', ...)",
+          "YEAR(date) — year number",
+          "DAY(date) — day of month (1-31)",
+          "DAYNAME(date) — day name ('Monday', 'Tuesday', ...)",
+          "DAYOFWEEK(date) — 1=Sunday, 2=Monday, ... 7=Saturday",
+          "Using functions in SELECT and WHERE clauses",
+          "Nested functions: UPPER(LEFT(name, 3)) — combine functions"
+        ],
+        "projects": [
+          "SQL function explorer — test all functions on sample data",
+          "Employee name formatting — UPPER, LOWER, CONCAT, SUBSTRING",
+          "Date-based queries — find employees hired in specific month/year",
+          "Mathematical query set — ROUND, MOD, POWER calculations on salary data"
+        ],
+        "practice": "40 function-based SQL queries, output prediction MCQs, Preeti Arora SQL function exercises"
+      },
+      "week_71_72": {
+        "title": "SQL Aggregate Functions, GROUP BY & HAVING — Deep Dive",
+        "topics": [
+          "Aggregate functions (revision and deep dive):",
+          "COUNT(*) — total rows, COUNT(column) — non-NULL count",
+          "SUM(column) — total, AVG(column) — average",
+          "MAX(column) — maximum, MIN(column) — minimum",
+          "COUNT(DISTINCT column) — unique value count",
+          "All aggregates ignore NULL except COUNT(*)",
+          "GROUP BY clause — advanced usage:",
+          "Grouping by single column: SELECT city, COUNT(*) FROM student GROUP BY city;",
+          "Grouping by multiple columns: GROUP BY class, section",
+          "GROUP BY with all aggregate functions",
+          "Rules: columns in SELECT must be in GROUP BY or inside aggregate functions",
+          "HAVING clause — filtering groups:",
+          "HAVING COUNT(*) > 5 — show only groups with more than 5 members",
+          "HAVING AVG(marks) >= 80 — show groups with average marks >= 80",
+          "WHERE vs HAVING — the definitive comparison (EXAM CRITICAL):",
+          "WHERE: filters ROWS before grouping, cannot use aggregate functions",
+          "HAVING: filters GROUPS after grouping, CAN use aggregate functions",
+          "WHERE is for conditions on individual rows",
+          "HAVING is for conditions on grouped results",
+          "Complete query with all clauses:",
+          "SELECT col, AGG(col) FROM table WHERE condition GROUP BY col HAVING agg_condition ORDER BY col;",
+          "Execution order: FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY",
+          "Complex queries combining WHERE + GROUP BY + HAVING + ORDER BY",
+          "Board exam: write query for given output, find errors, output prediction"
+        ],
+        "projects": [
+          "Sales analysis: total/average sales by region, category — with filtering",
+          "Student database: section-wise, class-wise statistics with HAVING",
+          "Employee analysis: department-wise salary stats, count, conditions",
+          "30-query challenge: all GROUP BY + HAVING combinations"
+        ],
+        "practice": "50 GROUP BY/HAVING queries, WHERE vs HAVING comparison exercises, board exam SQL from last 10 years"
+      },
+      "week_73_74": {
+        "title": "SQL Joins — Equi-Join on Two Tables",
+        "topics": [
+          "Why joins? — real databases have multiple related tables",
+          "Foreign key: column in one table referencing primary key of another",
+          "Example: Student(RollNo, Name, ClassID) and Class(ClassID, ClassName, Teacher)",
+          "Cartesian Product / Cross Join: every row of Table1 × every row of Table2",
+          "If Table1 has 5 rows and Table2 has 3 rows → result has 15 rows",
+          "Cartesian product is rarely useful — need to filter with conditions",
+          "Equi-Join: Cartesian product + WHERE condition matching common columns",
+          "SELECT s.Name, c.ClassName FROM student s, class c WHERE s.ClassID = c.ClassID;",
+          "Table aliases: student s, class c — shorter names for readability",
+          "Using dot notation: s.Name, c.ClassName — specify which table's column",
+          "Why aliases are needed: when both tables have same column name",
+          "Natural Join: automatically joins on columns with same name",
+          "SELECT * FROM student NATURAL JOIN class; — auto-matches ClassID",
+          "Natural join removes duplicate columns in result",
+          "Equi-join vs Natural Join: equi-join gives you control, natural join is automatic",
+          "Join with additional conditions: WHERE s.ClassID = c.ClassID AND s.Marks > 80",
+          "Joining with aggregate functions: SELECT c.ClassName, AVG(s.Marks) FROM student s, class c WHERE s.ClassID = c.ClassID GROUP BY c.ClassName;",
+          "Board exam join patterns: 2-table queries with conditions, aggregates, sorting",
+          "Practice: identifying which tables to join and on which columns"
+        ],
+        "projects": [
+          "Student-Marks-Subject multi-table query project",
+          "Employee-Department join queries — 20 questions",
+          "Product-Order-Customer join queries",
+          "Complete SQL revision: single table + multi-table + functions + aggregates"
+        ],
+        "practice": "30 join queries, Preeti Arora join exercises, board exam join questions from last 10 years"
+      },
+      "week_75_76": {
+        "title": "SQL Complete Revision + 15 SQL Queries for Practical File",
+        "topics": [
+          "Complete SQL revision — all commands:",
+          "DDL: CREATE DATABASE/TABLE, ALTER TABLE, DROP TABLE/DATABASE",
+          "DML: INSERT INTO, UPDATE, DELETE",
+          "DQL: SELECT with WHERE, BETWEEN, IN, LIKE, IS NULL/IS NOT NULL",
+          "Functions: Math (POWER, ROUND, MOD), String (UPPER, LOWER, MID, LENGTH, LEFT, RIGHT, INSTR, TRIM, CONCAT), Date (NOW, DATE, MONTH, MONTHNAME, YEAR, DAY, DAYNAME)",
+          "Aggregates: COUNT, SUM, AVG, MAX, MIN",
+          "Clauses: GROUP BY, HAVING, ORDER BY, DISTINCT",
+          "Joins: Cartesian product, Equi-join, Natural join",
+          "15+ SQL queries for practical file:",
+          "Q1: CREATE TABLE with constraints (PRIMARY KEY, NOT NULL)",
+          "Q2: INSERT INTO — multiple rows",
+          "Q3: SELECT with WHERE using comparison operators",
+          "Q4: SELECT with BETWEEN and IN",
+          "Q5: SELECT with LIKE and wildcards",
+          "Q6: SELECT with IS NULL / IS NOT NULL",
+          "Q7: SELECT with ORDER BY (ASC and DESC)",
+          "Q8: UPDATE records with WHERE condition",
+          "Q9: DELETE records with WHERE condition",
+          "Q10: ALTER TABLE — add and modify column",
+          "Q11: Aggregate functions — COUNT, SUM, AVG, MAX, MIN",
+          "Q12: GROUP BY with aggregate functions",
+          "Q13: GROUP BY with HAVING clause",
+          "Q14: SQL functions — UPPER, LOWER, MID, LENGTH, ROUND, MOD",
+          "Q15: Equi-join on two tables with conditions"
+        ],
+        "deliverables": [
+          "15+ SQL queries for practical file",
+          "Complete SQL command reference sheet",
+          "All queries tested and verified on MySQL"
+        ]
+      }
+    },
+    "month_20_21": {
+      "title": "Months 20-21: Computer Networks & Societal Impacts",
+      "weeks": "Week 77-84",
+      "week_77_78": {
+        "title": "Introduction to Computer Networks (CBSE IP Unit 3 — 10 marks)",
+        "topics": [
+          "What is a computer network? — interconnected devices sharing resources",
+          "Types of networks based on geographical area:",
+          "PAN (Personal Area Network): Bluetooth headset, smartwatch — within 10 meters",
+          "LAN (Local Area Network): within a building — school lab, office, home WiFi",
+          "MAN (Metropolitan Area Network): across a city — cable TV network, city WiFi",
+          "WAN (Wide Area Network): across countries/continents — Internet is the largest WAN",
+          "Networking devices:",
+          "Modem: MOdulator-DEModulator — converts digital to analog and vice versa",
+          "Hub: broadcasts data to ALL connected devices — dumb device, creates traffic",
+          "Switch: intelligent hub — sends data ONLY to intended device using MAC addresses",
+          "Repeater: amplifies/regenerates weak signals — extends cable distance",
+          "Router: connects different networks — directs traffic using IP addresses",
+          "Gateway: connects networks with DIFFERENT protocols — translates between them",
+          "NIC (Network Interface Card): hardware for network connectivity — has MAC address",
+          "WiFi adapter: wireless NIC for WiFi connectivity",
+          "Network topologies:",
+          "Star topology: all devices connect to central hub/switch",
+          "Advantages: easy to add/remove, failure of one device doesn't affect others",
+          "Disadvantage: central hub failure takes down entire network",
+          "Bus topology: all devices on single backbone cable with terminators",
+          "Advantages: cheap, easy to install",
+          "Disadvantages: cable failure affects all, difficult troubleshooting",
+          "Tree/Hierarchical topology: combination of star and bus — like a tree structure",
+          "Mesh topology: every device connected to every other device",
+          "Advantage: maximum redundancy, Disadvantage: very expensive"
+        ],
+        "projects": [
+          "Network diagram for a school — choose topology, devices, media",
+          "Networking device comparison chart with functions and use cases",
+          "Topology pros-cons table with real-world examples"
+        ],
+        "practice": "Preeti Arora network chapter, 40 MCQs on network types, devices, topologies"
+      },
+      "week_79_80": {
+        "title": "Internet, Web Technologies & Protocols",
+        "topics": [
+          "Internet: global network of networks — largest WAN",
+          "How internet works: ISP, DNS, routers, data packets",
+          "Internet services:",
+          "WWW (World Wide Web): system of interlinked hypertext documents — uses HTTP",
+          "Email: electronic mail — SMTP (sending), POP3/IMAP (receiving)",
+          "Chat/Instant Messaging: WhatsApp, Telegram, Slack",
+          "VoIP (Voice over IP): voice calls over internet — Zoom, Google Meet, Skype",
+          "Video conferencing: audio + video communication over internet",
+          "URL (Uniform Resource Locator): address of a web resource",
+          "URL structure: protocol://domain_name:port/path/page?query#fragment",
+          "Domain name: human-readable website address (google.com, example.org)",
+          "DNS (Domain Name System): translates domain names to IP addresses",
+          "Domain extensions: .com, .org, .edu, .gov, .in, .co.in",
+          "Websites: collection of related web pages",
+          "Static web pages: fixed content, created with HTML/CSS, same for all users",
+          "Dynamic web pages: content changes based on user, time, interaction — uses server-side processing",
+          "Web server: computer that hosts websites and serves web pages",
+          "Web hosting: storing website on a server for internet access",
+          "Types of hosting: shared, VPS, dedicated, cloud hosting",
+          "Web browser: software to access websites — Chrome, Firefox, Edge, Safari",
+          "Browser features: tabs, bookmarks, history, extensions/add-ons, plug-ins",
+          "Cookies: small data files stored by websites on your browser",
+          "First-party cookies: set by the website you visit",
+          "Third-party cookies: set by advertisers/trackers — privacy concern"
+        ],
+        "projects": [
+          "URL anatomy exercise — break down 10 URLs into components",
+          "Static vs dynamic website comparison — 10 examples each",
+          "Web technology glossary — define 30 web-related terms",
+          "Browser feature exploration report"
+        ],
+        "practice": "Preeti Arora web chapter, 50 MCQs on internet, web, protocols, cookies"
+      },
+      "week_81_82": {
+        "title": "Societal Impacts of Technology (CBSE IP Unit 4 — 10 marks)",
+        "topics": [
+          "Digital footprint: trail of data you leave on the internet",
+          "Active digital footprint: intentional — social media posts, emails, comments",
+          "Passive digital footprint: unintentional — browsing history, cookies, IP logs",
+          "Managing your digital footprint: privacy settings, thinking before posting",
+          "Communication etiquette (netiquette): proper online behavior",
+          "Email etiquette: professional subject lines, proper greeting, no ALL CAPS",
+          "Social media etiquette: respect others, verify before sharing, no cyberbullying",
+          "Data protection: safeguarding personal and organizational data",
+          "Personal data: name, address, phone, email, financial info, biometric data",
+          "Consent: permission before collecting/using personal data",
+          "Intellectual Property Rights (IPR):",
+          "Copyright: legal right over creative works — books, music, software, art",
+          "Patent: protection for inventions — machines, processes, formulas",
+          "Trademark: protection for brand identity — logos, names, slogans",
+          "Plagiarism: using someone else's work without proper credit — academic dishonesty",
+          "How to avoid plagiarism: cite sources, paraphrase properly, use quotation marks",
+          "Software licensing:",
+          "Proprietary: paid, closed source — Windows, Adobe, MS Office",
+          "Free and Open Source Software (FOSS): free to use, modify, distribute",
+          "FOSS examples: Linux, Firefox, LibreOffice, Python, MySQL, Android, WordPress",
+          "Creative Commons: flexible copyright licenses — CC-BY, CC-BY-SA, CC-BY-NC",
+          "GPL (GNU General Public License): must keep derivatives open source",
+          "Cybercrime: criminal activities using computers/internet",
+          "Hacking: unauthorized access to computer systems",
+          "Phishing: fraudulent emails/websites to steal login credentials",
+          "Cyberbullying: harassment, threats, humiliation online",
+          "Identity theft: stealing personal information for fraud",
+          "Ransomware: malware that encrypts data and demands payment",
+          "Indian Information Technology Act 2000 (amended 2008):",
+          "Section 43: penalty for unauthorized access, data theft",
+          "Section 66: computer-related offences — hacking, identity theft",
+          "Section 67: publishing obscene material electronically",
+          "Section 72: breach of confidentiality and privacy",
+          "E-waste: discarded electronic devices — hazards and management",
+          "E-waste hazards: toxic materials (lead, mercury, cadmium), soil/water pollution",
+          "E-waste management: reduce, reuse, recycle, proper disposal at certified centers",
+          "Health concerns from technology: digital eye strain, back/neck pain, carpal tunnel syndrome",
+          "Ergonomics: proper posture, screen distance, break intervals (20-20-20 rule)",
+          "Technology addiction: social media addiction, gaming disorder — awareness and balance"
+        ],
+        "projects": [
+          "Digital citizenship poster — 15 dos and don'ts for online behavior",
+          "Cybercrime awareness infographic — types, prevention, reporting",
+          "E-waste management plan for school/home",
+          "IPR case study — analyze 3 real-world copyright/patent cases"
+        ],
+        "practice": "Preeti Arora societal impacts chapter, NCERT exercises, 60 MCQs, case study questions, IT Act scenario-based questions"
+      }
+    },
+    "month_22_24": {
+      "title": "Months 22-24: Board Exam Preparation — Intensive Revision & Mock Tests",
+      "weeks": "Week 85-96",
+      "week_85_86": {
+        "title": "Practical File Completion & Project Submission",
+        "topics": [
+          "Complete practical file requirements verification:",
+          "15+ Pandas programs — Series and DataFrame operations",
+          "4+ Matplotlib programs — line chart, bar graph, histogram with customization",
+          "15+ SQL queries — DDL, DML, DQL, functions, aggregates, joins",
+          "Project work (5 marks): data analysis project using Pandas + Matplotlib",
+          "Suggested projects:",
+          "COVID-19 data analysis — cases, recoveries, deaths by country/state",
+          "Weather data analysis — temperature, rainfall trends over years",
+          "Student performance analyzer — class-wise, subject-wise analysis with charts",
+          "IPL/cricket statistics analysis — batting, bowling averages with visualization",
+          "E-commerce sales analysis — product category wise, monthly trends",
+          "Project documentation: cover page, certificate, acknowledgement, introduction, source code, output, bibliography",
+          "Viva voce preparation — 50 most-asked questions:",
+          "What is Pandas? What is a DataFrame? What is a Series?",
+          "Difference between loc and iloc?",
+          "What is matplotlib? How to create a bar chart?",
+          "What is GROUP BY? What is HAVING?",
+          "Difference between WHERE and HAVING?",
+          "What is a primary key? What is a foreign key?",
+          "What is an equi-join?",
+          "What is a digital footprint?"
+        ],
+        "deliverables": [
+          "Complete practical file — all programs tested and documented",
+          "Project with full documentation",
+          "Viva voce preparation notes — 50 Q&A"
+        ]
+      },
+      "week_87_88": {
+        "title": "Chapter-Wise Revision — Pandas & Matplotlib",
+        "topics": [
+          "Pandas Series revision: creation, indexing, slicing, operations, methods, NaN handling",
+          "Pandas DataFrame revision: creation, selection, filtering, sorting, groupby, CSV operations",
+          "DataFrame vs Series — comparison table",
+          "loc vs iloc — 20 practice problems",
+          "Boolean indexing revision — complex condition filtering",
+          "Aggregate functions on DataFrame: sum, mean, max, min, count, describe",
+          "Matplotlib revision: line chart, bar graph, histogram",
+          "Chart customization checklist: title, xlabel, ylabel, legend, grid, color, marker, linestyle",
+          "Format strings revision: 'r--o', 'b-s', 'g:^'",
+          "Common Pandas output prediction patterns",
+          "Quick reference card for Pandas methods and Matplotlib functions"
+        ],
+        "practice": "40 Pandas MCQs, 20 output prediction, 15 Matplotlib code-writing questions"
+      },
+      "week_89_90": {
+        "title": "Chapter-Wise Revision — SQL, Networks & Societal Impacts",
+        "topics": [
+          "SQL complete revision: DDL, DML, DQL",
+          "SQL functions revision: POWER, ROUND, MOD, UPPER, LOWER, MID, LENGTH, LEFT, RIGHT, INSTR, TRIM, CONCAT, NOW, DATE, MONTH, YEAR, DAY, MONTHNAME, DAYNAME",
+          "Aggregate functions revision: COUNT, SUM, AVG, MAX, MIN",
+          "GROUP BY + HAVING revision — 20 practice queries",
+          "Joins revision: Cartesian product, equi-join, natural join",
+          "Complete SQL query writing — from WHERE to JOIN",
+          "Computer networks revision: PAN, LAN, MAN, WAN, devices, topologies",
+          "Internet and web concepts revision: URL, DNS, HTTP/HTTPS, static/dynamic, cookies",
+          "Societal impacts revision: digital footprint, IPR, cybercrime, IT Act, e-waste",
+          "Case study practice — network design scenarios (CBSE board favorite)"
+        ],
+        "practice": "50 SQL revision queries, 40 network MCQs, 30 societal impact MCQs, case study practice"
+      },
+      "week_91_92": {
+        "title": "Mock Board Exams — Set 1 & 2",
+        "topics": [
+          "Full-length Mock Exam 1: 70 marks, 3 hours — strict exam conditions",
+          "CBSE IP paper structure:",
+          "Section A: 21 questions × 1 mark = 21 marks (MCQ, True/False, Fill-in-blanks)",
+          "Section B: 7 questions × 2 marks = 14 marks (Very Short Answer)",
+          "Section C: 4 questions × 3 marks = 12 marks (Short Answer)",
+          "Section D: 2 questions × 4 marks = 8 marks (Case Study based)",
+          "Section E: 3 questions × 5 marks = 15 marks (Long Answer)",
+          "Detailed solution discussion with CBSE marking scheme",
+          "Full-length Mock Exam 2: different question set, same structure",
+          "Common mistakes analysis and correction",
+          "Time management strategy:",
+          "Section A (21 marks): 30-35 minutes",
+          "Section B (14 marks): 20 minutes",
+          "Section C (12 marks): 20 minutes",
+          "Section D (8 marks): 15 minutes",
+          "Section E (15 marks): 25 minutes",
+          "Review time: 10-15 minutes",
+          "How to write Pandas/Matplotlib code in board exams",
+          "How to write SQL queries in board exams — formatting tips"
+        ],
+        "deliverables": [
+          "2 complete mock papers solved and reviewed",
+          "Weak areas identified with improvement plan",
+          "Exam writing technique refined"
+        ]
+      },
+      "week_93_94": {
+        "title": "Mock Board Exams — Set 3, 4, 5 + Previous Year Paper Solving",
+        "topics": [
+          "3 more full-length mock exams (Set 3, 4, 5)",
+          "CBSE IP Previous Year Papers solved:",
+          "2020, 2021, 2022, 2023, 2024, 2025 — complete solutions with marking scheme",
+          "CBSE IP Sample Paper 2025-26 — official sample paper solved",
+          "Frequently repeated question analysis — top 30 topics that appear every year",
+          "Most important Pandas questions: Series operations, DataFrame creation, loc/iloc, groupby",
+          "Most important SQL questions: GROUP BY + HAVING, aggregate functions, joins, functions",
+          "Most important theory questions: network devices, topologies, cybercrime, IPR, IT Act",
+          "Case study question patterns — how to approach and answer",
+          "Assertion-Reason question strategy — understanding the format",
+          "Partial marks strategy — how to get step marks even if you don't know complete answer"
+        ],
+        "practice": "5 mock papers + 6 previous year papers = 11 full papers solved"
+      },
+      "week_95_96": {
+        "title": "Final Revision & Last-Minute Board Exam Preparation",
+        "topics": [
+          "One-shot revision: entire IP syllabus in 2 days — key points only",
+          "Pandas cheat sheet: all methods, attributes, operations on one page",
+          "Matplotlib cheat sheet: plot types, customization options, format strings",
+          "SQL command reference: all DDL, DML, DQL, functions on 2 pages",
+          "Network concepts summary: devices, topologies, protocols on 1 page",
+          "Societal impacts summary: key terms, IT Act sections on 1 page",
+          "Top 30 most important Pandas output prediction problems",
+          "Top 20 SQL queries you must know by heart",
+          "Top 15 theory questions with model answers",
+          "Board exam day strategy: reading time, question selection, presentation",
+          "How to handle unfamiliar questions — partial answer strategies",
+          "Confidence building: you've practiced more than 95% of students",
+          "Practical exam preparation: Pandas program + SQL queries + project viva"
+        ],
+        "deliverables": [
+          "Quick revision notes — entire syllabus on 8-10 pages",
+          "Pandas + Matplotlib reference sheet — 2 pages",
+          "SQL reference sheet — 2 pages",
+          "Theory revision sheet — 2 pages",
+          "11+ solved papers in practice",
+          "READY FOR BOARD EXAM — 90+ score target"
+        ]
+      }
+    }
+  },
+  "practical_assessment_guide": {
+    "title": "CBSE IP Practical Exam Guide (30 Marks)",
+    "breakdown": {
+      "lab_test_pandas_matplotlib": {
+        "marks": 8,
+        "description": "Write and execute a Pandas/Matplotlib program — DataFrame operations, data visualization"
+      },
+      "lab_test_sql": {
+        "marks": 7,
+        "description": "SQL queries on given tables — functions, aggregates, GROUP BY, HAVING, joins"
+      },
+      "practical_file": {
+        "marks": 5,
+        "description": "15+ Pandas programs, 4+ Matplotlib programs, 15+ SQL queries — all tested and documented"
+      },
+      "project_work": {
+        "marks": 5,
+        "description": "Data analysis project using Pandas + Matplotlib with documentation"
+      },
+      "viva_voce": {
+        "marks": 5,
+        "description": "Oral examination on practical file programs, project, and theoretical concepts"
+      }
+    },
+    "pandas_program_list": [
+      "P1: Create Series from list, dictionary, ndarray — display index, values, dtype",
+      "P2: Series mathematical operations — addition, subtraction, multiplication",
+      "P3: Series head(), tail(), slicing, boolean indexing",
+      "P4: Create DataFrame from dictionary of lists with custom index",
+      "P5: DataFrame column selection, addition, deletion, renaming",
+      "P6: DataFrame row selection using loc and iloc",
+      "P7: Boolean indexing — filter rows based on conditions",
+      "P8: DataFrame sorting by values and by index",
+      "P9: Aggregate functions — sum, mean, count, min, max on DataFrame",
+      "P10: GroupBy operation with aggregate functions",
+      "P11: Handling NaN — isnull, dropna, fillna",
+      "P12: Read CSV file into DataFrame, display info and describe",
+      "P13: Export DataFrame to CSV file",
+      "P14: DataFrame statistical analysis — describe(), value_counts()",
+      "P15: Complete data pipeline — CSV import → filter → analyze → export"
+    ],
+    "matplotlib_program_list": [
+      "M1: Line chart — temperature over 12 months with title, labels, legend, grid, colors, markers",
+      "M2: Bar graph — student marks in 5 subjects (vertical and horizontal)",
+      "M3: Histogram — marks distribution with custom bins and colors",
+      "M4: Multiple charts using subplots — combining line, bar, histogram"
+    ],
+    "sql_query_list": [
+      "Q1: CREATE TABLE with constraints",
+      "Q2: INSERT INTO — multiple records",
+      "Q3-Q5: SELECT with WHERE, BETWEEN, IN, LIKE, IS NULL",
+      "Q6: SELECT with ORDER BY",
+      "Q7: UPDATE and DELETE with conditions",
+      "Q8: ALTER TABLE — add, modify, drop column",
+      "Q9-Q10: Aggregate functions (COUNT, SUM, AVG, MAX, MIN)",
+      "Q11-Q12: GROUP BY and HAVING",
+      "Q13: SQL single row functions (Math, String, Date)",
+      "Q14-Q15: Equi-join on two tables"
+    ]
+  },
+  "exam_pattern": {
+    "title": "CBSE IP Class 12 Board Exam Pattern",
+    "theory": {
+      "total_marks": 70,
+      "duration": "3 hours",
+      "sections": {
+        "A": { "questions": 21, "marks_each": 1, "total": 21, "types": "MCQ, True/False, Fill-in-blanks, Assertion-Reason" },
+        "B": { "questions": 7, "marks_each": 2, "total": 14, "type": "Very Short Answer" },
+        "C": { "questions": 4, "marks_each": 3, "total": 12, "type": "Short Answer" },
+        "D": { "questions": 2, "marks_each": 4, "total": 8, "type": "Case Study Based" },
+        "E": { "questions": 3, "marks_each": 5, "total": 15, "type": "Long Answer" }
+      },
+      "internal_choices": "Yes — some questions have internal choice (either/or)",
+      "programming_language": "Python only — Pandas, Matplotlib code"
+    },
+    "practical": {
+      "total_marks": 30,
+      "components": "Lab test (Pandas/Matplotlib: 8 + SQL: 7) + Practical File (5) + Project (5) + Viva (5)"
+    },
+    "mark_distribution_by_unit": {
+      "unit_1_pandas_matplotlib": "25 marks",
+      "unit_2_sql": "25 marks",
+      "unit_3_networks": "10 marks",
+      "unit_4_societal_impacts": "10 marks"
+    }
+  },
+  "textbooks_and_resources": {
+    "primary_textbooks": [
+      {
+        "title": "Informatics Practices with Python",
+        "author": "Preeti Arora",
+        "publisher": "Sultan Chand & Sons",
+        "classes": "Class 11 & 12",
+        "note": "Most popular IP textbook — our primary reference for chapter-wise teaching"
+      },
+      {
+        "title": "NCERT Informatics Practices Textbook",
+        "author": "NCERT",
+        "publisher": "NCERT",
+        "classes": "Class 11 & 12",
+        "note": "Official CBSE textbook — essential for theory and MCQ preparation"
+      },
+      {
+        "title": "Informatics Practices with Python",
+        "author": "Sumita Arora",
+        "publisher": "Dhanpat Rai & Co.",
+        "classes": "Class 11 & 12",
+        "note": "Comprehensive coverage with extensive solved examples"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "What is Informatics Practices (IP)? Is it different from Computer Science (CS)?",
+      "answer": "Yes, IP (Code 065) and CS (Code 083) are different CBSE subjects. IP focuses on data handling with Pandas, data visualization with Matplotlib, and SQL — it's application-oriented and considered easier. CS focuses on deep Python programming, data structures (stacks), sorting/searching algorithms, and Python-MySQL connectivity — it's more programming-intensive. We run separate batches for IP and CS students."
+    },
+    {
+      "question": "Is IP easier than CS? Should I choose IP?",
+      "answer": "IP is generally considered easier because it focuses on using Python libraries (Pandas, Matplotlib) for data analysis rather than building algorithms from scratch. If you're interested in data science, business analytics, or want a higher-scoring subject, IP is a great choice. If you want to pursue software engineering or competitive programming, CS is better. We can help you decide based on your goals."
+    },
+    {
+      "question": "Do you have separate batches for IP and CS?",
+      "answer": "Absolutely. IP and CS have completely different syllabi — different units, different topics, different exam patterns. Our IP batch only teaches IP content (Pandas, Matplotlib, SQL, networks, societal impacts). No mixing with CS topics like file handling, data structures, or Python-MySQL connectivity."
+    },
+    {
+      "question": "Which textbook do you follow for IP?",
+      "answer": "We primarily follow Preeti Arora (Informatics Practices with Python) — the most popular IP textbook — supplemented by NCERT IP textbook and Sumita Arora. Our teaching covers every chapter from these books."
+    },
+    {
+      "question": "Do I need to install anything on my computer?",
+      "answer": "Yes, you'll need Python 3.12+ (with Pandas, NumPy, Matplotlib — installed via pip) and MySQL Community Server. We guide you through the complete installation process in the first few classes."
+    },
+    {
+      "question": "Will you help with the practical file and project?",
+      "answer": "Yes, completely. We prepare your entire practical file (15+ Pandas programs, 4+ Matplotlib charts, 15+ SQL queries), guide you through a data analysis project with full documentation, and prepare you for the viva voce examination. You submit a polished, complete practical file."
+    },
+    {
+      "question": "Can this course help me score 90+ in IP board exam?",
+      "answer": "Our structured approach with 100% syllabus coverage, 34+ practical programs, 10+ mock papers, previous year paper analysis, chapter-wise tests, and dedicated doubt sessions is designed to help every student score 90+. IP has a more predictable question pattern than CS, making high scores very achievable with proper preparation."
+    },
+    {
+      "question": "Is there an ICSE equivalent of IP?",
+      "answer": "No, ICSE/ISC does not have an Informatics Practices subject. ISC offers Computer Science (Java-based) which is more similar to CBSE CS. If you're an ICSE student interested in data analysis, you can join our IP batch to learn Pandas/Matplotlib skills alongside your board preparation — these are valuable skills regardless of your board."
+    },
+    {
+      "question": "What career options does IP open up?",
+      "answer": "IP gives you a strong foundation for Data Analyst, Business Analyst, SQL Developer, Data Scientist, BI Developer, IT Manager, Digital Marketing Analyst, and Financial Analyst roles. The Python + SQL + data visualization skills you learn are directly used in industry. Many BCA, B.Sc IT, BBA, and MBA programs value these skills."
+    }
+  ]
+}

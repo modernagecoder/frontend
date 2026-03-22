@@ -118,6 +118,22 @@
         "personal": { "amount": 3499, "display": "₹3,499/month" },
         "lifetime": { "amount": 59999, "display": "₹59,999" }
       }
+    },
+    "cbse-icse-computer-science-class-11-12-python-java-complete-course": {
+      "name": "Computer Science Class 11 & 12 (CBSE & ICSE)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "lifetime": { "amount": 24999, "display": "₹24,999" }
+      }
+    },
+    "cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course": {
+      "name": "Informatics Practices (IP) Class 11 & 12 (CBSE)",
+      "pricing": {
+        "group": { "amount": 1499, "display": "₹1,499/month" },
+        "personal": { "amount": 2499, "display": "₹2,499/month" },
+        "lifetime": { "amount": 24999, "display": "₹24,999" }
+      }
     }
   },
   "notes": {
