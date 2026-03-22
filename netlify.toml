@@ -180,6 +180,119 @@
   to = "/src/pages/search.html"
   status = 200
 
+[[redirects]]
+  from = "/aura"
+  to = "/src/pages/aura.html"
+  status = 200
+
+[[redirects]]
+  from = "/success-stories"
+  to = "/src/pages/success-stories.html"
+  status = 200
+
+[[redirects]]
+  from = "/free-resources"
+  to = "/src/pages/free-resources.html"
+  status = 200
+
+[[redirects]]
+  from = "/summer-coding-camp-kids"
+  to = "/src/pages/summer-coding-camp-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/summer-coding-camp-teens"
+  to = "/src/pages/summer-coding-camp-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/summer-coding-camp-adults"
+  to = "/src/pages/summer-coding-camp-adults.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-lang"
+  to = "/src/pages/coding-lang.html"
+  status = 200
+
+[[redirects]]
+  from = "/online-maths-tuition"
+  to = "/src/pages/online-maths-tuition.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-class-10"
+  to = "/src/pages/maths-class-10.html"
+  status = 200
+
+[[redirects]]
+  from = "/projects"
+  to = "/src/pages/projects.html"
+  status = 200
+
+[[redirects]]
+  from = "/student-projects"
+  to = "/src/pages/student-projects-standalone.html"
+  status = 200
+
+[[redirects]]
+  from = "/check-status"
+  to = "/src/pages/check-status.html"
+  status = 200
+
+[[redirects]]
+  from = "/book-demo"
+  to = "/src/pages/book-demo.html"
+  status = 200
+
+# SEO Landing Pages
+[[redirects]]
+  from = "/python-and-ai-classes-for-kids-teens"
+  to = "/src/pages/python-and-ai-classes-for-kids-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-girls"
+  to = "/src/pages/coding-classes-for-girls.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-classes-online"
+  to = "/src/pages/best-coding-classes-online.html"
+  status = 200
+
+[[redirects]]
+  from = "/ai-ml-course-for-teens"
+  to = "/src/pages/ai-ml-course-for-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/java-programming-for-kids-teens"
+  to = "/src/pages/java-programming-for-kids-teens.html"
+  status = 200
+
+# Daily Challenges & Practice Pages
+[[redirects]]
+  from = "/coding-challenges"
+  to = "/src/pages/coding-challenges.html"
+  status = 200
+
+[[redirects]]
+  from = "/maths-challenges"
+  to = "/src/pages/maths-challenges.html"
+  status = 200
+
+[[redirects]]
+  from = "/mistakes-students-make"
+  to = "/src/pages/mistakes-students-make.html"
+  status = 200
+
+[[redirects]]
+  from = "/corporate-training"
+  to = "/levels/corporate-training"
+  status = 301
+  force = true
+
 # City Landing Pages - SEO Optimized
 [[redirects]]
   from = "/best-coding-class-in-kolkata"
@@ -201,7 +314,30 @@
   to = "/src/pages/best-coding-class-in-pune.html"
   status = 200
 
+[[redirects]]
+  from = "/best-coding-class-in-chennai"
+  to = "/src/pages/best-coding-class-in-chennai.html"
+  status = 200
 
+[[redirects]]
+  from = "/best-coding-class-in-mumbai"
+  to = "/src/pages/best-coding-class-in-mumbai.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-delhi"
+  to = "/src/pages/best-coding-class-in-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-ahmedabad"
+  to = "/src/pages/best-coding-class-in-ahmedabad.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-indore"
+  to = "/src/pages/best-coding-class-in-indore.html"
+  status = 200
 
 [[redirects]]
   from = "/love"

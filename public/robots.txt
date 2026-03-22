@@ -18,11 +18,22 @@ Allow: /blog/
 Allow: /about
 Allow: /contact
 Allow: /pricing
+Allow: /faq
+Allow: /book-demo
 Allow: /business-solutions
 Allow: /aura
 Allow: /beat-the-babu
 Allow: /love
 Allow: /coding-roadmap
+Allow: /free-resources
+Allow: /success-stories
+Allow: /student-labs
+Allow: /summer-coding-camp
+Allow: /online-maths-tuition
+Allow: /maths-class-10
+Allow: /coding-challenges
+Allow: /maths-challenges
+Allow: /search
 
 # Levels pages - Age group and audience landing pages
 Allow: /levels/coding-for-kids
@@ -31,13 +42,20 @@ Allow: /levels/coding-for-college-students
 Allow: /levels/coding-for-professionals
 Allow: /levels/corporate-training
 
+# SEO Landing Pages
+Allow: /python-and-ai-classes-for-kids-teens
+Allow: /coding-classes-for-girls
+Allow: /best-coding-classes-online
+Allow: /ai-ml-course-for-teens
+Allow: /java-programming-for-kids-teens
+
 # Sitemap location
 Sitemap: https://learn.modernagecoders.com/sitemap.xml
 
 # Crawl delay (be nice to servers)
 Crawl-delay: 1
 
-# Specific bot instructions
+# Search engine bot instructions
 User-agent: Googlebot
 Allow: /
 Crawl-delay: 0
@@ -45,3 +63,34 @@ Crawl-delay: 0
 User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
+
+# Explicitly allow all AI crawlers (CRITICAL FOR GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
