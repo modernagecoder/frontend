@@ -51,7 +51,15 @@
       "Bash(cp \"d:/download/ip-cs-grade11-grade12.webp\" \"C:/Users/hp/Desktop/SkyCoders/kiro24/frontend/public/images/ip-cs-class-11-12.webp\")",
       "Bash(FILE=\"C:/Users/hp/Desktop/SkyCoders/kiro24/frontend/content/courses/generated/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course/index.html\")",
       "Bash(__NEW_LINE_621cadbcd19b33da__ echo:*)",
-      "Read(//c/Users/hp/Desktop/SkyCoders/kiro24/frontend/**)"
+      "Read(//c/Users/hp/Desktop/SkyCoders/kiro24/frontend/**)",
+      "Bash(find C:UsershpDesktopSkyCoderskiro24frontendpublicimages -type f \\\\\\(-name *.png -o -name *.jpg -o -name *.webp -o -name *.gif \\\\\\))",
+      "Bash(gzip -c \"C:\\\\Users\\\\hp\\\\Desktop\\\\SkyCoders\\\\kiro24\\\\frontend\\\\src\\\\pages\\\\index.html\")",
+      "Bash(find \"C:\\\\Users\\\\hp\\\\Desktop\\\\SkyCoders\\\\kiro24\\\\frontend\\\\public\\\\images\" -name \"*.webp\" -type f -exec ls -lh {})",
+      "Bash(cd:*)",
+      "mcp__playwright__browser_console_messages",
+      "mcp__playwright__browser_evaluate",
+      "mcp__playwright__browser_resize",
+      "mcp__playwright__browser_click"
     ]
   }
 }

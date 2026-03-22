@@ -129,44 +129,9 @@
 
 <body class="pricing-page">
     <a href="#main" class="skip-link">Skip to main content</a>
-    <canvas id="background-canvas"></canvas>
+    <!-- canvas removed for performance -->
     <!-- BEGIN_INLINED_NAV -->
-<style>
-    .callback-nav-btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 6px;
-        padding: 8px 16px;
-        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-        color: white;
-        border: none;
-        border-radius: 25px;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
-    }
 
-    .callback-nav-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
-    }
-
-    .callback-nav-btn svg {
-        flex-shrink: 0;
-    }
-
-    @media (max-width: 768px) {
-        .callback-nav-btn span {
-            display: none;
-        }
-
-        .callback-nav-btn {
-            padding: 10px;
-        }
-    }
-</style>
 
 <header>
     <nav>
@@ -338,7 +303,7 @@
     <main id="main">
         <!-- Hero Section -->
         <section class="pricing-hero">
-            <h1>Affordable Coding & Maths Classes: <span>Transparent</span> Pricing</h1>
+            <h1>Affordable Coding & Maths Classes:<br><span>Transparent</span> Pricing</h1>
             <p>No hidden fees, no surprises. Pick a plan that works for you. Whether you prefer learning in a group or
                 need personalized attention, we've got you covered.</p>
         </section>
@@ -776,7 +741,7 @@
         <!-- ====== INTERNATIONAL PRICING SECTION END ====== -->
 
         <!-- ====== COMPARISON TABLE SECTION START ====== -->
-        <section class="section comparison-section" style="animation-delay: 1.2s; padding: 5rem 1.5rem;">
+        <section class="section comparison-section">
 <div class="comparison-container">
                 <div class="comparison-header">
                     <h2>Why Choose Modern Age Coders?</h2>
@@ -1249,11 +1214,11 @@
         </section>
 
         <!-- How We Compare Section -->
-        <section style="max-width: 900px; margin: 0 auto; padding: 60px 20px 40px;">
+        <section class="how-compare-section" style="max-width: 900px; margin: 0 auto; padding: 60px 20px 40px;">
             <h2 style="font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 800; color: #fff; margin-bottom: 8px; text-align: center;">How We Compare</h2>
             <p style="color: #94a3b8; text-align: center; margin-bottom: 32px;">Affordable coding classes in India without compromising on quality</p>
             <div style="overflow-x: auto;">
-                <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem; min-width: 600px;">
+                <table class="how-compare-table" style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
                     <thead>
                         <tr>
                             <th style="background: rgba(168,85,247,0.15); color: #e2e8f0; padding: 14px 16px; text-align: left; font-weight: 700; border-bottom: 2px solid rgba(168,85,247,0.3);">Feature</th>
@@ -1392,62 +1357,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 
     <script>
-        // Background Canvas Animation
-        const canvas = document.getElementById('background-canvas');
-        const ctx = canvas.getContext('2d');
-        let particles = [];
-        const mathSymbols = ['?', '?', 'p', '8', 'v', '?', '?', '?', '?', 'f'];
-        const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';'];
-        const allSymbols = [...mathSymbols, ...codeSymbols];
-
-        function resizeCanvas() {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-        }
-
-        function createParticles() {
-            particles = [];
-            const particleCount = Math.floor((canvas.width * canvas.height) / 8000);
-            for (let i = 0; i < particleCount; i++) {
-                particles.push({
-                    x: Math.random() * canvas.width,
-                    y: Math.random() * canvas.height,
-                    char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                    speed: 0.2 + Math.random() * 0.5,
-                    size: 10 + Math.random() * 8,
-                    opacity: 0.08 + Math.random() * 0.15,
-                    rotation: Math.random() * Math.PI * 2,
-                    rotationSpeed: (Math.random() - 0.5) * 0.01,
-                    isMath: Math.random() > 0.5
-                });
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach(p => {
-                p.y -= p.speed;
-                p.rotation += p.rotationSpeed;
-                if (p.y < -30) {
-                    p.y = canvas.height + 30;
-                    p.x = Math.random() * canvas.width;
-                }
-                ctx.save();
-                ctx.translate(p.x, p.y);
-                ctx.rotate(p.rotation);
-                ctx.font = `${p.size}px monospace`;
-                ctx.fillStyle = p.isMath ? `rgba(255, 215, 0, ${p.opacity})` : `rgba(168, 85, 247, ${p.opacity})`;
-                ctx.fillText(p.char, 0, 0);
-                ctx.restore();
-            });
-            requestAnimationFrame(animate);
-        }
-
-        window.addEventListener('resize', () => { resizeCanvas(); createParticles(); });
-        resizeCanvas();
-        createParticles();
-        animate();
-
         // Tab Functionality
         const tabBtns = document.querySelectorAll('.pricing-tab-btn');
         const tabContents = document.querySelectorAll('.pricing-tab-content');
@@ -1678,55 +1587,7 @@
 
 
 
-<style>
-    /* Misti AI Button Hover */
-    .misti-chat-btn:hover .misti-icon {
-        transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-    }
 
-    .misti-chat-btn:hover .misti-label {
-        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
-    }
-
-    /* WhatsApp Button Hover */
-    .wa-float-btn:hover .wa-icon {
-        transform: scale(1.08);
-        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-    }
-
-    .wa-float-btn:hover .wa-label {
-        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
-    }
-
-    /* Mobile - Hide labels, show only icons */
-    @media (max-width: 768px) {
-
-        .misti-label,
-        .wa-label {
-            display: none !important;
-            visibility: hidden !important;
-        }
-
-        .misti-chat-btn {
-            bottom: 88px !important;
-            right: 16px !important;
-        }
-
-        .wa-float-btn {
-            bottom: 20px !important;
-            right: 16px !important;
-        }
-
-        .misti-icon,
-        .wa-icon {
-            width: 52px !important;
-            height: 52px !important;
-            min-width: 52px !important;
-            min-height: 52px !important;
-        }
-    }
-</style>
 
 <!-- Lenis Smooth Scrolling -->
 <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>

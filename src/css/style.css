@@ -81,14 +81,16 @@
 
 .section {
     opacity: 0;
-    transform: translateY(20px);
-    transition: all 0.8s var(--transition-timing);
+    transform: translateY(25px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
     width: 100%;
     max-width: 1200px;
-    animation: slideInUp 0.8s forwards;
-    animation-timing-function: var(--transition-timing);
-    content-visibility: auto;
-    contain-intrinsic-size: auto 500px;
+}
+
+/* Hero section visible immediately - no delay for LCP */
+.hero-section {
+    opacity: 1 !important;
+    transform: none !important;
 }
 
 .section.animate-in {
