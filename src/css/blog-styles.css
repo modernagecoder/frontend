@@ -3,6 +3,14 @@
    Modern, readable, and engaging blog design
    ======================================== */
 
+/* Blog pages: override .section hidden-by-default from style.css
+   (blog pages don't use the homepage IntersectionObserver) */
+.blog-listing-page .section,
+.blog-detail-page .section {
+    opacity: 1;
+    transform: none;
+}
+
 :root {
     /* Blog-specific colors */
     --blog-bg: #0a0a14;
