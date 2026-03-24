@@ -59,7 +59,17 @@
       "mcp__playwright__browser_console_messages",
       "mcp__playwright__browser_evaluate",
       "mcp__playwright__browser_resize",
-      "mcp__playwright__browser_click"
+      "mcp__playwright__browser_click",
+      "Bash(find . -not -path './.git*' -type f -exec ls -lh {})",
+      "Bash(find . -not -path './.git*' -type f -name \"*.html\" -exec ls -lh {})",
+      "Bash(sort -k2)",
+      "Bash(find . -not -path './.git*' -type f -name \"*.css\" -exec ls -lh {})",
+      "Bash(find . -not -path './.git*' -type f -name \"*.js\" -exec ls -lh {})",
+      "Bash(sed 's/.*\\\\.//')",
+      "Bash(find C:UsershpDesktopSkyCoderskiro24frontendpublicimages -type f \\\\\\(-name *.webp -o -name *.png -o -name *.jpg -o -name *.svg \\\\\\))",
+      "Bash(npm install:*)",
+      "Bash(perl:*)",
+      "Bash(awk:*)"
     ]
   }
 }

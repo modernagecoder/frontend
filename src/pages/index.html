@@ -113,24 +113,19 @@
     </script>
 
     <!-- Preconnect for performance -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://backend-modernagecoders.vercel.app">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
 
-    <!-- Preload critical CSS for faster LCP -->
-    <link rel="preload" href="/css/style.css" as="style">
-    <link rel="stylesheet" href="/css/style.css">
-    <!-- All 17 supplementary CSS files merged into one bundle for better LCP -->
-    <link rel="stylesheet" href="/css/index-bundle.css">
+    <!-- Critical CSS inlined for instant first paint -->
+    <link rel="stylesheet" href="/css/style.css?v=20260325">
+    <link rel="stylesheet" href="/css/index-bundle.css?v=20260325">
 
 </head>
 
 <body class="index-page">
     <!-- Skip link for keyboard navigation -->
     <a href="#main" class="skip-link">Skip to main content</a>
-
-    <canvas id="background-canvas" aria-hidden="true"></canvas>
 
     <!-- ============================================ -->
     <!-- NAVIGATION COMPONENT                         -->
@@ -143,7 +138,7 @@
             <div class="nav-container">
                 <a href="/" class="logo">
                     <img style="border-radius: 10px;" src="/images/logo.svg" alt="Modern Age Coders Logo"
-                        class="logo-img" fetchpriority="high">
+                        class="logo-img" width="40" height="40" fetchpriority="high">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <ul class="nav-menu" id="navMenu">
@@ -302,7 +297,6 @@
     </div>
 </div>
 <!-- END_INLINED_NAV -->
-    </div>
 
     <main id="main">
         <section class="section hero-section" style="padding-top: 5rem; padding-bottom: 3rem;">
@@ -441,7 +435,7 @@
                         <div class="course-card coding" data-course-url="kids-coding-blocks-masterclass">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/kids-coding.webp" alt="Scratch Programming Course" loading="lazy">
+                                    <img src="/images/kids-coding.webp" alt="Scratch Programming Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Kids Coding</h3>
                                 <p class="card-description">
@@ -463,7 +457,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/html-css-kids.webp" alt="Web Design for Kids Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Web Design for Kids</h3>
                                 <p class="card-description">Create your own colorful websites with HTML and CSS. Build
@@ -481,7 +475,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/python-kids.webp" alt="Python for Young Coders Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Python for kids</h3>
                                 <p class="card-description">Start your coding journey with Python! Learn to create
@@ -507,8 +501,8 @@
                     <div class="courses-grid">
                         <div class="course-card coding" data-course-url="java-programming-masterclass-for-teens">
                             <div class="card-thumbnail-container">
-                                <img src="images/java-teens.webp" alt="Java Development Course Thumbnail"
-                                    loading="lazy">
+                                <img src="/images/java-teens.webp" alt="Java Development Course Thumbnail"
+                                    width="800" height="450" loading="lazy">
                             </div>
                             <div class="card-content">
                                 <h3 class="card-title">Java Programming</h3>
@@ -532,7 +526,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/ai-ml-teens.webp" alt="AI & Machine Learning Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">AI & Machine Learning</h3>
                                 <p class="card-description">Step into the world of Artificial Intelligence and Machine
@@ -552,7 +546,7 @@
 
                         <div class="course-card coding" data-course-url="cbse-icse-computer-science-class-11-12-python-java-complete-course">
                             <div class="card-thumbnail-container">
-                                <img src="/images/ip-cs-class-11-12.webp" alt="IP & CS Class 11 12 CBSE ICSE Course" loading="lazy">
+                                <img src="/images/ip-cs-class-11-12.webp" alt="IP & CS Class 11 12 CBSE ICSE Course" width="800" height="450" loading="lazy">
                             </div>
                             <div class="card-content">
                                 <h3 class="card-title">IP & CS — Class 11 & 12</h3>
@@ -576,7 +570,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/dsa-college.webp"
-                                        alt="Advanced Algorithms & Data Structures Course" loading="lazy">
+                                        alt="Advanced Algorithms & Data Structures Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Advanced Algorithms & Data Structures</h3>
                                 <p class="card-description">Master complex algorithms and data structures essential for
@@ -596,7 +590,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/full-stack.webp" alt="Cloud Computing & DevOps Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Cloud Computing & DevOps</h3>
                                 <p class="card-description">Learn to build, deploy, and manage scalable applications on
@@ -617,7 +611,7 @@
                                 <div class="card-thumbnail-container">
                                     <img src="/images/ai-college.webp"
                                         alt="artificial intelligence complete masterclass college Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Artificial Intelligence Complete Masterclass</h3>
                                 <p class="card-description">Comprehensive AI course covering all aspects of artificial
@@ -870,7 +864,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/queen-coders.webp" alt="Girls in Tech Leadership Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Queen Coders</h3>
                                 <p class="card-description">
@@ -889,7 +883,7 @@
                         <div class="course-card coding" data-course-url="princess-coders-complete-coding-masterclass">
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
-                                    <img src="/images/princess-coders.webp" alt="Princess Coders Course" loading="lazy">
+                                    <img src="/images/princess-coders.webp" alt="Princess Coders Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Princess Coders</h3>
                                 <p class="card-description">
@@ -933,7 +927,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/elementary-maths.webp" alt="Elementary Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Elementary Mathematics</h3>
                                 <p class="card-description">Build strong foundations in numbers, operations, fractions,
@@ -952,7 +946,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.webp"
-                                        alt="Olympiad & Competition Math Course" loading="lazy">
+                                        alt="Olympiad & Competition Math Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Master advanced problem-solving techniques and prepare for
@@ -980,7 +974,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/middle-school-maths.webp" alt="Middle School Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Middle School Mathematics</h3>
                                 <p class="card-description">Master pre-algebra, ratios, proportions, geometry
@@ -999,7 +993,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.webp"
-                                        alt="Olympiad & Competition Math Course" loading="lazy">
+                                        alt="Olympiad & Competition Math Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Develop advanced mathematical reasoning and excel in AMC,
@@ -1027,7 +1021,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/high-school-maths.webp" alt="High School Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">High School Mathematics</h3>
                                 <p class="card-description">Master algebra, geometry, trigonometry, pre-calculus, and
@@ -1046,7 +1040,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/olympiad-competition-maths.webp"
-                                        alt="Olympiad & Competition Math Course" loading="lazy">
+                                        alt="Olympiad & Competition Math Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Olympiad & Competition Math</h3>
                                 <p class="card-description">Train for AIME, USAMO, IMO, and other prestigious high
@@ -1074,7 +1068,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/college-level-maths.webp" alt="College Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">College Mathematics</h3>
                                 <p class="card-description">Master advanced calculus, linear algebra, differential
@@ -1093,7 +1087,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/applied-maths.webp" alt="Applied Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Applied Mathematics</h3>
                                 <p class="card-description">Learn mathematical modeling, numerical methods,
@@ -1121,7 +1115,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/business-finance-maths.webp"
-                                        alt="Business & Finance Mathematics Course" loading="lazy">
+                                        alt="Business & Finance Mathematics Course" width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Business & Finance Mathematics</h3>
                                 <p class="card-description">Master quantitative finance, risk analysis, financial
@@ -1140,7 +1134,7 @@
                             <div class="card-content">
                                 <div class="card-thumbnail-container">
                                     <img src="/images/data-analytics-maths.webp" alt="Data Analytics Mathematics Course"
-                                        loading="lazy">
+                                        width="800" height="450" loading="lazy">
                                 </div>
                                 <h3 class="card-title">Data Analytics Mathematics</h3>
                                 <p class="card-description">Learn statistics, probability, machine learning mathematics,
@@ -1824,7 +1818,7 @@
                 <div class="projects-gallery">
                     <div class="project-card">
                         <img src="/images/projects/fresh.webp" alt="Student project screenshot" class="project-image"
-                            loading="lazy">
+                            width="1881" height="880" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-info">
                                 <h3>FreshTrack - Food Expiry Tracker</h3>
@@ -1839,7 +1833,7 @@
 
                     <div class="project-card">
                         <img src="/images/projects/baby.webp" alt="Student project screenshot" class="project-image"
-                            loading="lazy">
+                            width="1096" height="850" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-info">
                                 <h3>Baby Website</h3>
@@ -1853,7 +1847,7 @@
                     </div>
                     <div class="project-card">
                         <img src="/images/projects/wordcounter.webp" alt="Student project screenshot"
-                            class="project-image" loading="lazy">
+                            class="project-image" width="1297" height="608" loading="lazy">
                         <div class="project-overlay">
                             <div class="project-info">
                                 <h3>Word Counter</h3>
@@ -1891,15 +1885,15 @@
                     </button>
                     <div class="certificate-carousel">
                         <div class="certificate-track">
-                            <img src="images/somraj-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" loading="lazy">
-                            <img src="images/paarth-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" loading="lazy">
-                            <img src="images/vanshika-certificate.webp"
+                            <img src="/images/somraj-certificate.webp" alt="Modern Age Coders Certificate of Completion"
+                                class="certificate-image" width="500" height="500" loading="lazy">
+                            <img src="/images/paarth-certificate.webp" alt="Modern Age Coders Certificate of Completion"
+                                class="certificate-image" width="500" height="500" loading="lazy">
+                            <img src="/images/vanshika-certificate.webp"
                                 alt="Modern Age Coders Certificate of Completion" class="certificate-image"
-                                loading="lazy">
-                            <img src="images/pratham-certificate.webp" alt="Modern Age Coders Certificate of Completion"
-                                class="certificate-image" loading="lazy">
+                                width="500" height="500" loading="lazy">
+                            <img src="/images/pratham-certificate.webp" alt="Modern Age Coders Certificate of Completion"
+                                class="certificate-image" width="500" height="500" loading="lazy">
 
                         </div>
                     </div>
@@ -1938,7 +1932,7 @@
                                 <div class="testimonial-header">
                                     <div class="parent-avatar">
                                         <img src="https://lh3.googleusercontent.com/a-/ALV-UjUD7G6yVNHCdcvCeT_coO6k0Vu49jzqfu5u62ULnKN7itAellGhJg=s45-c-rp-mo-ba2-br100"
-                                            alt="Parent avatar" loading="lazy">
+                                            alt="Parent avatar" width="45" height="45" loading="lazy">
                                     </div>
                                     <div class="testimonial-info">
                                         <p class="name">Sonam Oswal</p>
@@ -1973,7 +1967,7 @@
                                 <div class="testimonial-header">
                                     <div class="parent-avatar">
                                         <img src="https://lh3.googleusercontent.com/a/ACg8ocJIAjSLzhCVztgwnB-2n5ToRxFsWq9iqBTHGgbC_Sl8gGRPEg=s45-c-rp-mo-br100"
-                                            alt="Parent avatar" loading="lazy">
+                                            alt="Parent avatar" width="45" height="45" loading="lazy">
                                     </div>
                                     <div class="testimonial-info">
                                         <p class="name">Shradha Saraf</p>
@@ -2005,7 +1999,7 @@
                                 <div class="testimonial-header">
                                     <div class="parent-avatar">
                                         <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80"
-                                            alt="Parent avatar" loading="lazy">
+                                            alt="Parent avatar" width="100" height="100" loading="lazy">
                                     </div>
                                     <div class="testimonial-info">
                                         <p class="name">Shewta Singh</p>
@@ -2036,7 +2030,7 @@
                                 <div class="testimonial-header">
                                     <div class="parent-avatar">
                                         <img src="https://lh3.googleusercontent.com/a-/ALV-UjXVupQR3nkNh-64rcPb-gn0YgHHfyn7-ozv34FXUhlGJz1npbN1qQ=s45-c-rp-mo-br100"
-                                            alt="Parent avatar" loading="lazy">
+                                            alt="Parent avatar" width="45" height="45" loading="lazy">
                                     </div>
                                     <div class="testimonial-info">
                                         <p class="name">Ritu Kedia</p>
@@ -2071,7 +2065,7 @@
                             <div class="testimonial-content">
                                 <div class="parent-avatar"><img
                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaoKyOYGgVczTs9zBDEJX8d2YyPcCzA5RPqg&s"
-                                        alt="Parent avatar" loading="lazy"></div>
+                                        alt="Parent avatar" width="45" height="45" loading="lazy"></div>
                                 <blockquote>Modern Age Coder have wonderful teachers who teaches in a clear, easy and
                                     practical way. The teacher boosts students’ confidence, keeps them updated with
                                     technology, and inspires them to learn without hesitation. The teachers are very
@@ -2088,7 +2082,7 @@
                             <div class="testimonial-content">
                                 <div class="parent-avatar"><img
                                         src="https://lh3.googleusercontent.com/a-/ALV-UjUSgVrKO956eetsvbHMVqYFRmbuPALsy0QnWcKCXhL6MtZMhP0Xhw=s45-c-rp-mo-br100"
-                                        alt="Parent avatar" loading="lazy"></div>
+                                        alt="Parent avatar" width="45" height="45" loading="lazy"></div>
                                 <blockquote>The one step solution for my son . Modern age coders make learning coding so
                                     simple that kids love it. It focus on specific areas like content, instruction,
                                     engagement, and the overall learning experience. Teachers make it so simple
@@ -2107,7 +2101,7 @@
                             <div class="testimonial-content">
                                 <div class="parent-avatar"><img
                                         src="https://lh3.googleusercontent.com/a/ACg8ocJczvg0G06Y5Kmlxn9zciIQd7BSr85P9tfjhf66BUNonjABPA=s45-c-rp-mo-br100"
-                                        alt="Parent avatar" loading="lazy"></div>
+                                        alt="Parent avatar" width="45" height="45" loading="lazy"></div>
                                 <blockquote>I'm truly grateful for my experience at Modern Age Coders! The teaching
                                     approach of my legendary teachers - Shivam Sir, Mihir Sir and Sonu Sir - is
                                     extraordinary, that establishes a personal connection with students. They were not
@@ -2126,7 +2120,7 @@
                             <div class="testimonial-content">
                                 <div class="parent-avatar"><img
                                         src="https://lh3.googleusercontent.com/a-/ALV-UjXY7JB9OrMVWd-PSk1NIwmd-ibF7Zsrj71eUsOJdt7Cu3pRv2lv=w90-h90-p-rp-mo-br100"
-                                        alt="Parent avatar" loading="lazy"></div>
+                                        alt="Parent avatar" width="90" height="90" loading="lazy"></div>
                                 <blockquote>Modern Age Coders has been a game-changer for me! I struggled to grasp IT
                                     concepts and coding before joining, but their classes transformed everything. I'm
                                     now the topper in my class and can confidently write complex programs with ease. The
@@ -3212,113 +3206,6 @@
         }
 
         document.addEventListener('DOMContentLoaded', function () {
-            // --- Optimized Background Canvas Animation ---
-            // Fewer particles, pauses off-screen, throttled resize
-            const canvas = document.getElementById('background-canvas');
-            if (!canvas) return;
-            const ctx = canvas.getContext('2d');
-            if (!ctx) return;
-            let particles = [];
-            let canvasVisible = true;
-            let animationRunning = false;
-            let rafId = null;
-            const mathSymbols = ['∫', '∑', 'π', '∞', '√', 'θ', 'λ', 'Δ', '∂', 'φ'];
-            const codeSymbols = ['{', '}', '</>', 'const', '=>', '()', '[]', 'if', 'for', ';', '//'];
-            const allSymbols = mathSymbols.concat(codeSymbols);
-
-            // Pause when off-screen or tab hidden
-            const canvasObserver = new IntersectionObserver(function (entries) {
-                canvasVisible = entries[0].isIntersecting;
-                if (canvasVisible && !animationRunning) {
-                    animationRunning = true;
-                    rafId = requestAnimationFrame(animate);
-                }
-            }, { threshold: 0 });
-            canvasObserver.observe(canvas);
-
-            document.addEventListener('visibilitychange', function () {
-                if (document.hidden && rafId) {
-                    cancelAnimationFrame(rafId);
-                    animationRunning = false;
-                } else if (!document.hidden && canvasVisible && !animationRunning) {
-                    animationRunning = true;
-                    rafId = requestAnimationFrame(animate);
-                }
-            });
-
-            function resizeCanvas() {
-                canvas.width = window.innerWidth;
-                canvas.height = window.innerHeight;
-            }
-
-            function createParticles() {
-                particles = [];
-                // Reduced: ~60% fewer particles for performance
-                var count = Math.min(Math.floor((canvas.width * canvas.height) / 12000), 80);
-                for (var i = 0; i < count; i++) {
-                    particles.push({
-                        x: Math.random() * canvas.width,
-                        y: Math.random() * canvas.height,
-                        char: allSymbols[Math.floor(Math.random() * allSymbols.length)],
-                        speed: 0.2 + Math.random() * 0.5,
-                        size: 12 + Math.random() * 10,
-                        opacity: 0.08 + Math.random() * 0.2,
-                        rotation: Math.random() * Math.PI * 2,
-                        rotationSpeed: (Math.random() - 0.5) * 0.015,
-                        isMath: Math.random() > 0.5
-                    });
-                }
-            }
-
-            function animate() {
-                if (!canvasVisible || document.hidden) {
-                    animationRunning = false;
-                    return;
-                }
-
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-                for (var i = 0; i < particles.length; i++) {
-                    var p = particles[i];
-                    p.y -= p.speed;
-                    p.rotation += p.rotationSpeed;
-
-                    if (p.y < -30) {
-                        p.y = canvas.height + 30;
-                        p.x = Math.random() * canvas.width;
-                    }
-
-                    ctx.save();
-                    ctx.translate(p.x, p.y);
-                    ctx.rotate(p.rotation);
-                    ctx.font = p.size + 'px monospace';
-                    ctx.fillStyle = p.isMath
-                        ? 'rgba(255, 215, 0, ' + p.opacity + ')'
-                        : 'rgba(168, 85, 247, ' + p.opacity + ')';
-                    ctx.fillText(p.char, 0, 0);
-                    ctx.restore();
-                }
-
-                rafId = requestAnimationFrame(animate);
-            }
-
-            var resizeTimer;
-            window.addEventListener('resize', function () {
-                clearTimeout(resizeTimer);
-                resizeTimer = setTimeout(function () {
-                    resizeCanvas();
-                    createParticles();
-                }, 200);
-            });
-
-            resizeCanvas();
-            createParticles();
-            animationRunning = true;
-            rafId = requestAnimationFrame(animate);
-
-            // --- Mobile Menu Script ---
-            // --- Mobile Menu Script ---
-            // Mobile menu and dropdown handling is managed by /js/navigation.js
 
             // --- FAQ Accordion Script with Smooth Animation ---
             const faqItems = document.querySelectorAll('.faq-item');
@@ -3355,7 +3242,7 @@
             document.addEventListener('componentsLoaded', function () {
                 const navbar = document.querySelector('.navbar');
                 if (!navbar) {
-                    console.warn('Navbar not found for scroll effect');
+                    if (location.hostname === 'localhost') console.warn('Navbar not found for scroll effect');
                     return;
                 }
 
@@ -3422,7 +3309,6 @@
             };
 
             const API_BASE_URL = API_CONFIG.getBaseURL();
-            console.log('🔗 API Base URL:', API_BASE_URL);
 
             // ========================================
             // TRY CODING FORM - VALIDATION & SUBMISSION
@@ -3493,16 +3379,14 @@
             function showLoading(isLoading) {
                 const button = document.querySelector('.submit-button');
                 if (!button) {
-                    console.error('❌ Submit button not found');
-                    return;  // ✅ Safely exit if button not found
+                    return;
                 }
 
                 const buttonText = button.querySelector('.button-text');
                 const buttonLoader = button.querySelector('.button-loader');
 
                 if (!buttonText || !buttonLoader) {
-                    console.error('❌ Button elements not found');
-                    return;  // ✅ Safely exit if elements not found
+                    return;
                 }
 
                 if (isLoading) {
@@ -3607,7 +3491,6 @@
                     try {
                         // Send to backend API
                         const backendUrl = API_BASE_URL + '/api/contact/submit';
-                        console.log('📤 Sending to:', backendUrl);
 
                         const response = await fetch(backendUrl, {
                             method: 'POST',
@@ -3624,17 +3507,16 @@
                             showFeedback('success', 'Your message has been sent successfully! We\'ll get back to you soon.');
                             tryCodeForm.reset();
 
-                            // Log success
-                            console.log('✅ Contact form submitted successfully:', data.contactId);
+                            // Success
                         } else {
                             // Server returned an error
                             showFeedback('error', data.message || data.error || 'Something went wrong. Please try again.');
-                            console.error('❌ Server error:', data);
+                            if (location.hostname === 'localhost') console.error('Server error:', data);
                         }
                     } catch (error) {
                         // Network error
                         showFeedback('error', 'Network error. Please check your connection and try again.');
-                        console.error('❌ Network error:', error);
+                        if (location.hostname === 'localhost') console.error('Network error:', error);
                     } finally {
                         // Hide loading state
                         showLoading(false);
@@ -3919,9 +3801,10 @@
     <!-- WhatsApp button moved to footer component for all pages -->
 
     <!-- Load Authentication JavaScript -->
-    <script src="/js/auth.js" defer></script>
+    <script src="/js/auth.js?v=20260325" defer></script>
 
-    <script src="/js/mainbundle.js?v=20260130" defer></script>
+    <script src="/js/mainbundle.js?v=20260325" defer></script>
+    <script src="/js/corporate-training-form.js?v=20260325" defer></script>
 
     <!-- Load Testimonials Carousel JavaScript -->
     <!-- <script src="/js/testimonials-carousel.js"></script> -->
@@ -3940,9 +3823,6 @@
     <!-- Load Tab Accessibility JavaScript -->
     <!-- <script src="/js/tab-accessibility.js"></script> -->
 
-    <!-- Corporate Training Form Handler -->
-    <script src="/js/corporate-training-form.js" defer></script>
-
     <!-- ====== GOOGLE MAP SECTION ====== -->
 
     <!-- ============================================ -->
@@ -3955,7 +3835,7 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <a href="/" class="logo">
-                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" loading="lazy">
+                    <img src="/images/logo.svg" alt="Modern Age Coders Logo" class="logo-img" width="40" height="40" loading="lazy">
                     <span class="logo-text">Modern Age Coders</span>
                 </a>
                 <p class="footer-tagline">Maths + Code for Ages 6 to 65 — Learn from Anywhere in the World.</p>
@@ -4165,6 +4045,5 @@
         });
     </script>
 </body>
-<!-- test -->
 
 </html>

@@ -1194,8 +1194,7 @@ table {
     .navbar,
     .mobile-menu-btn,
     .cta-button,
-    .card-button,
-    #background-canvas {
+    .card-button {
         display: none !important;
     }
 
@@ -5429,20 +5428,6 @@ body.index-page main .courses-grid .course-card .card-thumbnail-container img,
     opacity: 1;
 }
 
-@keyframes fadeInUp {
-
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-}
-
 @keyframes slideIn {
 
     from {
@@ -6010,20 +5995,6 @@ body.index-page main .courses-grid .course-card .card-thumbnail-container img,
 .cta-button span {
     position: relative;
     z-index: 1;
-}
-
-@keyframes fadeInUp {
-
-    from {
-        opacity: 0;
-        transform: translateY(40px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
 }
 
 @media (max-width: 1024px) {

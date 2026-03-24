@@ -14,14 +14,17 @@
     "validate:viewport": "node scripts/viewport-validator.js",
     "validate:headings": "node scripts/validate-heading-hierarchy.js",
     "test:performance": "node scripts/simple-performance-test.js",
-    "build:inline": "node scripts/inline-components.js"
+    "build:inline": "node scripts/inline-components.js",
+    "minify": "node scripts/minify.js"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
+    "clean-css": "^5.3.3",
     "dotenv": "^16.3.1",
     "firebase-admin": "^11.11.0",
     "jsdom": "^23.0.0",
-    "sharp": "^0.34.5"
+    "sharp": "^0.34.5",
+    "terser": "^5.46.1"
   },
   "keywords": [
     "education",

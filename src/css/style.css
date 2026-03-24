@@ -984,16 +984,6 @@ img {
     top: 6px;
 }
 
-#background-canvas {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -3;
-    opacity: 0.8;
-}
-
 body::before {
     content: '';
     position: fixed;
@@ -6810,30 +6800,6 @@ body.course-detail-page main {
     flex-shrink: 0;
 }
 
-@keyframes shake {
-
-    0%,
-    100% {
-        transform: translateX(0);
-    }
-
-    10%,
-    30%,
-    50%,
-    70%,
-    90% {
-        transform: translateX(-5px);
-    }
-
-    20%,
-    40%,
-    60%,
-    80% {
-        transform: translateX(5px);
-    }
-
-}
-
 .auth-submit-btn {
     width: 100%;
     padding: var(--spacing-md) var(--spacing-xl);
@@ -6965,20 +6931,6 @@ body.course-detail-page main {
 
 body.modal-open {
     overflow: hidden;
-}
-
-@keyframes slideInRight {
-
-    from {
-        transform: translateX(400px);
-        opacity: 0;
-    }
-
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
 }
 
 @keyframes slideOutRight {
