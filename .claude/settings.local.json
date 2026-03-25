@@ -69,7 +69,8 @@
       "Bash(find C:UsershpDesktopSkyCoderskiro24frontendpublicimages -type f \\\\\\(-name *.webp -o -name *.png -o -name *.jpg -o -name *.svg \\\\\\))",
       "Bash(npm install:*)",
       "Bash(perl:*)",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "Bash(find C:/Users/hp/Desktop/SkyCoders/kiro24/frontend -path */courses/* -name *.html)"
     ]
   }
 }
