@@ -1,66 +1,25 @@
-**Volume:** 10K–50K | **Competition:** High | **Intent:** Commercial
+La Martiniere for Boys
+La Martiniere for Girls
 
-**Target Pages:**
-- **Primary:** `/courses/kids.html`
-- **Secondary:** `index.html`, `/best-coding-classes-online.html`
+i want you to make two differnt pages very high seo rich content in google 
+write something seo rich content without claiming official parrtner if any serach this school name or coding classes or maths classes for particular school our page will show and improve sales
+take inspiraiton from summer coding camp or best coding class camp very clean very cta design 
+add our coursess too 
 
-**Where to Insert:**
+ very detialed content study about the school they are kolkata based school tell them we offer coding to all ages specific age different age differne lang batches personalized everyhigng
 
-| Location | Current | Change To |
-|----------|---------|-----------|
-| `<title>` of kids.html | "Coding Classes for Kids (Ages 6-12)" | "Online Coding Classes for Kids Ages 6-12 \| Modern Age Coders" |
-| `<meta name="description">` | (current description) | "Enroll your child in the best online coding classes for kids aged 6-12. Learn Scratch, Python & Web Dev with live 1-on-1 instructors. Book a free demo today!" |
-| `<meta name="keywords">` | (current keywords) | Add: "online coding classes for kids, coding for kids online, kids coding classes, live coding classes for children" |
-| `<h1>` of kids.html | (current heading) | "Online Coding Classes for Kids — Ages 6 to 12" |
-| Body paragraph (first 100 words) | (current intro) | Add opening paragraph: "Our online coding classes for kids introduce children aged 6–12 to the world of programming through Scratch, Python, and web development. With live 1-on-1 sessions, project-based learning, and experienced instructors, your child builds real coding skills from home." |
-| Image alt tags | (generic alts) | "kid learning coding in online class", "child programming on laptop" |
-| Internal link from index.html | (current link text) | Change anchor text to: "Online Coding Classes for Kids →" |
-| URL slug | `/courses/kids.html` | Consider: `/online-coding-classes-for-kids.html` (add redirect from old URL) |
+Target the school name + intent keyword: coding classes for [School Name] students, Python course near [School Name], after school coding [School Name] Kolkata
+Each page should feel genuinely written for that school's community — mention the area, the academic pressure that school kids face, relevant board (ICSE/CBSE), and how your curriculum fits
+Add a parent testimonial or student result from that school's area if you have one — even one line builds trust fast
+Don't just duplicate pages with a name swap. Google penalizes thin content. Each page needs at least 600–800 words of unique, useful content
+Internal link all these pages back to your main site and to each other
 
-**Schema Markup to Add:**
-```json
-{
-  "@type": "Course",
-  "name": "Online Coding Classes for Kids",
-  "description": "Live online coding classes for kids aged 6-12. Learn Scratch, Python, Web Development with 1-on-1 instructors.",
-  "provider": { "@type": "Organization", "name": "Modern Age Coders" },
-  "audience": { "@type": "EducationalAudience", "educationalRole": "student" },
-  "educationalLevel": "Beginner",
-  "inLanguage": "en",
-  "offers": { "@type": "Offer", "price": "1499", "priceCurrency": "INR" }
-}
-```
+good keywords so taht anayone search my coding and maths class will show up 
 
----
+Don't make any claim implying you are affiliated with, endorsed by, or partnered with the school — that's the only legal/reputational risk
+Phrases like "official coding partner of DPS" are off-limits. Phrases like "ideal for DPS students preparing for board exams" are completely fine
 
-### KEYWORD 2: `coding for kids`
-
-**Volume:** 50K+ | **Competition:** High | **Intent:** Info/Commercial
-
-**Target Pages:**
-- **Primary:** `/courses/kids.html`
-- **Secondary:** Blog posts (existing: "Coding for Kids - Complete Guide", "Coding for Kids & Parents")
-
-**Where to Insert:**
-
-| Location | Action |
-|----------|--------|
-| Blog post title | Already exists: "Coding for Kids - Complete Guide" — ensure H1 matches exactly: "Coding for Kids: The Complete Guide for Parents in 2026" |
-| Blog meta description | "Everything parents need to know about coding for kids. Age-wise roadmap, best languages, course recommendations, and how to get started. Updated for 2026." |
-| kids.html H2 subheading | Add H2: "Why Coding for Kids Matters in 2026" with 150-word paragraph |
-| Homepage coding curriculum tab | In the "Kids" tab, include phrase "coding for kids" in the first sentence |
-| Alt tags on kids page | "coding for kids - child building a game in Scratch" |
-| Internal links | Link from every blog post mentioning "coding for kids" to `/courses/kids.html` |
-| FAQ section (new) | Add FAQ to kids.html: "What age should kids start coding?", "Is coding for kids worth it?", "What is the best coding language for kids?" |
-
-**New Content to Write (on kids.html):**
-```html
-<section class="seo-content">
-  <h2>Why Coding for Kids Matters in 2026</h2>
-  <p>Coding for kids is no longer a luxury — it's a foundational skill. India's NEP 2020
-  made coding part of the school curriculum from Class 6, and global demand for tech skills
-  is growing at 18% annually. At Modern Age Coders, our coding for kids program gives
-  children aged 6–12 the tools to think logically, solve problems creatively, and build
-  real projects they can be proud of.</p>
-</section>
-```
+Parents don't just search "coding classes Kolkata" — they search "coding classes for DPS students" or "Python class near South Point" because they want something familiar and close
+These long-tail, school-specific keywords have very low competition — no big edtech company is targeting them
+Each page you create is an additional entry point into your funnel, and with enough pages, your domain authority compounds over time
+It creates a perception of local credibility — parents feel you understand their child's specific environment

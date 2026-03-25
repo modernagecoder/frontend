@@ -13,517 +13,61 @@
         gtag('config', 'AW-16910316353');
     </script>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-
-    <title>Beat The Babu – The Fastest 90-Second Math Challenge Game | ModernAgeCoders</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy - Modern Age Coders</title>
     <meta name="description"
-        content="Beat The Babu is a fast, fun, and family-friendly 90-second mental math challenge game. Test your speed and accuracy, solve quick questions, and try to beat the clock. Built by ModernAgeCoders for kids, teens, and parents.">
+        content="Read about modern age coders refund policy. Understand the guidelines and terms for course and product refunds.">
+    <meta name="keywords" content="refund policy, cancellation, return, money back">
+    <meta name="author" content="Modern Age Coders">
+    <link rel="canonical" href="https://learn.modernagecoders.com/refund">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/refund" />
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
 
-    <meta name="keywords"
-        content="beat the babu, 90 second math game, smart math 90, speed math challenge, mental math for kids, fast math quiz, modern age coders, learn.modernagecoders.com">
-
-    <meta name="theme-color" content="#0f172a">
-
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Beat The Babu – The Fastest 90-Second Math Challenge Game">
-    <meta property="og:description"
-        content="Try Beat The Babu – a fun and addictive 90-second math challenge game by ModernAgeCoders. Improve speed, accuracy, and confidence.">
-    <meta property="og:url" content="https://learn.modernagecoders.com/beat-the-babu/">
-    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-modern-age-coders.png">
-
+    <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "EducationalApplication",
-      "name": "Beat The Babu – The Fastest 90-Second Math Challenge Game",
-      "description": "A fun and competitive 90-second mental math game built by ModernAgeCoders to help students and families improve calculation speed and confidence.",
-      "brand": {
-        "@type": "Brand",
-        "name": "ModernAgeCoders"
-      },
-      "url": "https://learn.modernagecoders.com/beat-the-babu/",
-      "creator": {
-        "@type": "Organization",
-        "name": "ModernAgeCoders"
-      },
-      "applicationCategory": "EducationalApplication",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "@type": "WebPage",
+      "name": "Refund Policy - Modern Age Coders",
+      "description": "Read about modern age coders refund policy. Understand the guidelines and terms for course and product refunds.",
+      "url": "https://learn.modernagecoders.com/refund"
     }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=JetBrains+Mono:wght@700&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-
-    <!-- Main CSS for navigation and footer -->
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/responsive.css">
-    <link rel="stylesheet" href="/src/css/mobile-nav-fix.css">
-    <link rel="stylesheet" href="/src/css/mobile-nav-final-fix.css">
-
-    <style>
-        /* Ensure navigation and footer display properly */
-        header,
-        nav,
-        footer {
-            display: block !important;
-            position: relative !important;
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://learn.modernagecoders.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Refund Policy",
+          "item": "https://learn.modernagecoders.com/refund"
         }
+      ]
+    }
+    </script>
 
-        header {
-            position: fixed !important;
-            top: 0 !important;
-            left: 0 !important;
-            right: 0 !important;
-            z-index: 1000 !important;
-            background: rgba(2, 6, 23, 0.95) !important;
-            backdrop-filter: blur(10px) !important;
-        }
-
-        :root {
-            --bg-dark: #020617;
-            --card-bg: rgba(15, 23, 42, 0.6);
-            --primary: #3b82f6;
-            --primary-glow: rgba(59, 130, 246, 0.5);
-            --accent: #ef4444;
-            /* Red */
-            --success: #22c55e;
-            /* Green */
-            --gold: #eab308;
-            --text: #f8fafc;
-            --font-ui: 'Inter', sans-serif;
-            --font-num: 'JetBrains Mono', monospace;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        body {
-            background-color: var(--bg-dark);
-            background-image:
-                radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
-                radial-gradient(at 50% 0%, hsla(225, 39%, 20%, 1) 0, transparent 50%),
-                radial-gradient(at 100% 100%, hsla(339, 49%, 20%, 1) 0, transparent 50%);
-            color: var(--text);
-            font-family: var(--font-ui);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            overflow-x: hidden;
-            transition: background-color 0.2s;
-            padding-top: 80px;
-            /* Space for navigation */
-            padding-bottom: 60px;
-            /* Space for footer */
-        }
-
-        /* Game Feel Classes */
-        .flash-green {
-            animation: flashSuccess 0.3s ease-out;
-        }
-
-        .flash-red {
-            animation: flashError 0.3s ease-out;
-        }
-
-        @keyframes flashSuccess {
-            0% {
-                background-color: rgba(34, 197, 94, 0.2);
-            }
-
-            100% {
-                background-color: var(--bg-dark);
-            }
-        }
-
-        @keyframes flashError {
-            0% {
-                background-color: rgba(239, 68, 68, 0.2);
-            }
-
-            100% {
-                background-color: var(--bg-dark);
-            }
-        }
-
-        /* Floating Animations */
-        .float-text {
-            position: absolute;
-            font-weight: 900;
-            font-size: 1.8rem;
-            pointer-events: none;
-            animation: floatUp 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-            z-index: 100;
-            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-        }
-
-        .float-plus {
-            color: var(--success);
-        }
-
-        .float-minus {
-            color: var(--accent);
-        }
-
-        .float-combo {
-            color: var(--gold);
-            font-size: 2.5rem;
-        }
-
-        @keyframes floatUp {
-            0% {
-                opacity: 1;
-                transform: translateY(0) scale(0.5);
-            }
-
-            50% {
-                transform: translateY(-20px) scale(1.2);
-            }
-
-            100% {
-                opacity: 0;
-                transform: translateY(-50px) scale(1);
-            }
-        }
-
-        /* Main Card */
-        .game-card {
-            width: 95%;
-            max-width: 400px;
-            background: var(--card-bg);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            border-radius: 30px;
-            padding: 30px 24px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.2s;
-        }
-
-        /* HUD */
-        .hud {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            margin-bottom: 2rem;
-            font-family: var(--font-num);
-            padding-bottom: 15px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-        }
-
-        .hud-box {
-            text-align: center;
-        }
-
-        .hud-label {
-            font-size: 0.7rem;
-            color: #64748b;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-family: var(--font-ui);
-            font-weight: 700;
-            margin-bottom: 4px;
-        }
-
-        .hud-val {
-            font-size: 2rem;
-            font-weight: 700;
-            line-height: 1;
-        }
-
-        /* Combo Counter */
-        .streak-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            opacity: 0.5;
-            transition: opacity 0.2s;
-        }
-
-        .streak-container.hot {
-            opacity: 1;
-        }
-
-        .streak-flame {
-            font-size: 1.5rem;
-            filter: drop-shadow(0 0 10px orange);
-        }
-
-        #timer.low {
-            color: var(--accent);
-            animation: pulse 0.5s infinite;
-        }
-
-        /* Screens */
-        .screen {
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            animation: fadeIn 0.4s ease-out;
-        }
-
-        .screen.active {
-            display: flex;
-        }
-
-        /* Question Area */
-        .q-area {
-            margin: 1rem 0 2rem 0;
-            text-align: center;
-        }
-
-        .q-badge {
-            display: inline-block;
-            padding: 4px 12px;
-            border-radius: 20px;
-            background: rgba(255, 255, 255, 0.05);
-            color: #94a3b8;
-            font-size: 0.75rem;
-            font-weight: 700;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
-
-        .q-text {
-            font-size: 3.8rem;
-            font-weight: 800;
-            font-family: var(--font-num);
-            letter-spacing: -2px;
-            line-height: 1.1;
-        }
-
-        /* Input */
-        .input-group {
-            width: 100%;
-            position: relative;
-            margin-bottom: 1rem;
-        }
-
-        input[type="tel"] {
-            width: 100%;
-            background: rgba(0, 0, 0, 0.3);
-            border: 2px solid rgba(255, 255, 255, 0.1);
-            border-radius: 20px;
-            padding: 1rem;
-            font-size: 2.2rem;
-            text-align: center;
-            color: white;
-            font-family: var(--font-num);
-            outline: none;
-            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-
-        input:focus {
-            border-color: var(--primary);
-            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.15), inset 0 0 20px rgba(59, 130, 246, 0.1);
-        }
-
-        input.error {
-            border-color: var(--accent);
-            color: var(--accent);
-            box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.15);
-            animation: shake 0.3s cubic-bezier(.36, .07, .19, .97) both;
-        }
-
-        /* Buttons */
-        .btn {
-            width: 100%;
-            padding: 1.1rem;
-            border-radius: 16px;
-            border: none;
-            font-size: 1rem;
-            font-weight: 800;
-            cursor: pointer;
-            transition: transform 0.1s, box-shadow 0.2s;
-            font-family: var(--font-ui);
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-        }
-
-        .btn:active {
-            transform: scale(0.97);
-        }
-
-        .btn-primary {
-            background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-            color: white;
-            box-shadow: 0 10px 20px -5px rgba(37, 99, 235, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-        }
-
-        .btn-primary:hover {
-            box-shadow: 0 15px 25px -5px rgba(37, 99, 235, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.2);
-        }
-
-        .btn-ghost {
-            background: transparent;
-            color: #64748b;
-            margin-top: 10px;
-            font-size: 0.85rem;
-        }
-
-        .btn-ghost:hover {
-            color: #94a3b8;
-        }
-
-        /* Leaderboard */
-        .lb-container {
-            width: 100%;
-            margin-top: 25px;
-            background: rgba(0, 0, 0, 0.2);
-            border-radius: 16px;
-            padding: 16px;
-        }
-
-        .lb-row {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-            font-size: 0.95rem;
-            font-family: var(--font-num);
-        }
-
-        .lb-row:last-child {
-            border-bottom: none;
-        }
-
-        .lb-row:nth-child(1) {
-            color: var(--gold);
-            font-weight: 800;
-        }
-
-        .lb-row:nth-child(2) {
-            color: #e2e8f0;
-        }
-
-        .lb-row:nth-child(3) {
-            color: #cbd5e1;
-        }
-
-        @keyframes pulse {
-            0% {
-                opacity: 1;
-            }
-
-            50% {
-                opacity: 0.5;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @keyframes shake {
-
-            10%,
-            90% {
-                transform: translate3d(-1px, 0, 0);
-            }
-
-            20%,
-            80% {
-                transform: translate3d(2px, 0, 0);
-            }
-
-            30%,
-            50%,
-            70% {
-                transform: translate3d(-4px, 0, 0);
-            }
-
-            40%,
-            60% {
-                transform: translate3d(4px, 0, 0);
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Save Input Styling */
-        #name-input {
-            width: 100%;
-            padding: 1rem;
-            border-radius: 16px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: white;
-            font-weight: 700;
-            text-align: center;
-            margin-bottom: 1rem;
-            font-family: var(--font-ui);
-            outline: none;
-        }
-
-        #name-input:focus {
-            border-color: var(--primary);
-        }
-    </style>
-    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/beat-the-babu" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/mobile-nav-fix.css">
+    <link rel="stylesheet" href="/css/keyboard-navigation.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="/css/premium-legal.css">
 </head>
 
 <body>
-    <script>
-        // Secure API Configuration
-        // All Firebase operations now go through a secure backend API
-        const API_URL = '/.netlify/functions/game-api'; // Netlify Functions endpoint
+    <!-- Skip link for keyboard navigation -->
+    <a href="#main" class="skip-link">Skip to main content</a>
 
-        // API Helper Functions
-        window.gameAPI = {
-            async getLeaderboard() {
-                try {
-                    const response = await fetch(API_URL);
-                    const data = await response.json();
-                    return data.success ? data.scores : [];
-                } catch (error) {
-                    console.error('Failed to fetch leaderboard:', error);
-                    return [];
-                }
-            },
-
-            async submitScore(name, score, timeSpent) {
-                try {
-                    const response = await fetch(API_URL, {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ name, score, timeSpent })
-                    });
-                    const data = await response.json();
-                    return data;
-                } catch (error) {
-                    console.error('Failed to submit score:', error);
-                    return { success: false, error: 'Network error' };
-                }
-            }
-        };
-    </script>
+    <canvas id="background-canvas"></canvas>
     <!-- ============================================ -->
     <!-- NAVIGATION COMPONENT                         -->
     <!-- Loaded from: /components/nav.html            -->
@@ -731,339 +275,43 @@
     </div>
 </div>
 <!-- END_INLINED_NAV -->
-    <br>
-    <div class="game-card" id="card-area">
-
-        <div class="hud">
-            <div class="hud-box">
-                <div class="hud-label">Time</div>
-                <div class="hud-val" id="timer-display">90</div>
-            </div>
-
-            <div class="streak-container" id="streak-box">
-                <div class="streak-flame">🔥</div>
-                <div class="hud-label" style="margin-bottom:0;">Combo</div>
-                <div style="font-weight:800; color:var(--gold);" id="streak-display">x0</div>
-            </div>
-
-            <div class="hud-box">
-                <div class="hud-label">Score</div>
-                <div class="hud-val" id="score-display">0</div>
-            </div>
-        </div>
-
-        <div id="screen-start" class="screen active">
-            <div style="margin-bottom: 2rem; text-align: center;">
-                <h1
-                    style="font-size: 2.5rem; font-weight: 900; line-height: 1; margin-bottom: 0.5rem; background: -webkit-linear-gradient(45deg, #fff, #94a3b8); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
-                    Beat the Babu</h1>
-                <p style="color: #64748b; font-weight: 600;">Speed & Accuracy Challenge</p>
-            </div>
-
-            <button class="btn btn-primary" onclick="startGame()">START GAME</button>
-
-            <div class="lb-container">
-                <div class="hud-label"
-                    style="text-align: left; margin-bottom:12px; display:flex; justify-content:space-between;">
-                    <span>Global Legends</span>
-                    <span>🏆</span>
-                </div>
-                <div id="lb-list">
-                    <div style="text-align:center; color:#64748b; padding:10px;">Connecting...</div>
-                </div>
-            </div>
-        </div>
-
-        <div id="screen-game" class="screen">
-            <div class="q-area">
-                <span class="q-badge" id="q-type">ADDITION</span>
-                <div class="q-text" id="q-text">0 + 0</div>
-            </div>
-
-            <div class="input-group">
-                <input type="tel" id="answer-input" placeholder="?" autocomplete="off">
-            </div>
-
-            <button class="btn btn-ghost" onclick="skipQuestion()">Skip (-5 Pts & Reset Combo)</button>
-        </div>
-
-        <div id="screen-result" class="screen">
-            <h2 style="margin-bottom: 0.5rem; color:#94a3b8;">Time's Up!</h2>
-            <div class="hud-val"
-                style="font-size: 4rem; margin-bottom: 2rem; color: var(--primary); text-shadow: 0 0 30px rgba(59, 130, 246, 0.3);"
-                id="final-score">0</div>
-
-            <div id="save-box" style="width:100%; display:none; animation: fadeIn 0.5s forwards;">
-                <p style="text-align: center; margin-bottom: 10px; color: var(--success); font-weight: 700;">🎉 NEW HIGH
-                    SCORE!</p>
-                <input type="text" id="name-input" placeholder="ENTER YOUR NAME" maxlength="12">
-                <button class="btn btn-primary" onclick="saveScore()">SAVE TO LEADERBOARD</button>
-            </div>
-
-            <button class="btn btn-ghost" onclick="location.reload()" style="margin-top: 20px;">Try Again</button>
-        </div>
-
     </div>
+    <main id="main">
+        <div class="legal-content-wrapper">
+            <h1 class="legal-title">Refund Policy</h1>
+            <div class="legal-box">
+                <p><strong>Last Updated:</strong> February 2026</p>
+                <h2>1. General Refund Policy</h2>
+                <p>At Modern Age Coders, we strive to ensure absolute satisfaction with our courses. We offer a 7-day money-back guarantee for all our online courses, provided that you have not completed more than 20% of the course content.</p>
+                <h2>2. Eligibility</h2>
+                <p>To be eligible for a refund, you must submit your request within 7 days of the original purchase date. Refunds are only applicable to your initial purchase and are not valid for renewals or repeated subscriptions.</p>
+                <h2>3. Non-Refundable Items</h2>
+                <p>Certain items are strictly non-refundable, including:</p>
+                <ul>
+                    <li>Courses where more than 20% of the content has been viewed or downloaded.</li>
+                    <li>One-on-one mentorship sessions that have already been conducted.</li>
+                    <li>Customized coding bootcamps or special arrangements.</li>
+                </ul>
+                <h2>4. Processing Time</h2>
+                <p>Once your refund request is received and approved, we will initiate a refund to your original method of payment. You will receive the credit within 7 to 10 business days, depending on your card issuer's policies.</p>
+                <h2>5. How to Request a Refund</h2>
+                <p>If you wish to request a refund, please contact our support team at <a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a> with your order details and reason for the refund.</p>
+            </div>
+        </div>
+    </main>
+    <!-- Load Unified Mobile Navigation JavaScript (Single Source of Truth) -->
+    <script src="/js/unified-mobile-nav.js"></script>
 
-    <script>
-        // --- State ---
-        let state = {
-            timer: 90,
-            score: 0,
-            streak: 0, // NEW: Combo Streak
-            active: false,
-            q: { ans: 0, pts: 0 },
-            startTime: 0 // Track game duration for validation
-        };
-        const inputEl = document.getElementById('answer-input');
+    <!-- Load Keyboard Navigation JavaScript -->
+    <script src="/js/keyboard-navigation.js"></script>
 
-        // --- Audio & Haptic ---
-        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
-        function playSound(type) {
-            if (audioCtx.state === 'suspended') audioCtx.resume();
-            const osc = audioCtx.createOscillator();
-            const gain = audioCtx.createGain();
-            osc.connect(gain); gain.connect(audioCtx.destination);
-
-            const now = audioCtx.currentTime;
-            if (type === 'hit') {
-                // Pleasant Ding
-                osc.type = 'sine';
-                osc.frequency.setValueAtTime(500 + (state.streak * 50), now); // Pitch goes up with streak
-                osc.frequency.exponentialRampToValueAtTime(1000, now + 0.1);
-                gain.gain.setValueAtTime(0.1, now);
-                gain.gain.linearRampToValueAtTime(0, now + 0.15);
-                osc.start(now); osc.stop(now + 0.15);
-            } else {
-                // Error Buzz
-                osc.type = 'sawtooth';
-                osc.frequency.setValueAtTime(100, now);
-                osc.frequency.linearRampToValueAtTime(50, now + 0.2);
-                gain.gain.setValueAtTime(0.2, now);
-                gain.gain.linearRampToValueAtTime(0, now + 0.2);
-                osc.start(now); osc.stop(now + 0.2);
-            }
-        }
-
-        // --- Visual FX ---
-        function showFloatingText(text, type) {
-            const el = document.createElement('div');
-            el.className = `float-text ${type === 'combo' ? 'float-combo' : (type === 'plus' ? 'float-plus' : 'float-minus')}`;
-            el.innerText = text;
-
-            // Center it over the input roughly
-            const rect = inputEl.getBoundingClientRect();
-            el.style.left = (rect.left + rect.width / 2 - 20) + 'px';
-            el.style.top = (rect.top - 20) + 'px';
-
-            document.body.appendChild(el);
-            setTimeout(() => el.remove(), 800);
-        }
-
-        function triggerScreenFlash(isCorrect) {
-            document.body.classList.remove('flash-green', 'flash-red');
-            void document.body.offsetWidth; // Trigger reflow
-            document.body.classList.add(isCorrect ? 'flash-green' : 'flash-red');
-        }
-
-        // --- Game Logic ---
-        function startGame() {
-            state.score = 0;
-            state.timer = 90;
-            state.streak = 0;
-            state.active = true;
-            state.startTime = Date.now();
-            updateHUD();
-            switchScreen('screen-game');
-            generateQuestion();
-
-            const tInt = setInterval(() => {
-                if (!state.active) { clearInterval(tInt); return; }
-                state.timer--;
-                updateHUD();
-                if (state.timer <= 10) document.getElementById('timer-display').classList.add('low');
-                if (state.timer <= 0) endGame();
-            }, 1000);
-        }
-
-        function generateQuestion() {
-            const r = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
-            const roll = Math.random();
-            let q = '', ans = 0, type = '';
-
-            // Adaptive Difficulty: As score goes up, questions get slightly harder
-            const diffMod = Math.floor(state.score / 200);
-
-            if (roll < 0.35) {
-                const a = r(5, 50 + diffMod), b = r(5, 50 + diffMod);
-                q = `${a} + ${b}`; ans = a + b; state.q.pts = 10; type = "ADDITION";
-            } else if (roll < 0.65) {
-                const a = r(20, 99 + diffMod), b = r(5, a);
-                q = `${a} - ${b}`; ans = a - b; state.q.pts = 12; type = "SUBTRACTION";
-            } else if (roll < 0.85) {
-                const a = r(2, 12), b = r(2, 12 + Math.min(5, diffMod));
-                q = `${a} × ${b}`; ans = a * b; state.q.pts = 15; type = "MULTIPLICATION";
-            } else {
-                const b = r(2, 9), a = b * r(2, 10 + Math.min(5, diffMod));
-                q = `${a} ÷ ${b}`; ans = a / b; state.q.pts = 20; type = "DIVISION";
-            }
-
-            state.q.ans = ans;
-            document.getElementById('q-text').innerText = q;
-            document.getElementById('q-type').innerText = type;
-            inputEl.value = '';
-            inputEl.focus();
-        }
-
-        function checkAnswer() {
-            if (!state.active) return;
-            const val = parseInt(inputEl.value);
-            if (isNaN(val)) return;
-
-            if (val === state.q.ans) {
-                // --- CORRECT ---
-                state.streak++;
-                // Bonus: Streak * 2
-                const bonus = state.streak > 1 ? (state.streak * 2) : 0;
-                const totalPts = state.q.pts + bonus;
-
-                state.score += totalPts;
-
-                playSound('hit');
-                triggerScreenFlash(true);
-
-                if (state.streak > 2) showFloatingText(`${state.streak}x COMBO!`, 'combo');
-                else showFloatingText(`+${totalPts}`, 'plus');
-
-                // Visual candy
-                if (state.streak % 5 === 0) confetti({ particleCount: 30, spread: 50, origin: { y: 0.7 } });
-
-                generateQuestion();
-
-            } else {
-                // --- WRONG ---
-                const pen = 10; // Higher penalty
-                state.score = Math.max(0, state.score - pen);
-                state.streak = 0; // Reset Streak
-
-                playSound('miss');
-                triggerScreenFlash(false);
-                showFloatingText(`-${pen}`, 'minus');
-
-                inputEl.classList.add('error');
-                setTimeout(() => {
-                    inputEl.classList.remove('error');
-                    generateQuestion();
-                }, 400);
-            }
-            updateHUD();
-        }
-
-        function skipQuestion() {
-            if (!state.active) return;
-            state.score = Math.max(0, state.score - 5);
-            state.streak = 0; // Skipping kills the streak
-            showFloatingText("-5", 'minus');
-            updateHUD();
-            generateQuestion();
-            inputEl.focus();
-        }
-
-        function updateHUD() {
-            document.getElementById('timer-display').innerText = state.timer;
-            document.getElementById('score-display').innerText = state.score;
-            document.getElementById('streak-display').innerText = `x${state.streak}`;
-
-            // Streak heat styling
-            const sBox = document.getElementById('streak-box');
-            if (state.streak > 3) sBox.classList.add('hot');
-            else sBox.classList.remove('hot');
-        }
-
-        async function endGame() {
-            state.active = false;
-            document.getElementById('final-score').innerText = state.score;
-            switchScreen('screen-result');
-
-            // Check if score qualifies for leaderboard
-            const scores = await window.gameAPI.getLeaderboard();
-            const topScores = scores.map(s => s.score);
-            const min = topScores.length < 10 ? 0 : topScores[Math.min(9, topScores.length - 1)];
-
-            if (state.score > min || topScores.length < 10) {
-                document.getElementById('save-box').style.display = 'block';
-                confetti({ particleCount: 150, spread: 100, origin: { y: 0.6 } });
-            }
-        }
-
-        async function saveScore() {
-            const name = document.getElementById('name-input').value.trim().toUpperCase();
-            if (!name) {
-                alert('Please enter your name');
-                return;
-            }
-
-            const timeSpent = Math.floor((Date.now() - state.startTime) / 1000);
-            const btn = event.target;
-            btn.disabled = true;
-            btn.innerText = 'SAVING...';
-
-            const result = await window.gameAPI.submitScore(name, state.score, timeSpent);
-
-            if (result.success) {
-                location.reload();
-            } else {
-                alert(result.error || 'Failed to save score. Please try again.');
-                btn.disabled = false;
-                btn.innerText = 'SAVE TO LEADERBOARD';
-            }
-        }
-
-        function switchScreen(id) {
-            document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
-            document.getElementById(id).classList.add('active');
-        }
-
-        // Listeners
-        inputEl.addEventListener('keyup', e => { if (e.key === 'Enter') checkAnswer(); });
-
-        // Load Leaderboard
-        async function loadLeaderboard() {
-            const scores = await window.gameAPI.getLeaderboard();
-            const l = document.getElementById('lb-list');
-            l.innerHTML = '';
-
-            if (scores.length === 0) {
-                l.innerHTML = '<div style="text-align:center; color:#64748b; padding:10px;">No scores yet. Be the first!</div>';
-                return;
-            }
-
-            let rank = 1;
-            scores.slice(0, 10).forEach(d => {
-                const row = document.createElement('div');
-                row.className = 'lb-row';
-                let rankIcon = rank === 1 ? '🥇 ' : (rank === 2 ? '🥈 ' : (rank === 3 ? '🥉 ' : rank + '. '));
-                row.innerHTML = `<span>${rankIcon} ${d.name}</span><span style="color:white; font-weight:700;">${d.score}</span>`;
-                l.appendChild(row);
-                rank++;
-            });
-        }
-
-        // Load leaderboard on page load
-        loadLeaderboard();
-    </script>
+    <!-- Load Tab Accessibility JavaScript -->
+    <script src="/js/tab-accessibility.js"></script>
     <!-- ============================================ -->
     <!-- COMPONENT LOADER SCRIPT                      -->
     <!-- Loads navigation and footer components       -->
     <!-- ============================================ -->
     <script src="/js/callback-modal.js"></script>
-<!-- ============================================ -->
-    <!-- MOBILE NAVIGATION SCRIPT                     -->
-    <!-- Handles hamburger menu functionality         -->
-    <!-- ============================================ -->
-    <script src="/js/unified-mobile-nav.js"></script>
-    <script src="/js/mobile-navigation.js"></script>
-
     <!-- ============================================ -->
     <!-- FOOTER COMPONENT                             -->
     <!-- Loaded from: /components/footer.html         -->
@@ -1298,6 +546,110 @@
 
 </script>
 <!-- END_INLINED_FOOTER -->
+
+    <!-- Misti AI Floating Chat Button - Above WhatsApp -->
+    <a href="https://misti.modernagecoders.com" target="_blank" rel="noopener noreferrer" class="misti-chat-btn"
+        aria-label="Chat with Misti AI"
+        style="position: fixed !important; bottom: 92px !important; right: 24px !important; z-index: 2147483646 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+        <span class="misti-label"
+            style="background: linear-gradient(135deg, #a855f7, #8b5cf6); color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Ask
+            Misti AI</span>
+        <div class="misti-icon"
+            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: linear-gradient(135deg, #a855f7, #8b5cf6); border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" style="min-width: 26px; min-height: 26px;">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+        </div>
+    </a>
+    <!-- WhatsApp Floating Chat Button -->
+    <a href="https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!"
+        target="_blank" rel="noopener noreferrer" class="wa-float-btn" aria-label="Chat on WhatsApp"
+        style="position: fixed !important; bottom: 24px !important; right: 24px !important; z-index: 2147483645 !important; display: flex !important; flex-direction: row !important; align-items: center !important; gap: 10px !important; text-decoration: none !important;">
+        <span class="wa-label"
+            style="background: #25D366; color: #fff; padding: 8px 16px; border-radius: 20px; font-size: 13px; font-weight: 600; white-space: nowrap; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; letter-spacing: 0.3px;">Chat
+            with us</span>
+        <div class="wa-icon"
+            style="width: 52px; height: 52px; min-width: 52px; min-height: 52px; background: #25D366; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 14px rgba(37, 211, 102, 0.4); transition: transform 0.2s, box-shadow 0.2s; flex-shrink: 0;">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="#fff" style="min-width: 26px; min-height: 26px;">
+                <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+        </div>
+    </a>
+
+    <style>
+        /* Misti AI Button Hover */
+        .misti-chat-btn:hover .misti-icon {
+            transform: scale(1.08);
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
+
+        .misti-chat-btn:hover .misti-label {
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
+
+        /* WhatsApp Button Hover */
+        .wa-float-btn:hover .wa-icon {
+            transform: scale(1.08);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        .wa-float-btn:hover .wa-label {
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+        }
+
+        /* Mobile - Hide labels, show only icons */
+        @media (max-width: 768px) {
+
+            .misti-label,
+            .wa-label {
+                display: none !important;
+                visibility: hidden !important;
+            }
+
+            .misti-chat-btn {
+                bottom: 88px !important;
+                right: 16px !important;
+            }
+
+            .wa-float-btn {
+                bottom: 20px !important;
+                right: 16px !important;
+            }
+
+            .misti-icon,
+            .wa-icon {
+                width: 52px !important;
+                height: 52px !important;
+                min-width: 52px !important;
+                min-height: 52px !important;
+            }
+        }
+    </style>
+
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 
     <!-- Components inlined at build time -->
     <script>
