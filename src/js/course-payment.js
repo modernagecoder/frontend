@@ -87,6 +87,21 @@ const CoursePayment = {
       return;
     }
 
+    // Detect international user
+    const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+    const intlPrices = {
+      group:    { amount: 40,  display: '$40/month' },
+      personal: { amount: 100, display: '$100/month' },
+      lifetime: { amount: 599, display: '$599' }
+    };
+    
+    // Use international pricing if not Indian
+    const displayPricing = isIndian ? pricing : (intlPrices[planType] || pricing);
+    const currencySymbol = isIndian ? '₹' : '$';
+    const phoneMaxLength = isIndian ? '10' : '15';
+    const phonePlaceholder = isIndian ? '10-digit mobile number' : 'Phone number';
+    const phonePattern = isIndian ? '10-digit' : '7-15 digit';
+
     // Create modal HTML
     const modalHtml = `
       <div id="payment-modal" class="payment-modal-overlay">
@@ -100,7 +115,7 @@ const CoursePayment = {
           
           <div class="payment-modal-plan">
             <span class="plan-name">${this.getPlanName(planType)}</span>
-            <span class="plan-price">${pricing.display}</span>
+            <span class="plan-price">${displayPricing.display}</span>
           </div>
           
           <form id="payment-form" class="payment-form">
@@ -114,15 +129,22 @@ const CoursePayment = {
             </div>
             <div class="form-group">
               <label for="pay-phone">Phone Number *</label>
-              <input type="tel" id="pay-phone" required placeholder="10-digit mobile number" maxlength="10">
+              <input type="tel" id="pay-phone" required placeholder="${phonePlaceholder}" maxlength="${phoneMaxLength}">
             </div>
             <button type="submit" class="payment-submit-btn">
-              Pay ${pricing.display}
+              Pay ${displayPricing.display}
             </button>
           </form>
           
           <div class="payment-secure-note">
             🔒 Secured by Razorpay
+          </div>
+          
+          <div class="whatsapp-help">
+            <p>Need help with payment?</p>
+            <a href="https://wa.me/919123366161?text=${encodeURIComponent('Hi! I need help with payment for ' + this.courseName + ' - ' + this.getPlanName(planType) + ' (' + displayPricing.display + ').')}" target="_blank" rel="noopener">
+              Chat with us on WhatsApp
+            </a>
           </div>
         </div>
       </div>
@@ -169,8 +191,13 @@ const CoursePayment = {
       return;
     }
     
-    if (!/^[0-9]{10}$/.test(phone)) {
-      alert('Please enter a valid 10-digit phone number');
+    // Detect international user for phone validation
+    const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+    const phoneRegex = isIndian ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+    const phoneMsg = isIndian ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
+    
+    if (!phoneRegex.test(phone)) {
+      alert(phoneMsg);
       return;
     }
     
@@ -180,13 +207,21 @@ const CoursePayment = {
       submitBtn.disabled = true;
       submitBtn.textContent = 'Processing...';
       
+      // Determine currency and amount for international users
+      const intlPrices = { group: 40, personal: 100, lifetime: 599 };
+      const intlDisplayPrices = { group: '$40/month', personal: '$100/month', lifetime: '$599' };
+      const finalAmount = isIndian ? amount : (intlPrices[planType] || amount);
+      const currency = isIndian ? 'INR' : 'USD';
+      const buttonPriceText = isIndian ? this.getPricing(planType).display : (intlDisplayPrices[planType] || this.getPricing(planType).display);
+      
       // Create order
       const apiUrl = this.getApiUrl();
       const response = await fetch(`${apiUrl}/api/payment/create-order`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          amount: amount,
+          amount: finalAmount,
+          currency: currency,
           productType: 'course',
           productId: this.courseSlug,
           productName: `${this.courseName} - ${this.getPlanName(planType)}`,
@@ -218,7 +253,7 @@ const CoursePayment = {
         modal: {
           ondismiss: () => {
             submitBtn.disabled = false;
-            submitBtn.textContent = `Pay ${this.getPricing(planType).display}`;
+            submitBtn.textContent = `Pay ${buttonPriceText}`;
           }
         }
       };
@@ -227,7 +262,7 @@ const CoursePayment = {
       razorpay.on('payment.failed', (resp) => {
         alert('Payment failed: ' + resp.error.description);
         submitBtn.disabled = false;
-        submitBtn.textContent = `Pay ${this.getPricing(planType).display}`;
+        submitBtn.textContent = `Pay ${buttonPriceText}`;
       });
       razorpay.open();
       
@@ -272,6 +307,8 @@ const CoursePayment = {
 
   // Show success message
   showSuccessMessage: function(payment) {
+    const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+    const currencySymbol = isIndian ? '₹' : '$';
     const successHtml = `
       <div id="payment-success-modal" class="payment-modal-overlay">
         <div class="payment-modal-content success">
@@ -280,7 +317,7 @@ const CoursePayment = {
           <p>Thank you for enrolling in ${this.courseName}</p>
           <div class="payment-details">
             <p><strong>Order ID:</strong> ${payment.orderId}</p>
-            <p><strong>Amount:</strong> ₹${payment.amount}</p>
+            <p><strong>Amount:</strong> ${currencySymbol}${payment.amount}</p>
           </div>
           <p class="success-note">A confirmation email has been sent. Our team will contact you within 24 hours with class details.</p>
           <button onclick="document.getElementById('payment-success-modal').remove()" class="payment-submit-btn">Continue</button>

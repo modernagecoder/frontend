@@ -349,6 +349,28 @@
   to = "/src/pages/summer-coding-camp.html"
   status = 200
 
+# Cancellation & Refund Policy Pages
+[[redirects]]
+  from = "/cancellation"
+  to = "/src/pages/cancellation.html"
+  status = 200
+
+[[redirects]]
+  from = "/refund"
+  to = "/src/pages/refund.html"
+  status = 200
+
+# School-Specific Landing Pages
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-boys-kolkata"
+  to = "/src/pages/coding-classes-for-la-martiniere-boys-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-la-martiniere-girls-kolkata"
+  to = "/src/pages/coding-classes-for-la-martiniere-girls-kolkata.html"
+  status = 200
+
 [[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"

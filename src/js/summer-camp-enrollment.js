@@ -7,6 +7,20 @@ const SummerCampEnrollment = {
   courseName: 'Summer Coding Camp',
   coursePrice: 4999,
 
+  // International pricing helpers
+  isIndian: function() {
+    return window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+  },
+  getCoursePrice: function() {
+    return this.isIndian() ? 4999 : 60;
+  },
+  getCourseCurrency: function() {
+    return this.isIndian() ? 'INR' : 'USD';
+  },
+  getPriceDisplay: function() {
+    return this.isIndian() ? '₹4,999' : '$60';
+  },
+
   // API URL - auto-detect local vs production
   getApiUrl: function () {
     const isLocal = window.location.hostname === 'localhost'
@@ -81,7 +95,7 @@ const SummerCampEnrollment = {
                   </svg>
                 </div>
                 <div>
-                  <h3>Pay Online - ₹4,999</h3>
+                  <h3>Pay Online - ${this.getPriceDisplay()}</h3>
                   <p>Instant enrollment with secure payment</p>
                 </div>
               </div>
@@ -103,7 +117,7 @@ const SummerCampEnrollment = {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  UPI, Cards, Net Banking
+                  ${this.isIndian() ? 'UPI, Cards, Net Banking' : 'Cards, International Payments'}
                 </li>
               </ul>
               
@@ -151,7 +165,7 @@ const SummerCampEnrollment = {
                 </li>
               </ul>
               
-              <a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20enroll%20in%20${encodeURIComponent(this.courseName)}.%20Please%20share%20details." 
+              <a href="https://wa.me/919123366161?text=${encodeURIComponent('Hi, I want to enroll in ' + this.courseName + ' (' + this.getPriceDisplay() + '). Please share details.')}" 
                  target="_blank" 
                  class="option-button whatsapp-button">
                 Chat on WhatsApp
@@ -228,7 +242,7 @@ const SummerCampEnrollment = {
           
           <div class="payment-plan-box">
             <span class="plan-name">16 Sessions - Group Classes</span>
-            <span class="plan-price">₹4,999</span>
+            <span class="plan-price">${this.getPriceDisplay()}</span>
           </div>
           
           <form id="summer-camp-payment-form" class="payment-form">
@@ -242,10 +256,10 @@ const SummerCampEnrollment = {
             </div>
             <div class="form-group">
               <label for="sc-phone">Phone Number *</label>
-              <input type="tel" id="sc-phone" required placeholder="10-digit mobile number" maxlength="10">
+              <input type="tel" id="sc-phone" required placeholder="${this.isIndian() ? '10-digit mobile number' : 'Phone number'}" maxlength="${this.isIndian() ? '10' : '15'}">
             </div>
             <button type="submit" class="payment-submit-btn" id="sc-submit-btn">
-              Pay ₹4,999
+              Pay ${this.getPriceDisplay()}
             </button>
           </form>
           
@@ -285,8 +299,10 @@ const SummerCampEnrollment = {
       return;
     }
 
-    if (!/^[0-9]{10}$/.test(phone)) {
-      alert('Please enter a valid 10-digit phone number');
+    const phoneRegex = this.isIndian() ? /^[0-9]{10}$/ : /^[0-9]{7,15}$/;
+    const phoneMsg = this.isIndian() ? 'Please enter a valid 10-digit phone number' : 'Please enter a valid phone number (7-15 digits)';
+    if (!phoneRegex.test(phone)) {
+      alert(phoneMsg);
       return;
     }
 
@@ -301,7 +317,8 @@ const SummerCampEnrollment = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          amount: this.coursePrice,
+          amount: this.getCoursePrice(),
+          currency: this.getCourseCurrency(),
           productType: 'course',
           productId: 'summer-coding-camp-2026',
           productName: this.courseName,
@@ -333,7 +350,7 @@ const SummerCampEnrollment = {
         modal: {
           ondismiss: () => {
             submitBtn.disabled = false;
-            submitBtn.textContent = 'Pay ₹4,999';
+            submitBtn.textContent = 'Pay ' + SummerCampEnrollment.getPriceDisplay();
           }
         }
       };
@@ -342,7 +359,7 @@ const SummerCampEnrollment = {
       razorpay.on('payment.failed', (resp) => {
         alert('Payment failed: ' + resp.error.description);
         submitBtn.disabled = false;
-        submitBtn.textContent = 'Pay ₹4,999';
+        submitBtn.textContent = 'Pay ' + SummerCampEnrollment.getPriceDisplay();
       });
       razorpay.open();
 
@@ -390,7 +407,7 @@ const SummerCampEnrollment = {
           <p>Thank you for enrolling in ${this.courseName}</p>
           <div class="payment-details">
             <p><strong>Order ID:</strong> ${payment.orderId}</p>
-            <p><strong>Amount:</strong> ₹${payment.amount}</p>
+            <p><strong>Amount:</strong> ${this.isIndian() ? '₹' : '$'}${payment.amount}</p>
           </div>
           <p class="success-note">A confirmation email has been sent. Our team will contact you within 24 hours with class details.</p>
           <button onclick="document.getElementById('summerCampSuccessModal').remove(); document.body.style.overflow = '';" class="payment-submit-btn">Continue</button>

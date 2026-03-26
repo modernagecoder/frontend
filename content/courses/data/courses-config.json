@@ -2,8 +2,15 @@
   "payment": {
     "enabled": true,
     "currency": "INR",
+    "internationalCurrency": "USD",
     "razorpayKeyId": "YOUR_RAZORPAY_KEY_ID",
     "backendUrl": "https://backend-modernagecoders.vercel.app"
+  },
+  "internationalPricing": {
+    "group": { "amount": 40, "display": "$40/month" },
+    "personal": { "amount": 100, "display": "$100/month" },
+    "lifetime": { "amount": 599, "display": "$599" },
+    "summer": { "amount": 60, "display": "$60" }
   },
   "defaultPricing": {
     "group": {

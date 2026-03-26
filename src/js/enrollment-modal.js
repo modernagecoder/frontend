@@ -43,6 +43,12 @@ const EnrollmentModal = {
     // Close any existing modals first
     this.closeAll();
     
+    // Detect international user
+    const isIndian = window.__MAC_IS_INDIAN !== undefined ? window.__MAC_IS_INDIAN : true;
+    const paymentFeaturesText = isIndian ? 'UPI, Cards, Net Banking' : 'Cards, International Payments';
+    const priceText = isIndian ? '' : ' ($40 USD/month)';
+    const whatsappMsg = encodeURIComponent('Hi, I want to enroll in ' + this.courseName + priceText + '. Please share details.');
+    
     const modalHTML = `
       <div id="professionalEnrollmentModal" class="professional-modal-overlay">
         <div class="professional-modal-container">
@@ -91,7 +97,7 @@ const EnrollmentModal = {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <polyline points="20 6 9 17 4 12"></polyline>
                   </svg>
-                  UPI, Cards, Net Banking
+                  ${paymentFeaturesText}
                 </li>
               </ul>
               
@@ -139,7 +145,7 @@ const EnrollmentModal = {
                 </li>
               </ul>
               
-              <a href="https://wa.me/919123366161?text=Hi%2C%20I%20want%20to%20enroll%20in%20${encodeURIComponent(this.courseName)}.%20Please%20share%20details." 
+              <a href="https://wa.me/919123366161?text=${whatsappMsg}" 
                  target="_blank" 
                  class="option-button whatsapp-button">
                 Chat on WhatsApp
