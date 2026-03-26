@@ -1288,5 +1288,85 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
-  
+
+  <url>
+    <loc>https://learn.modernagecoders.com/cancellation</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/refund</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Additional Pages Missing from Sitemap -->
+  <url>
+    <loc>https://learn.modernagecoders.com/check-status</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/student-projects</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/love</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- School-Specific Landing Pages -->
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-la-martiniere-boys-kolkata</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-la-martiniere-girls-kolkata</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Missing Course Pages -->
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/ai-tools-mastery-complete</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/cbse-icse-computer-science-class-11-12-python-java-complete-course</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/cbse-informatics-practices-ip-class-11-12-python-pandas-sql-complete-course</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/courses/competitive-programming-masterclass</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
