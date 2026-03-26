@@ -172,7 +172,16 @@ function resolveFilePath(url) {
     }
 
     // Default: try to serve the file directly
-    return urlPath.substring(1);
+    let cleanPath = urlPath.substring(1);
+    if (!cleanPath) return cleanPath; // Safety for empty path
+    
+    // Automatically try mapping clean URLs to src/pages/*.html
+    const possibleSrcPath = path.join('src', 'pages', cleanPath + '.html');
+    if (!fs.existsSync(cleanPath) && fs.existsSync(possibleSrcPath)) {
+        return possibleSrcPath;
+    }
+
+    return cleanPath;
 }
 
 const server = http.createServer((req, res) => {

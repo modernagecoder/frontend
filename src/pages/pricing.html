@@ -131,7 +131,42 @@
     <a href="#main" class="skip-link">Skip to main content</a>
     <!-- canvas removed for performance -->
     <!-- BEGIN_INLINED_NAV -->
+<style>
+    .callback-nav-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 8px 16px;
+        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        color: white;
+        border: none;
+        border-radius: 25px;
+        font-size: 14px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+    }
 
+    .callback-nav-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    }
+
+    .callback-nav-btn svg {
+        flex-shrink: 0;
+    }
+
+    @media (max-width: 768px) {
+        .callback-nav-btn span {
+            display: none;
+        }
+
+        .callback-nav-btn {
+            padding: 10px;
+        }
+    }
+</style>
 
 <header>
     <nav>
@@ -1499,6 +1534,11 @@
                     <li><a href="/pricing">Pricing</a></li>
                     <li><a href="/faq">FAQ</a></li>
                     <li><a href="/contact">Contact</a></li>
+                    <li><a href="/python-and-ai-classes-for-kids-teens">Python &amp; AI for Kids &amp; Teens</a></li>
+                    <li><a href="/coding-classes-for-girls">Coding Classes for Girls</a></li>
+                    <li><a href="/best-coding-classes-online">Best Coding Classes Online</a></li>
+                    <li><a href="/ai-ml-course-for-teens">AI &amp; ML Course for Teens</a></li>
+                    <li><a href="/java-programming-for-kids-teens">Java Programming for Kids &amp; Teens</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -1531,6 +1571,8 @@
                             Indore</a></li>
                     <li><a href="https://learn.modernagecoders.com/best-coding-class-in-mumbai">Best Coding Class in
                             Mumbai</a></li>
+                    <li><a href="/coding-classes-for-la-martiniere-boys-kolkata">La Martiniere Boys Coding</a></li>
+                    <li><a href="/coding-classes-for-la-martiniere-girls-kolkata">La Martiniere Girls Coding</a></li>
 
                 </ul>
             </div>
@@ -1541,6 +1583,8 @@
                     <li><a href="mailto:contact@modernagecoders.com">contact@modernagecoders.com</a></li>
                     <li><a href="/privacy">Privacy Policy</a></li>
                     <li><a href="/terms">Terms of Service</a></li>
+                    <li><a href="/cancellation">Cancellation Policy</a></li>
+                    <li><a href="/refund">Refund Policy</a></li>
                 </ul>
             </div>
         </div>
@@ -1587,7 +1631,55 @@
 
 
 
+<style>
+    /* Misti AI Button Hover */
+    .misti-chat-btn:hover .misti-icon {
+        transform: scale(1.08);
+        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+    }
 
+    .misti-chat-btn:hover .misti-label {
+        box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+    }
+
+    /* WhatsApp Button Hover */
+    .wa-float-btn:hover .wa-icon {
+        transform: scale(1.08);
+        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+    }
+
+    .wa-float-btn:hover .wa-label {
+        box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+    }
+
+    /* Mobile - Hide labels, show only icons */
+    @media (max-width: 768px) {
+
+        .misti-label,
+        .wa-label {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        .misti-chat-btn {
+            bottom: 88px !important;
+            right: 16px !important;
+        }
+
+        .wa-float-btn {
+            bottom: 20px !important;
+            right: 16px !important;
+        }
+
+        .misti-icon,
+        .wa-icon {
+            width: 52px !important;
+            height: 52px !important;
+            min-width: 52px !important;
+            min-height: 52px !important;
+        }
+    }
+</style>
 
 <!-- Lenis Smooth Scrolling -->
 <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
@@ -1697,6 +1789,17 @@
 
     <!-- International Pricing Auto-Detection -->
     <script src="/js/international-pricing.js"></script>
+
+    <!-- Components inlined at build time -->
+    <script>
+        (function() {
+            // Fire componentsLoaded event for backward compatibility
+            document.dispatchEvent(new CustomEvent('componentsLoaded'));
+            // Set copyright year
+            var c = document.getElementById('copyright');
+            if (c) c.innerHTML = '\u00A9 ' + new Date().getFullYear() + ' Modern Age Coders. All Rights Reserved.';
+        })();
+    </script>
 </body>
 
 </html>
