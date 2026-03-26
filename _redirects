@@ -154,6 +154,14 @@
 /courses/kids /levels/coding-for-kids 301!
 /courses/girls-coding /levels/coding-for-kids 301!
 
+# Cancellation & Refund Policy Pages
+/cancellation /src/pages/cancellation.html 200
+/refund /src/pages/refund.html 200
+
+# School-Specific Landing Pages
+/coding-classes-for-la-martiniere-boys-kolkata /src/pages/coding-classes-for-la-martiniere-boys-kolkata.html 200
+/coding-classes-for-la-martiniere-girls-kolkata /src/pages/coding-classes-for-la-martiniere-girls-kolkata.html 200
+
 # Catch singular typos and missing blog
 /course /courses 301!
 /blog/example-all-features /blog 301!
