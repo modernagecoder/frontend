@@ -161,6 +161,22 @@
 # School-Specific Landing Pages
 /coding-classes-for-la-martiniere-boys-kolkata /src/pages/coding-classes-for-la-martiniere-boys-kolkata.html 200
 /coding-classes-for-la-martiniere-girls-kolkata /src/pages/coding-classes-for-la-martiniere-girls-kolkata.html 200
+/coding-classes-for-dps-rk-puram-new-delhi /src/pages/coding-classes-for-dps-rk-puram-new-delhi.html 200
+/coding-classes-for-dps-ruby-park-kolkata /src/pages/coding-classes-for-dps-ruby-park-kolkata.html 200
+/coding-classes-for-dps-vasant-kunj-new-delhi /src/pages/coding-classes-for-dps-vasant-kunj-new-delhi.html 200
+/coding-classes-for-dps-new-town-kolkata /src/pages/coding-classes-for-dps-new-town-kolkata.html 200
+/coding-classes-for-dps-international-saket-delhi /src/pages/coding-classes-for-dps-international-saket-delhi.html 200
+/coding-classes-for-dps-noida /src/pages/coding-classes-for-dps-noida.html 200
+/coding-classes-for-dps-greater-noida /src/pages/coding-classes-for-dps-greater-noida.html 200
+/coding-classes-for-dps-gurgaon /src/pages/coding-classes-for-dps-gurgaon.html 200
+/coding-classes-for-dps-navi-mumbai /src/pages/coding-classes-for-dps-navi-mumbai.html 200
+/coding-classes-for-dps-bangalore /src/pages/coding-classes-for-dps-bangalore.html 200
+/coding-classes-for-dps-rohini-new-delhi /src/pages/coding-classes-for-dps-rohini-new-delhi.html 200
+/coding-classes-for-dps-dwarka-new-delhi /src/pages/coding-classes-for-dps-dwarka-new-delhi.html 200
+/coding-classes-for-dps-hyderabad /src/pages/coding-classes-for-dps-hyderabad.html 200
+/coding-classes-for-mahadevi-birla-world-academy-kolkata /coding-and-maths-for-mahadevi-birla-world-academy-kolkata 301!
+/maths-classes-for-mahadevi-birla-world-academy-kolkata /coding-and-maths-for-mahadevi-birla-world-academy-kolkata 301!
+/coding-and-maths-for-mahadevi-birla-world-academy-kolkata /src/pages/coding-and-maths-for-mahadevi-birla-world-academy-kolkata.html 200
 
 # Catch singular typos and missing blog
 /course /courses 301!
