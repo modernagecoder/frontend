@@ -1,0 +1,474 @@
+{
+  "meta": {
+    "slug": "python-basic-programs-for-beginners",
+    "title": "30+ Python Basic Programs for Beginners to Practice in 2026",
+    "description": "Master coding with this list of 30+ Python basic programs for beginners. From simple math to real-world utilities, get the hands-on practice you need to level up.",
+    "keywords": [
+      "python basic programs",
+      "python for beginners",
+      "python practice programs",
+      "learn python coding",
+      "python exercises",
+      "beginner python projects",
+      "python programming practice"
+    ],
+    "author": {
+      "name": "Modern Age Coders",
+      "bio": "Expert educators passionate about making coding accessible and fun for learners of all ages.",
+      "avatar": "https://placehold.co/80x80/8A2BE2/FFFFFF?text=MAC"
+    },
+    "date": "2026-03-29",
+    "dateModified": "2026-03-29",
+    "category": "Programming",
+    "tags": [
+      "Python",
+      "Beginner Programming",
+      "Coding Practice",
+      "Python Exercises",
+      "Learn to Code"
+    ],
+    "readTime": "16 min read",
+    "featured": false
+  },
+  "hero": {
+    "title": "30+ Python Basic Programs for Beginners to Practice in 2026",
+    "featuredImage": {
+      "url": "https://ik.imagekit.io/qnvuzyjls/30+%20Python%20Basic%20Programs%20for%20Beginners%20to%20Practice%20in%202026",
+      "alt": "30+ Python Basic Programs for Beginners to Practice in 2026"
+    }
+  },
+  "content": {
+    "sections": [
+      {
+        "type": "toc"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can watch a hundred hours of tutorials, but until your fingers hit the keyboard, you aren't actually learning Python. Reading about coding is like reading a book on how to swim—you have to get in the water to actually figure it out."
+      },
+      {
+        "type": "paragraph",
+        "text": "If you feel stuck in \"tutorial hell,\" freezing the second you open a blank code editor, the only way out is to start building. To help you cross that bridge, we have curated a list of 35 Python basic programs for beginners, ranging from simple math to real-world utilities."
+      },
+      {
+        "type": "paragraph",
+        "text": "Let's transition you from just reading code to confidently writing your own scripts."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why You Need to Practice with Basic Python Programs",
+        "id": "why-practice"
+      },
+      {
+        "type": "paragraph",
+        "text": "When you type code out manually, you build muscle memory. You learn where the colons go, you figure out how Python handles indentation, and most importantly, you learn how to read error messages."
+      },
+      {
+        "type": "paragraph",
+        "text": "Making mistakes is the fastest way to learn. When a program crashes, you are forced to debug it, and that debugging process is what actually makes you a developer. Small, basic programs are the building blocks of complex software. You cannot build a machine learning model or a backend API if you do not understand how a for loop works."
+      },
+      {
+        "type": "paragraph",
+        "text": "Before you dive into the list, if you need a quick refresher on how the language operates, bookmark our <a href='https://learn.modernagecoders.com/blog/python-for-beginners' target='_blank' rel='noopener noreferrer'>comprehensive Python for beginners guide</a> to keep handy while you code."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Level 1: The Absolute Basics (Programs 1–10)",
+        "id": "level-1"
+      },
+      {
+        "type": "paragraph",
+        "text": "These first ten programs are all about getting comfortable with Python's syntax. You will handle basic math, variable assignments, and simple user inputs. Try running these directly in your terminal or by using the official <a href='https://docs.python.org/3/tutorial/' target='_blank' rel='noopener noreferrer'>Python.org</a> standard environment."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "1. Print \"Hello, World!\""
+      },
+      {
+        "type": "paragraph",
+        "text": "The classic right of passage for every programmer. Just get the computer to say hi back to you."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "2. Add Two Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a script that asks the user to input two numbers, adds them together, and prints the total. You will learn how to use the <code>input()</code> function and convert strings to integers."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "3. Find the Square Root of a Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Import the <code>math</code> module and use it to calculate the square root of any number the user provides."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "4. Calculate the Area of a Triangle"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take the base and height as inputs and apply the standard mathematical formula (0.5 * base * height) to find the area."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "5. Swap Two Variables"
+      },
+      {
+        "type": "paragraph",
+        "text": "Create two variables, x and y. Write a program that swaps their values. Try doing it the traditional way with a temporary variable, and then try Python's incredibly clean <code>x, y = y, x</code> method."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "6. Generate a Random Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Import the <code>random</code> module and write a script that prints a random number between 1 and 100 every time you run it."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "7. Convert Kilometers to Miles"
+      },
+      {
+        "type": "paragraph",
+        "text": "A practical utility script. Take an input in kilometers and multiply it by the conversion factor (0.621371) to output miles."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "8. Convert Celsius to Fahrenheit"
+      },
+      {
+        "type": "paragraph",
+        "text": "Similar to the previous program, but this time you will use the formula (Celsius * 1.8) + 32 to convert temperatures."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "9. Check if a Number is Positive, Negative, or Zero"
+      },
+      {
+        "type": "paragraph",
+        "text": "This introduces control flow. Use <code>if</code>, <code>elif</code>, and <code>else</code> statements to check the state of a user's inputted number."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "10. Check if a Number is Even or Odd"
+      },
+      {
+        "type": "paragraph",
+        "text": "You will use the modulo operator (%) to see if a number is cleanly divisible by 2. If you want to dive deeper into how Python handles division and remainders, check out our guide on <a href='https://learn.modernagecoders.com/blog/what-is-floor-division-in-python' target='_blank' rel='noopener noreferrer'>understanding operators like floor division in Python</a>."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Level 2: Loops, Conditions, and Logic (Programs 11–20)",
+        "id": "level-2"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now that you have the syntax down, it is time to force your brain to think logically. These programs require loops (<code>for</code> and <code>while</code>) and nested conditions."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "11. Check if a Year is a Leap Year"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a program that determines if a year is a leap year based on the rules (divisible by 4, but not 100, unless it is also divisible by 400)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "12. Find the Largest Among Three Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take three numbers as input and use <code>if/elif/else</code> blocks with <code>and</code> operators to find the largest one."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "13. Check if a Number is a Prime Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a loop that checks if a number is divisible by anything other than 1 and itself. This is a classic computer science problem."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "14. Print All Prime Numbers in an Interval"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take the logic from program 13, but wrap it in another loop to print every prime number between 1 and 100."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "15. Find the Factorial of a Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use a <code>for</code> loop to multiply a number by every integer below it (e.g., 5! = 5 x 4 x 3 x 2 x 1)."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "16. Display the Multiplication Table"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask the user for a number, then use a loop to print out its multiplication table from 1 to 10."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "17. Print the Fibonacci Sequence"
+      },
+      {
+        "type": "paragraph",
+        "text": "Print a sequence where the next number is found by adding up the two numbers before it (0, 1, 1, 2, 3, 5, 8...). This is a fantastic test of your variable-updating skills."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "18. Check if a Number is an Armstrong Number"
+      },
+      {
+        "type": "paragraph",
+        "text": "Check if an n-digit number equals the sum of its digits raised to the power of n. This sounds complicated, but breaking it down is great practice."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "19. Find the Sum of Natural Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a script that adds up all positive integers up to a number provided by the user."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "20. Display Powers of 2 Using an Anonymous Function"
+      },
+      {
+        "type": "paragraph",
+        "text": "Learn how to use Python's <code>lambda</code> functions paired with the <code>map()</code> function to generate a list of powers of 2."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Level 3: Strings, Lists, and Functions (Programs 21–30)",
+        "id": "level-3"
+      },
+      {
+        "type": "paragraph",
+        "text": "The third tier introduces data structures like lists and dictionaries, and forces you to modularize your code by writing your own functions. If you haven't set up a local coding environment yet, skip the headache of manual installations. You can use a vibe coding platform like <a href='https://replit.com/' target='_blank' rel='noopener noreferrer'>Replit</a> to practice these modular programs right in your browser, and even collaborate with their AI agent when you get stuck."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "21. Find the ASCII Value of a Character"
+      },
+      {
+        "type": "paragraph",
+        "text": "Use Python's built-in <code>ord()</code> function to find the numerical value of any character on your keyboard."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "22. Find HCF or GCD of Two Numbers"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a function that calculates the Highest Common Factor (or Greatest Common Divisor) of two numbers using a <code>while</code> loop."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "23. Make a Simple Calculator"
+      },
+      {
+        "type": "paragraph",
+        "text": "Create a calculator that can add, subtract, multiply, and divide. Structure it so each math operation is its own function. If you aren't sure why this matters, read up on the <a href='https://learn.modernagecoders.com/blog/advantages-functions-python-why-every-coder-should-use-them' target='_blank' rel='noopener noreferrer'>advantages of using functions in Python</a>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "24. Check Whether a String is a Palindrome"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a script that checks if a word is spelled the same way backward as it is forward. Hint: look into Python's string slicing <code>[::-1]</code>."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "25. Remove Punctuations from a String"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a messy sentence full of commas and exclamation points, and use a loop to strip them all out, leaving only the words."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "26. Sort Words in Alphabetical Order"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a sentence from the user, split it into individual words, and use the <code>.sort()</code> method to arrange them alphabetically."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "27. Count the Number of Each Vowel"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask the user for a string and use a dictionary to count how many times 'a', 'e', 'i', 'o', and 'u' appear."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "28. Merge Two Dictionaries"
+      },
+      {
+        "type": "paragraph",
+        "text": "Create two dictionaries with fake user data and write a script to merge them into one single dictionary."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "29. Catch Multiple Exceptions in One Line"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a script that intentionally causes a division-by-zero error and a value error, and use a <code>try/except</code> block to catch and handle both safely without crashing the program."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "30. Safely Open, Read, and Write to a File"
+      },
+      {
+        "type": "paragraph",
+        "text": "Create a text file using Python, write a sentence to it, close it, and then open it back up to read the contents using the <code>with open()</code> context manager."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Level 4: Real-World Utilities (Programs 31–35)",
+        "id": "level-4"
+      },
+      {
+        "type": "paragraph",
+        "text": "To really hit that \"30+\" mark, let's look at a few scripts that mimic what actual developers build on a day-to-day basis. These programs mix logic, modules, and data formatting."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "31. Get the Current Date and Time"
+      },
+      {
+        "type": "paragraph",
+        "text": "Import the <code>datetime</code> module and format the output so it prints today's date and the current time in a readable, human-friendly way (like \"Monday, October 12, 2026\")."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "32. Check if Two Strings are Anagrams"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write a script that takes two words from the user, converts them to lowercase, sorts their letters, and checks if they contain the exact same characters."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "33. Generate a Secure Random Password"
+      },
+      {
+        "type": "paragraph",
+        "text": "Import both the <code>random</code> and <code>string</code> modules. Write a function that generates a 12-character password containing a mix of uppercase letters, lowercase letters, numbers, and symbols."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "34. Build a Simple Countdown Timer"
+      },
+      {
+        "type": "paragraph",
+        "text": "Import the <code>time</code> module. Ask the user for a number of seconds, and use a <code>while</code> loop paired with <code>time.sleep(1)</code> to print a countdown that ends with \"Time's up!\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "text": "35. Filter a List Using List Comprehensions"
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a list of 20 random numbers. Instead of using a standard <code>for</code> loop, use Python's powerful list comprehension syntax to create a brand new list that contains only the even numbers from the original list."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "How to Get the Most Out of This List",
+        "id": "how-to-get-most"
+      },
+      {
+        "type": "paragraph",
+        "text": "Having a list of programs is only half the battle. How you practice determines how fast you learn."
+      },
+      {
+        "type": "paragraph",
+        "text": "First, do not copy and paste. It is tempting to Google the solutions, copy the code, run it, and tell yourself you learned it. You didn't. You have to type the code out yourself. The physical act of typing builds the mental connections you need."
+      },
+      {
+        "type": "paragraph",
+        "text": "Second, break things on purpose. Once you get a program working, change a variable. Delete an indent. See what kind of error Python throws at you. Getting familiar with error messages makes debugging much less scary in the future."
+      },
+      {
+        "type": "paragraph",
+        "text": "Finally, combine programs. Once you finish this list, start mashing them together. Build a secure password generator that saves the output to a text file, or a calculator that checks if the final answer is a prime number."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Conclusion",
+        "id": "conclusion"
+      },
+      {
+        "type": "paragraph",
+        "text": "Completing these 35 Python basic programs for beginners gives you a rock-solid grasp of programming fundamentals. Consistency is key—tackle two or three programs daily, and the logic will quickly click."
+      },
+      {
+        "type": "paragraph",
+        "text": "Ready to stop guessing and start building real-world software? Take your skills to the professional level by enrolling in Modern Age Coders' comprehensive Python courses. We will teach you how to write the clean, efficient code that employers actually want to see."
+      }
+    ]
+  },
+  "relatedPosts": [
+    "armstrong-number-python-complete-guide-examples-code",
+    "why-python-most-powerful-skill-professionals-today",
+    "file-types-in-python-complete-guide"
+  ]
+}
+

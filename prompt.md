@@ -1,11 +1,19 @@
 
 
-The New Town School
-https://www.ntskolkata.org/
-The New Town School
-kolkata 
+Birla High School
+https://birlahighschool.com/
 
-take inspiration from @la martinere school pages also and other coding pages summer camp etc
+kolkata  park circus 
+BHS eligin road
+
+make todo list and track your progress
+
+you have to make page only promotes  my coding and maths 
+
+this page must be very unique and special not like other pages seo rich content and keywords
+
+
+take inspiration from @la martinere school pages MBWA school page also and other coding pages summer camp etc and other codng pages
 
 
 i want you to make two differnt pages very high seo rich content in google 
