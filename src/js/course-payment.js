@@ -319,7 +319,7 @@ const CoursePayment = {
             <p><strong>Order ID:</strong> ${payment.orderId}</p>
             <p><strong>Amount:</strong> ${currencySymbol}${payment.amount}</p>
           </div>
-          <p class="success-note">A confirmation email has been sent. Our team will contact you within 24 hours with class details.</p>
+          <p class="success-note">We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
           <button onclick="document.getElementById('payment-success-modal').remove()" class="payment-submit-btn">Continue</button>
         </div>
       </div>

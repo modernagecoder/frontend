@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 <h3>Request Submitted Successfully!</h3>
-                <p>Thank you for your interest in our training programs. Our team will contact you within 24 hours to discuss your requirements.</p>
+                <p>We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p>
                 <button class="close-success-btn" onclick="this.parentElement.parentElement.remove()">Close</button>
             </div>
         `;

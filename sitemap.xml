@@ -1404,4 +1404,148 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Category Pages -->
+  <url>
+    <loc>https://learn.modernagecoders.com/category/kids</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/category/teens</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/category/college</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/category/professionals</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/category/corporate</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Homepage (index) -->
+  <url>
+    <loc>https://learn.modernagecoders.com/index</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Mahadevi Birla School Kolkata -->
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-and-maths-for-mahadevi-birla-world-academy-kolkata</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- DPS School Pages -->
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-bangalore</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-dwarka-new-delhi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-greater-noida</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-gurgaon</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-hyderabad</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-international-saket-delhi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-navi-mumbai</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-new-town-kolkata</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-noida</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-rk-puram-new-delhi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-rohini-new-delhi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-ruby-park-kolkata</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://learn.modernagecoders.com/coding-classes-for-dps-vasant-kunj-new-delhi</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
 </urlset>

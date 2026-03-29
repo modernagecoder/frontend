@@ -241,7 +241,7 @@ canvas#bg-canvas{position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;po
 <div style="display:flex;align-items:center;background:#f9fafb;border:2px solid #e5e7eb;border-radius:12px;overflow:hidden;"><span style="padding:14px 12px;background:#f3f4f6;color:#6b7280;font-weight:600;border-right:2px solid #e5e7eb;">+91</span><input type="tel" id="callbackPhoneInput" placeholder="Enter phone number" maxlength="10" required style="flex:1;padding:14px 15px;border:none;background:transparent;font-size:16px;color:#1f2937;outline:none;"></div>
 <button type="submit" id="callbackSubmitBtn" style="padding:14px 24px;background:linear-gradient(135deg,#ec4899,#be185d);color:#fff;border:none;border-radius:12px;font-size:16px;font-weight:600;cursor:pointer;">Call Me Back</button>
 </form>
-<div id="callbackSuccessMsg" style="display:none;padding:20px 0;"><svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" style="margin-bottom:15px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 style="font-size:20px;font-weight:700;color:#10b981;margin:0 0 8px;">We'll call you soon!</h4><p style="font-size:14px;color:#6b7280;margin:0;">Expect a call within 3 hours</p></div>
+<div id="callbackSuccessMsg" style="display:none;padding:20px 0;"><svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" style="margin-bottom:15px;"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg><h4 style="font-size:20px;font-weight:700;color:#10b981;margin:0 0 8px;">Response Received!</h4><p style="font-size:14px;color:#6b7280;margin:0;">We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).</p></div>
 </div></div>
 
 <main id="main">
@@ -886,7 +886,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(err)return;
     setBtnLoad(true);
     const full=msg+(age?` | Age: ${age}`:'')+( batch?` | Batch pref: ${batch}`:'')+' | [Source: Coding Classes for Girls Landing Page]';
-    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFb('success','Thank you! We will reach out within 3 hours to schedule your daughter\'s free demo class. 🌸');frm.reset();}else throw new Error(d.message);}
+    try{const r=await fetch(`${BASE}/api/contact/submit`,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name,email,contact:phone,message:full})});const d=await r.json();if(r.ok){showFb('success','We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');frm.reset();}else throw new Error(d.message);}
     catch{showFb('error','Something went wrong. Please call us at 9123366161 or WhatsApp us directly.');}
     finally{setBtnLoad(false);}
   });

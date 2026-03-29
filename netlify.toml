@@ -371,6 +371,175 @@
   to = "/src/pages/coding-classes-for-la-martiniere-girls-kolkata.html"
   status = 200
 
+# DPS School Landing Pages
+[[redirects]]
+  from = "/coding-classes-for-dps-rk-puram-new-delhi"
+  to = "/src/pages/coding-classes-for-dps-rk-puram-new-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-ruby-park-kolkata"
+  to = "/src/pages/coding-classes-for-dps-ruby-park-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-vasant-kunj-new-delhi"
+  to = "/src/pages/coding-classes-for-dps-vasant-kunj-new-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-new-town-kolkata"
+  to = "/src/pages/coding-classes-for-dps-new-town-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-international-saket-delhi"
+  to = "/src/pages/coding-classes-for-dps-international-saket-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-noida"
+  to = "/src/pages/coding-classes-for-dps-noida.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-greater-noida"
+  to = "/src/pages/coding-classes-for-dps-greater-noida.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-gurgaon"
+  to = "/src/pages/coding-classes-for-dps-gurgaon.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-navi-mumbai"
+  to = "/src/pages/coding-classes-for-dps-navi-mumbai.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-bangalore"
+  to = "/src/pages/coding-classes-for-dps-bangalore.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-rohini-new-delhi"
+  to = "/src/pages/coding-classes-for-dps-rohini-new-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-dwarka-new-delhi"
+  to = "/src/pages/coding-classes-for-dps-dwarka-new-delhi.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-dps-hyderabad"
+  to = "/src/pages/coding-classes-for-dps-hyderabad.html"
+  status = 200
+
+# Kolkata School Landing Pages (with alternate URL redirects)
+[[redirects]]
+  from = "/coding-classes-for-mahadevi-birla-world-academy-kolkata"
+  to = "/coding-and-maths-for-mahadevi-birla-world-academy-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-mahadevi-birla-world-academy-kolkata"
+  to = "/coding-and-maths-for-mahadevi-birla-world-academy-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-mahadevi-birla-world-academy-kolkata"
+  to = "/src/pages/coding-and-maths-for-mahadevi-birla-world-academy-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-heritage-school-kolkata"
+  to = "/coding-and-maths-for-heritage-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-heritage-school-kolkata"
+  to = "/coding-and-maths-for-heritage-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-heritage-school-kolkata"
+  to = "/src/pages/coding-and-maths-for-heritage-school-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-birla-high-school-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-birla-high-school-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-birla-high-school-kolkata"
+  to = "/src/pages/coding-and-maths-for-birla-high-school-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-birla-high-school-mukundapur-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-mukundapur-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-birla-high-school-mukundapur-kolkata"
+  to = "/coding-and-maths-for-birla-high-school-mukundapur-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-birla-high-school-mukundapur-kolkata"
+  to = "/src/pages/coding-and-maths-for-birla-high-school-mukundapur-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-sushila-birla-girls-school-kolkata"
+  to = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-sushila-birla-girls-school-kolkata"
+  to = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-sushila-birla-girls-school-kolkata"
+  to = "/src/pages/coding-and-maths-for-sushila-birla-girls-school-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-for-don-bosco-park-circus-kolkata"
+  to = "/coding-and-maths-for-don-bosco-park-circus-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/maths-classes-for-don-bosco-park-circus-kolkata"
+  to = "/coding-and-maths-for-don-bosco-park-circus-kolkata"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/coding-and-maths-for-don-bosco-park-circus-kolkata"
+  to = "/src/pages/coding-and-maths-for-don-bosco-park-circus-kolkata.html"
+  status = 200
+
 [[redirects]]
   from = "/blog"
   to = "/content/blog/generated/index.html"
