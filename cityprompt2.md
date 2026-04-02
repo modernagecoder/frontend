@@ -1,5 +1,5 @@
 # MASTER PROMPT: Generate Hyper-Local SEO Pages for Modern Age Coders
-## Complete Brief for AI Agents — No Follow-Up Questions Needed
+
 
 ---
 
