@@ -170,6 +170,9 @@
 /cancellation /src/pages/cancellation.html 200
 /refund /src/pages/refund.html 200
 
+# Schools Hub Page
+/schools /src/pages/schools.html 200
+
 # School-Specific Landing Pages
 /coding-classes-for-la-martiniere-boys-kolkata /src/pages/coding-classes-for-la-martiniere-boys-kolkata.html 200
 /coding-classes-for-la-martiniere-girls-kolkata /src/pages/coding-classes-for-la-martiniere-girls-kolkata.html 200

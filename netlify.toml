@@ -421,6 +421,12 @@
   to = "/src/pages/refund.html"
   status = 200
 
+# Schools Hub Page
+[[redirects]]
+  from = "/schools"
+  to = "/src/pages/schools.html"
+  status = 200
+
 # School-Specific Landing Pages
 [[redirects]]
   from = "/coding-classes-for-la-martiniere-boys-kolkata"
