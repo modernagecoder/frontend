@@ -137,7 +137,8 @@
       "Bash(npm run:*)",
       "mcp__gsc__list_sites",
       "mcp__gsc__list_sitemaps",
-      "mcp__gsc__index_inspect"
+      "mcp__gsc__index_inspect",
+      "Bash(find:*)"
     ]
   }
 }
