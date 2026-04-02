@@ -340,6 +340,46 @@
   status = 200
 
 [[redirects]]
+  from = "/best-coding-class-in-jaipur"
+  to = "/src/pages/best-coding-class-in-jaipur.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-lucknow"
+  to = "/src/pages/best-coding-class-in-lucknow.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-surat"
+  to = "/src/pages/best-coding-class-in-surat.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-chandigarh"
+  to = "/src/pages/best-coding-class-in-chandigarh.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-kochi"
+  to = "/src/pages/best-coding-class-in-kochi.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-nagpur"
+  to = "/src/pages/best-coding-class-in-nagpur.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-bhopal"
+  to = "/src/pages/best-coding-class-in-bhopal.html"
+  status = 200
+
+[[redirects]]
+  from = "/best-coding-class-in-coimbatore"
+  to = "/src/pages/best-coding-class-in-coimbatore.html"
+  status = 200
+
+[[redirects]]
   from = "/love"
   to = "/lovewall/dist/index.html"
   status = 200
@@ -347,6 +387,27 @@
 [[redirects]]
   from = "/summer-coding-camp"
   to = "/src/pages/summer-coding-camp.html"
+  status = 200
+
+# Winter Coding Camp Pages
+[[redirects]]
+  from = "/winter-coding-camp"
+  to = "/src/pages/winter-coding-camp.html"
+  status = 200
+
+[[redirects]]
+  from = "/winter-coding-camp-kids"
+  to = "/src/pages/winter-coding-camp-kids.html"
+  status = 200
+
+[[redirects]]
+  from = "/winter-coding-camp-teens"
+  to = "/src/pages/winter-coding-camp-teens.html"
+  status = 200
+
+[[redirects]]
+  from = "/winter-coding-camp-adults"
+  to = "/src/pages/winter-coding-camp-adults.html"
   status = 200
 
 # Cancellation & Refund Policy Pages

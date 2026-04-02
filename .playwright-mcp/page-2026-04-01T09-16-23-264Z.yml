@@ -1,0 +1,412 @@
+- generic [active] [ref=e1]:
+  - navigation "Winter Camp Navigation" [ref=e2]:
+    - generic [ref=e3]:
+      - link "Winter Camp" [ref=e4] [cursor=pointer]:
+        - /url: /winter-coding-camp
+        - img [ref=e5]
+        - generic [ref=e14]: Winter Camp
+      - generic [ref=e15]:
+        - link "Home" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "All Tracks" [ref=e17] [cursor=pointer]:
+          - /url: /winter-coding-camp#programs
+        - link "Curriculum" [ref=e18] [cursor=pointer]:
+          - /url: "#curriculum"
+        - link "Pricing" [ref=e19] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Enroll Now" [ref=e20] [cursor=pointer]:
+          - /url: /book-demo
+  - main [ref=e21]:
+    - region "Build Real Projects" [ref=e22]:
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e27]: Teen Developers Track
+      - heading "Build Real Projects" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Ages 12–17 · Worldwide
+      - paragraph [ref=e30]: Go beyond tutorials. Learn professional languages used by engineers at Google, Meta, and Apple. Build a portfolio that makes your college applications and résumé stand out from thousands of others. Join teens from 30+ countries for the most productive winter break of your life.
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - strong [ref=e33]: "16"
+          - text: Live Sessions
+        - listitem [ref=e34]:
+          - strong [ref=e35]: ₹4,999
+          - text: Group Class Fee
+        - listitem [ref=e36]:
+          - strong [ref=e37]: 5+
+          - text: Portfolio Projects
+      - link "View Pricing & Enroll" [ref=e38] [cursor=pointer]:
+        - /url: "#pricing"
+      - img "Teens learning to code during winter camp — building real web apps and AI projects" [ref=e41]
+    - region "Course Pricing" [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Investment
+          - heading "Course Pricing" [level=2] [ref=e46]
+          - paragraph [ref=e47]: An investment that pays dividends for life
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Most Popular
+            - generic [ref=e51]:
+              - heading "Group Classes" [level=3] [ref=e52]
+              - paragraph [ref=e53]: Collaborative learning with peers worldwide
+            - generic [ref=e54]:
+              - generic [ref=e55]: ₹
+              - generic [ref=e56]: 4,999
+              - generic [ref=e57]: for 16 sessions
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - img [ref=e60]
+                - text: 16 Live Interactive Sessions
+              - listitem [ref=e62]:
+                - img [ref=e63]
+                - text: Small Batch (Max 8 Students)
+              - listitem [ref=e65]:
+                - img [ref=e66]
+                - text: 5+ Portfolio-Ready Projects
+              - listitem [ref=e68]:
+                - img [ref=e69]
+                - text: Industry-Recognized Certificate
+              - listitem [ref=e71]:
+                - img [ref=e72]
+                - text: 24/7 Doubt Support
+              - listitem [ref=e74]:
+                - img [ref=e75]
+                - text: Session Recordings Access
+              - listitem [ref=e77]:
+                - img [ref=e78]
+                - text: Career Guidance Session
+            - button "Enroll Now — Pay ₹4,999" [ref=e80] [cursor=pointer]
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - heading "Personalised 1:1 Classes" [level=3] [ref=e83]
+              - paragraph [ref=e84]: Accelerated learning journey
+            - generic [ref=e85]:
+              - generic [ref=e86]: Custom Pricing
+              - generic [ref=e87]: Based on your goals
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - img [ref=e90]
+                - text: 1-on-1 with Expert Mentor
+              - listitem [ref=e92]:
+                - img [ref=e93]
+                - text: Fully Flexible Schedule
+              - listitem [ref=e95]:
+                - img [ref=e96]
+                - text: Customised Curriculum
+              - listitem [ref=e98]:
+                - img [ref=e99]
+                - text: Advanced Topics Available
+              - listitem [ref=e101]:
+                - img [ref=e102]
+                - text: College Application Support
+            - generic [ref=e104]:
+              - img [ref=e106]
+              - generic [ref=e108]:
+                - generic [ref=e109]: Talk to Counsellor
+                - strong [ref=e110]: "9123366161"
+            - link "Call Now" [ref=e111] [cursor=pointer]:
+              - /url: tel:9123366161
+    - region "What You'll Master" [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]: Skills You'll Gain
+          - heading "What You'll Master" [level=2] [ref=e116]
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - img [ref=e120]
+            - heading "HTML, CSS & JavaScript" [level=3] [ref=e123]
+            - paragraph [ref=e124]: Build beautiful, interactive websites from scratch. The foundational trio of web development used by every professional developer on the planet.
+          - generic [ref=e125]:
+            - img [ref=e127]
+            - heading "Python Programming" [level=3] [ref=e131]
+            - paragraph [ref=e132]: The world's most in-demand language. Used in AI, data science, web development, and automation — a skill that's valued in every industry.
+          - generic [ref=e133]:
+            - img [ref=e135]
+            - heading "AI Tools & Applications" [level=3] [ref=e139]
+            - paragraph [ref=e140]: Leverage ChatGPT, Gemini, and AI coding assistants like Copilot. Learn to build apps that use AI APIs — skills that define the future of every career.
+          - generic [ref=e141]:
+            - img [ref=e143]
+            - heading "App Development" [level=3] [ref=e145]
+            - paragraph [ref=e146]: Create functional, mobile-friendly applications. Understand the full development lifecycle from idea to deployment — just like real-world engineers.
+          - generic [ref=e147]:
+            - img [ref=e149]
+            - heading "Project Deployment" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Deploy your projects live on the internet using GitHub Pages and modern hosting platforms. Show the world what you've built!
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - heading "Portfolio Construction" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Build a personal portfolio website showcasing all your projects. A live, deployed portfolio that stands out in college applications and early internships.
+    - region "16-Session Curriculum" [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: Complete Syllabus
+          - heading "16-Session Curriculum" [level=2] [ref=e165]
+          - paragraph [ref=e166]: Industry-aligned learning path designed for aspiring teen developers
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Week 1
+              - heading "Web Development Fundamentals" [level=3] [ref=e171]
+              - generic [ref=e172]: Sessions 1–6
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175]: "01"
+                - generic [ref=e176]:
+                  - strong [ref=e177]: Introduction to Web Development
+                  - paragraph [ref=e178]: How the web works, browsers, servers, setting up VS Code, your first HTML page
+              - generic [ref=e179]:
+                - generic [ref=e180]: "02"
+                - generic [ref=e181]:
+                  - strong [ref=e182]: HTML Deep Dive
+                  - paragraph [ref=e183]: Semantic HTML5, forms, tables, media elements, building structured web pages
+              - generic [ref=e184]:
+                - generic [ref=e185]: "03"
+                - generic [ref=e186]:
+                  - strong [ref=e187]: CSS Fundamentals
+                  - paragraph [ref=e188]: Selectors, colours, typography, box model, creating beautiful visual layouts
+              - generic [ref=e189]:
+                - generic [ref=e190]: "04"
+                - generic [ref=e191]:
+                  - strong [ref=e192]: CSS Flexbox & Grid
+                  - paragraph [ref=e193]: Modern layout techniques, responsive design principles, media queries
+              - generic [ref=e194]:
+                - generic [ref=e195]: "05"
+                - generic [ref=e196]:
+                  - strong [ref=e197]: JavaScript Basics
+                  - paragraph [ref=e198]: Variables, data types, operators, functions — writing your first interactive scripts
+              - generic [ref=e199]:
+                - generic [ref=e200]: "06"
+                - generic [ref=e201]:
+                  - strong [ref=e202]: "Project 1: Personal Landing Page"
+                  - paragraph [ref=e203]: Build a complete responsive landing page with HTML, CSS, and basic interactivity
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: Week 2
+              - heading "JavaScript & Python Programming" [level=3] [ref=e207]
+              - generic [ref=e208]: Sessions 7–11
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e211]: "07"
+                - generic [ref=e212]:
+                  - strong [ref=e213]: "JavaScript: DOM Manipulation"
+                  - paragraph [ref=e214]: Selecting elements, event listeners, changing content dynamically in real time
+              - generic [ref=e215]:
+                - generic [ref=e216]: "08"
+                - generic [ref=e217]:
+                  - strong [ref=e218]: "Project 2: Interactive Quiz App"
+                  - paragraph [ref=e219]: Build a fully functional quiz application with real-time scoring and feedback
+              - generic [ref=e220]:
+                - generic [ref=e221]: "09"
+                - generic [ref=e222]:
+                  - strong [ref=e223]: Introduction to Python
+                  - paragraph [ref=e224]: Python setup, syntax, variables, input/output — comparison with JavaScript
+              - generic [ref=e225]:
+                - generic [ref=e226]: "10"
+                - generic [ref=e227]:
+                  - strong [ref=e228]: "Python: Data Structures"
+                  - paragraph [ref=e229]: Lists, dictionaries, loops, conditionals, functions for code organisation
+              - generic [ref=e230]:
+                - generic [ref=e231]: "11"
+                - generic [ref=e232]:
+                  - strong [ref=e233]: "Project 3: Python Automation Script"
+                  - paragraph [ref=e234]: Create a useful automation tool — file organiser, web scraper, or data processor
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]: Week 3
+              - heading "AI Integration & Portfolio Launch" [level=3] [ref=e238]
+              - generic [ref=e239]: Sessions 12–16
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: "12"
+                - generic [ref=e243]:
+                  - strong [ref=e244]: AI Tools for Developers
+                  - paragraph [ref=e245]: Using ChatGPT for coding, AI image generation, GitHub Copilot introduction
+              - generic [ref=e246]:
+                - generic [ref=e247]: "13"
+                - generic [ref=e248]:
+                  - strong [ref=e249]: Building with AI APIs
+                  - paragraph [ref=e250]: Integrating AI capabilities into web applications — real API calls and JSON
+              - generic [ref=e251]:
+                - generic [ref=e252]: "14"
+                - generic [ref=e253]:
+                  - strong [ref=e254]: "Project 4: AI-Powered Web App"
+                  - paragraph [ref=e255]: Build a web application that integrates real AI functionality via APIs
+              - generic [ref=e256]:
+                - generic [ref=e257]: "15"
+                - generic [ref=e258]:
+                  - strong [ref=e259]: Portfolio Website & Deployment
+                  - paragraph [ref=e260]: Build your developer portfolio, deploy to GitHub Pages, set up custom domain
+              - generic [ref=e261]:
+                - generic [ref=e262]: "16"
+                - generic [ref=e263]:
+                  - strong [ref=e264]: "Project 5: Showcase & Graduation"
+                  - paragraph [ref=e265]: Present projects, peer code review, receive certificate, career path guidance
+    - region "Technologies You'll Learn" [ref=e266]:
+      - generic [ref=e267]:
+        - heading "Technologies You'll Learn" [level=2] [ref=e269]
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img [ref=e273]
+            - generic [ref=e276]: HTML5
+          - generic [ref=e277]:
+            - img [ref=e279]
+            - generic [ref=e281]: CSS3
+          - generic [ref=e282]:
+            - img [ref=e284]
+            - generic [ref=e286]: JavaScript
+          - generic [ref=e287]:
+            - img [ref=e289]
+            - generic [ref=e292]: Python
+          - generic [ref=e293]:
+            - img [ref=e295]
+            - generic [ref=e297]: AI Tools
+          - generic [ref=e298]:
+            - img [ref=e300]
+            - generic [ref=e302]: GitHub
+    - region "Projects You'll Build" [ref=e303]:
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - generic [ref=e306]: Your Portfolio
+          - heading "Projects You'll Build" [level=2] [ref=e307]
+        - generic [ref=e308]:
+          - generic [ref=e309]:
+            - generic [ref=e310]: "01"
+            - heading "Personal Landing Page" [level=4] [ref=e311]
+            - paragraph [ref=e312]: A responsive, professional landing page that showcases you — deployed live
+          - generic [ref=e313]:
+            - generic [ref=e314]: "02"
+            - heading "Interactive Quiz App" [level=4] [ref=e315]
+            - paragraph [ref=e316]: A JavaScript-powered quiz with real-time scoring and dynamic feedback
+          - generic [ref=e317]:
+            - generic [ref=e318]: "03"
+            - heading "Python Automation Script" [level=4] [ref=e319]
+            - paragraph [ref=e320]: A useful automation tool that actually solves a real problem
+          - generic [ref=e321]:
+            - generic [ref=e322]: "04"
+            - heading "AI-Powered Web App" [level=4] [ref=e323]
+            - paragraph [ref=e324]: A web application with integrated AI capabilities via real API calls
+          - generic [ref=e325]:
+            - generic [ref=e326]: "05"
+            - heading "Developer Portfolio" [level=4] [ref=e327]
+            - paragraph [ref=e328]: Your personal portfolio website — deployed, live, and shareable
+    - region "Beyond The Classroom" [ref=e329]:
+      - generic [ref=e330]:
+        - heading "Beyond The Classroom" [level=2] [ref=e332]
+        - generic [ref=e333]:
+          - generic [ref=e334]:
+            - img [ref=e336]
+            - heading "College Applications" [level=4] [ref=e339]
+            - paragraph [ref=e340]: A coding portfolio sets you apart from thousands of applicants. Show colleges what you've built — not just your grades.
+          - generic [ref=e341]:
+            - img [ref=e343]
+            - heading "Early Internships" [level=4] [ref=e346]
+            - paragraph [ref=e347]: With real coding skills and a live portfolio, you can apply for tech internships before college even starts.
+          - generic [ref=e348]:
+            - img [ref=e350]
+            - heading "Global Peer Network" [level=4] [ref=e355]
+            - paragraph [ref=e356]: Connect with ambitious peers from 30+ countries. Friendships built on shared projects — a network that outlasts the camp.
+          - generic [ref=e357]:
+            - img [ref=e359]
+            - heading "Startup Potential" [level=4] [ref=e361]
+            - paragraph [ref=e362]: Learn the skills to build your own apps and start a tech business. Many of the world's greatest founders started coding as teens.
+    - region "Frequently Asked Questions" [ref=e363]:
+      - generic [ref=e364]:
+        - generic [ref=e365]:
+          - generic [ref=e366]: Common Questions
+          - heading "Frequently Asked Questions" [level=2] [ref=e367]
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - generic [ref=e370] [cursor=pointer]:
+              - heading "Do I need prior coding experience?" [level=4] [ref=e371]
+              - img [ref=e372]
+            - paragraph [ref=e374]: No experience required! We start from the basics. If you've never written a line of code, you're in the right place. Prior exposure helps but isn't necessary.
+          - generic [ref=e375]:
+            - generic [ref=e376] [cursor=pointer]:
+              - heading "What equipment do I need?" [level=4] [ref=e377]
+              - img [ref=e378]
+            - paragraph [ref=e380]: A laptop or desktop (Windows/Mac/Linux), stable internet connection, and headphones with microphone. All software we use is free.
+          - generic [ref=e381]:
+            - generic [ref=e382] [cursor=pointer]:
+              - heading "How long is each session?" [level=4] [ref=e383]
+              - img [ref=e384]
+            - paragraph [ref=e386]: Each session is 90 minutes — long enough for meaningful learning but short enough to maintain focus. Every session includes hands-on coding practice.
+          - generic [ref=e387]:
+            - generic [ref=e388] [cursor=pointer]:
+              - heading "I'm in the US/UK/UAE — can I join?" [level=4] [ref=e389]
+              - img [ref=e390]
+            - paragraph [ref=e392]: Absolutely! We have students from 30+ countries. International students pay $60 (USD). We schedule batches across time zones — contact us to find a batch that fits your schedule.
+          - generic [ref=e393]:
+            - generic [ref=e394] [cursor=pointer]:
+              - heading "Can I use these skills for college or career?" [level=4] [ref=e395]
+              - img [ref=e396]
+            - paragraph [ref=e398]: Absolutely! HTML, CSS, JavaScript, and Python are the exact same skills used by professional developers. Your portfolio can be linked in college applications and CVs immediately.
+          - generic [ref=e399]:
+            - generic [ref=e400] [cursor=pointer]:
+              - heading "What if I miss a class?" [level=4] [ref=e401]
+              - img [ref=e402]
+            - paragraph [ref=e404]: All sessions are recorded. You can watch the recording anytime and schedule a 15-minute doubt-clearing call with the instructor if needed.
+    - region "Start Building Your Future" [ref=e405]:
+      - generic [ref=e406]:
+        - img [ref=e408]
+        - heading "Start Building Your Future" [level=2] [ref=e417]
+        - paragraph [ref=e418]: Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+        - button "Enroll Now — Pay ₹4,999" [ref=e420] [cursor=pointer]
+        - generic [ref=e421]:
+          - generic [ref=e422]: "Questions? Call or WhatsApp:"
+          - link "+91 91233 66161" [ref=e423] [cursor=pointer]:
+            - /url: tel:+919123366161
+            - strong [ref=e424]: +91 91233 66161
+  - contentinfo [ref=e425]:
+    - generic [ref=e426]: Modern Age Coders
+    - generic [ref=e427]:
+      - link "Home" [ref=e428] [cursor=pointer]:
+        - /url: /
+      - link "Winter Camp" [ref=e429] [cursor=pointer]:
+        - /url: /winter-coding-camp
+      - link "Kids Track" [ref=e430] [cursor=pointer]:
+        - /url: /winter-coding-camp-kids
+      - link "Adults Track" [ref=e431] [cursor=pointer]:
+        - /url: /winter-coding-camp-adults
+      - link "Book Demo" [ref=e432] [cursor=pointer]:
+        - /url: /book-demo
+    - paragraph [ref=e433]: © 2026 Modern Age Coders. Building the next generation of developers, worldwide.
+  - generic: ✦
+  - generic: ❄
+  - generic: ✦
+  - generic: ❆
+  - generic: ❅
+  - generic: ❆
+  - generic: ✦
+  - generic: ❄
+  - generic: ∗
+  - generic: ❄
+  - generic: ❅
+  - generic: ·
+  - generic: ❆
+  - generic: ❅
+  - generic: ✦
+  - generic: ✦
+  - generic: ❅
+  - generic: ✦
+  - generic: ❄
+  - generic: ·
+  - generic: ❄
+  - generic: ❅
+  - generic: ❆
+  - generic: ∗
+  - generic: ❅
+  - generic: ❆
+  - generic: ❆
+  - generic: ❆
+  - generic: ·
+  - generic: ✦
+  - generic: ❅
+  - generic: ❄
+  - generic: ❄
+  - generic: ❄
+  - generic: ∗
+  - generic: ❅
+  - generic: ✦
+  - generic: ❄
+  - generic: ❅
+  - generic: ❅

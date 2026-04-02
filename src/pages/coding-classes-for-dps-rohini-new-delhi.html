@@ -199,6 +199,9 @@
             padding: 10px !important;
         }
     </style>
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -2421,7 +2424,7 @@
 
                         const data = await response.json();
 
-                        if (response.ok) {
+                        if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "Demo Booking", content_category: "Free Trial" }); }
                             showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
                             tryCodeForm.reset();
                             // Re-fill the school name after reset

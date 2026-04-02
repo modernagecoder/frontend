@@ -185,6 +185,9 @@
     }
     </script>
 
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1783,6 +1786,8 @@
                             method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data)
                         });
                         if (response.ok) {
+                            // Fire Meta Pixel Lead event
+                            if (typeof fbq === 'function') { fbq('track', 'Lead', { content_name: 'Demo Booking', content_category: 'Free Trial' }); }
                             alert('Thanks! We\'ll be in touch within 24 hours.');
                             form.reset();
                         } else { throw new Error('Submission failed'); }

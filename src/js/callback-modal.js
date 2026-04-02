@@ -63,6 +63,10 @@ window.submitCallback = function(e) {
     .then(function(data) {
         console.log('Response:', data);
         if (data.success) {
+            // Fire Meta Pixel Contact event
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+            }
             if (form) form.style.display = 'none';
             if (success) success.style.display = 'block';
             setTimeout(window.closeCallbackModal, 3000);

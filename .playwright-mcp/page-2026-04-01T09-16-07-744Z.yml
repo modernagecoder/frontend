@@ -1,0 +1,412 @@
+- generic [active] [ref=e1]:
+  - navigation "Winter Camp Navigation" [ref=e2]:
+    - generic [ref=e3]:
+      - link "Winter Camp" [ref=e4] [cursor=pointer]:
+        - /url: /winter-coding-camp
+        - img [ref=e5]
+        - generic [ref=e14]: Winter Camp
+      - generic [ref=e15]:
+        - link "Home" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "All Tracks" [ref=e17] [cursor=pointer]:
+          - /url: /winter-coding-camp#programs
+        - link "Curriculum" [ref=e18] [cursor=pointer]:
+          - /url: "#curriculum"
+        - link "Pricing" [ref=e19] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Enroll Now" [ref=e20] [cursor=pointer]:
+          - /url: /book-demo
+  - main [ref=e21]:
+    - region "Build Amazing Things" [ref=e22]:
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e26]: Kids Coding Track
+      - heading "Build Amazing Things" [level=1] [ref=e27]
+      - paragraph [ref=e28]: Ages 6–11 · Worldwide
+      - paragraph [ref=e29]: Your child doesn't just play games — they build them. Our winter coding camp for kids turns curious young minds into confident creators. Using Scratch and Python, they'll bring their imagination to life in 16 fun-packed live sessions.
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - strong [ref=e32]: "16"
+          - text: Live Sessions
+        - listitem [ref=e33]:
+          - strong [ref=e34]: ₹4,999
+          - text: Group Class Fee
+        - listitem [ref=e35]:
+          - strong [ref=e36]: Ages 6–11
+          - text: Perfect For
+      - link "View Pricing & Enroll" [ref=e37] [cursor=pointer]:
+        - /url: "#pricing"
+      - img "Kids learning to code in winter camp — building games with Scratch and Python" [ref=e40]
+    - region "Course Pricing" [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]: Investment
+          - heading "Course Pricing" [level=2] [ref=e45]
+          - paragraph [ref=e46]: The best gift you can give your child this winter
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - generic [ref=e49]: Most Popular
+            - generic [ref=e50]:
+              - heading "Group Classes" [level=3] [ref=e51]
+              - paragraph [ref=e52]: Collaborative learning with peers worldwide
+            - generic [ref=e53]:
+              - generic [ref=e54]: ₹
+              - generic [ref=e55]: 4,999
+              - generic [ref=e56]: for 16 sessions
+            - list [ref=e57]:
+              - listitem [ref=e58]:
+                - img [ref=e59]
+                - text: 16 Live Interactive Sessions
+              - listitem [ref=e61]:
+                - img [ref=e62]
+                - text: Small Batch (Max 8 Kids)
+              - listitem [ref=e64]:
+                - img [ref=e65]
+                - text: 5+ Fun Coding Projects
+              - listitem [ref=e67]:
+                - img [ref=e68]
+                - text: Industry Certificate
+              - listitem [ref=e70]:
+                - img [ref=e71]
+                - text: 24/7 Doubt Support
+              - listitem [ref=e73]:
+                - img [ref=e74]
+                - text: Session Recordings Access
+              - listitem [ref=e76]:
+                - img [ref=e77]
+                - text: Parent Progress Reports
+            - button "Enroll Now — Pay ₹4,999" [ref=e79] [cursor=pointer]
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - heading "Personalised 1-on-1" [level=3] [ref=e82]
+              - paragraph [ref=e83]: Fully focused on your child
+            - generic [ref=e84]:
+              - generic [ref=e85]: Custom Pricing
+              - generic [ref=e86]: Based on your child's goals
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - img [ref=e89]
+                - text: 1-on-1 with Expert Mentor
+              - listitem [ref=e91]:
+                - img [ref=e92]
+                - text: Fully Flexible Schedule
+              - listitem [ref=e94]:
+                - img [ref=e95]
+                - text: Custom Learning Path
+              - listitem [ref=e97]:
+                - img [ref=e98]
+                - text: Moves at Your Child's Pace
+              - listitem [ref=e100]:
+                - img [ref=e101]
+                - text: Weekly Parent Updates
+            - generic [ref=e103]:
+              - img [ref=e105]
+              - generic [ref=e107]:
+                - generic [ref=e108]: Talk to Counsellor
+                - strong [ref=e109]: "9123366161"
+            - link "Call Now" [ref=e110] [cursor=pointer]:
+              - /url: tel:9123366161
+    - region "What Your Child Will Master" [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: Skills They'll Gain
+          - heading "What Your Child Will Master" [level=2] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - img [ref=e119]
+            - heading "Game Development" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Design and build their own video games from scratch. Physics, animations, scoring — the works. Kids go from players to creators.
+          - generic [ref=e123]:
+            - img [ref=e125]
+            - heading "Scratch Programming" [level=3] [ref=e129]
+            - paragraph [ref=e130]: The world's most popular visual coding language for kids. Drag-and-drop logic, sprite animations, interactive stories — all designed for young learners.
+          - generic [ref=e131]:
+            - img [ref=e133]
+            - heading "Python Basics" [level=3] [ref=e136]
+            - paragraph [ref=e137]: Introduction to real-world programming. Variables, loops, conditionals — concepts that will serve them for life. Made fun and approachable for ages 6+.
+          - generic [ref=e138]:
+            - img [ref=e140]
+            - heading "Creative Storytelling" [level=3] [ref=e142]
+            - paragraph [ref=e143]: Code interactive stories, animations, and presentations. Kids learn to express ideas digitally — a superpower in the modern world.
+          - generic [ref=e144]:
+            - img [ref=e146]
+            - heading "Collaborative Problem-Solving" [level=3] [ref=e151]
+            - paragraph [ref=e152]: Work with peers from around the world to tackle coding challenges. Builds teamwork, communication, and global perspective.
+          - generic [ref=e153]:
+            - img [ref=e155]
+            - heading "Computational Thinking" [level=3] [ref=e158]
+            - paragraph [ref=e159]: Learn to break big problems into small steps, spot patterns, and think algorithmically — skills that help in every subject, not just coding.
+    - region "16-Session Curriculum" [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - generic [ref=e163]: Complete Syllabus
+          - heading "16-Session Curriculum" [level=2] [ref=e164]
+          - paragraph [ref=e165]: A carefully designed journey from curious beginner to confident creator
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e169]: Week 1
+              - heading "Introduction to Coding & Scratch" [level=3] [ref=e170]
+              - generic [ref=e171]: Sessions 1–6
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: "01"
+                - generic [ref=e175]:
+                  - strong [ref=e176]: Welcome to the World of Code
+                  - paragraph [ref=e177]: What is coding, what can you build, and how computers think — with fun demos
+              - generic [ref=e178]:
+                - generic [ref=e179]: "02"
+                - generic [ref=e180]:
+                  - strong [ref=e181]: Scratch Setup & First Animation
+                  - paragraph [ref=e182]: Create a Scratch account, meet sprites, and build your first moving character
+              - generic [ref=e183]:
+                - generic [ref=e184]: "03"
+                - generic [ref=e185]:
+                  - strong [ref=e186]: Events, Motion & Sound
+                  - paragraph [ref=e187]: Make things move, make things talk, and respond to keyboard and mouse
+              - generic [ref=e188]:
+                - generic [ref=e189]: "04"
+                - generic [ref=e190]:
+                  - strong [ref=e191]: Loops & Conditions
+                  - paragraph [ref=e192]: Repeat actions with loops, make decisions with if/else — the two most powerful tools in coding
+              - generic [ref=e193]:
+                - generic [ref=e194]: "05"
+                - generic [ref=e195]:
+                  - strong [ref=e196]: Variables & Score Keeping
+                  - paragraph [ref=e197]: Understand variables by building a simple score system for your first game
+              - generic [ref=e198]:
+                - generic [ref=e199]: "06"
+                - generic [ref=e200]:
+                  - strong [ref=e201]: "Project 1: Interactive Story"
+                  - paragraph [ref=e202]: Build a fully interactive animated story with characters, dialogue, and user choices
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: Week 2
+              - heading "Game Building & Python Introduction" [level=3] [ref=e206]
+              - generic [ref=e207]: Sessions 7–11
+            - generic [ref=e208]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: "07"
+                - generic [ref=e211]:
+                  - strong [ref=e212]: Game Design Thinking
+                  - paragraph [ref=e213]: "How games are designed: challenges, rewards, and player experience — plan your own"
+              - generic [ref=e214]:
+                - generic [ref=e215]: "08"
+                - generic [ref=e216]:
+                  - strong [ref=e217]: "Project 2: Platformer Game"
+                  - paragraph [ref=e218]: Build a multi-level platformer game with enemies, collectibles, and a win condition
+              - generic [ref=e219]:
+                - generic [ref=e220]: "09"
+                - generic [ref=e221]:
+                  - strong [ref=e222]: Hello Python!
+                  - paragraph [ref=e223]: Why Python is the world's most popular language. Write your first Python programs
+              - generic [ref=e224]:
+                - generic [ref=e225]: "10"
+                - generic [ref=e226]:
+                  - strong [ref=e227]: "Python: Input, Output & Logic"
+                  - paragraph [ref=e228]: Ask the user questions, process answers, and make the computer "decide" things
+              - generic [ref=e229]:
+                - generic [ref=e230]: "11"
+                - generic [ref=e231]:
+                  - strong [ref=e232]: "Project 3: Python Quiz Game"
+                  - paragraph [ref=e233]: Build a fully functional text quiz with multiple questions, scoring, and a leaderboard
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - generic [ref=e236]: Week 3
+              - heading "Creative Projects & Showcase" [level=3] [ref=e237]
+              - generic [ref=e238]: Sessions 12–16
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - generic [ref=e241]: "12"
+                - generic [ref=e242]:
+                  - strong [ref=e243]: Art with Code
+                  - paragraph [ref=e244]: Use Python's Turtle module to draw incredible patterns, fractals, and digital art
+              - generic [ref=e245]:
+                - generic [ref=e246]: "13"
+                - generic [ref=e247]:
+                  - strong [ref=e248]: "Project 4: Digital Art Portfolio"
+                  - paragraph [ref=e249]: Create a mini art portfolio using Scratch and Python — patterns, animations, scenes
+              - generic [ref=e250]:
+                - generic [ref=e251]: "14"
+                - generic [ref=e252]:
+                  - strong [ref=e253]: Building Your Final Project
+                  - paragraph [ref=e254]: Choose your own final project — game, story, app, or art. Guided creation with mentor
+              - generic [ref=e255]:
+                - generic [ref=e256]: "15"
+                - generic [ref=e257]:
+                  - strong [ref=e258]: Project Polish & Testing
+                  - paragraph [ref=e259]: Test, fix bugs, add details, and prepare your project presentation
+              - generic [ref=e260]:
+                - generic [ref=e261]: "16"
+                - generic [ref=e262]:
+                  - strong [ref=e263]: "Project 5: Showcase & Graduation"
+                  - paragraph [ref=e264]: Present your projects to parents and peers, receive certificate, celebrate your journey!
+    - region "Tools Kids Will Use" [ref=e265]:
+      - generic [ref=e266]:
+        - heading "Tools Kids Will Use" [level=2] [ref=e268]
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - img [ref=e272]
+            - generic [ref=e274]: Scratch 3.0
+          - generic [ref=e275]:
+            - img [ref=e277]
+            - generic [ref=e280]: Python 3
+          - generic [ref=e281]:
+            - img [ref=e283]
+            - generic [ref=e286]: Replit IDE
+          - generic [ref=e287]:
+            - img [ref=e289]
+            - generic [ref=e291]: Game Dev
+          - generic [ref=e292]:
+            - img [ref=e294]
+            - generic [ref=e298]: Turtle Art
+          - generic [ref=e299]:
+            - img [ref=e301]
+            - generic [ref=e303]: GitHub
+    - region "Projects They'll Build" [ref=e304]:
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - generic [ref=e307]: Your Child's Portfolio
+          - heading "Projects They'll Build" [level=2] [ref=e308]
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - generic [ref=e311]: "01"
+            - heading "Interactive Story" [level=4] [ref=e312]
+            - paragraph [ref=e313]: A Scratch animated story with multiple characters and user choices
+          - generic [ref=e314]:
+            - generic [ref=e315]: "02"
+            - heading "Platformer Game" [level=4] [ref=e316]
+            - paragraph [ref=e317]: A multi-level game with enemies, collectibles, and win/lose states
+          - generic [ref=e318]:
+            - generic [ref=e319]: "03"
+            - heading "Python Quiz Game" [level=4] [ref=e320]
+            - paragraph [ref=e321]: A text-based quiz with scoring, multiple questions, and a leaderboard
+          - generic [ref=e322]:
+            - generic [ref=e323]: "04"
+            - heading "Digital Art Portfolio" [level=4] [ref=e324]
+            - paragraph [ref=e325]: Generative art patterns and animations made with Python Turtle
+          - generic [ref=e326]:
+            - generic [ref=e327]: "05"
+            - heading "Final Showcase Project" [level=4] [ref=e328]
+            - paragraph [ref=e329]: A self-chosen final project — presented to parents and peers on graduation day
+    - region "Why Parents Love This" [ref=e330]:
+      - generic [ref=e331]:
+        - heading "Why Parents Love This" [level=2] [ref=e333]
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - img [ref=e337]
+            - heading "STEM Foundation" [level=4] [ref=e340]
+            - paragraph [ref=e341]: Coding skills complement school maths and science. Kids who code perform better across all STEM subjects.
+          - generic [ref=e342]:
+            - img [ref=e344]
+            - heading "Screen Time with Purpose" [level=4] [ref=e346]
+            - paragraph [ref=e347]: Instead of consuming content passively, your child becomes a creator. Every hour on screen is an hour building real skills.
+          - generic [ref=e348]:
+            - img [ref=e350]
+            - heading "Global Friends" [level=4] [ref=e355]
+            - paragraph [ref=e356]: Your child connects with peers from around the world. Friendships, shared projects, and a global mindset from age 6.
+          - generic [ref=e357]:
+            - img [ref=e359]
+            - heading "Weekly Progress Reports" [level=4] [ref=e362]
+            - paragraph [ref=e363]: You get regular updates on what your child learned, built, and achieved. Stay informed and celebrate every milestone together.
+    - region "Frequently Asked Questions" [ref=e364]:
+      - generic [ref=e365]:
+        - generic [ref=e366]:
+          - generic [ref=e367]: Common Questions
+          - heading "Frequently Asked Questions" [level=2] [ref=e368]
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - generic [ref=e371] [cursor=pointer]:
+              - heading "Does my child need any prior coding experience?" [level=4] [ref=e372]
+              - img [ref=e373]
+            - paragraph [ref=e375]: Not at all! We start completely from scratch (pun intended). The first session assumes zero experience. We have had kids as young as 5 thrive in our program.
+          - generic [ref=e376]:
+            - generic [ref=e377] [cursor=pointer]:
+              - heading "What equipment does my child need?" [level=4] [ref=e378]
+              - img [ref=e379]
+            - paragraph [ref=e381]: A laptop or desktop (Windows, Mac, or Linux), a stable internet connection, and headphones with a microphone. All software is free — just a web browser required for Scratch.
+          - generic [ref=e382]:
+            - generic [ref=e383] [cursor=pointer]:
+              - heading "How long is each session?" [level=4] [ref=e384]
+              - img [ref=e385]
+            - paragraph [ref=e387]: 60 to 75 minutes per session — long enough for meaningful learning, short enough to keep kids engaged. Sessions are interactive with breaks built in.
+          - generic [ref=e388]:
+            - generic [ref=e389] [cursor=pointer]:
+              - heading "My child is 5. Is that too young?" [level=4] [ref=e390]
+              - img [ref=e391]
+            - paragraph [ref=e393]: We have successfully taught children as young as 5. Contact us so we can assess your child's readiness and match them to the right batch and mentor.
+          - generic [ref=e394]:
+            - generic [ref=e395] [cursor=pointer]:
+              - heading "Will my child be safe online?" [level=4] [ref=e396]
+              - img [ref=e397]
+            - paragraph [ref=e399]: All sessions are password-protected Zoom classrooms with trusted educators. We follow strict child-safety policies and all instructors are background-verified.
+          - generic [ref=e400]:
+            - generic [ref=e401] [cursor=pointer]:
+              - heading "What if my child misses a class?" [level=4] [ref=e402]
+              - img [ref=e403]
+            - paragraph [ref=e405]: All sessions are recorded. Your child can watch the recording anytime and schedule a 15-minute catch-up with the instructor if needed.
+    - region "Give Your Child a Head Start" [ref=e406]:
+      - generic [ref=e407]:
+        - img [ref=e409]
+        - heading "Give Your Child a Head Start" [level=2] [ref=e418]
+        - paragraph [ref=e419]: Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+        - button "Enroll Now — Pay ₹4,999" [ref=e421] [cursor=pointer]
+        - generic [ref=e422]:
+          - generic [ref=e423]: "Questions? Call or WhatsApp:"
+          - link "+91 91233 66161" [ref=e424] [cursor=pointer]:
+            - /url: tel:+919123366161
+            - strong [ref=e425]: +91 91233 66161
+  - contentinfo [ref=e426]:
+    - generic [ref=e427]: Modern Age Coders
+    - generic [ref=e428]:
+      - link "Home" [ref=e429] [cursor=pointer]:
+        - /url: /
+      - link "Winter Camp" [ref=e430] [cursor=pointer]:
+        - /url: /winter-coding-camp
+      - link "Teens Track" [ref=e431] [cursor=pointer]:
+        - /url: /winter-coding-camp-teens
+      - link "Book Demo" [ref=e432] [cursor=pointer]:
+        - /url: /book-demo
+      - link "Contact" [ref=e433] [cursor=pointer]:
+        - /url: /contact
+    - paragraph [ref=e434]: © 2026 Modern Age Coders. Building the next generation of creators, worldwide.
+  - generic: ❅
+  - generic: ✦
+  - generic: ∗
+  - generic: ✦
+  - generic: ∗
+  - generic: ❅
+  - generic: ❆
+  - generic: ∗
+  - generic: ❆
+  - generic: ∗
+  - generic: ✦
+  - generic: ·
+  - generic: ❄
+  - generic: ❆
+  - generic: ∗
+  - generic: ❄
+  - generic: ∗
+  - generic: ∗
+  - generic: ❅
+  - generic: ❅
+  - generic: ❄
+  - generic: ∗
+  - generic: ❄
+  - generic: ❆
+  - generic: ·
+  - generic: ·
+  - generic: ✦
+  - generic: ∗
+  - generic: ❄
+  - generic: ·
+  - generic: ∗
+  - generic: ❄
+  - generic: ·
+  - generic: ·
+  - generic: ✦
+  - generic: ❅
+  - generic: ·
+  - generic: ✦
+  - generic: ✦
+  - generic: ❄

@@ -193,6 +193,9 @@
     }
     </script>
 
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -261,7 +264,7 @@
 
 <body class="best-coding-page delhi-page">
     <a href="#main" class="skip-link">Skip to main content</a>
-    <canvas id="background-canvas"></canvas>
+    <canvas id="background-canvas" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:0;pointer-events:none;"></canvas>
 
     <!-- Navigation -->
     <!-- BEGIN_INLINED_NAV -->
@@ -3056,7 +3059,7 @@
             });
         }, observerOptions);
 
-        document.querySelectorAll('.section').forEach(el => {
+        document.querySelectorAll('.section:not(.hero-section)').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -3300,7 +3303,7 @@
 
                         const data = await response.json();
 
-                        if (response.ok) {
+                        if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "Demo Booking", content_category: "Free Trial" }); }
                             showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
                             tryCodeForm.reset();
 

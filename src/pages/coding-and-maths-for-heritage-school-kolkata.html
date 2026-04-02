@@ -211,6 +211,9 @@
         select.input-field option, select option { background-color: #0a0f1e !important; color: #ffffff !important; padding: 10px !important; }
     </style>
 
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
@@ -1272,7 +1275,7 @@
                 body: JSON.stringify(payload)
             });
 
-            if (response.ok) {
+            if (response.ok) { if (typeof fbq === "function") { fbq("track", "Lead", { content_name: "Demo Booking", content_category: "Free Trial" }); }
                 feedback.style.display = 'block';
                 feedback.style.background = 'rgba(16,185,129,0.15)';
                 feedback.style.color = '#10b981';

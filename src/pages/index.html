@@ -112,7 +112,11 @@
     }
     </script>
 
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://connect.facebook.net">
     <link rel="preconnect" href="https://backend-modernagecoders.vercel.app">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://lh3.googleusercontent.com">
@@ -3540,11 +3544,17 @@
                         const data = await response.json();
 
                         if (response.ok) {
+                            // Fire Meta Pixel Lead event
+                            if (typeof fbq === 'function') {
+                                fbq('track', 'Lead', {
+                                    content_name: 'Demo Booking',
+                                    content_category: 'Free Trial'
+                                });
+                            }
+
                             // Success!
                             showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
                             tryCodeForm.reset();
-
-                            // Success
                         } else {
                             // Server returned an error
                             showFeedback('error', data.message || data.error || 'Something went wrong. Please try again.');

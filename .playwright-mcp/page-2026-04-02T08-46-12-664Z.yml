@@ -1,0 +1,883 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - generic [ref=e7]:
+        - link "Modern Age Coders Logo Modern Age Coders" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "Modern Age Coders Logo" [ref=e9]
+          - generic [ref=e10]: Modern Age Coders
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Courses" [ref=e13] [cursor=pointer]:
+              - /url: /courses
+              - text: Courses
+              - img [ref=e14]
+          - listitem [ref=e16]:
+            - link "Practice" [ref=e17] [cursor=pointer]:
+              - /url: /coding-challenges
+              - text: Practice
+              - img [ref=e18]
+          - listitem [ref=e20]:
+            - link "Tools" [ref=e21] [cursor=pointer]:
+              - /url: /student-labs
+              - text: Tools
+              - img [ref=e22]
+          - listitem [ref=e24]:
+            - link "Love" [ref=e25] [cursor=pointer]:
+              - /url: /love
+              - img [ref=e26]
+              - text: Love
+              - img [ref=e28]
+          - listitem [ref=e30]:
+            - link "Pricing" [ref=e31] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e32]:
+            - link "Contact" [ref=e33] [cursor=pointer]:
+              - /url: /contact
+          - listitem [ref=e34]:
+            - link "Blog" [ref=e35] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e36]:
+            - button [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+          - listitem [ref=e39]:
+            - link "Login" [ref=e40] [cursor=pointer]:
+              - /url: https://dashboard.modernagecoders.com
+  - main [ref=e41]:
+    - generic [ref=e43]:
+      - generic [ref=e44]: LIVE ONLINE CLASSES — Trusted Coding Classes for Kids & Teens in Pune
+      - heading "Best Online Coding Classes in Pune for All Ages" [level=1] [ref=e45]:
+        - text: Best Online Coding Classes in Pune
+        - text: for All Ages
+      - paragraph [ref=e46]:
+        - text: A dedicated coding institute for students aged 8-18. From
+        - strong [ref=e47]: Hinjewadi to Hadapsar
+        - text: ","
+        - strong [ref=e48]: Wakad to Viman Nagar
+        - text: — we help Pune's young minds build real programming skills through expert-led, project-based learning.
+      - paragraph [ref=e49]: 523+ Students Enrolled | 4.9/5 Parent Rating | Serving All Pune Areas | Free Demo Class
+      - generic [ref=e50]:
+        - link "Book Free Demo Class" [ref=e51] [cursor=pointer]:
+          - /url: "#book-demo"
+        - 'link "Call: 9123366161" [ref=e52] [cursor=pointer]':
+          - /url: tel:+919123366161
+        - link "WhatsApp Us" [ref=e53] [cursor=pointer]:
+          - /url: https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Pune
+      - generic [ref=e54]:
+        - generic [ref=e55]: ★★★★★ Google Reviews
+        - generic [ref=e56]: Live Online Interactive Classes
+        - generic [ref=e57]: Certificate on Completion
+        - generic [ref=e58]: Small Batches 5-8 Students
+    - generic [ref=e61]:
+      - generic [ref=e62]: "Quick Links:"
+      - link "Kids Courses (8-12)" [ref=e63] [cursor=pointer]:
+        - /url: "#kids-courses"
+      - link "Teen Courses (13-18)" [ref=e64] [cursor=pointer]:
+        - /url: "#teen-courses"
+      - link "Pricing" [ref=e65] [cursor=pointer]:
+        - /url: "#pricing"
+      - link "Book Free Demo" [ref=e66] [cursor=pointer]:
+        - /url: "#book-demo"
+      - link "FAQs" [ref=e67] [cursor=pointer]:
+        - /url: "#faq"
+    - generic [ref=e69]:
+      - heading "Live Online Coding Classes for Kids in Pune (Age 8-12)" [level=2] [ref=e70]
+      - paragraph [ref=e71]: The best coding courses for kids in Pune — designed to spark creativity, build problem-solving skills, and make learning fun through games and animations.
+      - generic [ref=e72]:
+        - generic [ref=e73] [cursor=pointer]:
+          - img "Kids Coding with Scratch - Best coding class for kids in Pune" [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e77]: Most Popular
+            - heading "Kids Coding with Scratch" [level=3] [ref=e78]
+            - paragraph [ref=e79]: Perfect for beginners in Pune. Learn block-based coding, create games, animations, and interactive stories. The ideal starting point for young coders. No prior experience needed.
+            - list [ref=e80]:
+              - listitem [ref=e81]: ✓ Game Development Basics
+              - listitem [ref=e82]: ✓ Animation & Interactive Stories
+              - listitem [ref=e83]: ✓ Logic Building & Problem Solving
+              - listitem [ref=e84]: ✓ 10+ Projects to Build
+            - link "View Course Details →" [ref=e85]:
+              - /url: /courses/kids-coding-blocks-masterclass
+        - generic [ref=e86] [cursor=pointer]:
+          - img "Web Design for Kids - HTML CSS course in Pune" [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e90]: Creative
+            - heading "Web Design for Kids" [level=3] [ref=e91]
+            - paragraph [ref=e92]: Create colorful websites with HTML and CSS. Kids learn to build their own web pages and share them with friends and family. Perfect for creative minds in Pune.
+            - list [ref=e93]:
+              - listitem [ref=e94]: ✓ HTML Basics & Structure
+              - listitem [ref=e95]: ✓ CSS Styling & Colors
+              - listitem [ref=e96]: ✓ Fun Web Projects
+              - listitem [ref=e97]: ✓ Personal Portfolio Website
+            - link "View Course Details →" [ref=e98]:
+              - /url: /courses/kids-ai-web-development-course
+        - generic [ref=e99] [cursor=pointer]:
+          - img "Python for Kids - Programming course in Pune" [ref=e101]
+          - generic [ref=e102]:
+            - generic [ref=e103]: Advanced
+            - heading "Python for Young Coders" [level=3] [ref=e104]
+            - paragraph [ref=e105]: Start text-based coding with Python — the world's most popular programming language. Learn to create games, solve puzzles, and bring ideas to life with real programming.
+            - list [ref=e106]:
+              - listitem [ref=e107]: ✓ Python Basics & Syntax
+              - listitem [ref=e108]: ✓ Problem Solving Skills
+              - listitem [ref=e109]: ✓ Fun Game Projects
+              - listitem [ref=e110]: ✓ Introduction to AI Concepts
+            - link "View Course Details →" [ref=e111]:
+              - /url: /courses/python-ai-kids-masterclass
+      - link "View All Kids Coding Courses →" [ref=e113] [cursor=pointer]:
+        - /url: /courses/coding/kids
+    - generic [ref=e115]:
+      - heading "Live Online Coding Classes for Teens in Pune (Age 13-18)" [level=2] [ref=e116]
+      - paragraph [ref=e117]: Advanced programming classes for teens in Pune. Build real-world skills that prepare you for engineering entrance exams, college applications, and tech careers.
+      - generic [ref=e118]:
+        - generic [ref=e119] [cursor=pointer]:
+          - img "Python Programming for Teens - Best coding institute Pune" [ref=e121]
+          - generic [ref=e122]:
+            - generic [ref=e123]: Beginner Friendly
+            - heading "Python Programming" [level=3] [ref=e124]
+            - paragraph [ref=e125]: The most in-demand programming language globally. Perfect for Pune teens who want to start their coding journey with a versatile, powerful language used by Google, Netflix, and Instagram.
+            - list [ref=e126]:
+              - listitem [ref=e127]: ✓ Python Fundamentals & OOP
+              - listitem [ref=e128]: ✓ Data Structures & Algorithms
+              - listitem [ref=e129]: ✓ Automation & Scripting
+              - listitem [ref=e130]: ✓ Real-World Projects
+            - link "View Course Details →" [ref=e131]:
+              - /url: /courses/python-complete-masterclass-teens
+        - generic [ref=e132] [cursor=pointer]:
+          - img "Java Programming for Teens - Best coding class in Pune" [ref=e134]
+          - generic [ref=e135]:
+            - generic [ref=e136]: Career Ready
+            - heading "Java Programming" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Master Java — the language used by top IT companies in Hinjewadi IT Park like Infosys, TCS, and Wipro. Perfect for teens preparing for engineering and campus placements.
+            - list [ref=e139]:
+              - listitem [ref=e140]: ✓ Core Java & OOP Concepts
+              - listitem [ref=e141]: ✓ Data Structures in Java
+              - listitem [ref=e142]: ✓ Android App Development Intro
+              - listitem [ref=e143]: ✓ Industry-Standard Projects
+            - link "View Course Details →" [ref=e144]:
+              - /url: /courses/java-programming-masterclass-for-teens
+        - generic [ref=e145] [cursor=pointer]:
+          - img "Web Development for Teens - Programming classes Pune" [ref=e147]
+          - generic [ref=e148]:
+            - generic [ref=e149]: In Demand
+            - heading "Full Stack Web Development" [level=3] [ref=e150]
+            - paragraph [ref=e151]: Build complete websites from scratch. Learn HTML, CSS, JavaScript, and modern frameworks like React — skills that Pune's startup ecosystem actively seeks.
+            - list [ref=e152]:
+              - listitem [ref=e153]: ✓ HTML, CSS, JavaScript
+              - listitem [ref=e154]: ✓ React Framework
+              - listitem [ref=e155]: ✓ Backend with Node.js
+              - listitem [ref=e156]: ✓ Portfolio Projects
+            - link "View Course Details →" [ref=e157]:
+              - /url: /courses/web-development-masterclass-teens
+        - generic [ref=e158] [cursor=pointer]:
+          - img "AI Machine Learning for Teens - Coding course in Pune" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]: Future Tech
+            - heading "AI & Machine Learning" [level=3] [ref=e163]
+            - paragraph [ref=e164]: Explore the future of technology. Learn Python, build AI models, and understand how companies like Google and Amazon use machine learning. The hottest skill in tech today.
+            - list [ref=e165]:
+              - listitem [ref=e166]: ✓ Python for AI
+              - listitem [ref=e167]: ✓ Machine Learning Basics
+              - listitem [ref=e168]: ✓ Neural Networks Intro
+              - listitem [ref=e169]: ✓ Real AI Projects
+            - link "View Course Details →" [ref=e170]:
+              - /url: /courses/ai-ml-masterclass-teens
+      - link "View All Teen Coding Courses →" [ref=e172] [cursor=pointer]:
+        - /url: /courses/coding/teens
+    - generic [ref=e174]:
+      - heading "Coding Courses for College Students in Pune (Age 18+)" [level=2] [ref=e175]
+      - paragraph [ref=e176]: Industry-ready programming courses for college students from Pune University, COEP, Symbiosis, and MIT. Build skills that top companies in Hinjewadi IT Park actively seek.
+      - generic [ref=e177]:
+        - generic [ref=e178] [cursor=pointer]:
+          - img "Data Structures and Algorithms Course - Pune" [ref=e180]
+          - generic [ref=e181]:
+            - generic [ref=e182]: Interview Prep
+            - heading "Data Structures & Algorithms" [level=3] [ref=e183]
+            - paragraph [ref=e184]: Master the foundation of technical interviews. Perfect for students from COEP, Symbiosis, and Pune University preparing for placements at companies in Hinjewadi IT Park like Infosys, TCS, and Wipro.
+            - list [ref=e185]:
+              - listitem [ref=e186]: ✓ Arrays, Linked Lists, Trees & Graphs
+              - listitem [ref=e187]: ✓ Dynamic Programming & Greedy Algorithms
+              - listitem [ref=e188]: ✓ 200+ LeetCode-Style Problems
+              - listitem [ref=e189]: ✓ Mock Interviews & Competitive Programming
+            - link "View Course Details →" [ref=e190]:
+              - /url: /courses/coding/college
+        - generic [ref=e191] [cursor=pointer]:
+          - img "Full Stack Web Development Course - Pune" [ref=e193]
+          - generic [ref=e194]:
+            - generic [ref=e195]: Career Ready
+            - heading "Full Stack Web Development" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Build production-grade web applications using the MERN stack. Ideal for Pune college students looking to land internships at startups in Baner, Kharadi, and the growing Pune tech ecosystem.
+            - list [ref=e198]:
+              - listitem [ref=e199]: ✓ MERN Stack (MongoDB, Express, React, Node.js)
+              - listitem [ref=e200]: ✓ REST APIs & Database Design
+              - listitem [ref=e201]: ✓ Git, CI/CD & Cloud Deployment
+              - listitem [ref=e202]: ✓ Portfolio-Ready Capstone Project
+            - link "View Course Details →" [ref=e203]:
+              - /url: /courses/coding/college
+        - generic [ref=e204] [cursor=pointer]:
+          - img "AI and Data Science Course - Pune" [ref=e206]
+          - generic [ref=e207]:
+            - generic [ref=e208]: High Demand
+            - heading "AI & Data Science" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Dive into Python, machine learning, and data analysis. Designed for college students in Pune who want to tap into the booming AI opportunities at companies across Hinjewadi and Magarpatta.
+            - list [ref=e211]:
+              - listitem [ref=e212]: ✓ Python for Data Science & ML
+              - listitem [ref=e213]: ✓ Pandas, NumPy & Data Visualization
+              - listitem [ref=e214]: ✓ Machine Learning & Neural Networks
+              - listitem [ref=e215]: ✓ Real-World AI Projects & Kaggle Competitions
+            - link "View Course Details →" [ref=e216]:
+              - /url: /courses/coding/college
+      - link "View All College Courses →" [ref=e218] [cursor=pointer]:
+        - /url: /courses/coding/college
+    - generic [ref=e220]:
+      - heading "Mathematics Classes in Pune" [level=2] [ref=e221]
+      - paragraph [ref=e222]: Strengthen mathematical foundations alongside coding. Our maths courses complement programming skills and prepare Pune students for competitive exams like JEE, NEET, and Olympiads.
+      - generic [ref=e223]:
+        - generic [ref=e224] [cursor=pointer]:
+          - img "Elementary Mathematics - Maths classes in Pune" [ref=e226]
+          - generic [ref=e227]:
+            - generic [ref=e228]: Grade 1-5
+            - heading "Elementary Mathematics" [level=3] [ref=e229]
+            - paragraph [ref=e230]: Build strong foundations in numbers, operations, fractions, geometry, and problem-solving for grades 1-5. Perfect for Pune students in CBSE, ICSE, and State Board schools.
+            - link "View Course Details →" [ref=e231]:
+              - /url: /courses/elementary-mathematics-complete-masterclass
+        - generic [ref=e232] [cursor=pointer]:
+          - img "High School Mathematics - Maths tuition in Pune" [ref=e234]
+          - generic [ref=e235]:
+            - generic [ref=e236]: Grade 9-12
+            - heading "High School Mathematics" [level=3] [ref=e237]
+            - paragraph [ref=e238]: Master algebra, geometry, trigonometry, pre-calculus, and calculus for grades 9-12. Aligned with CBSE, ICSE, and Maharashtra State Board curriculum.
+            - link "View Course Details →" [ref=e239]:
+              - /url: /courses/complete-high-school-mathematics-mastery
+        - generic [ref=e240] [cursor=pointer]:
+          - img "Olympiad Mathematics - Competition prep in Pune" [ref=e242]
+          - generic [ref=e243]:
+            - generic [ref=e244]: Competition
+            - heading "Olympiad & Competition Math" [level=3] [ref=e245]
+            - paragraph [ref=e246]: Master advanced problem-solving techniques and prepare for IMO, PRMO, RMO, and other mathematical competitions. For Pune's brightest young mathematicians.
+            - link "View Course Details →" [ref=e247]:
+              - /url: /courses/olympiad-competition-mathematics-mastery
+      - link "View All Mathematics Courses →" [ref=e249] [cursor=pointer]:
+        - /url: /courses/mathematics
+    - generic [ref=e251]:
+      - heading "Why Every Child in Pune Should Learn Coding" [level=2] [ref=e252]
+      - paragraph [ref=e253]: Pune is India's education hub and emerging tech capital. With IT giants in Hinjewadi and startups flourishing across the city, coding skills are no longer optional — they're essential for your child's future success.
+      - generic [ref=e254]:
+        - generic [ref=e256]:
+          - generic [ref=e258]: "1"
+          - generic [ref=e259]:
+            - heading "Develops Problem-Solving Skills" [level=3] [ref=e260]
+            - paragraph [ref=e261]: Coding teaches children to break down complex problems into smaller, manageable steps. This logical thinking helps in mathematics, science, and everyday decision-making — skills that Pune's competitive academic environment demands.
+        - generic [ref=e263]:
+          - generic [ref=e265]: "2"
+          - generic [ref=e266]:
+            - heading "Future-Proof Career Skills" [level=3] [ref=e267]
+            - paragraph [ref=e268]: With Hinjewadi IT Park housing companies like Infosys, TCS, and Wipro, Pune offers tremendous tech career opportunities. Children who learn coding early have a significant advantage in engineering entrance exams and future job markets.
+        - generic [ref=e270]:
+          - generic [ref=e272]: "3"
+          - generic [ref=e273]:
+            - heading "Boosts Creativity & Innovation" [level=3] [ref=e274]
+            - paragraph [ref=e275]: Coding isn't just about typing commands — it's about creating. Children learn to build games, animations, websites, and apps. This creative outlet transforms screen time from passive consumption to active creation.
+        - generic [ref=e277]:
+          - generic [ref=e279]: "4"
+          - generic [ref=e280]:
+            - heading "NEP 2020 & School Curriculum" [level=3] [ref=e281]
+            - paragraph [ref=e282]: India's National Education Policy 2020 mandates coding from Class 6. Many CBSE, ICSE, and State Board schools in Pune now include programming. Early exposure gives your child a head start over classmates.
+        - generic [ref=e284]:
+          - generic [ref=e286]: "5"
+          - generic [ref=e287]:
+            - heading "Competitive Exam Advantage" [level=3] [ref=e288]
+            - paragraph [ref=e289]: JEE, NEET, and other competitive exams increasingly test logical reasoning and computational thinking. Coding practice strengthens these skills naturally, giving Pune students an edge in these crucial examinations.
+        - generic [ref=e291]:
+          - generic [ref=e293]: "6"
+          - generic [ref=e294]:
+            - heading "From Gaming to Game-Making" [level=3] [ref=e295]
+            - paragraph [ref=e296]: Instead of just playing games, children learn to create them. This transforms their relationship with technology from passive consumer to active creator — a mindset shift that benefits them throughout life.
+    - generic [ref=e298]:
+      - heading "Why Pune Parents Choose Modern Age Coders" [level=2] [ref=e299]
+      - paragraph [ref=e300]: Pune is known for its education-first mindset. Our coding classes are designed to match what Pune families expect — quality instruction, measurable results, and honest value.
+      - generic [ref=e301]:
+        - generic [ref=e302]:
+          - img [ref=e304]
+          - heading "Expert Instructors" [level=3] [ref=e306]
+          - paragraph [ref=e307]: Our instructors come from top tech backgrounds with industry experience from companies in Hinjewadi IT Park — the quality Pune's competitive parents expect.
+        - generic [ref=e308]:
+          - img [ref=e310]
+          - heading "Project-Based Learning" [level=3] [ref=e312]
+          - paragraph [ref=e313]: Students build real games, websites, and apps. Practical skills that create a portfolio and demonstrate real competence to schools and future employers.
+        - generic [ref=e314]:
+          - img [ref=e316]
+          - heading "Flexible Timings" [level=3] [ref=e318]
+          - paragraph [ref=e319]: Weekend and evening batches that fit around school, tuitions, and Pune's busy student schedules. Morning, afternoon, and evening slots available.
+        - generic [ref=e320]:
+          - img [ref=e322]
+          - heading "Affordable Fees" [level=3] [ref=e324]
+          - paragraph [ref=e325]: Premium quality at honest prices. Starting at ₹1499/month — quality education that doesn't strain your budget. No hidden fees or surprise charges.
+        - generic [ref=e326]:
+          - img [ref=e328]
+          - heading "Recognized Certificates" [level=3] [ref=e330]
+          - paragraph [ref=e331]: Every student receives a completion certificate — valuable for school portfolios, college applications, and demonstrating coding proficiency.
+        - generic [ref=e332]:
+          - img [ref=e334]
+          - heading "Recorded Sessions" [level=3] [ref=e336]
+          - paragraph [ref=e337]: Missed a class? All sessions are recorded so your child can catch up and never fall behind. Unlimited replay access for revision.
+    - generic [ref=e339]:
+      - heading "Serving All Areas of Pune & PCMC" [level=2] [ref=e340]
+      - paragraph [ref=e341]: Whether you're in the IT hub of Hinjewadi or the residential areas of Kothrud — our online coding classes reach every corner of Pune and Pimpri-Chinchwad.
+      - generic [ref=e342]:
+        - generic [ref=e343]: Hinjewadi
+        - generic [ref=e344]: Wakad
+        - generic [ref=e345]: Baner
+        - generic [ref=e346]: Kothrud
+        - generic [ref=e347]: Viman Nagar
+        - generic [ref=e348]: Hadapsar
+        - generic [ref=e349]: Aundh
+        - generic [ref=e350]: Shivajinagar
+        - generic [ref=e351]: Koregaon Park
+        - generic [ref=e352]: Kalyani Nagar
+        - generic [ref=e353]: Magarpatta
+        - generic [ref=e354]: Pimpri-Chinchwad
+        - generic [ref=e355]: Kharadi
+        - generic [ref=e356]: Balewadi
+        - generic [ref=e357]: Pashan
+        - generic [ref=e358]: Bavdhan
+        - generic [ref=e359]: Warje
+        - generic [ref=e360]: Deccan
+        - generic [ref=e361]: Camp
+        - generic [ref=e362]: Yerawada
+        - generic [ref=e363]: Kondhwa
+        - generic [ref=e364]: NIBM
+        - generic [ref=e365]: Sinhagad Road
+        - generic [ref=e366]: Katraj
+      - generic [ref=e367]:
+        - heading "Our Service Coverage in Pune" [level=3] [ref=e368]
+        - iframe [ref=e370]
+        - paragraph [ref=e371]: Online classes available for students across Pune, PCMC, and surrounding areas
+    - generic [ref=e374]:
+      - heading "Why Pune is the Perfect Place to Learn Coding" [level=2] [ref=e375]
+      - paragraph [ref=e376]:
+        - text: Pune is not just the "Oxford of the East" — it's also India's emerging tech capital. With
+        - strong [ref=e377]: Hinjewadi IT Park
+        - text: housing giants like Infosys, TCS, Wipro, and Cognizant, and startups flourishing in
+        - strong [ref=e378]: Magarpatta
+        - text: ","
+        - strong [ref=e379]: Kharadi
+        - text: ", and"
+        - strong [ref=e380]: EON IT Park
+        - text: ", your child is growing up in the heart of India's tech revolution."
+      - paragraph [ref=e381]:
+        - text: Pune parents understand the value of future-ready skills. That's why families from
+        - strong [ref=e382]: Baner
+        - text: ","
+        - strong [ref=e383]: Wakad
+        - text: ","
+        - strong [ref=e384]: Kothrud
+        - text: ","
+        - strong [ref=e385]: Viman Nagar
+        - text: ", and"
+        - strong [ref=e386]: Aundh
+        - text: trust us to prepare their children for tomorrow's opportunities.
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - generic [ref=e389]: 500+
+          - generic [ref=e390]: IT Companies in Pune
+        - generic [ref=e391]:
+          - generic [ref=e392]: "?15L+"
+          - generic [ref=e393]: Avg Tech Salary
+        - generic [ref=e394]:
+          - generic [ref=e395]: 1000+
+          - generic [ref=e396]: Startups in Pune
+        - generic [ref=e397]:
+          - generic [ref=e398]: 50+
+          - generic [ref=e399]: Engineering Colleges
+    - generic [ref=e401]:
+      - heading "Success Stories from Pune Students" [level=2] [ref=e402]
+      - paragraph [ref=e403]: Real achievements from our students across Pune who transformed their passion for technology into tangible skills.
+      - generic [ref=e404]:
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e407]: AK
+            - generic [ref=e408]:
+              - generic [ref=e409]: Aarav Kulkarni
+              - generic [ref=e410]: Age 11 — Baner, Pune
+          - generic [ref=e411]: "Achievement: Built a quiz game in Scratch that his school now uses for practice tests"
+          - paragraph [ref=e412]: "\"I used to just play games on my tablet. Now I make my own games! My friends at school think it's so cool that I can create things on the computer.\""
+        - generic [ref=e413]:
+          - generic [ref=e414]:
+            - generic [ref=e415]: SP
+            - generic [ref=e416]:
+              - generic [ref=e417]: Shreya Patil
+              - generic [ref=e418]: Age 15 — Hinjewadi, Pune
+          - generic [ref=e419]: "Achievement: Won 2nd place in school science fair with her Python-based weather prediction project"
+          - paragraph [ref=e420]: "\"Python seemed scary at first, but the teachers made it so easy to understand. Now I'm helping my classmates with their computer science homework!\""
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - generic [ref=e423]: RD
+            - generic [ref=e424]:
+              - generic [ref=e425]: Rohan Deshmukh
+              - generic [ref=e426]: Age 17 — Kothrud, Pune
+          - generic [ref=e427]: "Achievement: Built a portfolio website that helped him get an internship at a Pune startup"
+          - paragraph [ref=e428]: "\"The web development course gave me real skills. I built my portfolio, applied to startups in Magarpatta, and got an internship in my 12th standard!\""
+    - generic [ref=e430]:
+      - heading "What Pune Parents Say About Us" [level=2] [ref=e431]
+      - paragraph [ref=e432]: Real feedback from families across Pune who trusted us with their children's coding education.
+      - generic [ref=e433]:
+        - generic [ref=e434]:
+          - generic [ref=e435]:
+            - generic [ref=e436]: PK
+            - generic [ref=e437]:
+              - generic [ref=e438]: Priya Kulkarni
+              - generic [ref=e439]: Baner, Pune
+          - paragraph [ref=e440]: "\"My son was always on his phone playing games. Now he's building his own games! The instructors are patient and the curriculum is well-structured. Best decision we made for his summer vacation.\""
+          - generic [ref=e441]: ★★★★★
+        - generic [ref=e442]:
+          - generic [ref=e443]:
+            - generic [ref=e444]: RP
+            - generic [ref=e445]:
+              - generic [ref=e446]: Rajesh Patil
+              - generic [ref=e447]: Hinjewadi, Pune
+          - paragraph [ref=e448]: "\"As an IT professional myself, I know quality when I see it. Modern Age Coders teaches coding the right way — with logic and problem-solving, not just syntax. My daughter loves her Python classes!\""
+          - generic [ref=e449]: ★★★★★
+        - generic [ref=e450]:
+          - generic [ref=e451]:
+            - generic [ref=e452]: SJ
+            - generic [ref=e453]:
+              - generic [ref=e454]: Sneha Joshi
+              - generic [ref=e455]: Kothrud, Pune
+          - paragraph [ref=e456]: "\"The flexible timings work perfectly with my son's school schedule. Weekend batches are a blessing for working parents like us. Highly recommend for anyone looking for coding classes in Pune!\""
+          - generic [ref=e457]: ★★★★★
+        - generic [ref=e458]:
+          - generic [ref=e459]:
+            - generic [ref=e460]: AD
+            - generic [ref=e461]:
+              - generic [ref=e462]: Amit Deshmukh
+              - generic [ref=e463]: Wakad, Pune
+          - paragraph [ref=e464]: "\"Affordable fees without compromising on quality — that's rare to find. My twins are both enrolled and they're learning so much. The recorded sessions help when they miss a class.\""
+          - generic [ref=e465]: ★★★★★
+        - generic [ref=e466]:
+          - generic [ref=e467]:
+            - generic [ref=e468]: MG
+            - generic [ref=e469]:
+              - generic [ref=e470]: Meera Gaikwad
+              - generic [ref=e471]: Viman Nagar, Pune
+          - paragraph [ref=e472]: "\"My daughter was hesitant about coding initially. The teachers made her feel comfortable and now she's the most enthusiastic one in her batch. She even taught me how to make a simple website!\""
+          - generic [ref=e473]: ★★★★★
+        - generic [ref=e474]:
+          - generic [ref=e475]:
+            - generic [ref=e476]: VS
+            - generic [ref=e477]:
+              - generic [ref=e478]: Vikram Shah
+              - generic [ref=e479]: Magarpatta, Pune
+          - paragraph [ref=e480]: "\"We tried two other coding institutes before finding Modern Age Coders. The difference is night and day. Here, they actually care about whether kids understand concepts, not just complete lessons.\""
+          - generic [ref=e481]: ★★★★★
+    - generic [ref=e483]:
+      - heading "Affordable Coding Classes in Pune" [level=2] [ref=e484]
+      - paragraph [ref=e485]: Premium quality education at honest prices. No hidden fees, no surprises. Transparent pricing for Pune families.
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]: Most Popular
+          - heading "Group Classes" [level=3] [ref=e489]
+          - generic [ref=e490]: ₹1499 /month
+          - list [ref=e491]:
+            - listitem [ref=e492]: ✓ 2 Live Classes per Week
+            - listitem [ref=e493]: ✓ Small Batch Size (5-8 Students)
+            - listitem [ref=e494]: ✓ Recorded Sessions Access
+            - listitem [ref=e495]: ✓ Doubt Clearing Support
+            - listitem [ref=e496]: ✓ Project-Based Learning
+            - listitem [ref=e497]: ✓ Completion Certificate
+          - link "Get Started ?" [ref=e498] [cursor=pointer]:
+            - /url: "#book-demo"
+        - generic [ref=e499]:
+          - heading "1-on-1 Classes" [level=3] [ref=e500]
+          - generic [ref=e501]: ₹2499 /month
+          - list [ref=e502]:
+            - listitem [ref=e503]: ✓ 2 Personal Sessions/Week
+            - listitem [ref=e504]: ✓ Customized Curriculum
+            - listitem [ref=e505]: ✓ Flexible Scheduling
+            - listitem [ref=e506]: ✓ Priority Support
+            - listitem [ref=e507]: ✓ Progress Reports
+            - listitem [ref=e508]: ✓ Career Guidance
+          - link "Get Started ?" [ref=e509] [cursor=pointer]:
+            - /url: "#book-demo"
+      - paragraph [ref=e510]: Not sure which plan is right? Book a free demo and we'll help you decide. No obligation, no pressure.
+    - generic [ref=e511]:
+      - generic [ref=e512]:
+        - heading "Book Your Free Demo Class in Pune Try Coding" [level=2] [ref=e513]
+        - paragraph [ref=e514]: Experience the best coding classes in Pune — absolutely free. Tell us what you want to learn and we'll help you get started. No obligation, no pressure.
+      - generic [ref=e516]:
+        - generic [ref=e517]:
+          - generic [ref=e518]: Your Name *
+          - textbox "Your Name" [ref=e519]:
+            - /placeholder: Enter your full name
+        - generic [ref=e520]:
+          - generic [ref=e521]: Email Address *
+          - textbox "Your Email" [ref=e522]:
+            - /placeholder: your.email@example.com
+          - text: ⚠
+        - generic [ref=e523]:
+          - generic [ref=e524]: WhatsApp/Phone Number *
+          - textbox "Contact Number" [ref=e525]:
+            - /placeholder: 10-digit mobile number
+          - text: ⚠
+        - generic [ref=e526]:
+          - generic [ref=e527]: Child's Age *
+          - combobox "Child's Age" [ref=e528] [cursor=pointer]:
+            - option "Select age group" [selected]
+            - option "8-10 years (Kids - Scratch)"
+            - option "10-12 years (Kids - Python Intro)"
+            - option "13-15 years (Teens - Python/Java)"
+            - option "15-18 years (Teens - Advanced)"
+        - generic [ref=e529]:
+          - generic [ref=e530]: Your Area in Pune
+          - combobox "Area in Pune" [ref=e531] [cursor=pointer]:
+            - option "Select your area (optional)" [selected]
+            - option "Hinjewadi"
+            - option "Wakad"
+            - option "Baner"
+            - option "Kothrud"
+            - option "Viman Nagar"
+            - option "Hadapsar"
+            - option "Aundh"
+            - option "Shivajinagar"
+            - option "Koregaon Park"
+            - option "Kalyani Nagar"
+            - option "Magarpatta"
+            - option "Pimpri-Chinchwad"
+            - option "Kharadi"
+            - option "Balewadi"
+            - option "Other Area"
+        - generic [ref=e532]:
+          - generic [ref=e533]: What do you want to learn? *
+          - textbox "What do you want to learn?" [ref=e534]:
+            - /placeholder: Tell us about your child's interests and what they'd like to learn (e.g., Python, Web Development, AI, Scratch for kids, game development, etc.)
+          - text: ⚠
+        - button "Book Free Demo Class" [ref=e535] [cursor=pointer]:
+          - generic [ref=e536]: Book Free Demo Class
+      - generic [ref=e537]:
+        - paragraph [ref=e538]: "Or reach us directly:"
+        - generic [ref=e539]:
+          - 'link "Call: 9123366161" [ref=e540] [cursor=pointer]':
+            - /url: tel:+919123366161
+          - link "WhatsApp Us" [ref=e541] [cursor=pointer]:
+            - /url: https://wa.me/919123366161?text=Hi, I'm interested in coding classes for my child in Pune. Please share more details.
+          - link "Email Us" [ref=e542] [cursor=pointer]:
+            - /url: mailto:contact@modernagecoders.com?subject=Inquiry about Coding Classes in Pune
+    - generic [ref=e544]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e545]
+      - paragraph [ref=e546]: Common questions from Pune parents about our coding classes. Can't find your answer? Contact us directly!
+      - generic [ref=e547]:
+        - generic [ref=e548]:
+          - generic [ref=e549] [cursor=pointer]:
+            - heading "What is the best age to start coding classes in Pune?" [level=3] [ref=e550]
+            - generic [ref=e551]: +
+          - paragraph [ref=e552]: We recommend starting as early as 8 years old with visual block-based coding (Scratch). Kids in Pune are often academically driven, and coding complements their logical thinking skills. For teens (13+), we offer text-based programming like Python and Java which prepares them for engineering entrance exams and future careers. The earlier they start, the more natural coding becomes.
+        - generic [ref=e553]:
+          - generic [ref=e554] [cursor=pointer]:
+            - heading "Are your coding classes in Pune online or offline?" [level=3] [ref=e555]
+            - generic [ref=e556]: +
+          - paragraph [ref=e557]: Currently, we offer live online classes which have proven to be more effective and convenient for Pune families. Students from Hinjewadi, Wakad, Baner, Kothrud, Viman Nagar, and all other areas can join from home. This saves travel time (especially important given Pune's traffic!) and allows flexible scheduling around school and tuition timings. Our online classes are fully interactive with screen sharing, live coding, and real-time doubt clearing.
+        - generic [ref=e558]:
+          - generic [ref=e559] [cursor=pointer]:
+            - heading "How are your coding classes different from other institutes in Pune?" [level=3] [ref=e560]
+            - generic [ref=e561]: +
+          - paragraph [ref=e562]: Unlike many coding classes in Pune that focus only on syntax, we emphasize logic building and problem-solving. Our project-based approach means kids build real games, websites, and apps — not just follow tutorials. We also offer small batch sizes (5-8 students), recorded sessions for revision, expert instructors with industry experience, and affordable pricing — all things Pune parents value. Plus, we provide completion certificates that add value to school portfolios.
+        - generic [ref=e563]:
+          - generic [ref=e564] [cursor=pointer]:
+            - heading "What equipment does my child need for online coding classes?" [level=3] [ref=e565]
+            - generic [ref=e566]: +
+          - paragraph [ref=e567]: "A laptop or desktop computer with a stable internet connection is all you need. While tablets can work for viewing, we recommend a proper computer for hands-on coding practice. Most Pune households already have this setup. Minimum requirements: Windows 10/Mac OS, 4GB RAM, stable broadband connection. Our team can guide you if you need help with software installation — it's all free software!"
+        - generic [ref=e568]:
+          - generic [ref=e569] [cursor=pointer]:
+            - heading "Will coding help my child in school and competitive exams?" [level=3] [ref=e570]
+            - generic [ref=e571]: +
+          - paragraph [ref=e572]: Absolutely! Coding develops logical thinking, problem-solving, and analytical skills — all crucial for competitive exams like JEE, NEET, and Olympiads. Many CBSE and ICSE schools in Pune now include coding in their curriculum (as per NEP 2020), so your child will be ahead of their peers. Additionally, coding projects make excellent additions to school portfolios and college applications.
+        - generic [ref=e573]:
+          - generic [ref=e574] [cursor=pointer]:
+            - heading "What programming languages do you teach?" [level=3] [ref=e575]
+            - generic [ref=e576]: +
+          - paragraph [ref=e577]: "For kids (8-12): Scratch (block-based coding), HTML/CSS basics, and introductory Python. For teens (13-18): Python, Java, JavaScript, HTML/CSS, React, and AI/ML concepts. We choose languages based on age-appropriateness and industry relevance. Python and Java are particularly valuable as they're used by IT companies in Hinjewadi and are part of engineering curricula."
+        - generic [ref=e578]:
+          - generic [ref=e579] [cursor=pointer]:
+            - heading "What are the class timings? Do you have weekend batches?" [level=3] [ref=e580]
+            - generic [ref=e581]: +
+          - paragraph [ref=e582]: "Yes! We offer flexible timings to accommodate Pune's busy student schedules. Weekday batches: 4 PM - 8 PM (after school). Weekend batches: 9 AM - 6 PM (Saturday & Sunday). We understand that Pune students often have tuitions and other activities, so we work with you to find the best slot. Each class is 1 hour long, with 2 classes per week."
+        - generic [ref=e583]:
+          - generic [ref=e584] [cursor=pointer]:
+            - heading "Can I get a refund if my child doesn't like the classes?" [level=3] [ref=e585]
+            - generic [ref=e586]: +
+          - paragraph [ref=e587]: We offer a free demo class so you can experience our teaching style before committing. If after the first paid week your child isn't satisfied, we offer a full refund — no questions asked. We're confident in our quality, which is why Pune parents trust us. Our goal is happy, learning students, not locked-in customers.
+        - generic [ref=e588]:
+          - generic [ref=e589] [cursor=pointer]:
+            - heading "Do you offer summer coding camps in Pune?" [level=3] [ref=e590]
+            - generic [ref=e591]: +
+          - paragraph [ref=e592]: Yes! We run special intensive summer coding camps during April-May and October (Diwali vacation). These are accelerated programs where students can complete a full course in 4-6 weeks. Summer camps are very popular among Pune parents who want their children to learn something productive during vacations. Contact us for upcoming camp dates and early bird discounts.
+        - generic [ref=e593]:
+          - generic [ref=e594] [cursor=pointer]:
+            - heading "How do I track my child's progress?" [level=3] [ref=e595]
+            - generic [ref=e596]: +
+          - paragraph [ref=e597]: We provide regular progress updates to parents. After each module, you'll receive a summary of what your child learned and their project work. For 1-on-1 classes, we provide detailed monthly progress reports. You can also view your child's completed projects and certificates in their student dashboard. We believe in keeping parents informed and involved.
+    - generic [ref=e600]:
+      - heading "Ready to Start Your Child's Coding Journey?" [level=2] [ref=e601]
+      - paragraph [ref=e602]: Join 523+ Pune families who chose Modern Age Coders for their children's coding education. Book a free demo today and see if we're the right fit for your child.
+      - generic [ref=e603]:
+        - link "Book Free Demo Class" [ref=e604] [cursor=pointer]:
+          - /url: "#book-demo"
+        - 'link "Call: 9123366161" [ref=e605] [cursor=pointer]':
+          - /url: tel:+919123366161
+      - paragraph [ref=e606]: Free Demo Class | No Obligation | Expert Instructors | Serving All Pune Areas
+    - generic [ref=e610]:
+      - generic [ref=e611]:
+        - generic [ref=e612]: COMPLETE GUIDE
+        - heading "Coding Classes in Pune" [level=2] [ref=e613]
+        - paragraph [ref=e614]: Everything you need to know about learning to code in Pune
+      - generic [ref=e615]:
+        - generic [ref=e616]:
+          - generic [ref=e618]:
+            - img [ref=e620]
+            - heading "Who We Are" [level=3] [ref=e622]
+          - paragraph [ref=e623]:
+            - strong [ref=e624]: Modern Age Coders
+            - text: offers programming courses for young learners aged 8-18. Whether you're in Hinjewadi, Wakad, Baner, Kothrud, or Viman Nagar — our online classes bring quality tech education to your home.
+        - generic [ref=e625]:
+          - generic [ref=e627]:
+            - img [ref=e629]
+            - heading "For Kids (8-12)" [level=3] [ref=e631]
+          - paragraph [ref=e632]:
+            - text: Our
+            - strong [ref=e633]: coding classes for kids
+            - text: start with Scratch — visual block-based programming that makes it easy for children to understand concepts through fun games and animations before moving to Python.
+        - generic [ref=e634]:
+          - generic [ref=e636]:
+            - img [ref=e638]
+            - heading "For Teens (13-18)" [level=3] [ref=e640]
+          - paragraph [ref=e641]:
+            - text: Advanced courses in
+            - strong [ref=e642]: Python, Java, Web Development, and AI/ML
+            - text: designed for engineering entrance exams or tech careers. Get a competitive edge for IITs, NITs, or internships at Hinjewadi IT Park.
+        - generic [ref=e643]:
+          - generic [ref=e645]:
+            - img [ref=e647]
+            - heading "What Sets Us Apart" [level=3] [ref=e649]
+          - paragraph [ref=e650]:
+            - text: Project-based learning, small batches (5-8 students), expert instructors with industry experience, recorded sessions, and
+            - strong [ref=e651]: affordable pricing from ₹1499/month
+            - text: . No hidden fees.
+      - generic [ref=e653]:
+        - generic [ref=e654]: "Areas we serve:"
+        - generic [ref=e655]:
+          - generic [ref=e656]: Hinjewadi
+          - generic [ref=e657]: Wakad
+          - generic [ref=e658]: Baner
+          - generic [ref=e659]: Kothrud
+          - generic [ref=e660]: Viman Nagar
+          - generic [ref=e661]: Hadapsar
+          - generic [ref=e662]: Aundh
+          - generic [ref=e663]: Koregaon Park
+          - generic [ref=e664]: Magarpatta
+          - generic [ref=e665]: PCMC
+          - generic [ref=e666]: + All Pune Areas
+      - generic [ref=e667]:
+        - paragraph [ref=e668]:
+          - text: Ready to start your child's coding journey? Book a
+          - strong [ref=e669]: free demo class
+          - text: today.
+          - text: Join
+          - strong [ref=e670]: 523+ Pune families
+          - text: who chose us for their children's tech education.
+        - generic [ref=e671]:
+          - link "Book Free Demo" [ref=e672] [cursor=pointer]:
+            - /url: "#book-demo"
+          - 'link "Call: 9123366161" [ref=e673] [cursor=pointer]':
+            - /url: tel:+919123366161
+  - contentinfo [ref=e674]:
+    - generic [ref=e675]:
+      - generic [ref=e676]:
+        - generic [ref=e677]:
+          - link "Modern Age Coders Logo Modern Age Coders" [ref=e678] [cursor=pointer]:
+            - /url: /
+            - img "Modern Age Coders Logo" [ref=e679]
+            - generic [ref=e680]: Modern Age Coders
+          - paragraph [ref=e681]: Forging the next generation of innovators.
+          - generic [ref=e682]:
+            - link "Instagram" [ref=e683] [cursor=pointer]:
+              - /url: https://instagram.com/modern_age_coders
+              - img [ref=e684]
+            - link "YouTube" [ref=e686] [cursor=pointer]:
+              - /url: https://www.youtube.com/@modernagecoders
+              - img [ref=e687]
+            - link "LinkedIn" [ref=e689] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/shivam-khemka-948a2a277
+              - img [ref=e690]
+            - link "GitHub" [ref=e692] [cursor=pointer]:
+              - /url: https://github.com/modernagecoder
+              - img [ref=e693]
+        - generic [ref=e695]:
+          - heading "Quick Links" [level=3] [ref=e696]
+          - list [ref=e697]:
+            - listitem [ref=e698]:
+              - link "About Us" [ref=e699] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e700]:
+              - link "Blog" [ref=e701] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e702]:
+              - link "Courses" [ref=e703] [cursor=pointer]:
+                - /url: /courses
+            - listitem [ref=e704]:
+              - link "Success Stories" [ref=e705] [cursor=pointer]:
+                - /url: /success-stories
+            - listitem [ref=e706]:
+              - link "Free Resources" [ref=e707] [cursor=pointer]:
+                - /url: /free-resources
+            - listitem [ref=e708]:
+              - link "Business Solutions" [ref=e709] [cursor=pointer]:
+                - /url: /business-solutions
+            - listitem [ref=e710]:
+              - link "Student Labs" [ref=e711] [cursor=pointer]:
+                - /url: /student-labs
+            - listitem [ref=e712]:
+              - link "Wall of Love" [ref=e713] [cursor=pointer]:
+                - /url: /love
+            - listitem [ref=e714]:
+              - link "Beat the Babu Game" [ref=e715] [cursor=pointer]:
+                - /url: /beat-the-babu
+            - listitem [ref=e716]:
+              - link "Aura Type Game" [ref=e717] [cursor=pointer]:
+                - /url: /aura
+            - listitem [ref=e718]:
+              - link "The Beautiful Mind" [ref=e719] [cursor=pointer]:
+                - /url: https://mind.modernagecoders.com
+            - listitem [ref=e720]:
+              - link "Pricing" [ref=e721] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e722]:
+              - link "FAQ" [ref=e723] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e724]:
+              - link "Contact" [ref=e725] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e726]:
+              - link "Python & AI for Kids & Teens" [ref=e727] [cursor=pointer]:
+                - /url: /python-and-ai-classes-for-kids-teens
+            - listitem [ref=e728]:
+              - link "Coding Classes for Girls" [ref=e729] [cursor=pointer]:
+                - /url: /coding-classes-for-girls
+            - listitem [ref=e730]:
+              - link "Best Coding Classes Online" [ref=e731] [cursor=pointer]:
+                - /url: /best-coding-classes-online
+            - listitem [ref=e732]:
+              - link "AI & ML Course for Teens" [ref=e733] [cursor=pointer]:
+                - /url: /ai-ml-course-for-teens
+            - listitem [ref=e734]:
+              - link "Java Programming for Kids & Teens" [ref=e735] [cursor=pointer]:
+                - /url: /java-programming-for-kids-teens
+        - generic [ref=e736]:
+          - heading "Categories" [level=3] [ref=e737]
+          - list [ref=e738]:
+            - listitem [ref=e739]:
+              - link "For Kids" [ref=e740] [cursor=pointer]:
+                - /url: /category/kids
+            - listitem [ref=e741]:
+              - link "For Teens" [ref=e742] [cursor=pointer]:
+                - /url: /category/teens
+            - listitem [ref=e743]:
+              - link "For College" [ref=e744] [cursor=pointer]:
+                - /url: /category/college
+            - listitem [ref=e745]:
+              - link "For Professionals" [ref=e746] [cursor=pointer]:
+                - /url: /category/professionals
+            - listitem [ref=e747]:
+              - link "For Corporate" [ref=e748] [cursor=pointer]:
+                - /url: /category/corporate
+            - listitem [ref=e749]:
+              - link "Summer Coding Camp" [ref=e750] [cursor=pointer]:
+                - /url: /summer-coding-camp
+            - listitem [ref=e751]:
+              - link "Summer Coding Camp For Kids" [ref=e752] [cursor=pointer]:
+                - /url: /summer-coding-camp-kids
+            - listitem [ref=e753]:
+              - link "Summer Coding Camp For Teens" [ref=e754] [cursor=pointer]:
+                - /url: /summer-coding-camp-teens
+            - listitem [ref=e755]:
+              - link "Summer Coding Camp For Adults" [ref=e756] [cursor=pointer]:
+                - /url: /summer-coding-camp-adults
+            - listitem [ref=e757]:
+              - link "Best Coding Class in Kolkata" [ref=e758] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-kolkata
+            - listitem [ref=e759]:
+              - link "Best Coding Class in Hyderabad" [ref=e760] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-hyderabad
+            - listitem [ref=e761]:
+              - link "Best Coding Class in Bengaluru" [ref=e762] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-bengaluru
+            - listitem [ref=e763]:
+              - link "Best Coding Class in Pune" [ref=e764] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-pune
+            - listitem [ref=e765]:
+              - link "Best Coding Class in Chennai" [ref=e766] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-chennai
+            - listitem [ref=e767]:
+              - link "Best Coding Class in Ahmedabad" [ref=e768] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-ahmedabad
+            - listitem [ref=e769]:
+              - link "Best Coding Class in Delhi" [ref=e770] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-delhi
+            - listitem [ref=e771]:
+              - link "Best Coding Class in Indore" [ref=e772] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-indore
+            - listitem [ref=e773]:
+              - link "Best Coding Class in Mumbai" [ref=e774] [cursor=pointer]:
+                - /url: https://learn.modernagecoders.com/best-coding-class-in-mumbai
+            - listitem [ref=e775]:
+              - link "La Martiniere Boys Coding" [ref=e776] [cursor=pointer]:
+                - /url: /coding-classes-for-la-martiniere-boys-kolkata
+            - listitem [ref=e777]:
+              - link "La Martiniere Girls Coding" [ref=e778] [cursor=pointer]:
+                - /url: /coding-classes-for-la-martiniere-girls-kolkata
+        - generic [ref=e779]:
+          - heading "Contact & Legal" [level=3] [ref=e780]
+          - list [ref=e781]:
+            - listitem [ref=e782]:
+              - link "+91 9123366161" [ref=e783] [cursor=pointer]:
+                - /url: tel:+919123366161
+            - listitem [ref=e784]:
+              - link "contact@modernagecoders.com" [ref=e785] [cursor=pointer]:
+                - /url: mailto:contact@modernagecoders.com
+            - listitem [ref=e786]:
+              - link "Privacy Policy" [ref=e787] [cursor=pointer]:
+                - /url: /privacy
+            - listitem [ref=e788]:
+              - link "Terms of Service" [ref=e789] [cursor=pointer]:
+                - /url: /terms
+            - listitem [ref=e790]:
+              - link "Cancellation Policy" [ref=e791] [cursor=pointer]:
+                - /url: /cancellation
+            - listitem [ref=e792]:
+              - link "Refund Policy" [ref=e793] [cursor=pointer]:
+                - /url: /refund
+      - paragraph [ref=e795]: © 2026 Modern Age Coders. All Rights Reserved.
+  - link "Chat with Misti AI" [ref=e796] [cursor=pointer]:
+    - /url: https://misti.modernagecoders.com
+    - generic [ref=e797]: Ask Misti AI
+    - img [ref=e799]
+  - link "Chat on WhatsApp" [ref=e801] [cursor=pointer]:
+    - /url: https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!
+    - generic [ref=e802]: Chat with us
+    - img [ref=e804]
+  - link "Chat with Misti AI" [ref=e806] [cursor=pointer]:
+    - /url: https://misti.modernagecoders.com
+    - generic [ref=e807]: Ask Misti AI
+    - img [ref=e809]
+  - link "Chat on WhatsApp" [ref=e811] [cursor=pointer]:
+    - /url: https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!
+    - generic [ref=e812]: Chat with us
+    - img [ref=e814]
+  - link "Chat with Misti AI" [ref=e816] [cursor=pointer]:
+    - /url: https://misti.modernagecoders.com
+    - generic [ref=e817]: Ask Misti AI
+    - img [ref=e819]
+  - link "Chat on WhatsApp" [ref=e821] [cursor=pointer]:
+    - /url: https://wa.me/919123366161?text=Hi%2C%20I'm%20interested%20in%20learning%20more%20about%20your%20courses!
+    - generic [ref=e822]: Chat with us
+    - img [ref=e824]

@@ -106,10 +106,13 @@
     
     
     
+    <!-- Meta Pixel -->
+    <script src="/js/meta-pixel.js"></script>
+
     <!-- GSAP moved to end of body for better LCP -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 
-    
+
     <link rel="stylesheet" href="../css/contact.css">
 </head>
 
@@ -1089,6 +1092,13 @@
                 const data = await response.json();
 
                 if (response.ok) {
+                    // Fire Meta Pixel Lead event
+                    if (typeof fbq === 'function') {
+                        fbq('track', 'Lead', {
+                            content_name: 'Contact Form',
+                            content_category: 'Contact'
+                        });
+                    }
                     showFeedback('success', 'We have received your response. We will reach out to you within 24 hours. If you want to connect now, please contact 9123366161 (Shivam Sir).');
                     contactForm.reset();
                 } else {

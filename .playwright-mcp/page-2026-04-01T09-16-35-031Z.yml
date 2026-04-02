@@ -1,0 +1,418 @@
+- generic [active] [ref=e1]:
+  - navigation "Winter Camp Navigation" [ref=e2]:
+    - generic [ref=e3]:
+      - link "Winter Camp" [ref=e4] [cursor=pointer]:
+        - /url: /winter-coding-camp
+        - img [ref=e5]
+        - generic [ref=e14]: Winter Camp
+      - generic [ref=e15]:
+        - link "Home" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - link "All Tracks" [ref=e17] [cursor=pointer]:
+          - /url: /winter-coding-camp#programs
+        - link "Curriculum" [ref=e18] [cursor=pointer]:
+          - /url: "#curriculum"
+        - link "Pricing" [ref=e19] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "Enroll Now" [ref=e20] [cursor=pointer]:
+          - /url: /book-demo
+  - main [ref=e21]:
+    - region "Code Your Career Change" [ref=e22]:
+      - generic [ref=e23]:
+        - img [ref=e24]
+        - generic [ref=e27]: Professional Upskilling Track
+      - heading "Code Your Career Change" [level=1] [ref=e28]
+      - paragraph [ref=e29]: Ages 18+ · Worldwide
+      - paragraph [ref=e30]: Whether you're switching careers, upskilling as a professional, or finally learning to code — this is the most efficient way to get there. 16 career-focused live sessions that go from absolute beginner to building real applications with Python, Web Dev, and AI. Join professionals from 30+ countries.
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - strong [ref=e33]: "16"
+          - text: Live Sessions
+        - listitem [ref=e34]:
+          - strong [ref=e35]: ₹4,999
+          - text: Group Class Fee
+        - listitem [ref=e36]:
+          - strong [ref=e37]: 5+
+          - text: Career Projects
+      - link "View Pricing & Enroll" [ref=e38] [cursor=pointer]:
+        - /url: "#pricing"
+      - img "Adults learning to code in an online winter bootcamp — Python, web development, and AI" [ref=e41]
+    - region "Course Pricing" [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]: Investment
+          - heading "Course Pricing" [level=2] [ref=e46]
+          - paragraph [ref=e47]: The most affordable career-change investment you'll ever make
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: Most Popular
+            - generic [ref=e51]:
+              - heading "Group Classes" [level=3] [ref=e52]
+              - paragraph [ref=e53]: Collaborative learning with peers worldwide
+            - generic [ref=e54]:
+              - generic [ref=e55]: ₹
+              - generic [ref=e56]: 4,999
+              - generic [ref=e57]: for 16 sessions
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - img [ref=e60]
+                - text: 16 Live Interactive Sessions
+              - listitem [ref=e62]:
+                - img [ref=e63]
+                - text: Small Batch (Max 8 Participants)
+              - listitem [ref=e65]:
+                - img [ref=e66]
+                - text: 5+ Career-Ready Projects
+              - listitem [ref=e68]:
+                - img [ref=e69]
+                - text: Industry-Recognized Certificate
+              - listitem [ref=e71]:
+                - img [ref=e72]
+                - text: 24/7 Doubt Support
+              - listitem [ref=e74]:
+                - img [ref=e75]
+                - text: Session Recordings Access
+              - listitem [ref=e77]:
+                - img [ref=e78]
+                - text: LinkedIn Profile Guidance
+              - listitem [ref=e80]:
+                - img [ref=e81]
+                - text: Job-Ready Portfolio Review
+            - button "Enroll Now — Pay ₹4,999" [ref=e83] [cursor=pointer]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - heading "Personalised 1:1 Classes" [level=3] [ref=e86]
+              - paragraph [ref=e87]: Fast-track your career change
+            - generic [ref=e88]:
+              - generic [ref=e89]: Custom Pricing
+              - generic [ref=e90]: Based on your career goals
+            - list [ref=e91]:
+              - listitem [ref=e92]:
+                - img [ref=e93]
+                - text: 1-on-1 with Expert Mentor
+              - listitem [ref=e95]:
+                - img [ref=e96]
+                - text: Fully Flexible Schedule
+              - listitem [ref=e98]:
+                - img [ref=e99]
+                - text: Industry-Specific Curriculum
+              - listitem [ref=e101]:
+                - img [ref=e102]
+                - text: Portfolio for Your Target Role
+              - listitem [ref=e104]:
+                - img [ref=e105]
+                - text: Mock Interview Preparation
+            - generic [ref=e107]:
+              - img [ref=e109]
+              - generic [ref=e111]:
+                - generic [ref=e112]: Talk to Counsellor
+                - strong [ref=e113]: "9123366161"
+            - link "Call Now" [ref=e114] [cursor=pointer]:
+              - /url: tel:9123366161
+    - region "Skills That Pay" [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: What You'll Gain
+          - heading "Skills That Pay" [level=2] [ref=e119]
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - img [ref=e123]
+            - heading "Full-Stack Web Development" [level=3] [ref=e126]
+            - paragraph [ref=e127]: HTML, CSS, JavaScript — from static pages to dynamic, database-driven applications. Skills that employers at every company seek.
+          - generic [ref=e128]:
+            - img [ref=e130]
+            - heading "Python for Professionals" [level=3] [ref=e133]
+            - paragraph [ref=e134]: Automation, data processing, API integration, and scripting. Python is the most versatile skill in modern tech — used across every industry.
+          - generic [ref=e135]:
+            - img [ref=e137]
+            - heading "AI Integration" [level=3] [ref=e141]
+            - paragraph [ref=e142]: Build applications powered by ChatGPT, Gemini, and other AI APIs. The professionals who can integrate AI are the most sought-after in 2026.
+          - generic [ref=e143]:
+            - img [ref=e145]
+            - heading "Data Science Foundations" [level=3] [ref=e146]
+            - paragraph [ref=e147]: Read, process, and visualise data with Python's pandas and matplotlib. Understand the data workflows that drive modern business decisions.
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - heading "Git & Version Control" [level=3] [ref=e152]
+            - paragraph [ref=e153]: Industry-standard workflow with GitHub. Every tech company uses Git. Your projects will live on GitHub, ready to show any employer or client.
+          - generic [ref=e154]:
+            - img [ref=e156]
+            - heading "Deployment & DevOps Basics" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Deploy your projects live using GitHub Pages, Vercel, and basic cloud hosting. Your applications won't just exist locally — they'll be live on the internet.
+    - region "16-Session Curriculum" [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: Complete Syllabus
+          - heading "16-Session Curriculum" [level=2] [ref=e165]
+          - paragraph [ref=e166]: A career-focused curriculum designed to get you job-ready as fast as possible
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Week 1
+              - heading "Web Development Foundations" [level=3] [ref=e171]
+              - generic [ref=e172]: Sessions 1–6
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - generic [ref=e175]: "01"
+                - generic [ref=e176]:
+                  - strong [ref=e177]: Developer Environment Setup
+                  - paragraph [ref=e178]: VS Code, Git, browser dev tools, how the web works — your professional setup from day one
+              - generic [ref=e179]:
+                - generic [ref=e180]: "02"
+                - generic [ref=e181]:
+                  - strong [ref=e182]: HTML5 for Professionals
+                  - paragraph [ref=e183]: Semantic HTML, accessibility, SEO-friendly structure, forms, and modern HTML patterns
+              - generic [ref=e184]:
+                - generic [ref=e185]: "03"
+                - generic [ref=e186]:
+                  - strong [ref=e187]: "CSS: Layouts & Design Systems"
+                  - paragraph [ref=e188]: Flexbox, Grid, CSS variables, responsive design — building real-world UI components
+              - generic [ref=e189]:
+                - generic [ref=e190]: "04"
+                - generic [ref=e191]:
+                  - strong [ref=e192]: JavaScript Fundamentals
+                  - paragraph [ref=e193]: Variables, functions, DOM manipulation, events — writing clean, professional JS
+              - generic [ref=e194]:
+                - generic [ref=e195]: "05"
+                - generic [ref=e196]:
+                  - strong [ref=e197]: APIs, Fetch & Async JavaScript
+                  - paragraph [ref=e198]: Connect to real APIs, handle JSON data, build dynamic pages that pull live content
+              - generic [ref=e199]:
+                - generic [ref=e200]: "06"
+                - generic [ref=e201]:
+                  - strong [ref=e202]: "Project 1: Professional Landing Page"
+                  - paragraph [ref=e203]: Build and deploy a complete responsive landing page — live on GitHub Pages
+          - generic [ref=e204]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: Week 2
+              - heading "Python & Data Science" [level=3] [ref=e207]
+              - generic [ref=e208]: Sessions 7–11
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e211]: "07"
+                - generic [ref=e212]:
+                  - strong [ref=e213]: Python Fundamentals
+                  - paragraph [ref=e214]: Syntax, data types, functions, OOP basics — Python the professional way
+              - generic [ref=e215]:
+                - generic [ref=e216]: "08"
+                - generic [ref=e217]:
+                  - strong [ref=e218]: "Project 2: Python Automation"
+                  - paragraph [ref=e219]: Build a script that automates a real task — email parsing, file management, web scraping
+              - generic [ref=e220]:
+                - generic [ref=e221]: "09"
+                - generic [ref=e222]:
+                  - strong [ref=e223]: Data Science with Pandas
+                  - paragraph [ref=e224]: Load, clean, and analyse real datasets. Understand data pipelines that power business decisions
+              - generic [ref=e225]:
+                - generic [ref=e226]: "10"
+                - generic [ref=e227]:
+                  - strong [ref=e228]: Data Visualisation
+                  - paragraph [ref=e229]: Matplotlib, seaborn, and chart creation. Turn raw data into insights that tell a story
+              - generic [ref=e230]:
+                - generic [ref=e231]: "11"
+                - generic [ref=e232]:
+                  - strong [ref=e233]: "Project 3: Data Analysis Dashboard"
+                  - paragraph [ref=e234]: Analyse a real-world dataset and build a visual dashboard — ready for your portfolio
+          - generic [ref=e235]:
+            - generic [ref=e236]:
+              - generic [ref=e237]: Week 3
+              - heading "AI Integration & Career Projects" [level=3] [ref=e238]
+              - generic [ref=e239]: Sessions 12–16
+            - generic [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: "12"
+                - generic [ref=e243]:
+                  - strong [ref=e244]: AI APIs for Developers
+                  - paragraph [ref=e245]: OpenAI, Gemini, and Claude APIs. Prompt engineering, function calling, building AI features
+              - generic [ref=e246]:
+                - generic [ref=e247]: "13"
+                - generic [ref=e248]:
+                  - strong [ref=e249]: "Project 4: AI-Powered Web Application"
+                  - paragraph [ref=e250]: Build a full web app with integrated AI — chatbot, content generator, or smart tool
+              - generic [ref=e251]:
+                - generic [ref=e252]: "14"
+                - generic [ref=e253]:
+                  - strong [ref=e254]: Career Strategy & LinkedIn Optimisation
+                  - paragraph [ref=e255]: How to position your new skills, write your GitHub profile, and approach companies
+              - generic [ref=e256]:
+                - generic [ref=e257]: "15"
+                - generic [ref=e258]:
+                  - strong [ref=e259]: Portfolio Website & Deployment
+                  - paragraph [ref=e260]: Build your professional developer portfolio — deployed live, SEO optimised, shareable
+              - generic [ref=e261]:
+                - generic [ref=e262]: "16"
+                - generic [ref=e263]:
+                  - strong [ref=e264]: "Project 5: Showcase & Graduation"
+                  - paragraph [ref=e265]: Present your best project, receive your certificate, and discuss your career path forward
+    - region "Technologies You'll Master" [ref=e266]:
+      - generic [ref=e267]:
+        - heading "Technologies You'll Master" [level=2] [ref=e269]
+        - generic [ref=e270]:
+          - generic [ref=e271]:
+            - img [ref=e273]
+            - generic [ref=e276]: HTML / CSS
+          - generic [ref=e277]:
+            - img [ref=e279]
+            - generic [ref=e281]: JavaScript
+          - generic [ref=e282]:
+            - img [ref=e284]
+            - generic [ref=e287]: Python
+          - generic [ref=e288]:
+            - img [ref=e290]
+            - generic [ref=e291]: Pandas
+          - generic [ref=e292]:
+            - img [ref=e294]
+            - generic [ref=e296]: AI APIs
+          - generic [ref=e297]:
+            - img [ref=e299]
+            - generic [ref=e301]: GitHub
+          - generic [ref=e302]:
+            - img [ref=e304]
+            - generic [ref=e307]: Vercel / Deploy
+    - region "Projects You'll Build" [ref=e308]:
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - generic [ref=e311]: Your Career Portfolio
+          - heading "Projects You'll Build" [level=2] [ref=e312]
+        - generic [ref=e313]:
+          - generic [ref=e314]:
+            - generic [ref=e315]: "01"
+            - heading "Professional Landing Page" [level=4] [ref=e316]
+            - paragraph [ref=e317]: Responsive, deployed — your digital business card
+          - generic [ref=e318]:
+            - generic [ref=e319]: "02"
+            - heading "Python Automation Script" [level=4] [ref=e320]
+            - paragraph [ref=e321]: A real tool that solves a genuine problem
+          - generic [ref=e322]:
+            - generic [ref=e323]: "03"
+            - heading "Data Analysis Dashboard" [level=4] [ref=e324]
+            - paragraph [ref=e325]: Visualise real-world data — analytics that impress employers
+          - generic [ref=e326]:
+            - generic [ref=e327]: "04"
+            - heading "AI-Powered Web Application" [level=4] [ref=e328]
+            - paragraph [ref=e329]: A full app powered by AI APIs — deployed live
+          - generic [ref=e330]:
+            - generic [ref=e331]: "05"
+            - heading "Developer Portfolio Site" [level=4] [ref=e332]
+            - paragraph [ref=e333]: Your career portfolio — live, polished, and job-ready
+    - region "What This Opens For You" [ref=e334]:
+      - generic [ref=e335]:
+        - heading "What This Opens For You" [level=2] [ref=e337]
+        - generic [ref=e338]:
+          - generic [ref=e339]:
+            - img [ref=e341]
+            - heading "Career Switch to Tech" [level=4] [ref=e344]
+            - paragraph [ref=e345]: Junior developer, data analyst, AI product manager — these roles are accessible after 16 focused sessions. Thousands have made this switch.
+          - generic [ref=e346]:
+            - img [ref=e348]
+            - heading "Supercharge Your Current Role" [level=4] [ref=e350]
+            - paragraph [ref=e351]: Marketing? Finance? Operations? Python automation and data skills make you 10x more valuable in any non-tech role too.
+          - generic [ref=e352]:
+            - img [ref=e354]
+            - heading "Launch a Freelance Career" [level=4] [ref=e356]
+            - paragraph [ref=e357]: Build websites, create automation tools, and offer AI integration services. The freelance tech market is booming globally — join it.
+          - generic [ref=e358]:
+            - img [ref=e360]
+            - heading "Global Opportunities" [level=4] [ref=e363]
+            - paragraph [ref=e364]: Tech skills are recognised everywhere. Remote jobs, global clients, international companies — your new skills travel with you.
+    - region "Frequently Asked Questions" [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]: Common Questions
+          - heading "Frequently Asked Questions" [level=2] [ref=e369]
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - generic [ref=e372] [cursor=pointer]:
+              - heading "Do I need any prior coding experience?" [level=4] [ref=e373]
+              - img [ref=e374]
+            - paragraph [ref=e376]: Zero experience needed. We start from absolute basics. The curriculum is designed for complete beginners who want to reach a professional level as efficiently as possible.
+          - generic [ref=e377]:
+            - generic [ref=e378] [cursor=pointer]:
+              - heading "I work full-time. Can I still keep up?" [level=4] [ref=e379]
+              - img [ref=e380]
+            - paragraph [ref=e382]: Absolutely. We schedule evening and weekend batches specifically for working professionals. Sessions are recorded, so you never fall behind. Expect 1–2 hours of practice between sessions.
+          - generic [ref=e383]:
+            - generic [ref=e384] [cursor=pointer]:
+              - heading "I'm outside India — can I join?" [level=4] [ref=e385]
+              - img [ref=e386]
+            - paragraph [ref=e388]: Yes! We have learners from 30+ countries. International participants pay $60 USD. Contact us to find a time-zone-friendly batch. All sessions are 100% online via Zoom.
+          - generic [ref=e389]:
+            - generic [ref=e390] [cursor=pointer]:
+              - heading "Will 16 sessions really be enough to get a job?" [level=4] [ref=e391]
+              - img [ref=e392]
+            - paragraph [ref=e394]: These 16 sessions give you the foundation and portfolio to start applying for junior roles and freelance work. Most career switchers continue learning independently after the camp — but the first job is achievable within 3–6 months of completing this.
+          - generic [ref=e395]:
+            - generic [ref=e396] [cursor=pointer]:
+              - heading "What age is too old to learn coding?" [level=4] [ref=e397]
+              - img [ref=e398]
+            - paragraph [ref=e400]: There is no age limit. We have successfully taught learners in their 50s and 60s. The key is motivation — and you already have it. Modern tools and AI assistants make coding more accessible than ever before.
+          - generic [ref=e401]:
+            - generic [ref=e402] [cursor=pointer]:
+              - heading "What if I miss a class?" [level=4] [ref=e403]
+              - img [ref=e404]
+            - paragraph [ref=e406]: All sessions are recorded. Watch anytime and book a 15-minute 1:1 catch-up with the instructor if needed. No one gets left behind.
+    - region "Your Career Change Starts Here" [ref=e407]:
+      - generic [ref=e408]:
+        - img [ref=e410]
+        - heading "Your Career Change Starts Here" [level=2] [ref=e419]
+        - paragraph [ref=e420]: Limited seats per batch. Winter 2026 enrollment is now open worldwide.
+        - button "Enroll Now — Pay ₹4,999" [ref=e422] [cursor=pointer]
+        - generic [ref=e423]:
+          - generic [ref=e424]: "Questions? Call or WhatsApp:"
+          - link "+91 91233 66161" [ref=e425] [cursor=pointer]:
+            - /url: tel:+919123366161
+            - strong [ref=e426]: +91 91233 66161
+  - contentinfo [ref=e427]:
+    - generic [ref=e428]: Modern Age Coders
+    - generic [ref=e429]:
+      - link "Home" [ref=e430] [cursor=pointer]:
+        - /url: /
+      - link "Winter Camp" [ref=e431] [cursor=pointer]:
+        - /url: /winter-coding-camp
+      - link "Kids Track" [ref=e432] [cursor=pointer]:
+        - /url: /winter-coding-camp-kids
+      - link "Teens Track" [ref=e433] [cursor=pointer]:
+        - /url: /winter-coding-camp-teens
+      - link "Book Demo" [ref=e434] [cursor=pointer]:
+        - /url: /book-demo
+    - paragraph [ref=e435]: © 2026 Modern Age Coders. Building the next generation of developers, worldwide.
+  - generic: ❅
+  - generic: ·
+  - generic: ❆
+  - generic: ❆
+  - generic: ❄
+  - generic: ❄
+  - generic: ·
+  - generic: ✦
+  - generic: ·
+  - generic: ❄
+  - generic: ∗
+  - generic: ·
+  - generic: ·
+  - generic: ❆
+  - generic: ❄
+  - generic: ·
+  - generic: ❄
+  - generic: ∗
+  - generic: ❅
+  - generic: ✦
+  - generic: ∗
+  - generic: ∗
+  - generic: ·
+  - generic: ❄
+  - generic: ❅
+  - generic: ❆
+  - generic: ✦
+  - generic: ❅
+  - generic: ✦
+  - generic: ∗
+  - generic: ✦
+  - generic: ❄
+  - generic: ❆
+  - generic: ❅
+  - generic: ❄
+  - generic: ❄
+  - generic: ❄
+  - generic: ❄
+  - generic: ❄
+  - generic: ✦
