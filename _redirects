@@ -222,6 +222,56 @@
 /course /courses 301!
 /blog/example-all-features /blog 301!
 
+# Locality Landing Pages — Kolkata
+/coding-classes-near-ballygunge-kolkata /src/pages/coding-classes-near-ballygunge-kolkata.html 200
+/coding-classes-near-salt-lake-kolkata /src/pages/coding-classes-near-salt-lake-kolkata.html 200
+/coding-classes-near-new-town-kolkata /src/pages/coding-classes-near-new-town-kolkata.html 200
+/coding-classes-near-bhowanipore-kolkata /src/pages/coding-classes-near-bhowanipore-kolkata.html 200
+/coding-classes-near-alipore-kolkata /src/pages/coding-classes-near-alipore-kolkata.html 200
+/coding-classes-near-park-street-kolkata /src/pages/coding-classes-near-park-street-kolkata.html 200
+/coding-classes-near-jadavpur-kolkata /src/pages/coding-classes-near-jadavpur-kolkata.html 200
+/coding-classes-near-gariahat-kolkata /src/pages/coding-classes-near-gariahat-kolkata.html 200
+/coding-classes-near-tollygunge-kolkata /src/pages/coding-classes-near-tollygunge-kolkata.html 200
+/coding-classes-near-southern-avenue-kolkata /src/pages/coding-classes-near-southern-avenue-kolkata.html 200
+/coding-classes-near-golpark-kolkata /src/pages/coding-classes-near-golpark-kolkata.html 200
+/coding-classes-near-lake-gardens-kolkata /src/pages/coding-classes-near-lake-gardens-kolkata.html 200
+/coding-classes-near-jodhpur-park-kolkata /src/pages/coding-classes-near-jodhpur-park-kolkata.html 200
+/coding-classes-near-elgin-road-kolkata /src/pages/coding-classes-near-elgin-road-kolkata.html 200
+/coding-classes-near-new-alipore-kolkata /src/pages/coding-classes-near-new-alipore-kolkata.html 200
+/coding-classes-near-park-circus-kolkata /src/pages/coding-classes-near-park-circus-kolkata.html 200
+/coding-classes-near-kasba-kolkata /src/pages/coding-classes-near-kasba-kolkata.html 200
+/coding-classes-near-dum-dum-kolkata /src/pages/coding-classes-near-dum-dum-kolkata.html 200
+/coding-classes-near-lake-town-kolkata /src/pages/coding-classes-near-lake-town-kolkata.html 200
+/coding-classes-near-rashbehari-kolkata /src/pages/coding-classes-near-rashbehari-kolkata.html 200
+/coding-classes-near-hazra-kolkata /src/pages/coding-classes-near-hazra-kolkata.html 200
+/coding-classes-near-kalighat-kolkata /src/pages/coding-classes-near-kalighat-kolkata.html 200
+/coding-classes-near-dhakuria-kolkata /src/pages/coding-classes-near-dhakuria-kolkata.html 200
+/coding-classes-near-deshapriya-park-kolkata /src/pages/coding-classes-near-deshapriya-park-kolkata.html 200
+/coding-classes-near-lansdowne-kolkata /src/pages/coding-classes-near-lansdowne-kolkata.html 200
+/coding-classes-near-shakespeare-sarani-kolkata /src/pages/coding-classes-near-shakespeare-sarani-kolkata.html 200
+/coding-classes-near-camac-street-kolkata /src/pages/coding-classes-near-camac-street-kolkata.html 200
+/coding-classes-near-loudon-street-kolkata /src/pages/coding-classes-near-loudon-street-kolkata.html 200
+/coding-classes-near-ajc-bose-road-kolkata /src/pages/coding-classes-near-ajc-bose-road-kolkata.html 200
+/coding-classes-near-vip-road-kolkata /src/pages/coding-classes-near-vip-road-kolkata.html 200
+/coding-classes-near-baguiati-kolkata /src/pages/coding-classes-near-baguiati-kolkata.html 200
+/coding-classes-near-kestopur-kolkata /src/pages/coding-classes-near-kestopur-kolkata.html 200
+/coding-classes-near-sreebhumi-kolkata /src/pages/coding-classes-near-sreebhumi-kolkata.html 200
+/coding-classes-near-shyambazar-kolkata /src/pages/coding-classes-near-shyambazar-kolkata.html 200
+/coding-classes-near-baranagar-kolkata /src/pages/coding-classes-near-baranagar-kolkata.html 200
+/coding-classes-near-nager-bazar-kolkata /src/pages/coding-classes-near-nager-bazar-kolkata.html 200
+# Locality Landing Pages — Howrah
+/coding-classes-near-howrah-city-howrah /src/pages/coding-classes-near-howrah-city-howrah.html 200
+/coding-classes-near-shibpur-howrah /src/pages/coding-classes-near-shibpur-howrah.html 200
+/coding-classes-near-bally-howrah /src/pages/coding-classes-near-bally-howrah.html 200
+/coding-classes-near-santragachi-howrah /src/pages/coding-classes-near-santragachi-howrah.html 200
+/coding-classes-near-liluah-howrah /src/pages/coding-classes-near-liluah-howrah.html 200
+/coding-classes-near-kadamtala-howrah /src/pages/coding-classes-near-kadamtala-howrah.html 200
+/coding-classes-near-mandirtala-howrah /src/pages/coding-classes-near-mandirtala-howrah.html 200
+/coding-classes-near-ramrajatala-howrah /src/pages/coding-classes-near-ramrajatala-howrah.html 200
+/coding-classes-near-domjur-howrah /src/pages/coding-classes-near-domjur-howrah.html 200
+/coding-classes-near-andul-howrah /src/pages/coding-classes-near-andul-howrah.html 200
+/coding-classes-near-uluberia-howrah /src/pages/coding-classes-near-uluberia-howrah.html 200
+
 # 404 fallback
 /* /src/pages/404.html 404
 

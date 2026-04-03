@@ -138,7 +138,18 @@
       "mcp__gsc__list_sites",
       "mcp__gsc__list_sitemaps",
       "mcp__gsc__index_inspect",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "Bash(npx http-server:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8787/coding-classes-near-ballygunge-kolkata.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8787/pages/coding-classes-near-ballygunge-kolkata.html)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl:*)",
+      "Bash(npx serve:*)",
+      "Bash(disown)",
+      "Bash(npx playwright:*)",
+      "Bash(rm:*)",
+      "Bash(xargs -I{} basename {})",
+      "Bash(xargs -I{} basename {} .html)"
     ]
   }
 }

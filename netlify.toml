@@ -903,6 +903,243 @@
   status = 301
   force = true
 
+# Locality Landing Pages — Kolkata (South, Central, North, East)
+[[redirects]]
+  from = "/coding-classes-near-ballygunge-kolkata"
+  to = "/src/pages/coding-classes-near-ballygunge-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-salt-lake-kolkata"
+  to = "/src/pages/coding-classes-near-salt-lake-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-new-town-kolkata"
+  to = "/src/pages/coding-classes-near-new-town-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-bhowanipore-kolkata"
+  to = "/src/pages/coding-classes-near-bhowanipore-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-alipore-kolkata"
+  to = "/src/pages/coding-classes-near-alipore-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-park-street-kolkata"
+  to = "/src/pages/coding-classes-near-park-street-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-jadavpur-kolkata"
+  to = "/src/pages/coding-classes-near-jadavpur-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-gariahat-kolkata"
+  to = "/src/pages/coding-classes-near-gariahat-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-tollygunge-kolkata"
+  to = "/src/pages/coding-classes-near-tollygunge-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-southern-avenue-kolkata"
+  to = "/src/pages/coding-classes-near-southern-avenue-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-golpark-kolkata"
+  to = "/src/pages/coding-classes-near-golpark-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-lake-gardens-kolkata"
+  to = "/src/pages/coding-classes-near-lake-gardens-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-jodhpur-park-kolkata"
+  to = "/src/pages/coding-classes-near-jodhpur-park-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-elgin-road-kolkata"
+  to = "/src/pages/coding-classes-near-elgin-road-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-new-alipore-kolkata"
+  to = "/src/pages/coding-classes-near-new-alipore-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-park-circus-kolkata"
+  to = "/src/pages/coding-classes-near-park-circus-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-kasba-kolkata"
+  to = "/src/pages/coding-classes-near-kasba-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-dum-dum-kolkata"
+  to = "/src/pages/coding-classes-near-dum-dum-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-lake-town-kolkata"
+  to = "/src/pages/coding-classes-near-lake-town-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-rashbehari-kolkata"
+  to = "/src/pages/coding-classes-near-rashbehari-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-hazra-kolkata"
+  to = "/src/pages/coding-classes-near-hazra-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-kalighat-kolkata"
+  to = "/src/pages/coding-classes-near-kalighat-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-dhakuria-kolkata"
+  to = "/src/pages/coding-classes-near-dhakuria-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-deshapriya-park-kolkata"
+  to = "/src/pages/coding-classes-near-deshapriya-park-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-lansdowne-kolkata"
+  to = "/src/pages/coding-classes-near-lansdowne-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-shakespeare-sarani-kolkata"
+  to = "/src/pages/coding-classes-near-shakespeare-sarani-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-camac-street-kolkata"
+  to = "/src/pages/coding-classes-near-camac-street-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-loudon-street-kolkata"
+  to = "/src/pages/coding-classes-near-loudon-street-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-ajc-bose-road-kolkata"
+  to = "/src/pages/coding-classes-near-ajc-bose-road-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-vip-road-kolkata"
+  to = "/src/pages/coding-classes-near-vip-road-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-baguiati-kolkata"
+  to = "/src/pages/coding-classes-near-baguiati-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-kestopur-kolkata"
+  to = "/src/pages/coding-classes-near-kestopur-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-sreebhumi-kolkata"
+  to = "/src/pages/coding-classes-near-sreebhumi-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-shyambazar-kolkata"
+  to = "/src/pages/coding-classes-near-shyambazar-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-baranagar-kolkata"
+  to = "/src/pages/coding-classes-near-baranagar-kolkata.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-nager-bazar-kolkata"
+  to = "/src/pages/coding-classes-near-nager-bazar-kolkata.html"
+  status = 200
+
+# Locality Landing Pages — Howrah District
+[[redirects]]
+  from = "/coding-classes-near-howrah-city-howrah"
+  to = "/src/pages/coding-classes-near-howrah-city-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-shibpur-howrah"
+  to = "/src/pages/coding-classes-near-shibpur-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-bally-howrah"
+  to = "/src/pages/coding-classes-near-bally-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-santragachi-howrah"
+  to = "/src/pages/coding-classes-near-santragachi-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-liluah-howrah"
+  to = "/src/pages/coding-classes-near-liluah-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-kadamtala-howrah"
+  to = "/src/pages/coding-classes-near-kadamtala-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-mandirtala-howrah"
+  to = "/src/pages/coding-classes-near-mandirtala-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-ramrajatala-howrah"
+  to = "/src/pages/coding-classes-near-ramrajatala-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-domjur-howrah"
+  to = "/src/pages/coding-classes-near-domjur-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-andul-howrah"
+  to = "/src/pages/coding-classes-near-andul-howrah.html"
+  status = 200
+
+[[redirects]]
+  from = "/coding-classes-near-uluberia-howrah"
+  to = "/src/pages/coding-classes-near-uluberia-howrah.html"
+  status = 200
+
 # 404 fallback
 [[redirects]]
   from = "/*"
