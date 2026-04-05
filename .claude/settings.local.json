@@ -149,7 +149,8 @@
       "Bash(npx playwright:*)",
       "Bash(rm:*)",
       "Bash(xargs -I{} basename {})",
-      "Bash(xargs -I{} basename {} .html)"
+      "Bash(xargs -I{} basename {} .html)",
+      "mcp__gsc__submit_sitemap"
     ]
   }
 }

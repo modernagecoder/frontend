@@ -52,13 +52,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-  
-  <url>
-    <loc>https://learn.modernagecoders.com/login</loc>
-    <lastmod>2026-03-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+
 
   <!-- Static Pages (City, Summer Camp, Challenges, etc.) -->
   <url>
@@ -1441,7 +1435,7 @@
 
   <!-- Category Pages -->
   <url>
-    <loc>https://learn.modernagecoders.com/category/kids</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-kids</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1455,7 +1449,7 @@
   </url>
 
   <url>
-    <loc>https://learn.modernagecoders.com/category/college</loc>
+    <loc>https://learn.modernagecoders.com/levels/coding-for-college-students</loc>
     <lastmod>2026-03-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -1475,13 +1469,6 @@
     <priority>0.85</priority>
   </url>
 
-  <!-- Homepage (index) -->
-  <url>
-    <loc>https://learn.modernagecoders.com/index</loc>
-    <lastmod>2026-03-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
 
   <!-- Mahadevi Birla School Kolkata -->
   <url>
