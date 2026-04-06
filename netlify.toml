@@ -104,17 +104,6 @@
   to = "/lovewall/dist/assets/:splat"
   status = 200
 
-# Resources section
-[[redirects]]
-  from = "/resources"
-  to = "/content/resources/generated/index.html"
-  status = 200
-
-[[redirects]]
-  from = "/resources/*"
-  to = "/content/resources/generated/:splat"
-  status = 200
-
 # Rewrite rules for clean URLs
 [[redirects]]
   from = "/"

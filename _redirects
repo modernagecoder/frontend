@@ -134,6 +134,10 @@
 # Blog posts
 /blog/* /content/blog/generated/:splat/index.html 200
 
+# Resource pages (notes + practice)
+/resources /content/resources/generated/index.html 200
+/resources/* /content/resources/generated/:splat/index.html 200
+
 # 301 Redirects for retired/changed course slugs
 /courses/python-programming-masterclass-teens /courses/python-complete-masterclass-teens 301!
 /courses/maths /courses/college-mathematics-complete-masterclass 301!
