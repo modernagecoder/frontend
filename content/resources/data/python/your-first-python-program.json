@@ -1,0 +1,789 @@
+{
+  "title": "Your First Python Program",
+  "slug": "your-first-python-program",
+  "language": "python",
+  "chapter": 3,
+  "difficulty": "Beginner",
+  "readingTime": "18 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Your First Python Program - print() Function, Escape Characters, Comments | Modern Age Coders",
+    "description": "Learn how to write your first Python program using the print() function. Master printing strings, numbers, escape characters, sep and end parameters, and Python comments with 60+ practice questions.",
+    "keywords": "python hello world, first python program, python print function, python print tutorial, python escape characters, python comments, python print sep end, python newline character, python print multiple values"
+  },
+  "content": {
+    "what": "<h2>What Is Your First Python Program?</h2><p>Every programmer's journey begins with a simple task: making the computer display a message on the screen. In Python, you do this using the <strong>print() function</strong>. The <code>print()</code> function is the most basic and most frequently used tool in Python — it takes whatever you give it and displays it as text on the screen.</p><p>In this chapter, you will learn everything about the <code>print()</code> function: how to print text (strings), how to print numbers, how to print multiple items on one line, how to use special characters like newline and tab, and how to control the output format using the <code>sep</code> and <code>end</code> parameters. You will also learn about <strong>comments</strong> — notes that you write in your code for humans to read, which Python completely ignores.</p><h3>What You Will Learn</h3><ul><li>How the <code>print()</code> function works</li><li>Printing strings using single quotes and double quotes</li><li>Printing numbers (integers and decimals)</li><li>Printing multiple values with comma separation</li><li>Escape characters: <code>\\n</code>, <code>\\t</code>, <code>\\\\</code>, <code>\\\"</code>, <code>\\'</code></li><li>The <code>sep</code> parameter (custom separator between values)</li><li>The <code>end</code> parameter (custom ending instead of newline)</li><li>Comments: single-line (<code>#</code>) and multi-line (<code>''' '''</code>)</li><li>Running complete programs from a file</li></ul>",
+    "why": "<h2>Why Is the print() Function So Important?</h2><p>You might think that printing text on screen is too simple to be important. But the <code>print()</code> function is one of the most critical tools in a programmer's toolkit, and here is why:</p><h3>1. It Is How Your Program Communicates</h3><p>A program that does calculations but never shows the results is useless. The <code>print()</code> function is the primary way your program communicates its output to the user. Whether you are building a calculator, a quiz game, or a data analysis tool, you will use <code>print()</code> to display results, messages, and information.</p><h3>2. It Is Your Best Debugging Tool</h3><p>When your program is not working correctly, the first thing experienced programmers do is add <code>print()</code> statements to see what is happening at each step. For example, if a calculation gives the wrong result, you can print the value at each stage to find where it goes wrong. This technique is called <strong>print debugging</strong>, and you will use it throughout your programming career.</p><h3>3. It Teaches Fundamental Concepts</h3><p>Learning <code>print()</code> thoroughly introduces you to several important programming concepts:</p><ul><li><strong>Functions:</strong> <code>print()</code> is a function — it has a name, takes arguments (inputs), and performs an action.</li><li><strong>Strings:</strong> Text inside quotes is called a string. You will work with strings in every program you ever write.</li><li><strong>Parameters:</strong> The <code>sep</code> and <code>end</code> parameters teach you how functions can have optional settings that change their behavior.</li><li><strong>Escape sequences:</strong> Special character combinations like <code>\\n</code> introduce the concept of encoding special characters.</li></ul><h3>4. Every Program You Write Will Use It</h3><p>From your very first program to advanced projects, <code>print()</code> is always there. Even professional developers with decades of experience use <code>print()</code> daily. Mastering it now means you have a solid foundation for everything that follows.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>The print() Function</h3><p>The <code>print()</code> function displays output on the screen (technically, it writes to the <strong>standard output</strong>, which is usually your terminal or console). The basic syntax is:</p><pre><code>print(value)</code></pre><p>You can pass one or more values to <code>print()</code>, and it will display them. After printing, it automatically moves to the next line (unless you change this behavior with the <code>end</code> parameter).</p><h3>Printing Strings (Text)</h3><p>A <strong>string</strong> is a sequence of characters (letters, numbers, symbols, spaces) enclosed in quotes. In Python, you can use either <strong>single quotes</strong> (<code>'...'</code>) or <strong>double quotes</strong> (<code>\"...\"</code>) — both work exactly the same way.</p><pre><code>print(\"Hello, World!\")    # Using double quotes\nprint('Hello, World!')    # Using single quotes — same output</code></pre><p>Both produce the exact same output: <code>Hello, World!</code></p><h4>When to Use Single vs Double Quotes</h4><p>Since both work the same, when should you use which? The answer is: use whichever makes your string easier to read.</p><ul><li>If your string contains a <strong>single quote (apostrophe)</strong>, use double quotes on the outside: <code>print(\"It's a great day\")</code></li><li>If your string contains <strong>double quotes</strong>, use single quotes on the outside: <code>print('She said \"Hello\"')</code></li><li>If your string contains neither, use whichever you prefer (most Python developers prefer double quotes)</li></ul><h3>Printing Numbers</h3><p>You can print numbers directly without any quotes:</p><pre><code>print(42)       # Prints an integer\nprint(3.14)     # Prints a decimal number\nprint(2 + 3)    # Prints the result: 5\nprint(10 * 7)   # Prints the result: 70</code></pre><p><strong>Important difference:</strong> <code>print(42)</code> prints the number 42, while <code>print(\"42\")</code> prints the text \"42\". They look the same on screen, but Python treats them differently internally. The first is a <strong>number</strong> (you can do math with it), and the second is a <strong>string</strong> (it is just text).</p><h3>Printing Multiple Values</h3><p>You can print multiple values in a single <code>print()</code> call by separating them with commas:</p><pre><code>print(\"My name is\", \"Aarav\")\nprint(\"I am\", 14, \"years old\")\nprint(\"Score:\", 95, \"out of\", 100)</code></pre><p>When you separate values with commas, Python automatically adds a <strong>space</strong> between them in the output.</p><p>Output:</p><pre><code>My name is Aarav\nI am 14 years old\nScore: 95 out of 100</code></pre><h3>Escape Characters</h3><p>Sometimes you need to include special characters in a string that you cannot type directly. Python uses the <strong>backslash</strong> (<code>\\</code>) as an <strong>escape character</strong> — it tells Python that the character after the backslash has a special meaning.</p><h4>Common Escape Characters</h4><table><tr><th>Escape Sequence</th><th>Meaning</th><th>Example</th></tr><tr><td><code>\\n</code></td><td>New line (moves to next line)</td><td><code>print(\"Hello\\nWorld\")</code> prints Hello and World on separate lines</td></tr><tr><td><code>\\t</code></td><td>Tab (adds horizontal space)</td><td><code>print(\"Name:\\tAarav\")</code> adds a tab between Name: and Aarav</td></tr><tr><td><code>\\\\</code></td><td>A literal backslash</td><td><code>print(\"C:\\\\Users\\\\Aarav\")</code> prints C:\\Users\\Aarav</td></tr><tr><td><code>\\\"</code></td><td>A double quote inside a double-quoted string</td><td><code>print(\"She said \\\"Hi\\\"\")</code> prints She said \"Hi\"</td></tr><tr><td><code>\\'</code></td><td>A single quote inside a single-quoted string</td><td><code>print('It\\'s great')</code> prints It's great</td></tr></table><h4>Why Do We Need Escape Characters?</h4><p>Consider this problem: you want to print <code>She said \"Hello\"</code>. If you write <code>print(\"She said \"Hello\"\")</code>, Python gets confused because it sees the second <code>\"</code> and thinks the string has ended. The escape character <code>\\\"</code> tells Python: \"This is not the end of the string — this is a literal double quote character that I want to print.\"</p><h3>The sep Parameter</h3><p>When you print multiple values, Python puts a <strong>space</strong> between them by default. The <code>sep</code> (separator) parameter lets you change what goes between the values:</p><pre><code>print(\"Aarav\", \"Sharma\", sep=\"-\")        # Output: Aarav-Sharma\nprint(\"10\", \"04\", \"2026\", sep=\"/\")       # Output: 10/04/2026\nprint(\"A\", \"B\", \"C\", sep=\" -> \")         # Output: A -> B -> C\nprint(\"Hello\", \"World\", sep=\"\")           # Output: HelloWorld (no space)\nprint(\"one\", \"two\", \"three\", sep=\"\\n\")   # Prints each on a new line</code></pre><h3>The end Parameter</h3><p>By default, every <code>print()</code> call ends with a <strong>newline character</strong> — this is why each <code>print()</code> starts its output on a new line. The <code>end</code> parameter lets you change what comes at the end:</p><pre><code># Default behavior (end=\"\\n\"):\nprint(\"Hello\")\nprint(\"World\")\n# Output:\n# Hello\n# World\n\n# Custom end:\nprint(\"Hello\", end=\" \")\nprint(\"World\")\n# Output: Hello World (both on same line with a space between)</code></pre><p>The <code>end</code> parameter is useful when you want to print multiple things on the same line using separate <code>print()</code> calls.</p><h3>Comments in Python</h3><p>Comments are notes written inside your code that Python <strong>completely ignores</strong>. They exist only for humans — to explain what the code does, why a certain approach was chosen, or to temporarily disable a line of code.</p><h4>Single-Line Comments (#)</h4><p>Use the hash symbol (<code>#</code>) to write a comment. Everything after <code>#</code> on that line is ignored by Python:</p><pre><code># This is a comment — Python ignores this line\nprint(\"Hello\")  # This is an inline comment\n\n# The next line calculates the sum\nprint(5 + 3)     # Result: 8</code></pre><h4>Multi-Line Comments (Triple Quotes)</h4><p>For longer comments that span multiple lines, you can use triple quotes (<code>'''...'''</code> or <code>\"\"\"...\"\"\"</code>):</p><pre><code>'''\nThis is a multi-line comment.\nIt can span as many lines as you need.\nPython treats this as a string but since\nit is not assigned to any variable, it is ignored.\n'''\nprint(\"Hello, World!\")</code></pre><p>Technically, triple-quoted strings are not \"true\" comments — they are strings that are not assigned to anything, so Python evaluates them but discards the result. However, they are commonly used as multi-line comments by Python developers.</p><h4>Why Write Comments?</h4><ul><li><strong>For yourself:</strong> When you come back to your code after a month, comments remind you what each part does.</li><li><strong>For others:</strong> If someone else reads your code, comments help them understand your logic.</li><li><strong>For debugging:</strong> You can \"comment out\" a line of code (add # before it) to temporarily disable it without deleting it.</li></ul><h3>Running Programs from a File</h3><p>In the previous chapter, you learned how to create and run <code>.py</code> files. Here is the complete workflow again:</p><ol><li>Open your code editor (IDLE, VS Code, etc.).</li><li>Write your program — for example, multiple <code>print()</code> statements.</li><li>Save the file with a <code>.py</code> extension (e.g., <code>greetings.py</code>).</li><li>Run the file (F5 in IDLE, or <code>python greetings.py</code> in the terminal).</li></ol><p>When you run a file, Python executes all the lines from top to bottom, one at a time. If there is an error on any line, execution stops at that line and shows an error message.</p>",
+    "codeExamples": [
+      {
+        "title": "Hello World - Your Very First Program",
+        "code": "print(\"Hello, World!\")",
+        "language": "python",
+        "explanation": "This is the classic first program that every programmer writes. The <code>print()</code> function takes the string <code>\"Hello, World!\"</code> and displays it on the screen. The string must be enclosed in quotes (single or double).",
+        "output": "Hello, World!"
+      },
+      {
+        "title": "Single Quotes vs Double Quotes",
+        "code": "print(\"Hello, World!\")      # Double quotes\nprint('Hello, World!')      # Single quotes - same result\n\n# Use double quotes when string has an apostrophe:\nprint(\"It's a beautiful day\")\n\n# Use single quotes when string has double quotes:\nprint('She said \"Welcome\" to everyone')",
+        "language": "python",
+        "explanation": "Python allows both single and double quotes for strings. They produce identical results. The practical rule is: if your string contains an apostrophe (single quote), wrap it in double quotes. If your string contains double quotes, wrap it in single quotes. This avoids the need for escape characters.",
+        "output": "Hello, World!\nHello, World!\nIt's a beautiful day\nShe said \"Welcome\" to everyone"
+      },
+      {
+        "title": "Printing Numbers and Expressions",
+        "code": "print(42)           # An integer\nprint(3.14)         # A decimal (float)\nprint(7 + 8)        # Addition: 15\nprint(100 - 37)     # Subtraction: 63\nprint(6 * 9)        # Multiplication: 54\nprint(45 / 5)       # Division: 9.0 (always gives decimal)\nprint(2 ** 10)      # Power: 1024\n\n# Number vs string:\nprint(50)           # This is a number\nprint(\"50\")         # This is text (a string)",
+        "language": "python",
+        "explanation": "You can print numbers directly without quotes. Python evaluates mathematical expressions first and then prints the result. Notice that division (<code>/</code>) always produces a decimal result (9.0, not 9). Also notice the difference between <code>print(50)</code> (a number) and <code>print(\"50\")</code> (a string) — they look the same in output but are different types internally.",
+        "output": "42\n3.14\n15\n63\n54\n9.0\n1024\n50\n50"
+      },
+      {
+        "title": "Printing Multiple Values with Commas",
+        "code": "print(\"My name is\", \"Ananya\")\nprint(\"I am\", 13, \"years old\")\nprint(\"Marks in Maths:\", 95, \"out of\", 100)\nprint(\"Sum of 5 and 3 is\", 5 + 3)\nprint(\"Total students:\", 30 + 15 + 20)",
+        "language": "python",
+        "explanation": "When you pass multiple values to <code>print()</code> separated by commas, Python prints them all on the same line with a <strong>space</strong> between each value. You can mix strings and numbers freely. Python evaluates expressions (like <code>5 + 3</code>) before printing.",
+        "output": "My name is Ananya\nI am 13 years old\nMarks in Maths: 95 out of 100\nSum of 5 and 3 is 8\nTotal students: 65"
+      },
+      {
+        "title": "Escape Characters in Action",
+        "code": "# Newline: \\n moves to next line\nprint(\"Line 1\\nLine 2\\nLine 3\")\nprint()  # Empty line for spacing\n\n# Tab: \\t adds horizontal spacing\nprint(\"Name\\tAge\\tCity\")\nprint(\"Rohit\\t14\\tMumbai\")\nprint(\"Sneha\\t13\\tDelhi\")\nprint()\n\n# Backslash: \\\\ prints a single \\\nprint(\"File path: C:\\\\Users\\\\Priya\\\\Documents\")\n\n# Quotes inside strings:\nprint(\"He said \\\"Python is fun\\\"\")\nprint('It\\'s a great language')",
+        "language": "python",
+        "explanation": "Escape characters start with a backslash (<code>\\</code>). <code>\\n</code> creates a new line, <code>\\t</code> adds a tab (useful for aligning columns), <code>\\\\</code> prints a literal backslash, <code>\\\"</code> prints a double quote inside double-quoted strings, and <code>\\'</code> prints a single quote inside single-quoted strings. An empty <code>print()</code> with no arguments just prints a blank line.",
+        "output": "Line 1\nLine 2\nLine 3\n\nName\tAge\tCity\nRohit\t14\tMumbai\nSneha\t13\tDelhi\n\nFile path: C:\\Users\\Priya\\Documents\nHe said \"Python is fun\"\nIt's a great language"
+      },
+      {
+        "title": "Using sep and end Parameters",
+        "code": "# sep changes the separator between values\nprint(\"Aarav\", \"Sharma\", sep=\"-\")\nprint(25, \"04\", 2026, sep=\"/\")\nprint(\"A\", \"B\", \"C\", \"D\", sep=\" -> \")\nprint(\"Hello\", \"World\", sep=\"***\")\nprint()\n\n# end changes what comes after the printed text\nprint(\"Loading\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\")\n\nprint(\"Name:\", end=\" \")\nprint(\"Diya\")\n\n# Combining sep and end\nprint(1, 2, 3, sep=\", \", end=\" ...done!\\n\")",
+        "language": "python",
+        "explanation": "The <code>sep</code> parameter controls what appears between multiple values (default is a space). The <code>end</code> parameter controls what appears after all values are printed (default is <code>\\n</code>, a newline). Setting <code>end=\"\"</code> means the next <code>print()</code> continues on the same line. You can use both <code>sep</code> and <code>end</code> in the same <code>print()</code> call.",
+        "output": "Aarav-Sharma\n25/04/2026\nA -> B -> C -> D\nHello***World\n\nLoading...\nName: Diya\n1, 2, 3 ...done!"
+      },
+      {
+        "title": "Comments: Single-Line and Multi-Line",
+        "code": "# This is a single-line comment\n# Python ignores everything after the # symbol\n\nprint(\"Hello!\")  # This is an inline comment\n\n# You can use comments to temporarily disable code:\n# print(\"This line will NOT run\")\nprint(\"This line WILL run\")\n\n'''\nThis is a multi-line comment.\nIt uses triple single quotes.\nUseful for longer explanations.\n'''\n\n\"\"\"\nYou can also use triple double quotes\nfor multi-line comments.\n\"\"\"\n\nprint(\"Program complete!\")",
+        "language": "python",
+        "explanation": "Single-line comments use <code>#</code>. Everything after <code>#</code> on that line is ignored. Inline comments come after code on the same line. Multi-line comments use triple quotes (<code>'''...'''</code> or <code>\"\"\"...\"\"\"</code>). Commenting out code (putting <code>#</code> before it) is a common debugging technique — it disables the line without deleting it.",
+        "output": "Hello!\nThis line WILL run\nProgram complete!"
+      },
+      {
+        "title": "A Complete Program with Everything Combined",
+        "code": "# Student Report Card Generator\n# Author: Riya Patel\n# Date: April 2026\n\n'''\nThis program prints a formatted report card\nusing print(), escape characters, and sep/end.\n'''\n\nprint(\"========================================\")\nprint(\"        STUDENT REPORT CARD\")\nprint(\"========================================\")\nprint()\nprint(\"Name:\\tRiya Patel\")\nprint(\"Class:\\t9th Standard\")\nprint(\"Roll No:\\t42\")\nprint()\nprint(\"Subject\", \"Marks\", sep=\"\\t\\t\")\nprint(\"-------\", \"-----\", sep=\"\\t\\t\")\nprint(\"Maths\", \"95\", sep=\"\\t\\t\")\nprint(\"Science\", \"88\", sep=\"\\t\\t\")\nprint(\"English\", \"92\", sep=\"\\t\\t\")\nprint(\"Hindi\", \"85\", sep=\"\\t\\t\")\nprint(\"Computer\", \"98\", sep=\"\\t\\t\")\nprint()\nprint(\"Total:\", 95 + 88 + 92 + 85 + 98, \"out of 500\")\nprint(\"Result:\", end=\" \")\nprint(\"PASS\")\nprint(\"========================================\")",
+        "language": "python",
+        "explanation": "This complete program demonstrates all the concepts from this chapter working together: comments explain the program's purpose, <code>\\t</code> creates aligned columns, <code>sep</code> controls spacing in the table, <code>end</code> keeps \"Result:\" and \"PASS\" on the same line, and mathematical expressions calculate the total marks automatically.",
+        "output": "========================================\n        STUDENT REPORT CARD\n========================================\n\nName:\tRiya Patel\nClass:\t9th Standard\nRoll No:\t42\n\nSubject\t\tMarks\n-------\t\t-----\nMaths\t\t95\nScience\t\t88\nEnglish\t\t92\nHindi\t\t85\nComputer\t\t98\n\nTotal: 458 out of 500\nResult: PASS\n========================================"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Parentheses in print()",
+        "wrongCode": "print \"Hello, World!\"",
+        "error": "SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?",
+        "correctCode": "print(\"Hello, World!\")",
+        "explanation": "In Python 3, <code>print</code> is a function and requires parentheses. The syntax <code>print \"Hello\"</code> was valid in Python 2 (where print was a statement) but causes a SyntaxError in Python 3. Always write <code>print(...)</code> with parentheses."
+      },
+      {
+        "title": "Mismatched Quotes",
+        "wrongCode": "print(\"Hello, World!')\nprint('Welcome to Python\")",
+        "error": "SyntaxError: EOL while scanning string literal",
+        "correctCode": "print(\"Hello, World!\")\nprint('Welcome to Python')",
+        "explanation": "A string must start and end with the <strong>same type of quote</strong>. If you open with a double quote (<code>\"</code>), you must close with a double quote. If you open with a single quote (<code>'</code>), you must close with a single quote. Mixing them confuses Python because it cannot find the matching closing quote."
+      },
+      {
+        "title": "Forgetting Quotes Around Strings",
+        "wrongCode": "print(Hello World)",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "print(\"Hello World\")",
+        "explanation": "Text (strings) must always be enclosed in quotes. Without quotes, Python tries to interpret <code>Hello</code> and <code>World</code> as variable names. Since these variables do not exist, you get an error. Only numbers can be printed without quotes: <code>print(42)</code> works, but <code>print(Hello)</code> requires quotes."
+      },
+      {
+        "title": "Using Wrong Escape Character Direction",
+        "wrongCode": "print(\"Hello/nWorld\")\nprint(\"Name/tAge\")",
+        "error": "No error, but output is wrong:\nHello/nWorld\nName/tAge",
+        "correctCode": "print(\"Hello\\nWorld\")\nprint(\"Name\\tAge\")",
+        "explanation": "Escape characters use a <strong>backslash</strong> (<code>\\</code>), not a forward slash (<code>/</code>). <code>\\n</code> is a newline, but <code>/n</code> is just the characters '/' and 'n' printed literally. This mistake does not cause an error — the program runs, but the output is not what you expected. Always use the backslash: <code>\\n</code>, <code>\\t</code>, <code>\\\\</code>."
+      },
+      {
+        "title": "Incorrect sep and end Syntax",
+        "wrongCode": "print(\"A\", \"B\", sep = \"-\")    # Spaces around = (works but not recommended)\nprint(\"Hello\" sep=\",\")          # Missing comma before sep\nprint(\"Hi\", sep:\"-\")            # Using colon instead of equals",
+        "error": "The second and third lines cause SyntaxError. The first line works but has unnecessary spaces.",
+        "correctCode": "print(\"A\", \"B\", sep=\"-\")\nprint(\"Hello\", \"World\", sep=\",\")\nprint(\"Hi\", \"Bye\", sep=\"-\")",
+        "explanation": "The <code>sep</code> and <code>end</code> parameters must be written with <code>=</code> (not <code>:</code>), and they must come after the values you want to print, separated by a comma. Writing <code>sep = \"-\"</code> with spaces works but Python style (PEP 8) recommends no spaces around <code>=</code> in keyword arguments: <code>sep=\"-\"</code>."
+      },
+      {
+        "title": "Printing a Backslash Without Escaping",
+        "wrongCode": "print(\"C:\\new_folder\\test\")",
+        "error": "No error, but output is unexpected:\nC:\new_folder\test\n(\\n becomes a newline and \\t becomes a tab!)",
+        "correctCode": "print(\"C:\\\\new_folder\\\\test\")\n# Or use a raw string:\nprint(r\"C:\\new_folder\\test\")",
+        "explanation": "When Python sees <code>\\n</code> inside a string, it interprets it as a newline character, and <code>\\t</code> as a tab — even if you intended them as part of a file path. To print a literal backslash, use <code>\\\\</code> (double backslash). Alternatively, prefix the string with <code>r</code> to make it a \"raw string\" where backslashes are treated literally: <code>r\"C:\\new_folder\\test\"</code>."
+      }
+    ],
+    "summary": [
+      "The print() function displays output on the screen. It is the most commonly used function in Python.",
+      "Strings (text) must be enclosed in quotes — either single quotes ('...') or double quotes (\"...\"). Both work identically.",
+      "Numbers can be printed without quotes. Mathematical expressions inside print() are evaluated before printing.",
+      "Multiple values can be printed in one print() call by separating them with commas. Python adds a space between each value by default.",
+      "Escape characters use a backslash: \\n (newline), \\t (tab), \\\\ (literal backslash), \\\" (double quote), \\' (single quote).",
+      "The sep parameter changes the separator between multiple values (default is a space): print('A', 'B', sep='-') outputs A-B.",
+      "The end parameter changes what comes after the output (default is a newline): print('Hello', end=' ') keeps the next print on the same line.",
+      "Single-line comments use the # symbol. Everything after # on that line is ignored by Python.",
+      "Multi-line comments use triple quotes (''' or \"\"\"). They are useful for longer explanations at the top of a file or function.",
+      "An empty print() with no arguments prints a blank line, useful for adding spacing in output.",
+      "Comments are essential for code readability. Write comments to explain 'why', not just 'what' your code does."
+    ]
+  },
+  "relatedTopics": ["installing-python-and-setup", "variables-and-data-types"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Python program that prints: Hello, I am learning Python!",
+        "hint": "Use the print() function with the message inside quotes.",
+        "answer": "<pre><code>print(\"Hello, I am learning Python!\")</code></pre>",
+        "explanation": "The print() function takes a string (text in quotes) and displays it on screen. You can use either single or double quotes around the text."
+      },
+      {
+        "id": "ts-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Python program that prints the number 2026 (without quotes).",
+        "hint": "Numbers do not need quotes inside print().",
+        "answer": "<pre><code>print(2026)</code></pre>",
+        "explanation": "When printing a number, you do not put quotes around it. print(2026) prints the integer 2026. If you wrote print(\"2026\"), it would print the same output visually, but Python would treat it as text (a string) rather than a number."
+      },
+      {
+        "id": "ts-3",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What is the difference between print(100) and print(\"100\")?",
+        "hint": "One is a number and the other is text.",
+        "answer": "<code>print(100)</code> prints the <strong>integer</strong> 100. <code>print(\"100\")</code> prints the <strong>string</strong> \"100\". The output looks the same on screen, but Python treats them differently — 100 is a number (you can do math with it) and \"100\" is text (a sequence of characters).",
+        "explanation": "This distinction matters when you start doing calculations. print(100 + 50) gives 150 (math addition), but print(\"100\" + \"50\") gives \"10050\" (string concatenation — joining text). Understanding the difference between numbers and strings is fundamental."
+      },
+      {
+        "id": "ts-4",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?\nprint(\"Python\")\nprint(\"is\")\nprint(\"fun\")",
+        "hint": "Each print() statement outputs on a new line by default.",
+        "answer": "Output:<pre><code>Python\nis\nfun</code></pre>",
+        "explanation": "Each print() statement outputs its text and then moves to the next line (because the default value of end is '\\n', a newline character). So the three words appear on three separate lines."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of: print(\"My age is\", 14)",
+        "hint": "When you separate values with commas, Python adds a space between them.",
+        "answer": "Output: <code>My age is 14</code>",
+        "explanation": "When multiple values are passed to print() separated by commas, Python prints each value with a space between them. The string \"My age is\" is printed, followed by a space, followed by the number 14."
+      },
+      {
+        "id": "ts-6",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What does the escape character \\n do inside a string?",
+        "hint": "The 'n' stands for 'new line'.",
+        "answer": "<code>\\n</code> is the <strong>newline</strong> escape character. It moves the output to the next line.",
+        "explanation": "When Python encounters \\n inside a string, it does not print the characters \\ and n. Instead, it starts a new line at that point. For example, print(\"Hello\\nWorld\") prints Hello on one line and World on the next line."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(\"Hello\\tWorld\\nGoodbye\\tWorld\")",
+        "hint": "\\t adds a tab space, \\n moves to next line.",
+        "answer": "Output:<pre><code>Hello\tWorld\nGoodbye\tWorld</code></pre>",
+        "explanation": "The \\t escape character inserts a horizontal tab (several spaces) between Hello and World. Then \\n starts a new line. On the new line, Goodbye and World are also separated by a tab. Tabs are useful for creating aligned columns in text output."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(\"A\", \"B\", \"C\", sep=\"-\")",
+        "hint": "The sep parameter replaces the default space between values.",
+        "answer": "Output: <code>A-B-C</code>",
+        "explanation": "The sep parameter changes the separator between multiple values. By default, sep is a space (\" \"), so values are separated by spaces. Here, sep=\"-\" replaces the space with a hyphen, so A, B, and C are printed with hyphens between them."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of the following code?\nprint(\"Hello\", end=\" \")\nprint(\"World\", end=\"!\")\nprint()",
+        "hint": "The end parameter controls what comes after the printed text instead of a newline.",
+        "answer": "Output: <code>Hello World!</code>",
+        "explanation": "The first print() outputs \"Hello\" followed by a space (instead of the default newline). The second print() continues on the same line, outputting \"World\" followed by \"!\". The third print() with no arguments outputs just a newline, ending the line. So everything appears on one line: Hello World!"
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a Python program that prints a file path: C:\\Users\\Sneha\\Documents using proper escape characters.",
+        "hint": "You need to use \\\\ to print a single backslash.",
+        "answer": "<pre><code>print(\"C:\\\\Users\\\\Sneha\\\\Documents\")</code></pre>",
+        "explanation": "Since the backslash (\\) is an escape character in Python, you need to use a double backslash (\\\\) to print a single backslash. Each \\\\ in the code produces one \\ in the output. Alternatively, you can use a raw string: print(r\"C:\\Users\\Sneha\\Documents\")."
+      },
+      {
+        "id": "ts-11",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "What is the difference between # comments and ''' ''' (triple-quote) comments?",
+        "hint": "One is for single lines, the other can span multiple lines.",
+        "answer": "<code>#</code> creates a <strong>single-line comment</strong> — everything after # on that line is ignored. <code>''' '''</code> (triple quotes) create <strong>multi-line comments</strong> that can span multiple lines. Technically, triple-quoted strings are not true comments but strings that are not assigned to any variable, so they are discarded.",
+        "explanation": "Use # for short comments and notes. Use triple quotes when you need to write a longer explanation that spans several lines, such as describing what an entire program or function does. In professional code, triple-quoted strings are more commonly used as 'docstrings' (documentation strings) inside functions and classes."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(10, 20, 30, sep=\", \", end=\".\\n\")",
+        "hint": "sep controls what goes between values, end controls what comes at the very end.",
+        "answer": "Output: <code>10, 20, 30.</code>",
+        "explanation": "The sep=\", \" puts a comma and space between each number. The end=\".\\n\" puts a period followed by a newline at the end. So the output is: 10, 20, 30. (with a period at the end and then a newline to move to the next line)."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of the following code?\nprint(\"She said\", end=\" \")\nprint(\"\\\"Hello\\\"\")\nprint('It\\'s', end=\" \")\nprint(\"a sunny day\")",
+        "hint": "\\\" prints a literal double quote, \\' prints a literal single quote.",
+        "answer": "Output:<pre><code>She said \"Hello\"\nIt's a sunny day</code></pre>",
+        "explanation": "Line 1 prints \"She said\" followed by a space (no newline because end=\" \"). Line 2 prints \"Hello\" with literal double quotes around it (\\\" produces a double quote character). Line 3 prints \"It's\" followed by a space. Line 4 prints \"a sunny day\". Lines 1-2 form one output line, and lines 3-4 form another."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(\"1\", \"2\", \"3\", sep=\"\\n\")\nprint()\nprint(\"A\", \"B\", \"C\", sep=\"\\t\")",
+        "hint": "sep=\"\\n\" means a newline is used as the separator between values.",
+        "answer": "Output:<pre><code>1\n2\n3\n\nA\tB\tC</code></pre>",
+        "explanation": "In the first print(), sep=\"\\n\" means each value is separated by a newline, so 1, 2, and 3 appear on separate lines. The empty print() adds a blank line. In the last print(), sep=\"\\t\" separates A, B, and C with tabs."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a single print() statement that produces this exact output:\nName\tMarks\nAarav\t95\nMeera\t88",
+        "hint": "Use \\n for new lines and \\t for tabs, all inside one string.",
+        "answer": "<pre><code>print(\"Name\\tMarks\\nAarav\\t95\\nMeera\\t88\")</code></pre>",
+        "explanation": "You can combine multiple escape characters in a single string. \\t adds a tab between the column values, and \\n starts a new row. This produces a neatly formatted table with two columns: Name and Marks."
+      },
+      {
+        "id": "ts-16",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What happens when you call print() with no arguments (empty parentheses)?",
+        "hint": "Think about what the default end character is.",
+        "answer": "An empty <code>print()</code> prints a <strong>blank line</strong>. Since print() has no values to display but still outputs the default end character (<code>\\n</code>), it produces an empty line.",
+        "explanation": "This is commonly used to add vertical spacing between sections of output. For example, if you want a gap between two blocks of text, place an empty print() between them. It is cleaner than printing an empty string: print(\"\") does the same thing."
+      },
+      {
+        "id": "ts-17",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Predict the output of:\nprint(\"A\", end=\"\")\nprint(\"B\", end=\"\")\nprint(\"C\", end=\"\")\nprint()\nprint(\"Done\")",
+        "hint": "end=\"\" means nothing is printed after the value, not even a newline.",
+        "answer": "Output:<pre><code>ABC\nDone</code></pre>",
+        "explanation": "The first three print() calls all have end=\"\" (empty string), meaning no newline is added after each one. So A, B, and C appear on the same line without any spaces between them: ABC. The fourth print() with no arguments outputs just a newline, ending the line. The fifth print() outputs \"Done\" on a new line."
+      },
+      {
+        "id": "ts-18",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that prints a date in DD/MM/YYYY format using the sep parameter. Print 15, 08, and 2026 as separate values.",
+        "hint": "Use three numbers as separate arguments and set sep to '/'.",
+        "answer": "<pre><code>print(15, \"08\", 2026, sep=\"/\")</code></pre>",
+        "explanation": "By passing the day, month, and year as separate values and setting sep=\"/\", Python joins them with forward slashes. Note that the month is passed as a string \"08\" to preserve the leading zero — if you wrote 08 as a number, Python would print 8 (dropping the leading zero)."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(\"\\\\n\")",
+        "hint": "The first backslash escapes the second backslash. Then 'n' is a regular character.",
+        "answer": "Output: <code>\\n</code>",
+        "explanation": "This is tricky. <code>\\\\</code> is an escape sequence that produces a single literal backslash (<code>\\</code>). The <code>n</code> after it is just a regular character. So <code>\\\\n</code> produces the output <code>\\n</code> — it prints the two characters backslash and n, NOT a newline."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that prints your name, your class, and your favorite subject on three separate lines.",
+        "hint": "Use three separate print() statements.",
+        "answer": "<pre><code>print(\"Name: Vikram Singh\")\nprint(\"Class: 9th Standard\")\nprint(\"Favourite Subject: Mathematics\")</code></pre>",
+        "explanation": "Each print() statement displays its text and automatically moves to the next line. You can replace the details with your own information. This is the simplest way to print multiple lines — one print() per line."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of: print(5, 10, 15, 20)",
+        "hint": "Multiple values separated by commas are printed with spaces between them.",
+        "answer": "Output: <code>5 10 15 20</code>",
+        "explanation": "When you pass multiple values to print() separated by commas, Python prints them all on one line with a space between each value. The default separator (sep) is a single space."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain why print debugging is useful and give an example of when you would use it.",
+        "hint": "Think about a situation where your program gives the wrong answer.",
+        "answer": "<strong>Print debugging</strong> is the technique of adding <code>print()</code> statements to your code to see the values of variables and expressions at different points during execution. For example, if a calculation gives 50 instead of the expected 100, you can add <code>print()</code> after each step to see where the value goes wrong: <code>print(\"Step 1:\", value1)</code>, <code>print(\"Step 2:\", value2)</code>, etc.",
+        "explanation": "Print debugging is the simplest and most widely used debugging technique. It works in any language and any environment. Even experienced developers use it because it is fast and requires no special tools. You will find yourself using print() for debugging far more often than for actual output."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that prints the following pattern using a single print() statement with escape characters:\n*\n**\n***\n****",
+        "hint": "Use \\n to move to the next line within a single string.",
+        "answer": "<pre><code>print(\"*\\n**\\n***\\n****\")</code></pre>",
+        "explanation": "Each \\n in the string moves the output to the next line. So the string \"*\\n**\\n***\\n****\" produces four lines: * on the first line, ** on the second, *** on the third, and **** on the fourth."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is it important to write comments in your code? Give three reasons.",
+        "hint": "Think about future-you, other people reading your code, and debugging.",
+        "answer": "Three reasons: (1) <strong>Future reference:</strong> When you return to your code after weeks or months, comments remind you what each part does and why. (2) <strong>Collaboration:</strong> When other people read your code (classmates, teachers, team members), comments help them understand your logic without having to decode every line. (3) <strong>Debugging:</strong> You can \"comment out\" lines of code (add # before them) to temporarily disable them while testing, without deleting the code.",
+        "explanation": "A common saying in programming is: 'Code tells you how, comments tell you why.' Good comments explain the reasoning behind a decision, not just what the code does. For example, '# Check if age is at least 13 (minimum age per policy)' is better than '# Check age'."
+      },
+      {
+        "id": "mx-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nprint(\"5 + 3\")\nprint(5 + 3)",
+        "hint": "The first one has quotes (it is a string), the second does not (it is an expression).",
+        "answer": "Output:<pre><code>5 + 3\n8</code></pre>",
+        "explanation": "The first print() has quotes around \"5 + 3\", so Python treats it as a string (text) and prints it literally: 5 + 3. The second print() has no quotes around 5 + 3, so Python treats it as a mathematical expression, calculates the result (8), and prints that."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program that uses only print() statements with the end parameter to print \"HELLO\" with each letter on the same line, separated by dots: H.E.L.L.O",
+        "hint": "Print each letter separately with end=\".\" except for the last one.",
+        "answer": "<pre><code>print(\"H\", end=\".\")\nprint(\"E\", end=\".\")\nprint(\"L\", end=\".\")\nprint(\"L\", end=\".\")\nprint(\"O\")</code></pre>",
+        "explanation": "Each print() with end=\".\" prints its letter followed by a dot instead of a newline. The last print(\"O\") uses the default end (newline), so it ends the line properly. The result is H.E.L.L.O on a single line. Alternatively, you could write: print(\"H\", \"E\", \"L\", \"L\", \"O\", sep=\".\")."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(\"Line 1\", end=\"\\n\\n\")\nprint(\"Line 2\", end=\"\\n\\n\")\nprint(\"Line 3\")",
+        "hint": "end=\"\\n\\n\" means two newlines — one normal and one extra blank line.",
+        "answer": "Output:<pre><code>Line 1\n\nLine 2\n\nLine 3</code></pre>",
+        "explanation": "The end=\"\\n\\n\" adds two newline characters after each line — the first newline ends the current line, and the second creates an empty blank line. This produces output with a blank line between each line of text, creating a double-spaced effect."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Predict the output of:\nprint(\"A\", \"B\", sep=\"\", end=\"\")\nprint(\"C\", \"D\", sep=\"\", end=\"\\n\")\nprint(\"E\", \"F\", sep=\"-\")",
+        "hint": "sep=\"\" means no space between values. end=\"\" means no newline.",
+        "answer": "Output:<pre><code>ABCD\nE-F</code></pre>",
+        "explanation": "Line 1: sep=\"\" removes spaces between A and B, and end=\"\" removes the newline, giving 'AB' with no line break. Line 2: sep=\"\" removes spaces between C and D, and end=\"\\n\" adds a newline, giving 'CD' followed by a newline. Since line 1 had no newline, AB and CD appear together as ABCD. Line 3: sep=\"-\" puts a hyphen between E and F, giving E-F on a new line."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is a raw string in Python? When would you use it?",
+        "hint": "It starts with the letter 'r' before the quote. It treats backslashes as literal characters.",
+        "answer": "A <strong>raw string</strong> is prefixed with <code>r</code> before the opening quote: <code>r\"text\"</code>. In a raw string, backslashes are treated as literal characters and not as escape characters. So <code>r\"\\n\"</code> prints <code>\\n</code> (two characters) instead of a newline. Raw strings are useful for <strong>file paths</strong> (like <code>r\"C:\\new_folder\"</code>) and <strong>regular expressions</strong>.",
+        "explanation": "Without the r prefix, print(\"C:\\new_folder\") would interpret \\n as a newline, producing unexpected output. With the r prefix, print(r\"C:\\new_folder\") prints exactly what you typed: C:\\new_folder. Raw strings save you from having to double every backslash in file paths."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a comment above the following line of code explaining what it does:\nprint(2 ** 8)",
+        "hint": "The ** operator raises a number to a power. 2 ** 8 means 2 to the power of 8.",
+        "answer": "<pre><code># Calculate and print 2 raised to the power of 8\nprint(2 ** 8)</code></pre>",
+        "explanation": "The comment uses # to explain what the code does. A good comment explains the purpose (what the calculation means) rather than just restating the code. This comment is helpful because someone reading the code might not immediately recognize that ** is the power operator."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(type(\"Hello\"))\nprint(type(42))\nprint(type(3.14))",
+        "hint": "The type() function tells you what data type a value is.",
+        "answer": "Output:<pre><code><class 'str'>\n<class 'int'>\n<class 'float'></code></pre>",
+        "explanation": "The type() function returns the data type of a value. \"Hello\" is a str (string), 42 is an int (integer), and 3.14 is a float (floating-point/decimal number). This is a preview of data types, which you will study in detail in the next chapter."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the correct way to print \"Hello\" in Python 3?",
+        "options": [
+          "echo(\"Hello\")",
+          "print(\"Hello\")",
+          "display(\"Hello\")",
+          "write(\"Hello\")"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In Python, the print() function displays output. echo (Option A) is used in PHP and shell scripting. display (Option C) and write (Option D) are not standard Python output functions."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which of the following is a valid Python string?",
+        "options": [
+          "Hello World",
+          "'Hello World'",
+          "(Hello World)",
+          "[Hello World]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Strings in Python must be enclosed in quotes (single or double). Option A has no quotes. Options C and D use parentheses and brackets, which have different meanings in Python (function calls and lists, respectively)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the output of print(10 + 5)?",
+        "options": [
+          "10 + 5",
+          "15",
+          "105",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Since 10 + 5 is without quotes, Python evaluates it as a mathematical expression (10 + 5 = 15) and prints the result. Option A would be the output of print(\"10 + 5\") (with quotes). Option C would result from string concatenation, not numeric addition."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does \\n represent in a Python string?",
+        "options": [
+          "The letter 'n'",
+          "A backslash followed by 'n'",
+          "A newline (moves to next line)",
+          "A null character"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> \\n is the newline escape character. When Python sees \\n in a string, it creates a line break. Option A is wrong — that would just be the character 'n'. Option B would be represented as \\\\n in Python (double backslash). Option D is wrong — the null character is \\0."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What symbol is used for single-line comments in Python?",
+        "options": [
+          "//",
+          "/* */",
+          "#",
+          "--"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python uses the hash symbol (#) for single-line comments. // (Option A) is used in JavaScript, Java, and C++. /* */ (Option B) is used for multi-line comments in C, Java, and JavaScript. -- (Option D) is used in SQL."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What is the output of print('Hello') and print(\"Hello\")?",
+        "options": [
+          "Hello and 'Hello'",
+          "Both print Hello (same output)",
+          "'Hello' and \"Hello\"",
+          "Error in one of them"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Single quotes and double quotes are interchangeable in Python for creating strings. Both print('Hello') and print(\"Hello\") produce exactly the same output: Hello. The quotes are not part of the output — they only mark the beginning and end of the string in the code."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of print(\"A\", \"B\", \"C\", sep=\"*\")?",
+        "options": [
+          "A B C",
+          "A*B*C",
+          "ABC",
+          "A * B * C"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The sep parameter changes the separator between values from the default space to the specified string. sep=\"*\" puts an asterisk between each value: A*B*C. Option A would be the output without the sep parameter. Option C would result from sep=\"\". Option D would result from sep=\" * \"."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does the end parameter in print() control?",
+        "options": [
+          "The last value that gets printed",
+          "Whether the program ends after printing",
+          "What character is printed after the output (default is newline)",
+          "The ending quote of the string"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The end parameter specifies what character (or string) is added after all values are printed. The default is '\\n' (newline), which is why each print() normally starts on a new line. Setting end=\" \" makes the next print() continue on the same line with a space. Option A is wrong — end does not affect what values are printed. Option B is wrong — end has nothing to do with program termination."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which escape character adds a horizontal tab in a string?",
+        "options": [
+          "\\n",
+          "\\t",
+          "\\s",
+          "\\h"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> \\t is the tab escape character that adds horizontal spacing. \\n (Option A) is a newline. \\s (Option C) is not a valid Python escape character. \\h (Option D) is not a valid Python escape character either."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of print(\"Hello\\\\World\")?",
+        "options": [
+          "HelloWorld",
+          "Hello\\World",
+          "Hello\\\\World",
+          "Hello\\nWorld"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The double backslash (\\\\) is an escape sequence that produces a single literal backslash (\\) in the output. So \"Hello\\\\World\" prints Hello\\World. Option A would result from print(\"Hello\" + \"World\"). Option C shows the code, not the output. Option D would result from print(\"Hello\\nWorld\")."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the output of print(\"5\" + \"3\")?",
+        "options": [
+          "8",
+          "53",
+          "5 3",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When you use + with strings, Python concatenates (joins) them together. \"5\" + \"3\" joins the string \"5\" and the string \"3\" to get \"53\". This is NOT mathematical addition. Option A (8) would be the output of print(5 + 3) (without quotes — numeric addition)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which of the following correctly prints: It's a great day",
+        "options": [
+          "print('It's a great day')",
+          "print(\"It's a great day\")",
+          "print(It's a great day)",
+          "print(\"Its a great day\")"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Since the string contains an apostrophe (single quote), wrapping it in double quotes avoids confusion. Option A causes a SyntaxError because the apostrophe in It's closes the single-quoted string prematurely. Option C has no quotes at all. Option D removes the apostrophe, changing the text."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(\"X\", end=\"\")\nprint(\"Y\", end=\"\")\nprint(\"Z\")",
+        "options": [
+          "X Y Z",
+          "XYZ",
+          "X\\nY\\nZ",
+          "X\nY\nZ"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The first two print() calls have end=\"\" (empty string), which means no character is added after the output — not even a space or newline. So X, Y, and Z are printed directly next to each other: XYZ. The last print(\"Z\") uses the default end=\"\\n\", which ends the line."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of print(\"Line1\\nLine2\\nLine3\")?",
+        "options": [
+          "Line1\\nLine2\\nLine3",
+          "Line1 Line2 Line3",
+          "Line1\nLine2\nLine3",
+          "Line1nLine2nLine3"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Each \\n in the string creates a newline, so the three words appear on three separate lines. Option A would be the output of a raw string: print(r\"Line1\\nLine2\\nLine3\"). Option B would result if \\n were replaced with spaces. Option D would result if the backslashes were removed."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid escape sequence in Python?",
+        "options": [
+          "\\n",
+          "\\t",
+          "\\a",
+          "\\p"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> \\p is not a recognized escape sequence in Python. \\n (newline), \\t (tab), and \\a (bell/alert sound) are all valid escape sequences. When Python encounters an unrecognized escape sequence like \\p, it treats the backslash as a literal character in newer versions, but this is not reliable behavior."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of print(\"\\\\n\")?",
+        "options": [
+          "A newline (blank line)",
+          "\\n",
+          "\\\\n",
+          "n"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The first two backslashes (\\\\) form an escape sequence that produces a single literal backslash (\\). The 'n' after it is just a regular character. So the output is the two characters: \\n. This is different from a single \\n which would produce a newline. Option A would be the output of print(\"\\n\")."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output of print(type(\"42\"))?",
+        "options": [
+          "<class 'int'>",
+          "<class 'str'>",
+          "<class 'float'>",
+          "42"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> \"42\" is enclosed in quotes, making it a string (str), not a number. The type() function returns the data type. Without quotes, type(42) would return <class 'int'>. The quotes make all the difference — \"42\" is text, while 42 is a number."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output of print(1, 2, 3, sep=\"\\t\", end=\"!\\n\")?",
+        "options": [
+          "1 2 3!",
+          "1\\t2\\t3!",
+          "1\t2\t3!",
+          "123!"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> sep=\"\\t\" puts a tab character between each value (1, 2, 3), and end=\"!\\n\" adds an exclamation mark followed by a newline at the end. The output is: 1[tab]2[tab]3! Option A would result from the default sep (space). Option B shows the raw code, not the interpreted output. Option D would result from sep=\"\"."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "How do you write a multi-line comment in Python?",
+        "options": [
+          "/* This is a comment */",
+          "// This is a comment",
+          "''' This is a comment '''",
+          "<!-- This is a comment -->"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python uses triple quotes (''' or \"\"\") for multi-line comments/strings. /* */ (Option A) is used in C, Java, JavaScript. // (Option B) is a single-line comment in C, Java, JavaScript. <!-- --> (Option D) is used in HTML."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Easy",
+        "question": "What is the default separator between values in print()?",
+        "options": [
+          "No separator",
+          "A comma",
+          "A space",
+          "A newline"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The default value of the sep parameter is a single space (\" \"). So print(\"A\", \"B\") outputs \"A B\" with a space between them. Option A would be sep=\"\". Option B would be sep=\",\". Option D would be sep=\"\\n\"."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "What happens if you write: print('She said 'Hi'')?",
+        "options": [
+          "It prints: She said Hi",
+          "It prints: She said 'Hi'",
+          "It causes a SyntaxError",
+          "It prints: She said 'Hi"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python sees the first single quote as the start of the string and the second single quote (before Hi) as the end. The remaining Hi'' is invalid Python syntax, causing a SyntaxError. To fix this, use double quotes on the outside: print(\"She said 'Hi'\") or escape the inner quotes: print('She said \\'Hi\\'')."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Personal Introduction",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints your name, age, city, and favourite hobby on four separate lines.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Name: Kavya Joshi\nAge: 13\nCity: Pune\nHobby: Reading books",
+        "constraints": "Use four separate print() statements. Each line should have a label followed by the information.",
+        "solution": "print(\"Name: Kavya Joshi\")\nprint(\"Age: 13\")\nprint(\"City: Pune\")\nprint(\"Hobby: Reading books\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Formatted Table",
+        "difficulty": "Easy",
+        "description": "Write a program that prints a multiplication table for 5 (from 5x1 to 5x5) using tab escape characters for neat alignment.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "5 x 1\t=\t5\n5 x 2\t=\t10\n5 x 3\t=\t15\n5 x 4\t=\t20\n5 x 5\t=\t25",
+        "constraints": "Use \\t for alignment. Let Python calculate the results (do not hardcode the answers).",
+        "solution": "print(\"5 x 1\\t=\\t\", 5 * 1)\nprint(\"5 x 2\\t=\\t\", 5 * 2)\nprint(\"5 x 3\\t=\\t\", 5 * 3)\nprint(\"5 x 4\\t=\\t\", 5 * 4)\nprint(\"5 x 5\\t=\\t\", 5 * 5)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Date Formatter",
+        "difficulty": "Medium",
+        "description": "Write a program that prints today's date in three different formats using the sep parameter: DD-MM-YYYY, DD/MM/YYYY, and DD.MM.YYYY. Use 06, 04, and 2026 as the day, month, and year.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "06-04-2026\n06/04/2026\n06.04.2026",
+        "constraints": "Use the sep parameter in each print() call. Do not use string concatenation.",
+        "solution": "print(\"06\", \"04\", \"2026\", sep=\"-\")\nprint(\"06\", \"04\", \"2026\", sep=\"/\")\nprint(\"06\", \"04\", \"2026\", sep=\".\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Loading Animation",
+        "difficulty": "Medium",
+        "description": "Write a program that simulates a loading animation by printing 'Loading' followed by 10 dots on the same line, then 'Done!' on the same line. Use the end parameter.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Loading..........Done!",
+        "constraints": "Use multiple print() statements with end=\"\" to keep everything on one line. Print each dot separately.",
+        "solution": "print(\"Loading\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\"Done!\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Student Report Card with Comments",
+        "difficulty": "Medium",
+        "description": "Write a well-commented program that creates a formatted report card for a student. Include at least 5 subjects with marks, calculate the total using Python, and use tabs for alignment. Every section must have a comment explaining it.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=============================\n    REPORT CARD - Class 9\n=============================\nName:\tArjun Reddy\nRoll:\t15\n\nSubject\t\tMarks\n-------\t\t-----\nMaths\t\t92\nScience\t\t88\nEnglish\t\t95\nHindi\t\t82\nComputer\t97\n\nTotal:\t\t454 / 500\n=============================",
+        "constraints": "Include at least 8 comments explaining different parts of the code. Use \\t for alignment. Calculate the total using Python arithmetic.",
+        "solution": "# Student Report Card Program\n# This program displays a formatted report card\n\n# Header section\nprint(\"=============================\")\nprint(\"    REPORT CARD - Class 9\")\nprint(\"=============================\")\n\n# Student information\nprint(\"Name:\\tArjun Reddy\")\nprint(\"Roll:\\t15\")\nprint()  # Blank line for spacing\n\n# Table header\nprint(\"Subject\\t\\tMarks\")\nprint(\"-------\\t\\t-----\")\n\n# Individual subject marks\nprint(\"Maths\\t\\t92\")\nprint(\"Science\\t\\t88\")\nprint(\"English\\t\\t95\")\nprint(\"Hindi\\t\\t82\")\nprint(\"Computer\\t97\")\nprint()\n\n# Total calculation - let Python do the math\nprint(\"Total:\\t\\t\", 92 + 88 + 95 + 82 + 97, \"/ 500\")\nprint(\"=============================\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Escape Character Art",
+        "difficulty": "Hard",
+        "description": "Write a program using ONLY a single print() statement (with escape characters) that produces this exact output:\n\nName: \"Diya\"\nPath: C:\\Users\\Diya\nStatus: It's working!\n\nNote: Use \\n for new lines, \\\" for quotes, \\\\ for backslash, and \\' for apostrophe.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Name: \"Diya\"\nPath: C:\\Users\\Diya\nStatus: It's working!",
+        "constraints": "Must use ONLY ONE print() statement. Must use at least three different escape characters.",
+        "solution": "print(\"Name: \\\"Diya\\\"\\nPath: C:\\\\Users\\\\Diya\\nStatus: It\\'s working!\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "sep and end Mastery",
+        "difficulty": "Hard",
+        "description": "Write a program that uses the sep and end parameters creatively to print the following output. You must use at least 5 print() statements, each using either sep or end (or both).\n\nExpected output:\nIP: 192.168.1.1\nDate: 06/04/2026\nTime: 10:30:45\nPath: C > Users > Student > Code\nStatus: OK...DONE!",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "IP: 192.168.1.1\nDate: 06/04/2026\nTime: 10:30:45\nPath: C > Users > Student > Code\nStatus: OK...DONE!",
+        "constraints": "Each print() must use sep and/or end parameters. Do not concatenate strings manually.",
+        "solution": "print(\"IP:\", end=\" \")\nprint(192, 168, 1, 1, sep=\".\")\nprint(\"Date:\", end=\" \")\nprint(\"06\", \"04\", \"2026\", sep=\"/\")\nprint(\"Time:\", end=\" \")\nprint(10, 30, 45, sep=\":\")\nprint(\"Path:\", end=\" \")\nprint(\"C\", \"Users\", \"Student\", \"Code\", sep=\" > \")\nprint(\"Status: OK\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".\", end=\"\")\nprint(\".DONE!\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "ASCII Art with Print",
+        "difficulty": "Hard",
+        "description": "Create an ASCII art house using only print() statements. The house should have a triangular roof, rectangular walls, and a door. It should be at least 7 lines tall.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "     /\\\n    /  \\\n   /    \\\n  /______\\\n  |      |\n  |  []  |\n  |  ||  |\n  |__||__|",
+        "constraints": "Use print() statements. The house must have a recognizable roof, walls, and door. Minimum 7 lines.",
+        "solution": "print(\"     /\\\\\")\nprint(\"    /  \\\\\")\nprint(\"   /    \\\\\")\nprint(\"  /______\\\\\")\nprint(\"  |      |\")\nprint(\"  |  []  |\")\nprint(\"  |  ||  |\")\nprint(\"  |__||__|\")"
+      },
+      {
+        "id": "cc-9",
+        "title": "Complete Program with All Concepts",
+        "difficulty": "Hard",
+        "description": "Write a program that serves as a Python cheat sheet for the print() function. It should demonstrate: basic printing, numbers, escape characters (\\n, \\t, \\\\, \\\"), sep parameter, end parameter, comments, and an empty print(). Include a title, section headers, and examples with their expected output shown as comments.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Python print() Cheat Sheet ===\n\n1. Basic String:\nHello, World!\n\n2. Number:\n42\n\n3. Multiple Values:\nPython is fun\n\n4. Escape Characters:\nLine1\nLine2\nName\tAge\nPath: C:\\Users\nShe said \"Hi\"\n\n5. sep Parameter:\n2026-04-06\n\n6. end Parameter:\nA B C Done!\n\n=== End of Cheat Sheet ===",
+        "constraints": "Must demonstrate all 6 concepts listed. Include comments explaining each section. Output must be neatly formatted with section numbers.",
+        "solution": "# Python print() Cheat Sheet\n# Demonstrates all features of the print() function\n\nprint(\"=== Python print() Cheat Sheet ===\")\nprint()\n\n# 1. Basic string printing\nprint(\"1. Basic String:\")\nprint(\"Hello, World!\")\nprint()\n\n# 2. Printing numbers\nprint(\"2. Number:\")\nprint(42)\nprint()\n\n# 3. Multiple values\nprint(\"3. Multiple Values:\")\nprint(\"Python\", \"is\", \"fun\")\nprint()\n\n# 4. Escape characters\nprint(\"4. Escape Characters:\")\nprint(\"Line1\\nLine2\")        # \\n for new line\nprint(\"Name\\tAge\")          # \\t for tab\nprint(\"Path: C:\\\\Users\")    # \\\\ for backslash\nprint(\"She said \\\"Hi\\\"\")   # \\\" for double quote\nprint()\n\n# 5. sep parameter\nprint(\"5. sep Parameter:\")\nprint(2026, \"04\", \"06\", sep=\"-\")\nprint()\n\n# 6. end parameter\nprint(\"6. end Parameter:\")\nprint(\"A\", end=\" \")\nprint(\"B\", end=\" \")\nprint(\"C\", end=\" \")\nprint(\"Done!\")\nprint()\n\nprint(\"=== End of Cheat Sheet ===\")"
+      }
+    ]
+  }
+}

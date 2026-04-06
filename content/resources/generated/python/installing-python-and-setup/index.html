@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installing Python and Setting Up Your Environment - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Download Python, set up an IDE, and get your computer ready to write code.">
+    <meta name="keywords" content="installing python and setting up your environment, python tutorial, python installing python and setting up your environment, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+    <meta property="og:title" content="Installing Python and Setting Up Your Environment - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Download Python, set up an IDE, and get your computer ready to write code.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/installing-python-and-setup">
+    <meta name="twitter:title" content="Installing Python and Setting Up Your Environment - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Download Python, set up an IDE, and get your computer ready to write code.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Installing Python and Setting Up Your Environment",
+    "description": "Download Python, set up an IDE, and get your computer ready to write code.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/installing-python-and-setup"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/installing-python-and-setup"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Installing Python and Setting Up Your Environment",
+        "item": "https://learn.modernagecoders.com/resources/python/installing-python-and-setup"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Check 'Add Python to PATH' During Installation",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is the most common installation problem. When you see <code>'python' is not recognized</code>, it almost always means Python was installed without adding it to the PATH. The easiest fix is to uninstall Python completely, download the installer again, and this time make absolutely sure to check the <strong>\"Add python.exe to PATH\"</strong> checkbox at the bottom of the first installer screen before clicking Install Now."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Saving Python Files Without the .py Extension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python files must have the <code>.py</code> extension. When you save a file in your editor, make sure the filename ends with <code>.py</code>. In some editors (like Notepad), you may need to change the \"Save as type\" dropdown from \"Text Documents (*.txt)\" to \"All Files (*.*)\" and manually type <code>.py</code> at the end of the filename. In IDLE and VS Code, this is handled automatically if you type the <code>.py</code> extension."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Running Python Commands in the Wrong Place",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This is a very common mistake for beginners. The <code>python hello.py</code> command must be typed in the <strong>terminal (Command Prompt)</strong>, not inside the Python REPL. If you see the <code>&gt;&gt;&gt;</code> prompt, you are inside Python. Type <code>exit()</code> first to go back to the terminal, and then type <code>python hello.py</code>. The terminal prompt looks like <code>C:\\Users\\YourName&gt;</code>, not <code>&gt;&gt;&gt;</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Navigating to the Correct Folder Before Running",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you type <code>python hello.py</code>, the terminal looks for <code>hello.py</code> in the <strong>current folder</strong>. If the file is in a different folder, the terminal cannot find it. You must first navigate to the folder where your file is saved using the <code>cd</code> (change directory) command. Alternatively, you can provide the full file path: <code>python C:\\Users\\Meera\\Desktop\\PythonProjects\\hello.py</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using python3 Command on Windows",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On Windows, the command is usually <code>python</code>, not <code>python3</code>. The <code>python3</code> command is mainly used on Linux and macOS where both Python 2 and Python 3 might be installed. On Windows, if you installed Python 3 from python.org, the command <code>python</code> already points to Python 3. If typing <code>python3</code> on Windows opens the Microsoft Store, simply use <code>python</code> instead."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Installing Python and Setting Up Your Environment</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 2</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">15 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Installing Python and Setting Up Your Environment</h1>
+            <a href="/resources/python/installing-python-and-setup/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Python Installation and Environment Setup?</h2><p>Before you can write and run Python programs on your computer, you need to do two things: <strong>install Python</strong> (the language itself) and <strong>set up a code editor</strong> (the tool where you will write your code). Think of it this way: if Python is a language like Hindi or English, then installing Python is like getting a dictionary and grammar book, and setting up a code editor is like getting a notebook and pen to write in that language.</p><p>When you install Python, you are downloading the <strong>Python interpreter</strong> onto your computer. The interpreter is the program that reads your Python code and tells the computer what to do. Without it, your computer has no idea what <code>print("Hello")</code> means.</p><p>The code editor (also called an <strong>IDE</strong> or <strong>Integrated Development Environment</strong>) is the application where you will type your Python code. While you could technically write Python code in Notepad, a proper IDE gives you helpful features like coloring your code, spotting errors before you run the program, and running your code with a single button click.</p><h3>What You Will Learn in This Chapter</h3><ul><li>How to download Python from the official website</li><li>How to install Python on Windows step by step</li><li>What the PATH checkbox means and why it matters</li><li>How to verify that Python is installed correctly</li><li>How to choose and set up a code editor (IDLE, VS Code, PyCharm)</li><li>How to create your first <code>.py</code> file</li><li>How to run Python programs from the terminal and from IDLE</li></ul>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Proper Setup Important?</h2><p>Many beginners skip the setup process or rush through it, and then spend hours trying to figure out why their code does not work. A proper setup saves you from frustration later. Here is why each step matters:</p><h3>1. Without Python Installed, Nothing Works</h3><p>Your computer does not come with Python pre-installed (on Windows). Even if you write perfect Python code, your computer cannot run it unless the Python interpreter is installed. It is like having a letter written in French but no one in the room speaks French — the message goes unread.</p><h3>2. PATH Configuration Prevents Headaches</h3><p>The <strong>PATH</strong> is a setting that tells your computer where to find programs. If Python is not added to your PATH, you will have to type the full location of Python every time you want to run a program (something like <code>C:\Users\Aarav\AppData\Local\Programs\Python\Python312\python.exe hello.py</code> instead of just <code>python hello.py</code>). Adding Python to PATH during installation saves you from this tedious process.</p><h3>3. A Good IDE Makes You More Productive</h3><p>Imagine writing an essay by hand versus typing it on a computer with spell-check. A good IDE does for programming what spell-check does for writing. It highlights errors as you type, suggests completions, and lets you run and test your code without switching between applications. Choosing the right IDE from the start builds good habits.</p><h3>4. Understanding the Terminal Gives You Power</h3><p>The terminal (also called Command Prompt on Windows) is a text-based way to interact with your computer. Professional programmers use the terminal extensively. Learning to run Python from the terminal early on gives you skills that will be useful throughout your programming career.</p><h3>5. First-Time Setup Is a One-Time Investment</h3><p>You only need to install Python and set up your IDE once. After that, every time you want to write a new program, you simply open your editor, write your code, and run it. Spending 15-20 minutes on proper setup now saves hours of troubleshooting later.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>Step 1: Downloading Python</h3><p>Python is available for free from the official website. Here is how to download it:</p><ol><li>Open your web browser (Chrome, Edge, Firefox, etc.).</li><li>Go to the official Python website: <strong><code>https://www.python.org</code></strong></li><li>On the homepage, you will see a yellow button that says <strong>"Download Python 3.x.x"</strong> (the x.x will be the latest version number, like 3.12.3).</li><li>Click that button. The download will start automatically.</li><li>The file that downloads will be named something like <code>python-3.12.3-amd64.exe</code> (on Windows).</li></ol><p><strong>Important:</strong> Always download Python from <code>python.org</code>. Do not download it from random websites, as those may contain modified or unsafe versions.</p><h3>Step 2: Installing Python on Windows (Step by Step)</h3><p>Once the download is complete, follow these steps carefully:</p><ol><li><strong>Find the downloaded file</strong> in your Downloads folder and double-click it to start the installer.</li><li><strong>CRITICAL STEP: Check the box that says "Add python.exe to PATH"</strong> at the bottom of the installer window. This is the most important step in the entire installation. If you miss this checkbox, you will face problems later when trying to run Python from the terminal.</li><li>Click <strong>"Install Now"</strong> (the recommended option). This installs Python with all the default settings, which are perfect for beginners.</li><li>Wait for the installation to complete. You will see a progress bar.</li><li>When you see the message <strong>"Setup was successful"</strong>, click <strong>"Close"</strong>.</li></ol><h4>What Does "Add to PATH" Mean?</h4><p>Your computer has a list of folders where it looks for programs when you type a command. This list is called the <strong>PATH environment variable</strong>. When you type <code>python</code> in the terminal, your computer searches through all the folders in the PATH to find a program called <code>python</code>.</p><p>If you check the "Add to PATH" box during installation, the installer automatically adds Python's folder to this list. If you forget to check it, your computer will not know where to find Python when you type <code>python</code> in the terminal, and you will get an error like: <code>'python' is not recognized as an internal or external command</code>.</p><h4>What If You Forgot to Check the PATH Box?</h4><p>If you already installed Python without checking the PATH box, you have two options:</p><ul><li><strong>Option 1 (Recommended):</strong> Uninstall Python, download the installer again, and reinstall — this time making sure to check the PATH box.</li><li><strong>Option 2 (Advanced):</strong> Manually add Python to PATH through System Environment Variables. This requires navigating to System Properties and editing the PATH variable.</li></ul><h3>Step 3: Verifying Your Installation</h3><p>After installation, you need to verify that Python is working correctly. Here is how:</p><ol><li>Open the <strong>Command Prompt</strong>: Press the Windows key, type <code>cmd</code>, and press Enter.</li><li>Type the following command and press Enter:<br><code>python --version</code></li><li>You should see output like: <code>Python 3.12.3</code></li></ol><p>If you see the version number, congratulations — Python is installed correctly. If you see an error message like <code>'python' is not recognized</code>, it means Python was not added to your PATH (go back to the installation step and check the PATH box).</p><h4>Additional Verification</h4><p>You can also verify by opening the Python REPL. In the Command Prompt, type:</p><pre><code>python</code></pre><p>You should see the Python prompt (<code>&gt;&gt;&gt;</code>), which means the interpreter is running. Type <code>exit()</code> to leave the REPL.</p><h3>Step 4: Choosing a Code Editor (IDE)</h3><p>Now that Python is installed, you need a place to write your code. There are several options, each with its own advantages:</p><h4>Option 1: IDLE (Built-In)</h4><p>IDLE comes pre-installed with Python, so you already have it. IDLE stands for <strong>Integrated Development and Learning Environment</strong>. It was created specifically for beginners learning Python.</p><p><strong>How to open IDLE:</strong></p><ol><li>Press the Windows key and type <strong>IDLE</strong>.</li><li>Click on <strong>"IDLE (Python 3.x)"</strong> from the results.</li><li>The <strong>Python Shell</strong> window opens. This is similar to the REPL — you can type Python commands and see results immediately.</li><li>To write a full program, go to <strong>File &gt; New File</strong>. This opens a new editor window where you can write multiple lines of code.</li><li>After writing your code, save the file with <strong>File &gt; Save</strong> (give it a <code>.py</code> extension).</li><li>Run the file with <strong>Run &gt; Run Module</strong> (or press <strong>F5</strong>).</li></ol><p><strong>Advantages of IDLE:</strong></p><ul><li>Already installed — no extra download needed</li><li>Simple and not overwhelming for beginners</li><li>Syntax highlighting (colors different parts of your code)</li><li>Integrated Python Shell for quick testing</li></ul><p><strong>Limitations of IDLE:</strong></p><ul><li>Very basic compared to modern editors</li><li>No advanced features like auto-complete or integrated terminal</li><li>Most professional developers do not use IDLE</li></ul><h4>Option 2: Visual Studio Code (VS Code) — Recommended</h4><p>VS Code is a free, powerful code editor made by Microsoft. It is the most popular code editor in the world and is used by millions of professional developers.</p><p><strong>How to set up VS Code for Python:</strong></p><ol><li>Go to <strong><code>https://code.visualstudio.com</code></strong> and download VS Code.</li><li>Install it by running the downloaded file (follow the on-screen instructions).</li><li>Open VS Code.</li><li>Install the <strong>Python extension</strong>: Click the Extensions icon on the left sidebar (it looks like four squares), search for "Python", and install the one by Microsoft.</li><li>Create a new file: <strong>File &gt; New File</strong>, then save it with a <code>.py</code> extension (for example, <code>hello.py</code>).</li><li>Write your Python code in the file.</li><li>Run it by clicking the <strong>play button</strong> (triangle icon) in the top-right corner, or by pressing <strong>Ctrl + F5</strong>.</li></ol><p><strong>Advantages of VS Code:</strong></p><ul><li>Free and lightweight</li><li>Excellent Python support with the Python extension</li><li>IntelliSense (smart auto-completion)</li><li>Built-in terminal</li><li>Thousands of extensions for added features</li><li>Used by professional developers worldwide</li></ul><h4>Option 3: PyCharm</h4><p>PyCharm is an IDE made by JetBrains specifically for Python development. It comes in two versions: <strong>Community Edition</strong> (free) and <strong>Professional Edition</strong> (paid).</p><p><strong>Advantages of PyCharm:</strong></p><ul><li>Designed specifically for Python</li><li>Powerful debugging tools</li><li>Excellent code analysis and error detection</li></ul><p><strong>Limitations for beginners:</strong></p><ul><li>Heavier (uses more computer memory than VS Code)</li><li>Can feel overwhelming with too many features</li><li>Slower to start up</li></ul><p>For this course, we recommend starting with <strong>IDLE</strong> for the first few chapters (since it is already installed) and then switching to <strong>VS Code</strong> once you are comfortable.</p><h3>Step 5: Creating Your First .py File</h3><p>Let us create your very first Python file:</p><ol><li>Open your chosen code editor (IDLE or VS Code).</li><li>Create a new file.</li><li>Type the following code:<br><code>print("Hello, World!")</code></li><li>Save the file as <strong><code>hello.py</code></strong> in a folder you can easily find (for example, create a folder called <code>PythonProjects</code> on your Desktop).</li><li>Run the file (F5 in IDLE, or Ctrl + F5 in VS Code).</li><li>You should see the output: <code>Hello, World!</code></li></ol><p><strong>File naming rules:</strong></p><ul><li>Always use the <code>.py</code> extension</li><li>Use lowercase letters</li><li>Use underscores instead of spaces: <code>my_program.py</code> (not <code>my program.py</code>)</li><li>Do not start the filename with a number: <code>game_v2.py</code> (not <code>2_game.py</code>)</li><li>Use descriptive names: <code>calculator.py</code> is better than <code>abc.py</code></li></ul><h3>Step 6: Running Python from the Terminal</h3><p>While running code from an IDE is convenient, knowing how to run Python from the terminal is an essential skill. Here is how:</p><ol><li>Open the <strong>Command Prompt</strong> (press Windows key, type <code>cmd</code>, press Enter).</li><li><strong>Navigate to the folder</strong> where your <code>.py</code> file is saved. For example, if it is on your Desktop in a folder called PythonProjects:<br><code>cd Desktop\PythonProjects</code></li><li>Run your Python file by typing:<br><code>python hello.py</code></li><li>You should see the output: <code>Hello, World!</code></li></ol><h4>Useful Terminal Commands</h4><ul><li><code>python --version</code> — Check which version of Python is installed</li><li><code>python</code> — Open the Python REPL (interactive mode)</li><li><code>python filename.py</code> — Run a Python file</li><li><code>cd foldername</code> — Navigate into a folder</li><li><code>cd ..</code> — Go back to the parent folder</li><li><code>dir</code> — List all files in the current folder (Windows)</li><li><code>cls</code> — Clear the terminal screen (Windows)</li></ul><h3>Step 7: IDLE Walkthrough</h3><p>Since IDLE comes built-in with Python, let us do a detailed walkthrough of how to use it:</p><h4>The Shell Window</h4><p>When you first open IDLE, you see the <strong>Shell window</strong>. This is the interactive mode where you can type Python commands after the <code>&gt;&gt;&gt;</code> prompt. It works exactly like the REPL you learned about in Chapter 1. Try typing <code>2 + 3</code> and press Enter — you should see <code>5</code> immediately.</p><h4>The Editor Window</h4><p>For writing full programs (multiple lines of code that you want to save), use the Editor window:</p><ol><li>In IDLE, go to <strong>File &gt; New File</strong>.</li><li>A new blank window opens — this is the Editor.</li><li>Type your program here.</li><li>Save it with <strong>File &gt; Save</strong> (Ctrl + S).</li><li>Run it with <strong>Run &gt; Run Module</strong> (F5).</li><li>The output appears in the Shell window.</li></ol><h4>Key IDLE Features</h4><ul><li><strong>Syntax Highlighting:</strong> Keywords like <code>print</code> are shown in purple, strings in green, and comments in red.</li><li><strong>Auto-Indent:</strong> IDLE automatically adds indentation where needed (you will appreciate this when you learn about loops and conditions).</li><li><strong>Call Tips:</strong> When you type a function name followed by <code>(</code>, IDLE shows you what arguments the function expects.</li></ul>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Checking Your Python Version</div><pre><code class="language-python"># In the Command Prompt (terminal), type:
+# python --version
+
+# You can also check from inside Python:
+import sys
+print(sys.version)</code></pre><div class="code-example-explanation">The <code>python --version</code> command is typed in the terminal (Command Prompt), not inside a Python file. It shows the installed Python version. You can also check the version from inside a Python program using the <code>sys</code> module, which gives more detailed information including the build date.</div><div class="code-example-output">3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 18:05:18) [MSC v.1938 64 bit (AMD64)]</div></div>
+<div class="code-example"><div class="code-example-title">Running a Simple Python File from Terminal</div><pre><code class="language-python"># Step 1: Create a file called greet.py with this content:
+print(&quot;Hello! My name is Ananya.&quot;)
+print(&quot;I am learning Python.&quot;)
+print(&quot;This is my first program!&quot;)
+
+# Step 2: Open Command Prompt
+# Step 3: Navigate to the file location: cd Desktop\PythonProjects
+# Step 4: Run it: python greet.py</code></pre><div class="code-example-explanation">This example shows the complete workflow of creating a Python file, saving it, and running it from the terminal. The file contains three <code>print()</code> statements that execute from top to bottom. The terminal command <code>python greet.py</code> tells the Python interpreter to read and execute the file.</div><div class="code-example-output">Hello! My name is Ananya.
+I am learning Python.
+This is my first program!</div></div>
+<div class="code-example"><div class="code-example-title">Using IDLE Shell for Quick Calculations</div><pre><code class="language-python">&gt;&gt;&gt; 45 + 78
+123
+&gt;&gt;&gt; 1000 - 347
+653
+&gt;&gt;&gt; 12 * 15
+180
+&gt;&gt;&gt; 144 / 12
+12.0
+&gt;&gt;&gt; 2 ** 20
+1048576</code></pre><div class="code-example-explanation">The IDLE Shell lets you type Python expressions directly after the <code>&gt;&gt;&gt;</code> prompt. Each expression is evaluated immediately and the result is shown on the next line. This is perfect for quick calculations and testing small pieces of code. Notice that division (/) always gives a decimal result in Python 3.</div><div class="code-example-output">(Results appear immediately after each expression as shown above)</div></div>
+<div class="code-example"><div class="code-example-title">Creating and Saving a .py File</div><pre><code class="language-python"># File: my_info.py
+# This is my first saved Python program
+
+print(&quot;=== My Information ===&quot;)
+print(&quot;Name: Rahul Verma&quot;)
+print(&quot;Class: 8th Standard&quot;)
+print(&quot;School: Delhi Public School&quot;)
+print(&quot;Favourite Subject: Computer Science&quot;)
+print(&quot;=======================&quot;)</code></pre><div class="code-example-explanation">This program demonstrates a complete <code>.py</code> file with comments and multiple print statements. The file is named <code>my_info.py</code> — notice the <code>.py</code> extension, the lowercase letters, and the underscore instead of a space. Comments at the top explain what the program does.</div><div class="code-example-output">=== My Information ===
+Name: Rahul Verma
+Class: 8th Standard
+School: Delhi Public School
+Favourite Subject: Computer Science
+=======================</div></div>
+<div class="code-example"><div class="code-example-title">Verifying Python and pip Installation</div><pre><code class="language-python"># In the Command Prompt, run these commands:
+# python --version
+# pip --version
+
+# If both work, your installation is correct.
+# pip is Python&#39;s package manager — it lets you install
+# additional libraries later.
+
+# You can also test Python works by running:
+print(&quot;Python is working correctly!&quot;)
+print(&quot;Installation successful!&quot;)</code></pre><div class="code-example-explanation"><code>pip</code> is a tool that comes bundled with Python. It is the <strong>package manager</strong> that lets you install additional libraries (like pygame for games, or pandas for data analysis) later in your learning journey. If both <code>python --version</code> and <code>pip --version</code> show version numbers without errors, your installation is complete and correct.</div><div class="code-example-output">Python is working correctly!
+Installation successful!</div></div>
+<div class="code-example"><div class="code-example-title">Checking Where Python Is Installed</div><pre><code class="language-python"># You can find out where Python is installed on your computer:
+import sys
+print(&quot;Python is installed at:&quot;)
+print(sys.executable)
+
+import os
+print(&quot;\nPython&#39;s home directory:&quot;)
+print(os.path.dirname(sys.executable))</code></pre><div class="code-example-explanation">The <code>sys.executable</code> attribute tells you the exact location of the Python interpreter on your computer. This is useful for troubleshooting when you have multiple Python versions installed or when you need to confirm that the correct version is being used. On Windows, this is typically something like <code>C:\Users\YourName\AppData\Local\Programs\Python\Python312\python.exe</code>.</div><div class="code-example-output">Python is installed at:
+C:\Users\Ananya\AppData\Local\Programs\Python\Python312\python.exe
+
+Python&#39;s home directory:
+C:\Users\Ananya\AppData\Local\Programs\Python\Python312</div></div>
+<div class="code-example"><div class="code-example-title">Running Python in Interactive Mode vs Script Mode</div><pre><code class="language-python"># INTERACTIVE MODE (REPL / IDLE Shell):
+# You type one line at a time and see results immediately
+# &gt;&gt;&gt; 5 + 3
+# 8
+# &gt;&gt;&gt; print(&quot;Hello&quot;)
+# Hello
+
+# SCRIPT MODE (running a .py file):
+# You write multiple lines in a file and run them all at once
+# File: script_example.py
+result = 5 + 3
+print(&quot;The result is:&quot;, result)
+print(&quot;This ran from a script file!&quot;)</code></pre><div class="code-example-explanation">Python can be used in two modes. <strong>Interactive mode</strong> (the REPL or IDLE Shell) is great for testing small pieces of code — you type a line, see the result, type another line. <strong>Script mode</strong> is when you write a complete program in a <code>.py</code> file and run the entire file at once. For real programs, you will almost always use script mode.</div><div class="code-example-output">The result is: 8
+This ran from a script file!</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Check &#39;Add Python to PATH&#39; During Installation</h3>
+                <div class="wrong-code"><pre><code class="language-python"># In Command Prompt after installation:
+C:\Users\Aarav&gt; python hello.py</code></pre></div><div class="error-message">&#39;python&#39; is not recognized as an internal or external command, operable program or batch file.</div><div class="correct-code"><pre><code class="language-python"># Solution: Uninstall Python, reinstall with the PATH checkbox checked
+# Then try again:
+C:\Users\Aarav&gt; python hello.py
+Hello, World!</code></pre></div><div class="mistake-explanation">This is the most common installation problem. When you see <code>'python' is not recognized</code>, it almost always means Python was installed without adding it to the PATH. The easiest fix is to uninstall Python completely, download the installer again, and this time make absolutely sure to check the <strong>"Add python.exe to PATH"</strong> checkbox at the bottom of the first installer screen before clicking Install Now.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Saving Python Files Without the .py Extension</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Saved file as: hello (no extension)
+# Or saved as: hello.txt
+
+# Trying to run:
+python hello</code></pre></div><div class="error-message">can&#39;t open file &#39;C:\Users\Riya\hello&#39;: [Errno 2] No such file or directory
+(or the file opens in Notepad instead of running as Python)</div><div class="correct-code"><pre><code class="language-python"># Save the file as: hello.py
+# Then run:
+python hello.py</code></pre></div><div class="mistake-explanation">Python files must have the <code>.py</code> extension. When you save a file in your editor, make sure the filename ends with <code>.py</code>. In some editors (like Notepad), you may need to change the "Save as type" dropdown from "Text Documents (*.txt)" to "All Files (*.*)" and manually type <code>.py</code> at the end of the filename. In IDLE and VS Code, this is handled automatically if you type the <code>.py</code> extension.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Running Python Commands in the Wrong Place</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Inside the Python REPL (you see &gt;&gt;&gt;):
+&gt;&gt;&gt; python hello.py</code></pre></div><div class="error-message">SyntaxError: invalid syntax</div><div class="correct-code"><pre><code class="language-python"># The command &#39;python hello.py&#39; is a TERMINAL command, not Python code.
+# In the REPL, you type Python code directly:
+&gt;&gt;&gt; print(&quot;Hello, World!&quot;)
+Hello, World!
+
+# To run a file, exit the REPL first with exit()
+# Then in the terminal (not REPL), type:
+python hello.py</code></pre></div><div class="mistake-explanation">This is a very common mistake for beginners. The <code>python hello.py</code> command must be typed in the <strong>terminal (Command Prompt)</strong>, not inside the Python REPL. If you see the <code>&gt;&gt;&gt;</code> prompt, you are inside Python. Type <code>exit()</code> first to go back to the terminal, and then type <code>python hello.py</code>. The terminal prompt looks like <code>C:\Users\YourName&gt;</code>, not <code>&gt;&gt;&gt;</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Navigating to the Correct Folder Before Running</h3>
+                <div class="wrong-code"><pre><code class="language-python"># File is saved at: C:\Users\Meera\Desktop\PythonProjects\hello.py
+# But terminal is at: C:\Users\Meera&gt;
+
+C:\Users\Meera&gt; python hello.py</code></pre></div><div class="error-message">can&#39;t open file &#39;C:\Users\Meera\hello.py&#39;: [Errno 2] No such file or directory</div><div class="correct-code"><pre><code class="language-python"># Navigate to the correct folder first:
+C:\Users\Meera&gt; cd Desktop\PythonProjects
+C:\Users\Meera\Desktop\PythonProjects&gt; python hello.py
+Hello, World!</code></pre></div><div class="mistake-explanation">When you type <code>python hello.py</code>, the terminal looks for <code>hello.py</code> in the <strong>current folder</strong>. If the file is in a different folder, the terminal cannot find it. You must first navigate to the folder where your file is saved using the <code>cd</code> (change directory) command. Alternatively, you can provide the full file path: <code>python C:\Users\Meera\Desktop\PythonProjects\hello.py</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using python3 Command on Windows</h3>
+                <div class="wrong-code"><pre><code class="language-python"># On Windows Command Prompt:
+C:\Users\Vikram&gt; python3 --version</code></pre></div><div class="error-message">&#39;python3&#39; is not recognized as an internal or external command, operable program or batch file.
+(On some Windows systems, this may open the Microsoft Store instead)</div><div class="correct-code"><pre><code class="language-python"># On Windows, use &#39;python&#39; (not &#39;python3&#39;):
+C:\Users\Vikram&gt; python --version
+Python 3.12.3</code></pre></div><div class="mistake-explanation">On Windows, the command is usually <code>python</code>, not <code>python3</code>. The <code>python3</code> command is mainly used on Linux and macOS where both Python 2 and Python 3 might be installed. On Windows, if you installed Python 3 from python.org, the command <code>python</code> already points to Python 3. If typing <code>python3</code> on Windows opens the Microsoft Store, simply use <code>python</code> instead.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Python must be downloaded from the official website (python.org) and installed on your computer before you can write and run programs.</li>
+<li>During installation on Windows, always check the &#39;Add python.exe to PATH&#39; checkbox. This is the most important step in the installation process.</li>
+<li>Verify your installation by opening Command Prompt and typing &#39;python --version&#39;. You should see the version number (like Python 3.12.3).</li>
+<li>PATH is an environment variable that tells your computer where to find programs. Adding Python to PATH lets you run Python from any folder in the terminal.</li>
+<li>IDLE is Python&#39;s built-in editor that comes free with every Python installation. It has a Shell (interactive mode) and an Editor (for writing full programs).</li>
+<li>VS Code is a free, professional-grade editor by Microsoft. Install the Python extension for the best experience. It is recommended for learners who want a modern setup.</li>
+<li>PyCharm is a powerful Python-specific IDE but can feel heavy for beginners. The free Community Edition is available for students.</li>
+<li>Python files must be saved with the .py extension. Use lowercase names with underscores (e.g., my_program.py).</li>
+<li>You can run Python in two modes: interactive mode (REPL/Shell) for quick testing, and script mode (running .py files) for full programs.</li>
+<li>To run a Python file from the terminal, navigate to the file&#39;s folder with &#39;cd&#39; and then type &#39;python filename.py&#39;.</li>
+<li>pip is Python&#39;s package manager that comes bundled with Python. You will use it later to install additional libraries.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/introduction-to-python" class="related-topic-link">Introduction to Python</a>
+<a href="/resources/python/your-first-python-program" class="related-topic-link">Your First Python Program</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/introduction-to-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Introduction to Python</span>
+        </a>
+            <a href="/resources/python/your-first-python-program" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Your First Python Program</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/installing-python-and-setup/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

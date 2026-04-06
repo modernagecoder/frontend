@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your First Python Program - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write your first Python program using the print() function and understand how Python executes code.">
+    <meta name="keywords" content="your first python program, python tutorial, python your first python program, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+    <meta property="og:title" content="Your First Python Program - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write your first Python program using the print() function and understand how Python executes code.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/your-first-python-program">
+    <meta name="twitter:title" content="Your First Python Program - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write your first Python program using the print() function and understand how Python executes code.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Your First Python Program",
+    "description": "Write your first Python program using the print() function and understand how Python executes code.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/your-first-python-program"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/your-first-python-program"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Your First Python Program",
+        "item": "https://learn.modernagecoders.com/resources/python/your-first-python-program"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting Parentheses in print()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Python 3, <code>print</code> is a function and requires parentheses. The syntax <code>print \"Hello\"</code> was valid in Python 2 (where print was a statement) but causes a SyntaxError in Python 3. Always write <code>print(...)</code> with parentheses."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mismatched Quotes",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A string must start and end with the <strong>same type of quote</strong>. If you open with a double quote (<code>\"</code>), you must close with a double quote. If you open with a single quote (<code>'</code>), you must close with a single quote. Mixing them confuses Python because it cannot find the matching closing quote."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting Quotes Around Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Text (strings) must always be enclosed in quotes. Without quotes, Python tries to interpret <code>Hello</code> and <code>World</code> as variable names. Since these variables do not exist, you get an error. Only numbers can be printed without quotes: <code>print(42)</code> works, but <code>print(Hello)</code> requires quotes."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Wrong Escape Character Direction",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Escape characters use a <strong>backslash</strong> (<code>\\</code>), not a forward slash (<code>/</code>). <code>\\n</code> is a newline, but <code>/n</code> is just the characters '/' and 'n' printed literally. This mistake does not cause an error — the program runs, but the output is not what you expected. Always use the backslash: <code>\\n</code>, <code>\\t</code>, <code>\\\\</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Incorrect sep and end Syntax",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>sep</code> and <code>end</code> parameters must be written with <code>=</code> (not <code>:</code>), and they must come after the values you want to print, separated by a comma. Writing <code>sep = \"-\"</code> with spaces works but Python style (PEP 8) recommends no spaces around <code>=</code> in keyword arguments: <code>sep=\"-\"</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Printing a Backslash Without Escaping",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When Python sees <code>\\n</code> inside a string, it interprets it as a newline character, and <code>\\t</code> as a tab — even if you intended them as part of a file path. To print a literal backslash, use <code>\\\\</code> (double backslash). Alternatively, prefix the string with <code>r</code> to make it a \"raw string\" where backslashes are treated literally: <code>r\"C:\\new_folder\\test\"</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Your First Python Program</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 3</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">18 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Your First Python Program</h1>
+            <a href="/resources/python/your-first-python-program/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Your First Python Program?</h2><p>Every programmer's journey begins with a simple task: making the computer display a message on the screen. In Python, you do this using the <strong>print() function</strong>. The <code>print()</code> function is the most basic and most frequently used tool in Python — it takes whatever you give it and displays it as text on the screen.</p><p>In this chapter, you will learn everything about the <code>print()</code> function: how to print text (strings), how to print numbers, how to print multiple items on one line, how to use special characters like newline and tab, and how to control the output format using the <code>sep</code> and <code>end</code> parameters. You will also learn about <strong>comments</strong> — notes that you write in your code for humans to read, which Python completely ignores.</p><h3>What You Will Learn</h3><ul><li>How the <code>print()</code> function works</li><li>Printing strings using single quotes and double quotes</li><li>Printing numbers (integers and decimals)</li><li>Printing multiple values with comma separation</li><li>Escape characters: <code>\n</code>, <code>\t</code>, <code>\\</code>, <code>\"</code>, <code>\'</code></li><li>The <code>sep</code> parameter (custom separator between values)</li><li>The <code>end</code> parameter (custom ending instead of newline)</li><li>Comments: single-line (<code>#</code>) and multi-line (<code>''' '''</code>)</li><li>Running complete programs from a file</li></ul>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is the print() Function So Important?</h2><p>You might think that printing text on screen is too simple to be important. But the <code>print()</code> function is one of the most critical tools in a programmer's toolkit, and here is why:</p><h3>1. It Is How Your Program Communicates</h3><p>A program that does calculations but never shows the results is useless. The <code>print()</code> function is the primary way your program communicates its output to the user. Whether you are building a calculator, a quiz game, or a data analysis tool, you will use <code>print()</code> to display results, messages, and information.</p><h3>2. It Is Your Best Debugging Tool</h3><p>When your program is not working correctly, the first thing experienced programmers do is add <code>print()</code> statements to see what is happening at each step. For example, if a calculation gives the wrong result, you can print the value at each stage to find where it goes wrong. This technique is called <strong>print debugging</strong>, and you will use it throughout your programming career.</p><h3>3. It Teaches Fundamental Concepts</h3><p>Learning <code>print()</code> thoroughly introduces you to several important programming concepts:</p><ul><li><strong>Functions:</strong> <code>print()</code> is a function — it has a name, takes arguments (inputs), and performs an action.</li><li><strong>Strings:</strong> Text inside quotes is called a string. You will work with strings in every program you ever write.</li><li><strong>Parameters:</strong> The <code>sep</code> and <code>end</code> parameters teach you how functions can have optional settings that change their behavior.</li><li><strong>Escape sequences:</strong> Special character combinations like <code>\n</code> introduce the concept of encoding special characters.</li></ul><h3>4. Every Program You Write Will Use It</h3><p>From your very first program to advanced projects, <code>print()</code> is always there. Even professional developers with decades of experience use <code>print()</code> daily. Mastering it now means you have a solid foundation for everything that follows.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>The print() Function</h3><p>The <code>print()</code> function displays output on the screen (technically, it writes to the <strong>standard output</strong>, which is usually your terminal or console). The basic syntax is:</p><pre><code>print(value)</code></pre><p>You can pass one or more values to <code>print()</code>, and it will display them. After printing, it automatically moves to the next line (unless you change this behavior with the <code>end</code> parameter).</p><h3>Printing Strings (Text)</h3><p>A <strong>string</strong> is a sequence of characters (letters, numbers, symbols, spaces) enclosed in quotes. In Python, you can use either <strong>single quotes</strong> (<code>'...'</code>) or <strong>double quotes</strong> (<code>"..."</code>) — both work exactly the same way.</p><pre><code>print("Hello, World!")    # Using double quotes
+print('Hello, World!')    # Using single quotes — same output</code></pre><p>Both produce the exact same output: <code>Hello, World!</code></p><h4>When to Use Single vs Double Quotes</h4><p>Since both work the same, when should you use which? The answer is: use whichever makes your string easier to read.</p><ul><li>If your string contains a <strong>single quote (apostrophe)</strong>, use double quotes on the outside: <code>print("It's a great day")</code></li><li>If your string contains <strong>double quotes</strong>, use single quotes on the outside: <code>print('She said "Hello"')</code></li><li>If your string contains neither, use whichever you prefer (most Python developers prefer double quotes)</li></ul><h3>Printing Numbers</h3><p>You can print numbers directly without any quotes:</p><pre><code>print(42)       # Prints an integer
+print(3.14)     # Prints a decimal number
+print(2 + 3)    # Prints the result: 5
+print(10 * 7)   # Prints the result: 70</code></pre><p><strong>Important difference:</strong> <code>print(42)</code> prints the number 42, while <code>print("42")</code> prints the text "42". They look the same on screen, but Python treats them differently internally. The first is a <strong>number</strong> (you can do math with it), and the second is a <strong>string</strong> (it is just text).</p><h3>Printing Multiple Values</h3><p>You can print multiple values in a single <code>print()</code> call by separating them with commas:</p><pre><code>print("My name is", "Aarav")
+print("I am", 14, "years old")
+print("Score:", 95, "out of", 100)</code></pre><p>When you separate values with commas, Python automatically adds a <strong>space</strong> between them in the output.</p><p>Output:</p><pre><code>My name is Aarav
+I am 14 years old
+Score: 95 out of 100</code></pre><h3>Escape Characters</h3><p>Sometimes you need to include special characters in a string that you cannot type directly. Python uses the <strong>backslash</strong> (<code>\</code>) as an <strong>escape character</strong> — it tells Python that the character after the backslash has a special meaning.</p><h4>Common Escape Characters</h4><table><tr><th>Escape Sequence</th><th>Meaning</th><th>Example</th></tr><tr><td><code>\n</code></td><td>New line (moves to next line)</td><td><code>print("Hello\nWorld")</code> prints Hello and World on separate lines</td></tr><tr><td><code>\t</code></td><td>Tab (adds horizontal space)</td><td><code>print("Name:\tAarav")</code> adds a tab between Name: and Aarav</td></tr><tr><td><code>\\</code></td><td>A literal backslash</td><td><code>print("C:\\Users\\Aarav")</code> prints C:\Users\Aarav</td></tr><tr><td><code>\"</code></td><td>A double quote inside a double-quoted string</td><td><code>print("She said \"Hi\"")</code> prints She said "Hi"</td></tr><tr><td><code>\'</code></td><td>A single quote inside a single-quoted string</td><td><code>print('It\'s great')</code> prints It's great</td></tr></table><h4>Why Do We Need Escape Characters?</h4><p>Consider this problem: you want to print <code>She said "Hello"</code>. If you write <code>print("She said "Hello"")</code>, Python gets confused because it sees the second <code>"</code> and thinks the string has ended. The escape character <code>\"</code> tells Python: "This is not the end of the string — this is a literal double quote character that I want to print."</p><h3>The sep Parameter</h3><p>When you print multiple values, Python puts a <strong>space</strong> between them by default. The <code>sep</code> (separator) parameter lets you change what goes between the values:</p><pre><code>print("Aarav", "Sharma", sep="-")        # Output: Aarav-Sharma
+print("10", "04", "2026", sep="/")       # Output: 10/04/2026
+print("A", "B", "C", sep=" -> ")         # Output: A -> B -> C
+print("Hello", "World", sep="")           # Output: HelloWorld (no space)
+print("one", "two", "three", sep="\n")   # Prints each on a new line</code></pre><h3>The end Parameter</h3><p>By default, every <code>print()</code> call ends with a <strong>newline character</strong> — this is why each <code>print()</code> starts its output on a new line. The <code>end</code> parameter lets you change what comes at the end:</p><pre><code># Default behavior (end="\n"):
+print("Hello")
+print("World")
+# Output:
+# Hello
+# World
+
+# Custom end:
+print("Hello", end=" ")
+print("World")
+# Output: Hello World (both on same line with a space between)</code></pre><p>The <code>end</code> parameter is useful when you want to print multiple things on the same line using separate <code>print()</code> calls.</p><h3>Comments in Python</h3><p>Comments are notes written inside your code that Python <strong>completely ignores</strong>. They exist only for humans — to explain what the code does, why a certain approach was chosen, or to temporarily disable a line of code.</p><h4>Single-Line Comments (#)</h4><p>Use the hash symbol (<code>#</code>) to write a comment. Everything after <code>#</code> on that line is ignored by Python:</p><pre><code># This is a comment — Python ignores this line
+print("Hello")  # This is an inline comment
+
+# The next line calculates the sum
+print(5 + 3)     # Result: 8</code></pre><h4>Multi-Line Comments (Triple Quotes)</h4><p>For longer comments that span multiple lines, you can use triple quotes (<code>'''...'''</code> or <code>"""..."""</code>):</p><pre><code>'''
+This is a multi-line comment.
+It can span as many lines as you need.
+Python treats this as a string but since
+it is not assigned to any variable, it is ignored.
+'''
+print("Hello, World!")</code></pre><p>Technically, triple-quoted strings are not "true" comments — they are strings that are not assigned to anything, so Python evaluates them but discards the result. However, they are commonly used as multi-line comments by Python developers.</p><h4>Why Write Comments?</h4><ul><li><strong>For yourself:</strong> When you come back to your code after a month, comments remind you what each part does.</li><li><strong>For others:</strong> If someone else reads your code, comments help them understand your logic.</li><li><strong>For debugging:</strong> You can "comment out" a line of code (add # before it) to temporarily disable it without deleting it.</li></ul><h3>Running Programs from a File</h3><p>In the previous chapter, you learned how to create and run <code>.py</code> files. Here is the complete workflow again:</p><ol><li>Open your code editor (IDLE, VS Code, etc.).</li><li>Write your program — for example, multiple <code>print()</code> statements.</li><li>Save the file with a <code>.py</code> extension (e.g., <code>greetings.py</code>).</li><li>Run the file (F5 in IDLE, or <code>python greetings.py</code> in the terminal).</li></ol><p>When you run a file, Python executes all the lines from top to bottom, one at a time. If there is an error on any line, execution stops at that line and shows an error message.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Hello World - Your Very First Program</div><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre><div class="code-example-explanation">This is the classic first program that every programmer writes. The <code>print()</code> function takes the string <code>"Hello, World!"</code> and displays it on the screen. The string must be enclosed in quotes (single or double).</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">Single Quotes vs Double Quotes</div><pre><code class="language-python">print(&quot;Hello, World!&quot;)      # Double quotes
+print(&#39;Hello, World!&#39;)      # Single quotes - same result
+
+# Use double quotes when string has an apostrophe:
+print(&quot;It&#39;s a beautiful day&quot;)
+
+# Use single quotes when string has double quotes:
+print(&#39;She said &quot;Welcome&quot; to everyone&#39;)</code></pre><div class="code-example-explanation">Python allows both single and double quotes for strings. They produce identical results. The practical rule is: if your string contains an apostrophe (single quote), wrap it in double quotes. If your string contains double quotes, wrap it in single quotes. This avoids the need for escape characters.</div><div class="code-example-output">Hello, World!
+Hello, World!
+It&#39;s a beautiful day
+She said &quot;Welcome&quot; to everyone</div></div>
+<div class="code-example"><div class="code-example-title">Printing Numbers and Expressions</div><pre><code class="language-python">print(42)           # An integer
+print(3.14)         # A decimal (float)
+print(7 + 8)        # Addition: 15
+print(100 - 37)     # Subtraction: 63
+print(6 * 9)        # Multiplication: 54
+print(45 / 5)       # Division: 9.0 (always gives decimal)
+print(2 ** 10)      # Power: 1024
+
+# Number vs string:
+print(50)           # This is a number
+print(&quot;50&quot;)         # This is text (a string)</code></pre><div class="code-example-explanation">You can print numbers directly without quotes. Python evaluates mathematical expressions first and then prints the result. Notice that division (<code>/</code>) always produces a decimal result (9.0, not 9). Also notice the difference between <code>print(50)</code> (a number) and <code>print("50")</code> (a string) — they look the same in output but are different types internally.</div><div class="code-example-output">42
+3.14
+15
+63
+54
+9.0
+1024
+50
+50</div></div>
+<div class="code-example"><div class="code-example-title">Printing Multiple Values with Commas</div><pre><code class="language-python">print(&quot;My name is&quot;, &quot;Ananya&quot;)
+print(&quot;I am&quot;, 13, &quot;years old&quot;)
+print(&quot;Marks in Maths:&quot;, 95, &quot;out of&quot;, 100)
+print(&quot;Sum of 5 and 3 is&quot;, 5 + 3)
+print(&quot;Total students:&quot;, 30 + 15 + 20)</code></pre><div class="code-example-explanation">When you pass multiple values to <code>print()</code> separated by commas, Python prints them all on the same line with a <strong>space</strong> between each value. You can mix strings and numbers freely. Python evaluates expressions (like <code>5 + 3</code>) before printing.</div><div class="code-example-output">My name is Ananya
+I am 13 years old
+Marks in Maths: 95 out of 100
+Sum of 5 and 3 is 8
+Total students: 65</div></div>
+<div class="code-example"><div class="code-example-title">Escape Characters in Action</div><pre><code class="language-python"># Newline: \n moves to next line
+print(&quot;Line 1\nLine 2\nLine 3&quot;)
+print()  # Empty line for spacing
+
+# Tab: \t adds horizontal spacing
+print(&quot;Name\tAge\tCity&quot;)
+print(&quot;Rohit\t14\tMumbai&quot;)
+print(&quot;Sneha\t13\tDelhi&quot;)
+print()
+
+# Backslash: \\ prints a single \
+print(&quot;File path: C:\\Users\\Priya\\Documents&quot;)
+
+# Quotes inside strings:
+print(&quot;He said \&quot;Python is fun\&quot;&quot;)
+print(&#39;It\&#39;s a great language&#39;)</code></pre><div class="code-example-explanation">Escape characters start with a backslash (<code>\</code>). <code>\n</code> creates a new line, <code>\t</code> adds a tab (useful for aligning columns), <code>\\</code> prints a literal backslash, <code>\"</code> prints a double quote inside double-quoted strings, and <code>\'</code> prints a single quote inside single-quoted strings. An empty <code>print()</code> with no arguments just prints a blank line.</div><div class="code-example-output">Line 1
+Line 2
+Line 3
+
+Name	Age	City
+Rohit	14	Mumbai
+Sneha	13	Delhi
+
+File path: C:\Users\Priya\Documents
+He said &quot;Python is fun&quot;
+It&#39;s a great language</div></div>
+<div class="code-example"><div class="code-example-title">Using sep and end Parameters</div><pre><code class="language-python"># sep changes the separator between values
+print(&quot;Aarav&quot;, &quot;Sharma&quot;, sep=&quot;-&quot;)
+print(25, &quot;04&quot;, 2026, sep=&quot;/&quot;)
+print(&quot;A&quot;, &quot;B&quot;, &quot;C&quot;, &quot;D&quot;, sep=&quot; -&gt; &quot;)
+print(&quot;Hello&quot;, &quot;World&quot;, sep=&quot;***&quot;)
+print()
+
+# end changes what comes after the printed text
+print(&quot;Loading&quot;, end=&quot;&quot;)
+print(&quot;.&quot;, end=&quot;&quot;)
+print(&quot;.&quot;, end=&quot;&quot;)
+print(&quot;.&quot;)
+
+print(&quot;Name:&quot;, end=&quot; &quot;)
+print(&quot;Diya&quot;)
+
+# Combining sep and end
+print(1, 2, 3, sep=&quot;, &quot;, end=&quot; ...done!\n&quot;)</code></pre><div class="code-example-explanation">The <code>sep</code> parameter controls what appears between multiple values (default is a space). The <code>end</code> parameter controls what appears after all values are printed (default is <code>\n</code>, a newline). Setting <code>end=""</code> means the next <code>print()</code> continues on the same line. You can use both <code>sep</code> and <code>end</code> in the same <code>print()</code> call.</div><div class="code-example-output">Aarav-Sharma
+25/04/2026
+A -&gt; B -&gt; C -&gt; D
+Hello***World
+
+Loading...
+Name: Diya
+1, 2, 3 ...done!</div></div>
+<div class="code-example"><div class="code-example-title">Comments: Single-Line and Multi-Line</div><pre><code class="language-python"># This is a single-line comment
+# Python ignores everything after the # symbol
+
+print(&quot;Hello!&quot;)  # This is an inline comment
+
+# You can use comments to temporarily disable code:
+# print(&quot;This line will NOT run&quot;)
+print(&quot;This line WILL run&quot;)
+
+&#39;&#39;&#39;
+This is a multi-line comment.
+It uses triple single quotes.
+Useful for longer explanations.
+&#39;&#39;&#39;
+
+&quot;&quot;&quot;
+You can also use triple double quotes
+for multi-line comments.
+&quot;&quot;&quot;
+
+print(&quot;Program complete!&quot;)</code></pre><div class="code-example-explanation">Single-line comments use <code>#</code>. Everything after <code>#</code> on that line is ignored. Inline comments come after code on the same line. Multi-line comments use triple quotes (<code>'''...'''</code> or <code>"""..."""</code>). Commenting out code (putting <code>#</code> before it) is a common debugging technique — it disables the line without deleting it.</div><div class="code-example-output">Hello!
+This line WILL run
+Program complete!</div></div>
+<div class="code-example"><div class="code-example-title">A Complete Program with Everything Combined</div><pre><code class="language-python"># Student Report Card Generator
+# Author: Riya Patel
+# Date: April 2026
+
+&#39;&#39;&#39;
+This program prints a formatted report card
+using print(), escape characters, and sep/end.
+&#39;&#39;&#39;
+
+print(&quot;========================================&quot;)
+print(&quot;        STUDENT REPORT CARD&quot;)
+print(&quot;========================================&quot;)
+print()
+print(&quot;Name:\tRiya Patel&quot;)
+print(&quot;Class:\t9th Standard&quot;)
+print(&quot;Roll No:\t42&quot;)
+print()
+print(&quot;Subject&quot;, &quot;Marks&quot;, sep=&quot;\t\t&quot;)
+print(&quot;-------&quot;, &quot;-----&quot;, sep=&quot;\t\t&quot;)
+print(&quot;Maths&quot;, &quot;95&quot;, sep=&quot;\t\t&quot;)
+print(&quot;Science&quot;, &quot;88&quot;, sep=&quot;\t\t&quot;)
+print(&quot;English&quot;, &quot;92&quot;, sep=&quot;\t\t&quot;)
+print(&quot;Hindi&quot;, &quot;85&quot;, sep=&quot;\t\t&quot;)
+print(&quot;Computer&quot;, &quot;98&quot;, sep=&quot;\t\t&quot;)
+print()
+print(&quot;Total:&quot;, 95 + 88 + 92 + 85 + 98, &quot;out of 500&quot;)
+print(&quot;Result:&quot;, end=&quot; &quot;)
+print(&quot;PASS&quot;)
+print(&quot;========================================&quot;)</code></pre><div class="code-example-explanation">This complete program demonstrates all the concepts from this chapter working together: comments explain the program's purpose, <code>\t</code> creates aligned columns, <code>sep</code> controls spacing in the table, <code>end</code> keeps "Result:" and "PASS" on the same line, and mathematical expressions calculate the total marks automatically.</div><div class="code-example-output">========================================
+        STUDENT REPORT CARD
+========================================
+
+Name:	Riya Patel
+Class:	9th Standard
+Roll No:	42
+
+Subject		Marks
+-------		-----
+Maths		95
+Science		88
+English		92
+Hindi		85
+Computer		98
+
+Total: 458 out of 500
+Result: PASS
+========================================</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting Parentheses in print()</h3>
+                <div class="wrong-code"><pre><code class="language-python">print &quot;Hello, World!&quot;</code></pre></div><div class="error-message">SyntaxError: Missing parentheses in call to &#39;print&#39;. Did you mean print(...)?</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre></div><div class="mistake-explanation">In Python 3, <code>print</code> is a function and requires parentheses. The syntax <code>print "Hello"</code> was valid in Python 2 (where print was a statement) but causes a SyntaxError in Python 3. Always write <code>print(...)</code> with parentheses.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mismatched Quotes</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(&quot;Hello, World!&#39;)
+print(&#39;Welcome to Python&quot;)</code></pre></div><div class="error-message">SyntaxError: EOL while scanning string literal</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello, World!&quot;)
+print(&#39;Welcome to Python&#39;)</code></pre></div><div class="mistake-explanation">A string must start and end with the <strong>same type of quote</strong>. If you open with a double quote (<code>"</code>), you must close with a double quote. If you open with a single quote (<code>'</code>), you must close with a single quote. Mixing them confuses Python because it cannot find the matching closing quote.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting Quotes Around Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(Hello World)</code></pre></div><div class="error-message">SyntaxError: invalid syntax</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello World&quot;)</code></pre></div><div class="mistake-explanation">Text (strings) must always be enclosed in quotes. Without quotes, Python tries to interpret <code>Hello</code> and <code>World</code> as variable names. Since these variables do not exist, you get an error. Only numbers can be printed without quotes: <code>print(42)</code> works, but <code>print(Hello)</code> requires quotes.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Wrong Escape Character Direction</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(&quot;Hello/nWorld&quot;)
+print(&quot;Name/tAge&quot;)</code></pre></div><div class="error-message">No error, but output is wrong:
+Hello/nWorld
+Name/tAge</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello\nWorld&quot;)
+print(&quot;Name\tAge&quot;)</code></pre></div><div class="mistake-explanation">Escape characters use a <strong>backslash</strong> (<code>\</code>), not a forward slash (<code>/</code>). <code>\n</code> is a newline, but <code>/n</code> is just the characters '/' and 'n' printed literally. This mistake does not cause an error — the program runs, but the output is not what you expected. Always use the backslash: <code>\n</code>, <code>\t</code>, <code>\\</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Incorrect sep and end Syntax</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(&quot;A&quot;, &quot;B&quot;, sep = &quot;-&quot;)    # Spaces around = (works but not recommended)
+print(&quot;Hello&quot; sep=&quot;,&quot;)          # Missing comma before sep
+print(&quot;Hi&quot;, sep:&quot;-&quot;)            # Using colon instead of equals</code></pre></div><div class="error-message">The second and third lines cause SyntaxError. The first line works but has unnecessary spaces.</div><div class="correct-code"><pre><code class="language-python">print(&quot;A&quot;, &quot;B&quot;, sep=&quot;-&quot;)
+print(&quot;Hello&quot;, &quot;World&quot;, sep=&quot;,&quot;)
+print(&quot;Hi&quot;, &quot;Bye&quot;, sep=&quot;-&quot;)</code></pre></div><div class="mistake-explanation">The <code>sep</code> and <code>end</code> parameters must be written with <code>=</code> (not <code>:</code>), and they must come after the values you want to print, separated by a comma. Writing <code>sep = "-"</code> with spaces works but Python style (PEP 8) recommends no spaces around <code>=</code> in keyword arguments: <code>sep="-"</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Printing a Backslash Without Escaping</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(&quot;C:\new_folder\test&quot;)</code></pre></div><div class="error-message">No error, but output is unexpected:
+C:
+ew_folder	est
+(\n becomes a newline and \t becomes a tab!)</div><div class="correct-code"><pre><code class="language-python">print(&quot;C:\\new_folder\\test&quot;)
+# Or use a raw string:
+print(r&quot;C:\new_folder\test&quot;)</code></pre></div><div class="mistake-explanation">When Python sees <code>\n</code> inside a string, it interprets it as a newline character, and <code>\t</code> as a tab — even if you intended them as part of a file path. To print a literal backslash, use <code>\\</code> (double backslash). Alternatively, prefix the string with <code>r</code> to make it a "raw string" where backslashes are treated literally: <code>r"C:\new_folder\test"</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The print() function displays output on the screen. It is the most commonly used function in Python.</li>
+<li>Strings (text) must be enclosed in quotes — either single quotes (&#39;...&#39;) or double quotes (&quot;...&quot;). Both work identically.</li>
+<li>Numbers can be printed without quotes. Mathematical expressions inside print() are evaluated before printing.</li>
+<li>Multiple values can be printed in one print() call by separating them with commas. Python adds a space between each value by default.</li>
+<li>Escape characters use a backslash: \n (newline), \t (tab), \\ (literal backslash), \&quot; (double quote), \&#39; (single quote).</li>
+<li>The sep parameter changes the separator between multiple values (default is a space): print(&#39;A&#39;, &#39;B&#39;, sep=&#39;-&#39;) outputs A-B.</li>
+<li>The end parameter changes what comes after the output (default is a newline): print(&#39;Hello&#39;, end=&#39; &#39;) keeps the next print on the same line.</li>
+<li>Single-line comments use the # symbol. Everything after # on that line is ignored by Python.</li>
+<li>Multi-line comments use triple quotes (&#39;&#39;&#39; or &quot;&quot;&quot;). They are useful for longer explanations at the top of a file or function.</li>
+<li>An empty print() with no arguments prints a blank line, useful for adding spacing in output.</li>
+<li>Comments are essential for code readability. Write comments to explain &#39;why&#39;, not just &#39;what&#39; your code does.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/installing-python-and-setup" class="related-topic-link">Installing Python and Setting Up Your Environment</a>
+<a href="/resources/python/variables-and-data-types" class="related-topic-link">Variables and Data Types in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/installing-python-and-setup" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Installing Python and Setting Up Your Environment</span>
+        </a>
+            <a href="/resources/python/variables-and-data-types" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/your-first-python-program/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

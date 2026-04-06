@@ -1,0 +1,779 @@
+{
+  "title": "Variables and Data Types in Python",
+  "slug": "variables-and-data-types",
+  "language": "python",
+  "chapter": 4,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 65,
+  "seo": {
+    "title": "Variables and Data Types in Python - int, float, str, bool Explained | Modern Age Coders",
+    "description": "Learn Python variables, naming rules, and data types (int, float, str, bool). Master type(), type conversion, multiple assignment, and dynamic typing with 65+ practice questions.",
+    "keywords": "python variables, data types in python, python int float string bool, python variables explained, python type conversion, python variable naming rules, python type function, python dynamic typing, python for beginners"
+  },
+  "content": {
+    "what": "<h2>What Are Variables and Data Types?</h2><p>A <strong>variable</strong> is a name that refers to a value stored in your computer's memory. Think of a variable as a <strong>labelled box</strong>: you put a value inside the box, give the box a name, and whenever you need that value later, you just use the box's name.</p><p>For example, if Aarav scores 95 marks in Maths, you could create a variable called <code>marks</code> and store the value 95 in it:</p><pre><code>marks = 95</code></pre><p>Now, whenever you write <code>marks</code> in your program, Python knows you mean 95. If his marks change to 98, you just update the variable:</p><pre><code>marks = 98</code></pre><p>A <strong>data type</strong> tells Python what kind of value is stored in a variable. Just like in real life — a school register stores names (text), roll numbers (whole numbers), heights (decimal numbers), and attendance (yes/no) — Python has different types for different kinds of data:</p><ul><li><strong>int</strong> — integers (whole numbers like 42, -7, 0)</li><li><strong>float</strong> — floating-point numbers (decimals like 3.14, -0.5, 98.6)</li><li><strong>str</strong> — strings (text like \"Hello\", 'Aarav', \"123\")</li><li><strong>bool</strong> — booleans (only two values: True or False)</li></ul><h3>What You Will Learn</h3><ul><li>How to create variables and assign values</li><li>Variable naming rules and conventions</li><li>The four basic data types: int, float, str, bool</li><li>The <code>type()</code> function to check data types</li><li>Type conversion: <code>int()</code>, <code>float()</code>, <code>str()</code>, <code>bool()</code></li><li>Multiple assignment and variable swapping</li><li>Dynamic typing in Python</li><li>The <code>id()</code> function to check memory addresses</li></ul>",
+    "why": "<h2>Why Are Variables and Data Types Important?</h2><p>Variables and data types are the foundation of every program ever written. Without them, you cannot store, retrieve, or manipulate any information. Here is why they matter:</p><h3>1. Programs Need to Remember Things</h3><p>Without variables, a program would forget everything immediately. Imagine a calculator that cannot remember the first number you typed while you are typing the second one. Variables let your program <strong>store values</strong> and use them later — for calculations, comparisons, display, and more.</p><h3>2. Data Types Prevent Errors</h3><p>Different types of data behave differently. The number 5 and the text \"5\" look the same but work very differently. <code>5 + 3</code> gives <code>8</code> (addition), but <code>\"5\" + \"3\"</code> gives <code>\"53\"</code> (text joining). Understanding data types helps you predict what your code will do and avoid unexpected results.</p><h3>3. Every Real Program Uses Variables</h3><p>Think about any app you use:</p><ul><li>A <strong>game</strong> uses variables for score, player name, health, and level</li><li>A <strong>calculator</strong> uses variables to store the numbers and the result</li><li>A <strong>weather app</strong> uses variables for temperature, humidity, and city name</li><li>An <strong>attendance system</strong> uses variables for student names and present/absent status</li></ul><p>Every single one of these values is stored in a variable with a specific data type.</p><h3>4. Type Conversion Is a Daily Task</h3><p>In real programs, you constantly need to convert between types. When a user types their age, it comes in as text (\"14\") but you need to convert it to a number (14) before doing any calculations. Mastering type conversion now will save you from countless errors later.</p><h3>5. It Builds Your Mental Model of Programming</h3><p>Understanding variables and data types gives you a mental picture of what happens inside the computer when your code runs. This mental model is essential for debugging (finding errors), optimizing (making code faster), and writing correct programs.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Creating Variables</h3><p>In Python, you create a variable using the <strong>assignment operator</strong> (<code>=</code>). The syntax is:</p><pre><code>variable_name = value</code></pre><p>Examples:</p><pre><code>name = \"Priya\"       # A string variable\nage = 14             # An integer variable\nheight = 5.4         # A float variable\nis_student = True    # A boolean variable</code></pre><p><strong>Important:</strong> The <code>=</code> sign in programming is NOT the same as \"equals\" in maths. In maths, <code>x = 5</code> means \"x is equal to 5\". In Python, <code>x = 5</code> means \"<strong>store</strong> the value 5 in the variable named x\" or \"<strong>assign</strong> 5 to x\". The value on the right side is stored in the variable on the left side.</p><h3>Variable Naming Rules</h3><p>Python has strict rules about what you can and cannot name your variables:</p><h4>Rules (Must Follow)</h4><ol><li><strong>Can contain</strong>: letters (a-z, A-Z), digits (0-9), and underscores (_)</li><li><strong>Must start with</strong>: a letter or an underscore — <strong>NOT a digit</strong></li><li><strong>Cannot be</strong>: a Python keyword (reserved word like <code>if</code>, <code>for</code>, <code>while</code>, <code>True</code>, <code>False</code>, <code>class</code>, <code>def</code>, <code>return</code>, etc.)</li><li><strong>Case-sensitive</strong>: <code>Name</code>, <code>name</code>, and <code>NAME</code> are three different variables</li><li><strong>No spaces</strong>: Use underscores instead (<code>student_name</code>, not <code>student name</code>)</li></ol><h4>Valid Variable Names</h4><pre><code>age = 14\nstudent_name = \"Aarav\"\n_private = 100\nmarks1 = 95\ntotalMarks = 500\nMAX_SCORE = 100</code></pre><h4>Invalid Variable Names</h4><pre><code>1st_name = \"Aarav\"     # Cannot start with a digit\nstudent-name = \"Priya\" # Hyphens are not allowed\nmy name = \"Rohan\"      # Spaces are not allowed\nclass = 10             # 'class' is a Python keyword\nfor = 5                # 'for' is a Python keyword</code></pre><h4>Naming Conventions (Best Practices)</h4><ul><li>Use <strong>snake_case</strong> for variable names: <code>student_name</code>, <code>total_marks</code>, <code>is_valid</code></li><li>Use descriptive names: <code>age</code> is better than <code>a</code>, <code>total_marks</code> is better than <code>tm</code></li><li>Use <strong>UPPER_CASE</strong> for constants (values that should not change): <code>MAX_SCORE = 100</code>, <code>PI = 3.14159</code></li><li>Start boolean variables with <code>is_</code> or <code>has_</code>: <code>is_student</code>, <code>has_passed</code></li></ul><h3>Data Type 1: int (Integers)</h3><p>An <strong>integer</strong> is a whole number — positive, negative, or zero — without any decimal point.</p><pre><code>marks = 95\ntemperature = -5\nroll_number = 0\npopulation = 1400000000</code></pre><p>In Python, integers can be <strong>arbitrarily large</strong>. Unlike many other languages that limit numbers to a certain size, Python can handle numbers as large as your computer's memory allows:</p><pre><code>big_number = 99999999999999999999999999999999\nprint(big_number)  # Works perfectly!</code></pre><h3>Data Type 2: float (Floating-Point Numbers)</h3><p>A <strong>float</strong> is a number with a decimal point. It represents real numbers.</p><pre><code>pi = 3.14159\nheight = 5.8\ntemperature = -2.5\nprice = 499.99</code></pre><p><strong>Important:</strong> Even if the decimal part is zero, it is still a float if it has a decimal point:</p><pre><code>x = 5     # This is an int\ny = 5.0   # This is a float (because of the decimal point)</code></pre><p>Also, division in Python always produces a float:</p><pre><code>result = 10 / 2   # Result is 5.0, not 5 (it is a float!)</code></pre><h3>Data Type 3: str (Strings)</h3><p>A <strong>string</strong> is a sequence of characters enclosed in quotes. Strings represent text.</p><pre><code>name = \"Sneha\"           # Double quotes\ncity = 'Mumbai'          # Single quotes\ngreeting = \"Hello!\"      # Can include symbols\npin_code = \"400001\"      # Numbers in quotes are strings!\nempty = \"\"               # An empty string (zero characters)</code></pre><p><strong>Key point:</strong> <code>\"42\"</code> is a string, not a number. You cannot do mathematical operations on it directly. <code>42</code> (without quotes) is a number. This distinction is extremely important.</p><h3>Data Type 4: bool (Booleans)</h3><p>A <strong>boolean</strong> has only two possible values: <code>True</code> or <code>False</code>. Notice the capital T and F — this is required in Python.</p><pre><code>is_student = True\nhas_passed = False\nis_raining = True</code></pre><p>Booleans are used for making decisions in your programs. You will use them extensively when you learn about <code>if</code> statements and loops. For now, just know that they exist and can only be <code>True</code> or <code>False</code>.</p><h4>Booleans and Numbers</h4><p>In Python, <code>True</code> is treated as <code>1</code> and <code>False</code> is treated as <code>0</code> when used in calculations:</p><pre><code>print(True + True)    # Output: 2 (1 + 1)\nprint(True + False)   # Output: 1 (1 + 0)\nprint(False + False)  # Output: 0 (0 + 0)</code></pre><h3>The type() Function</h3><p>The <code>type()</code> function tells you the data type of any value or variable:</p><pre><code>print(type(42))         # <class 'int'>\nprint(type(3.14))       # <class 'float'>\nprint(type(\"Hello\"))    # <class 'str'>\nprint(type(True))       # <class 'bool'>\n\nage = 14\nprint(type(age))        # <class 'int'></code></pre><p>The output <code>&lt;class 'int'&gt;</code> means the value belongs to the <code>int</code> class. You will learn about classes later, but for now, focus on the type name inside the quotes.</p><h3>Type Conversion (Type Casting)</h3><p>Sometimes you need to convert a value from one type to another. Python provides built-in functions for this:</p><h4>int() — Convert to Integer</h4><pre><code>int(\"42\")      # String to int: 42\nint(3.99)      # Float to int: 3 (truncates, does NOT round)\nint(True)      # Bool to int: 1\nint(False)     # Bool to int: 0</code></pre><p><strong>Warning:</strong> <code>int(\"hello\")</code> causes an error — you can only convert strings that contain valid numbers.</p><h4>float() — Convert to Float</h4><pre><code>float(\"3.14\")   # String to float: 3.14\nfloat(42)       # Int to float: 42.0\nfloat(\"5\")      # String to float: 5.0\nfloat(True)     # Bool to float: 1.0</code></pre><h4>str() — Convert to String</h4><pre><code>str(42)         # Int to string: \"42\"\nstr(3.14)       # Float to string: \"3.14\"\nstr(True)       # Bool to string: \"True\"</code></pre><p><code>str()</code> can convert anything to a string. It never fails.</p><h4>bool() — Convert to Boolean</h4><p>This function converts values to True or False. The rule is simple:</p><ul><li><strong>\"Falsy\" values</strong> (convert to False): <code>0</code>, <code>0.0</code>, <code>\"\"</code> (empty string), <code>None</code>, <code>False</code></li><li><strong>Everything else</strong> is \"truthy\" (converts to True)</li></ul><pre><code>bool(1)         # True\nbool(0)         # False\nbool(-5)        # True (any non-zero number)\nbool(\"Hello\")   # True (any non-empty string)\nbool(\"\")        # False (empty string)\nbool(0.0)       # False</code></pre><h3>Multiple Assignment</h3><p>Python lets you assign values to multiple variables in a single line:</p><pre><code># Assign different values to different variables\na, b, c = 1, 2, 3\nprint(a)  # 1\nprint(b)  # 2\nprint(c)  # 3\n\n# Assign the same value to multiple variables\nx = y = z = 0\nprint(x, y, z)  # 0 0 0</code></pre><h3>Variable Swapping</h3><p>A classic programming task is swapping the values of two variables. In most languages, you need a temporary variable. Python makes it elegant:</p><pre><code>a = 10\nb = 20\n\n# Swap in one line!\na, b = b, a\n\nprint(a)  # 20\nprint(b)  # 10</code></pre><p>This works because Python evaluates the right side completely before assigning to the left side.</p><h3>Dynamic Typing</h3><p>Python is a <strong>dynamically typed</strong> language. This means a variable can change its type during the program:</p><pre><code>x = 42          # x is an int\nprint(type(x))  # <class 'int'>\n\nx = \"Hello\"     # Now x is a string!\nprint(type(x))  # <class 'str'>\n\nx = 3.14        # Now x is a float!\nprint(type(x))  # <class 'float'></code></pre><p>In <strong>statically typed</strong> languages like Java or C++, you must declare a variable's type when you create it, and it cannot change. In Python, the type is determined automatically based on the value you assign.</p><h3>The id() Function</h3><p>Every object in Python has a unique identity — a number that identifies it in memory. The <code>id()</code> function returns this identity:</p><pre><code>x = 42\nprint(id(x))  # Something like 140234567890 (a memory address)\n\ny = 42\nprint(id(y))  # Same as x! (Python reuses the same object for small integers)\n\nz = 43\nprint(id(z))  # Different from x and y</code></pre><p>When two variables have the same <code>id()</code>, they are pointing to the exact same object in memory. Python optimizes memory by reusing objects for small integers (typically -5 to 256) and short strings.</p><h3>Variable Reassignment</h3><p>You can change the value of a variable at any time by assigning a new value:</p><pre><code>score = 0\nprint(score)  # 0\n\nscore = 10\nprint(score)  # 10\n\nscore = score + 5  # Take old value (10), add 5, store result (15)\nprint(score)  # 15</code></pre><p>The line <code>score = score + 5</code> is very important. It does NOT mean \"score equals score plus 5\" (which is mathematically impossible). It means: \"Take the current value of score (10), add 5 to it, and store the result (15) back in score.\"</p>",
+    "codeExamples": [
+      {
+        "title": "Creating Variables of All Four Types",
+        "code": "# Integer variable\nage = 14\nprint(\"Age:\", age)\nprint(\"Type:\", type(age))\nprint()\n\n# Float variable\nheight = 5.6\nprint(\"Height:\", height)\nprint(\"Type:\", type(height))\nprint()\n\n# String variable\nname = \"Kavya Sharma\"\nprint(\"Name:\", name)\nprint(\"Type:\", type(name))\nprint()\n\n# Boolean variable\nis_student = True\nprint(\"Is student:\", is_student)\nprint(\"Type:\", type(is_student))",
+        "language": "python",
+        "explanation": "This example creates one variable of each type and prints both the value and the type. The <code>type()</code> function confirms what data type each variable holds. Notice the naming conventions: simple names for simple values, and <code>is_</code> prefix for the boolean.",
+        "output": "Age: 14\nType: <class 'int'>\n\nHeight: 5.6\nType: <class 'float'>\n\nName: Kavya Sharma\nType: <class 'str'>\n\nIs student: True\nType: <class 'bool'>"
+      },
+      {
+        "title": "Variable Naming: Valid and Invalid",
+        "code": "# Valid variable names:\nstudent_name = \"Rohit\"\n_score = 95\nmarks1 = 88\ntotalMarks = 500\nMAX_ATTEMPTS = 3\n\nprint(student_name, _score, marks1, totalMarks, MAX_ATTEMPTS)\n\n# Invalid variable names (commented out because they cause errors):\n# 1st_name = \"Aarav\"     # SyntaxError: cannot start with digit\n# student-name = \"Priya\" # SyntaxError: hyphen not allowed\n# my name = \"Rohan\"      # SyntaxError: spaces not allowed\n# class = 10             # SyntaxError: 'class' is a keyword\n# for = 5                # SyntaxError: 'for' is a keyword",
+        "language": "python",
+        "explanation": "The valid names follow Python's rules: they use letters, digits, and underscores, and they do not start with a digit or use reserved keywords. The invalid names (commented out) would each cause a SyntaxError. Notice the different naming styles: snake_case for regular variables and UPPER_CASE for constants.",
+        "output": "Rohit 95 88 500 3"
+      },
+      {
+        "title": "Type Conversion (Casting) Examples",
+        "code": "# String to int\nmarks_str = \"95\"\nmarks_int = int(marks_str)\nprint(\"String:\", marks_str, \"| Type:\", type(marks_str))\nprint(\"Integer:\", marks_int, \"| Type:\", type(marks_int))\nprint()\n\n# Int to float\nwhole = 42\ndecimal = float(whole)\nprint(\"Int:\", whole, \"| Float:\", decimal)\nprint()\n\n# Float to int (truncates — does NOT round!)\npi = 3.99\ntruncated = int(pi)\nprint(\"Float:\", pi, \"| Int:\", truncated, \"(truncated, not rounded!)\")\nprint()\n\n# Number to string\nage = 14\nage_str = str(age)\nprint(\"Number:\", age, \"| String:\", age_str)\nprint(\"Can concatenate:\", \"I am \" + age_str + \" years old\")\nprint()\n\n# Bool conversion\nprint(\"bool(1):\", bool(1))       # True\nprint(\"bool(0):\", bool(0))       # False\nprint(\"bool(''):\", bool(\"\"))     # False (empty string)\nprint(\"bool('Hi'):\", bool(\"Hi\")) # True (non-empty string)",
+        "language": "python",
+        "explanation": "This example shows every type of conversion. The most important points: (1) <code>int()</code> truncates floats (cuts off the decimal, does NOT round), so <code>int(3.99)</code> gives 3, not 4. (2) <code>str()</code> converts anything to text. (3) <code>bool()</code> considers 0, 0.0, and empty strings as False; everything else is True.",
+        "output": "String: 95 | Type: <class 'str'>\nInteger: 95 | Type: <class 'int'>\n\nInt: 42 | Float: 42.0\n\nFloat: 3.99 | Int: 3 (truncated, not rounded!)\n\nNumber: 14 | String: 14\nCan concatenate: I am 14 years old\n\nbool(1): True\nbool(0): False\nbool(''): False\nbool('Hi'): True"
+      },
+      {
+        "title": "Multiple Assignment and Swapping",
+        "code": "# Multiple assignment — assign different values in one line\na, b, c = 10, 20, 30\nprint(\"a =\", a, \"| b =\", b, \"| c =\", c)\n\n# Same value to multiple variables\nx = y = z = 0\nprint(\"x =\", x, \"| y =\", y, \"| z =\", z)\nprint()\n\n# Variable swapping\nprint(\"Before swap:\")\nfirst = \"Mango\"\nsecond = \"Apple\"\nprint(\"first =\", first, \"| second =\", second)\n\nfirst, second = second, first  # Swap!\n\nprint(\"After swap:\")\nprint(\"first =\", first, \"| second =\", second)",
+        "language": "python",
+        "explanation": "Multiple assignment lets you write compact code. <code>a, b, c = 10, 20, 30</code> assigns 10 to a, 20 to b, and 30 to c simultaneously. Swapping uses the same syntax: <code>first, second = second, first</code> evaluates the right side first (getting the current values), then assigns them to the left side in the new order.",
+        "output": "a = 10 | b = 20 | c = 30\nx = 0 | y = 0 | z = 0\n\nBefore swap:\nfirst = Mango | second = Apple\nAfter swap:\nfirst = Apple | second = Mango"
+      },
+      {
+        "title": "Dynamic Typing — Variables Can Change Type",
+        "code": "# Python is dynamically typed — the same variable can hold different types\ndata = 42\nprint(\"Value:\", data, \"| Type:\", type(data))\n\ndata = \"Hello\"\nprint(\"Value:\", data, \"| Type:\", type(data))\n\ndata = 3.14\nprint(\"Value:\", data, \"| Type:\", type(data))\n\ndata = True\nprint(\"Value:\", data, \"| Type:\", type(data))\n\n# In Java or C++, this would cause an error!\n# You would have to declare: int data = 42;\n# and then data = \"Hello\" would be illegal.",
+        "language": "python",
+        "explanation": "In Python, you do not need to declare a variable's type. The type is determined by the value you assign. You can even change a variable from one type to another by assigning a new value. This is called <strong>dynamic typing</strong>. In statically typed languages like Java, you declare a type once and cannot change it.",
+        "output": "Value: 42 | Type: <class 'int'>\nValue: Hello | Type: <class 'str'>\nValue: 3.14 | Type: <class 'float'>\nValue: True | Type: <class 'bool'>"
+      },
+      {
+        "title": "The id() Function and Object Identity",
+        "code": "# id() returns the memory address of an object\na = 256\nb = 256\nprint(\"a =\", a, \"| id(a) =\", id(a))\nprint(\"b =\", b, \"| id(b) =\", id(b))\nprint(\"Same object?\", id(a) == id(b))  # True! Python caches small integers\nprint()\n\n# Reassigning changes the id\nx = 10\nprint(\"x = 10 | id(x) =\", id(x))\nx = 20\nprint(\"x = 20 | id(x) =\", id(x))  # Different id — new object",
+        "language": "python",
+        "explanation": "Every value in Python is an object with a unique identity (memory address). The <code>id()</code> function reveals this. Python optimizes memory by reusing objects for small integers (-5 to 256) — so <code>a = 256</code> and <code>b = 256</code> point to the same object. When you reassign a variable, it points to a new object with a different id. This demonstrates that variables in Python are <strong>references</strong> (labels pointing to objects), not boxes that contain values.",
+        "output": "a = 256 | id(a) = 2035299577680\nb = 256 | id(b) = 2035299577680\nSame object? True\n\nx = 10 | id(x) = 2035299569776\nx = 20 | id(x) = 2035299570096"
+      },
+      {
+        "title": "Common Type Conversion Mistakes and Edge Cases",
+        "code": "# int() truncates, does NOT round\nprint(\"int(3.1) =\", int(3.1))   # 3\nprint(\"int(3.9) =\", int(3.9))   # 3 (not 4!)\nprint(\"int(-3.7) =\", int(-3.7)) # -3 (truncates toward zero)\nprint()\n\n# Division always returns float\nprint(\"10 / 2 =\", 10 / 2)       # 5.0, not 5\nprint(\"type:\", type(10 / 2))    # <class 'float'>\nprint()\n\n# True and False are 1 and 0\nprint(\"True + True =\", True + True)     # 2\nprint(\"True * 10 =\", True * 10)         # 10\nprint(\"False + 100 =\", False + 100)     # 100\nprint()\n\n# Bool of different values\nprint(\"bool(0) =\", bool(0))           # False\nprint(\"bool(0.0) =\", bool(0.0))       # False\nprint(\"bool('') =\", bool(\"\"))         # False\nprint(\"bool(' ') =\", bool(\" \"))       # True! (space is a character)\nprint(\"bool('0') =\", bool(\"0\"))       # True! (non-empty string)\nprint(\"bool('False') =\", bool(\"False\"))  # True! (non-empty string)",
+        "language": "python",
+        "explanation": "These edge cases are frequently tested. Key surprises: (1) <code>int(3.9)</code> gives 3, not 4 — it truncates, not rounds. (2) Regular division always returns a float, even for 10/2. (3) <code>bool(\" \")</code> is True because a space is a character (the string is not empty). (4) <code>bool(\"0\")</code> and <code>bool(\"False\")</code> are both True because they are non-empty strings — bool() checks if the string is empty, not its content.",
+        "output": "int(3.1) = 3\nint(3.9) = 3\nint(-3.7) = -3\n\n10 / 2 = 5.0\ntype: <class 'float'>\n\nTrue + True = 2\nTrue * 10 = 10\nFalse + 100 = 100\n\nbool(0) = False\nbool(0.0) = False\nbool('') = False\nbool(' ') = True\nbool('0') = True\nbool('False') = True"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Starting a Variable Name with a Digit",
+        "wrongCode": "1st_place = \"Aarav\"\n2nd_place = \"Priya\"",
+        "error": "SyntaxError: invalid decimal literal",
+        "correctCode": "first_place = \"Aarav\"\nsecond_place = \"Priya\"\n# Or: place_1 = \"Aarav\"  (digit at end is fine)",
+        "explanation": "Variable names cannot start with a digit. Python sees <code>1st_place</code> and gets confused because it starts interpreting <code>1</code> as a number but then encounters letters. Put the digit at the end (<code>place_1</code>) or spell it out (<code>first_place</code>)."
+      },
+      {
+        "title": "Using a Python Keyword as a Variable Name",
+        "wrongCode": "class = 10\nfor = \"loop\"",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "class_number = 10\nloop_type = \"for loop\"",
+        "explanation": "Python reserves certain words (keywords) for special purposes. Words like <code>class</code>, <code>for</code>, <code>if</code>, <code>while</code>, <code>True</code>, <code>False</code>, <code>def</code>, <code>return</code>, <code>import</code>, etc. cannot be used as variable names. You can check all keywords by running <code>import keyword; print(keyword.kwlist)</code>."
+      },
+      {
+        "title": "Confusing = (Assignment) with == (Comparison)",
+        "wrongCode": "# Trying to check if x equals 5:\nx = 5\nif x = 5:    # Wrong! Single = is assignment\n    print(\"x is 5\")",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "x = 5\nif x == 5:    # Correct! Double == is comparison\n    print(\"x is 5\")",
+        "explanation": "In Python, a single <code>=</code> means <strong>assignment</strong> (store a value). A double <code>==</code> means <strong>comparison</strong> (check if two values are equal). This is one of the most common mistakes for beginners coming from maths, where <code>=</code> means equality."
+      },
+      {
+        "title": "Concatenating String and Number Without Conversion",
+        "wrongCode": "age = 14\nprint(\"I am \" + age + \" years old\")",
+        "error": "TypeError: can only concatenate str (not \"int\") to str",
+        "correctCode": "age = 14\n# Option 1: Convert to string\nprint(\"I am \" + str(age) + \" years old\")\n\n# Option 2: Use comma separation (easier)\nprint(\"I am\", age, \"years old\")",
+        "explanation": "You cannot use <code>+</code> to join a string and a number directly. Python does not automatically convert the number to a string. You must explicitly convert using <code>str()</code>, or better yet, use comma separation in <code>print()</code> which handles the conversion automatically."
+      },
+      {
+        "title": "Assuming int() Rounds Instead of Truncates",
+        "wrongCode": "# Student expects 4 because 3.7 rounds up\nresult = int(3.7)\nprint(result)  # Prints 3, NOT 4!",
+        "error": "No error, but wrong assumption. Output is 3, not 4.",
+        "correctCode": "# int() truncates (removes decimal part)\nprint(int(3.7))    # 3 (truncated)\nprint(int(3.2))    # 3 (truncated)\n\n# Use round() if you want rounding:\nprint(round(3.7))  # 4 (rounded)\nprint(round(3.2))  # 3 (rounded)",
+        "explanation": "The <code>int()</code> function does not round — it <strong>truncates</strong>, meaning it simply removes the decimal part. <code>int(3.9)</code> gives 3, not 4. For negative numbers, it truncates toward zero: <code>int(-3.7)</code> gives -3, not -4. If you need rounding, use the <code>round()</code> function instead."
+      },
+      {
+        "title": "Assuming bool('False') Is False",
+        "wrongCode": "# Student expects this to be False\nresult = bool(\"False\")\nprint(result)  # Prints True!",
+        "error": "No error, but the output is True instead of False.",
+        "correctCode": "# bool() checks if the string is EMPTY, not its content\nprint(bool(\"False\"))  # True — non-empty string\nprint(bool(\"\"))       # False — empty string\nprint(bool(\"0\"))      # True — non-empty string\nprint(bool(0))        # False — zero integer",
+        "explanation": "The <code>bool()</code> function converts to True or False based on simple rules: for strings, <strong>empty string = False, any non-empty string = True</strong>. It does NOT read the content of the string. So <code>bool(\"False\")</code> is True because \"False\" is a non-empty string (it has 5 characters). Similarly, <code>bool(\"0\")</code> is True because \"0\" is not empty."
+      }
+    ],
+    "summary": [
+      "A variable is a named reference to a value stored in memory. Create one with: variable_name = value.",
+      "The = operator in Python means 'assign' (store a value), not 'equals' like in mathematics.",
+      "Variable naming rules: must start with a letter or underscore, can contain letters/digits/underscores, cannot be a Python keyword, and are case-sensitive.",
+      "Python has four basic data types: int (whole numbers), float (decimal numbers), str (text in quotes), and bool (True or False).",
+      "The type() function reveals what data type a value or variable is: type(42) returns <class 'int'>.",
+      "Type conversion functions: int() converts to integer (truncates decimals), float() converts to decimal, str() converts to text, bool() converts to True/False.",
+      "int() truncates floats toward zero, it does NOT round. int(3.9) gives 3, not 4. Use round() for rounding.",
+      "bool() falsy values: 0, 0.0, empty string \"\", None, and False. Everything else is truthy, including \"0\" and \"False\" (non-empty strings).",
+      "Multiple assignment: a, b, c = 1, 2, 3. Variable swapping: a, b = b, a.",
+      "Python is dynamically typed: variables can change type during execution. x = 42 followed by x = 'Hello' is perfectly valid.",
+      "The id() function returns the memory address of an object. Python caches small integers (-5 to 256), so variables with the same small integer value share the same id.",
+      "Division (/) always returns a float in Python, even for 10 / 2 (result is 5.0, not 5)."
+    ]
+  },
+  "relatedTopics": ["your-first-python-program", "operators-in-python"],
+  "practice": {
+    "totalQuestions": 65,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create a variable called city and assign the value \"Mumbai\" to it. Then print the value of the variable.",
+        "hint": "Use the assignment operator (=) and print().",
+        "answer": "<pre><code>city = \"Mumbai\"\nprint(city)</code></pre>\nOutput: Mumbai",
+        "explanation": "The variable city is created and assigned the string value \"Mumbai\". When you print(city), Python looks up the value stored in the variable city and displays it. Notice you do NOT put quotes around the variable name in print — print(city) prints the VALUE, while print(\"city\") would print the word 'city'."
+      },
+      {
+        "id": "ts-2",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What are the four basic data types in Python?",
+        "hint": "Think about whole numbers, decimal numbers, text, and yes/no values.",
+        "answer": "The four basic data types are: <strong>int</strong> (integers/whole numbers), <strong>float</strong> (floating-point/decimal numbers), <strong>str</strong> (strings/text), and <strong>bool</strong> (booleans: True or False).",
+        "explanation": "These four types cover most basic data needs. int handles counting and whole numbers, float handles measurements and decimals, str handles text and characters, and bool handles yes/no decisions. Python has more advanced types (list, dict, tuple, set) that you will learn later."
+      },
+      {
+        "id": "ts-3",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of: print(type(3.14))",
+        "hint": "3.14 has a decimal point.",
+        "answer": "Output: <code>&lt;class 'float'&gt;</code>",
+        "explanation": "The value 3.14 has a decimal point, making it a floating-point number. The type() function returns <class 'float'> for any number with a decimal point, whether it is 3.14, -0.5, or even 5.0."
+      },
+      {
+        "id": "ts-4",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "Which of these variable names are valid in Python? (a) my_name (b) 2fast (c) _count (d) for (e) student name",
+        "hint": "Check each one: can it start with a digit? Does it contain spaces? Is it a keyword?",
+        "answer": "Valid: <strong>(a) my_name</strong> and <strong>(c) _count</strong>. Invalid: (b) 2fast (starts with digit), (d) for (Python keyword), (e) student name (contains a space).",
+        "explanation": "my_name uses only letters and underscore — valid. _count starts with underscore — valid. 2fast starts with a digit — invalid. for is a reserved keyword used for loops — invalid. student name has a space — invalid (use student_name instead)."
+      },
+      {
+        "id": "ts-5",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of:\nx = 5\nprint(type(x))\nx = \"five\"\nprint(type(x))",
+        "hint": "Python is dynamically typed — variables can change type.",
+        "answer": "Output:<pre><code><class 'int'>\n<class 'str'></code></pre>",
+        "explanation": "First, x is assigned the integer 5, so type(x) is int. Then x is reassigned the string \"five\", so type(x) becomes str. This demonstrates Python's dynamic typing — the same variable can hold different types at different times."
+      },
+      {
+        "id": "ts-6",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nprint(int(7.9))\nprint(int(7.1))\nprint(int(-3.8))",
+        "hint": "int() truncates — it removes the decimal part. It does NOT round.",
+        "answer": "Output:<pre><code>7\n7\n-3</code></pre>",
+        "explanation": "int() truncates the decimal part (cuts it off): 7.9 becomes 7, 7.1 becomes 7. For negative numbers, int() truncates toward zero: -3.8 becomes -3 (not -4). This is a critical distinction — int() does NOT round."
+      },
+      {
+        "id": "ts-7",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nprint(bool(\"\"))\nprint(bool(\" \"))\nprint(bool(\"0\"))\nprint(bool(0))",
+        "hint": "For strings, bool() checks if the string is empty. For numbers, it checks if the number is zero.",
+        "answer": "Output:<pre><code>False\nTrue\nTrue\nFalse</code></pre>",
+        "explanation": "bool(\"\") is False because the string is empty (zero characters). bool(\" \") is True because the string contains a space character (it is NOT empty). bool(\"0\") is True because it is a non-empty string (contains the character '0'). bool(0) is False because the integer 0 is a falsy value."
+      },
+      {
+        "id": "ts-8",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\na, b, c = 10, 20, 30\nprint(b)",
+        "hint": "In multiple assignment, values are matched left to right.",
+        "answer": "Output: <code>20</code>",
+        "explanation": "Multiple assignment matches values to variables from left to right: a gets 10, b gets 20, c gets 30. So print(b) outputs 20."
+      },
+      {
+        "id": "ts-9",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nx = 10\ny = 20\nx, y = y, x\nprint(x, y)",
+        "hint": "This is variable swapping. The right side is evaluated completely before assignment.",
+        "answer": "Output: <code>20 10</code>",
+        "explanation": "The line x, y = y, x swaps the values. Python first evaluates the right side: y is 20 and x is 10. Then it assigns: x gets 20 (old y) and y gets 10 (old x). After the swap, x is 20 and y is 10."
+      },
+      {
+        "id": "ts-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nresult = 10 / 2\nprint(result)\nprint(type(result))",
+        "hint": "Division with / always returns a float, even when the result is a whole number.",
+        "answer": "Output:<pre><code>5.0\n<class 'float'></code></pre>",
+        "explanation": "In Python, the / operator always returns a float, even if the division is exact. 10 / 2 gives 5.0 (not 5). The type is float, not int. If you want an integer result, use integer division: 10 // 2 gives 5."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nprint(True + True + True)\nprint(True * 5)\nprint(False + 42)",
+        "hint": "In arithmetic, True is treated as 1 and False as 0.",
+        "answer": "Output:<pre><code>3\n5\n42</code></pre>",
+        "explanation": "In Python, True equals 1 and False equals 0 when used in arithmetic. True + True + True = 1 + 1 + 1 = 3. True * 5 = 1 * 5 = 5. False + 42 = 0 + 42 = 42."
+      },
+      {
+        "id": "ts-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the difference between x = 5 (assignment) and x == 5 (comparison).",
+        "hint": "One stores a value, the other checks a condition.",
+        "answer": "<code>x = 5</code> is <strong>assignment</strong> — it stores the value 5 in the variable x. <code>x == 5</code> is <strong>comparison</strong> — it checks whether the current value of x is equal to 5 and returns True or False.",
+        "explanation": "This distinction is crucial in programming. The single = (assignment operator) changes the value of the variable. The double == (comparison operator) asks a question without changing anything. In the code 'if x == 5:', we are asking 'is x equal to 5?'. Writing 'if x = 5:' would be a SyntaxError because assignment is not allowed inside an if condition."
+      },
+      {
+        "id": "ts-13",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(\"5\" + \"3\")\nprint(5 + 3)\nprint(\"5\" * 3)\nprint(int(\"5\") + int(\"3\"))",
+        "hint": "The + operator behaves differently for strings and numbers.",
+        "answer": "Output:<pre><code>53\n8\n555\n8</code></pre>",
+        "explanation": "\"5\" + \"3\" concatenates two strings: \"53\". 5 + 3 adds two integers: 8. \"5\" * 3 repeats the string \"5\" three times: \"555\". int(\"5\") + int(\"3\") converts both strings to integers first, then adds: 5 + 3 = 8."
+      },
+      {
+        "id": "ts-14",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nx = 5\nprint(type(x))\nx = 5.0\nprint(type(x))\nx = \"5\"\nprint(type(x))\nx = True\nprint(type(x))",
+        "hint": "5 is int, 5.0 is float, \"5\" is str, True is bool.",
+        "answer": "Output:<pre><code><class 'int'>\n<class 'float'>\n<class 'str'>\n<class 'bool'></code></pre>",
+        "explanation": "5 (no decimal) is an int. 5.0 (with decimal point) is a float. \"5\" (in quotes) is a str. True (capital T) is a bool. The variable x changes type each time — this is dynamic typing in action."
+      },
+      {
+        "id": "ts-15",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(bool(\"False\"))\nprint(bool(\"True\"))\nprint(bool(\"0\"))\nprint(bool(\"\"))\nprint(bool(None))",
+        "hint": "bool() checks emptiness/zero-ness, not the content of the string.",
+        "answer": "Output:<pre><code>True\nTrue\nTrue\nFalse\nFalse</code></pre>",
+        "explanation": "bool(\"False\") is True because \"False\" is a non-empty string. bool(\"True\") is True for the same reason. bool(\"0\") is True because \"0\" is a non-empty string. bool(\"\") is False because it is an empty string. bool(None) is False because None is a special falsy value in Python."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\na = \"10\"\nb = \"20\"\nprint(a + b)\nprint(int(a) + int(b))",
+        "hint": "String concatenation vs integer addition.",
+        "answer": "Output:<pre><code>1020\n30</code></pre>",
+        "explanation": "a and b are both strings. a + b concatenates them: \"10\" + \"20\" = \"1020\". int(a) + int(b) converts both to integers first: int(\"10\") + int(\"20\") = 10 + 20 = 30. This illustrates why knowing data types matters — the same + operator does very different things depending on the types."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain what dynamic typing means in Python. How is it different from static typing in Java?",
+        "hint": "Think about whether you need to declare a variable's type before using it.",
+        "answer": "In <strong>dynamic typing</strong> (Python), you do not declare a variable's type — Python infers it from the assigned value. A variable can change type: <code>x = 5</code> (int) then <code>x = \"Hello\"</code> (str) is valid. In <strong>static typing</strong> (Java), you must declare the type: <code>int x = 5;</code> and then <code>x = \"Hello\";</code> causes a compile error because x was declared as int.",
+        "explanation": "Dynamic typing makes Python quicker to write and more flexible. Static typing catches type-related errors at compile time (before the program runs). Python's approach is great for learning and rapid development. Java's approach is better for large projects where type safety prevents certain bugs."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What does the id() function return? If a = 100 and b = 100, will id(a) == id(b) be True or False? What about a = 1000 and b = 1000?",
+        "hint": "Python caches small integers from -5 to 256.",
+        "answer": "The <code>id()</code> function returns the <strong>memory address</strong> (identity) of an object. For <code>a = 100</code> and <code>b = 100</code>, <code>id(a) == id(b)</code> is <strong>True</strong> because Python caches small integers (-5 to 256) and reuses the same object. For <code>a = 1000</code> and <code>b = 1000</code>, the result <strong>may be False</strong> (in the REPL) because 1000 is outside the cached range, so Python may create two separate objects.",
+        "explanation": "Python pre-creates and caches integer objects for values -5 through 256 because these numbers are used frequently. Any variable assigned a value in this range points to the same cached object. For integers outside this range, Python creates new objects each time (though in some cases, like within the same script, the compiler may optimize this). This is an implementation detail of CPython and should not affect your programs."
+      },
+      {
+        "id": "ts-19",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Create two variables: name with value \"Diya\" and age with value 12. Print them on one line as: Diya is 12 years old.",
+        "hint": "Use comma separation in print() or string conversion with +.",
+        "answer": "<pre><code>name = \"Diya\"\nage = 12\nprint(name, \"is\", age, \"years old.\")</code></pre>\nOutput: Diya is 12 years old.",
+        "explanation": "Using commas in print() is the easiest way to combine strings and numbers. Python automatically adds spaces between the values and handles the type difference (name is a string, age is an integer)."
+      },
+      {
+        "id": "ts-20",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nscore = 80\nscore = score + 10\nscore = score + 5\nprint(score)",
+        "hint": "Trace through each assignment. The right side is evaluated before storing.",
+        "answer": "Output: <code>95</code>",
+        "explanation": "Initially score is 80. score = score + 10 takes the current value (80), adds 10, and stores 90. score = score + 5 takes 90, adds 5, and stores 95. The final value is 95."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that creates variables for a student's name, roll number, percentage, and whether they passed. Print all four values with labels.",
+        "hint": "Use four variables with appropriate types: str, int, float, bool.",
+        "answer": "<pre><code>name = \"Rohit Kumar\"\nroll_number = 23\npercentage = 87.5\nhas_passed = True\n\nprint(\"Name:\", name)\nprint(\"Roll Number:\", roll_number)\nprint(\"Percentage:\", percentage)\nprint(\"Passed:\", has_passed)</code></pre>",
+        "explanation": "This program demonstrates all four data types working together: name is a string, roll_number is an integer, percentage is a float, and has_passed is a boolean. Each variable is named descriptively to make the code readable."
+      },
+      {
+        "id": "mx-2",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why do we use variables instead of typing values directly everywhere?",
+        "hint": "Think about what happens when a value needs to change, or when the same value is used in multiple places.",
+        "answer": "We use variables because: (1) <strong>Reusability</strong> — use the same value in many places without retyping. (2) <strong>Easy updates</strong> — change the value once and it updates everywhere. (3) <strong>Readability</strong> — <code>total_marks</code> is more meaningful than <code>500</code>. (4) <strong>Calculations</strong> — you can perform operations on variables and store results.",
+        "explanation": "Imagine a program that uses a student's name 20 times. If you type \"Aarav Sharma\" in 20 places and then need to change it to \"Aarav S.\", you must find and change all 20 occurrences. With a variable, you change it once: name = \"Aarav S.\" and all 20 uses automatically reflect the new value."
+      },
+      {
+        "id": "mx-3",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of the following code?\nage = \"14\"\nprint(age + age)\nprint(int(age) + int(age))",
+        "hint": "age is a string (in quotes). String + string concatenates. int + int adds.",
+        "answer": "Output:<pre><code>1414\n28</code></pre>",
+        "explanation": "age is the string \"14\" (not the number 14). String concatenation: \"14\" + \"14\" = \"1414\". Integer addition: int(\"14\") + int(\"14\") = 14 + 14 = 28. This clearly shows why data types matter — the same + operator does different things."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Meera writes this code and gets an error. What went wrong and how should she fix it?\nmarks = 95\nprint(\"I scored \" + marks + \" marks\")",
+        "hint": "You cannot concatenate strings and integers with +.",
+        "answer": "The error is <code>TypeError: can only concatenate str (not \"int\") to str</code>. The <code>+</code> operator cannot join a string with an integer. <strong>Fix 1:</strong> <code>print(\"I scored \" + str(marks) + \" marks\")</code> — convert marks to string. <strong>Fix 2:</strong> <code>print(\"I scored\", marks, \"marks\")</code> — use comma separation.",
+        "explanation": "Python does not automatically convert integers to strings when using +. You must explicitly convert using str(). The comma method is simpler because print() handles the conversion automatically, but it adds spaces between values."
+      },
+      {
+        "id": "mx-5",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "What is the output of:\nprint(float(\"3\"))\nprint(int(3.0))\nprint(str(42))\nprint(bool(3.14))",
+        "hint": "Follow each conversion function's rules.",
+        "answer": "Output:<pre><code>3.0\n3\n42\nTrue</code></pre>",
+        "explanation": "float(\"3\") converts string \"3\" to float 3.0. int(3.0) converts float 3.0 to integer 3 (removes decimal). str(42) converts integer 42 to string \"42\" (displayed without quotes by print). bool(3.14) converts to True because 3.14 is a non-zero number."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between x = y = z = 0 and x, y, z = 1, 2, 3?",
+        "hint": "One assigns the same value to all variables, the other assigns different values.",
+        "answer": "<code>x = y = z = 0</code> assigns the <strong>same value (0) to all three variables</strong>. <code>x, y, z = 1, 2, 3</code> assigns <strong>different values</strong>: x gets 1, y gets 2, z gets 3.",
+        "explanation": "The first form is used when you want to initialize multiple variables to the same starting value (like setting all counters to zero). The second form (called tuple unpacking) is used when each variable needs a different value."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Predict the output of:\na = 5\nb = a\na = 10\nprint(a)\nprint(b)",
+        "hint": "When you assign b = a, b gets the current value of a at that moment. Changing a later does not affect b.",
+        "answer": "Output:<pre><code>10\n5</code></pre>",
+        "explanation": "When b = a is executed, b gets the value 5 (the current value of a). After that, a and b are independent. Changing a to 10 does not affect b. b still holds 5. This is because integers are immutable in Python — b = a creates a reference to the same object, but a = 10 makes a point to a new object."
+      },
+      {
+        "id": "mx-8",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What happens when you run: int(\"hello\")? What about int(\"3.14\")?",
+        "hint": "int() can only convert strings that look like valid integers.",
+        "answer": "<code>int(\"hello\")</code> raises <code>ValueError: invalid literal for int() with base 10: 'hello'</code>. <code>int(\"3.14\")</code> also raises <code>ValueError: invalid literal for int() with base 10: '3.14'</code>.",
+        "explanation": "int() can only convert strings that represent valid integers (like \"42\", \"-7\", \"0\"). It cannot convert \"hello\" because there are no digits. Surprisingly, it also cannot convert \"3.14\" directly — the decimal point makes it invalid for int(). To convert \"3.14\" to an integer, you must go through float first: int(float(\"3.14\")) gives 3."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nx = 10\ny = \"10\"\nprint(x == y)\nprint(str(x) == y)\nprint(x == int(y))",
+        "hint": "10 (int) and \"10\" (str) are different types. == compares values.",
+        "answer": "Output:<pre><code>False\nTrue\nTrue</code></pre>",
+        "explanation": "x == y compares 10 (int) with \"10\" (str). Different types, so False. str(x) == y compares \"10\" (str) with \"10\" (str). Same type and value, so True. x == int(y) compares 10 (int) with 10 (int). Same type and value, so True."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a program that swaps three variables in a circle: a has \"Apple\", b has \"Banana\", c has \"Cherry\". After swapping, a should have Cherry, b should have Apple, and c should have Banana.",
+        "hint": "Use multiple assignment: a, b, c = c, a, b",
+        "answer": "<pre><code>a = \"Apple\"\nb = \"Banana\"\nc = \"Cherry\"\n\na, b, c = c, a, b\n\nprint(\"a =\", a)  # Cherry\nprint(\"b =\", b)  # Apple\nprint(\"c =\", c)  # Banana</code></pre>",
+        "explanation": "Python evaluates the entire right side first: c is \"Cherry\", a is \"Apple\", b is \"Banana\". Then it assigns: a gets \"Cherry\", b gets \"Apple\", c gets \"Banana\". This circular swap is done in one elegant line."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Arjun types: print = 5. What happens next time he tries to use print(\"Hello\")?",
+        "hint": "print is the name of a built-in function. What happens when you assign a value to it?",
+        "answer": "He gets <code>TypeError: 'int' object is not callable</code>. By writing <code>print = 5</code>, Arjun <strong>overwrote the built-in print function</strong> with the integer 5. Now <code>print</code> refers to the number 5, not the function. Calling <code>print(\"Hello\")</code> is like calling <code>5(\"Hello\")</code>, which makes no sense.",
+        "explanation": "Python allows you to use any name for variables, including names of built-in functions. But doing so 'shadows' the built-in function — your variable replaces it. This is a dangerous mistake. Never name variables: print, type, int, float, str, bool, list, input, len, etc. To recover, you can use del print to delete your variable and restore the built-in."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "What is the output of:\nprint(type(True))\nprint(type(False))",
+        "hint": "True and False are boolean values.",
+        "answer": "Output:<pre><code><class 'bool'>\n<class 'bool'></code></pre>",
+        "explanation": "Both True and False are values of the bool (boolean) data type. Note the capital T in True and capital F in False — this is required. Writing true or false (lowercase) would cause a NameError."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the correct way to create a variable in Python?",
+        "options": [
+          "int age = 14",
+          "var age = 14",
+          "age = 14",
+          "let age = 14"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python, you create a variable by simply writing the name, an = sign, and the value. No type declaration (Option A is Java syntax), no var keyword (Option B is JavaScript), and no let keyword (Option D is JavaScript/Swift)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the data type of the value 3.14?",
+        "options": [
+          "int",
+          "float",
+          "str",
+          "bool"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> 3.14 has a decimal point, making it a float (floating-point number). int (Option A) is for whole numbers without decimals. str (Option C) would require quotes: \"3.14\". bool (Option D) is only True or False."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which of these is an INVALID variable name in Python?",
+        "options": [
+          "_name",
+          "student1",
+          "my_age",
+          "2nd_place"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Variable names cannot start with a digit. 2nd_place starts with '2', which is invalid. _name (starts with underscore — valid), student1 (digit at end — valid), and my_age (letters and underscore — valid) are all valid."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does type(42) return?",
+        "options": [
+          "<class 'str'>",
+          "<class 'float'>",
+          "<class 'int'>",
+          "<class 'bool'>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> 42 is an integer (a whole number without a decimal point), so type(42) returns <class 'int'>. It would be str if it were \"42\" (in quotes), float if it were 42.0 (with decimal), or bool if it were True/False."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the output of print(type(\"Hello\"))?",
+        "options": [
+          "<class 'str'>",
+          "<class 'int'>",
+          "<class 'text'>",
+          "<class 'string'>"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Text in quotes is a string, and Python's type name for strings is 'str' (abbreviated), not 'text' or 'string'. Python uses short type names: str, int, float, bool."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What are the only two values of the bool data type?",
+        "options": [
+          "true and false",
+          "True and False",
+          "1 and 0",
+          "yes and no"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The bool type has exactly two values: True and False (with capital T and F). Option A (true/false in lowercase) would cause a NameError. While True equals 1 and False equals 0 in arithmetic (Option C), 1 and 0 themselves are int values, not bool. Option D (yes/no) is not used in Python."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of int(3.9)?",
+        "options": [
+          "4 (rounded up)",
+          "3 (truncated)",
+          "3.0",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> int() truncates (removes the decimal part) — it does NOT round. So int(3.9) gives 3, not 4. This is a very common misconception. If you want rounding, use round(3.9) which gives 4."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the output of bool(\"\")?",
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> An empty string \"\" is a falsy value in Python, so bool(\"\") returns False. Any non-empty string (even \" \" or \"0\" or \"False\") returns True."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(\"5\" + \"3\")?",
+        "options": [
+          "8",
+          "53",
+          "5 3",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Both \"5\" and \"3\" are strings (in quotes). The + operator concatenates (joins) strings: \"5\" + \"3\" = \"53\". For numeric addition (8), you would need print(5 + 3) without quotes."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What type does division (/) always return in Python?",
+        "options": [
+          "int",
+          "float",
+          "str",
+          "It depends on the numbers"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The / operator always returns a float in Python 3, even for exact divisions like 10 / 2 (result is 5.0, not 5). If you want an integer result, use the // operator (floor division): 10 // 2 gives 5."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the output of: a, b = 5, 10; print(a)",
+        "options": [
+          "5",
+          "10",
+          "5 10",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> In multiple assignment, a, b = 5, 10 assigns 5 to a and 10 to b. print(a) outputs 5."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which of the following is TRUE about Python's dynamic typing?",
+        "options": [
+          "Variables must be declared with a type before use",
+          "A variable's type is fixed once assigned",
+          "A variable can change its type during execution",
+          "Type errors are caught before the program runs"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Dynamic typing means variables can change type: x = 5 (int) then x = \"hello\" (str) is valid. Option A describes static typing (Java). Option B is false — types can change. Option D describes compile-time type checking (static typing)."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of bool(\"0\")?",
+        "options": [
+          "True",
+          "False",
+          "0",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> \"0\" is a string containing the character '0'. It is a non-empty string, so bool(\"0\") returns True. bool() checks if the string is empty, not its content. Only bool(\"\") (empty string) returns False. Similarly, bool(\"False\") is also True."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(True + True)?",
+        "options": [
+          "True True",
+          "TrueTrue",
+          "2",
+          "Error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In arithmetic operations, True is treated as 1 and False as 0. So True + True = 1 + 1 = 2. Python does not concatenate booleans like strings — it performs numeric addition."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens when you run int(\"3.14\")?",
+        "options": [
+          "Returns 3",
+          "Returns 3.14",
+          "Raises ValueError",
+          "Returns 4"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> int() cannot convert \"3.14\" directly because the string contains a decimal point. You get ValueError: invalid literal for int() with base 10: '3.14'. To convert \"3.14\" to an integer, use int(float(\"3.14\")) which gives 3."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nx = 10\ny = x\nx = 20\nprint(y)",
+        "options": [
+          "10",
+          "20",
+          "Error",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> When y = x is executed, y gets the value 10 (the current value of x). After that, changing x to 20 does not affect y. y still holds 10. Variables for immutable types (int, float, str, bool) are independent after assignment."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which of the following is a valid way to swap two variables a and b in Python?",
+        "options": [
+          "a = b; b = a",
+          "a, b = b, a",
+          "swap(a, b)",
+          "a =: b"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> a, b = b, a is Python's elegant swap syntax. Option A does NOT work: after a = b, both a and b have b's original value, so b = a just assigns that same value back. Option C is not a built-in Python function. Option D is not valid Python syntax."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output of:\nprint(int(-2.9))",
+        "options": [
+          "-3",
+          "-2",
+          "2",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> int() truncates toward zero. For -2.9, truncating toward zero gives -2 (not -3). The decimal part .9 is removed. This is different from floor division, which would give -3."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Which of the following will cause a NameError?",
+        "options": [
+          "x = 5",
+          "print(x) before x = 5",
+          "x = \"hello\"",
+          "x = True"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A NameError occurs when you try to use a variable that has not been defined yet. If print(x) comes before x = 5, Python does not know what x is and raises NameError: name 'x' is not defined. The other options all create variables before using them."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Easy",
+        "question": "What is the output of: x = 5; x = x + 3; print(x)?",
+        "options": [
+          "5",
+          "3",
+          "8",
+          "Error — x cannot equal x + 3"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> x = x + 3 means: take the current value of x (5), add 3 to it (getting 8), and store the result back in x. This is reassignment, not a mathematical equation. The final value of x is 8."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Student Profile Card",
+        "difficulty": "Easy",
+        "description": "Create variables for a student's name (str), age (int), height in feet (float), grade (str), and whether they are a class monitor (bool). Print all information in a formatted card.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Student Profile ===\nName: Ananya Gupta\nAge: 13\nHeight: 5.2 feet\nGrade: 8th\nClass Monitor: True",
+        "constraints": "Use at least one variable of each type (str, int, float, bool). Use descriptive variable names.",
+        "solution": "name = \"Ananya Gupta\"\nage = 13\nheight = 5.2\ngrade = \"8th\"\nis_monitor = True\n\nprint(\"=== Student Profile ===\")\nprint(\"Name:\", name)\nprint(\"Age:\", age)\nprint(\"Height:\", height, \"feet\")\nprint(\"Grade:\", grade)\nprint(\"Class Monitor:\", is_monitor)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Type Detective",
+        "difficulty": "Easy",
+        "description": "Write a program that creates one variable of each type (int, float, str, bool) and prints the value along with its type for each variable.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Value: 42 | Type: <class 'int'>\nValue: 3.14 | Type: <class 'float'>\nValue: Hello | Type: <class 'str'>\nValue: True | Type: <class 'bool'>",
+        "constraints": "Create exactly 4 variables, one of each basic type. Print both the value and type() result for each.",
+        "solution": "a = 42\nb = 3.14\nc = \"Hello\"\nd = True\n\nprint(\"Value:\", a, \"| Type:\", type(a))\nprint(\"Value:\", b, \"| Type:\", type(b))\nprint(\"Value:\", c, \"| Type:\", type(c))\nprint(\"Value:\", d, \"| Type:\", type(d))"
+      },
+      {
+        "id": "cc-3",
+        "title": "Temperature Converter",
+        "difficulty": "Medium",
+        "description": "Create a variable celsius with a temperature value. Convert it to Fahrenheit using the formula: F = (C * 9/5) + 32. Print both the Celsius and Fahrenheit values. Use type() to show the types.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Celsius: 37\nFahrenheit: 98.6\nCelsius type: <class 'int'>\nFahrenheit type: <class 'float'>",
+        "constraints": "Start with celsius as an integer. The formula should produce a float automatically.",
+        "solution": "celsius = 37\nfahrenheit = (celsius * 9/5) + 32\n\nprint(\"Celsius:\", celsius)\nprint(\"Fahrenheit:\", fahrenheit)\nprint(\"Celsius type:\", type(celsius))\nprint(\"Fahrenheit type:\", type(fahrenheit))"
+      },
+      {
+        "id": "cc-4",
+        "title": "Type Conversion Chain",
+        "difficulty": "Medium",
+        "description": "Start with the string \"42\". Convert it to int, then to float, then back to str, then to bool. Print the value and type at each step.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Step 1 (str): 42 | <class 'str'>\nStep 2 (int): 42 | <class 'int'>\nStep 3 (float): 42.0 | <class 'float'>\nStep 4 (str): 42.0 | <class 'str'>\nStep 5 (bool): True | <class 'bool'>",
+        "constraints": "Show each step clearly with labels. Use type() at each step.",
+        "solution": "val = \"42\"\nprint(\"Step 1 (str):\", val, \"|\", type(val))\n\nval = int(val)\nprint(\"Step 2 (int):\", val, \"|\", type(val))\n\nval = float(val)\nprint(\"Step 3 (float):\", val, \"|\", type(val))\n\nval = str(val)\nprint(\"Step 4 (str):\", val, \"|\", type(val))\n\nval = bool(val)\nprint(\"Step 5 (bool):\", val, \"|\", type(val))"
+      },
+      {
+        "id": "cc-5",
+        "title": "Variable Swap Challenge",
+        "difficulty": "Medium",
+        "description": "Create three variables a, b, c with values 1, 2, 3 respectively. Swap them so that a=3, b=1, c=2. Print the values before and after swapping.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Before: a=1, b=2, c=3\nAfter: a=3, b=1, c=2",
+        "constraints": "Use Python's multiple assignment for the swap. Do not use a temporary variable.",
+        "solution": "a, b, c = 1, 2, 3\nprint(\"Before: a=\" + str(a) + \", b=\" + str(b) + \", c=\" + str(c))\n\na, b, c = c, a, b\nprint(\"After: a=\" + str(a) + \", b=\" + str(b) + \", c=\" + str(c))"
+      },
+      {
+        "id": "cc-6",
+        "title": "Bill Calculator",
+        "difficulty": "Medium",
+        "description": "Create variables for three items with their prices (use floats). Calculate the total, the GST (18%), and the final amount. Print a formatted bill.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== BILL ===\nItem 1 (Notebook): Rs 45.50\nItem 2 (Pen):      Rs 15.00\nItem 3 (Eraser):   Rs 8.75\n\nSubtotal: Rs 69.25\nGST (18%): Rs 12.465\nTotal: Rs 81.715",
+        "constraints": "Use float variables for prices. Calculate GST as 18% of subtotal. Calculate total as subtotal + GST.",
+        "solution": "item1_name = \"Notebook\"\nitem1_price = 45.50\nitem2_name = \"Pen\"\nitem2_price = 15.00\nitem3_name = \"Eraser\"\nitem3_price = 8.75\n\nsubtotal = item1_price + item2_price + item3_price\ngst = subtotal * 18 / 100\ntotal = subtotal + gst\n\nprint(\"=== BILL ===\")\nprint(\"Item 1 (\" + item1_name + \"):\", \"Rs\", item1_price)\nprint(\"Item 2 (\" + item2_name + \"):\", \"Rs\", item2_price)\nprint(\"Item 3 (\" + item3_name + \"):\", \"Rs\", item3_price)\nprint()\nprint(\"Subtotal: Rs\", subtotal)\nprint(\"GST (18%): Rs\", gst)\nprint(\"Total: Rs\", total)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Bool Truthiness Tester",
+        "difficulty": "Hard",
+        "description": "Write a program that tests the bool() function with 10 different values and prints whether each is truthy or falsy. Include: 0, 1, -5, 0.0, 3.14, \"\", \"Hello\", \"0\", True, False.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "bool(0) = False (Falsy)\nbool(1) = True (Truthy)\nbool(-5) = True (Truthy)\nbool(0.0) = False (Falsy)\nbool(3.14) = True (Truthy)\nbool('') = False (Falsy)\nbool('Hello') = True (Truthy)\nbool('0') = True (Truthy)\nbool(True) = True (Truthy)\nbool(False) = False (Falsy)",
+        "constraints": "Test exactly these 10 values. Print the bool() result and label each as Truthy or Falsy.",
+        "solution": "print(\"bool(0) =\", bool(0), \"(Falsy)\")\nprint(\"bool(1) =\", bool(1), \"(Truthy)\")\nprint(\"bool(-5) =\", bool(-5), \"(Truthy)\")\nprint(\"bool(0.0) =\", bool(0.0), \"(Falsy)\")\nprint(\"bool(3.14) =\", bool(3.14), \"(Truthy)\")\nprint(\"bool('') =\", bool(\"\"), \"(Falsy)\")\nprint(\"bool('Hello') =\", bool(\"Hello\"), \"(Truthy)\")\nprint(\"bool('0') =\", bool(\"0\"), \"(Truthy)\")\nprint(\"bool(True) =\", bool(True), \"(Truthy)\")\nprint(\"bool(False) =\", bool(False), \"(Falsy)\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Dynamic Typing Demonstration",
+        "difficulty": "Hard",
+        "description": "Write a program that demonstrates dynamic typing by assigning 5 different types of values to the same variable. Print the value, type, and id after each assignment.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Assignment 1: x = 42\n  Value: 42 | Type: <class 'int'> | ID: 140234567890\nAssignment 2: x = 3.14\n  Value: 3.14 | Type: <class 'float'> | ID: 140234567920\n(etc.)",
+        "constraints": "Use at least 5 different types of values (int, float, str, bool, and one more). Show that the id changes with each reassignment.",
+        "solution": "x = 42\nprint(\"Assignment 1: x = 42\")\nprint(\"  Value:\", x, \"| Type:\", type(x), \"| ID:\", id(x))\n\nx = 3.14\nprint(\"Assignment 2: x = 3.14\")\nprint(\"  Value:\", x, \"| Type:\", type(x), \"| ID:\", id(x))\n\nx = \"Python\"\nprint(\"Assignment 3: x = 'Python'\")\nprint(\"  Value:\", x, \"| Type:\", type(x), \"| ID:\", id(x))\n\nx = True\nprint(\"Assignment 4: x = True\")\nprint(\"  Value:\", x, \"| Type:\", type(x), \"| ID:\", id(x))\n\nx = None\nprint(\"Assignment 5: x = None\")\nprint(\"  Value:\", x, \"| Type:\", type(x), \"| ID:\", id(x))"
+      },
+      {
+        "id": "cc-9",
+        "title": "Data Type Cheat Sheet",
+        "difficulty": "Hard",
+        "description": "Write a comprehensive program that serves as a reference for data types and type conversion. Show examples of: creating each type, converting between types, common edge cases (int(3.9), bool(\"\"), etc.), and dangerous conversions that cause errors (inside comments).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Python Data Types Cheat Sheet ===\n\n--- Creating Variables ---\nInteger: 42 (<class 'int'>)\nFloat: 3.14 (<class 'float'>)\nString: Hello (<class 'str'>)\nBoolean: True (<class 'bool'>)\n\n--- Type Conversion ---\nint('42') = 42\nfloat(42) = 42.0\nstr(42) = 42\nbool(42) = True\n\n--- Edge Cases ---\nint(3.9) = 3 (truncates, not rounds!)\nbool('') = False (empty string)\nbool('0') = True (non-empty string!)\nbool(0) = False (zero)\n10 / 2 = 5.0 (always float!)\n\n--- Errors (commented in code) ---\n# int('hello') -> ValueError\n# int('3.14') -> ValueError\n=== End of Cheat Sheet ===",
+        "constraints": "Cover all 4 data types, at least 4 type conversions, at least 4 edge cases, and at least 2 error-causing conversions (in comments).",
+        "solution": "print(\"=== Python Data Types Cheat Sheet ===\")\nprint()\n\nprint(\"--- Creating Variables ---\")\nprint(\"Integer:\", 42, type(42))\nprint(\"Float:\", 3.14, type(3.14))\nprint(\"String:\", \"Hello\", type(\"Hello\"))\nprint(\"Boolean:\", True, type(True))\nprint()\n\nprint(\"--- Type Conversion ---\")\nprint(\"int('42') =\", int(\"42\"))\nprint(\"float(42) =\", float(42))\nprint(\"str(42) =\", str(42))\nprint(\"bool(42) =\", bool(42))\nprint()\n\nprint(\"--- Edge Cases ---\")\nprint(\"int(3.9) =\", int(3.9), \"(truncates, not rounds!)\")\nprint(\"bool('') =\", bool(\"\"), \"(empty string)\")\nprint(\"bool('0') =\", bool(\"0\"), \"(non-empty string!)\")\nprint(\"bool(0) =\", bool(0), \"(zero)\")\nprint(\"10 / 2 =\", 10 / 2, \"(always float!)\")\nprint()\n\nprint(\"--- Errors (commented in code) ---\")\n# int('hello') -> ValueError: invalid literal\n# int('3.14') -> ValueError: invalid literal\nprint(\"# int('hello') -> ValueError\")\nprint(\"# int('3.14') -> ValueError\")\nprint(\"=== End of Cheat Sheet ===\")"
+      }
+    ]
+  }
+}

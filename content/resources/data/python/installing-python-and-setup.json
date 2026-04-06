@@ -1,0 +1,743 @@
+{
+  "title": "Installing Python and Setting Up Your Environment",
+  "slug": "installing-python-and-setup",
+  "language": "python",
+  "chapter": 2,
+  "difficulty": "Beginner",
+  "readingTime": "15 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "How to Install Python and Set Up Your Environment - Step by Step Guide | Modern Age Coders",
+    "description": "Learn how to download and install Python on Windows, set up the PATH, choose an IDE like VS Code or IDLE, and run your first Python file. A complete setup guide for beginners aged 10-16.",
+    "keywords": "how to install python, python setup for beginners, python IDE setup, download python, install python windows, python PATH setup, python IDLE tutorial, VS Code python setup, python for beginners setup, python environment setup"
+  },
+  "content": {
+    "what": "<h2>What Is Python Installation and Environment Setup?</h2><p>Before you can write and run Python programs on your computer, you need to do two things: <strong>install Python</strong> (the language itself) and <strong>set up a code editor</strong> (the tool where you will write your code). Think of it this way: if Python is a language like Hindi or English, then installing Python is like getting a dictionary and grammar book, and setting up a code editor is like getting a notebook and pen to write in that language.</p><p>When you install Python, you are downloading the <strong>Python interpreter</strong> onto your computer. The interpreter is the program that reads your Python code and tells the computer what to do. Without it, your computer has no idea what <code>print(\"Hello\")</code> means.</p><p>The code editor (also called an <strong>IDE</strong> or <strong>Integrated Development Environment</strong>) is the application where you will type your Python code. While you could technically write Python code in Notepad, a proper IDE gives you helpful features like coloring your code, spotting errors before you run the program, and running your code with a single button click.</p><h3>What You Will Learn in This Chapter</h3><ul><li>How to download Python from the official website</li><li>How to install Python on Windows step by step</li><li>What the PATH checkbox means and why it matters</li><li>How to verify that Python is installed correctly</li><li>How to choose and set up a code editor (IDLE, VS Code, PyCharm)</li><li>How to create your first <code>.py</code> file</li><li>How to run Python programs from the terminal and from IDLE</li></ul>",
+    "why": "<h2>Why Is Proper Setup Important?</h2><p>Many beginners skip the setup process or rush through it, and then spend hours trying to figure out why their code does not work. A proper setup saves you from frustration later. Here is why each step matters:</p><h3>1. Without Python Installed, Nothing Works</h3><p>Your computer does not come with Python pre-installed (on Windows). Even if you write perfect Python code, your computer cannot run it unless the Python interpreter is installed. It is like having a letter written in French but no one in the room speaks French — the message goes unread.</p><h3>2. PATH Configuration Prevents Headaches</h3><p>The <strong>PATH</strong> is a setting that tells your computer where to find programs. If Python is not added to your PATH, you will have to type the full location of Python every time you want to run a program (something like <code>C:\\Users\\Aarav\\AppData\\Local\\Programs\\Python\\Python312\\python.exe hello.py</code> instead of just <code>python hello.py</code>). Adding Python to PATH during installation saves you from this tedious process.</p><h3>3. A Good IDE Makes You More Productive</h3><p>Imagine writing an essay by hand versus typing it on a computer with spell-check. A good IDE does for programming what spell-check does for writing. It highlights errors as you type, suggests completions, and lets you run and test your code without switching between applications. Choosing the right IDE from the start builds good habits.</p><h3>4. Understanding the Terminal Gives You Power</h3><p>The terminal (also called Command Prompt on Windows) is a text-based way to interact with your computer. Professional programmers use the terminal extensively. Learning to run Python from the terminal early on gives you skills that will be useful throughout your programming career.</p><h3>5. First-Time Setup Is a One-Time Investment</h3><p>You only need to install Python and set up your IDE once. After that, every time you want to write a new program, you simply open your editor, write your code, and run it. Spending 15-20 minutes on proper setup now saves hours of troubleshooting later.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>Step 1: Downloading Python</h3><p>Python is available for free from the official website. Here is how to download it:</p><ol><li>Open your web browser (Chrome, Edge, Firefox, etc.).</li><li>Go to the official Python website: <strong><code>https://www.python.org</code></strong></li><li>On the homepage, you will see a yellow button that says <strong>\"Download Python 3.x.x\"</strong> (the x.x will be the latest version number, like 3.12.3).</li><li>Click that button. The download will start automatically.</li><li>The file that downloads will be named something like <code>python-3.12.3-amd64.exe</code> (on Windows).</li></ol><p><strong>Important:</strong> Always download Python from <code>python.org</code>. Do not download it from random websites, as those may contain modified or unsafe versions.</p><h3>Step 2: Installing Python on Windows (Step by Step)</h3><p>Once the download is complete, follow these steps carefully:</p><ol><li><strong>Find the downloaded file</strong> in your Downloads folder and double-click it to start the installer.</li><li><strong>CRITICAL STEP: Check the box that says \"Add python.exe to PATH\"</strong> at the bottom of the installer window. This is the most important step in the entire installation. If you miss this checkbox, you will face problems later when trying to run Python from the terminal.</li><li>Click <strong>\"Install Now\"</strong> (the recommended option). This installs Python with all the default settings, which are perfect for beginners.</li><li>Wait for the installation to complete. You will see a progress bar.</li><li>When you see the message <strong>\"Setup was successful\"</strong>, click <strong>\"Close\"</strong>.</li></ol><h4>What Does \"Add to PATH\" Mean?</h4><p>Your computer has a list of folders where it looks for programs when you type a command. This list is called the <strong>PATH environment variable</strong>. When you type <code>python</code> in the terminal, your computer searches through all the folders in the PATH to find a program called <code>python</code>.</p><p>If you check the \"Add to PATH\" box during installation, the installer automatically adds Python's folder to this list. If you forget to check it, your computer will not know where to find Python when you type <code>python</code> in the terminal, and you will get an error like: <code>'python' is not recognized as an internal or external command</code>.</p><h4>What If You Forgot to Check the PATH Box?</h4><p>If you already installed Python without checking the PATH box, you have two options:</p><ul><li><strong>Option 1 (Recommended):</strong> Uninstall Python, download the installer again, and reinstall — this time making sure to check the PATH box.</li><li><strong>Option 2 (Advanced):</strong> Manually add Python to PATH through System Environment Variables. This requires navigating to System Properties and editing the PATH variable.</li></ul><h3>Step 3: Verifying Your Installation</h3><p>After installation, you need to verify that Python is working correctly. Here is how:</p><ol><li>Open the <strong>Command Prompt</strong>: Press the Windows key, type <code>cmd</code>, and press Enter.</li><li>Type the following command and press Enter:<br><code>python --version</code></li><li>You should see output like: <code>Python 3.12.3</code></li></ol><p>If you see the version number, congratulations — Python is installed correctly. If you see an error message like <code>'python' is not recognized</code>, it means Python was not added to your PATH (go back to the installation step and check the PATH box).</p><h4>Additional Verification</h4><p>You can also verify by opening the Python REPL. In the Command Prompt, type:</p><pre><code>python</code></pre><p>You should see the Python prompt (<code>&gt;&gt;&gt;</code>), which means the interpreter is running. Type <code>exit()</code> to leave the REPL.</p><h3>Step 4: Choosing a Code Editor (IDE)</h3><p>Now that Python is installed, you need a place to write your code. There are several options, each with its own advantages:</p><h4>Option 1: IDLE (Built-In)</h4><p>IDLE comes pre-installed with Python, so you already have it. IDLE stands for <strong>Integrated Development and Learning Environment</strong>. It was created specifically for beginners learning Python.</p><p><strong>How to open IDLE:</strong></p><ol><li>Press the Windows key and type <strong>IDLE</strong>.</li><li>Click on <strong>\"IDLE (Python 3.x)\"</strong> from the results.</li><li>The <strong>Python Shell</strong> window opens. This is similar to the REPL — you can type Python commands and see results immediately.</li><li>To write a full program, go to <strong>File &gt; New File</strong>. This opens a new editor window where you can write multiple lines of code.</li><li>After writing your code, save the file with <strong>File &gt; Save</strong> (give it a <code>.py</code> extension).</li><li>Run the file with <strong>Run &gt; Run Module</strong> (or press <strong>F5</strong>).</li></ol><p><strong>Advantages of IDLE:</strong></p><ul><li>Already installed — no extra download needed</li><li>Simple and not overwhelming for beginners</li><li>Syntax highlighting (colors different parts of your code)</li><li>Integrated Python Shell for quick testing</li></ul><p><strong>Limitations of IDLE:</strong></p><ul><li>Very basic compared to modern editors</li><li>No advanced features like auto-complete or integrated terminal</li><li>Most professional developers do not use IDLE</li></ul><h4>Option 2: Visual Studio Code (VS Code) — Recommended</h4><p>VS Code is a free, powerful code editor made by Microsoft. It is the most popular code editor in the world and is used by millions of professional developers.</p><p><strong>How to set up VS Code for Python:</strong></p><ol><li>Go to <strong><code>https://code.visualstudio.com</code></strong> and download VS Code.</li><li>Install it by running the downloaded file (follow the on-screen instructions).</li><li>Open VS Code.</li><li>Install the <strong>Python extension</strong>: Click the Extensions icon on the left sidebar (it looks like four squares), search for \"Python\", and install the one by Microsoft.</li><li>Create a new file: <strong>File &gt; New File</strong>, then save it with a <code>.py</code> extension (for example, <code>hello.py</code>).</li><li>Write your Python code in the file.</li><li>Run it by clicking the <strong>play button</strong> (triangle icon) in the top-right corner, or by pressing <strong>Ctrl + F5</strong>.</li></ol><p><strong>Advantages of VS Code:</strong></p><ul><li>Free and lightweight</li><li>Excellent Python support with the Python extension</li><li>IntelliSense (smart auto-completion)</li><li>Built-in terminal</li><li>Thousands of extensions for added features</li><li>Used by professional developers worldwide</li></ul><h4>Option 3: PyCharm</h4><p>PyCharm is an IDE made by JetBrains specifically for Python development. It comes in two versions: <strong>Community Edition</strong> (free) and <strong>Professional Edition</strong> (paid).</p><p><strong>Advantages of PyCharm:</strong></p><ul><li>Designed specifically for Python</li><li>Powerful debugging tools</li><li>Excellent code analysis and error detection</li></ul><p><strong>Limitations for beginners:</strong></p><ul><li>Heavier (uses more computer memory than VS Code)</li><li>Can feel overwhelming with too many features</li><li>Slower to start up</li></ul><p>For this course, we recommend starting with <strong>IDLE</strong> for the first few chapters (since it is already installed) and then switching to <strong>VS Code</strong> once you are comfortable.</p><h3>Step 5: Creating Your First .py File</h3><p>Let us create your very first Python file:</p><ol><li>Open your chosen code editor (IDLE or VS Code).</li><li>Create a new file.</li><li>Type the following code:<br><code>print(\"Hello, World!\")</code></li><li>Save the file as <strong><code>hello.py</code></strong> in a folder you can easily find (for example, create a folder called <code>PythonProjects</code> on your Desktop).</li><li>Run the file (F5 in IDLE, or Ctrl + F5 in VS Code).</li><li>You should see the output: <code>Hello, World!</code></li></ol><p><strong>File naming rules:</strong></p><ul><li>Always use the <code>.py</code> extension</li><li>Use lowercase letters</li><li>Use underscores instead of spaces: <code>my_program.py</code> (not <code>my program.py</code>)</li><li>Do not start the filename with a number: <code>game_v2.py</code> (not <code>2_game.py</code>)</li><li>Use descriptive names: <code>calculator.py</code> is better than <code>abc.py</code></li></ul><h3>Step 6: Running Python from the Terminal</h3><p>While running code from an IDE is convenient, knowing how to run Python from the terminal is an essential skill. Here is how:</p><ol><li>Open the <strong>Command Prompt</strong> (press Windows key, type <code>cmd</code>, press Enter).</li><li><strong>Navigate to the folder</strong> where your <code>.py</code> file is saved. For example, if it is on your Desktop in a folder called PythonProjects:<br><code>cd Desktop\\PythonProjects</code></li><li>Run your Python file by typing:<br><code>python hello.py</code></li><li>You should see the output: <code>Hello, World!</code></li></ol><h4>Useful Terminal Commands</h4><ul><li><code>python --version</code> — Check which version of Python is installed</li><li><code>python</code> — Open the Python REPL (interactive mode)</li><li><code>python filename.py</code> — Run a Python file</li><li><code>cd foldername</code> — Navigate into a folder</li><li><code>cd ..</code> — Go back to the parent folder</li><li><code>dir</code> — List all files in the current folder (Windows)</li><li><code>cls</code> — Clear the terminal screen (Windows)</li></ul><h3>Step 7: IDLE Walkthrough</h3><p>Since IDLE comes built-in with Python, let us do a detailed walkthrough of how to use it:</p><h4>The Shell Window</h4><p>When you first open IDLE, you see the <strong>Shell window</strong>. This is the interactive mode where you can type Python commands after the <code>&gt;&gt;&gt;</code> prompt. It works exactly like the REPL you learned about in Chapter 1. Try typing <code>2 + 3</code> and press Enter — you should see <code>5</code> immediately.</p><h4>The Editor Window</h4><p>For writing full programs (multiple lines of code that you want to save), use the Editor window:</p><ol><li>In IDLE, go to <strong>File &gt; New File</strong>.</li><li>A new blank window opens — this is the Editor.</li><li>Type your program here.</li><li>Save it with <strong>File &gt; Save</strong> (Ctrl + S).</li><li>Run it with <strong>Run &gt; Run Module</strong> (F5).</li><li>The output appears in the Shell window.</li></ol><h4>Key IDLE Features</h4><ul><li><strong>Syntax Highlighting:</strong> Keywords like <code>print</code> are shown in purple, strings in green, and comments in red.</li><li><strong>Auto-Indent:</strong> IDLE automatically adds indentation where needed (you will appreciate this when you learn about loops and conditions).</li><li><strong>Call Tips:</strong> When you type a function name followed by <code>(</code>, IDLE shows you what arguments the function expects.</li></ul>",
+    "codeExamples": [
+      {
+        "title": "Checking Your Python Version",
+        "code": "# In the Command Prompt (terminal), type:\n# python --version\n\n# You can also check from inside Python:\nimport sys\nprint(sys.version)",
+        "language": "python",
+        "explanation": "The <code>python --version</code> command is typed in the terminal (Command Prompt), not inside a Python file. It shows the installed Python version. You can also check the version from inside a Python program using the <code>sys</code> module, which gives more detailed information including the build date.",
+        "output": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 18:05:18) [MSC v.1938 64 bit (AMD64)]"
+      },
+      {
+        "title": "Running a Simple Python File from Terminal",
+        "code": "# Step 1: Create a file called greet.py with this content:\nprint(\"Hello! My name is Ananya.\")\nprint(\"I am learning Python.\")\nprint(\"This is my first program!\")\n\n# Step 2: Open Command Prompt\n# Step 3: Navigate to the file location: cd Desktop\\PythonProjects\n# Step 4: Run it: python greet.py",
+        "language": "python",
+        "explanation": "This example shows the complete workflow of creating a Python file, saving it, and running it from the terminal. The file contains three <code>print()</code> statements that execute from top to bottom. The terminal command <code>python greet.py</code> tells the Python interpreter to read and execute the file.",
+        "output": "Hello! My name is Ananya.\nI am learning Python.\nThis is my first program!"
+      },
+      {
+        "title": "Using IDLE Shell for Quick Calculations",
+        "code": ">>> 45 + 78\n123\n>>> 1000 - 347\n653\n>>> 12 * 15\n180\n>>> 144 / 12\n12.0\n>>> 2 ** 20\n1048576",
+        "language": "python",
+        "explanation": "The IDLE Shell lets you type Python expressions directly after the <code>&gt;&gt;&gt;</code> prompt. Each expression is evaluated immediately and the result is shown on the next line. This is perfect for quick calculations and testing small pieces of code. Notice that division (/) always gives a decimal result in Python 3.",
+        "output": "(Results appear immediately after each expression as shown above)"
+      },
+      {
+        "title": "Creating and Saving a .py File",
+        "code": "# File: my_info.py\n# This is my first saved Python program\n\nprint(\"=== My Information ===\")\nprint(\"Name: Rahul Verma\")\nprint(\"Class: 8th Standard\")\nprint(\"School: Delhi Public School\")\nprint(\"Favourite Subject: Computer Science\")\nprint(\"=======================\")",
+        "language": "python",
+        "explanation": "This program demonstrates a complete <code>.py</code> file with comments and multiple print statements. The file is named <code>my_info.py</code> — notice the <code>.py</code> extension, the lowercase letters, and the underscore instead of a space. Comments at the top explain what the program does.",
+        "output": "=== My Information ===\nName: Rahul Verma\nClass: 8th Standard\nSchool: Delhi Public School\nFavourite Subject: Computer Science\n======================="
+      },
+      {
+        "title": "Verifying Python and pip Installation",
+        "code": "# In the Command Prompt, run these commands:\n# python --version\n# pip --version\n\n# If both work, your installation is correct.\n# pip is Python's package manager — it lets you install\n# additional libraries later.\n\n# You can also test Python works by running:\nprint(\"Python is working correctly!\")\nprint(\"Installation successful!\")",
+        "language": "python",
+        "explanation": "<code>pip</code> is a tool that comes bundled with Python. It is the <strong>package manager</strong> that lets you install additional libraries (like pygame for games, or pandas for data analysis) later in your learning journey. If both <code>python --version</code> and <code>pip --version</code> show version numbers without errors, your installation is complete and correct.",
+        "output": "Python is working correctly!\nInstallation successful!"
+      },
+      {
+        "title": "Checking Where Python Is Installed",
+        "code": "# You can find out where Python is installed on your computer:\nimport sys\nprint(\"Python is installed at:\")\nprint(sys.executable)\n\nimport os\nprint(\"\\nPython's home directory:\")\nprint(os.path.dirname(sys.executable))",
+        "language": "python",
+        "explanation": "The <code>sys.executable</code> attribute tells you the exact location of the Python interpreter on your computer. This is useful for troubleshooting when you have multiple Python versions installed or when you need to confirm that the correct version is being used. On Windows, this is typically something like <code>C:\\Users\\YourName\\AppData\\Local\\Programs\\Python\\Python312\\python.exe</code>.",
+        "output": "Python is installed at:\nC:\\Users\\Ananya\\AppData\\Local\\Programs\\Python\\Python312\\python.exe\n\nPython's home directory:\nC:\\Users\\Ananya\\AppData\\Local\\Programs\\Python\\Python312"
+      },
+      {
+        "title": "Running Python in Interactive Mode vs Script Mode",
+        "code": "# INTERACTIVE MODE (REPL / IDLE Shell):\n# You type one line at a time and see results immediately\n# >>> 5 + 3\n# 8\n# >>> print(\"Hello\")\n# Hello\n\n# SCRIPT MODE (running a .py file):\n# You write multiple lines in a file and run them all at once\n# File: script_example.py\nresult = 5 + 3\nprint(\"The result is:\", result)\nprint(\"This ran from a script file!\")",
+        "language": "python",
+        "explanation": "Python can be used in two modes. <strong>Interactive mode</strong> (the REPL or IDLE Shell) is great for testing small pieces of code — you type a line, see the result, type another line. <strong>Script mode</strong> is when you write a complete program in a <code>.py</code> file and run the entire file at once. For real programs, you will almost always use script mode.",
+        "output": "The result is: 8\nThis ran from a script file!"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Check 'Add Python to PATH' During Installation",
+        "wrongCode": "# In Command Prompt after installation:\nC:\\Users\\Aarav> python hello.py",
+        "error": "'python' is not recognized as an internal or external command, operable program or batch file.",
+        "correctCode": "# Solution: Uninstall Python, reinstall with the PATH checkbox checked\n# Then try again:\nC:\\Users\\Aarav> python hello.py\nHello, World!",
+        "explanation": "This is the most common installation problem. When you see <code>'python' is not recognized</code>, it almost always means Python was installed without adding it to the PATH. The easiest fix is to uninstall Python completely, download the installer again, and this time make absolutely sure to check the <strong>\"Add python.exe to PATH\"</strong> checkbox at the bottom of the first installer screen before clicking Install Now."
+      },
+      {
+        "title": "Saving Python Files Without the .py Extension",
+        "wrongCode": "# Saved file as: hello (no extension)\n# Or saved as: hello.txt\n\n# Trying to run:\npython hello",
+        "error": "can't open file 'C:\\Users\\Riya\\hello': [Errno 2] No such file or directory\n(or the file opens in Notepad instead of running as Python)",
+        "correctCode": "# Save the file as: hello.py\n# Then run:\npython hello.py",
+        "explanation": "Python files must have the <code>.py</code> extension. When you save a file in your editor, make sure the filename ends with <code>.py</code>. In some editors (like Notepad), you may need to change the \"Save as type\" dropdown from \"Text Documents (*.txt)\" to \"All Files (*.*)\" and manually type <code>.py</code> at the end of the filename. In IDLE and VS Code, this is handled automatically if you type the <code>.py</code> extension."
+      },
+      {
+        "title": "Running Python Commands in the Wrong Place",
+        "wrongCode": "# Inside the Python REPL (you see >>>):\n>>> python hello.py",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "# The command 'python hello.py' is a TERMINAL command, not Python code.\n# In the REPL, you type Python code directly:\n>>> print(\"Hello, World!\")\nHello, World!\n\n# To run a file, exit the REPL first with exit()\n# Then in the terminal (not REPL), type:\npython hello.py",
+        "explanation": "This is a very common mistake for beginners. The <code>python hello.py</code> command must be typed in the <strong>terminal (Command Prompt)</strong>, not inside the Python REPL. If you see the <code>&gt;&gt;&gt;</code> prompt, you are inside Python. Type <code>exit()</code> first to go back to the terminal, and then type <code>python hello.py</code>. The terminal prompt looks like <code>C:\\Users\\YourName&gt;</code>, not <code>&gt;&gt;&gt;</code>."
+      },
+      {
+        "title": "Not Navigating to the Correct Folder Before Running",
+        "wrongCode": "# File is saved at: C:\\Users\\Meera\\Desktop\\PythonProjects\\hello.py\n# But terminal is at: C:\\Users\\Meera>\n\nC:\\Users\\Meera> python hello.py",
+        "error": "can't open file 'C:\\Users\\Meera\\hello.py': [Errno 2] No such file or directory",
+        "correctCode": "# Navigate to the correct folder first:\nC:\\Users\\Meera> cd Desktop\\PythonProjects\nC:\\Users\\Meera\\Desktop\\PythonProjects> python hello.py\nHello, World!",
+        "explanation": "When you type <code>python hello.py</code>, the terminal looks for <code>hello.py</code> in the <strong>current folder</strong>. If the file is in a different folder, the terminal cannot find it. You must first navigate to the folder where your file is saved using the <code>cd</code> (change directory) command. Alternatively, you can provide the full file path: <code>python C:\\Users\\Meera\\Desktop\\PythonProjects\\hello.py</code>."
+      },
+      {
+        "title": "Using python3 Command on Windows",
+        "wrongCode": "# On Windows Command Prompt:\nC:\\Users\\Vikram> python3 --version",
+        "error": "'python3' is not recognized as an internal or external command, operable program or batch file.\n(On some Windows systems, this may open the Microsoft Store instead)",
+        "correctCode": "# On Windows, use 'python' (not 'python3'):\nC:\\Users\\Vikram> python --version\nPython 3.12.3",
+        "explanation": "On Windows, the command is usually <code>python</code>, not <code>python3</code>. The <code>python3</code> command is mainly used on Linux and macOS where both Python 2 and Python 3 might be installed. On Windows, if you installed Python 3 from python.org, the command <code>python</code> already points to Python 3. If typing <code>python3</code> on Windows opens the Microsoft Store, simply use <code>python</code> instead."
+      }
+    ],
+    "summary": [
+      "Python must be downloaded from the official website (python.org) and installed on your computer before you can write and run programs.",
+      "During installation on Windows, always check the 'Add python.exe to PATH' checkbox. This is the most important step in the installation process.",
+      "Verify your installation by opening Command Prompt and typing 'python --version'. You should see the version number (like Python 3.12.3).",
+      "PATH is an environment variable that tells your computer where to find programs. Adding Python to PATH lets you run Python from any folder in the terminal.",
+      "IDLE is Python's built-in editor that comes free with every Python installation. It has a Shell (interactive mode) and an Editor (for writing full programs).",
+      "VS Code is a free, professional-grade editor by Microsoft. Install the Python extension for the best experience. It is recommended for learners who want a modern setup.",
+      "PyCharm is a powerful Python-specific IDE but can feel heavy for beginners. The free Community Edition is available for students.",
+      "Python files must be saved with the .py extension. Use lowercase names with underscores (e.g., my_program.py).",
+      "You can run Python in two modes: interactive mode (REPL/Shell) for quick testing, and script mode (running .py files) for full programs.",
+      "To run a Python file from the terminal, navigate to the file's folder with 'cd' and then type 'python filename.py'.",
+      "pip is Python's package manager that comes bundled with Python. You will use it later to install additional libraries."
+    ]
+  },
+  "relatedTopics": ["introduction-to-python", "your-first-python-program"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What is the official website from which you should download Python?",
+        "hint": "It is a .org website named after the language.",
+        "answer": "Python should be downloaded from <strong>https://www.python.org</strong>.",
+        "explanation": "Always download Python from the official website python.org. This ensures you get the genuine, unmodified version of Python. Downloading from third-party websites may give you outdated or potentially unsafe versions."
+      },
+      {
+        "id": "ts-2",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What is the most important checkbox you must select during Python installation on Windows?",
+        "hint": "It is at the bottom of the first installer screen and has to do with how your terminal finds Python.",
+        "answer": "The most important checkbox is <strong>\"Add python.exe to PATH\"</strong>.",
+        "explanation": "Checking this box tells the installer to add Python's location to the system PATH variable. Without this, your Command Prompt will not know where to find the Python interpreter, and typing 'python' in the terminal will give an error. This is the single most common cause of installation problems for beginners."
+      },
+      {
+        "id": "ts-3",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What command do you type in the Command Prompt to check which version of Python is installed?",
+        "hint": "It starts with 'python' followed by a flag with two dashes.",
+        "answer": "Type <code>python --version</code> in the Command Prompt.",
+        "explanation": "The --version flag (with two dashes) tells Python to display its version number instead of starting the interpreter. You should see something like 'Python 3.12.3'. If you see an error instead, Python is either not installed or not added to PATH."
+      },
+      {
+        "id": "ts-4",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What does IDLE stand for?",
+        "hint": "It has four words. The first word is 'Integrated' and the last word is 'Environment'.",
+        "answer": "IDLE stands for <strong>Integrated Development and Learning Environment</strong>.",
+        "explanation": "IDLE is Python's built-in code editor designed for beginners. The name is also a reference to Eric Idle, a member of the Monty Python comedy group (Python itself is named after Monty Python). IDLE comes pre-installed with Python, so you do not need to download it separately."
+      },
+      {
+        "id": "ts-5",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What file extension must Python source code files use?",
+        "hint": "It is two letters that come from the name of the language.",
+        "answer": "Python files use the <strong>.py</strong> extension (for example, <code>hello.py</code>).",
+        "explanation": "The .py extension tells your operating system and code editor that the file contains Python code. This enables syntax highlighting in your editor and allows the operating system to associate the file with the Python interpreter."
+      },
+      {
+        "id": "ts-6",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is the difference between the IDLE Shell and the IDLE Editor?",
+        "hint": "One is for quick, interactive commands. The other is for writing full programs.",
+        "answer": "The <strong>IDLE Shell</strong> is the interactive mode where you type one command at a time after the <code>&gt;&gt;&gt;</code> prompt and see results immediately. The <strong>IDLE Editor</strong> is a separate window (opened via File > New File) where you write a complete program with multiple lines, save it as a <code>.py</code> file, and run it all at once.",
+        "explanation": "Think of the Shell as a calculator — you give it one problem, it gives you the answer. The Editor is like a document — you write your entire essay (program) and then submit (run) it all at once. The Shell is great for testing, while the Editor is for real programs."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the PATH environment variable? Why is it important for Python?",
+        "hint": "It is a list that tells your computer where to look for programs.",
+        "answer": "The <strong>PATH</strong> is a system environment variable that contains a list of folder locations where your computer searches for executable programs. When you type <code>python</code> in the terminal, the computer searches through all folders listed in PATH to find the Python executable. If Python's folder is not in PATH, the computer cannot find it and shows an error.",
+        "explanation": "Think of PATH like a phone book. When you ask your computer to run 'python', it looks through the PATH phone book to find where 'python' lives. If Python's address is not in the phone book, the computer says 'I do not know who that is' (the 'not recognized' error). Adding Python to PATH during installation puts Python's address in the phone book."
+      },
+      {
+        "id": "ts-8",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "Name any three features that VS Code provides for Python development.",
+        "hint": "Think about colors, suggestions, and running code.",
+        "answer": "VS Code provides: (1) <strong>Syntax highlighting</strong> — colors different parts of your code, (2) <strong>IntelliSense / auto-completion</strong> — suggests code as you type, (3) <strong>Built-in terminal</strong> — run commands without leaving the editor, (4) <strong>Debugging tools</strong> — find and fix errors step by step, (5) <strong>Extensions</strong> — add features like linting and formatting.",
+        "explanation": "These features make writing Python code faster and less error-prone. Syntax highlighting helps you spot mistakes visually. Auto-completion saves typing and reminds you of function names. The built-in terminal means you do not need to switch between windows to run your code."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between interactive mode and script mode in Python?",
+        "hint": "One runs code line by line as you type. The other runs an entire file at once.",
+        "answer": "<strong>Interactive mode</strong> (REPL / IDLE Shell) lets you type Python commands one at a time and see results immediately after each command. <strong>Script mode</strong> involves writing a complete program in a <code>.py</code> file and running the entire file at once using a command like <code>python filename.py</code>.",
+        "explanation": "Interactive mode is ideal for testing, experimenting, and using Python as a calculator. Script mode is for writing real programs that you want to save and reuse. In interactive mode, results of expressions are displayed automatically. In script mode, you need to use print() to see output — typing just '5 + 3' in a script file produces no visible output."
+      },
+      {
+        "id": "ts-10",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "What terminal command do you use to navigate into a folder called PythonProjects on your Desktop?",
+        "hint": "The command stands for 'change directory'.",
+        "answer": "Type <code>cd Desktop\\PythonProjects</code> in the Command Prompt.",
+        "explanation": "The cd command stands for 'change directory'. It moves you from your current location to another folder. You can chain folder names with backslashes (on Windows) to navigate multiple levels. To go back to the parent folder, use 'cd ..' (two dots)."
+      },
+      {
+        "id": "ts-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why should you not download Python from random websites instead of python.org?",
+        "hint": "Think about safety and getting the correct version.",
+        "answer": "Downloading from unofficial websites is risky because: (1) The version may be <strong>outdated</strong> and missing security patches, (2) The installer could be <strong>modified to include malware</strong> or unwanted software, (3) You might get a <strong>non-standard build</strong> that behaves differently from the official version.",
+        "explanation": "The official python.org website is maintained by the Python Software Foundation and always provides the latest, safe, and unmodified version of Python. Just like you would download a bank's app only from the official app store, you should download Python only from the official website."
+      },
+      {
+        "id": "ts-12",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "What is pip? Does it come pre-installed with Python?",
+        "hint": "It helps you install additional Python libraries. It stands for something recursive.",
+        "answer": "<strong>pip</strong> stands for \"pip installs packages\". It is Python's <strong>package manager</strong> that lets you install additional libraries and tools. Yes, pip comes <strong>pre-installed</strong> with Python when you download it from python.org.",
+        "explanation": "pip is like an app store for Python. When you want to add extra functionality (like making games with Pygame or creating charts with Matplotlib), you use pip to download and install those packages. For example, 'pip install pygame' downloads and installs the Pygame library. You will use pip more as you advance in your Python journey."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Priya installed Python on her Windows computer but did not check the 'Add to PATH' checkbox. When she types 'python' in Command Prompt, she gets an error. Explain what happened and describe two ways to fix it.",
+        "hint": "One fix involves reinstalling. The other involves manually editing system settings.",
+        "answer": "The error occurs because the <strong>Command Prompt cannot find the Python executable</strong> — Python's folder is not listed in the system PATH variable. <strong>Fix 1:</strong> Uninstall Python completely, download the installer again, and reinstall while checking the 'Add python.exe to PATH' checkbox. <strong>Fix 2:</strong> Manually add Python's installation path to the PATH environment variable through System Properties > Environment Variables.",
+        "explanation": "When Priya types 'python', Windows searches through all folders listed in the PATH variable. Since Python's folder is not there, Windows cannot find the python.exe file and reports that the command is not recognized. The reinstallation method is simpler and recommended for beginners. The manual method requires navigating to Control Panel > System > Advanced System Settings > Environment Variables, finding the PATH variable, and adding Python's installation directory."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Arjun created a file called 'my program.py' (with a space in the name). What problem might he face when running it from the terminal, and how should he fix it?",
+        "hint": "Spaces in filenames cause issues in terminal commands.",
+        "answer": "When Arjun types <code>python my program.py</code>, the terminal interprets <code>my</code> and <code>program.py</code> as two separate arguments instead of one filename. Python will try to run a file called <code>my</code> (which does not exist) and show an error. <strong>Fix:</strong> Rename the file to use an underscore instead of a space: <code>my_program.py</code>. Alternatively, he could use quotes: <code>python \"my program.py\"</code>.",
+        "explanation": "Terminal commands use spaces to separate different parts of a command. So 'python my program.py' is interpreted as: run Python with arguments 'my' and 'program.py'. The best practice is to never use spaces in Python filenames. Use underscores instead: my_program.py, calculator_app.py, etc."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What are the advantages and disadvantages of using IDLE versus VS Code for Python development?",
+        "hint": "Think about simplicity versus power, and built-in versus requires installation.",
+        "answer": "<strong>IDLE advantages:</strong> Pre-installed with Python, simple interface, good for beginners, lightweight. <strong>IDLE disadvantages:</strong> Basic features, no built-in terminal, no extensions, not used professionally. <strong>VS Code advantages:</strong> Professional-grade, powerful extensions, IntelliSense, built-in terminal, used by millions of developers. <strong>VS Code disadvantages:</strong> Requires separate download, needs Python extension, can feel overwhelming for absolute beginners.",
+        "explanation": "There is no single 'best' editor — it depends on your needs. IDLE is like training wheels on a bicycle: simple and perfect for getting started. VS Code is like a professional bicycle: more features and capabilities, but requires a bit more setup. Most learners start with IDLE for the first week or two and then switch to VS Code."
+      },
+      {
+        "id": "ts-16",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Python program that prints 'Python is installed!' and save it as a .py file. What command would you type in the terminal to run this file if it is named check.py?",
+        "hint": "Use print() for the code. The terminal command starts with 'python'.",
+        "answer": "<pre><code>print(\"Python is installed!\")</code></pre>\nTerminal command: <code>python check.py</code>",
+        "explanation": "The program is a single print() statement saved in a file called check.py. To run it from the terminal, you type 'python check.py'. Make sure your terminal is in the same folder as the file, or navigate there first using the 'cd' command."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Sanya has Python 3.12 installed on her Windows computer. She reads an online tutorial that says to type 'python3' in the terminal. When she does, the Microsoft Store opens instead. Explain why this happens and what she should do.",
+        "hint": "Windows handles the 'python3' command differently than Linux or macOS.",
+        "answer": "On Windows, the command <code>python3</code> is not the standard way to run Python. Windows has a built-in app execution alias that redirects <code>python3</code> to the Microsoft Store to encourage you to install Python from there. Sanya should simply use <code>python</code> instead of <code>python3</code>. Her Python 3.12 installation responds to the <code>python</code> command.",
+        "explanation": "On Linux and macOS, both Python 2 and Python 3 might coexist, so 'python3' is used to specify version 3. On Windows, this is usually not needed because the 'python' command already points to Python 3. The Microsoft Store redirect is a Windows feature that can be disabled in Settings > Apps > Advanced app settings > App execution aliases."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between a text editor (like Notepad) and an IDE (like VS Code or PyCharm)? List at least four features an IDE provides that a basic text editor does not.",
+        "hint": "An IDE is a text editor with many extra programming-specific features built in.",
+        "answer": "A <strong>text editor</strong> (like Notepad) is a basic tool that lets you type and save text — it has no programming-specific features. An <strong>IDE</strong> provides programming features on top of text editing. Four additional features: (1) <strong>Syntax highlighting</strong> — colors code elements differently, (2) <strong>Auto-completion</strong> — suggests code as you type, (3) <strong>Error detection</strong> — highlights mistakes before you run the code, (4) <strong>Built-in terminal</strong> — lets you run code without leaving the editor. Other features include debugging tools, file navigation, version control integration, and code formatting.",
+        "explanation": "Using Notepad to write Python code is like writing a school essay on a plain piece of paper — it works, but you have no spell-check, no grammar suggestions, and no formatting tools. An IDE is like using a word processor (Google Docs or MS Word) — it provides tools that make writing faster, catch mistakes early, and help you organize your work."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Why is it recommended to create a dedicated folder (like PythonProjects) for your Python files instead of saving them directly on the Desktop?",
+        "hint": "Think about organization and finding files easily.",
+        "answer": "Creating a dedicated folder keeps your files <strong>organized and easy to find</strong>. As you write more programs, you will have dozens or hundreds of .py files. Without a proper folder structure, your Desktop becomes cluttered and finding a specific file becomes difficult. It also makes it easier to navigate to the folder in the terminal.",
+        "explanation": "Professional developers always organize their code into project folders. A good habit from the start is to create a main folder (like PythonProjects) and then create sub-folders for different projects or topics (like Basics, Games, Practice). This organization becomes essential as your projects grow in size."
+      },
+      {
+        "id": "mx-2",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What keyboard shortcut do you press to run a Python file in IDLE?",
+        "hint": "It is a function key at the top of your keyboard.",
+        "answer": "Press <strong>F5</strong> to run a Python file in IDLE (or go to Run > Run Module).",
+        "explanation": "F5 is the shortcut for 'Run Module' in IDLE. When you press F5, IDLE first saves the file (if there are unsaved changes, it asks you to save), and then executes the entire file. The output appears in the Shell window."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Karan types '5 + 3' in a Python script file (.py file) and runs it. He sees no output. But when he types '5 + 3' in the IDLE Shell, he sees 8. Why is there a difference?",
+        "hint": "The REPL/Shell automatically displays results of expressions. Script mode does not.",
+        "answer": "In <strong>interactive mode</strong> (IDLE Shell/REPL), the result of every expression is automatically displayed on screen. In <strong>script mode</strong> (.py files), expressions are evaluated but their results are <strong>not displayed unless you use print()</strong>. To see the output in a script file, Karan should write <code>print(5 + 3)</code>.",
+        "explanation": "This is a key difference between interactive and script mode. The Shell is designed for quick experimentation, so it shows results automatically. Script files are designed for full programs where you explicitly choose what to display using print(). Writing just '5 + 3' in a script is valid Python — it calculates 8 — but since you did not tell Python to print it, the result is calculated and immediately discarded."
+      },
+      {
+        "id": "mx-4",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "What terminal command lists all files in the current folder on Windows?",
+        "hint": "It is a three-letter command.",
+        "answer": "The command <code>dir</code> lists all files and folders in the current directory on Windows.",
+        "explanation": "The 'dir' command (short for 'directory') is useful when you want to check if your Python file is in the current folder before running it. On Linux and macOS, the equivalent command is 'ls'. If you do not see your .py file in the list, you need to navigate to the correct folder first."
+      },
+      {
+        "id": "mx-5",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What extension do you need to install in VS Code to get Python support? Who developed it?",
+        "hint": "The extension is simply called 'Python' and it is made by the same company that made VS Code.",
+        "answer": "You need to install the <strong>Python extension</strong>, developed by <strong>Microsoft</strong>.",
+        "explanation": "VS Code is a general-purpose editor that supports many languages through extensions. The Python extension by Microsoft adds features like syntax highlighting for Python, IntelliSense (auto-completion), linting (error checking), debugging, and the ability to run Python files. Without this extension, VS Code treats Python files as plain text."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why do Python file names use underscores instead of spaces (e.g., my_program.py instead of my program.py)?",
+        "hint": "Think about what happens when you type the filename in the terminal.",
+        "answer": "Spaces in filenames cause problems in the terminal because the terminal uses spaces to separate different parts of a command. If you type <code>python my program.py</code>, the terminal thinks <code>my</code> and <code>program.py</code> are separate arguments. Underscores avoid this problem entirely.",
+        "explanation": "This is a convention followed by almost all programmers, not just Python developers. Underscores work everywhere without issues: in the terminal, in import statements, in URLs, and across different operating systems. Other alternatives include using hyphens (my-program.py) or camelCase (myProgram.py), but underscores are the Python community standard."
+      },
+      {
+        "id": "mx-7",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write the exact terminal commands you would type to: (1) navigate to a folder called MyCode on the Desktop, (2) check if Python is installed, and (3) run a file called test.py.",
+        "hint": "Use cd to navigate, python --version to check, and python filename to run.",
+        "answer": "<pre><code>cd Desktop\\MyCode\npython --version\npython test.py</code></pre>",
+        "explanation": "These three commands demonstrate the basic terminal workflow. 'cd Desktop\\MyCode' navigates to the folder. 'python --version' verifies Python is installed and shows the version. 'python test.py' runs the Python file. Each command is typed separately and you press Enter after each one."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Neha has both Python 3.10 and Python 3.12 installed on her Windows computer. When she types 'python --version', it shows 3.10. How can she run her code using Python 3.12 instead?",
+        "hint": "There is a tool called the Python Launcher that helps manage multiple versions.",
+        "answer": "On Windows, she can use the <strong>Python Launcher</strong> with the command <code>py -3.12 script.py</code> to specify the exact version. She can also use <code>py -3.12 --version</code> to confirm. Alternatively, she can modify the PATH variable to put Python 3.12's folder before Python 3.10's folder, so that <code>python</code> points to 3.12 by default.",
+        "explanation": "The Python Launcher (py.exe) is installed on Windows alongside Python. It lets you choose which Python version to use with the -3.X flag. Running 'py -0' lists all installed Python versions. For most beginners, having only one Python version installed avoids this complexity entirely."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why IDLE shows different colors for different parts of your code. What is this feature called, and why is it useful?",
+        "hint": "The feature has two words: one is 'syntax' and the other describes making text visible.",
+        "answer": "This feature is called <strong>syntax highlighting</strong>. IDLE uses different colors to distinguish different types of code elements: keywords (like <code>print</code>) are shown in purple/orange, strings (text in quotes) in green, comments in red, and regular code in black. It is useful because it helps you <strong>visually identify errors</strong> — for example, if you forget to close a string with a quote, the color of the text after the opening quote will be wrong, alerting you to the mistake.",
+        "explanation": "Syntax highlighting is one of the most important features of any code editor. It makes code much easier to read because your brain can quickly distinguish between keywords, variables, strings, and comments based on color. Without syntax highlighting, reading code is like reading a textbook with no headings, bold text, or formatting — technically possible, but much harder."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Rohan sees two options during Python installation: 'Install Now' and 'Customize installation'. What is the difference, and which should a beginner choose?",
+        "hint": "One uses default settings, the other lets you change where and what is installed.",
+        "answer": "<strong>'Install Now'</strong> installs Python with all the default settings (including IDLE, pip, and the standard library) to a default location. <strong>'Customize installation'</strong> lets you choose which components to install, pick a different installation folder, and configure advanced options. <strong>Beginners should choose 'Install Now'</strong> because the default settings are appropriate for learning and include everything needed.",
+        "explanation": "The 'Customize installation' option is for advanced users who need to install Python in a specific location (like a company server), exclude certain components, or install for all users on a shared computer. The default 'Install Now' includes everything: the interpreter, IDLE, pip, the standard library, and documentation. There is no reason for a beginner to customize the installation."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "After installing VS Code, Meera opens a .py file but the code is all one color (no syntax highlighting). What did she most likely forget to do?",
+        "hint": "VS Code needs something extra to understand Python files properly.",
+        "answer": "She most likely forgot to install the <strong>Python extension</strong> in VS Code. Without the Python extension, VS Code does not have Python-specific features like syntax highlighting, auto-completion, or the ability to run Python files with a play button.",
+        "explanation": "VS Code is a general-purpose editor that relies on extensions for language-specific features. When you first install VS Code, it does not know how to handle Python files intelligently. Installing the Python extension (by Microsoft) adds Python support. VS Code may also prompt you to install the extension automatically when you open a .py file for the first time."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Hard",
+        "question": "Write a Python program that displays where Python is installed on the computer. Use the sys module.",
+        "hint": "Import sys and use sys.executable.",
+        "answer": "<pre><code>import sys\nprint(\"Python is installed at:\")\nprint(sys.executable)</code></pre>",
+        "explanation": "The sys module is a built-in Python module that gives you information about the Python interpreter. sys.executable returns the full path to the Python executable (python.exe on Windows). This is useful for troubleshooting when you are not sure which Python installation is being used."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the official website to download Python?",
+        "options": [
+          "python.com",
+          "python.org",
+          "downloadpython.com",
+          "python.net"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The official Python website is python.org, managed by the Python Software Foundation. python.com is a different website not related to the Python programming language. The other options are not official Python download sites."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What happens if you do not check 'Add Python to PATH' during installation?",
+        "options": [
+          "Python installs without IDLE",
+          "Python does not install at all",
+          "The terminal cannot find the 'python' command",
+          "Python installs in a different language"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Without adding Python to PATH, the terminal does not know where to find the python executable, so commands like 'python --version' and 'python hello.py' will fail. Python still installs successfully (Option B is wrong), IDLE is still included (Option A is wrong), and the installation language is unaffected (Option D is wrong)."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which command checks the installed Python version in the terminal?",
+        "options": [
+          "python -v",
+          "python --version",
+          "python /version",
+          "python check"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The correct flag is --version (two dashes). Option A (-v) activates verbose mode, not version checking. Options C and D are not valid Python command-line arguments."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which of the following comes pre-installed with Python?",
+        "options": [
+          "VS Code",
+          "PyCharm",
+          "IDLE",
+          "Sublime Text"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> IDLE (Integrated Development and Learning Environment) comes bundled with every Python installation. VS Code, PyCharm, and Sublime Text are separate applications that need to be downloaded and installed independently."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the correct file extension for Python source code?",
+        "options": [
+          ".python",
+          ".pyt",
+          ".py",
+          ".p"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python source code files always use the .py extension. The other extensions (.python, .pyt, .p) are not standard Python file extensions and will not be recognized by the Python interpreter or code editors."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What keyboard shortcut runs a Python program in IDLE?",
+        "options": [
+          "Ctrl + R",
+          "F5",
+          "Ctrl + Enter",
+          "F9"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In IDLE, pressing F5 runs the current file (it is the shortcut for Run > Run Module). Ctrl + R, Ctrl + Enter, and F9 do not run programs in IDLE."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the PATH environment variable?",
+        "options": [
+          "The folder where Python files are saved",
+          "A list of folders where the OS searches for executable programs",
+          "The installation directory of Python",
+          "The file path of a Python script"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> PATH is an environment variable that contains a list of directory paths. When you type a command in the terminal, the OS searches these directories to find the executable. Option A describes a project folder. Option C describes one specific folder. Option D describes a single file location."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is the best Python filename?",
+        "options": [
+          "My Program.py",
+          "my-program.PY",
+          "my_program.py",
+          "2nd_program.py"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python file naming conventions recommend: lowercase letters, underscores instead of spaces, and the .py extension (lowercase). Option A has a space (causes terminal issues). Option B uses hyphens (can cause issues with Python imports) and uppercase extension. Option D starts with a number (while this works for standalone scripts, it is not recommended and fails as a module name)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What command do you type in the terminal to navigate to a folder called Projects?",
+        "options": [
+          "go Projects",
+          "navigate Projects",
+          "open Projects",
+          "cd Projects"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> 'cd' stands for 'change directory' and is the universal command for navigating between folders in the terminal. The commands 'go', 'navigate', and 'open' are not standard terminal commands for folder navigation."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What tool is used to install additional Python libraries like pygame or pandas?",
+        "options": [
+          "npm",
+          "pip",
+          "apt",
+          "brew"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> pip is Python's official package manager. It comes pre-installed with Python. npm is the package manager for Node.js/JavaScript. apt is a package manager for Linux (Debian/Ubuntu). brew (Homebrew) is a package manager for macOS."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "In IDLE, what does the >>> symbol represent?",
+        "options": [
+          "An error message",
+          "A comment",
+          "The interactive prompt waiting for input",
+          "The output of a program"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The >>> symbol is the Python interactive prompt. It appears in the REPL and IDLE Shell, indicating that Python is ready and waiting for you to type a command. It is not an error (Option A), not a comment (Option B), and not output (Option D)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "Which IDE is specifically designed for Python development?",
+        "options": [
+          "VS Code",
+          "Sublime Text",
+          "PyCharm",
+          "Atom"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> PyCharm is built specifically for Python development by JetBrains. VS Code (Option A) and Sublime Text (Option B) are general-purpose editors that support many languages. Atom (Option D) was also a general-purpose editor (now discontinued). While all of them can be used for Python, only PyCharm was designed exclusively for it."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What error do you see if Python is not in your PATH and you type 'python' in Command Prompt?",
+        "options": [
+          "SyntaxError: invalid syntax",
+          "ModuleNotFoundError: No module named 'python'",
+          "'python' is not recognized as an internal or external command",
+          "PermissionError: access denied"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> This Windows-specific error message means the system cannot find any program called 'python' in the directories listed in PATH. Option A is a Python error (only appears when Python is running). Option B is a Python import error. Option D would occur only if you do not have permission to run the program."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What happens when you type 'python hello.py' inside the Python REPL (after the >>> prompt)?",
+        "options": [
+          "It runs the file hello.py successfully",
+          "It shows a SyntaxError",
+          "It opens the file in a text editor",
+          "It downloads the file from the internet"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Inside the Python REPL, Python tries to interpret 'python hello.py' as Python code. 'python' is treated as a variable name and 'hello.py' is invalid syntax, resulting in a SyntaxError. The command 'python hello.py' is a terminal/shell command, not Python code. You must exit the REPL first (type exit()) and then type the command in the terminal."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "On Windows, what happens if you type 'python3' in Command Prompt?",
+        "options": [
+          "It opens Python 3",
+          "It shows an error because the command does not exist on Windows",
+          "It may open the Microsoft Store",
+          "Both B and C are possible depending on settings"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> On Windows, the behavior of 'python3' depends on your system settings. By default, Windows has app execution aliases that redirect 'python3' to the Microsoft Store (Option C). If those aliases are disabled, you get a 'not recognized' error (Option B). On Windows, the correct command is simply 'python', which runs Python 3 if you installed it from python.org."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a valid reason to prefer VS Code over IDLE?",
+        "options": [
+          "VS Code has a built-in terminal",
+          "VS Code supports extensions for added functionality",
+          "VS Code can run Python without the Python interpreter installed",
+          "VS Code provides IntelliSense (smart auto-completion)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is the invalid reason and therefore the correct answer.</strong> No code editor, including VS Code, can run Python code without the Python interpreter being installed on the computer. VS Code is just an editor — it still needs the Python interpreter to execute Python code. Options A, B, and D are all valid advantages of VS Code over IDLE."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does pip stand for?",
+        "options": [
+          "Python Installation Program",
+          "Package Installer for Python",
+          "pip installs packages",
+          "Python Integrated Packages"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> pip stands for 'pip installs packages' — it is a recursive acronym (the name refers to itself). While it is commonly described as a 'package installer for Python' (Option B is a common description but not what the acronym stands for), the official recursive name is 'pip installs packages'."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "You type 'python --version' and see 'Python 3.12.3'. What does the '3' in '3.12.3' represent?",
+        "options": [
+          "The major version number",
+          "The minor version number",
+          "The patch/micro version number",
+          "The build number"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Python uses semantic versioning: major.minor.micro. The first number (3) is the major version — a fundamental version of the language. The second number (12) is the minor version — a feature release within the major version. The third number (3) is the micro/patch version — bug fixes within the minor version. So Python 3.12.3 is major version 3, minor release 12, patch 3."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "How do you open a new file in IDLE to write a Python program?",
+        "options": [
+          "File > Open",
+          "File > New File",
+          "Run > New Module",
+          "Edit > New Program"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In IDLE, go to File > New File (or press Ctrl+N) to open a new editor window where you can write a multi-line Python program. File > Open opens an existing file. The other options do not exist in IDLE's menus."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "Which terminal command clears the screen on Windows Command Prompt?",
+        "options": [
+          "clear",
+          "cls",
+          "reset",
+          "clean"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On Windows, 'cls' (clear screen) clears the terminal. 'clear' (Option A) is the equivalent command on Linux and macOS — it does not work on Windows Command Prompt. 'reset' and 'clean' are not standard terminal commands for clearing the screen."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Verify Your Setup",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints 'My Python setup is working!' and save it as setup_test.py. Run it from the terminal to verify your installation is complete.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "My Python setup is working!",
+        "constraints": "The file must be named setup_test.py. Use the print() function.",
+        "solution": "print(\"My Python setup is working!\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "System Information Display",
+        "difficulty": "Easy",
+        "description": "Write a Python program that uses the sys module to display the Python version and the platform (operating system) you are using.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Python version: 3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 18:05:18) [MSC v.1938 64 bit (AMD64)]\nPlatform: win32",
+        "constraints": "Use import sys. Display both sys.version and sys.platform.",
+        "solution": "import sys\nprint(\"Python version:\", sys.version)\nprint(\"Platform:\", sys.platform)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Terminal Command Guide",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints a mini reference guide of useful terminal commands for a beginner. Include at least 5 commands with their descriptions.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Terminal Command Guide ===\npython --version    : Check Python version\npython filename.py  : Run a Python file\ncd foldername       : Navigate into a folder\ncd ..               : Go to parent folder\ndir                 : List files (Windows)\ncls                 : Clear the screen (Windows)",
+        "constraints": "Use print() statements. Include at least 5 terminal commands with brief explanations.",
+        "solution": "print(\"=== Terminal Command Guide ===\")\nprint(\"python --version    : Check Python version\")\nprint(\"python filename.py  : Run a Python file\")\nprint(\"cd foldername       : Navigate into a folder\")\nprint(\"cd ..               : Go to parent folder\")\nprint(\"dir                 : List files (Windows)\")\nprint(\"cls                 : Clear the screen (Windows)\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "IDE Comparison Chart",
+        "difficulty": "Medium",
+        "description": "Write a Python program that prints a neatly formatted comparison of three Python editors (IDLE, VS Code, and PyCharm) showing their key characteristics.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "+------------+------------+----------+-----------+\n| Editor     | Cost       | Built-in | Best For  |\n+------------+------------+----------+-----------+\n| IDLE       | Free       | Yes      | Beginners |\n| VS Code    | Free       | No       | Everyone  |\n| PyCharm CE | Free       | No       | Python    |\n+------------+------------+----------+-----------+",
+        "constraints": "Use print() statements with careful alignment. The table must have borders and at least 3 rows of data.",
+        "solution": "print(\"+------------+------------+----------+-----------+\")\nprint(\"| Editor     | Cost       | Built-in | Best For  |\")\nprint(\"+------------+------------+----------+-----------+\")\nprint(\"| IDLE       | Free       | Yes      | Beginners |\")\nprint(\"| VS Code    | Free       | No       | Everyone  |\")\nprint(\"| PyCharm CE | Free       | No       | Python    |\")\nprint(\"+------------+------------+----------+-----------+\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Installation Checklist",
+        "difficulty": "Medium",
+        "description": "Write a Python program that prints a checklist of steps for installing Python on Windows. Use checkmarks or symbols to make it visually clear. The checklist should have at least 6 steps.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Python Installation Checklist ===\n[Step 1] Go to python.org\n[Step 2] Click Download Python 3.x.x\n[Step 3] Run the installer\n[Step 4] CHECK 'Add python.exe to PATH'\n[Step 5] Click Install Now\n[Step 6] Verify: python --version\n[Step 7] Open IDLE and test\n=== Setup Complete! ===",
+        "constraints": "Use print() statements. Include at least 6 steps. The step about PATH must be emphasized.",
+        "solution": "print(\"=== Python Installation Checklist ===\")\nprint(\"[Step 1] Go to python.org\")\nprint(\"[Step 2] Click Download Python 3.x.x\")\nprint(\"[Step 3] Run the installer\")\nprint(\"[Step 4] CHECK 'Add python.exe to PATH'\")\nprint(\"[Step 5] Click Install Now\")\nprint(\"[Step 6] Verify: python --version\")\nprint(\"[Step 7] Open IDLE and test\")\nprint(\"=== Setup Complete! ===\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Multi-File Project Plan",
+        "difficulty": "Medium",
+        "description": "Write a Python program that displays a folder structure for an organized Python project. Show a main folder with at least 3 subfolders and some .py files in each.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "PythonProjects/\n|-- basics/\n|   |-- hello.py\n|   |-- calculator.py\n|   |-- greet.py\n|-- games/\n|   |-- guess_number.py\n|   |-- quiz.py\n|-- practice/\n|   |-- patterns.py\n|   |-- math_problems.py",
+        "constraints": "Use print() statements. Show a hierarchical folder structure with at least 3 subfolders and at least 2 files in each.",
+        "solution": "print(\"PythonProjects/\")\nprint(\"|-- basics/\")\nprint(\"|   |-- hello.py\")\nprint(\"|   |-- calculator.py\")\nprint(\"|   |-- greet.py\")\nprint(\"|-- games/\")\nprint(\"|   |-- guess_number.py\")\nprint(\"|   |-- quiz.py\")\nprint(\"|-- practice/\")\nprint(\"|   |-- patterns.py\")\nprint(\"|   |-- math_problems.py\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Troubleshooting Guide",
+        "difficulty": "Hard",
+        "description": "Write a Python program that prints a troubleshooting guide for common Python installation problems. Include at least 4 problems with their solutions.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Python Installation Troubleshooting ===\n\nPROBLEM: 'python' is not recognized\nSOLUTION: Reinstall Python with PATH checkbox checked\n\nPROBLEM: Microsoft Store opens when typing python\nSOLUTION: Disable app execution aliases in Windows Settings\n\nPROBLEM: IDLE does not appear in Start menu\nSOLUTION: Reinstall Python, ensure 'tcl/tk' is included\n\nPROBLEM: Permission denied when installing packages\nSOLUTION: Run Command Prompt as Administrator",
+        "constraints": "Include at least 4 problem-solution pairs. Format clearly with PROBLEM and SOLUTION labels.",
+        "solution": "print(\"=== Python Installation Troubleshooting ===\")\nprint()\nprint(\"PROBLEM: 'python' is not recognized\")\nprint(\"SOLUTION: Reinstall Python with PATH checkbox checked\")\nprint()\nprint(\"PROBLEM: Microsoft Store opens when typing python\")\nprint(\"SOLUTION: Disable app execution aliases in Windows Settings\")\nprint()\nprint(\"PROBLEM: IDLE does not appear in Start menu\")\nprint(\"SOLUTION: Reinstall Python, ensure 'tcl/tk' is included\")\nprint()\nprint(\"PROBLEM: Permission denied when installing packages\")\nprint(\"SOLUTION: Run Command Prompt as Administrator\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Python vs Other Setups",
+        "difficulty": "Hard",
+        "description": "Write a Python program that compares the setup complexity of Python with two other languages (Java and C++). For each language, show how many steps it takes to go from nothing to printing Hello World.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Setup Comparison: Hello World ===\n\nPython (3 steps):\n  1. Install Python from python.org\n  2. Write: print(\"Hello, World!\")\n  3. Run: python hello.py\n\nJava (5 steps):\n  1. Install JDK from oracle.com\n  2. Set JAVA_HOME and PATH\n  3. Write: public class Hello { public static void main... }\n  4. Compile: javac Hello.java\n  5. Run: java Hello\n\nC++ (5 steps):\n  1. Install a compiler (MinGW/GCC)\n  2. Set PATH for the compiler\n  3. Write: #include <iostream> int main() { cout... }\n  4. Compile: g++ hello.cpp -o hello\n  5. Run: ./hello",
+        "constraints": "Compare at least 3 languages. Show the numbered steps for each. Highlight Python's simplicity.",
+        "solution": "print(\"=== Setup Comparison: Hello World ===\")\nprint()\nprint(\"Python (3 steps):\")\nprint(\"  1. Install Python from python.org\")\nprint(\"  2. Write: print(\\\"Hello, World!\\\")\")\nprint(\"  3. Run: python hello.py\")\nprint()\nprint(\"Java (5 steps):\")\nprint(\"  1. Install JDK from oracle.com\")\nprint(\"  2. Set JAVA_HOME and PATH\")\nprint(\"  3. Write: public class Hello { public static void main... }\")\nprint(\"  4. Compile: javac Hello.java\")\nprint(\"  5. Run: java Hello\")\nprint()\nprint(\"C++ (5 steps):\")\nprint(\"  1. Install a compiler (MinGW/GCC)\")\nprint(\"  2. Set PATH for the compiler\")\nprint(\"  3. Write: #include <iostream> int main() { cout... }\")\nprint(\"  4. Compile: g++ hello.cpp -o hello\")\nprint(\"  5. Run: ./hello\")"
+      }
+    ]
+  }
+}
