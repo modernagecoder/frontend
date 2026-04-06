@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn what Python is, where it is used, and why it is the best language to start your coding journey.">
+    <meta name="keywords" content="introduction to python, python tutorial, python introduction to python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+    <meta property="og:title" content="Introduction to Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn what Python is, where it is used, and why it is the best language to start your coding journey.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/introduction-to-python">
+    <meta name="twitter:title" content="Introduction to Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn what Python is, where it is used, and why it is the best language to start your coding journey.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Introduction to Python",
+    "description": "Learn what Python is, where it is used, and why it is the best language to start your coding journey.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/introduction-to-python"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/introduction-to-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Introduction to Python",
+        "item": "https://learn.modernagecoders.com/resources/python/introduction-to-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting Parentheses in print()",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Python 3, <code>print</code> is a function, and all functions require parentheses around their arguments. The syntax <code>print \"Hello\"</code> was valid in Python 2, but Python 2 is no longer supported. Always use <code>print(\"Hello\")</code> with parentheses in Python 3. This is the most common mistake that beginners make when following old tutorials written for Python 2."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using the Wrong Case (Print vs print)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python is a <strong>case-sensitive</strong> language. This means <code>print</code>, <code>Print</code>, and <code>PRINT</code> are all treated as completely different names. The built-in function is <code>print</code> (all lowercase). Writing <code>Print</code> with a capital P makes Python think you are referring to something else that does not exist, resulting in a NameError."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Saving the File with a .py Extension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python source code files must be saved with the <code>.py</code> extension (for example, <code>hello.py</code>, <code>calculator.py</code>). While Python can technically run a file with any extension if you specify it directly, saving with <code>.py</code> is essential because: (1) your code editor uses the extension to provide syntax highlighting and helpful features, (2) your operating system needs it to know which program should open the file, and (3) it is the standard convention that all Python developers follow."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using the Wrong Python Version Command",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Some operating systems have both Python 2 and Python 3 installed. On these systems, typing <code>python</code> might open Python 2, while <code>python3</code> opens Python 3. Always check which version you are using by running <code>python --version</code> or <code>python3 --version</code>. You should see a version number starting with 3 (like 3.12.0). If you are on Windows and installed Python recently, <code>python</code> usually points to Python 3."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mismatched Quotes in Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Python, a string (text) must start and end with the same type of quote. If you start with a double quote (<code>\"</code>), you must end with a double quote. If you start with a single quote (<code>'</code>), you must end with a single quote. Mixing them up causes a SyntaxError because Python cannot find the matching closing quote."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Introduction to Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 1</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">12 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Introduction to Python</h1>
+            <a href="/resources/python/introduction-to-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Python?</h2><p>Python is a <strong>programming language</strong> — a set of instructions that you write to tell a computer what to do. Just like you use English to communicate with people, programmers use Python to communicate with computers.</p><p>Python was created by a Dutch programmer named <strong>Guido van Rossum</strong> in <strong>1991</strong>. He wanted to build a language that was easy to read and fun to use. Interestingly, the name "Python" does not come from the snake. It comes from a British comedy show called <strong>"Monty Python's Flying Circus"</strong>, which Guido enjoyed watching.</p><h3>What Makes Python Special?</h3><p>Python is described as a <strong>high-level, interpreted, general-purpose</strong> programming language. Let us break down what each of these terms means:</p><ul><li><strong>High-level language:</strong> This means Python is closer to human language (English) than to machine language (the 0s and 1s that computers actually understand). When you write Python code, it looks almost like writing sentences in English. Compare this to "low-level" languages where you have to write instructions that are much harder for humans to read.</li><li><strong>Interpreted language:</strong> When you run a Python program, the computer reads your code <strong>one line at a time</strong> and executes each line immediately. There is no separate step to convert your entire code into machine language before running it. This is different from "compiled" languages like C++ or Java, where you first convert (compile) the entire program and then run it. The advantage of interpretation is that you can test your code quickly — write a line, run it, see the result.</li><li><strong>General-purpose language:</strong> Python is not designed for just one type of task. You can use it to build websites, analyze data, create games, automate boring tasks, build artificial intelligence, and much more. It is like a Swiss Army knife for programmers.</li></ul><p>One more important thing: Python is <strong>open-source and completely free</strong>. Anyone in the world can download it, use it, and even look at how Python itself is built. You do not need to buy a license or pay any fee. This is one of the reasons why Python has become so popular — it is accessible to everyone, whether you are a student in Delhi or a researcher at NASA.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Should You Learn Python?</h2><p>With hundreds of programming languages out there, why should you pick Python as your first language? Here are the most important reasons:</p><h3>1. It Is Easy to Read and Write</h3><p>Python code looks almost like plain English. For example, to display a message on screen, you simply write <code>print("Hello")</code>. In other languages like Java or C++, the same task requires many more lines of confusing code. This makes Python the best language for beginners — you spend your time learning programming concepts, not fighting with complicated syntax.</p><h3>2. Massive Community and Support</h3><p>Python has one of the <strong>largest programming communities in the world</strong>. Millions of developers use Python every day. This means that whatever problem you face, someone has probably already solved it and shared the solution online. There are thousands of free tutorials, videos, books, and forums (like Stack Overflow) where you can get help instantly.</p><h3>3. Used Everywhere in the Real World</h3><p>Python is not just a "learning" language — it is used by professionals in almost every field of technology:</p><ul><li><strong>Web Development:</strong> Building websites and web applications (Instagram, Pinterest)</li><li><strong>Data Science:</strong> Analyzing large amounts of data to find patterns and insights</li><li><strong>Artificial Intelligence and Machine Learning:</strong> Teaching computers to think and learn (self-driving cars, voice assistants)</li><li><strong>Game Development:</strong> Creating simple 2D games and game prototypes</li><li><strong>Automation:</strong> Writing scripts that do repetitive tasks automatically (renaming 1000 files, sending emails)</li><li><strong>Scientific Computing:</strong> Used by scientists and researchers for complex calculations</li></ul><h3>4. Excellent Career Opportunities</h3><p>Python is consistently ranked as one of the <strong>most in-demand programming skills</strong> in the job market. Whether you want to become a web developer, data scientist, AI engineer, or software developer, knowing Python gives you a strong advantage. Python developers are well-paid, and the demand is only growing.</p><h3>5. A Strong Foundation for Other Languages</h3><p>Because Python teaches you core programming concepts (variables, loops, functions, logic) in a clean and simple way, learning other languages like JavaScript, Java, or C++ becomes much easier afterward. Python is the ideal "first language" that builds a solid foundation.</p><h3>6. Trusted by the Biggest Companies</h3><p>Some of the world's most successful companies rely on Python:</p><ul><li><strong>Google</strong> — uses Python extensively in its search engine and AI projects</li><li><strong>Netflix</strong> — uses Python for its recommendation engine and data analysis</li><li><strong>Instagram</strong> — the entire backend is built with Python (Django framework)</li><li><strong>Spotify</strong> — uses Python for data analysis and backend services</li><li><strong>NASA</strong> — uses Python for scientific research and equipment testing</li><li><strong>ISRO</strong> — uses Python in various data processing and analysis tasks</li></ul><p>If these organizations trust Python for their critical systems, it is clearly a language worth learning.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>A Brief History of Python</h3><p>The story of Python begins in the late 1980s. Guido van Rossum was working at a research institute in the Netherlands called Centrum Wiskunde &amp; Informatica (CWI). He was part of a team working on a language called <strong>ABC</strong>, which was designed to be easy to learn. However, ABC had limitations — it was not flexible enough for real-world programming tasks.</p><p>Guido wanted to create something better. He started working on Python during his Christmas holidays in <strong>December 1989</strong>, and the first version (Python 0.9.0) was released in <strong>February 1991</strong>. Right from the start, Python included features that are still loved today: clean syntax, easy-to-read code, and support for functions and modules.</p><p>Over the years, Python went through major updates:</p><ul><li><strong>Python 1.0 (1994):</strong> The first official release with features like lambda, map, filter, and reduce.</li><li><strong>Python 2.0 (2000):</strong> Added list comprehensions, garbage collection, and Unicode support. Python 2 was widely used for many years.</li><li><strong>Python 3.0 (2008):</strong> A major redesign that fixed many inconsistencies in Python 2. Python 3 is NOT backward-compatible with Python 2, meaning some old Python 2 code does not work in Python 3.</li><li><strong>Python 3.12+ (2024-present):</strong> The current versions of Python, with improved performance, better error messages, and new features.</li></ul><p><strong>Important:</strong> Python 2 reached its end of life on January 1, 2020. All new projects should use <strong>Python 3</strong>. When we say "Python" in this course, we always mean Python 3.</p><h3>Where Is Python Used in the Real World?</h3><p>Python's versatility is one of its greatest strengths. Here are the major areas where Python is used, along with the tools and frameworks that make it possible:</p><h4>Web Development</h4><p>Python has powerful frameworks for building websites and web applications:</p><ul><li><strong>Django:</strong> A full-featured framework used by Instagram, Pinterest, and Disqus. It follows the "batteries included" philosophy — it provides everything you need to build a website.</li><li><strong>Flask:</strong> A lightweight framework that gives you more control. It is great for smaller projects and APIs.</li></ul><h4>Data Science and Data Analysis</h4><p>Python is the number one language for data science. Key libraries include:</p><ul><li><strong>pandas:</strong> For organizing and analyzing structured data (like spreadsheets).</li><li><strong>NumPy:</strong> For fast mathematical operations on large arrays of numbers.</li><li><strong>Matplotlib:</strong> For creating charts, graphs, and visualizations.</li></ul><h4>Artificial Intelligence and Machine Learning</h4><p>Python dominates the AI/ML field. Major libraries include:</p><ul><li><strong>TensorFlow:</strong> Built by Google for creating deep learning models.</li><li><strong>PyTorch:</strong> Built by Facebook (Meta), popular in research.</li><li><strong>scikit-learn:</strong> For traditional machine learning algorithms.</li></ul><h4>Game Development</h4><p>While Python is not the primary language for AAA games, it is excellent for learning game development:</p><ul><li><strong>Pygame:</strong> A library for creating 2D games with graphics, sound, and user input.</li></ul><h4>Automation and Scripting</h4><p>One of the most practical uses of Python is automating repetitive tasks:</p><ul><li>Renaming hundreds of files at once</li><li>Sending automated emails</li><li>Scraping data from websites</li><li>Organizing files and folders</li></ul><h4>Desktop Applications</h4><p>Python can be used to build desktop applications with graphical user interfaces (GUIs) using libraries like <strong>Tkinter</strong> and <strong>PyQt</strong>.</p><h3>How Does Python Work?</h3><p>Understanding how Python runs your code is important. Here is the step-by-step process:</p><ol><li><strong>You write your code</strong> in a text file and save it with a <code>.py</code> extension (for example, <code>hello.py</code>).</li><li><strong>You run the file</strong> by typing <code>python hello.py</code> in your terminal or command prompt.</li><li><strong>The Python interpreter</strong> reads your file from top to bottom, executing each line one at a time.</li><li><strong>If there is an error</strong>, the interpreter stops at that line and shows you an error message telling you what went wrong and on which line.</li></ol><h4>What Is an Interpreter?</h4><p>An interpreter is a program that reads your source code and executes it directly, line by line. Think of it like a human translator who listens to one sentence of a foreign language at a time and translates it immediately.</p><h4>Interpreter vs Compiler</h4><p>There are two main ways programming languages convert your code into something a computer can understand:</p><ul><li><strong>Interpreter (used by Python, JavaScript):</strong> Reads and executes code one line at a time. If there is an error on line 10, lines 1-9 still run. You see results immediately, which makes testing and debugging faster.</li><li><strong>Compiler (used by C++, Java):</strong> Reads the ENTIRE code first, converts it all into machine code, and then runs it. If there is a single error anywhere, nothing runs until you fix it. However, compiled programs usually run faster because the translation is done beforehand.</li></ul><p>For beginners, an interpreted language like Python is much more convenient because you get instant feedback as you write code.</p><h3>Python vs Other Languages</h3><p>One of the best ways to appreciate Python's simplicity is to compare the same program written in different languages. Let us look at the classic "Hello, World!" program:</p><h4>In Python:</h4><pre><code>print("Hello, World!")</code></pre><p>That is it. One line.</p><h4>In Java:</h4><pre><code>public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}</code></pre><p>Five lines, and you need to understand classes, access modifiers, static methods, and arrays just to print one message.</p><h4>In C++:</h4><pre><code>#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    cout &lt;&lt; "Hello, World!" &lt;&lt; endl;
+    return 0;
+}</code></pre><p>Six lines, with headers, namespaces, and a return statement.</p><p>As you can see, Python lets you focus on <strong>what</strong> you want to do, rather than getting bogged down in <strong>how</strong> to set things up. This is exactly why it is the best language for beginners.</p><h3>The Python Interactive Shell (REPL)</h3><p>Python comes with a built-in interactive mode called the <strong>REPL</strong>, which stands for <strong>Read-Eval-Print-Loop</strong>. Let us break that down:</p><ul><li><strong>Read:</strong> The shell reads the command you type.</li><li><strong>Eval (Evaluate):</strong> It evaluates (processes) the command.</li><li><strong>Print:</strong> It prints (displays) the result.</li><li><strong>Loop:</strong> It goes back to the beginning and waits for your next command.</li></ul><h4>How to Open the Python REPL</h4><p>Open your terminal (Command Prompt on Windows, Terminal on Mac/Linux) and type:</p><pre><code>python</code></pre><p>or on some systems:</p><pre><code>python3</code></pre><p>You will see something like this:</p><pre><code>Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2024, 13:03:39)
+[GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt;</code></pre><p>The <code>&gt;&gt;&gt;</code> symbol is called the <strong>prompt</strong>. It means Python is ready and waiting for your command. You can type any Python expression here and see the result immediately.</p><h4>Why Use the REPL?</h4><p>The REPL is perfect for:</p><ul><li>Testing small pieces of code quickly</li><li>Using Python as a calculator</li><li>Experimenting with new features</li><li>Debugging (finding and fixing errors in your code)</li></ul><p>To exit the REPL, type <code>exit()</code> or press <code>Ctrl + Z</code> (Windows) or <code>Ctrl + D</code> (Mac/Linux).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Your First Python Program: Hello, World!</div><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre><div class="code-example-explanation">The <code>print()</code> function displays text on the screen. Whatever you put inside the parentheses and quotes will be shown as output. This is the simplest and most famous first program in any language.</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">Using Python as a Calculator</div><pre><code class="language-python">print(2 + 3)
+print(10 * 5)
+print(100 - 37)
+print(45 / 9)
+print(2 ** 10)</code></pre><div class="code-example-explanation">Python can perform mathematical operations just like a calculator. The <code>+</code> operator adds, <code>*</code> multiplies, <code>-</code> subtracts, <code>/</code> divides, and <code>**</code> raises to a power (2 to the power of 10 is 1024).</div><div class="code-example-output">5
+50
+63
+5.0
+1024</div></div>
+<div class="code-example"><div class="code-example-title">Comparing Hello World: Python vs C++ vs Java</div><pre><code class="language-python"># Python - just one line
+print(&quot;Hello, World!&quot;)
+
+# The same program in C++ would need:
+# #include &lt;iostream&gt;
+# using namespace std;
+# int main() {
+#     cout &lt;&lt; &quot;Hello, World!&quot; &lt;&lt; endl;
+#     return 0;
+# }
+
+# The same program in Java would need:
+# public class Hello {
+#     public static void main(String[] args) {
+#         System.out.println(&quot;Hello, World!&quot;);
+#     }
+# }</code></pre><div class="code-example-explanation">This comparison shows why Python is considered beginner-friendly. To print a simple message, Python needs just 1 line, while C++ needs about 6 lines and Java needs about 5 lines. Python removes all the unnecessary setup code so you can focus on the task at hand.</div><div class="code-example-output">Hello, World!</div></div>
+<div class="code-example"><div class="code-example-title">Using the REPL for Quick Math</div><pre><code class="language-python">&gt;&gt;&gt; 15 + 27
+42
+&gt;&gt;&gt; 365 * 24
+8760
+&gt;&gt;&gt; 100 / 3
+33.333333333333336
+&gt;&gt;&gt; 2 ** 8
+256</code></pre><div class="code-example-explanation">In the Python REPL (interactive shell), you can type expressions directly after the <code>&gt;&gt;&gt;</code> prompt and see results immediately. Here we calculate: the sum of 15 and 27, the number of hours in a year (365 days times 24 hours), 100 divided by 3, and 2 raised to the power of 8. Notice that division always gives a decimal result in Python 3.</div><div class="code-example-output">(Results appear immediately after each expression as shown above)</div></div>
+<div class="code-example"><div class="code-example-title">A Multi-Line Program with Multiple Print Statements</div><pre><code class="language-python">print(&quot;My name is Aarav.&quot;)
+print(&quot;I am learning Python.&quot;)
+print(&quot;Python was created in 1991.&quot;)
+print(&quot;I am going to build amazing things!&quot;)</code></pre><div class="code-example-explanation">A Python program can have multiple lines. The interpreter reads and executes each line from top to bottom, in order. Each <code>print()</code> statement outputs its text on a new line. This is how most real programs work — they are a sequence of instructions executed one after another.</div><div class="code-example-output">My name is Aarav.
+I am learning Python.
+Python was created in 1991.
+I am going to build amazing things!</div></div>
+<div class="code-example"><div class="code-example-title">Using Comments to Explain Your Code</div><pre><code class="language-python"># This program greets a student
+# The hash symbol (#) starts a comment
+
+print(&quot;Welcome to Python!&quot;)  # This line prints a greeting
+
+# Comments are ignored by the interpreter
+# They are written for humans to understand the code
+print(&quot;Let us start learning.&quot;)  # Another print statement</code></pre><div class="code-example-explanation">Comments are notes that you write inside your code to explain what it does. In Python, any text after a <code>#</code> symbol on a line is a comment. The Python interpreter completely ignores comments — they exist only to help you (and other programmers) understand the code. Writing good comments is an important habit for every programmer.</div><div class="code-example-output">Welcome to Python!
+Let us start learning.</div></div>
+<div class="code-example"><div class="code-example-title">Printing Patterns with print()</div><pre><code class="language-python">print(&quot;* * * * *&quot;)
+print(&quot;*       *&quot;)
+print(&quot;*       *&quot;)
+print(&quot;*       *&quot;)
+print(&quot;* * * * *&quot;)</code></pre><div class="code-example-explanation">Even with just the <code>print()</code> function, you can create visual patterns. This program prints a rectangle made of asterisk (*) characters. Each <code>print()</code> call outputs one row. Later in the course, you will learn to use loops to create such patterns more efficiently.</div><div class="code-example-output">* * * * *
+*       *
+*       *
+*       *
+* * * * *</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting Parentheses in print()</h3>
+                <div class="wrong-code"><pre><code class="language-python">print &quot;Hello, World!&quot;</code></pre></div><div class="error-message">SyntaxError: Missing parentheses in call to &#39;print&#39;. Did you mean print(...)?</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre></div><div class="mistake-explanation">In Python 3, <code>print</code> is a function, and all functions require parentheses around their arguments. The syntax <code>print "Hello"</code> was valid in Python 2, but Python 2 is no longer supported. Always use <code>print("Hello")</code> with parentheses in Python 3. This is the most common mistake that beginners make when following old tutorials written for Python 2.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using the Wrong Case (Print vs print)</h3>
+                <div class="wrong-code"><pre><code class="language-python">Print(&quot;Hello, World!&quot;)</code></pre></div><div class="error-message">NameError: name &#39;Print&#39; is not defined</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre></div><div class="mistake-explanation">Python is a <strong>case-sensitive</strong> language. This means <code>print</code>, <code>Print</code>, and <code>PRINT</code> are all treated as completely different names. The built-in function is <code>print</code> (all lowercase). Writing <code>Print</code> with a capital P makes Python think you are referring to something else that does not exist, resulting in a NameError.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Saving the File with a .py Extension</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Saved as: hello.txt
+print(&quot;Hello, World!&quot;)</code></pre></div><div class="error-message">The file may not be recognized as a Python script by your editor or operating system.</div><div class="correct-code"><pre><code class="language-python"># Saved as: hello.py
+print(&quot;Hello, World!&quot;)</code></pre></div><div class="mistake-explanation">Python source code files must be saved with the <code>.py</code> extension (for example, <code>hello.py</code>, <code>calculator.py</code>). While Python can technically run a file with any extension if you specify it directly, saving with <code>.py</code> is essential because: (1) your code editor uses the extension to provide syntax highlighting and helpful features, (2) your operating system needs it to know which program should open the file, and (3) it is the standard convention that all Python developers follow.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using the Wrong Python Version Command</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Typing in terminal:
+python hello.py
+# But getting Python 2 instead of Python 3</code></pre></div><div class="error-message">On some systems (especially Linux and Mac), the command &#39;python&#39; may open Python 2, which is outdated.</div><div class="correct-code"><pre><code class="language-python"># Use python3 explicitly:
+python3 hello.py
+
+# Or check your version first:
+python --version</code></pre></div><div class="mistake-explanation">Some operating systems have both Python 2 and Python 3 installed. On these systems, typing <code>python</code> might open Python 2, while <code>python3</code> opens Python 3. Always check which version you are using by running <code>python --version</code> or <code>python3 --version</code>. You should see a version number starting with 3 (like 3.12.0). If you are on Windows and installed Python recently, <code>python</code> usually points to Python 3.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mismatched Quotes in Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">print(&quot;Hello, World!&#39;)</code></pre></div><div class="error-message">SyntaxError: EOL while scanning string literal</div><div class="correct-code"><pre><code class="language-python">print(&quot;Hello, World!&quot;)</code></pre></div><div class="mistake-explanation">In Python, a string (text) must start and end with the same type of quote. If you start with a double quote (<code>"</code>), you must end with a double quote. If you start with a single quote (<code>'</code>), you must end with a single quote. Mixing them up causes a SyntaxError because Python cannot find the matching closing quote.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum in 1991.</li>
+<li>The name Python comes from the comedy show &quot;Monty Python&#39;s Flying Circus&quot;, not the snake.</li>
+<li>High-level means the language is close to human language and easy to read. Interpreted means it runs code line by line without a separate compilation step.</li>
+<li>Python is open-source and free — anyone can download and use it without paying.</li>
+<li>Python is used in web development, data science, artificial intelligence, game development, automation, and scientific computing.</li>
+<li>Major companies like Google, Netflix, Instagram, Spotify, and NASA use Python in their products and research.</li>
+<li>Python code is simpler and shorter compared to languages like Java and C++. For example, printing a message takes just one line in Python.</li>
+<li>The Python REPL (Read-Eval-Print-Loop) is an interactive shell where you can type Python commands and see results immediately.</li>
+<li>Python 3 is the current version. Python 2 is no longer supported and should not be used for new projects.</li>
+<li>Learning Python builds a strong foundation that makes it easier to learn other programming languages later.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/installing-python-and-setup" class="related-topic-link">Installing Python and Setting Up Your Environment</a>
+<a href="/resources/python/your-first-python-program" class="related-topic-link">Your First Python Program</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            
+            <a href="/resources/python/installing-python-and-setup" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Installing Python and Setting Up Your Environment</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/introduction-to-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

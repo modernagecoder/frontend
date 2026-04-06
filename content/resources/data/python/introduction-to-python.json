@@ -1,0 +1,797 @@
+{
+  "title": "Introduction to Python",
+  "slug": "introduction-to-python",
+  "language": "python",
+  "chapter": 1,
+  "difficulty": "Beginner",
+  "readingTime": "12 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 62,
+  "seo": {
+    "title": "Introduction to Python - What It Is, Why Learn It, and Where It Is Used | Modern Age Coders",
+    "description": "Learn what Python is, why it is the most popular programming language for beginners, and where it is used in the real world. A complete introduction for students aged 10-16.",
+    "keywords": "what is python, python introduction for beginners, why learn python, python programming language, python for kids, python for students, introduction to python programming, python uses"
+  },
+  "content": {
+    "what": "<h2>What Is Python?</h2><p>Python is a <strong>programming language</strong> — a set of instructions that you write to tell a computer what to do. Just like you use English to communicate with people, programmers use Python to communicate with computers.</p><p>Python was created by a Dutch programmer named <strong>Guido van Rossum</strong> in <strong>1991</strong>. He wanted to build a language that was easy to read and fun to use. Interestingly, the name \"Python\" does not come from the snake. It comes from a British comedy show called <strong>\"Monty Python's Flying Circus\"</strong>, which Guido enjoyed watching.</p><h3>What Makes Python Special?</h3><p>Python is described as a <strong>high-level, interpreted, general-purpose</strong> programming language. Let us break down what each of these terms means:</p><ul><li><strong>High-level language:</strong> This means Python is closer to human language (English) than to machine language (the 0s and 1s that computers actually understand). When you write Python code, it looks almost like writing sentences in English. Compare this to \"low-level\" languages where you have to write instructions that are much harder for humans to read.</li><li><strong>Interpreted language:</strong> When you run a Python program, the computer reads your code <strong>one line at a time</strong> and executes each line immediately. There is no separate step to convert your entire code into machine language before running it. This is different from \"compiled\" languages like C++ or Java, where you first convert (compile) the entire program and then run it. The advantage of interpretation is that you can test your code quickly — write a line, run it, see the result.</li><li><strong>General-purpose language:</strong> Python is not designed for just one type of task. You can use it to build websites, analyze data, create games, automate boring tasks, build artificial intelligence, and much more. It is like a Swiss Army knife for programmers.</li></ul><p>One more important thing: Python is <strong>open-source and completely free</strong>. Anyone in the world can download it, use it, and even look at how Python itself is built. You do not need to buy a license or pay any fee. This is one of the reasons why Python has become so popular — it is accessible to everyone, whether you are a student in Delhi or a researcher at NASA.</p>",
+    "why": "<h2>Why Should You Learn Python?</h2><p>With hundreds of programming languages out there, why should you pick Python as your first language? Here are the most important reasons:</p><h3>1. It Is Easy to Read and Write</h3><p>Python code looks almost like plain English. For example, to display a message on screen, you simply write <code>print(\"Hello\")</code>. In other languages like Java or C++, the same task requires many more lines of confusing code. This makes Python the best language for beginners — you spend your time learning programming concepts, not fighting with complicated syntax.</p><h3>2. Massive Community and Support</h3><p>Python has one of the <strong>largest programming communities in the world</strong>. Millions of developers use Python every day. This means that whatever problem you face, someone has probably already solved it and shared the solution online. There are thousands of free tutorials, videos, books, and forums (like Stack Overflow) where you can get help instantly.</p><h3>3. Used Everywhere in the Real World</h3><p>Python is not just a \"learning\" language — it is used by professionals in almost every field of technology:</p><ul><li><strong>Web Development:</strong> Building websites and web applications (Instagram, Pinterest)</li><li><strong>Data Science:</strong> Analyzing large amounts of data to find patterns and insights</li><li><strong>Artificial Intelligence and Machine Learning:</strong> Teaching computers to think and learn (self-driving cars, voice assistants)</li><li><strong>Game Development:</strong> Creating simple 2D games and game prototypes</li><li><strong>Automation:</strong> Writing scripts that do repetitive tasks automatically (renaming 1000 files, sending emails)</li><li><strong>Scientific Computing:</strong> Used by scientists and researchers for complex calculations</li></ul><h3>4. Excellent Career Opportunities</h3><p>Python is consistently ranked as one of the <strong>most in-demand programming skills</strong> in the job market. Whether you want to become a web developer, data scientist, AI engineer, or software developer, knowing Python gives you a strong advantage. Python developers are well-paid, and the demand is only growing.</p><h3>5. A Strong Foundation for Other Languages</h3><p>Because Python teaches you core programming concepts (variables, loops, functions, logic) in a clean and simple way, learning other languages like JavaScript, Java, or C++ becomes much easier afterward. Python is the ideal \"first language\" that builds a solid foundation.</p><h3>6. Trusted by the Biggest Companies</h3><p>Some of the world's most successful companies rely on Python:</p><ul><li><strong>Google</strong> — uses Python extensively in its search engine and AI projects</li><li><strong>Netflix</strong> — uses Python for its recommendation engine and data analysis</li><li><strong>Instagram</strong> — the entire backend is built with Python (Django framework)</li><li><strong>Spotify</strong> — uses Python for data analysis and backend services</li><li><strong>NASA</strong> — uses Python for scientific research and equipment testing</li><li><strong>ISRO</strong> — uses Python in various data processing and analysis tasks</li></ul><p>If these organizations trust Python for their critical systems, it is clearly a language worth learning.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>A Brief History of Python</h3><p>The story of Python begins in the late 1980s. Guido van Rossum was working at a research institute in the Netherlands called Centrum Wiskunde &amp; Informatica (CWI). He was part of a team working on a language called <strong>ABC</strong>, which was designed to be easy to learn. However, ABC had limitations — it was not flexible enough for real-world programming tasks.</p><p>Guido wanted to create something better. He started working on Python during his Christmas holidays in <strong>December 1989</strong>, and the first version (Python 0.9.0) was released in <strong>February 1991</strong>. Right from the start, Python included features that are still loved today: clean syntax, easy-to-read code, and support for functions and modules.</p><p>Over the years, Python went through major updates:</p><ul><li><strong>Python 1.0 (1994):</strong> The first official release with features like lambda, map, filter, and reduce.</li><li><strong>Python 2.0 (2000):</strong> Added list comprehensions, garbage collection, and Unicode support. Python 2 was widely used for many years.</li><li><strong>Python 3.0 (2008):</strong> A major redesign that fixed many inconsistencies in Python 2. Python 3 is NOT backward-compatible with Python 2, meaning some old Python 2 code does not work in Python 3.</li><li><strong>Python 3.12+ (2024-present):</strong> The current versions of Python, with improved performance, better error messages, and new features.</li></ul><p><strong>Important:</strong> Python 2 reached its end of life on January 1, 2020. All new projects should use <strong>Python 3</strong>. When we say \"Python\" in this course, we always mean Python 3.</p><h3>Where Is Python Used in the Real World?</h3><p>Python's versatility is one of its greatest strengths. Here are the major areas where Python is used, along with the tools and frameworks that make it possible:</p><h4>Web Development</h4><p>Python has powerful frameworks for building websites and web applications:</p><ul><li><strong>Django:</strong> A full-featured framework used by Instagram, Pinterest, and Disqus. It follows the \"batteries included\" philosophy — it provides everything you need to build a website.</li><li><strong>Flask:</strong> A lightweight framework that gives you more control. It is great for smaller projects and APIs.</li></ul><h4>Data Science and Data Analysis</h4><p>Python is the number one language for data science. Key libraries include:</p><ul><li><strong>pandas:</strong> For organizing and analyzing structured data (like spreadsheets).</li><li><strong>NumPy:</strong> For fast mathematical operations on large arrays of numbers.</li><li><strong>Matplotlib:</strong> For creating charts, graphs, and visualizations.</li></ul><h4>Artificial Intelligence and Machine Learning</h4><p>Python dominates the AI/ML field. Major libraries include:</p><ul><li><strong>TensorFlow:</strong> Built by Google for creating deep learning models.</li><li><strong>PyTorch:</strong> Built by Facebook (Meta), popular in research.</li><li><strong>scikit-learn:</strong> For traditional machine learning algorithms.</li></ul><h4>Game Development</h4><p>While Python is not the primary language for AAA games, it is excellent for learning game development:</p><ul><li><strong>Pygame:</strong> A library for creating 2D games with graphics, sound, and user input.</li></ul><h4>Automation and Scripting</h4><p>One of the most practical uses of Python is automating repetitive tasks:</p><ul><li>Renaming hundreds of files at once</li><li>Sending automated emails</li><li>Scraping data from websites</li><li>Organizing files and folders</li></ul><h4>Desktop Applications</h4><p>Python can be used to build desktop applications with graphical user interfaces (GUIs) using libraries like <strong>Tkinter</strong> and <strong>PyQt</strong>.</p><h3>How Does Python Work?</h3><p>Understanding how Python runs your code is important. Here is the step-by-step process:</p><ol><li><strong>You write your code</strong> in a text file and save it with a <code>.py</code> extension (for example, <code>hello.py</code>).</li><li><strong>You run the file</strong> by typing <code>python hello.py</code> in your terminal or command prompt.</li><li><strong>The Python interpreter</strong> reads your file from top to bottom, executing each line one at a time.</li><li><strong>If there is an error</strong>, the interpreter stops at that line and shows you an error message telling you what went wrong and on which line.</li></ol><h4>What Is an Interpreter?</h4><p>An interpreter is a program that reads your source code and executes it directly, line by line. Think of it like a human translator who listens to one sentence of a foreign language at a time and translates it immediately.</p><h4>Interpreter vs Compiler</h4><p>There are two main ways programming languages convert your code into something a computer can understand:</p><ul><li><strong>Interpreter (used by Python, JavaScript):</strong> Reads and executes code one line at a time. If there is an error on line 10, lines 1-9 still run. You see results immediately, which makes testing and debugging faster.</li><li><strong>Compiler (used by C++, Java):</strong> Reads the ENTIRE code first, converts it all into machine code, and then runs it. If there is a single error anywhere, nothing runs until you fix it. However, compiled programs usually run faster because the translation is done beforehand.</li></ul><p>For beginners, an interpreted language like Python is much more convenient because you get instant feedback as you write code.</p><h3>Python vs Other Languages</h3><p>One of the best ways to appreciate Python's simplicity is to compare the same program written in different languages. Let us look at the classic \"Hello, World!\" program:</p><h4>In Python:</h4><pre><code>print(\"Hello, World!\")</code></pre><p>That is it. One line.</p><h4>In Java:</h4><pre><code>public class Hello {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}</code></pre><p>Five lines, and you need to understand classes, access modifiers, static methods, and arrays just to print one message.</p><h4>In C++:</h4><pre><code>#include &lt;iostream&gt;\nusing namespace std;\n\nint main() {\n    cout &lt;&lt; \"Hello, World!\" &lt;&lt; endl;\n    return 0;\n}</code></pre><p>Six lines, with headers, namespaces, and a return statement.</p><p>As you can see, Python lets you focus on <strong>what</strong> you want to do, rather than getting bogged down in <strong>how</strong> to set things up. This is exactly why it is the best language for beginners.</p><h3>The Python Interactive Shell (REPL)</h3><p>Python comes with a built-in interactive mode called the <strong>REPL</strong>, which stands for <strong>Read-Eval-Print-Loop</strong>. Let us break that down:</p><ul><li><strong>Read:</strong> The shell reads the command you type.</li><li><strong>Eval (Evaluate):</strong> It evaluates (processes) the command.</li><li><strong>Print:</strong> It prints (displays) the result.</li><li><strong>Loop:</strong> It goes back to the beginning and waits for your next command.</li></ul><h4>How to Open the Python REPL</h4><p>Open your terminal (Command Prompt on Windows, Terminal on Mac/Linux) and type:</p><pre><code>python</code></pre><p>or on some systems:</p><pre><code>python3</code></pre><p>You will see something like this:</p><pre><code>Python 3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2024, 13:03:39)\n[GCC 11.4.0] on linux\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n&gt;&gt;&gt;</code></pre><p>The <code>&gt;&gt;&gt;</code> symbol is called the <strong>prompt</strong>. It means Python is ready and waiting for your command. You can type any Python expression here and see the result immediately.</p><h4>Why Use the REPL?</h4><p>The REPL is perfect for:</p><ul><li>Testing small pieces of code quickly</li><li>Using Python as a calculator</li><li>Experimenting with new features</li><li>Debugging (finding and fixing errors in your code)</li></ul><p>To exit the REPL, type <code>exit()</code> or press <code>Ctrl + Z</code> (Windows) or <code>Ctrl + D</code> (Mac/Linux).</p>",
+    "codeExamples": [
+      {
+        "title": "Your First Python Program: Hello, World!",
+        "code": "print(\"Hello, World!\")",
+        "language": "python",
+        "explanation": "The <code>print()</code> function displays text on the screen. Whatever you put inside the parentheses and quotes will be shown as output. This is the simplest and most famous first program in any language.",
+        "output": "Hello, World!"
+      },
+      {
+        "title": "Using Python as a Calculator",
+        "code": "print(2 + 3)\nprint(10 * 5)\nprint(100 - 37)\nprint(45 / 9)\nprint(2 ** 10)",
+        "language": "python",
+        "explanation": "Python can perform mathematical operations just like a calculator. The <code>+</code> operator adds, <code>*</code> multiplies, <code>-</code> subtracts, <code>/</code> divides, and <code>**</code> raises to a power (2 to the power of 10 is 1024).",
+        "output": "5\n50\n63\n5.0\n1024"
+      },
+      {
+        "title": "Comparing Hello World: Python vs C++ vs Java",
+        "code": "# Python - just one line\nprint(\"Hello, World!\")\n\n# The same program in C++ would need:\n# #include <iostream>\n# using namespace std;\n# int main() {\n#     cout << \"Hello, World!\" << endl;\n#     return 0;\n# }\n\n# The same program in Java would need:\n# public class Hello {\n#     public static void main(String[] args) {\n#         System.out.println(\"Hello, World!\");\n#     }\n# }",
+        "language": "python",
+        "explanation": "This comparison shows why Python is considered beginner-friendly. To print a simple message, Python needs just 1 line, while C++ needs about 6 lines and Java needs about 5 lines. Python removes all the unnecessary setup code so you can focus on the task at hand.",
+        "output": "Hello, World!"
+      },
+      {
+        "title": "Using the REPL for Quick Math",
+        "code": ">>> 15 + 27\n42\n>>> 365 * 24\n8760\n>>> 100 / 3\n33.333333333333336\n>>> 2 ** 8\n256",
+        "language": "python",
+        "explanation": "In the Python REPL (interactive shell), you can type expressions directly after the <code>&gt;&gt;&gt;</code> prompt and see results immediately. Here we calculate: the sum of 15 and 27, the number of hours in a year (365 days times 24 hours), 100 divided by 3, and 2 raised to the power of 8. Notice that division always gives a decimal result in Python 3.",
+        "output": "(Results appear immediately after each expression as shown above)"
+      },
+      {
+        "title": "A Multi-Line Program with Multiple Print Statements",
+        "code": "print(\"My name is Aarav.\")\nprint(\"I am learning Python.\")\nprint(\"Python was created in 1991.\")\nprint(\"I am going to build amazing things!\")",
+        "language": "python",
+        "explanation": "A Python program can have multiple lines. The interpreter reads and executes each line from top to bottom, in order. Each <code>print()</code> statement outputs its text on a new line. This is how most real programs work — they are a sequence of instructions executed one after another.",
+        "output": "My name is Aarav.\nI am learning Python.\nPython was created in 1991.\nI am going to build amazing things!"
+      },
+      {
+        "title": "Using Comments to Explain Your Code",
+        "code": "# This program greets a student\n# The hash symbol (#) starts a comment\n\nprint(\"Welcome to Python!\")  # This line prints a greeting\n\n# Comments are ignored by the interpreter\n# They are written for humans to understand the code\nprint(\"Let us start learning.\")  # Another print statement",
+        "language": "python",
+        "explanation": "Comments are notes that you write inside your code to explain what it does. In Python, any text after a <code>#</code> symbol on a line is a comment. The Python interpreter completely ignores comments — they exist only to help you (and other programmers) understand the code. Writing good comments is an important habit for every programmer.",
+        "output": "Welcome to Python!\nLet us start learning."
+      },
+      {
+        "title": "Printing Patterns with print()",
+        "code": "print(\"* * * * *\")\nprint(\"*       *\")\nprint(\"*       *\")\nprint(\"*       *\")\nprint(\"* * * * *\")",
+        "language": "python",
+        "explanation": "Even with just the <code>print()</code> function, you can create visual patterns. This program prints a rectangle made of asterisk (*) characters. Each <code>print()</code> call outputs one row. Later in the course, you will learn to use loops to create such patterns more efficiently.",
+        "output": "* * * * *\n*       *\n*       *\n*       *\n* * * * *"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Parentheses in print()",
+        "wrongCode": "print \"Hello, World!\"",
+        "error": "SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?",
+        "correctCode": "print(\"Hello, World!\")",
+        "explanation": "In Python 3, <code>print</code> is a function, and all functions require parentheses around their arguments. The syntax <code>print \"Hello\"</code> was valid in Python 2, but Python 2 is no longer supported. Always use <code>print(\"Hello\")</code> with parentheses in Python 3. This is the most common mistake that beginners make when following old tutorials written for Python 2."
+      },
+      {
+        "title": "Using the Wrong Case (Print vs print)",
+        "wrongCode": "Print(\"Hello, World!\")",
+        "error": "NameError: name 'Print' is not defined",
+        "correctCode": "print(\"Hello, World!\")",
+        "explanation": "Python is a <strong>case-sensitive</strong> language. This means <code>print</code>, <code>Print</code>, and <code>PRINT</code> are all treated as completely different names. The built-in function is <code>print</code> (all lowercase). Writing <code>Print</code> with a capital P makes Python think you are referring to something else that does not exist, resulting in a NameError."
+      },
+      {
+        "title": "Not Saving the File with a .py Extension",
+        "wrongCode": "# Saved as: hello.txt\nprint(\"Hello, World!\")",
+        "error": "The file may not be recognized as a Python script by your editor or operating system.",
+        "correctCode": "# Saved as: hello.py\nprint(\"Hello, World!\")",
+        "explanation": "Python source code files must be saved with the <code>.py</code> extension (for example, <code>hello.py</code>, <code>calculator.py</code>). While Python can technically run a file with any extension if you specify it directly, saving with <code>.py</code> is essential because: (1) your code editor uses the extension to provide syntax highlighting and helpful features, (2) your operating system needs it to know which program should open the file, and (3) it is the standard convention that all Python developers follow."
+      },
+      {
+        "title": "Using the Wrong Python Version Command",
+        "wrongCode": "# Typing in terminal:\npython hello.py\n# But getting Python 2 instead of Python 3",
+        "error": "On some systems (especially Linux and Mac), the command 'python' may open Python 2, which is outdated.",
+        "correctCode": "# Use python3 explicitly:\npython3 hello.py\n\n# Or check your version first:\npython --version",
+        "explanation": "Some operating systems have both Python 2 and Python 3 installed. On these systems, typing <code>python</code> might open Python 2, while <code>python3</code> opens Python 3. Always check which version you are using by running <code>python --version</code> or <code>python3 --version</code>. You should see a version number starting with 3 (like 3.12.0). If you are on Windows and installed Python recently, <code>python</code> usually points to Python 3."
+      },
+      {
+        "title": "Mismatched Quotes in Strings",
+        "wrongCode": "print(\"Hello, World!')",
+        "error": "SyntaxError: EOL while scanning string literal",
+        "correctCode": "print(\"Hello, World!\")",
+        "explanation": "In Python, a string (text) must start and end with the same type of quote. If you start with a double quote (<code>\"</code>), you must end with a double quote. If you start with a single quote (<code>'</code>), you must end with a single quote. Mixing them up causes a SyntaxError because Python cannot find the matching closing quote."
+      }
+    ],
+    "summary": [
+      "Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum in 1991.",
+      "The name Python comes from the comedy show \"Monty Python's Flying Circus\", not the snake.",
+      "High-level means the language is close to human language and easy to read. Interpreted means it runs code line by line without a separate compilation step.",
+      "Python is open-source and free — anyone can download and use it without paying.",
+      "Python is used in web development, data science, artificial intelligence, game development, automation, and scientific computing.",
+      "Major companies like Google, Netflix, Instagram, Spotify, and NASA use Python in their products and research.",
+      "Python code is simpler and shorter compared to languages like Java and C++. For example, printing a message takes just one line in Python.",
+      "The Python REPL (Read-Eval-Print-Loop) is an interactive shell where you can type Python commands and see results immediately.",
+      "Python 3 is the current version. Python 2 is no longer supported and should not be used for new projects.",
+      "Learning Python builds a strong foundation that makes it easier to learn other programming languages later."
+    ]
+  },
+  "relatedTopics": ["installing-python-and-setup", "your-first-python-program"],
+  "practice": {
+    "totalQuestions": 62,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "Who created the Python programming language?",
+        "hint": "He is a Dutch programmer who started the project during Christmas holidays in 1989.",
+        "answer": "Python was created by <strong>Guido van Rossum</strong>.",
+        "explanation": "Guido van Rossum began working on Python in December 1989 while he was at Centrum Wiskunde and Informatica (CWI) in the Netherlands. The first version was released in February 1991."
+      },
+      {
+        "id": "ts-2",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "In which year was Python first released?",
+        "hint": "It was in the early 1990s.",
+        "answer": "Python was first released in <strong>1991</strong>.",
+        "explanation": "Although Guido van Rossum started working on Python in December 1989, the first public release (version 0.9.0) came out in February 1991."
+      },
+      {
+        "id": "ts-3",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "Where does the name \"Python\" come from?",
+        "hint": "It is not named after the snake. Think of a British comedy show.",
+        "answer": "Python is named after the British comedy show <strong>\"Monty Python's Flying Circus\"</strong>, which Guido van Rossum was a fan of.",
+        "explanation": "Many people assume Python is named after the snake, but Guido van Rossum chose the name because he enjoyed the comedy show \"Monty Python's Flying Circus\". He wanted a short, unique, and slightly mysterious name for his language."
+      },
+      {
+        "id": "ts-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What does it mean when we say Python is an \"interpreted\" language?",
+        "hint": "Think about how the Python interpreter reads your code. Does it read everything at once or one line at a time?",
+        "answer": "An interpreted language is one where the code is executed <strong>line by line</strong> by an interpreter, rather than being converted into machine code all at once by a compiler.",
+        "explanation": "When you run a Python program, the Python interpreter reads the first line, executes it, then moves to the second line, executes it, and so on. This is different from compiled languages like C++ where the entire program is first translated into machine code and then executed. The advantage of interpretation is faster testing and debugging — you see results immediately."
+      },
+      {
+        "id": "ts-5",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "Is Python free to use? What term describes this kind of software?",
+        "hint": "The term means the source code is publicly available and anyone can use it.",
+        "answer": "Yes, Python is completely free. It is called <strong>open-source software</strong>.",
+        "explanation": "Open-source software is software whose source code is made available to the public. Anyone can download it, use it, study how it works, and even contribute to improving it — all without paying any fees. Python's open-source nature has been a key factor in its popularity, as it removes financial barriers to learning programming."
+      },
+      {
+        "id": "ts-6",
+        "type": "short-answer",
+        "difficulty": "Easy",
+        "question": "What file extension do Python files use?",
+        "hint": "It is a two-letter extension that comes from the first two letters of the language name.",
+        "answer": "Python files use the <strong>.py</strong> extension (for example, <code>hello.py</code>).",
+        "explanation": "When you save a Python program, you give it a name ending with .py. This tells your operating system and code editor that the file contains Python code. For example, a program called 'calculator' would be saved as calculator.py."
+      },
+      {
+        "id": "ts-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does \"high-level language\" mean? Give an example of a low-level language.",
+        "hint": "Think about which is easier for humans to read and write.",
+        "answer": "A <strong>high-level language</strong> is a programming language that is closer to human language and farther from machine language. It abstracts away the complex details of the computer hardware. An example of a low-level language is <strong>Assembly language</strong>.",
+        "explanation": "High-level languages like Python, Java, and JavaScript are designed to be easy for humans to read and write. They use words like print, if, while, and for. Low-level languages like Assembly language use instructions that are much closer to what the CPU understands (like MOV, ADD, JMP). Low-level code is harder for humans to read but gives more control over the hardware."
+      },
+      {
+        "id": "ts-8",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "Name any three areas (fields) where Python is used in the real world.",
+        "hint": "Think about websites, data, intelligence, and games.",
+        "answer": "Python is used in (any three of the following): <strong>web development</strong>, <strong>data science</strong>, <strong>artificial intelligence and machine learning</strong>, <strong>game development</strong>, <strong>automation and scripting</strong>, <strong>scientific computing</strong>, and <strong>desktop applications</strong>.",
+        "explanation": "Python's general-purpose nature means it can be applied in many different fields. Each field has specialized Python libraries — for example, Django for web development, pandas for data science, TensorFlow for AI, and Pygame for game development."
+      },
+      {
+        "id": "ts-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is REPL? What does each letter stand for?",
+        "hint": "It has four words. The first is Read, the last is Loop.",
+        "answer": "REPL stands for <strong>Read-Eval-Print-Loop</strong>. It is Python's interactive shell where you type commands and see results immediately.",
+        "explanation": "The REPL works in four steps that repeat: (1) Read — it reads the command you type, (2) Eval (Evaluate) — it processes and evaluates the command, (3) Print — it displays the result, (4) Loop — it goes back to step 1 and waits for your next command. You can open it by typing 'python' or 'python3' in your terminal."
+      },
+      {
+        "id": "ts-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between an interpreter and a compiler?",
+        "hint": "Think about when the translation happens — all at once or one line at a time.",
+        "answer": "An <strong>interpreter</strong> translates and executes code one line at a time. A <strong>compiler</strong> translates the entire program into machine code first, and then the program is executed.",
+        "explanation": "With an interpreter (Python, JavaScript), you can run your code immediately and see errors as they occur in each line. With a compiler (C++, Java), the entire code must be error-free before it can be compiled and run. Interpreted languages are typically slower in execution but faster in development. Compiled languages produce faster programs but take longer to develop and test."
+      },
+      {
+        "id": "ts-11",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Python program that prints your name. For example, if your name is Priya, the output should be: My name is Priya.",
+        "hint": "Use the print() function with your name inside quotes.",
+        "answer": "<pre><code>print(\"My name is Priya.\")</code></pre>",
+        "explanation": "The print() function outputs whatever text you place inside the parentheses and quotes. You can replace 'Priya' with any name. The text inside the quotes is called a 'string' — you will learn more about strings in later chapters."
+      },
+      {
+        "id": "ts-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a Python program that prints the following three lines:<br>Line 1: I am learning Python.<br>Line 2: Python was created in 1991.<br>Line 3: It is a great language!",
+        "hint": "Use three separate print() statements, one for each line.",
+        "answer": "<pre><code>print(\"I am learning Python.\")\nprint(\"Python was created in 1991.\")\nprint(\"It is a great language!\")</code></pre>",
+        "explanation": "Each print() statement outputs its text and moves to the next line automatically. The program executes these three statements in order, from top to bottom, producing three lines of output."
+      },
+      {
+        "id": "ts-13",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "Name any two companies that use Python and explain what they use it for.",
+        "hint": "Think of a video streaming platform and a social media app.",
+        "answer": "<strong>Netflix</strong> uses Python for its recommendation engine and data analysis. <strong>Instagram</strong> uses Python (Django framework) for its entire backend.",
+        "explanation": "Many large companies rely on Python. Google uses it for search and AI, Spotify uses it for data analysis, NASA uses it for scientific research, and many more. The fact that these major companies trust Python proves that it is not just a learning language but a powerful professional tool."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is Python considered easier to learn than Java or C++?",
+        "hint": "Compare how many lines of code you need to write a simple \"Hello World\" program.",
+        "answer": "Python is easier because it has <strong>simpler, cleaner syntax</strong> that reads like English. A \"Hello World\" program takes just one line in Python (<code>print(\"Hello, World!\")</code>) compared to 5-6 lines in Java or C++.",
+        "explanation": "Python removes a lot of the 'boilerplate' code that other languages require. You do not need to declare a main function, include header files, specify data types, or use semicolons at the end of every line. This means beginners can focus on learning programming logic rather than memorizing syntax rules."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is the difference between Python 2 and Python 3? Why should you use Python 3?",
+        "hint": "Think about support dates and compatibility.",
+        "answer": "Python 3 is the current and actively maintained version. Python 2 reached its <strong>end of life on January 1, 2020</strong>, meaning it no longer receives updates, security patches, or bug fixes. Python 3 has improved syntax (like <code>print()</code> as a function), better Unicode support, and many new features.",
+        "explanation": "Python 3 was released in 2008 as a major redesign of the language. It fixed inconsistencies and improved many features, but it was NOT backward-compatible with Python 2. This means some Python 2 code does not work in Python 3. Since Python 2 is no longer supported, all new projects, tutorials, and learning should use Python 3 exclusively."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain what \"general-purpose\" means when describing Python. How is it different from a \"domain-specific\" language?",
+        "hint": "General-purpose means it can do many types of tasks. A domain-specific language is designed for one specific area.",
+        "answer": "A <strong>general-purpose language</strong> like Python can be used for many different types of tasks — web development, data analysis, game development, automation, and more. A <strong>domain-specific language</strong> (DSL) is designed for one specific area. For example, SQL is only for database queries, and HTML is only for structuring web pages.",
+        "explanation": "The strength of a general-purpose language is its versatility — you learn one language and can apply it in many fields. Domain-specific languages are more efficient for their specific task but cannot be used outside that area. Python's general-purpose nature is one of the main reasons it is recommended as a first language."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "If Python is an interpreted language and runs slower than compiled languages like C++, why do so many companies still choose Python?",
+        "hint": "Speed of the program is not always the most important factor. Think about development speed and team productivity.",
+        "answer": "Companies choose Python because <strong>developer productivity is often more important than program execution speed</strong>. Python allows developers to write code faster, read it more easily, and maintain it with less effort. For tasks where speed is critical, Python can use C/C++ extensions or specialized libraries like NumPy that run computationally intensive parts in compiled code.",
+        "explanation": "While Python code runs slower than C++ code, the difference rarely matters for most applications (web servers, data processing scripts, automation). Developer time is expensive — a task that takes 2 days in C++ might take 2 hours in Python. Additionally, Python's rich ecosystem of optimized libraries (NumPy, TensorFlow) handles performance-critical operations in compiled code under the hood, giving you the best of both worlds."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What was the ABC language, and how did it influence the creation of Python?",
+        "hint": "Guido van Rossum worked on ABC before Python. Think about what ABC did well and where it fell short.",
+        "answer": "ABC was a programming language developed at CWI in the Netherlands. It was designed to be easy to teach and use. Guido van Rossum worked on the ABC project and was inspired by its simplicity and readability. However, ABC had limitations — it was not <strong>extensible</strong> (you could not add new features easily) and was not suitable for real-world tasks. Python was created to keep ABC's readability while adding the flexibility and power needed for practical programming.",
+        "explanation": "Understanding Python's origins helps explain its design philosophy. Python inherited ABC's focus on clean syntax and readability but added features like modules, exceptions, and the ability to interface with other languages (like C). This combination of simplicity and power is what made Python successful where ABC was not."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "What is open-source software? Name two advantages and one potential disadvantage of software being open-source.",
+        "hint": "Think about cost, community, and who is responsible for fixing bugs.",
+        "answer": "<strong>Open-source software</strong> is software whose source code is publicly available for anyone to view, use, modify, and distribute. <strong>Advantages:</strong> (1) It is free to use, removing financial barriers, and (2) a large community of developers can contribute to improving it, finding bugs, and adding features. <strong>Potential disadvantage:</strong> There is no single company responsible for guaranteed support — if you encounter a problem, you rely on the community for help rather than a dedicated support team.",
+        "explanation": "Open-source software like Python, Linux, and Firefox has transformed the technology industry. The community-driven development model often produces high-quality software because thousands of developers review and improve the code. However, for businesses that need guaranteed support and service-level agreements, open-source can be a concern, which is why companies like Red Hat offer paid support for open-source products."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What makes a programming language \"beginner-friendly\"? List at least three characteristics.",
+        "hint": "Think about how easy it is to read, how much setup is needed, and how quickly you can see results.",
+        "answer": "A beginner-friendly language has: (1) <strong>Simple, readable syntax</strong> that looks like natural language, (2) <strong>Minimal setup</strong> required to write and run your first program, (3) <strong>Quick feedback</strong> — you can see results immediately, (4) <strong>Good error messages</strong> that help you understand what went wrong, and (5) <strong>Large community</strong> with plenty of tutorials and help available.",
+        "explanation": "Python meets all of these criteria, which is why it is consistently recommended as the best first programming language. A language that requires you to write 10 lines of boilerplate code, understand complex concepts like memory management, and wait through a compilation step before seeing any output is much harder for beginners."
+      },
+      {
+        "id": "mx-2",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "If you wanted to build a website using Python, which two frameworks could you use? Which one is more suitable for large projects?",
+        "hint": "One is \"batteries included\" and the other is lightweight.",
+        "answer": "The two major Python web frameworks are <strong>Django</strong> and <strong>Flask</strong>. Django is more suitable for large projects because it includes everything you need (authentication, database management, admin panel) built-in.",
+        "explanation": "Django follows the 'batteries included' philosophy, providing a complete set of tools for building web applications. It is used by large projects like Instagram and Pinterest. Flask is a 'micro-framework' that provides only the basics and lets you add features as needed, making it better for smaller projects or when you want more control over your choices."
+      },
+      {
+        "id": "mx-3",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Compare writing a \"Hello World\" program in Python with how you would describe the task in plain English. What do you notice?",
+        "hint": "The Python code is very close to the English instruction.",
+        "answer": "In plain English, you might say: \"Print the text Hello World on the screen.\" In Python, you write: <code>print(\"Hello, World!\")</code>. The Python code is remarkably close to the English instruction — it uses the word <strong>print</strong> and puts the text in quotes. This closeness to natural language is what makes Python a \"high-level\" language.",
+        "explanation": "This comparison illustrates why Python is considered readable. High-level languages aim to be as close to human thinking as possible. The closer the code is to natural language, the easier it is to learn, read, write, and debug. This is a deliberate design choice by Guido van Rossum."
+      },
+      {
+        "id": "mx-4",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What is a programming language? Explain in your own words.",
+        "hint": "Think of it as a way to talk to a computer, similar to how you use Hindi or English to talk to people.",
+        "answer": "A programming language is a <strong>set of rules and instructions</strong> that allows humans to communicate with computers. Just like we use natural languages (English, Hindi) to communicate with each other, we use programming languages to tell computers what tasks to perform.",
+        "explanation": "Computers only understand machine language (binary — 0s and 1s), which is extremely difficult for humans to write. Programming languages act as a bridge, allowing us to write instructions in a more human-readable form, which are then translated into machine language by interpreters or compilers."
+      },
+      {
+        "id": "mx-5",
+        "type": "short-answer",
+        "difficulty": "Medium",
+        "question": "Name three Python libraries and the fields they are used in.",
+        "hint": "Think about data analysis, machine learning, and game development.",
+        "answer": "(Any three) <strong>pandas</strong> — data science and data analysis, <strong>TensorFlow</strong> — artificial intelligence and deep learning, <strong>Pygame</strong> — game development, <strong>NumPy</strong> — scientific computing and mathematics, <strong>Django</strong> — web development, <strong>Flask</strong> — web development, <strong>Matplotlib</strong> — data visualization.",
+        "explanation": "Python's power comes largely from its ecosystem of libraries (also called packages or modules). A library is a collection of pre-written code that you can use in your programs. Instead of writing everything from scratch, you import a library and use its functions. This saves enormous amounts of time and effort."
+      },
+      {
+        "id": "mx-6",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Imagine you are explaining to a friend why they should learn programming. They ask: \"But I am not good at maths. Can I still learn to code?\" What would you tell them?",
+        "hint": "Programming is more about logic and problem-solving than advanced mathematics.",
+        "answer": "You do not need to be good at advanced mathematics to learn programming. Programming is primarily about <strong>logical thinking, problem-solving, and giving clear instructions</strong>. Basic arithmetic (addition, subtraction, multiplication, division) is enough to get started. The maths skills you need will develop naturally as you learn to code.",
+        "explanation": "This is one of the most common misconceptions about programming. While some advanced fields like machine learning and graphics programming require strong maths, the vast majority of programming tasks (building websites, writing scripts, creating apps) require only basic mathematical knowledge. What matters more is the ability to think step by step and break problems into smaller parts."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a text editor and an IDE? Which would you recommend for a beginner learning Python?",
+        "hint": "An IDE has more features built in, like running code, debugging, and autocomplete.",
+        "answer": "A <strong>text editor</strong> (like Notepad, Sublime Text) is a simple tool for writing text and code. An <strong>IDE</strong> (Integrated Development Environment, like VS Code, PyCharm, Thonny) provides additional features like code highlighting, auto-completion, debugging tools, and the ability to run code with one click. For beginners, <strong>Thonny</strong> or <strong>VS Code</strong> is recommended.",
+        "explanation": "While you can write Python code in any text editor, an IDE makes the experience much better. It highlights your code with colors (syntax highlighting), suggests completions as you type, shows errors before you run the code, and lets you run and debug programs without leaving the application. Thonny is designed specifically for Python beginners, while VS Code is a versatile editor used by professionals."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why do you think Python became more popular than other beginner-friendly languages like Scratch or Logo?",
+        "hint": "Think about what happens after learning the basics. Can you build real projects with Scratch?",
+        "answer": "While Scratch and Logo are excellent for introducing very young children to programming concepts, they are <strong>limited in what you can build</strong> with them. Python is beginner-friendly AND powerful enough for professional use. You can start learning with simple print statements and eventually build real websites, data analysis tools, AI models, and professional software — all in the same language.",
+        "explanation": "Scratch uses visual blocks and is great for ages 6-10, but you cannot build a website or analyze data with it. Logo is mainly for drawing. Python bridges the gap between 'learning languages' and 'professional languages'. The skills you learn in Python transfer directly to real-world jobs and projects, making the time investment worthwhile."
+      },
+      {
+        "id": "mx-9",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a Python program that prints the result of multiplying 12 by 15.",
+        "hint": "Use the print() function with the multiplication operator (*).",
+        "answer": "<pre><code>print(12 * 15)</code></pre>\nOutput: 180",
+        "explanation": "You can put mathematical expressions directly inside the print() function. Python evaluates the expression first (12 * 15 = 180) and then prints the result. Notice that we do NOT put quotes around 12 * 15 — if we did, Python would print the text '12 * 15' instead of calculating the answer."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What would happen if Python were a compiled language instead of an interpreted language? How would the development process change?",
+        "hint": "Think about the extra step needed before running code and what happens when there is an error.",
+        "answer": "If Python were compiled, you would need to <strong>compile the entire program before running it</strong>. Every time you made a change, you would have to recompile. If there were any errors anywhere in the code, the entire compilation would fail and nothing would run. The REPL would not exist because there would be no line-by-line execution.",
+        "explanation": "The interpreted nature of Python is a huge advantage for learning and rapid development. Being able to test one line at a time, see immediate results, and use the REPL for experimentation makes the learning process much smoother. Compiled languages trade this convenience for faster program execution."
+      },
+      {
+        "id": "mx-11",
+        "type": "short-answer",
+        "difficulty": "Hard",
+        "question": "Research question: Find out what the \"Zen of Python\" is. How do you display it in the Python REPL? Name any three of its principles.",
+        "hint": "There is a special command you can type in the Python REPL. It starts with 'import'.",
+        "answer": "The Zen of Python is a collection of <strong>19 guiding principles</strong> for writing Python code. You display it by typing <code>import this</code> in the Python REPL. Three principles include: (1) <strong>\"Beautiful is better than ugly\"</strong>, (2) <strong>\"Simple is better than complex\"</strong>, (3) <strong>\"Readability counts\"</strong>.",
+        "explanation": "The Zen of Python (written by Tim Peters) captures the philosophy behind Python's design. It emphasizes readability, simplicity, and practicality. These principles guide Python developers in writing clean, maintainable code. Try typing 'import this' in your Python REPL to read all 19 principles."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Python is dynamically typed, while Java is statically typed. Without knowing these terms yet, based on what you have learned about Python's design philosophy, which approach do you think Python would prefer and why?",
+        "hint": "Python's design philosophy favors simplicity and less code. Which approach sounds simpler?",
+        "answer": "Python prefers <strong>dynamic typing</strong>, meaning you do not have to declare the type of a variable when you create it. This aligns with Python's philosophy of keeping code simple and readable. In Java (static typing), you must specify whether a variable holds a number, text, or other type before using it.",
+        "explanation": "Even though you have not studied variables or typing yet, this question helps you apply Python's design philosophy. Python consistently chooses the approach that requires less code and is more readable. Dynamic typing means writing <code>x = 5</code> instead of <code>int x = 5</code>. This is a trade-off: dynamic typing is easier to write but can lead to certain types of errors that static typing would catch early. You will explore this in detail in the Variables and Data Types chapter."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Who created the Python programming language?",
+        "options": [
+          "Dennis Ritchie",
+          "Guido van Rossum",
+          "James Gosling",
+          "Bjarne Stroustrup"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Guido van Rossum created Python in 1991. Dennis Ritchie created the C programming language. James Gosling created Java. Bjarne Stroustrup created C++."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "In which year was Python first released?",
+        "options": [
+          "1989",
+          "1991",
+          "1995",
+          "2000"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python was first released in February 1991. 1989 is when Guido van Rossum started working on it (during Christmas holidays), but it was not released until 1991. 1995 is when Java was released. 2000 is when Python 2.0 was released."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Python is named after:",
+        "options": [
+          "A species of snake",
+          "A Greek god",
+          "A British comedy show",
+          "A Dutch city"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python is named after the British comedy show \"Monty Python's Flying Circus\". Although the Python logo features intertwined snakes, the language name comes from the comedy show. It is not named after a Greek god or a Dutch city."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What type of language is Python?",
+        "options": [
+          "Compiled language",
+          "Interpreted language",
+          "Assembled language",
+          "Machine language"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python is an interpreted language — the interpreter reads and executes code one line at a time. A compiled language (like C++) requires the entire code to be converted to machine code before execution. Assembly language is a low-level language that uses mnemonics. Machine language is binary code (0s and 1s) that the CPU directly executes."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which of the following is the correct way to print \"Hello\" in Python 3?",
+        "options": [
+          "print \"Hello\"",
+          "echo(\"Hello\")",
+          "print(\"Hello\")",
+          "console.log(\"Hello\")"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python 3, print() is a function that requires parentheses. Option A (<code>print \"Hello\"</code>) was valid in Python 2 but causes an error in Python 3. Option B (<code>echo</code>) is a command used in PHP and shell scripting, not Python. Option D (<code>console.log</code>) is used in JavaScript, not Python."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What file extension is used for Python source code files?",
+        "options": [
+          ".python",
+          ".pt",
+          ".py",
+          ".pn"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python files use the .py extension (for example, hello.py). The other extensions (.python, .pt, .pn) are not standard Python file extensions. The .pt extension is sometimes used for PyTorch model files, not source code."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does REPL stand for?",
+        "options": [
+          "Read-Execute-Print-Loop",
+          "Read-Eval-Print-Loop",
+          "Run-Evaluate-Process-Loop",
+          "Read-Edit-Print-Load"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> REPL stands for Read-Eval-Print-Loop. Read (reads input), Eval/Evaluate (evaluates the expression), Print (displays the result), Loop (repeats the process). Option A is close but uses 'Execute' instead of 'Eval'. Options C and D use incorrect terms."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which of the following is NOT a real use of Python?",
+        "options": [
+          "Building websites",
+          "Analyzing data",
+          "Designing CPU hardware",
+          "Creating AI models"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python is NOT used for designing CPU hardware. Hardware design uses specialized languages like Verilog or VHDL. Python IS used for building websites (Django, Flask), analyzing data (pandas, NumPy), and creating AI models (TensorFlow, PyTorch)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which command opens the Python interactive shell in the terminal?",
+        "options": [
+          "start python",
+          "open python",
+          "python",
+          "run python"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> You type <code>python</code> (or <code>python3</code> on some systems) in the terminal to open the interactive shell (REPL). Options A, B, and D are not valid commands for starting the Python interpreter."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Python is described as a \"high-level\" language. What does this mean?",
+        "options": [
+          "It can only run on powerful computers",
+          "It is closer to human language than machine language",
+          "It is more advanced than all other languages",
+          "It runs at a higher speed than other languages"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> High-level means the language is closer to human language (English) and abstracts away the complex details of the hardware. Option A is wrong — Python runs on any computer. Option C is wrong — 'high-level' is a classification, not a quality ranking. Option D is wrong — high-level languages are often slower than low-level languages because of the abstraction."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Which company's backend is built entirely using Python's Django framework?",
+        "options": [
+          "Facebook",
+          "Twitter",
+          "Instagram",
+          "Amazon"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Instagram's entire backend is built with Python using the Django framework. Facebook primarily uses PHP (Hack). Twitter initially used Ruby on Rails and later moved to Scala and Java. Amazon primarily uses Java."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What happens when there is an error on line 5 of a Python program?",
+        "options": [
+          "The entire program refuses to start",
+          "Lines 1-4 execute, then the program stops at line 5 with an error",
+          "The program skips line 5 and continues",
+          "Python automatically fixes the error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Since Python is interpreted (line by line), lines 1-4 execute normally, and the program stops at line 5 when the error is encountered. Option A describes compiler behavior (where no lines run if there is an error). Option C is wrong — Python does not skip errors. Option D is wrong — Python reports errors but does not fix them automatically."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Medium",
+        "question": "Which of the following is a Python library used for data analysis?",
+        "options": [
+          "React",
+          "pandas",
+          "Angular",
+          "Bootstrap"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> pandas is a Python library for data analysis and manipulation. React and Angular are JavaScript frameworks for building user interfaces. Bootstrap is a CSS framework for responsive web design. None of the other options are Python libraries."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Which language inspired the creation of Python?",
+        "options": [
+          "C++",
+          "Java",
+          "ABC",
+          "BASIC"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python was inspired by the ABC language, which Guido van Rossum worked on at CWI. ABC was designed to be easy to learn, and Python inherited this philosophy. C++ was created by Bjarne Stroustrup. Java was created after Python (1995). BASIC is an older teaching language that did not directly influence Python."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "When did Python 2 reach its end of life (no more updates or support)?",
+        "options": [
+          "January 1, 2015",
+          "January 1, 2018",
+          "January 1, 2020",
+          "January 1, 2022"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python 2 reached its end of life on January 1, 2020. After this date, Python 2 no longer receives any updates, security patches, or bug fixes. The other dates are incorrect — the end-of-life was originally planned for 2015 but was extended to 2020."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why does Python use an interpreter instead of a compiler?",
+        "options": [
+          "Because compilers did not exist when Python was created",
+          "Because interpreted code runs faster than compiled code",
+          "Because interpretation allows for quicker development, testing, and debugging",
+          "Because Python code is too complex for a compiler"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python uses an interpreter because it allows developers to test code quickly, see results line by line, and use the interactive REPL. Option A is wrong — compilers existed long before Python. Option B is wrong — compiled code typically runs faster, not slower. Option D is wrong — Python code is simpler than most compiled languages."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which of the following statements about Python is FALSE?",
+        "options": [
+          "Python is open-source and free",
+          "Python can be used for web development",
+          "Python code must be compiled before running",
+          "Python was created by Guido van Rossum"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is the FALSE statement and therefore the correct answer.</strong> Python is an interpreted language — it does NOT need to be compiled before running. The interpreter executes code line by line. Options A, B, and D are all true statements about Python."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output of typing 2 ** 10 in the Python REPL?",
+        "options": [
+          "20",
+          "210",
+          "1024",
+          "100"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>**</code> operator in Python means 'to the power of'. So 2 ** 10 means 2 raised to the power of 10, which equals 1024 (2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2 x 2). Option A (20) would be 2 * 10. Option B (210) is just the digits combined. Option D (100) would be 10 ** 2."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "Python is best described as:",
+        "options": [
+          "A low-level, compiled, domain-specific language",
+          "A high-level, interpreted, general-purpose language",
+          "A low-level, interpreted, general-purpose language",
+          "A high-level, compiled, domain-specific language"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python is high-level (close to human language), interpreted (runs line by line), and general-purpose (used for many different types of tasks). Every other option has at least one incorrect term. Python is NOT low-level, NOT compiled, and NOT domain-specific."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What will happen if you type Print(\"Hello\") in Python? (Note the capital P)",
+        "options": [
+          "It will print Hello",
+          "It will print hello in lowercase",
+          "It will show a NameError",
+          "It will show a SyntaxError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python is case-sensitive, so <code>Print</code> and <code>print</code> are different names. Since <code>Print</code> (with capital P) is not defined anywhere, Python raises a <code>NameError: name 'Print' is not defined</code>. Option A is wrong because the capital P matters. Option B is wrong — Python does not auto-correct case. Option D is wrong — it is a NameError, not a SyntaxError."
+      },
+      {
+        "id": "mcq-21",
+        "difficulty": "Hard",
+        "question": "Which of the following is NOT a feature that Python inherited from the ABC language?",
+        "options": [
+          "Clean and readable syntax",
+          "Focus on ease of learning",
+          "Object-oriented programming",
+          "Interactive usage"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Object-oriented programming was NOT a feature of the ABC language. ABC focused on clean syntax, ease of learning, and interactive usage. Python added object-oriented programming (classes, inheritance) as one of its improvements over ABC, drawing inspiration from languages like C++ and Modula-3."
+      },
+      {
+        "id": "mcq-22",
+        "difficulty": "Hard",
+        "question": "Which of the following Python frameworks is described as following the \"batteries included\" philosophy?",
+        "options": [
+          "Flask",
+          "Pygame",
+          "Django",
+          "NumPy"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Django follows the 'batteries included' philosophy, meaning it provides everything you need to build a web application (authentication, database management, admin panel, URL routing) out of the box. Flask is a lightweight micro-framework that does not include these by default. Pygame is for game development, not web development. NumPy is for numerical computing, not web development."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Print Your Full Name",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints your full name on one line. For example, if your name is Aarav Sharma, the output should be exactly: My name is Aarav Sharma.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "My name is Aarav Sharma.",
+        "constraints": "Use the print() function. The output must be exactly one line.",
+        "solution": "print(\"My name is Aarav Sharma.\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Draw a Box with Stars",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints a rectangular box made of asterisk (*) characters. The box should be 5 characters wide and 4 lines tall, with hollow inside.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "* * * * *\n*       *\n*       *\n* * * * *",
+        "constraints": "Use only print() statements. You should use exactly 4 print() statements.",
+        "solution": "print(\"* * * * *\")\nprint(\"*       *\")\nprint(\"*       *\")\nprint(\"* * * * *\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Print a Short Poem",
+        "difficulty": "Easy",
+        "description": "Write a Python program that prints the following 4-line poem (or any poem of your choice with at least 4 lines), with each line on a separate line of output.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Twinkle, twinkle, little star,\nHow I wonder what you are.\nUp above the world so high,\nLike a diamond in the sky.",
+        "constraints": "Use separate print() statements for each line. Minimum 4 lines of output.",
+        "solution": "print(\"Twinkle, twinkle, little star,\")\nprint(\"How I wonder what you are.\")\nprint(\"Up above the world so high,\")\nprint(\"Like a diamond in the sky.\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Calculator Challenge",
+        "difficulty": "Medium",
+        "description": "Use Python as a calculator to solve the following expression and print the result: (25 + 17) * 3. Do NOT calculate the answer yourself — let Python do the math.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "126",
+        "constraints": "You must use the mathematical expression inside the print() function. Do not hardcode the answer (do not write print(126)).",
+        "solution": "print((25 + 17) * 3)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Monday Timetable",
+        "difficulty": "Medium",
+        "description": "Write a Python program that prints your school timetable for Monday in a formatted way. Include at least 5 periods with subject names and timings.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "=== Monday Timetable ===\n1. 08:00 - 08:45  Mathematics\n2. 08:45 - 09:30  English\n3. 09:30 - 10:15  Science\n4. 10:30 - 11:15  Hindi\n5. 11:15 - 12:00  Computer Science",
+        "constraints": "Use print() statements. The timetable must be neatly formatted with at least 5 entries. Include a title line.",
+        "solution": "print(\"=== Monday Timetable ===\")\nprint(\"1. 08:00 - 08:45  Mathematics\")\nprint(\"2. 08:45 - 09:30  English\")\nprint(\"3. 09:30 - 10:15  Science\")\nprint(\"4. 10:30 - 11:15  Hindi\")\nprint(\"5. 11:15 - 12:00  Computer Science\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Triangle Pattern",
+        "difficulty": "Medium",
+        "description": "Write a Python program that prints the following right-angled triangle pattern using only print() statements and asterisk (*) characters.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "*\n* *\n* * *\n* * * *\n* * * * *",
+        "constraints": "Use exactly 5 print() statements, one for each row. Do not use loops (you have not learned them yet).",
+        "solution": "print(\"*\")\nprint(\"* *\")\nprint(\"* * *\")\nprint(\"* * * *\")\nprint(\"* * * * *\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Add Comments to a Program",
+        "difficulty": "Medium",
+        "description": "The following program has no comments. Rewrite it with a comment above each line explaining what it does:<br><code>print(\"Welcome to Python!\")<br>print(2 + 3)<br>print(\"Goodbye!\")</code>",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Welcome to Python!\n5\nGoodbye!",
+        "constraints": "Add at least one comment (starting with #) before each print statement. The output should remain the same as the original program.",
+        "solution": "# Print a welcome message to the user\nprint(\"Welcome to Python!\")\n# Calculate and print the sum of 2 and 3\nprint(2 + 3)\n# Print a farewell message\nprint(\"Goodbye!\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Multiplication Table for 7",
+        "difficulty": "Hard",
+        "description": "Write a Python program that prints the first 5 lines of the multiplication table for 7. Each line should show the multiplication expression and the result. Use Python to calculate the answers (do not hardcode them).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35",
+        "constraints": "Use print() with mathematical expressions. Do not calculate the answers yourself — let Python compute 7*1, 7*2, etc. You have not learned string formatting yet, so use separate print statements.",
+        "solution": "print(\"7 x 1 =\", 7 * 1)\nprint(\"7 x 2 =\", 7 * 2)\nprint(\"7 x 3 =\", 7 * 3)\nprint(\"7 x 4 =\", 7 * 4)\nprint(\"7 x 5 =\", 7 * 5)"
+      },
+      {
+        "id": "cc-9",
+        "title": "Personal Introduction Card",
+        "difficulty": "Hard",
+        "description": "Write a Python program that prints a neatly formatted personal introduction card inside a border. Include your name, age, city, favourite subject, and a fun fact about yourself.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "+---------------------------+\n|   INTRODUCTION CARD       |\n+---------------------------+\n| Name    : Rohan Mehta     |\n| Age     : 14              |\n| City    : Bangalore       |\n| Subject : Computer Science|\n| Fun Fact: I love chess!   |\n+---------------------------+",
+        "constraints": "Use print() statements to create the border and content. The card should have at least 5 fields of personal information. Try to align the content neatly.",
+        "solution": "print(\"+---------------------------+\")\nprint(\"|   INTRODUCTION CARD       |\")\nprint(\"+---------------------------+\")\nprint(\"| Name    : Rohan Mehta     |\")\nprint(\"| Age     : 14              |\")\nprint(\"| City    : Bangalore       |\")\nprint(\"| Subject : Computer Science|\")\nprint(\"| Fun Fact: I love chess!   |\")\nprint(\"+---------------------------+\")"
+      },
+      {
+        "id": "cc-10",
+        "title": "Mathematical Expressions Challenge",
+        "difficulty": "Hard",
+        "description": "Write a Python program that calculates and prints the results of ALL of the following expressions, each on a separate line with a label:<br>1. The sum of all numbers from 1 to 5 (1+2+3+4+5)<br>2. 2 raised to the power of 16<br>3. The remainder when 100 is divided by 7<br>4. Integer division of 100 by 7 (whole number result only)<br>5. The result of (15 + 5) * (10 - 3) / 2",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Sum of 1 to 5 = 15\n2 to the power 16 = 65536\n100 mod 7 = 2\n100 divided by 7 (integer) = 14\nExpression result = 70.0",
+        "constraints": "Use Python operators to calculate each result. The % operator gives remainder, the // operator gives integer division, and ** gives exponentiation. Do not hardcode any answers.",
+        "solution": "print(\"Sum of 1 to 5 =\", 1 + 2 + 3 + 4 + 5)\nprint(\"2 to the power 16 =\", 2 ** 16)\nprint(\"100 mod 7 =\", 100 % 7)\nprint(\"100 divided by 7 (integer) =\", 100 // 7)\nprint(\"Expression result =\", (15 + 5) * (10 - 3) / 2)"
+      }
+    ]
+  }
+}

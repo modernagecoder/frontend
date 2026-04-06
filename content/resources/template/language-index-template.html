@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{INDEX_TITLE}} | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{{INDEX_DESCRIPTION}}">
+    <meta name="keywords" content="{{INDEX_KEYWORDS}}">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+    <meta property="og:title" content="{{INDEX_TITLE}} | Modern Age Coders">
+    <meta property="og:description" content="{{INDEX_DESCRIPTION}}">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/{{LANGUAGE_SLUG}}">
+    <meta name="twitter:title" content="{{INDEX_TITLE}} | Modern Age Coders">
+    <meta name="twitter:description" content="{{INDEX_DESCRIPTION}}">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {{STRUCTURED_DATA}}
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+</head>
+
+<body class="resource-index-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">{{LANGUAGE_NAME}}</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <h1 class="resource-title">{{INDEX_TITLE}}</h1>
+            <div class="index-intro">{{INDEX_INTRO}}</div>
+            <div class="index-stats">
+                <span class="badge badge-chapter">{{CHAPTERS_COUNT}} Chapters</span>
+                <span class="badge badge-questions">{{QUESTIONS_COUNT}}+ Questions</span>
+                <span class="badge badge-free">Free</span>
+            </div>
+        </header>
+
+        <!-- Chapter Listing -->
+        <section class="chapter-listing">
+            <h2>Chapters</h2>
+            {{CHAPTERS_HTML}}
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>{{COURSE_CTA_TEXT}}</p>
+            <a href="{{COURSE_CTA_URL}}" class="cta-button-outline">{{COURSE_CTA_LINK_TEXT}}</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+
+</body>
+
+</html>
