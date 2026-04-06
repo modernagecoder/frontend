@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Inheritance and Polymorphism | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Inheritance and Polymorphism in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="inheritance and polymorphism practice, python questions, python practice problems, inheritance and polymorphism exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+    <meta property="og:title" content="Practice Questions - Inheritance and Polymorphism | Python | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Inheritance and Polymorphism in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice">
+    <meta name="twitter:title" content="Practice Questions - Inheritance and Polymorphism | Python | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Inheritance and Polymorphism in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Inheritance and Polymorphism",
+    "description": "60+ practice questions on Inheritance and Polymorphism in Python.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Inheritance and Polymorphism"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance and Polymorphism",
+        "item": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/inheritance-and-polymorphism">Inheritance and Polymorphism</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Inheritance and Polymorphism</h1>
+            <a href="/resources/python/inheritance-and-polymorphism" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>class Animal:
+    def speak(self):
+        return "..."
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+d = Dog()
+print(d.speak())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Dog overrides the speak method from Animal.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Woof!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Parent:
+    def __init__(self, name):
+        self.name = name
+
+class Child(Parent):
+    pass
+
+c = Child("Aarav")
+print(c.name)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Child inherits __init__ from Parent because it does not define its own.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Aarav</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class A:
+    x = 10
+
+class B(A):
+    pass
+
+class C(A):
+    x = 20
+
+print(B.x)
+print(C.x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">B inherits x from A. C overrides x with its own value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Vehicle:
+    def type(self):
+        return "Vehicle"
+
+class Car(Vehicle):
+    def type(self):
+        return "Car"
+
+c = Car()
+print(isinstance(c, Car))
+print(isinstance(c, Vehicle))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">isinstance checks if the object is an instance of the class or its parents.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>True</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base:
+    def greet(self):
+        return "Hello from Base"
+
+class Derived(Base):
+    def greet(self):
+        return "Hello from Derived"
+
+b = Base()
+d = Derived()
+print(b.greet())
+print(d.greet())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Each object calls its own class's version of greet().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Hello from Base</code><br><code>Hello from Derived</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Person:
+    def __init__(self, name):
+        self.name = name
+    
+    def info(self):
+        return self.name
+
+class Student(Person):
+    def __init__(self, name, grade):
+        super().__init__(name)
+        self.grade = grade
+    
+    def info(self):
+        return f"{super().info()} (Grade: {self.grade})"
+
+s = Student("Priya", "A+")
+print(s.info())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">super().info() calls Person's info method.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Priya (Grade: A+)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A:
+    def method(self):
+        return "A"
+
+class B(A):
+    def method(self):
+        return "B"
+
+class C(A):
+    def method(self):
+        return "C"
+
+class D(B, C):
+    pass
+
+print(D().method())
+print([cls.__name__ for cls in D.__mro__])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">D inherits from B first, then C. The MRO checks B before C.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>B</code><br><code>['D', 'B', 'C', 'A', 'object']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class X:
+    def show(self):
+        return "X"
+
+class Y(X):
+    pass
+
+class Z(X):
+    def show(self):
+        return "Z"
+
+class W(Y, Z):
+    pass
+
+print(W().show())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Y does not define show(). Check the MRO to see where Python looks next.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Z</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        return "..."
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+animals = [Dog("Rex"), Cat("Luna"), Dog("Buddy")]
+for a in animals:
+    print(f"{a.name}: {a.speak()}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Each object calls its own class's speak() method.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Rex: Woof!</code><br><code>Luna: Meow!</code><br><code>Buddy: Woof!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base:
+    def __init__(self):
+        print("Base.__init__")
+
+class Middle(Base):
+    def __init__(self):
+        print("Middle.__init__")
+        super().__init__()
+
+class Child(Middle):
+    def __init__(self):
+        print("Child.__init__")
+        super().__init__()
+
+c = Child()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">super() calls the next class in the MRO.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Child.__init__</code><br><code>Middle.__init__</code><br><code>Base.__init__</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class A:
+    def __init__(self):
+        print("A", end=" ")
+
+class B(A):
+    def __init__(self):
+        print("B", end=" ")
+        super().__init__()
+
+class C(A):
+    def __init__(self):
+        print("C", end=" ")
+        super().__init__()
+
+class D(B, C):
+    def __init__(self):
+        print("D", end=" ")
+        super().__init__()
+
+d = D()
+print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">MRO: D -> B -> C -> A. super() follows the MRO, not the direct parent.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>D B C A </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Pet:
+    def __init__(self, owner):
+        self.owner = owner
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)
+        self.breed = breed
+
+d = Dog("Rex", "Labrador")
+print(d.name)
+print(d.breed)
+print(issubclass(Dog, Animal))
+print(issubclass(Dog, Pet))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Dog inherits from Animal only, not from Pet.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Rex</code><br><code>Labrador</code><br><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Validator:
+    def validate(self, value):
+        return True
+
+class RangeValidator(Validator):
+    def __init__(self, low, high):
+        self.low = low
+        self.high = high
+    
+    def validate(self, value):
+        return self.low <= value <= self.high
+
+class TypeValidator(Validator):
+    def __init__(self, expected_type):
+        self.expected_type = expected_type
+    
+    def validate(self, value):
+        return isinstance(value, self.expected_type)
+
+validators = [RangeValidator(1, 100), TypeValidator(int)]
+test_values = [50, 200, "hello"]
+
+for val in test_values:
+    results = [v.validate(val) for v in validators]
+    print(f"{val!r}: {results}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Each validator checks independently. Follow the logic for each value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>50: [True, True]</code><br><code>200: [False, True]</code><br><code>'hello': [False, False]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base:
+    def method(self):
+        return self.value()
+    
+    def value(self):
+        return 1
+
+class Child(Base):
+    def value(self):
+        return 2
+
+b = Base()
+c = Child()
+print(b.method())
+print(c.method())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">self.value() calls the version of value() based on the actual type of self.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Counter:
+    def __init__(self, start=0):
+        self.count = start
+    
+    def __add__(self, other):
+        return Counter(self.count + other.count)
+    
+    def __str__(self):
+        return f"Counter({self.count})"
+
+a = Counter(10)
+b = Counter(20)
+c = a + b
+print(c)
+print(type(c).__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">__add__ creates a new Counter with the sum of counts.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Counter(30)</code><br><code>Counter</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the Method Resolution Order (MRO) and why does it matter?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about multiple inheritance and which method Python calls when there are multiple options.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">MRO is the order in which Python searches classes for a method when using inheritance. It is computed using the C3 linearization algorithm. MRO matters because in multiple inheritance, a method might exist in several parent classes, and the MRO determines which one is called. You can inspect it with <code>ClassName.__mro__</code> or <code>ClassName.mro()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">In the diamond problem, why does <code>super().__init__()</code> in B's __init__ call C's __init__ instead of A's?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">super() follows the MRO, not the direct parent.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">In a diamond inheritance (D -> B, C -> A), the MRO is D -> B -> C -> A. When B's __init__ calls <code>super().__init__()</code>, Python looks at the MRO relative to the current object (which is a D instance). The next class after B in D's MRO is C, not A. So super() in B delegates to C, ensuring each class's __init__ is called exactly once.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Shape:
+    def area(self):
+        return 0
+
+class Square(Shape):
+    def __init__(self, side):
+        self.side = side
+    
+    def area(self):
+        return self.side ** 2
+
+s = Square(5)
+print(s.area())
+print(isinstance(s, Shape))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Square overrides area() and inherits from Shape.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>25</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>class Flyable:
+    def fly(self):
+        return f"{self.name} can fly"
+
+class Swimmable:
+    def swim(self):
+        return f"{self.name} can swim"
+
+class Duck(Flyable, Swimmable):
+    def __init__(self, name):
+        self.name = name
+
+d = Duck("Donald")
+print(d.fly())
+print(d.swim())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Duck inherits methods from both Flyable and Swimmable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Donald can fly</code><br><code>Donald can swim</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Logger:
+    def log(self, message):
+        print(f"[LOG] {message}")
+
+class Database(Logger):
+    def save(self, data):
+        self.log(f"Saving: {data}")
+        return True
+
+class Cache(Logger):
+    def store(self, key, value):
+        self.log(f"Caching: {key}={value}")
+
+db = Database()
+cache = Cache()
+db.save("user_data")
+cache.store("name", "Aarav")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Both Database and Cache inherit log() from Logger.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[LOG] Saving: user_data</code><br><code>[LOG] Caching: name=Aarav</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class A:
+    def __str__(self):
+        return "A"
+
+class B(A):
+    pass
+
+class C(A):
+    def __str__(self):
+        return "C"
+
+class D(B, C):
+    pass
+
+print(D())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">D does not define __str__. Follow the MRO: D -> B -> C -> A.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+    
+    def pay(self):
+        return self.salary
+
+class Manager(Employee):
+    def __init__(self, name, salary, bonus):
+        super().__init__(name, salary)
+        self.bonus = bonus
+    
+    def pay(self):
+        return super().pay() + self.bonus
+
+m = Manager("Aarav", 50000, 10000)
+print(m.pay())
+print(m.name)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Manager.pay() calls super().pay() which returns the base salary.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>60000</code><br><code>Aarav</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Iterable:
+    def __init__(self, data):
+        self.data = data
+    
+    def __len__(self):
+        return len(self.data)
+    
+    def __getitem__(self, index):
+        return self.data[index]
+
+class NameList(Iterable):
+    def __contains__(self, name):
+        return name.lower() in [n.lower() for n in self.data]
+
+names = NameList(["Aarav", "Priya", "Rohan"])
+print(len(names))
+print(names[1])
+print("PRIYA" in names)
+print("Meera" in names)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">__contains__ does case-insensitive checking.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>3</code><br><code>Priya</code><br><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Base:
+    count = 0
+    
+    def __init__(self):
+        Base.count += 1
+
+class ChildA(Base):
+    pass
+
+class ChildB(Base):
+    pass
+
+a1 = ChildA()
+a2 = ChildA()
+b1 = ChildB()
+
+print(Base.count)
+print(ChildA.count)
+print(ChildB.count)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">All __init__ calls increment Base.count. It is a shared class variable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>3</code><br><code>3</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class JsonMixin:
+    def to_dict(self):
+        return self.__dict__.copy()
+
+class Person(JsonMixin):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+class Student(Person):
+    def __init__(self, name, age, grade):
+        super().__init__(name, age)
+        self.grade = grade
+
+s = Student("Aarav", 16, "A")
+print(s.to_dict())
+print(isinstance(s, JsonMixin))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Student inherits from Person which inherits from JsonMixin.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>{'name': 'Aarav', 'age': 16, 'grade': 'A'}</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is duck typing and how does it relate to polymorphism?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what Python checks when you call a method on an object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Duck typing is Python's approach to type checking: if an object has the right methods, it works, regardless of its actual class. 'If it walks like a duck and quacks like a duck, it is a duck.' This is a form of polymorphism that does not require inheritance. Any object with a <code>speak()</code> method can be used where speak() is called, whether it inherits from a common base or not.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the difference between method overriding and method overloading? Does Python support both?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Overriding: same method name in parent and child. Overloading: same name with different parameter lists.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><strong>Method overriding</strong> is when a child class defines a method with the same name as the parent's, replacing its behavior. Python fully supports this. <strong>Method overloading</strong> is when multiple methods have the same name but different parameter lists (common in Java). Python does NOT support traditional overloading -- defining a method twice replaces the first definition. Python achieves similar flexibility through default parameters, *args, and **kwargs.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does class Dog(Animal) mean?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Dog is a function that returns an Animal</li><li><span class="mcq-option-label">B.</span> Dog inherits from Animal</li><li><span class="mcq-option-label">C.</span> Dog is the same as Animal</li><li><span class="mcq-option-label">D.</span> Dog contains an Animal object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The parentheses indicate inheritance: Dog is a subclass of Animal. It inherits all attributes and methods from Animal.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does super() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a new superclass</li><li><span class="mcq-option-label">B.</span> Returns a proxy that delegates method calls to the parent class</li><li><span class="mcq-option-label">C.</span> Deletes the current class</li><li><span class="mcq-option-label">D.</span> Makes the current class abstract</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>super()</code> returns a proxy object that delegates method calls to the parent (or next class in the MRO). Most commonly used as <code>super().__init__()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is method overriding?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Defining a method with the same name in a child class that replaces the parent&#39;s version</li><li><span class="mcq-option-label">B.</span> Defining multiple methods with the same name but different parameters</li><li><span class="mcq-option-label">C.</span> Calling a parent method from a child</li><li><span class="mcq-option-label">D.</span> Deleting a method from the parent class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: A</strong><br><strong>A is correct.</strong> Method overriding occurs when a child class defines a method with the same name as the parent's. The child's version is used for objects of the child class.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is polymorphism?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A class that cannot be instantiated</li><li><span class="mcq-option-label">B.</span> The ability to use the same method name with different types, each producing different behavior</li><li><span class="mcq-option-label">C.</span> A method that takes multiple parameters</li><li><span class="mcq-option-label">D.</span> A class with multiple constructors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> Polymorphism means 'many forms.' The same method name (e.g., area()) works differently for different object types (Circle, Rectangle, Triangle).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">In Python, all classes implicitly inherit from which class?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Base</li><li><span class="mcq-option-label">B.</span> Object</li><li><span class="mcq-option-label">C.</span> object</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> In Python 3, all classes implicitly inherit from <code>object</code> (lowercase). <code>class MyClass:</code> is equivalent to <code>class MyClass(object):</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the MRO for class D(B, C) where B and C both inherit from A?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> D -&gt; A -&gt; B -&gt; C</li><li><span class="mcq-option-label">B.</span> D -&gt; B -&gt; A -&gt; C</li><li><span class="mcq-option-label">C.</span> D -&gt; B -&gt; C -&gt; A -&gt; object</li><li><span class="mcq-option-label">D.</span> D -&gt; C -&gt; B -&gt; A -&gt; object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> C3 linearization gives D -> B -> C -> A -> object. B is listed before C in the class definition, so it comes first. A comes after both B and C because it is their common parent.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does isinstance(obj, cls) check?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> If obj is exactly of type cls</li><li><span class="mcq-option-label">B.</span> If obj is an instance of cls or any of its subclasses</li><li><span class="mcq-option-label">C.</span> If cls is a subclass of obj&#39;s class</li><li><span class="mcq-option-label">D.</span> If obj and cls are the same object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>isinstance(obj, cls)</code> returns True if obj is an instance of cls <strong>or any class that inherits from cls</strong>. It checks the full inheritance chain.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is duck typing?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A naming convention for variables</li><li><span class="mcq-option-label">B.</span> A type of inheritance</li><li><span class="mcq-option-label">C.</span> If an object has the required methods, it can be used regardless of its class</li><li><span class="mcq-option-label">D.</span> A way to convert types automatically</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Duck typing means Python does not check an object's class to determine if it has the right interface. If the required methods exist, Python uses them. 'If it walks like a duck and quacks like a duck, it is a duck.'</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What happens if you try to instantiate a class with an unimplemented @abstractmethod?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The abstract methods return None</li><li><span class="mcq-option-label">B.</span> TypeError is raised</li><li><span class="mcq-option-label">C.</span> The methods are automatically created</li><li><span class="mcq-option-label">D.</span> Nothing, it works normally</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> You cannot instantiate a class that has unimplemented abstract methods. Python raises <code>TypeError: Can't instantiate abstract class X with abstract method Y</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is a mixin?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A class that mixes two variables together</li><li><span class="mcq-option-label">B.</span> A class designed to be inherited alongside other classes, providing specific functionality</li><li><span class="mcq-option-label">C.</span> A function that combines two classes</li><li><span class="mcq-option-label">D.</span> A type of abstract class</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> A mixin is a small class that provides specific functionality (like serialization, logging) and is designed to be inherited alongside a main class. Mixins typically do not have __init__ and are not meant to be used alone.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does super().__init__() call in a diamond inheritance D(B, C) when called from B?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A&#39;s __init__ (B&#39;s direct parent)</li><li><span class="mcq-option-label">B.</span> C&#39;s __init__ (next in MRO after B)</li><li><span class="mcq-option-label">C.</span> D&#39;s __init__ (the original caller)</li><li><span class="mcq-option-label">D.</span> object&#39;s __init__</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> super() follows the MRO, not the direct parent. For a D instance, the MRO is D->B->C->A->object. When B calls super().__init__(), the next class after B in the MRO is C, so C's __init__ is called.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the purpose of returning NotImplemented from __add__?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To raise a NotImplementedError</li><li><span class="mcq-option-label">B.</span> To signal that this operand cannot handle the operation, letting Python try the other operand&#39;s __radd__</li><li><span class="mcq-option-label">C.</span> To return None</li><li><span class="mcq-option-label">D.</span> To prevent addition entirely</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Returning <code>NotImplemented</code> tells Python that this operand does not support the operation. Python then tries the right operand's <code>__radd__</code> method. This is different from raising NotImplementedError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between issubclass() and isinstance()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They do the same thing</li><li><span class="mcq-option-label">B.</span> issubclass checks class relationships; isinstance checks object-class relationships</li><li><span class="mcq-option-label">C.</span> isinstance checks class relationships; issubclass checks object-class relationships</li><li><span class="mcq-option-label">D.</span> issubclass only works with abstract classes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>issubclass(Dog, Animal)</code> checks if the Dog <strong>class</strong> inherits from Animal. <code>isinstance(d, Animal)</code> checks if the <strong>object</strong> d is an instance of Animal or its subclasses.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the __add__ method used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adding attributes to a class</li><li><span class="mcq-option-label">B.</span> Defining the behavior of the + operator for objects of the class</li><li><span class="mcq-option-label">C.</span> Adding methods to a class at runtime</li><li><span class="mcq-option-label">D.</span> Concatenating strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>__add__(self, other)</code> defines what happens when you use the + operator with objects of the class: <code>a + b</code> calls <code>a.__add__(b)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">If a child class does not define __init__, what happens when you create an instance?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> TypeError is raised</li><li><span class="mcq-option-label">B.</span> The parent&#39;s __init__ is called</li><li><span class="mcq-option-label">C.</span> The object is created with no attributes</li><li><span class="mcq-option-label">D.</span> Python creates a default __init__</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> If the child does not define __init__, it inherits the parent's __init__. The parent's initialization code runs as if you were creating a parent instance, setting all the parent's attributes.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does the abc module provide?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Alphabet-related string operations</li><li><span class="mcq-option-label">B.</span> Abstract Base Classes for defining interfaces</li><li><span class="mcq-option-label">C.</span> Automatic backup and cleanup utilities</li><li><span class="mcq-option-label">D.</span> Advanced boolean comparison tools</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>abc</code> module provides <code>ABC</code> class and <code>@abstractmethod</code> decorator for creating Abstract Base Classes. ABCs define interfaces that subclasses must implement.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Can a class inherit from multiple abstract base classes?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, only one ABC is allowed</li><li><span class="mcq-option-label">B.</span> Yes, but it must implement all abstract methods from all parents</li><li><span class="mcq-option-label">C.</span> Yes, but abstract methods are optional from the second parent</li><li><span class="mcq-option-label">D.</span> No, abstract classes cannot be used in multiple inheritance</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> A class can inherit from multiple ABCs. It must implement every @abstractmethod from every abstract parent. If any are missing, the class itself becomes abstract and cannot be instantiated.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What special method enables the len() function on custom objects?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> __size__</li><li><span class="mcq-option-label">B.</span> __length__</li><li><span class="mcq-option-label">C.</span> __len__</li><li><span class="mcq-option-label">D.</span> __count__</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> Defining <code>__len__(self)</code> allows <code>len(obj)</code> to work on custom objects. It should return a non-negative integer.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Shape Hierarchy</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a Shape base class with an area() method returning 0. Create Circle(radius), Rectangle(width, height), and Triangle(base, height) subclasses, each overriding area(). Write a function total_area(shapes) that returns the sum of all areas.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Circle: 78.54
+Rectangle: 24
+Triangle: 12.0
+Total: 114.54</div>
+                </div><div class="challenge-constraints">Use inheritance and method overriding. The function should work with any list of Shape objects.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class Shape:
+    def area(self):
+        return 0
+    
+    def __str__(self):
+        return f&quot;{type(self).__name__}: {self.area()}&quot;
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    def area(self):
+        return round(3.14159 * self.radius ** 2, 2)
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    def area(self):
+        return self.width * self.height
+
+class Triangle(Shape):
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+    def area(self):
+        return 0.5 * self.base * self.height
+
+def total_area(shapes):
+    return sum(s.area() for s in shapes)
+
+shapes = [Circle(5), Rectangle(4, 6), Triangle(6, 4)]
+for s in shapes:
+    print(s)
+print(f&quot;Total: {total_area(shapes)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Employee Pay System</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an Employee base class with name and base_salary. Create Manager (with bonus), Developer (with overtime_hours at 500/hr), and Intern (gets 50% of base). Each overrides calculate_pay(). Print payroll for a team.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Aarav (Manager): Rs.60000
+Priya (Developer): Rs.45000
+Rohan (Intern): Rs.10000
+Total payroll: Rs.115000</div>
+                </div><div class="challenge-constraints">Use super().__init__() in all subclasses.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">class Employee:
+    def __init__(self, name, base_salary):
+        self.name = name
+        self.base_salary = base_salary
+    
+    def calculate_pay(self):
+        return self.base_salary
+    
+    def role(self):
+        return type(self).__name__
+
+class Manager(Employee):
+    def __init__(self, name, base_salary, bonus):
+        super().__init__(name, base_salary)
+        self.bonus = bonus
+    
+    def calculate_pay(self):
+        return self.base_salary + self.bonus
+
+class Developer(Employee):
+    def __init__(self, name, base_salary, overtime_hours):
+        super().__init__(name, base_salary)
+        self.overtime_hours = overtime_hours
+    
+    def calculate_pay(self):
+        return self.base_salary + self.overtime_hours * 500
+
+class Intern(Employee):
+    def calculate_pay(self):
+        return int(self.base_salary * 0.5)
+
+team = [Manager(&quot;Aarav&quot;, 50000, 10000), Developer(&quot;Priya&quot;, 40000, 10), Intern(&quot;Rohan&quot;, 20000)]
+total = 0
+for emp in team:
+    pay = emp.calculate_pay()
+    total += pay
+    print(f&quot;{emp.name} ({emp.role()}): Rs.{pay}&quot;)
+print(f&quot;Total payroll: Rs.{total}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Animal Sound Polymorphism</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create an Animal base class and at least 4 animal subclasses (Dog, Cat, Cow, Duck), each with a sound() method. Write a function animal_chorus(animals) that calls sound() on each. Demonstrate duck typing by adding a Robot class (not inheriting from Animal) that also has sound().</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Rex the Dog says: Woof!
+Luna the Cat says: Meow!
+Gauri the Cow says: Moo!
+Daisy the Duck says: Quack!
+R2D2 the Robot says: Beep!</div>
+                </div><div class="challenge-constraints">Demonstrate polymorphism and duck typing.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">class Animal:
+    def __init__(self, name):
+        self.name = name
+    def sound(self):
+        return &quot;...&quot;
+    def __str__(self):
+        return f&quot;{self.name} the {type(self).__name__} says: {self.sound()}&quot;
+
+class Dog(Animal):
+    def sound(self): return &quot;Woof!&quot;
+
+class Cat(Animal):
+    def sound(self): return &quot;Meow!&quot;
+
+class Cow(Animal):
+    def sound(self): return &quot;Moo!&quot;
+
+class Duck(Animal):
+    def sound(self): return &quot;Quack!&quot;
+
+class Robot:  # Not an Animal!
+    def __init__(self, name):
+        self.name = name
+    def sound(self):
+        return &quot;Beep!&quot;
+    def __str__(self):
+        return f&quot;{self.name} the Robot says: {self.sound()}&quot;
+
+def animal_chorus(things):
+    for thing in things:
+        print(thing)
+
+animal_chorus([Dog(&quot;Rex&quot;), Cat(&quot;Luna&quot;), Cow(&quot;Gauri&quot;), Duck(&quot;Daisy&quot;), Robot(&quot;R2D2&quot;)])</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Sortable Collection with Operator Overloading</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Student class with name and gpa. Implement __lt__ (for sorting), __eq__, __str__, and __repr__. Create a list of students and sort them by GPA (descending). Also implement __add__ that merges two student lists.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sorted by GPA (desc):
+1. Priya (GPA: 9.8)
+2. Aarav (GPA: 9.2)
+3. Meera (GPA: 8.5)
+4. Rohan (GPA: 7.9)</div>
+                </div><div class="challenge-constraints">Use __lt__ for comparisons. sorted() should work with Student objects.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">class Student:
+    def __init__(self, name, gpa):
+        self.name = name
+        self.gpa = gpa
+    
+    def __lt__(self, other):
+        return self.gpa &lt; other.gpa
+    
+    def __eq__(self, other):
+        return isinstance(other, Student) and self.gpa == other.gpa
+    
+    def __str__(self):
+        return f&quot;{self.name} (GPA: {self.gpa})&quot;
+    
+    def __repr__(self):
+        return f&quot;Student(&#39;{self.name}&#39;, {self.gpa})&quot;
+
+students = [
+    Student(&quot;Aarav&quot;, 9.2),
+    Student(&quot;Priya&quot;, 9.8),
+    Student(&quot;Rohan&quot;, 7.9),
+    Student(&quot;Meera&quot;, 8.5),
+]
+
+sorted_students = sorted(students, reverse=True)
+print(&quot;Sorted by GPA (desc):&quot;)
+for i, s in enumerate(sorted_students, 1):
+    print(f&quot;{i}. {s}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Plugin System with Abstract Base Class</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create an abstract Plugin class with abstract methods: name(), version(), and execute(data). Create three concrete plugins: UpperCasePlugin, ReversePlugin, and CountPlugin. Write a PluginManager that registers plugins and runs all of them on given data.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Running UpperCase v1.0: HELLO WORLD
+Running Reverse v1.0: dlrow olleh
+Running Counter v1.0: 11 characters</div>
+                </div><div class="challenge-constraints">Use ABC and @abstractmethod. PluginManager should work with any Plugin subclass.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">from abc import ABC, abstractmethod
+
+class Plugin(ABC):
+    @abstractmethod
+    def name(self): pass
+    
+    @abstractmethod
+    def version(self): pass
+    
+    @abstractmethod
+    def execute(self, data): pass
+
+class UpperCasePlugin(Plugin):
+    def name(self): return &quot;UpperCase&quot;
+    def version(self): return &quot;1.0&quot;
+    def execute(self, data): return data.upper()
+
+class ReversePlugin(Plugin):
+    def name(self): return &quot;Reverse&quot;
+    def version(self): return &quot;1.0&quot;
+    def execute(self, data): return data[::-1]
+
+class CountPlugin(Plugin):
+    def name(self): return &quot;Counter&quot;
+    def version(self): return &quot;1.0&quot;
+    def execute(self, data): return f&quot;{len(data)} characters&quot;
+
+class PluginManager:
+    def __init__(self):
+        self.plugins = []
+    
+    def register(self, plugin):
+        self.plugins.append(plugin)
+    
+    def run_all(self, data):
+        for plugin in self.plugins:
+            result = plugin.execute(data)
+            print(f&quot;Running {plugin.name()} v{plugin.version()}: {result}&quot;)
+
+pm = PluginManager()
+pm.register(UpperCasePlugin())
+pm.register(ReversePlugin())
+pm.register(CountPlugin())
+pm.run_all(&quot;hello world&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: MRO Explorer</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a diamond inheritance hierarchy: class A at the top, B and C inheriting from A, and D inheriting from both B and C. Each class should have a method who_am_i() that returns its class name plus super().who_am_i(). Print the MRO and the chain of who_am_i() calls.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">MRO: D -&gt; B -&gt; C -&gt; A -&gt; object
+D -&gt; B -&gt; C -&gt; A</div>
+                </div><div class="challenge-constraints">Use super() in each class. Handle the base case in A.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">class A:
+    def who_am_i(self):
+        return &quot;A&quot;
+
+class B(A):
+    def who_am_i(self):
+        return &quot;B -&gt; &quot; + super().who_am_i()
+
+class C(A):
+    def who_am_i(self):
+        return &quot;C -&gt; &quot; + super().who_am_i()
+
+class D(B, C):
+    def who_am_i(self):
+        return &quot;D -&gt; &quot; + super().who_am_i()
+
+d = D()
+mro_names = [cls.__name__ for cls in D.__mro__]
+print(f&quot;MRO: {&#39; -&gt; &#39;.join(mro_names)}&quot;)
+print(d.who_am_i())</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Mixin-Based Logging System</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create TimestampMixin (adds timestamp to __str__), SerializableMixin (to_dict method), and ValidatableMixin (abstract validate method). Create a User class using all three mixins. The User should validate that name is non-empty and age is between 0 and 150.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[2026-04-06] User: Aarav, 16
+{&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16}
+Valid: True
+Invalid name: Name cannot be empty
+Invalid age: Age must be between 0 and 150</div>
+                </div><div class="challenge-constraints">Each mixin should provide one specific feature. User combines all three.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">from abc import ABC, abstractmethod
+
+class TimestampMixin:
+    def timestamped_str(self):
+        return f&quot;[2026-04-06] {str(self)}&quot;
+
+class SerializableMixin:
+    def to_dict(self):
+        return {k: v for k, v in self.__dict__.items() if not k.startswith(&#39;_&#39;)}
+
+class ValidatableMixin(ABC):
+    @abstractmethod
+    def validate(self):
+        pass
+
+class User(TimestampMixin, SerializableMixin, ValidatableMixin):
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def validate(self):
+        errors = []
+        if not self.name or not self.name.strip():
+            errors.append(&quot;Name cannot be empty&quot;)
+        if not isinstance(self.age, int) or self.age &lt; 0 or self.age &gt; 150:
+            errors.append(&quot;Age must be between 0 and 150&quot;)
+        return (len(errors) == 0, errors)
+    
+    def __str__(self):
+        return f&quot;User: {self.name}, {self.age}&quot;
+
+u1 = User(&quot;Aarav&quot;, 16)
+print(u1.timestamped_str())
+print(u1.to_dict())
+valid, errors = u1.validate()
+print(f&quot;Valid: {valid}&quot;)
+
+u2 = User(&quot;&quot;, 16)
+valid, errors = u2.validate()
+print(f&quot;Invalid name: {errors[0]}&quot;)
+
+u3 = User(&quot;Rohan&quot;, 200)
+valid, errors = u3.validate()
+print(f&quot;Invalid age: {errors[0]}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Custom Collection with Full Operator Support</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a SortedList class that maintains a sorted list of numbers. Implement __len__, __getitem__, __contains__, __add__ (merge two SortedLists), __eq__, __str__, __iter__, and an insert method that maintains sorted order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">SortedList([1, 3, 5, 7, 9])
+Length: 5
+Index 2: 5
+5 in list: True
+Merged: SortedList([1, 2, 3, 4, 5, 6, 7, 9])</div>
+                </div><div class="challenge-constraints">The list must always remain sorted. insert() should place the element in the correct position.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">class SortedList:
+    def __init__(self, items=None):
+        self._data = sorted(items) if items else []
+    
+    def insert(self, value):
+        for i, item in enumerate(self._data):
+            if value &lt;= item:
+                self._data.insert(i, value)
+                return
+        self._data.append(value)
+    
+    def __len__(self):
+        return len(self._data)
+    
+    def __getitem__(self, index):
+        return self._data[index]
+    
+    def __contains__(self, value):
+        for item in self._data:
+            if item == value:
+                return True
+            if item &gt; value:
+                return False
+        return False
+    
+    def __add__(self, other):
+        return SortedList(self._data + other._data)
+    
+    def __eq__(self, other):
+        return isinstance(other, SortedList) and self._data == other._data
+    
+    def __iter__(self):
+        return iter(self._data)
+    
+    def __str__(self):
+        return f&quot;SortedList({self._data})&quot;
+
+s1 = SortedList([5, 1, 9, 3, 7])
+print(s1)
+print(f&quot;Length: {len(s1)}&quot;)
+print(f&quot;Index 2: {s1[2]}&quot;)
+print(f&quot;5 in list: {5 in s1}&quot;)
+
+s2 = SortedList([2, 4, 6])
+merged = s1 + s2
+print(f&quot;Merged: {merged}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/object-oriented-programming/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Object-Oriented Programming in Python</span>
+        </a>
+            <a href="/resources/python/modules-and-packages/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Modules and Packages in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/inheritance-and-polymorphism" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

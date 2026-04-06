@@ -1,0 +1,733 @@
+{
+  "title": "Exception Handling in Python",
+  "slug": "exception-handling",
+  "language": "python",
+  "chapter": 20,
+  "difficulty": "Advanced",
+  "readingTime": "40 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Exception Handling in Python - try, except, else, finally, raise | Modern Age Coders",
+    "description": "Learn Python exception handling including try/except blocks, catching specific exceptions, else and finally clauses, raising exceptions, custom exception classes, and EAFP vs LBYL. Includes 58+ practice questions with output prediction and coding challenges.",
+    "keywords": "python try except, exception handling python, python error handling, python try except tutorial, python raise exception, python custom exception, python finally, python try except else, python ValueError, python exception hierarchy"
+  },
+  "content": {
+    "what": "<h2>What Is Exception Handling?</h2><p>An <strong>exception</strong> is an error that occurs during the execution of a program. Unlike a syntax error (which Python catches before running your code), an exception happens while the program is running. If not handled, exceptions crash your program and display a traceback.</p><pre><code># This causes an exception at runtime\nnumber = int(\"hello\")  # ValueError: invalid literal for int()\nprint(\"This never runs\")</code></pre><p>Exception handling is the mechanism that lets you <strong>anticipate</strong> errors and respond to them gracefully instead of crashing. Python uses the <code>try</code>/<code>except</code> structure:</p><pre><code>try:\n    number = int(\"hello\")\nexcept ValueError:\n    print(\"That is not a valid number.\")\n\nprint(\"Program continues normally.\")</code></pre><p>With exception handling, the program catches the error, handles it, and continues executing.</p><h3>Exceptions vs Syntax Errors</h3><p><strong>Syntax errors</strong> are detected before the program runs. They are mistakes in the code structure itself:</p><pre><code># SyntaxError: detected before execution\nif True\n    print(\"missing colon\")</code></pre><p><strong>Exceptions</strong> occur during execution, when the code is syntactically correct but something goes wrong:</p><pre><code># ZeroDivisionError: detected at runtime\nresult = 10 / 0</code></pre><p>You can handle exceptions with try/except. You cannot handle syntax errors -- you must fix the code.</p>",
+    "why": "<h2>Why Is Exception Handling Important?</h2><h3>1. Preventing Crashes</h3><p>Without exception handling, a single unexpected input or missing file can crash an entire application. If Aarav builds a calculator and the user divides by zero, the program should show a helpful message, not a traceback. Exception handling keeps programs running when things go wrong.</p><h3>2. Handling Unpredictable Situations</h3><p>Many errors cannot be predicted at coding time. The user enters text instead of a number. A file gets deleted between when you check for it and when you open it. A network request times out. Exception handling lets you write code that deals with these uncertain situations.</p><h3>3. Separating Normal Code from Error Code</h3><p>Without exceptions, error-checking logic pollutes your main code. Every operation would need an if-else check. With try/except, you write your main logic cleanly in the <code>try</code> block and put error handling separately in <code>except</code> blocks. This makes code easier to read and maintain.</p><h3>4. Communicating Errors Up the Call Stack</h3><p>When a function deep inside your program detects a problem, it can <code>raise</code> an exception. The exception travels up through all the calling functions until something catches it. This is far more powerful than returning error codes, because the exception cannot be accidentally ignored.</p><h3>5. Resource Cleanup</h3><p>The <code>finally</code> clause guarantees cleanup code runs regardless of whether an exception occurred. This is critical for closing files, releasing network connections, and freeing resources. Without <code>finally</code>, resource leaks are difficult to prevent.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The try/except Block</h3><p>The basic structure places risky code in <code>try</code> and error-handling code in <code>except</code>:</p><pre><code>try:\n    # Code that might raise an exception\n    result = 10 / 0\nexcept ZeroDivisionError:\n    # Code that runs if the exception occurs\n    print(\"Cannot divide by zero!\")</code></pre><p>If no exception occurs in the <code>try</code> block, the <code>except</code> block is skipped entirely. If an exception occurs, Python immediately jumps to the matching <code>except</code> block. Any code after the error in the <code>try</code> block is not executed.</p><h3>2. Catching Specific Exceptions</h3><p>Python has many built-in exception types. Catching specific exceptions is important because it prevents you from accidentally hiding unrelated bugs:</p><pre><code># Common exception types\ntry:\n    x = int(\"abc\")        # ValueError\nexcept ValueError:\n    print(\"Invalid number format\")\n\ntry:\n    result = 10 / 0       # ZeroDivisionError\nexcept ZeroDivisionError:\n    print(\"Division by zero\")\n\ntry:\n    lst = [1, 2, 3]\n    print(lst[10])         # IndexError\nexcept IndexError:\n    print(\"Index out of range\")\n\ntry:\n    d = {\"a\": 1}\n    print(d[\"z\"])          # KeyError\nexcept KeyError:\n    print(\"Key not found\")\n\ntry:\n    print(undefined_var)   # NameError\nexcept NameError:\n    print(\"Variable not defined\")\n\ntry:\n    result = \"hello\" + 5   # TypeError\nexcept TypeError:\n    print(\"Type mismatch\")\n\ntry:\n    with open(\"missing.txt\") as f:  # FileNotFoundError\n        pass\nexcept FileNotFoundError:\n    print(\"File does not exist\")</code></pre><h3>3. Multiple except Blocks</h3><p>A single try block can have multiple except blocks, each handling a different exception type:</p><pre><code>def safe_divide(a, b):\n    try:\n        result = a / b\n        return result\n    except ZeroDivisionError:\n        print(\"Error: cannot divide by zero\")\n        return None\n    except TypeError:\n        print(\"Error: both arguments must be numbers\")\n        return None\n\nprint(safe_divide(10, 2))    # 5.0\nprint(safe_divide(10, 0))    # Error message, then None\nprint(safe_divide(10, \"a\"))  # Error message, then None</code></pre><p>Python checks <code>except</code> blocks from top to bottom and enters the first one that matches. Only one except block runs per exception.</p><h3>4. Capturing the Exception Object (as)</h3><p>Use <code>as</code> to capture the exception object, which contains the error message:</p><pre><code>try:\n    number = int(\"xyz\")\nexcept ValueError as e:\n    print(f\"Error type: {type(e).__name__}\")\n    print(f\"Error message: {e}\")\n\n# Output:\n# Error type: ValueError\n# Error message: invalid literal for int() with base 10: 'xyz'</code></pre><p>The variable <code>e</code> holds the exception instance. <code>str(e)</code> gives the error message. <code>type(e).__name__</code> gives the exception class name.</p><h3>5. The else Clause</h3><p>The <code>else</code> block runs only if <strong>no exception</strong> occurred in the <code>try</code> block:</p><pre><code>try:\n    number = int(\"42\")\nexcept ValueError:\n    print(\"Invalid input\")\nelse:\n    print(f\"Successfully converted: {number}\")\n    print(f\"Doubled: {number * 2}\")\n\n# Output:\n# Successfully converted: 42\n# Doubled: 84</code></pre><p>Why use <code>else</code> instead of putting the code at the end of <code>try</code>? Because code in <code>else</code> is <strong>not protected</strong> by the except blocks. If an error occurs in <code>else</code>, it is not caught. This keeps error handling precise -- you only catch exceptions from the specific code that might fail.</p><h3>6. The finally Clause</h3><p>The <code>finally</code> block <strong>always</strong> runs, whether an exception occurred or not, and even if a <code>return</code> statement was executed:</p><pre><code>def read_file(filename):\n    f = None\n    try:\n        f = open(filename, \"r\")\n        return f.read()\n    except FileNotFoundError:\n        print(f\"{filename} not found\")\n        return None\n    finally:\n        if f:\n            f.close()\n            print(\"File closed in finally block\")\n\ncontent = read_file(\"data.txt\")</code></pre><p><code>finally</code> is guaranteed to execute. It runs after try (if no exception), after except (if exception was caught), and even after return statements. This makes it ideal for cleanup operations.</p><h3>7. Complete try/except/else/finally Structure</h3><pre><code>try:\n    # Code that might fail\n    value = int(input(\"Enter a number: \"))\nexcept ValueError:\n    # Runs if ValueError occurs\n    print(\"That is not a valid number\")\nexcept Exception as e:\n    # Runs for any other exception\n    print(f\"Unexpected error: {e}\")\nelse:\n    # Runs only if try succeeded (no exception)\n    print(f\"You entered: {value}\")\nfinally:\n    # Always runs, no matter what\n    print(\"Input processing complete\")</code></pre><p>The order must be: try, except (one or more), else (optional), finally (optional). You cannot rearrange them.</p><h3>8. Raising Exceptions</h3><p>Use <code>raise</code> to throw an exception deliberately when your code detects an invalid condition:</p><pre><code>def set_age(age):\n    if not isinstance(age, int):\n        raise TypeError(\"Age must be an integer\")\n    if age < 0 or age > 150:\n        raise ValueError(f\"Age must be between 0 and 150, got {age}\")\n    print(f\"Age set to {age}\")\n\nset_age(25)      # Age set to 25\n\ntry:\n    set_age(-5)  # Raises ValueError\nexcept ValueError as e:\n    print(f\"Error: {e}\")\n\ntry:\n    set_age(\"twenty\")  # Raises TypeError\nexcept TypeError as e:\n    print(f\"Error: {e}\")</code></pre><p>Raising exceptions is how functions communicate that something went wrong. The caller is responsible for handling them.</p><h3>9. Custom Exception Classes</h3><p>Create your own exception types by inheriting from <code>Exception</code>:</p><pre><code>class InsufficientFundsError(Exception):\n    def __init__(self, balance, amount):\n        self.balance = balance\n        self.amount = amount\n        super().__init__(\n            f\"Cannot withdraw {amount}. Balance is only {balance}.\"\n        )\n\nclass BankAccount:\n    def __init__(self, owner, balance=0):\n        self.owner = owner\n        self.balance = balance\n    \n    def withdraw(self, amount):\n        if amount > self.balance:\n            raise InsufficientFundsError(self.balance, amount)\n        self.balance -= amount\n        return self.balance\n\naccount = BankAccount(\"Aarav\", 1000)\ntry:\n    account.withdraw(1500)\nexcept InsufficientFundsError as e:\n    print(f\"Error: {e}\")\n    print(f\"Tried: {e.amount}, Available: {e.balance}\")</code></pre><p>Custom exceptions make your code self-documenting. <code>InsufficientFundsError</code> is far more descriptive than a generic <code>ValueError</code>.</p><h3>10. Exception Hierarchy</h3><p>All exceptions in Python form a hierarchy. The base class is <code>BaseException</code>:</p><pre><code>BaseException\n  +-- SystemExit\n  +-- KeyboardInterrupt\n  +-- Exception\n       +-- ValueError\n       +-- TypeError\n       +-- KeyError\n       +-- IndexError\n       +-- FileNotFoundError (subclass of OSError)\n       +-- ZeroDivisionError (subclass of ArithmeticError)\n       +-- NameError\n       +-- AttributeError\n       +-- RuntimeError\n       +-- StopIteration</code></pre><p>Catching a parent class catches all its children. <code>except Exception</code> catches nearly everything (except <code>SystemExit</code> and <code>KeyboardInterrupt</code>). This is why catching specific exceptions is preferred -- <code>except Exception</code> is too broad and can hide bugs.</p><h3>11. LBYL vs EAFP</h3><p>Two philosophies for handling potential errors:</p><p><strong>LBYL (Look Before You Leap)</strong>: Check conditions before performing the operation:</p><pre><code># LBYL style\nif key in dictionary:\n    value = dictionary[key]\nelse:\n    value = \"default\"</code></pre><p><strong>EAFP (Easier to Ask Forgiveness than Permission)</strong>: Try the operation and handle the exception if it fails:</p><pre><code># EAFP style (Pythonic)\ntry:\n    value = dictionary[key]\nexcept KeyError:\n    value = \"default\"</code></pre><p>Python's culture favors EAFP. It is often faster (no duplicate lookup), handles race conditions better (the file might be deleted between checking and opening), and is considered more Pythonic. However, LBYL is fine for simple checks like <code>if x != 0</code> before division.</p><h3>12. Practical Patterns</h3><h4>Safe Input Validation Loop</h4><pre><code>def get_integer(prompt):\n    while True:\n        try:\n            return int(input(prompt))\n        except ValueError:\n            print(\"Invalid input. Please enter a whole number.\")\n\nage = get_integer(\"Enter your age: \")</code></pre><h4>Safe File Reading</h4><pre><code>def safe_read(filename):\n    try:\n        with open(filename, \"r\") as f:\n            return f.read()\n    except FileNotFoundError:\n        print(f\"File '{filename}' not found.\")\n        return None\n    except PermissionError:\n        print(f\"No permission to read '{filename}'.\")\n        return None</code></pre><h4>Safe Division</h4><pre><code>def safe_divide(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return float('inf') if a > 0 else float('-inf')\n    except TypeError:\n        raise TypeError(f\"Cannot divide {type(a).__name__} by {type(b).__name__}\")</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Basic try/except with Multiple Exception Types",
+        "code": "# Handling different exceptions separately\ndef process_data(data, index, divisor):\n    try:\n        value = data[index]\n        result = value / divisor\n        number = int(result)\n        return number\n    except IndexError:\n        print(f\"Error: index {index} is out of range for list of length {len(data)}\")\n    except ZeroDivisionError:\n        print(\"Error: cannot divide by zero\")\n    except TypeError:\n        print(\"Error: invalid types for division\")\n    except ValueError:\n        print(\"Error: cannot convert to integer\")\n    return None\n\ndata = [10, 20, 30]\n\nprint(process_data(data, 1, 3))     # Normal case\nprint(process_data(data, 10, 2))    # IndexError\nprint(process_data(data, 0, 0))     # ZeroDivisionError\nprint(process_data(data, 0, \"x\"))   # TypeError",
+        "language": "python",
+        "explanation": "Each <code>except</code> block handles a specific exception type with a descriptive message. Python checks blocks top to bottom and enters the first match. Only one except block executes per exception. The function returns <code>None</code> for any error case.",
+        "output": "6\nError: index 10 is out of range for list of length 3\nNone\nError: cannot divide by zero\nNone\nError: invalid types for division\nNone"
+      },
+      {
+        "title": "The else and finally Clauses",
+        "code": "def divide(a, b):\n    try:\n        result = a / b\n    except ZeroDivisionError:\n        print(\"  except: Division by zero!\")\n        return None\n    except TypeError as e:\n        print(f\"  except: {e}\")\n        return None\n    else:\n        print(f\"  else: Division successful: {a}/{b} = {result}\")\n        return result\n    finally:\n        print(\"  finally: This always runs\")\n\nprint(\"Test 1:\")\nprint(f\"  Result: {divide(10, 3)}\")\n\nprint(\"\\nTest 2:\")\nprint(f\"  Result: {divide(10, 0)}\")\n\nprint(\"\\nTest 3:\")\nprint(f\"  Result: {divide(10, 'a')}\")",
+        "language": "python",
+        "explanation": "The <code>else</code> block runs only when no exception occurs. The <code>finally</code> block runs in every case -- after <code>try</code> succeeds, after <code>except</code> handles an error, or even after a <code>return</code> statement. Notice that <code>finally</code> runs before the function actually returns.",
+        "output": "Test 1:\n  else: Division successful: 10/3 = 3.3333333333333335\n  finally: This always runs\n  Result: 3.3333333333333335\n\nTest 2:\n  except: Division by zero!\n  finally: This always runs\n  Result: None\n\nTest 3:\n  except: unsupported operand type(s) for /: 'int' and 'str'\n  finally: This always runs\n  Result: None"
+      },
+      {
+        "title": "Capturing Exceptions with as",
+        "code": "# Different ways to use the exception object\nerrors = [\n    (\"int('abc')\", \"ValueError\"),\n    (\"1/0\", \"ZeroDivisionError\"),\n    (\"[1,2][5]\", \"IndexError\"),\n    (\"{'a':1}['z']\", \"KeyError\"),\n]\n\nfor code_str, expected in errors:\n    try:\n        eval(code_str)\n    except Exception as e:\n        print(f\"Code: {code_str}\")\n        print(f\"  Type: {type(e).__name__}\")\n        print(f\"  Message: {e}\")\n        print(f\"  Args: {e.args}\")\n        print()",
+        "language": "python",
+        "explanation": "The <code>as e</code> syntax captures the exception object. <code>type(e).__name__</code> gives the exception class name. <code>str(e)</code> or just <code>e</code> in an f-string gives the error message. <code>e.args</code> is a tuple of all arguments passed to the exception constructor.",
+        "output": "Code: int('abc')\n  Type: ValueError\n  Message: invalid literal for int() with base 10: 'abc'\n  Args: (\"invalid literal for int() with base 10: 'abc'\",)\n\nCode: 1/0\n  Type: ZeroDivisionError\n  Message: division by zero\n  Args: ('division by zero',)\n\nCode: [1,2][5]\n  Type: IndexError\n  Message: list index out of range\n  Args: ('list index out of range',)\n\nCode: {'a':1}['z']\n  Type: KeyError\n  Message: 'z'\n  Args: ('z',)"
+      },
+      {
+        "title": "Raising Exceptions and Custom Exceptions",
+        "code": "class InvalidAgeError(Exception):\n    def __init__(self, age, message=\"Age is not valid\"):\n        self.age = age\n        self.message = message\n        super().__init__(self.message)\n    \n    def __str__(self):\n        return f\"{self.message}: {self.age}\"\n\ndef register_student(name, age):\n    if not isinstance(name, str) or len(name) == 0:\n        raise ValueError(\"Name must be a non-empty string\")\n    if not isinstance(age, int):\n        raise TypeError(f\"Age must be int, got {type(age).__name__}\")\n    if age < 5 or age > 25:\n        raise InvalidAgeError(age, \"Student age must be between 5 and 25\")\n    print(f\"Registered: {name}, age {age}\")\n\n# Test cases\ntest_cases = [\n    (\"Aarav\", 16),\n    (\"\", 15),\n    (\"Priya\", \"sixteen\"),\n    (\"Rohan\", 3),\n]\n\nfor name, age in test_cases:\n    try:\n        register_student(name, age)\n    except (ValueError, TypeError, InvalidAgeError) as e:\n        print(f\"Error for ({name!r}, {age!r}): {type(e).__name__}: {e}\")",
+        "language": "python",
+        "explanation": "Custom exception <code>InvalidAgeError</code> inherits from <code>Exception</code> and carries extra data (the invalid age). The <code>register_student</code> function raises different exceptions for different problems. The caller catches all three types using a tuple in the except clause.",
+        "output": "Registered: Aarav, age 16\nError for ('', 15): ValueError: Name must be a non-empty string\nError for ('Priya', 'sixteen'): TypeError: Age must be int, got str\nError for ('Rohan', 3): InvalidAgeError: Student age must be between 5 and 25: 3"
+      },
+      {
+        "title": "EAFP vs LBYL Comparison",
+        "code": "data = {\"name\": \"Aarav\", \"age\": 16, \"scores\": [85, 92, 78]}\n\n# LBYL (Look Before You Leap)\nprint(\"--- LBYL style ---\")\nif \"grade\" in data:\n    print(f\"Grade: {data['grade']}\")\nelse:\n    print(\"Grade not found\")\n\nif isinstance(data.get(\"scores\"), list) and len(data[\"scores\"]) > 0:\n    avg = sum(data[\"scores\"]) / len(data[\"scores\"])\n    print(f\"Average: {avg}\")\nelse:\n    print(\"No valid scores\")\n\n# EAFP (Easier to Ask Forgiveness than Permission)\nprint(\"\\n--- EAFP style ---\")\ntry:\n    print(f\"Grade: {data['grade']}\")\nexcept KeyError:\n    print(\"Grade not found\")\n\ntry:\n    avg = sum(data[\"scores\"]) / len(data[\"scores\"])\n    print(f\"Average: {avg}\")\nexcept (KeyError, TypeError, ZeroDivisionError):\n    print(\"No valid scores\")",
+        "language": "python",
+        "explanation": "LBYL checks conditions before acting. EAFP tries the operation and handles exceptions. Both achieve the same result, but EAFP is considered more Pythonic. EAFP handles edge cases naturally (like the key being deleted between check and access in multithreaded code).",
+        "output": "--- LBYL style ---\nGrade not found\nAverage: 85.0\n\n--- EAFP style ---\nGrade not found\nAverage: 85.0"
+      },
+      {
+        "title": "Practical Pattern: Input Validation Loop",
+        "code": "def get_integer_in_range(prompt, low, high):\n    while True:\n        try:\n            value = int(input(prompt))\n        except ValueError:\n            print(f\"  Please enter a whole number.\")\n            continue\n        \n        if low <= value <= high:\n            return value\n        else:\n            print(f\"  Number must be between {low} and {high}.\")\n\n# Simulating the function without actual input\ndef demo_validation():\n    test_inputs = [\"abc\", \"3.14\", \"200\", \"42\"]\n    index = 0\n    \n    while index < len(test_inputs):\n        user_input = test_inputs[index]\n        index += 1\n        print(f\"Input: {user_input}\")\n        try:\n            value = int(user_input)\n        except ValueError:\n            print(\"  Please enter a whole number.\")\n            continue\n        \n        if 1 <= value <= 100:\n            print(f\"  Accepted: {value}\")\n            return value\n        else:\n            print(f\"  Number must be between 1 and 100.\")\n    \n    return None\n\nresult = demo_validation()\nprint(f\"Final result: {result}\")",
+        "language": "python",
+        "explanation": "This pattern combines a while loop with try/except to repeatedly ask for input until a valid value is provided. Invalid types are caught by <code>ValueError</code>, and range validation is done with a separate if check. This is one of the most common patterns in real-world Python.",
+        "output": "Input: abc\n  Please enter a whole number.\nInput: 3.14\n  Please enter a whole number.\nInput: 200\n  Number must be between 1 and 100.\nInput: 42\n  Accepted: 42\nFinal result: 42"
+      },
+      {
+        "title": "Exception Flow: What Runs and What Does Not",
+        "code": "def demo_flow(value):\n    print(f\"--- Testing with {value!r} ---\")\n    try:\n        print(\"  try: start\")\n        result = 10 / int(value)\n        print(f\"  try: result = {result}\")\n    except ValueError:\n        print(\"  except ValueError: not a number\")\n    except ZeroDivisionError:\n        print(\"  except ZeroDivision: cannot divide by zero\")\n    else:\n        print(f\"  else: success, result = {result}\")\n    finally:\n        print(\"  finally: cleanup\")\n    print()\n\ndemo_flow(\"5\")     # No exception\ndemo_flow(\"abc\")   # ValueError\ndemo_flow(\"0\")     # ZeroDivisionError",
+        "language": "python",
+        "explanation": "This traces the exact execution flow for three scenarios. When no exception occurs: try runs fully, else runs, finally runs. When ValueError occurs: try stops at the error, except ValueError runs, finally runs. When ZeroDivisionError occurs: try stops at division, except ZeroDivision runs, finally runs. In all cases, <code>else</code> only runs on success, and <code>finally</code> always runs.",
+        "output": "--- Testing with '5' ---\n  try: start\n  try: result = 2.0\n  else: success, result = 2.0\n  finally: cleanup\n\n--- Testing with 'abc' ---\n  try: start\n  except ValueError: not a number\n  finally: cleanup\n\n--- Testing with '0' ---\n  try: start\n  except ZeroDivision: cannot divide by zero\n  finally: cleanup"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Catching All Exceptions with Bare except",
+        "wrongCode": "try:\n    result = int(\"abc\")\nexcept:  # Bare except -- catches EVERYTHING\n    print(\"Something went wrong\")\n# This also catches KeyboardInterrupt, SystemExit, etc.!",
+        "error": "No error shown, but this hides all exceptions including KeyboardInterrupt (Ctrl+C), making the program hard to stop.",
+        "correctCode": "try:\n    result = int(\"abc\")\nexcept ValueError:\n    print(\"Invalid number format\")\n# Or at most:\nexcept Exception as e:\n    print(f\"Error: {e}\")",
+        "explanation": "A bare <code>except:</code> catches every exception, including <code>KeyboardInterrupt</code> and <code>SystemExit</code>, which you almost never want to catch. Always catch specific exceptions, or at most use <code>except Exception</code> which excludes system-exit exceptions."
+      },
+      {
+        "title": "Putting Too Much Code in the try Block",
+        "wrongCode": "try:\n    filename = input(\"Enter filename: \")\n    with open(filename) as f:\n        data = f.read()\n    numbers = [int(x) for x in data.split()]\n    average = sum(numbers) / len(numbers)\n    print(f\"Average: {average}\")\nexcept Exception:\n    print(\"Something went wrong\")  # Which part failed?",
+        "error": "No specific error, but when something fails, you cannot tell whether the file was missing, the data was not numeric, or the list was empty.",
+        "correctCode": "filename = input(\"Enter filename: \")\ntry:\n    with open(filename) as f:\n        data = f.read()\nexcept FileNotFoundError:\n    print(f\"File '{filename}' not found\")\nelse:\n    try:\n        numbers = [int(x) for x in data.split()]\n        average = sum(numbers) / len(numbers)\n    except ValueError:\n        print(\"File contains non-numeric data\")\n    except ZeroDivisionError:\n        print(\"File is empty\")\n    else:\n        print(f\"Average: {average}\")",
+        "explanation": "Keep try blocks small and specific. Each try block should protect only the code that might raise the specific exception you are catching. Large try blocks with broad except clauses hide bugs."
+      },
+      {
+        "title": "Catching an Exception and Doing Nothing",
+        "wrongCode": "try:\n    result = int(\"abc\")\nexcept ValueError:\n    pass  # Silently ignore the error\n\nprint(result)  # NameError: result was never assigned!",
+        "error": "NameError: name 'result' is not defined",
+        "correctCode": "try:\n    result = int(\"abc\")\nexcept ValueError:\n    print(\"Invalid input, using default value\")\n    result = 0\n\nprint(result)  # 0",
+        "explanation": "Using <code>pass</code> in an except block silently swallows the error, which makes debugging very difficult. If the try block was supposed to assign a variable, that variable remains undefined. Always handle the error meaningfully or at least log it."
+      },
+      {
+        "title": "Wrong Order of except Blocks (Parent Before Child)",
+        "wrongCode": "try:\n    with open(\"missing.txt\") as f:\n        pass\nexcept Exception:\n    print(\"General error\")\nexcept FileNotFoundError:  # This never runs!\n    print(\"File not found\")",
+        "error": "SyntaxWarning in Python 3.12+ (or the specific handler simply never executes because the parent class catches it first).",
+        "correctCode": "try:\n    with open(\"missing.txt\") as f:\n        pass\nexcept FileNotFoundError:\n    print(\"File not found\")\nexcept Exception:\n    print(\"General error\")",
+        "explanation": "Since <code>FileNotFoundError</code> is a subclass of <code>Exception</code>, <code>except Exception</code> catches it first, and the more specific handler never runs. Always put specific (child) exceptions before general (parent) ones."
+      },
+      {
+        "title": "Confusing else with finally",
+        "wrongCode": "# Thinking else always runs\ntry:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Division error\")\nelse:\n    print(\"This will run\")  # NO! else does NOT run if except ran",
+        "error": "No error, but the else block does not run because an exception was caught. The programmer expected it to run.",
+        "correctCode": "try:\n    result = 10 / 0\nexcept ZeroDivisionError:\n    print(\"Division error\")\nelse:\n    print(\"This runs only on success\")\nfinally:\n    print(\"This ALWAYS runs\")",
+        "explanation": "<code>else</code> runs only if <strong>no exception</strong> occurred (success path). <code>finally</code> runs <strong>always</strong>, regardless of whether an exception occurred. They serve different purposes: else is for success-only logic, finally is for guaranteed cleanup."
+      }
+    ],
+    "summary": [
+      "Exceptions are runtime errors (different from syntax errors). Without handling, they crash the program. The try/except structure lets you catch and respond to exceptions gracefully.",
+      "Catch specific exceptions (ValueError, TypeError, IndexError, KeyError, ZeroDivisionError, FileNotFoundError, NameError) rather than using bare except or except Exception. Specific handling prevents hiding unrelated bugs.",
+      "Multiple except blocks handle different exception types from the same try block. Python checks them top to bottom and enters the first match. Put specific exceptions before general ones.",
+      "Use 'as' to capture the exception object: except ValueError as e. The object contains the error message (str(e)) and arguments (e.args).",
+      "The else clause runs only when no exception occurred in try. It keeps success-only code separate from protected code. Errors in else are not caught by the preceding except blocks.",
+      "The finally clause always runs: after try succeeds, after except handles an error, or even after a return statement. Use it for cleanup (closing files, releasing resources).",
+      "Use raise to throw exceptions when your code detects invalid conditions. raise ValueError('message') communicates errors to callers.",
+      "Custom exceptions inherit from Exception: class MyError(Exception). They make error handling more descriptive and can carry additional data.",
+      "Python favors EAFP (Easier to Ask Forgiveness than Permission) over LBYL (Look Before You Leap). Try the operation and handle the exception, rather than checking conditions first.",
+      "The exception hierarchy means catching a parent class also catches its children. except Exception catches almost everything. Use specific types for precise error handling."
+    ]
+  },
+  "relatedTopics": ["file-handling-in-python", "object-oriented-programming"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>try:\n    print(\"A\")\n    print(\"B\")\nexcept:\n    print(\"C\")\nprint(\"D\")</code></pre>",
+        "hint": "If no exception occurs in try, the except block is skipped.",
+        "answer": "<code>A</code><br><code>B</code><br><code>D</code>",
+        "explanation": "No exception occurs in the try block, so \"A\" and \"B\" are printed. The except block is skipped entirely. Then \"D\" prints after the try/except structure."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try:\n    print(\"A\")\n    x = 1 / 0\n    print(\"B\")\nexcept ZeroDivisionError:\n    print(\"C\")\nprint(\"D\")</code></pre>",
+        "hint": "After an exception, the rest of the try block is skipped.",
+        "answer": "<code>A</code><br><code>C</code><br><code>D</code>",
+        "explanation": "\"A\" prints, then <code>1/0</code> raises ZeroDivisionError. \"B\" is skipped. The except block runs, printing \"C\". Then \"D\" prints normally."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try:\n    x = int(\"hello\")\nexcept ValueError:\n    print(\"Error caught\")\n\nprint(\"Done\")</code></pre>",
+        "hint": "int('hello') raises a ValueError.",
+        "answer": "<code>Error caught</code><br><code>Done</code>",
+        "explanation": "<code>int(\"hello\")</code> raises <code>ValueError</code>. The except block catches it and prints \"Error caught\". Execution continues normally with \"Done\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try:\n    x = int(\"42\")\nexcept ValueError:\n    print(\"Error\")\nelse:\n    print(f\"Value: {x}\")</code></pre>",
+        "hint": "The else block runs when no exception occurs.",
+        "answer": "<code>Value: 42</code>",
+        "explanation": "<code>int(\"42\")</code> succeeds without an exception. The except block is skipped. The else block runs because try succeeded, printing \"Value: 42\"."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>try:\n    print(\"start\")\nexcept:\n    print(\"error\")\nfinally:\n    print(\"done\")</code></pre>",
+        "hint": "finally always runs, even when there is no exception.",
+        "answer": "<code>start</code><br><code>done</code>",
+        "explanation": "No exception occurs. \"start\" prints from the try block. The except block is skipped. The finally block always runs, printing \"done\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try:\n    print(\"A\")\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print(\"B\")\nelse:\n    print(\"C\")\nfinally:\n    print(\"D\")</code></pre>",
+        "hint": "else runs only on success. finally always runs.",
+        "answer": "<code>A</code><br><code>B</code><br><code>D</code>",
+        "explanation": "\"A\" prints, then ZeroDivisionError occurs. \"B\" prints from except. The else block does NOT run because an exception occurred. \"D\" prints from finally (always runs)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try:\n    x = int(\"10\")\n    y = x / 2\nexcept ValueError:\n    print(\"A\")\nexcept ZeroDivisionError:\n    print(\"B\")\nelse:\n    print(\"C\")\nfinally:\n    print(\"D\")</code></pre>",
+        "hint": "No exception occurs. Which blocks run?",
+        "answer": "<code>C</code><br><code>D</code>",
+        "explanation": "<code>int(\"10\")</code> succeeds, <code>10/2</code> succeeds. No exception, so both except blocks are skipped. Else runs (\"C\"). Finally always runs (\"D\")."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def f():\n    try:\n        return 1\n    finally:\n        print(\"finally\")\n\nresult = f()\nprint(result)</code></pre>",
+        "hint": "finally runs even after a return statement.",
+        "answer": "<code>finally</code><br><code>1</code>",
+        "explanation": "The try block returns 1, but before the function actually returns, the finally block runs, printing \"finally\". Then the return value 1 is received by the caller and printed."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try:\n    numbers = [1, 2, 3]\n    print(numbers[5])\nexcept IndexError as e:\n    print(type(e).__name__)\n    print(e)</code></pre>",
+        "hint": "as e captures the exception object.",
+        "answer": "<code>IndexError</code><br><code>list index out of range</code>",
+        "explanation": "Accessing index 5 of a 3-element list raises <code>IndexError</code>. The exception is captured as <code>e</code>. <code>type(e).__name__</code> gives \"IndexError\". <code>e</code> gives the message \"list index out of range\"."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def test():\n    try:\n        return \"try\"\n    except:\n        return \"except\"\n    finally:\n        return \"finally\"\n\nprint(test())</code></pre>",
+        "hint": "If finally has a return, it overrides the return from try or except.",
+        "answer": "<code>finally</code>",
+        "explanation": "The try block returns \"try\", but the finally block also has a return statement. The finally block's return <strong>overrides</strong> the try block's return. The function returns \"finally\". This is considered bad practice -- avoid return in finally."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>try:\n    d = {\"a\": 1, \"b\": 2}\n    print(d[\"c\"])\nexcept KeyError as e:\n    print(f\"Key {e} not found\")\nexcept Exception as e:\n    print(f\"General: {e}\")</code></pre>",
+        "hint": "KeyError is checked before Exception. Only the first matching except runs.",
+        "answer": "<code>Key 'c' not found</code>",
+        "explanation": "Accessing key \"c\" raises <code>KeyError</code>. The first except matches (KeyError), so it runs. The Exception handler is skipped because the error was already caught. For KeyError, <code>e</code> displays the key with quotes: 'c'."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def process(x):\n    try:\n        if x < 0:\n            raise ValueError(\"negative\")\n        return x * 2\n    except ValueError as e:\n        print(f\"Caught: {e}\")\n        return -1\n    finally:\n        print(\"cleanup\")\n\nprint(process(5))\nprint(process(-3))</code></pre>",
+        "hint": "Trace both calls. finally runs before the return value is delivered.",
+        "answer": "<code>cleanup</code><br><code>10</code><br><code>Caught: negative</code><br><code>cleanup</code><br><code>-1</code>",
+        "explanation": "For process(5): try returns 10, finally prints \"cleanup\", then 10 is returned. For process(-3): raise triggers except (prints \"Caught: negative\"), except returns -1, finally prints \"cleanup\", then -1 is returned."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>try:\n    try:\n        x = 1 / 0\n    except ValueError:\n        print(\"inner ValueError\")\n    finally:\n        print(\"inner finally\")\nexcept ZeroDivisionError:\n    print(\"outer ZeroDivision\")\nfinally:\n    print(\"outer finally\")</code></pre>",
+        "hint": "The inner except does not match. The exception propagates to the outer try.",
+        "answer": "<code>inner finally</code><br><code>outer ZeroDivision</code><br><code>outer finally</code>",
+        "explanation": "The inner try raises ZeroDivisionError. The inner except catches ValueError, which does not match. The inner finally runs (\"inner finally\"). The exception propagates to the outer try. The outer except catches ZeroDivisionError (\"outer ZeroDivision\"). The outer finally runs (\"outer finally\")."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class MyError(Exception):\n    pass\n\ndef f():\n    raise MyError(\"custom error\")\n\ntry:\n    f()\nexcept MyError as e:\n    print(type(e).__name__)\n    print(e)\nexcept Exception:\n    print(\"general\")</code></pre>",
+        "hint": "MyError is a subclass of Exception. It is checked before Exception.",
+        "answer": "<code>MyError</code><br><code>custom error</code>",
+        "explanation": "<code>f()</code> raises <code>MyError</code>. The first except matches MyError (since it comes before Exception). <code>type(e).__name__</code> gives \"MyError\". <code>str(e)</code> gives \"custom error\"."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def f(n):\n    try:\n        if n == 0:\n            raise ValueError(\"zero\")\n        if n == 1:\n            raise TypeError(\"one\")\n        return n\n    except ValueError:\n        return \"V\"\n    except TypeError:\n        return \"T\"\n\nprint(f(0), f(1), f(2))</code></pre>",
+        "hint": "Each call is independent. Follow the flow for each value of n.",
+        "answer": "<code>V T 2</code>",
+        "explanation": "f(0): raises ValueError, except returns \"V\". f(1): raises TypeError, except returns \"T\". f(2): no exception, try returns 2. All printed on one line separated by spaces."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>result = []\ntry:\n    result.append(\"try\")\n    x = int(\"abc\")\n    result.append(\"after int\")\nexcept ValueError:\n    result.append(\"except\")\nelse:\n    result.append(\"else\")\nfinally:\n    result.append(\"finally\")\n\nprint(result)</code></pre>",
+        "hint": "Track which append() calls execute.",
+        "answer": "<code>['try', 'except', 'finally']</code>",
+        "explanation": "\"try\" is appended. <code>int(\"abc\")</code> raises ValueError, so \"after int\" is skipped. \"except\" is appended. Else does not run (exception occurred). \"finally\" is appended. The result list shows the exact execution flow."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>except Exception</code> and <code>except:</code> (bare except)?",
+        "hint": "Think about the exception hierarchy. What does BaseException include?",
+        "answer": "<code>except Exception</code> catches all regular exceptions (ValueError, TypeError, etc.) but <strong>not</strong> KeyboardInterrupt, SystemExit, or GeneratorExit. <code>except:</code> (bare except) catches <strong>everything</strong>, including KeyboardInterrupt and SystemExit, which can make the program hard to stop with Ctrl+C.",
+        "explanation": "KeyboardInterrupt and SystemExit inherit from BaseException, not Exception. A bare except is equivalent to <code>except BaseException</code>. This is almost never what you want, because it prevents the user from interrupting the program."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you put specific exception handlers before general ones?",
+        "hint": "Python checks except blocks from top to bottom.",
+        "answer": "Python checks except blocks from top to bottom and enters the first one that matches. Since a parent class matches all its children, putting <code>except Exception</code> before <code>except ValueError</code> means ValueError is always caught by Exception first, and the ValueError handler never runs. Specific handlers must come first to get a chance to match.",
+        "explanation": "This is because of the exception hierarchy. ValueError is a subclass of Exception, so <code>except Exception</code> matches ValueError. If Exception comes first, more specific handlers below it become dead code."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = \"10\"\ntry:\n    y = int(x)\nexcept ValueError:\n    y = 0\n\nprint(y + 5)</code></pre>",
+        "hint": "\"10\" is a valid integer string.",
+        "answer": "<code>15</code>",
+        "explanation": "<code>int(\"10\")</code> succeeds, y = 10. The except block is skipped. <code>10 + 5 = 15</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = \"abc\"\ntry:\n    y = int(x)\nexcept ValueError:\n    y = 0\n\nprint(y + 5)</code></pre>",
+        "hint": "\"abc\" cannot be converted to int.",
+        "answer": "<code>5</code>",
+        "explanation": "<code>int(\"abc\")</code> raises ValueError. The except block sets y = 0. <code>0 + 5 = 5</code>."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def safe_get(lst, index, default=None):\n    try:\n        return lst[index]\n    except IndexError:\n        return default\n\nprint(safe_get([10, 20, 30], 1))\nprint(safe_get([10, 20, 30], 5))\nprint(safe_get([10, 20, 30], 5, -1))</code></pre>",
+        "hint": "Index 5 is out of range for a 3-element list.",
+        "answer": "<code>20</code><br><code>None</code><br><code>-1</code>",
+        "explanation": "Index 1 returns 20 (no exception). Index 5 raises IndexError, returns default (None). Index 5 with default=-1 returns -1."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def convert(values):\n    result = []\n    for v in values:\n        try:\n            result.append(int(v))\n        except ValueError:\n            result.append(None)\n    return result\n\nprint(convert([\"1\", \"abc\", \"3\", \"xyz\", \"5\"]))</code></pre>",
+        "hint": "Each string is converted independently. Invalid ones become None.",
+        "answer": "<code>[1, None, 3, None, 5]</code>",
+        "explanation": "\"1\" converts to 1, \"abc\" raises ValueError (None), \"3\" converts to 3, \"xyz\" raises ValueError (None), \"5\" converts to 5."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def divide_all(numbers, divisor):\n    results = []\n    for n in numbers:\n        try:\n            results.append(n / divisor)\n        except ZeroDivisionError:\n            results.append(\"inf\")\n        except TypeError:\n            results.append(\"err\")\n    return results\n\nprint(divide_all([10, 20, 30], 5))\nprint(divide_all([10, 20, 30], 0))</code></pre>",
+        "hint": "Each division is in its own try/except, so one error does not stop others.",
+        "answer": "<code>[2.0, 4.0, 6.0]</code><br><code>['inf', 'inf', 'inf']</code>",
+        "explanation": "First call: 10/5=2.0, 20/5=4.0, 30/5=6.0. Second call: each division by 0 catches ZeroDivisionError and appends \"inf\"."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>data = {\"a\": 1, \"b\": 2}\nkeys = [\"a\", \"c\", \"b\", \"d\"]\n\nresult = []\nfor key in keys:\n    try:\n        result.append(data[key])\n    except KeyError:\n        result.append(0)\n\nprint(result)</code></pre>",
+        "hint": "Keys 'c' and 'd' do not exist in the dictionary.",
+        "answer": "<code>[1, 0, 2, 0]</code>",
+        "explanation": "\"a\" exists (1). \"c\" raises KeyError (0). \"b\" exists (2). \"d\" raises KeyError (0). Result: [1, 0, 2, 0]."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def f(x):\n    try:\n        result = 100 / x\n    except ZeroDivisionError:\n        return \"zero\"\n    except TypeError:\n        return \"type\"\n    else:\n        if result > 50:\n            raise ValueError(\"too big\")\n        return result\n\ntry:\n    print(f(2))\n    print(f(0))\n    print(f(1))\nexcept ValueError as e:\n    print(e)</code></pre>",
+        "hint": "f(1) gives result=100, which is >50, so ValueError is raised.",
+        "answer": "<code>50.0</code><br><code>zero</code><br><code>too big</code>",
+        "explanation": "f(2): 100/2=50.0, not >50, returns 50.0. f(0): ZeroDivisionError, returns \"zero\". f(1): 100/1=100.0, which is >50, raises ValueError. The outer try catches it."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>class TooYoungError(Exception):\n    pass\n\nclass TooOldError(Exception):\n    pass\n\ndef check_age(age):\n    if age < 13:\n        raise TooYoungError(f\"{age} is too young\")\n    if age > 65:\n        raise TooOldError(f\"{age} is too old\")\n    return \"OK\"\n\nfor age in [10, 25, 70]:\n    try:\n        result = check_age(age)\n        print(f\"{age}: {result}\")\n    except TooYoungError as e:\n        print(f\"{age}: Young - {e}\")\n    except TooOldError as e:\n        print(f\"{age}: Old - {e}\")</code></pre>",
+        "hint": "Each age triggers a different path: too young, OK, or too old.",
+        "answer": "<code>10: Young - 10 is too young</code><br><code>25: OK</code><br><code>70: Old - 70 is too old</code>",
+        "explanation": "Age 10: TooYoungError raised. Age 25: no exception, returns \"OK\". Age 70: TooOldError raised. Each custom exception carries a descriptive message."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def nested():\n    try:\n        try:\n            raise ValueError(\"inner\")\n        except TypeError:\n            print(\"caught type\")\n        finally:\n            print(\"inner finally\")\n    except ValueError:\n        print(\"caught value\")\n    finally:\n        print(\"outer finally\")\n\nnested()</code></pre>",
+        "hint": "The inner except does not match ValueError. The exception propagates outward.",
+        "answer": "<code>inner finally</code><br><code>caught value</code><br><code>outer finally</code>",
+        "explanation": "Inner try raises ValueError. Inner except catches TypeError (no match). Inner finally runs (\"inner finally\"). ValueError propagates to outer try. Outer except catches ValueError (\"caught value\"). Outer finally runs (\"outer finally\")."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def risky(n):\n    if n == 0:\n        raise ValueError(\"zero\")\n    if n == 1:\n        raise TypeError(\"one\")\n    return n * 10\n\nresults = []\nfor i in range(4):\n    try:\n        results.append(risky(i))\n    except (ValueError, TypeError) as e:\n        results.append(str(e))\n\nprint(results)</code></pre>",
+        "hint": "Multiple exceptions in one except clause using a tuple.",
+        "answer": "<code>['zero', 'one', 20, 30]</code>",
+        "explanation": "i=0: ValueError, appends 'zero'. i=1: TypeError, appends 'one'. i=2: returns 20. i=3: returns 30. Both exception types are caught by the single except with a tuple."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the EAFP principle in Python? How does it differ from LBYL?",
+        "hint": "EAFP: try first, handle errors. LBYL: check first, then act.",
+        "answer": "EAFP (Easier to Ask Forgiveness than Permission) means trying an operation and handling the exception if it fails. LBYL (Look Before You Leap) means checking if the operation will succeed before attempting it. Python favors EAFP because it is often faster (avoids double lookups), handles race conditions better, and is considered more Pythonic.",
+        "explanation": "Example: LBYL checks <code>if key in dict</code> before accessing. EAFP wraps <code>dict[key]</code> in try/except KeyError. EAFP is preferred in Python, but LBYL is fine for simple, obvious checks."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What keyword starts an exception handling block in Python?",
+        "options": [
+          "catch",
+          "try",
+          "handle",
+          "error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python uses <code>try</code> to begin an exception handling block. <code>catch</code> is used in Java and JavaScript, not Python."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What happens if an exception occurs in a try block and no matching except handler is found?",
+        "options": [
+          "The exception is silently ignored",
+          "The program prints 'Error' and continues",
+          "The exception propagates up to the calling function",
+          "Python automatically fixes the error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If no matching except is found, the exception propagates up the call stack. If no handler is found anywhere, the program crashes with a traceback."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which exception is raised by int('abc')?",
+        "options": [
+          "TypeError",
+          "ValueError",
+          "SyntaxError",
+          "RuntimeError"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>int('abc')</code> raises <code>ValueError</code> because 'abc' is a string (correct type) but cannot be converted to an integer (invalid value). TypeError would be raised if the argument type itself was wrong."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "When does the else clause in a try/except/else block execute?",
+        "options": [
+          "Always, after try",
+          "Only if an exception was caught",
+          "Only if no exception occurred in try",
+          "Only if the finally block runs"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>else</code> clause runs only when the <code>try</code> block completes without raising any exception. If any exception occurs (whether caught or not), else is skipped."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "When does the finally clause execute?",
+        "options": [
+          "Only if an exception occurred",
+          "Only if no exception occurred",
+          "Only if except ran",
+          "Always, regardless of exceptions"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>finally</code> always runs: after try succeeds, after except handles an error, and even after return statements. It is guaranteed to execute."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does 'except ValueError as e' do?",
+        "options": [
+          "Creates a new ValueError named e",
+          "Catches ValueError and stores the exception object in variable e",
+          "Catches any exception and renames it ValueError",
+          "Compares the exception to variable e"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>as e</code> syntax captures the exception object in the variable <code>e</code>. You can then access the error message with <code>str(e)</code> and the exception type with <code>type(e)</code>."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "Which of these is NOT a built-in Python exception?",
+        "options": [
+          "ValueError",
+          "NullPointerError",
+          "IndexError",
+          "KeyError"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>NullPointerError</code> is a Java exception, not Python. Python does not have null pointers. The equivalent situation in Python would raise <code>AttributeError</code> or <code>TypeError</code>."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the correct order of clauses in a try statement?",
+        "options": [
+          "try, else, except, finally",
+          "try, except, finally, else",
+          "try, except, else, finally",
+          "try, finally, except, else"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The required order is: try, then except (one or more), then else (optional), then finally (optional). Python raises a SyntaxError if this order is violated."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does raise do?",
+        "options": [
+          "Catches an exception",
+          "Creates and throws an exception",
+          "Prints an error message",
+          "Terminates the program"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>raise</code> creates and throws (raises) an exception. The exception propagates up the call stack until it is caught by an except block or crashes the program. It does not catch, print, or terminate by itself."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "How do you create a custom exception class?",
+        "options": [
+          "class MyError(Error): pass",
+          "class MyError(Exception): pass",
+          "def MyError(): raise Exception",
+          "exception MyError: pass"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Custom exceptions are classes that inherit from <code>Exception</code> (or one of its subclasses). Option A is wrong because <code>Error</code> is not a Python class. Options C and D are not valid Python syntax for defining exceptions."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Can you have multiple except blocks for one try block?",
+        "options": [
+          "No, only one except per try",
+          "Yes, but only two",
+          "Yes, as many as needed, each catching a different exception type",
+          "Yes, but they all must catch the same exception type"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A single try block can have multiple except blocks, each handling a different exception type. Python checks them top to bottom and enters the first match."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens if a finally block contains a return statement?",
+        "options": [
+          "SyntaxError",
+          "The finally return is ignored",
+          "The finally return overrides the try/except return",
+          "Both return values are returned as a tuple"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> If finally contains a return, it overrides any return from try or except. This is because finally always runs last, and its return replaces the pending return value. This behavior is confusing, which is why returning from finally is strongly discouraged."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What exception is raised when you access a key that does not exist in a dictionary?",
+        "options": [
+          "ValueError",
+          "IndexError",
+          "KeyError",
+          "LookupError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Accessing a missing dictionary key raises <code>KeyError</code>. Option B (IndexError) is for lists/sequences. Option D (LookupError) is the parent class of both KeyError and IndexError, but the specific exception raised is KeyError."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does EAFP stand for in Python philosophy?",
+        "options": [
+          "Errors Are Found by Python",
+          "Easier to Ask Forgiveness than Permission",
+          "Exceptions Always Follow Patterns",
+          "Every Action Fails Predictably"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> EAFP means try the operation and handle the exception if it fails, rather than checking conditions in advance. This is the preferred Python style, as opposed to LBYL (Look Before You Leap)."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of these exceptions is NOT a subclass of Exception?",
+        "options": [
+          "ValueError",
+          "TypeError",
+          "KeyboardInterrupt",
+          "FileNotFoundError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>KeyboardInterrupt</code> inherits from <code>BaseException</code>, not <code>Exception</code>. This means <code>except Exception</code> does not catch it, which allows users to always interrupt a program with Ctrl+C."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Can an except block catch multiple exception types at once?",
+        "options": [
+          "No, each except catches only one type",
+          "Yes, by listing them in a tuple: except (ValueError, TypeError)",
+          "Yes, by using the 'or' keyword: except ValueError or TypeError",
+          "Yes, by using a comma: except ValueError, TypeError"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> You catch multiple types with a tuple: <code>except (ValueError, TypeError)</code>. Option D was valid in Python 2 but not in Python 3. Option C does not work (it evaluates the or expression)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What exception does 10 / 0 raise?",
+        "options": [
+          "ValueError",
+          "MathError",
+          "ZeroDivisionError",
+          "ArithmeticError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Division by zero raises <code>ZeroDivisionError</code>. Option D (ArithmeticError) is its parent class. While <code>except ArithmeticError</code> would also catch it, the specific exception raised is ZeroDivisionError."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the difference between SyntaxError and an exception?",
+        "options": [
+          "There is no difference",
+          "SyntaxError is detected before execution; exceptions occur during execution",
+          "Exceptions are detected before execution; SyntaxError occurs during execution",
+          "SyntaxError can be caught with try/except; exceptions cannot"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> SyntaxError is detected during parsing (before any code runs). Exceptions like ValueError, TypeError occur during execution. Technically, SyntaxError can be caught with try/except in some cases (e.g., in eval()), but in normal code, it prevents execution entirely."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "If a try block has both else and finally, and no exception occurs, what is the execution order?",
+        "options": [
+          "try, finally, else",
+          "try, else, finally",
+          "else, try, finally",
+          "try, finally (else is skipped)"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When no exception occurs: try runs first, then else (success path), then finally (always runs). The except blocks are skipped entirely."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Medium",
+        "question": "What is the purpose of 'raise' without any argument inside an except block?",
+        "options": [
+          "It raises a new generic Exception",
+          "It re-raises the currently caught exception",
+          "It stops the except block",
+          "It is a SyntaxError"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A bare <code>raise</code> inside an except block re-raises the current exception. This is useful when you want to log the error or do partial handling and then let it propagate further up the call stack."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Safe Calculator",
+        "difficulty": "Easy",
+        "description": "Write a function safe_calculate(a, op, b) where op is one of '+', '-', '*', '/'. Handle ZeroDivisionError for division by zero and ValueError for unknown operators. Return the result or an error message string.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "10 + 5 = 15\n10 / 0 = Error: division by zero\n10 % 3 = Error: unknown operator '%'",
+        "constraints": "Use try/except. Return numeric result on success, string message on error.",
+        "solution": "def safe_calculate(a, op, b):\n    try:\n        if op == '+':\n            return a + b\n        elif op == '-':\n            return a - b\n        elif op == '*':\n            return a * b\n        elif op == '/':\n            return a / b\n        else:\n            raise ValueError(f\"unknown operator '{op}'\")\n    except ZeroDivisionError:\n        return \"Error: division by zero\"\n    except ValueError as e:\n        return f\"Error: {e}\"\n\ntest_cases = [(10, '+', 5), (10, '-', 3), (10, '*', 4), (10, '/', 2), (10, '/', 0), (10, '%', 3)]\nfor a, op, b in test_cases:\n    print(f\"{a} {op} {b} = {safe_calculate(a, op, b)}\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Robust Type Converter",
+        "difficulty": "Easy",
+        "description": "Write a function convert(value, target_type) that converts a value to the target type (int, float, or str). Use try/except to catch conversion errors and return a tuple (success: bool, result).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(True, 42)\n(False, \"Cannot convert 'hello' to int\")\n(True, 3.14)\n(True, '100')",
+        "constraints": "Use try/except. Return a 2-tuple: (True, converted_value) or (False, error_message).",
+        "solution": "def convert(value, target_type):\n    try:\n        result = target_type(value)\n        return (True, result)\n    except (ValueError, TypeError) as e:\n        return (False, f\"Cannot convert {value!r} to {target_type.__name__}\")\n\nprint(convert(\"42\", int))\nprint(convert(\"hello\", int))\nprint(convert(\"3.14\", float))\nprint(convert(100, str))"
+      },
+      {
+        "id": "cc-3",
+        "title": "Safe List Operations",
+        "difficulty": "Easy",
+        "description": "Write three functions: safe_get(lst, index) that returns the element at index or None if out of range, safe_pop(lst, index) that removes and returns the element or None, and safe_divide_list(lst) that returns each element divided by the next (handle division by zero).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "safe_get([1,2,3], 1) = 2\nsafe_get([1,2,3], 5) = None\nsafe_pop result: 2, list: [1, 3]\nsafe_divide: [0.5, 0.67, inf]",
+        "constraints": "Use try/except in each function.",
+        "solution": "def safe_get(lst, index):\n    try:\n        return lst[index]\n    except IndexError:\n        return None\n\ndef safe_pop(lst, index):\n    try:\n        return lst.pop(index)\n    except IndexError:\n        return None\n\ndef safe_divide_list(lst):\n    results = []\n    for i in range(len(lst) - 1):\n        try:\n            results.append(round(lst[i] / lst[i+1], 2))\n        except ZeroDivisionError:\n            results.append(float('inf'))\n    return results\n\nprint(f\"safe_get([1,2,3], 1) = {safe_get([1,2,3], 1)}\")\nprint(f\"safe_get([1,2,3], 5) = {safe_get([1,2,3], 5)}\")\nlst = [1, 2, 3]\nresult = safe_pop(lst, 1)\nprint(f\"safe_pop result: {result}, list: {lst}\")\nprint(f\"safe_divide: {safe_divide_list([1, 2, 3, 0, 5])}\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "File Reader with Error Handling",
+        "difficulty": "Medium",
+        "description": "Write a function read_numbers(filename) that reads a file containing one number per line, converts each to float, and returns the list. Handle FileNotFoundError and ValueError (for invalid lines). Skip invalid lines but count them. Return a dict with 'numbers', 'invalid_count', and 'error' keys.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'numbers': [10.0, 20.0, 30.0], 'invalid_count': 2, 'error': None}",
+        "constraints": "Handle FileNotFoundError and ValueError. Skip invalid lines.",
+        "solution": "def read_numbers(filename):\n    result = {'numbers': [], 'invalid_count': 0, 'error': None}\n    try:\n        with open(filename, 'r') as f:\n            for line in f:\n                try:\n                    result['numbers'].append(float(line.strip()))\n                except ValueError:\n                    result['invalid_count'] += 1\n    except FileNotFoundError:\n        result['error'] = f\"File '{filename}' not found\"\n    return result\n\n# Create test file\nwith open('numbers.txt', 'w') as f:\n    f.write('10\\n20\\nabc\\n30\\nxyz\\n')\n\nprint(read_numbers('numbers.txt'))\nprint(read_numbers('missing.txt'))"
+      },
+      {
+        "id": "cc-5",
+        "title": "Custom Exception: Password Validator",
+        "difficulty": "Medium",
+        "description": "Create custom exceptions: PasswordTooShortError, PasswordNoDigitError, PasswordNoUpperError. Write validate_password(password) that raises the appropriate exception. Test with various passwords.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "MyP@ss1 -> Valid\nabc -> PasswordTooShortError: minimum 6 characters, got 3\nabcdef -> PasswordNoDigitError: must contain at least one digit\nabcde1 -> PasswordNoUpperError: must contain at least one uppercase letter",
+        "constraints": "Each exception class should carry specific details about the failure.",
+        "solution": "class PasswordTooShortError(Exception):\n    def __init__(self, length):\n        super().__init__(f\"minimum 6 characters, got {length}\")\n\nclass PasswordNoDigitError(Exception):\n    def __init__(self):\n        super().__init__(\"must contain at least one digit\")\n\nclass PasswordNoUpperError(Exception):\n    def __init__(self):\n        super().__init__(\"must contain at least one uppercase letter\")\n\ndef validate_password(password):\n    if len(password) < 6:\n        raise PasswordTooShortError(len(password))\n    if not any(c.isdigit() for c in password):\n        raise PasswordNoDigitError()\n    if not any(c.isupper() for c in password):\n        raise PasswordNoUpperError()\n    return True\n\ntest_passwords = [\"MyP@ss1\", \"abc\", \"abcdef\", \"abcde1\"]\nfor pwd in test_passwords:\n    try:\n        validate_password(pwd)\n        print(f\"{pwd} -> Valid\")\n    except (PasswordTooShortError, PasswordNoDigitError, PasswordNoUpperError) as e:\n        print(f\"{pwd} -> {type(e).__name__}: {e}\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Retry Decorator Pattern",
+        "difficulty": "Medium",
+        "description": "Write a function retry(func, max_attempts, *args) that calls func(*args) up to max_attempts times. If func raises an exception, catch it and try again. Return the result on success, or raise the last exception after all attempts fail.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Attempt 1: failed\nAttempt 2: failed\nAttempt 3: success! Result: 42\n\nAttempt 1: failed\nAttempt 2: failed\nAttempt 3: failed\nAll 3 attempts failed: simulated failure",
+        "constraints": "Track attempt numbers. Re-raise the last exception if all attempts fail.",
+        "solution": "def retry(func, max_attempts, *args):\n    last_error = None\n    for attempt in range(1, max_attempts + 1):\n        try:\n            result = func(*args)\n            print(f\"Attempt {attempt}: success! Result: {result}\")\n            return result\n        except Exception as e:\n            last_error = e\n            print(f\"Attempt {attempt}: failed\")\n    raise last_error\n\nimport random\nrandom.seed(42)\n\ndef unreliable():\n    if random.random() < 0.7:\n        raise ValueError(\"simulated failure\")\n    return 42\n\ntry:\n    retry(unreliable, 3)\nexcept ValueError:\n    pass\n\nprint()\n\ndef always_fail():\n    raise ValueError(\"simulated failure\")\n\ntry:\n    retry(always_fail, 3)\nexcept ValueError as e:\n    print(f\"All 3 attempts failed: {e}\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Safe Dictionary Accessor",
+        "difficulty": "Hard",
+        "description": "Write a function deep_get(data, path, default=None) that safely accesses nested dictionary keys using a dot-separated path string. For example, deep_get(data, 'user.address.city') should access data['user']['address']['city']. Handle KeyError, TypeError, and IndexError gracefully.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "user.name -> Aarav\nuser.address.city -> Delhi\nuser.phone -> None\nuser.address.zip.code -> None",
+        "constraints": "Use try/except to handle missing keys and type errors at any level.",
+        "solution": "def deep_get(data, path, default=None):\n    keys = path.split('.')\n    current = data\n    try:\n        for key in keys:\n            if isinstance(current, list):\n                current = current[int(key)]\n            else:\n                current = current[key]\n        return current\n    except (KeyError, TypeError, IndexError, ValueError):\n        return default\n\ndata = {\n    'user': {\n        'name': 'Aarav',\n        'age': 16,\n        'address': {\n            'city': 'Delhi',\n            'state': 'Delhi'\n        },\n        'scores': [85, 92, 78]\n    }\n}\n\nprint(f\"user.name -> {deep_get(data, 'user.name')}\")\nprint(f\"user.address.city -> {deep_get(data, 'user.address.city')}\")\nprint(f\"user.phone -> {deep_get(data, 'user.phone')}\")\nprint(f\"user.address.zip.code -> {deep_get(data, 'user.address.zip.code')}\")\nprint(f\"user.scores.0 -> {deep_get(data, 'user.scores.0')}\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Exception Statistics Collector",
+        "difficulty": "Hard",
+        "description": "Write a function test_expressions(expressions) that takes a list of string expressions, evaluates each with eval(), and returns a dictionary mapping exception type names to their counts, plus a 'success' count. Include the expressions that failed under each exception type.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'success': 3, 'ZeroDivisionError': {'count': 1, 'expressions': ['1/0']}, 'NameError': {'count': 1, 'expressions': ['x+1']}}",
+        "constraints": "Use eval() to evaluate expressions. Catch Exception as the base and use type(e).__name__ to categorize.",
+        "solution": "def test_expressions(expressions):\n    stats = {'success': 0}\n    \n    for expr in expressions:\n        try:\n            eval(expr)\n            stats['success'] += 1\n        except Exception as e:\n            error_type = type(e).__name__\n            if error_type not in stats:\n                stats[error_type] = {'count': 0, 'expressions': []}\n            stats[error_type]['count'] += 1\n            stats[error_type]['expressions'].append(expr)\n    \n    return stats\n\nexpressions = [\n    '2 + 3',\n    '10 / 0',\n    'int(\"abc\")',\n    '[1,2][5]',\n    'x + 1',\n    '3 * 4',\n    '{\"a\":1}[\"b\"]',\n    '5 ** 2',\n]\n\nresult = test_expressions(expressions)\nfor key, value in result.items():\n    print(f\"{key}: {value}\")"
+      }
+    ]
+  }
+}

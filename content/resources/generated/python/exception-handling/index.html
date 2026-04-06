@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exception Handling in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Handle errors gracefully with try, except, else, finally, and custom exceptions.">
+    <meta name="keywords" content="exception handling in python, python tutorial, python exception handling in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/exception-handling">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/exception-handling">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/exception-handling">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/exception-handling">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/exception-handling">
+    <meta property="og:title" content="Exception Handling in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Handle errors gracefully with try, except, else, finally, and custom exceptions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/exception-handling">
+    <meta name="twitter:title" content="Exception Handling in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Handle errors gracefully with try, except, else, finally, and custom exceptions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Exception Handling in Python",
+    "description": "Handle errors gracefully with try, except, else, finally, and custom exceptions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/exception-handling"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/exception-handling"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Exception Handling in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/exception-handling"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Catching All Exceptions with Bare except",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A bare <code>except:</code> catches every exception, including <code>KeyboardInterrupt</code> and <code>SystemExit</code>, which you almost never want to catch. Always catch specific exceptions, or at most use <code>except Exception</code> which excludes system-exit exceptions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Putting Too Much Code in the try Block",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keep try blocks small and specific. Each try block should protect only the code that might raise the specific exception you are catching. Large try blocks with broad except clauses hide bugs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Catching an Exception and Doing Nothing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using <code>pass</code> in an except block silently swallows the error, which makes debugging very difficult. If the try block was supposed to assign a variable, that variable remains undefined. Always handle the error meaningfully or at least log it."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Order of except Blocks (Parent Before Child)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Since <code>FileNotFoundError</code> is a subclass of <code>Exception</code>, <code>except Exception</code> catches it first, and the more specific handler never runs. Always put specific (child) exceptions before general (parent) ones."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing else with finally",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>else</code> runs only if <strong>no exception</strong> occurred (success path). <code>finally</code> runs <strong>always</strong>, regardless of whether an exception occurred. They serve different purposes: else is for success-only logic, finally is for guaranteed cleanup."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Exception Handling in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 20</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Exception Handling in Python</h1>
+            <a href="/resources/python/exception-handling/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Exception Handling?</h2><p>An <strong>exception</strong> is an error that occurs during the execution of a program. Unlike a syntax error (which Python catches before running your code), an exception happens while the program is running. If not handled, exceptions crash your program and display a traceback.</p><pre><code># This causes an exception at runtime
+number = int("hello")  # ValueError: invalid literal for int()
+print("This never runs")</code></pre><p>Exception handling is the mechanism that lets you <strong>anticipate</strong> errors and respond to them gracefully instead of crashing. Python uses the <code>try</code>/<code>except</code> structure:</p><pre><code>try:
+    number = int("hello")
+except ValueError:
+    print("That is not a valid number.")
+
+print("Program continues normally.")</code></pre><p>With exception handling, the program catches the error, handles it, and continues executing.</p><h3>Exceptions vs Syntax Errors</h3><p><strong>Syntax errors</strong> are detected before the program runs. They are mistakes in the code structure itself:</p><pre><code># SyntaxError: detected before execution
+if True
+    print("missing colon")</code></pre><p><strong>Exceptions</strong> occur during execution, when the code is syntactically correct but something goes wrong:</p><pre><code># ZeroDivisionError: detected at runtime
+result = 10 / 0</code></pre><p>You can handle exceptions with try/except. You cannot handle syntax errors -- you must fix the code.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is Exception Handling Important?</h2><h3>1. Preventing Crashes</h3><p>Without exception handling, a single unexpected input or missing file can crash an entire application. If Aarav builds a calculator and the user divides by zero, the program should show a helpful message, not a traceback. Exception handling keeps programs running when things go wrong.</p><h3>2. Handling Unpredictable Situations</h3><p>Many errors cannot be predicted at coding time. The user enters text instead of a number. A file gets deleted between when you check for it and when you open it. A network request times out. Exception handling lets you write code that deals with these uncertain situations.</p><h3>3. Separating Normal Code from Error Code</h3><p>Without exceptions, error-checking logic pollutes your main code. Every operation would need an if-else check. With try/except, you write your main logic cleanly in the <code>try</code> block and put error handling separately in <code>except</code> blocks. This makes code easier to read and maintain.</p><h3>4. Communicating Errors Up the Call Stack</h3><p>When a function deep inside your program detects a problem, it can <code>raise</code> an exception. The exception travels up through all the calling functions until something catches it. This is far more powerful than returning error codes, because the exception cannot be accidentally ignored.</p><h3>5. Resource Cleanup</h3><p>The <code>finally</code> clause guarantees cleanup code runs regardless of whether an exception occurred. This is critical for closing files, releasing network connections, and freeing resources. Without <code>finally</code>, resource leaks are difficult to prevent.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The try/except Block</h3><p>The basic structure places risky code in <code>try</code> and error-handling code in <code>except</code>:</p><pre><code>try:
+    # Code that might raise an exception
+    result = 10 / 0
+except ZeroDivisionError:
+    # Code that runs if the exception occurs
+    print("Cannot divide by zero!")</code></pre><p>If no exception occurs in the <code>try</code> block, the <code>except</code> block is skipped entirely. If an exception occurs, Python immediately jumps to the matching <code>except</code> block. Any code after the error in the <code>try</code> block is not executed.</p><h3>2. Catching Specific Exceptions</h3><p>Python has many built-in exception types. Catching specific exceptions is important because it prevents you from accidentally hiding unrelated bugs:</p><pre><code># Common exception types
+try:
+    x = int("abc")        # ValueError
+except ValueError:
+    print("Invalid number format")
+
+try:
+    result = 10 / 0       # ZeroDivisionError
+except ZeroDivisionError:
+    print("Division by zero")
+
+try:
+    lst = [1, 2, 3]
+    print(lst[10])         # IndexError
+except IndexError:
+    print("Index out of range")
+
+try:
+    d = {"a": 1}
+    print(d["z"])          # KeyError
+except KeyError:
+    print("Key not found")
+
+try:
+    print(undefined_var)   # NameError
+except NameError:
+    print("Variable not defined")
+
+try:
+    result = "hello" + 5   # TypeError
+except TypeError:
+    print("Type mismatch")
+
+try:
+    with open("missing.txt") as f:  # FileNotFoundError
+        pass
+except FileNotFoundError:
+    print("File does not exist")</code></pre><h3>3. Multiple except Blocks</h3><p>A single try block can have multiple except blocks, each handling a different exception type:</p><pre><code>def safe_divide(a, b):
+    try:
+        result = a / b
+        return result
+    except ZeroDivisionError:
+        print("Error: cannot divide by zero")
+        return None
+    except TypeError:
+        print("Error: both arguments must be numbers")
+        return None
+
+print(safe_divide(10, 2))    # 5.0
+print(safe_divide(10, 0))    # Error message, then None
+print(safe_divide(10, "a"))  # Error message, then None</code></pre><p>Python checks <code>except</code> blocks from top to bottom and enters the first one that matches. Only one except block runs per exception.</p><h3>4. Capturing the Exception Object (as)</h3><p>Use <code>as</code> to capture the exception object, which contains the error message:</p><pre><code>try:
+    number = int("xyz")
+except ValueError as e:
+    print(f"Error type: {type(e).__name__}")
+    print(f"Error message: {e}")
+
+# Output:
+# Error type: ValueError
+# Error message: invalid literal for int() with base 10: 'xyz'</code></pre><p>The variable <code>e</code> holds the exception instance. <code>str(e)</code> gives the error message. <code>type(e).__name__</code> gives the exception class name.</p><h3>5. The else Clause</h3><p>The <code>else</code> block runs only if <strong>no exception</strong> occurred in the <code>try</code> block:</p><pre><code>try:
+    number = int("42")
+except ValueError:
+    print("Invalid input")
+else:
+    print(f"Successfully converted: {number}")
+    print(f"Doubled: {number * 2}")
+
+# Output:
+# Successfully converted: 42
+# Doubled: 84</code></pre><p>Why use <code>else</code> instead of putting the code at the end of <code>try</code>? Because code in <code>else</code> is <strong>not protected</strong> by the except blocks. If an error occurs in <code>else</code>, it is not caught. This keeps error handling precise -- you only catch exceptions from the specific code that might fail.</p><h3>6. The finally Clause</h3><p>The <code>finally</code> block <strong>always</strong> runs, whether an exception occurred or not, and even if a <code>return</code> statement was executed:</p><pre><code>def read_file(filename):
+    f = None
+    try:
+        f = open(filename, "r")
+        return f.read()
+    except FileNotFoundError:
+        print(f"{filename} not found")
+        return None
+    finally:
+        if f:
+            f.close()
+            print("File closed in finally block")
+
+content = read_file("data.txt")</code></pre><p><code>finally</code> is guaranteed to execute. It runs after try (if no exception), after except (if exception was caught), and even after return statements. This makes it ideal for cleanup operations.</p><h3>7. Complete try/except/else/finally Structure</h3><pre><code>try:
+    # Code that might fail
+    value = int(input("Enter a number: "))
+except ValueError:
+    # Runs if ValueError occurs
+    print("That is not a valid number")
+except Exception as e:
+    # Runs for any other exception
+    print(f"Unexpected error: {e}")
+else:
+    # Runs only if try succeeded (no exception)
+    print(f"You entered: {value}")
+finally:
+    # Always runs, no matter what
+    print("Input processing complete")</code></pre><p>The order must be: try, except (one or more), else (optional), finally (optional). You cannot rearrange them.</p><h3>8. Raising Exceptions</h3><p>Use <code>raise</code> to throw an exception deliberately when your code detects an invalid condition:</p><pre><code>def set_age(age):
+    if not isinstance(age, int):
+        raise TypeError("Age must be an integer")
+    if age < 0 or age > 150:
+        raise ValueError(f"Age must be between 0 and 150, got {age}")
+    print(f"Age set to {age}")
+
+set_age(25)      # Age set to 25
+
+try:
+    set_age(-5)  # Raises ValueError
+except ValueError as e:
+    print(f"Error: {e}")
+
+try:
+    set_age("twenty")  # Raises TypeError
+except TypeError as e:
+    print(f"Error: {e}")</code></pre><p>Raising exceptions is how functions communicate that something went wrong. The caller is responsible for handling them.</p><h3>9. Custom Exception Classes</h3><p>Create your own exception types by inheriting from <code>Exception</code>:</p><pre><code>class InsufficientFundsError(Exception):
+    def __init__(self, balance, amount):
+        self.balance = balance
+        self.amount = amount
+        super().__init__(
+            f"Cannot withdraw {amount}. Balance is only {balance}."
+        )
+
+class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+    
+    def withdraw(self, amount):
+        if amount > self.balance:
+            raise InsufficientFundsError(self.balance, amount)
+        self.balance -= amount
+        return self.balance
+
+account = BankAccount("Aarav", 1000)
+try:
+    account.withdraw(1500)
+except InsufficientFundsError as e:
+    print(f"Error: {e}")
+    print(f"Tried: {e.amount}, Available: {e.balance}")</code></pre><p>Custom exceptions make your code self-documenting. <code>InsufficientFundsError</code> is far more descriptive than a generic <code>ValueError</code>.</p><h3>10. Exception Hierarchy</h3><p>All exceptions in Python form a hierarchy. The base class is <code>BaseException</code>:</p><pre><code>BaseException
+  +-- SystemExit
+  +-- KeyboardInterrupt
+  +-- Exception
+       +-- ValueError
+       +-- TypeError
+       +-- KeyError
+       +-- IndexError
+       +-- FileNotFoundError (subclass of OSError)
+       +-- ZeroDivisionError (subclass of ArithmeticError)
+       +-- NameError
+       +-- AttributeError
+       +-- RuntimeError
+       +-- StopIteration</code></pre><p>Catching a parent class catches all its children. <code>except Exception</code> catches nearly everything (except <code>SystemExit</code> and <code>KeyboardInterrupt</code>). This is why catching specific exceptions is preferred -- <code>except Exception</code> is too broad and can hide bugs.</p><h3>11. LBYL vs EAFP</h3><p>Two philosophies for handling potential errors:</p><p><strong>LBYL (Look Before You Leap)</strong>: Check conditions before performing the operation:</p><pre><code># LBYL style
+if key in dictionary:
+    value = dictionary[key]
+else:
+    value = "default"</code></pre><p><strong>EAFP (Easier to Ask Forgiveness than Permission)</strong>: Try the operation and handle the exception if it fails:</p><pre><code># EAFP style (Pythonic)
+try:
+    value = dictionary[key]
+except KeyError:
+    value = "default"</code></pre><p>Python's culture favors EAFP. It is often faster (no duplicate lookup), handles race conditions better (the file might be deleted between checking and opening), and is considered more Pythonic. However, LBYL is fine for simple checks like <code>if x != 0</code> before division.</p><h3>12. Practical Patterns</h3><h4>Safe Input Validation Loop</h4><pre><code>def get_integer(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            print("Invalid input. Please enter a whole number.")
+
+age = get_integer("Enter your age: ")</code></pre><h4>Safe File Reading</h4><pre><code>def safe_read(filename):
+    try:
+        with open(filename, "r") as f:
+            return f.read()
+    except FileNotFoundError:
+        print(f"File '{filename}' not found.")
+        return None
+    except PermissionError:
+        print(f"No permission to read '{filename}'.")
+        return None</code></pre><h4>Safe Division</h4><pre><code>def safe_divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        return float('inf') if a > 0 else float('-inf')
+    except TypeError:
+        raise TypeError(f"Cannot divide {type(a).__name__} by {type(b).__name__}")</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic try/except with Multiple Exception Types</div><pre><code class="language-python"># Handling different exceptions separately
+def process_data(data, index, divisor):
+    try:
+        value = data[index]
+        result = value / divisor
+        number = int(result)
+        return number
+    except IndexError:
+        print(f&quot;Error: index {index} is out of range for list of length {len(data)}&quot;)
+    except ZeroDivisionError:
+        print(&quot;Error: cannot divide by zero&quot;)
+    except TypeError:
+        print(&quot;Error: invalid types for division&quot;)
+    except ValueError:
+        print(&quot;Error: cannot convert to integer&quot;)
+    return None
+
+data = [10, 20, 30]
+
+print(process_data(data, 1, 3))     # Normal case
+print(process_data(data, 10, 2))    # IndexError
+print(process_data(data, 0, 0))     # ZeroDivisionError
+print(process_data(data, 0, &quot;x&quot;))   # TypeError</code></pre><div class="code-example-explanation">Each <code>except</code> block handles a specific exception type with a descriptive message. Python checks blocks top to bottom and enters the first match. Only one except block executes per exception. The function returns <code>None</code> for any error case.</div><div class="code-example-output">6
+Error: index 10 is out of range for list of length 3
+None
+Error: cannot divide by zero
+None
+Error: invalid types for division
+None</div></div>
+<div class="code-example"><div class="code-example-title">The else and finally Clauses</div><pre><code class="language-python">def divide(a, b):
+    try:
+        result = a / b
+    except ZeroDivisionError:
+        print(&quot;  except: Division by zero!&quot;)
+        return None
+    except TypeError as e:
+        print(f&quot;  except: {e}&quot;)
+        return None
+    else:
+        print(f&quot;  else: Division successful: {a}/{b} = {result}&quot;)
+        return result
+    finally:
+        print(&quot;  finally: This always runs&quot;)
+
+print(&quot;Test 1:&quot;)
+print(f&quot;  Result: {divide(10, 3)}&quot;)
+
+print(&quot;\nTest 2:&quot;)
+print(f&quot;  Result: {divide(10, 0)}&quot;)
+
+print(&quot;\nTest 3:&quot;)
+print(f&quot;  Result: {divide(10, &#39;a&#39;)}&quot;)</code></pre><div class="code-example-explanation">The <code>else</code> block runs only when no exception occurs. The <code>finally</code> block runs in every case -- after <code>try</code> succeeds, after <code>except</code> handles an error, or even after a <code>return</code> statement. Notice that <code>finally</code> runs before the function actually returns.</div><div class="code-example-output">Test 1:
+  else: Division successful: 10/3 = 3.3333333333333335
+  finally: This always runs
+  Result: 3.3333333333333335
+
+Test 2:
+  except: Division by zero!
+  finally: This always runs
+  Result: None
+
+Test 3:
+  except: unsupported operand type(s) for /: &#39;int&#39; and &#39;str&#39;
+  finally: This always runs
+  Result: None</div></div>
+<div class="code-example"><div class="code-example-title">Capturing Exceptions with as</div><pre><code class="language-python"># Different ways to use the exception object
+errors = [
+    (&quot;int(&#39;abc&#39;)&quot;, &quot;ValueError&quot;),
+    (&quot;1/0&quot;, &quot;ZeroDivisionError&quot;),
+    (&quot;[1,2][5]&quot;, &quot;IndexError&quot;),
+    (&quot;{&#39;a&#39;:1}[&#39;z&#39;]&quot;, &quot;KeyError&quot;),
+]
+
+for code_str, expected in errors:
+    try:
+        eval(code_str)
+    except Exception as e:
+        print(f&quot;Code: {code_str}&quot;)
+        print(f&quot;  Type: {type(e).__name__}&quot;)
+        print(f&quot;  Message: {e}&quot;)
+        print(f&quot;  Args: {e.args}&quot;)
+        print()</code></pre><div class="code-example-explanation">The <code>as e</code> syntax captures the exception object. <code>type(e).__name__</code> gives the exception class name. <code>str(e)</code> or just <code>e</code> in an f-string gives the error message. <code>e.args</code> is a tuple of all arguments passed to the exception constructor.</div><div class="code-example-output">Code: int(&#39;abc&#39;)
+  Type: ValueError
+  Message: invalid literal for int() with base 10: &#39;abc&#39;
+  Args: (&quot;invalid literal for int() with base 10: &#39;abc&#39;&quot;,)
+
+Code: 1/0
+  Type: ZeroDivisionError
+  Message: division by zero
+  Args: (&#39;division by zero&#39;,)
+
+Code: [1,2][5]
+  Type: IndexError
+  Message: list index out of range
+  Args: (&#39;list index out of range&#39;,)
+
+Code: {&#39;a&#39;:1}[&#39;z&#39;]
+  Type: KeyError
+  Message: &#39;z&#39;
+  Args: (&#39;z&#39;,)</div></div>
+<div class="code-example"><div class="code-example-title">Raising Exceptions and Custom Exceptions</div><pre><code class="language-python">class InvalidAgeError(Exception):
+    def __init__(self, age, message=&quot;Age is not valid&quot;):
+        self.age = age
+        self.message = message
+        super().__init__(self.message)
+    
+    def __str__(self):
+        return f&quot;{self.message}: {self.age}&quot;
+
+def register_student(name, age):
+    if not isinstance(name, str) or len(name) == 0:
+        raise ValueError(&quot;Name must be a non-empty string&quot;)
+    if not isinstance(age, int):
+        raise TypeError(f&quot;Age must be int, got {type(age).__name__}&quot;)
+    if age &lt; 5 or age &gt; 25:
+        raise InvalidAgeError(age, &quot;Student age must be between 5 and 25&quot;)
+    print(f&quot;Registered: {name}, age {age}&quot;)
+
+# Test cases
+test_cases = [
+    (&quot;Aarav&quot;, 16),
+    (&quot;&quot;, 15),
+    (&quot;Priya&quot;, &quot;sixteen&quot;),
+    (&quot;Rohan&quot;, 3),
+]
+
+for name, age in test_cases:
+    try:
+        register_student(name, age)
+    except (ValueError, TypeError, InvalidAgeError) as e:
+        print(f&quot;Error for ({name!r}, {age!r}): {type(e).__name__}: {e}&quot;)</code></pre><div class="code-example-explanation">Custom exception <code>InvalidAgeError</code> inherits from <code>Exception</code> and carries extra data (the invalid age). The <code>register_student</code> function raises different exceptions for different problems. The caller catches all three types using a tuple in the except clause.</div><div class="code-example-output">Registered: Aarav, age 16
+Error for (&#39;&#39;, 15): ValueError: Name must be a non-empty string
+Error for (&#39;Priya&#39;, &#39;sixteen&#39;): TypeError: Age must be int, got str
+Error for (&#39;Rohan&#39;, 3): InvalidAgeError: Student age must be between 5 and 25: 3</div></div>
+<div class="code-example"><div class="code-example-title">EAFP vs LBYL Comparison</div><pre><code class="language-python">data = {&quot;name&quot;: &quot;Aarav&quot;, &quot;age&quot;: 16, &quot;scores&quot;: [85, 92, 78]}
+
+# LBYL (Look Before You Leap)
+print(&quot;--- LBYL style ---&quot;)
+if &quot;grade&quot; in data:
+    print(f&quot;Grade: {data[&#39;grade&#39;]}&quot;)
+else:
+    print(&quot;Grade not found&quot;)
+
+if isinstance(data.get(&quot;scores&quot;), list) and len(data[&quot;scores&quot;]) &gt; 0:
+    avg = sum(data[&quot;scores&quot;]) / len(data[&quot;scores&quot;])
+    print(f&quot;Average: {avg}&quot;)
+else:
+    print(&quot;No valid scores&quot;)
+
+# EAFP (Easier to Ask Forgiveness than Permission)
+print(&quot;\n--- EAFP style ---&quot;)
+try:
+    print(f&quot;Grade: {data[&#39;grade&#39;]}&quot;)
+except KeyError:
+    print(&quot;Grade not found&quot;)
+
+try:
+    avg = sum(data[&quot;scores&quot;]) / len(data[&quot;scores&quot;])
+    print(f&quot;Average: {avg}&quot;)
+except (KeyError, TypeError, ZeroDivisionError):
+    print(&quot;No valid scores&quot;)</code></pre><div class="code-example-explanation">LBYL checks conditions before acting. EAFP tries the operation and handles exceptions. Both achieve the same result, but EAFP is considered more Pythonic. EAFP handles edge cases naturally (like the key being deleted between check and access in multithreaded code).</div><div class="code-example-output">--- LBYL style ---
+Grade not found
+Average: 85.0
+
+--- EAFP style ---
+Grade not found
+Average: 85.0</div></div>
+<div class="code-example"><div class="code-example-title">Practical Pattern: Input Validation Loop</div><pre><code class="language-python">def get_integer_in_range(prompt, low, high):
+    while True:
+        try:
+            value = int(input(prompt))
+        except ValueError:
+            print(f&quot;  Please enter a whole number.&quot;)
+            continue
+        
+        if low &lt;= value &lt;= high:
+            return value
+        else:
+            print(f&quot;  Number must be between {low} and {high}.&quot;)
+
+# Simulating the function without actual input
+def demo_validation():
+    test_inputs = [&quot;abc&quot;, &quot;3.14&quot;, &quot;200&quot;, &quot;42&quot;]
+    index = 0
+    
+    while index &lt; len(test_inputs):
+        user_input = test_inputs[index]
+        index += 1
+        print(f&quot;Input: {user_input}&quot;)
+        try:
+            value = int(user_input)
+        except ValueError:
+            print(&quot;  Please enter a whole number.&quot;)
+            continue
+        
+        if 1 &lt;= value &lt;= 100:
+            print(f&quot;  Accepted: {value}&quot;)
+            return value
+        else:
+            print(f&quot;  Number must be between 1 and 100.&quot;)
+    
+    return None
+
+result = demo_validation()
+print(f&quot;Final result: {result}&quot;)</code></pre><div class="code-example-explanation">This pattern combines a while loop with try/except to repeatedly ask for input until a valid value is provided. Invalid types are caught by <code>ValueError</code>, and range validation is done with a separate if check. This is one of the most common patterns in real-world Python.</div><div class="code-example-output">Input: abc
+  Please enter a whole number.
+Input: 3.14
+  Please enter a whole number.
+Input: 200
+  Number must be between 1 and 100.
+Input: 42
+  Accepted: 42
+Final result: 42</div></div>
+<div class="code-example"><div class="code-example-title">Exception Flow: What Runs and What Does Not</div><pre><code class="language-python">def demo_flow(value):
+    print(f&quot;--- Testing with {value!r} ---&quot;)
+    try:
+        print(&quot;  try: start&quot;)
+        result = 10 / int(value)
+        print(f&quot;  try: result = {result}&quot;)
+    except ValueError:
+        print(&quot;  except ValueError: not a number&quot;)
+    except ZeroDivisionError:
+        print(&quot;  except ZeroDivision: cannot divide by zero&quot;)
+    else:
+        print(f&quot;  else: success, result = {result}&quot;)
+    finally:
+        print(&quot;  finally: cleanup&quot;)
+    print()
+
+demo_flow(&quot;5&quot;)     # No exception
+demo_flow(&quot;abc&quot;)   # ValueError
+demo_flow(&quot;0&quot;)     # ZeroDivisionError</code></pre><div class="code-example-explanation">This traces the exact execution flow for three scenarios. When no exception occurs: try runs fully, else runs, finally runs. When ValueError occurs: try stops at the error, except ValueError runs, finally runs. When ZeroDivisionError occurs: try stops at division, except ZeroDivision runs, finally runs. In all cases, <code>else</code> only runs on success, and <code>finally</code> always runs.</div><div class="code-example-output">--- Testing with &#39;5&#39; ---
+  try: start
+  try: result = 2.0
+  else: success, result = 2.0
+  finally: cleanup
+
+--- Testing with &#39;abc&#39; ---
+  try: start
+  except ValueError: not a number
+  finally: cleanup
+
+--- Testing with &#39;0&#39; ---
+  try: start
+  except ZeroDivision: cannot divide by zero
+  finally: cleanup</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Catching All Exceptions with Bare except</h3>
+                <div class="wrong-code"><pre><code class="language-python">try:
+    result = int(&quot;abc&quot;)
+except:  # Bare except -- catches EVERYTHING
+    print(&quot;Something went wrong&quot;)
+# This also catches KeyboardInterrupt, SystemExit, etc.!</code></pre></div><div class="error-message">No error shown, but this hides all exceptions including KeyboardInterrupt (Ctrl+C), making the program hard to stop.</div><div class="correct-code"><pre><code class="language-python">try:
+    result = int(&quot;abc&quot;)
+except ValueError:
+    print(&quot;Invalid number format&quot;)
+# Or at most:
+except Exception as e:
+    print(f&quot;Error: {e}&quot;)</code></pre></div><div class="mistake-explanation">A bare <code>except:</code> catches every exception, including <code>KeyboardInterrupt</code> and <code>SystemExit</code>, which you almost never want to catch. Always catch specific exceptions, or at most use <code>except Exception</code> which excludes system-exit exceptions.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Putting Too Much Code in the try Block</h3>
+                <div class="wrong-code"><pre><code class="language-python">try:
+    filename = input(&quot;Enter filename: &quot;)
+    with open(filename) as f:
+        data = f.read()
+    numbers = [int(x) for x in data.split()]
+    average = sum(numbers) / len(numbers)
+    print(f&quot;Average: {average}&quot;)
+except Exception:
+    print(&quot;Something went wrong&quot;)  # Which part failed?</code></pre></div><div class="error-message">No specific error, but when something fails, you cannot tell whether the file was missing, the data was not numeric, or the list was empty.</div><div class="correct-code"><pre><code class="language-python">filename = input(&quot;Enter filename: &quot;)
+try:
+    with open(filename) as f:
+        data = f.read()
+except FileNotFoundError:
+    print(f&quot;File &#39;{filename}&#39; not found&quot;)
+else:
+    try:
+        numbers = [int(x) for x in data.split()]
+        average = sum(numbers) / len(numbers)
+    except ValueError:
+        print(&quot;File contains non-numeric data&quot;)
+    except ZeroDivisionError:
+        print(&quot;File is empty&quot;)
+    else:
+        print(f&quot;Average: {average}&quot;)</code></pre></div><div class="mistake-explanation">Keep try blocks small and specific. Each try block should protect only the code that might raise the specific exception you are catching. Large try blocks with broad except clauses hide bugs.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Catching an Exception and Doing Nothing</h3>
+                <div class="wrong-code"><pre><code class="language-python">try:
+    result = int(&quot;abc&quot;)
+except ValueError:
+    pass  # Silently ignore the error
+
+print(result)  # NameError: result was never assigned!</code></pre></div><div class="error-message">NameError: name &#39;result&#39; is not defined</div><div class="correct-code"><pre><code class="language-python">try:
+    result = int(&quot;abc&quot;)
+except ValueError:
+    print(&quot;Invalid input, using default value&quot;)
+    result = 0
+
+print(result)  # 0</code></pre></div><div class="mistake-explanation">Using <code>pass</code> in an except block silently swallows the error, which makes debugging very difficult. If the try block was supposed to assign a variable, that variable remains undefined. Always handle the error meaningfully or at least log it.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Order of except Blocks (Parent Before Child)</h3>
+                <div class="wrong-code"><pre><code class="language-python">try:
+    with open(&quot;missing.txt&quot;) as f:
+        pass
+except Exception:
+    print(&quot;General error&quot;)
+except FileNotFoundError:  # This never runs!
+    print(&quot;File not found&quot;)</code></pre></div><div class="error-message">SyntaxWarning in Python 3.12+ (or the specific handler simply never executes because the parent class catches it first).</div><div class="correct-code"><pre><code class="language-python">try:
+    with open(&quot;missing.txt&quot;) as f:
+        pass
+except FileNotFoundError:
+    print(&quot;File not found&quot;)
+except Exception:
+    print(&quot;General error&quot;)</code></pre></div><div class="mistake-explanation">Since <code>FileNotFoundError</code> is a subclass of <code>Exception</code>, <code>except Exception</code> catches it first, and the more specific handler never runs. Always put specific (child) exceptions before general (parent) ones.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing else with finally</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Thinking else always runs
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print(&quot;Division error&quot;)
+else:
+    print(&quot;This will run&quot;)  # NO! else does NOT run if except ran</code></pre></div><div class="error-message">No error, but the else block does not run because an exception was caught. The programmer expected it to run.</div><div class="correct-code"><pre><code class="language-python">try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print(&quot;Division error&quot;)
+else:
+    print(&quot;This runs only on success&quot;)
+finally:
+    print(&quot;This ALWAYS runs&quot;)</code></pre></div><div class="mistake-explanation"><code>else</code> runs only if <strong>no exception</strong> occurred (success path). <code>finally</code> runs <strong>always</strong>, regardless of whether an exception occurred. They serve different purposes: else is for success-only logic, finally is for guaranteed cleanup.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Exceptions are runtime errors (different from syntax errors). Without handling, they crash the program. The try/except structure lets you catch and respond to exceptions gracefully.</li>
+<li>Catch specific exceptions (ValueError, TypeError, IndexError, KeyError, ZeroDivisionError, FileNotFoundError, NameError) rather than using bare except or except Exception. Specific handling prevents hiding unrelated bugs.</li>
+<li>Multiple except blocks handle different exception types from the same try block. Python checks them top to bottom and enters the first match. Put specific exceptions before general ones.</li>
+<li>Use &#39;as&#39; to capture the exception object: except ValueError as e. The object contains the error message (str(e)) and arguments (e.args).</li>
+<li>The else clause runs only when no exception occurred in try. It keeps success-only code separate from protected code. Errors in else are not caught by the preceding except blocks.</li>
+<li>The finally clause always runs: after try succeeds, after except handles an error, or even after a return statement. Use it for cleanup (closing files, releasing resources).</li>
+<li>Use raise to throw exceptions when your code detects invalid conditions. raise ValueError(&#39;message&#39;) communicates errors to callers.</li>
+<li>Custom exceptions inherit from Exception: class MyError(Exception). They make error handling more descriptive and can carry additional data.</li>
+<li>Python favors EAFP (Easier to Ask Forgiveness than Permission) over LBYL (Look Before You Leap). Try the operation and handle the exception, rather than checking conditions first.</li>
+<li>The exception hierarchy means catching a parent class also catches its children. except Exception catches almost everything. Use specific types for precise error handling.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/file-handling-in-python" class="related-topic-link">File Handling in Python</a>
+<a href="/resources/python/object-oriented-programming" class="related-topic-link">Object-Oriented Programming in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/file-handling-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">File Handling in Python</span>
+        </a>
+            <a href="/resources/python/object-oriented-programming" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Object-Oriented Programming in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/exception-handling/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

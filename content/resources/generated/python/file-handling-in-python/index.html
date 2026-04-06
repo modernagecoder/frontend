@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Handling in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Read from and write to files using open(), with statement, and file modes.">
+    <meta name="keywords" content="file handling in python, python tutorial, python file handling in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+    <meta property="og:title" content="File Handling in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Read from and write to files using open(), with statement, and file modes.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/file-handling-in-python">
+    <meta name="twitter:title" content="File Handling in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Read from and write to files using open(), with statement, and file modes.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "File Handling in Python",
+    "description": "Read from and write to files using open(), with statement, and file modes.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/file-handling-in-python"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/file-handling-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "File Handling in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/file-handling-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Opening in Write Mode When You Meant to Read",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Opening a file in <code>\"w\"</code> mode immediately erases all its content, even before you write anything. The data is lost permanently. Always double-check the mode string. Use <code>\"r\"</code> for reading."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting to Close the File (Not Using with)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without <code>with</code>, you must manually call <code>close()</code>. If you forget, or if an error occurs before <code>close()</code>, the file may not be properly saved. Always use the <code>with</code> statement for file operations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting writelines() to Add Newlines",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>writelines()</code> writes each string exactly as-is. It does not add any separator or newline between items. You must include <code>\\n</code> in each string yourself."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Reading a File Twice Without Seeking",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "After <code>read()</code>, the file pointer is at the end. A second <code>read()</code> returns nothing because there is nothing left to read. Use <code>seek(0)</code> to rewind the pointer to the beginning before reading again."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Handling FileNotFoundError",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Opening a non-existent file in read mode raises <code>FileNotFoundError</code>. Always check with <code>os.path.exists()</code> first, or handle the error with try/except (covered in the next chapter)."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">File Handling in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">40 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">File Handling in Python</h1>
+            <a href="/resources/python/file-handling-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is File Handling in Python?</h2><p><strong>File handling</strong> is the ability to read data from files and write data to files on your computer's storage. Until now, every program you have written loses all its data the moment it stops running. Variables exist only in memory (RAM), and RAM is cleared when the program ends. Files provide <strong>persistent storage</strong> -- data that survives after your program exits.</p><p>Python provides the built-in <code>open()</code> function to work with files. The basic workflow is:</p><pre><code># Open a file
+file = open("data.txt", "r")  # "r" = read mode
+
+# Do something with the file
+content = file.read()
+print(content)
+
+# Close the file
+file.close()</code></pre><p>Every file operation follows this three-step pattern: <strong>open</strong>, <strong>operate</strong>, <strong>close</strong>. However, as we will see, Python offers a better approach using the <code>with</code> statement that handles closing automatically.</p><h3>Types of Files</h3><p>Files fall into two broad categories:</p><ul><li><strong>Text files</strong> -- contain human-readable characters (letters, digits, symbols). Examples: <code>.txt</code>, <code>.csv</code>, <code>.py</code>, <code>.html</code>. Python reads these as strings.</li><li><strong>Binary files</strong> -- contain raw bytes (not human-readable). Examples: <code>.jpg</code>, <code>.png</code>, <code>.pdf</code>, <code>.exe</code>. Python reads these as bytes objects.</li></ul>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Is File Handling Important?</h2><h3>1. Data Persistence</h3><p>Without files, every program starts with a blank slate. If Aarav builds a quiz application, the scores disappear when the program ends. With file handling, he can save scores to a file and load them the next time the program runs. This is the foundation of all data storage.</p><h3>2. Processing Real-World Data</h3><p>Real-world applications constantly read and write files. A school management system reads student data from CSV files. A web scraper saves results to text files. A configuration system reads settings from files. Understanding file handling is essential for building any practical application.</p><h3>3. Interoperability</h3><p>Files are the universal way programs exchange data. Priya's Python script can write a CSV file that Rohan opens in Excel. A program can read configuration files, log files, or data files created by other programs. Files are the common language between different software.</p><h3>4. Logging and Debugging</h3><p>Professional applications write log files that record what happened during execution. When something goes wrong, developers read these logs to diagnose the problem. Without file handling, there would be no way to keep a permanent record of program activity.</p><h3>5. Foundation for Databases</h3><p>Databases (like SQLite, MySQL, PostgreSQL) are ultimately sophisticated file management systems. Understanding how basic file I/O works gives you the conceptual foundation for understanding how databases store and retrieve data.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The open() Function</h3><p>The <code>open()</code> function creates a file object. Its signature is:</p><pre><code>open(filename, mode="r", encoding=None)</code></pre><p><code>filename</code> is a string path to the file. <code>mode</code> determines what you can do with the file. <code>encoding</code> specifies the character encoding (default depends on your OS, but <code>"utf-8"</code> is recommended for text files).</p><h3>2. File Modes</h3><p>The mode string tells Python how to open the file:</p><table><tr><th>Mode</th><th>Description</th><th>Creates file?</th><th>Overwrites?</th></tr><tr><td><code>"r"</code></td><td>Read only (default)</td><td>No (FileNotFoundError)</td><td>No</td></tr><tr><td><code>"w"</code></td><td>Write only</td><td>Yes</td><td>Yes (erases existing content)</td></tr><tr><td><code>"a"</code></td><td>Append only</td><td>Yes</td><td>No (adds to end)</td></tr><tr><td><code>"r+"</code></td><td>Read and write</td><td>No (FileNotFoundError)</td><td>Overwrites from position</td></tr><tr><td><code>"w+"</code></td><td>Write and read</td><td>Yes</td><td>Yes (erases existing content)</td></tr><tr><td><code>"a+"</code></td><td>Append and read</td><td>Yes</td><td>No (adds to end)</td></tr><tr><td><code>"rb"</code></td><td>Read binary</td><td>No</td><td>No</td></tr><tr><td><code>"wb"</code></td><td>Write binary</td><td>Yes</td><td>Yes</td></tr></table><p>The most critical distinction: <code>"w"</code> mode <strong>destroys existing content</strong> the moment you open the file. If Meera accidentally opens an important file in <code>"w"</code> mode, all its data is gone instantly, even if she never writes anything to it.</p><h3>3. Reading Files</h3><p>Python provides three methods to read file content:</p><h4>read() -- Read the Entire File</h4><pre><code># Reads everything into one string
+with open("poem.txt", "r") as f:
+    content = f.read()
+    print(content)</code></pre><p><code>read()</code> returns the entire file as a single string, including newline characters (<code>\n</code>). You can also pass a number to read that many characters: <code>f.read(100)</code> reads the first 100 characters.</p><h4>readline() -- Read One Line</h4><pre><code># Reads one line at a time
+with open("poem.txt", "r") as f:
+    first_line = f.readline()   # Reads line 1
+    second_line = f.readline()  # Reads line 2
+    print(first_line)
+    print(second_line)</code></pre><p><code>readline()</code> reads up to and including the next newline character. Each subsequent call reads the next line. When the file is exhausted, it returns an empty string <code>""</code>.</p><h4>readlines() -- Read All Lines into a List</h4><pre><code># Returns a list of lines
+with open("poem.txt", "r") as f:
+    lines = f.readlines()
+    print(lines)   # ['Line 1\n', 'Line 2\n', 'Line 3\n']
+    print(len(lines))  # Number of lines</code></pre><p><code>readlines()</code> returns a list where each element is one line (including the trailing <code>\n</code>). Useful when you need to process lines by index.</p><h4>Iterating Over a File (Best Practice)</h4><pre><code># Most memory-efficient way to read line by line
+with open("poem.txt", "r") as f:
+    for line in f:
+        print(line.strip())  # strip() removes trailing \n</code></pre><p>A file object is <strong>iterable</strong>. Iterating directly over it reads one line at a time without loading the entire file into memory. This is the preferred approach for large files.</p><h3>4. Writing to Files</h3><h4>write() -- Write a String</h4><pre><code>with open("output.txt", "w") as f:
+    f.write("Hello, World!\n")
+    f.write("This is line 2.\n")</code></pre><p><code>write()</code> writes a string to the file. It does <strong>not</strong> automatically add a newline -- you must include <code>\n</code> yourself. It returns the number of characters written.</p><h4>writelines() -- Write a List of Strings</h4><pre><code>lines = ["Line 1\n", "Line 2\n", "Line 3\n"]
+with open("output.txt", "w") as f:
+    f.writelines(lines)</code></pre><p><code>writelines()</code> writes each string in the list to the file. Like <code>write()</code>, it does not add newlines between items -- you must include them in the strings.</p><h3>5. The with Statement (Context Manager)</h3><p>The <code>with</code> statement is the <strong>correct</strong> way to work with files in Python. It guarantees the file is closed when the block ends, even if an error occurs:</p><pre><code># Without with (risky)
+f = open("data.txt", "r")
+content = f.read()
+f.close()  # What if an error occurs before this line?
+
+# With with (safe)
+with open("data.txt", "r") as f:
+    content = f.read()
+# File is automatically closed here, no matter what</code></pre><p>Why is the first approach risky? If an error occurs between <code>open()</code> and <code>close()</code>, the file is never closed. An unclosed file can lead to data loss (buffered writes not flushed), resource leaks (too many open files), and corrupted data. The <code>with</code> statement eliminates all these risks.</p><p>Technical detail: <code>with</code> calls the file object's <code>__enter__()</code> method when entering the block and <code>__exit__()</code> method when leaving (which calls <code>close()</code>). This is the <strong>context manager protocol</strong>.</p><h3>6. File Paths</h3><h4>Absolute vs Relative Paths</h4><pre><code># Absolute path (full path from root)
+f = open("/home/aarav/projects/data.txt", "r")
+f = open("C:/Users/Priya/Documents/data.txt", "r")  # Windows
+
+# Relative path (relative to current working directory)
+f = open("data.txt", "r")          # Same directory
+f = open("data/input.txt", "r")     # Subdirectory
+f = open("../data.txt", "r")        # Parent directory</code></pre><h4>Using os.path for Cross-Platform Paths</h4><pre><code>import os
+
+# Join path components (uses correct separator for OS)
+path = os.path.join("data", "students", "marks.txt")
+print(path)  # data/students/marks.txt (Linux/Mac)
+             # data\\students\\marks.txt (Windows)
+
+# Check if file exists before opening
+if os.path.exists("data.txt"):
+    with open("data.txt", "r") as f:
+        print(f.read())
+else:
+    print("File not found!")
+
+# Get absolute path
+print(os.path.abspath("data.txt"))</code></pre><h3>7. File Pointer Position: tell() and seek()</h3><p>When you read from a file, Python maintains a <strong>file pointer</strong> that tracks your current position (measured in bytes from the start):</p><pre><code>with open("data.txt", "r") as f:
+    print(f.tell())       # 0 (start of file)
+    
+    chunk = f.read(10)    # Read 10 characters
+    print(f.tell())       # 10 (moved forward)
+    
+    f.seek(0)             # Move back to start
+    print(f.tell())       # 0
+    
+    content = f.read()    # Read from beginning again</code></pre><p><code>tell()</code> returns the current position. <code>seek(offset)</code> moves the pointer to a specific position. <code>seek(0)</code> rewinds to the beginning. This is useful when you need to read a file multiple times without reopening it.</p><h3>8. Reading CSV Files Manually</h3><p>CSV (Comma-Separated Values) is a common format for tabular data. Before learning the <code>csv</code> module, understand how to parse CSV manually:</p><pre><code># students.csv contains:
+# Name,Age,Grade
+# Aarav,16,A
+# Priya,15,A+
+# Rohan,17,B+
+
+with open("students.csv", "r") as f:
+    header = f.readline().strip().split(",")
+    print(f"Columns: {header}")
+    
+    for line in f:
+        values = line.strip().split(",")
+        name, age, grade = values
+        print(f"{name} is {age} years old with grade {grade}")</code></pre><p>Each line is split by the comma delimiter. <code>strip()</code> removes the trailing newline. This approach works for simple CSV files but breaks if values contain commas. For production code, use the <code>csv</code> module.</p><h3>9. Writing Formatted Data</h3><pre><code>students = [
+    {"name": "Aarav", "age": 16, "marks": 92},
+    {"name": "Priya", "age": 15, "marks": 97},
+    {"name": "Rohan", "age": 17, "marks": 85},
+]
+
+# Write as CSV
+with open("results.csv", "w") as f:
+    f.write("Name,Age,Marks\n")
+    for s in students:
+        f.write(f"{s['name']},{s['age']},{s['marks']}\n")
+
+# Write as formatted report
+with open("report.txt", "w") as f:
+    f.write("Student Report\n")
+    f.write("=" * 30 + "\n")
+    for s in students:
+        f.write(f"Name: {s['name']:10s} Age: {s['age']:3d} Marks: {s['marks']:3d}\n")</code></pre><h3>10. Common File Operations</h3><h4>Counting Lines in a File</h4><pre><code>with open("data.txt", "r") as f:
+    line_count = sum(1 for line in f)
+    print(f"Total lines: {line_count}")</code></pre><h4>Searching for Text</h4><pre><code>search_term = "Python"
+with open("notes.txt", "r") as f:
+    for line_num, line in enumerate(f, 1):
+        if search_term in line:
+            print(f"Line {line_num}: {line.strip()}")</code></pre><h4>Copying File Content</h4><pre><code>with open("source.txt", "r") as src:
+    with open("destination.txt", "w") as dst:
+        for line in src:
+            dst.write(line)</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Writing and Reading a Text File</div><pre><code class="language-python"># Writing to a file
+with open(&quot;greeting.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Hello, Aarav!\n&quot;)
+    f.write(&quot;Welcome to Python file handling.\n&quot;)
+    f.write(&quot;This is line 3.\n&quot;)
+
+# Reading the entire file
+with open(&quot;greeting.txt&quot;, &quot;r&quot;) as f:
+    content = f.read()
+    print(&quot;--- Full content ---&quot;)
+    print(content)
+
+# Reading line by line
+with open(&quot;greeting.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;--- Line by line ---&quot;)
+    for line in f:
+        print(line.strip())
+
+# Reading into a list
+with open(&quot;greeting.txt&quot;, &quot;r&quot;) as f:
+    lines = f.readlines()
+    print(f&quot;\nNumber of lines: {len(lines)}&quot;)
+    print(f&quot;First line: {lines[0].strip()}&quot;)</code></pre><div class="code-example-explanation">This example demonstrates the complete cycle of writing to a file and reading it back using three different methods: <code>read()</code> for the entire content, direct iteration for line-by-line processing, and <code>readlines()</code> for getting all lines as a list. The <code>with</code> statement ensures proper file closure.</div><div class="code-example-output">--- Full content ---
+Hello, Aarav!
+Welcome to Python file handling.
+This is line 3.
+
+--- Line by line ---
+Hello, Aarav!
+Welcome to Python file handling.
+This is line 3.
+
+Number of lines: 3
+First line: Hello, Aarav!</div></div>
+<div class="code-example"><div class="code-example-title">File Modes: Write vs Append</div><pre><code class="language-python"># Write mode (&quot;w&quot;) -- creates or overwrites
+with open(&quot;log.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Entry 1: Program started\n&quot;)
+    f.write(&quot;Entry 2: Loading data\n&quot;)
+
+with open(&quot;log.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;After write mode:&quot;)
+    print(f.read())
+
+# Append mode (&quot;a&quot;) -- adds to end
+with open(&quot;log.txt&quot;, &quot;a&quot;) as f:
+    f.write(&quot;Entry 3: Processing complete\n&quot;)
+    f.write(&quot;Entry 4: Program ended\n&quot;)
+
+with open(&quot;log.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;After append mode:&quot;)
+    print(f.read())
+
+# Write mode again -- DESTROYS previous content!
+with open(&quot;log.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Fresh start!\n&quot;)
+
+with open(&quot;log.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;After second write mode:&quot;)
+    print(f.read())</code></pre><div class="code-example-explanation">Write mode (<code>"w"</code>) erases all existing content and starts fresh. Append mode (<code>"a"</code>) preserves existing content and adds new data at the end. The final write mode call demonstrates how <code>"w"</code> destroys the four entries and replaces them with a single line.</div><div class="code-example-output">After write mode:
+Entry 1: Program started
+Entry 2: Loading data
+
+After append mode:
+Entry 1: Program started
+Entry 2: Loading data
+Entry 3: Processing complete
+Entry 4: Program ended
+
+After second write mode:
+Fresh start!</div></div>
+<div class="code-example"><div class="code-example-title">readline() and tell()/seek()</div><pre><code class="language-python"># Create a test file
+with open(&quot;sample.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Line 1: Python\n&quot;)
+    f.write(&quot;Line 2: is\n&quot;)
+    f.write(&quot;Line 3: powerful\n&quot;)
+
+# Demonstrate readline and file pointer
+with open(&quot;sample.txt&quot;, &quot;r&quot;) as f:
+    print(f&quot;Position: {f.tell()}&quot;)
+    
+    line1 = f.readline()
+    print(f&quot;Read: {line1.strip()!r}&quot;)
+    print(f&quot;Position: {f.tell()}&quot;)
+    
+    line2 = f.readline()
+    print(f&quot;Read: {line2.strip()!r}&quot;)
+    print(f&quot;Position: {f.tell()}&quot;)
+    
+    # Seek back to the beginning
+    f.seek(0)
+    print(f&quot;\nAfter seek(0), position: {f.tell()}&quot;)
+    print(f&quot;Read again: {f.readline().strip()!r}&quot;)
+    
+    # Read after end of file
+    f.seek(0)
+    while True:
+        line = f.readline()
+        if not line:  # Empty string means EOF
+            print(&quot;Reached end of file&quot;)
+            break
+        print(line.strip())</code></pre><div class="code-example-explanation"><code>readline()</code> reads one line at a time, advancing the file pointer. <code>tell()</code> shows the current byte position. <code>seek(0)</code> rewinds to the start. When <code>readline()</code> returns an empty string, the file is exhausted.</div><div class="code-example-output">Position: 0
+Read: &#39;Line 1: Python&#39;
+Position: 16
+Read: &#39;Line 2: is&#39;
+Position: 27
+
+After seek(0), position: 0
+Read again: &#39;Line 1: Python&#39;
+Line 1: Python
+Line 2: is
+Line 3: powerful
+Reached end of file</div></div>
+<div class="code-example"><div class="code-example-title">Writing and Reading CSV Data</div><pre><code class="language-python"># Write student data as CSV
+students = [
+    (&quot;Aarav&quot;, 16, 92, &quot;A&quot;),
+    (&quot;Priya&quot;, 15, 97, &quot;A+&quot;),
+    (&quot;Rohan&quot;, 17, 78, &quot;B+&quot;),
+    (&quot;Meera&quot;, 14, 85, &quot;A&quot;),
+    (&quot;Vikram&quot;, 16, 68, &quot;B&quot;),
+]
+
+with open(&quot;students.csv&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Name,Age,Marks,Grade\n&quot;)
+    for name, age, marks, grade in students:
+        f.write(f&quot;{name},{age},{marks},{grade}\n&quot;)
+
+print(&quot;CSV file written.&quot;)
+
+# Read and process the CSV
+with open(&quot;students.csv&quot;, &quot;r&quot;) as f:
+    header = f.readline().strip().split(&quot;,&quot;)
+    print(f&quot;Columns: {header}&quot;)
+    print(&quot;-&quot; * 35)
+    
+    total_marks = 0
+    count = 0
+    for line in f:
+        name, age, marks, grade = line.strip().split(&quot;,&quot;)
+        marks = int(marks)
+        total_marks += marks
+        count += 1
+        print(f&quot;{name:8s} | Age: {age} | Marks: {marks} | Grade: {grade}&quot;)
+    
+    print(&quot;-&quot; * 35)
+    print(f&quot;Average marks: {total_marks / count:.1f}&quot;)</code></pre><div class="code-example-explanation">This example writes structured data as CSV (comma-separated values), then reads it back, parses each line by splitting on commas, and computes statistics. The header line is read separately since it contains column names, not data.</div><div class="code-example-output">CSV file written.
+Columns: [&#39;Name&#39;, &#39;Age&#39;, &#39;Marks&#39;, &#39;Grade&#39;]
+-----------------------------------
+Aarav    | Age: 16 | Marks: 92 | Grade: A
+Priya    | Age: 15 | Marks: 97 | Grade: A+
+Rohan    | Age: 17 | Marks: 78 | Grade: B+
+Meera    | Age: 14 | Marks: 85 | Grade: A
+Vikram   | Age: 16 | Marks: 68 | Grade: B
+-----------------------------------
+Average marks: 84.0</div></div>
+<div class="code-example"><div class="code-example-title">Checking File Existence and Using os.path</div><pre><code class="language-python">import os
+
+# Create a test file
+with open(&quot;test_file.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Test content\n&quot;)
+
+# Check if file exists
+print(f&quot;test_file.txt exists: {os.path.exists(&#39;test_file.txt&#39;)}&quot;)
+print(f&quot;missing.txt exists: {os.path.exists(&#39;missing.txt&#39;)}&quot;)
+
+# Get absolute path
+print(f&quot;Absolute path: {os.path.abspath(&#39;test_file.txt&#39;)}&quot;)
+
+# Join paths safely
+path = os.path.join(&quot;data&quot;, &quot;reports&quot;, &quot;summary.txt&quot;)
+print(f&quot;Joined path: {path}&quot;)
+
+# Get file size
+size = os.path.getsize(&quot;test_file.txt&quot;)
+print(f&quot;File size: {size} bytes&quot;)
+
+# Safe file reading pattern
+def safe_read(filepath):
+    if not os.path.exists(filepath):
+        return f&quot;Error: {filepath} not found&quot;
+    with open(filepath, &quot;r&quot;) as f:
+        return f.read()
+
+print(safe_read(&quot;test_file.txt&quot;))
+print(safe_read(&quot;nonexistent.txt&quot;))</code></pre><div class="code-example-explanation">The <code>os.path</code> module provides utilities for working with file paths. <code>exists()</code> checks if a path exists, <code>abspath()</code> returns the full path, <code>join()</code> combines path components using the correct separator for the OS, and <code>getsize()</code> returns file size in bytes.</div><div class="code-example-output">test_file.txt exists: True
+missing.txt exists: False
+Absolute path: /home/user/test_file.txt
+Joined path: data/reports/summary.txt
+File size: 13 bytes
+Test content
+
+Error: nonexistent.txt not found</div></div>
+<div class="code-example"><div class="code-example-title">Counting Lines, Searching Text, Copying Files</div><pre><code class="language-python"># Create a source file
+with open(&quot;source.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Python is a programming language.\n&quot;)
+    f.write(&quot;Python is used for web development.\n&quot;)
+    f.write(&quot;Java is also popular.\n&quot;)
+    f.write(&quot;Python supports file handling.\n&quot;)
+    f.write(&quot;C++ is a compiled language.\n&quot;)
+
+# Count total lines
+with open(&quot;source.txt&quot;, &quot;r&quot;) as f:
+    line_count = sum(1 for _ in f)
+    print(f&quot;Total lines: {line_count}&quot;)
+
+# Search for lines containing a keyword
+keyword = &quot;Python&quot;
+with open(&quot;source.txt&quot;, &quot;r&quot;) as f:
+    print(f&quot;\nLines containing &#39;{keyword}&#39;:&quot;)
+    for num, line in enumerate(f, 1):
+        if keyword in line:
+            print(f&quot;  Line {num}: {line.strip()}&quot;)
+
+# Count occurrences of a word
+with open(&quot;source.txt&quot;, &quot;r&quot;) as f:
+    content = f.read()
+    count = content.count(&quot;Python&quot;)
+    print(f&quot;\n&#39;Python&#39; appears {count} times&quot;)
+
+# Copy file
+with open(&quot;source.txt&quot;, &quot;r&quot;) as src:
+    with open(&quot;backup.txt&quot;, &quot;w&quot;) as dst:
+        for line in src:
+            dst.write(line)
+
+print(&quot;\nFile copied to backup.txt&quot;)
+
+# Verify copy
+with open(&quot;backup.txt&quot;, &quot;r&quot;) as f:
+    print(f&quot;Backup has {sum(1 for _ in f)} lines&quot;)</code></pre><div class="code-example-explanation">Practical file operations: counting lines using a generator expression, searching for text with <code>enumerate()</code> for line numbers, counting word occurrences with <code>str.count()</code>, and copying a file line by line. Nested <code>with</code> blocks can open multiple files simultaneously.</div><div class="code-example-output">Total lines: 5
+
+Lines containing &#39;Python&#39;:
+  Line 1: Python is a programming language.
+  Line 2: Python is used for web development.
+  Line 4: Python supports file handling.
+
+&#39;Python&#39; appears 3 times
+
+File copied to backup.txt
+Backup has 5 lines</div></div>
+<div class="code-example"><div class="code-example-title">writelines() and the with Statement Guarantee</div><pre><code class="language-python"># writelines() does NOT add newlines
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;]
+
+# Wrong: lines will be joined together
+with open(&quot;fruits_wrong.txt&quot;, &quot;w&quot;) as f:
+    f.writelines(fruits)
+
+with open(&quot;fruits_wrong.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;Without newlines:&quot;)
+    print(repr(f.read()))
+
+# Correct: add newlines yourself
+with open(&quot;fruits_correct.txt&quot;, &quot;w&quot;) as f:
+    f.writelines(fruit + &quot;\n&quot; for fruit in fruits)
+
+with open(&quot;fruits_correct.txt&quot;, &quot;r&quot;) as f:
+    print(&quot;\nWith newlines:&quot;)
+    print(f.read())
+
+# Demonstrating with statement safety
+print(&quot;Demonstrating automatic close:&quot;)
+f = open(&quot;temp.txt&quot;, &quot;w&quot;)
+print(f&quot;Before close: f.closed = {f.closed}&quot;)
+f.close()
+print(f&quot;After close: f.closed = {f.closed}&quot;)
+
+with open(&quot;temp.txt&quot;, &quot;w&quot;) as f:
+    print(f&quot;Inside with: f.closed = {f.closed}&quot;)
+print(f&quot;Outside with: f.closed = {f.closed}&quot;)</code></pre><div class="code-example-explanation"><code>writelines()</code> writes each string from an iterable but does not add newline characters between them. You must include <code>\n</code> yourself. The <code>with</code> statement automatically sets <code>f.closed</code> to <code>True</code> when the block ends, as confirmed by checking the <code>closed</code> attribute.</div><div class="code-example-output">Without newlines:
+&#39;applebananacherry&#39;
+
+With newlines:
+apple
+banana
+cherry
+
+Demonstrating automatic close:
+Before close: f.closed = False
+After close: f.closed = True
+Inside with: f.closed = False
+Outside with: f.closed = True</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Opening in Write Mode When You Meant to Read</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Accidentally using &quot;w&quot; instead of &quot;r&quot;
+with open(&quot;important_data.txt&quot;, &quot;w&quot;) as f:
+    content = f.read()  # Trying to read
+# The file is now EMPTY! All data is gone!</code></pre></div><div class="error-message">io.UnsupportedOperation: not readable (and all previous content is erased!)</div><div class="correct-code"><pre><code class="language-python">with open(&quot;important_data.txt&quot;, &quot;r&quot;) as f:
+    content = f.read()  # Correctly reading</code></pre></div><div class="mistake-explanation">Opening a file in <code>"w"</code> mode immediately erases all its content, even before you write anything. The data is lost permanently. Always double-check the mode string. Use <code>"r"</code> for reading.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting to Close the File (Not Using with)</h3>
+                <div class="wrong-code"><pre><code class="language-python">f = open(&quot;data.txt&quot;, &quot;w&quot;)
+f.write(&quot;Important data&quot;)
+# Forgot f.close()
+# Data might not be written if program crashes!</code></pre></div><div class="error-message">No error shown, but data may be lost. The file remains open, consuming system resources.</div><div class="correct-code"><pre><code class="language-python">with open(&quot;data.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Important data&quot;)
+# File is automatically closed and data is flushed</code></pre></div><div class="mistake-explanation">Without <code>with</code>, you must manually call <code>close()</code>. If you forget, or if an error occurs before <code>close()</code>, the file may not be properly saved. Always use the <code>with</code> statement for file operations.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting writelines() to Add Newlines</h3>
+                <div class="wrong-code"><pre><code class="language-python">lines = [&quot;Hello&quot;, &quot;World&quot;, &quot;Python&quot;]
+with open(&quot;output.txt&quot;, &quot;w&quot;) as f:
+    f.writelines(lines)
+# File contains: HelloWorldPython (all on one line!)</code></pre></div><div class="error-message">No error, but the output is all on a single line: &#39;HelloWorldPython&#39;</div><div class="correct-code"><pre><code class="language-python">lines = [&quot;Hello&quot;, &quot;World&quot;, &quot;Python&quot;]
+with open(&quot;output.txt&quot;, &quot;w&quot;) as f:
+    f.writelines(line + &quot;\n&quot; for line in lines)
+# File contains three separate lines</code></pre></div><div class="mistake-explanation"><code>writelines()</code> writes each string exactly as-is. It does not add any separator or newline between items. You must include <code>\n</code> in each string yourself.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Reading a File Twice Without Seeking</h3>
+                <div class="wrong-code"><pre><code class="language-python">with open(&quot;data.txt&quot;, &quot;r&quot;) as f:
+    first_read = f.read()
+    second_read = f.read()  # Returns empty string!
+    print(len(first_read))   # e.g., 100
+    print(len(second_read))  # 0 (empty!)</code></pre></div><div class="error-message">No error, but the second read returns an empty string because the file pointer is at the end.</div><div class="correct-code"><pre><code class="language-python">with open(&quot;data.txt&quot;, &quot;r&quot;) as f:
+    first_read = f.read()
+    f.seek(0)  # Reset pointer to beginning
+    second_read = f.read()  # Now reads the full content again
+    print(len(first_read) == len(second_read))  # True</code></pre></div><div class="mistake-explanation">After <code>read()</code>, the file pointer is at the end. A second <code>read()</code> returns nothing because there is nothing left to read. Use <code>seek(0)</code> to rewind the pointer to the beginning before reading again.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Handling FileNotFoundError</h3>
+                <div class="wrong-code"><pre><code class="language-python">with open(&quot;nonexistent.txt&quot;, &quot;r&quot;) as f:
+    content = f.read()
+# FileNotFoundError: [Errno 2] No such file or directory</code></pre></div><div class="error-message">FileNotFoundError: [Errno 2] No such file or directory: &#39;nonexistent.txt&#39;</div><div class="correct-code"><pre><code class="language-python">import os
+
+filename = &quot;nonexistent.txt&quot;
+if os.path.exists(filename):
+    with open(filename, &quot;r&quot;) as f:
+        content = f.read()
+else:
+    print(f&quot;File &#39;{filename}&#39; not found.&quot;)</code></pre></div><div class="mistake-explanation">Opening a non-existent file in read mode raises <code>FileNotFoundError</code>. Always check with <code>os.path.exists()</code> first, or handle the error with try/except (covered in the next chapter).</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The open() function creates a file object. It takes a filename and mode (default is &quot;r&quot; for read). Always specify encoding=&quot;utf-8&quot; for text files to avoid platform-dependent issues.</li>
+<li>File modes: &quot;r&quot; (read), &quot;w&quot; (write, destroys existing content), &quot;a&quot; (append), &quot;r+&quot; (read+write), &quot;rb&quot;/&quot;wb&quot; (binary). The &quot;w&quot; mode erases the file immediately upon opening.</li>
+<li>Three reading methods: read() returns the entire file as one string, readline() returns one line, readlines() returns a list of all lines. Each includes trailing newline characters.</li>
+<li>The most memory-efficient way to read a file is to iterate over the file object directly: for line in f. This reads one line at a time without loading the entire file into memory.</li>
+<li>write() writes a string to a file without adding a newline. writelines() writes a list of strings without adding separators. You must include newline characters yourself.</li>
+<li>The with statement (context manager) is the correct way to handle files. It guarantees the file is closed when the block ends, even if an error occurs.</li>
+<li>tell() returns the current file pointer position in bytes. seek(offset) moves the pointer to a specific position. seek(0) rewinds to the beginning.</li>
+<li>Use os.path.exists() to check if a file exists before reading. Use os.path.join() to build file paths that work across operating systems.</li>
+<li>CSV files can be parsed manually by splitting lines on commas, but this approach breaks if values contain commas. The csv module handles edge cases properly.</li>
+<li>Files are either text (human-readable characters) or binary (raw bytes). Text mode is the default. Use &quot;rb&quot; and &quot;wb&quot; for binary files like images or PDFs.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/exception-handling" class="related-topic-link">Exception Handling in Python</a>
+<a href="/resources/python/modules-and-packages" class="related-topic-link">Modules and Packages in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/lambda-map-filter-reduce" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Lambda, Map, Filter, and Reduce</span>
+        </a>
+            <a href="/resources/python/exception-handling" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/file-handling-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

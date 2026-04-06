@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - File Handling in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on File Handling in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="file handling in python practice, python questions, python practice problems, file handling in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+    <meta property="og:title" content="Practice Questions - File Handling in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on File Handling in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - File Handling in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on File Handling in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - File Handling in Python",
+    "description": "55+ practice questions on File Handling in Python in Python.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "File Handling in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "File Handling in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/file-handling-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/file-handling-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/file-handling-in-python">File Handling in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 19</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; File Handling in Python</h1>
+            <a href="/resources/python/file-handling-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Hello")
+    f.write("World")
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">write() does not add newlines automatically.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>HelloWorld</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Line 1\n")
+    f.write("Line 2\n")
+
+with open("test.txt", "r") as f:
+    lines = f.readlines()
+    print(len(lines))
+    print(lines[0].strip())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">readlines() returns a list of lines including newline characters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>2</code><br><code>Line 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    result = f.write("Python")
+    print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">write() returns the number of characters written.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Hello\n")
+
+with open("test.txt", "a") as f:
+    f.write("World\n")
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Append mode adds to the end without erasing existing content.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>Hello</code><br><code>World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("ABCDEF")
+
+with open("test.txt", "r") as f:
+    print(f.read(3))
+    print(f.read(3))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">read(n) reads n characters and advances the file pointer.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>ABC</code><br><code>DEF</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Line A\nLine B\nLine C\n")
+
+with open("test.txt", "r") as f:
+    first = f.readline()
+    second = f.readline()
+    rest = f.read()
+    print(repr(first))
+    print(repr(second))
+    print(repr(rest))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">readline() reads up to and including the newline. read() reads everything remaining.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>'Line A\n'</code><br><code>'Line B\n'</code><br><code>'Line C\n'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Hello")
+
+with open("test.txt", "r") as f:
+    content = f.read()
+    print(f.tell())
+    f.seek(0)
+    print(f.tell())
+    print(f.read(2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">tell() shows the current position. seek(0) moves to the start.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>5</code><br><code>0</code><br><code>He</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Data\n")
+
+with open("test.txt", "w") as f:
+    f.write("New\n")
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Opening in "w" mode erases the file each time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>New</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Line 1\nLine 2\nLine 3\n")
+
+count = 0
+with open("test.txt", "r") as f:
+    for line in f:
+        count += 1
+
+print(count)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Iterating over a file object yields one line per iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("ABCDEFGHIJ")
+
+with open("test.txt", "r") as f:
+    f.read(5)
+    pos = f.tell()
+    f.seek(2)
+    char = f.read(1)
+    print(pos)
+    print(char)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">read(5) moves the pointer to position 5. seek(2) moves to position 2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>5</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>lines = ["apple", "banana", "cherry"]
+with open("test.txt", "w") as f:
+    f.writelines(lines)
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">writelines() does not add newlines or separators between strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>applebananacherry</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Hello")
+
+with open("test.txt", "r") as f:
+    data1 = f.read()
+    data2 = f.read()
+    print(repr(data1))
+    print(repr(data2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">After the first read() consumes everything, the pointer is at EOF.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>'Hello'</code><br><code>''</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("A\nB\nC")
+
+with open("test.txt", "r") as f:
+    lines = f.readlines()
+    print(len(lines))
+    print(repr(lines[-1]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">The last line does not have a trailing newline.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>3</code><br><code>'C'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Python\n")
+
+with open("test.txt", "r+") as f:
+    content = f.read()
+    print(repr(content))
+    f.write("Java\n")
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">r+ opens for reading and writing. After read(), the pointer is at the end.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>'Python\n'</code><br><code>Python</code><br><code>Java</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import os
+
+with open("test.txt", "w") as f:
+    f.write("Hello")
+
+print(os.path.exists("test.txt"))
+print(os.path.getsize("test.txt"))
+
+with open("test.txt", "w") as f:
+    pass  # Write nothing
+
+print(os.path.exists("test.txt"))
+print(os.path.getsize("test.txt"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Opening in "w" mode truncates the file to zero bytes, even if you write nothing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>True</code><br><code>5</code><br><code>True</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("ABCDE\n12345\n")
+
+with open("test.txt", "r") as f:
+    line = f.readline()
+    f.seek(0)
+    chars = f.read(3)
+    rest = f.readline()
+    print(repr(line))
+    print(repr(chars))
+    print(repr(rest))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">seek(0) resets to the beginning. readline() reads from the current position to the next newline.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>'ABCDE\n'</code><br><code>'ABC'</code><br><code>'DE\n'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Explain the difference between <code>"w"</code> and <code>"a"</code> file modes. When would you use each?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about what happens to existing content in the file.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>"w"</code> (write) mode erases all existing content immediately upon opening the file and starts fresh. Use it when you want to replace the entire file. <code>"a"</code> (append) mode preserves existing content and adds new data at the end. Use it when you want to add to a file (like log entries) without losing what is already there.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Why should you use the <code>with</code> statement instead of manually calling <code>open()</code> and <code>close()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about what happens if an error occurs between open() and close().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">The <code>with</code> statement guarantees the file is closed when the block ends, even if an error occurs. Without <code>with</code>, if an exception is raised between <code>open()</code> and <code>close()</code>, the file is never closed, which can cause data loss and resource leaks.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    for i in range(3):
+        f.write(str(i) + " ")
+
+with open("test.txt", "r") as f:
+    print(f.read())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The loop writes 0, 1, 2 with spaces.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>0 1 2 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Hello\nWorld")
+
+with open("test.txt", "r") as f:
+    for line in f:
+        print(line.upper().strip())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">upper() converts to uppercase. strip() removes whitespace including newlines.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>HELLO</code><br><code>WORLD</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>data = {"name": "Aarav", "age": 16}
+
+with open("test.txt", "w") as f:
+    for key, value in data.items():
+        f.write(f"{key}={value}\n")
+
+result = {}
+with open("test.txt", "r") as f:
+    for line in f:
+        key, value = line.strip().split("=")
+        result[key] = value
+
+print(result)
+print(type(result["age"]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">When reading from a file, all values are strings, not their original types.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>{'name': 'Aarav', 'age': '16'}</code><br><code>&lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    numbers = [10, 20, 30, 40, 50]
+    f.write(",".join(str(n) for n in numbers))
+
+with open("test.txt", "r") as f:
+    content = f.read()
+    values = content.split(",")
+    total = sum(int(v) for v in values)
+    print(values)
+    print(total)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">join() creates a comma-separated string. split() breaks it back apart.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>['10', '20', '30', '40', '50']</code><br><code>150</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("one\ntwo\nthree\nfour\nfive\n")
+
+with open("test.txt", "r") as f:
+    lines = f.readlines()
+    print(lines[1].strip())
+    print(lines[-1].strip())
+    print(len(lines))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">readlines() returns a list where index 0 is the first line.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>two</code><br><code>five</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Python is great\n")
+    f.write("Python is popular\n")
+    f.write("Java is also good\n")
+
+count = 0
+with open("test.txt", "r") as f:
+    for line in f:
+        if "Python" in line:
+            count += 1
+
+print(count)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The 'in' operator checks if a substring exists in a string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("Aarav,92\nPriya,97\nRohan,78\n")
+
+with open("test.txt", "r") as f:
+    students = []
+    for line in f:
+        name, marks = line.strip().split(",")
+        students.append((name, int(marks)))
+
+students.sort(key=lambda x: x[1], reverse=True)
+for name, marks in students:
+    print(f"{name}: {marks}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The data is read, parsed, and sorted by marks in descending order.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Priya: 97</code><br><code>Aarav: 92</code><br><code>Rohan: 78</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    f.write("abc\ndef\nghi\n")
+
+with open("test.txt", "r") as f:
+    content = f.read()
+    words = content.strip().split("\n")
+    result = "-".join(word.upper() for word in words)
+    print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">strip() removes trailing whitespace, split by newline gives a list of lines, join with hyphen.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>ABC-DEF-GHI</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>with open("test.txt", "w") as f:
+    for i in range(5):
+        f.write(f"{i * i}\n")
+
+with open("test.txt", "r") as f:
+    lines = [int(line.strip()) for line in f]
+    print(lines)
+    print(sum(lines))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The loop writes squares: 0, 1, 4, 9, 16.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[0, 1, 4, 9, 16]</code><br><code>30</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def count_words(filename):
+    with open(filename, "r") as f:
+        total = 0
+        for line in f:
+            total += len(line.split())
+    return total
+
+with open("test.txt", "w") as f:
+    f.write("hello world\n")
+    f.write("python is great\n")
+    f.write("file handling\n")
+
+print(count_words("test.txt"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">split() splits by whitespace. Count the words in each line.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>read()</code>, <code>readline()</code>, and <code>readlines()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about what each returns and how much of the file it reads.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>read()</code> returns the entire file as a single string. <code>readline()</code> returns one line (up to and including the next newline character) and advances the pointer. <code>readlines()</code> returns a list of all lines, each as a separate string. For large files, iterating over the file object (for line in f) is more memory-efficient than any of these.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the default mode when opening a file with open()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;w&quot; (write)</li><li><span class="mcq-option-label">B.</span> &quot;a&quot; (append)</li><li><span class="mcq-option-label">C.</span> &quot;r&quot; (read)</li><li><span class="mcq-option-label">D.</span> &quot;r+&quot; (read and write)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> If no mode is specified, <code>open()</code> defaults to <code>"r"</code> (read-only text mode). This is the safest default since it cannot accidentally modify the file.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which mode creates a new file if it does not exist and erases content if it does?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;r&quot;</li><li><span class="mcq-option-label">B.</span> &quot;w&quot;</li><li><span class="mcq-option-label">C.</span> &quot;a&quot;</li><li><span class="mcq-option-label">D.</span> &quot;r+&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>"w"</code> mode creates the file if missing and <strong>truncates</strong> (erases) it if it exists. This is the most destructive mode. Option A raises FileNotFoundError if the file is missing. Option C appends without erasing. Option D requires the file to exist.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does the with statement guarantee when used with files?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The file will be created if it does not exist</li><li><span class="mcq-option-label">B.</span> The file will be read faster</li><li><span class="mcq-option-label">C.</span> The file will be closed automatically when the block ends</li><li><span class="mcq-option-label">D.</span> The file will be encrypted</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>with</code> statement ensures the file is closed when the block ends, even if an exception occurs. It does not affect file creation (that depends on the mode) or read speed.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does write() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> None</li><li><span class="mcq-option-label">B.</span> True if successful, False otherwise</li><li><span class="mcq-option-label">C.</span> The number of characters written</li><li><span class="mcq-option-label">D.</span> The file object</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>write()</code> returns an integer representing the number of characters written. For example, <code>f.write("Hello")</code> returns 5.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What happens if you try to open a file in "r" mode that does not exist?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An empty file is created</li><li><span class="mcq-option-label">B.</span> The file object is None</li><li><span class="mcq-option-label">C.</span> FileNotFoundError is raised</li><li><span class="mcq-option-label">D.</span> The program silently continues</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> Read mode (<code>"r"</code>) requires the file to exist. If it does not, Python raises <code>FileNotFoundError</code>. Only <code>"w"</code>, <code>"a"</code>, <code>"w+"</code>, and <code>"a+"</code> create files automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does readlines() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A single string with all content</li><li><span class="mcq-option-label">B.</span> A list of strings, one per line (including \n)</li><li><span class="mcq-option-label">C.</span> A list of strings with \n removed</li><li><span class="mcq-option-label">D.</span> A generator that yields lines</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>readlines()</code> returns a list where each element is a line from the file, <strong>including</strong> the trailing newline character. You need to call <code>strip()</code> on each line to remove newlines. Option C is wrong because newlines are preserved.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does writelines() do that is different from write()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It adds newlines between strings automatically</li><li><span class="mcq-option-label">B.</span> It writes a list of strings to the file without adding newlines</li><li><span class="mcq-option-label">C.</span> It writes binary data instead of text</li><li><span class="mcq-option-label">D.</span> It writes each string on a separate line</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>writelines()</code> accepts an iterable of strings and writes each one as-is. It does <strong>not</strong> add newlines, separators, or any characters between the strings. Option A is a common misconception.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does tell() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The total number of lines in the file</li><li><span class="mcq-option-label">B.</span> The current position of the file pointer in bytes</li><li><span class="mcq-option-label">C.</span> The number of characters read so far</li><li><span class="mcq-option-label">D.</span> The file size in bytes</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>tell()</code> returns the current position of the file pointer as a byte offset from the beginning of the file. At the start, <code>tell()</code> returns 0. After reading 10 bytes, it returns 10.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does seek(0) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Closes the file</li><li><span class="mcq-option-label">B.</span> Moves the file pointer to the beginning of the file</li><li><span class="mcq-option-label">C.</span> Deletes the first character</li><li><span class="mcq-option-label">D.</span> Reads the first character</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>seek(0)</code> moves the file pointer to byte position 0, which is the beginning of the file. This allows you to read the file again from the start without reopening it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is the most memory-efficient way to read a large file line by line?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> f.read().split(&#39;\n&#39;)</li><li><span class="mcq-option-label">B.</span> f.readlines()</li><li><span class="mcq-option-label">C.</span> for line in f:</li><li><span class="mcq-option-label">D.</span> f.readline() in a while loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Iterating directly over the file object (<code>for line in f</code>) reads one line at a time without loading the entire file into memory. Options A and B load the entire file into memory. Option D also reads line by line but is less Pythonic.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the difference between "a" and "a+" mode?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;a&quot; can only append, &quot;a+&quot; can also read</li><li><span class="mcq-option-label">B.</span> &quot;a+&quot; appends faster than &quot;a&quot;</li><li><span class="mcq-option-label">C.</span> &quot;a&quot; creates the file, &quot;a+&quot; does not</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>"a"</code> opens for appending only (cannot read). <code>"a+"</code> opens for both appending and reading. Both modes create the file if it does not exist and both preserve existing content.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens if you open a file in "w" mode and close it without writing anything?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Nothing happens, the file stays the same</li><li><span class="mcq-option-label">B.</span> The file is deleted</li><li><span class="mcq-option-label">C.</span> The file is emptied (truncated to 0 bytes)</li><li><span class="mcq-option-label">D.</span> A PermissionError is raised</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> Opening in <code>"w"</code> mode <strong>immediately truncates</strong> the file to 0 bytes, regardless of whether you write anything. The file exists but is empty. This is why <code>"w"</code> is considered dangerous.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does os.path.join("data", "files", "report.txt") do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates the directories and file</li><li><span class="mcq-option-label">B.</span> Joins the strings with the OS-appropriate path separator</li><li><span class="mcq-option-label">C.</span> Opens the file at that path</li><li><span class="mcq-option-label">D.</span> Checks if the path exists</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>os.path.join()</code> combines path components using the correct separator for the operating system (/ on Linux/Mac, \\ on Windows). It does not create directories, open files, or check existence.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">When reading a text file, readline() returns an empty string. What does this indicate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The line is blank</li><li><span class="mcq-option-label">B.</span> The file pointer is at the end of the file (EOF)</li><li><span class="mcq-option-label">C.</span> The file is corrupted</li><li><span class="mcq-option-label">D.</span> There was a read error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> An empty string <code>""</code> from <code>readline()</code> means the end of file (EOF) has been reached. A blank line would return <code>"\n"</code> (just the newline character), not an empty string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the difference between a blank line and EOF when using readline()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> There is no difference</li><li><span class="mcq-option-label">B.</span> A blank line returns &quot;\n&quot;, EOF returns &quot;&quot;</li><li><span class="mcq-option-label">C.</span> A blank line returns &quot;&quot;, EOF returns &quot;\n&quot;</li><li><span class="mcq-option-label">D.</span> A blank line returns None, EOF returns &quot;&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> A blank line in a file is represented as <code>"\n"</code> (just a newline). The end of file returns an empty string <code>""</code>. This distinction is critical for writing correct file-reading loops.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which mode should you use to read a JPEG image file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;r&quot;</li><li><span class="mcq-option-label">B.</span> &quot;rb&quot;</li><li><span class="mcq-option-label">C.</span> &quot;r+&quot;</li><li><span class="mcq-option-label">D.</span> &quot;w&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> JPEG files are binary files, not text. You must use <code>"rb"</code> (read binary) mode. Using <code>"r"</code> (text mode) can corrupt binary data because Python may try to decode bytes as text and translate newline characters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Does write() automatically add a newline at the end?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, never</li><li><span class="mcq-option-label">C.</span> Only in &quot;w&quot; mode</li><li><span class="mcq-option-label">D.</span> Only for the last write() call</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>write()</code> writes exactly the string you provide, with no additions. You must explicitly include <code>"\n"</code> if you want a newline.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is a context manager in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that manages global variables</li><li><span class="mcq-option-label">B.</span> An object that defines __enter__ and __exit__ methods for use with the with statement</li><li><span class="mcq-option-label">C.</span> A class that manages file permissions</li><li><span class="mcq-option-label">D.</span> A module for handling errors</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> A context manager is any object that implements the <code>__enter__()</code> and <code>__exit__()</code> methods. The <code>with</code> statement calls these automatically. File objects are context managers that close the file in <code>__exit__()</code>.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Word Counter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that creates a file with 5 lines of text, then reads it and prints: (a) total number of lines, (b) total number of words, (c) total number of characters (excluding newlines).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Lines: 5
+Words: 15
+Characters: 75</div>
+                </div><div class="challenge-constraints">Use the with statement for all file operations.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python"># Create the file
+with open(&quot;sample.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Python is amazing\n&quot;)
+    f.write(&quot;File handling is useful\n&quot;)
+    f.write(&quot;Practice makes perfect\n&quot;)
+    f.write(&quot;Keep coding daily\n&quot;)
+    f.write(&quot;Learn something new\n&quot;)
+
+# Count lines, words, characters
+lines = 0
+words = 0
+chars = 0
+
+with open(&quot;sample.txt&quot;, &quot;r&quot;) as f:
+    for line in f:
+        lines += 1
+        words += len(line.split())
+        chars += len(line.strip())
+
+print(f&quot;Lines: {lines}&quot;)
+print(f&quot;Words: {words}&quot;)
+print(f&quot;Characters: {chars}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Student Marks Analyzer</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that writes student data (name, marks) to a CSV file, then reads it back and prints the student with the highest marks and the class average.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Topper: Priya with 97 marks
+Class average: 84.4</div>
+                </div><div class="challenge-constraints">Use CSV format (comma-separated). Parse marks as integers.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python"># Write student data
+students = [(&quot;Aarav&quot;, 92), (&quot;Priya&quot;, 97), (&quot;Rohan&quot;, 78), (&quot;Meera&quot;, 85), (&quot;Vikram&quot;, 70)]
+
+with open(&quot;marks.csv&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Name,Marks\n&quot;)
+    for name, marks in students:
+        f.write(f&quot;{name},{marks}\n&quot;)
+
+# Read and analyze
+topper_name = &quot;&quot;
+topper_marks = 0
+total = 0
+count = 0
+
+with open(&quot;marks.csv&quot;, &quot;r&quot;) as f:
+    f.readline()  # Skip header
+    for line in f:
+        name, marks = line.strip().split(&quot;,&quot;)
+        marks = int(marks)
+        total += marks
+        count += 1
+        if marks &gt; topper_marks:
+            topper_marks = marks
+            topper_name = name
+
+print(f&quot;Topper: {topper_name} with {topper_marks} marks&quot;)
+print(f&quot;Class average: {total / count}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Log File Appender</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function log_message(filename, message) that appends a timestamped message to a log file. Each entry should have a line number. Call it 5 times, then read and display the log.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1] System started
+[2] Loading data
+[3] Processing records
+[4] Saving results
+[5] System shutdown</div>
+                </div><div class="challenge-constraints">Use append mode. Number each line.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">def log_message(filename, message):
+    # Count existing lines
+    try:
+        with open(filename, &quot;r&quot;) as f:
+            count = sum(1 for _ in f)
+    except FileNotFoundError:
+        count = 0
+    
+    with open(filename, &quot;a&quot;) as f:
+        f.write(f&quot;[{count + 1}] {message}\n&quot;)
+
+# Clear and write fresh log
+with open(&quot;app.log&quot;, &quot;w&quot;) as f:
+    pass  # Clear the file
+
+log_message(&quot;app.log&quot;, &quot;System started&quot;)
+log_message(&quot;app.log&quot;, &quot;Loading data&quot;)
+log_message(&quot;app.log&quot;, &quot;Processing records&quot;)
+log_message(&quot;app.log&quot;, &quot;Saving results&quot;)
+log_message(&quot;app.log&quot;, &quot;System shutdown&quot;)
+
+# Display log
+with open(&quot;app.log&quot;, &quot;r&quot;) as f:
+    print(f.read().strip())</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Find and Replace in File</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function find_replace(filename, old_text, new_text) that reads a file, replaces all occurrences of old_text with new_text, and writes the result back to the same file. Test by replacing "Python" with "Python3" in a test file.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Before: Python is great. Python is popular.
+After: Python3 is great. Python3 is popular.
+Replacements made: 2</div>
+                </div><div class="challenge-constraints">Read the entire file, perform replacement, then write back. Return the number of replacements.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">def find_replace(filename, old_text, new_text):
+    with open(filename, &quot;r&quot;) as f:
+        content = f.read()
+    
+    count = content.count(old_text)
+    new_content = content.replace(old_text, new_text)
+    
+    with open(filename, &quot;w&quot;) as f:
+        f.write(new_content)
+    
+    return count
+
+# Create test file
+with open(&quot;test.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Python is great. Python is popular.\n&quot;)
+
+with open(&quot;test.txt&quot;, &quot;r&quot;) as f:
+    print(f&quot;Before: {f.read().strip()}&quot;)
+
+count = find_replace(&quot;test.txt&quot;, &quot;Python&quot;, &quot;Python3&quot;)
+
+with open(&quot;test.txt&quot;, &quot;r&quot;) as f:
+    print(f&quot;After: {f.read().strip()}&quot;)
+print(f&quot;Replacements made: {count}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: File Merger</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function merge_files(file_list, output_file) that reads content from multiple files and writes it all into one output file, with a separator line between each file's content. Test with 3 small files.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">--- part1.txt ---
+Hello from file 1
+--- part2.txt ---
+Hello from file 2
+--- part3.txt ---
+Hello from file 3</div>
+                </div><div class="challenge-constraints">Handle files that may not exist (skip them with a warning). Use a clear separator.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import os
+
+def merge_files(file_list, output_file):
+    with open(output_file, &quot;w&quot;) as out:
+        for filename in file_list:
+            if not os.path.exists(filename):
+                print(f&quot;Warning: {filename} not found, skipping.&quot;)
+                continue
+            out.write(f&quot;--- {filename} ---\n&quot;)
+            with open(filename, &quot;r&quot;) as f:
+                out.write(f.read())
+            if not out.tell():  # ensure newline between files
+                out.write(&quot;\n&quot;)
+
+# Create test files
+for i in range(1, 4):
+    with open(f&quot;part{i}.txt&quot;, &quot;w&quot;) as f:
+        f.write(f&quot;Hello from file {i}\n&quot;)
+
+merge_files([&quot;part1.txt&quot;, &quot;part2.txt&quot;, &quot;part3.txt&quot;], &quot;merged.txt&quot;)
+
+with open(&quot;merged.txt&quot;, &quot;r&quot;) as f:
+    print(f.read().strip())</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Line Number Adder</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function add_line_numbers(input_file, output_file) that reads a file and writes a new file with line numbers prefixed to each line (e.g., '1: content'). Also print the total number of lines processed.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1: Python is versatile
+2: It supports file handling
+3: Practice daily
+Total lines: 3</div>
+                </div><div class="challenge-constraints">Line numbers should start at 1. Use proper formatting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">def add_line_numbers(input_file, output_file):
+    count = 0
+    with open(input_file, &quot;r&quot;) as src:
+        with open(output_file, &quot;w&quot;) as dst:
+            for num, line in enumerate(src, 1):
+                dst.write(f&quot;{num}: {line}&quot;)
+                count = num
+    return count
+
+# Create test file
+with open(&quot;input.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;Python is versatile\n&quot;)
+    f.write(&quot;It supports file handling\n&quot;)
+    f.write(&quot;Practice daily\n&quot;)
+
+total = add_line_numbers(&quot;input.txt&quot;, &quot;numbered.txt&quot;)
+
+with open(&quot;numbered.txt&quot;, &quot;r&quot;) as f:
+    print(f.read().strip())
+print(f&quot;Total lines: {total}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Frequency Counter from File</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function word_frequency(filename) that reads a file and returns a dictionary mapping each word (lowercase) to its frequency. Print the top 5 most frequent words. Ignore punctuation.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Top 5 words:
+  the: 4
+  is: 3
+  python: 2
+  and: 2
+  for: 2</div>
+                </div><div class="challenge-constraints">Convert to lowercase. Remove common punctuation (.,!?;:). Sort by frequency descending.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">def word_frequency(filename):
+    freq = {}
+    with open(filename, &quot;r&quot;) as f:
+        for line in f:
+            # Remove punctuation and lowercase
+            for char in &quot;.,!?;:&quot;:
+                line = line.replace(char, &quot;&quot;)
+            for word in line.lower().split():
+                freq[word] = freq.get(word, 0) + 1
+    return freq
+
+# Create test file
+with open(&quot;article.txt&quot;, &quot;w&quot;) as f:
+    f.write(&quot;The Python language is great. Python is used for the web.\n&quot;)
+    f.write(&quot;The community is strong and the resources are vast.\n&quot;)
+    f.write(&quot;Learning Python and practicing is essential for growth.\n&quot;)
+
+freq = word_frequency(&quot;article.txt&quot;)
+sorted_words = sorted(freq.items(), key=lambda x: x[1], reverse=True)
+
+print(&quot;Top 5 words:&quot;)
+for word, count in sorted_words[:5]:
+    print(f&quot;  {word}: {count}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Config File Parser</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function that reads a configuration file in 'key=value' format (ignoring blank lines and lines starting with #) and returns a dictionary. Then write a function that saves a dictionary back to the config format.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{&#39;host&#39;: &#39;localhost&#39;, &#39;port&#39;: &#39;8080&#39;, &#39;debug&#39;: &#39;true&#39;, &#39;name&#39;: &#39;MyApp&#39;}
+Config saved successfully.</div>
+                </div><div class="challenge-constraints">Skip comment lines (starting with #) and blank lines. Strip whitespace from keys and values.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">def read_config(filename):
+    config = {}
+    with open(filename, &quot;r&quot;) as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith(&quot;#&quot;):
+                continue
+            if &quot;=&quot; in line:
+                key, value = line.split(&quot;=&quot;, 1)
+                config[key.strip()] = value.strip()
+    return config
+
+def write_config(filename, config):
+    with open(filename, &quot;w&quot;) as f:
+        f.write(&quot;# Configuration File\n\n&quot;)
+        for key, value in config.items():
+            f.write(f&quot;{key} = {value}\n&quot;)
+
+# Create config file
+with open(&quot;app.conf&quot;, &quot;w&quot;) as f:
+    f.write(&quot;# Server settings\n&quot;)
+    f.write(&quot;host = localhost\n&quot;)
+    f.write(&quot;port = 8080\n&quot;)
+    f.write(&quot;\n&quot;)
+    f.write(&quot;# App settings\n&quot;)
+    f.write(&quot;debug = true\n&quot;)
+    f.write(&quot;name = MyApp\n&quot;)
+
+config = read_config(&quot;app.conf&quot;)
+print(config)
+
+config[&quot;port&quot;] = &quot;9090&quot;
+write_config(&quot;app_updated.conf&quot;, config)
+print(&quot;Config saved successfully.&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/lambda-map-filter-reduce/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Lambda, Map, Filter, and Reduce</span>
+        </a>
+            <a href="/resources/python/exception-handling/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/file-handling-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

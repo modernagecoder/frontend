@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance and Polymorphism - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Extend classes with inheritance, override methods, and understand polymorphism.">
+    <meta name="keywords" content="inheritance and polymorphism, python tutorial, python inheritance and polymorphism, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+    <meta property="og:title" content="Inheritance and Polymorphism - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Extend classes with inheritance, override methods, and understand polymorphism.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism">
+    <meta name="twitter:title" content="Inheritance and Polymorphism - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Extend classes with inheritance, override methods, and understand polymorphism.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Inheritance and Polymorphism",
+    "description": "Extend classes with inheritance, override methods, and understand polymorphism.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Inheritance and Polymorphism",
+        "item": "https://learn.modernagecoders.com/resources/python/inheritance-and-polymorphism"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Call super().__init__() in the Child",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If the child defines <code>__init__</code>, it replaces (does not extend) the parent's <code>__init__</code>. The parent's initialization code does not run unless you explicitly call <code>super().__init__()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong MRO Assumption in Multiple Inheritance",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The MRO is D -> B -> C -> A. Python looks in D (not found), then B (not found, B just inherits from A), then C (found!). C's method is called, not A's. The MRO follows C3 linearization, not a simple depth-first search."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using isinstance() Check Instead of Polymorphism",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If you find yourself writing isinstance() chains, you probably need polymorphism instead. Let each class define its own behavior through method overriding. New types can be added without modifying existing code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Not Implementing All Abstract Methods",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If a class inherits from an ABC and does not implement all abstract methods, it too is abstract and cannot be instantiated. You must implement every <code>@abstractmethod</code> from the parent."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Inheritance and Polymorphism</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 22</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Inheritance and Polymorphism</h1>
+            <a href="/resources/python/inheritance-and-polymorphism/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Inheritance and Polymorphism?</h2><p><strong>Inheritance</strong> is a mechanism where a new class (child/subclass) is built from an existing class (parent/superclass), inheriting its attributes and methods. The child class can add new features or modify existing ones. This represents an <strong>IS-A relationship</strong>: a Dog IS-A Animal, a Car IS-A Vehicle.</p><pre><code>class Animal:
+    def __init__(self, name):
+        self.name = name
+    
+    def speak(self):
+        return "Some sound"
+
+class Dog(Animal):           # Dog inherits from Animal
+    def speak(self):          # Override parent's method
+        return "Woof!"
+
+class Cat(Animal):           # Cat inherits from Animal
+    def speak(self):          # Override parent's method
+        return "Meow!"
+
+dog = Dog("Rex")
+cat = Cat("Luna")
+print(f"{dog.name}: {dog.speak()}")  # Rex: Woof!
+print(f"{cat.name}: {cat.speak()}")  # Luna: Meow!</code></pre><p>Both Dog and Cat inherit the <code>__init__</code> method and <code>name</code> attribute from Animal. Each overrides <code>speak()</code> with its own behavior.</p><p><strong>Polymorphism</strong> means "many forms." It is the ability to use the same interface (method name) with different types. In the example above, both Dog and Cat have a <code>speak()</code> method, but each produces different output. Code that calls <code>animal.speak()</code> works correctly regardless of whether <code>animal</code> is a Dog, Cat, or any other Animal subclass.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Inheritance and Polymorphism Important?</h2><h3>1. Code Reuse Without Duplication</h3><p>Without inheritance, if Aarav creates Dog, Cat, and Bird classes, each with <code>name</code>, <code>age</code>, <code>eat()</code>, and <code>sleep()</code>, he copies the same code three times. With inheritance, the shared code lives in the Animal base class, and each subclass only adds or overrides what is unique to it.</p><h3>2. Extending Existing Code</h3><p>Inheritance lets you extend libraries and frameworks without modifying them. Django's class-based views, Flask's error handlers, and pytest's fixtures all use inheritance. You inherit from a provided base class and override specific methods to customize behavior.</p><h3>3. Polymorphism Simplifies Code</h3><p>Consider a drawing application with Circle, Rectangle, and Triangle shapes. Without polymorphism, you need if/elif chains to check the type before calling the right method. With polymorphism, you simply call <code>shape.draw()</code> on any shape, and each one knows how to draw itself. Adding a new shape requires no changes to existing code.</p><h3>4. Modeling Hierarchies</h3><p>Real-world domains have natural hierarchies. An Employee has subtypes: Manager, Developer, Designer. A payment system has CreditCard, DebitCard, UPI. These hierarchies map directly to inheritance, making the code structure mirror the domain structure.</p><h3>5. Open/Closed Principle</h3><p>Good software is <strong>open for extension but closed for modification</strong>. Inheritance and polymorphism enable this: you can add new subclasses (extension) without changing existing code that works with the base class (no modification).</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Single Inheritance</h3><p>The most common form: one child class inherits from one parent class:</p><pre><code>class Vehicle:
+    def __init__(self, brand, speed):
+        self.brand = brand
+        self.speed = speed
+    
+    def describe(self):
+        return f"{self.brand} - {self.speed} km/h"
+
+class Car(Vehicle):
+    def __init__(self, brand, speed, doors):
+        super().__init__(brand, speed)  # Call parent's __init__
+        self.doors = doors              # Add new attribute
+    
+    def describe(self):                 # Override parent's method
+        return f"{super().describe()}, {self.doors} doors"
+
+class Bike(Vehicle):
+    def __init__(self, brand, speed, bike_type):
+        super().__init__(brand, speed)
+        self.bike_type = bike_type
+
+car = Car("Toyota", 180, 4)
+bike = Bike("Royal Enfield", 120, "Cruiser")
+print(car.describe())    # Toyota - 180 km/h, 4 doors
+print(bike.describe())   # Royal Enfield - 120 km/h (uses parent's)</code></pre><h3>2. The super() Function</h3><p><code>super()</code> returns a proxy object that delegates method calls to the parent class. It is most commonly used in <code>__init__</code> to initialize the parent's attributes:</p><pre><code>class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+class Student(Person):
+    def __init__(self, name, age, student_id):
+        super().__init__(name, age)  # Initialize Person's attributes
+        self.student_id = student_id  # Add Student-specific attribute
+    
+    def __str__(self):
+        return f"Student({self.name}, {self.age}, ID: {self.student_id})"
+
+s = Student("Aarav", 16, "STU001")
+print(s)  # Student(Aarav, 16, ID: STU001)</code></pre><p>Without <code>super().__init__(name, age)</code>, the Student object would not have <code>name</code> and <code>age</code> attributes. Always call super().__init__() if the parent has initialization logic.</p><h3>3. Method Overriding</h3><p>A child class can <strong>override</strong> (replace) a parent's method by defining a method with the same name:</p><pre><code>class Shape:
+    def area(self):
+        return 0
+    
+    def describe(self):
+        return f"{type(self).__name__}: area = {self.area()}"
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):  # Override
+        return 3.14159 * self.radius ** 2
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):  # Override
+        return self.width * self.height
+
+shapes = [Circle(5), Rectangle(4, 6), Circle(3)]
+for s in shapes:
+    print(s.describe())  # Each shape uses its own area()</code></pre><p>The <code>describe()</code> method in Shape calls <code>self.area()</code>. When called on a Circle, <code>self.area()</code> calls Circle's area. When called on a Rectangle, it calls Rectangle's area. This is polymorphism in action.</p><h3>4. Multiple Inheritance</h3><p>A class can inherit from more than one parent:</p><pre><code>class Flyable:
+    def fly(self):
+        return f"{self.name} is flying"
+
+class Swimmable:
+    def swim(self):
+        return f"{self.name} is swimming"
+
+class Duck(Flyable, Swimmable):
+    def __init__(self, name):
+        self.name = name
+
+d = Duck("Donald")
+print(d.fly())   # Donald is flying
+print(d.swim())  # Donald is swimming</code></pre><p>Multiple inheritance is powerful but can lead to complexity, especially with the <strong>diamond problem</strong> (when two parent classes share a common ancestor).</p><h3>5. Method Resolution Order (MRO)</h3><p>When a class has multiple parents, Python uses the <strong>C3 linearization algorithm</strong> to determine the order in which classes are searched for methods:</p><pre><code>class A:
+    def greet(self):
+        return "A"
+
+class B(A):
+    def greet(self):
+        return "B"
+
+class C(A):
+    def greet(self):
+        return "C"
+
+class D(B, C):  # B before C
+    pass
+
+d = D()
+print(d.greet())  # B (found in B first)
+print(D.__mro__)  # D -> B -> C -> A -> object</code></pre><p>The MRO is: D -> B -> C -> A -> object. Python searches this order when looking up methods. You can inspect the MRO with <code>ClassName.__mro__</code> or <code>ClassName.mro()</code>.</p><h3>6. isinstance() and issubclass()</h3><pre><code>class Animal:
+    pass
+
+class Dog(Animal):
+    pass
+
+class Cat(Animal):
+    pass
+
+d = Dog()
+c = Cat()
+
+print(isinstance(d, Dog))     # True (d is a Dog)
+print(isinstance(d, Animal))  # True (d is also an Animal)
+print(isinstance(d, Cat))     # False (d is not a Cat)
+
+print(issubclass(Dog, Animal))  # True (Dog inherits from Animal)
+print(issubclass(Dog, Cat))     # False (Dog does not inherit from Cat)
+print(issubclass(Animal, object))  # True (everything inherits from object)</code></pre><p><code>isinstance()</code> checks if an object is an instance of a class (including parent classes). <code>issubclass()</code> checks if one class inherits from another.</p><h3>7. Polymorphism</h3><p>Polymorphism allows the same code to work with different types:</p><pre><code>class Employee:
+    def __init__(self, name, base_salary):
+        self.name = name
+        self.base_salary = base_salary
+    
+    def calculate_pay(self):
+        return self.base_salary
+
+class Manager(Employee):
+    def __init__(self, name, base_salary, bonus):
+        super().__init__(name, base_salary)
+        self.bonus = bonus
+    
+    def calculate_pay(self):
+        return self.base_salary + self.bonus
+
+class Intern(Employee):
+    def calculate_pay(self):
+        return self.base_salary * 0.5
+
+# Polymorphic function: works with ANY Employee subclass
+def print_payroll(employees):
+    for emp in employees:
+        print(f"{emp.name}: Rs.{emp.calculate_pay():.0f}")
+
+team = [
+    Manager("Aarav", 50000, 10000),
+    Employee("Priya", 30000),
+    Intern("Rohan", 20000),
+]
+
+print_payroll(team)  # Each calls its own calculate_pay()</code></pre><h3>8. Duck Typing</h3><p>Python does not require inheritance for polymorphism. If an object has the right methods, it works. This is called <strong>duck typing</strong>: "If it walks like a duck and quacks like a duck, it is a duck."</p><pre><code>class Dog:
+    def speak(self):
+        return "Woof!"
+
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+class Robot:
+    def speak(self):
+        return "Beep boop!"
+
+# No common parent class needed!
+def make_noise(things):
+    for thing in things:
+        print(thing.speak())
+
+make_noise([Dog(), Cat(), Robot()])</code></pre><p>Dog, Cat, and Robot are unrelated classes. But they all have <code>speak()</code>, so <code>make_noise()</code> works with all of them. Python does not check the type -- it just calls the method.</p><h3>9. Abstract Base Classes (ABC)</h3><p>Abstract classes cannot be instantiated. They define an interface that subclasses must implement:</p><pre><code>from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+    
+    @abstractmethod
+    def perimeter(self):
+        pass
+    
+    def describe(self):  # Concrete method (not abstract)
+        return f"{type(self).__name__}: area={self.area():.2f}"
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14159 * self.radius ** 2
+    
+    def perimeter(self):
+        return 2 * 3.14159 * self.radius
+
+try:
+    s = Shape()  # Cannot instantiate abstract class!
+except TypeError as e:
+    print(f"Error: {e}")
+
+c = Circle(5)
+print(c.describe())
+print(f"Perimeter: {c.perimeter():.2f}")</code></pre><p>Any class with at least one <code>@abstractmethod</code> cannot be instantiated. Subclasses must implement all abstract methods, or they too become abstract. This enforces a contract: every Shape must have <code>area()</code> and <code>perimeter()</code>.</p><h3>10. Mixins</h3><p>A mixin is a class designed to be inherited alongside other classes, providing specific functionality:</p><pre><code>class JsonMixin:
+    def to_json(self):
+        import json
+        return json.dumps(self.__dict__)
+
+class PrintableMixin:
+    def print_info(self):
+        for key, value in self.__dict__.items():
+            print(f"  {key}: {value}")
+
+class Student(JsonMixin, PrintableMixin):
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+
+s = Student("Aarav", 16, "A")
+s.print_info()
+print(s.to_json())</code></pre><p>Mixins are not meant to be used alone. They add specific capabilities (serialization, printing, logging) to classes that inherit from them. Mixins typically do not have <code>__init__</code> methods.</p><h3>11. Operator Overloading Basics</h3><p>Special methods let you define how operators work with your objects:</p><pre><code>class Money:
+    def __init__(self, amount, currency="INR"):
+        self.amount = amount
+        self.currency = currency
+    
+    def __add__(self, other):
+        if self.currency != other.currency:
+            raise ValueError("Cannot add different currencies")
+        return Money(self.amount + other.amount, self.currency)
+    
+    def __len__(self):
+        return abs(self.amount)
+    
+    def __getitem__(self, key):
+        if key == "amount":
+            return self.amount
+        if key == "currency":
+            return self.currency
+        raise KeyError(key)
+    
+    def __str__(self):
+        return f"{self.currency} {self.amount}"
+
+a = Money(500)
+b = Money(300)
+c = a + b          # Uses __add__
+print(c)            # INR 800
+print(len(a))       # 500 (uses __len__)
+print(a["amount"])  # 500 (uses __getitem__)</code></pre><p>Common operator methods: <code>__add__</code> (+), <code>__sub__</code> (-), <code>__mul__</code> (*), <code>__eq__</code> (==), <code>__lt__</code> (<), <code>__len__</code> (len()), <code>__getitem__</code> (obj[key]).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic Inheritance with super()</div><pre><code class="language-python">class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def introduce(self):
+        return f&quot;I am {self.name}, {self.age} years old&quot;
+
+class Student(Person):
+    def __init__(self, name, age, school):
+        super().__init__(name, age)
+        self.school = school
+    
+    def introduce(self):
+        base = super().introduce()
+        return f&quot;{base}, studying at {self.school}&quot;
+
+class Teacher(Person):
+    def __init__(self, name, age, subject):
+        super().__init__(name, age)
+        self.subject = subject
+    
+    def introduce(self):
+        base = super().introduce()
+        return f&quot;{base}, teaching {self.subject}&quot;
+
+p = Person(&quot;Vikram&quot;, 40)
+s = Student(&quot;Aarav&quot;, 16, &quot;Modern Age Coders&quot;)
+t = Teacher(&quot;Meera&quot;, 35, &quot;Python&quot;)
+
+for person in [p, s, t]:
+    print(person.introduce())
+    print(f&quot;  isinstance(Person): {isinstance(person, Person)}&quot;)
+    print(f&quot;  type: {type(person).__name__}&quot;)</code></pre><div class="code-example-explanation">Student and Teacher inherit from Person. Each calls <code>super().__init__()</code> to initialize name and age, then adds its own attributes. Each overrides <code>introduce()</code> but uses <code>super().introduce()</code> to include the parent's output. All three are instances of Person.</div><div class="code-example-output">I am Vikram, 40 years old
+  isinstance(Person): True
+  type: Person
+I am Aarav, 16 years old, studying at Modern Age Coders
+  isinstance(Person): True
+  type: Student
+I am Meera, 35 years old, teaching Python
+  isinstance(Person): True
+  type: Teacher</div></div>
+<div class="code-example"><div class="code-example-title">Method Overriding and Polymorphism</div><pre><code class="language-python">class Shape:
+    def area(self):
+        return 0
+    
+    def __str__(self):
+        return f&quot;{type(self).__name__}(area={self.area():.2f})&quot;
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14159 * self.radius ** 2
+
+class Rectangle(Shape):
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def area(self):
+        return self.width * self.height
+
+class Triangle(Shape):
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+    
+    def area(self):
+        return 0.5 * self.base * self.height
+
+# Polymorphism: same interface, different implementations
+shapes = [Circle(5), Rectangle(4, 6), Triangle(3, 8), Circle(2)]
+
+total_area = 0
+for shape in shapes:
+    print(shape)  # Each shape uses its own area() and __str__
+    total_area += shape.area()
+
+print(f&quot;\nTotal area: {total_area:.2f}&quot;)</code></pre><div class="code-example-explanation">Each subclass overrides <code>area()</code> with its own formula. The loop works with all shapes uniformly because they share the same interface. This is polymorphism: the same code (<code>shape.area()</code>) produces different results based on the actual type of the object.</div><div class="code-example-output">Circle(area=78.54)
+Rectangle(area=24.00)
+Triangle(area=12.00)
+Circle(area=12.57)
+
+Total area: 127.11</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Inheritance and MRO</div><pre><code class="language-python">class A:
+    def method(self):
+        return &quot;A&quot;
+
+class B(A):
+    def method(self):
+        return &quot;B&quot;
+
+class C(A):
+    def method(self):
+        return &quot;C&quot;
+
+class D(B, C):
+    pass
+
+class E(C, B):
+    pass
+
+d = D()
+e = E()
+
+print(f&quot;D().method() = {d.method()}&quot;)
+print(f&quot;E().method() = {e.method()}&quot;)
+
+print(f&quot;\nD MRO: {[cls.__name__ for cls in D.__mro__]}&quot;)
+print(f&quot;E MRO: {[cls.__name__ for cls in E.__mro__]}&quot;)
+
+# super() follows MRO
+class X:
+    def method(self):
+        return [&quot;X&quot;]
+
+class Y(X):
+    def method(self):
+        return [&quot;Y&quot;] + super().method()
+
+class Z(X):
+    def method(self):
+        return [&quot;Z&quot;] + super().method()
+
+class W(Y, Z):
+    def method(self):
+        return [&quot;W&quot;] + super().method()
+
+w = W()
+print(f&quot;\nW MRO: {[cls.__name__ for cls in W.__mro__]}&quot;)
+print(f&quot;W().method() = {w.method()}&quot;)</code></pre><div class="code-example-explanation">D(B, C) searches B before C (MRO: D->B->C->A). E(C, B) searches C before B (MRO: E->C->B->A). The order in the class definition determines the MRO. In the W example, <code>super()</code> follows the MRO chain: W->Y->Z->X, calling each class's method in order.</div><div class="code-example-output">D().method() = B
+E().method() = C
+
+D MRO: [&#39;D&#39;, &#39;B&#39;, &#39;C&#39;, &#39;A&#39;, &#39;object&#39;]
+E MRO: [&#39;E&#39;, &#39;C&#39;, &#39;B&#39;, &#39;A&#39;, &#39;object&#39;]
+
+W MRO: [&#39;W&#39;, &#39;Y&#39;, &#39;Z&#39;, &#39;X&#39;, &#39;object&#39;]
+W().method() = [&#39;W&#39;, &#39;Y&#39;, &#39;Z&#39;, &#39;X&#39;]</div></div>
+<div class="code-example"><div class="code-example-title">Abstract Base Classes</div><pre><code class="language-python">from abc import ABC, abstractmethod
+
+class Database(ABC):
+    @abstractmethod
+    def connect(self):
+        pass
+    
+    @abstractmethod
+    def execute(self, query):
+        pass
+    
+    def status(self):  # Concrete method
+        return f&quot;{type(self).__name__} database&quot;
+
+class SQLiteDB(Database):
+    def connect(self):
+        return &quot;Connected to SQLite&quot;
+    
+    def execute(self, query):
+        return f&quot;SQLite executing: {query}&quot;
+
+class MongoDB(Database):
+    def connect(self):
+        return &quot;Connected to MongoDB&quot;
+    
+    def execute(self, query):
+        return f&quot;MongoDB executing: {query}&quot;
+
+# Cannot instantiate abstract class
+try:
+    db = Database()
+except TypeError as e:
+    print(f&quot;Error: {e}&quot;)
+
+# Concrete subclasses work fine
+for db in [SQLiteDB(), MongoDB()]:
+    print(db.connect())
+    print(db.execute(&quot;SELECT * FROM users&quot;))
+    print(db.status())
+    print()</code></pre><div class="code-example-explanation">Database is abstract (has @abstractmethod). It cannot be instantiated directly. SQLiteDB and MongoDB implement all abstract methods, so they can be instantiated. The concrete method <code>status()</code> is inherited by both without needing to override it.</div><div class="code-example-output">Error: Can&#39;t instantiate abstract class Database with abstract methods &#39;connect&#39;, &#39;execute&#39;
+Connected to SQLite
+SQLite executing: SELECT * FROM users
+SQLiteDB database
+
+Connected to MongoDB
+MongoDB executing: SELECT * FROM users
+MongoDB database</div></div>
+<div class="code-example"><div class="code-example-title">Duck Typing in Action</div><pre><code class="language-python">class File:
+    def __init__(self, name, content):
+        self.name = name
+        self.content = content
+    
+    def read(self):
+        return self.content
+    
+    def size(self):
+        return len(self.content)
+
+class StringBuffer:
+    def __init__(self, text):
+        self.name = &quot;&lt;buffer&gt;&quot;
+        self.content = text
+    
+    def read(self):
+        return self.content
+    
+    def size(self):
+        return len(self.content)
+
+class DatabaseResult:
+    def __init__(self, rows):
+        self.name = &quot;&lt;db_query&gt;&quot;
+        self.rows = rows
+    
+    def read(self):
+        return &quot;\n&quot;.join(str(row) for row in self.rows)
+    
+    def size(self):
+        return len(self.rows)
+
+# This function works with ANY object that has read() and size()
+def process(source):
+    print(f&quot;Source: {source.name}&quot;)
+    print(f&quot;Size: {source.size()}&quot;)
+    print(f&quot;Content: {source.read()[:50]}&quot;)
+    print()
+
+# No common base class needed!
+process(File(&quot;notes.txt&quot;, &quot;Python is amazing!&quot;))
+process(StringBuffer(&quot;Temporary data for processing&quot;))
+process(DatabaseResult([(&quot;Aarav&quot;, 92), (&quot;Priya&quot;, 97)]))</code></pre><div class="code-example-explanation">File, StringBuffer, and DatabaseResult have no inheritance relationship. But they all implement <code>read()</code>, <code>size()</code>, and <code>name</code>. The <code>process()</code> function works with all three because Python uses duck typing: it does not care about the type, only that the required methods exist.</div><div class="code-example-output">Source: notes.txt
+Size: 18
+Content: Python is amazing!
+
+Source: &lt;buffer&gt;
+Size: 29
+Content: Temporary data for processing
+
+Source: &lt;db_query&gt;
+Size: 2
+Content: (&#39;Aarav&#39;, 92)
+(&#39;Priya&#39;, 97)</div></div>
+<div class="code-example"><div class="code-example-title">Operator Overloading</div><pre><code class="language-python">class Vector:
+    def __init__(self, *components):
+        self.components = list(components)
+    
+    def __add__(self, other):
+        paired = zip(self.components, other.components)
+        return Vector(*(a + b for a, b in paired))
+    
+    def __sub__(self, other):
+        paired = zip(self.components, other.components)
+        return Vector(*(a - b for a, b in paired))
+    
+    def __mul__(self, scalar):
+        return Vector(*(c * scalar for c in self.components))
+    
+    def __len__(self):
+        return len(self.components)
+    
+    def __getitem__(self, index):
+        return self.components[index]
+    
+    def __eq__(self, other):
+        return self.components == other.components
+    
+    def __str__(self):
+        return f&quot;Vector({&#39;, &#39;.join(str(c) for c in self.components)})&quot;
+
+v1 = Vector(1, 2, 3)
+v2 = Vector(4, 5, 6)
+
+print(f&quot;v1 = {v1}&quot;)
+print(f&quot;v2 = {v2}&quot;)
+print(f&quot;v1 + v2 = {v1 + v2}&quot;)
+print(f&quot;v2 - v1 = {v2 - v1}&quot;)
+print(f&quot;v1 * 3 = {v1 * 3}&quot;)
+print(f&quot;len(v1) = {len(v1)}&quot;)
+print(f&quot;v1[0] = {v1[0]}&quot;)
+print(f&quot;v1 == Vector(1,2,3): {v1 == Vector(1, 2, 3)}&quot;)</code></pre><div class="code-example-explanation">Operator overloading methods: <code>__add__</code> enables +, <code>__sub__</code> enables -, <code>__mul__</code> enables *, <code>__len__</code> enables len(), <code>__getitem__</code> enables [] indexing, <code>__eq__</code> enables ==. Each returns a new Vector (immutable style) or a value.</div><div class="code-example-output">v1 = Vector(1, 2, 3)
+v2 = Vector(4, 5, 6)
+v1 + v2 = Vector(5, 7, 9)
+v2 - v1 = Vector(3, 3, 3)
+v1 * 3 = Vector(3, 6, 9)
+len(v1) = 3
+v1[0] = 1
+v1 == Vector(1,2,3): True</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Call super().__init__() in the Child</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Animal:
+    def __init__(self, name):
+        self.name = name
+
+class Dog(Animal):
+    def __init__(self, name, breed):
+        self.breed = breed  # Forgot super().__init__(name)!
+
+d = Dog(&quot;Rex&quot;, &quot;Labrador&quot;)
+print(d.breed)   # Labrador
+print(d.name)    # AttributeError: &#39;Dog&#39; object has no attribute &#39;name&#39;</code></pre></div><div class="error-message">AttributeError: &#39;Dog&#39; object has no attribute &#39;name&#39;</div><div class="correct-code"><pre><code class="language-python">class Dog(Animal):
+    def __init__(self, name, breed):
+        super().__init__(name)  # Initialize parent&#39;s attributes
+        self.breed = breed
+
+d = Dog(&quot;Rex&quot;, &quot;Labrador&quot;)
+print(d.breed)  # Labrador
+print(d.name)   # Rex</code></pre></div><div class="mistake-explanation">If the child defines <code>__init__</code>, it replaces (does not extend) the parent's <code>__init__</code>. The parent's initialization code does not run unless you explicitly call <code>super().__init__()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong MRO Assumption in Multiple Inheritance</h3>
+                <div class="wrong-code"><pre><code class="language-python">class A:
+    def method(self):
+        return &quot;A&quot;
+
+class B(A):
+    pass  # Inherits method from A
+
+class C(A):
+    def method(self):
+        return &quot;C&quot;
+
+class D(B, C):
+    pass
+
+d = D()
+print(d.method())  # Expecting &#39;A&#39; because B inherits from A?</code></pre></div><div class="error-message">No error, but the output is &#39;C&#39;, not &#39;A&#39; as expected.</div><div class="correct-code"><pre><code class="language-python"># The MRO is D -&gt; B -&gt; C -&gt; A -&gt; object
+# B does not define method(), so Python continues to C
+# C defines method(), so &#39;C&#39; is returned
+
+d = D()
+print(d.method())  # C
+print([cls.__name__ for cls in D.__mro__])  # [&#39;D&#39;, &#39;B&#39;, &#39;C&#39;, &#39;A&#39;, &#39;object&#39;]</code></pre></div><div class="mistake-explanation">The MRO is D -> B -> C -> A. Python looks in D (not found), then B (not found, B just inherits from A), then C (found!). C's method is called, not A's. The MRO follows C3 linearization, not a simple depth-first search.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using isinstance() Check Instead of Polymorphism</h3>
+                <div class="wrong-code"><pre><code class="language-python">def get_sound(animal):
+    if isinstance(animal, Dog):
+        return &quot;Woof&quot;
+    elif isinstance(animal, Cat):
+        return &quot;Meow&quot;
+    elif isinstance(animal, Bird):
+        return &quot;Tweet&quot;
+    # Adding new animal requires changing this function!</code></pre></div><div class="error-message">No error, but this violates the Open/Closed principle. Every new animal type requires modifying get_sound().</div><div class="correct-code"><pre><code class="language-python">class Animal:
+    def sound(self):
+        raise NotImplementedError
+
+class Dog(Animal):
+    def sound(self):
+        return &quot;Woof&quot;
+
+class Cat(Animal):
+    def sound(self):
+        return &quot;Meow&quot;
+
+# Adding new animals requires NO changes to existing code
+for animal in [Dog(), Cat()]:
+    print(animal.sound())  # Polymorphism!</code></pre></div><div class="mistake-explanation">If you find yourself writing isinstance() chains, you probably need polymorphism instead. Let each class define its own behavior through method overriding. New types can be added without modifying existing code.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Not Implementing All Abstract Methods</h3>
+                <div class="wrong-code"><pre><code class="language-python">from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        pass
+    
+    @abstractmethod
+    def perimeter(self):
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):  # Only implements area, not perimeter!
+        return 3.14 * self.radius ** 2
+
+c = Circle(5)  # TypeError: Can&#39;t instantiate abstract class</code></pre></div><div class="error-message">TypeError: Can&#39;t instantiate abstract class Circle with abstract method perimeter</div><div class="correct-code"><pre><code class="language-python">class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14 * self.radius ** 2
+    
+    def perimeter(self):
+        return 2 * 3.14 * self.radius
+
+c = Circle(5)  # Works!</code></pre></div><div class="mistake-explanation">If a class inherits from an ABC and does not implement all abstract methods, it too is abstract and cannot be instantiated. You must implement every <code>@abstractmethod</code> from the parent.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Inheritance creates a new class from an existing one using class Child(Parent) syntax. The child inherits all attributes and methods of the parent. This represents an IS-A relationship.</li>
+<li>super() delegates method calls to the parent class. Use super().__init__() in the child&#39;s __init__ to initialize inherited attributes. Without it, the parent&#39;s initialization code does not run.</li>
+<li>Method overriding replaces a parent&#39;s method by defining a method with the same name in the child class. The child&#39;s version is called instead of the parent&#39;s.</li>
+<li>Multiple inheritance allows a class to inherit from several parents: class D(B, C). Python uses the C3 linearization algorithm to determine the Method Resolution Order (MRO).</li>
+<li>The MRO defines the order in which Python searches for methods: check the class itself, then parents left to right, using C3 linearization. Inspect with ClassName.__mro__ or ClassName.mro().</li>
+<li>isinstance(obj, Class) checks if obj is an instance of Class or its subclasses. issubclass(Child, Parent) checks if Child inherits from Parent. Both consider the full inheritance chain.</li>
+<li>Polymorphism means the same method name produces different behavior depending on the object&#39;s type. It allows writing generic code that works with any subclass.</li>
+<li>Duck typing: Python does not require inheritance for polymorphism. If an object has the required methods, it works. &#39;If it walks like a duck and quacks like a duck, it is a duck.&#39;</li>
+<li>Abstract Base Classes (from abc import ABC, abstractmethod) define interfaces that subclasses must implement. Abstract classes cannot be instantiated directly.</li>
+<li>Mixins are small classes designed to be inherited alongside other classes, adding specific functionality (like serialization or logging) without being standalone classes.</li>
+<li>Operator overloading uses special methods (__add__, __sub__, __mul__, __len__, __getitem__, __eq__, __lt__) to define how operators work with custom objects.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/object-oriented-programming" class="related-topic-link">Object-Oriented Programming in Python</a>
+<a href="/resources/python/modules-and-packages" class="related-topic-link">Modules and Packages in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/object-oriented-programming" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Object-Oriented Programming in Python</span>
+        </a>
+            <a href="/resources/python/modules-and-packages" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Modules and Packages in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/inheritance-and-polymorphism/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

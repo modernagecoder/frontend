@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object-Oriented Programming in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn classes, objects, __init__, self, methods, and encapsulation from scratch.">
+    <meta name="keywords" content="object-oriented programming in python, python tutorial, python object-oriented programming in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+    <meta property="og:title" content="Object-Oriented Programming in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn classes, objects, __init__, self, methods, and encapsulation from scratch.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/object-oriented-programming">
+    <meta name="twitter:title" content="Object-Oriented Programming in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn classes, objects, __init__, self, methods, and encapsulation from scratch.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Object-Oriented Programming in Python",
+    "description": "Learn classes, objects, __init__, self, methods, and encapsulation from scratch.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/object-oriented-programming"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/object-oriented-programming"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Object-Oriented Programming in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/object-oriented-programming"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting self in Method Definitions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every instance method must have <code>self</code> as its first parameter. When you call <code>Dog(\"Rex\")</code>, Python passes the new object as the first argument (self) and \"Rex\" as the second. Without self in the definition, the parameter count is wrong."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting self. When Assigning Instance Variables",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without <code>self.</code>, the assignments create local variables inside <code>__init__</code> that disappear when the method ends. The object has no attributes. You must use <code>self.name = name</code> to store data on the object."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying Class Variable Through an Instance (Shadow)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>self.count += 1</code> is equivalent to <code>self.count = self.count + 1</code>. The read (<code>self.count</code>) finds the class variable (0), adds 1, then the assignment (<code>self.count = 1</code>) creates a new instance variable. To modify the class variable, use <code>Counter.count += 1</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Mutable Class Variables (Shared State Bug)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A mutable class variable (like a list) is shared by all instances. When one instance appends to it, all instances see the change. Mutable data that is unique per instance must be created in <code>__init__</code> as an instance variable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Calling a Method Without Parentheses",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>c.double</code> without parentheses gives the method object itself. <code>c.double()</code> calls the method and returns its result. This is the same distinction as with regular functions."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Object-Oriented Programming in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 21</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Object-Oriented Programming in Python</h1>
+            <a href="/resources/python/object-oriented-programming/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Is Object-Oriented Programming?</h2><p><strong>Object-Oriented Programming (OOP)</strong> is a programming paradigm that organizes code around <strong>objects</strong> rather than functions and logic. An object is a bundle of related data (attributes) and behavior (methods) that represents a real-world entity or concept.</p><p>In Python, you create objects from <strong>classes</strong>. A class is a blueprint that defines what data an object holds and what operations it can perform:</p><pre><code>class Student:
+    def __init__(self, name, age):
+        self.name = name    # attribute (data)
+        self.age = age      # attribute (data)
+    
+    def greet(self):        # method (behavior)
+        return f"Hi, I am {self.name}, age {self.age}"
+
+# Creating objects from the class
+student1 = Student("Aarav", 16)
+student2 = Student("Priya", 15)
+
+print(student1.greet())  # Hi, I am Aarav, age 16
+print(student2.greet())  # Hi, I am Priya, age 15</code></pre><p><code>Student</code> is a class (blueprint). <code>student1</code> and <code>student2</code> are objects (instances) created from that blueprint. Each object has its own <code>name</code> and <code>age</code>, but they share the same methods.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Learn OOP?</h2><h3>1. Organizing Complex Code</h3><p>As programs grow, managing hundreds of functions and variables becomes unwieldy. OOP groups related data and functions into classes. Instead of separate variables <code>student_name</code>, <code>student_age</code>, <code>student_marks</code> and functions <code>get_student_name()</code>, <code>set_student_age()</code>, everything lives inside a <code>Student</code> class. This structure mirrors how we think about things in the real world.</p><h3>2. Code Reuse</h3><p>Once you write a <code>BankAccount</code> class, you can create thousands of account objects from it. If Aarav needs to add a new feature to all accounts, he changes the class once, and every object gets the update. Inheritance (covered in the next chapter) allows you to build new classes from existing ones, reusing code without rewriting it.</p><h3>3. Real-World Modeling</h3><p>OOP maps naturally to real-world domains. A school has Students, Teachers, Courses, and Classrooms. An e-commerce system has Products, Carts, Orders, and Payments. Each entity becomes a class with its own data and behavior. This makes the code intuitive to design and understand.</p><h3>4. Encapsulation</h3><p>OOP allows you to hide internal details and expose only what is necessary. A <code>BankAccount</code> class lets you call <code>deposit()</code> and <code>withdraw()</code> but does not let you directly modify the balance. This prevents invalid states and makes the code safer to use and modify.</p><h3>5. Industry Standard</h3><p>OOP is used in most production software: web frameworks (Django, Flask), game engines (Pygame), GUI libraries (Tkinter), machine learning frameworks (scikit-learn), and more. Understanding OOP is essential for working with these tools and for professional software development.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Defining a Class</h3><p>A class is defined with the <code>class</code> keyword, followed by the class name (PascalCase by convention) and a colon:</p><pre><code>class Dog:
+    pass  # Empty class (placeholder)
+
+# Creating an instance
+my_dog = Dog()
+print(type(my_dog))  # &lt;class '__main__.Dog'&gt;</code></pre><p>Even an empty class can be instantiated. The resulting object has the type <code>Dog</code>.</p><h3>2. The __init__() Constructor</h3><p><code>__init__()</code> is a special method (called a <strong>constructor</strong> or <strong>initializer</strong>) that runs automatically when you create an object. It sets up the object's initial state:</p><pre><code>class Student:
+    def __init__(self, name, age, grade):
+        self.name = name      # Instance variable
+        self.age = age        # Instance variable
+        self.grade = grade    # Instance variable
+
+# __init__ is called automatically
+student = Student("Aarav", 16, "A")
+print(student.name)   # Aarav
+print(student.age)    # 16
+print(student.grade)  # A</code></pre><p>You never call <code>__init__()</code> directly. Python calls it for you when you write <code>Student("Aarav", 16, "A")</code>. The arguments you pass are forwarded to <code>__init__()</code>'s parameters (after <code>self</code>).</p><h3>3. The self Parameter</h3><p><code>self</code> is the first parameter of every instance method. It refers to the specific object that the method is being called on:</p><pre><code>class Student:
+    def __init__(self, name):
+        self.name = name   # self.name belongs to THIS object
+    
+    def greet(self):
+        return f"Hello, I am {self.name}"
+
+a = Student("Aarav")
+p = Student("Priya")
+
+print(a.greet())  # Hello, I am Aarav  (self = a)
+print(p.greet())  # Hello, I am Priya  (self = p)</code></pre><p>When you call <code>a.greet()</code>, Python translates it to <code>Student.greet(a)</code> -- passing the object <code>a</code> as the <code>self</code> parameter. This is how each object knows its own data.</p><p><code>self</code> is a convention, not a keyword. You could use any name, but using anything other than <code>self</code> is strongly discouraged and confuses other developers.</p><h3>4. Instance Variables</h3><p>Instance variables are created by assigning to <code>self.variable_name</code> inside <code>__init__</code> (or any method). Each object gets its own copy:</p><pre><code>class Circle:
+    def __init__(self, radius):
+        self.radius = radius    # Each circle has its own radius
+        self.area = 3.14159 * radius ** 2
+
+c1 = Circle(5)
+c2 = Circle(10)
+print(c1.radius, c1.area)   # 5, 78.53975
+print(c2.radius, c2.area)   # 10, 314.159</code></pre><p>Modifying <code>c1.radius</code> does not affect <code>c2.radius</code>. They are independent.</p><h3>5. Instance Methods</h3><p>Methods are functions defined inside a class. They always take <code>self</code> as the first parameter:</p><pre><code>class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+    
+    def deposit(self, amount):
+        self.balance += amount
+        return self.balance
+    
+    def withdraw(self, amount):
+        if amount > self.balance:
+            print("Insufficient funds")
+            return self.balance
+        self.balance -= amount
+        return self.balance
+    
+    def get_balance(self):
+        return self.balance
+
+account = BankAccount("Aarav", 1000)
+account.deposit(500)      # balance = 1500
+account.withdraw(200)     # balance = 1300
+print(account.get_balance())  # 1300</code></pre><h3>6. Class Variables (Shared Across All Instances)</h3><p>Class variables are defined inside the class body but outside any method. They are shared by all instances:</p><pre><code>class Student:
+    school_name = "Modern Age Coders"  # Class variable
+    student_count = 0                   # Class variable
+    
+    def __init__(self, name):
+        self.name = name                # Instance variable
+        Student.student_count += 1      # Modify class variable
+
+s1 = Student("Aarav")
+s2 = Student("Priya")
+s3 = Student("Rohan")
+
+print(Student.student_count)    # 3 (accessed via class)
+print(s1.student_count)         # 3 (accessed via instance)
+print(s1.school_name)           # Modern Age Coders
+print(s2.school_name)           # Modern Age Coders (same for all)</code></pre><p>Critical distinction: if you <strong>read</strong> a class variable through an instance (<code>s1.school_name</code>), it works fine. But if you <strong>assign</strong> through an instance (<code>s1.school_name = "New Name"</code>), Python creates a new <strong>instance variable</strong> that shadows the class variable. The class variable is unchanged.</p><h3>7. Class Methods (@classmethod)</h3><p>Class methods receive the class itself (not an instance) as the first parameter, conventionally named <code>cls</code>:</p><pre><code>class Student:
+    count = 0
+    
+    def __init__(self, name):
+        self.name = name
+        Student.count += 1
+    
+    @classmethod
+    def get_count(cls):
+        return cls.count
+    
+    @classmethod
+    def from_string(cls, data_string):
+        name, age = data_string.split(",")
+        return cls(name.strip())
+
+s1 = Student("Aarav")
+s2 = Student("Priya")
+print(Student.get_count())   # 2
+
+# Alternative constructor using classmethod
+s3 = Student.from_string("Rohan, 17")
+print(s3.name)               # Rohan
+print(Student.get_count())   # 3</code></pre><p>Class methods are commonly used for alternative constructors (factory methods) and operations that affect the class as a whole rather than individual instances.</p><h3>8. Static Methods (@staticmethod)</h3><p>Static methods do not receive <code>self</code> or <code>cls</code>. They are regular functions that logically belong to the class:</p><pre><code>class MathHelper:
+    @staticmethod
+    def is_even(n):
+        return n % 2 == 0
+    
+    @staticmethod
+    def factorial(n):
+        result = 1
+        for i in range(2, n + 1):
+            result *= i
+        return result
+
+print(MathHelper.is_even(4))    # True
+print(MathHelper.factorial(5))  # 120</code></pre><p>Use <code>@staticmethod</code> for utility functions that do not need access to instance or class data but are logically related to the class.</p><h3>9. __str__() and __repr__()</h3><p><code>__str__()</code> defines the human-readable string representation (used by <code>print()</code> and <code>str()</code>). <code>__repr__()</code> defines the developer-facing representation (used in the console and <code>repr()</code>):</p><pre><code>class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return f"{self.name} (age {self.age})"
+    
+    def __repr__(self):
+        return f"Student('{self.name}', {self.age})"
+
+s = Student("Aarav", 16)
+print(s)        # Aarav (age 16)       -- uses __str__
+print(repr(s))  # Student('Aarav', 16)  -- uses __repr__
+print([s])      # [Student('Aarav', 16)] -- lists use __repr__</code></pre><p>If only <code>__repr__</code> is defined, it is also used as a fallback for <code>__str__</code>.</p><h3>10. Encapsulation</h3><p>Encapsulation is the practice of controlling access to an object's internal data. Python uses naming conventions:</p><pre><code>class Account:
+    def __init__(self, owner, balance):
+        self.owner = owner          # Public
+        self._account_id = "ACC001" # Protected (convention: single underscore)
+        self.__balance = balance    # Private (name mangling: double underscore)
+    
+    def get_balance(self):
+        return self.__balance
+    
+    def deposit(self, amount):
+        if amount > 0:
+            self.__balance += amount
+
+a = Account("Aarav", 1000)
+print(a.owner)          # Aarav (public: accessible)
+print(a._account_id)    # ACC001 (protected: accessible but discouraged)
+# print(a.__balance)    # AttributeError! (name mangled)
+print(a._Account__balance)  # 1000 (name mangling: _ClassName__attr)
+print(a.get_balance())  # 1000 (proper way to access)</code></pre><p><strong>Public</strong> (<code>self.name</code>): accessible from anywhere. <strong>Protected</strong> (<code>self._name</code>): a convention meaning "do not access from outside the class", but Python does not enforce it. <strong>Private</strong> (<code>self.__name</code>): Python mangles the name to <code>_ClassName__name</code>, making accidental access harder (but not impossible).</p><h3>11. The @property Decorator</h3><p><code>@property</code> lets you define methods that behave like attributes, providing controlled access:</p><pre><code>class Temperature:
+    def __init__(self, celsius):
+        self._celsius = celsius
+    
+    @property
+    def celsius(self):
+        return self._celsius
+    
+    @celsius.setter
+    def celsius(self, value):
+        if value < -273.15:
+            raise ValueError("Temperature below absolute zero!")
+        self._celsius = value
+    
+    @property
+    def fahrenheit(self):
+        return self._celsius * 9/5 + 32
+
+t = Temperature(25)
+print(t.celsius)       # 25 (calls the getter)
+print(t.fahrenheit)    # 77.0 (computed property)
+
+t.celsius = 100        # Calls the setter
+print(t.celsius)       # 100
+
+try:
+    t.celsius = -300   # Setter validates!
+except ValueError as e:
+    print(e)           # Temperature below absolute zero!</code></pre><p><code>@property</code> turns a method into a read-only attribute. Adding <code>@name.setter</code> allows assignment with validation. This is better than public attributes because you can add validation later without changing the interface.</p><h3>12. Comparing Objects (__eq__)</h3><p>By default, <code>==</code> checks if two variables refer to the same object (identity). To compare by value, define <code>__eq__</code>:</p><pre><code>class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def __eq__(self, other):
+        if not isinstance(other, Point):
+            return False
+        return self.x == other.x and self.y == other.y
+
+p1 = Point(3, 4)
+p2 = Point(3, 4)
+p3 = Point(5, 6)
+
+print(p1 == p2)   # True (same values)
+print(p1 == p3)   # False (different values)
+print(p1 is p2)   # False (different objects)</code></pre><h3>13. The Destructor (__del__)</h3><p><code>__del__</code> is called when an object is about to be garbage collected. It is rarely needed in Python:</p><pre><code>class Resource:
+    def __init__(self, name):
+        self.name = name
+        print(f"Resource '{name}' created")
+    
+    def __del__(self):
+        print(f"Resource '{self.name}' destroyed")
+
+r = Resource("database")
+del r  # Triggers __del__</code></pre><p>In practice, use context managers (<code>with</code> statement) for cleanup instead of <code>__del__</code>. The garbage collector may not call <code>__del__</code> immediately or at all.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Complete Class with __init__, Methods, and __str__</div><pre><code class="language-python">class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+    
+    def average(self):
+        return sum(self.marks) / len(self.marks)
+    
+    def grade(self):
+        avg = self.average()
+        if avg &gt;= 90: return &quot;A+&quot;
+        if avg &gt;= 80: return &quot;A&quot;
+        if avg &gt;= 70: return &quot;B&quot;
+        if avg &gt;= 60: return &quot;C&quot;
+        return &quot;F&quot;
+    
+    def __str__(self):
+        return f&quot;Student({self.name}, avg={self.average():.1f}, grade={self.grade()})&quot;
+
+s1 = Student(&quot;Aarav&quot;, 16, [92, 88, 95, 90])
+s2 = Student(&quot;Priya&quot;, 15, [78, 82, 75, 80])
+
+print(s1)
+print(s2)
+print(f&quot;{s1.name}&#39;s average: {s1.average():.1f}&quot;)
+print(f&quot;{s2.name}&#39;s grade: {s2.grade()}&quot;)</code></pre><div class="code-example-explanation">This demonstrates a complete class with initialization, computed methods (<code>average()</code>, <code>grade()</code>), and a string representation. Each student object holds its own data, and methods access that data through <code>self</code>.</div><div class="code-example-output">Student(Aarav, avg=91.2, grade=A+)
+Student(Priya, avg=78.8, grade=B)
+Aarav&#39;s average: 91.2
+Priya&#39;s grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Class Variables vs Instance Variables</div><pre><code class="language-python">class Employee:
+    company = &quot;Modern Age Coders&quot;  # Class variable
+    employee_count = 0              # Class variable
+    
+    def __init__(self, name, role):
+        self.name = name            # Instance variable
+        self.role = role            # Instance variable
+        Employee.employee_count += 1
+    
+    def info(self):
+        return f&quot;{self.name} ({self.role}) at {Employee.company}&quot;
+
+e1 = Employee(&quot;Aarav&quot;, &quot;Developer&quot;)
+e2 = Employee(&quot;Priya&quot;, &quot;Designer&quot;)
+e3 = Employee(&quot;Rohan&quot;, &quot;Tester&quot;)
+
+print(f&quot;Company: {Employee.company}&quot;)
+print(f&quot;Total employees: {Employee.employee_count}&quot;)
+print()
+
+for emp in [e1, e2, e3]:
+    print(emp.info())
+
+# Changing class variable affects all instances
+Employee.company = &quot;MAC Technologies&quot;
+print(f&quot;\nAfter company rename:&quot;)
+print(e1.info())
+print(e2.info())
+
+# Assigning through instance creates instance variable (shadow)
+e3.company = &quot;Freelance&quot;
+print(f&quot;\ne3.company: {e3.company}&quot;)            # Instance variable
+print(f&quot;Employee.company: {Employee.company}&quot;)  # Class variable unchanged
+print(f&quot;e1.company: {e1.company}&quot;)              # Still class variable</code></pre><div class="code-example-explanation">Class variables (<code>company</code>, <code>employee_count</code>) are shared by all instances. Changing <code>Employee.company</code> affects all objects. But assigning <code>e3.company</code> creates a new instance variable on <code>e3</code> that <strong>shadows</strong> the class variable, without changing the class variable itself.</div><div class="code-example-output">Company: Modern Age Coders
+Total employees: 3
+
+Aarav (Developer) at Modern Age Coders
+Priya (Designer) at Modern Age Coders
+Rohan (Tester) at Modern Age Coders
+
+After company rename:
+Aarav (Developer) at MAC Technologies
+Priya (Designer) at MAC Technologies
+
+e3.company: Freelance
+Employee.company: MAC Technologies
+e1.company: MAC Technologies</div></div>
+<div class="code-example"><div class="code-example-title">@classmethod and @staticmethod</div><pre><code class="language-python">class Date:
+    def __init__(self, day, month, year):
+        self.day = day
+        self.month = month
+        self.year = year
+    
+    @classmethod
+    def from_string(cls, date_string):
+        &quot;&quot;&quot;Alternative constructor from &#39;DD-MM-YYYY&#39; string.&quot;&quot;&quot;
+        day, month, year = date_string.split(&quot;-&quot;)
+        return cls(int(day), int(month), int(year))
+    
+    @classmethod
+    def today(cls):
+        &quot;&quot;&quot;Alternative constructor for today&#39;s date.&quot;&quot;&quot;
+        return cls(6, 4, 2026)
+    
+    @staticmethod
+    def is_valid(day, month, year):
+        &quot;&quot;&quot;Check if a date is valid (simplified).&quot;&quot;&quot;
+        return 1 &lt;= month &lt;= 12 and 1 &lt;= day &lt;= 31 and year &gt; 0
+    
+    def __str__(self):
+        return f&quot;{self.day:02d}-{self.month:02d}-{self.year}&quot;
+
+# Regular constructor
+d1 = Date(15, 8, 1947)
+print(f&quot;Regular: {d1}&quot;)
+
+# Classmethod constructor
+d2 = Date.from_string(&quot;26-01-1950&quot;)
+print(f&quot;From string: {d2}&quot;)
+
+d3 = Date.today()
+print(f&quot;Today: {d3}&quot;)
+
+# Static method (no self or cls needed)
+print(f&quot;\nIs 31-02-2025 valid? {Date.is_valid(31, 2, 2025)}&quot;)
+print(f&quot;Is 15-08-1947 valid? {Date.is_valid(15, 8, 1947)}&quot;)</code></pre><div class="code-example-explanation"><code>@classmethod</code> receives <code>cls</code> (the class itself) and is commonly used for alternative constructors like <code>from_string()</code>. <code>@staticmethod</code> receives neither <code>self</code> nor <code>cls</code> and is used for utility functions logically related to the class.</div><div class="code-example-output">Regular: 15-08-1947
+From string: 26-01-1950
+Today: 06-04-2026
+
+Is 31-02-2025 valid? True
+Is 15-08-1947 valid? True</div></div>
+<div class="code-example"><div class="code-example-title">Encapsulation with @property</div><pre><code class="language-python">class BankAccount:
+    def __init__(self, owner, balance=0):
+        self._owner = owner
+        self.__balance = balance  # Private
+    
+    @property
+    def owner(self):
+        return self._owner
+    
+    @property
+    def balance(self):
+        return self.__balance
+    
+    @balance.setter
+    def balance(self, value):
+        raise AttributeError(&quot;Cannot set balance directly. Use deposit/withdraw.&quot;)
+    
+    def deposit(self, amount):
+        if amount &lt;= 0:
+            raise ValueError(&quot;Deposit amount must be positive&quot;)
+        self.__balance += amount
+        print(f&quot;Deposited {amount}. New balance: {self.__balance}&quot;)
+    
+    def withdraw(self, amount):
+        if amount &lt;= 0:
+            raise ValueError(&quot;Withdrawal amount must be positive&quot;)
+        if amount &gt; self.__balance:
+            raise ValueError(&quot;Insufficient funds&quot;)
+        self.__balance -= amount
+        print(f&quot;Withdrew {amount}. New balance: {self.__balance}&quot;)
+    
+    def __str__(self):
+        return f&quot;Account({self._owner}, balance={self.__balance})&quot;
+
+account = BankAccount(&quot;Aarav&quot;, 1000)
+print(account)
+print(f&quot;Balance: {account.balance}&quot;)  # Property getter
+
+account.deposit(500)
+account.withdraw(200)
+
+try:
+    account.balance = 9999  # Property setter blocks this
+except AttributeError as e:
+    print(f&quot;Blocked: {e}&quot;)
+
+try:
+    account.withdraw(5000)
+except ValueError as e:
+    print(f&quot;Error: {e}&quot;)</code></pre><div class="code-example-explanation">The balance is stored as a private variable (<code>__balance</code>). The <code>@property</code> allows reading it, but the setter raises an error, forcing users to go through <code>deposit()</code> and <code>withdraw()</code> which include validation. This is encapsulation in action.</div><div class="code-example-output">Account(Aarav, balance=1000)
+Balance: 1000
+Deposited 500. New balance: 1500
+Withdrew 200. New balance: 1300
+Blocked: Cannot set balance directly. Use deposit/withdraw.
+Error: Insufficient funds</div></div>
+<div class="code-example"><div class="code-example-title">__eq__, __str__, and __repr__</div><pre><code class="language-python">class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+    
+    def distance_to(self, other):
+        return ((self.x - other.x)**2 + (self.y - other.y)**2) ** 0.5
+    
+    def __eq__(self, other):
+        if not isinstance(other, Point):
+            return NotImplemented
+        return self.x == other.x and self.y == other.y
+    
+    def __str__(self):
+        return f&quot;({self.x}, {self.y})&quot;
+    
+    def __repr__(self):
+        return f&quot;Point({self.x}, {self.y})&quot;
+
+p1 = Point(0, 0)
+p2 = Point(3, 4)
+p3 = Point(3, 4)
+
+print(f&quot;p1 = {p1}&quot;)
+print(f&quot;p2 = {p2}&quot;)
+print(f&quot;Distance p1 to p2: {p1.distance_to(p2)}&quot;)
+
+print(f&quot;\np2 == p3: {p2 == p3}&quot;)  # True (same values)
+print(f&quot;p2 is p3: {p2 is p3}&quot;)   # False (different objects)
+print(f&quot;p1 == p2: {p1 == p2}&quot;)   # False (different values)
+
+print(f&quot;\nrepr(p1): {repr(p1)}&quot;)
+print(f&quot;List: {[p1, p2, p3]}&quot;)</code></pre><div class="code-example-explanation"><code>__eq__</code> defines value-based equality (<code>==</code>). Without it, <code>==</code> checks identity (same as <code>is</code>). <code>__str__</code> is for human-readable output (used by print). <code>__repr__</code> is for developer output (used in lists, debugger, repr()). <code>NotImplemented</code> tells Python to try the other operand's <code>__eq__</code>.</div><div class="code-example-output">p1 = (0, 0)
+p2 = (3, 4)
+Distance p1 to p2: 5.0
+
+p2 == p3: True
+p2 is p3: False
+p1 == p2: False
+
+repr(p1): Point(0, 0)
+List: [Point(0, 0), Point(3, 4), Point(3, 4)]</div></div>
+<div class="code-example"><div class="code-example-title">Understanding self Through Multiple Instances</div><pre><code class="language-python">class Counter:
+    def __init__(self, name, start=0):
+        self.name = name
+        self.value = start
+        print(f&quot;Counter &#39;{name}&#39; created with value {start}&quot;)
+    
+    def increment(self, amount=1):
+        self.value += amount
+        return self
+    
+    def decrement(self, amount=1):
+        self.value -= amount
+        return self
+    
+    def reset(self):
+        self.value = 0
+        return self
+    
+    def __str__(self):
+        return f&quot;{self.name}: {self.value}&quot;
+
+c1 = Counter(&quot;visitors&quot;)
+c2 = Counter(&quot;errors&quot;, 10)
+
+# Each object maintains its own state
+c1.increment()
+c1.increment()
+c1.increment()
+c2.decrement(3)
+
+print(c1)  # visitors: 3
+print(c2)  # errors: 7
+
+# Method chaining (because methods return self)
+c3 = Counter(&quot;test&quot;)
+c3.increment(5).increment(3).decrement(2)
+print(c3)  # test: 6</code></pre><div class="code-example-explanation">Each Counter object has its own <code>value</code>. When <code>c1.increment()</code> is called, <code>self</code> refers to <code>c1</code>. When <code>c2.decrement()</code> is called, <code>self</code> refers to <code>c2</code>. Returning <code>self</code> enables method chaining.</div><div class="code-example-output">Counter &#39;visitors&#39; created with value 0
+Counter &#39;errors&#39; created with value 10
+visitors: 3
+errors: 7
+Counter &#39;test&#39; created with value 0
+test: 6</div></div>
+<div class="code-example"><div class="code-example-title">Private Variables and Name Mangling</div><pre><code class="language-python">class Secret:
+    def __init__(self):
+        self.public = &quot;I am public&quot;
+        self._protected = &quot;I am protected (convention)&quot;
+        self.__private = &quot;I am private (name mangled)&quot;
+    
+    def reveal(self):
+        return self.__private
+
+s = Secret()
+
+# Public: fully accessible
+print(f&quot;public: {s.public}&quot;)
+
+# Protected: accessible but discouraged
+print(f&quot;protected: {s._protected}&quot;)
+
+# Private: name mangled
+try:
+    print(s.__private)
+except AttributeError as e:
+    print(f&quot;Direct access: {e}&quot;)
+
+# Accessing through method (correct way)
+print(f&quot;Through method: {s.reveal()}&quot;)
+
+# Name mangling: _ClassName__attr
+print(f&quot;Mangled name: {s._Secret__private}&quot;)
+
+# Checking actual attribute names
+print(f&quot;\nAttributes containing &#39;private&#39;:&quot;)
+for attr in dir(s):
+    if &#39;private&#39; in attr.lower():
+        print(f&quot;  {attr}&quot;)</code></pre><div class="code-example-explanation">Python does not have true private variables. Double underscore triggers <strong>name mangling</strong>: <code>__private</code> becomes <code>_Secret__private</code>. This prevents accidental access from subclasses, but is not security. The convention-based approach (single underscore) relies on developer discipline.</div><div class="code-example-output">public: I am public
+protected: I am protected (convention)
+Direct access: &#39;Secret&#39; object has no attribute &#39;__private&#39;
+Through method: I am private (name mangled)
+Mangled name: I am private (name mangled)
+
+Attributes containing &#39;private&#39;:
+  _Secret__private</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting self in Method Definitions</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Dog:
+    def __init__(name):  # Missing self!
+        name = name
+    
+    def bark():          # Missing self!
+        return &quot;Woof!&quot;
+
+d = Dog(&quot;Rex&quot;)
+# TypeError: __init__() takes 1 positional argument but 2 were given</code></pre></div><div class="error-message">TypeError: Dog.__init__() takes 1 positional argument but 2 were given</div><div class="correct-code"><pre><code class="language-python">class Dog:
+    def __init__(self, name):
+        self.name = name
+    
+    def bark(self):
+        return &quot;Woof!&quot;
+
+d = Dog(&quot;Rex&quot;)
+print(d.bark())  # Woof!</code></pre></div><div class="mistake-explanation">Every instance method must have <code>self</code> as its first parameter. When you call <code>Dog("Rex")</code>, Python passes the new object as the first argument (self) and "Rex" as the second. Without self in the definition, the parameter count is wrong.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting self. When Assigning Instance Variables</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student:
+    def __init__(self, name, age):
+        name = name    # Local variable, not saved!
+        age = age      # Local variable, not saved!
+
+s = Student(&quot;Aarav&quot;, 16)
+print(s.name)  # AttributeError: &#39;Student&#39; object has no attribute &#39;name&#39;</code></pre></div><div class="error-message">AttributeError: &#39;Student&#39; object has no attribute &#39;name&#39;</div><div class="correct-code"><pre><code class="language-python">class Student:
+    def __init__(self, name, age):
+        self.name = name    # Instance variable
+        self.age = age      # Instance variable
+
+s = Student(&quot;Aarav&quot;, 16)
+print(s.name)  # Aarav</code></pre></div><div class="mistake-explanation">Without <code>self.</code>, the assignments create local variables inside <code>__init__</code> that disappear when the method ends. The object has no attributes. You must use <code>self.name = name</code> to store data on the object.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying Class Variable Through an Instance (Shadow)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Counter:
+    count = 0  # Class variable
+    
+    def __init__(self):
+        self.count += 1  # Creates instance variable instead!
+
+c1 = Counter()
+c2 = Counter()
+print(Counter.count)  # 0 (unchanged!)
+print(c1.count)       # 1 (instance variable)
+print(c2.count)       # 1 (different instance variable)</code></pre></div><div class="error-message">No error, but Counter.count stays 0 because self.count += 1 creates an instance variable that shadows the class variable.</div><div class="correct-code"><pre><code class="language-python">class Counter:
+    count = 0
+    
+    def __init__(self):
+        Counter.count += 1  # Modify class variable through class name
+
+c1 = Counter()
+c2 = Counter()
+print(Counter.count)  # 2
+print(c1.count)       # 2 (reads class variable)
+print(c2.count)       # 2 (reads class variable)</code></pre></div><div class="mistake-explanation"><code>self.count += 1</code> is equivalent to <code>self.count = self.count + 1</code>. The read (<code>self.count</code>) finds the class variable (0), adds 1, then the assignment (<code>self.count = 1</code>) creates a new instance variable. To modify the class variable, use <code>Counter.count += 1</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Mutable Class Variables (Shared State Bug)</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Student:
+    grades = []  # Shared mutable class variable!
+    
+    def __init__(self, name):
+        self.name = name
+    
+    def add_grade(self, grade):
+        self.grades.append(grade)
+
+s1 = Student(&quot;Aarav&quot;)
+s2 = Student(&quot;Priya&quot;)
+s1.add_grade(&quot;A&quot;)
+s2.add_grade(&quot;B&quot;)
+print(s1.grades)  # [&#39;A&#39;, &#39;B&#39;] -- Both grades!
+print(s2.grades)  # [&#39;A&#39;, &#39;B&#39;] -- Same list!</code></pre></div><div class="error-message">No error, but all students share the same grades list. Aarav sees Priya&#39;s grades and vice versa.</div><div class="correct-code"><pre><code class="language-python">class Student:
+    def __init__(self, name):
+        self.name = name
+        self.grades = []  # Instance variable -- each student gets their own list
+    
+    def add_grade(self, grade):
+        self.grades.append(grade)
+
+s1 = Student(&quot;Aarav&quot;)
+s2 = Student(&quot;Priya&quot;)
+s1.add_grade(&quot;A&quot;)
+s2.add_grade(&quot;B&quot;)
+print(s1.grades)  # [&#39;A&#39;]
+print(s2.grades)  # [&#39;B&#39;]</code></pre></div><div class="mistake-explanation">A mutable class variable (like a list) is shared by all instances. When one instance appends to it, all instances see the change. Mutable data that is unique per instance must be created in <code>__init__</code> as an instance variable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Calling a Method Without Parentheses</h3>
+                <div class="wrong-code"><pre><code class="language-python">class Calculator:
+    def __init__(self, value):
+        self.value = value
+    
+    def double(self):
+        return self.value * 2
+
+c = Calculator(5)
+result = c.double  # Missing ()!
+print(result)  # &lt;bound method Calculator.double of ...&gt;</code></pre></div><div class="error-message">No error, but prints the method object instead of the return value.</div><div class="correct-code"><pre><code class="language-python">c = Calculator(5)
+result = c.double()  # With parentheses
+print(result)  # 10</code></pre></div><div class="mistake-explanation"><code>c.double</code> without parentheses gives the method object itself. <code>c.double()</code> calls the method and returns its result. This is the same distinction as with regular functions.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>A class is a blueprint for creating objects. Define with the class keyword (PascalCase name). Objects are instances of a class, each holding their own data.</li>
+<li>The __init__() method is the constructor. It runs automatically when an object is created and initializes the object&#39;s attributes. You never call __init__() directly.</li>
+<li>self is the first parameter of every instance method. It refers to the specific object the method is called on. When you call obj.method(), Python passes obj as self.</li>
+<li>Instance variables (self.name) belong to individual objects. Class variables (defined in the class body) are shared by all instances. Modify class variables through the class name, not through self.</li>
+<li>Instance methods operate on self. @classmethod methods receive cls (the class) and are used for alternative constructors. @staticmethod methods receive neither and are utility functions.</li>
+<li>__str__() defines human-readable output (used by print). __repr__() defines developer output (used in console, lists, repr()). If only __repr__ is defined, it serves as fallback for __str__.</li>
+<li>Encapsulation controls access: public (self.name), protected convention (self._name), private via name mangling (self.__name becomes self._ClassName__name). Python does not enforce access restrictions.</li>
+<li>@property turns a method into a readable attribute. @name.setter adds write access with validation. Properties let you add logic to attribute access without changing the interface.</li>
+<li>__eq__() defines value-based equality for the == operator. Without it, == checks object identity (whether two variables refer to the same object in memory).</li>
+<li>Class variables that are mutable (lists, dicts) must be used carefully. Assigning through an instance creates a shadow instance variable. Appending through an instance modifies the shared object.</li>
+<li>OOP principles -- encapsulation, inheritance (next chapter), and polymorphism (next chapter) -- are the foundation of software architecture. Most Python libraries and frameworks are built with OOP.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/exception-handling" class="related-topic-link">Exception Handling in Python</a>
+<a href="/resources/python/inheritance-and-polymorphism" class="related-topic-link">Inheritance and Polymorphism</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/exception-handling" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Exception Handling in Python</span>
+        </a>
+            <a href="/resources/python/inheritance-and-polymorphism" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Inheritance and Polymorphism</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/object-oriented-programming/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
