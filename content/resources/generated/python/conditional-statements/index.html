@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements in Python (if, elif, else) - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Make decisions in your code using if, elif, and else statements with comparison operators.">
+    <meta name="keywords" content="conditional statements in python (if, elif, else), python tutorial, python conditional statements in python (if, elif, else), learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/conditional-statements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/conditional-statements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/conditional-statements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/conditional-statements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/conditional-statements">
+    <meta property="og:title" content="Conditional Statements in Python (if, elif, else) - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Make decisions in your code using if, elif, and else statements with comparison operators.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/conditional-statements">
+    <meta name="twitter:title" content="Conditional Statements in Python (if, elif, else) - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Make decisions in your code using if, elif, and else statements with comparison operators.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Conditional Statements in Python (if, elif, else)",
+    "description": "Make decisions in your code using if, elif, and else statements with comparison operators.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/conditional-statements"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/conditional-statements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements in Python (if, elif, else)",
+        "item": "https://learn.modernagecoders.com/resources/python/conditional-statements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Colon After if/elif/else",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Every <code>if</code>, <code>elif</code>, and <code>else</code> line MUST end with a colon (<code>:</code>). The colon tells Python that an indented block follows. This is one of the most common syntax errors for beginners."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong or Missing Indentation",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The code inside an <code>if</code> block MUST be indented (standard is 4 spaces). The first print is not indented, causing the error. All lines in the same block must have the same indentation level."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using = Instead of == in Conditions",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A single <code>=</code> is the assignment operator (stores a value). A double <code>==</code> is the comparison operator (checks equality). In an <code>if</code> condition, you need <code>==</code> to compare values. Using <code>=</code> in an <code>if</code> condition is a SyntaxError in Python."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Order of elif/else Causing Unreachable Code",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python checks conditions from top to bottom and stops at the first True condition. Since 95 >= 40 is True, it prints \"Grade: E\" and skips everything else. The condition 95 >= 90 is never reached. Always put the most specific (strictest) conditions first."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Truthiness: '0' Is Truthy",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When the user types 0, <code>input()</code> returns the string <code>\"0\"</code>, not the integer 0. The string <code>\"0\"</code> is <strong>truthy</strong> because it is a non-empty string. So <code>not \"0\"</code> is False, and the else block runs. To check for the character 0, compare with the string <code>\"0\"</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Conditional Statements in Python (if, elif, else)</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">20 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Conditional Statements in Python (if, elif, else)</h1>
+            <a href="/resources/python/conditional-statements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of executing every line of code from top to bottom, your program can choose which code to run based on whether a condition is true or false.</p><p>Think of it like making everyday decisions. When you wake up, you check: "Is it raining?" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code — they check a condition and execute different blocks of code depending on the result.</p><p>In Python, conditional statements are built using three keywords: <code>if</code>, <code>elif</code> (short for "else if"), and <code>else</code>. Every Python program that does anything useful will use conditional statements.</p><h3>The Basic Structure</h3><p>The simplest conditional statement checks one condition and executes code only if that condition is <code>True</code>:</p><pre><code>if condition:
+    # code to execute when condition is True</code></pre><p>The condition is any expression that evaluates to <code>True</code> or <code>False</code> (a Boolean expression). The code inside the <code>if</code> block is <strong>indented</strong> — this indentation is how Python knows which code belongs to the <code>if</code> statement.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Conditional Statements Essential?</h2><h3>1. Every Real Program Makes Decisions</h3><p>Without conditionals, your program would do the exact same thing every time it runs, regardless of the input. A login system needs to check if the password is correct. A game needs to check if the player won or lost. An ATM needs to check if the account has enough balance. All of these require conditional statements.</p><h3>2. Controlling Program Flow</h3><p>Conditionals give you control over which parts of your code execute and in what order. Instead of writing separate programs for different scenarios, you write one program that handles all scenarios by making decisions at runtime.</p><h3>3. Input Validation</h3><p>When your program takes user input, you need to check if the input is valid. Is the age a positive number? Is the score between 0 and 100? Is the email address in the correct format? Conditional statements let you validate input and show appropriate error messages.</p><h3>4. Foundation for Complex Logic</h3><p>Conditional statements are one of the three fundamental building blocks of all programs (the other two are sequence and loops). Once you master conditionals, you can build programs of any complexity. Every algorithm, from simple grade calculators to sophisticated AI systems, relies on conditional logic at its core.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The <code>if</code> statement is the simplest conditional. It checks a condition, and if the condition is <code>True</code>, it executes the indented block of code below it. If the condition is <code>False</code>, Python skips the block entirely.</p><pre><code>age = 16
+
+if age >= 18:
+    print("You can vote.")
+
+print("Program continues here.")</code></pre><p>In this example, since <code>16 >= 18</code> is False, the print statement inside the if block is skipped. The program jumps to <code>"Program continues here."</code></p><h4>Indentation Is Mandatory</h4><p>In Python, indentation is not optional or cosmetic — it is part of the language's syntax. The standard is <strong>4 spaces</strong> per level of indentation. All code that belongs to the <code>if</code> block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an <code>IndentationError</code>.</p><pre><code># This causes an IndentationError:
+if True:
+print("Hello")  # Not indented — ERROR!</code></pre><h3>2. The if-else Statement</h3><p>The <code>if-else</code> structure provides two paths: one for when the condition is True, and another for when it is False. Exactly one of the two blocks will always execute.</p><pre><code>marks = 45
+
+if marks >= 40:
+    print("You passed!")
+else:
+    print("You failed.")</code></pre><p>Since 45 >= 40 is True, the if block runs and prints "You passed!". If marks were 35, the else block would run instead. The <code>else</code> keyword does not have a condition — it catches everything that the <code>if</code> did not.</p><h3>3. The if-elif-else Statement</h3><p>When you need to check multiple conditions, use <code>elif</code> (short for "else if"). Python checks each condition from top to bottom and executes the block for the <strong>first</strong> condition that is True. If no condition is True, the <code>else</code> block runs.</p><pre><code>marks = 75
+
+if marks >= 90:
+    grade = "A"
+elif marks >= 80:
+    grade = "B"
+elif marks >= 70:
+    grade = "C"
+elif marks >= 60:
+    grade = "D"
+else:
+    grade = "F"
+
+print("Grade:", grade)</code></pre><p>Here, Aarav scored 75. Python checks: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes! So grade is set to "C" and all remaining elif/else blocks are <strong>skipped</strong>. This is important: once a match is found, no further conditions are checked.</p><h4>Key Rules for if-elif-else</h4><ul><li>You must start with <code>if</code>.</li><li>You can have zero or more <code>elif</code> blocks.</li><li>The <code>else</code> block is optional, and there can be at most one.</li><li><code>else</code> must come last.</li><li>Only ONE block executes — the first one whose condition is True (or else if none are True).</li></ul><h3>4. Nested if Statements</h3><p>You can place an <code>if</code> statement inside another <code>if</code> statement. This is called <strong>nesting</strong>. The inner <code>if</code> is only checked when the outer <code>if</code> condition is True.</p><pre><code>age = 20
+has_license = True
+
+if age >= 18:
+    print("You are an adult.")
+    if has_license:
+        print("You can drive.")
+    else:
+        print("Get a driving license first.")
+else:
+    print("You are too young to drive.")</code></pre><p>The inner <code>if has_license</code> is only reached if the outer condition <code>age >= 18</code> is True. Each level of nesting requires an additional level of indentation (4 more spaces).</p><p><strong>Avoid deep nesting.</strong> If you have 3 or more levels of nesting, your code becomes hard to read. Often, you can rewrite deeply nested conditions using logical operators (<code>and</code>, <code>or</code>) to flatten the structure.</p><h3>5. Short-Hand if (One-Liner)</h3><p>If the <code>if</code> block has only one statement, you can write it on the same line as the <code>if</code>:</p><pre><code>age = 20
+if age >= 18: print("Adult")</code></pre><p>This is valid Python, but use it sparingly. It can make code harder to read if overused.</p><h3>6. The Ternary Operator (Conditional Expression)</h3><p>Python has a compact way to write a simple if-else that assigns a value. It is called the <strong>ternary operator</strong> or <strong>conditional expression</strong>:</p><pre><code>value_if_true if condition else value_if_false</code></pre><p>Example:</p><pre><code>age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)  # Output: Adult</code></pre><p>This is equivalent to:</p><pre><code>if age >= 18:
+    status = "Adult"
+else:
+    status = "Minor"</code></pre><p>The ternary operator is great for simple assignments but should not be used for complex logic. Keep it readable.</p><h3>7. Combining Conditions with and, or, not</h3><p>You can combine multiple conditions using logical operators:</p><ul><li><code>and</code> — both conditions must be True</li><li><code>or</code> — at least one condition must be True</li><li><code>not</code> — reverses the condition</li></ul><pre><code>age = 16
+has_permission = True
+
+if age >= 13 and age <= 17 and has_permission:
+    print("You can join the teen group.")</code></pre><p>You can also use chained comparisons: <code>13 <= age <= 17</code> is equivalent to <code>age >= 13 and age <= 17</code>.</p><h3>8. Truthiness and Falsiness</h3><p>In Python, every value has a Boolean equivalent. When you use a non-Boolean value in an <code>if</code> condition, Python automatically converts it to True or False. This is called <strong>truthiness</strong> and <strong>falsiness</strong>.</p><h4>Values That Are Falsy (Treated as False)</h4><ul><li><code>False</code> (the Boolean)</li><li><code>0</code> and <code>0.0</code> (zero in any numeric type)</li><li><code>""</code> (empty string)</li><li><code>[]</code> (empty list)</li><li><code>()</code> (empty tuple)</li><li><code>{}</code> (empty dictionary)</li><li><code>None</code></li></ul><h4>Everything Else Is Truthy (Treated as True)</h4><ul><li>Non-zero numbers: <code>1</code>, <code>-5</code>, <code>3.14</code></li><li>Non-empty strings: <code>"hello"</code>, <code>"0"</code>, <code>" "</code></li><li>Non-empty collections: <code>[1, 2]</code>, <code>(0,)</code>, <code>{"a": 1}</code></li></ul><p>This allows elegant code like:</p><pre><code>name = input("Enter your name: ")
+if name:  # True if name is not empty
+    print("Hello,", name)
+else:
+    print("You did not enter a name.")</code></pre><h3>9. Chaining Comparisons</h3><p>Python supports chained comparisons that match mathematical notation:</p><pre><code>score = 75
+if 60 <= score <= 100:
+    print("Valid score")</code></pre><p>This is equivalent to <code>score >= 60 and score <= 100</code>. Chains can include any comparison operators: <code>a < b < c</code>, <code>a == b == c</code>, <code>a < b >= c</code>. Each pair of adjacent comparisons is combined with <code>and</code>.</p><p>An important detail: in <code>a < b < c</code>, <code>b</code> is evaluated only once. In the equivalent <code>a < b and b < c</code>, <code>b</code> is evaluated twice. This matters if <code>b</code> is an expression with side effects (like a function call).</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Simple if Statement</div><pre><code class="language-python">temperature = 38
+
+if temperature &gt; 37:
+    print(&quot;You have a fever.&quot;)
+    print(&quot;Please see a doctor.&quot;)
+
+print(&quot;Program done.&quot;)</code></pre><div class="code-example-explanation">Since 38 > 37 is True, both indented lines execute. The last line always executes because it is outside the <code>if</code> block (not indented). If temperature were 36, the two indented lines would be skipped, but "Program done." would still print.</div><div class="code-example-output">You have a fever.
+Please see a doctor.
+Program done.</div></div>
+<div class="code-example"><div class="code-example-title">if-else: Pass or Fail</div><pre><code class="language-python">marks = int(input(&quot;Enter your marks: &quot;))  # Assume user enters 35
+
+if marks &gt;= 40:
+    print(&quot;Congratulations! You passed.&quot;)
+    print(&quot;Keep up the good work!&quot;)
+else:
+    print(&quot;You did not pass.&quot;)
+    print(&quot;Study harder for next time.&quot;)
+
+print(&quot;Total marks:&quot;, marks)</code></pre><div class="code-example-explanation">If Priya enters 35, the condition <code>35 >= 40</code> is False, so the else block runs. Exactly one of the two blocks always executes. The last line runs regardless because it is outside both blocks.</div><div class="code-example-output">Enter your marks: 35
+You did not pass.
+Study harder for next time.
+Total marks: 35</div></div>
+<div class="code-example"><div class="code-example-title">if-elif-else: Grade Calculator</div><pre><code class="language-python">marks = int(input(&quot;Enter marks: &quot;))  # Assume user enters 82
+
+if marks &gt;= 90:
+    print(&quot;Grade: A&quot;)
+elif marks &gt;= 80:
+    print(&quot;Grade: B&quot;)
+elif marks &gt;= 70:
+    print(&quot;Grade: C&quot;)
+elif marks &gt;= 60:
+    print(&quot;Grade: D&quot;)
+elif marks &gt;= 40:
+    print(&quot;Grade: E&quot;)
+else:
+    print(&quot;Grade: F (Fail)&quot;)</code></pre><div class="code-example-explanation">Rohan enters 82. Python checks from top: 82 >= 90? No. 82 >= 80? Yes. So "Grade: B" prints and all remaining elif/else are skipped. Even though 82 >= 70 and 82 >= 60 are also True, they are never checked because the first matching condition wins.</div><div class="code-example-output">Enter marks: 82
+Grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Nested if Statements</div><pre><code class="language-python">age = 25
+citizenship = &quot;Indian&quot;
+has_voter_id = True
+
+if age &gt;= 18:
+    if citizenship == &quot;Indian&quot;:
+        if has_voter_id:
+            print(&quot;You are eligible to vote.&quot;)
+        else:
+            print(&quot;Please get a voter ID card.&quot;)
+    else:
+        print(&quot;Only Indian citizens can vote in Indian elections.&quot;)
+else:
+    print(&quot;You must be at least 18 to vote.&quot;)</code></pre><div class="code-example-explanation">This demonstrates three levels of nesting. Each inner <code>if</code> is only checked when its outer condition is True. For age = 25, Indian citizenship, and voter ID, all three conditions are True, so the deepest block executes. Notice how each level adds 4 more spaces of indentation.</div><div class="code-example-output">You are eligible to vote.</div></div>
+<div class="code-example"><div class="code-example-title">Combining Conditions with Logical Operators</div><pre><code class="language-python"># Flat version (preferred over deep nesting)
+age = 25
+citizenship = &quot;Indian&quot;
+has_voter_id = True
+
+if age &gt;= 18 and citizenship == &quot;Indian&quot; and has_voter_id:
+    print(&quot;You are eligible to vote.&quot;)
+elif age &lt; 18:
+    print(&quot;You must be at least 18 to vote.&quot;)
+elif citizenship != &quot;Indian&quot;:
+    print(&quot;Only Indian citizens can vote.&quot;)
+else:
+    print(&quot;Please get a voter ID card.&quot;)</code></pre><div class="code-example-explanation">This achieves the same logic as the nested example above but is flatter and easier to read. By combining conditions with <code>and</code>, we avoid deep nesting. The <code>elif</code> blocks handle specific failure cases with clear messages.</div><div class="code-example-output">You are eligible to vote.</div></div>
+<div class="code-example"><div class="code-example-title">Ternary Operator (Conditional Expression)</div><pre><code class="language-python">age = 16
+
+# Ternary operator
+status = &quot;Adult&quot; if age &gt;= 18 else &quot;Minor&quot;
+print(&quot;Status:&quot;, status)
+
+# Can be used directly in print
+print(&quot;You are&quot;, &quot;old enough&quot; if age &gt;= 18 else &quot;too young&quot;, &quot;to vote.&quot;)
+
+# Nested ternary (avoid this - hard to read)
+grade = &quot;A&quot; if age &gt; 20 else &quot;B&quot; if age &gt; 15 else &quot;C&quot;
+print(&quot;Grade:&quot;, grade)</code></pre><div class="code-example-explanation">The ternary operator provides a compact way to choose between two values. For age 16: <code>"Adult" if 16 >= 18 else "Minor"</code> evaluates to "Minor" since the condition is False. Nested ternaries are technically valid but should be avoided as they are difficult to read.</div><div class="code-example-output">Status: Minor
+You are too young to vote.
+Grade: B</div></div>
+<div class="code-example"><div class="code-example-title">Truthiness and Falsiness in Practice</div><pre><code class="language-python"># Falsy values
+print(&quot;0 is&quot;, &quot;truthy&quot; if 0 else &quot;falsy&quot;)
+print(&quot;&#39;&#39; is&quot;, &quot;truthy&quot; if &quot;&quot; else &quot;falsy&quot;)
+print(&quot;None is&quot;, &quot;truthy&quot; if None else &quot;falsy&quot;)
+print(&quot;[] is&quot;, &quot;truthy&quot; if [] else &quot;falsy&quot;)
+print(&quot;{} is&quot;, &quot;truthy&quot; if {} else &quot;falsy&quot;)
+
+# Truthy values
+print(&quot;1 is&quot;, &quot;truthy&quot; if 1 else &quot;falsy&quot;)
+print(&quot;&#39;hello&#39; is&quot;, &quot;truthy&quot; if &quot;hello&quot; else &quot;falsy&quot;)
+print(&quot;&#39;0&#39; is&quot;, &quot;truthy&quot; if &quot;0&quot; else &quot;falsy&quot;)
+print(&quot;[0] is&quot;, &quot;truthy&quot; if [0] else &quot;falsy&quot;)
+print(&quot;-1 is&quot;, &quot;truthy&quot; if -1 else &quot;falsy&quot;)</code></pre><div class="code-example-explanation">This demonstrates all the falsy values (0, empty string, None, empty list, empty dict) and several truthy values. The most surprising one for beginners is <code>"0"</code> being truthy: it is a non-empty string, even though its content is the digit zero. Similarly, <code>[0]</code> is truthy because it is a non-empty list (it contains one element).</div><div class="code-example-output">0 is falsy
+&#39;&#39; is falsy
+None is falsy
+[] is falsy
+{} is falsy
+1 is truthy
+&#39;hello&#39; is truthy
+&#39;0&#39; is truthy
+[0] is truthy
+-1 is truthy</div></div>
+<div class="code-example"><div class="code-example-title">Chained Comparisons</div><pre><code class="language-python">score = 75
+
+# Chained comparison
+if 0 &lt;= score &lt;= 100:
+    print(&quot;Valid score:&quot;, score)
+
+# Equivalent to:
+if score &gt;= 0 and score &lt;= 100:
+    print(&quot;Also valid:&quot;, score)
+
+# Chaining works with any comparison operators
+x = 5
+print(&quot;1 &lt; 5 &lt; 10:&quot;, 1 &lt; x &lt; 10)
+print(&quot;1 &lt; 5 &gt; 3:&quot;, 1 &lt; x &gt; 3)
+print(&quot;5 == 5 == 5:&quot;, 5 == x == 5)
+print(&quot;10 &gt; 5 &gt; 3 &gt; 1:&quot;, 10 &gt; x &gt; 3 &gt; 1)</code></pre><div class="code-example-explanation">Chained comparisons like <code>0 &lt;= score &lt;= 100</code> are a Pythonic way to check ranges. Each adjacent pair is compared: <code>0 &lt;= score and score &lt;= 100</code>. You can chain any comparison operators, even different ones: <code>1 &lt; x &gt; 3</code> means <code>1 &lt; x and x &gt; 3</code>.</div><div class="code-example-output">Valid score: 75
+Also valid: 75
+1 &lt; 5 &lt; 10: True
+1 &lt; 5 &gt; 3: True
+5 == 5 == 5: True
+10 &gt; 5 &gt; 3 &gt; 1: True</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Colon After if/elif/else</h3>
+                <div class="wrong-code"><pre><code class="language-python">age = 18
+if age &gt;= 18
+    print(&quot;Adult&quot;)</code></pre></div><div class="error-message">SyntaxError: expected &#39;:&#39;</div><div class="correct-code"><pre><code class="language-python">age = 18
+if age &gt;= 18:
+    print(&quot;Adult&quot;)</code></pre></div><div class="mistake-explanation">Every <code>if</code>, <code>elif</code>, and <code>else</code> line MUST end with a colon (<code>:</code>). The colon tells Python that an indented block follows. This is one of the most common syntax errors for beginners.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong or Missing Indentation</h3>
+                <div class="wrong-code"><pre><code class="language-python">score = 85
+if score &gt;= 40:
+print(&quot;Pass&quot;)
+    print(&quot;Well done&quot;)</code></pre></div><div class="error-message">IndentationError: expected an indented block after &#39;if&#39; statement</div><div class="correct-code"><pre><code class="language-python">score = 85
+if score &gt;= 40:
+    print(&quot;Pass&quot;)
+    print(&quot;Well done&quot;)</code></pre></div><div class="mistake-explanation">The code inside an <code>if</code> block MUST be indented (standard is 4 spaces). The first print is not indented, causing the error. All lines in the same block must have the same indentation level.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using = Instead of == in Conditions</h3>
+                <div class="wrong-code"><pre><code class="language-python">x = 10
+if x = 10:
+    print(&quot;x is 10&quot;)</code></pre></div><div class="error-message">SyntaxError: invalid syntax</div><div class="correct-code"><pre><code class="language-python">x = 10
+if x == 10:
+    print(&quot;x is 10&quot;)</code></pre></div><div class="mistake-explanation">A single <code>=</code> is the assignment operator (stores a value). A double <code>==</code> is the comparison operator (checks equality). In an <code>if</code> condition, you need <code>==</code> to compare values. Using <code>=</code> in an <code>if</code> condition is a SyntaxError in Python.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Order of elif/else Causing Unreachable Code</h3>
+                <div class="wrong-code"><pre><code class="language-python">marks = 95
+if marks &gt;= 40:
+    print(&quot;Grade: E&quot;)
+elif marks &gt;= 60:
+    print(&quot;Grade: D&quot;)
+elif marks &gt;= 90:
+    print(&quot;Grade: A&quot;)</code></pre></div><div class="error-message">No error, but output is &#39;Grade: E&#39; instead of &#39;Grade: A&#39;. The conditions are in the wrong order.</div><div class="correct-code"><pre><code class="language-python">marks = 95
+if marks &gt;= 90:
+    print(&quot;Grade: A&quot;)
+elif marks &gt;= 60:
+    print(&quot;Grade: D&quot;)
+elif marks &gt;= 40:
+    print(&quot;Grade: E&quot;)</code></pre></div><div class="mistake-explanation">Python checks conditions from top to bottom and stops at the first True condition. Since 95 >= 40 is True, it prints "Grade: E" and skips everything else. The condition 95 >= 90 is never reached. Always put the most specific (strictest) conditions first.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Truthiness: &#39;0&#39; Is Truthy</h3>
+                <div class="wrong-code"><pre><code class="language-python">user_input = input(&quot;Enter 0 to exit: &quot;)  # User types 0
+if not user_input:  # Expecting this to be True
+    print(&quot;Exiting...&quot;)
+else:
+    print(&quot;Continuing...&quot;)</code></pre></div><div class="error-message">No error, but prints &#39;Continuing...&#39; instead of &#39;Exiting...&#39;. The string &#39;0&#39; is truthy.</div><div class="correct-code"><pre><code class="language-python">user_input = input(&quot;Enter 0 to exit: &quot;)
+if user_input == &quot;0&quot;:  # Compare with the string &#39;0&#39;
+    print(&quot;Exiting...&quot;)
+else:
+    print(&quot;Continuing...&quot;)</code></pre></div><div class="mistake-explanation">When the user types 0, <code>input()</code> returns the string <code>"0"</code>, not the integer 0. The string <code>"0"</code> is <strong>truthy</strong> because it is a non-empty string. So <code>not "0"</code> is False, and the else block runs. To check for the character 0, compare with the string <code>"0"</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The if statement checks a condition and executes the indented block only if the condition is True.</li>
+<li>The if-else statement provides two paths: one for True and one for False. Exactly one block always executes.</li>
+<li>The if-elif-else chain checks multiple conditions from top to bottom. Only the first matching condition&#39;s block executes. Always put the strictest conditions first.</li>
+<li>Indentation is mandatory in Python. Use 4 spaces per level. All lines in the same block must have the same indentation. Incorrect indentation causes IndentationError.</li>
+<li>Nested if statements place one if inside another. Avoid more than 2-3 levels of nesting; use logical operators (and, or) to flatten conditions instead.</li>
+<li>The ternary operator (x if condition else y) is a compact one-line alternative to simple if-else assignments.</li>
+<li>Combine conditions using logical operators: &#39;and&#39; (both True), &#39;or&#39; (at least one True), &#39;not&#39; (reverses). Use parentheses for clarity.</li>
+<li>Falsy values in Python: False, 0, 0.0, &#39;&#39; (empty string), [] (empty list), () (empty tuple), {} (empty dict), None. Everything else is truthy.</li>
+<li>The string &#39;0&#39; is truthy (non-empty string), while the integer 0 is falsy. This is a common source of confusion.</li>
+<li>Chained comparisons like 1 &lt; x &lt; 10 are a Pythonic way to check ranges. They are equivalent to 1 &lt; x and x &lt; 10.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/operators-in-python" class="related-topic-link">Operators in Python</a>
+<a href="/resources/python/loops-in-python" class="related-topic-link">Loops in Python (for and while)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/taking-input-and-type-conversion" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Taking Input and Type Conversion</span>
+        </a>
+            <a href="/resources/python/loops-in-python" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops in Python (for and while)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/conditional-statements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

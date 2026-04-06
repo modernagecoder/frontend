@@ -1,0 +1,767 @@
+{
+  "title": "Operators in Python",
+  "slug": "operators-in-python",
+  "language": "python",
+  "chapter": 5,
+  "difficulty": "Beginner",
+  "readingTime": "18 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Operators in Python - Arithmetic, Comparison, Logical, Assignment & More | Modern Age Coders",
+    "description": "Learn all Python operators including arithmetic, comparison, logical, assignment, membership, identity, and bitwise operators. Includes operator precedence, PEMDAS, and 58 practice questions.",
+    "keywords": "python operators, arithmetic operators python, comparison operators python, logical operators python, assignment operators python, operator precedence python, PEMDAS python, bitwise operators python, python operators for beginners"
+  },
+  "content": {
+    "what": "<h2>What Are Operators in Python?</h2><p>An <strong>operator</strong> is a special symbol that tells Python to perform a specific operation on one or more values. Think of operators as verbs in a sentence. Just as the verb \"add\" tells you to combine two numbers, the <code>+</code> operator tells Python to add two values together.</p><p>You have already used operators without realizing it. When you wrote <code>print(2 + 3)</code> in earlier chapters, the <code>+</code> symbol was an <strong>arithmetic operator</strong>. When you stored a value with <code>age = 14</code>, the <code>=</code> symbol was an <strong>assignment operator</strong>.</p><h3>What Are Operands?</h3><p>The values that operators work on are called <strong>operands</strong>. In the expression <code>5 + 3</code>, the numbers <code>5</code> and <code>3</code> are operands, and <code>+</code> is the operator. Some operators need two operands (called <strong>binary operators</strong>, like <code>+</code>), while others need only one (called <strong>unary operators</strong>, like <code>not</code> or <code>-</code> when used to negate a number).</p><p>Python provides seven categories of operators, and this chapter covers each one in detail: Arithmetic, Comparison, Logical, Assignment, Membership, Identity, and Bitwise operators.</p>",
+    "why": "<h2>Why Are Operators Important?</h2><p>Operators are the building blocks of every computation your program performs. Without operators, your code could store values but never do anything meaningful with them. Here is why understanding operators thoroughly matters:</p><h3>1. Every Calculation Uses Operators</h3><p>Whether you are building a calculator, computing a student's grade percentage, or calculating the area of a rectangle, you need arithmetic operators. Even simple tasks like counting how many items are in a shopping cart or splitting a bill among friends require operators.</p><h3>2. Decision-Making Depends on Comparison and Logical Operators</h3><p>When your program needs to make decisions (\"Is the user old enough to sign up?\", \"Did the student pass the exam?\"), it uses comparison operators (<code>>=</code>, <code>==</code>, <code>!=</code>) and logical operators (<code>and</code>, <code>or</code>, <code>not</code>). You will use these constantly when you learn conditional statements in the next chapters.</p><h3>3. Operator Precedence Prevents Bugs</h3><p>If you do not understand the order in which Python evaluates operators, your calculations will give wrong results. The expression <code>2 + 3 * 4</code> gives <code>14</code> (not <code>20</code>), because multiplication happens before addition. Knowing operator precedence is the difference between writing correct programs and spending hours debugging wrong answers.</p><h3>4. Writing Shorter, Cleaner Code</h3><p>Assignment operators like <code>+=</code> and <code>*=</code> let you update variables in a compact way. Membership operators like <code>in</code> let you check if something exists in a collection with a single readable expression. These make your code shorter and easier to understand.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Arithmetic Operators</h3><p>Arithmetic operators perform mathematical calculations on numbers (integers and floats). Python provides seven arithmetic operators:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>+</code></td><td>Addition</td><td><code>10 + 3</code></td><td><code>13</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>10 - 3</code></td><td><code>7</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>10 * 3</code></td><td><code>30</code></td></tr><tr><td><code>/</code></td><td>Division (float)</td><td><code>10 / 3</code></td><td><code>3.3333...</code></td></tr><tr><td><code>//</code></td><td>Floor Division</td><td><code>10 // 3</code></td><td><code>3</code></td></tr><tr><td><code>%</code></td><td>Modulus (remainder)</td><td><code>10 % 3</code></td><td><code>1</code></td></tr><tr><td><code>**</code></td><td>Exponentiation</td><td><code>10 ** 3</code></td><td><code>1000</code></td></tr></table><h4>Division vs Floor Division</h4><p>This is one of the most commonly confused concepts. The <code>/</code> operator <strong>always returns a float</strong>, even if the result is a whole number. So <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. The <code>//</code> operator performs <strong>floor division</strong>, which means it divides and then rounds DOWN to the nearest integer. For positive numbers, this is the same as removing the decimal part: <code>10 // 3</code> gives <code>3</code> (not 3.33).</p><p>For negative numbers, floor division rounds towards negative infinity: <code>-10 // 3</code> gives <code>-4</code> (not -3), because -4 is the nearest integer less than -3.33. This catches many students off guard.</p><h4>The Modulus Operator (%)</h4><p>The modulus operator returns the <strong>remainder</strong> after division. For example, <code>10 % 3</code> gives <code>1</code> because 10 divided by 3 is 3 with a remainder of 1. This operator is extremely useful for: checking if a number is even or odd (<code>n % 2 == 0</code> means even), checking divisibility (<code>n % 5 == 0</code> means divisible by 5), and wrapping values around a range.</p><h3>2. Comparison Operators</h3><p>Comparison operators compare two values and return a <strong>Boolean result</strong> (<code>True</code> or <code>False</code>). They are essential for making decisions in your programs.</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>==</code></td><td>Equal to</td><td><code>5 == 5</code></td><td><code>True</code></td></tr><tr><td><code>!=</code></td><td>Not equal to</td><td><code>5 != 3</code></td><td><code>True</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>5 &gt; 3</code></td><td><code>True</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>5 &lt; 3</code></td><td><code>False</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater than or equal to</td><td><code>5 &gt;= 5</code></td><td><code>True</code></td></tr><tr><td><code>&lt;=</code></td><td>Less than or equal to</td><td><code>5 &lt;= 3</code></td><td><code>False</code></td></tr></table><h4>Important: == vs =</h4><p>A very common mistake is confusing <code>=</code> (assignment) with <code>==</code> (comparison). The single equals sign <code>=</code> <strong>assigns</strong> a value to a variable: <code>x = 5</code> stores 5 in x. The double equals sign <code>==</code> <strong>compares</strong> two values: <code>x == 5</code> checks whether x is equal to 5 and returns True or False.</p><h4>Chaining Comparisons</h4><p>Python allows you to chain comparison operators in a way that matches mathematical notation. Instead of writing <code>x &gt; 1 and x &lt; 10</code>, you can write <code>1 &lt; x &lt; 10</code>. This reads naturally as \"x is between 1 and 10\" and is one of Python's elegant features.</p><h3>3. Logical Operators</h3><p>Logical operators combine multiple Boolean expressions. Python has three logical operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>and</code></td><td>True only if BOTH are True</td><td><code>True and False</code></td><td><code>False</code></td></tr><tr><td><code>or</code></td><td>True if at LEAST ONE is True</td><td><code>True or False</code></td><td><code>True</code></td></tr><tr><td><code>not</code></td><td>Reverses the Boolean value</td><td><code>not True</code></td><td><code>False</code></td></tr></table><h4>Truth Tables</h4><p>A truth table shows every possible combination of inputs and the resulting output:</p><p><strong>AND truth table:</strong> <code>True and True = True</code>, <code>True and False = False</code>, <code>False and True = False</code>, <code>False and False = False</code>. The <code>and</code> operator returns True only when BOTH sides are True.</p><p><strong>OR truth table:</strong> <code>True or True = True</code>, <code>True or False = True</code>, <code>False or True = True</code>, <code>False or False = False</code>. The <code>or</code> operator returns False only when BOTH sides are False.</p><h4>Short-Circuit Evaluation</h4><p>Python uses <strong>short-circuit evaluation</strong> with logical operators. With <code>and</code>, if the left side is False, Python does not even check the right side (because the result will be False regardless). With <code>or</code>, if the left side is True, Python skips the right side (because the result will be True regardless). This is not just an optimization; it can affect your program if the right side has side effects like function calls.</p><h3>4. Assignment Operators</h3><p>Assignment operators store values in variables. The basic assignment operator is <code>=</code>, but Python also provides <strong>compound assignment operators</strong> that combine an arithmetic operation with assignment:</p><table><tr><th>Operator</th><th>Example</th><th>Equivalent To</th></tr><tr><td><code>=</code></td><td><code>x = 5</code></td><td>Assigns 5 to x</td></tr><tr><td><code>+=</code></td><td><code>x += 3</code></td><td><code>x = x + 3</code></td></tr><tr><td><code>-=</code></td><td><code>x -= 3</code></td><td><code>x = x - 3</code></td></tr><tr><td><code>*=</code></td><td><code>x *= 3</code></td><td><code>x = x * 3</code></td></tr><tr><td><code>/=</code></td><td><code>x /= 3</code></td><td><code>x = x / 3</code></td></tr><tr><td><code>//=</code></td><td><code>x //= 3</code></td><td><code>x = x // 3</code></td></tr><tr><td><code>%=</code></td><td><code>x %= 3</code></td><td><code>x = x % 3</code></td></tr><tr><td><code>**=</code></td><td><code>x **= 3</code></td><td><code>x = x ** 3</code></td></tr></table><p>Compound assignment operators are just a shorthand. Writing <code>score += 10</code> is identical to writing <code>score = score + 10</code>. They make code shorter and more readable, especially when updating variables in loops.</p><h3>5. Membership Operators</h3><p>Membership operators check whether a value exists inside a sequence (like a string, list, or tuple). Python has two membership operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>in</code></td><td>True if value is found in the sequence</td><td><code>\"a\" in \"Aarav\"</code></td><td><code>True</code></td></tr><tr><td><code>not in</code></td><td>True if value is NOT found in the sequence</td><td><code>\"z\" not in \"Aarav\"</code></td><td><code>True</code></td></tr></table><p>Membership operators are extremely readable. The expression <code>\"Python\" in languages</code> reads almost like plain English: \"Is Python in the languages list?\" You will use these frequently when working with strings and lists.</p><h3>6. Identity Operators</h3><p>Identity operators check whether two variables refer to the <strong>exact same object in memory</strong>, not just whether they have the same value. Python has two identity operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr><tr><td><code>is</code></td><td>True if both variables point to the same object</td><td><code>x is y</code></td></tr><tr><td><code>is not</code></td><td>True if they point to different objects</td><td><code>x is not y</code></td></tr></table><h4>== vs is</h4><p>This is a subtle but important distinction. The <code>==</code> operator checks if two values are <strong>equal</strong>. The <code>is</code> operator checks if two variables refer to the <strong>same object</strong> in memory. Two variables can have equal values but be different objects. For example, two different lists <code>[1, 2, 3]</code> and <code>[1, 2, 3]</code> are equal (<code>==</code> returns True) but they are separate objects in memory (<code>is</code> returns False).</p><p>The most common use of <code>is</code> is checking for <code>None</code>: you should always write <code>if x is None</code> rather than <code>if x == None</code>. This is a Python best practice.</p><h3>7. Bitwise Operators</h3><p>Bitwise operators work on the <strong>binary (base-2) representation</strong> of numbers, manipulating individual bits. While you may not use these daily as a beginner, understanding them gives you deeper knowledge of how computers work.</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>&amp;</code></td><td>Bitwise AND</td><td><code>5 &amp; 3</code></td><td><code>1</code></td></tr><tr><td><code>|</code></td><td>Bitwise OR</td><td><code>5 | 3</code></td><td><code>7</code></td></tr><tr><td><code>^</code></td><td>Bitwise XOR</td><td><code>5 ^ 3</code></td><td><code>6</code></td></tr><tr><td><code>~</code></td><td>Bitwise NOT</td><td><code>~5</code></td><td><code>-6</code></td></tr><tr><td><code>&lt;&lt;</code></td><td>Left Shift</td><td><code>5 &lt;&lt; 1</code></td><td><code>10</code></td></tr><tr><td><code>&gt;&gt;</code></td><td>Right Shift</td><td><code>5 &gt;&gt; 1</code></td><td><code>2</code></td></tr></table><p>Let us trace through <code>5 &amp; 3</code>: In binary, 5 is <code>101</code> and 3 is <code>011</code>. The AND operation compares each bit position: 1 AND 0 = 0, 0 AND 1 = 0, 1 AND 1 = 1. The result is <code>001</code>, which is 1 in decimal.</p><p>Left shift (<code>&lt;&lt;</code>) moves all bits to the left by the specified number of positions, which is equivalent to multiplying by 2 for each shift. So <code>5 &lt;&lt; 1</code> is 5 * 2 = 10. Right shift (<code>&gt;&gt;</code>) moves bits to the right, equivalent to integer division by 2.</p><h3>8. Operator Precedence (PEMDAS)</h3><p>When an expression contains multiple operators, Python follows a strict order of priority called <strong>operator precedence</strong>. This is similar to the PEMDAS rule you learn in mathematics (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction), but Python extends it to include all its operators.</p><p>Here is the precedence from <strong>highest (evaluated first)</strong> to <strong>lowest (evaluated last)</strong>:</p><ol><li><strong>Parentheses</strong> <code>()</code> — always evaluated first</li><li><strong>Exponentiation</strong> <code>**</code></li><li><strong>Unary operators</strong> <code>+x</code>, <code>-x</code>, <code>~x</code></li><li><strong>Multiplication, Division, Floor Division, Modulus</strong> <code>*</code>, <code>/</code>, <code>//</code>, <code>%</code></li><li><strong>Addition, Subtraction</strong> <code>+</code>, <code>-</code></li><li><strong>Bitwise Shifts</strong> <code>&lt;&lt;</code>, <code>&gt;&gt;</code></li><li><strong>Bitwise AND</strong> <code>&amp;</code></li><li><strong>Bitwise XOR</strong> <code>^</code></li><li><strong>Bitwise OR</strong> <code>|</code></li><li><strong>Comparison operators</strong> <code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>, <code>is</code>, <code>is not</code>, <code>in</code>, <code>not in</code></li><li><strong>Logical NOT</strong> <code>not</code></li><li><strong>Logical AND</strong> <code>and</code></li><li><strong>Logical OR</strong> <code>or</code></li></ol><h4>Key Rules to Remember</h4><p><strong>Rule 1:</strong> Parentheses override everything. When in doubt, use parentheses to make your intent clear.</p><p><strong>Rule 2:</strong> Exponentiation (<code>**</code>) is right-associative. This means <code>2 ** 3 ** 2</code> is evaluated as <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = <code>512</code>, NOT as <code>(2 ** 3) ** 2</code> = <code>8 ** 2</code> = <code>64</code>.</p><p><strong>Rule 3:</strong> Among operators at the same precedence level, evaluation happens left to right (left-associative), except for exponentiation which is right-associative.</p><p><strong>Rule 4:</strong> <code>not</code> has higher precedence than <code>and</code>, which has higher precedence than <code>or</code>. So <code>True or False and not False</code> evaluates as <code>True or (False and (not False))</code> = <code>True or (False and True)</code> = <code>True or False</code> = <code>True</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "Arithmetic Operators in Action",
+        "code": "a = 15\nb = 4\n\nprint(\"Addition:\", a + b)\nprint(\"Subtraction:\", a - b)\nprint(\"Multiplication:\", a * b)\nprint(\"Division:\", a / b)\nprint(\"Floor Division:\", a // b)\nprint(\"Modulus:\", a % b)\nprint(\"Exponentiation:\", a ** b)",
+        "language": "python",
+        "explanation": "This demonstrates all seven arithmetic operators using <code>a = 15</code> and <code>b = 4</code>. Notice that division (<code>/</code>) returns <code>3.75</code> (a float), while floor division (<code>//</code>) returns <code>3</code> (rounded down). The modulus (<code>%</code>) returns <code>3</code> because 15 divided by 4 is 3 remainder 3. Exponentiation gives 15 to the power of 4.",
+        "output": "Addition: 19\nSubtraction: 11\nMultiplication: 60\nDivision: 3.75\nFloor Division: 3\nModulus: 3\nExponentiation: 50625"
+      },
+      {
+        "title": "Division vs Floor Division with Negative Numbers",
+        "code": "print(\"10 / 3 =\", 10 / 3)\nprint(\"10 // 3 =\", 10 // 3)\nprint()\nprint(\"-10 / 3 =\", -10 / 3)\nprint(\"-10 // 3 =\", -10 // 3)\nprint()\nprint(\"10 / -3 =\", 10 / -3)\nprint(\"10 // -3 =\", 10 // -3)",
+        "language": "python",
+        "explanation": "This example reveals a tricky behavior of floor division with negative numbers. For positive numbers, <code>10 // 3</code> gives <code>3</code> as expected. But <code>-10 // 3</code> gives <code>-4</code> (not -3), because floor division rounds towards negative infinity. Similarly, <code>10 // -3</code> gives <code>-4</code>. This is a common source of bugs and a frequent exam question.",
+        "output": "10 / 3 = 3.3333333333333335\n10 // 3 = 3\n\n-10 / 3 = -3.3333333333333335\n-10 // 3 = -4\n\n10 / -3 = -3.3333333333333335\n10 // -3 = -4"
+      },
+      {
+        "title": "Comparison Operators and Boolean Results",
+        "code": "marks = 78\n\nprint(\"Is marks equal to 78?\", marks == 78)\nprint(\"Is marks not equal to 100?\", marks != 100)\nprint(\"Is marks greater than 50?\", marks > 50)\nprint(\"Is marks less than 40?\", marks < 40)\nprint(\"Is marks >= 75?\", marks >= 75)\nprint(\"Is marks <= 80?\", marks <= 80)\n\n# Chaining comparisons\nprint(\"Is marks between 60 and 90?\", 60 <= marks <= 90)",
+        "language": "python",
+        "explanation": "Comparison operators always return <code>True</code> or <code>False</code>. Aarav scored 78 marks, and we check various conditions. The last line demonstrates Python's chained comparison: <code>60 &lt;= marks &lt;= 90</code> checks if marks is between 60 and 90 (inclusive). This is equivalent to <code>marks &gt;= 60 and marks &lt;= 90</code> but reads more naturally.",
+        "output": "Is marks equal to 78? True\nIs marks not equal to 100? True\nIs marks greater than 50? True\nIs marks less than 40? False\nIs marks >= 75? True\nIs marks <= 80? True\nIs marks between 60 and 90? True"
+      },
+      {
+        "title": "Logical Operators with Conditions",
+        "code": "age = 15\nhas_id = True\n\n# AND - both must be True\ncan_enter = age >= 13 and has_id\nprint(\"Can enter (age >= 13 AND has ID)?\", can_enter)\n\n# OR - at least one must be True\nis_weekend = False\nis_holiday = True\nno_school = is_weekend or is_holiday\nprint(\"No school (weekend OR holiday)?\", no_school)\n\n# NOT - reverses the value\nis_raining = False\ncan_play_outside = not is_raining\nprint(\"Can play outside (NOT raining)?\", can_play_outside)\n\n# Combining all three\ncan_go_trip = (age >= 12 and has_id) or not is_raining\nprint(\"Can go on trip?\", can_go_trip)",
+        "language": "python",
+        "explanation": "This shows real-world usage of logical operators. Priya is 15 and has an ID, so <code>and</code> returns True (both conditions met). It is not the weekend but it is a holiday, so <code>or</code> returns True (at least one condition met). It is not raining, so <code>not False</code> gives True. The last line combines all three: the parenthesized <code>and</code> expression is evaluated first, then <code>not</code>, then <code>or</code>.",
+        "output": "Can enter (age >= 13 AND has ID)? True\nNo school (weekend OR holiday)? True\nCan play outside (NOT raining)? True\nCan go on trip? True"
+      },
+      {
+        "title": "Assignment Operators for Updating Variables",
+        "code": "score = 100\nprint(\"Starting score:\", score)\n\nscore += 25       # score = score + 25\nprint(\"After +25:\", score)\n\nscore -= 10       # score = score - 10\nprint(\"After -10:\", score)\n\nscore *= 2        # score = score * 2\nprint(\"After *2:\", score)\n\nscore //= 3       # score = score // 3\nprint(\"After //3:\", score)\n\nscore %= 10       # score = score % 10\nprint(\"After %10:\", score)\n\nscore **= 3       # score = score ** 3\nprint(\"After **3:\", score)",
+        "language": "python",
+        "explanation": "Starting with <code>score = 100</code>, we apply different compound assignment operators one after another. Each operator updates the variable using the previous value. After <code>+= 25</code>, score is 125. After <code>-= 10</code>, it is 115. After <code>*= 2</code>, it is 230. After <code>//= 3</code>, it is 76 (floor division). After <code>%= 10</code>, it is 6 (remainder). After <code>**= 3</code>, it is 216 (6 cubed).",
+        "output": "Starting score: 100\nAfter +25: 125\nAfter -10: 115\nAfter *2: 230\nAfter //3: 76\nAfter %10: 6\nAfter **3: 216"
+      },
+      {
+        "title": "Membership and Identity Operators",
+        "code": "# Membership operators\nname = \"Ananya\"\nprint(\"Is 'A' in name?\", \"A\" in name)\nprint(\"Is 'z' in name?\", \"z\" in name)\nprint(\"Is 'z' NOT in name?\", \"z\" not in name)\n\nfruits = [\"apple\", \"mango\", \"banana\"]\nprint(\"Is 'mango' in fruits?\", \"mango\" in fruits)\nprint(\"Is 'grape' in fruits?\", \"grape\" in fruits)\n\n# Identity operators\na = [1, 2, 3]\nb = [1, 2, 3]\nc = a\n\nprint(\"\\na == b?\", a == b)     # Same value?\nprint(\"a is b?\", a is b)     # Same object?\nprint(\"a is c?\", a is c)     # Same object?\n\nprint(\"\\nChecking None:\")\nx = None\nprint(\"x is None?\", x is None)",
+        "language": "python",
+        "explanation": "The <code>in</code> operator checks if a value exists inside a string or list. <code>\"A\" in \"Ananya\"</code> returns True because the character A appears in the string. For identity operators, <code>a</code> and <code>b</code> have the same values but are different objects in memory, so <code>a == b</code> is True but <code>a is b</code> is False. However, <code>c = a</code> makes <code>c</code> point to the same object as <code>a</code>, so <code>a is c</code> is True. The recommended way to check for <code>None</code> is using <code>is</code>, not <code>==</code>.",
+        "output": "Is 'A' in name? True\nIs 'z' in name? False\nIs 'z' NOT in name? True\nIs 'mango' in fruits? True\nIs 'grape' in fruits? False\n\na == b? True\na is b? False\na is c? True\n\nChecking None:\nx is None? True"
+      },
+      {
+        "title": "Operator Precedence: Tricky Examples",
+        "code": "# Example 1: Multiplication before addition\nresult1 = 2 + 3 * 4\nprint(\"2 + 3 * 4 =\", result1)  # 14, not 20\n\n# Example 2: Parentheses override precedence\nresult2 = (2 + 3) * 4\nprint(\"(2 + 3) * 4 =\", result2)  # 20\n\n# Example 3: Exponentiation is right-associative\nresult3 = 2 ** 3 ** 2\nprint(\"2 ** 3 ** 2 =\", result3)  # 512, not 64\n\n# Example 4: Mixed operators\nresult4 = 10 + 2 * 3 ** 2 - 4 // 2\nprint(\"10 + 2 * 3 ** 2 - 4 // 2 =\", result4)\n# Step by step: 3**2=9, 2*9=18, 4//2=2, 10+18-2=26\n\n# Example 5: Logical operator precedence\nresult5 = True or False and False\nprint(\"True or False and False =\", result5)\n# and is evaluated before or: True or (False and False) = True or False = True",
+        "language": "python",
+        "explanation": "Example 1 shows <code>*</code> executes before <code>+</code>. Example 2 shows parentheses forcing addition first. Example 3 is tricky: <code>**</code> is right-associative, so <code>2 ** 3 ** 2</code> means <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = 512. Example 4 is evaluated step by step following precedence: exponentiation first, then multiplication and floor division, then addition and subtraction. Example 5 shows that <code>and</code> has higher precedence than <code>or</code>.",
+        "output": "2 + 3 * 4 = 14\n(2 + 3) * 4 = 20\n2 ** 3 ** 2 = 512\n10 + 2 * 3 ** 2 - 4 // 2 = 26\nTrue or False and False = True"
+      },
+      {
+        "title": "Bitwise Operators Basics",
+        "code": "a = 5   # binary: 101\nb = 3   # binary: 011\n\nprint(\"a & b =\", a & b)     # AND:  101 & 011 = 001 = 1\nprint(\"a | b =\", a | b)     # OR:   101 | 011 = 111 = 7\nprint(\"a ^ b =\", a ^ b)     # XOR:  101 ^ 011 = 110 = 6\nprint(\"~a =\", ~a)           # NOT:  ~5 = -6\nprint(\"a << 1 =\", a << 1)   # Left shift: 101 -> 1010 = 10\nprint(\"a >> 1 =\", a >> 1)   # Right shift: 101 -> 10 = 2\n\n# Practical: Check if a number is even using bitwise AND\nnum = 14\nif num & 1 == 0:\n    print(num, \"is even\")\nelse:\n    print(num, \"is odd\")",
+        "language": "python",
+        "explanation": "Bitwise operators work on the binary representations of numbers. For <code>5 &amp; 3</code>: binary 101 AND 011 gives 001 (only the last bit is 1 in both). For <code>5 | 3</code>: 101 OR 011 gives 111 (a bit is 1 if either input has 1). XOR gives 1 only when bits differ. Left shift by 1 doubles the number, right shift by 1 halves it (integer division). A practical trick: <code>num &amp; 1</code> checks the last bit, which is 0 for even numbers and 1 for odd numbers.",
+        "output": "a & b = 1\na | b = 7\na ^ b = 6\n~a = -6\na << 1 = 10\na >> 1 = 2\n14 is even"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing = (Assignment) with == (Comparison)",
+        "wrongCode": "age = 18\nif age = 18:\n    print(\"You are 18\")",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "age = 18\nif age == 18:\n    print(\"You are 18\")",
+        "explanation": "The single <code>=</code> is the assignment operator (it stores a value). The double <code>==</code> is the comparison operator (it checks equality). In an <code>if</code> statement, you need <code>==</code> to compare values. This is one of the most common mistakes in all of programming, not just Python."
+      },
+      {
+        "title": "Expecting / to Return an Integer",
+        "wrongCode": "total = 10\nstudents = 4\neach_gets = total / students\nprint(\"Each student gets\", each_gets, \"chocolates\")",
+        "error": "No error, but output is: Each student gets 2.5 chocolates (a float, not an integer)",
+        "correctCode": "total = 10\nstudents = 4\neach_gets = total // students\nprint(\"Each student gets\", each_gets, \"chocolates\")",
+        "explanation": "In Python 3, the <code>/</code> operator ALWAYS returns a float, even when dividing two integers that divide evenly: <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. If you want an integer result, use floor division <code>//</code>. This is a change from Python 2 where <code>/</code> with integers gave an integer result."
+      },
+      {
+        "title": "Misunderstanding Floor Division with Negative Numbers",
+        "wrongCode": "result = -7 // 2\nprint(result)  # Expecting -3",
+        "error": "No error, but output is -4 (not -3 as many students expect)",
+        "correctCode": "# Floor division rounds TOWARD negative infinity\nresult = -7 // 2   # -3.5 rounded down = -4\nprint(result)       # Output: -4\n\n# If you want to truncate toward zero, use int()\nresult = int(-7 / 2)  # int(-3.5) = -3\nprint(result)          # Output: -3",
+        "explanation": "Floor division always rounds DOWN (toward negative infinity). For <code>-7 // 2</code>, the true result is -3.5, and rounding down gives -4 (not -3). Many students expect it to truncate toward zero like some other languages. If you want truncation toward zero, use <code>int(-7 / 2)</code> instead."
+      },
+      {
+        "title": "Wrong Operator Precedence Assumption",
+        "wrongCode": "# Rohan wants to calculate average of 3 numbers\naverage = 80 + 75 + 90 / 3\nprint(\"Average:\", average)  # Expecting 81.67",
+        "error": "No error, but output is 185.0 (wrong answer). Only 90 is divided by 3, then added to 80 + 75.",
+        "correctCode": "average = (80 + 75 + 90) / 3\nprint(\"Average:\", average)  # Correct: 81.666...",
+        "explanation": "Without parentheses, Python follows operator precedence: division (<code>/</code>) is evaluated before addition (<code>+</code>). So <code>80 + 75 + 90 / 3</code> becomes <code>80 + 75 + 30.0</code> = <code>185.0</code>. To get the correct average, use parentheses to force the addition first: <code>(80 + 75 + 90) / 3</code>."
+      },
+      {
+        "title": "Using 'is' Instead of '==' for Value Comparison",
+        "wrongCode": "a = 1000\nb = 1000\nprint(a is b)  # Might print False!",
+        "error": "No error, but may give unexpected results. 'is' checks identity (same object), not equality.",
+        "correctCode": "a = 1000\nb = 1000\nprint(a == b)  # Always True for equal values",
+        "explanation": "The <code>is</code> operator checks if two variables point to the <strong>same object in memory</strong>, not if they have the same value. For small integers (-5 to 256), Python reuses the same object, so <code>is</code> may return True. But for larger numbers, Python may create separate objects. Always use <code>==</code> when comparing values, and reserve <code>is</code> for checking <code>None</code>."
+      }
+    ],
+    "summary": [
+      "Operators are special symbols that perform operations on values (operands). Python has seven categories of operators.",
+      "Arithmetic operators: + (add), - (subtract), * (multiply), / (float division), // (floor division), % (modulus/remainder), ** (exponentiation).",
+      "The / operator always returns a float in Python 3. Use // for integer division. Floor division rounds toward negative infinity, which matters with negative numbers.",
+      "Comparison operators (==, !=, >, <, >=, <=) compare values and return True or False. Python supports chained comparisons like 1 < x < 10.",
+      "Logical operators: 'and' returns True only if both sides are True, 'or' returns True if at least one side is True, 'not' reverses the Boolean value. Python uses short-circuit evaluation.",
+      "Compound assignment operators (+=, -=, *=, /=, //=, %=, **=) combine an operation with assignment. x += 5 is the same as x = x + 5.",
+      "Membership operators 'in' and 'not in' check if a value exists in a sequence. Identity operators 'is' and 'is not' check if two variables point to the same object in memory.",
+      "Bitwise operators (&, |, ^, ~, <<, >>) work on binary representations of numbers. Left shift doubles and right shift halves.",
+      "Operator precedence (PEMDAS extended): Parentheses > Exponentiation > Unary > Multiplication/Division > Addition/Subtraction > Comparisons > not > and > or.",
+      "Exponentiation (**) is right-associative: 2 ** 3 ** 2 equals 2 ** 9 = 512, not 8 ** 2 = 64. When in doubt, always use parentheses."
+    ]
+  },
+  "relatedTopics": ["variables-and-data-types", "taking-input-and-type-conversion"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>print(15 + 3)</code></pre>",
+        "hint": "The + operator adds two numbers.",
+        "answer": "<code>18</code>",
+        "explanation": "The <code>+</code> operator performs addition. 15 + 3 equals 18. Python evaluates the expression first and then prints the result."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(10 / 2)</code></pre>",
+        "hint": "Remember what / always returns in Python 3.",
+        "answer": "<code>5.0</code>",
+        "explanation": "The <code>/</code> operator in Python 3 always returns a float, even when the result is a whole number. So <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. This is different from <code>//</code> which would give <code>5</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(17 % 5)</code></pre>",
+        "hint": "The % operator gives the remainder after division.",
+        "answer": "<code>2</code>",
+        "explanation": "The modulus operator <code>%</code> returns the remainder. 17 divided by 5 is 3 with a remainder of 2 (because 5 * 3 = 15, and 17 - 15 = 2). So <code>17 % 5</code> equals <code>2</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(2 ** 5)</code></pre>",
+        "hint": "The ** operator raises the first number to the power of the second.",
+        "answer": "<code>32</code>",
+        "explanation": "The <code>**</code> operator performs exponentiation. <code>2 ** 5</code> means 2 raised to the power of 5, which is 2 * 2 * 2 * 2 * 2 = 32."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(10 == 10)\nprint(10 == 5)</code></pre>",
+        "hint": "The == operator checks equality and returns a Boolean.",
+        "answer": "<code>True</code><br><code>False</code>",
+        "explanation": "The <code>==</code> operator compares two values for equality. 10 equals 10, so the first line prints <code>True</code>. 10 does not equal 5, so the second line prints <code>False</code>."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(17 // 3)\nprint(-17 // 3)</code></pre>",
+        "hint": "Floor division rounds toward negative infinity, not toward zero.",
+        "answer": "<code>5</code><br><code>-6</code>",
+        "explanation": "<code>17 // 3</code> = 5 (17/3 = 5.67, floor is 5). For <code>-17 // 3</code>, -17/3 = -5.67, and flooring (rounding toward negative infinity) gives <code>-6</code>, not -5. This is a common tricky question."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 10\nx += 5\nx *= 2\nx -= 3\nprint(x)</code></pre>",
+        "hint": "Trace through each assignment step by step.",
+        "answer": "<code>27</code>",
+        "explanation": "Step by step: <code>x = 10</code>. After <code>x += 5</code>, x = 15. After <code>x *= 2</code>, x = 30. After <code>x -= 3</code>, x = 27. Each compound assignment operator updates x using its current value."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(True and False)\nprint(True or False)\nprint(not True)</code></pre>",
+        "hint": "AND needs both True, OR needs at least one True, NOT reverses.",
+        "answer": "<code>False</code><br><code>True</code><br><code>False</code>",
+        "explanation": "<code>True and False</code> is False (both must be True for AND). <code>True or False</code> is True (at least one is True for OR). <code>not True</code> is False (NOT reverses the value)."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(\"a\" in \"Ananya\")\nprint(\"A\" in \"Ananya\")\nprint(\"x\" not in \"Ananya\")</code></pre>",
+        "hint": "Python is case-sensitive. Lowercase 'a' and uppercase 'A' are different characters.",
+        "answer": "<code>True</code><br><code>True</code><br><code>True</code>",
+        "explanation": "<code>\"a\" in \"Ananya\"</code> is True because lowercase 'a' appears in \"Ananya\" (at positions 2, 4, 6). <code>\"A\" in \"Ananya\"</code> is True because uppercase 'A' appears at position 1. <code>\"x\" not in \"Ananya\"</code> is True because 'x' does not appear anywhere in the string."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\nb = [1, 2, 3]\nc = a\nprint(a == b)\nprint(a is b)\nprint(a is c)</code></pre>",
+        "hint": "== checks values, 'is' checks if they are the same object in memory.",
+        "answer": "<code>True</code><br><code>False</code><br><code>True</code>",
+        "explanation": "<code>a == b</code> is True because both lists have the same values. <code>a is b</code> is False because <code>a</code> and <code>b</code> are two separate list objects in memory (even though they contain the same values). <code>a is c</code> is True because <code>c = a</code> makes c point to the same object as a."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(2 + 3 * 4 ** 2 - 6 // 2)</code></pre>",
+        "hint": "Follow PEMDAS: Exponentiation first, then multiplication and floor division, then addition and subtraction.",
+        "answer": "<code>47</code>",
+        "explanation": "Step by step following operator precedence: (1) <code>4 ** 2</code> = 16 (exponentiation first). (2) <code>3 * 16</code> = 48 (multiplication). (3) <code>6 // 2</code> = 3 (floor division). (4) <code>2 + 48 - 3</code> = 47 (left to right). The full expression becomes 2 + 48 - 3 = 47."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(2 ** 3 ** 2)</code></pre>",
+        "hint": "Exponentiation is right-associative, meaning it evaluates from right to left.",
+        "answer": "<code>512</code>",
+        "explanation": "The <code>**</code> operator is right-associative. So <code>2 ** 3 ** 2</code> is evaluated as <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = 512. It is NOT <code>(2 ** 3) ** 2</code> = <code>8 ** 2</code> = 64. This is one of the most common trick questions in Python."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(True or False and False)\nprint((True or False) and False)</code></pre>",
+        "hint": "'and' has higher precedence than 'or'. Parentheses change the order.",
+        "answer": "<code>True</code><br><code>False</code>",
+        "explanation": "In the first line, <code>and</code> has higher precedence than <code>or</code>, so it evaluates as <code>True or (False and False)</code> = <code>True or False</code> = <code>True</code>. In the second line, parentheses force <code>or</code> to be evaluated first: <code>(True or False) and False</code> = <code>True and False</code> = <code>False</code>."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Explain the difference between / and // in Python. What happens when you use // with negative numbers?",
+        "hint": "One always returns a float, the other returns an integer. Think about which direction rounding goes.",
+        "answer": "<code>/</code> is float division and always returns a float (even <code>10 / 2</code> gives <code>5.0</code>). <code>//</code> is floor division and rounds down to the nearest integer. With negative numbers, <code>//</code> rounds toward <strong>negative infinity</strong>: <code>-7 // 2</code> gives <code>-4</code> (not -3), because -3.5 rounded toward negative infinity is -4.",
+        "explanation": "This distinction is critical. Many students expect <code>-7 // 2</code> to give -3 (truncating toward zero), but Python's floor division always rounds down. If you need truncation toward zero for negative numbers, use <code>int(-7 / 2)</code> which gives -3."
+      },
+      {
+        "id": "ts-15",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between == and is in Python? When should you use each one?",
+        "hint": "One checks value equality, the other checks object identity.",
+        "answer": "<code>==</code> checks if two values are <strong>equal</strong>. <code>is</code> checks if two variables point to the <strong>same object in memory</strong>. Use <code>==</code> for comparing values (numbers, strings, lists). Use <code>is</code> only for checking <code>None</code> (e.g., <code>if x is None</code>).",
+        "explanation": "Two lists <code>[1, 2]</code> and <code>[1, 2]</code> have equal values (<code>==</code> returns True) but are different objects in memory (<code>is</code> returns False). Python caches small integers (-5 to 256), so <code>5 is 5</code> may be True, but <code>1000 is 1000</code> may be False depending on context. This unpredictability is why you should never use <code>is</code> to compare values."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 5\ny = 2\nprint(x % y)\nprint(-x % y)\nprint(x % -y)</code></pre>",
+        "hint": "The sign of the result follows the sign of the divisor (second operand) in Python.",
+        "answer": "<code>1</code><br><code>1</code><br><code>-1</code>",
+        "explanation": "<code>5 % 2</code> = 1 (5 = 2*2 + 1). For <code>-5 % 2</code>, Python ensures the result has the same sign as the divisor (2, positive), so the result is 1 (because -5 = 2*(-3) + 1). For <code>5 % -2</code>, the divisor is -2 (negative), so the result is -1 (because 5 = (-2)*(-3) + (-1)). This is different from some other programming languages."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(not True or True and not False)</code></pre>",
+        "hint": "Precedence: not > and > or. Evaluate not first, then and, then or.",
+        "answer": "<code>True</code>",
+        "explanation": "Following precedence: (1) <code>not True</code> = False, <code>not False</code> = True. Expression becomes <code>False or True and True</code>. (2) <code>True and True</code> = True. Expression becomes <code>False or True</code>. (3) <code>False or True</code> = True. Final answer: <code>True</code>."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = 12\nb = 10\nprint(a & b)\nprint(a | b)\nprint(a ^ b)</code></pre>",
+        "hint": "Convert 12 and 10 to binary first. 12 = 1100, 10 = 1010.",
+        "answer": "<code>8</code><br><code>14</code><br><code>6</code>",
+        "explanation": "12 in binary is <code>1100</code>, 10 is <code>1010</code>. AND (<code>&amp;</code>): 1100 &amp; 1010 = 1000 = 8. OR (<code>|</code>): 1100 | 1010 = 1110 = 14. XOR (<code>^</code>): 1100 ^ 1010 = 0110 = 6. XOR gives 1 where bits differ."
+      },
+      {
+        "id": "ts-19",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What are the three logical operators in Python?",
+        "hint": "They combine or reverse Boolean values.",
+        "answer": "The three logical operators are <code>and</code>, <code>or</code>, and <code>not</code>.",
+        "explanation": "<code>and</code> returns True only if both operands are True. <code>or</code> returns True if at least one operand is True. <code>not</code> reverses the Boolean value (True becomes False, False becomes True). Python uses English words for logical operators, unlike some languages that use symbols like &&, ||, and !."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(10 > 5 > 3 > 1)</code></pre>",
+        "hint": "Python supports chaining multiple comparisons.",
+        "answer": "<code>True</code>",
+        "explanation": "Python evaluates chained comparisons as if connected by <code>and</code>. So <code>10 &gt; 5 &gt; 3 &gt; 1</code> is equivalent to <code>10 &gt; 5 and 5 &gt; 3 and 3 &gt; 1</code>. All three conditions are True, so the result is True."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = 7\ny = 3\nprint(x + y)\nprint(x - y)\nprint(x * y)\nprint(x ** y)</code></pre>",
+        "hint": "Simple arithmetic with x = 7 and y = 3.",
+        "answer": "<code>10</code><br><code>4</code><br><code>21</code><br><code>343</code>",
+        "explanation": "Addition: 7 + 3 = 10. Subtraction: 7 - 3 = 4. Multiplication: 7 * 3 = 21. Exponentiation: 7 ** 3 = 7 * 7 * 7 = 343."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Priya scored 85, 92, and 78 in three tests. Write a program to calculate and print her average score.",
+        "hint": "Add the three scores and divide by 3. Use parentheses to ensure correct order.",
+        "answer": "<pre><code>average = (85 + 92 + 78) / 3\nprint(\"Average score:\", average)</code></pre>\nOutput: Average score: 85.0",
+        "explanation": "Parentheses are essential here. Without them, only 78 would be divided by 3 (due to operator precedence), giving a wrong answer. <code>(85 + 92 + 78) / 3</code> = <code>255 / 3</code> = <code>85.0</code>."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = 25\nb = 7\nprint(a / b)\nprint(a // b)\nprint(a % b)</code></pre>",
+        "hint": "Division gives a float, floor division gives the quotient, modulus gives the remainder.",
+        "answer": "<code>3.5714285714285716</code><br><code>3</code><br><code>4</code>",
+        "explanation": "<code>25 / 7</code> = 3.5714... (float division). <code>25 // 7</code> = 3 (floor of 3.57 is 3). <code>25 % 7</code> = 4 (25 = 7*3 + 4, the remainder is 4)."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Aarav has a number stored in a variable. Write code to check if the number is even or odd using the modulus operator. Print the result as a Boolean.",
+        "hint": "A number is even if the remainder when divided by 2 is 0.",
+        "answer": "<pre><code>num = 42\nis_even = num % 2 == 0\nprint(\"Is\", num, \"even?\", is_even)</code></pre>\nOutput: Is 42 even? True",
+        "explanation": "The expression <code>num % 2 == 0</code> first computes the remainder of num divided by 2, then checks if that remainder equals 0. If yes, the number is even (True), otherwise odd (False). For 42: <code>42 % 2</code> = 0, and <code>0 == 0</code> is True."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 10\nprint(x > 5 and x < 20)\nprint(x > 15 or x < 5)\nprint(not x == 10)</code></pre>",
+        "hint": "Evaluate each comparison first, then apply the logical operator.",
+        "answer": "<code>True</code><br><code>False</code><br><code>False</code>",
+        "explanation": "Line 1: <code>10 &gt; 5</code> is True, <code>10 &lt; 20</code> is True, <code>True and True</code> = True. Line 2: <code>10 &gt; 15</code> is False, <code>10 &lt; 5</code> is False, <code>False or False</code> = False. Line 3: <code>10 == 10</code> is True, <code>not True</code> = False."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>price = 100\ndiscount = 15\nprice -= discount\nprice *= 2\nprint(price)</code></pre>",
+        "hint": "Trace through each compound assignment operator step by step.",
+        "answer": "<code>170</code>",
+        "explanation": "Starting with <code>price = 100</code>. After <code>price -= 15</code>, price = 85 (100 - 15). After <code>price *= 2</code>, price = 170 (85 * 2). Compound assignment operators update the variable in place."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is short-circuit evaluation in Python? Give an example with the 'and' operator.",
+        "hint": "Think about what happens when Python already knows the final answer before evaluating all parts.",
+        "answer": "Short-circuit evaluation means Python stops evaluating a logical expression as soon as the final result is determined. With <code>and</code>, if the left side is False, Python does not evaluate the right side (because False and anything is False). Example: <code>False and (10 / 0 == 1)</code> returns False without causing a ZeroDivisionError, because Python never evaluates the right side.",
+        "explanation": "This optimization matters in real code. You can write <code>if x != 0 and 10 / x &gt; 2</code> safely because if x is 0, the left side is False and Python never attempts the division. Without short-circuit evaluation, this would crash."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(5 + 2 * 3)\nprint((5 + 2) * 3)\nprint(5 * 2 ** 2)\nprint((5 * 2) ** 2)</code></pre>",
+        "hint": "Remember: ** > * > +. Parentheses override all precedence rules.",
+        "answer": "<code>11</code><br><code>21</code><br><code>20</code><br><code>100</code>",
+        "explanation": "Line 1: <code>2 * 3</code> = 6, then <code>5 + 6</code> = 11. Line 2: <code>(5 + 2)</code> = 7, then <code>7 * 3</code> = 21. Line 3: <code>2 ** 2</code> = 4, then <code>5 * 4</code> = 20. Line 4: <code>(5 * 2)</code> = 10, then <code>10 ** 2</code> = 100. Parentheses change the result significantly."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 100\nx //= 7\nx %= 5\nx **= 2\nprint(x)</code></pre>",
+        "hint": "Trace: 100 // 7 = ?, then result % 5 = ?, then result ** 2 = ?",
+        "answer": "<code>16</code>",
+        "explanation": "Step by step: <code>x = 100</code>. After <code>x //= 7</code>: 100 // 7 = 14, so x = 14. After <code>x %= 5</code>: 14 % 5 = 4, so x = 4. After <code>x **= 2</code>: 4 ** 2 = 16. Final answer: 16."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = 5\nb = 3\nprint(a > b > 1 > 0)\nprint(a > b > 1 > 10)</code></pre>",
+        "hint": "Chained comparisons: each pair is checked with 'and' between them.",
+        "answer": "<code>True</code><br><code>False</code>",
+        "explanation": "Line 1: <code>5 &gt; 3</code> is True, <code>3 &gt; 1</code> is True, <code>1 &gt; 0</code> is True. All True with AND = True. Line 2: <code>5 &gt; 3</code> is True, <code>3 &gt; 1</code> is True, <code>1 &gt; 10</code> is False. One False with AND = False."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why Python's floor division (//) gives -4 for -7 // 2 instead of -3. What mathematical principle is at work?",
+        "hint": "Think about the floor function from mathematics, which always rounds down.",
+        "answer": "Python's <code>//</code> operator implements the mathematical <strong>floor function</strong>, which rounds toward negative infinity (always downward on the number line). For <code>-7 / 2 = -3.5</code>, the floor is <code>-4</code> because -4 is the largest integer that is less than or equal to -3.5. Rounding toward zero would give -3, but that is not what floor does.",
+        "explanation": "Python chose floor division (rounding toward negative infinity) because it maintains a useful mathematical property: <code>a == (a // b) * b + (a % b)</code> is always true. This ensures that the modulus result always has the same sign as the divisor. Some languages like C++ use truncation toward zero instead, which leads to different modulus behavior."
+      },
+      {
+        "id": "mx-12",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Rohan wants to check if a year is a leap year. A year is a leap year if it is divisible by 4 AND (not divisible by 100 OR divisible by 400). Using only operators and print, check the year 2024.",
+        "hint": "Use % for divisibility checks and 'and'/'or'/'not' for combining conditions.",
+        "answer": "<pre><code>year = 2024\nis_leap = (year % 4 == 0) and (year % 100 != 0 or year % 400 == 0)\nprint(year, \"is a leap year:\", is_leap)</code></pre>\nOutput: 2024 is a leap year: True",
+        "explanation": "For 2024: <code>2024 % 4 == 0</code> is True, <code>2024 % 100 != 0</code> is True (2024 is not a century year). Since the first <code>or</code> operand is True, the entire <code>or</code> is True. <code>True and True</code> = True. So 2024 is a leap year."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the % operator do in Python?",
+        "options": [
+          "Calculates percentage",
+          "Returns the remainder after division",
+          "Performs floor division",
+          "Calculates the quotient"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>%</code> operator is the modulus operator, which returns the remainder after division. <code>10 % 3</code> gives 1 because 10 / 3 = 3 remainder 1. It does NOT calculate percentage (option A). Floor division uses <code>//</code> (option C). The quotient is obtained by <code>//</code> or <code>/</code> (option D)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the result of 10 / 5 in Python 3?",
+        "options": [
+          "2",
+          "2.0",
+          "2.5",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In Python 3, the <code>/</code> operator always returns a float. So <code>10 / 5</code> gives <code>2.0</code>, not <code>2</code>. If you want the integer result <code>2</code>, use floor division: <code>10 // 5</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which operator is used for exponentiation (raising to a power) in Python?",
+        "options": [
+          "^",
+          "**",
+          "^^",
+          "pow"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python uses <code>**</code> for exponentiation. <code>2 ** 3</code> = 8. The <code>^</code> operator (option A) is the bitwise XOR operator in Python, NOT exponentiation. <code>^^</code> (option C) does not exist in Python. <code>pow</code> (option D) is a function, not an operator."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does the == operator do?",
+        "options": [
+          "Assigns a value to a variable",
+          "Checks if two values are equal",
+          "Checks if two objects are identical",
+          "Copies one variable to another"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>==</code> is the equality comparison operator. It checks if two values are equal and returns True or False. Option A describes <code>=</code> (single equals, assignment). Option C describes the <code>is</code> operator (identity check). Option D is not a specific operator."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the output of: print(True and True)?",
+        "options": [
+          "True",
+          "False",
+          "1",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>and</code> operator returns True only if BOTH operands are True. Since both sides are True, the result is True. Option B would be correct if either side were False. Option C is wrong because <code>and</code> with Boolean values returns a Boolean."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(2 + 3 * 4)?",
+        "options": [
+          "20",
+          "14",
+          "24",
+          "12"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Due to operator precedence, multiplication is performed before addition. So <code>3 * 4</code> = 12 is calculated first, then <code>2 + 12</code> = 14. Option A (20) would be correct if addition were done first: (2 + 3) * 4."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is -11 // 4 in Python?",
+        "options": [
+          "-2",
+          "-3",
+          "-2.75",
+          "2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Floor division rounds toward negative infinity. <code>-11 / 4</code> = -2.75, and the floor of -2.75 is -3 (the next integer toward negative infinity). Option A (-2) would be truncation toward zero, which is NOT what Python does."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which operator should you use to check if x is None?",
+        "options": [
+          "x == None",
+          "x = None",
+          "x is None",
+          "x in None"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The Python best practice for checking None is <code>x is None</code>, using the identity operator. While <code>x == None</code> (option A) often works, it can be overridden by custom classes and is considered bad practice. Option B is assignment, not comparison. Option D would cause a TypeError because None is not iterable."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does x += 5 mean?",
+        "options": [
+          "x = 5",
+          "x = x + 5",
+          "x == 5",
+          "x = 5 + 5"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>+=</code> is a compound assignment operator. <code>x += 5</code> is shorthand for <code>x = x + 5</code>. It adds 5 to the current value of x and stores the result back in x. Option A just assigns 5. Option C checks equality. Option D always sets x to 10."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of: print('hello' in 'hello world')?",
+        "options": [
+          "True",
+          "False",
+          "hello",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>in</code> membership operator checks if a substring exists within a string. <code>'hello'</code> is indeed found within <code>'hello world'</code>, so the result is True. The <code>in</code> operator works with strings, lists, tuples, sets, and dictionaries."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(10 > 5 > 3)?",
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Python supports chained comparisons. <code>10 &gt; 5 &gt; 3</code> is equivalent to <code>10 &gt; 5 and 5 &gt; 3</code>. Both conditions are True, so the result is True."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(2 ** 3 ** 2)?",
+        "options": [
+          "64",
+          "512",
+          "256",
+          "81"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>**</code> operator is right-associative, meaning it evaluates from right to left. So <code>2 ** 3 ** 2</code> = <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = 512. Option A (64) would be <code>(2 ** 3) ** 2</code> = 8 ** 2. This is a classic trick question."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(bool(0), bool(''), bool(None), bool([]))?",
+        "options": [
+          "True True True True",
+          "False False False False",
+          "True False False False",
+          "False True False True"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> In Python, the values <code>0</code>, <code>''</code> (empty string), <code>None</code>, and <code>[]</code> (empty list) are all considered <strong>falsy</strong>. Converting any of them to a Boolean with <code>bool()</code> returns <code>False</code>. Non-zero numbers, non-empty strings, and non-empty collections are truthy."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(5 ^ 3)?",
+        "options": [
+          "125",
+          "15",
+          "8",
+          "6"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> In Python, <code>^</code> is the bitwise XOR operator, NOT exponentiation. 5 in binary is <code>101</code>, 3 is <code>011</code>. XOR gives 1 where bits differ: <code>110</code> = 6. Option A (125) would be <code>5 ** 3</code> (exponentiation). Many students confuse <code>^</code> with power — that is a common trap."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(not False or True and False)?",
+        "options": [
+          "True",
+          "False",
+          "None",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Precedence: <code>not</code> &gt; <code>and</code> &gt; <code>or</code>. Step 1: <code>not False</code> = True. Step 2: <code>True and False</code> = False. Step 3: <code>True or False</code> = True. Final result: True."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the value of: 15 % 4 + 2 ** 3 - 10 // 3?",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "6"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Following precedence: (1) <code>2 ** 3</code> = 8 (exponentiation first). (2) <code>15 % 4</code> = 3 and <code>10 // 3</code> = 3 (same level, left to right). (3) <code>3 + 8 - 3</code> = 8. Final result: 8."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "Which statement about Python operators is FALSE?",
+        "options": [
+          "The / operator always returns a float",
+          "The ** operator is right-associative",
+          "The ^ operator performs exponentiation",
+          "'and' has higher precedence than 'or'"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is the FALSE statement and therefore the correct answer.</strong> In Python, <code>^</code> is the bitwise XOR operator, NOT exponentiation. Exponentiation uses <code>**</code>. All other statements are true: <code>/</code> always returns a float, <code>**</code> is right-associative, and <code>and</code> has higher precedence than <code>or</code>."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(8 << 2)?",
+        "options": [
+          "2",
+          "16",
+          "32",
+          "4"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The left shift operator <code>&lt;&lt;</code> shifts bits to the left. Shifting left by n positions is equivalent to multiplying by 2^n. <code>8 &lt;&lt; 2</code> = 8 * 2^2 = 8 * 4 = 32. In binary: 1000 shifted left by 2 = 100000 = 32."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Easy",
+        "question": "Which of the following is a valid comparison operator in Python?",
+        "options": [
+          "=!",
+          "=>",
+          "!=",
+          "<>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>!=</code> is the \"not equal to\" comparison operator in Python. Option A (<code>=!</code>) is not valid — the order matters. Option B (<code>=&gt;</code>) is not valid in Python (it is used in JavaScript for arrow functions). Option D (<code>&lt;&gt;</code>) was valid in Python 2 but is NOT valid in Python 3."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(False or not False and True)?",
+        "options": [
+          "True",
+          "False",
+          "None",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Precedence: <code>not</code> &gt; <code>and</code> &gt; <code>or</code>. Step 1: <code>not False</code> = True. Step 2: <code>True and True</code> = True. Step 3: <code>False or True</code> = True. Final result: True."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Simple Interest Calculator",
+        "difficulty": "Easy",
+        "description": "Write a program to calculate simple interest given principal = 10000, rate = 8.5, and time = 3 years. Use the formula: SI = (P * R * T) / 100. Print the simple interest.",
+        "sampleInput": "(No input required - use hardcoded values)",
+        "sampleOutput": "Simple Interest: 2550.0",
+        "constraints": "Use arithmetic operators. Do not hardcode the answer.",
+        "solution": "principal = 10000\nrate = 8.5\ntime = 3\nsi = (principal * rate * time) / 100\nprint(\"Simple Interest:\", si)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Temperature Converter",
+        "difficulty": "Easy",
+        "description": "Ananya wants to convert a temperature from Celsius to Fahrenheit. Given celsius = 37, use the formula F = (C * 9/5) + 32 to calculate and print the Fahrenheit value.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "37 Celsius = 98.6 Fahrenheit",
+        "constraints": "Use arithmetic operators. Be careful with operator precedence.",
+        "solution": "celsius = 37\nfahrenheit = (celsius * 9/5) + 32\nprint(celsius, \"Celsius =\", fahrenheit, \"Fahrenheit\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Digital Clock: Extract Hours and Minutes",
+        "difficulty": "Medium",
+        "description": "Given total_minutes = 450 (total minutes since midnight), use the // and % operators to calculate and print the hours and remaining minutes. For example, 450 minutes = 7 hours and 30 minutes.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "450 minutes = 7 hours and 30 minutes",
+        "constraints": "Use // for hours and % for remaining minutes. Do not hardcode.",
+        "solution": "total_minutes = 450\nhours = total_minutes // 60\nminutes = total_minutes % 60\nprint(total_minutes, \"minutes =\", hours, \"hours and\", minutes, \"minutes\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Digit Extractor",
+        "difficulty": "Medium",
+        "description": "Given a 4-digit number stored in a variable (e.g., num = 5821), extract and print each digit separately using only arithmetic operators (// and %). Print the thousands, hundreds, tens, and ones digits on separate lines.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Number: 5821\nThousands digit: 5\nHundreds digit: 8\nTens digit: 2\nOnes digit: 1",
+        "constraints": "Use only // and % operators. Do not convert to string.",
+        "solution": "num = 5821\nthousands = num // 1000\nhundreds = (num // 100) % 10\ntens = (num // 10) % 10\nones = num % 10\nprint(\"Number:\", num)\nprint(\"Thousands digit:\", thousands)\nprint(\"Hundreds digit:\", hundreds)\nprint(\"Tens digit:\", tens)\nprint(\"Ones digit:\", ones)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Precedence Master",
+        "difficulty": "Hard",
+        "description": "Without running the code, predict the output of each expression. Then write a program that prints each expression and its result. Expressions: (a) 3 + 4 * 2 / (1 - 5) ** 2, (b) 2 ** 2 ** 3, (c) 100 - 25 * 3 % 4 + 10 // 3.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Expression a: 3.5\nExpression b: 256\nExpression c: 100",
+        "constraints": "Show your step-by-step working as comments before each print statement.",
+        "solution": "# (a) 3 + 4 * 2 / (1 - 5) ** 2\n# Step: (1-5)=-4, (-4)**2=16, 4*2=8, 8/16=0.5, 3+0.5=3.5\nprint(\"Expression a:\", 3 + 4 * 2 / (1 - 5) ** 2)\n\n# (b) 2 ** 2 ** 3  (right-associative)\n# Step: 2**3=8, 2**8=256\nprint(\"Expression b:\", 2 ** 2 ** 3)\n\n# (c) 100 - 25 * 3 % 4 + 10 // 3\n# Step: 25*3=75, 75%4=3, 10//3=3, 100-3+3=100\nprint(\"Expression c:\", 100 - 25 * 3 % 4 + 10 // 3)"
+      },
+      {
+        "id": "cc-6",
+        "title": "Eligibility Checker",
+        "difficulty": "Medium",
+        "description": "Rohan is building a club eligibility checker. A person can join if they are: (aged 13-18 AND have a school ID) OR (aged above 18). Given age = 15 and has_id = True, use logical and comparison operators to determine eligibility and print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Age: 15, Has ID: True\nEligible to join: True",
+        "constraints": "Use comparison operators with logical operators. Use parentheses for clarity.",
+        "solution": "age = 15\nhas_id = True\neligible = (age >= 13 and age <= 18 and has_id) or (age > 18)\nprint(\"Age:\", age, \", Has ID:\", has_id)\nprint(\"Eligible to join:\", eligible)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Swap Two Numbers Without a Third Variable",
+        "difficulty": "Hard",
+        "description": "Given a = 25 and b = 40, swap their values using only arithmetic operators (no third variable allowed). Print the values before and after swapping.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Before: a = 25, b = 40\nAfter: a = 40, b = 25",
+        "constraints": "Do not use a temporary variable. Use only +, -, or XOR (^) operators.",
+        "solution": "a = 25\nb = 40\nprint(\"Before: a =\", a, \", b =\", b)\n\n# Method using arithmetic\na = a + b   # a = 65\nb = a - b   # b = 25\na = a - b   # a = 40\n\nprint(\"After: a =\", a, \", b =\", b)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Bitwise Even/Odd Checker",
+        "difficulty": "Hard",
+        "description": "Write a program that uses the bitwise AND operator to check if numbers 1 through 10 are even or odd. Print each number with its result. Hint: A number is odd if its last bit is 1 (num & 1 == 1).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "1 is odd\n2 is even\n3 is odd\n4 is even\n5 is odd\n6 is even\n7 is odd\n8 is even\n9 is odd\n10 is even",
+        "constraints": "Use the bitwise AND operator (&), not the modulus operator (%). You have not learned loops yet, so use separate print statements or use a simple approach.",
+        "solution": "# Using bitwise AND: num & 1 gives 0 for even, 1 for odd\nprint(1, \"is odd\" if 1 & 1 else \"is even\")\nprint(2, \"is odd\" if 2 & 1 else \"is even\")\nprint(3, \"is odd\" if 3 & 1 else \"is even\")\nprint(4, \"is odd\" if 4 & 1 else \"is even\")\nprint(5, \"is odd\" if 5 & 1 else \"is even\")\nprint(6, \"is odd\" if 6 & 1 else \"is even\")\nprint(7, \"is odd\" if 7 & 1 else \"is even\")\nprint(8, \"is odd\" if 8 & 1 else \"is even\")\nprint(9, \"is odd\" if 9 & 1 else \"is even\")\nprint(10, \"is odd\" if 10 & 1 else \"is even\")"
+      }
+    ]
+  }
+}

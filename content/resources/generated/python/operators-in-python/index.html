@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Learn arithmetic, comparison, logical, and assignment operators with practical examples.">
+    <meta name="keywords" content="operators in python, python tutorial, python operators in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/operators-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/operators-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/operators-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/operators-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/operators-in-python">
+    <meta property="og:title" content="Operators in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Learn arithmetic, comparison, logical, and assignment operators with practical examples.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/operators-in-python">
+    <meta name="twitter:title" content="Operators in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Learn arithmetic, comparison, logical, and assignment operators with practical examples.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Operators in Python",
+    "description": "Learn arithmetic, comparison, logical, and assignment operators with practical examples.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/operators-in-python"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/operators-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Operators in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/operators-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Confusing = (Assignment) with == (Comparison)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The single <code>=</code> is the assignment operator (it stores a value). The double <code>==</code> is the comparison operator (it checks equality). In an <code>if</code> statement, you need <code>==</code> to compare values. This is one of the most common mistakes in all of programming, not just Python."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting / to Return an Integer",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Python 3, the <code>/</code> operator ALWAYS returns a float, even when dividing two integers that divide evenly: <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. If you want an integer result, use floor division <code>//</code>. This is a change from Python 2 where <code>/</code> with integers gave an integer result."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Misunderstanding Floor Division with Negative Numbers",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Floor division always rounds DOWN (toward negative infinity). For <code>-7 // 2</code>, the true result is -3.5, and rounding down gives -4 (not -3). Many students expect it to truncate toward zero like some other languages. If you want truncation toward zero, use <code>int(-7 / 2)</code> instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Wrong Operator Precedence Assumption",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without parentheses, Python follows operator precedence: division (<code>/</code>) is evaluated before addition (<code>+</code>). So <code>80 + 75 + 90 / 3</code> becomes <code>80 + 75 + 30.0</code> = <code>185.0</code>. To get the correct average, use parentheses to force the addition first: <code>(80 + 75 + 90) / 3</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using 'is' Instead of '==' for Value Comparison",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>is</code> operator checks if two variables point to the <strong>same object in memory</strong>, not if they have the same value. For small integers (-5 to 256), Python reuses the same object, so <code>is</code> may return True. But for larger numbers, Python may create separate objects. Always use <code>==</code> when comparing values, and reserve <code>is</code> for checking <code>None</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Operators in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 5</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">18 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Operators in Python</h1>
+            <a href="/resources/python/operators-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Operators in Python?</h2><p>An <strong>operator</strong> is a special symbol that tells Python to perform a specific operation on one or more values. Think of operators as verbs in a sentence. Just as the verb "add" tells you to combine two numbers, the <code>+</code> operator tells Python to add two values together.</p><p>You have already used operators without realizing it. When you wrote <code>print(2 + 3)</code> in earlier chapters, the <code>+</code> symbol was an <strong>arithmetic operator</strong>. When you stored a value with <code>age = 14</code>, the <code>=</code> symbol was an <strong>assignment operator</strong>.</p><h3>What Are Operands?</h3><p>The values that operators work on are called <strong>operands</strong>. In the expression <code>5 + 3</code>, the numbers <code>5</code> and <code>3</code> are operands, and <code>+</code> is the operator. Some operators need two operands (called <strong>binary operators</strong>, like <code>+</code>), while others need only one (called <strong>unary operators</strong>, like <code>not</code> or <code>-</code> when used to negate a number).</p><p>Python provides seven categories of operators, and this chapter covers each one in detail: Arithmetic, Comparison, Logical, Assignment, Membership, Identity, and Bitwise operators.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Operators Important?</h2><p>Operators are the building blocks of every computation your program performs. Without operators, your code could store values but never do anything meaningful with them. Here is why understanding operators thoroughly matters:</p><h3>1. Every Calculation Uses Operators</h3><p>Whether you are building a calculator, computing a student's grade percentage, or calculating the area of a rectangle, you need arithmetic operators. Even simple tasks like counting how many items are in a shopping cart or splitting a bill among friends require operators.</p><h3>2. Decision-Making Depends on Comparison and Logical Operators</h3><p>When your program needs to make decisions ("Is the user old enough to sign up?", "Did the student pass the exam?"), it uses comparison operators (<code>>=</code>, <code>==</code>, <code>!=</code>) and logical operators (<code>and</code>, <code>or</code>, <code>not</code>). You will use these constantly when you learn conditional statements in the next chapters.</p><h3>3. Operator Precedence Prevents Bugs</h3><p>If you do not understand the order in which Python evaluates operators, your calculations will give wrong results. The expression <code>2 + 3 * 4</code> gives <code>14</code> (not <code>20</code>), because multiplication happens before addition. Knowing operator precedence is the difference between writing correct programs and spending hours debugging wrong answers.</p><h3>4. Writing Shorter, Cleaner Code</h3><p>Assignment operators like <code>+=</code> and <code>*=</code> let you update variables in a compact way. Membership operators like <code>in</code> let you check if something exists in a collection with a single readable expression. These make your code shorter and easier to understand.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Arithmetic Operators</h3><p>Arithmetic operators perform mathematical calculations on numbers (integers and floats). Python provides seven arithmetic operators:</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>+</code></td><td>Addition</td><td><code>10 + 3</code></td><td><code>13</code></td></tr><tr><td><code>-</code></td><td>Subtraction</td><td><code>10 - 3</code></td><td><code>7</code></td></tr><tr><td><code>*</code></td><td>Multiplication</td><td><code>10 * 3</code></td><td><code>30</code></td></tr><tr><td><code>/</code></td><td>Division (float)</td><td><code>10 / 3</code></td><td><code>3.3333...</code></td></tr><tr><td><code>//</code></td><td>Floor Division</td><td><code>10 // 3</code></td><td><code>3</code></td></tr><tr><td><code>%</code></td><td>Modulus (remainder)</td><td><code>10 % 3</code></td><td><code>1</code></td></tr><tr><td><code>**</code></td><td>Exponentiation</td><td><code>10 ** 3</code></td><td><code>1000</code></td></tr></table><h4>Division vs Floor Division</h4><p>This is one of the most commonly confused concepts. The <code>/</code> operator <strong>always returns a float</strong>, even if the result is a whole number. So <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. The <code>//</code> operator performs <strong>floor division</strong>, which means it divides and then rounds DOWN to the nearest integer. For positive numbers, this is the same as removing the decimal part: <code>10 // 3</code> gives <code>3</code> (not 3.33).</p><p>For negative numbers, floor division rounds towards negative infinity: <code>-10 // 3</code> gives <code>-4</code> (not -3), because -4 is the nearest integer less than -3.33. This catches many students off guard.</p><h4>The Modulus Operator (%)</h4><p>The modulus operator returns the <strong>remainder</strong> after division. For example, <code>10 % 3</code> gives <code>1</code> because 10 divided by 3 is 3 with a remainder of 1. This operator is extremely useful for: checking if a number is even or odd (<code>n % 2 == 0</code> means even), checking divisibility (<code>n % 5 == 0</code> means divisible by 5), and wrapping values around a range.</p><h3>2. Comparison Operators</h3><p>Comparison operators compare two values and return a <strong>Boolean result</strong> (<code>True</code> or <code>False</code>). They are essential for making decisions in your programs.</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>==</code></td><td>Equal to</td><td><code>5 == 5</code></td><td><code>True</code></td></tr><tr><td><code>!=</code></td><td>Not equal to</td><td><code>5 != 3</code></td><td><code>True</code></td></tr><tr><td><code>&gt;</code></td><td>Greater than</td><td><code>5 &gt; 3</code></td><td><code>True</code></td></tr><tr><td><code>&lt;</code></td><td>Less than</td><td><code>5 &lt; 3</code></td><td><code>False</code></td></tr><tr><td><code>&gt;=</code></td><td>Greater than or equal to</td><td><code>5 &gt;= 5</code></td><td><code>True</code></td></tr><tr><td><code>&lt;=</code></td><td>Less than or equal to</td><td><code>5 &lt;= 3</code></td><td><code>False</code></td></tr></table><h4>Important: == vs =</h4><p>A very common mistake is confusing <code>=</code> (assignment) with <code>==</code> (comparison). The single equals sign <code>=</code> <strong>assigns</strong> a value to a variable: <code>x = 5</code> stores 5 in x. The double equals sign <code>==</code> <strong>compares</strong> two values: <code>x == 5</code> checks whether x is equal to 5 and returns True or False.</p><h4>Chaining Comparisons</h4><p>Python allows you to chain comparison operators in a way that matches mathematical notation. Instead of writing <code>x &gt; 1 and x &lt; 10</code>, you can write <code>1 &lt; x &lt; 10</code>. This reads naturally as "x is between 1 and 10" and is one of Python's elegant features.</p><h3>3. Logical Operators</h3><p>Logical operators combine multiple Boolean expressions. Python has three logical operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>and</code></td><td>True only if BOTH are True</td><td><code>True and False</code></td><td><code>False</code></td></tr><tr><td><code>or</code></td><td>True if at LEAST ONE is True</td><td><code>True or False</code></td><td><code>True</code></td></tr><tr><td><code>not</code></td><td>Reverses the Boolean value</td><td><code>not True</code></td><td><code>False</code></td></tr></table><h4>Truth Tables</h4><p>A truth table shows every possible combination of inputs and the resulting output:</p><p><strong>AND truth table:</strong> <code>True and True = True</code>, <code>True and False = False</code>, <code>False and True = False</code>, <code>False and False = False</code>. The <code>and</code> operator returns True only when BOTH sides are True.</p><p><strong>OR truth table:</strong> <code>True or True = True</code>, <code>True or False = True</code>, <code>False or True = True</code>, <code>False or False = False</code>. The <code>or</code> operator returns False only when BOTH sides are False.</p><h4>Short-Circuit Evaluation</h4><p>Python uses <strong>short-circuit evaluation</strong> with logical operators. With <code>and</code>, if the left side is False, Python does not even check the right side (because the result will be False regardless). With <code>or</code>, if the left side is True, Python skips the right side (because the result will be True regardless). This is not just an optimization; it can affect your program if the right side has side effects like function calls.</p><h3>4. Assignment Operators</h3><p>Assignment operators store values in variables. The basic assignment operator is <code>=</code>, but Python also provides <strong>compound assignment operators</strong> that combine an arithmetic operation with assignment:</p><table><tr><th>Operator</th><th>Example</th><th>Equivalent To</th></tr><tr><td><code>=</code></td><td><code>x = 5</code></td><td>Assigns 5 to x</td></tr><tr><td><code>+=</code></td><td><code>x += 3</code></td><td><code>x = x + 3</code></td></tr><tr><td><code>-=</code></td><td><code>x -= 3</code></td><td><code>x = x - 3</code></td></tr><tr><td><code>*=</code></td><td><code>x *= 3</code></td><td><code>x = x * 3</code></td></tr><tr><td><code>/=</code></td><td><code>x /= 3</code></td><td><code>x = x / 3</code></td></tr><tr><td><code>//=</code></td><td><code>x //= 3</code></td><td><code>x = x // 3</code></td></tr><tr><td><code>%=</code></td><td><code>x %= 3</code></td><td><code>x = x % 3</code></td></tr><tr><td><code>**=</code></td><td><code>x **= 3</code></td><td><code>x = x ** 3</code></td></tr></table><p>Compound assignment operators are just a shorthand. Writing <code>score += 10</code> is identical to writing <code>score = score + 10</code>. They make code shorter and more readable, especially when updating variables in loops.</p><h3>5. Membership Operators</h3><p>Membership operators check whether a value exists inside a sequence (like a string, list, or tuple). Python has two membership operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th><th>Result</th></tr><tr><td><code>in</code></td><td>True if value is found in the sequence</td><td><code>"a" in "Aarav"</code></td><td><code>True</code></td></tr><tr><td><code>not in</code></td><td>True if value is NOT found in the sequence</td><td><code>"z" not in "Aarav"</code></td><td><code>True</code></td></tr></table><p>Membership operators are extremely readable. The expression <code>"Python" in languages</code> reads almost like plain English: "Is Python in the languages list?" You will use these frequently when working with strings and lists.</p><h3>6. Identity Operators</h3><p>Identity operators check whether two variables refer to the <strong>exact same object in memory</strong>, not just whether they have the same value. Python has two identity operators:</p><table><tr><th>Operator</th><th>Meaning</th><th>Example</th></tr><tr><td><code>is</code></td><td>True if both variables point to the same object</td><td><code>x is y</code></td></tr><tr><td><code>is not</code></td><td>True if they point to different objects</td><td><code>x is not y</code></td></tr></table><h4>== vs is</h4><p>This is a subtle but important distinction. The <code>==</code> operator checks if two values are <strong>equal</strong>. The <code>is</code> operator checks if two variables refer to the <strong>same object</strong> in memory. Two variables can have equal values but be different objects. For example, two different lists <code>[1, 2, 3]</code> and <code>[1, 2, 3]</code> are equal (<code>==</code> returns True) but they are separate objects in memory (<code>is</code> returns False).</p><p>The most common use of <code>is</code> is checking for <code>None</code>: you should always write <code>if x is None</code> rather than <code>if x == None</code>. This is a Python best practice.</p><h3>7. Bitwise Operators</h3><p>Bitwise operators work on the <strong>binary (base-2) representation</strong> of numbers, manipulating individual bits. While you may not use these daily as a beginner, understanding them gives you deeper knowledge of how computers work.</p><table><tr><th>Operator</th><th>Name</th><th>Example</th><th>Result</th></tr><tr><td><code>&amp;</code></td><td>Bitwise AND</td><td><code>5 &amp; 3</code></td><td><code>1</code></td></tr><tr><td><code>|</code></td><td>Bitwise OR</td><td><code>5 | 3</code></td><td><code>7</code></td></tr><tr><td><code>^</code></td><td>Bitwise XOR</td><td><code>5 ^ 3</code></td><td><code>6</code></td></tr><tr><td><code>~</code></td><td>Bitwise NOT</td><td><code>~5</code></td><td><code>-6</code></td></tr><tr><td><code>&lt;&lt;</code></td><td>Left Shift</td><td><code>5 &lt;&lt; 1</code></td><td><code>10</code></td></tr><tr><td><code>&gt;&gt;</code></td><td>Right Shift</td><td><code>5 &gt;&gt; 1</code></td><td><code>2</code></td></tr></table><p>Let us trace through <code>5 &amp; 3</code>: In binary, 5 is <code>101</code> and 3 is <code>011</code>. The AND operation compares each bit position: 1 AND 0 = 0, 0 AND 1 = 0, 1 AND 1 = 1. The result is <code>001</code>, which is 1 in decimal.</p><p>Left shift (<code>&lt;&lt;</code>) moves all bits to the left by the specified number of positions, which is equivalent to multiplying by 2 for each shift. So <code>5 &lt;&lt; 1</code> is 5 * 2 = 10. Right shift (<code>&gt;&gt;</code>) moves bits to the right, equivalent to integer division by 2.</p><h3>8. Operator Precedence (PEMDAS)</h3><p>When an expression contains multiple operators, Python follows a strict order of priority called <strong>operator precedence</strong>. This is similar to the PEMDAS rule you learn in mathematics (Parentheses, Exponents, Multiplication/Division, Addition/Subtraction), but Python extends it to include all its operators.</p><p>Here is the precedence from <strong>highest (evaluated first)</strong> to <strong>lowest (evaluated last)</strong>:</p><ol><li><strong>Parentheses</strong> <code>()</code> — always evaluated first</li><li><strong>Exponentiation</strong> <code>**</code></li><li><strong>Unary operators</strong> <code>+x</code>, <code>-x</code>, <code>~x</code></li><li><strong>Multiplication, Division, Floor Division, Modulus</strong> <code>*</code>, <code>/</code>, <code>//</code>, <code>%</code></li><li><strong>Addition, Subtraction</strong> <code>+</code>, <code>-</code></li><li><strong>Bitwise Shifts</strong> <code>&lt;&lt;</code>, <code>&gt;&gt;</code></li><li><strong>Bitwise AND</strong> <code>&amp;</code></li><li><strong>Bitwise XOR</strong> <code>^</code></li><li><strong>Bitwise OR</strong> <code>|</code></li><li><strong>Comparison operators</strong> <code>==</code>, <code>!=</code>, <code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code>, <code>is</code>, <code>is not</code>, <code>in</code>, <code>not in</code></li><li><strong>Logical NOT</strong> <code>not</code></li><li><strong>Logical AND</strong> <code>and</code></li><li><strong>Logical OR</strong> <code>or</code></li></ol><h4>Key Rules to Remember</h4><p><strong>Rule 1:</strong> Parentheses override everything. When in doubt, use parentheses to make your intent clear.</p><p><strong>Rule 2:</strong> Exponentiation (<code>**</code>) is right-associative. This means <code>2 ** 3 ** 2</code> is evaluated as <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = <code>512</code>, NOT as <code>(2 ** 3) ** 2</code> = <code>8 ** 2</code> = <code>64</code>.</p><p><strong>Rule 3:</strong> Among operators at the same precedence level, evaluation happens left to right (left-associative), except for exponentiation which is right-associative.</p><p><strong>Rule 4:</strong> <code>not</code> has higher precedence than <code>and</code>, which has higher precedence than <code>or</code>. So <code>True or False and not False</code> evaluates as <code>True or (False and (not False))</code> = <code>True or (False and True)</code> = <code>True or False</code> = <code>True</code>.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Arithmetic Operators in Action</div><pre><code class="language-python">a = 15
+b = 4
+
+print(&quot;Addition:&quot;, a + b)
+print(&quot;Subtraction:&quot;, a - b)
+print(&quot;Multiplication:&quot;, a * b)
+print(&quot;Division:&quot;, a / b)
+print(&quot;Floor Division:&quot;, a // b)
+print(&quot;Modulus:&quot;, a % b)
+print(&quot;Exponentiation:&quot;, a ** b)</code></pre><div class="code-example-explanation">This demonstrates all seven arithmetic operators using <code>a = 15</code> and <code>b = 4</code>. Notice that division (<code>/</code>) returns <code>3.75</code> (a float), while floor division (<code>//</code>) returns <code>3</code> (rounded down). The modulus (<code>%</code>) returns <code>3</code> because 15 divided by 4 is 3 remainder 3. Exponentiation gives 15 to the power of 4.</div><div class="code-example-output">Addition: 19
+Subtraction: 11
+Multiplication: 60
+Division: 3.75
+Floor Division: 3
+Modulus: 3
+Exponentiation: 50625</div></div>
+<div class="code-example"><div class="code-example-title">Division vs Floor Division with Negative Numbers</div><pre><code class="language-python">print(&quot;10 / 3 =&quot;, 10 / 3)
+print(&quot;10 // 3 =&quot;, 10 // 3)
+print()
+print(&quot;-10 / 3 =&quot;, -10 / 3)
+print(&quot;-10 // 3 =&quot;, -10 // 3)
+print()
+print(&quot;10 / -3 =&quot;, 10 / -3)
+print(&quot;10 // -3 =&quot;, 10 // -3)</code></pre><div class="code-example-explanation">This example reveals a tricky behavior of floor division with negative numbers. For positive numbers, <code>10 // 3</code> gives <code>3</code> as expected. But <code>-10 // 3</code> gives <code>-4</code> (not -3), because floor division rounds towards negative infinity. Similarly, <code>10 // -3</code> gives <code>-4</code>. This is a common source of bugs and a frequent exam question.</div><div class="code-example-output">10 / 3 = 3.3333333333333335
+10 // 3 = 3
+
+-10 / 3 = -3.3333333333333335
+-10 // 3 = -4
+
+10 / -3 = -3.3333333333333335
+10 // -3 = -4</div></div>
+<div class="code-example"><div class="code-example-title">Comparison Operators and Boolean Results</div><pre><code class="language-python">marks = 78
+
+print(&quot;Is marks equal to 78?&quot;, marks == 78)
+print(&quot;Is marks not equal to 100?&quot;, marks != 100)
+print(&quot;Is marks greater than 50?&quot;, marks &gt; 50)
+print(&quot;Is marks less than 40?&quot;, marks &lt; 40)
+print(&quot;Is marks &gt;= 75?&quot;, marks &gt;= 75)
+print(&quot;Is marks &lt;= 80?&quot;, marks &lt;= 80)
+
+# Chaining comparisons
+print(&quot;Is marks between 60 and 90?&quot;, 60 &lt;= marks &lt;= 90)</code></pre><div class="code-example-explanation">Comparison operators always return <code>True</code> or <code>False</code>. Aarav scored 78 marks, and we check various conditions. The last line demonstrates Python's chained comparison: <code>60 &lt;= marks &lt;= 90</code> checks if marks is between 60 and 90 (inclusive). This is equivalent to <code>marks &gt;= 60 and marks &lt;= 90</code> but reads more naturally.</div><div class="code-example-output">Is marks equal to 78? True
+Is marks not equal to 100? True
+Is marks greater than 50? True
+Is marks less than 40? False
+Is marks &gt;= 75? True
+Is marks &lt;= 80? True
+Is marks between 60 and 90? True</div></div>
+<div class="code-example"><div class="code-example-title">Logical Operators with Conditions</div><pre><code class="language-python">age = 15
+has_id = True
+
+# AND - both must be True
+can_enter = age &gt;= 13 and has_id
+print(&quot;Can enter (age &gt;= 13 AND has ID)?&quot;, can_enter)
+
+# OR - at least one must be True
+is_weekend = False
+is_holiday = True
+no_school = is_weekend or is_holiday
+print(&quot;No school (weekend OR holiday)?&quot;, no_school)
+
+# NOT - reverses the value
+is_raining = False
+can_play_outside = not is_raining
+print(&quot;Can play outside (NOT raining)?&quot;, can_play_outside)
+
+# Combining all three
+can_go_trip = (age &gt;= 12 and has_id) or not is_raining
+print(&quot;Can go on trip?&quot;, can_go_trip)</code></pre><div class="code-example-explanation">This shows real-world usage of logical operators. Priya is 15 and has an ID, so <code>and</code> returns True (both conditions met). It is not the weekend but it is a holiday, so <code>or</code> returns True (at least one condition met). It is not raining, so <code>not False</code> gives True. The last line combines all three: the parenthesized <code>and</code> expression is evaluated first, then <code>not</code>, then <code>or</code>.</div><div class="code-example-output">Can enter (age &gt;= 13 AND has ID)? True
+No school (weekend OR holiday)? True
+Can play outside (NOT raining)? True
+Can go on trip? True</div></div>
+<div class="code-example"><div class="code-example-title">Assignment Operators for Updating Variables</div><pre><code class="language-python">score = 100
+print(&quot;Starting score:&quot;, score)
+
+score += 25       # score = score + 25
+print(&quot;After +25:&quot;, score)
+
+score -= 10       # score = score - 10
+print(&quot;After -10:&quot;, score)
+
+score *= 2        # score = score * 2
+print(&quot;After *2:&quot;, score)
+
+score //= 3       # score = score // 3
+print(&quot;After //3:&quot;, score)
+
+score %= 10       # score = score % 10
+print(&quot;After %10:&quot;, score)
+
+score **= 3       # score = score ** 3
+print(&quot;After **3:&quot;, score)</code></pre><div class="code-example-explanation">Starting with <code>score = 100</code>, we apply different compound assignment operators one after another. Each operator updates the variable using the previous value. After <code>+= 25</code>, score is 125. After <code>-= 10</code>, it is 115. After <code>*= 2</code>, it is 230. After <code>//= 3</code>, it is 76 (floor division). After <code>%= 10</code>, it is 6 (remainder). After <code>**= 3</code>, it is 216 (6 cubed).</div><div class="code-example-output">Starting score: 100
+After +25: 125
+After -10: 115
+After *2: 230
+After //3: 76
+After %10: 6
+After **3: 216</div></div>
+<div class="code-example"><div class="code-example-title">Membership and Identity Operators</div><pre><code class="language-python"># Membership operators
+name = &quot;Ananya&quot;
+print(&quot;Is &#39;A&#39; in name?&quot;, &quot;A&quot; in name)
+print(&quot;Is &#39;z&#39; in name?&quot;, &quot;z&quot; in name)
+print(&quot;Is &#39;z&#39; NOT in name?&quot;, &quot;z&quot; not in name)
+
+fruits = [&quot;apple&quot;, &quot;mango&quot;, &quot;banana&quot;]
+print(&quot;Is &#39;mango&#39; in fruits?&quot;, &quot;mango&quot; in fruits)
+print(&quot;Is &#39;grape&#39; in fruits?&quot;, &quot;grape&quot; in fruits)
+
+# Identity operators
+a = [1, 2, 3]
+b = [1, 2, 3]
+c = a
+
+print(&quot;\na == b?&quot;, a == b)     # Same value?
+print(&quot;a is b?&quot;, a is b)     # Same object?
+print(&quot;a is c?&quot;, a is c)     # Same object?
+
+print(&quot;\nChecking None:&quot;)
+x = None
+print(&quot;x is None?&quot;, x is None)</code></pre><div class="code-example-explanation">The <code>in</code> operator checks if a value exists inside a string or list. <code>"A" in "Ananya"</code> returns True because the character A appears in the string. For identity operators, <code>a</code> and <code>b</code> have the same values but are different objects in memory, so <code>a == b</code> is True but <code>a is b</code> is False. However, <code>c = a</code> makes <code>c</code> point to the same object as <code>a</code>, so <code>a is c</code> is True. The recommended way to check for <code>None</code> is using <code>is</code>, not <code>==</code>.</div><div class="code-example-output">Is &#39;A&#39; in name? True
+Is &#39;z&#39; in name? False
+Is &#39;z&#39; NOT in name? True
+Is &#39;mango&#39; in fruits? True
+Is &#39;grape&#39; in fruits? False
+
+a == b? True
+a is b? False
+a is c? True
+
+Checking None:
+x is None? True</div></div>
+<div class="code-example"><div class="code-example-title">Operator Precedence: Tricky Examples</div><pre><code class="language-python"># Example 1: Multiplication before addition
+result1 = 2 + 3 * 4
+print(&quot;2 + 3 * 4 =&quot;, result1)  # 14, not 20
+
+# Example 2: Parentheses override precedence
+result2 = (2 + 3) * 4
+print(&quot;(2 + 3) * 4 =&quot;, result2)  # 20
+
+# Example 3: Exponentiation is right-associative
+result3 = 2 ** 3 ** 2
+print(&quot;2 ** 3 ** 2 =&quot;, result3)  # 512, not 64
+
+# Example 4: Mixed operators
+result4 = 10 + 2 * 3 ** 2 - 4 // 2
+print(&quot;10 + 2 * 3 ** 2 - 4 // 2 =&quot;, result4)
+# Step by step: 3**2=9, 2*9=18, 4//2=2, 10+18-2=26
+
+# Example 5: Logical operator precedence
+result5 = True or False and False
+print(&quot;True or False and False =&quot;, result5)
+# and is evaluated before or: True or (False and False) = True or False = True</code></pre><div class="code-example-explanation">Example 1 shows <code>*</code> executes before <code>+</code>. Example 2 shows parentheses forcing addition first. Example 3 is tricky: <code>**</code> is right-associative, so <code>2 ** 3 ** 2</code> means <code>2 ** (3 ** 2)</code> = <code>2 ** 9</code> = 512. Example 4 is evaluated step by step following precedence: exponentiation first, then multiplication and floor division, then addition and subtraction. Example 5 shows that <code>and</code> has higher precedence than <code>or</code>.</div><div class="code-example-output">2 + 3 * 4 = 14
+(2 + 3) * 4 = 20
+2 ** 3 ** 2 = 512
+10 + 2 * 3 ** 2 - 4 // 2 = 26
+True or False and False = True</div></div>
+<div class="code-example"><div class="code-example-title">Bitwise Operators Basics</div><pre><code class="language-python">a = 5   # binary: 101
+b = 3   # binary: 011
+
+print(&quot;a &amp; b =&quot;, a &amp; b)     # AND:  101 &amp; 011 = 001 = 1
+print(&quot;a | b =&quot;, a | b)     # OR:   101 | 011 = 111 = 7
+print(&quot;a ^ b =&quot;, a ^ b)     # XOR:  101 ^ 011 = 110 = 6
+print(&quot;~a =&quot;, ~a)           # NOT:  ~5 = -6
+print(&quot;a &lt;&lt; 1 =&quot;, a &lt;&lt; 1)   # Left shift: 101 -&gt; 1010 = 10
+print(&quot;a &gt;&gt; 1 =&quot;, a &gt;&gt; 1)   # Right shift: 101 -&gt; 10 = 2
+
+# Practical: Check if a number is even using bitwise AND
+num = 14
+if num &amp; 1 == 0:
+    print(num, &quot;is even&quot;)
+else:
+    print(num, &quot;is odd&quot;)</code></pre><div class="code-example-explanation">Bitwise operators work on the binary representations of numbers. For <code>5 &amp; 3</code>: binary 101 AND 011 gives 001 (only the last bit is 1 in both). For <code>5 | 3</code>: 101 OR 011 gives 111 (a bit is 1 if either input has 1). XOR gives 1 only when bits differ. Left shift by 1 doubles the number, right shift by 1 halves it (integer division). A practical trick: <code>num &amp; 1</code> checks the last bit, which is 0 for even numbers and 1 for odd numbers.</div><div class="code-example-output">a &amp; b = 1
+a | b = 7
+a ^ b = 6
+~a = -6
+a &lt;&lt; 1 = 10
+a &gt;&gt; 1 = 2
+14 is even</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Confusing = (Assignment) with == (Comparison)</h3>
+                <div class="wrong-code"><pre><code class="language-python">age = 18
+if age = 18:
+    print(&quot;You are 18&quot;)</code></pre></div><div class="error-message">SyntaxError: invalid syntax</div><div class="correct-code"><pre><code class="language-python">age = 18
+if age == 18:
+    print(&quot;You are 18&quot;)</code></pre></div><div class="mistake-explanation">The single <code>=</code> is the assignment operator (it stores a value). The double <code>==</code> is the comparison operator (it checks equality). In an <code>if</code> statement, you need <code>==</code> to compare values. This is one of the most common mistakes in all of programming, not just Python.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting / to Return an Integer</h3>
+                <div class="wrong-code"><pre><code class="language-python">total = 10
+students = 4
+each_gets = total / students
+print(&quot;Each student gets&quot;, each_gets, &quot;chocolates&quot;)</code></pre></div><div class="error-message">No error, but output is: Each student gets 2.5 chocolates (a float, not an integer)</div><div class="correct-code"><pre><code class="language-python">total = 10
+students = 4
+each_gets = total // students
+print(&quot;Each student gets&quot;, each_gets, &quot;chocolates&quot;)</code></pre></div><div class="mistake-explanation">In Python 3, the <code>/</code> operator ALWAYS returns a float, even when dividing two integers that divide evenly: <code>10 / 2</code> gives <code>5.0</code>, not <code>5</code>. If you want an integer result, use floor division <code>//</code>. This is a change from Python 2 where <code>/</code> with integers gave an integer result.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Misunderstanding Floor Division with Negative Numbers</h3>
+                <div class="wrong-code"><pre><code class="language-python">result = -7 // 2
+print(result)  # Expecting -3</code></pre></div><div class="error-message">No error, but output is -4 (not -3 as many students expect)</div><div class="correct-code"><pre><code class="language-python"># Floor division rounds TOWARD negative infinity
+result = -7 // 2   # -3.5 rounded down = -4
+print(result)       # Output: -4
+
+# If you want to truncate toward zero, use int()
+result = int(-7 / 2)  # int(-3.5) = -3
+print(result)          # Output: -3</code></pre></div><div class="mistake-explanation">Floor division always rounds DOWN (toward negative infinity). For <code>-7 // 2</code>, the true result is -3.5, and rounding down gives -4 (not -3). Many students expect it to truncate toward zero like some other languages. If you want truncation toward zero, use <code>int(-7 / 2)</code> instead.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Wrong Operator Precedence Assumption</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Rohan wants to calculate average of 3 numbers
+average = 80 + 75 + 90 / 3
+print(&quot;Average:&quot;, average)  # Expecting 81.67</code></pre></div><div class="error-message">No error, but output is 185.0 (wrong answer). Only 90 is divided by 3, then added to 80 + 75.</div><div class="correct-code"><pre><code class="language-python">average = (80 + 75 + 90) / 3
+print(&quot;Average:&quot;, average)  # Correct: 81.666...</code></pre></div><div class="mistake-explanation">Without parentheses, Python follows operator precedence: division (<code>/</code>) is evaluated before addition (<code>+</code>). So <code>80 + 75 + 90 / 3</code> becomes <code>80 + 75 + 30.0</code> = <code>185.0</code>. To get the correct average, use parentheses to force the addition first: <code>(80 + 75 + 90) / 3</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using &#39;is&#39; Instead of &#39;==&#39; for Value Comparison</h3>
+                <div class="wrong-code"><pre><code class="language-python">a = 1000
+b = 1000
+print(a is b)  # Might print False!</code></pre></div><div class="error-message">No error, but may give unexpected results. &#39;is&#39; checks identity (same object), not equality.</div><div class="correct-code"><pre><code class="language-python">a = 1000
+b = 1000
+print(a == b)  # Always True for equal values</code></pre></div><div class="mistake-explanation">The <code>is</code> operator checks if two variables point to the <strong>same object in memory</strong>, not if they have the same value. For small integers (-5 to 256), Python reuses the same object, so <code>is</code> may return True. But for larger numbers, Python may create separate objects. Always use <code>==</code> when comparing values, and reserve <code>is</code> for checking <code>None</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Operators are special symbols that perform operations on values (operands). Python has seven categories of operators.</li>
+<li>Arithmetic operators: + (add), - (subtract), * (multiply), / (float division), // (floor division), % (modulus/remainder), ** (exponentiation).</li>
+<li>The / operator always returns a float in Python 3. Use // for integer division. Floor division rounds toward negative infinity, which matters with negative numbers.</li>
+<li>Comparison operators (==, !=, &gt;, &lt;, &gt;=, &lt;=) compare values and return True or False. Python supports chained comparisons like 1 &lt; x &lt; 10.</li>
+<li>Logical operators: &#39;and&#39; returns True only if both sides are True, &#39;or&#39; returns True if at least one side is True, &#39;not&#39; reverses the Boolean value. Python uses short-circuit evaluation.</li>
+<li>Compound assignment operators (+=, -=, *=, /=, //=, %=, **=) combine an operation with assignment. x += 5 is the same as x = x + 5.</li>
+<li>Membership operators &#39;in&#39; and &#39;not in&#39; check if a value exists in a sequence. Identity operators &#39;is&#39; and &#39;is not&#39; check if two variables point to the same object in memory.</li>
+<li>Bitwise operators (&amp;, |, ^, ~, &lt;&lt;, &gt;&gt;) work on binary representations of numbers. Left shift doubles and right shift halves.</li>
+<li>Operator precedence (PEMDAS extended): Parentheses &gt; Exponentiation &gt; Unary &gt; Multiplication/Division &gt; Addition/Subtraction &gt; Comparisons &gt; not &gt; and &gt; or.</li>
+<li>Exponentiation (**) is right-associative: 2 ** 3 ** 2 equals 2 ** 9 = 512, not 8 ** 2 = 64. When in doubt, always use parentheses.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/variables-and-data-types" class="related-topic-link">Variables and Data Types in Python</a>
+<a href="/resources/python/taking-input-and-type-conversion" class="related-topic-link">Taking Input and Type Conversion</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/variables-and-data-types" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Variables and Data Types in Python</span>
+        </a>
+            <a href="/resources/python/taking-input-and-type-conversion" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Taking Input and Type Conversion</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/operators-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

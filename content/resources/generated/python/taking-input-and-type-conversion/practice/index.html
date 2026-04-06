@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Taking Input and Type Conversion | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Taking Input and Type Conversion in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="taking input and type conversion practice, python questions, python practice problems, taking input and type conversion exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+    <meta property="og:title" content="Practice Questions - Taking Input and Type Conversion | Python | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Taking Input and Type Conversion in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice">
+    <meta name="twitter:title" content="Practice Questions - Taking Input and Type Conversion | Python | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Taking Input and Type Conversion in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Taking Input and Type Conversion",
+    "description": "57+ practice questions on Taking Input and Type Conversion in Python.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Taking Input and Type Conversion"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Taking Input and Type Conversion",
+        "item": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/taking-input-and-type-conversion">Taking Input and Type Conversion</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Taking Input and Type Conversion</h1>
+            <a href="/resources/python/taking-input-and-type-conversion" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What data type does the input() function always return?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">No matter what the user types, input() returns the same type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">The <code>input()</code> function always returns a <strong>string</strong> (<code>str</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output if the user types 5 and 3?<br><pre><code>a = input("Enter a: ")
+b = input("Enter b: ")
+print(a + b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Remember: input() returns strings. What does + do with strings?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>53</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print(type(input()))</code></pre><p>Assume the user types: 42</p></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">input() always returns the same type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>&lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>x = int("25")
+y = float("3.14")
+z = str(100)
+print(x, type(x))
+print(y, type(y))
+print(z, type(z))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Each conversion function changes the type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>25 &lt;class 'int'&gt;</code><br><code>3.14 &lt;class 'float'&gt;</code><br><code>100 &lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>print(int(7.9))
+print(int(-7.9))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">int() truncates toward zero, not toward negative infinity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>7</code><br><code>-7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when this code runs?<br><pre><code>x = int("3.14")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Can int() handle a string with a decimal point?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">It raises a <code>ValueError: invalid literal for int() with base 10: '3.14'</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>print(int(float("9.75")))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Evaluate from the inside out: float() first, then int().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>print(int(True))
+print(int(False))
+print(float(True))
+print(bool(0))
+print(bool(""))
+print(bool("0"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">True is 1, False is 0. For bool(), 0 and empty strings are False, but '0' is a non-empty string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1</code><br><code>0</code><br><code>1.0</code><br><code>False</code><br><code>False</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output if the user types <code>10 20 30</code>?<br><pre><code>a, b, c = input("Enter three numbers: ").split()
+print(a, b, c)
+print(type(a))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">split() returns strings. Does it automatically convert to numbers?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>10 20 30</code><br><code>&lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print(int("  42  "))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Does int() handle leading and trailing whitespace?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = input()  # User types nothing, just presses Enter
+print(repr(x))
+print(len(x))
+print(type(x))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">What does input() return when the user just presses Enter without typing anything?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>''</code><br><code>0</code><br><code>&lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print(str(int(float("3.99"))))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Evaluate from the innermost function outward.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between int(3.9) and int(-3.9)? Why?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">int() truncates toward zero, not toward negative infinity.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>int(3.9)</code> gives <code>3</code> and <code>int(-3.9)</code> gives <code>-3</code>. The <code>int()</code> function truncates toward zero, meaning it simply removes the decimal part. For positive numbers it rounds down, for negative numbers it rounds up (toward zero).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why does int("3.14") raise a ValueError, but int(3.14) works fine? Both involve the value 3.14.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Think about what int() expects when given a string vs a float.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>int(3.14)</code> works because Python knows how to truncate a float to an integer (remove the decimal part, giving 3). But <code>int("3.14")</code> fails because when <code>int()</code> receives a string, it expects the string to contain <strong>only digits</strong> (optionally with a leading - sign). The decimal point is not a digit, so it raises ValueError.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = "5"
+print(x * 3)
+print(int(x) * 3)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Multiplying a string by a number repeats the string. Multiplying an integer by a number performs arithmetic.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>555</code><br><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print(bool("False"))
+print(bool(""))
+print(bool(" "))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Any non-empty string is truthy, even if it contains the word 'False'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>True</code><br><code>False</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print(str(42) + str(8))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Both values are converted to strings first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>428</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between split() and map() when taking multiple inputs?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">split() divides the string, map() applies a function to each part.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>split()</code> divides a string into a list of substrings based on a separator (default: space). <code>map()</code> applies a function to every element of an iterable. When combined as <code>map(int, input().split())</code>, <code>split()</code> breaks the input into strings, and <code>map(int, ...)</code> converts each string to an integer.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output if the user types <code>Priya</code>?<br><pre><code>name = input("Name: ")
+print("Hello, " + name + "!")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">String concatenation with the + operator.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Hello, Priya!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that asks the user for their name and age, then prints: 'My name is [name] and I am [age] years old.'</div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Use input() for both values. Age does not need conversion since you are just printing it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><pre><code>name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("My name is", name, "and I am", age, "years old.")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output if the user types 8?<br><pre><code>num = input("Number: ")
+result = num * 3
+print(result)
+print(type(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">num is a string. What does * do with a string and an integer?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>888</code><br><code>&lt;class 'str'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that asks the user for the radius of a circle and prints the area. Use pi = 3.14159. The formula is: area = pi * radius^2.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Use float(input()) for the radius since it could be a decimal.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>radius = float(input("Enter the radius: "))
+pi = 3.14159
+area = pi * radius ** 2
+print("Area of the circle:", area)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = "10"
+b = "3"
+print(a + b)
+print(int(a) + int(b))
+print(a * int(b))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Line 1: string + string. Line 2: int + int. Line 3: string * int.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>103</code><br><code>13</code><br><code>101010</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = float("10")
+print(x)
+print(x == 10)
+print(x == 10.0)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">float('10') gives 10.0. Does 10.0 equal 10?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>10.0</code><br><code>True</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Explain why eval() is dangerous to use with input(). Give a specific example of what could go wrong.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">eval() executes any Python code the user types.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>eval()</code> evaluates a string as a Python expression and executes it. If used with <code>input()</code>, a malicious user could type any Python code instead of a number. For example, typing <code>__import__('os').system('rm -rf /')</code> would attempt to delete all files on the system. Even typing <code>__import__('os').listdir('.')</code> would expose the file system.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = "5"
+b = 2
+print(a + str(b))
+print(int(a) + b)
+print(float(a) + b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Line 1: string + string. Line 2: int + int. Line 3: float + int.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>52</code><br><code>7</code><br><code>7.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = int("  -42  ")
+y = float(" 3.14 ")
+print(x + y)
+print(type(x + y))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">int() and float() strip whitespace. What type do you get when adding int and float?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>-38.86</code><br><code>&lt;class 'float'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print(int(True) + int(True) + int(False))
+print(str(True) + str(False))
+print(float(False))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">int(True) = 1, int(False) = 0. str(True) = 'True'.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>2</code><br><code>TrueFalse</code><br><code>0.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that takes a temperature in Fahrenheit from the user and converts it to Celsius. Formula: C = (F - 32) * 5/9.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Use float(input()) since temperature can be a decimal.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><pre><code>fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+celsius = (fahrenheit - 32) * 5 / 9
+print(fahrenheit, "F =", round(celsius, 2), "C")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = "100"
+print(x > "99")
+print(int(x) > 99)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">String comparison is lexicographic (character by character), not numeric.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>False</code><br><code>True</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does input() always return in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> An integer</li><li><span class="mcq-option-label">B.</span> A float</li><li><span class="mcq-option-label">C.</span> A string</li><li><span class="mcq-option-label">D.</span> The type that matches the user&#39;s input</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>input()</code> function always returns a string, regardless of what the user types. If the user types 42, it returns "42" (a string). Option D is a common misconception; Python does not automatically detect the type.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How do you take an integer input from the user?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int(input())</li><li><span class="mcq-option-label">B.</span> input(int())</li><li><span class="mcq-option-label">C.</span> integer(input())</li><li><span class="mcq-option-label">D.</span> input.int()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>int(input())</code> first gets the string from <code>input()</code>, then converts it to an integer with <code>int()</code>. Option B would pass an integer (0) as the prompt, which is a TypeError. Option C is invalid (no such function). Option D is invalid syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the output of: print(type("42"))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;class &#39;int&#39;&gt;</li><li><span class="mcq-option-label">B.</span> &lt;class &#39;str&#39;&gt;</li><li><span class="mcq-option-label">C.</span> &lt;class &#39;float&#39;&gt;</li><li><span class="mcq-option-label">D.</span> 42</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>"42"</code> is a string because it is enclosed in quotes. The type is <code>str</code>. It does not matter that the characters form a number; the quotes make it a string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does int(3.7) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 3.7</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> 4.0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>int()</code> truncates toward zero, meaning it removes the decimal part without rounding. <code>int(3.7)</code> gives 3, not 4. Option A would be the result of rounding, but <code>int()</code> truncates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is the result of: '5' + '3'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 8</li><li><span class="mcq-option-label">B.</span> 53</li><li><span class="mcq-option-label">C.</span> &#39;53&#39;</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> When both operands are strings, the <code>+</code> operator performs concatenation: <code>'5' + '3'</code> = <code>'53'</code>. Option A (8) would be the result if both were integers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">Which of the following will cause a ValueError?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int(&quot;42&quot;)</li><li><span class="mcq-option-label">B.</span> int(3.14)</li><li><span class="mcq-option-label">C.</span> int(&quot;3.14&quot;)</li><li><span class="mcq-option-label">D.</span> float(&quot;42&quot;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>int("3.14")</code> raises a ValueError because the string contains a decimal point, which <code>int()</code> cannot handle when parsing a string. Option B <code>int(3.14)</code> works fine (truncates to 3) because it is converting a float, not a string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the output of: print(bool('0'))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>bool('0')</code> returns True because <code>'0'</code> is a non-empty string. Python checks if the string is empty, not if its content represents zero. Only <code>bool('')</code> (empty string) returns False.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does the split() method do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Splits a number into digits</li><li><span class="mcq-option-label">B.</span> Splits a string into a list of substrings</li><li><span class="mcq-option-label">C.</span> Converts a string to a list of integers</li><li><span class="mcq-option-label">D.</span> Divides two numbers</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>split()</code> splits a string into a list of substrings based on a delimiter (default: whitespace). <code>"10 20 30".split()</code> returns <code>["10", "20", "30"]</code>. It does NOT convert to numbers (option C) or work on numbers (option A).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output of: print(float(10))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 10.0</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> 10.00</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>float(10)</code> converts the integer 10 to the float <code>10.0</code>. Python represents this as <code>10.0</code>, not <code>10.00</code>. The <code>float()</code> function adds the minimum necessary decimal representation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Why is eval(input()) considered dangerous?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is slow</li><li><span class="mcq-option-label">B.</span> It can only handle numbers</li><li><span class="mcq-option-label">C.</span> It executes any Python code the user types</li><li><span class="mcq-option-label">D.</span> It does not return a value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>eval()</code> evaluates any Python expression, meaning a user could execute harmful code like file deletion or data theft. Options A and B are incorrect (eval is reasonably fast and handles any expression). Option D is wrong (eval does return a value).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is int(-2.9)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> -3</li><li><span class="mcq-option-label">B.</span> -2</li><li><span class="mcq-option-label">C.</span> -2.0</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>int()</code> truncates toward zero. For -2.9, truncating toward zero gives -2 (not -3). This is the opposite of floor division, where <code>-2.9 // 1</code> would give -3.0. Remember: <code>int()</code> always moves toward zero.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output of: print(int(float('  -3.75  ')))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> -4</li><li><span class="mcq-option-label">B.</span> -3</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> -3.75</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Step by step: <code>float('  -3.75  ')</code> strips whitespace and gives <code>-3.75</code>. Then <code>int(-3.75)</code> truncates toward zero, giving <code>-3</code>. Option A (-4) would be the floor, not the truncation.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of: print('5' > '30')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: A</strong><br><strong>A is correct.</strong> String comparison is lexicographic (character by character). Python compares the first characters: '5' vs '3'. Since '5' comes after '3' in ASCII/Unicode, <code>'5' &gt; '30'</code> is True. Numerically 5 < 30, but string comparison does not work numerically. This is why proper type conversion matters.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does map(int, ['1', '2', '3']) produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> A map object that yields 1, 2, 3</li><li><span class="mcq-option-label">C.</span> [&#39;1&#39;, &#39;2&#39;, &#39;3&#39;]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>map()</code> returns a map object (an iterator), not a list. It lazily applies <code>int()</code> to each element when iterated. To get a list, you would need <code>list(map(int, ['1', '2', '3']))</code>. However, when used with unpacking like <code>a, b, c = map(...)</code>, the values are extracted correctly.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of the following will NOT raise a ValueError?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int(&#39;&#39;)</li><li><span class="mcq-option-label">B.</span> int(&#39;3.14&#39;)</li><li><span class="mcq-option-label">C.</span> int(&#39;  42  &#39;)</li><li><span class="mcq-option-label">D.</span> float(&#39;hello&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>int('  42  ')</code> works because <code>int()</code> automatically strips leading and trailing whitespace. Option A fails (empty string). Option B fails (decimal point in string). Option D fails ('hello' is not a number).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the output of: print(bool(''), bool(' '), bool('0'), bool(0))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> False False False False</li><li><span class="mcq-option-label">B.</span> False True True False</li><li><span class="mcq-option-label">C.</span> True True True False</li><li><span class="mcq-option-label">D.</span> False True False False</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>bool('')</code> = False (empty string). <code>bool(' ')</code> = True (string with a space is non-empty). <code>bool('0')</code> = True (non-empty string, even though it contains '0'). <code>bool(0)</code> = False (integer zero is falsy).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the output of: print(str(5) + str(3.14))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 8.14</li><li><span class="mcq-option-label">B.</span> 53.14</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> 5 3.14</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>str(5)</code> gives <code>"5"</code> and <code>str(3.14)</code> gives <code>"3.14"</code>. String concatenation: <code>"5" + "3.14"</code> = <code>"53.14"</code>. This is string joining, not arithmetic.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Which function converts a value to a floating-point number?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> int()</li><li><span class="mcq-option-label">B.</span> str()</li><li><span class="mcq-option-label">C.</span> float()</li><li><span class="mcq-option-label">D.</span> decimal()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>float()</code> converts values to floating-point numbers. <code>int()</code> converts to integers, <code>str()</code> converts to strings, and <code>decimal()</code> is not a built-in function (though there is a Decimal class in the decimal module).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the output when the user enters 'hello'?<br><code>x = int(input())</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> hello</li><li><span class="mcq-option-label">C.</span> ValueError</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>int("hello")</code> raises a <code>ValueError: invalid literal for int() with base 10: 'hello'</code>. The string "hello" cannot be converted to an integer because it does not represent a number.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is the output of: print(int(True) + float(False) + bool(1))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 2.0</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 1.0</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>int(True)</code> = 1, <code>float(False)</code> = 0.0, <code>bool(1)</code> = True. Now: <code>1 + 0.0</code> = <code>1.0</code> (float), <code>1.0 + True</code> = <code>1.0 + 1</code> = <code>2.0</code> (True is treated as 1 in arithmetic). The result is float because of the float(False) in the chain.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Greeting Program</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that asks the user for their name and city, then prints: 'Hello, [name] from [city]! Welcome to Python.'</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Name: Ananya
+City: Mumbai</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Hello, Ananya from Mumbai! Welcome to Python.</div>
+                </div><div class="challenge-constraints">Use input() with descriptive prompts. Use string concatenation or comma-separated print.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">name = input(&quot;Enter your name: &quot;)
+city = input(&quot;Enter your city: &quot;)
+print(&quot;Hello,&quot;, name, &quot;from&quot;, city + &quot;! Welcome to Python.&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Rectangle Area Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that takes the length and width of a rectangle from the user and prints the area and perimeter.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Length: 10
+Width: 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Area: 50.0
+Perimeter: 30.0</div>
+                </div><div class="challenge-constraints">Use float(input()) since dimensions can be decimals.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">length = float(input(&quot;Enter length: &quot;))
+width = float(input(&quot;Enter width: &quot;))
+area = length * width
+perimeter = 2 * (length + width)
+print(&quot;Area:&quot;, area)
+print(&quot;Perimeter:&quot;, perimeter)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Bill Splitter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Aarav and his friends went to a restaurant. Write a program that takes the total bill amount and the number of people, then calculates how much each person pays (rounded to 2 decimal places).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Total bill: 1573
+Number of people: 7</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Each person pays: 224.71</div>
+                </div><div class="challenge-constraints">Use float() for bill, int() for people. Round to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">bill = float(input(&quot;Enter total bill: &quot;))
+people = int(input(&quot;Enter number of people: &quot;))
+each_pays = round(bill / people, 2)
+print(&quot;Each person pays:&quot;, each_pays)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Percentage Calculator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that takes marks obtained and total marks from the user, calculates the percentage, and prints it rounded to 2 decimal places.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Marks obtained: 437
+Total marks: 500</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Percentage: 87.4%</div>
+                </div><div class="challenge-constraints">Use float(input()) for both values. Print with % sign.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">obtained = float(input(&quot;Enter marks obtained: &quot;))
+total = float(input(&quot;Enter total marks: &quot;))
+percentage = (obtained / total) * 100
+print(&quot;Percentage:&quot;, str(round(percentage, 2)) + &quot;%&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Time Converter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that takes a number of seconds from the user and converts it to hours, minutes, and remaining seconds. For example, 3672 seconds = 1 hour, 1 minute, and 12 seconds.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter seconds: 3672</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1 hours, 1 minutes, 12 seconds</div>
+                </div><div class="challenge-constraints">Use // and % operators. Take input as int.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">total_seconds = int(input(&quot;Enter seconds: &quot;))
+hours = total_seconds // 3600
+minutes = (total_seconds % 3600) // 60
+seconds = total_seconds % 60
+print(hours, &quot;hours,&quot;, minutes, &quot;minutes,&quot;, seconds, &quot;seconds&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Two-Number Calculator with Menu</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that takes two numbers from the user and displays the results of all arithmetic operations: addition, subtraction, multiplication, division, floor division, modulus, and exponentiation.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter first number: 17
+Enter second number: 5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">17 + 5 = 22
+17 - 5 = 12
+17 * 5 = 85
+17 / 5 = 3.4
+17 // 5 = 3
+17 % 5 = 2
+17 ** 5 = 1419857</div>
+                </div><div class="challenge-constraints">Use int(input()) for both numbers. Display results for all 7 arithmetic operators.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">a = int(input(&quot;Enter first number: &quot;))
+b = int(input(&quot;Enter second number: &quot;))
+print(a, &quot;+&quot;, b, &quot;=&quot;, a + b)
+print(a, &quot;-&quot;, b, &quot;=&quot;, a - b)
+print(a, &quot;*&quot;, b, &quot;=&quot;, a * b)
+print(a, &quot;/&quot;, b, &quot;=&quot;, a / b)
+print(a, &quot;//&quot;, b, &quot;=&quot;, a // b)
+print(a, &quot;%&quot;, b, &quot;=&quot;, a % b)
+print(a, &quot;**&quot;, b, &quot;=&quot;, a ** b)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Swap Values Using Arithmetic</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take two numbers from the user and swap their values without using a third variable. Print the values before and after swapping. Use arithmetic operators only.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a: 15
+Enter b: 30</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Before swap: a = 15, b = 30
+After swap: a = 30, b = 15</div>
+                </div><div class="challenge-constraints">Do not use a third variable or Python&#39;s tuple swap (a, b = b, a).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">a = int(input(&quot;Enter a: &quot;))
+b = int(input(&quot;Enter b: &quot;))
+print(&quot;Before swap: a =&quot;, a, &quot;, b =&quot;, b)
+a = a + b
+b = a - b
+a = a - b
+print(&quot;After swap: a =&quot;, a, &quot;, b =&quot;, b)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Multiple Input CGPA Calculator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take 5 subject grades (as floats on one line, space-separated) from the user using split() and map(). Calculate and print the CGPA (average of all grades) rounded to 2 decimal places.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter 5 grades: 8.5 9.0 7.5 8.0 9.5</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Grades: 8.5 9.0 7.5 8.0 9.5
+CGPA: 8.5</div>
+                </div><div class="challenge-constraints">Take all 5 inputs on a single line using split() and map(). Round CGPA to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">g1, g2, g3, g4, g5 = map(float, input(&quot;Enter 5 grades: &quot;).split())
+print(&quot;Grades:&quot;, g1, g2, g3, g4, g5)
+cgpa = (g1 + g2 + g3 + g4 + g5) / 5
+print(&quot;CGPA:&quot;, round(cgpa, 2))</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/operators-in-python/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators in Python</span>
+        </a>
+            <a href="/resources/python/conditional-statements/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements in Python (if, elif, else)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/taking-input-and-type-conversion" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

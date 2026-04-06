@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Conditional Statements in Python (if, elif, else) | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Conditional Statements in Python (if, elif, else) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="conditional statements in python (if, elif, else) practice, python questions, python practice problems, conditional statements in python (if, elif, else) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+    <meta property="og:title" content="Practice Questions - Conditional Statements in Python (if, elif, else) | Python | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Conditional Statements in Python (if, elif, else) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/conditional-statements/practice">
+    <meta name="twitter:title" content="Practice Questions - Conditional Statements in Python (if, elif, else) | Python | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Conditional Statements in Python (if, elif, else) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Conditional Statements in Python (if, elif, else)",
+    "description": "60+ practice questions on Conditional Statements in Python (if, elif, else) in Python.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Conditional Statements in Python (if, elif, else)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/conditional-statements/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Conditional Statements in Python (if, elif, else)",
+        "item": "https://learn.modernagecoders.com/resources/python/conditional-statements"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/conditional-statements/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/conditional-statements">Conditional Statements in Python (if, elif, else)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 7</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Conditional Statements in Python (if, elif, else)</h1>
+            <a href="/resources/python/conditional-statements" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+if x > 5:
+    print("Big")
+print("Done")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Check if 10 > 5. The last line is outside the if block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Big</code><br><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 3
+if x > 5:
+    print("Big")
+print("Done")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Is 3 > 5?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>num = 7
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">What is 7 % 2?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Odd</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>marks = 85
+if marks >= 90:
+    print("A")
+elif marks >= 80:
+    print("B")
+elif marks >= 70:
+    print("C")
+else:
+    print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Check conditions from top to bottom. Which is the first True condition?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>a = 5
+b = 5
+if a == b:
+    print("Equal")
+else:
+    print("Not equal")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Does 5 equal 5?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Equal</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 15
+if x > 10:
+    print("A")
+if x > 5:
+    print("B")
+if x > 0:
+    print("C")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">These are three separate if statements, NOT if-elif-else.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>A</code><br><code>B</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output? Compare with the previous question.<br><pre><code>x = 15
+if x > 10:
+    print("A")
+elif x > 5:
+    print("B")
+elif x > 0:
+    print("C")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">This time it IS an if-elif chain. Only the first True condition's block runs.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>A</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+y = 20
+if x > 5 and y > 15:
+    print("Both")
+elif x > 5 or y > 15:
+    print("At least one")
+else:
+    print("Neither")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Check if BOTH conditions are True for the 'and'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>Both</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>if 0:
+    print("A")
+if "":
+    print("B")
+if None:
+    print("C")
+if "hello":
+    print("D")
+if 1:
+    print("E")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">0, empty string, and None are falsy. Non-empty string and non-zero integer are truthy.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>D</code><br><code>E</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>result = "Pass" if 85 >= 40 else "Fail"
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">This is a ternary operator. Check the condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Pass</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+if x > 3:
+    if x > 7:
+        print("A")
+    else:
+        print("B")
+else:
+    if x > 1:
+        print("C")
+    else:
+        print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">First check the outer if. Then check the inner if within the matching block.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = 10
+b = 20
+c = 30
+
+if a > b:
+    print("X")
+elif b > c:
+    print("Y")
+elif a + b > c:
+    print("Z")
+else:
+    print("W")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Check each condition: 10 > 20? 20 > 30? 10 + 20 > 30?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>W</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>if "False":
+    print("A")
+if bool(""):
+    print("B")
+if bool(0):
+    print("C")
+if bool("0"):
+    print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">The string 'False' is a non-empty string. The string '0' is also non-empty.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>A</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+result = "A" if x > 10 else "B" if x > 3 else "C"
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Nested ternary: evaluate from left to right.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>B</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+y = 5
+z = 10
+
+if x == z:
+    if y > x:
+        print("A")
+    elif y == x:
+        print("B")
+    else:
+        print("C")
+elif x > y:
+    print("D")
+else:
+    print("E")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">x equals z (both 10). Then check y vs x inside.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print("Yes") if True else print("No")
+print("Yes") if False else print("No")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">The ternary operator can contain function calls, not just values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>Yes</code><br><code>No</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between using separate if statements and using if-elif? Give an example where the output differs.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">With separate if statements, every condition is checked. With if-elif, checking stops at the first True.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">With <strong>separate if statements</strong>, every condition is checked independently. With <strong>if-elif</strong>, checking stops at the first True condition. Example: for <code>x = 15</code>, three separate <code>if x &gt; 10</code>, <code>if x &gt; 5</code>, <code>if x &gt; 0</code> would print all three blocks. But <code>if x &gt; 10</code>, <code>elif x &gt; 5</code>, <code>elif x &gt; 0</code> would print only the first one.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">List all the falsy values in Python.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">There are 7 main categories of falsy values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">The falsy values in Python are: <code>False</code>, <code>0</code> (integer zero), <code>0.0</code> (float zero), <code>""</code> (empty string), <code>[]</code> (empty list), <code>()</code> (empty tuple), <code>{}</code> (empty dictionary), and <code>None</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 0
+if x:
+    print("A")
+if not x:
+    print("B")
+if x == 0:
+    print("C")
+if x is None:
+    print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">0 is falsy, but it is NOT None. Also, 0 == 0 is True.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>B</code><br><code>C</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = True
+b = False
+c = True
+
+if a and b or c:
+    print("X")
+if (a and b) or c:
+    print("Y")
+if a and (b or c):
+    print("Z")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Remember: 'and' has higher precedence than 'or'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20"><code>X</code><br><code>Y</code><br><code>Z</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">Write a program that takes a number from the user and prints whether it is positive, negative, or zero.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Use if-elif-else with comparisons to 0.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><pre><code>num = int(input("Enter a number: "))
+if num > 0:
+    print("Positive")
+elif num < 0:
+    print("Negative")
+else:
+    print("Zero")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>age = 16
+if age >= 18:
+    print("Can vote")
+print("Done")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">16 is not >= 18. The last line is outside the if block.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>Done</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+if x > 2:
+    print("A")
+    if x > 4:
+        print("B")
+    print("C")
+print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Trace the indentation carefully. 'C' is inside the outer if but outside the inner if.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>A</code><br><code>B</code><br><code>C</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Ananya wants to build a simple eligibility checker. Write a program that takes age and nationality as input. Print 'Eligible' if age >= 18 AND nationality is 'Indian'. Otherwise, print 'Not Eligible'.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Use 'and' to combine two conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><pre><code>age = int(input("Enter age: "))
+nationality = input("Enter nationality: ")
+if age >= 18 and nationality == "Indian":
+    print("Eligible")
+else:
+    print("Not Eligible")</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>num = 15
+if num % 3 == 0 and num % 5 == 0:
+    print("FizzBuzz")
+elif num % 3 == 0:
+    print("Fizz")
+elif num % 5 == 0:
+    print("Buzz")
+else:
+    print(num)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Check: is 15 divisible by both 3 and 5?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>FizzBuzz</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = []
+if x:
+    print("List has items")
+else:
+    print("List is empty")
+
+y = [0, 0, 0]
+if y:
+    print("List has items")
+else:
+    print("List is empty")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">An empty list is falsy. A list with items (even zeros) is truthy.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>List is empty</code><br><code>List has items</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = 5
+b = 10
+c = 15
+
+if a + b == c:
+    print("Sum")
+if a * b == c * a:
+    print("Product")
+if c - b == a:
+    print("Difference")
+if c / a == b / a:
+    print("Quotient")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">These are four separate if statements. Check each one independently.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Sum</code><br><code>Difference</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+if x > 5:
+    x = x - 3
+    if x > 5:
+        x = x - 3
+        if x > 5:
+            print("Still big")
+        else:
+            print("Getting small")
+    else:
+        print("Small")
+print("x =", x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Trace x: starts at 10, becomes 7 after first subtraction, then becomes 4.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Getting small</code><br><code>x = 4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>name = ""
+if name:
+    greeting = "Hello, " + name
+else:
+    greeting = "Hello, stranger"
+
+short = "Hello, " + name if name else "Hello, stranger"
+
+print(greeting)
+print(short)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Empty string is falsy. Both approaches should give the same result.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Hello, stranger</code><br><code>Hello, stranger</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Write a program that takes three numbers from the user and prints the largest one.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">You can compare them with if-elif-else, or use nested conditions.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><pre><code>a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+
+if a >= b and a >= c:
+    print("Largest:", a)
+elif b >= a and b >= c:
+    print("Largest:", b)
+else:
+    print("Largest:", c)</code></pre></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 1
+y = 2
+z = 3
+
+if x < y < z:
+    print("A")
+if x < y > z:
+    print("B")
+if x < y and y < z:
+    print("C")
+if x == 1 == True:
+    print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Chained comparisons. Also, 1 == True in Python.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>A</code><br><code>C</code><br><code>D</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = None
+if x is None:
+    print("A")
+if x == None:
+    print("B")
+if not x:
+    print("C")
+if x == False:
+    print("D")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">None is falsy. None is None. But is None == False?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>A</code><br><code>B</code><br><code>C</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What keyword starts a conditional statement in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> when</li><li><span class="mcq-option-label">B.</span> check</li><li><span class="mcq-option-label">C.</span> if</li><li><span class="mcq-option-label">D.</span> condition</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>if</code> keyword is used to start a conditional statement in Python. The other options are not Python keywords for conditional statements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What must appear at the end of an if statement line?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A semicolon (;)</li><li><span class="mcq-option-label">B.</span> A colon (:)</li><li><span class="mcq-option-label">C.</span> A period (.)</li><li><span class="mcq-option-label">D.</span> Curly braces ({})</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Every <code>if</code>, <code>elif</code>, and <code>else</code> line must end with a colon (<code>:</code>). Semicolons are used to separate statements on one line (rare). Curly braces are used in languages like Java and C++, not Python.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does elif stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> else if</li><li><span class="mcq-option-label">B.</span> eliminate if</li><li><span class="mcq-option-label">C.</span> element if</li><li><span class="mcq-option-label">D.</span> elif is not an abbreviation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>elif</code> is short for "else if". It allows you to check additional conditions when the previous <code>if</code> or <code>elif</code> was False.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">How many spaces is the standard indentation in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 4</li><li><span class="mcq-option-label">D.</span> 8</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> The standard Python indentation is 4 spaces. While Python technically allows any consistent number of spaces, PEP 8 (Python's style guide) recommends 4 spaces.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which value is considered falsy in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> &quot;hello&quot;</li><li><span class="mcq-option-label">C.</span> [1, 2, 3]</li><li><span class="mcq-option-label">D.</span> 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>0</code> is falsy. All the other options are truthy: <code>1</code> is a non-zero number, <code>"hello"</code> is a non-empty string, and <code>[1, 2, 3]</code> is a non-empty list.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of: print('Adult' if 15 >= 18 else 'Minor')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adult</li><li><span class="mcq-option-label">B.</span> Minor</li><li><span class="mcq-option-label">C.</span> True</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The ternary operator checks <code>15 &gt;= 18</code> which is False. So the value after <code>else</code> is chosen: 'Minor'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What happens if you forget to indent the code after an if statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Python adds indentation automatically</li><li><span class="mcq-option-label">B.</span> The code runs normally</li><li><span class="mcq-option-label">C.</span> IndentationError</li><li><span class="mcq-option-label">D.</span> SyntaxWarning</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> Python requires indentation after <code>if</code>, <code>elif</code>, <code>else</code>, and other compound statements. Missing indentation causes an <code>IndentationError</code>. Python never adds indentation automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">In an if-elif-else chain, how many blocks can execute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All of them</li><li><span class="mcq-option-label">B.</span> At most one</li><li><span class="mcq-option-label">C.</span> At least one</li><li><span class="mcq-option-label">D.</span> Exactly one</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: D</strong><br><strong>D is correct</strong> when an else block is present. In an if-elif-else chain, exactly one block executes: either the first if/elif whose condition is True, or the else block if no conditions are True. Without an else, at most one block executes (option B would be correct).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output of: print(bool('False'))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>'False'</code> is a non-empty string, which is truthy. <code>bool('False')</code> returns True. Python does not interpret the content of the string; it only checks whether the string is empty.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is the correct ternary operator syntax in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> condition ? value1 : value2</li><li><span class="mcq-option-label">B.</span> value1 if condition else value2</li><li><span class="mcq-option-label">C.</span> if condition then value1 else value2</li><li><span class="mcq-option-label">D.</span> value1 when condition otherwise value2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python's ternary syntax is <code>value_if_true if condition else value_if_false</code>. Option A is the syntax used in C, Java, and JavaScript. Options C and D are not valid Python syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output?<br><code>x = 10<br>if x > 5: print('A')<br>else: print('B')</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> B</li><li><span class="mcq-option-label">C.</span> A B</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> Short-hand if-else on one line is valid when each block has only one statement. <code>10 &gt; 5</code> is True, so 'A' prints.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output?<br><code>print(None == False)</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>None == False</code> is False. Although both are falsy (they are treated as False in boolean context), they are not equal to each other. <code>None</code> is only equal to <code>None</code>. Similarly, <code>0 == False</code> is True (because bool is a subclass of int), but <code>None == False</code> is False.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What error occurs with this code?<br><code>if True:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('A')<br>&nbsp;&nbsp;print('B')</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> SyntaxError</li><li><span class="mcq-option-label">B.</span> IndentationError</li><li><span class="mcq-option-label">C.</span> NameError</li><li><span class="mcq-option-label">D.</span> No error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The second print has 2 spaces of indentation while the first has 4 spaces. All lines in the same block must have the same indentation level. Python raises an <code>IndentationError: unexpected indent</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the output?<br><code>x = 5<br>y = 10<br>print('Equal' if x == y else 'X bigger' if x > y else 'Y bigger')</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Equal</li><li><span class="mcq-option-label">B.</span> X bigger</li><li><span class="mcq-option-label">C.</span> Y bigger</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Nested ternary: <code>5 == 10</code> is False, go to else. <code>5 &gt; 10</code> is False, go to else. Result: 'Y bigger'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which of these is truthy in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> &#39;&#39;</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> &#39;0&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: D</strong><br><strong>D is correct.</strong> <code>'0'</code> is a non-empty string, making it truthy. <code>0</code> (integer zero), <code>''</code> (empty string), and <code>None</code> are all falsy. This is a frequently tested concept.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is 1 < 2 < 3 < 4 equivalent to in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> ((1 &lt; 2) &lt; 3) &lt; 4</li><li><span class="mcq-option-label">B.</span> 1 &lt; 2 and 2 &lt; 3 and 3 &lt; 4</li><li><span class="mcq-option-label">C.</span> 1 &lt; 4</li><li><span class="mcq-option-label">D.</span> True &lt; 3 &lt; 4</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python's chained comparisons are equivalent to each adjacent pair connected by <code>and</code>. <code>1 &lt; 2 &lt; 3 &lt; 4</code> means <code>1 &lt; 2 and 2 &lt; 3 and 3 &lt; 4</code>. Option A is how most other languages would evaluate it (left to right, which would give a different result). Option D is what option A would produce.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which keyword catches all remaining cases in a conditional chain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> elif</li><li><span class="mcq-option-label">B.</span> else</li><li><span class="mcq-option-label">C.</span> default</li><li><span class="mcq-option-label">D.</span> otherwise</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>else</code> keyword catches all cases not handled by the preceding <code>if</code> and <code>elif</code> blocks. <code>default</code> is used in switch statements in other languages (Python 3.10+ uses <code>case _:</code> for match-case). <code>otherwise</code> is not a Python keyword.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the output?<br><code>if not not True:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('A')<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('B')</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A</li><li><span class="mcq-option-label">B.</span> B</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>not True</code> = False. <code>not False</code> = True. So <code>not not True</code> = True, and 'A' prints. Double negation returns the original value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">Can an if-elif chain exist without an else block?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, else is mandatory</li><li><span class="mcq-option-label">B.</span> Yes, else is optional</li><li><span class="mcq-option-label">C.</span> Only with one elif</li><li><span class="mcq-option-label">D.</span> Only in Python 3.10+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>else</code> block is optional. An if-elif chain without else simply means: if no condition is True, nothing happens (no block executes).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is the output?<br><code>x = 10<br>if x > 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;pass<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Small')<br>print('Done')</code></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Small Done</li><li><span class="mcq-option-label">B.</span> Done</li><li><span class="mcq-option-label">C.</span> Small</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>10 &gt; 5</code> is True, so the if block runs. But the if block contains only <code>pass</code>, which does nothing. The else block is skipped. "Done" is outside the if-else, so it prints. Output: just "Done".</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Voting Eligibility</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that takes a user's age and prints whether they are eligible to vote (age >= 18). Print 'You can vote!' or 'You cannot vote yet. Wait [X] more years.' where X is the years remaining.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter your age: 15</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">You cannot vote yet. Wait 3 more years.</div>
+                </div><div class="challenge-constraints">Use if-else. Calculate remaining years for the else case.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">age = int(input(&quot;Enter your age: &quot;))
+if age &gt;= 18:
+    print(&quot;You can vote!&quot;)
+else:
+    years_left = 18 - age
+    print(&quot;You cannot vote yet. Wait&quot;, years_left, &quot;more years.&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Ticket Price Calculator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">A movie theater charges different prices: Children (under 12): Rs 100, Teens (12-17): Rs 200, Adults (18-59): Rs 300, Seniors (60+): Rs 150. Take age as input and print the ticket price.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter age: 14</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Ticket price: Rs 200</div>
+                </div><div class="challenge-constraints">Use if-elif-else chain.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">age = int(input(&quot;Enter age: &quot;))
+if age &lt; 12:
+    price = 100
+elif age &lt;= 17:
+    price = 200
+elif age &lt;= 59:
+    price = 300
+else:
+    price = 150
+print(&quot;Ticket price: Rs&quot;, price)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Triangle Type Identifier</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Take three sides of a triangle from the user. First check if they can form a valid triangle (sum of any two sides must be greater than the third). If valid, determine if it is equilateral (all equal), isosceles (two equal), or scalene (none equal).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Side 1: 5
+Side 2: 5
+Side 3: 8</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Valid triangle
+Type: Isosceles</div>
+                </div><div class="challenge-constraints">Check validity first. Then check type. Use logical operators.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">a = int(input(&quot;Side 1: &quot;))
+b = int(input(&quot;Side 2: &quot;))
+c = int(input(&quot;Side 3: &quot;))
+
+if a + b &gt; c and b + c &gt; a and a + c &gt; b:
+    print(&quot;Valid triangle&quot;)
+    if a == b == c:
+        print(&quot;Type: Equilateral&quot;)
+    elif a == b or b == c or a == c:
+        print(&quot;Type: Isosceles&quot;)
+    else:
+        print(&quot;Type: Scalene&quot;)
+else:
+    print(&quot;Not a valid triangle&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Grade Calculator with Remarks</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Take marks (0-100) from the user. Validate that marks are between 0 and 100. Then assign grades: A (90-100), B (80-89), C (70-79), D (60-69), E (40-59), F (below 40). Also print a remark: A/B = 'Excellent', C/D = 'Good', E = 'Pass', F = 'Fail'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter marks: 73</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Grade: C
+Remark: Good</div>
+                </div><div class="challenge-constraints">Validate input range first. Use if-elif-else.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">marks = int(input(&quot;Enter marks: &quot;))
+if marks &lt; 0 or marks &gt; 100:
+    print(&quot;Invalid marks! Must be 0-100.&quot;)
+elif marks &gt;= 90:
+    print(&quot;Grade: A&quot;)
+    print(&quot;Remark: Excellent&quot;)
+elif marks &gt;= 80:
+    print(&quot;Grade: B&quot;)
+    print(&quot;Remark: Excellent&quot;)
+elif marks &gt;= 70:
+    print(&quot;Grade: C&quot;)
+    print(&quot;Remark: Good&quot;)
+elif marks &gt;= 60:
+    print(&quot;Grade: D&quot;)
+    print(&quot;Remark: Good&quot;)
+elif marks &gt;= 40:
+    print(&quot;Grade: E&quot;)
+    print(&quot;Remark: Pass&quot;)
+else:
+    print(&quot;Grade: F&quot;)
+    print(&quot;Remark: Fail&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Leap Year Checker</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Take a year from the user and determine if it is a leap year. Rules: A year is a leap year if (1) it is divisible by 4, AND (2) it is NOT divisible by 100, UNLESS (3) it is also divisible by 400. Test with: 2024, 1900, 2000.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter year: 1900</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1900 is NOT a leap year</div>
+                </div><div class="challenge-constraints">Use logical operators (and, or, not). Handle all three rules.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">year = int(input(&quot;Enter year: &quot;))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, &quot;is a leap year&quot;)
+else:
+    print(year, &quot;is NOT a leap year&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Simple Calculator with Operation Choice</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a calculator that takes two numbers and an operation (+, -, *, /) from the user. Perform the chosen operation and print the result. Handle division by zero.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter first number: 20
+Enter second number: 0
+Enter operation (+, -, *, /): /</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Error: Cannot divide by zero!</div>
+                </div><div class="challenge-constraints">Use if-elif-else for operation selection. Check for division by zero.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">num1 = float(input(&quot;Enter first number: &quot;))
+num2 = float(input(&quot;Enter second number: &quot;))
+op = input(&quot;Enter operation (+, -, *, /): &quot;)
+
+if op == &quot;+&quot;:
+    print(&quot;Result:&quot;, num1 + num2)
+elif op == &quot;-&quot;:
+    print(&quot;Result:&quot;, num1 - num2)
+elif op == &quot;*&quot;:
+    print(&quot;Result:&quot;, num1 * num2)
+elif op == &quot;/&quot;:
+    if num2 == 0:
+        print(&quot;Error: Cannot divide by zero!&quot;)
+    else:
+        print(&quot;Result:&quot;, num1 / num2)
+else:
+    print(&quot;Invalid operation!&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: BMI Calculator with Health Category</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take weight (in kg) and height (in meters) from the user. Calculate BMI using the formula: BMI = weight / (height * height). Classify: Underweight (BMI < 18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (30+). Print BMI rounded to 1 decimal place and the category.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter weight (kg): 70
+Enter height (m): 1.75</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">BMI: 22.9
+Category: Normal weight</div>
+                </div><div class="challenge-constraints">Use float(input()) for both values. Validate that both are positive. Round BMI to 1 decimal.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">weight = float(input(&quot;Enter weight (kg): &quot;))
+height = float(input(&quot;Enter height (m): &quot;))
+
+if weight &lt;= 0 or height &lt;= 0:
+    print(&quot;Error: Weight and height must be positive.&quot;)
+else:
+    bmi = weight / (height ** 2)
+    bmi_rounded = round(bmi, 1)
+    print(&quot;BMI:&quot;, bmi_rounded)
+    
+    if bmi &lt; 18.5:
+        print(&quot;Category: Underweight&quot;)
+    elif bmi &lt; 25:
+        print(&quot;Category: Normal weight&quot;)
+    elif bmi &lt; 30:
+        print(&quot;Category: Overweight&quot;)
+    else:
+        print(&quot;Category: Obese&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Electricity Bill Calculator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program for Rohan to calculate his electricity bill. Take units consumed as input. Pricing: First 100 units: Rs 5/unit. Next 100 units (101-200): Rs 7/unit. Next 100 units (201-300): Rs 10/unit. Above 300: Rs 15/unit. Add a fixed charge of Rs 100. Print the total bill.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter units consumed: 250</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Units: 250
+Total bill: Rs 1600</div>
+                </div><div class="challenge-constraints">Use if-elif-else. Calculate charges for each slab separately.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">units = int(input(&quot;Enter units consumed: &quot;))
+fixed_charge = 100
+
+if units &lt;= 100:
+    bill = units * 5
+elif units &lt;= 200:
+    bill = 100 * 5 + (units - 100) * 7
+elif units &lt;= 300:
+    bill = 100 * 5 + 100 * 7 + (units - 200) * 10
+else:
+    bill = 100 * 5 + 100 * 7 + 100 * 10 + (units - 300) * 15
+
+total = bill + fixed_charge
+print(&quot;Units:&quot;, units)
+print(&quot;Total bill: Rs&quot;, total)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Number Classifier</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take a number from the user and print ALL properties that apply: positive/negative/zero, even/odd, divisible by 5, divisible by 3, a single digit number, a two-digit number, a three-digit number. Use separate if statements (not elif) since multiple properties can apply.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter a number: 15</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">15 is positive
+15 is odd
+15 is divisible by 5
+15 is divisible by 3
+15 is a two-digit number</div>
+                </div><div class="challenge-constraints">Use separate if statements (not elif) since multiple conditions can be true simultaneously.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">num = int(input(&quot;Enter a number: &quot;))
+
+if num &gt; 0:
+    print(num, &quot;is positive&quot;)
+elif num &lt; 0:
+    print(num, &quot;is negative&quot;)
+else:
+    print(num, &quot;is zero&quot;)
+
+if num != 0:
+    if num % 2 == 0:
+        print(num, &quot;is even&quot;)
+    else:
+        print(num, &quot;is odd&quot;)
+
+if num % 5 == 0 and num != 0:
+    print(num, &quot;is divisible by 5&quot;)
+
+if num % 3 == 0 and num != 0:
+    print(num, &quot;is divisible by 3&quot;)
+
+abs_num = abs(num)
+if 0 &lt;= abs_num &lt;= 9:
+    print(num, &quot;is a single digit number&quot;)
+elif 10 &lt;= abs_num &lt;= 99:
+    print(num, &quot;is a two-digit number&quot;)
+elif 100 &lt;= abs_num &lt;= 999:
+    print(num, &quot;is a three-digit number&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Password Strength Checker</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Take a password as input and check its strength. Rules: Weak (length < 6), Medium (length 6-9 and contains at least one digit), Strong (length 10+ and contains at least one digit and at least one uppercase letter). Print the strength level. Hint: Use any() with a generator expression or loop through characters.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">Enter password: Hello123World</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Password strength: Strong</div>
+                </div><div class="challenge-constraints">Use len() for length. Use the &#39;in&#39; operator or string methods to check for digits and uppercase. Use nested conditions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">password = input(&quot;Enter password: &quot;)
+length = len(password)
+
+has_digit = False
+has_upper = False
+for char in password:
+    if char.isdigit():
+        has_digit = True
+    if char.isupper():
+        has_upper = True
+
+if length &gt;= 10 and has_digit and has_upper:
+    print(&quot;Password strength: Strong&quot;)
+elif length &gt;= 6 and has_digit:
+    print(&quot;Password strength: Medium&quot;)
+else:
+    print(&quot;Password strength: Weak&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/taking-input-and-type-conversion/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Taking Input and Type Conversion</span>
+        </a>
+            <a href="/resources/python/loops-in-python/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loops in Python (for and while)</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/conditional-statements" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,749 @@
+{
+  "title": "Taking Input and Type Conversion",
+  "slug": "taking-input-and-type-conversion",
+  "language": "python",
+  "chapter": 6,
+  "difficulty": "Beginner",
+  "readingTime": "16 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Taking Input and Type Conversion in Python - input(), int(), float(), str() | Modern Age Coders",
+    "description": "Learn how to take user input with input(), convert between data types using int(), float(), str(), and handle type conversion errors. Includes 57 practice questions with tricky edge cases.",
+    "keywords": "python input function, type casting python, int() float() str() python, python user input, python type conversion, python input from user, type casting in python for beginners"
+  },
+  "content": {
+    "what": "<h2>What Are Input and Type Conversion?</h2><p><strong>Input</strong> means receiving data from the user while the program is running. Instead of hardcoding values like <code>name = \"Aarav\"</code> or <code>age = 14</code>, you ask the user to type their own name and age. This makes your program interactive and useful for different people.</p><p>The <code>input()</code> function is Python's built-in way to take input from the user. When Python reaches an <code>input()</code> call, it pauses the program, waits for the user to type something and press Enter, and then returns whatever they typed as a <strong>string</strong>.</p><h3>What Is Type Conversion?</h3><p><strong>Type conversion</strong> (also called <strong>type casting</strong>) is the process of changing a value from one data type to another. For example, converting the string <code>\"42\"</code> into the integer <code>42</code>, or converting the integer <code>10</code> into the string <code>\"10\"</code>.</p><p>Type conversion is essential because <code>input()</code> always returns a string, even if the user types a number. If Priya types <code>85</code> when asked for her marks, Python receives <code>\"85\"</code> (a string), not <code>85</code> (a number). You cannot do math with strings, so you must convert the string to a number before performing calculations.</p>",
+    "why": "<h2>Why Do You Need Input and Type Conversion?</h2><h3>1. Making Programs Interactive</h3><p>Without input, your programs can only work with pre-written values. A calculator that only adds 5 + 3 is not very useful. But a calculator that asks the user for two numbers and then adds them can be used by anyone, anytime, with any numbers. Input transforms a static script into a dynamic, reusable tool.</p><h3>2. The Critical Rule: input() Always Returns a String</h3><p>This is the single most important fact in this chapter. No matter what the user types — a number, a decimal, even <code>True</code> — the <code>input()</code> function <strong>always returns a string</strong>. If the user types <code>25</code>, Python stores it as <code>\"25\"</code>. If you try to do <code>\"25\" + \"10\"</code>, you get <code>\"2510\"</code> (string concatenation), not <code>35</code> (addition). This is why type conversion is not optional — it is mandatory whenever you need to do math with user input.</p><h3>3. Preventing Errors in Your Programs</h3><p>If you try to convert a value that cannot be converted (like <code>int(\"hello\")</code>), Python raises a <code>ValueError</code>. Understanding type conversion helps you write programs that handle invalid input gracefully instead of crashing.</p><h3>4. Building Real Applications</h3><p>Every real program takes input: login forms ask for usernames and passwords, calculators ask for numbers, games ask for player choices, and surveys ask for responses. Mastering <code>input()</code> and type conversion is the foundation for all interactive programming.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The input() Function</h3><p>The <code>input()</code> function has a simple syntax:</p><pre><code>variable = input(prompt_message)</code></pre><p>The <code>prompt_message</code> is an optional string that is displayed to the user before they type. It tells the user what to enter. For example:</p><pre><code>name = input(\"Enter your name: \")</code></pre><p>When Python executes this line, it prints <code>Enter your name: </code> on the screen and waits. The user types their name (say, \"Rohan\") and presses Enter. Python then stores <code>\"Rohan\"</code> in the variable <code>name</code>.</p><h4>Key Facts About input()</h4><ul><li>It <strong>always returns a string</strong> — this is the most important thing to remember.</li><li>The prompt message is optional. <code>input()</code> with no argument still works; it just shows a blank cursor.</li><li>The program <strong>pauses</strong> until the user presses Enter.</li><li>The trailing newline (when the user presses Enter) is <strong>stripped automatically</strong> — it is not included in the returned string.</li><li>If you add a space at the end of the prompt (<code>\"Enter name: \"</code>), the cursor appears right after the colon, which looks cleaner.</li></ul><h3>2. Why input() Returns a String</h3><p>You might wonder: if the user types <code>25</code>, why does Python not automatically store it as an integer? The reason is that Python has no way to know what the user intends. Consider this: if the user types <code>007</code>, should Python store it as the integer 7 (dropping leading zeros) or as the string <code>\"007\"</code> (preserving the format, like a secret agent code)? If the user types <code>110</code>, is it a number or a binary string?</p><p>By always returning a string, Python gives you the raw data and lets you decide how to interpret it. This is a deliberate design choice that avoids ambiguity.</p><h3>3. Type Conversion Functions</h3><p>Python provides built-in functions to convert between types:</p><table><tr><th>Function</th><th>Converts To</th><th>Example</th><th>Result</th></tr><tr><td><code>int()</code></td><td>Integer</td><td><code>int(\"42\")</code></td><td><code>42</code></td></tr><tr><td><code>float()</code></td><td>Float</td><td><code>float(\"3.14\")</code></td><td><code>3.14</code></td></tr><tr><td><code>str()</code></td><td>String</td><td><code>str(42)</code></td><td><code>\"42\"</code></td></tr><tr><td><code>bool()</code></td><td>Boolean</td><td><code>bool(1)</code></td><td><code>True</code></td></tr></table><h4>int() - Converting to Integer</h4><p>The <code>int()</code> function converts a value to an integer. It works with:</p><ul><li><strong>Strings containing whole numbers:</strong> <code>int(\"42\")</code> gives <code>42</code></li><li><strong>Floats (truncates toward zero):</strong> <code>int(3.9)</code> gives <code>3</code>, <code>int(-3.9)</code> gives <code>-3</code></li><li><strong>Booleans:</strong> <code>int(True)</code> gives <code>1</code>, <code>int(False)</code> gives <code>0</code></li></ul><p>Important: <code>int()</code> <strong>cannot</strong> convert a string that contains a decimal point. <code>int(\"3.14\")</code> raises a <code>ValueError</code>. You must first convert to float, then to int: <code>int(float(\"3.14\"))</code>.</p><h4>float() - Converting to Float</h4><p>The <code>float()</code> function converts a value to a floating-point number:</p><ul><li><strong>Strings containing numbers:</strong> <code>float(\"3.14\")</code> gives <code>3.14</code>, <code>float(\"42\")</code> gives <code>42.0</code></li><li><strong>Integers:</strong> <code>float(42)</code> gives <code>42.0</code></li><li><strong>Booleans:</strong> <code>float(True)</code> gives <code>1.0</code></li></ul><p><code>float()</code> is more flexible than <code>int()</code> — it can handle strings with or without decimal points.</p><h4>str() - Converting to String</h4><p>The <code>str()</code> function converts any value to its string representation:</p><ul><li><code>str(42)</code> gives <code>\"42\"</code></li><li><code>str(3.14)</code> gives <code>\"3.14\"</code></li><li><code>str(True)</code> gives <code>\"True\"</code></li></ul><p>This is useful when you want to concatenate a number with text: <code>\"Your score is \" + str(95)</code>.</p><h3>4. The Common Pattern: int(input())</h3><p>Since <code>input()</code> returns a string and you often need a number, the most common pattern is to wrap <code>input()</code> inside a conversion function:</p><pre><code>age = int(input(\"Enter your age: \"))\nheight = float(input(\"Enter your height in cm: \"))</code></pre><p>This is called <strong>nesting</strong> function calls. Python evaluates from the inside out: first <code>input()</code> gets the string from the user, then <code>int()</code> or <code>float()</code> converts it to a number.</p><h3>5. ValueError: When Conversion Fails</h3><p>If you try to convert a value that does not make sense for the target type, Python raises a <code>ValueError</code>:</p><ul><li><code>int(\"hello\")</code> — ValueError (\"hello\" is not a number)</li><li><code>int(\"3.14\")</code> — ValueError (contains a decimal point; int cannot handle this directly)</li><li><code>int(\"\")</code> — ValueError (empty string)</li><li><code>float(\"abc\")</code> — ValueError (\"abc\" is not a number)</li></ul><p>You will learn how to handle these errors gracefully using <code>try-except</code> in a later chapter. For now, always make sure the user enters valid data.</p><h3>6. Chaining Conversions</h3><p>Sometimes you need to convert through an intermediate type. The most common case is converting a decimal string to an integer:</p><pre><code># This fails:\n# int(\"3.14\")  -> ValueError\n\n# This works (chain through float):\nresult = int(float(\"3.14\"))  # float(\"3.14\") = 3.14, int(3.14) = 3\n</code></pre><p>Another example: converting a Boolean to a string representation of an integer:</p><pre><code>str(int(True))  # int(True) = 1, str(1) = \"1\"</code></pre><h3>7. Multiple Inputs on One Line</h3><p>You can take multiple inputs on one line using the <code>split()</code> method:</p><pre><code>a, b = input(\"Enter two numbers: \").split()\na = int(a)\nb = int(b)</code></pre><p>Or more concisely using <code>map()</code>:</p><pre><code>a, b = map(int, input(\"Enter two numbers: \").split())</code></pre><p>When the user types <code>10 20</code>, <code>split()</code> breaks it into <code>[\"10\", \"20\"]</code>, and <code>map(int, ...)</code> converts each element to an integer.</p><h3>8. A Note on eval() (And Why to Avoid It)</h3><p>Python has a function called <code>eval()</code> that evaluates a string as a Python expression:</p><pre><code>result = eval(\"2 + 3\")  # result = 5\nresult = eval(input(\"Enter expression: \"))  # User types 2+3, gets 5</code></pre><p>While <code>eval()</code> seems convenient, it is <strong>extremely dangerous</strong> and should never be used with user input. If a malicious user types something like <code>__import__('os').system('rm -rf /')</code>, <code>eval()</code> would execute it as Python code, potentially deleting files or causing other damage. <strong>Never use <code>eval()</code> with <code>input()</code></strong>. Always use explicit type conversion functions like <code>int()</code> and <code>float()</code> instead.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic input() Usage",
+        "code": "name = input(\"Enter your name: \")\nprint(\"Hello,\", name)\nprint(\"Type of name:\", type(name))",
+        "language": "python",
+        "explanation": "The <code>input()</code> function displays the prompt, waits for the user to type, and stores the result in <code>name</code>. The <code>type()</code> function confirms that the result is always a string, regardless of what the user types.",
+        "output": "Enter your name: Aarav\nHello, Aarav\nType of name: <class 'str'>"
+      },
+      {
+        "title": "The Problem: input() Returns a String",
+        "code": "# Without conversion - WRONG result!\nnum1 = input(\"Enter first number: \")   # User types 10\nnum2 = input(\"Enter second number: \")  # User types 20\nresult = num1 + num2\nprint(\"Result:\", result)\nprint(\"Type:\", type(result))",
+        "language": "python",
+        "explanation": "This demonstrates the most common beginner mistake. When Priya enters 10 and 20, she expects the result to be 30. But since <code>input()</code> returns strings, <code>\"10\" + \"20\"</code> performs string concatenation and gives <code>\"1020\"</code>. The <code>+</code> operator with strings joins them together instead of adding numerically.",
+        "output": "Enter first number: 10\nEnter second number: 20\nResult: 1020\nType: <class 'str'>"
+      },
+      {
+        "title": "The Solution: int(input()) for Numeric Input",
+        "code": "# With conversion - CORRECT!\nnum1 = int(input(\"Enter first number: \"))   # User types 10\nnum2 = int(input(\"Enter second number: \"))  # User types 20\nresult = num1 + num2\nprint(\"Result:\", result)\nprint(\"Type:\", type(result))",
+        "language": "python",
+        "explanation": "By wrapping <code>input()</code> inside <code>int()</code>, the string <code>\"10\"</code> is converted to the integer <code>10</code>, and <code>\"20\"</code> becomes <code>20</code>. Now <code>10 + 20</code> performs arithmetic addition and gives <code>30</code>. This is the correct approach for taking numeric input.",
+        "output": "Enter first number: 10\nEnter second number: 20\nResult: 30\nType: <class 'int'>"
+      },
+      {
+        "title": "Type Conversion Functions in Action",
+        "code": "# String to int\nage_str = \"14\"\nage = int(age_str)\nprint(age, type(age))\n\n# String to float\nprice_str = \"99.50\"\nprice = float(price_str)\nprint(price, type(price))\n\n# Int to float\ncount = 10\ncount_float = float(count)\nprint(count_float, type(count_float))\n\n# Float to int (truncates toward zero)\ntemperature = 36.7\ntemp_int = int(temperature)\nprint(temp_int, type(temp_int))\n\n# Negative float to int (truncates toward zero)\nneg_temp = -3.8\nneg_int = int(neg_temp)\nprint(neg_int, type(neg_int))\n\n# Number to string\nscore = 95\nscore_str = str(score)\nprint(score_str, type(score_str))",
+        "language": "python",
+        "explanation": "This demonstrates all major type conversions. Notice that <code>int(36.7)</code> gives 36 (truncates toward zero, does NOT round). Similarly, <code>int(-3.8)</code> gives -3, not -4. This is different from floor division which rounds toward negative infinity. The <code>str()</code> function converts any value to its string representation.",
+        "output": "14 <class 'int'>\n99.5 <class 'float'>\n10.0 <class 'float'>\n36 <class 'int'>\n-3 <class 'int'>\n95 <class 'str'>"
+      },
+      {
+        "title": "Building a Simple Calculator",
+        "code": "print(\"=== Simple Calculator ===\")\nnum1 = float(input(\"Enter first number: \"))\nnum2 = float(input(\"Enter second number: \"))\n\nprint(\"\\nResults:\")\nprint(num1, \"+\", num2, \"=\", num1 + num2)\nprint(num1, \"-\", num2, \"=\", num1 - num2)\nprint(num1, \"*\", num2, \"=\", num1 * num2)\nprint(num1, \"/\", num2, \"=\", num1 / num2)",
+        "language": "python",
+        "explanation": "We use <code>float(input())</code> instead of <code>int(input())</code> so the calculator can handle both whole numbers and decimals. If Rohan enters 15 and 4, it displays all four basic operations. Using <code>float()</code> is more flexible than <code>int()</code> for a calculator because it accepts both integer and decimal inputs.",
+        "output": "=== Simple Calculator ===\nEnter first number: 15\nEnter second number: 4\n\nResults:\n15.0 + 4.0 = 19.0\n15.0 - 4.0 = 11.0\n15.0 * 4.0 = 60.0\n15.0 / 4.0 = 3.75"
+      },
+      {
+        "title": "Chaining Conversions and Edge Cases",
+        "code": "# Chain: string -> float -> int\nvalue = \"7.89\"\nresult = int(float(value))\nprint(\"int(float('7.89')) =\", result)\n\n# Boolean conversions\nprint(\"\\nBoolean conversions:\")\nprint(\"int(True) =\", int(True))\nprint(\"int(False) =\", int(False))\nprint(\"float(True) =\", float(True))\nprint(\"str(True) =\", str(True))\nprint(\"bool(1) =\", bool(1))\nprint(\"bool(0) =\", bool(0))\nprint(\"bool('hello') =\", bool(\"hello\"))\nprint(\"bool('') =\", bool(\"\"))",
+        "language": "python",
+        "explanation": "Chaining conversions is needed when you cannot convert directly. <code>int(\"7.89\")</code> would crash, but <code>int(float(\"7.89\"))</code> works by first converting to float 7.89, then truncating to int 7. Boolean conversions follow these rules: 0, 0.0, empty string, and None are False; everything else is True. <code>int(True)</code> gives 1 and <code>int(False)</code> gives 0.",
+        "output": "int(float('7.89')) = 7\n\nBoolean conversions:\nint(True) = 1\nint(False) = 0\nfloat(True) = 1.0\nstr(True) = True\nbool(1) = True\nbool(0) = False\nbool('hello') = True\nbool('') = False"
+      },
+      {
+        "title": "Multiple Inputs Using split()",
+        "code": "# Taking two numbers on one line\nprint(\"Enter two numbers separated by space:\")\na, b = input().split()\na = int(a)\nb = int(b)\nprint(\"Sum:\", a + b)\nprint(\"Product:\", a * b)\n\n# Shorter version using map()\nprint(\"\\nEnter two more numbers:\")\nx, y = map(int, input().split())\nprint(\"Sum:\", x + y)",
+        "language": "python",
+        "explanation": "The <code>split()</code> method breaks a string into a list of parts wherever there is a space. When Ananya types <code>10 20</code>, <code>split()</code> returns <code>[\"10\", \"20\"]</code>, and the two values are unpacked into <code>a</code> and <code>b</code>. The <code>map(int, ...)</code> version applies <code>int()</code> to each element automatically, making the code shorter.",
+        "output": "Enter two numbers separated by space:\n10 20\nSum: 30\nProduct: 200\n\nEnter two more numbers:\n5 8\nSum: 13"
+      },
+      {
+        "title": "Common ValueError Situations",
+        "code": "# These will cause ValueError - shown for learning\n# DO NOT run these without try-except\n\n# Attempting to show what fails:\nprint(\"Valid conversions:\")\nprint(int(\"42\"))       # Works: 42\nprint(float(\"3.14\"))   # Works: 3.14\nprint(int(3.99))       # Works: 3 (truncates)\n\nprint(\"\\nWhat would cause ValueError:\")\nprint(\"int('hello') -> ValueError: invalid literal for int()\")\nprint(\"int('3.14') -> ValueError: cannot convert decimal string directly\")\nprint(\"int('') -> ValueError: empty string\")\nprint(\"float('abc') -> ValueError: could not convert string to float\")\n\n# The safe way to convert decimal string to int:\nprint(\"\\nSafe chain conversion:\")\nprint(\"int(float('3.14')) =\", int(float(\"3.14\")))",
+        "language": "python",
+        "explanation": "This shows which conversions work and which fail. The most surprising one for beginners is that <code>int(\"3.14\")</code> fails even though 3.14 is clearly a number. Python's <code>int()</code> requires a clean integer string. To convert a decimal string to an integer, you must chain through <code>float()</code> first: <code>int(float(\"3.14\"))</code>.",
+        "output": "Valid conversions:\n42\n3.14\n3\n\nWhat would cause ValueError:\nint('hello') -> ValueError: invalid literal for int()\nint('3.14') -> ValueError: cannot convert decimal string directly\nint('') -> ValueError: empty string\nfloat('abc') -> ValueError: could not convert string to float\n\nSafe chain conversion:\nint(float('3.14')) = 3"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Doing Math with String Input (Not Converting)",
+        "wrongCode": "num1 = input(\"Enter a number: \")  # User types 5\nnum2 = input(\"Enter a number: \")  # User types 3\nprint(num1 + num2)",
+        "error": "No error, but output is '53' instead of 8 (string concatenation instead of addition)",
+        "correctCode": "num1 = int(input(\"Enter a number: \"))\nnum2 = int(input(\"Enter a number: \"))\nprint(num1 + num2)",
+        "explanation": "Since <code>input()</code> returns strings, <code>\"5\" + \"3\"</code> concatenates to <code>\"53\"</code>. To get the mathematical sum 8, you must convert the input to integers using <code>int()</code>. This is the number one mistake beginners make with <code>input()</code>."
+      },
+      {
+        "title": "Using int() on a Decimal String",
+        "wrongCode": "price = int(input(\"Enter price: \"))  # User types 29.99",
+        "error": "ValueError: invalid literal for int() with base 10: '29.99'",
+        "correctCode": "price = float(input(\"Enter price: \"))  # Use float for decimals\n# Or chain: price = int(float(input(\"Enter price: \")))",
+        "explanation": "The <code>int()</code> function cannot directly convert a string that contains a decimal point. <code>int(\"29.99\")</code> raises a ValueError. Use <code>float()</code> instead, or chain <code>int(float(...))</code> if you need an integer from a decimal input."
+      },
+      {
+        "title": "Trying to Multiply a String with No Conversion",
+        "wrongCode": "quantity = input(\"How many items? \")  # User types 3\nprice = 50\ntotal = quantity * price\nprint(\"Total:\", total)",
+        "error": "Output is '505050' (string '3' repeated 50 times) or TypeError depending on the operation",
+        "correctCode": "quantity = int(input(\"How many items? \"))\nprice = 50\ntotal = quantity * price\nprint(\"Total:\", total)",
+        "explanation": "In Python, multiplying a string by an integer repeats the string. <code>\"3\" * 50</code> creates a string of fifty 3s: <code>\"33333...3\"</code>. You must convert <code>quantity</code> to an integer first so that <code>3 * 50</code> gives 150."
+      },
+      {
+        "title": "Forgetting the Prompt Message",
+        "wrongCode": "name = input()\n# Program pauses with no indication of what to type",
+        "error": "No error, but the user sees a blank cursor with no instructions.",
+        "correctCode": "name = input(\"Enter your name: \")\n# User knows what to type",
+        "explanation": "While <code>input()</code> works without a prompt, the user has no idea what to enter. Always include a clear prompt message. Add a space at the end of the prompt (<code>\"Enter name: \"</code>) so the cursor does not appear right next to the colon."
+      },
+      {
+        "title": "Using eval() with User Input",
+        "wrongCode": "result = eval(input(\"Enter an expression: \"))",
+        "error": "Security vulnerability. A malicious user could execute harmful code.",
+        "correctCode": "# Instead of eval(), use explicit conversion:\nnum = int(input(\"Enter a number: \"))\n\n# If you need to evaluate math, use specific operations:\na = float(input(\"Enter first number: \"))\nb = float(input(\"Enter second number: \"))\nprint(\"Sum:\", a + b)",
+        "explanation": "<code>eval()</code> executes any Python code the user types. This is a serious security risk. A malicious user could type <code>__import__('os').system('del *')</code> and delete files. Always use <code>int()</code> or <code>float()</code> for numeric input. There is never a good reason to use <code>eval()</code> with user input."
+      }
+    ],
+    "summary": [
+      "The input() function takes user input from the keyboard. It always returns a string, regardless of what the user types.",
+      "To take numeric input, wrap input() inside int() or float(): age = int(input('Enter age: ')) or price = float(input('Enter price: ')).",
+      "int() converts to integer. It works with strings of whole numbers, floats (truncates toward zero), and Booleans (True=1, False=0).",
+      "float() converts to float. It is more flexible than int() and can handle both integer and decimal strings.",
+      "str() converts any value to its string representation. Useful for concatenating numbers with text.",
+      "int() cannot directly convert a decimal string like '3.14'. Use int(float('3.14')) to chain the conversion.",
+      "A ValueError occurs when conversion is impossible, such as int('hello') or int(''). Always ensure input data is valid.",
+      "Use split() to take multiple inputs on one line: a, b = input().split(). Use map() for automatic conversion: a, b = map(int, input().split()).",
+      "Never use eval() with user input due to severe security risks. Always use explicit type conversion functions instead.",
+      "The most common mistake is doing math with unconverted string input. '5' + '3' gives '53' (concatenation), not 8 (addition)."
+    ]
+  },
+  "relatedTopics": ["operators-in-python", "conditional-statements"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "conceptual",
+        "difficulty": "Easy",
+        "question": "What data type does the input() function always return?",
+        "hint": "No matter what the user types, input() returns the same type.",
+        "answer": "The <code>input()</code> function always returns a <strong>string</strong> (<code>str</code>).",
+        "explanation": "Even if the user types a number like 42, input() returns the string \"42\", not the integer 42. This is Python's design choice to avoid ambiguity about how to interpret the user's input."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user types 5 and 3?<br><pre><code>a = input(\"Enter a: \")\nb = input(\"Enter b: \")\nprint(a + b)</code></pre>",
+        "hint": "Remember: input() returns strings. What does + do with strings?",
+        "answer": "<code>53</code>",
+        "explanation": "Since <code>input()</code> returns strings, <code>a</code> is <code>\"5\"</code> and <code>b</code> is <code>\"3\"</code>. The <code>+</code> operator with strings performs concatenation: <code>\"5\" + \"3\"</code> = <code>\"53\"</code>. To get 8, you would need to convert to int first."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(type(input()))</code></pre><p>Assume the user types: 42</p>",
+        "hint": "input() always returns the same type.",
+        "answer": "<code>&lt;class 'str'&gt;</code>",
+        "explanation": "No matter what the user types, <code>input()</code> returns a string. Even though 42 looks like a number, it is received as <code>\"42\"</code> (a string). The <code>type()</code> function confirms this."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = int(\"25\")\ny = float(\"3.14\")\nz = str(100)\nprint(x, type(x))\nprint(y, type(y))\nprint(z, type(z))</code></pre>",
+        "hint": "Each conversion function changes the type.",
+        "answer": "<code>25 &lt;class 'int'&gt;</code><br><code>3.14 &lt;class 'float'&gt;</code><br><code>100 &lt;class 'str'&gt;</code>",
+        "explanation": "<code>int(\"25\")</code> converts the string to integer 25. <code>float(\"3.14\")</code> converts to float 3.14. <code>str(100)</code> converts the integer to string \"100\". Each conversion function creates a new value of the target type."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(int(7.9))\nprint(int(-7.9))</code></pre>",
+        "hint": "int() truncates toward zero, not toward negative infinity.",
+        "answer": "<code>7</code><br><code>-7</code>",
+        "explanation": "<code>int()</code> truncates toward zero (removes the decimal part). <code>int(7.9)</code> gives 7 (drops .9). <code>int(-7.9)</code> gives -7 (not -8). This is different from floor division (<code>//</code>) which rounds toward negative infinity."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What happens when this code runs?<br><pre><code>x = int(\"3.14\")</code></pre>",
+        "hint": "Can int() handle a string with a decimal point?",
+        "answer": "It raises a <code>ValueError: invalid literal for int() with base 10: '3.14'</code>",
+        "explanation": "The <code>int()</code> function cannot directly convert a string containing a decimal point. It expects a clean integer string like \"42\" or \"-7\". To convert \"3.14\" to an integer, you must chain: <code>int(float(\"3.14\"))</code> = <code>int(3.14)</code> = <code>3</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(int(float(\"9.75\")))</code></pre>",
+        "hint": "Evaluate from the inside out: float() first, then int().",
+        "answer": "<code>9</code>",
+        "explanation": "Evaluating from inside out: <code>float(\"9.75\")</code> gives <code>9.75</code>. Then <code>int(9.75)</code> truncates to <code>9</code>. This chaining pattern is necessary because <code>int(\"9.75\")</code> would raise a ValueError."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>print(int(True))\nprint(int(False))\nprint(float(True))\nprint(bool(0))\nprint(bool(\"\"))\nprint(bool(\"0\"))</code></pre>",
+        "hint": "True is 1, False is 0. For bool(), 0 and empty strings are False, but '0' is a non-empty string.",
+        "answer": "<code>1</code><br><code>0</code><br><code>1.0</code><br><code>False</code><br><code>False</code><br><code>True</code>",
+        "explanation": "<code>int(True)</code> = 1, <code>int(False)</code> = 0. <code>float(True)</code> = 1.0. <code>bool(0)</code> = False (0 is falsy). <code>bool(\"\")</code> = False (empty string is falsy). <code>bool(\"0\")</code> = True because <code>\"0\"</code> is a non-empty string. The string contains the character 0, but it is not the integer 0."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user types <code>10 20 30</code>?<br><pre><code>a, b, c = input(\"Enter three numbers: \").split()\nprint(a, b, c)\nprint(type(a))</code></pre>",
+        "hint": "split() returns strings. Does it automatically convert to numbers?",
+        "answer": "<code>10 20 30</code><br><code>&lt;class 'str'&gt;</code>",
+        "explanation": "The <code>split()</code> method splits the input string by spaces into a list <code>[\"10\", \"20\", \"30\"]</code>. These are unpacked into a, b, c. But they are still strings. <code>split()</code> does not convert types; it only splits the string. You need <code>map(int, ...)</code> for numeric conversion."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(int(\"  42  \"))</code></pre>",
+        "hint": "Does int() handle leading and trailing whitespace?",
+        "answer": "<code>42</code>",
+        "explanation": "The <code>int()</code> function automatically strips leading and trailing whitespace before converting. So <code>int(\"  42  \")</code> works fine and gives 42. Similarly, <code>float(\" 3.14 \")</code> gives 3.14. This is a helpful feature when dealing with user input that might have extra spaces."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = input()  # User types nothing, just presses Enter\nprint(repr(x))\nprint(len(x))\nprint(type(x))</code></pre>",
+        "hint": "What does input() return when the user just presses Enter without typing anything?",
+        "answer": "<code>''</code><br><code>0</code><br><code>&lt;class 'str'&gt;</code>",
+        "explanation": "When the user presses Enter without typing anything, <code>input()</code> returns an empty string <code>\"\"</code>. The <code>repr()</code> function shows the string with quotes for clarity. The length is 0, and the type is still <code>str</code>. Note: <code>int(\"\") </code> would raise a ValueError."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(str(int(float(\"3.99\"))))</code></pre>",
+        "hint": "Evaluate from the innermost function outward.",
+        "answer": "<code>3</code>",
+        "explanation": "From inside out: <code>float(\"3.99\")</code> = 3.99. Then <code>int(3.99)</code> = 3 (truncates). Then <code>str(3)</code> = \"3\". The print outputs <code>3</code> (which is the string \"3\", but it looks the same when printed)."
+      },
+      {
+        "id": "ts-13",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between int(3.9) and int(-3.9)? Why?",
+        "hint": "int() truncates toward zero, not toward negative infinity.",
+        "answer": "<code>int(3.9)</code> gives <code>3</code> and <code>int(-3.9)</code> gives <code>-3</code>. The <code>int()</code> function truncates toward zero, meaning it simply removes the decimal part. For positive numbers it rounds down, for negative numbers it rounds up (toward zero).",
+        "explanation": "This is different from floor division (<code>//</code>) which rounds toward negative infinity. <code>-3.9 // 1</code> gives <code>-4.0</code>, but <code>int(-3.9)</code> gives <code>-3</code>. The <code>int()</code> function always moves toward zero, while <code>//</code> always moves toward negative infinity."
+      },
+      {
+        "id": "ts-14",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why does int(\"3.14\") raise a ValueError, but int(3.14) works fine? Both involve the value 3.14.",
+        "hint": "Think about what int() expects when given a string vs a float.",
+        "answer": "<code>int(3.14)</code> works because Python knows how to truncate a float to an integer (remove the decimal part, giving 3). But <code>int(\"3.14\")</code> fails because when <code>int()</code> receives a string, it expects the string to contain <strong>only digits</strong> (optionally with a leading - sign). The decimal point is not a digit, so it raises ValueError.",
+        "explanation": "The <code>int()</code> function has different behavior depending on the input type. For floats, it truncates. For strings, it parses the string as a base-10 integer, which means only digits and an optional minus sign are allowed. This is a design choice: when given a string, Python does not assume you want truncation; you might want rounding or ceiling. The solution is to chain: <code>int(float(\"3.14\"))</code>."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = \"5\"\nprint(x * 3)\nprint(int(x) * 3)</code></pre>",
+        "hint": "Multiplying a string by a number repeats the string. Multiplying an integer by a number performs arithmetic.",
+        "answer": "<code>555</code><br><code>15</code>",
+        "explanation": "<code>\"5\" * 3</code> repeats the string 3 times: <code>\"555\"</code>. But <code>int(\"5\") * 3</code> = <code>5 * 3</code> = <code>15</code> (arithmetic). This shows exactly why type conversion matters: the same operator behaves completely differently depending on the data type."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(bool(\"False\"))\nprint(bool(\"\"))\nprint(bool(\" \"))</code></pre>",
+        "hint": "Any non-empty string is truthy, even if it contains the word 'False'.",
+        "answer": "<code>True</code><br><code>False</code><br><code>True</code>",
+        "explanation": "<code>bool(\"False\")</code> is <code>True</code> because <code>\"False\"</code> is a non-empty string. Python does not interpret the string's content; it only checks if the string is empty or not. <code>bool(\"\")</code> is False (empty string). <code>bool(\" \")</code> is True because a space character makes it non-empty."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(str(42) + str(8))</code></pre>",
+        "hint": "Both values are converted to strings first.",
+        "answer": "<code>428</code>",
+        "explanation": "<code>str(42)</code> gives <code>\"42\"</code> and <code>str(8)</code> gives <code>\"8\"</code>. The <code>+</code> operator with strings concatenates: <code>\"42\" + \"8\"</code> = <code>\"428\"</code>."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between split() and map() when taking multiple inputs?",
+        "hint": "split() divides the string, map() applies a function to each part.",
+        "answer": "<code>split()</code> divides a string into a list of substrings based on a separator (default: space). <code>map()</code> applies a function to every element of an iterable. When combined as <code>map(int, input().split())</code>, <code>split()</code> breaks the input into strings, and <code>map(int, ...)</code> converts each string to an integer.",
+        "explanation": "Without <code>map()</code>, you would need to convert each value separately: <code>a, b = input().split()</code> followed by <code>a = int(a)</code> and <code>b = int(b)</code>. With <code>map()</code>, it is done in one line: <code>a, b = map(int, input().split())</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output if the user types <code>Priya</code>?<br><pre><code>name = input(\"Name: \")\nprint(\"Hello, \" + name + \"!\")</code></pre>",
+        "hint": "String concatenation with the + operator.",
+        "answer": "<code>Hello, Priya!</code>",
+        "explanation": "The user types \"Priya\", which is stored in <code>name</code>. String concatenation joins <code>\"Hello, \"</code> + <code>\"Priya\"</code> + <code>\"!\"</code> to produce <code>\"Hello, Priya!\"</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that asks the user for their name and age, then prints: 'My name is [name] and I am [age] years old.'",
+        "hint": "Use input() for both values. Age does not need conversion since you are just printing it.",
+        "answer": "<pre><code>name = input(\"Enter your name: \")\nage = input(\"Enter your age: \")\nprint(\"My name is\", name, \"and I am\", age, \"years old.\")</code></pre>",
+        "explanation": "Since we are only printing the age (not doing math with it), we do not need to convert it to int. The <code>print()</code> function with commas automatically adds spaces between values."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output if the user types 8?<br><pre><code>num = input(\"Number: \")\nresult = num * 3\nprint(result)\nprint(type(result))</code></pre>",
+        "hint": "num is a string. What does * do with a string and an integer?",
+        "answer": "<code>888</code><br><code>&lt;class 'str'&gt;</code>",
+        "explanation": "Since <code>num</code> is the string <code>\"8\"</code>, <code>\"8\" * 3</code> repeats the string 3 times, giving <code>\"888\"</code>. The result is still a string. To get the mathematical result 24, you would need <code>int(num) * 3</code>."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that asks the user for the radius of a circle and prints the area. Use pi = 3.14159. The formula is: area = pi * radius^2.",
+        "hint": "Use float(input()) for the radius since it could be a decimal.",
+        "answer": "<pre><code>radius = float(input(\"Enter the radius: \"))\npi = 3.14159\narea = pi * radius ** 2\nprint(\"Area of the circle:\", area)</code></pre>",
+        "explanation": "We use <code>float(input())</code> because the radius could be a decimal (like 2.5). The formula <code>pi * radius ** 2</code> correctly uses the exponentiation operator. If the user enters 5, the area is 3.14159 * 25 = 78.53975."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = \"10\"\nb = \"3\"\nprint(a + b)\nprint(int(a) + int(b))\nprint(a * int(b))</code></pre>",
+        "hint": "Line 1: string + string. Line 2: int + int. Line 3: string * int.",
+        "answer": "<code>103</code><br><code>13</code><br><code>101010</code>",
+        "explanation": "Line 1: <code>\"10\" + \"3\"</code> = <code>\"103\"</code> (concatenation). Line 2: <code>10 + 3</code> = <code>13</code> (arithmetic). Line 3: <code>\"10\" * 3</code> = <code>\"101010\"</code> (string repetition). Each line demonstrates a different behavior depending on the types involved."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = float(\"10\")\nprint(x)\nprint(x == 10)\nprint(x == 10.0)</code></pre>",
+        "hint": "float('10') gives 10.0. Does 10.0 equal 10?",
+        "answer": "<code>10.0</code><br><code>True</code><br><code>True</code>",
+        "explanation": "<code>float(\"10\")</code> gives <code>10.0</code>. Python considers <code>10.0 == 10</code> as True because they have the same numerical value, even though one is a float and the other is an int. Similarly, <code>10.0 == 10.0</code> is True."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain why eval() is dangerous to use with input(). Give a specific example of what could go wrong.",
+        "hint": "eval() executes any Python code the user types.",
+        "answer": "<code>eval()</code> evaluates a string as a Python expression and executes it. If used with <code>input()</code>, a malicious user could type any Python code instead of a number. For example, typing <code>__import__('os').system('rm -rf /')</code> would attempt to delete all files on the system. Even typing <code>__import__('os').listdir('.')</code> would expose the file system.",
+        "explanation": "The <code>eval()</code> function has no restrictions on what code it can execute. It has full access to Python's capabilities, including file operations, network access, and system commands. This makes it a critical security vulnerability when combined with user input. Always use <code>int()</code> or <code>float()</code> for numeric conversion."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = \"5\"\nb = 2\nprint(a + str(b))\nprint(int(a) + b)\nprint(float(a) + b)</code></pre>",
+        "hint": "Line 1: string + string. Line 2: int + int. Line 3: float + int.",
+        "answer": "<code>52</code><br><code>7</code><br><code>7.0</code>",
+        "explanation": "Line 1: <code>\"5\" + \"2\"</code> = <code>\"52\"</code> (string concatenation). Line 2: <code>5 + 2</code> = <code>7</code> (integer addition). Line 3: <code>5.0 + 2</code> = <code>7.0</code> (float + int gives float). The same values produce different results depending on their types."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = int(\"  -42  \")\ny = float(\" 3.14 \")\nprint(x + y)\nprint(type(x + y))</code></pre>",
+        "hint": "int() and float() strip whitespace. What type do you get when adding int and float?",
+        "answer": "<code>-38.86</code><br><code>&lt;class 'float'&gt;</code>",
+        "explanation": "<code>int(\"  -42  \")</code> strips whitespace and gives <code>-42</code>. <code>float(\" 3.14 \")</code> strips whitespace and gives <code>3.14</code>. When you add an int and a float, Python promotes the int to float: <code>-42 + 3.14</code> = <code>-38.86</code>. The result type is float."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(int(True) + int(True) + int(False))\nprint(str(True) + str(False))\nprint(float(False))</code></pre>",
+        "hint": "int(True) = 1, int(False) = 0. str(True) = 'True'.",
+        "answer": "<code>2</code><br><code>TrueFalse</code><br><code>0.0</code>",
+        "explanation": "Line 1: <code>1 + 1 + 0</code> = <code>2</code>. Line 2: <code>\"True\" + \"False\"</code> = <code>\"TrueFalse\"</code> (string concatenation). Line 3: <code>float(False)</code> = <code>0.0</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that takes a temperature in Fahrenheit from the user and converts it to Celsius. Formula: C = (F - 32) * 5/9.",
+        "hint": "Use float(input()) since temperature can be a decimal.",
+        "answer": "<pre><code>fahrenheit = float(input(\"Enter temperature in Fahrenheit: \"))\ncelsius = (fahrenheit - 32) * 5 / 9\nprint(fahrenheit, \"F =\", round(celsius, 2), \"C\")</code></pre>",
+        "explanation": "We use <code>float(input())</code> because temperatures can be decimals. The formula <code>(F - 32) * 5 / 9</code> converts Fahrenheit to Celsius. <code>round(celsius, 2)</code> rounds to 2 decimal places for a cleaner output."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = \"100\"\nprint(x > \"99\")\nprint(int(x) > 99)</code></pre>",
+        "hint": "String comparison is lexicographic (character by character), not numeric.",
+        "answer": "<code>False</code><br><code>True</code>",
+        "explanation": "Line 1 compares strings lexicographically: <code>\"100\" &gt; \"99\"</code> compares the first characters '1' and '9'. Since '1' comes before '9' in ASCII, <code>\"100\"</code> is NOT greater than <code>\"99\"</code> in string comparison, giving False. Line 2 compares integers: <code>100 &gt; 99</code> is True. This shows why proper type conversion is essential."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does input() always return in Python?",
+        "options": [
+          "An integer",
+          "A float",
+          "A string",
+          "The type that matches the user's input"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>input()</code> function always returns a string, regardless of what the user types. If the user types 42, it returns \"42\" (a string). Option D is a common misconception; Python does not automatically detect the type."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How do you take an integer input from the user?",
+        "options": [
+          "int(input())",
+          "input(int())",
+          "integer(input())",
+          "input.int()"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>int(input())</code> first gets the string from <code>input()</code>, then converts it to an integer with <code>int()</code>. Option B would pass an integer (0) as the prompt, which is a TypeError. Option C is invalid (no such function). Option D is invalid syntax."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the output of: print(type(\"42\"))?",
+        "options": [
+          "<class 'int'>",
+          "<class 'str'>",
+          "<class 'float'>",
+          "42"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>\"42\"</code> is a string because it is enclosed in quotes. The type is <code>str</code>. It does not matter that the characters form a number; the quotes make it a string."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does int(3.7) return?",
+        "options": [
+          "4",
+          "3.7",
+          "3",
+          "4.0"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>int()</code> truncates toward zero, meaning it removes the decimal part without rounding. <code>int(3.7)</code> gives 3, not 4. Option A would be the result of rounding, but <code>int()</code> truncates."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is the result of: '5' + '3'?",
+        "options": [
+          "8",
+          "53",
+          "'53'",
+          "Error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When both operands are strings, the <code>+</code> operator performs concatenation: <code>'5' + '3'</code> = <code>'53'</code>. Option A (8) would be the result if both were integers."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "Which of the following will cause a ValueError?",
+        "options": [
+          "int(\"42\")",
+          "int(3.14)",
+          "int(\"3.14\")",
+          "float(\"42\")"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>int(\"3.14\")</code> raises a ValueError because the string contains a decimal point, which <code>int()</code> cannot handle when parsing a string. Option B <code>int(3.14)</code> works fine (truncates to 3) because it is converting a float, not a string."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(bool('0'))?",
+        "options": [
+          "True",
+          "False",
+          "0",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>bool('0')</code> returns True because <code>'0'</code> is a non-empty string. Python checks if the string is empty, not if its content represents zero. Only <code>bool('')</code> (empty string) returns False."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does the split() method do?",
+        "options": [
+          "Splits a number into digits",
+          "Splits a string into a list of substrings",
+          "Converts a string to a list of integers",
+          "Divides two numbers"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>split()</code> splits a string into a list of substrings based on a delimiter (default: whitespace). <code>\"10 20 30\".split()</code> returns <code>[\"10\", \"20\", \"30\"]</code>. It does NOT convert to numbers (option C) or work on numbers (option A)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(float(10))?",
+        "options": [
+          "10",
+          "10.0",
+          "Error",
+          "10.00"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>float(10)</code> converts the integer 10 to the float <code>10.0</code>. Python represents this as <code>10.0</code>, not <code>10.00</code>. The <code>float()</code> function adds the minimum necessary decimal representation."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Why is eval(input()) considered dangerous?",
+        "options": [
+          "It is slow",
+          "It can only handle numbers",
+          "It executes any Python code the user types",
+          "It does not return a value"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>eval()</code> evaluates any Python expression, meaning a user could execute harmful code like file deletion or data theft. Options A and B are incorrect (eval is reasonably fast and handles any expression). Option D is wrong (eval does return a value)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is int(-2.9)?",
+        "options": [
+          "-3",
+          "-2",
+          "-2.0",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>int()</code> truncates toward zero. For -2.9, truncating toward zero gives -2 (not -3). This is the opposite of floor division, where <code>-2.9 // 1</code> would give -3.0. Remember: <code>int()</code> always moves toward zero."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(int(float('  -3.75  ')))?",
+        "options": [
+          "-4",
+          "-3",
+          "Error",
+          "-3.75"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Step by step: <code>float('  -3.75  ')</code> strips whitespace and gives <code>-3.75</code>. Then <code>int(-3.75)</code> truncates toward zero, giving <code>-3</code>. Option A (-4) would be the floor, not the truncation."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of: print('5' > '30')?",
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> String comparison is lexicographic (character by character). Python compares the first characters: '5' vs '3'. Since '5' comes after '3' in ASCII/Unicode, <code>'5' &gt; '30'</code> is True. Numerically 5 < 30, but string comparison does not work numerically. This is why proper type conversion matters."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does map(int, ['1', '2', '3']) produce?",
+        "options": [
+          "[1, 2, 3]",
+          "A map object that yields 1, 2, 3",
+          "['1', '2', '3']",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>map()</code> returns a map object (an iterator), not a list. It lazily applies <code>int()</code> to each element when iterated. To get a list, you would need <code>list(map(int, ['1', '2', '3']))</code>. However, when used with unpacking like <code>a, b, c = map(...)</code>, the values are extracted correctly."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of the following will NOT raise a ValueError?",
+        "options": [
+          "int('')",
+          "int('3.14')",
+          "int('  42  ')",
+          "float('hello')"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>int('  42  ')</code> works because <code>int()</code> automatically strips leading and trailing whitespace. Option A fails (empty string). Option B fails (decimal point in string). Option D fails ('hello' is not a number)."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(bool(''), bool(' '), bool('0'), bool(0))?",
+        "options": [
+          "False False False False",
+          "False True True False",
+          "True True True False",
+          "False True False False"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>bool('')</code> = False (empty string). <code>bool(' ')</code> = True (string with a space is non-empty). <code>bool('0')</code> = True (non-empty string, even though it contains '0'). <code>bool(0)</code> = False (integer zero is falsy)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(str(5) + str(3.14))?",
+        "options": [
+          "8.14",
+          "53.14",
+          "Error",
+          "5 3.14"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>str(5)</code> gives <code>\"5\"</code> and <code>str(3.14)</code> gives <code>\"3.14\"</code>. String concatenation: <code>\"5\" + \"3.14\"</code> = <code>\"53.14\"</code>. This is string joining, not arithmetic."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "Which function converts a value to a floating-point number?",
+        "options": [
+          "int()",
+          "str()",
+          "float()",
+          "decimal()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>float()</code> converts values to floating-point numbers. <code>int()</code> converts to integers, <code>str()</code> converts to strings, and <code>decimal()</code> is not a built-in function (though there is a Decimal class in the decimal module)."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is the output when the user enters 'hello'?<br><code>x = int(input())</code>",
+        "options": [
+          "0",
+          "hello",
+          "ValueError",
+          "None"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>int(\"hello\")</code> raises a <code>ValueError: invalid literal for int() with base 10: 'hello'</code>. The string \"hello\" cannot be converted to an integer because it does not represent a number."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is the output of: print(int(True) + float(False) + bool(1))?",
+        "options": [
+          "2.0",
+          "2",
+          "1.0",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>int(True)</code> = 1, <code>float(False)</code> = 0.0, <code>bool(1)</code> = True. Now: <code>1 + 0.0</code> = <code>1.0</code> (float), <code>1.0 + True</code> = <code>1.0 + 1</code> = <code>2.0</code> (True is treated as 1 in arithmetic). The result is float because of the float(False) in the chain."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Greeting Program",
+        "difficulty": "Easy",
+        "description": "Write a program that asks the user for their name and city, then prints: 'Hello, [name] from [city]! Welcome to Python.'",
+        "sampleInput": "Name: Ananya\nCity: Mumbai",
+        "sampleOutput": "Hello, Ananya from Mumbai! Welcome to Python.",
+        "constraints": "Use input() with descriptive prompts. Use string concatenation or comma-separated print.",
+        "solution": "name = input(\"Enter your name: \")\ncity = input(\"Enter your city: \")\nprint(\"Hello,\", name, \"from\", city + \"! Welcome to Python.\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Rectangle Area Calculator",
+        "difficulty": "Easy",
+        "description": "Write a program that takes the length and width of a rectangle from the user and prints the area and perimeter.",
+        "sampleInput": "Length: 10\nWidth: 5",
+        "sampleOutput": "Area: 50.0\nPerimeter: 30.0",
+        "constraints": "Use float(input()) since dimensions can be decimals.",
+        "solution": "length = float(input(\"Enter length: \"))\nwidth = float(input(\"Enter width: \"))\narea = length * width\nperimeter = 2 * (length + width)\nprint(\"Area:\", area)\nprint(\"Perimeter:\", perimeter)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Bill Splitter",
+        "difficulty": "Medium",
+        "description": "Aarav and his friends went to a restaurant. Write a program that takes the total bill amount and the number of people, then calculates how much each person pays (rounded to 2 decimal places).",
+        "sampleInput": "Total bill: 1573\nNumber of people: 7",
+        "sampleOutput": "Each person pays: 224.71",
+        "constraints": "Use float() for bill, int() for people. Round to 2 decimal places.",
+        "solution": "bill = float(input(\"Enter total bill: \"))\npeople = int(input(\"Enter number of people: \"))\neach_pays = round(bill / people, 2)\nprint(\"Each person pays:\", each_pays)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Percentage Calculator",
+        "difficulty": "Medium",
+        "description": "Write a program that takes marks obtained and total marks from the user, calculates the percentage, and prints it rounded to 2 decimal places.",
+        "sampleInput": "Marks obtained: 437\nTotal marks: 500",
+        "sampleOutput": "Percentage: 87.4%",
+        "constraints": "Use float(input()) for both values. Print with % sign.",
+        "solution": "obtained = float(input(\"Enter marks obtained: \"))\ntotal = float(input(\"Enter total marks: \"))\npercentage = (obtained / total) * 100\nprint(\"Percentage:\", str(round(percentage, 2)) + \"%\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Time Converter",
+        "difficulty": "Medium",
+        "description": "Write a program that takes a number of seconds from the user and converts it to hours, minutes, and remaining seconds. For example, 3672 seconds = 1 hour, 1 minute, and 12 seconds.",
+        "sampleInput": "Enter seconds: 3672",
+        "sampleOutput": "1 hours, 1 minutes, 12 seconds",
+        "constraints": "Use // and % operators. Take input as int.",
+        "solution": "total_seconds = int(input(\"Enter seconds: \"))\nhours = total_seconds // 3600\nminutes = (total_seconds % 3600) // 60\nseconds = total_seconds % 60\nprint(hours, \"hours,\", minutes, \"minutes,\", seconds, \"seconds\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Two-Number Calculator with Menu",
+        "difficulty": "Hard",
+        "description": "Write a program that takes two numbers from the user and displays the results of all arithmetic operations: addition, subtraction, multiplication, division, floor division, modulus, and exponentiation.",
+        "sampleInput": "Enter first number: 17\nEnter second number: 5",
+        "sampleOutput": "17 + 5 = 22\n17 - 5 = 12\n17 * 5 = 85\n17 / 5 = 3.4\n17 // 5 = 3\n17 % 5 = 2\n17 ** 5 = 1419857",
+        "constraints": "Use int(input()) for both numbers. Display results for all 7 arithmetic operators.",
+        "solution": "a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nprint(a, \"+\", b, \"=\", a + b)\nprint(a, \"-\", b, \"=\", a - b)\nprint(a, \"*\", b, \"=\", a * b)\nprint(a, \"/\", b, \"=\", a / b)\nprint(a, \"//\", b, \"=\", a // b)\nprint(a, \"%\", b, \"=\", a % b)\nprint(a, \"**\", b, \"=\", a ** b)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Swap Values Using Arithmetic",
+        "difficulty": "Hard",
+        "description": "Take two numbers from the user and swap their values without using a third variable. Print the values before and after swapping. Use arithmetic operators only.",
+        "sampleInput": "Enter a: 15\nEnter b: 30",
+        "sampleOutput": "Before swap: a = 15, b = 30\nAfter swap: a = 30, b = 15",
+        "constraints": "Do not use a third variable or Python's tuple swap (a, b = b, a).",
+        "solution": "a = int(input(\"Enter a: \"))\nb = int(input(\"Enter b: \"))\nprint(\"Before swap: a =\", a, \", b =\", b)\na = a + b\nb = a - b\na = a - b\nprint(\"After swap: a =\", a, \", b =\", b)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Multiple Input CGPA Calculator",
+        "difficulty": "Hard",
+        "description": "Take 5 subject grades (as floats on one line, space-separated) from the user using split() and map(). Calculate and print the CGPA (average of all grades) rounded to 2 decimal places.",
+        "sampleInput": "Enter 5 grades: 8.5 9.0 7.5 8.0 9.5",
+        "sampleOutput": "Grades: 8.5 9.0 7.5 8.0 9.5\nCGPA: 8.5",
+        "constraints": "Take all 5 inputs on a single line using split() and map(). Round CGPA to 2 decimal places.",
+        "solution": "g1, g2, g3, g4, g5 = map(float, input(\"Enter 5 grades: \").split())\nprint(\"Grades:\", g1, g2, g3, g4, g5)\ncgpa = (g1 + g2 + g3 + g4 + g5) / 5\nprint(\"CGPA:\", round(cgpa, 2))"
+      }
+    ]
+  }
+}

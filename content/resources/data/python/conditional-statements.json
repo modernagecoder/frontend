@@ -1,0 +1,787 @@
+{
+  "title": "Conditional Statements in Python (if, elif, else)",
+  "slug": "conditional-statements",
+  "language": "python",
+  "chapter": 7,
+  "difficulty": "Beginner",
+  "readingTime": "20 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Conditional Statements in Python - if, elif, else with Examples | Modern Age Coders",
+    "description": "Master Python conditional statements including if, elif, else, nested if, ternary operator, truthiness, and chained comparisons. Includes 60 practice questions with tricky output prediction.",
+    "keywords": "python if else, conditional statements python, python elif, python if statement tutorial, python nested if, python ternary operator, python truthiness, python chained comparisons"
+  },
+  "content": {
+    "what": "<h2>What Are Conditional Statements?</h2><p>A <strong>conditional statement</strong> lets your program make decisions. Instead of executing every line of code from top to bottom, your program can choose which code to run based on whether a condition is true or false.</p><p>Think of it like making everyday decisions. When you wake up, you check: \"Is it raining?\" If yes, you take an umbrella. If no, you do not. This is exactly what conditional statements do in code — they check a condition and execute different blocks of code depending on the result.</p><p>In Python, conditional statements are built using three keywords: <code>if</code>, <code>elif</code> (short for \"else if\"), and <code>else</code>. Every Python program that does anything useful will use conditional statements.</p><h3>The Basic Structure</h3><p>The simplest conditional statement checks one condition and executes code only if that condition is <code>True</code>:</p><pre><code>if condition:\n    # code to execute when condition is True</code></pre><p>The condition is any expression that evaluates to <code>True</code> or <code>False</code> (a Boolean expression). The code inside the <code>if</code> block is <strong>indented</strong> — this indentation is how Python knows which code belongs to the <code>if</code> statement.</p>",
+    "why": "<h2>Why Are Conditional Statements Essential?</h2><h3>1. Every Real Program Makes Decisions</h3><p>Without conditionals, your program would do the exact same thing every time it runs, regardless of the input. A login system needs to check if the password is correct. A game needs to check if the player won or lost. An ATM needs to check if the account has enough balance. All of these require conditional statements.</p><h3>2. Controlling Program Flow</h3><p>Conditionals give you control over which parts of your code execute and in what order. Instead of writing separate programs for different scenarios, you write one program that handles all scenarios by making decisions at runtime.</p><h3>3. Input Validation</h3><p>When your program takes user input, you need to check if the input is valid. Is the age a positive number? Is the score between 0 and 100? Is the email address in the correct format? Conditional statements let you validate input and show appropriate error messages.</p><h3>4. Foundation for Complex Logic</h3><p>Conditional statements are one of the three fundamental building blocks of all programs (the other two are sequence and loops). Once you master conditionals, you can build programs of any complexity. Every algorithm, from simple grade calculators to sophisticated AI systems, relies on conditional logic at its core.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The if Statement</h3><p>The <code>if</code> statement is the simplest conditional. It checks a condition, and if the condition is <code>True</code>, it executes the indented block of code below it. If the condition is <code>False</code>, Python skips the block entirely.</p><pre><code>age = 16\n\nif age >= 18:\n    print(\"You can vote.\")\n\nprint(\"Program continues here.\")</code></pre><p>In this example, since <code>16 >= 18</code> is False, the print statement inside the if block is skipped. The program jumps to <code>\"Program continues here.\"</code></p><h4>Indentation Is Mandatory</h4><p>In Python, indentation is not optional or cosmetic — it is part of the language's syntax. The standard is <strong>4 spaces</strong> per level of indentation. All code that belongs to the <code>if</code> block must be indented by the same amount. If you mix indentation levels or forget to indent, Python raises an <code>IndentationError</code>.</p><pre><code># This causes an IndentationError:\nif True:\nprint(\"Hello\")  # Not indented — ERROR!</code></pre><h3>2. The if-else Statement</h3><p>The <code>if-else</code> structure provides two paths: one for when the condition is True, and another for when it is False. Exactly one of the two blocks will always execute.</p><pre><code>marks = 45\n\nif marks >= 40:\n    print(\"You passed!\")\nelse:\n    print(\"You failed.\")</code></pre><p>Since 45 >= 40 is True, the if block runs and prints \"You passed!\". If marks were 35, the else block would run instead. The <code>else</code> keyword does not have a condition — it catches everything that the <code>if</code> did not.</p><h3>3. The if-elif-else Statement</h3><p>When you need to check multiple conditions, use <code>elif</code> (short for \"else if\"). Python checks each condition from top to bottom and executes the block for the <strong>first</strong> condition that is True. If no condition is True, the <code>else</code> block runs.</p><pre><code>marks = 75\n\nif marks >= 90:\n    grade = \"A\"\nelif marks >= 80:\n    grade = \"B\"\nelif marks >= 70:\n    grade = \"C\"\nelif marks >= 60:\n    grade = \"D\"\nelse:\n    grade = \"F\"\n\nprint(\"Grade:\", grade)</code></pre><p>Here, Aarav scored 75. Python checks: 75 >= 90? No. 75 >= 80? No. 75 >= 70? Yes! So grade is set to \"C\" and all remaining elif/else blocks are <strong>skipped</strong>. This is important: once a match is found, no further conditions are checked.</p><h4>Key Rules for if-elif-else</h4><ul><li>You must start with <code>if</code>.</li><li>You can have zero or more <code>elif</code> blocks.</li><li>The <code>else</code> block is optional, and there can be at most one.</li><li><code>else</code> must come last.</li><li>Only ONE block executes — the first one whose condition is True (or else if none are True).</li></ul><h3>4. Nested if Statements</h3><p>You can place an <code>if</code> statement inside another <code>if</code> statement. This is called <strong>nesting</strong>. The inner <code>if</code> is only checked when the outer <code>if</code> condition is True.</p><pre><code>age = 20\nhas_license = True\n\nif age >= 18:\n    print(\"You are an adult.\")\n    if has_license:\n        print(\"You can drive.\")\n    else:\n        print(\"Get a driving license first.\")\nelse:\n    print(\"You are too young to drive.\")</code></pre><p>The inner <code>if has_license</code> is only reached if the outer condition <code>age >= 18</code> is True. Each level of nesting requires an additional level of indentation (4 more spaces).</p><p><strong>Avoid deep nesting.</strong> If you have 3 or more levels of nesting, your code becomes hard to read. Often, you can rewrite deeply nested conditions using logical operators (<code>and</code>, <code>or</code>) to flatten the structure.</p><h3>5. Short-Hand if (One-Liner)</h3><p>If the <code>if</code> block has only one statement, you can write it on the same line as the <code>if</code>:</p><pre><code>age = 20\nif age >= 18: print(\"Adult\")</code></pre><p>This is valid Python, but use it sparingly. It can make code harder to read if overused.</p><h3>6. The Ternary Operator (Conditional Expression)</h3><p>Python has a compact way to write a simple if-else that assigns a value. It is called the <strong>ternary operator</strong> or <strong>conditional expression</strong>:</p><pre><code>value_if_true if condition else value_if_false</code></pre><p>Example:</p><pre><code>age = 20\nstatus = \"Adult\" if age >= 18 else \"Minor\"\nprint(status)  # Output: Adult</code></pre><p>This is equivalent to:</p><pre><code>if age >= 18:\n    status = \"Adult\"\nelse:\n    status = \"Minor\"</code></pre><p>The ternary operator is great for simple assignments but should not be used for complex logic. Keep it readable.</p><h3>7. Combining Conditions with and, or, not</h3><p>You can combine multiple conditions using logical operators:</p><ul><li><code>and</code> — both conditions must be True</li><li><code>or</code> — at least one condition must be True</li><li><code>not</code> — reverses the condition</li></ul><pre><code>age = 16\nhas_permission = True\n\nif age >= 13 and age <= 17 and has_permission:\n    print(\"You can join the teen group.\")</code></pre><p>You can also use chained comparisons: <code>13 <= age <= 17</code> is equivalent to <code>age >= 13 and age <= 17</code>.</p><h3>8. Truthiness and Falsiness</h3><p>In Python, every value has a Boolean equivalent. When you use a non-Boolean value in an <code>if</code> condition, Python automatically converts it to True or False. This is called <strong>truthiness</strong> and <strong>falsiness</strong>.</p><h4>Values That Are Falsy (Treated as False)</h4><ul><li><code>False</code> (the Boolean)</li><li><code>0</code> and <code>0.0</code> (zero in any numeric type)</li><li><code>\"\"</code> (empty string)</li><li><code>[]</code> (empty list)</li><li><code>()</code> (empty tuple)</li><li><code>{}</code> (empty dictionary)</li><li><code>None</code></li></ul><h4>Everything Else Is Truthy (Treated as True)</h4><ul><li>Non-zero numbers: <code>1</code>, <code>-5</code>, <code>3.14</code></li><li>Non-empty strings: <code>\"hello\"</code>, <code>\"0\"</code>, <code>\" \"</code></li><li>Non-empty collections: <code>[1, 2]</code>, <code>(0,)</code>, <code>{\"a\": 1}</code></li></ul><p>This allows elegant code like:</p><pre><code>name = input(\"Enter your name: \")\nif name:  # True if name is not empty\n    print(\"Hello,\", name)\nelse:\n    print(\"You did not enter a name.\")</code></pre><h3>9. Chaining Comparisons</h3><p>Python supports chained comparisons that match mathematical notation:</p><pre><code>score = 75\nif 60 <= score <= 100:\n    print(\"Valid score\")</code></pre><p>This is equivalent to <code>score >= 60 and score <= 100</code>. Chains can include any comparison operators: <code>a < b < c</code>, <code>a == b == c</code>, <code>a < b >= c</code>. Each pair of adjacent comparisons is combined with <code>and</code>.</p><p>An important detail: in <code>a < b < c</code>, <code>b</code> is evaluated only once. In the equivalent <code>a < b and b < c</code>, <code>b</code> is evaluated twice. This matters if <code>b</code> is an expression with side effects (like a function call).</p>",
+    "codeExamples": [
+      {
+        "title": "Simple if Statement",
+        "code": "temperature = 38\n\nif temperature > 37:\n    print(\"You have a fever.\")\n    print(\"Please see a doctor.\")\n\nprint(\"Program done.\")",
+        "language": "python",
+        "explanation": "Since 38 > 37 is True, both indented lines execute. The last line always executes because it is outside the <code>if</code> block (not indented). If temperature were 36, the two indented lines would be skipped, but \"Program done.\" would still print.",
+        "output": "You have a fever.\nPlease see a doctor.\nProgram done."
+      },
+      {
+        "title": "if-else: Pass or Fail",
+        "code": "marks = int(input(\"Enter your marks: \"))  # Assume user enters 35\n\nif marks >= 40:\n    print(\"Congratulations! You passed.\")\n    print(\"Keep up the good work!\")\nelse:\n    print(\"You did not pass.\")\n    print(\"Study harder for next time.\")\n\nprint(\"Total marks:\", marks)",
+        "language": "python",
+        "explanation": "If Priya enters 35, the condition <code>35 >= 40</code> is False, so the else block runs. Exactly one of the two blocks always executes. The last line runs regardless because it is outside both blocks.",
+        "output": "Enter your marks: 35\nYou did not pass.\nStudy harder for next time.\nTotal marks: 35"
+      },
+      {
+        "title": "if-elif-else: Grade Calculator",
+        "code": "marks = int(input(\"Enter marks: \"))  # Assume user enters 82\n\nif marks >= 90:\n    print(\"Grade: A\")\nelif marks >= 80:\n    print(\"Grade: B\")\nelif marks >= 70:\n    print(\"Grade: C\")\nelif marks >= 60:\n    print(\"Grade: D\")\nelif marks >= 40:\n    print(\"Grade: E\")\nelse:\n    print(\"Grade: F (Fail)\")",
+        "language": "python",
+        "explanation": "Rohan enters 82. Python checks from top: 82 >= 90? No. 82 >= 80? Yes. So \"Grade: B\" prints and all remaining elif/else are skipped. Even though 82 >= 70 and 82 >= 60 are also True, they are never checked because the first matching condition wins.",
+        "output": "Enter marks: 82\nGrade: B"
+      },
+      {
+        "title": "Nested if Statements",
+        "code": "age = 25\ncitizenship = \"Indian\"\nhas_voter_id = True\n\nif age >= 18:\n    if citizenship == \"Indian\":\n        if has_voter_id:\n            print(\"You are eligible to vote.\")\n        else:\n            print(\"Please get a voter ID card.\")\n    else:\n        print(\"Only Indian citizens can vote in Indian elections.\")\nelse:\n    print(\"You must be at least 18 to vote.\")",
+        "language": "python",
+        "explanation": "This demonstrates three levels of nesting. Each inner <code>if</code> is only checked when its outer condition is True. For age = 25, Indian citizenship, and voter ID, all three conditions are True, so the deepest block executes. Notice how each level adds 4 more spaces of indentation.",
+        "output": "You are eligible to vote."
+      },
+      {
+        "title": "Combining Conditions with Logical Operators",
+        "code": "# Flat version (preferred over deep nesting)\nage = 25\ncitizenship = \"Indian\"\nhas_voter_id = True\n\nif age >= 18 and citizenship == \"Indian\" and has_voter_id:\n    print(\"You are eligible to vote.\")\nelif age < 18:\n    print(\"You must be at least 18 to vote.\")\nelif citizenship != \"Indian\":\n    print(\"Only Indian citizens can vote.\")\nelse:\n    print(\"Please get a voter ID card.\")",
+        "language": "python",
+        "explanation": "This achieves the same logic as the nested example above but is flatter and easier to read. By combining conditions with <code>and</code>, we avoid deep nesting. The <code>elif</code> blocks handle specific failure cases with clear messages.",
+        "output": "You are eligible to vote."
+      },
+      {
+        "title": "Ternary Operator (Conditional Expression)",
+        "code": "age = 16\n\n# Ternary operator\nstatus = \"Adult\" if age >= 18 else \"Minor\"\nprint(\"Status:\", status)\n\n# Can be used directly in print\nprint(\"You are\", \"old enough\" if age >= 18 else \"too young\", \"to vote.\")\n\n# Nested ternary (avoid this - hard to read)\ngrade = \"A\" if age > 20 else \"B\" if age > 15 else \"C\"\nprint(\"Grade:\", grade)",
+        "language": "python",
+        "explanation": "The ternary operator provides a compact way to choose between two values. For age 16: <code>\"Adult\" if 16 >= 18 else \"Minor\"</code> evaluates to \"Minor\" since the condition is False. Nested ternaries are technically valid but should be avoided as they are difficult to read.",
+        "output": "Status: Minor\nYou are too young to vote.\nGrade: B"
+      },
+      {
+        "title": "Truthiness and Falsiness in Practice",
+        "code": "# Falsy values\nprint(\"0 is\", \"truthy\" if 0 else \"falsy\")\nprint(\"'' is\", \"truthy\" if \"\" else \"falsy\")\nprint(\"None is\", \"truthy\" if None else \"falsy\")\nprint(\"[] is\", \"truthy\" if [] else \"falsy\")\nprint(\"{} is\", \"truthy\" if {} else \"falsy\")\n\n# Truthy values\nprint(\"1 is\", \"truthy\" if 1 else \"falsy\")\nprint(\"'hello' is\", \"truthy\" if \"hello\" else \"falsy\")\nprint(\"'0' is\", \"truthy\" if \"0\" else \"falsy\")\nprint(\"[0] is\", \"truthy\" if [0] else \"falsy\")\nprint(\"-1 is\", \"truthy\" if -1 else \"falsy\")",
+        "language": "python",
+        "explanation": "This demonstrates all the falsy values (0, empty string, None, empty list, empty dict) and several truthy values. The most surprising one for beginners is <code>\"0\"</code> being truthy: it is a non-empty string, even though its content is the digit zero. Similarly, <code>[0]</code> is truthy because it is a non-empty list (it contains one element).",
+        "output": "0 is falsy\n'' is falsy\nNone is falsy\n[] is falsy\n{} is falsy\n1 is truthy\n'hello' is truthy\n'0' is truthy\n[0] is truthy\n-1 is truthy"
+      },
+      {
+        "title": "Chained Comparisons",
+        "code": "score = 75\n\n# Chained comparison\nif 0 <= score <= 100:\n    print(\"Valid score:\", score)\n\n# Equivalent to:\nif score >= 0 and score <= 100:\n    print(\"Also valid:\", score)\n\n# Chaining works with any comparison operators\nx = 5\nprint(\"1 < 5 < 10:\", 1 < x < 10)\nprint(\"1 < 5 > 3:\", 1 < x > 3)\nprint(\"5 == 5 == 5:\", 5 == x == 5)\nprint(\"10 > 5 > 3 > 1:\", 10 > x > 3 > 1)",
+        "language": "python",
+        "explanation": "Chained comparisons like <code>0 &lt;= score &lt;= 100</code> are a Pythonic way to check ranges. Each adjacent pair is compared: <code>0 &lt;= score and score &lt;= 100</code>. You can chain any comparison operators, even different ones: <code>1 &lt; x &gt; 3</code> means <code>1 &lt; x and x &gt; 3</code>.",
+        "output": "Valid score: 75\nAlso valid: 75\n1 < 5 < 10: True\n1 < 5 > 3: True\n5 == 5 == 5: True\n10 > 5 > 3 > 1: True"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Colon After if/elif/else",
+        "wrongCode": "age = 18\nif age >= 18\n    print(\"Adult\")",
+        "error": "SyntaxError: expected ':'",
+        "correctCode": "age = 18\nif age >= 18:\n    print(\"Adult\")",
+        "explanation": "Every <code>if</code>, <code>elif</code>, and <code>else</code> line MUST end with a colon (<code>:</code>). The colon tells Python that an indented block follows. This is one of the most common syntax errors for beginners."
+      },
+      {
+        "title": "Wrong or Missing Indentation",
+        "wrongCode": "score = 85\nif score >= 40:\nprint(\"Pass\")\n    print(\"Well done\")",
+        "error": "IndentationError: expected an indented block after 'if' statement",
+        "correctCode": "score = 85\nif score >= 40:\n    print(\"Pass\")\n    print(\"Well done\")",
+        "explanation": "The code inside an <code>if</code> block MUST be indented (standard is 4 spaces). The first print is not indented, causing the error. All lines in the same block must have the same indentation level."
+      },
+      {
+        "title": "Using = Instead of == in Conditions",
+        "wrongCode": "x = 10\nif x = 10:\n    print(\"x is 10\")",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "x = 10\nif x == 10:\n    print(\"x is 10\")",
+        "explanation": "A single <code>=</code> is the assignment operator (stores a value). A double <code>==</code> is the comparison operator (checks equality). In an <code>if</code> condition, you need <code>==</code> to compare values. Using <code>=</code> in an <code>if</code> condition is a SyntaxError in Python."
+      },
+      {
+        "title": "Wrong Order of elif/else Causing Unreachable Code",
+        "wrongCode": "marks = 95\nif marks >= 40:\n    print(\"Grade: E\")\nelif marks >= 60:\n    print(\"Grade: D\")\nelif marks >= 90:\n    print(\"Grade: A\")",
+        "error": "No error, but output is 'Grade: E' instead of 'Grade: A'. The conditions are in the wrong order.",
+        "correctCode": "marks = 95\nif marks >= 90:\n    print(\"Grade: A\")\nelif marks >= 60:\n    print(\"Grade: D\")\nelif marks >= 40:\n    print(\"Grade: E\")",
+        "explanation": "Python checks conditions from top to bottom and stops at the first True condition. Since 95 >= 40 is True, it prints \"Grade: E\" and skips everything else. The condition 95 >= 90 is never reached. Always put the most specific (strictest) conditions first."
+      },
+      {
+        "title": "Confusing Truthiness: '0' Is Truthy",
+        "wrongCode": "user_input = input(\"Enter 0 to exit: \")  # User types 0\nif not user_input:  # Expecting this to be True\n    print(\"Exiting...\")\nelse:\n    print(\"Continuing...\")",
+        "error": "No error, but prints 'Continuing...' instead of 'Exiting...'. The string '0' is truthy.",
+        "correctCode": "user_input = input(\"Enter 0 to exit: \")\nif user_input == \"0\":  # Compare with the string '0'\n    print(\"Exiting...\")\nelse:\n    print(\"Continuing...\")",
+        "explanation": "When the user types 0, <code>input()</code> returns the string <code>\"0\"</code>, not the integer 0. The string <code>\"0\"</code> is <strong>truthy</strong> because it is a non-empty string. So <code>not \"0\"</code> is False, and the else block runs. To check for the character 0, compare with the string <code>\"0\"</code>."
+      }
+    ],
+    "summary": [
+      "The if statement checks a condition and executes the indented block only if the condition is True.",
+      "The if-else statement provides two paths: one for True and one for False. Exactly one block always executes.",
+      "The if-elif-else chain checks multiple conditions from top to bottom. Only the first matching condition's block executes. Always put the strictest conditions first.",
+      "Indentation is mandatory in Python. Use 4 spaces per level. All lines in the same block must have the same indentation. Incorrect indentation causes IndentationError.",
+      "Nested if statements place one if inside another. Avoid more than 2-3 levels of nesting; use logical operators (and, or) to flatten conditions instead.",
+      "The ternary operator (x if condition else y) is a compact one-line alternative to simple if-else assignments.",
+      "Combine conditions using logical operators: 'and' (both True), 'or' (at least one True), 'not' (reverses). Use parentheses for clarity.",
+      "Falsy values in Python: False, 0, 0.0, '' (empty string), [] (empty list), () (empty tuple), {} (empty dict), None. Everything else is truthy.",
+      "The string '0' is truthy (non-empty string), while the integer 0 is falsy. This is a common source of confusion.",
+      "Chained comparisons like 1 < x < 10 are a Pythonic way to check ranges. They are equivalent to 1 < x and x < 10."
+    ]
+  },
+  "relatedTopics": ["operators-in-python", "loops-in-python"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = 10\nif x > 5:\n    print(\"Big\")\nprint(\"Done\")</code></pre>",
+        "hint": "Check if 10 > 5. The last line is outside the if block.",
+        "answer": "<code>Big</code><br><code>Done</code>",
+        "explanation": "<code>10 &gt; 5</code> is True, so \"Big\" prints. \"Done\" is outside the <code>if</code> block (not indented), so it always prints regardless of the condition."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = 3\nif x > 5:\n    print(\"Big\")\nprint(\"Done\")</code></pre>",
+        "hint": "Is 3 > 5?",
+        "answer": "<code>Done</code>",
+        "explanation": "<code>3 &gt; 5</code> is False, so the indented line is skipped. Only \"Done\" prints because it is outside the <code>if</code> block."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>num = 7\nif num % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")</code></pre>",
+        "hint": "What is 7 % 2?",
+        "answer": "<code>Odd</code>",
+        "explanation": "<code>7 % 2</code> = 1 (not 0), so the condition is False. The else block runs, printing \"Odd\"."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>marks = 85\nif marks >= 90:\n    print(\"A\")\nelif marks >= 80:\n    print(\"B\")\nelif marks >= 70:\n    print(\"C\")\nelse:\n    print(\"D\")</code></pre>",
+        "hint": "Check conditions from top to bottom. Which is the first True condition?",
+        "answer": "<code>B</code>",
+        "explanation": "<code>85 >= 90</code> is False. <code>85 >= 80</code> is True. So \"B\" prints and all remaining elif/else are skipped. Even though 85 >= 70 is also True, it is never checked."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>a = 5\nb = 5\nif a == b:\n    print(\"Equal\")\nelse:\n    print(\"Not equal\")</code></pre>",
+        "hint": "Does 5 equal 5?",
+        "answer": "<code>Equal</code>",
+        "explanation": "<code>5 == 5</code> is True, so the if block executes and \"Equal\" is printed."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 15\nif x > 10:\n    print(\"A\")\nif x > 5:\n    print(\"B\")\nif x > 0:\n    print(\"C\")</code></pre>",
+        "hint": "These are three separate if statements, NOT if-elif-else.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code>",
+        "explanation": "These are three <strong>separate</strong> <code>if</code> statements, not an if-elif chain. Each one is checked independently. 15 > 10 is True (prints A). 15 > 5 is True (prints B). 15 > 0 is True (prints C). All three print because each <code>if</code> is independent."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output? Compare with the previous question.<br><pre><code>x = 15\nif x > 10:\n    print(\"A\")\nelif x > 5:\n    print(\"B\")\nelif x > 0:\n    print(\"C\")</code></pre>",
+        "hint": "This time it IS an if-elif chain. Only the first True condition's block runs.",
+        "answer": "<code>A</code>",
+        "explanation": "This is an if-elif chain. <code>15 &gt; 10</code> is True, so \"A\" prints and all remaining elif blocks are <strong>skipped</strong>. Even though 15 > 5 and 15 > 0 are also True, they are never checked. Compare this with the previous question where each <code>if</code> was separate."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 10\ny = 20\nif x > 5 and y > 15:\n    print(\"Both\")\nelif x > 5 or y > 15:\n    print(\"At least one\")\nelse:\n    print(\"Neither\")</code></pre>",
+        "hint": "Check if BOTH conditions are True for the 'and'.",
+        "answer": "<code>Both</code>",
+        "explanation": "<code>10 &gt; 5</code> is True and <code>20 &gt; 15</code> is True. <code>True and True</code> = True. So \"Both\" prints and the elif is skipped."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>if 0:\n    print(\"A\")\nif \"\":\n    print(\"B\")\nif None:\n    print(\"C\")\nif \"hello\":\n    print(\"D\")\nif 1:\n    print(\"E\")</code></pre>",
+        "hint": "0, empty string, and None are falsy. Non-empty string and non-zero integer are truthy.",
+        "answer": "<code>D</code><br><code>E</code>",
+        "explanation": "<code>0</code> is falsy (skip A). <code>\"\"</code> is falsy (skip B). <code>None</code> is falsy (skip C). <code>\"hello\"</code> is truthy (print D). <code>1</code> is truthy (print E). Only truthy values execute their if blocks."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>result = \"Pass\" if 85 >= 40 else \"Fail\"\nprint(result)</code></pre>",
+        "hint": "This is a ternary operator. Check the condition.",
+        "answer": "<code>Pass</code>",
+        "explanation": "The ternary operator evaluates the condition <code>85 &gt;= 40</code> which is True. So the value before <code>if</code> is chosen: \"Pass\". If the condition were False, \"Fail\" would be chosen."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 5\nif x > 3:\n    if x > 7:\n        print(\"A\")\n    else:\n        print(\"B\")\nelse:\n    if x > 1:\n        print(\"C\")\n    else:\n        print(\"D\")</code></pre>",
+        "hint": "First check the outer if. Then check the inner if within the matching block.",
+        "answer": "<code>B</code>",
+        "explanation": "Outer: <code>5 &gt; 3</code> is True, so we enter the first block. Inner: <code>5 &gt; 7</code> is False, so the inner else runs, printing \"B\". The outer else block (C and D) is never reached."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = 10\nb = 20\nc = 30\n\nif a > b:\n    print(\"X\")\nelif b > c:\n    print(\"Y\")\nelif a + b > c:\n    print(\"Z\")\nelse:\n    print(\"W\")</code></pre>",
+        "hint": "Check each condition: 10 > 20? 20 > 30? 10 + 20 > 30?",
+        "answer": "<code>W</code>",
+        "explanation": "<code>10 &gt; 20</code> is False. <code>20 &gt; 30</code> is False. <code>10 + 20 &gt; 30</code> = <code>30 &gt; 30</code> is False (not strictly greater). All conditions are False, so the else block runs, printing \"W\"."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>if \"False\":\n    print(\"A\")\nif bool(\"\"):\n    print(\"B\")\nif bool(0):\n    print(\"C\")\nif bool(\"0\"):\n    print(\"D\")</code></pre>",
+        "hint": "The string 'False' is a non-empty string. The string '0' is also non-empty.",
+        "answer": "<code>A</code><br><code>D</code>",
+        "explanation": "<code>\"False\"</code> is a non-empty string (truthy, print A). <code>bool(\"\") </code>= False (skip B). <code>bool(0)</code> = False (skip C). <code>bool(\"0\")</code> = True because \"0\" is a non-empty string (print D). The string \"False\" and \"0\" are both truthy because Python only checks if strings are empty, not their content."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 5\nresult = \"A\" if x > 10 else \"B\" if x > 3 else \"C\"\nprint(result)</code></pre>",
+        "hint": "Nested ternary: evaluate from left to right.",
+        "answer": "<code>B</code>",
+        "explanation": "The nested ternary is evaluated as: <code>\"A\" if x &gt; 10 else (\"B\" if x &gt; 3 else \"C\")</code>. First: <code>5 &gt; 10</code> is False, so we go to the else part. Second: <code>5 &gt; 3</code> is True, so \"B\" is chosen."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 10\ny = 5\nz = 10\n\nif x == z:\n    if y > x:\n        print(\"A\")\n    elif y == x:\n        print(\"B\")\n    else:\n        print(\"C\")\nelif x > y:\n    print(\"D\")\nelse:\n    print(\"E\")</code></pre>",
+        "hint": "x equals z (both 10). Then check y vs x inside.",
+        "answer": "<code>C</code>",
+        "explanation": "Outer: <code>10 == 10</code> is True, so we enter the first block. Inner: <code>5 &gt; 10</code> is False. <code>5 == 10</code> is False. So the inner else runs, printing \"C\"."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print(\"Yes\") if True else print(\"No\")\nprint(\"Yes\") if False else print(\"No\")</code></pre>",
+        "hint": "The ternary operator can contain function calls, not just values.",
+        "answer": "<code>Yes</code><br><code>No</code>",
+        "explanation": "Line 1: The condition is True, so <code>print(\"Yes\")</code> executes. Line 2: The condition is False, so <code>print(\"No\")</code> executes. While this works, using ternary with print statements is not recommended; it is better to use a regular if-else."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between using separate if statements and using if-elif? Give an example where the output differs.",
+        "hint": "With separate if statements, every condition is checked. With if-elif, checking stops at the first True.",
+        "answer": "With <strong>separate if statements</strong>, every condition is checked independently. With <strong>if-elif</strong>, checking stops at the first True condition. Example: for <code>x = 15</code>, three separate <code>if x &gt; 10</code>, <code>if x &gt; 5</code>, <code>if x &gt; 0</code> would print all three blocks. But <code>if x &gt; 10</code>, <code>elif x &gt; 5</code>, <code>elif x &gt; 0</code> would print only the first one.",
+        "explanation": "This distinction is crucial. Use if-elif when the conditions are mutually exclusive (only one should match, like grade ranges). Use separate if statements when conditions are independent and multiple might apply (like checking a number against different properties)."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "List all the falsy values in Python.",
+        "hint": "There are 7 main categories of falsy values.",
+        "answer": "The falsy values in Python are: <code>False</code>, <code>0</code> (integer zero), <code>0.0</code> (float zero), <code>\"\"</code> (empty string), <code>[]</code> (empty list), <code>()</code> (empty tuple), <code>{}</code> (empty dictionary), and <code>None</code>.",
+        "explanation": "Everything else is truthy. The key surprises for beginners: the string <code>\"0\"</code> is truthy (non-empty string), the string <code>\"False\"</code> is truthy (non-empty string), <code>[0]</code> is truthy (non-empty list), and negative numbers like <code>-1</code> are truthy (non-zero)."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 0\nif x:\n    print(\"A\")\nif not x:\n    print(\"B\")\nif x == 0:\n    print(\"C\")\nif x is None:\n    print(\"D\")</code></pre>",
+        "hint": "0 is falsy, but it is NOT None. Also, 0 == 0 is True.",
+        "answer": "<code>B</code><br><code>C</code>",
+        "explanation": "<code>x = 0</code>: <code>if 0</code> is falsy (skip A). <code>if not 0</code>: <code>not 0</code> = True (print B). <code>if 0 == 0</code>: True (print C). <code>if 0 is None</code>: False, 0 is not None (skip D). Being falsy is not the same as being None."
+      },
+      {
+        "id": "ts-20",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = True\nb = False\nc = True\n\nif a and b or c:\n    print(\"X\")\nif (a and b) or c:\n    print(\"Y\")\nif a and (b or c):\n    print(\"Z\")</code></pre>",
+        "hint": "Remember: 'and' has higher precedence than 'or'.",
+        "answer": "<code>X</code><br><code>Y</code><br><code>Z</code>",
+        "explanation": "Line 1: <code>and</code> before <code>or</code>: <code>(True and False) or True</code> = <code>False or True</code> = True (print X). Line 2: Same with explicit parentheses: <code>(True and False) or True</code> = True (print Y). Line 3: <code>True and (False or True)</code> = <code>True and True</code> = True (print Z). All three print because of how the conditions evaluate."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "coding",
+        "difficulty": "Easy",
+        "question": "Write a program that takes a number from the user and prints whether it is positive, negative, or zero.",
+        "hint": "Use if-elif-else with comparisons to 0.",
+        "answer": "<pre><code>num = int(input(\"Enter a number: \"))\nif num > 0:\n    print(\"Positive\")\nelif num < 0:\n    print(\"Negative\")\nelse:\n    print(\"Zero\")</code></pre>",
+        "explanation": "There are three possible cases: the number is greater than 0 (positive), less than 0 (negative), or equal to 0 (zero). The if-elif-else chain handles all three cases. Exactly one block will execute."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>age = 16\nif age >= 18:\n    print(\"Can vote\")\nprint(\"Done\")</code></pre>",
+        "hint": "16 is not >= 18. The last line is outside the if block.",
+        "answer": "<code>Done</code>",
+        "explanation": "<code>16 >= 18</code> is False, so \"Can vote\" is skipped. \"Done\" is not indented under the if, so it executes regardless."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 5\nif x > 2:\n    print(\"A\")\n    if x > 4:\n        print(\"B\")\n    print(\"C\")\nprint(\"D\")</code></pre>",
+        "hint": "Trace the indentation carefully. 'C' is inside the outer if but outside the inner if.",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code><br><code>D</code>",
+        "explanation": "<code>5 &gt; 2</code> is True: print \"A\". Inner: <code>5 &gt; 4</code> is True: print \"B\". \"C\" is at the same indentation as the inner if, so it is inside the outer if but outside the inner if; it prints. \"D\" is outside everything; it prints."
+      },
+      {
+        "id": "mx-4",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Ananya wants to build a simple eligibility checker. Write a program that takes age and nationality as input. Print 'Eligible' if age >= 18 AND nationality is 'Indian'. Otherwise, print 'Not Eligible'.",
+        "hint": "Use 'and' to combine two conditions.",
+        "answer": "<pre><code>age = int(input(\"Enter age: \"))\nnationality = input(\"Enter nationality: \")\nif age >= 18 and nationality == \"Indian\":\n    print(\"Eligible\")\nelse:\n    print(\"Not Eligible\")</code></pre>",
+        "explanation": "The <code>and</code> operator requires both conditions to be True. If either the age is below 18 or the nationality is not Indian, the overall condition is False and \"Not Eligible\" prints."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>num = 15\nif num % 3 == 0 and num % 5 == 0:\n    print(\"FizzBuzz\")\nelif num % 3 == 0:\n    print(\"Fizz\")\nelif num % 5 == 0:\n    print(\"Buzz\")\nelse:\n    print(num)</code></pre>",
+        "hint": "Check: is 15 divisible by both 3 and 5?",
+        "answer": "<code>FizzBuzz</code>",
+        "explanation": "<code>15 % 3 == 0</code> is True and <code>15 % 5 == 0</code> is True. Both conditions True with <code>and</code> gives True. So \"FizzBuzz\" prints. The elif and else blocks are skipped."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = []\nif x:\n    print(\"List has items\")\nelse:\n    print(\"List is empty\")\n\ny = [0, 0, 0]\nif y:\n    print(\"List has items\")\nelse:\n    print(\"List is empty\")</code></pre>",
+        "hint": "An empty list is falsy. A list with items (even zeros) is truthy.",
+        "answer": "<code>List is empty</code><br><code>List has items</code>",
+        "explanation": "Empty list <code>[]</code> is falsy, so the else runs for x. The list <code>[0, 0, 0]</code> is truthy because it is non-empty (it contains three elements, even though they are all zeros). This is a common source of confusion."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = 5\nb = 10\nc = 15\n\nif a + b == c:\n    print(\"Sum\")\nif a * b == c * a:\n    print(\"Product\")\nif c - b == a:\n    print(\"Difference\")\nif c / a == b / a:\n    print(\"Quotient\")</code></pre>",
+        "hint": "These are four separate if statements. Check each one independently.",
+        "answer": "<code>Sum</code><br><code>Difference</code>",
+        "explanation": "<code>5 + 10 == 15</code>: True (print Sum). <code>5 * 10 == 15 * 5</code>: <code>50 == 75</code>: False (skip). <code>15 - 10 == 5</code>: True (print Difference). <code>15 / 5 == 10 / 5</code>: <code>3.0 == 2.0</code>: False (skip)."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 10\nif x > 5:\n    x = x - 3\n    if x > 5:\n        x = x - 3\n        if x > 5:\n            print(\"Still big\")\n        else:\n            print(\"Getting small\")\n    else:\n        print(\"Small\")\nprint(\"x =\", x)</code></pre>",
+        "hint": "Trace x: starts at 10, becomes 7 after first subtraction, then becomes 4.",
+        "answer": "<code>Getting small</code><br><code>x = 4</code>",
+        "explanation": "x starts at 10. <code>10 &gt; 5</code> is True: x = 10 - 3 = 7. <code>7 &gt; 5</code> is True: x = 7 - 3 = 4. <code>4 &gt; 5</code> is False: else block prints \"Getting small\". Final x = 4."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>name = \"\"\nif name:\n    greeting = \"Hello, \" + name\nelse:\n    greeting = \"Hello, stranger\"\n\nshort = \"Hello, \" + name if name else \"Hello, stranger\"\n\nprint(greeting)\nprint(short)</code></pre>",
+        "hint": "Empty string is falsy. Both approaches should give the same result.",
+        "answer": "<code>Hello, stranger</code><br><code>Hello, stranger</code>",
+        "explanation": "<code>name = \"\"</code> is falsy, so the else block sets greeting to \"Hello, stranger\". The ternary: since <code>name</code> is falsy, the else part is chosen: \"Hello, stranger\". Both approaches give the same result."
+      },
+      {
+        "id": "mx-10",
+        "type": "coding",
+        "difficulty": "Medium",
+        "question": "Write a program that takes three numbers from the user and prints the largest one.",
+        "hint": "You can compare them with if-elif-else, or use nested conditions.",
+        "answer": "<pre><code>a = int(input(\"Enter first number: \"))\nb = int(input(\"Enter second number: \"))\nc = int(input(\"Enter third number: \"))\n\nif a >= b and a >= c:\n    print(\"Largest:\", a)\nelif b >= a and b >= c:\n    print(\"Largest:\", b)\nelse:\n    print(\"Largest:\", c)</code></pre>",
+        "explanation": "We compare each number with the other two using <code>and</code>. If <code>a</code> is greater than or equal to both b and c, then a is the largest. Similarly for b. If neither a nor b is the largest, then c must be."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 1\ny = 2\nz = 3\n\nif x < y < z:\n    print(\"A\")\nif x < y > z:\n    print(\"B\")\nif x < y and y < z:\n    print(\"C\")\nif x == 1 == True:\n    print(\"D\")</code></pre>",
+        "hint": "Chained comparisons. Also, 1 == True in Python.",
+        "answer": "<code>A</code><br><code>C</code><br><code>D</code>",
+        "explanation": "<code>1 &lt; 2 &lt; 3</code>: True (print A). <code>1 &lt; 2 &gt; 3</code>: <code>1 &lt; 2 and 2 &gt; 3</code> = <code>True and False</code> = False (skip B). <code>1 &lt; 2 and 2 &lt; 3</code>: True (print C). <code>1 == 1 == True</code>: <code>1 == 1 and 1 == True</code>: True (because <code>True == 1</code> in Python), print D."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = None\nif x is None:\n    print(\"A\")\nif x == None:\n    print(\"B\")\nif not x:\n    print(\"C\")\nif x == False:\n    print(\"D\")</code></pre>",
+        "hint": "None is falsy. None is None. But is None == False?",
+        "answer": "<code>A</code><br><code>B</code><br><code>C</code>",
+        "explanation": "<code>x is None</code>: True (print A). <code>x == None</code>: True (print B). <code>not None</code>: True because None is falsy (print C). <code>None == False</code>: False! None is not equal to False; they are different objects. None is falsy but it does not equal False."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What keyword starts a conditional statement in Python?",
+        "options": [
+          "when",
+          "check",
+          "if",
+          "condition"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>if</code> keyword is used to start a conditional statement in Python. The other options are not Python keywords for conditional statements."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What must appear at the end of an if statement line?",
+        "options": [
+          "A semicolon (;)",
+          "A colon (:)",
+          "A period (.)",
+          "Curly braces ({})"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Every <code>if</code>, <code>elif</code>, and <code>else</code> line must end with a colon (<code>:</code>). Semicolons are used to separate statements on one line (rare). Curly braces are used in languages like Java and C++, not Python."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does elif stand for?",
+        "options": [
+          "else if",
+          "eliminate if",
+          "element if",
+          "elif is not an abbreviation"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>elif</code> is short for \"else if\". It allows you to check additional conditions when the previous <code>if</code> or <code>elif</code> was False."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How many spaces is the standard indentation in Python?",
+        "options": [
+          "1",
+          "2",
+          "4",
+          "8"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The standard Python indentation is 4 spaces. While Python technically allows any consistent number of spaces, PEP 8 (Python's style guide) recommends 4 spaces."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which value is considered falsy in Python?",
+        "options": [
+          "1",
+          "\"hello\"",
+          "[1, 2, 3]",
+          "0"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>0</code> is falsy. All the other options are truthy: <code>1</code> is a non-zero number, <code>\"hello\"</code> is a non-empty string, and <code>[1, 2, 3]</code> is a non-empty list."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of: print('Adult' if 15 >= 18 else 'Minor')?",
+        "options": [
+          "Adult",
+          "Minor",
+          "True",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The ternary operator checks <code>15 &gt;= 18</code> which is False. So the value after <code>else</code> is chosen: 'Minor'."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens if you forget to indent the code after an if statement?",
+        "options": [
+          "Python adds indentation automatically",
+          "The code runs normally",
+          "IndentationError",
+          "SyntaxWarning"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python requires indentation after <code>if</code>, <code>elif</code>, <code>else</code>, and other compound statements. Missing indentation causes an <code>IndentationError</code>. Python never adds indentation automatically."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "In an if-elif-else chain, how many blocks can execute?",
+        "options": [
+          "All of them",
+          "At most one",
+          "At least one",
+          "Exactly one"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct</strong> when an else block is present. In an if-elif-else chain, exactly one block executes: either the first if/elif whose condition is True, or the else block if no conditions are True. Without an else, at most one block executes (option B would be correct)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(bool('False'))?",
+        "options": [
+          "True",
+          "False",
+          "Error",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>'False'</code> is a non-empty string, which is truthy. <code>bool('False')</code> returns True. Python does not interpret the content of the string; it only checks whether the string is empty."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which is the correct ternary operator syntax in Python?",
+        "options": [
+          "condition ? value1 : value2",
+          "value1 if condition else value2",
+          "if condition then value1 else value2",
+          "value1 when condition otherwise value2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python's ternary syntax is <code>value_if_true if condition else value_if_false</code>. Option A is the syntax used in C, Java, and JavaScript. Options C and D are not valid Python syntax."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><code>x = 10<br>if x > 5: print('A')<br>else: print('B')</code>",
+        "options": [
+          "A",
+          "B",
+          "A B",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Short-hand if-else on one line is valid when each block has only one statement. <code>10 &gt; 5</code> is True, so 'A' prints."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>print(None == False)</code>",
+        "options": [
+          "True",
+          "False",
+          "None",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>None == False</code> is False. Although both are falsy (they are treated as False in boolean context), they are not equal to each other. <code>None</code> is only equal to <code>None</code>. Similarly, <code>0 == False</code> is True (because bool is a subclass of int), but <code>None == False</code> is False."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What error occurs with this code?<br><code>if True:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('A')<br>&nbsp;&nbsp;print('B')</code>",
+        "options": [
+          "SyntaxError",
+          "IndentationError",
+          "NameError",
+          "No error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The second print has 2 spaces of indentation while the first has 4 spaces. All lines in the same block must have the same indentation level. Python raises an <code>IndentationError: unexpected indent</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>x = 5<br>y = 10<br>print('Equal' if x == y else 'X bigger' if x > y else 'Y bigger')</code>",
+        "options": [
+          "Equal",
+          "X bigger",
+          "Y bigger",
+          "Error"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Nested ternary: <code>5 == 10</code> is False, go to else. <code>5 &gt; 10</code> is False, go to else. Result: 'Y bigger'."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which of these is truthy in Python?",
+        "options": [
+          "0",
+          "''",
+          "None",
+          "'0'"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> <code>'0'</code> is a non-empty string, making it truthy. <code>0</code> (integer zero), <code>''</code> (empty string), and <code>None</code> are all falsy. This is a frequently tested concept."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is 1 < 2 < 3 < 4 equivalent to in Python?",
+        "options": [
+          "((1 < 2) < 3) < 4",
+          "1 < 2 and 2 < 3 and 3 < 4",
+          "1 < 4",
+          "True < 3 < 4"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python's chained comparisons are equivalent to each adjacent pair connected by <code>and</code>. <code>1 &lt; 2 &lt; 3 &lt; 4</code> means <code>1 &lt; 2 and 2 &lt; 3 and 3 &lt; 4</code>. Option A is how most other languages would evaluate it (left to right, which would give a different result). Option D is what option A would produce."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Medium",
+        "question": "Which keyword catches all remaining cases in a conditional chain?",
+        "options": [
+          "elif",
+          "else",
+          "default",
+          "otherwise"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>else</code> keyword catches all cases not handled by the preceding <code>if</code> and <code>elif</code> blocks. <code>default</code> is used in switch statements in other languages (Python 3.10+ uses <code>case _:</code> for match-case). <code>otherwise</code> is not a Python keyword."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>if not not True:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('A')<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('B')</code>",
+        "options": [
+          "A",
+          "B",
+          "Error",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>not True</code> = False. <code>not False</code> = True. So <code>not not True</code> = True, and 'A' prints. Double negation returns the original value."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "Can an if-elif chain exist without an else block?",
+        "options": [
+          "No, else is mandatory",
+          "Yes, else is optional",
+          "Only with one elif",
+          "Only in Python 3.10+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>else</code> block is optional. An if-elif chain without else simply means: if no condition is True, nothing happens (no block executes)."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><code>x = 10<br>if x > 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;pass<br>else:<br>&nbsp;&nbsp;&nbsp;&nbsp;print('Small')<br>print('Done')</code>",
+        "options": [
+          "Small Done",
+          "Done",
+          "Small",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>10 &gt; 5</code> is True, so the if block runs. But the if block contains only <code>pass</code>, which does nothing. The else block is skipped. \"Done\" is outside the if-else, so it prints. Output: just \"Done\"."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Voting Eligibility",
+        "difficulty": "Easy",
+        "description": "Write a program that takes a user's age and prints whether they are eligible to vote (age >= 18). Print 'You can vote!' or 'You cannot vote yet. Wait [X] more years.' where X is the years remaining.",
+        "sampleInput": "Enter your age: 15",
+        "sampleOutput": "You cannot vote yet. Wait 3 more years.",
+        "constraints": "Use if-else. Calculate remaining years for the else case.",
+        "solution": "age = int(input(\"Enter your age: \"))\nif age >= 18:\n    print(\"You can vote!\")\nelse:\n    years_left = 18 - age\n    print(\"You cannot vote yet. Wait\", years_left, \"more years.\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Ticket Price Calculator",
+        "difficulty": "Easy",
+        "description": "A movie theater charges different prices: Children (under 12): Rs 100, Teens (12-17): Rs 200, Adults (18-59): Rs 300, Seniors (60+): Rs 150. Take age as input and print the ticket price.",
+        "sampleInput": "Enter age: 14",
+        "sampleOutput": "Ticket price: Rs 200",
+        "constraints": "Use if-elif-else chain.",
+        "solution": "age = int(input(\"Enter age: \"))\nif age < 12:\n    price = 100\nelif age <= 17:\n    price = 200\nelif age <= 59:\n    price = 300\nelse:\n    price = 150\nprint(\"Ticket price: Rs\", price)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Triangle Type Identifier",
+        "difficulty": "Medium",
+        "description": "Take three sides of a triangle from the user. First check if they can form a valid triangle (sum of any two sides must be greater than the third). If valid, determine if it is equilateral (all equal), isosceles (two equal), or scalene (none equal).",
+        "sampleInput": "Side 1: 5\nSide 2: 5\nSide 3: 8",
+        "sampleOutput": "Valid triangle\nType: Isosceles",
+        "constraints": "Check validity first. Then check type. Use logical operators.",
+        "solution": "a = int(input(\"Side 1: \"))\nb = int(input(\"Side 2: \"))\nc = int(input(\"Side 3: \"))\n\nif a + b > c and b + c > a and a + c > b:\n    print(\"Valid triangle\")\n    if a == b == c:\n        print(\"Type: Equilateral\")\n    elif a == b or b == c or a == c:\n        print(\"Type: Isosceles\")\n    else:\n        print(\"Type: Scalene\")\nelse:\n    print(\"Not a valid triangle\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Grade Calculator with Remarks",
+        "difficulty": "Medium",
+        "description": "Take marks (0-100) from the user. Validate that marks are between 0 and 100. Then assign grades: A (90-100), B (80-89), C (70-79), D (60-69), E (40-59), F (below 40). Also print a remark: A/B = 'Excellent', C/D = 'Good', E = 'Pass', F = 'Fail'.",
+        "sampleInput": "Enter marks: 73",
+        "sampleOutput": "Grade: C\nRemark: Good",
+        "constraints": "Validate input range first. Use if-elif-else.",
+        "solution": "marks = int(input(\"Enter marks: \"))\nif marks < 0 or marks > 100:\n    print(\"Invalid marks! Must be 0-100.\")\nelif marks >= 90:\n    print(\"Grade: A\")\n    print(\"Remark: Excellent\")\nelif marks >= 80:\n    print(\"Grade: B\")\n    print(\"Remark: Excellent\")\nelif marks >= 70:\n    print(\"Grade: C\")\n    print(\"Remark: Good\")\nelif marks >= 60:\n    print(\"Grade: D\")\n    print(\"Remark: Good\")\nelif marks >= 40:\n    print(\"Grade: E\")\n    print(\"Remark: Pass\")\nelse:\n    print(\"Grade: F\")\n    print(\"Remark: Fail\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Leap Year Checker",
+        "difficulty": "Medium",
+        "description": "Take a year from the user and determine if it is a leap year. Rules: A year is a leap year if (1) it is divisible by 4, AND (2) it is NOT divisible by 100, UNLESS (3) it is also divisible by 400. Test with: 2024, 1900, 2000.",
+        "sampleInput": "Enter year: 1900",
+        "sampleOutput": "1900 is NOT a leap year",
+        "constraints": "Use logical operators (and, or, not). Handle all three rules.",
+        "solution": "year = int(input(\"Enter year: \"))\nif (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):\n    print(year, \"is a leap year\")\nelse:\n    print(year, \"is NOT a leap year\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Simple Calculator with Operation Choice",
+        "difficulty": "Medium",
+        "description": "Build a calculator that takes two numbers and an operation (+, -, *, /) from the user. Perform the chosen operation and print the result. Handle division by zero.",
+        "sampleInput": "Enter first number: 20\nEnter second number: 0\nEnter operation (+, -, *, /): /",
+        "sampleOutput": "Error: Cannot divide by zero!",
+        "constraints": "Use if-elif-else for operation selection. Check for division by zero.",
+        "solution": "num1 = float(input(\"Enter first number: \"))\nnum2 = float(input(\"Enter second number: \"))\nop = input(\"Enter operation (+, -, *, /): \")\n\nif op == \"+\":\n    print(\"Result:\", num1 + num2)\nelif op == \"-\":\n    print(\"Result:\", num1 - num2)\nelif op == \"*\":\n    print(\"Result:\", num1 * num2)\nelif op == \"/\":\n    if num2 == 0:\n        print(\"Error: Cannot divide by zero!\")\n    else:\n        print(\"Result:\", num1 / num2)\nelse:\n    print(\"Invalid operation!\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "BMI Calculator with Health Category",
+        "difficulty": "Hard",
+        "description": "Take weight (in kg) and height (in meters) from the user. Calculate BMI using the formula: BMI = weight / (height * height). Classify: Underweight (BMI < 18.5), Normal (18.5-24.9), Overweight (25-29.9), Obese (30+). Print BMI rounded to 1 decimal place and the category.",
+        "sampleInput": "Enter weight (kg): 70\nEnter height (m): 1.75",
+        "sampleOutput": "BMI: 22.9\nCategory: Normal weight",
+        "constraints": "Use float(input()) for both values. Validate that both are positive. Round BMI to 1 decimal.",
+        "solution": "weight = float(input(\"Enter weight (kg): \"))\nheight = float(input(\"Enter height (m): \"))\n\nif weight <= 0 or height <= 0:\n    print(\"Error: Weight and height must be positive.\")\nelse:\n    bmi = weight / (height ** 2)\n    bmi_rounded = round(bmi, 1)\n    print(\"BMI:\", bmi_rounded)\n    \n    if bmi < 18.5:\n        print(\"Category: Underweight\")\n    elif bmi < 25:\n        print(\"Category: Normal weight\")\n    elif bmi < 30:\n        print(\"Category: Overweight\")\n    else:\n        print(\"Category: Obese\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Electricity Bill Calculator",
+        "difficulty": "Hard",
+        "description": "Write a program for Rohan to calculate his electricity bill. Take units consumed as input. Pricing: First 100 units: Rs 5/unit. Next 100 units (101-200): Rs 7/unit. Next 100 units (201-300): Rs 10/unit. Above 300: Rs 15/unit. Add a fixed charge of Rs 100. Print the total bill.",
+        "sampleInput": "Enter units consumed: 250",
+        "sampleOutput": "Units: 250\nTotal bill: Rs 1600",
+        "constraints": "Use if-elif-else. Calculate charges for each slab separately.",
+        "solution": "units = int(input(\"Enter units consumed: \"))\nfixed_charge = 100\n\nif units <= 100:\n    bill = units * 5\nelif units <= 200:\n    bill = 100 * 5 + (units - 100) * 7\nelif units <= 300:\n    bill = 100 * 5 + 100 * 7 + (units - 200) * 10\nelse:\n    bill = 100 * 5 + 100 * 7 + 100 * 10 + (units - 300) * 15\n\ntotal = bill + fixed_charge\nprint(\"Units:\", units)\nprint(\"Total bill: Rs\", total)"
+      },
+      {
+        "id": "cc-9",
+        "title": "Number Classifier",
+        "difficulty": "Hard",
+        "description": "Take a number from the user and print ALL properties that apply: positive/negative/zero, even/odd, divisible by 5, divisible by 3, a single digit number, a two-digit number, a three-digit number. Use separate if statements (not elif) since multiple properties can apply.",
+        "sampleInput": "Enter a number: 15",
+        "sampleOutput": "15 is positive\n15 is odd\n15 is divisible by 5\n15 is divisible by 3\n15 is a two-digit number",
+        "constraints": "Use separate if statements (not elif) since multiple conditions can be true simultaneously.",
+        "solution": "num = int(input(\"Enter a number: \"))\n\nif num > 0:\n    print(num, \"is positive\")\nelif num < 0:\n    print(num, \"is negative\")\nelse:\n    print(num, \"is zero\")\n\nif num != 0:\n    if num % 2 == 0:\n        print(num, \"is even\")\n    else:\n        print(num, \"is odd\")\n\nif num % 5 == 0 and num != 0:\n    print(num, \"is divisible by 5\")\n\nif num % 3 == 0 and num != 0:\n    print(num, \"is divisible by 3\")\n\nabs_num = abs(num)\nif 0 <= abs_num <= 9:\n    print(num, \"is a single digit number\")\nelif 10 <= abs_num <= 99:\n    print(num, \"is a two-digit number\")\nelif 100 <= abs_num <= 999:\n    print(num, \"is a three-digit number\")"
+      },
+      {
+        "id": "cc-10",
+        "title": "Password Strength Checker",
+        "difficulty": "Hard",
+        "description": "Take a password as input and check its strength. Rules: Weak (length < 6), Medium (length 6-9 and contains at least one digit), Strong (length 10+ and contains at least one digit and at least one uppercase letter). Print the strength level. Hint: Use any() with a generator expression or loop through characters.",
+        "sampleInput": "Enter password: Hello123World",
+        "sampleOutput": "Password strength: Strong",
+        "constraints": "Use len() for length. Use the 'in' operator or string methods to check for digits and uppercase. Use nested conditions.",
+        "solution": "password = input(\"Enter password: \")\nlength = len(password)\n\nhas_digit = False\nhas_upper = False\nfor char in password:\n    if char.isdigit():\n        has_digit = True\n    if char.isupper():\n        has_upper = True\n\nif length >= 10 and has_digit and has_upper:\n    print(\"Password strength: Strong\")\nelif length >= 6 and has_digit:\n    print(\"Password strength: Medium\")\nelse:\n    print(\"Password strength: Weak\")"
+      }
+    ]
+  }
+}

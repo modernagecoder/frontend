@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taking Input and Type Conversion - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Take user input with input(), and convert between data types using int(), float(), and str().">
+    <meta name="keywords" content="taking input and type conversion, python tutorial, python taking input and type conversion, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+    <meta property="og:title" content="Taking Input and Type Conversion - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Take user input with input(), and convert between data types using int(), float(), and str().">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion">
+    <meta name="twitter:title" content="Taking Input and Type Conversion - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Take user input with input(), and convert between data types using int(), float(), and str().">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Taking Input and Type Conversion",
+    "description": "Take user input with input(), and convert between data types using int(), float(), and str().",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Taking Input and Type Conversion",
+        "item": "https://learn.modernagecoders.com/resources/python/taking-input-and-type-conversion"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Doing Math with String Input (Not Converting)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Since <code>input()</code> returns strings, <code>\"5\" + \"3\"</code> concatenates to <code>\"53\"</code>. To get the mathematical sum 8, you must convert the input to integers using <code>int()</code>. This is the number one mistake beginners make with <code>input()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using int() on a Decimal String",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>int()</code> function cannot directly convert a string that contains a decimal point. <code>int(\"29.99\")</code> raises a ValueError. Use <code>float()</code> instead, or chain <code>int(float(...))</code> if you need an integer from a decimal input."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to Multiply a String with No Conversion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In Python, multiplying a string by an integer repeats the string. <code>\"3\" * 50</code> creates a string of fifty 3s: <code>\"33333...3\"</code>. You must convert <code>quantity</code> to an integer first so that <code>3 * 50</code> gives 150."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting the Prompt Message",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While <code>input()</code> works without a prompt, the user has no idea what to enter. Always include a clear prompt message. Add a space at the end of the prompt (<code>\"Enter name: \"</code>) so the cursor does not appear right next to the colon."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using eval() with User Input",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>eval()</code> executes any Python code the user types. This is a serious security risk. A malicious user could type <code>__import__('os').system('del *')</code> and delete files. Always use <code>int()</code> or <code>float()</code> for numeric input. There is never a good reason to use <code>eval()</code> with user input."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Taking Input and Type Conversion</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 6</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">16 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Taking Input and Type Conversion</h1>
+            <a href="/resources/python/taking-input-and-type-conversion/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Input and Type Conversion?</h2><p><strong>Input</strong> means receiving data from the user while the program is running. Instead of hardcoding values like <code>name = "Aarav"</code> or <code>age = 14</code>, you ask the user to type their own name and age. This makes your program interactive and useful for different people.</p><p>The <code>input()</code> function is Python's built-in way to take input from the user. When Python reaches an <code>input()</code> call, it pauses the program, waits for the user to type something and press Enter, and then returns whatever they typed as a <strong>string</strong>.</p><h3>What Is Type Conversion?</h3><p><strong>Type conversion</strong> (also called <strong>type casting</strong>) is the process of changing a value from one data type to another. For example, converting the string <code>"42"</code> into the integer <code>42</code>, or converting the integer <code>10</code> into the string <code>"10"</code>.</p><p>Type conversion is essential because <code>input()</code> always returns a string, even if the user types a number. If Priya types <code>85</code> when asked for her marks, Python receives <code>"85"</code> (a string), not <code>85</code> (a number). You cannot do math with strings, so you must convert the string to a number before performing calculations.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do You Need Input and Type Conversion?</h2><h3>1. Making Programs Interactive</h3><p>Without input, your programs can only work with pre-written values. A calculator that only adds 5 + 3 is not very useful. But a calculator that asks the user for two numbers and then adds them can be used by anyone, anytime, with any numbers. Input transforms a static script into a dynamic, reusable tool.</p><h3>2. The Critical Rule: input() Always Returns a String</h3><p>This is the single most important fact in this chapter. No matter what the user types — a number, a decimal, even <code>True</code> — the <code>input()</code> function <strong>always returns a string</strong>. If the user types <code>25</code>, Python stores it as <code>"25"</code>. If you try to do <code>"25" + "10"</code>, you get <code>"2510"</code> (string concatenation), not <code>35</code> (addition). This is why type conversion is not optional — it is mandatory whenever you need to do math with user input.</p><h3>3. Preventing Errors in Your Programs</h3><p>If you try to convert a value that cannot be converted (like <code>int("hello")</code>), Python raises a <code>ValueError</code>. Understanding type conversion helps you write programs that handle invalid input gracefully instead of crashing.</p><h3>4. Building Real Applications</h3><p>Every real program takes input: login forms ask for usernames and passwords, calculators ask for numbers, games ask for player choices, and surveys ask for responses. Mastering <code>input()</code> and type conversion is the foundation for all interactive programming.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The input() Function</h3><p>The <code>input()</code> function has a simple syntax:</p><pre><code>variable = input(prompt_message)</code></pre><p>The <code>prompt_message</code> is an optional string that is displayed to the user before they type. It tells the user what to enter. For example:</p><pre><code>name = input("Enter your name: ")</code></pre><p>When Python executes this line, it prints <code>Enter your name: </code> on the screen and waits. The user types their name (say, "Rohan") and presses Enter. Python then stores <code>"Rohan"</code> in the variable <code>name</code>.</p><h4>Key Facts About input()</h4><ul><li>It <strong>always returns a string</strong> — this is the most important thing to remember.</li><li>The prompt message is optional. <code>input()</code> with no argument still works; it just shows a blank cursor.</li><li>The program <strong>pauses</strong> until the user presses Enter.</li><li>The trailing newline (when the user presses Enter) is <strong>stripped automatically</strong> — it is not included in the returned string.</li><li>If you add a space at the end of the prompt (<code>"Enter name: "</code>), the cursor appears right after the colon, which looks cleaner.</li></ul><h3>2. Why input() Returns a String</h3><p>You might wonder: if the user types <code>25</code>, why does Python not automatically store it as an integer? The reason is that Python has no way to know what the user intends. Consider this: if the user types <code>007</code>, should Python store it as the integer 7 (dropping leading zeros) or as the string <code>"007"</code> (preserving the format, like a secret agent code)? If the user types <code>110</code>, is it a number or a binary string?</p><p>By always returning a string, Python gives you the raw data and lets you decide how to interpret it. This is a deliberate design choice that avoids ambiguity.</p><h3>3. Type Conversion Functions</h3><p>Python provides built-in functions to convert between types:</p><table><tr><th>Function</th><th>Converts To</th><th>Example</th><th>Result</th></tr><tr><td><code>int()</code></td><td>Integer</td><td><code>int("42")</code></td><td><code>42</code></td></tr><tr><td><code>float()</code></td><td>Float</td><td><code>float("3.14")</code></td><td><code>3.14</code></td></tr><tr><td><code>str()</code></td><td>String</td><td><code>str(42)</code></td><td><code>"42"</code></td></tr><tr><td><code>bool()</code></td><td>Boolean</td><td><code>bool(1)</code></td><td><code>True</code></td></tr></table><h4>int() - Converting to Integer</h4><p>The <code>int()</code> function converts a value to an integer. It works with:</p><ul><li><strong>Strings containing whole numbers:</strong> <code>int("42")</code> gives <code>42</code></li><li><strong>Floats (truncates toward zero):</strong> <code>int(3.9)</code> gives <code>3</code>, <code>int(-3.9)</code> gives <code>-3</code></li><li><strong>Booleans:</strong> <code>int(True)</code> gives <code>1</code>, <code>int(False)</code> gives <code>0</code></li></ul><p>Important: <code>int()</code> <strong>cannot</strong> convert a string that contains a decimal point. <code>int("3.14")</code> raises a <code>ValueError</code>. You must first convert to float, then to int: <code>int(float("3.14"))</code>.</p><h4>float() - Converting to Float</h4><p>The <code>float()</code> function converts a value to a floating-point number:</p><ul><li><strong>Strings containing numbers:</strong> <code>float("3.14")</code> gives <code>3.14</code>, <code>float("42")</code> gives <code>42.0</code></li><li><strong>Integers:</strong> <code>float(42)</code> gives <code>42.0</code></li><li><strong>Booleans:</strong> <code>float(True)</code> gives <code>1.0</code></li></ul><p><code>float()</code> is more flexible than <code>int()</code> — it can handle strings with or without decimal points.</p><h4>str() - Converting to String</h4><p>The <code>str()</code> function converts any value to its string representation:</p><ul><li><code>str(42)</code> gives <code>"42"</code></li><li><code>str(3.14)</code> gives <code>"3.14"</code></li><li><code>str(True)</code> gives <code>"True"</code></li></ul><p>This is useful when you want to concatenate a number with text: <code>"Your score is " + str(95)</code>.</p><h3>4. The Common Pattern: int(input())</h3><p>Since <code>input()</code> returns a string and you often need a number, the most common pattern is to wrap <code>input()</code> inside a conversion function:</p><pre><code>age = int(input("Enter your age: "))
+height = float(input("Enter your height in cm: "))</code></pre><p>This is called <strong>nesting</strong> function calls. Python evaluates from the inside out: first <code>input()</code> gets the string from the user, then <code>int()</code> or <code>float()</code> converts it to a number.</p><h3>5. ValueError: When Conversion Fails</h3><p>If you try to convert a value that does not make sense for the target type, Python raises a <code>ValueError</code>:</p><ul><li><code>int("hello")</code> — ValueError ("hello" is not a number)</li><li><code>int("3.14")</code> — ValueError (contains a decimal point; int cannot handle this directly)</li><li><code>int("")</code> — ValueError (empty string)</li><li><code>float("abc")</code> — ValueError ("abc" is not a number)</li></ul><p>You will learn how to handle these errors gracefully using <code>try-except</code> in a later chapter. For now, always make sure the user enters valid data.</p><h3>6. Chaining Conversions</h3><p>Sometimes you need to convert through an intermediate type. The most common case is converting a decimal string to an integer:</p><pre><code># This fails:
+# int("3.14")  -> ValueError
+
+# This works (chain through float):
+result = int(float("3.14"))  # float("3.14") = 3.14, int(3.14) = 3
+</code></pre><p>Another example: converting a Boolean to a string representation of an integer:</p><pre><code>str(int(True))  # int(True) = 1, str(1) = "1"</code></pre><h3>7. Multiple Inputs on One Line</h3><p>You can take multiple inputs on one line using the <code>split()</code> method:</p><pre><code>a, b = input("Enter two numbers: ").split()
+a = int(a)
+b = int(b)</code></pre><p>Or more concisely using <code>map()</code>:</p><pre><code>a, b = map(int, input("Enter two numbers: ").split())</code></pre><p>When the user types <code>10 20</code>, <code>split()</code> breaks it into <code>["10", "20"]</code>, and <code>map(int, ...)</code> converts each element to an integer.</p><h3>8. A Note on eval() (And Why to Avoid It)</h3><p>Python has a function called <code>eval()</code> that evaluates a string as a Python expression:</p><pre><code>result = eval("2 + 3")  # result = 5
+result = eval(input("Enter expression: "))  # User types 2+3, gets 5</code></pre><p>While <code>eval()</code> seems convenient, it is <strong>extremely dangerous</strong> and should never be used with user input. If a malicious user types something like <code>__import__('os').system('rm -rf /')</code>, <code>eval()</code> would execute it as Python code, potentially deleting files or causing other damage. <strong>Never use <code>eval()</code> with <code>input()</code></strong>. Always use explicit type conversion functions like <code>int()</code> and <code>float()</code> instead.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic input() Usage</div><pre><code class="language-python">name = input(&quot;Enter your name: &quot;)
+print(&quot;Hello,&quot;, name)
+print(&quot;Type of name:&quot;, type(name))</code></pre><div class="code-example-explanation">The <code>input()</code> function displays the prompt, waits for the user to type, and stores the result in <code>name</code>. The <code>type()</code> function confirms that the result is always a string, regardless of what the user types.</div><div class="code-example-output">Enter your name: Aarav
+Hello, Aarav
+Type of name: &lt;class &#39;str&#39;&gt;</div></div>
+<div class="code-example"><div class="code-example-title">The Problem: input() Returns a String</div><pre><code class="language-python"># Without conversion - WRONG result!
+num1 = input(&quot;Enter first number: &quot;)   # User types 10
+num2 = input(&quot;Enter second number: &quot;)  # User types 20
+result = num1 + num2
+print(&quot;Result:&quot;, result)
+print(&quot;Type:&quot;, type(result))</code></pre><div class="code-example-explanation">This demonstrates the most common beginner mistake. When Priya enters 10 and 20, she expects the result to be 30. But since <code>input()</code> returns strings, <code>"10" + "20"</code> performs string concatenation and gives <code>"1020"</code>. The <code>+</code> operator with strings joins them together instead of adding numerically.</div><div class="code-example-output">Enter first number: 10
+Enter second number: 20
+Result: 1020
+Type: &lt;class &#39;str&#39;&gt;</div></div>
+<div class="code-example"><div class="code-example-title">The Solution: int(input()) for Numeric Input</div><pre><code class="language-python"># With conversion - CORRECT!
+num1 = int(input(&quot;Enter first number: &quot;))   # User types 10
+num2 = int(input(&quot;Enter second number: &quot;))  # User types 20
+result = num1 + num2
+print(&quot;Result:&quot;, result)
+print(&quot;Type:&quot;, type(result))</code></pre><div class="code-example-explanation">By wrapping <code>input()</code> inside <code>int()</code>, the string <code>"10"</code> is converted to the integer <code>10</code>, and <code>"20"</code> becomes <code>20</code>. Now <code>10 + 20</code> performs arithmetic addition and gives <code>30</code>. This is the correct approach for taking numeric input.</div><div class="code-example-output">Enter first number: 10
+Enter second number: 20
+Result: 30
+Type: &lt;class &#39;int&#39;&gt;</div></div>
+<div class="code-example"><div class="code-example-title">Type Conversion Functions in Action</div><pre><code class="language-python"># String to int
+age_str = &quot;14&quot;
+age = int(age_str)
+print(age, type(age))
+
+# String to float
+price_str = &quot;99.50&quot;
+price = float(price_str)
+print(price, type(price))
+
+# Int to float
+count = 10
+count_float = float(count)
+print(count_float, type(count_float))
+
+# Float to int (truncates toward zero)
+temperature = 36.7
+temp_int = int(temperature)
+print(temp_int, type(temp_int))
+
+# Negative float to int (truncates toward zero)
+neg_temp = -3.8
+neg_int = int(neg_temp)
+print(neg_int, type(neg_int))
+
+# Number to string
+score = 95
+score_str = str(score)
+print(score_str, type(score_str))</code></pre><div class="code-example-explanation">This demonstrates all major type conversions. Notice that <code>int(36.7)</code> gives 36 (truncates toward zero, does NOT round). Similarly, <code>int(-3.8)</code> gives -3, not -4. This is different from floor division which rounds toward negative infinity. The <code>str()</code> function converts any value to its string representation.</div><div class="code-example-output">14 &lt;class &#39;int&#39;&gt;
+99.5 &lt;class &#39;float&#39;&gt;
+10.0 &lt;class &#39;float&#39;&gt;
+36 &lt;class &#39;int&#39;&gt;
+-3 &lt;class &#39;int&#39;&gt;
+95 &lt;class &#39;str&#39;&gt;</div></div>
+<div class="code-example"><div class="code-example-title">Building a Simple Calculator</div><pre><code class="language-python">print(&quot;=== Simple Calculator ===&quot;)
+num1 = float(input(&quot;Enter first number: &quot;))
+num2 = float(input(&quot;Enter second number: &quot;))
+
+print(&quot;\nResults:&quot;)
+print(num1, &quot;+&quot;, num2, &quot;=&quot;, num1 + num2)
+print(num1, &quot;-&quot;, num2, &quot;=&quot;, num1 - num2)
+print(num1, &quot;*&quot;, num2, &quot;=&quot;, num1 * num2)
+print(num1, &quot;/&quot;, num2, &quot;=&quot;, num1 / num2)</code></pre><div class="code-example-explanation">We use <code>float(input())</code> instead of <code>int(input())</code> so the calculator can handle both whole numbers and decimals. If Rohan enters 15 and 4, it displays all four basic operations. Using <code>float()</code> is more flexible than <code>int()</code> for a calculator because it accepts both integer and decimal inputs.</div><div class="code-example-output">=== Simple Calculator ===
+Enter first number: 15
+Enter second number: 4
+
+Results:
+15.0 + 4.0 = 19.0
+15.0 - 4.0 = 11.0
+15.0 * 4.0 = 60.0
+15.0 / 4.0 = 3.75</div></div>
+<div class="code-example"><div class="code-example-title">Chaining Conversions and Edge Cases</div><pre><code class="language-python"># Chain: string -&gt; float -&gt; int
+value = &quot;7.89&quot;
+result = int(float(value))
+print(&quot;int(float(&#39;7.89&#39;)) =&quot;, result)
+
+# Boolean conversions
+print(&quot;\nBoolean conversions:&quot;)
+print(&quot;int(True) =&quot;, int(True))
+print(&quot;int(False) =&quot;, int(False))
+print(&quot;float(True) =&quot;, float(True))
+print(&quot;str(True) =&quot;, str(True))
+print(&quot;bool(1) =&quot;, bool(1))
+print(&quot;bool(0) =&quot;, bool(0))
+print(&quot;bool(&#39;hello&#39;) =&quot;, bool(&quot;hello&quot;))
+print(&quot;bool(&#39;&#39;) =&quot;, bool(&quot;&quot;))</code></pre><div class="code-example-explanation">Chaining conversions is needed when you cannot convert directly. <code>int("7.89")</code> would crash, but <code>int(float("7.89"))</code> works by first converting to float 7.89, then truncating to int 7. Boolean conversions follow these rules: 0, 0.0, empty string, and None are False; everything else is True. <code>int(True)</code> gives 1 and <code>int(False)</code> gives 0.</div><div class="code-example-output">int(float(&#39;7.89&#39;)) = 7
+
+Boolean conversions:
+int(True) = 1
+int(False) = 0
+float(True) = 1.0
+str(True) = True
+bool(1) = True
+bool(0) = False
+bool(&#39;hello&#39;) = True
+bool(&#39;&#39;) = False</div></div>
+<div class="code-example"><div class="code-example-title">Multiple Inputs Using split()</div><pre><code class="language-python"># Taking two numbers on one line
+print(&quot;Enter two numbers separated by space:&quot;)
+a, b = input().split()
+a = int(a)
+b = int(b)
+print(&quot;Sum:&quot;, a + b)
+print(&quot;Product:&quot;, a * b)
+
+# Shorter version using map()
+print(&quot;\nEnter two more numbers:&quot;)
+x, y = map(int, input().split())
+print(&quot;Sum:&quot;, x + y)</code></pre><div class="code-example-explanation">The <code>split()</code> method breaks a string into a list of parts wherever there is a space. When Ananya types <code>10 20</code>, <code>split()</code> returns <code>["10", "20"]</code>, and the two values are unpacked into <code>a</code> and <code>b</code>. The <code>map(int, ...)</code> version applies <code>int()</code> to each element automatically, making the code shorter.</div><div class="code-example-output">Enter two numbers separated by space:
+10 20
+Sum: 30
+Product: 200
+
+Enter two more numbers:
+5 8
+Sum: 13</div></div>
+<div class="code-example"><div class="code-example-title">Common ValueError Situations</div><pre><code class="language-python"># These will cause ValueError - shown for learning
+# DO NOT run these without try-except
+
+# Attempting to show what fails:
+print(&quot;Valid conversions:&quot;)
+print(int(&quot;42&quot;))       # Works: 42
+print(float(&quot;3.14&quot;))   # Works: 3.14
+print(int(3.99))       # Works: 3 (truncates)
+
+print(&quot;\nWhat would cause ValueError:&quot;)
+print(&quot;int(&#39;hello&#39;) -&gt; ValueError: invalid literal for int()&quot;)
+print(&quot;int(&#39;3.14&#39;) -&gt; ValueError: cannot convert decimal string directly&quot;)
+print(&quot;int(&#39;&#39;) -&gt; ValueError: empty string&quot;)
+print(&quot;float(&#39;abc&#39;) -&gt; ValueError: could not convert string to float&quot;)
+
+# The safe way to convert decimal string to int:
+print(&quot;\nSafe chain conversion:&quot;)
+print(&quot;int(float(&#39;3.14&#39;)) =&quot;, int(float(&quot;3.14&quot;)))</code></pre><div class="code-example-explanation">This shows which conversions work and which fail. The most surprising one for beginners is that <code>int("3.14")</code> fails even though 3.14 is clearly a number. Python's <code>int()</code> requires a clean integer string. To convert a decimal string to an integer, you must chain through <code>float()</code> first: <code>int(float("3.14"))</code>.</div><div class="code-example-output">Valid conversions:
+42
+3.14
+3
+
+What would cause ValueError:
+int(&#39;hello&#39;) -&gt; ValueError: invalid literal for int()
+int(&#39;3.14&#39;) -&gt; ValueError: cannot convert decimal string directly
+int(&#39;&#39;) -&gt; ValueError: empty string
+float(&#39;abc&#39;) -&gt; ValueError: could not convert string to float
+
+Safe chain conversion:
+int(float(&#39;3.14&#39;)) = 3</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Doing Math with String Input (Not Converting)</h3>
+                <div class="wrong-code"><pre><code class="language-python">num1 = input(&quot;Enter a number: &quot;)  # User types 5
+num2 = input(&quot;Enter a number: &quot;)  # User types 3
+print(num1 + num2)</code></pre></div><div class="error-message">No error, but output is &#39;53&#39; instead of 8 (string concatenation instead of addition)</div><div class="correct-code"><pre><code class="language-python">num1 = int(input(&quot;Enter a number: &quot;))
+num2 = int(input(&quot;Enter a number: &quot;))
+print(num1 + num2)</code></pre></div><div class="mistake-explanation">Since <code>input()</code> returns strings, <code>"5" + "3"</code> concatenates to <code>"53"</code>. To get the mathematical sum 8, you must convert the input to integers using <code>int()</code>. This is the number one mistake beginners make with <code>input()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using int() on a Decimal String</h3>
+                <div class="wrong-code"><pre><code class="language-python">price = int(input(&quot;Enter price: &quot;))  # User types 29.99</code></pre></div><div class="error-message">ValueError: invalid literal for int() with base 10: &#39;29.99&#39;</div><div class="correct-code"><pre><code class="language-python">price = float(input(&quot;Enter price: &quot;))  # Use float for decimals
+# Or chain: price = int(float(input(&quot;Enter price: &quot;)))</code></pre></div><div class="mistake-explanation">The <code>int()</code> function cannot directly convert a string that contains a decimal point. <code>int("29.99")</code> raises a ValueError. Use <code>float()</code> instead, or chain <code>int(float(...))</code> if you need an integer from a decimal input.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to Multiply a String with No Conversion</h3>
+                <div class="wrong-code"><pre><code class="language-python">quantity = input(&quot;How many items? &quot;)  # User types 3
+price = 50
+total = quantity * price
+print(&quot;Total:&quot;, total)</code></pre></div><div class="error-message">Output is &#39;505050&#39; (string &#39;3&#39; repeated 50 times) or TypeError depending on the operation</div><div class="correct-code"><pre><code class="language-python">quantity = int(input(&quot;How many items? &quot;))
+price = 50
+total = quantity * price
+print(&quot;Total:&quot;, total)</code></pre></div><div class="mistake-explanation">In Python, multiplying a string by an integer repeats the string. <code>"3" * 50</code> creates a string of fifty 3s: <code>"33333...3"</code>. You must convert <code>quantity</code> to an integer first so that <code>3 * 50</code> gives 150.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting the Prompt Message</h3>
+                <div class="wrong-code"><pre><code class="language-python">name = input()
+# Program pauses with no indication of what to type</code></pre></div><div class="error-message">No error, but the user sees a blank cursor with no instructions.</div><div class="correct-code"><pre><code class="language-python">name = input(&quot;Enter your name: &quot;)
+# User knows what to type</code></pre></div><div class="mistake-explanation">While <code>input()</code> works without a prompt, the user has no idea what to enter. Always include a clear prompt message. Add a space at the end of the prompt (<code>"Enter name: "</code>) so the cursor does not appear right next to the colon.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using eval() with User Input</h3>
+                <div class="wrong-code"><pre><code class="language-python">result = eval(input(&quot;Enter an expression: &quot;))</code></pre></div><div class="error-message">Security vulnerability. A malicious user could execute harmful code.</div><div class="correct-code"><pre><code class="language-python"># Instead of eval(), use explicit conversion:
+num = int(input(&quot;Enter a number: &quot;))
+
+# If you need to evaluate math, use specific operations:
+a = float(input(&quot;Enter first number: &quot;))
+b = float(input(&quot;Enter second number: &quot;))
+print(&quot;Sum:&quot;, a + b)</code></pre></div><div class="mistake-explanation"><code>eval()</code> executes any Python code the user types. This is a serious security risk. A malicious user could type <code>__import__('os').system('del *')</code> and delete files. Always use <code>int()</code> or <code>float()</code> for numeric input. There is never a good reason to use <code>eval()</code> with user input.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The input() function takes user input from the keyboard. It always returns a string, regardless of what the user types.</li>
+<li>To take numeric input, wrap input() inside int() or float(): age = int(input(&#39;Enter age: &#39;)) or price = float(input(&#39;Enter price: &#39;)).</li>
+<li>int() converts to integer. It works with strings of whole numbers, floats (truncates toward zero), and Booleans (True=1, False=0).</li>
+<li>float() converts to float. It is more flexible than int() and can handle both integer and decimal strings.</li>
+<li>str() converts any value to its string representation. Useful for concatenating numbers with text.</li>
+<li>int() cannot directly convert a decimal string like &#39;3.14&#39;. Use int(float(&#39;3.14&#39;)) to chain the conversion.</li>
+<li>A ValueError occurs when conversion is impossible, such as int(&#39;hello&#39;) or int(&#39;&#39;). Always ensure input data is valid.</li>
+<li>Use split() to take multiple inputs on one line: a, b = input().split(). Use map() for automatic conversion: a, b = map(int, input().split()).</li>
+<li>Never use eval() with user input due to severe security risks. Always use explicit type conversion functions instead.</li>
+<li>The most common mistake is doing math with unconverted string input. &#39;5&#39; + &#39;3&#39; gives &#39;53&#39; (concatenation), not 8 (addition).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/operators-in-python" class="related-topic-link">Operators in Python</a>
+<a href="/resources/python/conditional-statements" class="related-topic-link">Conditional Statements in Python (if, elif, else)</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/operators-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Operators in Python</span>
+        </a>
+            <a href="/resources/python/conditional-statements" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements in Python (if, elif, else)</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/taking-input-and-type-conversion/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
