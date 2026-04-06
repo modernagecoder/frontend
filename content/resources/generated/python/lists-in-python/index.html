@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta name="keywords" content="lists in python, python tutorial, python lists in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/lists-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/lists-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/lists-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/lists-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python">
+    <meta property="og:title" content="Lists in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python">
+    <meta name="twitter:title" content="Lists in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Work with Python lists — create, modify, slice, and use list methods and comprehensions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Lists in Python",
+    "description": "Work with Python lists — create, modify, slice, and use list methods and comprehensions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/lists-in-python"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/lists-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lists in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/lists-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using = Instead of .copy() to Duplicate a List",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>backup = original</code> makes both variables point to the same list object in memory. Any change through one variable is visible through the other. To create an independent copy, use <code>.copy()</code>, <code>[:]</code>, or <code>list()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assigning sort() Return Value to a Variable",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>.sort()</code> sorts the list in place and returns <code>None</code>. This is a design choice in Python: methods that modify objects in place return None to avoid confusion. Use <code>sorted()</code> if you need a new sorted list while keeping the original."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using append() When extend() Is Needed",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>append(item)</code> adds <code>item</code> as a single element to the end. If <code>item</code> is a list, the entire list becomes one nested element. <code>extend(iterable)</code> adds each element of the iterable individually. Use <code>extend()</code> or <code>+=</code> to merge two lists."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying a List While Iterating Over It",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Removing elements while iterating causes the loop to skip elements because indices shift. When 2 is removed, 3 moves to index 1 and 4 moves to index 2. The loop advances to index 2 (now 4), skipping 3. Use list comprehension to create a filtered copy instead."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "IndexError with Empty List or Wrong Index",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A list with 3 elements has indices 0, 1, 2. Index 3 is out of range. Always check the list length before accessing an index, or use try/except to handle the error. Remember: the maximum valid index is <code>len(lst) - 1</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Shallow Copy Does Not Copy Nested Lists",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>.copy()</code> creates a <strong>shallow</strong> copy: the outer list is new, but inner lists are still shared references. To create a fully independent copy of a nested structure, use <code>copy.deepcopy()</code> from the <code>copy</code> module."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Lists in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Lists in Python</h1>
+            <a href="/resources/python/lists-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Lists in Python?</h2><p>A <strong>list</strong> is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type — integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets <code>[]</code> with items separated by commas.</p><p>Lists are one of the four built-in collection data types in Python (along with tuples, sets, and dictionaries). They are by far the most commonly used because of their flexibility: you can add, remove, modify, and rearrange items freely.</p><h3>Creating Lists</h3><p>There are several ways to create a list:</p><pre><code>empty = []                        # Empty list
+numbers = [1, 2, 3, 4, 5]         # List of integers
+names = ["Aarav", "Priya", "Rohan"] # List of strings
+mixed = [1, "hello", 3.14, True]   # Mixed types
+nested = [[1, 2], [3, 4]]          # Nested list (2D)
+from_range = list(range(5))        # [0, 1, 2, 3, 4]</code></pre><p>The <code>list()</code> constructor can convert other iterables (strings, tuples, ranges) into lists.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Lists Important?</h2><p>Lists are the workhorse data structure of Python. Here is why mastering lists is essential:</p><h3>1. Storing Collections of Related Data</h3><p>Whenever you have multiple items that belong together — student marks, product prices, employee names — you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.</p><h3>2. Dynamic Size</h3><p>Unlike arrays in many other languages, Python lists grow and shrink automatically. You can append items, insert at any position, or remove items without worrying about pre-allocating memory. This makes lists ideal for situations where the amount of data is not known in advance.</p><h3>3. Mutability Enables In-Place Modification</h3><p>Lists are <strong>mutable</strong>, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it — all in place. This is a key difference from strings and tuples, which are immutable.</p><h3>4. Foundation for Advanced Data Structures</h3><p>Lists are the building blocks for stacks, queues, matrices (2D lists), and many other data structures. Understanding lists deeply is prerequisite for data science (pandas DataFrames are built on array/list concepts), machine learning, and algorithm design.</p><h3>5. List Comprehension Is a Python Superpower</h3><p>Python's list comprehension syntax lets you create and transform lists in a single, readable line. It is one of the features that makes Python code shorter and more elegant than equivalent code in other languages.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Accessing Elements</h3><p>Like strings, lists use <strong>zero-based indexing</strong>. The first element is at index 0, the second at index 1, and so on. Negative indexing also works: -1 is the last element, -2 is the second-to-last.</p><pre><code>fruits = ["apple", "banana", "cherry", "date"]
+fruits[0]    # "apple"
+fruits[-1]   # "date"
+fruits[2]    # "cherry"</code></pre><p>Accessing an index beyond the list length raises an <code>IndexError</code>.</p><h3>2. List Slicing</h3><p>Slicing works exactly like string slicing: <code>list[start:stop:step]</code>. The stop index is excluded.</p><pre><code>nums = [10, 20, 30, 40, 50, 60]
+nums[1:4]    # [20, 30, 40]
+nums[:3]     # [10, 20, 30]
+nums[3:]     # [40, 50, 60]
+nums[::2]    # [10, 30, 50]
+nums[::-1]   # [60, 50, 40, 30, 20, 10]</code></pre><p>Unlike indexing, slicing does not raise an error for out-of-range indices. It simply returns whatever elements are available.</p><h3>3. List Mutability</h3><p>The biggest difference between lists and strings is <strong>mutability</strong>. You can change any element of a list by assigning to its index:</p><pre><code>colors = ["red", "green", "blue"]
+colors[1] = "yellow"    # Now: ["red", "yellow", "blue"]
+colors[0:2] = ["pink"]  # Now: ["pink", "blue"]</code></pre><p>With strings, <code>s[0] = 'x'</code> raises a TypeError. With lists, <code>lst[0] = 'x'</code> works perfectly.</p><h3>4. List Methods</h3><h4>Adding Elements</h4><p><code>append(item)</code> adds a single item to the end of the list. <code>insert(index, item)</code> adds an item at a specific position. <code>extend(iterable)</code> adds all items from another iterable to the end.</p><h4>Removing Elements</h4><p><code>remove(item)</code> removes the first occurrence of the specified item. Raises ValueError if not found. <code>pop(index)</code> removes and returns the item at the given index (default: last item). <code>clear()</code> removes all items.</p><h4>Searching and Counting</h4><p><code>index(item)</code> returns the index of the first occurrence. Raises ValueError if not found. <code>count(item)</code> returns the number of occurrences.</p><h4>Ordering</h4><p><code>sort()</code> sorts the list in place (ascending by default). <code>sort(reverse=True)</code> sorts descending. <code>reverse()</code> reverses the list in place.</p><h4>Copying</h4><p><code>copy()</code> returns a shallow copy of the list.</p><h3>5. List Comprehension</h3><p>List comprehension is a concise way to create lists. The basic syntax is:</p><pre><code>[expression for item in iterable]</code></pre><p>With a condition (filter):</p><pre><code>[expression for item in iterable if condition]</code></pre><p>Examples:</p><pre><code>squares = [x**2 for x in range(6)]        # [0, 1, 4, 9, 16, 25]
+evens = [x for x in range(20) if x % 2 == 0]  # [0, 2, 4, ..., 18]
+uppers = [s.upper() for s in ["hi", "bye"]]    # ["HI", "BYE"]</code></pre><h3>6. Nested Lists (2D Lists)</h3><p>A list can contain other lists, creating a 2D structure (like a table or matrix):</p><pre><code>matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+matrix[0]      # [1, 2, 3] (first row)
+matrix[0][1]   # 2 (first row, second column)
+matrix[2][2]   # 9 (third row, third column)</code></pre><p>To access an element in a nested list, use two indices: the first for the row, the second for the column.</p><h3>7. List Copying Pitfalls</h3><p>This is one of the most important topics for lists. When you write <code>b = a</code> where <code>a</code> is a list, you do NOT create a copy. Both <code>a</code> and <code>b</code> point to the <strong>same list object</strong>. Changing one changes the other.</p><pre><code>a = [1, 2, 3]
+b = a           # NOT a copy! Both point to same list
+b.append(4)
+print(a)        # [1, 2, 3, 4] - a is also changed!</code></pre><p>To create an actual (shallow) copy, use any of these:</p><pre><code>b = a.copy()    # Method 1
+b = list(a)     # Method 2
+b = a[:]        # Method 3</code></pre><p>A <strong>shallow copy</strong> creates a new list, but nested objects inside are still shared. For nested lists, you may need <code>copy.deepcopy()</code> from the <code>copy</code> module.</p><h3>8. Built-in Functions for Lists</h3><p><code>len(lst)</code> returns the number of elements. <code>min(lst)</code> and <code>max(lst)</code> return the smallest and largest elements. <code>sum(lst)</code> returns the sum (for numeric lists). <code>sorted(lst)</code> returns a new sorted list without modifying the original (unlike <code>.sort()</code> which modifies in place and returns None).</p><h3>9. List Unpacking</h3><p>You can assign list elements to individual variables in a single statement:</p><pre><code>a, b, c = [10, 20, 30]
+print(a)  # 10
+print(b)  # 20
+print(c)  # 30</code></pre><p>The number of variables must match the number of elements, or use <code>*</code> for the rest:</p><pre><code>first, *rest = [1, 2, 3, 4, 5]
+print(first)  # 1
+print(rest)   # [2, 3, 4, 5]</code></pre><h3>10. Membership and Deletion</h3><p>The <code>in</code> operator checks if an item exists in a list: <code>3 in [1, 2, 3]</code> returns True. The <code>del</code> keyword removes an element by index or deletes a slice: <code>del lst[0]</code> removes the first element.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Creating and Accessing Lists</div><pre><code class="language-python"># Creating lists
+numbers = [10, 20, 30, 40, 50]
+names = [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;]
+mixed = [1, &quot;hello&quot;, 3.14, True]
+
+# Accessing elements
+print(numbers[0])      # First element
+print(numbers[-1])     # Last element
+print(names[1])        # Second element
+
+# Modifying elements (lists are mutable!)
+numbers[2] = 99
+print(numbers)
+
+# Length
+print(len(names))</code></pre><div class="code-example-explanation">Lists are created with square brackets. Elements are accessed by index (0-based). Unlike strings, you can modify elements by assigning to an index. <code>len()</code> returns the number of elements in the list.</div><div class="code-example-output">10
+50
+Priya
+[10, 20, 99, 40, 50]
+3</div></div>
+<div class="code-example"><div class="code-example-title">List Methods - Adding and Removing</div><pre><code class="language-python">fruits = [&quot;apple&quot;, &quot;banana&quot;]
+
+# Adding elements
+fruits.append(&quot;cherry&quot;)        # Add to end
+print(&quot;After append:&quot;, fruits)
+
+fruits.insert(1, &quot;mango&quot;)      # Insert at index 1
+print(&quot;After insert:&quot;, fruits)
+
+fruits.extend([&quot;grape&quot;, &quot;kiwi&quot;])  # Add multiple items
+print(&quot;After extend:&quot;, fruits)
+
+# Removing elements
+fruits.remove(&quot;banana&quot;)        # Remove by value
+print(&quot;After remove:&quot;, fruits)
+
+popped = fruits.pop()          # Remove and return last
+print(&quot;Popped:&quot;, popped)
+print(&quot;After pop:&quot;, fruits)
+
+fruits.pop(0)                  # Remove at index 0
+print(&quot;After pop(0):&quot;, fruits)</code></pre><div class="code-example-explanation"><code>append()</code> adds one item to the end. <code>insert()</code> adds at a specific position, shifting others right. <code>extend()</code> adds all items from an iterable. <code>remove()</code> removes the first match by value. <code>pop()</code> removes by index and returns the removed item.</div><div class="code-example-output">After append: [&#39;apple&#39;, &#39;banana&#39;, &#39;cherry&#39;]
+After insert: [&#39;apple&#39;, &#39;mango&#39;, &#39;banana&#39;, &#39;cherry&#39;]
+After extend: [&#39;apple&#39;, &#39;mango&#39;, &#39;banana&#39;, &#39;cherry&#39;, &#39;grape&#39;, &#39;kiwi&#39;]
+After remove: [&#39;apple&#39;, &#39;mango&#39;, &#39;cherry&#39;, &#39;grape&#39;, &#39;kiwi&#39;]
+Popped: kiwi
+After pop: [&#39;apple&#39;, &#39;mango&#39;, &#39;cherry&#39;, &#39;grape&#39;]
+After pop(0): [&#39;mango&#39;, &#39;cherry&#39;, &#39;grape&#39;]</div></div>
+<div class="code-example"><div class="code-example-title">sort() vs sorted()</div><pre><code class="language-python"># sort() modifies the original list
+nums = [5, 2, 8, 1, 9, 3]
+nums.sort()
+print(&quot;After sort():&quot;, nums)
+
+# sort() returns None!
+result = nums.sort(reverse=True)
+print(&quot;Return value of sort():&quot;, result)
+print(&quot;List after reverse sort:&quot;, nums)
+
+# sorted() returns a NEW list, original unchanged
+original = [5, 2, 8, 1, 9, 3]
+new_list = sorted(original)
+print(&quot;Original:&quot;, original)
+print(&quot;Sorted copy:&quot;, new_list)
+
+# sorted() with reverse
+print(&quot;Sorted descending:&quot;, sorted(original, reverse=True))</code></pre><div class="code-example-explanation"><code>.sort()</code> sorts the list in place and returns <code>None</code>. <code>sorted()</code> returns a new sorted list, leaving the original unchanged. This is a common source of bugs: writing <code>result = lst.sort()</code> assigns None to result. Use <code>sorted()</code> when you need to keep the original.</div><div class="code-example-output">After sort(): [1, 2, 3, 5, 8, 9]
+Return value of sort(): None
+List after reverse sort: [9, 8, 5, 3, 2, 1]
+Original: [5, 2, 8, 1, 9, 3]
+Sorted copy: [1, 2, 3, 5, 8, 9]
+Sorted descending: [9, 8, 5, 3, 2, 1]</div></div>
+<div class="code-example"><div class="code-example-title">List Comprehension</div><pre><code class="language-python"># Basic comprehension
+squares = [x**2 for x in range(1, 6)]
+print(&quot;Squares:&quot;, squares)
+
+# Comprehension with condition
+evens = [x for x in range(1, 21) if x % 2 == 0]
+print(&quot;Evens:&quot;, evens)
+
+# Transform strings
+names = [&quot;aarav&quot;, &quot;priya&quot;, &quot;rohan&quot;]
+upper_names = [name.upper() for name in names]
+print(&quot;Uppercase:&quot;, upper_names)
+
+# Comprehension with expression
+lengths = [len(name) for name in names]
+print(&quot;Lengths:&quot;, lengths)
+
+# Nested comprehension (flatten 2D to 1D)
+matrix = [[1, 2], [3, 4], [5, 6]]
+flat = [num for row in matrix for num in row]
+print(&quot;Flattened:&quot;, flat)</code></pre><div class="code-example-explanation">List comprehension follows the pattern <code>[expression for item in iterable if condition]</code>. The condition is optional. You can apply any expression to transform items. Nested comprehensions iterate over multiple levels: the outer loop comes first, then the inner loop.</div><div class="code-example-output">Squares: [1, 4, 9, 16, 25]
+Evens: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+Uppercase: [&#39;AARAV&#39;, &#39;PRIYA&#39;, &#39;ROHAN&#39;]
+Lengths: [5, 5, 5]
+Flattened: [1, 2, 3, 4, 5, 6]</div></div>
+<div class="code-example"><div class="code-example-title">List Copying Pitfalls</div><pre><code class="language-python"># The WRONG way - both variables point to the same list
+a = [1, 2, 3]
+b = a
+b.append(4)
+print(&quot;a:&quot;, a)  # a is also changed!
+print(&quot;b:&quot;, b)
+print(&quot;Same object?&quot;, a is b)
+
+print()
+
+# The RIGHT way - create a copy
+x = [1, 2, 3]
+y = x.copy()     # or x[:] or list(x)
+y.append(4)
+print(&quot;x:&quot;, x)  # x is unchanged
+print(&quot;y:&quot;, y)
+print(&quot;Same object?&quot;, x is y)
+
+print()
+
+# Shallow copy pitfall with nested lists
+outer = [[1, 2], [3, 4]]
+shallow = outer.copy()
+shallow[0][0] = 99
+print(&quot;outer:&quot;, outer)    # outer is also changed!
+print(&quot;shallow:&quot;, shallow)</code></pre><div class="code-example-explanation"><code>b = a</code> creates an alias, not a copy. Both variables reference the same list object. <code>.copy()</code>, <code>[:]</code>, and <code>list()</code> create shallow copies. A shallow copy creates a new list, but nested objects inside are still shared. Modifying a nested list in the copy also modifies the original. Use <code>import copy; copy.deepcopy()</code> for truly independent nested copies.</div><div class="code-example-output">a: [1, 2, 3, 4]
+b: [1, 2, 3, 4]
+Same object? True
+
+x: [1, 2, 3]
+y: [1, 2, 3, 4]
+Same object? False
+
+outer: [[99, 2], [3, 4]]
+shallow: [[99, 2], [3, 4]]</div></div>
+<div class="code-example"><div class="code-example-title">Nested Lists and 2D Access</div><pre><code class="language-python"># Creating a 3x3 matrix
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+# Accessing elements
+print(&quot;Row 0:&quot;, matrix[0])
+print(&quot;Element [1][2]:&quot;, matrix[1][2])
+print(&quot;Element [2][0]:&quot;, matrix[2][0])
+
+# Iterating over a 2D list
+print(&quot;\nAll elements:&quot;)
+for row in matrix:
+    for item in row:
+        print(item, end=&quot; &quot;)
+    print()
+
+# Modifying a nested element
+matrix[1][1] = 50
+print(&quot;\nAfter modification:&quot;, matrix[1])</code></pre><div class="code-example-explanation">A nested list is a list of lists, commonly used as a 2D matrix. <code>matrix[i]</code> accesses the i-th row (itself a list). <code>matrix[i][j]</code> accesses the element at row i, column j. Use nested loops to iterate over all elements. Elements in nested lists can be modified in place.</div><div class="code-example-output">Row 0: [1, 2, 3]
+Element [1][2]: 6
+Element [2][0]: 7
+
+All elements:
+1 2 3 
+4 5 6 
+7 8 9 
+
+After modification: [4, 50, 6]</div></div>
+<div class="code-example"><div class="code-example-title">Built-in Functions and Unpacking</div><pre><code class="language-python">nums = [15, 8, 23, 4, 42, 16]
+
+print(&quot;Length:&quot;, len(nums))
+print(&quot;Sum:&quot;, sum(nums))
+print(&quot;Min:&quot;, min(nums))
+print(&quot;Max:&quot;, max(nums))
+
+# List unpacking
+a, b, c = [10, 20, 30]
+print(f&quot;a={a}, b={b}, c={c}&quot;)
+
+# Extended unpacking with *
+first, *middle, last = [1, 2, 3, 4, 5]
+print(f&quot;first={first}, middle={middle}, last={last}&quot;)
+
+# Membership test
+print(23 in nums)
+print(99 in nums)
+
+# del keyword
+del nums[0]
+print(&quot;After del nums[0]:&quot;, nums)</code></pre><div class="code-example-explanation"><code>len()</code>, <code>sum()</code>, <code>min()</code>, <code>max()</code> are built-in functions that work with lists. Unpacking assigns list elements to individual variables. The <code>*</code> operator collects remaining elements into a list. The <code>in</code> operator checks membership. <code>del</code> removes elements by index.</div><div class="code-example-output">Length: 6
+Sum: 108
+Min: 4
+Max: 42
+a=10, b=20, c=30
+first=1, middle=[2, 3, 4], last=5
+True
+False
+After del nums[0]: [8, 23, 4, 42, 16]</div></div>
+<div class="code-example"><div class="code-example-title">List Slicing and del</div><pre><code class="language-python">nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(nums[2:7])      # Elements at indices 2-6
+print(nums[::3])      # Every 3rd element
+print(nums[::-1])     # Reversed
+print(nums[7:2:-1])   # Backwards from index 7 to 3
+
+# Slice assignment (replace a section)
+nums[3:6] = [30, 40]
+print(&quot;After slice assignment:&quot;, nums)
+
+# del a slice
+del nums[1:3]
+print(&quot;After del slice:&quot;, nums)</code></pre><div class="code-example-explanation">List slicing follows the same <code>[start:stop:step]</code> syntax as strings. A key difference: you can <strong>assign to a slice</strong>, replacing a section of the list with new elements (even a different number of elements). You can also delete a slice with <code>del</code>.</div><div class="code-example-output">[2, 3, 4, 5, 6]
+[0, 3, 6, 9]
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+[7, 6, 5, 4, 3]
+After slice assignment: [0, 1, 2, 30, 40, 6, 7, 8, 9]
+After del slice: [0, 30, 40, 6, 7, 8, 9]</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using = Instead of .copy() to Duplicate a List</h3>
+                <div class="wrong-code"><pre><code class="language-python">original = [1, 2, 3]
+backup = original
+original.append(4)
+print(backup)  # [1, 2, 3, 4] - backup is also changed!</code></pre></div><div class="error-message">No error, but backup is not an independent copy. Both variables reference the same list.</div><div class="correct-code"><pre><code class="language-python">original = [1, 2, 3]
+backup = original.copy()  # or original[:] or list(original)
+original.append(4)
+print(backup)  # [1, 2, 3] - backup is independent</code></pre></div><div class="mistake-explanation"><code>backup = original</code> makes both variables point to the same list object in memory. Any change through one variable is visible through the other. To create an independent copy, use <code>.copy()</code>, <code>[:]</code>, or <code>list()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assigning sort() Return Value to a Variable</h3>
+                <div class="wrong-code"><pre><code class="language-python">nums = [5, 3, 1, 4, 2]
+sorted_nums = nums.sort()
+print(sorted_nums)  # None!</code></pre></div><div class="error-message">sorted_nums is None because .sort() modifies the list in place and returns None.</div><div class="correct-code"><pre><code class="language-python">nums = [5, 3, 1, 4, 2]
+sorted_nums = sorted(nums)  # Returns a new sorted list
+print(sorted_nums)  # [1, 2, 3, 4, 5]
+print(nums)         # [5, 3, 1, 4, 2] (unchanged)</code></pre></div><div class="mistake-explanation"><code>.sort()</code> sorts the list in place and returns <code>None</code>. This is a design choice in Python: methods that modify objects in place return None to avoid confusion. Use <code>sorted()</code> if you need a new sorted list while keeping the original.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using append() When extend() Is Needed</h3>
+                <div class="wrong-code"><pre><code class="language-python">a = [1, 2, 3]
+b = [4, 5, 6]
+a.append(b)
+print(a)  # [1, 2, 3, [4, 5, 6]] - b is added as a single nested element!</code></pre></div><div class="error-message">No error, but append adds the entire list as one element, creating a nested list.</div><div class="correct-code"><pre><code class="language-python">a = [1, 2, 3]
+b = [4, 5, 6]
+a.extend(b)
+print(a)  # [1, 2, 3, 4, 5, 6] - elements are added individually</code></pre></div><div class="mistake-explanation"><code>append(item)</code> adds <code>item</code> as a single element to the end. If <code>item</code> is a list, the entire list becomes one nested element. <code>extend(iterable)</code> adds each element of the iterable individually. Use <code>extend()</code> or <code>+=</code> to merge two lists.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying a List While Iterating Over It</h3>
+                <div class="wrong-code"><pre><code class="language-python">nums = [1, 2, 3, 4, 5, 6]
+for num in nums:
+    if num % 2 == 0:
+        nums.remove(num)
+print(nums)  # [1, 3, 5, 6] - 6 was not removed!</code></pre></div><div class="error-message">No error, but some elements are skipped because the list changes size during iteration.</div><div class="correct-code"><pre><code class="language-python">nums = [1, 2, 3, 4, 5, 6]
+nums = [num for num in nums if num % 2 != 0]
+print(nums)  # [1, 3, 5]</code></pre></div><div class="mistake-explanation">Removing elements while iterating causes the loop to skip elements because indices shift. When 2 is removed, 3 moves to index 1 and 4 moves to index 2. The loop advances to index 2 (now 4), skipping 3. Use list comprehension to create a filtered copy instead.</div>
+            </div>
+<div class="mistake-card">
+                <h3>IndexError with Empty List or Wrong Index</h3>
+                <div class="wrong-code"><pre><code class="language-python">items = [10, 20, 30]
+print(items[3])  # IndexError!</code></pre></div><div class="error-message">IndexError: list index out of range. Valid indices are 0, 1, 2 (or -1, -2, -3).</div><div class="correct-code"><pre><code class="language-python">items = [10, 20, 30]
+if len(items) &gt; 3:
+    print(items[3])
+else:
+    print(&quot;Index 3 does not exist. Last index is&quot;, len(items) - 1)</code></pre></div><div class="mistake-explanation">A list with 3 elements has indices 0, 1, 2. Index 3 is out of range. Always check the list length before accessing an index, or use try/except to handle the error. Remember: the maximum valid index is <code>len(lst) - 1</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Shallow Copy Does Not Copy Nested Lists</h3>
+                <div class="wrong-code"><pre><code class="language-python">matrix = [[1, 2], [3, 4]]
+copy = matrix.copy()
+copy[0][0] = 99
+print(matrix)  # [[99, 2], [3, 4]] - original is changed!</code></pre></div><div class="error-message">No error, but modifying the nested list in the copy also modifies the original.</div><div class="correct-code"><pre><code class="language-python">import copy
+matrix = [[1, 2], [3, 4]]
+deep = copy.deepcopy(matrix)
+deep[0][0] = 99
+print(matrix)  # [[1, 2], [3, 4]] - original is safe</code></pre></div><div class="mistake-explanation"><code>.copy()</code> creates a <strong>shallow</strong> copy: the outer list is new, but inner lists are still shared references. To create a fully independent copy of a nested structure, use <code>copy.deepcopy()</code> from the <code>copy</code> module.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Lists are ordered, mutable collections created with square brackets []. They can hold items of any type, including other lists.</li>
+<li>Indexing uses 0-based positive indices (0, 1, 2...) and negative indices (-1, -2...). Accessing an out-of-range index raises IndexError.</li>
+<li>Slicing with [start:stop:step] works like strings. The stop index is excluded. You can assign to a slice to replace a section of the list.</li>
+<li>Lists are mutable: you can change elements by index, append, insert, remove, sort, and reverse in place. This is a key difference from strings and tuples.</li>
+<li>Key methods: append() adds one item, extend() adds multiple items, insert() adds at a position, remove() removes by value, pop() removes by index and returns it.</li>
+<li>.sort() sorts in place and returns None. sorted() returns a new sorted list. Do not assign .sort() to a variable.</li>
+<li>b = a creates an alias (not a copy). Use .copy(), [:], or list() for a shallow copy. Use copy.deepcopy() for nested lists.</li>
+<li>List comprehension [expr for item in iterable if condition] creates lists concisely. It replaces many for-loop-and-append patterns.</li>
+<li>Nested lists create 2D structures. Access with two indices: matrix[row][col]. Use nested loops to iterate over all elements.</li>
+<li>Built-in functions: len(), sum(), min(), max() work on lists. sorted() returns a new list. The &#39;in&#39; operator checks membership. del removes by index.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/strings-in-python" class="related-topic-link">Strings in Python</a>
+<a href="/resources/python/tuples-in-python" class="related-topic-link">Tuples in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/strings-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Strings in Python</span>
+        </a>
+            <a href="/resources/python/tuples-in-python" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Tuples in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/lists-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

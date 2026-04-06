@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Strings in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="65+ practice questions on Strings in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="strings in python practice, python questions, python practice problems, strings in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+    <meta property="og:title" content="Practice Questions - Strings in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="65+ practice questions on Strings in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/strings-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - Strings in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="65+ practice questions on Strings in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Strings in Python",
+    "description": "65+ practice questions on Strings in Python in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Strings in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/strings-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/strings-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/strings-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/strings-in-python">Strings in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">65 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Strings in Python</h1>
+            <a href="/resources/python/strings-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>s = "Python"
+print(s[0])
+print(s[-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Index 0 is the first character. Index -1 is the last character.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>P</code><br><code>n</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Hello"
+print(s[1:4])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Slicing from index 1 up to (but not including) index 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>ell</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print("hello".upper())
+print("WORLD".lower())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">upper() converts all characters to uppercase, lower() to lowercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>HELLO</code><br><code>world</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Python"
+print(len(s))
+print(s[len(s)-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">len() returns the number of characters. The last valid index is len(s)-1.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>6</code><br><code>n</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print("abc" * 3)
+print("Hi" + "!" * 4)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">* repeats a string. + concatenates strings. * has higher precedence than +.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>abcabcabc</code><br><code>Hi!!!!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "  hello  "
+print(s.strip())
+print(s.lstrip())
+print(s.rstrip())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">strip() removes whitespace from both ends, lstrip() from left, rstrip() from right.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>hello</code><br><code>hello  </code><br><code>  hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Programming"
+print(s[::2])
+print(s[1::2])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Step 2 means take every second character. Starting from index 0 vs index 1 gives different results.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>Pormig</code><br><code>rgamn</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "abcdef"
+print(s[-3:])
+print(s[:-3])
+print(s[-4:-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Negative indices count from the end. -1 is the last character, -2 is second to last, etc.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>def</code><br><code>abc</code><br><code>cde</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Hello World"
+print(s.split())
+print(s.split("o"))
+print("l" in s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">split() without arguments splits on whitespace. split("o") splits at every 'o'. 'in' checks membership.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>['Hello', 'World']</code><br><code>['Hell', ' W', 'rld']</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>text = "Python is great"
+print(text.find("is"))
+print(text.find("was"))
+print(text.count("t"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">find() returns the starting index of the first match, or -1. count() counts non-overlapping occurrences.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>7</code><br><code>-1</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Hello"
+print(s.replace("l", "L"))
+print(s.replace("l", "L", 1))
+print(s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">replace() replaces all occurrences by default. The third argument limits replacements. The original is unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>HeLLo</code><br><code>HeLlo</code><br><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>name = "rohan"
+print(name.capitalize())
+print(name.title())
+print("hello world python".title())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">capitalize() capitalizes only the first character. title() capitalizes the first letter of each word.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>Rohan</code><br><code>Rohan</code><br><code>Hello World Python</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["Python", "is", "fun"]
+result = " ".join(words)
+print(result)
+print("-".join("Hello"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">join() uses the string as a separator between elements of the iterable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>Python is fun</code><br><code>H-e-l-l-o</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "abcdef"
+print(s[10:20])
+print(s[-100:3])
+print(s[2:100])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Slicing with out-of-range indices does not raise errors. Python clips to available range.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code></code> (empty string)<br><code>abc</code><br><code>cdef</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "racecar"
+print(s == s[::-1])
+print(s[1:-1])
+print(s[1:-1] == s[1:-1][::-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">[::-1] reverses a string. 'racecar' is a palindrome. What about the substring without the first and last character?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>True</code><br><code>aceca</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Hello World"
+print(s[::-1])
+print(s[6::-1])
+print(s[:5:-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">With negative step, the defaults change. Omitting start means start from the end. Omitting stop means go to the beginning.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>dlroW olleH</code><br><code>W olleH</code><br><code>dlroW</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "aabbaabb"
+print(s.count("aa"))
+print(s.count("ab"))
+print(s.replace("aa", "x"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">count() counts non-overlapping occurrences. replace() replaces all non-overlapping matches left to right.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>2</code><br><code>2</code><br><code>xbbxbb</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print("42".zfill(5))
+print("-42".zfill(5))
+print("hello".center(11, "*"))
+print("7".zfill(1))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">zfill() pads with zeros on the left. It handles negative signs specially. center() pads on both sides.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>00042</code><br><code>-0042</code><br><code>***hello***</code><br><code>7</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Python"
+print(s[0] + s[-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">s[0] is the first character, s[-1] is the last. + concatenates strings.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Pn</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>name = "Meera"
+for ch in name:
+    print(ch, end="-")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">A for loop iterates over each character. end="-" adds a hyphen after each print.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>M-e-e-r-a-</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print("Hello".startswith("He"))
+print("Hello".endswith("lo"))
+print("Hello".startswith("he"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">startswith() and endswith() are case-sensitive.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>True</code><br><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "abcde"
+result = ""
+for i in range(len(s)-1, -1, -1):
+    result += s[i]
+print(result)
+print(result == s[::-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The loop builds a reversed string character by character. Compare with slicing reversal.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>edcba</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Hello World"
+words = s.split()
+print(words)
+print(" ".join(words[::-1]))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">split() breaks into words. [::-1] reverses the list. join() combines them back.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>['Hello', 'World']</code><br><code>World Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+y = 3
+print(f"{x} / {y} = {x/y:.2f}")
+print(f"{x} // {y} = {x//y}")
+print(f"{x} % {y} = {x%y}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">f-strings can contain arithmetic expressions. :.2f formats to 2 decimal places.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>10 / 3 = 3.33</code><br><code>10 // 3 = 3</code><br><code>10 % 3 = 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Mississippi"
+print(s.count("ss"))
+print(s.count("i"))
+print(s.replace("ss", "S"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">count() counts non-overlapping occurrences from left to right.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>2</code><br><code>4</code><br><code>MiSiSippi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Python"
+print(s[1:5:2])
+print(s[5:1:-2])
+print(s[::3])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">s[start:stop:step] - with positive step, goes left to right. With negative step, goes right to left.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>yh</code><br><code>nh</code><br><code>Ph</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print(ord("A"))
+print(ord("a") - ord("A"))
+print(chr(ord("A") + 3))
+print(chr(ord("z") - 25))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">ord('A') is 65, ord('a') is 97. chr() converts a number back to a character.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>65</code><br><code>32</code><br><code>D</code><br><code>a</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "aAbBcC"
+uppers = ""
+lowers = ""
+for ch in s:
+    if ch.isupper():
+        uppers += ch
+    else:
+        lowers += ch
+print(uppers)
+print(lowers)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">isupper() returns True for uppercase letters, False otherwise.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>ABC</code><br><code>abc</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>find()</code> and <code>index()</code> when the substring is not found?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">One returns a special value, the other raises an exception.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>find()</code> returns <strong>-1</strong> when the substring is not found. <code>index()</code> raises a <strong>ValueError</strong> when the substring is not found.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">Why are strings called immutable in Python? What happens when you call a method like <code>upper()</code> on a string?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about whether the original string changes or a new one is created.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Strings are immutable because their content cannot be changed after creation. You cannot modify individual characters using indexing (e.g., <code>s[0] = 'x'</code> raises TypeError). When you call <code>upper()</code>, Python creates and returns a <strong>new string</strong> with all characters in uppercase. The original string remains unchanged.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "12345"
+print(s.isdigit())
+print(s.isalpha())
+print("abc123".isalnum())
+print("".isdigit())
+print(" ".isalpha())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">These methods return True only if ALL characters match the condition AND the string is non-empty.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>True</code><br><code>False</code><br><code>True</code><br><code>False</code><br><code>False</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following creates a valid string in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &#39;Hello&#39;</li><li><span class="mcq-option-label">B.</span> &quot;Hello&quot;</li><li><span class="mcq-option-label">C.</span> &#39;&#39;&#39;Hello&#39;&#39;&#39;</li><li><span class="mcq-option-label">D.</span> All of the above</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: D</strong><br><strong>D is correct.</strong> Python allows strings to be created with single quotes (A), double quotes (B), and triple quotes (C). All three produce valid string objects. Single and double quotes are interchangeable for single-line strings. Triple quotes support multi-line strings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does s[-1] return for a non-empty string s?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first character</li><li><span class="mcq-option-label">B.</span> The last character</li><li><span class="mcq-option-label">C.</span> An error</li><li><span class="mcq-option-label">D.</span> The second character</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Negative indexing starts from the end. <code>s[-1]</code> always returns the last character of the string. <code>s[-2]</code> returns the second-to-last, and so on. Option A would be <code>s[0]</code>. Option C is wrong because -1 is a valid index for non-empty strings.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the result of 'Hello'[1:4]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;Hel&quot;</li><li><span class="mcq-option-label">B.</span> &quot;ell&quot;</li><li><span class="mcq-option-label">C.</span> &quot;ello&quot;</li><li><span class="mcq-option-label">D.</span> &quot;Hell&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Slicing <code>[1:4]</code> includes indices 1, 2, 3 (stop index 4 is excluded). 'Hello'[1]='e', [2]='l', [3]='l', giving "ell". Option A starts from index 0. Option C would be [1:5]. Option D would be [0:4].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Which method removes whitespace from both ends of a string?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> clean()</li><li><span class="mcq-option-label">B.</span> trim()</li><li><span class="mcq-option-label">C.</span> strip()</li><li><span class="mcq-option-label">D.</span> remove()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>strip()</code> removes leading and trailing whitespace. Python does not have <code>clean()</code> (A), <code>trim()</code> (B), or <code>remove()</code> (D) as string methods. Note: JavaScript uses <code>trim()</code>, but Python uses <code>strip()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does 'Python'[::-1] return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;Python&quot;</li><li><span class="mcq-option-label">B.</span> &quot;nohtyP&quot;</li><li><span class="mcq-option-label">C.</span> &quot;Pytho&quot;</li><li><span class="mcq-option-label">D.</span> An error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The slice <code>[::-1]</code> reverses the string. Starting from the end and going backwards through every character: n-o-h-t-y-P = "nohtyP". This is the standard Python idiom for reversing a string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of 'Hello'.find('xyz')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> -1</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> ValueError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>find()</code> returns -1 when the substring is not found. It does NOT return None (C) or raise an error (D). <code>index()</code> would raise a ValueError, but <code>find()</code> returns -1 for the not-found case.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does 'abc'.isalpha() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> &quot;abc&quot;</li><li><span class="mcq-option-label">D.</span> 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>isalpha()</code> returns True if all characters in the string are alphabetic (letters) and the string is non-empty. 'abc' contains only letters, so it returns True. It does not return the string itself (C) or a count (D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens when you execute: s = 'Hello'; s[0] = 'h'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> s becomes &#39;hello&#39;</li><li><span class="mcq-option-label">B.</span> s becomes &#39;hHello&#39;</li><li><span class="mcq-option-label">C.</span> TypeError is raised</li><li><span class="mcq-option-label">D.</span> s becomes &#39;hELLO&#39;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: C</strong><br><strong>C is correct.</strong> Strings are immutable in Python. You cannot assign to an index of a string. The statement <code>s[0] = 'h'</code> raises a <code>TypeError: 'str' object does not support item assignment</code>. To change the first character, create a new string: <code>s = 'h' + s[1:]</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output of ' '.join(['a', 'b', 'c'])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;abc&quot;</li><li><span class="mcq-option-label">B.</span> &quot;a b c&quot;</li><li><span class="mcq-option-label">C.</span> [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]</li><li><span class="mcq-option-label">D.</span> &quot;a, b, c&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>join()</code> is called on the separator string (a single space here) and concatenates the list elements with that separator between them. So 'a', 'b', 'c' become "a b c". Option A would result from <code>''.join()</code>. Option D would result from <code>', '.join()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which of these is the correct way to format a float to 2 decimal places using an f-string?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> f&quot;{x:2f}&quot;</li><li><span class="mcq-option-label">B.</span> f&quot;{x:.2f}&quot;</li><li><span class="mcq-option-label">C.</span> f&quot;{x:.2}&quot;</li><li><span class="mcq-option-label">D.</span> f&quot;{x:2.f}&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> The format specifier <code>:.2f</code> means 2 digits after the decimal point, formatted as a float. Option A (<code>:2f</code>) sets minimum width to 2, not decimal places. Option C (<code>:.2</code>) would work for significant digits but not specifically for decimal places of a float. Option D is invalid syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does 'Hello World'.split() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&#39;Hello World&#39;]</li><li><span class="mcq-option-label">B.</span> [&#39;Hello&#39;, &#39;World&#39;]</li><li><span class="mcq-option-label">C.</span> [&#39;H&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;, &#39; &#39;, &#39;W&#39;, &#39;o&#39;, &#39;r&#39;, &#39;l&#39;, &#39;d&#39;]</li><li><span class="mcq-option-label">D.</span> (&#39;Hello&#39;, &#39;World&#39;)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>split()</code> with no arguments splits on whitespace and returns a list of words. It does NOT split into individual characters (C) or return a tuple (D). Option A would result from <code>split('x')</code> where 'x' is not in the string.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output of 'aaa'.count('aa')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 2</li><li><span class="mcq-option-label">C.</span> 3</li><li><span class="mcq-option-label">D.</span> 0</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>count()</code> counts <strong>non-overlapping</strong> occurrences. In 'aaa', after finding 'aa' starting at index 0, it moves past those 2 characters to index 2. From index 2, only one 'a' remains, which is not enough for 'aa'. So the count is 1. If it counted overlapping occurrences, it would be 2.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of 'abc' > 'abd'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> TypeError</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> String comparison is done character by character using Unicode values. 'a'=='a', 'b'=='b', then 'c' vs 'd': ord('c')=99, ord('d')=100. Since 99 < 100, 'abc' < 'abd', so 'abc' > 'abd' is False.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does 'Hello'[1:1] return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;e&quot;</li><li><span class="mcq-option-label">B.</span> &quot;H&quot;</li><li><span class="mcq-option-label">C.</span> &quot;&quot; (empty string)</li><li><span class="mcq-option-label">D.</span> IndexError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> When start equals stop in a slice, the result is always an empty string because there are no indices between 1 and 1. No error is raised. The slice <code>[n:n]</code> always returns an empty string for any valid or invalid n.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of '\n'.join(['a', 'b', 'c'])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;a\nb\nc&quot;</li><li><span class="mcq-option-label">B.</span> &quot;a b c&quot;</li><li><span class="mcq-option-label">C.</span> A string with a, b, c on separate lines</li><li><span class="mcq-option-label">D.</span> &quot;a,b,c&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> The separator is <code>'\n'</code> (newline character). <code>join()</code> places a newline between each element, resulting in a string where a, b, and c are on separate lines. When printed, it would display as three lines. Option A shows the escape sequence literally, not the actual output.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does 'Python'.swapcase() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;python&quot;</li><li><span class="mcq-option-label">B.</span> &quot;PYTHON&quot;</li><li><span class="mcq-option-label">C.</span> &quot;pYTHON&quot;</li><li><span class="mcq-option-label">D.</span> &quot;Python&quot;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>swapcase()</code> converts uppercase letters to lowercase and lowercase letters to uppercase. 'P' becomes 'p', 'y' becomes 'Y', 't' becomes 'T', 'h' becomes 'H', 'o' becomes 'O', 'n' becomes 'N'. Result: "pYTHON".</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the output of bool('') and bool(' ')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> False and False</li><li><span class="mcq-option-label">B.</span> True and True</li><li><span class="mcq-option-label">C.</span> False and True</li><li><span class="mcq-option-label">D.</span> True and False</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> An empty string <code>''</code> is falsy in Python, so <code>bool('')</code> returns False. A string containing a space <code>' '</code> is non-empty (length 1), so <code>bool(' ')</code> returns True. Any non-empty string is truthy, even if it contains only whitespace.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does the 'in' operator do with strings?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Checks if a string is a valid Python identifier</li><li><span class="mcq-option-label">B.</span> Checks if a substring exists within a string</li><li><span class="mcq-option-label">C.</span> Returns the index of a substring</li><li><span class="mcq-option-label">D.</span> Inserts a substring into a string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>in</code> operator checks for substring membership. <code>'lo' in 'Hello'</code> returns True. It does not return an index (C) - that is what <code>find()</code> does. It does not insert anything (D) - strings are immutable.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Count Vowels and Consonants</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the string "Modern Age Coders". Write a program that counts and prints the number of vowels and consonants (ignore spaces and special characters).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Vowels: 6
+Consonants: 9</div>
+                </div><div class="challenge-constraints">Use a for loop. Consider both uppercase and lowercase letters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">text = &quot;Modern Age Coders&quot;
+vowels = 0
+consonants = 0
+for ch in text:
+    if ch.lower() in &quot;aeiou&quot;:
+        vowels += 1
+    elif ch.isalpha():
+        consonants += 1
+print(&quot;Vowels:&quot;, vowels)
+print(&quot;Consonants:&quot;, consonants)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse Each Word</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the string "Python is fun", reverse each word individually but keep the word order the same. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">nohtyP si nuf</div>
+                </div><div class="challenge-constraints">Use split(), slicing, and join().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">text = &quot;Python is fun&quot;
+words = text.split()
+reversed_words = []
+for word in words:
+    reversed_words.append(word[::-1])
+result = &quot; &quot;.join(reversed_words)
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Check Palindrome</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that checks whether the string "madam" is a palindrome (reads the same forwards and backwards). Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">madam is a palindrome</div>
+                </div><div class="challenge-constraints">Use string slicing to reverse.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">text = &quot;madam&quot;
+if text == text[::-1]:
+    print(f&quot;{text} is a palindrome&quot;)
+else:
+    print(f&quot;{text} is not a palindrome&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Title Case Converter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Priya has the string "the quick brown fox jumps over the lazy dog". Write a program that converts it to title case WITHOUT using the built-in title() method. Capitalize the first letter of each word.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">The Quick Brown Fox Jumps Over The Lazy Dog</div>
+                </div><div class="challenge-constraints">Do not use title(). Use split(), string concatenation, and join().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">text = &quot;the quick brown fox jumps over the lazy dog&quot;
+words = text.split()
+result = []
+for word in words:
+    capitalized = word[0].upper() + word[1:]
+    result.append(capitalized)
+print(&quot; &quot;.join(result))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Character Frequency Counter</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that prints the frequency of each character in the string "banana" (excluding spaces). Print each character and its count on a separate line, without repeating characters.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">b: 1
+a: 3
+n: 2</div>
+                </div><div class="challenge-constraints">Use a loop. Track which characters you have already counted.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">text = &quot;banana&quot;
+counted = &quot;&quot;
+for ch in text:
+    if ch not in counted:
+        print(f&quot;{ch}: {text.count(ch)}&quot;)
+        counted += ch</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Caesar Cipher Encoder</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan wants to encode the message "HELLO" by shifting each letter 3 positions forward in the alphabet (A becomes D, B becomes E, ..., X becomes A, Y becomes B, Z becomes C). Write the encoder.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Encoded: KHOOR</div>
+                </div><div class="challenge-constraints">Use ord() and chr(). Handle wrapping (Z + 1 = A).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">message = &quot;HELLO&quot;
+shift = 3
+result = &quot;&quot;
+for ch in message:
+    new_pos = (ord(ch) - ord(&#39;A&#39;) + shift) % 26
+    result += chr(ord(&#39;A&#39;) + new_pos)
+print(&quot;Encoded:&quot;, result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Remove Duplicate Characters</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that removes duplicate characters from the string "programming" while preserving the order of first occurrence. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">progamin</div>
+                </div><div class="challenge-constraints">Use a loop. Track seen characters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">text = &quot;programming&quot;
+result = &quot;&quot;
+for ch in text:
+    if ch not in result:
+        result += ch
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Word Reverser Preserving Punctuation</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Ananya has the string "Hello, World!". Write a program that reverses the order of words but keeps punctuation attached to its word. Expected output: "World! Hello,".</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">World! Hello,</div>
+                </div><div class="challenge-constraints">Use split() and join(). Do not remove punctuation.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">text = &quot;Hello, World!&quot;
+words = text.split()
+reversed_text = &quot; &quot;.join(words[::-1])
+print(reversed_text)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: String Compression</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that compresses the string "aaabbccddddee" by replacing consecutive duplicate characters with the character followed by its count. Single characters should not have a count.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">a3b2c2d4e2</div>
+                </div><div class="challenge-constraints">Use a loop. Handle the last group carefully.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">text = &quot;aaabbccddddee&quot;
+result = &quot;&quot;
+i = 0
+while i &lt; len(text):
+    count = 1
+    while i + count &lt; len(text) and text[i + count] == text[i]:
+        count += 1
+    if count &gt; 1:
+        result += text[i] + str(count)
+    else:
+        result += text[i]
+    i += count
+print(result)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/pattern-printing/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pattern Printing in Python</span>
+        </a>
+            <a href="/resources/python/lists-in-python/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lists in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/strings-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

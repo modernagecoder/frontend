@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuples in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand immutable sequences, tuple packing/unpacking, and when to use tuples over lists.">
+    <meta name="keywords" content="tuples in python, python tutorial, python tuples in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+    <meta property="og:title" content="Tuples in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand immutable sequences, tuple packing/unpacking, and when to use tuples over lists.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/tuples-in-python">
+    <meta name="twitter:title" content="Tuples in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand immutable sequences, tuple packing/unpacking, and when to use tuples over lists.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Tuples in Python",
+    "description": "Understand immutable sequences, tuple packing/unpacking, and when to use tuples over lists.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/tuples-in-python"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/tuples-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Tuples in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/tuples-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting the Comma in a Single-Element Tuple",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>(5)</code> is just the integer 5 in parentheses, like a math expression. To create a single-element tuple, you MUST include a trailing comma: <code>(5,)</code>. This is one of the most common tuple mistakes in Python."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to Modify a Tuple Element",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tuples are immutable. You cannot change individual elements. To create a modified version, build a new tuple using concatenation and slicing, or convert to a list, modify, and convert back."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Unpacking with Wrong Number of Variables",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When unpacking, the number of variables must match the number of elements in the tuple. Use <code>*</code> to collect remaining elements into a list if you do not know the exact count."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming Tuple Immutability Protects Inner Mutable Objects",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tuple immutability means you cannot reassign the references stored in the tuple (e.g., <code>t[0] = new_list</code> fails). But if a reference points to a mutable object (like a list), that object can still be modified through its own methods. For truly immutable data, ensure all elements are themselves immutable."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Tuples in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 13</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">22 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Tuples in Python</h1>
+            <a href="/resources/python/tuples-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Tuples in Python?</h2><p>A <strong>tuple</strong> is an ordered, <strong>immutable</strong> sequence of items. Tuples look similar to lists but are defined using parentheses <code>()</code> instead of square brackets <code>[]</code>. Once a tuple is created, you cannot add, remove, or change its elements.</p><p>Tuples can hold items of any data type — integers, strings, floats, booleans, and even other tuples or lists.</p><h3>Creating Tuples</h3><pre><code>empty = ()                           # Empty tuple
+single = (5,)                        # Single-element tuple (comma required!)
+coords = (10, 20)                    # Tuple of two integers
+student = ("Aarav", 16, "Class 11")  # Mixed types
+nested = ((1, 2), (3, 4))            # Nested tuples
+from_list = tuple([1, 2, 3])         # Convert list to tuple</code></pre><p>The parentheses are actually optional in most cases. It is the <strong>comma</strong> that makes a tuple, not the parentheses. However, using parentheses is recommended for clarity.</p><h3>The Single-Element Tuple Gotcha</h3><p>This is one of the most common surprises for beginners. Writing <code>(5)</code> does NOT create a tuple — it is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: <code>(5,)</code>.</p><pre><code>not_a_tuple = (5)     # This is just the integer 5
+is_a_tuple = (5,)     # This is a tuple containing 5
+print(type(not_a_tuple))  # &lt;class 'int'&gt;
+print(type(is_a_tuple))   # &lt;class 'tuple'&gt;</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Tuples Important?</h2><p>At first glance, tuples may seem like restricted lists. If lists can do everything tuples can do (and more), why do tuples exist? There are several important reasons:</p><h3>1. Immutability Provides Safety</h3><p>When you pass a tuple to a function, you are guaranteed it will not be modified. This makes tuples ideal for data that should remain constant: coordinates, RGB colors, database records, configuration settings. Immutability prevents accidental changes and makes your code more predictable.</p><h3>2. Tuples Can Be Dictionary Keys</h3><p>Since tuples are immutable (and therefore <strong>hashable</strong>), they can be used as dictionary keys. Lists cannot be used as keys because they are mutable. This is crucial when you need to use a pair of values (like coordinates) as a lookup key.</p><pre><code>locations = {(28.6, 77.2): "Delhi", (19.0, 72.8): "Mumbai"}</code></pre><h3>3. Tuples Are Faster Than Lists</h3><p>Because of their immutability, Python can optimize tuples internally. Creating and accessing tuple elements is slightly faster than the equivalent list operations. For large-scale data processing, this performance difference matters.</p><h3>4. Tuple Packing and Unpacking</h3><p>Tuples enable elegant patterns like swapping variables (<code>a, b = b, a</code>), returning multiple values from functions, and destructuring sequences. These patterns are used constantly in Python code.</p><h3>5. Convention and Intent</h3><p>Using a tuple signals to other programmers that this collection is not meant to be modified. It communicates intent: a tuple of (name, age, grade) represents a fixed record, while a list of students represents a collection that might grow or shrink.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Accessing Tuple Elements</h3><p>Tuples support the same indexing and slicing as lists and strings:</p><pre><code>colors = ("red", "green", "blue", "yellow")
+colors[0]      # "red"
+colors[-1]     # "yellow"
+colors[1:3]    # ("green", "blue")
+colors[::-1]   # ("yellow", "blue", "green", "red")</code></pre><p>Indexing returns a single element. Slicing returns a new tuple.</p><h3>2. Tuple Immutability</h3><p>You cannot modify a tuple after creation. Attempting to assign to an index raises a <code>TypeError</code>:</p><pre><code>t = (1, 2, 3)
+t[0] = 10  # TypeError: 'tuple' object does not support item assignment</code></pre><p>You also cannot use <code>append()</code>, <code>remove()</code>, <code>insert()</code>, or any other modifying method. Tuples only have two methods: <code>count()</code> and <code>index()</code>.</p><p><strong>Important caveat:</strong> If a tuple contains a mutable object (like a list), the mutable object inside can still be changed:</p><pre><code>t = (1, [2, 3], 4)
+t[1].append(5)    # This works! t is now (1, [2, 3, 5], 4)
+t[1] = [99]       # This fails! Cannot reassign the tuple element</code></pre><h3>3. Tuple Methods</h3><p>Tuples have only two methods:</p><p><code>count(value)</code> returns the number of times a value appears in the tuple.</p><p><code>index(value)</code> returns the index of the first occurrence of a value. Raises <code>ValueError</code> if not found.</p><pre><code>t = (1, 2, 3, 2, 4, 2)
+t.count(2)    # 3
+t.index(3)    # 2</code></pre><h3>4. Tuple Packing and Unpacking</h3><p><strong>Packing</strong> is creating a tuple from multiple values:</p><pre><code>coords = 10, 20, 30    # Packed into a tuple (10, 20, 30)</code></pre><p><strong>Unpacking</strong> is extracting tuple values into individual variables:</p><pre><code>x, y, z = coords       # x=10, y=20, z=30</code></pre><p>The number of variables must match the number of elements, unless you use <code>*</code> for extended unpacking.</p><h3>5. Swapping with Tuples</h3><p>Python's tuple packing and unpacking enables elegant variable swapping without a temporary variable:</p><pre><code>a = 10
+b = 20
+a, b = b, a    # Now a=20, b=10</code></pre><p>The right side creates a tuple <code>(b, a)</code> = <code>(20, 10)</code>, then unpacks it into <code>a</code> and <code>b</code>. This is one of Python's most iconic features.</p><h3>6. Tuples as Dictionary Keys</h3><p>Because tuples are immutable and hashable, they can serve as dictionary keys. This is useful for mapping coordinate pairs, compound keys, or any combination of values to a result:</p><pre><code>grid = {}
+grid[(0, 0)] = "origin"
+grid[(1, 0)] = "right"
+print(grid[(0, 0)])    # "origin"</code></pre><p>Lists cannot be used as dictionary keys because they are mutable and not hashable.</p><h3>7. When to Use Tuples vs Lists</h3><p>Use <strong>tuples</strong> when: the data should not change (coordinates, dates, records), you need a hashable type (dictionary keys, set elements), or you want to signal immutability to other developers.</p><p>Use <strong>lists</strong> when: the collection will change (adding/removing items), you need methods like sort(), append(), or extend(), or the data represents a homogeneous collection of similar items.</p><h3>8. Named Tuples</h3><p><code>collections.namedtuple</code> creates tuple subclasses with named fields, making code more readable:</p><pre><code>from collections import namedtuple
+Student = namedtuple('Student', ['name', 'age', 'grade'])
+s = Student('Priya', 16, 'A')
+print(s.name)    # 'Priya'
+print(s.age)     # 16
+print(s[0])      # 'Priya' (indexing still works)</code></pre><p>Named tuples combine the immutability of tuples with the readability of named fields.</p><h3>9. Converting Between Tuples and Lists</h3><p><code>tuple(list_obj)</code> converts a list to a tuple. <code>list(tuple_obj)</code> converts a tuple to a list. This is useful when you need to modify data from a tuple: convert to a list, make changes, then convert back.</p><pre><code>t = (1, 2, 3)
+lst = list(t)      # [1, 2, 3]
+lst.append(4)
+t = tuple(lst)     # (1, 2, 3, 4)</code></pre><h3>10. Tuple Concatenation and Nesting</h3><p>You can concatenate tuples with <code>+</code> and repeat with <code>*</code>:</p><pre><code>(1, 2) + (3, 4)    # (1, 2, 3, 4)
+(0,) * 5            # (0, 0, 0, 0, 0)</code></pre><p>Nested tuples contain tuples as elements:</p><pre><code>matrix = ((1, 2), (3, 4), (5, 6))
+matrix[1][0]    # 3</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Creating Tuples and the Single-Element Gotcha</div><pre><code class="language-python"># Different ways to create tuples
+empty = ()
+print(&quot;Empty tuple:&quot;, empty, &quot;Length:&quot;, len(empty))
+
+pair = (10, 20)
+print(&quot;Pair:&quot;, pair)
+
+# Single-element tuple REQUIRES a trailing comma
+single = (5,)
+not_tuple = (5)
+print(&quot;Single tuple:&quot;, single, &quot;Type:&quot;, type(single))
+print(&quot;Not a tuple:&quot;, not_tuple, &quot;Type:&quot;, type(not_tuple))
+
+# Parentheses are optional
+no_parens = 1, 2, 3
+print(&quot;Without parens:&quot;, no_parens, &quot;Type:&quot;, type(no_parens))
+
+# Convert list to tuple
+from_list = tuple([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;])
+print(&quot;From list:&quot;, from_list)</code></pre><div class="code-example-explanation">Tuples can be created with or without parentheses. The trailing comma is what makes a single-element tuple: <code>(5,)</code> is a tuple, <code>(5)</code> is just an integer. The <code>tuple()</code> constructor converts any iterable to a tuple.</div><div class="code-example-output">Empty tuple: () Length: 0
+Pair: (10, 20)
+Single tuple: (5,) Type: &lt;class &#39;tuple&#39;&gt;
+Not a tuple: 5 Type: &lt;class &#39;int&#39;&gt;
+Without parens: (1, 2, 3) Type: &lt;class &#39;tuple&#39;&gt;
+From list: (&#39;a&#39;, &#39;b&#39;, &#39;c&#39;)</div></div>
+<div class="code-example"><div class="code-example-title">Tuple Indexing and Slicing</div><pre><code class="language-python">student = (&quot;Rohan&quot;, 17, &quot;Class 12&quot;, 92.5)
+
+# Indexing
+print(&quot;Name:&quot;, student[0])
+print(&quot;Last element:&quot;, student[-1])
+
+# Slicing
+print(&quot;Middle elements:&quot;, student[1:3])
+print(&quot;Reversed:&quot;, student[::-1])
+
+# Iterating
+print(&quot;\nAll elements:&quot;)
+for item in student:
+    print(f&quot;  {item} (type: {type(item).__name__})&quot;)
+
+# Length and membership
+print(&quot;\nLength:&quot;, len(student))
+print(&quot;Has &#39;Rohan&#39;:&quot;, &quot;Rohan&quot; in student)
+print(&quot;Has &#39;Priya&#39;:&quot;, &quot;Priya&quot; in student)</code></pre><div class="code-example-explanation">Tuples support all the same read operations as lists: indexing, negative indexing, slicing, iteration, <code>len()</code>, and the <code>in</code> operator. Slicing a tuple returns a new tuple.</div><div class="code-example-output">Name: Rohan
+Last element: 92.5
+Middle elements: (17, &#39;Class 12&#39;)
+Reversed: (92.5, &#39;Class 12&#39;, 17, &#39;Rohan&#39;)
+
+All elements:
+  Rohan (type: str)
+  17 (type: int)
+  Class 12 (type: str)
+  92.5 (type: float)
+
+Length: 4
+Has &#39;Rohan&#39;: True
+Has &#39;Priya&#39;: False</div></div>
+<div class="code-example"><div class="code-example-title">Tuple Immutability</div><pre><code class="language-python">t = (10, 20, 30)
+
+# Attempting to modify raises TypeError
+try:
+    t[0] = 99
+except TypeError as e:
+    print(&quot;Error:&quot;, e)
+
+# But a mutable object INSIDE a tuple can be changed
+t2 = (1, [2, 3], 4)
+print(&quot;Before:&quot;, t2)
+t2[1].append(5)
+print(&quot;After modifying inner list:&quot;, t2)
+
+# Cannot reassign the element though
+try:
+    t2[1] = [99]
+except TypeError as e:
+    print(&quot;Error:&quot;, e)</code></pre><div class="code-example-explanation">Tuples are immutable: you cannot change, add, or remove elements. However, if a tuple contains a mutable object (like a list), that inner object can still be modified. The tuple's immutability only prevents reassigning the reference at that index, not modifying the object the reference points to.</div><div class="code-example-output">Error: &#39;tuple&#39; object does not support item assignment
+Before: (1, [2, 3], 4)
+After modifying inner list: (1, [2, 3, 5], 4)
+Error: &#39;tuple&#39; object does not support item assignment</div></div>
+<div class="code-example"><div class="code-example-title">Tuple Packing and Unpacking</div><pre><code class="language-python"># Packing
+coords = 10, 20, 30
+print(&quot;Packed:&quot;, coords)
+
+# Unpacking
+x, y, z = coords
+print(f&quot;x={x}, y={y}, z={z}&quot;)
+
+# Swapping variables
+a = 5
+b = 10
+print(f&quot;Before swap: a={a}, b={b}&quot;)
+a, b = b, a
+print(f&quot;After swap: a={a}, b={b}&quot;)
+
+# Extended unpacking with *
+first, *middle, last = (1, 2, 3, 4, 5)
+print(f&quot;first={first}, middle={middle}, last={last}&quot;)
+
+# Unpacking in a loop
+students = [(&quot;Aarav&quot;, 90), (&quot;Priya&quot;, 95), (&quot;Meera&quot;, 88)]
+for name, marks in students:
+    print(f&quot;{name}: {marks}&quot;)</code></pre><div class="code-example-explanation">Packing creates a tuple from values. Unpacking extracts values into variables. Swapping <code>a, b = b, a</code> works by packing the right side into a tuple (b, a) and unpacking it into a and b. Extended unpacking with <code>*</code> collects remaining items. Unpacking in loops is common for iterating over lists of tuples.</div><div class="code-example-output">Packed: (10, 20, 30)
+x=10, y=20, z=30
+Before swap: a=5, b=10
+After swap: a=10, b=5
+first=1, middle=[2, 3, 4], last=5
+Aarav: 90
+Priya: 95
+Meera: 88</div></div>
+<div class="code-example"><div class="code-example-title">Tuples as Dictionary Keys</div><pre><code class="language-python"># Using tuples as dictionary keys (coordinates example)
+locations = {}
+locations[(0, 0)] = &quot;Origin&quot;
+locations[(1, 0)] = &quot;East&quot;
+locations[(0, 1)] = &quot;North&quot;
+locations[(-1, 0)] = &quot;West&quot;
+
+print(locations[(0, 0)])
+print(locations[(1, 0)])
+
+# Why lists cannot be keys
+try:
+    bad = {[1, 2]: &quot;value&quot;}
+except TypeError as e:
+    print(&quot;Error:&quot;, e)
+
+# Practical example: counting coordinate visits
+moves = [(0,0), (1,0), (0,1), (1,0), (0,0)]
+visit_count = {}
+for pos in moves:
+    visit_count[pos] = visit_count.get(pos, 0) + 1
+print(&quot;Visit counts:&quot;, visit_count)</code></pre><div class="code-example-explanation">Tuples can be dictionary keys because they are immutable and hashable. Lists cannot be keys because they are mutable (a list could change after being used as a key, breaking the dictionary). This is one of the most practical reasons to choose tuples over lists.</div><div class="code-example-output">Origin
+East
+Error: unhashable type: &#39;list&#39;
+Visit counts: {(0, 0): 2, (1, 0): 2, (0, 1): 1}</div></div>
+<div class="code-example"><div class="code-example-title">Named Tuples</div><pre><code class="language-python">from collections import namedtuple
+
+# Define a named tuple type
+Student = namedtuple(&#39;Student&#39;, [&#39;name&#39;, &#39;age&#39;, &#39;grade&#39;])
+
+# Create instances
+s1 = Student(&#39;Aarav&#39;, 16, &#39;A&#39;)
+s2 = Student(&#39;Priya&#39;, 15, &#39;A+&#39;)
+
+# Access by name (readable)
+print(f&quot;{s1.name} is {s1.age} years old, grade: {s1.grade}&quot;)
+
+# Access by index (still works)
+print(f&quot;First field: {s2[0]}&quot;)
+
+# Immutable like regular tuples
+try:
+    s1.age = 17
+except AttributeError as e:
+    print(&quot;Error:&quot;, e)
+
+# Convert to dictionary
+print(&quot;As dict:&quot;, s1._asdict())</code></pre><div class="code-example-explanation">Named tuples from <code>collections.namedtuple</code> create tuple subclasses with named fields. You can access elements by name (<code>s.name</code>) or by index (<code>s[0]</code>). They are immutable like regular tuples. The <code>_asdict()</code> method converts to a dictionary. Named tuples make code more self-documenting.</div><div class="code-example-output">Aarav is 16 years old, grade: A
+First field: Priya
+Error: can&#39;t set attribute
+As dict: {&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16, &#39;grade&#39;: &#39;A&#39;}</div></div>
+<div class="code-example"><div class="code-example-title">Tuple Concatenation and Conversion</div><pre><code class="language-python"># Concatenation
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+t3 = t1 + t2
+print(&quot;Concatenated:&quot;, t3)
+
+# Repetition
+zeros = (0,) * 5
+print(&quot;Repeated:&quot;, zeros)
+
+# Convert between list and tuple
+original = (10, 20, 30)
+temp_list = list(original)  # Convert to list
+temp_list.append(40)        # Modify the list
+updated = tuple(temp_list)  # Convert back to tuple
+print(&quot;Original:&quot;, original)
+print(&quot;Updated:&quot;, updated)
+
+# Tuple from string
+chars = tuple(&quot;Python&quot;)
+print(&quot;From string:&quot;, chars)</code></pre><div class="code-example-explanation">Tuples support <code>+</code> for concatenation and <code>*</code> for repetition. To modify a tuple, convert to list, make changes, then convert back. The <code>tuple()</code> constructor converts any iterable. <code>tuple("Python")</code> creates a tuple of individual characters.</div><div class="code-example-output">Concatenated: (1, 2, 3, 4, 5, 6)
+Repeated: (0, 0, 0, 0, 0)
+Original: (10, 20, 30)
+Updated: (10, 20, 30, 40)
+From string: (&#39;P&#39;, &#39;y&#39;, &#39;t&#39;, &#39;h&#39;, &#39;o&#39;, &#39;n&#39;)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting the Comma in a Single-Element Tuple</h3>
+                <div class="wrong-code"><pre><code class="language-python">t = (5)
+print(type(t))  # &lt;class &#39;int&#39;&gt; - NOT a tuple!</code></pre></div><div class="error-message">No error, but t is an integer, not a tuple.</div><div class="correct-code"><pre><code class="language-python">t = (5,)
+print(type(t))  # &lt;class &#39;tuple&#39;&gt;</code></pre></div><div class="mistake-explanation"><code>(5)</code> is just the integer 5 in parentheses, like a math expression. To create a single-element tuple, you MUST include a trailing comma: <code>(5,)</code>. This is one of the most common tuple mistakes in Python.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to Modify a Tuple Element</h3>
+                <div class="wrong-code"><pre><code class="language-python">coords = (10, 20, 30)
+coords[0] = 15  # TypeError!</code></pre></div><div class="error-message">TypeError: &#39;tuple&#39; object does not support item assignment</div><div class="correct-code"><pre><code class="language-python">coords = (10, 20, 30)
+coords = (15,) + coords[1:]  # Create a new tuple
+print(coords)  # (15, 20, 30)</code></pre></div><div class="mistake-explanation">Tuples are immutable. You cannot change individual elements. To create a modified version, build a new tuple using concatenation and slicing, or convert to a list, modify, and convert back.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Unpacking with Wrong Number of Variables</h3>
+                <div class="wrong-code"><pre><code class="language-python">t = (1, 2, 3)
+a, b = t  # ValueError!</code></pre></div><div class="error-message">ValueError: too many values to unpack (expected 2)</div><div class="correct-code"><pre><code class="language-python">t = (1, 2, 3)
+a, b, c = t  # Match the number of elements
+# Or use * to collect extras
+a, *rest = t  # a=1, rest=[2, 3]</code></pre></div><div class="mistake-explanation">When unpacking, the number of variables must match the number of elements in the tuple. Use <code>*</code> to collect remaining elements into a list if you do not know the exact count.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming Tuple Immutability Protects Inner Mutable Objects</h3>
+                <div class="wrong-code"><pre><code class="language-python">t = ([1, 2], [3, 4])
+# Many assume this is fully immutable
+t[0].append(99)
+print(t)  # ([1, 2, 99], [3, 4]) - inner list was modified!</code></pre></div><div class="error-message">No error, but the inner list was changed even though it is inside a tuple.</div><div class="correct-code"><pre><code class="language-python"># Be aware that mutable objects inside tuples CAN be changed
+t = ([1, 2], [3, 4])
+# The tuple prevents reassigning t[0] to a new object
+# But it does NOT prevent modifying the list object at t[0]
+# For truly immutable data, use tuples of immutable objects</code></pre></div><div class="mistake-explanation">Tuple immutability means you cannot reassign the references stored in the tuple (e.g., <code>t[0] = new_list</code> fails). But if a reference points to a mutable object (like a list), that object can still be modified through its own methods. For truly immutable data, ensure all elements are themselves immutable.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Tuples are ordered, immutable sequences created with parentheses () or just commas. Once created, their elements cannot be changed, added, or removed.</li>
+<li>A single-element tuple requires a trailing comma: (5,) is a tuple, (5) is just an integer. This is a very common gotcha.</li>
+<li>Tuples support indexing, negative indexing, slicing, iteration, len(), and the &#39;in&#39; operator — same read operations as lists.</li>
+<li>Tuples have only two methods: count() and index(). They lack all modifying methods (append, remove, sort, etc.) because they are immutable.</li>
+<li>Tuple packing (a, b = 10, 20) and unpacking (x, y = tuple_var) are powerful patterns. Variable swapping (a, b = b, a) uses this internally.</li>
+<li>Tuples can be used as dictionary keys and set elements because they are hashable. Lists cannot because they are mutable.</li>
+<li>A tuple containing a mutable object (like a list) is not fully immutable. The inner mutable object can still be modified.</li>
+<li>Use tuples for fixed collections (coordinates, records, function return values). Use lists for collections that need to grow or change.</li>
+<li>Named tuples (collections.namedtuple) add named field access to tuples, making code more readable while keeping immutability.</li>
+<li>Convert between tuples and lists with tuple() and list(). To modify a tuple, convert to list, make changes, then convert back.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/lists-in-python" class="related-topic-link">Lists in Python</a>
+<a href="/resources/python/dictionaries-in-python" class="related-topic-link">Dictionaries in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/lists-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Lists in Python</span>
+        </a>
+            <a href="/resources/python/dictionaries-in-python" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Dictionaries in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/tuples-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

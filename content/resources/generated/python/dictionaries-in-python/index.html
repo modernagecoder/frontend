@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionaries in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Store and retrieve data using key-value pairs with dictionary methods and iteration.">
+    <meta name="keywords" content="dictionaries in python, python tutorial, python dictionaries in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+    <meta property="og:title" content="Dictionaries in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Store and retrieve data using key-value pairs with dictionary methods and iteration.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/dictionaries-in-python">
+    <meta name="twitter:title" content="Dictionaries in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Store and retrieve data using key-value pairs with dictionary methods and iteration.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Dictionaries in Python",
+    "description": "Store and retrieve data using key-value pairs with dictionary methods and iteration.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/dictionaries-in-python"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/dictionaries-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Dictionaries in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/dictionaries-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Using [] Instead of .get() for Optional Keys",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using <code>[]</code> with a missing key raises a <code>KeyError</code>. Use <code>.get(key, default)</code> when the key might not exist. The default value (30 here) is returned instead of raising an error."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using a Mutable Type (List) as a Dictionary Key",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dictionary keys must be hashable (immutable). Lists are mutable and therefore not hashable. Convert the list to a tuple first, since tuples are immutable and hashable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying a Dictionary While Iterating",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You cannot add or delete keys while iterating over a dictionary. This raises a RuntimeError. Collect the keys to delete first (in a list), then delete them in a separate loop."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Assuming 'in' Checks Values (It Checks Keys)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>in</code> operator on a dictionary checks <strong>keys</strong>, not values. <code>\"Aarav\" in d</code> is False because \"Aarav\" is not a key. To check values, use <code>\"Aarav\" in d.values()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "fromkeys() with Mutable Default Shares the Same Object",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>fromkeys()</code> assigns the SAME object to all keys. When that object is mutable (like a list), all keys share it. Use a dictionary comprehension instead, which creates a new list for each key."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Overwriting Keys with Duplicate Keys in Literal",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dictionary keys must be unique. If you define the same key twice in a literal, the last value wins. Python does not warn you about this. Always ensure keys are unique when creating a dictionary."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Dictionaries in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 14</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">30 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Dictionaries in Python</h1>
+            <a href="/resources/python/dictionaries-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Dictionaries in Python?</h2><p>A <strong>dictionary</strong> is an unordered (in Python < 3.7) or insertion-ordered (Python 3.7+) collection of <strong>key-value pairs</strong>. Each key maps to a value, like a real dictionary where a word (key) maps to its definition (value).</p><p>Dictionaries are defined using curly braces <code>{}</code> with <code>key: value</code> pairs separated by commas:</p><pre><code>student = {
+    "name": "Aarav",
+    "age": 16,
+    "grade": "A"
+}</code></pre><p>Keys must be <strong>immutable</strong> and <strong>unique</strong> (strings, numbers, tuples). Values can be any type and can be duplicated. Dictionaries provide <strong>O(1) average-time</strong> lookups, making them extremely fast for searching by key.</p><h3>Creating Dictionaries</h3><pre><code>empty = {}                              # Empty dictionary
+empty2 = dict()                         # Also empty dictionary
+student = {"name": "Priya", "age": 15}  # Literal syntax
+from_pairs = dict(name="Rohan", age=16) # Keyword arguments
+from_tuples = dict([("a", 1), ("b", 2)]) # From list of tuples</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Dictionaries Important?</h2><p>Dictionaries are one of the most powerful and frequently used data structures in Python. Here is why:</p><h3>1. Fast Lookups by Key</h3><p>When you have a student roll number and need their name, a list would require searching through every element. A dictionary gives you the answer instantly using the key. With thousands or millions of entries, this speed difference is enormous.</p><h3>2. Natural Representation of Real-World Data</h3><p>Most real-world data is key-value: a person's name maps to their phone number, a product ID maps to its price, a country maps to its capital. Dictionaries model these relationships directly and intuitively.</p><h3>3. Foundation of JSON and APIs</h3><p>JSON (JavaScript Object Notation), the most common data format on the web, is essentially a nested dictionary structure. When you work with web APIs, you receive and send dictionaries. Python's <code>json</code> module converts between JSON strings and dictionaries seamlessly.</p><h3>4. Counting and Grouping</h3><p>Dictionaries are the standard tool for counting occurrences (word frequency, character counts) and grouping data (students by grade, products by category). These are among the most common programming tasks.</p><h3>5. Configuration and Settings</h3><p>Application settings, configuration files, environment variables — all are naturally represented as dictionaries. Frameworks like Django and Flask use dictionaries extensively for settings, request data, and template contexts.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Accessing Values: [] vs .get()</h3><p>There are two ways to access a value by key:</p><p><strong>Square bracket notation:</strong> <code>dict[key]</code> returns the value if the key exists. Raises <code>KeyError</code> if the key does not exist.</p><p><strong>.get() method:</strong> <code>dict.get(key)</code> returns the value if the key exists. Returns <code>None</code> (or a specified default) if the key does not exist. Never raises an error.</p><pre><code>student = {"name": "Aarav", "age": 16}
+print(student["name"])         # "Aarav"
+print(student.get("name"))     # "Aarav"
+print(student.get("grade"))    # None (no error)
+print(student.get("grade", "N/A"))  # "N/A" (custom default)
+# student["grade"]  would raise KeyError</code></pre><p>Use <code>[]</code> when you are certain the key exists (and want an error if it does not). Use <code>.get()</code> when the key might not exist and you want a safe fallback.</p><h3>2. Adding and Updating Keys</h3><p>Simply assign a value to a key. If the key exists, it is updated. If it does not exist, it is created:</p><pre><code>d = {"a": 1}
+d["b"] = 2      # Add new key
+d["a"] = 10     # Update existing key
+# d is now {"a": 10, "b": 2}</code></pre><h3>3. Deleting Keys</h3><p><code>del dict[key]</code> removes the key-value pair. Raises KeyError if the key does not exist.</p><p><code>dict.pop(key)</code> removes and returns the value. Raises KeyError if not found (unless a default is provided).</p><p><code>dict.pop(key, default)</code> returns default instead of raising an error.</p><p><code>dict.popitem()</code> removes and returns the last inserted key-value pair (Python 3.7+).</p><p><code>dict.clear()</code> removes all key-value pairs.</p><h3>4. Dictionary Methods</h3><h4>View Methods</h4><p><code>keys()</code> returns a view of all keys. <code>values()</code> returns a view of all values. <code>items()</code> returns a view of all key-value pairs as tuples. These views are dynamic: they reflect changes to the dictionary.</p><h4>update()</h4><p><code>dict.update(other_dict)</code> adds all key-value pairs from <code>other_dict</code>. Existing keys are overwritten.</p><h4>setdefault()</h4><p><code>dict.setdefault(key, default)</code> returns the value if the key exists. If the key does not exist, it inserts the key with the default value and returns the default.</p><h4>fromkeys()</h4><p><code>dict.fromkeys(iterable, value)</code> creates a new dictionary with keys from the iterable, all set to the same value.</p><h3>5. Looping Over Dictionaries</h3><p>There are several ways to iterate:</p><pre><code>d = {"name": "Aarav", "age": 16}
+
+# Loop over keys (default)
+for key in d:
+    print(key)
+
+# Loop over values
+for value in d.values():
+    print(value)
+
+# Loop over key-value pairs
+for key, value in d.items():
+    print(f"{key}: {value}")</code></pre><p>Iterating with <code>.items()</code> is the most common pattern because you usually need both the key and the value.</p><h3>6. Nested Dictionaries</h3><p>A dictionary can contain other dictionaries as values, creating a hierarchical structure:</p><pre><code>school = {
+    "student1": {"name": "Aarav", "marks": 90},
+    "student2": {"name": "Priya", "marks": 95}
+}
+print(school["student1"]["name"])  # "Aarav"</code></pre><p>Nested dictionaries are common for representing structured data like JSON responses, configuration files, and database records.</p><h3>7. Dictionary Comprehension</h3><p>Similar to list comprehension, dictionary comprehension creates dictionaries in a single expression:</p><pre><code>{key_expr: value_expr for item in iterable}
+{key_expr: value_expr for item in iterable if condition}</code></pre><p>Examples:</p><pre><code>squares = {x: x**2 for x in range(1, 6)}
+# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+even_squares = {x: x**2 for x in range(1, 11) if x % 2 == 0}
+# {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}</code></pre><h3>8. Checking Key Existence</h3><p>Use the <code>in</code> operator to check if a key exists:</p><pre><code>d = {"name": "Aarav", "age": 16}
+print("name" in d)     # True
+print("grade" in d)    # False
+print("Aarav" in d)    # False (checks keys, not values)</code></pre><p>The <code>in</code> operator checks <strong>keys</strong>, not values. To check values, use <code>value in d.values()</code>.</p><h3>9. Dictionary Ordering (Python 3.7+)</h3><p>Since Python 3.7, dictionaries maintain <strong>insertion order</strong>. Items are iterated in the order they were added. In older versions of Python, dictionaries were unordered.</p><h3>10. Merging Dictionaries</h3><p>There are multiple ways to merge dictionaries:</p><pre><code># Method 1: update() (modifies in place)
+a = {"x": 1}
+a.update({"y": 2})
+
+# Method 2: Unpacking (Python 3.5+)
+c = {**a, **b}  # Creates a new dict
+
+# Method 3: | operator (Python 3.9+)
+c = a | b       # Creates a new dict
+a |= b          # Updates a in place</code></pre><p>When keys overlap, the rightmost dictionary's values win.</p><h3>11. Common Patterns</h3><h4>Counting</h4><pre><code>text = "banana"
+count = {}
+for ch in text:
+    count[ch] = count.get(ch, 0) + 1
+# {"b": 1, "a": 3, "n": 2}</code></pre><h4>Grouping</h4><pre><code>students = [("Aarav", "A"), ("Priya", "B"), ("Rohan", "A")]
+groups = {}
+for name, grade in students:
+    groups.setdefault(grade, []).append(name)
+# {"A": ["Aarav", "Rohan"], "B": ["Priya"]}</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Creating and Accessing Dictionaries</div><pre><code class="language-python"># Creating a dictionary
+student = {
+    &quot;name&quot;: &quot;Aarav&quot;,
+    &quot;age&quot;: 16,
+    &quot;grade&quot;: &quot;A&quot;,
+    &quot;subjects&quot;: [&quot;Maths&quot;, &quot;Science&quot;]
+}
+
+# Accessing with []
+print(student[&quot;name&quot;])
+print(student[&quot;subjects&quot;])
+
+# Accessing with .get() (safe)
+print(student.get(&quot;age&quot;))
+print(student.get(&quot;phone&quot;))         # None
+print(student.get(&quot;phone&quot;, &quot;N/A&quot;))  # &quot;N/A&quot;
+
+# What happens with missing key and []
+try:
+    print(student[&quot;phone&quot;])
+except KeyError as e:
+    print(f&quot;KeyError: {e}&quot;)</code></pre><div class="code-example-explanation">Square brackets <code>[]</code> raise a KeyError if the key is missing. <code>.get()</code> returns None (or a custom default) without raising an error. Use <code>.get()</code> when you are unsure if the key exists.</div><div class="code-example-output">Aarav
+[&#39;Maths&#39;, &#39;Science&#39;]
+16
+None
+N/A
+KeyError: &#39;phone&#39;</div></div>
+<div class="code-example"><div class="code-example-title">Adding, Updating, and Deleting</div><pre><code class="language-python">d = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+print(&quot;Original:&quot;, d)
+
+# Add new key
+d[&quot;d&quot;] = 4
+print(&quot;After add:&quot;, d)
+
+# Update existing key
+d[&quot;a&quot;] = 10
+print(&quot;After update:&quot;, d)
+
+# Delete with del
+del d[&quot;b&quot;]
+print(&quot;After del:&quot;, d)
+
+# Delete with pop (returns the value)
+val = d.pop(&quot;c&quot;)
+print(f&quot;Popped: {val}, Dict: {d}&quot;)
+
+# pop with default (no error if missing)
+val = d.pop(&quot;z&quot;, &quot;not found&quot;)
+print(f&quot;Pop missing key: {val}&quot;)
+
+# popitem (removes last inserted)
+d[&quot;x&quot;] = 100
+d[&quot;y&quot;] = 200
+item = d.popitem()
+print(f&quot;Popitem: {item}, Dict: {d}&quot;)</code></pre><div class="code-example-explanation">Assigning to a key adds it (if new) or updates it (if existing). <code>del</code> removes by key. <code>pop(key)</code> removes and returns the value. <code>pop(key, default)</code> avoids errors for missing keys. <code>popitem()</code> removes the last inserted pair.</div><div class="code-example-output">Original: {&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3}
+After add: {&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3, &#39;d&#39;: 4}
+After update: {&#39;a&#39;: 10, &#39;b&#39;: 2, &#39;c&#39;: 3, &#39;d&#39;: 4}
+After del: {&#39;a&#39;: 10, &#39;c&#39;: 3, &#39;d&#39;: 4}
+Popped: 3, Dict: {&#39;a&#39;: 10, &#39;d&#39;: 4}
+Pop missing key: not found
+Popitem: (&#39;y&#39;, 200), Dict: {&#39;a&#39;: 10, &#39;d&#39;: 4, &#39;x&#39;: 100}</div></div>
+<div class="code-example"><div class="code-example-title">Dictionary Methods - keys(), values(), items()</div><pre><code class="language-python">student = {&quot;name&quot;: &quot;Priya&quot;, &quot;age&quot;: 15, &quot;grade&quot;: &quot;A+&quot;}
+
+print(&quot;Keys:&quot;, list(student.keys()))
+print(&quot;Values:&quot;, list(student.values()))
+print(&quot;Items:&quot;, list(student.items()))
+
+# Looping over items (most common pattern)
+print(&quot;\nStudent details:&quot;)
+for key, value in student.items():
+    print(f&quot;  {key}: {value}&quot;)
+
+# Checking key existence
+print(&quot;\nHas &#39;name&#39;:&quot;, &quot;name&quot; in student)
+print(&quot;Has &#39;phone&#39;:&quot;, &quot;phone&quot; in student)
+print(&quot;Has value &#39;A+&#39;:&quot;, &quot;A+&quot; in student.values())</code></pre><div class="code-example-explanation"><code>keys()</code>, <code>values()</code>, and <code>items()</code> return view objects. Wrap with <code>list()</code> to see the contents. <code>items()</code> returns key-value tuples, enabling tuple unpacking in a for loop. The <code>in</code> operator checks keys by default; use <code>.values()</code> to check values.</div><div class="code-example-output">Keys: [&#39;name&#39;, &#39;age&#39;, &#39;grade&#39;]
+Values: [&#39;Priya&#39;, 15, &#39;A+&#39;]
+Items: [(&#39;name&#39;, &#39;Priya&#39;), (&#39;age&#39;, 15), (&#39;grade&#39;, &#39;A+&#39;)]
+
+Student details:
+  name: Priya
+  age: 15
+  grade: A+
+
+Has &#39;name&#39;: True
+Has &#39;phone&#39;: False
+Has value &#39;A+&#39;: True</div></div>
+<div class="code-example"><div class="code-example-title">Dictionary Comprehension</div><pre><code class="language-python"># Basic comprehension: squares
+squares = {x: x**2 for x in range(1, 6)}
+print(&quot;Squares:&quot;, squares)
+
+# With condition: even squares only
+even_sq = {x: x**2 for x in range(1, 11) if x % 2 == 0}
+print(&quot;Even squares:&quot;, even_sq)
+
+# Invert a dictionary (swap keys and values)
+original = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+inverted = {v: k for k, v in original.items()}
+print(&quot;Inverted:&quot;, inverted)
+
+# Filter a dictionary
+scores = {&quot;Aarav&quot;: 90, &quot;Priya&quot;: 55, &quot;Rohan&quot;: 78, &quot;Meera&quot;: 45}
+passed = {name: score for name, score in scores.items() if score &gt;= 60}
+print(&quot;Passed:&quot;, passed)</code></pre><div class="code-example-explanation">Dictionary comprehension uses <code>{key_expr: value_expr for item in iterable if condition}</code>. It can create new dictionaries, invert existing ones, or filter based on conditions. Like list comprehension, it is a concise alternative to building dictionaries with loops.</div><div class="code-example-output">Squares: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+Even squares: {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}
+Inverted: {1: &#39;a&#39;, 2: &#39;b&#39;, 3: &#39;c&#39;}
+Passed: {&#39;Aarav&#39;: 90, &#39;Rohan&#39;: 78}</div></div>
+<div class="code-example"><div class="code-example-title">Nested Dictionaries</div><pre><code class="language-python"># School records as nested dict
+school = {
+    &quot;Aarav&quot;: {&quot;age&quot;: 16, &quot;marks&quot;: {&quot;Maths&quot;: 90, &quot;Science&quot;: 85}},
+    &quot;Priya&quot;: {&quot;age&quot;: 15, &quot;marks&quot;: {&quot;Maths&quot;: 95, &quot;Science&quot;: 92}}
+}
+
+# Accessing nested values
+print(&quot;Aarav&#39;s Maths marks:&quot;, school[&quot;Aarav&quot;][&quot;marks&quot;][&quot;Maths&quot;])
+print(&quot;Priya&#39;s age:&quot;, school[&quot;Priya&quot;][&quot;age&quot;])
+
+# Modifying nested values
+school[&quot;Aarav&quot;][&quot;marks&quot;][&quot;English&quot;] = 88
+print(&quot;\nAarav&#39;s marks:&quot;, school[&quot;Aarav&quot;][&quot;marks&quot;])
+
+# Looping over nested dict
+print(&quot;\nAll students:&quot;)
+for name, info in school.items():
+    print(f&quot;  {name} (age {info[&#39;age&#39;]}):&quot;)
+    for subject, mark in info[&quot;marks&quot;].items():
+        print(f&quot;    {subject}: {mark}&quot;)</code></pre><div class="code-example-explanation">Nested dictionaries store dictionaries inside dictionaries. Access deep values by chaining keys: <code>d[key1][key2][key3]</code>. This is the same structure as JSON. Nested loops are used to iterate through all levels.</div><div class="code-example-output">Aarav&#39;s Maths marks: 90
+Priya&#39;s age: 15
+
+Aarav&#39;s marks: {&#39;Maths&#39;: 90, &#39;Science&#39;: 85, &#39;English&#39;: 88}
+
+All students:
+  Aarav (age 16):
+    Maths: 90
+    Science: 85
+    English: 88
+  Priya (age 15):
+    Maths: 95
+    Science: 92</div></div>
+<div class="code-example"><div class="code-example-title">Counting and Grouping Patterns</div><pre><code class="language-python"># Pattern 1: Counting with .get()
+text = &quot;mississippi&quot;
+char_count = {}
+for ch in text:
+    char_count[ch] = char_count.get(ch, 0) + 1
+print(&quot;Character counts:&quot;, char_count)
+
+# Pattern 2: Grouping with setdefault()
+students = [
+    (&quot;Aarav&quot;, &quot;Science&quot;),
+    (&quot;Priya&quot;, &quot;Maths&quot;),
+    (&quot;Rohan&quot;, &quot;Science&quot;),
+    (&quot;Meera&quot;, &quot;Maths&quot;),
+    (&quot;Vikram&quot;, &quot;Science&quot;)
+]
+by_subject = {}
+for name, subject in students:
+    by_subject.setdefault(subject, []).append(name)
+print(&quot;\nGrouped by subject:&quot;, by_subject)
+
+# Pattern 3: Finding max value
+scores = {&quot;Aarav&quot;: 90, &quot;Priya&quot;: 95, &quot;Rohan&quot;: 78}
+top = max(scores, key=scores.get)
+print(f&quot;\nHighest scorer: {top} with {scores[top]}&quot;)</code></pre><div class="code-example-explanation">Counting with <code>.get(key, 0) + 1</code> is the standard pattern for frequency counting. <code>setdefault(key, [])</code> creates an empty list if the key is missing, then appends to it — perfect for grouping. <code>max(dict, key=dict.get)</code> finds the key with the highest value.</div><div class="code-example-output">Character counts: {&#39;m&#39;: 1, &#39;i&#39;: 4, &#39;s&#39;: 4, &#39;p&#39;: 2}
+
+Grouped by subject: {&#39;Science&#39;: [&#39;Aarav&#39;, &#39;Rohan&#39;, &#39;Vikram&#39;], &#39;Maths&#39;: [&#39;Priya&#39;, &#39;Meera&#39;]}
+
+Highest scorer: Priya with 95</div></div>
+<div class="code-example"><div class="code-example-title">Merging Dictionaries</div><pre><code class="language-python">d1 = {&quot;a&quot;: 1, &quot;b&quot;: 2}
+d2 = {&quot;b&quot;: 3, &quot;c&quot;: 4}
+
+# Method 1: update() - modifies d1 in place
+merged1 = d1.copy()  # Copy first to preserve d1
+merged1.update(d2)
+print(&quot;update():&quot;, merged1)
+
+# Method 2: ** unpacking (Python 3.5+)
+merged2 = {**d1, **d2}
+print(&quot;** unpacking:&quot;, merged2)
+
+# Method 3: | operator (Python 3.9+)
+merged3 = d1 | d2
+print(&quot;| operator:&quot;, merged3)
+
+# Note: when keys overlap, the last value wins
+print(&quot;\nOriginal d1:&quot;, d1)
+print(&quot;Original d2:&quot;, d2)
+print(&quot;Key &#39;b&#39; in merge:&quot;, merged2[&quot;b&quot;], &quot;(from d2)&quot;)</code></pre><div class="code-example-explanation">All three methods merge dictionaries. When keys overlap, the rightmost dictionary's value wins (d2's value for key 'b'). <code>update()</code> modifies in place. <code>{**d1, **d2}</code> and <code>d1 | d2</code> create new dictionaries. The <code>|</code> operator (Python 3.9+) is the most readable.</div><div class="code-example-output">update(): {&#39;a&#39;: 1, &#39;b&#39;: 3, &#39;c&#39;: 4}
+** unpacking: {&#39;a&#39;: 1, &#39;b&#39;: 3, &#39;c&#39;: 4}
+| operator: {&#39;a&#39;: 1, &#39;b&#39;: 3, &#39;c&#39;: 4}
+
+Original d1: {&#39;a&#39;: 1, &#39;b&#39;: 2}
+Original d2: {&#39;b&#39;: 3, &#39;c&#39;: 4}
+Key &#39;b&#39; in merge: 3 (from d2)</div></div>
+<div class="code-example"><div class="code-example-title">setdefault() and fromkeys()</div><pre><code class="language-python"># setdefault: get value if exists, set and return default if not
+d = {&quot;name&quot;: &quot;Aarav&quot;}
+result1 = d.setdefault(&quot;name&quot;, &quot;Unknown&quot;)
+result2 = d.setdefault(&quot;age&quot;, 16)
+print(f&quot;Existing key: {result1}&quot;)
+print(f&quot;New key: {result2}&quot;)
+print(f&quot;Dict after setdefault: {d}&quot;)
+
+# fromkeys: create dict with same value for all keys
+subjects = [&quot;Maths&quot;, &quot;Science&quot;, &quot;English&quot;]
+initial_scores = dict.fromkeys(subjects, 0)
+print(f&quot;\nInitial scores: {initial_scores}&quot;)
+
+# Caution: fromkeys with mutable default
+d2 = dict.fromkeys([&quot;a&quot;, &quot;b&quot;], [])
+d2[&quot;a&quot;].append(1)
+print(f&quot;\nfromkeys gotcha: {d2}&quot;)  # Both share same list!</code></pre><div class="code-example-explanation"><code>setdefault()</code> is useful for initialization: it only sets the value if the key does not exist. <code>fromkeys()</code> creates a dictionary with specified keys all set to the same value. Warning: with a mutable default (like a list), all keys share the same object, similar to the <code>[[]] * n</code> list gotcha.</div><div class="code-example-output">Existing key: Aarav
+New key: 16
+Dict after setdefault: {&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16}
+
+Initial scores: {&#39;Maths&#39;: 0, &#39;Science&#39;: 0, &#39;English&#39;: 0}
+
+fromkeys gotcha: {&#39;a&#39;: [1], &#39;b&#39;: [1]}</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Using [] Instead of .get() for Optional Keys</h3>
+                <div class="wrong-code"><pre><code class="language-python">config = {&quot;host&quot;: &quot;localhost&quot;, &quot;port&quot;: 8080}
+timeout = config[&quot;timeout&quot;]  # KeyError!</code></pre></div><div class="error-message">KeyError: &#39;timeout&#39;</div><div class="correct-code"><pre><code class="language-python">config = {&quot;host&quot;: &quot;localhost&quot;, &quot;port&quot;: 8080}
+timeout = config.get(&quot;timeout&quot;, 30)  # Returns 30 as default
+print(timeout)</code></pre></div><div class="mistake-explanation">Using <code>[]</code> with a missing key raises a <code>KeyError</code>. Use <code>.get(key, default)</code> when the key might not exist. The default value (30 here) is returned instead of raising an error.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using a Mutable Type (List) as a Dictionary Key</h3>
+                <div class="wrong-code"><pre><code class="language-python">d = {}
+d[[1, 2]] = &quot;value&quot;  # TypeError!</code></pre></div><div class="error-message">TypeError: unhashable type: &#39;list&#39;</div><div class="correct-code"><pre><code class="language-python">d = {}
+d[(1, 2)] = &quot;value&quot;  # Tuples are hashable
+print(d)</code></pre></div><div class="mistake-explanation">Dictionary keys must be hashable (immutable). Lists are mutable and therefore not hashable. Convert the list to a tuple first, since tuples are immutable and hashable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying a Dictionary While Iterating</h3>
+                <div class="wrong-code"><pre><code class="language-python">d = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+for key in d:
+    if d[key] &lt; 3:
+        del d[key]  # RuntimeError!</code></pre></div><div class="error-message">RuntimeError: dictionary changed size during iteration</div><div class="correct-code"><pre><code class="language-python">d = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+keys_to_delete = [key for key in d if d[key] &lt; 3]
+for key in keys_to_delete:
+    del d[key]
+print(d)  # {&#39;c&#39;: 3}</code></pre></div><div class="mistake-explanation">You cannot add or delete keys while iterating over a dictionary. This raises a RuntimeError. Collect the keys to delete first (in a list), then delete them in a separate loop.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Assuming &#39;in&#39; Checks Values (It Checks Keys)</h3>
+                <div class="wrong-code"><pre><code class="language-python">d = {&quot;name&quot;: &quot;Aarav&quot;, &quot;age&quot;: 16}
+print(&quot;Aarav&quot; in d)  # False! Checks keys, not values</code></pre></div><div class="error-message">No error, but returns False unexpectedly. &#39;Aarav&#39; is a value, not a key.</div><div class="correct-code"><pre><code class="language-python">d = {&quot;name&quot;: &quot;Aarav&quot;, &quot;age&quot;: 16}
+print(&quot;Aarav&quot; in d.values())  # True
+print(&quot;name&quot; in d)           # True (checks keys)</code></pre></div><div class="mistake-explanation">The <code>in</code> operator on a dictionary checks <strong>keys</strong>, not values. <code>"Aarav" in d</code> is False because "Aarav" is not a key. To check values, use <code>"Aarav" in d.values()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>fromkeys() with Mutable Default Shares the Same Object</h3>
+                <div class="wrong-code"><pre><code class="language-python">d = dict.fromkeys([&quot;a&quot;, &quot;b&quot;, &quot;c&quot;], [])
+d[&quot;a&quot;].append(1)
+print(d)  # {&#39;a&#39;: [1], &#39;b&#39;: [1], &#39;c&#39;: [1]} - all changed!</code></pre></div><div class="error-message">No error, but all keys share the same list object. Modifying one affects all.</div><div class="correct-code"><pre><code class="language-python">d = {key: [] for key in [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]}
+d[&quot;a&quot;].append(1)
+print(d)  # {&#39;a&#39;: [1], &#39;b&#39;: [], &#39;c&#39;: []}</code></pre></div><div class="mistake-explanation"><code>fromkeys()</code> assigns the SAME object to all keys. When that object is mutable (like a list), all keys share it. Use a dictionary comprehension instead, which creates a new list for each key.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Overwriting Keys with Duplicate Keys in Literal</h3>
+                <div class="wrong-code"><pre><code class="language-python">d = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;a&quot;: 3}
+print(d)  # {&#39;a&#39;: 3, &#39;b&#39;: 2} - first &#39;a&#39; is overwritten!</code></pre></div><div class="error-message">No error, but the first &#39;a&#39;: 1 is silently overwritten by &#39;a&#39;: 3.</div><div class="correct-code"><pre><code class="language-python"># Ensure unique keys
+d = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+print(d)</code></pre></div><div class="mistake-explanation">Dictionary keys must be unique. If you define the same key twice in a literal, the last value wins. Python does not warn you about this. Always ensure keys are unique when creating a dictionary.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Dictionaries store key-value pairs using curly braces {}. Keys must be immutable and unique. Values can be any type.</li>
+<li>Access values with dict[key] (raises KeyError if missing) or dict.get(key, default) (returns None or a default if missing). Prefer .get() for optional keys.</li>
+<li>Add or update entries by assigning: dict[key] = value. Delete with del dict[key], pop(key), popitem(), or clear().</li>
+<li>keys(), values(), and items() return view objects for iteration. items() is the most common for looping because it provides both key and value.</li>
+<li>The &#39;in&#39; operator checks keys by default. Use &#39;in dict.values()&#39; to check values.</li>
+<li>Dictionary comprehension {key: value for item in iterable if condition} creates dictionaries concisely, similar to list comprehension.</li>
+<li>Nested dictionaries store dictionaries as values. Access deep values by chaining keys: dict[key1][key2]. This mirrors JSON structure.</li>
+<li>Since Python 3.7, dictionaries maintain insertion order. Items are iterated in the order they were added.</li>
+<li>Merge dictionaries with update() (in place), {**d1, **d2} (new dict), or d1 | d2 (Python 3.9+). When keys overlap, the last dictionary&#39;s values win.</li>
+<li>Common patterns: counting with .get(key, 0) + 1, grouping with setdefault(key, []).append(value), finding max with max(dict, key=dict.get).</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/lists-in-python" class="related-topic-link">Lists in Python</a>
+<a href="/resources/python/sets-in-python" class="related-topic-link">Sets in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/tuples-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Tuples in Python</span>
+        </a>
+            <a href="/resources/python/sets-in-python" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Sets in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/dictionaries-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

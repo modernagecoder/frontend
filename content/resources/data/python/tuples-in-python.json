@@ -1,0 +1,635 @@
+{
+  "title": "Tuples in Python",
+  "slug": "tuples-in-python",
+  "language": "python",
+  "chapter": 13,
+  "difficulty": "Intermediate",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Tuples in Python - Tuple vs List, Immutable Sequences, Packing & Unpacking | Modern Age Coders",
+    "description": "Learn Python tuples including tuple vs list, immutability, packing and unpacking, named tuples, and when to use tuples. Includes 55+ practice questions with output prediction and coding challenges.",
+    "keywords": "python tuple, tuple vs list python, immutable sequences python, python tuple tutorial, python tuple packing, python tuple unpacking, python namedtuple, python tuple methods, python tuple examples, python tuple operations"
+  },
+  "content": {
+    "what": "<h2>What Are Tuples in Python?</h2><p>A <strong>tuple</strong> is an ordered, <strong>immutable</strong> sequence of items. Tuples look similar to lists but are defined using parentheses <code>()</code> instead of square brackets <code>[]</code>. Once a tuple is created, you cannot add, remove, or change its elements.</p><p>Tuples can hold items of any data type — integers, strings, floats, booleans, and even other tuples or lists.</p><h3>Creating Tuples</h3><pre><code>empty = ()                           # Empty tuple\nsingle = (5,)                        # Single-element tuple (comma required!)\ncoords = (10, 20)                    # Tuple of two integers\nstudent = (\"Aarav\", 16, \"Class 11\")  # Mixed types\nnested = ((1, 2), (3, 4))            # Nested tuples\nfrom_list = tuple([1, 2, 3])         # Convert list to tuple</code></pre><p>The parentheses are actually optional in most cases. It is the <strong>comma</strong> that makes a tuple, not the parentheses. However, using parentheses is recommended for clarity.</p><h3>The Single-Element Tuple Gotcha</h3><p>This is one of the most common surprises for beginners. Writing <code>(5)</code> does NOT create a tuple — it is just the integer 5 in parentheses (like in a math expression). To create a single-element tuple, you must include a trailing comma: <code>(5,)</code>.</p><pre><code>not_a_tuple = (5)     # This is just the integer 5\nis_a_tuple = (5,)     # This is a tuple containing 5\nprint(type(not_a_tuple))  # &lt;class 'int'&gt;\nprint(type(is_a_tuple))   # &lt;class 'tuple'&gt;</code></pre>",
+    "why": "<h2>Why Are Tuples Important?</h2><p>At first glance, tuples may seem like restricted lists. If lists can do everything tuples can do (and more), why do tuples exist? There are several important reasons:</p><h3>1. Immutability Provides Safety</h3><p>When you pass a tuple to a function, you are guaranteed it will not be modified. This makes tuples ideal for data that should remain constant: coordinates, RGB colors, database records, configuration settings. Immutability prevents accidental changes and makes your code more predictable.</p><h3>2. Tuples Can Be Dictionary Keys</h3><p>Since tuples are immutable (and therefore <strong>hashable</strong>), they can be used as dictionary keys. Lists cannot be used as keys because they are mutable. This is crucial when you need to use a pair of values (like coordinates) as a lookup key.</p><pre><code>locations = {(28.6, 77.2): \"Delhi\", (19.0, 72.8): \"Mumbai\"}</code></pre><h3>3. Tuples Are Faster Than Lists</h3><p>Because of their immutability, Python can optimize tuples internally. Creating and accessing tuple elements is slightly faster than the equivalent list operations. For large-scale data processing, this performance difference matters.</p><h3>4. Tuple Packing and Unpacking</h3><p>Tuples enable elegant patterns like swapping variables (<code>a, b = b, a</code>), returning multiple values from functions, and destructuring sequences. These patterns are used constantly in Python code.</p><h3>5. Convention and Intent</h3><p>Using a tuple signals to other programmers that this collection is not meant to be modified. It communicates intent: a tuple of (name, age, grade) represents a fixed record, while a list of students represents a collection that might grow or shrink.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Accessing Tuple Elements</h3><p>Tuples support the same indexing and slicing as lists and strings:</p><pre><code>colors = (\"red\", \"green\", \"blue\", \"yellow\")\ncolors[0]      # \"red\"\ncolors[-1]     # \"yellow\"\ncolors[1:3]    # (\"green\", \"blue\")\ncolors[::-1]   # (\"yellow\", \"blue\", \"green\", \"red\")</code></pre><p>Indexing returns a single element. Slicing returns a new tuple.</p><h3>2. Tuple Immutability</h3><p>You cannot modify a tuple after creation. Attempting to assign to an index raises a <code>TypeError</code>:</p><pre><code>t = (1, 2, 3)\nt[0] = 10  # TypeError: 'tuple' object does not support item assignment</code></pre><p>You also cannot use <code>append()</code>, <code>remove()</code>, <code>insert()</code>, or any other modifying method. Tuples only have two methods: <code>count()</code> and <code>index()</code>.</p><p><strong>Important caveat:</strong> If a tuple contains a mutable object (like a list), the mutable object inside can still be changed:</p><pre><code>t = (1, [2, 3], 4)\nt[1].append(5)    # This works! t is now (1, [2, 3, 5], 4)\nt[1] = [99]       # This fails! Cannot reassign the tuple element</code></pre><h3>3. Tuple Methods</h3><p>Tuples have only two methods:</p><p><code>count(value)</code> returns the number of times a value appears in the tuple.</p><p><code>index(value)</code> returns the index of the first occurrence of a value. Raises <code>ValueError</code> if not found.</p><pre><code>t = (1, 2, 3, 2, 4, 2)\nt.count(2)    # 3\nt.index(3)    # 2</code></pre><h3>4. Tuple Packing and Unpacking</h3><p><strong>Packing</strong> is creating a tuple from multiple values:</p><pre><code>coords = 10, 20, 30    # Packed into a tuple (10, 20, 30)</code></pre><p><strong>Unpacking</strong> is extracting tuple values into individual variables:</p><pre><code>x, y, z = coords       # x=10, y=20, z=30</code></pre><p>The number of variables must match the number of elements, unless you use <code>*</code> for extended unpacking.</p><h3>5. Swapping with Tuples</h3><p>Python's tuple packing and unpacking enables elegant variable swapping without a temporary variable:</p><pre><code>a = 10\nb = 20\na, b = b, a    # Now a=20, b=10</code></pre><p>The right side creates a tuple <code>(b, a)</code> = <code>(20, 10)</code>, then unpacks it into <code>a</code> and <code>b</code>. This is one of Python's most iconic features.</p><h3>6. Tuples as Dictionary Keys</h3><p>Because tuples are immutable and hashable, they can serve as dictionary keys. This is useful for mapping coordinate pairs, compound keys, or any combination of values to a result:</p><pre><code>grid = {}\ngrid[(0, 0)] = \"origin\"\ngrid[(1, 0)] = \"right\"\nprint(grid[(0, 0)])    # \"origin\"</code></pre><p>Lists cannot be used as dictionary keys because they are mutable and not hashable.</p><h3>7. When to Use Tuples vs Lists</h3><p>Use <strong>tuples</strong> when: the data should not change (coordinates, dates, records), you need a hashable type (dictionary keys, set elements), or you want to signal immutability to other developers.</p><p>Use <strong>lists</strong> when: the collection will change (adding/removing items), you need methods like sort(), append(), or extend(), or the data represents a homogeneous collection of similar items.</p><h3>8. Named Tuples</h3><p><code>collections.namedtuple</code> creates tuple subclasses with named fields, making code more readable:</p><pre><code>from collections import namedtuple\nStudent = namedtuple('Student', ['name', 'age', 'grade'])\ns = Student('Priya', 16, 'A')\nprint(s.name)    # 'Priya'\nprint(s.age)     # 16\nprint(s[0])      # 'Priya' (indexing still works)</code></pre><p>Named tuples combine the immutability of tuples with the readability of named fields.</p><h3>9. Converting Between Tuples and Lists</h3><p><code>tuple(list_obj)</code> converts a list to a tuple. <code>list(tuple_obj)</code> converts a tuple to a list. This is useful when you need to modify data from a tuple: convert to a list, make changes, then convert back.</p><pre><code>t = (1, 2, 3)\nlst = list(t)      # [1, 2, 3]\nlst.append(4)\nt = tuple(lst)     # (1, 2, 3, 4)</code></pre><h3>10. Tuple Concatenation and Nesting</h3><p>You can concatenate tuples with <code>+</code> and repeat with <code>*</code>:</p><pre><code>(1, 2) + (3, 4)    # (1, 2, 3, 4)\n(0,) * 5            # (0, 0, 0, 0, 0)</code></pre><p>Nested tuples contain tuples as elements:</p><pre><code>matrix = ((1, 2), (3, 4), (5, 6))\nmatrix[1][0]    # 3</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Creating Tuples and the Single-Element Gotcha",
+        "code": "# Different ways to create tuples\nempty = ()\nprint(\"Empty tuple:\", empty, \"Length:\", len(empty))\n\npair = (10, 20)\nprint(\"Pair:\", pair)\n\n# Single-element tuple REQUIRES a trailing comma\nsingle = (5,)\nnot_tuple = (5)\nprint(\"Single tuple:\", single, \"Type:\", type(single))\nprint(\"Not a tuple:\", not_tuple, \"Type:\", type(not_tuple))\n\n# Parentheses are optional\nno_parens = 1, 2, 3\nprint(\"Without parens:\", no_parens, \"Type:\", type(no_parens))\n\n# Convert list to tuple\nfrom_list = tuple([\"a\", \"b\", \"c\"])\nprint(\"From list:\", from_list)",
+        "language": "python",
+        "explanation": "Tuples can be created with or without parentheses. The trailing comma is what makes a single-element tuple: <code>(5,)</code> is a tuple, <code>(5)</code> is just an integer. The <code>tuple()</code> constructor converts any iterable to a tuple.",
+        "output": "Empty tuple: () Length: 0\nPair: (10, 20)\nSingle tuple: (5,) Type: <class 'tuple'>\nNot a tuple: 5 Type: <class 'int'>\nWithout parens: (1, 2, 3) Type: <class 'tuple'>\nFrom list: ('a', 'b', 'c')"
+      },
+      {
+        "title": "Tuple Indexing and Slicing",
+        "code": "student = (\"Rohan\", 17, \"Class 12\", 92.5)\n\n# Indexing\nprint(\"Name:\", student[0])\nprint(\"Last element:\", student[-1])\n\n# Slicing\nprint(\"Middle elements:\", student[1:3])\nprint(\"Reversed:\", student[::-1])\n\n# Iterating\nprint(\"\\nAll elements:\")\nfor item in student:\n    print(f\"  {item} (type: {type(item).__name__})\")\n\n# Length and membership\nprint(\"\\nLength:\", len(student))\nprint(\"Has 'Rohan':\", \"Rohan\" in student)\nprint(\"Has 'Priya':\", \"Priya\" in student)",
+        "language": "python",
+        "explanation": "Tuples support all the same read operations as lists: indexing, negative indexing, slicing, iteration, <code>len()</code>, and the <code>in</code> operator. Slicing a tuple returns a new tuple.",
+        "output": "Name: Rohan\nLast element: 92.5\nMiddle elements: (17, 'Class 12')\nReversed: (92.5, 'Class 12', 17, 'Rohan')\n\nAll elements:\n  Rohan (type: str)\n  17 (type: int)\n  Class 12 (type: str)\n  92.5 (type: float)\n\nLength: 4\nHas 'Rohan': True\nHas 'Priya': False"
+      },
+      {
+        "title": "Tuple Immutability",
+        "code": "t = (10, 20, 30)\n\n# Attempting to modify raises TypeError\ntry:\n    t[0] = 99\nexcept TypeError as e:\n    print(\"Error:\", e)\n\n# But a mutable object INSIDE a tuple can be changed\nt2 = (1, [2, 3], 4)\nprint(\"Before:\", t2)\nt2[1].append(5)\nprint(\"After modifying inner list:\", t2)\n\n# Cannot reassign the element though\ntry:\n    t2[1] = [99]\nexcept TypeError as e:\n    print(\"Error:\", e)",
+        "language": "python",
+        "explanation": "Tuples are immutable: you cannot change, add, or remove elements. However, if a tuple contains a mutable object (like a list), that inner object can still be modified. The tuple's immutability only prevents reassigning the reference at that index, not modifying the object the reference points to.",
+        "output": "Error: 'tuple' object does not support item assignment\nBefore: (1, [2, 3], 4)\nAfter modifying inner list: (1, [2, 3, 5], 4)\nError: 'tuple' object does not support item assignment"
+      },
+      {
+        "title": "Tuple Packing and Unpacking",
+        "code": "# Packing\ncoords = 10, 20, 30\nprint(\"Packed:\", coords)\n\n# Unpacking\nx, y, z = coords\nprint(f\"x={x}, y={y}, z={z}\")\n\n# Swapping variables\na = 5\nb = 10\nprint(f\"Before swap: a={a}, b={b}\")\na, b = b, a\nprint(f\"After swap: a={a}, b={b}\")\n\n# Extended unpacking with *\nfirst, *middle, last = (1, 2, 3, 4, 5)\nprint(f\"first={first}, middle={middle}, last={last}\")\n\n# Unpacking in a loop\nstudents = [(\"Aarav\", 90), (\"Priya\", 95), (\"Meera\", 88)]\nfor name, marks in students:\n    print(f\"{name}: {marks}\")",
+        "language": "python",
+        "explanation": "Packing creates a tuple from values. Unpacking extracts values into variables. Swapping <code>a, b = b, a</code> works by packing the right side into a tuple (b, a) and unpacking it into a and b. Extended unpacking with <code>*</code> collects remaining items. Unpacking in loops is common for iterating over lists of tuples.",
+        "output": "Packed: (10, 20, 30)\nx=10, y=20, z=30\nBefore swap: a=5, b=10\nAfter swap: a=10, b=5\nfirst=1, middle=[2, 3, 4], last=5\nAarav: 90\nPriya: 95\nMeera: 88"
+      },
+      {
+        "title": "Tuples as Dictionary Keys",
+        "code": "# Using tuples as dictionary keys (coordinates example)\nlocations = {}\nlocations[(0, 0)] = \"Origin\"\nlocations[(1, 0)] = \"East\"\nlocations[(0, 1)] = \"North\"\nlocations[(-1, 0)] = \"West\"\n\nprint(locations[(0, 0)])\nprint(locations[(1, 0)])\n\n# Why lists cannot be keys\ntry:\n    bad = {[1, 2]: \"value\"}\nexcept TypeError as e:\n    print(\"Error:\", e)\n\n# Practical example: counting coordinate visits\nmoves = [(0,0), (1,0), (0,1), (1,0), (0,0)]\nvisit_count = {}\nfor pos in moves:\n    visit_count[pos] = visit_count.get(pos, 0) + 1\nprint(\"Visit counts:\", visit_count)",
+        "language": "python",
+        "explanation": "Tuples can be dictionary keys because they are immutable and hashable. Lists cannot be keys because they are mutable (a list could change after being used as a key, breaking the dictionary). This is one of the most practical reasons to choose tuples over lists.",
+        "output": "Origin\nEast\nError: unhashable type: 'list'\nVisit counts: {(0, 0): 2, (1, 0): 2, (0, 1): 1}"
+      },
+      {
+        "title": "Named Tuples",
+        "code": "from collections import namedtuple\n\n# Define a named tuple type\nStudent = namedtuple('Student', ['name', 'age', 'grade'])\n\n# Create instances\ns1 = Student('Aarav', 16, 'A')\ns2 = Student('Priya', 15, 'A+')\n\n# Access by name (readable)\nprint(f\"{s1.name} is {s1.age} years old, grade: {s1.grade}\")\n\n# Access by index (still works)\nprint(f\"First field: {s2[0]}\")\n\n# Immutable like regular tuples\ntry:\n    s1.age = 17\nexcept AttributeError as e:\n    print(\"Error:\", e)\n\n# Convert to dictionary\nprint(\"As dict:\", s1._asdict())",
+        "language": "python",
+        "explanation": "Named tuples from <code>collections.namedtuple</code> create tuple subclasses with named fields. You can access elements by name (<code>s.name</code>) or by index (<code>s[0]</code>). They are immutable like regular tuples. The <code>_asdict()</code> method converts to a dictionary. Named tuples make code more self-documenting.",
+        "output": "Aarav is 16 years old, grade: A\nFirst field: Priya\nError: can't set attribute\nAs dict: {'name': 'Aarav', 'age': 16, 'grade': 'A'}"
+      },
+      {
+        "title": "Tuple Concatenation and Conversion",
+        "code": "# Concatenation\nt1 = (1, 2, 3)\nt2 = (4, 5, 6)\nt3 = t1 + t2\nprint(\"Concatenated:\", t3)\n\n# Repetition\nzeros = (0,) * 5\nprint(\"Repeated:\", zeros)\n\n# Convert between list and tuple\noriginal = (10, 20, 30)\ntemp_list = list(original)  # Convert to list\ntemp_list.append(40)        # Modify the list\nupdated = tuple(temp_list)  # Convert back to tuple\nprint(\"Original:\", original)\nprint(\"Updated:\", updated)\n\n# Tuple from string\nchars = tuple(\"Python\")\nprint(\"From string:\", chars)",
+        "language": "python",
+        "explanation": "Tuples support <code>+</code> for concatenation and <code>*</code> for repetition. To modify a tuple, convert to list, make changes, then convert back. The <code>tuple()</code> constructor converts any iterable. <code>tuple(\"Python\")</code> creates a tuple of individual characters.",
+        "output": "Concatenated: (1, 2, 3, 4, 5, 6)\nRepeated: (0, 0, 0, 0, 0)\nOriginal: (10, 20, 30)\nUpdated: (10, 20, 30, 40)\nFrom string: ('P', 'y', 't', 'h', 'o', 'n')"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting the Comma in a Single-Element Tuple",
+        "wrongCode": "t = (5)\nprint(type(t))  # <class 'int'> - NOT a tuple!",
+        "error": "No error, but t is an integer, not a tuple.",
+        "correctCode": "t = (5,)\nprint(type(t))  # <class 'tuple'>",
+        "explanation": "<code>(5)</code> is just the integer 5 in parentheses, like a math expression. To create a single-element tuple, you MUST include a trailing comma: <code>(5,)</code>. This is one of the most common tuple mistakes in Python."
+      },
+      {
+        "title": "Trying to Modify a Tuple Element",
+        "wrongCode": "coords = (10, 20, 30)\ncoords[0] = 15  # TypeError!",
+        "error": "TypeError: 'tuple' object does not support item assignment",
+        "correctCode": "coords = (10, 20, 30)\ncoords = (15,) + coords[1:]  # Create a new tuple\nprint(coords)  # (15, 20, 30)",
+        "explanation": "Tuples are immutable. You cannot change individual elements. To create a modified version, build a new tuple using concatenation and slicing, or convert to a list, modify, and convert back."
+      },
+      {
+        "title": "Unpacking with Wrong Number of Variables",
+        "wrongCode": "t = (1, 2, 3)\na, b = t  # ValueError!",
+        "error": "ValueError: too many values to unpack (expected 2)",
+        "correctCode": "t = (1, 2, 3)\na, b, c = t  # Match the number of elements\n# Or use * to collect extras\na, *rest = t  # a=1, rest=[2, 3]",
+        "explanation": "When unpacking, the number of variables must match the number of elements in the tuple. Use <code>*</code> to collect remaining elements into a list if you do not know the exact count."
+      },
+      {
+        "title": "Assuming Tuple Immutability Protects Inner Mutable Objects",
+        "wrongCode": "t = ([1, 2], [3, 4])\n# Many assume this is fully immutable\nt[0].append(99)\nprint(t)  # ([1, 2, 99], [3, 4]) - inner list was modified!",
+        "error": "No error, but the inner list was changed even though it is inside a tuple.",
+        "correctCode": "# Be aware that mutable objects inside tuples CAN be changed\nt = ([1, 2], [3, 4])\n# The tuple prevents reassigning t[0] to a new object\n# But it does NOT prevent modifying the list object at t[0]\n# For truly immutable data, use tuples of immutable objects",
+        "explanation": "Tuple immutability means you cannot reassign the references stored in the tuple (e.g., <code>t[0] = new_list</code> fails). But if a reference points to a mutable object (like a list), that object can still be modified through its own methods. For truly immutable data, ensure all elements are themselves immutable."
+      }
+    ],
+    "summary": [
+      "Tuples are ordered, immutable sequences created with parentheses () or just commas. Once created, their elements cannot be changed, added, or removed.",
+      "A single-element tuple requires a trailing comma: (5,) is a tuple, (5) is just an integer. This is a very common gotcha.",
+      "Tuples support indexing, negative indexing, slicing, iteration, len(), and the 'in' operator — same read operations as lists.",
+      "Tuples have only two methods: count() and index(). They lack all modifying methods (append, remove, sort, etc.) because they are immutable.",
+      "Tuple packing (a, b = 10, 20) and unpacking (x, y = tuple_var) are powerful patterns. Variable swapping (a, b = b, a) uses this internally.",
+      "Tuples can be used as dictionary keys and set elements because they are hashable. Lists cannot because they are mutable.",
+      "A tuple containing a mutable object (like a list) is not fully immutable. The inner mutable object can still be modified.",
+      "Use tuples for fixed collections (coordinates, records, function return values). Use lists for collections that need to grow or change.",
+      "Named tuples (collections.namedtuple) add named field access to tuples, making code more readable while keeping immutability.",
+      "Convert between tuples and lists with tuple() and list(). To modify a tuple, convert to list, make changes, then convert back."
+    ]
+  },
+  "relatedTopics": ["lists-in-python", "dictionaries-in-python"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>t = (10, 20, 30)\nprint(t[0])\nprint(t[-1])</code></pre>",
+        "hint": "Index 0 is the first element. Index -1 is the last element.",
+        "answer": "<code>10</code><br><code>30</code>",
+        "explanation": "<code>t[0]</code> accesses the first element (10). <code>t[-1]</code> accesses the last element (30). Tuple indexing works exactly like list indexing."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(type((5)))\nprint(type((5,)))</code></pre>",
+        "hint": "A single value in parentheses is just that value. A trailing comma creates a tuple.",
+        "answer": "<code>&lt;class 'int'&gt;</code><br><code>&lt;class 'tuple'&gt;</code>",
+        "explanation": "<code>(5)</code> is just the integer 5 in parentheses — type is <code>int</code>. <code>(5,)</code> has a trailing comma, making it a single-element tuple — type is <code>tuple</code>."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>t = (1, 2, 3, 4, 5)\nprint(t[1:4])\nprint(len(t))</code></pre>",
+        "hint": "Slicing a tuple returns a new tuple. len() counts elements.",
+        "answer": "<code>(2, 3, 4)</code><br><code>5</code>",
+        "explanation": "<code>t[1:4]</code> slices from index 1 to 3 (index 4 excluded), returning the tuple (2, 3, 4). <code>len(t)</code> returns 5."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>t = (1, 2, 3, 2, 4, 2)\nprint(t.count(2))\nprint(t.index(3))</code></pre>",
+        "hint": "count() counts occurrences. index() returns the position of the first match.",
+        "answer": "<code>3</code><br><code>2</code>",
+        "explanation": "<code>count(2)</code> returns 3 because 2 appears three times. <code>index(3)</code> returns 2 because the value 3 is at index 2."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>a = 5\nb = 10\na, b = b, a\nprint(a, b)</code></pre>",
+        "hint": "This is tuple unpacking. The right side creates a tuple, then it is unpacked into the left side.",
+        "answer": "<code>10 5</code>",
+        "explanation": "The right side creates the tuple <code>(b, a)</code> = <code>(10, 5)</code>. Then it is unpacked: <code>a = 10</code>, <code>b = 5</code>. The swap happens in one step without needing a temporary variable."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>t = (1, 2) + (3, 4)\nprint(t)\nprint(len(t))</code></pre>",
+        "hint": "The + operator concatenates tuples.",
+        "answer": "<code>(1, 2, 3, 4)</code><br><code>4</code>",
+        "explanation": "<code>(1, 2) + (3, 4)</code> concatenates the two tuples into a new tuple (1, 2, 3, 4). The length is 4."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>t = (10, 20, 30, 40, 50)\nprint(t[::-1])\nprint(t[3:0:-1])</code></pre>",
+        "hint": "[::-1] reverses. [3:0:-1] starts at index 3 and goes backward, stopping before index 0.",
+        "answer": "<code>(50, 40, 30, 20, 10)</code><br><code>(40, 30, 20)</code>",
+        "explanation": "<code>t[::-1]</code> reverses the entire tuple. <code>t[3:0:-1]</code> starts at index 3 (40), goes backwards: indices 3, 2, 1 (stopping before index 0). Result: (40, 30, 20)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x, y, z = (100, 200, 300)\nprint(y)</code></pre>",
+        "hint": "Tuple unpacking assigns each element to the corresponding variable.",
+        "answer": "<code>200</code>",
+        "explanation": "Unpacking assigns 100 to x, 200 to y, and 300 to z. Printing y gives 200."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>first, *rest = (1, 2, 3, 4, 5)\nprint(first)\nprint(rest)\nprint(type(rest))</code></pre>",
+        "hint": "The * operator collects remaining elements. What type does it collect into?",
+        "answer": "<code>1</code><br><code>[2, 3, 4, 5]</code><br><code>&lt;class 'list'&gt;</code>",
+        "explanation": "<code>first</code> gets 1. <code>*rest</code> collects the remaining elements into a <strong>list</strong> (not a tuple!): [2, 3, 4, 5]. Extended unpacking always produces a list, even when unpacking a tuple."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>t = (\"a\", \"b\", \"c\")\nprint(\"b\" in t)\nprint(\"d\" in t)\nprint(\"ab\" in t)</code></pre>",
+        "hint": "The 'in' operator checks if the item is an element of the tuple.",
+        "answer": "<code>True</code><br><code>False</code><br><code>False</code>",
+        "explanation": "<code>\"b\" in t</code> is True because \"b\" is an element. <code>\"d\" in t</code> is False. <code>\"ab\" in t</code> is False because \"ab\" is not an element — the elements are individual strings \"a\", \"b\", \"c\". (Unlike strings, where \"ab\" in \"abc\" is True, tuple membership checks for exact element matches.)"
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nested = ((1, 2), (3, 4), (5, 6))\nprint(nested[1])\nprint(nested[1][0])\nprint(nested[-1][-1])</code></pre>",
+        "hint": "First index selects the inner tuple, second index selects the element within it.",
+        "answer": "<code>(3, 4)</code><br><code>3</code><br><code>6</code>",
+        "explanation": "<code>nested[1]</code> is the second inner tuple: (3, 4). <code>nested[1][0]</code> is the first element of that: 3. <code>nested[-1][-1]</code> is the last element of the last tuple: 6."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>t = (1, [2, 3], 4)\nt[1].append(5)\nprint(t)</code></pre>",
+        "hint": "The tuple is immutable, but the list inside it is mutable.",
+        "answer": "<code>(1, [2, 3, 5], 4)</code>",
+        "explanation": "The tuple prevents reassigning <code>t[1]</code> to a new object. But <code>t[1]</code> is a list, and lists are mutable. Calling <code>t[1].append(5)</code> modifies the list in place. The tuple still holds the same list object, but that object's contents have changed."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>t = (0,) * 4\nprint(t)\nprint(type(t))\nprint(len(t))</code></pre>",
+        "hint": "The * operator repeats the tuple. (0,) is a single-element tuple.",
+        "answer": "<code>(0, 0, 0, 0)</code><br><code>&lt;class 'tuple'&gt;</code><br><code>4</code>",
+        "explanation": "<code>(0,) * 4</code> repeats the single-element tuple (0,) four times, producing (0, 0, 0, 0). It is still a tuple with 4 elements."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = (1, 2, 3)\nb = (1, 2, 3)\nprint(a == b)\nprint(a is b)</code></pre>",
+        "hint": "== checks value equality. 'is' checks identity (same object in memory).",
+        "answer": "<code>True</code><br><code>True</code>",
+        "explanation": "<code>a == b</code> is True because both tuples have the same elements. <code>a is b</code> is also True in CPython because of tuple interning: Python may reuse the same object for identical small tuples as an optimization. However, this behavior is an implementation detail and should not be relied upon."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>t = (3, 1, 4, 1, 5, 9)\nprint(sorted(t))\nprint(type(sorted(t)))\nprint(t)</code></pre>",
+        "hint": "sorted() works on tuples but returns a list. The original tuple is unchanged.",
+        "answer": "<code>[1, 1, 3, 4, 5, 9]</code><br><code>&lt;class 'list'&gt;</code><br><code>(3, 1, 4, 1, 5, 9)</code>",
+        "explanation": "<code>sorted()</code> can accept any iterable, including tuples. It returns a <strong>list</strong>, not a tuple. The original tuple is unchanged because tuples are immutable. To get a sorted tuple, wrap it: <code>tuple(sorted(t))</code>."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>t = (10, 20, 30)\nprint(max(t))\nprint(min(t))\nprint(sum(t))</code></pre>",
+        "hint": "max(), min(), and sum() work with tuples just like with lists.",
+        "answer": "<code>30</code><br><code>10</code><br><code>60</code>",
+        "explanation": "<code>max()</code> returns 30, <code>min()</code> returns 10, <code>sum()</code> returns 60 (10+20+30). These built-in functions work with any iterable, including tuples."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>t = tuple(\"hello\")\nprint(t)</code></pre>",
+        "hint": "tuple() converts an iterable to a tuple. A string is iterable character by character.",
+        "answer": "<code>('h', 'e', 'l', 'l', 'o')</code>",
+        "explanation": "<code>tuple(\"hello\")</code> converts the string into a tuple of individual characters, just like <code>list(\"hello\")</code> creates a list of characters."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>students = [(\"Aarav\", 90), (\"Priya\", 95), (\"Rohan\", 88)]\nfor name, marks in students:\n    print(f\"{name}: {marks}\")</code></pre>",
+        "hint": "Each element of the list is a tuple that gets unpacked in the for loop.",
+        "answer": "<code>Aarav: 90</code><br><code>Priya: 95</code><br><code>Rohan: 88</code>",
+        "explanation": "The list contains tuples. In each iteration, the tuple is unpacked into <code>name</code> and <code>marks</code>. This is a very common pattern for iterating over structured data."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>t = (1, 2, 3)\nlst = list(t)\nlst.append(4)\nt2 = tuple(lst)\nprint(t)\nprint(t2)</code></pre>",
+        "hint": "Convert tuple to list, modify, convert back. The original tuple is unchanged.",
+        "answer": "<code>(1, 2, 3)</code><br><code>(1, 2, 3, 4)</code>",
+        "explanation": "Converting to list, appending 4, and converting back creates a new tuple (1, 2, 3, 4). The original tuple t remains (1, 2, 3) because tuples are immutable."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {(0, 0): \"origin\", (1, 0): \"right\"}\nprint(d[(0, 0)])\nprint((1, 0) in d)</code></pre>",
+        "hint": "Tuples can be dictionary keys. 'in' checks if a key exists.",
+        "answer": "<code>origin</code><br><code>True</code>",
+        "explanation": "Tuples work as dictionary keys because they are hashable. <code>d[(0, 0)]</code> retrieves the value \"origin\". <code>(1, 0) in d</code> checks if the key exists and returns True."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a, b, c = 10, 20, 30\na, b, c = c, a, b\nprint(a, b, c)</code></pre>",
+        "hint": "The right side is evaluated first (creating a tuple), then unpacked into the left side.",
+        "answer": "<code>30 10 20</code>",
+        "explanation": "First, <code>a, b, c = 10, 20, 30</code>. Then <code>c, a, b</code> evaluates to (30, 10, 20) using the CURRENT values. This tuple is then unpacked: a=30, b=10, c=20."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why can tuples be used as dictionary keys but lists cannot?",
+        "hint": "Think about what property dictionary keys must have.",
+        "answer": "Dictionary keys must be <strong>hashable</strong> (able to produce a fixed hash value). Tuples are hashable because they are immutable — their content never changes, so their hash value stays constant. Lists are mutable, meaning their content can change, which would invalidate their hash value. Python therefore prohibits using lists as dictionary keys.",
+        "explanation": "A dictionary uses hash values to quickly locate keys. If a key's hash changed (because the key was modified), the dictionary would not be able to find it again. Immutable types (int, str, tuple) have stable hash values. Mutable types (list, dict, set) do not. Note: a tuple containing a list is also not hashable."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use a tuple instead of a list? Give three scenarios.",
+        "hint": "Think about immutability, dictionary keys, and function return values.",
+        "answer": "<strong>1. Fixed data:</strong> Coordinates (x, y), RGB colors (255, 128, 0), database records — data that should not change.<br><strong>2. Dictionary keys:</strong> When you need a composite key like (row, col) or (first_name, last_name).<br><strong>3. Function return values:</strong> Functions that return multiple values use tuple packing (return a, b, c). The caller unpacks with x, y, z = func().",
+        "explanation": "Tuples communicate intent: this data is fixed. They also enable dictionary key usage, are slightly faster than lists, and protect data from accidental modification. Lists are better when the collection needs to grow, shrink, or be sorted."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>t1 = (1, 2, [3, 4])\ntry:\n    hash(t1)\nexcept TypeError as e:\n    print(\"Error:\", e)</code></pre>",
+        "hint": "A tuple is hashable only if ALL its elements are hashable.",
+        "answer": "<code>Error: unhashable type: 'list'</code>",
+        "explanation": "A tuple containing a mutable (unhashable) element like a list is itself not hashable. <code>hash()</code> fails with a TypeError because the list [3, 4] inside the tuple is not hashable. This tuple cannot be used as a dictionary key."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>t = (1, 2, 3)\nprint(t * 2)\nprint(t + (4,))\nprint(t)</code></pre>",
+        "hint": "* repeats, + concatenates. Both create new tuples. The original is unchanged.",
+        "answer": "<code>(1, 2, 3, 1, 2, 3)</code><br><code>(1, 2, 3, 4)</code><br><code>(1, 2, 3)</code>",
+        "explanation": "<code>t * 2</code> creates a new tuple by repeating t twice. <code>t + (4,)</code> creates a new tuple by appending 4. The original tuple t is unchanged because tuples are immutable. Note <code>(4,)</code> needs the comma to be a tuple."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which of the following creates a tuple?",
+        "options": [
+          "[1, 2, 3]",
+          "(1, 2, 3)",
+          "{1, 2, 3}",
+          "{1: 2, 3: 4}"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Parentheses <code>(1, 2, 3)</code> create a tuple. Square brackets (A) create a list. Curly braces with values (C) create a set. Curly braces with key:value pairs (D) create a dictionary."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What is the type of (42)?",
+        "options": [
+          "tuple",
+          "int",
+          "list",
+          "str"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>(42)</code> is just the integer 42 in parentheses. The parentheses are treated as grouping, not as tuple creation. To make it a single-element tuple, use <code>(42,)</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "How many methods do tuples have?",
+        "options": [
+          "0",
+          "2",
+          "5",
+          "Same as lists"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Tuples have exactly 2 methods: <code>count()</code> and <code>index()</code>. They lack all modifying methods (append, remove, sort, reverse, etc.) because they are immutable."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does a, b = b, a do?",
+        "options": [
+          "Creates two tuples",
+          "Swaps the values of a and b",
+          "Assigns b to both a and b",
+          "Raises an error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The right side <code>b, a</code> creates a tuple of current values. Then tuple unpacking assigns them: a gets b's old value, b gets a's old value. This swaps the variables in one line."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Can tuples be used as dictionary keys?",
+        "options": [
+          "No, only strings can be keys",
+          "Yes, because tuples are immutable",
+          "Yes, but only tuples with integers",
+          "No, because tuples are sequences"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Tuples are immutable and therefore hashable, so they can be dictionary keys. Any immutable type (int, str, tuple of immutables) can be a key. Option C is wrong: tuples with strings can also be keys."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of tuple('abc')?",
+        "options": [
+          "('abc',)",
+          "('a', 'b', 'c')",
+          "'abc'",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>tuple()</code> converts an iterable to a tuple. A string iterates character by character, so <code>tuple('abc')</code> produces ('a', 'b', 'c'). Option A would require <code>('abc',)</code> literal syntax."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does extended unpacking with * always produce?",
+        "options": [
+          "A tuple",
+          "A list",
+          "A set",
+          "Depends on the input type"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Extended unpacking with <code>*</code> always produces a <strong>list</strong>, even when unpacking a tuple. <code>first, *rest = (1, 2, 3)</code> gives <code>rest = [2, 3]</code> (a list, not a tuple)."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens when you try to sort a tuple using .sort()?",
+        "options": [
+          "The tuple gets sorted",
+          "A new sorted tuple is returned",
+          "AttributeError: tuple has no sort method",
+          "TypeError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Tuples do not have a <code>.sort()</code> method because they are immutable. Calling <code>t.sort()</code> raises <code>AttributeError</code>. Use <code>sorted(t)</code> to get a sorted list from a tuple."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Is (1, [2, 3]) hashable?",
+        "options": [
+          "Yes, all tuples are hashable",
+          "No, because it contains a list",
+          "Yes, but only in Python 3.9+",
+          "It depends on the Python implementation"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A tuple is hashable only if ALL its elements are hashable. Since [2, 3] is a list (unhashable), the entire tuple becomes unhashable. This tuple cannot be used as a dictionary key."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of (1, 2, 3) == [1, 2, 3]?",
+        "options": [
+          "True",
+          "False",
+          "TypeError",
+          "None"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A tuple and a list are different types, so they are never equal even if they contain the same elements. <code>(1, 2, 3) == [1, 2, 3]</code> is False."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of (1, 2) + 3?",
+        "options": [
+          "(1, 2, 3)",
+          "(4, 5)",
+          "TypeError",
+          "(1, 2, (3,))"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> You can only concatenate a tuple with another tuple. <code>(1, 2) + 3</code> tries to add a tuple and an integer, which raises <code>TypeError: can only concatenate tuple (not \"int\") to tuple</code>. The correct way is <code>(1, 2) + (3,)</code>."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What does sorted() return when given a tuple?",
+        "options": [
+          "A sorted tuple",
+          "A sorted list",
+          "None",
+          "TypeError"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>sorted()</code> always returns a <strong>list</strong>, regardless of the input type. <code>sorted((3, 1, 2))</code> returns <code>[1, 2, 3]</code> (a list). To get a sorted tuple, wrap it: <code>tuple(sorted(t))</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of (1, 2, 3) > (1, 2, 2)?",
+        "options": [
+          "True",
+          "False",
+          "TypeError",
+          "None"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Tuples are compared element by element (lexicographic comparison). First elements are equal (1 == 1). Second elements are equal (2 == 2). Third elements: 3 > 2, so the first tuple is greater. Result: True."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the result of bool(()) and bool((0,))?",
+        "options": [
+          "False and False",
+          "True and True",
+          "False and True",
+          "True and False"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> An empty tuple <code>()</code> is falsy, so <code>bool(())</code> is False. A non-empty tuple <code>(0,)</code> is truthy even though it contains zero, so <code>bool((0,))</code> is True. Truthiness depends on whether the container is empty, not on its contents."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Easy",
+        "question": "Which is the correct way to create a single-element tuple containing 5?",
+        "options": [
+          "(5)",
+          "[5]",
+          "(5,)",
+          "tuple(5)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>(5,)</code> creates a single-element tuple. <code>(5)</code> (A) is just the integer 5. <code>[5]</code> (B) is a list. <code>tuple(5)</code> (D) raises TypeError because integers are not iterable."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Find Min and Max Without Built-ins",
+        "difficulty": "Easy",
+        "description": "Given the tuple (45, 12, 78, 34, 56, 89, 23), write a program that finds and prints the minimum and maximum values without using min() or max().",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Min: 12\nMax: 89",
+        "constraints": "Use a for loop. Do not use min() or max().",
+        "solution": "nums = (45, 12, 78, 34, 56, 89, 23)\nmin_val = nums[0]\nmax_val = nums[0]\nfor num in nums:\n    if num < min_val:\n        min_val = num\n    if num > max_val:\n        max_val = num\nprint(\"Min:\", min_val)\nprint(\"Max:\", max_val)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Count Element Types",
+        "difficulty": "Easy",
+        "description": "Given the tuple (1, 'hello', 3.14, True, 'world', 42, 2.5, False), write a program that counts how many integers, strings, floats, and booleans it contains. Note: in Python, bool is a subclass of int, so check for bool first.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Booleans: 2\nIntegers: 2\nFloats: 2\nStrings: 2",
+        "constraints": "Use isinstance(). Check for bool before int.",
+        "solution": "data = (1, 'hello', 3.14, True, 'world', 42, 2.5, False)\nbools = ints = floats = strs = 0\nfor item in data:\n    if isinstance(item, bool):\n        bools += 1\n    elif isinstance(item, int):\n        ints += 1\n    elif isinstance(item, float):\n        floats += 1\n    elif isinstance(item, str):\n        strs += 1\nprint(f\"Booleans: {bools}\")\nprint(f\"Integers: {ints}\")\nprint(f\"Floats: {floats}\")\nprint(f\"Strings: {strs}\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Rotate a Tuple",
+        "difficulty": "Easy",
+        "description": "Write a program that rotates the tuple (1, 2, 3, 4, 5) to the right by 2 positions, so the result is (4, 5, 1, 2, 3).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(4, 5, 1, 2, 3)",
+        "constraints": "Use slicing. Do not convert to a list.",
+        "solution": "t = (1, 2, 3, 4, 5)\nk = 2\nrotated = t[-k:] + t[:-k]\nprint(rotated)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Tuple to Dictionary",
+        "difficulty": "Medium",
+        "description": "Priya has two tuples: keys = ('name', 'age', 'grade') and values = ('Priya', 16, 'A'). Write a program that combines them into a dictionary and prints it.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'name': 'Priya', 'age': 16, 'grade': 'A'}",
+        "constraints": "Use zip() and dict(), or a loop.",
+        "solution": "keys = ('name', 'age', 'grade')\nvalues = ('Priya', 16, 'A')\nresult = dict(zip(keys, values))\nprint(result)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Sort a List of Tuples by Second Element",
+        "difficulty": "Medium",
+        "description": "Given the list of tuples [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 78), (\"Meera\", 95)], write a program that sorts them by marks (second element) in descending order and prints the sorted list.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[('Meera', 95), ('Priya', 92), ('Aarav', 85), ('Rohan', 78)]",
+        "constraints": "Use sorted() with a key parameter.",
+        "solution": "students = [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 78), (\"Meera\", 95)]\nsorted_students = sorted(students, key=lambda x: x[1], reverse=True)\nprint(sorted_students)"
+      },
+      {
+        "id": "cc-6",
+        "title": "Find Common Elements in Two Tuples",
+        "difficulty": "Medium",
+        "description": "Given t1 = (1, 2, 3, 4, 5) and t2 = (3, 4, 5, 6, 7), write a program that finds and prints the common elements as a tuple, preserving order from t1.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(3, 4, 5)",
+        "constraints": "Use a loop or tuple comprehension (generator expression with tuple()).",
+        "solution": "t1 = (1, 2, 3, 4, 5)\nt2 = (3, 4, 5, 6, 7)\ncommon = tuple(x for x in t1 if x in t2)\nprint(common)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Named Tuple Student Records",
+        "difficulty": "Hard",
+        "description": "Create a named tuple called Student with fields 'name', 'age', and 'marks'. Create three students: Aarav (16, 90), Priya (15, 95), Rohan (16, 88). Print the student with the highest marks.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Top student: Priya with 95 marks",
+        "constraints": "Use collections.namedtuple. Use max() with a key.",
+        "solution": "from collections import namedtuple\n\nStudent = namedtuple('Student', ['name', 'age', 'marks'])\nstudents = [\n    Student('Aarav', 16, 90),\n    Student('Priya', 15, 95),\n    Student('Rohan', 16, 88)\n]\ntop = max(students, key=lambda s: s.marks)\nprint(f\"Top student: {top.name} with {top.marks} marks\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Flatten Nested Tuples",
+        "difficulty": "Hard",
+        "description": "Write a program that flattens the nested tuple ((1, 2), (3, 4, 5), (6,), (7, 8, 9, 10)) into a single flat tuple.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)",
+        "constraints": "Use a loop or generator expression. Do not use external libraries.",
+        "solution": "nested = ((1, 2), (3, 4, 5), (6,), (7, 8, 9, 10))\nflat = tuple(item for inner in nested for item in inner)\nprint(flat)"
+      },
+      {
+        "id": "cc-9",
+        "title": "Coordinate Distance Calculator",
+        "difficulty": "Hard",
+        "description": "Given two coordinate tuples p1 = (3, 4) and p2 = (7, 1), write a program that calculates and prints the Euclidean distance between them. Use the formula: sqrt((x2-x1)^2 + (y2-y1)^2). Round to 2 decimal places.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Distance: 5.0",
+        "constraints": "Use tuple unpacking. Import math for sqrt.",
+        "solution": "import math\np1 = (3, 4)\np2 = (7, 1)\nx1, y1 = p1\nx2, y2 = p2\ndistance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)\nprint(f\"Distance: {distance:.1f}\")"
+      }
+    ]
+  }
+}

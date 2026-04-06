@@ -1,0 +1,741 @@
+{
+  "title": "Dictionaries in Python",
+  "slug": "dictionaries-in-python",
+  "language": "python",
+  "chapter": 14,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 62,
+  "seo": {
+    "title": "Dictionaries in Python - Dict Methods, Key-Value Pairs, Comprehension | Modern Age Coders",
+    "description": "Learn Python dictionaries including dict methods, key-value pairs, .get() vs [], nested dictionaries, dictionary comprehension, and common patterns. Includes 62+ practice questions with output prediction and coding challenges.",
+    "keywords": "python dictionary, dict methods python, key value pairs python, python dictionary tutorial, python dict comprehension, python nested dictionary, python dict get, python dictionary methods, python dictionary examples, python dictionary operations"
+  },
+  "content": {
+    "what": "<h2>What Are Dictionaries in Python?</h2><p>A <strong>dictionary</strong> is an unordered (in Python < 3.7) or insertion-ordered (Python 3.7+) collection of <strong>key-value pairs</strong>. Each key maps to a value, like a real dictionary where a word (key) maps to its definition (value).</p><p>Dictionaries are defined using curly braces <code>{}</code> with <code>key: value</code> pairs separated by commas:</p><pre><code>student = {\n    \"name\": \"Aarav\",\n    \"age\": 16,\n    \"grade\": \"A\"\n}</code></pre><p>Keys must be <strong>immutable</strong> and <strong>unique</strong> (strings, numbers, tuples). Values can be any type and can be duplicated. Dictionaries provide <strong>O(1) average-time</strong> lookups, making them extremely fast for searching by key.</p><h3>Creating Dictionaries</h3><pre><code>empty = {}                              # Empty dictionary\nempty2 = dict()                         # Also empty dictionary\nstudent = {\"name\": \"Priya\", \"age\": 15}  # Literal syntax\nfrom_pairs = dict(name=\"Rohan\", age=16) # Keyword arguments\nfrom_tuples = dict([(\"a\", 1), (\"b\", 2)]) # From list of tuples</code></pre>",
+    "why": "<h2>Why Are Dictionaries Important?</h2><p>Dictionaries are one of the most powerful and frequently used data structures in Python. Here is why:</p><h3>1. Fast Lookups by Key</h3><p>When you have a student roll number and need their name, a list would require searching through every element. A dictionary gives you the answer instantly using the key. With thousands or millions of entries, this speed difference is enormous.</p><h3>2. Natural Representation of Real-World Data</h3><p>Most real-world data is key-value: a person's name maps to their phone number, a product ID maps to its price, a country maps to its capital. Dictionaries model these relationships directly and intuitively.</p><h3>3. Foundation of JSON and APIs</h3><p>JSON (JavaScript Object Notation), the most common data format on the web, is essentially a nested dictionary structure. When you work with web APIs, you receive and send dictionaries. Python's <code>json</code> module converts between JSON strings and dictionaries seamlessly.</p><h3>4. Counting and Grouping</h3><p>Dictionaries are the standard tool for counting occurrences (word frequency, character counts) and grouping data (students by grade, products by category). These are among the most common programming tasks.</p><h3>5. Configuration and Settings</h3><p>Application settings, configuration files, environment variables — all are naturally represented as dictionaries. Frameworks like Django and Flask use dictionaries extensively for settings, request data, and template contexts.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Accessing Values: [] vs .get()</h3><p>There are two ways to access a value by key:</p><p><strong>Square bracket notation:</strong> <code>dict[key]</code> returns the value if the key exists. Raises <code>KeyError</code> if the key does not exist.</p><p><strong>.get() method:</strong> <code>dict.get(key)</code> returns the value if the key exists. Returns <code>None</code> (or a specified default) if the key does not exist. Never raises an error.</p><pre><code>student = {\"name\": \"Aarav\", \"age\": 16}\nprint(student[\"name\"])         # \"Aarav\"\nprint(student.get(\"name\"))     # \"Aarav\"\nprint(student.get(\"grade\"))    # None (no error)\nprint(student.get(\"grade\", \"N/A\"))  # \"N/A\" (custom default)\n# student[\"grade\"]  would raise KeyError</code></pre><p>Use <code>[]</code> when you are certain the key exists (and want an error if it does not). Use <code>.get()</code> when the key might not exist and you want a safe fallback.</p><h3>2. Adding and Updating Keys</h3><p>Simply assign a value to a key. If the key exists, it is updated. If it does not exist, it is created:</p><pre><code>d = {\"a\": 1}\nd[\"b\"] = 2      # Add new key\nd[\"a\"] = 10     # Update existing key\n# d is now {\"a\": 10, \"b\": 2}</code></pre><h3>3. Deleting Keys</h3><p><code>del dict[key]</code> removes the key-value pair. Raises KeyError if the key does not exist.</p><p><code>dict.pop(key)</code> removes and returns the value. Raises KeyError if not found (unless a default is provided).</p><p><code>dict.pop(key, default)</code> returns default instead of raising an error.</p><p><code>dict.popitem()</code> removes and returns the last inserted key-value pair (Python 3.7+).</p><p><code>dict.clear()</code> removes all key-value pairs.</p><h3>4. Dictionary Methods</h3><h4>View Methods</h4><p><code>keys()</code> returns a view of all keys. <code>values()</code> returns a view of all values. <code>items()</code> returns a view of all key-value pairs as tuples. These views are dynamic: they reflect changes to the dictionary.</p><h4>update()</h4><p><code>dict.update(other_dict)</code> adds all key-value pairs from <code>other_dict</code>. Existing keys are overwritten.</p><h4>setdefault()</h4><p><code>dict.setdefault(key, default)</code> returns the value if the key exists. If the key does not exist, it inserts the key with the default value and returns the default.</p><h4>fromkeys()</h4><p><code>dict.fromkeys(iterable, value)</code> creates a new dictionary with keys from the iterable, all set to the same value.</p><h3>5. Looping Over Dictionaries</h3><p>There are several ways to iterate:</p><pre><code>d = {\"name\": \"Aarav\", \"age\": 16}\n\n# Loop over keys (default)\nfor key in d:\n    print(key)\n\n# Loop over values\nfor value in d.values():\n    print(value)\n\n# Loop over key-value pairs\nfor key, value in d.items():\n    print(f\"{key}: {value}\")</code></pre><p>Iterating with <code>.items()</code> is the most common pattern because you usually need both the key and the value.</p><h3>6. Nested Dictionaries</h3><p>A dictionary can contain other dictionaries as values, creating a hierarchical structure:</p><pre><code>school = {\n    \"student1\": {\"name\": \"Aarav\", \"marks\": 90},\n    \"student2\": {\"name\": \"Priya\", \"marks\": 95}\n}\nprint(school[\"student1\"][\"name\"])  # \"Aarav\"</code></pre><p>Nested dictionaries are common for representing structured data like JSON responses, configuration files, and database records.</p><h3>7. Dictionary Comprehension</h3><p>Similar to list comprehension, dictionary comprehension creates dictionaries in a single expression:</p><pre><code>{key_expr: value_expr for item in iterable}\n{key_expr: value_expr for item in iterable if condition}</code></pre><p>Examples:</p><pre><code>squares = {x: x**2 for x in range(1, 6)}\n# {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\n\neven_squares = {x: x**2 for x in range(1, 11) if x % 2 == 0}\n# {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}</code></pre><h3>8. Checking Key Existence</h3><p>Use the <code>in</code> operator to check if a key exists:</p><pre><code>d = {\"name\": \"Aarav\", \"age\": 16}\nprint(\"name\" in d)     # True\nprint(\"grade\" in d)    # False\nprint(\"Aarav\" in d)    # False (checks keys, not values)</code></pre><p>The <code>in</code> operator checks <strong>keys</strong>, not values. To check values, use <code>value in d.values()</code>.</p><h3>9. Dictionary Ordering (Python 3.7+)</h3><p>Since Python 3.7, dictionaries maintain <strong>insertion order</strong>. Items are iterated in the order they were added. In older versions of Python, dictionaries were unordered.</p><h3>10. Merging Dictionaries</h3><p>There are multiple ways to merge dictionaries:</p><pre><code># Method 1: update() (modifies in place)\na = {\"x\": 1}\na.update({\"y\": 2})\n\n# Method 2: Unpacking (Python 3.5+)\nc = {**a, **b}  # Creates a new dict\n\n# Method 3: | operator (Python 3.9+)\nc = a | b       # Creates a new dict\na |= b          # Updates a in place</code></pre><p>When keys overlap, the rightmost dictionary's values win.</p><h3>11. Common Patterns</h3><h4>Counting</h4><pre><code>text = \"banana\"\ncount = {}\nfor ch in text:\n    count[ch] = count.get(ch, 0) + 1\n# {\"b\": 1, \"a\": 3, \"n\": 2}</code></pre><h4>Grouping</h4><pre><code>students = [(\"Aarav\", \"A\"), (\"Priya\", \"B\"), (\"Rohan\", \"A\")]\ngroups = {}\nfor name, grade in students:\n    groups.setdefault(grade, []).append(name)\n# {\"A\": [\"Aarav\", \"Rohan\"], \"B\": [\"Priya\"]}</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Creating and Accessing Dictionaries",
+        "code": "# Creating a dictionary\nstudent = {\n    \"name\": \"Aarav\",\n    \"age\": 16,\n    \"grade\": \"A\",\n    \"subjects\": [\"Maths\", \"Science\"]\n}\n\n# Accessing with []\nprint(student[\"name\"])\nprint(student[\"subjects\"])\n\n# Accessing with .get() (safe)\nprint(student.get(\"age\"))\nprint(student.get(\"phone\"))         # None\nprint(student.get(\"phone\", \"N/A\"))  # \"N/A\"\n\n# What happens with missing key and []\ntry:\n    print(student[\"phone\"])\nexcept KeyError as e:\n    print(f\"KeyError: {e}\")",
+        "language": "python",
+        "explanation": "Square brackets <code>[]</code> raise a KeyError if the key is missing. <code>.get()</code> returns None (or a custom default) without raising an error. Use <code>.get()</code> when you are unsure if the key exists.",
+        "output": "Aarav\n['Maths', 'Science']\n16\nNone\nN/A\nKeyError: 'phone'"
+      },
+      {
+        "title": "Adding, Updating, and Deleting",
+        "code": "d = {\"a\": 1, \"b\": 2, \"c\": 3}\nprint(\"Original:\", d)\n\n# Add new key\nd[\"d\"] = 4\nprint(\"After add:\", d)\n\n# Update existing key\nd[\"a\"] = 10\nprint(\"After update:\", d)\n\n# Delete with del\ndel d[\"b\"]\nprint(\"After del:\", d)\n\n# Delete with pop (returns the value)\nval = d.pop(\"c\")\nprint(f\"Popped: {val}, Dict: {d}\")\n\n# pop with default (no error if missing)\nval = d.pop(\"z\", \"not found\")\nprint(f\"Pop missing key: {val}\")\n\n# popitem (removes last inserted)\nd[\"x\"] = 100\nd[\"y\"] = 200\nitem = d.popitem()\nprint(f\"Popitem: {item}, Dict: {d}\")",
+        "language": "python",
+        "explanation": "Assigning to a key adds it (if new) or updates it (if existing). <code>del</code> removes by key. <code>pop(key)</code> removes and returns the value. <code>pop(key, default)</code> avoids errors for missing keys. <code>popitem()</code> removes the last inserted pair.",
+        "output": "Original: {'a': 1, 'b': 2, 'c': 3}\nAfter add: {'a': 1, 'b': 2, 'c': 3, 'd': 4}\nAfter update: {'a': 10, 'b': 2, 'c': 3, 'd': 4}\nAfter del: {'a': 10, 'c': 3, 'd': 4}\nPopped: 3, Dict: {'a': 10, 'd': 4}\nPop missing key: not found\nPopitem: ('y', 200), Dict: {'a': 10, 'd': 4, 'x': 100}"
+      },
+      {
+        "title": "Dictionary Methods - keys(), values(), items()",
+        "code": "student = {\"name\": \"Priya\", \"age\": 15, \"grade\": \"A+\"}\n\nprint(\"Keys:\", list(student.keys()))\nprint(\"Values:\", list(student.values()))\nprint(\"Items:\", list(student.items()))\n\n# Looping over items (most common pattern)\nprint(\"\\nStudent details:\")\nfor key, value in student.items():\n    print(f\"  {key}: {value}\")\n\n# Checking key existence\nprint(\"\\nHas 'name':\", \"name\" in student)\nprint(\"Has 'phone':\", \"phone\" in student)\nprint(\"Has value 'A+':\", \"A+\" in student.values())",
+        "language": "python",
+        "explanation": "<code>keys()</code>, <code>values()</code>, and <code>items()</code> return view objects. Wrap with <code>list()</code> to see the contents. <code>items()</code> returns key-value tuples, enabling tuple unpacking in a for loop. The <code>in</code> operator checks keys by default; use <code>.values()</code> to check values.",
+        "output": "Keys: ['name', 'age', 'grade']\nValues: ['Priya', 15, 'A+']\nItems: [('name', 'Priya'), ('age', 15), ('grade', 'A+')]\n\nStudent details:\n  name: Priya\n  age: 15\n  grade: A+\n\nHas 'name': True\nHas 'phone': False\nHas value 'A+': True"
+      },
+      {
+        "title": "Dictionary Comprehension",
+        "code": "# Basic comprehension: squares\nsquares = {x: x**2 for x in range(1, 6)}\nprint(\"Squares:\", squares)\n\n# With condition: even squares only\neven_sq = {x: x**2 for x in range(1, 11) if x % 2 == 0}\nprint(\"Even squares:\", even_sq)\n\n# Invert a dictionary (swap keys and values)\noriginal = {\"a\": 1, \"b\": 2, \"c\": 3}\ninverted = {v: k for k, v in original.items()}\nprint(\"Inverted:\", inverted)\n\n# Filter a dictionary\nscores = {\"Aarav\": 90, \"Priya\": 55, \"Rohan\": 78, \"Meera\": 45}\npassed = {name: score for name, score in scores.items() if score >= 60}\nprint(\"Passed:\", passed)",
+        "language": "python",
+        "explanation": "Dictionary comprehension uses <code>{key_expr: value_expr for item in iterable if condition}</code>. It can create new dictionaries, invert existing ones, or filter based on conditions. Like list comprehension, it is a concise alternative to building dictionaries with loops.",
+        "output": "Squares: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\nEven squares: {2: 4, 4: 16, 6: 36, 8: 64, 10: 100}\nInverted: {1: 'a', 2: 'b', 3: 'c'}\nPassed: {'Aarav': 90, 'Rohan': 78}"
+      },
+      {
+        "title": "Nested Dictionaries",
+        "code": "# School records as nested dict\nschool = {\n    \"Aarav\": {\"age\": 16, \"marks\": {\"Maths\": 90, \"Science\": 85}},\n    \"Priya\": {\"age\": 15, \"marks\": {\"Maths\": 95, \"Science\": 92}}\n}\n\n# Accessing nested values\nprint(\"Aarav's Maths marks:\", school[\"Aarav\"][\"marks\"][\"Maths\"])\nprint(\"Priya's age:\", school[\"Priya\"][\"age\"])\n\n# Modifying nested values\nschool[\"Aarav\"][\"marks\"][\"English\"] = 88\nprint(\"\\nAarav's marks:\", school[\"Aarav\"][\"marks\"])\n\n# Looping over nested dict\nprint(\"\\nAll students:\")\nfor name, info in school.items():\n    print(f\"  {name} (age {info['age']}):\")\n    for subject, mark in info[\"marks\"].items():\n        print(f\"    {subject}: {mark}\")",
+        "language": "python",
+        "explanation": "Nested dictionaries store dictionaries inside dictionaries. Access deep values by chaining keys: <code>d[key1][key2][key3]</code>. This is the same structure as JSON. Nested loops are used to iterate through all levels.",
+        "output": "Aarav's Maths marks: 90\nPriya's age: 15\n\nAarav's marks: {'Maths': 90, 'Science': 85, 'English': 88}\n\nAll students:\n  Aarav (age 16):\n    Maths: 90\n    Science: 85\n    English: 88\n  Priya (age 15):\n    Maths: 95\n    Science: 92"
+      },
+      {
+        "title": "Counting and Grouping Patterns",
+        "code": "# Pattern 1: Counting with .get()\ntext = \"mississippi\"\nchar_count = {}\nfor ch in text:\n    char_count[ch] = char_count.get(ch, 0) + 1\nprint(\"Character counts:\", char_count)\n\n# Pattern 2: Grouping with setdefault()\nstudents = [\n    (\"Aarav\", \"Science\"),\n    (\"Priya\", \"Maths\"),\n    (\"Rohan\", \"Science\"),\n    (\"Meera\", \"Maths\"),\n    (\"Vikram\", \"Science\")\n]\nby_subject = {}\nfor name, subject in students:\n    by_subject.setdefault(subject, []).append(name)\nprint(\"\\nGrouped by subject:\", by_subject)\n\n# Pattern 3: Finding max value\nscores = {\"Aarav\": 90, \"Priya\": 95, \"Rohan\": 78}\ntop = max(scores, key=scores.get)\nprint(f\"\\nHighest scorer: {top} with {scores[top]}\")",
+        "language": "python",
+        "explanation": "Counting with <code>.get(key, 0) + 1</code> is the standard pattern for frequency counting. <code>setdefault(key, [])</code> creates an empty list if the key is missing, then appends to it — perfect for grouping. <code>max(dict, key=dict.get)</code> finds the key with the highest value.",
+        "output": "Character counts: {'m': 1, 'i': 4, 's': 4, 'p': 2}\n\nGrouped by subject: {'Science': ['Aarav', 'Rohan', 'Vikram'], 'Maths': ['Priya', 'Meera']}\n\nHighest scorer: Priya with 95"
+      },
+      {
+        "title": "Merging Dictionaries",
+        "code": "d1 = {\"a\": 1, \"b\": 2}\nd2 = {\"b\": 3, \"c\": 4}\n\n# Method 1: update() - modifies d1 in place\nmerged1 = d1.copy()  # Copy first to preserve d1\nmerged1.update(d2)\nprint(\"update():\", merged1)\n\n# Method 2: ** unpacking (Python 3.5+)\nmerged2 = {**d1, **d2}\nprint(\"** unpacking:\", merged2)\n\n# Method 3: | operator (Python 3.9+)\nmerged3 = d1 | d2\nprint(\"| operator:\", merged3)\n\n# Note: when keys overlap, the last value wins\nprint(\"\\nOriginal d1:\", d1)\nprint(\"Original d2:\", d2)\nprint(\"Key 'b' in merge:\", merged2[\"b\"], \"(from d2)\")",
+        "language": "python",
+        "explanation": "All three methods merge dictionaries. When keys overlap, the rightmost dictionary's value wins (d2's value for key 'b'). <code>update()</code> modifies in place. <code>{**d1, **d2}</code> and <code>d1 | d2</code> create new dictionaries. The <code>|</code> operator (Python 3.9+) is the most readable.",
+        "output": "update(): {'a': 1, 'b': 3, 'c': 4}\n** unpacking: {'a': 1, 'b': 3, 'c': 4}\n| operator: {'a': 1, 'b': 3, 'c': 4}\n\nOriginal d1: {'a': 1, 'b': 2}\nOriginal d2: {'b': 3, 'c': 4}\nKey 'b' in merge: 3 (from d2)"
+      },
+      {
+        "title": "setdefault() and fromkeys()",
+        "code": "# setdefault: get value if exists, set and return default if not\nd = {\"name\": \"Aarav\"}\nresult1 = d.setdefault(\"name\", \"Unknown\")\nresult2 = d.setdefault(\"age\", 16)\nprint(f\"Existing key: {result1}\")\nprint(f\"New key: {result2}\")\nprint(f\"Dict after setdefault: {d}\")\n\n# fromkeys: create dict with same value for all keys\nsubjects = [\"Maths\", \"Science\", \"English\"]\ninitial_scores = dict.fromkeys(subjects, 0)\nprint(f\"\\nInitial scores: {initial_scores}\")\n\n# Caution: fromkeys with mutable default\nd2 = dict.fromkeys([\"a\", \"b\"], [])\nd2[\"a\"].append(1)\nprint(f\"\\nfromkeys gotcha: {d2}\")  # Both share same list!",
+        "language": "python",
+        "explanation": "<code>setdefault()</code> is useful for initialization: it only sets the value if the key does not exist. <code>fromkeys()</code> creates a dictionary with specified keys all set to the same value. Warning: with a mutable default (like a list), all keys share the same object, similar to the <code>[[]] * n</code> list gotcha.",
+        "output": "Existing key: Aarav\nNew key: 16\nDict after setdefault: {'name': 'Aarav', 'age': 16}\n\nInitial scores: {'Maths': 0, 'Science': 0, 'English': 0}\n\nfromkeys gotcha: {'a': [1], 'b': [1]}"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using [] Instead of .get() for Optional Keys",
+        "wrongCode": "config = {\"host\": \"localhost\", \"port\": 8080}\ntimeout = config[\"timeout\"]  # KeyError!",
+        "error": "KeyError: 'timeout'",
+        "correctCode": "config = {\"host\": \"localhost\", \"port\": 8080}\ntimeout = config.get(\"timeout\", 30)  # Returns 30 as default\nprint(timeout)",
+        "explanation": "Using <code>[]</code> with a missing key raises a <code>KeyError</code>. Use <code>.get(key, default)</code> when the key might not exist. The default value (30 here) is returned instead of raising an error."
+      },
+      {
+        "title": "Using a Mutable Type (List) as a Dictionary Key",
+        "wrongCode": "d = {}\nd[[1, 2]] = \"value\"  # TypeError!",
+        "error": "TypeError: unhashable type: 'list'",
+        "correctCode": "d = {}\nd[(1, 2)] = \"value\"  # Tuples are hashable\nprint(d)",
+        "explanation": "Dictionary keys must be hashable (immutable). Lists are mutable and therefore not hashable. Convert the list to a tuple first, since tuples are immutable and hashable."
+      },
+      {
+        "title": "Modifying a Dictionary While Iterating",
+        "wrongCode": "d = {\"a\": 1, \"b\": 2, \"c\": 3}\nfor key in d:\n    if d[key] < 3:\n        del d[key]  # RuntimeError!",
+        "error": "RuntimeError: dictionary changed size during iteration",
+        "correctCode": "d = {\"a\": 1, \"b\": 2, \"c\": 3}\nkeys_to_delete = [key for key in d if d[key] < 3]\nfor key in keys_to_delete:\n    del d[key]\nprint(d)  # {'c': 3}",
+        "explanation": "You cannot add or delete keys while iterating over a dictionary. This raises a RuntimeError. Collect the keys to delete first (in a list), then delete them in a separate loop."
+      },
+      {
+        "title": "Assuming 'in' Checks Values (It Checks Keys)",
+        "wrongCode": "d = {\"name\": \"Aarav\", \"age\": 16}\nprint(\"Aarav\" in d)  # False! Checks keys, not values",
+        "error": "No error, but returns False unexpectedly. 'Aarav' is a value, not a key.",
+        "correctCode": "d = {\"name\": \"Aarav\", \"age\": 16}\nprint(\"Aarav\" in d.values())  # True\nprint(\"name\" in d)           # True (checks keys)",
+        "explanation": "The <code>in</code> operator on a dictionary checks <strong>keys</strong>, not values. <code>\"Aarav\" in d</code> is False because \"Aarav\" is not a key. To check values, use <code>\"Aarav\" in d.values()</code>."
+      },
+      {
+        "title": "fromkeys() with Mutable Default Shares the Same Object",
+        "wrongCode": "d = dict.fromkeys([\"a\", \"b\", \"c\"], [])\nd[\"a\"].append(1)\nprint(d)  # {'a': [1], 'b': [1], 'c': [1]} - all changed!",
+        "error": "No error, but all keys share the same list object. Modifying one affects all.",
+        "correctCode": "d = {key: [] for key in [\"a\", \"b\", \"c\"]}\nd[\"a\"].append(1)\nprint(d)  # {'a': [1], 'b': [], 'c': []}",
+        "explanation": "<code>fromkeys()</code> assigns the SAME object to all keys. When that object is mutable (like a list), all keys share it. Use a dictionary comprehension instead, which creates a new list for each key."
+      },
+      {
+        "title": "Overwriting Keys with Duplicate Keys in Literal",
+        "wrongCode": "d = {\"a\": 1, \"b\": 2, \"a\": 3}\nprint(d)  # {'a': 3, 'b': 2} - first 'a' is overwritten!",
+        "error": "No error, but the first 'a': 1 is silently overwritten by 'a': 3.",
+        "correctCode": "# Ensure unique keys\nd = {\"a\": 1, \"b\": 2, \"c\": 3}\nprint(d)",
+        "explanation": "Dictionary keys must be unique. If you define the same key twice in a literal, the last value wins. Python does not warn you about this. Always ensure keys are unique when creating a dictionary."
+      }
+    ],
+    "summary": [
+      "Dictionaries store key-value pairs using curly braces {}. Keys must be immutable and unique. Values can be any type.",
+      "Access values with dict[key] (raises KeyError if missing) or dict.get(key, default) (returns None or a default if missing). Prefer .get() for optional keys.",
+      "Add or update entries by assigning: dict[key] = value. Delete with del dict[key], pop(key), popitem(), or clear().",
+      "keys(), values(), and items() return view objects for iteration. items() is the most common for looping because it provides both key and value.",
+      "The 'in' operator checks keys by default. Use 'in dict.values()' to check values.",
+      "Dictionary comprehension {key: value for item in iterable if condition} creates dictionaries concisely, similar to list comprehension.",
+      "Nested dictionaries store dictionaries as values. Access deep values by chaining keys: dict[key1][key2]. This mirrors JSON structure.",
+      "Since Python 3.7, dictionaries maintain insertion order. Items are iterated in the order they were added.",
+      "Merge dictionaries with update() (in place), {**d1, **d2} (new dict), or d1 | d2 (Python 3.9+). When keys overlap, the last dictionary's values win.",
+      "Common patterns: counting with .get(key, 0) + 1, grouping with setdefault(key, []).append(value), finding max with max(dict, key=dict.get)."
+    ]
+  },
+  "relatedTopics": ["lists-in-python", "sets-in-python"],
+  "practice": {
+    "totalQuestions": 62,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>d = {\"name\": \"Aarav\", \"age\": 16}\nprint(d[\"name\"])\nprint(d[\"age\"])</code></pre>",
+        "hint": "Square brackets access the value associated with a key.",
+        "answer": "<code>Aarav</code><br><code>16</code>",
+        "explanation": "<code>d[\"name\"]</code> returns the value associated with the key \"name\", which is \"Aarav\". <code>d[\"age\"]</code> returns 16."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2}\nd[\"c\"] = 3\nprint(d)\nprint(len(d))</code></pre>",
+        "hint": "Assigning to a new key adds it to the dictionary.",
+        "answer": "<code>{'a': 1, 'b': 2, 'c': 3}</code><br><code>3</code>",
+        "explanation": "<code>d[\"c\"] = 3</code> adds a new key-value pair. The dictionary now has 3 entries. <code>len(d)</code> returns 3."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"x\": 10, \"y\": 20}\nprint(d.get(\"x\"))\nprint(d.get(\"z\"))\nprint(d.get(\"z\", 0))</code></pre>",
+        "hint": ".get() returns None for missing keys unless a default is specified.",
+        "answer": "<code>10</code><br><code>None</code><br><code>0</code>",
+        "explanation": "<code>d.get(\"x\")</code> returns 10 (key exists). <code>d.get(\"z\")</code> returns None (key missing, no default). <code>d.get(\"z\", 0)</code> returns 0 (key missing, default provided)."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"c\": 3}\nprint(\"a\" in d)\nprint(1 in d)\nprint(\"d\" in d)</code></pre>",
+        "hint": "The 'in' operator checks keys, not values.",
+        "answer": "<code>True</code><br><code>False</code><br><code>False</code>",
+        "explanation": "<code>\"a\" in d</code> is True because \"a\" is a key. <code>1 in d</code> is False because 1 is a value, not a key. <code>\"d\" in d</code> is False because there is no key \"d\"."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"c\": 3}\nprint(list(d.keys()))\nprint(list(d.values()))</code></pre>",
+        "hint": "keys() returns all keys. values() returns all values.",
+        "answer": "<code>['a', 'b', 'c']</code><br><code>[1, 2, 3]</code>",
+        "explanation": "<code>d.keys()</code> returns a view of keys. <code>d.values()</code> returns a view of values. Wrapping with <code>list()</code> converts them to lists for display."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2}\nd[\"a\"] = 10\nprint(d)</code></pre>",
+        "hint": "Assigning to an existing key updates its value.",
+        "answer": "<code>{'a': 10, 'b': 2}</code>",
+        "explanation": "<code>d[\"a\"] = 10</code> updates the value of the existing key \"a\" from 1 to 10. The key is not duplicated."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"c\": 3}\nval = d.pop(\"b\")\nprint(val)\nprint(d)</code></pre>",
+        "hint": "pop() removes the key and returns its value.",
+        "answer": "<code>2</code><br><code>{'a': 1, 'c': 3}</code>",
+        "explanation": "<code>d.pop(\"b\")</code> removes the key \"b\" and returns its value (2). The dictionary now has only \"a\" and \"c\"."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2}\nfor key, value in d.items():\n    print(f\"{key} -> {value}\")</code></pre>",
+        "hint": "items() returns key-value pairs as tuples, which can be unpacked.",
+        "answer": "<code>a -> 1</code><br><code>b -> 2</code>",
+        "explanation": "<code>d.items()</code> returns pairs: ('a', 1) and ('b', 2). The for loop unpacks each pair into <code>key</code> and <code>value</code>."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>squares = {x: x**2 for x in range(1, 5)}\nprint(squares)</code></pre>",
+        "hint": "Dictionary comprehension: {key_expr: value_expr for item in iterable}.",
+        "answer": "<code>{1: 1, 2: 4, 3: 9, 4: 16}</code>",
+        "explanation": "The comprehension creates key-value pairs where the key is x and the value is x squared, for x = 1, 2, 3, 4."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d1 = {\"a\": 1, \"b\": 2}\nd2 = {\"b\": 3, \"c\": 4}\nmerged = {**d1, **d2}\nprint(merged)</code></pre>",
+        "hint": "** unpacking merges dictionaries. When keys overlap, the last one wins.",
+        "answer": "<code>{'a': 1, 'b': 3, 'c': 4}</code>",
+        "explanation": "The <code>**</code> operator unpacks both dictionaries. Key \"b\" exists in both, so d2's value (3) overwrites d1's value (2). The result has all unique keys with d2 taking priority for overlaps."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {}\nd.setdefault(\"count\", 0)\nd[\"count\"] += 1\nd.setdefault(\"count\", 0)\nd[\"count\"] += 1\nprint(d)</code></pre>",
+        "hint": "setdefault() only sets the value if the key does not already exist.",
+        "answer": "<code>{'count': 2}</code>",
+        "explanation": "First <code>setdefault(\"count\", 0)</code> creates the key with value 0. Then <code>+= 1</code> makes it 1. Second <code>setdefault</code> does nothing (key already exists). Then <code>+= 1</code> makes it 2."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>school = {\n    \"Aarav\": {\"marks\": 90},\n    \"Priya\": {\"marks\": 95}\n}\nprint(school[\"Priya\"][\"marks\"])</code></pre>",
+        "hint": "Chain keys to access nested dictionary values.",
+        "answer": "<code>95</code>",
+        "explanation": "<code>school[\"Priya\"]</code> returns the inner dictionary <code>{\"marks\": 95}</code>. Then <code>[\"marks\"]</code> accesses the value 95."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>text = \"abba\"\ncount = {}\nfor ch in text:\n    count[ch] = count.get(ch, 0) + 1\nprint(count)</code></pre>",
+        "hint": ".get(ch, 0) returns 0 if the key does not exist, then adds 1.",
+        "answer": "<code>{'a': 2, 'b': 2}</code>",
+        "explanation": "Iteration: 'a' not in count, get returns 0, set to 1. 'b' not in count, set to 1. 'b' in count, get returns 1, set to 2. 'a' in count, get returns 1, set to 2. Result: {'a': 2, 'b': 2}."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"a\": 3}\nprint(d)\nprint(len(d))</code></pre>",
+        "hint": "Dictionary keys must be unique. What happens with duplicate keys in a literal?",
+        "answer": "<code>{'a': 3, 'b': 2}</code><br><code>2</code>",
+        "explanation": "When a dictionary literal has duplicate keys, the last value for that key wins. The first \"a\": 1 is overwritten by \"a\": 3. The dictionary has only 2 keys."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = dict.fromkeys([\"a\", \"b\", \"c\"], [])\nd[\"a\"].append(1)\nprint(d)</code></pre>",
+        "hint": "fromkeys() with a mutable default shares the same object for all keys.",
+        "answer": "<code>{'a': [1], 'b': [1], 'c': [1]}</code>",
+        "explanation": "<code>fromkeys()</code> assigns the SAME list object to all keys. When <code>d[\"a\"].append(1)</code> modifies that list, the change is visible through all keys because they all reference the same list."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"c\": 3}\nfiltered = {k: v for k, v in d.items() if v > 1}\nprint(filtered)</code></pre>",
+        "hint": "Dictionary comprehension with a filter condition.",
+        "answer": "<code>{'b': 2, 'c': 3}</code>",
+        "explanation": "The comprehension includes only key-value pairs where the value is greater than 1. 'a': 1 is excluded. 'b': 2 and 'c': 3 pass the filter."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = {\"x\": 10, \"y\": 20, \"z\": 30}\nresult = max(d, key=d.get)\nprint(result)\nprint(d[result])</code></pre>",
+        "hint": "max(dict, key=dict.get) finds the key with the highest value.",
+        "answer": "<code>z</code><br><code>30</code>",
+        "explanation": "<code>max(d, key=d.get)</code> iterates over the keys and uses <code>d.get</code> to determine the \"size\" of each key. The key with the highest value is \"z\" (30)."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"name\": \"Rohan\"}\nd[\"name\"] = \"Vikram\"\nprint(d)</code></pre>",
+        "hint": "Assigning to an existing key updates its value.",
+        "answer": "<code>{'name': 'Vikram'}</code>",
+        "explanation": "The key \"name\" already exists, so <code>d[\"name\"] = \"Vikram\"</code> updates its value from \"Rohan\" to \"Vikram\"."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2}\nd.clear()\nprint(d)\nprint(type(d))</code></pre>",
+        "hint": "clear() removes all key-value pairs but the dictionary object remains.",
+        "answer": "<code>{}</code><br><code>&lt;class 'dict'&gt;</code>",
+        "explanation": "<code>clear()</code> removes all entries, leaving an empty dictionary. The variable still refers to a dict object."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>d = {1: \"one\", 2: \"two\", 3: \"three\"}\nprint(d[2])\nprint(list(d.keys()))</code></pre>",
+        "hint": "Dictionary keys can be integers, not just strings.",
+        "answer": "<code>two</code><br><code>[1, 2, 3]</code>",
+        "explanation": "Integer keys work fine. <code>d[2]</code> returns \"two\". <code>list(d.keys())</code> returns all keys as a list: [1, 2, 3]."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2}\nd.update({\"b\": 20, \"c\": 30})\nprint(d)</code></pre>",
+        "hint": "update() adds new keys and overwrites existing ones.",
+        "answer": "<code>{'a': 1, 'b': 20, 'c': 30}</code>",
+        "explanation": "<code>update()</code> merges the given dictionary into d. Key \"b\" exists, so its value is updated from 2 to 20. Key \"c\" is new, so it is added."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d = {\"a\": 1, \"b\": 2, \"c\": 3}\nresult = d.pop(\"b\", \"not found\")\nresult2 = d.pop(\"z\", \"not found\")\nprint(result)\nprint(result2)\nprint(d)</code></pre>",
+        "hint": "pop(key, default) removes and returns the value, or returns default if key is missing.",
+        "answer": "<code>2</code><br><code>not found</code><br><code>{'a': 1, 'c': 3}</code>",
+        "explanation": "<code>pop(\"b\", \"not found\")</code> removes key \"b\" and returns 2. <code>pop(\"z\", \"not found\")</code> does not find \"z\", so returns the default \"not found\" without error."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>original = {\"a\": 1, \"b\": 2}\ninverted = {v: k for k, v in original.items()}\nprint(inverted)</code></pre>",
+        "hint": "Dictionary comprehension can swap keys and values.",
+        "answer": "<code>{1: 'a', 2: 'b'}</code>",
+        "explanation": "The comprehension iterates over items, creating new entries with the value as key and key as value. This inverts the dictionary."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>d1 = {\"a\": 1}\nd2 = d1\nd2[\"b\"] = 2\nprint(d1)\nprint(d1 is d2)</code></pre>",
+        "hint": "d2 = d1 creates an alias, not a copy. Same as with lists.",
+        "answer": "<code>{'a': 1, 'b': 2}</code><br><code>True</code>",
+        "explanation": "Like lists, <code>d2 = d1</code> makes both variables reference the same dictionary. Adding \"b\" through d2 also affects d1. <code>d1 is d2</code> confirms they are the same object."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>data = [{\"name\": \"Aarav\", \"marks\": 90},\n        {\"name\": \"Priya\", \"marks\": 95},\n        {\"name\": \"Rohan\", \"marks\": 78}]\ntop = max(data, key=lambda x: x[\"marks\"])\nprint(top[\"name\"])</code></pre>",
+        "hint": "max() with a key function can find the dict with the highest value for a specific key.",
+        "answer": "<code>Priya</code>",
+        "explanation": "<code>max(data, key=lambda x: x[\"marks\"])</code> finds the dictionary with the highest \"marks\" value. Priya has 95, which is the highest. The result is her entire dictionary, and <code>[\"name\"]</code> extracts her name."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>dict[key]</code> and <code>dict.get(key)</code> when the key does not exist?",
+        "hint": "One raises an error, the other returns a default value.",
+        "answer": "<code>dict[key]</code> raises a <strong>KeyError</strong> when the key does not exist. <code>dict.get(key)</code> returns <strong>None</strong> (or a custom default if specified: <code>dict.get(key, default)</code>) without raising an error.",
+        "explanation": "Use <code>[]</code> when the key should always exist and its absence indicates a bug. Use <code>.get()</code> when the key might be missing and you want a safe fallback. <code>.get()</code> is especially useful for optional configuration values and user input."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why does <code>in</code> check keys and not values in a dictionary? How do you check if a value exists?",
+        "hint": "Think about the purpose of dictionaries and what operation is most common.",
+        "answer": "Dictionaries are optimized for key-based access. Checking if a key exists is O(1) (constant time) because of hashing. Checking values would require O(n) linear search. Since key lookup is the primary use case, <code>in</code> defaults to checking keys. To check values, use <code>value in dict.values()</code>.",
+        "explanation": "The design choice reflects performance: key lookup is fast (hash-based), value lookup is slow (must scan all values). By defaulting to keys, <code>in</code> provides the fast path. You can still check values explicitly with <code>.values()</code>."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = {}\nfor ch in \"hello world\":\n    if ch != \" \":\n        d[ch] = d.get(ch, 0) + 1\nprint(d)\nprint(d[\"l\"])</code></pre>",
+        "hint": "This counts character frequency, skipping spaces.",
+        "answer": "<code>{'h': 1, 'e': 1, 'l': 3, 'o': 2, 'w': 1, 'r': 1, 'd': 1}</code><br><code>3</code>",
+        "explanation": "The loop counts each non-space character. 'l' appears in \"hello\" (2 times) and \"world\" (1 time) for a total of 3. <code>d[\"l\"]</code> returns 3."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>d = {\"a\": [1, 2], \"b\": [3, 4]}\ncopy = d.copy()\ncopy[\"a\"].append(99)\nprint(d)\nprint(copy)</code></pre>",
+        "hint": "dict.copy() is a shallow copy. Nested mutable objects are still shared.",
+        "answer": "<code>{'a': [1, 2, 99], 'b': [3, 4]}</code><br><code>{'a': [1, 2, 99], 'b': [3, 4]}</code>",
+        "explanation": "<code>.copy()</code> creates a shallow copy of the dictionary. The outer dict is new, but the inner lists are the same objects. Appending 99 to <code>copy[\"a\"]</code> also affects <code>d[\"a\"]</code> because they reference the same list."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which of the following creates an empty dictionary?",
+        "options": [
+          "d = []",
+          "d = ()",
+          "d = {}",
+          "d = set()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Curly braces <code>{}</code> create an empty dictionary. <code>[]</code> (A) creates an empty list. <code>()</code> (B) creates an empty tuple. <code>set()</code> (D) creates an empty set (note: <code>{}</code> is a dict, not a set)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does dict.get('key') return if 'key' does not exist?",
+        "options": [
+          "0",
+          "False",
+          "None",
+          "KeyError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.get(key)</code> returns <code>None</code> when the key is not found (no error). To return a custom default, use <code>.get(key, default)</code>. Option D describes the behavior of <code>dict[key]</code>, not <code>.get()</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does the 'in' operator check for dictionaries?",
+        "options": [
+          "Values",
+          "Keys",
+          "Both keys and values",
+          "Key-value pairs"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>in</code> operator checks <strong>keys</strong> by default. <code>\"name\" in d</code> checks if \"name\" is a key. To check values, use <code>value in d.values()</code>."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Which types can be used as dictionary keys?",
+        "options": [
+          "Only strings",
+          "Any immutable type (str, int, tuple)",
+          "Any type including lists",
+          "Only strings and integers"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dictionary keys must be hashable (immutable). Strings, integers, floats, and tuples of immutables all work. Lists (C) and dictionaries cannot be keys because they are mutable."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does d.pop('key') do?",
+        "options": [
+          "Returns the value without removing",
+          "Removes the key and returns the value",
+          "Removes the key and returns None",
+          "Removes the last item"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pop(key)</code> removes the key-value pair and returns the value. It raises KeyError if the key does not exist (unless a default is provided). Option D describes <code>popitem()</code>."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of {x: x**2 for x in range(3)}?",
+        "options": [
+          "{0, 1, 4}",
+          "{0: 0, 1: 1, 2: 4}",
+          "[(0, 0), (1, 1), (2, 4)]",
+          "{1: 1, 2: 4}"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dictionary comprehension creates key-value pairs. For x = 0, 1, 2: the key is x and the value is x**2. Result: {0: 0, 1: 1, 2: 4}. Option A would be a set comprehension (<code>{x**2 for x in range(3)}</code>)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What happens when you add a key that already exists in a dictionary?",
+        "options": [
+          "A KeyError is raised",
+          "The new value replaces the old one",
+          "Both values are kept",
+          "The operation is ignored"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Dictionary keys are unique. Assigning to an existing key overwrites the previous value. No error is raised, and the old value is lost."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does d.items() return?",
+        "options": [
+          "A list of keys",
+          "A list of values",
+          "A view of key-value tuples",
+          "A dictionary"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.items()</code> returns a <strong>view object</strong> containing (key, value) tuples. It is not a regular list, but it can be iterated over and converted with <code>list()</code>."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does setdefault('key', value) do if 'key' already exists?",
+        "options": [
+          "Updates the key with the new value",
+          "Returns the existing value without changing it",
+          "Raises a KeyError",
+          "Deletes the existing key"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>setdefault()</code> only sets the value if the key does NOT exist. If the key already exists, it simply returns the current value without modifying anything."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "How do you safely copy a dictionary?",
+        "options": [
+          "b = a",
+          "b = a.copy()",
+          "b = a.values()",
+          "b = dict(a.items())"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.copy()</code> creates a shallow copy. Option A creates an alias (not a copy). Option C gives only values (not a dict). Option D also works but is less common and readable. Note: for nested dicts, use <code>copy.deepcopy()</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "Since which Python version are dictionaries guaranteed to maintain insertion order?",
+        "options": [
+          "Python 2.7",
+          "Python 3.5",
+          "Python 3.7",
+          "Python 3.9"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python 3.6, CPython (the standard implementation) made dicts ordered as an implementation detail. In Python 3.7, it became part of the language specification. Before that, dictionaries were unordered."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of {**{'a': 1}, **{'a': 2}}?",
+        "options": [
+          "{'a': 1}",
+          "{'a': 2}",
+          "{'a': [1, 2]}",
+          "Error: duplicate key"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When merging with <code>**</code> unpacking, the last value for a duplicate key wins. The second dict has <code>'a': 2</code>, which overwrites the first dict's <code>'a': 1</code>."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does dict.copy() create?",
+        "options": [
+          "A deep copy",
+          "A shallow copy",
+          "An alias (same object)",
+          "A frozen dictionary"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.copy()</code> creates a <strong>shallow copy</strong>: a new dict object, but nested mutable values (like lists) are still shared references. For a fully independent copy of nested structures, use <code>copy.deepcopy()</code>."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What does popitem() do in Python 3.7+?",
+        "options": [
+          "Removes a random key-value pair",
+          "Removes the first inserted pair",
+          "Removes the last inserted pair",
+          "Removes all pairs"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python 3.7+, <code>popitem()</code> removes and returns the <strong>last inserted</strong> key-value pair (LIFO order). In older Python versions, it removed an arbitrary pair. Option D describes <code>clear()</code>."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which method merges one dictionary into another in place?",
+        "options": [
+          "merge()",
+          "update()",
+          "extend()",
+          "join()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>update()</code> merges the given dictionary into the current one, modifying it in place. <code>merge()</code> (A) does not exist. <code>extend()</code> (C) is a list method. <code>join()</code> (D) is a string method."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the time complexity of checking 'key in dict'?",
+        "options": [
+          "O(n)",
+          "O(log n)",
+          "O(1) average",
+          "O(n log n)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Dictionary key lookup uses hashing, which provides O(1) average-case time complexity. This is why dictionaries are preferred over lists for lookups. List membership checking (<code>item in list</code>) is O(n)."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What is the output of len({'a': 1, 'b': 2, 'c': 3})?",
+        "options": [
+          "6",
+          "3",
+          "2",
+          "9"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>len()</code> on a dictionary returns the number of key-value pairs. This dictionary has 3 pairs, so the length is 3."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What does d = {}; d[(1, 2)] = 'point' do?",
+        "options": [
+          "Creates a dictionary with two keys: 1 and 2",
+          "Creates a dictionary with one key: the tuple (1, 2)",
+          "Raises TypeError",
+          "Creates a nested dictionary"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The tuple <code>(1, 2)</code> is used as a single dictionary key mapping to 'point'. Tuples are hashable and valid as keys. The dictionary has one entry: <code>{(1, 2): 'point'}</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Word Frequency Counter",
+        "difficulty": "Easy",
+        "description": "Given the string \"the cat sat on the mat the cat\", write a program that counts the frequency of each word and prints the result as a dictionary.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'the': 3, 'cat': 2, 'sat': 1, 'on': 1, 'mat': 1}",
+        "constraints": "Use .split() and .get() pattern.",
+        "solution": "text = \"the cat sat on the mat the cat\"\nwords = text.split()\nfreq = {}\nfor word in words:\n    freq[word] = freq.get(word, 0) + 1\nprint(freq)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Invert a Dictionary",
+        "difficulty": "Easy",
+        "description": "Given the dictionary {'a': 1, 'b': 2, 'c': 3}, write a program that inverts it so keys become values and values become keys. Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{1: 'a', 2: 'b', 3: 'c'}",
+        "constraints": "Use dictionary comprehension.",
+        "solution": "original = {'a': 1, 'b': 2, 'c': 3}\ninverted = {v: k for k, v in original.items()}\nprint(inverted)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Merge Two Dictionaries",
+        "difficulty": "Easy",
+        "description": "Aarav has two dictionaries: d1 = {'a': 1, 'b': 2} and d2 = {'b': 3, 'c': 4}. Merge them into a new dictionary where d2's values take priority for overlapping keys.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'a': 1, 'b': 3, 'c': 4}",
+        "constraints": "Use ** unpacking or update().",
+        "solution": "d1 = {'a': 1, 'b': 2}\nd2 = {'b': 3, 'c': 4}\nmerged = {**d1, **d2}\nprint(merged)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Group Students by Grade",
+        "difficulty": "Medium",
+        "description": "Given a list of tuples: [('Aarav', 'A'), ('Priya', 'B'), ('Rohan', 'A'), ('Meera', 'B'), ('Vikram', 'A')], group students by their grade into a dictionary. Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'A': ['Aarav', 'Rohan', 'Vikram'], 'B': ['Priya', 'Meera']}",
+        "constraints": "Use setdefault() or .get() pattern.",
+        "solution": "students = [('Aarav', 'A'), ('Priya', 'B'), ('Rohan', 'A'), ('Meera', 'B'), ('Vikram', 'A')]\ngroups = {}\nfor name, grade in students:\n    groups.setdefault(grade, []).append(name)\nprint(groups)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Find Students Above Average",
+        "difficulty": "Medium",
+        "description": "Given marks = {'Aarav': 85, 'Priya': 92, 'Rohan': 78, 'Meera': 95, 'Vikram': 88}, calculate the average marks and print only the students who scored above average.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Average: 87.6\nAbove average: {'Priya': 92, 'Meera': 95, 'Vikram': 88}",
+        "constraints": "Use sum(), len(), and dictionary comprehension.",
+        "solution": "marks = {'Aarav': 85, 'Priya': 92, 'Rohan': 78, 'Meera': 95, 'Vikram': 88}\navg = sum(marks.values()) / len(marks)\nprint(f\"Average: {avg}\")\nabove = {name: score for name, score in marks.items() if score > avg}\nprint(f\"Above average: {above}\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Nested Dictionary Access",
+        "difficulty": "Medium",
+        "description": "Given a nested dictionary representing a school, write a program that prints each student's name and their total marks across all subjects.<br><pre><code>school = {\n    \"Aarav\": {\"Maths\": 90, \"Science\": 85, \"English\": 88},\n    \"Priya\": {\"Maths\": 95, \"Science\": 92, \"English\": 91}\n}</code></pre>",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Aarav: 263\nPriya: 278",
+        "constraints": "Use nested loops or sum() on values.",
+        "solution": "school = {\n    \"Aarav\": {\"Maths\": 90, \"Science\": 85, \"English\": 88},\n    \"Priya\": {\"Maths\": 95, \"Science\": 92, \"English\": 91}\n}\nfor name, subjects in school.items():\n    total = sum(subjects.values())\n    print(f\"{name}: {total}\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Two Lists to Dictionary",
+        "difficulty": "Medium",
+        "description": "Given keys = ['name', 'age', 'city'] and values = ['Rohan', 16, 'Delhi'], write a program that creates a dictionary from these two lists using zip().",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'name': 'Rohan', 'age': 16, 'city': 'Delhi'}",
+        "constraints": "Use zip() and dict().",
+        "solution": "keys = ['name', 'age', 'city']\nvalues = ['Rohan', 16, 'Delhi']\nresult = dict(zip(keys, values))\nprint(result)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Character Frequency with Sorting",
+        "difficulty": "Hard",
+        "description": "Write a program that counts the frequency of each character in \"programming\" and prints them sorted by frequency (highest first). For ties, sort alphabetically.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "g: 2\nm: 2\nr: 2\na: 1\ni: 1\nn: 1\no: 1\np: 1",
+        "constraints": "Use .get() for counting. Use sorted() with a key.",
+        "solution": "text = \"programming\"\nfreq = {}\nfor ch in text:\n    freq[ch] = freq.get(ch, 0) + 1\nsorted_chars = sorted(freq.items(), key=lambda x: (-x[1], x[0]))\nfor ch, count in sorted_chars:\n    print(f\"{ch}: {count}\")"
+      },
+      {
+        "id": "cc-9",
+        "title": "Find Duplicate Values",
+        "difficulty": "Hard",
+        "description": "Given the dictionary {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}, write a program that finds and prints which values appear more than once, along with the keys that share them.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Value 1 is shared by: ['a', 'c']\nValue 2 is shared by: ['b', 'e']",
+        "constraints": "Use a dictionary to group keys by their values.",
+        "solution": "d = {'a': 1, 'b': 2, 'c': 1, 'd': 3, 'e': 2}\nvalue_to_keys = {}\nfor key, value in d.items():\n    value_to_keys.setdefault(value, []).append(key)\nfor value, keys in value_to_keys.items():\n    if len(keys) > 1:\n        print(f\"Value {value} is shared by: {keys}\")"
+      },
+      {
+        "id": "cc-10",
+        "title": "Flatten a Nested Dictionary",
+        "difficulty": "Hard",
+        "description": "Write a program that flattens the nested dictionary {'a': 1, 'b': {'c': 2, 'd': {'e': 3}}} into a flat dictionary with dotted keys: {'a': 1, 'b.c': 2, 'b.d.e': 3}.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'a': 1, 'b.c': 2, 'b.d.e': 3}",
+        "constraints": "Use recursion or a stack-based approach.",
+        "solution": "def flatten(d, parent_key='', sep='.'):\n    items = {}\n    for k, v in d.items():\n        new_key = parent_key + sep + k if parent_key else k\n        if isinstance(v, dict):\n            items.update(flatten(v, new_key, sep))\n        else:\n            items[new_key] = v\n    return items\n\nnested = {'a': 1, 'b': {'c': 2, 'd': {'e': 3}}}\nprint(flatten(nested))"
+      }
+    ]
+  }
+}

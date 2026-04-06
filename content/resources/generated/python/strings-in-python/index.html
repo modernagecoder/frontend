@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master string creation, slicing, formatting, and all important string methods.">
+    <meta name="keywords" content="strings in python, python tutorial, python strings in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/strings-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/strings-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/strings-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/strings-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/strings-in-python">
+    <meta property="og:title" content="Strings in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Master string creation, slicing, formatting, and all important string methods.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/strings-in-python">
+    <meta name="twitter:title" content="Strings in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Master string creation, slicing, formatting, and all important string methods.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Strings in Python",
+    "description": "Master string creation, slicing, formatting, and all important string methods.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/strings-in-python"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/strings-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Strings in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/strings-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Trying to Modify a String In Place",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Strings are immutable in Python. You cannot change individual characters using index assignment. To create a modified version, build a new string using slicing and concatenation, or use methods like <code>replace()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing find() and index() When Substring Is Missing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>index()</code> raises a <code>ValueError</code> when the substring is not found. <code>find()</code> returns -1 instead. Use <code>find()</code> when you are unsure if the substring exists, and <code>index()</code> only when you are certain it does (or when you want an exception)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Concatenating String with Non-String Type",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The <code>+</code> operator cannot concatenate a string with an integer. Python does not auto-convert types. Either use <code>str()</code> to convert the integer to a string, or (preferably) use an f-string which handles the conversion automatically."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting That String Methods Return New Strings",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "String methods do not modify the original string (strings are immutable). They return a new string. You must assign the result back to a variable. You can chain methods: <code>name.strip().upper()</code> first strips whitespace, then converts to uppercase."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Off-by-One Error in Slicing",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In slicing, the stop index is <strong>excluded</strong>. <code>text[2:4]</code> gives characters at indices 2 and 3 only. To include index 4, you need <code>text[2:5]</code>. A quick formula: <code>text[a:b]</code> gives <code>b - a</code> characters."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using == to Compare Strings Without Considering Case",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "String comparison in Python is case-sensitive. <code>\"Yes\"</code> and <code>\"yes\"</code> are different strings because 'Y' and 'y' have different Unicode values. Always convert both sides to the same case using <code>.lower()</code> or <code>.upper()</code> before comparing."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Strings in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 11</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">28 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Strings in Python</h1>
+            <a href="/resources/python/strings-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Strings in Python?</h2><p>A <strong>string</strong> is a sequence of characters enclosed in quotes. Characters can be letters, digits, symbols, spaces, or even special characters like newline. In Python, strings are one of the most commonly used data types because almost every program deals with text in some form — names, messages, file paths, user input, and more.</p><p>Python treats strings as <strong>sequences</strong>, which means each character has a position (index), and you can access individual characters, extract substrings, and iterate over them just like you would with a list of items.</p><h3>Creating Strings</h3><p>Python allows you to create strings using three different types of quotes:</p><p><strong>1. Single quotes:</strong> <code>'Hello'</code> — Most common for short strings.</p><p><strong>2. Double quotes:</strong> <code>"Hello"</code> — Identical to single quotes. Useful when the string itself contains a single quote, like <code>"Aarav's book"</code>.</p><p><strong>3. Triple quotes:</strong> <code>'''Hello'''</code> or <code>"""Hello"""</code> — Used for multi-line strings or strings that span several lines. Also used for docstrings (documentation strings in functions).</p><p>Single and double quotes are interchangeable in Python. There is no difference in the resulting string. The choice is purely about readability and avoiding escape characters.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Strings Important?</h2><p>Strings are arguably the most versatile data type in programming. Here is why mastering strings is essential:</p><h3>1. Text Processing Is Everywhere</h3><p>From reading user input to displaying results, from processing files to communicating over networks, text is the universal medium. Every <code>input()</code> call returns a string. Every <code>print()</code> call converts data to a string. Understanding strings means understanding how your program communicates.</p><h3>2. Data Cleaning and Validation</h3><p>Real-world data is messy. Names come with extra spaces, emails need validation, phone numbers need formatting. String methods like <code>strip()</code>, <code>lower()</code>, <code>replace()</code>, and <code>isdigit()</code> are your tools for cleaning and validating data before processing it.</p><h3>3. String Manipulation Is a Core Interview Topic</h3><p>Whether you are preparing for college placements, competitive programming, or coding interviews, string problems are among the most frequently asked. Palindrome checking, anagram detection, pattern matching, and substring search are classic problems that require strong string skills.</p><h3>4. Foundation for File and Web Processing</h3><p>Reading from files produces strings. Web scraping produces strings. API responses are often strings (JSON format). Database queries return strings. Without string manipulation skills, you cannot process any of this data effectively.</p><h3>5. Formatted Output Makes Programs Professional</h3><p>f-strings and the <code>.format()</code> method let you create clean, readable output. Instead of clumsy concatenation with <code>+</code> operators, you can embed variables directly into text, control decimal places, align columns, and build professional-looking reports.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. String Indexing</h3><p>Every character in a string has a position called an <strong>index</strong>. Python uses <strong>zero-based indexing</strong>, meaning the first character is at index 0, the second at index 1, and so on.</p><p>Python also supports <strong>negative indexing</strong>. The last character is at index -1, the second-to-last at -2, and so on. Negative indexing is a shortcut for accessing characters from the end without knowing the length of the string.</p><pre><code>name = "Python"
+# Positive:  P=0, y=1, t=2, h=3, o=4, n=5
+# Negative:  P=-6, y=-5, t=-4, h=-3, o=-2, n=-1</code></pre><p>Accessing an index beyond the string length raises an <code>IndexError</code>.</p><h3>2. String Slicing</h3><p>Slicing extracts a <strong>substring</strong> from a string using the syntax <code>string[start:stop:step]</code>.</p><p><strong>Rules of slicing:</strong></p><p>- <code>start</code> is the index where the slice begins (included).</p><p>- <code>stop</code> is the index where the slice ends (excluded).</p><p>- <code>step</code> determines the direction and interval (default is 1).</p><p>- If <code>start</code> is omitted, it defaults to 0 (or end of string if step is negative).</p><p>- If <code>stop</code> is omitted, it defaults to the end of string (or beginning if step is negative).</p><p>- Slicing never raises an IndexError, even if indices are out of range. Python simply truncates to the available characters.</p><pre><code>s = "Modern Age Coders"
+s[0:6]    # "Modern"
+s[7:10]   # "Age"
+s[:6]     # "Modern" (start defaults to 0)
+s[11:]    # "Coders" (stop defaults to end)
+s[::2]    # "MdnAeCdr" (every 2nd character)
+s[::-1]   # "sredoC egA nredoM" (reversed)</code></pre><h3>3. String Immutability</h3><p>Strings in Python are <strong>immutable</strong>. Once a string is created, you cannot change any character in it. If you try to assign a new character to a specific index, Python raises a <code>TypeError</code>.</p><pre><code>name = "Priya"
+name[0] = "p"  # TypeError: 'str' object does not support item assignment</code></pre><p>To "change" a string, you must create a new string. For example: <code>name = "p" + name[1:]</code> creates a new string <code>"priya"</code> and reassigns the variable.</p><h3>4. String Methods</h3><p>Python provides a rich set of built-in methods for string manipulation. These methods do not modify the original string (because strings are immutable). They return a new string.</p><h4>Case Methods</h4><p><code>upper()</code> converts all characters to uppercase. <code>lower()</code> converts all to lowercase. <code>title()</code> capitalizes the first letter of each word. <code>capitalize()</code> capitalizes only the first character of the string.</p><h4>Whitespace Methods</h4><p><code>strip()</code> removes leading and trailing whitespace. <code>lstrip()</code> removes only leading (left) whitespace. <code>rstrip()</code> removes only trailing (right) whitespace. These are essential for cleaning user input.</p><h4>Search and Replace Methods</h4><p><code>find(sub)</code> returns the index of the first occurrence of <code>sub</code>, or -1 if not found. <code>index(sub)</code> is similar but raises a <code>ValueError</code> if not found. <code>count(sub)</code> returns the number of non-overlapping occurrences. <code>replace(old, new)</code> replaces all occurrences of <code>old</code> with <code>new</code>.</p><h4>Split and Join</h4><p><code>split(sep)</code> breaks a string into a list of substrings at each occurrence of <code>sep</code>. If no separator is given, it splits on whitespace. <code>join(iterable)</code> is the reverse: it joins a list of strings with a separator.</p><h4>Checking Methods</h4><p><code>startswith(prefix)</code> and <code>endswith(suffix)</code> check if a string begins or ends with a given substring. <code>isdigit()</code> returns True if all characters are digits. <code>isalpha()</code> returns True if all characters are letters. <code>isalnum()</code> returns True if all characters are alphanumeric.</p><h4>Padding and Alignment</h4><p><code>center(width)</code> centers the string in a field of given width. <code>zfill(width)</code> pads the string with zeros on the left to reach the given width.</p><h3>5. f-Strings (Formatted String Literals)</h3><p>Introduced in Python 3.6, f-strings are the most readable way to embed expressions inside strings. Prefix the string with <code>f</code> and place expressions inside curly braces <code>{}</code>.</p><pre><code>name = "Rohan"
+age = 16
+print(f"{name} is {age} years old")</code></pre><p>f-strings can contain any valid Python expression: arithmetic, method calls, conditional expressions, and more. They are faster and more readable than the older <code>.format()</code> method or <code>%</code> formatting.</p><h3>6. The .format() Method</h3><p>Before f-strings, the <code>.format()</code> method was the standard way to format strings. It uses <code>{}</code> as placeholders that are filled by the arguments of <code>.format()</code>.</p><pre><code>print("My name is {} and I am {} years old".format("Ananya", 15))
+print("Pi is approximately {:.2f}".format(3.14159))</code></pre><p>While f-strings are now preferred, <code>.format()</code> is still used in logging, older codebases, and situations where the template string is stored separately from the data.</p><h3>7. String Concatenation and Multiplication</h3><p>The <code>+</code> operator concatenates (joins) two strings. The <code>*</code> operator repeats a string a given number of times.</p><pre><code>greeting = "Hello" + " " + "World"   # "Hello World"
+line = "-" * 30                       # "------------------------------"</code></pre><p>Note: you cannot concatenate a string with a non-string type using <code>+</code>. You must convert the other value to a string first using <code>str()</code>, or use an f-string.</p><h3>8. Iterating Over Strings</h3><p>Since strings are sequences, you can loop through each character using a <code>for</code> loop:</p><pre><code>for ch in "Aarav":
+    print(ch)</code></pre><p>You can also loop using indices with <code>range(len(s))</code>, which is useful when you need to know the position of each character.</p><h3>9. String Comparison</h3><p>Strings are compared character by character using their Unicode (ASCII) values. Uppercase letters have lower values than lowercase letters: <code>'A' (65) < 'a' (97)</code>. Comparison operators (<code>==</code>, <code>!=</code>, <code><</code>, <code>></code>, <code><=</code>, <code>>=</code>) work on strings.</p><h3>10. ord() and chr()</h3><p><code>ord(char)</code> returns the Unicode code point of a single character. <code>chr(num)</code> returns the character for a given Unicode code point. These are useful for character arithmetic and encoding problems.</p><pre><code>ord('A')   # 65
+chr(65)    # 'A'
+ord('a')   # 97
+chr(97)    # 'a'</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">String Creation and Indexing</div><pre><code class="language-python"># Different ways to create strings
+single = &#39;Hello&#39;
+double = &quot;Hello&quot;
+triple = &#39;&#39;&#39;This is a
+multi-line string&#39;&#39;&#39;
+
+print(single == double)  # True
+print(triple)
+
+# Indexing
+name = &quot;Ananya&quot;
+print(name[0])    # First character
+print(name[-1])   # Last character
+print(name[3])    # Fourth character
+print(name[-2])   # Second to last</code></pre><div class="code-example-explanation">Single and double quotes produce identical strings. Triple quotes preserve line breaks. Positive indexing starts at 0 from the left. Negative indexing starts at -1 from the right. <code>name[0]</code> gives 'A' and <code>name[-1]</code> gives 'a' for the string "Ananya".</div><div class="code-example-output">True
+This is a
+multi-line string
+A
+a
+n
+y</div></div>
+<div class="code-example"><div class="code-example-title">String Slicing - All Variations</div><pre><code class="language-python">s = &quot;Programming&quot;
+print(s[0:4])     # First 4 characters
+print(s[4:])      # From index 4 to end
+print(s[:7])      # From start to index 6
+print(s[::2])     # Every 2nd character
+print(s[1::2])    # Every 2nd char starting from index 1
+print(s[::-1])    # Reversed string
+print(s[-4:])     # Last 4 characters
+print(s[2:8:2])   # Index 2 to 7, step 2
+print(s[100:200]) # Out of range - no error, empty string</code></pre><div class="code-example-explanation">Slicing uses <code>[start:stop:step]</code>. The stop index is always excluded. Omitting start defaults to 0 (or end if step is negative). Omitting stop defaults to end (or beginning if step is negative). <code>[::-1]</code> is the standard idiom for reversing a string. Out-of-range slice indices do not cause errors; Python simply returns whatever characters are available.</div><div class="code-example-output">Prog
+ramming
+Program
+Pormmn
+rgamig
+gnimmargorP
+ming
+orms
+</div></div>
+<div class="code-example"><div class="code-example-title">String Immutability</div><pre><code class="language-python">name = &quot;Vikram&quot;
+
+# Attempting to change a character causes an error
+try:
+    name[0] = &quot;v&quot;
+except TypeError as e:
+    print(&quot;Error:&quot;, e)
+
+# Correct approach: create a new string
+name = &quot;v&quot; + name[1:]
+print(&quot;New string:&quot;, name)
+
+# Another approach using replace()
+original = &quot;Vikram&quot;
+modified = original.replace(&quot;V&quot;, &quot;v&quot;)
+print(&quot;Replace result:&quot;, modified)
+print(&quot;Original unchanged:&quot;, original)</code></pre><div class="code-example-explanation">Strings cannot be changed in place. Assigning to an index like <code>name[0] = 'v'</code> raises a TypeError. To modify a string, you create a new one using slicing, concatenation, or methods like <code>replace()</code>. The original string remains unchanged because methods return new strings.</div><div class="code-example-output">Error: &#39;str&#39; object does not support item assignment
+New string: vikram
+Replace result: vikram
+Original unchanged: Vikram</div></div>
+<div class="code-example"><div class="code-example-title">Essential String Methods</div><pre><code class="language-python">text = &quot;  Hello, World!  &quot;
+print(text.strip())       # Remove whitespace
+print(text.lstrip())      # Remove left whitespace
+print(text.rstrip())      # Remove right whitespace
+
+name = &quot;aarav sharma&quot;
+print(name.upper())       # AARAV SHARMA
+print(name.title())       # Aarav Sharma
+print(name.capitalize())  # Aarav sharma
+
+sentence = &quot;Python is fun and Python is powerful&quot;
+print(sentence.count(&quot;Python&quot;))     # 2
+print(sentence.find(&quot;fun&quot;))         # 10
+print(sentence.find(&quot;boring&quot;))      # -1
+print(sentence.replace(&quot;fun&quot;, &quot;great&quot;))</code></pre><div class="code-example-explanation"><code>strip()</code> removes whitespace from both ends. <code>upper()</code> and <code>lower()</code> change case. <code>title()</code> capitalizes first letter of each word. <code>count()</code> counts occurrences. <code>find()</code> returns the index of the first match or -1 if not found. <code>replace()</code> substitutes all occurrences. None of these modify the original string.</div><div class="code-example-output">Hello, World!
+Hello, World!  
+  Hello, World!
+AARAV SHARMA
+Aarav Sharma
+Aarav sharma
+2
+10
+-1
+Python is great and Python is powerful</div></div>
+<div class="code-example"><div class="code-example-title">split() and join()</div><pre><code class="language-python"># split() - break string into a list
+sentence = &quot;Maths Science English Hindi&quot;
+words = sentence.split()
+print(words)
+
+csv_data = &quot;Aarav,Priya,Rohan,Meera&quot;
+names = csv_data.split(&quot;,&quot;)
+print(names)
+
+# join() - combine list into a string
+result = &quot; - &quot;.join(names)
+print(result)
+
+letters = [&#39;P&#39;, &#39;y&#39;, &#39;t&#39;, &#39;h&#39;, &#39;o&#39;, &#39;n&#39;]
+word = &quot;&quot;.join(letters)
+print(word)
+
+# split with maxsplit
+data = &quot;one:two:three:four&quot;
+print(data.split(&quot;:&quot;, 2))</code></pre><div class="code-example-explanation"><code>split()</code> without arguments splits on any whitespace and removes empty strings. With an argument, it splits on that exact separator. <code>join()</code> is called on the separator string and takes a list of strings. <code>split(sep, maxsplit)</code> limits the number of splits. These two methods are inverse operations and are used constantly in data processing.</div><div class="code-example-output">[&#39;Maths&#39;, &#39;Science&#39;, &#39;English&#39;, &#39;Hindi&#39;]
+[&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Rohan&#39;, &#39;Meera&#39;]
+Aarav - Priya - Rohan - Meera
+Python
+[&#39;one&#39;, &#39;two&#39;, &#39;three:four&#39;]</div></div>
+<div class="code-example"><div class="code-example-title">f-Strings and .format()</div><pre><code class="language-python"># f-strings (Python 3.6+)
+name = &quot;Priya&quot;
+marks = 92.567
+print(f&quot;Student: {name}&quot;)
+print(f&quot;Marks: {marks:.2f}&quot;)       # 2 decimal places
+print(f&quot;Double marks: {marks * 2}&quot;)
+print(f&quot;Name in uppercase: {name.upper()}&quot;)
+
+# .format() method
+print(&quot;Hello, {}! You scored {}%.&quot;.format(&quot;Rohan&quot;, 85))
+print(&quot;Pi is {:.4f}&quot;.format(3.14159))
+print(&quot;{0} and {1} and {0}&quot;.format(&quot;Coding&quot;, &quot;Maths&quot;))
+
+# Padding and alignment with f-strings
+for i in range(1, 4):
+    print(f&quot;{i:&gt;5} | {i*i:&lt;5} | {i*i*i:^5}&quot;)</code></pre><div class="code-example-explanation">f-strings embed expressions inside <code>{}</code>. You can call methods, perform arithmetic, and use format specifiers like <code>:.2f</code> for 2 decimal places. The <code>.format()</code> method uses positional or indexed placeholders. Alignment specifiers: <code>></code> right-aligns, <code><</code> left-aligns, <code>^</code> centers within the given width.</div><div class="code-example-output">Student: Priya
+Marks: 92.57
+Double marks: 185.134
+Name in uppercase: PRIYA
+Hello, Rohan! You scored 85%.
+Pi is 3.1416
+Coding and Maths and Coding
+    1 | 1     |   1  
+    2 | 4     |   8  
+    3 | 9     |  27  </div></div>
+<div class="code-example"><div class="code-example-title">Checking Methods and ord()/chr()</div><pre><code class="language-python"># Checking methods
+print(&quot;12345&quot;.isdigit())      # True
+print(&quot;12.5&quot;.isdigit())       # False (dot is not a digit)
+print(&quot;Hello&quot;.isalpha())      # True
+print(&quot;Hello World&quot;.isalpha()) # False (space is not a letter)
+print(&quot;abc123&quot;.isalnum())     # True
+print(&quot;Python3&quot;.startswith(&quot;Py&quot;))  # True
+print(&quot;script.py&quot;.endswith(&quot;.py&quot;)) # True
+
+# ord() and chr()
+print(ord(&#39;A&#39;))   # 65
+print(ord(&#39;a&#39;))   # 97
+print(chr(65))    # A
+print(chr(97))    # a
+print(ord(&#39;0&#39;))   # 48
+
+# Character arithmetic
+letter = &#39;C&#39;
+next_letter = chr(ord(letter) + 1)
+print(f&quot;Next letter after {letter} is {next_letter}&quot;)</code></pre><div class="code-example-explanation"><code>isdigit()</code>, <code>isalpha()</code>, and <code>isalnum()</code> test the content of strings. They return False if the string is empty or contains characters outside the expected set. <code>ord()</code> converts a character to its Unicode code point, and <code>chr()</code> does the reverse. Character arithmetic (adding/subtracting from ord values) is useful for problems involving alphabets, like Caesar cipher or generating sequences.</div><div class="code-example-output">True
+False
+True
+False
+True
+True
+True
+65
+97
+A
+a
+48
+Next letter after C is D</div></div>
+<div class="code-example"><div class="code-example-title">String Multiplication and Concatenation</div><pre><code class="language-python"># String multiplication
+line = &quot;=&quot; * 40
+print(line)
+
+pattern = &quot;AB&quot; * 5
+print(pattern)
+
+# Concatenation
+first = &quot;Modern&quot;
+last = &quot;Coders&quot;
+full = first + &quot; Age &quot; + last
+print(full)
+
+# Concatenation vs f-string
+name = &quot;Aarav&quot;
+age = 14
+# This causes an error: name + &quot; is &quot; + age
+# Fix with str():
+result = name + &quot; is &quot; + str(age)
+print(result)
+# Better with f-string:
+print(f&quot;{name} is {age}&quot;)</code></pre><div class="code-example-explanation">The <code>*</code> operator repeats a string. The <code>+</code> operator joins strings but both operands must be strings. Trying to concatenate a string with an integer raises a TypeError. Use <code>str()</code> for explicit conversion, or use f-strings which handle conversion automatically. f-strings are generally preferred because they are more readable and less error-prone.</div><div class="code-example-output">========================================
+ABABABABAB
+Modern Age Coders
+Aarav is 14
+Aarav is 14</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Trying to Modify a String In Place</h3>
+                <div class="wrong-code"><pre><code class="language-python">name = &quot;Priya&quot;
+name[0] = &quot;p&quot;</code></pre></div><div class="error-message">TypeError: &#39;str&#39; object does not support item assignment</div><div class="correct-code"><pre><code class="language-python">name = &quot;Priya&quot;
+name = &quot;p&quot; + name[1:]
+print(name)  # priya</code></pre></div><div class="mistake-explanation">Strings are immutable in Python. You cannot change individual characters using index assignment. To create a modified version, build a new string using slicing and concatenation, or use methods like <code>replace()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing find() and index() When Substring Is Missing</h3>
+                <div class="wrong-code"><pre><code class="language-python">text = &quot;Hello World&quot;
+pos = text.index(&quot;Python&quot;)
+print(pos)</code></pre></div><div class="error-message">ValueError: substring not found</div><div class="correct-code"><pre><code class="language-python">text = &quot;Hello World&quot;
+pos = text.find(&quot;Python&quot;)
+print(pos)  # -1 (not found, no error)</code></pre></div><div class="mistake-explanation"><code>index()</code> raises a <code>ValueError</code> when the substring is not found. <code>find()</code> returns -1 instead. Use <code>find()</code> when you are unsure if the substring exists, and <code>index()</code> only when you are certain it does (or when you want an exception).</div>
+            </div>
+<div class="mistake-card">
+                <h3>Concatenating String with Non-String Type</h3>
+                <div class="wrong-code"><pre><code class="language-python">age = 15
+message = &quot;I am &quot; + age + &quot; years old&quot;</code></pre></div><div class="error-message">TypeError: can only concatenate str (not &quot;int&quot;) to str</div><div class="correct-code"><pre><code class="language-python">age = 15
+message = f&quot;I am {age} years old&quot;
+print(message)
+# Or: message = &quot;I am &quot; + str(age) + &quot; years old&quot;</code></pre></div><div class="mistake-explanation">The <code>+</code> operator cannot concatenate a string with an integer. Python does not auto-convert types. Either use <code>str()</code> to convert the integer to a string, or (preferably) use an f-string which handles the conversion automatically.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting That String Methods Return New Strings</h3>
+                <div class="wrong-code"><pre><code class="language-python">name = &quot;  aarav  &quot;
+name.strip()
+name.upper()
+print(name)  # Still &quot;  aarav  &quot;</code></pre></div><div class="error-message">No error, but the original string is unchanged because the return values were not saved.</div><div class="correct-code"><pre><code class="language-python">name = &quot;  aarav  &quot;
+name = name.strip().upper()
+print(name)  # AARAV</code></pre></div><div class="mistake-explanation">String methods do not modify the original string (strings are immutable). They return a new string. You must assign the result back to a variable. You can chain methods: <code>name.strip().upper()</code> first strips whitespace, then converts to uppercase.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Off-by-One Error in Slicing</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Meera wants characters at index 2, 3, 4
+text = &quot;Python&quot;
+result = text[2:4]
+print(result)  # &quot;th&quot; - only 2 characters, not 3!</code></pre></div><div class="error-message">No error, but only gets indices 2 and 3. Index 4 is excluded.</div><div class="correct-code"><pre><code class="language-python">text = &quot;Python&quot;
+result = text[2:5]  # stop index should be 5 to include index 4
+print(result)  # &quot;tho&quot;</code></pre></div><div class="mistake-explanation">In slicing, the stop index is <strong>excluded</strong>. <code>text[2:4]</code> gives characters at indices 2 and 3 only. To include index 4, you need <code>text[2:5]</code>. A quick formula: <code>text[a:b]</code> gives <code>b - a</code> characters.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using == to Compare Strings Without Considering Case</h3>
+                <div class="wrong-code"><pre><code class="language-python">user_input = &quot;Yes&quot;
+if user_input == &quot;yes&quot;:
+    print(&quot;Confirmed&quot;)
+else:
+    print(&quot;Not confirmed&quot;)  # This runs!</code></pre></div><div class="error-message">No error, but &quot;Yes&quot; != &quot;yes&quot; because comparison is case-sensitive.</div><div class="correct-code"><pre><code class="language-python">user_input = &quot;Yes&quot;
+if user_input.lower() == &quot;yes&quot;:
+    print(&quot;Confirmed&quot;)  # This runs now</code></pre></div><div class="mistake-explanation">String comparison in Python is case-sensitive. <code>"Yes"</code> and <code>"yes"</code> are different strings because 'Y' and 'y' have different Unicode values. Always convert both sides to the same case using <code>.lower()</code> or <code>.upper()</code> before comparing.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Strings are immutable sequences of characters created with single quotes, double quotes, or triple quotes. Single and double quotes are interchangeable.</li>
+<li>Indexing accesses individual characters: positive indices count from the left starting at 0, negative indices count from the right starting at -1.</li>
+<li>Slicing extracts substrings using [start:stop:step]. The stop index is always excluded. Slicing never raises IndexError even with out-of-range indices.</li>
+<li>Strings are immutable: you cannot change characters in place. Methods like upper(), replace(), and strip() return new strings without modifying the original.</li>
+<li>Key string methods: strip(), split(), join(), replace(), find(), count(), upper(), lower(), title(), startswith(), endswith(), isdigit(), isalpha().</li>
+<li>f-strings (f&quot;...&quot;) are the preferred way to embed variables and expressions in strings. They are more readable and faster than .format() or concatenation.</li>
+<li>The + operator concatenates strings (both operands must be strings). The * operator repeats a string. Use str() to convert non-string types before concatenation.</li>
+<li>split() breaks a string into a list at a separator. join() combines a list of strings with a separator. These are inverse operations.</li>
+<li>ord() returns the Unicode code point of a character. chr() returns the character for a code point. These enable character arithmetic.</li>
+<li>String comparison is case-sensitive and uses Unicode values. Always normalize case with lower() or upper() before comparing user input.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/variables-and-data-types" class="related-topic-link">Variables and Data Types in Python</a>
+<a href="/resources/python/lists-in-python" class="related-topic-link">Lists in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/pattern-printing" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Pattern Printing in Python</span>
+        </a>
+            <a href="/resources/python/lists-in-python" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lists in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/strings-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

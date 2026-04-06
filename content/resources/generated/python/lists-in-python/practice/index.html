@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Lists in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="65+ practice questions on Lists in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="lists in python practice, python questions, python practice problems, lists in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+    <meta property="og:title" content="Practice Questions - Lists in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="65+ practice questions on Lists in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/lists-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - Lists in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="65+ practice questions on Lists in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Lists in Python",
+    "description": "65+ practice questions on Lists in Python in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Lists in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/lists-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lists in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/lists-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/lists-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/lists-in-python">Lists in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 12</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">65 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Lists in Python</h1>
+            <a href="/resources/python/lists-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>nums = [10, 20, 30, 40]
+print(nums[0])
+print(nums[-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Index 0 is the first element. Index -1 is the last element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code><br><code>40</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")
+print(fruits)
+print(len(fruits))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">append() adds an item to the end of the list.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>['apple', 'banana', 'cherry', 'mango']</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]
+print(nums[1:4])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Slicing from index 1 up to (but not including) index 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>[2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>colors = ["red", "green", "blue"]
+colors[1] = "yellow"
+print(colors)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Lists are mutable. You can assign a new value to any index.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>['red', 'yellow', 'blue']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [3, 1, 4, 1, 5, 9]
+print(nums.count(1))
+print(nums.index(4))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">count() counts occurrences. index() returns the position of the first match.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>2</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [5, 3, 8, 1]
+nums.sort()
+print(nums)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">sort() arranges elements in ascending order by default.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>[1, 3, 5, 8]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)
+print(a is b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">b = a does not create a copy. Both variables reference the same list.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>[1, 2, 3, 4]</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2, 3]
+b = a.copy()
+b.append(4)
+print(a)
+print(b)
+print(a is b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">.copy() creates a new list with the same elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>[1, 2, 3]</code><br><code>[1, 2, 3, 4]</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [10, 20, 30, 40, 50]
+print(nums[::-1])
+print(nums[3:0:-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">[::-1] reverses the list. [3:0:-1] goes backwards from index 3, stopping before index 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>[50, 40, 30, 20, 10]</code><br><code>[40, 30, 20]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>result = [x**2 for x in range(1, 6)]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">List comprehension: [expression for variable in iterable].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[1, 4, 9, 16, 25]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>evens = [x for x in range(10) if x % 2 == 0]
+print(evens)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">List comprehension with a filter condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>[0, 2, 4, 6, 8]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2, 3]
+b = [4, 5]
+a.extend(b)
+print(a)
+print(b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">extend() adds each element from the iterable, not the iterable itself.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[1, 2, 3, 4, 5]</code><br><code>[4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [5, 3, 1, 4]
+result = nums.sort()
+print(result)
+print(nums)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">.sort() returns None. It modifies the list in place.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>None</code><br><code>[1, 3, 4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2, 3]
+a.append([4, 5])
+print(a)
+print(len(a))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">append() adds the entire argument as a single element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>[1, 2, 3, [4, 5]]</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+print(matrix[1][2])
+print(matrix[0][-1])
+print(matrix[-1][0])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">First index selects the row, second index selects the column.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>6</code><br><code>3</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>outer = [[1, 2], [3, 4]]
+shallow = outer.copy()
+shallow[0][0] = 99
+print(outer)
+print(shallow)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Shallow copy creates a new outer list, but inner lists are still shared.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>[[99, 2], [3, 4]]</code><br><code>[[99, 2], [3, 4]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>first, *rest, last = [10, 20, 30, 40, 50]
+print(first)
+print(rest)
+print(last)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">The * collects all remaining elements between first and last into a list.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>10</code><br><code>[20, 30, 40]</code><br><code>50</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]
+nums[1:4] = [20]
+print(nums)
+print(len(nums))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Slice assignment can replace a section with a different number of elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>[1, 20, 5]</code><br><code>3</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3]
+nums.insert(0, 0)
+print(nums)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">insert(index, item) adds the item before the given index.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[0, 1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [10, 20, 30, 40]
+popped = nums.pop(1)
+print(popped)
+print(nums)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">pop(index) removes and returns the element at that index.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>20</code><br><code>[10, 30, 40]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print(3 in [1, 2, 3, 4])
+print(5 in [1, 2, 3, 4])
+print("a" in ["a", "b", "c"])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">The 'in' operator checks if an item exists in the list.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>True</code><br><code>False</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]
+new = sorted(nums, reverse=True)
+print(nums)
+print(new)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">sorted() returns a new list. The original is unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[1, 2, 3, 4, 5]</code><br><code>[5, 4, 3, 2, 1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["hello", "world"]
+upper = [w.upper() for w in words]
+print(upper)
+print(words)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">List comprehension creates a new list. The original list is unchanged.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>['HELLO', 'WORLD']</code><br><code>['hello', 'world']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [4, 7, 2, 9, 1]
+print(min(nums))
+print(max(nums))
+print(sum(nums))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">min(), max(), and sum() are built-in functions that work with lists of numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>1</code><br><code>9</code><br><code>23</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2]
+b = [3, 4]
+c = a + b
+print(c)
+print(a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">+ creates a new list by concatenating. It does not modify the originals.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>[1, 2, 3, 4]</code><br><code>[1, 2]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5, 6]
+for num in nums:
+    if num % 2 == 0:
+        nums.remove(num)
+print(nums)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Removing elements while iterating over a list causes elements to be skipped.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>[1, 3, 5, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [[0]] * 3
+a[0][0] = 5
+print(a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Multiplying a list containing a mutable object creates multiple references to the SAME object.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[[5], [5], [5]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = list(range(10))
+result = nums[8:2:-2]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Start at index 8, go backwards by step -2, stop before index 2.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>[8, 6, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>append()</code> and <code>extend()</code>? Give an example where using the wrong one causes unexpected behavior.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">One adds a single element, the other adds each element from an iterable.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>append(item)</code> adds <code>item</code> as a single element to the end of the list. <code>extend(iterable)</code> adds each element from the iterable individually.<br><br>Example: <code>a = [1, 2]; a.append([3, 4])</code> gives <code>[1, 2, [3, 4]]</code> (nested list). <code>a = [1, 2]; a.extend([3, 4])</code> gives <code>[1, 2, 3, 4]</code> (flat list).</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>.sort()</code> and <code>sorted()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">One modifies in place, the other returns a new list.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>.sort()</code> sorts the list <strong>in place</strong> and returns <strong>None</strong>. <code>sorted()</code> returns a <strong>new sorted list</strong> and leaves the original unchanged.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>flat = [num for row in [[1,2],[3,4],[5,6]] for num in row]
+print(flat)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">Nested comprehension: outer loop first, inner loop second.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>[1, 2, 3, 4, 5, 6]</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following creates an empty list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> list = ()</li><li><span class="mcq-option-label">B.</span> list = []</li><li><span class="mcq-option-label">C.</span> list = {}</li><li><span class="mcq-option-label">D.</span> list = &lt;&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Square brackets <code>[]</code> create an empty list. Parentheses <code>()</code> (A) create an empty tuple. Curly braces <code>{}</code> (C) create an empty dictionary, not a list. <code><></code> (D) is not valid Python syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does nums.append(5) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Adds 5 at the beginning</li><li><span class="mcq-option-label">B.</span> Adds 5 at the end</li><li><span class="mcq-option-label">C.</span> Adds 5 at index 5</li><li><span class="mcq-option-label">D.</span> Replaces the first element with 5</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>append()</code> always adds the item to the <strong>end</strong> of the list. To add at the beginning, use <code>insert(0, 5)</code>. To add at a specific index, use <code>insert(index, 5)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is [1, 2, 3] + [4, 5]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3, [4, 5]]</li><li><span class="mcq-option-label">B.</span> [1, 2, 3, 4, 5]</li><li><span class="mcq-option-label">C.</span> [5, 7, 8]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>+</code> operator concatenates two lists, creating a new list with all elements. It does NOT nest the second list (A) or add corresponding elements (C).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">How do you check if 5 is in a list called nums?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> nums.contains(5)</li><li><span class="mcq-option-label">B.</span> nums.has(5)</li><li><span class="mcq-option-label">C.</span> 5 in nums</li><li><span class="mcq-option-label">D.</span> nums.find(5)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>in</code> operator checks membership. Python lists do not have <code>contains()</code> (A), <code>has()</code> (B), or <code>find()</code> (D) methods. <code>find()</code> is a string method, not a list method.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does .pop() return when called with no arguments?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first element</li><li><span class="mcq-option-label">B.</span> The last element</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> The list itself</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>pop()</code> with no arguments removes and returns the <strong>last</strong> element. <code>pop(0)</code> would remove and return the first element. Unlike <code>.sort()</code>, <code>.pop()</code> does return a value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of [x for x in range(5) if x % 2 == 0]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 3]</li><li><span class="mcq-option-label">B.</span> [0, 2, 4]</li><li><span class="mcq-option-label">C.</span> [2, 4]</li><li><span class="mcq-option-label">D.</span> [0, 1, 2, 3, 4]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> The comprehension filters values from range(5) where x is even. 0 % 2 == 0 (True), 1 % 2 == 0 (False), 2 % 2 == 0 (True), 3 (False), 4 (True). Result: [0, 2, 4]. Option C misses 0.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does .sort() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The sorted list</li><li><span class="mcq-option-label">B.</span> A new sorted list</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> The original list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>.sort()</code> sorts the list in place and returns <code>None</code>. This is a Python convention: methods that modify objects in place return None. Use <code>sorted()</code> if you need a return value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the difference between remove() and pop()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> remove() deletes by index, pop() deletes by value</li><li><span class="mcq-option-label">B.</span> remove() deletes by value, pop() deletes by index</li><li><span class="mcq-option-label">C.</span> Both delete by value</li><li><span class="mcq-option-label">D.</span> Both delete by index</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>remove(value)</code> removes the first occurrence of the specified value. <code>pop(index)</code> removes and returns the element at the specified index. They work in opposite ways.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">Which creates a proper copy of list a?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> b = a</li><li><span class="mcq-option-label">B.</span> b = a.copy()</li><li><span class="mcq-option-label">C.</span> b = a.sort()</li><li><span class="mcq-option-label">D.</span> b = a.append([])</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>a.copy()</code> creates a shallow copy. Option A creates an alias (same object). Option C assigns None (sort returns None). Option D assigns None (append returns None).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is the output of len([[1, 2], [3, 4], [5, 6]])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 6</li><li><span class="mcq-option-label">B.</span> 3</li><li><span class="mcq-option-label">C.</span> 2</li><li><span class="mcq-option-label">D.</span> 9</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>len()</code> counts the number of top-level elements. The list contains 3 inner lists, so the length is 3. It does NOT count the total number of elements across all inner lists (that would be 6).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of [[0] * 3 for _ in range(2)]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [[0, 0, 0], [0, 0, 0]]</li><li><span class="mcq-option-label">B.</span> [[0, 0], [0, 0], [0, 0]]</li><li><span class="mcq-option-label">C.</span> [0, 0, 0, 0, 0, 0]</li><li><span class="mcq-option-label">D.</span> [[0], [0], [0], [0], [0], [0]]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: A</strong><br><strong>A is correct.</strong> The comprehension creates 2 rows, each containing [0, 0, 0]. Unlike <code>[[0] * 3] * 2</code> (which creates shared references), this comprehension creates independent inner lists. This is the safe way to create a 2D list of zeros.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What happens when you call .remove() on a value that does not exist in the list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns -1</li><li><span class="mcq-option-label">B.</span> Returns None</li><li><span class="mcq-option-label">C.</span> Raises ValueError</li><li><span class="mcq-option-label">D.</span> Removes the last element</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>.remove(value)</code> raises a <code>ValueError</code> if the value is not found in the list. It does not return -1 like string's <code>find()</code>. Always check with <code>in</code> before calling <code>remove()</code> if you are unsure.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of [1, 2, 3] * 2?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [2, 4, 6]</li><li><span class="mcq-option-label">B.</span> [1, 2, 3, 1, 2, 3]</li><li><span class="mcq-option-label">C.</span> [[1, 2, 3], [1, 2, 3]]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>*</code> operator repeats the list. <code>[1, 2, 3] * 2</code> creates a new list with the elements repeated: [1, 2, 3, 1, 2, 3]. It does NOT multiply each element (A) or create a nested list (C).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the result of list('hello')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&#39;hello&#39;]</li><li><span class="mcq-option-label">B.</span> [&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;]</li><li><span class="mcq-option-label">C.</span> (&#39;h&#39;, &#39;e&#39;, &#39;l&#39;, &#39;l&#39;, &#39;o&#39;)</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>list()</code> constructor converts any iterable into a list. A string is iterable (character by character), so <code>list('hello')</code> creates a list of individual characters: ['h', 'e', 'l', 'l', 'o'].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output of nums = [1, 2]; nums += [3]; print(type(nums))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &lt;class &#39;tuple&#39;&gt;</li><li><span class="mcq-option-label">B.</span> &lt;class &#39;list&#39;&gt;</li><li><span class="mcq-option-label">C.</span> &lt;class &#39;int&#39;&gt;</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>+=</code> with lists is equivalent to <code>extend()</code>. It adds the elements from [3] to nums. The result is still a list [1, 2, 3]. The type remains <code>list</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the output of [[0]] * 3 after modifying the first inner list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the first inner list changes</li><li><span class="mcq-option-label">B.</span> All three inner lists change</li><li><span class="mcq-option-label">C.</span> An error occurs</li><li><span class="mcq-option-label">D.</span> None of the inner lists change</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>[[0]] * 3</code> creates three references to the SAME inner list object. Modifying any one of them modifies all of them because they are the same object. To create independent inner lists, use a list comprehension: <code>[[0] for _ in range(3)]</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which method reverses a list in place?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> reversed()</li><li><span class="mcq-option-label">B.</span> .reverse()</li><li><span class="mcq-option-label">C.</span> .flip()</li><li><span class="mcq-option-label">D.</span> [::-1]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>.reverse()</code> reverses the list in place and returns None. <code>reversed()</code> (A) returns an iterator, not a list, and does not modify the original. <code>[::-1]</code> (D) creates a new reversed list. <code>.flip()</code> (C) does not exist.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does del nums[1:3] do to the list nums = [10, 20, 30, 40, 50]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes elements at indices 1 and 3</li><li><span class="mcq-option-label">B.</span> Removes elements at indices 1 and 2</li><li><span class="mcq-option-label">C.</span> Removes the first 3 elements</li><li><span class="mcq-option-label">D.</span> Raises an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>del nums[1:3]</code> deletes the slice from index 1 to 2 (index 3 is excluded). Elements 20 and 30 are removed. The result is [10, 40, 50]. Slice notation always excludes the stop index.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Find the Second Largest</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the list [45, 12, 78, 34, 56, 89, 23], write a program that finds and prints the second largest number without using sort() or sorted().</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Second largest: 78</div>
+                </div><div class="challenge-constraints">Use a loop. Do not sort the list.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">nums = [45, 12, 78, 34, 56, 89, 23]
+largest = max(nums[0], nums[1])
+second = min(nums[0], nums[1])
+for num in nums[2:]:
+    if num &gt; largest:
+        second = largest
+        largest = num
+    elif num &gt; second:
+        second = num
+print(&quot;Second largest:&quot;, second)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Remove Duplicates</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the list [1, 2, 3, 2, 4, 3, 5, 1]. Write a program that removes duplicates while preserving the original order. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 2, 3, 4, 5]</div>
+                </div><div class="challenge-constraints">Use a loop. Preserve order of first occurrence.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">nums = [1, 2, 3, 2, 4, 3, 5, 1]
+result = []
+for num in nums:
+    if num not in result:
+        result.append(num)
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Flatten a 2D List</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the 2D list [[1, 2, 3], [4, 5], [6, 7, 8, 9]], write a program that flattens it into a single list [1, 2, 3, 4, 5, 6, 7, 8, 9].</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 2, 3, 4, 5, 6, 7, 8, 9]</div>
+                </div><div class="challenge-constraints">Use nested loops or list comprehension.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+flat = [num for row in matrix for num in row]
+print(flat)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Rotate a List</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that rotates the list [1, 2, 3, 4, 5] to the right by 2 positions. After rotation, the last 2 elements should move to the front.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[4, 5, 1, 2, 3]</div>
+                </div><div class="challenge-constraints">Use slicing. Do not use any external library.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">nums = [1, 2, 3, 4, 5]
+k = 2
+rotated = nums[-k:] + nums[:-k]
+print(rotated)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Matrix Transpose</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Priya has a 3x3 matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Write a program that transposes it (rows become columns). Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[[1, 4, 7], [2, 5, 8], [3, 6, 9]]</div>
+                </div><div class="challenge-constraints">Use nested loops or list comprehension.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+transpose = [[matrix[j][i] for j in range(3)] for i in range(3)]
+print(transpose)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Group by Even and Odd</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given the list [12, 7, 3, 18, 5, 22, 9, 14], write a program that separates it into two lists: one with even numbers and one with odd numbers. Print both.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Even: [12, 18, 22, 14]
+Odd: [7, 3, 5, 9]</div>
+                </div><div class="challenge-constraints">Use list comprehension.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">nums = [12, 7, 3, 18, 5, 22, 9, 14]
+evens = [x for x in nums if x % 2 == 0]
+odds = [x for x in nums if x % 2 != 0]
+print(&quot;Even:&quot;, evens)
+print(&quot;Odd:&quot;, odds)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Find Common Elements</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan has two lists: [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7]. Write a program that finds and prints the common elements in both lists, preserving order from the first list.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[3, 4, 5]</div>
+                </div><div class="challenge-constraints">Use a loop or list comprehension. Do not use sets.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">a = [1, 2, 3, 4, 5]
+b = [3, 4, 5, 6, 7]
+common = [x for x in a if x in b]
+print(common)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Frequency Count Without Dictionary</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given the list [3, 1, 2, 3, 4, 2, 3, 1, 5], write a program that prints each unique element and its frequency. Do not use dictionaries.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">3 appears 3 times
+1 appears 2 times
+2 appears 2 times
+4 appears 1 times
+5 appears 1 times</div>
+                </div><div class="challenge-constraints">Use a loop and count(). Track already-counted elements.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">nums = [3, 1, 2, 3, 4, 2, 3, 1, 5]
+counted = []
+for num in nums:
+    if num not in counted:
+        print(f&quot;{num} appears {nums.count(num)} times&quot;)
+        counted.append(num)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Create a Safe 2D Matrix</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that creates a 3x4 matrix (3 rows, 4 columns) initialized with zeros. Then set the element at row 1, column 2 to 99. Print the matrix row by row. Make sure modifying one row does NOT affect others.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[0, 0, 0, 0]
+[0, 0, 99, 0]
+[0, 0, 0, 0]</div>
+                </div><div class="challenge-constraints">Use list comprehension (not [[0]*4]*3). Verify independence of rows.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">matrix = [[0 for _ in range(4)] for _ in range(3)]
+matrix[1][2] = 99
+for row in matrix:
+    print(row)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Merge Two Sorted Lists</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given two sorted lists [1, 3, 5, 7] and [2, 4, 6, 8], write a program that merges them into a single sorted list without using sort() or sorted().</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 2, 3, 4, 5, 6, 7, 8]</div>
+                </div><div class="challenge-constraints">Use two pointers (indices) to merge efficiently.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">a = [1, 3, 5, 7]
+b = [2, 4, 6, 8]
+result = []
+i = 0
+j = 0
+while i &lt; len(a) and j &lt; len(b):
+    if a[i] &lt;= b[j]:
+        result.append(a[i])
+        i += 1
+    else:
+        result.append(b[j])
+        j += 1
+result.extend(a[i:])
+result.extend(b[j:])
+print(result)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/strings-in-python/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Strings in Python</span>
+        </a>
+            <a href="/resources/python/tuples-in-python/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Tuples in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/lists-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

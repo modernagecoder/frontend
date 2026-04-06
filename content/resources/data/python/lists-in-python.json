@@ -1,0 +1,759 @@
+{
+  "title": "Lists in Python",
+  "slug": "lists-in-python",
+  "language": "python",
+  "chapter": 12,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 65,
+  "seo": {
+    "title": "Lists in Python - List Methods, List Comprehension, Nested Lists | Modern Age Coders",
+    "description": "Learn Python lists including list methods, list comprehension, nested lists, slicing, mutability, and shallow copy pitfalls. Includes 65+ practice questions with output prediction and coding challenges.",
+    "keywords": "python list, list methods python, list comprehension python, python list tutorial, python nested lists, python list slicing, python list copy, python append extend, python list operations, python list examples"
+  },
+  "content": {
+    "what": "<h2>What Are Lists in Python?</h2><p>A <strong>list</strong> is an ordered, mutable collection of items. Unlike strings (which hold only characters), lists can hold items of any data type — integers, floats, strings, booleans, and even other lists. Lists are defined using square brackets <code>[]</code> with items separated by commas.</p><p>Lists are one of the four built-in collection data types in Python (along with tuples, sets, and dictionaries). They are by far the most commonly used because of their flexibility: you can add, remove, modify, and rearrange items freely.</p><h3>Creating Lists</h3><p>There are several ways to create a list:</p><pre><code>empty = []                        # Empty list\nnumbers = [1, 2, 3, 4, 5]         # List of integers\nnames = [\"Aarav\", \"Priya\", \"Rohan\"] # List of strings\nmixed = [1, \"hello\", 3.14, True]   # Mixed types\nnested = [[1, 2], [3, 4]]          # Nested list (2D)\nfrom_range = list(range(5))        # [0, 1, 2, 3, 4]</code></pre><p>The <code>list()</code> constructor can convert other iterables (strings, tuples, ranges) into lists.</p>",
+    "why": "<h2>Why Are Lists Important?</h2><p>Lists are the workhorse data structure of Python. Here is why mastering lists is essential:</p><h3>1. Storing Collections of Related Data</h3><p>Whenever you have multiple items that belong together — student marks, product prices, employee names — you store them in a list. Without lists, you would need a separate variable for each item, which is impractical when dealing with hundreds or thousands of values.</p><h3>2. Dynamic Size</h3><p>Unlike arrays in many other languages, Python lists grow and shrink automatically. You can append items, insert at any position, or remove items without worrying about pre-allocating memory. This makes lists ideal for situations where the amount of data is not known in advance.</p><h3>3. Mutability Enables In-Place Modification</h3><p>Lists are <strong>mutable</strong>, meaning you can change their contents without creating a new list. You can update a specific element, sort the list, or reverse it — all in place. This is a key difference from strings and tuples, which are immutable.</p><h3>4. Foundation for Advanced Data Structures</h3><p>Lists are the building blocks for stacks, queues, matrices (2D lists), and many other data structures. Understanding lists deeply is prerequisite for data science (pandas DataFrames are built on array/list concepts), machine learning, and algorithm design.</p><h3>5. List Comprehension Is a Python Superpower</h3><p>Python's list comprehension syntax lets you create and transform lists in a single, readable line. It is one of the features that makes Python code shorter and more elegant than equivalent code in other languages.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Accessing Elements</h3><p>Like strings, lists use <strong>zero-based indexing</strong>. The first element is at index 0, the second at index 1, and so on. Negative indexing also works: -1 is the last element, -2 is the second-to-last.</p><pre><code>fruits = [\"apple\", \"banana\", \"cherry\", \"date\"]\nfruits[0]    # \"apple\"\nfruits[-1]   # \"date\"\nfruits[2]    # \"cherry\"</code></pre><p>Accessing an index beyond the list length raises an <code>IndexError</code>.</p><h3>2. List Slicing</h3><p>Slicing works exactly like string slicing: <code>list[start:stop:step]</code>. The stop index is excluded.</p><pre><code>nums = [10, 20, 30, 40, 50, 60]\nnums[1:4]    # [20, 30, 40]\nnums[:3]     # [10, 20, 30]\nnums[3:]     # [40, 50, 60]\nnums[::2]    # [10, 30, 50]\nnums[::-1]   # [60, 50, 40, 30, 20, 10]</code></pre><p>Unlike indexing, slicing does not raise an error for out-of-range indices. It simply returns whatever elements are available.</p><h3>3. List Mutability</h3><p>The biggest difference between lists and strings is <strong>mutability</strong>. You can change any element of a list by assigning to its index:</p><pre><code>colors = [\"red\", \"green\", \"blue\"]\ncolors[1] = \"yellow\"    # Now: [\"red\", \"yellow\", \"blue\"]\ncolors[0:2] = [\"pink\"]  # Now: [\"pink\", \"blue\"]</code></pre><p>With strings, <code>s[0] = 'x'</code> raises a TypeError. With lists, <code>lst[0] = 'x'</code> works perfectly.</p><h3>4. List Methods</h3><h4>Adding Elements</h4><p><code>append(item)</code> adds a single item to the end of the list. <code>insert(index, item)</code> adds an item at a specific position. <code>extend(iterable)</code> adds all items from another iterable to the end.</p><h4>Removing Elements</h4><p><code>remove(item)</code> removes the first occurrence of the specified item. Raises ValueError if not found. <code>pop(index)</code> removes and returns the item at the given index (default: last item). <code>clear()</code> removes all items.</p><h4>Searching and Counting</h4><p><code>index(item)</code> returns the index of the first occurrence. Raises ValueError if not found. <code>count(item)</code> returns the number of occurrences.</p><h4>Ordering</h4><p><code>sort()</code> sorts the list in place (ascending by default). <code>sort(reverse=True)</code> sorts descending. <code>reverse()</code> reverses the list in place.</p><h4>Copying</h4><p><code>copy()</code> returns a shallow copy of the list.</p><h3>5. List Comprehension</h3><p>List comprehension is a concise way to create lists. The basic syntax is:</p><pre><code>[expression for item in iterable]</code></pre><p>With a condition (filter):</p><pre><code>[expression for item in iterable if condition]</code></pre><p>Examples:</p><pre><code>squares = [x**2 for x in range(6)]        # [0, 1, 4, 9, 16, 25]\nevens = [x for x in range(20) if x % 2 == 0]  # [0, 2, 4, ..., 18]\nuppers = [s.upper() for s in [\"hi\", \"bye\"]]    # [\"HI\", \"BYE\"]</code></pre><h3>6. Nested Lists (2D Lists)</h3><p>A list can contain other lists, creating a 2D structure (like a table or matrix):</p><pre><code>matrix = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n]\nmatrix[0]      # [1, 2, 3] (first row)\nmatrix[0][1]   # 2 (first row, second column)\nmatrix[2][2]   # 9 (third row, third column)</code></pre><p>To access an element in a nested list, use two indices: the first for the row, the second for the column.</p><h3>7. List Copying Pitfalls</h3><p>This is one of the most important topics for lists. When you write <code>b = a</code> where <code>a</code> is a list, you do NOT create a copy. Both <code>a</code> and <code>b</code> point to the <strong>same list object</strong>. Changing one changes the other.</p><pre><code>a = [1, 2, 3]\nb = a           # NOT a copy! Both point to same list\nb.append(4)\nprint(a)        # [1, 2, 3, 4] - a is also changed!</code></pre><p>To create an actual (shallow) copy, use any of these:</p><pre><code>b = a.copy()    # Method 1\nb = list(a)     # Method 2\nb = a[:]        # Method 3</code></pre><p>A <strong>shallow copy</strong> creates a new list, but nested objects inside are still shared. For nested lists, you may need <code>copy.deepcopy()</code> from the <code>copy</code> module.</p><h3>8. Built-in Functions for Lists</h3><p><code>len(lst)</code> returns the number of elements. <code>min(lst)</code> and <code>max(lst)</code> return the smallest and largest elements. <code>sum(lst)</code> returns the sum (for numeric lists). <code>sorted(lst)</code> returns a new sorted list without modifying the original (unlike <code>.sort()</code> which modifies in place and returns None).</p><h3>9. List Unpacking</h3><p>You can assign list elements to individual variables in a single statement:</p><pre><code>a, b, c = [10, 20, 30]\nprint(a)  # 10\nprint(b)  # 20\nprint(c)  # 30</code></pre><p>The number of variables must match the number of elements, or use <code>*</code> for the rest:</p><pre><code>first, *rest = [1, 2, 3, 4, 5]\nprint(first)  # 1\nprint(rest)   # [2, 3, 4, 5]</code></pre><h3>10. Membership and Deletion</h3><p>The <code>in</code> operator checks if an item exists in a list: <code>3 in [1, 2, 3]</code> returns True. The <code>del</code> keyword removes an element by index or deletes a slice: <code>del lst[0]</code> removes the first element.</p>",
+    "codeExamples": [
+      {
+        "title": "Creating and Accessing Lists",
+        "code": "# Creating lists\nnumbers = [10, 20, 30, 40, 50]\nnames = [\"Aarav\", \"Priya\", \"Rohan\"]\nmixed = [1, \"hello\", 3.14, True]\n\n# Accessing elements\nprint(numbers[0])      # First element\nprint(numbers[-1])     # Last element\nprint(names[1])        # Second element\n\n# Modifying elements (lists are mutable!)\nnumbers[2] = 99\nprint(numbers)\n\n# Length\nprint(len(names))",
+        "language": "python",
+        "explanation": "Lists are created with square brackets. Elements are accessed by index (0-based). Unlike strings, you can modify elements by assigning to an index. <code>len()</code> returns the number of elements in the list.",
+        "output": "10\n50\nPriya\n[10, 20, 99, 40, 50]\n3"
+      },
+      {
+        "title": "List Methods - Adding and Removing",
+        "code": "fruits = [\"apple\", \"banana\"]\n\n# Adding elements\nfruits.append(\"cherry\")        # Add to end\nprint(\"After append:\", fruits)\n\nfruits.insert(1, \"mango\")      # Insert at index 1\nprint(\"After insert:\", fruits)\n\nfruits.extend([\"grape\", \"kiwi\"])  # Add multiple items\nprint(\"After extend:\", fruits)\n\n# Removing elements\nfruits.remove(\"banana\")        # Remove by value\nprint(\"After remove:\", fruits)\n\npopped = fruits.pop()          # Remove and return last\nprint(\"Popped:\", popped)\nprint(\"After pop:\", fruits)\n\nfruits.pop(0)                  # Remove at index 0\nprint(\"After pop(0):\", fruits)",
+        "language": "python",
+        "explanation": "<code>append()</code> adds one item to the end. <code>insert()</code> adds at a specific position, shifting others right. <code>extend()</code> adds all items from an iterable. <code>remove()</code> removes the first match by value. <code>pop()</code> removes by index and returns the removed item.",
+        "output": "After append: ['apple', 'banana', 'cherry']\nAfter insert: ['apple', 'mango', 'banana', 'cherry']\nAfter extend: ['apple', 'mango', 'banana', 'cherry', 'grape', 'kiwi']\nAfter remove: ['apple', 'mango', 'cherry', 'grape', 'kiwi']\nPopped: kiwi\nAfter pop: ['apple', 'mango', 'cherry', 'grape']\nAfter pop(0): ['mango', 'cherry', 'grape']"
+      },
+      {
+        "title": "sort() vs sorted()",
+        "code": "# sort() modifies the original list\nnums = [5, 2, 8, 1, 9, 3]\nnums.sort()\nprint(\"After sort():\", nums)\n\n# sort() returns None!\nresult = nums.sort(reverse=True)\nprint(\"Return value of sort():\", result)\nprint(\"List after reverse sort:\", nums)\n\n# sorted() returns a NEW list, original unchanged\noriginal = [5, 2, 8, 1, 9, 3]\nnew_list = sorted(original)\nprint(\"Original:\", original)\nprint(\"Sorted copy:\", new_list)\n\n# sorted() with reverse\nprint(\"Sorted descending:\", sorted(original, reverse=True))",
+        "language": "python",
+        "explanation": "<code>.sort()</code> sorts the list in place and returns <code>None</code>. <code>sorted()</code> returns a new sorted list, leaving the original unchanged. This is a common source of bugs: writing <code>result = lst.sort()</code> assigns None to result. Use <code>sorted()</code> when you need to keep the original.",
+        "output": "After sort(): [1, 2, 3, 5, 8, 9]\nReturn value of sort(): None\nList after reverse sort: [9, 8, 5, 3, 2, 1]\nOriginal: [5, 2, 8, 1, 9, 3]\nSorted copy: [1, 2, 3, 5, 8, 9]\nSorted descending: [9, 8, 5, 3, 2, 1]"
+      },
+      {
+        "title": "List Comprehension",
+        "code": "# Basic comprehension\nsquares = [x**2 for x in range(1, 6)]\nprint(\"Squares:\", squares)\n\n# Comprehension with condition\nevens = [x for x in range(1, 21) if x % 2 == 0]\nprint(\"Evens:\", evens)\n\n# Transform strings\nnames = [\"aarav\", \"priya\", \"rohan\"]\nupper_names = [name.upper() for name in names]\nprint(\"Uppercase:\", upper_names)\n\n# Comprehension with expression\nlengths = [len(name) for name in names]\nprint(\"Lengths:\", lengths)\n\n# Nested comprehension (flatten 2D to 1D)\nmatrix = [[1, 2], [3, 4], [5, 6]]\nflat = [num for row in matrix for num in row]\nprint(\"Flattened:\", flat)",
+        "language": "python",
+        "explanation": "List comprehension follows the pattern <code>[expression for item in iterable if condition]</code>. The condition is optional. You can apply any expression to transform items. Nested comprehensions iterate over multiple levels: the outer loop comes first, then the inner loop.",
+        "output": "Squares: [1, 4, 9, 16, 25]\nEvens: [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]\nUppercase: ['AARAV', 'PRIYA', 'ROHAN']\nLengths: [5, 5, 5]\nFlattened: [1, 2, 3, 4, 5, 6]"
+      },
+      {
+        "title": "List Copying Pitfalls",
+        "code": "# The WRONG way - both variables point to the same list\na = [1, 2, 3]\nb = a\nb.append(4)\nprint(\"a:\", a)  # a is also changed!\nprint(\"b:\", b)\nprint(\"Same object?\", a is b)\n\nprint()\n\n# The RIGHT way - create a copy\nx = [1, 2, 3]\ny = x.copy()     # or x[:] or list(x)\ny.append(4)\nprint(\"x:\", x)  # x is unchanged\nprint(\"y:\", y)\nprint(\"Same object?\", x is y)\n\nprint()\n\n# Shallow copy pitfall with nested lists\nouter = [[1, 2], [3, 4]]\nshallow = outer.copy()\nshallow[0][0] = 99\nprint(\"outer:\", outer)    # outer is also changed!\nprint(\"shallow:\", shallow)",
+        "language": "python",
+        "explanation": "<code>b = a</code> creates an alias, not a copy. Both variables reference the same list object. <code>.copy()</code>, <code>[:]</code>, and <code>list()</code> create shallow copies. A shallow copy creates a new list, but nested objects inside are still shared. Modifying a nested list in the copy also modifies the original. Use <code>import copy; copy.deepcopy()</code> for truly independent nested copies.",
+        "output": "a: [1, 2, 3, 4]\nb: [1, 2, 3, 4]\nSame object? True\n\nx: [1, 2, 3]\ny: [1, 2, 3, 4]\nSame object? False\n\nouter: [[99, 2], [3, 4]]\nshallow: [[99, 2], [3, 4]]"
+      },
+      {
+        "title": "Nested Lists and 2D Access",
+        "code": "# Creating a 3x3 matrix\nmatrix = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n]\n\n# Accessing elements\nprint(\"Row 0:\", matrix[0])\nprint(\"Element [1][2]:\", matrix[1][2])\nprint(\"Element [2][0]:\", matrix[2][0])\n\n# Iterating over a 2D list\nprint(\"\\nAll elements:\")\nfor row in matrix:\n    for item in row:\n        print(item, end=\" \")\n    print()\n\n# Modifying a nested element\nmatrix[1][1] = 50\nprint(\"\\nAfter modification:\", matrix[1])",
+        "language": "python",
+        "explanation": "A nested list is a list of lists, commonly used as a 2D matrix. <code>matrix[i]</code> accesses the i-th row (itself a list). <code>matrix[i][j]</code> accesses the element at row i, column j. Use nested loops to iterate over all elements. Elements in nested lists can be modified in place.",
+        "output": "Row 0: [1, 2, 3]\nElement [1][2]: 6\nElement [2][0]: 7\n\nAll elements:\n1 2 3 \n4 5 6 \n7 8 9 \n\nAfter modification: [4, 50, 6]"
+      },
+      {
+        "title": "Built-in Functions and Unpacking",
+        "code": "nums = [15, 8, 23, 4, 42, 16]\n\nprint(\"Length:\", len(nums))\nprint(\"Sum:\", sum(nums))\nprint(\"Min:\", min(nums))\nprint(\"Max:\", max(nums))\n\n# List unpacking\na, b, c = [10, 20, 30]\nprint(f\"a={a}, b={b}, c={c}\")\n\n# Extended unpacking with *\nfirst, *middle, last = [1, 2, 3, 4, 5]\nprint(f\"first={first}, middle={middle}, last={last}\")\n\n# Membership test\nprint(23 in nums)\nprint(99 in nums)\n\n# del keyword\ndel nums[0]\nprint(\"After del nums[0]:\", nums)",
+        "language": "python",
+        "explanation": "<code>len()</code>, <code>sum()</code>, <code>min()</code>, <code>max()</code> are built-in functions that work with lists. Unpacking assigns list elements to individual variables. The <code>*</code> operator collects remaining elements into a list. The <code>in</code> operator checks membership. <code>del</code> removes elements by index.",
+        "output": "Length: 6\nSum: 108\nMin: 4\nMax: 42\na=10, b=20, c=30\nfirst=1, middle=[2, 3, 4], last=5\nTrue\nFalse\nAfter del nums[0]: [8, 23, 4, 42, 16]"
+      },
+      {
+        "title": "List Slicing and del",
+        "code": "nums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]\n\nprint(nums[2:7])      # Elements at indices 2-6\nprint(nums[::3])      # Every 3rd element\nprint(nums[::-1])     # Reversed\nprint(nums[7:2:-1])   # Backwards from index 7 to 3\n\n# Slice assignment (replace a section)\nnums[3:6] = [30, 40]\nprint(\"After slice assignment:\", nums)\n\n# del a slice\ndel nums[1:3]\nprint(\"After del slice:\", nums)",
+        "language": "python",
+        "explanation": "List slicing follows the same <code>[start:stop:step]</code> syntax as strings. A key difference: you can <strong>assign to a slice</strong>, replacing a section of the list with new elements (even a different number of elements). You can also delete a slice with <code>del</code>.",
+        "output": "[2, 3, 4, 5, 6]\n[0, 3, 6, 9]\n[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]\n[7, 6, 5, 4, 3]\nAfter slice assignment: [0, 1, 2, 30, 40, 6, 7, 8, 9]\nAfter del slice: [0, 30, 40, 6, 7, 8, 9]"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using = Instead of .copy() to Duplicate a List",
+        "wrongCode": "original = [1, 2, 3]\nbackup = original\noriginal.append(4)\nprint(backup)  # [1, 2, 3, 4] - backup is also changed!",
+        "error": "No error, but backup is not an independent copy. Both variables reference the same list.",
+        "correctCode": "original = [1, 2, 3]\nbackup = original.copy()  # or original[:] or list(original)\noriginal.append(4)\nprint(backup)  # [1, 2, 3] - backup is independent",
+        "explanation": "<code>backup = original</code> makes both variables point to the same list object in memory. Any change through one variable is visible through the other. To create an independent copy, use <code>.copy()</code>, <code>[:]</code>, or <code>list()</code>."
+      },
+      {
+        "title": "Assigning sort() Return Value to a Variable",
+        "wrongCode": "nums = [5, 3, 1, 4, 2]\nsorted_nums = nums.sort()\nprint(sorted_nums)  # None!",
+        "error": "sorted_nums is None because .sort() modifies the list in place and returns None.",
+        "correctCode": "nums = [5, 3, 1, 4, 2]\nsorted_nums = sorted(nums)  # Returns a new sorted list\nprint(sorted_nums)  # [1, 2, 3, 4, 5]\nprint(nums)         # [5, 3, 1, 4, 2] (unchanged)",
+        "explanation": "<code>.sort()</code> sorts the list in place and returns <code>None</code>. This is a design choice in Python: methods that modify objects in place return None to avoid confusion. Use <code>sorted()</code> if you need a new sorted list while keeping the original."
+      },
+      {
+        "title": "Using append() When extend() Is Needed",
+        "wrongCode": "a = [1, 2, 3]\nb = [4, 5, 6]\na.append(b)\nprint(a)  # [1, 2, 3, [4, 5, 6]] - b is added as a single nested element!",
+        "error": "No error, but append adds the entire list as one element, creating a nested list.",
+        "correctCode": "a = [1, 2, 3]\nb = [4, 5, 6]\na.extend(b)\nprint(a)  # [1, 2, 3, 4, 5, 6] - elements are added individually",
+        "explanation": "<code>append(item)</code> adds <code>item</code> as a single element to the end. If <code>item</code> is a list, the entire list becomes one nested element. <code>extend(iterable)</code> adds each element of the iterable individually. Use <code>extend()</code> or <code>+=</code> to merge two lists."
+      },
+      {
+        "title": "Modifying a List While Iterating Over It",
+        "wrongCode": "nums = [1, 2, 3, 4, 5, 6]\nfor num in nums:\n    if num % 2 == 0:\n        nums.remove(num)\nprint(nums)  # [1, 3, 5, 6] - 6 was not removed!",
+        "error": "No error, but some elements are skipped because the list changes size during iteration.",
+        "correctCode": "nums = [1, 2, 3, 4, 5, 6]\nnums = [num for num in nums if num % 2 != 0]\nprint(nums)  # [1, 3, 5]",
+        "explanation": "Removing elements while iterating causes the loop to skip elements because indices shift. When 2 is removed, 3 moves to index 1 and 4 moves to index 2. The loop advances to index 2 (now 4), skipping 3. Use list comprehension to create a filtered copy instead."
+      },
+      {
+        "title": "IndexError with Empty List or Wrong Index",
+        "wrongCode": "items = [10, 20, 30]\nprint(items[3])  # IndexError!",
+        "error": "IndexError: list index out of range. Valid indices are 0, 1, 2 (or -1, -2, -3).",
+        "correctCode": "items = [10, 20, 30]\nif len(items) > 3:\n    print(items[3])\nelse:\n    print(\"Index 3 does not exist. Last index is\", len(items) - 1)",
+        "explanation": "A list with 3 elements has indices 0, 1, 2. Index 3 is out of range. Always check the list length before accessing an index, or use try/except to handle the error. Remember: the maximum valid index is <code>len(lst) - 1</code>."
+      },
+      {
+        "title": "Shallow Copy Does Not Copy Nested Lists",
+        "wrongCode": "matrix = [[1, 2], [3, 4]]\ncopy = matrix.copy()\ncopy[0][0] = 99\nprint(matrix)  # [[99, 2], [3, 4]] - original is changed!",
+        "error": "No error, but modifying the nested list in the copy also modifies the original.",
+        "correctCode": "import copy\nmatrix = [[1, 2], [3, 4]]\ndeep = copy.deepcopy(matrix)\ndeep[0][0] = 99\nprint(matrix)  # [[1, 2], [3, 4]] - original is safe",
+        "explanation": "<code>.copy()</code> creates a <strong>shallow</strong> copy: the outer list is new, but inner lists are still shared references. To create a fully independent copy of a nested structure, use <code>copy.deepcopy()</code> from the <code>copy</code> module."
+      }
+    ],
+    "summary": [
+      "Lists are ordered, mutable collections created with square brackets []. They can hold items of any type, including other lists.",
+      "Indexing uses 0-based positive indices (0, 1, 2...) and negative indices (-1, -2...). Accessing an out-of-range index raises IndexError.",
+      "Slicing with [start:stop:step] works like strings. The stop index is excluded. You can assign to a slice to replace a section of the list.",
+      "Lists are mutable: you can change elements by index, append, insert, remove, sort, and reverse in place. This is a key difference from strings and tuples.",
+      "Key methods: append() adds one item, extend() adds multiple items, insert() adds at a position, remove() removes by value, pop() removes by index and returns it.",
+      ".sort() sorts in place and returns None. sorted() returns a new sorted list. Do not assign .sort() to a variable.",
+      "b = a creates an alias (not a copy). Use .copy(), [:], or list() for a shallow copy. Use copy.deepcopy() for nested lists.",
+      "List comprehension [expr for item in iterable if condition] creates lists concisely. It replaces many for-loop-and-append patterns.",
+      "Nested lists create 2D structures. Access with two indices: matrix[row][col]. Use nested loops to iterate over all elements.",
+      "Built-in functions: len(), sum(), min(), max() work on lists. sorted() returns a new list. The 'in' operator checks membership. del removes by index."
+    ]
+  },
+  "relatedTopics": ["strings-in-python", "tuples-in-python"],
+  "practice": {
+    "totalQuestions": 65,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>nums = [10, 20, 30, 40]\nprint(nums[0])\nprint(nums[-1])</code></pre>",
+        "hint": "Index 0 is the first element. Index -1 is the last element.",
+        "answer": "<code>10</code><br><code>40</code>",
+        "explanation": "<code>nums[0]</code> is the first element (10). <code>nums[-1]</code> is the last element (40). The list has indices 0, 1, 2, 3 (positive) and -4, -3, -2, -1 (negative)."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>fruits = [\"apple\", \"banana\", \"cherry\"]\nfruits.append(\"mango\")\nprint(fruits)\nprint(len(fruits))</code></pre>",
+        "hint": "append() adds an item to the end of the list.",
+        "answer": "<code>['apple', 'banana', 'cherry', 'mango']</code><br><code>4</code>",
+        "explanation": "<code>append(\"mango\")</code> adds \"mango\" to the end. The list now has 4 elements. <code>len()</code> returns 4."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]\nprint(nums[1:4])</code></pre>",
+        "hint": "Slicing from index 1 up to (but not including) index 4.",
+        "answer": "<code>[2, 3, 4]</code>",
+        "explanation": "<code>nums[1:4]</code> returns elements at indices 1, 2, 3. Index 4 is excluded. The result is [2, 3, 4]."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>colors = [\"red\", \"green\", \"blue\"]\ncolors[1] = \"yellow\"\nprint(colors)</code></pre>",
+        "hint": "Lists are mutable. You can assign a new value to any index.",
+        "answer": "<code>['red', 'yellow', 'blue']</code>",
+        "explanation": "<code>colors[1] = \"yellow\"</code> replaces \"green\" (at index 1) with \"yellow\". Lists are mutable, so this assignment works without error."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [3, 1, 4, 1, 5, 9]\nprint(nums.count(1))\nprint(nums.index(4))</code></pre>",
+        "hint": "count() counts occurrences. index() returns the position of the first match.",
+        "answer": "<code>2</code><br><code>2</code>",
+        "explanation": "<code>count(1)</code> returns 2 because 1 appears twice in the list. <code>index(4)</code> returns 2 because 4 is first found at index 2."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [5, 3, 8, 1]\nnums.sort()\nprint(nums)</code></pre>",
+        "hint": "sort() arranges elements in ascending order by default.",
+        "answer": "<code>[1, 3, 5, 8]</code>",
+        "explanation": "<code>.sort()</code> sorts the list in place in ascending order. The original list is modified to [1, 3, 5, 8]."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\nb = a\nb.append(4)\nprint(a)\nprint(a is b)</code></pre>",
+        "hint": "b = a does not create a copy. Both variables reference the same list.",
+        "answer": "<code>[1, 2, 3, 4]</code><br><code>True</code>",
+        "explanation": "<code>b = a</code> makes b an alias for the same list object. Appending to b also changes a because they are the same object. <code>a is b</code> confirms they are the same object (True)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\nb = a.copy()\nb.append(4)\nprint(a)\nprint(b)\nprint(a is b)</code></pre>",
+        "hint": ".copy() creates a new list with the same elements.",
+        "answer": "<code>[1, 2, 3]</code><br><code>[1, 2, 3, 4]</code><br><code>False</code>",
+        "explanation": "<code>.copy()</code> creates a new, independent list. Appending to b does not affect a. <code>a is b</code> is False because they are different objects."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [10, 20, 30, 40, 50]\nprint(nums[::-1])\nprint(nums[3:0:-1])</code></pre>",
+        "hint": "[::-1] reverses the list. [3:0:-1] goes backwards from index 3, stopping before index 0.",
+        "answer": "<code>[50, 40, 30, 20, 10]</code><br><code>[40, 30, 20]</code>",
+        "explanation": "<code>nums[::-1]</code> reverses the entire list. <code>nums[3:0:-1]</code> starts at index 3 (40), goes backwards to index 1 (20), stopping before index 0. Result: [40, 30, 20]."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>result = [x**2 for x in range(1, 6)]\nprint(result)</code></pre>",
+        "hint": "List comprehension: [expression for variable in iterable].",
+        "answer": "<code>[1, 4, 9, 16, 25]</code>",
+        "explanation": "The list comprehension squares each number from 1 to 5: 1*1=1, 2*2=4, 3*3=9, 4*4=16, 5*5=25."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>evens = [x for x in range(10) if x % 2 == 0]\nprint(evens)</code></pre>",
+        "hint": "List comprehension with a filter condition.",
+        "answer": "<code>[0, 2, 4, 6, 8]</code>",
+        "explanation": "The comprehension generates x for each value in range(10) where x is even. Values 0, 2, 4, 6, 8 satisfy <code>x % 2 == 0</code>."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\nb = [4, 5]\na.extend(b)\nprint(a)\nprint(b)</code></pre>",
+        "hint": "extend() adds each element from the iterable, not the iterable itself.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code><br><code>[4, 5]</code>",
+        "explanation": "<code>extend(b)</code> adds each element of b (4, 5) to the end of a individually. b itself remains unchanged. After extend, a has 5 elements."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>nums = [5, 3, 1, 4]\nresult = nums.sort()\nprint(result)\nprint(nums)</code></pre>",
+        "hint": ".sort() returns None. It modifies the list in place.",
+        "answer": "<code>None</code><br><code>[1, 3, 4, 5]</code>",
+        "explanation": "<code>.sort()</code> sorts the list in place and returns <code>None</code>. The variable <code>result</code> is None. The list <code>nums</code> is now sorted. This is a very common mistake: assigning <code>.sort()</code> to a variable."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\na.append([4, 5])\nprint(a)\nprint(len(a))</code></pre>",
+        "hint": "append() adds the entire argument as a single element.",
+        "answer": "<code>[1, 2, 3, [4, 5]]</code><br><code>4</code>",
+        "explanation": "<code>append([4, 5])</code> adds the list [4, 5] as a single element at the end. The list a now has 4 elements, where the 4th element is itself a list [4, 5]. To add elements individually, use <code>extend()</code>."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nprint(matrix[1][2])\nprint(matrix[0][-1])\nprint(matrix[-1][0])</code></pre>",
+        "hint": "First index selects the row, second index selects the column.",
+        "answer": "<code>6</code><br><code>3</code><br><code>7</code>",
+        "explanation": "<code>matrix[1][2]</code>: row 1 is [4, 5, 6], element at index 2 is 6. <code>matrix[0][-1]</code>: row 0 is [1, 2, 3], last element is 3. <code>matrix[-1][0]</code>: last row is [7, 8, 9], first element is 7."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>outer = [[1, 2], [3, 4]]\nshallow = outer.copy()\nshallow[0][0] = 99\nprint(outer)\nprint(shallow)</code></pre>",
+        "hint": "Shallow copy creates a new outer list, but inner lists are still shared.",
+        "answer": "<code>[[99, 2], [3, 4]]</code><br><code>[[99, 2], [3, 4]]</code>",
+        "explanation": "<code>.copy()</code> creates a shallow copy. The outer list is new, but <code>shallow[0]</code> and <code>outer[0]</code> still reference the same inner list [1, 2]. Changing <code>shallow[0][0]</code> to 99 also changes <code>outer[0][0]</code>."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>first, *rest, last = [10, 20, 30, 40, 50]\nprint(first)\nprint(rest)\nprint(last)</code></pre>",
+        "hint": "The * collects all remaining elements between first and last into a list.",
+        "answer": "<code>10</code><br><code>[20, 30, 40]</code><br><code>50</code>",
+        "explanation": "Extended unpacking: <code>first</code> gets 10, <code>last</code> gets 50, and <code>*rest</code> collects everything in between as a list: [20, 30, 40]."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]\nnums[1:4] = [20]\nprint(nums)\nprint(len(nums))</code></pre>",
+        "hint": "Slice assignment can replace a section with a different number of elements.",
+        "answer": "<code>[1, 20, 5]</code><br><code>3</code>",
+        "explanation": "<code>nums[1:4]</code> covers elements at indices 1, 2, 3 (which are 2, 3, 4). Replacing this slice with [20] removes 3 elements and inserts 1. The list goes from 5 elements to 3 elements: [1, 20, 5]."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3]\nnums.insert(0, 0)\nprint(nums)</code></pre>",
+        "hint": "insert(index, item) adds the item before the given index.",
+        "answer": "<code>[0, 1, 2, 3]</code>",
+        "explanation": "<code>insert(0, 0)</code> inserts the value 0 at index 0 (the beginning). All existing elements shift to the right."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [10, 20, 30, 40]\npopped = nums.pop(1)\nprint(popped)\nprint(nums)</code></pre>",
+        "hint": "pop(index) removes and returns the element at that index.",
+        "answer": "<code>20</code><br><code>[10, 30, 40]</code>",
+        "explanation": "<code>pop(1)</code> removes the element at index 1 (which is 20) and returns it. The list shrinks to [10, 30, 40]."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>print(3 in [1, 2, 3, 4])\nprint(5 in [1, 2, 3, 4])\nprint(\"a\" in [\"a\", \"b\", \"c\"])</code></pre>",
+        "hint": "The 'in' operator checks if an item exists in the list.",
+        "answer": "<code>True</code><br><code>False</code><br><code>True</code>",
+        "explanation": "The <code>in</code> operator returns True if the item is found in the list, False otherwise. 3 is in the first list, 5 is not in the second, and \"a\" is in the third."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5]\nnew = sorted(nums, reverse=True)\nprint(nums)\nprint(new)</code></pre>",
+        "hint": "sorted() returns a new list. The original is unchanged.",
+        "answer": "<code>[1, 2, 3, 4, 5]</code><br><code>[5, 4, 3, 2, 1]</code>",
+        "explanation": "<code>sorted()</code> returns a new sorted list without modifying the original. With <code>reverse=True</code>, it sorts in descending order. The original <code>nums</code> remains [1, 2, 3, 4, 5]."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>words = [\"hello\", \"world\"]\nupper = [w.upper() for w in words]\nprint(upper)\nprint(words)</code></pre>",
+        "hint": "List comprehension creates a new list. The original list is unchanged.",
+        "answer": "<code>['HELLO', 'WORLD']</code><br><code>['hello', 'world']</code>",
+        "explanation": "The list comprehension creates a new list with each word converted to uppercase. The original <code>words</code> list is not modified."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [4, 7, 2, 9, 1]\nprint(min(nums))\nprint(max(nums))\nprint(sum(nums))</code></pre>",
+        "hint": "min(), max(), and sum() are built-in functions that work with lists of numbers.",
+        "answer": "<code>1</code><br><code>9</code><br><code>23</code>",
+        "explanation": "<code>min()</code> returns the smallest element (1). <code>max()</code> returns the largest (9). <code>sum()</code> returns the total (4+7+2+9+1 = 23)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2]\nb = [3, 4]\nc = a + b\nprint(c)\nprint(a)</code></pre>",
+        "hint": "+ creates a new list by concatenating. It does not modify the originals.",
+        "answer": "<code>[1, 2, 3, 4]</code><br><code>[1, 2]</code>",
+        "explanation": "The <code>+</code> operator concatenates two lists into a new list. Neither <code>a</code> nor <code>b</code> is modified. <code>c</code> is a new list [1, 2, 3, 4]."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5, 6]\nfor num in nums:\n    if num % 2 == 0:\n        nums.remove(num)\nprint(nums)</code></pre>",
+        "hint": "Removing elements while iterating over a list causes elements to be skipped.",
+        "answer": "<code>[1, 3, 5, 6]</code>",
+        "explanation": "This is a common bug. After removing 2 (index 1), 4 moves to index 2 and 3 moves to index 1. The iterator advances to index 2, which is now 4 (it was 3 before the removal). 4 is removed. Then 5 is at index 2, 6 at index 3. The iterator goes to index 3 (6), but 5 was already visited. 6 is even but by this point the loop ends at the wrong time. The result is [1, 3, 5, 6] — 6 survives."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = [[0]] * 3\na[0][0] = 5\nprint(a)</code></pre>",
+        "hint": "Multiplying a list containing a mutable object creates multiple references to the SAME object.",
+        "answer": "<code>[[5], [5], [5]]</code>",
+        "explanation": "<code>[[0]] * 3</code> creates <code>[[0], [0], [0]]</code>, but all three inner lists are the SAME object. Changing <code>a[0][0]</code> to 5 changes all of them because they are all references to the same inner list. This is a very common pitfall when creating 2D lists."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>nums = list(range(10))\nresult = nums[8:2:-2]\nprint(result)</code></pre>",
+        "hint": "Start at index 8, go backwards by step -2, stop before index 2.",
+        "answer": "<code>[8, 6, 4]</code>",
+        "explanation": "<code>nums</code> is [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]. <code>nums[8:2:-2]</code> starts at index 8 (value 8), goes backwards by 2: index 8 (8), index 6 (6), index 4 (4). The next would be index 2, but stop is exclusive, so it is not included."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>append()</code> and <code>extend()</code>? Give an example where using the wrong one causes unexpected behavior.",
+        "hint": "One adds a single element, the other adds each element from an iterable.",
+        "answer": "<code>append(item)</code> adds <code>item</code> as a single element to the end of the list. <code>extend(iterable)</code> adds each element from the iterable individually.<br><br>Example: <code>a = [1, 2]; a.append([3, 4])</code> gives <code>[1, 2, [3, 4]]</code> (nested list). <code>a = [1, 2]; a.extend([3, 4])</code> gives <code>[1, 2, 3, 4]</code> (flat list).",
+        "explanation": "If you want to merge two lists into one flat list, use <code>extend()</code>. If you intentionally want to nest a list inside another, use <code>append()</code>. Using <code>append()</code> when you meant <code>extend()</code> creates an unintended nested structure."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>.sort()</code> and <code>sorted()</code>?",
+        "hint": "One modifies in place, the other returns a new list.",
+        "answer": "<code>.sort()</code> sorts the list <strong>in place</strong> and returns <strong>None</strong>. <code>sorted()</code> returns a <strong>new sorted list</strong> and leaves the original unchanged.",
+        "explanation": "Use <code>.sort()</code> when you do not need the original order. Use <code>sorted()</code> when you need to keep the original list intact. A common bug is <code>result = lst.sort()</code> which assigns None to result because <code>.sort()</code> returns None."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>flat = [num for row in [[1,2],[3,4],[5,6]] for num in row]\nprint(flat)</code></pre>",
+        "hint": "Nested comprehension: outer loop first, inner loop second.",
+        "answer": "<code>[1, 2, 3, 4, 5, 6]</code>",
+        "explanation": "This nested list comprehension flattens a 2D list. It is equivalent to: for row in [[1,2],[3,4],[5,6]]: for num in row: append num. The order is: 1, 2 (from [1,2]), 3, 4 (from [3,4]), 5, 6 (from [5,6])."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "Which of the following creates an empty list?",
+        "options": [
+          "list = ()",
+          "list = []",
+          "list = {}",
+          "list = <>"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Square brackets <code>[]</code> create an empty list. Parentheses <code>()</code> (A) create an empty tuple. Curly braces <code>{}</code> (C) create an empty dictionary, not a list. <code><></code> (D) is not valid Python syntax."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does nums.append(5) do?",
+        "options": [
+          "Adds 5 at the beginning",
+          "Adds 5 at the end",
+          "Adds 5 at index 5",
+          "Replaces the first element with 5"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>append()</code> always adds the item to the <strong>end</strong> of the list. To add at the beginning, use <code>insert(0, 5)</code>. To add at a specific index, use <code>insert(index, 5)</code>."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is [1, 2, 3] + [4, 5]?",
+        "options": [
+          "[1, 2, 3, [4, 5]]",
+          "[1, 2, 3, 4, 5]",
+          "[5, 7, 8]",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>+</code> operator concatenates two lists, creating a new list with all elements. It does NOT nest the second list (A) or add corresponding elements (C)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "How do you check if 5 is in a list called nums?",
+        "options": [
+          "nums.contains(5)",
+          "nums.has(5)",
+          "5 in nums",
+          "nums.find(5)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>in</code> operator checks membership. Python lists do not have <code>contains()</code> (A), <code>has()</code> (B), or <code>find()</code> (D) methods. <code>find()</code> is a string method, not a list method."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What does .pop() return when called with no arguments?",
+        "options": [
+          "The first element",
+          "The last element",
+          "None",
+          "The list itself"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pop()</code> with no arguments removes and returns the <strong>last</strong> element. <code>pop(0)</code> would remove and return the first element. Unlike <code>.sort()</code>, <code>.pop()</code> does return a value."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of [x for x in range(5) if x % 2 == 0]?",
+        "options": [
+          "[1, 3]",
+          "[0, 2, 4]",
+          "[2, 4]",
+          "[0, 1, 2, 3, 4]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The comprehension filters values from range(5) where x is even. 0 % 2 == 0 (True), 1 % 2 == 0 (False), 2 % 2 == 0 (True), 3 (False), 4 (True). Result: [0, 2, 4]. Option C misses 0."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does .sort() return?",
+        "options": [
+          "The sorted list",
+          "A new sorted list",
+          "None",
+          "The original list"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.sort()</code> sorts the list in place and returns <code>None</code>. This is a Python convention: methods that modify objects in place return None. Use <code>sorted()</code> if you need a return value."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the difference between remove() and pop()?",
+        "options": [
+          "remove() deletes by index, pop() deletes by value",
+          "remove() deletes by value, pop() deletes by index",
+          "Both delete by value",
+          "Both delete by index"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>remove(value)</code> removes the first occurrence of the specified value. <code>pop(index)</code> removes and returns the element at the specified index. They work in opposite ways."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which creates a proper copy of list a?",
+        "options": [
+          "b = a",
+          "b = a.copy()",
+          "b = a.sort()",
+          "b = a.append([])"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>a.copy()</code> creates a shallow copy. Option A creates an alias (same object). Option C assigns None (sort returns None). Option D assigns None (append returns None)."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is the output of len([[1, 2], [3, 4], [5, 6]])?",
+        "options": [
+          "6",
+          "3",
+          "2",
+          "9"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>len()</code> counts the number of top-level elements. The list contains 3 inner lists, so the length is 3. It does NOT count the total number of elements across all inner lists (that would be 6)."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of [[0] * 3 for _ in range(2)]?",
+        "options": [
+          "[[0, 0, 0], [0, 0, 0]]",
+          "[[0, 0], [0, 0], [0, 0]]",
+          "[0, 0, 0, 0, 0, 0]",
+          "[[0], [0], [0], [0], [0], [0]]"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The comprehension creates 2 rows, each containing [0, 0, 0]. Unlike <code>[[0] * 3] * 2</code> (which creates shared references), this comprehension creates independent inner lists. This is the safe way to create a 2D list of zeros."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What happens when you call .remove() on a value that does not exist in the list?",
+        "options": [
+          "Returns -1",
+          "Returns None",
+          "Raises ValueError",
+          "Removes the last element"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>.remove(value)</code> raises a <code>ValueError</code> if the value is not found in the list. It does not return -1 like string's <code>find()</code>. Always check with <code>in</code> before calling <code>remove()</code> if you are unsure."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of [1, 2, 3] * 2?",
+        "options": [
+          "[2, 4, 6]",
+          "[1, 2, 3, 1, 2, 3]",
+          "[[1, 2, 3], [1, 2, 3]]",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>*</code> operator repeats the list. <code>[1, 2, 3] * 2</code> creates a new list with the elements repeated: [1, 2, 3, 1, 2, 3]. It does NOT multiply each element (A) or create a nested list (C)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the result of list('hello')?",
+        "options": [
+          "['hello']",
+          "['h', 'e', 'l', 'l', 'o']",
+          "('h', 'e', 'l', 'l', 'o')",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>list()</code> constructor converts any iterable into a list. A string is iterable (character by character), so <code>list('hello')</code> creates a list of individual characters: ['h', 'e', 'l', 'l', 'o']."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output of nums = [1, 2]; nums += [3]; print(type(nums))?",
+        "options": [
+          "<class 'tuple'>",
+          "<class 'list'>",
+          "<class 'int'>",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>+=</code> with lists is equivalent to <code>extend()</code>. It adds the elements from [3] to nums. The result is still a list [1, 2, 3]. The type remains <code>list</code>."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the output of [[0]] * 3 after modifying the first inner list?",
+        "options": [
+          "Only the first inner list changes",
+          "All three inner lists change",
+          "An error occurs",
+          "None of the inner lists change"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>[[0]] * 3</code> creates three references to the SAME inner list object. Modifying any one of them modifies all of them because they are the same object. To create independent inner lists, use a list comprehension: <code>[[0] for _ in range(3)]</code>."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "Which method reverses a list in place?",
+        "options": [
+          "reversed()",
+          ".reverse()",
+          ".flip()",
+          "[::-1]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>.reverse()</code> reverses the list in place and returns None. <code>reversed()</code> (A) returns an iterator, not a list, and does not modify the original. <code>[::-1]</code> (D) creates a new reversed list. <code>.flip()</code> (C) does not exist."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "What does del nums[1:3] do to the list nums = [10, 20, 30, 40, 50]?",
+        "options": [
+          "Removes elements at indices 1 and 3",
+          "Removes elements at indices 1 and 2",
+          "Removes the first 3 elements",
+          "Raises an error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>del nums[1:3]</code> deletes the slice from index 1 to 2 (index 3 is excluded). Elements 20 and 30 are removed. The result is [10, 40, 50]. Slice notation always excludes the stop index."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Find the Second Largest",
+        "difficulty": "Easy",
+        "description": "Given the list [45, 12, 78, 34, 56, 89, 23], write a program that finds and prints the second largest number without using sort() or sorted().",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Second largest: 78",
+        "constraints": "Use a loop. Do not sort the list.",
+        "solution": "nums = [45, 12, 78, 34, 56, 89, 23]\nlargest = max(nums[0], nums[1])\nsecond = min(nums[0], nums[1])\nfor num in nums[2:]:\n    if num > largest:\n        second = largest\n        largest = num\n    elif num > second:\n        second = num\nprint(\"Second largest:\", second)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Remove Duplicates",
+        "difficulty": "Easy",
+        "description": "Aarav has the list [1, 2, 3, 2, 4, 3, 5, 1]. Write a program that removes duplicates while preserving the original order. Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 2, 3, 4, 5]",
+        "constraints": "Use a loop. Preserve order of first occurrence.",
+        "solution": "nums = [1, 2, 3, 2, 4, 3, 5, 1]\nresult = []\nfor num in nums:\n    if num not in result:\n        result.append(num)\nprint(result)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Flatten a 2D List",
+        "difficulty": "Easy",
+        "description": "Given the 2D list [[1, 2, 3], [4, 5], [6, 7, 8, 9]], write a program that flattens it into a single list [1, 2, 3, 4, 5, 6, 7, 8, 9].",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+        "constraints": "Use nested loops or list comprehension.",
+        "solution": "matrix = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]\nflat = [num for row in matrix for num in row]\nprint(flat)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Rotate a List",
+        "difficulty": "Medium",
+        "description": "Write a program that rotates the list [1, 2, 3, 4, 5] to the right by 2 positions. After rotation, the last 2 elements should move to the front.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[4, 5, 1, 2, 3]",
+        "constraints": "Use slicing. Do not use any external library.",
+        "solution": "nums = [1, 2, 3, 4, 5]\nk = 2\nrotated = nums[-k:] + nums[:-k]\nprint(rotated)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Matrix Transpose",
+        "difficulty": "Medium",
+        "description": "Priya has a 3x3 matrix: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]. Write a program that transposes it (rows become columns). Print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[[1, 4, 7], [2, 5, 8], [3, 6, 9]]",
+        "constraints": "Use nested loops or list comprehension.",
+        "solution": "matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\ntranspose = [[matrix[j][i] for j in range(3)] for i in range(3)]\nprint(transpose)"
+      },
+      {
+        "id": "cc-6",
+        "title": "Group by Even and Odd",
+        "difficulty": "Medium",
+        "description": "Given the list [12, 7, 3, 18, 5, 22, 9, 14], write a program that separates it into two lists: one with even numbers and one with odd numbers. Print both.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Even: [12, 18, 22, 14]\nOdd: [7, 3, 5, 9]",
+        "constraints": "Use list comprehension.",
+        "solution": "nums = [12, 7, 3, 18, 5, 22, 9, 14]\nevens = [x for x in nums if x % 2 == 0]\nodds = [x for x in nums if x % 2 != 0]\nprint(\"Even:\", evens)\nprint(\"Odd:\", odds)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Find Common Elements",
+        "difficulty": "Medium",
+        "description": "Rohan has two lists: [1, 2, 3, 4, 5] and [3, 4, 5, 6, 7]. Write a program that finds and prints the common elements in both lists, preserving order from the first list.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[3, 4, 5]",
+        "constraints": "Use a loop or list comprehension. Do not use sets.",
+        "solution": "a = [1, 2, 3, 4, 5]\nb = [3, 4, 5, 6, 7]\ncommon = [x for x in a if x in b]\nprint(common)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Frequency Count Without Dictionary",
+        "difficulty": "Hard",
+        "description": "Given the list [3, 1, 2, 3, 4, 2, 3, 1, 5], write a program that prints each unique element and its frequency. Do not use dictionaries.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "3 appears 3 times\n1 appears 2 times\n2 appears 2 times\n4 appears 1 times\n5 appears 1 times",
+        "constraints": "Use a loop and count(). Track already-counted elements.",
+        "solution": "nums = [3, 1, 2, 3, 4, 2, 3, 1, 5]\ncounted = []\nfor num in nums:\n    if num not in counted:\n        print(f\"{num} appears {nums.count(num)} times\")\n        counted.append(num)"
+      },
+      {
+        "id": "cc-9",
+        "title": "Create a Safe 2D Matrix",
+        "difficulty": "Hard",
+        "description": "Write a program that creates a 3x4 matrix (3 rows, 4 columns) initialized with zeros. Then set the element at row 1, column 2 to 99. Print the matrix row by row. Make sure modifying one row does NOT affect others.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[0, 0, 0, 0]\n[0, 0, 99, 0]\n[0, 0, 0, 0]",
+        "constraints": "Use list comprehension (not [[0]*4]*3). Verify independence of rows.",
+        "solution": "matrix = [[0 for _ in range(4)] for _ in range(3)]\nmatrix[1][2] = 99\nfor row in matrix:\n    print(row)"
+      },
+      {
+        "id": "cc-10",
+        "title": "Merge Two Sorted Lists",
+        "difficulty": "Hard",
+        "description": "Given two sorted lists [1, 3, 5, 7] and [2, 4, 6, 8], write a program that merges them into a single sorted list without using sort() or sorted().",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 2, 3, 4, 5, 6, 7, 8]",
+        "constraints": "Use two pointers (indices) to merge efficiently.",
+        "solution": "a = [1, 3, 5, 7]\nb = [2, 4, 6, 8]\nresult = []\ni = 0\nj = 0\nwhile i < len(a) and j < len(b):\n    if a[i] <= b[j]:\n        result.append(a[i])\n        i += 1\n    else:\n        result.append(b[j])\n        j += 1\nresult.extend(a[i:])\nresult.extend(b[j:])\nprint(result)"
+      }
+    ]
+  }
+}
