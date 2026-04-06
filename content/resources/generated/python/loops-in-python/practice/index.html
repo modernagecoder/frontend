@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Loops in Python (for and while) | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="63+ practice questions on Loops in Python (for and while) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="loops in python (for and while) practice, python questions, python practice problems, loops in python (for and while) exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+    <meta property="og:title" content="Practice Questions - Loops in Python (for and while) | Python | Modern Age Coders">
+    <meta property="og:description" content="63+ practice questions on Loops in Python (for and while) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/loops-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - Loops in Python (for and while) | Python | Modern Age Coders">
+    <meta name="twitter:description" content="63+ practice questions on Loops in Python (for and while) in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Loops in Python (for and while)",
+    "description": "63+ practice questions on Loops in Python (for and while) in Python.",
+    "educationalLevel": "Beginner",
+    "about": {
+      "@type": "Thing",
+      "name": "Loops in Python (for and while)"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/loops-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loops in Python (for and while)",
+        "item": "https://learn.modernagecoders.com/resources/python/loops-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/loops-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/loops-in-python">Loops in Python (for and while)</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 8</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-questions">63 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Loops in Python (for and while)</h1>
+            <a href="/resources/python/loops-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>for i in range(4):
+    print(i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">range(4) generates numbers starting from 0 up to (but not including) 4.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>0</code><br><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(1, 6):
+    print(i, end=" ")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">range(1, 6) starts at 1 and stops before 6.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>1 2 3 4 5 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for char in "Hi":
+    print(char)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">A for loop iterates over each character of a string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>H</code><br><code>i</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>count = 3
+while count > 0:
+    print(count)
+    count -= 1</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The loop runs while count is greater than 0, decreasing count each time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>3</code><br><code>2</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(2, 10, 3):
+    print(i, end=" ")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">range(2, 10, 3) starts at 2 and adds 3 each time, stopping before 10.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>2 5 8 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    print("Hello")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The loop runs 3 times. The value of i is not used in the body.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Hello</code><br><code>Hello</code><br><code>Hello</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(5, 0, -1):
+    print(i, end=" ")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Negative step counts backwards. The stop value (0) is excluded.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>5 4 3 2 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>total = 0
+for i in range(1, 6):
+    total += i
+print(total)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The loop adds 1 + 2 + 3 + 4 + 5 to total.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 1
+while x < 20:
+    x *= 2
+print(x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Trace x: 1, 2, 4, 8, 16, ... What happens when x reaches 16?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>32</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    for j in range(2):
+        print(i, j)
+</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">The inner loop runs completely for each iteration of the outer loop.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>0 0</code><br><code>0 1</code><br><code>1 0</code><br><code>1 1</code><br><code>2 0</code><br><code>2 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(1, 5):
+    print("*" * i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The * operator on strings repeats the string. "*" * 3 gives "***".</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>*</code><br><code>**</code><br><code>***</code><br><code>****</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(10, 0):
+    print(i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">What is the default step? Can you count from 10 to 0 with a positive step?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">(No output - nothing is printed)</div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    for j in range(3):
+        if i == j:
+            print(1, end=" ")
+        else:
+            print(0, end=" ")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">This prints 1 when the row equals the column (diagonal), and 0 otherwise.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>1 0 0 </code><br><code>0 1 0 </code><br><code>0 0 1 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(5):
+    pass
+print(i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">pass does nothing, but the loop still runs. What value does i hold after the loop?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    for j in range(i + 1):
+        print(i + j, end=" ")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Trace each row: when i=0, j goes to 1. When i=1, j goes to 2. When i=2, j goes to 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>0 </code><br><code>1 2 </code><br><code>2 3 4 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 100
+while x > 1:
+    x //= 3
+    print(x, end=" ")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Floor divide x by 3 each time: 100 // 3 = ?, then that // 3 = ?, and so on.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>33 11 3 1 0 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(4):
+    for j in range(4 - i):
+        print("*", end="")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">When i=0, the inner loop runs 4 times. When i=1, it runs 3 times. And so on.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>****</code><br><code>***</code><br><code>**</code><br><code>*</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>result = 1
+for i in range(1, 6):
+    result *= i
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">This calculates the factorial of 5 (1 * 2 * 3 * 4 * 5).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 19</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(1, 4):
+    for j in range(1, 4):
+        print(i * j, end="\t")
+    print()
+</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-19" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-19">This prints a 3x3 multiplication table. The tab character \t aligns columns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-19"><code>1	2	3	</code><br><code>2	4	6	</code><br><code>3	6	9	</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 20</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between a for loop and a while loop in Python? When would you choose one over the other?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-20" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-20">Think about whether you know the number of iterations in advance.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-20">A <code>for</code> loop is used when you know how many times to iterate or when iterating over a sequence (string, list, range). A <code>while</code> loop is used when you want to repeat as long as a condition is True, and you may not know the number of iterations in advance. Use <code>for</code> when counting or traversing sequences. Use <code>while</code> when waiting for a condition to change (like user input or a calculation reaching a threshold).</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>word = "Code"
+for ch in word:
+    print(ch, end="-")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The loop iterates over each character and prints it followed by a hyphen.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>C-o-d-e-</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for num in [10, 20, 30]:
+    print(num + 5)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The loop iterates over the list. Each element has 5 added to it.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>15</code><br><code>25</code><br><code>35</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>i = 5
+while i > 0:
+    i -= 2
+print(i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Trace i: 5 -> 3 -> 1 -> ? What happens when i becomes negative?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>-1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(1, 4):
+    for j in range(1, 4):
+        if i != j:
+            print(i, j)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">This prints all (i, j) pairs where i and j are different.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>1 2</code><br><code>1 3</code><br><code>2 1</code><br><code>2 3</code><br><code>3 1</code><br><code>3 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [4, 7, 2, 9, 1]
+max_val = nums[0]
+for num in nums:
+    if num > max_val:
+        max_val = num
+print("Max:", max_val)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">This finds the maximum value by comparing each element with the current maximum.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>Max: 9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    print(i, end=" ")
+    for j in range(3):
+        print(j, end=" ")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The outer print and inner loop are at the same indentation level inside the outer loop.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>0 0 1 2 </code><br><code>1 0 1 2 </code><br><code>2 0 1 2 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>for index, val in enumerate(["a", "b", "c"], start=1):
+    print(index, val)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">enumerate() returns (index, value) pairs. start=1 makes the index begin at 1.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1 a</code><br><code>2 b</code><br><code>3 c</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>n = 1
+while n < 100:
+    n *= 3
+print(n)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Trace n: 1, 3, 9, 27, 81, ... When does n first reach or exceed 100?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>243</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(4):
+    for j in range(i, 4):
+        print(j, end=" ")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The inner loop starts from i (not 0) each time. When i increases, the inner loop starts later.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>0 1 2 3 </code><br><code>1 2 3 </code><br><code>2 3 </code><br><code>3 </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>count = 0
+for i in range(5):
+    for j in range(5):
+        if i + j == 4:
+            count += 1
+print(count)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Count pairs (i, j) where i + j equals 4, with both i and j in range(5).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What does the else clause on a for loop do? When does it execute and when does it NOT execute?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about what happens when a loop is stopped early versus when it finishes all iterations.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">The <code>else</code> clause on a loop runs only when the loop completes all its iterations normally. It does NOT run if the loop is terminated early by a <code>break</code> statement. If the loop body never executes (e.g., <code>for i in range(0)</code>), the else block still runs because no break was encountered.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    for j in range(3):
+        print("(", i, ",", j, ")", end=" ")
+    print()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">This prints all (row, column) coordinates of a 3x3 grid.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>( 0 , 0 ) ( 0 , 1 ) ( 0 , 2 ) </code><br><code>( 1 , 0 ) ( 1 , 1 ) ( 1 , 2 ) </code><br><code>( 2 , 0 ) ( 2 , 1 ) ( 2 , 2 ) </code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = "Python"
+for i in range(len(s) - 1, -1, -1):
+    print(s[i], end="")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-13">len("Python") is 6. range(5, -1, -1) gives 5, 4, 3, 2, 1, 0. This accesses characters in reverse.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-13"><code>nohtyP</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does range(5) generate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1, 2, 3, 4, 5</li><li><span class="mcq-option-label">B.</span> 0, 1, 2, 3, 4</li><li><span class="mcq-option-label">C.</span> 0, 1, 2, 3, 4, 5</li><li><span class="mcq-option-label">D.</span> 1, 2, 3, 4</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>range(5)</code> generates numbers starting from 0 up to but not including 5: 0, 1, 2, 3, 4 (five numbers). Option A starts from 1 and includes 5. Option C has 6 numbers. Option D has only 4 numbers.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">How many times does this loop run? for i in range(1, 8):</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 8 times</li><li><span class="mcq-option-label">B.</span> 7 times</li><li><span class="mcq-option-label">C.</span> 9 times</li><li><span class="mcq-option-label">D.</span> 6 times</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>range(1, 8)</code> generates 1, 2, 3, 4, 5, 6, 7 (seven numbers). The stop value 8 is excluded. A quick way to count: 8 - 1 = 7.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which loop is best when you know exactly how many times you want to repeat?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> while loop</li><li><span class="mcq-option-label">B.</span> for loop</li><li><span class="mcq-option-label">C.</span> do-while loop</li><li><span class="mcq-option-label">D.</span> infinite loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> A <code>for</code> loop with <code>range()</code> is ideal when the number of iterations is known. A while loop (option A) is better for condition-based repetition. Python does not have a do-while loop (option C). An infinite loop (option D) is not a type; it is a bug.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the output of: for i in range(0): print(i)</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> Nothing is printed</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> Infinite loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>range(0)</code> generates an empty sequence (zero numbers). The loop body never executes, so nothing is printed. This is not an error; it is valid code.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What keyword is used to skip to the next iteration of a loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> break</li><li><span class="mcq-option-label">B.</span> skip</li><li><span class="mcq-option-label">C.</span> continue</li><li><span class="mcq-option-label">D.</span> next</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>continue</code> statement skips the rest of the current iteration and moves to the next one. <code>break</code> (option A) exits the loop entirely. <code>skip</code> (option B) and <code>next</code> (option D) are not Python keywords.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does range(10, 2, -3) generate?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10, 7, 4</li><li><span class="mcq-option-label">B.</span> 10, 7, 4, 1</li><li><span class="mcq-option-label">C.</span> 10, 7, 4, 2</li><li><span class="mcq-option-label">D.</span> 10, 8, 5, 2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: A</strong><br><strong>A is correct.</strong> Starting at 10, subtracting 3 each time: 10, 7, 4. The next would be 1, but we stop before reaching 2 (actually 1 < 2 when going backwards means stop). Wait - let us re-check: 4 - 3 = 1. Since 1 < 2 (stop value) with negative step, 1 is not included. So the answer is 10, 7, 4.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">How many total iterations does this nested loop have? for i in range(5): for j in range(3):</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> 3</li><li><span class="mcq-option-label">C.</span> 8</li><li><span class="mcq-option-label">D.</span> 15</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: D</strong><br><strong>D is correct.</strong> The outer loop runs 5 times and for each outer iteration, the inner loop runs 3 times. Total iterations of the inner body: 5 * 3 = 15. Options A and B only count one of the loops. Option C adds them instead of multiplying.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What happens if the while loop condition is False from the start?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The loop runs once</li><li><span class="mcq-option-label">B.</span> The loop body never executes</li><li><span class="mcq-option-label">C.</span> Python raises an error</li><li><span class="mcq-option-label">D.</span> The loop runs forever</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> A while loop checks the condition BEFORE executing the body. If the condition is False initially, the body is skipped entirely. This is different from a do-while loop (which Python does not have), where the body always runs at least once (option A).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the value of i after this loop? for i in range(10): pass</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 9</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> i is undefined</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> The loop variable <code>i</code> takes values 0 through 9. After the loop completes, <code>i</code> retains its last value, which is 9. In Python, loop variables are NOT scoped to the loop. Option D would be true in some other languages but not Python.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does enumerate() return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Only the index of each element</li><li><span class="mcq-option-label">B.</span> Only the value of each element</li><li><span class="mcq-option-label">C.</span> Pairs of (index, value)</li><li><span class="mcq-option-label">D.</span> The total count of elements</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>enumerate()</code> returns pairs of (index, value) for each element in the sequence. This allows you to access both the position and the value in a single loop. Options A and B only give one piece of information. Option D describes <code>len()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">When does the else clause of a for loop execute?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> When the loop encounters an error</li><li><span class="mcq-option-label">B.</span> When the loop is stopped by break</li><li><span class="mcq-option-label">C.</span> When the loop completes without break</li><li><span class="mcq-option-label">D.</span> On every iteration of the loop</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> The else block runs only when the loop finishes all iterations without encountering a <code>break</code>. If break is executed (option B), the else block is skipped. It is not related to errors (option A) and does not run on every iteration (option D).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output of: for i in range(3, 3): print(i)</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3</li><li><span class="mcq-option-label">B.</span> Nothing is printed</li><li><span class="mcq-option-label">C.</span> Error</li><li><span class="mcq-option-label">D.</span> 0 1 2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>range(3, 3)</code> generates an empty sequence because the start and stop are the same (there are no numbers >= 3 and < 3). The loop body never executes. This is not an error (option C); it is valid Python.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the output of this code?<br><pre><code>x = 10
+while x > 0:
+    x -= 3
+print(x)</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1</li><li><span class="mcq-option-label">B.</span> 0</li><li><span class="mcq-option-label">C.</span> -2</li><li><span class="mcq-option-label">D.</span> 3</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> x starts at 10: 10->7->4->1. After x=1, the condition <code>1 > 0</code> is True, so x becomes 1-3 = -2. Now <code>-2 > 0</code> is False, loop stops. x = -2. Option A (1) would be correct if the check happened after the subtraction.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">How many times does the inner print execute?<br><pre><code>for i in range(4):
+    for j in range(i):
+        print(i, j)</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 16</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> 6</li><li><span class="mcq-option-label">D.</span> 4</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> When i=0: range(0) gives 0 iterations. When i=1: range(1) gives 1 iteration. When i=2: range(2) gives 2 iterations. When i=3: range(3) gives 3 iterations. Total: 0 + 1 + 2 + 3 = 6.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    print(i)
+else:
+    print("Done")</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0 1 2</li><li><span class="mcq-option-label">B.</span> 0 1 2 Done</li><li><span class="mcq-option-label">C.</span> Done</li><li><span class="mcq-option-label">D.</span> Error - else cannot be used with for</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> The loop prints 0, 1, 2 (each on a new line). Since the loop completes without a break, the else block executes and prints "Done". Option D is wrong because Python does support else with for loops.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which creates the sequence 20, 15, 10, 5?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> range(20, 0, -5)</li><li><span class="mcq-option-label">B.</span> range(20, 4, -5)</li><li><span class="mcq-option-label">C.</span> range(20, 5, -5)</li><li><span class="mcq-option-label">D.</span> range(5, 20, 5)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>range(20, 4, -5)</code> starts at 20, subtracts 5 each time, and stops before 4: 20, 15, 10, 5. The next would be 0, but 0 < 4 (in terms of going below stop), so it stops. Option A would include 5 and then stop. Option C would include 5 only if stop is less than 5. Option D counts upward.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What causes an infinite while loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Using a very large range</li><li><span class="mcq-option-label">B.</span> The condition never becoming False</li><li><span class="mcq-option-label">C.</span> Using nested loops</li><li><span class="mcq-option-label">D.</span> Forgetting the colon after while</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> A while loop becomes infinite when its condition never becomes False, usually because the loop variable is not updated or updated incorrectly. A large range (option A) makes a long loop, not infinite. Nested loops (option C) are normal. Missing colon (option D) causes a SyntaxError, not an infinite loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What does end="" do in print()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Ends the program</li><li><span class="mcq-option-label">B.</span> Prints nothing after the value (no newline)</li><li><span class="mcq-option-label">C.</span> Prints an empty string</li><li><span class="mcq-option-label">D.</span> Causes an error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> By default, <code>print()</code> adds a newline after the output. <code>end=""</code> replaces that newline with nothing, so the next print continues on the same line. This is commonly used in loops to print values side by side.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the output of: print(list(range(1, 10, 2)))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 3, 5, 7, 9]</li><li><span class="mcq-option-label">B.</span> [1, 3, 5, 7]</li><li><span class="mcq-option-label">C.</span> [2, 4, 6, 8]</li><li><span class="mcq-option-label">D.</span> [1, 2, 3, 4, 5, 6, 7, 8, 9]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>range(1, 10, 2)</code> starts at 1 and adds 2 each time, stopping before 10: 1, 3, 5, 7, 9. Converting to a list gives [1, 3, 5, 7, 9]. These are odd numbers from 1 to 9.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What happens when you use range() with a step of 0?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It returns an empty range</li><li><span class="mcq-option-label">B.</span> It generates an infinite sequence</li><li><span class="mcq-option-label">C.</span> ValueError: range() arg 3 must not be zero</li><li><span class="mcq-option-label">D.</span> It uses step 1 as default</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> A step of 0 would create an infinite sequence (never progressing), so Python raises a <code>ValueError</code> to prevent this. The error message is: "range() arg 3 must not be zero". This is a safety feature.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Sum of Even Numbers</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that uses a for loop to calculate and print the sum of all even numbers from 2 to 20 (inclusive).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum of even numbers from 2 to 20: 110</div>
+                </div><div class="challenge-constraints">Use a for loop with range(). Do not hardcode the answer.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">total = 0
+for i in range(2, 21, 2):
+    total += i
+print(&quot;Sum of even numbers from 2 to 20:&quot;, total)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Reverse a String Using a Loop</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has the string "Python". Write a program using a for loop to print the string in reverse order (character by character on the same line).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">nohtyP</div>
+                </div><div class="challenge-constraints">Use a for loop. Do not use slicing ([::-1]).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">text = &quot;Python&quot;
+for i in range(len(text) - 1, -1, -1):
+    print(text[i], end=&quot;&quot;)
+print()</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Multiplication Table</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that prints the multiplication table of 7 (from 7 x 1 to 7 x 10).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70</div>
+                </div><div class="challenge-constraints">Use a for loop with range().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">num = 7
+for i in range(1, 11):
+    print(num, &quot;x&quot;, i, &quot;=&quot;, num * i)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Count Vowels in a String</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Priya has the string "Modern Age Coders". Write a program that counts and prints the number of vowels (a, e, i, o, u - both uppercase and lowercase) in the string.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Vowels in &#39;Modern Age Coders&#39;: 6</div>
+                </div><div class="challenge-constraints">Use a for loop to iterate through each character.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">text = &quot;Modern Age Coders&quot;
+count = 0
+for ch in text:
+    if ch.lower() in &quot;aeiou&quot;:
+        count += 1
+print(&quot;Vowels in &#39;&quot; + text + &quot;&#39;:&quot;, count)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Fibonacci Sequence</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that prints the first 10 numbers of the Fibonacci sequence. The sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">0 1 1 2 3 5 8 13 21 34</div>
+                </div><div class="challenge-constraints">Use a while or for loop.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">a = 0
+b = 1
+for i in range(10):
+    print(a, end=&quot; &quot;)
+    a, b = b, a + b
+print()</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Number Guessing Simulation</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan is building a number guessing game. The secret number is 7. Simulate guesses using a while loop: start with guess = 1 and increase by 2 each time until the guess equals the secret number. Print each guess and whether it is too low, too high, or correct.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Guess: 1 - Too low!
+Guess: 3 - Too low!
+Guess: 5 - Too low!
+Guess: 7 - Correct!</div>
+                </div><div class="challenge-constraints">Use a while loop. Do not use a for loop.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">secret = 7
+guess = 1
+while guess &lt;= secret:
+    if guess &lt; secret:
+        print(&quot;Guess:&quot;, guess, &quot;- Too low!&quot;)
+    else:
+        print(&quot;Guess:&quot;, guess, &quot;- Correct!&quot;)
+    guess += 2</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Prime Number Checker</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that checks whether the number 29 is prime. A prime number is only divisible by 1 and itself. Use a for loop to test divisibility and print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">29 is a prime number</div>
+                </div><div class="challenge-constraints">Use a for loop with a break statement. Use the loop-else pattern.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">num = 29
+if num &lt; 2:
+    print(num, &quot;is not a prime number&quot;)
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            print(num, &quot;is not a prime number&quot;)
+            break
+    else:
+        print(num, &quot;is a prime number&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Nested Loop Grid with Coordinates</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that prints a 4x4 grid where each cell shows its row and column number in the format (row,col), with rows and columns numbered from 1.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">(1,1) (1,2) (1,3) (1,4) 
+(2,1) (2,2) (2,3) (2,4) 
+(3,1) (3,2) (3,3) (3,4) 
+(4,1) (4,2) (4,3) (4,4) </div>
+                </div><div class="challenge-constraints">Use nested for loops.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">for i in range(1, 5):
+    for j in range(1, 5):
+        print(&quot;(&quot; + str(i) + &quot;,&quot; + str(j) + &quot;)&quot;, end=&quot; &quot;)
+    print()</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Digit Sum Calculator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program using a while loop to calculate the sum of digits of the number 98764. Extract digits one by one using % and // operators.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Sum of digits of 98764: 34</div>
+                </div><div class="challenge-constraints">Use a while loop with % and // operators. Do not convert to a string.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">num = 98764
+original = num
+total = 0
+while num &gt; 0:
+    digit = num % 10
+    total += digit
+    num //= 10
+print(&quot;Sum of digits of&quot;, original, &quot;:&quot;, total)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Diamond Top Half</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program using nested loops to print the top half of a diamond with 5 rows. Each row should have leading spaces followed by stars.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * </div>
+                </div><div class="challenge-constraints">Use nested for loops. Print spaces before stars.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">n = 5
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(&quot; &quot;, end=&quot;&quot;)
+    for j in range(i):
+        print(&quot;* &quot;, end=&quot;&quot;)
+    print()</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/conditional-statements/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Conditional Statements in Python (if, elif, else)</span>
+        </a>
+            <a href="/resources/python/loop-control-statements/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Loop Control - break, continue, pass</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/loops-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop Control - break, continue, pass - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Control loop execution using break, continue, and pass statements with nested loop examples.">
+    <meta name="keywords" content="loop control - break, continue, pass, python tutorial, python loop control - break, continue, pass, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+    <meta property="og:title" content="Loop Control - break, continue, pass - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Control loop execution using break, continue, and pass statements with nested loop examples.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/loop-control-statements">
+    <meta name="twitter:title" content="Loop Control - break, continue, pass - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Control loop execution using break, continue, and pass statements with nested loop examples.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Loop Control - break, continue, pass",
+    "description": "Control loop execution using break, continue, and pass statements with nested loop examples.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/loop-control-statements"
+    },
+    "educationalLevel": "Beginner",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/loop-control-statements"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Loop Control - break, continue, pass",
+        "item": "https://learn.modernagecoders.com/resources/python/loop-control-statements"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Infinite Loop from continue in while Loop",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "In a while loop, <code>continue</code> goes back to the condition check. If the counter update (<code>i += 1</code>) comes after continue, it gets skipped. Always update the counter before calling continue in a while loop, or restructure your code to avoid this trap."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Expecting break to Exit All Nested Loops",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>break</code> only exits the innermost loop it is inside. To exit multiple nested loops, use a flag variable (like <code>found</code>). Set the flag to True before breaking the inner loop, then check the flag after the inner loop to break the outer loop too."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Misunderstanding Loop-else as 'if-else'",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The loop-else clause is NOT the same as an if-else. The else block runs specifically because no <code>break</code> statement was executed during the loop. If there is no break in the loop at all, else will always run (making it somewhat pointless). The else is only meaningful when the loop contains a break."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using pass When break or continue Is Needed",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>pass</code> does literally nothing. Execution continues to the next line after pass, which is <code>print(i)</code>. If you want to skip the rest of the iteration, use <code>continue</code>. If you want to stop the loop entirely, use <code>break</code>. <code>pass</code> is only useful as a placeholder for future code."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Placing Code After break",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Any code placed after a <code>break</code> (at the same indentation level within the same block) will never execute because break immediately exits the loop. If you need to do something before breaking, put that code before the break statement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using break Outside a Loop",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>break</code> and <code>continue</code> can only be used inside a loop (<code>for</code> or <code>while</code>). Using them in an <code>if</code> statement that is NOT inside a loop causes a SyntaxError. The if/break combination only works when the if is inside a loop."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Loop Control - break, continue, pass</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 9</span>
+                <span class="badge badge-beginner">Beginner</span>
+                <span class="badge badge-time">18 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Loop Control - break, continue, pass</h1>
+            <a href="/resources/python/loop-control-statements/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Loop Control Statements?</h2><p>Loop control statements change the normal flow of a loop. Normally, a loop runs all its iterations from start to finish. But sometimes you need to <strong>stop a loop early</strong>, <strong>skip certain iterations</strong>, or <strong>leave a placeholder</strong> for code you have not written yet. Python provides three loop control statements for these purposes:</p><p><strong>1. break</strong> - Immediately exits the loop entirely. No more iterations are executed.</p><p><strong>2. continue</strong> - Skips the rest of the current iteration and jumps to the next iteration.</p><p><strong>3. pass</strong> - Does absolutely nothing. It is a placeholder that lets you have an empty code block without causing a syntax error.</p><p>These three statements give you fine-grained control over loop execution. They work with both <code>for</code> and <code>while</code> loops.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Do You Need Loop Control Statements?</h2><p>Without loop control statements, a loop must always run every single iteration. That is often wasteful or even incorrect. Here is why each statement matters:</p><h3>1. break - Stop When You Have Found What You Need</h3><p>Imagine searching through a list of 10,000 student names to find "Aarav". If Aarav is the 5th name, there is no point checking the remaining 9,995 names. The <code>break</code> statement lets you stop the loop immediately once you find what you are looking for, saving time and computation.</p><h3>2. continue - Skip What You Do Not Need</h3><p>Suppose you are processing a list of exam scores and want to calculate the average of only the passing scores (above 40). When you encounter a failing score, you do not want to include it. The <code>continue</code> statement lets you skip that iteration and move to the next score without adding a failing mark to your total.</p><h3>3. pass - Plan Your Code Structure First</h3><p>When you are designing a program, you might know that a loop or condition needs to be there, but you have not decided what code to put inside it yet. Python requires that code blocks (after <code>if</code>, <code>for</code>, <code>while</code>, etc.) contain at least one statement. The <code>pass</code> statement acts as a placeholder, allowing your program to run without errors while you work on the logic.</p><h3>4. Cleaner Logic</h3><p>Loop control statements often lead to simpler, more readable code compared to using complex conditions in the loop header. Instead of writing <code>while condition1 and condition2 and not found</code>, you can use a simpler condition with a <code>break</code> inside.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The break Statement</h3><p>The <code>break</code> statement immediately terminates the loop it is in. The program continues with the first statement after the loop.</p><h4>break in a for Loop</h4><pre><code>for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)</code></pre><p>This prints 1, 2, 3, 4. When <code>i</code> reaches 5, the <code>if</code> condition is True, <code>break</code> executes, and the loop exits immediately. The <code>print(i)</code> for i = 5 never runs, and iterations 6 through 10 are also skipped.</p><h4>break in a while Loop</h4><pre><code>count = 0
+while True:
+    if count >= 3:
+        break
+    print(count)
+    count += 1</code></pre><p>This uses <code>while True</code> (which would normally be an infinite loop) and relies on <code>break</code> to exit. When count reaches 3, break terminates the loop. This pattern is common when you need to check the exit condition in the middle of the loop body rather than at the top.</p><h4>break Only Exits the Innermost Loop</h4><p>When using nested loops, <code>break</code> only exits the loop it is directly inside. The outer loop continues normally:</p><pre><code>for i in range(3):
+    for j in range(3):
+        if j == 1:
+            break
+        print(i, j)</code></pre><p>This prints (0, 0), (1, 0), (2, 0). For each value of i, the inner loop starts with j = 0 (prints it), then j = 1 triggers break (exits inner loop only). The outer loop continues to the next value of i.</p><h3>2. The continue Statement</h3><p>The <code>continue</code> statement skips the rest of the current iteration and jumps to the next one. In a for loop, it moves to the next value. In a while loop, it goes back to check the condition.</p><h4>continue in a for Loop</h4><pre><code>for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)</code></pre><p>This prints 1, 2, 4, 5. When <code>i</code> is 3, <code>continue</code> skips the <code>print(i)</code> and moves to i = 4. All other values are printed normally.</p><h4>continue in a while Loop</h4><pre><code>i = 0
+while i < 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i)</code></pre><p>This prints 1, 2, 4, 5. When i is 3, continue skips the print and goes back to check the while condition. Important: in a while loop, make sure the counter update happens <strong>before</strong> the continue statement. If it comes after, continue will skip the update, potentially causing an infinite loop.</p><h3>3. The pass Statement</h3><p><code>pass</code> is Python's way of saying "do nothing." It is a null operation. When Python encounters <code>pass</code>, it does nothing and moves to the next statement.</p><h4>pass as a Placeholder</h4><pre><code>for i in range(10):
+    pass  # TODO: add processing logic later</code></pre><p>This loop runs 10 times, doing nothing each time. Without <code>pass</code>, an empty loop body would cause an <code>IndentationError</code> or <code>SyntaxError</code>. The <code>pass</code> statement keeps the code syntactically valid while you plan the logic.</p><h4>pass in Conditional Blocks</h4><pre><code>for num in range(1, 11):
+    if num % 2 == 0:
+        pass  # Will handle even numbers later
+    else:
+        print(num, "is odd")</code></pre><p>Here, <code>pass</code> acts as a placeholder for the even-number handling code. The odd numbers are still processed normally.</p><h3>4. break with the else Clause</h3><p>This is one of Python's most unique features. When a <code>for</code> or <code>while</code> loop has an <code>else</code> clause, the else block runs <strong>only if the loop completes without encountering a break</strong>.</p><pre><code>for i in range(2, 10):
+    if i == 5:
+        print("Found 5!")
+        break
+else:
+    print("5 was not found")</code></pre><p>Since 5 is in the range, break executes, and the else block is skipped. If you change the condition to <code>i == 15</code> (not in range), the loop completes normally and the else block runs.</p><p>Think of loop-else as "no-break": the else runs when there was no break.</p><h3>5. Using break for Searching</h3><p>A common pattern is using a for loop with break to search for an item:</p><pre><code>names = ["Aarav", "Priya", "Rohan", "Ananya"]
+search = "Rohan"
+
+for name in names:
+    if name == search:
+        print(search, "found!")
+        break
+else:
+    print(search, "not found.")</code></pre><p>If the name is in the list, break stops the search and prints "found". If the loop finishes without finding the name, the else block prints "not found". This is cleaner than using a Boolean flag variable.</p><h3>6. Using continue for Filtering</h3><p>A common use of continue is to skip unwanted values:</p><pre><code>scores = [85, 42, 0, 93, 38, 76, 0, 88]
+count = 0
+total = 0
+
+for score in scores:
+    if score == 0:  # Skip absent students
+        continue
+    total += score
+    count += 1
+
+print("Average (excluding zeros):", total / count)</code></pre><p>When a score is 0 (absent student), continue skips the addition and counting. Only non-zero scores are included in the average.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">break - Stopping a Loop Early</div><pre><code class="language-python"># Find the first number divisible by 7 in range 1 to 50
+for num in range(1, 51):
+    if num % 7 == 0:
+        print(&quot;First number divisible by 7:&quot;, num)
+        break</code></pre><div class="code-example-explanation">The loop checks each number from 1 to 50. When it finds 7 (the first number divisible by 7), it prints it and breaks. Numbers 8 through 50 are never checked. Without break, the loop would find and print 7, 14, 21, 28, 35, 42, 49 (all of them).</div><div class="code-example-output">First number divisible by 7: 7</div></div>
+<div class="code-example"><div class="code-example-title">continue - Skipping Specific Values</div><pre><code class="language-python"># Print only odd numbers from 1 to 10
+for i in range(1, 11):
+    if i % 2 == 0:
+        continue
+    print(i, end=&quot; &quot;)
+print()</code></pre><div class="code-example-explanation">When <code>i</code> is even, <code>continue</code> skips the print and moves to the next iteration. Only odd numbers reach the print statement. This achieves the same result as <code>if i % 2 != 0: print(i)</code>, but demonstrates the continue pattern.</div><div class="code-example-output">1 3 5 7 9 </div></div>
+<div class="code-example"><div class="code-example-title">pass - Placeholder for Future Code</div><pre><code class="language-python"># Planning a grading system - logic not implemented yet
+marks = [85, 42, 93, 67, 38]
+
+for mark in marks:
+    if mark &gt;= 90:
+        pass  # TODO: Grade A
+    elif mark &gt;= 60:
+        pass  # TODO: Grade B
+    else:
+        pass  # TODO: Grade C or fail
+
+print(&quot;Program runs without errors even with empty blocks&quot;)</code></pre><div class="code-example-explanation"><code>pass</code> allows you to define the structure of your conditions without implementing the logic yet. Without pass, Python would raise a <code>SyntaxError</code> because each if/elif/else block requires at least one statement. This is useful during the planning phase of writing a program.</div><div class="code-example-output">Program runs without errors even with empty blocks</div></div>
+<div class="code-example"><div class="code-example-title">break in Nested Loops - Only Inner Loop Exits</div><pre><code class="language-python">for i in range(1, 4):
+    print(&quot;Outer loop i =&quot;, i)
+    for j in range(1, 4):
+        if j == 2:
+            break
+        print(&quot;  Inner loop j =&quot;, j)
+    print(&quot;  Inner loop ended&quot;)
+print(&quot;Outer loop ended&quot;)</code></pre><div class="code-example-explanation">When j equals 2, break exits only the inner loop. The outer loop continues with the next value of i. For each value of i (1, 2, 3), the inner loop prints j = 1 then breaks at j = 2. The "Inner loop ended" message appears after each break, proving the outer loop keeps running.</div><div class="code-example-output">Outer loop i = 1
+  Inner loop j = 1
+  Inner loop ended
+Outer loop i = 2
+  Inner loop j = 1
+  Inner loop ended
+Outer loop i = 3
+  Inner loop j = 1
+  Inner loop ended
+Outer loop ended</div></div>
+<div class="code-example"><div class="code-example-title">Loop-else Pattern for Searching</div><pre><code class="language-python"># Search for a prime number
+def check_prime(n):
+    if n &lt; 2:
+        print(n, &quot;is not prime&quot;)
+        return
+    for i in range(2, n):
+        if n % i == 0:
+            print(n, &quot;is not prime (divisible by&quot;, str(i) + &quot;)&quot;)
+            break
+    else:
+        print(n, &quot;is prime&quot;)
+
+check_prime(17)
+check_prime(24)
+check_prime(2)</code></pre><div class="code-example-explanation">For 17: the loop checks divisors 2 through 16, finds none, so else runs ("17 is prime"). For 24: the loop finds 24 % 2 == 0, prints the message, and breaks. Since break executed, else is skipped. For 2: range(2, 2) is empty, so the loop body never runs, but else still runs because no break was encountered.</div><div class="code-example-output">17 is prime
+24 is not prime (divisible by 2)
+2 is prime</div></div>
+<div class="code-example"><div class="code-example-title">continue for Filtering Data</div><pre><code class="language-python"># Calculate average marks, skipping absent students (score = -1)
+marks = [78, 92, -1, 85, -1, 67, 91, -1, 73]
+total = 0
+count = 0
+
+for mark in marks:
+    if mark == -1:
+        continue
+    total += mark
+    count += 1
+
+print(&quot;Students present:&quot;, count)
+print(&quot;Average marks:&quot;, total / count)</code></pre><div class="code-example-explanation">Absent students are marked with -1. The <code>continue</code> statement skips these entries, so they are not counted in the total or the count. Only valid scores (78, 92, 85, 67, 91, 73) are used. The average is 486 / 6 = 81.0.</div><div class="code-example-output">Students present: 6
+Average marks: 81.0</div></div>
+<div class="code-example"><div class="code-example-title">Combining break and continue</div><pre><code class="language-python"># Process numbers: skip negatives, stop at 0
+numbers = [5, 3, -2, 8, -1, 0, 7, 4]
+
+print(&quot;Processing:&quot;)
+for num in numbers:
+    if num == 0:
+        print(&quot;Encountered 0 - stopping!&quot;)
+        break
+    if num &lt; 0:
+        print(&quot;Skipping negative:&quot;, num)
+        continue
+    print(&quot;Processing:&quot;, num)
+
+print(&quot;Done&quot;)</code></pre><div class="code-example-explanation">This demonstrates using both break and continue in the same loop. Negative numbers are skipped with continue. When 0 is encountered, the loop stops with break. Positive numbers are processed normally. The order of checks matters: we check for 0 first (break), then for negatives (continue), then process.</div><div class="code-example-output">Processing:
+Processing: 5
+Processing: 3
+Skipping negative: -2
+Processing: 8
+Skipping negative: -1
+Encountered 0 - stopping!
+Done</div></div>
+<div class="code-example"><div class="code-example-title">continue Pitfall in while Loops</div><pre><code class="language-python"># WRONG: continue skips the counter update, causing infinite loop
+# i = 0
+# while i &lt; 5:
+#     if i == 3:
+#         continue  # i never becomes 4!
+#     print(i)
+#     i += 1
+
+# CORRECT: update counter BEFORE continue
+i = 0
+while i &lt; 5:
+    i += 1
+    if i == 3:
+        continue
+    print(i)</code></pre><div class="code-example-explanation">In the wrong version, when i is 3, continue skips <code>i += 1</code>, so i stays at 3 forever. In the correct version, <code>i += 1</code> is placed before the continue check. When i becomes 3, continue skips the print but i has already been incremented. Note: the correct version prints 1, 2, 4, 5 (not 0, 1, 2, 4).</div><div class="code-example-output">1
+2
+4
+5</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Infinite Loop from continue in while Loop</h3>
+                <div class="wrong-code"><pre><code class="language-python">i = 0
+while i &lt; 5:
+    if i == 3:
+        continue  # Skips i += 1, so i stays 3 forever!
+    print(i)
+    i += 1</code></pre></div><div class="error-message">Infinite loop! When i reaches 3, continue skips i += 1, and i remains 3 forever.</div><div class="correct-code"><pre><code class="language-python">i = 0
+while i &lt; 5:
+    if i == 3:
+        i += 1
+        continue
+    print(i)
+    i += 1</code></pre></div><div class="mistake-explanation">In a while loop, <code>continue</code> goes back to the condition check. If the counter update (<code>i += 1</code>) comes after continue, it gets skipped. Always update the counter before calling continue in a while loop, or restructure your code to avoid this trap.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Expecting break to Exit All Nested Loops</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Trying to break out of both loops
+for i in range(5):
+    for j in range(5):
+        if i + j == 6:
+            print(&quot;Found!&quot;, i, j)
+            break  # Only exits inner loop!
+    # Outer loop continues here</code></pre></div><div class="error-message">break only exits the inner loop. The outer loop keeps running.</div><div class="correct-code"><pre><code class="language-python"># Use a flag variable to break out of both loops
+found = False
+for i in range(5):
+    for j in range(5):
+        if i + j == 6:
+            print(&quot;Found!&quot;, i, j)
+            found = True
+            break
+    if found:
+        break</code></pre></div><div class="mistake-explanation"><code>break</code> only exits the innermost loop it is inside. To exit multiple nested loops, use a flag variable (like <code>found</code>). Set the flag to True before breaking the inner loop, then check the flag after the inner loop to break the outer loop too.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Misunderstanding Loop-else as &#39;if-else&#39;</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Student thinks else runs when loop condition is False
+for i in range(3):
+    print(i)
+else:
+    print(&quot;This runs because the loop is &#39;done&#39;&quot;)
+# Actually correct, but the student&#39;s reasoning is wrong</code></pre></div><div class="error-message">No error, but the student misunderstands WHY else runs. It is not about the condition being False.</div><div class="correct-code"><pre><code class="language-python"># else runs because no &#39;break&#39; was encountered
+for i in range(3):
+    print(i)
+else:
+    print(&quot;No break was encountered - loop completed normally&quot;)</code></pre></div><div class="mistake-explanation">The loop-else clause is NOT the same as an if-else. The else block runs specifically because no <code>break</code> statement was executed during the loop. If there is no break in the loop at all, else will always run (making it somewhat pointless). The else is only meaningful when the loop contains a break.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using pass When break or continue Is Needed</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Trying to skip even numbers
+for i in range(10):
+    if i % 2 == 0:
+        pass  # This does NOT skip! It does nothing.
+    print(i)</code></pre></div><div class="error-message">No error, but all numbers 0-9 are printed. pass does not skip the print statement.</div><div class="correct-code"><pre><code class="language-python">for i in range(10):
+    if i % 2 == 0:
+        continue  # This skips the rest of the iteration
+    print(i)</code></pre></div><div class="mistake-explanation"><code>pass</code> does literally nothing. Execution continues to the next line after pass, which is <code>print(i)</code>. If you want to skip the rest of the iteration, use <code>continue</code>. If you want to stop the loop entirely, use <code>break</code>. <code>pass</code> is only useful as a placeholder for future code.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Placing Code After break</h3>
+                <div class="wrong-code"><pre><code class="language-python">for i in range(5):
+    if i == 3:
+        break
+        print(&quot;This line never runs&quot;)  # Dead code!
+    print(i)</code></pre></div><div class="error-message">No error, but the print after break is unreachable code. It never executes.</div><div class="correct-code"><pre><code class="language-python">for i in range(5):
+    if i == 3:
+        print(&quot;Stopping at 3&quot;)
+        break
+    print(i)</code></pre></div><div class="mistake-explanation">Any code placed after a <code>break</code> (at the same indentation level within the same block) will never execute because break immediately exits the loop. If you need to do something before breaking, put that code before the break statement.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using break Outside a Loop</h3>
+                <div class="wrong-code"><pre><code class="language-python">x = 5
+if x == 5:
+    break  # SyntaxError!</code></pre></div><div class="error-message">SyntaxError: &#39;break&#39; outside loop</div><div class="correct-code"><pre><code class="language-python">x = 5
+for i in range(10):
+    if i == x:
+        break
+    print(i)</code></pre></div><div class="mistake-explanation"><code>break</code> and <code>continue</code> can only be used inside a loop (<code>for</code> or <code>while</code>). Using them in an <code>if</code> statement that is NOT inside a loop causes a SyntaxError. The if/break combination only works when the if is inside a loop.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>break immediately exits the current loop. No further iterations are executed. The program continues with the first statement after the loop.</li>
+<li>continue skips the rest of the current iteration and moves to the next iteration. In a for loop, it takes the next value. In a while loop, it re-checks the condition.</li>
+<li>pass does nothing. It is a placeholder used to keep code syntactically valid when a code block is required but no action is needed yet.</li>
+<li>In nested loops, break only exits the innermost loop. The outer loop continues normally. To break out of multiple loops, use a flag variable.</li>
+<li>The loop-else clause runs only when the loop completes without encountering a break. Think of it as &#39;no-break&#39;. If break executes, else is skipped.</li>
+<li>A common use of break is searching: loop through items, break when found, use else to handle &#39;not found&#39;.</li>
+<li>A common use of continue is filtering: skip unwanted items (like zeros or negative values) and process only the desired ones.</li>
+<li>In while loops, place the counter update BEFORE the continue statement. Otherwise, continue will skip the update, causing an infinite loop.</li>
+<li>break and continue can only be used inside loops. Using them outside a loop causes a SyntaxError.</li>
+<li>pass is different from break and continue. break stops the loop, continue skips to the next iteration, but pass simply does nothing and execution continues to the next line.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/loops-in-python" class="related-topic-link">Loops in Python (for and while)</a>
+<a href="/resources/python/pattern-printing" class="related-topic-link">Pattern Printing in Python</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/loops-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Loops in Python (for and while)</span>
+        </a>
+            <a href="/resources/python/pattern-printing" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Pattern Printing in Python</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/loop-control-statements/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

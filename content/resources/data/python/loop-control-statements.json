@@ -1,0 +1,721 @@
+{
+  "title": "Loop Control - break, continue, pass",
+  "slug": "loop-control-statements",
+  "language": "python",
+  "chapter": 9,
+  "difficulty": "Beginner",
+  "readingTime": "18 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Loop Control in Python - break, continue, pass Statements Explained | Modern Age Coders",
+    "description": "Master Python loop control statements: break, continue, and pass. Learn how they work in for and while loops, nested loop break behavior, loop-else clause, and 55 practice questions.",
+    "keywords": "python break continue pass, loop control python, nested loops python, python break statement, python continue statement, python pass statement, break in nested loops python, python loop else break"
+  },
+  "content": {
+    "what": "<h2>What Are Loop Control Statements?</h2><p>Loop control statements change the normal flow of a loop. Normally, a loop runs all its iterations from start to finish. But sometimes you need to <strong>stop a loop early</strong>, <strong>skip certain iterations</strong>, or <strong>leave a placeholder</strong> for code you have not written yet. Python provides three loop control statements for these purposes:</p><p><strong>1. break</strong> - Immediately exits the loop entirely. No more iterations are executed.</p><p><strong>2. continue</strong> - Skips the rest of the current iteration and jumps to the next iteration.</p><p><strong>3. pass</strong> - Does absolutely nothing. It is a placeholder that lets you have an empty code block without causing a syntax error.</p><p>These three statements give you fine-grained control over loop execution. They work with both <code>for</code> and <code>while</code> loops.</p>",
+    "why": "<h2>Why Do You Need Loop Control Statements?</h2><p>Without loop control statements, a loop must always run every single iteration. That is often wasteful or even incorrect. Here is why each statement matters:</p><h3>1. break - Stop When You Have Found What You Need</h3><p>Imagine searching through a list of 10,000 student names to find \"Aarav\". If Aarav is the 5th name, there is no point checking the remaining 9,995 names. The <code>break</code> statement lets you stop the loop immediately once you find what you are looking for, saving time and computation.</p><h3>2. continue - Skip What You Do Not Need</h3><p>Suppose you are processing a list of exam scores and want to calculate the average of only the passing scores (above 40). When you encounter a failing score, you do not want to include it. The <code>continue</code> statement lets you skip that iteration and move to the next score without adding a failing mark to your total.</p><h3>3. pass - Plan Your Code Structure First</h3><p>When you are designing a program, you might know that a loop or condition needs to be there, but you have not decided what code to put inside it yet. Python requires that code blocks (after <code>if</code>, <code>for</code>, <code>while</code>, etc.) contain at least one statement. The <code>pass</code> statement acts as a placeholder, allowing your program to run without errors while you work on the logic.</p><h3>4. Cleaner Logic</h3><p>Loop control statements often lead to simpler, more readable code compared to using complex conditions in the loop header. Instead of writing <code>while condition1 and condition2 and not found</code>, you can use a simpler condition with a <code>break</code> inside.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The break Statement</h3><p>The <code>break</code> statement immediately terminates the loop it is in. The program continues with the first statement after the loop.</p><h4>break in a for Loop</h4><pre><code>for i in range(1, 11):\n    if i == 5:\n        break\n    print(i)</code></pre><p>This prints 1, 2, 3, 4. When <code>i</code> reaches 5, the <code>if</code> condition is True, <code>break</code> executes, and the loop exits immediately. The <code>print(i)</code> for i = 5 never runs, and iterations 6 through 10 are also skipped.</p><h4>break in a while Loop</h4><pre><code>count = 0\nwhile True:\n    if count >= 3:\n        break\n    print(count)\n    count += 1</code></pre><p>This uses <code>while True</code> (which would normally be an infinite loop) and relies on <code>break</code> to exit. When count reaches 3, break terminates the loop. This pattern is common when you need to check the exit condition in the middle of the loop body rather than at the top.</p><h4>break Only Exits the Innermost Loop</h4><p>When using nested loops, <code>break</code> only exits the loop it is directly inside. The outer loop continues normally:</p><pre><code>for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(i, j)</code></pre><p>This prints (0, 0), (1, 0), (2, 0). For each value of i, the inner loop starts with j = 0 (prints it), then j = 1 triggers break (exits inner loop only). The outer loop continues to the next value of i.</p><h3>2. The continue Statement</h3><p>The <code>continue</code> statement skips the rest of the current iteration and jumps to the next one. In a for loop, it moves to the next value. In a while loop, it goes back to check the condition.</p><h4>continue in a for Loop</h4><pre><code>for i in range(1, 6):\n    if i == 3:\n        continue\n    print(i)</code></pre><p>This prints 1, 2, 4, 5. When <code>i</code> is 3, <code>continue</code> skips the <code>print(i)</code> and moves to i = 4. All other values are printed normally.</p><h4>continue in a while Loop</h4><pre><code>i = 0\nwhile i < 5:\n    i += 1\n    if i == 3:\n        continue\n    print(i)</code></pre><p>This prints 1, 2, 4, 5. When i is 3, continue skips the print and goes back to check the while condition. Important: in a while loop, make sure the counter update happens <strong>before</strong> the continue statement. If it comes after, continue will skip the update, potentially causing an infinite loop.</p><h3>3. The pass Statement</h3><p><code>pass</code> is Python's way of saying \"do nothing.\" It is a null operation. When Python encounters <code>pass</code>, it does nothing and moves to the next statement.</p><h4>pass as a Placeholder</h4><pre><code>for i in range(10):\n    pass  # TODO: add processing logic later</code></pre><p>This loop runs 10 times, doing nothing each time. Without <code>pass</code>, an empty loop body would cause an <code>IndentationError</code> or <code>SyntaxError</code>. The <code>pass</code> statement keeps the code syntactically valid while you plan the logic.</p><h4>pass in Conditional Blocks</h4><pre><code>for num in range(1, 11):\n    if num % 2 == 0:\n        pass  # Will handle even numbers later\n    else:\n        print(num, \"is odd\")</code></pre><p>Here, <code>pass</code> acts as a placeholder for the even-number handling code. The odd numbers are still processed normally.</p><h3>4. break with the else Clause</h3><p>This is one of Python's most unique features. When a <code>for</code> or <code>while</code> loop has an <code>else</code> clause, the else block runs <strong>only if the loop completes without encountering a break</strong>.</p><pre><code>for i in range(2, 10):\n    if i == 5:\n        print(\"Found 5!\")\n        break\nelse:\n    print(\"5 was not found\")</code></pre><p>Since 5 is in the range, break executes, and the else block is skipped. If you change the condition to <code>i == 15</code> (not in range), the loop completes normally and the else block runs.</p><p>Think of loop-else as \"no-break\": the else runs when there was no break.</p><h3>5. Using break for Searching</h3><p>A common pattern is using a for loop with break to search for an item:</p><pre><code>names = [\"Aarav\", \"Priya\", \"Rohan\", \"Ananya\"]\nsearch = \"Rohan\"\n\nfor name in names:\n    if name == search:\n        print(search, \"found!\")\n        break\nelse:\n    print(search, \"not found.\")</code></pre><p>If the name is in the list, break stops the search and prints \"found\". If the loop finishes without finding the name, the else block prints \"not found\". This is cleaner than using a Boolean flag variable.</p><h3>6. Using continue for Filtering</h3><p>A common use of continue is to skip unwanted values:</p><pre><code>scores = [85, 42, 0, 93, 38, 76, 0, 88]\ncount = 0\ntotal = 0\n\nfor score in scores:\n    if score == 0:  # Skip absent students\n        continue\n    total += score\n    count += 1\n\nprint(\"Average (excluding zeros):\", total / count)</code></pre><p>When a score is 0 (absent student), continue skips the addition and counting. Only non-zero scores are included in the average.</p>",
+    "codeExamples": [
+      {
+        "title": "break - Stopping a Loop Early",
+        "code": "# Find the first number divisible by 7 in range 1 to 50\nfor num in range(1, 51):\n    if num % 7 == 0:\n        print(\"First number divisible by 7:\", num)\n        break",
+        "language": "python",
+        "explanation": "The loop checks each number from 1 to 50. When it finds 7 (the first number divisible by 7), it prints it and breaks. Numbers 8 through 50 are never checked. Without break, the loop would find and print 7, 14, 21, 28, 35, 42, 49 (all of them).",
+        "output": "First number divisible by 7: 7"
+      },
+      {
+        "title": "continue - Skipping Specific Values",
+        "code": "# Print only odd numbers from 1 to 10\nfor i in range(1, 11):\n    if i % 2 == 0:\n        continue\n    print(i, end=\" \")\nprint()",
+        "language": "python",
+        "explanation": "When <code>i</code> is even, <code>continue</code> skips the print and moves to the next iteration. Only odd numbers reach the print statement. This achieves the same result as <code>if i % 2 != 0: print(i)</code>, but demonstrates the continue pattern.",
+        "output": "1 3 5 7 9 "
+      },
+      {
+        "title": "pass - Placeholder for Future Code",
+        "code": "# Planning a grading system - logic not implemented yet\nmarks = [85, 42, 93, 67, 38]\n\nfor mark in marks:\n    if mark >= 90:\n        pass  # TODO: Grade A\n    elif mark >= 60:\n        pass  # TODO: Grade B\n    else:\n        pass  # TODO: Grade C or fail\n\nprint(\"Program runs without errors even with empty blocks\")",
+        "language": "python",
+        "explanation": "<code>pass</code> allows you to define the structure of your conditions without implementing the logic yet. Without pass, Python would raise a <code>SyntaxError</code> because each if/elif/else block requires at least one statement. This is useful during the planning phase of writing a program.",
+        "output": "Program runs without errors even with empty blocks"
+      },
+      {
+        "title": "break in Nested Loops - Only Inner Loop Exits",
+        "code": "for i in range(1, 4):\n    print(\"Outer loop i =\", i)\n    for j in range(1, 4):\n        if j == 2:\n            break\n        print(\"  Inner loop j =\", j)\n    print(\"  Inner loop ended\")\nprint(\"Outer loop ended\")",
+        "language": "python",
+        "explanation": "When j equals 2, break exits only the inner loop. The outer loop continues with the next value of i. For each value of i (1, 2, 3), the inner loop prints j = 1 then breaks at j = 2. The \"Inner loop ended\" message appears after each break, proving the outer loop keeps running.",
+        "output": "Outer loop i = 1\n  Inner loop j = 1\n  Inner loop ended\nOuter loop i = 2\n  Inner loop j = 1\n  Inner loop ended\nOuter loop i = 3\n  Inner loop j = 1\n  Inner loop ended\nOuter loop ended"
+      },
+      {
+        "title": "Loop-else Pattern for Searching",
+        "code": "# Search for a prime number\ndef check_prime(n):\n    if n < 2:\n        print(n, \"is not prime\")\n        return\n    for i in range(2, n):\n        if n % i == 0:\n            print(n, \"is not prime (divisible by\", str(i) + \")\")\n            break\n    else:\n        print(n, \"is prime\")\n\ncheck_prime(17)\ncheck_prime(24)\ncheck_prime(2)",
+        "language": "python",
+        "explanation": "For 17: the loop checks divisors 2 through 16, finds none, so else runs (\"17 is prime\"). For 24: the loop finds 24 % 2 == 0, prints the message, and breaks. Since break executed, else is skipped. For 2: range(2, 2) is empty, so the loop body never runs, but else still runs because no break was encountered.",
+        "output": "17 is prime\n24 is not prime (divisible by 2)\n2 is prime"
+      },
+      {
+        "title": "continue for Filtering Data",
+        "code": "# Calculate average marks, skipping absent students (score = -1)\nmarks = [78, 92, -1, 85, -1, 67, 91, -1, 73]\ntotal = 0\ncount = 0\n\nfor mark in marks:\n    if mark == -1:\n        continue\n    total += mark\n    count += 1\n\nprint(\"Students present:\", count)\nprint(\"Average marks:\", total / count)",
+        "language": "python",
+        "explanation": "Absent students are marked with -1. The <code>continue</code> statement skips these entries, so they are not counted in the total or the count. Only valid scores (78, 92, 85, 67, 91, 73) are used. The average is 486 / 6 = 81.0.",
+        "output": "Students present: 6\nAverage marks: 81.0"
+      },
+      {
+        "title": "Combining break and continue",
+        "code": "# Process numbers: skip negatives, stop at 0\nnumbers = [5, 3, -2, 8, -1, 0, 7, 4]\n\nprint(\"Processing:\")\nfor num in numbers:\n    if num == 0:\n        print(\"Encountered 0 - stopping!\")\n        break\n    if num < 0:\n        print(\"Skipping negative:\", num)\n        continue\n    print(\"Processing:\", num)\n\nprint(\"Done\")",
+        "language": "python",
+        "explanation": "This demonstrates using both break and continue in the same loop. Negative numbers are skipped with continue. When 0 is encountered, the loop stops with break. Positive numbers are processed normally. The order of checks matters: we check for 0 first (break), then for negatives (continue), then process.",
+        "output": "Processing:\nProcessing: 5\nProcessing: 3\nSkipping negative: -2\nProcessing: 8\nSkipping negative: -1\nEncountered 0 - stopping!\nDone"
+      },
+      {
+        "title": "continue Pitfall in while Loops",
+        "code": "# WRONG: continue skips the counter update, causing infinite loop\n# i = 0\n# while i < 5:\n#     if i == 3:\n#         continue  # i never becomes 4!\n#     print(i)\n#     i += 1\n\n# CORRECT: update counter BEFORE continue\ni = 0\nwhile i < 5:\n    i += 1\n    if i == 3:\n        continue\n    print(i)",
+        "language": "python",
+        "explanation": "In the wrong version, when i is 3, continue skips <code>i += 1</code>, so i stays at 3 forever. In the correct version, <code>i += 1</code> is placed before the continue check. When i becomes 3, continue skips the print but i has already been incremented. Note: the correct version prints 1, 2, 4, 5 (not 0, 1, 2, 4).",
+        "output": "1\n2\n4\n5"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Infinite Loop from continue in while Loop",
+        "wrongCode": "i = 0\nwhile i < 5:\n    if i == 3:\n        continue  # Skips i += 1, so i stays 3 forever!\n    print(i)\n    i += 1",
+        "error": "Infinite loop! When i reaches 3, continue skips i += 1, and i remains 3 forever.",
+        "correctCode": "i = 0\nwhile i < 5:\n    if i == 3:\n        i += 1\n        continue\n    print(i)\n    i += 1",
+        "explanation": "In a while loop, <code>continue</code> goes back to the condition check. If the counter update (<code>i += 1</code>) comes after continue, it gets skipped. Always update the counter before calling continue in a while loop, or restructure your code to avoid this trap."
+      },
+      {
+        "title": "Expecting break to Exit All Nested Loops",
+        "wrongCode": "# Trying to break out of both loops\nfor i in range(5):\n    for j in range(5):\n        if i + j == 6:\n            print(\"Found!\", i, j)\n            break  # Only exits inner loop!\n    # Outer loop continues here",
+        "error": "break only exits the inner loop. The outer loop keeps running.",
+        "correctCode": "# Use a flag variable to break out of both loops\nfound = False\nfor i in range(5):\n    for j in range(5):\n        if i + j == 6:\n            print(\"Found!\", i, j)\n            found = True\n            break\n    if found:\n        break",
+        "explanation": "<code>break</code> only exits the innermost loop it is inside. To exit multiple nested loops, use a flag variable (like <code>found</code>). Set the flag to True before breaking the inner loop, then check the flag after the inner loop to break the outer loop too."
+      },
+      {
+        "title": "Misunderstanding Loop-else as 'if-else'",
+        "wrongCode": "# Student thinks else runs when loop condition is False\nfor i in range(3):\n    print(i)\nelse:\n    print(\"This runs because the loop is 'done'\")\n# Actually correct, but the student's reasoning is wrong",
+        "error": "No error, but the student misunderstands WHY else runs. It is not about the condition being False.",
+        "correctCode": "# else runs because no 'break' was encountered\nfor i in range(3):\n    print(i)\nelse:\n    print(\"No break was encountered - loop completed normally\")",
+        "explanation": "The loop-else clause is NOT the same as an if-else. The else block runs specifically because no <code>break</code> statement was executed during the loop. If there is no break in the loop at all, else will always run (making it somewhat pointless). The else is only meaningful when the loop contains a break."
+      },
+      {
+        "title": "Using pass When break or continue Is Needed",
+        "wrongCode": "# Trying to skip even numbers\nfor i in range(10):\n    if i % 2 == 0:\n        pass  # This does NOT skip! It does nothing.\n    print(i)",
+        "error": "No error, but all numbers 0-9 are printed. pass does not skip the print statement.",
+        "correctCode": "for i in range(10):\n    if i % 2 == 0:\n        continue  # This skips the rest of the iteration\n    print(i)",
+        "explanation": "<code>pass</code> does literally nothing. Execution continues to the next line after pass, which is <code>print(i)</code>. If you want to skip the rest of the iteration, use <code>continue</code>. If you want to stop the loop entirely, use <code>break</code>. <code>pass</code> is only useful as a placeholder for future code."
+      },
+      {
+        "title": "Placing Code After break",
+        "wrongCode": "for i in range(5):\n    if i == 3:\n        break\n        print(\"This line never runs\")  # Dead code!\n    print(i)",
+        "error": "No error, but the print after break is unreachable code. It never executes.",
+        "correctCode": "for i in range(5):\n    if i == 3:\n        print(\"Stopping at 3\")\n        break\n    print(i)",
+        "explanation": "Any code placed after a <code>break</code> (at the same indentation level within the same block) will never execute because break immediately exits the loop. If you need to do something before breaking, put that code before the break statement."
+      },
+      {
+        "title": "Using break Outside a Loop",
+        "wrongCode": "x = 5\nif x == 5:\n    break  # SyntaxError!",
+        "error": "SyntaxError: 'break' outside loop",
+        "correctCode": "x = 5\nfor i in range(10):\n    if i == x:\n        break\n    print(i)",
+        "explanation": "<code>break</code> and <code>continue</code> can only be used inside a loop (<code>for</code> or <code>while</code>). Using them in an <code>if</code> statement that is NOT inside a loop causes a SyntaxError. The if/break combination only works when the if is inside a loop."
+      }
+    ],
+    "summary": [
+      "break immediately exits the current loop. No further iterations are executed. The program continues with the first statement after the loop.",
+      "continue skips the rest of the current iteration and moves to the next iteration. In a for loop, it takes the next value. In a while loop, it re-checks the condition.",
+      "pass does nothing. It is a placeholder used to keep code syntactically valid when a code block is required but no action is needed yet.",
+      "In nested loops, break only exits the innermost loop. The outer loop continues normally. To break out of multiple loops, use a flag variable.",
+      "The loop-else clause runs only when the loop completes without encountering a break. Think of it as 'no-break'. If break executes, else is skipped.",
+      "A common use of break is searching: loop through items, break when found, use else to handle 'not found'.",
+      "A common use of continue is filtering: skip unwanted items (like zeros or negative values) and process only the desired ones.",
+      "In while loops, place the counter update BEFORE the continue statement. Otherwise, continue will skip the update, causing an infinite loop.",
+      "break and continue can only be used inside loops. Using them outside a loop causes a SyntaxError.",
+      "pass is different from break and continue. break stops the loop, continue skips to the next iteration, but pass simply does nothing and execution continues to the next line."
+    ]
+  },
+  "relatedTopics": ["loops-in-python", "pattern-printing"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>for i in range(1, 6):\n    if i == 3:\n        break\n    print(i)</code></pre>",
+        "hint": "The loop stops entirely when i reaches 3.",
+        "answer": "<code>1</code><br><code>2</code>",
+        "explanation": "When i = 1 and i = 2, the condition <code>i == 3</code> is False, so print executes. When i = 3, the condition is True, break executes, and the loop exits immediately. Values 3, 4, 5 are never printed."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(1, 6):\n    if i == 3:\n        continue\n    print(i)</code></pre>",
+        "hint": "continue skips only the current iteration, not the entire loop.",
+        "answer": "<code>1</code><br><code>2</code><br><code>4</code><br><code>5</code>",
+        "explanation": "When i = 3, <code>continue</code> skips the print for that iteration only. The loop continues with i = 4 and i = 5 normally. Unlike break, continue does not stop the loop."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    pass\nprint(\"Done\")</code></pre>",
+        "hint": "pass does nothing. The loop runs but produces no output.",
+        "answer": "<code>Done</code>",
+        "explanation": "The loop runs 3 times, but <code>pass</code> does nothing each time. After the loop, \"Done\" is printed. The <code>pass</code> statement is a no-operation; it exists only to prevent a syntax error in an empty block."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>i = 10\nwhile i > 0:\n    i -= 3\n    if i == 4:\n        break\nprint(i)</code></pre>",
+        "hint": "Trace i: 10 -> 7 -> 4. What happens when i is 4?",
+        "answer": "<code>4</code>",
+        "explanation": "i = 10. Iteration 1: i = 10 - 3 = 7, 7 == 4 is False. Iteration 2: i = 7 - 3 = 4, 4 == 4 is True, break. Loop exits with i = 4. The print statement after the loop outputs 4."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for letter in \"Hello\":\n    if letter == \"l\":\n        continue\n    print(letter, end=\"\")</code></pre>",
+        "hint": "continue skips the current character. How many l's are in \"Hello\"?",
+        "answer": "<code>Heo</code>",
+        "explanation": "The loop iterates through H, e, l, l, o. When the character is 'l' (which appears twice), continue skips the print. So H, e, and o are printed, giving \"Heo\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i == 3:\n        break\nelse:\n    print(\"Loop completed\")\nprint(\"After loop\")</code></pre>",
+        "hint": "The else block runs only if the loop completes WITHOUT a break.",
+        "answer": "<code>After loop</code>",
+        "explanation": "The loop breaks when i = 3. Since break was executed, the else block is skipped. Only \"After loop\" is printed. The else would have printed \"Loop completed\" only if the loop finished all 5 iterations without break."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i == 10:\n        break\nelse:\n    print(\"No break\")\nprint(\"Done\")</code></pre>",
+        "hint": "Will i ever equal 10 in range(5)?",
+        "answer": "<code>No break</code><br><code>Done</code>",
+        "explanation": "The condition <code>i == 10</code> is never True because range(5) only produces 0-4. The loop completes all iterations without break, so the else block runs, printing \"No break\". Then \"Done\" prints."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(3):\n        if j == 1:\n            break\n        print(i, j)</code></pre>",
+        "hint": "break exits only the inner loop. The outer loop continues.",
+        "answer": "<code>0 0</code><br><code>1 0</code><br><code>2 0</code>",
+        "explanation": "For each value of i (0, 1, 2): the inner loop starts with j = 0, prints (i, 0). Then j = 1, break exits the inner loop. The outer loop continues with the next i. So only j = 0 is ever printed for each row."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(1, 6):\n    if i % 2 == 0:\n        continue\n    if i == 5:\n        break\n    print(i)</code></pre>",
+        "hint": "Even numbers are skipped. The loop stops at 5.",
+        "answer": "<code>1</code><br><code>3</code>",
+        "explanation": "i=1: odd (no skip), not 5 (no break), prints 1. i=2: even, continue. i=3: odd, not 5, prints 3. i=4: even, continue. i=5: odd, equals 5, break. Only 1 and 3 are printed."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>count = 0\nfor i in range(10):\n    if i % 3 == 0:\n        continue\n    count += 1\nprint(count)</code></pre>",
+        "hint": "continue skips multiples of 3. How many numbers from 0-9 are NOT multiples of 3?",
+        "answer": "<code>6</code>",
+        "explanation": "Numbers 0-9 that are multiples of 3: 0, 3, 6, 9 (4 numbers skipped by continue). The remaining 6 numbers (1, 2, 4, 5, 7, 8) increment count. Total: 10 - 4 = 6."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>while True:\n    print(\"Hello\")\n    break</code></pre>",
+        "hint": "while True normally runs forever, but what does break do?",
+        "answer": "<code>Hello</code>",
+        "explanation": "<code>while True</code> creates a loop that would run forever. However, <code>break</code> is executed immediately after the print, so the loop exits after just one iteration. \"Hello\" is printed exactly once."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(3):\n        if i == j:\n            continue\n        print(i, j)</code></pre>",
+        "hint": "continue skips when i equals j (the diagonal). All other pairs are printed.",
+        "answer": "<code>0 1</code><br><code>0 2</code><br><code>1 0</code><br><code>1 2</code><br><code>2 0</code><br><code>2 1</code>",
+        "explanation": "The nested loop generates all pairs (i, j) where both range from 0 to 2. The continue statement skips pairs where i == j: (0,0), (1,1), (2,2). The remaining 6 pairs are printed."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(3):\n        if j == 2:\n            break\n    else:\n        print(\"Inner else for i =\", i)</code></pre>",
+        "hint": "The else belongs to the inner loop. Does the inner loop ever complete without break?",
+        "answer": "(No output - nothing is printed)",
+        "explanation": "For every value of i, the inner loop runs with j = 0, 1, 2. When j = 2, break executes. Since break always runs in the inner loop, the inner else block never executes. Nothing is printed."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>n = 0\nfor i in range(1, 5):\n    for j in range(1, 5):\n        if i * j > 6:\n            break\n        n += 1\nprint(n)</code></pre>",
+        "hint": "For each i, count how many j values give i*j <= 6 before break triggers.",
+        "answer": "<code>10</code>",
+        "explanation": "i=1: j=1(1), j=2(2), j=3(3), j=4(4), no break, count 4. i=2: j=1(2), j=2(4), j=3(6), j=4(8>6, break), count 3. i=3: j=1(3), j=2(6), j=3(9>6, break), count 2. i=4: j=1(4), j=2(8>6, break), count 1. Total: 4+3+2+1 = 10."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i < 2:\n        continue\n    if i > 3:\n        break\n    print(i, end=\" \")</code></pre>",
+        "hint": "continue skips 0 and 1. break stops at 4. What values remain?",
+        "answer": "<code>2 3 </code>",
+        "explanation": "i=0: 0 < 2, continue (skip). i=1: 1 < 2, continue (skip). i=2: not < 2, not > 3, print 2. i=3: not < 2, not > 3, print 3. i=4: not < 2, 4 > 3, break. Only 2 and 3 are printed."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between break and continue? Give a one-line example of each.",
+        "hint": "One stops the loop entirely, the other skips to the next iteration.",
+        "answer": "<code>break</code> exits the loop entirely; no more iterations run. <code>continue</code> skips the rest of the current iteration and moves to the next one. Example of break: in a loop searching for a name, <code>if name == target: break</code> stops searching once found. Example of continue: in a loop processing scores, <code>if score < 0: continue</code> skips invalid scores.",
+        "explanation": "Think of it this way: break says \"I am done with this entire loop.\" Continue says \"I am done with this particular iteration, but keep the loop going.\" Break is for stopping early. Continue is for skipping selectively."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Explain the loop-else pattern. When does the else block run, and when is it skipped? Why is it useful?",
+        "hint": "Think about what happens when a search succeeds versus when it fails.",
+        "answer": "The else block on a loop runs only when the loop completes all iterations without encountering a <code>break</code>. If break is executed, else is skipped. It is useful for search operations: use break when the target is found, and else handles the 'not found' case. This is cleaner than using a flag variable like <code>found = False</code>.",
+        "explanation": "A helpful way to remember: think of loop-else as \"no-break-else\". The else runs when there was no break. Example: <code>for name in names: if name == target: print('Found'); break</code> followed by <code>else: print('Not found')</code>. This pattern eliminates the need for a separate Boolean flag."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i == 0:\n        continue\n    print(i, end=\" \")</code></pre>",
+        "hint": "continue skips i = 0. All other values are printed.",
+        "answer": "<code>1 2 3 4 </code>",
+        "explanation": "When i = 0, continue skips the print. For i = 1, 2, 3, 4, the print executes normally. So the output is 1 2 3 4."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = 1\nwhile x <= 10:\n    if x == 6:\n        break\n    x += 1\nprint(x)</code></pre>",
+        "hint": "Trace x: it increments until reaching 6, then break stops the loop.",
+        "answer": "<code>6</code>",
+        "explanation": "x starts at 1. The loop increments x: 2, 3, 4, 5, 6. When x = 6, break executes before the next increment. So x = 6 is printed."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>text = \"Python\"\nresult = \"\"\nfor ch in text:\n    if ch in \"aeiou\":\n        continue\n    result += ch\nprint(result)</code></pre>",
+        "hint": "continue skips vowels. Consonants are added to result.",
+        "answer": "<code>Pythn</code>",
+        "explanation": "Iterating through \"Python\": P (not vowel, add), y (not vowel, add), t (not vowel, add), h (not vowel, add), o (vowel, skip), n (not vowel, add). Result: \"Pythn\"."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [2, 4, 6, 7, 8, 10]\nfor num in nums:\n    if num % 2 != 0:\n        print(\"Found odd:\", num)\n        break\nelse:\n    print(\"All even\")</code></pre>",
+        "hint": "The loop looks for an odd number. Is there one in the list?",
+        "answer": "<code>Found odd: 7</code>",
+        "explanation": "The loop checks each number. 2, 4, 6 are even (no break). 7 is odd (7 % 2 != 0 is True), so it prints \"Found odd: 7\" and breaks. Since break was executed, the else block is skipped."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(4):\n    for j in range(4):\n        if j > i:\n            break\n        print(\"*\", end=\"\")\n    print()</code></pre>",
+        "hint": "When j exceeds i, the inner loop breaks. How many stars per row?",
+        "answer": "<code>*</code><br><code>**</code><br><code>***</code><br><code>****</code>",
+        "explanation": "Row i=0: j=0 (0>0 is False, print *), j=1 (1>0, break). 1 star. Row i=1: j=0,1 before break at j=2. 2 stars. Row i=2: j=0,1,2 before break at j=3. 3 stars. Row i=3: j=0,1,2,3 (j never exceeds 3). 4 stars."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>total = 0\ni = 1\nwhile i <= 10:\n    if i % 5 == 0:\n        i += 1\n        continue\n    total += i\n    i += 1\nprint(total)</code></pre>",
+        "hint": "Multiples of 5 (5 and 10) are skipped. Sum the rest from 1 to 10.",
+        "answer": "<code>40</code>",
+        "explanation": "Numbers 1-10 excluding multiples of 5 (5, 10): 1+2+3+4+6+7+8+9 = 40. When i = 5 or i = 10, continue skips the addition. Note: i is incremented before continue to avoid an infinite loop."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(1, 4):\n    for j in range(1, 4):\n        if i + j == 4:\n            break\n        print(i, j)\n    else:\n        print(\"Row\", i, \"complete\")</code></pre>",
+        "hint": "The else belongs to the inner for loop. It runs only when the inner loop does not break.",
+        "answer": "<code>1 1</code><br><code>1 2</code><br><code>2 1</code>",
+        "explanation": "i=1: j=1 (1+1=2, print 1 1), j=2 (1+2=3, print 1 2), j=3 (1+3=4, break). Else skipped. i=2: j=1 (2+1=3, print 2 1), j=2 (2+2=4, break). Else skipped. i=3: j=1 (3+1=4, break). Else skipped. All three rows encounter break, so the else block never runs."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i == 2:\n        pass\n    if i == 3:\n        continue\n    if i == 4:\n        break\n    print(i)</code></pre>",
+        "hint": "pass does nothing (i=2 still prints). continue skips i=3. break stops at i=4.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code>",
+        "explanation": "i=0: no special condition, prints 0. i=1: no special condition, prints 1. i=2: pass does nothing, execution continues, prints 2. i=3: continue skips print. i=4: break exits loop. Output: 0, 1, 2."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>found = False\nfor i in range(2, 5):\n    for j in range(2, 5):\n        if i * j == 12:\n            found = True\n            break\n    if found:\n        break\nprint(i, j)</code></pre>",
+        "hint": "This uses a flag to break out of both loops. When does i * j first equal 12?",
+        "answer": "<code>3 4</code>",
+        "explanation": "i=2: j=2(4), j=3(6), j=4(8). No match. i=3: j=2(6), j=3(9), j=4(12). found = True, break inner. Check found, break outer. i=3, j=4 at time of exit. Prints 3 4."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    for j in range(5):\n        if (i + j) % 2 == 0:\n            continue\n        if j == 3:\n            break\n        print(i, j, end=\"  \")\n    print()</code></pre>",
+        "hint": "Even sums of i+j are skipped. If j reaches 3, the inner loop breaks.",
+        "answer": "<code>0 1  </code><br><code>1 0  1 2  </code><br><code>2 1  </code><br><code>3 0  3 2  </code><br><code>4 1  </code>",
+        "explanation": "For each (i,j): skip if (i+j) even, break if j==3. i=0: j=0(even,skip), j=1(odd,print 0 1), j=2(even,skip), j=3(break). i=1: j=0(odd,print 1 0), j=1(even,skip), j=2(odd,print 1 2), j=3(break). i=2: j=0(even,skip), j=1(odd,print 2 1), j=2(even,skip), j=3(break). i=3: j=0(odd,print 3 0), j=1(even,skip), j=2(odd,print 3 2), j=3(break). i=4: j=0(even,skip), j=1(odd,print 4 1), j=2(even,skip), j=3(break)."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>i = 0\nwhile i < 10:\n    i += 1\n    if i % 2 == 0:\n        continue\n    if i > 7:\n        break\n    print(i, end=\" \")</code></pre>",
+        "hint": "Even numbers skip. Numbers above 7 trigger break. What odd numbers from 1-7 are printed?",
+        "answer": "<code>1 3 5 7 </code>",
+        "explanation": "i increments first: 1(odd, <=7, print), 2(even, skip), 3(odd, <=7, print), 4(even, skip), 5(odd, <=7, print), 6(even, skip), 7(odd, <=7, print), 8(even, skip), 9(odd, >7, break). Output: 1 3 5 7."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "Why is pass necessary in Python? What happens if you write an empty loop without pass?",
+        "hint": "Python uses indentation for blocks. What happens when a block has no statements?",
+        "answer": "Python requires every code block (after <code>if</code>, <code>for</code>, <code>while</code>, <code>def</code>, etc.) to have at least one statement. An empty block causes an <code>IndentationError</code> or <code>SyntaxError</code>. <code>pass</code> serves as a no-operation placeholder that satisfies this requirement. Example: <code>for i in range(5):</code> followed by nothing is a syntax error, but <code>for i in range(5): pass</code> is valid.",
+        "explanation": "In languages like C++ or Java, you can use empty braces {} for an empty block. Python does not have braces; it uses indentation. Since an empty indented block is ambiguous (is it empty or is the next line supposed to be indented?), Python requires at least one statement, and pass fills that role."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does the break statement do in a loop?",
+        "options": [
+          "Skips the current iteration",
+          "Exits the loop entirely",
+          "Pauses the loop temporarily",
+          "Restarts the loop from the beginning"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>break</code> immediately exits the loop. Option A describes <code>continue</code>. Options C and D do not exist as loop control behaviors in Python."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does the continue statement do?",
+        "options": [
+          "Exits the loop",
+          "Skips the current iteration and moves to the next",
+          "Does nothing",
+          "Continues the loop forever"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>continue</code> skips the rest of the current iteration's body and moves to the next iteration. Option A describes break. Option C describes pass. Option D is not what continue does."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does pass do in Python?",
+        "options": [
+          "Exits the program",
+          "Skips to the next loop iteration",
+          "Does absolutely nothing",
+          "Passes a value to the next iteration"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>pass</code> is a null operation. It does nothing when executed. It is used as a placeholder when a statement is required syntactically but no action is needed."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Can break be used outside a loop?",
+        "options": [
+          "Yes, it exits the program",
+          "Yes, it exits the function",
+          "No, it causes a SyntaxError",
+          "Yes, but it does nothing"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>break</code> can only be used inside a <code>for</code> or <code>while</code> loop. Using it outside a loop raises <code>SyntaxError: 'break' outside loop</code>."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Medium",
+        "question": "In nested loops, which loop does break exit?",
+        "options": [
+          "Both inner and outer loops",
+          "Only the outermost loop",
+          "Only the innermost loop it is in",
+          "All loops in the program"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>break</code> only exits the loop it is directly inside (the innermost loop containing the break). The outer loop continues its iterations. To exit multiple loops, use a flag variable."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "When does the else clause of a for loop execute?",
+        "options": [
+          "On every iteration",
+          "When the loop encounters an error",
+          "When break is executed",
+          "When the loop completes without break"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> The loop-else runs only when the loop finishes all iterations without a <code>break</code>. If break is executed (option C), the else is skipped. It is not triggered by errors (option B) and does not run on each iteration (option A)."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of: for i in range(3): continue; print(i)?",
+        "options": [
+          "0 1 2",
+          "Nothing is printed",
+          "SyntaxError",
+          "0"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> On every iteration, <code>continue</code> executes, which skips <code>print(i)</code>. No values are ever printed. The loop runs 3 times but produces no output because continue always skips the print. Note: using semicolons in Python is valid but not recommended."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the main danger of using continue in a while loop?",
+        "options": [
+          "It always causes a SyntaxError",
+          "It can skip the counter update, causing an infinite loop",
+          "It exits the loop instead of skipping",
+          "It only works with for loops"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If the counter update (like <code>i += 1</code>) is placed after the continue statement in a while loop, continue will skip it, and the loop variable never changes, causing an infinite loop. Always update the counter before continue."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "Which statement is a valid placeholder for an empty code block?",
+        "options": [
+          "break",
+          "continue",
+          "pass",
+          "skip"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>pass</code> is designed to be a no-operation placeholder. break (option A) exits a loop. continue (option B) skips an iteration. skip (option D) is not a Python keyword."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What happens if a for loop with an else clause iterates over an empty sequence?",
+        "options": [
+          "The else block is skipped",
+          "The else block runs",
+          "Python raises an error",
+          "The loop runs once"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> If the sequence is empty (like <code>for i in range(0)</code>), the loop body never runs, and since no break was encountered, the else block runs. This catches many students off guard."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    pass\n    print(i, end=\" \")</code></pre>",
+        "options": [
+          "Nothing is printed",
+          "0 1 2",
+          "pass 0 pass 1 pass 2",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pass</code> does nothing and execution continues to the next statement, which is <code>print(i)</code>. So 0, 1, 2 are printed. pass does NOT skip the rest of the loop body like continue does."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "How would you break out of two nested loops?",
+        "options": [
+          "Use break twice on the same line",
+          "Use 'break 2' to specify the number of loops",
+          "Use a flag variable and check it after the inner loop",
+          "Use 'exit()' to stop the program"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python does not support <code>break 2</code> (option B) or multiple breaks on one line (option A). The standard approach is to set a flag (like <code>found = True</code>) before breaking the inner loop, then check the flag to break the outer loop. <code>exit()</code> (option D) terminates the entire program, not just the loops."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 0\nfor i in range(1, 5):\n    if i == 3:\n        break\n    x += i\nelse:\n    x += 100\nprint(x)</code></pre>",
+        "options": [
+          "103",
+          "110",
+          "3",
+          "100"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The loop adds i=1 (x=1) and i=2 (x=3), then breaks at i=3. Since break was executed, the else block (x += 100) is skipped. Final x = 3."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    if i == 2:\n        continue\n    for j in range(5):\n        if j == 2:\n            break\n    print(i, j)</code></pre>",
+        "options": [
+          "Prints 4 pairs",
+          "Prints 5 pairs",
+          "Prints nothing",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The outer continue skips i=2 entirely. For i=0,1,3,4: the inner loop runs and breaks at j=2. After the inner loop, print(i, j) runs. So 4 lines are printed: (0,2), (1,2), (3,2), (4,2). The inner break does not affect the outer loop."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "Which is NOT a valid use of pass?",
+        "options": [
+          "Empty function body: def my_func(): pass",
+          "Empty loop body: for i in range(5): pass",
+          "Empty if body: if True: pass",
+          "Replacing break: for i in range(5): pass # exits loop"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct (it is NOT a valid use).</strong> <code>pass</code> does NOT exit a loop; it does nothing. If you want to exit a loop, use <code>break</code>. Options A, B, and C are all valid uses of pass as a placeholder for empty code blocks."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What is the output of: for i in range(3): break; print(\"After loop\")?",
+        "options": [
+          "0 1 2 After loop",
+          "After loop",
+          "0 After loop",
+          "Nothing"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The break executes on the very first iteration (i=0), immediately exiting the loop. No values of i are printed. Then \"After loop\" is printed because it is outside the loop. Note: the semicolon puts two statements on one line."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>while False:\n    print(\"Inside\")\nelse:\n    print(\"Else\")</code></pre>",
+        "options": [
+          "Inside",
+          "Else",
+          "Inside Else",
+          "Nothing"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The while condition is False from the start, so the loop body never runs. However, since no break was encountered (the loop simply did not run), the else block executes. This is a subtle but important behavior."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "In this code, how many times does 'Hello' print?<br><pre><code>for i in range(10):\n    if i % 3 == 0:\n        continue\n    if i == 8:\n        break\n    print(\"Hello\")</code></pre>",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> i=0: skip (0%3==0). i=1: print. i=2: print. i=3: skip (3%3==0). i=4: print. i=5: print. i=6: skip (6%3==0). i=7: print. i=8: break. Total prints: i=1,2,4,5,7 = 5 times."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "First Negative Number",
+        "difficulty": "Easy",
+        "description": "Given the list [5, 12, 8, -3, 9, -7, 4], write a program that finds and prints the first negative number. Stop searching after finding it.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First negative number: -3",
+        "constraints": "Use a for loop with break.",
+        "solution": "numbers = [5, 12, 8, -3, 9, -7, 4]\nfor num in numbers:\n    if num < 0:\n        print(\"First negative number:\", num)\n        break"
+      },
+      {
+        "id": "cc-2",
+        "title": "Print Without Vowels",
+        "difficulty": "Easy",
+        "description": "Given the string \"Ananya loves coding\", write a program that prints the string with all vowels removed.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "nny lvs cdng",
+        "constraints": "Use a for loop with continue to skip vowels.",
+        "solution": "text = \"Ananya loves coding\"\nfor ch in text:\n    if ch.lower() in \"aeiou\":\n        continue\n    print(ch, end=\"\")\nprint()"
+      },
+      {
+        "id": "cc-3",
+        "title": "Sum Until Negative",
+        "difficulty": "Medium",
+        "description": "Given the list [10, 25, 30, -5, 40, 50], write a program that calculates the sum of elements until a negative number is encountered. Stop at the negative number (do not include it).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Sum before negative: 65",
+        "constraints": "Use a for loop with break.",
+        "solution": "numbers = [10, 25, 30, -5, 40, 50]\ntotal = 0\nfor num in numbers:\n    if num < 0:\n        break\n    total += num\nprint(\"Sum before negative:\", total)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Password Checker Simulation",
+        "difficulty": "Medium",
+        "description": "Simulate a password checker. The correct password is \"mac2026\". Use a while loop to allow up to 3 attempts. If the correct password is found in the attempts list [\"hello\", \"mac2026\", \"python\"], print \"Access granted\" and stop. If all 3 fail, print \"Account locked\".",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Attempt 1: hello - Wrong!\nAttempt 2: mac2026 - Access granted!",
+        "constraints": "Use a while loop with break. Use the loop-else pattern.",
+        "solution": "attempts = [\"hello\", \"mac2026\", \"python\"]\ncorrect = \"mac2026\"\ni = 0\nwhile i < len(attempts):\n    guess = attempts[i]\n    i += 1\n    if guess == correct:\n        print(\"Attempt \" + str(i) + \": \" + guess + \" - Access granted!\")\n        break\n    else:\n        print(\"Attempt \" + str(i) + \": \" + guess + \" - Wrong!\")\nelse:\n    print(\"Account locked\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Skip Multiples",
+        "difficulty": "Medium",
+        "description": "Write a program that prints numbers from 1 to 30, but skips all multiples of 3 and all multiples of 5. Use continue for skipping.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "1 2 4 7 8 11 13 14 16 17 19 22 23 26 28 29",
+        "constraints": "Use a single for loop with continue.",
+        "solution": "for i in range(1, 31):\n    if i % 3 == 0 or i % 5 == 0:\n        continue\n    print(i, end=\" \")\nprint()"
+      },
+      {
+        "id": "cc-6",
+        "title": "Find Common Element",
+        "difficulty": "Hard",
+        "description": "Given two lists list1 = [3, 7, 12, 9, 5] and list2 = [8, 5, 14, 3, 20], find and print the first element that appears in both lists. Use nested loops with break.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First common element: 3",
+        "constraints": "Use nested for loops with break. Use a flag variable to exit both loops.",
+        "solution": "list1 = [3, 7, 12, 9, 5]\nlist2 = [8, 5, 14, 3, 20]\nfound = False\nfor a in list1:\n    for b in list2:\n        if a == b:\n            print(\"First common element:\", a)\n            found = True\n            break\n    if found:\n        break"
+      },
+      {
+        "id": "cc-7",
+        "title": "Count Digits, Letters, and Spaces",
+        "difficulty": "Hard",
+        "description": "Given the string \"Aarav is 14 years old and in class 9\", count and print the number of digits, letters, and spaces. Use continue to skip characters that are not in any category.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Digits: 3\nLetters: 26\nSpaces: 8",
+        "constraints": "Use a for loop. Use str.isdigit(), str.isalpha(), and comparison with ' '.",
+        "solution": "text = \"Aarav is 14 years old and in class 9\"\ndigits = 0\nletters = 0\nspaces = 0\nfor ch in text:\n    if ch.isdigit():\n        digits += 1\n    elif ch.isalpha():\n        letters += 1\n    elif ch == ' ':\n        spaces += 1\n    else:\n        continue\nprint(\"Digits:\", digits)\nprint(\"Letters:\", letters)\nprint(\"Spaces:\", spaces)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Prime Numbers in Range",
+        "difficulty": "Hard",
+        "description": "Write a program that prints all prime numbers between 2 and 50. Use nested loops with break and the loop-else pattern to check each number for primality.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "2 3 5 7 11 13 17 19 23 29 31 37 41 43 47",
+        "constraints": "Use a for loop inside a for loop. Use break when a divisor is found and else to print primes.",
+        "solution": "for num in range(2, 51):\n    for i in range(2, num):\n        if num % i == 0:\n            break\n    else:\n        print(num, end=\" \")\nprint()"
+      }
+    ]
+  }
+}

@@ -1,0 +1,803 @@
+{
+  "title": "Loops in Python (for and while)",
+  "slug": "loops-in-python",
+  "language": "python",
+  "chapter": 8,
+  "difficulty": "Beginner",
+  "readingTime": "22 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 63,
+  "seo": {
+    "title": "Loops in Python - for Loop, while Loop, range(), Nested Loops | Modern Age Coders",
+    "description": "Learn Python for loops, while loops, range() function, nested loops, enumerate(), and loop-else clause. Includes 65 practice questions with output prediction and coding challenges.",
+    "keywords": "python for loop, while loop python, python loops explained, python loops tutorial for beginners, python range function, nested loops python, python enumerate, python loop else, python for loop examples, while loop examples python"
+  },
+  "content": {
+    "what": "<h2>What Are Loops in Python?</h2><p>A <strong>loop</strong> is a programming construct that repeats a block of code multiple times. Instead of writing the same instruction over and over, you write it once inside a loop and tell Python how many times to repeat it, or under what condition to keep repeating.</p><p>Consider this scenario: you want to print the numbers 1 through 100. Without loops, you would need 100 separate <code>print()</code> statements. With a loop, you need just two lines of code. Loops eliminate repetition and make programs shorter, cleaner, and easier to maintain.</p><h3>Two Types of Loops</h3><p>Python provides two types of loops:</p><p><strong>1. for loop</strong> - Used when you know in advance how many times you want to repeat something, or when you want to go through each item in a sequence (like a string, list, or range of numbers).</p><p><strong>2. while loop</strong> - Used when you want to repeat something as long as a condition remains True. You might not know in advance how many repetitions are needed.</p><p>Both types achieve the same goal (repetition), but they are suited to different situations. Choosing the right type of loop makes your code more readable and less error-prone.</p>",
+    "why": "<h2>Why Are Loops Important?</h2><p>Loops are one of the most fundamental concepts in programming. Almost every real program uses loops. Here is why they matter:</p><h3>1. Eliminating Repetitive Code</h3><p>Without loops, printing numbers 1 to 1000 would require 1000 lines of code. With a <code>for</code> loop, you need just 2 lines. Loops follow the DRY principle (Do not Repeat Yourself), which is a cornerstone of good programming.</p><h3>2. Processing Collections of Data</h3><p>When you have a list of student names, marks, or items in a shopping cart, you need to process each item one by one. Loops let you iterate through every element in a collection without knowing the size in advance.</p><h3>3. Building Algorithms</h3><p>Nearly every algorithm involves loops. Searching for an element, sorting a list, calculating a factorial, generating patterns, counting occurrences - all of these require loops. Without understanding loops, you cannot solve most programming problems.</p><h3>4. Automating Tasks</h3><p>Loops are the foundation of automation. Whether you are processing 10 files or 10,000 records, the loop body stays the same. Only the number of repetitions changes. This is what makes computers powerful: they can repeat a task millions of times without getting tired or making mistakes.</p><h3>5. Foundation for Advanced Concepts</h3><p>Loops are prerequisites for understanding list comprehensions, file processing, web scraping, game loops, animations, and virtually every advanced topic in programming.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The for Loop with range()</h3><p>The <code>for</code> loop repeats a block of code for each value in a sequence. The most common way to create a sequence of numbers is the <code>range()</code> function.</p><h4>range() with One Argument</h4><p><code>range(n)</code> generates numbers from <strong>0 to n-1</strong> (n numbers total). It does NOT include n itself.</p><pre><code>for i in range(5):\n    print(i)</code></pre><p>This prints 0, 1, 2, 3, 4 (five numbers, starting from 0). The variable <code>i</code> is called the <strong>loop variable</strong> (or iterator). It automatically takes the next value from the range on each iteration.</p><h4>range() with Two Arguments</h4><p><code>range(start, stop)</code> generates numbers from <strong>start</strong> to <strong>stop-1</strong>. The start value is included, but the stop value is excluded.</p><pre><code>for i in range(1, 6):\n    print(i)</code></pre><p>This prints 1, 2, 3, 4, 5. The number 6 is NOT included. If you want to print 1 to 10, use <code>range(1, 11)</code>.</p><h4>range() with Three Arguments</h4><p><code>range(start, stop, step)</code> generates numbers from start to stop-1, incrementing by step each time.</p><pre><code>for i in range(2, 11, 2):\n    print(i)</code></pre><p>This prints 2, 4, 6, 8, 10 (even numbers from 2 to 10). The step value determines how much to add after each iteration.</p><p>You can also use a negative step to count backwards:</p><pre><code>for i in range(10, 0, -1):\n    print(i)</code></pre><p>This prints 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 (counting down). Notice that 0 is NOT included because the stop value is always excluded.</p><h3>2. Iterating Over Strings</h3><p>A <code>for</code> loop can iterate over each character of a string directly, without using <code>range()</code>:</p><pre><code>name = \"Aarav\"\nfor char in name:\n    print(char)</code></pre><p>This prints each character on a separate line: A, a, r, a, v. The loop variable <code>char</code> takes the value of each character in order.</p><h3>3. Iterating Over Lists</h3><p>Just like strings, you can loop through each element of a list:</p><pre><code>fruits = [\"apple\", \"mango\", \"banana\"]\nfor fruit in fruits:\n    print(fruit)</code></pre><p>This prints each fruit on a separate line. The loop automatically handles the indexing for you.</p><h3>4. The while Loop</h3><p>A <code>while</code> loop repeats a block of code as long as a condition is <code>True</code>. The condition is checked <strong>before each iteration</strong>. If the condition is False from the start, the loop body never executes.</p><pre><code>count = 1\nwhile count <= 5:\n    print(count)\n    count += 1</code></pre><p>This prints 1, 2, 3, 4, 5. Here is how it works: (1) Check if <code>count <= 5</code> (1 <= 5 is True, so enter the loop). (2) Print count. (3) Increment count by 1. (4) Go back to step 1. When count becomes 6, the condition <code>6 <= 5</code> is False, and the loop stops.</p><h4>while Loop with a Counter</h4><p>A common pattern is using a counter variable with a while loop:</p><pre><code>i = 0\nwhile i < 3:\n    print(\"Hello\")\n    i += 1</code></pre><p>This prints \"Hello\" three times. The counter <code>i</code> starts at 0, and the loop runs while i is less than 3 (so i takes values 0, 1, 2).</p><h3>5. Infinite Loops and How to Avoid Them</h3><p>An <strong>infinite loop</strong> is a loop that never stops because its condition never becomes False. This is usually a bug.</p><pre><code># WARNING: This is an infinite loop!\ncount = 1\nwhile count <= 5:\n    print(count)\n    # Missing: count += 1</code></pre><p>Since <code>count</code> never changes, the condition <code>count <= 5</code> is always True, and the loop prints 1 forever. To avoid infinite loops: (1) Always make sure the loop variable changes inside the loop body. (2) Ensure the change moves toward making the condition False. (3) Double-check the condition and the update direction.</p><h3>6. The else Clause on Loops</h3><p>Python has a unique feature: you can attach an <code>else</code> block to a loop. The <code>else</code> block runs <strong>only if the loop completes normally</strong> (without being stopped by a <code>break</code> statement). This applies to both <code>for</code> and <code>while</code> loops.</p><pre><code>for i in range(5):\n    print(i)\nelse:\n    print(\"Loop completed!\")</code></pre><p>This prints 0, 1, 2, 3, 4, and then \"Loop completed!\" because the loop finished all its iterations without a break.</p><h3>7. Nested Loops</h3><p>A <strong>nested loop</strong> is a loop inside another loop. For each iteration of the <strong>outer loop</strong>, the <strong>inner loop</strong> runs completely from start to finish.</p><pre><code>for i in range(3):\n    for j in range(4):\n        print(\"*\", end=\" \")\n    print()</code></pre><p>This prints a grid of 3 rows and 4 columns of stars. The outer loop controls the rows (runs 3 times), and for each row, the inner loop prints 4 stars. The <code>end=\" \"</code> keeps the stars on the same line, and <code>print()</code> after the inner loop moves to the next line.</p><p>Understanding nested loops is essential for pattern printing, working with 2D data (like tables or grids), and many algorithmic problems.</p><h3>8. The enumerate() Function</h3><p><code>enumerate()</code> lets you loop through a sequence while keeping track of the index (position) of each element:</p><pre><code>colors = [\"red\", \"green\", \"blue\"]\nfor index, color in enumerate(colors):\n    print(index, color)</code></pre><p>This prints: 0 red, 1 green, 2 blue. Without <code>enumerate()</code>, you would need a separate counter variable. You can also specify a starting index: <code>enumerate(colors, start=1)</code> would give indices 1, 2, 3 instead of 0, 1, 2.</p><h3>9. Using range() for Reverse Iteration</h3><p>To loop backwards, use a negative step in <code>range()</code>:</p><pre><code>for i in range(5, 0, -1):\n    print(i)</code></pre><p>This prints 5, 4, 3, 2, 1. The range starts at 5, stops before 0, and decrements by 1 each time. Remember: the stop value is always excluded, so 0 is not printed.</p><p>A common mistake is writing <code>range(5, 0)</code> without the step. This produces an empty range because the default step is +1, and you cannot count from 5 to 0 by adding 1.</p>",
+    "codeExamples": [
+      {
+        "title": "for Loop with range() - All Three Forms",
+        "code": "# range(stop) - starts from 0\nprint(\"range(5):\")\nfor i in range(5):\n    print(i, end=\" \")\nprint()\n\n# range(start, stop)\nprint(\"range(3, 8):\")\nfor i in range(3, 8):\n    print(i, end=\" \")\nprint()\n\n# range(start, stop, step)\nprint(\"range(0, 20, 4):\")\nfor i in range(0, 20, 4):\n    print(i, end=\" \")\nprint()\n\n# Negative step (counting backwards)\nprint(\"range(10, 0, -2):\")\nfor i in range(10, 0, -2):\n    print(i, end=\" \")\nprint()",
+        "language": "python",
+        "explanation": "This demonstrates all three forms of <code>range()</code>. With one argument, it starts from 0. With two arguments, you control the start. With three arguments, you also control the step. A negative step counts backwards. In every case, the stop value is excluded from the output.",
+        "output": "range(5):\n0 1 2 3 4 \nrange(3, 8):\n3 4 5 6 7 \nrange(0, 20, 4):\n0 4 8 12 16 \nrange(10, 0, -2):\n10 8 6 4 2 "
+      },
+      {
+        "title": "Iterating Over Strings and Lists",
+        "code": "# Iterating over a string\nname = \"Priya\"\nprint(\"Characters in\", name, \":\")\nfor ch in name:\n    print(ch, end=\" \")\nprint()\n\n# Iterating over a list\nsubjects = [\"Maths\", \"Science\", \"English\", \"Hindi\"]\nprint(\"\\nSubjects:\")\nfor subject in subjects:\n    print(\"-\", subject)",
+        "language": "python",
+        "explanation": "A <code>for</code> loop can iterate over any sequence. When used with a string, the loop variable gets one character at a time. When used with a list, it gets one element at a time. No index arithmetic is needed.",
+        "output": "Characters in Priya :\nP r i y a \n\nSubjects:\n- Maths\n- Science\n- English\n- Hindi"
+      },
+      {
+        "title": "while Loop - Basic Counter",
+        "code": "# Counting from 1 to 5\ncount = 1\nwhile count <= 5:\n    print(\"Count:\", count)\n    count += 1\n\nprint(\"Loop ended. count is now:\", count)",
+        "language": "python",
+        "explanation": "The while loop checks <code>count <= 5</code> before each iteration. When count is 1, 2, 3, 4, or 5, the condition is True and the body executes. After the body runs with count = 5, count becomes 6, the condition <code>6 <= 5</code> is False, and the loop stops. Notice that count is 6 after the loop, not 5.",
+        "output": "Count: 1\nCount: 2\nCount: 3\nCount: 4\nCount: 5\nLoop ended. count is now: 6"
+      },
+      {
+        "title": "while Loop - Sum Until Condition",
+        "code": "# Add numbers until sum exceeds 50\ntotal = 0\nnum = 1\n\nwhile total <= 50:\n    total += num\n    num += 1\n\nprint(\"Sum:\", total)\nprint(\"Last number added:\", num - 1)\nprint(\"Numbers added:\", num - 1)",
+        "language": "python",
+        "explanation": "This while loop keeps adding consecutive numbers (1 + 2 + 3 + ...) until the total exceeds 50. We do not know in advance how many numbers will be needed, which is why a while loop is appropriate here. The loop adds 1, 2, 3, ... 10, at which point total = 55 which exceeds 50.",
+        "output": "Sum: 55\nLast number added: 10\nNumbers added: 10"
+      },
+      {
+        "title": "Nested Loops - Multiplication Table Grid",
+        "code": "# Print a 5x5 multiplication table\nprint(\"Multiplication Table (1-5):\")\nfor i in range(1, 6):\n    for j in range(1, 6):\n        print(i * j, end=\"\\t\")\n    print()",
+        "language": "python",
+        "explanation": "The outer loop iterates over rows (i = 1 to 5) and the inner loop iterates over columns (j = 1 to 5). For each cell, we print <code>i * j</code>. The <code>\\t</code> (tab character) aligns the columns. After each row (inner loop completes), <code>print()</code> moves to the next line. The inner loop runs 5 times for EACH iteration of the outer loop, giving 25 total multiplications.",
+        "output": "Multiplication Table (1-5):\n1\t2\t3\t4\t5\t\n2\t4\t6\t8\t10\t\n3\t6\t9\t12\t15\t\n4\t8\t12\t16\t20\t\n5\t10\t15\t20\t25\t"
+      },
+      {
+        "title": "Loop with else Clause",
+        "code": "# else runs when loop completes without break\nprint(\"Searching for 7 in range(1, 6):\")\nfor i in range(1, 6):\n    if i == 7:\n        print(\"Found 7!\")\n        break\nelse:\n    print(\"7 was not found in the range.\")\n\nprint()\n\nprint(\"Searching for 3 in range(1, 6):\")\nfor i in range(1, 6):\n    if i == 3:\n        print(\"Found 3!\")\n        break\nelse:\n    print(\"3 was not found in the range.\")",
+        "language": "python",
+        "explanation": "The <code>else</code> block on a loop runs only if the loop completes all its iterations without encountering a <code>break</code>. In the first example, 7 is not in range(1, 6), so break never executes, and the else block runs. In the second example, 3 is found, break executes, and the else block is skipped. This is useful for search operations.",
+        "output": "Searching for 7 in range(1, 6):\n7 was not found in the range.\n\nSearching for 3 in range(1, 6):\nFound 3!"
+      },
+      {
+        "title": "enumerate() for Index Tracking",
+        "code": "students = [\"Aarav\", \"Priya\", \"Rohan\", \"Ananya\", \"Vikram\"]\n\n# Without enumerate\nprint(\"Without enumerate:\")\nfor i in range(len(students)):\n    print(i + 1, students[i])\n\nprint()\n\n# With enumerate (cleaner)\nprint(\"With enumerate:\")\nfor index, name in enumerate(students, start=1):\n    print(index, name)",
+        "language": "python",
+        "explanation": "Both approaches print the same output, but <code>enumerate()</code> is cleaner. It returns pairs of (index, value) automatically. The <code>start=1</code> parameter makes the index begin at 1 instead of 0, which is useful for numbering items in a human-readable way.",
+        "output": "Without enumerate:\n1 Aarav\n2 Priya\n3 Rohan\n4 Ananya\n5 Vikram\n\nWith enumerate:\n1 Aarav\n2 Priya\n3 Rohan\n4 Ananya\n5 Vikram"
+      },
+      {
+        "title": "Nested Loop - Star Rectangle Pattern",
+        "code": "rows = 4\ncols = 6\n\nfor i in range(rows):\n    for j in range(cols):\n        print(\"*\", end=\" \")\n    print()\n\nprint()\n\n# Right triangle pattern\nfor i in range(1, 6):\n    for j in range(i):\n        print(\"*\", end=\" \")\n    print()",
+        "language": "python",
+        "explanation": "The first nested loop prints a 4x6 rectangle of stars. The outer loop runs 4 times (rows), and for each row, the inner loop prints 6 stars. The second nested loop prints a right triangle: in row i, the inner loop runs i times, so row 1 has 1 star, row 2 has 2 stars, and so on up to 5 stars.",
+        "output": "* * * * * * \n* * * * * * \n* * * * * * \n* * * * * * \n\n* \n* * \n* * * \n* * * * \n* * * * * "
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Off-by-One Error with range()",
+        "wrongCode": "# Meera wants to print 1 to 10\nfor i in range(10):\n    print(i)",
+        "error": "No error, but prints 0 to 9 instead of 1 to 10.",
+        "correctCode": "# Use range(1, 11) to get 1 to 10\nfor i in range(1, 11):\n    print(i)",
+        "explanation": "<code>range(10)</code> generates 0 through 9, not 1 through 10. The start defaults to 0, and the stop value (10) is excluded. To get 1 to 10, use <code>range(1, 11)</code>. This off-by-one error is one of the most common mistakes with loops."
+      },
+      {
+        "title": "Forgetting to Update the Counter in a while Loop",
+        "wrongCode": "count = 1\nwhile count <= 5:\n    print(count)\n    # Forgot count += 1",
+        "error": "Infinite loop! Prints 1 forever because count never changes.",
+        "correctCode": "count = 1\nwhile count <= 5:\n    print(count)\n    count += 1",
+        "explanation": "In a while loop, you must ensure the condition eventually becomes False. If you forget to update the loop variable (here, <code>count += 1</code>), the condition <code>count <= 5</code> is always True, causing an infinite loop. Always check that your while loop has a proper update statement."
+      },
+      {
+        "title": "Incorrect Indentation in Loop Body",
+        "wrongCode": "for i in range(3):\n    print(\"Inside loop\")\nprint(i)  # This is OUTSIDE the loop",
+        "error": "No error, but print(i) runs only once after the loop, not inside it.",
+        "correctCode": "for i in range(3):\n    print(\"Inside loop\")\n    print(i)  # Now inside the loop",
+        "explanation": "Python uses indentation to determine what is inside a loop. If a line is not indented under the <code>for</code> or <code>while</code> statement, it is not part of the loop body. In the wrong code, <code>print(i)</code> runs only once after the loop ends, printing just 2 (the last value of i)."
+      },
+      {
+        "title": "Using range() Without Negative Step for Countdown",
+        "wrongCode": "# Vikram wants to count from 5 down to 1\nfor i in range(5, 0):\n    print(i)",
+        "error": "No error, but nothing is printed! The loop does not execute.",
+        "correctCode": "for i in range(5, 0, -1):\n    print(i)",
+        "explanation": "<code>range(5, 0)</code> with no step uses the default step of +1. Since you cannot count from 5 to 0 by adding 1, the range is empty and the loop never runs. You must explicitly provide a negative step: <code>range(5, 0, -1)</code>."
+      },
+      {
+        "title": "Modifying a Counter Incorrectly in while Loop",
+        "wrongCode": "# Counting down from 5\ncount = 5\nwhile count >= 1:\n    print(count)\n    count += 1  # Wrong! Should be -= 1",
+        "error": "Infinite loop! count increases instead of decreasing.",
+        "correctCode": "count = 5\nwhile count >= 1:\n    print(count)\n    count -= 1",
+        "explanation": "The condition is <code>count >= 1</code> and count starts at 5, so the counter should decrease. Using <code>count += 1</code> makes count go to 6, 7, 8... making the condition always True. The fix is <code>count -= 1</code> so count goes 5, 4, 3, 2, 1, then 0 which fails the condition."
+      },
+      {
+        "title": "Misunderstanding Loop Variable Scope",
+        "wrongCode": "for i in range(5):\n    pass\n\n# Many students think i is undefined here\nprint(i)  # This actually prints 4",
+        "error": "No error. Unlike some other languages, the loop variable i still exists after the loop ends.",
+        "correctCode": "for i in range(5):\n    pass\n\n# i retains its last value (4)\nprint(\"Last value of i:\", i)",
+        "explanation": "In Python, the loop variable is NOT destroyed after the loop ends. It retains the last value it was assigned. After <code>for i in range(5)</code>, i holds the value 4. This is different from languages like Java or C++ where the loop variable is scoped to the loop."
+      }
+    ],
+    "summary": [
+      "A loop repeats a block of code multiple times. Python has two types: for loops (for known iterations or sequences) and while loops (for condition-based repetition).",
+      "range(stop) generates numbers from 0 to stop-1. range(start, stop) generates from start to stop-1. range(start, stop, step) adds a custom step. The stop value is ALWAYS excluded.",
+      "A for loop can iterate directly over strings (character by character) and lists (element by element) without needing range() or index variables.",
+      "A while loop checks its condition before each iteration. If the condition is False from the start, the body never executes. Always ensure the condition will eventually become False to avoid infinite loops.",
+      "Infinite loops occur when the while condition never becomes False, usually because the loop variable is not updated or is updated in the wrong direction.",
+      "Python supports an else clause on loops. The else block runs only when the loop completes normally without a break statement.",
+      "Nested loops place one loop inside another. The inner loop runs completely for each iteration of the outer loop. A 3x4 nested loop executes the inner body 12 times total.",
+      "enumerate() provides both the index and value when looping through a sequence. Use enumerate(seq, start=1) to begin counting from 1.",
+      "To count backwards with range(), you must provide a negative step: range(10, 0, -1). Without the negative step, range(10, 0) produces an empty sequence.",
+      "The loop variable in Python retains its last value after the loop ends. It is not destroyed like in some other programming languages."
+    ]
+  },
+  "relatedTopics": ["conditional-statements", "loop-control-statements"],
+  "practice": {
+    "totalQuestions": 63,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>for i in range(4):\n    print(i)</code></pre>",
+        "hint": "range(4) generates numbers starting from 0 up to (but not including) 4.",
+        "answer": "<code>0</code><br><code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "<code>range(4)</code> generates the sequence 0, 1, 2, 3. The loop prints each value on a new line. Note that 4 is NOT included because the stop value is always excluded."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(1, 6):\n    print(i, end=\" \")</code></pre>",
+        "hint": "range(1, 6) starts at 1 and stops before 6.",
+        "answer": "<code>1 2 3 4 5 </code>",
+        "explanation": "<code>range(1, 6)</code> generates 1, 2, 3, 4, 5. The <code>end=\" \"</code> parameter makes <code>print()</code> add a space after each number instead of a newline, so all numbers appear on the same line."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for char in \"Hi\":\n    print(char)</code></pre>",
+        "hint": "A for loop iterates over each character of a string.",
+        "answer": "<code>H</code><br><code>i</code>",
+        "explanation": "The for loop iterates over the string <code>\"Hi\"</code> one character at a time. First iteration: <code>char = \"H\"</code>, prints H. Second iteration: <code>char = \"i\"</code>, prints i."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>count = 3\nwhile count > 0:\n    print(count)\n    count -= 1</code></pre>",
+        "hint": "The loop runs while count is greater than 0, decreasing count each time.",
+        "answer": "<code>3</code><br><code>2</code><br><code>1</code>",
+        "explanation": "Iteration 1: count = 3, prints 3, count becomes 2. Iteration 2: count = 2, prints 2, count becomes 1. Iteration 3: count = 1, prints 1, count becomes 0. Now <code>0 > 0</code> is False, so the loop stops."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(2, 10, 3):\n    print(i, end=\" \")</code></pre>",
+        "hint": "range(2, 10, 3) starts at 2 and adds 3 each time, stopping before 10.",
+        "answer": "<code>2 5 8 </code>",
+        "explanation": "<code>range(2, 10, 3)</code> generates: start at 2, then 2+3=5, then 5+3=8, then 8+3=11 which exceeds 10 so it stops. The output is 2 5 8."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    print(\"Hello\")</code></pre>",
+        "hint": "The loop runs 3 times. The value of i is not used in the body.",
+        "answer": "<code>Hello</code><br><code>Hello</code><br><code>Hello</code>",
+        "explanation": "<code>range(3)</code> produces 0, 1, 2 (three values). The loop body runs once for each value, printing \"Hello\" three times. Even though <code>i</code> is not used inside the loop, the loop still runs three times."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(5, 0, -1):\n    print(i, end=\" \")</code></pre>",
+        "hint": "Negative step counts backwards. The stop value (0) is excluded.",
+        "answer": "<code>5 4 3 2 1 </code>",
+        "explanation": "<code>range(5, 0, -1)</code> starts at 5 and decrements by 1 each time, stopping before 0. So it generates 5, 4, 3, 2, 1. The value 0 is excluded."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>total = 0\nfor i in range(1, 6):\n    total += i\nprint(total)</code></pre>",
+        "hint": "The loop adds 1 + 2 + 3 + 4 + 5 to total.",
+        "answer": "<code>15</code>",
+        "explanation": "The loop adds each value from 1 to 5 to <code>total</code>. After iteration 1: total = 1. After iteration 2: total = 3. After iteration 3: total = 6. After iteration 4: total = 10. After iteration 5: total = 15."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 1\nwhile x < 20:\n    x *= 2\nprint(x)</code></pre>",
+        "hint": "Trace x: 1, 2, 4, 8, 16, ... What happens when x reaches 16?",
+        "answer": "<code>32</code>",
+        "explanation": "x starts at 1. Each iteration doubles x: 1 -> 2 -> 4 -> 8 -> 16. After x = 16, the condition <code>16 < 20</code> is True, so the loop runs again: x = 32. Now <code>32 < 20</code> is False, so the loop stops. The printed value is 32, not 16."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(2):\n        print(i, j)\n</code></pre>",
+        "hint": "The inner loop runs completely for each iteration of the outer loop.",
+        "answer": "<code>0 0</code><br><code>0 1</code><br><code>1 0</code><br><code>1 1</code><br><code>2 0</code><br><code>2 1</code>",
+        "explanation": "The outer loop runs 3 times (i = 0, 1, 2). For each value of i, the inner loop runs 2 times (j = 0, 1). Total iterations: 3 * 2 = 6. When i = 0, j goes through 0, 1. When i = 1, j goes through 0, 1 again. When i = 2, j goes through 0, 1 again."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(1, 5):\n    print(\"*\" * i)</code></pre>",
+        "hint": "The * operator on strings repeats the string. \"*\" * 3 gives \"***\".",
+        "answer": "<code>*</code><br><code>**</code><br><code>***</code><br><code>****</code>",
+        "explanation": "When <code>i = 1</code>, <code>\"*\" * 1</code> = \"*\". When <code>i = 2</code>, <code>\"*\" * 2</code> = \"**\". When <code>i = 3</code>, <code>\"*\" * 3</code> = \"***\". When <code>i = 4</code>, <code>\"*\" * 4</code> = \"****\". This creates a right-triangle pattern of stars."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(10, 0):\n    print(i)</code></pre>",
+        "hint": "What is the default step? Can you count from 10 to 0 with a positive step?",
+        "answer": "(No output - nothing is printed)",
+        "explanation": "<code>range(10, 0)</code> uses the default step of +1. Since 10 is already greater than 0, you cannot reach 0 by adding 1, so the range is empty. The loop does not execute at all. To count backwards, you need <code>range(10, 0, -1)</code>."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(3):\n        if i == j:\n            print(1, end=\" \")\n        else:\n            print(0, end=\" \")\n    print()</code></pre>",
+        "hint": "This prints 1 when the row equals the column (diagonal), and 0 otherwise.",
+        "answer": "<code>1 0 0 </code><br><code>0 1 0 </code><br><code>0 0 1 </code>",
+        "explanation": "This creates an identity matrix pattern. When i == j (diagonal positions 0,0 and 1,1 and 2,2), it prints 1. For all other positions, it prints 0. This is a 3x3 identity matrix."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    pass\nprint(i)</code></pre>",
+        "hint": "pass does nothing, but the loop still runs. What value does i hold after the loop?",
+        "answer": "<code>4</code>",
+        "explanation": "The <code>pass</code> statement does nothing; it is a placeholder. The loop still iterates through 0, 1, 2, 3, 4, doing nothing each time. After the loop, <code>i</code> retains its last value, which is 4. In Python, loop variables survive after the loop ends."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(i + 1):\n        print(i + j, end=\" \")\n    print()</code></pre>",
+        "hint": "Trace each row: when i=0, j goes to 1. When i=1, j goes to 2. When i=2, j goes to 3.",
+        "answer": "<code>0 </code><br><code>1 2 </code><br><code>2 3 4 </code>",
+        "explanation": "Row i=0: j in range(1) = [0]. Prints 0+0=0. Row i=1: j in range(2) = [0, 1]. Prints 1+0=1, 1+1=2. Row i=2: j in range(3) = [0, 1, 2]. Prints 2+0=2, 2+1=3, 2+2=4."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 100\nwhile x > 1:\n    x //= 3\n    print(x, end=\" \")</code></pre>",
+        "hint": "Floor divide x by 3 each time: 100 // 3 = ?, then that // 3 = ?, and so on.",
+        "answer": "<code>33 11 3 1 0 </code>",
+        "explanation": "x = 100. Iteration 1: 100 // 3 = 33, prints 33. Iteration 2: 33 // 3 = 11, prints 11. Iteration 3: 11 // 3 = 3, prints 3. Iteration 4: 3 // 3 = 1, prints 1. Iteration 5: 1 // 3 = 0, prints 0. Now <code>0 > 1</code> is False, loop stops."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(4):\n    for j in range(4 - i):\n        print(\"*\", end=\"\")\n    print()</code></pre>",
+        "hint": "When i=0, the inner loop runs 4 times. When i=1, it runs 3 times. And so on.",
+        "answer": "<code>****</code><br><code>***</code><br><code>**</code><br><code>*</code>",
+        "explanation": "Row i=0: range(4) gives 4 stars. Row i=1: range(3) gives 3 stars. Row i=2: range(2) gives 2 stars. Row i=3: range(1) gives 1 star. This creates an inverted right triangle pattern."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>result = 1\nfor i in range(1, 6):\n    result *= i\nprint(result)</code></pre>",
+        "hint": "This calculates the factorial of 5 (1 * 2 * 3 * 4 * 5).",
+        "answer": "<code>120</code>",
+        "explanation": "This computes 5! (5 factorial). result starts at 1. After i=1: 1*1=1. After i=2: 1*2=2. After i=3: 2*3=6. After i=4: 6*4=24. After i=5: 24*5=120. The factorial of 5 is 120."
+      },
+      {
+        "id": "ts-19",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(1, 4):\n    for j in range(1, 4):\n        print(i * j, end=\"\\t\")\n    print()\n</code></pre>",
+        "hint": "This prints a 3x3 multiplication table. The tab character \\t aligns columns.",
+        "answer": "<code>1\t2\t3\t</code><br><code>2\t4\t6\t</code><br><code>3\t6\t9\t</code>",
+        "explanation": "Row i=1: 1*1=1, 1*2=2, 1*3=3. Row i=2: 2*1=2, 2*2=4, 2*3=6. Row i=3: 3*1=3, 3*2=6, 3*3=9. Each value is separated by a tab character for alignment."
+      },
+      {
+        "id": "ts-20",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between a for loop and a while loop in Python? When would you choose one over the other?",
+        "hint": "Think about whether you know the number of iterations in advance.",
+        "answer": "A <code>for</code> loop is used when you know how many times to iterate or when iterating over a sequence (string, list, range). A <code>while</code> loop is used when you want to repeat as long as a condition is True, and you may not know the number of iterations in advance. Use <code>for</code> when counting or traversing sequences. Use <code>while</code> when waiting for a condition to change (like user input or a calculation reaching a threshold).",
+        "explanation": "Example: printing numbers 1 to 10 is best done with <code>for i in range(1, 11)</code>. But doubling a number until it exceeds 1000 is best done with a while loop, because you do not know in advance how many doublings are needed."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>word = \"Code\"\nfor ch in word:\n    print(ch, end=\"-\")</code></pre>",
+        "hint": "The loop iterates over each character and prints it followed by a hyphen.",
+        "answer": "<code>C-o-d-e-</code>",
+        "explanation": "The for loop goes through each character of <code>\"Code\"</code>: C, o, d, e. Each character is printed followed by a hyphen (<code>end=\"-\"</code>). Note that there is a trailing hyphen after the last character."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for num in [10, 20, 30]:\n    print(num + 5)</code></pre>",
+        "hint": "The loop iterates over the list. Each element has 5 added to it.",
+        "answer": "<code>15</code><br><code>25</code><br><code>35</code>",
+        "explanation": "The for loop takes each element from the list: 10, 20, 30. For each, it prints the element plus 5: 10+5=15, 20+5=25, 30+5=35."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>i = 5\nwhile i > 0:\n    i -= 2\nprint(i)</code></pre>",
+        "hint": "Trace i: 5 -> 3 -> 1 -> ? What happens when i becomes negative?",
+        "answer": "<code>-1</code>",
+        "explanation": "i starts at 5. Iteration 1: i = 5-2 = 3 (3 > 0, continue). Iteration 2: i = 3-2 = 1 (1 > 0, continue). Iteration 3: i = 1-2 = -1 (-1 > 0 is False, stop). The print is outside the loop, so it prints -1."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(1, 4):\n    for j in range(1, 4):\n        if i != j:\n            print(i, j)</code></pre>",
+        "hint": "This prints all (i, j) pairs where i and j are different.",
+        "answer": "<code>1 2</code><br><code>1 3</code><br><code>2 1</code><br><code>2 3</code><br><code>3 1</code><br><code>3 2</code>",
+        "explanation": "The nested loops generate all pairs (i, j) where both range from 1 to 3. The <code>if i != j</code> condition filters out pairs where i equals j (1,1), (2,2), (3,3). The remaining 6 pairs are printed."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [4, 7, 2, 9, 1]\nmax_val = nums[0]\nfor num in nums:\n    if num > max_val:\n        max_val = num\nprint(\"Max:\", max_val)</code></pre>",
+        "hint": "This finds the maximum value by comparing each element with the current maximum.",
+        "answer": "<code>Max: 9</code>",
+        "explanation": "max_val starts as 4 (first element). Loop: 4 > 4? No. 7 > 4? Yes, max_val = 7. 2 > 7? No. 9 > 7? Yes, max_val = 9. 1 > 9? No. The maximum value is 9."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    print(i, end=\" \")\n    for j in range(3):\n        print(j, end=\" \")\n    print()</code></pre>",
+        "hint": "The outer print and inner loop are at the same indentation level inside the outer loop.",
+        "answer": "<code>0 0 1 2 </code><br><code>1 0 1 2 </code><br><code>2 0 1 2 </code>",
+        "explanation": "For each iteration of the outer loop: first <code>print(i, end=\" \")</code> prints the outer index, then the inner loop prints 0, 1, 2. So each line starts with the row number followed by 0 1 2."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>for index, val in enumerate([\"a\", \"b\", \"c\"], start=1):\n    print(index, val)</code></pre>",
+        "hint": "enumerate() returns (index, value) pairs. start=1 makes the index begin at 1.",
+        "answer": "<code>1 a</code><br><code>2 b</code><br><code>3 c</code>",
+        "explanation": "<code>enumerate()</code> pairs each element with its index. With <code>start=1</code>, the indices are 1, 2, 3 instead of the default 0, 1, 2. This is useful for displaying numbered lists."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>n = 1\nwhile n < 100:\n    n *= 3\nprint(n)</code></pre>",
+        "hint": "Trace n: 1, 3, 9, 27, 81, ... When does n first reach or exceed 100?",
+        "answer": "<code>243</code>",
+        "explanation": "n = 1. Iteration 1: n = 3 (3 < 100, continue). Iteration 2: n = 9 (9 < 100). Iteration 3: n = 27 (27 < 100). Iteration 4: n = 81 (81 < 100). Iteration 5: n = 243 (243 < 100 is False, stop). Prints 243."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(4):\n    for j in range(i, 4):\n        print(j, end=\" \")\n    print()</code></pre>",
+        "hint": "The inner loop starts from i (not 0) each time. When i increases, the inner loop starts later.",
+        "answer": "<code>0 1 2 3 </code><br><code>1 2 3 </code><br><code>2 3 </code><br><code>3 </code>",
+        "explanation": "Row i=0: j goes from 0 to 3, prints 0 1 2 3. Row i=1: j goes from 1 to 3, prints 1 2 3. Row i=2: j goes from 2 to 3, prints 2 3. Row i=3: j goes from 3 to 3, prints 3. The inner range shrinks as i increases."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>count = 0\nfor i in range(5):\n    for j in range(5):\n        if i + j == 4:\n            count += 1\nprint(count)</code></pre>",
+        "hint": "Count pairs (i, j) where i + j equals 4, with both i and j in range(5).",
+        "answer": "<code>5</code>",
+        "explanation": "The pairs where i + j = 4 are: (0,4), (1,3), (2,2), (3,1), (4,0). That is 5 pairs. The inner loop runs 25 times total (5 * 5), but only 5 of those satisfy the condition."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What does the else clause on a for loop do? When does it execute and when does it NOT execute?",
+        "hint": "Think about what happens when a loop is stopped early versus when it finishes all iterations.",
+        "answer": "The <code>else</code> clause on a loop runs only when the loop completes all its iterations normally. It does NOT run if the loop is terminated early by a <code>break</code> statement. If the loop body never executes (e.g., <code>for i in range(0)</code>), the else block still runs because no break was encountered.",
+        "explanation": "This feature is useful for search operations. You can use break when you find what you are looking for, and the else block handles the case where the item was not found. Example: searching for a value in a list using a for loop with break on finding it, and else to print 'not found'."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    for j in range(3):\n        print(\"(\", i, \",\", j, \")\", end=\" \")\n    print()</code></pre>",
+        "hint": "This prints all (row, column) coordinates of a 3x3 grid.",
+        "answer": "<code>( 0 , 0 ) ( 0 , 1 ) ( 0 , 2 ) </code><br><code>( 1 , 0 ) ( 1 , 1 ) ( 1 , 2 ) </code><br><code>( 2 , 0 ) ( 2 , 1 ) ( 2 , 2 ) </code>",
+        "explanation": "The nested loops create all coordinate pairs for a 3x3 grid. The outer loop controls the row (i) and the inner loop controls the column (j). Each pair is printed on the same line, and <code>print()</code> after the inner loop moves to a new line."
+      },
+      {
+        "id": "mx-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>s = \"Python\"\nfor i in range(len(s) - 1, -1, -1):\n    print(s[i], end=\"\")</code></pre>",
+        "hint": "len(\"Python\") is 6. range(5, -1, -1) gives 5, 4, 3, 2, 1, 0. This accesses characters in reverse.",
+        "answer": "<code>nohtyP</code>",
+        "explanation": "<code>len(\"Python\")</code> is 6. <code>range(5, -1, -1)</code> generates 5, 4, 3, 2, 1, 0. These are used as indices: s[5]='n', s[4]='o', s[3]='h', s[2]='t', s[1]='y', s[0]='P'. The string is printed in reverse: \"nohtyP\"."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does range(5) generate?",
+        "options": [
+          "1, 2, 3, 4, 5",
+          "0, 1, 2, 3, 4",
+          "0, 1, 2, 3, 4, 5",
+          "1, 2, 3, 4"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>range(5)</code> generates numbers starting from 0 up to but not including 5: 0, 1, 2, 3, 4 (five numbers). Option A starts from 1 and includes 5. Option C has 6 numbers. Option D has only 4 numbers."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "How many times does this loop run? for i in range(1, 8):",
+        "options": [
+          "8 times",
+          "7 times",
+          "9 times",
+          "6 times"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>range(1, 8)</code> generates 1, 2, 3, 4, 5, 6, 7 (seven numbers). The stop value 8 is excluded. A quick way to count: 8 - 1 = 7."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "Which loop is best when you know exactly how many times you want to repeat?",
+        "options": [
+          "while loop",
+          "for loop",
+          "do-while loop",
+          "infinite loop"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A <code>for</code> loop with <code>range()</code> is ideal when the number of iterations is known. A while loop (option A) is better for condition-based repetition. Python does not have a do-while loop (option C). An infinite loop (option D) is not a type; it is a bug."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of: for i in range(0): print(i)",
+        "options": [
+          "0",
+          "Nothing is printed",
+          "Error",
+          "Infinite loop"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>range(0)</code> generates an empty sequence (zero numbers). The loop body never executes, so nothing is printed. This is not an error; it is valid code."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What keyword is used to skip to the next iteration of a loop?",
+        "options": [
+          "break",
+          "skip",
+          "continue",
+          "next"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>continue</code> statement skips the rest of the current iteration and moves to the next one. <code>break</code> (option A) exits the loop entirely. <code>skip</code> (option B) and <code>next</code> (option D) are not Python keywords."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does range(10, 2, -3) generate?",
+        "options": [
+          "10, 7, 4",
+          "10, 7, 4, 1",
+          "10, 7, 4, 2",
+          "10, 8, 5, 2"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> Starting at 10, subtracting 3 each time: 10, 7, 4. The next would be 1, but we stop before reaching 2 (actually 1 < 2 when going backwards means stop). Wait - let us re-check: 4 - 3 = 1. Since 1 < 2 (stop value) with negative step, 1 is not included. So the answer is 10, 7, 4."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "How many total iterations does this nested loop have? for i in range(5): for j in range(3):",
+        "options": [
+          "5",
+          "3",
+          "8",
+          "15"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> The outer loop runs 5 times and for each outer iteration, the inner loop runs 3 times. Total iterations of the inner body: 5 * 3 = 15. Options A and B only count one of the loops. Option C adds them instead of multiplying."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What happens if the while loop condition is False from the start?",
+        "options": [
+          "The loop runs once",
+          "The loop body never executes",
+          "Python raises an error",
+          "The loop runs forever"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A while loop checks the condition BEFORE executing the body. If the condition is False initially, the body is skipped entirely. This is different from a do-while loop (which Python does not have), where the body always runs at least once (option A)."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What is the value of i after this loop? for i in range(10): pass",
+        "options": [
+          "10",
+          "9",
+          "0",
+          "i is undefined"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The loop variable <code>i</code> takes values 0 through 9. After the loop completes, <code>i</code> retains its last value, which is 9. In Python, loop variables are NOT scoped to the loop. Option D would be true in some other languages but not Python."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does enumerate() return?",
+        "options": [
+          "Only the index of each element",
+          "Only the value of each element",
+          "Pairs of (index, value)",
+          "The total count of elements"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>enumerate()</code> returns pairs of (index, value) for each element in the sequence. This allows you to access both the position and the value in a single loop. Options A and B only give one piece of information. Option D describes <code>len()</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "When does the else clause of a for loop execute?",
+        "options": [
+          "When the loop encounters an error",
+          "When the loop is stopped by break",
+          "When the loop completes without break",
+          "On every iteration of the loop"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The else block runs only when the loop finishes all iterations without encountering a <code>break</code>. If break is executed (option B), the else block is skipped. It is not related to errors (option A) and does not run on every iteration (option D)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of: for i in range(3, 3): print(i)",
+        "options": [
+          "3",
+          "Nothing is printed",
+          "Error",
+          "0 1 2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>range(3, 3)</code> generates an empty sequence because the start and stop are the same (there are no numbers >= 3 and < 3). The loop body never executes. This is not an error (option C); it is valid Python."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the output of this code?<br><pre><code>x = 10\nwhile x > 0:\n    x -= 3\nprint(x)</code></pre>",
+        "options": [
+          "1",
+          "0",
+          "-2",
+          "3"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> x starts at 10: 10->7->4->1. After x=1, the condition <code>1 > 0</code> is True, so x becomes 1-3 = -2. Now <code>-2 > 0</code> is False, loop stops. x = -2. Option A (1) would be correct if the check happened after the subtraction."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How many times does the inner print execute?<br><pre><code>for i in range(4):\n    for j in range(i):\n        print(i, j)</code></pre>",
+        "options": [
+          "16",
+          "10",
+          "6",
+          "4"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When i=0: range(0) gives 0 iterations. When i=1: range(1) gives 1 iteration. When i=2: range(2) gives 2 iterations. When i=3: range(3) gives 3 iterations. Total: 0 + 1 + 2 + 3 = 6."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    print(i)\nelse:\n    print(\"Done\")</code></pre>",
+        "options": [
+          "0 1 2",
+          "0 1 2 Done",
+          "Done",
+          "Error - else cannot be used with for"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The loop prints 0, 1, 2 (each on a new line). Since the loop completes without a break, the else block executes and prints \"Done\". Option D is wrong because Python does support else with for loops."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Which creates the sequence 20, 15, 10, 5?",
+        "options": [
+          "range(20, 0, -5)",
+          "range(20, 4, -5)",
+          "range(20, 5, -5)",
+          "range(5, 20, 5)"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>range(20, 4, -5)</code> starts at 20, subtracts 5 each time, and stops before 4: 20, 15, 10, 5. The next would be 0, but 0 < 4 (in terms of going below stop), so it stops. Option A would include 5 and then stop. Option C would include 5 only if stop is less than 5. Option D counts upward."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What causes an infinite while loop?",
+        "options": [
+          "Using a very large range",
+          "The condition never becoming False",
+          "Using nested loops",
+          "Forgetting the colon after while"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A while loop becomes infinite when its condition never becomes False, usually because the loop variable is not updated or updated incorrectly. A large range (option A) makes a long loop, not infinite. Nested loops (option C) are normal. Missing colon (option D) causes a SyntaxError, not an infinite loop."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Easy",
+        "question": "What does end=\"\" do in print()?",
+        "options": [
+          "Ends the program",
+          "Prints nothing after the value (no newline)",
+          "Prints an empty string",
+          "Causes an error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> By default, <code>print()</code> adds a newline after the output. <code>end=\"\"</code> replaces that newline with nothing, so the next print continues on the same line. This is commonly used in loops to print values side by side."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Medium",
+        "question": "What is the output of: print(list(range(1, 10, 2)))?",
+        "options": [
+          "[1, 3, 5, 7, 9]",
+          "[1, 3, 5, 7]",
+          "[2, 4, 6, 8]",
+          "[1, 2, 3, 4, 5, 6, 7, 8, 9]"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> <code>range(1, 10, 2)</code> starts at 1 and adds 2 each time, stopping before 10: 1, 3, 5, 7, 9. Converting to a list gives [1, 3, 5, 7, 9]. These are odd numbers from 1 to 9."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What happens when you use range() with a step of 0?",
+        "options": [
+          "It returns an empty range",
+          "It generates an infinite sequence",
+          "ValueError: range() arg 3 must not be zero",
+          "It uses step 1 as default"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A step of 0 would create an infinite sequence (never progressing), so Python raises a <code>ValueError</code> to prevent this. The error message is: \"range() arg 3 must not be zero\". This is a safety feature."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Sum of Even Numbers",
+        "difficulty": "Easy",
+        "description": "Write a program that uses a for loop to calculate and print the sum of all even numbers from 2 to 20 (inclusive).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Sum of even numbers from 2 to 20: 110",
+        "constraints": "Use a for loop with range(). Do not hardcode the answer.",
+        "solution": "total = 0\nfor i in range(2, 21, 2):\n    total += i\nprint(\"Sum of even numbers from 2 to 20:\", total)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Reverse a String Using a Loop",
+        "difficulty": "Easy",
+        "description": "Aarav has the string \"Python\". Write a program using a for loop to print the string in reverse order (character by character on the same line).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "nohtyP",
+        "constraints": "Use a for loop. Do not use slicing ([::-1]).",
+        "solution": "text = \"Python\"\nfor i in range(len(text) - 1, -1, -1):\n    print(text[i], end=\"\")\nprint()"
+      },
+      {
+        "id": "cc-3",
+        "title": "Multiplication Table",
+        "difficulty": "Easy",
+        "description": "Write a program that prints the multiplication table of 7 (from 7 x 1 to 7 x 10).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70",
+        "constraints": "Use a for loop with range().",
+        "solution": "num = 7\nfor i in range(1, 11):\n    print(num, \"x\", i, \"=\", num * i)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Count Vowels in a String",
+        "difficulty": "Medium",
+        "description": "Priya has the string \"Modern Age Coders\". Write a program that counts and prints the number of vowels (a, e, i, o, u - both uppercase and lowercase) in the string.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Vowels in 'Modern Age Coders': 6",
+        "constraints": "Use a for loop to iterate through each character.",
+        "solution": "text = \"Modern Age Coders\"\ncount = 0\nfor ch in text:\n    if ch.lower() in \"aeiou\":\n        count += 1\nprint(\"Vowels in '\" + text + \"':\", count)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Fibonacci Sequence",
+        "difficulty": "Medium",
+        "description": "Write a program that prints the first 10 numbers of the Fibonacci sequence. The sequence starts with 0 and 1, and each subsequent number is the sum of the two preceding numbers: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "0 1 1 2 3 5 8 13 21 34",
+        "constraints": "Use a while or for loop.",
+        "solution": "a = 0\nb = 1\nfor i in range(10):\n    print(a, end=\" \")\n    a, b = b, a + b\nprint()"
+      },
+      {
+        "id": "cc-6",
+        "title": "Number Guessing Simulation",
+        "difficulty": "Medium",
+        "description": "Rohan is building a number guessing game. The secret number is 7. Simulate guesses using a while loop: start with guess = 1 and increase by 2 each time until the guess equals the secret number. Print each guess and whether it is too low, too high, or correct.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Guess: 1 - Too low!\nGuess: 3 - Too low!\nGuess: 5 - Too low!\nGuess: 7 - Correct!",
+        "constraints": "Use a while loop. Do not use a for loop.",
+        "solution": "secret = 7\nguess = 1\nwhile guess <= secret:\n    if guess < secret:\n        print(\"Guess:\", guess, \"- Too low!\")\n    else:\n        print(\"Guess:\", guess, \"- Correct!\")\n    guess += 2"
+      },
+      {
+        "id": "cc-7",
+        "title": "Prime Number Checker",
+        "difficulty": "Hard",
+        "description": "Write a program that checks whether the number 29 is prime. A prime number is only divisible by 1 and itself. Use a for loop to test divisibility and print the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "29 is a prime number",
+        "constraints": "Use a for loop with a break statement. Use the loop-else pattern.",
+        "solution": "num = 29\nif num < 2:\n    print(num, \"is not a prime number\")\nelse:\n    for i in range(2, num):\n        if num % i == 0:\n            print(num, \"is not a prime number\")\n            break\n    else:\n        print(num, \"is a prime number\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Nested Loop Grid with Coordinates",
+        "difficulty": "Hard",
+        "description": "Write a program that prints a 4x4 grid where each cell shows its row and column number in the format (row,col), with rows and columns numbered from 1.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "(1,1) (1,2) (1,3) (1,4) \n(2,1) (2,2) (2,3) (2,4) \n(3,1) (3,2) (3,3) (3,4) \n(4,1) (4,2) (4,3) (4,4) ",
+        "constraints": "Use nested for loops.",
+        "solution": "for i in range(1, 5):\n    for j in range(1, 5):\n        print(\"(\" + str(i) + \",\" + str(j) + \")\", end=\" \")\n    print()"
+      },
+      {
+        "id": "cc-9",
+        "title": "Digit Sum Calculator",
+        "difficulty": "Hard",
+        "description": "Write a program using a while loop to calculate the sum of digits of the number 98764. Extract digits one by one using % and // operators.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Sum of digits of 98764: 34",
+        "constraints": "Use a while loop with % and // operators. Do not convert to a string.",
+        "solution": "num = 98764\noriginal = num\ntotal = 0\nwhile num > 0:\n    digit = num % 10\n    total += digit\n    num //= 10\nprint(\"Sum of digits of\", original, \":\", total)"
+      },
+      {
+        "id": "cc-10",
+        "title": "Diamond Top Half",
+        "difficulty": "Hard",
+        "description": "Write a program using nested loops to print the top half of a diamond with 5 rows. Each row should have leading spaces followed by stars.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "    * \n   * * \n  * * * \n * * * * \n* * * * * ",
+        "constraints": "Use nested for loops. Print spaces before stars.",
+        "solution": "n = 5\nfor i in range(1, n + 1):\n    for j in range(n - i):\n        print(\" \", end=\"\")\n    for j in range(i):\n        print(\"* \", end=\"\")\n    print()"
+      }
+    ]
+  }
+}
