@@ -1366,6 +1366,52 @@ body.about-page main {
     gap: 3rem;
 }
 
+/* Resource pages — override flex layout for article-style reading */
+body.resource-notes-page main,
+body.resource-practice-page main,
+body.resource-index-page main {
+    display: block;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 120px 28px 60px;
+    gap: 0;
+    align-items: stretch;
+}
+
+body.resource-notes-page main > *,
+body.resource-practice-page main > *,
+body.resource-index-page main > * {
+    max-width: 100%;
+    width: 100%;
+}
+
+body.resource-notes-page main h2,
+body.resource-practice-page main h2,
+body.resource-index-page main h2 {
+    font-size: 1.5rem;
+}
+
+body.resource-notes-page main h3,
+body.resource-practice-page main h3,
+body.resource-index-page main h3 {
+    font-size: 1.2rem;
+}
+
+body.resource-notes-page main p,
+body.resource-practice-page main p,
+body.resource-index-page main p {
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+@media (max-width: 768px) {
+    body.resource-notes-page main,
+    body.resource-practice-page main,
+    body.resource-index-page main {
+        padding: 100px 16px 40px;
+    }
+}
+
 body.courses-page .container {
     max-width: var(--content-max-width);
     margin: 0 auto;
