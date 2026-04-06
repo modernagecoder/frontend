@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensions and Generators - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Write elegant code with list/dict/set comprehensions and lazy evaluation with generators.">
+    <meta name="keywords" content="comprehensions and generators, python tutorial, python comprehensions and generators, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+    <meta property="og:title" content="Comprehensions and Generators - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Write elegant code with list/dict/set comprehensions and lazy evaluation with generators.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators">
+    <meta name="twitter:title" content="Comprehensions and Generators - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Write elegant code with list/dict/set comprehensions and lazy evaluation with generators.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Comprehensions and Generators",
+    "description": "Write elegant code with list/dict/set comprehensions and lazy evaluation with generators.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Comprehensions and Generators",
+        "item": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Putting the if-else in the Wrong Position",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There are two different positions for conditions in comprehensions. Filtering (<code>if</code> after <code>for</code>) excludes elements that do not match. Transformation (<code>if-else</code> before <code>for</code>) modifies every element. You cannot combine both syntaxes by putting if-else after for."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Trying to Reuse an Exhausted Generator",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Generators are <strong>single-use</strong>. Once all values have been consumed (by <code>list()</code>, a for loop, or <code>next()</code>), the generator is exhausted and produces no more values. If you need to iterate multiple times, either create a new generator or use a list."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using Comprehension When a Loop is Clearer",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Comprehensions are for simple transformations and filters. If the logic requires multiple conditions, nested if-else, or is hard to read on one line, use a regular for loop. Readability matters more than brevity."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Generator Expression with Tuple Comprehension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Python has no tuple comprehension. Parentheses with a for expression create a <strong>generator expression</strong>, not a tuple. To create a tuple from a comprehension-like expression, wrap the generator expression with <code>tuple()</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying an Outside Variable Inside a Comprehension",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Comprehensions should be pure transformations without side effects. Modifying external variables inside a comprehension makes code hard to understand and debug. If you need running totals or other stateful operations, use a regular loop or <code>itertools.accumulate</code>."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Comprehensions and Generators</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Comprehensions and Generators</h1>
+            <a href="/resources/python/list-comprehensions-and-generators/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Comprehensions and Generators?</h2><p>A <strong>comprehension</strong> is a concise, one-line syntax for creating lists, dictionaries, or sets from existing iterables. Instead of writing a multi-line for loop to build a new list, you express the entire transformation in a single expression.</p><pre><code># Traditional loop approach
+squares = []
+for x in range(5):
+    squares.append(x ** 2)
+print(squares)  # [0, 1, 4, 9, 16]
+
+# List comprehension -- same result, one line
+squares = [x ** 2 for x in range(5)]
+print(squares)  # [0, 1, 4, 9, 16]</code></pre><p>A <strong>generator</strong> is a special type of iterator that produces values <strong>one at a time</strong>, on demand, instead of creating them all at once in memory. Generators are defined either with a <strong>generator expression</strong> (using parentheses instead of brackets) or with a <strong>generator function</strong> (using the <code>yield</code> keyword).</p><pre><code># Generator expression -- lazy, produces values on demand
+squares_gen = (x ** 2 for x in range(5))
+print(next(squares_gen))  # 0
+print(next(squares_gen))  # 1
+# Remaining values are not yet computed</code></pre><p>The key difference: a list comprehension builds the entire list in memory immediately. A generator produces values lazily, one at a time, which is far more memory-efficient for large data sets.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Comprehensions and Generators Important?</h2><h3>1. Readability and Conciseness</h3><p>Comprehensions express common patterns (transform, filter, combine) in a single readable line. Instead of four lines to build a filtered list (create list, loop, check condition, append), you write one line. Experienced Python developers read comprehensions fluently, and they are considered the Pythonic way to create collections.</p><h3>2. Performance</h3><p>List comprehensions are faster than equivalent for-loop-with-append patterns because they are optimized at the bytecode level. Python knows in advance that you are building a list, so it can allocate memory more efficiently.</p><h3>3. Memory Efficiency with Generators</h3><p>When Aarav needs to process a file with 10 million lines, loading all lines into a list would consume gigabytes of memory. A generator processes one line at a time, using constant memory regardless of file size. This is <strong>lazy evaluation</strong> -- computing values only when they are actually needed.</p><h3>4. Composability</h3><p>Generators can be chained together to create data processing pipelines. Each generator in the chain processes one element at a time and passes it to the next, like an assembly line. This pattern is powerful for handling large data streams without loading everything into memory.</p><h3>5. Foundation for Advanced Python</h3><p>Understanding comprehensions and generators is essential for advanced Python. Libraries like pandas, SQLAlchemy, and asyncio use these patterns extensively. Generator-based coroutines were the foundation for Python's async/await syntax.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. Basic List Comprehension</h3><p>The syntax is <code>[expression for variable in iterable]</code>:</p><pre><code># Square of each number
+squares = [x ** 2 for x in range(6)]
+print(squares)  # [0, 1, 4, 9, 16, 25]
+
+# Length of each word
+words = ["Python", "is", "fun"]
+lengths = [len(w) for w in words]
+print(lengths)  # [6, 2, 3]
+
+# Convert to uppercase
+names = ["aarav", "priya", "rohan"]
+upper_names = [name.upper() for name in names]
+print(upper_names)  # ['AARAV', 'PRIYA', 'ROHAN']
+
+# Call a function on each element
+def double(n):
+    return n * 2
+
+result = [double(x) for x in [1, 2, 3, 4]]
+print(result)  # [2, 4, 6, 8]</code></pre><h3>2. Comprehension with Condition (Filtering)</h3><p>Add an <code>if</code> clause to filter elements:</p><pre><code># Even numbers only
+evens = [x for x in range(10) if x % 2 == 0]
+print(evens)  # [0, 2, 4, 6, 8]
+
+# Words longer than 3 characters
+words = ["hi", "hello", "hey", "good", "morning"]
+long_words = [w for w in words if len(w) > 3]
+print(long_words)  # ['hello', 'good', 'morning']
+
+# Positive numbers only
+numbers = [-3, -1, 0, 2, 5, -4, 8]
+positives = [n for n in numbers if n > 0]
+print(positives)  # [2, 5, 8]
+
+# Strings that are digits
+items = ["42", "hello", "7", "world", "100"]
+numeric = [s for s in items if s.isdigit()]
+print(numeric)  # ['42', '7', '100']</code></pre><h3>3. Comprehension with if-else (Transformation)</h3><p>When you want to transform every element differently based on a condition, the if-else goes <strong>before</strong> the for:</p><pre><code># Replace negatives with 0
+numbers = [3, -1, 4, -2, 5]
+cleaned = [n if n >= 0 else 0 for n in numbers]
+print(cleaned)  # [3, 0, 4, 0, 5]
+
+# Label even/odd
+labels = ["even" if x % 2 == 0 else "odd" for x in range(5)]
+print(labels)  # ['even', 'odd', 'even', 'odd', 'even']
+
+# Pass/fail based on score
+scores = [85, 42, 91, 38, 76]
+results = ["pass" if s >= 50 else "fail" for s in scores]
+print(results)  # ['pass', 'fail', 'pass', 'fail', 'pass']</code></pre><p>Notice the difference: <code>[x for x in items if condition]</code> filters (excludes some elements). <code>[a if condition else b for x in items]</code> transforms every element.</p><h3>4. Nested Comprehensions</h3><p>You can nest for loops inside comprehensions. The order reads left to right, same as nested for loops:</p><pre><code># Flatten a 2D list
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flat = [num for row in matrix for num in row]
+print(flat)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# Equivalent nested loop:
+# for row in matrix:
+#     for num in row:
+#         flat.append(num)
+
+# Create a 2D list (matrix)
+matrix = [[i * 3 + j + 1 for j in range(3)] for i in range(3)]
+print(matrix)  # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# Transpose a matrix (swap rows and columns)
+original = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+transposed = [[row[i] for row in original] for i in range(3)]
+print(transposed)  # [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+
+# All pairs from two lists
+colors = ["red", "blue"]
+sizes = ["S", "M", "L"]
+pairs = [(c, s) for c in colors for s in sizes]
+print(pairs)
+# [('red', 'S'), ('red', 'M'), ('red', 'L'), ('blue', 'S'), ('blue', 'M'), ('blue', 'L')]</code></pre><h3>5. Dictionary Comprehension</h3><p>Use <code>{key: value for ...}</code> to create dictionaries:</p><pre><code># Square mapping
+squares = {x: x**2 for x in range(6)}
+print(squares)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+# Word lengths
+words = ["python", "java", "c"]
+length_map = {w: len(w) for w in words}
+print(length_map)  # {'python': 6, 'java': 4, 'c': 1}
+
+# Swap keys and values
+original = {"a": 1, "b": 2, "c": 3}
+swapped = {v: k for k, v in original.items()}
+print(swapped)  # {1: 'a', 2: 'b', 3: 'c'}
+
+# Filter a dictionary
+scores = {"Aarav": 85, "Priya": 42, "Rohan": 91, "Meera": 38}
+passed = {name: score for name, score in scores.items() if score >= 50}
+print(passed)  # {'Aarav': 85, 'Rohan': 91}</code></pre><h3>6. Set Comprehension</h3><p>Use <code>{expression for ...}</code> (no colon) to create sets:</p><pre><code># Unique first letters
+names = ["Aarav", "Ananya", "Priya", "Pranav", "Rohan"]
+first_letters = {name[0] for name in names}
+print(first_letters)  # {'A', 'P', 'R'}
+
+# Unique remainders
+remainders = {x % 3 for x in range(10)}
+print(remainders)  # {0, 1, 2}
+
+# Unique word lengths
+sentence = "the quick brown fox jumps over the lazy dog"
+lengths = {len(word) for word in sentence.split()}
+print(sorted(lengths))  # [3, 4, 5]</code></pre><h3>7. Generator Expressions</h3><p>Replace the brackets <code>[]</code> with parentheses <code>()</code> to create a generator instead of a list:</p><pre><code># List comprehension -- creates entire list in memory
+squares_list = [x ** 2 for x in range(1000000)]
+
+# Generator expression -- creates values on demand
+squares_gen = (x ** 2 for x in range(1000000))
+
+print(type(squares_list))  # <class 'list'>
+print(type(squares_gen))   # <class 'generator'>
+
+# Generator is much more memory-efficient
+import sys
+print(sys.getsizeof(squares_list))  # ~8 MB
+print(sys.getsizeof(squares_gen))   # ~200 bytes</code></pre><p>Generator expressions are ideal when you only need to iterate once or when the sequence is very large.</p><h3>8. Generator Functions (yield)</h3><p>A <strong>generator function</strong> uses <code>yield</code> instead of <code>return</code>. Each time <code>yield</code> is encountered, the function pauses and produces a value. When <code>next()</code> is called again, the function resumes from where it paused:</p><pre><code>def count_up_to(n):
+    i = 1
+    while i <= n:
+        yield i
+        i += 1
+
+gen = count_up_to(5)
+print(next(gen))  # 1
+print(next(gen))  # 2
+print(next(gen))  # 3
+
+# Iterate over remaining values
+for num in gen:
+    print(num, end=" ")  # 4 5
+print()</code></pre><h3>9. yield vs return</h3><p><code>return</code> terminates the function and sends back one value. <code>yield</code> pauses the function and sends back a value, but the function's state (local variables, position) is preserved for the next call:</p><pre><code># return: computes all values at once, stores in memory
+def get_squares_list(n):
+    result = []
+    for i in range(n):
+        result.append(i ** 2)
+    return result  # All values created, function ends
+
+# yield: computes one value at a time, on demand
+def get_squares_gen(n):
+    for i in range(n):
+        yield i ** 2  # Pauses here, resumes on next call
+
+# Both produce the same values, but:
+print(list(get_squares_list(5)))  # [0, 1, 4, 9, 16]
+print(list(get_squares_gen(5)))   # [0, 1, 4, 9, 16]</code></pre><p>The key difference is memory: <code>get_squares_list(1000000)</code> creates a list of one million numbers in memory. <code>get_squares_gen(1000000)</code> creates them one at a time.</p><h3>10. Lazy Evaluation and StopIteration</h3><p>Generators use <strong>lazy evaluation</strong> -- they compute the next value only when asked. When a generator has no more values, calling <code>next()</code> raises <code>StopIteration</code>:</p><pre><code>def three_items():
+    yield "first"
+    yield "second"
+    yield "third"
+
+gen = three_items()
+print(next(gen))  # first
+print(next(gen))  # second
+print(next(gen))  # third
+
+try:
+    print(next(gen))  # No more values!
+except StopIteration:
+    print("Generator exhausted")</code></pre><p>A <code>for</code> loop handles <code>StopIteration</code> automatically -- it calls <code>next()</code> repeatedly and stops when <code>StopIteration</code> is raised. This is why generators work seamlessly with for loops.</p><h3>11. Chaining Generators</h3><p>Generators can be chained together, where each generator processes values from the previous one. This creates efficient data pipelines:</p><pre><code>def read_lines(data):
+    for line in data:
+        yield line.strip()
+
+def filter_non_empty(lines):
+    for line in lines:
+        if line:
+            yield line
+
+def to_uppercase(lines):
+    for line in lines:
+        yield line.upper()
+
+# Chain the generators
+raw_data = ["  hello  ", "", "  world  ", "   ", "  python  "]
+pipeline = to_uppercase(filter_non_empty(read_lines(raw_data)))
+
+for line in pipeline:
+    print(line)
+# HELLO
+# WORLD
+# PYTHON</code></pre><p>Each generator processes one element at a time and passes it to the next. No intermediate lists are created.</p><h3>12. Comprehension vs map/filter</h3><p>Comprehensions are generally preferred over <code>map()</code> and <code>filter()</code> in Python because they are more readable:</p><pre><code># map equivalent
+numbers = [1, 2, 3, 4, 5]
+map_result = list(map(lambda x: x ** 2, numbers))
+comp_result = [x ** 2 for x in numbers]
+print(map_result == comp_result)  # True
+
+# filter equivalent
+filter_result = list(filter(lambda x: x > 2, numbers))
+comp_result = [x for x in numbers if x > 2]
+print(filter_result == comp_result)  # True
+
+# map + filter combined
+mf_result = list(map(lambda x: x ** 2, filter(lambda x: x > 2, numbers)))
+comp_result = [x ** 2 for x in numbers if x > 2]
+print(mf_result == comp_result)  # True
+# The comprehension is clearly more readable</code></pre>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">List Comprehension: Basic, Filter, and Transform</div><pre><code class="language-python"># Basic: transform each element
+numbers = [1, 2, 3, 4, 5]
+squared = [n ** 2 for n in numbers]
+print(f&quot;Squared: {squared}&quot;)
+
+# Filter: keep only elements matching condition
+evens = [n for n in range(10) if n % 2 == 0]
+print(f&quot;Evens: {evens}&quot;)
+
+# Transform with if-else: modify every element
+scores = [85, 42, 91, 38, 76, 55]
+grades = [&quot;pass&quot; if s &gt;= 50 else &quot;fail&quot; for s in scores]
+print(f&quot;Grades: {grades}&quot;)
+
+# Combined: filter AND transform
+even_squares = [n ** 2 for n in range(10) if n % 2 == 0]
+print(f&quot;Even squares: {even_squares}&quot;)
+
+# String processing
+words = [&quot;  hello &quot;, &quot; WORLD&quot;, &quot;Python  &quot;]
+cleaned = [w.strip().lower() for w in words]
+print(f&quot;Cleaned: {cleaned}&quot;)</code></pre><div class="code-example-explanation">List comprehensions replace the loop-append pattern with a single expression. The <code>if</code> after the for clause filters elements. The <code>if-else</code> before the for clause transforms every element. Both can be combined: filter first (if after for), then transform (expression before for).</div><div class="code-example-output">Squared: [1, 4, 9, 16, 25]
+Evens: [0, 2, 4, 6, 8]
+Grades: [&#39;pass&#39;, &#39;fail&#39;, &#39;pass&#39;, &#39;fail&#39;, &#39;pass&#39;, &#39;pass&#39;]
+Even squares: [0, 4, 16, 36, 64]
+Cleaned: [&#39;hello&#39;, &#39;world&#39;, &#39;python&#39;]</div></div>
+<div class="code-example"><div class="code-example-title">Dict and Set Comprehensions</div><pre><code class="language-python"># Dict comprehension: word -&gt; length
+fruits = [&quot;apple&quot;, &quot;banana&quot;, &quot;cherry&quot;, &quot;date&quot;]
+fruit_lengths = {f: len(f) for f in fruits}
+print(f&quot;Lengths: {fruit_lengths}&quot;)
+
+# Dict comprehension: invert a dictionary
+original = {&quot;a&quot;: 1, &quot;b&quot;: 2, &quot;c&quot;: 3}
+inverted = {v: k for k, v in original.items()}
+print(f&quot;Inverted: {inverted}&quot;)
+
+# Dict comprehension with filter
+scores = {&quot;Aarav&quot;: 85, &quot;Priya&quot;: 42, &quot;Rohan&quot;: 91, &quot;Meera&quot;: 38, &quot;Kavya&quot;: 76}
+toppers = {name: score for name, score in scores.items() if score &gt;= 75}
+print(f&quot;Toppers: {toppers}&quot;)
+
+# Set comprehension: unique values
+numbers = [1, 2, 2, 3, 3, 3, 4, 4, 5]
+unique_squares = {n ** 2 for n in numbers}
+print(f&quot;Unique squares: {sorted(unique_squares)}&quot;)
+
+# Set comprehension: unique first characters
+names = [&quot;Aarav&quot;, &quot;Ananya&quot;, &quot;Priya&quot;, &quot;Pranav&quot;, &quot;Rohan&quot;, &quot;Riya&quot;]
+initials = {name[0] for name in names}
+print(f&quot;Initials: {sorted(initials)}&quot;)</code></pre><div class="code-example-explanation">Dict comprehensions use <code>{key: value for ...}</code>. Set comprehensions use <code>{value for ...}</code> (no colon). The syntax is identical to list comprehensions except for the brackets. Dict comprehensions are powerful for transforming, filtering, and inverting dictionaries. Set comprehensions automatically remove duplicates.</div><div class="code-example-output">Lengths: {&#39;apple&#39;: 5, &#39;banana&#39;: 6, &#39;cherry&#39;: 6, &#39;date&#39;: 4}
+Inverted: {1: &#39;a&#39;, 2: &#39;b&#39;, 3: &#39;c&#39;}
+Toppers: {&#39;Aarav&#39;: 85, &#39;Rohan&#39;: 91, &#39;Kavya&#39;: 76}
+Unique squares: [1, 4, 9, 16, 25]
+Initials: [&#39;A&#39;, &#39;P&#39;, &#39;R&#39;]</div></div>
+<div class="code-example"><div class="code-example-title">Nested Comprehensions: Flatten and Matrix Operations</div><pre><code class="language-python"># Flatten a 2D list
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+flat = [num for row in matrix for num in row]
+print(f&quot;Flat: {flat}&quot;)
+
+# Create a multiplication table
+table = [[i * j for j in range(1, 4)] for i in range(1, 4)]
+for row in table:
+    print(row)
+
+# Transpose a matrix
+original = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+transposed = [[row[i] for row in original] for i in range(len(original[0]))]
+print(f&quot;\nOriginal: {original}&quot;)
+print(f&quot;Transposed: {transposed}&quot;)
+
+# All coordinate pairs in a grid
+coords = [(x, y) for x in range(3) for y in range(3)]
+print(f&quot;\nGrid coords: {coords}&quot;)</code></pre><div class="code-example-explanation">Nested comprehensions read left to right: <code>[num for row in matrix for num in row]</code> is equivalent to a nested for loop where the outer loop iterates rows and the inner loop iterates numbers. For creating 2D structures, use a comprehension inside a comprehension: <code>[[expr for j] for i]</code>. The outer comprehension creates rows, and the inner creates columns.</div><div class="code-example-output">Flat: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+[1, 2, 3]
+[2, 4, 6]
+[3, 6, 9]
+
+Original: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+Transposed: [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
+
+Grid coords: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]</div></div>
+<div class="code-example"><div class="code-example-title">Generator Functions with yield</div><pre><code class="language-python">def fibonacci(limit):
+    a, b = 0, 1
+    while a &lt;= limit:
+        yield a
+        a, b = b, a + b
+
+# Using next()
+fib = fibonacci(100)
+print(f&quot;First: {next(fib)}&quot;)
+print(f&quot;Second: {next(fib)}&quot;)
+print(f&quot;Third: {next(fib)}&quot;)
+
+# Using for loop for the rest
+print(&quot;Remaining:&quot;, end=&quot; &quot;)
+for num in fib:
+    print(num, end=&quot; &quot;)
+print()
+
+# Generator is now exhausted
+print(f&quot;List from exhausted: {list(fib)}&quot;)
+
+# Fresh generator
+print(f&quot;\nAll Fibonacci up to 50: {list(fibonacci(50))}&quot;)
+
+# Infinite generator (use with caution)
+def count_forever(start=0):
+    n = start
+    while True:
+        yield n
+        n += 1
+
+counter = count_forever(10)
+first_five = [next(counter) for _ in range(5)]
+print(f&quot;First 5 from infinite: {first_five}&quot;)</code></pre><div class="code-example-explanation">A generator function contains <code>yield</code> instead of <code>return</code>. Each <code>yield</code> pauses the function and produces a value. <code>next()</code> resumes execution until the next yield. After a for loop or <code>list()</code> consumes all values, the generator is exhausted and produces nothing more. Creating a new generator (calling the function again) starts fresh.</div><div class="code-example-output">First: 0
+Second: 1
+Third: 1
+Remaining: 2 3 5 8 13 21 34 55 89 
+List from exhausted: []
+
+All Fibonacci up to 50: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+First 5 from infinite: [10, 11, 12, 13, 14]</div></div>
+<div class="code-example"><div class="code-example-title">Generator Expression vs List Comprehension</div><pre><code class="language-python">import sys
+
+# Memory comparison
+list_comp = [x ** 2 for x in range(10000)]
+gen_expr = (x ** 2 for x in range(10000))
+
+print(f&quot;List size: {sys.getsizeof(list_comp):,} bytes&quot;)
+print(f&quot;Generator size: {sys.getsizeof(gen_expr)} bytes&quot;)
+
+# Both produce the same values
+small_list = [x ** 2 for x in range(5)]
+small_gen = (x ** 2 for x in range(5))
+
+print(f&quot;\nList: {small_list}&quot;)
+print(f&quot;Generator: {list(small_gen)}&quot;)
+
+# Generator in function calls (no extra parentheses needed)
+numbers = [1, 2, 3, 4, 5]
+total = sum(x ** 2 for x in numbers)  # Generator passed directly to sum()
+print(f&quot;\nSum of squares: {total}&quot;)
+
+max_len = max(len(w) for w in [&quot;hello&quot;, &quot;world&quot;, &quot;python&quot;])
+print(f&quot;Longest word length: {max_len}&quot;)
+
+# Check if any/all
+has_negative = any(x &lt; 0 for x in [1, -2, 3])
+all_positive = all(x &gt; 0 for x in [1, 2, 3])
+print(f&quot;Has negative: {has_negative}&quot;)
+print(f&quot;All positive: {all_positive}&quot;)</code></pre><div class="code-example-explanation">A list comprehension uses <code>[]</code> and builds the entire list in memory. A generator expression uses <code>()</code> and produces values lazily. For large sequences, generators save significant memory. When passing a generator to a function like <code>sum()</code>, <code>any()</code>, or <code>all()</code>, you do not need extra parentheses.</div><div class="code-example-output">List size: 87,616 bytes
+Generator size: 200 bytes
+
+List: [0, 1, 4, 9, 16]
+Generator: [0, 1, 4, 9, 16]
+
+Sum of squares: 55
+Longest word length: 6
+Has negative: True
+All positive: True</div></div>
+<div class="code-example"><div class="code-example-title">Chaining Generators for Data Pipelines</div><pre><code class="language-python"># Generator pipeline: process student data
+def parse_records(raw_data):
+    for line in raw_data:
+        name, score = line.split(&quot;:&quot;)
+        yield {&quot;name&quot;: name.strip(), &quot;score&quot;: int(score.strip())}
+
+def filter_passing(records):
+    for record in records:
+        if record[&quot;score&quot;] &gt;= 50:
+            yield record
+
+def add_grade(records):
+    for record in records:
+        score = record[&quot;score&quot;]
+        if score &gt;= 90:
+            record[&quot;grade&quot;] = &quot;A&quot;
+        elif score &gt;= 75:
+            record[&quot;grade&quot;] = &quot;B&quot;
+        elif score &gt;= 50:
+            record[&quot;grade&quot;] = &quot;C&quot;
+        yield record
+
+# Raw data
+data = [
+    &quot;Aarav: 85&quot;,
+    &quot;Priya: 42&quot;,
+    &quot;Rohan: 91&quot;,
+    &quot;Meera: 38&quot;,
+    &quot;Kavya: 76&quot;,
+    &quot;Arjun: 55&quot;
+]
+
+# Chain generators into a pipeline
+pipeline = add_grade(filter_passing(parse_records(data)))
+
+for student in pipeline:
+    print(f&quot;{student[&#39;name&#39;]}: {student[&#39;score&#39;]} ({student[&#39;grade&#39;]})&quot;) </code></pre><div class="code-example-explanation">Three generators are chained together: <code>parse_records</code> converts raw strings to dictionaries, <code>filter_passing</code> removes failing students, and <code>add_grade</code> adds letter grades. Each function processes one record at a time and passes it along. No intermediate lists are created -- the data flows through the pipeline one item at a time.</div><div class="code-example-output">Aarav: 85 (B)
+Rohan: 91 (A)
+Kavya: 76 (B)
+Arjun: 55 (C)</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Putting the if-else in the Wrong Position</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Trying to use if-else after the for (filter position)
+numbers = [1, 2, 3, 4, 5]
+result = [x for x in numbers if x &gt; 3 else 0]  # SyntaxError!</code></pre></div><div class="error-message">SyntaxError: invalid syntax</div><div class="correct-code"><pre><code class="language-python"># if-else (transform) goes BEFORE the for
+result = [x if x &gt; 3 else 0 for x in numbers]
+print(result)  # [0, 0, 0, 4, 5]
+
+# if (filter) goes AFTER the for
+filtered = [x for x in numbers if x &gt; 3]
+print(filtered)  # [4, 5]</code></pre></div><div class="mistake-explanation">There are two different positions for conditions in comprehensions. Filtering (<code>if</code> after <code>for</code>) excludes elements that do not match. Transformation (<code>if-else</code> before <code>for</code>) modifies every element. You cannot combine both syntaxes by putting if-else after for.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Trying to Reuse an Exhausted Generator</h3>
+                <div class="wrong-code"><pre><code class="language-python">gen = (x ** 2 for x in range(5))
+first_pass = list(gen)   # [0, 1, 4, 9, 16]
+second_pass = list(gen)  # [] -- empty!
+print(f&quot;First: {first_pass}&quot;)
+print(f&quot;Second: {second_pass}&quot;)  # Surprise: empty list!</code></pre></div><div class="error-message">No error, but second_pass is an empty list because the generator was exhausted by the first list() call.</div><div class="correct-code"><pre><code class="language-python"># Solution 1: Create a new generator each time
+def make_gen():
+    return (x ** 2 for x in range(5))
+
+first_pass = list(make_gen())
+second_pass = list(make_gen())
+print(f&quot;First: {first_pass}&quot;)
+print(f&quot;Second: {second_pass}&quot;)
+
+# Solution 2: Use a list if you need multiple passes
+squares = [x ** 2 for x in range(5)]  # Store in a list
+print(f&quot;Sum: {sum(squares)}, Max: {max(squares)}&quot;)</code></pre></div><div class="mistake-explanation">Generators are <strong>single-use</strong>. Once all values have been consumed (by <code>list()</code>, a for loop, or <code>next()</code>), the generator is exhausted and produces no more values. If you need to iterate multiple times, either create a new generator or use a list.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using Comprehension When a Loop is Clearer</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Overly complex comprehension -- hard to read
+result = [x if x &gt; 0 else (-x if x &lt; -10 else 0) for x in data if isinstance(x, (int, float)) and not isinstance(x, bool)]</code></pre></div><div class="error-message">No error, but this comprehension is too complex to understand at a glance.</div><div class="correct-code"><pre><code class="language-python"># Use a regular loop when logic is complex
+result = []
+for x in data:
+    if not isinstance(x, (int, float)) or isinstance(x, bool):
+        continue
+    if x &gt; 0:
+        result.append(x)
+    elif x &lt; -10:
+        result.append(-x)
+    else:
+        result.append(0)</code></pre></div><div class="mistake-explanation">Comprehensions are for simple transformations and filters. If the logic requires multiple conditions, nested if-else, or is hard to read on one line, use a regular for loop. Readability matters more than brevity.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Generator Expression with Tuple Comprehension</h3>
+                <div class="wrong-code"><pre><code class="language-python"># This does NOT create a tuple!
+result = (x ** 2 for x in range(5))
+print(type(result))  # &lt;class &#39;generator&#39;&gt;, NOT tuple!
+print(result)        # &lt;generator object ...&gt;, NOT (0, 1, 4, 9, 16)</code></pre></div><div class="error-message">No error, but the result is a generator object, not a tuple.</div><div class="correct-code"><pre><code class="language-python"># To create a tuple, use tuple() with a generator expression
+result = tuple(x ** 2 for x in range(5))
+print(type(result))  # &lt;class &#39;tuple&#39;&gt;
+print(result)        # (0, 1, 4, 9, 16)
+
+# There is no &quot;tuple comprehension&quot; syntax in Python</code></pre></div><div class="mistake-explanation">Python has no tuple comprehension. Parentheses with a for expression create a <strong>generator expression</strong>, not a tuple. To create a tuple from a comprehension-like expression, wrap the generator expression with <code>tuple()</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying an Outside Variable Inside a Comprehension</h3>
+                <div class="wrong-code"><pre><code class="language-python">total = 0
+results = [total := total + x for x in range(5)]  # Works but confusing
+print(results)  # [0, 1, 3, 6, 10]
+# Using walrus operator for side effects in comprehensions is bad practice</code></pre></div><div class="error-message">No error, but using the walrus operator (:=) for accumulation in a comprehension is confusing and harder to debug than a simple loop.</div><div class="correct-code"><pre><code class="language-python"># Use a regular loop for accumulation
+total = 0
+running_totals = []
+for x in range(5):
+    total += x
+    running_totals.append(total)
+print(running_totals)  # [0, 1, 3, 6, 10]
+
+# Or use itertools.accumulate
+from itertools import accumulate
+print(list(accumulate(range(5))))  # [0, 1, 3, 6, 10]</code></pre></div><div class="mistake-explanation">Comprehensions should be pure transformations without side effects. Modifying external variables inside a comprehension makes code hard to understand and debug. If you need running totals or other stateful operations, use a regular loop or <code>itertools.accumulate</code>.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>List comprehension syntax is [expression for variable in iterable]. It creates a new list by applying the expression to each element. This is the Pythonic replacement for the loop-append pattern.</li>
+<li>Add a filter condition after the for: [x for x in items if condition]. Only elements where the condition is True are included. This replaces filter() for most use cases.</li>
+<li>For if-else transformation (modifying every element), put the conditional BEFORE the for: [a if condition else b for x in items]. This is different from filtering -- every element is included but may be transformed differently.</li>
+<li>Nested comprehensions read left to right: [expr for outer in iterable1 for inner in iterable2]. This is equivalent to nested for loops. Use comprehension-in-comprehension [[expr for j] for i] to create 2D structures.</li>
+<li>Dict comprehension uses {key: value for ...} and set comprehension uses {value for ...}. Both support filtering with if clauses. Dict comprehensions are powerful for transforming and filtering dictionaries.</li>
+<li>Generator expressions use parentheses instead of brackets: (expr for x in iterable). They produce values lazily (one at a time) and use constant memory regardless of size. Ideal for large data or single-pass iteration.</li>
+<li>Generator functions use yield instead of return. Each yield pauses the function and produces a value. The function resumes from the pause point when next() is called again. When the function ends, StopIteration is raised.</li>
+<li>Generators are single-use: once exhausted, they produce no more values. To iterate multiple times, create a new generator or convert to a list. A for loop handles StopIteration automatically.</li>
+<li>Generators can be chained into pipelines where each generator processes one element at a time from the previous generator. This creates memory-efficient data processing workflows with no intermediate lists.</li>
+<li>Prefer comprehensions over map/filter for readability. Prefer regular for loops over comprehensions when the logic is complex. Use generator expressions instead of list comprehensions when you only need to iterate once or when dealing with large data.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/modules-and-packages" class="related-topic-link">Modules and Packages in Python</a>
+<a href="/resources/python/decorators-and-iterators" class="related-topic-link">Decorators and Iterators</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/modules-and-packages" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Modules and Packages in Python</span>
+        </a>
+            <a href="/resources/python/decorators-and-iterators" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Decorators and Iterators</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/list-comprehensions-and-generators/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

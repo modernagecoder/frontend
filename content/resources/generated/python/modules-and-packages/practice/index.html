@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Modules and Packages in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="57+ practice questions on Modules and Packages in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="modules and packages in python practice, python questions, python practice problems, modules and packages in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+    <meta property="og:title" content="Practice Questions - Modules and Packages in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="57+ practice questions on Modules and Packages in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/modules-and-packages/practice">
+    <meta name="twitter:title" content="Practice Questions - Modules and Packages in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="57+ practice questions on Modules and Packages in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Modules and Packages in Python",
+    "description": "57+ practice questions on Modules and Packages in Python in Python.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Modules and Packages in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/modules-and-packages/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Modules and Packages in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/modules-and-packages"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/modules-and-packages/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/modules-and-packages">Modules and Packages in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 23</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">57 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Modules and Packages in Python</h1>
+            <a href="/resources/python/modules-and-packages" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>import math
+print(math.sqrt(64))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">math.sqrt() returns the square root as a float.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>8.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from math import pi
+print(round(pi, 2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">pi is approximately 3.14159. round() rounds to the given decimal places.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>3.14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+print(math.ceil(4.1))
+print(math.floor(4.9))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">ceil rounds up, floor rounds down.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>5</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from math import factorial
+print(factorial(5))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">5! = 5 * 4 * 3 * 2 * 1</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import math as m
+print(m.gcd(12, 18))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">gcd returns the greatest common divisor. math is aliased as m.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import random
+random.seed(0)
+print(random.randint(1, 10))
+print(random.randint(1, 10))
+random.seed(0)
+print(random.randint(1, 10))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Setting the same seed produces the same sequence of random numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>7</code><br><code>1</code><br><code>7</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from datetime import date
+
+d1 = date(2026, 1, 1)
+d2 = date(2026, 4, 6)
+diff = d2 - d1
+print(diff.days)
+print(type(diff).__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Subtracting two date objects gives a timedelta.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>95</code><br><code>timedelta</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import json
+
+data = {"name": "Aarav", "scores": [85, 92]}
+json_str = json.dumps(data)
+print(type(json_str).__name__)
+print(json_str)
+
+parsed = json.loads(json_str)
+print(type(parsed).__name__)
+print(parsed["name"])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">dumps converts to string, loads converts back to dict.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>str</code><br><code>{"name": "Aarav", "scores": [85, 92]}</code><br><code>dict</code><br><code>Aarav</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import os.path
+
+print(os.path.join("folder", "subfolder", "file.txt"))
+print(os.path.splitext("report.pdf"))
+print(os.path.basename("/home/user/data.csv"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">os.path functions handle file paths in a cross-platform way.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>folder/subfolder/file.txt</code><br><code>('report', '.pdf')</code><br><code>data.csv</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+
+print(math.pow(2, 10))
+print(2 ** 10)
+print(type(math.pow(2, 10)).__name__)
+print(type(2 ** 10).__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">math.pow always returns a float. The ** operator preserves the integer type.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>1024.0</code><br><code>1024</code><br><code>float</code><br><code>int</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import json
+
+python_data = {"active": True, "count": None, "items": ()}
+json_str = json.dumps(python_data)
+print(json_str)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">JSON has different representations for True, None, and tuples.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>{"active": true, "count": null, "items": []}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import sys
+
+a = []
+b = [1, 2, 3]
+c = "hello"
+
+print(sys.getsizeof(a) < sys.getsizeof(b))
+print(sys.getsizeof("") < sys.getsizeof(c))
+print(sys.getsizeof(0) == sys.getsizeof(1000))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Lists with more elements use more memory. Longer strings use more memory. Small ints have the same base size.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>True</code><br><code>True</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+
+values = [0.1, 0.2, 0.3, 0.4]
+print(sum(values))
+print(math.fsum(values))
+print(sum(values) == 1.0)
+print(math.fsum(values) == 1.0)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Floating-point arithmetic has precision issues. math.fsum reduces these errors.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>0.9999999999999999</code><br><code>1.0</code><br><code>False</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import json
+
+data = {"b": 2, "a": 1, "c": 3}
+print(json.dumps(data))
+print(json.dumps(data, sort_keys=True))
+print(json.dumps(data, indent=2, sort_keys=True)[:20])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">sort_keys orders dictionary keys alphabetically. indent adds pretty formatting.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>{"b": 2, "a": 1, "c": 3}</code><br><code>{"a": 1, "b": 2, "c": 3}</code><br><code>{
+  "a": 1,
+  "b":</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from math import sqrt, pow, pi
+import math
+
+print(sqrt(16))       # from...import
+print(math.sqrt(16))  # import
+print(sqrt is math.sqrt)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Both import styles access the same underlying function object.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>4.0</code><br><code>4.0</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>json.dump()</code> and <code>json.dumps()</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">The 's' in dumps stands for 'string'.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>json.dump(data, file)</code> writes JSON directly to a file object. <code>json.dumps(data)</code> returns a JSON-formatted string. Similarly, <code>json.load(file)</code> reads from a file, while <code>json.loads(string)</code> parses a string. The 's' stands for 'string'.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you never name your Python file <code>random.py</code> or <code>math.py</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about the module search order. Where does Python look first?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Python searches for modules starting with the current directory. If you create a file called <code>random.py</code>, Python imports YOUR file instead of the standard library <code>random</code> module. This shadows the standard library module, causing <code>AttributeError</code> when you try to use functions like <code>random.randint()</code>.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+print(math.ceil(-3.2))
+print(math.floor(-3.2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">ceil goes toward positive infinity, floor goes toward negative infinity.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>-3</code><br><code>-4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>import random
+random.seed(42)
+colors = ["red", "green", "blue"]
+print(random.choice(colors))
+print(random.choice(colors))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">With a fixed seed, the sequence is deterministic.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>green</code><br><code>green</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import json
+
+original = {"x": (1, 2, 3)}
+json_str = json.dumps(original)
+restored = json.loads(json_str)
+
+print(type(original["x"]).__name__)
+print(type(restored["x"]).__name__)
+print(original == restored)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">JSON has no tuple type. What does a tuple become after JSON round-trip?</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>tuple</code><br><code>list</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from math import sqrt
+
+def distance(x1, y1, x2, y2):
+    return sqrt((x2-x1)**2 + (y2-y1)**2)
+
+print(distance(0, 0, 3, 4))
+print(distance(1, 1, 4, 5))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">This is the Euclidean distance formula. sqrt(9+16) = sqrt(25) = 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>5.0</code><br><code>5.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from datetime import timedelta
+
+one_week = timedelta(weeks=1)
+two_days = timedelta(days=2)
+
+total = one_week + two_days
+print(total.days)
+print(total > one_week)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">timedelta objects can be added and compared.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>9</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+
+numbers = [4, 9, 16, 25, 36]
+roots = [math.sqrt(n) for n in numbers]
+print(roots)
+print([int(r) for r in roots])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">math.sqrt returns floats. int() truncates the decimal.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>[2.0, 3.0, 4.0, 5.0, 6.0]</code><br><code>[2, 3, 4, 5, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import json
+
+class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+s = Student("Priya", 15)
+
+try:
+    print(json.dumps(s))
+except TypeError as e:
+    print(f"Error: {type(e).__name__}")
+    print(json.dumps(s.__dict__))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">json.dumps cannot serialize custom objects directly. __dict__ gives the object's attributes as a dict.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>Error: TypeError</code><br><code>{"name": "Priya", "age": 15}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+
+def classify_number(n):
+    if math.isinf(n):
+        return "infinite"
+    if math.isnan(n):
+        return "not a number"
+    if n == int(n):
+        return "whole"
+    return "decimal"
+
+print(classify_number(5.0))
+print(classify_number(3.14))
+print(classify_number(float('inf')))
+print(classify_number(float('nan')))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">math.isinf and math.isnan check for special float values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>whole</code><br><code>decimal</code><br><code>infinite</code><br><code>not a number</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import random
+
+random.seed(10)
+nums = list(range(1, 6))  # [1, 2, 3, 4, 5]
+
+sampled = random.sample(nums, 3)
+print(f"sample: {sampled}")
+print(f"original: {nums}")
+
+random.shuffle(nums)
+print(f"shuffled: {nums}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">sample returns a new list (original unchanged). shuffle modifies the list in place.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>sample: [2, 1, 5]</code><br><code>original: [1, 2, 3, 4, 5]</code><br><code>shuffled: [5, 3, 4, 1, 2]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>import math
+
+print(math.log(1))      # Natural log of 1
+print(math.log(math.e)) # Natural log of e
+print(math.log(100, 10)) # Log base 10 of 100
+print(math.log2(8))      # Log base 2 of 8</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">ln(1) = 0, ln(e) = 1, log10(100) = 2, log2(8) = 3.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>0.0</code><br><code>1.0</code><br><code>2.0</code><br><code>3.0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What happens when Python executes <code>import mymodule</code> for the first time?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about module search, execution, and caching.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">Python (1) searches for <code>mymodule.py</code> in the module search path (sys.path), (2) creates a new module object, (3) executes all the code in the file from top to bottom, (4) binds the module object to the name <code>mymodule</code> in the current namespace, and (5) caches the module in <code>sys.modules</code> so subsequent imports use the cached version without re-executing the code.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is a module in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A built-in function</li><li><span class="mcq-option-label">B.</span> A .py file containing Python code</li><li><span class="mcq-option-label">C.</span> A special data type</li><li><span class="mcq-option-label">D.</span> A loop structure</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> A module is simply a <code>.py</code> file containing Python code (functions, classes, variables). Any Python file can be imported as a module.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Which statement imports only the sqrt function from the math module?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> import math.sqrt</li><li><span class="mcq-option-label">B.</span> from math import sqrt</li><li><span class="mcq-option-label">C.</span> import sqrt from math</li><li><span class="mcq-option-label">D.</span> using math import sqrt</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>from math import sqrt</code> imports only <code>sqrt</code> into your namespace. Option A tries to import a sub-module (not valid for functions). Options C and D are not valid Python syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does import random as rnd do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a copy of the random module named rnd</li><li><span class="mcq-option-label">B.</span> Imports the random module and creates an alias rnd</li><li><span class="mcq-option-label">C.</span> Renames the random module permanently</li><li><span class="mcq-option-label">D.</span> Imports only the rnd function from random</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>as</code> keyword creates an alias. <code>rnd</code> is just another name for the same module object. The module is not copied or renamed -- you simply refer to it using a shorter name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does math.ceil(3.1) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 3</li><li><span class="mcq-option-label">B.</span> 4</li><li><span class="mcq-option-label">C.</span> 3.0</li><li><span class="mcq-option-label">D.</span> 3.1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>math.ceil()</code> returns the smallest integer greater than or equal to the argument. Since 3.1 is between 3 and 4, ceil returns 4.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which function from the random module picks a random element from a list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> random.pick()</li><li><span class="mcq-option-label">B.</span> random.select()</li><li><span class="mcq-option-label">C.</span> random.choice()</li><li><span class="mcq-option-label">D.</span> random.get()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>random.choice(sequence)</code> returns a randomly selected element from a non-empty sequence. The other function names do not exist in the random module.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does the __name__ variable equal when a Python file is run directly?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The filename</li><li><span class="mcq-option-label">B.</span> &quot;__main__&quot;</li><li><span class="mcq-option-label">C.</span> &quot;module&quot;</li><li><span class="mcq-option-label">D.</span> None</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> When a Python file is executed directly (not imported), <code>__name__</code> is set to <code>"__main__"</code>. When the file is imported as a module, <code>__name__</code> is set to the module name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the purpose of __init__.py in a directory?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It initializes all variables to zero</li><li><span class="mcq-option-label">B.</span> It marks the directory as a Python package</li><li><span class="mcq-option-label">C.</span> It runs before every function call</li><li><span class="mcq-option-label">D.</span> It is required for every Python file</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>__init__.py</code> file tells Python that the directory should be treated as a package (a collection of modules). It can be empty or contain initialization code and exports.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does pip install requests do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Imports the requests module</li><li><span class="mcq-option-label">B.</span> Downloads and installs the requests package from PyPI</li><li><span class="mcq-option-label">C.</span> Creates a file called requests.py</li><li><span class="mcq-option-label">D.</span> Enables internet access in Python</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>pip install</code> downloads a package from the Python Package Index (PyPI) and installs it on your system. After installation, you can use <code>import requests</code> in your code.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does json.dumps() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Reads JSON from a file</li><li><span class="mcq-option-label">B.</span> Converts a JSON string to a Python dict</li><li><span class="mcq-option-label">C.</span> Converts a Python object to a JSON string</li><li><span class="mcq-option-label">D.</span> Deletes a JSON file</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>json.dumps()</code> (dump string) converts a Python object (dict, list, etc.) to a JSON-formatted string. Option B describes <code>json.loads()</code>. Option A describes <code>json.load()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which command saves all installed package names and versions to a file?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> pip list &gt; packages.txt</li><li><span class="mcq-option-label">B.</span> pip save requirements.txt</li><li><span class="mcq-option-label">C.</span> pip freeze &gt; requirements.txt</li><li><span class="mcq-option-label">D.</span> pip export requirements.txt</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>pip freeze</code> outputs installed packages in a format suitable for <code>requirements.txt</code>. The <code>></code> redirects the output to a file. <code>pip list</code> shows packages in a human-readable table format, not the requirements format.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">In which order does Python search for modules?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Standard library, current directory, site-packages</li><li><span class="mcq-option-label">B.</span> Current directory, PYTHONPATH, standard library, site-packages</li><li><span class="mcq-option-label">C.</span> site-packages, current directory, standard library</li><li><span class="mcq-option-label">D.</span> PYTHONPATH, standard library, current directory</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python searches: (1) the directory containing the running script, (2) directories in PYTHONPATH, (3) standard library directories, (4) site-packages (where pip installs). This is why naming a file after a standard library module causes shadowing.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What does random.shuffle(my_list) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A new shuffled list</li><li><span class="mcq-option-label">B.</span> The original list, shuffled</li><li><span class="mcq-option-label">C.</span> None (it shuffles in place)</li><li><span class="mcq-option-label">D.</span> A random element from the list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>random.shuffle()</code> modifies the list in place and returns <code>None</code>. This is unlike <code>random.sample()</code>, which returns a new list. A common mistake is writing <code>x = random.shuffle(my_list)</code>, which sets x to None.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the difference between a module and a package?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> There is no difference</li><li><span class="mcq-option-label">B.</span> A module is a .py file; a package is a directory with __init__.py containing modules</li><li><span class="mcq-option-label">C.</span> A package is a .py file; a module is a directory</li><li><span class="mcq-option-label">D.</span> Modules are built-in; packages are third-party</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> A module is a single <code>.py</code> file. A package is a directory that contains an <code>__init__.py</code> file and one or more modules. Packages can also contain sub-packages (nested directories with their own <code>__init__.py</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What happens when you import a module that has already been imported?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The module is re-executed from scratch</li><li><span class="mcq-option-label">B.</span> Python uses the cached version from sys.modules</li><li><span class="mcq-option-label">C.</span> An ImportError is raised</li><li><span class="mcq-option-label">D.</span> The previous import is overwritten</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python caches imported modules in <code>sys.modules</code>. On subsequent imports, Python returns the cached module object without re-executing the file. This is why module-level code runs only once, even if the module is imported from multiple files.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is a relative import in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Importing a module by its full path name</li><li><span class="mcq-option-label">B.</span> Using dot notation to import from the current or parent package</li><li><span class="mcq-option-label">C.</span> Importing a module that is related to the current one</li><li><span class="mcq-option-label">D.</span> Importing a module conditionally</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Relative imports use dots: <code>from .utils import helper</code> (current package) or <code>from ..parent import something</code> (parent package). They only work inside packages. Absolute imports (full path from project root) are generally recommended for clarity.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Why is from module import * considered bad practice?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is slower than regular import</li><li><span class="mcq-option-label">B.</span> It only works with built-in modules</li><li><span class="mcq-option-label">C.</span> It pollutes the namespace and can cause name conflicts</li><li><span class="mcq-option-label">D.</span> It imports private functions that should not be used</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: C</strong><br><strong>C is correct.</strong> Wildcard imports dump all public names from a module into your namespace. This makes it unclear where names come from, and if two modules define the same name, one silently overwrites the other. This leads to subtle, hard-to-find bugs.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does dir() return when called without arguments?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> All built-in function names</li><li><span class="mcq-option-label">B.</span> All names in the current local scope</li><li><span class="mcq-option-label">C.</span> All installed module names</li><li><span class="mcq-option-label">D.</span> The current directory&#39;s files</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>dir()</code> without arguments returns a list of names defined in the current local scope, including imported modules, variables, functions, and classes. <code>dir(module)</code> with an argument returns names defined in that module.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What converts a Python None value to when using json.dumps()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> &quot;None&quot;</li><li><span class="mcq-option-label">B.</span> null</li><li><span class="mcq-option-label">C.</span> 0</li><li><span class="mcq-option-label">D.</span> false</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python <code>None</code> becomes JSON <code>null</code>. Other conversions: Python <code>True</code>/<code>False</code> become JSON <code>true</code>/<code>false</code>. Python tuples become JSON arrays. Python dicts become JSON objects.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Module Explorer</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function explore_module(module) that takes an imported module and returns a dictionary with three keys: 'name' (the module name), 'count' (number of public names), and 'functions' (list of public names that are callable). Test it with the math module.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Module: math
+Public names: 45
+First 5 callable: [&#39;acos&#39;, &#39;acosh&#39;, &#39;asin&#39;, &#39;asinh&#39;, &#39;atan&#39;]</div>
+                </div><div class="challenge-constraints">Use dir() to get names. Filter names starting with _ as non-public. Use callable() to check if a name refers to a function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">import math
+
+def explore_module(module):
+    public_names = [n for n in dir(module) if not n.startswith(&#39;_&#39;)]
+    functions = [n for n in public_names if callable(getattr(module, n))]
+    return {
+        &#39;name&#39;: module.__name__,
+        &#39;count&#39;: len(public_names),
+        &#39;functions&#39;: functions
+    }
+
+result = explore_module(math)
+print(f&quot;Module: {result[&#39;name&#39;]}&quot;)
+print(f&quot;Public names: {result[&#39;count&#39;]}&quot;)
+print(f&quot;First 5 callable: {result[&#39;functions&#39;][:5]}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: JSON Config Manager</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write two functions: save_config(filename, config_dict) that saves a dictionary to a JSON file with 2-space indentation, and load_config(filename, defaults) that loads a JSON file and merges it with a defaults dictionary (defaults are used for any missing keys).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Saved config to settings.json
+Loaded: {&#39;theme&#39;: &#39;dark&#39;, &#39;font_size&#39;: 14, &#39;language&#39;: &#39;en&#39;, &#39;auto_save&#39;: True}</div>
+                </div><div class="challenge-constraints">Use json.dump and json.load. Handle FileNotFoundError in load_config.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">import json
+
+def save_config(filename, config_dict):
+    with open(filename, &#39;w&#39;) as f:
+        json.dump(config_dict, f, indent=2)
+    print(f&quot;Saved config to {filename}&quot;)
+
+def load_config(filename, defaults=None):
+    if defaults is None:
+        defaults = {}
+    try:
+        with open(filename, &#39;r&#39;) as f:
+            config = json.load(f)
+    except FileNotFoundError:
+        config = {}
+    merged = {**defaults, **config}
+    return merged
+
+defaults = {&#39;theme&#39;: &#39;light&#39;, &#39;font_size&#39;: 12, &#39;language&#39;: &#39;en&#39;, &#39;auto_save&#39;: True}
+user_config = {&#39;theme&#39;: &#39;dark&#39;, &#39;font_size&#39;: 14}
+
+save_config(&#39;settings.json&#39;, user_config)
+result = load_config(&#39;settings.json&#39;, defaults)
+print(f&quot;Loaded: {result}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Random Password Generator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function generate_password(length, include_digits=True, include_symbols=True) using the random module. The password must contain at least one lowercase letter, one uppercase letter, and (if enabled) one digit and one symbol. Shuffle the final result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Password (12 chars): kA3$mN7xR!pQ
+Password (8, no symbols): aB3nK8mR
+Password (6, letters only): kRmNaB</div>
+                </div><div class="challenge-constraints">Use random.choice for character selection and random.shuffle for mixing. Ensure minimum character type requirements are met.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">import random
+import string
+
+def generate_password(length=12, include_digits=True, include_symbols=True):
+    if length &lt; 4:
+        length = 4
+    
+    password = []
+    password.append(random.choice(string.ascii_lowercase))
+    password.append(random.choice(string.ascii_uppercase))
+    
+    pool = string.ascii_letters
+    if include_digits:
+        password.append(random.choice(string.digits))
+        pool += string.digits
+    if include_symbols:
+        password.append(random.choice(&#39;!@#$%&amp;*&#39;))
+        pool += &#39;!@#$%&amp;*&#39;
+    
+    remaining = length - len(password)
+    for _ in range(remaining):
+        password.append(random.choice(pool))
+    
+    random.shuffle(password)
+    return &#39;&#39;.join(password)
+
+random.seed(42)
+print(f&quot;Password (12 chars): {generate_password(12)}&quot;)
+print(f&quot;Password (8, no symbols): {generate_password(8, include_symbols=False)}&quot;)
+print(f&quot;Password (6, letters only): {generate_password(6, include_digits=False, include_symbols=False)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Date Calculator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a class DateCalculator with methods: days_between(date_str1, date_str2) that returns days between two dates in 'YYYY-MM-DD' format, add_days(date_str, days) that returns a new date string, and day_of_week(date_str) that returns the weekday name. Handle invalid date formats with a ValueError.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Days between 2026-01-01 and 2026-04-06: 95
+Add 30 days to 2026-04-06: 2026-05-06
+Day of week for 2026-04-06: Monday</div>
+                </div><div class="challenge-constraints">Use datetime.strptime for parsing and strftime for formatting. Handle ValueError for bad date strings.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">from datetime import datetime, timedelta
+
+class DateCalculator:
+    DATE_FORMAT = &#39;%Y-%m-%d&#39;
+    
+    def _parse(self, date_str):
+        try:
+            return datetime.strptime(date_str, self.DATE_FORMAT)
+        except ValueError:
+            raise ValueError(f&quot;Invalid date format: {date_str}. Expected YYYY-MM-DD&quot;)
+    
+    def days_between(self, date_str1, date_str2):
+        d1 = self._parse(date_str1)
+        d2 = self._parse(date_str2)
+        return abs((d2 - d1).days)
+    
+    def add_days(self, date_str, days):
+        d = self._parse(date_str)
+        new_date = d + timedelta(days=days)
+        return new_date.strftime(self.DATE_FORMAT)
+    
+    def day_of_week(self, date_str):
+        d = self._parse(date_str)
+        return d.strftime(&#39;%A&#39;)
+
+calc = DateCalculator()
+print(f&quot;Days between 2026-01-01 and 2026-04-06: {calc.days_between(&#39;2026-01-01&#39;, &#39;2026-04-06&#39;)}&quot;)
+print(f&quot;Add 30 days to 2026-04-06: {calc.add_days(&#39;2026-04-06&#39;, 30)}&quot;)
+print(f&quot;Day of week for 2026-04-06: {calc.day_of_week(&#39;2026-04-06&#39;)}&quot;)
+
+try:
+    calc.days_between(&#39;2026-13-01&#39;, &#39;2026-01-01&#39;)
+except ValueError as e:
+    print(f&quot;Error: {e}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: File Organizer Simulator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function organize_files(file_list) that takes a list of filenames and returns a dictionary categorizing them by extension. Use os.path.splitext to extract extensions. Categories: 'images' (.jpg, .png, .gif), 'documents' (.pdf, .docx, .txt), 'code' (.py, .js, .html), 'other' (everything else). Also return a count summary.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">images: [&#39;photo.jpg&#39;, &#39;logo.png&#39;]
+documents: [&#39;report.pdf&#39;, &#39;notes.txt&#39;]
+code: [&#39;main.py&#39;, &#39;index.html&#39;]
+other: [&#39;data.csv&#39;]
+Summary: images=2, documents=2, code=2, other=1</div>
+                </div><div class="challenge-constraints">Use os.path.splitext. Handle files with no extension. Case-insensitive extension matching.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import os.path
+
+def organize_files(file_list):
+    categories = {
+        &#39;images&#39;: {&#39;.jpg&#39;, &#39;.jpeg&#39;, &#39;.png&#39;, &#39;.gif&#39;, &#39;.bmp&#39;},
+        &#39;documents&#39;: {&#39;.pdf&#39;, &#39;.docx&#39;, &#39;.doc&#39;, &#39;.txt&#39;, &#39;.xlsx&#39;},
+        &#39;code&#39;: {&#39;.py&#39;, &#39;.js&#39;, &#39;.html&#39;, &#39;.css&#39;, &#39;.java&#39;, &#39;.cpp&#39;}
+    }
+    
+    result = {&#39;images&#39;: [], &#39;documents&#39;: [], &#39;code&#39;: [], &#39;other&#39;: []}
+    
+    for filename in file_list:
+        _, ext = os.path.splitext(filename)
+        ext = ext.lower()
+        
+        placed = False
+        for category, extensions in categories.items():
+            if ext in extensions:
+                result[category].append(filename)
+                placed = True
+                break
+        
+        if not placed:
+            result[&#39;other&#39;].append(filename)
+    
+    return result
+
+files = [&#39;photo.jpg&#39;, &#39;main.py&#39;, &#39;report.pdf&#39;, &#39;logo.png&#39;, &#39;notes.txt&#39;, &#39;index.html&#39;, &#39;data.csv&#39;]
+organized = organize_files(files)
+
+for category, file_list in organized.items():
+    if file_list:
+        print(f&quot;{category}: {file_list}&quot;)
+
+summary = &#39;, &#39;.join(f&quot;{k}={len(v)}&quot; for k, v in organized.items())
+print(f&quot;Summary: {summary}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Statistics Module</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a module-like structure (using a class to simulate) called Statistics with methods: mean(data), median(data), mode(data), std_dev(data), and describe(data) which returns a summary dict. Use only the math module (do not use the statistics module). Include a __name__ guard to run tests.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Mean: 5.5
+Median: 5.5
+Mode: 3
+Std Dev: 2.87
+Summary: {&#39;count&#39;: 10, &#39;mean&#39;: 5.5, &#39;median&#39;: 5.5, &#39;min&#39;: 1, &#39;max&#39;: 10, &#39;std_dev&#39;: 2.87}</div>
+                </div><div class="challenge-constraints">Use math.sqrt for standard deviation. Handle edge cases (empty list, single element). Mode should return the most frequent value.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">import math
+
+class Statistics:
+    @staticmethod
+    def mean(data):
+        if not data:
+            return 0
+        return sum(data) / len(data)
+    
+    @staticmethod
+    def median(data):
+        if not data:
+            return 0
+        sorted_data = sorted(data)
+        n = len(sorted_data)
+        mid = n // 2
+        if n % 2 == 0:
+            return (sorted_data[mid - 1] + sorted_data[mid]) / 2
+        return sorted_data[mid]
+    
+    @staticmethod
+    def mode(data):
+        if not data:
+            return None
+        freq = {}
+        for x in data:
+            freq[x] = freq.get(x, 0) + 1
+        return max(freq, key=freq.get)
+    
+    @staticmethod
+    def std_dev(data):
+        if len(data) &lt; 2:
+            return 0
+        avg = sum(data) / len(data)
+        variance = sum((x - avg) ** 2 for x in data) / len(data)
+        return round(math.sqrt(variance), 2)
+    
+    @staticmethod
+    def describe(data):
+        stats = Statistics
+        return {
+            &#39;count&#39;: len(data),
+            &#39;mean&#39;: stats.mean(data),
+            &#39;median&#39;: stats.median(data),
+            &#39;min&#39;: min(data),
+            &#39;max&#39;: max(data),
+            &#39;std_dev&#39;: stats.std_dev(data)
+        }
+
+if __name__ == &quot;__main__&quot;:
+    data = [1, 2, 3, 3, 4, 5, 6, 7, 8, 10]
+    stats = Statistics
+    print(f&quot;Mean: {stats.mean(data)}&quot;)
+    print(f&quot;Median: {stats.median(data)}&quot;)
+    print(f&quot;Mode: {stats.mode(data)}&quot;)
+    print(f&quot;Std Dev: {stats.std_dev(data)}&quot;)
+    print(f&quot;Summary: {stats.describe(data)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Package Structure Validator</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function validate_package(structure) that takes a nested dictionary representing a directory structure and checks if it is a valid Python package. A valid package must have __init__.py in each directory that is treated as a package. Return a list of issues found (missing __init__.py, empty packages, naming conflicts with standard library).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Issues found:
+- Missing __init__.py in &#39;mypackage/utils/&#39;
+- Package name &#39;random&#39; conflicts with standard library
+- Empty package &#39;mypackage/empty/&#39;</div>
+                </div><div class="challenge-constraints">Use a recursive approach. Check names against a list of common standard library modules.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">import sys
+
+def validate_package(structure, path=&quot;&quot;, stdlib_modules=None):
+    if stdlib_modules is None:
+        stdlib_modules = {&#39;os&#39;, &#39;sys&#39;, &#39;math&#39;, &#39;random&#39;, &#39;json&#39;, &#39;datetime&#39;,
+                         &#39;collections&#39;, &#39;itertools&#39;, &#39;functools&#39;, &#39;string&#39;,
+                         &#39;io&#39;, &#39;time&#39;, &#39;re&#39;, &#39;pathlib&#39;, &#39;typing&#39;, &#39;abc&#39;}
+    
+    issues = []
+    
+    for name, contents in structure.items():
+        current_path = f&quot;{path}{name}/&quot; if path else f&quot;{name}/&quot;
+        
+        if isinstance(contents, dict):
+            if name in stdlib_modules:
+                issues.append(f&quot;Package name &#39;{name}&#39; conflicts with standard library&quot;)
+            
+            if &#39;__init__.py&#39; not in contents:
+                issues.append(f&quot;Missing __init__.py in &#39;{current_path}&#39;&quot;)
+            
+            sub_items = {k: v for k, v in contents.items() if k != &#39;__init__.py&#39;}
+            if not sub_items:
+                issues.append(f&quot;Empty package &#39;{current_path}&#39;&quot;)
+            
+            sub_dirs = {k: v for k, v in contents.items() if isinstance(v, dict)}
+            for sub_name, sub_contents in sub_dirs.items():
+                issues.extend(validate_package(
+                    {sub_name: sub_contents}, current_path, stdlib_modules
+                ))
+    
+    return issues
+
+package_structure = {
+    &#39;mypackage&#39;: {
+        &#39;__init__.py&#39;: None,
+        &#39;core.py&#39;: None,
+        &#39;utils&#39;: {
+            &#39;helpers.py&#39;: None
+        },
+        &#39;random&#39;: {
+            &#39;__init__.py&#39;: None,
+            &#39;generator.py&#39;: None
+        },
+        &#39;empty&#39;: {
+            &#39;__init__.py&#39;: None
+        }
+    }
+}
+
+issues = validate_package(package_structure)
+if issues:
+    print(&quot;Issues found:&quot;)
+    for issue in issues:
+        print(f&quot;- {issue}&quot;)
+else:
+    print(&quot;Package structure is valid!&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Module Dependency Analyzer</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function analyze_imports(code_string) that parses Python code (as a string) and extracts all import statements. Return a dictionary with 'standard' (standard library), 'third_party' (known third-party), and 'local' (assumed local) module names. Also detect potential circular import risks by finding mutual imports in a dict of module_name: code_string pairs.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">standard: [&#39;math&#39;, &#39;os&#39;, &#39;json&#39;]
+third_party: [&#39;requests&#39;, &#39;numpy&#39;]
+local: [&#39;my_utils&#39;, &#39;config&#39;]
+Circular risk: module_a &lt;-&gt; module_b</div>
+                </div><div class="challenge-constraints">Parse import and from...import statements using string operations. Categorize against a known list of standard library modules.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">def analyze_imports(code_string):
+    stdlib = {&#39;os&#39;, &#39;sys&#39;, &#39;math&#39;, &#39;random&#39;, &#39;json&#39;, &#39;datetime&#39;, &#39;collections&#39;,
+              &#39;itertools&#39;, &#39;functools&#39;, &#39;string&#39;, &#39;io&#39;, &#39;time&#39;, &#39;re&#39;, &#39;pathlib&#39;,
+              &#39;typing&#39;, &#39;abc&#39;, &#39;csv&#39;, &#39;hashlib&#39;, &#39;logging&#39;, &#39;unittest&#39;, &#39;copy&#39;,
+              &#39;pprint&#39;, &#39;textwrap&#39;, &#39;enum&#39;, &#39;dataclasses&#39;, &#39;contextlib&#39;}
+    third_party = {&#39;requests&#39;, &#39;numpy&#39;, &#39;pandas&#39;, &#39;flask&#39;, &#39;django&#39;, &#39;pytest&#39;,
+                   &#39;scipy&#39;, &#39;matplotlib&#39;, &#39;sqlalchemy&#39;, &#39;pillow&#39;, &#39;beautifulsoup4&#39;}
+    
+    imports = {&#39;standard&#39;: [], &#39;third_party&#39;: [], &#39;local&#39;: []}
+    
+    for line in code_string.strip().split(&#39;\n&#39;):
+        line = line.strip()
+        module = None
+        
+        if line.startswith(&#39;import &#39;):
+            parts = line.replace(&#39;import &#39;, &#39;&#39;).split(&#39;,&#39;)
+            for part in parts:
+                module = part.strip().split(&#39; as &#39;)[0].split(&#39;.&#39;)[0]
+                if module in stdlib:
+                    imports[&#39;standard&#39;].append(module)
+                elif module in third_party:
+                    imports[&#39;third_party&#39;].append(module)
+                else:
+                    imports[&#39;local&#39;].append(module)
+        elif line.startswith(&#39;from &#39;):
+            module = line.split(&#39; &#39;)[1].split(&#39;.&#39;)[0]
+            if module in stdlib:
+                imports[&#39;standard&#39;].append(module)
+            elif module in third_party:
+                imports[&#39;third_party&#39;].append(module)
+            elif not module.startswith(&#39;.&#39;):
+                imports[&#39;local&#39;].append(module)
+    
+    for key in imports:
+        imports[key] = sorted(set(imports[key]))
+    
+    return imports
+
+def find_circular_risks(modules_code):
+    module_imports = {}
+    for name, code in modules_code.items():
+        result = analyze_imports(code)
+        module_imports[name] = result[&#39;local&#39;]
+    
+    risks = []
+    checked = set()
+    for mod_a, deps_a in module_imports.items():
+        for mod_b, deps_b in module_imports.items():
+            if mod_a != mod_b and (mod_b, mod_a) not in checked:
+                if mod_b in deps_a and mod_a in deps_b:
+                    risks.append((mod_a, mod_b))
+                    checked.add((mod_a, mod_b))
+    return risks
+
+code = &quot;&quot;&quot;import math
+import os
+import json
+import requests
+import numpy as np
+from datetime import datetime
+from my_utils import helper
+import config&quot;&quot;&quot;
+
+result = analyze_imports(code)
+for category, modules in result.items():
+    print(f&quot;{category}: {modules}&quot;)
+
+modules = {
+    &#39;module_a&#39;: &#39;import module_b\nimport math&#39;,
+    &#39;module_b&#39;: &#39;import module_a\nimport os&#39;,
+    &#39;module_c&#39;: &#39;import module_a&#39;
+}
+
+risks = find_circular_risks(modules)
+for a, b in risks:
+    print(f&quot;Circular risk: {a} &lt;-&gt; {b}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/inheritance-and-polymorphism/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Inheritance and Polymorphism</span>
+        </a>
+            <a href="/resources/python/list-comprehensions-and-generators/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Comprehensions and Generators</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/modules-and-packages" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,745 @@
+{
+  "title": "Comprehensions and Generators",
+  "slug": "list-comprehensions-and-generators",
+  "language": "python",
+  "chapter": 24,
+  "difficulty": "Advanced",
+  "readingTime": "50 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 60,
+  "seo": {
+    "title": "Comprehensions and Generators in Python - List, Dict, Set, yield | Modern Age Coders",
+    "description": "Learn Python comprehensions and generators including list comprehension syntax, dict and set comprehensions, generator expressions, yield keyword, lazy evaluation, and practical patterns for efficient Python code. Includes 60+ practice questions with output prediction and coding challenges.",
+    "keywords": "python list comprehension, generator python, yield keyword python, python comprehension tutorial, python dict comprehension, python set comprehension, python generator expression, python lazy evaluation, python yield vs return"
+  },
+  "content": {
+    "what": "<h2>What Are Comprehensions and Generators?</h2><p>A <strong>comprehension</strong> is a concise, one-line syntax for creating lists, dictionaries, or sets from existing iterables. Instead of writing a multi-line for loop to build a new list, you express the entire transformation in a single expression.</p><pre><code># Traditional loop approach\nsquares = []\nfor x in range(5):\n    squares.append(x ** 2)\nprint(squares)  # [0, 1, 4, 9, 16]\n\n# List comprehension -- same result, one line\nsquares = [x ** 2 for x in range(5)]\nprint(squares)  # [0, 1, 4, 9, 16]</code></pre><p>A <strong>generator</strong> is a special type of iterator that produces values <strong>one at a time</strong>, on demand, instead of creating them all at once in memory. Generators are defined either with a <strong>generator expression</strong> (using parentheses instead of brackets) or with a <strong>generator function</strong> (using the <code>yield</code> keyword).</p><pre><code># Generator expression -- lazy, produces values on demand\nsquares_gen = (x ** 2 for x in range(5))\nprint(next(squares_gen))  # 0\nprint(next(squares_gen))  # 1\n# Remaining values are not yet computed</code></pre><p>The key difference: a list comprehension builds the entire list in memory immediately. A generator produces values lazily, one at a time, which is far more memory-efficient for large data sets.</p>",
+    "why": "<h2>Why Are Comprehensions and Generators Important?</h2><h3>1. Readability and Conciseness</h3><p>Comprehensions express common patterns (transform, filter, combine) in a single readable line. Instead of four lines to build a filtered list (create list, loop, check condition, append), you write one line. Experienced Python developers read comprehensions fluently, and they are considered the Pythonic way to create collections.</p><h3>2. Performance</h3><p>List comprehensions are faster than equivalent for-loop-with-append patterns because they are optimized at the bytecode level. Python knows in advance that you are building a list, so it can allocate memory more efficiently.</p><h3>3. Memory Efficiency with Generators</h3><p>When Aarav needs to process a file with 10 million lines, loading all lines into a list would consume gigabytes of memory. A generator processes one line at a time, using constant memory regardless of file size. This is <strong>lazy evaluation</strong> -- computing values only when they are actually needed.</p><h3>4. Composability</h3><p>Generators can be chained together to create data processing pipelines. Each generator in the chain processes one element at a time and passes it to the next, like an assembly line. This pattern is powerful for handling large data streams without loading everything into memory.</p><h3>5. Foundation for Advanced Python</h3><p>Understanding comprehensions and generators is essential for advanced Python. Libraries like pandas, SQLAlchemy, and asyncio use these patterns extensively. Generator-based coroutines were the foundation for Python's async/await syntax.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Basic List Comprehension</h3><p>The syntax is <code>[expression for variable in iterable]</code>:</p><pre><code># Square of each number\nsquares = [x ** 2 for x in range(6)]\nprint(squares)  # [0, 1, 4, 9, 16, 25]\n\n# Length of each word\nwords = [\"Python\", \"is\", \"fun\"]\nlengths = [len(w) for w in words]\nprint(lengths)  # [6, 2, 3]\n\n# Convert to uppercase\nnames = [\"aarav\", \"priya\", \"rohan\"]\nupper_names = [name.upper() for name in names]\nprint(upper_names)  # ['AARAV', 'PRIYA', 'ROHAN']\n\n# Call a function on each element\ndef double(n):\n    return n * 2\n\nresult = [double(x) for x in [1, 2, 3, 4]]\nprint(result)  # [2, 4, 6, 8]</code></pre><h3>2. Comprehension with Condition (Filtering)</h3><p>Add an <code>if</code> clause to filter elements:</p><pre><code># Even numbers only\nevens = [x for x in range(10) if x % 2 == 0]\nprint(evens)  # [0, 2, 4, 6, 8]\n\n# Words longer than 3 characters\nwords = [\"hi\", \"hello\", \"hey\", \"good\", \"morning\"]\nlong_words = [w for w in words if len(w) > 3]\nprint(long_words)  # ['hello', 'good', 'morning']\n\n# Positive numbers only\nnumbers = [-3, -1, 0, 2, 5, -4, 8]\npositives = [n for n in numbers if n > 0]\nprint(positives)  # [2, 5, 8]\n\n# Strings that are digits\nitems = [\"42\", \"hello\", \"7\", \"world\", \"100\"]\nnumeric = [s for s in items if s.isdigit()]\nprint(numeric)  # ['42', '7', '100']</code></pre><h3>3. Comprehension with if-else (Transformation)</h3><p>When you want to transform every element differently based on a condition, the if-else goes <strong>before</strong> the for:</p><pre><code># Replace negatives with 0\nnumbers = [3, -1, 4, -2, 5]\ncleaned = [n if n >= 0 else 0 for n in numbers]\nprint(cleaned)  # [3, 0, 4, 0, 5]\n\n# Label even/odd\nlabels = [\"even\" if x % 2 == 0 else \"odd\" for x in range(5)]\nprint(labels)  # ['even', 'odd', 'even', 'odd', 'even']\n\n# Pass/fail based on score\nscores = [85, 42, 91, 38, 76]\nresults = [\"pass\" if s >= 50 else \"fail\" for s in scores]\nprint(results)  # ['pass', 'fail', 'pass', 'fail', 'pass']</code></pre><p>Notice the difference: <code>[x for x in items if condition]</code> filters (excludes some elements). <code>[a if condition else b for x in items]</code> transforms every element.</p><h3>4. Nested Comprehensions</h3><p>You can nest for loops inside comprehensions. The order reads left to right, same as nested for loops:</p><pre><code># Flatten a 2D list\nmatrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nflat = [num for row in matrix for num in row]\nprint(flat)  # [1, 2, 3, 4, 5, 6, 7, 8, 9]\n\n# Equivalent nested loop:\n# for row in matrix:\n#     for num in row:\n#         flat.append(num)\n\n# Create a 2D list (matrix)\nmatrix = [[i * 3 + j + 1 for j in range(3)] for i in range(3)]\nprint(matrix)  # [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n\n# Transpose a matrix (swap rows and columns)\noriginal = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\ntransposed = [[row[i] for row in original] for i in range(3)]\nprint(transposed)  # [[1, 4, 7], [2, 5, 8], [3, 6, 9]]\n\n# All pairs from two lists\ncolors = [\"red\", \"blue\"]\nsizes = [\"S\", \"M\", \"L\"]\npairs = [(c, s) for c in colors for s in sizes]\nprint(pairs)\n# [('red', 'S'), ('red', 'M'), ('red', 'L'), ('blue', 'S'), ('blue', 'M'), ('blue', 'L')]</code></pre><h3>5. Dictionary Comprehension</h3><p>Use <code>{key: value for ...}</code> to create dictionaries:</p><pre><code># Square mapping\nsquares = {x: x**2 for x in range(6)}\nprint(squares)  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25}\n\n# Word lengths\nwords = [\"python\", \"java\", \"c\"]\nlength_map = {w: len(w) for w in words}\nprint(length_map)  # {'python': 6, 'java': 4, 'c': 1}\n\n# Swap keys and values\noriginal = {\"a\": 1, \"b\": 2, \"c\": 3}\nswapped = {v: k for k, v in original.items()}\nprint(swapped)  # {1: 'a', 2: 'b', 3: 'c'}\n\n# Filter a dictionary\nscores = {\"Aarav\": 85, \"Priya\": 42, \"Rohan\": 91, \"Meera\": 38}\npassed = {name: score for name, score in scores.items() if score >= 50}\nprint(passed)  # {'Aarav': 85, 'Rohan': 91}</code></pre><h3>6. Set Comprehension</h3><p>Use <code>{expression for ...}</code> (no colon) to create sets:</p><pre><code># Unique first letters\nnames = [\"Aarav\", \"Ananya\", \"Priya\", \"Pranav\", \"Rohan\"]\nfirst_letters = {name[0] for name in names}\nprint(first_letters)  # {'A', 'P', 'R'}\n\n# Unique remainders\nremainders = {x % 3 for x in range(10)}\nprint(remainders)  # {0, 1, 2}\n\n# Unique word lengths\nsentence = \"the quick brown fox jumps over the lazy dog\"\nlengths = {len(word) for word in sentence.split()}\nprint(sorted(lengths))  # [3, 4, 5]</code></pre><h3>7. Generator Expressions</h3><p>Replace the brackets <code>[]</code> with parentheses <code>()</code> to create a generator instead of a list:</p><pre><code># List comprehension -- creates entire list in memory\nsquares_list = [x ** 2 for x in range(1000000)]\n\n# Generator expression -- creates values on demand\nsquares_gen = (x ** 2 for x in range(1000000))\n\nprint(type(squares_list))  # <class 'list'>\nprint(type(squares_gen))   # <class 'generator'>\n\n# Generator is much more memory-efficient\nimport sys\nprint(sys.getsizeof(squares_list))  # ~8 MB\nprint(sys.getsizeof(squares_gen))   # ~200 bytes</code></pre><p>Generator expressions are ideal when you only need to iterate once or when the sequence is very large.</p><h3>8. Generator Functions (yield)</h3><p>A <strong>generator function</strong> uses <code>yield</code> instead of <code>return</code>. Each time <code>yield</code> is encountered, the function pauses and produces a value. When <code>next()</code> is called again, the function resumes from where it paused:</p><pre><code>def count_up_to(n):\n    i = 1\n    while i <= n:\n        yield i\n        i += 1\n\ngen = count_up_to(5)\nprint(next(gen))  # 1\nprint(next(gen))  # 2\nprint(next(gen))  # 3\n\n# Iterate over remaining values\nfor num in gen:\n    print(num, end=\" \")  # 4 5\nprint()</code></pre><h3>9. yield vs return</h3><p><code>return</code> terminates the function and sends back one value. <code>yield</code> pauses the function and sends back a value, but the function's state (local variables, position) is preserved for the next call:</p><pre><code># return: computes all values at once, stores in memory\ndef get_squares_list(n):\n    result = []\n    for i in range(n):\n        result.append(i ** 2)\n    return result  # All values created, function ends\n\n# yield: computes one value at a time, on demand\ndef get_squares_gen(n):\n    for i in range(n):\n        yield i ** 2  # Pauses here, resumes on next call\n\n# Both produce the same values, but:\nprint(list(get_squares_list(5)))  # [0, 1, 4, 9, 16]\nprint(list(get_squares_gen(5)))   # [0, 1, 4, 9, 16]</code></pre><p>The key difference is memory: <code>get_squares_list(1000000)</code> creates a list of one million numbers in memory. <code>get_squares_gen(1000000)</code> creates them one at a time.</p><h3>10. Lazy Evaluation and StopIteration</h3><p>Generators use <strong>lazy evaluation</strong> -- they compute the next value only when asked. When a generator has no more values, calling <code>next()</code> raises <code>StopIteration</code>:</p><pre><code>def three_items():\n    yield \"first\"\n    yield \"second\"\n    yield \"third\"\n\ngen = three_items()\nprint(next(gen))  # first\nprint(next(gen))  # second\nprint(next(gen))  # third\n\ntry:\n    print(next(gen))  # No more values!\nexcept StopIteration:\n    print(\"Generator exhausted\")</code></pre><p>A <code>for</code> loop handles <code>StopIteration</code> automatically -- it calls <code>next()</code> repeatedly and stops when <code>StopIteration</code> is raised. This is why generators work seamlessly with for loops.</p><h3>11. Chaining Generators</h3><p>Generators can be chained together, where each generator processes values from the previous one. This creates efficient data pipelines:</p><pre><code>def read_lines(data):\n    for line in data:\n        yield line.strip()\n\ndef filter_non_empty(lines):\n    for line in lines:\n        if line:\n            yield line\n\ndef to_uppercase(lines):\n    for line in lines:\n        yield line.upper()\n\n# Chain the generators\nraw_data = [\"  hello  \", \"\", \"  world  \", \"   \", \"  python  \"]\npipeline = to_uppercase(filter_non_empty(read_lines(raw_data)))\n\nfor line in pipeline:\n    print(line)\n# HELLO\n# WORLD\n# PYTHON</code></pre><p>Each generator processes one element at a time and passes it to the next. No intermediate lists are created.</p><h3>12. Comprehension vs map/filter</h3><p>Comprehensions are generally preferred over <code>map()</code> and <code>filter()</code> in Python because they are more readable:</p><pre><code># map equivalent\nnumbers = [1, 2, 3, 4, 5]\nmap_result = list(map(lambda x: x ** 2, numbers))\ncomp_result = [x ** 2 for x in numbers]\nprint(map_result == comp_result)  # True\n\n# filter equivalent\nfilter_result = list(filter(lambda x: x > 2, numbers))\ncomp_result = [x for x in numbers if x > 2]\nprint(filter_result == comp_result)  # True\n\n# map + filter combined\nmf_result = list(map(lambda x: x ** 2, filter(lambda x: x > 2, numbers)))\ncomp_result = [x ** 2 for x in numbers if x > 2]\nprint(mf_result == comp_result)  # True\n# The comprehension is clearly more readable</code></pre>",
+    "codeExamples": [
+      {
+        "title": "List Comprehension: Basic, Filter, and Transform",
+        "code": "# Basic: transform each element\nnumbers = [1, 2, 3, 4, 5]\nsquared = [n ** 2 for n in numbers]\nprint(f\"Squared: {squared}\")\n\n# Filter: keep only elements matching condition\nevens = [n for n in range(10) if n % 2 == 0]\nprint(f\"Evens: {evens}\")\n\n# Transform with if-else: modify every element\nscores = [85, 42, 91, 38, 76, 55]\ngrades = [\"pass\" if s >= 50 else \"fail\" for s in scores]\nprint(f\"Grades: {grades}\")\n\n# Combined: filter AND transform\neven_squares = [n ** 2 for n in range(10) if n % 2 == 0]\nprint(f\"Even squares: {even_squares}\")\n\n# String processing\nwords = [\"  hello \", \" WORLD\", \"Python  \"]\ncleaned = [w.strip().lower() for w in words]\nprint(f\"Cleaned: {cleaned}\")",
+        "language": "python",
+        "explanation": "List comprehensions replace the loop-append pattern with a single expression. The <code>if</code> after the for clause filters elements. The <code>if-else</code> before the for clause transforms every element. Both can be combined: filter first (if after for), then transform (expression before for).",
+        "output": "Squared: [1, 4, 9, 16, 25]\nEvens: [0, 2, 4, 6, 8]\nGrades: ['pass', 'fail', 'pass', 'fail', 'pass', 'pass']\nEven squares: [0, 4, 16, 36, 64]\nCleaned: ['hello', 'world', 'python']"
+      },
+      {
+        "title": "Dict and Set Comprehensions",
+        "code": "# Dict comprehension: word -> length\nfruits = [\"apple\", \"banana\", \"cherry\", \"date\"]\nfruit_lengths = {f: len(f) for f in fruits}\nprint(f\"Lengths: {fruit_lengths}\")\n\n# Dict comprehension: invert a dictionary\noriginal = {\"a\": 1, \"b\": 2, \"c\": 3}\ninverted = {v: k for k, v in original.items()}\nprint(f\"Inverted: {inverted}\")\n\n# Dict comprehension with filter\nscores = {\"Aarav\": 85, \"Priya\": 42, \"Rohan\": 91, \"Meera\": 38, \"Kavya\": 76}\ntoppers = {name: score for name, score in scores.items() if score >= 75}\nprint(f\"Toppers: {toppers}\")\n\n# Set comprehension: unique values\nnumbers = [1, 2, 2, 3, 3, 3, 4, 4, 5]\nunique_squares = {n ** 2 for n in numbers}\nprint(f\"Unique squares: {sorted(unique_squares)}\")\n\n# Set comprehension: unique first characters\nnames = [\"Aarav\", \"Ananya\", \"Priya\", \"Pranav\", \"Rohan\", \"Riya\"]\ninitials = {name[0] for name in names}\nprint(f\"Initials: {sorted(initials)}\")",
+        "language": "python",
+        "explanation": "Dict comprehensions use <code>{key: value for ...}</code>. Set comprehensions use <code>{value for ...}</code> (no colon). The syntax is identical to list comprehensions except for the brackets. Dict comprehensions are powerful for transforming, filtering, and inverting dictionaries. Set comprehensions automatically remove duplicates.",
+        "output": "Lengths: {'apple': 5, 'banana': 6, 'cherry': 6, 'date': 4}\nInverted: {1: 'a', 2: 'b', 3: 'c'}\nToppers: {'Aarav': 85, 'Rohan': 91, 'Kavya': 76}\nUnique squares: [1, 4, 9, 16, 25]\nInitials: ['A', 'P', 'R']"
+      },
+      {
+        "title": "Nested Comprehensions: Flatten and Matrix Operations",
+        "code": "# Flatten a 2D list\nmatrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nflat = [num for row in matrix for num in row]\nprint(f\"Flat: {flat}\")\n\n# Create a multiplication table\ntable = [[i * j for j in range(1, 4)] for i in range(1, 4)]\nfor row in table:\n    print(row)\n\n# Transpose a matrix\noriginal = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\ntransposed = [[row[i] for row in original] for i in range(len(original[0]))]\nprint(f\"\\nOriginal: {original}\")\nprint(f\"Transposed: {transposed}\")\n\n# All coordinate pairs in a grid\ncoords = [(x, y) for x in range(3) for y in range(3)]\nprint(f\"\\nGrid coords: {coords}\")",
+        "language": "python",
+        "explanation": "Nested comprehensions read left to right: <code>[num for row in matrix for num in row]</code> is equivalent to a nested for loop where the outer loop iterates rows and the inner loop iterates numbers. For creating 2D structures, use a comprehension inside a comprehension: <code>[[expr for j] for i]</code>. The outer comprehension creates rows, and the inner creates columns.",
+        "output": "Flat: [1, 2, 3, 4, 5, 6, 7, 8, 9]\n[1, 2, 3]\n[2, 4, 6]\n[3, 6, 9]\n\nOriginal: [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\nTransposed: [[1, 4, 7], [2, 5, 8], [3, 6, 9]]\n\nGrid coords: [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]"
+      },
+      {
+        "title": "Generator Functions with yield",
+        "code": "def fibonacci(limit):\n    a, b = 0, 1\n    while a <= limit:\n        yield a\n        a, b = b, a + b\n\n# Using next()\nfib = fibonacci(100)\nprint(f\"First: {next(fib)}\")\nprint(f\"Second: {next(fib)}\")\nprint(f\"Third: {next(fib)}\")\n\n# Using for loop for the rest\nprint(\"Remaining:\", end=\" \")\nfor num in fib:\n    print(num, end=\" \")\nprint()\n\n# Generator is now exhausted\nprint(f\"List from exhausted: {list(fib)}\")\n\n# Fresh generator\nprint(f\"\\nAll Fibonacci up to 50: {list(fibonacci(50))}\")\n\n# Infinite generator (use with caution)\ndef count_forever(start=0):\n    n = start\n    while True:\n        yield n\n        n += 1\n\ncounter = count_forever(10)\nfirst_five = [next(counter) for _ in range(5)]\nprint(f\"First 5 from infinite: {first_five}\")",
+        "language": "python",
+        "explanation": "A generator function contains <code>yield</code> instead of <code>return</code>. Each <code>yield</code> pauses the function and produces a value. <code>next()</code> resumes execution until the next yield. After a for loop or <code>list()</code> consumes all values, the generator is exhausted and produces nothing more. Creating a new generator (calling the function again) starts fresh.",
+        "output": "First: 0\nSecond: 1\nThird: 1\nRemaining: 2 3 5 8 13 21 34 55 89 \nList from exhausted: []\n\nAll Fibonacci up to 50: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\nFirst 5 from infinite: [10, 11, 12, 13, 14]"
+      },
+      {
+        "title": "Generator Expression vs List Comprehension",
+        "code": "import sys\n\n# Memory comparison\nlist_comp = [x ** 2 for x in range(10000)]\ngen_expr = (x ** 2 for x in range(10000))\n\nprint(f\"List size: {sys.getsizeof(list_comp):,} bytes\")\nprint(f\"Generator size: {sys.getsizeof(gen_expr)} bytes\")\n\n# Both produce the same values\nsmall_list = [x ** 2 for x in range(5)]\nsmall_gen = (x ** 2 for x in range(5))\n\nprint(f\"\\nList: {small_list}\")\nprint(f\"Generator: {list(small_gen)}\")\n\n# Generator in function calls (no extra parentheses needed)\nnumbers = [1, 2, 3, 4, 5]\ntotal = sum(x ** 2 for x in numbers)  # Generator passed directly to sum()\nprint(f\"\\nSum of squares: {total}\")\n\nmax_len = max(len(w) for w in [\"hello\", \"world\", \"python\"])\nprint(f\"Longest word length: {max_len}\")\n\n# Check if any/all\nhas_negative = any(x < 0 for x in [1, -2, 3])\nall_positive = all(x > 0 for x in [1, 2, 3])\nprint(f\"Has negative: {has_negative}\")\nprint(f\"All positive: {all_positive}\")",
+        "language": "python",
+        "explanation": "A list comprehension uses <code>[]</code> and builds the entire list in memory. A generator expression uses <code>()</code> and produces values lazily. For large sequences, generators save significant memory. When passing a generator to a function like <code>sum()</code>, <code>any()</code>, or <code>all()</code>, you do not need extra parentheses.",
+        "output": "List size: 87,616 bytes\nGenerator size: 200 bytes\n\nList: [0, 1, 4, 9, 16]\nGenerator: [0, 1, 4, 9, 16]\n\nSum of squares: 55\nLongest word length: 6\nHas negative: True\nAll positive: True"
+      },
+      {
+        "title": "Chaining Generators for Data Pipelines",
+        "code": "# Generator pipeline: process student data\ndef parse_records(raw_data):\n    for line in raw_data:\n        name, score = line.split(\":\")\n        yield {\"name\": name.strip(), \"score\": int(score.strip())}\n\ndef filter_passing(records):\n    for record in records:\n        if record[\"score\"] >= 50:\n            yield record\n\ndef add_grade(records):\n    for record in records:\n        score = record[\"score\"]\n        if score >= 90:\n            record[\"grade\"] = \"A\"\n        elif score >= 75:\n            record[\"grade\"] = \"B\"\n        elif score >= 50:\n            record[\"grade\"] = \"C\"\n        yield record\n\n# Raw data\ndata = [\n    \"Aarav: 85\",\n    \"Priya: 42\",\n    \"Rohan: 91\",\n    \"Meera: 38\",\n    \"Kavya: 76\",\n    \"Arjun: 55\"\n]\n\n# Chain generators into a pipeline\npipeline = add_grade(filter_passing(parse_records(data)))\n\nfor student in pipeline:\n    print(f\"{student['name']}: {student['score']} ({student['grade']})\") ",
+        "language": "python",
+        "explanation": "Three generators are chained together: <code>parse_records</code> converts raw strings to dictionaries, <code>filter_passing</code> removes failing students, and <code>add_grade</code> adds letter grades. Each function processes one record at a time and passes it along. No intermediate lists are created -- the data flows through the pipeline one item at a time.",
+        "output": "Aarav: 85 (B)\nRohan: 91 (A)\nKavya: 76 (B)\nArjun: 55 (C)"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Putting the if-else in the Wrong Position",
+        "wrongCode": "# Trying to use if-else after the for (filter position)\nnumbers = [1, 2, 3, 4, 5]\nresult = [x for x in numbers if x > 3 else 0]  # SyntaxError!",
+        "error": "SyntaxError: invalid syntax",
+        "correctCode": "# if-else (transform) goes BEFORE the for\nresult = [x if x > 3 else 0 for x in numbers]\nprint(result)  # [0, 0, 0, 4, 5]\n\n# if (filter) goes AFTER the for\nfiltered = [x for x in numbers if x > 3]\nprint(filtered)  # [4, 5]",
+        "explanation": "There are two different positions for conditions in comprehensions. Filtering (<code>if</code> after <code>for</code>) excludes elements that do not match. Transformation (<code>if-else</code> before <code>for</code>) modifies every element. You cannot combine both syntaxes by putting if-else after for."
+      },
+      {
+        "title": "Trying to Reuse an Exhausted Generator",
+        "wrongCode": "gen = (x ** 2 for x in range(5))\nfirst_pass = list(gen)   # [0, 1, 4, 9, 16]\nsecond_pass = list(gen)  # [] -- empty!\nprint(f\"First: {first_pass}\")\nprint(f\"Second: {second_pass}\")  # Surprise: empty list!",
+        "error": "No error, but second_pass is an empty list because the generator was exhausted by the first list() call.",
+        "correctCode": "# Solution 1: Create a new generator each time\ndef make_gen():\n    return (x ** 2 for x in range(5))\n\nfirst_pass = list(make_gen())\nsecond_pass = list(make_gen())\nprint(f\"First: {first_pass}\")\nprint(f\"Second: {second_pass}\")\n\n# Solution 2: Use a list if you need multiple passes\nsquares = [x ** 2 for x in range(5)]  # Store in a list\nprint(f\"Sum: {sum(squares)}, Max: {max(squares)}\")",
+        "explanation": "Generators are <strong>single-use</strong>. Once all values have been consumed (by <code>list()</code>, a for loop, or <code>next()</code>), the generator is exhausted and produces no more values. If you need to iterate multiple times, either create a new generator or use a list."
+      },
+      {
+        "title": "Using Comprehension When a Loop is Clearer",
+        "wrongCode": "# Overly complex comprehension -- hard to read\nresult = [x if x > 0 else (-x if x < -10 else 0) for x in data if isinstance(x, (int, float)) and not isinstance(x, bool)]",
+        "error": "No error, but this comprehension is too complex to understand at a glance.",
+        "correctCode": "# Use a regular loop when logic is complex\nresult = []\nfor x in data:\n    if not isinstance(x, (int, float)) or isinstance(x, bool):\n        continue\n    if x > 0:\n        result.append(x)\n    elif x < -10:\n        result.append(-x)\n    else:\n        result.append(0)",
+        "explanation": "Comprehensions are for simple transformations and filters. If the logic requires multiple conditions, nested if-else, or is hard to read on one line, use a regular for loop. Readability matters more than brevity."
+      },
+      {
+        "title": "Confusing Generator Expression with Tuple Comprehension",
+        "wrongCode": "# This does NOT create a tuple!\nresult = (x ** 2 for x in range(5))\nprint(type(result))  # <class 'generator'>, NOT tuple!\nprint(result)        # <generator object ...>, NOT (0, 1, 4, 9, 16)",
+        "error": "No error, but the result is a generator object, not a tuple.",
+        "correctCode": "# To create a tuple, use tuple() with a generator expression\nresult = tuple(x ** 2 for x in range(5))\nprint(type(result))  # <class 'tuple'>\nprint(result)        # (0, 1, 4, 9, 16)\n\n# There is no \"tuple comprehension\" syntax in Python",
+        "explanation": "Python has no tuple comprehension. Parentheses with a for expression create a <strong>generator expression</strong>, not a tuple. To create a tuple from a comprehension-like expression, wrap the generator expression with <code>tuple()</code>."
+      },
+      {
+        "title": "Modifying an Outside Variable Inside a Comprehension",
+        "wrongCode": "total = 0\nresults = [total := total + x for x in range(5)]  # Works but confusing\nprint(results)  # [0, 1, 3, 6, 10]\n# Using walrus operator for side effects in comprehensions is bad practice",
+        "error": "No error, but using the walrus operator (:=) for accumulation in a comprehension is confusing and harder to debug than a simple loop.",
+        "correctCode": "# Use a regular loop for accumulation\ntotal = 0\nrunning_totals = []\nfor x in range(5):\n    total += x\n    running_totals.append(total)\nprint(running_totals)  # [0, 1, 3, 6, 10]\n\n# Or use itertools.accumulate\nfrom itertools import accumulate\nprint(list(accumulate(range(5))))  # [0, 1, 3, 6, 10]",
+        "explanation": "Comprehensions should be pure transformations without side effects. Modifying external variables inside a comprehension makes code hard to understand and debug. If you need running totals or other stateful operations, use a regular loop or <code>itertools.accumulate</code>."
+      }
+    ],
+    "summary": [
+      "List comprehension syntax is [expression for variable in iterable]. It creates a new list by applying the expression to each element. This is the Pythonic replacement for the loop-append pattern.",
+      "Add a filter condition after the for: [x for x in items if condition]. Only elements where the condition is True are included. This replaces filter() for most use cases.",
+      "For if-else transformation (modifying every element), put the conditional BEFORE the for: [a if condition else b for x in items]. This is different from filtering -- every element is included but may be transformed differently.",
+      "Nested comprehensions read left to right: [expr for outer in iterable1 for inner in iterable2]. This is equivalent to nested for loops. Use comprehension-in-comprehension [[expr for j] for i] to create 2D structures.",
+      "Dict comprehension uses {key: value for ...} and set comprehension uses {value for ...}. Both support filtering with if clauses. Dict comprehensions are powerful for transforming and filtering dictionaries.",
+      "Generator expressions use parentheses instead of brackets: (expr for x in iterable). They produce values lazily (one at a time) and use constant memory regardless of size. Ideal for large data or single-pass iteration.",
+      "Generator functions use yield instead of return. Each yield pauses the function and produces a value. The function resumes from the pause point when next() is called again. When the function ends, StopIteration is raised.",
+      "Generators are single-use: once exhausted, they produce no more values. To iterate multiple times, create a new generator or convert to a list. A for loop handles StopIteration automatically.",
+      "Generators can be chained into pipelines where each generator processes one element at a time from the previous generator. This creates memory-efficient data processing workflows with no intermediate lists.",
+      "Prefer comprehensions over map/filter for readability. Prefer regular for loops over comprehensions when the logic is complex. Use generator expressions instead of list comprehensions when you only need to iterate once or when dealing with large data."
+    ]
+  },
+  "relatedTopics": ["modules-and-packages", "decorators-and-iterators"],
+  "practice": {
+    "totalQuestions": 60,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>result = [x * 2 for x in [1, 2, 3, 4]]\nprint(result)</code></pre>",
+        "hint": "Each element is multiplied by 2.",
+        "answer": "<code>[2, 4, 6, 8]</code>",
+        "explanation": "The list comprehension takes each element from [1, 2, 3, 4] and multiplies it by 2, producing [2, 4, 6, 8]."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>evens = [x for x in range(10) if x % 2 == 0]\nprint(evens)</code></pre>",
+        "hint": "The if clause filters elements. Only even numbers pass the condition.",
+        "answer": "<code>[0, 2, 4, 6, 8]</code>",
+        "explanation": "The comprehension iterates from 0 to 9 and keeps only those where <code>x % 2 == 0</code> (even numbers). Result: [0, 2, 4, 6, 8]."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>words = [\"hello\", \"world\"]\nupper = [w.upper() for w in words]\nprint(upper)</code></pre>",
+        "hint": "The .upper() method converts a string to uppercase.",
+        "answer": "<code>['HELLO', 'WORLD']</code>",
+        "explanation": "Each string in the list has <code>.upper()</code> called on it, converting to uppercase. Result: ['HELLO', 'WORLD']."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>result = [\"even\" if x % 2 == 0 else \"odd\" for x in range(4)]\nprint(result)</code></pre>",
+        "hint": "The if-else before 'for' transforms every element.",
+        "answer": "<code>['even', 'odd', 'even', 'odd']</code>",
+        "explanation": "For each x in range(4): 0 is even, 1 is odd, 2 is even, 3 is odd. The if-else expression before the for clause determines the value for every element."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>squares = {x: x**2 for x in range(4)}\nprint(squares)</code></pre>",
+        "hint": "Curly braces with key:value create a dictionary comprehension.",
+        "answer": "<code>{0: 0, 1: 1, 2: 4, 3: 9}</code>",
+        "explanation": "The dict comprehension creates key-value pairs where each key is x and each value is x squared. Result: {0: 0, 1: 1, 2: 4, 3: 9}."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>matrix = [[1, 2], [3, 4], [5, 6]]\nflat = [n for row in matrix for n in row]\nprint(flat)</code></pre>",
+        "hint": "Nested comprehension reads left to right: outer loop first, inner loop second.",
+        "answer": "<code>[1, 2, 3, 4, 5, 6]</code>",
+        "explanation": "The outer loop iterates over rows ([1,2], [3,4], [5,6]). The inner loop iterates over numbers in each row. All numbers are collected into a flat list."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>names = [\"Aarav\", \"Ananya\", \"Priya\", \"Arjun\"]\nresult = {name[0] for name in names}\nprint(sorted(result))</code></pre>",
+        "hint": "Curly braces without key:value create a set comprehension. Sets have unique elements.",
+        "answer": "<code>['A', 'P']</code>",
+        "explanation": "The set comprehension extracts the first character of each name: 'A', 'A', 'P', 'A'. Since sets contain unique elements, duplicates are removed. Sorted result: ['A', 'P']."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def gen():\n    yield 1\n    yield 2\n    yield 3\n\ng = gen()\nprint(next(g))\nprint(next(g))\nprint(list(g))</code></pre>",
+        "hint": "next() consumes one value. list() consumes all remaining values.",
+        "answer": "<code>1</code><br><code>2</code><br><code>[3]</code>",
+        "explanation": "First <code>next()</code> gets 1, second gets 2. <code>list(g)</code> consumes all remaining values, which is only [3]. The generator had 3 values total; 2 were consumed by next(), leaving 1 for list()."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>gen = (x ** 2 for x in range(4))\nprint(type(gen).__name__)\nprint(sum(gen))\nprint(sum(gen))</code></pre>",
+        "hint": "A generator can only be consumed once.",
+        "answer": "<code>generator</code><br><code>14</code><br><code>0</code>",
+        "explanation": "The type is 'generator'. First <code>sum(gen)</code> consumes all values: 0+1+4+9 = 14. Second <code>sum(gen)</code> gets 0 because the generator is exhausted and has no more values."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>scores = {\"Aarav\": 85, \"Priya\": 42, \"Rohan\": 91}\nresult = {k: v for k, v in scores.items() if v >= 50}\nprint(result)</code></pre>",
+        "hint": "The if clause filters dictionary items by value.",
+        "answer": "<code>{'Aarav': 85, 'Rohan': 91}</code>",
+        "explanation": "The dict comprehension iterates over all key-value pairs and keeps only those where the value is >= 50. Priya's score (42) is excluded."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def countdown(n):\n    while n > 0:\n        yield n\n        n -= 1\n\nnums = list(countdown(5))\nprint(nums)\nprint(sum(countdown(3)))</code></pre>",
+        "hint": "Each call to countdown() creates a fresh generator.",
+        "answer": "<code>[5, 4, 3, 2, 1]</code><br><code>6</code>",
+        "explanation": "<code>countdown(5)</code> yields 5, 4, 3, 2, 1. <code>list()</code> collects them all. <code>countdown(3)</code> creates a new generator yielding 3, 2, 1. <code>sum()</code> adds them: 3+2+1 = 6."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>result = [[i*j for j in range(1, 4)] for i in range(1, 4)]\nfor row in result:\n    print(row)</code></pre>",
+        "hint": "Outer comprehension creates rows (i=1,2,3). Inner comprehension creates columns (j=1,2,3).",
+        "answer": "<code>[1, 2, 3]</code><br><code>[2, 4, 6]</code><br><code>[3, 6, 9]</code>",
+        "explanation": "The outer comprehension iterates i from 1 to 3. For each i, the inner comprehension creates [i*1, i*2, i*3]. This builds a 3x3 multiplication table."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def gen_ab():\n    yield \"a\"\n    yield \"b\"\n\ndef gen_cd():\n    yield \"c\"\n    yield \"d\"\n\ndef chain(*generators):\n    for gen in generators:\n        yield from gen\n\nresult = list(chain(gen_ab(), gen_cd()))\nprint(result)</code></pre>",
+        "hint": "yield from delegates to another generator, yielding all its values.",
+        "answer": "<code>['a', 'b', 'c', 'd']</code>",
+        "explanation": "<code>yield from gen</code> yields all values from the sub-generator. The chain function iterates over each generator argument and delegates to it with <code>yield from</code>. The result is all values from gen_ab followed by all values from gen_cd."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>original = [[1, 2, 3], [4, 5, 6]]\ntransposed = [[row[i] for row in original] for i in range(3)]\nprint(transposed)</code></pre>",
+        "hint": "The outer comprehension iterates column indices. The inner collects that column from each row.",
+        "answer": "<code>[[1, 4], [2, 5], [3, 6]]</code>",
+        "explanation": "For i=0: [row[0] for row in original] = [1, 4]. For i=1: [row[1] for row in original] = [2, 5]. For i=2: [row[2] for row in original] = [3, 6]. This transposes the matrix (swaps rows and columns)."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def infinite():\n    n = 0\n    while True:\n        yield n\n        n += 1\n\ngen = infinite()\nresult = [next(gen) for _ in range(5)]\nnext(gen)  # Skip one\nresult.append(next(gen))\nprint(result)</code></pre>",
+        "hint": "next(gen) advances the generator by one. The skipped value is not in result.",
+        "answer": "<code>[0, 1, 2, 3, 4, 6]</code>",
+        "explanation": "First, 5 calls to next(gen) produce [0, 1, 2, 3, 4]. Then next(gen) produces 5 but it is discarded (not appended). Then next(gen) produces 6, which is appended. Result: [0, 1, 2, 3, 4, 6]."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\n# Three different comprehension types\nlist_result = [x for x in data if x % 3 == 0]\ndict_result = {x: x**2 for x in data if x % 3 == 0}\nset_result = {x % 5 for x in data if x % 3 == 0}\n\nprint(list_result)\nprint(dict_result)\nprint(sorted(set_result))</code></pre>",
+        "hint": "Multiples of 3 in 1-10 are 3, 6, 9.",
+        "answer": "<code>[3, 6, 9]</code><br><code>{3: 9, 6: 36, 9: 81}</code><br><code>[0, 1, 4]</code>",
+        "explanation": "Multiples of 3: [3, 6, 9]. Dict maps each to its square: {3:9, 6:36, 9:81}. Set of remainders mod 5: {3%5=3, 6%5=1, 9%5=4} -> sorted: [1, 3, 4]. Wait -- 3%5=3, 6%5=1, 9%5=4, so sorted is [1, 3, 4]."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>[x for x in items if x > 0]</code> and <code>[x if x > 0 else 0 for x in items]</code>?",
+        "hint": "One filters, the other transforms.",
+        "answer": "The first expression <strong>filters</strong>: it includes only elements where x > 0. Elements that fail the condition are excluded entirely, so the result may have fewer elements. The second expression <strong>transforms</strong>: it includes every element, but replaces non-positive ones with 0. The result always has the same number of elements as the input.",
+        "explanation": "For items = [-1, 2, -3, 4]: the filter produces [2, 4] (2 elements). The transform produces [0, 2, 0, 4] (4 elements). The position of the if clause determines the behavior."
+      },
+      {
+        "id": "ts-18",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why are generators described as 'lazy'? What advantage does lazy evaluation provide?",
+        "hint": "Think about when values are computed and how much memory is used.",
+        "answer": "Generators are 'lazy' because they compute each value only when it is requested (by <code>next()</code> or a for loop), not in advance. This provides two advantages: (1) <strong>Memory efficiency</strong> -- only one value exists in memory at a time, regardless of the total number of values. A generator over 10 million items uses the same memory as one over 10 items. (2) <strong>Computation efficiency</strong> -- if you only need the first few values (e.g., finding the first match), the remaining values are never computed at all.",
+        "explanation": "In contrast, a list comprehension is 'eager' -- it computes ALL values immediately and stores them ALL in memory. For large or infinite sequences, eager evaluation is impractical or impossible, making generators essential."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>lengths = [len(w) for w in [\"hi\", \"hello\", \"hey\"]]\nprint(lengths)</code></pre>",
+        "hint": "len() returns the length of each string.",
+        "answer": "<code>[2, 5, 3]</code>",
+        "explanation": "<code>len(\"hi\")</code> is 2, <code>len(\"hello\")</code> is 5, <code>len(\"hey\")</code> is 3. The comprehension applies len to each word."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>chars = [c for c in \"Python\"]\nprint(chars)</code></pre>",
+        "hint": "Iterating over a string gives individual characters.",
+        "answer": "<code>['P', 'y', 't', 'h', 'o', 'n']</code>",
+        "explanation": "Iterating over a string produces each character. The comprehension collects them into a list: ['P', 'y', 't', 'h', 'o', 'n']."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>pairs = [(x, y) for x in [1, 2] for y in [\"a\", \"b\"]]\nprint(pairs)</code></pre>",
+        "hint": "Two for clauses create all combinations (Cartesian product).",
+        "answer": "<code>[(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]</code>",
+        "explanation": "For x=1: (1,'a'), (1,'b'). For x=2: (2,'a'), (2,'b'). The two for clauses produce all combinations of x and y values."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5, 6]\nresult = [x ** 2 for x in nums if x % 2 != 0]\nprint(result)</code></pre>",
+        "hint": "The if clause filters to odd numbers first, then squares them.",
+        "answer": "<code>[1, 9, 25]</code>",
+        "explanation": "Odd numbers: 1, 3, 5. Squared: 1, 9, 25. The filter (if x % 2 != 0) runs first, then the expression (x**2) applies to the survivors."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>sentence = \"the quick brown fox\"\nword_map = {w: len(w) for w in sentence.split()}\nprint(word_map)</code></pre>",
+        "hint": "split() breaks the string into words. Dict comprehension maps each word to its length.",
+        "answer": "<code>{'the': 3, 'quick': 5, 'brown': 5, 'fox': 3}</code>",
+        "explanation": "The string is split into [\"the\", \"quick\", \"brown\", \"fox\"]. The dict comprehension maps each word to its length."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def double_gen(n):\n    for i in range(n):\n        yield i * 2\n\nresult = []\nfor val in double_gen(4):\n    result.append(val)\n\nprint(result)</code></pre>",
+        "hint": "The generator yields 0*2, 1*2, 2*2, 3*2.",
+        "answer": "<code>[0, 2, 4, 6]</code>",
+        "explanation": "The generator yields i*2 for i in range(4): 0, 2, 4, 6. The for loop collects all yielded values into the result list."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>data = [\"hello\", 42, \"world\", 3.14, \"!\"]\nstrings_only = [x.upper() for x in data if isinstance(x, str)]\nprint(strings_only)</code></pre>",
+        "hint": "isinstance(x, str) filters to strings only. Then .upper() is applied.",
+        "answer": "<code>['HELLO', 'WORLD', '!']</code>",
+        "explanation": "The filter keeps only string elements: \"hello\", \"world\", \"!\". Then <code>.upper()</code> converts each to uppercase: ['HELLO', 'WORLD', '!']."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def gen():\n    print(\"start\")\n    yield 1\n    print(\"middle\")\n    yield 2\n    print(\"end\")\n\ng = gen()\nprint(\"before next\")\nval = next(g)\nprint(f\"got {val}\")\nval = next(g)\nprint(f\"got {val}\")</code></pre>",
+        "hint": "Generator code runs lazily. It does not execute until next() is called.",
+        "answer": "<code>before next</code><br><code>start</code><br><code>got 1</code><br><code>middle</code><br><code>got 2</code>",
+        "explanation": "Creating <code>gen()</code> does NOT execute any code inside it. The first <code>next()</code> runs from the beginning to the first yield, printing \"start\" and yielding 1. The second <code>next()</code> resumes from after the first yield, printing \"middle\" and yielding 2. \"end\" has not printed yet because no third next() was called."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>nested = {\"a\": [1, 2], \"b\": [3, 4], \"c\": [5]}\nflat = [(k, v) for k, vals in nested.items() for v in vals]\nprint(flat)</code></pre>",
+        "hint": "Outer loop iterates keys and lists. Inner loop iterates values in each list.",
+        "answer": "<code>[('a', 1), ('a', 2), ('b', 3), ('b', 4), ('c', 5)]</code>",
+        "explanation": "For key 'a', values [1,2]: pairs ('a',1), ('a',2). For key 'b', values [3,4]: pairs ('b',3), ('b',4). For key 'c', values [5]: pair ('c',5). The nested comprehension flattens the dict of lists into a list of tuples."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def squares_up_to(n):\n    i = 0\n    while i * i <= n:\n        yield i * i\n        i += 1\n\nprint(list(squares_up_to(20)))\nprint(list(squares_up_to(1)))</code></pre>",
+        "hint": "The generator yields perfect squares that are <= n.",
+        "answer": "<code>[0, 1, 4, 9, 16]</code><br><code>[0, 1]</code>",
+        "explanation": "For n=20: 0, 1, 4, 9, 16 are all <= 20. Next would be 25 > 20, so the loop stops. For n=1: 0 and 1 are <= 1. Next would be 4 > 1, so the loop stops."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>mapping = list(map(lambda x: x**2, [1, 2, 3]))\ncomping = [x**2 for x in [1, 2, 3]]\ngenning = list(x**2 for x in [1, 2, 3])\n\nprint(mapping == comping == genning)\nprint(type(map(lambda x: x, [])).__name__)\nprint(type(x**2 for x in []).__name__)</code></pre>",
+        "hint": "All three produce the same values. map and generator expressions are lazy.",
+        "answer": "<code>True</code><br><code>map</code><br><code>generator</code>",
+        "explanation": "All three approaches produce [1, 4, 9], so they are equal (True). <code>map()</code> returns a map object (lazy). A generator expression returns a generator object (lazy). Both must be converted with <code>list()</code> to get an actual list."
+      },
+      {
+        "id": "mx-12",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use a generator expression instead of a list comprehension?",
+        "hint": "Think about memory usage and how many times you need the data.",
+        "answer": "Use a generator expression when: (1) you only need to iterate over the values once (e.g., passing to <code>sum()</code>, <code>max()</code>, or a for loop), (2) the data set is very large and would consume too much memory as a list, or (3) you are chaining operations where intermediate lists would be wasteful. Use a list comprehension when you need to access elements by index, iterate multiple times, or the data set is small enough that memory is not a concern.",
+        "explanation": "A generator expression uses <code>()</code> instead of <code>[]</code> and produces values lazily. It uses constant memory (about 200 bytes) regardless of how many values it will produce, while a list comprehension stores all values in memory."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does [x * 2 for x in range(3)] produce?",
+        "options": [
+          "[0, 2, 4]",
+          "[2, 4, 6]",
+          "[1, 2, 3]",
+          "[0, 1, 2]"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> range(3) produces 0, 1, 2. Multiplying each by 2: 0, 2, 4. Result: [0, 2, 4]. Option B would be correct for range(1, 4)."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What type of comprehension uses curly braces with key:value pairs?",
+        "options": [
+          "List comprehension",
+          "Set comprehension",
+          "Dictionary comprehension",
+          "Tuple comprehension"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>{key: value for ...}</code> creates a dictionary. <code>{value for ...}</code> (no colon) creates a set. <code>[value for ...]</code> creates a list. There is no tuple comprehension syntax."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What keyword is used in a generator function to produce values?",
+        "options": [
+          "return",
+          "yield",
+          "produce",
+          "emit"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>yield</code> is the keyword that makes a function a generator. It pauses the function and produces a value. <code>return</code> would end the function entirely."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What is the output of (x for x in [1, 2, 3])?",
+        "options": [
+          "[1, 2, 3]",
+          "(1, 2, 3)",
+          "A generator object",
+          "{1, 2, 3}"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Parentheses with a for expression create a generator object, not a tuple or list. To get a list, use <code>list(x for x in [1, 2, 3])</code>."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which comprehension syntax filters elements?",
+        "options": [
+          "[x if x > 0 for x in items]",
+          "[x for x in items if x > 0]",
+          "[if x > 0: x for x in items]",
+          "[x for x in items where x > 0]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The filter condition goes after the for clause: <code>[x for x in items if condition]</code>. Option A is a SyntaxError (if-else requires an else). Options C and D are not valid Python syntax."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What happens when you call next() on an exhausted generator?",
+        "options": [
+          "It returns None",
+          "It restarts from the beginning",
+          "It raises StopIteration",
+          "It raises GeneratorError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When a generator has no more values to yield, calling <code>next()</code> raises <code>StopIteration</code>. A for loop catches this automatically, but manual <code>next()</code> calls will see it."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "In [x if x > 0 else -x for x in numbers], where does the if-else go?",
+        "options": [
+          "After the for clause",
+          "Before the for clause",
+          "Inside the for clause",
+          "It can go anywhere"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>if-else</code> expression (ternary operator) goes before the <code>for</code> clause when you want to transform every element. The <code>if</code> goes after the <code>for</code> clause only when you want to filter elements."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is lazy evaluation?",
+        "options": [
+          "Evaluating code slowly for accuracy",
+          "Computing values only when they are needed",
+          "Skipping error checking for speed",
+          "Delaying all computation until the program ends"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lazy evaluation means values are computed on demand, not in advance. Generators use lazy evaluation -- each value is computed only when <code>next()</code> is called or when a for loop requests it."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "How much memory does a generator expression use compared to a list comprehension for 1 million elements?",
+        "options": [
+          "About the same",
+          "Roughly half",
+          "A tiny fraction (constant, ~200 bytes)",
+          "Twice as much"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A generator object is about 200 bytes regardless of how many values it will produce. A list comprehension for 1 million integers uses about 8 MB. The generator computes values one at a time, never storing the full sequence."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What does {x % 3 for x in range(10)} create?",
+        "options": [
+          "A list of remainders",
+          "A dictionary",
+          "A set of unique remainders",
+          "A generator"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Curly braces without key:value pairs create a set. The remainders when dividing 0-9 by 3 are 0, 1, 2, 0, 1, 2, 0, 1, 2, 0. The set contains only unique values: {0, 1, 2}."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "What is the difference between yield and return?",
+        "options": [
+          "They are the same",
+          "yield ends the function; return pauses it",
+          "return ends the function; yield pauses it and preserves state",
+          "return can only return one value; yield returns multiple at once"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>return</code> terminates the function permanently and sends back one value. <code>yield</code> pauses the function, sends back a value, and preserves all local variables. When <code>next()</code> is called again, execution resumes from where it paused."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the output of [n for row in [[1,2],[3]] for n in row]?",
+        "options": [
+          "[[1, 2], [3]]",
+          "[1, 2, 3]",
+          "[[1, 2, 3]]",
+          "Error: too many for clauses"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The outer loop iterates over rows: [1,2] then [3]. The inner loop iterates numbers in each row: 1, 2, then 3. All numbers are collected into a flat list: [1, 2, 3]. This is the flattening pattern."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Can a generator function have both yield and return statements?",
+        "options": [
+          "No, it is a SyntaxError",
+          "Yes, but return must have no value",
+          "Yes, return stops the generator (raises StopIteration)",
+          "Yes, return sends back the final value"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A generator function can have <code>return</code> (with or without a value). A bare <code>return</code> or falling off the end of the function raises <code>StopIteration</code>. <code>return value</code> raises <code>StopIteration(value)</code>, where the value can be accessed from the exception but is not yielded."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "Why is a list comprehension typically faster than an equivalent for-loop-with-append?",
+        "options": [
+          "Comprehensions use less memory",
+          "Comprehensions skip error checking",
+          "Comprehensions are optimized at the bytecode level with fewer function calls",
+          "Comprehensions run in parallel"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> List comprehensions are compiled to optimized bytecode. They avoid the overhead of calling <code>list.append()</code> on each iteration (which involves attribute lookup and function call). The improvement is typically 10-30% for simple operations."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What does yield from iterable do in a generator function?",
+        "options": [
+          "Yields the iterable as a single value",
+          "Yields each value from the iterable one at a time",
+          "Returns the iterable and stops the generator",
+          "Creates a sub-generator that runs in parallel"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>yield from iterable</code> delegates to a sub-iterator, yielding each of its values one at a time. It is equivalent to <code>for item in iterable: yield item</code> but more efficient and also supports send/throw for advanced generator protocols."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "What is the result of sum(x for x in range(4))?",
+        "options": [
+          "10",
+          "6",
+          "4",
+          "Error: generator cannot be summed"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The generator expression produces 0, 1, 2, 3 (range(4) goes from 0 to 3). <code>sum()</code> adds them: 0+1+2+3 = 6. Generator expressions can be passed directly to functions like sum(), max(), min(), any(), all()."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "What does [x.strip() for x in [' hi ', ' bye ']] produce?",
+        "options": [
+          "['hi', 'bye']",
+          "[' hi ', ' bye ']",
+          "['HI', 'BYE']",
+          "Error"
+        ],
+        "answer": "A",
+        "explanation": "<strong>A is correct.</strong> The <code>.strip()</code> method removes leading and trailing whitespace from each string. ' hi ' becomes 'hi' and ' bye ' becomes 'bye'."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Can you iterate over a generator with a for loop?",
+        "options": [
+          "No, you must use next()",
+          "Yes, the for loop calls next() internally and handles StopIteration",
+          "Yes, but only for generator expressions, not generator functions",
+          "Yes, but the for loop converts it to a list first"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A for loop works with any iterable, including generators. Internally, it calls <code>iter()</code> (which returns the generator itself) and then <code>next()</code> repeatedly until <code>StopIteration</code> is raised. The for loop handles StopIteration automatically."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What is the correct way to create a tuple from a comprehension-like syntax?",
+        "options": [
+          "(x**2 for x in range(5))",
+          "tuple[x**2 for x in range(5)]",
+          "tuple(x**2 for x in range(5))",
+          "<x**2 for x in range(5)>"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> There is no tuple comprehension syntax. Option A creates a generator, not a tuple. Option C wraps a generator expression with <code>tuple()</code> to create a tuple. Options B and D are not valid Python syntax."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Hard",
+        "question": "What is the advantage of chaining generators over using intermediate lists?",
+        "options": [
+          "Chained generators are easier to debug",
+          "Chained generators process data in parallel",
+          "Chained generators use constant memory by processing one element at a time",
+          "Chained generators are always faster"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> When generators are chained, each element flows through the entire pipeline one at a time. No intermediate lists are created, so memory usage is constant regardless of data size. This is not parallel processing (option B), and it is not necessarily faster for small data (option D)."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Comprehension Toolbox",
+        "difficulty": "Easy",
+        "description": "Write the following using list comprehensions: (1) squares of numbers 1-10, (2) only even numbers from a list, (3) first character of each word in a sentence, (4) replace negative numbers with 0.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Squares: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]\nEvens: [2, 4, 6, 8, 10]\nInitials: ['T', 'q', 'b', 'f']\nCleaned: [3, 0, 7, 0, 2]",
+        "constraints": "Use only list comprehensions (no for loops).",
+        "solution": "# 1. Squares of 1-10\nsquares = [x ** 2 for x in range(1, 11)]\nprint(f\"Squares: {squares}\")\n\n# 2. Even numbers\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nevens = [x for x in numbers if x % 2 == 0]\nprint(f\"Evens: {evens}\")\n\n# 3. First character of each word\nsentence = \"The quick brown fox\"\ninitials = [w[0] for w in sentence.split()]\nprint(f\"Initials: {initials}\")\n\n# 4. Replace negatives with 0\ndata = [3, -1, 7, -5, 2]\ncleaned = [x if x >= 0 else 0 for x in data]\nprint(f\"Cleaned: {cleaned}\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "Dict and Set Comprehension Practice",
+        "difficulty": "Easy",
+        "description": "Use comprehensions to: (1) create a dict mapping each number 1-5 to its cube, (2) invert a dictionary (swap keys and values), (3) create a set of unique word lengths from a sentence, (4) filter a dictionary to keep only entries where the value is greater than 50.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Cubes: {1: 1, 2: 8, 3: 27, 4: 64, 5: 125}\nInverted: {1: 'a', 2: 'b', 3: 'c'}\nLengths: {3, 4, 5}\nPassed: {'Aarav': 85, 'Rohan': 91}",
+        "constraints": "Use only dict/set comprehensions.",
+        "solution": "# 1. Number to cube mapping\ncubes = {x: x**3 for x in range(1, 6)}\nprint(f\"Cubes: {cubes}\")\n\n# 2. Invert a dictionary\noriginal = {'a': 1, 'b': 2, 'c': 3}\ninverted = {v: k for k, v in original.items()}\nprint(f\"Inverted: {inverted}\")\n\n# 3. Unique word lengths\nsentence = \"the quick brown fox jumps\"\nlengths = {len(w) for w in sentence.split()}\nprint(f\"Lengths: {sorted(lengths)}\")\n\n# 4. Filter dictionary by value\nscores = {'Aarav': 85, 'Priya': 42, 'Rohan': 91, 'Meera': 38}\npassed = {k: v for k, v in scores.items() if v > 50}\nprint(f\"Passed: {passed}\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Fibonacci Generator",
+        "difficulty": "Easy",
+        "description": "Write a generator function fibonacci() that yields Fibonacci numbers indefinitely. Then write code that uses it to: (1) get the first 10 Fibonacci numbers, (2) find the first Fibonacci number greater than 100, (3) sum all Fibonacci numbers under 50.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First 10: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\nFirst > 100: 144\nSum under 50: 88",
+        "constraints": "The generator must be infinite. Use next() and for loops to consume values.",
+        "solution": "def fibonacci():\n    a, b = 0, 1\n    while True:\n        yield a\n        a, b = b, a + b\n\n# 1. First 10 Fibonacci numbers\nfib = fibonacci()\nfirst_10 = [next(fib) for _ in range(10)]\nprint(f\"First 10: {first_10}\")\n\n# 2. First Fibonacci number > 100\nfib = fibonacci()\nfor num in fib:\n    if num > 100:\n        print(f\"First > 100: {num}\")\n        break\n\n# 3. Sum of Fibonacci numbers under 50\nfib = fibonacci()\ntotal = 0\nfor num in fib:\n    if num >= 50:\n        break\n    total += num\nprint(f\"Sum under 50: {total}\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Matrix Operations with Comprehensions",
+        "difficulty": "Medium",
+        "description": "Using only comprehensions, write functions for: (1) create_matrix(rows, cols, fill=0) that creates a 2D list, (2) transpose(matrix) that swaps rows and columns, (3) flatten(matrix) that converts 2D to 1D, (4) matrix_add(a, b) that adds two matrices element-wise.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Created: [[0, 0, 0], [0, 0, 0]]\nTranspose: [[1, 4], [2, 5], [3, 6]]\nFlattened: [1, 2, 3, 4, 5, 6]\nSum: [[6, 8], [10, 12]]",
+        "constraints": "Use comprehensions for all operations. No explicit for-loop-with-append.",
+        "solution": "def create_matrix(rows, cols, fill=0):\n    return [[fill for _ in range(cols)] for _ in range(rows)]\n\ndef transpose(matrix):\n    if not matrix:\n        return []\n    return [[row[i] for row in matrix] for i in range(len(matrix[0]))]\n\ndef flatten(matrix):\n    return [val for row in matrix for val in row]\n\ndef matrix_add(a, b):\n    return [[a[i][j] + b[i][j] for j in range(len(a[0]))] for i in range(len(a))]\n\nprint(f\"Created: {create_matrix(2, 3)}\")\nprint(f\"Transpose: {transpose([[1, 2, 3], [4, 5, 6]])}\")\nprint(f\"Flattened: {flatten([[1, 2, 3], [4, 5, 6]])}\")\n\nm1 = [[1, 2], [3, 4]]\nm2 = [[5, 6], [7, 8]]\nprint(f\"Sum: {matrix_add(m1, m2)}\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Generator Pipeline: Text Processor",
+        "difficulty": "Medium",
+        "description": "Build a text processing pipeline using chained generators: (1) read_lines(text) yields each line from a multi-line string, (2) strip_lines(lines) yields stripped lines, (3) remove_empty(lines) yields only non-empty lines, (4) to_words(lines) yields individual words from each line, (5) unique_words(words) yields each word only the first time it appears.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Lines: 5\nClean lines: 3\nWords: ['Hello', 'world', 'Python', 'is', 'great', 'Hello', 'Python']\nUnique: ['Hello', 'world', 'Python', 'is', 'great']",
+        "constraints": "Each function must be a generator. Chain them together.",
+        "solution": "def read_lines(text):\n    for line in text.split('\\n'):\n        yield line\n\ndef strip_lines(lines):\n    for line in lines:\n        yield line.strip()\n\ndef remove_empty(lines):\n    for line in lines:\n        if line:\n            yield line\n\ndef to_words(lines):\n    for line in lines:\n        for word in line.split():\n            yield word\n\ndef unique_words(words):\n    seen = set()\n    for word in words:\n        if word not in seen:\n            seen.add(word)\n            yield word\n\ntext = \"\"\"  Hello world  \n  \n  Python is great  \n    \n  Hello Python  \"\"\"\n\nall_lines = list(read_lines(text))\nprint(f\"Lines: {len(all_lines)}\")\n\nclean = list(remove_empty(strip_lines(read_lines(text))))\nprint(f\"Clean lines: {len(clean)}\")\n\nwords = list(to_words(remove_empty(strip_lines(read_lines(text)))))\nprint(f\"Words: {words}\")\n\nuniq = list(unique_words(to_words(remove_empty(strip_lines(read_lines(text))))))\nprint(f\"Unique: {uniq}\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Infinite Generators Collection",
+        "difficulty": "Medium",
+        "description": "Write these infinite generator functions: (1) naturals(start=1) yields natural numbers from start, (2) cycle(iterable) repeats an iterable endlessly, (3) repeat(value, times=None) yields a value forever (or times times if specified). Then write take(n, gen) to get the first n values from any generator.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Naturals: [1, 2, 3, 4, 5]\nCycle: ['a', 'b', 'c', 'a', 'b', 'c', 'a']\nRepeat forever: [42, 42, 42, 42, 42]\nRepeat 3 times: [42, 42, 42]",
+        "constraints": "naturals and cycle must be truly infinite. take() must work with any generator.",
+        "solution": "def naturals(start=1):\n    n = start\n    while True:\n        yield n\n        n += 1\n\ndef cycle(iterable):\n    items = list(iterable)\n    while True:\n        for item in items:\n            yield item\n\ndef repeat(value, times=None):\n    if times is None:\n        while True:\n            yield value\n    else:\n        for _ in range(times):\n            yield value\n\ndef take(n, gen):\n    return [next(gen) for _ in range(n)]\n\nprint(f\"Naturals: {take(5, naturals())}\")\nprint(f\"Cycle: {take(7, cycle(['a', 'b', 'c']))}\")\nprint(f\"Repeat forever: {take(5, repeat(42))}\")\nprint(f\"Repeat 3 times: {list(repeat(42, 3))}\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Comprehension-Based Data Analysis",
+        "difficulty": "Hard",
+        "description": "Given a list of student records (dicts with 'name', 'subject', 'score'), use only comprehensions to: (1) get names of students who scored above 80, (2) create a dict mapping each subject to its average score, (3) find the top scorer in each subject, (4) create a grade distribution dict (A: 90+, B: 75+, C: 50+, F: below 50).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Above 80: ['Aarav', 'Rohan', 'Kavya']\nAverages: {'Math': 74.33, 'Python': 68.0, 'Science': 73.0}\nTop per subject: {'Math': 'Rohan', 'Python': 'Kavya', 'Science': 'Aarav'}\nGrade distribution: {'A': 2, 'B': 2, 'C': 1, 'F': 1}",
+        "constraints": "Use comprehensions wherever possible. You may use helper comprehensions for intermediate results.",
+        "solution": "students = [\n    {\"name\": \"Aarav\", \"subject\": \"Math\", \"score\": 85},\n    {\"name\": \"Priya\", \"subject\": \"Math\", \"score\": 42},\n    {\"name\": \"Rohan\", \"subject\": \"Math\", \"score\": 96},\n    {\"name\": \"Meera\", \"subject\": \"Python\", \"score\": 55},\n    {\"name\": \"Kavya\", \"subject\": \"Python\", \"score\": 81},\n    {\"name\": \"Aarav\", \"subject\": \"Science\", \"score\": 91},\n    {\"name\": \"Rohan\", \"subject\": \"Science\", \"score\": 55},\n]\n\n# 1. Names of students who scored above 80\nabove_80 = [s[\"name\"] for s in students if s[\"score\"] > 80]\nprint(f\"Above 80: {above_80}\")\n\n# 2. Average score per subject\nsubjects = {s[\"subject\"] for s in students}\naverages = {\n    subj: round(sum(s[\"score\"] for s in students if s[\"subject\"] == subj) / \n          sum(1 for s in students if s[\"subject\"] == subj), 2)\n    for subj in subjects\n}\nprint(f\"Averages: {averages}\")\n\n# 3. Top scorer per subject\ntop_per_subject = {\n    subj: max((s for s in students if s[\"subject\"] == subj), key=lambda s: s[\"score\"])[\"name\"]\n    for subj in subjects\n}\nprint(f\"Top per subject: {top_per_subject}\")\n\n# 4. Grade distribution\ndef grade(score):\n    if score >= 90: return \"A\"\n    if score >= 75: return \"B\"\n    if score >= 50: return \"C\"\n    return \"F\"\n\ngrades = [grade(s[\"score\"]) for s in students]\ndistribution = {g: grades.count(g) for g in sorted(set(grades))}\nprint(f\"Grade distribution: {distribution}\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Lazy File-Like Reader with Generators",
+        "difficulty": "Hard",
+        "description": "Create a class LazyCSV that simulates reading a CSV file lazily using generators. It should have: (1) rows() generator that yields each row as a list of strings, (2) dicts() generator that yields each row as a dictionary (using the header row as keys), (3) select(columns) generator that yields only specified columns, (4) where(column, condition) generator that filters rows based on a condition function.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Row: ['Aarav', '16', '85']\nDict: {'name': 'Aarav', 'age': '16', 'score': '85'}\nNames: [['Aarav'], ['Priya'], ['Rohan']]\nHigh scores: [{'name': 'Aarav', 'age': '16', 'score': '85'}, {'name': 'Rohan', 'age': '17', 'score': '92'}]",
+        "constraints": "All methods must return generators (use yield). No data should be stored beyond what is needed for the current row.",
+        "solution": "class LazyCSV:\n    def __init__(self, data):\n        self.lines = data.strip().split('\\n')\n        self.header = self.lines[0].split(',')\n    \n    def rows(self):\n        for line in self.lines[1:]:\n            yield line.split(',')\n    \n    def dicts(self):\n        for row in self.rows():\n            yield {self.header[i]: row[i].strip() for i in range(len(self.header))}\n    \n    def select(self, columns):\n        indices = [self.header.index(col) for col in columns]\n        for row in self.rows():\n            yield [row[i].strip() for i in indices]\n    \n    def where(self, column, condition):\n        for record in self.dicts():\n            if condition(record.get(column, '')):\n                yield record\n\ncsv_data = \"\"\"name,age,score\nAarav,16,85\nPriya,15,42\nRohan,17,92\"\"\"\n\ncsv = LazyCSV(csv_data)\n\nrow_gen = csv.rows()\nprint(f\"Row: {next(row_gen)}\")\n\ndict_gen = csv.dicts()\nprint(f\"Dict: {next(dict_gen)}\")\n\nnames = list(csv.select(['name']))\nprint(f\"Names: {names}\")\n\nhigh = list(csv.where('score', lambda s: int(s) > 50))\nprint(f\"High scores: {high}\")"
+      },
+      {
+        "id": "cc-9",
+        "title": "Generator-Based Prime Sieve",
+        "difficulty": "Hard",
+        "description": "Implement a prime number generator using the Sieve of Eratosthenes approach with generators: (1) integers_from(n) yields integers starting from n, (2) sieve(numbers) takes a generator of integers and yields primes by filtering out multiples, (3) primes() chains these to yield primes indefinitely. Use the generator to find the 100th prime and sum of primes below 100.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "First 15 primes: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]\n100th prime: 541\nSum of primes below 100: 1060",
+        "constraints": "Use generators throughout. The sieve function should recursively filter multiples.",
+        "solution": "def integers_from(n):\n    while True:\n        yield n\n        n += 1\n\ndef sieve(numbers):\n    prime = next(numbers)\n    yield prime\n    filtered = (n for n in numbers if n % prime != 0)\n    yield from sieve(filtered)\n\ndef primes():\n    yield from sieve(integers_from(2))\n\nimport sys\nsys.setrecursionlimit(2000)\n\n# First 15 primes\ngen = primes()\nfirst_15 = [next(gen) for _ in range(15)]\nprint(f\"First 15 primes: {first_15}\")\n\n# 100th prime\ngen = primes()\nfor i in range(99):\n    next(gen)\nhundredth = next(gen)\nprint(f\"100th prime: {hundredth}\")\n\n# Sum of primes below 100\ngen = primes()\ntotal = 0\nfor p in gen:\n    if p >= 100:\n        break\n    total += p\nprint(f\"Sum of primes below 100: {total}\")"
+      }
+    ]
+  }
+}

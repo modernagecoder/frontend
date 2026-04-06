@@ -1,0 +1,698 @@
+{
+  "title": "Modules and Packages in Python",
+  "slug": "modules-and-packages",
+  "language": "python",
+  "chapter": 23,
+  "difficulty": "Advanced",
+  "readingTime": "45 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 57,
+  "seo": {
+    "title": "Modules and Packages in Python - import, pip, Standard Library | Modern Age Coders",
+    "description": "Learn Python modules and packages including import statement, from...import, creating your own modules, __name__ == '__main__', standard library modules (math, random, datetime, os, sys, json), pip package management, and __init__.py. Includes 57+ practice questions with output prediction and coding challenges.",
+    "keywords": "python modules, import statement python, python packages, python modules tutorial, python import, python standard library, pip install python, python __init__.py, python from import, python module tutorial"
+  },
+  "content": {
+    "what": "<h2>What Is a Module?</h2><p>A <strong>module</strong> in Python is simply a <code>.py</code> file that contains Python code -- functions, classes, variables, or executable statements. When you write a function in a file called <code>helpers.py</code>, that file is a module named <code>helpers</code>.</p><pre><code># File: helpers.py\ndef greet(name):\n    return f\"Hello, {name}!\"\n\npi = 3.14159</code></pre><p>Any other Python file can use the code from <code>helpers.py</code> by <strong>importing</strong> it:</p><pre><code># File: main.py\nimport helpers\n\nprint(helpers.greet(\"Aarav\"))  # Hello, Aarav!\nprint(helpers.pi)              # 3.14159</code></pre><p>Python comes with hundreds of pre-built modules called the <strong>standard library</strong>. These modules handle common tasks like math operations, random numbers, file paths, dates, and JSON processing. You do not need to install them -- they come with Python.</p><p>A <strong>package</strong> is a folder that contains multiple related modules, organized together with a special <code>__init__.py</code> file. Packages let you group related modules into a directory hierarchy, just like folders organize files on your computer.</p>",
+    "why": "<h2>Why Are Modules and Packages Important?</h2><h3>1. Code Reusability</h3><p>Without modules, you would need to copy-paste the same functions into every file that needs them. Imagine Priya writes a function to validate email addresses. With modules, she writes it once in <code>validators.py</code> and imports it wherever needed. If she fixes a bug, the fix applies everywhere.</p><h3>2. Organization</h3><p>As programs grow, putting everything in one file becomes unmanageable. A 5000-line file is hard to navigate. Modules let you split code into logical units: one file for database operations, another for user interface, another for calculations. Each module has a clear purpose.</p><h3>3. Namespace Separation</h3><p>Two modules can define functions with the same name without conflict. If <code>graphics.py</code> and <code>audio.py</code> both define a <code>load()</code> function, there is no confusion because you call them as <code>graphics.load()</code> and <code>audio.load()</code>. Modules create separate namespaces.</p><h3>4. Access to the Standard Library</h3><p>Python's standard library is one of its greatest strengths. The <code>math</code> module gives you square roots and trigonometry. The <code>random</code> module gives you random numbers. The <code>datetime</code> module handles dates and times. The <code>os</code> module interacts with your operating system. Learning to use these modules is essential because they save you from writing complex code yourself.</p><h3>5. Third-Party Ecosystem</h3><p>Beyond the standard library, Python has over 400,000 third-party packages available through <code>pip</code>. Need to build a web app? Install Flask. Need data analysis? Install pandas. Need machine learning? Install scikit-learn. The module and package system makes this ecosystem possible.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The import Statement</h3><p>The simplest way to use a module is the <code>import</code> statement:</p><pre><code>import math\n\nprint(math.sqrt(16))    # 4.0\nprint(math.pi)          # 3.141592653589793\nprint(math.ceil(4.2))   # 5\nprint(math.floor(4.8))  # 4</code></pre><p>When you write <code>import math</code>, Python finds the <code>math</code> module, executes it, and creates a module object. You access everything through <code>math.something</code>. This is the safest import form because it keeps the module's namespace separate from yours.</p><h3>2. from...import</h3><p>If you only need specific items from a module, use <code>from...import</code>:</p><pre><code>from math import sqrt, pi\n\nprint(sqrt(25))   # 5.0\nprint(pi)          # 3.141592653589793\n# No need to write math.sqrt or math.pi</code></pre><p>This imports <code>sqrt</code> and <code>pi</code> directly into your namespace, so you can use them without the <code>math.</code> prefix. The rest of the math module is not accessible.</p><p>You can also import everything with <code>from math import *</code>, but this is discouraged because it pollutes your namespace and makes it unclear where names come from.</p><h3>3. import...as (Aliasing)</h3><p>Use <code>as</code> to give a module or import a shorter name:</p><pre><code>import datetime as dt\n\nnow = dt.datetime.now()\nprint(now.strftime(\"%Y-%m-%d\"))  # 2026-04-06\n\nfrom math import factorial as fact\nprint(fact(5))  # 120</code></pre><p>Aliasing is useful when module names are long. In the data science world, <code>import numpy as np</code> and <code>import pandas as pd</code> are standard conventions.</p><h3>4. Creating Your Own Module</h3><p>Any Python file is a module. Suppose Rohan creates a utility file:</p><pre><code># File: string_utils.py\n\ndef reverse_string(s):\n    return s[::-1]\n\ndef count_vowels(s):\n    return sum(1 for c in s.lower() if c in 'aeiou')\n\ndef is_palindrome(s):\n    cleaned = s.lower().replace(\" \", \"\")\n    return cleaned == cleaned[::-1]</code></pre><p>Now any file in the same directory can import it:</p><pre><code># File: main.py\nimport string_utils\n\nprint(string_utils.reverse_string(\"Python\"))    # nohtyP\nprint(string_utils.count_vowels(\"Education\"))   # 5\nprint(string_utils.is_palindrome(\"Madam\"))      # True</code></pre><h3>5. The __name__ == \"__main__\" Guard</h3><p>When Python imports a module, it executes all the code in that file. This can cause problems if the module has test code at the top level:</p><pre><code># File: calculator.py\ndef add(a, b):\n    return a + b\n\ndef multiply(a, b):\n    return a * b\n\n# Test code -- runs when imported too!\nprint(\"Testing:\")\nprint(add(2, 3))       # This prints when someone imports calculator!\nprint(multiply(4, 5))</code></pre><p>The solution is the <code>__name__</code> guard. Every Python file has a built-in variable called <code>__name__</code>. When you run the file directly, <code>__name__</code> is set to <code>\"__main__\"</code>. When the file is imported, <code>__name__</code> is set to the module name:</p><pre><code># File: calculator.py\ndef add(a, b):\n    return a + b\n\ndef multiply(a, b):\n    return a * b\n\nif __name__ == \"__main__\":\n    # This only runs when calculator.py is executed directly\n    # It does NOT run when someone imports calculator\n    print(\"Testing:\")\n    print(add(2, 3))\n    print(multiply(4, 5))</code></pre><p>This is one of the most important Python patterns. Always use it when your module has test code or a main script.</p><h3>6. The dir() Function</h3><p>Use <code>dir()</code> to explore what a module contains:</p><pre><code>import math\n\n# See all names defined in the math module\nprint(dir(math))\n# [..., 'ceil', 'cos', 'e', 'factorial', 'floor', 'log', 'pi', 'sin', 'sqrt', ...]\n\n# Filter to only user-relevant names (exclude dunder names)\nnames = [name for name in dir(math) if not name.startswith('_')]\nprint(names)</code></pre><p><code>dir()</code> without arguments shows names in the current scope. <code>dir(module)</code> shows names defined in that module. This is extremely useful for exploring unfamiliar modules in the interactive interpreter.</p><h3>7. Popular Standard Library Modules</h3><h4>math -- Mathematical Functions</h4><pre><code>import math\n\nprint(math.sqrt(144))        # 12.0\nprint(math.ceil(4.1))        # 5\nprint(math.floor(4.9))       # 4\nprint(math.pi)               # 3.141592653589793\nprint(math.e)                # 2.718281828459045\nprint(math.factorial(6))     # 720\nprint(math.gcd(12, 18))      # 6\nprint(math.pow(2, 10))       # 1024.0\nprint(math.log(100, 10))     # 2.0\nprint(math.isfinite(42))     # True\nprint(math.isinf(float('inf')))  # True</code></pre><h4>random -- Random Numbers</h4><pre><code>import random\n\nprint(random.randint(1, 10))       # Random int between 1 and 10\nprint(random.random())             # Random float between 0 and 1\nprint(random.choice([\"a\", \"b\", \"c\"]))  # Random element\nprint(random.uniform(1.0, 5.0))    # Random float in range\n\ncolors = [\"red\", \"blue\", \"green\", \"yellow\"]\nrandom.shuffle(colors)             # Shuffles the list in place\nprint(colors)\n\nprint(random.sample(range(100), 5))  # 5 unique random numbers from 0-99</code></pre><h4>datetime -- Dates and Times</h4><pre><code>from datetime import datetime, date, timedelta\n\nnow = datetime.now()\nprint(now)                           # 2026-04-06 14:30:00.123456\nprint(now.strftime(\"%d/%m/%Y\"))      # 06/04/2026\nprint(now.strftime(\"%I:%M %p\"))      # 02:30 PM\nprint(now.year, now.month, now.day)  # 2026 4 6\n\ntoday = date.today()\nbirthday = date(2010, 8, 15)\nage_days = (today - birthday).days\nprint(f\"Days since birthday: {age_days}\")\n\ntomorrow = today + timedelta(days=1)\nprint(f\"Tomorrow: {tomorrow}\")</code></pre><h4>os -- Operating System Interaction</h4><pre><code>import os\n\nprint(os.getcwd())                    # Current working directory\nprint(os.listdir(\".\"))                # Files in current directory\nprint(os.path.exists(\"myfile.txt\"))   # True or False\nprint(os.path.join(\"folder\", \"file.txt\"))  # folder/file.txt (OS-appropriate)\nprint(os.path.splitext(\"photo.jpg\"))  # ('photo', '.jpg')\nprint(os.path.basename(\"/home/user/file.py\"))  # file.py\nprint(os.path.dirname(\"/home/user/file.py\"))   # /home/user</code></pre><h4>sys -- System-Specific Parameters</h4><pre><code>import sys\n\nprint(sys.version)           # Python version string\nprint(sys.platform)          # 'win32', 'linux', 'darwin'\nprint(sys.argv)              # Command-line arguments list\nprint(sys.path)              # Module search path\nprint(sys.getsizeof([1,2]))  # Memory size in bytes\n# sys.exit(0)                # Exit the program with status code 0</code></pre><h4>json -- JSON Encoding/Decoding</h4><pre><code>import json\n\n# Python dict to JSON string\nstudent = {\"name\": \"Aarav\", \"age\": 16, \"scores\": [85, 92, 78]}\njson_str = json.dumps(student, indent=2)\nprint(json_str)\n\n# JSON string to Python dict\ndata = json.loads('{\"city\": \"Delhi\", \"population\": 20000000}')\nprint(data[\"city\"])       # Delhi\nprint(type(data))         # <class 'dict'>\n\n# Write JSON to a file\nwith open(\"student.json\", \"w\") as f:\n    json.dump(student, f, indent=2)\n\n# Read JSON from a file\nwith open(\"student.json\", \"r\") as f:\n    loaded = json.load(f)\n    print(loaded[\"name\"])  # Aarav</code></pre><h3>8. Installing Third-Party Packages with pip</h3><p><code>pip</code> is Python's package installer. It downloads packages from the Python Package Index (PyPI):</p><pre><code># Install a package\n# pip install requests\n\n# Install a specific version\n# pip install requests==2.28.0\n\n# List installed packages\n# pip list\n\n# Show details about a package\n# pip show requests\n\n# Save all installed packages to a file\n# pip freeze > requirements.txt\n\n# Install all packages from requirements.txt\n# pip install -r requirements.txt\n\n# Uninstall a package\n# pip uninstall requests</code></pre><p>After installing, you import the package like any other module:</p><pre><code># After running: pip install requests\nimport requests\n\nresponse = requests.get(\"https://api.example.com/data\")\nprint(response.status_code)</code></pre><h3>9. Packages and __init__.py</h3><p>A <strong>package</strong> is a directory containing an <code>__init__.py</code> file and one or more modules:</p><pre><code># Directory structure:\n# mypackage/\n#     __init__.py\n#     math_utils.py\n#     string_utils.py\n#     file_utils.py</code></pre><p>The <code>__init__.py</code> file can be empty or contain initialization code. It tells Python that the directory is a package, not just a regular folder:</p><pre><code># mypackage/__init__.py\nfrom .math_utils import add, multiply\nfrom .string_utils import reverse_string\n\n# Now users can import directly from the package:\n# from mypackage import add, reverse_string</code></pre><p>Importing from packages:</p><pre><code># Import a specific module from the package\nfrom mypackage import math_utils\nprint(math_utils.add(2, 3))\n\n# Import a specific function from a module in the package\nfrom mypackage.math_utils import multiply\nprint(multiply(4, 5))\n\n# Import the package itself (uses __init__.py exports)\nimport mypackage\nprint(mypackage.add(2, 3))</code></pre><h3>10. Relative vs Absolute Imports</h3><p><strong>Absolute imports</strong> specify the full path from the project root:</p><pre><code># Absolute import (always works, always clear)\nfrom mypackage.math_utils import add\nfrom mypackage.string_utils import reverse_string</code></pre><p><strong>Relative imports</strong> use dots to refer to the current or parent package:</p><pre><code># Inside mypackage/file_utils.py\nfrom .math_utils import add          # Same package (one dot)\nfrom .string_utils import reverse_string\nfrom ..other_package import helper    # Parent package (two dots)</code></pre><p>Relative imports only work inside packages (not in standalone scripts). Absolute imports are recommended for clarity.</p><h3>11. Common Patterns</h3><h4>Utility Module Pattern</h4><pre><code># File: utils.py -- A collection of helper functions\ndef validate_email(email):\n    return \"@\" in email and \".\" in email\n\ndef format_currency(amount):\n    return f\"Rs. {amount:,.2f}\"\n\ndef clamp(value, min_val, max_val):\n    return max(min_val, min(value, max_val))</code></pre><h4>Config Module Pattern</h4><pre><code># File: config.py -- All configuration in one place\nDATABASE_HOST = \"localhost\"\nDATABASE_PORT = 5432\nDATABASE_NAME = \"school_db\"\n\nMAX_STUDENTS = 50\nDEFAULT_GRADE = \"A\"\n\nDEBUG = True</code></pre><pre><code># File: main.py\nimport config\n\nif config.DEBUG:\n    print(f\"Connecting to {config.DATABASE_HOST}:{config.DATABASE_PORT}\")</code></pre><h4>Module Search Path</h4><p>When you write <code>import something</code>, Python searches for the module in this order:</p><ol><li>The directory containing the script being run</li><li>Directories listed in the <code>PYTHONPATH</code> environment variable</li><li>The standard library directories</li><li>The <code>site-packages</code> directory (where pip installs packages)</li></ol><p>You can see the full search path with <code>sys.path</code>.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic import, from...import, and Aliasing",
+        "code": "# 1. import -- access via module.name\nimport math\nprint(f\"sqrt(49) = {math.sqrt(49)}\")\nprint(f\"pi = {math.pi:.4f}\")\n\n# 2. from...import -- access directly\nfrom math import ceil, floor\nprint(f\"ceil(3.2) = {ceil(3.2)}\")\nprint(f\"floor(3.8) = {floor(3.8)}\")\n\n# 3. import...as -- alias for convenience\nimport random as rnd\nrnd.seed(42)\nprint(f\"Random int: {rnd.randint(1, 100)}\")\n\n# 4. from...import...as\nfrom math import factorial as fact\nprint(f\"5! = {fact(5)}\")",
+        "language": "python",
+        "explanation": "Three import styles demonstrated. <code>import math</code> requires the <code>math.</code> prefix. <code>from math import ceil</code> lets you use <code>ceil()</code> directly. <code>import random as rnd</code> creates a shorter alias. All three achieve the same goal of making module code available.",
+        "output": "sqrt(49) = 7.0\npi = 3.1416\nceil(3.2) = 4\nfloor(3.8) = 3\nRandom int: 82\n5! = 120"
+      },
+      {
+        "title": "The __name__ == '__main__' Guard",
+        "code": "# Simulating how __name__ works\n# When a file is run directly, __name__ is \"__main__\"\n# When a file is imported, __name__ is the module name\n\ndef add(a, b):\n    return a + b\n\ndef multiply(a, b):\n    return a * b\n\nprint(f\"__name__ is: {__name__}\")\n\nif __name__ == \"__main__\":\n    # This block only runs when the file is executed directly\n    print(\"Running tests...\")\n    print(f\"add(3, 4) = {add(3, 4)}\")\n    print(f\"multiply(5, 6) = {multiply(5, 6)}\")\n    print(\"All tests passed!\")\nelse:\n    print(\"Module was imported, skipping tests\")",
+        "language": "python",
+        "explanation": "When this file is run directly, <code>__name__</code> equals <code>\"__main__\"</code>, so the test block executes. If another file imports this module, <code>__name__</code> equals the module name, so the test block is skipped. This is the standard pattern for writing modules that are also runnable scripts.",
+        "output": "__name__ is: __main__\nRunning tests...\nadd(3, 4) = 7\nmultiply(5, 6) = 30\nAll tests passed!"
+      },
+      {
+        "title": "Exploring Modules with dir() and help()",
+        "code": "import math\n\n# List all public names in the math module\npublic_names = [name for name in dir(math) if not name.startswith('_')]\nprint(f\"math module has {len(public_names)} public names\")\nprint(f\"First 10: {public_names[:10]}\")\n\n# Check if a name exists in a module\nprint(f\"\\n'sqrt' in dir(math): {'sqrt' in dir(math)}\")\nprint(f\"'log' in dir(math): {'log' in dir(math)}\")\nprint(f\"'hello' in dir(math): {'hello' in dir(math)}\")\n\n# Using dir() without arguments shows current scope\nimport random\nx = 10\nlocal_names = [n for n in dir() if not n.startswith('_')]\nprint(f\"\\nCurrent scope includes: {local_names}\")",
+        "language": "python",
+        "explanation": "<code>dir(module)</code> returns a list of all names defined in that module. Filtering out names starting with <code>_</code> shows only the public API. <code>dir()</code> without arguments shows names in the current scope, which includes imported modules and your own variables.",
+        "output": "math module has 45 public names\nFirst 10: ['acos', 'acosh', 'asin', 'asinh', 'atan', 'atan2', 'atanh', 'cbrt', 'ceil', 'comb']\n\n'sqrt' in dir(math): True\n'log' in dir(math): True\n'hello' in dir(math): False\n\nCurrent scope includes: ['local_names', 'math', 'public_names', 'random', 'x']"
+      },
+      {
+        "title": "Standard Library: math and random",
+        "code": "import math\nimport random\n\n# math module\nprint(\"--- math module ---\")\nprint(f\"sqrt(225) = {math.sqrt(225)}\")\nprint(f\"ceil(7.1) = {math.ceil(7.1)}\")\nprint(f\"floor(7.9) = {math.floor(7.9)}\")\nprint(f\"factorial(5) = {math.factorial(5)}\")\nprint(f\"gcd(24, 36) = {math.gcd(24, 36)}\")\nprint(f\"pow(2, 8) = {math.pow(2, 8)}\")\nprint(f\"log2(256) = {math.log2(256)}\")\n\n# random module\nrandom.seed(100)  # For reproducible output\nprint(\"\\n--- random module ---\")\nprint(f\"randint(1, 6) = {random.randint(1, 6)}\")\nprint(f\"random() = {random.random():.4f}\")\nprint(f\"choice(['A','B','C']) = {random.choice(['A','B','C'])}\")\n\nnumbers = [10, 20, 30, 40, 50]\nrandom.shuffle(numbers)\nprint(f\"Shuffled: {numbers}\")\n\nprint(f\"sample(range(50), 4) = {random.sample(range(50), 4)}\")",
+        "language": "python",
+        "explanation": "The <code>math</code> module provides mathematical functions that work with floats. The <code>random</code> module generates pseudo-random numbers. <code>random.seed()</code> sets the starting state for reproducible results. <code>shuffle()</code> modifies the list in place, while <code>sample()</code> returns a new list of unique selections.",
+        "output": "--- math module ---\nsqrt(225) = 15.0\nceil(7.1) = 8\nfloor(7.9) = 7\nfactorial(5) = 120\ngcd(24, 36) = 12\npow(2, 8) = 256.0\nlog2(256) = 8.0\n\n--- random module ---\nrandint(1, 6) = 1\nrandom() = 0.1456\nchoice(['A','B','C']) = B\nShuffled: [40, 50, 20, 30, 10]\nsample(range(50), 4) = [46, 29, 15, 45]"
+      },
+      {
+        "title": "Standard Library: datetime, os, and json",
+        "code": "from datetime import datetime, date, timedelta\nimport os\nimport json\n\n# datetime\nprint(\"--- datetime ---\")\nnow = datetime.now()\nprint(f\"Now: {now.strftime('%Y-%m-%d %H:%M')}\")\nprint(f\"Year: {now.year}, Month: {now.month}\")\n\nbirthday = date(2010, 5, 20)\ntoday = date.today()\nage_days = (today - birthday).days\nprint(f\"Days since 2010-05-20: {age_days}\")\n\nnext_week = today + timedelta(weeks=1)\nprint(f\"Next week: {next_week}\")\n\n# os\nprint(\"\\n--- os ---\")\nprint(f\"Current directory: {os.path.basename(os.getcwd())}\")\nprint(f\"Path join: {os.path.join('data', 'scores.csv')}\")\nprint(f\"Split ext: {os.path.splitext('report.pdf')}\")\n\n# json\nprint(\"\\n--- json ---\")\nstudent = {\"name\": \"Meera\", \"age\": 14, \"subjects\": [\"Math\", \"Python\"]}\njson_str = json.dumps(student)\nprint(f\"To JSON: {json_str}\")\n\nparsed = json.loads(json_str)\nprint(f\"From JSON: {parsed['name']}, age {parsed['age']}\")\nprint(f\"Type: {type(parsed)}\")",
+        "language": "python",
+        "explanation": "The <code>datetime</code> module handles dates and times. <code>strftime()</code> formats a datetime as a string. <code>timedelta</code> represents a duration. The <code>os</code> module provides operating system functions. <code>os.path</code> handles file paths in a cross-platform way. The <code>json</code> module converts between Python dictionaries and JSON strings using <code>dumps()</code> and <code>loads()</code>.",
+        "output": "--- datetime ---\nNow: 2026-04-06 14:30\nYear: 2026, Month: 4\nDays since 2010-05-20: 5800\nNext week: 2026-04-13\n\n--- os ---\nCurrent directory: frontend\nPath join: data/scores.csv\nSplit ext: ('report', '.pdf')\n\n--- json ---\nTo JSON: {\"name\": \"Meera\", \"age\": 14, \"subjects\": [\"Math\", \"Python\"]}\nFrom JSON: Meera, age 14\nType: <class 'dict'>"
+      },
+      {
+        "title": "Creating and Using Your Own Module",
+        "code": "# Simulating a custom module inline\n# In real code, this would be in a separate file: math_helpers.py\n\n# --- Content of math_helpers.py ---\ndef is_prime(n):\n    if n < 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n\ndef fibonacci(n):\n    sequence = []\n    a, b = 0, 1\n    for _ in range(n):\n        sequence.append(a)\n        a, b = b, a + b\n    return sequence\n\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\n# --- Using the module ---\n# In real code: import math_helpers\n\nprint(\"Primes under 20:\", [n for n in range(20) if is_prime(n)])\nprint(\"First 10 Fibonacci:\", fibonacci(10))\nprint(\"10! =\", factorial(10))\nprint()\n\n# The __name__ guard\nif __name__ == \"__main__\":\n    print(\"Running as main script\")\n    print(f\"is_prime(17) = {is_prime(17)}\")\n    print(f\"fibonacci(5) = {fibonacci(5)}\")",
+        "language": "python",
+        "explanation": "This demonstrates what a custom module looks like. In practice, the functions would be in a separate <code>.py</code> file. Other files would import it with <code>import math_helpers</code>. The <code>__name__</code> guard at the bottom ensures the test code only runs when the file is executed directly, not when it is imported.",
+        "output": "Primes under 20: [2, 3, 5, 7, 11, 13, 17, 19]\nFirst 10 Fibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]\n10! = 3628800\n\nRunning as main script\nis_prime(17) = True\nfibonacci(5) = [0, 1, 1, 2, 3]"
+      },
+      {
+        "title": "sys Module and Command-Line Arguments",
+        "code": "import sys\n\n# System information\nprint(f\"Python version: {sys.version.split()[0]}\")\nprint(f\"Platform: {sys.platform}\")\nprint(f\"Max integer size: {sys.maxsize}\")\n\n# Memory size of objects\nprint(f\"\\nSize of int 0: {sys.getsizeof(0)} bytes\")\nprint(f\"Size of int 1000: {sys.getsizeof(1000)} bytes\")\nprint(f\"Size of empty list: {sys.getsizeof([])} bytes\")\nprint(f\"Size of [1,2,3]: {sys.getsizeof([1,2,3])} bytes\")\nprint(f\"Size of empty string: {sys.getsizeof('')} bytes\")\nprint(f\"Size of 'hello': {sys.getsizeof('hello')} bytes\")\n\n# sys.argv (command-line arguments)\nprint(f\"\\nsys.argv: {sys.argv}\")\nprint(f\"Script name: {sys.argv[0] if sys.argv else 'N/A'}\")\n\n# Module search path (first 3 entries)\nprint(f\"\\nModule search path (first 3):\")\nfor p in sys.path[:3]:\n    print(f\"  {p}\")",
+        "language": "python",
+        "explanation": "The <code>sys</code> module provides access to Python interpreter internals. <code>sys.version</code> shows the Python version. <code>sys.getsizeof()</code> returns memory usage in bytes. <code>sys.argv</code> is a list where the first element is the script name and subsequent elements are command-line arguments. <code>sys.path</code> shows where Python looks for modules.",
+        "output": "Python version: 3.12.0\nPlatform: win32\nMax integer size: 9223372036854775807\n\nSize of int 0: 28 bytes\nSize of int 1000: 28 bytes\nSize of empty list: 56 bytes\nSize of [1,2,3]: 88 bytes\nSize of empty string: 49 bytes\nSize of 'hello': 54 bytes\n\nsys.argv: ['script.py']\nScript name: script.py\n\nModule search path (first 3):\n  /home/user/project\n  /usr/lib/python312.zip\n  /usr/lib/python3.12"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using from module import * (Wildcard Import)",
+        "wrongCode": "from math import *\nfrom random import *\n\n# Which module does 'log' come from?\nprint(log(100))   # math.log? random has no log, but what if both had one?\n\n# Even worse: name conflicts\n# If two modules define the same name, the second import overwrites the first",
+        "error": "No immediate error, but this pollutes the namespace. If two modules define the same name, one silently overwrites the other, causing subtle bugs.",
+        "correctCode": "import math\nimport random\n\nprint(math.log(100))  # Clear: this is from math\nprint(random.randint(1, 10))  # Clear: this is from random",
+        "explanation": "Wildcard imports (<code>from module import *</code>) dump all names from the module into your namespace. This makes it unclear where names come from and can cause silent name conflicts. Always use <code>import module</code> or <code>from module import specific_name</code>."
+      },
+      {
+        "title": "Forgetting the __name__ Guard",
+        "wrongCode": "# File: helpers.py\ndef greet(name):\n    return f\"Hello, {name}!\"\n\n# Test code at module level (no guard)\nprint(greet(\"Test\"))  # Prints every time the module is imported!",
+        "error": "When another file does import helpers, the test print runs unexpectedly, cluttering the output.",
+        "correctCode": "# File: helpers.py\ndef greet(name):\n    return f\"Hello, {name}!\"\n\nif __name__ == \"__main__\":\n    print(greet(\"Test\"))  # Only runs when helpers.py is executed directly",
+        "explanation": "Python executes all code in a module when it is imported. Without the <code>if __name__ == \"__main__\"</code> guard, test code and debug prints run every time someone imports your module. Always wrap test/demo code in this guard."
+      },
+      {
+        "title": "Circular Imports",
+        "wrongCode": "# File: module_a.py\nimport module_b\ndef func_a():\n    return module_b.func_b()\n\n# File: module_b.py\nimport module_a       # Circular! module_a imports module_b which imports module_a\ndef func_b():\n    return module_a.func_a()",
+        "error": "ImportError or AttributeError. When module_a imports module_b, module_b tries to import module_a, which is not fully loaded yet.",
+        "correctCode": "# Solution 1: Move the import inside the function\n# File: module_b.py\ndef func_b():\n    import module_a  # Import only when needed\n    return module_a.func_a()\n\n# Solution 2: Restructure to eliminate the cycle\n# Move shared code to a third module that both can import",
+        "explanation": "Circular imports happen when module A imports module B and module B imports module A. Python cannot finish loading either module. Fix this by moving imports inside functions (lazy import) or by restructuring your code to break the cycle."
+      },
+      {
+        "title": "Naming a File the Same as a Standard Library Module",
+        "wrongCode": "# If you create a file called random.py in your project:\n# File: random.py\ndef my_function():\n    pass\n\n# File: main.py\nimport random\nprint(random.randint(1, 10))  # AttributeError: module 'random' has no attribute 'randint'",
+        "error": "AttributeError. Python imports YOUR random.py instead of the standard library random module because it searches the current directory first.",
+        "correctCode": "# Rename your file to something else\n# File: my_random.py (not random.py)\ndef my_function():\n    pass\n\n# File: main.py\nimport random  # Now correctly imports the standard library\nprint(random.randint(1, 10))",
+        "explanation": "Never name your Python files the same as standard library modules (e.g., <code>random.py</code>, <code>math.py</code>, <code>os.py</code>, <code>json.py</code>). Python searches the current directory first, so your file shadows the standard library module."
+      },
+      {
+        "title": "Confusing json.dumps/loads with json.dump/load",
+        "wrongCode": "import json\n\ndata = {\"name\": \"Aarav\"}\n\n# Trying to write a dict to a file with dumps\nwith open(\"data.json\", \"w\") as f:\n    json.dumps(data, f)  # Wrong! dumps returns a string, does not write to file\n\n# Trying to parse a file with loads\nwith open(\"data.json\", \"r\") as f:\n    result = json.loads(f)  # Wrong! loads expects a string, not a file object",
+        "error": "TypeError in both cases. dumps() returns a string (does not take a file). loads() expects a string (not a file object).",
+        "correctCode": "import json\n\ndata = {\"name\": \"Aarav\"}\n\n# dump (no 's') writes to a file\nwith open(\"data.json\", \"w\") as f:\n    json.dump(data, f, indent=2)\n\n# load (no 's') reads from a file\nwith open(\"data.json\", \"r\") as f:\n    result = json.load(f)\n\n# dumps/loads work with STRINGS\njson_string = json.dumps(data)       # dict -> string\nparsed = json.loads(json_string)     # string -> dict",
+        "explanation": "The <code>s</code> in <code>dumps</code>/<code>loads</code> stands for \"string\". <code>json.dump()</code>/<code>json.load()</code> work with files. <code>json.dumps()</code>/<code>json.loads()</code> work with strings. This is one of the most common mix-ups when working with JSON in Python."
+      }
+    ],
+    "summary": [
+      "A module is any .py file containing Python code. You import modules to reuse functions, classes, and variables defined in other files. This avoids code duplication and keeps projects organized.",
+      "The import statement has three forms: 'import math' (access via math.sqrt), 'from math import sqrt' (access directly), and 'import math as m' (alias). Use 'import module' for clarity; use 'from module import name' when you need only specific items.",
+      "The __name__ == '__main__' guard prevents test code from running when a module is imported. When a file is run directly, __name__ is '__main__'. When imported, __name__ is the module name. Always use this guard for test/demo code.",
+      "The dir() function lists all names in a module. dir(math) shows everything in the math module. Filtering out names starting with _ shows the public API. This is useful for exploring unfamiliar modules.",
+      "Python's standard library includes math (sqrt, ceil, floor, pi, factorial), random (randint, choice, shuffle, sample), datetime (now, strftime, timedelta), os (getcwd, listdir, path.join), sys (argv, version, path), and json (dumps, loads, dump, load).",
+      "Third-party packages are installed with pip: 'pip install package_name'. Use 'pip list' to see installed packages, 'pip freeze > requirements.txt' to save dependencies, and 'pip install -r requirements.txt' to install from a requirements file.",
+      "A package is a directory containing __init__.py and module files. The __init__.py file marks the directory as a package and can export selected names. Packages let you organize related modules into a hierarchy.",
+      "Absolute imports (from mypackage.utils import helper) specify the full path and are always clear. Relative imports (from .utils import helper) use dots to reference the current package. Absolute imports are recommended for readability.",
+      "Never name your files the same as standard library modules (random.py, math.py, os.py). Python searches the current directory first, so your file would shadow the standard library module.",
+      "Common module patterns include utility modules (collections of helper functions), config modules (centralized settings), and the __name__ guard for modules that double as scripts."
+    ]
+  },
+  "relatedTopics": ["inheritance-and-polymorphism", "list-comprehensions-and-generators"],
+  "practice": {
+    "totalQuestions": 57,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>import math\nprint(math.sqrt(64))</code></pre>",
+        "hint": "math.sqrt() returns the square root as a float.",
+        "answer": "<code>8.0</code>",
+        "explanation": "<code>math.sqrt(64)</code> returns the square root of 64, which is 8.0. Note that it returns a float, not an integer."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from math import pi\nprint(round(pi, 2))</code></pre>",
+        "hint": "pi is approximately 3.14159. round() rounds to the given decimal places.",
+        "answer": "<code>3.14</code>",
+        "explanation": "<code>pi</code> is imported directly from math. <code>round(3.14159..., 2)</code> rounds to 2 decimal places, giving 3.14."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import math\nprint(math.ceil(4.1))\nprint(math.floor(4.9))</code></pre>",
+        "hint": "ceil rounds up, floor rounds down.",
+        "answer": "<code>5</code><br><code>4</code>",
+        "explanation": "<code>math.ceil(4.1)</code> rounds up to 5. <code>math.floor(4.9)</code> rounds down to 4. Both return integers."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>from math import factorial\nprint(factorial(5))</code></pre>",
+        "hint": "5! = 5 * 4 * 3 * 2 * 1",
+        "answer": "<code>120</code>",
+        "explanation": "<code>factorial(5)</code> computes 5! = 5 * 4 * 3 * 2 * 1 = 120. The function is imported directly from math, so no prefix is needed."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import math as m\nprint(m.gcd(12, 18))</code></pre>",
+        "hint": "gcd returns the greatest common divisor. math is aliased as m.",
+        "answer": "<code>6</code>",
+        "explanation": "The math module is imported with the alias <code>m</code>. <code>m.gcd(12, 18)</code> returns the greatest common divisor of 12 and 18, which is 6."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import random\nrandom.seed(0)\nprint(random.randint(1, 10))\nprint(random.randint(1, 10))\nrandom.seed(0)\nprint(random.randint(1, 10))</code></pre>",
+        "hint": "Setting the same seed produces the same sequence of random numbers.",
+        "answer": "<code>7</code><br><code>1</code><br><code>7</code>",
+        "explanation": "With seed(0), the first randint gives 7 and the second gives 1. Resetting the seed to 0 restarts the sequence, so the third call gives 7 again. Seeds make random output reproducible."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from datetime import date\n\nd1 = date(2026, 1, 1)\nd2 = date(2026, 4, 6)\ndiff = d2 - d1\nprint(diff.days)\nprint(type(diff).__name__)</code></pre>",
+        "hint": "Subtracting two date objects gives a timedelta.",
+        "answer": "<code>95</code><br><code>timedelta</code>",
+        "explanation": "Subtracting two <code>date</code> objects returns a <code>timedelta</code> object. From January 1 to April 6 is 95 days. The <code>.days</code> attribute gives the number of days as an integer."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import json\n\ndata = {\"name\": \"Aarav\", \"scores\": [85, 92]}\njson_str = json.dumps(data)\nprint(type(json_str).__name__)\nprint(json_str)\n\nparsed = json.loads(json_str)\nprint(type(parsed).__name__)\nprint(parsed[\"name\"])</code></pre>",
+        "hint": "dumps converts to string, loads converts back to dict.",
+        "answer": "<code>str</code><br><code>{\"name\": \"Aarav\", \"scores\": [85, 92]}</code><br><code>dict</code><br><code>Aarav</code>",
+        "explanation": "<code>json.dumps()</code> converts a Python dict to a JSON string. <code>json.loads()</code> parses a JSON string back into a Python dict. The round-trip preserves the data structure."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import os.path\n\nprint(os.path.join(\"folder\", \"subfolder\", \"file.txt\"))\nprint(os.path.splitext(\"report.pdf\"))\nprint(os.path.basename(\"/home/user/data.csv\"))</code></pre>",
+        "hint": "os.path functions handle file paths in a cross-platform way.",
+        "answer": "<code>folder/subfolder/file.txt</code><br><code>('report', '.pdf')</code><br><code>data.csv</code>",
+        "explanation": "<code>os.path.join()</code> combines path components with the correct separator. <code>splitext()</code> splits a filename into name and extension. <code>basename()</code> returns just the filename from a full path. (Note: on Windows, join uses backslashes.)"
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import math\n\nprint(math.pow(2, 10))\nprint(2 ** 10)\nprint(type(math.pow(2, 10)).__name__)\nprint(type(2 ** 10).__name__)</code></pre>",
+        "hint": "math.pow always returns a float. The ** operator preserves the integer type.",
+        "answer": "<code>1024.0</code><br><code>1024</code><br><code>float</code><br><code>int</code>",
+        "explanation": "<code>math.pow(2, 10)</code> returns 1024.0 (always a float). The <code>**</code> operator returns 1024 (an int when both operands are ints). Use <code>**</code> when you need an integer result; use <code>math.pow()</code> when you specifically need a float."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import json\n\npython_data = {\"active\": True, \"count\": None, \"items\": ()}\njson_str = json.dumps(python_data)\nprint(json_str)</code></pre>",
+        "hint": "JSON has different representations for True, None, and tuples.",
+        "answer": "<code>{\"active\": true, \"count\": null, \"items\": []}</code>",
+        "explanation": "When converting to JSON: Python <code>True</code> becomes JSON <code>true</code>, Python <code>None</code> becomes JSON <code>null</code>, and Python tuples become JSON arrays (since JSON has no tuple type). These conversions happen automatically."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import sys\n\na = []\nb = [1, 2, 3]\nc = \"hello\"\n\nprint(sys.getsizeof(a) < sys.getsizeof(b))\nprint(sys.getsizeof(\"\") < sys.getsizeof(c))\nprint(sys.getsizeof(0) == sys.getsizeof(1000))</code></pre>",
+        "hint": "Lists with more elements use more memory. Longer strings use more memory. Small ints have the same base size.",
+        "answer": "<code>True</code><br><code>True</code><br><code>True</code>",
+        "explanation": "An empty list uses less memory than a list with 3 elements (True). An empty string uses less memory than \"hello\" (True). Small integers like 0 and 1000 use the same base object size of 28 bytes in CPython (True). <code>sys.getsizeof()</code> returns the memory in bytes."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import math\n\nvalues = [0.1, 0.2, 0.3, 0.4]\nprint(sum(values))\nprint(math.fsum(values))\nprint(sum(values) == 1.0)\nprint(math.fsum(values) == 1.0)</code></pre>",
+        "hint": "Floating-point arithmetic has precision issues. math.fsum reduces these errors.",
+        "answer": "<code>0.9999999999999999</code><br><code>1.0</code><br><code>False</code><br><code>True</code>",
+        "explanation": "Due to floating-point precision, <code>sum([0.1, 0.2, 0.3, 0.4])</code> gives 0.9999999999999999, not exactly 1.0. <code>math.fsum()</code> uses a more accurate algorithm that avoids this rounding error, giving exactly 1.0."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import json\n\ndata = {\"b\": 2, \"a\": 1, \"c\": 3}\nprint(json.dumps(data))\nprint(json.dumps(data, sort_keys=True))\nprint(json.dumps(data, indent=2, sort_keys=True)[:20])</code></pre>",
+        "hint": "sort_keys orders dictionary keys alphabetically. indent adds pretty formatting.",
+        "answer": "<code>{\"b\": 2, \"a\": 1, \"c\": 3}</code><br><code>{\"a\": 1, \"b\": 2, \"c\": 3}</code><br><code>{\n  \"a\": 1,\n  \"b\":</code>",
+        "explanation": "By default, <code>json.dumps</code> preserves insertion order. <code>sort_keys=True</code> sorts keys alphabetically. <code>indent=2</code> adds newlines and 2-space indentation for readability. The slice <code>[:20]</code> takes only the first 20 characters of the pretty-printed output."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from math import sqrt, pow, pi\nimport math\n\nprint(sqrt(16))       # from...import\nprint(math.sqrt(16))  # import\nprint(sqrt is math.sqrt)</code></pre>",
+        "hint": "Both import styles access the same underlying function object.",
+        "answer": "<code>4.0</code><br><code>4.0</code><br><code>True</code>",
+        "explanation": "Both <code>sqrt</code> (from direct import) and <code>math.sqrt</code> (from module import) reference the exact same function object. <code>is</code> confirms they are the same object in memory. The import style affects how you access the function, not the function itself."
+      },
+      {
+        "id": "ts-16",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>json.dump()</code> and <code>json.dumps()</code>?",
+        "hint": "The 's' in dumps stands for 'string'.",
+        "answer": "<code>json.dump(data, file)</code> writes JSON directly to a file object. <code>json.dumps(data)</code> returns a JSON-formatted string. Similarly, <code>json.load(file)</code> reads from a file, while <code>json.loads(string)</code> parses a string. The 's' stands for 'string'.",
+        "explanation": "Use <code>dump</code>/<code>load</code> when working with files. Use <code>dumps</code>/<code>loads</code> when working with strings in memory. Mixing them up causes TypeError because dump/load expect file objects and dumps/loads expect strings."
+      },
+      {
+        "id": "ts-17",
+        "type": "conceptual",
+        "difficulty": "Hard",
+        "question": "Why should you never name your Python file <code>random.py</code> or <code>math.py</code>?",
+        "hint": "Think about the module search order. Where does Python look first?",
+        "answer": "Python searches for modules starting with the current directory. If you create a file called <code>random.py</code>, Python imports YOUR file instead of the standard library <code>random</code> module. This shadows the standard library module, causing <code>AttributeError</code> when you try to use functions like <code>random.randint()</code>.",
+        "explanation": "The module search order is: current directory, PYTHONPATH, standard library, site-packages. Since the current directory comes first, a file named after a standard library module will always be found first, breaking all code that tries to use the real module."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import math\nprint(math.ceil(-3.2))\nprint(math.floor(-3.2))</code></pre>",
+        "hint": "ceil goes toward positive infinity, floor goes toward negative infinity.",
+        "answer": "<code>-3</code><br><code>-4</code>",
+        "explanation": "<code>math.ceil(-3.2)</code> rounds toward positive infinity, giving -3. <code>math.floor(-3.2)</code> rounds toward negative infinity, giving -4. This is different from rounding toward zero."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>import random\nrandom.seed(42)\ncolors = [\"red\", \"green\", \"blue\"]\nprint(random.choice(colors))\nprint(random.choice(colors))</code></pre>",
+        "hint": "With a fixed seed, the sequence is deterministic.",
+        "answer": "<code>green</code><br><code>green</code>",
+        "explanation": "With <code>seed(42)</code>, the random sequence is fixed. <code>random.choice()</code> picks an element based on the internal state. Both calls happen to select \"green\" with this particular seed and list."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import json\n\noriginal = {\"x\": (1, 2, 3)}\njson_str = json.dumps(original)\nrestored = json.loads(json_str)\n\nprint(type(original[\"x\"]).__name__)\nprint(type(restored[\"x\"]).__name__)\nprint(original == restored)</code></pre>",
+        "hint": "JSON has no tuple type. What does a tuple become after JSON round-trip?",
+        "answer": "<code>tuple</code><br><code>list</code><br><code>False</code>",
+        "explanation": "The original value is a tuple, but JSON has no tuple type, so <code>json.dumps()</code> converts it to a JSON array. When <code>json.loads()</code> parses it back, it becomes a Python list. The dictionaries are not equal because a tuple and a list are different types."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from math import sqrt\n\ndef distance(x1, y1, x2, y2):\n    return sqrt((x2-x1)**2 + (y2-y1)**2)\n\nprint(distance(0, 0, 3, 4))\nprint(distance(1, 1, 4, 5))</code></pre>",
+        "hint": "This is the Euclidean distance formula. sqrt(9+16) = sqrt(25) = 5.",
+        "answer": "<code>5.0</code><br><code>5.0</code>",
+        "explanation": "Distance from (0,0) to (3,4): sqrt(9+16) = sqrt(25) = 5.0. Distance from (1,1) to (4,5): sqrt(9+16) = sqrt(25) = 5.0. Both happen to give the same result because the differences are (3,4) in both cases."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from datetime import timedelta\n\none_week = timedelta(weeks=1)\ntwo_days = timedelta(days=2)\n\ntotal = one_week + two_days\nprint(total.days)\nprint(total > one_week)</code></pre>",
+        "hint": "timedelta objects can be added and compared.",
+        "answer": "<code>9</code><br><code>True</code>",
+        "explanation": "One week is 7 days plus 2 days equals 9 days. <code>total.days</code> gives 9. <code>total > one_week</code> is True because 9 days is more than 7 days. Timedelta objects support arithmetic and comparison."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>import math\n\nnumbers = [4, 9, 16, 25, 36]\nroots = [math.sqrt(n) for n in numbers]\nprint(roots)\nprint([int(r) for r in roots])</code></pre>",
+        "hint": "math.sqrt returns floats. int() truncates the decimal.",
+        "answer": "<code>[2.0, 3.0, 4.0, 5.0, 6.0]</code><br><code>[2, 3, 4, 5, 6]</code>",
+        "explanation": "<code>math.sqrt()</code> returns floats: [2.0, 3.0, 4.0, 5.0, 6.0]. Converting each to <code>int()</code> gives [2, 3, 4, 5, 6]. Since all these are perfect squares, the conversion is exact."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import json\n\nclass Student:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\ns = Student(\"Priya\", 15)\n\ntry:\n    print(json.dumps(s))\nexcept TypeError as e:\n    print(f\"Error: {type(e).__name__}\")\n    print(json.dumps(s.__dict__))</code></pre>",
+        "hint": "json.dumps cannot serialize custom objects directly. __dict__ gives the object's attributes as a dict.",
+        "answer": "<code>Error: TypeError</code><br><code>{\"name\": \"Priya\", \"age\": 15}</code>",
+        "explanation": "<code>json.dumps()</code> cannot serialize custom class instances directly -- it raises <code>TypeError</code>. However, <code>s.__dict__</code> returns <code>{\"name\": \"Priya\", \"age\": 15}</code>, which is a plain dict that JSON can serialize."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import math\n\ndef classify_number(n):\n    if math.isinf(n):\n        return \"infinite\"\n    if math.isnan(n):\n        return \"not a number\"\n    if n == int(n):\n        return \"whole\"\n    return \"decimal\"\n\nprint(classify_number(5.0))\nprint(classify_number(3.14))\nprint(classify_number(float('inf')))\nprint(classify_number(float('nan')))</code></pre>",
+        "hint": "math.isinf and math.isnan check for special float values.",
+        "answer": "<code>whole</code><br><code>decimal</code><br><code>infinite</code><br><code>not a number</code>",
+        "explanation": "5.0 equals int(5.0)=5, so it is \"whole\". 3.14 does not equal 3, so \"decimal\". <code>float('inf')</code> is detected by <code>math.isinf()</code>. <code>float('nan')</code> is detected by <code>math.isnan()</code>. These special float values are part of the IEEE 754 standard."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import random\n\nrandom.seed(10)\nnums = list(range(1, 6))  # [1, 2, 3, 4, 5]\n\nsampled = random.sample(nums, 3)\nprint(f\"sample: {sampled}\")\nprint(f\"original: {nums}\")\n\nrandom.shuffle(nums)\nprint(f\"shuffled: {nums}\")</code></pre>",
+        "hint": "sample returns a new list (original unchanged). shuffle modifies the list in place.",
+        "answer": "<code>sample: [2, 1, 5]</code><br><code>original: [1, 2, 3, 4, 5]</code><br><code>shuffled: [5, 3, 4, 1, 2]</code>",
+        "explanation": "<code>random.sample()</code> returns a new list of 3 unique elements without modifying the original. <code>random.shuffle()</code> modifies the list in place and returns None. This distinction is important: sample creates a new list, shuffle changes the existing one."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>import math\n\nprint(math.log(1))      # Natural log of 1\nprint(math.log(math.e)) # Natural log of e\nprint(math.log(100, 10)) # Log base 10 of 100\nprint(math.log2(8))      # Log base 2 of 8</code></pre>",
+        "hint": "ln(1) = 0, ln(e) = 1, log10(100) = 2, log2(8) = 3.",
+        "answer": "<code>0.0</code><br><code>1.0</code><br><code>2.0</code><br><code>3.0</code>",
+        "explanation": "The natural log of 1 is 0. The natural log of e is 1. Log base 10 of 100 is 2 (10^2 = 100). Log base 2 of 8 is 3 (2^3 = 8). <code>math.log(x)</code> defaults to natural log; <code>math.log(x, base)</code> uses a custom base."
+      },
+      {
+        "id": "mx-11",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What happens when Python executes <code>import mymodule</code> for the first time?",
+        "hint": "Think about module search, execution, and caching.",
+        "answer": "Python (1) searches for <code>mymodule.py</code> in the module search path (sys.path), (2) creates a new module object, (3) executes all the code in the file from top to bottom, (4) binds the module object to the name <code>mymodule</code> in the current namespace, and (5) caches the module in <code>sys.modules</code> so subsequent imports use the cached version without re-executing the code.",
+        "explanation": "This is why top-level code (print statements, variable assignments) in a module runs during import. It also explains why the __name__ guard is needed -- the module code executes on import. The caching in sys.modules means the module code runs only once, even if imported from multiple files."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is a module in Python?",
+        "options": [
+          "A built-in function",
+          "A .py file containing Python code",
+          "A special data type",
+          "A loop structure"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A module is simply a <code>.py</code> file containing Python code (functions, classes, variables). Any Python file can be imported as a module."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Which statement imports only the sqrt function from the math module?",
+        "options": [
+          "import math.sqrt",
+          "from math import sqrt",
+          "import sqrt from math",
+          "using math import sqrt"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>from math import sqrt</code> imports only <code>sqrt</code> into your namespace. Option A tries to import a sub-module (not valid for functions). Options C and D are not valid Python syntax."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does import random as rnd do?",
+        "options": [
+          "Creates a copy of the random module named rnd",
+          "Imports the random module and creates an alias rnd",
+          "Renames the random module permanently",
+          "Imports only the rnd function from random"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>as</code> keyword creates an alias. <code>rnd</code> is just another name for the same module object. The module is not copied or renamed -- you simply refer to it using a shorter name."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What does math.ceil(3.1) return?",
+        "options": [
+          "3",
+          "4",
+          "3.0",
+          "3.1"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>math.ceil()</code> returns the smallest integer greater than or equal to the argument. Since 3.1 is between 3 and 4, ceil returns 4."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which function from the random module picks a random element from a list?",
+        "options": [
+          "random.pick()",
+          "random.select()",
+          "random.choice()",
+          "random.get()"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>random.choice(sequence)</code> returns a randomly selected element from a non-empty sequence. The other function names do not exist in the random module."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Easy",
+        "question": "What does the __name__ variable equal when a Python file is run directly?",
+        "options": [
+          "The filename",
+          "\"__main__\"",
+          "\"module\"",
+          "None"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When a Python file is executed directly (not imported), <code>__name__</code> is set to <code>\"__main__\"</code>. When the file is imported as a module, <code>__name__</code> is set to the module name."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the purpose of __init__.py in a directory?",
+        "options": [
+          "It initializes all variables to zero",
+          "It marks the directory as a Python package",
+          "It runs before every function call",
+          "It is required for every Python file"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The <code>__init__.py</code> file tells Python that the directory should be treated as a package (a collection of modules). It can be empty or contain initialization code and exports."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does pip install requests do?",
+        "options": [
+          "Imports the requests module",
+          "Downloads and installs the requests package from PyPI",
+          "Creates a file called requests.py",
+          "Enables internet access in Python"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>pip install</code> downloads a package from the Python Package Index (PyPI) and installs it on your system. After installation, you can use <code>import requests</code> in your code."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does json.dumps() do?",
+        "options": [
+          "Reads JSON from a file",
+          "Converts a JSON string to a Python dict",
+          "Converts a Python object to a JSON string",
+          "Deletes a JSON file"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>json.dumps()</code> (dump string) converts a Python object (dict, list, etc.) to a JSON-formatted string. Option B describes <code>json.loads()</code>. Option A describes <code>json.load()</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which command saves all installed package names and versions to a file?",
+        "options": [
+          "pip list > packages.txt",
+          "pip save requirements.txt",
+          "pip freeze > requirements.txt",
+          "pip export requirements.txt"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>pip freeze</code> outputs installed packages in a format suitable for <code>requirements.txt</code>. The <code>></code> redirects the output to a file. <code>pip list</code> shows packages in a human-readable table format, not the requirements format."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "In which order does Python search for modules?",
+        "options": [
+          "Standard library, current directory, site-packages",
+          "Current directory, PYTHONPATH, standard library, site-packages",
+          "site-packages, current directory, standard library",
+          "PYTHONPATH, standard library, current directory"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python searches: (1) the directory containing the running script, (2) directories in PYTHONPATH, (3) standard library directories, (4) site-packages (where pip installs). This is why naming a file after a standard library module causes shadowing."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Medium",
+        "question": "What does random.shuffle(my_list) return?",
+        "options": [
+          "A new shuffled list",
+          "The original list, shuffled",
+          "None (it shuffles in place)",
+          "A random element from the list"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>random.shuffle()</code> modifies the list in place and returns <code>None</code>. This is unlike <code>random.sample()</code>, which returns a new list. A common mistake is writing <code>x = random.shuffle(my_list)</code>, which sets x to None."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the difference between a module and a package?",
+        "options": [
+          "There is no difference",
+          "A module is a .py file; a package is a directory with __init__.py containing modules",
+          "A package is a .py file; a module is a directory",
+          "Modules are built-in; packages are third-party"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A module is a single <code>.py</code> file. A package is a directory that contains an <code>__init__.py</code> file and one or more modules. Packages can also contain sub-packages (nested directories with their own <code>__init__.py</code>)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What happens when you import a module that has already been imported?",
+        "options": [
+          "The module is re-executed from scratch",
+          "Python uses the cached version from sys.modules",
+          "An ImportError is raised",
+          "The previous import is overwritten"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python caches imported modules in <code>sys.modules</code>. On subsequent imports, Python returns the cached module object without re-executing the file. This is why module-level code runs only once, even if the module is imported from multiple files."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What is a relative import in Python?",
+        "options": [
+          "Importing a module by its full path name",
+          "Using dot notation to import from the current or parent package",
+          "Importing a module that is related to the current one",
+          "Importing a module conditionally"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Relative imports use dots: <code>from .utils import helper</code> (current package) or <code>from ..parent import something</code> (parent package). They only work inside packages. Absolute imports (full path from project root) are generally recommended for clarity."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Why is from module import * considered bad practice?",
+        "options": [
+          "It is slower than regular import",
+          "It only works with built-in modules",
+          "It pollutes the namespace and can cause name conflicts",
+          "It imports private functions that should not be used"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Wildcard imports dump all public names from a module into your namespace. This makes it unclear where names come from, and if two modules define the same name, one silently overwrites the other. This leads to subtle, hard-to-find bugs."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does dir() return when called without arguments?",
+        "options": [
+          "All built-in function names",
+          "All names in the current local scope",
+          "All installed module names",
+          "The current directory's files"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>dir()</code> without arguments returns a list of names defined in the current local scope, including imported modules, variables, functions, and classes. <code>dir(module)</code> with an argument returns names defined in that module."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What converts a Python None value to when using json.dumps()?",
+        "options": [
+          "\"None\"",
+          "null",
+          "0",
+          "false"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python <code>None</code> becomes JSON <code>null</code>. Other conversions: Python <code>True</code>/<code>False</code> become JSON <code>true</code>/<code>false</code>. Python tuples become JSON arrays. Python dicts become JSON objects."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Module Explorer",
+        "difficulty": "Easy",
+        "description": "Write a function explore_module(module) that takes an imported module and returns a dictionary with three keys: 'name' (the module name), 'count' (number of public names), and 'functions' (list of public names that are callable). Test it with the math module.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Module: math\nPublic names: 45\nFirst 5 callable: ['acos', 'acosh', 'asin', 'asinh', 'atan']",
+        "constraints": "Use dir() to get names. Filter names starting with _ as non-public. Use callable() to check if a name refers to a function.",
+        "solution": "import math\n\ndef explore_module(module):\n    public_names = [n for n in dir(module) if not n.startswith('_')]\n    functions = [n for n in public_names if callable(getattr(module, n))]\n    return {\n        'name': module.__name__,\n        'count': len(public_names),\n        'functions': functions\n    }\n\nresult = explore_module(math)\nprint(f\"Module: {result['name']}\")\nprint(f\"Public names: {result['count']}\")\nprint(f\"First 5 callable: {result['functions'][:5]}\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "JSON Config Manager",
+        "difficulty": "Easy",
+        "description": "Write two functions: save_config(filename, config_dict) that saves a dictionary to a JSON file with 2-space indentation, and load_config(filename, defaults) that loads a JSON file and merges it with a defaults dictionary (defaults are used for any missing keys).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Saved config to settings.json\nLoaded: {'theme': 'dark', 'font_size': 14, 'language': 'en', 'auto_save': True}",
+        "constraints": "Use json.dump and json.load. Handle FileNotFoundError in load_config.",
+        "solution": "import json\n\ndef save_config(filename, config_dict):\n    with open(filename, 'w') as f:\n        json.dump(config_dict, f, indent=2)\n    print(f\"Saved config to {filename}\")\n\ndef load_config(filename, defaults=None):\n    if defaults is None:\n        defaults = {}\n    try:\n        with open(filename, 'r') as f:\n            config = json.load(f)\n    except FileNotFoundError:\n        config = {}\n    merged = {**defaults, **config}\n    return merged\n\ndefaults = {'theme': 'light', 'font_size': 12, 'language': 'en', 'auto_save': True}\nuser_config = {'theme': 'dark', 'font_size': 14}\n\nsave_config('settings.json', user_config)\nresult = load_config('settings.json', defaults)\nprint(f\"Loaded: {result}\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Random Password Generator",
+        "difficulty": "Easy",
+        "description": "Write a function generate_password(length, include_digits=True, include_symbols=True) using the random module. The password must contain at least one lowercase letter, one uppercase letter, and (if enabled) one digit and one symbol. Shuffle the final result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Password (12 chars): kA3$mN7xR!pQ\nPassword (8, no symbols): aB3nK8mR\nPassword (6, letters only): kRmNaB",
+        "constraints": "Use random.choice for character selection and random.shuffle for mixing. Ensure minimum character type requirements are met.",
+        "solution": "import random\nimport string\n\ndef generate_password(length=12, include_digits=True, include_symbols=True):\n    if length < 4:\n        length = 4\n    \n    password = []\n    password.append(random.choice(string.ascii_lowercase))\n    password.append(random.choice(string.ascii_uppercase))\n    \n    pool = string.ascii_letters\n    if include_digits:\n        password.append(random.choice(string.digits))\n        pool += string.digits\n    if include_symbols:\n        password.append(random.choice('!@#$%&*'))\n        pool += '!@#$%&*'\n    \n    remaining = length - len(password)\n    for _ in range(remaining):\n        password.append(random.choice(pool))\n    \n    random.shuffle(password)\n    return ''.join(password)\n\nrandom.seed(42)\nprint(f\"Password (12 chars): {generate_password(12)}\")\nprint(f\"Password (8, no symbols): {generate_password(8, include_symbols=False)}\")\nprint(f\"Password (6, letters only): {generate_password(6, include_digits=False, include_symbols=False)}\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Date Calculator",
+        "difficulty": "Medium",
+        "description": "Write a class DateCalculator with methods: days_between(date_str1, date_str2) that returns days between two dates in 'YYYY-MM-DD' format, add_days(date_str, days) that returns a new date string, and day_of_week(date_str) that returns the weekday name. Handle invalid date formats with a ValueError.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Days between 2026-01-01 and 2026-04-06: 95\nAdd 30 days to 2026-04-06: 2026-05-06\nDay of week for 2026-04-06: Monday",
+        "constraints": "Use datetime.strptime for parsing and strftime for formatting. Handle ValueError for bad date strings.",
+        "solution": "from datetime import datetime, timedelta\n\nclass DateCalculator:\n    DATE_FORMAT = '%Y-%m-%d'\n    \n    def _parse(self, date_str):\n        try:\n            return datetime.strptime(date_str, self.DATE_FORMAT)\n        except ValueError:\n            raise ValueError(f\"Invalid date format: {date_str}. Expected YYYY-MM-DD\")\n    \n    def days_between(self, date_str1, date_str2):\n        d1 = self._parse(date_str1)\n        d2 = self._parse(date_str2)\n        return abs((d2 - d1).days)\n    \n    def add_days(self, date_str, days):\n        d = self._parse(date_str)\n        new_date = d + timedelta(days=days)\n        return new_date.strftime(self.DATE_FORMAT)\n    \n    def day_of_week(self, date_str):\n        d = self._parse(date_str)\n        return d.strftime('%A')\n\ncalc = DateCalculator()\nprint(f\"Days between 2026-01-01 and 2026-04-06: {calc.days_between('2026-01-01', '2026-04-06')}\")\nprint(f\"Add 30 days to 2026-04-06: {calc.add_days('2026-04-06', 30)}\")\nprint(f\"Day of week for 2026-04-06: {calc.day_of_week('2026-04-06')}\")\n\ntry:\n    calc.days_between('2026-13-01', '2026-01-01')\nexcept ValueError as e:\n    print(f\"Error: {e}\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "File Organizer Simulator",
+        "difficulty": "Medium",
+        "description": "Write a function organize_files(file_list) that takes a list of filenames and returns a dictionary categorizing them by extension. Use os.path.splitext to extract extensions. Categories: 'images' (.jpg, .png, .gif), 'documents' (.pdf, .docx, .txt), 'code' (.py, .js, .html), 'other' (everything else). Also return a count summary.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "images: ['photo.jpg', 'logo.png']\ndocuments: ['report.pdf', 'notes.txt']\ncode: ['main.py', 'index.html']\nother: ['data.csv']\nSummary: images=2, documents=2, code=2, other=1",
+        "constraints": "Use os.path.splitext. Handle files with no extension. Case-insensitive extension matching.",
+        "solution": "import os.path\n\ndef organize_files(file_list):\n    categories = {\n        'images': {'.jpg', '.jpeg', '.png', '.gif', '.bmp'},\n        'documents': {'.pdf', '.docx', '.doc', '.txt', '.xlsx'},\n        'code': {'.py', '.js', '.html', '.css', '.java', '.cpp'}\n    }\n    \n    result = {'images': [], 'documents': [], 'code': [], 'other': []}\n    \n    for filename in file_list:\n        _, ext = os.path.splitext(filename)\n        ext = ext.lower()\n        \n        placed = False\n        for category, extensions in categories.items():\n            if ext in extensions:\n                result[category].append(filename)\n                placed = True\n                break\n        \n        if not placed:\n            result['other'].append(filename)\n    \n    return result\n\nfiles = ['photo.jpg', 'main.py', 'report.pdf', 'logo.png', 'notes.txt', 'index.html', 'data.csv']\norganized = organize_files(files)\n\nfor category, file_list in organized.items():\n    if file_list:\n        print(f\"{category}: {file_list}\")\n\nsummary = ', '.join(f\"{k}={len(v)}\" for k, v in organized.items())\nprint(f\"Summary: {summary}\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Statistics Module",
+        "difficulty": "Medium",
+        "description": "Create a module-like structure (using a class to simulate) called Statistics with methods: mean(data), median(data), mode(data), std_dev(data), and describe(data) which returns a summary dict. Use only the math module (do not use the statistics module). Include a __name__ guard to run tests.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Mean: 5.5\nMedian: 5.5\nMode: 3\nStd Dev: 2.87\nSummary: {'count': 10, 'mean': 5.5, 'median': 5.5, 'min': 1, 'max': 10, 'std_dev': 2.87}",
+        "constraints": "Use math.sqrt for standard deviation. Handle edge cases (empty list, single element). Mode should return the most frequent value.",
+        "solution": "import math\n\nclass Statistics:\n    @staticmethod\n    def mean(data):\n        if not data:\n            return 0\n        return sum(data) / len(data)\n    \n    @staticmethod\n    def median(data):\n        if not data:\n            return 0\n        sorted_data = sorted(data)\n        n = len(sorted_data)\n        mid = n // 2\n        if n % 2 == 0:\n            return (sorted_data[mid - 1] + sorted_data[mid]) / 2\n        return sorted_data[mid]\n    \n    @staticmethod\n    def mode(data):\n        if not data:\n            return None\n        freq = {}\n        for x in data:\n            freq[x] = freq.get(x, 0) + 1\n        return max(freq, key=freq.get)\n    \n    @staticmethod\n    def std_dev(data):\n        if len(data) < 2:\n            return 0\n        avg = sum(data) / len(data)\n        variance = sum((x - avg) ** 2 for x in data) / len(data)\n        return round(math.sqrt(variance), 2)\n    \n    @staticmethod\n    def describe(data):\n        stats = Statistics\n        return {\n            'count': len(data),\n            'mean': stats.mean(data),\n            'median': stats.median(data),\n            'min': min(data),\n            'max': max(data),\n            'std_dev': stats.std_dev(data)\n        }\n\nif __name__ == \"__main__\":\n    data = [1, 2, 3, 3, 4, 5, 6, 7, 8, 10]\n    stats = Statistics\n    print(f\"Mean: {stats.mean(data)}\")\n    print(f\"Median: {stats.median(data)}\")\n    print(f\"Mode: {stats.mode(data)}\")\n    print(f\"Std Dev: {stats.std_dev(data)}\")\n    print(f\"Summary: {stats.describe(data)}\")"
+      },
+      {
+        "id": "cc-7",
+        "title": "Package Structure Validator",
+        "difficulty": "Hard",
+        "description": "Write a function validate_package(structure) that takes a nested dictionary representing a directory structure and checks if it is a valid Python package. A valid package must have __init__.py in each directory that is treated as a package. Return a list of issues found (missing __init__.py, empty packages, naming conflicts with standard library).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Issues found:\n- Missing __init__.py in 'mypackage/utils/'\n- Package name 'random' conflicts with standard library\n- Empty package 'mypackage/empty/'",
+        "constraints": "Use a recursive approach. Check names against a list of common standard library modules.",
+        "solution": "import sys\n\ndef validate_package(structure, path=\"\", stdlib_modules=None):\n    if stdlib_modules is None:\n        stdlib_modules = {'os', 'sys', 'math', 'random', 'json', 'datetime',\n                         'collections', 'itertools', 'functools', 'string',\n                         'io', 'time', 're', 'pathlib', 'typing', 'abc'}\n    \n    issues = []\n    \n    for name, contents in structure.items():\n        current_path = f\"{path}{name}/\" if path else f\"{name}/\"\n        \n        if isinstance(contents, dict):\n            if name in stdlib_modules:\n                issues.append(f\"Package name '{name}' conflicts with standard library\")\n            \n            if '__init__.py' not in contents:\n                issues.append(f\"Missing __init__.py in '{current_path}'\")\n            \n            sub_items = {k: v for k, v in contents.items() if k != '__init__.py'}\n            if not sub_items:\n                issues.append(f\"Empty package '{current_path}'\")\n            \n            sub_dirs = {k: v for k, v in contents.items() if isinstance(v, dict)}\n            for sub_name, sub_contents in sub_dirs.items():\n                issues.extend(validate_package(\n                    {sub_name: sub_contents}, current_path, stdlib_modules\n                ))\n    \n    return issues\n\npackage_structure = {\n    'mypackage': {\n        '__init__.py': None,\n        'core.py': None,\n        'utils': {\n            'helpers.py': None\n        },\n        'random': {\n            '__init__.py': None,\n            'generator.py': None\n        },\n        'empty': {\n            '__init__.py': None\n        }\n    }\n}\n\nissues = validate_package(package_structure)\nif issues:\n    print(\"Issues found:\")\n    for issue in issues:\n        print(f\"- {issue}\")\nelse:\n    print(\"Package structure is valid!\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Module Dependency Analyzer",
+        "difficulty": "Hard",
+        "description": "Write a function analyze_imports(code_string) that parses Python code (as a string) and extracts all import statements. Return a dictionary with 'standard' (standard library), 'third_party' (known third-party), and 'local' (assumed local) module names. Also detect potential circular import risks by finding mutual imports in a dict of module_name: code_string pairs.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "standard: ['math', 'os', 'json']\nthird_party: ['requests', 'numpy']\nlocal: ['my_utils', 'config']\nCircular risk: module_a <-> module_b",
+        "constraints": "Parse import and from...import statements using string operations. Categorize against a known list of standard library modules.",
+        "solution": "def analyze_imports(code_string):\n    stdlib = {'os', 'sys', 'math', 'random', 'json', 'datetime', 'collections',\n              'itertools', 'functools', 'string', 'io', 'time', 're', 'pathlib',\n              'typing', 'abc', 'csv', 'hashlib', 'logging', 'unittest', 'copy',\n              'pprint', 'textwrap', 'enum', 'dataclasses', 'contextlib'}\n    third_party = {'requests', 'numpy', 'pandas', 'flask', 'django', 'pytest',\n                   'scipy', 'matplotlib', 'sqlalchemy', 'pillow', 'beautifulsoup4'}\n    \n    imports = {'standard': [], 'third_party': [], 'local': []}\n    \n    for line in code_string.strip().split('\\n'):\n        line = line.strip()\n        module = None\n        \n        if line.startswith('import '):\n            parts = line.replace('import ', '').split(',')\n            for part in parts:\n                module = part.strip().split(' as ')[0].split('.')[0]\n                if module in stdlib:\n                    imports['standard'].append(module)\n                elif module in third_party:\n                    imports['third_party'].append(module)\n                else:\n                    imports['local'].append(module)\n        elif line.startswith('from '):\n            module = line.split(' ')[1].split('.')[0]\n            if module in stdlib:\n                imports['standard'].append(module)\n            elif module in third_party:\n                imports['third_party'].append(module)\n            elif not module.startswith('.'):\n                imports['local'].append(module)\n    \n    for key in imports:\n        imports[key] = sorted(set(imports[key]))\n    \n    return imports\n\ndef find_circular_risks(modules_code):\n    module_imports = {}\n    for name, code in modules_code.items():\n        result = analyze_imports(code)\n        module_imports[name] = result['local']\n    \n    risks = []\n    checked = set()\n    for mod_a, deps_a in module_imports.items():\n        for mod_b, deps_b in module_imports.items():\n            if mod_a != mod_b and (mod_b, mod_a) not in checked:\n                if mod_b in deps_a and mod_a in deps_b:\n                    risks.append((mod_a, mod_b))\n                    checked.add((mod_a, mod_b))\n    return risks\n\ncode = \"\"\"import math\nimport os\nimport json\nimport requests\nimport numpy as np\nfrom datetime import datetime\nfrom my_utils import helper\nimport config\"\"\"\n\nresult = analyze_imports(code)\nfor category, modules in result.items():\n    print(f\"{category}: {modules}\")\n\nmodules = {\n    'module_a': 'import module_b\\nimport math',\n    'module_b': 'import module_a\\nimport os',\n    'module_c': 'import module_a'\n}\n\nrisks = find_circular_risks(modules)\nfor a, b in risks:\n    print(f\"Circular risk: {a} <-> {b}\")"
+      }
+    ]
+  }
+}

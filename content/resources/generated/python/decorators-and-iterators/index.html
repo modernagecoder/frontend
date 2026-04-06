@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decorators and Iterators - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Understand the iterator protocol, create custom iterators, and use decorators to modify functions.">
+    <meta name="keywords" content="decorators and iterators, python tutorial, python decorators and iterators, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+    <meta property="og:title" content="Decorators and Iterators - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Understand the iterator protocol, create custom iterators, and use decorators to modify functions.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/decorators-and-iterators">
+    <meta name="twitter:title" content="Decorators and Iterators - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Understand the iterator protocol, create custom iterators, and use decorators to modify functions.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Decorators and Iterators",
+    "description": "Understand the iterator protocol, create custom iterators, and use decorators to modify functions.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators"
+    },
+    "educationalLevel": "Advanced",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Decorators and Iterators",
+        "item": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Return the Result from the Wrapper",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The wrapper function must capture and return the original function's return value. Without <code>return func(*args, **kwargs)</code>, the wrapper implicitly returns <code>None</code>, silently discarding the function's actual result."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Forgetting functools.wraps",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without <code>@wraps(func)</code>, the decorated function loses its original name and docstring. This makes debugging difficult because stack traces and <code>help()</code> show 'wrapper' instead of the actual function name. Always use <code>@wraps(func)</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Calling the Decorator Instead of Applying It",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>@my_decorator</code> (no parentheses) applies my_decorator to the function. <code>@my_decorator()</code> (with parentheses) calls my_decorator first and uses the return value as the decorator. Only use parentheses when the decorator is a factory that takes arguments."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Confusing Iterable vs Iterator",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A list is <strong>iterable</strong> (has <code>__iter__</code>) but not an <strong>iterator</strong> (does not have <code>__next__</code>). You must call <code>iter()</code> on it to get an iterator object, which does have <code>__next__</code>. The for loop does this automatically, which is why <code>for x in my_list</code> works."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Decorator Stacking Order Confusion",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Decorators apply bottom to top: <code>@decorator_b</code> wraps the function first, then <code>@decorator_a</code> wraps the result. When the function is called, execution goes top to bottom: decorator_a's wrapper runs first, then calls decorator_b's wrapper, which calls the original function."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Decorators and Iterators</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-time">50 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Decorators and Iterators</h1>
+            <a href="/resources/python/decorators-and-iterators/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Iterators and Decorators?</h2><p>An <strong>iterator</strong> is an object that produces a sequence of values, one at a time, when you call <code>next()</code> on it. The <strong>iterator protocol</strong> is a contract: any object that implements <code>__iter__()</code> and <code>__next__()</code> methods is an iterator. Lists, strings, dictionaries, files, and generators are all iterable because they follow this protocol.</p><pre><code># Lists are iterable -- you can create an iterator from them
+numbers = [10, 20, 30]
+it = iter(numbers)      # Create an iterator
+print(next(it))         # 10
+print(next(it))         # 20
+print(next(it))         # 30</code></pre><p>A <strong>decorator</strong> is a function that takes another function as input and returns a modified version of that function. Decorators let you add behavior (like logging, timing, or caching) to existing functions without changing their code. Python provides the <code>@</code> syntax to apply decorators cleanly.</p><pre><code>import time
+
+def timer(func):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        elapsed = time.time() - start
+        print(f"{func.__name__} took {elapsed:.4f}s")
+        return result
+    return wrapper
+
+@timer
+def slow_add(a, b):
+    time.sleep(0.1)
+    return a + b
+
+result = slow_add(3, 4)  # Prints: slow_add took 0.1001s</code></pre>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Iterators and Decorators Important?</h2><h3>1. Understanding How Python Works Under the Hood</h3><p>Every <code>for</code> loop in Python uses the iterator protocol. When you write <code>for x in something</code>, Python calls <code>iter(something)</code> to get an iterator, then calls <code>next()</code> on it repeatedly until <code>StopIteration</code> is raised. Understanding this reveals how for loops, generators, list comprehensions, and unpacking all work.</p><h3>2. Creating Custom Sequences</h3><p>The iterator protocol lets you create objects that can be used in for loops, list comprehensions, and any context that expects an iterable. If Aarav builds a class representing a deck of cards, implementing the iterator protocol lets him write <code>for card in deck</code> naturally.</p><h3>3. The itertools Module</h3><p>Python's <code>itertools</code> module provides memory-efficient tools for working with iterators. Functions like <code>count()</code>, <code>cycle()</code>, <code>chain()</code>, <code>islice()</code>, <code>product()</code>, <code>permutations()</code>, and <code>combinations()</code> are used extensively in competitive programming and data processing.</p><h3>4. Clean Code Extension with Decorators</h3><p>Without decorators, adding cross-cutting concerns (logging, timing, caching, authentication) to multiple functions requires modifying each function individually. Decorators let you write the concern once and apply it to any function with a single line (<code>@decorator_name</code>). This follows the DRY principle (Don't Repeat Yourself).</p><h3>5. Framework and Library Patterns</h3><p>Decorators are everywhere in Python frameworks. Flask uses <code>@app.route("/")</code> to register URL handlers. pytest uses <code>@pytest.fixture</code> to define test fixtures. Django uses <code>@login_required</code> for authentication. Understanding decorators is essential for working with any serious Python library.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The Iterator Protocol: __iter__() and __next__()</h3><p>Any object that implements two methods is an iterator:</p><ul><li><code>__iter__()</code> -- returns the iterator object itself</li><li><code>__next__()</code> -- returns the next value, or raises <code>StopIteration</code> when done</li></ul><pre><code>class CountDown:
+    def __init__(self, start):
+        self.current = start
+    
+    def __iter__(self):
+        return self  # The object is its own iterator
+    
+    def __next__(self):
+        if self.current <= 0:
+            raise StopIteration
+        value = self.current
+        self.current -= 1
+        return value
+
+# Use in a for loop
+for num in CountDown(5):
+    print(num, end=" ")  # 5 4 3 2 1
+print()
+
+# Use with next()
+cd = CountDown(3)
+print(next(cd))  # 3
+print(next(cd))  # 2
+print(next(cd))  # 1</code></pre><h3>2. How for Loops Work Under the Hood</h3><p>When Python encounters <code>for x in something</code>, it does exactly this:</p><pre><code># This for loop:
+for x in [10, 20, 30]:
+    print(x)
+
+# Is equivalent to:
+it = iter([10, 20, 30])  # Calls list.__iter__(), returns an iterator
+while True:
+    try:
+        x = next(it)     # Calls iterator.__next__()
+        print(x)
+    except StopIteration:
+        break            # Loop ends when StopIteration is raised</code></pre><p>Understanding this reveals why generators work with for loops (they implement the iterator protocol), and why you can use custom iterators anywhere a for loop is expected.</p><h3>3. The iter() Built-in on Common Types</h3><p>Most built-in types are <strong>iterable</strong> (they have an <code>__iter__</code> method that returns an iterator):</p><pre><code># Lists
+it = iter([1, 2, 3])
+print(next(it))  # 1
+
+# Strings
+it = iter("abc")
+print(next(it))  # 'a'
+print(next(it))  # 'b'
+
+# Dictionaries (iterate over keys)
+it = iter({"x": 1, "y": 2})
+print(next(it))  # 'x'
+print(next(it))  # 'y'
+
+# Ranges
+it = iter(range(3))
+print(next(it))  # 0
+print(next(it))  # 1</code></pre><p>Note: a <strong>list is iterable</strong> but not itself an iterator. <code>iter(my_list)</code> returns a <code>list_iterator</code> object that has <code>__next__()</code>. The list itself does not have <code>__next__()</code>.</p><h3>4. itertools Module Basics</h3><pre><code>from itertools import count, cycle, chain, islice, product, permutations, combinations
+
+# count(start, step) -- infinite counter
+for i in islice(count(10, 3), 5):
+    print(i, end=" ")  # 10 13 16 19 22
+print()
+
+# cycle(iterable) -- repeat forever
+colors = cycle(["red", "green", "blue"])
+print([next(colors) for _ in range(7)])
+# ['red', 'green', 'blue', 'red', 'green', 'blue', 'red']
+
+# chain(iter1, iter2, ...) -- concatenate iterables
+result = list(chain([1, 2], [3, 4], [5]))
+print(result)  # [1, 2, 3, 4, 5]
+
+# islice(iterable, stop) or islice(iterable, start, stop, step)
+result = list(islice(range(100), 5, 20, 3))
+print(result)  # [5, 8, 11, 14, 17]
+
+# product -- Cartesian product
+result = list(product(["A", "B"], [1, 2]))
+print(result)  # [('A', 1), ('A', 2), ('B', 1), ('B', 2)]
+
+# permutations -- all orderings
+result = list(permutations([1, 2, 3], 2))
+print(result)  # [(1,2), (1,3), (2,1), (2,3), (3,1), (3,2)]
+
+# combinations -- all subsets of given size (order does not matter)
+result = list(combinations([1, 2, 3, 4], 2))
+print(result)  # [(1,2), (1,3), (1,4), (2,3), (2,4), (3,4)]</code></pre><h3>5. What Is a Decorator?</h3><p>A decorator is a function that takes a function and returns a new function that usually extends the original function's behavior:</p><pre><code>def my_decorator(func):
+    def wrapper():
+        print("Before the function call")
+        func()
+        print("After the function call")
+    return wrapper
+
+def say_hello():
+    print("Hello!")
+
+# Apply the decorator manually
+say_hello = my_decorator(say_hello)
+say_hello()
+# Before the function call
+# Hello!
+# After the function call</code></pre><p>The line <code>say_hello = my_decorator(say_hello)</code> replaces the original function with the wrapped version. The <code>@</code> syntax is just a cleaner way to write this.</p><h3>6. The @ Syntax (Syntactic Sugar)</h3><pre><code>def my_decorator(func):
+    def wrapper():
+        print("Before")
+        func()
+        print("After")
+    return wrapper
+
+@my_decorator
+def greet():
+    print("Hello!")
+
+# @my_decorator above is exactly equivalent to:
+# greet = my_decorator(greet)
+
+greet()
+# Before
+# Hello!
+# After</code></pre><p>The <code>@decorator</code> syntax is placed directly above the function definition. It is syntactic sugar -- it looks cleaner but does exactly the same thing as the manual assignment.</p><h3>7. Decorating Functions with Arguments</h3><p>To decorate functions that accept arguments, use <code>*args</code> and <code>**kwargs</code> in the wrapper:</p><pre><code>def logger(func):
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with args={args}, kwargs={kwargs}")
+        result = func(*args, **kwargs)
+        print(f"{func.__name__} returned {result}")
+        return result
+    return wrapper
+
+@logger
+def add(a, b):
+    return a + b
+
+@logger
+def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+add(3, 5)
+# Calling add with args=(3, 5), kwargs={}
+# add returned 8
+
+greet("Aarav", greeting="Hi")
+# Calling greet with args=('Aarav',), kwargs={'greeting': 'Hi'}
+# greet returned Hi, Aarav!</code></pre><h3>8. functools.wraps -- Preserving Function Metadata</h3><p>When you decorate a function, the wrapper replaces the original. This means <code>__name__</code>, <code>__doc__</code>, and other metadata are lost:</p><pre><code>def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    """Add two numbers."""
+    return a + b
+
+print(add.__name__)  # 'wrapper' -- NOT 'add'!
+print(add.__doc__)   # None -- NOT 'Add two numbers.'!</code></pre><p>Use <code>functools.wraps</code> to preserve the original function's metadata:</p><pre><code>from functools import wraps
+
+def my_decorator(func):
+    @wraps(func)  # Copies func's metadata to wrapper
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    """Add two numbers."""
+    return a + b
+
+print(add.__name__)  # 'add' -- correct!
+print(add.__doc__)   # 'Add two numbers.' -- correct!</code></pre><p>Always use <code>@wraps(func)</code> in your decorators. It is a best practice that prevents debugging problems.</p><h3>9. Practical Decorators</h3><h4>Timer Decorator</h4><pre><code>import time
+from functools import wraps
+
+def timer(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        elapsed = time.time() - start
+        print(f"{func.__name__} took {elapsed:.4f}s")
+        return result
+    return wrapper</code></pre><h4>Memoize/Cache Decorator</h4><pre><code>from functools import wraps
+
+def memoize(func):
+    cache = {}
+    @wraps(func)
+    def wrapper(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+    return wrapper
+
+@memoize
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+print(fibonacci(30))  # 832040 -- computed instantly thanks to caching</code></pre><h4>Retry Decorator</h4><pre><code>import time
+from functools import wraps
+
+def retry(max_attempts=3, delay=1):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(1, max_attempts + 1):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    if attempt == max_attempts:
+                        raise
+                    print(f"Attempt {attempt} failed: {e}. Retrying...")
+                    time.sleep(delay)
+        return wrapper
+    return decorator</code></pre><h3>10. Decorators with Arguments</h3><p>When a decorator needs its own arguments, you add an extra layer of nesting:</p><pre><code>from functools import wraps
+
+def repeat(times):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            results = []
+            for _ in range(times):
+                results.append(func(*args, **kwargs))
+            return results
+        return wrapper
+    return decorator
+
+@repeat(times=3)
+def say_hi(name):
+    return f"Hi, {name}!"
+
+print(say_hi("Aarav"))
+# ['Hi, Aarav!', 'Hi, Aarav!', 'Hi, Aarav!']
+
+# This is equivalent to:
+# say_hi = repeat(times=3)(say_hi)</code></pre><p>The pattern is three levels of functions: (1) the outer function receives decorator arguments, (2) the middle function receives the function being decorated, (3) the inner function is the wrapper that runs when the decorated function is called.</p><h3>11. Stacking Multiple Decorators</h3><pre><code>from functools import wraps
+
+def bold(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return f"<b>{func(*args, **kwargs)}</b>"
+    return wrapper
+
+def italic(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return f"<i>{func(*args, **kwargs)}</i>"
+    return wrapper
+
+@bold
+@italic
+def greet(name):
+    return f"Hello, {name}"
+
+print(greet("Aarav"))
+# <b><i>Hello, Aarav</i></b></code></pre><p>Decorators are applied bottom to top. <code>@italic</code> wraps <code>greet</code> first, then <code>@bold</code> wraps the result. It is equivalent to <code>greet = bold(italic(greet))</code>.</p><h3>12. Class-Based Decorators</h3><p>A class can be a decorator if it implements <code>__call__()</code>:</p><pre><code>from functools import wraps
+
+class CountCalls:
+    def __init__(self, func):
+        wraps(func)(self)
+        self.func = func
+        self.count = 0
+    
+    def __call__(self, *args, **kwargs):
+        self.count += 1
+        print(f"{self.func.__name__} has been called {self.count} time(s)")
+        return self.func(*args, **kwargs)
+
+@CountCalls
+def say_hello(name):
+    return f"Hello, {name}"
+
+print(say_hello("Aarav"))
+print(say_hello("Priya"))
+print(f"Total calls: {say_hello.count}")</code></pre><p>Class-based decorators are useful when the decorator needs to maintain state (like a call counter).</p><h3>13. The property Decorator Revisited</h3><p>The built-in <code>@property</code> decorator turns a method into a computed attribute:</p><pre><code>class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._radius
+    
+    @radius.setter
+    def radius(self, value):
+        if value < 0:
+            raise ValueError("Radius cannot be negative")
+        self._radius = value
+    
+    @property
+    def area(self):
+        import math
+        return math.pi * self._radius ** 2
+
+c = Circle(5)
+print(c.radius)          # 5 -- looks like an attribute, but calls a method
+print(f"{c.area:.2f}")   # 78.54
+c.radius = 10            # Calls the setter
+print(f"{c.area:.2f}")   # 314.16</code></pre><p><code>@property</code> is a decorator that wraps a method so it can be accessed like an attribute. The <code>@radius.setter</code> decorator defines what happens when the attribute is assigned to.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Custom Iterator: Range-Like Class</div><pre><code class="language-python">class MyRange:
+    def __init__(self, start, stop, step=1):
+        self.start = start
+        self.stop = stop
+        self.step = step
+    
+    def __iter__(self):
+        self.current = self.start
+        return self
+    
+    def __next__(self):
+        if self.current &gt;= self.stop:
+            raise StopIteration
+        value = self.current
+        self.current += self.step
+        return value
+
+# Use in a for loop
+print(&quot;For loop:&quot;, end=&quot; &quot;)
+for num in MyRange(1, 10, 2):
+    print(num, end=&quot; &quot;)
+print()
+
+# Convert to list
+print(f&quot;As list: {list(MyRange(0, 5))}&quot;)
+
+# Use with next()
+it = iter(MyRange(10, 13))
+print(f&quot;next: {next(it)}, {next(it)}, {next(it)}&quot;)
+
+# Use in comprehension
+squares = [x**2 for x in MyRange(1, 6)]
+print(f&quot;Squares: {squares}&quot;)</code></pre><div class="code-example-explanation">This custom iterator implements <code>__iter__()</code> (which resets the current position and returns self) and <code>__next__()</code> (which returns the next value or raises StopIteration). Because it follows the iterator protocol, it works with for loops, list(), comprehensions, and next() -- anywhere Python expects an iterable.</div><div class="code-example-output">For loop: 1 3 5 7 9 
+As list: [0, 1, 2, 3, 4]
+next: 10, 11, 12
+Squares: [1, 4, 9, 16, 25]</div></div>
+<div class="code-example"><div class="code-example-title">For Loop Under the Hood</div><pre><code class="language-python"># Demonstrating what a for loop actually does
+print(&quot;--- Normal for loop ---&quot;)
+for x in [10, 20, 30]:
+    print(x, end=&quot; &quot;)
+print()
+
+print(&quot;\n--- Manual iterator protocol ---&quot;)
+my_list = [10, 20, 30]
+iterator = iter(my_list)       # Step 1: call iter()
+print(f&quot;iter() returned: {type(iterator).__name__}&quot;)
+
+while True:
+    try:
+        x = next(iterator)     # Step 2: call next() repeatedly
+        print(x, end=&quot; &quot;)
+    except StopIteration:      # Step 3: stop on StopIteration
+        print(&quot;\nStopIteration caught -- loop ends&quot;)
+        break
+
+# Showing iter() on different types
+print(f&quot;\niter on string: {type(iter(&#39;abc&#39;)).__name__}&quot;)
+print(f&quot;iter on dict: {type(iter({&#39;a&#39;:1})).__name__}&quot;)
+print(f&quot;iter on range: {type(iter(range(3))).__name__}&quot;)
+
+# A list is iterable but NOT an iterator
+my_list = [1, 2, 3]
+print(f&quot;\nList has __iter__: {hasattr(my_list, &#39;__iter__&#39;)}&quot;)
+print(f&quot;List has __next__: {hasattr(my_list, &#39;__next__&#39;)}&quot;)
+it = iter(my_list)
+print(f&quot;Iterator has __next__: {hasattr(it, &#39;__next__&#39;)}&quot;)</code></pre><div class="code-example-explanation">A for loop is syntactic sugar for the iterator protocol. Python calls <code>iter()</code> on the iterable to get an iterator, then calls <code>next()</code> on the iterator repeatedly, and stops when <code>StopIteration</code> is raised. A list is <strong>iterable</strong> (has <code>__iter__</code>) but not an <strong>iterator</strong> (does not have <code>__next__</code>). The iterator returned by <code>iter(list)</code> has both.</div><div class="code-example-output">--- Normal for loop ---
+10 20 30 
+
+--- Manual iterator protocol ---
+iter() returned: list_iterator
+10 20 30 
+StopIteration caught -- loop ends
+
+iter on string: str_ascii_iterator
+iter on dict: dict_keyiterator
+iter on range: range_iterator
+
+List has __iter__: True
+List has __next__: False
+Iterator has __next__: True</div></div>
+<div class="code-example"><div class="code-example-title">itertools: Practical Examples</div><pre><code class="language-python">from itertools import chain, islice, product, permutations, combinations, cycle, count
+
+# chain -- join multiple iterables
+result = list(chain([1, 2], [3, 4], [5, 6]))
+print(f&quot;chain: {result}&quot;)
+
+# islice -- slice any iterator (works on generators too)
+result = list(islice(count(100), 5))  # First 5 from count(100)
+print(f&quot;islice(count(100), 5): {result}&quot;)
+
+# product -- Cartesian product (all combinations)
+result = list(product(&quot;AB&quot;, [1, 2]))
+print(f&quot;product: {result}&quot;)
+
+# permutations -- all orderings of given length
+result = list(permutations(&quot;abc&quot;, 2))
+print(f&quot;permutations: {result}&quot;)
+
+# combinations -- all subsets of given size
+result = list(combinations([1, 2, 3, 4], 2))
+print(f&quot;combinations: {result}&quot;)
+
+# Practical: assign 3 students to 2 teams
+students = [&quot;Aarav&quot;, &quot;Priya&quot;, &quot;Rohan&quot;]
+teams = list(combinations(students, 2))
+print(f&quot;\nPossible pairs: {teams}&quot;)
+
+# Practical: generate all PIN codes (2-digit)
+pins = [&quot;&quot;.join(p) for p in product(&quot;0123456789&quot;, repeat=2)]
+print(f&quot;2-digit PINs (first 5): {pins[:5]}, total: {len(pins)}&quot;)</code></pre><div class="code-example-explanation"><code>chain</code> concatenates iterables. <code>islice</code> slices without creating intermediate lists. <code>product</code> creates all combinations (Cartesian product). <code>permutations</code> generates all orderings of a given length. <code>combinations</code> generates all subsets of a given size without regard to order. All return iterators for memory efficiency.</div><div class="code-example-output">chain: [1, 2, 3, 4, 5, 6]
+islice(count(100), 5): [100, 101, 102, 103, 104]
+product: [(&#39;A&#39;, 1), (&#39;A&#39;, 2), (&#39;B&#39;, 1), (&#39;B&#39;, 2)]
+permutations: [(&#39;a&#39;, &#39;b&#39;), (&#39;a&#39;, &#39;c&#39;), (&#39;b&#39;, &#39;a&#39;), (&#39;b&#39;, &#39;c&#39;), (&#39;c&#39;, &#39;a&#39;), (&#39;c&#39;, &#39;b&#39;)]
+combinations: [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
+
+Possible pairs: [(&#39;Aarav&#39;, &#39;Priya&#39;), (&#39;Aarav&#39;, &#39;Rohan&#39;), (&#39;Priya&#39;, &#39;Rohan&#39;)]
+2-digit PINs (first 5): [&#39;00&#39;, &#39;01&#39;, &#39;02&#39;, &#39;03&#39;, &#39;04&#39;], total: 100</div></div>
+<div class="code-example"><div class="code-example-title">Building a Decorator Step by Step</div><pre><code class="language-python">from functools import wraps
+
+# Step 1: A simple decorator (no arguments)
+def shout(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        result = func(*args, **kwargs)
+        return result.upper() if isinstance(result, str) else result
+    return wrapper
+
+@shout
+def greet(name):
+    &quot;&quot;&quot;Return a greeting message.&quot;&quot;&quot;
+    return f&quot;hello, {name}&quot;
+
+print(greet(&quot;Aarav&quot;))          # HELLO, AARAV
+print(f&quot;Name: {greet.__name__}&quot;) # greet (preserved by @wraps)
+print(f&quot;Doc: {greet.__doc__}&quot;)   # Return a greeting message.
+
+# Step 2: Show that @ is syntactic sugar
+def greet2(name):
+    return f&quot;hello, {name}&quot;
+
+greet2 = shout(greet2)  # Same as @shout
+print(greet2(&quot;Priya&quot;))  # HELLO, PRIYA
+
+# Step 3: Decorator that modifies behavior
+def log_calls(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f&quot;  -&gt; Calling {func.__name__}({args}, {kwargs})&quot;)
+        result = func(*args, **kwargs)
+        print(f&quot;  &lt;- {func.__name__} returned {result}&quot;)
+        return result
+    return wrapper
+
+@log_calls
+def add(a, b):
+    return a + b
+
+result = add(3, 7)</code></pre><div class="code-example-explanation">A decorator is a function that takes a function and returns a new function. <code>@shout</code> above <code>greet</code> is equivalent to <code>greet = shout(greet)</code>. The <code>wrapper</code> function receives the same arguments as the original function using <code>*args, **kwargs</code>. <code>@wraps(func)</code> copies the original function's name and docstring to the wrapper.</div><div class="code-example-output">HELLO, AARAV
+Name: greet
+Doc: Return a greeting message.
+HELLO, PRIYA
+  -&gt; Calling add((3, 7), {})
+  &lt;- add returned 10</div></div>
+<div class="code-example"><div class="code-example-title">Practical Decorators: Timer and Memoize</div><pre><code class="language-python">import time
+from functools import wraps
+
+# Timer decorator
+def timer(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.perf_counter()
+        result = func(*args, **kwargs)
+        elapsed = time.perf_counter() - start
+        print(f&quot;  {func.__name__}: {elapsed:.6f}s&quot;)
+        return result
+    return wrapper
+
+# Memoize decorator
+def memoize(func):
+    cache = {}
+    @wraps(func)
+    def wrapper(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+    wrapper.cache = cache  # Expose cache for inspection
+    return wrapper
+
+# Without memoize: slow recursive fibonacci
+@timer
+def fib_slow(n):
+    if n &lt; 2:
+        return n
+    return fib_slow.__wrapped__(n-1) + fib_slow.__wrapped__(n-2)  # unwrapped for timing
+
+# Simpler: memoized fibonacci
+@memoize
+def fib_fast(n):
+    if n &lt; 2:
+        return n
+    return fib_fast(n-1) + fib_fast(n-2)
+
+print(&quot;Memoized fibonacci:&quot;)
+start = time.perf_counter()
+result = fib_fast(30)
+print(f&quot;  fib_fast(30) = {result}&quot;)
+print(f&quot;  Time: {time.perf_counter() - start:.6f}s&quot;)
+print(f&quot;  Cache size: {len(fib_fast.cache)}&quot;)</code></pre><div class="code-example-explanation">The <code>timer</code> decorator measures execution time. The <code>memoize</code> decorator caches results in a dictionary keyed by arguments. Recursive Fibonacci without memoization makes billions of redundant calls for large n. With memoization, each value is computed only once, making fib_fast(30) nearly instant. The cache is attached to the wrapper so it can be inspected.</div><div class="code-example-output">Memoized fibonacci:
+  fib_fast(30) = 832040
+  Time: 0.000045s
+  Cache size: 31</div></div>
+<div class="code-example"><div class="code-example-title">Decorator with Arguments and Stacking</div><pre><code class="language-python">from functools import wraps
+
+# Decorator that takes arguments
+def repeat(times):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            for i in range(times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+
+def tag(tag_name):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            result = func(*args, **kwargs)
+            return f&quot;&lt;{tag_name}&gt;{result}&lt;/{tag_name}&gt;&quot;
+        return wrapper
+    return decorator
+
+# Using decorator with arguments
+@repeat(times=3)
+def say_hi(name):
+    print(f&quot;  Hi, {name}!&quot;)
+    return f&quot;Hi, {name}!&quot;
+
+print(&quot;repeat(3):&quot;)
+say_hi(&quot;Aarav&quot;)
+
+# Stacking decorators (applied bottom to top)
+@tag(&quot;b&quot;)
+@tag(&quot;i&quot;)
+def greet(name):
+    return f&quot;Hello, {name}&quot;
+
+print(f&quot;\nStacked: {greet(&#39;Priya&#39;)}&quot;)
+# Equivalent to: greet = tag(&#39;b&#39;)(tag(&#39;i&#39;)(greet))
+# Inner: &lt;i&gt;Hello, Priya&lt;/i&gt;
+# Outer: &lt;b&gt;&lt;i&gt;Hello, Priya&lt;/i&gt;&lt;/b&gt;</code></pre><div class="code-example-explanation">Decorators with arguments require three levels of nesting: the outer function takes decorator arguments, the middle function takes the function being decorated, and the inner function is the actual wrapper. When stacking multiple decorators, they are applied bottom to top: <code>@tag("i")</code> wraps greet first, then <code>@tag("b")</code> wraps that result.</div><div class="code-example-output">repeat(3):
+  Hi, Aarav!
+  Hi, Aarav!
+  Hi, Aarav!
+
+Stacked: &lt;b&gt;&lt;i&gt;Hello, Priya&lt;/i&gt;&lt;/b&gt;</div></div>
+<div class="code-example"><div class="code-example-title">Class-Based Decorator and @property</div><pre><code class="language-python">from functools import wraps
+
+# Class-based decorator with state
+class CountCalls:
+    def __init__(self, func):
+        wraps(func)(self)
+        self.func = func
+        self.count = 0
+    
+    def __call__(self, *args, **kwargs):
+        self.count += 1
+        return self.func(*args, **kwargs)
+    
+    def reset(self):
+        self.count = 0
+
+@CountCalls
+def add(a, b):
+    return a + b
+
+print(add(1, 2))        # 3
+print(add(3, 4))        # 7
+print(add(5, 6))        # 11
+print(f&quot;Calls: {add.count}&quot;)  # 3
+add.reset()
+print(f&quot;After reset: {add.count}&quot;)  # 0
+
+# @property decorator revisited
+class Temperature:
+    def __init__(self, celsius):
+        self._celsius = celsius
+    
+    @property
+    def celsius(self):
+        return self._celsius
+    
+    @celsius.setter
+    def celsius(self, value):
+        if value &lt; -273.15:
+            raise ValueError(&quot;Below absolute zero!&quot;)
+        self._celsius = value
+    
+    @property
+    def fahrenheit(self):
+        return self._celsius * 9/5 + 32
+
+t = Temperature(100)
+print(f&quot;\n{t.celsius}C = {t.fahrenheit}F&quot;)
+t.celsius = 0
+print(f&quot;{t.celsius}C = {t.fahrenheit}F&quot;)</code></pre><div class="code-example-explanation">A class-based decorator stores state in instance variables. <code>__call__</code> makes the instance callable (it runs when you call the decorated function). The <code>@property</code> decorator makes a method accessible as an attribute. <code>@celsius.setter</code> allows assignment with validation. <code>fahrenheit</code> is a computed property with no setter (read-only).</div><div class="code-example-output">3
+7
+11
+Calls: 3
+After reset: 0
+
+100C = 212.0F
+0C = 32.0F</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Return the Result from the Wrapper</h3>
+                <div class="wrong-code"><pre><code class="language-python">def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print(&quot;Before&quot;)
+        func(*args, **kwargs)  # Missing return!
+        print(&quot;After&quot;)
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)  # None!  The original function returned 8, but wrapper did not return it</code></pre></div><div class="error-message">No error raised, but result is None because the wrapper function does not return the value from func().</div><div class="correct-code"><pre><code class="language-python">def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        print(&quot;Before&quot;)
+        result = func(*args, **kwargs)  # Capture the result
+        print(&quot;After&quot;)
+        return result                   # Return it!
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)  # 8</code></pre></div><div class="mistake-explanation">The wrapper function must capture and return the original function's return value. Without <code>return func(*args, **kwargs)</code>, the wrapper implicitly returns <code>None</code>, silently discarding the function's actual result.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Forgetting functools.wraps</h3>
+                <div class="wrong-code"><pre><code class="language-python">def my_decorator(func):
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    &quot;&quot;&quot;Add two numbers.&quot;&quot;&quot;
+    return a + b
+
+print(add.__name__)  # &#39;wrapper&#39; -- wrong!
+print(add.__doc__)   # None -- wrong!</code></pre></div><div class="error-message">No runtime error, but the function&#39;s __name__ and __doc__ are replaced with the wrapper&#39;s metadata, which breaks debugging, help(), and documentation tools.</div><div class="correct-code"><pre><code class="language-python">from functools import wraps
+
+def my_decorator(func):
+    @wraps(func)  # Preserves func&#39;s metadata
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+@my_decorator
+def add(a, b):
+    &quot;&quot;&quot;Add two numbers.&quot;&quot;&quot;
+    return a + b
+
+print(add.__name__)  # &#39;add&#39; -- correct!
+print(add.__doc__)   # &#39;Add two numbers.&#39; -- correct!</code></pre></div><div class="mistake-explanation">Without <code>@wraps(func)</code>, the decorated function loses its original name and docstring. This makes debugging difficult because stack traces and <code>help()</code> show 'wrapper' instead of the actual function name. Always use <code>@wraps(func)</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Calling the Decorator Instead of Applying It</h3>
+                <div class="wrong-code"><pre><code class="language-python">@my_decorator()  # Extra parentheses!
+def greet():
+    return &quot;hello&quot;
+
+# This calls my_decorator() first, which returns the wrapper function.
+# Then Python tries to use THAT as a decorator, which fails if
+# my_decorator() returns something unexpected.</code></pre></div><div class="error-message">TypeError: my_decorator() takes no arguments (or unexpected behavior if it happens to return a callable).</div><div class="correct-code"><pre><code class="language-python"># Without arguments: no parentheses
+@my_decorator
+def greet():
+    return &quot;hello&quot;
+
+# With arguments: parentheses ARE needed
+@repeat(times=3)  # This is a decorator factory
+def greet():
+    return &quot;hello&quot;</code></pre></div><div class="mistake-explanation"><code>@my_decorator</code> (no parentheses) applies my_decorator to the function. <code>@my_decorator()</code> (with parentheses) calls my_decorator first and uses the return value as the decorator. Only use parentheses when the decorator is a factory that takes arguments.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Confusing Iterable vs Iterator</h3>
+                <div class="wrong-code"><pre><code class="language-python">my_list = [1, 2, 3]
+print(next(my_list))  # TypeError! List is not an iterator</code></pre></div><div class="error-message">TypeError: &#39;list&#39; object is not an iterator</div><div class="correct-code"><pre><code class="language-python">my_list = [1, 2, 3]
+it = iter(my_list)    # Create an iterator from the list
+print(next(it))       # 1
+print(next(it))       # 2
+print(next(it))       # 3</code></pre></div><div class="mistake-explanation">A list is <strong>iterable</strong> (has <code>__iter__</code>) but not an <strong>iterator</strong> (does not have <code>__next__</code>). You must call <code>iter()</code> on it to get an iterator object, which does have <code>__next__</code>. The for loop does this automatically, which is why <code>for x in my_list</code> works.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Decorator Stacking Order Confusion</h3>
+                <div class="wrong-code"><pre><code class="language-python"># Expecting bottom decorator to run last
+@decorator_a
+@decorator_b
+def my_func():
+    pass
+
+# WRONG assumption: &quot;decorator_a runs first because it is on top&quot;
+# CORRECT: decorators apply bottom-up
+# Equivalent to: my_func = decorator_a(decorator_b(my_func))
+# decorator_b wraps my_func first, then decorator_a wraps that</code></pre></div><div class="error-message">No error, but the execution order may surprise you. The bottom decorator wraps first, and the top decorator wraps second.</div><div class="correct-code"><pre><code class="language-python"># Think of it as: innermost first, outermost last
+@decorator_a  # Applied second (outermost wrapper)
+@decorator_b  # Applied first (innermost wrapper)
+def my_func():
+    pass
+
+# When my_func() is called:
+# 1. decorator_a&#39;s wrapper runs first (outer)
+# 2. It calls decorator_b&#39;s wrapper (inner)
+# 3. Which calls the original my_func()</code></pre></div><div class="mistake-explanation">Decorators apply bottom to top: <code>@decorator_b</code> wraps the function first, then <code>@decorator_a</code> wraps the result. When the function is called, execution goes top to bottom: decorator_a's wrapper runs first, then calls decorator_b's wrapper, which calls the original function.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>The iterator protocol requires two methods: __iter__() returns the iterator object and __next__() returns the next value or raises StopIteration. Any object implementing these can be used in for loops, list(), and comprehensions.</li>
+<li>A for loop is syntactic sugar for: call iter() to get an iterator, call next() repeatedly, stop when StopIteration is raised. This is why generators, lists, strings, dicts, and custom iterators all work with for loops.</li>
+<li>A list is iterable (has __iter__) but not an iterator (no __next__). Call iter(list) to get a list_iterator. An iterator IS iterable because __iter__ returns self.</li>
+<li>The itertools module provides memory-efficient iterator tools: count() for infinite counting, cycle() for repeating, chain() for concatenating, islice() for slicing, product() for Cartesian products, permutations() for ordered arrangements, combinations() for unordered subsets.</li>
+<li>A decorator is a function that takes a function and returns a modified function. The @ syntax (@decorator above a function) is syntactic sugar for func = decorator(func).</li>
+<li>Decorator wrappers must use *args and **kwargs to accept any arguments, must call the original function, and must return its result. Forgetting any of these breaks the decorated function.</li>
+<li>Always use @functools.wraps(func) inside your decorator&#39;s wrapper function. This preserves the original function&#39;s __name__, __doc__, and other metadata, which is essential for debugging.</li>
+<li>Decorators with arguments require three levels of nesting: outer function takes decorator arguments, middle function takes the function, inner function is the wrapper. Example: @repeat(times=3) needs def repeat(times) -&gt; def decorator(func) -&gt; def wrapper(*args).</li>
+<li>Stacking decorators applies them bottom to top: @A @B def f means f = A(B(f)). The bottom decorator wraps first (innermost), the top wraps last (outermost). When called, the outermost wrapper runs first.</li>
+<li>Class-based decorators use __call__ to make instances callable. They are useful when decorators need to maintain state. The @property built-in decorator makes methods accessible as attributes with optional setters for validation.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/list-comprehensions-and-generators" class="related-topic-link">Comprehensions and Generators</a>
+<a href="/resources/python/lambda-map-filter-reduce" class="related-topic-link">Lambda, Map, Filter, and Reduce</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/list-comprehensions-and-generators" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Comprehensions and Generators</span>
+        </a>
+            
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/decorators-and-iterators/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

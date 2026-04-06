@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Decorators and Iterators | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Decorators and Iterators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="decorators and iterators practice, python questions, python practice problems, decorators and iterators exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+    <meta property="og:title" content="Practice Questions - Decorators and Iterators | Python | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Decorators and Iterators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice">
+    <meta name="twitter:title" content="Practice Questions - Decorators and Iterators | Python | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Decorators and Iterators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Decorators and Iterators",
+    "description": "58+ practice questions on Decorators and Iterators in Python.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Decorators and Iterators"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Decorators and Iterators",
+        "item": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/decorators-and-iterators/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/decorators-and-iterators">Decorators and Iterators</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 25</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Decorators and Iterators</h1>
+            <a href="/resources/python/decorators-and-iterators" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">7</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>it = iter([10, 20, 30])
+print(next(it))
+print(next(it))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">iter() creates an iterator. next() gets the next value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>it = iter("abc")
+print(next(it))
+print(next(it))
+print(next(it))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Iterating over a string yields one character at a time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>a</code><br><code>b</code><br><code>c</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import chain
+result = list(chain([1, 2], [3, 4]))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">chain concatenates multiple iterables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>[1, 2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def shout(func):
+    def wrapper():
+        return func().upper()
+    return wrapper
+
+@shout
+def greet():
+    return "hello"
+
+print(greet())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The decorator wraps greet and calls .upper() on its result.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>HELLO</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>my_list = [1, 2, 3]
+print(hasattr(my_list, '__iter__'))
+print(hasattr(my_list, '__next__'))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Lists are iterable but not iterators.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import combinations
+result = list(combinations([1, 2, 3], 2))
+print(result)
+print(len(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">combinations(n, r) gives all subsets of size r.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>[(1, 2), (1, 3), (2, 3)]</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import permutations
+result = list(permutations("ab", 2))
+print(result)
+print(len(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">permutations considers order, so (a,b) and (b,a) are different.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>[('a', 'b'), ('b', 'a')]</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Counter:
+    def __init__(self, limit):
+        self.limit = limit
+        self.current = 0
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.current >= self.limit:
+            raise StopIteration
+        self.current += 1
+        return self.current
+
+print(list(Counter(4)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">The iterator yields 1, 2, 3, 4 then raises StopIteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>[1, 2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def double_result(func):
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs) * 2
+    return wrapper
+
+@double_result
+def add(a, b):
+    return a + b
+
+print(add(3, 4))
+print(add.__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">The decorator doubles the return value. No @wraps is used.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>14</code><br><code>wrapper</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import wraps
+
+def bold(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return f"<b>{func(*args, **kwargs)}</b>"
+    return wrapper
+
+def italic(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return f"<i>{func(*args, **kwargs)}</i>"
+    return wrapper
+
+@bold
+@italic
+def greet(name):
+    return name
+
+print(greet("Aarav"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Decorators apply bottom to top. @italic wraps first, @bold wraps second.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>&lt;b&gt;&lt;i&gt;Aarav&lt;/i&gt;&lt;/b&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import islice, count
+
+def squares():
+    n = 1
+    while True:
+        yield n * n
+        n += 1
+
+result = list(islice(squares(), 5))
+print(result)
+
+result2 = list(islice(count(10, 5), 4))
+print(result2)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">islice takes the first N values from any iterator. count(10, 5) counts 10, 15, 20, ...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>[1, 4, 9, 16, 25]</code><br><code>[10, 15, 20, 25]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import product
+
+result = list(product([0, 1], repeat=3))
+print(len(result))
+print(result[0])
+print(result[-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">product with repeat=3 gives all 3-length combinations of [0,1], like binary numbers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>8</code><br><code>(0, 0, 0)</code><br><code>(1, 1, 1)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def repeat(n):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            return [func(*args, **kwargs) for _ in range(n)]
+        return wrapper
+    return decorator
+
+@repeat(3)
+def greet(name):
+    return f"Hi, {name}"
+
+print(greet("Aarav"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">repeat(3) is a decorator factory. The inner decorator wraps greet to call it 3 times.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>['Hi, Aarav', 'Hi, Aarav', 'Hi, Aarav']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class Doubler:
+    def __init__(self, func):
+        self.func = func
+    
+    def __call__(self, *args, **kwargs):
+        return self.func(*args, **kwargs) * 2
+
+@Doubler
+def add(a, b):
+    return a + b
+
+print(add(3, 4))
+print(type(add).__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Doubler is a class-based decorator. add is now an instance of Doubler.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>14</code><br><code>Doubler</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>it = iter([10, 20, 30])
+print(next(it))        # 10
+print(next(it))        # 20
+
+for val in it:
+    print(val, end=" ")
+print()
+
+for val in it:
+    print(val, end=" ")
+print("(empty)")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">The for loop continues from where next() left off. After exhaustion, the second for loop gets nothing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>10</code><br><code>20</code><br><code>30 </code><br><code>(empty)</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between an iterable and an iterator?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about which methods each one must have.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">An <strong>iterable</strong> is any object that has an <code>__iter__()</code> method, which returns an iterator. Lists, strings, tuples, dicts, sets, and ranges are all iterables. An <strong>iterator</strong> is an object that has both <code>__iter__()</code> and <code>__next__()</code> methods. Calling <code>iter()</code> on an iterable returns an iterator. Calling <code>next()</code> on an iterator returns the next value.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why should you always use <code>@functools.wraps(func)</code> in your decorators?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Think about what happens to the function's name and docstring.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">Without <code>@wraps(func)</code>, the decorated function loses its original <code>__name__</code>, <code>__doc__</code>, <code>__module__</code>, and other metadata. Instead, these are replaced with the wrapper function's metadata. This breaks debugging (stack traces show 'wrapper' instead of the real function name), documentation (help() shows nothing useful), and introspection tools. <code>@wraps(func)</code> copies the original function's metadata to the wrapper.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>it = iter(range(3))
+print(list(it))
+print(list(it))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">An iterator can only be consumed once.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[0, 1, 2]</code><br><code>[]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import cycle
+
+c = cycle(["A", "B"])
+result = [next(c) for _ in range(5)]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">cycle repeats the iterable endlessly.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>['A', 'B', 'A', 'B', 'A']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def prefix(pre):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            return f"{pre}: {func(*args, **kwargs)}"
+        return wrapper
+    return decorator
+
+@prefix("ERROR")
+def message(text):
+    return text
+
+@prefix("INFO")
+def info(text):
+    return text
+
+print(message("file not found"))
+print(info("server started"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">prefix is a decorator factory. It creates decorators that prepend a string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>ERROR: file not found</code><br><code>INFO: server started</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import islice
+
+def naturals():
+    n = 1
+    while True:
+        yield n
+        n += 1
+
+def evens(numbers):
+    for n in numbers:
+        if n % 2 == 0:
+            yield n
+
+result = list(islice(evens(naturals()), 5))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">naturals yields 1, 2, 3, ... evens filters to even numbers. islice takes first 5.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[2, 4, 6, 8, 10]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>class Squares:
+    def __init__(self, n):
+        self.n = n
+    
+    def __iter__(self):
+        for i in range(1, self.n + 1):
+            yield i ** 2
+
+print(list(Squares(5)))
+print(sum(Squares(3)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">__iter__ can be a generator function (using yield). Each call to iter() creates a fresh generator.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>[1, 4, 9, 16, 25]</code><br><code>14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>d = {"a": 1, "b": 2, "c": 3}
+it = iter(d)
+print(next(it))
+print(next(it))
+print(list(it))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Iterating over a dict yields its keys.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>a</code><br><code>b</code><br><code>['c']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def validate_positive(func):
+    def wrapper(*args):
+        for arg in args:
+            if arg < 0:
+                raise ValueError(f"Negative value: {arg}")
+        return func(*args)
+    return wrapper
+
+@validate_positive
+def add(a, b):
+    return a + b
+
+print(add(3, 5))
+
+try:
+    print(add(-1, 5))
+except ValueError as e:
+    print(f"Error: {e}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">The decorator checks all arguments before calling the function.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>8</code><br><code>Error: Negative value: -1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from itertools import product, combinations
+
+# How many ways to pick 2 from 4 students?
+students = ["Aarav", "Priya", "Rohan", "Meera"]
+pairs = list(combinations(students, 2))
+print(f"Pairs: {len(pairs)}")
+
+# How many 2-character strings from 'AB'?
+codes = list(product("AB", repeat=2))
+print(f"Codes: {len(codes)}")
+print(f"First: {''.join(codes[0])}")
+print(f"Last: {''.join(codes[-1])}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">C(4,2) = 6 combinations. 2^2 = 4 products.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>Pairs: 6</code><br><code>Codes: 4</code><br><code>First: AA</code><br><code>Last: BB</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import wraps
+
+def debug(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        args_str = ", ".join(repr(a) for a in args)
+        print(f"  {func.__name__}({args_str})")
+        result = func(*args, **kwargs)
+        print(f"  -> {result}")
+        return result
+    return wrapper
+
+@debug
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(f"Result: {factorial(4)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">The decorated factorial calls itself, so debug prints for every recursive call.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>  factorial(4)</code><br><code>  factorial(3)</code><br><code>  factorial(2)</code><br><code>  factorial(1)</code><br><code>  -> 1</code><br><code>  -> 2</code><br><code>  -> 6</code><br><code>  -> 24</code><br><code>Result: 24</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>class FibIterator:
+    def __init__(self, limit):
+        self.limit = limit
+        self.a, self.b = 0, 1
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.a > self.limit:
+            raise StopIteration
+        value = self.a
+        self.a, self.b = self.b, self.a + self.b
+        return value
+
+print(list(FibIterator(20)))
+print(sum(FibIterator(10)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">The iterator yields Fibonacci numbers up to the limit.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>[0, 1, 1, 2, 3, 5, 8, 13]</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">How do decorators with arguments (like <code>@repeat(3)</code>) differ from simple decorators (like <code>@timer</code>)?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">Think about how many levels of function nesting each requires.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11">A simple decorator is a function that takes a function and returns a wrapper: <code>def timer(func): def wrapper(...): ... return wrapper</code>. A decorator with arguments needs an extra layer: <code>def repeat(n): def decorator(func): def wrapper(...): ... return wrapper return decorator</code>. The outer function (<code>repeat(3)</code>) returns the actual decorator. So <code>@repeat(3)</code> first calls <code>repeat(3)</code> which returns a decorator function, and then that decorator is applied to the function below.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What two methods must an iterator implement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> __init__ and __del__</li><li><span class="mcq-option-label">B.</span> __iter__ and __next__</li><li><span class="mcq-option-label">C.</span> __get__ and __set__</li><li><span class="mcq-option-label">D.</span> __call__ and __return__</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> The iterator protocol requires <code>__iter__()</code> (returns the iterator) and <code>__next__()</code> (returns the next value or raises StopIteration).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does the @ symbol do before a function definition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes the function private</li><li><span class="mcq-option-label">B.</span> Applies a decorator to the function</li><li><span class="mcq-option-label">C.</span> Creates a generator</li><li><span class="mcq-option-label">D.</span> Marks the function as deprecated</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@decorator</code> above a function is syntactic sugar for <code>func = decorator(func)</code>. It applies the decorator, which wraps or modifies the function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What exception is raised when an iterator has no more values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> IndexError</li><li><span class="mcq-option-label">B.</span> ValueError</li><li><span class="mcq-option-label">C.</span> StopIteration</li><li><span class="mcq-option-label">D.</span> EndOfIterator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> When an iterator's <code>__next__()</code> method has no more values, it raises <code>StopIteration</code>. A for loop catches this automatically to end the loop.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does iter([1, 2, 3]) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The list [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> A list_iterator object</li><li><span class="mcq-option-label">C.</span> The number 1</li><li><span class="mcq-option-label">D.</span> A generator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>iter()</code> called on a list returns a <code>list_iterator</code> object. This iterator has <code>__next__()</code> and produces values one at a time.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What does a decorator function return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> None</li><li><span class="mcq-option-label">B.</span> The original function unchanged</li><li><span class="mcq-option-label">C.</span> A new function (wrapper) that replaces the original</li><li><span class="mcq-option-label">D.</span> A string representing the function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> A decorator takes a function as input and returns a new function (the wrapper) that typically calls the original function with added behavior. The wrapper replaces the original function.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does itertools.chain do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates an infinite iterator</li><li><span class="mcq-option-label">B.</span> Concatenates multiple iterables into one</li><li><span class="mcq-option-label">C.</span> Repeats an iterable</li><li><span class="mcq-option-label">D.</span> Filters an iterable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>chain(iter1, iter2, ...)</code> produces all elements from iter1, then all from iter2, etc. It concatenates iterables into a single sequence.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is functools.wraps used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creating a new function</li><li><span class="mcq-option-label">B.</span> Wrapping a list in a tuple</li><li><span class="mcq-option-label">C.</span> Preserving the original function&#39;s metadata in a decorator wrapper</li><li><span class="mcq-option-label">D.</span> Converting a generator to a list</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>@wraps(func)</code> copies the original function's <code>__name__</code>, <code>__doc__</code>, and other metadata to the wrapper function. Without it, the decorated function appears to be named 'wrapper'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">How are stacked decorators applied?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Top to bottom</li><li><span class="mcq-option-label">B.</span> Bottom to top</li><li><span class="mcq-option-label">C.</span> Alphabetically</li><li><span class="mcq-option-label">D.</span> Randomly</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@A @B def f</code> means <code>f = A(B(f))</code>. The bottom decorator (B) wraps f first, then the top decorator (A) wraps the result. When called, A's wrapper runs first (outermost), then B's.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the difference between permutations and combinations?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same</li><li><span class="mcq-option-label">B.</span> Permutations consider order; combinations do not</li><li><span class="mcq-option-label">C.</span> Combinations consider order; permutations do not</li><li><span class="mcq-option-label">D.</span> Permutations work with numbers only; combinations work with strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Permutations treat (A,B) and (B,A) as different. Combinations treat them as the same. For n items taken r at a time, there are more permutations than combinations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Can a list be passed directly to next()?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, next() works on any iterable</li><li><span class="mcq-option-label">B.</span> No, you must first call iter() to get an iterator</li><li><span class="mcq-option-label">C.</span> Yes, but only for non-empty lists</li><li><span class="mcq-option-label">D.</span> No, next() only works with generators</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>next()</code> requires an iterator (an object with <code>__next__()</code>). Lists do not have <code>__next__()</code>. You must call <code>iter(my_list)</code> first to get a list_iterator, then call <code>next()</code> on that.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What does itertools.product(['A','B'], [1,2]) produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [(&#39;A&#39;, &#39;B&#39;), (1, 2)]</li><li><span class="mcq-option-label">B.</span> [(&#39;A&#39;, 1), (&#39;A&#39;, 2), (&#39;B&#39;, 1), (&#39;B&#39;, 2)]</li><li><span class="mcq-option-label">C.</span> [(&#39;A&#39;, 1), (&#39;B&#39;, 2)]</li><li><span class="mcq-option-label">D.</span> [(&#39;A&#39;, &#39;B&#39;, 1, 2)]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>product</code> creates the Cartesian product: every element from the first iterable paired with every element from the second. Result: [('A',1), ('A',2), ('B',1), ('B',2)].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">A class-based decorator must implement which method to be callable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> __init__</li><li><span class="mcq-option-label">B.</span> __call__</li><li><span class="mcq-option-label">C.</span> __next__</li><li><span class="mcq-option-label">D.</span> __decorator__</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> A class-based decorator uses <code>__call__</code> to make instances callable. When the decorated function is called, Python invokes <code>instance.__call__(*args, **kwargs)</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the extra nesting level needed for in decorators with arguments?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> To handle multiple return values</li><li><span class="mcq-option-label">B.</span> To receive the decorator&#39;s arguments before the function</li><li><span class="mcq-option-label">C.</span> To support async functions</li><li><span class="mcq-option-label">D.</span> To prevent memory leaks</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@repeat(3)</code> first calls <code>repeat(3)</code>, which returns the actual decorator function. That decorator then receives the function. Three levels: outer (args) -> middle (func) -> inner (wrapper).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What does the @property decorator do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Makes a variable immutable</li><li><span class="mcq-option-label">B.</span> Turns a method into an attribute that is computed on access</li><li><span class="mcq-option-label">C.</span> Makes a method static</li><li><span class="mcq-option-label">D.</span> Prevents a method from being overridden</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>@property</code> allows a method to be accessed like an attribute (without parentheses). The method is called automatically when the attribute is accessed. A companion <code>@name.setter</code> decorator can define assignment behavior.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What is itertools.islice used for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Slicing lists only</li><li><span class="mcq-option-label">B.</span> Slicing any iterator without creating intermediate lists</li><li><span class="mcq-option-label">C.</span> Creating infinite slices</li><li><span class="mcq-option-label">D.</span> Splitting an iterator into equal parts</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>islice(iterable, start, stop, step)</code> works like regular slicing but on any iterator, including generators and infinite iterators. It does not create intermediate lists, making it memory-efficient.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does itertools.count(5, 2) produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [5, 7, 9, 11, ...] (infinite)</li><li><span class="mcq-option-label">B.</span> [5, 2]</li><li><span class="mcq-option-label">C.</span> [5, 7] only</li><li><span class="mcq-option-label">D.</span> [2, 4, 6, 8, 10]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: A</strong><br><strong>A is correct.</strong> <code>count(5, 2)</code> produces an infinite sequence starting at 5, incrementing by 2: 5, 7, 9, 11, 13, ... Use <code>islice</code> to take a finite number of values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">If __iter__ returns a fresh iterator each time, what advantage does this provide?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The object can be iterated multiple times</li><li><span class="mcq-option-label">B.</span> The object uses less memory</li><li><span class="mcq-option-label">C.</span> The object is thread-safe</li><li><span class="mcq-option-label">D.</span> The object becomes immutable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: A</strong><br><strong>A is correct.</strong> If <code>__iter__</code> returns a new iterator each time (like a list does), the object can be iterated multiple times with for loops. If <code>__iter__</code> returns self (like a generator does), the object can only be iterated once.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the output of combinations('ABCD', 2) in terms of count?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 4</li><li><span class="mcq-option-label">B.</span> 6</li><li><span class="mcq-option-label">C.</span> 12</li><li><span class="mcq-option-label">D.</span> 16</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> C(4,2) = 4!/(2! * 2!) = 6. The six combinations are: AB, AC, AD, BC, BD, CD. Combinations do not consider order, so AB and BA count as one.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Custom Range Iterator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Create a class EvenNumbers that implements the iterator protocol and yields even numbers from start to stop (inclusive if even). Test it with a for loop, list(), and next().</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">For loop: 2 4 6 8 10 
+As list: [0, 2, 4, 6, 8]
+next: 4, 6, 8</div>
+                </div><div class="challenge-constraints">Implement __iter__ and __next__. Raise StopIteration when done.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">class EvenNumbers:
+    def __init__(self, start, stop):
+        self.stop = stop
+        self.current = start if start % 2 == 0 else start + 1
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.current &gt; self.stop:
+            raise StopIteration
+        value = self.current
+        self.current += 2
+        return value
+
+print(&quot;For loop:&quot;, end=&quot; &quot;)
+for n in EvenNumbers(1, 10):
+    print(n, end=&quot; &quot;)
+print()
+
+print(f&quot;As list: {list(EvenNumbers(0, 9))}&quot;)
+
+it = EvenNumbers(4, 9)
+print(f&quot;next: {next(it)}, {next(it)}, {next(it)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Simple Logger Decorator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a decorator called logger that prints the function name, arguments, and return value every time the decorated function is called. Use functools.wraps to preserve metadata.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Calling add(3, 5)
+add returned 8
+Result: 8
+add.__name__: add</div>
+                </div><div class="challenge-constraints">Use *args and **kwargs. Use functools.wraps.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">from functools import wraps
+
+def logger(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        args_str = &quot;, &quot;.join([repr(a) for a in args] + [f&quot;{k}={v!r}&quot; for k, v in kwargs.items()])
+        print(f&quot;Calling {func.__name__}({args_str})&quot;)
+        result = func(*args, **kwargs)
+        print(f&quot;{func.__name__} returned {result}&quot;)
+        return result
+    return wrapper
+
+@logger
+def add(a, b):
+    &quot;&quot;&quot;Add two numbers.&quot;&quot;&quot;
+    return a + b
+
+result = add(3, 5)
+print(f&quot;Result: {result}&quot;)
+print(f&quot;add.__name__: {add.__name__}&quot;)
+print(f&quot;add.__doc__: {add.__doc__}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: itertools Practice Problems</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Using itertools, solve these: (1) generate all 2-letter combinations from 'ABCD', (2) create all possible 3-digit binary numbers using product, (3) take the first 8 values from an infinite counter starting at 100 with step 5, (4) chain three lists into one.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">2-letter combos: 6 total
+Binary 3-digit: 8 total, first: (0, 0, 0)
+Counter: [100, 105, 110, 115, 120, 125, 130, 135]
+Chained: [1, 2, 3, 4, 5, 6]</div>
+                </div><div class="challenge-constraints">Use combinations, product, count with islice, and chain.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">from itertools import combinations, product, count, islice, chain
+
+# 1. All 2-letter combinations from ABCD
+combos = list(combinations(&#39;ABCD&#39;, 2))
+print(f&quot;2-letter combos: {len(combos)} total&quot;)
+
+# 2. All 3-digit binary numbers
+binary = list(product([0, 1], repeat=3))
+print(f&quot;Binary 3-digit: {len(binary)} total, first: {binary[0]}&quot;)
+
+# 3. First 8 from counter starting at 100, step 5
+counter_vals = list(islice(count(100, 5), 8))
+print(f&quot;Counter: {counter_vals}&quot;)
+
+# 4. Chain three lists
+result = list(chain([1, 2], [3, 4], [5, 6]))
+print(f&quot;Chained: {result}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Memoize Decorator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a memoize decorator that caches function results based on arguments. Add a .cache attribute to inspect cached values and a .clear_cache() method to reset it. Test with a recursive fibonacci function.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">fib(10) = 55
+fib(20) = 6765
+Cache size: 21
+After clear: 0</div>
+                </div><div class="challenge-constraints">Use a dictionary for the cache. Use functools.wraps. Attach cache and clear_cache to the wrapper.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">from functools import wraps
+
+def memoize(func):
+    cache = {}
+    
+    @wraps(func)
+    def wrapper(*args):
+        if args not in cache:
+            cache[args] = func(*args)
+        return cache[args]
+    
+    wrapper.cache = cache
+    wrapper.clear_cache = lambda: cache.clear()
+    return wrapper
+
+@memoize
+def fib(n):
+    if n &lt; 2:
+        return n
+    return fib(n - 1) + fib(n - 2)
+
+print(f&quot;fib(10) = {fib(10)}&quot;)
+print(f&quot;fib(20) = {fib(20)}&quot;)
+print(f&quot;Cache size: {len(fib.cache)}&quot;)
+fib.clear_cache()
+print(f&quot;After clear: {len(fib.cache)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Deck of Cards Iterator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Create a Deck class that implements the iterator protocol to yield all 52 playing cards. Each card should be a tuple of (rank, suit). Support shuffling with a shuffle() method and iterating with for loops.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Total cards: 52
+First 3: [(&#39;2&#39;, &#39;Hearts&#39;), (&#39;3&#39;, &#39;Hearts&#39;), (&#39;4&#39;, &#39;Hearts&#39;)]
+After shuffle (first 3): [(&#39;K&#39;, &#39;Diamonds&#39;), (&#39;7&#39;, &#39;Clubs&#39;), (&#39;3&#39;, &#39;Hearts&#39;)]</div>
+                </div><div class="challenge-constraints">Use itertools.product to generate all cards. Implement __iter__ and __len__.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">import random
+from itertools import product
+
+class Deck:
+    RANKS = [&#39;2&#39;, &#39;3&#39;, &#39;4&#39;, &#39;5&#39;, &#39;6&#39;, &#39;7&#39;, &#39;8&#39;, &#39;9&#39;, &#39;10&#39;, &#39;J&#39;, &#39;Q&#39;, &#39;K&#39;, &#39;A&#39;]
+    SUITS = [&#39;Hearts&#39;, &#39;Diamonds&#39;, &#39;Clubs&#39;, &#39;Spades&#39;]
+    
+    def __init__(self):
+        self.cards = [(r, s) for r, s in product(self.RANKS, self.SUITS)]
+    
+    def __iter__(self):
+        return iter(self.cards)
+    
+    def __len__(self):
+        return len(self.cards)
+    
+    def shuffle(self):
+        random.shuffle(self.cards)
+        return self
+
+deck = Deck()
+print(f&quot;Total cards: {len(deck)}&quot;)
+
+first_3 = [card for _, card in zip(range(3), deck)]
+print(f&quot;First 3: {first_3}&quot;)
+
+random.seed(42)
+deck.shuffle()
+first_3_shuffled = [card for _, card in zip(range(3), deck)]
+print(f&quot;After shuffle (first 3): {first_3_shuffled}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Access Control Decorator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a decorator requires_role(role) that checks if the current user (passed as the first argument with a .role attribute) has the required role. If not, raise a PermissionError. Test with admin and viewer roles.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Admin panel: Welcome, Aarav
+PermissionError: Priya requires &#39;admin&#39; role, has &#39;viewer&#39;</div>
+                </div><div class="challenge-constraints">The decorator should take a role argument. Use functools.wraps.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">from functools import wraps
+
+def requires_role(role):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(user, *args, **kwargs):
+            if user.role != role:
+                raise PermissionError(
+                    f&quot;{user.name} requires &#39;{role}&#39; role, has &#39;{user.role}&#39;&quot;
+                )
+            return func(user, *args, **kwargs)
+        return wrapper
+    return decorator
+
+class User:
+    def __init__(self, name, role):
+        self.name = name
+        self.role = role
+
+@requires_role(&#39;admin&#39;)
+def admin_panel(user):
+    return f&quot;Welcome, {user.name}&quot;
+
+@requires_role(&#39;admin&#39;)
+def delete_user(user, target):
+    return f&quot;{user.name} deleted {target}&quot;
+
+admin = User(&quot;Aarav&quot;, &quot;admin&quot;)
+viewer = User(&quot;Priya&quot;, &quot;viewer&quot;)
+
+print(f&quot;Admin panel: {admin_panel(admin)}&quot;)
+
+try:
+    admin_panel(viewer)
+except PermissionError as e:
+    print(f&quot;PermissionError: {e}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Infinite Iterator Toolkit</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create custom iterators (without using itertools): (1) InfiniteCounter(start, step) that counts forever, (2) Cycle(iterable) that repeats endlessly, (3) TakeWhile(predicate, iterator) that yields while the predicate is True, (4) Chain(*iterables) that concatenates iterables. Implement all using the iterator protocol.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Counter: [5, 8, 11, 14, 17]
+Cycle: [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;a&#39;, &#39;b&#39;]
+TakeWhile: [1, 3, 5]
+Chain: [1, 2, 3, 4, 5, 6]</div>
+                </div><div class="challenge-constraints">Implement __iter__ and __next__ for each class. Do not use itertools.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">class InfiniteCounter:
+    def __init__(self, start=0, step=1):
+        self.current = start
+        self.step = step
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        value = self.current
+        self.current += self.step
+        return value
+
+class Cycle:
+    def __init__(self, iterable):
+        self.items = list(iterable)
+        self.index = 0
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if not self.items:
+            raise StopIteration
+        value = self.items[self.index]
+        self.index = (self.index + 1) % len(self.items)
+        return value
+
+class TakeWhile:
+    def __init__(self, predicate, iterator):
+        self.predicate = predicate
+        self.iterator = iter(iterator)
+        self.done = False
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        if self.done:
+            raise StopIteration
+        value = next(self.iterator)
+        if not self.predicate(value):
+            self.done = True
+            raise StopIteration
+        return value
+
+class Chain:
+    def __init__(self, *iterables):
+        self.iterables = iter(iterables)
+        self.current = iter([])
+    
+    def __iter__(self):
+        return self
+    
+    def __next__(self):
+        while True:
+            try:
+                return next(self.current)
+            except StopIteration:
+                self.current = iter(next(self.iterables))
+
+# Test
+counter = InfiniteCounter(5, 3)
+print(f&quot;Counter: {[next(counter) for _ in range(5)]}&quot;)
+
+cycler = Cycle([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;])
+print(f&quot;Cycle: {[next(cycler) for _ in range(5)]}&quot;)
+
+tw = TakeWhile(lambda x: x &lt; 7, [1, 3, 5, 7, 9, 2])
+print(f&quot;TakeWhile: {list(tw)}&quot;)
+
+ch = Chain([1, 2], [3, 4], [5, 6])
+print(f&quot;Chain: {list(ch)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Decorator Collection: Timer, Retry, and Type Check</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write three advanced decorators: (1) timer that measures and prints execution time, (2) retry(max_attempts, exceptions) that retries on specified exceptions, (3) type_check(**expected_types) that validates argument types before calling the function. All should use functools.wraps.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">slow_func took 0.1001s
+Attempt 1 failed. Retrying...
+Attempt 2 succeeded.
+add(3, 5) = 8
+TypeError: Expected b to be &lt;class &#39;int&#39;&gt;, got &lt;class &#39;str&#39;&gt;</div>
+                </div><div class="challenge-constraints">All decorators must use functools.wraps. retry should re-raise on final failure. type_check should inspect function parameter names.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">import time
+from functools import wraps
+import inspect
+
+def timer(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.perf_counter()
+        result = func(*args, **kwargs)
+        elapsed = time.perf_counter() - start
+        print(f&quot;{func.__name__} took {elapsed:.4f}s&quot;)
+        return result
+    return wrapper
+
+def retry(max_attempts=3, exceptions=(Exception,)):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(1, max_attempts + 1):
+                try:
+                    result = func(*args, **kwargs)
+                    print(f&quot;Attempt {attempt} succeeded.&quot;)
+                    return result
+                except exceptions as e:
+                    print(f&quot;Attempt {attempt} failed. Retrying...&quot;)
+                    if attempt == max_attempts:
+                        raise
+        return wrapper
+    return decorator
+
+def type_check(**expected_types):
+    def decorator(func):
+        @wraps(func)
+        def wrapper(*args, **kwargs):
+            sig = inspect.signature(func)
+            params = list(sig.parameters.keys())
+            for i, arg in enumerate(args):
+                if i &lt; len(params) and params[i] in expected_types:
+                    if not isinstance(arg, expected_types[params[i]]):
+                        raise TypeError(
+                            f&quot;Expected {params[i]} to be {expected_types[params[i]]}, &quot;
+                            f&quot;got {type(arg)}&quot;
+                        )
+            return func(*args, **kwargs)
+        return wrapper
+    return decorator
+
+@timer
+def slow_func():
+    time.sleep(0.1)
+    return &quot;done&quot;
+
+slow_func()
+
+call_count = 0
+@retry(max_attempts=3, exceptions=(ValueError,))
+def flaky():
+    global call_count
+    call_count += 1
+    if call_count &lt; 2:
+        raise ValueError(&quot;random failure&quot;)
+    return &quot;success&quot;
+
+flaky()
+
+@type_check(a=int, b=int)
+def add(a, b):
+    return a + b
+
+print(f&quot;add(3, 5) = {add(3, 5)}&quot;)
+try:
+    add(3, &quot;5&quot;)
+except TypeError as e:
+    print(f&quot;TypeError: {e}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/list-comprehensions-and-generators/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Comprehensions and Generators</span>
+        </a>
+            
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/decorators-and-iterators" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Comprehensions and Generators | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="60+ practice questions on Comprehensions and Generators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="comprehensions and generators practice, python questions, python practice problems, comprehensions and generators exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+    <meta property="og:title" content="Practice Questions - Comprehensions and Generators | Python | Modern Age Coders">
+    <meta property="og:description" content="60+ practice questions on Comprehensions and Generators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice">
+    <meta name="twitter:title" content="Practice Questions - Comprehensions and Generators | Python | Modern Age Coders">
+    <meta name="twitter:description" content="60+ practice questions on Comprehensions and Generators in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Comprehensions and Generators",
+    "description": "60+ practice questions on Comprehensions and Generators in Python.",
+    "educationalLevel": "Advanced",
+    "about": {
+      "@type": "Thing",
+      "name": "Comprehensions and Generators"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Comprehensions and Generators",
+        "item": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/list-comprehensions-and-generators/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/list-comprehensions-and-generators">Comprehensions and Generators</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 24</span>
+                <span class="badge badge-advanced">Advanced</span>
+                <span class="badge badge-questions">60 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Comprehensions and Generators</h1>
+            <a href="/resources/python/list-comprehensions-and-generators" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>result = [x * 2 for x in [1, 2, 3, 4]]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Each element is multiplied by 2.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>[2, 4, 6, 8]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>evens = [x for x in range(10) if x % 2 == 0]
+print(evens)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The if clause filters elements. Only even numbers pass the condition.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>[0, 2, 4, 6, 8]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["hello", "world"]
+upper = [w.upper() for w in words]
+print(upper)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">The .upper() method converts a string to uppercase.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>['HELLO', 'WORLD']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>result = ["even" if x % 2 == 0 else "odd" for x in range(4)]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">The if-else before 'for' transforms every element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>['even', 'odd', 'even', 'odd']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>squares = {x: x**2 for x in range(4)}
+print(squares)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Curly braces with key:value create a dictionary comprehension.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>{0: 0, 1: 1, 2: 4, 3: 9}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>matrix = [[1, 2], [3, 4], [5, 6]]
+flat = [n for row in matrix for n in row]
+print(flat)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Nested comprehension reads left to right: outer loop first, inner loop second.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>[1, 2, 3, 4, 5, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>names = ["Aarav", "Ananya", "Priya", "Arjun"]
+result = {name[0] for name in names}
+print(sorted(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Curly braces without key:value create a set comprehension. Sets have unique elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>['A', 'P']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def gen():
+    yield 1
+    yield 2
+    yield 3
+
+g = gen()
+print(next(g))
+print(next(g))
+print(list(g))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">next() consumes one value. list() consumes all remaining values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>1</code><br><code>2</code><br><code>[3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>gen = (x ** 2 for x in range(4))
+print(type(gen).__name__)
+print(sum(gen))
+print(sum(gen))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">A generator can only be consumed once.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>generator</code><br><code>14</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>scores = {"Aarav": 85, "Priya": 42, "Rohan": 91}
+result = {k: v for k, v in scores.items() if v >= 50}
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">The if clause filters dictionary items by value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>{'Aarav': 85, 'Rohan': 91}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def countdown(n):
+    while n > 0:
+        yield n
+        n -= 1
+
+nums = list(countdown(5))
+print(nums)
+print(sum(countdown(3)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Each call to countdown() creates a fresh generator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>[5, 4, 3, 2, 1]</code><br><code>6</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>result = [[i*j for j in range(1, 4)] for i in range(1, 4)]
+for row in result:
+    print(row)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Outer comprehension creates rows (i=1,2,3). Inner comprehension creates columns (j=1,2,3).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[1, 2, 3]</code><br><code>[2, 4, 6]</code><br><code>[3, 6, 9]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def gen_ab():
+    yield "a"
+    yield "b"
+
+def gen_cd():
+    yield "c"
+    yield "d"
+
+def chain(*generators):
+    for gen in generators:
+        yield from gen
+
+result = list(chain(gen_ab(), gen_cd()))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">yield from delegates to another generator, yielding all its values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>['a', 'b', 'c', 'd']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>original = [[1, 2, 3], [4, 5, 6]]
+transposed = [[row[i] for row in original] for i in range(3)]
+print(transposed)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The outer comprehension iterates column indices. The inner collects that column from each row.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>[[1, 4], [2, 5], [3, 6]]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def infinite():
+    n = 0
+    while True:
+        yield n
+        n += 1
+
+gen = infinite()
+result = [next(gen) for _ in range(5)]
+next(gen)  # Skip one
+result.append(next(gen))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">next(gen) advances the generator by one. The skipped value is not in result.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>[0, 1, 2, 3, 4, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Three different comprehension types
+list_result = [x for x in data if x % 3 == 0]
+dict_result = {x: x**2 for x in data if x % 3 == 0}
+set_result = {x % 5 for x in data if x % 3 == 0}
+
+print(list_result)
+print(dict_result)
+print(sorted(set_result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Multiples of 3 in 1-10 are 3, 6, 9.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>[3, 6, 9]</code><br><code>{3: 9, 6: 36, 9: 81}</code><br><code>[0, 1, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>[x for x in items if x > 0]</code> and <code>[x if x > 0 else 0 for x in items]</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">One filters, the other transforms.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17">The first expression <strong>filters</strong>: it includes only elements where x > 0. Elements that fail the condition are excluded entirely, so the result may have fewer elements. The second expression <strong>transforms</strong>: it includes every element, but replaces non-positive ones with 0. The result always has the same number of elements as the input.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">Why are generators described as 'lazy'? What advantage does lazy evaluation provide?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">Think about when values are computed and how much memory is used.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18">Generators are 'lazy' because they compute each value only when it is requested (by <code>next()</code> or a for loop), not in advance. This provides two advantages: (1) <strong>Memory efficiency</strong> -- only one value exists in memory at a time, regardless of the total number of values. A generator over 10 million items uses the same memory as one over 10 items. (2) <strong>Computation efficiency</strong> -- if you only need the first few values (e.g., finding the first match), the remaining values are never computed at all.</div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>lengths = [len(w) for w in ["hi", "hello", "hey"]]
+print(lengths)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">len() returns the length of each string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[2, 5, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>chars = [c for c in "Python"]
+print(chars)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Iterating over a string gives individual characters.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>['P', 'y', 't', 'h', 'o', 'n']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>pairs = [(x, y) for x in [1, 2] for y in ["a", "b"]]
+print(pairs)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Two for clauses create all combinations (Cartesian product).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[(1, 'a'), (1, 'b'), (2, 'a'), (2, 'b')]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 4, 5, 6]
+result = [x ** 2 for x in nums if x % 2 != 0]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">The if clause filters to odd numbers first, then squares them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[1, 9, 25]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>sentence = "the quick brown fox"
+word_map = {w: len(w) for w in sentence.split()}
+print(word_map)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">split() breaks the string into words. Dict comprehension maps each word to its length.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>{'the': 3, 'quick': 5, 'brown': 5, 'fox': 3}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def double_gen(n):
+    for i in range(n):
+        yield i * 2
+
+result = []
+for val in double_gen(4):
+    result.append(val)
+
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">The generator yields 0*2, 1*2, 2*2, 3*2.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>[0, 2, 4, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>data = ["hello", 42, "world", 3.14, "!"]
+strings_only = [x.upper() for x in data if isinstance(x, str)]
+print(strings_only)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">isinstance(x, str) filters to strings only. Then .upper() is applied.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>['HELLO', 'WORLD', '!']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def gen():
+    print("start")
+    yield 1
+    print("middle")
+    yield 2
+    print("end")
+
+g = gen()
+print("before next")
+val = next(g)
+print(f"got {val}")
+val = next(g)
+print(f"got {val}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Generator code runs lazily. It does not execute until next() is called.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>before next</code><br><code>start</code><br><code>got 1</code><br><code>middle</code><br><code>got 2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>nested = {"a": [1, 2], "b": [3, 4], "c": [5]}
+flat = [(k, v) for k, vals in nested.items() for v in vals]
+print(flat)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Outer loop iterates keys and lists. Inner loop iterates values in each list.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>[('a', 1), ('a', 2), ('b', 3), ('b', 4), ('c', 5)]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def squares_up_to(n):
+    i = 0
+    while i * i <= n:
+        yield i * i
+        i += 1
+
+print(list(squares_up_to(20)))
+print(list(squares_up_to(1)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">The generator yields perfect squares that are <= n.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>[0, 1, 4, 9, 16]</code><br><code>[0, 1]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>mapping = list(map(lambda x: x**2, [1, 2, 3]))
+comping = [x**2 for x in [1, 2, 3]]
+genning = list(x**2 for x in [1, 2, 3])
+
+print(mapping == comping == genning)
+print(type(map(lambda x: x, [])).__name__)
+print(type(x**2 for x in []).__name__)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">All three produce the same values. map and generator expressions are lazy.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>True</code><br><code>map</code><br><code>generator</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use a generator expression instead of a list comprehension?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Think about memory usage and how many times you need the data.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12">Use a generator expression when: (1) you only need to iterate over the values once (e.g., passing to <code>sum()</code>, <code>max()</code>, or a for loop), (2) the data set is very large and would consume too much memory as a list, or (3) you are chaining operations where intermediate lists would be wasteful. Use a list comprehension when you need to access elements by index, iterate multiple times, or the data set is small enough that memory is not a concern.</div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does [x * 2 for x in range(3)] produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [0, 2, 4]</li><li><span class="mcq-option-label">B.</span> [2, 4, 6]</li><li><span class="mcq-option-label">C.</span> [1, 2, 3]</li><li><span class="mcq-option-label">D.</span> [0, 1, 2]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: A</strong><br><strong>A is correct.</strong> range(3) produces 0, 1, 2. Multiplying each by 2: 0, 2, 4. Result: [0, 2, 4]. Option B would be correct for range(1, 4).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What type of comprehension uses curly braces with key:value pairs?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> List comprehension</li><li><span class="mcq-option-label">B.</span> Set comprehension</li><li><span class="mcq-option-label">C.</span> Dictionary comprehension</li><li><span class="mcq-option-label">D.</span> Tuple comprehension</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>{key: value for ...}</code> creates a dictionary. <code>{value for ...}</code> (no colon) creates a set. <code>[value for ...]</code> creates a list. There is no tuple comprehension syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What keyword is used in a generator function to produce values?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> return</li><li><span class="mcq-option-label">B.</span> yield</li><li><span class="mcq-option-label">C.</span> produce</li><li><span class="mcq-option-label">D.</span> emit</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>yield</code> is the keyword that makes a function a generator. It pauses the function and produces a value. <code>return</code> would end the function entirely.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What is the output of (x for x in [1, 2, 3])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> (1, 2, 3)</li><li><span class="mcq-option-label">C.</span> A generator object</li><li><span class="mcq-option-label">D.</span> {1, 2, 3}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Parentheses with a for expression create a generator object, not a tuple or list. To get a list, use <code>list(x for x in [1, 2, 3])</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which comprehension syntax filters elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [x if x &gt; 0 for x in items]</li><li><span class="mcq-option-label">B.</span> [x for x in items if x &gt; 0]</li><li><span class="mcq-option-label">C.</span> [if x &gt; 0: x for x in items]</li><li><span class="mcq-option-label">D.</span> [x for x in items where x &gt; 0]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> The filter condition goes after the for clause: <code>[x for x in items if condition]</code>. Option A is a SyntaxError (if-else requires an else). Options C and D are not valid Python syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What happens when you call next() on an exhausted generator?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It returns None</li><li><span class="mcq-option-label">B.</span> It restarts from the beginning</li><li><span class="mcq-option-label">C.</span> It raises StopIteration</li><li><span class="mcq-option-label">D.</span> It raises GeneratorError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> When a generator has no more values to yield, calling <code>next()</code> raises <code>StopIteration</code>. A for loop catches this automatically, but manual <code>next()</code> calls will see it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">In [x if x > 0 else -x for x in numbers], where does the if-else go?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> After the for clause</li><li><span class="mcq-option-label">B.</span> Before the for clause</li><li><span class="mcq-option-label">C.</span> Inside the for clause</li><li><span class="mcq-option-label">D.</span> It can go anywhere</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> The <code>if-else</code> expression (ternary operator) goes before the <code>for</code> clause when you want to transform every element. The <code>if</code> goes after the <code>for</code> clause only when you want to filter elements.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is lazy evaluation?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Evaluating code slowly for accuracy</li><li><span class="mcq-option-label">B.</span> Computing values only when they are needed</li><li><span class="mcq-option-label">C.</span> Skipping error checking for speed</li><li><span class="mcq-option-label">D.</span> Delaying all computation until the program ends</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lazy evaluation means values are computed on demand, not in advance. Generators use lazy evaluation -- each value is computed only when <code>next()</code> is called or when a for loop requests it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">How much memory does a generator expression use compared to a list comprehension for 1 million elements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> About the same</li><li><span class="mcq-option-label">B.</span> Roughly half</li><li><span class="mcq-option-label">C.</span> A tiny fraction (constant, ~200 bytes)</li><li><span class="mcq-option-label">D.</span> Twice as much</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> A generator object is about 200 bytes regardless of how many values it will produce. A list comprehension for 1 million integers uses about 8 MB. The generator computes values one at a time, never storing the full sequence.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does {x % 3 for x in range(10)} create?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A list of remainders</li><li><span class="mcq-option-label">B.</span> A dictionary</li><li><span class="mcq-option-label">C.</span> A set of unique remainders</li><li><span class="mcq-option-label">D.</span> A generator</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: C</strong><br><strong>C is correct.</strong> Curly braces without key:value pairs create a set. The remainders when dividing 0-9 by 3 are 0, 1, 2, 0, 1, 2, 0, 1, 2, 0. The set contains only unique values: {0, 1, 2}.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the difference between yield and return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same</li><li><span class="mcq-option-label">B.</span> yield ends the function; return pauses it</li><li><span class="mcq-option-label">C.</span> return ends the function; yield pauses it and preserves state</li><li><span class="mcq-option-label">D.</span> return can only return one value; yield returns multiple at once</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>return</code> terminates the function permanently and sends back one value. <code>yield</code> pauses the function, sends back a value, and preserves all local variables. When <code>next()</code> is called again, execution resumes from where it paused.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output of [n for row in [[1,2],[3]] for n in row]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [[1, 2], [3]]</li><li><span class="mcq-option-label">B.</span> [1, 2, 3]</li><li><span class="mcq-option-label">C.</span> [[1, 2, 3]]</li><li><span class="mcq-option-label">D.</span> Error: too many for clauses</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> The outer loop iterates over rows: [1,2] then [3]. The inner loop iterates numbers in each row: 1, 2, then 3. All numbers are collected into a flat list: [1, 2, 3]. This is the flattening pattern.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Can a generator function have both yield and return statements?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, it is a SyntaxError</li><li><span class="mcq-option-label">B.</span> Yes, but return must have no value</li><li><span class="mcq-option-label">C.</span> Yes, return stops the generator (raises StopIteration)</li><li><span class="mcq-option-label">D.</span> Yes, return sends back the final value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> A generator function can have <code>return</code> (with or without a value). A bare <code>return</code> or falling off the end of the function raises <code>StopIteration</code>. <code>return value</code> raises <code>StopIteration(value)</code>, where the value can be accessed from the exception but is not yielded.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">Why is a list comprehension typically faster than an equivalent for-loop-with-append?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Comprehensions use less memory</li><li><span class="mcq-option-label">B.</span> Comprehensions skip error checking</li><li><span class="mcq-option-label">C.</span> Comprehensions are optimized at the bytecode level with fewer function calls</li><li><span class="mcq-option-label">D.</span> Comprehensions run in parallel</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> List comprehensions are compiled to optimized bytecode. They avoid the overhead of calling <code>list.append()</code> on each iteration (which involves attribute lookup and function call). The improvement is typically 10-30% for simple operations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does yield from iterable do in a generator function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yields the iterable as a single value</li><li><span class="mcq-option-label">B.</span> Yields each value from the iterable one at a time</li><li><span class="mcq-option-label">C.</span> Returns the iterable and stops the generator</li><li><span class="mcq-option-label">D.</span> Creates a sub-generator that runs in parallel</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>yield from iterable</code> delegates to a sub-iterator, yielding each of its values one at a time. It is equivalent to <code>for item in iterable: yield item</code> but more efficient and also supports send/throw for advanced generator protocols.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the result of sum(x for x in range(4))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 6</li><li><span class="mcq-option-label">C.</span> 4</li><li><span class="mcq-option-label">D.</span> Error: generator cannot be summed</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> The generator expression produces 0, 1, 2, 3 (range(4) goes from 0 to 3). <code>sum()</code> adds them: 0+1+2+3 = 6. Generator expressions can be passed directly to functions like sum(), max(), min(), any(), all().</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does [x.strip() for x in [' hi ', ' bye ']] produce?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&#39;hi&#39;, &#39;bye&#39;]</li><li><span class="mcq-option-label">B.</span> [&#39; hi &#39;, &#39; bye &#39;]</li><li><span class="mcq-option-label">C.</span> [&#39;HI&#39;, &#39;BYE&#39;]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: A</strong><br><strong>A is correct.</strong> The <code>.strip()</code> method removes leading and trailing whitespace from each string. ' hi ' becomes 'hi' and ' bye ' becomes 'bye'.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Can you iterate over a generator with a for loop?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, you must use next()</li><li><span class="mcq-option-label">B.</span> Yes, the for loop calls next() internally and handles StopIteration</li><li><span class="mcq-option-label">C.</span> Yes, but only for generator expressions, not generator functions</li><li><span class="mcq-option-label">D.</span> Yes, but the for loop converts it to a list first</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> A for loop works with any iterable, including generators. Internally, it calls <code>iter()</code> (which returns the generator itself) and then <code>next()</code> repeatedly until <code>StopIteration</code> is raised. The for loop handles StopIteration automatically.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What is the correct way to create a tuple from a comprehension-like syntax?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> (x**2 for x in range(5))</li><li><span class="mcq-option-label">B.</span> tuple[x**2 for x in range(5)]</li><li><span class="mcq-option-label">C.</span> tuple(x**2 for x in range(5))</li><li><span class="mcq-option-label">D.</span> &lt;x**2 for x in range(5)&gt;</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> There is no tuple comprehension syntax. Option A creates a generator, not a tuple. Option C wraps a generator expression with <code>tuple()</code> to create a tuple. Options B and D are not valid Python syntax.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">What is the advantage of chaining generators over using intermediate lists?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Chained generators are easier to debug</li><li><span class="mcq-option-label">B.</span> Chained generators process data in parallel</li><li><span class="mcq-option-label">C.</span> Chained generators use constant memory by processing one element at a time</li><li><span class="mcq-option-label">D.</span> Chained generators are always faster</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: C</strong><br><strong>C is correct.</strong> When generators are chained, each element flows through the entire pipeline one at a time. No intermediate lists are created, so memory usage is constant regardless of data size. This is not parallel processing (option B), and it is not necessarily faster for small data (option D).</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Comprehension Toolbox</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write the following using list comprehensions: (1) squares of numbers 1-10, (2) only even numbers from a list, (3) first character of each word in a sentence, (4) replace negative numbers with 0.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Squares: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Evens: [2, 4, 6, 8, 10]
+Initials: [&#39;T&#39;, &#39;q&#39;, &#39;b&#39;, &#39;f&#39;]
+Cleaned: [3, 0, 7, 0, 2]</div>
+                </div><div class="challenge-constraints">Use only list comprehensions (no for loops).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python"># 1. Squares of 1-10
+squares = [x ** 2 for x in range(1, 11)]
+print(f&quot;Squares: {squares}&quot;)
+
+# 2. Even numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+evens = [x for x in numbers if x % 2 == 0]
+print(f&quot;Evens: {evens}&quot;)
+
+# 3. First character of each word
+sentence = &quot;The quick brown fox&quot;
+initials = [w[0] for w in sentence.split()]
+print(f&quot;Initials: {initials}&quot;)
+
+# 4. Replace negatives with 0
+data = [3, -1, 7, -5, 2]
+cleaned = [x if x &gt;= 0 else 0 for x in data]
+print(f&quot;Cleaned: {cleaned}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Dict and Set Comprehension Practice</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Use comprehensions to: (1) create a dict mapping each number 1-5 to its cube, (2) invert a dictionary (swap keys and values), (3) create a set of unique word lengths from a sentence, (4) filter a dictionary to keep only entries where the value is greater than 50.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Cubes: {1: 1, 2: 8, 3: 27, 4: 64, 5: 125}
+Inverted: {1: &#39;a&#39;, 2: &#39;b&#39;, 3: &#39;c&#39;}
+Lengths: {3, 4, 5}
+Passed: {&#39;Aarav&#39;: 85, &#39;Rohan&#39;: 91}</div>
+                </div><div class="challenge-constraints">Use only dict/set comprehensions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python"># 1. Number to cube mapping
+cubes = {x: x**3 for x in range(1, 6)}
+print(f&quot;Cubes: {cubes}&quot;)
+
+# 2. Invert a dictionary
+original = {&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3}
+inverted = {v: k for k, v in original.items()}
+print(f&quot;Inverted: {inverted}&quot;)
+
+# 3. Unique word lengths
+sentence = &quot;the quick brown fox jumps&quot;
+lengths = {len(w) for w in sentence.split()}
+print(f&quot;Lengths: {sorted(lengths)}&quot;)
+
+# 4. Filter dictionary by value
+scores = {&#39;Aarav&#39;: 85, &#39;Priya&#39;: 42, &#39;Rohan&#39;: 91, &#39;Meera&#39;: 38}
+passed = {k: v for k, v in scores.items() if v &gt; 50}
+print(f&quot;Passed: {passed}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Fibonacci Generator</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a generator function fibonacci() that yields Fibonacci numbers indefinitely. Then write code that uses it to: (1) get the first 10 Fibonacci numbers, (2) find the first Fibonacci number greater than 100, (3) sum all Fibonacci numbers under 50.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First 10: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+First &gt; 100: 144
+Sum under 50: 88</div>
+                </div><div class="challenge-constraints">The generator must be infinite. Use next() and for loops to consume values.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+# 1. First 10 Fibonacci numbers
+fib = fibonacci()
+first_10 = [next(fib) for _ in range(10)]
+print(f&quot;First 10: {first_10}&quot;)
+
+# 2. First Fibonacci number &gt; 100
+fib = fibonacci()
+for num in fib:
+    if num &gt; 100:
+        print(f&quot;First &gt; 100: {num}&quot;)
+        break
+
+# 3. Sum of Fibonacci numbers under 50
+fib = fibonacci()
+total = 0
+for num in fib:
+    if num &gt;= 50:
+        break
+    total += num
+print(f&quot;Sum under 50: {total}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Matrix Operations with Comprehensions</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Using only comprehensions, write functions for: (1) create_matrix(rows, cols, fill=0) that creates a 2D list, (2) transpose(matrix) that swaps rows and columns, (3) flatten(matrix) that converts 2D to 1D, (4) matrix_add(a, b) that adds two matrices element-wise.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Created: [[0, 0, 0], [0, 0, 0]]
+Transpose: [[1, 4], [2, 5], [3, 6]]
+Flattened: [1, 2, 3, 4, 5, 6]
+Sum: [[6, 8], [10, 12]]</div>
+                </div><div class="challenge-constraints">Use comprehensions for all operations. No explicit for-loop-with-append.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">def create_matrix(rows, cols, fill=0):
+    return [[fill for _ in range(cols)] for _ in range(rows)]
+
+def transpose(matrix):
+    if not matrix:
+        return []
+    return [[row[i] for row in matrix] for i in range(len(matrix[0]))]
+
+def flatten(matrix):
+    return [val for row in matrix for val in row]
+
+def matrix_add(a, b):
+    return [[a[i][j] + b[i][j] for j in range(len(a[0]))] for i in range(len(a))]
+
+print(f&quot;Created: {create_matrix(2, 3)}&quot;)
+print(f&quot;Transpose: {transpose([[1, 2, 3], [4, 5, 6]])}&quot;)
+print(f&quot;Flattened: {flatten([[1, 2, 3], [4, 5, 6]])}&quot;)
+
+m1 = [[1, 2], [3, 4]]
+m2 = [[5, 6], [7, 8]]
+print(f&quot;Sum: {matrix_add(m1, m2)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Generator Pipeline: Text Processor</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Build a text processing pipeline using chained generators: (1) read_lines(text) yields each line from a multi-line string, (2) strip_lines(lines) yields stripped lines, (3) remove_empty(lines) yields only non-empty lines, (4) to_words(lines) yields individual words from each line, (5) unique_words(words) yields each word only the first time it appears.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Lines: 5
+Clean lines: 3
+Words: [&#39;Hello&#39;, &#39;world&#39;, &#39;Python&#39;, &#39;is&#39;, &#39;great&#39;, &#39;Hello&#39;, &#39;Python&#39;]
+Unique: [&#39;Hello&#39;, &#39;world&#39;, &#39;Python&#39;, &#39;is&#39;, &#39;great&#39;]</div>
+                </div><div class="challenge-constraints">Each function must be a generator. Chain them together.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">def read_lines(text):
+    for line in text.split(&#39;\n&#39;):
+        yield line
+
+def strip_lines(lines):
+    for line in lines:
+        yield line.strip()
+
+def remove_empty(lines):
+    for line in lines:
+        if line:
+            yield line
+
+def to_words(lines):
+    for line in lines:
+        for word in line.split():
+            yield word
+
+def unique_words(words):
+    seen = set()
+    for word in words:
+        if word not in seen:
+            seen.add(word)
+            yield word
+
+text = &quot;&quot;&quot;  Hello world  
+  
+  Python is great  
+    
+  Hello Python  &quot;&quot;&quot;
+
+all_lines = list(read_lines(text))
+print(f&quot;Lines: {len(all_lines)}&quot;)
+
+clean = list(remove_empty(strip_lines(read_lines(text))))
+print(f&quot;Clean lines: {len(clean)}&quot;)
+
+words = list(to_words(remove_empty(strip_lines(read_lines(text)))))
+print(f&quot;Words: {words}&quot;)
+
+uniq = list(unique_words(to_words(remove_empty(strip_lines(read_lines(text))))))
+print(f&quot;Unique: {uniq}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Infinite Generators Collection</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write these infinite generator functions: (1) naturals(start=1) yields natural numbers from start, (2) cycle(iterable) repeats an iterable endlessly, (3) repeat(value, times=None) yields a value forever (or times times if specified). Then write take(n, gen) to get the first n values from any generator.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Naturals: [1, 2, 3, 4, 5]
+Cycle: [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;a&#39;]
+Repeat forever: [42, 42, 42, 42, 42]
+Repeat 3 times: [42, 42, 42]</div>
+                </div><div class="challenge-constraints">naturals and cycle must be truly infinite. take() must work with any generator.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">def naturals(start=1):
+    n = start
+    while True:
+        yield n
+        n += 1
+
+def cycle(iterable):
+    items = list(iterable)
+    while True:
+        for item in items:
+            yield item
+
+def repeat(value, times=None):
+    if times is None:
+        while True:
+            yield value
+    else:
+        for _ in range(times):
+            yield value
+
+def take(n, gen):
+    return [next(gen) for _ in range(n)]
+
+print(f&quot;Naturals: {take(5, naturals())}&quot;)
+print(f&quot;Cycle: {take(7, cycle([&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]))}&quot;)
+print(f&quot;Repeat forever: {take(5, repeat(42))}&quot;)
+print(f&quot;Repeat 3 times: {list(repeat(42, 3))}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Comprehension-Based Data Analysis</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a list of student records (dicts with 'name', 'subject', 'score'), use only comprehensions to: (1) get names of students who scored above 80, (2) create a dict mapping each subject to its average score, (3) find the top scorer in each subject, (4) create a grade distribution dict (A: 90+, B: 75+, C: 50+, F: below 50).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Above 80: [&#39;Aarav&#39;, &#39;Rohan&#39;, &#39;Kavya&#39;]
+Averages: {&#39;Math&#39;: 74.33, &#39;Python&#39;: 68.0, &#39;Science&#39;: 73.0}
+Top per subject: {&#39;Math&#39;: &#39;Rohan&#39;, &#39;Python&#39;: &#39;Kavya&#39;, &#39;Science&#39;: &#39;Aarav&#39;}
+Grade distribution: {&#39;A&#39;: 2, &#39;B&#39;: 2, &#39;C&#39;: 1, &#39;F&#39;: 1}</div>
+                </div><div class="challenge-constraints">Use comprehensions wherever possible. You may use helper comprehensions for intermediate results.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">students = [
+    {&quot;name&quot;: &quot;Aarav&quot;, &quot;subject&quot;: &quot;Math&quot;, &quot;score&quot;: 85},
+    {&quot;name&quot;: &quot;Priya&quot;, &quot;subject&quot;: &quot;Math&quot;, &quot;score&quot;: 42},
+    {&quot;name&quot;: &quot;Rohan&quot;, &quot;subject&quot;: &quot;Math&quot;, &quot;score&quot;: 96},
+    {&quot;name&quot;: &quot;Meera&quot;, &quot;subject&quot;: &quot;Python&quot;, &quot;score&quot;: 55},
+    {&quot;name&quot;: &quot;Kavya&quot;, &quot;subject&quot;: &quot;Python&quot;, &quot;score&quot;: 81},
+    {&quot;name&quot;: &quot;Aarav&quot;, &quot;subject&quot;: &quot;Science&quot;, &quot;score&quot;: 91},
+    {&quot;name&quot;: &quot;Rohan&quot;, &quot;subject&quot;: &quot;Science&quot;, &quot;score&quot;: 55},
+]
+
+# 1. Names of students who scored above 80
+above_80 = [s[&quot;name&quot;] for s in students if s[&quot;score&quot;] &gt; 80]
+print(f&quot;Above 80: {above_80}&quot;)
+
+# 2. Average score per subject
+subjects = {s[&quot;subject&quot;] for s in students}
+averages = {
+    subj: round(sum(s[&quot;score&quot;] for s in students if s[&quot;subject&quot;] == subj) / 
+          sum(1 for s in students if s[&quot;subject&quot;] == subj), 2)
+    for subj in subjects
+}
+print(f&quot;Averages: {averages}&quot;)
+
+# 3. Top scorer per subject
+top_per_subject = {
+    subj: max((s for s in students if s[&quot;subject&quot;] == subj), key=lambda s: s[&quot;score&quot;])[&quot;name&quot;]
+    for subj in subjects
+}
+print(f&quot;Top per subject: {top_per_subject}&quot;)
+
+# 4. Grade distribution
+def grade(score):
+    if score &gt;= 90: return &quot;A&quot;
+    if score &gt;= 75: return &quot;B&quot;
+    if score &gt;= 50: return &quot;C&quot;
+    return &quot;F&quot;
+
+grades = [grade(s[&quot;score&quot;]) for s in students]
+distribution = {g: grades.count(g) for g in sorted(set(grades))}
+print(f&quot;Grade distribution: {distribution}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Lazy File-Like Reader with Generators</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Create a class LazyCSV that simulates reading a CSV file lazily using generators. It should have: (1) rows() generator that yields each row as a list of strings, (2) dicts() generator that yields each row as a dictionary (using the header row as keys), (3) select(columns) generator that yields only specified columns, (4) where(column, condition) generator that filters rows based on a condition function.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Row: [&#39;Aarav&#39;, &#39;16&#39;, &#39;85&#39;]
+Dict: {&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: &#39;16&#39;, &#39;score&#39;: &#39;85&#39;}
+Names: [[&#39;Aarav&#39;], [&#39;Priya&#39;], [&#39;Rohan&#39;]]
+High scores: [{&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: &#39;16&#39;, &#39;score&#39;: &#39;85&#39;}, {&#39;name&#39;: &#39;Rohan&#39;, &#39;age&#39;: &#39;17&#39;, &#39;score&#39;: &#39;92&#39;}]</div>
+                </div><div class="challenge-constraints">All methods must return generators (use yield). No data should be stored beyond what is needed for the current row.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">class LazyCSV:
+    def __init__(self, data):
+        self.lines = data.strip().split(&#39;\n&#39;)
+        self.header = self.lines[0].split(&#39;,&#39;)
+    
+    def rows(self):
+        for line in self.lines[1:]:
+            yield line.split(&#39;,&#39;)
+    
+    def dicts(self):
+        for row in self.rows():
+            yield {self.header[i]: row[i].strip() for i in range(len(self.header))}
+    
+    def select(self, columns):
+        indices = [self.header.index(col) for col in columns]
+        for row in self.rows():
+            yield [row[i].strip() for i in indices]
+    
+    def where(self, column, condition):
+        for record in self.dicts():
+            if condition(record.get(column, &#39;&#39;)):
+                yield record
+
+csv_data = &quot;&quot;&quot;name,age,score
+Aarav,16,85
+Priya,15,42
+Rohan,17,92&quot;&quot;&quot;
+
+csv = LazyCSV(csv_data)
+
+row_gen = csv.rows()
+print(f&quot;Row: {next(row_gen)}&quot;)
+
+dict_gen = csv.dicts()
+print(f&quot;Dict: {next(dict_gen)}&quot;)
+
+names = list(csv.select([&#39;name&#39;]))
+print(f&quot;Names: {names}&quot;)
+
+high = list(csv.where(&#39;score&#39;, lambda s: int(s) &gt; 50))
+print(f&quot;High scores: {high}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Generator-Based Prime Sieve</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Implement a prime number generator using the Sieve of Eratosthenes approach with generators: (1) integers_from(n) yields integers starting from n, (2) sieve(numbers) takes a generator of integers and yields primes by filtering out multiples, (3) primes() chains these to yield primes indefinitely. Use the generator to find the 100th prime and sum of primes below 100.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">First 15 primes: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
+100th prime: 541
+Sum of primes below 100: 1060</div>
+                </div><div class="challenge-constraints">Use generators throughout. The sieve function should recursively filter multiples.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">def integers_from(n):
+    while True:
+        yield n
+        n += 1
+
+def sieve(numbers):
+    prime = next(numbers)
+    yield prime
+    filtered = (n for n in numbers if n % prime != 0)
+    yield from sieve(filtered)
+
+def primes():
+    yield from sieve(integers_from(2))
+
+import sys
+sys.setrecursionlimit(2000)
+
+# First 15 primes
+gen = primes()
+first_15 = [next(gen) for _ in range(15)]
+print(f&quot;First 15 primes: {first_15}&quot;)
+
+# 100th prime
+gen = primes()
+for i in range(99):
+    next(gen)
+hundredth = next(gen)
+print(f&quot;100th prime: {hundredth}&quot;)
+
+# Sum of primes below 100
+gen = primes()
+total = 0
+for p in gen:
+    if p &gt;= 100:
+        break
+    total += p
+print(f&quot;Sum of primes below 100: {total}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/modules-and-packages/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Modules and Packages in Python</span>
+        </a>
+            <a href="/resources/python/decorators-and-iterators/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Decorators and Iterators</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/list-comprehensions-and-generators" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
