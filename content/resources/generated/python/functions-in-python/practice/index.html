@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Functions in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="65+ practice questions on Functions in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="functions in python practice, python questions, python practice problems, functions in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+    <meta property="og:title" content="Practice Questions - Functions in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="65+ practice questions on Functions in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/functions-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - Functions in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="65+ practice questions on Functions in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Functions in Python",
+    "description": "65+ practice questions on Functions in Python in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Functions in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/functions-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Functions in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/functions-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/functions-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/functions-in-python">Functions in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">65 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Functions in Python</h1>
+            <a href="/resources/python/functions-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">13</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Aarav"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The function returns a formatted string with the name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>Hello, Aarav!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(result)
+print(add(3, 7))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The function returns the sum of its two arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>30</code><br><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def say_hi():
+    print("Hi!")
+
+result = say_hi()
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">What does a function return if there is no return statement?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>Hi!</code><br><code>None</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def square(n):
+    return n ** 2
+
+print(square(4))
+print(square(0))
+print(square(-3))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">** is the exponentiation operator. (-3)**2 = 9.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>16</code><br><code>0</code><br><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+print(greet("Priya"))
+print(greet("Rohan", "Welcome"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The second parameter has a default value. It is used when no argument is provided.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>Hello, Priya!</code><br><code>Welcome, Rohan!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def min_max(numbers):
+    return min(numbers), max(numbers)
+
+result = min_max([5, 2, 8, 1, 9])
+print(result)
+print(type(result))
+
+lo, hi = min_max([5, 2, 8, 1, 9])
+print(lo, hi)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">return a, b returns a tuple. The caller can unpack it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>(1, 9)</code><br><code>&lt;class 'tuple'&gt;</code><br><code>1 9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def total(*args):
+    return sum(args)
+
+print(total(1, 2, 3))
+print(total(10))
+print(total())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">*args collects all positional arguments into a tuple. sum of empty tuple is 0.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>6</code><br><code>10</code><br><code>0</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def info(**kwargs):
+    for key, value in sorted(kwargs.items()):
+        print(f"{key}: {value}")
+
+info(name="Aarav", age=16, city="Delhi")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">**kwargs collects keyword arguments into a dictionary. sorted() sorts by keys.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>age: 16</code><br><code>city: Delhi</code><br><code>name: Aarav</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def describe(name, age, city="Unknown"):
+    print(f"{name}, {age}, {city}")
+
+describe("Priya", 15)
+describe(city="Mumbai", age=16, name="Rohan")
+describe("Meera", city="Pune", age=14)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Keyword arguments can be in any order. Positional must come first.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>Priya, 15, Unknown</code><br><code>Rohan, 16, Mumbai</code><br><code>Meera, 14, Pune</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def check(n):
+    if n > 0:
+        return "Positive"
+    elif n < 0:
+        return "Negative"
+
+print(check(5))
+print(check(-3))
+print(check(0))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">What happens if none of the conditions are True? What does the function return?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>Positive</code><br><code>Negative</code><br><code>None</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def power(base, exp=2):
+    return base ** exp
+
+print(power(3))
+print(power(3, 3))
+print(power(exp=4, base=2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Default exp=2. Keyword arguments can override in any order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>9</code><br><code>27</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def apply(func, value):
+    return func(value)
+
+def double(x):
+    return x * 2
+
+print(apply(double, 5))
+print(apply(len, "hello"))
+print(apply(str, 42))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Functions can be passed as arguments to other functions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>10</code><br><code>5</code><br><code>42</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+print(factorial(5))
+print(factorial(0))
+print(factorial(1))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Trace the calls: factorial(5) = 5 * factorial(4) = 5 * 4 * factorial(3)...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>120</code><br><code>1</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def add_item(item, items=[]):
+    items.append(item)
+    return items
+
+print(add_item("a"))
+print(add_item("b"))
+print(add_item("c"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">The default list is created once and shared across all calls.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>['a']</code><br><code>['a', 'b']</code><br><code>['a', 'b', 'c']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+
+def outer():
+    x = 20
+    def inner():
+        x = 30
+        print("inner:", x)
+    inner()
+    print("outer:", x)
+
+outer()
+print("global:", x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Each function has its own local x. Assignment creates a new local variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>inner: 30</code><br><code>outer: 20</code><br><code>global: 10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def make_counter():
+    count = 0
+    def increment():
+        nonlocal count
+        count += 1
+        return count
+    return increment
+
+counter = make_counter()
+print(counter())
+print(counter())
+print(counter())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">nonlocal allows modifying the enclosing scope's variable. The function remembers the count.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>1</code><br><code>2</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def func(a, b, *args, **kwargs):
+    print(a, b)
+    print(args)
+    print(kwargs)
+
+func(1, 2, 3, 4, 5, x=10, y=20)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">a and b get the first two positional args. *args gets the rest. **kwargs gets keyword args.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>1 2</code><br><code>(3, 4, 5)</code><br><code>{'x': 10, 'y': 20}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 18</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def fibonacci(n):
+    if n <= 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n-1) + fibonacci(n-2)
+
+print(fibonacci(6))
+print(fibonacci(7))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-18" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-18">F(6) = F(5) + F(4). Sequence: 0, 1, 1, 2, 3, 5, 8, 13...</div><button type="button" class="collapsible-toggle" data-target="answer-ts-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-18"><code>8</code><br><code>13</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def multiply(a, b):
+    return a * b
+
+print(multiply(3, 4))
+print(multiply("hi", 3))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The * operator works differently for numbers and strings.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>12</code><br><code>hihihi</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def is_even(n):
+    return n % 2 == 0
+
+print(is_even(4))
+print(is_even(7))
+print(type(is_even(4)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The == operator returns a boolean (True or False).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>True</code><br><code>False</code><br><code>&lt;class 'bool'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def greet():
+    return "Hello!"
+
+a = greet
+b = greet()
+print(a)
+print(b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">greet without () is the function object. greet() calls the function.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>&lt;function greet at 0x...&gt;</code><br><code>Hello!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def process(numbers):
+    numbers.append(4)
+    return numbers
+
+original = [1, 2, 3]
+result = process(original)
+print(original)
+print(result)
+print(original is result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Lists are passed by reference. Modifying inside the function modifies the original.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[1, 2, 3, 4]</code><br><code>[1, 2, 3, 4]</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def outer():
+    result = []
+    for i in range(3):
+        def inner():
+            return i
+        result.append(inner)
+    return result
+
+funcs = outer()
+for f in funcs:
+    print(f())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">The inner function captures the variable i, not its value at the time of creation.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>2</code><br><code>2</code><br><code>2</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def mystery(n):
+    if n <= 0:
+        return ""
+    return mystery(n - 1) + str(n)
+
+print(mystery(5))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Trace the recursion: mystery(5) = mystery(4) + "5" = mystery(3) + "4" + "5"...</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>12345</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def swap(a, b):
+    a, b = b, a
+    return a, b
+
+x, y = 10, 20
+result = swap(x, y)
+print(result)
+print(x, y)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Integers are immutable. The function receives copies of the values.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>(20, 10)</code><br><code>10 20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def accumulate(*args):
+    total = 0
+    results = []
+    for n in args:
+        total += n
+        results.append(total)
+    return results
+
+print(accumulate(1, 2, 3, 4, 5))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">The function builds a running total (cumulative sum).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>[1, 3, 6, 10, 15]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>return</code> and <code>print()</code> inside a function?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what the caller can do with the result.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>return</code> sends a value back to the caller, who can store it, pass it to another function, or use it in an expression. <code>print()</code> displays text on the screen but the function still returns <code>None</code>. The caller cannot use a printed value for further computation.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between *args and **kwargs?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">One collects positional arguments, the other collects keyword arguments.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>*args</code> collects extra <strong>positional</strong> arguments into a <strong>tuple</strong>. <code>**kwargs</code> collects extra <strong>keyword</strong> arguments into a <strong>dictionary</strong>. They allow functions to accept a variable number of arguments.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def compose(f, g):
+    def combined(x):
+        return f(g(x))
+    return combined
+
+def double(x):
+    return x * 2
+
+def increment(x):
+    return x + 1
+
+fn = compose(double, increment)
+print(fn(5))
+print(fn(10))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">compose returns a function that applies g first, then f.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>12</code><br><code>22</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def power_factory(exp):
+    def power(base):
+        return base ** exp
+    return power
+
+square = power_factory(2)
+cube = power_factory(3)
+
+print(square(5))
+print(cube(3))
+print(power_factory(4)(2))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">power_factory returns a function that remembers the exponent.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>25</code><br><code>27</code><br><code>16</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What keyword is used to define a function in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> function</li><li><span class="mcq-option-label">B.</span> func</li><li><span class="mcq-option-label">C.</span> def</li><li><span class="mcq-option-label">D.</span> define</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: C</strong><br><strong>C is correct.</strong> Python uses <code>def</code> to define functions. Options A and D are not Python keywords. Option B is not a keyword either.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does a function return if it has no return statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> False</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> An empty string</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> A function without a <code>return</code> statement (or with <code>return</code> alone) returns <code>None</code> by default.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What is the difference between parameters and arguments?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same thing</li><li><span class="mcq-option-label">B.</span> Parameters are in the definition, arguments are in the call</li><li><span class="mcq-option-label">C.</span> Arguments are in the definition, parameters are in the call</li><li><span class="mcq-option-label">D.</span> Parameters are for numbers, arguments are for strings</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> Parameters are the variable names in the function definition (<code>def f(x, y)</code>). Arguments are the actual values passed when calling (<code>f(3, 5)</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What happens if you call a function with fewer arguments than it has non-default parameters?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The missing parameters are set to None</li><li><span class="mcq-option-label">B.</span> The missing parameters are set to 0</li><li><span class="mcq-option-label">C.</span> A TypeError is raised</li><li><span class="mcq-option-label">D.</span> The function ignores the missing parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> Python raises <code>TypeError: missing required positional argument</code>. Every non-default parameter must receive an argument.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Which of these is a valid function definition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> def my_func{}:</li><li><span class="mcq-option-label">B.</span> function my_func():</li><li><span class="mcq-option-label">C.</span> def my_func():</li><li><span class="mcq-option-label">D.</span> def my func():</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> The syntax is <code>def name():</code>. Option A uses braces instead of parentheses. Option B uses 'function' instead of 'def'. Option D has a space in the name.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What does *args collect into?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A list</li><li><span class="mcq-option-label">B.</span> A tuple</li><li><span class="mcq-option-label">C.</span> A dictionary</li><li><span class="mcq-option-label">D.</span> A set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>*args</code> collects extra positional arguments into a <strong>tuple</strong>, not a list. This is because tuples are immutable, which matches the read-only nature of received arguments.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does **kwargs collect into?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A tuple</li><li><span class="mcq-option-label">B.</span> A list</li><li><span class="mcq-option-label">C.</span> A dictionary</li><li><span class="mcq-option-label">D.</span> A set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>**kwargs</code> collects extra keyword arguments into a <strong>dictionary</strong>, with argument names as keys and their values as values.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is the correct order of parameter types in a function definition?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> *args, positional, **kwargs, default</li><li><span class="mcq-option-label">B.</span> positional, default, *args, **kwargs</li><li><span class="mcq-option-label">C.</span> **kwargs, *args, positional, default</li><li><span class="mcq-option-label">D.</span> default, positional, *args, **kwargs</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> The order is: regular positional parameters, default parameters, *args, then **kwargs. Violating this order causes a SyntaxError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does return a, b actually return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Two separate values</li><li><span class="mcq-option-label">B.</span> A list [a, b]</li><li><span class="mcq-option-label">C.</span> A tuple (a, b)</li><li><span class="mcq-option-label">D.</span> A dictionary {&#39;a&#39;: a, &#39;b&#39;: b}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>return a, b</code> is syntactic sugar for <code>return (a, b)</code>. It returns a single tuple containing both values. The caller can unpack it: <code>x, y = func()</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What is a docstring?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A comment that starts with #</li><li><span class="mcq-option-label">B.</span> A triple-quoted string as the first statement of a function</li><li><span class="mcq-option-label">C.</span> Any string inside a function</li><li><span class="mcq-option-label">D.</span> A variable that stores documentation</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> A docstring is a triple-quoted string placed as the <strong>first statement</strong> of a function (or class/module). It documents the function's purpose and is accessible via <code>func.__doc__</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">Why is using a mutable default parameter (like a list) dangerous?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It causes a SyntaxError</li><li><span class="mcq-option-label">B.</span> It creates a new list every time</li><li><span class="mcq-option-label">C.</span> The default object is shared across all calls</li><li><span class="mcq-option-label">D.</span> It makes the function run slower</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> The default list is created once when the function is defined. All calls that do not provide the argument share the same list. Changes from one call persist into subsequent calls.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is a first-class function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function defined at the top of a file</li><li><span class="mcq-option-label">B.</span> A function that runs before all others</li><li><span class="mcq-option-label">C.</span> A function that can be assigned to variables, passed as arguments, and returned from functions</li><li><span class="mcq-option-label">D.</span> A function with no parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: C</strong><br><strong>C is correct.</strong> In Python, functions are first-class objects. They can be assigned to variables (<code>f = func</code>), passed as arguments (<code>map(func, list)</code>), stored in data structures, and returned from other functions.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What is the base case in recursion?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The first recursive call</li><li><span class="mcq-option-label">B.</span> The condition that stops the recursion</li><li><span class="mcq-option-label">C.</span> The largest input the function can handle</li><li><span class="mcq-option-label">D.</span> The initial call to the function</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> The base case is the condition under which the function does NOT call itself, thereby stopping the recursion. Without a base case, the function recurses infinitely until hitting Python's recursion limit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the default recursion limit in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 100</li><li><span class="mcq-option-label">B.</span> 500</li><li><span class="mcq-option-label">C.</span> 1000</li><li><span class="mcq-option-label">D.</span> 10000</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: C</strong><br><strong>C is correct.</strong> Python's default recursion limit is 1000. Exceeding it raises <code>RecursionError</code>. You can check with <code>sys.getrecursionlimit()</code> and change it with <code>sys.setrecursionlimit()</code>, though deep recursion is generally discouraged.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What happens when a function assigns to a variable that shares a name with a global variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The global variable is modified</li><li><span class="mcq-option-label">B.</span> A new local variable is created, shadowing the global</li><li><span class="mcq-option-label">C.</span> A NameError is raised</li><li><span class="mcq-option-label">D.</span> Both variables are updated</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> Assignment inside a function creates a local variable. The global variable is unaffected. This is called <strong>shadowing</strong>. To modify the global, use the <code>global</code> keyword.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Which of these calls is valid for def f(a, b, c=10)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> f(1)</li><li><span class="mcq-option-label">B.</span> f(1, 2)</li><li><span class="mcq-option-label">C.</span> f(c=10)</li><li><span class="mcq-option-label">D.</span> f()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>a</code> and <code>b</code> are required (no defaults). <code>c</code> has a default of 10. <code>f(1, 2)</code> provides both required arguments; c uses its default. The other options do not provide enough required arguments.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What is the output of the following code?<br><pre><code>def f(x=[]):
+    x.append(1)
+    return len(x)
+print(f(), f(), f())</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 1 1 1</li><li><span class="mcq-option-label">B.</span> 1 2 3</li><li><span class="mcq-option-label">C.</span> 3 3 3</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> The default list is shared across calls. First call: [1], len=1. Second call: [1,1], len=2. Third call: [1,1,1], len=3. This is the mutable default argument pitfall.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">Can a function be defined inside another function in Python?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, this causes a SyntaxError</li><li><span class="mcq-option-label">B.</span> Yes, but the inner function cannot be called</li><li><span class="mcq-option-label">C.</span> Yes, and the inner function can access the outer function&#39;s variables</li><li><span class="mcq-option-label">D.</span> Yes, but only if the inner function has no parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> Python supports nested functions. The inner function has access to the outer function's variables (this is the enclosing scope in the LEGB rule). This is the foundation of closures.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 19</div>
+                <div class="question-text">What does the following return?<br><pre><code>def f():
+    return
+result = f()</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 0</li><li><span class="mcq-option-label">B.</span> &quot;&quot;</li><li><span class="mcq-option-label">C.</span> None</li><li><span class="mcq-option-label">D.</span> Nothing (result is undefined)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-19" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-19"><strong>Answer: C</strong><br><strong>C is correct.</strong> A bare <code>return</code> (without a value) returns <code>None</code>. This is the same as having no return statement at all. <code>result</code> is defined and holds the value <code>None</code>.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 20</div>
+                <div class="question-text">How do you access a function's docstring?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> func.doc</li><li><span class="mcq-option-label">B.</span> func.__doc__</li><li><span class="mcq-option-label">C.</span> func.docstring</li><li><span class="mcq-option-label">D.</span> func.help()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-20" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-20"><strong>Answer: B</strong><br><strong>B is correct.</strong> The docstring is stored in the <code>__doc__</code> attribute. <code>help(func)</code> also displays it, but the attribute is accessed with <code>func.__doc__</code>.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Temperature Converter</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write two functions: celsius_to_fahrenheit(c) that converts Celsius to Fahrenheit (F = C * 9/5 + 32), and fahrenheit_to_celsius(f) that converts Fahrenheit to Celsius (C = (F - 32) * 5/9). Test with 0, 100, and 212.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">0C = 32.0F
+100C = 212.0F
+212F = 100.0C</div>
+                </div><div class="challenge-constraints">Each function should return a float, not print.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">def celsius_to_fahrenheit(c):
+    return c * 9/5 + 32
+
+def fahrenheit_to_celsius(f):
+    return (f - 32) * 5/9
+
+print(f&quot;0C = {celsius_to_fahrenheit(0)}F&quot;)
+print(f&quot;100C = {celsius_to_fahrenheit(100)}F&quot;)
+print(f&quot;212F = {fahrenheit_to_celsius(212)}C&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: List Statistics Function</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function stats(numbers) that takes a list of numbers and returns a dictionary with keys 'min', 'max', 'sum', 'average', and 'count'. Test with [10, 20, 30, 40, 50].</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{&#39;min&#39;: 10, &#39;max&#39;: 50, &#39;sum&#39;: 150, &#39;average&#39;: 30.0, &#39;count&#39;: 5}</div>
+                </div><div class="challenge-constraints">Return a dictionary. Do not use external libraries.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">def stats(numbers):
+    return {
+        &#39;min&#39;: min(numbers),
+        &#39;max&#39;: max(numbers),
+        &#39;sum&#39;: sum(numbers),
+        &#39;average&#39;: sum(numbers) / len(numbers),
+        &#39;count&#39;: len(numbers)
+    }
+
+result = stats([10, 20, 30, 40, 50])
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Flexible Greeting Function</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function greet(name, greeting='Hello', punctuation='!') that returns a formatted greeting. Test with different combinations of arguments.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Hello, Aarav!
+Welcome, Priya!
+Hi, Rohan.</div>
+                </div><div class="challenge-constraints">Use default parameters.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">def greet(name, greeting=&#39;Hello&#39;, punctuation=&#39;!&#39;):
+    return f&quot;{greeting}, {name}{punctuation}&quot;
+
+print(greet(&#39;Aarav&#39;))
+print(greet(&#39;Priya&#39;, &#39;Welcome&#39;))
+print(greet(&#39;Rohan&#39;, &#39;Hi&#39;, &#39;.&#39;))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Build a Calculator with *args</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function calculate(operation, *args) where operation is a string ('add', 'multiply', 'max', 'min') and *args are the numbers to operate on. Return the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">add: 15
+multiply: 120
+max: 5
+min: 1</div>
+                </div><div class="challenge-constraints">Use *args. Handle at least 4 operations.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">def calculate(operation, *args):
+    if operation == &#39;add&#39;:
+        return sum(args)
+    elif operation == &#39;multiply&#39;:
+        result = 1
+        for n in args:
+            result *= n
+        return result
+    elif operation == &#39;max&#39;:
+        return max(args)
+    elif operation == &#39;min&#39;:
+        return min(args)
+
+print(f&quot;add: {calculate(&#39;add&#39;, 1, 2, 3, 4, 5)}&quot;)
+print(f&quot;multiply: {calculate(&#39;multiply&#39;, 1, 2, 3, 4, 5)}&quot;)
+print(f&quot;max: {calculate(&#39;max&#39;, 1, 2, 3, 4, 5)}&quot;)
+print(f&quot;min: {calculate(&#39;min&#39;, 1, 2, 3, 4, 5)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Palindrome Checker (Recursive)</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a recursive function is_palindrome(s) that checks if a string is a palindrome. Ignore case and spaces. Test with 'racecar', 'A man a plan a canal Panama', and 'hello'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">racecar: True
+A man a plan a canal Panama: True
+hello: False</div>
+                </div><div class="challenge-constraints">Must use recursion. Clean the string first (lowercase, remove spaces).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">def is_palindrome(s):
+    s = s.lower().replace(&#39; &#39;, &#39;&#39;)
+    if len(s) &lt;= 1:
+        return True
+    if s[0] != s[-1]:
+        return False
+    return is_palindrome(s[1:-1])
+
+print(f&quot;racecar: {is_palindrome(&#39;racecar&#39;)}&quot;)
+print(f&quot;A man a plan a canal Panama: {is_palindrome(&#39;A man a plan a canal Panama&#39;)}&quot;)
+print(f&quot;hello: {is_palindrome(&#39;hello&#39;)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Student Report Generator with **kwargs</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function generate_report(name, **subjects) that takes a student name and subject marks as keyword arguments. Print the student name, each subject with marks, the total, and the average.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Report for Aarav:
+  Maths: 90
+  Science: 85
+  English: 88
+Total: 263
+Average: 87.67</div>
+                </div><div class="challenge-constraints">Use **kwargs to accept any number of subjects.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">def generate_report(name, **subjects):
+    print(f&quot;Report for {name}:&quot;)
+    for subject, marks in subjects.items():
+        print(f&quot;  {subject}: {marks}&quot;)
+    total = sum(subjects.values())
+    average = total / len(subjects)
+    print(f&quot;Total: {total}&quot;)
+    print(f&quot;Average: {average:.2f}&quot;)
+
+generate_report(&#39;Aarav&#39;, Maths=90, Science=85, English=88)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Recursive Power Function</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a recursive function power(base, exp) that calculates base raised to exp without using the ** operator. Handle exp = 0 (return 1). Test with power(2, 10) and power(3, 4).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">2^10 = 1024
+3^4 = 81
+5^0 = 1</div>
+                </div><div class="challenge-constraints">Must use recursion. Do not use ** or pow().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">def power(base, exp):
+    if exp == 0:
+        return 1
+    return base * power(base, exp - 1)
+
+print(f&quot;2^10 = {power(2, 10)}&quot;)
+print(f&quot;3^4 = {power(3, 4)}&quot;)
+print(f&quot;5^0 = {power(5, 0)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Higher-Order Apply Function</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function apply_to_list(func, numbers) that applies a given function to each element and returns a new list. Test with square, absolute value, and string conversion functions.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Squared: [1, 4, 9, 16, 25]
+Absolute: [3, 1, 4, 1, 5]
+As strings: [&#39;-3&#39;, &#39;1&#39;, &#39;-4&#39;, &#39;1&#39;, &#39;5&#39;]</div>
+                </div><div class="challenge-constraints">The function parameter should accept any callable. Do not use map().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">def apply_to_list(func, numbers):
+    return [func(n) for n in numbers]
+
+def square(x):
+    return x ** 2
+
+nums = [-3, 1, -4, 1, 5]
+print(f&quot;Squared: {apply_to_list(square, nums)}&quot;)
+print(f&quot;Absolute: {apply_to_list(abs, nums)}&quot;)
+print(f&quot;As strings: {apply_to_list(str, nums)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Flatten Nested List (Recursive)</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a recursive function flatten(lst) that takes a nested list like [1, [2, 3], [4, [5, 6]], 7] and returns a flat list [1, 2, 3, 4, 5, 6, 7].</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 2, 3, 4, 5, 6, 7]</div>
+                </div><div class="challenge-constraints">Must use recursion. Use isinstance(item, list) to check for nested lists.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">def flatten(lst):
+    result = []
+    for item in lst:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
+
+nested = [1, [2, 3], [4, [5, 6]], 7]
+print(flatten(nested))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Function Composition Pipeline</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function pipeline(*functions) that takes multiple functions and returns a new function that applies them in sequence (left to right). Test: pipeline(double, increment, square)(3) should compute square(increment(double(3))) = square(increment(6)) = square(7) = 49.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">pipeline result: 49
+pipeline result: 81</div>
+                </div><div class="challenge-constraints">Use *args to accept functions. Return a new function.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">def pipeline(*functions):
+    def apply(value):
+        result = value
+        for func in functions:
+            result = func(result)
+        return result
+    return apply
+
+def double(x):
+    return x * 2
+
+def increment(x):
+    return x + 1
+
+def square(x):
+    return x ** 2
+
+transform = pipeline(double, increment, square)
+print(f&quot;pipeline result: {transform(3)}&quot;)
+print(f&quot;pipeline result: {transform(4)}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/sets-in-python/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Sets in Python</span>
+        </a>
+            <a href="/resources/python/scope-and-closures/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Scope, LEGB Rule, and Closures</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/functions-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

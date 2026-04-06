@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in Python - Python Tutorial | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Define reusable code with def, parameters, return values, default arguments, and *args/**kwargs.">
+    <meta name="keywords" content="functions in python, python tutorial, python functions in python, learn python">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/functions-in-python">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/functions-in-python">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/functions-in-python">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/functions-in-python">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/functions-in-python">
+    <meta property="og:title" content="Functions in Python - Python Tutorial | Modern Age Coders">
+    <meta property="og:description" content="Define reusable code with def, parameters, return values, default arguments, and *args/**kwargs.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/functions-in-python">
+    <meta name="twitter:title" content="Functions in Python - Python Tutorial | Modern Age Coders">
+    <meta name="twitter:description" content="Define reusable code with def, parameters, return values, default arguments, and *args/**kwargs.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "Functions in Python",
+    "description": "Define reusable code with def, parameters, return values, default arguments, and *args/**kwargs.",
+    "author": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://learn.modernagecoders.com/images/logo.webp"
+      }
+    },
+    "datePublished": "2026-04-06",
+    "dateModified": "2026-04-06",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://learn.modernagecoders.com/resources/python/functions-in-python"
+    },
+    "educationalLevel": "Intermediate",
+    "inLanguage": "en",
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/functions-in-python"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Functions in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/functions-in-python"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Forgetting to Call the Function (Missing Parentheses)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without parentheses, you get a reference to the function object, not its return value. Always use <code>()</code> to call a function: <code>greet()</code>, not <code>greet</code>."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Using print() Instead of return (Function Returns None)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "<code>print()</code> displays a value to the screen but does not send it back to the caller. The function returns <code>None</code>. Use <code>return</code> when you need the caller to use the computed value."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mutable Default Parameter (Shared Between Calls)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Default mutable objects (lists, dicts, sets) are created once when the function is defined, not each time it is called. All calls share the same object. Use <code>None</code> as the default and create the mutable object inside the function."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Placing Default Parameters Before Non-Default",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non-default parameters must come before default parameters. Python reads arguments left to right, so it would not know which positional argument to assign to which parameter if defaults came first."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Modifying a Global Variable Without the global Keyword",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "When you assign to a variable inside a function, Python treats it as local for the entire function. Since <code>count += 1</code> reads and writes, Python sees it as local, but it has not been defined locally yet. Use <code>global count</code> to modify the global variable."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Recursion Without a Base Case (Infinite Recursion)",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Without a base case, the function calls itself forever until Python hits its recursion limit (usually 1000). Always define a clear stopping condition that does not make a recursive call."
+        }
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-notes-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Functions in Python</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 16</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-time">35 min min read</span>
+                <span class="badge badge-updated">Updated 2026-04-06</span>
+            </div>
+            <h1 class="resource-title">Functions in Python</h1>
+            <a href="/resources/python/functions-in-python/practice" class="practice-link">Practice Questions &rarr;</a>
+        </header>
+
+        <!-- Table of Contents -->
+        <div class="toc-box">
+            <h2 class="toc-heading">In This Chapter</h2>
+            <ul class="toc-list">
+                <li><a href="#what">What Is It?</a></li>
+                <li><a href="#why">Why Does It Matter?</a></li>
+                <li><a href="#explanation">Detailed Explanation</a></li>
+                <li><a href="#code-examples">Code Examples</a></li>
+                <li><a href="#common-mistakes">Common Mistakes</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </div>
+
+        <!-- Article Content -->
+        <article class="resource-content">
+
+            <section id="what" class="content-section">
+                <h2>What Is It?</h2>
+                <h2>What Are Functions in Python?</h2><p>A <strong>function</strong> is a reusable block of code that performs a specific task. You define it once and call it as many times as you need, optionally passing data in (parameters) and getting data back (return values).</p><p>Functions are defined using the <code>def</code> keyword:</p><pre><code>def greet(name):
+    return f"Hello, {name}!"
+
+message = greet("Aarav")
+print(message)  # Hello, Aarav!</code></pre><p>The function <code>greet</code> takes one parameter (<code>name</code>), constructs a greeting string, and returns it to the caller. The caller stores the result in <code>message</code> and prints it.</p><h3>Function Anatomy</h3><pre><code>def function_name(parameter1, parameter2):   # Function signature
+    """Docstring: describes what the function does."""  # Optional
+    # Function body (indented)
+    result = parameter1 + parameter2
+    return result   # Return value (optional)
+
+# Calling the function
+output = function_name(10, 20)  # Arguments passed to parameters</code></pre><p>Key terminology: <strong>Parameters</strong> are the variable names in the function definition. <strong>Arguments</strong> are the actual values you pass when calling the function.</p>
+            </section>
+
+            <section id="why" class="content-section">
+                <h2>Why Does It Matter?</h2>
+                <h2>Why Are Functions Important?</h2><p>Functions are arguably the most important concept in programming. Every significant program uses them. Here is why:</p><h3>1. DRY Principle (Don't Repeat Yourself)</h3><p>Without functions, you would copy-paste the same code every time you need it. If Aarav writes a formula to calculate the area of a circle in 5 different places, and the formula needs updating, he must change all 5 places. With a function, he changes it once.</p><h3>2. Modularity and Organization</h3><p>Functions break large problems into smaller, manageable pieces. Instead of a 500-line script, you have 20 functions of 25 lines each. Each function has a clear name and purpose, making the code easier to understand and navigate.</p><h3>3. Reusability</h3><p>Once written, a function can be called from anywhere in your program, or even imported into other programs. Libraries like <code>math</code>, <code>random</code>, and <code>os</code> are collections of functions that thousands of developers reuse.</p><h3>4. Testing and Debugging</h3><p>Functions can be tested independently. If <code>calculate_discount()</code> gives the wrong result, you know exactly where the bug is. Without functions, finding a bug in 500 lines of sequential code is much harder.</p><h3>5. Abstraction</h3><p>Functions hide complexity. When Priya calls <code>sorted(my_list)</code>, she does not need to know the sorting algorithm. She just needs to know what the function does, what it accepts, and what it returns. This is abstraction: separating the <em>what</em> from the <em>how</em>.</p>
+            </section>
+
+            <section id="explanation" class="content-section">
+                <h2>Detailed Explanation</h2>
+                <h2>Detailed Explanation</h2><h3>1. The def Keyword and Basic Functions</h3><p>Every function starts with <code>def</code>, followed by the function name, parentheses (with optional parameters), and a colon. The body is indented:</p><pre><code>def say_hello():
+    print("Hello!")
+
+say_hello()  # Prints: Hello!
+say_hello()  # Can call as many times as you want</code></pre><p>A function with no parameters and no return value simply executes its body when called.</p><h3>2. Parameters and Arguments</h3><p><strong>Parameters</strong> (defined in the function signature) receive values from <strong>arguments</strong> (passed when calling):</p><pre><code>def add(a, b):       # a and b are parameters
+    return a + b
+
+result = add(3, 5)   # 3 and 5 are arguments
+print(result)         # 8</code></pre><h3>3. The return Statement</h3><p><code>return</code> sends a value back to the caller and immediately exits the function. Any code after <code>return</code> is not executed.</p><pre><code>def square(n):
+    return n ** 2
+    print("This never runs")  # Dead code
+
+result = square(5)  # 25</code></pre><h4>Returning Multiple Values</h4><p>Python functions can return multiple values as a tuple:</p><pre><code>def min_max(numbers):
+    return min(numbers), max(numbers)
+
+low, high = min_max([3, 1, 7, 2, 9])
+print(low, high)  # 1 9</code></pre><h4>Returning None</h4><p>If a function has no <code>return</code> statement, or uses <code>return</code> without a value, it returns <code>None</code>:</p><pre><code>def greet(name):
+    print(f"Hello, {name}")
+
+result = greet("Aarav")  # Prints: Hello, Aarav
+print(result)            # None</code></pre><h3>4. Default Parameters</h3><p>Parameters can have default values. If the caller does not provide an argument, the default is used:</p><pre><code>def greet(name, greeting="Hello"):
+    return f"{greeting}, {name}!"
+
+print(greet("Aarav"))              # Hello, Aarav!
+print(greet("Priya", "Welcome"))   # Welcome, Priya!</code></pre><p>Important rule: default parameters must come <strong>after</strong> non-default parameters. <code>def f(a=1, b)</code> is a SyntaxError.</p><h3>5. Keyword Arguments vs Positional Arguments</h3><p><strong>Positional arguments</strong> are matched by position. <strong>Keyword arguments</strong> are matched by name:</p><pre><code>def describe(name, age, city):
+    print(f"{name}, age {age}, from {city}")
+
+# Positional
+describe("Aarav", 16, "Delhi")
+
+# Keyword (order does not matter)
+describe(city="Mumbai", name="Priya", age=15)
+
+# Mixed (positional must come first)
+describe("Rohan", city="Pune", age=17)</code></pre><h3>6. *args: Variable Positional Arguments</h3><p><code>*args</code> collects extra positional arguments into a tuple:</p><pre><code>def total(*args):
+    print(type(args))  # &lt;class 'tuple'&gt;
+    return sum(args)
+
+print(total(1, 2, 3))       # 6
+print(total(10, 20, 30, 40)) # 100</code></pre><p>The name <code>args</code> is a convention. You could use <code>*numbers</code> or <code>*values</code>. The <code>*</code> is what matters.</p><h3>7. **kwargs: Variable Keyword Arguments</h3><p><code>**kwargs</code> collects extra keyword arguments into a dictionary:</p><pre><code>def profile(**kwargs):
+    print(type(kwargs))  # &lt;class 'dict'&gt;
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+profile(name="Aarav", age=16, city="Delhi")
+# name: Aarav
+# age: 16
+# city: Delhi</code></pre><h3>8. Combining Parameter Types</h3><p>The correct order is: positional, *args, keyword, **kwargs:</p><pre><code>def example(a, b, *args, key="default", **kwargs):
+    print(f"a={a}, b={b}")
+    print(f"args={args}")
+    print(f"key={key}")
+    print(f"kwargs={kwargs}")
+
+example(1, 2, 3, 4, key="custom", x=10, y=20)
+# a=1, b=2
+# args=(3, 4)
+# key=custom
+# kwargs={'x': 10, 'y': 20}</code></pre><h3>9. Docstrings</h3><p>A docstring is a triple-quoted string as the first statement of a function. It documents what the function does, its parameters, and its return value:</p><pre><code>def calculate_area(radius):
+    """Calculate the area of a circle.
+    
+    Args:
+        radius: The radius of the circle (non-negative number).
+    
+    Returns:
+        The area of the circle as a float.
+    """
+    import math
+    return math.pi * radius ** 2
+
+# Access the docstring
+print(calculate_area.__doc__)
+help(calculate_area)</code></pre><h3>10. Functions as First-Class Objects</h3><p>In Python, functions are objects. You can assign them to variables, pass them as arguments, and store them in data structures:</p><pre><code># Assign function to a variable
+def square(x):
+    return x ** 2
+
+operation = square
+print(operation(5))  # 25
+
+# Pass function as argument
+def apply(func, value):
+    return func(value)
+
+print(apply(square, 7))  # 49
+print(apply(len, "hello"))  # 5</code></pre><h3>11. Recursion</h3><p>A recursive function calls itself. Every recursive function needs a <strong>base case</strong> (when to stop) and a <strong>recursive case</strong> (when to call itself again):</p><pre><code># Factorial: n! = n * (n-1)!
+def factorial(n):
+    if n == 0 or n == 1:  # Base case
+        return 1
+    return n * factorial(n - 1)  # Recursive case
+
+print(factorial(5))  # 120 (5 * 4 * 3 * 2 * 1)</code></pre><p>Recursion is elegant for problems that have a naturally recursive structure (factorial, Fibonacci, tree traversal), but can be slower and use more memory than iterative solutions for large inputs.</p><h3>12. Nested Functions</h3><p>Functions can be defined inside other functions. The inner function has access to the outer function's variables:</p><pre><code>def outer(message):
+    def inner():
+        print(message)  # Accesses outer's variable
+    inner()
+
+outer("Hello from inside!")  # Hello from inside!</code></pre><p>Nested functions are the foundation of closures, which we will explore in the next chapter.</p><h3>13. Global vs Local Variables (Preview)</h3><p>Variables defined inside a function are <strong>local</strong>: they exist only during the function call. Variables defined outside all functions are <strong>global</strong>:</p><pre><code>x = 10  # Global
+
+def example():
+    y = 20  # Local
+    print(x)  # Can read global
+    print(y)  # Can read local
+
+example()
+print(x)  # 10 (global is accessible)
+# print(y)  # NameError! y does not exist outside the function</code></pre><p>The full rules of scope (LEGB rule) are covered in the next chapter on Scope and Closures.</p>
+            </section>
+
+            <section id="code-examples" class="content-section">
+                <h2>Code Examples</h2>
+                <div class="code-example"><div class="code-example-title">Basic Function Definition and Calling</div><pre><code class="language-python"># Function with no parameters, no return
+def say_hello():
+    print(&quot;Hello, World!&quot;)
+
+say_hello()
+say_hello()
+
+# Function with parameters and return
+def add(a, b):
+    return a + b
+
+result = add(10, 20)
+print(f&quot;Sum: {result}&quot;)
+
+# Return value of a function without return
+def just_print(msg):
+    print(msg)
+
+value = just_print(&quot;Testing&quot;)
+print(f&quot;Return value: {value}&quot;)</code></pre><div class="code-example-explanation">Functions are defined with <code>def</code>. <code>say_hello()</code> has no parameters and no return value. <code>add(a, b)</code> takes two parameters and returns their sum. A function without a <code>return</code> statement implicitly returns <code>None</code>.</div><div class="code-example-output">Hello, World!
+Hello, World!
+Sum: 30
+Testing
+Return value: None</div></div>
+<div class="code-example"><div class="code-example-title">Default Parameters and Keyword Arguments</div><pre><code class="language-python">def create_profile(name, age, city=&quot;Unknown&quot;, active=True):
+    return {
+        &quot;name&quot;: name,
+        &quot;age&quot;: age,
+        &quot;city&quot;: city,
+        &quot;active&quot;: active
+    }
+
+# All positional
+p1 = create_profile(&quot;Aarav&quot;, 16, &quot;Delhi&quot;, True)
+print(p1)
+
+# Using defaults
+p2 = create_profile(&quot;Priya&quot;, 15)
+print(p2)
+
+# Keyword arguments (order does not matter)
+p3 = create_profile(age=17, name=&quot;Rohan&quot;, city=&quot;Mumbai&quot;)
+print(p3)
+
+# Mix of positional and keyword
+p4 = create_profile(&quot;Meera&quot;, 14, active=False)
+print(p4)</code></pre><div class="code-example-explanation">Default parameters (<code>city="Unknown"</code>) are used when the caller does not provide a value. Keyword arguments (<code>age=17</code>) can be passed in any order. When mixing, positional arguments must come before keyword arguments.</div><div class="code-example-output">{&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16, &#39;city&#39;: &#39;Delhi&#39;, &#39;active&#39;: True}
+{&#39;name&#39;: &#39;Priya&#39;, &#39;age&#39;: 15, &#39;city&#39;: &#39;Unknown&#39;, &#39;active&#39;: True}
+{&#39;name&#39;: &#39;Rohan&#39;, &#39;age&#39;: 17, &#39;city&#39;: &#39;Mumbai&#39;, &#39;active&#39;: True}
+{&#39;name&#39;: &#39;Meera&#39;, &#39;age&#39;: 14, &#39;city&#39;: &#39;Unknown&#39;, &#39;active&#39;: False}</div></div>
+<div class="code-example"><div class="code-example-title">Returning Multiple Values</div><pre><code class="language-python">def analyze_marks(marks):
+    &quot;&quot;&quot;Analyze a list of marks and return statistics.&quot;&quot;&quot;
+    total = sum(marks)
+    average = total / len(marks)
+    highest = max(marks)
+    lowest = min(marks)
+    return total, average, highest, lowest
+
+marks = [85, 92, 78, 95, 88]
+t, avg, hi, lo = analyze_marks(marks)
+print(f&quot;Total: {t}&quot;)
+print(f&quot;Average: {avg}&quot;)
+print(f&quot;Highest: {hi}&quot;)
+print(f&quot;Lowest: {lo}&quot;)
+
+# The return is actually a tuple
+result = analyze_marks(marks)
+print(f&quot;\nAs tuple: {result}&quot;)
+print(f&quot;Type: {type(result)}&quot;)</code></pre><div class="code-example-explanation">Python functions return multiple values as a tuple. The caller can unpack them into separate variables using tuple unpacking (<code>t, avg, hi, lo = ...</code>). Without unpacking, the result is a single tuple.</div><div class="code-example-output">Total: 438
+Average: 87.6
+Highest: 95
+Lowest: 78
+
+As tuple: (438, 87.6, 95, 78)
+Type: &lt;class &#39;tuple&#39;&gt;</div></div>
+<div class="code-example"><div class="code-example-title">*args and **kwargs</div><pre><code class="language-python"># *args: variable number of positional arguments
+def total(*args):
+    print(f&quot;args = {args} (type: {type(args).__name__})&quot;)
+    return sum(args)
+
+print(total(1, 2, 3))
+print(total(10, 20, 30, 40, 50))
+
+# **kwargs: variable number of keyword arguments
+def display_info(**kwargs):
+    print(f&quot;kwargs = {kwargs} (type: {type(kwargs).__name__})&quot;)
+    for key, value in kwargs.items():
+        print(f&quot;  {key}: {value}&quot;)
+
+print()
+display_info(name=&quot;Aarav&quot;, age=16, grade=&quot;A&quot;)
+
+# Combining regular params, *args, and **kwargs
+def flexible(required, *args, **kwargs):
+    print(f&quot;required: {required}&quot;)
+    print(f&quot;args: {args}&quot;)
+    print(f&quot;kwargs: {kwargs}&quot;)
+
+print()
+flexible(&quot;must&quot;, 1, 2, 3, x=10, y=20)</code></pre><div class="code-example-explanation"><code>*args</code> collects extra positional arguments into a tuple. <code>**kwargs</code> collects extra keyword arguments into a dictionary. They can be combined: regular parameters first, then *args, then **kwargs.</div><div class="code-example-output">args = (1, 2, 3) (type: tuple)
+6
+args = (10, 20, 30, 40, 50) (type: tuple)
+150
+
+kwargs = {&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16, &#39;grade&#39;: &#39;A&#39;} (type: dict)
+  name: Aarav
+  age: 16
+  grade: A
+
+required: must
+args: (1, 2, 3)
+kwargs: {&#39;x&#39;: 10, &#39;y&#39;: 20}</div></div>
+<div class="code-example"><div class="code-example-title">Functions as First-Class Objects</div><pre><code class="language-python">def square(x):
+    return x ** 2
+
+def cube(x):
+    return x ** 3
+
+# Assign function to a variable
+op = square
+print(op(5))  # 25
+
+# Store functions in a list
+operations = [square, cube, abs, len]
+for func in operations:
+    if func in (len,):
+        print(f&quot;{func.__name__}(&#39;hello&#39;) = {func(&#39;hello&#39;)}&quot;)
+    else:
+        print(f&quot;{func.__name__}(-3) = {func(-3)}&quot;)
+
+# Pass function as argument
+def apply_twice(func, value):
+    return func(func(value))
+
+print(f&quot;\nsquare applied twice to 3: {apply_twice(square, 3)}&quot;)
+print(f&quot;cube applied twice to 2: {apply_twice(cube, 2)}&quot;)</code></pre><div class="code-example-explanation">In Python, functions are first-class objects. They can be assigned to variables, stored in lists/dicts, and passed as arguments to other functions. <code>func.__name__</code> gives the function's name as a string.</div><div class="code-example-output">25
+square(-3) = 9
+cube(-3) = -27
+abs(-3) = 3
+len(&#39;hello&#39;) = 5
+
+square applied twice to 3: 81
+cube applied twice to 2: 512</div></div>
+<div class="code-example"><div class="code-example-title">Recursion: Factorial and Fibonacci</div><pre><code class="language-python"># Factorial: n! = n * (n-1) * ... * 1
+def factorial(n):
+    if n &lt;= 1:          # Base case
+        return 1
+    return n * factorial(n - 1)  # Recursive case
+
+print(f&quot;5! = {factorial(5)}&quot;)
+print(f&quot;0! = {factorial(0)}&quot;)
+print(f&quot;10! = {factorial(10)}&quot;)
+
+# Fibonacci: F(n) = F(n-1) + F(n-2)
+def fibonacci(n):
+    if n &lt;= 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+print(f&quot;\nFirst 10 Fibonacci numbers:&quot;)
+for i in range(10):
+    print(fibonacci(i), end=&quot; &quot;)
+print()
+
+# Recursive sum of digits
+def digit_sum(n):
+    if n &lt; 10:
+        return n
+    return n % 10 + digit_sum(n // 10)
+
+print(f&quot;\nDigit sum of 12345: {digit_sum(12345)}&quot;)</code></pre><div class="code-example-explanation">Recursive functions call themselves with a smaller input until reaching a base case. Factorial multiplies n by factorial of n-1. Fibonacci adds the two preceding values. Every recursive function must have a base case to prevent infinite recursion.</div><div class="code-example-output">5! = 120
+0! = 1
+10! = 3628800
+
+First 10 Fibonacci numbers:
+0 1 1 2 3 5 8 13 21 34 
+
+Digit sum of 12345: 15</div></div>
+<div class="code-example"><div class="code-example-title">Docstrings and help()</div><pre><code class="language-python">def calculate_bmi(weight_kg, height_m):
+    &quot;&quot;&quot;Calculate Body Mass Index (BMI).
+    
+    Args:
+        weight_kg: Weight in kilograms (positive number).
+        height_m: Height in meters (positive number).
+    
+    Returns:
+        A tuple of (bmi_value, category) where category is
+        one of: &#39;Underweight&#39;, &#39;Normal&#39;, &#39;Overweight&#39;, &#39;Obese&#39;.
+    &quot;&quot;&quot;
+    bmi = weight_kg / (height_m ** 2)
+    if bmi &lt; 18.5:
+        category = &quot;Underweight&quot;
+    elif bmi &lt; 25:
+        category = &quot;Normal&quot;
+    elif bmi &lt; 30:
+        category = &quot;Overweight&quot;
+    else:
+        category = &quot;Obese&quot;
+    return round(bmi, 1), category
+
+# Using the function
+bmi, cat = calculate_bmi(70, 1.75)
+print(f&quot;BMI: {bmi}, Category: {cat}&quot;)
+
+# Accessing docstring
+print(f&quot;\nDocstring:\n{calculate_bmi.__doc__}&quot;)</code></pre><div class="code-example-explanation">Docstrings are placed as the first statement inside a function. They document the purpose, parameters, and return value. Access them with <code>func.__doc__</code> or <code>help(func)</code>. Well-documented functions are easier to use and maintain.</div><div class="code-example-output">BMI: 22.9, Category: Normal
+
+Docstring:
+Calculate Body Mass Index (BMI).
+    
+    Args:
+        weight_kg: Weight in kilograms (positive number).
+        height_m: Height in meters (positive number).
+    
+    Returns:
+        A tuple of (bmi_value, category) where category is
+        one of: &#39;Underweight&#39;, &#39;Normal&#39;, &#39;Overweight&#39;, &#39;Obese&#39;.</div></div>
+<div class="code-example"><div class="code-example-title">Nested Functions and Local Scope</div><pre><code class="language-python">def outer(x):
+    def inner(y):
+        return x + y  # inner can access outer&#39;s variable x
+    return inner(10)
+
+result = outer(5)
+print(f&quot;outer(5) -&gt; inner(10) = {result}&quot;)
+
+# Global vs Local
+counter = 0  # Global
+
+def increment():
+    counter = 1  # Local! Does NOT modify global
+    print(f&quot;Inside function: counter = {counter}&quot;)
+
+increment()
+print(f&quot;Outside function: counter = {counter}&quot;)
+
+# Demonstrating local scope
+def demo():
+    local_var = &quot;I exist only inside demo&quot;
+    print(local_var)
+
+demo()
+try:
+    print(local_var)
+except NameError as e:
+    print(f&quot;NameError: {e}&quot;)</code></pre><div class="code-example-explanation">Inner functions can access variables from the enclosing function. Local variables exist only during the function call. Assigning to a variable inside a function creates a local variable, even if a global with the same name exists. The global variable is not modified.</div><div class="code-example-output">outer(5) -&gt; inner(10) = 15
+Inside function: counter = 1
+Outside function: counter = 0
+I exist only inside demo
+NameError: name &#39;local_var&#39; is not defined</div></div>
+            </section>
+
+            <section id="common-mistakes" class="content-section">
+                <h2>Common Mistakes</h2>
+                <div class="mistake-card">
+                <h3>Forgetting to Call the Function (Missing Parentheses)</h3>
+                <div class="wrong-code"><pre><code class="language-python">def greet():
+    return &quot;Hello!&quot;
+
+result = greet  # Missing ()
+print(result)   # &lt;function greet at 0x...&gt; - prints the function object!</code></pre></div><div class="error-message">No error, but prints the function object instead of the return value.</div><div class="correct-code"><pre><code class="language-python">def greet():
+    return &quot;Hello!&quot;
+
+result = greet()  # Call with ()
+print(result)     # Hello!</code></pre></div><div class="mistake-explanation">Without parentheses, you get a reference to the function object, not its return value. Always use <code>()</code> to call a function: <code>greet()</code>, not <code>greet</code>.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Using print() Instead of return (Function Returns None)</h3>
+                <div class="wrong-code"><pre><code class="language-python">def add(a, b):
+    print(a + b)  # Prints but does not return
+
+result = add(3, 5)  # Prints 8
+print(result * 2)   # TypeError: unsupported operand type(s) for *: &#39;NoneType&#39; and &#39;int&#39;</code></pre></div><div class="error-message">TypeError: unsupported operand type(s) for *: &#39;NoneType&#39; and &#39;int&#39;</div><div class="correct-code"><pre><code class="language-python">def add(a, b):
+    return a + b  # Return the value
+
+result = add(3, 5)
+print(result * 2)  # 16</code></pre></div><div class="mistake-explanation"><code>print()</code> displays a value to the screen but does not send it back to the caller. The function returns <code>None</code>. Use <code>return</code> when you need the caller to use the computed value.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Mutable Default Parameter (Shared Between Calls)</h3>
+                <div class="wrong-code"><pre><code class="language-python">def add_item(item, items=[]):
+    items.append(item)
+    return items
+
+print(add_item(&quot;apple&quot;))    # [&#39;apple&#39;]
+print(add_item(&quot;banana&quot;))   # [&#39;apple&#39;, &#39;banana&#39;] - not [&#39;banana&#39;]!</code></pre></div><div class="error-message">No error, but the default list is shared across calls. Expected [&#39;banana&#39;] on second call, got [&#39;apple&#39;, &#39;banana&#39;].</div><div class="correct-code"><pre><code class="language-python">def add_item(item, items=None):
+    if items is None:
+        items = []
+    items.append(item)
+    return items
+
+print(add_item(&quot;apple&quot;))    # [&#39;apple&#39;]
+print(add_item(&quot;banana&quot;))   # [&#39;banana&#39;]</code></pre></div><div class="mistake-explanation">Default mutable objects (lists, dicts, sets) are created once when the function is defined, not each time it is called. All calls share the same object. Use <code>None</code> as the default and create the mutable object inside the function.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Placing Default Parameters Before Non-Default</h3>
+                <div class="wrong-code"><pre><code class="language-python">def greet(greeting=&quot;Hello&quot;, name):
+    return f&quot;{greeting}, {name}!&quot;
+# SyntaxError: non-default argument follows default argument</code></pre></div><div class="error-message">SyntaxError: non-default argument follows default argument</div><div class="correct-code"><pre><code class="language-python">def greet(name, greeting=&quot;Hello&quot;):
+    return f&quot;{greeting}, {name}!&quot;
+
+print(greet(&quot;Aarav&quot;))              # Hello, Aarav!
+print(greet(&quot;Priya&quot;, &quot;Welcome&quot;))   # Welcome, Priya!</code></pre></div><div class="mistake-explanation">Non-default parameters must come before default parameters. Python reads arguments left to right, so it would not know which positional argument to assign to which parameter if defaults came first.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Modifying a Global Variable Without the global Keyword</h3>
+                <div class="wrong-code"><pre><code class="language-python">count = 0
+
+def increment():
+    count += 1  # UnboundLocalError!
+
+increment()</code></pre></div><div class="error-message">UnboundLocalError: local variable &#39;count&#39; referenced before assignment</div><div class="correct-code"><pre><code class="language-python">count = 0
+
+def increment():
+    global count
+    count += 1
+
+increment()
+print(count)  # 1</code></pre></div><div class="mistake-explanation">When you assign to a variable inside a function, Python treats it as local for the entire function. Since <code>count += 1</code> reads and writes, Python sees it as local, but it has not been defined locally yet. Use <code>global count</code> to modify the global variable.</div>
+            </div>
+<div class="mistake-card">
+                <h3>Recursion Without a Base Case (Infinite Recursion)</h3>
+                <div class="wrong-code"><pre><code class="language-python">def countdown(n):
+    print(n)
+    countdown(n - 1)  # No base case!
+
+countdown(5)  # RecursionError: maximum recursion depth exceeded</code></pre></div><div class="error-message">RecursionError: maximum recursion depth exceeded</div><div class="correct-code"><pre><code class="language-python">def countdown(n):
+    if n &lt;= 0:        # Base case
+        print(&quot;Done!&quot;)
+        return
+    print(n)
+    countdown(n - 1)
+
+countdown(5)</code></pre></div><div class="mistake-explanation">Without a base case, the function calls itself forever until Python hits its recursion limit (usually 1000). Always define a clear stopping condition that does not make a recursive call.</div>
+            </div>
+            </section>
+
+            <section id="summary" class="content-section">
+                <h2>Summary</h2>
+                <div class="summary-box"><ul><li>Functions are defined with the def keyword. They encapsulate reusable logic, improving code organization and reducing repetition (DRY principle).</li>
+<li>Parameters are defined in the function signature. Arguments are the values passed when calling. Parameters vs arguments is a common interview question.</li>
+<li>The return statement sends a value back to the caller and exits the function. Without return, a function returns None implicitly.</li>
+<li>Python functions can return multiple values as a tuple: return a, b, c. The caller can unpack them: x, y, z = func().</li>
+<li>Default parameters provide fallback values: def f(x, y=10). Non-default parameters must come before default ones.</li>
+<li>Keyword arguments can be passed in any order: f(y=2, x=1). Positional arguments must come before keyword arguments.</li>
+<li>*args collects extra positional arguments into a tuple. **kwargs collects extra keyword arguments into a dictionary.</li>
+<li>Functions are first-class objects in Python. They can be assigned to variables, stored in data structures, and passed as arguments to other functions.</li>
+<li>Recursive functions call themselves with a smaller input. Every recursive function needs a base case (stopping condition) to prevent infinite recursion.</li>
+<li>Docstrings (triple-quoted strings) document what a function does, its parameters, and return value. Access with func.__doc__ or help(func).</li>
+<li>Variables inside a function are local (exist only during the call). Variables outside all functions are global. Use the global keyword to modify a global from inside a function.</li></ul></div>
+            </section>
+
+        </article>
+
+        <!-- Related Topics -->
+        <section class="related-topics">
+            <h2>Related Topics</h2>
+            <div class="related-topics-list"><a href="/resources/python/sets-in-python" class="related-topic-link">Sets in Python</a>
+<a href="/resources/python/scope-and-closures" class="related-topic-link">Scope, LEGB Rule, and Closures</a></div>
+        </section>
+
+        <!-- Chapter Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a href="/resources/python/sets-in-python" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Sets in Python</span>
+        </a>
+            <a href="/resources/python/scope-and-closures" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Scope, LEGB Rule, and Closures</span>
+        </a>
+        </nav>
+
+        <!-- Practice CTA -->
+        <section class="cta-section">
+            <h2>Ready to Practice?</h2>
+            <p>Test your understanding with 50+ practice questions on this topic.</p>
+            <a href="/resources/python/functions-in-python/practice" class="cta-button-primary">Go to Practice Questions</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

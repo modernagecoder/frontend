@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Lambda, Map, Filter, and Reduce | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="58+ practice questions on Lambda, Map, Filter, and Reduce in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="lambda, map, filter, and reduce practice, python questions, python practice problems, lambda, map, filter, and reduce exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+    <meta property="og:title" content="Practice Questions - Lambda, Map, Filter, and Reduce | Python | Modern Age Coders">
+    <meta property="og:description" content="58+ practice questions on Lambda, Map, Filter, and Reduce in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice">
+    <meta name="twitter:title" content="Practice Questions - Lambda, Map, Filter, and Reduce | Python | Modern Age Coders">
+    <meta name="twitter:description" content="58+ practice questions on Lambda, Map, Filter, and Reduce in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Lambda, Map, Filter, and Reduce",
+    "description": "58+ practice questions on Lambda, Map, Filter, and Reduce in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Lambda, Map, Filter, and Reduce"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Lambda, Map, Filter, and Reduce",
+        "item": "https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/lambda-map-filter-reduce/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/lambda-map-filter-reduce">Lambda, Map, Filter, and Reduce</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 18</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">58 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Lambda, Map, Filter, and Reduce</h1>
+            <a href="/resources/python/lambda-map-filter-reduce" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">12</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>square = lambda x: x ** 2
+print(square(4))
+print(square(7))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Lambda works like a regular function. x ** 2 is returned automatically.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>16</code><br><code>49</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>add = lambda a, b: a + b
+print(add(3, 5))
+print(add("Hello ", "World"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">The + operator works for both numbers and strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>8</code><br><code>Hello World</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]
+result = list(map(lambda x: x * 2, numbers))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">map() applies the function to every element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>[2, 4, 6, 8, 10]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5, 6]
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+print(evens)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">filter() keeps elements where the function returns True.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>[2, 4, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>check = lambda x: "even" if x % 2 == 0 else "odd"
+print(check(4))
+print(check(7))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Lambda can use conditional expressions (ternary).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>even</code><br><code>odd</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["banana", "pie", "apple", "fig"]
+result = sorted(words, key=lambda w: len(w))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">key=lambda w: len(w) tells sorted() to compare by length.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>['pie', 'fig', 'apple', 'banana']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+result = reduce(lambda a, b: a + b, [1, 2, 3, 4, 5])
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">reduce applies cumulatively: ((((1+2)+3)+4)+5).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+result = reduce(lambda a, b: a * b, [1, 2, 3, 4, 5])
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">This computes the product of all elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>120</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>names = ["aarav", "priya", "rohan"]
+result = list(map(str.upper, names))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">str.upper is an existing method. No lambda needed.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>['AARAV', 'PRIYA', 'ROHAN']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>data = [("Aarav", 85), ("Priya", 92), ("Rohan", 78)]
+result = sorted(data, key=lambda x: x[1], reverse=True)
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">key=lambda x: x[1] sorts by the second element. reverse=True for descending.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>[('Priya', 92), ('Aarav', 85), ('Rohan', 78)]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>mixed = [0, 1, "", "hello", None, 42, False, "world"]
+result = list(filter(None, mixed))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">filter(None, ...) removes all falsy values.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>[1, 'hello', 42, 'world']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]
+result = list(map(lambda x: x ** 2, filter(lambda x: x > 2, numbers)))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">filter first (keep x > 2), then map (square them).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>[9, 16, 25]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+result = reduce(lambda a, b: a if a > b else b, [3, 7, 2, 9, 4])
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">This reduce keeps the larger of each pair, finding the maximum.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+result = reduce(lambda a, b: a + b, [1, 2, 3], 100)
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">reduce with an initial value starts accumulation from that value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>106</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>students = [
+    {"name": "Aarav", "marks": 85},
+    {"name": "Priya", "marks": 92},
+    {"name": "Rohan", "marks": 78}
+]
+topper = max(students, key=lambda s: s["marks"])
+print(topper["name"])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">max() with key=lambda finds the element with the highest value for the given key.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>pairs = [("Aarav", 85), ("Priya", 92), ("Rohan", 85), ("Meera", 92)]
+result = sorted(pairs, key=lambda x: (-x[1], x[0]))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Negative marks for descending order, then name for ascending (alphabetical).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>[('Meera', 92), ('Priya', 92), ('Aarav', 85), ('Rohan', 85)]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>funcs = [lambda x: x + 1, lambda x: x * 2, lambda x: x ** 2]
+result = [f(3) for f in funcs]
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">Each lambda is applied to the argument 3.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>[4, 6, 9]</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>f = lambda: 42
+print(f())
+print(type(f))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">A lambda with no parameters just returns the expression.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>42</code><br><code>&lt;class 'function'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = ["3", "1", "4", "1", "5"]
+result = list(map(int, nums))
+print(result)
+print(sum(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">map(int, ...) converts each string to an integer.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>[3, 1, 4, 1, 5]</code><br><code>14</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["hello", "world", "python"]
+lengths = list(map(len, words))
+print(lengths)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">map(len, ...) applies len() to each element.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>[5, 5, 6]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]
+odd_squares = list(map(lambda x: x**2, filter(lambda x: x % 2 != 0, numbers)))
+print(odd_squares)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">filter keeps odd numbers, then map squares them.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>[1, 9, 25]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = [1, 2, 3]
+b = [10, 20, 30]
+result = list(map(lambda x, y: x + y, a, b))
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">map with two iterables passes one element from each to the lambda.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>[11, 22, 33]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["Python", "is", "awesome", "!"]
+longest = max(words, key=lambda w: len(w))
+shortest = min(words, key=lambda w: len(w))
+print(longest)
+print(shortest)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">max/min with key=len finds the longest/shortest string.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>awesome</code><br><code>!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>result = (lambda x, y: x ** y)(2, 10)
+print(result)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">This is an immediately invoked lambda expression (IIFE).</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>1024</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between map() and filter()?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">One transforms, the other selects.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>map(func, iterable)</code> <strong>transforms</strong> every element by applying func and returns the results. <code>filter(func, iterable)</code> <strong>selects</strong> elements where func returns True. map changes values, filter changes which values are included.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When should you use a lambda instead of a def function?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about function complexity and reusability.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9">Use lambda for short, simple, throwaway operations used once (like sort keys, quick transforms in map/filter). Use <code>def</code> when the function is complex, needs multiple lines, will be reused, or needs a docstring.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+nested = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
+flat = reduce(lambda a, b: a + b, nested)
+print(flat)
+print(len(flat))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">The + operator on lists concatenates them. reduce applies it cumulatively.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code><br><code>9</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>marks = {"Aarav": 85, "Priya": 45, "Rohan": 92, "Meera": 38}
+passed = dict(filter(lambda item: item[1] >= 50, marks.items()))
+print(passed)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">filter on dict.items() gives key-value tuples. Convert back to dict.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>{'Aarav': 85, 'Rohan': 92}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>from functools import reduce
+words = ["Hello", " ", "World", "!"]
+result = reduce(lambda a, b: a + b, words)
+print(result)
+print(type(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">reduce with string concatenation joins all strings into one.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>Hello World!</code><br><code>&lt;class 'str'&gt;</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What is the correct syntax for a lambda function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> lambda(x): x + 1</li><li><span class="mcq-option-label">B.</span> lambda x: x + 1</li><li><span class="mcq-option-label">C.</span> def lambda(x): x + 1</li><li><span class="mcq-option-label">D.</span> lambda x -&gt; x + 1</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lambda syntax is <code>lambda params: expression</code>. No parentheses around parameters, no arrow notation, and no def keyword.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What does map() return in Python 3?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A list</li><li><span class="mcq-option-label">B.</span> A tuple</li><li><span class="mcq-option-label">C.</span> A map object (iterator)</li><li><span class="mcq-option-label">D.</span> A dictionary</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> In Python 3, <code>map()</code> returns a lazy map object (iterator), not a list. Use <code>list(map(...))</code> to get a list. This is memory-efficient for large datasets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What does filter() do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Transforms every element</li><li><span class="mcq-option-label">B.</span> Keeps elements where the function returns True</li><li><span class="mcq-option-label">C.</span> Removes duplicate elements</li><li><span class="mcq-option-label">D.</span> Sorts elements by condition</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>filter(func, iterable)</code> tests each element with func and keeps only those where func returns True. It does not transform elements (that is map) or remove duplicates (that is set).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Where is reduce() located in Python 3?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> It is a built-in function</li><li><span class="mcq-option-label">B.</span> In the math module</li><li><span class="mcq-option-label">C.</span> In the functools module</li><li><span class="mcq-option-label">D.</span> In the itertools module</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>reduce()</code> was moved to <code>functools</code> in Python 3. You must write <code>from functools import reduce</code> before using it.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Can a lambda function contain an if-else statement?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, lambdas cannot have any conditions</li><li><span class="mcq-option-label">B.</span> Yes, using a conditional expression (ternary): a if condition else b</li><li><span class="mcq-option-label">C.</span> Yes, using a regular if-else block</li><li><span class="mcq-option-label">D.</span> Only in Python 3.10+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lambda can use conditional <strong>expressions</strong> (ternary): <code>lambda x: 'yes' if x > 0 else 'no'</code>. It cannot use if-else <strong>statements</strong> (blocks with colons and indentation).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the output of list(map(lambda x: x ** 2, [1, 2, 3]))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> [2, 4, 6]</li><li><span class="mcq-option-label">C.</span> [1, 4, 9]</li><li><span class="mcq-option-label">D.</span> (1, 4, 9)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> map applies <code>x ** 2</code> to each element: 1**2=1, 2**2=4, 3**2=9. Result: [1, 4, 9].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What is the output of list(filter(lambda x: x > 3, [1, 2, 3, 4, 5]))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> [4, 5]</li><li><span class="mcq-option-label">C.</span> [3, 4, 5]</li><li><span class="mcq-option-label">D.</span> [True, True]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: B</strong><br><strong>B is correct.</strong> filter keeps elements where <code>x > 3</code> is True. Only 4 and 5 satisfy this condition. Result: [4, 5].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What does filter(None, [0, 1, '', 'hello', None, 42]) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [0, 1, &#39;&#39;, &#39;hello&#39;, None, 42]</li><li><span class="mcq-option-label">B.</span> [1, &#39;hello&#39;, 42]</li><li><span class="mcq-option-label">C.</span> [None]</li><li><span class="mcq-option-label">D.</span> []</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> When func is None, filter removes all falsy values. 0, '', and None are falsy. 1, 'hello', and 42 are truthy and are kept.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What does sorted(['pie', 'apple', 'fig'], key=lambda x: len(x)) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [&#39;apple&#39;, &#39;fig&#39;, &#39;pie&#39;]</li><li><span class="mcq-option-label">B.</span> [&#39;pie&#39;, &#39;fig&#39;, &#39;apple&#39;]</li><li><span class="mcq-option-label">C.</span> [&#39;fig&#39;, &#39;pie&#39;, &#39;apple&#39;]</li><li><span class="mcq-option-label">D.</span> [3, 3, 5]</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lengths: pie=3, fig=3, apple=5. Sorted by length: pie and fig (both 3) come first (original order preserved), then apple (5). Result: ['pie', 'fig', 'apple'].</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Which is NOT a valid lambda expression?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> lambda x: x + 1</li><li><span class="mcq-option-label">B.</span> lambda: 42</li><li><span class="mcq-option-label">C.</span> lambda x, y: x * y</li><li><span class="mcq-option-label">D.</span> lambda x: print(x); return x</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: D</strong><br><strong>D is correct.</strong> Lambda cannot contain statements like <code>return</code> or semicolons separating multiple statements. Lambda can only have a single expression. Options A, B, and C are all valid.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of reduce(lambda a, b: a * b, [1, 2, 3, 4])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 10</li><li><span class="mcq-option-label">B.</span> 24</li><li><span class="mcq-option-label">C.</span> [2, 6, 24]</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: B</strong><br><strong>B is correct.</strong> reduce computes the product cumulatively: 1*2=2, 2*3=6, 6*4=24. The final result is 24 (factorial of 4).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the difference between lambda and def?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Lambda is faster than def</li><li><span class="mcq-option-label">B.</span> Lambda can only contain a single expression; def can have multiple statements</li><li><span class="mcq-option-label">C.</span> Lambda can have a docstring; def cannot</li><li><span class="mcq-option-label">D.</span> There is no difference</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lambda is limited to a single expression (no statements, no multi-line body). <code>def</code> can have multiple statements, docstrings, and complex logic. Lambda is not faster; both create function objects.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">What does map() do when given two iterables of different lengths?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Raises a ValueError</li><li><span class="mcq-option-label">B.</span> Pads the shorter one with None</li><li><span class="mcq-option-label">C.</span> Stops at the shortest iterable</li><li><span class="mcq-option-label">D.</span> Repeats the shorter iterable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>map()</code> stops when the shortest iterable is exhausted. For example, <code>list(map(lambda x, y: x+y, [1, 2, 3], [10, 20]))</code> gives [11, 22] (stops after 2 elements).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is reduce(lambda a, b: a + b, [5], 10)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 5</li><li><span class="mcq-option-label">B.</span> 15</li><li><span class="mcq-option-label">C.</span> 10</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> The initial value is 10. reduce computes: 10 + 5 = 15. The initial value is combined with the first (and only) element.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">Which is more readable for squaring a list of numbers?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> list(map(lambda x: x**2, numbers))</li><li><span class="mcq-option-label">B.</span> [x**2 for x in numbers]</li><li><span class="mcq-option-label">C.</span> Both are equally readable</li><li><span class="mcq-option-label">D.</span> Neither is readable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: B</strong><br><strong>B is correct.</strong> For simple transformations, list comprehensions are generally more readable and Pythonic than map with lambda. The Python community and PEP 8 favor comprehensions for simple cases.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What does lambda x, y: x + y do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Creates a function that prints x + y</li><li><span class="mcq-option-label">B.</span> Creates a function that returns x + y</li><li><span class="mcq-option-label">C.</span> Assigns x + y to a variable</li><li><span class="mcq-option-label">D.</span> Creates two variables x and y</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> Lambda creates an anonymous function that takes two parameters (x and y) and returns their sum. The return is implicit.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does sorted(data, key=lambda x: (-x[1], x[0])) do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Sorts by first element descending, then second ascending</li><li><span class="mcq-option-label">B.</span> Sorts by second element descending, then first element ascending</li><li><span class="mcq-option-label">C.</span> Sorts by second element ascending, then first descending</li><li><span class="mcq-option-label">D.</span> Raises an error because of the negative sign</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> Negating the second element (<code>-x[1]</code>) reverses its sort order (descending). The first element (<code>x[0]</code>) is not negated, so it sorts ascending. This is a common multi-criteria sort pattern.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the output of list(filter(lambda x: x, [0, 1, 2, 0, 3]))?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [0, 1, 2, 0, 3]</li><li><span class="mcq-option-label">B.</span> [1, 2, 3]</li><li><span class="mcq-option-label">C.</span> [0, 0]</li><li><span class="mcq-option-label">D.</span> []</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: B</strong><br><strong>B is correct.</strong> The lambda returns x itself. filter keeps elements that are truthy. 0 is falsy, so it is removed. 1, 2, and 3 are truthy, so they are kept.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Square All Numbers Using map()</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use map() with a lambda to create a new list of their squares.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]</div>
+                </div><div class="challenge-constraints">Use map() and lambda. Do not use list comprehension.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+squares = list(map(lambda x: x ** 2, numbers))
+print(squares)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Filter Passing Students</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given marks = {'Aarav': 85, 'Priya': 45, 'Rohan': 92, 'Meera': 38, 'Vikram': 67}, use filter() to create a new dictionary containing only students who scored 50 or above.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{&#39;Aarav&#39;: 85, &#39;Rohan&#39;: 92, &#39;Vikram&#39;: 67}</div>
+                </div><div class="challenge-constraints">Use filter() with lambda on dict.items().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">marks = {&#39;Aarav&#39;: 85, &#39;Priya&#39;: 45, &#39;Rohan&#39;: 92, &#39;Meera&#39;: 38, &#39;Vikram&#39;: 67}
+passed = dict(filter(lambda item: item[1] &gt;= 50, marks.items()))
+print(passed)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Sort Students by Marks</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Given a list of tuples: students = [('Aarav', 85), ('Priya', 92), ('Rohan', 78), ('Meera', 95)], sort them by marks in descending order using sorted() with key=lambda.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[(&#39;Meera&#39;, 95), (&#39;Priya&#39;, 92), (&#39;Aarav&#39;, 85), (&#39;Rohan&#39;, 78)]</div>
+                </div><div class="challenge-constraints">Use sorted() with key=lambda and reverse=True.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">students = [(&#39;Aarav&#39;, 85), (&#39;Priya&#39;, 92), (&#39;Rohan&#39;, 78), (&#39;Meera&#39;, 95)]
+result = sorted(students, key=lambda s: s[1], reverse=True)
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Celsius to Fahrenheit with map()</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given temperatures in Celsius: [0, 20, 37, 100], use map() with a lambda to convert each to Fahrenheit (F = C * 9/5 + 32). Print the result rounded to 1 decimal place.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[32.0, 68.0, 98.6, 212.0]</div>
+                </div><div class="challenge-constraints">Use map() with lambda. Use round() inside the lambda.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">celsius = [0, 20, 37, 100]
+fahrenheit = list(map(lambda c: round(c * 9/5 + 32, 1), celsius))
+print(fahrenheit)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Product of a List Using reduce()</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Use reduce() to compute the product of all numbers in [2, 3, 5, 7, 11] (multiply all elements together).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">2310</div>
+                </div><div class="challenge-constraints">Must use reduce() from functools.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">from functools import reduce
+numbers = [2, 3, 5, 7, 11]
+product = reduce(lambda a, b: a * b, numbers)
+print(product)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Extract and Sort Names by Length</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given records = [{'name': 'Aarav', 'age': 16}, {'name': 'Priya', 'age': 15}, {'name': 'Vikramaditya', 'age': 17}, {'name': 'Meera', 'age': 14}], use map() to extract just the names, then sort them by length (shortest first).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Meera&#39;, &#39;Vikramaditya&#39;]</div>
+                </div><div class="challenge-constraints">Use map() to extract names and sorted() with key=lambda for sorting.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">records = [
+    {&#39;name&#39;: &#39;Aarav&#39;, &#39;age&#39;: 16},
+    {&#39;name&#39;: &#39;Priya&#39;, &#39;age&#39;: 15},
+    {&#39;name&#39;: &#39;Vikramaditya&#39;, &#39;age&#39;: 17},
+    {&#39;name&#39;: &#39;Meera&#39;, &#39;age&#39;: 14}
+]
+names = list(map(lambda r: r[&#39;name&#39;], records))
+sorted_names = sorted(names, key=lambda n: len(n))
+print(sorted_names)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Chain Filter and Map: High Scorer Names</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given students = [{'name': 'Aarav', 'marks': 85}, {'name': 'Priya', 'marks': 92}, {'name': 'Rohan', 'marks': 78}, {'name': 'Meera', 'marks': 95}, {'name': 'Vikram', 'marks': 60}], use filter() to keep students scoring above 80, then map() to extract just their names.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Meera&#39;]</div>
+                </div><div class="challenge-constraints">Chain filter() and map() with lambda.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">students = [
+    {&#39;name&#39;: &#39;Aarav&#39;, &#39;marks&#39;: 85},
+    {&#39;name&#39;: &#39;Priya&#39;, &#39;marks&#39;: 92},
+    {&#39;name&#39;: &#39;Rohan&#39;, &#39;marks&#39;: 78},
+    {&#39;name&#39;: &#39;Meera&#39;, &#39;marks&#39;: 95},
+    {&#39;name&#39;: &#39;Vikram&#39;, &#39;marks&#39;: 60}
+]
+result = list(map(lambda s: s[&#39;name&#39;], filter(lambda s: s[&#39;marks&#39;] &gt; 80, students)))
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Multi-Criteria Sort</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given data = [('Aarav', 'A', 85), ('Priya', 'A', 92), ('Rohan', 'B', 85), ('Meera', 'A', 92), ('Vikram', 'B', 78)], sort by: grade ascending, then marks descending, then name ascending.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[(&#39;Meera&#39;, &#39;A&#39;, 92), (&#39;Priya&#39;, &#39;A&#39;, 92), (&#39;Aarav&#39;, &#39;A&#39;, 85), (&#39;Rohan&#39;, &#39;B&#39;, 85), (&#39;Vikram&#39;, &#39;B&#39;, 78)]</div>
+                </div><div class="challenge-constraints">Use sorted() with a lambda that returns a tuple key.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">data = [(&#39;Aarav&#39;, &#39;A&#39;, 85), (&#39;Priya&#39;, &#39;A&#39;, 92), (&#39;Rohan&#39;, &#39;B&#39;, 85), (&#39;Meera&#39;, &#39;A&#39;, 92), (&#39;Vikram&#39;, &#39;B&#39;, 78)]
+result = sorted(data, key=lambda x: (x[1], -x[2], x[0]))
+print(result)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Frequency Count with reduce()</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Use reduce() to count the frequency of each character in the string 'mississippi'. The result should be a dictionary.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{&#39;m&#39;: 1, &#39;i&#39;: 4, &#39;s&#39;: 4, &#39;p&#39;: 2}</div>
+                </div><div class="challenge-constraints">Must use reduce(). The accumulator should be a dictionary.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">from functools import reduce
+
+text = &#39;mississippi&#39;
+freq = reduce(
+    lambda acc, ch: {**acc, ch: acc.get(ch, 0) + 1},
+    text,
+    {}
+)
+print(freq)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Data Processing Pipeline</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given raw data: raw = ['  Aarav:85  ', '  Priya:92  ', '  Rohan:78  ', '  Meera:95  ', '  Vikram:60  '], use map/filter/lambda to: (1) strip whitespace, (2) split by ':', (3) convert marks to int, (4) filter marks > 80, (5) print names of students who passed.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Meera&#39;]</div>
+                </div><div class="challenge-constraints">Use a combination of map() and filter() with lambda.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">raw = [&#39;  Aarav:85  &#39;, &#39;  Priya:92  &#39;, &#39;  Rohan:78  &#39;, &#39;  Meera:95  &#39;, &#39;  Vikram:60  &#39;]
+
+# Step 1-3: Clean and parse
+parsed = list(map(lambda s: s.strip().split(&#39;:&#39;), raw))
+parsed = list(map(lambda p: (p[0], int(p[1])), parsed))
+
+# Step 4-5: Filter and extract names
+result = list(map(lambda p: p[0], filter(lambda p: p[1] &gt; 80, parsed)))
+print(result)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/scope-and-closures/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Scope, LEGB Rule, and Closures</span>
+        </a>
+            <a href="/resources/python/file-handling-in-python/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">File Handling in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/lambda-map-filter-reduce" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

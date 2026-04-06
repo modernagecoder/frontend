@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Scope, LEGB Rule, and Closures | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on Scope, LEGB Rule, and Closures in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="scope, legb rule, and closures practice, python questions, python practice problems, scope, legb rule, and closures exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+    <meta property="og:title" content="Practice Questions - Scope, LEGB Rule, and Closures | Python | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on Scope, LEGB Rule, and Closures in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/scope-and-closures/practice">
+    <meta name="twitter:title" content="Practice Questions - Scope, LEGB Rule, and Closures | Python | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on Scope, LEGB Rule, and Closures in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Scope, LEGB Rule, and Closures",
+    "description": "55+ practice questions on Scope, LEGB Rule, and Closures in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Scope, LEGB Rule, and Closures"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/scope-and-closures/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Scope, LEGB Rule, and Closures",
+        "item": "https://learn.modernagecoders.com/resources/python/scope-and-closures"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/scope-and-closures/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/scope-and-closures">Scope, LEGB Rule, and Closures</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 17</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Scope, LEGB Rule, and Closures</h1>
+            <a href="/resources/python/scope-and-closures" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">8</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">10</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>x = 10
+
+def show():
+    print(x)
+
+show()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The function can read global variables without the global keyword.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+
+def func():
+    x = 10
+    print(x)
+
+func()
+print(x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Assignment inside a function creates a local variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>10</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def func():
+    y = 20
+    print(y)
+
+func()
+try:
+    print(y)
+except NameError as e:
+    print(f"Error: {e}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Local variables do not exist outside the function.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>20</code><br><code>Error: name 'y' is not defined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>x = "global"
+
+def outer():
+    x = "enclosing"
+    def inner():
+        print(x)
+    inner()
+
+outer()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">inner() has no local x, so LEGB search finds the enclosing one.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>enclosing</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>count = 0
+
+def increment():
+    global count
+    count += 1
+
+increment()
+increment()
+increment()
+print(count)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The global keyword allows modifying the module-level variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 1
+
+def func():
+    x = 2
+    print("Inside:", x)
+
+func()
+print("Outside:", x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Assignment inside a function creates a NEW local variable, it does not modify the global.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>Inside: 2</code><br><code>Outside: 1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def outer():
+    x = 10
+    def inner():
+        nonlocal x
+        x += 5
+    inner()
+    print(x)
+
+outer()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">nonlocal allows the inner function to modify the enclosing variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>15</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def multiplier(factor):
+    def multiply(x):
+        return x * factor
+    return multiply
+
+double = multiplier(2)
+triple = multiplier(3)
+print(double(5))
+print(triple(5))
+print(double(10))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Each call to multiplier creates a new closure with its own factor.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>10</code><br><code>15</code><br><code>20</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = "global"
+
+def outer():
+    x = "enclosing"
+    def inner():
+        x = "local"
+        print("inner:", x)
+    inner()
+    print("outer:", x)
+
+outer()
+print("global:", x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">Each scope has its own x. Assignment creates a local variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>inner: local</code><br><code>outer: enclosing</code><br><code>global: global</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def make_adder(n):
+    def add(x):
+        return x + n
+    return add
+
+add5 = make_adder(5)
+add10 = make_adder(10)
+
+print(add5(3))
+print(add10(3))
+print(add5(add10(1)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Each closure remembers its own n value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>8</code><br><code>13</code><br><code>16</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>x = 10
+
+def func():
+    try:
+        print(x)
+        x = 20
+    except UnboundLocalError:
+        print("UnboundLocalError caught")
+
+func()
+print(x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">The assignment x = 20 makes x local for the ENTIRE function, even the print before it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>UnboundLocalError caught</code><br><code>10</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def counter():
+    count = 0
+    def inc():
+        nonlocal count
+        count += 1
+        return count
+    def get():
+        return count
+    return inc, get
+
+inc, get = counter()
+print(inc())
+print(inc())
+print(get())
+print(inc())
+print(get())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Both inc and get share the same enclosing count variable.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>1</code><br><code>2</code><br><code>2</code><br><code>3</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>funcs = []
+for i in range(4):
+    def f():
+        return i
+    funcs.append(f)
+
+print([fn() for fn in funcs])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">All closures capture the same variable i, not its value at creation time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>[3, 3, 3, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>funcs = []
+for i in range(4):
+    def f(i=i):
+        return i
+    funcs.append(f)
+
+print([fn() for fn in funcs])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Default parameter i=i captures the current value of i at each iteration.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>[0, 1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = 1
+def func():
+    a = 2
+    def inner():
+        global a
+        a = 3
+    inner()
+    print("func:", a)
+
+func()
+print("global:", a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">inner() uses global, not nonlocal. It modifies the global a, not the enclosing a.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>func: 2</code><br><code>global: 3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def outer():
+    x = 10
+    def middle():
+        def inner():
+            nonlocal x
+            x += 1
+        inner()
+    middle()
+    return x
+
+print(outer())</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">nonlocal searches upward through enclosing scopes. inner has no x, middle has no x, outer has x.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>11</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>name = "Aarav"
+
+def greet():
+    print(f"Hello, {name}")
+
+greet()
+name = "Priya"
+greet()</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">The function reads the global variable at call time, not definition time.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>Hello, Aarav</code><br><code>Hello, Priya</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(5):
+    pass
+
+print(i)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">Python for loops do not create a new scope. The loop variable persists.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>def func(a, b):
+    c = a + b
+    return c
+
+result = func(3, 4)
+print(result)
+try:
+    print(c)
+except NameError:
+    print("c is not defined")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">c is a local variable inside func. It does not exist outside.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>7</code><br><code>c is not defined</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>def power_factory(exp):
+    def power(base):
+        return base ** exp
+    return power
+
+square = power_factory(2)
+cube = power_factory(3)
+print(square(4))
+print(cube(4))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Each closure captures a different value of exp.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>16</code><br><code>64</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = [1, 2, 3]
+
+def modify(lst):
+    lst.append(4)
+
+modify(x)
+print(x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">Lists are mutable. The function modifies the same object, no global keyword needed.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>[1, 2, 3, 4]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>x = [1, 2, 3]
+
+def replace(lst):
+    lst = [4, 5, 6]
+    print("Inside:", lst)
+
+replace(x)
+print("Outside:", x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Reassigning the parameter creates a new local reference, not modifying the original.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>Inside: [4, 5, 6]</code><br><code>Outside: [1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the LEGB rule? Explain each letter.</div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">It is the order Python searches for variable names.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7">LEGB stands for: <strong>L</strong>ocal (inside the current function), <strong>E</strong>nclosing (outer function for nested functions), <strong>G</strong>lobal (module level), <strong>B</strong>uilt-in (Python's predefined names like print, len). Python searches these scopes in this order when resolving a name.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">When do you need the <code>global</code> keyword and when do you need <code>nonlocal</code>?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">Think about which scope you are trying to modify.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8">Use <code>global</code> to modify a <strong>module-level</strong> variable from inside a function. Use <code>nonlocal</code> to modify an <strong>enclosing function's</strong> variable from inside a nested function. Neither is needed for reading variables or for modifying mutable objects through their methods.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def make_greeting(greeting):
+    def greet(name):
+        return f"{greeting}, {name}!"
+    return greet
+
+hello = make_greeting("Hello")
+namaste = make_greeting("Namaste")
+
+print(hello("Aarav"))
+print(namaste("Priya"))
+print(hello("Rohan"))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Each closure captures a different greeting value.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>Hello, Aarav!</code><br><code>Namaste, Priya!</code><br><code>Hello, Rohan!</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>print = "hello"  # Shadows built-in print
+try:
+    print("test")
+except TypeError as e:
+    del print  # Remove shadow
+    print(f"Error was: {e}")
+    print("Built-in restored")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Assigning to 'print' shadows the built-in. del removes the shadow.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10"><code>Error was: 'str' object is not callable</code><br><code>Built-in restored</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>def accumulator(start):
+    total = start
+    def add(n):
+        nonlocal total
+        total += n
+        return total
+    return add
+
+acc = accumulator(100)
+print(acc(10))
+print(acc(20))
+print(acc(30))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">The closure maintains a running total across calls.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>110</code><br><code>130</code><br><code>160</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">What does LEGB stand for?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> List, Element, Global, Built-in</li><li><span class="mcq-option-label">B.</span> Local, Enclosing, Global, Built-in</li><li><span class="mcq-option-label">C.</span> Local, External, General, Basic</li><li><span class="mcq-option-label">D.</span> Loop, Enclosing, Global, Base</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: B</strong><br><strong>B is correct.</strong> LEGB stands for Local, Enclosing, Global, Built-in. This is the order Python searches for variable names.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">Where are local variables created?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> At the module level</li><li><span class="mcq-option-label">B.</span> Inside a function</li><li><span class="mcq-option-label">C.</span> In the Python interpreter</li><li><span class="mcq-option-label">D.</span> In the import statement</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: B</strong><br><strong>B is correct.</strong> Local variables are created inside a function. They exist only during the function call and are destroyed when the function returns.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">What keyword is used to modify a global variable from inside a function?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> nonlocal</li><li><span class="mcq-option-label">B.</span> extern</li><li><span class="mcq-option-label">C.</span> global</li><li><span class="mcq-option-label">D.</span> module</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> The <code>global</code> keyword declares that a variable inside a function refers to the module-level global variable. <code>nonlocal</code> (A) is for enclosing scope, not global.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">Can you read a global variable inside a function without any special keyword?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> No, you always need the global keyword</li><li><span class="mcq-option-label">B.</span> Yes, reading globals works without any keyword</li><li><span class="mcq-option-label">C.</span> Only if the variable is a constant</li><li><span class="mcq-option-label">D.</span> Only in Python 3.10+</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: B</strong><br><strong>B is correct.</strong> You can read global variables from inside a function without the <code>global</code> keyword. You only need <code>global</code> when you want to assign to (modify) the global variable.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">What is a closure?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A function that closes the program</li><li><span class="mcq-option-label">B.</span> A function that deletes all variables</li><li><span class="mcq-option-label">C.</span> An inner function that remembers variables from its enclosing scope</li><li><span class="mcq-option-label">D.</span> A function with no parameters</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: C</strong><br><strong>C is correct.</strong> A closure is a function that captures and remembers variables from the enclosing scope, even after the enclosing function has returned.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What error occurs if you assign to and read a variable in the same function without declaring it global?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> NameError</li><li><span class="mcq-option-label">B.</span> TypeError</li><li><span class="mcq-option-label">C.</span> UnboundLocalError</li><li><span class="mcq-option-label">D.</span> SyntaxError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>UnboundLocalError</code> occurs because Python sees the assignment, marks the variable as local for the entire function, and then encounters a read before the assignment.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does the nonlocal keyword do?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Declares a global variable</li><li><span class="mcq-option-label">B.</span> Creates a new local variable</li><li><span class="mcq-option-label">C.</span> Allows a nested function to modify the enclosing function&#39;s variable</li><li><span class="mcq-option-label">D.</span> Deletes a variable from the enclosing scope</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>nonlocal</code> tells Python that a variable in a nested function refers to the enclosing (not global) scope's variable, allowing modification.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">Which scope does Python search first when looking up a variable name?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Global</li><li><span class="mcq-option-label">B.</span> Built-in</li><li><span class="mcq-option-label">C.</span> Enclosing</li><li><span class="mcq-option-label">D.</span> Local</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: D</strong><br><strong>D is correct.</strong> Python follows LEGB order: Local first, then Enclosing, then Global, then Built-in. It stops at the first scope where the name is found.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What happens when you do list = [1, 2, 3] at module level?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Overwrites the built-in list function globally</li><li><span class="mcq-option-label">B.</span> Creates a global variable that shadows the built-in list</li><li><span class="mcq-option-label">C.</span> Raises a SyntaxError</li><li><span class="mcq-option-label">D.</span> Has no effect on the built-in</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> A global variable named <code>list</code> shadows the built-in <code>list</code> function. The built-in still exists in the Built-in scope but is hidden. Use <code>del list</code> to remove the shadow.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">Do you need the global keyword to append to a global list?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, always</li><li><span class="mcq-option-label">B.</span> No, because append modifies the existing object, not reassigns the variable</li><li><span class="mcq-option-label">C.</span> Only if the list has more than 10 elements</li><li><span class="mcq-option-label">D.</span> Only in Python 2</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>global</code> is needed for reassignment (<code>my_list = new_list</code>). Calling methods on the existing object (<code>my_list.append(1)</code>) does not require <code>global</code> because the variable itself is not being reassigned.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">What is the output of this code?<br><pre><code>x = 10
+def f():
+    x = x + 1
+    return x
+f()</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 11</li><li><span class="mcq-option-label">B.</span> 10</li><li><span class="mcq-option-label">C.</span> UnboundLocalError</li><li><span class="mcq-option-label">D.</span> NameError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>x = x + 1</code> contains both a read and an assignment. Python marks x as local for the entire function. The read (<code>x + 1</code>) happens before the assignment, causing UnboundLocalError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">When Python determines variable scope, is it at compile time or runtime?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Runtime (when the line executes)</li><li><span class="mcq-option-label">B.</span> Compile time (when the function is defined)</li><li><span class="mcq-option-label">C.</span> Import time</li><li><span class="mcq-option-label">D.</span> It depends on the variable type</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> Python determines scope at compile time (when the function definition is compiled). If an assignment to a variable exists anywhere in the function, it is treated as local for the entire function, regardless of execution flow.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Why do closures in a loop often capture the same value?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Because loops in Python are buggy</li><li><span class="mcq-option-label">B.</span> Because closures capture the variable reference, not the value, and the variable changes</li><li><span class="mcq-option-label">C.</span> Because closures cannot be created in loops</li><li><span class="mcq-option-label">D.</span> Because Python optimizes loop variables</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: B</strong><br><strong>B is correct.</strong> Closures capture the variable, not its current value. In a loop, all closures reference the same loop variable. After the loop ends, the variable holds its final value, so all closures return that final value.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">How do you fix the loop-closure problem (all closures returning the same value)?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Use global inside the closure</li><li><span class="mcq-option-label">B.</span> Use a default parameter to capture the current value: def f(i=i)</li><li><span class="mcq-option-label">C.</span> Use nonlocal inside the closure</li><li><span class="mcq-option-label">D.</span> Use a while loop instead</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> A default parameter (<code>def f(i=i)</code>) is evaluated at function definition time, capturing the current value of <code>i</code>. Each iteration creates a function with a different default, solving the shared-variable problem.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does func.__closure__ contain?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> The function&#39;s source code</li><li><span class="mcq-option-label">B.</span> The function&#39;s parameters</li><li><span class="mcq-option-label">C.</span> The captured variables from the enclosing scope</li><li><span class="mcq-option-label">D.</span> The function&#39;s return value</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>__closure__</code> is a tuple of cell objects containing the captured variables from the enclosing scope. Access values with <code>func.__closure__[0].cell_contents</code>. If the function is not a closure, <code>__closure__</code> is None.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">Can nonlocal refer to a global variable?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, nonlocal works for any outer scope</li><li><span class="mcq-option-label">B.</span> No, nonlocal only works with enclosing function scopes, not module-level globals</li><li><span class="mcq-option-label">C.</span> Only in Python 3.10+</li><li><span class="mcq-option-label">D.</span> Only if the global variable is mutable</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>nonlocal</code> only searches enclosing function scopes. It cannot refer to global (module-level) variables. Use <code>global</code> for module-level variables. If no enclosing function has the variable, <code>nonlocal</code> raises a SyntaxError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">Which of the following is a built-in scope name?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> my_variable</li><li><span class="mcq-option-label">B.</span> x</li><li><span class="mcq-option-label">C.</span> len</li><li><span class="mcq-option-label">D.</span> result</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>len</code> is a built-in function available in the Built-in scope. The other options are user-defined names that would be in Local or Global scope.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+def f():
+    global x
+    x = 10
+    def g():
+        nonlocal x  # SyntaxError?
+        x = 20
+    g()
+f()</code></pre></div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> x becomes 20</li><li><span class="mcq-option-label">B.</span> x becomes 10</li><li><span class="mcq-option-label">C.</span> SyntaxError: no binding for nonlocal &#39;x&#39; found</li><li><span class="mcq-option-label">D.</span> UnboundLocalError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> In function <code>f()</code>, <code>x</code> is declared <code>global</code>, so it is not a local variable of f. Function <code>g()</code> uses <code>nonlocal x</code>, but there is no enclosing function with a local <code>x</code>. This causes a SyntaxError.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Counter Using Closure</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function make_counter() that returns an increment function. Each call to the returned function should return the next integer starting from 1.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">1
+2
+3</div>
+                </div><div class="challenge-constraints">Use a closure with nonlocal. Do not use global variables.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">def make_counter():
+    count = 0
+    def increment():
+        nonlocal count
+        count += 1
+        return count
+    return increment
+
+counter = make_counter()
+print(counter())
+print(counter())
+print(counter())</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Multiplier Factory</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function make_multiplier(factor) that returns a function. The returned function should multiply its argument by factor. Create double (factor=2) and triple (factor=3) and test them.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">double(5) = 10
+triple(5) = 15
+double(100) = 200</div>
+                </div><div class="challenge-constraints">Use a closure. The returned function should take one argument.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">def make_multiplier(factor):
+    def multiply(x):
+        return x * factor
+    return multiply
+
+double = make_multiplier(2)
+triple = make_multiplier(3)
+print(f&quot;double(5) = {double(5)}&quot;)
+print(f&quot;triple(5) = {triple(5)}&quot;)
+print(f&quot;double(100) = {double(100)}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Logger Factory</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a function make_logger(prefix) that returns a log function. The log function should print messages with the given prefix. Create 'ERROR' and 'INFO' loggers.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[ERROR] File not found
+[INFO] Server started
+[ERROR] Connection refused</div>
+                </div><div class="challenge-constraints">Use a closure to remember the prefix.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">def make_logger(prefix):
+    def log(message):
+        print(f&quot;[{prefix}] {message}&quot;)
+    return log
+
+error = make_logger(&quot;ERROR&quot;)
+info = make_logger(&quot;INFO&quot;)
+error(&quot;File not found&quot;)
+info(&quot;Server started&quot;)
+error(&quot;Connection refused&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Running Average Calculator</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a function make_averager() that returns a function. Each call to the returned function with a number should return the running average of all numbers provided so far.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">10.0
+15.0
+20.0
+17.5</div>
+                </div><div class="challenge-constraints">Use a closure to maintain state. Track sum and count using nonlocal.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">def make_averager():
+    total = 0
+    count = 0
+    def add(value):
+        nonlocal total, count
+        total += value
+        count += 1
+        return total / count
+    return add
+
+avg = make_averager()
+print(avg(10))
+print(avg(20))
+print(avg(30))
+print(avg(10))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Fix the Loop-Closure Bug</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">The following code creates functions that should return 0, 1, 2, 3, 4 but all return 4. Fix it using the default parameter technique.<br><pre><code>funcs = []
+for i in range(5):
+    def f():
+        return i
+    funcs.append(f)
+print([fn() for fn in funcs])  # [4, 4, 4, 4, 4]</code></pre></div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[0, 1, 2, 3, 4]</div>
+                </div><div class="challenge-constraints">Fix using default parameter: def f(i=i).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">funcs = []
+for i in range(5):
+    def f(i=i):
+        return i
+    funcs.append(f)
+print([fn() for fn in funcs])</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Scope Tracer</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Write a program that demonstrates all four LEGB scopes. Define a global variable, a function with an enclosing variable, a nested function with a local variable, and use a built-in (like len). Print which scope each variable comes from.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Built-in: len = &lt;built-in function len&gt;
+Global: x = global
+Enclosing: x = enclosing
+Local: x = local</div>
+                </div><div class="challenge-constraints">Must demonstrate all four scopes: L, E, G, and B.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">x = &quot;global&quot;
+
+def outer():
+    x = &quot;enclosing&quot;
+    def inner():
+        x = &quot;local&quot;
+        print(f&quot;Local: x = {x}&quot;)
+        print(f&quot;Built-in: len = {len}&quot;)
+    print(f&quot;Enclosing: x = {x}&quot;)
+    inner()
+
+print(f&quot;Global: x = {x}&quot;)
+outer()</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Rate Limiter Closure</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function make_rate_limiter(max_calls) that returns a function. The returned function should track how many times it has been called. If called more than max_calls times, it should return 'Rate limit exceeded' instead of executing.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Call 1: OK
+Call 2: OK
+Call 3: OK
+Call 4: Rate limit exceeded
+Call 5: Rate limit exceeded</div>
+                </div><div class="challenge-constraints">Use a closure with nonlocal to track the call count.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">def make_rate_limiter(max_calls):
+    calls = 0
+    def check():
+        nonlocal calls
+        calls += 1
+        if calls &gt; max_calls:
+            return &quot;Rate limit exceeded&quot;
+        return &quot;OK&quot;
+    return check
+
+limiter = make_rate_limiter(3)
+for i in range(1, 6):
+    print(f&quot;Call {i}: {limiter()}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Memoization Using Closure</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a function memoize(func) that returns a new function which caches results. If the same argument is passed again, return the cached result instead of recomputing. Test with a factorial function.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Computing factorial(5)...
+120
+120
+Computing factorial(3)...
+6</div>
+                </div><div class="challenge-constraints">Use a closure with a dictionary as cache. Print &#39;Computing...&#39; only on first call for each argument.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">def memoize(func):
+    cache = {}
+    def wrapper(n):
+        if n not in cache:
+            print(f&quot;Computing {func.__name__}({n})...&quot;)
+            cache[n] = func(n)
+        return cache[n]
+    return wrapper
+
+def factorial(n):
+    if n &lt;= 1:
+        return 1
+    return n * factorial(n - 1)
+
+factorial = memoize(factorial)
+print(factorial(5))
+print(factorial(5))
+print(factorial(3))</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/functions-in-python/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Functions in Python</span>
+        </a>
+            <a href="/resources/python/lambda-map-filter-reduce/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Lambda, Map, Filter, and Reduce</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/scope-and-closures" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>

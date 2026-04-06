@@ -1,0 +1,728 @@
+{
+  "title": "Lambda, Map, Filter, and Reduce",
+  "slug": "lambda-map-filter-reduce",
+  "language": "python",
+  "chapter": 18,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 58,
+  "seo": {
+    "title": "Lambda, Map, Filter, and Reduce in Python - Functional Programming | Modern Age Coders",
+    "description": "Learn Python lambda functions, map(), filter(), and reduce() for functional programming. Includes sorted() with key=lambda, chaining operations, and 58+ practice questions with output prediction and coding challenges.",
+    "keywords": "python lambda, map filter reduce python, anonymous functions python, python lambda tutorial, python map function, python filter function, python reduce functools, python sorted key lambda, python functional programming, python lambda examples"
+  },
+  "content": {
+    "what": "<h2>What Are Lambda Functions?</h2><p>A <strong>lambda function</strong> is a small, anonymous function defined in a single line. Unlike regular functions created with <code>def</code>, lambda functions have no name and can contain only a single expression (not statements).</p><pre><code># Regular function\ndef square(x):\n    return x ** 2\n\n# Equivalent lambda\nsquare = lambda x: x ** 2\n\nprint(square(5))  # 25</code></pre><p>The syntax is: <code>lambda parameters: expression</code>. The expression is automatically returned. There is no <code>return</code> keyword, no function name (unless assigned to a variable), and no multi-line body.</p><h3>Lambda with Multiple Parameters</h3><pre><code>add = lambda a, b: a + b\nprint(add(3, 5))  # 8\n\nfull_name = lambda first, last: f\"{first} {last}\"\nprint(full_name(\"Aarav\", \"Sharma\"))  # Aarav Sharma</code></pre><h2>What Are Map, Filter, and Reduce?</h2><p>These are higher-order functions (functions that take other functions as arguments) used for transforming and processing iterables:</p><ul><li><code>map(func, iterable)</code> -- applies a function to every element</li><li><code>filter(func, iterable)</code> -- selects elements where the function returns True</li><li><code>reduce(func, iterable)</code> -- accumulates elements into a single value</li></ul><p>They are often used with lambda functions for concise data processing.</p>",
+    "why": "<h2>Why Learn Lambda, Map, Filter, and Reduce?</h2><p>These tools represent a different style of programming called <strong>functional programming</strong>. Understanding them makes you more versatile.</p><h3>1. Concise Code for Simple Operations</h3><p>When you need a one-line function that you will use only once (like a sorting key or a filter condition), defining a full <code>def</code> function is overkill. A lambda does the same job inline, keeping the code compact and readable.</p><h3>2. Essential for sorted(), min(), max()</h3><p>The <code>key</code> parameter in <code>sorted()</code>, <code>min()</code>, and <code>max()</code> is one of the most frequently used features in Python. Lambda functions are the standard way to define custom sort keys: <code>sorted(students, key=lambda s: s['marks'])</code>.</p><h3>3. Data Processing Pipelines</h3><p>Map and filter are building blocks for data processing. If Priya has a list of student records and needs to extract names of students who scored above 90, she can chain <code>filter()</code> and <code>map()</code> in a pipeline rather than writing nested loops.</p><h3>4. Understanding Library Code</h3><p>Libraries like Pandas, Django, Flask, and many others use lambdas extensively. When you read <code>df.apply(lambda x: x.strip())</code> or <code>url_patterns = [path('/', lambda req: render(req, 'home.html'))]</code>, you need to understand what these mean.</p><h3>5. Interview Staple</h3><p>Lambda, map, filter, and reduce questions appear in nearly every Python interview. Interviewers test whether you can write concise functional-style code and understand how these tools compose together.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Lambda Syntax</h3><p>The syntax is:</p><pre><code>lambda parameters: expression</code></pre><p>Key constraints:</p><ul><li>Can contain only a <strong>single expression</strong> (no statements like if, for, while, print, assignment).</li><li>The expression is automatically returned (no <code>return</code> keyword).</li><li>Can have zero, one, or many parameters.</li><li>Conditional expressions (ternary) are allowed: <code>lambda x: 'even' if x % 2 == 0 else 'odd'</code>.</li></ul><pre><code># Zero parameters\ngreet = lambda: \"Hello!\"\nprint(greet())  # Hello!\n\n# One parameter\ndouble = lambda x: x * 2\nprint(double(5))  # 10\n\n# Multiple parameters\npower = lambda base, exp: base ** exp\nprint(power(2, 10))  # 1024\n\n# With conditional expression\nparity = lambda x: \"even\" if x % 2 == 0 else \"odd\"\nprint(parity(7))  # odd</code></pre><h3>2. Lambda vs def</h3><p>When should you use each?</p><table><tr><th>Feature</th><th>Lambda</th><th>def</th></tr><tr><td>Name</td><td>Anonymous (unless assigned)</td><td>Always has a name</td></tr><tr><td>Body</td><td>Single expression</td><td>Multiple statements</td></tr><tr><td>Return</td><td>Implicit (the expression)</td><td>Explicit return needed</td></tr><tr><td>Readability</td><td>Good for short operations</td><td>Better for complex logic</td></tr><tr><td>Docstring</td><td>Cannot have one</td><td>Can have one</td></tr></table><p>Use lambda for short, throwaway functions (sort keys, quick transforms). Use <code>def</code> for anything complex, reusable, or needing documentation.</p><h3>3. map() -- Apply a Function to Every Element</h3><p><code>map(function, iterable)</code> applies the function to each element and returns a map object (iterator). Convert to a list to see the results:</p><pre><code># Square every number\nnumbers = [1, 2, 3, 4, 5]\nsquared = list(map(lambda x: x ** 2, numbers))\nprint(squared)  # [1, 4, 9, 16, 25]\n\n# Convert strings to uppercase\nnames = [\"aarav\", \"priya\", \"rohan\"]\nupper = list(map(str.upper, names))\nprint(upper)  # ['AARAV', 'PRIYA', 'ROHAN']\n\n# map with multiple iterables\na = [1, 2, 3]\nb = [10, 20, 30]\nsums = list(map(lambda x, y: x + y, a, b))\nprint(sums)  # [11, 22, 33]</code></pre><p>map() is lazy: it does not compute the results until you iterate over them (or convert to a list). For large datasets, this is memory-efficient.</p><h3>4. filter() -- Select Elements by Condition</h3><p><code>filter(function, iterable)</code> keeps only elements where the function returns True:</p><pre><code># Keep only even numbers\nnumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nevens = list(filter(lambda x: x % 2 == 0, numbers))\nprint(evens)  # [2, 4, 6, 8, 10]\n\n# Keep non-empty strings\nwords = [\"hello\", \"\", \"world\", \"\", \"python\"]\nnon_empty = list(filter(None, words))  # None removes falsy values\nprint(non_empty)  # ['hello', 'world', 'python']\n\n# Keep students who passed\nmarks = {\"Aarav\": 85, \"Priya\": 45, \"Rohan\": 92, \"Meera\": 38}\npassed = dict(filter(lambda item: item[1] >= 50, marks.items()))\nprint(passed)  # {'Aarav': 85, 'Rohan': 92}</code></pre><p>When <code>None</code> is passed as the function, <code>filter()</code> removes all falsy values (0, \"\", None, False, [], {}).</p><h3>5. reduce() -- Accumulate to a Single Value</h3><p><code>reduce(function, iterable)</code> applies the function cumulatively: it takes the first two elements, applies the function, then takes the result and the next element, and so on:</p><pre><code>from functools import reduce\n\n# Sum all numbers\nnumbers = [1, 2, 3, 4, 5]\ntotal = reduce(lambda a, b: a + b, numbers)\nprint(total)  # 15\n# How it works: ((((1+2)+3)+4)+5) = 15\n\n# Find the maximum\nmaximum = reduce(lambda a, b: a if a > b else b, numbers)\nprint(maximum)  # 5\n\n# Concatenate strings\nwords = [\"Hello\", \" \", \"World\", \"!\"]\nsentence = reduce(lambda a, b: a + b, words)\nprint(sentence)  # Hello World!</code></pre><p><code>reduce()</code> is in the <code>functools</code> module (you must import it). Unlike map() and filter(), it is not a built-in function. reduce() also accepts an optional initial value:</p><pre><code>from functools import reduce\nresult = reduce(lambda a, b: a + b, [1, 2, 3], 100)\nprint(result)  # 106 (100 + 1 + 2 + 3)</code></pre><h3>6. sorted() with key=lambda</h3><p>This is one of the most important uses of lambda. The <code>key</code> parameter tells sorted() how to compare elements:</p><pre><code># Sort strings by length\nwords = [\"banana\", \"pie\", \"apple\", \"fig\"]\nby_length = sorted(words, key=lambda w: len(w))\nprint(by_length)  # ['pie', 'fig', 'apple', 'banana']\n\n# Sort dicts by a specific key\nstudents = [\n    {\"name\": \"Aarav\", \"marks\": 85},\n    {\"name\": \"Priya\", \"marks\": 92},\n    {\"name\": \"Rohan\", \"marks\": 78}\n]\nby_marks = sorted(students, key=lambda s: s[\"marks\"], reverse=True)\nfor s in by_marks:\n    print(f\"{s['name']}: {s['marks']}\")\n# Priya: 92\n# Aarav: 85\n# Rohan: 78</code></pre><h3>7. min() and max() with key=lambda</h3><p>Like sorted(), min() and max() accept a key parameter:</p><pre><code>students = [\n    {\"name\": \"Aarav\", \"marks\": 85},\n    {\"name\": \"Priya\", \"marks\": 92},\n    {\"name\": \"Rohan\", \"marks\": 78}\n]\ntop = max(students, key=lambda s: s[\"marks\"])\nprint(f\"Topper: {top['name']}\")  # Topper: Priya\n\nbottom = min(students, key=lambda s: s[\"marks\"])\nprint(f\"Lowest: {bottom['name']}\")  # Lowest: Rohan\n\n# Find longest string\nwords = [\"apple\", \"pie\", \"banana\", \"fig\"]\nlongest = max(words, key=lambda w: len(w))\nprint(f\"Longest: {longest}\")  # Longest: banana</code></pre><h3>8. Chaining map() and filter()</h3><p>You can chain these functions for multi-step data processing:</p><pre><code># Get squared values of even numbers\nnumbers = range(1, 11)\nresult = list(map(lambda x: x ** 2, filter(lambda x: x % 2 == 0, numbers)))\nprint(result)  # [4, 16, 36, 64, 100]\n\n# Equivalent list comprehension (often clearer)\nresult2 = [x ** 2 for x in range(1, 11) if x % 2 == 0]\nprint(result2)  # [4, 16, 36, 64, 100]</code></pre><p>Note: for simple cases, list comprehensions are often more readable than chained map/filter. Use map/filter when you are passing existing functions (not lambdas), or when working with large datasets where lazy evaluation matters.</p><h3>9. Common Patterns</h3><h4>Square all numbers</h4><pre><code>list(map(lambda x: x**2, [1, 2, 3, 4]))  # [1, 4, 9, 16]</code></pre><h4>Filter even numbers</h4><pre><code>list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5, 6]))  # [2, 4, 6]</code></pre><h4>Sum a list with reduce</h4><pre><code>from functools import reduce\nreduce(lambda a, b: a + b, [1, 2, 3, 4, 5])  # 15</code></pre><h4>Find longest string</h4><pre><code>max([\"apple\", \"pie\", \"banana\"], key=lambda s: len(s))  # 'banana'</code></pre><h4>Sort by multiple criteria</h4><pre><code>data = [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 85)]\n# Sort by marks descending, then name ascending\nsorted(data, key=lambda x: (-x[1], x[0]))\n# [('Priya', 92), ('Aarav', 85), ('Rohan', 85)]</code></pre>",
+    "codeExamples": [
+      {
+        "title": "Lambda Basics: Syntax and Usage",
+        "code": "# Lambda with one parameter\nsquare = lambda x: x ** 2\nprint(f\"square(5) = {square(5)}\")\n\n# Lambda with multiple parameters\nadd = lambda a, b: a + b\nprint(f\"add(3, 7) = {add(3, 7)}\")\n\n# Lambda with conditional expression\nparity = lambda x: \"even\" if x % 2 == 0 else \"odd\"\nprint(f\"parity(4) = {parity(4)}\")\nprint(f\"parity(7) = {parity(7)}\")\n\n# Lambda with no parameters\ngreet = lambda: \"Hello, World!\"\nprint(f\"greet() = {greet()}\")\n\n# Calling lambda immediately (IIFE)\nresult = (lambda x, y: x * y)(6, 7)\nprint(f\"Immediate call: {result}\")",
+        "language": "python",
+        "explanation": "Lambda functions use <code>lambda params: expression</code> syntax. They can have zero, one, or many parameters. The expression is automatically returned. Ternary expressions (<code>a if condition else b</code>) allow conditional logic within a lambda.",
+        "output": "square(5) = 25\nadd(3, 7) = 10\nparity(4) = even\nparity(7) = odd\ngreet() = Hello, World!\nImmediate call: 42"
+      },
+      {
+        "title": "map() -- Transform Every Element",
+        "code": "# Square every number\nnumbers = [1, 2, 3, 4, 5]\nsquared = list(map(lambda x: x ** 2, numbers))\nprint(f\"Squared: {squared}\")\n\n# Convert strings to integers\nstr_nums = [\"10\", \"20\", \"30\", \"40\"]\nint_nums = list(map(int, str_nums))\nprint(f\"Converted: {int_nums}\")\n\n# Get lengths of words\nwords = [\"Python\", \"is\", \"awesome\"]\nlengths = list(map(len, words))\nprint(f\"Lengths: {lengths}\")\n\n# map with multiple iterables\nfirst = [\"Aarav\", \"Priya\", \"Rohan\"]\nlast = [\"Sharma\", \"Patel\", \"Kumar\"]\nfull = list(map(lambda f, l: f\"{f} {l}\", first, last))\nprint(f\"Full names: {full}\")",
+        "language": "python",
+        "explanation": "<code>map(func, iterable)</code> applies the function to each element. You can pass a lambda, a named function, or a built-in like <code>int</code> or <code>len</code>. With multiple iterables, the function receives one element from each. Convert to <code>list()</code> to see results.",
+        "output": "Squared: [1, 4, 9, 16, 25]\nConverted: [10, 20, 30, 40]\nLengths: [6, 2, 7]\nFull names: ['Aarav Sharma', 'Priya Patel', 'Rohan Kumar']"
+      },
+      {
+        "title": "filter() -- Select by Condition",
+        "code": "# Filter even numbers\nnumbers = list(range(1, 11))\nevens = list(filter(lambda x: x % 2 == 0, numbers))\nprint(f\"Evens: {evens}\")\n\n# Filter students who passed\nmarks = {\"Aarav\": 85, \"Priya\": 45, \"Rohan\": 92, \"Meera\": 38, \"Vikram\": 67}\npassed = dict(filter(lambda item: item[1] >= 50, marks.items()))\nprint(f\"Passed: {passed}\")\n\n# Filter using None (removes falsy values)\nmixed = [0, 1, \"\", \"hello\", None, 42, False, [], \"world\"]\ntruthy = list(filter(None, mixed))\nprint(f\"Truthy: {truthy}\")\n\n# Filter strings starting with 'A'\nnames = [\"Aarav\", \"Priya\", \"Ananya\", \"Rohan\", \"Arjun\"]\na_names = list(filter(lambda n: n.startswith(\"A\"), names))\nprint(f\"A-names: {a_names}\")",
+        "language": "python",
+        "explanation": "<code>filter(func, iterable)</code> keeps elements where <code>func</code> returns True. Passing <code>None</code> as the function removes all falsy values. For dictionaries, filter on <code>.items()</code> and convert back with <code>dict()</code>.",
+        "output": "Evens: [2, 4, 6, 8, 10]\nPassed: {'Aarav': 85, 'Rohan': 92, 'Vikram': 67}\nTruthy: [1, 'hello', 42, 'world']\nA-names: ['Aarav', 'Ananya', 'Arjun']"
+      },
+      {
+        "title": "reduce() -- Accumulate to a Single Value",
+        "code": "from functools import reduce\n\n# Sum all numbers\nnumbers = [1, 2, 3, 4, 5]\ntotal = reduce(lambda a, b: a + b, numbers)\nprint(f\"Sum: {total}\")\n\n# Product of all numbers\nproduct = reduce(lambda a, b: a * b, numbers)\nprint(f\"Product: {product}\")\n\n# Find maximum\nmaximum = reduce(lambda a, b: a if a > b else b, numbers)\nprint(f\"Max: {maximum}\")\n\n# With initial value\ntotal_with_init = reduce(lambda a, b: a + b, numbers, 100)\nprint(f\"Sum with initial 100: {total_with_init}\")\n\n# Flatten a list of lists\nnested = [[1, 2], [3, 4], [5, 6]]\nflat = reduce(lambda a, b: a + b, nested)\nprint(f\"Flattened: {flat}\")",
+        "language": "python",
+        "explanation": "<code>reduce(func, iterable, [initial])</code> applies the two-argument function cumulatively. First it combines elements 1 and 2, then the result with element 3, and so on. The optional initial value is used as the first element. <code>reduce</code> must be imported from <code>functools</code>.",
+        "output": "Sum: 15\nProduct: 120\nMax: 5\nSum with initial 100: 115\nFlattened: [1, 2, 3, 4, 5, 6]"
+      },
+      {
+        "title": "sorted(), min(), max() with key=lambda",
+        "code": "# Sort by string length\nwords = [\"banana\", \"pie\", \"apple\", \"fig\", \"strawberry\"]\nby_length = sorted(words, key=lambda w: len(w))\nprint(f\"By length: {by_length}\")\n\n# Sort dictionaries by a value\nstudents = [\n    {\"name\": \"Aarav\", \"marks\": 85},\n    {\"name\": \"Priya\", \"marks\": 92},\n    {\"name\": \"Rohan\", \"marks\": 78}\n]\nby_marks = sorted(students, key=lambda s: s[\"marks\"], reverse=True)\nfor s in by_marks:\n    print(f\"  {s['name']}: {s['marks']}\")\n\n# Find min and max by custom key\ntopper = max(students, key=lambda s: s[\"marks\"])\nlowest = min(students, key=lambda s: s[\"marks\"])\nprint(f\"\\nTopper: {topper['name']} ({topper['marks']})\")\nprint(f\"Lowest: {lowest['name']} ({lowest['marks']})\")\n\n# Sort by multiple criteria: marks desc, then name asc\ndata = [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 85), (\"Meera\", 92)]\nsorted_data = sorted(data, key=lambda x: (-x[1], x[0]))\nprint(f\"\\nMulti-sort: {sorted_data}\")",
+        "language": "python",
+        "explanation": "The <code>key</code> parameter in <code>sorted()</code>, <code>min()</code>, and <code>max()</code> accepts a function that extracts a comparison key from each element. Lambda is perfect for this. Negate numeric values for descending sort. Tuple keys enable multi-criteria sorting.",
+        "output": "By length: ['pie', 'fig', 'apple', 'banana', 'strawberry']\n  Priya: 92\n  Aarav: 85\n  Rohan: 78\n\nTopper: Priya (92)\nLowest: Rohan (78)\n\nMulti-sort: [('Meera', 92), ('Priya', 92), ('Aarav', 85), ('Rohan', 85)]"
+      },
+      {
+        "title": "Chaining map() and filter()",
+        "code": "# Pipeline: get squares of even numbers from 1 to 10\nnumbers = range(1, 11)\n\n# Method 1: Chained map/filter\nresult1 = list(map(lambda x: x**2, filter(lambda x: x % 2 == 0, numbers)))\nprint(f\"map/filter: {result1}\")\n\n# Method 2: List comprehension (often clearer)\nresult2 = [x**2 for x in range(1, 11) if x % 2 == 0]\nprint(f\"comprehension: {result2}\")\n\n# Pipeline: Extract names of students scoring above 80\nstudents = [\n    {\"name\": \"Aarav\", \"marks\": 85},\n    {\"name\": \"Priya\", \"marks\": 92},\n    {\"name\": \"Rohan\", \"marks\": 78},\n    {\"name\": \"Meera\", \"marks\": 95},\n    {\"name\": \"Vikram\", \"marks\": 60}\n]\nhigh_scorers = list(\n    map(lambda s: s[\"name\"],\n        filter(lambda s: s[\"marks\"] > 80, students))\n)\nprint(f\"High scorers: {high_scorers}\")",
+        "language": "python",
+        "explanation": "Chaining: <code>filter()</code> selects elements, then <code>map()</code> transforms them. Read inside-out: filter first, then map. List comprehensions are often more readable for simple cases, but map/filter shine when passing existing functions (not lambdas).",
+        "output": "map/filter: [4, 16, 36, 64, 100]\ncomprehension: [4, 16, 36, 64, 100]\nHigh scorers: ['Aarav', 'Priya', 'Meera']"
+      },
+      {
+        "title": "Practical Examples: Real-World Patterns",
+        "code": "from functools import reduce\n\n# 1. Clean and normalize data\nraw_names = [\"  Aarav \", \"PRIYA\", \"  rohan  \", \"Meera\"]\nclean = list(map(lambda s: s.strip().title(), raw_names))\nprint(f\"Cleaned: {clean}\")\n\n# 2. Extract specific fields\nrecords = [\n    {\"name\": \"Aarav\", \"age\": 16, \"city\": \"Delhi\"},\n    {\"name\": \"Priya\", \"age\": 15, \"city\": \"Mumbai\"},\n    {\"name\": \"Rohan\", \"age\": 17, \"city\": \"Delhi\"}\n]\nnames = list(map(lambda r: r[\"name\"], records))\nprint(f\"Names: {names}\")\n\n# 3. Group operation: total marks\nmarks_list = [85, 92, 78, 95, 88]\ntotal = reduce(lambda a, b: a + b, marks_list)\nprint(f\"Total: {total}, Average: {total/len(marks_list)}\")\n\n# 4. Sort tuples by second element\npairs = [(\"Maths\", 90), (\"English\", 78), (\"Science\", 95)]\nby_score = sorted(pairs, key=lambda p: p[1], reverse=True)\nprint(f\"By score: {by_score}\")\n\n# 5. Remove None values and convert to int\nraw = [\"10\", None, \"20\", None, \"30\", \"40\"]\ncleaned = list(map(int, filter(None, raw)))\nprint(f\"Cleaned ints: {cleaned}\")",
+        "language": "python",
+        "explanation": "Real-world uses: (1) data cleaning with strip/title, (2) field extraction from dicts, (3) aggregation with reduce, (4) custom sorting with key=lambda, (5) pipeline combining filter (remove None) and map (convert to int).",
+        "output": "Cleaned: ['Aarav', 'Priya', 'Rohan', 'Meera']\nNames: ['Aarav', 'Priya', 'Rohan']\nTotal: 438, Average: 87.6\nBy score: [('Science', 95), ('Maths', 90), ('English', 78)]\nCleaned ints: [10, 20, 30, 40]"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Statements Inside Lambda (Only Expressions Allowed)",
+        "wrongCode": "# Trying to use print (a statement in Python 2, function in Python 3 but still not great)\nf = lambda x: x = x + 1  # SyntaxError: can't assign in lambda",
+        "error": "SyntaxError: expression cannot contain assignment",
+        "correctCode": "# Lambda can only contain expressions\nf = lambda x: x + 1\nprint(f(5))  # 6\n\n# If you need statements, use def\ndef increment(x):\n    result = x + 1\n    return result",
+        "explanation": "Lambda functions can only contain a single expression. Statements like assignment (<code>=</code>), <code>for</code>, <code>while</code>, and <code>return</code> are not allowed. If you need statements, use a regular <code>def</code> function."
+      },
+      {
+        "title": "Forgetting to Convert map() or filter() to list()",
+        "wrongCode": "numbers = [1, 2, 3, 4, 5]\nresult = map(lambda x: x ** 2, numbers)\nprint(result)  # <map object at 0x...> - Not the values!",
+        "error": "No error, but prints the map object instead of the values.",
+        "correctCode": "numbers = [1, 2, 3, 4, 5]\nresult = list(map(lambda x: x ** 2, numbers))\nprint(result)  # [1, 4, 9, 16, 25]",
+        "explanation": "<code>map()</code> and <code>filter()</code> return lazy iterators, not lists. Wrap with <code>list()</code> to get the actual values. This lazy behavior is intentional for memory efficiency with large datasets."
+      },
+      {
+        "title": "Forgetting to Import reduce from functools",
+        "wrongCode": "result = reduce(lambda a, b: a + b, [1, 2, 3])\n# NameError: name 'reduce' is not defined",
+        "error": "NameError: name 'reduce' is not defined",
+        "correctCode": "from functools import reduce\nresult = reduce(lambda a, b: a + b, [1, 2, 3])\nprint(result)  # 6",
+        "explanation": "Unlike <code>map()</code> and <code>filter()</code>, <code>reduce()</code> is NOT a built-in function. It lives in the <code>functools</code> module and must be imported. This was a deliberate design decision in Python 3."
+      },
+      {
+        "title": "Using Lambda When def Would Be Clearer",
+        "wrongCode": "# Hard to read: complex logic in a lambda\nprocess = lambda x: x.strip().lower().replace(' ', '_') if isinstance(x, str) else str(x)\nresult = list(map(process, [\"  Hello World \", 42, \"  Python  \"]))",
+        "error": "No error, but the code is hard to read and debug.",
+        "correctCode": "def process(x):\n    \"\"\"Clean and normalize a value to a snake_case string.\"\"\"\n    if isinstance(x, str):\n        return x.strip().lower().replace(' ', '_')\n    return str(x)\n\nresult = list(map(process, [\"  Hello World \", 42, \"  Python  \"]))\nprint(result)  # ['hello_world', '42', 'python']",
+        "explanation": "If a lambda is complex enough that you need to think about it, use a named function instead. Named functions have names for debugging, can have docstrings, and support multiple lines. Lambda is for simple, obvious operations."
+      },
+      {
+        "title": "Confusing filter() with map() (filter selects, map transforms)",
+        "wrongCode": "# Trying to use filter to transform values\nnumbers = [1, 2, 3, 4, 5]\nresult = list(filter(lambda x: x ** 2, numbers))\nprint(result)  # [1, 2, 3, 4, 5] - Not squared! filter only selects.",
+        "error": "No error, but the values are not squared. All non-zero values are truthy, so all pass the filter.",
+        "correctCode": "# Use map to transform, filter to select\nnumbers = [1, 2, 3, 4, 5]\nsquared = list(map(lambda x: x ** 2, numbers))\nprint(squared)  # [1, 4, 9, 16, 25]\n\nevens = list(filter(lambda x: x % 2 == 0, numbers))\nprint(evens)  # [2, 4]",
+        "explanation": "<code>filter()</code> uses the function's return value as a True/False test to include or exclude elements. It does NOT transform them. <code>map()</code> transforms every element using the function's return value."
+      }
+    ],
+    "summary": [
+      "Lambda functions are anonymous, single-expression functions: lambda params: expression. The expression is automatically returned.",
+      "Use lambda for short, throwaway functions (sort keys, quick transforms). Use def for anything complex, reusable, or needing documentation.",
+      "map(func, iterable) applies the function to every element and returns an iterator. Convert to list() to see results.",
+      "filter(func, iterable) keeps only elements where func returns True. Passing None as func removes all falsy values.",
+      "reduce(func, iterable) from functools accumulates elements into a single value by applying func cumulatively. Must be imported.",
+      "sorted(), min(), and max() accept key=lambda to define custom comparison logic. This is one of the most common uses of lambda.",
+      "Sort by multiple criteria using tuple keys: key=lambda x: (-x[1], x[0]) sorts by second element descending, then first ascending.",
+      "map() and filter() return lazy iterators. They compute results on demand, which is memory-efficient for large datasets.",
+      "Chaining: filter first to select, then map to transform. Read inside-out: map(transform, filter(condition, data)).",
+      "Lambda cannot contain statements (assignment, for, while). Only expressions are allowed, including ternary: a if condition else b.",
+      "For simple cases, list comprehensions [expr for x in iterable if condition] are often more readable than map/filter with lambda."
+    ]
+  },
+  "relatedTopics": ["scope-and-closures", "list-comprehensions-and-generators"],
+  "practice": {
+    "totalQuestions": 58,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>square = lambda x: x ** 2\nprint(square(4))\nprint(square(7))</code></pre>",
+        "hint": "Lambda works like a regular function. x ** 2 is returned automatically.",
+        "answer": "<code>16</code><br><code>49</code>",
+        "explanation": "The lambda takes <code>x</code> and returns <code>x ** 2</code>. <code>square(4)</code> = 16, <code>square(7)</code> = 49."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>add = lambda a, b: a + b\nprint(add(3, 5))\nprint(add(\"Hello \", \"World\"))</code></pre>",
+        "hint": "The + operator works for both numbers and strings.",
+        "answer": "<code>8</code><br><code>Hello World</code>",
+        "explanation": "<code>add(3, 5)</code> returns 8 (numeric addition). <code>add(\"Hello \", \"World\")</code> returns \"Hello World\" (string concatenation). Lambda works with any type."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]\nresult = list(map(lambda x: x * 2, numbers))\nprint(result)</code></pre>",
+        "hint": "map() applies the function to every element.",
+        "answer": "<code>[2, 4, 6, 8, 10]</code>",
+        "explanation": "<code>map()</code> applies <code>lambda x: x * 2</code> to each element: 1*2=2, 2*2=4, 3*2=6, 4*2=8, 5*2=10."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5, 6]\nevens = list(filter(lambda x: x % 2 == 0, numbers))\nprint(evens)</code></pre>",
+        "hint": "filter() keeps elements where the function returns True.",
+        "answer": "<code>[2, 4, 6]</code>",
+        "explanation": "<code>filter()</code> tests each element with <code>x % 2 == 0</code>. Only 2, 4, and 6 are even (return True), so those are kept."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>check = lambda x: \"even\" if x % 2 == 0 else \"odd\"\nprint(check(4))\nprint(check(7))</code></pre>",
+        "hint": "Lambda can use conditional expressions (ternary).",
+        "answer": "<code>even</code><br><code>odd</code>",
+        "explanation": "The lambda uses a ternary expression. 4 is even (4%2==0 is True), so returns \"even\". 7 is odd, so returns \"odd\"."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>words = [\"banana\", \"pie\", \"apple\", \"fig\"]\nresult = sorted(words, key=lambda w: len(w))\nprint(result)</code></pre>",
+        "hint": "key=lambda w: len(w) tells sorted() to compare by length.",
+        "answer": "<code>['pie', 'fig', 'apple', 'banana']</code>",
+        "explanation": "Lengths: pie=3, fig=3, apple=5, banana=6. sorted() orders by length. For equal lengths (pie, fig), the original order is preserved (stable sort)."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nresult = reduce(lambda a, b: a + b, [1, 2, 3, 4, 5])\nprint(result)</code></pre>",
+        "hint": "reduce applies cumulatively: ((((1+2)+3)+4)+5).",
+        "answer": "<code>15</code>",
+        "explanation": "reduce processes: 1+2=3, 3+3=6, 6+4=10, 10+5=15. The final accumulated value is 15."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nresult = reduce(lambda a, b: a * b, [1, 2, 3, 4, 5])\nprint(result)</code></pre>",
+        "hint": "This computes the product of all elements.",
+        "answer": "<code>120</code>",
+        "explanation": "reduce processes: 1*2=2, 2*3=6, 6*4=24, 24*5=120. This is 5! (factorial of 5)."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>names = [\"aarav\", \"priya\", \"rohan\"]\nresult = list(map(str.upper, names))\nprint(result)</code></pre>",
+        "hint": "str.upper is an existing method. No lambda needed.",
+        "answer": "<code>['AARAV', 'PRIYA', 'ROHAN']</code>",
+        "explanation": "<code>map(str.upper, names)</code> applies <code>str.upper</code> to each element. When passing an existing function (not a lambda), map is cleaner than a list comprehension."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>data = [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 78)]\nresult = sorted(data, key=lambda x: x[1], reverse=True)\nprint(result)</code></pre>",
+        "hint": "key=lambda x: x[1] sorts by the second element. reverse=True for descending.",
+        "answer": "<code>[('Priya', 92), ('Aarav', 85), ('Rohan', 78)]</code>",
+        "explanation": "sorted() uses the second element of each tuple for comparison. reverse=True gives descending order: 92, 85, 78."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>mixed = [0, 1, \"\", \"hello\", None, 42, False, \"world\"]\nresult = list(filter(None, mixed))\nprint(result)</code></pre>",
+        "hint": "filter(None, ...) removes all falsy values.",
+        "answer": "<code>[1, 'hello', 42, 'world']</code>",
+        "explanation": "When the function is <code>None</code>, filter removes all falsy values. 0, \"\", None, and False are falsy. 1, \"hello\", 42, and \"world\" are truthy."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]\nresult = list(map(lambda x: x ** 2, filter(lambda x: x > 2, numbers)))\nprint(result)</code></pre>",
+        "hint": "filter first (keep x > 2), then map (square them).",
+        "answer": "<code>[9, 16, 25]</code>",
+        "explanation": "filter keeps [3, 4, 5] (elements > 2). map squares them: [9, 16, 25]. The chain reads inside-out: filter first, then map."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nresult = reduce(lambda a, b: a if a > b else b, [3, 7, 2, 9, 4])\nprint(result)</code></pre>",
+        "hint": "This reduce keeps the larger of each pair, finding the maximum.",
+        "answer": "<code>9</code>",
+        "explanation": "reduce compares pairs: max(3,7)=7, max(7,2)=7, max(7,9)=9, max(9,4)=9. This is equivalent to <code>max([3, 7, 2, 9, 4])</code>."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nresult = reduce(lambda a, b: a + b, [1, 2, 3], 100)\nprint(result)</code></pre>",
+        "hint": "reduce with an initial value starts accumulation from that value.",
+        "answer": "<code>106</code>",
+        "explanation": "The initial value is 100. reduce processes: 100+1=101, 101+2=103, 103+3=106. The initial value is combined with the first element first."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>students = [\n    {\"name\": \"Aarav\", \"marks\": 85},\n    {\"name\": \"Priya\", \"marks\": 92},\n    {\"name\": \"Rohan\", \"marks\": 78}\n]\ntopper = max(students, key=lambda s: s[\"marks\"])\nprint(topper[\"name\"])</code></pre>",
+        "hint": "max() with key=lambda finds the element with the highest value for the given key.",
+        "answer": "<code>Priya</code>",
+        "explanation": "<code>max()</code> compares students by their \"marks\" value. Priya has 92, which is the highest. <code>max()</code> returns the entire dictionary, and <code>[\"name\"]</code> extracts her name."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>pairs = [(\"Aarav\", 85), (\"Priya\", 92), (\"Rohan\", 85), (\"Meera\", 92)]\nresult = sorted(pairs, key=lambda x: (-x[1], x[0]))\nprint(result)</code></pre>",
+        "hint": "Negative marks for descending order, then name for ascending (alphabetical).",
+        "answer": "<code>[('Meera', 92), ('Priya', 92), ('Aarav', 85), ('Rohan', 85)]</code>",
+        "explanation": "The key is <code>(-marks, name)</code>. Negating marks gives descending order: 92 before 85. For equal marks, names are sorted ascending: Meera before Priya, Aarav before Rohan."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>funcs = [lambda x: x + 1, lambda x: x * 2, lambda x: x ** 2]\nresult = [f(3) for f in funcs]\nprint(result)</code></pre>",
+        "hint": "Each lambda is applied to the argument 3.",
+        "answer": "<code>[4, 6, 9]</code>",
+        "explanation": "The list contains three lambda functions. Applying each to 3: 3+1=4, 3*2=6, 3**2=9. Functions stored in a list and called in a comprehension."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>f = lambda: 42\nprint(f())\nprint(type(f))</code></pre>",
+        "hint": "A lambda with no parameters just returns the expression.",
+        "answer": "<code>42</code><br><code>&lt;class 'function'&gt;</code>",
+        "explanation": "The lambda takes no parameters and returns 42. Lambda functions are still functions; <code>type(f)</code> returns <code>&lt;class 'function'&gt;</code>."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>nums = [\"3\", \"1\", \"4\", \"1\", \"5\"]\nresult = list(map(int, nums))\nprint(result)\nprint(sum(result))</code></pre>",
+        "hint": "map(int, ...) converts each string to an integer.",
+        "answer": "<code>[3, 1, 4, 1, 5]</code><br><code>14</code>",
+        "explanation": "<code>map(int, nums)</code> converts each string to an integer. <code>sum([3, 1, 4, 1, 5])</code> = 14."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>words = [\"hello\", \"world\", \"python\"]\nlengths = list(map(len, words))\nprint(lengths)</code></pre>",
+        "hint": "map(len, ...) applies len() to each element.",
+        "answer": "<code>[5, 5, 6]</code>",
+        "explanation": "<code>len(\"hello\")</code>=5, <code>len(\"world\")</code>=5, <code>len(\"python\")</code>=6. map applies len to each word."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>numbers = [1, 2, 3, 4, 5]\nodd_squares = list(map(lambda x: x**2, filter(lambda x: x % 2 != 0, numbers)))\nprint(odd_squares)</code></pre>",
+        "hint": "filter keeps odd numbers, then map squares them.",
+        "answer": "<code>[1, 9, 25]</code>",
+        "explanation": "filter keeps odd numbers: [1, 3, 5]. map squares them: [1, 9, 25]."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>a = [1, 2, 3]\nb = [10, 20, 30]\nresult = list(map(lambda x, y: x + y, a, b))\nprint(result)</code></pre>",
+        "hint": "map with two iterables passes one element from each to the lambda.",
+        "answer": "<code>[11, 22, 33]</code>",
+        "explanation": "With two iterables, map passes pairs: (1,10), (2,20), (3,30). The lambda adds them: 11, 22, 33."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>words = [\"Python\", \"is\", \"awesome\", \"!\"]\nlongest = max(words, key=lambda w: len(w))\nshortest = min(words, key=lambda w: len(w))\nprint(longest)\nprint(shortest)</code></pre>",
+        "hint": "max/min with key=len finds the longest/shortest string.",
+        "answer": "<code>awesome</code><br><code>!</code>",
+        "explanation": "Lengths: Python=6, is=2, awesome=7, !=1. max by length is \"awesome\" (7). min by length is \"!\" (1)."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>result = (lambda x, y: x ** y)(2, 10)\nprint(result)</code></pre>",
+        "hint": "This is an immediately invoked lambda expression (IIFE).",
+        "answer": "<code>1024</code>",
+        "explanation": "The lambda is defined and called immediately with arguments (2, 10). It computes 2**10 = 1024."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between map() and filter()?",
+        "hint": "One transforms, the other selects.",
+        "answer": "<code>map(func, iterable)</code> <strong>transforms</strong> every element by applying func and returns the results. <code>filter(func, iterable)</code> <strong>selects</strong> elements where func returns True. map changes values, filter changes which values are included.",
+        "explanation": "Example: <code>map(lambda x: x*2, [1,2,3])</code> gives [2,4,6] (all elements, transformed). <code>filter(lambda x: x>1, [1,2,3])</code> gives [2,3] (only elements passing the test, untransformed)."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When should you use a lambda instead of a def function?",
+        "hint": "Think about function complexity and reusability.",
+        "answer": "Use lambda for short, simple, throwaway operations used once (like sort keys, quick transforms in map/filter). Use <code>def</code> when the function is complex, needs multiple lines, will be reused, or needs a docstring.",
+        "explanation": "Lambda is syntactic sugar for simple cases. If you find yourself writing a complex lambda that is hard to read, switch to def. The Python style guide (PEP 8) discourages assigning lambdas to variables: use def instead."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nnested = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]\nflat = reduce(lambda a, b: a + b, nested)\nprint(flat)\nprint(len(flat))</code></pre>",
+        "hint": "The + operator on lists concatenates them. reduce applies it cumulatively.",
+        "answer": "<code>[1, 2, 3, 4, 5, 6, 7, 8, 9]</code><br><code>9</code>",
+        "explanation": "reduce concatenates lists: [1,2,3]+[4,5]=[1,2,3,4,5], then +[6,7,8,9]=[1,2,3,4,5,6,7,8,9]. The flat list has 9 elements."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>marks = {\"Aarav\": 85, \"Priya\": 45, \"Rohan\": 92, \"Meera\": 38}\npassed = dict(filter(lambda item: item[1] >= 50, marks.items()))\nprint(passed)</code></pre>",
+        "hint": "filter on dict.items() gives key-value tuples. Convert back to dict.",
+        "answer": "<code>{'Aarav': 85, 'Rohan': 92}</code>",
+        "explanation": "<code>marks.items()</code> gives tuples: ('Aarav', 85), ('Priya', 45), etc. The filter keeps tuples where the second element >= 50: Aarav (85) and Rohan (92). <code>dict()</code> converts back."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>from functools import reduce\nwords = [\"Hello\", \" \", \"World\", \"!\"]\nresult = reduce(lambda a, b: a + b, words)\nprint(result)\nprint(type(result))</code></pre>",
+        "hint": "reduce with string concatenation joins all strings into one.",
+        "answer": "<code>Hello World!</code><br><code>&lt;class 'str'&gt;</code>",
+        "explanation": "reduce concatenates: \"Hello\"+\" \"=\"Hello \", +\"World\"=\"Hello World\", +\"!\"=\"Hello World!\". The result is a single string."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What is the correct syntax for a lambda function?",
+        "options": [
+          "lambda(x): x + 1",
+          "lambda x: x + 1",
+          "def lambda(x): x + 1",
+          "lambda x -> x + 1"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lambda syntax is <code>lambda params: expression</code>. No parentheses around parameters, no arrow notation, and no def keyword."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does map() return in Python 3?",
+        "options": [
+          "A list",
+          "A tuple",
+          "A map object (iterator)",
+          "A dictionary"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python 3, <code>map()</code> returns a lazy map object (iterator), not a list. Use <code>list(map(...))</code> to get a list. This is memory-efficient for large datasets."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What does filter() do?",
+        "options": [
+          "Transforms every element",
+          "Keeps elements where the function returns True",
+          "Removes duplicate elements",
+          "Sorts elements by condition"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>filter(func, iterable)</code> tests each element with func and keeps only those where func returns True. It does not transform elements (that is map) or remove duplicates (that is set)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Where is reduce() located in Python 3?",
+        "options": [
+          "It is a built-in function",
+          "In the math module",
+          "In the functools module",
+          "In the itertools module"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>reduce()</code> was moved to <code>functools</code> in Python 3. You must write <code>from functools import reduce</code> before using it."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Can a lambda function contain an if-else statement?",
+        "options": [
+          "No, lambdas cannot have any conditions",
+          "Yes, using a conditional expression (ternary): a if condition else b",
+          "Yes, using a regular if-else block",
+          "Only in Python 3.10+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lambda can use conditional <strong>expressions</strong> (ternary): <code>lambda x: 'yes' if x > 0 else 'no'</code>. It cannot use if-else <strong>statements</strong> (blocks with colons and indentation)."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What is the output of list(map(lambda x: x ** 2, [1, 2, 3]))?",
+        "options": [
+          "[1, 2, 3]",
+          "[2, 4, 6]",
+          "[1, 4, 9]",
+          "(1, 4, 9)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> map applies <code>x ** 2</code> to each element: 1**2=1, 2**2=4, 3**2=9. Result: [1, 4, 9]."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What is the output of list(filter(lambda x: x > 3, [1, 2, 3, 4, 5]))?",
+        "options": [
+          "[1, 2, 3]",
+          "[4, 5]",
+          "[3, 4, 5]",
+          "[True, True]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> filter keeps elements where <code>x > 3</code> is True. Only 4 and 5 satisfy this condition. Result: [4, 5]."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What does filter(None, [0, 1, '', 'hello', None, 42]) return?",
+        "options": [
+          "[0, 1, '', 'hello', None, 42]",
+          "[1, 'hello', 42]",
+          "[None]",
+          "[]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> When func is None, filter removes all falsy values. 0, '', and None are falsy. 1, 'hello', and 42 are truthy and are kept."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does sorted(['pie', 'apple', 'fig'], key=lambda x: len(x)) return?",
+        "options": [
+          "['apple', 'fig', 'pie']",
+          "['pie', 'fig', 'apple']",
+          "['fig', 'pie', 'apple']",
+          "[3, 3, 5]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lengths: pie=3, fig=3, apple=5. Sorted by length: pie and fig (both 3) come first (original order preserved), then apple (5). Result: ['pie', 'fig', 'apple']."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Which is NOT a valid lambda expression?",
+        "options": [
+          "lambda x: x + 1",
+          "lambda: 42",
+          "lambda x, y: x * y",
+          "lambda x: print(x); return x"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Lambda cannot contain statements like <code>return</code> or semicolons separating multiple statements. Lambda can only have a single expression. Options A, B, and C are all valid."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of reduce(lambda a, b: a * b, [1, 2, 3, 4])?",
+        "options": [
+          "10",
+          "24",
+          "[2, 6, 24]",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> reduce computes the product cumulatively: 1*2=2, 2*3=6, 6*4=24. The final result is 24 (factorial of 4)."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is the difference between lambda and def?",
+        "options": [
+          "Lambda is faster than def",
+          "Lambda can only contain a single expression; def can have multiple statements",
+          "Lambda can have a docstring; def cannot",
+          "There is no difference"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lambda is limited to a single expression (no statements, no multi-line body). <code>def</code> can have multiple statements, docstrings, and complex logic. Lambda is not faster; both create function objects."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What does map() do when given two iterables of different lengths?",
+        "options": [
+          "Raises a ValueError",
+          "Pads the shorter one with None",
+          "Stops at the shortest iterable",
+          "Repeats the shorter iterable"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>map()</code> stops when the shortest iterable is exhausted. For example, <code>list(map(lambda x, y: x+y, [1, 2, 3], [10, 20]))</code> gives [11, 22] (stops after 2 elements)."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is reduce(lambda a, b: a + b, [5], 10)?",
+        "options": [
+          "5",
+          "15",
+          "10",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The initial value is 10. reduce computes: 10 + 5 = 15. The initial value is combined with the first (and only) element."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "Which is more readable for squaring a list of numbers?",
+        "options": [
+          "list(map(lambda x: x**2, numbers))",
+          "[x**2 for x in numbers]",
+          "Both are equally readable",
+          "Neither is readable"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> For simple transformations, list comprehensions are generally more readable and Pythonic than map with lambda. The Python community and PEP 8 favor comprehensions for simple cases."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "What does lambda x, y: x + y do?",
+        "options": [
+          "Creates a function that prints x + y",
+          "Creates a function that returns x + y",
+          "Assigns x + y to a variable",
+          "Creates two variables x and y"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Lambda creates an anonymous function that takes two parameters (x and y) and returns their sum. The return is implicit."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What does sorted(data, key=lambda x: (-x[1], x[0])) do?",
+        "options": [
+          "Sorts by first element descending, then second ascending",
+          "Sorts by second element descending, then first element ascending",
+          "Sorts by second element ascending, then first descending",
+          "Raises an error because of the negative sign"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Negating the second element (<code>-x[1]</code>) reverses its sort order (descending). The first element (<code>x[0]</code>) is not negated, so it sorts ascending. This is a common multi-criteria sort pattern."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output of list(filter(lambda x: x, [0, 1, 2, 0, 3]))?",
+        "options": [
+          "[0, 1, 2, 0, 3]",
+          "[1, 2, 3]",
+          "[0, 0]",
+          "[]"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The lambda returns x itself. filter keeps elements that are truthy. 0 is falsy, so it is removed. 1, 2, and 3 are truthy, so they are kept."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Square All Numbers Using map()",
+        "difficulty": "Easy",
+        "description": "Given the list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], use map() with a lambda to create a new list of their squares.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]",
+        "constraints": "Use map() and lambda. Do not use list comprehension.",
+        "solution": "numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\nsquares = list(map(lambda x: x ** 2, numbers))\nprint(squares)"
+      },
+      {
+        "id": "cc-2",
+        "title": "Filter Passing Students",
+        "difficulty": "Easy",
+        "description": "Given marks = {'Aarav': 85, 'Priya': 45, 'Rohan': 92, 'Meera': 38, 'Vikram': 67}, use filter() to create a new dictionary containing only students who scored 50 or above.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'Aarav': 85, 'Rohan': 92, 'Vikram': 67}",
+        "constraints": "Use filter() with lambda on dict.items().",
+        "solution": "marks = {'Aarav': 85, 'Priya': 45, 'Rohan': 92, 'Meera': 38, 'Vikram': 67}\npassed = dict(filter(lambda item: item[1] >= 50, marks.items()))\nprint(passed)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Sort Students by Marks",
+        "difficulty": "Easy",
+        "description": "Given a list of tuples: students = [('Aarav', 85), ('Priya', 92), ('Rohan', 78), ('Meera', 95)], sort them by marks in descending order using sorted() with key=lambda.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[('Meera', 95), ('Priya', 92), ('Aarav', 85), ('Rohan', 78)]",
+        "constraints": "Use sorted() with key=lambda and reverse=True.",
+        "solution": "students = [('Aarav', 85), ('Priya', 92), ('Rohan', 78), ('Meera', 95)]\nresult = sorted(students, key=lambda s: s[1], reverse=True)\nprint(result)"
+      },
+      {
+        "id": "cc-4",
+        "title": "Celsius to Fahrenheit with map()",
+        "difficulty": "Medium",
+        "description": "Given temperatures in Celsius: [0, 20, 37, 100], use map() with a lambda to convert each to Fahrenheit (F = C * 9/5 + 32). Print the result rounded to 1 decimal place.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[32.0, 68.0, 98.6, 212.0]",
+        "constraints": "Use map() with lambda. Use round() inside the lambda.",
+        "solution": "celsius = [0, 20, 37, 100]\nfahrenheit = list(map(lambda c: round(c * 9/5 + 32, 1), celsius))\nprint(fahrenheit)"
+      },
+      {
+        "id": "cc-5",
+        "title": "Product of a List Using reduce()",
+        "difficulty": "Medium",
+        "description": "Use reduce() to compute the product of all numbers in [2, 3, 5, 7, 11] (multiply all elements together).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "2310",
+        "constraints": "Must use reduce() from functools.",
+        "solution": "from functools import reduce\nnumbers = [2, 3, 5, 7, 11]\nproduct = reduce(lambda a, b: a * b, numbers)\nprint(product)"
+      },
+      {
+        "id": "cc-6",
+        "title": "Extract and Sort Names by Length",
+        "difficulty": "Medium",
+        "description": "Given records = [{'name': 'Aarav', 'age': 16}, {'name': 'Priya', 'age': 15}, {'name': 'Vikramaditya', 'age': 17}, {'name': 'Meera', 'age': 14}], use map() to extract just the names, then sort them by length (shortest first).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "['Aarav', 'Priya', 'Meera', 'Vikramaditya']",
+        "constraints": "Use map() to extract names and sorted() with key=lambda for sorting.",
+        "solution": "records = [\n    {'name': 'Aarav', 'age': 16},\n    {'name': 'Priya', 'age': 15},\n    {'name': 'Vikramaditya', 'age': 17},\n    {'name': 'Meera', 'age': 14}\n]\nnames = list(map(lambda r: r['name'], records))\nsorted_names = sorted(names, key=lambda n: len(n))\nprint(sorted_names)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Chain Filter and Map: High Scorer Names",
+        "difficulty": "Medium",
+        "description": "Given students = [{'name': 'Aarav', 'marks': 85}, {'name': 'Priya', 'marks': 92}, {'name': 'Rohan', 'marks': 78}, {'name': 'Meera', 'marks': 95}, {'name': 'Vikram', 'marks': 60}], use filter() to keep students scoring above 80, then map() to extract just their names.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "['Aarav', 'Priya', 'Meera']",
+        "constraints": "Chain filter() and map() with lambda.",
+        "solution": "students = [\n    {'name': 'Aarav', 'marks': 85},\n    {'name': 'Priya', 'marks': 92},\n    {'name': 'Rohan', 'marks': 78},\n    {'name': 'Meera', 'marks': 95},\n    {'name': 'Vikram', 'marks': 60}\n]\nresult = list(map(lambda s: s['name'], filter(lambda s: s['marks'] > 80, students)))\nprint(result)"
+      },
+      {
+        "id": "cc-8",
+        "title": "Multi-Criteria Sort",
+        "difficulty": "Hard",
+        "description": "Given data = [('Aarav', 'A', 85), ('Priya', 'A', 92), ('Rohan', 'B', 85), ('Meera', 'A', 92), ('Vikram', 'B', 78)], sort by: grade ascending, then marks descending, then name ascending.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[('Meera', 'A', 92), ('Priya', 'A', 92), ('Aarav', 'A', 85), ('Rohan', 'B', 85), ('Vikram', 'B', 78)]",
+        "constraints": "Use sorted() with a lambda that returns a tuple key.",
+        "solution": "data = [('Aarav', 'A', 85), ('Priya', 'A', 92), ('Rohan', 'B', 85), ('Meera', 'A', 92), ('Vikram', 'B', 78)]\nresult = sorted(data, key=lambda x: (x[1], -x[2], x[0]))\nprint(result)"
+      },
+      {
+        "id": "cc-9",
+        "title": "Frequency Count with reduce()",
+        "difficulty": "Hard",
+        "description": "Use reduce() to count the frequency of each character in the string 'mississippi'. The result should be a dictionary.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'m': 1, 'i': 4, 's': 4, 'p': 2}",
+        "constraints": "Must use reduce(). The accumulator should be a dictionary.",
+        "solution": "from functools import reduce\n\ntext = 'mississippi'\nfreq = reduce(\n    lambda acc, ch: {**acc, ch: acc.get(ch, 0) + 1},\n    text,\n    {}\n)\nprint(freq)"
+      },
+      {
+        "id": "cc-10",
+        "title": "Data Processing Pipeline",
+        "difficulty": "Hard",
+        "description": "Given raw data: raw = ['  Aarav:85  ', '  Priya:92  ', '  Rohan:78  ', '  Meera:95  ', '  Vikram:60  '], use map/filter/lambda to: (1) strip whitespace, (2) split by ':', (3) convert marks to int, (4) filter marks > 80, (5) print names of students who passed.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "['Aarav', 'Priya', 'Meera']",
+        "constraints": "Use a combination of map() and filter() with lambda.",
+        "solution": "raw = ['  Aarav:85  ', '  Priya:92  ', '  Rohan:78  ', '  Meera:95  ', '  Vikram:60  ']\n\n# Step 1-3: Clean and parse\nparsed = list(map(lambda s: s.strip().split(':'), raw))\nparsed = list(map(lambda p: (p[0], int(p[1])), parsed))\n\n# Step 4-5: Filter and extract names\nresult = list(map(lambda p: p[0], filter(lambda p: p[1] > 80, parsed)))\nprint(result)"
+      }
+    ]
+  }
+}

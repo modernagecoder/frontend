@@ -1,0 +1,690 @@
+{
+  "title": "Scope, LEGB Rule, and Closures",
+  "slug": "scope-and-closures",
+  "language": "python",
+  "chapter": 17,
+  "difficulty": "Intermediate",
+  "readingTime": "30 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 55,
+  "seo": {
+    "title": "Python Variable Scope, LEGB Rule, and Closures | Modern Age Coders",
+    "description": "Learn Python variable scope including local, enclosing, global, and built-in scopes (LEGB rule), global and nonlocal keywords, closures, and common scope pitfalls. Includes 55+ practice questions with output prediction and coding challenges.",
+    "keywords": "python variable scope, LEGB rule python, python closures, global local variable python, python nonlocal keyword, python global keyword, python scope tutorial, python enclosing scope, python UnboundLocalError, python closure examples"
+  },
+  "content": {
+    "what": "<h2>What Is Scope in Python?</h2><p><strong>Scope</strong> determines where a variable can be accessed. When you create a variable, it does not exist everywhere in your program. It lives in a specific region, and only code within that region (or inner regions) can see it.</p><p>Python has four levels of scope, remembered by the acronym <strong>LEGB</strong>:</p><pre><code>L - Local:     Variables defined inside the current function\nE - Enclosing: Variables in the enclosing (outer) function (for nested functions)\nG - Global:    Variables defined at the module (file) level\nB - Built-in:  Python's pre-defined names (print, len, range, etc.)</code></pre><p>When Python encounters a variable name, it searches these scopes in order: Local first, then Enclosing, then Global, then Built-in. The first match wins.</p><h3>Simple Example</h3><pre><code>x = \"global\"          # Global scope\n\ndef outer():\n    x = \"enclosing\"   # Enclosing scope\n    \n    def inner():\n        x = \"local\"   # Local scope\n        print(x)       # Finds \"local\" first\n    \n    inner()\n    print(x)           # Finds \"enclosing\"\n\nouter()\nprint(x)               # Finds \"global\"</code></pre>",
+    "why": "<h2>Why Is Understanding Scope Important?</h2><p>Scope-related bugs are among the most confusing for intermediate programmers. Understanding scope prevents hours of debugging mysterious behavior.</p><h3>1. Avoiding UnboundLocalError</h3><p>The most common scope bug: you try to read a global variable inside a function, but because you also assign to it somewhere in the function, Python treats it as local for the entire function, even before the assignment. This is the dreaded <code>UnboundLocalError</code>.</p><h3>2. Writing Correct Closures</h3><p>Closures (inner functions that remember enclosing variables) power decorators, callbacks, and factory functions. Without understanding enclosing scope and the <code>nonlocal</code> keyword, you cannot write or debug closures.</p><h3>3. Managing State Safely</h3><p>Global variables seem convenient but create hidden dependencies between functions. Understanding scope helps you minimize global state and pass data through parameters and return values instead, making code more predictable and testable.</p><h3>4. Interview Preparation</h3><p>Scope and closure questions are extremely common in Python interviews. Output prediction questions involving nested functions, <code>global</code>, and <code>nonlocal</code> appear regularly. Understanding LEGB gives you a systematic way to trace any scope question.</p><h3>5. Understanding Python Internals</h3><p>Why can you use <code>print()</code> without importing anything? Because it lives in the Built-in scope. Why does <code>x = 5</code> inside a function not change the global <code>x</code>? Because assignment creates a local variable. These are not arbitrary rules; they follow the LEGB model.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. Local Scope</h3><p>Variables defined inside a function (including parameters) are local to that function. They are created when the function is called and destroyed when it returns:</p><pre><code>def greet(name):       # 'name' is local\n    message = \"Hello\"  # 'message' is local\n    print(f\"{message}, {name}\")\n\ngreet(\"Aarav\")\n# print(message)  # NameError: 'message' is not defined\n# print(name)     # NameError: 'name' is not defined</code></pre><p>Each function call creates a fresh set of local variables. Two calls to the same function have independent local scopes.</p><h3>2. Enclosing Scope</h3><p>When a function is nested inside another function, the inner function can access the outer function's variables. This is the enclosing (or nonlocal) scope:</p><pre><code>def outer():\n    message = \"Hello from outer\"\n    \n    def inner():\n        print(message)  # Accesses enclosing scope\n    \n    inner()\n\nouter()  # Prints: Hello from outer</code></pre><p>The inner function <strong>reads</strong> the enclosing variable. But if you try to <strong>assign</strong> to it, Python creates a new local variable in inner instead of modifying the enclosing one.</p><h3>3. Global Scope</h3><p>Variables defined at the top level of a module (outside all functions) are global. They are accessible from any function in the module:</p><pre><code>count = 0  # Global\n\ndef show_count():\n    print(count)  # Can READ the global variable\n\nshow_count()  # Prints: 0</code></pre><p>You can <strong>read</strong> global variables from inside a function. But you cannot <strong>modify</strong> them without using the <code>global</code> keyword.</p><h3>4. Built-in Scope</h3><p>Python has a built-in scope containing functions and constants like <code>print</code>, <code>len</code>, <code>range</code>, <code>True</code>, <code>False</code>, <code>None</code>, and exception types. They are available everywhere without import:</p><pre><code>print(len([1, 2, 3]))  # Both 'print' and 'len' are built-in\nprint(type(42))         # 'type' is also built-in</code></pre><p>You can even (but should not) shadow built-in names with your own variables:</p><pre><code>len = 10  # Shadows the built-in len!\n# len([1, 2, 3])  # TypeError: 'int' object is not callable</code></pre><h3>5. The LEGB Rule in Action</h3><p>When Python encounters a name, it searches Local, then Enclosing, then Global, then Built-in:</p><pre><code>x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    def inner():\n        # No local x defined here\n        print(x)  # Finds \"enclosing\" (E in LEGB)\n    inner()\n\nouter()  # Prints: enclosing</code></pre><p>If the enclosing function did not define <code>x</code>, Python would look at the global scope. If the global scope did not have it, Python would check the built-in scope. If none has it, you get a <code>NameError</code>.</p><h3>6. The global Keyword</h3><p>To <strong>modify</strong> a global variable from inside a function, use the <code>global</code> keyword:</p><pre><code>count = 0\n\ndef increment():\n    global count     # Declare intent to modify global\n    count += 1\n\nincrement()\nincrement()\nprint(count)  # 2</code></pre><p>Without <code>global count</code>, the line <code>count += 1</code> would cause an <code>UnboundLocalError</code> because Python sees the assignment and treats <code>count</code> as local, but you are reading it before assigning.</p><h3>7. The nonlocal Keyword</h3><p>To modify an enclosing (but not global) variable from a nested function, use <code>nonlocal</code>:</p><pre><code>def counter():\n    count = 0\n    \n    def increment():\n        nonlocal count   # Modify enclosing variable\n        count += 1\n        return count\n    \n    return increment\n\nc = counter()\nprint(c())  # 1\nprint(c())  # 2\nprint(c())  # 3</code></pre><p><code>nonlocal</code> tells Python: \"do not create a new local variable; use the one from the nearest enclosing scope.\"</p><h3>8. Closures</h3><p>A <strong>closure</strong> is a function that remembers variables from its enclosing scope, even after the enclosing function has returned:</p><pre><code>def multiplier(factor):\n    def multiply(x):\n        return x * factor  # Remembers 'factor'\n    return multiply\n\ndouble = multiplier(2)\ntriple = multiplier(3)\n\nprint(double(5))   # 10\nprint(triple(5))   # 15</code></pre><p>When <code>multiplier(2)</code> is called, it creates a local variable <code>factor = 2</code> and returns <code>multiply</code>. Even though <code>multiplier</code> has finished executing, <code>multiply</code> still has access to <code>factor = 2</code>. This is a closure.</p><h4>Practical Closure: Counter</h4><pre><code>def make_counter(start=0):\n    count = start\n    def increment():\n        nonlocal count\n        count += 1\n        return count\n    return increment\n\nmy_counter = make_counter()\nprint(my_counter())  # 1\nprint(my_counter())  # 2</code></pre><h4>Practical Closure: Logger</h4><pre><code>def make_logger(prefix):\n    def log(message):\n        print(f\"[{prefix}] {message}\")\n    return log\n\nerror_log = make_logger(\"ERROR\")\ninfo_log = make_logger(\"INFO\")\n\nerror_log(\"File not found\")   # [ERROR] File not found\ninfo_log(\"Server started\")    # [INFO] Server started</code></pre><h3>9. The UnboundLocalError Pitfall</h3><p>This is the most common scope-related bug:</p><pre><code>x = 10\n\ndef broken():\n    print(x)   # UnboundLocalError!\n    x = 20     # This assignment makes x local for the ENTIRE function\n\n# broken()  # UnboundLocalError: local variable 'x' referenced before assignment</code></pre><p>Python determines scope at <strong>compile time</strong>, not runtime. Because <code>x = 20</code> appears anywhere in the function, Python marks <code>x</code> as local for the entire function. When <code>print(x)</code> runs before <code>x = 20</code>, the local <code>x</code> has not been assigned yet.</p><p>Fix: either use <code>global x</code>, or do not assign to <code>x</code> in the function, or use a different variable name.</p><h3>10. Common Scope-Related Bugs</h3><h4>Shadowing built-in names</h4><pre><code>list = [1, 2, 3]  # Shadows the built-in list()\n# list(\"hello\")   # TypeError: 'list' object is not callable\ndel list           # Restore the built-in</code></pre><h4>Loop variable leaking (not a bug, a feature)</h4><pre><code>for i in range(5):\n    pass\nprint(i)  # 4 - loop variable is still accessible!</code></pre><p>Unlike many languages, Python's <code>for</code> loop does not create a new scope. The loop variable persists after the loop ends.</p>",
+    "codeExamples": [
+      {
+        "title": "LEGB Rule Demonstration",
+        "code": "x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    \n    def inner():\n        x = \"local\"\n        print(\"inner:\", x)\n    \n    inner()\n    print(\"outer:\", x)\n\nouter()\nprint(\"module:\", x)",
+        "language": "python",
+        "explanation": "Each scope has its own <code>x</code>. <code>inner()</code> finds its local x first. <code>outer()</code> finds its own x. The module-level code finds the global x. Assignment creates a variable in the current scope without affecting outer scopes.",
+        "output": "inner: local\nouter: enclosing\nmodule: global"
+      },
+      {
+        "title": "LEGB Search Order (No Local, Falls Through)",
+        "code": "x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    \n    def inner():\n        # No local x here\n        print(\"inner sees:\", x)  # Falls to enclosing\n    \n    inner()\n\nouter()\n\n# Now without enclosing either\ny = \"global_y\"\n\ndef func():\n    # No local y, no enclosing scope\n    print(\"func sees:\", y)  # Falls to global\n\nfunc()\n\n# Built-in fallthrough\ndef demo():\n    print(\"len is:\", len)  # Falls to built-in\n\ndemo()",
+        "language": "python",
+        "explanation": "When a name is not found locally, Python searches the enclosing scope, then global, then built-in. <code>inner()</code> has no local x, so it finds the enclosing one. <code>func()</code> has no local y and no enclosing scope, so it finds the global one. <code>demo()</code> finds <code>len</code> in the built-in scope.",
+        "output": "inner sees: enclosing\nfunc sees: global_y\nlen is: <built-in function len>"
+      },
+      {
+        "title": "The global Keyword",
+        "code": "score = 0\n\ndef add_points(points):\n    global score\n    score += points\n    print(f\"Score after adding {points}: {score}\")\n\nadd_points(10)\nadd_points(25)\nadd_points(15)\nprint(f\"Final score: {score}\")",
+        "language": "python",
+        "explanation": "Without <code>global score</code>, the line <code>score += points</code> would cause UnboundLocalError. The <code>global</code> keyword tells Python that <code>score</code> refers to the module-level variable, allowing both reading and writing.",
+        "output": "Score after adding 10: 10\nScore after adding 25: 35\nScore after adding 15: 50\nFinal score: 50"
+      },
+      {
+        "title": "The nonlocal Keyword",
+        "code": "def make_counter(start=0):\n    count = start\n    \n    def increment():\n        nonlocal count\n        count += 1\n        return count\n    \n    def decrement():\n        nonlocal count\n        count -= 1\n        return count\n    \n    def get():\n        return count\n    \n    return increment, decrement, get\n\ninc, dec, get = make_counter(10)\nprint(inc())   # 11\nprint(inc())   # 12\nprint(dec())   # 11\nprint(get())   # 11",
+        "language": "python",
+        "explanation": "<code>nonlocal count</code> allows the nested functions to modify the enclosing <code>count</code> variable. All three functions share the same <code>count</code>. Without <code>nonlocal</code>, <code>count += 1</code> would create a local variable and cause UnboundLocalError.",
+        "output": "11\n12\n11\n11"
+      },
+      {
+        "title": "Closures: Functions That Remember",
+        "code": "def multiplier(factor):\n    def multiply(x):\n        return x * factor\n    return multiply\n\ndouble = multiplier(2)\ntriple = multiplier(3)\nhalf = multiplier(0.5)\n\nprint(f\"double(5) = {double(5)}\")\nprint(f\"triple(5) = {triple(5)}\")\nprint(f\"half(10) = {half(10)}\")\n\n# Each closure has its own factor\nprint(f\"\\ndouble.__closure__[0].cell_contents = {double.__closure__[0].cell_contents}\")\nprint(f\"triple.__closure__[0].cell_contents = {triple.__closure__[0].cell_contents}\")",
+        "language": "python",
+        "explanation": "Each call to <code>multiplier()</code> creates a new closure with its own <code>factor</code>. <code>double</code> remembers factor=2, <code>triple</code> remembers factor=3. The closure's captured variables are stored in <code>__closure__</code>.",
+        "output": "double(5) = 10\ntriple(5) = 15\nhalf(10) = 5.0\n\ndouble.__closure__[0].cell_contents = 2\ntriple.__closure__[0].cell_contents = 3"
+      },
+      {
+        "title": "UnboundLocalError Pitfall",
+        "code": "x = 10\n\n# This function works fine (only reads global)\ndef read_global():\n    print(\"Reading global x:\", x)\n\nread_global()\n\n# This function breaks (reads AND assigns)\ndef broken():\n    try:\n        print(\"Trying to read x:\", x)  # UnboundLocalError here\n        x = 20  # This makes x local for the entire function\n    except UnboundLocalError as e:\n        print(f\"UnboundLocalError: {e}\")\n\nbroken()\n\n# Fix 1: use global keyword\ndef fixed_global():\n    global x\n    print(\"Reading global x:\", x)\n    x = 20\n\nfixed_global()\nprint(\"Global x is now:\", x)",
+        "language": "python",
+        "explanation": "Python determines scope at compile time. If any assignment to <code>x</code> exists in the function, <code>x</code> is local for the entire function. Reading it before the assignment causes UnboundLocalError. Fix with <code>global</code> or restructure the code.",
+        "output": "Reading global x: 10\nUnboundLocalError: local variable 'x' referenced before assignment\nReading global x: 10\nGlobal x is now: 20"
+      },
+      {
+        "title": "Closure Pitfall: Loop Variable Capture",
+        "code": "# Pitfall: all closures capture the same variable\ndef make_functions_wrong():\n    funcs = []\n    for i in range(5):\n        def f():\n            return i  # Captures the variable i, not its value\n        funcs.append(f)\n    return funcs\n\nprint(\"Wrong way:\")\nfor f in make_functions_wrong():\n    print(f(), end=\" \")\n\n# Fix: use default parameter to capture the value\ndef make_functions_right():\n    funcs = []\n    for i in range(5):\n        def f(i=i):  # Default parameter captures current value\n            return i\n        funcs.append(f)\n    return funcs\n\nprint(\"\\nRight way:\")\nfor f in make_functions_right():\n    print(f(), end=\" \")\nprint()",
+        "language": "python",
+        "explanation": "In the wrong version, all functions capture the variable <code>i</code>, which is 4 after the loop ends. In the fix, <code>def f(i=i)</code> captures the current value of <code>i</code> at each iteration via a default parameter.",
+        "output": "Wrong way:\n4 4 4 4 4 \nRight way:\n0 1 2 3 4 "
+      },
+      {
+        "title": "Shadowing Built-in Names",
+        "code": "# Dangerous: shadowing built-in names\nprint(\"Before shadowing:\")\nprint(type(list))      # <class 'type'>\nprint(list(\"hello\"))   # ['h', 'e', 'l', 'l', 'o']\n\n# Shadow the built-in 'list'\nlist = [1, 2, 3]\nprint(\"\\nAfter shadowing:\")\nprint(type(list))      # <class 'list'> (now refers to our variable)\n\ntry:\n    result = list(\"hello\")  # TypeError!\nexcept TypeError as e:\n    print(f\"TypeError: {e}\")\n\n# Fix: delete the shadow\ndel list\nprint(\"\\nAfter del list:\")\nprint(list(\"hello\"))   # Works again!",
+        "language": "python",
+        "explanation": "Assigning to a built-in name like <code>list</code> creates a global variable that shadows the built-in. The built-in <code>list()</code> function becomes inaccessible. Use <code>del</code> to remove the shadow. Avoid using built-in names as variable names."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "UnboundLocalError: Reading Before Assignment in Same Scope",
+        "wrongCode": "x = 10\n\ndef broken():\n    print(x)   # UnboundLocalError!\n    x = 20\n\nbroken()",
+        "error": "UnboundLocalError: local variable 'x' referenced before assignment",
+        "correctCode": "x = 10\n\ndef fixed():\n    global x\n    print(x)   # 10\n    x = 20\n\nfixed()\nprint(x)   # 20",
+        "explanation": "Python scans the entire function at compile time. Finding <code>x = 20</code>, it marks x as local throughout the function. The <code>print(x)</code> line then reads a local x that has not been assigned yet. Use <code>global x</code> to tell Python you mean the global variable."
+      },
+      {
+        "title": "Forgetting nonlocal When Modifying Enclosing Variable",
+        "wrongCode": "def outer():\n    count = 0\n    def inner():\n        count += 1  # UnboundLocalError!\n    inner()\n    return count\n\nprint(outer())",
+        "error": "UnboundLocalError: local variable 'count' referenced before assignment",
+        "correctCode": "def outer():\n    count = 0\n    def inner():\n        nonlocal count\n        count += 1\n    inner()\n    return count\n\nprint(outer())  # 1",
+        "explanation": "Without <code>nonlocal</code>, <code>count += 1</code> in the inner function creates a local variable (because of the assignment), causing UnboundLocalError. <code>nonlocal count</code> tells Python to use the enclosing scope's <code>count</code>."
+      },
+      {
+        "title": "Shadowing Built-in Names (list, dict, str, type, etc.)",
+        "wrongCode": "list = [1, 2, 3]\nresult = list(\"hello\")  # TypeError!",
+        "error": "TypeError: 'list' object is not callable",
+        "correctCode": "my_list = [1, 2, 3]\nresult = list(\"hello\")\nprint(result)  # ['h', 'e', 'l', 'l', 'o']",
+        "explanation": "Using a built-in name as a variable name shadows the built-in. <code>list</code> now refers to your list [1,2,3] instead of the <code>list()</code> constructor. Use descriptive names like <code>my_list</code>, <code>numbers</code>, or <code>items</code> instead."
+      },
+      {
+        "title": "Assuming global Keyword is Needed to Read a Global Variable",
+        "wrongCode": "name = \"Aarav\"\n\ndef greet():\n    global name  # Unnecessary! You only need global for writing\n    print(f\"Hello, {name}\")\n\ngreet()",
+        "error": "No error, but using global when you only read is misleading and risky.",
+        "correctCode": "name = \"Aarav\"\n\ndef greet():\n    print(f\"Hello, {name}\")  # Can read global without 'global' keyword\n\ngreet()",
+        "explanation": "You can <strong>read</strong> global variables from inside a function without the <code>global</code> keyword. You only need <code>global</code> when you want to <strong>modify</strong> (assign to) the global variable. Unnecessary <code>global</code> declarations signal that the function might modify state, which is misleading."
+      }
+    ],
+    "summary": [
+      "Scope determines where a variable is accessible. Python uses the LEGB rule: Local, Enclosing, Global, Built-in.",
+      "Local scope: variables defined inside a function (including parameters). Created on function call, destroyed on return.",
+      "Enclosing scope: variables in the outer function when functions are nested. The inner function can read them but needs nonlocal to modify them.",
+      "Global scope: variables defined at the module level (outside all functions). Any function can read them but needs the global keyword to modify them.",
+      "Built-in scope: Python's pre-defined names (print, len, range, True, None, etc.). Available everywhere without import.",
+      "The global keyword declares that a variable inside a function refers to the module-level global variable, allowing modification.",
+      "The nonlocal keyword declares that a variable inside a nested function refers to the enclosing function's variable, allowing modification.",
+      "A closure is an inner function that remembers variables from its enclosing scope, even after the enclosing function has returned.",
+      "Closures power factory functions (multiplier, logger), counters, and decorators. The captured variables are stored in func.__closure__.",
+      "UnboundLocalError occurs when Python sees an assignment to a variable anywhere in a function, making it local for the entire function, but you read it before the assignment.",
+      "Avoid shadowing built-in names (list, dict, str, type, print). Use descriptive variable names instead.",
+      "Loop variables in Python persist after the loop ends. All closures created in a loop capture the same variable, not snapshots of its values."
+    ]
+  },
+  "relatedTopics": ["functions-in-python", "lambda-map-filter-reduce"],
+  "practice": {
+    "totalQuestions": 55,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>x = 10\n\ndef show():\n    print(x)\n\nshow()</code></pre>",
+        "hint": "The function can read global variables without the global keyword.",
+        "answer": "<code>10</code>",
+        "explanation": "The function <code>show()</code> has no local variable <code>x</code>. Python searches the global scope and finds <code>x = 10</code>. Reading a global inside a function works without the <code>global</code> keyword."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = 5\n\ndef func():\n    x = 10\n    print(x)\n\nfunc()\nprint(x)</code></pre>",
+        "hint": "Assignment inside a function creates a local variable.",
+        "answer": "<code>10</code><br><code>5</code>",
+        "explanation": "Inside <code>func()</code>, <code>x = 10</code> creates a local variable. <code>print(x)</code> inside the function prints the local 10. Outside, <code>print(x)</code> prints the global 5. The global x was never modified."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def func():\n    y = 20\n    print(y)\n\nfunc()\ntry:\n    print(y)\nexcept NameError as e:\n    print(f\"Error: {e}\")</code></pre>",
+        "hint": "Local variables do not exist outside the function.",
+        "answer": "<code>20</code><br><code>Error: name 'y' is not defined</code>",
+        "explanation": "<code>y</code> is local to <code>func()</code>. Inside the function, it prints 20. Outside, <code>y</code> does not exist, so a <code>NameError</code> is raised."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    def inner():\n        print(x)\n    inner()\n\nouter()</code></pre>",
+        "hint": "inner() has no local x, so LEGB search finds the enclosing one.",
+        "answer": "<code>enclosing</code>",
+        "explanation": "<code>inner()</code> has no local <code>x</code>. Python searches the enclosing scope (outer's local scope) and finds <code>x = \"enclosing\"</code>. The global <code>x = \"global\"</code> is not reached."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>count = 0\n\ndef increment():\n    global count\n    count += 1\n\nincrement()\nincrement()\nincrement()\nprint(count)</code></pre>",
+        "hint": "The global keyword allows modifying the module-level variable.",
+        "answer": "<code>3</code>",
+        "explanation": "<code>global count</code> tells Python that <code>count</code> refers to the module-level variable. Each call to <code>increment()</code> adds 1 to the global count: 0 -> 1 -> 2 -> 3."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = 1\n\ndef func():\n    x = 2\n    print(\"Inside:\", x)\n\nfunc()\nprint(\"Outside:\", x)</code></pre>",
+        "hint": "Assignment inside a function creates a NEW local variable, it does not modify the global.",
+        "answer": "<code>Inside: 2</code><br><code>Outside: 1</code>",
+        "explanation": "<code>x = 2</code> inside the function creates a local variable that shadows the global <code>x</code>. The global <code>x</code> remains 1. Without the <code>global</code> keyword, assignment never touches the global variable."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def outer():\n    x = 10\n    def inner():\n        nonlocal x\n        x += 5\n    inner()\n    print(x)\n\nouter()</code></pre>",
+        "hint": "nonlocal allows the inner function to modify the enclosing variable.",
+        "answer": "<code>15</code>",
+        "explanation": "<code>nonlocal x</code> lets <code>inner()</code> modify the enclosing <code>x</code>. <code>x += 5</code> changes it from 10 to 15. <code>print(x)</code> in outer sees the modified value: 15."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def multiplier(factor):\n    def multiply(x):\n        return x * factor\n    return multiply\n\ndouble = multiplier(2)\ntriple = multiplier(3)\nprint(double(5))\nprint(triple(5))\nprint(double(10))</code></pre>",
+        "hint": "Each call to multiplier creates a new closure with its own factor.",
+        "answer": "<code>10</code><br><code>15</code><br><code>20</code>",
+        "explanation": "<code>double</code> is a closure with factor=2. <code>triple</code> is a closure with factor=3. <code>double(5)</code>=10, <code>triple(5)</code>=15, <code>double(10)</code>=20. Each closure independently remembers its own factor."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    def inner():\n        x = \"local\"\n        print(\"inner:\", x)\n    inner()\n    print(\"outer:\", x)\n\nouter()\nprint(\"global:\", x)</code></pre>",
+        "hint": "Each scope has its own x. Assignment creates a local variable.",
+        "answer": "<code>inner: local</code><br><code>outer: enclosing</code><br><code>global: global</code>",
+        "explanation": "Three separate <code>x</code> variables exist: local to inner, local to outer (enclosing), and global. Each <code>print</code> accesses the <code>x</code> in its own scope. None of the assignments affect the other scopes."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def make_adder(n):\n    def add(x):\n        return x + n\n    return add\n\nadd5 = make_adder(5)\nadd10 = make_adder(10)\n\nprint(add5(3))\nprint(add10(3))\nprint(add5(add10(1)))</code></pre>",
+        "hint": "Each closure remembers its own n value.",
+        "answer": "<code>8</code><br><code>13</code><br><code>16</code>",
+        "explanation": "<code>add5</code> remembers n=5. <code>add10</code> remembers n=10. <code>add5(3)</code>=8. <code>add10(3)</code>=13. <code>add5(add10(1))</code>=add5(11)=16."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 10\n\ndef func():\n    try:\n        print(x)\n        x = 20\n    except UnboundLocalError:\n        print(\"UnboundLocalError caught\")\n\nfunc()\nprint(x)</code></pre>",
+        "hint": "The assignment x = 20 makes x local for the ENTIRE function, even the print before it.",
+        "answer": "<code>UnboundLocalError caught</code><br><code>10</code>",
+        "explanation": "Because <code>x = 20</code> exists in the function, Python treats <code>x</code> as local for the entire function. <code>print(x)</code> tries to read the local x before it is assigned, causing UnboundLocalError. The global x (10) is unchanged."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def counter():\n    count = 0\n    def inc():\n        nonlocal count\n        count += 1\n        return count\n    def get():\n        return count\n    return inc, get\n\ninc, get = counter()\nprint(inc())\nprint(inc())\nprint(get())\nprint(inc())\nprint(get())</code></pre>",
+        "hint": "Both inc and get share the same enclosing count variable.",
+        "answer": "<code>1</code><br><code>2</code><br><code>2</code><br><code>3</code><br><code>3</code>",
+        "explanation": "<code>inc</code> and <code>get</code> both close over the same <code>count</code>. <code>inc()</code> increments and returns: 1, 2. <code>get()</code> reads without modifying: 2. <code>inc()</code> again: 3. <code>get()</code>: 3."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>funcs = []\nfor i in range(4):\n    def f():\n        return i\n    funcs.append(f)\n\nprint([fn() for fn in funcs])</code></pre>",
+        "hint": "All closures capture the same variable i, not its value at creation time.",
+        "answer": "<code>[3, 3, 3, 3]</code>",
+        "explanation": "All four functions capture the same variable <code>i</code>. After the loop, <code>i = 3</code>. When called, all functions return the current value of <code>i</code>, which is 3. This is the classic loop-closure pitfall."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>funcs = []\nfor i in range(4):\n    def f(i=i):\n        return i\n    funcs.append(f)\n\nprint([fn() for fn in funcs])</code></pre>",
+        "hint": "Default parameter i=i captures the current value of i at each iteration.",
+        "answer": "<code>[0, 1, 2, 3]</code>",
+        "explanation": "The default parameter <code>i=i</code> captures the current value of <code>i</code> at each loop iteration. When i=0, the default is 0. When i=1, the default is 1, etc. Each function now has its own snapshot."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>a = 1\ndef func():\n    a = 2\n    def inner():\n        global a\n        a = 3\n    inner()\n    print(\"func:\", a)\n\nfunc()\nprint(\"global:\", a)</code></pre>",
+        "hint": "inner() uses global, not nonlocal. It modifies the global a, not the enclosing a.",
+        "answer": "<code>func: 2</code><br><code>global: 3</code>",
+        "explanation": "<code>inner()</code> declares <code>global a</code>, so <code>a = 3</code> modifies the global a (1 -> 3). The enclosing a in <code>func()</code> is a separate local variable and remains 2. <code>global</code> skips the enclosing scope entirely."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def outer():\n    x = 10\n    def middle():\n        def inner():\n            nonlocal x\n            x += 1\n        inner()\n    middle()\n    return x\n\nprint(outer())</code></pre>",
+        "hint": "nonlocal searches upward through enclosing scopes. inner has no x, middle has no x, outer has x.",
+        "answer": "<code>11</code>",
+        "explanation": "<code>nonlocal x</code> in <code>inner()</code> searches enclosing scopes: middle has no x, so it continues to outer and finds <code>x = 10</code>. <code>x += 1</code> modifies outer's x to 11. <code>outer()</code> returns 11."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>name = \"Aarav\"\n\ndef greet():\n    print(f\"Hello, {name}\")\n\ngreet()\nname = \"Priya\"\ngreet()</code></pre>",
+        "hint": "The function reads the global variable at call time, not definition time.",
+        "answer": "<code>Hello, Aarav</code><br><code>Hello, Priya</code>",
+        "explanation": "The function reads the global <code>name</code> each time it is called. First call: name is \"Aarav\". After changing name to \"Priya\", second call reads the updated value."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>for i in range(5):\n    pass\n\nprint(i)</code></pre>",
+        "hint": "Python for loops do not create a new scope. The loop variable persists.",
+        "answer": "<code>4</code>",
+        "explanation": "Unlike many languages, Python's <code>for</code> loop does not create a new scope. The variable <code>i</code> persists after the loop and holds its last value: 4."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def func(a, b):\n    c = a + b\n    return c\n\nresult = func(3, 4)\nprint(result)\ntry:\n    print(c)\nexcept NameError:\n    print(\"c is not defined\")</code></pre>",
+        "hint": "c is a local variable inside func. It does not exist outside.",
+        "answer": "<code>7</code><br><code>c is not defined</code>",
+        "explanation": "<code>c</code> is local to <code>func</code>. The function returns 7 (stored in result). Trying to access <code>c</code> outside the function raises NameError because local variables are destroyed when the function returns."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def power_factory(exp):\n    def power(base):\n        return base ** exp\n    return power\n\nsquare = power_factory(2)\ncube = power_factory(3)\nprint(square(4))\nprint(cube(4))</code></pre>",
+        "hint": "Each closure captures a different value of exp.",
+        "answer": "<code>16</code><br><code>64</code>",
+        "explanation": "<code>square</code> captures exp=2. <code>cube</code> captures exp=3. <code>square(4)</code> = 4**2 = 16. <code>cube(4)</code> = 4**3 = 64."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = [1, 2, 3]\n\ndef modify(lst):\n    lst.append(4)\n\nmodify(x)\nprint(x)</code></pre>",
+        "hint": "Lists are mutable. The function modifies the same object, no global keyword needed.",
+        "answer": "<code>[1, 2, 3, 4]</code>",
+        "explanation": "The list is passed by reference. <code>modify()</code> appends to the same list object. You do NOT need the <code>global</code> keyword to modify a mutable global object through its methods. You only need <code>global</code> for reassignment (<code>x = something_new</code>)."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>x = [1, 2, 3]\n\ndef replace(lst):\n    lst = [4, 5, 6]\n    print(\"Inside:\", lst)\n\nreplace(x)\nprint(\"Outside:\", x)</code></pre>",
+        "hint": "Reassigning the parameter creates a new local reference, not modifying the original.",
+        "answer": "<code>Inside: [4, 5, 6]</code><br><code>Outside: [1, 2, 3]</code>",
+        "explanation": "<code>lst = [4, 5, 6]</code> reassigns the local variable <code>lst</code> to a new list. The original list <code>x</code> is unaffected. This is different from calling methods on lst (like append), which would modify the original."
+      },
+      {
+        "id": "mx-7",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the LEGB rule? Explain each letter.",
+        "hint": "It is the order Python searches for variable names.",
+        "answer": "LEGB stands for: <strong>L</strong>ocal (inside the current function), <strong>E</strong>nclosing (outer function for nested functions), <strong>G</strong>lobal (module level), <strong>B</strong>uilt-in (Python's predefined names like print, len). Python searches these scopes in this order when resolving a name.",
+        "explanation": "When Python encounters a variable name, it checks Local first. If not found, it checks the Enclosing scope (if inside a nested function). If still not found, it checks Global (module level). Finally, it checks Built-in. If the name is not found anywhere, a NameError is raised."
+      },
+      {
+        "id": "mx-8",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "When do you need the <code>global</code> keyword and when do you need <code>nonlocal</code>?",
+        "hint": "Think about which scope you are trying to modify.",
+        "answer": "Use <code>global</code> to modify a <strong>module-level</strong> variable from inside a function. Use <code>nonlocal</code> to modify an <strong>enclosing function's</strong> variable from inside a nested function. Neither is needed for reading variables or for modifying mutable objects through their methods.",
+        "explanation": "You need these keywords only for <strong>reassignment</strong> (e.g., <code>x = new_value</code> or <code>x += 1</code>). You do NOT need them to read a variable or to call methods on a mutable object (e.g., <code>my_list.append(1)</code>)."
+      },
+      {
+        "id": "mx-9",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def make_greeting(greeting):\n    def greet(name):\n        return f\"{greeting}, {name}!\"\n    return greet\n\nhello = make_greeting(\"Hello\")\nnamaste = make_greeting(\"Namaste\")\n\nprint(hello(\"Aarav\"))\nprint(namaste(\"Priya\"))\nprint(hello(\"Rohan\"))</code></pre>",
+        "hint": "Each closure captures a different greeting value.",
+        "answer": "<code>Hello, Aarav!</code><br><code>Namaste, Priya!</code><br><code>Hello, Rohan!</code>",
+        "explanation": "<code>hello</code> captures greeting=\"Hello\". <code>namaste</code> captures greeting=\"Namaste\". Each closure independently remembers its enclosing variable."
+      },
+      {
+        "id": "mx-10",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>print = \"hello\"  # Shadows built-in print\ntry:\n    print(\"test\")\nexcept TypeError as e:\n    del print  # Remove shadow\n    print(f\"Error was: {e}\")\n    print(\"Built-in restored\")</code></pre>",
+        "hint": "Assigning to 'print' shadows the built-in. del removes the shadow.",
+        "answer": "<code>Error was: 'str' object is not callable</code><br><code>Built-in restored</code>",
+        "explanation": "<code>print = \"hello\"</code> shadows the built-in <code>print</code> function with a string. <code>print(\"test\")</code> tries to call the string, causing TypeError. <code>del print</code> removes the global shadow, restoring access to the built-in."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def accumulator(start):\n    total = start\n    def add(n):\n        nonlocal total\n        total += n\n        return total\n    return add\n\nacc = accumulator(100)\nprint(acc(10))\nprint(acc(20))\nprint(acc(30))</code></pre>",
+        "hint": "The closure maintains a running total across calls.",
+        "answer": "<code>110</code><br><code>130</code><br><code>160</code>",
+        "explanation": "The closure starts with total=100. <code>acc(10)</code>: 100+10=110. <code>acc(20)</code>: 110+20=130. <code>acc(30)</code>: 130+30=160. The <code>nonlocal</code> keyword allows modifying the enclosing total."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What does LEGB stand for?",
+        "options": [
+          "List, Element, Global, Built-in",
+          "Local, Enclosing, Global, Built-in",
+          "Local, External, General, Basic",
+          "Loop, Enclosing, Global, Base"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> LEGB stands for Local, Enclosing, Global, Built-in. This is the order Python searches for variable names."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "Where are local variables created?",
+        "options": [
+          "At the module level",
+          "Inside a function",
+          "In the Python interpreter",
+          "In the import statement"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Local variables are created inside a function. They exist only during the function call and are destroyed when the function returns."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What keyword is used to modify a global variable from inside a function?",
+        "options": [
+          "nonlocal",
+          "extern",
+          "global",
+          "module"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The <code>global</code> keyword declares that a variable inside a function refers to the module-level global variable. <code>nonlocal</code> (A) is for enclosing scope, not global."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "Can you read a global variable inside a function without any special keyword?",
+        "options": [
+          "No, you always need the global keyword",
+          "Yes, reading globals works without any keyword",
+          "Only if the variable is a constant",
+          "Only in Python 3.10+"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> You can read global variables from inside a function without the <code>global</code> keyword. You only need <code>global</code> when you want to assign to (modify) the global variable."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "What is a closure?",
+        "options": [
+          "A function that closes the program",
+          "A function that deletes all variables",
+          "An inner function that remembers variables from its enclosing scope",
+          "A function with no parameters"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A closure is a function that captures and remembers variables from the enclosing scope, even after the enclosing function has returned."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What error occurs if you assign to and read a variable in the same function without declaring it global?",
+        "options": [
+          "NameError",
+          "TypeError",
+          "UnboundLocalError",
+          "SyntaxError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>UnboundLocalError</code> occurs because Python sees the assignment, marks the variable as local for the entire function, and then encounters a read before the assignment."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does the nonlocal keyword do?",
+        "options": [
+          "Declares a global variable",
+          "Creates a new local variable",
+          "Allows a nested function to modify the enclosing function's variable",
+          "Deletes a variable from the enclosing scope"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>nonlocal</code> tells Python that a variable in a nested function refers to the enclosing (not global) scope's variable, allowing modification."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "Which scope does Python search first when looking up a variable name?",
+        "options": [
+          "Global",
+          "Built-in",
+          "Enclosing",
+          "Local"
+        ],
+        "answer": "D",
+        "explanation": "<strong>D is correct.</strong> Python follows LEGB order: Local first, then Enclosing, then Global, then Built-in. It stops at the first scope where the name is found."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What happens when you do list = [1, 2, 3] at module level?",
+        "options": [
+          "Overwrites the built-in list function globally",
+          "Creates a global variable that shadows the built-in list",
+          "Raises a SyntaxError",
+          "Has no effect on the built-in"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A global variable named <code>list</code> shadows the built-in <code>list</code> function. The built-in still exists in the Built-in scope but is hidden. Use <code>del list</code> to remove the shadow."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "Do you need the global keyword to append to a global list?",
+        "options": [
+          "Yes, always",
+          "No, because append modifies the existing object, not reassigns the variable",
+          "Only if the list has more than 10 elements",
+          "Only in Python 2"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>global</code> is needed for reassignment (<code>my_list = new_list</code>). Calling methods on the existing object (<code>my_list.append(1)</code>) does not require <code>global</code> because the variable itself is not being reassigned."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Hard",
+        "question": "What is the output of this code?<br><pre><code>x = 10\ndef f():\n    x = x + 1\n    return x\nf()</code></pre>",
+        "options": [
+          "11",
+          "10",
+          "UnboundLocalError",
+          "NameError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>x = x + 1</code> contains both a read and an assignment. Python marks x as local for the entire function. The read (<code>x + 1</code>) happens before the assignment, causing UnboundLocalError."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "When Python determines variable scope, is it at compile time or runtime?",
+        "options": [
+          "Runtime (when the line executes)",
+          "Compile time (when the function is defined)",
+          "Import time",
+          "It depends on the variable type"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Python determines scope at compile time (when the function definition is compiled). If an assignment to a variable exists anywhere in the function, it is treated as local for the entire function, regardless of execution flow."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "Why do closures in a loop often capture the same value?",
+        "options": [
+          "Because loops in Python are buggy",
+          "Because closures capture the variable reference, not the value, and the variable changes",
+          "Because closures cannot be created in loops",
+          "Because Python optimizes loop variables"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Closures capture the variable, not its current value. In a loop, all closures reference the same loop variable. After the loop ends, the variable holds its final value, so all closures return that final value."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "How do you fix the loop-closure problem (all closures returning the same value)?",
+        "options": [
+          "Use global inside the closure",
+          "Use a default parameter to capture the current value: def f(i=i)",
+          "Use nonlocal inside the closure",
+          "Use a while loop instead"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A default parameter (<code>def f(i=i)</code>) is evaluated at function definition time, capturing the current value of <code>i</code>. Each iteration creates a function with a different default, solving the shared-variable problem."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Medium",
+        "question": "What does func.__closure__ contain?",
+        "options": [
+          "The function's source code",
+          "The function's parameters",
+          "The captured variables from the enclosing scope",
+          "The function's return value"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>__closure__</code> is a tuple of cell objects containing the captured variables from the enclosing scope. Access values with <code>func.__closure__[0].cell_contents</code>. If the function is not a closure, <code>__closure__</code> is None."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Hard",
+        "question": "Can nonlocal refer to a global variable?",
+        "options": [
+          "Yes, nonlocal works for any outer scope",
+          "No, nonlocal only works with enclosing function scopes, not module-level globals",
+          "Only in Python 3.10+",
+          "Only if the global variable is mutable"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>nonlocal</code> only searches enclosing function scopes. It cannot refer to global (module-level) variables. Use <code>global</code> for module-level variables. If no enclosing function has the variable, <code>nonlocal</code> raises a SyntaxError."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Easy",
+        "question": "Which of the following is a built-in scope name?",
+        "options": [
+          "my_variable",
+          "x",
+          "len",
+          "result"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>len</code> is a built-in function available in the Built-in scope. The other options are user-defined names that would be in Local or Global scope."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 5\ndef f():\n    global x\n    x = 10\n    def g():\n        nonlocal x  # SyntaxError?\n        x = 20\n    g()\nf()</code></pre>",
+        "options": [
+          "x becomes 20",
+          "x becomes 10",
+          "SyntaxError: no binding for nonlocal 'x' found",
+          "UnboundLocalError"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In function <code>f()</code>, <code>x</code> is declared <code>global</code>, so it is not a local variable of f. Function <code>g()</code> uses <code>nonlocal x</code>, but there is no enclosing function with a local <code>x</code>. This causes a SyntaxError."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Counter Using Closure",
+        "difficulty": "Easy",
+        "description": "Write a function make_counter() that returns an increment function. Each call to the returned function should return the next integer starting from 1.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "1\n2\n3",
+        "constraints": "Use a closure with nonlocal. Do not use global variables.",
+        "solution": "def make_counter():\n    count = 0\n    def increment():\n        nonlocal count\n        count += 1\n        return count\n    return increment\n\ncounter = make_counter()\nprint(counter())\nprint(counter())\nprint(counter())"
+      },
+      {
+        "id": "cc-2",
+        "title": "Multiplier Factory",
+        "difficulty": "Easy",
+        "description": "Write a function make_multiplier(factor) that returns a function. The returned function should multiply its argument by factor. Create double (factor=2) and triple (factor=3) and test them.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "double(5) = 10\ntriple(5) = 15\ndouble(100) = 200",
+        "constraints": "Use a closure. The returned function should take one argument.",
+        "solution": "def make_multiplier(factor):\n    def multiply(x):\n        return x * factor\n    return multiply\n\ndouble = make_multiplier(2)\ntriple = make_multiplier(3)\nprint(f\"double(5) = {double(5)}\")\nprint(f\"triple(5) = {triple(5)}\")\nprint(f\"double(100) = {double(100)}\")"
+      },
+      {
+        "id": "cc-3",
+        "title": "Logger Factory",
+        "difficulty": "Easy",
+        "description": "Write a function make_logger(prefix) that returns a log function. The log function should print messages with the given prefix. Create 'ERROR' and 'INFO' loggers.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[ERROR] File not found\n[INFO] Server started\n[ERROR] Connection refused",
+        "constraints": "Use a closure to remember the prefix.",
+        "solution": "def make_logger(prefix):\n    def log(message):\n        print(f\"[{prefix}] {message}\")\n    return log\n\nerror = make_logger(\"ERROR\")\ninfo = make_logger(\"INFO\")\nerror(\"File not found\")\ninfo(\"Server started\")\nerror(\"Connection refused\")"
+      },
+      {
+        "id": "cc-4",
+        "title": "Running Average Calculator",
+        "difficulty": "Medium",
+        "description": "Write a function make_averager() that returns a function. Each call to the returned function with a number should return the running average of all numbers provided so far.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "10.0\n15.0\n20.0\n17.5",
+        "constraints": "Use a closure to maintain state. Track sum and count using nonlocal.",
+        "solution": "def make_averager():\n    total = 0\n    count = 0\n    def add(value):\n        nonlocal total, count\n        total += value\n        count += 1\n        return total / count\n    return add\n\navg = make_averager()\nprint(avg(10))\nprint(avg(20))\nprint(avg(30))\nprint(avg(10))"
+      },
+      {
+        "id": "cc-5",
+        "title": "Fix the Loop-Closure Bug",
+        "difficulty": "Medium",
+        "description": "The following code creates functions that should return 0, 1, 2, 3, 4 but all return 4. Fix it using the default parameter technique.<br><pre><code>funcs = []\nfor i in range(5):\n    def f():\n        return i\n    funcs.append(f)\nprint([fn() for fn in funcs])  # [4, 4, 4, 4, 4]</code></pre>",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[0, 1, 2, 3, 4]",
+        "constraints": "Fix using default parameter: def f(i=i).",
+        "solution": "funcs = []\nfor i in range(5):\n    def f(i=i):\n        return i\n    funcs.append(f)\nprint([fn() for fn in funcs])"
+      },
+      {
+        "id": "cc-6",
+        "title": "Scope Tracer",
+        "difficulty": "Medium",
+        "description": "Write a program that demonstrates all four LEGB scopes. Define a global variable, a function with an enclosing variable, a nested function with a local variable, and use a built-in (like len). Print which scope each variable comes from.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Built-in: len = <built-in function len>\nGlobal: x = global\nEnclosing: x = enclosing\nLocal: x = local",
+        "constraints": "Must demonstrate all four scopes: L, E, G, and B.",
+        "solution": "x = \"global\"\n\ndef outer():\n    x = \"enclosing\"\n    def inner():\n        x = \"local\"\n        print(f\"Local: x = {x}\")\n        print(f\"Built-in: len = {len}\")\n    print(f\"Enclosing: x = {x}\")\n    inner()\n\nprint(f\"Global: x = {x}\")\nouter()"
+      },
+      {
+        "id": "cc-7",
+        "title": "Rate Limiter Closure",
+        "difficulty": "Hard",
+        "description": "Write a function make_rate_limiter(max_calls) that returns a function. The returned function should track how many times it has been called. If called more than max_calls times, it should return 'Rate limit exceeded' instead of executing.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Call 1: OK\nCall 2: OK\nCall 3: OK\nCall 4: Rate limit exceeded\nCall 5: Rate limit exceeded",
+        "constraints": "Use a closure with nonlocal to track the call count.",
+        "solution": "def make_rate_limiter(max_calls):\n    calls = 0\n    def check():\n        nonlocal calls\n        calls += 1\n        if calls > max_calls:\n            return \"Rate limit exceeded\"\n        return \"OK\"\n    return check\n\nlimiter = make_rate_limiter(3)\nfor i in range(1, 6):\n    print(f\"Call {i}: {limiter()}\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Memoization Using Closure",
+        "difficulty": "Hard",
+        "description": "Write a function memoize(func) that returns a new function which caches results. If the same argument is passed again, return the cached result instead of recomputing. Test with a factorial function.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Computing factorial(5)...\n120\n120\nComputing factorial(3)...\n6",
+        "constraints": "Use a closure with a dictionary as cache. Print 'Computing...' only on first call for each argument.",
+        "solution": "def memoize(func):\n    cache = {}\n    def wrapper(n):\n        if n not in cache:\n            print(f\"Computing {func.__name__}({n})...\")\n            cache[n] = func(n)\n        return cache[n]\n    return wrapper\n\ndef factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nfactorial = memoize(factorial)\nprint(factorial(5))\nprint(factorial(5))\nprint(factorial(3))"
+      }
+    ]
+  }
+}

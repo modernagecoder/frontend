@@ -1,0 +1,777 @@
+{
+  "title": "Functions in Python",
+  "slug": "functions-in-python",
+  "language": "python",
+  "chapter": 16,
+  "difficulty": "Intermediate",
+  "readingTime": "35 min",
+  "lastUpdated": "2026-04-06",
+  "totalQuestions": 65,
+  "seo": {
+    "title": "Functions in Python - def, return, *args, **kwargs, Recursion | Modern Age Coders",
+    "description": "Learn Python functions including def keyword, return statement, default parameters, *args, **kwargs, docstrings, recursion, and first-class functions. Includes 65+ practice questions with output prediction and coding challenges.",
+    "keywords": "python functions, def keyword python, return statement python, python function tutorial, python args kwargs, python recursion, python default parameters, python function examples, python docstring, python function parameters"
+  },
+  "content": {
+    "what": "<h2>What Are Functions in Python?</h2><p>A <strong>function</strong> is a reusable block of code that performs a specific task. You define it once and call it as many times as you need, optionally passing data in (parameters) and getting data back (return values).</p><p>Functions are defined using the <code>def</code> keyword:</p><pre><code>def greet(name):\n    return f\"Hello, {name}!\"\n\nmessage = greet(\"Aarav\")\nprint(message)  # Hello, Aarav!</code></pre><p>The function <code>greet</code> takes one parameter (<code>name</code>), constructs a greeting string, and returns it to the caller. The caller stores the result in <code>message</code> and prints it.</p><h3>Function Anatomy</h3><pre><code>def function_name(parameter1, parameter2):   # Function signature\n    \"\"\"Docstring: describes what the function does.\"\"\"  # Optional\n    # Function body (indented)\n    result = parameter1 + parameter2\n    return result   # Return value (optional)\n\n# Calling the function\noutput = function_name(10, 20)  # Arguments passed to parameters</code></pre><p>Key terminology: <strong>Parameters</strong> are the variable names in the function definition. <strong>Arguments</strong> are the actual values you pass when calling the function.</p>",
+    "why": "<h2>Why Are Functions Important?</h2><p>Functions are arguably the most important concept in programming. Every significant program uses them. Here is why:</p><h3>1. DRY Principle (Don't Repeat Yourself)</h3><p>Without functions, you would copy-paste the same code every time you need it. If Aarav writes a formula to calculate the area of a circle in 5 different places, and the formula needs updating, he must change all 5 places. With a function, he changes it once.</p><h3>2. Modularity and Organization</h3><p>Functions break large problems into smaller, manageable pieces. Instead of a 500-line script, you have 20 functions of 25 lines each. Each function has a clear name and purpose, making the code easier to understand and navigate.</p><h3>3. Reusability</h3><p>Once written, a function can be called from anywhere in your program, or even imported into other programs. Libraries like <code>math</code>, <code>random</code>, and <code>os</code> are collections of functions that thousands of developers reuse.</p><h3>4. Testing and Debugging</h3><p>Functions can be tested independently. If <code>calculate_discount()</code> gives the wrong result, you know exactly where the bug is. Without functions, finding a bug in 500 lines of sequential code is much harder.</p><h3>5. Abstraction</h3><p>Functions hide complexity. When Priya calls <code>sorted(my_list)</code>, she does not need to know the sorting algorithm. She just needs to know what the function does, what it accepts, and what it returns. This is abstraction: separating the <em>what</em> from the <em>how</em>.</p>",
+    "explanation": "<h2>Detailed Explanation</h2><h3>1. The def Keyword and Basic Functions</h3><p>Every function starts with <code>def</code>, followed by the function name, parentheses (with optional parameters), and a colon. The body is indented:</p><pre><code>def say_hello():\n    print(\"Hello!\")\n\nsay_hello()  # Prints: Hello!\nsay_hello()  # Can call as many times as you want</code></pre><p>A function with no parameters and no return value simply executes its body when called.</p><h3>2. Parameters and Arguments</h3><p><strong>Parameters</strong> (defined in the function signature) receive values from <strong>arguments</strong> (passed when calling):</p><pre><code>def add(a, b):       # a and b are parameters\n    return a + b\n\nresult = add(3, 5)   # 3 and 5 are arguments\nprint(result)         # 8</code></pre><h3>3. The return Statement</h3><p><code>return</code> sends a value back to the caller and immediately exits the function. Any code after <code>return</code> is not executed.</p><pre><code>def square(n):\n    return n ** 2\n    print(\"This never runs\")  # Dead code\n\nresult = square(5)  # 25</code></pre><h4>Returning Multiple Values</h4><p>Python functions can return multiple values as a tuple:</p><pre><code>def min_max(numbers):\n    return min(numbers), max(numbers)\n\nlow, high = min_max([3, 1, 7, 2, 9])\nprint(low, high)  # 1 9</code></pre><h4>Returning None</h4><p>If a function has no <code>return</code> statement, or uses <code>return</code> without a value, it returns <code>None</code>:</p><pre><code>def greet(name):\n    print(f\"Hello, {name}\")\n\nresult = greet(\"Aarav\")  # Prints: Hello, Aarav\nprint(result)            # None</code></pre><h3>4. Default Parameters</h3><p>Parameters can have default values. If the caller does not provide an argument, the default is used:</p><pre><code>def greet(name, greeting=\"Hello\"):\n    return f\"{greeting}, {name}!\"\n\nprint(greet(\"Aarav\"))              # Hello, Aarav!\nprint(greet(\"Priya\", \"Welcome\"))   # Welcome, Priya!</code></pre><p>Important rule: default parameters must come <strong>after</strong> non-default parameters. <code>def f(a=1, b)</code> is a SyntaxError.</p><h3>5. Keyword Arguments vs Positional Arguments</h3><p><strong>Positional arguments</strong> are matched by position. <strong>Keyword arguments</strong> are matched by name:</p><pre><code>def describe(name, age, city):\n    print(f\"{name}, age {age}, from {city}\")\n\n# Positional\ndescribe(\"Aarav\", 16, \"Delhi\")\n\n# Keyword (order does not matter)\ndescribe(city=\"Mumbai\", name=\"Priya\", age=15)\n\n# Mixed (positional must come first)\ndescribe(\"Rohan\", city=\"Pune\", age=17)</code></pre><h3>6. *args: Variable Positional Arguments</h3><p><code>*args</code> collects extra positional arguments into a tuple:</p><pre><code>def total(*args):\n    print(type(args))  # &lt;class 'tuple'&gt;\n    return sum(args)\n\nprint(total(1, 2, 3))       # 6\nprint(total(10, 20, 30, 40)) # 100</code></pre><p>The name <code>args</code> is a convention. You could use <code>*numbers</code> or <code>*values</code>. The <code>*</code> is what matters.</p><h3>7. **kwargs: Variable Keyword Arguments</h3><p><code>**kwargs</code> collects extra keyword arguments into a dictionary:</p><pre><code>def profile(**kwargs):\n    print(type(kwargs))  # &lt;class 'dict'&gt;\n    for key, value in kwargs.items():\n        print(f\"{key}: {value}\")\n\nprofile(name=\"Aarav\", age=16, city=\"Delhi\")\n# name: Aarav\n# age: 16\n# city: Delhi</code></pre><h3>8. Combining Parameter Types</h3><p>The correct order is: positional, *args, keyword, **kwargs:</p><pre><code>def example(a, b, *args, key=\"default\", **kwargs):\n    print(f\"a={a}, b={b}\")\n    print(f\"args={args}\")\n    print(f\"key={key}\")\n    print(f\"kwargs={kwargs}\")\n\nexample(1, 2, 3, 4, key=\"custom\", x=10, y=20)\n# a=1, b=2\n# args=(3, 4)\n# key=custom\n# kwargs={'x': 10, 'y': 20}</code></pre><h3>9. Docstrings</h3><p>A docstring is a triple-quoted string as the first statement of a function. It documents what the function does, its parameters, and its return value:</p><pre><code>def calculate_area(radius):\n    \"\"\"Calculate the area of a circle.\n    \n    Args:\n        radius: The radius of the circle (non-negative number).\n    \n    Returns:\n        The area of the circle as a float.\n    \"\"\"\n    import math\n    return math.pi * radius ** 2\n\n# Access the docstring\nprint(calculate_area.__doc__)\nhelp(calculate_area)</code></pre><h3>10. Functions as First-Class Objects</h3><p>In Python, functions are objects. You can assign them to variables, pass them as arguments, and store them in data structures:</p><pre><code># Assign function to a variable\ndef square(x):\n    return x ** 2\n\noperation = square\nprint(operation(5))  # 25\n\n# Pass function as argument\ndef apply(func, value):\n    return func(value)\n\nprint(apply(square, 7))  # 49\nprint(apply(len, \"hello\"))  # 5</code></pre><h3>11. Recursion</h3><p>A recursive function calls itself. Every recursive function needs a <strong>base case</strong> (when to stop) and a <strong>recursive case</strong> (when to call itself again):</p><pre><code># Factorial: n! = n * (n-1)!\ndef factorial(n):\n    if n == 0 or n == 1:  # Base case\n        return 1\n    return n * factorial(n - 1)  # Recursive case\n\nprint(factorial(5))  # 120 (5 * 4 * 3 * 2 * 1)</code></pre><p>Recursion is elegant for problems that have a naturally recursive structure (factorial, Fibonacci, tree traversal), but can be slower and use more memory than iterative solutions for large inputs.</p><h3>12. Nested Functions</h3><p>Functions can be defined inside other functions. The inner function has access to the outer function's variables:</p><pre><code>def outer(message):\n    def inner():\n        print(message)  # Accesses outer's variable\n    inner()\n\nouter(\"Hello from inside!\")  # Hello from inside!</code></pre><p>Nested functions are the foundation of closures, which we will explore in the next chapter.</p><h3>13. Global vs Local Variables (Preview)</h3><p>Variables defined inside a function are <strong>local</strong>: they exist only during the function call. Variables defined outside all functions are <strong>global</strong>:</p><pre><code>x = 10  # Global\n\ndef example():\n    y = 20  # Local\n    print(x)  # Can read global\n    print(y)  # Can read local\n\nexample()\nprint(x)  # 10 (global is accessible)\n# print(y)  # NameError! y does not exist outside the function</code></pre><p>The full rules of scope (LEGB rule) are covered in the next chapter on Scope and Closures.</p>",
+    "codeExamples": [
+      {
+        "title": "Basic Function Definition and Calling",
+        "code": "# Function with no parameters, no return\ndef say_hello():\n    print(\"Hello, World!\")\n\nsay_hello()\nsay_hello()\n\n# Function with parameters and return\ndef add(a, b):\n    return a + b\n\nresult = add(10, 20)\nprint(f\"Sum: {result}\")\n\n# Return value of a function without return\ndef just_print(msg):\n    print(msg)\n\nvalue = just_print(\"Testing\")\nprint(f\"Return value: {value}\")",
+        "language": "python",
+        "explanation": "Functions are defined with <code>def</code>. <code>say_hello()</code> has no parameters and no return value. <code>add(a, b)</code> takes two parameters and returns their sum. A function without a <code>return</code> statement implicitly returns <code>None</code>.",
+        "output": "Hello, World!\nHello, World!\nSum: 30\nTesting\nReturn value: None"
+      },
+      {
+        "title": "Default Parameters and Keyword Arguments",
+        "code": "def create_profile(name, age, city=\"Unknown\", active=True):\n    return {\n        \"name\": name,\n        \"age\": age,\n        \"city\": city,\n        \"active\": active\n    }\n\n# All positional\np1 = create_profile(\"Aarav\", 16, \"Delhi\", True)\nprint(p1)\n\n# Using defaults\np2 = create_profile(\"Priya\", 15)\nprint(p2)\n\n# Keyword arguments (order does not matter)\np3 = create_profile(age=17, name=\"Rohan\", city=\"Mumbai\")\nprint(p3)\n\n# Mix of positional and keyword\np4 = create_profile(\"Meera\", 14, active=False)\nprint(p4)",
+        "language": "python",
+        "explanation": "Default parameters (<code>city=\"Unknown\"</code>) are used when the caller does not provide a value. Keyword arguments (<code>age=17</code>) can be passed in any order. When mixing, positional arguments must come before keyword arguments.",
+        "output": "{'name': 'Aarav', 'age': 16, 'city': 'Delhi', 'active': True}\n{'name': 'Priya', 'age': 15, 'city': 'Unknown', 'active': True}\n{'name': 'Rohan', 'age': 17, 'city': 'Mumbai', 'active': True}\n{'name': 'Meera', 'age': 14, 'city': 'Unknown', 'active': False}"
+      },
+      {
+        "title": "Returning Multiple Values",
+        "code": "def analyze_marks(marks):\n    \"\"\"Analyze a list of marks and return statistics.\"\"\"\n    total = sum(marks)\n    average = total / len(marks)\n    highest = max(marks)\n    lowest = min(marks)\n    return total, average, highest, lowest\n\nmarks = [85, 92, 78, 95, 88]\nt, avg, hi, lo = analyze_marks(marks)\nprint(f\"Total: {t}\")\nprint(f\"Average: {avg}\")\nprint(f\"Highest: {hi}\")\nprint(f\"Lowest: {lo}\")\n\n# The return is actually a tuple\nresult = analyze_marks(marks)\nprint(f\"\\nAs tuple: {result}\")\nprint(f\"Type: {type(result)}\")",
+        "language": "python",
+        "explanation": "Python functions return multiple values as a tuple. The caller can unpack them into separate variables using tuple unpacking (<code>t, avg, hi, lo = ...</code>). Without unpacking, the result is a single tuple.",
+        "output": "Total: 438\nAverage: 87.6\nHighest: 95\nLowest: 78\n\nAs tuple: (438, 87.6, 95, 78)\nType: <class 'tuple'>"
+      },
+      {
+        "title": "*args and **kwargs",
+        "code": "# *args: variable number of positional arguments\ndef total(*args):\n    print(f\"args = {args} (type: {type(args).__name__})\")\n    return sum(args)\n\nprint(total(1, 2, 3))\nprint(total(10, 20, 30, 40, 50))\n\n# **kwargs: variable number of keyword arguments\ndef display_info(**kwargs):\n    print(f\"kwargs = {kwargs} (type: {type(kwargs).__name__})\")\n    for key, value in kwargs.items():\n        print(f\"  {key}: {value}\")\n\nprint()\ndisplay_info(name=\"Aarav\", age=16, grade=\"A\")\n\n# Combining regular params, *args, and **kwargs\ndef flexible(required, *args, **kwargs):\n    print(f\"required: {required}\")\n    print(f\"args: {args}\")\n    print(f\"kwargs: {kwargs}\")\n\nprint()\nflexible(\"must\", 1, 2, 3, x=10, y=20)",
+        "language": "python",
+        "explanation": "<code>*args</code> collects extra positional arguments into a tuple. <code>**kwargs</code> collects extra keyword arguments into a dictionary. They can be combined: regular parameters first, then *args, then **kwargs.",
+        "output": "args = (1, 2, 3) (type: tuple)\n6\nargs = (10, 20, 30, 40, 50) (type: tuple)\n150\n\nkwargs = {'name': 'Aarav', 'age': 16, 'grade': 'A'} (type: dict)\n  name: Aarav\n  age: 16\n  grade: A\n\nrequired: must\nargs: (1, 2, 3)\nkwargs: {'x': 10, 'y': 20}"
+      },
+      {
+        "title": "Functions as First-Class Objects",
+        "code": "def square(x):\n    return x ** 2\n\ndef cube(x):\n    return x ** 3\n\n# Assign function to a variable\nop = square\nprint(op(5))  # 25\n\n# Store functions in a list\noperations = [square, cube, abs, len]\nfor func in operations:\n    if func in (len,):\n        print(f\"{func.__name__}('hello') = {func('hello')}\")\n    else:\n        print(f\"{func.__name__}(-3) = {func(-3)}\")\n\n# Pass function as argument\ndef apply_twice(func, value):\n    return func(func(value))\n\nprint(f\"\\nsquare applied twice to 3: {apply_twice(square, 3)}\")\nprint(f\"cube applied twice to 2: {apply_twice(cube, 2)}\")",
+        "language": "python",
+        "explanation": "In Python, functions are first-class objects. They can be assigned to variables, stored in lists/dicts, and passed as arguments to other functions. <code>func.__name__</code> gives the function's name as a string.",
+        "output": "25\nsquare(-3) = 9\ncube(-3) = -27\nabs(-3) = 3\nlen('hello') = 5\n\nsquare applied twice to 3: 81\ncube applied twice to 2: 512"
+      },
+      {
+        "title": "Recursion: Factorial and Fibonacci",
+        "code": "# Factorial: n! = n * (n-1) * ... * 1\ndef factorial(n):\n    if n <= 1:          # Base case\n        return 1\n    return n * factorial(n - 1)  # Recursive case\n\nprint(f\"5! = {factorial(5)}\")\nprint(f\"0! = {factorial(0)}\")\nprint(f\"10! = {factorial(10)}\")\n\n# Fibonacci: F(n) = F(n-1) + F(n-2)\ndef fibonacci(n):\n    if n <= 0:\n        return 0\n    if n == 1:\n        return 1\n    return fibonacci(n - 1) + fibonacci(n - 2)\n\nprint(f\"\\nFirst 10 Fibonacci numbers:\")\nfor i in range(10):\n    print(fibonacci(i), end=\" \")\nprint()\n\n# Recursive sum of digits\ndef digit_sum(n):\n    if n < 10:\n        return n\n    return n % 10 + digit_sum(n // 10)\n\nprint(f\"\\nDigit sum of 12345: {digit_sum(12345)}\")",
+        "language": "python",
+        "explanation": "Recursive functions call themselves with a smaller input until reaching a base case. Factorial multiplies n by factorial of n-1. Fibonacci adds the two preceding values. Every recursive function must have a base case to prevent infinite recursion.",
+        "output": "5! = 120\n0! = 1\n10! = 3628800\n\nFirst 10 Fibonacci numbers:\n0 1 1 2 3 5 8 13 21 34 \n\nDigit sum of 12345: 15"
+      },
+      {
+        "title": "Docstrings and help()",
+        "code": "def calculate_bmi(weight_kg, height_m):\n    \"\"\"Calculate Body Mass Index (BMI).\n    \n    Args:\n        weight_kg: Weight in kilograms (positive number).\n        height_m: Height in meters (positive number).\n    \n    Returns:\n        A tuple of (bmi_value, category) where category is\n        one of: 'Underweight', 'Normal', 'Overweight', 'Obese'.\n    \"\"\"\n    bmi = weight_kg / (height_m ** 2)\n    if bmi < 18.5:\n        category = \"Underweight\"\n    elif bmi < 25:\n        category = \"Normal\"\n    elif bmi < 30:\n        category = \"Overweight\"\n    else:\n        category = \"Obese\"\n    return round(bmi, 1), category\n\n# Using the function\nbmi, cat = calculate_bmi(70, 1.75)\nprint(f\"BMI: {bmi}, Category: {cat}\")\n\n# Accessing docstring\nprint(f\"\\nDocstring:\\n{calculate_bmi.__doc__}\")",
+        "language": "python",
+        "explanation": "Docstrings are placed as the first statement inside a function. They document the purpose, parameters, and return value. Access them with <code>func.__doc__</code> or <code>help(func)</code>. Well-documented functions are easier to use and maintain.",
+        "output": "BMI: 22.9, Category: Normal\n\nDocstring:\nCalculate Body Mass Index (BMI).\n    \n    Args:\n        weight_kg: Weight in kilograms (positive number).\n        height_m: Height in meters (positive number).\n    \n    Returns:\n        A tuple of (bmi_value, category) where category is\n        one of: 'Underweight', 'Normal', 'Overweight', 'Obese'."
+      },
+      {
+        "title": "Nested Functions and Local Scope",
+        "code": "def outer(x):\n    def inner(y):\n        return x + y  # inner can access outer's variable x\n    return inner(10)\n\nresult = outer(5)\nprint(f\"outer(5) -> inner(10) = {result}\")\n\n# Global vs Local\ncounter = 0  # Global\n\ndef increment():\n    counter = 1  # Local! Does NOT modify global\n    print(f\"Inside function: counter = {counter}\")\n\nincrement()\nprint(f\"Outside function: counter = {counter}\")\n\n# Demonstrating local scope\ndef demo():\n    local_var = \"I exist only inside demo\"\n    print(local_var)\n\ndemo()\ntry:\n    print(local_var)\nexcept NameError as e:\n    print(f\"NameError: {e}\")",
+        "language": "python",
+        "explanation": "Inner functions can access variables from the enclosing function. Local variables exist only during the function call. Assigning to a variable inside a function creates a local variable, even if a global with the same name exists. The global variable is not modified.",
+        "output": "outer(5) -> inner(10) = 15\nInside function: counter = 1\nOutside function: counter = 0\nI exist only inside demo\nNameError: name 'local_var' is not defined"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting to Call the Function (Missing Parentheses)",
+        "wrongCode": "def greet():\n    return \"Hello!\"\n\nresult = greet  # Missing ()\nprint(result)   # <function greet at 0x...> - prints the function object!",
+        "error": "No error, but prints the function object instead of the return value.",
+        "correctCode": "def greet():\n    return \"Hello!\"\n\nresult = greet()  # Call with ()\nprint(result)     # Hello!",
+        "explanation": "Without parentheses, you get a reference to the function object, not its return value. Always use <code>()</code> to call a function: <code>greet()</code>, not <code>greet</code>."
+      },
+      {
+        "title": "Using print() Instead of return (Function Returns None)",
+        "wrongCode": "def add(a, b):\n    print(a + b)  # Prints but does not return\n\nresult = add(3, 5)  # Prints 8\nprint(result * 2)   # TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'",
+        "error": "TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'",
+        "correctCode": "def add(a, b):\n    return a + b  # Return the value\n\nresult = add(3, 5)\nprint(result * 2)  # 16",
+        "explanation": "<code>print()</code> displays a value to the screen but does not send it back to the caller. The function returns <code>None</code>. Use <code>return</code> when you need the caller to use the computed value."
+      },
+      {
+        "title": "Mutable Default Parameter (Shared Between Calls)",
+        "wrongCode": "def add_item(item, items=[]):\n    items.append(item)\n    return items\n\nprint(add_item(\"apple\"))    # ['apple']\nprint(add_item(\"banana\"))   # ['apple', 'banana'] - not ['banana']!",
+        "error": "No error, but the default list is shared across calls. Expected ['banana'] on second call, got ['apple', 'banana'].",
+        "correctCode": "def add_item(item, items=None):\n    if items is None:\n        items = []\n    items.append(item)\n    return items\n\nprint(add_item(\"apple\"))    # ['apple']\nprint(add_item(\"banana\"))   # ['banana']",
+        "explanation": "Default mutable objects (lists, dicts, sets) are created once when the function is defined, not each time it is called. All calls share the same object. Use <code>None</code> as the default and create the mutable object inside the function."
+      },
+      {
+        "title": "Placing Default Parameters Before Non-Default",
+        "wrongCode": "def greet(greeting=\"Hello\", name):\n    return f\"{greeting}, {name}!\"\n# SyntaxError: non-default argument follows default argument",
+        "error": "SyntaxError: non-default argument follows default argument",
+        "correctCode": "def greet(name, greeting=\"Hello\"):\n    return f\"{greeting}, {name}!\"\n\nprint(greet(\"Aarav\"))              # Hello, Aarav!\nprint(greet(\"Priya\", \"Welcome\"))   # Welcome, Priya!",
+        "explanation": "Non-default parameters must come before default parameters. Python reads arguments left to right, so it would not know which positional argument to assign to which parameter if defaults came first."
+      },
+      {
+        "title": "Modifying a Global Variable Without the global Keyword",
+        "wrongCode": "count = 0\n\ndef increment():\n    count += 1  # UnboundLocalError!\n\nincrement()",
+        "error": "UnboundLocalError: local variable 'count' referenced before assignment",
+        "correctCode": "count = 0\n\ndef increment():\n    global count\n    count += 1\n\nincrement()\nprint(count)  # 1",
+        "explanation": "When you assign to a variable inside a function, Python treats it as local for the entire function. Since <code>count += 1</code> reads and writes, Python sees it as local, but it has not been defined locally yet. Use <code>global count</code> to modify the global variable."
+      },
+      {
+        "title": "Recursion Without a Base Case (Infinite Recursion)",
+        "wrongCode": "def countdown(n):\n    print(n)\n    countdown(n - 1)  # No base case!\n\ncountdown(5)  # RecursionError: maximum recursion depth exceeded",
+        "error": "RecursionError: maximum recursion depth exceeded",
+        "correctCode": "def countdown(n):\n    if n <= 0:        # Base case\n        print(\"Done!\")\n        return\n    print(n)\n    countdown(n - 1)\n\ncountdown(5)",
+        "explanation": "Without a base case, the function calls itself forever until Python hits its recursion limit (usually 1000). Always define a clear stopping condition that does not make a recursive call."
+      }
+    ],
+    "summary": [
+      "Functions are defined with the def keyword. They encapsulate reusable logic, improving code organization and reducing repetition (DRY principle).",
+      "Parameters are defined in the function signature. Arguments are the values passed when calling. Parameters vs arguments is a common interview question.",
+      "The return statement sends a value back to the caller and exits the function. Without return, a function returns None implicitly.",
+      "Python functions can return multiple values as a tuple: return a, b, c. The caller can unpack them: x, y, z = func().",
+      "Default parameters provide fallback values: def f(x, y=10). Non-default parameters must come before default ones.",
+      "Keyword arguments can be passed in any order: f(y=2, x=1). Positional arguments must come before keyword arguments.",
+      "*args collects extra positional arguments into a tuple. **kwargs collects extra keyword arguments into a dictionary.",
+      "Functions are first-class objects in Python. They can be assigned to variables, stored in data structures, and passed as arguments to other functions.",
+      "Recursive functions call themselves with a smaller input. Every recursive function needs a base case (stopping condition) to prevent infinite recursion.",
+      "Docstrings (triple-quoted strings) document what a function does, its parameters, and return value. Access with func.__doc__ or help(func).",
+      "Variables inside a function are local (exist only during the call). Variables outside all functions are global. Use the global keyword to modify a global from inside a function."
+    ]
+  },
+  "relatedTopics": ["sets-in-python", "scope-and-closures"],
+  "practice": {
+    "totalQuestions": 65,
+    "topicSpecific": [
+      {
+        "id": "ts-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output of the following code?<br><pre><code>def greet(name):\n    return f\"Hello, {name}!\"\n\nprint(greet(\"Aarav\"))</code></pre>",
+        "hint": "The function returns a formatted string with the name.",
+        "answer": "<code>Hello, Aarav!</code>",
+        "explanation": "The function <code>greet</code> takes \"Aarav\" as the argument for <code>name</code>, constructs the f-string <code>\"Hello, Aarav!\"</code>, and returns it. <code>print()</code> displays the returned string."
+      },
+      {
+        "id": "ts-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def add(a, b):\n    return a + b\n\nresult = add(10, 20)\nprint(result)\nprint(add(3, 7))</code></pre>",
+        "hint": "The function returns the sum of its two arguments.",
+        "answer": "<code>30</code><br><code>10</code>",
+        "explanation": "<code>add(10, 20)</code> returns 30, stored in <code>result</code>. <code>add(3, 7)</code> returns 10. Each call is independent."
+      },
+      {
+        "id": "ts-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def say_hi():\n    print(\"Hi!\")\n\nresult = say_hi()\nprint(result)</code></pre>",
+        "hint": "What does a function return if there is no return statement?",
+        "answer": "<code>Hi!</code><br><code>None</code>",
+        "explanation": "The function prints \"Hi!\" to the screen. Since there is no <code>return</code> statement, the function returns <code>None</code> implicitly. <code>print(result)</code> prints <code>None</code>."
+      },
+      {
+        "id": "ts-4",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def square(n):\n    return n ** 2\n\nprint(square(4))\nprint(square(0))\nprint(square(-3))</code></pre>",
+        "hint": "** is the exponentiation operator. (-3)**2 = 9.",
+        "answer": "<code>16</code><br><code>0</code><br><code>9</code>",
+        "explanation": "<code>4**2 = 16</code>, <code>0**2 = 0</code>, <code>(-3)**2 = 9</code>. The function works correctly with positive, zero, and negative inputs."
+      },
+      {
+        "id": "ts-5",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def greet(name, greeting=\"Hello\"):\n    return f\"{greeting}, {name}!\"\n\nprint(greet(\"Priya\"))\nprint(greet(\"Rohan\", \"Welcome\"))</code></pre>",
+        "hint": "The second parameter has a default value. It is used when no argument is provided.",
+        "answer": "<code>Hello, Priya!</code><br><code>Welcome, Rohan!</code>",
+        "explanation": "First call uses the default greeting \"Hello\". Second call overrides the default with \"Welcome\". Default parameters allow flexibility without requiring all arguments."
+      },
+      {
+        "id": "ts-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def min_max(numbers):\n    return min(numbers), max(numbers)\n\nresult = min_max([5, 2, 8, 1, 9])\nprint(result)\nprint(type(result))\n\nlo, hi = min_max([5, 2, 8, 1, 9])\nprint(lo, hi)</code></pre>",
+        "hint": "return a, b returns a tuple. The caller can unpack it.",
+        "answer": "<code>(1, 9)</code><br><code>&lt;class 'tuple'&gt;</code><br><code>1 9</code>",
+        "explanation": "Returning multiple values creates a tuple: (1, 9). <code>type(result)</code> confirms it is a tuple. Tuple unpacking splits it into <code>lo=1</code> and <code>hi=9</code>."
+      },
+      {
+        "id": "ts-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def total(*args):\n    return sum(args)\n\nprint(total(1, 2, 3))\nprint(total(10))\nprint(total())</code></pre>",
+        "hint": "*args collects all positional arguments into a tuple. sum of empty tuple is 0.",
+        "answer": "<code>6</code><br><code>10</code><br><code>0</code>",
+        "explanation": "<code>total(1,2,3)</code>: args=(1,2,3), sum=6. <code>total(10)</code>: args=(10,), sum=10. <code>total()</code>: args=(), sum=0 (sum of empty tuple)."
+      },
+      {
+        "id": "ts-8",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def info(**kwargs):\n    for key, value in sorted(kwargs.items()):\n        print(f\"{key}: {value}\")\n\ninfo(name=\"Aarav\", age=16, city=\"Delhi\")</code></pre>",
+        "hint": "**kwargs collects keyword arguments into a dictionary. sorted() sorts by keys.",
+        "answer": "<code>age: 16</code><br><code>city: Delhi</code><br><code>name: Aarav</code>",
+        "explanation": "The keyword arguments are collected into <code>kwargs = {'name': 'Aarav', 'age': 16, 'city': 'Delhi'}</code>. <code>sorted(kwargs.items())</code> sorts by key alphabetically: age, city, name."
+      },
+      {
+        "id": "ts-9",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def describe(name, age, city=\"Unknown\"):\n    print(f\"{name}, {age}, {city}\")\n\ndescribe(\"Priya\", 15)\ndescribe(city=\"Mumbai\", age=16, name=\"Rohan\")\ndescribe(\"Meera\", city=\"Pune\", age=14)</code></pre>",
+        "hint": "Keyword arguments can be in any order. Positional must come first.",
+        "answer": "<code>Priya, 15, Unknown</code><br><code>Rohan, 16, Mumbai</code><br><code>Meera, 14, Pune</code>",
+        "explanation": "First call: positional args, city uses default. Second call: all keyword, order does not matter. Third call: \"Meera\" is positional (name), then keyword args for city and age."
+      },
+      {
+        "id": "ts-10",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def check(n):\n    if n > 0:\n        return \"Positive\"\n    elif n < 0:\n        return \"Negative\"\n\nprint(check(5))\nprint(check(-3))\nprint(check(0))</code></pre>",
+        "hint": "What happens if none of the conditions are True? What does the function return?",
+        "answer": "<code>Positive</code><br><code>Negative</code><br><code>None</code>",
+        "explanation": "For 5: returns \"Positive\". For -3: returns \"Negative\". For 0: neither condition is True, so the function reaches the end without a return statement and returns <code>None</code>."
+      },
+      {
+        "id": "ts-11",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def power(base, exp=2):\n    return base ** exp\n\nprint(power(3))\nprint(power(3, 3))\nprint(power(exp=4, base=2))</code></pre>",
+        "hint": "Default exp=2. Keyword arguments can override in any order.",
+        "answer": "<code>9</code><br><code>27</code><br><code>16</code>",
+        "explanation": "<code>power(3)</code>: 3**2=9 (default exp). <code>power(3,3)</code>: 3**3=27. <code>power(exp=4, base=2)</code>: 2**4=16 (keyword args, order does not matter)."
+      },
+      {
+        "id": "ts-12",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def apply(func, value):\n    return func(value)\n\ndef double(x):\n    return x * 2\n\nprint(apply(double, 5))\nprint(apply(len, \"hello\"))\nprint(apply(str, 42))</code></pre>",
+        "hint": "Functions can be passed as arguments to other functions.",
+        "answer": "<code>10</code><br><code>5</code><br><code>42</code>",
+        "explanation": "<code>apply(double, 5)</code> calls <code>double(5)</code> = 10. <code>apply(len, \"hello\")</code> calls <code>len(\"hello\")</code> = 5. <code>apply(str, 42)</code> calls <code>str(42)</code> = \"42\" (printed without quotes)."
+      },
+      {
+        "id": "ts-13",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)\n\nprint(factorial(5))\nprint(factorial(0))\nprint(factorial(1))</code></pre>",
+        "hint": "Trace the calls: factorial(5) = 5 * factorial(4) = 5 * 4 * factorial(3)...",
+        "answer": "<code>120</code><br><code>1</code><br><code>1</code>",
+        "explanation": "<code>factorial(5)</code> = 5*4*3*2*1 = 120. <code>factorial(0)</code> hits the base case (n<=1), returns 1. <code>factorial(1)</code> also hits the base case, returns 1."
+      },
+      {
+        "id": "ts-14",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def add_item(item, items=[]):\n    items.append(item)\n    return items\n\nprint(add_item(\"a\"))\nprint(add_item(\"b\"))\nprint(add_item(\"c\"))</code></pre>",
+        "hint": "The default list is created once and shared across all calls.",
+        "answer": "<code>['a']</code><br><code>['a', 'b']</code><br><code>['a', 'b', 'c']</code>",
+        "explanation": "This is the mutable default argument trap. The default list <code>[]</code> is created once when the function is defined. Each call appends to the same list. This is why <code>None</code> should be used as the default instead."
+      },
+      {
+        "id": "ts-15",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>x = 10\n\ndef outer():\n    x = 20\n    def inner():\n        x = 30\n        print(\"inner:\", x)\n    inner()\n    print(\"outer:\", x)\n\nouter()\nprint(\"global:\", x)</code></pre>",
+        "hint": "Each function has its own local x. Assignment creates a new local variable.",
+        "answer": "<code>inner: 30</code><br><code>outer: 20</code><br><code>global: 10</code>",
+        "explanation": "Each scope has its own <code>x</code>. <code>inner()</code> prints its local x (30). <code>outer()</code> prints its local x (20). The global x (10) is unchanged. Assignment creates a local variable, it does not modify the outer scope."
+      },
+      {
+        "id": "ts-16",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def make_counter():\n    count = 0\n    def increment():\n        nonlocal count\n        count += 1\n        return count\n    return increment\n\ncounter = make_counter()\nprint(counter())\nprint(counter())\nprint(counter())</code></pre>",
+        "hint": "nonlocal allows modifying the enclosing scope's variable. The function remembers the count.",
+        "answer": "<code>1</code><br><code>2</code><br><code>3</code>",
+        "explanation": "<code>make_counter()</code> returns the <code>increment</code> function, which remembers <code>count</code> from the enclosing scope. Each call increments count: 0->1, 1->2, 2->3. This is a closure (covered in detail in the next chapter)."
+      },
+      {
+        "id": "ts-17",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def func(a, b, *args, **kwargs):\n    print(a, b)\n    print(args)\n    print(kwargs)\n\nfunc(1, 2, 3, 4, 5, x=10, y=20)</code></pre>",
+        "hint": "a and b get the first two positional args. *args gets the rest. **kwargs gets keyword args.",
+        "answer": "<code>1 2</code><br><code>(3, 4, 5)</code><br><code>{'x': 10, 'y': 20}</code>",
+        "explanation": "<code>a=1</code>, <code>b=2</code> (first two positional). <code>args=(3, 4, 5)</code> (remaining positional). <code>kwargs={'x': 10, 'y': 20}</code> (keyword arguments)."
+      },
+      {
+        "id": "ts-18",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def fibonacci(n):\n    if n <= 0:\n        return 0\n    if n == 1:\n        return 1\n    return fibonacci(n-1) + fibonacci(n-2)\n\nprint(fibonacci(6))\nprint(fibonacci(7))</code></pre>",
+        "hint": "F(6) = F(5) + F(4). Sequence: 0, 1, 1, 2, 3, 5, 8, 13...",
+        "answer": "<code>8</code><br><code>13</code>",
+        "explanation": "Fibonacci sequence: F(0)=0, F(1)=1, F(2)=1, F(3)=2, F(4)=3, F(5)=5, F(6)=8, F(7)=13. Each value is the sum of the two preceding values."
+      }
+    ],
+    "mixed": [
+      {
+        "id": "mx-1",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def multiply(a, b):\n    return a * b\n\nprint(multiply(3, 4))\nprint(multiply(\"hi\", 3))</code></pre>",
+        "hint": "The * operator works differently for numbers and strings.",
+        "answer": "<code>12</code><br><code>hihihi</code>",
+        "explanation": "<code>3 * 4 = 12</code> (numeric multiplication). <code>\"hi\" * 3 = \"hihihi\"</code> (string repetition). The function works with both because Python's <code>*</code> operator is polymorphic."
+      },
+      {
+        "id": "mx-2",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def is_even(n):\n    return n % 2 == 0\n\nprint(is_even(4))\nprint(is_even(7))\nprint(type(is_even(4)))</code></pre>",
+        "hint": "The == operator returns a boolean (True or False).",
+        "answer": "<code>True</code><br><code>False</code><br><code>&lt;class 'bool'&gt;</code>",
+        "explanation": "<code>4 % 2 == 0</code> is True. <code>7 % 2 == 0</code> is False. The return type is <code>bool</code>."
+      },
+      {
+        "id": "mx-3",
+        "type": "output-prediction",
+        "difficulty": "Easy",
+        "question": "What is the output?<br><pre><code>def greet():\n    return \"Hello!\"\n\na = greet\nb = greet()\nprint(a)\nprint(b)</code></pre>",
+        "hint": "greet without () is the function object. greet() calls the function.",
+        "answer": "<code>&lt;function greet at 0x...&gt;</code><br><code>Hello!</code>",
+        "explanation": "<code>a = greet</code> assigns the function object to a (no call). <code>b = greet()</code> calls the function and assigns the return value. <code>print(a)</code> shows the function object's representation."
+      },
+      {
+        "id": "mx-4",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def process(numbers):\n    numbers.append(4)\n    return numbers\n\noriginal = [1, 2, 3]\nresult = process(original)\nprint(original)\nprint(result)\nprint(original is result)</code></pre>",
+        "hint": "Lists are passed by reference. Modifying inside the function modifies the original.",
+        "answer": "<code>[1, 2, 3, 4]</code><br><code>[1, 2, 3, 4]</code><br><code>True</code>",
+        "explanation": "Lists are mutable objects passed by reference. <code>numbers</code> inside the function is the same object as <code>original</code>. Appending 4 modifies the original list. Both variables point to the same list."
+      },
+      {
+        "id": "mx-5",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def outer():\n    result = []\n    for i in range(3):\n        def inner():\n            return i\n        result.append(inner)\n    return result\n\nfuncs = outer()\nfor f in funcs:\n    print(f())</code></pre>",
+        "hint": "The inner function captures the variable i, not its value at the time of creation.",
+        "answer": "<code>2</code><br><code>2</code><br><code>2</code>",
+        "explanation": "All three inner functions capture the same variable <code>i</code>. By the time they are called, the loop has finished and <code>i = 2</code>. All three functions return 2, not 0, 1, 2. This is a classic closure pitfall."
+      },
+      {
+        "id": "mx-6",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def mystery(n):\n    if n <= 0:\n        return \"\"\n    return mystery(n - 1) + str(n)\n\nprint(mystery(5))</code></pre>",
+        "hint": "Trace the recursion: mystery(5) = mystery(4) + \"5\" = mystery(3) + \"4\" + \"5\"...",
+        "answer": "<code>12345</code>",
+        "explanation": "Unwinding: mystery(5) = mystery(4)+\"5\" = mystery(3)+\"4\"+\"5\" = ... = \"\"+\"1\"+\"2\"+\"3\"+\"4\"+\"5\" = \"12345\". The base case returns an empty string, and each recursive call appends the current number."
+      },
+      {
+        "id": "mx-7",
+        "type": "output-prediction",
+        "difficulty": "Medium",
+        "question": "What is the output?<br><pre><code>def swap(a, b):\n    a, b = b, a\n    return a, b\n\nx, y = 10, 20\nresult = swap(x, y)\nprint(result)\nprint(x, y)</code></pre>",
+        "hint": "Integers are immutable. The function receives copies of the values.",
+        "answer": "<code>(20, 10)</code><br><code>10 20</code>",
+        "explanation": "The function swaps a and b locally and returns them as (20, 10). But x and y are integers (immutable), so the original variables are unchanged: x=10, y=20."
+      },
+      {
+        "id": "mx-8",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def accumulate(*args):\n    total = 0\n    results = []\n    for n in args:\n        total += n\n        results.append(total)\n    return results\n\nprint(accumulate(1, 2, 3, 4, 5))</code></pre>",
+        "hint": "The function builds a running total (cumulative sum).",
+        "answer": "<code>[1, 3, 6, 10, 15]</code>",
+        "explanation": "Running total: 0+1=1, 1+2=3, 3+3=6, 6+4=10, 10+5=15. The function returns the cumulative sum at each step."
+      },
+      {
+        "id": "mx-9",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between <code>return</code> and <code>print()</code> inside a function?",
+        "hint": "Think about what the caller can do with the result.",
+        "answer": "<code>return</code> sends a value back to the caller, who can store it, pass it to another function, or use it in an expression. <code>print()</code> displays text on the screen but the function still returns <code>None</code>. The caller cannot use a printed value for further computation.",
+        "explanation": "Use <code>return</code> when the caller needs the result for further processing. Use <code>print()</code> for displaying information to the user. They serve different purposes: return is for program flow, print is for human output."
+      },
+      {
+        "id": "mx-10",
+        "type": "conceptual",
+        "difficulty": "Medium",
+        "question": "What is the difference between *args and **kwargs?",
+        "hint": "One collects positional arguments, the other collects keyword arguments.",
+        "answer": "<code>*args</code> collects extra <strong>positional</strong> arguments into a <strong>tuple</strong>. <code>**kwargs</code> collects extra <strong>keyword</strong> arguments into a <strong>dictionary</strong>. They allow functions to accept a variable number of arguments.",
+        "explanation": "Example: <code>f(1, 2, x=3)</code> with <code>def f(*args, **kwargs)</code> gives args=(1, 2) and kwargs={'x': 3}. The names 'args' and 'kwargs' are conventions; the * and ** are what matter."
+      },
+      {
+        "id": "mx-11",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def compose(f, g):\n    def combined(x):\n        return f(g(x))\n    return combined\n\ndef double(x):\n    return x * 2\n\ndef increment(x):\n    return x + 1\n\nfn = compose(double, increment)\nprint(fn(5))\nprint(fn(10))</code></pre>",
+        "hint": "compose returns a function that applies g first, then f.",
+        "answer": "<code>12</code><br><code>22</code>",
+        "explanation": "<code>fn(5)</code> calls <code>double(increment(5))</code> = <code>double(6)</code> = 12. <code>fn(10)</code> calls <code>double(increment(10))</code> = <code>double(11)</code> = 22. This is function composition."
+      },
+      {
+        "id": "mx-12",
+        "type": "output-prediction",
+        "difficulty": "Hard",
+        "question": "What is the output?<br><pre><code>def power_factory(exp):\n    def power(base):\n        return base ** exp\n    return power\n\nsquare = power_factory(2)\ncube = power_factory(3)\n\nprint(square(5))\nprint(cube(3))\nprint(power_factory(4)(2))</code></pre>",
+        "hint": "power_factory returns a function that remembers the exponent.",
+        "answer": "<code>25</code><br><code>27</code><br><code>16</code>",
+        "explanation": "<code>square = power_factory(2)</code> creates a function where exp=2. <code>square(5)</code> = 5**2 = 25. <code>cube = power_factory(3)</code> creates exp=3. <code>cube(3)</code> = 3**3 = 27. <code>power_factory(4)(2)</code> = 2**4 = 16."
+      }
+    ],
+    "mcqs": [
+      {
+        "id": "mcq-1",
+        "difficulty": "Easy",
+        "question": "What keyword is used to define a function in Python?",
+        "options": [
+          "function",
+          "func",
+          "def",
+          "define"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python uses <code>def</code> to define functions. Options A and D are not Python keywords. Option B is not a keyword either."
+      },
+      {
+        "id": "mcq-2",
+        "difficulty": "Easy",
+        "question": "What does a function return if it has no return statement?",
+        "options": [
+          "0",
+          "False",
+          "None",
+          "An empty string"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A function without a <code>return</code> statement (or with <code>return</code> alone) returns <code>None</code> by default."
+      },
+      {
+        "id": "mcq-3",
+        "difficulty": "Easy",
+        "question": "What is the difference between parameters and arguments?",
+        "options": [
+          "They are the same thing",
+          "Parameters are in the definition, arguments are in the call",
+          "Arguments are in the definition, parameters are in the call",
+          "Parameters are for numbers, arguments are for strings"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Parameters are the variable names in the function definition (<code>def f(x, y)</code>). Arguments are the actual values passed when calling (<code>f(3, 5)</code>)."
+      },
+      {
+        "id": "mcq-4",
+        "difficulty": "Easy",
+        "question": "What happens if you call a function with fewer arguments than it has non-default parameters?",
+        "options": [
+          "The missing parameters are set to None",
+          "The missing parameters are set to 0",
+          "A TypeError is raised",
+          "The function ignores the missing parameters"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python raises <code>TypeError: missing required positional argument</code>. Every non-default parameter must receive an argument."
+      },
+      {
+        "id": "mcq-5",
+        "difficulty": "Easy",
+        "question": "Which of these is a valid function definition?",
+        "options": [
+          "def my_func{}:",
+          "function my_func():",
+          "def my_func():",
+          "def my func():"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The syntax is <code>def name():</code>. Option A uses braces instead of parentheses. Option B uses 'function' instead of 'def'. Option D has a space in the name."
+      },
+      {
+        "id": "mcq-6",
+        "difficulty": "Medium",
+        "question": "What does *args collect into?",
+        "options": [
+          "A list",
+          "A tuple",
+          "A dictionary",
+          "A set"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>*args</code> collects extra positional arguments into a <strong>tuple</strong>, not a list. This is because tuples are immutable, which matches the read-only nature of received arguments."
+      },
+      {
+        "id": "mcq-7",
+        "difficulty": "Medium",
+        "question": "What does **kwargs collect into?",
+        "options": [
+          "A tuple",
+          "A list",
+          "A dictionary",
+          "A set"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>**kwargs</code> collects extra keyword arguments into a <strong>dictionary</strong>, with argument names as keys and their values as values."
+      },
+      {
+        "id": "mcq-8",
+        "difficulty": "Medium",
+        "question": "What is the correct order of parameter types in a function definition?",
+        "options": [
+          "*args, positional, **kwargs, default",
+          "positional, default, *args, **kwargs",
+          "**kwargs, *args, positional, default",
+          "default, positional, *args, **kwargs"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The order is: regular positional parameters, default parameters, *args, then **kwargs. Violating this order causes a SyntaxError."
+      },
+      {
+        "id": "mcq-9",
+        "difficulty": "Medium",
+        "question": "What does return a, b actually return?",
+        "options": [
+          "Two separate values",
+          "A list [a, b]",
+          "A tuple (a, b)",
+          "A dictionary {'a': a, 'b': b}"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> <code>return a, b</code> is syntactic sugar for <code>return (a, b)</code>. It returns a single tuple containing both values. The caller can unpack it: <code>x, y = func()</code>."
+      },
+      {
+        "id": "mcq-10",
+        "difficulty": "Medium",
+        "question": "What is a docstring?",
+        "options": [
+          "A comment that starts with #",
+          "A triple-quoted string as the first statement of a function",
+          "Any string inside a function",
+          "A variable that stores documentation"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> A docstring is a triple-quoted string placed as the <strong>first statement</strong> of a function (or class/module). It documents the function's purpose and is accessible via <code>func.__doc__</code>."
+      },
+      {
+        "id": "mcq-11",
+        "difficulty": "Medium",
+        "question": "Why is using a mutable default parameter (like a list) dangerous?",
+        "options": [
+          "It causes a SyntaxError",
+          "It creates a new list every time",
+          "The default object is shared across all calls",
+          "It makes the function run slower"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> The default list is created once when the function is defined. All calls that do not provide the argument share the same list. Changes from one call persist into subsequent calls."
+      },
+      {
+        "id": "mcq-12",
+        "difficulty": "Hard",
+        "question": "What is a first-class function?",
+        "options": [
+          "A function defined at the top of a file",
+          "A function that runs before all others",
+          "A function that can be assigned to variables, passed as arguments, and returned from functions",
+          "A function with no parameters"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> In Python, functions are first-class objects. They can be assigned to variables (<code>f = func</code>), passed as arguments (<code>map(func, list)</code>), stored in data structures, and returned from other functions."
+      },
+      {
+        "id": "mcq-13",
+        "difficulty": "Hard",
+        "question": "What is the base case in recursion?",
+        "options": [
+          "The first recursive call",
+          "The condition that stops the recursion",
+          "The largest input the function can handle",
+          "The initial call to the function"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The base case is the condition under which the function does NOT call itself, thereby stopping the recursion. Without a base case, the function recurses infinitely until hitting Python's recursion limit."
+      },
+      {
+        "id": "mcq-14",
+        "difficulty": "Hard",
+        "question": "What is the default recursion limit in Python?",
+        "options": [
+          "100",
+          "500",
+          "1000",
+          "10000"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python's default recursion limit is 1000. Exceeding it raises <code>RecursionError</code>. You can check with <code>sys.getrecursionlimit()</code> and change it with <code>sys.setrecursionlimit()</code>, though deep recursion is generally discouraged."
+      },
+      {
+        "id": "mcq-15",
+        "difficulty": "Hard",
+        "question": "What happens when a function assigns to a variable that shares a name with a global variable?",
+        "options": [
+          "The global variable is modified",
+          "A new local variable is created, shadowing the global",
+          "A NameError is raised",
+          "Both variables are updated"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> Assignment inside a function creates a local variable. The global variable is unaffected. This is called <strong>shadowing</strong>. To modify the global, use the <code>global</code> keyword."
+      },
+      {
+        "id": "mcq-16",
+        "difficulty": "Easy",
+        "question": "Which of these calls is valid for def f(a, b, c=10)?",
+        "options": [
+          "f(1)",
+          "f(1, 2)",
+          "f(c=10)",
+          "f()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> <code>a</code> and <code>b</code> are required (no defaults). <code>c</code> has a default of 10. <code>f(1, 2)</code> provides both required arguments; c uses its default. The other options do not provide enough required arguments."
+      },
+      {
+        "id": "mcq-17",
+        "difficulty": "Hard",
+        "question": "What is the output of the following code?<br><pre><code>def f(x=[]):\n    x.append(1)\n    return len(x)\nprint(f(), f(), f())</code></pre>",
+        "options": [
+          "1 1 1",
+          "1 2 3",
+          "3 3 3",
+          "Error"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The default list is shared across calls. First call: [1], len=1. Second call: [1,1], len=2. Third call: [1,1,1], len=3. This is the mutable default argument pitfall."
+      },
+      {
+        "id": "mcq-18",
+        "difficulty": "Medium",
+        "question": "Can a function be defined inside another function in Python?",
+        "options": [
+          "No, this causes a SyntaxError",
+          "Yes, but the inner function cannot be called",
+          "Yes, and the inner function can access the outer function's variables",
+          "Yes, but only if the inner function has no parameters"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> Python supports nested functions. The inner function has access to the outer function's variables (this is the enclosing scope in the LEGB rule). This is the foundation of closures."
+      },
+      {
+        "id": "mcq-19",
+        "difficulty": "Hard",
+        "question": "What does the following return?<br><pre><code>def f():\n    return\nresult = f()</code></pre>",
+        "options": [
+          "0",
+          "\"\"",
+          "None",
+          "Nothing (result is undefined)"
+        ],
+        "answer": "C",
+        "explanation": "<strong>C is correct.</strong> A bare <code>return</code> (without a value) returns <code>None</code>. This is the same as having no return statement at all. <code>result</code> is defined and holds the value <code>None</code>."
+      },
+      {
+        "id": "mcq-20",
+        "difficulty": "Easy",
+        "question": "How do you access a function's docstring?",
+        "options": [
+          "func.doc",
+          "func.__doc__",
+          "func.docstring",
+          "func.help()"
+        ],
+        "answer": "B",
+        "explanation": "<strong>B is correct.</strong> The docstring is stored in the <code>__doc__</code> attribute. <code>help(func)</code> also displays it, but the attribute is accessed with <code>func.__doc__</code>."
+      }
+    ],
+    "codingChallenges": [
+      {
+        "id": "cc-1",
+        "title": "Temperature Converter",
+        "difficulty": "Easy",
+        "description": "Write two functions: celsius_to_fahrenheit(c) that converts Celsius to Fahrenheit (F = C * 9/5 + 32), and fahrenheit_to_celsius(f) that converts Fahrenheit to Celsius (C = (F - 32) * 5/9). Test with 0, 100, and 212.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "0C = 32.0F\n100C = 212.0F\n212F = 100.0C",
+        "constraints": "Each function should return a float, not print.",
+        "solution": "def celsius_to_fahrenheit(c):\n    return c * 9/5 + 32\n\ndef fahrenheit_to_celsius(f):\n    return (f - 32) * 5/9\n\nprint(f\"0C = {celsius_to_fahrenheit(0)}F\")\nprint(f\"100C = {celsius_to_fahrenheit(100)}F\")\nprint(f\"212F = {fahrenheit_to_celsius(212)}C\")"
+      },
+      {
+        "id": "cc-2",
+        "title": "List Statistics Function",
+        "difficulty": "Easy",
+        "description": "Write a function stats(numbers) that takes a list of numbers and returns a dictionary with keys 'min', 'max', 'sum', 'average', and 'count'. Test with [10, 20, 30, 40, 50].",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "{'min': 10, 'max': 50, 'sum': 150, 'average': 30.0, 'count': 5}",
+        "constraints": "Return a dictionary. Do not use external libraries.",
+        "solution": "def stats(numbers):\n    return {\n        'min': min(numbers),\n        'max': max(numbers),\n        'sum': sum(numbers),\n        'average': sum(numbers) / len(numbers),\n        'count': len(numbers)\n    }\n\nresult = stats([10, 20, 30, 40, 50])\nprint(result)"
+      },
+      {
+        "id": "cc-3",
+        "title": "Flexible Greeting Function",
+        "difficulty": "Easy",
+        "description": "Write a function greet(name, greeting='Hello', punctuation='!') that returns a formatted greeting. Test with different combinations of arguments.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Hello, Aarav!\nWelcome, Priya!\nHi, Rohan.",
+        "constraints": "Use default parameters.",
+        "solution": "def greet(name, greeting='Hello', punctuation='!'):\n    return f\"{greeting}, {name}{punctuation}\"\n\nprint(greet('Aarav'))\nprint(greet('Priya', 'Welcome'))\nprint(greet('Rohan', 'Hi', '.'))"
+      },
+      {
+        "id": "cc-4",
+        "title": "Build a Calculator with *args",
+        "difficulty": "Medium",
+        "description": "Write a function calculate(operation, *args) where operation is a string ('add', 'multiply', 'max', 'min') and *args are the numbers to operate on. Return the result.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "add: 15\nmultiply: 120\nmax: 5\nmin: 1",
+        "constraints": "Use *args. Handle at least 4 operations.",
+        "solution": "def calculate(operation, *args):\n    if operation == 'add':\n        return sum(args)\n    elif operation == 'multiply':\n        result = 1\n        for n in args:\n            result *= n\n        return result\n    elif operation == 'max':\n        return max(args)\n    elif operation == 'min':\n        return min(args)\n\nprint(f\"add: {calculate('add', 1, 2, 3, 4, 5)}\")\nprint(f\"multiply: {calculate('multiply', 1, 2, 3, 4, 5)}\")\nprint(f\"max: {calculate('max', 1, 2, 3, 4, 5)}\")\nprint(f\"min: {calculate('min', 1, 2, 3, 4, 5)}\")"
+      },
+      {
+        "id": "cc-5",
+        "title": "Palindrome Checker (Recursive)",
+        "difficulty": "Medium",
+        "description": "Write a recursive function is_palindrome(s) that checks if a string is a palindrome. Ignore case and spaces. Test with 'racecar', 'A man a plan a canal Panama', and 'hello'.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "racecar: True\nA man a plan a canal Panama: True\nhello: False",
+        "constraints": "Must use recursion. Clean the string first (lowercase, remove spaces).",
+        "solution": "def is_palindrome(s):\n    s = s.lower().replace(' ', '')\n    if len(s) <= 1:\n        return True\n    if s[0] != s[-1]:\n        return False\n    return is_palindrome(s[1:-1])\n\nprint(f\"racecar: {is_palindrome('racecar')}\")\nprint(f\"A man a plan a canal Panama: {is_palindrome('A man a plan a canal Panama')}\")\nprint(f\"hello: {is_palindrome('hello')}\")"
+      },
+      {
+        "id": "cc-6",
+        "title": "Student Report Generator with **kwargs",
+        "difficulty": "Medium",
+        "description": "Write a function generate_report(name, **subjects) that takes a student name and subject marks as keyword arguments. Print the student name, each subject with marks, the total, and the average.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Report for Aarav:\n  Maths: 90\n  Science: 85\n  English: 88\nTotal: 263\nAverage: 87.67",
+        "constraints": "Use **kwargs to accept any number of subjects.",
+        "solution": "def generate_report(name, **subjects):\n    print(f\"Report for {name}:\")\n    for subject, marks in subjects.items():\n        print(f\"  {subject}: {marks}\")\n    total = sum(subjects.values())\n    average = total / len(subjects)\n    print(f\"Total: {total}\")\n    print(f\"Average: {average:.2f}\")\n\ngenerate_report('Aarav', Maths=90, Science=85, English=88)"
+      },
+      {
+        "id": "cc-7",
+        "title": "Recursive Power Function",
+        "difficulty": "Medium",
+        "description": "Write a recursive function power(base, exp) that calculates base raised to exp without using the ** operator. Handle exp = 0 (return 1). Test with power(2, 10) and power(3, 4).",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "2^10 = 1024\n3^4 = 81\n5^0 = 1",
+        "constraints": "Must use recursion. Do not use ** or pow().",
+        "solution": "def power(base, exp):\n    if exp == 0:\n        return 1\n    return base * power(base, exp - 1)\n\nprint(f\"2^10 = {power(2, 10)}\")\nprint(f\"3^4 = {power(3, 4)}\")\nprint(f\"5^0 = {power(5, 0)}\")"
+      },
+      {
+        "id": "cc-8",
+        "title": "Higher-Order Apply Function",
+        "difficulty": "Hard",
+        "description": "Write a function apply_to_list(func, numbers) that applies a given function to each element and returns a new list. Test with square, absolute value, and string conversion functions.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "Squared: [1, 4, 9, 16, 25]\nAbsolute: [3, 1, 4, 1, 5]\nAs strings: ['-3', '1', '-4', '1', '5']",
+        "constraints": "The function parameter should accept any callable. Do not use map().",
+        "solution": "def apply_to_list(func, numbers):\n    return [func(n) for n in numbers]\n\ndef square(x):\n    return x ** 2\n\nnums = [-3, 1, -4, 1, 5]\nprint(f\"Squared: {apply_to_list(square, nums)}\")\nprint(f\"Absolute: {apply_to_list(abs, nums)}\")\nprint(f\"As strings: {apply_to_list(str, nums)}\")"
+      },
+      {
+        "id": "cc-9",
+        "title": "Flatten Nested List (Recursive)",
+        "difficulty": "Hard",
+        "description": "Write a recursive function flatten(lst) that takes a nested list like [1, [2, 3], [4, [5, 6]], 7] and returns a flat list [1, 2, 3, 4, 5, 6, 7].",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "[1, 2, 3, 4, 5, 6, 7]",
+        "constraints": "Must use recursion. Use isinstance(item, list) to check for nested lists.",
+        "solution": "def flatten(lst):\n    result = []\n    for item in lst:\n        if isinstance(item, list):\n            result.extend(flatten(item))\n        else:\n            result.append(item)\n    return result\n\nnested = [1, [2, 3], [4, [5, 6]], 7]\nprint(flatten(nested))"
+      },
+      {
+        "id": "cc-10",
+        "title": "Function Composition Pipeline",
+        "difficulty": "Hard",
+        "description": "Write a function pipeline(*functions) that takes multiple functions and returns a new function that applies them in sequence (left to right). Test: pipeline(double, increment, square)(3) should compute square(increment(double(3))) = square(increment(6)) = square(7) = 49.",
+        "sampleInput": "(No input required)",
+        "sampleOutput": "pipeline result: 49\npipeline result: 81",
+        "constraints": "Use *args to accept functions. Return a new function.",
+        "solution": "def pipeline(*functions):\n    def apply(value):\n        result = value\n        for func in functions:\n            result = func(result)\n        return result\n    return apply\n\ndef double(x):\n    return x * 2\n\ndef increment(x):\n    return x + 1\n\ndef square(x):\n    return x ** 2\n\ntransform = pipeline(double, increment, square)\nprint(f\"pipeline result: {transform(3)}\")\nprint(f\"pipeline result: {transform(4)}\")"
+      }
+    ]
+  }
+}

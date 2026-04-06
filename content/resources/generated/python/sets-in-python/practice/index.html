@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16910316353"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16910316353');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions - Sets in Python | Python | Modern Age Coders</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="55+ practice questions on Sets in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="keywords" content="sets in python practice, python questions, python practice problems, sets in python exercises">
+    <meta name="author" content="Modern Age Coders">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+    <link rel="alternate" hreflang="en" href="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+    <link rel="alternate" hreflang="en-in" href="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+    <link rel="alternate" hreflang="x-default" href="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="/favicon/favicon-32x32.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+    <meta property="og:title" content="Practice Questions - Sets in Python | Python | Modern Age Coders">
+    <meta property="og:description" content="55+ practice questions on Sets in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta property="og:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+    <meta property="og:site_name" content="Modern Age Coders">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://learn.modernagecoders.com/resources/python/sets-in-python/practice">
+    <meta name="twitter:title" content="Practice Questions - Sets in Python | Python | Modern Age Coders">
+    <meta name="twitter:description" content="55+ practice questions on Sets in Python in Python. Easy, medium, and hard questions with hints, answers, and coding challenges.">
+    <meta name="twitter:image" content="https://learn.modernagecoders.com/images/og-default.jpg">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    [
+  {
+    "@context": "https://schema.org",
+    "@type": "Quiz",
+    "name": "Practice Questions - Sets in Python",
+    "description": "55+ practice questions on Sets in Python in Python.",
+    "educationalLevel": "Intermediate",
+    "about": {
+      "@type": "Thing",
+      "name": "Sets in Python"
+    },
+    "provider": {
+      "@type": "Organization",
+      "name": "Modern Age Coders",
+      "url": "https://learn.modernagecoders.com"
+    },
+    "isAccessibleForFree": true,
+    "url": "https://learn.modernagecoders.com/resources/python/sets-in-python/practice"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://learn.modernagecoders.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Resources",
+        "item": "https://learn.modernagecoders.com/resources"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Python",
+        "item": "https://learn.modernagecoders.com/resources/python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Sets in Python",
+        "item": "https://learn.modernagecoders.com/resources/python/sets-in-python"
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Practice",
+        "item": "https://learn.modernagecoders.com/resources/python/sets-in-python/practice"
+      }
+    ]
+  }
+]
+    </script>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+</head>
+
+<body class="resource-practice-page">
+
+    <div id="nav-placeholder"></div>
+
+    <main class="resource-main">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources">Resources</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python">Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <a href="/resources/python/sets-in-python">Sets in Python</a>
+            <span class="breadcrumb-sep">&gt;</span>
+            <span class="breadcrumb-current">Practice</span>
+        </nav>
+
+        <!-- Page Header -->
+        <header class="resource-header">
+            <div class="resource-meta-badges">
+                <span class="badge badge-chapter">Chapter 15</span>
+                <span class="badge badge-intermediate">Intermediate</span>
+                <span class="badge badge-questions">55 Questions</span>
+            </div>
+            <h1 class="resource-title">Practice Questions &mdash; Sets in Python</h1>
+            <a href="/resources/python/sets-in-python" class="notes-link">&larr; Back to Notes</a>
+        </header>
+
+        <!-- Practice Stats Bar -->
+        <div class="practice-stats-bar">
+            <div class="stat stat-easy">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Easy</span>
+            </div>
+            <div class="stat stat-medium">
+                <span class="stat-count">11</span>
+                <span class="stat-label">Medium</span>
+            </div>
+            <div class="stat stat-hard">
+                <span class="stat-count">9</span>
+                <span class="stat-label">Hard</span>
+            </div>
+        </div>
+
+        <!-- Topic-Specific Questions -->
+        <section class="practice-section" id="topic-specific">
+            <h2>Topic-Specific Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output of the following code?<br><pre><code>s = {1, 2, 3, 2, 1}
+print(s)
+print(len(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Sets automatically remove duplicate elements.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1"><code>{1, 2, 3}</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = set("banana")
+print(s)
+print(len(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Each unique character in the string becomes a set element.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2"><code>{'b', 'a', 'n'}</code><br><code>3</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>print(type({}))
+print(type(set()))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Empty curly braces create a dictionary, not a set.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><code>&lt;class 'dict'&gt;</code><br><code>&lt;class 'set'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {1, 2, 3}
+s.add(4)
+s.add(2)
+print(s)
+print(len(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">add() adds the element if it does not exist. Adding a duplicate has no effect.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4"><code>{1, 2, 3, 4}</code><br><code>4</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = {3, 4, 5}
+print(a & b)
+print(a | b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">& is intersection (common elements). | is union (all elements).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><code>{3}</code><br><code>{1, 2, 3, 4, 5}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {10, 20, 30}
+print(20 in s)
+print(40 in s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">The 'in' operator checks if an element exists in the set.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = {3, 4, 5}
+print(a - b)
+print(b - a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Set difference is not symmetric. a - b means elements in a but not in b.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><code>{1, 2}</code><br><code>{4, 5}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = {3, 4, 5}
+print(a ^ b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">^ is symmetric difference: elements in either set but not both.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8"><code>{1, 2, 4, 5}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2}
+b = {1, 2, 3, 4}
+print(a.issubset(b))
+print(b.issubset(a))
+print(a.issuperset(b))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">issubset() checks if all elements of a are in b.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><code>True</code><br><code>False</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {1, 2, 3}
+s.update([3, 4, 5])
+print(s)
+print(len(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">update() adds all elements from the iterable. Duplicates are ignored.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10"><code>{1, 2, 3, 4, 5}</code><br><code>5</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {1, 2, 3}
+s.discard(2)
+s.discard(10)
+print(s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">discard() removes the element if present, does nothing otherwise.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11"><code>{1, 3}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>result = {x**2 for x in range(1, 6)}
+print(result)
+print(type(result))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">This is a set comprehension, not a dictionary comprehension (no colon).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><code>{1, 4, 9, 16, 25}</code><br><code>&lt;class 'set'&gt;</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 13</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = {1, 2, 3}
+print(a == b)
+print(a is b)
+print(a < b)
+print(a <= b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">== checks value equality. < checks proper subset. <= checks subset.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><code>True</code><br><code>False</code><br><code>False</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 14</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {True, 1, 1.0}
+print(s)
+print(len(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">In Python, True == 1 == 1.0. Sets treat equal values as duplicates.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><code>{True}</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 15</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>fs = frozenset([1, 2, 3])
+print(fs)
+print(type(fs))
+print(fs | {4, 5})</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Frozensets support set operations but not mutations.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15"><code>frozenset({1, 2, 3})</code><br><code>&lt;class 'frozenset'&gt;</code><br><code>frozenset({1, 2, 3, 4, 5})</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 16</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>names = ["Aarav", "Priya", "Aarav", "Rohan", "Priya"]
+seen = set()
+ordered = []
+for name in names:
+    if name not in seen:
+        seen.add(name)
+        ordered.append(name)
+print(ordered)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">This pattern removes duplicates while preserving the original order.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16"><code>['Aarav', 'Priya', 'Rohan']</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 17</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = {2, 3, 4}
+a &= b
+print(a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-17" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-17">&= is the in-place intersection operator. It modifies a.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-17"><code>{2, 3}</code></div></div>
+        </section>
+
+        <!-- Mixed / Application Questions -->
+        <section class="practice-section" id="mixed-questions">
+            <h2>Mixed &amp; Application Questions</h2>
+            <div class="question-card">
+                <div class="question-number">Question 1</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>nums = [1, 2, 3, 2, 1]
+print(list(set(nums)))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-1">Converting a list to a set removes duplicates. Converting back gives a list.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-1"><code>[1, 2, 3]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 2</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {"apple", "banana", "cherry"}
+print("banana" in s)
+print("grape" in s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-2">The 'in' operator checks membership in a set.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-2"><code>True</code><br><code>False</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 3</div>
+                <span class="question-difficulty easy">Easy</span>
+                <div class="question-text">What is the output?<br><pre><code>s = set()
+s.add("Aarav")
+s.add("Priya")
+s.add("Aarav")
+print(len(s))
+print(s)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-3">Adding a duplicate to a set has no effect.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-3"><code>2</code><br><code>{'Aarav', 'Priya'}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 4</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3, 4, 5}
+b = {4, 5, 6, 7, 8}
+only_a = a - b
+only_b = b - a
+both = a & b
+print(f"Only A: {sorted(only_a)}")
+print(f"Only B: {sorted(only_b)}")
+print(f"Both: {sorted(both)}")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-4">Difference gives exclusive elements, intersection gives shared elements.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-4"><code>Only A: [1, 2, 3]</code><br><code>Only B: [6, 7, 8]</code><br><code>Both: [4, 5]</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 5</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>s = {3, 1, 4, 1, 5, 9}
+print(sorted(s))
+print(min(s), max(s), sum(s))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-5">sorted(), min(), max(), and sum() all work on sets.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-5"><code>[1, 3, 4, 5, 9]</code><br><code>1 9 22</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 6</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>d = {"a": 1, "b": 2, "c": 3}
+keys_set = set(d)
+print(keys_set)
+print("a" in keys_set)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-6">Iterating over a dictionary yields its keys.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-6"><code>{'a', 'b', 'c'}</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 7</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the output?<br><pre><code>a = {1, 2, 3}
+b = a
+b.add(4)
+print(a)
+print(a is b)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-7">Assignment creates an alias, not a copy. Same as with lists and dicts.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-7"><code>{1, 2, 3, 4}</code><br><code>True</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 8</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>words = ["hello", "world", "hello", "python", "world"]
+unique_lengths = {len(w) for w in words}
+print(unique_lengths)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-8">This is a set comprehension that computes the length of each word.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-8"><code>{5, 6}</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 9</div>
+                <span class="question-difficulty medium">Medium</span>
+                <div class="question-text">What is the difference between <code>remove()</code> and <code>discard()</code> in sets?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-9">Think about what happens when the element does not exist.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-9"><code>remove(element)</code> raises a <strong>KeyError</strong> if the element is not found. <code>discard(element)</code> does <strong>nothing</strong> if the element is not found (no error). Both remove the element if it exists.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 10</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">When should you use a set instead of a list?</div><button type="button" class="collapsible-toggle" data-target="hint-mx-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-10">Think about duplicates, membership testing, and mathematical operations.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-10">Use a set when: (1) you need unique elements with automatic deduplication, (2) you need fast O(1) membership testing, (3) you need mathematical operations like union, intersection, and difference, or (4) order does not matter. Use a list when you need ordering, indexing, or duplicate values.</div></div>
+<div class="question-card">
+                <div class="question-number">Question 11</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>s1 = frozenset([1, 2, 3])
+s2 = frozenset([1, 2, 3])
+d = {s1: "first", s2: "second"}
+print(d)
+print(len(d))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-11">frozensets with the same elements are equal and have the same hash.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-11"><code>{frozenset({1, 2, 3}): 'second'}</code><br><code>1</code></div></div>
+<div class="question-card">
+                <div class="question-number">Question 12</div>
+                <span class="question-difficulty hard">Hard</span>
+                <div class="question-text">What is the output?<br><pre><code>text = "Aarav likes Maths and Priya likes Science"
+words = text.lower().split()
+unique_words = set(words)
+print(len(words))
+print(len(unique_words))
+print(sorted(unique_words))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-mx-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-mx-12">Convert to lowercase first so 'Aarav' and 'aarav' are the same.</div><button type="button" class="collapsible-toggle" data-target="answer-mx-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-mx-12"><code>7</code><br><code>6</code><br><code>['aarav', 'and', 'likes', 'maths', 'priya', 'science']</code></div></div>
+        </section>
+
+        <!-- MCQs -->
+        <section class="practice-section" id="mcqs">
+            <h2>Multiple Choice Questions</h2>
+            <div class="question-card">
+                <div class="question-number">MCQ 1</div>
+                <div class="question-text">Which of the following creates an empty set?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> s = {}</li><li><span class="mcq-option-label">B.</span> s = set()</li><li><span class="mcq-option-label">C.</span> s = set([])</li><li><span class="mcq-option-label">D.</span> Both B and C</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-1"><strong>Answer: D</strong><br><strong>D is correct.</strong> Both <code>set()</code> and <code>set([])</code> create an empty set. Option A (<code>{}</code>) creates an empty dictionary, not a set.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 2</div>
+                <div class="question-text">What is the result of set([1, 2, 2, 3, 3, 3])?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [1, 2, 3]</li><li><span class="mcq-option-label">B.</span> {1, 2, 2, 3, 3, 3}</li><li><span class="mcq-option-label">C.</span> {1, 2, 3}</li><li><span class="mcq-option-label">D.</span> (1, 2, 3)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-2"><strong>Answer: C</strong><br><strong>C is correct.</strong> Converting a list to a set removes all duplicates. The result is the set {1, 2, 3}. Option A is a list, not a set. Option B is incorrect because sets cannot contain duplicates.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 3</div>
+                <div class="question-text">Which method removes an element from a set WITHOUT raising an error if the element is missing?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> remove()</li><li><span class="mcq-option-label">B.</span> delete()</li><li><span class="mcq-option-label">C.</span> discard()</li><li><span class="mcq-option-label">D.</span> pop()</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-3"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>discard()</code> silently does nothing if the element is not in the set. <code>remove()</code> (A) raises KeyError. <code>delete()</code> (B) does not exist for sets. <code>pop()</code> (D) removes an arbitrary element.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 4</div>
+                <div class="question-text">What does a | b do for two sets a and b?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns elements common to both sets</li><li><span class="mcq-option-label">B.</span> Returns elements in a but not in b</li><li><span class="mcq-option-label">C.</span> Returns all unique elements from both sets</li><li><span class="mcq-option-label">D.</span> Returns elements in either but not both</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-4"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>|</code> is the union operator. It combines all unique elements from both sets. Option A describes intersection (<code>&</code>). Option B describes difference (<code>-</code>). Option D describes symmetric difference (<code>^</code>).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 5</div>
+                <div class="question-text">Can a set contain a list as an element?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Yes, sets can contain any type</li><li><span class="mcq-option-label">B.</span> No, lists are mutable and therefore unhashable</li><li><span class="mcq-option-label">C.</span> Yes, but only if the list is empty</li><li><span class="mcq-option-label">D.</span> Yes, but the list is converted to a tuple</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-5"><strong>Answer: B</strong><br><strong>B is correct.</strong> Set elements must be hashable (immutable). Lists are mutable, so they cannot be hashed and cannot be added to a set. Use a tuple instead.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 6</div>
+                <div class="question-text">What is the time complexity of checking 'x in my_set'?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> O(n)</li><li><span class="mcq-option-label">B.</span> O(log n)</li><li><span class="mcq-option-label">C.</span> O(1) average</li><li><span class="mcq-option-label">D.</span> O(n log n)</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-6"><strong>Answer: C</strong><br><strong>C is correct.</strong> Sets use hash tables, providing O(1) average-case membership testing. This is much faster than O(n) for lists. This is the primary performance advantage of sets.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 7</div>
+                <div class="question-text">What does a ^ b return for sets?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Elements in both a and b</li><li><span class="mcq-option-label">B.</span> Elements in a but not in b</li><li><span class="mcq-option-label">C.</span> Elements in either a or b but not both</li><li><span class="mcq-option-label">D.</span> A sorted union of a and b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-7"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>^</code> is the symmetric difference operator. It returns elements that are in either set but not in both (the exclusive elements). Option A describes intersection. Option B describes difference.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 8</div>
+                <div class="question-text">What is a frozenset?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A set that cannot be iterated</li><li><span class="mcq-option-label">B.</span> An immutable set that can be used as a dictionary key</li><li><span class="mcq-option-label">C.</span> A set stored in memory permanently</li><li><span class="mcq-option-label">D.</span> A sorted set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-8"><strong>Answer: B</strong><br><strong>B is correct.</strong> A frozenset is an immutable version of a set. Because it is immutable (and therefore hashable), it can be used as a dictionary key or as an element of another set. It supports all set operations except mutations.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 9</div>
+                <div class="question-text">What is the output of {x for x in range(5)}?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> [0, 1, 2, 3, 4]</li><li><span class="mcq-option-label">B.</span> {0, 1, 2, 3, 4}</li><li><span class="mcq-option-label">C.</span> (0, 1, 2, 3, 4)</li><li><span class="mcq-option-label">D.</span> {0: 0, 1: 1, 2: 2, 3: 3, 4: 4}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-9"><strong>Answer: B</strong><br><strong>B is correct.</strong> This is a set comprehension (curly braces with no colon). It creates a set: {0, 1, 2, 3, 4}. Option A would be a list comprehension. Option D would be a dictionary comprehension (requires a colon).</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 10</div>
+                <div class="question-text">What does a.issubset(b) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> True if a and b have no common elements</li><li><span class="mcq-option-label">B.</span> True if all elements of a are in b</li><li><span class="mcq-option-label">C.</span> True if a and b are equal</li><li><span class="mcq-option-label">D.</span> True if a has fewer elements than b</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-10"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>issubset()</code> returns True if every element of a exists in b. Option A describes <code>isdisjoint()</code>. Option C is too restrictive (equal sets are subsets, but non-equal sets can also be subsets). Option D confuses size with containment.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 11</div>
+                <div class="question-text">How do you add multiple elements to a set at once?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> s.add([1, 2, 3])</li><li><span class="mcq-option-label">B.</span> s.extend([1, 2, 3])</li><li><span class="mcq-option-label">C.</span> s.update([1, 2, 3])</li><li><span class="mcq-option-label">D.</span> s.append([1, 2, 3])</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-11"><strong>Answer: C</strong><br><strong>C is correct.</strong> <code>update()</code> adds all elements from an iterable. <code>add()</code> (A) adds a single element (and would raise TypeError for a list). <code>extend()</code> (B) and <code>append()</code> (D) are list methods, not set methods.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 12</div>
+                <div class="question-text">What is the output of {True, 1, 1.0}?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> {True, 1, 1.0}</li><li><span class="mcq-option-label">B.</span> {True}</li><li><span class="mcq-option-label">C.</span> {1}</li><li><span class="mcq-option-label">D.</span> {1.0}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-12"><strong>Answer: B</strong><br><strong>B is correct.</strong> In Python, <code>True == 1 == 1.0</code> (they are considered equal for hashing). The set keeps only the first one encountered: True. This is a subtle behavior that catches many people off guard.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 13</div>
+                <div class="question-text">Which of the following can be an element of a set?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> A list</li><li><span class="mcq-option-label">B.</span> A dictionary</li><li><span class="mcq-option-label">C.</span> A tuple of integers</li><li><span class="mcq-option-label">D.</span> A set</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-13"><strong>Answer: C</strong><br><strong>C is correct.</strong> Tuples of immutable elements are hashable and can be set elements. Lists (A), dictionaries (B), and sets (D) are all mutable and unhashable, so they cannot be set elements. Use frozenset instead of a set as an element.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 14</div>
+                <div class="question-text">What is the difference between a - b and a ^ b for sets?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> They are the same operation</li><li><span class="mcq-option-label">B.</span> a - b removes elements of b from a; a ^ b removes elements common to both</li><li><span class="mcq-option-label">C.</span> a - b is faster than a ^ b</li><li><span class="mcq-option-label">D.</span> a ^ b only works with frozensets</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-14"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>a - b</code> (difference) returns elements in a that are not in b. <code>a ^ b</code> (symmetric difference) returns elements that are in either set but not both. For example, if a = {1,2,3} and b = {3,4,5}: a - b = {1,2}, a ^ b = {1,2,4,5}.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 15</div>
+                <div class="question-text">What does s.pop() do on a set?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Removes the last element</li><li><span class="mcq-option-label">B.</span> Removes the first element</li><li><span class="mcq-option-label">C.</span> Removes and returns an arbitrary element</li><li><span class="mcq-option-label">D.</span> Removes the smallest element</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-15"><strong>Answer: C</strong><br><strong>C is correct.</strong> Since sets are unordered, there is no concept of first or last. <code>pop()</code> removes and returns an arbitrary element. If the set is empty, it raises KeyError.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 16</div>
+                <div class="question-text">What is the result of set('aabbc') & set('bbccd')?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> {&#39;a&#39;, &#39;b&#39;, &#39;c&#39;, &#39;d&#39;}</li><li><span class="mcq-option-label">B.</span> {&#39;b&#39;, &#39;c&#39;}</li><li><span class="mcq-option-label">C.</span> {&#39;b&#39;, &#39;b&#39;, &#39;c&#39;}</li><li><span class="mcq-option-label">D.</span> {&#39;a&#39;, &#39;d&#39;}</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-16"><strong>Answer: B</strong><br><strong>B is correct.</strong> <code>set('aabbc')</code> = {'a', 'b', 'c'}. <code>set('bbccd')</code> = {'b', 'c', 'd'}. Intersection (<code>&</code>) returns common elements: {'b', 'c'}. Sets do not have duplicates, so option C is impossible.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 17</div>
+                <div class="question-text">What does len({1, 2, 2, 3, 3, 3}) return?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> 6</li><li><span class="mcq-option-label">B.</span> 3</li><li><span class="mcq-option-label">C.</span> 1</li><li><span class="mcq-option-label">D.</span> Error</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-17" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-17"><strong>Answer: B</strong><br><strong>B is correct.</strong> The set removes duplicates, leaving {1, 2, 3} with 3 unique elements. <code>len()</code> returns 3.</div></div>
+<div class="question-card">
+                <div class="question-number">MCQ 18</div>
+                <div class="question-text">What happens when you try to index a set with s[0]?</div>
+                <ul class="mcq-options"><li><span class="mcq-option-label">A.</span> Returns the first element</li><li><span class="mcq-option-label">B.</span> Returns the smallest element</li><li><span class="mcq-option-label">C.</span> Raises TypeError</li><li><span class="mcq-option-label">D.</span> Raises IndexError</li></ul><button type="button" class="collapsible-toggle" data-target="mcqans-mcq-18" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="mcqans-mcq-18"><strong>Answer: C</strong><br><strong>C is correct.</strong> Sets are unordered and do not support indexing. <code>s[0]</code> raises <code>TypeError: 'set' object is not subscriptable</code>. Use <code>list(s)[0]</code> or iterate if you need to access elements.</div></div>
+        </section>
+
+        <!-- Coding Challenges -->
+        <section class="practice-section" id="coding-challenges">
+            <h2>Coding Challenges</h2>
+            <div class="challenge-card">
+                <h3>Challenge 1: Remove Duplicates from a List</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Aarav has a list of roll numbers: [101, 102, 103, 101, 104, 102, 105]. Write a program that removes duplicates and prints the unique roll numbers in sorted order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[101, 102, 103, 104, 105]</div>
+                </div><div class="challenge-constraints">Use set() for deduplication and sorted() for ordering.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-1" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-1"><pre><code class="language-python">roll_numbers = [101, 102, 103, 101, 104, 102, 105]
+unique = sorted(set(roll_numbers))
+print(unique)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 2: Find Common Elements</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Priya has two lists: list1 = [1, 2, 3, 4, 5] and list2 = [4, 5, 6, 7, 8]. Write a program that finds and prints the common elements using sets.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">{4, 5}</div>
+                </div><div class="challenge-constraints">Use set intersection.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-2" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-2"><pre><code class="language-python">list1 = [1, 2, 3, 4, 5]
+list2 = [4, 5, 6, 7, 8]
+common = set(list1) &amp; set(list2)
+print(common)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 3: Find Unique Characters</h3>
+                <span class="challenge-difficulty easy">Easy</span>
+                <div class="challenge-description">Write a program that takes the string "programming" and prints the number of unique characters and what they are, in sorted order.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Unique characters: 8
+[&#39;a&#39;, &#39;g&#39;, &#39;i&#39;, &#39;m&#39;, &#39;n&#39;, &#39;o&#39;, &#39;p&#39;, &#39;r&#39;]</div>
+                </div><div class="challenge-constraints">Use set() and sorted().</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-3" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-3"><pre><code class="language-python">text = &quot;programming&quot;
+unique = set(text)
+print(f&quot;Unique characters: {len(unique)}&quot;)
+print(sorted(unique))</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 4: Students in Only One Club</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Rohan manages two clubs. maths_club = {'Aarav', 'Priya', 'Meera', 'Vikram'} and science_club = {'Priya', 'Kavya', 'Meera', 'Neha'}. Find students who are in exactly one club (not both).</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Students in only one club: {&#39;Aarav&#39;, &#39;Kavya&#39;, &#39;Neha&#39;, &#39;Vikram&#39;}</div>
+                </div><div class="challenge-constraints">Use symmetric difference.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-4" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-4"><pre><code class="language-python">maths_club = {&#39;Aarav&#39;, &#39;Priya&#39;, &#39;Meera&#39;, &#39;Vikram&#39;}
+science_club = {&#39;Priya&#39;, &#39;Kavya&#39;, &#39;Meera&#39;, &#39;Neha&#39;}
+only_one = maths_club ^ science_club
+print(f&quot;Students in only one club: {only_one}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 5: Validate Required Fields</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">A form requires the fields {'name', 'email', 'phone', 'age'}. A user submitted {'name', 'email', 'city'}. Write a program that finds (a) missing required fields and (b) extra fields that were not required.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Missing fields: {&#39;age&#39;, &#39;phone&#39;}
+Extra fields: {&#39;city&#39;}</div>
+                </div><div class="challenge-constraints">Use set difference in both directions.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-5" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-5"><pre><code class="language-python">required = {&#39;name&#39;, &#39;email&#39;, &#39;phone&#39;, &#39;age&#39;}
+submitted = {&#39;name&#39;, &#39;email&#39;, &#39;city&#39;}
+missing = required - submitted
+extra = submitted - required
+print(f&quot;Missing fields: {missing}&quot;)
+print(f&quot;Extra fields: {extra}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 6: Unique Words Across Sentences</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given two sentences: s1 = 'Aarav likes maths and science' and s2 = 'Priya likes science and coding'. Find the total unique words, words common to both, and words exclusive to each.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">All unique words: {&#39;Aarav&#39;, &#39;Priya&#39;, &#39;and&#39;, &#39;coding&#39;, &#39;likes&#39;, &#39;maths&#39;, &#39;science&#39;}
+Common words: {&#39;and&#39;, &#39;likes&#39;, &#39;science&#39;}
+Only in s1: {&#39;Aarav&#39;, &#39;maths&#39;}
+Only in s2: {&#39;Priya&#39;, &#39;coding&#39;}</div>
+                </div><div class="challenge-constraints">Use set operations: union, intersection, and difference.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-6" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-6"><pre><code class="language-python">s1 = &#39;Aarav likes maths and science&#39;
+s2 = &#39;Priya likes science and coding&#39;
+words1 = set(s1.split())
+words2 = set(s2.split())
+print(f&quot;All unique words: {words1 | words2}&quot;)
+print(f&quot;Common words: {words1 &amp; words2}&quot;)
+print(f&quot;Only in s1: {words1 - words2}&quot;)
+print(f&quot;Only in s2: {words2 - words1}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 7: Order-Preserving Deduplication</h3>
+                <span class="challenge-difficulty medium">Medium</span>
+                <div class="challenge-description">Given the list [5, 3, 1, 3, 2, 5, 4, 1, 2], remove duplicates while preserving the original order of first appearance. Print the result.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">[5, 3, 1, 2, 4]</div>
+                </div><div class="challenge-constraints">Use a set to track seen elements and a list to maintain order.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-7" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-7"><pre><code class="language-python">nums = [5, 3, 1, 3, 2, 5, 4, 1, 2]
+seen = set()
+ordered = []
+for n in nums:
+    if n not in seen:
+        seen.add(n)
+        ordered.append(n)
+print(ordered)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 8: Pangram Checker</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Write a program that checks if a given string is a pangram (contains every letter of the alphabet at least once). Test with 'The quick brown fox jumps over the lazy dog'.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Is pangram: True
+Missing letters: set()</div>
+                </div><div class="challenge-constraints">Use set operations. Compare the set of letters against the full alphabet set.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-8" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-8"><pre><code class="language-python">import string
+text = &#39;The quick brown fox jumps over the lazy dog&#39;
+alphabet = set(string.ascii_lowercase)
+text_letters = set(text.lower()) &amp; alphabet
+is_pangram = text_letters == alphabet
+missing = alphabet - text_letters
+print(f&quot;Is pangram: {is_pangram}&quot;)
+print(f&quot;Missing letters: {missing}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 9: Find Pairs with Given Sum</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given a list [2, 7, 11, 15, 1, 8, 3] and a target sum of 10, find all pairs of numbers that add up to the target. Each number can be used only once per pair.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Pairs that sum to 10: [(2, 8), (7, 3)]</div>
+                </div><div class="challenge-constraints">Use a set for O(n) lookup. Track seen numbers.</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-9" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-9"><pre><code class="language-python">numbers = [2, 7, 11, 15, 1, 8, 3]
+target = 10
+seen = set()
+pairs = []
+for num in numbers:
+    complement = target - num
+    if complement in seen:
+        pairs.append((complement, num))
+    seen.add(num)
+print(f&quot;Pairs that sum to {target}: {pairs}&quot;)</code></pre></div></div>
+<div class="challenge-card">
+                <h3>Challenge 10: Longest Consecutive Sequence</h3>
+                <span class="challenge-difficulty hard">Hard</span>
+                <div class="challenge-description">Given the list [100, 4, 200, 1, 3, 2, 5], find the length of the longest consecutive sequence. The sequence does not need to be in order in the original list.</div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Input</div>
+                    <div class="challenge-io-value">(No input required)</div>
+                </div><div class="challenge-io">
+                    <div class="challenge-io-label">Sample Output</div>
+                    <div class="challenge-io-value">Longest consecutive sequence length: 5
+Sequence: [1, 2, 3, 4, 5]</div>
+                </div><div class="challenge-constraints">Convert to a set for O(1) lookups. Only start counting from sequence beginnings (numbers with no predecessor in the set).</div><button type="button" class="collapsible-toggle" data-target="sol-challenge-10" data-label-closed="Show Solution" data-label-open="Hide Solution" aria-expanded="false">Show Solution</button><div class="collapsible-content" id="sol-challenge-10"><pre><code class="language-python">nums = [100, 4, 200, 1, 3, 2, 5]
+num_set = set(nums)
+longest = 0
+best_start = 0
+for num in num_set:
+    if num - 1 not in num_set:  # Start of a sequence
+        current = num
+        length = 1
+        while current + 1 in num_set:
+            current += 1
+            length += 1
+        if length &gt; longest:
+            longest = length
+            best_start = num
+sequence = list(range(best_start, best_start + longest))
+print(f&quot;Longest consecutive sequence length: {longest}&quot;)
+print(f&quot;Sequence: {sequence}&quot;)</code></pre></div></div>
+        </section>
+
+        <!-- Chapter Practice Navigation -->
+        <nav class="chapter-nav" aria-label="Chapter practice navigation">
+            <a href="/resources/python/dictionaries-in-python/practice" class="chapter-nav-card prev">
+            <span class="chapter-nav-label">Previous Chapter</span>
+            <span class="chapter-nav-title">Dictionaries in Python</span>
+        </a>
+            <a href="/resources/python/functions-in-python/practice" class="chapter-nav-card next">
+            <span class="chapter-nav-label">Next Chapter</span>
+            <span class="chapter-nav-title">Functions in Python</span>
+        </a>
+        </nav>
+
+        <!-- Notes Link CTA -->
+        <section class="cta-section">
+            <h2>Need to Review the Concepts?</h2>
+            <p>Go back to the detailed notes for this chapter.</p>
+            <a href="/resources/python/sets-in-python" class="cta-button-primary">Read Chapter Notes</a>
+        </section>
+
+        <!-- Course CTA -->
+        <section class="cta-section cta-course">
+            <p>Want to learn Python with a live mentor?</p>
+            <a href="/courses/python-for-kids/" class="cta-button-outline">Explore our Python course</a>
+        </section>
+
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="/js/components-loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+    <script src="/js/resource-interactive.js"></script>
+
+</body>
+
+</html>
