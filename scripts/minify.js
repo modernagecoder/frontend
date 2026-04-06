@@ -31,7 +31,7 @@ const JS_FILES = [
 
 async function minifyCSS() {
     const cleanCSS = new CleanCSS({
-        level: 2,
+        level: 1,
         compatibility: '*',
     });
 
