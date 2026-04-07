@@ -39,7 +39,14 @@
   ],
   "courseCta": {
     "text": "Want to learn Python with a live mentor?",
-    "linkText": "Explore our Python course",
-    "url": "/courses/python-for-kids/"
-  }
+    "linkText": "Explore our Python Masterclass",
+    "url": "/courses/python-programming-masterclass-zero-to-advanced-college"
+  },
+  "relatedCourses": [
+    { "text": "Python Masterclass (College)", "url": "/courses/python-programming-masterclass-zero-to-advanced-college" },
+    { "text": "Python for Teens", "url": "/courses/python-complete-masterclass-teens" },
+    { "text": "Python & AI for Kids", "url": "/courses/python-ai-kids-masterclass" },
+    { "text": "Python & AI Automation", "url": "/courses/python-ai-automation-masterclass-college" },
+    { "text": "AI & ML Masterclass", "url": "/courses/ai-ml-masterclass-complete-college" }
+  ]
 }
