@@ -50,32 +50,16 @@
     {{STRUCTURED_DATA}}
     </script>
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/responsive.css">
-    <link rel="stylesheet" href="/css/resource-template.css">
+    <link rel="stylesheet" href="/css/resource-standalone.css">
     <link rel="stylesheet" href="/css/mobile-nav-final-fix.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
-
-    <!-- Critical layout overrides (defeats global style.css main flex rules) -->
-    <style>
-      .resource-main{display:block!important;max-width:820px!important;margin:0 auto!important;padding:120px 28px 60px!important;gap:0!important;align-items:stretch!important;width:100%!important}
-      .resource-main>*{max-width:100%!important;width:100%!important;align-self:stretch!important}
-      .resource-main .practice-stats-bar{display:flex!important;width:100%!important;justify-content:center!important;box-sizing:border-box!important}
-      .resource-main .practice-section{width:100%!important}
-      .resource-main .practice-section h2{font-size:1.4rem!important}
-      .resource-main .question-card{width:100%!important;box-sizing:border-box!important}
-      .resource-main .chapter-nav{display:grid!important;grid-template-columns:1fr 1fr!important;width:100%!important}
-      .resource-main .cta-section{width:100%!important;box-sizing:border-box!important}
-      .resource-main .challenge-card{width:100%!important;box-sizing:border-box!important}
-      @media(max-width:768px){.resource-main{padding:100px 16px 40px!important}.resource-main .chapter-nav{grid-template-columns:1fr!important}.resource-main .practice-stats-bar{flex-direction:column!important}}
-    </style>
 </head>
 
 <body class="resource-practice-page">
 
     <div id="nav-placeholder"></div>
 
-    <main class="resource-main" style="display:block!important;max-width:820px!important;margin:0 auto!important;padding:120px 28px 60px!important;gap:0!important;align-items:stretch!important;width:100%!important">
+    <main class="resource-main">
 
         <!-- Breadcrumb -->
         <nav class="breadcrumb" aria-label="Breadcrumb">

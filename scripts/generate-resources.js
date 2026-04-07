@@ -140,10 +140,10 @@ class ResourceGenerator {
      * Copy CSS and JS assets to src/ so they are served via Netlify /css/ and /js/ routes
      */
     copyAssets() {
-        const cssSource = path.join(this.templateDir, 'resource-template.css');
-        const cssDest = path.join(this.projectRoot, 'src', 'css', 'resource-template.css');
+        const cssSource = path.join(this.templateDir, 'resource-standalone.css');
+        const cssDest = path.join(this.projectRoot, 'src', 'css', 'resource-standalone.css');
         fs.copyFileSync(cssSource, cssDest);
-        console.log('📋 Copied resource-template.css → src/css/');
+        console.log('📋 Copied resource-standalone.css → src/css/');
 
         const jsSource = path.join(this.templateDir, 'resource-interactive.js');
         const jsDest = path.join(this.projectRoot, 'src', 'js', 'resource-interactive.js');
