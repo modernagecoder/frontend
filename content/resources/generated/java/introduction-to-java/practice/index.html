@@ -161,47 +161,95 @@
             <div class="question-card">
                 <div class="question-number">Question 1</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">Who developed Java and in which year was it first released?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">Think Sun Microsystems, 1990s.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Java was developed by <strong>James Gosling</strong> and his team at <strong>Sun Microsystems</strong>. It was first publicly released in <strong>1995</strong>. Oracle Corporation acquired Sun Microsystems in 2010 and now maintains Java.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>public class Test {
+    public static void main(String[] args) {
+        System.out.println("Hello" + " " + "Java");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">+ concatenates strings in Java.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Hello Java</div></div>
 <div class="question-card">
                 <div class="question-number">Question 2</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What does WORA stand for in the context of Java? Explain what it means.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">It describes Java's platform independence.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">WORA stands for <strong>Write Once, Run Anywhere</strong>. It means that Java code, once compiled into bytecode, can run on any platform (Windows, Linux, macOS) that has a JVM installed, without needing to recompile.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>System.out.println(10 + 20);
+System.out.println("10" + "20");
+System.out.println(10 + "20");</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">When one operand is a String, + does concatenation.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">30
+1020
+1020</div></div>
 <div class="question-card">
                 <div class="question-number">Question 3</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What is the difference between a compiler and an interpreter? Which does Java use?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Java uses both.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">A <strong>compiler</strong> translates the entire source code into another form (like bytecode or machine code) before execution. An <strong>interpreter</strong> executes code line by line at runtime. Java uses <strong>both</strong>: the <code>javac</code> compiler converts source code to bytecode, and the JVM interprets (and JIT-compiles) the bytecode during execution.</div></div>
+                <div class="question-text">Will this compile?<br><pre><code>public class test {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">Class name must match filename.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">It compiles but the filename must be test.java (lowercase t).</div></div>
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">Name any four real-world domains where Java is extensively used.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Think about mobile apps, banks, big data, and web servers.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">Java is extensively used in: (1) <strong>Android app development</strong>, (2) <strong>Enterprise backend systems</strong> (banking, insurance, e-commerce), (3) <strong>Big data technologies</strong> (Hadoop, Kafka, Spark), and (4) <strong>Cloud-native microservices</strong> (using Spring Boot).</div></div>
+                <div class="question-text">What is the output?<br><pre><code>int a = 7;
+int b = 2;
+System.out.println(a / b);
+System.out.println(a % b);
+System.out.println((double) a / b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Integer division truncates. Cast to double for decimal.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">3
+1
+3.5</div></div>
 <div class="question-card">
                 <div class="question-number">Question 5</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What is bytecode in Java? How is it different from machine code?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Think about what the Java compiler produces and what runs on the JVM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5"><strong>Bytecode</strong> is the intermediate, platform-independent code that the Java compiler (<code>javac</code>) generates from source code. It is stored in <code>.class</code> files. <strong>Machine code</strong> is platform-specific binary code that runs directly on the CPU. Bytecode runs on the JVM (which translates it to machine code), while machine code runs directly on hardware.</div></div>
+                <div class="question-text">Find the bug:<br><pre><code>public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello World")
+    }
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">Every statement in Java must end with something.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">Missing semicolon after println. Fix: System.out.println("Hello World");</div></div>
 <div class="question-card">
                 <div class="question-number">Question 6</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Explain the difference between JDK, JRE, and JVM. Which one do you need to develop Java programs?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">They form a nested hierarchy: JDK contains JRE, which contains JVM.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6"><strong>JVM</strong> (Java Virtual Machine) executes bytecode. <strong>JRE</strong> (Java Runtime Environment) = JVM + standard class libraries; it is needed to run Java programs. <strong>JDK</strong> (Java Development Kit) = JRE + development tools (compiler, debugger); it is needed to develop Java programs. You need the <strong>JDK</strong> to develop Java programs.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>String name = "Java";
+System.out.println(name.length());
+System.out.println(name.charAt(0));
+System.out.println(name.toUpperCase());</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">String methods: length(), charAt(), toUpperCase().</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">4
+J
+JAVA</div></div>
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What are the three editions of Java? When would you use each one?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">SE, EE, ME -- each targets a different scale of application.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7"><strong>Java SE</strong> (Standard Edition) is for general-purpose desktop and console applications. <strong>Java EE</strong> (Enterprise Edition, now Jakarta EE) is for large-scale, distributed enterprise applications like web services and APIs. <strong>Java ME</strong> (Micro Edition) is for resource-constrained devices like IoT sensors and embedded systems.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {
+    System.out.print(i + " ");
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">print() stays on the same line, println() adds a newline.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">1 2 3 4 5 </div></div>
 <div class="question-card">
                 <div class="question-number">Question 8</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Compare Java and Python on at least five parameters: typing, speed, memory management, platform independence, and primary use cases.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think about static vs dynamic typing, compilation vs interpretation, and where each language is commonly used.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">(1) <strong>Typing:</strong> Java is statically typed; Python is dynamically typed. (2) <strong>Speed:</strong> Java is faster (JIT compiled); Python is slower (interpreted). (3) <strong>Memory:</strong> Both use garbage collection. (4) <strong>Platform independence:</strong> Java via JVM, Python via interpreter. (5) <strong>Primary use:</strong> Java for enterprise/Android; Python for data science/ML/scripting.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>int[] arr = {10, 20, 30, 40, 50};
+System.out.println(arr.length);
+System.out.println(arr[0]);
+System.out.println(arr[arr.length - 1]);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Arrays use .length (no parentheses) and 0-based indexing.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">5
+10
+50</div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is JIT compilation? Why does it make Java faster?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">JIT stands for Just-In-Time. It converts frequently used bytecode to native code.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9"><strong>JIT (Just-In-Time) compilation</strong> is a feature of the JVM where frequently executed bytecode is compiled into native machine code at runtime, instead of being interpreted line by line. This makes Java faster because native machine code executes directly on the CPU without the overhead of interpretation.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>int x = 5;
+System.out.println(x++);
+System.out.println(x);
+System.out.println(++x);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">x++ returns then increments. ++x increments then returns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">5
+6
+7</div></div>
 <div class="question-card">
                 <div class="question-number">Question 10</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Why is Java called a 'purely object-oriented' language? Is this statement completely accurate?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about classes, objects, and primitive types.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Java is called purely object-oriented because every piece of code must live inside a <strong>class</strong>, and most operations are performed through <strong>objects</strong>. However, this is not completely accurate because Java has <strong>8 primitive types</strong> (int, double, boolean, etc.) that are not objects. Truly pure OOP languages like Smalltalk have no primitives.</div></div>
+                <div class="question-text">Will this compile? Why?<br><pre><code>int x = 10;
+boolean b = (x > 5) ? true : false;
+System.out.println(b);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">This uses the ternary operator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">Yes, prints: true</div></div>
 <div class="question-card">
                 <div class="question-number">Question 11</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Explain the complete lifecycle of a Java program from writing source code to execution. Include all steps and tools involved.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">Source code -> javac -> bytecode -> class loader -> verifier -> interpreter/JIT -> execution.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">(1) Developer writes source code in a <code>.java</code> file. (2) The <code>javac</code> compiler compiles it into bytecode (<code>.class</code> file). (3) The JVM's <strong>Class Loader</strong> loads the bytecode into memory. (4) The <strong>Bytecode Verifier</strong> checks for security violations and structural correctness. (5) The <strong>Execution Engine</strong> (interpreter + JIT compiler) converts bytecode to native machine code and executes it. (6) The <strong>Garbage Collector</strong> reclaims unused memory during execution.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>String a = "Hello";
+String b = "Hello";
+String c = new String("Hello");
+System.out.println(a == b);
+System.out.println(a == c);
+System.out.println(a.equals(c));</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-11" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-11">== checks reference, .equals() checks content.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-11" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-11">true
+false
+true</div></div>
 <div class="question-card">
                 <div class="question-number">Question 12</div>
                 <span class="question-difficulty hard">Hard</span>
@@ -209,19 +257,36 @@
 <div class="question-card">
                 <div class="question-number">Question 13</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">What is garbage collection in Java? Why is it considered an advantage over C++?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Automatic memory management vs manual memory management.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>Garbage collection (GC)</strong> is the JVM's automatic process of identifying and freeing memory occupied by objects that are no longer reachable by the program. In C++, developers must manually allocate (<code>new</code>) and deallocate (<code>delete</code>) memory. Java's GC eliminates <strong>memory leaks</strong> (forgetting to free memory), <strong>dangling pointers</strong> (using freed memory), and <strong>double-free errors</strong> (freeing the same memory twice).</div></div>
+                <div class="question-text">What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {
+    for (int j = 1; j <= i; j++) {
+        System.out.print("* ");
+    }
+    System.out.println();
+}</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Nested loops create patterns.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">* 
+* * 
+* * * 
+* * * * </div></div>
 <div class="question-card">
                 <div class="question-number">Question 14</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">What are LTS versions of Java? Name the current LTS versions and explain why they matter.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">LTS stands for Long-Term Support. Oracle releases a new Java version every 6 months.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14"><strong>LTS (Long-Term Support)</strong> versions receive extended updates and security patches for several years. Current LTS versions are <strong>Java 11</strong> (2018), <strong>Java 17</strong> (2021), and <strong>Java 21</strong> (2023). They matter because production systems need stability and long-term security patches. Non-LTS versions (like Java 18, 19, 20) only receive 6 months of support.</div></div>
+                <div class="question-text">Write a program to check if a number is even or odd using the ternary operator.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Use % 2 and ternary (?:).</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">int n = 7;
+String result = (n % 2 == 0) ? "Even" : "Odd";
+System.out.println(n + " is " + result);</div></div>
 <div class="question-card">
                 <div class="question-number">Question 15</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Why did Java originally include primitive types (int, double, boolean) instead of making everything an object? What are the performance implications?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about stack vs heap allocation and the overhead of objects.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Java included primitives for <strong>performance</strong>. Primitives are stored on the <strong>stack</strong>, require no heap allocation, no garbage collection, and no object header overhead. An <code>int</code> takes exactly 4 bytes. An <code>Integer</code> object takes approximately 16 bytes (object header + padding + value). For computation-heavy tasks, primitives are significantly faster.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>int sum = 0;
+for (int i = 1; i <= 100; i++) {
+    sum += i;
+}
+System.out.println(sum);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">This adds numbers from 1 to 100.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">5050</div></div>
 <div class="question-card">
                 <div class="question-number">Question 16</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What was Java originally called? Why was the name changed?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Think about a tree and a type of coffee.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">Java was originally called <strong>Oak</strong>, named after an oak tree outside James Gosling's office. The name was changed because Oak was already a trademark of Oak Technologies. The team renamed it to <strong>Java</strong>, inspired by Java coffee from Indonesia.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>double d = 0.1 + 0.2;
+System.out.println(d);
+System.out.println(d == 0.3);</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">Floating point arithmetic is not exact.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">0.30000000000000004
+false</div></div>
 <div class="question-card">
                 <div class="question-number">Question 17</div>
                 <span class="question-difficulty easy">Easy</span>

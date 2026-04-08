@@ -118,117 +118,120 @@
       "pip is Python's package manager that comes bundled with Python. You will use it later to install additional libraries."
     ]
   },
-  "relatedTopics": ["introduction-to-python", "your-first-python-program"],
+  "relatedTopics": [
+    "introduction-to-python",
+    "your-first-python-program"
+  ],
   "practice": {
     "totalQuestions": 55,
     "topicSpecific": [
       {
         "id": "ts-1",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What is the official website from which you should download Python?",
-        "hint": "It is a .org website named after the language.",
-        "answer": "Python should be downloaded from <strong>https://www.python.org</strong>.",
-        "explanation": "Always download Python from the official website python.org. This ensures you get the genuine, unmodified version of Python. Downloading from third-party websites may give you outdated or potentially unsafe versions."
+        "question": "What command shows your Python version?<br><pre><code>python --version</code></pre><br>What does this output look like?",
+        "hint": "The --version flag works for most tools.",
+        "answer": "Something like: Python 3.12.0",
+        "explanation": "python --version (or python3 --version on Mac/Linux) shows the installed Python version. The output format is \"Python X.Y.Z\"."
       },
       {
         "id": "ts-2",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What is the most important checkbox you must select during Python installation on Windows?",
-        "hint": "It is at the bottom of the first installer screen and has to do with how your terminal finds Python.",
-        "answer": "The most important checkbox is <strong>\"Add python.exe to PATH\"</strong>.",
-        "explanation": "Checking this box tells the installer to add Python's location to the system PATH variable. Without this, your Command Prompt will not know where to find the Python interpreter, and typing 'python' in the terminal will give an error. This is the single most common cause of installation problems for beginners."
+        "question": "What is the output?<br><pre><code>import sys\nprint(sys.version_info.major)\nprint(sys.version_info.minor)</code></pre>",
+        "hint": "sys.version_info gives version details.",
+        "answer": "3\n12 (or your minor version)",
+        "explanation": "sys.version_info.major returns the major version (3 for Python 3.x). sys.version_info.minor returns the minor version (like 12 for Python 3.12)."
       },
       {
         "id": "ts-3",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What command do you type in the Command Prompt to check which version of Python is installed?",
-        "hint": "It starts with 'python' followed by a flag with two dashes.",
-        "answer": "Type <code>python --version</code> in the Command Prompt.",
-        "explanation": "The --version flag (with two dashes) tells Python to display its version number instead of starting the interpreter. You should see something like 'Python 3.12.3'. If you see an error instead, Python is either not installed or not added to PATH."
+        "question": "What is the output of running this in terminal?<br><pre><code>python3 -c \"print(2 ** 8)\"</code></pre>",
+        "hint": "The -c flag runs a Python command directly.",
+        "answer": "256",
+        "explanation": "python3 -c lets you run Python code directly from the terminal without creating a file. 2**8 = 256."
       },
       {
         "id": "ts-4",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What does IDLE stand for?",
-        "hint": "It has four words. The first word is 'Integrated' and the last word is 'Environment'.",
-        "answer": "IDLE stands for <strong>Integrated Development and Learning Environment</strong>.",
-        "explanation": "IDLE is Python's built-in code editor designed for beginners. The name is also a reference to Eric Idle, a member of the Monty Python comedy group (Python itself is named after Monty Python). IDLE comes pre-installed with Python, so you do not need to download it separately."
+        "question": "What is the output?<br><pre><code>import os\nprint(os.getcwd())</code></pre>",
+        "hint": "os.getcwd() returns the current working directory.",
+        "answer": "Prints the current directory path, e.g., C:UsersAaravprojects",
+        "explanation": "os.getcwd() returns the absolute path of the current working directory as a string. This is useful to know where your script is running from."
       },
       {
         "id": "ts-5",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What file extension must Python source code files use?",
-        "hint": "It is two letters that come from the name of the language.",
-        "answer": "Python files use the <strong>.py</strong> extension (for example, <code>hello.py</code>).",
-        "explanation": "The .py extension tells your operating system and code editor that the file contains Python code. This enables syntax highlighting in your editor and allows the operating system to associate the file with the Python interpreter."
+        "question": "You save this code as test.py:<br><pre><code>print(\"Setup works!\")\nprint(2 + 3)</code></pre><br>What is the output when you run: python test.py?",
+        "hint": "Each print statement outputs on a new line.",
+        "answer": "Setup works!\n5",
+        "explanation": "Python executes the file line by line. First it prints \"Setup works!\", then calculates 2+3=5 and prints it."
       },
       {
         "id": "ts-6",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What is the difference between the IDLE Shell and the IDLE Editor?",
-        "hint": "One is for quick, interactive commands. The other is for writing full programs.",
-        "answer": "The <strong>IDLE Shell</strong> is the interactive mode where you type one command at a time after the <code>&gt;&gt;&gt;</code> prompt and see results immediately. The <strong>IDLE Editor</strong> is a separate window (opened via File > New File) where you write a complete program with multiple lines, save it as a <code>.py</code> file, and run it all at once.",
-        "explanation": "Think of the Shell as a calculator — you give it one problem, it gives you the answer. The Editor is like a document — you write your entire essay (program) and then submit (run) it all at once. The Shell is great for testing, while the Editor is for real programs."
+        "question": "What is the output?<br><pre><code>import keyword\nprint(len(keyword.kwlist))\nprint(\"for\" in keyword.kwlist)\nprint(\"print\" in keyword.kwlist)</code></pre>",
+        "hint": "keyword.kwlist contains all Python reserved words.",
+        "answer": "35 (approximately)\nTrue\nFalse",
+        "explanation": "keyword.kwlist is a list of all Python keywords. \"for\" is a keyword (True). \"print\" is a built-in function, not a keyword (False)."
       },
       {
         "id": "ts-7",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is the PATH environment variable? Why is it important for Python?",
-        "hint": "It is a list that tells your computer where to look for programs.",
-        "answer": "The <strong>PATH</strong> is a system environment variable that contains a list of folder locations where your computer searches for executable programs. When you type <code>python</code> in the terminal, the computer searches through all folders listed in PATH to find the Python executable. If Python's folder is not in PATH, the computer cannot find it and shows an error.",
-        "explanation": "Think of PATH like a phone book. When you ask your computer to run 'python', it looks through the PATH phone book to find where 'python' lives. If Python's address is not in the phone book, the computer says 'I do not know who that is' (the 'not recognized' error). Adding Python to PATH during installation puts Python's address in the phone book."
+        "question": "What is the output?<br><pre><code>import this</code></pre><br>What does this module print?",
+        "hint": "This is a famous Python Easter egg.",
+        "answer": "The Zen of Python - a poem about Python philosophy",
+        "explanation": "import this prints \"The Zen of Python\" by Tim Peters - guiding principles like \"Beautiful is better than ugly\" and \"Simple is better than complex\"."
       },
       {
         "id": "ts-8",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Name any three features that VS Code provides for Python development.",
-        "hint": "Think about colors, suggestions, and running code.",
-        "answer": "VS Code provides: (1) <strong>Syntax highlighting</strong> — colors different parts of your code, (2) <strong>IntelliSense / auto-completion</strong> — suggests code as you type, (3) <strong>Built-in terminal</strong> — run commands without leaving the editor, (4) <strong>Debugging tools</strong> — find and fix errors step by step, (5) <strong>Extensions</strong> — add features like linting and formatting.",
-        "explanation": "These features make writing Python code faster and less error-prone. Syntax highlighting helps you spot mistakes visually. Auto-completion saves typing and reminds you of function names. The built-in terminal means you do not need to switch between windows to run your code."
+        "question": "What happens when you run this file named hello.txt?<br><pre><code># Saved as hello.txt\nprint(\"Hello World\")</code></pre><br>Command: python hello.txt",
+        "hint": "Python can run any text file with valid Python code.",
+        "answer": "It works! Prints: Hello World",
+        "explanation": "Python does not require .py extension to run a file. It reads the content regardless of extension. However, .py is the convention and IDEs expect it."
       },
       {
         "id": "ts-9",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is the difference between interactive mode and script mode in Python?",
-        "hint": "One runs code line by line as you type. The other runs an entire file at once.",
-        "answer": "<strong>Interactive mode</strong> (REPL / IDLE Shell) lets you type Python commands one at a time and see results immediately after each command. <strong>Script mode</strong> involves writing a complete program in a <code>.py</code> file and running the entire file at once using a command like <code>python filename.py</code>.",
-        "explanation": "Interactive mode is ideal for testing, experimenting, and using Python as a calculator. Script mode is for writing real programs that you want to save and reuse. In interactive mode, results of expressions are displayed automatically. In script mode, you need to use print() to see output — typing just '5 + 3' in a script file produces no visible output."
+        "question": "What is the output?<br><pre><code>x = 10\nprint(type(x).__name__)\nx = \"hello\"\nprint(type(x).__name__)</code></pre>",
+        "hint": "__name__ gives the type name as a string.",
+        "answer": "int\nstr",
+        "explanation": "In Python, variables can change type. First x is 10 (int), then x becomes \"hello\" (str). This is called dynamic typing."
       },
       {
         "id": "ts-10",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What terminal command do you use to navigate into a folder called PythonProjects on your Desktop?",
-        "hint": "The command stands for 'change directory'.",
-        "answer": "Type <code>cd Desktop\\PythonProjects</code> in the Command Prompt.",
-        "explanation": "The cd command stands for 'change directory'. It moves you from your current location to another folder. You can chain folder names with backslashes (on Windows) to navigate multiple levels. To go back to the parent folder, use 'cd ..' (two dots)."
+        "question": "Write a one-line Python command that prints all even numbers from 2 to 20.",
+        "hint": "Use range() with step parameter and print().",
+        "answer": "print(list(range(2, 21, 2)))",
+        "explanation": "range(2, 21, 2) generates 2, 4, 6, ..., 20. The third argument is the step size. list() converts it to a printable list."
       },
       {
         "id": "ts-11",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Why should you not download Python from random websites instead of python.org?",
-        "hint": "Think about safety and getting the correct version.",
-        "answer": "Downloading from unofficial websites is risky because: (1) The version may be <strong>outdated</strong> and missing security patches, (2) The installer could be <strong>modified to include malware</strong> or unwanted software, (3) You might get a <strong>non-standard build</strong> that behaves differently from the official version.",
-        "explanation": "The official python.org website is maintained by the Python Software Foundation and always provides the latest, safe, and unmodified version of Python. Just like you would download a bank's app only from the official app store, you should download Python only from the official website."
+        "question": "What is the output?<br><pre><code>print(\"Hello\"[::-1])</code></pre>",
+        "hint": "[::-1] reverses a string.",
+        "answer": "olleH",
+        "explanation": "The slice [::-1] means start from end, go backwards with step -1. This reverses the string \"Hello\" to \"olleH\"."
       },
       {
         "id": "ts-12",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is pip? Does it come pre-installed with Python?",
-        "hint": "It helps you install additional Python libraries. It stands for something recursive.",
-        "answer": "<strong>pip</strong> stands for \"pip installs packages\". It is Python's <strong>package manager</strong> that lets you install additional libraries and tools. Yes, pip comes <strong>pre-installed</strong> with Python when you download it from python.org.",
-        "explanation": "pip is like an app store for Python. When you want to add extra functionality (like making games with Pygame or creating charts with Matplotlib), you use pip to download and install those packages. For example, 'pip install pygame' downloads and installs the Pygame library. You will use pip more as you advance in your Python journey."
+        "question": "What is the output?<br><pre><code>a = 5\nb = 2\nprint(a / b)\nprint(a // b)\nprint(a % b)\nprint(a ** b)</code></pre>",
+        "hint": "Four different operators on the same numbers.",
+        "answer": "2.5\n2\n1\n25",
+        "explanation": "5/2=2.5 (true division), 5//2=2 (floor division), 5%2=1 (remainder), 5**2=25 (power). Know all four!"
       },
       {
         "id": "ts-13",

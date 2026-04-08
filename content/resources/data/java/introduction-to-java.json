@@ -110,108 +110,111 @@
       "For placements and interviews, Java is one of the most tested languages. Understanding Java fundamentals gives a strong foundation for DSA and system design."
     ]
   },
-  "relatedTopics": ["installing-java-and-setup", "your-first-java-program"],
+  "relatedTopics": [
+    "installing-java-and-setup",
+    "your-first-java-program"
+  ],
   "practice": {
     "totalQuestions": 57,
     "topicSpecific": [
       {
         "id": "ts-1",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "Who developed Java and in which year was it first released?",
-        "hint": "Think Sun Microsystems, 1990s.",
-        "answer": "Java was developed by <strong>James Gosling</strong> and his team at <strong>Sun Microsystems</strong>. It was first publicly released in <strong>1995</strong>. Oracle Corporation acquired Sun Microsystems in 2010 and now maintains Java.",
-        "explanation": "James Gosling is often called the \"Father of Java.\" The language was originally named Oak (after a tree outside his office) before being renamed to Java. This is a frequently asked factual question in placement interviews."
+        "question": "What is the output?<br><pre><code>public class Test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\" + \" \" + \"Java\");\n    }\n}</code></pre>",
+        "hint": "+ concatenates strings in Java.",
+        "answer": "Hello Java",
+        "explanation": "The + operator joins strings together. \"Hello\" + \" \" + \"Java\" concatenates to \"Hello Java\". This is string concatenation in Java."
       },
       {
         "id": "ts-2",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What does WORA stand for in the context of Java? Explain what it means.",
-        "hint": "It describes Java's platform independence.",
-        "answer": "WORA stands for <strong>Write Once, Run Anywhere</strong>. It means that Java code, once compiled into bytecode, can run on any platform (Windows, Linux, macOS) that has a JVM installed, without needing to recompile.",
-        "explanation": "This is possible because the Java compiler produces platform-independent bytecode (.class files), not platform-specific machine code. The JVM on each platform translates this bytecode into native instructions. This is Java's most distinguishing feature compared to languages like C/C++."
+        "question": "What is the output?<br><pre><code>System.out.println(10 + 20);\nSystem.out.println(\"10\" + \"20\");\nSystem.out.println(10 + \"20\");</code></pre>",
+        "hint": "When one operand is a String, + does concatenation.",
+        "answer": "30\n1020\n1020",
+        "explanation": "10+20=30 (both ints, so addition). \"10\"+\"20\"=\"1020\" (both strings, concatenation). 10+\"20\"=\"1020\" (int converted to string, then concatenation)."
       },
       {
         "id": "ts-3",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What is the difference between a compiler and an interpreter? Which does Java use?",
-        "hint": "Java uses both.",
-        "answer": "A <strong>compiler</strong> translates the entire source code into another form (like bytecode or machine code) before execution. An <strong>interpreter</strong> executes code line by line at runtime. Java uses <strong>both</strong>: the <code>javac</code> compiler converts source code to bytecode, and the JVM interprets (and JIT-compiles) the bytecode during execution.",
-        "explanation": "This hybrid approach gives Java the best of both worlds: compile-time error checking (catching bugs early) and runtime flexibility (platform independence). The JIT compiler further optimizes performance by compiling frequently used bytecode into native machine code."
+        "question": "Will this compile?<br><pre><code>public class test {\n    public static void main(String[] args) {\n        System.out.println(\"Hello\");\n    }\n}</code></pre>",
+        "hint": "Class name must match filename.",
+        "answer": "It compiles but the filename must be test.java (lowercase t).",
+        "explanation": "Java class names should start with uppercase (convention), but lowercase compiles. The file must be named exactly test.java to match the class name."
       },
       {
         "id": "ts-4",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "Name any four real-world domains where Java is extensively used.",
-        "hint": "Think about mobile apps, banks, big data, and web servers.",
-        "answer": "Java is extensively used in: (1) <strong>Android app development</strong>, (2) <strong>Enterprise backend systems</strong> (banking, insurance, e-commerce), (3) <strong>Big data technologies</strong> (Hadoop, Kafka, Spark), and (4) <strong>Cloud-native microservices</strong> (using Spring Boot).",
-        "explanation": "Java's versatility is one of its greatest strengths. Beyond these four, Java is also used in desktop applications (IntelliJ IDEA, Eclipse), scientific computing, trading systems, and government portals. This wide applicability is why Java developers are always in demand."
+        "question": "What is the output?<br><pre><code>int a = 7;\nint b = 2;\nSystem.out.println(a / b);\nSystem.out.println(a % b);\nSystem.out.println((double) a / b);</code></pre>",
+        "hint": "Integer division truncates. Cast to double for decimal.",
+        "answer": "3\n1\n3.5",
+        "explanation": "7/2=3 (integer division truncates). 7%2=1 (remainder). (double)7/2=3.5 (casting to double gives decimal result)."
       },
       {
         "id": "ts-5",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What is bytecode in Java? How is it different from machine code?",
-        "hint": "Think about what the Java compiler produces and what runs on the JVM.",
-        "answer": "<strong>Bytecode</strong> is the intermediate, platform-independent code that the Java compiler (<code>javac</code>) generates from source code. It is stored in <code>.class</code> files. <strong>Machine code</strong> is platform-specific binary code that runs directly on the CPU. Bytecode runs on the JVM (which translates it to machine code), while machine code runs directly on hardware.",
-        "explanation": "Bytecode is the key to Java's platform independence. Since bytecode is not tied to any specific OS or CPU architecture, the same .class file can run on any machine that has a JVM. The JVM handles the final translation to machine code specific to the underlying hardware."
+        "question": "Find the bug:<br><pre><code>public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello World\")\n    }\n}</code></pre>",
+        "hint": "Every statement in Java must end with something.",
+        "answer": "Missing semicolon after println. Fix: System.out.println(\"Hello World\");",
+        "explanation": "Java requires a semicolon (;) at the end of every statement. Unlike Python, forgetting ; causes a compilation error."
       },
       {
         "id": "ts-6",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Explain the difference between JDK, JRE, and JVM. Which one do you need to develop Java programs?",
-        "hint": "They form a nested hierarchy: JDK contains JRE, which contains JVM.",
-        "answer": "<strong>JVM</strong> (Java Virtual Machine) executes bytecode. <strong>JRE</strong> (Java Runtime Environment) = JVM + standard class libraries; it is needed to run Java programs. <strong>JDK</strong> (Java Development Kit) = JRE + development tools (compiler, debugger); it is needed to develop Java programs. You need the <strong>JDK</strong> to develop Java programs.",
-        "explanation": "Think of it as layers: JVM is the innermost core (execution engine), JRE wraps JVM with libraries (runtime), and JDK wraps JRE with tools (development). End users who only run Java apps need the JRE. Developers who write Java code need the JDK. This is a very common interview question."
+        "question": "What is the output?<br><pre><code>String name = \"Java\";\nSystem.out.println(name.length());\nSystem.out.println(name.charAt(0));\nSystem.out.println(name.toUpperCase());</code></pre>",
+        "hint": "String methods: length(), charAt(), toUpperCase().",
+        "answer": "4\nJ\nJAVA",
+        "explanation": "length() returns 4 (\"Java\" has 4 characters). charAt(0) returns J (first character). toUpperCase() converts to \"JAVA\"."
       },
       {
         "id": "ts-7",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What are the three editions of Java? When would you use each one?",
-        "hint": "SE, EE, ME -- each targets a different scale of application.",
-        "answer": "<strong>Java SE</strong> (Standard Edition) is for general-purpose desktop and console applications. <strong>Java EE</strong> (Enterprise Edition, now Jakarta EE) is for large-scale, distributed enterprise applications like web services and APIs. <strong>Java ME</strong> (Micro Edition) is for resource-constrained devices like IoT sensors and embedded systems.",
-        "explanation": "Java SE is the foundation that all other editions build upon. For college students learning Java, SE is the correct starting point. You would use EE/Jakarta EE when building enterprise web applications with Servlets, REST APIs, or JPA. ME is niche and used primarily in embedded systems."
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 5; i++) {\n    System.out.print(i + \" \");\n}</code></pre>",
+        "hint": "print() stays on the same line, println() adds a newline.",
+        "answer": "1 2 3 4 5 ",
+        "explanation": "The for loop runs from i=1 to i=5. System.out.print() prints without a newline, so all numbers appear on one line separated by spaces."
       },
       {
         "id": "ts-8",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Compare Java and Python on at least five parameters: typing, speed, memory management, platform independence, and primary use cases.",
-        "hint": "Think about static vs dynamic typing, compilation vs interpretation, and where each language is commonly used.",
-        "answer": "(1) <strong>Typing:</strong> Java is statically typed; Python is dynamically typed. (2) <strong>Speed:</strong> Java is faster (JIT compiled); Python is slower (interpreted). (3) <strong>Memory:</strong> Both use garbage collection. (4) <strong>Platform independence:</strong> Java via JVM, Python via interpreter. (5) <strong>Primary use:</strong> Java for enterprise/Android; Python for data science/ML/scripting.",
-        "explanation": "Java's static typing catches errors at compile time, while Python's dynamic typing catches them at runtime. Java's JIT compilation gives it a significant performance advantage over Python's interpretation. However, Python's concise syntax makes it faster to write small programs and prototypes. The choice between them depends on the project requirements."
+        "question": "What is the output?<br><pre><code>int[] arr = {10, 20, 30, 40, 50};\nSystem.out.println(arr.length);\nSystem.out.println(arr[0]);\nSystem.out.println(arr[arr.length - 1]);</code></pre>",
+        "hint": "Arrays use .length (no parentheses) and 0-based indexing.",
+        "answer": "5\n10\n50",
+        "explanation": "arr.length is 5. arr[0] is the first element (10). arr[arr.length-1] = arr[4] is the last element (50). Note: .length not .length()."
       },
       {
         "id": "ts-9",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is JIT compilation? Why does it make Java faster?",
-        "hint": "JIT stands for Just-In-Time. It converts frequently used bytecode to native code.",
-        "answer": "<strong>JIT (Just-In-Time) compilation</strong> is a feature of the JVM where frequently executed bytecode is compiled into native machine code at runtime, instead of being interpreted line by line. This makes Java faster because native machine code executes directly on the CPU without the overhead of interpretation.",
-        "explanation": "The JVM starts by interpreting bytecode. When it detects that certain methods or loops are executed repeatedly (called \"hot spots\"), the JIT compiler compiles those sections into optimized native code. This is why the HotSpot JVM gets its name. Over time, a long-running Java application can approach C++ level performance for its hot code paths."
+        "question": "What is the output?<br><pre><code>int x = 5;\nSystem.out.println(x++);\nSystem.out.println(x);\nSystem.out.println(++x);</code></pre>",
+        "hint": "x++ returns then increments. ++x increments then returns.",
+        "answer": "5\n6\n7",
+        "explanation": "x++ (post-increment): prints 5, then x becomes 6. Next line prints 6. ++x (pre-increment): x becomes 7 first, then prints 7."
       },
       {
         "id": "ts-10",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Why is Java called a 'purely object-oriented' language? Is this statement completely accurate?",
-        "hint": "Think about classes, objects, and primitive types.",
-        "answer": "Java is called purely object-oriented because every piece of code must live inside a <strong>class</strong>, and most operations are performed through <strong>objects</strong>. However, this is not completely accurate because Java has <strong>8 primitive types</strong> (int, double, boolean, etc.) that are not objects. Truly pure OOP languages like Smalltalk have no primitives.",
-        "explanation": "Java made a deliberate design choice to include primitive types for performance reasons. Operations on primitives are much faster than operations on objects because primitives are stored on the stack and do not require heap allocation or garbage collection. Java provides wrapper classes (Integer, Double, Boolean) when you need primitives to behave as objects."
+        "question": "Will this compile? Why?<br><pre><code>int x = 10;\nboolean b = (x > 5) ? true : false;\nSystem.out.println(b);</code></pre>",
+        "hint": "This uses the ternary operator.",
+        "answer": "Yes, prints: true",
+        "explanation": "The ternary operator (?:) works as: condition ? valueIfTrue : valueIfFalse. Since 10>5 is true, b gets true."
       },
       {
         "id": "ts-11",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "Explain the complete lifecycle of a Java program from writing source code to execution. Include all steps and tools involved.",
-        "hint": "Source code -> javac -> bytecode -> class loader -> verifier -> interpreter/JIT -> execution.",
-        "answer": "(1) Developer writes source code in a <code>.java</code> file. (2) The <code>javac</code> compiler compiles it into bytecode (<code>.class</code> file). (3) The JVM's <strong>Class Loader</strong> loads the bytecode into memory. (4) The <strong>Bytecode Verifier</strong> checks for security violations and structural correctness. (5) The <strong>Execution Engine</strong> (interpreter + JIT compiler) converts bytecode to native machine code and executes it. (6) The <strong>Garbage Collector</strong> reclaims unused memory during execution.",
-        "explanation": "This end-to-end understanding is what interviewers look for. The class loader uses a delegation model (bootstrap, extension, application loaders). The verifier ensures bytecode does not violate Java's security model (no illegal memory access, type safety). The JIT compiler optimizes hot code paths. The garbage collector runs concurrently to free memory from objects that are no longer referenced."
+        "question": "What is the output?<br><pre><code>String a = \"Hello\";\nString b = \"Hello\";\nString c = new String(\"Hello\");\nSystem.out.println(a == b);\nSystem.out.println(a == c);\nSystem.out.println(a.equals(c));</code></pre>",
+        "hint": "== checks reference, .equals() checks content.",
+        "answer": "true\nfalse\ntrue",
+        "explanation": "a==b is true (both from String pool, same reference). a==c is false (c created with new, different object). a.equals(c) is true (same content)."
       },
       {
         "id": "ts-12",
@@ -224,39 +227,39 @@
       },
       {
         "id": "ts-13",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "What is garbage collection in Java? Why is it considered an advantage over C++?",
-        "hint": "Automatic memory management vs manual memory management.",
-        "answer": "<strong>Garbage collection (GC)</strong> is the JVM's automatic process of identifying and freeing memory occupied by objects that are no longer reachable by the program. In C++, developers must manually allocate (<code>new</code>) and deallocate (<code>delete</code>) memory. Java's GC eliminates <strong>memory leaks</strong> (forgetting to free memory), <strong>dangling pointers</strong> (using freed memory), and <strong>double-free errors</strong> (freeing the same memory twice).",
-        "explanation": "Manual memory management in C++ is a leading source of bugs and security vulnerabilities. Java's garbage collector (with algorithms like G1GC, ZGC, Shenandoah) handles all memory deallocation automatically. The tradeoff is occasional GC pauses, but modern garbage collectors minimize these pauses to sub-millisecond levels."
+        "question": "What is the output?<br><pre><code>for (int i = 1; i <= 4; i++) {\n    for (int j = 1; j <= i; j++) {\n        System.out.print(\"* \");\n    }\n    System.out.println();\n}</code></pre>",
+        "hint": "Nested loops create patterns.",
+        "answer": "* \n* * \n* * * \n* * * * ",
+        "explanation": "Row 1: 1 star. Row 2: 2 stars. Row 3: 3 stars. Row 4: 4 stars. The inner loop runs j from 1 to i, so each row has i stars."
       },
       {
         "id": "ts-14",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "What are LTS versions of Java? Name the current LTS versions and explain why they matter.",
-        "hint": "LTS stands for Long-Term Support. Oracle releases a new Java version every 6 months.",
-        "answer": "<strong>LTS (Long-Term Support)</strong> versions receive extended updates and security patches for several years. Current LTS versions are <strong>Java 11</strong> (2018), <strong>Java 17</strong> (2021), and <strong>Java 21</strong> (2023). They matter because production systems need stability and long-term security patches. Non-LTS versions (like Java 18, 19, 20) only receive 6 months of support.",
-        "explanation": "Since Java 9, Oracle releases a new version every 6 months. But most companies do not upgrade every 6 months. LTS versions give companies a stable base with years of support. Most enterprise projects use the latest LTS version. For learning, always install the latest LTS (Java 21 as of this writing). Interviewers sometimes ask about LTS to test whether candidates understand real-world Java deployment."
+        "question": "Write a program to check if a number is even or odd using the ternary operator.",
+        "hint": "Use % 2 and ternary (?:).",
+        "answer": "int n = 7;\nString result = (n % 2 == 0) ? \"Even\" : \"Odd\";\nSystem.out.println(n + \" is \" + result);",
+        "explanation": "n%2 gives the remainder when divided by 2. If remainder is 0, even. Otherwise, odd. Ternary makes this a one-line check."
       },
       {
         "id": "ts-15",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "Why did Java originally include primitive types (int, double, boolean) instead of making everything an object? What are the performance implications?",
-        "hint": "Think about stack vs heap allocation and the overhead of objects.",
-        "answer": "Java included primitives for <strong>performance</strong>. Primitives are stored on the <strong>stack</strong>, require no heap allocation, no garbage collection, and no object header overhead. An <code>int</code> takes exactly 4 bytes. An <code>Integer</code> object takes approximately 16 bytes (object header + padding + value). For computation-heavy tasks, primitives are significantly faster.",
-        "explanation": "This was a pragmatic design decision. In a language where everything is an object (like Smalltalk), even simple arithmetic requires heap allocation and garbage collection, which slows down execution. Java's primitives allow performance-critical code to run at near-C speed while still offering the wrapper classes (Integer, Double, etc.) when object behavior is needed (like in collections)."
+        "question": "What is the output?<br><pre><code>int sum = 0;\nfor (int i = 1; i <= 100; i++) {\n    sum += i;\n}\nSystem.out.println(sum);</code></pre>",
+        "hint": "This adds numbers from 1 to 100.",
+        "answer": "5050",
+        "explanation": "This is the sum of 1+2+3+...+100 = 5050. The formula is n*(n+1)/2 = 100*101/2 = 5050. The loop accumulates the sum in the variable."
       },
       {
         "id": "ts-16",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What was Java originally called? Why was the name changed?",
-        "hint": "Think about a tree and a type of coffee.",
-        "answer": "Java was originally called <strong>Oak</strong>, named after an oak tree outside James Gosling's office. The name was changed because Oak was already a trademark of Oak Technologies. The team renamed it to <strong>Java</strong>, inspired by Java coffee from Indonesia.",
-        "explanation": "The naming trivia is commonly asked in interviews and quizzes. The name \"Java\" was chosen during a brainstorming session. Other contenders included Silk, DNA, and Lyric. The coffee reference is why the official Java logo is a steaming coffee cup."
+        "question": "What is the output?<br><pre><code>double d = 0.1 + 0.2;\nSystem.out.println(d);\nSystem.out.println(d == 0.3);</code></pre>",
+        "hint": "Floating point arithmetic is not exact.",
+        "answer": "0.30000000000000004\nfalse",
+        "explanation": "Floating point numbers cannot represent 0.1 and 0.2 exactly in binary. The sum is slightly off (0.30000000000000004). Never use == for float comparison."
       },
       {
         "id": "ts-17",
@@ -392,7 +395,12 @@
         "id": "mcq-1",
         "difficulty": "Easy",
         "question": "Who is known as the 'Father of Java'?",
-        "options": {"A": "Dennis Ritchie", "B": "James Gosling", "C": "Bjarne Stroustrup", "D": "Guido van Rossum"},
+        "options": {
+          "A": "Dennis Ritchie",
+          "B": "James Gosling",
+          "C": "Bjarne Stroustrup",
+          "D": "Guido van Rossum"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> James Gosling developed Java at Sun Microsystems. Dennis Ritchie (A) created C. Bjarne Stroustrup (C) created C++. Guido van Rossum (D) created Python."
       },
@@ -400,7 +408,12 @@
         "id": "mcq-2",
         "difficulty": "Easy",
         "question": "What does JVM stand for?",
-        "options": {"A": "Java Variable Machine", "B": "Java Virtual Method", "C": "Java Virtual Machine", "D": "Java Verified Module"},
+        "options": {
+          "A": "Java Variable Machine",
+          "B": "Java Virtual Method",
+          "C": "Java Virtual Machine",
+          "D": "Java Verified Module"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> JVM stands for Java Virtual Machine. It is the runtime engine that executes Java bytecode. The other options are fabricated terms."
       },
@@ -408,7 +421,12 @@
         "id": "mcq-3",
         "difficulty": "Easy",
         "question": "What is the extension of a compiled Java bytecode file?",
-        "options": {"A": ".java", "B": ".class", "C": ".byte", "D": ".jvm"},
+        "options": {
+          "A": ".java",
+          "B": ".class",
+          "C": ".byte",
+          "D": ".jvm"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> The Java compiler (javac) produces .class files containing bytecode. The .java extension (A) is for source code files. The other options are not real Java file extensions."
       },
@@ -416,7 +434,12 @@
         "id": "mcq-4",
         "difficulty": "Easy",
         "question": "Which year was Java first publicly released?",
-        "options": {"A": "1991", "B": "1993", "C": "1995", "D": "2000"},
+        "options": {
+          "A": "1991",
+          "B": "1993",
+          "C": "1995",
+          "D": "2000"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> Java was publicly released in 1995. The Green Project started in 1991 (A), but the language was not released publicly until 1995. 1993 (B) and 2000 (D) are incorrect."
       },
@@ -424,7 +447,12 @@
         "id": "mcq-5",
         "difficulty": "Easy",
         "question": "Which company currently owns and maintains Java?",
-        "options": {"A": "Sun Microsystems", "B": "Microsoft", "C": "Google", "D": "Oracle"},
+        "options": {
+          "A": "Sun Microsystems",
+          "B": "Microsoft",
+          "C": "Google",
+          "D": "Oracle"
+        },
         "correct": "D",
         "explanation": "<strong>D is correct.</strong> Oracle Corporation acquired Sun Microsystems in 2010 and has maintained Java since. Sun Microsystems (A) was the original creator but no longer exists as an independent company."
       },
@@ -432,7 +460,12 @@
         "id": "mcq-6",
         "difficulty": "Easy",
         "question": "What does WORA stand for?",
-        "options": {"A": "Write Only, Read Anywhere", "B": "Write Once, Run Anywhere", "C": "Work Once, Retrieve Anywhere", "D": "Write Once, Read Always"},
+        "options": {
+          "A": "Write Only, Read Anywhere",
+          "B": "Write Once, Run Anywhere",
+          "C": "Work Once, Retrieve Anywhere",
+          "D": "Write Once, Read Always"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> WORA stands for Write Once, Run Anywhere, which describes Java's platform independence through bytecode and the JVM."
       },
@@ -440,7 +473,12 @@
         "id": "mcq-7",
         "difficulty": "Medium",
         "question": "Which of the following is NOT a Java edition?",
-        "options": {"A": "Java SE", "B": "Java EE", "C": "Java ME", "D": "Java XE"},
+        "options": {
+          "A": "Java SE",
+          "B": "Java EE",
+          "C": "Java ME",
+          "D": "Java XE"
+        },
         "correct": "D",
         "explanation": "<strong>D is correct.</strong> Java XE does not exist. The three Java editions are SE (Standard Edition), EE (Enterprise Edition, now Jakarta EE), and ME (Micro Edition)."
       },
@@ -448,7 +486,12 @@
         "id": "mcq-8",
         "difficulty": "Medium",
         "question": "Which component of the Java ecosystem contains the javac compiler?",
-        "options": {"A": "JVM", "B": "JRE", "C": "JDK", "D": "JIT"},
+        "options": {
+          "A": "JVM",
+          "B": "JRE",
+          "C": "JDK",
+          "D": "JIT"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> The JDK (Java Development Kit) contains the javac compiler along with other development tools. The JVM (A) only executes bytecode. The JRE (B) includes the JVM and libraries for running programs but not development tools. JIT (D) is a compilation technique inside the JVM, not a standalone component."
       },
@@ -456,7 +499,12 @@
         "id": "mcq-9",
         "difficulty": "Medium",
         "question": "What was Java originally named?",
-        "options": {"A": "Coffee", "B": "Oak", "C": "Maple", "D": "Pine"},
+        "options": {
+          "A": "Coffee",
+          "B": "Oak",
+          "C": "Maple",
+          "D": "Pine"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> Java was originally called Oak, named after an oak tree outside James Gosling's office. It was renamed to Java because Oak was already trademarked."
       },
@@ -464,7 +512,12 @@
         "id": "mcq-10",
         "difficulty": "Medium",
         "question": "Which of the following is true about Java?",
-        "options": {"A": "Java is purely interpreted", "B": "Java compiles directly to machine code", "C": "Java compiles to bytecode that runs on the JVM", "D": "Java does not support multithreading"},
+        "options": {
+          "A": "Java is purely interpreted",
+          "B": "Java compiles directly to machine code",
+          "C": "Java compiles to bytecode that runs on the JVM",
+          "D": "Java does not support multithreading"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> Java source code is compiled to bytecode (.class files) by javac, and this bytecode runs on the JVM. Java is not purely interpreted (A) because it compiles to bytecode first. It does not compile directly to machine code (B). Java has excellent multithreading support (D is false)."
       },
@@ -472,7 +525,12 @@
         "id": "mcq-11",
         "difficulty": "Medium",
         "question": "Which Java version introduced lambda expressions and the Stream API?",
-        "options": {"A": "Java 5", "B": "Java 7", "C": "Java 8", "D": "Java 11"},
+        "options": {
+          "A": "Java 5",
+          "B": "Java 7",
+          "C": "Java 8",
+          "D": "Java 11"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> Java 8 (2014) introduced lambda expressions, the Stream API, Optional, default methods in interfaces, and the java.time API. Java 5 (A) introduced generics and enums. Java 7 (B) introduced try-with-resources and diamond operator. Java 11 (D) introduced var in lambdas and HTTP client."
       },
@@ -480,7 +538,12 @@
         "id": "mcq-12",
         "difficulty": "Medium",
         "question": "Which of the following tools is used to compile Java source code?",
-        "options": {"A": "java", "B": "javac", "C": "javadoc", "D": "jar"},
+        "options": {
+          "A": "java",
+          "B": "javac",
+          "C": "javadoc",
+          "D": "jar"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> <code>javac</code> is the Java compiler that converts .java source files to .class bytecode files. <code>java</code> (A) is the JVM launcher that runs .class files. <code>javadoc</code> (C) generates API documentation. <code>jar</code> (D) creates archive files."
       },
@@ -488,7 +551,12 @@
         "id": "mcq-13",
         "difficulty": "Hard",
         "question": "Which of the following statements about JIT compilation is correct?",
-        "options": {"A": "JIT compiles all bytecode to native code before program starts", "B": "JIT compiles frequently executed bytecode to native code at runtime", "C": "JIT is a replacement for the javac compiler", "D": "JIT only works with Java ME"},
+        "options": {
+          "A": "JIT compiles all bytecode to native code before program starts",
+          "B": "JIT compiles frequently executed bytecode to native code at runtime",
+          "C": "JIT is a replacement for the javac compiler",
+          "D": "JIT only works with Java ME"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> JIT (Just-In-Time) compilation identifies hot code paths during runtime and compiles them to native machine code for better performance. It does not compile everything upfront (A) -- that would be Ahead-of-Time (AOT) compilation. JIT is not a replacement for javac (C); javac compiles source to bytecode, while JIT compiles bytecode to native code. JIT works in all Java editions (D is false)."
       },
@@ -496,7 +564,12 @@
         "id": "mcq-14",
         "difficulty": "Hard",
         "question": "Which of the following is NOT a characteristic of Java?",
-        "options": {"A": "Platform independent", "B": "Supports pointer arithmetic", "C": "Object-oriented", "D": "Automatic garbage collection"},
+        "options": {
+          "A": "Platform independent",
+          "B": "Supports pointer arithmetic",
+          "C": "Object-oriented",
+          "D": "Automatic garbage collection"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct (this is NOT a Java characteristic).</strong> Java deliberately does not support pointer arithmetic to prevent memory corruption and security vulnerabilities. C++ supports pointer arithmetic. Java is platform independent (A), object-oriented (C), and has automatic garbage collection (D)."
       },
@@ -504,7 +577,12 @@
         "id": "mcq-15",
         "difficulty": "Hard",
         "question": "What happens when you run `javac HelloWorld.java`?",
-        "options": {"A": "The program is executed", "B": "A HelloWorld.class file containing bytecode is created", "C": "A HelloWorld.exe file is created", "D": "The JVM starts and loads the program"},
+        "options": {
+          "A": "The program is executed",
+          "B": "A HelloWorld.class file containing bytecode is created",
+          "C": "A HelloWorld.exe file is created",
+          "D": "The JVM starts and loads the program"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> The <code>javac</code> command compiles the source file and produces a .class file containing platform-independent bytecode. It does not execute the program (A) -- that requires the <code>java</code> command. It does not produce an .exe file (C) -- Java produces bytecode, not native executables. The JVM (D) is not started by javac; it is started by the java command."
       },
@@ -512,7 +590,12 @@
         "id": "mcq-16",
         "difficulty": "Hard",
         "question": "Which of the following is a Long-Term Support (LTS) version of Java?",
-        "options": {"A": "Java 12", "B": "Java 15", "C": "Java 17", "D": "Java 18"},
+        "options": {
+          "A": "Java 12",
+          "B": "Java 15",
+          "C": "Java 17",
+          "D": "Java 18"
+        },
         "correct": "C",
         "explanation": "<strong>C is correct.</strong> Java 17 (2021) is an LTS release. Java 12 (A), Java 15 (B), and Java 18 (D) are non-LTS versions that receive only 6 months of support. The current LTS versions are Java 8, 11, 17, and 21."
       },
@@ -520,7 +603,12 @@
         "id": "mcq-17",
         "difficulty": "Hard",
         "question": "In the JDK-JRE-JVM hierarchy, which statement is correct?",
-        "options": {"A": "JVM contains JRE which contains JDK", "B": "JDK contains JRE which contains JVM", "C": "JRE contains JDK which contains JVM", "D": "They are all independent and unrelated"},
+        "options": {
+          "A": "JVM contains JRE which contains JDK",
+          "B": "JDK contains JRE which contains JVM",
+          "C": "JRE contains JDK which contains JVM",
+          "D": "They are all independent and unrelated"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> JDK (outermost) contains JRE (middle) which contains JVM (innermost). JDK = JRE + development tools. JRE = JVM + standard libraries. JVM = execution engine for bytecode. They form a nested hierarchy, not independent components."
       },
@@ -528,7 +616,12 @@
         "id": "mcq-18",
         "difficulty": "Easy",
         "question": "Java is a _____ typed programming language.",
-        "options": {"A": "Dynamically", "B": "Statically", "C": "Weakly", "D": "Loosely"},
+        "options": {
+          "A": "Dynamically",
+          "B": "Statically",
+          "C": "Weakly",
+          "D": "Loosely"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> Java is statically typed, meaning variable types must be declared at compile time and are checked by the compiler. Python is dynamically typed (A). C is sometimes called weakly typed (C). \"Loosely typed\" (D) is not a standard term for Java."
       },
@@ -536,7 +629,12 @@
         "id": "mcq-19",
         "difficulty": "Medium",
         "question": "Which of the following big data frameworks is built on the JVM?",
-        "options": {"A": "TensorFlow", "B": "Apache Hadoop", "C": "Django", "D": "Flask"},
+        "options": {
+          "A": "TensorFlow",
+          "B": "Apache Hadoop",
+          "C": "Django",
+          "D": "Flask"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> Apache Hadoop is written in Java and runs on the JVM. TensorFlow (A) is primarily C++ and Python. Django (C) and Flask (D) are Python web frameworks."
       },
@@ -544,7 +642,12 @@
         "id": "mcq-20",
         "difficulty": "Hard",
         "question": "Which of the following is true about Java's garbage collection?",
-        "options": {"A": "It completely prevents memory leaks", "B": "It frees objects that have no active references", "C": "It must be manually triggered by the developer", "D": "It runs only when the program terminates"},
+        "options": {
+          "A": "It completely prevents memory leaks",
+          "B": "It frees objects that have no active references",
+          "C": "It must be manually triggered by the developer",
+          "D": "It runs only when the program terminates"
+        },
         "correct": "B",
         "explanation": "<strong>B is correct.</strong> The garbage collector identifies and frees objects that are no longer reachable (no active references pointing to them). It does not completely prevent memory leaks (A) because objects with unintended references will not be collected. It runs automatically during program execution (C and D are false), though you can suggest a GC run with <code>System.gc()</code> (which is only a suggestion, not a command)."
       }

@@ -117,99 +117,102 @@
       "Learning Python builds a strong foundation that makes it easier to learn other programming languages later."
     ]
   },
-  "relatedTopics": ["installing-python-and-setup", "your-first-python-program"],
+  "relatedTopics": [
+    "installing-python-and-setup",
+    "your-first-python-program"
+  ],
   "practice": {
     "totalQuestions": 62,
     "topicSpecific": [
       {
         "id": "ts-1",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "Who created the Python programming language?",
-        "hint": "He is a Dutch programmer who started the project during Christmas holidays in 1989.",
-        "answer": "Python was created by <strong>Guido van Rossum</strong>.",
-        "explanation": "Guido van Rossum began working on Python in December 1989 while he was at Centrum Wiskunde and Informatica (CWI) in the Netherlands. The first version was released in February 1991."
+        "question": "What is the output of this code?<br><pre><code>print(\"Hello\" + \" \" + \"World\")</code></pre>",
+        "hint": "The + operator concatenates strings.",
+        "answer": "Hello World",
+        "explanation": "The + operator joins strings together. \"Hello\" + \" \" + \"World\" becomes \"Hello World\". This is called string concatenation."
       },
       {
         "id": "ts-2",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "In which year was Python first released?",
-        "hint": "It was in the early 1990s.",
-        "answer": "Python was first released in <strong>1991</strong>.",
-        "explanation": "Although Guido van Rossum started working on Python in December 1989, the first public release (version 0.9.0) came out in February 1991."
+        "question": "What is the output?<br><pre><code>print(3 + 4)\nprint(\"3\" + \"4\")</code></pre>",
+        "hint": "Numbers add, strings concatenate.",
+        "answer": "7\n34",
+        "explanation": "3 + 4 performs arithmetic addition giving 7. \"3\" + \"4\" concatenates two strings giving \"34\". The data type determines what + does."
       },
       {
         "id": "ts-3",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "Where does the name \"Python\" come from?",
-        "hint": "It is not named after the snake. Think of a British comedy show.",
-        "answer": "Python is named after the British comedy show <strong>\"Monty Python's Flying Circus\"</strong>, which Guido van Rossum was a fan of.",
-        "explanation": "Many people assume Python is named after the snake, but Guido van Rossum chose the name because he enjoyed the comedy show \"Monty Python's Flying Circus\". He wanted a short, unique, and slightly mysterious name for his language."
+        "question": "What is the output?<br><pre><code>print(type(42))\nprint(type(\"hello\"))\nprint(type(3.14))</code></pre>",
+        "hint": "type() shows the data type of a value.",
+        "answer": "<class 'int'>\n<class 'str'>\n<class 'float'>",
+        "explanation": "42 is an integer (int), \"hello\" is a string (str), and 3.14 is a floating point number (float). Python assigns types automatically."
       },
       {
         "id": "ts-4",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What does it mean when we say Python is an \"interpreted\" language?",
-        "hint": "Think about how the Python interpreter reads your code. Does it read everything at once or one line at a time?",
-        "answer": "An interpreted language is one where the code is executed <strong>line by line</strong> by an interpreter, rather than being converted into machine code all at once by a compiler.",
-        "explanation": "When you run a Python program, the Python interpreter reads the first line, executes it, then moves to the second line, executes it, and so on. This is different from compiled languages like C++ where the entire program is first translated into machine code and then executed. The advantage of interpretation is faster testing and debugging — you see results immediately."
+        "question": "Find the bug:<br><pre><code>print(\"Welcome to Python)\nprint(\"Let us begin\")</code></pre>",
+        "hint": "Check all quotes carefully.",
+        "answer": "Missing closing quote on line 1. Fix: print(\"Welcome to Python\")",
+        "explanation": "Every opening quote must have a matching closing quote. The first line has \" at the start but no \" before the closing parenthesis."
       },
       {
         "id": "ts-5",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "Is Python free to use? What term describes this kind of software?",
-        "hint": "The term means the source code is publicly available and anyone can use it.",
-        "answer": "Yes, Python is completely free. It is called <strong>open-source software</strong>.",
-        "explanation": "Open-source software is software whose source code is made available to the public. Anyone can download it, use it, study how it works, and even contribute to improving it — all without paying any fees. Python's open-source nature has been a key factor in its popularity, as it removes financial barriers to learning programming."
+        "question": "What is the output?<br><pre><code>print(10 / 3)\nprint(10 // 3)\nprint(10 % 3)</code></pre>",
+        "hint": "/ is division, // is floor division, % is remainder.",
+        "answer": "3.3333333333333335\n3\n1",
+        "explanation": "/ gives decimal result (3.33...), // gives integer quotient (3), and % gives remainder (1). These are the three division-related operators."
       },
       {
         "id": "ts-6",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Easy",
-        "question": "What file extension do Python files use?",
-        "hint": "It is a two-letter extension that comes from the first two letters of the language name.",
-        "answer": "Python files use the <strong>.py</strong> extension (for example, <code>hello.py</code>).",
-        "explanation": "When you save a Python program, you give it a name ending with .py. This tells your operating system and code editor that the file contains Python code. For example, a program called 'calculator' would be saved as calculator.py."
+        "question": "What is the output?<br><pre><code>x = 5\ny = 10\nprint(x + y)\nprint(x * y)\nprint(y - x)</code></pre>",
+        "hint": "Basic arithmetic with variables.",
+        "answer": "15\n50\n5",
+        "explanation": "x stores 5 and y stores 10. x + y = 15, x * y = 50, y - x = 5. Variables hold values that can be used in expressions."
       },
       {
         "id": "ts-7",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What does \"high-level language\" mean? Give an example of a low-level language.",
-        "hint": "Think about which is easier for humans to read and write.",
-        "answer": "A <strong>high-level language</strong> is a programming language that is closer to human language and farther from machine language. It abstracts away the complex details of the computer hardware. An example of a low-level language is <strong>Assembly language</strong>.",
-        "explanation": "High-level languages like Python, Java, and JavaScript are designed to be easy for humans to read and write. They use words like print, if, while, and for. Low-level languages like Assembly language use instructions that are much closer to what the CPU understands (like MOV, ADD, JMP). Low-level code is harder for humans to read but gives more control over the hardware."
+        "question": "Will this code work? What happens?<br><pre><code>Print(\"Hello\")</code></pre>",
+        "hint": "Python is case-sensitive.",
+        "answer": "NameError: name Print is not defined",
+        "explanation": "Python is case-sensitive. print() is valid but Print() is not — Python treats them as different names. Always use lowercase print()."
       },
       {
         "id": "ts-8",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Name any three areas (fields) where Python is used in the real world.",
-        "hint": "Think about websites, data, intelligence, and games.",
-        "answer": "Python is used in (any three of the following): <strong>web development</strong>, <strong>data science</strong>, <strong>artificial intelligence and machine learning</strong>, <strong>game development</strong>, <strong>automation and scripting</strong>, <strong>scientific computing</strong>, and <strong>desktop applications</strong>.",
-        "explanation": "Python's general-purpose nature means it can be applied in many different fields. Each field has specialized Python libraries — for example, Django for web development, pandas for data science, TensorFlow for AI, and Pygame for game development."
+        "question": "What is the output?<br><pre><code>print(2 ** 10)\nprint(2 ** 0)\nprint(5 ** 3)</code></pre>",
+        "hint": "** is the power/exponent operator.",
+        "answer": "1024\n1\n125",
+        "explanation": "2**10 = 1024 (2 raised to power 10), 2**0 = 1 (any number to power 0 is 1), 5**3 = 125 (5 cubed)."
       },
       {
         "id": "ts-9",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is REPL? What does each letter stand for?",
-        "hint": "It has four words. The first is Read, the last is Loop.",
-        "answer": "REPL stands for <strong>Read-Eval-Print-Loop</strong>. It is Python's interactive shell where you type commands and see results immediately.",
-        "explanation": "The REPL works in four steps that repeat: (1) Read — it reads the command you type, (2) Eval (Evaluate) — it processes and evaluates the command, (3) Print — it displays the result, (4) Loop — it goes back to step 1 and waits for your next command. You can open it by typing 'python' or 'python3' in your terminal."
+        "question": "What is the output?<br><pre><code>name = \"Python\"\nprint(len(name))\nprint(name[0])\nprint(name[-1])</code></pre>",
+        "hint": "len() gives length, [] accesses characters.",
+        "answer": "6\nP\nn",
+        "explanation": "len(\"Python\") is 6 (6 characters). name[0] is the first character \"P\". name[-1] is the last character \"n\". Indexing starts at 0."
       },
       {
         "id": "ts-10",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "What is the difference between an interpreter and a compiler?",
-        "hint": "Think about when the translation happens — all at once or one line at a time.",
-        "answer": "An <strong>interpreter</strong> translates and executes code one line at a time. A <strong>compiler</strong> translates the entire program into machine code first, and then the program is executed.",
-        "explanation": "With an interpreter (Python, JavaScript), you can run your code immediately and see errors as they occur in each line. With a compiler (C++, Java), the entire code must be error-free before it can be compiled and run. Interpreted languages are typically slower in execution but faster in development. Compiled languages produce faster programs but take longer to develop and test."
+        "question": "What is the output?<br><pre><code>a = True\nb = False\nprint(a and b)\nprint(a or b)\nprint(not a)</code></pre>",
+        "hint": "and, or, not are logical operators.",
+        "answer": "False\nTrue\nFalse",
+        "explanation": "True and False = False (both must be True). True or False = True (at least one True). not True = False (reverses the value)."
       },
       {
         "id": "ts-11",
@@ -224,46 +227,46 @@
         "id": "ts-12",
         "type": "coding",
         "difficulty": "Medium",
-        "question": "Write a Python program that prints the following three lines:<br>Line 1: I am learning Python.<br>Line 2: Python was created in 1991.<br>Line 3: It is a great language!",
-        "hint": "Use three separate print() statements, one for each line.",
-        "answer": "<pre><code>print(\"I am learning Python.\")\nprint(\"Python was created in 1991.\")\nprint(\"It is a great language!\")</code></pre>",
-        "explanation": "Each print() statement outputs its text and moves to the next line automatically. The program executes these three statements in order, from top to bottom, producing three lines of output."
+        "question": "Write a program that prints numbers from 1 to 5, each on a new line.",
+        "hint": "Use range() with a for loop.",
+        "answer": "for i in range(1, 6):\n    print(i)",
+        "explanation": "range(1, 6) generates numbers 1, 2, 3, 4, 5 (stops before 6). The for loop prints each number on its own line."
       },
       {
         "id": "ts-13",
-        "type": "short-answer",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Name any two companies that use Python and explain what they use it for.",
-        "hint": "Think of a video streaming platform and a social media app.",
-        "answer": "<strong>Netflix</strong> uses Python for its recommendation engine and data analysis. <strong>Instagram</strong> uses Python (Django framework) for its entire backend.",
-        "explanation": "Many large companies rely on Python. Google uses it for search and AI, Spotify uses it for data analysis, NASA uses it for scientific research, and many more. The fact that these major companies trust Python proves that it is not just a learning language but a powerful professional tool."
+        "question": "What is the output?<br><pre><code>for i in range(3):\n    print(\"*\" * (i + 1))</code></pre>",
+        "hint": "String * number repeats the string.",
+        "answer": "*\n**\n***",
+        "explanation": "When i=0: \"*\"*1 = \"*\". When i=1: \"*\"*2 = \"**\". When i=2: \"*\"*3 = \"***\". The * operator with strings repeats them."
       },
       {
         "id": "ts-14",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Medium",
-        "question": "Why is Python considered easier to learn than Java or C++?",
-        "hint": "Compare how many lines of code you need to write a simple \"Hello World\" program.",
-        "answer": "Python is easier because it has <strong>simpler, cleaner syntax</strong> that reads like English. A \"Hello World\" program takes just one line in Python (<code>print(\"Hello, World!\")</code>) compared to 5-6 lines in Java or C++.",
-        "explanation": "Python removes a lot of the 'boilerplate' code that other languages require. You do not need to declare a main function, include header files, specify data types, or use semicolons at the end of every line. This means beginners can focus on learning programming logic rather than memorizing syntax rules."
+        "question": "What is the output?<br><pre><code>x = [1, 2, 3, 4, 5]\nprint(sum(x))\nprint(max(x))\nprint(min(x))</code></pre>",
+        "hint": "sum(), max(), min() are built-in functions.",
+        "answer": "15\n5\n1",
+        "explanation": "sum() adds all elements (1+2+3+4+5=15). max() finds the largest (5). min() finds the smallest (1). These work on any iterable."
       },
       {
         "id": "ts-15",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "What is the difference between Python 2 and Python 3? Why should you use Python 3?",
-        "hint": "Think about support dates and compatibility.",
-        "answer": "Python 3 is the current and actively maintained version. Python 2 reached its <strong>end of life on January 1, 2020</strong>, meaning it no longer receives updates, security patches, or bug fixes. Python 3 has improved syntax (like <code>print()</code> as a function), better Unicode support, and many new features.",
-        "explanation": "Python 3 was released in 2008 as a major redesign of the language. It fixed inconsistencies and improved many features, but it was NOT backward-compatible with Python 2. This means some Python 2 code does not work in Python 3. Since Python 2 is no longer supported, all new projects, tutorials, and learning should use Python 3 exclusively."
+        "question": "Find the bug:<br><pre><code>age = input(\"Enter age: \")\nnext_year = age + 1\nprint(next_year)</code></pre>",
+        "hint": "input() always returns a string.",
+        "answer": "TypeError. Fix: next_year = int(age) + 1",
+        "explanation": "input() returns a string, so age is \"25\" not 25. You cannot add a string and an integer. Convert with int() first: int(age) + 1."
       },
       {
         "id": "ts-16",
-        "type": "conceptual",
+        "type": "coding",
         "difficulty": "Hard",
-        "question": "Explain what \"general-purpose\" means when describing Python. How is it different from a \"domain-specific\" language?",
-        "hint": "General-purpose means it can do many types of tasks. A domain-specific language is designed for one specific area.",
-        "answer": "A <strong>general-purpose language</strong> like Python can be used for many different types of tasks — web development, data analysis, game development, automation, and more. A <strong>domain-specific language</strong> (DSL) is designed for one specific area. For example, SQL is only for database queries, and HTML is only for structuring web pages.",
-        "explanation": "The strength of a general-purpose language is its versatility — you learn one language and can apply it in many fields. Domain-specific languages are more efficient for their specific task but cannot be used outside that area. Python's general-purpose nature is one of the main reasons it is recommended as a first language."
+        "question": "What is the output?<br><pre><code>print(\"Python\"[1:4])\nprint(\"Python\"[:3])\nprint(\"Python\"[::2])</code></pre>",
+        "hint": "String slicing: [start:stop:step].",
+        "answer": "yth\nPyt\nPto",
+        "explanation": "\"Python\"[1:4] = \"yth\" (index 1,2,3). [:3] = \"Pyt\" (first 3 chars). [::2] = \"Pto\" (every 2nd character)."
       },
       {
         "id": "ts-17",

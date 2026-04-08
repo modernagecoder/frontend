@@ -161,43 +161,75 @@
             <div class="question-card">
                 <div class="question-number">Question 1</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">Who created the Python programming language?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">He is a Dutch programmer who started the project during Christmas holidays in 1989.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Python was created by <strong>Guido van Rossum</strong>.</div></div>
+                <div class="question-text">What is the output of this code?<br><pre><code>print("Hello" + " " + "World")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-1" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-1">The + operator concatenates strings.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-1" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-1">Hello World</div></div>
 <div class="question-card">
                 <div class="question-number">Question 2</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">In which year was Python first released?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">It was in the early 1990s.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">Python was first released in <strong>1991</strong>.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>print(3 + 4)
+print("3" + "4")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-2" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-2">Numbers add, strings concatenate.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-2" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-2">7
+34</div></div>
 <div class="question-card">
                 <div class="question-number">Question 3</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">Where does the name "Python" come from?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">It is not named after the snake. Think of a British comedy show.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3">Python is named after the British comedy show <strong>"Monty Python's Flying Circus"</strong>, which Guido van Rossum was a fan of.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>print(type(42))
+print(type("hello"))
+print(type(3.14))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-3" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-3">type() shows the data type of a value.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-3" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-3"><class 'int'>
+<class 'str'>
+<class 'float'></div></div>
 <div class="question-card">
                 <div class="question-number">Question 4</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What does it mean when we say Python is an "interpreted" language?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Think about how the Python interpreter reads your code. Does it read everything at once or one line at a time?</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">An interpreted language is one where the code is executed <strong>line by line</strong> by an interpreter, rather than being converted into machine code all at once by a compiler.</div></div>
+                <div class="question-text">Find the bug:<br><pre><code>print("Welcome to Python)
+print("Let us begin")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-4" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-4">Check all quotes carefully.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-4" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-4">Missing closing quote on line 1. Fix: print("Welcome to Python")</div></div>
 <div class="question-card">
                 <div class="question-number">Question 5</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">Is Python free to use? What term describes this kind of software?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">The term means the source code is publicly available and anyone can use it.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">Yes, Python is completely free. It is called <strong>open-source software</strong>.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>print(10 / 3)
+print(10 // 3)
+print(10 % 3)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-5" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-5">/ is division, // is floor division, % is remainder.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-5" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-5">3.3333333333333335
+3
+1</div></div>
 <div class="question-card">
                 <div class="question-number">Question 6</div>
                 <span class="question-difficulty easy">Easy</span>
-                <div class="question-text">What file extension do Python files use?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">It is a two-letter extension that comes from the first two letters of the language name.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">Python files use the <strong>.py</strong> extension (for example, <code>hello.py</code>).</div></div>
+                <div class="question-text">What is the output?<br><pre><code>x = 5
+y = 10
+print(x + y)
+print(x * y)
+print(y - x)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-6" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-6">Basic arithmetic with variables.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-6" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-6">15
+50
+5</div></div>
 <div class="question-card">
                 <div class="question-number">Question 7</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What does "high-level language" mean? Give an example of a low-level language.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Think about which is easier for humans to read and write.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">A <strong>high-level language</strong> is a programming language that is closer to human language and farther from machine language. It abstracts away the complex details of the computer hardware. An example of a low-level language is <strong>Assembly language</strong>.</div></div>
+                <div class="question-text">Will this code work? What happens?<br><pre><code>Print("Hello")</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-7" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-7">Python is case-sensitive.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-7" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-7">NameError: name Print is not defined</div></div>
 <div class="question-card">
                 <div class="question-number">Question 8</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Name any three areas (fields) where Python is used in the real world.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">Think about websites, data, intelligence, and games.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">Python is used in (any three of the following): <strong>web development</strong>, <strong>data science</strong>, <strong>artificial intelligence and machine learning</strong>, <strong>game development</strong>, <strong>automation and scripting</strong>, <strong>scientific computing</strong>, and <strong>desktop applications</strong>.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>print(2 ** 10)
+print(2 ** 0)
+print(5 ** 3)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-8" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-8">** is the power/exponent operator.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-8" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-8">1024
+1
+125</div></div>
 <div class="question-card">
                 <div class="question-number">Question 9</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is REPL? What does each letter stand for?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">It has four words. The first is Read, the last is Loop.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">REPL stands for <strong>Read-Eval-Print-Loop</strong>. It is Python's interactive shell where you type commands and see results immediately.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>name = "Python"
+print(len(name))
+print(name[0])
+print(name[-1])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-9" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-9">len() gives length, [] accesses characters.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-9" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-9">6
+P
+n</div></div>
 <div class="question-card">
                 <div class="question-number">Question 10</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">What is the difference between an interpreter and a compiler?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">Think about when the translation happens — all at once or one line at a time.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">An <strong>interpreter</strong> translates and executes code one line at a time. A <strong>compiler</strong> translates the entire program into machine code first, and then the program is executed.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>a = True
+b = False
+print(a and b)
+print(a or b)
+print(not a)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-10" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-10">and, or, not are logical operators.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-10" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-10">False
+True
+False</div></div>
 <div class="question-card">
                 <div class="question-number">Question 11</div>
                 <span class="question-difficulty easy">Easy</span>
@@ -205,25 +237,38 @@
 <div class="question-card">
                 <div class="question-number">Question 12</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Write a Python program that prints the following three lines:<br>Line 1: I am learning Python.<br>Line 2: Python was created in 1991.<br>Line 3: It is a great language!</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Use three separate print() statements, one for each line.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12"><pre><code>print("I am learning Python.")
-print("Python was created in 1991.")
-print("It is a great language!")</code></pre></div></div>
+                <div class="question-text">Write a program that prints numbers from 1 to 5, each on a new line.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-12" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-12">Use range() with a for loop.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-12" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-12">for i in range(1, 6):
+    print(i)</div></div>
 <div class="question-card">
                 <div class="question-number">Question 13</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Name any two companies that use Python and explain what they use it for.</div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">Think of a video streaming platform and a social media app.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13"><strong>Netflix</strong> uses Python for its recommendation engine and data analysis. <strong>Instagram</strong> uses Python (Django framework) for its entire backend.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>for i in range(3):
+    print("*" * (i + 1))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-13" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-13">String * number repeats the string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-13" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-13">*
+**
+***</div></div>
 <div class="question-card">
                 <div class="question-number">Question 14</div>
                 <span class="question-difficulty medium">Medium</span>
-                <div class="question-text">Why is Python considered easier to learn than Java or C++?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">Compare how many lines of code you need to write a simple "Hello World" program.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">Python is easier because it has <strong>simpler, cleaner syntax</strong> that reads like English. A "Hello World" program takes just one line in Python (<code>print("Hello, World!")</code>) compared to 5-6 lines in Java or C++.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>x = [1, 2, 3, 4, 5]
+print(sum(x))
+print(max(x))
+print(min(x))</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-14" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-14">sum(), max(), min() are built-in functions.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-14" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-14">15
+5
+1</div></div>
 <div class="question-card">
                 <div class="question-number">Question 15</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">What is the difference between Python 2 and Python 3? Why should you use Python 3?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">Think about support dates and compatibility.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">Python 3 is the current and actively maintained version. Python 2 reached its <strong>end of life on January 1, 2020</strong>, meaning it no longer receives updates, security patches, or bug fixes. Python 3 has improved syntax (like <code>print()</code> as a function), better Unicode support, and many new features.</div></div>
+                <div class="question-text">Find the bug:<br><pre><code>age = input("Enter age: ")
+next_year = age + 1
+print(next_year)</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-15" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-15">input() always returns a string.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-15" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-15">TypeError. Fix: next_year = int(age) + 1</div></div>
 <div class="question-card">
                 <div class="question-number">Question 16</div>
                 <span class="question-difficulty hard">Hard</span>
-                <div class="question-text">Explain what "general-purpose" means when describing Python. How is it different from a "domain-specific" language?</div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">General-purpose means it can do many types of tasks. A domain-specific language is designed for one specific area.</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">A <strong>general-purpose language</strong> like Python can be used for many different types of tasks — web development, data analysis, game development, automation, and more. A <strong>domain-specific language</strong> (DSL) is designed for one specific area. For example, SQL is only for database queries, and HTML is only for structuring web pages.</div></div>
+                <div class="question-text">What is the output?<br><pre><code>print("Python"[1:4])
+print("Python"[:3])
+print("Python"[::2])</code></pre></div><button type="button" class="collapsible-toggle" data-target="hint-ts-16" data-label-closed="Show Hint" data-label-open="Hide Hint" aria-expanded="false">Show Hint</button><div class="collapsible-content" id="hint-ts-16">String slicing: [start:stop:step].</div><button type="button" class="collapsible-toggle" data-target="answer-ts-16" data-label-closed="Show Answer" data-label-open="Hide Answer" aria-expanded="false">Show Answer</button><div class="collapsible-content" id="answer-ts-16">yth
+Pyt
+Pto</div></div>
 <div class="question-card">
                 <div class="question-number">Question 17</div>
                 <span class="question-difficulty hard">Hard</span>
